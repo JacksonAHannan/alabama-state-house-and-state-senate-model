@@ -1,0 +1,275 @@
+cycle,chamber,district,party,wikipedia_candidate,official_candidate,match_score,incumbent,winner_wikipedia,match_status
+2014,house,1,D,Greg Burdine,Greg Burdine,1.0,True,False,matched
+2014,house,2,R,Lynn Greer,Lynn Greer,1.0,True,True,matched
+2014,house,3,D,Marcel Black,Marcel Black,1.0,True,True,matched
+2014,house,4,R,Micky Hammon,Micky Hammon,1.0,True,True,matched
+2014,house,5,R,Dan Williams,Dan Williams,1.0,True,True,matched
+2014,house,7,R,Ken Johnson,Ken Johnson,1.0,True,True,matched
+2014,house,10,R,Mike Ball,Mike Ball,1.0,True,True,matched
+2014,house,11,R,Jeremy H. Oden,,0.15384615384615385,True,True,review
+2014,house,16,D,Daniel Boman,Daniel H. Boman,0.9230769230769231,True,False,matched
+2014,house,17,D,Mike Millican,,0.24,True,True,review
+2014,house,18,D,Johnny Mack Morrow,Johnny MacK Morrow,1.0,True,True,matched
+2014,house,19,D,Laura Hall,Laura Hall,1.0,True,True,matched
+2014,house,20,R,Howard Sanderford,Howard Sanderford,1.0,True,True,matched
+2014,house,21,D,Randy Hinshaw,,0.38461538461538464,True,False,review
+2014,house,23,D,John Robinson,John Robinson,1.0,True,True,matched
+2014,house,24,R,Todd Greeson,,0.19047619047619047,True,True,review
+2014,house,25,R,Mac McCutcheon,Mac McCutcheon,1.0,True,True,matched
+2014,house,28,D,Craig Ford,Craig Ford,1.0,True,True,matched
+2014,house,29,D,Michael Gladden,Michael J. Gladden,0.9375,True,False,matched
+2014,house,30,R,Blaine Galliher,,0.2857142857142857,True,True,review
+2014,house,31,R,Barry Mask,,0.2857142857142857,True,True,review
+2014,house,32,D,Barbara Bigsby-Boyd,Barbara Bigsby Boyd,1.0,True,True,matched
+2014,house,33,R,Ron Johnson,Ron Johnson,1.0,True,True,matched
+2014,house,34,R,Elwyn Thomas,,0.07142857142857142,True,True,review
+2014,house,35,D,Steve Hurst,,0.0,True,True,review
+2014,house,36,R,Randy Wood,Randy Wood,1.0,True,True,matched
+2014,house,37,D,Richard Laird,,0.08695652173913043,True,True,review
+2014,house,38,R,DuWayne Bridges,,0.14285714285714285,True,True,review
+2014,house,39,D,Richard Lindsey,Richard Lindsey,1.0,True,True,matched
+2014,house,41,R,Mike Hill,Mike Hill,1.0,True,True,matched
+2014,house,43,R,Mary Sue McClurkin,,0.3225806451612903,True,True,review
+2014,house,44,R,Arthur Payne,,0.24,True,True,review
+2014,house,45,R,Dickie Drake,Dickie Drake,1.0,True,True,matched
+2014,house,46,R,Paul DeMarco,,0.38461538461538464,True,True,review
+2014,house,47,R,Jack Williams,Jack Williams,1.0,True,True,matched
+2014,house,48,R,Greg Canfield,,0.36363636363636365,True,True,review
+2014,house,50,R,Jim McClendon,,0.47619047619047616,True,True,review
+2014,house,51,R,Allen Treadaway,Allen Treadaway,1.0,True,True,matched
+2014,house,52,D,John Rogers,John W. Rogers  Jr.,0.9166666666666666,True,True,matched
+2014,house,53,D,Demetrius Newton,,0.1935483870967742,True,True,review
+2014,house,54,D,Patricia Todd,Patricia A. Todd,0.9285714285714286,True,True,matched
+2014,house,55,D,Rod Scott,,0.6666666666666666,True,True,review
+2014,house,56,D,Lawrence McAdory,,0.375,True,True,review
+2014,house,57,D,Merika Coleman,Merika Coleman,1.0,True,True,matched
+2014,house,58,D,Oliver Robinson,Oliver Robinson,1.0,True,True,matched
+2014,house,59,D,Mary Moore,Mary Moore,1.0,True,True,matched
+2014,house,61,D,Alan Harper,,0.0,True,True,review
+2014,house,64,R,Harry Shiver,Harry Shiver,1.0,True,True,matched
+2014,house,66,R,Alan Baker,Alan Baker,1.0,True,True,matched
+2014,house,68,D,Thomas E. (Action) Jackson,"Thomas E ""Action"" Jackson",1.0,True,True,matched
+2014,house,70,D,Christopher John England,Christopher John England,1.0,True,True,matched
+2014,house,71,D,"Artis ""A. J."" McCampbell",Artis (A.J.) McCampbell,1.0,True,True,matched
+2014,house,72,D,Ralph A. Howard,Ralph A. Howard,1.0,True,True,matched
+2014,house,74,R,Jay Love,,0.2608695652173913,True,True,review
+2014,house,75,R,Greg Wren,,0.2,True,True,review
+2014,house,76,D,Thad McClammy,Thad McClammy,1.0,True,True,matched
+2014,house,77,D,John Knight,John Knight,1.0,True,True,matched
+2014,house,78,D,Alvin Holmes,Alvin Holmes,1.0,True,True,matched
+2014,house,79,R,Mike Hubbard,Mike Hubbard,1.0,True,True,matched
+2014,house,80,D,Lesley Vance,,0.3333333333333333,True,True,review
+2014,house,81,D,Betty Carol Graham,,0.3125,True,False,review
+2014,house,82,D,Pebblin W. Warren,Pebblin W. Warren,1.0,True,True,matched
+2014,house,83,D,"George ""Tootie"" Bandy","George ""Tootie"" Bandy",1.0,True,True,matched
+2014,house,89,D,Alan C. Boothe,,0.06666666666666667,True,True,review
+2014,house,90,D,Charles Newton,,0.35714285714285715,True,True,review
+2014,house,91,D,Terry Spicer,,0.0,True,False,review
+2014,house,93,R,Steve Clouse,Steve Clouse,1.0,True,True,matched
+2014,house,94,R,Joe Faust,T. Joe Faust,0.9,True,True,matched
+2014,house,95,R,Steve McMillan,Steve McMillan,1.0,True,True,matched
+2014,house,96,R,Randy Davis,Randy Davis,1.0,True,True,matched
+2014,house,97,D,Yvonne Kennedy,,0.3448275862068966,True,True,review
+2014,house,99,D,James E. Buskey,James E. Buskey,1.0,True,True,matched
+2014,house,100,R,Victor Gaston,Victor Gaston,1.0,True,True,matched
+2014,house,101,R,Jamie Ison,,0.2608695652173913,True,True,review
+2014,house,102,R,Chad Fincher,,0.16,True,True,review
+2014,house,103,D,Joseph C. Mitchell,,0.05714285714285714,True,True,review
+2014,house,104,R,Jim Barton,,0.34782608695652173,True,True,review
+2014,house,105,R,Spencer Collier,,0.20689655172413793,True,True,review
+2014,senate,3,R,Arthur Orr,Arthur Orr,1.0,True,True,matched
+2018,house,1,R,Phillip Pettus,Phillip Pettus,1.0,True,True,matched
+2018,house,2,R,Lynn Greer,Lynn Greer,1.0,True,True,matched
+2018,house,4,R,Parker Moore,,0.7741935483870968,True,True,review
+2018,house,5,R,Danny Crawford,Danny F. Crawford,0.9333333333333333,True,True,matched
+2018,house,8,R,Terri Collins,Terri Collins,1.0,True,True,matched
+2018,house,10,R,Mike Ball,Mike Ball,1.0,True,True,matched
+2018,house,11,R,Randall Shedd,Randall Shedd,1.0,True,True,matched
+2018,house,12,R,Corey Harbison,Corey Harbison,1.0,True,True,matched
+2018,house,13,R,Connie Rowe,,0.7586206896551724,True,True,review
+2018,house,14,R,Tim Wadsworth,Tim Wadsworth,1.0,True,True,matched
+2018,house,15,R,Allen Farley,Allen Farley,1.0,True,True,matched
+2018,house,16,R,Kyle South,Kyle South,1.0,True,True,matched
+2018,house,19,D,Laura Hall,Laura Hall,1.0,True,True,matched
+2018,house,20,R,Howard Sanderford,Howard Sanderford,1.0,True,True,matched
+2018,house,21,R,Rex Reynolds,Rex Reynolds,1.0,True,True,matched
+2018,house,22,R,Ritchie Whorton,Ritchie Whorton,1.0,True,True,matched
+2018,house,23,R,Tommy Hanes,Tommy Hanes,1.0,True,True,matched
+2018,house,24,R,Nathaniel Ledbetter,Nathaniel Ledbetter,1.0,True,True,matched
+2018,house,25,R,Mac McCutcheon,Mac McCutcheon,1.0,True,True,matched
+2018,house,26,R,Kerry Rich,Kerry Rich,1.0,True,True,matched
+2018,house,29,R,Becky Nordgren,Becky Nordgren,1.0,True,True,matched
+2018,house,31,R,Mike Holmes,Mike Holmes,1.0,True,True,matched
+2018,house,32,D,Barbara Boyd,,0.7741935483870968,True,True,review
+2018,house,33,R,Ronald Johnson,Ron Johnson,0.88,True,True,matched
+2018,house,34,R,David Standridge,David Standridge,1.0,True,True,matched
+2018,house,35,R,Steve Hurst,Steve Hurst,1.0,True,True,matched
+2018,house,36,R,Randy Wood,Randy Wood,1.0,True,True,matched
+2018,house,37,R,Bob Fincher,Bob Fincher,1.0,True,True,matched
+2018,house,40,R,K. L. Brown,,0.75,True,True,review
+2018,house,41,R,Corley Ellis,Corley Ellis,1.0,True,True,matched
+2018,house,42,R,Jimmy Martin,,0.75,True,True,review
+2018,house,43,R,Arnold Mooney,Arnold G. Mooney II,0.9285714285714286,True,True,matched
+2018,house,44,R,Danny Garrett,Danny Garrett,1.0,True,True,matched
+2018,house,45,R,Dickie Drake,Dickie Drake,1.0,True,True,matched
+2018,house,46,R,David Faulkner,David Faulkner,1.0,True,True,matched
+2018,house,48,R,Jim Carns,Jim Carns,1.0,True,True,matched
+2018,house,49,R,April Weaver,April Weaver,1.0,True,True,matched
+2018,house,50,R,Jim Hill,Jim Hill,1.0,True,True,matched
+2018,house,51,R,Allen Treadaway,Allen Treadaway,1.0,True,True,matched
+2018,house,52,D,John Rogers,"John W. Rogers, Jr.",0.9166666666666666,True,True,matched
+2018,house,53,D,Anthony Daniels,Anthony Daniels,1.0,True,True,matched
+2018,house,55,D,Rod Scott,,0.5142857142857142,True,True,review
+2018,house,56,D,Louise Alexander,"Louise ""Lulu"" Alexander",0.8648648648648649,True,True,matched
+2018,house,57,D,Merika Coleman,Merika Coleman,1.0,True,True,matched
+2018,house,58,D,Rolanda Hollis,Rolanda Hollis,1.0,True,True,matched
+2018,house,59,D,Mary Moore,Mary Moore,1.0,True,True,matched
+2018,house,60,D,Juandalynn Givan,Juandalynn Givan,1.0,True,True,matched
+2018,house,62,R,Rich Wingo,Rich Wingo,1.0,True,True,matched
+2018,house,63,R,Bill Poole,Bill Poole,1.0,True,True,matched
+2018,house,64,R,Harry Shiver,Harry Shiver,1.0,True,True,matched
+2018,house,65,D,Elaine Beech,Elaine Beech,1.0,True,False,matched
+2018,house,66,R,Alan Baker,Alan Baker,1.0,True,True,matched
+2018,house,67,D,Prince Chestnut,Prince Chestnut,1.0,True,True,matched
+2018,house,68,D,Thomas Jackson,,0.7567567567567568,True,True,review
+2018,house,69,D,Kelvin Lawrence,,0.75,True,True,review
+2018,house,70,D,Christopher J. England,Christopher John England,0.9333333333333333,True,True,matched
+2018,house,71,D,Artis J. McCampbell,"Artis ""A.J."" McCampbell",0.9473684210526315,True,True,matched
+2018,house,72,D,Ralph Anthony Howard,,0.8235294117647058,True,True,review
+2018,house,73,R,Matt Fridy,Matt Fridy,1.0,True,True,matched
+2018,house,74,R,Dimitri Polizos,Dimitri Polizos,1.0,True,True,matched
+2018,house,75,R,Reed Ingram,Reed Ingram,1.0,True,True,matched
+2018,house,76,D,Thad McClammy,Thad McClammy,1.0,True,True,matched
+2018,house,79,R,Joe Lovvorn,Joe Lovvorn,1.0,True,True,matched
+2018,house,80,R,Chris Blackshear,Chris E. Blackshear,0.9411764705882353,True,True,matched
+2018,house,82,D,Pebblin Warren,,0.8,True,True,review
+2018,house,84,D,Berry Forte,Berry Forte,1.0,True,True,matched
+2018,house,85,D,Dexter Grimsley,Dexter Grimsley,1.0,True,True,matched
+2018,house,86,R,Paul Lee,Paul W. Lee,0.8888888888888888,True,True,matched
+2018,house,90,R,Chris Sells,Chris Sells,1.0,True,True,matched
+2018,house,93,R,Steve Clouse,Steve Clouse,1.0,True,True,matched
+2018,house,94,R,Joe Faust,Joe Faust,1.0,True,True,matched
+2018,house,95,R,Steve McMillan,Steve McMillan,1.0,True,True,matched
+2018,house,97,D,Adline Clarke,Adline C. Clarke,0.9285714285714286,True,True,matched
+2018,house,98,D,Napoleon Bracy Jr.,"Napoleon Bracy, Jr.",1.0,True,True,matched
+2018,house,100,R,Victor Gaston,Victor Gaston,1.0,True,True,matched
+2018,house,101,R,Chris Pringle,Chris Pringle,1.0,True,True,matched
+2018,house,103,D,Barbara Drummond,Barbara Drummond,1.0,True,True,matched
+2018,house,104,R,Margie Wilcox,Margie Wilcox,1.0,True,True,matched
+2018,senate,1,R,Tim Melson,Tim Melson,1.0,True,True,matched
+2018,senate,3,R,Arthur Orr,Arthur Orr,1.0,True,True,matched
+2018,senate,5,R,Greg Reed,Greg J. Reed,0.9,True,True,matched
+2018,senate,6,R,Larry Stutts,Larry Stutts,1.0,True,True,matched
+2018,senate,8,R,Steve Livingston,Steve Livingston,1.0,True,True,matched
+2018,senate,9,R,Clay Scofield,Clay Scofield,1.0,True,True,matched
+2018,senate,11,R,Jim McClendon,Jim McClendon,1.0,True,True,matched
+2018,senate,12,R,Del Marsh,Del Marsh,1.0,True,True,matched
+2018,senate,14,R,Cam Ward,Cam Ward,1.0,True,True,matched
+2018,senate,16,R,Jabo Waggoner,"J.T. ""Jabo"" Waggoner",0.8666666666666667,True,True,matched
+2018,senate,17,R,Shay Shelnutt,Shay Shelnutt,1.0,True,True,matched
+2018,senate,18,D,Rodger Smitherman,Rodger M. Smitherman,0.9444444444444444,True,True,matched
+2018,senate,19,D,Priscilla Dunn,Priscilla Dunn,1.0,True,True,matched
+2018,senate,20,D,Linda Coleman-Madison,Linda Coleman-Madison,1.0,True,True,matched
+2018,senate,21,R,Gerald Allen,Gerald Allen,1.0,True,True,matched
+2018,senate,22,R,Greg Albritton,Greg Albritton,1.0,True,True,matched
+2018,senate,24,D,Bobby Singleton,Bobby Singleton,1.0,True,True,matched
+2018,senate,26,D,David Burkette,,0.8235294117647058,True,True,review
+2018,senate,27,R,Tom Whatley,Tom Whatley,1.0,True,True,matched
+2018,senate,28,D,Billy Beasley,Billy Beasley,1.0,True,True,matched
+2018,senate,30,R,"Clyde Chambliss, Jr.","Clyde Chambliss, Jr.",1.0,True,True,matched
+2018,senate,31,R,Jimmy Holley,Jimmy W. Holley,0.9230769230769231,True,True,matched
+2018,senate,33,D,Vivian Davis Figures,Vivian Davis Figures,1.0,True,True,matched
+2022,house,1,R,Phillip Pettus,Phillip Pettus,1.0,True,True,matched
+2022,house,4,R,Parker Duncan Moore,Parker Duncan Moore,1.0,True,True,matched
+2022,house,7,R,Proncey Robertson,,0.125,True,False,review
+2022,house,9,R,Scott Stadthagen,Scott Stadthagen,1.0,True,True,matched
+2022,house,11,R,Randall Shedd,Randall Shedd,1.0,True,True,matched
+2022,house,12,R,Corey Harbison,Corey Harbison,1.0,True,True,matched
+2022,house,14,R,"Timothy ""Tim"" Wadsworth",Timothy (Tim) Wadsworth,1.0,True,True,matched
+2022,house,16,R,Kyle South,Kyle South,1.0,True,True,matched
+2022,house,17,R,Tracy Estes,Tracy Estes,1.0,True,True,matched
+2022,house,18,R,Jamie Kiel,Jamie Kiel,1.0,True,True,matched
+2022,house,19,D,Laura Hall,Laura Hall,1.0,True,True,matched
+2022,house,21,R,Rex Reynolds,Rex Reynolds,1.0,True,True,matched
+2022,house,22,R,Ritchie Whorton,Ritchie Whorton,1.0,True,True,matched
+2022,house,23,R,Tommy Hanes,,0.3333333333333333,True,False,review
+2022,house,24,R,Nathaniel Ledbetter,Nathaniel Ledbetter,1.0,True,True,matched
+2022,house,27,R,Wes Kitchens,Wes Kitchens,1.0,True,True,matched
+2022,house,28,R,Gil Isbell,,0.17391304347826086,True,False,review
+2022,house,30,R,Craig Lipscomb,Craig Lipscomb,1.0,True,True,matched
+2022,house,32,D,Barbara Boyd,,0.7741935483870968,True,True,review
+2022,house,33,R,Ben Robbins,Ben Robbins,1.0,True,True,matched
+2022,house,34,R,David Standridge,David Standridge,1.0,True,True,matched
+2022,house,35,R,Steve Hurst,Steve Hurst,1.0,True,True,matched
+2022,house,36,R,Randy Wood,Randy Wood,1.0,True,True,matched
+2022,house,37,R,Bob Fincher,Bob Fincher,1.0,True,True,matched
+2022,house,38,R,Debbie Hamby Wood,Debbie Hamby Wood,1.0,True,True,matched
+2022,house,39,R,Ginny Shaver,Ginny Shaver,1.0,True,True,matched
+2022,house,41,R,Corley Ellis,Corley Ellis,1.0,True,True,matched
+2022,house,42,R,"Ivan ""Van"" Smith",,0.782608695652174,True,True,review
+2022,house,43,R,Arnold Mooney,Arnold Mooney,1.0,True,True,matched
+2022,house,44,R,Danny Garrett,Danny Garrett,1.0,True,True,matched
+2022,house,45,R,Dickie Drake,,0.25,True,False,review
+2022,house,48,R,Jim Carns,Jim Carns,1.0,True,True,matched
+2022,house,49,R,Russell Bedsole,Russell Bedsole,1.0,True,True,matched
+2022,house,52,D,"John W. Rogers, Jr.",John W. Rogers Jr.,1.0,True,True,matched
+2022,house,54,D,Neil Rafferty,Neil Rafferty,1.0,True,True,matched
+2022,house,55,D,"Roderick ""Rod"" Scott",,0.35294117647058826,True,False,review
+2022,house,58,D,Rolanda Hollis,Rolanda Hollis,1.0,True,True,matched
+2022,house,59,D,Mary Moore,Mary Moore,1.0,True,True,matched
+2022,house,60,D,Juandalynn Givan,Juandalynn Givan,1.0,True,True,matched
+2022,house,63,R,Cynthia Almond,Cynthia Lee Almond,0.875,True,True,matched
+2022,house,65,R,Brett Easterbrook,Brett Easterbrook,1.0,True,True,matched
+2022,house,66,R,Alan Baker,Alan Baker,1.0,True,True,matched
+2022,house,67,D,Prince Chestnut,Prince Chestnut,1.0,True,True,matched
+2022,house,68,D,"Thomas E. ""Action"" Jackson","Thomas E. ""Action"" Jackson",1.0,True,True,matched
+2022,house,72,D,Ralph A. Howard,,0.13793103448275862,True,False,review
+2022,house,76,D,"Patrice ""Penni"" McClammy","Patrice ""Penni"" Mcclammy",1.0,True,True,matched
+2022,house,79,R,Joe Lovvorn,Joe Lovvorn,1.0,True,True,matched
+2022,house,80,R,Chris E. Blackshear,Chris E. Blackshear,1.0,True,True,matched
+2022,house,81,R,Ed Oliver,Ed Oliver,1.0,True,True,matched
+2022,house,82,D,Pebblin Walker Warren,Pebblin Walker Warren,1.0,True,True,matched
+2022,house,83,D,Jeremy Gray,Jeremy Gray,1.0,True,True,matched
+2022,house,84,D,Berry Forte,Berry Forte,1.0,True,True,matched
+2022,house,85,D,Dexter Grimsley,Dexter Grimsley,1.0,True,False,matched
+2022,house,86,R,Paul W. Lee,Paul W. Lee,1.0,True,True,matched
+2022,house,87,R,Jeff Sorrells,Jeff Sorrells,1.0,True,True,matched
+2022,house,88,R,Will Dismukes,,0.3076923076923077,True,False,review
+2022,house,90,R,Chris Sells,Chris Sells,1.0,True,True,matched
+2022,house,91,R,Rhett Marques,Rhett Marques,1.0,True,True,matched
+2022,house,93,R,Steve Clouse,Steve Clouse,1.0,True,True,matched
+2022,house,94,R,Joe Faust,,0.3333333333333333,True,False,review
+2022,house,96,R,Matt Simpson,Matt Simpson,1.0,True,True,matched
+2022,house,97,D,Adline Clarke,Adline Clarke,1.0,True,True,matched
+2022,house,98,D,"Napoleon Bracy, Jr.","Napoleon Bracy, Jr.",1.0,True,True,matched
+2022,house,99,D,Sam Jones,Sam Jones,1.0,True,True,matched
+2022,senate,1,R,Tim Melson,Tim Melson,1.0,True,True,matched
+2022,senate,2,R,Tom Butler,Tom Butler,1.0,True,True,matched
+2022,senate,3,R,Arthur Orr,Arthur Orr,1.0,True,True,matched
+2022,senate,4,R,Garlan Gudger,Garlan Gudger,1.0,True,True,matched
+2022,senate,5,R,Greg Reed,Greg J Reed,0.9,True,True,matched
+2022,senate,6,R,Larry Stutts,Larry Stutts,1.0,True,True,matched
+2022,senate,7,R,Sam Givhan,Sam Givhan,1.0,True,True,matched
+2022,senate,8,R,Steve Livingston,Steve Livingston,1.0,True,True,matched
+2022,senate,9,R,Clay Scofield,Clay Scofield,1.0,True,True,matched
+2022,senate,10,R,Andrew Jones,Andrew Jones,1.0,True,True,matched
+2022,senate,13,R,Randy Price,Randy Price,1.0,True,True,matched
+2022,senate,14,R,April Weaver,April Weaver,1.0,True,True,matched
+2022,senate,15,R,Dan Roberts,Dan Roberts,1.0,True,True,matched
+2022,senate,16,R,"J. T. ""Jabo"" Waggoner","J.T. ""Jabo"" Waggoner",1.0,True,True,matched
+2022,senate,17,R,Shay Shelnutt,Shay Shelnutt,1.0,True,True,matched
+2022,senate,18,D,Rodger Smitherman,Rodger M. Smitherman,0.9444444444444444,True,True,matched
+2022,senate,20,D,Linda Coleman-Madison,Linda Coleman-Madison,1.0,True,True,matched
+2022,senate,21,R,Gerald Allen,Gerald Allen,1.0,True,True,matched
+2022,senate,22,R,Greg Albritton,Greg Albritton,1.0,True,True,matched
+2022,senate,24,D,Bobby Singleton,Bobby Singleton,1.0,True,True,matched
+2022,senate,25,R,Will Barfoot,Will Barfoot,1.0,True,True,matched
+2022,senate,26,D,Kirk Hatcher,Kirk Hatcher,1.0,True,True,matched
+2022,senate,27,R,Tom Whatley,,0.3,True,False,review
+2022,senate,28,D,Billy Beasley,Billy Beasley,1.0,True,True,matched
+2022,senate,29,R,Donnie Chesteen,Donnie Chesteen,1.0,True,True,matched
+2022,senate,30,R,Clyde Chambliss Jr.,"Clyde Chambliss, Jr.",1.0,True,True,matched
+2022,senate,32,R,Chris Elliott,Chris Elliott,1.0,True,True,matched
+2022,senate,33,D,Vivian Figures,,0.8235294117647058,True,True,review
+2022,senate,34,R,Jack Williams,Jack Williams,1.0,True,True,matched
+2022,senate,35,R,David Sessions,David Sessions,1.0,True,True,matched

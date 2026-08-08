@@ -1,0 +1,37 @@
+cycle,chamber,office,source_votes_with_join,allocated_votes,allocation_reconciliation_ratio
+2014,house,Attorney General,989824.0,989822.0,0.9999979794387689
+2014,house,Governor,1386450.0,1386448.0,0.9999985574669119
+2014,house,Lieutenant Governor,1329696.0,1329694.0,0.9999984958968064
+2014,house,State Treasurer,882318.0,882316.0,0.9999977332435698
+2014,senate,Attorney General,989824.0,989824.0,1.0
+2014,senate,Governor,1393438.0,1393438.0,1.0
+2014,senate,Lieutenant Governor,1336683.0,1336683.0,1.0
+2014,senate,State Treasurer,888653.0,888653.0,1.0
+2018,house,Attorney General,1705643.0,1705640.0,0.999998241132523
+2018,house,Commissioner of Agriculture and Industries,1080234.0,1080232.0,0.9999981485492958
+2018,house,Governor,1715287.0,1715284.0,0.9999982510215492
+2018,house,Lieutenant Governor,1703311.0,1703308.0,0.9999982387244608
+2018,house,Secretary of State,1689336.0,1689333.0,0.9999982241543423
+2018,house,State Auditor,1682524.0,1682521.0,0.9999982169645129
+2018,house,State Treasurer,1083859.0,1083857.0,0.9999981547415301
+2018,senate,Attorney General,1705643.0,1705641.0,0.999998827421682
+2018,senate,Commissioner of Agriculture and Industries,1080234.0,1080232.0,0.9999981485492958
+2018,senate,Governor,1715287.0,1715285.0,0.9999988340143661
+2018,senate,Lieutenant Governor,1703311.0,1703309.0,0.9999988258163072
+2018,senate,Secretary of State,1689336.0,1689334.0,0.9999988161028949
+2018,senate,State Auditor,1682524.0,1682522.0,0.9999988113096753
+2018,senate,State Treasurer,1083859.0,1083857.0,0.9999981547415301
+2022,house,Attorney General,1405968.0,1405968.0,1.0
+2022,house,Commissioner of Agriculture and Industries,946155.0,946155.0,1.0
+2022,house,Governor,1359893.0,1359893.0,1.0
+2022,house,Lieutenant Governor,957534.0,957534.0,1.0
+2022,house,Secretary of State,1362129.0,1362129.0,1.0
+2022,house,State Auditor,949871.0,949871.0,1.0
+2022,house,State Treasurer,946936.0,946936.0,1.0
+2022,senate,Attorney General,1405968.0,1405968.0,1.0
+2022,senate,Commissioner of Agriculture and Industries,946155.0,946155.0,1.0
+2022,senate,Governor,1359893.0,1359893.0,1.0
+2022,senate,Lieutenant Governor,957534.0,957534.0,1.0
+2022,senate,Secretary of State,1362129.0,1362129.0,1.0
+2022,senate,State Auditor,949871.0,949871.0,1.0
+2022,senate,State Treasurer,946936.0,946936.0,1.0

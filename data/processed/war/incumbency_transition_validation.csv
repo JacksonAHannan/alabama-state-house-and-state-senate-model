@@ -1,0 +1,421 @@
+cycle,chamber,prior_district,prior_winner,prior_party,current_incumbent_match,match_score,transition_status
+2014,house,1,Greg Burdine,D,Greg Burdine,1.0,continuing_incumbent
+2014,house,2,Lynn Greer,R,Lynn Greer,1.0,continuing_incumbent
+2014,house,3,Marcel Black,D,Marcel Black,1.0,continuing_incumbent
+2014,house,4,Micky Hammon,R,Micky Hammon,1.0,continuing_incumbent
+2014,house,5,Dan Williams,R,Dan Williams,1.0,continuing_incumbent
+2014,house,6,Phil Williams,R,,0.72,not_on_incumbent_roster
+2014,house,7,Ken Johnson,R,Ken Johnson,1.0,continuing_incumbent
+2014,house,8,Terri Collins,R,,0.5925925925925926,not_on_incumbent_roster
+2014,house,9,Ed Henry,R,,0.5,not_on_incumbent_roster
+2014,house,10,Mike Ball,R,Mike Ball,1.0,continuing_incumbent
+2014,house,11,Jeremy Oden,R,Jeremy H. Oden,0.9166666666666666,continuing_incumbent
+2014,house,12,Mac Buttram,R,,0.5217391304347826,not_on_incumbent_roster
+2014,house,13,Bill Roberts,R,,0.5217391304347826,not_on_incumbent_roster
+2014,house,14,Richard Baughn,R,,0.6666666666666666,not_on_incumbent_roster
+2014,house,15,Allen Farley,R,,0.6086956521739131,not_on_incumbent_roster
+2014,house,16,Daniel Boman,R,Daniel Boman,1.0,continuing_incumbent
+2014,house,17,Mike Millican,D,Mike Millican,1.0,continuing_incumbent
+2014,house,18,Johnny Mack Morrow,D,Johnny Mack Morrow,1.0,continuing_incumbent
+2014,house,19,Laura Hall,D,Laura Hall,1.0,continuing_incumbent
+2014,house,20,Howard Sanderford,R,Howard Sanderford,1.0,continuing_incumbent
+2014,house,21,Jim Patterson,R,,0.6956521739130435,not_on_incumbent_roster
+2014,house,22,Wayne Johnson,R,,0.75,not_on_incumbent_roster
+2014,house,23,John Robinson,D,John Robinson,1.0,continuing_incumbent
+2014,house,24,Todd Greeson,R,Todd Greeson,1.0,continuing_incumbent
+2014,house,25,Mac McCutcheon,R,Mac McCutcheon,1.0,continuing_incumbent
+2014,house,26,Kerry Rich,R,,0.6363636363636364,not_on_incumbent_roster
+2014,house,27,Wes Long,R,,0.45454545454545453,not_on_incumbent_roster
+2014,house,28,Craig Ford,D,Craig Ford,1.0,continuing_incumbent
+2014,house,29,Becky Nordgren,R,,0.5185185185185185,not_on_incumbent_roster
+2014,house,30,Blaine Galliher,R,Blaine Galliher,1.0,continuing_incumbent
+2014,house,31,Barry Mask,R,Barry Mask,1.0,continuing_incumbent
+2014,house,32,Barbara Bigsby-Boyd,D,Barbara Bigsby-Boyd,1.0,continuing_incumbent
+2014,house,33,Ron Johnson,R,Ron Johnson,1.0,continuing_incumbent
+2014,house,34,Elwyn Thomas,R,Elwyn Thomas,1.0,continuing_incumbent
+2014,house,35,Steve Hurst,D,Steve Hurst,1.0,continuing_incumbent
+2014,house,36,Randy Wood,R,Randy Wood,1.0,continuing_incumbent
+2014,house,37,Richard Laird,D,Richard Laird,1.0,continuing_incumbent
+2014,house,38,DuWayne Bridges,R,DuWayne Bridges,1.0,continuing_incumbent
+2014,house,39,Richard Lindsey,D,Richard Lindsey,1.0,continuing_incumbent
+2014,house,40,K. L. (Koven) Brown,R,,0.4666666666666667,not_on_incumbent_roster
+2014,house,41,Mike Hill,R,Mike Hill,1.0,continuing_incumbent
+2014,house,42,Kurt Wallace,R,,0.5454545454545454,not_on_incumbent_roster
+2014,house,43,Mary Sue McClurkin,R,Mary Sue McClurkin,1.0,continuing_incumbent
+2014,house,44,Arthur Payne,R,Arthur Payne,1.0,continuing_incumbent
+2014,house,45,Owen Drake,R,,0.6363636363636364,not_on_incumbent_roster
+2014,house,46,Paul DeMarco,R,Paul DeMarco,1.0,continuing_incumbent
+2014,house,47,Jack Williams,R,Jack Williams,1.0,continuing_incumbent
+2014,house,48,Greg Canfield,R,Greg Canfield,1.0,continuing_incumbent
+2014,house,49,April Weaver,R,,0.5454545454545454,not_on_incumbent_roster
+2014,house,50,Jim McClendon,R,Jim McClendon,1.0,continuing_incumbent
+2014,house,51,Allen Treadaway,R,Allen Treadaway,1.0,continuing_incumbent
+2014,house,52,John Rogers,D,John Rogers,1.0,continuing_incumbent
+2014,house,53,Demetrius Newton,D,Demetrius Newton,1.0,continuing_incumbent
+2014,house,54,Patricia Todd,D,Patricia Todd,1.0,continuing_incumbent
+2014,house,55,Rod Scott,D,Rod Scott,1.0,continuing_incumbent
+2014,house,56,Lawrence McAdory,D,Lawrence McAdory,1.0,continuing_incumbent
+2014,house,57,Merika Coleman,D,Merika Coleman,1.0,continuing_incumbent
+2014,house,58,Oliver Robinson,D,Oliver Robinson,1.0,continuing_incumbent
+2014,house,59,Mary Moore,D,Mary Moore,1.0,continuing_incumbent
+2014,house,60,"Juandalynn ""Lee Lee"" Givan",D,,0.4444444444444444,not_on_incumbent_roster
+2014,house,61,Alan Harper,D,Alan Harper,1.0,continuing_incumbent
+2014,house,62,John Merrill,R,,0.6086956521739131,not_on_incumbent_roster
+2014,house,63,Bill Poole,R,,0.45454545454545453,not_on_incumbent_roster
+2014,house,64,Harry Shiver,R,Harry Shiver,1.0,continuing_incumbent
+2014,house,65,Elaine Beech,D,,0.5454545454545454,not_on_incumbent_roster
+2014,house,66,Alan Baker,R,Alan Baker,1.0,continuing_incumbent
+2014,house,67,Dario Melton,D,,0.5833333333333334,not_on_incumbent_roster
+2014,house,68,Thomas E. (Action) Jackson,D,Thomas E. (Action) Jackson,1.0,continuing_incumbent
+2014,house,69,David Colston,D,,0.56,not_on_incumbent_roster
+2014,house,70,Christopher John England,D,Christopher John England,1.0,continuing_incumbent
+2014,house,71,"Artis ""A. J."" McCampbell",D,"Artis ""A. J."" McCampbell",1.0,continuing_incumbent
+2014,house,72,Ralph A. Howard,D,Ralph A. Howard,1.0,continuing_incumbent
+2014,house,73,"Joseph Lister ""Joe"" Hubbard",D,,0.5405405405405406,not_on_incumbent_roster
+2014,house,74,Jay Love,R,Jay Love,1.0,continuing_incumbent
+2014,house,75,Greg Wren,R,Greg Wren,1.0,continuing_incumbent
+2014,house,76,Thad McClammy,D,Thad McClammy,1.0,continuing_incumbent
+2014,house,77,John Knight,D,John Knight,1.0,continuing_incumbent
+2014,house,78,Alvin Holmes,D,Alvin Holmes,1.0,continuing_incumbent
+2014,house,79,Mike Hubbard,R,Mike Hubbard,1.0,continuing_incumbent
+2014,house,80,Lesley Vance,D,Lesley Vance,1.0,continuing_incumbent
+2014,house,81,Mark M. Tuggle,R,,0.5217391304347826,not_on_incumbent_roster
+2014,house,82,Pebblin W. Warren,D,Pebblin W. Warren,1.0,continuing_incumbent
+2014,house,83,"George ""Tootie"" Bandy",D,"George ""Tootie"" Bandy",1.0,continuing_incumbent
+2014,house,84,Berry Forte,D,,0.5714285714285714,not_on_incumbent_roster
+2014,house,85,Dexter Grimsley,D,,0.45161290322580644,not_on_incumbent_roster
+2014,house,86,Paul Lee,R,,0.6,not_on_incumbent_roster
+2014,house,87,Donnie Chesteen,R,,0.4827586206896552,not_on_incumbent_roster
+2014,house,88,Paul Beckman,R,,0.6666666666666666,not_on_incumbent_roster
+2014,house,89,Alan C. Boothe,D,Alan C. Boothe,1.0,continuing_incumbent
+2014,house,90,Charles Newton,D,Charles Newton,1.0,continuing_incumbent
+2014,house,91,Barry Moore,R,,0.8571428571428571,not_on_incumbent_roster
+2014,house,92,Mike Jones Jr.,R,,0.6666666666666666,not_on_incumbent_roster
+2014,house,93,Steve Clouse,R,Steve Clouse,1.0,continuing_incumbent
+2014,house,94,Joe Faust,R,Joe Faust,1.0,continuing_incumbent
+2014,house,95,Steve McMillan,R,Steve McMillan,1.0,continuing_incumbent
+2014,house,96,Randy Davis,R,Randy Davis,1.0,continuing_incumbent
+2014,house,97,Yvonne Kennedy,D,Yvonne Kennedy,1.0,continuing_incumbent
+2014,house,98,Napoleon Bracy Jr.,D,,0.5517241379310345,not_on_incumbent_roster
+2014,house,99,James E. Buskey,D,James E. Buskey,1.0,continuing_incumbent
+2014,house,100,Victor Gaston,R,Victor Gaston,1.0,continuing_incumbent
+2014,house,101,Jamie Ison,R,Jamie Ison,1.0,continuing_incumbent
+2014,house,102,Chad Fincher,R,Chad Fincher,1.0,continuing_incumbent
+2014,house,103,Joseph C. Mitchell,D,Joseph C. Mitchell,1.0,continuing_incumbent
+2014,house,104,Jim Barton,R,Jim Barton,1.0,continuing_incumbent
+2014,house,105,Spencer Collier,R,Spencer Collier,1.0,continuing_incumbent
+2014,senate,1,Tammy Irons,D,,0.2857142857142857,not_on_incumbent_roster
+2014,senate,2,Bill Holtzclaw,R,,0.16666666666666666,not_on_incumbent_roster
+2014,senate,3,Arthur Orr,R,Arthur Orr,1.0,continuing_incumbent
+2014,senate,4,Paul Bussman,R,,0.2727272727272727,not_on_incumbent_roster
+2014,senate,5,Greg Reed,R,,0.3157894736842105,not_on_incumbent_roster
+2014,senate,6,Roger Bedford Jr.,D,,0.43478260869565216,not_on_incumbent_roster
+2014,senate,7,Paul Sanford,R,,0.45454545454545453,not_on_incumbent_roster
+2014,senate,8,Shadrack McGill,R,,0.24,not_on_incumbent_roster
+2014,senate,9,Clay Scofield,R,,0.2608695652173913,not_on_incumbent_roster
+2014,senate,10,Phil Williams,R,,0.17391304347826086,not_on_incumbent_roster
+2014,senate,11,Jerry L. Fielding,D,,0.15384615384615385,not_on_incumbent_roster
+2014,senate,12,Del Marsh,R,,0.3157894736842105,not_on_incumbent_roster
+2014,senate,13,Gerald Dial,R,,0.19047619047619047,not_on_incumbent_roster
+2014,senate,14,Cam Ward,R,,0.2222222222222222,not_on_incumbent_roster
+2014,senate,15,Slade Blackwell,R,,0.16,not_on_incumbent_roster
+2014,senate,16,"J.T. ""Jabo"" Waggoner",R,,0.2222222222222222,not_on_incumbent_roster
+2014,senate,17,Scott Beason,R,,0.09090909090909091,not_on_incumbent_roster
+2014,senate,18,Rodger M. Smitherman,D,,0.27586206896551724,not_on_incumbent_roster
+2014,senate,19,Priscilla Dunn,D,,0.16666666666666666,not_on_incumbent_roster
+2014,senate,20,Linda Coleman,D,,0.2608695652173913,not_on_incumbent_roster
+2014,senate,21,Gerald Allen,R,,0.18181818181818182,not_on_incumbent_roster
+2014,senate,22,Marc Keahey,D,,0.2857142857142857,not_on_incumbent_roster
+2014,senate,23,Hank Sanders,D,,0.2727272727272727,not_on_incumbent_roster
+2014,senate,24,Bobby Singleton,D,,0.08,not_on_incumbent_roster
+2014,senate,25,Dick Brewbaker,R,,0.25,not_on_incumbent_roster
+2014,senate,26,"Quinton T. Ross, Jr.",D,,0.25,not_on_incumbent_roster
+2014,senate,27,Tom Whatley,R,,0.19047619047619047,not_on_incumbent_roster
+2014,senate,28,Billy Beasley,D,,0.08695652173913043,not_on_incumbent_roster
+2014,senate,29,Harri Anne Smith,I,,0.3076923076923077,not_on_incumbent_roster
+2014,senate,30,Bryan Taylor,R,,0.36363636363636365,not_on_incumbent_roster
+2014,senate,31,Jimmy W. Holley,R,,0.16666666666666666,not_on_incumbent_roster
+2014,senate,32,Trip Pittman,R,,0.2727272727272727,not_on_incumbent_roster
+2014,senate,33,Vivian Davis Figures,D,,0.2,not_on_incumbent_roster
+2014,senate,34,Rusty Glover,R,,0.45454545454545453,not_on_incumbent_roster
+2014,senate,35,Ben Brooks,R,,0.2,not_on_incumbent_roster
+2018,house,1,Phillip Pettus,R,Phillip Pettus,1.0,continuing_incumbent
+2018,house,2,Lynn Greer,R,Lynn Greer,1.0,continuing_incumbent
+2018,house,3,Marcel Black,D,,0.5454545454545454,not_on_incumbent_roster
+2018,house,4,Micky Hammon,R,,0.5384615384615384,not_on_incumbent_roster
+2018,house,5,Dan Williams,R,,0.5384615384615384,not_on_incumbent_roster
+2018,house,6,Phil Williams,R,,0.5185185185185185,not_on_incumbent_roster
+2018,house,7,Ken Johnson,R,,0.72,not_on_incumbent_roster
+2018,house,8,Terri Collins,R,Terri Collins,1.0,continuing_incumbent
+2018,house,9,Ed Henry,R,,0.5263157894736842,not_on_incumbent_roster
+2018,house,10,Mike Ball,R,Mike Ball,1.0,continuing_incumbent
+2018,house,11,Jeremy H. Oden,R,,0.5185185185185185,not_on_incumbent_roster
+2018,house,12,Mac Buttram,R,,0.48,not_on_incumbent_roster
+2018,house,13,Connie Rowe,R,Connie Rowe,1.0,continuing_incumbent
+2018,house,14,Richard Baughn,R,,0.5,not_on_incumbent_roster
+2018,house,15,Allen Farley,R,Allen Farley,1.0,continuing_incumbent
+2018,house,16,Kyle South,R,Kyle South,1.0,continuing_incumbent
+2018,house,17,Mike Millican,D,,0.6363636363636364,not_on_incumbent_roster
+2018,house,18,Johnny Mack Morrow,D,,0.4827586206896552,not_on_incumbent_roster
+2018,house,19,Laura Hall,D,Laura Hall,1.0,continuing_incumbent
+2018,house,20,Howard Sanderford,R,Howard Sanderford,1.0,continuing_incumbent
+2018,house,21,Jim Patterson,R,,0.6363636363636364,not_on_incumbent_roster
+2018,house,22,Wayne Johnson,R,,0.6666666666666666,not_on_incumbent_roster
+2018,house,23,John Robinson,D,,0.6666666666666666,not_on_incumbent_roster
+2018,house,24,Todd Greeson,R,,0.56,not_on_incumbent_roster
+2018,house,25,Mac McCutcheon,R,Mac McCutcheon,1.0,continuing_incumbent
+2018,house,26,Kerry Rich,R,Kerry Rich,1.0,continuing_incumbent
+2018,house,27,Will Ainsworth,R,,0.5925925925925926,not_on_incumbent_roster
+2018,house,28,Craig Ford,D,,0.5833333333333334,not_on_incumbent_roster
+2018,house,29,Becky Nordgren,R,Becky Nordgren,1.0,continuing_incumbent
+2018,house,30,Blaine Galliher,R,,0.56,not_on_incumbent_roster
+2018,house,31,Barry Mask,R,,0.5454545454545454,not_on_incumbent_roster
+2018,house,32,Barbara Bigsby-Boyd,D,,0.7741935483870968,not_on_incumbent_roster
+2018,house,33,Ron Johnson,R,Ronald Johnson,0.88,continuing_incumbent
+2018,house,34,Elwyn Thomas,R,,0.5217391304347826,not_on_incumbent_roster
+2018,house,35,Steve Hurst,D,Steve Hurst,1.0,continuing_incumbent
+2018,house,36,Randy Wood,R,Randy Wood,1.0,continuing_incumbent
+2018,house,37,Richard Laird,D,,0.5333333333333333,not_on_incumbent_roster
+2018,house,38,DuWayne Bridges,R,,0.5161290322580645,not_on_incumbent_roster
+2018,house,39,Richard Lindsey,D,,0.56,not_on_incumbent_roster
+2018,house,40,K. L. (Koven) Brown,R,,0.75,not_on_incumbent_roster
+2018,house,41,Mike Hill,R,,0.7777777777777778,not_on_incumbent_roster
+2018,house,42,Jimmy Martin,R,Jimmy Martin,1.0,continuing_incumbent
+2018,house,43,Mary Sue McClurkin,R,,0.5,not_on_incumbent_roster
+2018,house,44,Arthur Payne,R,,0.5185185185185185,not_on_incumbent_roster
+2018,house,45,Dickie Drake,R,Dickie Drake,1.0,continuing_incumbent
+2018,house,46,Paul DeMarco,R,,0.6,not_on_incumbent_roster
+2018,house,47,Jack Williams,R,,0.48,not_on_incumbent_roster
+2018,house,48,Greg Canfield,R,,0.48,not_on_incumbent_roster
+2018,house,49,April Weaver,R,April Weaver,1.0,continuing_incumbent
+2018,house,50,Jim McClendon,R,,0.5925925925925926,not_on_incumbent_roster
+2018,house,51,Allen Treadaway,R,Allen Treadaway,1.0,continuing_incumbent
+2018,house,52,John Rogers,D,John Rogers,1.0,continuing_incumbent
+2018,house,53,Demetrius Newton,D,,0.45161290322580644,not_on_incumbent_roster
+2018,house,54,Patricia Todd,D,,0.5,not_on_incumbent_roster
+2018,house,55,Rod Scott,D,Rod Scott,1.0,continuing_incumbent
+2018,house,56,Lawrence McAdory,D,,0.5161290322580645,not_on_incumbent_roster
+2018,house,57,Merika Coleman,D,Merika Coleman,1.0,continuing_incumbent
+2018,house,58,Oliver Robinson,D,,0.5517241379310345,not_on_incumbent_roster
+2018,house,59,Mary Moore,D,Mary Moore,1.0,continuing_incumbent
+2018,house,60,"Juandalynn ""Lee Lee"" Givan",D,,0.8,not_on_incumbent_roster
+2018,house,61,Alan Harper,D,,0.7619047619047619,not_on_incumbent_roster
+2018,house,62,John Merrill,R,,0.6086956521739131,not_on_incumbent_roster
+2018,house,63,Bill Poole,R,Bill Poole,1.0,continuing_incumbent
+2018,house,64,Harry Shiver,R,Harry Shiver,1.0,continuing_incumbent
+2018,house,65,Elaine Beech,D,Elaine Beech,1.0,continuing_incumbent
+2018,house,66,Alan Baker,R,Alan Baker,1.0,continuing_incumbent
+2018,house,67,Dario Melton,D,,0.56,not_on_incumbent_roster
+2018,house,68,Thomas E. (Action) Jackson,D,,0.7567567567567568,not_on_incumbent_roster
+2018,house,69,David Colston,D,,0.6206896551724138,not_on_incumbent_roster
+2018,house,70,Christopher John England,D,Christopher J. England,0.9333333333333333,continuing_incumbent
+2018,house,71,"Artis ""A. J."" McCampbell",D,Artis J. McCampbell,0.9473684210526315,continuing_incumbent
+2018,house,72,Ralph A. Howard,D,,0.8235294117647058,not_on_incumbent_roster
+2018,house,73,Matt Fridy,R,Matt Fridy,1.0,continuing_incumbent
+2018,house,74,Jay Love,R,,0.5555555555555556,not_on_incumbent_roster
+2018,house,75,Greg Wren,R,,0.5714285714285714,not_on_incumbent_roster
+2018,house,76,Thad McClammy,D,Thad McClammy,1.0,continuing_incumbent
+2018,house,77,John Knight,D,,0.5454545454545454,not_on_incumbent_roster
+2018,house,78,Alvin Holmes,D,,0.6956521739130435,not_on_incumbent_roster
+2018,house,79,Mike Hubbard,R,,0.6666666666666666,not_on_incumbent_roster
+2018,house,80,Lesley Vance,D,,0.42857142857142855,not_on_incumbent_roster
+2018,house,81,Mark Tuggle,R,,0.47619047619047616,not_on_incumbent_roster
+2018,house,82,Pebblin W. Warren,D,Pebblin Warren,0.9333333333333333,continuing_incumbent
+2018,house,83,"George ""Tootie"" Bandy",D,,0.4117647058823529,not_on_incumbent_roster
+2018,house,84,Berry Forte,D,Berry Forte,1.0,continuing_incumbent
+2018,house,85,Dexter Grimsley,D,Dexter Grimsley,1.0,continuing_incumbent
+2018,house,86,Paul Lee,R,Paul Lee,1.0,continuing_incumbent
+2018,house,87,Donnie Chesteen,R,,0.6,not_on_incumbent_roster
+2018,house,88,Paul Beckman,R,,0.6,not_on_incumbent_roster
+2018,house,89,Alan C. Boothe,D,,0.6086956521739131,not_on_incumbent_roster
+2018,house,90,Charles Newton,D,,0.5,not_on_incumbent_roster
+2018,house,91,Barry Moore,R,,0.8571428571428571,not_on_incumbent_roster
+2018,house,92,Mike Jones Jr.,R,,0.7619047619047619,not_on_incumbent_roster
+2018,house,93,Steve Clouse,R,Steve Clouse,1.0,continuing_incumbent
+2018,house,94,Joe Faust,R,Joe Faust,1.0,continuing_incumbent
+2018,house,95,Steve McMillan,R,Steve McMillan,1.0,continuing_incumbent
+2018,house,96,Randy Davis,R,,0.6666666666666666,not_on_incumbent_roster
+2018,house,97,Yvonne Kennedy,D,,0.48,not_on_incumbent_roster
+2018,house,98,Napoleon Bracy Jr.,D,Napoleon Bracy Jr.,1.0,continuing_incumbent
+2018,house,99,James E. Buskey,D,,0.46153846153846156,not_on_incumbent_roster
+2018,house,100,Victor Gaston,R,Victor Gaston,1.0,continuing_incumbent
+2018,house,101,Jamie Ison,R,,0.5217391304347826,not_on_incumbent_roster
+2018,house,102,Chad Fincher,R,,0.6956521739130435,not_on_incumbent_roster
+2018,house,103,Joseph C. Mitchell,D,,0.45161290322580644,not_on_incumbent_roster
+2018,house,104,Jim Barton,R,,0.7368421052631579,not_on_incumbent_roster
+2018,house,105,Spencer Collier,R,,0.5714285714285714,not_on_incumbent_roster
+2018,senate,1,Tim Melson,R,Tim Melson,1.0,continuing_incumbent
+2018,senate,2,Bill Holtzclaw,R,,0.46153846153846156,not_on_incumbent_roster
+2018,senate,3,Arthur Orr,R,Arthur Orr,1.0,continuing_incumbent
+2018,senate,4,Paul Bussman,R,,0.4166666666666667,not_on_incumbent_roster
+2018,senate,5,Greg Reed,R,Greg Reed,1.0,continuing_incumbent
+2018,senate,6,Larry Stutts,R,Larry Stutts,1.0,continuing_incumbent
+2018,senate,7,Paul Sanford,R,,0.5,not_on_incumbent_roster
+2018,senate,8,Steve Livingston,R,Steve Livingston,1.0,continuing_incumbent
+2018,senate,9,Clay Scofield,R,Clay Scofield,1.0,continuing_incumbent
+2018,senate,10,Phil Williams,R,,0.4444444444444444,not_on_incumbent_roster
+2018,senate,11,Jim McClendon,R,Jim McClendon,1.0,continuing_incumbent
+2018,senate,12,Del Marsh,R,Del Marsh,1.0,continuing_incumbent
+2018,senate,13,Gerald Dial,R,,0.782608695652174,not_on_incumbent_roster
+2018,senate,14,Cam Ward,R,Cam Ward,1.0,continuing_incumbent
+2018,senate,15,Slade Blackwell,R,,0.42857142857142855,not_on_incumbent_roster
+2018,senate,16,"J.T. ""Jabo"" Waggoner",R,Jabo Waggoner,0.8666666666666667,continuing_incumbent
+2018,senate,17,Shay Shelnutt,R,Shay Shelnutt,1.0,continuing_incumbent
+2018,senate,18,Rodger Smitherman,D,Rodger Smitherman,1.0,continuing_incumbent
+2018,senate,19,Priscilla Dunn,D,Priscilla Dunn,1.0,continuing_incumbent
+2018,senate,20,Linda Coleman,D,,0.7647058823529411,not_on_incumbent_roster
+2018,senate,21,Gerald Allen,R,Gerald Allen,1.0,continuing_incumbent
+2018,senate,22,Greg Albritton,R,Greg Albritton,1.0,continuing_incumbent
+2018,senate,23,Hank Sanders,D,,0.4,not_on_incumbent_roster
+2018,senate,24,Bobby Singleton,D,Bobby Singleton,1.0,continuing_incumbent
+2018,senate,25,Dick Brewbaker,R,,0.5,not_on_incumbent_roster
+2018,senate,26,Quinton Ross,D,,0.37037037037037035,not_on_incumbent_roster
+2018,senate,27,Tom Whatley,R,Tom Whatley,1.0,continuing_incumbent
+2018,senate,28,Billy Beasley,D,Billy Beasley,1.0,continuing_incumbent
+2018,senate,29,Harri Anne Smith,I,,0.48484848484848486,not_on_incumbent_roster
+2018,senate,30,Clyde Chambliss,R,"Clyde Chambliss, Jr.",1.0,continuing_incumbent
+2018,senate,31,Jimmy Holley,R,Jimmy Holley,1.0,continuing_incumbent
+2018,senate,32,Trip Pittman,R,,0.4827586206896552,not_on_incumbent_roster
+2018,senate,33,Vivian Davis Figures,D,Vivian Davis Figures,1.0,continuing_incumbent
+2018,senate,34,Rusty Glover,R,,0.45454545454545453,not_on_incumbent_roster
+2018,senate,35,Bill Hightower,R,,0.4444444444444444,not_on_incumbent_roster
+2022,house,1,Phillip Pettus,R,Phillip Pettus,1.0,continuing_incumbent
+2022,house,2,Lynn Greer,R,,0.5217391304347826,not_on_incumbent_roster
+2022,house,3,Andrew Sorrell,R,,0.6666666666666666,not_on_incumbent_roster
+2022,house,4,Parker Moore,R,,0.7741935483870968,not_on_incumbent_roster
+2022,house,5,Danny Crawford,R,,0.5925925925925926,not_on_incumbent_roster
+2022,house,6,Andy Whitt,R,,0.6,not_on_incumbent_roster
+2022,house,7,Proncey Robinson,R,,0.8484848484848485,not_on_incumbent_roster
+2022,house,8,Terri Collins,R,,0.5185185185185185,not_on_incumbent_roster
+2022,house,9,Scott Stadthagen,R,Scott Stadthagen,1.0,continuing_incumbent
+2022,house,10,Mike Ball,R,,0.5263157894736842,not_on_incumbent_roster
+2022,house,11,Randall Shedd,R,Randall Shedd,1.0,continuing_incumbent
+2022,house,12,Corey Harbison,R,Corey Harbison,1.0,continuing_incumbent
+2022,house,13,Connie Rowe,R,,0.5217391304347826,not_on_incumbent_roster
+2022,house,14,Tim Wadsworth,R,,0.7647058823529411,not_on_incumbent_roster
+2022,house,15,Allen Farley,R,,0.5454545454545454,not_on_incumbent_roster
+2022,house,16,Kyle South,R,Kyle South,1.0,continuing_incumbent
+2022,house,17,Tracy Estes,R,Tracy Estes,1.0,continuing_incumbent
+2022,house,18,Jamie Kiel,R,Jamie Kiel,1.0,continuing_incumbent
+2022,house,19,Laura Hall,D,Laura Hall,1.0,continuing_incumbent
+2022,house,20,Howard Sanderford,R,,0.48484848484848486,not_on_incumbent_roster
+2022,house,21,Rex Reynolds,R,Rex Reynolds,1.0,continuing_incumbent
+2022,house,22,Ritchie Whorton,R,Ritchie Whorton,1.0,continuing_incumbent
+2022,house,23,Tommy Hanes,R,Tommy Hanes,1.0,continuing_incumbent
+2022,house,24,Nathaniel Ledbetter,R,Nathaniel Ledbetter,1.0,continuing_incumbent
+2022,house,25,Mac McCutcheon,R,,0.46153846153846156,not_on_incumbent_roster
+2022,house,26,Kerry Rich,R,,0.5714285714285714,not_on_incumbent_roster
+2022,house,27,Wes Kitchens,R,Wes Kitchens,1.0,continuing_incumbent
+2022,house,28,Gil Isbell,R,Gil Isbell,1.0,continuing_incumbent
+2022,house,29,Becky Nordgren,R,,0.56,not_on_incumbent_roster
+2022,house,30,B. Craig Lipscomb,R,Craig Lipscomb,0.9333333333333333,continuing_incumbent
+2022,house,31,Mike Holmes,R,,0.5,not_on_incumbent_roster
+2022,house,32,Barbara Boyd,D,Barbara Boyd,1.0,continuing_incumbent
+2022,house,33,Ronald Johnson,R,,0.5925925925925926,not_on_incumbent_roster
+2022,house,34,David Standridge,R,David Standridge,1.0,continuing_incumbent
+2022,house,35,Steve Hurst,R,Steve Hurst,1.0,continuing_incumbent
+2022,house,36,Randy Wood,R,Randy Wood,1.0,continuing_incumbent
+2022,house,37,Bob Fincher,R,Bob Fincher,1.0,continuing_incumbent
+2022,house,38,Debbie Hamby Wood,R,Debbie Hamby Wood,1.0,continuing_incumbent
+2022,house,39,Ginny Shaver,R,Ginny Shaver,1.0,continuing_incumbent
+2022,house,40,K. L. Brown,R,,0.42105263157894735,not_on_incumbent_roster
+2022,house,41,Corley Ellis,R,Corley Ellis,1.0,continuing_incumbent
+2022,house,42,Jimmy Martin,R,,0.6666666666666666,not_on_incumbent_roster
+2022,house,43,Arnold Mooney,R,Arnold Mooney,1.0,continuing_incumbent
+2022,house,44,Danny Garrett,R,Danny Garrett,1.0,continuing_incumbent
+2022,house,45,Dickie Drake,R,Dickie Drake,1.0,continuing_incumbent
+2022,house,46,David Faulkner,R,,0.6,not_on_incumbent_roster
+2022,house,47,David Wheeler,R,,0.4827586206896552,not_on_incumbent_roster
+2022,house,48,Jim Carns,R,Jim Carns,1.0,continuing_incumbent
+2022,house,49,April Weaver,R,,0.5454545454545454,not_on_incumbent_roster
+2022,house,50,Jim Hill,R,,0.5555555555555556,not_on_incumbent_roster
+2022,house,51,Allen Treadaway,R,,0.5517241379310345,not_on_incumbent_roster
+2022,house,52,John Rogers,D,"John W. Rogers, Jr.",0.9166666666666666,continuing_incumbent
+2022,house,53,Anthony Daniels,D,,0.5,not_on_incumbent_roster
+2022,house,54,Neil Rafferty,D,Neil Rafferty,1.0,continuing_incumbent
+2022,house,55,Rod Scott,D,,0.6666666666666666,not_on_incumbent_roster
+2022,house,56,Louise Alexander,D,,0.47058823529411764,not_on_incumbent_roster
+2022,house,57,Merika Coleman,D,,0.4375,not_on_incumbent_roster
+2022,house,58,Rolanda Hollis,D,Rolanda Hollis,1.0,continuing_incumbent
+2022,house,59,Mary Moore,D,Mary Moore,1.0,continuing_incumbent
+2022,house,60,Juandalynn Givan,D,Juandalynn Givan,1.0,continuing_incumbent
+2022,house,61,Rodney Sullivan,R,,0.5185185185185185,not_on_incumbent_roster
+2022,house,62,Rich Wingo,R,,0.56,not_on_incumbent_roster
+2022,house,63,Bill Poole,R,,0.5,not_on_incumbent_roster
+2022,house,64,Harry Shiver,R,,0.5833333333333334,not_on_incumbent_roster
+2022,house,65,Brett Easterbrook,R,Brett Easterbrook,1.0,continuing_incumbent
+2022,house,66,Alan Baker,R,Alan Baker,1.0,continuing_incumbent
+2022,house,67,Prince Chestnut,D,Prince Chestnut,1.0,continuing_incumbent
+2022,house,68,Thomas Jackson,D,,0.7567567567567568,not_on_incumbent_roster
+2022,house,69,Kelvin Lawrence,D,,0.5555555555555556,not_on_incumbent_roster
+2022,house,70,Christopher J. England,D,,0.4375,not_on_incumbent_roster
+2022,house,71,Artis J. McCampbell,D,,0.5,not_on_incumbent_roster
+2022,house,72,Ralph Anthony Howard,D,,0.8235294117647058,not_on_incumbent_roster
+2022,house,73,Matt Fridy,R,,0.5454545454545454,not_on_incumbent_roster
+2022,house,74,Dimitri Polizos,R,,0.4166666666666667,not_on_incumbent_roster
+2022,house,75,Reed Ingram,R,,0.5454545454545454,not_on_incumbent_roster
+2022,house,76,Thad McClammy,D,,0.5714285714285714,not_on_incumbent_roster
+2022,house,77,Tashina Morris,D,,0.5,not_on_incumbent_roster
+2022,house,78,Kirk Hatcher,D,,0.5,not_on_incumbent_roster
+2022,house,79,Joe Lovvorn,R,Joe Lovvorn,1.0,continuing_incumbent
+2022,house,80,Chris Blackshear,R,Chris E. Blackshear,0.9411764705882353,continuing_incumbent
+2022,house,81,Ed Oliver,R,Ed Oliver,1.0,continuing_incumbent
+2022,house,82,Pebblin Warren,D,,0.8,not_on_incumbent_roster
+2022,house,83,Jeremy Gray,D,Jeremy Gray,1.0,continuing_incumbent
+2022,house,84,Berry Forte,D,Berry Forte,1.0,continuing_incumbent
+2022,house,85,Dexter Grimsley,D,Dexter Grimsley,1.0,continuing_incumbent
+2022,house,86,Paul Lee,R,Paul W. Lee,0.8888888888888888,continuing_incumbent
+2022,house,87,Jeff Sorrells,R,Jeff Sorrells,1.0,continuing_incumbent
+2022,house,88,Will Dismukes,R,Will Dismukes,1.0,continuing_incumbent
+2022,house,89,Wes Allen,R,,0.5714285714285714,not_on_incumbent_roster
+2022,house,90,Chris Sells,R,Chris Sells,1.0,continuing_incumbent
+2022,house,91,Rhett Marques,R,Rhett Marques,1.0,continuing_incumbent
+2022,house,92,Mike Jones Jr.,R,,0.7368421052631579,not_on_incumbent_roster
+2022,house,93,Steve Clouse,R,Steve Clouse,1.0,continuing_incumbent
+2022,house,94,Joe Faust,R,Joe Faust,1.0,continuing_incumbent
+2022,house,95,Steve McMillan,R,,0.6153846153846154,not_on_incumbent_roster
+2022,house,96,Matt Simpson,R,Matt Simpson,1.0,continuing_incumbent
+2022,house,97,Adline Clarke,D,Adline Clarke,1.0,continuing_incumbent
+2022,house,98,Napoleon Bracy Jr.,D,"Napoleon Bracy, Jr.",1.0,continuing_incumbent
+2022,house,99,Sam Jones,D,Sam Jones,1.0,continuing_incumbent
+2022,house,100,Victor Gaston,R,,0.5925925925925926,not_on_incumbent_roster
+2022,house,101,Chris Pringle,R,,0.5833333333333334,not_on_incumbent_roster
+2022,house,102,Shane Stringer,R,,0.5333333333333333,not_on_incumbent_roster
+2022,house,103,Barbara Drummond,D,,0.6428571428571429,not_on_incumbent_roster
+2022,house,104,Margie Wilcox,R,,0.5217391304347826,not_on_incumbent_roster
+2022,house,105,Chip Brown,R,,0.56,not_on_incumbent_roster
+2022,senate,1,Tim Melson,R,Tim Melson,1.0,continuing_incumbent
+2022,senate,2,Tom Butler,R,Tom Butler,1.0,continuing_incumbent
+2022,senate,3,Arthur Orr,R,Arthur Orr,1.0,continuing_incumbent
+2022,senate,4,Garlan Gudger,R,Garlan Gudger,1.0,continuing_incumbent
+2022,senate,5,Greg Reed,R,Greg Reed,1.0,continuing_incumbent
+2022,senate,6,Larry Stutts,R,Larry Stutts,1.0,continuing_incumbent
+2022,senate,7,Sam Givhan,R,Sam Givhan,1.0,continuing_incumbent
+2022,senate,8,Steve Livingston,R,Steve Livingston,1.0,continuing_incumbent
+2022,senate,9,Clay Scofield,R,Clay Scofield,1.0,continuing_incumbent
+2022,senate,10,Andrew Jones,R,Andrew Jones,1.0,continuing_incumbent
+2022,senate,11,Jim McClendon,R,,0.6086956521739131,not_on_incumbent_roster
+2022,senate,12,Del Marsh,R,,0.4,not_on_incumbent_roster
+2022,senate,13,Randy Price,R,Randy Price,1.0,continuing_incumbent
+2022,senate,14,Cam Ward,R,,0.5,not_on_incumbent_roster
+2022,senate,15,Dan Roberts,R,Dan Roberts,1.0,continuing_incumbent
+2022,senate,16,Jabo Waggoner,R,"J. T. ""Jabo"" Waggoner",0.8666666666666667,continuing_incumbent
+2022,senate,17,Shay Shelnutt,R,Shay Shelnutt,1.0,continuing_incumbent
+2022,senate,18,Rodger Smitherman,D,Rodger Smitherman,1.0,continuing_incumbent
+2022,senate,19,Priscilla Dunn,D,,0.38461538461538464,not_on_incumbent_roster
+2022,senate,20,Linda Coleman-Madison,D,Linda Coleman-Madison,1.0,continuing_incumbent
+2022,senate,21,Gerald Allen,R,Gerald Allen,1.0,continuing_incumbent
+2022,senate,22,Greg Albritton,R,Greg Albritton,1.0,continuing_incumbent
+2022,senate,23,Malika Sanders-Fortier,D,,0.4,not_on_incumbent_roster
+2022,senate,24,Bobby Singleton,D,Bobby Singleton,1.0,continuing_incumbent
+2022,senate,25,Will Barfoot,R,Will Barfoot,1.0,continuing_incumbent
+2022,senate,26,David Burkette,D,,0.5,not_on_incumbent_roster
+2022,senate,27,Tom Whatley,R,Tom Whatley,1.0,continuing_incumbent
+2022,senate,28,Billy Beasley,D,Billy Beasley,1.0,continuing_incumbent
+2022,senate,29,Donnie Chesteen,R,Donnie Chesteen,1.0,continuing_incumbent
+2022,senate,30,"Clyde Chambliss, Jr.",R,Clyde Chambliss Jr.,1.0,continuing_incumbent
+2022,senate,31,Jimmy Holley,R,,0.5217391304347826,not_on_incumbent_roster
+2022,senate,32,Chris Elliott,R,Chris Elliott,1.0,continuing_incumbent
+2022,senate,33,Vivian Davis Figures,D,,0.8235294117647058,not_on_incumbent_roster
+2022,senate,34,Jack Williams,R,Jack Williams,1.0,continuing_incumbent
+2022,senate,35,David Sessions,R,David Sessions,1.0,continuing_incumbent

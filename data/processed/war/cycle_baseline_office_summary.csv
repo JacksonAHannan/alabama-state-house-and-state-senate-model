@@ -1,0 +1,19 @@
+cycle,office,district_rows,dem_votes,rep_votes,contested_partisan_office
+2014,Attorney General,137,824122.0,1155524.0,True
+2014,Governor,140,1004522.0,1775364.0,True
+2014,Lieutenant Governor,137,965699.0,1700678.0,True
+2014,State Treasurer,140,0.0,1770969.0,False
+2018,Attorney General,140,1404689.0,2006592.0,True
+2018,Commissioner of Agriculture and Industries,140,0.0,2160464.0,False
+2018,Governor,140,1388021.0,2042548.0,True
+2018,Lieutenant Governor,140,1319065.0,2087552.0,True
+2018,Secretary of State,140,1316139.0,2062528.0,True
+2018,State Auditor,140,1330405.0,2034638.0,True
+2018,State Treasurer,140,0.0,2167714.0,False
+2022,Attorney General,140,901086.0,1910850.0,True
+2022,Commissioner of Agriculture and Industries,140,0.0,1892310.0,False
+2022,Governor,140,825922.0,1893864.0,True
+2022,Lieutenant Governor,140,0.0,1915068.0,False
+2022,Secretary of State,140,873724.0,1850534.0,True
+2022,State Auditor,140,0.0,1899742.0,False
+2022,State Treasurer,140,0.0,1893872.0,False

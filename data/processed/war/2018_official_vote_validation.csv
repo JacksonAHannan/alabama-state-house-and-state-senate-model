@@ -1,0 +1,205 @@
+cycle,chamber,district,candidate,candidate_code,party,votes,candidate_norm,candidate_official,votes_official,county_rows,_merge,vote_difference,exact_vote_match
+2018,house,1.0,Phillip Pettus,Phillip Pettus,R,7348.0,PHILLIP PETTUS,Phillip Pettus,7348.0,1,both,0.0,True
+2018,house,2.0,Lora Kay Morrow,Lora Kay Morrow,D,4798.0,LORA KAY MORROW,Lora Kay Morrow,4798.0,2,both,0.0,True
+2018,house,2.0,Lynn Greer,Lynn Greer,R,13056.0,LYNN GREER,Lynn Greer,13056.0,2,both,0.0,True
+2018,house,3.0,Chad Young,Chad Young,D,8540.0,CHAD YOUNG,Chad Young,8540.0,3,both,0.0,True
+2018,house,3.0,Andrew Sorrell,Andrew Sorrell,R,9448.0,ANDREW SORRELL,Andrew Sorrell,9448.0,3,both,0.0,True
+2018,house,4.0,Jo Ann Cummings,Jo Ann Cummings,D,4325.0,JO ANN CUMMINGS,Jo Ann Cummings,4325.0,2,both,0.0,True
+2018,house,4.0,Parker Duncan Moore,Parker Duncan Moore,R,11074.0,PARKER DUNCAN MOORE,Parker Duncan Moore,11074.0,2,both,0.0,True
+2018,house,5.0,Brian D Williams,Brian D Williams,D,4725.0,BRIAN D WILLIAMS,Brian D Williams,4725.0,1,both,0.0,True
+2018,house,5.0,Danny F. Crawford,Danny F. Crawford,R,12395.0,DANNY F CRAWFORD,Danny F. Crawford,12395.0,1,both,0.0,True
+2018,house,6.0,Andy Whitt,Andy Whitt,R,11893.0,ANDY WHITT,Andy Whitt,11893.0,2,both,0.0,True
+2018,house,7.0,Kenneth A. Brackins,Kenneth A. Brackins,D,3592.0,KENNETH A BRACKINS,Kenneth A. Brackins,3592.0,4,both,0.0,True
+2018,house,7.0,Proncey Robertson,Proncey Robertson,R,10892.0,PRONCEY ROBERTSON,Proncey Robertson,10892.0,4,both,0.0,True
+2018,house,8.0,Billy Jackson,Billy Jackson,D,5469.0,BILLY JACKSON,Billy Jackson,5469.0,1,both,0.0,True
+2018,house,8.0,Terri Collins,Terri Collins,R,8803.0,TERRI COLLINS,Terri Collins,8803.0,1,both,0.0,True
+2018,house,9.0,Scott Stadthagen,Scott Stadthagen,R,13297.0,SCOTT STADTHAGEN,Scott Stadthagen,13297.0,3,both,0.0,True
+2018,house,10.0,J.B. King,J.B. King,D,8565.0,J B KING,J.B. King,8565.0,1,both,0.0,True
+2018,house,10.0,Mike Ball,Mike Ball,R,11240.0,MIKE BALL,Mike Ball,11240.0,1,both,0.0,True
+2018,house,11.0,Randall Shedd,Randall Shedd,R,13098.0,RANDALL SHEDD,Randall Shedd,13098.0,4,both,0.0,True
+2018,house,12.0,Corey Harbison,Corey Harbison,R,14687.0,COREY HARBISON,Corey Harbison,14687.0,1,both,0.0,True
+2018,house,13.0,Connie Cooner Rowe,Connie Cooner Rowe,R,13755.0,CONNIE COONER ROWE,Connie Cooner Rowe,13755.0,2,both,0.0,True
+2018,house,14.0,Tim Wadsworth,Tim Wadsworth,R,13394.0,TIM WADSWORTH,Tim Wadsworth,13394.0,3,both,0.0,True
+2018,house,15.0,Suzanna Coleman,Suzanna Coleman,D,6951.0,SUZANNA COLEMAN,Suzanna Coleman,6951.0,2,both,0.0,True
+2018,house,15.0,Allen Farley,Allen Farley,R,14212.0,ALLEN FARLEY,Allen Farley,14212.0,2,both,0.0,True
+2018,house,16.0,Kyle South,Kyle South,R,14681.0,KYLE SOUTH,Kyle South,14681.0,4,both,0.0,True
+2018,house,17.0,Tracy Estes,Tracy Estes,R,12158.0,TRACY ESTES,Tracy Estes,12158.0,3,both,0.0,True
+2018,house,18.0,Eddie Britton,Eddie Britton,D,3886.0,EDDIE BRITTON,Eddie Britton,3886.0,3,both,0.0,True
+2018,house,18.0,Jamie Kiel,Jamie Kiel,R,9845.0,JAMIE KIEL,Jamie Kiel,9845.0,3,both,0.0,True
+2018,house,19.0,Laura Hall,Laura Hall,D,12675.0,LAURA HALL,Laura Hall,12675.0,1,both,0.0,True
+2018,house,20.0,Linda Meigs,Linda Meigs,D,8527.0,LINDA MEIGS,Linda Meigs,8527.0,1,both,0.0,True
+2018,house,20.0,Howard Sanderford,Howard Sanderford,R,14589.0,HOWARD SANDERFORD,Howard Sanderford,14589.0,1,both,0.0,True
+2018,house,21.0,Terry Jones,Terry Jones,D,8391.0,TERRY JONES,Terry Jones,8391.0,1,both,0.0,True
+2018,house,21.0,Rex Reynolds,Rex Reynolds,R,13311.0,REX REYNOLDS,Rex Reynolds,13311.0,1,both,0.0,True
+2018,house,22.0,Ritchie Whorton,Ritchie Whorton,R,13929.0,RITCHIE WHORTON,Ritchie Whorton,13929.0,2,both,0.0,True
+2018,house,23.0,Tommy Hanes,Tommy Hanes,R,10823.0,TOMMY HANES,Tommy Hanes,10823.0,2,both,0.0,True
+2018,house,24.0,Nathaniel Ledbetter,Nathaniel Ledbetter,R,12394.0,NATHANIEL LEDBETTER,Nathaniel Ledbetter,12394.0,1,both,0.0,True
+2018,house,25.0,Mac McCutcheon,Mac McCutcheon,R,14974.0,MAC MCCUTCHEON,Mac McCutcheon,14974.0,2,both,0.0,True
+2018,house,26.0,Kerry Rich,Kerry Rich,R,8948.0,KERRY RICH,Kerry Rich,8948.0,2,both,0.0,True
+2018,house,27.0,Bill Jones,Bill Jones,D,2456.0,BILL JONES,Bill Jones,2456.0,3,both,0.0,True
+2018,house,27.0,Wes Kitchens,Wes Kitchens,R,13245.0,WES KITCHENS,Wes Kitchens,13245.0,3,both,0.0,True
+2018,house,28.0,Kyle Pierce,Kyle Pierce,D,5731.0,KYLE PIERCE,Kyle Pierce,5731.0,1,both,0.0,True
+2018,house,28.0,Gil F. Isbell,Gil F. Isbell,R,7091.0,GIL F ISBELL,Gil F. Isbell,7091.0,1,both,0.0,True
+2018,house,29.0,Jared Millican,Jared Millican,D,3032.0,JARED MILLICAN,Jared Millican,3032.0,3,both,0.0,True
+2018,house,29.0,Becky Nordgren,Becky Nordgren,R,11528.0,BECKY NORDGREN,Becky Nordgren,11528.0,3,both,0.0,True
+2018,house,30.0,Jared Vaughn,Jared Vaughn,D,2931.0,JARED VAUGHN,Jared Vaughn,2931.0,2,both,0.0,True
+2018,house,30.0,B. Craig Lipscomb,B. Craig Lipscomb,R,13779.0,B CRAIG LIPSCOMB,B. Craig Lipscomb,13779.0,2,both,0.0,True
+2018,house,31.0,Mike Holmes,Mike Holmes,R,14323.0,MIKE HOLMES,Mike Holmes,14323.0,1,both,0.0,True
+2018,house,32.0,Barbara Bigsby Boyd,Barbara Bigsby Boyd,D,7761.0,BARBARA BIGSBY BOYD,Barbara Bigsby Boyd,7761.0,2,both,0.0,True
+2018,house,32.0,James Allen Lloyd,James Allen Lloyd,R,4513.0,JAMES ALLEN LLOYD,James Allen Lloyd,4513.0,2,both,0.0,True
+2018,house,33.0,Scott Brewer,Scott Brewer,D,4928.0,SCOTT BREWER,Scott Brewer,4928.0,3,both,0.0,True
+2018,house,33.0,Ron Johnson,Ron Johnson,R,10155.0,RON JOHNSON,Ron Johnson,10155.0,3,both,0.0,True
+2018,house,34.0,David Standridge,David Standridge,R,13331.0,DAVID STANDRIDGE,David Standridge,13331.0,2,both,0.0,True
+2018,house,35.0,Steve Hurst,Steve Hurst,R,11567.0,STEVE HURST,Steve Hurst,11567.0,3,both,0.0,True
+2018,house,36.0,Nicki Arnold-Swindle,Nicki Arnold-Swindle,D,4256.0,NICKI ARNOLD SWINDLE,Nicki Arnold-Swindle,4256.0,3,both,0.0,True
+2018,house,36.0,Randy Wood,Randy Wood,R,11399.0,RANDY WOOD,Randy Wood,11399.0,3,both,0.0,True
+2018,house,37.0,Charlotte A. Clark-Frieson,Charlotte A. Clark-Frieson,D,4505.0,CHARLOTTE A CLARK FRIESON,Charlotte A. Clark-Frieson,4505.0,3,both,0.0,True
+2018,house,37.0,Bob Fincher,Bob Fincher,R,11153.0,BOB FINCHER,Bob Fincher,11153.0,3,both,0.0,True
+2018,house,38.0,Brian McGee,Brian McGee,D,4944.0,BRIAN MCGEE,Brian McGee,4944.0,2,both,0.0,True
+2018,house,38.0,Debbie Hamby Wood,Debbie Hamby Wood,R,11151.0,DEBBIE HAMBY WOOD,Debbie Hamby Wood,11151.0,2,both,0.0,True
+2018,house,39.0,Ginny Shaver,Ginny Shaver,R,11585.0,GINNY SHAVER,Ginny Shaver,11585.0,4,both,0.0,True
+2018,house,40.0,Pamela Jean Howard,Pamela Jean Howard,D,3819.0,PAMELA JEAN HOWARD,Pamela Jean Howard,3819.0,1,both,0.0,True
+2018,house,40.0,"Koven ""K.L."" Brown","Koven ""K.L."" Brown",R,11188.0,KOVEN K L BROWN,"Koven ""K.L."" Brown",11188.0,1,both,0.0,True
+2018,house,41.0,Emily Anne Marcum,Emily Anne Marcum,D,4610.0,EMILY ANNE MARCUM,Emily Anne Marcum,4610.0,1,both,0.0,True
+2018,house,41.0,Corley Ellis,Corley Ellis,R,14088.0,CORLEY ELLIS,Corley Ellis,14088.0,1,both,0.0,True
+2018,house,42.0,"James M. ""Jimmy"" Martin","James M. ""Jimmy"" Martin",R,12412.0,JAMES M JIMMY MARTIN,"James M. ""Jimmy"" Martin",12412.0,2,both,0.0,True
+2018,house,43.0,Carin Mayo,Carin Mayo,D,5847.0,CARIN MAYO,Carin Mayo,5847.0,1,both,0.0,True
+2018,house,43.0,Arnold G. Mooney II,Arnold G. Mooney II,R,15035.0,ARNOLD G MOONEY,Arnold G. Mooney II,15035.0,1,both,0.0,True
+2018,house,44.0,Danny Garrett,Danny Garrett,R,14597.0,DANNY GARRETT,Danny Garrett,14597.0,1,both,0.0,True
+2018,house,45.0,Jenn Gray,Jenn Gray,D,7148.0,JENN GRAY,Jenn Gray,7148.0,2,both,0.0,True
+2018,house,45.0,Dickie Drake,Dickie Drake,R,13669.0,DICKIE DRAKE,Dickie Drake,13669.0,2,both,0.0,True
+2018,house,46.0,Felicia Stewart,Felicia Stewart,D,8445.0,FELICIA STEWART,Felicia Stewart,8445.0,1,both,0.0,True
+2018,house,46.0,David Faulkner,David Faulkner,R,13341.0,DAVID FAULKNER,David Faulkner,13341.0,1,both,0.0,True
+2018,house,47.0,Jim Toomey,Jim Toomey,D,7721.0,JIM TOOMEY,Jim Toomey,7721.0,1,both,0.0,True
+2018,house,47.0,David Wheeler,David Wheeler,R,9170.0,DAVID WHEELER,David Wheeler,9170.0,1,both,0.0,True
+2018,house,48.0,Alli Summerford,Alli Summerford,D,7832.0,ALLI SUMMERFORD,Alli Summerford,7832.0,2,both,0.0,True
+2018,house,48.0,Jim Carns,Jim Carns,R,14789.0,JIM CARNS,Jim Carns,14789.0,2,both,0.0,True
+2018,house,49.0,April Weaver,April Weaver,R,10794.0,APRIL WEAVER,April Weaver,10794.0,3,both,0.0,True
+2018,house,50.0,Jim Hill,Jim Hill,R,14412.0,JIM HILL,Jim Hill,14412.0,1,both,0.0,True
+2018,house,51.0,Veronica R. Johnson,Veronica R. Johnson,D,3174.0,VERONICA R JOHNSON,Veronica R. Johnson,3174.0,1,both,0.0,True
+2018,house,51.0,Allen Treadaway,Allen Treadaway,R,15390.0,ALLEN TREADAWAY,Allen Treadaway,15390.0,1,both,0.0,True
+2018,house,52.0,"John W. Rogers, Jr.","John W. Rogers, Jr.",D,13284.0,JOHN W ROGERS,"John W. Rogers, Jr.",13284.0,1,both,0.0,True
+2018,house,53.0,Anthony Daniels,Anthony Daniels,D,8375.0,ANTHONY DANIELS,Anthony Daniels,8375.0,1,both,0.0,True
+2018,house,54.0,Neil Rafferty,Neil Rafferty,D,13287.0,NEIL RAFFERTY,Neil Rafferty,13287.0,1,both,0.0,True
+2018,house,55.0,"Roderick ""Rod"" Hampton Scott","Roderick ""Rod"" Hampton Scott",D,13109.0,RODERICK ROD HAMPTON SCOTT,"Roderick ""Rod"" Hampton Scott",13109.0,1,both,0.0,True
+2018,house,56.0,"Louise ""Lulu"" Alexander","Louise ""Lulu"" Alexander",D,13769.0,LOUISE LULU ALEXANDER,"Louise ""Lulu"" Alexander",13769.0,1,both,0.0,True
+2018,house,57.0,Merika Coleman,Merika Coleman,D,12831.0,MERIKA COLEMAN,Merika Coleman,12831.0,1,both,0.0,True
+2018,house,58.0,Rolanda Hollis,Rolanda Hollis,D,12498.0,ROLANDA HOLLIS,Rolanda Hollis,12498.0,1,both,0.0,True
+2018,house,59.0,Mary Moore,Mary Moore,D,12036.0,MARY MOORE,Mary Moore,12036.0,1,both,0.0,True
+2018,house,60.0,Juandalynn Givan,Juandalynn Givan,D,14432.0,JUANDALYNN GIVAN,Juandalynn Givan,14432.0,1,both,0.0,True
+2018,house,61.0,"Thomas ""Tommy"" Hyche","Thomas ""Tommy"" Hyche",D,6491.0,THOMAS TOMMY HYCHE,"Thomas ""Tommy"" Hyche",6491.0,2,both,0.0,True
+2018,house,61.0,Rodney Sullivan,Rodney Sullivan,R,12407.0,RODNEY SULLIVAN,Rodney Sullivan,12407.0,2,both,0.0,True
+2018,house,62.0,Will Benton,Will Benton,D,5265.0,WILL BENTON,Will Benton,5265.0,1,both,0.0,True
+2018,house,62.0,Rich Wingo,Rich Wingo,R,11282.0,RICH WINGO,Rich Wingo,11282.0,1,both,0.0,True
+2018,house,63.0,Bill Poole,Bill Poole,R,10239.0,BILL POOLE,Bill Poole,10239.0,1,both,0.0,True
+2018,house,64.0,Amber Selman-Lynn,Amber Selman-Lynn,D,4022.0,AMBER SELMAN LYNN,Amber Selman-Lynn,4022.0,2,both,0.0,True
+2018,house,64.0,Harry Shiver,Harry Shiver,R,13030.0,HARRY SHIVER,Harry Shiver,13030.0,2,both,0.0,True
+2018,house,65.0,Elaine Beech,Elaine Beech,D,9010.0,ELAINE BEECH,Elaine Beech,9010.0,3,both,0.0,True
+2018,house,65.0,Brett Easterbrook,Brett Easterbrook,R,10095.0,BRETT EASTERBROOK,Brett Easterbrook,10095.0,3,both,0.0,True
+2018,house,66.0,Susan E. Smith,Susan E. Smith,D,4008.0,SUSAN E SMITH,Susan E. Smith,4008.0,2,both,0.0,True
+2018,house,66.0,Alan Baker,Alan Baker,R,10431.0,ALAN BAKER,Alan Baker,10431.0,2,both,0.0,True
+2018,house,67.0,Prince Chestnut,Prince Chestnut,D,11239.0,PRINCE CHESTNUT,Prince Chestnut,11239.0,2,both,0.0,True
+2018,house,68.0,"Thomas E. ""Action"" Jackson","Thomas E. ""Action"" Jackson",D,10382.0,THOMAS E ACTION JACKSON,"Thomas E. ""Action"" Jackson",10382.0,4,both,0.0,True
+2018,house,69.0,Kelvin Jamichael Lawrence,Kelvin Jamichael Lawrence,D,12867.0,KELVIN JAMICHAEL LAWRENCE,Kelvin Jamichael Lawrence,12867.0,4,both,0.0,True
+2018,house,70.0,Christopher John England,Christopher John England,D,11541.0,CHRISTOPHER JOHN ENGLAND,Christopher John England,11541.0,1,both,0.0,True
+2018,house,71.0,"Artis ""A.J."" McCampbell","Artis ""A.J."" McCampbell",D,12400.0,ARTIS A J MCCAMPBELL,"Artis ""A.J."" McCampbell",12400.0,4,both,0.0,True
+2018,house,72.0,Ralph A. Howard,Ralph A. Howard,D,12811.0,RALPH A HOWARD,Ralph A. Howard,12811.0,5,both,0.0,True
+2018,house,73.0,Jack Jacobs,Jack Jacobs,D,5772.0,JACK JACOBS,Jack Jacobs,5772.0,1,both,0.0,True
+2018,house,73.0,Matt Fridy,Matt Fridy,R,12913.0,MATT FRIDY,Matt Fridy,12913.0,1,both,0.0,True
+2018,house,74.0,Rayford Mack,Rayford Mack,D,6160.0,RAYFORD MACK,Rayford Mack,6160.0,1,both,0.0,True
+2018,house,74.0,Dimitri Polizos,Dimitri Polizos,R,9449.0,DIMITRI POLIZOS,Dimitri Polizos,9449.0,1,both,0.0,True
+2018,house,75.0,Reed Ingram,Reed Ingram,R,13229.0,REED INGRAM,Reed Ingram,13229.0,2,both,0.0,True
+2018,house,76.0,Thad McClammy,Thad McClammy,D,11681.0,THAD MCCLAMMY,Thad McClammy,11681.0,1,both,0.0,True
+2018,house,77.0,Tashina Morris,Tashina Morris,D,10638.0,TASHINA MORRIS,Tashina Morris,10638.0,1,both,0.0,True
+2018,house,78.0,Kirk Hatcher,Kirk Hatcher,D,9506.0,KIRK HATCHER,Kirk Hatcher,9506.0,1,both,0.0,True
+2018,house,79.0,Mary Wynne Kling,Mary Wynne Kling,D,7015.0,MARY WYNNE KLING,Mary Wynne Kling,7015.0,1,both,0.0,True
+2018,house,79.0,Joe Lovvorn,Joe Lovvorn,R,9717.0,JOE LOVVORN,Joe Lovvorn,9717.0,1,both,0.0,True
+2018,house,80.0,"Christopher F. ""Apostle"" Davis","Christopher F. ""Apostle"" Davis",D,3407.0,CHRISTOPHER F APOSTLE DAVIS,"Christopher F. ""Apostle"" Davis",3407.0,2,both,0.0,True
+2018,house,80.0,Chris E. Blackshear,Chris E. Blackshear,R,8506.0,CHRIS E BLACKSHEAR,Chris E. Blackshear,8506.0,2,both,0.0,True
+2018,house,81.0,"Jeremy ""J.J."" Jeffcoat","Jeremy ""J.J."" Jeffcoat",D,4696.0,JEREMY J J JEFFCOAT,"Jeremy ""J.J."" Jeffcoat",4696.0,3,both,0.0,True
+2018,house,81.0,Ed Oliver,Ed Oliver,R,12823.0,ED OLIVER,Ed Oliver,12823.0,3,both,0.0,True
+2018,house,82.0,Pebblin Walker Warren,Pebblin Walker Warren,D,11411.0,PEBBLIN WALKER WARREN,Pebblin Walker Warren,11411.0,3,both,0.0,True
+2018,house,83.0,"Jeremy ""Mr. Eyg"" Gray","Jeremy ""Mr. Eyg"" Gray",D,8940.0,JEREMY MR EYG GRAY,"Jeremy ""Mr. Eyg"" Gray",8940.0,2,both,0.0,True
+2018,house,83.0,Michael J Holden II,Michael J Holden II,R,5142.0,MICHAEL J HOLDEN,Michael J Holden II,5142.0,2,both,0.0,True
+2018,house,84.0,Berry Forte,Berry Forte,D,9962.0,BERRY FORTE,Berry Forte,9962.0,3,both,0.0,True
+2018,house,85.0,Dexter Grimsley,Dexter Grimsley,D,7315.0,DEXTER GRIMSLEY,Dexter Grimsley,7315.0,2,both,0.0,True
+2018,house,85.0,J. Ron Wilson,J. Ron Wilson,R,6266.0,J RON WILSON,J. Ron Wilson,6266.0,2,both,0.0,True
+2018,house,86.0,Kristy M. Kirkland,Kristy M. Kirkland,D,3238.0,KRISTY M KIRKLAND,Kristy M. Kirkland,3238.0,1,both,0.0,True
+2018,house,86.0,Paul W. Lee,Paul W. Lee,R,11226.0,PAUL W LEE,Paul W. Lee,11226.0,1,both,0.0,True
+2018,house,87.0,Jeff Sorrells,Jeff Sorrells,R,13835.0,JEFF SORRELLS,Jeff Sorrells,13835.0,2,both,0.0,True
+2018,house,88.0,Cory Creel,Cory Creel,D,4793.0,CORY CREEL,Cory Creel,4793.0,2,both,0.0,True
+2018,house,88.0,Will Dismukes,Will Dismukes,R,11500.0,WILL DISMUKES,Will Dismukes,11500.0,2,both,0.0,True
+2018,house,89.0,Joel Lee Williams,Joel Lee Williams,D,5348.0,JOEL LEE WILLIAMS,Joel Lee Williams,5348.0,2,both,0.0,True
+2018,house,89.0,Wes Allen,Wes Allen,R,7804.0,WES ALLEN,Wes Allen,7804.0,2,both,0.0,True
+2018,house,90.0,Joanne Whetstone,Joanne Whetstone,D,6051.0,JOANNE WHETSTONE,Joanne Whetstone,6051.0,5,both,0.0,True
+2018,house,90.0,Chris Sells,Chris Sells,R,11063.0,CHRIS SELLS,Chris Sells,11063.0,5,both,0.0,True
+2018,house,91.0,Rhett Marques,Rhett Marques,R,11445.0,RHETT MARQUES,Rhett Marques,11445.0,1,both,0.0,True
+2018,house,92.0,"Mike Jones, Jr.","Mike Jones, Jr.",R,11912.0,MIKE JONES,"Mike Jones, Jr.",11912.0,3,both,0.0,True
+2018,house,93.0,Steve Clouse,Steve Clouse,R,11974.0,STEVE CLOUSE,Steve Clouse,11974.0,2,both,0.0,True
+2018,house,94.0,Danielle Mashburn-Myrick,Danielle Mashburn-Myrick,D,6257.0,DANIELLE MASHBURN MYRICK,Danielle Mashburn-Myrick,6257.0,1,both,0.0,True
+2018,house,94.0,Joe Faust,Joe Faust,R,15302.0,JOE FAUST,Joe Faust,15302.0,1,both,0.0,True
+2018,house,95.0,Steve McMillan,Steve McMillan,R,17008.0,STEVE MCMILLAN,Steve McMillan,17008.0,1,both,0.0,True
+2018,house,96.0,Maurice Horsey,Maurice Horsey,D,5019.0,MAURICE HORSEY,Maurice Horsey,5019.0,2,both,0.0,True
+2018,house,96.0,Matt Simpson,Matt Simpson,R,13699.0,MATT SIMPSON,Matt Simpson,13699.0,2,both,0.0,True
+2018,house,97.0,Adline C. Clarke,Adline C. Clarke,D,8740.0,ADLINE C CLARKE,Adline C. Clarke,8740.0,1,both,0.0,True
+2018,house,97.0,Stephen McNair,Stephen McNair,R,4605.0,STEPHEN MCNAIR,Stephen McNair,4605.0,1,both,0.0,True
+2018,house,98.0,"Napoleon Bracy, Jr.","Napoleon Bracy, Jr.",D,9674.0,NAPOLEON BRACY,"Napoleon Bracy, Jr.",9674.0,1,both,0.0,True
+2018,house,99.0,Sam Jones,Sam Jones,D,11794.0,SAM JONES,Sam Jones,11794.0,1,both,0.0,True
+2018,house,99.0,Charles W. Talbert,Charles W. Talbert,R,4270.0,CHARLES W TALBERT,Charles W. Talbert,4270.0,1,both,0.0,True
+2018,house,100.0,Victor Gaston,Victor Gaston,R,12086.0,VICTOR GASTON,Victor Gaston,12086.0,1,both,0.0,True
+2018,house,101.0,Chris Pringle,Chris Pringle,R,10274.0,CHRIS PRINGLE,Chris Pringle,10274.0,1,both,0.0,True
+2018,house,102.0,Shane Stringer,Shane Stringer,R,11048.0,SHANE STRINGER,Shane Stringer,11048.0,1,both,0.0,True
+2018,house,103.0,Barbara Drummond,Barbara Drummond,D,8818.0,BARBARA DRUMMOND,Barbara Drummond,8818.0,1,both,0.0,True
+2018,house,104.0,Arlene Cunningham Easley,Arlene Cunningham Easley,D,4695.0,ARLENE CUNNINGHAM EASLEY,Arlene Cunningham Easley,4695.0,1,both,0.0,True
+2018,house,104.0,Margie Wilcox,Margie Wilcox,R,10152.0,MARGIE WILCOX,Margie Wilcox,10152.0,1,both,0.0,True
+2018,house,105.0,Chip Brown,Chip Brown,R,10176.0,CHIP BROWN,Chip Brown,10176.0,1,both,0.0,True
+2018,senate,1.0,Caroline Self,Caroline Self,D,15830.0,CAROLINE SELF,Caroline Self,15830.0,3,both,0.0,True
+2018,senate,1.0,Tim Melson,Tim Melson,R,33141.0,TIM MELSON,Tim Melson,33141.0,3,both,0.0,True
+2018,senate,2.0,Amy Wasyluka,Amy Wasyluka,D,26911.0,AMY WASYLUKA,Amy Wasyluka,26911.0,2,both,0.0,True
+2018,senate,2.0,Tom Butler,Tom Butler,R,31997.0,TOM BUTLER,Tom Butler,31997.0,2,both,0.0,True
+2018,senate,3.0,Arthur Orr,Arthur Orr,R,37295.0,ARTHUR ORR,Arthur Orr,37295.0,3,both,0.0,True
+2018,senate,4.0,Garlan Gudger,Garlan Gudger,R,39817.0,GARLAN GUDGER,Garlan Gudger,39817.0,4,both,0.0,True
+2018,senate,5.0,Greg J. Reed,Greg J. Reed,R,42404.0,GREG J REED,Greg J. Reed,42404.0,5,both,0.0,True
+2018,senate,6.0,Johnny Mack Morrow,Johnny Mack Morrow,D,21796.0,JOHNNY MACK MORROW,Johnny Mack Morrow,21796.0,5,both,0.0,True
+2018,senate,6.0,Larry Stutts,Larry Stutts,R,22683.0,LARRY STUTTS,Larry Stutts,22683.0,5,both,0.0,True
+2018,senate,7.0,Deborah Barros,Deborah Barros,D,24363.0,DEBORAH BARROS,Deborah Barros,24363.0,1,both,0.0,True
+2018,senate,7.0,Sam Givhan,Sam Givhan,R,30080.0,SAM GIVHAN,Sam Givhan,30080.0,1,both,0.0,True
+2018,senate,8.0,Steve Livingston,Steve Livingston,R,37913.0,STEVE LIVINGSTON,Steve Livingston,37913.0,3,both,0.0,True
+2018,senate,9.0,Clay Scofield,Clay Scofield,R,35192.0,CLAY SCOFIELD,Clay Scofield,35192.0,4,both,0.0,True
+2018,senate,10.0,Andrew Jones,Andrew Jones,R,25902.0,ANDREW JONES,Andrew Jones,25902.0,3,both,0.0,True
+2018,senate,11.0,Carl Carter,Carl Carter,D,11411.0,CARL CARTER,Carl Carter,11411.0,3,both,0.0,True
+2018,senate,11.0,Jim McClendon,Jim McClendon,R,36192.0,JIM MCCLENDON,Jim McClendon,36192.0,3,both,0.0,True
+2018,senate,12.0,Jim Williams,Jim Williams,D,15010.0,JIM WILLIAMS,Jim Williams,15010.0,2,both,0.0,True
+2018,senate,12.0,Del Marsh,Del Marsh,R,27416.0,DEL MARSH,Del Marsh,27416.0,2,both,0.0,True
+2018,senate,13.0,Darrell Turner,Darrell Turner,D,12839.0,DARRELL TURNER,Darrell Turner,12839.0,5,both,0.0,True
+2018,senate,13.0,Randy Price,Randy Price,R,31614.0,RANDY PRICE,Randy Price,31614.0,5,both,0.0,True
+2018,senate,14.0,Jerry McDonald,Jerry McDonald,D,13171.0,JERRY MCDONALD,Jerry McDonald,13171.0,3,both,0.0,True
+2018,senate,14.0,Cam Ward,Cam Ward,R,34953.0,CAM WARD,Cam Ward,34953.0,3,both,0.0,True
+2018,senate,15.0,Dan Roberts,Dan Roberts,R,44792.0,DAN ROBERTS,Dan Roberts,44792.0,3,both,0.0,True
+2018,senate,16.0,Lindsey Deckard,Lindsey Deckard,D,21851.0,LINDSEY DECKARD,Lindsey Deckard,21851.0,2,both,0.0,True
+2018,senate,16.0,"J.T. ""Jabo"" Waggoner","J.T. ""Jabo"" Waggoner",R,37068.0,J T JABO WAGGONER,"J.T. ""Jabo"" Waggoner",37068.0,2,both,0.0,True
+2018,senate,17.0,Shay Shelnutt,Shay Shelnutt,R,45964.0,SHAY SHELNUTT,Shay Shelnutt,45964.0,3,both,0.0,True
+2018,senate,18.0,Rodger M. Smitherman,Rodger M. Smitherman,D,39819.0,RODGER M SMITHERMAN,Rodger M. Smitherman,39819.0,1,both,0.0,True
+2018,senate,19.0,Priscilla Dunn,Priscilla Dunn,D,38668.0,PRISCILLA DUNN,Priscilla Dunn,38668.0,1,both,0.0,True
+2018,senate,20.0,Linda Coleman-Madison,Linda Coleman-Madison,D,36478.0,LINDA COLEMAN MADISON,Linda Coleman-Madison,36478.0,1,both,0.0,True
+2018,senate,21.0,Rick Burnham,Rick Burnham,D,16005.0,RICK BURNHAM,Rick Burnham,16005.0,3,both,0.0,True
+2018,senate,21.0,Gerald Allen,Gerald Allen,R,33368.0,GERALD ALLEN,Gerald Allen,33368.0,3,both,0.0,True
+2018,senate,22.0,Greg Albritton,Greg Albritton,R,34507.0,GREG ALBRITTON,Greg Albritton,34507.0,6,both,0.0,True
+2018,senate,23.0,Malika Sanders-Fortier,Malika Sanders-Fortier,D,29920.0,MALIKA SANDERS FORTIER,Malika Sanders-Fortier,29920.0,8,both,0.0,True
+2018,senate,24.0,Bobby Singleton,Bobby Singleton,D,37394.0,BOBBY SINGLETON,Bobby Singleton,37394.0,7,both,0.0,True
+2018,senate,25.0,David A. Sadler,David A. Sadler,D,20866.0,DAVID A SADLER,David A. Sadler,20866.0,3,both,0.0,True
+2018,senate,25.0,Will Barfoot,Will Barfoot,R,33029.0,WILL BARFOOT,Will Barfoot,33029.0,3,both,0.0,True
+2018,senate,26.0,"David ""Coach"" Burkette","David ""Coach"" Burkette",D,31973.0,DAVID COACH BURKETTE,"David ""Coach"" Burkette",31973.0,1,both,0.0,True
+2018,senate,26.0,D. J. Johnson,D. J. Johnson,R,7863.0,D J JOHNSON,D. J. Johnson,7863.0,1,both,0.0,True
+2018,senate,27.0,Nancy Carlton Bendinger,Nancy Carlton Bendinger,D,20586.0,NANCY CARLTON BENDINGER,Nancy Carlton Bendinger,20586.0,3,both,0.0,True
+2018,senate,27.0,Tom Whatley,Tom Whatley,R,29741.0,TOM WHATLEY,Tom Whatley,29741.0,3,both,0.0,True
+2018,senate,28.0,Billy Beasley,Billy Beasley,D,28442.0,BILLY BEASLEY,Billy Beasley,28442.0,6,both,0.0,True
+2018,senate,29.0,Donnie Chesteen,Donnie Chesteen,R,34273.0,DONNIE CHESTEEN,Donnie Chesteen,34273.0,3,both,0.0,True
+2018,senate,30.0,"Clyde Chambliss, Jr.","Clyde Chambliss, Jr.",R,35256.0,CLYDE CHAMBLISS,"Clyde Chambliss, Jr.",35256.0,5,both,0.0,True
+2018,senate,31.0,Jimmy W. Holley,Jimmy W. Holley,R,33137.0,JIMMY W HOLLEY,Jimmy W. Holley,33137.0,4,both,0.0,True
+2018,senate,32.0,Jason Fisher,Jason Fisher,D,15193.0,JASON FISHER,Jason Fisher,15193.0,1,both,0.0,True
+2018,senate,32.0,Chris Elliott,Chris Elliott,R,45726.0,CHRIS ELLIOTT,Chris Elliott,45726.0,1,both,0.0,True
+2018,senate,33.0,Vivian Davis Figures,Vivian Davis Figures,D,34995.0,VIVIAN DAVIS FIGURES,Vivian Davis Figures,34995.0,1,both,0.0,True
+2018,senate,34.0,Jack Williams,Jack Williams,R,35093.0,JACK WILLIAMS,Jack Williams,35093.0,1,both,0.0,True
+2018,senate,35.0,Tom Holmes,Tom Holmes,D,13896.0,TOM HOLMES,Tom Holmes,13896.0,1,both,0.0,True
+2018,senate,35.0,David Sessions,David Sessions,R,29046.0,DAVID SESSIONS,David Sessions,29046.0,1,both,0.0,True

@@ -1,0 +1,575 @@
+cycle,chamber,district,candidate,candidate_code,party,votes
+2014,house,1.0,Greg Burdine,Greg Burdine,D,4652.0
+2014,house,1.0,Phillip Pettus,Phillip Pettus,R,4933.0
+2014,house,2.0,"Andrew ""Andy"" Betterton","Andrew ""Andy"" Betterton",D,5224.0
+2014,house,2.0,Lynn Greer,Lynn Greer,R,8561.0
+2014,house,3.0,Marcel Black,Marcel Black,D,7993.0
+2014,house,3.0,Fred Joly,Fred Joly,R,5357.0
+2014,house,4.0,Micky Hammon,Micky Hammon,R,8473.0
+2014,house,5.0,Henry A. White,Henry A. White,D,5520.0
+2014,house,5.0,Dan Williams,Dan Williams,R,7132.0
+2014,house,6.0,Phil Williams,Phil Williams,R,8327.0
+2014,house,7.0,John (Jody) Letson,John (Jody) Letson,D,5553.0
+2014,house,7.0,Ken Johnson,Ken Johnson,R,6072.0
+2014,house,8.0,Rex Cheatham,Rex Cheatham,D,4195.0
+2014,house,8.0,Terri Collins,Terri Collins,R,6270.0
+2014,house,9.0,Ed Henry,Ed Henry,R,13668.0
+2014,house,10.0,Means,Means,D,628.0
+2014,house,10.0,Mike Ball,Mike Ball,R,9845.0
+2014,house,11.0,Randall Shedd,Randall Shedd,R,11651.0
+2014,house,12.0,Corey Harbison,Corey Harbison,R,9455.0
+2014,house,13.0,Rowe,Rowe,R,18964.0
+2014,house,14.0,Tim Wadsworth,Tim Wadsworth,R,14202.0
+2014,house,15.0,Allen Farley,Allen Farley,R,10178.0
+2014,house,16.0,Daniel H. Boman,Daniel H. Boman,D,4322.0
+2014,house,16.0,Kyle South,Kyle South,R,11747.0
+2014,house,17.0,Don Barnwell,Don Barnwell,D,4555.0
+2014,house,17.0,Mike Millican,Mike Millican,R,9496.0
+2014,house,18.0,Johnny MacK Morrow,Johnny MacK Morrow,D,6700.0
+2014,house,18.0,Gerry Wallace,Gerry Wallace,R,4559.0
+2014,house,19.0,Laura Hall,Laura Hall,D,7615.0
+2014,house,20.0,Howard Sanderford,Howard Sanderford,R,12876.0
+2014,house,21.0,C. Terry Jones,C. Terry Jones,D,4558.0
+2014,house,21.0,Jim Patterson,Jim Patterson,R,9428.0
+2014,house,22.0,Dennis W. Stephens,Dennis W. Stephens,D,2998.0
+2014,house,22.0,Ritchie Whorton,Ritchie Whorton,R,8688.0
+2014,house,23.0,John Robinson,John Robinson,D,4286.0
+2014,house,23.0,"James T. ""Tommy"" Hanes Jr.","James T. ""Tommy"" Hanes Jr.",R,5716.0
+2014,house,24.0,Beddingfield,Beddingfield,D,8676.0
+2014,house,24.0,Ledbetter,Ledbetter,R,13754.0
+2014,house,25.0,Mac McCutcheon,Mac McCutcheon,R,10432.0
+2014,house,26.0,Kerry Rich,Kerry Rich,R,6478.0
+2014,house,27.0,Jeff McLaughlin,Jeff McLaughlin,D,5139.0
+2014,house,27.0,Will Ainsworth,Will Ainsworth,R,7600.0
+2014,house,28.0,Craig Ford,Craig Ford,D,6827.0
+2014,house,28.0,Doug Sherrod,Doug Sherrod,R,3704.0
+2014,house,29.0,Michael J. Gladden,Michael J. Gladden,D,4941.0
+2014,house,29.0,Becky Nordgren,Becky Nordgren,R,9851.0
+2014,house,30.0,MacK N. Butler,MacK N. Butler,R,9360.0
+2014,house,31.0,Mike Holmes,Mike Holmes,R,21710.0
+2014,house,32.0,Barbara Bigsby Boyd,Barbara Bigsby Boyd,D,11115.0
+2014,house,33.0,Anthony Zachero,Anthony Zachero,D,3370.0
+2014,house,33.0,Ron Johnson,Ron Johnson,R,11961.0
+2014,house,34.0,David Standridge,David Standridge,R,1336.0
+2014,house,35.0,Steve Hurst,Steve Hurst,R,13103.0
+2014,house,36.0,Randy Wood,Randy Wood,R,19591.0
+2014,house,37.0,Josh Burns,Josh Burns,D,5518.0
+2014,house,37.0,Bob Fincher,Bob Fincher,R,5949.0
+2014,house,38.0,Isaac Whorton,Isaac Whorton,R,7279.0
+2014,house,39.0,Richard Lindsey,Richard Lindsey,D,8280.0
+2014,house,39.0,Heath Jones,Heath Jones,R,6421.0
+2014,house,40.0,Copeland,Copeland,D,9105.0
+2014,house,40.0,Brown,Brown,R,22356.0
+2014,house,41.0,Mike Hill,Mike Hill,R,9223.0
+2014,house,42.0,"James M. ""Jimmy"" Martin","James M. ""Jimmy"" Martin",R,15854.0
+2014,house,43.0,Arnold Mooney,Arnold Mooney,R,11492.0
+2014,house,44.0,Danny Garrett,Danny Garrett,R,10360.0
+2014,house,45.0,Dickie Drake,Dickie Drake,R,9609.0
+2014,house,46.0,David Faulkner,David Faulkner,R,10778.0
+2014,house,47.0,Salvatore Bambinelli,Salvatore Bambinelli,D,2642.0
+2014,house,47.0,Jack Williams,Jack Williams,R,7073.0
+2014,house,48.0,Jim Carns,Jim Carns,R,11450.0
+2014,house,49.0,April Weaver,April Weaver,R,12370.0
+2014,house,50.0,Jim Hill,Jim Hill,R,9201.0
+2014,house,51.0,Allen Treadaway,Allen Treadaway,R,10746.0
+2014,house,52.0,John W. Rogers  Jr.,John W. Rogers  Jr.,D,7305.0
+2014,house,52.0,Phillip Bahakel,Phillip Bahakel,R,2207.0
+2014,house,53.0,Anthony Daniels,Anthony Daniels,D,4166.0
+2014,house,53.0,Christopher Horn,Christopher Horn,R,1190.0
+2014,house,54.0,Patricia A. Todd,Patricia A. Todd,D,7601.0
+2014,house,55.0,"Roderick ""Rod"" Scott","Roderick ""Rod"" Scott",D,8453.0
+2014,house,56.0,Louise Alexander,Louise Alexander,D,7960.0
+2014,house,56.0,Darius Foster,Darius Foster,R,3680.0
+2014,house,57.0,Merika Coleman,Merika Coleman,D,10184.0
+2014,house,58.0,Oliver Robinson,Oliver Robinson,D,8287.0
+2014,house,59.0,Mary Moore,Mary Moore,D,7949.0
+2014,house,60.0,"Juandalynn ""Lele"" Givan","Juandalynn ""Lele"" Givan",D,9584.0
+2014,house,61.0,Alan Harper,Alan Harper,R,12031.0
+2014,house,62.0,Rich Wingo,Rich Wingo,R,8416.0
+2014,house,63.0,Bill Poole,Bill Poole,R,6249.0
+2014,house,64.0,Harry Shiver,Harry Shiver,R,8781.0
+2014,house,65.0,Elaine Beech,Elaine Beech,D,8469.0
+2014,house,66.0,Alan Baker,Alan Baker,R,12372.0
+2014,house,67.0,Darrio Melton,Darrio Melton,D,19341.0
+2014,house,68.0,"Thomas E ""Action"" Jackson","Thomas E ""Action"" Jackson",D,8998.0
+2014,house,69.0,Kelvin J. Lawrence,Kelvin J. Lawrence,D,12152.0
+2014,house,69.0,Loretta G. Grant,Loretta G. Grant,R,5559.0
+2014,house,70.0,Christopher John England,Christopher John England,D,6799.0
+2014,house,71.0,Artis (A.J.) McCampbell,Artis (A.J.) McCampbell,D,12359.0
+2014,house,72.0,Ralph A. Howard,Ralph A. Howard,D,12737.0
+2014,house,73.0,Matt Fridy,Matt Fridy,R,9183.0
+2014,house,74.0,Zack Buckner,Zack Buckner,D,3621.0
+2014,house,74.0,Dimitri Polizos,Dimitri Polizos,R,9481.0
+2014,house,75.0,Reed Ingram,Reed Ingram,R,10964.0
+2014,house,76.0,Thad McClammy,Thad McClammy,D,8342.0
+2014,house,77.0,John Knight,John Knight,D,6891.0
+2014,house,77.0,David Grimes,David Grimes,R,3775.0
+2014,house,78.0,Alvin Holmes,Alvin Holmes,D,6998.0
+2014,house,78.0,Tijuanna Adetunji,Tijuanna Adetunji,R,2637.0
+2014,house,79.0,Shirley Scott-Harris,Shirley Scott-Harris,D,3535.0
+2014,house,79.0,Mike Hubbard,Mike Hubbard,R,5136.0
+2014,house,80.0,Tillman Pugh,Tillman Pugh,D,2240.0
+2014,house,80.0,Lesley Vance,Lesley Vance,R,4702.0
+2014,house,81.0,Dylan V. Oliver,Dylan V. Oliver,D,5899.0
+2014,house,81.0,Mark M. Tuggle,Mark M. Tuggle,R,12007.0
+2014,house,82.0,Pebblin W. Warren,Pebblin W. Warren,D,13442.0
+2014,house,83.0,"George ""Tootie"" Bandy","George ""Tootie"" Bandy",D,5257.0
+2014,house,83.0,Gary Head,Gary Head,R,2752.0
+2014,house,84.0,Berry Forte,Berry Forte,D,7365.0
+2014,house,84.0,Jerry A. McGilvray,Jerry A. McGilvray,R,4316.0
+2014,house,85.0,Dexter Grimsley,Dexter Grimsley,D,5777.0
+2014,house,85.0,Bobby Lewis,Bobby Lewis,R,3405.0
+2014,house,86.0,Paul W. Lee,Paul W. Lee,R,9253.0
+2014,house,87.0,Donnie Chesteen,Donnie Chesteen,R,16482.0
+2014,house,88.0,Paul Beckman,Paul Beckman,R,10722.0
+2014,house,89.0,Joel Lee Williams,Joel Lee Williams,D,5436.0
+2014,house,89.0,Alan C. Boothe,Alan C. Boothe,R,5519.0
+2014,house,90.0,Walton Hickman,Walton Hickman,D,11896.0
+2014,house,90.0,Chris Sells,Chris Sells,R,13516.0
+2014,house,91.0,Barry Moore,Barry Moore,R,7484.0
+2014,house,92.0,"Mike Jones, Jr.","Mike Jones, Jr.",R,8925.0
+2014,house,93.0,Jennifer Marsden,Jennifer Marsden,D,2773.0
+2014,house,93.0,Steve Clouse,Steve Clouse,R,9139.0
+2014,house,94.0,T. Joe Faust,T. Joe Faust,R,10738.0
+2014,house,95.0,Steve McMillan,Steve McMillan,R,10336.0
+2014,house,96.0,Randy Davis,Randy Davis,R,10007.0
+2014,house,97.0,Adline C. Clarke,Adline C. Clarke,D,6168.0
+2014,house,98.0,"Napoleon Bracy, Jr.","Napoleon Bracy, Jr.",D,6134.0
+2014,house,98.0,Wayne E. Biggs,Wayne E. Biggs,R,3276.0
+2014,house,99.0,James E. Buskey,James E. Buskey,D,7586.0
+2014,house,100.0,Victor Gaston,Victor Gaston,R,7878.0
+2014,house,101.0,Chris Pringle,Chris Pringle,R,7382.0
+2014,house,102.0,Jack Williams,Jack Williams,R,6688.0
+2014,house,103.0,Barbara A. Drummond,Barbara A. Drummond,D,5608.0
+2014,house,103.0,Ralph Carmichael,Ralph Carmichael,R,2065.0
+2014,house,104.0,Margie Wilcox,Margie Wilcox,R,7745.0
+2014,house,105.0,David Sessions,David Sessions,R,6227.0
+2014,senate,1.0,Mike Curtis,Mike Curtis,D,13704.0
+2014,senate,1.0,Tim Melson,Tim Melson,R,22982.0
+2014,senate,2.0,Bill Holtzclaw,Bill Holtzclaw,R,24936.0
+2014,senate,3.0,Arthur Orr,Arthur Orr,R,26906.0
+2014,senate,4.0,"Angelo ""Doc"" Mancuso","Angelo ""Doc"" Mancuso",D,8875.0
+2014,senate,4.0,Paul Bussman,Paul Bussman,R,24750.0
+2014,senate,5.0,Greg Reed,Greg Reed,R,42966.0
+2014,senate,6.0,"Roger Bedford, Jr.","Roger Bedford, Jr.",D,17574.0
+2014,senate,6.0,Larry Stutts,Larry Stutts,R,17641.0
+2014,senate,7.0,Bryan Bennett,Bryan Bennett,D,12404.0
+2014,senate,7.0,Paul L. Sanford,Paul L. Sanford,R,22873.0
+2014,senate,8.0,Horace Clemmons,Horace Clemmons,D,12664.0
+2014,senate,8.0,Steve Livingston,Steve Livingston,R,32998.0
+2014,senate,9.0,Clay Scofield,Clay Scofield,R,24870.0
+2014,senate,10.0,Larry Means,Larry Means,D,16216.0
+2014,senate,10.0,Phil Williams,Phil Williams,R,17378.0
+2014,senate,11.0,Ron Crumpton,Ron Crumpton,D,6981.0
+2014,senate,11.0,Jim McClendon,Jim McClendon,R,24318.0
+2014,senate,12.0,Taylor Stewart,Taylor Stewart,D,37230.0
+2014,senate,12.0,Del Marsh,Del Marsh,R,49788.0
+2014,senate,13.0,Darrell Turner,Darrell Turner,D,12026.0
+2014,senate,13.0,Gerald Dial,Gerald Dial,R,19956.0
+2014,senate,14.0,Cam Ward,Cam Ward,R,36264.0
+2014,senate,15.0,Slade Blackwell,Slade Blackwell,R,29498.0
+2014,senate,16.0,Cindy Bell,Cindy Bell,D,8284.0
+2014,senate,16.0,"J.T. ""Jabo"" Waggoner","J.T. ""Jabo"" Waggoner",R,28107.0
+2014,senate,17.0,Shay Shelnutt,Shay Shelnutt,R,41130.0
+2014,senate,18.0,Rodger M. Smitherman,Rodger M. Smitherman,D,23195.0
+2014,senate,19.0,Priscilla Dunn,Priscilla Dunn,D,27143.0
+2014,senate,20.0,Linda Coleman,Linda Coleman,D,23368.0
+2014,senate,21.0,Phil Poole,Phil Poole,D,15079.0
+2014,senate,21.0,Gerald Allen,Gerald Allen,R,25406.0
+2014,senate,22.0,Susan Smith,Susan Smith,D,14911.0
+2014,senate,22.0,Greg Albritton,Greg Albritton,R,28298.0
+2014,senate,23.0,Hank Sanders,Hank Sanders,D,47834.0
+2014,senate,24.0,Bobby Singleton,Bobby Singleton,D,31601.0
+2014,senate,25.0,Dick L. Brewbaker,Dick L. Brewbaker,R,36718.0
+2014,senate,26.0,"Quinton T. Ross, Jr.","Quinton T. Ross, Jr.",D,25166.0
+2014,senate,27.0,Haylee Moss,Haylee Moss,D,10358.0
+2014,senate,27.0,Tom Whatley,Tom Whatley,R,19808.0
+2014,senate,28.0,Billy Beasley,Billy Beasley,D,27150.0
+2014,senate,28.0,John Savage,John Savage,R,8624.0
+2014,senate,29.0,Melinda McClendon,Melinda McClendon,R,18974.0
+2014,senate,30.0,"Chambliss, Jr.","Chambliss, Jr.",D,6060.0
+2014,senate,30.0,"Clyde Chambliss, Jr.","Clyde Chambliss, Jr.",R,31390.0
+2014,senate,31.0,Larry Greenwood,Larry Greenwood,D,8627.0
+2014,senate,31.0,Jimmy W. Holley,Jimmy W. Holley,R,23066.0
+2014,senate,32.0,Trip Pittman,Trip Pittman,R,27837.0
+2014,senate,33.0,Vivian Davis Figures,Vivian Davis Figures,D,23012.0
+2014,senate,34.0,Rusty Glover,Rusty Glover,R,22451.0
+2014,senate,35.0,Beau Doolittle,Beau Doolittle,D,6862.0
+2014,senate,35.0,Bill Hightower,Bill Hightower,R,19173.0
+2018,house,1.0,Phillip Pettus,Phillip Pettus,R,7348.0
+2018,house,2.0,Lora Kay Morrow,Lora Kay Morrow,D,4798.0
+2018,house,2.0,Lynn Greer,Lynn Greer,R,13056.0
+2018,house,3.0,Chad Young,Chad Young,D,8540.0
+2018,house,3.0,Andrew Sorrell,Andrew Sorrell,R,9448.0
+2018,house,4.0,Jo Ann Cummings,Jo Ann Cummings,D,4325.0
+2018,house,4.0,Parker Duncan Moore,Parker Duncan Moore,R,11074.0
+2018,house,5.0,Brian D Williams,Brian D Williams,D,4725.0
+2018,house,5.0,Danny F. Crawford,Danny F. Crawford,R,12395.0
+2018,house,6.0,Andy Whitt,Andy Whitt,R,11893.0
+2018,house,7.0,Kenneth A. Brackins,Kenneth A. Brackins,D,3592.0
+2018,house,7.0,Proncey Robertson,Proncey Robertson,R,10892.0
+2018,house,8.0,Billy Jackson,Billy Jackson,D,5469.0
+2018,house,8.0,Terri Collins,Terri Collins,R,8803.0
+2018,house,9.0,Scott Stadthagen,Scott Stadthagen,R,13297.0
+2018,house,10.0,J.B. King,J.B. King,D,8565.0
+2018,house,10.0,Mike Ball,Mike Ball,R,11240.0
+2018,house,11.0,Randall Shedd,Randall Shedd,R,13098.0
+2018,house,12.0,Corey Harbison,Corey Harbison,R,14687.0
+2018,house,13.0,Connie Cooner Rowe,Connie Cooner Rowe,R,13755.0
+2018,house,14.0,Tim Wadsworth,Tim Wadsworth,R,13394.0
+2018,house,15.0,Suzanna Coleman,Suzanna Coleman,D,6951.0
+2018,house,15.0,Allen Farley,Allen Farley,R,14212.0
+2018,house,16.0,Kyle South,Kyle South,R,14681.0
+2018,house,17.0,Tracy Estes,Tracy Estes,R,12158.0
+2018,house,18.0,Eddie Britton,Eddie Britton,D,3886.0
+2018,house,18.0,Jamie Kiel,Jamie Kiel,R,9845.0
+2018,house,19.0,Laura Hall,Laura Hall,D,12675.0
+2018,house,20.0,Linda Meigs,Linda Meigs,D,8527.0
+2018,house,20.0,Howard Sanderford,Howard Sanderford,R,14589.0
+2018,house,21.0,Terry Jones,Terry Jones,D,8391.0
+2018,house,21.0,Rex Reynolds,Rex Reynolds,R,13311.0
+2018,house,22.0,Ritchie Whorton,Ritchie Whorton,R,13929.0
+2018,house,23.0,Tommy Hanes,Tommy Hanes,R,10823.0
+2018,house,24.0,Nathaniel Ledbetter,Nathaniel Ledbetter,R,12394.0
+2018,house,25.0,Mac McCutcheon,Mac McCutcheon,R,14974.0
+2018,house,26.0,Kerry Rich,Kerry Rich,R,8948.0
+2018,house,27.0,Bill Jones,Bill Jones,D,2456.0
+2018,house,27.0,Wes Kitchens,Wes Kitchens,R,13245.0
+2018,house,28.0,Kyle Pierce,Kyle Pierce,D,5731.0
+2018,house,28.0,Gil F. Isbell,Gil F. Isbell,R,7091.0
+2018,house,29.0,Jared Millican,Jared Millican,D,3032.0
+2018,house,29.0,Becky Nordgren,Becky Nordgren,R,11528.0
+2018,house,30.0,Jared Vaughn,Jared Vaughn,D,2931.0
+2018,house,30.0,B. Craig Lipscomb,B. Craig Lipscomb,R,13779.0
+2018,house,31.0,Mike Holmes,Mike Holmes,R,14323.0
+2018,house,32.0,Barbara Bigsby Boyd,Barbara Bigsby Boyd,D,7761.0
+2018,house,32.0,James Allen Lloyd,James Allen Lloyd,R,4513.0
+2018,house,33.0,Scott Brewer,Scott Brewer,D,4928.0
+2018,house,33.0,Ron Johnson,Ron Johnson,R,10155.0
+2018,house,34.0,David Standridge,David Standridge,R,13331.0
+2018,house,35.0,Steve Hurst,Steve Hurst,R,11567.0
+2018,house,36.0,Nicki Arnold-Swindle,Nicki Arnold-Swindle,D,4256.0
+2018,house,36.0,Randy Wood,Randy Wood,R,11399.0
+2018,house,37.0,Charlotte A. Clark-Frieson,Charlotte A. Clark-Frieson,D,4505.0
+2018,house,37.0,Bob Fincher,Bob Fincher,R,11153.0
+2018,house,38.0,Brian McGee,Brian McGee,D,4944.0
+2018,house,38.0,Debbie Hamby Wood,Debbie Hamby Wood,R,11151.0
+2018,house,39.0,Ginny Shaver,Ginny Shaver,R,11585.0
+2018,house,40.0,Pamela Jean Howard,Pamela Jean Howard,D,3819.0
+2018,house,40.0,"Koven ""K.L."" Brown","Koven ""K.L."" Brown",R,11188.0
+2018,house,41.0,Emily Anne Marcum,Emily Anne Marcum,D,4610.0
+2018,house,41.0,Corley Ellis,Corley Ellis,R,14088.0
+2018,house,42.0,"James M. ""Jimmy"" Martin","James M. ""Jimmy"" Martin",R,12412.0
+2018,house,43.0,Carin Mayo,Carin Mayo,D,5847.0
+2018,house,43.0,Arnold G. Mooney II,Arnold G. Mooney II,R,15035.0
+2018,house,44.0,Danny Garrett,Danny Garrett,R,14597.0
+2018,house,45.0,Jenn Gray,Jenn Gray,D,7148.0
+2018,house,45.0,Dickie Drake,Dickie Drake,R,13669.0
+2018,house,46.0,Felicia Stewart,Felicia Stewart,D,8445.0
+2018,house,46.0,David Faulkner,David Faulkner,R,13341.0
+2018,house,47.0,Jim Toomey,Jim Toomey,D,7721.0
+2018,house,47.0,David Wheeler,David Wheeler,R,9170.0
+2018,house,48.0,Alli Summerford,Alli Summerford,D,7832.0
+2018,house,48.0,Jim Carns,Jim Carns,R,14789.0
+2018,house,49.0,April Weaver,April Weaver,R,10794.0
+2018,house,50.0,Jim Hill,Jim Hill,R,14412.0
+2018,house,51.0,Veronica R. Johnson,Veronica R. Johnson,D,3174.0
+2018,house,51.0,Allen Treadaway,Allen Treadaway,R,15390.0
+2018,house,52.0,"John W. Rogers, Jr.","John W. Rogers, Jr.",D,13284.0
+2018,house,53.0,Anthony Daniels,Anthony Daniels,D,8375.0
+2018,house,54.0,Neil Rafferty,Neil Rafferty,D,13287.0
+2018,house,55.0,"Roderick ""Rod"" Hampton Scott","Roderick ""Rod"" Hampton Scott",D,13109.0
+2018,house,56.0,"Louise ""Lulu"" Alexander","Louise ""Lulu"" Alexander",D,13769.0
+2018,house,57.0,Merika Coleman,Merika Coleman,D,12831.0
+2018,house,58.0,Rolanda Hollis,Rolanda Hollis,D,12498.0
+2018,house,59.0,Mary Moore,Mary Moore,D,12036.0
+2018,house,60.0,Juandalynn Givan,Juandalynn Givan,D,14432.0
+2018,house,61.0,"Thomas ""Tommy"" Hyche","Thomas ""Tommy"" Hyche",D,6491.0
+2018,house,61.0,Rodney Sullivan,Rodney Sullivan,R,12407.0
+2018,house,62.0,Will Benton,Will Benton,D,5265.0
+2018,house,62.0,Rich Wingo,Rich Wingo,R,11282.0
+2018,house,63.0,Bill Poole,Bill Poole,R,10239.0
+2018,house,64.0,Amber Selman-Lynn,Amber Selman-Lynn,D,4022.0
+2018,house,64.0,Harry Shiver,Harry Shiver,R,13030.0
+2018,house,65.0,Elaine Beech,Elaine Beech,D,9010.0
+2018,house,65.0,Brett Easterbrook,Brett Easterbrook,R,10095.0
+2018,house,66.0,Susan E. Smith,Susan E. Smith,D,4008.0
+2018,house,66.0,Alan Baker,Alan Baker,R,10431.0
+2018,house,67.0,Prince Chestnut,Prince Chestnut,D,11239.0
+2018,house,68.0,"Thomas E. ""Action"" Jackson","Thomas E. ""Action"" Jackson",D,10382.0
+2018,house,69.0,Kelvin Jamichael Lawrence,Kelvin Jamichael Lawrence,D,12867.0
+2018,house,70.0,Christopher John England,Christopher John England,D,11541.0
+2018,house,71.0,"Artis ""A.J."" McCampbell","Artis ""A.J."" McCampbell",D,12400.0
+2018,house,72.0,Ralph A. Howard,Ralph A. Howard,D,12811.0
+2018,house,73.0,Jack Jacobs,Jack Jacobs,D,5772.0
+2018,house,73.0,Matt Fridy,Matt Fridy,R,12913.0
+2018,house,74.0,Rayford Mack,Rayford Mack,D,6160.0
+2018,house,74.0,Dimitri Polizos,Dimitri Polizos,R,9449.0
+2018,house,75.0,Reed Ingram,Reed Ingram,R,13229.0
+2018,house,76.0,Thad McClammy,Thad McClammy,D,11681.0
+2018,house,77.0,Tashina Morris,Tashina Morris,D,10638.0
+2018,house,78.0,Kirk Hatcher,Kirk Hatcher,D,9506.0
+2018,house,79.0,Mary Wynne Kling,Mary Wynne Kling,D,7015.0
+2018,house,79.0,Joe Lovvorn,Joe Lovvorn,R,9717.0
+2018,house,80.0,"Christopher F. ""Apostle"" Davis","Christopher F. ""Apostle"" Davis",D,3407.0
+2018,house,80.0,Chris E. Blackshear,Chris E. Blackshear,R,8506.0
+2018,house,81.0,"Jeremy ""J.J."" Jeffcoat","Jeremy ""J.J."" Jeffcoat",D,4696.0
+2018,house,81.0,Ed Oliver,Ed Oliver,R,12823.0
+2018,house,82.0,Pebblin Walker Warren,Pebblin Walker Warren,D,11411.0
+2018,house,83.0,"Jeremy ""Mr. Eyg"" Gray","Jeremy ""Mr. Eyg"" Gray",D,8940.0
+2018,house,83.0,Michael J Holden II,Michael J Holden II,R,5142.0
+2018,house,84.0,Berry Forte,Berry Forte,D,9962.0
+2018,house,85.0,Dexter Grimsley,Dexter Grimsley,D,7315.0
+2018,house,85.0,J. Ron Wilson,J. Ron Wilson,R,6266.0
+2018,house,86.0,Kristy M. Kirkland,Kristy M. Kirkland,D,3238.0
+2018,house,86.0,Paul W. Lee,Paul W. Lee,R,11226.0
+2018,house,87.0,Jeff Sorrells,Jeff Sorrells,R,13835.0
+2018,house,88.0,Cory Creel,Cory Creel,D,4793.0
+2018,house,88.0,Will Dismukes,Will Dismukes,R,11500.0
+2018,house,89.0,Joel Lee Williams,Joel Lee Williams,D,5348.0
+2018,house,89.0,Wes Allen,Wes Allen,R,7804.0
+2018,house,90.0,Joanne Whetstone,Joanne Whetstone,D,6051.0
+2018,house,90.0,Chris Sells,Chris Sells,R,11063.0
+2018,house,91.0,Rhett Marques,Rhett Marques,R,11445.0
+2018,house,92.0,"Mike Jones, Jr.","Mike Jones, Jr.",R,11912.0
+2018,house,93.0,Steve Clouse,Steve Clouse,R,11974.0
+2018,house,94.0,Danielle Mashburn-Myrick,Danielle Mashburn-Myrick,D,6257.0
+2018,house,94.0,Joe Faust,Joe Faust,R,15302.0
+2018,house,95.0,Steve McMillan,Steve McMillan,R,17008.0
+2018,house,96.0,Maurice Horsey,Maurice Horsey,D,5019.0
+2018,house,96.0,Matt Simpson,Matt Simpson,R,13699.0
+2018,house,97.0,Adline C. Clarke,Adline C. Clarke,D,8740.0
+2018,house,97.0,Stephen McNair,Stephen McNair,R,4605.0
+2018,house,98.0,"Napoleon Bracy, Jr.","Napoleon Bracy, Jr.",D,9674.0
+2018,house,99.0,Sam Jones,Sam Jones,D,11794.0
+2018,house,99.0,Charles W. Talbert,Charles W. Talbert,R,4270.0
+2018,house,100.0,Victor Gaston,Victor Gaston,R,12086.0
+2018,house,101.0,Chris Pringle,Chris Pringle,R,10274.0
+2018,house,102.0,Shane Stringer,Shane Stringer,R,11048.0
+2018,house,103.0,Barbara Drummond,Barbara Drummond,D,8818.0
+2018,house,104.0,Arlene Cunningham Easley,Arlene Cunningham Easley,D,4695.0
+2018,house,104.0,Margie Wilcox,Margie Wilcox,R,10152.0
+2018,house,105.0,Chip Brown,Chip Brown,R,10176.0
+2018,senate,1.0,Caroline Self,Caroline Self,D,15830.0
+2018,senate,1.0,Tim Melson,Tim Melson,R,33141.0
+2018,senate,2.0,Amy Wasyluka,Amy Wasyluka,D,26911.0
+2018,senate,2.0,Tom Butler,Tom Butler,R,31997.0
+2018,senate,3.0,Arthur Orr,Arthur Orr,R,37295.0
+2018,senate,4.0,Garlan Gudger,Garlan Gudger,R,39817.0
+2018,senate,5.0,Greg J. Reed,Greg J. Reed,R,42404.0
+2018,senate,6.0,Johnny Mack Morrow,Johnny Mack Morrow,D,21796.0
+2018,senate,6.0,Larry Stutts,Larry Stutts,R,22683.0
+2018,senate,7.0,Deborah Barros,Deborah Barros,D,24363.0
+2018,senate,7.0,Sam Givhan,Sam Givhan,R,30080.0
+2018,senate,8.0,Steve Livingston,Steve Livingston,R,37913.0
+2018,senate,9.0,Clay Scofield,Clay Scofield,R,35192.0
+2018,senate,10.0,Andrew Jones,Andrew Jones,R,25902.0
+2018,senate,11.0,Carl Carter,Carl Carter,D,11411.0
+2018,senate,11.0,Jim McClendon,Jim McClendon,R,36192.0
+2018,senate,12.0,Jim Williams,Jim Williams,D,15010.0
+2018,senate,12.0,Del Marsh,Del Marsh,R,27416.0
+2018,senate,13.0,Darrell Turner,Darrell Turner,D,12839.0
+2018,senate,13.0,Randy Price,Randy Price,R,31614.0
+2018,senate,14.0,Jerry McDonald,Jerry McDonald,D,13171.0
+2018,senate,14.0,Cam Ward,Cam Ward,R,34953.0
+2018,senate,15.0,Dan Roberts,Dan Roberts,R,44792.0
+2018,senate,16.0,Lindsey Deckard,Lindsey Deckard,D,21851.0
+2018,senate,16.0,"J.T. ""Jabo"" Waggoner","J.T. ""Jabo"" Waggoner",R,37068.0
+2018,senate,17.0,Shay Shelnutt,Shay Shelnutt,R,45964.0
+2018,senate,18.0,Rodger M. Smitherman,Rodger M. Smitherman,D,39819.0
+2018,senate,19.0,Priscilla Dunn,Priscilla Dunn,D,38668.0
+2018,senate,20.0,Linda Coleman-Madison,Linda Coleman-Madison,D,36478.0
+2018,senate,21.0,Rick Burnham,Rick Burnham,D,16005.0
+2018,senate,21.0,Gerald Allen,Gerald Allen,R,33368.0
+2018,senate,22.0,Greg Albritton,Greg Albritton,R,34507.0
+2018,senate,23.0,Malika Sanders-Fortier,Malika Sanders-Fortier,D,29920.0
+2018,senate,24.0,Bobby Singleton,Bobby Singleton,D,37394.0
+2018,senate,25.0,David A. Sadler,David A. Sadler,D,20866.0
+2018,senate,25.0,Will Barfoot,Will Barfoot,R,33029.0
+2018,senate,26.0,"David ""Coach"" Burkette","David ""Coach"" Burkette",D,31973.0
+2018,senate,26.0,D. J. Johnson,D. J. Johnson,R,7863.0
+2018,senate,27.0,Nancy Carlton Bendinger,Nancy Carlton Bendinger,D,20586.0
+2018,senate,27.0,Tom Whatley,Tom Whatley,R,29741.0
+2018,senate,28.0,Billy Beasley,Billy Beasley,D,28442.0
+2018,senate,29.0,Donnie Chesteen,Donnie Chesteen,R,34273.0
+2018,senate,30.0,"Clyde Chambliss, Jr.","Clyde Chambliss, Jr.",R,35256.0
+2018,senate,31.0,Jimmy W. Holley,Jimmy W. Holley,R,33137.0
+2018,senate,32.0,Jason Fisher,Jason Fisher,D,15193.0
+2018,senate,32.0,Chris Elliott,Chris Elliott,R,45726.0
+2018,senate,33.0,Vivian Davis Figures,Vivian Davis Figures,D,34995.0
+2018,senate,34.0,Jack Williams,Jack Williams,R,35093.0
+2018,senate,35.0,Tom Holmes,Tom Holmes,D,13896.0
+2018,senate,35.0,David Sessions,David Sessions,R,29046.0
+2022,house,1.0,GSL001RPET,GSL001RPET,R,10360.0
+2022,house,2.0,GSL002RHAR,GSL002RHAR,R,11233.0
+2022,house,3.0,GSL003DTHO,GSL003DTHO,D,4241.0
+2022,house,3.0,GSL003RUND,GSL003RUND,R,8023.0
+2022,house,4.0,GSL004RMOO,GSL004RMOO,R,11236.0
+2022,house,5.0,GSL005RCRA,GSL005RCRA,R,12332.0
+2022,house,6.0,GSL006RWHI,GSL006RWHI,R,11052.0
+2022,house,7.0,GSL007DJON,GSL007DJON,D,3133.0
+2022,house,7.0,GSL007RYAR,GSL007RYAR,R,11225.0
+2022,house,8.0,GSL008RCOL,GSL008RCOL,R,7234.0
+2022,house,9.0,GSL009RSTA,GSL009RSTA,R,11041.0
+2022,house,10.0,GSL010DLAN,GSL010DLAN,D,6608.0
+2022,house,10.0,GSL010RCOL,GSL010RCOL,R,7581.0
+2022,house,11.0,GSL011RSHE,GSL011RSHE,R,12552.0
+2022,house,12.0,GSL012DFIE,GSL012DFIE,D,2030.0
+2022,house,12.0,GSL012RHAR,GSL012RHAR,R,11958.0
+2022,house,13.0,GSL013RWOO,GSL013RWOO,R,11422.0
+2022,house,14.0,GSL014RWAD,GSL014RWAD,R,13396.0
+2022,house,15.0,GSL015DROU,GSL015DROU,D,6166.0
+2022,house,15.0,GSL015RHUL,GSL015RHUL,R,10818.0
+2022,house,16.0,GSL016RSOU,GSL016RSOU,R,13174.0
+2022,house,17.0,GSL017REST,GSL017REST,R,12850.0
+2022,house,18.0,GSL018RKIE,GSL018RKIE,R,10783.0
+2022,house,19.0,GSL019DHAL,GSL019DHAL,D,8721.0
+2022,house,20.0,GSL020RLOM,GSL020RLOM,R,14816.0
+2022,house,21.0,GSL021RREY,GSL021RREY,R,12386.0
+2022,house,22.0,GSL022RWHO,GSL022RWHO,R,12984.0
+2022,house,23.0,GSL023RKIR,GSL023RKIR,R,10980.0
+2022,house,24.0,GSL024RLED,GSL024RLED,R,11285.0
+2022,house,25.0,GSL025DHAG,GSL025DHAG,D,7837.0
+2022,house,25.0,GSL025RRIG,GSL025RRIG,R,10813.0
+2022,house,26.0,GSL026DALF,GSL026DALF,D,1078.0
+2022,house,26.0,GSL026RCOL,GSL026RCOL,R,8258.0
+2022,house,27.0,GSL027DNEU,GSL027DNEU,D,1583.0
+2022,house,27.0,GSL027RKIT,GSL027RKIT,R,13150.0
+2022,house,28.0,GSL028RBUT,GSL028RBUT,R,6566.0
+2022,house,29.0,GSL029RGID,GSL029RGID,R,12612.0
+2022,house,30.0,GSL030RLIP,GSL030RLIP,R,12325.0
+2022,house,31.0,GSL031RSTU,GSL031RSTU,R,11418.0
+2022,house,32.0,GSL032DBOY,GSL032DBOY,D,5519.0
+2022,house,32.0,GSL032RJAC,GSL032RJAC,R,4389.0
+2022,house,33.0,GSL033DCRU,GSL033DCRU,D,3571.0
+2022,house,33.0,GSL033RROB,GSL033RROB,R,9534.0
+2022,house,34.0,GSL034RSTA,GSL034RSTA,R,12222.0
+2022,house,35.0,GSL035RHUR,GSL035RHUR,R,10880.0
+2022,house,36.0,GSL036RWOO,GSL036RWOO,R,12449.0
+2022,house,37.0,GSL037RFIN,GSL037RFIN,R,11937.0
+2022,house,38.0,GSL038RWOO,GSL038RWOO,R,9162.0
+2022,house,39.0,GSL039RSHA,GSL039RSHA,R,11224.0
+2022,house,40.0,GSL040DHOW,GSL040DHOW,D,2221.0
+2022,house,40.0,GSL040RROB,GSL040RROB,R,10772.0
+2022,house,41.0,GSL041DNEL,GSL041DNEL,D,3203.0
+2022,house,41.0,GSL041RELL,GSL041RELL,R,10897.0
+2022,house,42.0,GSL042RSMI,GSL042RSMI,R,12336.0
+2022,house,43.0,GSL043DCLE,GSL043DCLE,D,3760.0
+2022,house,43.0,GSL043RMOO,GSL043RMOO,R,12751.0
+2022,house,44.0,GSL044RGAR,GSL044RGAR,R,11396.0
+2022,house,45.0,GSL045RDUB,GSL045RDUB,R,12060.0
+2022,house,46.0,GSL046RFAU,GSL046RFAU,R,12656.0
+2022,house,47.0,GSL047DCOL,GSL047DCOL,D,4816.0
+2022,house,47.0,GSL047RSHA,GSL047RSHA,R,8590.0
+2022,house,48.0,GSL048RCAR,GSL048RCAR,R,12518.0
+2022,house,49.0,GSL049RBED,GSL049RBED,R,10604.0
+2022,house,50.0,GSL050RHIL,GSL050RHIL,R,12720.0
+2022,house,51.0,GSL051RTRE,GSL051RTRE,R,14025.0
+2022,house,52.0,GSL052DROG,GSL052DROG,D,10229.0
+2022,house,53.0,GSL053DDAN,GSL053DDAN,D,5748.0
+2022,house,54.0,GSL054DRAF,GSL054DRAF,D,9798.0
+2022,house,55.0,GSL055DPLU,GSL055DPLU,D,10018.0
+2022,house,56.0,GSL056DTIL,GSL056DTIL,D,8986.0
+2022,house,57.0,GSL057DSEL,GSL057DSEL,D,9221.0
+2022,house,57.0,GSL057RBAU,GSL057RBAU,R,4752.0
+2022,house,58.0,GSL058DHOL,GSL058DHOL,D,8385.0
+2022,house,59.0,GSL059DMOO,GSL059DMOO,D,8859.0
+2022,house,60.0,GSL060DGIV,GSL060DGIV,D,9872.0
+2022,house,61.0,GSL061RBOL,GSL061RBOL,R,10546.0
+2022,house,62.0,GSL062DCEP,GSL062DCEP,D,3094.0
+2022,house,62.0,GSL062RLAM,GSL062RLAM,R,8803.0
+2022,house,63.0,GSL063DADA,GSL063DADA,D,2827.0
+2022,house,63.0,GSL063RALM,GSL063RALM,R,5541.0
+2022,house,64.0,GSL064RGIV,GSL064RGIV,R,11041.0
+2022,house,65.0,GSL065DCAS,GSL065DCAS,D,4759.0
+2022,house,65.0,GSL065REAS,GSL065REAS,R,12693.0
+2022,house,66.0,GSL066RBAK,GSL066RBAK,R,12042.0
+2022,house,67.0,GSL067DCHE,GSL067DCHE,D,10335.0
+2022,house,68.0,GSL068DJAC,GSL068DJAC,D,9517.0
+2022,house,68.0,GSL068RKEL,GSL068RKEL,R,8948.0
+2022,house,69.0,GSL069DLAW,GSL069DLAW,D,8769.0
+2022,house,69.0,GSL069RMAD,GSL069RMAD,R,7103.0
+2022,house,70.0,GSL070DENG,GSL070DENG,D,6245.0
+2022,house,71.0,GSL071DMCC,GSL071DMCC,D,9126.0
+2022,house,72.0,GSL072DTRA,GSL072DTRA,D,8128.0
+2022,house,73.0,GSL073RPAS,GSL073RPAS,R,10343.0
+2022,house,74.0,GSL074DENS,GSL074DENS,D,7538.0
+2022,house,74.0,GSL074RMEA,GSL074RMEA,R,4986.0
+2022,house,75.0,GSL075RING,GSL075RING,R,11688.0
+2022,house,76.0,GSL076DMCC,GSL076DMCC,D,8312.0
+2022,house,77.0,GSL077DMOR,GSL077DMOR,D,7062.0
+2022,house,78.0,GSL078DHAS,GSL078DHAS,D,6991.0
+2022,house,79.0,GSL079RLOV,GSL079RLOV,R,7690.0
+2022,house,80.0,GSL080RBLA,GSL080RBLA,R,8113.0
+2022,house,81.0,GSL081ROLI,GSL081ROLI,R,12116.0
+2022,house,82.0,GSL082DWAR,GSL082DWAR,D,6257.0
+2022,house,82.0,GSL082RPIE,GSL082RPIE,R,2526.0
+2022,house,83.0,GSL083DGRA,GSL083DGRA,D,6540.0
+2022,house,84.0,GSL084DFOR,GSL084DFOR,D,7463.0
+2022,house,85.0,GSL085DGRI,GSL085DGRI,D,5668.0
+2022,house,85.0,GSL085RREH,GSL085RREH,R,6665.0
+2022,house,86.0,GSL086RLEE,GSL086RLEE,R,10697.0
+2022,house,87.0,GSL087RSOR,GSL087RSOR,R,12957.0
+2022,house,88.0,GSL088RSTA,GSL088RSTA,R,10020.0
+2022,house,89.0,GSL089RPAR,GSL089RPAR,R,7855.0
+2022,house,90.0,GSL090RSEL,GSL090RSEL,R,11567.0
+2022,house,91.0,GSL091RMAR,GSL091RMAR,R,9794.0
+2022,house,92.0,GSL092DHUB,GSL092DHUB,D,1789.0
+2022,house,92.0,GSL092RHAM,GSL092RHAM,R,11778.0
+2022,house,93.0,GSL093RCLO,GSL093RCLO,R,10333.0
+2022,house,94.0,GSL094RFID,GSL094RFID,R,14207.0
+2022,house,95.0,GSL095DBRA,GSL095DBRA,D,2465.0
+2022,house,95.0,GSL095RHOL,GSL095RHOL,R,14242.0
+2022,house,96.0,GSL096RSIM,GSL096RSIM,R,11990.0
+2022,house,97.0,GSL097DCLA,GSL097DCLA,D,7337.0
+2022,house,98.0,GSL098DBRA,GSL098DBRA,D,7655.0
+2022,house,99.0,GSL099DJON,GSL099DJON,D,8252.0
+2022,house,100.0,GSL100RSHI,GSL100RSHI,R,9781.0
+2022,house,101.0,GSL101RPRI,GSL101RPRI,R,8968.0
+2022,house,102.0,GSL102RSTR,GSL102RSTR,R,10472.0
+2022,house,103.0,GSL103DDRU,GSL103DDRU,D,6015.0
+2022,house,104.0,GSL104RWIL,GSL104RWIL,R,8871.0
+2022,house,105.0,GSL105RBRO,GSL105RBRO,R,10554.0
+2022,senate,1.0,GSU01RMEL,GSU01RMEL,R,35480.0
+2022,senate,2.0,GSU02DLEW,GSU02DLEW,D,20749.0
+2022,senate,2.0,GSU02RBUT,GSU02RBUT,R,25951.0
+2022,senate,3.0,GSU03RORR,GSU03RORR,R,30578.0
+2022,senate,4.0,GSU04RGUD,GSU04RGUD,R,38265.0
+2022,senate,5.0,GSU05RREE,GSU05RREE,R,36159.0
+2022,senate,6.0,GSU06RSTU,GSU06RSTU,R,30883.0
+2022,senate,7.0,GSU07DWIL,GSU07DWIL,D,17295.0
+2022,senate,7.0,GSU07RGIV,GSU07RGIV,R,29095.0
+2022,senate,8.0,GSU08RLIV,GSU08RLIV,R,33758.0
+2022,senate,9.0,GSU09RSCO,GSU09RSCO,R,32709.0
+2022,senate,10.0,GSU10RJON,GSU10RJON,R,32153.0
+2022,senate,11.0,GSU11RBEL,GSU11RBEL,R,33505.0
+2022,senate,12.0,GSU12DMCC,GSU12DMCC,D,10271.0
+2022,senate,12.0,GSU12RKEL,GSU12RKEL,R,28786.0
+2022,senate,13.0,GSU13RPRI,GSU13RPRI,R,31759.0
+2022,senate,14.0,GSU14RWEA,GSU14RWEA,R,31917.0
+2022,senate,15.0,GSU15RROB,GSU15RROB,R,35704.0
+2022,senate,16.0,GSU16RWAG,GSU16RWAG,R,33719.0
+2022,senate,17.0,GSU17RSHE,GSU17RSHE,R,38137.0
+2022,senate,18.0,GSU18DSMI,GSU18DSMI,D,28642.0
+2022,senate,19.0,GSU19DCOL,GSU19DCOL,D,26369.0
+2022,senate,20.0,GSU20DCOL,GSU20DCOL,D,27567.0
+2022,senate,21.0,GSU21DWAR,GSU21DWAR,D,11198.0
+2022,senate,21.0,GSU21RALL,GSU21RALL,R,21962.0
+2022,senate,22.0,GSU22RALB,GSU22RALB,R,32880.0
+2022,senate,23.0,GSU23DSTE,GSU23DSTE,D,25953.0
+2022,senate,23.0,GSU23RNIM,GSU23RNIM,R,21682.0
+2022,senate,24.0,GSU24DSIN,GSU24DSIN,D,25440.0
+2022,senate,25.0,GSU25RBAR,GSU25RBAR,R,32640.0
+2022,senate,26.0,GSU26DHAT,GSU26DHAT,D,25901.0
+2022,senate,27.0,GSU27DREE,GSU27DREE,D,10996.0
+2022,senate,27.0,GSU27RHOV,GSU27RHOV,R,26014.0
+2022,senate,28.0,GSU28DBEA,GSU28DBEA,D,21252.0
+2022,senate,29.0,GSU29DMAT,GSU29DMAT,D,6476.0
+2022,senate,29.0,GSU29RCHE,GSU29RCHE,R,31576.0
+2022,senate,30.0,GSU30RCHA,GSU30RCHA,R,29225.0
+2022,senate,31.0,GSU31RCAR,GSU31RCAR,R,30618.0
+2022,senate,32.0,GSU32RELL,GSU32RELL,R,41073.0
+2022,senate,33.0,GSU33DFIG,GSU33DFIG,D,23203.0
+2022,senate,33.0,GSU33RRIE,GSU33RRIE,R,11401.0
+2022,senate,34.0,GSU34RWIL,GSU34RWIL,R,27043.0
+2022,senate,35.0,GSU35RSES,GSU35RSES,R,27133.0

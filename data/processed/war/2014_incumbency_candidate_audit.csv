@@ -1,0 +1,198 @@
+cycle,chamber,district,candidate,candidate_code,party,votes,incumbent_candidate,incumbent_party,incumbency_source,match_score,assigned_incumbent,prior_winner_evidence,annotation_evidence,evidence_class,party_switch_flag,prior_party,incumbency_status,incumbent_count,war_eligible,audit_priority
+2014,house,1.0,Greg Burdine,Greg Burdine,D,4652.0,Greg Burdine,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,D,incumbent_running,1,True,standard
+2014,house,1.0,Phillip Pettus,Phillip Pettus,R,4933.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,2.0,"Andrew ""Andy"" Betterton","Andrew ""Andy"" Betterton",D,5224.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,2.0,Lynn Greer,Lynn Greer,R,8561.0,Lynn Greer,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,R,incumbent_running,1,True,standard
+2014,house,3.0,Marcel Black,Marcel Black,D,7993.0,Marcel Black,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,D,incumbent_running,1,True,standard
+2014,house,3.0,Fred Joly,Fred Joly,R,5357.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,4.0,Micky Hammon,Micky Hammon,R,8473.0,Micky Hammon,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,R,incumbent_running,1,False,standard
+2014,house,5.0,Henry A. White,Henry A. White,D,5520.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,5.0,Dan Williams,Dan Williams,R,7132.0,Dan Williams,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,R,incumbent_running,1,True,standard
+2014,house,6.0,Phil Williams,Phil Williams,R,8327.0,Phil Williams,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,house,7.0,John (Jody) Letson,John (Jody) Letson,D,5553.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,7.0,Ken Johnson,Ken Johnson,R,6072.0,Ken Johnson,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,R,incumbent_running,1,True,standard
+2014,house,8.0,Rex Cheatham,Rex Cheatham,D,4195.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,8.0,Terri Collins,Terri Collins,R,6270.0,Terri Collins,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,True,standard
+2014,house,9.0,Ed Henry,Ed Henry,R,13668.0,Ed Henry,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,house,10.0,Means,Means,D,628.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,10.0,Mike Ball,Mike Ball,R,9845.0,Mike Ball,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,R,incumbent_running,1,True,standard
+2014,house,11.0,Randall Shedd,Randall Shedd,R,11651.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,False,standard
+2014,house,12.0,Corey Harbison,Corey Harbison,R,9455.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,False,standard
+2014,house,13.0,Rowe,Rowe,R,18964.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,False,standard
+2014,house,14.0,Tim Wadsworth,Tim Wadsworth,R,14202.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,False,standard
+2014,house,15.0,Allen Farley,Allen Farley,R,10178.0,Allen Farley,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,house,16.0,Daniel H. Boman,Daniel H. Boman,D,4322.0,Daniel H. Boman,D,prior_winner_match+wikipedia_incumbent_annotation,0.9230769230769232,True,True,True,corroborated,False,,incumbent_running,1,True,standard
+2014,house,16.0,Kyle South,Kyle South,R,11747.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,17.0,Don Barnwell,Don Barnwell,D,4555.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,17.0,Mike Millican,Mike Millican,R,9496.0,Mike Millican,R,prior_winner_match,1.0,True,True,False,prior_winner_only,True,D,incumbent_running,1,True,externally_verified_party_switch
+2014,house,18.0,Johnny MacK Morrow,Johnny MacK Morrow,D,6700.0,Johnny MacK Morrow,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,,incumbent_running,1,True,standard
+2014,house,18.0,Gerry Wallace,Gerry Wallace,R,4559.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,19.0,Laura Hall,Laura Hall,D,7615.0,Laura Hall,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,D,incumbent_running,1,False,standard
+2014,house,20.0,Howard Sanderford,Howard Sanderford,R,12876.0,Howard Sanderford,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,R,incumbent_running,1,False,standard
+2014,house,21.0,C. Terry Jones,C. Terry Jones,D,4558.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,21.0,Jim Patterson,Jim Patterson,R,9428.0,Jim Patterson,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,True,standard
+2014,house,22.0,Dennis W. Stephens,Dennis W. Stephens,D,2998.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,house,22.0,Ritchie Whorton,Ritchie Whorton,R,8688.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,house,23.0,John Robinson,John Robinson,D,4286.0,John Robinson,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,D,incumbent_running,1,True,standard
+2014,house,23.0,"James T. ""Tommy"" Hanes Jr.","James T. ""Tommy"" Hanes Jr.",R,5716.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,24.0,Beddingfield,Beddingfield,D,8676.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,house,24.0,Ledbetter,Ledbetter,R,13754.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,house,25.0,Mac McCutcheon,Mac McCutcheon,R,10432.0,Mac McCutcheon,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,R,incumbent_running,1,False,standard
+2014,house,26.0,Kerry Rich,Kerry Rich,R,6478.0,Kerry Rich,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,house,27.0,Jeff McLaughlin,Jeff McLaughlin,D,5139.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,house,27.0,Will Ainsworth,Will Ainsworth,R,7600.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,house,28.0,Craig Ford,Craig Ford,D,6827.0,Craig Ford,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,D,incumbent_running,1,True,standard
+2014,house,28.0,Doug Sherrod,Doug Sherrod,R,3704.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,29.0,Michael J. Gladden,Michael J. Gladden,D,4941.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,29.0,Becky Nordgren,Becky Nordgren,R,9851.0,Becky Nordgren,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,True,standard
+2014,house,30.0,MacK N. Butler,MacK N. Butler,R,9360.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,False,standard
+2014,house,31.0,Mike Holmes,Mike Holmes,R,21710.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,False,standard
+2014,house,32.0,Barbara Bigsby Boyd,Barbara Bigsby Boyd,D,11115.0,Barbara Bigsby Boyd,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,,incumbent_running,1,False,standard
+2014,house,33.0,Anthony Zachero,Anthony Zachero,D,3370.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,33.0,Ron Johnson,Ron Johnson,R,11961.0,Ron Johnson,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,R,incumbent_running,1,True,standard
+2014,house,34.0,David Standridge,David Standridge,R,1336.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,False,standard
+2014,house,35.0,Steve Hurst,Steve Hurst,R,13103.0,Steve Hurst,R,prior_winner_match,1.0,True,True,False,prior_winner_only,True,D,incumbent_running,1,False,externally_verified_party_switch
+2014,house,36.0,Randy Wood,Randy Wood,R,19591.0,Randy Wood,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,R,incumbent_running,1,False,standard
+2014,house,37.0,Josh Burns,Josh Burns,D,5518.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,house,37.0,Bob Fincher,Bob Fincher,R,5949.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,house,38.0,Isaac Whorton,Isaac Whorton,R,7279.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,False,standard
+2014,house,39.0,Richard Lindsey,Richard Lindsey,D,8280.0,Richard Lindsey,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,D,incumbent_running,1,True,standard
+2014,house,39.0,Heath Jones,Heath Jones,R,6421.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,40.0,Copeland,Copeland,D,9105.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,house,40.0,Brown,Brown,R,22356.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,house,41.0,Mike Hill,Mike Hill,R,9223.0,Mike Hill,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,R,incumbent_running,1,False,standard
+2014,house,42.0,"James M. ""Jimmy"" Martin","James M. ""Jimmy"" Martin",R,15854.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,False,standard
+2014,house,43.0,Arnold Mooney,Arnold Mooney,R,11492.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,False,standard
+2014,house,44.0,Danny Garrett,Danny Garrett,R,10360.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,False,standard
+2014,house,45.0,Dickie Drake,Dickie Drake,R,9609.0,Dickie Drake,R,wikipedia_incumbent_annotation,1.0,True,False,True,annotation_only_review,False,,incumbent_running,1,False,externally_verified_incumbent
+2014,house,46.0,David Faulkner,David Faulkner,R,10778.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,False,standard
+2014,house,47.0,Salvatore Bambinelli,Salvatore Bambinelli,D,2642.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,47.0,Jack Williams,Jack Williams,R,7073.0,Jack Williams,R,wikipedia_incumbent_annotation,1.0,True,False,True,annotation_only_review,False,R,incumbent_running,1,True,externally_verified_incumbent
+2014,house,48.0,Jim Carns,Jim Carns,R,11450.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,False,standard
+2014,house,49.0,April Weaver,April Weaver,R,12370.0,April Weaver,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,house,50.0,Jim Hill,Jim Hill,R,9201.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,False,standard
+2014,house,51.0,Allen Treadaway,Allen Treadaway,R,10746.0,Allen Treadaway,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,R,incumbent_running,1,False,standard
+2014,house,52.0,John W. Rogers  Jr.,John W. Rogers  Jr.,D,7305.0,John W. Rogers  Jr.,D,prior_winner_match+wikipedia_incumbent_annotation,0.9166666666666666,True,True,True,corroborated,False,,incumbent_running,1,True,standard
+2014,house,52.0,Phillip Bahakel,Phillip Bahakel,R,2207.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,53.0,Anthony Daniels,Anthony Daniels,D,4166.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,house,53.0,Christopher Horn,Christopher Horn,R,1190.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,house,54.0,Patricia A. Todd,Patricia A. Todd,D,7601.0,Patricia A. Todd,D,prior_winner_match+wikipedia_incumbent_annotation,0.9285714285714286,True,True,True,corroborated,False,,incumbent_running,1,False,standard
+2014,house,55.0,"Roderick ""Rod"" Scott","Roderick ""Rod"" Scott",D,8453.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,False,standard
+2014,house,56.0,Louise Alexander,Louise Alexander,D,7960.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,house,56.0,Darius Foster,Darius Foster,R,3680.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,house,57.0,Merika Coleman,Merika Coleman,D,10184.0,Merika Coleman,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,D,incumbent_running,1,False,standard
+2014,house,58.0,Oliver Robinson,Oliver Robinson,D,8287.0,Oliver Robinson,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,D,incumbent_running,1,False,standard
+2014,house,59.0,Mary Moore,Mary Moore,D,7949.0,Mary Moore,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,D,incumbent_running,1,False,standard
+2014,house,60.0,"Juandalynn ""Lele"" Givan","Juandalynn ""Lele"" Givan",D,9584.0,"Juandalynn ""Lele"" Givan",D,prior_winner_match,0.9333333333333332,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,house,61.0,Alan Harper,Alan Harper,R,12031.0,Alan Harper,R,prior_winner_match,1.0,True,True,False,prior_winner_only,True,D,incumbent_running,1,False,externally_verified_party_switch
+2014,house,62.0,Rich Wingo,Rich Wingo,R,8416.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,False,standard
+2014,house,63.0,Bill Poole,Bill Poole,R,6249.0,Bill Poole,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,house,64.0,Harry Shiver,Harry Shiver,R,8781.0,Harry Shiver,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,R,incumbent_running,1,False,standard
+2014,house,65.0,Elaine Beech,Elaine Beech,D,8469.0,Elaine Beech,D,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,house,66.0,Alan Baker,Alan Baker,R,12372.0,Alan Baker,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,R,incumbent_running,1,False,standard
+2014,house,67.0,Darrio Melton,Darrio Melton,D,19341.0,Darrio Melton,D,prior_winner_match,0.96,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,house,68.0,"Thomas E ""Action"" Jackson","Thomas E ""Action"" Jackson",D,8998.0,"Thomas E ""Action"" Jackson",D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,,incumbent_running,1,False,standard
+2014,house,69.0,Kelvin J. Lawrence,Kelvin J. Lawrence,D,12152.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,house,69.0,Loretta G. Grant,Loretta G. Grant,R,5559.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,house,70.0,Christopher John England,Christopher John England,D,6799.0,Christopher John England,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,D,incumbent_running,1,False,standard
+2014,house,71.0,Artis (A.J.) McCampbell,Artis (A.J.) McCampbell,D,12359.0,Artis (A.J.) McCampbell,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,,incumbent_running,1,False,standard
+2014,house,72.0,Ralph A. Howard,Ralph A. Howard,D,12737.0,Ralph A. Howard,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,D,incumbent_running,1,False,standard
+2014,house,73.0,Matt Fridy,Matt Fridy,R,9183.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,False,standard
+2014,house,74.0,Zack Buckner,Zack Buckner,D,3621.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,house,74.0,Dimitri Polizos,Dimitri Polizos,R,9481.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,house,75.0,Reed Ingram,Reed Ingram,R,10964.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,False,standard
+2014,house,76.0,Thad McClammy,Thad McClammy,D,8342.0,Thad McClammy,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,D,incumbent_running,1,False,standard
+2014,house,77.0,John Knight,John Knight,D,6891.0,John Knight,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,D,incumbent_running,1,True,standard
+2014,house,77.0,David Grimes,David Grimes,R,3775.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,78.0,Alvin Holmes,Alvin Holmes,D,6998.0,Alvin Holmes,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,D,incumbent_running,1,True,standard
+2014,house,78.0,Tijuanna Adetunji,Tijuanna Adetunji,R,2637.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,79.0,Shirley Scott-Harris,Shirley Scott-Harris,D,3535.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,79.0,Mike Hubbard,Mike Hubbard,R,5136.0,Mike Hubbard,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,R,incumbent_running,1,True,standard
+2014,house,80.0,Tillman Pugh,Tillman Pugh,D,2240.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,80.0,Lesley Vance,Lesley Vance,R,4702.0,Lesley Vance,R,prior_winner_match,1.0,True,True,False,prior_winner_only,True,D,incumbent_running,1,True,externally_verified_party_switch
+2014,house,81.0,Dylan V. Oliver,Dylan V. Oliver,D,5899.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,81.0,Mark M. Tuggle,Mark M. Tuggle,R,12007.0,Mark M. Tuggle,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,True,standard
+2014,house,82.0,Pebblin W. Warren,Pebblin W. Warren,D,13442.0,Pebblin W. Warren,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,D,incumbent_running,1,False,standard
+2014,house,83.0,"George ""Tootie"" Bandy","George ""Tootie"" Bandy",D,5257.0,"George ""Tootie"" Bandy",D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,D,incumbent_running,1,True,standard
+2014,house,83.0,Gary Head,Gary Head,R,2752.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,84.0,Berry Forte,Berry Forte,D,7365.0,Berry Forte,D,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,True,standard
+2014,house,84.0,Jerry A. McGilvray,Jerry A. McGilvray,R,4316.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,85.0,Dexter Grimsley,Dexter Grimsley,D,5777.0,Dexter Grimsley,D,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,True,standard
+2014,house,85.0,Bobby Lewis,Bobby Lewis,R,3405.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,86.0,Paul W. Lee,Paul W. Lee,R,9253.0,Paul W. Lee,R,prior_winner_match,0.8888888888888888,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,house,87.0,Donnie Chesteen,Donnie Chesteen,R,16482.0,Donnie Chesteen,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,house,88.0,Paul Beckman,Paul Beckman,R,10722.0,Paul Beckman,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,house,89.0,Joel Lee Williams,Joel Lee Williams,D,5436.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,89.0,Alan C. Boothe,Alan C. Boothe,R,5519.0,Alan C. Boothe,R,prior_winner_match,1.0,True,True,False,prior_winner_only,True,D,incumbent_running,1,True,externally_verified_party_switch
+2014,house,90.0,Walton Hickman,Walton Hickman,D,11896.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,house,90.0,Chris Sells,Chris Sells,R,13516.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,house,91.0,Barry Moore,Barry Moore,R,7484.0,Barry Moore,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,house,92.0,"Mike Jones, Jr.","Mike Jones, Jr.",R,8925.0,"Mike Jones, Jr.",R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,house,93.0,Jennifer Marsden,Jennifer Marsden,D,2773.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,93.0,Steve Clouse,Steve Clouse,R,9139.0,Steve Clouse,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,R,incumbent_running,1,True,standard
+2014,house,94.0,T. Joe Faust,T. Joe Faust,R,10738.0,T. Joe Faust,R,prior_winner_match+wikipedia_incumbent_annotation,0.9,True,True,True,corroborated,False,,incumbent_running,1,False,standard
+2014,house,95.0,Steve McMillan,Steve McMillan,R,10336.0,Steve McMillan,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,R,incumbent_running,1,False,standard
+2014,house,96.0,Randy Davis,Randy Davis,R,10007.0,Randy Davis,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,R,incumbent_running,1,False,standard
+2014,house,97.0,Adline C. Clarke,Adline C. Clarke,D,6168.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,False,standard
+2014,house,98.0,"Napoleon Bracy, Jr.","Napoleon Bracy, Jr.",D,6134.0,"Napoleon Bracy, Jr.",D,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,True,standard
+2014,house,98.0,Wayne E. Biggs,Wayne E. Biggs,R,3276.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,house,99.0,James E. Buskey,James E. Buskey,D,7586.0,James E. Buskey,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,D,incumbent_running,1,False,standard
+2014,house,100.0,Victor Gaston,Victor Gaston,R,7878.0,Victor Gaston,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,R,incumbent_running,1,False,standard
+2014,house,101.0,Chris Pringle,Chris Pringle,R,7382.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,False,standard
+2014,house,102.0,Jack Williams,Jack Williams,R,6688.0,,,,,False,False,False,non_incumbent_candidate,False,R,open,0,False,standard
+2014,house,103.0,Barbara A. Drummond,Barbara A. Drummond,D,5608.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,house,103.0,Ralph Carmichael,Ralph Carmichael,R,2065.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,house,104.0,Margie Wilcox,Margie Wilcox,R,7745.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,False,standard
+2014,house,105.0,David Sessions,David Sessions,R,6227.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,False,standard
+2014,senate,1.0,Mike Curtis,Mike Curtis,D,13704.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,senate,1.0,Tim Melson,Tim Melson,R,22982.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,senate,2.0,Bill Holtzclaw,Bill Holtzclaw,R,24936.0,Bill Holtzclaw,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,senate,3.0,Arthur Orr,Arthur Orr,R,26906.0,Arthur Orr,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,True,True,corroborated,False,R,incumbent_running,1,False,standard
+2014,senate,4.0,"Angelo ""Doc"" Mancuso","Angelo ""Doc"" Mancuso",D,8875.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,senate,4.0,Paul Bussman,Paul Bussman,R,24750.0,Paul Bussman,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,True,standard
+2014,senate,5.0,Greg Reed,Greg Reed,R,42966.0,Greg Reed,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,senate,6.0,"Roger Bedford, Jr.","Roger Bedford, Jr.",D,17574.0,"Roger Bedford, Jr.",D,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,True,standard
+2014,senate,6.0,Larry Stutts,Larry Stutts,R,17641.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,senate,7.0,Bryan Bennett,Bryan Bennett,D,12404.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,senate,7.0,Paul L. Sanford,Paul L. Sanford,R,22873.0,Paul L. Sanford,R,prior_winner_match,0.9230769230769232,True,True,False,prior_winner_only,False,,incumbent_running,1,True,standard
+2014,senate,8.0,Horace Clemmons,Horace Clemmons,D,12664.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,senate,8.0,Steve Livingston,Steve Livingston,R,32998.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,senate,9.0,Clay Scofield,Clay Scofield,R,24870.0,Clay Scofield,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,senate,10.0,Larry Means,Larry Means,D,16216.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,senate,10.0,Phil Williams,Phil Williams,R,17378.0,Phil Williams,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,True,standard
+2014,senate,11.0,Ron Crumpton,Ron Crumpton,D,6981.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,senate,11.0,Jim McClendon,Jim McClendon,R,24318.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,senate,12.0,Taylor Stewart,Taylor Stewart,D,37230.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,senate,12.0,Del Marsh,Del Marsh,R,49788.0,Del Marsh,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,True,standard
+2014,senate,13.0,Darrell Turner,Darrell Turner,D,12026.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,senate,13.0,Gerald Dial,Gerald Dial,R,19956.0,Gerald Dial,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,True,standard
+2014,senate,14.0,Cam Ward,Cam Ward,R,36264.0,Cam Ward,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,senate,15.0,Slade Blackwell,Slade Blackwell,R,29498.0,Slade Blackwell,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,senate,16.0,Cindy Bell,Cindy Bell,D,8284.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,senate,16.0,"J.T. ""Jabo"" Waggoner","J.T. ""Jabo"" Waggoner",R,28107.0,"J.T. ""Jabo"" Waggoner",R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,True,standard
+2014,senate,17.0,Shay Shelnutt,Shay Shelnutt,R,41130.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,False,standard
+2014,senate,18.0,Rodger M. Smitherman,Rodger M. Smitherman,D,23195.0,Rodger M. Smitherman,D,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,senate,19.0,Priscilla Dunn,Priscilla Dunn,D,27143.0,Priscilla Dunn,D,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,senate,20.0,Linda Coleman,Linda Coleman,D,23368.0,Linda Coleman,D,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,senate,21.0,Phil Poole,Phil Poole,D,15079.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,senate,21.0,Gerald Allen,Gerald Allen,R,25406.0,Gerald Allen,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,True,standard
+2014,senate,22.0,Susan Smith,Susan Smith,D,14911.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,senate,22.0,Greg Albritton,Greg Albritton,R,28298.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,senate,23.0,Hank Sanders,Hank Sanders,D,47834.0,Hank Sanders,D,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,senate,24.0,Bobby Singleton,Bobby Singleton,D,31601.0,Bobby Singleton,D,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,senate,25.0,Dick L. Brewbaker,Dick L. Brewbaker,R,36718.0,Dick L. Brewbaker,R,prior_winner_match,0.9333333333333332,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,senate,26.0,"Quinton T. Ross, Jr.","Quinton T. Ross, Jr.",D,25166.0,"Quinton T. Ross, Jr.",D,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,senate,27.0,Haylee Moss,Haylee Moss,D,10358.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,senate,27.0,Tom Whatley,Tom Whatley,R,19808.0,Tom Whatley,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,True,standard
+2014,senate,28.0,Billy Beasley,Billy Beasley,D,27150.0,Billy Beasley,D,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,True,standard
+2014,senate,28.0,John Savage,John Savage,R,8624.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,senate,29.0,Melinda McClendon,Melinda McClendon,R,18974.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,False,standard
+2014,senate,30.0,"Chambliss, Jr.","Chambliss, Jr.",D,6060.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,senate,30.0,"Clyde Chambliss, Jr.","Clyde Chambliss, Jr.",R,31390.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,senate,31.0,Larry Greenwood,Larry Greenwood,D,8627.0,,,,,False,False,False,non_incumbent_candidate,False,,incumbent_running,1,True,standard
+2014,senate,31.0,Jimmy W. Holley,Jimmy W. Holley,R,23066.0,Jimmy W. Holley,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,True,standard
+2014,senate,32.0,Trip Pittman,Trip Pittman,R,27837.0,Trip Pittman,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,senate,33.0,Vivian Davis Figures,Vivian Davis Figures,D,23012.0,Vivian Davis Figures,D,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,senate,34.0,Rusty Glover,Rusty Glover,R,22451.0,Rusty Glover,R,prior_winner_match,1.0,True,True,False,prior_winner_only,False,,incumbent_running,1,False,standard
+2014,senate,35.0,Beau Doolittle,Beau Doolittle,D,6862.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard
+2014,senate,35.0,Bill Hightower,Bill Hightower,R,19173.0,,,,,False,False,False,non_incumbent_candidate,False,,open,0,True,standard

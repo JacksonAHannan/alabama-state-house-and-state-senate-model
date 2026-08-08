@@ -1,0 +1,421 @@
+cycle,chamber,district,incumbent_count,incumbent_candidate,incumbent_party,incumbency_source,match_score,dem_incumbent,rep_incumbent,open_seat,incumbency_status
+2014,house,1,1,Greg Burdine,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2014,house,2,1,Lynn Greer,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2014,house,3,1,Marcel Black,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2014,house,4,1,Micky Hammon,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2014,house,5,1,Dan Williams,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2014,house,6,1,Phil Williams,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,house,7,1,Ken Johnson,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2014,house,8,1,Terri Collins,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,house,9,1,Ed Henry,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,house,10,1,Mike Ball,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2014,house,11,0,,,,,False,False,True,open
+2014,house,12,0,,,,,False,False,True,open
+2014,house,13,0,,,,,False,False,True,open
+2014,house,14,0,,,,,False,False,True,open
+2014,house,15,1,Allen Farley,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,house,16,1,Daniel H. Boman,D,prior_winner_match+wikipedia_incumbent_annotation,0.9230769230769231,True,False,False,incumbent_running
+2014,house,17,1,Mike Millican,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,house,18,1,Johnny MacK Morrow,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2014,house,19,1,Laura Hall,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2014,house,20,1,Howard Sanderford,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2014,house,21,1,Jim Patterson,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,house,22,0,,,,,False,False,True,open
+2014,house,23,1,John Robinson,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2014,house,24,0,,,,,False,False,True,open
+2014,house,25,1,Mac McCutcheon,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2014,house,26,1,Kerry Rich,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,house,27,0,,,,,False,False,True,open
+2014,house,28,1,Craig Ford,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2014,house,29,1,Becky Nordgren,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,house,30,0,,,,,False,False,True,open
+2014,house,31,0,,,,,False,False,True,open
+2014,house,32,1,Barbara Bigsby Boyd,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2014,house,33,1,Ron Johnson,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2014,house,34,0,,,,,False,False,True,open
+2014,house,35,1,Steve Hurst,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,house,36,1,Randy Wood,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2014,house,37,0,,,,,False,False,True,open
+2014,house,38,0,,,,,False,False,True,open
+2014,house,39,1,Richard Lindsey,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2014,house,40,0,,,,,False,False,True,open
+2014,house,41,1,Mike Hill,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2014,house,42,0,,,,,False,False,True,open
+2014,house,43,0,,,,,False,False,True,open
+2014,house,44,0,,,,,False,False,True,open
+2014,house,45,1,Dickie Drake,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2014,house,46,0,,,,,False,False,True,open
+2014,house,47,1,Jack Williams,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2014,house,48,0,,,,,False,False,True,open
+2014,house,49,1,April Weaver,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,house,50,0,,,,,False,False,True,open
+2014,house,51,1,Allen Treadaway,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2014,house,52,1,John W. Rogers  Jr.,D,prior_winner_match+wikipedia_incumbent_annotation,0.9166666666666666,True,False,False,incumbent_running
+2014,house,53,0,,,,,False,False,True,open
+2014,house,54,1,Patricia A. Todd,D,prior_winner_match+wikipedia_incumbent_annotation,0.9285714285714286,True,False,False,incumbent_running
+2014,house,55,0,,,,,False,False,True,open
+2014,house,56,0,,,,,False,False,True,open
+2014,house,57,1,Merika Coleman,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2014,house,58,1,Oliver Robinson,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2014,house,59,1,Mary Moore,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2014,house,60,1,"Juandalynn ""Lele"" Givan",D,prior_winner_match,0.9333333333333333,True,False,False,incumbent_running
+2014,house,61,1,Alan Harper,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,house,62,0,,,,,False,False,True,open
+2014,house,63,1,Bill Poole,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,house,64,1,Harry Shiver,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2014,house,65,1,Elaine Beech,D,prior_winner_match,1.0,True,False,False,incumbent_running
+2014,house,66,1,Alan Baker,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2014,house,67,1,Darrio Melton,D,prior_winner_match,0.96,True,False,False,incumbent_running
+2014,house,68,1,"Thomas E ""Action"" Jackson",D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2014,house,69,0,,,,,False,False,True,open
+2014,house,70,1,Christopher John England,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2014,house,71,1,Artis (A.J.) McCampbell,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2014,house,72,1,Ralph A. Howard,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2014,house,73,0,,,,,False,False,True,open
+2014,house,74,0,,,,,False,False,True,open
+2014,house,75,0,,,,,False,False,True,open
+2014,house,76,1,Thad McClammy,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2014,house,77,1,John Knight,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2014,house,78,1,Alvin Holmes,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2014,house,79,1,Mike Hubbard,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2014,house,80,1,Lesley Vance,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,house,81,1,Mark M. Tuggle,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,house,82,1,Pebblin W. Warren,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2014,house,83,1,"George ""Tootie"" Bandy",D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2014,house,84,1,Berry Forte,D,prior_winner_match,1.0,True,False,False,incumbent_running
+2014,house,85,1,Dexter Grimsley,D,prior_winner_match,1.0,True,False,False,incumbent_running
+2014,house,86,1,Paul W. Lee,R,prior_winner_match,0.8888888888888888,False,True,False,incumbent_running
+2014,house,87,1,Donnie Chesteen,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,house,88,1,Paul Beckman,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,house,89,1,Alan C. Boothe,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,house,90,0,,,,,False,False,True,open
+2014,house,91,1,Barry Moore,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,house,92,1,"Mike Jones, Jr.",R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,house,93,1,Steve Clouse,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2014,house,94,1,T. Joe Faust,R,prior_winner_match+wikipedia_incumbent_annotation,0.9,False,True,False,incumbent_running
+2014,house,95,1,Steve McMillan,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2014,house,96,1,Randy Davis,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2014,house,97,0,,,,,False,False,True,open
+2014,house,98,1,"Napoleon Bracy, Jr.",D,prior_winner_match,1.0,True,False,False,incumbent_running
+2014,house,99,1,James E. Buskey,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2014,house,100,1,Victor Gaston,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2014,house,101,0,,,,,False,False,True,open
+2014,house,102,0,,,,,False,False,True,open
+2014,house,103,0,,,,,False,False,True,open
+2014,house,104,0,,,,,False,False,True,open
+2014,house,105,0,,,,,False,False,True,open
+2014,senate,1,0,,,,,False,False,True,open
+2014,senate,2,1,Bill Holtzclaw,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,senate,3,1,Arthur Orr,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2014,senate,4,1,Paul Bussman,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,senate,5,1,Greg Reed,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,senate,6,1,"Roger Bedford, Jr.",D,prior_winner_match,1.0,True,False,False,incumbent_running
+2014,senate,7,1,Paul L. Sanford,R,prior_winner_match,0.9230769230769231,False,True,False,incumbent_running
+2014,senate,8,0,,,,,False,False,True,open
+2014,senate,9,1,Clay Scofield,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,senate,10,1,Phil Williams,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,senate,11,0,,,,,False,False,True,open
+2014,senate,12,1,Del Marsh,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,senate,13,1,Gerald Dial,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,senate,14,1,Cam Ward,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,senate,15,1,Slade Blackwell,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,senate,16,1,"J.T. ""Jabo"" Waggoner",R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,senate,17,0,,,,,False,False,True,open
+2014,senate,18,1,Rodger M. Smitherman,D,prior_winner_match,1.0,True,False,False,incumbent_running
+2014,senate,19,1,Priscilla Dunn,D,prior_winner_match,1.0,True,False,False,incumbent_running
+2014,senate,20,1,Linda Coleman,D,prior_winner_match,1.0,True,False,False,incumbent_running
+2014,senate,21,1,Gerald Allen,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,senate,22,0,,,,,False,False,True,open
+2014,senate,23,1,Hank Sanders,D,prior_winner_match,1.0,True,False,False,incumbent_running
+2014,senate,24,1,Bobby Singleton,D,prior_winner_match,1.0,True,False,False,incumbent_running
+2014,senate,25,1,Dick L. Brewbaker,R,prior_winner_match,0.9333333333333333,False,True,False,incumbent_running
+2014,senate,26,1,"Quinton T. Ross, Jr.",D,prior_winner_match,1.0,True,False,False,incumbent_running
+2014,senate,27,1,Tom Whatley,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,senate,28,1,Billy Beasley,D,prior_winner_match,1.0,True,False,False,incumbent_running
+2014,senate,29,0,,,,,False,False,True,open
+2014,senate,30,0,,,,,False,False,True,open
+2014,senate,31,1,Jimmy W. Holley,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,senate,32,1,Trip Pittman,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,senate,33,1,Vivian Davis Figures,D,prior_winner_match,1.0,True,False,False,incumbent_running
+2014,senate,34,1,Rusty Glover,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2014,senate,35,0,,,,,False,False,True,open
+2018,house,1,1,Phillip Pettus,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,2,1,Lynn Greer,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,3,0,,,,,False,False,True,open
+2018,house,4,0,,,,,False,False,True,open
+2018,house,5,1,Danny F. Crawford,R,wikipedia_incumbent_annotation,0.9333333333333333,False,True,False,incumbent_running
+2018,house,6,0,,,,,False,False,True,open
+2018,house,7,0,,,,,False,False,True,open
+2018,house,8,1,Terri Collins,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,9,0,,,,,False,False,True,open
+2018,house,10,1,Mike Ball,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,11,1,Randall Shedd,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,12,1,Corey Harbison,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,13,0,,,,,False,False,True,open
+2018,house,14,1,Tim Wadsworth,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,15,1,Allen Farley,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,16,1,Kyle South,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,17,0,,,,,False,False,True,open
+2018,house,18,0,,,,,False,False,True,open
+2018,house,19,1,Laura Hall,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2018,house,20,1,Howard Sanderford,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,21,1,Rex Reynolds,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,22,1,Ritchie Whorton,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,23,1,Tommy Hanes,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,24,1,Nathaniel Ledbetter,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,25,1,Mac McCutcheon,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,26,1,Kerry Rich,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,27,0,,,,,False,False,True,open
+2018,house,28,0,,,,,False,False,True,open
+2018,house,29,1,Becky Nordgren,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,30,0,,,,,False,False,True,open
+2018,house,31,1,Mike Holmes,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,32,1,Barbara Bigsby Boyd,D,prior_winner_match,1.0,True,False,False,incumbent_running
+2018,house,33,1,Ron Johnson,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,34,1,David Standridge,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,35,1,Steve Hurst,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,36,1,Randy Wood,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,37,1,Bob Fincher,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,38,0,,,,,False,False,True,open
+2018,house,39,0,,,,,False,False,True,open
+2018,house,40,0,,,,,False,False,True,open
+2018,house,41,1,Corley Ellis,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,42,0,,,,,False,False,True,open
+2018,house,43,1,Arnold G. Mooney II,R,wikipedia_incumbent_annotation,0.9285714285714286,False,True,False,incumbent_running
+2018,house,44,1,Danny Garrett,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,45,1,Dickie Drake,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,46,1,David Faulkner,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,47,0,,,,,False,False,True,open
+2018,house,48,1,Jim Carns,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,49,1,April Weaver,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,50,1,Jim Hill,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,51,1,Allen Treadaway,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,52,1,"John W. Rogers, Jr.",D,prior_winner_match+wikipedia_incumbent_annotation,0.9166666666666666,True,False,False,incumbent_running
+2018,house,53,1,Anthony Daniels,D,wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2018,house,54,0,,,,,False,False,True,open
+2018,house,55,0,,,,,False,False,True,open
+2018,house,56,1,"Louise ""Lulu"" Alexander",D,wikipedia_incumbent_annotation,0.8648648648648649,True,False,False,incumbent_running
+2018,house,57,1,Merika Coleman,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2018,house,58,1,Rolanda Hollis,D,wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2018,house,59,1,Mary Moore,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2018,house,60,1,Juandalynn Givan,D,wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2018,house,61,0,,,,,False,False,True,open
+2018,house,62,1,Rich Wingo,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,63,1,Bill Poole,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,64,1,Harry Shiver,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,65,1,Elaine Beech,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2018,house,66,1,Alan Baker,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,67,1,Prince Chestnut,D,wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2018,house,68,1,"Thomas E. ""Action"" Jackson",D,prior_winner_match,1.0,True,False,False,incumbent_running
+2018,house,69,0,,,,,False,False,True,open
+2018,house,70,1,Christopher John England,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2018,house,71,1,"Artis ""A.J."" McCampbell",D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2018,house,72,1,Ralph A. Howard,D,prior_winner_match,1.0,True,False,False,incumbent_running
+2018,house,73,1,Matt Fridy,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,74,1,Dimitri Polizos,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,75,1,Reed Ingram,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,76,1,Thad McClammy,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2018,house,77,0,,,,,False,False,True,open
+2018,house,78,0,,,,,False,False,True,open
+2018,house,79,1,Joe Lovvorn,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,80,1,Chris E. Blackshear,R,wikipedia_incumbent_annotation,0.9411764705882353,False,True,False,incumbent_running
+2018,house,81,0,,,,,False,False,True,open
+2018,house,82,1,Pebblin Walker Warren,D,prior_winner_match,0.8648648648648649,True,False,False,incumbent_running
+2018,house,83,0,,,,,False,False,True,open
+2018,house,84,1,Berry Forte,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2018,house,85,1,Dexter Grimsley,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2018,house,86,1,Paul W. Lee,R,prior_winner_match+wikipedia_incumbent_annotation,0.8888888888888888,False,True,False,incumbent_running
+2018,house,87,0,,,,,False,False,True,open
+2018,house,88,0,,,,,False,False,True,open
+2018,house,89,0,,,,,False,False,True,open
+2018,house,90,1,Chris Sells,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,91,0,,,,,False,False,True,open
+2018,house,92,1,"Mike Jones, Jr.",R,prior_winner_match,1.0,False,True,False,incumbent_running
+2018,house,93,1,Steve Clouse,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,94,1,Joe Faust,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,95,1,Steve McMillan,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,96,0,,,,,False,False,True,open
+2018,house,97,1,Adline C. Clarke,D,wikipedia_incumbent_annotation,0.9285714285714286,True,False,False,incumbent_running
+2018,house,98,1,"Napoleon Bracy, Jr.",D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2018,house,99,0,,,,,False,False,True,open
+2018,house,100,1,Victor Gaston,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,101,1,Chris Pringle,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,102,0,,,,,False,False,True,open
+2018,house,103,1,Barbara Drummond,D,wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2018,house,104,1,Margie Wilcox,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,house,105,0,,,,,False,False,True,open
+2018,senate,1,1,Tim Melson,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,senate,2,0,,,,,False,False,True,open
+2018,senate,3,1,Arthur Orr,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,senate,4,0,,,,,False,False,True,open
+2018,senate,5,1,Greg J. Reed,R,prior_winner_match+wikipedia_incumbent_annotation,0.9,False,True,False,incumbent_running
+2018,senate,6,1,Larry Stutts,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,senate,7,0,,,,,False,False,True,open
+2018,senate,8,1,Steve Livingston,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,senate,9,1,Clay Scofield,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,senate,10,0,,,,,False,False,True,open
+2018,senate,11,1,Jim McClendon,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,senate,12,1,Del Marsh,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,senate,13,0,,,,,False,False,True,open
+2018,senate,14,1,Cam Ward,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,senate,15,0,,,,,False,False,True,open
+2018,senate,16,1,"J.T. ""Jabo"" Waggoner",R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,senate,17,1,Shay Shelnutt,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,senate,18,1,Rodger M. Smitherman,D,prior_winner_match+wikipedia_incumbent_annotation,0.9444444444444444,True,False,False,incumbent_running
+2018,senate,19,1,Priscilla Dunn,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2018,senate,20,1,Linda Coleman-Madison,D,wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2018,senate,21,1,Gerald Allen,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,senate,22,1,Greg Albritton,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,senate,23,0,,,,,False,False,True,open
+2018,senate,24,1,Bobby Singleton,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2018,senate,25,0,,,,,False,False,True,open
+2018,senate,26,0,,,,,False,False,True,open
+2018,senate,27,1,Tom Whatley,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,senate,28,1,Billy Beasley,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2018,senate,29,0,,,,,False,False,True,open
+2018,senate,30,1,"Clyde Chambliss, Jr.",R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2018,senate,31,1,Jimmy W. Holley,R,prior_winner_match+wikipedia_incumbent_annotation,0.9230769230769231,False,True,False,incumbent_running
+2018,senate,32,0,,,,,False,False,True,open
+2018,senate,33,1,Vivian Davis Figures,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2018,senate,34,0,,,,,False,False,True,open
+2018,senate,35,0,,,,,False,False,True,open
+2022,house,1,1,Phillip Pettus,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,2,0,,,,,False,False,True,open
+2022,house,3,0,,,,,False,False,True,open
+2022,house,4,1,Parker Duncan Moore,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,5,1,Danny F Crawford,R,prior_winner_match,0.9333333333333333,False,True,False,incumbent_running
+2022,house,6,1,Andy Whitt,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2022,house,7,0,,,,,False,False,True,open
+2022,house,8,1,Terri Collins,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2022,house,9,1,Scott Stadthagen,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,10,0,,,,,False,False,True,open
+2022,house,11,1,Randall Shedd,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,12,1,Corey Harbison,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,13,0,,,,,False,False,True,open
+2022,house,14,1,Timothy (Tim) Wadsworth,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,15,0,,,,,False,False,True,open
+2022,house,16,1,Kyle South,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,17,1,Tracy Estes,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,18,1,Jamie Kiel,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,19,1,Laura Hall,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2022,house,20,0,,,,,False,False,True,open
+2022,house,21,1,Rex Reynolds,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,22,1,Ritchie Whorton,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,23,0,,,,,False,False,True,open
+2022,house,24,1,Nathaniel Ledbetter,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,25,0,,,,,False,False,True,open
+2022,house,26,0,,,,,False,False,True,open
+2022,house,27,1,Wes Kitchens,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,28,0,,,,,False,False,True,open
+2022,house,29,0,,,,,False,False,True,open
+2022,house,30,1,Craig Lipscomb,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,31,0,,,,,False,False,True,open
+2022,house,32,0,,,,,False,False,True,open
+2022,house,33,1,Ben Robbins,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,34,1,David Standridge,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,35,1,Steve Hurst,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,36,1,Randy Wood,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,37,1,Bob Fincher,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,38,1,Debbie Hamby Wood,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,39,1,Ginny Shaver,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,40,0,,,,,False,False,True,open
+2022,house,41,1,Corley Ellis,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,42,0,,,,,False,False,True,open
+2022,house,43,1,Arnold Mooney,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,44,1,Danny Garrett,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,45,0,,,,,False,False,True,open
+2022,house,46,1,David Faulkner,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2022,house,47,0,,,,,False,False,True,open
+2022,house,48,1,Jim Carns,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,49,1,Russell Bedsole,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,50,1,Jim Hill,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2022,house,51,1,Allen Treadaway,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2022,house,52,1,John W. Rogers Jr.,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2022,house,53,1,Anthony Daniels,D,prior_winner_match,1.0,True,False,False,incumbent_running
+2022,house,54,1,Neil Rafferty,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2022,house,55,0,,,,,False,False,True,open
+2022,house,56,0,,,,,False,False,True,open
+2022,house,57,0,,,,,False,False,True,open
+2022,house,58,1,Rolanda Hollis,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2022,house,59,1,Mary Moore,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2022,house,60,1,Juandalynn Givan,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2022,house,61,0,,,,,False,False,True,open
+2022,house,62,0,,,,,False,False,True,open
+2022,house,63,1,Cynthia Lee Almond,R,wikipedia_incumbent_annotation,0.875,False,True,False,incumbent_running
+2022,house,64,0,,,,,False,False,True,open
+2022,house,65,1,Brett Easterbrook,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,66,1,Alan Baker,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,67,1,Prince Chestnut,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2022,house,68,1,"Thomas E. ""Action"" Jackson",D,wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2022,house,69,1,Kelvin J. Lawrence,D,prior_winner_match,0.9375,True,False,False,incumbent_running
+2022,house,70,1,Christopher John England,D,prior_winner_match,0.9333333333333333,True,False,False,incumbent_running
+2022,house,71,1,"Artis ""Aj"" Mccampbell",D,prior_winner_match,0.972972972972973,True,False,False,incumbent_running
+2022,house,72,0,,,,,False,False,True,open
+2022,house,73,0,,,,,False,False,True,open
+2022,house,74,0,,,,,False,False,True,open
+2022,house,75,1,Reed Ingram,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2022,house,76,1,"Patrice ""Penni"" Mcclammy",D,wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2022,house,77,1,Tashina Morris,D,prior_winner_match,1.0,True,False,False,incumbent_running
+2022,house,78,0,,,,,False,False,True,open
+2022,house,79,1,Joe Lovvorn,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,80,1,Chris E. Blackshear,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,81,1,Ed Oliver,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,82,1,Pebblin Walker Warren,D,wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2022,house,83,1,Jeremy Gray,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2022,house,84,1,Berry Forte,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2022,house,85,1,Dexter Grimsley,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2022,house,86,1,Paul W. Lee,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,87,1,Jeff Sorrells,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,88,0,,,,,False,False,True,open
+2022,house,89,0,,,,,False,False,True,open
+2022,house,90,1,Chris Sells,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,91,1,Rhett Marques,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,92,0,,,,,False,False,True,open
+2022,house,93,1,Steve Clouse,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,94,0,,,,,False,False,True,open
+2022,house,95,0,,,,,False,False,True,open
+2022,house,96,1,Matt Simpson,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,house,97,1,Adline Clarke,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2022,house,98,1,"Napoleon Bracy, Jr.",D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2022,house,99,1,Sam Jones,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2022,house,100,0,,,,,False,False,True,open
+2022,house,101,1,Chris Pringle,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2022,house,102,1,Shane Stringer,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2022,house,103,1,Barbara Drummond,D,prior_winner_match,1.0,True,False,False,incumbent_running
+2022,house,104,1,Margie Wilcox,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2022,house,105,1,Chip Brown,R,prior_winner_match,1.0,False,True,False,incumbent_running
+2022,senate,1,1,Tim Melson,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,senate,2,1,Tom Butler,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,senate,3,1,Arthur Orr,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,senate,4,1,Garlan Gudger,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,senate,5,1,Greg J Reed,R,prior_winner_match+wikipedia_incumbent_annotation,0.9,False,True,False,incumbent_running
+2022,senate,6,1,Larry Stutts,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,senate,7,1,Sam Givhan,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,senate,8,1,Steve Livingston,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,senate,9,1,Clay Scofield,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,senate,10,1,Andrew Jones,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,senate,11,0,,,,,False,False,True,open
+2022,senate,12,0,,,,,False,False,True,open
+2022,senate,13,1,Randy Price,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,senate,14,1,April Weaver,R,wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,senate,15,1,Dan Roberts,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,senate,16,1,"J.T. ""Jabo"" Waggoner",R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,senate,17,1,Shay Shelnutt,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,senate,18,1,Rodger M. Smitherman,D,prior_winner_match+wikipedia_incumbent_annotation,0.9444444444444444,True,False,False,incumbent_running
+2022,senate,19,0,,,,,False,False,True,open
+2022,senate,20,1,Linda Coleman-Madison,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2022,senate,21,1,Gerald Allen,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,senate,22,1,Greg Albritton,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,senate,23,0,,,,,False,False,True,open
+2022,senate,24,1,Bobby Singleton,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2022,senate,25,1,Will Barfoot,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,senate,26,1,Kirk Hatcher,D,wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2022,senate,27,0,,,,,False,False,True,open
+2022,senate,28,1,Billy Beasley,D,prior_winner_match+wikipedia_incumbent_annotation,1.0,True,False,False,incumbent_running
+2022,senate,29,1,Donnie Chesteen,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,senate,30,1,"Clyde Chambliss, Jr.",R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,senate,31,0,,,,,False,False,True,open
+2022,senate,32,1,Chris Elliott,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,senate,33,1,Vivian Davis Figures,D,prior_winner_match,1.0,True,False,False,incumbent_running
+2022,senate,34,1,Jack Williams,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running
+2022,senate,35,1,David Sessions,R,prior_winner_match+wikipedia_incumbent_annotation,1.0,False,True,False,incumbent_running

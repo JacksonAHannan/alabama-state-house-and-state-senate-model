@@ -1,0 +1,174 @@
+cycle,chamber,district,party,candidate_modeled,candidate_wikipedia,name_match_score,votes_modeled,votes_wikipedia,name_match_status,vote_difference,exact_vote_match,absolute_vote_difference
+2022,house,1,R,Phillip Pettus,Phillip Pettus,1.0,10360.0,10360,matched,0.0,True,0.0
+2022,house,2,R,Ben Harrison,Ben Harrison,1.0,11233.0,11233,matched,0.0,True,0.0
+2022,house,3,D,Wesley Thompson,Wesley Thompson,1.0,4241.0,4241,matched,0.0,True,0.0
+2022,house,3,R,"Kerry ""Bubba"" Underwood","Kerry ""Bubba"" Underwood",1.0,8023.0,8023,matched,0.0,True,0.0
+2022,house,4,R,Parker Duncan Moore,Parker Duncan Moore,1.0,11236.0,11236,matched,0.0,True,0.0
+2022,house,5,R,Danny F Crawford,Danny F. Crawford,1.0,12332.0,12332,matched,0.0,True,0.0
+2022,house,6,R,Andy Whitt,Andy Whitt,1.0,11052.0,11052,matched,0.0,True,0.0
+2022,house,7,D,"Mose Jones, Jr.",Mose Jones Jr.,1.0,3133.0,3133,matched,0.0,True,0.0
+2022,house,7,R,Ernie Yarbrough,Ernie Yarbrough,1.0,11225.0,11225,matched,0.0,True,0.0
+2022,house,8,R,Terri Collins,Terri Collins,1.0,7234.0,7234,matched,0.0,True,0.0
+2022,house,9,R,Scott Stadthagen,Scott Stadthagen,1.0,11041.0,11041,matched,0.0,True,0.0
+2022,house,10,D,Marilyn Lands,Marilyn Lands,1.0,6608.0,6608,matched,0.0,True,0.0
+2022,house,10,R,David Cole,David Cole,1.0,7581.0,7581,matched,0.0,True,0.0
+2022,house,11,R,Randall Shedd,Randall Shedd,1.0,12552.0,12552,matched,0.0,True,0.0
+2022,house,12,D,"James C. Fields, Jr.","James C. Fields, Jr.",1.0,2030.0,2030,matched,0.0,True,0.0
+2022,house,12,R,Corey Harbison,Corey Harbison,1.0,11958.0,11958,matched,0.0,True,0.0
+2022,house,13,R,Matt Woods,Matt Woods,1.0,11422.0,11422,matched,0.0,True,0.0
+2022,house,14,R,Timothy (Tim) Wadsworth,"Timothy ""Tim"" Wadsworth",1.0,13396.0,13396,matched,0.0,True,0.0
+2022,house,15,D,Richard P. Rouco,Richard Rouco,0.9285714285714286,6166.0,6166,matched,0.0,True,0.0
+2022,house,15,R,Leigh Hulsey,Leigh Hulsey,1.0,10818.0,10818,matched,0.0,True,0.0
+2022,house,16,R,Kyle South,Kyle South,1.0,13174.0,13177,matched,-3.0,False,3.0
+2022,house,17,R,Tracy Estes,Tracy Estes,1.0,12850.0,12850,matched,0.0,True,0.0
+2022,house,18,R,Jamie Kiel,Jamie Kiel,1.0,10783.0,10783,matched,0.0,True,0.0
+2022,house,19,D,Laura Hall,Laura Hall,1.0,8721.0,8721,matched,0.0,True,0.0
+2022,house,20,R,James Lomax,James Lomax,1.0,14816.0,14816,matched,0.0,True,0.0
+2022,house,21,R,Rex Reynolds,Rex Reynolds,1.0,12386.0,12386,matched,0.0,True,0.0
+2022,house,22,R,Ritchie Whorton,Ritchie Whorton,1.0,12984.0,12984,matched,0.0,True,0.0
+2022,house,23,R,Mike Kirkland,Mike Kirkland,1.0,10980.0,10980,matched,0.0,True,0.0
+2022,house,24,R,Nathaniel Ledbetter,Nathaniel Ledbetter,1.0,11285.0,11285,matched,0.0,True,0.0
+2022,house,25,D,Mallory Hagan,Mallory Hagan,1.0,7837.0,7837,matched,0.0,True,0.0
+2022,house,25,R,Phillip K. Rigsby,Phillip K. Rigsby,1.0,10813.0,10813,matched,0.0,True,0.0
+2022,house,26,D,Ben Alford,Ben Alford,1.0,1078.0,1078,matched,0.0,True,0.0
+2022,house,26,R,Brock Colvin,Brock Colvin,1.0,8258.0,8258,matched,0.0,True,0.0
+2022,house,27,D,Herb Neu,Herb Neu,1.0,1583.0,1583,matched,0.0,True,0.0
+2022,house,27,R,Wes Kitchens,Wes Kitchens,1.0,13150.0,13150,matched,0.0,True,0.0
+2022,house,28,R,Mack N Butler,Mack Butler,0.9166666666666666,6566.0,6566,matched,0.0,True,0.0
+2022,house,29,R,Mark A. Gidley,Mark A. Gidley,1.0,12612.0,12612,matched,0.0,True,0.0
+2022,house,30,R,Craig Lipscomb,Craig Lipscomb,1.0,12325.0,12325,matched,0.0,True,0.0
+2022,house,31,R,Troy B. Stubbs,Troy B. Stubbs,1.0,11418.0,11418,matched,0.0,True,0.0
+2022,house,32,D,Barbara Bigsby Boyd,,0.7741935483870968,5519.0,,review,,False,
+2022,house,32,R,Evan B. Jackson,Evan Jackson,0.9230769230769231,4389.0,4390,matched,-1.0,False,1.0
+2022,house,33,D,"Fred Crum, Sr.","Fred Crum, Sr.",1.0,3571.0,3571,matched,0.0,True,0.0
+2022,house,33,R,Ben Robbins,Ben Robbins,1.0,9534.0,9534,matched,0.0,True,0.0
+2022,house,34,R,David Standridge,David Standridge,1.0,12222.0,12222,matched,0.0,True,0.0
+2022,house,35,R,Steve Hurst,Steve Hurst,1.0,10880.0,10880,matched,0.0,True,0.0
+2022,house,36,R,Randy Wood,Randy Wood,1.0,12449.0,12449,matched,0.0,True,0.0
+2022,house,37,R,Bob Fincher,Bob Fincher,1.0,11937.0,11937,matched,0.0,True,0.0
+2022,house,38,R,Debbie Hamby Wood,Debbie Hamby Wood,1.0,9162.0,9162,matched,0.0,True,0.0
+2022,house,39,R,Ginny Shaver,Ginny Shaver,1.0,11224.0,11224,matched,0.0,True,0.0
+2022,house,40,D,Pam Howard,Pam Howard,1.0,2221.0,2221,matched,0.0,True,0.0
+2022,house,40,R,Chad Robertson,Chad Robertson,1.0,10772.0,10772,matched,0.0,True,0.0
+2022,house,41,D,Chris Nelson,Chris Nelson,1.0,3203.0,3203,matched,0.0,True,0.0
+2022,house,41,R,Corley Ellis,Corley Ellis,1.0,10897.0,10897,matched,0.0,True,0.0
+2022,house,42,R,Van Smith,,0.782608695652174,12336.0,,review,,False,
+2022,house,43,D,Prince Cleveland,Prince Cleveland,1.0,3760.0,3760,matched,0.0,True,0.0
+2022,house,43,R,Arnold Mooney,Arnold Mooney,1.0,12751.0,12751,matched,0.0,True,0.0
+2022,house,44,R,Danny Garrett,Danny Garrett,1.0,11396.0,11396,matched,0.0,True,0.0
+2022,house,45,R,Susan Dubose,Susan DuBose,1.0,12060.0,12060,matched,0.0,True,0.0
+2022,house,46,R,David Faulkner,,0.0,12656.0,,review,,False,
+2022,house,47,D,Christian Coleman,Christian Coleman,1.0,4816.0,601,matched,4215.0,False,4215.0
+2022,house,47,R,Mike Shaw,,0.0,8590.0,,review,,False,
+2022,house,48,R,Jim Carns,Jim Carns,1.0,12518.0,12518,matched,0.0,True,0.0
+2022,house,49,R,Russell Bedsole,Russell Bedsole,1.0,10604.0,4492,matched,6112.0,False,6112.0
+2022,house,50,R,Jim Hill,,0.0,12720.0,,review,,False,
+2022,house,51,R,Allen Treadaway,,0.0,14025.0,,review,,False,
+2022,house,52,D,John W. Rogers Jr.,"John W. Rogers, Jr.",1.0,10229.0,3362,matched,6867.0,False,6867.0
+2022,house,53,D,Anthony Daniels,,0.0,5748.0,,review,,False,
+2022,house,54,D,Neil Rafferty,Neil Rafferty,1.0,9798.0,2719,matched,7079.0,False,7079.0
+2022,house,55,D,"Fred ""Coach"" Plump","Fred ""Coach"" Plump",1.0,10018.0,10018,matched,0.0,True,0.0
+2022,house,56,D,Ontario J. Tillman,Ontario J. Tillman,1.0,8986.0,9008,matched,-22.0,False,22.0
+2022,house,57,D,Patrick Sellers,Patrick Sellers,1.0,9221.0,9221,matched,0.0,True,0.0
+2022,house,57,R,Delor Baumann,Delor Baumann,1.0,4752.0,4752,matched,0.0,True,0.0
+2022,house,58,D,Rolanda Hollis,Rolanda Hollis,1.0,8385.0,8385,matched,0.0,True,0.0
+2022,house,59,D,Mary Moore,Mary Moore,1.0,8859.0,8859,matched,0.0,True,0.0
+2022,house,60,D,Juandalynn Givan,Juandalynn Givan,1.0,9872.0,9872,matched,0.0,True,0.0
+2022,house,61,R,Ron Bolton,Ron Bolton,1.0,10546.0,10546,matched,0.0,True,0.0
+2022,house,62,D,Brenda T. Cephus,Brenda T. Cephus,1.0,3094.0,3094,matched,0.0,True,0.0
+2022,house,62,R,Bill Lamb,Bill Lamb,1.0,8803.0,8803,matched,0.0,True,0.0
+2022,house,63,D,Samuel Adams,Samuel Adams,1.0,2827.0,2827,matched,0.0,True,0.0
+2022,house,63,R,Cynthia Lee Almond,Cynthia Almond,0.875,5541.0,5541,matched,0.0,True,0.0
+2022,house,64,R,Donna Givens,Donna Givens,1.0,11041.0,11041,matched,0.0,True,0.0
+2022,house,65,D,Marcus Caster,Marcus Caster,1.0,4759.0,4759,matched,0.0,True,0.0
+2022,house,65,R,Brett Easterbrook,Brett Easterbrook,1.0,12693.0,12693,matched,0.0,True,0.0
+2022,house,66,R,Alan Baker,Alan Baker,1.0,12042.0,12042,matched,0.0,True,0.0
+2022,house,67,D,Prince Chestnut,Prince Chestnut,1.0,10335.0,10335,matched,0.0,True,0.0
+2022,house,68,D,"Thomas E. ""Action"" Jackson","Thomas E. ""Action"" Jackson",1.0,9517.0,9537,matched,-20.0,False,20.0
+2022,house,68,R,Fred Kelley,Fred Kelley,1.0,8948.0,8981,matched,-33.0,False,33.0
+2022,house,69,D,Kelvin J. Lawrence,,0.0,8769.0,,review,,False,
+2022,house,69,R,Karla Knight Maddox,,0.0,7103.0,,review,,False,
+2022,house,70,D,Christopher John England,,0.0,6245.0,,review,,False,
+2022,house,71,D,"Artis ""Aj"" Mccampbell",,0.0,9126.0,,review,,False,
+2022,house,72,D,Curtis L. Travis,Curtis L. Travis,1.0,8128.0,3106,matched,5022.0,False,5022.0
+2022,house,73,R,Kenneth Paschal,,0.0,10343.0,,review,,False,
+2022,house,74,D,Phillip Ensler,Phillip Ensler,1.0,7538.0,2170,matched,5368.0,False,5368.0
+2022,house,74,R,Charlotte Meadows,,0.0,4986.0,,review,,False,
+2022,house,75,R,Reed Ingram,,0.0,11688.0,,review,,False,
+2022,house,76,D,"Patrice ""Penni"" Mcclammy","Patrice ""Penni"" McClammy",1.0,8312.0,8312,matched,0.0,True,0.0
+2022,house,77,D,Tashina Morris,,0.0,7062.0,,review,,False,
+2022,house,78,D,Kenyatte Hassell,,0.0,6991.0,,review,,False,
+2022,house,79,R,Joe Lovvorn,Joe Lovvorn,1.0,7690.0,7690,matched,0.0,True,0.0
+2022,house,80,R,Chris E. Blackshear,Chris E. Blackshear,1.0,8113.0,8113,matched,0.0,True,0.0
+2022,house,81,R,Ed Oliver,Ed Oliver,1.0,12116.0,12116,matched,0.0,True,0.0
+2022,house,82,D,Pebblin Walker Warren,Pebblin Walker Warren,1.0,6257.0,6257,matched,0.0,True,0.0
+2022,house,82,R,"Lennora ""Tia"" Pierrot","Lennora ""Tia"" Pierrot",1.0,2526.0,2526,matched,0.0,True,0.0
+2022,house,83,D,Jeremy Gray,Jeremy Gray,1.0,6540.0,6540,matched,0.0,True,0.0
+2022,house,84,D,Berry Forte,Berry Forte,1.0,7463.0,7463,matched,0.0,True,0.0
+2022,house,85,D,Dexter Grimsley,Dexter Grimsley,1.0,5668.0,5668,matched,0.0,True,0.0
+2022,house,85,R,Rick Rehm,Rick Rehm,1.0,6665.0,6665,matched,0.0,True,0.0
+2022,house,86,R,Paul W. Lee,Paul W. Lee,1.0,10697.0,10697,matched,0.0,True,0.0
+2022,house,87,R,Jeff Sorrells,Jeff Sorrells,1.0,12957.0,12957,matched,0.0,True,0.0
+2022,house,88,R,Jerry Starnes,Jerry Starnes,1.0,10020.0,10020,matched,0.0,True,0.0
+2022,house,89,R,Marcus B. Paramore,Marcus B. Paramore,1.0,7855.0,7855,matched,0.0,True,0.0
+2022,house,90,R,Chris Sells,Chris Sells,1.0,11567.0,11567,matched,0.0,True,0.0
+2022,house,91,R,Rhett Marques,Rhett Marques,1.0,9794.0,9794,matched,0.0,True,0.0
+2022,house,92,D,Steve Hubbard,Steve Hubbard,1.0,1789.0,1795,matched,-6.0,False,6.0
+2022,house,92,R,Matthew Hammett,Matthew Hammett,1.0,11778.0,11812,matched,-34.0,False,34.0
+2022,house,93,R,Steve Clouse,Steve Clouse,1.0,10333.0,10333,matched,0.0,True,0.0
+2022,house,94,R,Jennifer Fidler,Jennifer Fidler,1.0,14207.0,14207,matched,0.0,True,0.0
+2022,house,95,D,Richard Brackner,Richard Brackner,1.0,2465.0,2465,matched,0.0,True,0.0
+2022,house,95,R,Frances Holk-Jones,Frances Holk-Jones,1.0,14242.0,14242,matched,0.0,True,0.0
+2022,house,96,R,Matt Simpson,Matt Simpson,1.0,11990.0,11990,matched,0.0,True,0.0
+2022,house,97,D,Adline Clarke,Adline Clarke,1.0,7337.0,7337,matched,0.0,True,0.0
+2022,house,98,D,"Napoleon Bracy, Jr.","Napoleon Bracy, Jr.",1.0,7655.0,7655,matched,0.0,True,0.0
+2022,house,99,D,Sam Jones,Sam Jones,1.0,8252.0,8252,matched,0.0,True,0.0
+2022,house,100,R,Mark Shirey,Mark Shirey,1.0,9781.0,9781,matched,0.0,True,0.0
+2022,house,101,R,Chris Pringle,Chris Pringle,1.0,8968.0,8968,matched,0.0,True,0.0
+2022,house,102,R,Shane Stringer,Shane Stringer,1.0,10472.0,10472,matched,0.0,True,0.0
+2022,house,103,D,Barbara Drummond,Barbara Drummond,1.0,6015.0,6015,matched,0.0,True,0.0
+2022,house,104,R,Margie Wilcox,Margie Wilcox,1.0,8871.0,8871,matched,0.0,True,0.0
+2022,house,105,R,Chip Brown,Chip Brown,1.0,10554.0,10554,matched,0.0,True,0.0
+2022,senate,1,R,Tim Melson,Tim Melson,1.0,35480.0,35480,matched,0.0,True,0.0
+2022,senate,2,D,Kim Caudle Lewis,Kim Caudle Lewis,1.0,20749.0,20749,matched,0.0,True,0.0
+2022,senate,2,R,Tom Butler,Tom Butler,1.0,25951.0,25951,matched,0.0,True,0.0
+2022,senate,3,R,Arthur Orr,Arthur Orr,1.0,30578.0,30578,matched,0.0,True,0.0
+2022,senate,4,R,Garlan Gudger,Garlan Gudger,1.0,38265.0,38265,matched,0.0,True,0.0
+2022,senate,5,R,Greg J Reed,Greg Reed,0.9,36159.0,36159,matched,0.0,True,0.0
+2022,senate,6,R,Larry Stutts,Larry Stutts,1.0,30883.0,30883,matched,0.0,True,0.0
+2022,senate,7,D,Korey Wilson,Korey Wilson,1.0,17295.0,17295,matched,0.0,True,0.0
+2022,senate,7,R,Sam Givhan,Sam Givhan,1.0,29095.0,29095,matched,0.0,True,0.0
+2022,senate,8,R,Steve Livingston,Steve Livingston,1.0,33758.0,33758,matched,0.0,True,0.0
+2022,senate,9,R,Clay Scofield,Clay Scofield,1.0,32709.0,32709,matched,0.0,True,0.0
+2022,senate,10,R,Andrew Jones,Andrew Jones,1.0,32153.0,32153,matched,0.0,True,0.0
+2022,senate,11,R,Lance Bell,Lance Bell,1.0,33505.0,33505,matched,0.0,True,0.0
+2022,senate,12,D,Danny Mccullars,Danny McCullars,1.0,10271.0,10271,matched,0.0,True,0.0
+2022,senate,12,R,Keith Kelley,Keith Kelley,1.0,28786.0,28786,matched,0.0,True,0.0
+2022,senate,13,R,Randy Price,Randy Price,1.0,31759.0,31759,matched,0.0,True,0.0
+2022,senate,14,R,April Weaver,April Weaver,1.0,31917.0,31917,matched,0.0,True,0.0
+2022,senate,15,R,Dan Roberts,Dan Roberts,1.0,35704.0,35704,matched,0.0,True,0.0
+2022,senate,16,R,"J.T. ""Jabo"" Waggoner","J. T. ""Jabo"" Waggoner",1.0,33719.0,33719,matched,0.0,True,0.0
+2022,senate,17,R,Shay Shelnutt,Shay Shelnutt,1.0,38137.0,38137,matched,0.0,True,0.0
+2022,senate,18,D,Rodger M. Smitherman,Rodger Smitherman,0.9444444444444444,28642.0,28642,matched,0.0,True,0.0
+2022,senate,19,D,Merika Coleman,Merika Coleman,1.0,26369.0,26369,matched,0.0,True,0.0
+2022,senate,20,D,Linda Coleman-Madison,Linda Coleman-Madison,1.0,27567.0,27567,matched,0.0,True,0.0
+2022,senate,21,D,Lisa Ward,Lisa Ward,1.0,11198.0,11198,matched,0.0,True,0.0
+2022,senate,21,R,Gerald Allen,Gerald Allen,1.0,21962.0,21962,matched,0.0,True,0.0
+2022,senate,22,R,Greg Albritton,Greg Albritton,1.0,32880.0,32880,matched,0.0,True,0.0
+2022,senate,23,D,Robert L. Stewart,Robert L. Stewart,1.0,25953.0,25953,matched,0.0,True,0.0
+2022,senate,23,R,Michael Nimmer,Michael Nimmer,1.0,21682.0,21682,matched,0.0,True,0.0
+2022,senate,24,D,Bobby Singleton,Bobby Singleton,1.0,25440.0,25440,matched,0.0,True,0.0
+2022,senate,25,R,Will Barfoot,Will Barfoot,1.0,32640.0,32640,matched,0.0,True,0.0
+2022,senate,26,D,Kirk Hatcher,Kirk Hatcher,1.0,25901.0,25901,matched,0.0,True,0.0
+2022,senate,27,D,Sherri Reese,Sherri Reese,1.0,10996.0,10996,matched,0.0,True,0.0
+2022,senate,27,R,Jay Hovey,Jay Hovey,1.0,26014.0,26014,matched,0.0,True,0.0
+2022,senate,28,D,Billy Beasley,Billy Beasley,1.0,21252.0,21252,matched,0.0,True,0.0
+2022,senate,29,D,"Nathan ""Nate"" Mathis",,0.8387096774193549,6476.0,,review,,False,
+2022,senate,29,R,Donnie Chesteen,Donnie Chesteen,1.0,31576.0,31576,matched,0.0,True,0.0
+2022,senate,30,R,"Clyde Chambliss, Jr.",Clyde Chambliss Jr.,1.0,29225.0,29225,matched,0.0,True,0.0
+2022,senate,31,R,Josh Carnley,Josh Carnley,1.0,30618.0,30618,matched,0.0,True,0.0
+2022,senate,32,R,Chris Elliott,Chris Elliott,1.0,41073.0,41073,matched,0.0,True,0.0
+2022,senate,33,D,Vivian Davis Figures,,0.8235294117647058,23203.0,,review,,False,
+2022,senate,33,R,Pete Riehm,Pete Riehm,1.0,11401.0,11401,matched,0.0,True,0.0
+2022,senate,34,R,Jack Williams,Jack Williams,1.0,27043.0,27043,matched,0.0,True,0.0
+2022,senate,35,R,David Sessions,David Sessions,1.0,27133.0,27133,matched,0.0,True,0.0
