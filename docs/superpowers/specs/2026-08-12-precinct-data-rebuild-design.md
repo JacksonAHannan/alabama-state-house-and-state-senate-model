@@ -69,28 +69,40 @@ yet have 2022.
 
 ## Design
 
-### Map-vintage reuse
+### Precinct-to-district allocation: one matching technique, not per-cycle geometry
 
-Alabama's legislative maps in effect: **2012-enacted** (elections 2012,
-2014, 2016), **2017-remedial** (elections 2018, 2020), **2021-enacted**
-(elections 2022+) — matching the existing `MAP_VINTAGE` mapping in
-`build_war_database.py`. The 2014 precinct→district crosswalk
-(`scripts/build_2014_precinct_crosswalk.py`) is built against the
-2012-enacted map and already has a validated, reviewed methodology (county-scoped
-exact/fuzzy name matching with an explicit accept/review split, token
-normalization for abbreviations, non-geographic unit filtering). Because
-2012 and 2016 share the same map vintage as 2014, this crosswalk's precinct
-universe and methodology extend directly to them — replacing the bespoke
-2012 VTD-crosswalk pipeline and the 2016 VEST/fuzzy-match pipeline with the
-one already trusted for 2014.
+Closer reading of the actual (as opposed to nominally documented) current
+pipeline found that the live, consumed method for 2012->2014 is not the VTD
+crosswalk at all: `build_2012_presidential_districts.py` matches 2012
+precinct names directly (county-scoped exact/fuzzy `rapidfuzz` match,
+accept threshold score>=92/margin>=4) against 2014's own
+`precinct_district_allocation_weights.csv`, with within-county fallback
+distribution for unmatched votes. The VTD-crosswalk scripts
+(`build_2012_president_vtd_crosswalk.py`, `build_2012_president_on_2018_map.py`,
+and the underlying `build_2014_precinct_crosswalk.py` VTD-matching apparatus)
+are redundant with this — not the live path. Likewise, for 2016/2020 the
+live method in `build_vest_presidential_districts.py` is polygon-area
+overlay of VEST shapefiles against district shapefiles (`build_spatial`);
+that file's `rapidfuzz`-based `build()` function is dead code.
 
-2020 feeds the 2022 trend feature, which needs allocation onto the
-2021-enacted map — a genuine cross-vintage problem (2020's election used the
-2017-remedial map) that no vote-source swap resolves. The 2020 vote source
-still moves from VEST to OE for consistency and to drop the VEST dependency,
-but this piece is flagged lower-confidence and gets its own crosswalk
-coverage/QA review rather than being assumed equivalent to the 2012/2016/2014
-cases.
+Since `precinct_district_allocation_weights.csv` already exists for every
+target cycle (2014, 2018, and 2022, the last via the untouched RDH path),
+the direct-name-match-against-target-weights technique already proven for
+2012->2014 generalizes cleanly to all four source/target pairs — 2012->2014,
+2016->2018, 2016->2022, 2020->2022 — as one function, with no shapefiles, no
+VTD crosswalk, and no map-vintage bookkeeping required. This is a bigger
+simplification than originally scoped: it retires the VTD-crosswalk
+apparatus entirely (its only consumers were the presidential-trend scripts
+being replaced), not just the 2012 and 2016 pieces.
+
+2020->2022 remains the one case with real residual uncertainty: 2020's
+election used the 2017-remedial map, but its votes are matched against
+2022's RDH precinct names (2021-enacted map), so precinct consolidation
+across that redistricting can lower the match rate versus the other three
+pairs. The technique surfaces this directly through its per-row
+`match_method` and per-district `fallback_share` outputs rather than hiding
+it in geometry, so it stays flagged as lower-confidence and reviewed on its
+own rather than assumed equivalent to the other three pairs.
 
 ### Pipeline stages
 
@@ -110,10 +122,12 @@ cases.
    OE's own 2014 file, not something this rebuild changes), but moves into
    this shared module's cycle-specific hook rather than living inline in
    `build_war_database.py`.
-3. **Crosswalk to legislative districts**: reuse/extend
-   `build_2014_precinct_crosswalk.py`'s methodology, parameterized by map
-   vintage, to produce crosswalks for 2012-enacted (covers 2012, 2014, 2016)
-   and 2017-remedial (covers 2018, 2020) precinct universes.
+3. **Allocate to legislative districts**: one generalized function matches
+   source-year precinct names against the target cycle's own
+   `precinct_district_allocation_weights.csv` (county-scoped exact/fuzzy
+   match, within-county fallback for unmatched votes) — the technique
+   already proven for 2012->2014, applied uniformly to 2012->2014,
+   2016->2018, 2016->2022, and 2020->2022.
 4. **Validate**: an automated checksum step (component rows sum to reported
    `Total` rows per precinct/candidate, following OE's own
    `src/total_checksum.py` logic) runs for every OE-sourced cycle's output.
@@ -126,7 +140,15 @@ cases.
 - `scripts/normalize_2012_president.py`
 - `scripts/build_2012_president_vtd_crosswalk.py`
 - `scripts/build_2012_president_on_2018_map.py`
+- `scripts/build_2012_presidential_districts.py` (generalized into the new
+  unified allocation script rather than left standalone)
 - `scripts/build_vest_presidential_districts.py`
+- `scripts/build_2014_precinct_crosswalk.py`,
+  `scripts/build_2014_multisource_crosswalk.py`,
+  `scripts/validate_2014_precinct_crosswalk.py` (the VTD-crosswalk apparatus
+  — its only consumers were the presidential-trend scripts above)
+- `data/manual/2014_precinct_geometry_overrides.csv` and the derived
+  `data/derived/crosswalks/` VTD/geometry crosswalk files
 - The silent manual copy of OE CSVs into `data/raw/openelections/`
 
 ### Kept unchanged
