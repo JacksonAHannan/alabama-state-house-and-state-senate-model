@@ -10,6 +10,6 @@ scores,candidate_interval_sign_conversion,0,True,Republican intervals must rever
 coverage,core_baseline_complete_eligible,152,True,98.7% complete.
 coverage,finance_complete_eligible,125,True,81.2% complete; model includes missingness flag.
 source_validation,2018_candidate_totals_match_official_workbooks,204,True,Exact candidate vote matches out of 204 modeled candidates.
-validation,random_fold_oof_r2_positive,0.2185991440071367,True,
-validation,leave_cycle_out_r2_nonnegative,0.1426204632875106,True,A failure means the model should not be described as validated across unseen eras.
-validation,best_cycle_holdout_specification,full_with_presidential_trend,True,"RMSE 11.952; comparison, not an absolute acceptance test."
+validation,random_fold_oof_r2_positive,0.1719561408880388,True,
+validation,leave_cycle_out_r2_nonnegative,0.0329423910346521,True,A failure means the model should not be described as validated across unseen eras.
+validation,best_cycle_holdout_specification,core_demographics_spending,True,"RMSE 13.055; comparison, not an absolute acceptance test."
