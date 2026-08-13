@@ -4,6 +4,11 @@ Replaces normalize_2012_president.py's raw Secretary-of-State-zip parsing:
 2012, 2016, and 2020 President results all come from the same normalized
 OpenElections format as the 2014/2018 legislative data, so one function
 handles every year.
+
+Note: 2012 OE data has null party fields for President rows; party must be
+inferred from candidate names. 2016/2020 have proper party normalization in
+most cases but may still have null party for President, so inference is
+a fallback for all years on President office rows specifically.
 """
 
 from __future__ import annotations
@@ -23,39 +28,51 @@ YEAR_FILENAMES = {
     2020: "20201103__al__general__precinct.csv",
 }
 
-# Mapping of candidate names to party for President rows where party is null
-CANDIDATE_TO_PARTY = {
-    # 2012
+# Mapping of exact candidate names to party for President rows where party is null.
+# This is needed because 2012 OE data has no party field for President rows.
+# Each entry is the exact candidate string from the CSV for that year.
+PRESIDENT_CANDIDATE_TO_PARTY = {
+    # 2012: tickets listed with running mate
     "BARACK OBAMA / JOE BIDEN": "D",
     "MITT ROMNEY / PAUL RYAN": "R",
-    # 2016
+    "GARY JOHNSON / JIM GRAY": "O",
+    "JILL STEIN / CHERI HONKALA": "O",
+    "VIRGIL H. GOODE, JR. / JAMES N. CLYMER": "O",
+    # 2016: individual candidate names
     "Hillary Rodham Clinton": "D",
     "Donald J. Trump": "R",
-    # 2020
+    "Gary Johnson": "O",
+    "Jill Stein": "O",
+    # 2020: individual candidate names, some truncated in CSV
     "Joseph R. Biden": "D",
-    "Donald J. Trump Michael R. Penc": "R",  # Truncated in some cases
+    "Joseph R. Biden Kamala D. Harri": "D",  # Truncated variant
+    "Donald J. Trump": "R",
+    "Donald J. Trump Michael R. Penc": "R",  # Truncated variant
+    "Jo Jorgensen": "O",
     "Jo Jorgensen Jeremy \"Spike\" Cohen": "O",
     "Jo Jorgensen Jeremy \"Spike\" Coh": "O",  # Truncated variant
 }
 
 
-def infer_party_from_candidate(candidate: str) -> str:
-    """Infer party from candidate name."""
-    # Try exact match first
-    if candidate in CANDIDATE_TO_PARTY:
-        return CANDIDATE_TO_PARTY[candidate]
+def infer_president_party_from_candidate(candidate: str) -> str:
+    """Infer party from candidate name for President rows.
 
-    # Try substring matches for common names
+    Used as fallback when party_norm is unmapped ("O" or null) for President
+    office records. This is specifically for President rows because 2012 OE
+    data lacks party information for President candidates.
+    """
+    # Try exact match first
+    if candidate in PRESIDENT_CANDIDATE_TO_PARTY:
+        return PRESIDENT_CANDIDATE_TO_PARTY[candidate]
+
+    # Fallback: try substring matches for common names
     candidate_upper = candidate.upper()
-    if "OBAMA" in candidate_upper or "BIDEN" in candidate_upper or "HARRIS" in candidate_upper or "CLINTON" in candidate_upper:
+    if any(name in candidate_upper for name in ["OBAMA", "BIDEN", "HARRIS", "CLINTON"]):
         return "D"
-    if "TRUMP" in candidate_upper or "ROMNEY" in candidate_upper or "RYAN" in candidate_upper:
+    if any(name in candidate_upper for name in ["TRUMP", "ROMNEY", "RYAN"]):
         return "R"
 
-    # Handle write-ins, over/under votes
-    if "WRITE" in candidate_upper or "OVER" in candidate_upper or "UNDER" in candidate_upper:
-        return "O"
-
+    # Non-partisan/third-party candidates and administrative entries
     return "O"
 
 
@@ -63,10 +80,17 @@ def extract_president_precinct_votes(oe_csv_path: Path) -> pd.DataFrame:
     data = load_oe(oe_csv_path)
     president = data[data["office"] == "President"].copy()
 
-    # For President rows where party_norm is "O" (unmapped), infer from candidate name
+    # Filter out non-geographic entries (TOTAL, ABSENTEE, PROVISIONAL, etc.)
+    # These are summary rows that would double-count votes if included.
+    # Use non-capturing group pattern to avoid pandas warning.
+    non_geographic_pattern = r"(?:ABSENTEE|PROVISIONAL|FAILSAFE|OVERSEAS|UOCAVA|TOTAL|TOTALS|ELECTION SYSTEMS)"
+    president = president[~president["precinct_key"].str.contains(non_geographic_pattern, case=False, na=False)]
+
+    # For President rows where party_norm is "O" (unmapped), infer from candidate name.
+    # This is needed for 2012 where party field is null for all President rows.
     president.loc[president["party_norm"] == "O", "party_norm"] = president.loc[
         president["party_norm"] == "O", "candidate"
-    ].apply(infer_party_from_candidate)
+    ].apply(infer_president_party_from_candidate)
 
     # Filter to D and R only
     president = president[president["party_norm"].isin(["D", "R"])]
