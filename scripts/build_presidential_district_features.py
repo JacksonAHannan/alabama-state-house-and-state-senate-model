@@ -20,7 +20,7 @@ import pandas as pd
 from rapidfuzz import fuzz, process
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from oe_normalize import normalize_for_match, normalize_name  # noqa: E402
+from oe_normalize import is_county_level_ballot, normalize_for_match, normalize_name  # noqa: E402
 
 TARGET_SOURCES: dict[int, list[int]] = {2014: [2012], 2018: [2012, 2016], 2022: [2016, 2020]}
 
@@ -79,12 +79,28 @@ def load_target_weights(weights_path: Path, target_cycle: int) -> pd.DataFrame:
 
 
 def _match_precincts(votes: pd.DataFrame, weights: pd.DataFrame) -> pd.DataFrame:
+    # County-level ballot batches are excluded from the target choice list as
+    # well as from the source side (below). Both the source presidential file
+    # and the target legislative-activity weights can contain a precinct
+    # literally named "ABSENTEE"/"PROVISIONAL", and letting those exact-match
+    # each other is actively harmful: in Jefferson County's 2016->2018 pair the
+    # only three "matches" in the entire county were BESSEMER ABSENTEE,
+    # BIRMINGHAM ABSENTEE and PROVISIONAL, which would have made the absentee
+    # batch's district split the basis for redistributing all 290,882 of
+    # Jefferson's presidential votes instead of the county's full legislative
+    # activity.
+    matchable = weights[~weights["target_match_norm"].map(is_county_level_ballot)]
     targets = {
         county: sorted(group["target_match_norm"].dropna().unique())
-        for county, group in weights.groupby("county_norm")
+        for county, group in matchable.groupby("county_norm")
     }
     rows = []
     for row in votes.itertuples(index=False):
+        if row.is_county_level:
+            rows.append({"source_row_id": row.source_row_id, "target_match_norm": None,
+                         "match_method": "county_level_ballot", "match_score": 0.0,
+                         "score_margin": 0.0})
+            continue
         choices = targets.get(row.county_norm, [])
         target = None
         method = "unmatched"
@@ -103,6 +119,35 @@ def _match_precincts(votes: pd.DataFrame, weights: pd.DataFrame) -> pd.DataFrame
     return pd.DataFrame(rows)
 
 
+def _source_completeness(
+    votes: pd.DataFrame, weights: pd.DataFrame, source_year: int
+) -> pd.DataFrame:
+    """Flag districts whose presidential figure rests on complete county coverage.
+
+    The 2012 OpenElections file covers only 62 of Alabama's 67 counties
+    (Bullock, Butler, Hale, Montgomery and Wilcox are absent upstream). A
+    district drawn entirely inside a missing county therefore has no source
+    votes at all, and -- more insidiously -- a district that spans a missing
+    county plus a present one still gets a margin, just one computed from part
+    of its electorate. Neither case is distinguishable from a well-covered
+    district by looking at the numbers alone, so record it explicitly:
+    ``pres_{year}_source_complete`` is True only when every county that
+    contributes target-cycle activity to the district also appears in that
+    source year's votes.
+    """
+    covered = set(
+        votes.loc[
+            votes["dem_votes"].fillna(0).add(votes["rep_votes"].fillna(0)) > 0, "county_norm"
+        ]
+    )
+    contributing = weights[weights["district_activity"] > 0]
+    return (
+        contributing.groupby(["office", "district"])["county_norm"]
+        .apply(lambda counties: set(counties).issubset(covered))
+        .reset_index(name=f"pres_{source_year}_source_complete")
+    )
+
+
 def allocate_to_districts(
     votes: pd.DataFrame, weights: pd.DataFrame, source_year: int
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
@@ -118,9 +163,18 @@ def allocate_to_districts(
     votes = votes.copy()
     votes["county_norm"] = votes["county_key"].map(normalize_name).map(_canonical_county)
     votes["match_norm"] = votes["precinct_key"].map(normalize_for_match)
+    # Absentee/provisional/overseas rows are county-wide ballot batches, not
+    # polling places, so they are never name-matched: they go straight to the
+    # residual tiers below, which spread them across the county's districts in
+    # proportion to legislative activity. That is what the retired VEST-based
+    # pipeline did with them, and it is the only defensible treatment for a
+    # batch of votes with no geography finer than the county.
+    votes["is_county_level"] = votes["precinct_key"].map(is_county_level_ballot)
     votes["source_row_id"] = range(1, len(votes) + 1)
 
-    matches = _match_precincts(votes[["county_norm", "match_norm", "source_row_id"]], weights)
+    matches = _match_precincts(
+        votes[["county_norm", "match_norm", "is_county_level", "source_row_id"]], weights
+    )
     keyed = votes.merge(matches, on="source_row_id", validate="one_to_one")
 
     direct = keyed[keyed["target_match_norm"].notna()].merge(
@@ -222,6 +276,22 @@ def allocate_to_districts(
         district["fallback_votes"] / district[f"pres_{source_year}_two_party_votes"]
     )
     district = district.drop(columns="fallback_votes")
+
+    # Re-base onto the target cycle's full district universe so a district that
+    # received no source votes at all still appears, with null vote/margin
+    # columns and source_complete=False, instead of silently vanishing from the
+    # output. Before this, the 2012->2014 pair wrote 135 rows rather than 140
+    # and the five Montgomery-only districts (HD 74/76/77/78, SD 26) were
+    # indistinguishable from rows that were never supposed to exist.
+    universe = weights[["office", "district"]].drop_duplicates()
+    district = universe.merge(district, on=["office", "district"], how="left")
+    district = district.merge(
+        _source_completeness(votes, weights, source_year), on=["office", "district"], how="left"
+    )
+    district[f"pres_{source_year}_source_complete"] = (
+        district[f"pres_{source_year}_source_complete"].fillna(False).astype(bool)
+    )
+
     district["chamber"] = district["office"].map({"State House": "house", "State Senate": "senate"})
     district = district.drop(columns="office")
     return district, matches
@@ -247,6 +317,53 @@ def _add_swing_columns(combined: pd.DataFrame, target_cycle: int) -> pd.DataFram
     return combined
 
 
+# Alabama has 105 House and 35 Senate districts in every cycle covered here.
+EXPECTED_DISTRICTS = {"house": 105, "senate": 35}
+
+# The only source year whose upstream file is known to be missing counties.
+# openelections-data-al's 20121106 general file has no rows at all for Bullock,
+# Butler, Hale, Montgomery or Wilcox. Nulls traceable to that gap are tolerated
+# (and flagged via pres_2012_source_complete); a null anywhere else means
+# something is being dropped that should not be, which is exactly the failure
+# mode this guard exists to catch.
+KNOWN_INCOMPLETE_SOURCE_YEARS = {2012}
+
+
+def check_output_completeness(combined: pd.DataFrame, target_cycle: int, source_years: list[int]) -> None:
+    """Fail loudly on any district row or margin lost for an unexplained reason."""
+    counts = combined.groupby("chamber").size().to_dict()
+    if counts != EXPECTED_DISTRICTS:
+        raise AssertionError(
+            f"{target_cycle}: expected {EXPECTED_DISTRICTS} district rows, got {counts}"
+        )
+
+    for source_year in source_years:
+        margin = combined[f"pres_{source_year}_dem_margin"]
+        complete = combined[f"pres_{source_year}_source_complete"].astype(bool)
+        unexplained = combined.loc[margin.isna() & complete, ["chamber", "district"]]
+        if len(unexplained):
+            raise AssertionError(
+                f"{source_year}->{target_cycle}: {len(unexplained)} district(s) have a null "
+                f"presidential margin despite complete source-county coverage, which means votes "
+                f"are being dropped somewhere: "
+                f"{unexplained.to_dict('records')}"
+            )
+        gap = combined.loc[margin.isna() & ~complete, ["chamber", "district"]]
+        if len(gap) and source_year not in KNOWN_INCOMPLETE_SOURCE_YEARS:
+            raise AssertionError(
+                f"{source_year}->{target_cycle}: {len(gap)} district(s) have a null presidential "
+                f"margin from missing source counties, but {source_year} has no known "
+                f"county-coverage gap: {gap.to_dict('records')}"
+            )
+        partial = int((margin.notna() & ~complete).sum())
+        print(
+            f"  {source_year}->{target_cycle} completeness: "
+            f"{int(complete.sum())}/{len(combined)} districts fully covered, "
+            f"{len(gap)} with no source votes, "
+            f"{partial} with partial county coverage"
+        )
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
@@ -268,6 +385,7 @@ def main() -> None:
             )
         combined["cycle"] = target_cycle
         combined = _add_swing_columns(combined, target_cycle)
+        check_output_completeness(combined, target_cycle, source_years)
         combined.to_csv(pres_dir / f"{target_cycle}_district_presidential_features.csv", index=False)
         print(f"{target_cycle}: {len(combined)} district rows written")
 

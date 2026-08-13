@@ -3,12 +3,28 @@ from io import StringIO
 import pandas as pd
 
 from oe_normalize import (
+    SUMMARY_ROW_RE,
     is_pseudocandidate,
     load_oe,
     normalize_for_match,
     normalize_name,
     norm_party,
 )
+
+
+def test_summary_row_re_matches_only_literal_total_restatements():
+    # Every summary-row spelling that actually occurs in the synced 2012/2014
+    # OpenElections files.
+    for label in ["TOTAL", "TOTALS", "CALCULATED TOTALS", "REPORTED TOTALS",
+                  "TOTAL OF REGISTERED VOTERS"]:
+        assert SUMMARY_ROW_RE.search(label), label
+    # County-level ballot rows are real votes, not restatements, and must not
+    # be caught by this pattern.
+    for label in ["ABSENTEE", "ABSENTEE #1", "PROVISIONAL", "BESSEMER ABSENTEE",
+                  "OVERSEAS", "UOCAVA", "FAILSAFE"]:
+        assert not SUMMARY_ROW_RE.search(label), label
+    # Nor should an ordinary precinct name that merely contains the letters.
+    assert not SUMMARY_ROW_RE.search("TOTALLY UNKNOWN PRECINCT")
 
 
 def test_norm_party_maps_known_variants():
@@ -66,3 +82,28 @@ def test_load_oe_normalizes_types_and_keys(tmp_path):
     assert data.loc[1, "party_norm"] == "R"
     assert data.loc[0, "county_key"] == "AUTAUGA"
     assert data.loc[0, "precinct_key"] == "PRECINCT 1"
+
+
+def test_load_oe_drops_county_summary_rows_but_keeps_absentee(tmp_path):
+    # A county's "TOTAL" precinct row restates the sum of its real precincts,
+    # so every caller that sums precinct rows would double-count the county.
+    # Filtering here means no caller has to remember to. ABSENTEE/PROVISIONAL
+    # rows are genuinely additional ballots and must survive.
+    csv_text = (
+        "county,precinct,office,district,party,candidate,votes\n"
+        "Autauga,Precinct 1,State House,10,DEM,Jane Smith,120\n"
+        "Autauga,Precinct 2,State House,10,DEM,Jane Smith,80\n"
+        "Autauga,Absentee,State House,10,DEM,Jane Smith,30\n"
+        "Autauga,TOTAL,State House,10,DEM,Jane Smith,230\n"
+        "Autauga,Calculated Totals,State House,10,DEM,Jane Smith,230\n"
+    )
+    path = tmp_path / "sample.csv"
+    path.write_text(csv_text)
+
+    data = load_oe(path)
+
+    assert sorted(data.precinct_key) == ["ABSENTEE", "PRECINCT 1", "PRECINCT 2"]
+    # Summing what survives reproduces the dropped TOTAL exactly.
+    assert data.votes.sum() == 230.0
+    # Index is contiguous after the filter, so positional access stays valid.
+    assert list(data.index) == [0, 1, 2]

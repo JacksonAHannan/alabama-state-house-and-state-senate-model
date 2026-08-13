@@ -30,12 +30,16 @@ def test_extract_pivots_president_votes_by_precinct(tmp_path):
     assert len(result) == 2
 
 
-def test_filters_out_total_and_non_geographic_precincts(tmp_path):
-    """Verify that TOTAL/ABSENTEE/PROVISIONAL rows are excluded.
+def test_drops_total_rows_but_keeps_county_level_ballot_rows(tmp_path):
+    """TOTAL rows are duplicates and must go; ABSENTEE rows are real votes and must stay.
 
-    2012 OE data includes county-level TOTAL summary rows (e.g.,
-    precinct="TOTAL") that replicate the sum of all real precincts in that
-    county. Without filtering, these cause 2x vote inflation.
+    2012/2014 OE data includes county-level TOTAL summary rows (e.g.,
+    precinct="TOTAL") that restate the sum of all real precincts in that
+    county; counting them doubles the county. ABSENTEE/PROVISIONAL rows are the
+    opposite: distinct ballots that simply are not attributed to a named polling
+    place. Dropping those was discarding 303,177 real 2020 votes (~13% of the
+    electorate, ~65% Democratic). They are kept here and redistributed within
+    county by build_presidential_district_features.py's fallback tier.
     """
     csv_text = (
         "county,precinct,office,district,party,candidate,votes\n"
@@ -43,8 +47,8 @@ def test_filters_out_total_and_non_geographic_precincts(tmp_path):
         "Autauga,Precinct 1,President,,REP,MITT ROMNEY / PAUL RYAN,750\n"
         "Autauga,Precinct 2,President,,DEM,BARACK OBAMA / JOE BIDEN,300\n"
         "Autauga,Precinct 2,President,,REP,MITT ROMNEY / PAUL RYAN,450\n"
-        "Autauga,TOTAL,President,,DEM,BARACK OBAMA / JOE BIDEN,800\n"
-        "Autauga,TOTAL,President,,REP,MITT ROMNEY / PAUL RYAN,1200\n"
+        "Autauga,TOTAL,President,,DEM,BARACK OBAMA / JOE BIDEN,900\n"
+        "Autauga,TOTAL,President,,REP,MITT ROMNEY / PAUL RYAN,1400\n"
         "Autauga,ABSENTEE,President,,DEM,BARACK OBAMA / JOE BIDEN,100\n"
         "Autauga,ABSENTEE,President,,REP,MITT ROMNEY / PAUL RYAN,200\n"
     )
@@ -54,18 +58,23 @@ def test_filters_out_total_and_non_geographic_precincts(tmp_path):
     result = extract_president_precinct_votes(path)
     result = result.set_index(["county_key", "precinct_key"])
 
-    # Only 2 real precincts should be in result: TOTAL and ABSENTEE filtered out
-    assert len(result) == 2
-    assert ("AUTAUGA", "PRECINCT 1") in result.index
-    assert ("AUTAUGA", "PRECINCT 2") in result.index
     assert ("AUTAUGA", "TOTAL") not in result.index
-    assert ("AUTAUGA", "ABSENTEE") not in result.index
+    assert ("AUTAUGA", "ABSENTEE") in result.index
+    assert len(result) == 3
 
-    # Verify vote totals are NOT doubled
+    # Verify vote totals are NOT doubled by the TOTAL row...
     assert result.loc[("AUTAUGA", "PRECINCT 1"), "dem_votes"] == 500
     assert result.loc[("AUTAUGA", "PRECINCT 1"), "rep_votes"] == 750
     assert result.loc[("AUTAUGA", "PRECINCT 2"), "dem_votes"] == 300
     assert result.loc[("AUTAUGA", "PRECINCT 2"), "rep_votes"] == 450
+    # ...and that the absentee ballots survive with their own vote counts.
+    assert result.loc[("AUTAUGA", "ABSENTEE"), "dem_votes"] == 100
+    assert result.loc[("AUTAUGA", "ABSENTEE"), "rep_votes"] == 200
+
+    # The county's real electorate is precincts + absentee, matching the
+    # TOTAL row exactly -- which is precisely why TOTAL must not be added on top.
+    assert result.dem_votes.sum() == 900
+    assert result.rep_votes.sum() == 1400
 
 
 def test_infers_party_from_candidate_name_when_null(tmp_path):

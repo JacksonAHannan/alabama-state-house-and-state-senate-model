@@ -20,7 +20,7 @@ from pathlib import Path
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from oe_normalize import load_oe, NON_GEOGRAPHIC_RE  # noqa: E402
+from oe_normalize import load_oe  # noqa: E402
 
 YEAR_FILENAMES = {
     2012: "20121106__al__general__precinct.csv",
@@ -80,10 +80,18 @@ def extract_president_precinct_votes(oe_csv_path: Path) -> pd.DataFrame:
     data = load_oe(oe_csv_path)
     president = data[data["office"] == "President"].copy()
 
-    # Filter out non-geographic entries (TOTAL, ABSENTEE, PROVISIONAL, etc.)
-    # These are summary rows that would double-count votes if included.
-    # Use shared NON_GEOGRAPHIC_RE from oe_normalize for consistency with other scripts.
-    president = president[~president["precinct_key"].apply(lambda x: bool(NON_GEOGRAPHIC_RE.search(str(x))))]
+    # No precinct filtering happens here. load_oe() has already removed the
+    # literal-duplicate county summary rows (SUMMARY_ROW_RE). Everything else
+    # -- including ABSENTEE/PROVISIONAL/FAILSAFE/OVERSEAS/UOCAVA rows, which are
+    # real ballots reported at the county level rather than at a named polling
+    # place -- is retained deliberately. Those rows carry their real county_key
+    # and a precinct_key that will simply fail to match any target precinct name
+    # in build_presidential_district_features.py, where the existing
+    # unmatched-residual fallback redistributes them within their own county in
+    # proportion to matched legislative activity. Deleting them here instead
+    # (as an earlier revision did) silently discarded ~13% of the 2020
+    # electorate and flipped the sign of the downstream presidential-swing
+    # feature.
 
     # For President rows where party_norm is "O" (unmapped), infer from candidate name.
     # This is needed for 2012 where party field is null for all President rows.
