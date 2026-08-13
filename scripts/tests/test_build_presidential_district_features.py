@@ -1,6 +1,11 @@
 import pandas as pd
 
-from build_presidential_district_features import allocate_to_districts, load_target_weights, _canonical_county
+from build_presidential_district_features import (
+    allocate_to_districts,
+    load_target_weights,
+    _add_swing_columns,
+    _canonical_county,
+)
 
 
 def _weights_frame() -> pd.DataFrame:
@@ -122,3 +127,33 @@ def test_canonical_county_reconciles_st_clair_spelling_variants():
     assert _canonical_county("STCLAIR") == "SAINT CLAIR"
     assert _canonical_county("SAINT CLAIR") == "SAINT CLAIR"
     assert _canonical_county("AUTAUGA") == "AUTAUGA"
+
+
+def test_add_swing_columns_computes_2012_2016_swing_for_2018():
+    # 2018 combines two presidential source years (2012, 2016), mirroring
+    # the original build_2012_president_on_2018_map.py, which fed both into
+    # the 2018 cycle and wrote pres_swing_2012_2016 = 2016 margin - 2012
+    # margin. fit_preliminary_war_model.py (downstream) requires this column
+    # on 2018 rows.
+    combined = pd.DataFrame(
+        [{"chamber": "house", "district": 1, "pres_2012_dem_margin": -20.0, "pres_2016_dem_margin": -10.0}]
+    )
+    result = _add_swing_columns(combined, target_cycle=2018)
+    assert round(result.loc[0, "pres_swing_2012_2016"], 2) == 10.0
+    assert "pres_swing_2016_2020" not in result.columns
+
+
+def test_add_swing_columns_computes_2016_2020_swing_for_2022():
+    combined = pd.DataFrame(
+        [{"chamber": "house", "district": 1, "pres_2016_dem_margin": -10.0, "pres_2020_dem_margin": 5.0}]
+    )
+    result = _add_swing_columns(combined, target_cycle=2022)
+    assert round(result.loc[0, "pres_swing_2016_2020"], 2) == 15.0
+    assert "pres_swing_2012_2016" not in result.columns
+
+
+def test_add_swing_columns_is_noop_for_2014():
+    combined = pd.DataFrame([{"chamber": "house", "district": 1, "pres_2012_dem_margin": -20.0}])
+    result = _add_swing_columns(combined, target_cycle=2014)
+    assert "pres_swing_2012_2016" not in result.columns
+    assert "pres_swing_2016_2020" not in result.columns

@@ -22,7 +22,7 @@ from rapidfuzz import fuzz, process
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from oe_normalize import normalize_for_match, normalize_name  # noqa: E402
 
-TARGET_SOURCES: dict[int, list[int]] = {2014: [2012], 2018: [2016], 2022: [2016, 2020]}
+TARGET_SOURCES: dict[int, list[int]] = {2014: [2012], 2018: [2012, 2016], 2022: [2016, 2020]}
 
 # Known cross-file county-key spelling/typo variants that survive
 # normalize_name() as different strings, confirmed by diffing normalized
@@ -224,6 +224,26 @@ def allocate_to_districts(
     return district, matches
 
 
+def _add_swing_columns(combined: pd.DataFrame, target_cycle: int) -> pd.DataFrame:
+    """Add the cross-cycle presidential-swing feature for cycles with two
+    presidential source years. Mirrors the original
+    build_2012_president_on_2018_map.py, which fed both 2012 and 2016 into
+    the 2018 cycle and wrote pres_swing_2012_2016 = 2016 margin - 2012
+    margin; the 2022 cycle already did the analogous 2020-minus-2016 swing.
+    fit_preliminary_war_model.py (downstream, unmodified) requires
+    pres_swing_2012_2016 on 2018 rows.
+    """
+    if target_cycle == 2022:
+        combined["pres_swing_2016_2020"] = (
+            combined["pres_2020_dem_margin"] - combined["pres_2016_dem_margin"]
+        )
+    elif target_cycle == 2018:
+        combined["pres_swing_2012_2016"] = (
+            combined["pres_2016_dem_margin"] - combined["pres_2012_dem_margin"]
+        )
+    return combined
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
@@ -244,10 +264,7 @@ def main() -> None:
                 district, on=["chamber", "district"], how="outer", validate="one_to_one"
             )
         combined["cycle"] = target_cycle
-        if target_cycle == 2022:
-            combined["pres_swing_2016_2020"] = (
-                combined["pres_2020_dem_margin"] - combined["pres_2016_dem_margin"]
-            )
+        combined = _add_swing_columns(combined, target_cycle)
         combined.to_csv(pres_dir / f"{target_cycle}_district_presidential_features.csv", index=False)
         print(f"{target_cycle}: {len(combined)} district rows written")
 
