@@ -42,7 +42,7 @@ def check_totals(data: pd.DataFrame, group_columns: list[str], total_column: str
 
     # Merge on group columns
     comparison = pd.merge(reported, calculated, on=group_columns, how="inner")
-    mismatches = comparison[comparison["reported_total"] != comparison["calculated_total"]]
+    mismatches = comparison[comparison["reported_total"] != comparison["calculated_total"]].copy()
 
     # Convert placeholder back to None/NaN
     for col in group_columns:
