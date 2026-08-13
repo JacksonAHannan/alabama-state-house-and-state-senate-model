@@ -150,7 +150,10 @@ def allocate_to_districts(
     # that 2016's source presidential precinct names lack, so 0/171
     # Jefferson precincts matched directly for 2016->2018 and 2016->2022,
     # and all 15 Jefferson-only districts (12 house + 3 senate) vanished
-    # from the 2018 output before this fallback tier was added.
+    # from the 2018 output before this fallback tier was added. The same
+    # naming divergence also produces 0/177 direct matches for the
+    # 2012->2018 pair, so those 15 Jefferson districts fall back to the
+    # county-wide average there too.
     county_shares = weights.groupby(["county_norm", "office", "district"], as_index=False)["district_activity"].sum()
     county_shares["county_total_activity"] = county_shares.groupby(["county_norm", "office"])["district_activity"].transform("sum")
     county_shares["county_fallback_share"] = county_shares["district_activity"] / county_shares["county_total_activity"].where(

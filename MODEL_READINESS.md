@@ -48,11 +48,24 @@ of the two correlated terms or combining them into a single index).
 
 ## Validation status
 
-Random-fold out-of-sample performance is useful (R-squared 0.219; MAE 7.40
-margin points), and leave-one-cycle-out performance is R-squared 0.143 (MAE
-8.18) after the incumbency-term and white-college-share fixes above. The 2014
-cycle remains much noisier than the later cycles. Outputs retain the
-`preliminary_` prefix.
+Random-fold out-of-sample performance is largely unchanged after the
+precinct-data rebuild described below (R-squared 0.1995, versus 0.219 before;
+MAE 7.51, versus 7.40 before). Leave-one-cycle-out performance dropped from
+R-squared 0.143 (MAE 8.18) to R-squared 0.043 (MAE 9.04). This drop traces to
+the 2018 cycle's `pres_swing_2012_2016` presidential-trend feature, which is
+now built by the single OpenElections-based
+`build_presidential_district_features.py` matching pipeline (see "Rebuild and
+validate" below) instead of the old ad hoc 2012 crosswalk. The old value was
+already self-flagged unreliable for every 2018 row
+(`pres_2012_source_complete=False` universally) and contained at least one
+outright degenerate value (a near-zero-vote denominator), so the new value is
+more honest. However, Jefferson County's 2012 precinct names diverge from the
+2018 target precinct set enough that zero of Jefferson's 2012 precincts match
+directly, so all 15 of Jefferson's districts (12 House + 3 Senate) fall back
+to a single county-wide average trend value instead of a district-specific
+one -- a real, disclosed methodological limitation, not a data-quality
+regression. The 2014 cycle remains much noisier than the later cycles.
+Outputs retain the `preliminary_` prefix.
 
 The automated QA file is `data/processed/war/model_readiness_qa.csv`. The
 largest residuals and their principal input fields are in
@@ -110,10 +123,19 @@ Boothe). Candidate-level evidence is recorded in
 
 ## Rebuild and validate
 
-Run the scripts in dependency order after changing source data:
+Run the scripts in dependency order after changing source data. Precinct-level
+vote data for 2012, 2014, 2016, 2018, and 2020 now comes from a single source
+(`openelections-data-al`, synced explicitly rather than copied by hand), with
+2022 unchanged on the RDH pipeline.
 
 ```powershell
+python scripts\sync_openelections_data.py
+python scripts\validate_oe_precinct_totals.py data\raw\openelections\*.csv
 python scripts\build_war_database.py
+python scripts\build_oe_president_precinct.py --year 2012
+python scripts\build_oe_president_precinct.py --year 2016
+python scripts\build_oe_president_precinct.py --year 2020
+python scripts\build_presidential_district_features.py
 python scripts\build_incumbency_features.py
 python scripts\build_candidate_finance_features.py
 python scripts\assemble_war_features.py

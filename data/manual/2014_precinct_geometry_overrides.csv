@@ -1,2 +1,0 @@
-result_unit_id,county,result_precinct,geometry_source,geoid,geometry_name,override_reason,evidence
-1900,ELMORE,NEW HOME BAPTIST CH,vest16,01051000181,New Home Church,county_specific_name_override,"Same New Home name; inferred House 75 and Senate 30 exactly match the geometry"
