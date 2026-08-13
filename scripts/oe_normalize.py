@@ -62,7 +62,7 @@ def is_pseudocandidate(candidate: object) -> bool:
 
 def normalize_name(value: object) -> str:
     text = unicodedata.normalize("NFKD", str(value)).encode("ascii", "ignore").decode()
-    text = text.upper().replace("&", " AND ").replace("'", "")
+    text = text.upper().replace("&", " AND ")
     text = re.sub(r"[_/\\\-]+", " ", text)
     text = re.sub(r"[^A-Z0-9 ]+", " ", text)
     tokens: list[str] = []

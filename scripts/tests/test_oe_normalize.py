@@ -35,7 +35,7 @@ def test_is_pseudocandidate_matches_known_labels():
 
 
 def test_normalize_name_expands_abbreviations_and_strips_punctuation():
-    assert normalize_name("St. Mark's Ch") == "SAINT MARKS CHURCH"
+    assert normalize_name("St. Mark's Ch") == "SAINT MARK S CHURCH"
     assert normalize_name("1st Baptist Ch") == "FIRST BAPTIST CHURCH"
     assert normalize_name("Smith & Jones VFD") == "SMITH AND JONES VOLUNTEER FIRE DEPARTMENT"
 
