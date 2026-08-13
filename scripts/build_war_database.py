@@ -8,21 +8,17 @@ required: legislative contest activity supplies weights for split precincts.
 from __future__ import annotations
 
 import re
+import sys
 from pathlib import Path
 
 import geopandas as gpd
 import numpy as np
 import pandas as pd
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from oe_normalize import is_pseudocandidate, load_oe, norm_party  # noqa: E402
 
-PARTY_MAP = {
-    "D": "D",
-    "DEM": "D",
-    "DEMOCRAT": "D",
-    "R": "R",
-    "REP": "R",
-    "REPUBLICAN": "R",
-}
+
 CORE_BASELINE_OFFICES = {"Governor", "Attorney General"}
 EXECUTIVE_OFFICES = {
     "Governor",
@@ -34,20 +30,6 @@ EXECUTIVE_OFFICES = {
     "Commissioner of Agriculture and Industries",
 }
 MAP_VINTAGE = {2014: "2012_enacted", 2018: "2017_remedial", 2022: "2021_enacted"}
-
-
-def norm_party(value: object) -> str:
-    return PARTY_MAP.get(str(value).strip().upper(), "O")
-
-
-def load_oe(path: Path) -> pd.DataFrame:
-    data = pd.read_csv(path, low_memory=False)
-    data["votes"] = pd.to_numeric(data["votes"], errors="coerce").fillna(0.0)
-    data["district"] = pd.to_numeric(data["district"], errors="coerce")
-    data["party_norm"] = data["party"].map(norm_party)
-    data["county_key"] = data["county"].astype(str).str.upper().str.strip()
-    data["precinct_key"] = data["precinct"].astype(str).str.upper().str.strip()
-    return data
 
 
 def load_jefferson_2014_legislative(root: Path) -> pd.DataFrame:
@@ -114,7 +96,7 @@ def oe_cycle(data: pd.DataFrame, cycle: int) -> tuple[pd.DataFrame, pd.DataFrame
 
         named = legislative[
             legislative["party_norm"].isin(["D", "R"])
-            & ~legislative["candidate"].astype(str).str.contains("Over Votes|Under Votes|Write", case=False, regex=True)
+            & ~legislative["candidate"].map(is_pseudocandidate)
         ]
         result = (
             named.groupby(["district", "candidate", "party_norm"], as_index=False)["votes"]
