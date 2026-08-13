@@ -20,7 +20,7 @@ from pathlib import Path
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from oe_normalize import load_oe  # noqa: E402
+from oe_normalize import load_oe, NON_GEOGRAPHIC_RE  # noqa: E402
 
 YEAR_FILENAMES = {
     2012: "20121106__al__general__precinct.csv",
@@ -82,9 +82,8 @@ def extract_president_precinct_votes(oe_csv_path: Path) -> pd.DataFrame:
 
     # Filter out non-geographic entries (TOTAL, ABSENTEE, PROVISIONAL, etc.)
     # These are summary rows that would double-count votes if included.
-    # Use non-capturing group pattern to avoid pandas warning.
-    non_geographic_pattern = r"(?:ABSENTEE|PROVISIONAL|FAILSAFE|OVERSEAS|UOCAVA|TOTAL|TOTALS|ELECTION SYSTEMS)"
-    president = president[~president["precinct_key"].str.contains(non_geographic_pattern, case=False, na=False)]
+    # Use shared NON_GEOGRAPHIC_RE from oe_normalize for consistency with other scripts.
+    president = president[~president["precinct_key"].apply(lambda x: bool(NON_GEOGRAPHIC_RE.search(str(x))))]
 
     # For President rows where party_norm is "O" (unmapped), infer from candidate name.
     # This is needed for 2012 where party field is null for all President rows.

@@ -69,17 +69,18 @@ def test_filters_out_total_and_non_geographic_precincts(tmp_path):
 
 
 def test_infers_party_from_candidate_name_when_null(tmp_path):
-    """Verify party inference from candidate names for null party field.
+    """Verify party inference from candidate names for unmapped party field.
 
     2012 OE data has no party field for President rows; party must be
-    inferred from candidate names.
+    inferred from candidate names. This test uses party="UNK" which
+    norm_party() maps to "O", triggering the inference logic.
     """
     csv_text = (
         "county,precinct,office,district,party,candidate,votes\n"
-        "Autauga,Precinct 1,President,,DEM,BARACK OBAMA / JOE BIDEN,100\n"
-        "Autauga,Precinct 1,President,,REP,MITT ROMNEY / PAUL RYAN,150\n"
-        "Autauga,Precinct 2,President,,DEM,BARACK OBAMA / JOE BIDEN,80\n"
-        "Autauga,Precinct 2,President,,REP,MITT ROMNEY / PAUL RYAN,120\n"
+        "Autauga,Precinct 1,President,,UNK,BARACK OBAMA / JOE BIDEN,100\n"
+        "Autauga,Precinct 1,President,,UNK,MITT ROMNEY / PAUL RYAN,150\n"
+        "Autauga,Precinct 2,President,,UNK,BARACK OBAMA / JOE BIDEN,80\n"
+        "Autauga,Precinct 2,President,,UNK,MITT ROMNEY / PAUL RYAN,120\n"
     )
     path = tmp_path / "sample.csv"
     path.write_text(csv_text)
@@ -87,8 +88,12 @@ def test_infers_party_from_candidate_name_when_null(tmp_path):
     result = extract_president_precinct_votes(path)
     result = result.set_index(["county_key", "precinct_key"])
 
-    # Verify correct party is inferred and votes are tallied
+    # Verify correct party is inferred from candidate names and votes are tallied correctly.
+    # With party="UNK", norm_party() returns "O", then infer_president_party_from_candidate()
+    # is called to map candidate names to D/R.
     assert result.loc[("AUTAUGA", "PRECINCT 1"), "dem_votes"] == 100
     assert result.loc[("AUTAUGA", "PRECINCT 1"), "rep_votes"] == 150
     assert result.loc[("AUTAUGA", "PRECINCT 2"), "dem_votes"] == 80
     assert result.loc[("AUTAUGA", "PRECINCT 2"), "rep_votes"] == 120
+    # Only 2 precincts should be in result (real precincts, not summary rows)
+    assert len(result) == 2
