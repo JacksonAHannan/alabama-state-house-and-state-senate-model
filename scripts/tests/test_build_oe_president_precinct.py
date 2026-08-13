@@ -37,8 +37,8 @@ def test_drops_total_rows_but_keeps_county_level_ballot_rows(tmp_path):
     precinct="TOTAL") that restate the sum of all real precincts in that
     county; counting them doubles the county. ABSENTEE/PROVISIONAL rows are the
     opposite: distinct ballots that simply are not attributed to a named polling
-    place. Dropping those was discarding 303,177 real 2020 votes (~13% of the
-    electorate, ~65% Democratic). They are kept here and redistributed within
+    place. Dropping those was discarding 311,836 real 2020 two-party votes
+    (13.6% of the electorate, 65.1% Democratic). They are kept here and redistributed within
     county by build_presidential_district_features.py's fallback tier.
     """
     csv_text = (

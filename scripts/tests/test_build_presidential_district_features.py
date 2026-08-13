@@ -163,8 +163,8 @@ def test_county_level_absentee_row_is_redistributed_not_dropped():
     # deliberately kept by build_oe_president_precinct.py, arrive here with a
     # real county_key and a precinct_key that matches no target precinct, and
     # must land in the district totals via the existing unmatched-residual
-    # fallback -- not disappear. Deleting them upstream discarded 303,177 real
-    # 2020 votes and flipped the sign of pres_swing_2016_2020.
+    # fallback -- not disappear. Deleting them upstream discarded 311,836 real
+    # 2020 two-party votes and flipped the sign of pres_swing_2016_2020.
     weights = _prepared_weights()
     votes = pd.DataFrame(
         [

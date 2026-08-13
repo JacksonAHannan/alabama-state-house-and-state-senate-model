@@ -26,10 +26,11 @@ PSEUDOCANDIDATE_RE = re.compile(r"Over Votes|Under Votes|Write", re.IGNORECASE)
 
 # Two kinds of row in these files are not a named polling place, and they must
 # be treated in OPPOSITE ways. A single combined pattern (the former
-# NON_GEOGRAPHIC_RE) conflated them and silently deleted 303,177 real 2020
-# presidential votes -- ~13% of the electorate, ~65% Democratic, enough to move
-# the statewide two-party margin 8.8 points and flip the sign of the downstream
-# presidential-swing feature. Keep them separate.
+# NON_GEOGRAPHIC_RE) conflated them and silently deleted 311,836 real 2020
+# two-party presidential votes (202,917 D + 108,919 R) -- 13.6% of the
+# electorate, 65.1% Democratic, enough to move the statewide two-party margin
+# 8.8 points and flip the sign of the downstream presidential-swing feature.
+# Keep them separate.
 
 # 1. Literal duplicates. A "TOTAL" / "CALCULATED TOTALS" / "REPORTED TOTALS"
 #    precinct row restates the sum of that county's real precinct rows, so

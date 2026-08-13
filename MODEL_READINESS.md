@@ -68,9 +68,10 @@ wrong number with a right one:
    `PROVISIONAL`, `FAILSAFE`, `OVERSEAS` or `UOCAVA` along with the genuinely
    duplicated `TOTAL` summary rows. Those are not duplicates; they are real
    ballots reported at county level instead of at a named polling place. For
-   2020 alone that dropped 303,177 votes -- about 13% of the electorate and
-   roughly 65% Democratic -- which moved the statewide two-party margin 8.8
-   points and reversed the sign of the 2016-to-2020 presidential swing feature.
+   2020 alone that dropped 311,836 two-party votes (202,917 Democratic and
+   108,919 Republican) -- 13.6% of the electorate and 65.1% Democratic -- which
+   moved the statewide two-party margin 8.8 points and reversed the sign of the
+   2016-to-2020 presidential swing feature.
    The three presidential source years now reconcile to their certified
    statewide totals exactly where the source file is complete (2020:
    849,624 Democratic and 1,441,170 Republican).
