@@ -1,0 +1,11 @@
+{
+  "policy_key": "defense_plant_conversion",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "This option refers to converting military defense plants for civilian use or other purposes rather than increasing or decreasing funding levels.",
+  "evidence_quote": "2) Defense plant conversion",
+  "needs_human_review": true,
+  "review_reason": "The text describes a specific policy action (conversion of facilities) without indicating whether the candidate supports it based on conservative or progressive principles; thus, no directional score can be assigned."
+}

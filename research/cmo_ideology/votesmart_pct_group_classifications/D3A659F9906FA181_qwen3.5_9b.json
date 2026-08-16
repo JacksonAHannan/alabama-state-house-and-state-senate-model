@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_budget_fee_increases",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option proposes using fee increases to balance the state budget. This is a procedural or administrative mechanism for revenue generation rather than an ideological stance on taxation levels (progressive vs conservative). Therefore, it lacks a stable left/right direction.",
+  "evidence_quote": "n) Should fee increases be used to balance the state budget?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

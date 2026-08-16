@@ -1,0 +1,11 @@
+{
+  "policy_key": "state_local_enforce_federal_immigration",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Would you allow state and local police to actively enforce federal immigration laws (e.g., detaining or reporting undocumented immigrants)?",
+  "evidence_quote": "*[Verbatim excerpt from a candidate\u2019s questionnaire\u2014example placeholder, not sourced to an actual Alabama candidate]:* \u2018I believe state law enforcement should cooperate with federal authorities by enforcing all applicable immigration laws within their jurisdiction.\u2019",
+  "needs_human_review": false,
+  "review_reason": ""
+}

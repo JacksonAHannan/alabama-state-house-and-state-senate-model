@@ -1,0 +1,230 @@
+(() => {
+  "use strict";
+  const $ = s => document.querySelector(s);
+  const $$ = s => [...document.querySelectorAll(s)];
+  const state = { chamber: "house", mode: "probability", selected: null, sort: "closeness", asc: true };
+  const chamberName = c => c === "house" ? "State House" : "State Senate";
+  const districtName = (c,d) => `${c === "house" ? "HD" : "SD"}-${d}`;
+  const partyName = p => ({D:"Democratic",R:"Republican",I:"Independent"}[p] || p);
+  const fmtMargin = v => v == null || Number.isNaN(+v) ? "—" : `${+v >= 0 ? "D+" : "R+"}${Math.abs(+v).toFixed(1)}`;
+  const fmtMoney = (v,status) => {
+    if (v != null) return new Intl.NumberFormat("en-US",{style:"currency",currency:"USD",maximumFractionDigits:0}).format(v);
+    if (status === "no_state_entry_zero_assumption_sensitivity_only") return "$0 state entry (assumption)";
+    if (status === "unmatched") return "Not matched";
+    return "Not available";
+  };
+  const mix = (a,b,t) => {
+    const A=a.match(/\w\w/g).map(x=>parseInt(x,16)), B=b.match(/\w\w/g).map(x=>parseInt(x,16));
+    return "#"+A.map((x,i)=>Math.round(x+(B[i]-x)*t).toString(16).padStart(2,"0")).join("");
+  };
+  const race = (c,d) => DATA[c].races.find(r => r.district === +d);
+  const effectiveRating = r => r.status === "unopposed-major-party" ? `Unopposed ${r.demProbability === 1 ? "D" : "R"}` : r.rating;
+  const competitive = r => r.status === "modeled" && r.demProbability >= .35 && r.demProbability <= .65;
+  const intervalCrosses = r => r.low80 != null && r.low80 <= 0 && r.high80 >= 0;
+  const leader = r => r.demProbability == null ? null : r.demProbability >= .5 ? "D" : "R";
+
+  function validatePayload(){
+    const issues=[];
+    for(const c of ["house","senate"]){
+      if(!DATA[c] || !Array.isArray(DATA[c].races) || !Array.isArray(DATA[c].paths)) issues.push(`${c} payload missing`);
+      else if(DATA[c].races.length !== (c === "house" ? 105 : 35)) issues.push(`${c} district count is invalid`);
+    }
+    if(issues.length) throw new Error(issues.join("; "));
+  }
+
+  function closestRace(c){
+    return [...DATA[c].races].filter(r=>r.status==="modeled").sort((a,b)=>Math.abs(a.margin)-Math.abs(b.margin))[0];
+  }
+
+  function seatStats(c){
+    const dist=DATA[c].seatDistribution;
+    const mean=dist.reduce((s,x)=>s+x.demSeats*x.probability,0);
+    const quantile=q=>{let s=0;for(const x of dist){s+=x.probability;if(s>=q)return x.demSeats}return dist.at(-1).demSeats};
+    const mode=[...dist].sort((a,b)=>b.probability-a.probability)[0].demSeats;
+    const total=c==="house"?105:35;
+    const unknown=DATA[c].races.filter(r=>r.demProbability==null).length;
+    return {mean,median:quantile(.5),low:quantile(.1),high:quantile(.9),mode,total,repMedian:total-quantile(.5)-unknown,competitive:DATA[c].races.filter(competitive).length,unknown};
+  }
+
+  function renderOverview(){
+    $("#overviewGrid").innerHTML=["house","senate"].map(c=>{
+      const s=seatStats(c), modeled=DATA[c].races.filter(r=>r.status==="modeled").length;
+      return `<button class="overview-card" data-overview="${c}" aria-pressed="${state.chamber===c}">
+        <div class="overview-title"><h2>${chamberName(c)}</h2><span>${s.total} seats</span></div>
+        <div class="overview-stats">
+          <div class="overview-stat"><b style="color:var(--blue)">${s.median}</b><span>Median Democratic seats</span></div>
+          <div class="overview-stat"><b style="color:var(--red)">${s.repMedian}</b><span>Projected Republican seats${s.unknown?"*":""}</span></div>
+          <div class="overview-stat range"><b>${s.low}–${s.high}</b><span>Democratic 80% range</span></div>
+        </div>
+        <div class="seatbar" aria-hidden="true"><div class="d" style="width:${100*s.median/s.total}%"></div><div class="u" style="width:${100*s.unknown/s.total}%"></div><div class="r" style="width:${100*(s.total-s.median-s.unknown)/s.total}%"></div><i class="majority-mark" style="left:${100*(Math.floor(s.total/2)+1)/s.total}%"></i></div>
+        <div class="overview-foot">${modeled} D–R forecasts · ${s.competitive} competitive · majority at ${Math.floor(s.total/2)+1}${s.unknown?` · ${s.unknown} unmodeled`:""}</div>
+      </button>`;
+    }).join("");
+    $$('[data-overview]').forEach(b=>b.addEventListener("click",()=>selectChamber(b.dataset.overview,true)));
+  }
+
+  function renderDistribution(){
+    const dist=DATA[state.chamber].seatDistribution, max=Math.max(...dist.map(x=>x.probability)), mode=Math.max(...dist.map(x=>x.probability));
+    $("#distribution").innerHTML=dist.map(x=>`<i class="${x.probability===mode?'mode':''}" style="height:${Math.max(2,52*x.probability/max)}px" title="${x.demSeats} Democratic seats: ${(100*x.probability).toFixed(1)}%"></i>`).join("");
+    $("#distributionAxis").innerHTML=`<span>${dist[0].demSeats} D seats</span><span>${dist.at(-1).demSeats} D seats</span>`;
+  }
+
+  function renderChamberStrip(){
+    const s=seatStats(state.chamber);
+    $("#medianSeats").textContent=s.median;
+    $("#seatRange").textContent=`${s.low}–${s.high}`;
+    $("#chamberTitle").textContent=`Explore the ${chamberName(state.chamber)}`;
+    $("#mapTitle").textContent=`Alabama ${chamberName(state.chamber)}`;
+    renderDistribution();
+  }
+
+  function mapColor(r){
+    if(r.demProbability==null) return "#aaa39a";
+    if(r.status==="unopposed-major-party") return r.demProbability===1 ? "#397fb9" : "#c94e4e";
+    if(state.mode==="rating") return ({"Solid D":"#397fb9","Likely D":"#70a3c8","Lean D":"#accadd","Toss-up":"#d7d0c7","Lean R":"#e4b0aa","Likely R":"#d77b74","Solid R":"#c94e4e"}[r.rating]||"#aaa39a");
+    const value=state.mode==="margin"?r.margin:(r.demProbability*200-100);
+    const t=Math.min(1,Math.abs(value)/(state.mode==="margin"?30:80));
+    return value>=0?mix("#ebe5dc","#397fb9",t):mix("#ebe5dc","#c94e4e",t);
+  }
+
+  function legend(){
+    const sw=(color,label,pattern="")=>`<i style="background:${color};${pattern}"></i>${label}`;
+    if(state.mode==="rating") return [sw("#397fb9","Solid D"),sw("#70a3c8","Likely D"),sw("#accadd","Lean D"),sw("#d7d0c7","Toss-up"),sw("#e4b0aa","Lean R"),sw("#d77b74","Likely R"),sw("#c94e4e","Solid R"),sw("#aaa39a","Unmodeled","background-image:repeating-linear-gradient(45deg,#aaa 0 2px,#ddd 2px 4px)")].join("");
+    if(state.mode==="margin") return [sw("#c94e4e","R+20"),sw("#e4b0aa","R+10"),sw("#ebe5dc","Even"),sw("#accadd","D+10"),sw("#397fb9","D+20"),sw("#aaa39a","Unmodeled")].join("");
+    return [sw("#c94e4e","D chance <20%"),sw("#e4b0aa","20–40%"),sw("#ebe5dc","40–60%"),sw("#accadd","60–80%"),sw("#397fb9",">80%"),sw("#aaa39a","Unmodeled")].join("");
+  }
+
+  function tooltipText(r){
+    const cand=r.candidates.map(c=>c.name).join(" vs. ")||"No candidates listed";
+    const prob=r.demProbability==null?"Not modeled":`${Math.round(100*Math.max(r.demProbability,1-r.demProbability))}% ${partyName(leader(r))} win chance`;
+    return `${districtName(state.chamber,r.district)} · ${effectiveRating(r)}\n${cand}\n${fmtMargin(r.margin)} · ${prob}`;
+  }
+
+  function renderMap(){
+    const svg=$("#map"), races=DATA[state.chamber].races;
+    svg.setAttribute("aria-label",`${chamberName(state.chamber)} district forecast map. Use Tab to move through districts and Enter to select.`);
+    svg.innerHTML=DATA[state.chamber].paths.map(p=>{
+      const r=races.find(x=>x.district===p.district), label=`${districtName(state.chamber,p.district)}, ${effectiveRating(r)}, ${fmtMargin(r.margin)}`;
+      return `<path class="district ${state.selected===p.district?'selected':''} ${r.demProbability==null?'unmodeled':''}" data-district="${p.district}" fill="${mapColor(r)}" d="${p.path}" role="button" tabindex="0" aria-label="${label}"><title>${label}</title></path>`;
+    }).join("");
+    $$(".district").forEach(el=>{
+      const select=()=>selectDistrict(+el.dataset.district,true);
+      el.addEventListener("click",select);
+      el.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();select()}});
+      el.addEventListener("mousemove",e=>showTooltip(e,race(state.chamber,el.dataset.district)));
+      el.addEventListener("mouseleave",hideTooltip);
+    });
+    $("#legend").innerHTML=legend();
+  }
+
+  function showTooltip(e,r){const t=$("#tooltip");t.style.display="block";t.style.left=Math.min(innerWidth-255,e.clientX+12)+"px";t.style.top=Math.min(innerHeight-90,e.clientY+12)+"px";t.textContent=tooltipText(r)}
+  function hideTooltip(){ $("#tooltip").style.display="none"; }
+
+  function candidateHtml(c){
+    return `<div class="candidate"><i class="stripe ${c.party}" aria-hidden="true"></i><div><b>${c.name}</b><small>${partyName(c.party)}${c.incumbent?" · Incumbent":" · Non-incumbent"}</small></div><div class="finance-values"><small>${fmtMoney(c.raised,c.financeStatus)} raised<br>${fmtMoney(c.spent,c.financeStatus)} spent</small></div></div>`;
+  }
+
+  function uncertaintyHtml(r){
+    const bound=Math.max(40,Math.ceil(Math.max(Math.abs(r.low80),Math.abs(r.high80))/10)*10), pct=v=>100*(v+bound)/(2*bound);
+    return `<div class="uncertainty"><div class="uncertainty-title">Forecast margin and 80% predictive interval</div><div class="interval-chart" aria-label="Forecast ${fmtMargin(r.margin)}, middle 80 percent from ${fmtMargin(r.low80)} to ${fmtMargin(r.high80)}">
+      <div class="interval-axis"></div><i class="interval-even" style="left:50%"></i>
+      <span class="interval-band" style="left:${pct(r.low80)}%;width:${pct(r.high80)-pct(r.low80)}%"></span>
+      <i class="interval-dot" style="left:${pct(r.margin)}%"></i>
+      <span class="interval-end" style="left:${pct(r.low80)}%">${fmtMargin(r.low80)}</span><span class="interval-end" style="left:${pct(r.high80)}%">${fmtMargin(r.high80)}</span>
+    </div><div class="interval-caption">The band contains the middle 80% of simulated outcomes. Scale: R+${bound} to D+${bound}; the center line is an even race.</div></div>`;
+  }
+
+  function renderDetail(r){
+    const lead=leader(r), leadProb=lead ? Math.max(r.demProbability,1-r.demProbability) : null;
+    const bg=lead==="D"?"var(--blue)":lead==="R"?"var(--red)":"var(--gray)";
+    const headline=r.status==="modeled"?`<div class="headline-call"><strong>${fmtMargin(r.margin)}</strong><span>${partyName(lead)} nominee favored · ${Math.round(100*leadProb)}% win probability</span></div>`:`<div class="headline-call"><strong>${effectiveRating(r)}</strong><span>${r.status==="unopposed-major-party"?"Single major-party nominee; independent contests are not modeled":"No two-party forecast available"}</span></div>`;
+    const model=r.status==="modeled"?`<div class="decomp"><h4>Headline forecast</h4>
+      <div class="metric"><span>2024 presidential margin</span><b>${fmtMargin(r.pres24)}</b></div>
+      <div class="metric"><span>2026 environment change</span><b>${fmtMargin(r.environmentAdjustment)}</b></div>
+      <div class="metric"><span>Selected baseline forecast</span><b>${fmtMargin(r.margin)}</b></div>
+      <div class="metric"><span>Candidate adjustments promoted</span><b>None</b></div>
+      <details class="scenario-box"><summary>View experimental candidate scenarios</summary>
+        <div class="metric"><span>Finance scenario shift</span><b>${fmtMargin(r.financeScenario-r.margin)}</b></div>
+        <div class="metric"><span>Finance scenario margin</span><b>${fmtMargin(r.financeScenario)}</b></div>
+        <div class="metric"><span>Prior-CMO scenario shift</span><b>${fmtMargin(r.cmoScenarioAdjustment)}</b></div>
+        <small>These layers failed or lack the declared forward-validation gate and do not affect the headline.</small>
+      </details>${uncertaintyHtml(r)}</div>`:"";
+    const ordered=[...DATA[state.chamber].races].filter(x=>x.status==="modeled").sort((a,b)=>Math.abs(a.margin)-Math.abs(b.margin)), pos=ordered.findIndex(x=>x.district===r.district);
+    const prev=ordered[(pos-1+ordered.length)%ordered.length], next=ordered[(pos+1)%ordered.length];
+    $("#detail").innerHTML=`<div class="race-kicker">2026 general election</div><div class="race-title">${chamberName(state.chamber)} District ${r.district}</div><span class="rating" style="background:${bg}">${effectiveRating(r)}</span>${headline}<div>${r.candidates.map(candidateHtml).join("")||"<p>No certified candidate listed.</p>"}</div>${model}<div class="race-nav"><button class="small-button" data-race-nav="${prev?.district||r.district}">← Closer race</button><button class="small-button" data-race-nav="${next?.district||r.district}">Next race →</button></div>`;
+    $$('[data-race-nav]').forEach(b=>b.addEventListener("click",()=>selectDistrict(+b.dataset.raceNav,true)));
+  }
+
+  function populateDistrictSelect(){
+    $("#districtSelect").innerHTML=`<option value="">Find a district…</option>`+DATA[state.chamber].races.map(r=>`<option value="${r.district}">${districtName(state.chamber,r.district)} · ${effectiveRating(r)}</option>`).join("");
+  }
+
+  function selectDistrict(d,scroll=false){
+    state.selected=+d; renderMap(); renderDetail(race(state.chamber,d)); renderTable(); $("#districtSelect").value=String(d);
+    if(scroll && innerWidth<851) $("#detail").scrollIntoView({behavior:"smooth",block:"start"});
+  }
+
+  function selectChamber(c,scroll=false){
+    state.chamber=c; state.selected=closestRace(c).district;
+    $$('[data-chamber]').forEach(b=>b.setAttribute("aria-pressed",b.dataset.chamber===c));
+    renderAll();
+    if(scroll) $("#workspace").scrollIntoView({behavior:"smooth"});
+  }
+
+  function tableRows(){
+    let rows=[...DATA[state.chamber].races], q=$("#search").value.trim().toLowerCase(), rating=$("#ratingFilter").value, scope=$("#scopeFilter").value;
+    if(q) rows=rows.filter(r=>`${r.district} ${r.candidates.map(c=>c.name).join(" ")}`.toLowerCase().includes(q));
+    if(rating!=="all") rows=rows.filter(r=>effectiveRating(r)===rating);
+    if(scope==="competitive") rows=rows.filter(competitive);
+    if(scope==="modeled") rows=rows.filter(r=>r.status==="modeled");
+    if(scope==="open") rows=rows.filter(r=>!r.candidates.some(c=>c.incumbent));
+    if(scope==="crosses") rows=rows.filter(intervalCrosses);
+    const value=(r,k)=>k==="rating"?effectiveRating(r):k==="closeness"?(r.margin==null?999:Math.abs(r.margin)):r[k];
+    rows.sort((a,b)=>{let x=value(a,state.sort),y=value(b,state.sort);x=x??-999;y=y??-999;return (x>y?1:x<y?-1:0)*(state.asc?1:-1)});
+    return rows;
+  }
+
+  function renderTable(){
+    const rows=tableRows();
+    $("#rows").innerHTML=rows.map(r=>`<tr data-district="${r.district}" tabindex="0" class="${state.selected===r.district?'selected':''}" aria-label="Open ${districtName(state.chamber,r.district)} details">
+      <td>${districtName(state.chamber,r.district)}</td><td>${r.candidates.map(c=>`<span class="party-dot" style="background:${c.party==='D'?'var(--blue)':c.party==='R'?'var(--red)':'#766d61'}"></span>${c.name} (${c.party})`).join("<br>")||"—"}</td>
+      <td>${effectiveRating(r)}</td><td>${r.status==="unopposed-major-party"?"Unopposed":r.demProbability==null?"—":Math.round(100*r.demProbability)+"%"}</td><td>${fmtMargin(r.margin)}</td><td>${r.low80==null?"—":`${fmtMargin(r.low80)} to ${fmtMargin(r.high80)}`}</td><td>${r.financeScenario==null?"—":fmtMargin(r.financeScenario)}</td></tr>`).join("");
+    $$("#rows tr").forEach(tr=>{const open=()=>selectDistrict(+tr.dataset.district,true);tr.addEventListener("click",open);tr.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();open()}})});
+    $("#rowCount").textContent=`${rows.length} districts shown`;
+    $$('th button[data-sort]').forEach(b=>{const th=b.closest("th"),active=state.sort===b.dataset.sort;th.setAttribute("aria-sort",active?(state.asc?"ascending":"descending"):"none");b.querySelector("span").textContent=active?(state.asc?" ↑":" ↓"):""});
+  }
+
+  function downloadCsv(){
+    const header=["chamber","district","candidates","rating","dem_win_probability","forecast_margin","margin_80_low","margin_80_high","finance_scenario_margin"];
+    const esc=v=>`"${String(v??"").replaceAll('"','""')}"`;
+    const body=DATA[state.chamber].races.map(r=>[state.chamber,r.district,r.candidates.map(c=>`${c.name} (${c.party})`).join("; "),effectiveRating(r),r.demProbability,r.margin,r.low80,r.high80,r.financeScenario].map(esc).join(","));
+    const blob=new Blob([[header.join(","),...body].join("\n")],{type:"text/csv"}),a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=`alabama_2026_${state.chamber}_forecast.csv`;a.click();URL.revokeObjectURL(a.href);
+  }
+
+  function renderAll(){
+    renderOverview(); renderChamberStrip(); populateDistrictSelect(); renderMap(); renderDetail(race(state.chamber,state.selected)); renderTable();
+  }
+
+  function bind(){
+    $$('[data-chamber]').forEach(b=>b.addEventListener("click",()=>selectChamber(b.dataset.chamber)));
+    $$('[data-mode]').forEach(b=>b.addEventListener("click",()=>{state.mode=b.dataset.mode;$$('[data-mode]').forEach(x=>x.setAttribute("aria-pressed",x===b));renderMap()}));
+    $("#districtSelect").addEventListener("change",e=>{if(e.target.value)selectDistrict(+e.target.value,true)});
+    for(const id of ["search","ratingFilter","scopeFilter"]) $("#"+id).addEventListener(id==="search"?"input":"change",renderTable);
+    $$('th button[data-sort]').forEach(b=>b.addEventListener("click",()=>{state.asc=state.sort===b.dataset.sort?!state.asc:true;state.sort=b.dataset.sort;renderTable()}));
+    $("#download").addEventListener("click",downloadCsv);
+  }
+
+  try {
+    validatePayload();
+    state.selected=closestRace(state.chamber).district;
+    $("#buildDate").textContent=DATA.meta.buildDate;
+    $("#pollDate").textContent=DATA.meta.pollAsOf;
+    $("#financeDate").textContent=DATA.meta.financeAsOf;
+    $("#pollAge").textContent=`${DATA.meta.pollStalenessDays} days old`;
+    if(DATA.meta.pollStalenessDays>21) $("#pollAge").classList.add("stale");
+    bind(); renderAll();
+  } catch(error) {
+    document.body.innerHTML=`<main class="error"><h1>Dashboard data error</h1><p>${error.message}</p><p>Rebuild the forecast payload before publishing.</p></main>`;
+    console.error(error);
+  }
+})();

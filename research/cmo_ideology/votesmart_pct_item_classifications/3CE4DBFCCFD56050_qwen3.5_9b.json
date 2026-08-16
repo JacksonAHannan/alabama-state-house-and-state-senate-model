@@ -1,0 +1,11 @@
+{
+  "policy_key": "corporate_contributions",
+  "dimension": "abortion_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Support for limiting corporate contributions to state legislative and gubernatorial candidates is conventionally progressive.",
+  "evidence_quote": "Do you support limiting the following types of contributions to state legislative and gubernatorial candidates? Option: 3) Corporate",
+  "needs_human_review": false,
+  "review_reason": ""
+}

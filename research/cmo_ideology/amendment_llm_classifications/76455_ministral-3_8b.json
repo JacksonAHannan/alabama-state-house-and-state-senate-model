@@ -1,0 +1,19 @@
+{
+  "primary_issue": "taxes_budget",
+  "secondary_issues": [
+    "criminal_justice",
+    "ethics_government"
+  ],
+  "plain_english_revision": "**What the amendment changes:** The original bill allocated a portion of Mobile County\u2019s \u2018simplified sellers use tax\u2019 revenue to the Circuit Court of the Thirteenth Judicial Circuit. This amendment **redirects specific portions** of that revenue *away from local governments* (City of Mobile, other municipalities, and the county) and instead **mandates that 50% of their share go directly to the Circuit Court**\u2014with the remaining half retained by each entity. The funds are earmarked in equal annual installments over five years (2020\u20132024), after which the provision sunsets.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "**Policy effect:** *Increases judicial funding for the Thirteenth Judicial Circuit by diverting a fixed percentage of local tax revenue from municipal/county budgets to the court system.*",
+  "confidence": "high",
+  "evidence_quotes": [
+    "Five hundred thousand dollars ($500,000) ... redistributed to the Circuit Court of the Thirteenth Judicial Circuit",
+    "The amount redistributed under this paragraph shall be divided ... proportionate to the population of the municipalities and redistributed in equal amounts beginning for the fiscal year ending September 30, 2020, through the fiscal year ending September 30, 2024.",
+    "(b) This section shall be repealed on October 1, 2024."
+  ],
+  "needs_human_review": false,
+  "review_reason": "No hidden assumptions about intent; amendment text is explicit and self-contained."
+}

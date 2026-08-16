@@ -1,0 +1,18 @@
+{
+  "primary_issue": "infrastructure_energy",
+  "secondary_issues": [
+    "public_employee_benefits",
+    "healthcare_conscience"
+  ],
+  "plain_english_revision": "The amendment adds the Alabama Department of Mental Health to the existing Revenue Department in four places within HB80. It also clarifies that employees of the Department of Mental Health who were in good standing on the effective date of this act will be included in the subsistence pay provisions.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Inclusion of Department of Mental Health employees in existing subsistence pay benefits for state agencies, contingent on their pre-existing employment status.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "and the Department of Mental Health",
+    "to employees in good standing on the effective date of this act."
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment text is clear and unambiguous. The direction and valence are not inferred from ideology but directly observed from the textual changes."
+}

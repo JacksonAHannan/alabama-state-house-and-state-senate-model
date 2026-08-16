@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_corporate_contributions",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "limiting corporate contributions to state legislative/gubernatorial candidates (progressive stance)",
+  "evidence_quote": "limiting the following types of contributions to state legislative and gubernatorial candidates: Corporate",
+  "needs_human_review": false,
+  "review_reason": ""
+}

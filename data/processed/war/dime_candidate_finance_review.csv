@@ -1,0 +1,110 @@
+canonical_candidate_id,year,chamber,district,party,candidate,dime_recipient_cycle_id,dime_name,match_method,match_score,match_margin,review_status,total_receipts
+AL-1998-house-2-R-TATUM,1998,house,2,R,Tatum,,,no_candidate,0.0,0.0,review,
+AL-1998-house-3-R-SMALLWOOD,1998,house,3,R,Smallwood,,,no_candidate,0.0,0.0,review,
+AL-1998-house-12-R-HASTIMGS,1998,house,12,R,Hastimgs,DIME-DBD3AA758E88616E9EDC,"hastings, carl w",candidate_review,60.86956521739131,20.86956521739131,review,6300.0
+AL-1998-house-13-R-BRANCH,1998,house,13,R,Branch,DIME-8D14FEA93CC34756319E,"poe, curtis",candidate_review,12.5,12.5,review,28516.0
+AL-1998-house-20-D-WILBURN,1998,house,20,D,Wilburn,,,no_candidate,0.0,0.0,review,
+AL-1998-house-23-R-SHELTON,1998,house,23,R,Shelton,,,no_candidate,0.0,0.0,review,
+AL-1998-house-29-R-MALONE,1998,house,29,R,Malone,,,no_candidate,0.0,0.0,review,
+AL-1998-house-32-R-BRADFORD,1998,house,32,R,Bradford,,,no_candidate,0.0,0.0,review,
+AL-1998-house-60-R-RUSSELL,1998,house,60,R,Russell,,,no_candidate,0.0,0.0,review,
+AL-1998-house-65-R-OVERTON,1998,house,65,R,Overton,,,no_candidate,0.0,0.0,review,
+AL-1998-house-66-R-AUST,1998,house,66,R,Aust,,,no_candidate,0.0,0.0,review,
+AL-1998-house-67-R-DOBYNES,1998,house,67,R,Dobynes,,,no_candidate,0.0,0.0,review,
+AL-1998-house-72-R-SUTTON,1998,house,72,R,Sutton,DIME-4503F4341B2EE3B13D65,"williams, walter c",candidate_review,8.695652173913048,8.695652173913048,review,2100.0
+AL-1998-house-87-D-MATHIS,1998,house,87,D,Mathis,DIME-5BF0DC818DFB334E6774,"melton, wynnton",candidate_review,19.999999999999996,19.999999999999996,review,13722.0
+AL-1998-senate-3-R-BUCHANAN,1998,senate,3,R,Buchanan,,,no_candidate,0.0,0.0,review,
+AL-1998-senate-8-R-CULPEPPER,1998,senate,8,R,Culpepper,,,no_candidate,0.0,0.0,review,
+AL-1998-senate-12-D-THOMAS,1998,senate,12,D,Thomas,DIME-5F4D879C2E1EDF652016,"ghee, doug",candidate_review,13.33333333333333,13.33333333333333,review,53963.0
+AL-1998-senate-18-D-MORROW,1998,senate,18,D,Morrow,DIME-A7635605EA0CAD11DE09,"smitherman, rodger m",candidate_review,31.999999999999996,5.333333333333325,review,165550.0
+AL-1998-senate-18-R-BRITNELL,1998,senate,18,R,Britnell,,,no_candidate,0.0,0.0,review,
+AL-1998-senate-24-R-WILLIAMS,1998,senate,24,R,Williams,,,no_candidate,0.0,0.0,review,
+AL-1998-senate-30-R-HOLLAND,1998,senate,30,R,Holland,DIME-2DABA95AEA07B84478C9,"owens, pat",candidate_review,25.0,25.0,review,39810.0
+AL-1998-senate-35-D-STATEN,1998,senate,35,D,Staten,DIME-646686C5C9CA9BD21153,"debrow, t j joe",candidate_review,9.999999999999998,9.999999999999998,review,48193.0
+AL-2002-house-1-D-STARKEY-NELSON,2002,house,1,D,"Starkey, Nelson",DIME-7E9AD8BC633B5AC26193,"starkey jr, nelson r",candidate_review,93.33333333333333,54.87179487179487,review,85638.0
+AL-2002-house-3-R-BARNES-STEVEN-C,2002,house,3,R,"Barnes, Steven C.",DIME-F688EFC3EBA93F00D3BB,"barnes, steven christopher",candidate_review,75.0,51.92307692307693,review,9570.0
+AL-2002-house-7-R-RIDDLE-YOLANDA-YOYO,2002,house,7,R,"Riddle, Yolanda (Yoyo)",DIME-B746DC6E214A51FED168,"riddle, yolanda",candidate_review,84.84848484848484,84.84848484848484,review,9200.0
+AL-2002-house-15-R-HUMPHYRES-BOBBY,2002,house,15,R,"Humphyres, Bobby",DIME-5F9E5B02ACCAC3793AF1,"humphryes, bobby",candidate_review,93.33333333333333,93.33333333333333,review,48125.0
+AL-2002-house-16-R-ACKER-JOE-D,2002,house,16,R,"Acker, Joe D.",DIME-BA909592B0D2C240F180,"acker, joe",candidate_review,90.0,90.0,review,46606.0
+AL-2002-house-25-R-GARNER-RAY,2002,house,25,R,"Garner, Ray",DIME-3B01F7C1712FED8AAA51,"garner, chester ray",candidate_review,71.42857142857143,42.85714285714286,review,46359.0
+AL-2002-house-28-R-ABEL-DAVID-C,2002,house,28,R,"Abel, David C.",DIME-C859C252FD34378B82DB,"abel, david",candidate_review,90.9090909090909,90.9090909090909,review,56843.0
+AL-2002-house-29-D-PAGE-JACK,2002,house,29,D,"Page, Jack",DIME-00C177C60A7AF82B515C,"page iii, john g jack",candidate_review,72.0,36.70588235294118,review,131406.0
+AL-2002-house-30-R-GALLIHER-BLAINE,2002,house,30,R,"Galliher, Blaine",,,no_candidate,0.0,0.0,review,
+AL-2002-house-32-R-LITTLE-BENJAMIN-L,2002,house,32,R,"Little, Benjamin L.",DIME-258518C36780D44BA0B5,"little, ben",candidate_review,74.07407407407408,74.07407407407408,review,30883.0
+AL-2002-house-33-D-CURTIS-CLARA,2002,house,33,D,"Curtis, Clara",DIME-B3FABD963F2B01974A81,"curtis, clara l",candidate_review,92.3076923076923,92.3076923076923,review,15815.0
+AL-2002-house-33-R-JOHNSON-RON,2002,house,33,R,"Johnson, Ron",DIME-A5CE57FFA8457A5DEA1D,"johnson, ronald g",candidate_review,81.4814814814815,81.4814814814815,review,88452.0
+AL-2002-house-37-R-CREED-WAYNE-J,2002,house,37,R,"Creed, Wayne J.",,,no_candidate,0.0,0.0,review,
+AL-2002-house-40-D-FITE-LEA,2002,house,40,D,"Fite, Lea",DIME-306A1F88B5431E7D1D1C,"fite jr, leaman m",candidate_review,76.19047619047619,76.19047619047619,review,57748.0
+AL-2002-house-41-D-MCKINZIE-MACK,2002,house,41,D,"McKinzie, Mack",,,no_candidate,0.0,0.0,review,
+AL-2002-house-42-D-MARTIN-JAMES-M-JIMMY,2002,house,42,D,"Martin, James M. ""Jimmy""",,,no_candidate,0.0,0.0,review,
+AL-2002-house-45-R-MORTON-ALBERT,2002,house,45,R,"Morton, Albert",DIME-913BAD7773FE496A03A9,"morton, albert g",candidate_review,92.85714285714286,58.07453416149069,review,84890.0
+AL-2002-house-49-R-WARD-CAM,2002,house,49,R,"Ward, Cam",DIME-D1F835351BB8267B139C,"ward, robert cameron",candidate_review,59.25925925925925,29.629629629629626,review,99792.0
+AL-2002-house-50-R-MCCLENDON-JIM,2002,house,50,R,"McClendon, Jim",DIME-708210AC7FE2278732AC,"mcclendon, dr jim",candidate_review,89.65517241379311,62.98850574712644,review,167510.0
+AL-2002-house-59-R-WASHINGTON-WILLIAM,2002,house,59,R,"Washington, William",,,no_candidate,0.0,0.0,review,
+AL-2002-house-63-R-BENTLEY-ROBERT,2002,house,63,R,"Bentley, Robert",DIME-333798C50342B87F1FBF,"bentley, robert j",candidate_review,93.33333333333333,93.33333333333333,review,93101.0
+AL-2002-house-67-D-SALAAM-Y,2002,house,67,D,"Salaam, Y.",DIME-0C9E7FD7DFCDBEFD5D06,"salaam, yusuf a",candidate_review,72.72727272727273,41.95804195804196,review,46822.0
+AL-2002-house-68-D-JACKSON-THOMAS-E,2002,house,68,D,"Jackson, Thomas E.",DIME-4BEC1948E610C04C9D9D,"jackson, thomas e action",candidate_review,82.05128205128204,82.05128205128204,review,41750.0
+AL-2002-house-81-R-PATTERSON-BENJIE,2002,house,81,R,"Patterson, Benjie",,,no_candidate,0.0,0.0,review,
+AL-2002-house-84-D-BEASLEY-BILLY,2002,house,84,D,"Beasley, Billy",DIME-C2F990F5C1AB43A2565F,"beasley, william m billy",candidate_review,72.22222222222221,72.22222222222221,review,67096.0
+AL-2002-house-85-D-BAKER-LOCY-SUNNY,2002,house,85,D,"Baker, Locy ""Sunny""",DIME-E04DBBB9E239DD1D4FD4,"baker, locy sonny",candidate_review,93.75,54.861111111111114,review,110050.0
+AL-2002-house-89-D-BOOTHE-ALAN,2002,house,89,D,"Boothe, Alan",DIME-031FDB3265F9B38A63BD,"boothe, alan c",candidate_review,91.66666666666666,91.66666666666666,review,82019.0
+AL-2002-house-98-D-CLARK-BILL,2002,house,98,D,"Clark, Bill",DIME-CA20935339DBD5FF2013,"clark, william bill",candidate_review,71.42857142857143,45.622119815668206,review,100506.0
+AL-2002-house-101-R-ISON-JAMIE,2002,house,101,R,"Ison, Jamie",DIME-F7423E8401C34267DFF5,"ison, james",candidate_review,90.0,58.421052631578945,review,127073.0
+AL-2002-house-102-D-JOHNSON-GARY,2002,house,102,D,"Johnson, Gary",,,no_candidate,0.0,0.0,review,
+AL-2002-senate-2-R-ANDREWS-STEVE,2002,senate,2,R,"Andrews, Steve",,,no_candidate,0.0,0.0,review,
+AL-2002-senate-8-D-BARRON-LOWELL,2002,senate,8,D,"Barron, Lowell",DIME-F9D3757FD7E3E69DD6E4,"barron, lowell r",candidate_review,92.85714285714286,92.85714285714286,review,600935.0
+AL-2002-senate-9-R-EDMONDS-DORIS,2002,senate,9,R,"Edmonds, Doris",DIME-8913B2FBE4C6B154A474,"edmonds, doris cooley",candidate_review,78.78787878787878,78.78787878787878,review,18550.0
+AL-2002-senate-10-R-WILLIAMS-DAVID-L,2002,senate,10,R,"Williams, David L.",,,no_candidate,0.0,0.0,review,
+AL-2002-senate-11-D-PREIUTT-JIM,2002,senate,11,D,"Preiutt, Jim",DIME-AEE4C873F5D926715482,"preuitt, jim",candidate_review,90.9090909090909,90.9090909090909,review,393452.0
+AL-2002-senate-11-R-BRADFORD-RALPH-SR,2002,senate,11,R,"Bradford, Ralph, Sr.",,,no_candidate,0.0,0.0,review,
+AL-2002-senate-12-D-GRAY-PRESTON-R-JR,2002,senate,12,D,"Gray, Preston R., Jr.",DIME-046C5DBAB10AE89F0B0D,"gray jr, preston",candidate_review,92.3076923076923,92.3076923076923,review,140090.0
+AL-2002-senate-15-D-TURNER-JOHN,2002,senate,15,D,"Turner, John",,,no_candidate,0.0,0.0,review,
+AL-2002-senate-17-D-MOORE-CAROLINE-B,2002,senate,17,D,"Moore, Caroline B.",,,no_candidate,0.0,0.0,review,
+AL-2002-senate-20-D-ESCOTT-SUNDRA,2002,senate,20,D,"Escott, Sundra",DIME-5382D3920F834341F8F1,"escott, sundra e",candidate_review,92.85714285714286,69.7802197802198,review,130173.0
+AL-2002-senate-23-R-MOTES-RICHARD,2002,senate,23,R,"Motes, Richard",,,no_candidate,0.0,0.0,review,
+AL-2002-senate-25-D-COX-HOBSON,2002,senate,25,D,"Cox, Hobson",DIME-DED1D5AE0E498225A2C7,"webb, jeffrey todd",candidate_review,22.22222222222222,22.22222222222222,review,14800.0
+AL-2002-senate-32-R-BYRNE-BRADLEY,2002,senate,32,R,"Byrne, Bradley",DIME-435C001EF70652DA5597,"byrne, bradley r",candidate_review,92.85714285714286,54.3956043956044,review,258847.0
+AL-2002-senate-33-D-FIGURES-VIVIAN-DAVIS,2002,senate,33,D,"Figures, Vivian Davis",DIME-E2CA44E9C0A6FDFFE99B,"figures, vivian",candidate_review,82.35294117647058,82.35294117647058,review,81700.0
+AL-2002-senate-34-R-MYERS-HAP,2002,senate,34,R,"Myers, Hap",DIME-E5AC7D981FCA3FBE07E4,"myers, harry e hap",candidate_review,69.23076923076923,69.23076923076923,review,147500.0
+AL-2002-senate-35-R-CALLAHAN-GEORGE-M,2002,senate,35,R,"Callahan, George M.",DIME-A069E696908FA49617C2,"callahan, george",candidate_review,93.75,93.75,review,371670.0
+AL-2006-house-6-R-JOHN-TONY-STILES,2006,house,6,R,"JOHN ""TONY"" STILES",,,no_candidate,0.0,0.0,review,
+AL-2006-house-7-R-MICHAEL-ROBINSON,2006,house,7,R,MICHAEL ROBINSON,,,no_candidate,0.0,0.0,review,
+AL-2006-house-13-R-JAMES-BROOKS,2006,house,13,R,JAMES BROOKS,,,no_candidate,0.0,0.0,review,
+AL-2006-house-27-D-JEFF-MCLAUGHLIN,2006,house,27,D,JEFF MCLAUGHLIN,,,no_candidate,0.0,0.0,review,
+AL-2006-house-35-R-LONNIE-C-ROBINSON,2006,house,35,R,LONNIE C. ROBINSON,,,no_candidate,0.0,0.0,review,
+AL-2006-house-88-D-M-BENJAMIN-ABERNATHY-I,2006,house,88,D,"M. BENJAMIN ABERNATHY, I",,,no_candidate,0.0,0.0,review,
+AL-2006-house-90-D-CHARLES-NEWTON,2006,house,90,D,CHARLES NEWTON,,,no_candidate,0.0,0.0,review,
+AL-2006-house-94-D-GENE-PONDER,2006,house,94,D,GENE PONDER,,,no_candidate,0.0,0.0,review,
+AL-2006-house-98-D-JAMES-O-GORDON,2006,house,98,D,JAMES O. GORDON,DIME-9B7DF8DED041A00C015B,"flott, darren",candidate_review,38.46153846153846,9.89010989010989,review,70717.0
+AL-2006-senate-9-D-HINTON-HITCHEM,2006,senate,9,D,HINTON HITCHEM,DIME-8649F2355FEFF0361051,"mitchem, hinton",candidate_review,92.85714285714286,92.85714285714286,review,497044.0
+AL-2006-senate-11-R-JIM-HETHCOX,2006,senate,11,R,JIM HETHCOX,,,no_candidate,0.0,0.0,review,
+AL-2006-senate-18-R-STANLEY-NANCE,2006,senate,18,R,STANLEY NANCE,,,no_candidate,0.0,0.0,review,
+AL-2006-senate-21-R-JOE-NATHAN-SAXTON-SR,2006,senate,21,R,"JOE NATHAN SAXTON, SR.",,,no_candidate,0.0,0.0,review,
+AL-2010-house-27-D-JEFF-MCLAUGHLIN,2010,house,27,D,JEFF McLAUGHLIN,,,no_candidate,0.0,0.0,review,
+AL-2010-house-32-R-RON-STRUZIK,2010,house,32,R,RON STRUZIK,,,no_candidate,0.0,0.0,review,
+AL-2010-house-75-D-GLENN-L-ALLEN,2010,house,75,D,GLENN L. ALLEN,,,no_candidate,0.0,0.0,review,
+AL-2010-house-93-D-RONNIE-HELMS,2010,house,93,D,RONNIE HELMS,,,no_candidate,0.0,0.0,review,
+AL-2010-house-98-R-SHARON-L-POWE,2010,house,98,R,SHARON L. POWE,,,no_candidate,0.0,0.0,review,
+AL-2010-senate-25-D-DOUG-SMITTY-SMITH,2010,senate,25,D,DOUG 'Smitty' SMITH,,,no_candidate,0.0,0.0,review,
+AL-2010-senate-33-R-BRAD-MOSER,2010,senate,33,R,BRAD MOSER,DIME-ADFBA7C28B4FF62CFBDB,"bracy, walter g",candidate_review,50.0,15.217391304347828,review,15005.0
+AL-2014-house-9-R-ED-HENRY,2014,house,9,R,Ed Henry,DIME-C428556168761961FFFB,"henry, ed",candidate_review,80.0,40.0,review,
+AL-2014-house-10-D-MEANS,2014,house,10,D,Means,,,no_candidate,0.0,0.0,review,
+AL-2014-house-31-D-HOLMES,2014,house,31,D,Holmes,,,no_candidate,0.0,0.0,review,
+AL-2014-house-38-R-ISAAC-WHORTON,2014,house,38,R,Isaac Whorton,DIME-21B9E07F5B21838D4756,"whorton, issac",candidate_review,92.3076923076923,42.30769230769231,review,
+AL-2014-house-40-D-COPELAND,2014,house,40,D,Copeland,DIME-80800198D4452F562F56,"copland, theodore",candidate_review,58.33333333333333,58.33333333333333,review,
+AL-2014-house-44-R-DANNY-GARRETT,2014,house,44,R,Danny Garrett,DIME-DFD3629F3D6EFEE3E73D,"freeman, joe",candidate_review,33.333333333333336,7.2463768115941996,review,
+AL-2014-house-47-D-SALVATORE-BAMBINELLI,2014,house,47,D,Salvatore Bambinelli,,,no_candidate,0.0,0.0,review,
+AL-2014-house-66-D-BAKER,2014,house,66,D,Baker,,,no_candidate,0.0,0.0,review,
+AL-2014-house-87-R-DONNIE-CHESTEEN,2014,house,87,R,Donnie Chesteen,,,no_candidate,0.0,0.0,review,
+AL-2014-senate-20-D-LINDA-COLEMAN,2014,senate,20,D,Linda Coleman,DIME-7D0294B45AE0C8468AD2,"coleman madison, linda",candidate_review,76.47058823529412,76.47058823529412,review,
+AL-2014-senate-21-D-PHIL-POOLE,2014,senate,21,D,Phil Poole,,,no_candidate,0.0,0.0,review,
+AL-2014-senate-27-D-HAYLEE-MOSS,2014,senate,27,D,Haylee Moss,,,no_candidate,0.0,0.0,review,
+AL-2014-senate-31-D-LARRY-GREENWOOD,2014,senate,31,D,Larry Greenwood,,,no_candidate,0.0,0.0,review,
+AL-2018-house-32-R-JAMES-ALLEN-LLOYD,2018,house,32,R,James Allen Lloyd                     ,,,no_candidate,0.0,0.0,review,
+AL-2018-house-33-D-SCOTT-BREWER,2018,house,33,D,Scott Brewer                          ,,,no_candidate,0.0,0.0,review,
+AL-2018-house-44-R-DANNY-GARRETT,2018,house,44,R,Danny Garrett                         ,,,no_candidate,0.0,0.0,review,
+AL-2022-house-44-R-DANNY-GARRETT,2022,house,44,R,Danny Garrett                         ,,,no_candidate,0.0,0.0,review,
+AL-2022-house-57-R-DELOR-BAUMANN,2022,house,57,R,Delor Baumann                         ,,,no_candidate,0.0,0.0,review,
+AL-2022-house-77-D-TASHINA-MORRIS,2022,house,77,D,Tashina Morris                        ,,,no_candidate,0.0,0.0,review,
+AL-2022-senate-23-R-MICHAEL-NIMMER,2022,senate,23,R,Michael Nimmer                        ,,,no_candidate,0.0,0.0,review,
+AL-2022-senate-29-D-NATHAN-NATE-MATHIS,2022,senate,29,D,"Nathan ""Nate"" Mathis                  ",,,no_candidate,0.0,0.0,review,

@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_confederate_monuments",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting the removal of Confederate monuments is conventionally associated with progressive social views regarding racial justice and historical reinterpretation.",
+  "evidence_quote": "Do you support the removal of confederate monuments from public spaces in Alabama?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

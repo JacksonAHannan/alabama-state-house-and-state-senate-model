@@ -1,0 +1,19 @@
+{
+  "primary_issue": "rural_hunting",
+  "secondary_issues": [
+    "ethics_government",
+    "taxes_budget"
+  ],
+  "plain_english_revision": "The amendment changes how Alabama can use state funds to support broadband projects in rural areas. It allows the state to combine federal and state money for projects, but only if the state funds are used for specific purposes: either extending service to unserved areas or upgrading speeds to at least 25 Mbps download/3 Mbps upload. The amendment also caps how much of the total grant funding can go toward these projects (40%) and limits state contributions to no more than 20% of a project's total cost.",
+  "revision_direction": "restricts_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "The amendment advances the policy effect of **limiting state grant funding for broadband projects to specific, high-speed expansion goals in rural areas**\u2014particularly where federal funds already exist but either underserve or fail to meet minimum speed thresholds. It also imposes a 40% cap on total grant funding allocated under this provision and restricts state contributions to \u226420% of project costs.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "projects that have received funds through other federal universal service funding programs... provided, however, that any award of state funds may only be utilized to either (i) fund project components that extend beyond the specifications supported by the federally supported project",
+    "ensure that areas being served by the federal funding at speeds less than 25 megabits per second... will, in fact, receive faster speeds of not less than 25 megabits per second",
+    "Grants issued under this subsection shall not exceed 40% of total grant funding, with such grants not exceeding 20% of total project costs."
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment text is clear and self-contained; no external context or additional language is required to interpret its changes."
+}

@@ -1,0 +1,17 @@
+{
+  "primary_issue": "criminal_justice",
+  "secondary_issues": [
+    "public_education",
+    "criminal_justice"
+  ],
+  "plain_english_revision": "**Amendment Effect**: This amendment adds a safeguard to HB312 by explicitly stating that the law *cannot* be interpreted as banning the teaching of any topic or historical event when presented in a **historically accurate** context. It does not alter the core prohibition on 'divisive concepts' but clarifies that factual instruction\u2014even if controversial\u2014remains permissible.",
+  "revision_direction": "restricts_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "**Policy Effect**: Advances the *preservation of historical accuracy* in public education by preventing overbroad interpretations of HB312 that might suppress factual instruction.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "*'Nothing in this act shall be construed to prohibit the teaching of topics or historical events in a historically accurate context.'*"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment is self-contained and does not rely on unseen language. Its valence depends solely on how HB312\u2019s core provisions are interpreted, but the text explicitly narrows a potential loophole."
+}

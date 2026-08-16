@@ -1,0 +1,11 @@
+{
+  "policy_key": "increase_funding_pell_grants",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increasing federal student aid like Pell grants and Stafford loans is a progressive policy aimed at expanding access to higher education for low-income students.",
+  "evidence_quote": "Increase funding of programs such as Pell grants and Stafford loans to help students pay for college.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

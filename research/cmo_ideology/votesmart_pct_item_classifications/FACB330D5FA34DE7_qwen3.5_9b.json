@@ -1,0 +1,11 @@
+{
+  "policy_key": "term_limits",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The question asks about term limits for state legislators. While often associated with conservative fiscal conservatism or anti-incumbency sentiment, the prompt itself is a neutral inquiry into support without providing context on spending levels or specific ideological framing that would allow a definitive directional classification based solely on this text.",
+  "evidence_quote": "Do you support amending the Alabama Constitution to limit the number of terms of State Senators and Representatives?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

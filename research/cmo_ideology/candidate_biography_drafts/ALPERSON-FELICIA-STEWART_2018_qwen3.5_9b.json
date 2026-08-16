@@ -1,0 +1,21 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "Felicia Stewart was the 2018 Democratic candidate for Alabama House District 46 and a resident of Mountain Brook. She earned a bachelor's degree in English from Spring Hill College and an MBA from Southern Methodist University. Her professional experience included medical-device sales, sales management, consulting for an LGBTQ-focused component fund at the Community Foundation of Greater Birmingham, nonprofit work, hospital involvement, education initiatives, and food-assistance efforts. Contemporary reporting identified her as openly gay and married to Christy.",
+  "offices_and_public_service": [],
+  "profession_and_employment": [],
+  "education": [],
+  "community_and_local_ties": [],
+  "political_profile": [],
+  "important_caveats": [],
+  "source_urls_used": [
+    "https://birminghamwatch.org/2018/10/31/felicia-stewart/",
+    "https://aldailynews.com/faulkner-and-stewart-vie-for-house-district-46/",
+    "https://www.sos.alabama.gov/sites/default/files/election-2018/Democratic_Party_2018_General_Election_Certification_of_Candidates.pdf"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://aldailynews.com/faulkner-and-stewart-vie-for-house-district-46/",
+    "https://birminghamwatch.org/2018/10/31/felicia-stewart/",
+    "https://www.sos.alabama.gov/sites/default/files/election-2018/Democratic_Party_2018_General_Election_Certification_of_Candidates.pdf"
+  ]
+}

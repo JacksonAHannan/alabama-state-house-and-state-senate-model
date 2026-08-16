@@ -1,0 +1,11 @@
+{
+  "policy_key": "vote_counting_standards",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The item asks about adopting statewide standards for vote counting and accuracy.",
+  "evidence_quote": "Do you support adopting statewide standards for counting, verifying and ensuring accuracy of votes?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

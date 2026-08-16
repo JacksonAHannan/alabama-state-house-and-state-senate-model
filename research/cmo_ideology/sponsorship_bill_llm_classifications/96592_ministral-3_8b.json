@@ -1,0 +1,17 @@
+{
+  "plain_english_policy": "The provided text outlines provisions of a state retirement system, likely for public employees in South Carolina (based on the section numbering). Here\u2019s a simplified breakdown of key points:",
+  "policy_direction_if_enacted": "If enacted, this policy would establish and manage a retirement system with several funds to ensure financial stability and benefits for eligible members. The main components include:",
+  "ideological_valence": "progressive",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "The policy is likely supported by state government officials and public employee unions, as it aims to provide financial security for public employees through structured retirement contributions.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "The **Pension Accumulation Fund** would accumulate reserves from employer contributions to pay pensions, survivor allowances, and other benefits. Contributions are split into a 'normal contribution' (based on actuarial calculations) and an 'accrued liability contribution' (to cover existing liabilities).",
+    "The **Annuity Savings Fund** holds member contributions and earns interest to fund pensions.",
+    "The **Expense Fund** covers administrative costs of the retirement system, including salaries for administrative staff.",
+    "Employers must contribute a percentage of employees\u2019 compensation each month. The Board of Control sets these rates based on actuarial valuations and liabilities.",
+    "Interest earned on funds is credited to the Pension Accumulation Fund, ensuring long-term sustainability."
+  ],
+  "needs_human_review": false,
+  "review_reason": "The text appears to be a legal document with clear financial and actuarial provisions. No further human review is needed for interpretation of its content or implications."
+}

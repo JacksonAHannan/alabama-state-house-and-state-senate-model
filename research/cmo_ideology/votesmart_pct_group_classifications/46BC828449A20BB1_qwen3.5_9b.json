@@ -1,0 +1,11 @@
+{
+  "policy_key": "utility_deregulation",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option advocates for deregulating the electricity market to introduce competition among power providers. In conventional political analysis, supporting utility deregulation and consumer choice is typically associated with progressive or liberal economic policies that favor free markets over regulated monopolies.",
+  "evidence_quote": "Restructure the electric utility industry to allow consumers to choose their power company.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

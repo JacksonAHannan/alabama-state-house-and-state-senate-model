@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_truth_in_sentencing",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option advocates for removing parole opportunities and ensuring violent offenders serve their entire sentences without early release.",
+  "evidence_quote": "\"Impose 'truth in sentencing' for violent criminals so they serve full sentences with no chance of parole.\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

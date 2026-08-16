@@ -1,0 +1,11 @@
+{
+  "policy_key": "gender_identity_in_anti_discrimination",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Whether to legally protect LGBTQ+ individuals from discrimination based on gender identity in Alabama's anti-discrimination framework.",
+  "evidence_quote": "(No explicit quote provided, but the question itself\u2014supporting inclusion of gender identity in anti-discrimination laws\u2014is conventionally a progressive stance in U.S. politics.)",
+  "needs_human_review": true,
+  "review_reason": "This is a direct policy position with clear ideological alignment (progressive), but no candidate-specific text was provided to verify nuance."
+}

@@ -1,0 +1,18 @@
+{
+  "primary_issue": "taxes_budget",
+  "secondary_issues": [
+    "public_education",
+    "infrastructure_energy"
+  ],
+  "plain_english_revision": "The amendment adds an exception to the monument relocation/removal restrictions in SB60, allowing temporary moves for emergency repairs or construction\u2014with a 120-day return deadline unless waived.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "establishes procedural flexibility for monument preservation during urgent site work",
+  "confidence": "high",
+  "evidence_quotes": [
+    "a controlling entity may temporarily relocate or otherwise protect the monument without seeking a waiver... provided the monument shall be returned to its prior location and condition as soon as safely and reasonably possible, and no later than 120 days after the completion of repair or construction",
+    "If the repair or construction is expected to take more than 120 days, the controlling entity must seek a waiver under the process set forth in this section"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment\u2019s intent and scope are fully specified within its text; no external context or hidden clauses are required."
+}

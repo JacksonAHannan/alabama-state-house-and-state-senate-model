@@ -1,0 +1,11 @@
+{
+  "policy_key": "unregulated_soft_money",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Allowing unregulated soft money contributions to political parties or committees is generally viewed as a progressive stance in the context of campaign finance reform, which often seeks to increase transparency and limit corporate influence. However, this specific option can be seen as mixed depending on whether one prioritizes party autonomy (conservative) against corruption risks (progressive).",
+  "evidence_quote": "Allow unregulated soft money campaign contributions to political parties or committees.",
+  "needs_human_review": true,
+  "review_reason": "The option 'unregulated soft money' is context-dependent; while often associated with progressive deregulation of party funding, it contradicts the mainstream conservative goal of limiting special interest influence. The directionality is not stable across all political frameworks."
+}

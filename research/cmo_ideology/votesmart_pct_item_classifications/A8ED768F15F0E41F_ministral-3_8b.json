@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_spending",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase funding for education (higher education)",
+  "evidence_quote": "Education (Higher)",
+  "needs_human_review": false,
+  "review_reason": ""
+}

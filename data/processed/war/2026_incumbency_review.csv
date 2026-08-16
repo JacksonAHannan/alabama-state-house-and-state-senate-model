@@ -1,0 +1,47 @@
+cycle,chamber,district,party,candidate,incumbent,prior_winner_match,prior_winner_match_score,incumbent_wikipedia,incumbency_source
+2026,house,10,D,Marilyn Lands,True,,0.4827586206896552,True,wikipedia_annotation
+2026,house,11,R,Heath Allbright,True,,0.45161290322580644,True,wikipedia_annotation
+2026,house,12,R,Cindy Myrex,True,,0.47619047619047616,True,wikipedia_annotation
+2026,house,14,R,Tim R.Wadsworth,True,,0.7777777777777778,True,wikipedia_annotation
+2026,house,16,R,Bryan Brinyark,True,,0.5,True,wikipedia_annotation
+2026,house,27,R,Jeana Ross,True,,0.5714285714285714,True,wikipedia_annotation
+2026,house,38,R,Kristin Nelson,True,,0.56,True,wikipedia_annotation
+2026,house,46,R,David L. Faulkner,True,David Faulkner                        ,0.9333333333333333,True,2022_winner_match+wikipedia_annotation
+2026,house,47,R,MikeShaw,True,Mike Shaw                             ,0.9411764705882353,True,2022_winner_match+wikipedia_annotation
+2026,house,55,D,Travis Hendrix,True,,0.5333333333333333,True,wikipedia_annotation
+2026,house,63,R,Norman Crow,True,,0.47619047619047616,True,wikipedia_annotation
+2026,house,80,R,Chris Blackshear,True,Chris E. Blackshear                   ,0.9411764705882353,True,2022_winner_match+wikipedia_annotation
+2026,house,82,D,Pebblin W. Warren,True,Pebblin Walker Warren                 ,0.8648648648648649,False,2022_winner_match
+2026,house,83,D,Jeremy A. Gray,True,Jeremy Gray                           ,0.9166666666666666,True,2022_winner_match+wikipedia_annotation
+2026,house,86,R,Paul Lee,True,Paul W. Lee                           ,0.8888888888888888,True,2022_winner_match+wikipedia_annotation
+2026,house,95,R,Frances Holk-Jones,True,Frances Holk-Jones                    ,1.0,False,2022_winner_match
+2026,house,97,D,Adline C. Clarke,True,Adline Clarke                         ,0.9285714285714286,True,2022_winner_match+wikipedia_annotation
+2026,senate,1,R,Tim Melson,True,Tim Melson                            ,1.0,False,2022_winner_match
+2026,senate,3,R,Arthur Orr,True,Arthur Orr                            ,1.0,False,2022_winner_match
+2026,senate,4,R,Garlan Gudger,True,Garlan Gudger                         ,1.0,False,2022_winner_match
+2026,senate,5,R,Matt Woods,True,,0.4,True,wikipedia_annotation
+2026,senate,6,R,Larry Stutts,True,Larry Stutts                          ,1.0,False,2022_winner_match
+2026,senate,7,R,Sam Givhan,True,Sam Givhan                            ,1.0,False,2022_winner_match
+2026,senate,8,R,Steve Livingston,True,Steve Livingston                      ,1.0,False,2022_winner_match
+2026,senate,10,R,Andrew Jones,True,Andrew Jones                          ,1.0,False,2022_winner_match
+2026,senate,11,R,Lance Bell,True,Lance Bell                            ,1.0,False,2022_winner_match
+2026,senate,12,R,Keith Kelley,True,Keith Kelley                          ,1.0,False,2022_winner_match
+2026,senate,13,R,Randy Price,True,Randy Price                           ,1.0,False,2022_winner_match
+2026,senate,14,R,April Weaver,True,April Weaver                          ,1.0,False,2022_winner_match
+2026,senate,16,R,"J.T.""Jabo""Waggoner",True,"J.T. ""Jabo"" Waggoner                  ",1.0,False,2022_winner_match
+2026,senate,17,R,Shay Shelnutt,True,Shay Shelnutt                         ,1.0,False,2022_winner_match
+2026,senate,18,D,Rodger M. Smitherman ,True,Rodger M. Smitherman                  ,1.0,False,2022_winner_match
+2026,senate,19,D,Merika Coleman,True,Merika Coleman                        ,1.0,False,2022_winner_match
+2026,senate,20,D,Linda Coleman-Madison,True,Linda Coleman-Madison                 ,1.0,False,2022_winner_match
+2026,senate,21,R,Gerald Allen,True,Gerald Allen                          ,1.0,False,2022_winner_match
+2026,senate,23,D,Robert Stewart,True,Robert L. Stewart                     ,0.9333333333333333,False,2022_winner_match
+2026,senate,24,D,Bobby Singleton,True,Bobby Singleton                       ,1.0,False,2022_winner_match
+2026,senate,26,D,Kirk Hatcher,True,Kirk Hatcher                          ,1.0,False,2022_winner_match
+2026,senate,27,R,Jay Hovey,True,Jay Hovey                             ,1.0,False,2022_winner_match
+2026,senate,28,D,Billy Beasley,True,Billy Beasley                         ,1.0,False,2022_winner_match
+2026,senate,29,R,Donnie Chesteen,True,Donnie Chesteen                       ,1.0,False,2022_winner_match
+2026,senate,30,R,"Clyde Chambliss, Jr.",True,"Clyde Chambliss, Jr.                  ",1.0,False,2022_winner_match
+2026,senate,31,R,Josh Carnley,True,Josh Carnley                          ,1.0,False,2022_winner_match
+2026,senate,32,R,Chris Elliott,True,Chris Elliott                         ,1.0,False,2022_winner_match
+2026,senate,33,D,Vivian Davis Figures,True,Vivian Davis Figures                  ,1.0,False,2022_winner_match
+2026,senate,35,R,David Sessions,True,David Sessions                        ,1.0,False,2022_winner_match

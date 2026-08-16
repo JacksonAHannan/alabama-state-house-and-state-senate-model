@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_funding_defense",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Supports federal funding for defense.",
+  "evidence_quote": "c) Defense",
+  "needs_human_review": true,
+  "review_reason": "The option is a category selection without specific policy direction or ideological stance."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "aid_hum_rights_condition",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The policy option supports conditioning U.S. economic assistance on the absence of documented human rights abuses in recipient nations.",
+  "evidence_quote": "c) Aid should be eliminated for any nation with documented human rights abuses.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

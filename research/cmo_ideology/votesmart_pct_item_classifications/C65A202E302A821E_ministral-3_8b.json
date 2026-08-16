@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_online_voting",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "online voting for state elections",
+  "evidence_quote": "",
+  "needs_human_review": true,
+  "review_reason": "The question does not explicitly address campaign finance or governmental reform principles (like transparency, corruption prevention, or spending limits). Online voting is a logistical/technological issue with no clear ideological leaning in this context. The item lacks a stable policy direction tied to conservative/progressive frameworks."
+}

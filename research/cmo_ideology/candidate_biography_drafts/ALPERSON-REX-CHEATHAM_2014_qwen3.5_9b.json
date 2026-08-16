@@ -1,0 +1,34 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "Rex Cheatham is a Democratic legislative candidate for Alabama House District 8 who ran in the 2014 election. He recorded an out-of-fold Campaign Model Outcome (CMO) score of approximately +16.7 against Republican incumbent Terri Collins, with adjusted scores remaining positive after accounting for spending and fundraising differences. His public identity was centered on education-labor alignment rather than cultural issues.",
+  "offices_and_public_service": [
+    "Former teacher in Morgan County schools",
+    "Worked for the Alabama Education Association (AEA)",
+    "Education liaison to Governor George Wallace",
+    "Led a gubernatorial education-reform committee"
+  ],
+  "profession_and_employment": [
+    "Teacher",
+    "Alabama Education Association employee"
+  ],
+  "education": [],
+  "community_and_local_ties": [
+    "Morgan County resident/leader",
+    "Leadership of the Morgan County Democratic Executive Committee",
+    "Democratic national and state delegate (repeated service)"
+  ],
+  "political_profile": [
+    "Democrat"
+  ],
+  "important_caveats": [],
+  "source_urls_used": [
+    "https://www.una.edu/alumni/benefits/files/mags/UNAmagazineSpring%20Vol-20%20No%201-2012SM.pdf",
+    "https://www.ksl.com/article/29741497"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://bloximages.newyork1.vip.townnews.com/decaturdaily.com/content/tncms/assets/v3/editorial/1/d0/1d0d9ca0-d574-11e3-8a69-001a4bcf6878/53696cbb281cd.pdf.pdf",
+    "https://www.ksl.com/article/29741497",
+    "https://www.una.edu/alumni/benefits/files/mags/UNAmagazineSpring%20Vol-20%20No%201-2012SM.pdf"
+  ]
+}

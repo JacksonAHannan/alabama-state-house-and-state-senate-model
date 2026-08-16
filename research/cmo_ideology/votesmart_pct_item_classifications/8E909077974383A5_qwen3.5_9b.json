@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_individual_limits",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The question asks for support on limiting individual contributions but does not specify a direction (limiting vs. allowing) or provide enough context to determine if the stance is conservative or progressive.",
+  "evidence_quote": "Do you support limiting the following types of contributions",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,19 @@
+{
+  "primary_issue": "criminal_justice",
+  "secondary_issues": [
+    "public_private_partnerships",
+    "environment"
+  ],
+  "plain_english_revision": "**What the amendment does:** This bill creates a new set of criminal offenses specifically targeting adults with disabilities in Alabama. It defines three degrees of abuse/neglect and three degrees of financial exploitation, each with escalating penalties depending on severity (e.g., Class A felony for first-degree abuse causing serious injury). The amendment also sets a 7-year statute of limitations for prosecutions and clarifies jurisdiction across counties.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "**Policy effect:** Expands the scope of criminal liability to include intentional or reckless abuse/neglect and financial exploitation of adults with disabilities, with tiered penalties based on harm severity. Introduces a dedicated legal framework (Alabama Adults with Disabilities Protection Act) to address gaps in existing elder-abuse protections.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "**Definition of abuse/neglect:** 'The failure of a caregiver to provide food, shelter, clothing, medical services, medication, or health care for an adult with a disability.'",
+    "**Financial exploitation threshold:** 'The financial exploitation ... in which the value of the property taken exceeds two thousand five hundred dollars ($2,500) constitutes [first-degree] exploitation.'",
+    "**Statute of limitations:** 'Any prosecution brought for financial exploitation ... shall be commenced within seven years after the commission of the offense.'"
+  ],
+  "needs_human_review": false,
+  "review_reason": "All definitions, penalties, and procedural rules are explicitly stated in the amendment text."
+}

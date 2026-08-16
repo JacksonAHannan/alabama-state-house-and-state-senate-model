@@ -1,0 +1,14 @@
+{
+  "plain_english_policy": "This bill (HB85) from Alabama's 2010 session explicitly targets political action committee (PAC) transfers by prohibiting direct contributions between PACs, with the exception of principal campaign committees. The policy direction it would establish is a tightening of campaign finance rules to limit indirect funding routes that could circumvent contribution limits or donor anonymity.",
+  "policy_direction_if_enacted": "If enacted, HB85 would create a more restrictive environment for PAC-to-PAC transfers in Alabama's election system. This would likely reduce the ability of donors to indirectly influence campaigns through layered contributions (e.g., Donor \u2192 PAC A \u2192 PAC B \u2192 Candidate). The bill also aligns with broader trends of limiting 'shell' entities in campaign finance by closing a loophole where funds could be routed through multiple PACs without direct donor disclosure.",
+  "ideological_valence": "conservative",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "The bill's sponsor (Rep. McLaughlin) advanced a measure that would restrict PAC-to-PAC transfers, suggesting support for stricter campaign finance transparency or donor accountability.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "It shall be unlawful for any political action committee to make a contribution to any other political action committee, other than a principal campaign committee.",
+    "Under existing law, a political action committee may make a contribution to another political action committee. This bill would prohibit transfers between political action committees."
+  ],
+  "needs_human_review": false,
+  "review_reason": "The text is clear and unambiguous regarding its intent to close PAC-to-PAC transfer loopholes, with no ceremonial or appropriations-only elements."
+}

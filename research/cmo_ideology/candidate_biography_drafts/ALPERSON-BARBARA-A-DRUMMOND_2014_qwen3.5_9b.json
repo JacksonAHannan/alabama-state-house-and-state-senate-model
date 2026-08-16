@@ -1,0 +1,47 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "Barbara A. Drummond is an Alabama legislative candidate who ran in the 2014 House District 103 election, recording approximately +29.9 OOF CMO and remaining a high performer across audited precinct-allocation scenarios with estimates ranging from +12.9 to +29.9. She holds a Shor-McCarty score of -0.610, placing her on the progressive side of Alabama's Democratic House caucus at entry into office in 2014. Her later record includes support for Medicaid expansion and opposition to permitless carry gun-storage legislation, public education funding, and equity-focused neighborhood investment. Campaign-visible signals recovered include an alignment with labor/public-education based on records from the Alabama Education Association shortly before her general election.",
+  "offices_and_public_service": [
+    "Alabama House District 103"
+  ],
+  "profession_and_employment": [
+    "Local journalist",
+    "County administrative work",
+    "City administrative work",
+    "Neighborhood services",
+    "Public works",
+    "Constituent-response systems",
+    "Industrial recruitment participation"
+  ],
+  "education": [],
+  "community_and_local_ties": [
+    "Mobile networks (roughly two decades)",
+    "Majority-Black district HD-103 resident or representative context"
+  ],
+  "political_profile": [
+    "Progressive side of Alabama Democratic House caucus",
+    "Clean counterexample to universal move-right story in majority-Black districts"
+  ],
+  "important_caveats": [
+    "Shor-McCarty score is post-election evidence as she first entered the legislature in 2014.",
+    "Later positions (Medicaid expansion, etc.) corroborate progressive profile but do not establish salience for 2014 prospective treatment.",
+    "Evidence does not claim her later positions were salient during the 2014 campaign."
+  ],
+  "source_urls_used": [
+    "https://justfacts.votesmart.org/candidate/biography/149928/barbara-drummond",
+    "https://www.wsfa.com/2019/05/15/ala-house-democrats-vow-continue-fight-expand-medicaid/",
+    "https://drummondformayor.com/about/",
+    "https://drummondformayor.com/issues/",
+    "https://doi.org/10.7910/DVN/GZJOT3",
+    "https://publicunionfacts.com/union/QUxBQkFNQSBFRFVDQVRJT04gQVNTT0NJQVRJT04%3D/alabama-education-association/state-candidates/all-contributions"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://doi.org/10.7910/DVN/GZJOT3",
+    "https://drummondformayor.com/about/",
+    "https://drummondformayor.com/issues/",
+    "https://justfacts.votesmart.org/candidate/biography/149928/barbara-drummond",
+    "https://publicunionfacts.com/union/QUxBQkFNQSBFRFVDQVRJT04gQVNTT0NJQVRJT04%3D/alabama-education-association/state-candidates/all-contributions",
+    "https://www.wsfa.com/2019/05/15/ala-house-democrats-vow-continue-fight-expand-medicaid/"
+  ]
+}

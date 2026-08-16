@@ -1,0 +1,32 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "Kim Caudle Lewis is a lifelong Madison County resident who ran for the Alabama Senate District 2 seat in the 2022 election. She was the chief executive and co-founder of a local technology and engineering company, as well as the first Black woman to chair the Huntsville/Madison County Chamber of Commerce. During her campaign, she prioritized education reform following *Dobbs* for reproductive rights protection.",
+  "offices_and_public_service": [
+    "Chief executive and co-founder of a local technology and engineering company",
+    "First Black woman to chair the Huntsville/Madison County Chamber of Commerce"
+  ],
+  "profession_and_employment": [
+    "Technology and engineering business leader"
+  ],
+  "education": [],
+  "community_and_local_ties": [
+    "Lifelong Madison County resident",
+    "Huntsville-area district candidate"
+  ],
+  "political_profile": [
+    "Mildly progressive codes on economic/public investment and abortion relative to Alabama Democrats",
+    "Abortion-rights positioning salient in the 2022 election context"
+  ],
+  "important_caveats": [],
+  "source_urls_used": [
+    "https://www.alreporter.com/2022/09/14/in-competitive-districts-some-democratic-candidates-may-find-success/",
+    "https://256today.com/kimberly-caudle-lewis-enters-the-race-for-the-alabama-state-senate-district-2/",
+    "https://256today.com/butler-vs-lewis-state-senate-race-most-competitive/"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://256today.com/butler-vs-lewis-state-senate-race-most-competitive/",
+    "https://256today.com/kimberly-caudle-lewis-enters-the-race-for-the-alabama-state-senate-district-2/",
+    "https://www.alreporter.com/2022/09/14/in-competitive-districts-some-democratic-candidates-may-find-success/"
+  ]
+}

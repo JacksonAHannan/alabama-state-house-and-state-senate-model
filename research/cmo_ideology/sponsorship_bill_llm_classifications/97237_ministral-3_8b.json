@@ -1,0 +1,16 @@
+{
+  "plain_english_policy": "This bill (HJR438) is a **non-binding resolution** urging the U.S. Congress to allocate $3 million for renovating and expanding Alabama\u2019s Farmers Market. It does not create state law or mandate federal action\u2014it merely requests funding from Congress. Here\u2019s the policy direction implied by its enactment (if passed):",
+  "policy_direction_if_enacted": "1. **Economic Development & Job Creation**",
+  "ideological_valence": "progressive",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "no_inference_beyond_text",
+  "confidence": "high",
+  "evidence_quotes": [
+    "\u2018the project includes plans to demolish three existing sheds, replacing them with refrigeration-equipped structures\u2019 \u2192 **modernizes infrastructure** for perishable goods.",
+    "\u201838,800 square feet of space would be added for farmers from around the state to sell their products\u2019 \u2192 **expands market access** for rural producers.",
+    "\u2018dozens of new jobs for citizens of the neighborhood, the great majority of whom are low-income individuals\u2019 \u2192 **targets economic revitalization in blighted areas**.",
+    "\u2018an improved Farmers Market and newly vital neighborhood would provide a more inviting environment for new business investment\u2019 \u2192 **indirectly supports private-sector growth** via public amenities."
+  ],
+  "needs_human_review": false,
+  "review_reason": "The bill\u2019s text is clear, actionable, and lacks ceremonial/appropriations-only ambiguity. Policy direction aligns with rural economic development and USDA-aligned agricultural infrastructure."
+}

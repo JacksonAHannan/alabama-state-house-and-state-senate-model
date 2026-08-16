@@ -1,0 +1,11 @@
+{
+  "policy_key": "welfare_work_requirement",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option mandates that welfare recipients must work or train for at least 40 hours weekly.",
+  "evidence_quote": "Require welfare recipients to spend at least 40 hours a week in a combination of work and training programs.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

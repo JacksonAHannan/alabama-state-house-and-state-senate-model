@@ -1,0 +1,18 @@
+{
+  "primary_issue": "taxes_budget",
+  "secondary_issues": [
+    "ethics_government",
+    "public_education"
+  ],
+  "plain_english_revision": "The amendment adds two specific exemptions from property taxes (ad valorem taxation) in Alabama: (1) seed containers used for storing agricultural products and (2) grain bins. It also defines what qualifies as 'seed' under state law to clarify the exemption's scope.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Advances targeted tax exemptions for agricultural infrastructure and seed storage, reducing property tax burdens on farmers and related businesses.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "insert the following: ; **and to exempt seed containers from ad valorem taxation**",
+    "**All containers used exclusively for the purpose of storing, holding, driving, preserving, or otherwise preparing for market agricultural... seed**"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment text is clear and self-contained; no external context needed."
+}

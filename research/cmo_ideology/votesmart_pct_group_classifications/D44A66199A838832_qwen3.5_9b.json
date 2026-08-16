@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_energy_infrastructure_funding",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Supporting state funding for energy infrastructure improvements is generally viewed as a progressive stance due to its focus on public investment and modernization.",
+  "evidence_quote": "Do you support state funding for improvements to Alabama's energy infrastructure?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

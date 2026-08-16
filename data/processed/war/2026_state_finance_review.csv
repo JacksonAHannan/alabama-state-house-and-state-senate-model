@@ -1,0 +1,127 @@
+cycle,chamber,district,party,candidate,state_candidate,state_contributions,state_expenditures,state_rows,finance_observation_status,match_method,match_score,match_margin
+2026,house,2,R,Ben Harrison,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,66.66666666666667,14.81481481481481
+2026,house,3,R,Kerry Bubba Underwood,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,75.0,26.351351351351347
+2026,house,4,D,Hanu Karlapalem,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,62.5,15.441176470588239
+2026,house,5,D,Jessie Barcala,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,87.5,32.95454545454546
+2026,house,5,R,Danny F. Crawford,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,84.21052631578947,30.87719298245613
+2026,house,10,D,Marilyn Lands,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,86.66666666666667,27.84313725490196
+2026,house,10,R,Aaron Thomas,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,77.41935483870968,12.903225806451616
+2026,house,11,R,Heath Allbright,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,78.94736842105263,34.50292397660819
+2026,house,12,R,Cindy Myrex,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,66.66666666666667,16.66666666666667
+2026,house,13,R,Mike Elliott,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,81.4814814814815,13.06042884990255
+2026,house,14,R,Tim R.Wadsworth,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,92.85714285714286,42.85714285714286
+2026,house,15,R,Leigh Hulsey,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,92.3076923076923,42.30769230769231
+2026,house,16,D,Christian Martin,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,86.48648648648648,24.417520969245103
+2026,house,17,R,Phil Segraves,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,74.28571428571429,22.43386243386243
+2026,house,18,R,Jamie Kiel,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,76.92307692307692,15.38461538461538
+2026,house,19,D,Laura Hall,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,90.9090909090909,36.36363636363637
+2026,house,19,R,Donald Barnes,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,76.47058823529412,14.932126696832576
+2026,house,20,D,JamesLinderholm,"Linderholm, James ",7030.92,3441.4,1,observed,fuzzy_review,96.7741935483871,35.23573200992556
+2026,house,21,D,Forrest Satterfield,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,90.47619047619048,41.991341991342
+2026,house,22,R,Ritchie Whorton,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,83.33333333333334,29.279279279279287
+2026,house,23,R,Mike Kirkland,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,82.75862068965517,23.935091277890464
+2026,house,24,R,Nathaniel Ledbetter,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,86.36363636363636,38.74458874458875
+2026,house,25,D,Allison T Montgomery,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,88.88888888888889,40.4040404040404
+2026,house,25,R,Phillip K. Rigsby,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,93.33333333333333,35.43859649122806
+2026,house,26,R,Brock Colvin,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,75.0,20.45454545454546
+2026,house,28,R,Mack N Butler,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,83.87096774193549,32.019115890083626
+2026,house,29,R,Mark A. Gidley,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,81.25,29.63709677419355
+2026,house,30,R,Craig Lipscomb,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,77.77777777777779,29.777777777777786
+2026,house,31,R,Troy B.Stubbs,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,78.78787878787878,32.12121212121212
+2026,house,32,R,Joey Callahan,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,81.25,22.42647058823529
+2026,house,33,R,Ben Robbins,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,66.66666666666667,9.523809523809533
+2026,house,35,R,Steve Hurst,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,69.56521739130434,10.105757931844892
+2026,house,37,D,Michelle French,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,93.75,35.68548387096775
+2026,house,37,R,Jeff Monroe,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,73.33333333333334,18.160919540229898
+2026,house,38,D,Hazel Floyd,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,78.57142857142857,28.57142857142857
+2026,house,40,R,ChadRobertson,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,74.28571428571429,18.730158730158735
+2026,house,41,D,David J. A. Morgan,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,71.11111111111111,13.968253968253975
+2026,house,42,R,Van Smith,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,44.44444444444444,0.9661835748792242
+2026,house,43,D,TaylorCook,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,57.14285714285714,14.285714285714278
+2026,house,43,R,Arnold Mooney,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,92.85714285714286,39.91596638655462
+2026,house,44,R,Danny Garrett,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,76.92307692307692,8.17307692307692
+2026,house,46,R,David L. Faulkner,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,82.05128205128204,24.908424908424905
+2026,house,47,D,Jim Toomey,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,77.41935483870968,7.854137447405336
+2026,house,47,R,MikeShaw,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,53.84615384615385,10.367892976588628
+2026,house,48,R,Lloyd Peeples,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,74.28571428571429,20.952380952380956
+2026,house,49,R,Russell Bedsole,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,78.94736842105263,26.00619195046439
+2026,house,50,D,Alan Thomas,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,73.33333333333334,6.666666666666671
+2026,house,50,R,Bill Morris,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,93.33333333333333,30.476190476190474
+2026,house,51,R,Allen Treadaway,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,76.92307692307692,25.31017369727047
+2026,house,56,D,Ontario J Tillman,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,93.75,39.20454545454546
+2026,house,58,D,Rolanda Hollis,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,75.67567567567568,21.82952182952183
+2026,house,59,D,Mary Moore,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,83.33333333333334,24.07407407407409
+2026,house,60,D,Alicia Escott Lumpkin,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,70.0,21.515151515151516
+2026,house,62,R,Bill Lamb,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,71.42857142857143,10.822510822510822
+2026,house,63,D,JudithTaylor,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,77.41935483870968,16.549789621318368
+2026,house,64,R,Donna Givens,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,80.0,28.148148148148138
+2026,house,65,R,John Knapp,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,74.07407407407408,26.074074074074076
+2026,house,66,R,Alan Baker,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,76.92307692307692,13.286713286713287
+2026,house,67,D,Prince Chestnut,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,81.08108108108108,16.795366795366803
+2026,house,68,R,Fred Kelley,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,78.57142857142857,21.42857142857143
+2026,house,69,R,Josh Pendergrass,"Pendergrass, Joshua ",15219.41,5519.77,1,observed,fuzzy_review,94.11764705882352,40.784313725490186
+2026,house,70,R,Ian M. Chwatuk,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,91.66666666666666,44.607843137254896
+2026,house,71,D,"Artis ""A.J."" McCampbell ","MCCAMPBELL, ARTIS J",45250.0,16188.58,1,observed,fuzzy_review,94.73684210526316,43.30827067669174
+2026,house,72,D,Curtis L Travis,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,93.75,31.68103448275862
+2026,house,73,R,Kenneth Paschal,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,81.08108108108108,34.414414414414416
+2026,house,75,D,Tisha Dickson Nickson,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,85.71428571428572,26.623376623376643
+2026,house,75,R,Reed Ingram,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,75.86206896551724,25.86206896551724
+2026,house,77,D,TaShinaMorris,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,52.94117647058824,6.274509803921575
+2026,house,78,D,Kenyatte Hassell,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,82.05128205128204,27.505827505827504
+2026,house,79,R,Joe Lovvorn,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,73.33333333333334,26.66666666666668
+2026,house,80,D,Manfred Malone,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,77.77777777777779,15.708812260536405
+2026,house,80,R,Chris Blackshear,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,89.79591836734694,36.137381781981084
+2026,house,81,R,Ed Oliver,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,81.25,35.09615384615385
+2026,house,82,D,Pebblin W. Warren,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,86.48648648648648,31.941031941031945
+2026,house,82,R,Kinsley Hammons,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,50.0,0.0
+2026,house,83,D,Jeremy A. Gray,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,86.66666666666667,34.81481481481481
+2026,house,85,R,Rick Rehm,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,60.86956521739131,3.726708074534173
+2026,house,86,R,Paul Lee,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,69.56521739130434,16.23188405797101
+2026,house,87,R,Jeff Sorrells,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,83.87096774193549,30.02481389578164
+2026,house,89,R,MarcusB.Paramore,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,90.9090909090909,37.57575757575757
+2026,house,90,R,Chris Sells,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,78.57142857142857,10.278745644599312
+2026,house,91,R,Jody Linton,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,61.111111111111114,12.62626262626263
+2026,house,92,R,MatthewHammett,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,48.64864864864865,1.9819819819819884
+2026,house,94,R,Jennifer Fidler,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,78.94736842105263,22.53711201079622
+2026,house,96,D,TerriOsborne,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,56.00000000000001,3.826086956521749
+2026,house,96,R,Danielle Duggar,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,93.75,31.25
+2026,house,97,D,Adline C. Clarke,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,83.33333333333334,30.000000000000007
+2026,house,99,D,Sam Jones,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,92.3076923076923,44.30769230769231
+2026,house,99,R,Charlie Watts,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,53.333333333333336,1.9047619047619122
+2026,house,100,R,MarkShirey,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,76.92307692307692,28.92307692307692
+2026,house,101,D,Joan Friedlander,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,80.0,24.999999999999993
+2026,house,101,R,Chris Pringle,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,81.25,11.482558139534888
+2026,house,104,R,Margie Wilcox,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,70.58823529411764,20.588235294117638
+2026,senate,1,R,Tim Melson,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,68.96551724137932,22.811671087533163
+2026,senate,3,D,John Dickey,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,70.96774193548387,14.967741935483865
+2026,senate,4,R,Garlan Gudger,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,78.78787878787878,22.787878787878775
+2026,senate,5,R,Matt Woods,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,64.51612903225806,21.037868162692845
+2026,senate,6,D,Bobby Martin,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,80.0,24.827586206896555
+2026,senate,6,R,Larry Stutts,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,75.0,25.0
+2026,senate,7,D,Jared Sluss,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,75.86206896551724,27.86206896551724
+2026,senate,7,R,Sam Givhan,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,86.95652173913044,36.95652173913044
+2026,senate,8,D,Katie Kramer,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,70.58823529411764,20.588235294117638
+2026,senate,9,R,WesKitchens,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,61.53846153846154,18.06020066889632
+2026,senate,11,D,Donald J. Mottern,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,86.48648648648648,32.43243243243243
+2026,senate,14,D,Mandie Ledkins,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,51.42857142857142,1.4285714285714235
+2026,senate,14,R,April Weaver,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,92.3076923076923,42.30769230769231
+2026,senate,15,R,Scott Ortis,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,73.33333333333334,15.000000000000014
+2026,senate,16,D,Spencer Stone,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,78.78787878787878,30.787878787878782
+2026,senate,16,R,"J.T.""Jabo""Waggoner",,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,81.25,28.30882352941176
+2026,senate,17,R,Shay Shelnutt,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,78.78787878787878,24.941724941724935
+2026,senate,18,D,Rodger M. Smitherman ,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,92.6829268292683,38.62887277521424
+2026,senate,22,R,Terry L. Waters,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,92.3076923076923,42.30769230769231
+2026,senate,23,D,Robert Stewart,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,87.5,33.65384615384615
+2026,senate,23,R,Thayer Bear Havard Spencer,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,52.17391304347826,6.340579710144922
+2026,senate,24,D,Bobby Singleton,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,93.75,37.74999999999999
+2026,senate,26,D,Kirk Hatcher,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,54.54545454545454,7.486631016042779
+2026,senate,27,R,Jay Hovey,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,59.25925925925925,13.804713804713792
+2026,senate,28,D,Billy Beasley,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,72.22222222222221,26.06837606837606
+2026,senate,28,R,Brent Comer,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,91.66666666666666,43.66666666666666
+2026,senate,29,D,JimmyMcCray,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,70.96774193548387,25.51319648093841
+2026,senate,29,R,Donnie Chesteen,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,72.22222222222221,26.5079365079365
+2026,senate,31,R,Josh Carnley,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,92.3076923076923,33.97435897435898
+2026,senate,32,D,Janet Appleby,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,92.85714285714286,39.010989010989015
+2026,senate,32,R,Chris Elliott,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,81.25,36.08870967741935
+2026,senate,34,R,Rusty Glover,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,68.57142857142857,20.295566502463053
+2026,senate,35,R,David Sessions,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,84.84848484848484,31.907308377896605

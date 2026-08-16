@@ -1,0 +1,17 @@
+{
+  "primary_issue": "public_employee_benefits",
+  "secondary_issues": [
+    "criminal_justice",
+    "healthcare_medicaid"
+  ],
+  "plain_english_revision": "This amendment removes a general exemption for public employees from certain COVID-19 vaccine mandates, except where those mandates are tied to disciplinary hearings or proceedings. It does not address private-sector mandates or other healthcare-related provisions.",
+  "revision_direction": "restricts_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Advances a policy that narrows the scope of COVID-19 vaccine exemptions for public employees to only those cases involving formal disciplinary hearings or proceedings",
+  "confidence": "high",
+  "evidence_quotes": [
+    "delete the following: , except those which involve a hearing"
+  ],
+  "needs_human_review": true,
+  "review_reason": "The amendment text is incomplete (lines 4\u20135 of page 13 are not provided) and lacks context for other bill sections. The valence depends on whether the original language was permissive or mandatory."
+}

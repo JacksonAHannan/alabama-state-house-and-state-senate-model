@@ -1,0 +1,19 @@
+{
+  "primary_issue": "infrastructure_energy",
+  "secondary_issues": [
+    "healthcare_medicaid",
+    "environment"
+  ],
+  "plain_english_revision": "The amendment replaces the original bill with a comprehensive framework for end-of-life care involving minors, titled 'Simon's Law.' It mandates that **Do Not Attempt Resuscitation (DNAR) orders** for qualified minors can only be instituted after obtaining written or oral consent from at least one parent or legal guardian. The amendment introduces procedural safeguards such as informing parents of the decision and recording attempts to do so, while also allowing judicial intervention in cases of parental conflict. It explicitly protects healthcare providers from liability if they follow these procedures in good faith.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "This amendment advances the policy effect of **establishing a structured consent process for DNAR orders involving minors**, prioritizing parental involvement and judicial oversight in end-of-life decisions.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "**'A Do Not Attempt Resuscitation order... shall not be instituted for a qualified minor until both of the following occur: consent is obtained from the representative of the qualified minor for a DNAR order.'**",
+    "**'No DNAR order shall be instituted if there has been a timely refusal of consent, except when a PPEL order or DNAR order is consented to at a later date...'**",
+    "**'Pending the final determination of the proceedings... a DNAR order shall not be implemented.**'"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment text provides explicit language and procedural requirements, making it possible to analyze without ambiguity."
+}

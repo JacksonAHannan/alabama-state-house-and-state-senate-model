@@ -1,0 +1,17 @@
+{
+  "primary_issue": "school_choice",
+  "secondary_issues": [
+    "public_education",
+    "health_social_services"
+  ],
+  "plain_english_revision": "The amendment clarifies the definition of what qualifies as an 'epinephrine autoinjector' in the bill. It removes a restrictive phrase and broadens it to include any single-dose device approved by the FDA for public use, not just specific models or brands.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "advances access to epinephrine autoinjectors in K-12 schools by ensuring broader FDA-approved devices are permitted for student self-administration",
+  "confidence": "high",
+  "evidence_quotes": [
+    "a single use device used for automatic injection of a premeasured dose of epinephrine into the human body or another epinephrine system approved by the Federal Food and Drug Administration for public use."
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment text is clear, specific, and does not rely on unseen language. It explicitly defines what constitutes an acceptable autoinjector device under the bill's provisions."
+}

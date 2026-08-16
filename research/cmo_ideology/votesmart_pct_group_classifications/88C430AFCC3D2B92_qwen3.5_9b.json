@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_funding_public_health",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Supports federal funding for public health services.",
+  "evidence_quote": "k) Public health services",
+  "needs_human_review": true,
+  "review_reason": "The option is a category label without specific policy direction or ideological stance."
+}

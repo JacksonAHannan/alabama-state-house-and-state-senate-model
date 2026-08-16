@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_tax_mortgage_deduction",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Supports maintaining the federal mortgage interest deduction.",
+  "evidence_quote": "Option: e) Mortgage deduction",
+  "needs_human_review": true,
+  "review_reason": "Mortgage deductions are a mixed policy with varying ideological interpretations depending on housing market context."
+}

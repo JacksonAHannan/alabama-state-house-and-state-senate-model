@@ -1,0 +1,7 @@
+cycle,group,dem_two_party_share,vtds,two_party_votes,optimizer_success,boundary_solution,release_eligible,status
+2018,White non-Hispanic,0.11854175623064926,1992,1716952,True,True,False,failed_boundary_diagnostic
+2018,Black non-Hispanic,0.9905815462855438,1992,1716952,True,True,False,failed_boundary_diagnostic
+2018,Other,0.8829939703967203,1992,1716952,True,True,False,failed_boundary_diagnostic
+2020,White non-Hispanic,0.06016929064548402,1972,2290794,True,True,False,failed_boundary_diagnostic
+2020,Black non-Hispanic,0.9999965573539602,1972,2290794,True,True,False,failed_boundary_diagnostic
+2020,Other,0.9764000529756921,1972,2290794,True,True,False,failed_boundary_diagnostic

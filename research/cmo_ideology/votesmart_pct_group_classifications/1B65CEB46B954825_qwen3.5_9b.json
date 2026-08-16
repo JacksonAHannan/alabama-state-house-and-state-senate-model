@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_budget_transportation",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option is a specific line item within a broader budget questionnaire asking for funding levels on transportation and infrastructure. It does not contain substantive policy language regarding the level of spending (e.g., cut vs increase) or ideological framing.",
+  "evidence_quote": "f) Transportation/infrastructure",
+  "needs_human_review": false,
+  "review_reason": ""
+}

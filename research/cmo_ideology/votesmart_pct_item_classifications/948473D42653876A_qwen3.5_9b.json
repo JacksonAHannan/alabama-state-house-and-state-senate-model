@@ -1,0 +1,11 @@
+{
+  "policy_key": "environment_funding",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The item asks for a funding level without specifying the amount or direction (increase/decrease), making it impossible to determine if the stance is conservative or progressive.",
+  "evidence_quote": "Indicate the funding levels you will support for the following general categories. Select one level only.",
+  "needs_human_review": true,
+  "review_reason": "The prompt asks candidates to select a 'level' but does not define what constitutes an increase (progressive) versus decrease (conservative), rendering the direction indeterminate without external context on baseline spending or candidate history."
+}

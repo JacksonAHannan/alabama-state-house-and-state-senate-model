@@ -1,0 +1,11 @@
+{
+  "policy_key": "job_training_funding",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option proposes increasing federal funding for job-training programs to help displaced workers acquire skills relevant to the current economy.",
+  "evidence_quote": "Increase funding for national job-training programs that re-train displaced workers or teach skills needed in today's job market.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

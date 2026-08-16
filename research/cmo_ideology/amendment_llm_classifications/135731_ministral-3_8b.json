@@ -1,0 +1,19 @@
+{
+  "primary_issue": "infrastructure_energy",
+  "secondary_issues": [
+    "public_education",
+    "infrastructure_energy"
+  ],
+  "plain_english_revision": "The amendment modifies the range of criminal penalties for violations of elder abuse registry requirements, shifting them from lower-tier (2\u20136) to higher-tier (3\u20137) classifications in multiple sections. It also adjusts a single reference from penalty tier '3' to '4'.",
+  "revision_direction": "increases_funding",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "expanding criminal penalties for elder abuse registry violations by raising the severity tiers in multiple statutory references",
+  "confidence": "high",
+  "evidence_quotes": [
+    "delete '2 through 6' and insert '3 through 7'",
+    "delete '6' and insert '7'",
+    "delete '3' and insert '4'"
+  ],
+  "needs_human_review": true,
+  "review_reason": "The amendment\u2019s procedural nature (line/section edits) requires cross-checking with the original bill text to confirm whether these changes correspond to penalty tiers, reporting thresholds, or other provisions. The valence is indeterminate because the underlying policy intent of '2\u20136' vs. '3\u20137' cannot be inferred without context."
+}

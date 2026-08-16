@@ -1,0 +1,17 @@
+{
+  "primary_issue": "school_choice",
+  "secondary_issues": [
+    "public_education",
+    "taxes_budget"
+  ],
+  "plain_english_revision": "This amendment removes a section of the education budget bill that would have allocated funds for traditional public schools. It does not explicitly add new language, but its deletion suggests an intent to redirect or eliminate funding mechanisms tied to those lines (15\u201323).",
+  "revision_direction": "indeterminate",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Advancing school choice by removing state funding constraints on non-traditional public education options.",
+  "confidence": "low",
+  "evidence_quotes": [
+    "On page 2, delete lines 15 to 23, inclusive."
+  ],
+  "needs_human_review": true,
+  "review_reason": "The amendment text is procedural and lacks explicit policy language. The deleted section\u2019s content (lines 15\u201323) would be required to confirm the precise effect on school choice or budget reallocation."
+}

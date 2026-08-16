@@ -1,0 +1,11 @@
+{
+  "policy_key": "prison_drug_treatment",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting addiction treatment for inmates is conventionally viewed as a progressive approach to criminal justice reform.",
+  "evidence_quote": "e) Support programs to provide prison inmates with drug and alcohol addiction treatment.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

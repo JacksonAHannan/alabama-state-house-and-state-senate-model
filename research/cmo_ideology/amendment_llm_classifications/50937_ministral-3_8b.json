@@ -1,0 +1,19 @@
+{
+  "primary_issue": "taxes_budget",
+  "secondary_issues": [
+    "public_education",
+    "health_social_services"
+  ],
+  "plain_english_revision": "The amendment replaces the original bill with a new version that creates a special exemption for certain food vendors during specific events. It requires vendors to apply online, provide details about their event and food offerings, and meet basic health standards like having a food handler\u2019s card and handwashing facilities. The amendment also limits exemptions to four per year at one location and excludes certain foods (like home-canned vegetables). Churches and bars serving only drinks/ice with crawfish boiling are given additional exemptions under specific conditions.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "establishes a streamlined, conditional exemption framework for intermittent food vendors during designated regional events to reduce regulatory burden on small-scale or community-based operations.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "An intermittent food service establishment shall complete an online application... not later than five business days prior to the event for an exemption of food service at a temporary exempt event.",
+    "The Mobile County Health Department shall not regulate an intermittent food service establishment that prepares food in association with a regional celebration, tradition, or cultural event, when the establishment does not prepare, sell, or distribute food on a regular basis...",
+    "Notwithstanding Section 2, a church that is tax exempt and that conducts intermittent food sales for fund raisers... shall be exempt from the regulatory requirements of the Mobile County Health Department."
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment text provides clear definitions, procedural steps, and conditional exemptions without ambiguity. No unseen language or vague references are present."
+}

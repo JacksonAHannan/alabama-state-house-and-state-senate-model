@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_budget_income_tax_mid",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supports maintaining or increasing income taxes on mid-income families to fund state programs.",
+  "evidence_quote": "h) Income taxes (mid-income families)",
+  "needs_human_review": false,
+  "review_reason": ""
+}

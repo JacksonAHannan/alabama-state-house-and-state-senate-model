@@ -1,0 +1,11 @@
+{
+  "policy_key": "state_funded_merit_scholarships_alabama",
+  "dimension": "education_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Providing tax-funded scholarships for students based on academic achievement, but only within the state.",
+  "evidence_quote": "Support state-funded merit scholarships for Alabama students to attend college in Alabama.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "health_religious_vaccine_exemptions",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks whether to remove religious exemptions for vaccinations. This is a procedural/administrative question about public health policy rather than an ideological stance on the role of government or individual liberty that maps cleanly onto left/right dimensions.",
+  "evidence_quote": "Do you support eliminating religious exemptions for vaccinations?",
+  "needs_human_review": true,
+  "review_reason": "This is a procedural question about public health policy rather than an ideological stance on the role of government or individual liberty that maps cleanly onto left/right dimensions."
+}

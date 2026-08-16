@@ -1,0 +1,23 @@
+{
+  "primary_issue": "immigration",
+  "secondary_issues": [
+    "detainers",
+    "warrants",
+    "document verification",
+    "reporting requirements"
+  ],
+  "plain_english_change": "This bill introduces several changes to Alabama's laws regarding the handling of foreign nationals in county and municipal jails. Here are the key points in plain English:",
+  "vote_stage": "final_passage",
+  "substantive_vote": true,
+  "yea_policy_effect": "The bill is likely to have a restrictive effect on immigration policies by mandating stricter verification and detention procedures for foreign nationals in jails.",
+  "ideological_valence": "conservative",
+  "confidence": "high",
+  "evidence_quotes": [
+    "The bill requires that jails verify the legal status of suspected foreign nationals upon admission, using specific documents or contacting LESC/ICE for verification.",
+    "It mandates that jails honor immigration detainers and warrants issued by ICE unless they are signed by a federal judge or magistrate within 48 hours.",
+    "Jails must maintain records of all communications with ICE regarding foreign nationals.",
+    "The bill also requires quarterly reports on the number of foreign national inmates, inquiries made to LESC/ICE, responses indicating unlawful status, and immigration detainers issued."
+  ],
+  "needs_human_review": true,
+  "review_reason": "This bill introduces significant changes in how Alabama handles foreign nationals within its jails. It is crucial for human review to ensure compliance with federal laws and constitutional rights, particularly concerning due process and the treatment of individuals based on their immigration status."
+}

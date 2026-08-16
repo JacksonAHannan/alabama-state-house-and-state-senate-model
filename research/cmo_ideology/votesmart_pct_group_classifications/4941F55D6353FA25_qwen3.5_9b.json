@@ -1,0 +1,11 @@
+{
+  "policy_key": "defense_rd_weapons",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Research and development of new weapons is a standard defense budget item that does not inherently signal conservative or progressive ideology.",
+  "evidence_quote": "h) Research and development of new weapons",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,188 @@
+cycle,chamber,district,party,candidate,ocr_confidence,certification_page,parse_method,provisional_match,match_score,priority,roster_status,source_file,name_key,prior_cmo_mean,prior_cmo_races,prior_cmo_shrunk
+2026,house,1,R,Maurice McCaney,0.981685205300649,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,MAURICE MCCANEY,0.0,0,0.0
+2026,house,2,D,Rick Pressnell,0.987447168145861,3.0,name_to_provisional,Rick Pressnell,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,RICK PRESSNELL,0.0,0,0.0
+2026,house,2,R,Ben Harrison,0.9651791453361512,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,BEN HARRISON,0.0,0,0.0
+2026,house,3,R,Kerry Bubba Underwood,,,manual_override,,,,manual_reviewed_authoritative,2026_roster_manual_overrides.csv,KERRY BUBBA UNDERWOOD,-6.6466883624648645,1,-2.215562787488288
+2026,house,4,D,Hanu Karlapalem,0.966165832678477,3.0,name_to_provisional,Hanu Karlapalem,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,HANU KARLAPALEM,0.0,0,0.0
+2026,house,4,R,Parker Duncan Moore,,,manual_override,,,,manual_reviewed_authoritative,2026_roster_manual_overrides.csv,PARKER DUNCAN MOORE,9.52642603131512,1,3.1754753437717067
+2026,house,5,D,Jessie Barcala,0.9726627767086028,3.0,name_to_provisional,Jessie Barcala,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,JESSIE BARCALA,0.0,0,0.0
+2026,house,5,R,Danny F. Crawford,0.972410394864924,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,DANNY F CRAWFORD,6.415590595796786,1,2.1385301985989287
+2026,house,6,R,Andy Whitt,0.9806514146716095,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,ANDY WHITT,0.0,0,0.0
+2026,house,7,R,Ernie Yarbrough,0.989487369855245,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,ERNIE YARBROUGH,5.920021076217131,1,1.9733403587390435
+2026,house,8,D,Bruce Sparkman,0.9669864135129111,3.0,name_to_provisional,Bruce Sparkman,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,BRUCE SPARKMAN,0.0,0,0.0
+2026,house,8,R,Patrick Johnson,0.9842880169550576,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,PATRICK JOHNSON,0.0,0,0.0
+2026,house,9,R,Scott Stadthagen,0.997312348942424,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,SCOTT STADTHAGEN,0.0,0,0.0
+2026,house,10,D,Marilyn Lands,0.9747737141755912,3.0,name_to_provisional,Marilyn Lands,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,MARILYN LANDS,12.706529953126006,1,4.235509984375335
+2026,house,10,R,Aaron Thomas,0.9672255565722784,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,AARON THOMAS,0.0,0,0.0
+2026,house,11,R,Heath Allbright,0.9546840886274972,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,HEATH ALLBRIGHT,0.0,0,0.0
+2026,house,12,R,Cindy Myrex,0.997820031913844,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,CINDY MYREX,0.0,0,0.0
+2026,house,13,R,Mike Elliott,0.9545996238787968,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,MIKE ELLIOTT,0.0,0,0.0
+2026,house,14,R,Tim R.Wadsworth,0.9934923337264494,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,TIM R WADSWORTH,0.0,0,0.0
+2026,house,15,D,Nell Brown,0.9876682937145234,3.0,name_to_provisional,Nell Brown,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,NELL BROWN,0.0,0,0.0
+2026,house,15,R,Leigh Hulsey,0.9968532201918688,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,LEIGH HULSEY,7.015222866605265,1,2.338407622201755
+2026,house,16,D,Christian Martin,0.9660839647054672,3.0,name_to_provisional,Christian Martin,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,CHRISTIAN MARTIN,0.0,0,0.0
+2026,house,16,R,Bryan Brinyark,0.9954577258655004,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,BRYAN BRINYARK,0.0,0,0.0
+2026,house,17,R,Phil Segraves,,,manual_override,,,,manual_reviewed_authoritative,2026_roster_manual_overrides.csv,PHIL SEGRAVES,0.0,0,0.0
+2026,house,18,R,Jamie Kiel,0.9513796508312226,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,JAMIE KIEL,12.872063602344497,1,4.290687867448166
+2026,house,19,D,Laura Hall,0.8916946947574615,3.0,name_to_provisional,Laura Hall,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,LAURA HALL,0.0,0,0.0
+2026,house,19,R,Donald Barnes,0.9627616772284876,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,DONALD BARNES,0.0,0,0.0
+2026,house,20,D,JamesLinderholm,0.992723947763443,3.0,name_to_provisional,James Linderholm,0.967741935483871,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,JAMESLINDERHOLM,0.0,0,0.0
+2026,house,20,R,James Lomax,0.9898768189278516,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,JAMES LOMAX,0.0,0,0.0
+2026,house,21,D,Forrest Satterfield,0.9940566688776016,3.0,name_to_provisional,Forrest Satterfield,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,FORREST SATTERFIELD,0.0,0,0.0
+2026,house,21,R,Rex Reynolds,0.9875404333526436,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,REX REYNOLDS,-11.771180820392011,1,-3.9237269401306705
+2026,house,22,R,Ritchie Whorton,0.9789560017260638,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,RITCHIE WHORTON,4.05487750210434,1,1.35162583403478
+2026,house,23,R,Mike Kirkland,0.976146528354058,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,MIKE KIRKLAND,0.0,0,0.0
+2026,house,24,R,Nathaniel Ledbetter,0.975898381910826,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,NATHANIEL LEDBETTER,0.0,0,0.0
+2026,house,25,D,Allison T Montgomery,0.9730328261852264,3.0,name_to_provisional,Allison Montgomery,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,ALLISON T MONTGOMERY,0.0,0,0.0
+2026,house,25,R,Phillip K. Rigsby,0.9817372140559284,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,PHILLIP K RIGSBY,-5.614918804322875,1,-1.8716396014409584
+2026,house,26,R,Brock Colvin,0.9823613415161768,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,BROCK COLVIN,25.704828947649688,1,8.56827631588323
+2026,house,27,R,Jeana Ross,0.9971971809864044,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,JEANA ROSS,0.0,0,0.0
+2026,house,28,D,Robert Louis Hunter,,,manual_override,,,,manual_reviewed_authoritative,2026_roster_manual_overrides.csv,ROBERT LOUIS HUNTER,0.0,0,0.0
+2026,house,28,R,Mack N Butler,0.9783912576161898,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,MACK N BUTLER,0.0,0,0.0
+2026,house,29,R,Mark A. Gidley,0.944889898811068,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,MARK A GIDLEY,0.0,0,0.0
+2026,house,30,R,Craig Lipscomb,0.9761182154927937,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,CRAIG LIPSCOMB,0.0,0,0.0
+2026,house,31,R,Troy B.Stubbs,0.9921667942633996,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,TROY B STUBBS,0.0,0,0.0
+2026,house,32,D,Debra D Foster,0.9737036270754678,3.0,name_to_provisional,Debra Foster,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,DEBRA D FOSTER,0.0,0,0.0
+2026,house,32,R,Joey Callahan,0.9781686480228716,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,JOEY CALLAHAN,0.0,0,0.0
+2026,house,33,R,Ben Robbins,0.9847613342783668,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,BEN ROBBINS,6.952152314801065,1,2.3173841049336885
+2026,house,34,R,David Standridge,0.9977036728100344,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,DAVID STANDRIDGE,0.0,0,0.0
+2026,house,35,R,Steve Hurst,0.9811484542759982,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,STEVE HURST,0.0,0,0.0
+2026,house,36,R,Randy Wood,0.973540119149468,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,RANDY WOOD,9.985859641974665,2,4.9929298209873325
+2026,house,37,D,Michelle French,0.9861461043357848,3.0,name_to_provisional,Michelle French,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,MICHELLE FRENCH,0.0,0,0.0
+2026,house,37,R,Jeff Monroe,,,manual_override,,,,manual_reviewed_authoritative,2026_roster_manual_overrides.csv,JEFF MONROE,0.0,0,0.0
+2026,house,38,D,Hazel Floyd,0.9934874266386032,3.0,name_to_provisional,Hazel Floyd,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,HAZEL FLOYD,0.0,0,0.0
+2026,house,38,R,Kristin Nelson,0.98891826515848,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,KRISTIN NELSON,0.0,0,0.0
+2026,house,39,R,Ginny Shaver,0.9792463088577444,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,GINNY SHAVER,0.0,0,0.0
+2026,house,40,D,Pam Howard,0.9643360316753388,4.0,name_to_provisional,Pam Howard,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,PAM HOWARD,-9.593217041904376,1,-3.197739013968125
+2026,house,40,R,ChadRobertson,0.9886813773350284,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,CHADROBERTSON,0.0,0,0.0
+2026,house,41,D,David J. A. Morgan,,,manual_override,,,,manual_reviewed_authoritative,2026_roster_manual_overrides.csv,DAVID J A MORGAN,0.0,0,0.0
+2026,house,41,R,Corley Ellis,0.9860107352336248,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,CORLEY ELLIS,2.9230655694529375,2,1.4615327847264687
+2026,house,42,R,Van Smith,0.9811775022082858,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,VAN SMITH,0.0,0,0.0
+2026,house,43,D,TaylorCook,0.9784711480140686,4.0,name_to_provisional,Taylor Cook,0.5714285714285715,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,TAYLORCOOK,0.0,0,0.0
+2026,house,43,R,Arnold Mooney,0.9706132824604328,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,ARNOLD MOONEY,-12.794986652417698,1,-4.264995550805899
+2026,house,44,R,Danny Garrett,0.9934703157498286,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,DANNY GARRETT,0.0,0,0.0
+2026,house,45,D,Toni Kornegay Vaughn,0.9434064835309982,4.0,name_to_provisional,Toni Kornegay Vaughn,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,TONI KORNEGAY VAUGHN,0.0,0,0.0
+2026,house,45,R,Susan DuBose,0.966932401061058,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,SUSAN DUBOSE,0.0,0,0.0
+2026,house,46,R,David L. Faulkner,0.983938366174698,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,DAVID L FAULKNER,0.0,0,0.0
+2026,house,47,D,Jim Toomey,0.9713691890239716,4.0,name_to_provisional,Jim Toomey,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,JIM TOOMEY,0.9284617551071488,1,0.30948725170238295
+2026,house,47,R,MikeShaw,0.9822219528935172,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,MIKESHAW,0.0,0,0.0
+2026,house,48,R,Lloyd Peeples,0.9853645265102386,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,LLOYD PEEPLES,0.0,0,0.0
+2026,house,49,R,Russell Bedsole,0.9534257570902508,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,RUSSELL BEDSOLE,0.0,0,0.0
+2026,house,50,D,Alan Thomas,0.9799004955725236,4.0,name_to_provisional,Alan Thomas,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,ALAN THOMAS,0.0,0,0.0
+2026,house,50,R,Bill Morris,0.9958112239837646,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,BILL MORRIS,0.0,0,0.0
+2026,house,51,R,Allen Treadaway,,,manual_override,,,,manual_reviewed_authoritative,2026_roster_manual_overrides.csv,ALLEN TREADAWAY,-19.89421923862408,1,-6.631406412874693
+2026,house,52,D,GiGi Hayes,,,manual_override,,,,manual_reviewed_authoritative,2026_roster_manual_overrides.csv,GIGI HAYES,0.0,0,0.0
+2026,house,53,D,Anthony Daniels,0.9833695769309998,4.0,name_to_provisional,Anthony Daniels,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,ANTHONY DANIELS,43.94334802020714,1,14.64778267340238
+2026,house,54,D,Neil Rafferty,0.9640051172329828,4.0,name_to_provisional,Neil Rafferty,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,NEIL RAFFERTY,0.0,0,0.0
+2026,house,55,D,Travis Hendrix,0.972653763634818,4.0,name_to_provisional,Travis Hendrix,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,TRAVIS HENDRIX,0.0,0,0.0
+2026,house,56,D,Ontario J Tillman,0.9595318331437952,4.0,name_to_provisional,Ontario Tillman,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,ONTARIO J TILLMAN,0.0,0,0.0
+2026,house,57,D,Patrick Sellers,0.9903886834780375,4.0,name_to_provisional,Patrick Sellers,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,PATRICK SELLERS,3.0853604852544123,1,1.028453495084804
+2026,house,58,D,Rolanda Hollis,0.9618752896785736,4.0,name_to_provisional,Rolanda Hollis,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,ROLANDA HOLLIS,0.0,0,0.0
+2026,house,59,D,Mary Moore,0.9950431883335114,4.0,name_to_provisional,Mary Moore,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,MARY MOORE,0.0,0,0.0
+2026,house,60,D,Alicia Escott Lumpkin,0.9688871562480926,4.0,name_to_provisional,Alicia Escott Lumpkin,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,ALICIA ESCOTT LUMPKIN,0.0,0,0.0
+2026,house,61,R,Ron Bolton,0.9914681058038364,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,RON BOLTON,0.0,0,0.0
+2026,house,62,R,Bill Lamb,0.8958408368958367,5.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,BILL LAMB,14.66349655960562,1,4.887832186535207
+2026,house,63,D,JudithTaylor,0.970112246274948,4.0,name_to_provisional,Judith Taylor,0.96,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,JUDITHTAYLOR,0.0,0,0.0
+2026,house,63,R,Norman Crow,0.91669024662538,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,NORMAN CROW,0.0,0,0.0
+2026,house,64,R,Donna Givens,0.9817566749724476,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,DONNA GIVENS,0.0,0,0.0
+2026,house,65,R,John Knapp,0.9715772379528392,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,JOHN KNAPP,0.0,0,0.0
+2026,house,66,R,Alan Baker,0.9484211385250092,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,ALAN BAKER,-31.66712754563757,2,-15.833563772818785
+2026,house,67,D,Prince Chestnut,0.9928239196538924,4.0,name_to_provisional,Prince Chestnut,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,PRINCE CHESTNUT,0.0,0,0.0
+2026,house,68,D,Thomas E. Action Jackson,,,manual_override,,,,manual_reviewed_authoritative,2026_roster_manual_overrides.csv,THOMAS E ACTION JACKSON,-15.251894326172236,1,-5.083964775390745
+2026,house,68,R,Fred Kelley,0.9557440389286388,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,FRED KELLEY,15.251894326172236,1,5.083964775390745
+2026,house,69,D,Kelvin J Lawrence,0.9743936508893968,4.0,name_to_provisional,Kelvin Lawrence,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,KELVIN J LAWRENCE,-2.769593781495555,2,-1.3847968907477775
+2026,house,69,R,Josh Pendergrass,0.9917381182312964,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,JOSH PENDERGRASS,0.0,0,0.0
+2026,house,70,D,Christopher John England,0.9926822260022165,4.0,name_to_provisional,Christopher J. England,0.95,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,CHRISTOPHER JOHN ENGLAND,0.0,0,0.0
+2026,house,70,R,Ian M. Chwatuk,,,manual_override,,,,manual_reviewed_authoritative,2026_roster_manual_overrides.csv,IAN M CHWATUK,0.0,0,0.0
+2026,house,71,D,"Artis ""A.J."" McCampbell ",0.9693309366703032,4.0,name_to_provisional,Artis J. McCampbell,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,ARTIS A J MCCAMPBELL,0.0,0,0.0
+2026,house,72,D,Curtis L Travis,0.9419084280729294,4.0,name_to_provisional,Curtis Travis,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,CURTIS L TRAVIS,0.0,0,0.0
+2026,house,73,R,Kenneth Paschal,0.9845101952552796,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,KENNETH PASCHAL,0.0,0,0.0
+2026,house,74,D,Jasmyne Crimiel,0.983758854866028,4.0,name_to_provisional,Jasmyne Crimiel,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,JASMYNE CRIMIEL,0.0,0,0.0
+2026,house,74,R,Alva Lambert,0.9749587227900824,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,ALVA LAMBERT,0.0,0,0.0
+2026,house,75,D,Tisha Dickson Nickson,,,manual_override,,,,manual_reviewed_authoritative,2026_roster_manual_overrides.csv,TISHA DICKSON NICKSON,0.0,0,0.0
+2026,house,75,R,Reed Ingram,0.9931369843808088,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,REED INGRAM,0.0,0,0.0
+2026,house,76,D,Patrice Penni McClammy,,,manual_override,,,,manual_reviewed_authoritative,2026_roster_manual_overrides.csv,PATRICE PENNI MCCLAMMY,0.0,0,0.0
+2026,house,77,D,TaShinaMorris,0.9744444996118544,4.0,name_to_provisional,Tashina Morris,0.5185185185185186,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,TASHINAMORRIS,0.0,0,0.0
+2026,house,78,D,Kenyatte Hassell,0.9923191398382188,4.0,name_to_provisional,Kenyatté Hassell,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,KENYATTE HASSELL,0.0,0,0.0
+2026,house,79,R,Joe Lovvorn,0.9782581261613152,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,JOE LOVVORN,-10.070172893730907,1,-3.3567242979103025
+2026,house,80,D,Manfred Malone,0.9763110535485404,4.0,name_to_provisional,Manfred Malone,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,MANFRED MALONE,0.0,0,0.0
+2026,house,80,R,Chris Blackshear,0.9748719073832036,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,CHRIS BLACKSHEAR,0.0,0,0.0
+2026,house,81,R,Ed Oliver,0.953094826804267,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,ED OLIVER,9.53917427644774,1,3.1797247588159134
+2026,house,82,D,Pebblin W. Warren,,,manual_override,,,,manual_reviewed_authoritative,2026_roster_manual_overrides.csv,PEBBLIN W WARREN,0.0,0,0.0
+2026,house,82,R,Kinsley Hammons,0.9909780296412382,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,KINSLEY HAMMONS,0.0,0,0.0
+2026,house,83,D,Jeremy A. Gray,0.9951301515102386,5.0,name_to_provisional,Jeremy Gray,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,JEREMY A GRAY,0.0,0,0.0
+2026,house,84,D,Berry Forte,0.9457656532526016,5.0,name_to_provisional,Berry Forte,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,BERRY FORTE,-9.617885095147434,2,-4.808942547573717
+2026,house,85,D,Aristotle Onassis Kirkland,,,manual_override,,,,manual_reviewed_authoritative,2026_roster_manual_overrides.csv,ARISTOTLE ONASSIS KIRKLAND,0.0,0,0.0
+2026,house,85,R,Rick Rehm,0.9447648326555887,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,RICK REHM,4.54201572701654,1,1.5140052423388468
+2026,house,86,R,Paul Lee,0.9768895967440172,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,PAUL LEE,12.18099008212468,1,4.060330027374893
+2026,house,87,R,Jeff Sorrells,0.9919511033938482,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,JEFF SORRELLS,0.0,0,0.0
+2026,house,88,R,Jerry Starnes,0.96901345711488,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,JERRY STARNES,0.0,0,0.0
+2026,house,89,R,MarcusB.Paramore,0.9860342930663716,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,MARCUSB PARAMORE,0.0,0,0.0
+2026,house,90,R,Chris Sells,0.9760331348939376,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,CHRIS SELLS,21.103253984557874,2,10.551626992278937
+2026,house,91,R,Jody Linton,0.9534009044820612,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,JODY LINTON,0.0,0,0.0
+2026,house,92,R,MatthewHammett,0.9933049295629772,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,MATTHEWHAMMETT,0.0,0,0.0
+2026,house,93,R,Steve Clouse,0.9812484284241996,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,STEVE CLOUSE,33.688595950151836,2,16.844297975075918
+2026,house,94,R,Jennifer Fidler,0.9765746752421062,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,JENNIFER FIDLER,0.0,0,0.0
+2026,house,95,R,Frances Holk-Jones,,,manual_override,,,,manual_reviewed_authoritative,2026_roster_manual_overrides.csv,FRANCES HOLK JONES,7.5148734767004814,1,2.504957825566827
+2026,house,96,D,TerriOsborne,0.9799701392650604,5.0,name_to_provisional,Terri Osborne,0.56,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,TERRIOSBORNE,0.0,0,0.0
+2026,house,96,R,Danielle Duggar,0.9873901063745671,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,DANIELLE DUGGAR,0.0,0,0.0
+2026,house,97,D,Adline C. Clarke,0.961154405027628,5.0,name_to_provisional,Adline Clarke,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,ADLINE C CLARKE,-15.933517944528017,1,-5.311172648176005
+2026,house,98,D,"Napoleon Bracy, Jr.",0.9860525256709048,5.0,name_to_provisional,Napoleon Bracy Jr.,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,NAPOLEON BRACY JR,19.092618169677266,2,9.546309084838633
+2026,house,99,D,Sam Jones,0.9843629333708022,5.0,name_to_provisional,Sam Jones,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,SAM JONES,4.379171232586884,1,1.4597237441956281
+2026,house,99,R,Charlie Watts,0.9357042816969064,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,CHARLIE WATTS,0.0,0,0.0
+2026,house,100,R,MarkShirey,0.952897483110428,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,MARKSHIREY,0.0,0,0.0
+2026,house,101,D,Joan Friedlander,0.9610598050057888,5.0,name_to_provisional,Joan Friedlander,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,JOAN FRIEDLANDER,0.0,0,0.0
+2026,house,101,R,Chris Pringle,0.9754676169819302,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,CHRIS PRINGLE,0.0,0,0.0
+2026,house,102,R,Shane Stringer,0.9526893837111337,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,SHANE STRINGER,0.0,0,0.0
+2026,house,103,D,Barbara Drummond,0.9785425901412964,5.0,name_to_provisional,Barbara Drummond,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,BARBARA DRUMMOND,0.0,0,0.0
+2026,house,104,R,Margie Wilcox,0.9893602569897968,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,MARGIE WILCOX,7.165541630896833,1,2.388513876965611
+2026,house,105,R,Chip Brown,0.951097160577774,6.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,CHIP BROWN,0.0,0,0.0
+2026,senate,1,R,Tim Melson,0.978732410938509,3.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,TIM MELSON,-12.298963491033769,2,-6.149481745516884
+2026,senate,2,D,Rudolph Valentino Drake,1.0,1.0,runoff_certificate,,,2.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,RUDOLPH VALENTINO DRAKE,0.0,0,0.0
+2026,senate,2,R,John Roberts,0.9890685180823008,3.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,JOHN ROBERTS,0.0,0,0.0
+2026,senate,3,D,John Dickey,0.9856248227032748,2.0,name_to_provisional,John Dickey,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,JOHN DICKEY,0.0,0,0.0
+2026,senate,3,R,Arthur Orr,0.9891449597574048,3.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,ARTHUR ORR,0.0,0,0.0
+2026,senate,4,R,Garlan Gudger,0.9940480493730114,3.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,GARLAN GUDGER,0.0,0,0.0
+2026,senate,5,R,Matt Woods,0.9734242462342784,3.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,MATT WOODS,0.0,0,0.0
+2026,senate,6,D,Bobby Martin,0.9870180441783024,2.0,name_to_provisional,Bobby Martin,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,BOBBY MARTIN,0.0,0,0.0
+2026,senate,6,R,Larry Stutts,0.9663470486799876,3.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,LARRY STUTTS,-19.443712314767343,2,-9.721856157383671
+2026,senate,7,D,Jared Sluss,0.9548657103018328,2.0,name_to_provisional,Jared Sluss,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,JARED SLUSS,0.0,0,0.0
+2026,senate,7,R,Sam Givhan,0.9904521511447044,3.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,SAM GIVHAN,-7.375548415913133,2,-3.6877742079565663
+2026,senate,8,D,Katie Kramer,0.9778521152643056,2.0,name_to_provisional,Katie Kramer,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,KATIE KRAMER,0.0,0,0.0
+2026,senate,8,R,Steve Livingston,0.9912773063105922,3.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,STEVE LIVINGSTON,12.6022579986118,1,4.200752666203933
+2026,senate,9,R,WesKitchens,0.9878437115300086,3.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,WESKITCHENS,0.0,0,0.0
+2026,senate,10,I,Jesse Battles,,,manual_override,,,,manual_reviewed_authoritative,2026_roster_manual_overrides.csv,JESSE BATTLES,0.0,0,0.0
+2026,senate,10,R,Andrew Jones,,,manual_override,,,,manual_reviewed_authoritative,2026_roster_manual_overrides.csv,ANDREW JONES,0.0,0,0.0
+2026,senate,11,D,Donald J. Mottern,0.9875956590359029,2.0,name_to_provisional,Donald Mottern,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,DONALD J MOTTERN,0.0,0,0.0
+2026,senate,11,R,Lance Bell,0.9475565373897552,3.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,LANCE BELL,0.0,0,0.0
+2026,senate,12,R,Keith Kelley,0.9569633503754934,3.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,KEITH KELLEY,3.733673730105461,1,1.2445579100351536
+2026,senate,13,D,Jamie Forsyth,0.9692112528360808,2.0,name_to_provisional,Jamie Forsyth,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,JAMIE FORSYTH,0.0,0,0.0
+2026,senate,13,R,Randy Price,0.9850722271949052,3.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,RANDY PRICE,3.186389615963722,1,1.0621298719879073
+2026,senate,14,D,Mandie Ledkins,0.9626242220401764,2.0,name_to_provisional,Mandie Ledkins,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,MANDIE LEDKINS,0.0,0,0.0
+2026,senate,14,R,April Weaver,0.9846645792325338,3.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,APRIL WEAVER,0.0,0,0.0
+2026,senate,15,R,Scott Ortis,0.9824563589963046,3.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,SCOTT ORTIS,0.0,0,0.0
+2026,senate,16,D,Spencer Stone,0.9581696024307838,3.0,name_to_provisional,Spencer Stone,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,SPENCER STONE,0.0,0,0.0
+2026,senate,16,R,"J.T.""Jabo""Waggoner",0.9914187358485328,3.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,J T JABO WAGGONER,11.69424912785255,2,5.847124563926275
+2026,senate,17,R,Shay Shelnutt,0.9882226139307022,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,SHAY SHELNUTT,0.0,0,0.0
+2026,senate,18,D,Rodger M. Smitherman ,0.9891649796849206,3.0,name_to_provisional,Rodger Smitherman,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,RODGER M SMITHERMAN,0.0,0,0.0
+2026,senate,19,D,Merika Coleman,0.9796907901763916,3.0,name_to_provisional,Merika Coleman,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,MERIKA COLEMAN,0.0,0,0.0
+2026,senate,20,D,Linda Coleman-Madison,0.9797563736255352,3.0,name_to_provisional,Linda Coleman-Madison,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,LINDA COLEMAN MADISON,0.0,0,0.0
+2026,senate,21,R,Gerald Allen,0.9786672790845236,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,GERALD ALLEN,-3.634436072207145,4,-2.4229573814714302
+2026,senate,22,D,Ashley Sharpe,0.9753456161572382,3.0,name_to_provisional,Ashley Sharpe,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,ASHLEY SHARPE,0.0,0,0.0
+2026,senate,22,R,Terry L. Waters,0.9727724512418112,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,TERRY L WATERS,0.0,0,0.0
+2026,senate,23,D,Robert Stewart,0.9919811349648696,3.0,name_to_provisional,Robert Stewart,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,ROBERT STEWART,0.0,0,0.0
+2026,senate,23,R,Thayer Bear Havard Spencer,,,manual_override,,,,manual_reviewed_authoritative,2026_roster_manual_overrides.csv,THAYER BEAR HAVARD SPENCER,0.0,0,0.0
+2026,senate,24,D,Bobby Singleton,0.99439314695505,3.0,name_to_provisional,Bobby Singleton,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,BOBBY SINGLETON,0.0,0,0.0
+2026,senate,26,D,Kirk Hatcher,,,manual_override,,,,manual_reviewed_authoritative,2026_roster_manual_overrides.csv,KIRK HATCHER,0.0,0,0.0
+2026,senate,27,R,Jay Hovey,0.9804103705618116,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,JAY HOVEY,1.902486220154092,1,0.6341620733846973
+2026,senate,28,D,Billy Beasley,0.9610583552947412,3.0,name_to_provisional,Billy Beasley,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,BILLY BEASLEY,11.28343427694548,2,5.64171713847274
+2026,senate,28,R,Brent Comer,0.9947337399829518,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,BRENT COMER,0.0,0,0.0
+2026,senate,29,D,JimmyMcCray,0.9816663035979638,3.0,name_to_provisional,Jimmy McCray,0.9565217391304348,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,JIMMYMCCRAY,0.0,0,0.0
+2026,senate,29,R,Donnie Chesteen,0.994459554553032,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,DONNIE CHESTEEN,6.990287783781238,1,2.330095927927079
+2026,senate,30,R,"Clyde Chambliss, Jr.",0.9948158174753188,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,CLYDE CHAMBLISS JR,0.0,0,0.0
+2026,senate,31,R,Josh Carnley,0.9655672945082188,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,JOSH CARNLEY,0.0,0,0.0
+2026,senate,32,D,Janet Appleby,0.9633295352642351,3.0,name_to_provisional,Janet Appleby,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,JANET APPLEBY,0.0,0,0.0
+2026,senate,32,R,Chris Elliott,0.954430552629324,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,CHRIS ELLIOTT,2.785492984781305,1,0.9284976615937683
+2026,senate,33,D,Vivian Davis Figures,0.988955598611098,3.0,name_to_provisional,Vivian Davis Figures,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf,VIVIAN DAVIS FIGURES,4.9077194352494855,2,2.4538597176247428
+2026,senate,34,R,Rusty Glover,0.9653369933366776,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,RUSTY GLOVER,0.0,0,0.0
+2026,senate,35,R,David Sessions,0.9861235693097116,4.0,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf,DAVID SESSIONS,8.972210846556305,1,2.9907369488521014

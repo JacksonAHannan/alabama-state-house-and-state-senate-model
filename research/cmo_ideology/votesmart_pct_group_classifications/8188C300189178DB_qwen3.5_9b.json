@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_environment_traditional_energy",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting increased development of traditional energy resources like coal and natural gas is conventionally associated with progressive economic policies in this context.",
+  "evidence_quote": "f) Support increased development of traditional energy resources (e.g. coal, natural gas, oil).",
+  "needs_human_review": false,
+  "review_reason": ""
+}

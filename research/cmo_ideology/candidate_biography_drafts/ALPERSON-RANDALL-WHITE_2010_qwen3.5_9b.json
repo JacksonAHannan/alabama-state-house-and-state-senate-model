@@ -1,0 +1,29 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "Randall White was a Democratic candidate in the 2010 Alabama House District 26 race, where he lost to Republican Kerry Rich. He is described as a lifelong district resident and a recently retired adult-education supervisor.",
+  "offices_and_public_service": [
+    "adult education supervisor"
+  ],
+  "profession_and_employment": [],
+  "education": [],
+  "community_and_local_ties": [
+    "lifelong district resident"
+  ],
+  "political_profile": [
+    "Democratic",
+    "culturally conservative (per contemporaneous blog)"
+  ],
+  "important_caveats": [
+    "The broad conservative classification is provisional and low confidence.",
+    "Local-root and educator facts require independent corroboration."
+  ],
+  "source_urls_used": [
+    "https://wantedalabamademocrats.blogspot.com/2010/10/",
+    "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/2010-sample-ballots/Marshall-2010-Sample.pdf"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://wantedalabamademocrats.blogspot.com/2010/10/",
+    "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/2010-sample-ballots/Marshall-2010-Sample.pdf"
+  ]
+}

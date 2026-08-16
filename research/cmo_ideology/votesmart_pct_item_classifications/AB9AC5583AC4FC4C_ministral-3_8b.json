@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_k12_funding",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase funding for K-12 education beyond current levels.",
+  "evidence_quote": "Indicate the funding levels you will support for the following general categories. Select one level only.\nOption: b) Education (K-12)",
+  "needs_human_review": false,
+  "review_reason": ""
+}

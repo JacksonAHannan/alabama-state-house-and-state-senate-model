@@ -1,0 +1,18 @@
+{
+  "plain_english_policy": "The provided document is a legislative bill (HB566) from Alabama that outlines regulations for using photographic traffic signal enforcement systems to enforce red light violations. Here\u2019s a simplified breakdown of its key points in plain English:",
+  "policy_direction_if_enacted": "1. **Photographic Traffic Signal Enforcement Systems**: Cities can use cameras at intersections to capture images of vehicles running red lights and issue civil fines for these violations.",
+  "ideological_valence": "progressive",
+  "local_or_ceremonial": true,
+  "sponsorship_supports_position": "The bill was sponsored by the Alabama legislature and passed through both houses.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "A person who violates a red light can be fined up to $250, with an additional $25 late fee per month if not paid on time.",
+    "The city will have the right to file a civil judgment against the vehicle owner for non-payment of fines.",
+    "If the identity of the vehicle or its owner cannot be reliably established from the camera footage, no violation notice can be issued.",
+    "Courts will use a preponderance of evidence standard in determining liability for these violations.",
+    "The city must provide an attorney to represent it during appeals in circuit court.",
+    "Violations under this act are civil and not criminal; they won\u2019t affect driving records or insurance premiums."
+  ],
+  "needs_human_review": true,
+  "review_reason": "The bill is complex with several legal nuances, including the process for appeals, late fees, and potential liability shifts to vehicle operators. It also involves specific procedural requirements that need careful review by a legal expert."
+}

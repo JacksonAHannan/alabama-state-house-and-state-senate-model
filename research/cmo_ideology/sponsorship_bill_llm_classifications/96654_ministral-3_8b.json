@@ -1,0 +1,14 @@
+{
+  "plain_english_policy": "This bill (HB414) would impose a hard cap on political action committee (PAC) contributions to Alabama candidates during any single election cycle\u2014specifically **$1,000 per candidate**, regardless of whether the contribution is cash or in-kind. The legislation does not address individual donor limits, only PACs\u2019 aggregate giving to a single candidate.",
+  "policy_direction_if_enacted": "The bill signals a **pro-transparency/pro-regulation** stance on campaign finance by explicitly restricting corporate/interest-group influence via PACs. It would reduce the ability of well-funded PACs (often tied to corporations, unions, or advocacy groups) to dominate candidate financing in Alabama elections. The $1,000 limit is modest compared to federal standards but represents a **first state-level restriction** on PAC contributions in Alabama\u2019s history (per the bill\u2019s synopsis).",
+  "ideological_valence": "conservative",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "The bill\u2019s text and metadata suggest sponsors sought to curb PAC influence without targeting individual donors or party committees. No ideological inference beyond the bill\u2019s explicit language is warranted.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "Under existing law, there are no restrictions regarding the amount of contributions a political action committee may make to a political candidate.",
+    "This bill would limit contributions by a political action committee to a candidate to $1,000 per election."
+  ],
+  "needs_human_review": false,
+  "review_reason": "The bill\u2019s intent is unambiguous: it creates a new legal cap on PAC contributions. No ceremonial or appropriations-only elements are present."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_common_core",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks for a position on Common Core standards without providing specific policy details or ideological framing.",
+  "evidence_quote": "Do you support the national Common Core State Standards initiative?",
+  "needs_human_review": true,
+  "review_reason": "This is a binary question about federal education standards that does not inherently lean conservative or progressive; it depends on state-level interpretation and political context."
+}

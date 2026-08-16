@@ -1,0 +1,21 @@
+{
+  "primary_issue": "abortion",
+  "secondary_issues": [
+    "criminal_justice",
+    "public_education"
+  ],
+  "plain_english_revision": "The amendment adds exceptions to Alabama's abortion ban for pregnancies resulting from rape or incest, but only in specific contexts: (1) when reporting the crime to law enforcement, and (2) when terminating a pregnancy that arose from such crimes. It does not alter penalties for abortion itself nor does it address broader reproductive healthcare access.",
+  "revision_direction": "restricts_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Advances exceptions to criminal penalties for abortions performed in cases of rape or incest, contingent on reporting the crime and/or pregnancy termination resulting from such crimes.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "of rape or incest or",
+    "(lines 10-11)",
+    "of rape or incest or",
+    "(lines 14-15)",
+    ", or if done to terminate the pregnancy of a woman for whom the pregnancy was a result of rape or incest"
+  ],
+  "needs_human_review": true,
+  "review_reason": "The amendment's intent is ambiguous without context on whether it modifies reporting requirements, criminal liability, or both. The text does not clarify if these exceptions apply to all abortion-related offenses (e.g., attempted abortion) or only specific provisions."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "law_enforcement_spending",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "funding for law enforcement agencies (e.g., police, courts)",
+  "evidence_quote": "Law enforcement",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_marijuana_decriminalization",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Decriminalizing possession of small amounts of marijuana is a progressive policy option that aligns with reducing criminal penalties for non-violent drug offenses.",
+  "evidence_quote": "f) Decriminalize the possession of small amounts of marijuana.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

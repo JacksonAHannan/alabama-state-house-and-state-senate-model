@@ -1,0 +1,21 @@
+{
+  "primary_issue": "Immigration Detainers and Enforcement",
+  "secondary_issues": [
+    "Jail Procedures",
+    "Verification of Immigration Status",
+    "Reporting Requirements"
+  ],
+  "plain_english_change": "This bill introduces stricter rules for Alabama jails regarding the handling of inmates with potential immigration issues. Here are the key changes it proposes:",
+  "vote_stage": "final_passage",
+  "substantive_vote": true,
+  "yea_policy_effect": "The bill is likely to increase enforcement efforts against undocumented immigrants by mandating that jails verify immigration status and hold individuals based on detainers from U.S. Immigration and Customs Enforcement (ICE).",
+  "ideological_valence": "conservative",
+  "confidence": "high",
+  "evidence_quotes": [
+    "\"An immigration warrant signed by any immigration official other than a federal judge or federal magistrate shall be treated as an immigration detainer.\"",
+    "\"The jail staff shall maintain in each inmate's file a record of all communications with ICE.\"",
+    "\"A reasonable effort shall be made to verify that the foreign national has been admitted to the United States and, if lawfully admitted, that the lawful status has not expired.\""
+  ],
+  "needs_human_review": true,
+  "review_reason": "The bill introduces significant changes in how jails handle immigration detainers and verification processes. It is crucial to ensure these measures are implemented without violating constitutional rights or creating undue burdens on local law enforcement agencies."
+}

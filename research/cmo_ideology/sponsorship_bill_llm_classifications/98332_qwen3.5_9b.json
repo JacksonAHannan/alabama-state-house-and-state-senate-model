@@ -1,0 +1,15 @@
+{
+  "plain_english_policy": "Enactment would prohibit drivers in Alabama from using handheld devices to text message while operating a motor vehicle on public roads. It also bans manually operating handheld GPS navigation systems while driving. The policy establishes specific monetary fines for violations ($25, $50, and $75 depending on the number of offenses), assigns one point to the driver's record per conviction, and prevents insurance premiums from increasing or being reported due solely to this violation. Law enforcement may issue citations based on these rules as primary or secondary infractions but cannot search a vehicle solely for this offense.",
+  "policy_direction_if_enacted": "The policy direction is restrictive regarding distracted driving technology use while operating a vehicle, aiming to reduce accidents caused by texting and manual GPS operation through financial penalties and record-keeping measures.",
+  "ideological_valence": "conservative",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "The sponsors affirmatively advanced a bill that restricts driver behavior regarding handheld device usage.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "This bill would prohibit a person from operating a motor vehicle while text messaging or operating a handheld global positioning system (GPS)",
+    "(b) A person may not operate a motor vehicle on a public road, street, or highway in Alabama while using a wireless telecommunication device to write, send, or read a text-based communication",
+    "A violation of this act shall not result, in and of itself, in an increase or cancellation in the automobile insurance of the person convicted"
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

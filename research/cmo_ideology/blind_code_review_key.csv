@@ -1,0 +1,106 @@
+anonymous_case_id,person_id,candidate,election_cycle,dimension,coded_value,review_status
+CASE-132CFEE89E,ALPERSON-GREG-VARNER,Greg Varner,2010,localism_personal_vote,1,retrospective_pre_election_biographical_fact
+CASE-1BB9FDBAC6,ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,economic_ideology,-1,provisional
+CASE-1BB9FDBAC6,ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,localism_personal_vote,1,provisional
+CASE-1EC5602ADB,ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,abortion_position,-1,provisional
+CASE-1EC5602ADB,ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,economic_ideology,-1,provisional
+CASE-1EC5602ADB,ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,localism_personal_vote,2,provisional
+CASE-25EED9A96C,ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,economic_ideology,-1,provisional
+CASE-25EED9A96C,ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,labor_position,-1,provisional
+CASE-25EED9A96C,ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,localism_personal_vote,2,provisional
+CASE-29D86F0B63,ALPERSON-CRAIG-FORD,Craig Ford,2014,economic_ideology,-1,retrospective_profile
+CASE-29D86F0B63,ALPERSON-CRAIG-FORD,Craig Ford,2014,guns_position,2,retrospective_profile
+CASE-29D86F0B63,ALPERSON-CRAIG-FORD,Craig Ford,2014,overall_ideological_valence,1,verified
+CASE-29D86F0B63,ALPERSON-CRAIG-FORD,Craig Ford,2014,party_independence,2,retrospective_profile
+CASE-2E5602F68F,ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,economic_ideology,-1,verified
+CASE-327A02E177,ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,abortion_position,-1,post_election_evidence
+CASE-327A02E177,ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,business_alignment,1,verified
+CASE-327A02E177,ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,economic_ideology,-1,post_election_evidence
+CASE-327A02E177,ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,guns_position,-1,post_election_evidence
+CASE-327A02E177,ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,labor_position,-2,retrospective_pre_election_biographical_fact
+CASE-3F2CCBB5FA,ALPERSON-DARRELL-TURNER,Darrell Turner,2014,campaign_resources,,verified
+CASE-3F2CCBB5FA,ALPERSON-DARRELL-TURNER,Darrell Turner,2014,economic_ideology,-1,verified
+CASE-3F2CCBB5FA,ALPERSON-DARRELL-TURNER,Darrell Turner,2014,labor_position,-2,verified
+CASE-3F2CCBB5FA,ALPERSON-DARRELL-TURNER,Darrell Turner,2014,opponent_quality_context,,verified_allegation_not_adjudication
+CASE-3F2CCBB5FA,ALPERSON-DARRELL-TURNER,Darrell Turner,2014,party_independence,1,verified
+CASE-511C11F86D,ALPERSON-NATHANIEL-LEDBETTER,Nathaniel Ledbetter,2010,party_identity,verified_democrat,verified
+CASE-511C11F86D,ALPERSON-NATHANIEL-LEDBETTER,Nathaniel Ledbetter,2010,social_ideology,2,post_election_retrospective
+CASE-602E4C7D32,ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,economic_ideology,-1,verified
+CASE-602E4C7D32,ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,economic_ideology,-1,post_election_corroboration
+CASE-602E4C7D32,ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,labor_position,-1,verified_context
+CASE-602E4C7D32,ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,localism_personal_vote,1,verified_biographical
+CASE-602E4C7D32,ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,overall_ideological_valence,0,verified
+CASE-622D164966,ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,economic_ideology,-1,verified
+CASE-622D164966,ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,labor_position,-1,provisional
+CASE-7187CE22B3,ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,economic_ideology,-1,provisional
+CASE-7187CE22B3,ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,party_independence,2,provisional
+CASE-7187CE22B3,ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,social_ideology,-2,verified_blind_review
+CASE-761DA4B6CE,ALPERSON-HOLMES,Mike Holmes,2014,party_identity,invalid,verified
+CASE-761DA4B6CE,ALPERSON-HOLMES,Mike Holmes,2014,party_identity,invalid,verified
+CASE-78790E22E0,ALPERSON-RANDALL-WHITE,Randall White,2010,overall_ideological_valence,1,provisional
+CASE-78790E22E0,ALPERSON-RANDALL-WHITE,Randall White,2010,party_identity,verified_democrat,verified
+CASE-882D13EE81,ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,localism_personal_vote,2,post_election_preexisting_biographical_fact
+CASE-89E653E8D7,ALPERSON-DENNIS-W-STEPHENS,Dennis W. Stephens,2014,government_reform,,verified
+CASE-8D74E3DE3E,ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,economic_ideology,-2,post_election_corroboration
+CASE-8D74E3DE3E,ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,guns_position,-2,post_election_corroboration
+CASE-8D74E3DE3E,ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,labor_position,-1,provisional
+CASE-8D74E3DE3E,ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,localism_personal_vote,2,retrospective_biography
+CASE-8D74E3DE3E,ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,overall_ideological_valence,-1,post_election_corroboration
+CASE-95BFD68A83,ALPERSON-MARC-KEAHEY,Marc Keahey,2010,guns_position,2,needs_bill_verification
+CASE-95BFD68A83,ALPERSON-MARC-KEAHEY,Marc Keahey,2010,guns_position,2,needs_bill_verification
+CASE-95FD3A196D,ALPERSON-JENNIFER-MARSDEN,Jennifer Marsden,2014,economic_ideology,-2,verified
+CASE-95FD3A196D,ALPERSON-JENNIFER-MARSDEN,Jennifer Marsden,2014,localism_personal_vote,0,verified
+CASE-95FD3A196D,ALPERSON-JENNIFER-MARSDEN,Jennifer Marsden,2014,party_independence,1,verified
+CASE-974E50234E,ALPERSON-JOHN-ROBINSON,John Robinson,2014,labor_position,-1,provisional
+CASE-974E50234E,ALPERSON-JOHN-ROBINSON,John Robinson,2014,overall_ideological_valence,1,verified
+CASE-9C2E2CFC97,ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,labor_position,-1,provisional
+CASE-9C2E2CFC97,ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,localism_personal_vote,2,provisional
+CASE-9C2E2CFC97,ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,overall_ideological_valence,2,adjudicated_blind_review
+CASE-9C2E2CFC97,ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,party_identity,verified,verified
+CASE-A420BF4DBA,ALPERSON-LOUISE-ALEXANDER,Louise Alexander,2014,localism,,verified
+CASE-A9F1773326,ALPERSON-BAKER,Alan Baker,2014,party_identity,invalid,verified
+CASE-B95512F444,ALPERSON-JAMES-C-FIELDS-JR,James C. Fields Jr.,2010,economic_ideology,-1,provisional
+CASE-B95512F444,ALPERSON-JAMES-C-FIELDS-JR,James C. Fields Jr.,2010,localism_personal_vote,2,provisional
+CASE-B95512F444,ALPERSON-JAMES-C-FIELDS-JR,James C. Fields Jr.,2010,overall_ideological_valence,1,verified
+CASE-C8D7F161AA,ALPERSON-BEDDINGFIELD,David Beddingfield,2014,labor_position,-1,provisional
+CASE-C8D7F161AA,ALPERSON-BEDDINGFIELD,David Beddingfield,2014,localism,,verified
+CASE-C8D7F161AA,ALPERSON-BEDDINGFIELD,David Beddingfield,2014,party_identity,verified_democrat,verified
+CASE-C9A0B1D472,ALPERSON-HENRY-A-WHITE,Henry A. White,2014,economic_ideology,-1,verified
+CASE-C9A0B1D472,ALPERSON-HENRY-A-WHITE,Henry A. White,2014,localism_personal_vote,2,verified
+CASE-C9A0B1D472,ALPERSON-HENRY-A-WHITE,Henry A. White,2014,overall_ideological_valence,1,verified
+CASE-C9A0B1D472,ALPERSON-HENRY-A-WHITE,Henry A. White,2014,repeat_candidate_context,,verified
+CASE-CEA4184593,ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,localism_personal_vote,2,provisional
+CASE-CEA4184593,ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,overall_ideological_valence,0,provisional_counterevidence
+CASE-CEA4184593,ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,party_identity,verified_switcher,verified
+CASE-CF6425FDCA,ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,coalition_context,,verified
+CASE-CF6425FDCA,ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,economic_ideology,-1,retrospective_profile
+CASE-CF6425FDCA,ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,localism_personal_vote,2,verified_biographical
+CASE-CF6425FDCA,ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,overall_ideological_valence,-1,verified
+CASE-D0D05CB38C,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,guns_position,-1,adjudicated_blind_review
+CASE-D0D05CB38C,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,overall_ideological_valence,-1,verified
+CASE-DDE96BA4BB,ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,labor_position,-2,provisional
+CASE-DDE96BA4BB,ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,localism_personal_vote,2,provisional
+CASE-E118DC28E8,ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2014,economic_ideology,-1,verified
+CASE-E118DC28E8,ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2014,guns_position,1,verified_narrow_position
+CASE-E118DC28E8,ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2014,localism_personal_vote,2,verified
+CASE-E2D0093589,ALPERSON-LARRY-MEANS,Larry Means,2014,economic_ideology,-1,provisional
+CASE-E2D0093589,ALPERSON-LARRY-MEANS,Larry Means,2014,guns_position,2,needs_bill_verification
+CASE-E2D0093589,ALPERSON-LARRY-MEANS,Larry Means,2014,guns_position,2,provisional
+CASE-E2D0093589,ALPERSON-LARRY-MEANS,Larry Means,2014,labor_position,-1,provisional
+CASE-E2D0093589,ALPERSON-LARRY-MEANS,Larry Means,2014,localism_personal_vote,2,verified
+CASE-E2D0093589,ALPERSON-LARRY-MEANS,Larry Means,2014,opponent_quality_context,,verified
+CASE-E84040A89A,ALPERSON-ALAN-HARPER,Alan Harper,2010,overall_ideological_valence,1,verified
+CASE-E84040A89A,ALPERSON-ALAN-HARPER,Alan Harper,2010,party_identity,verified_switcher,verified
+CASE-EC689D7331,ALPERSON-DRAMA-BRELAND,Drama Breland,2010,party_identity,verified_democrat,verified
+CASE-F33A7169AB,ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,overall_ideological_valence,1,verified_pre_election_other_chamber
+CASE-F6144B0512,ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,government_reform,,verified
+CASE-F6144B0512,ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,overall_ideological_valence,2,adjudicated_blind_review
+CASE-F6144B0512,ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,overall_ideological_valence,2,adjudicated_blind_review
+CASE-F6144B0512,ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,party_independence,2,needs_primary_source
+CASE-FB2339B984,ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,abortion_position,2,provisional
+CASE-FB2339B984,ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,economic_ideology,-1,provisional
+CASE-FB2339B984,ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,guns_position,2,provisional
+CASE-FB2339B984,ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,localism_personal_vote,2,provisional
+CASE-FB2339B984,ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,social_ideology,2,provisional
+CASE-FC84CBAA62,ALPERSON-LINDA-MEIGS,Linda Meigs,2018,economic_ideology,-1,provisional
+CASE-FC84CBAA62,ALPERSON-LINDA-MEIGS,Linda Meigs,2018,localism_personal_vote,1,provisional

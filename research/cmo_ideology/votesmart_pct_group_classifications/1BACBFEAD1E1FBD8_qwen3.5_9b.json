@@ -1,0 +1,11 @@
+{
+  "policy_key": "welfare_tax_incentives_hiring",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option proposes using tax incentives to encourage businesses to hire individuals receiving welfare benefits.",
+  "evidence_quote": "d) Provide tax incentives to businesses that hire welfare recipients.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

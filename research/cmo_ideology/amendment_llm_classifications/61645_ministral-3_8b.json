@@ -1,0 +1,19 @@
+{
+  "primary_issue": "infrastructure_energy",
+  "secondary_issues": [
+    "public_education",
+    "healthcare_medicaid"
+  ],
+  "plain_english_revision": "The amendment adds two specific provisions to SB212, a bill about establishing an Alabama Cyber Engineering School. First, it includes the Chancellor of the Alabama Community College System (or their designee) as part of the governing board for the school. Second, it allows individuals without formal degrees to qualify for certain roles if they are recognized by the board as experts.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "This amendment advances the policy effect of broadening institutional oversight and expertise criteria in state education governance, potentially to include non-traditional qualifications for leadership roles.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "The Chancellor of the Alabama Community College System, or his or her designee.",
+    "\u2014 *Amendment Text*",
+    "or be acknowledged by the board of trustees as an expert,"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment text is clear and actionable without additional context."
+}

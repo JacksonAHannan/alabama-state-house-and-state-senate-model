@@ -1,0 +1,20 @@
+{
+  "primary_issue": "gambling",
+  "secondary_issues": [
+    "gambling"
+  ],
+  "plain_english_revision": "This amendment transfers authority over construction and renovation of state educational property from the Division of Construction Management to the governing boards of specific institutions (excluding K-12 schools and those with constitutionally created boards). It mandates electronic document submission, annual reporting on public K-12 projects by the Division, and requires new higher education buildings to include tornado-rated safe spaces.",
+  "revision_direction": "decreases_funding",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "The amendment advances a policy of decentralizing construction management authority for state educational institutions (excluding K-12 and constitutionally boarded entities) to their respective governing boards while retaining centralized oversight by the Division of Construction Management for public K-12 schools. It also mandates electronic document processing, annual reporting on specific projects, and safety standards for higher education facilities.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "\"On page 1... insert in lieu thereof the following: This bill would provide that the governing board of each educational institution or state educational institution shall oversee the construction and renovation of state property as it relates to each institution, except that the Division of Construction Management shall continue to oversee construction and renovation of state property relating to public K-12 schools...\"",
+    "\"On page 5... insert in lieu thereof the following: For purposes of this article... 'educational institution' and 'state educational institution' shall have the same meaning as provided in Section 16-17-1, but shall not include public K-12 schools or public institutions of higher education with constitutionally created boards of trustees.\"",
+    "\"On page 5... delete lines 17 to 27... insert in lieu thereof the following: '(2) Any powers, authority, and jurisdiction granted to the Division of Construction Management within this section relating to an educational institution or state educational institution is hereby transferred to the governing board of each institution...'\"",
+    "\"On page 9... delete 'educational'\" [referring to context where it was removed]",
+    "\"Section 3. (a) The Division of Construction Management... shall provide for the submission and signing of documents via electronic means, at no additional cost...\""
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

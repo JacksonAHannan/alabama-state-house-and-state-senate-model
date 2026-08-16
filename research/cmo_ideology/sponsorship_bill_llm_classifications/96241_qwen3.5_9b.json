@@ -1,0 +1,16 @@
+{
+  "plain_english_policy": "If enacted, this bill would change Alabama's tax code in three specific ways. First, it removes a previous constitutional provision that allowed unlimited deductions for federal taxes paid by individuals on their state income tax returns. Second, it reinstates the ability to deduct those federal taxes but places strict limits based on how much money an individual earns: lower-income earners (under $50k single or under $100k married) can still take full deductions, while higher-earners see these deductions reduced by a percentage as their income rises above those thresholds. Third, it eliminates the state sales tax on food starting January 1, 2011, though local governments could keep charging their own taxes on food if they wish; however, candy and soft drinks are explicitly excluded from this exemption.",
+  "policy_direction_if_enacted": "The policy direction is to reduce the overall burden of state taxation for lower-to-middle-income individuals by capping federal tax deductions (which effectively increases the marginal rate slightly for high earners) while simultaneously lowering costs at grocery stores by removing sales taxes on food items, aiming to provide relief to families without increasing their income tax liability beyond a certain threshold.",
+  "ideological_valence": "conservative",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "The sponsors affirmatively advanced the bill as written. The text limits deductions for high earners and exempts food sales tax; therefore, sponsorship supports these specific fiscal constraints rather than a general reduction in all taxes.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "(b) For all tax years beginning after December 31,2010, federal income taxes paid or accrued shall be allowed as\na deduction for individual income taxpayers, subject to the\nfollowing limitations:",
+    "(1) For single, married filing separately, and head\nof household taxpayers with adjusted gross income of fifty\ntwo thousand dollars ($50,000) or less... all federal income taxes\npaid or accrued shall be allowed as a deduction.",
+    "(2) For single, married filing separately, and head\nof household taxpayers with adjusted gross income of more than\nfifty thousand dollars ($50,000), the federal income tax\ndeduction shall be reduced by an amount equal to one percent",
+    "Beginning January 1, 2011, the sale of food\nshall be exempt from state sales tax."
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

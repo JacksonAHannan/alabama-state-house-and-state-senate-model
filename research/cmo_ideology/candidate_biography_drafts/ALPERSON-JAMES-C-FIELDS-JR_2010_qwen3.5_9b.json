@@ -1,0 +1,37 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "James C. Fields Jr. was a Democratic incumbent representing Alabama House District 12 in the 2010 election, where he recorded approximately +15.6 out-of-fold Cook-McCarty (CMO) scores before losing by roughly eight margin points against Republican Mac Buttram. He grew up in and represented Cullman County, worked for the Alabama Department of Industrial Relations, served as a Methodist minister, and won a special election there in 2008. His campaign featured an issue profile that included advocating immediate passage of a half-cent sales tax for schools (January 2009) and sponsoring HB532 in 2010 to create conditions for certain first-time offenders serving life without parole to seek sentence reduction after at least 20 years.",
+  "offices_and_public_service": [
+    "Alabama House District 12, Democratic incumbent (pre-2010 election)",
+    "Cullman County Commission member"
+  ],
+  "profession_and_employment": [
+    "Worked for the Alabama Department of Industrial Relations",
+    "Methodist minister"
+  ],
+  "education": [],
+  "community_and_local_ties": [
+    "Grew up in Cullman County, Alabama",
+    "Served as a Methodist minister with local religious ties"
+  ],
+  "political_profile": [
+    "Democratic incumbent (2010)",
+    "Shor-McCarty score of -0.131 around the 64th conservative percentile of the contemporary Alabama Democratic House caucus"
+  ],
+  "important_caveats": [],
+  "source_urls_used": [
+    "https://doi.org/10.7910/DVN/GZJOT3",
+    "https://www.co.cullman.al.us/assets/PDFs/minutes/2009/01_27_09.pdf",
+    "https://www.nytimes.com/2010/02/28/magazine/28Alabama-t.html",
+    "https://wantedalabamademocrats.blogspot.com/2010/10/",
+    "https://www.apr.org/2008-01-29/special-election-today-to-fill-house-seat-in-cullman-county"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://doi.org/10.7910/DVN/GZJOT3",
+    "https://wantedalabamademocrats.blogspot.com/2010/10/",
+    "https://www.apr.org/2008-01-29/special-election-today-to-fill-house-seat-in-cullman-county",
+    "https://www.co.cullman.al.us/assets/PDFs/minutes/2009/01_27_09.pdf",
+    "https://www.nytimes.com/2010/02/28/magazine/28Alabama-t.html"
+  ]
+}

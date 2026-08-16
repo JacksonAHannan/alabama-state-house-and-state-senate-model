@@ -1,0 +1,11 @@
+{
+  "policy_key": "income_tax_low_income",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The item asks for a tax level but provides only one specific option (taxing incomes below $75k) without stating whether that represents an increase or decrease. Without knowing if the candidate supports raising taxes on this group or lowering them, no stable ideological direction can be determined.",
+  "evidence_quote": "Indicate the tax levels you will support",
+  "needs_human_review": true,
+  "review_reason": "The prompt asks to 'Select one level only' but lists a single option without context of whether it is an increase or decrease relative to current policy. This makes the direction indeterminate."
+}

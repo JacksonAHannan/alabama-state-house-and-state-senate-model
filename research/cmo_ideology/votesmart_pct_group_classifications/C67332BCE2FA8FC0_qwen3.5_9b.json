@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_budget_gas_tax",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "This option is a procedural budget stabilization measure rather than an ideological stance.",
+  "evidence_quote": "3) Budget Stabilization:Indicate which proposals you support (if any) for balancing Alabama's budget.\nOption: d) Gas/Oil taxes",
+  "needs_human_review": false,
+  "review_reason": ""
+}

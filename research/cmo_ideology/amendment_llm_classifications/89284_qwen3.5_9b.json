@@ -1,0 +1,16 @@
+{
+  "primary_issue": "taxes_budget",
+  "secondary_issues": [],
+  "plain_english_revision": "The amendment changes the bill to exempt Class 2 municipalities from a specific subsection regarding fireworks regulations.",
+  "revision_direction": "indeterminate",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Indeterminate. The text is too fragmentary and depends on unseen language (the deleted 'No' and the full context of Subsection) to determine if this change advances a specific policy position or merely clarifies an exemption.",
+  "confidence": "low",
+  "evidence_quotes": [
+    "On page 16, line 19, delete \"No\" and insert in lieu thereof the following:",
+    "Except as provided in this subsection, no...",
+    "This subsection does not apply to a Class 2 municipality."
+  ],
+  "needs_human_review": true,
+  "review_reason": "The amendment text is highly fragmentary. It references deleting 'No' and inserting new language that begins with 'Except as provided in this subsection,' but the full context of what constitutes the regulation being modified (the original Subsection) is not present. Without seeing the deleted text or the complete inserted clause, it is impossible to determine if the amendment creates a tax break for Class 2 municipalities, removes an existing restriction entirely, or simply clarifies that they were never subject to certain rules anyway."
+}

@@ -1,0 +1,18 @@
+{
+  "primary_issue": "taxes_budget",
+  "secondary_issues": [
+    "environment",
+    "business_economic_development"
+  ],
+  "plain_english_revision": "This amendment adds new rules for reporting and licensing around rentals of specific types of personal property (e.g. equipment, machinery) during emergencies. It requires anyone facilitating these transactions to report them to the state and notify lessors if they lack proper licenses. Violations would incur penalties under existing law.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Strengthening compliance with state licensing requirements for Class II/IV tangible personal property rentals by mandating transaction reporting and lessor notifications when unlicensed activity is detected",
+  "confidence": "high",
+  "evidence_quotes": [
+    "To require reporting of rental transactions... when the property is classified as Class II or Class IV property",
+    "to require notifications to the lessor when the lessor has not furnished evidence that it has acquired a license"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment text is clear and self-contained; no external context needed."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_cockfighting_penalties",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Support for increasing penalties against illegal cockfighting is conventionally more progressive as it aligns with animal welfare concerns and opposition to cruel sports.",
+  "evidence_quote": "d) Do you support increasing penalties for illegal cockfighting?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

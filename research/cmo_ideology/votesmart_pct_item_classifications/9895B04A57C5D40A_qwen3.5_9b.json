@@ -1,0 +1,11 @@
+{
+  "policy_key": "health_care_funding",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The item asks for a funding level without specifying whether higher or lower spending is preferred.",
+  "evidence_quote": "Indicate the funding levels you will support for the following general categories. Select one level only.",
+  "needs_human_review": true,
+  "review_reason": "Context-dependent spending levels"
+}

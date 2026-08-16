@@ -1,0 +1,14 @@
+{
+  "plain_english_policy": "This bill (SB413) centralizes control over livestock regulation in Alabama to the state level while restricting local governments' authority to impose their own rules on animal husbandry and cruelty enforcement. Here's a breakdown of its policy direction:",
+  "policy_direction_if_enacted": "1. **Preemption of Local Authority**: The bill explicitly prohibits counties or municipalities from adopting any ordinances, rules, or resolutions concerning livestock care or animal husbandry practices on private property. This removes local governments' ability to set their own standards for farm operations, such as noise, odor, or animal welfare regulations. *Evidence*: 'No county or municipal governing body may adopt or continue in effect any ordinance, rule, or resolution concerning the care and handling of livestock...'",
+  "ideological_valence": "conservative",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "The bill's sponsors (e.g., Senators Mitchell, Mitchem) advanced a policy that prioritizes state-level uniformity over local autonomy in agricultural regulation.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "'No county or municipal governing body may adopt... any ordinance, rule, or resolution concerning the care and handling of livestock...'",
+    "'The State Veterinarian shall exercise all powers vested in the Commissioner... in the administration and enforcement of state livestock sanitary laws.'"
+  ],
+  "needs_human_review": false,
+  "review_reason": "No ambiguity or lack of context; bill text is clear and actionable."
+}

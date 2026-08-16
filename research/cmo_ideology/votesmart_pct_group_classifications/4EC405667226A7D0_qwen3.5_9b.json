@@ -1,0 +1,11 @@
+{
+  "policy_key": "us_leadership_israel_palestine",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks whether the US should continue leadership in a specific diplomatic process without stating a policy position.",
+  "evidence_quote": "Should the United States continue to provide leadership in the Israeli-Palestinian peace process?",
+  "needs_human_review": true,
+  "review_reason": "This is an open-ended question asking for candidate preference rather than a specific policy proposal with inherent ideological direction. It lacks stable left/right dimension."
+}

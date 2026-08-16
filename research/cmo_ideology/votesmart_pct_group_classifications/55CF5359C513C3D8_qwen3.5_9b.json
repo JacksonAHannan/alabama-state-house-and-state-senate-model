@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_defense_intelligence_ops",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Intelligence operations are a core function of national defense and do not inherently align with conservative or progressive economic ideologies.",
+  "evidence_quote": "b) Intelligence operations",
+  "needs_human_review": true,
+  "review_reason": "The option describes a standard government function without expressing a specific ideological stance on spending levels."
+}

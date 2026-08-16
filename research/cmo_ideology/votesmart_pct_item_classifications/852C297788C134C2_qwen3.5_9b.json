@@ -1,0 +1,11 @@
+{
+  "policy_key": "pac_contribution_limits",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The question asks for support on limiting PAC contributions but does not specify the direction (limiting vs. allowing) or provide enough context to determine if it is conservative or progressive without external knowledge of campaign finance norms.",
+  "evidence_quote": "Do you support limiting the following types of contributions",
+  "needs_human_review": true,
+  "review_reason": "The item asks for a position on 'limiting' but does not define whether supporting limits is conservative or progressive in this specific context; it requires external knowledge to assign an ideological direction."
+}

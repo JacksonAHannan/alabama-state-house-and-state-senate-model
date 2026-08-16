@@ -1,0 +1,11 @@
+{
+  "policy_key": "tax_spending_lottery_education",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Use state lottery revenue to fund education (progressive tax/spending shift)",
+  "evidence_quote": "Should Alabama create a state lottery with proceeds funding education?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

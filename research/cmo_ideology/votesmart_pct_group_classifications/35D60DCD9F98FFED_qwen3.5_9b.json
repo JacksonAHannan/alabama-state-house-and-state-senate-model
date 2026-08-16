@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_budget_employee_compensation",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option asks whether to cut state employee salaries and pensions. This is a procedural budget question without inherent ideological direction; however, cutting public sector pay/pensions often aligns with conservative fiscal conservatism in practice.",
+  "evidence_quote": "a) In order to balance the budget, do you support reducing state employee salaries AND/OR pensions?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

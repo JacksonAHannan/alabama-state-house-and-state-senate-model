@@ -1,0 +1,19 @@
+{
+  "plain_english_policy": "Alabama's Ethics Law requires certain public officials and employees to file a Statement of Economic Interests (SOEI) annually. Below is a summary of the categories of individuals who must comply with this requirement for the preceding calendar year, based on the provided text:",
+  "policy_direction_if_enacted": "The following groups are required to file an SOEI under Alabama's ethics law:",
+  "ideological_valence": "progressive",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "The Alabama Ethics Commission oversees this requirement.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "(1) All elected public officials at the state, county, or municipal level of government and their instrumentalities.",
+    "(2) Any person appointed as a public official and any public employee earning $50,000 or more annually.",
+    "(3) Candidates for public office from the date they become candidates or file qualifying papers.",
+    "(4) Members of the Alabama Ethics Commission; appointed members of boards and commissions with statewide jurisdiction (excluding advisory boards).",
+    "(5) Full-time non-merit employees in positions other than maintenance, clerical, secretarial, etc.",
+    "(6)-(19) Specific roles such as chief clerks/managers, county administrators, school superintendents/administrators, purchasing agents, directors of state agencies, and more.",
+    "(20)-(27) Employees of the Legislature or Judicial Branch in non-maintenance, clerical, secretarial positions."
+  ],
+  "needs_human_review": true,
+  "review_reason": "The detailed nature of the information required in the SOEI (e.g., income categories, business ownership details) necessitates human review to ensure accuracy and compliance with Alabama's ethics laws."
+}

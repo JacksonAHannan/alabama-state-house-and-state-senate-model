@@ -1,0 +1,11 @@
+{
+  "policy_key": "cuba_trade_embargo",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks for a stance on the Cuban trade embargo. While maintaining an embargo is often associated with conservative foreign policy and lifting it with progressive or liberal positions, this specific question format does not inherently reveal a candidate's broader ideological direction without their answer.",
+  "evidence_quote": "Do you support the trade embargo against Cuba?",
+  "needs_human_review": true,
+  "review_reason": "The option is a direct yes/no inquiry about a single policy (the Cuban embargo). The stance on this specific issue can vary significantly among candidates regardless of their general left/right positioning; some conservatives support lifting it while others oppose it based on sovereignty or human rights grounds. Therefore, the question itself lacks a stable directional bias."
+}

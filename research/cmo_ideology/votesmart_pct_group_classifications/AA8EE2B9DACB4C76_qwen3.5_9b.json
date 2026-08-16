@@ -1,0 +1,11 @@
+{
+  "policy_key": "state_employee_furlough_layoffs",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option proposes mandatory furloughs and layoffs for state employees to balance the budget.",
+  "evidence_quote": "Instituting mandatory furloughs and layoffs for state employees",
+  "needs_human_review": false,
+  "review_reason": ""
+}

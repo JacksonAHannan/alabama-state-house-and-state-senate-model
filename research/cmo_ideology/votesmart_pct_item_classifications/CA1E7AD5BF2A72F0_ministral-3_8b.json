@@ -1,0 +1,11 @@
+{
+  "policy_key": "constitutional_budget_balance",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Would you vote for a constitutional amendment requiring an annual balanced federal budget?",
+  "evidence_quote": "h) Would you vote to ratify an amendment to the U.S. Constitution requiring an annual balanced federal budget?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

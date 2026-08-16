@@ -1,0 +1,11 @@
+{
+  "policy_key": "defense_spending_modernization",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Modernizing weaponry and equipment is a standard defense policy without inherent left/right ideological direction.",
+  "evidence_quote": "d) Modernization of weaponry and equipment",
+  "needs_human_review": true,
+  "review_reason": "Defense modernization is generally considered non-ideological (0)."
+}

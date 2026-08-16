@@ -1,0 +1,11 @@
+{
+  "policy_key": "corporate_tax_level",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "level of corporate taxation proposed",
+  "evidence_quote": "",
+  "needs_human_review": true,
+  "review_reason": "The provided source text is a prompt for candidates to select their preferred tax level but does not include any specific option choices (e.g., 'lower,' 'higher,' or 'flat rate'). Without explicit selection by the candidate, no defensible ideological direction (+1/-1) can be assigned. Marked as unscorable due to lack of concrete evidence."
+}

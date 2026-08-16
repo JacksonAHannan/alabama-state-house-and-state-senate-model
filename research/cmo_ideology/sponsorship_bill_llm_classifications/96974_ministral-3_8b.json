@@ -1,0 +1,14 @@
+{
+  "plain_english_policy": "This bill is a **local, criminal justice policy amendment** that expands the collection of solicitor's fees in Pickens County, Alabama. It removes discretion to waive these fees unless all other court costs are also waived. The policy direction would be to **increase county revenue from criminal cases** by ensuring solicitors' fees are collected more broadly and consistently, regardless of guilt or case outcome. This aligns with a trend toward reducing judicial discretion in fee collection.",
+  "policy_direction_if_enacted": "If enacted, HB734 would produce the following effects within Pickens County's criminal justice system:",
+  "ideological_valence": "conservative",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "The bill text does not reveal broader ideological motivations beyond its explicit provisions. However, the policy direction aligns with a **pro-government revenue** stance in criminal cases.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "The solicitor's fee shall be collected... in all criminal cases where court costs are assessed, whether a defendant is adjudged guilty or not.",
+    "The solicitor's fee shall **not** be waived or remitted unless all other costs and charges of court are waived."
+  ],
+  "needs_human_review": false,
+  "review_reason": "No ambiguity in text; bill is clearly a targeted revenue policy for Pickens County solicitors' fees."
+}

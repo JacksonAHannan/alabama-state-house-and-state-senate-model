@@ -1,0 +1,11 @@
+{
+  "policy_key": "alcohol_tax",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The item asks for a specific tax level on alcohol without providing comparative options or ideological context to determine if the stance is conservative (higher taxes) or progressive (lower taxes). Since it lacks defensible direction and relies on unspecified levels.",
+  "evidence_quote": "Indicate the tax levels you will support. Select one level only.",
+  "needs_human_review": true,
+  "review_reason": "The prompt asks to select a 'level' without defining what those levels are or their relative positions (high vs low), making it impossible to assign a conservative (+1) or progressive (-1) direction based solely on the text. It is marked nonideological and unscoreable."
+}

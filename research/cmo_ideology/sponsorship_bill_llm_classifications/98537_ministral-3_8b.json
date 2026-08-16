@@ -1,0 +1,15 @@
+{
+  "plain_english_policy": "This bill establishes a new criminal offense in Alabama: **criminally negligent storage of firearms**. It targets adults who store guns in ways that allow minors (under age 17) to access them without parental permission. The law creates escalating penalties depending on the outcome\u2014from misdemeanors for mere access to felonies if a minor is injured or killed.",
+  "policy_direction_if_enacted": "The bill shifts Alabama\u2019s gun safety policy toward **mandatory liability for adults** when firearms are accessible to minors. It introduces **criminal consequences** (not just civil) for negligent storage, signaling a state-level effort to reduce youth access to guns\u2014even if the homeowner didn\u2019t intend harm. The penalties escalate based on severity: misdemeanor for unauthorized access, felony for injury or death. This aligns with broader trends in **gun safety legislation** (e.g., 'child-access prevention' laws) but adds a criminal penalty where many states rely on civil liability.",
+  "ideological_valence": "progressive",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "The sponsor (Senator Figures) advanced this bill to create the crime of negligent storage. No inference beyond the text is made.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "No person shall store... a firearm... if he or she knows or reasonably should know that a minor is likely to gain access... unless the person does any of the following: (1) Keeps the firearm with a gun lock in a securely locked box...",
+    "Criminally negligent storage... in the third degree [is] a Class A misdemeanor.",
+    "...if a minor obtains the firearm and an injury occurs, it becomes a Class C felony."
+  ],
+  "needs_human_review": false,
+  "review_reason": "The bill\u2019s text is clear, unambiguous, and directly addresses gun safety via criminal penalties. No additional context or metadata is required to interpret its intent."
+}

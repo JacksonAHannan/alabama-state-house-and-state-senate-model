@@ -1,0 +1,11 @@
+{
+  "policy_key": "citizen_initiative_referendum",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "expanding direct democratic tools (citizen-led ballot initiatives/referendums)",
+  "evidence_quote": "allow citizen initiative and referendum",
+  "needs_human_review": false,
+  "review_reason": ""
+}

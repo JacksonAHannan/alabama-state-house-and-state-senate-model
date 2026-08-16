@@ -1,0 +1,31 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "Drama Breland ran for the Alabama House District 8 seat in the 2010 election. She was a Democratic candidate who narrowly lost to Republican Terri Collins during that year's wave. Her campaign platform focused on public education, college affordability, senior citizens' needs, and job development. The official Morgan County ballot verified her identity as the nominee for this district.",
+  "offices_and_public_service": [],
+  "profession_and_employment": [],
+  "education": [],
+  "community_and_local_ties": [
+    "wife of longtime Decatur municipal judge David Breland",
+    "part of a locally prominent judicial family"
+  ],
+  "political_profile": [
+    "Democratic nominee for House District 8 in the open race against Terri Collins (2010)",
+    "narrowly lost during Republican wave election"
+  ],
+  "important_caveats": [
+    "Positions on guns, abortion, and other polarizing state issues remain unknown",
+    "Later official family biography identifies her as wife of David Breland; this is retrospective evidence"
+  ],
+  "source_urls_used": [
+    "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/2010-sample-ballots/Morgan-2010-Sample.pdf",
+    "https://www.hartselleenquirer.com/2010/06/17/dems-appoint-breland-as-candidate/",
+    "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2025RS/SJR90-int.pdf"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2025RS/SJR90-int.pdf",
+    "https://www.hartselleenquirer.com/2010/06/17/dems-appoint-breland-as-candidate/",
+    "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/2010-sample-ballots/Morgan-2010-Sample.pdf",
+    "https://www.wbrc.com/story/13434716/2010/11/Wednesday/latest-local-and-state-election-results/"
+  ]
+}

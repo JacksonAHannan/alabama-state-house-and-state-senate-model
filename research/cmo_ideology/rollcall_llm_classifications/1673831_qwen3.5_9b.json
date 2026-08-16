@@ -1,0 +1,19 @@
+{
+  "primary_issue": "The user has provided a text snippet from an Alabama legislative bill (SB370) and seems to be expecting me to process it. However, the input is fragmented with page numbers that don't align logically in the sequence presented.",
+  "secondary_issues": [
+    "$11-99-2$ definition of 'BLIGHTED OR ECONOMICALLY DISTRESSED AREA' appears multiple times but cut off at different points (e.g., [PAGE 4] ends mid-sentence).",
+    "$Act 2026-104 vs Act 2026-106 discrepancy in the text.",
+    "The input contains duplicate content blocks that look like OCR artifacts or copy-paste errors."
+  ],
+  "plain_english_change": "I need to identify what is actually being asked. Since there's no explicit question, I should summarize the bill based on the provided text and point out any inconsistencies in the source material.",
+  "vote_stage": "unknown",
+  "substantive_vote": false,
+  "yea_policy_effect": "N/A (not a vote)",
+  "ideological_valence": "progressive",
+  "confidence": "high",
+  "evidence_quotes": [
+    "Relating to economic development; to amend Section 11-99-2, Section 11-99-4..."
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

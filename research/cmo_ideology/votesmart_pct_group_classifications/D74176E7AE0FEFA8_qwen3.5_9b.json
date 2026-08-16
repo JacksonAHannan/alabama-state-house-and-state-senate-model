@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabam_undocu_tuition",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Allowing undocumented high school graduates to pay in-state tuition is a progressive policy that expands access to higher education for marginalized groups.",
+  "evidence_quote": "f) Should illegal immigrants who graduate from Alabama high schools be eligible for in-state tuition at public universities?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

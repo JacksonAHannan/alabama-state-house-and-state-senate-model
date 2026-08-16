@@ -1,0 +1,11 @@
+{
+  "policy_key": "redistricting_commission",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option proposes creating an independent or bipartisan commission to draw electoral district lines. This is a procedural reform often associated with reducing partisan gerrymandering and increasing fairness in representation.",
+  "evidence_quote": "c) Do you support the use of an independent AND/OR bipartisan commission for redistricting?",
+  "needs_human_review": true,
+  "review_reason": "The option presents a procedural reform (bipartisan/independent commission). While often linked to progressive goals like fair representation and anti-gerrymandering, it is fundamentally administrative. The 'AND/OR' phrasing makes the specific stance ambiguous without further context on whether the candidate favors independence over partisanship or vice versa."
+}

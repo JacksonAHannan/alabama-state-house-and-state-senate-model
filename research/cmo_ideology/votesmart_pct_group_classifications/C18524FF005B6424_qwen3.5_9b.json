@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_tax_bracket_income",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Supports a moderate federal income tax bracket range.",
+  "evidence_quote": "$75,000-$150,000",
+  "needs_human_review": true,
+  "review_reason": "Specific dollar amounts alone do not indicate ideological direction without context on standard deduction adjustments or progressive vs. flat rate application."
+}

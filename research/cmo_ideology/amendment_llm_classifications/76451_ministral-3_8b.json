@@ -1,0 +1,18 @@
+{
+  "primary_issue": "criminal_justice",
+  "secondary_issues": [
+    "environment",
+    "infrastructure_energy"
+  ],
+  "plain_english_revision": "The amendment removes or modifies specific legal references and language in SB320, focusing on sex offender registration and related provisions. It also deletes a large block of text spanning pages 28\u201335.",
+  "revision_direction": "restricts_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "This amendment appears to advance the policy effect of **narrowing the scope of mandatory sex offender registration requirements** by removing or altering language that would otherwise expand them. Specifically, it removes references to certain statutes (15-20A-5) and replaces broader terms like 'incapable of' with more restrictive 'unable to,' which may limit liability for non-compliance. The deletion of pages 28\u201335 suggests a reduction in mandatory notification or registration obligations under the bill.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "delete '15-20A-5,'",
+    "=>"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment text is explicit about deletions and substitutions, but the full context of removed statutes or deleted sections would require cross-referencing with SB320\u2019s original language. The valence remains indeterminate without knowing whether 15-20A-5 was a protective or punitive provision."
+}

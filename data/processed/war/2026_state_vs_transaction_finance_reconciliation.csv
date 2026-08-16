@@ -1,0 +1,188 @@
+cycle,chamber,district,party,candidate,state_candidate,state_contributions,state_expenditures,state_rows,finance_observation_status,match_method,match_score,match_margin,candidate_expenditures,finance_match_method,state_missing_transaction_positive,zero_assumption_status
+2026,house,1,R,Maurice McCaney,"MCCANEY, MAURICE",39653.0,38212.94,1,observed,exact_tokens,100.0,45.45454545454546,38212.94,exact,False,state_summary_observed
+2026,house,2,D,Rick Pressnell,"Pressnell, Rick ",1433.57,2130.07,1,observed,exact_tokens,100.0,48.38709677419355,2130.07,exact,False,state_summary_observed
+2026,house,2,R,Ben Harrison,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,66.66666666666667,14.81481481481481,0.0,unmatched,False,unknown_no_matched_filing
+2026,house,3,R,Kerry Bubba Underwood,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,75.0,26.351351351351347,11099.76,fuzzy,True,invalid_zero_assumption_transactions_positive
+2026,house,4,D,Hanu Karlapalem,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,62.5,15.441176470588239,0.0,surname_review,False,transaction_match_zero_expenditures
+2026,house,4,R,Parker Duncan Moore,"MOORE, PARKER DUNCAN",58750.0,9583.18,1,observed,exact_tokens,100.0,46.34146341463414,7658.18,fuzzy,False,state_summary_observed
+2026,house,5,D,Jessie Barcala,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,87.5,32.95454545454546,1966.32,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,5,R,Danny F. Crawford,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,84.21052631578947,30.87719298245613,2513.31,fuzzy,True,invalid_zero_assumption_transactions_positive
+2026,house,6,R,Andy Whitt,"WHITT, ANDY",88250.0,8252.4,1,observed,exact_tokens,100.0,40.0,6502.4,exact,False,state_summary_observed
+2026,house,7,R,Ernie Yarbrough,"YARBROUGH, ERNIE",29550.0,22802.1,1,observed,exact_tokens,100.0,47.05882352941176,19343.26,exact,False,state_summary_observed
+2026,house,8,D,Bruce Sparkman,"Sparkman, Bruce ",0.0,0.0,1,observed,exact_tokens,100.0,43.75,0.0,unmatched,False,state_summary_observed
+2026,house,8,R,Patrick Johnson,"JOHNSON, PATRICK ",76775.0,38077.65,1,observed,exact_tokens,100.0,36.8421052631579,38077.65,exact,False,state_summary_observed
+2026,house,9,R,Scott Stadthagen,"STADTHAGEN, SCOTT",38000.0,6322.04,1,observed,exact_tokens,100.0,54.83870967741935,6022.040000000001,exact,False,state_summary_observed
+2026,house,10,D,Marilyn Lands,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,86.66666666666667,27.84313725490196,82963.44,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,10,R,Aaron Thomas,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,77.41935483870968,12.903225806451616,0.0,unmatched,False,unknown_no_matched_filing
+2026,house,11,R,Heath Allbright,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,78.94736842105263,34.50292397660819,0.0,surname_review,False,transaction_match_zero_expenditures
+2026,house,12,R,Cindy Myrex,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,66.66666666666667,16.66666666666667,52897.41,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,13,R,Mike Elliott,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,81.4814814814815,13.06042884990255,42891.31,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,14,R,Tim R.Wadsworth,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,92.85714285714286,42.85714285714286,45516.33,fuzzy,True,invalid_zero_assumption_transactions_positive
+2026,house,15,D,Nell Brown,"BROWN, NELL ",7367.43,3556.66,1,observed,exact_tokens,100.0,27.272727272727266,3556.6600000000003,exact,False,state_summary_observed
+2026,house,15,R,Leigh Hulsey,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,92.3076923076923,42.30769230769231,12890.96,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,16,D,Christian Martin,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,86.48648648648648,24.417520969245103,1358.78,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,16,R,Bryan Brinyark,"BRINYARK, BRYAN",64000.0,13077.41,1,observed,exact_tokens,100.0,45.45454545454546,12324.41,exact,False,state_summary_observed
+2026,house,17,R,Phil Segraves,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,74.28571428571429,22.43386243386243,0.0,surname_review,False,transaction_match_zero_expenditures
+2026,house,18,R,Jamie Kiel,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,76.92307692307692,15.38461538461538,6430.5,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,19,D,Laura Hall,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,90.9090909090909,36.36363636363637,20841.49,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,19,R,Donald Barnes,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,76.47058823529412,14.932126696832576,7.08,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,20,D,JamesLinderholm,"Linderholm, James ",7030.92,3441.4,1,observed,fuzzy_review,96.7741935483871,35.23573200992556,0.0,unmatched,False,state_summary_observed
+2026,house,20,R,James Lomax,"LOMAX, JAMES",467780.0,386389.23,1,observed,exact_tokens,100.0,33.33333333333333,386389.23,exact,False,state_summary_observed
+2026,house,21,D,Forrest Satterfield,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,90.47619047619048,41.991341991342,2993.67,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,21,R,Rex Reynolds,"REYNOLDS, REX",149650.0,13222.46,1,observed,exact_tokens,100.0,50.0,10519.46,exact,False,state_summary_observed
+2026,house,22,R,Ritchie Whorton,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,83.33333333333334,29.279279279279287,63650.0,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,23,R,Mike Kirkland,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,82.75862068965517,23.935091277890464,13497.87,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,24,R,Nathaniel Ledbetter,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,86.36363636363636,38.74458874458875,22339.8,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,25,D,Allison T Montgomery,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,88.88888888888889,40.4040404040404,3969.71,fuzzy,True,invalid_zero_assumption_transactions_positive
+2026,house,25,R,Phillip K. Rigsby,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,93.33333333333333,35.43859649122806,8486.9,fuzzy,True,invalid_zero_assumption_transactions_positive
+2026,house,26,R,Brock Colvin,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,75.0,20.45454545454546,0.0,surname_review,False,transaction_match_zero_expenditures
+2026,house,27,R,Jeana Ross,"ROSS, JEANA ",31750.0,11384.43,1,observed,exact_tokens,100.0,27.272727272727266,10612.63,exact,False,state_summary_observed
+2026,house,28,D,Robert Louis Hunter,"HUNTER, ROBERT LOUIS",14975.97,12611.88,1,observed,exact_tokens,100.0,44.18604651162791,12418.47,fuzzy,False,state_summary_observed
+2026,house,28,R,Mack N Butler,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,83.87096774193549,32.019115890083626,3003.91,fuzzy,True,invalid_zero_assumption_transactions_positive
+2026,house,29,R,Mark A. Gidley,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,81.25,29.63709677419355,26469.91,fuzzy,True,invalid_zero_assumption_transactions_positive
+2026,house,30,R,Craig Lipscomb,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,77.77777777777779,29.777777777777786,0.0,surname_review,False,transaction_match_zero_expenditures
+2026,house,31,R,Troy B.Stubbs,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,78.78787878787878,32.12121212121212,23273.99,fuzzy,True,invalid_zero_assumption_transactions_positive
+2026,house,32,D,Debra D Foster,"Foster, Debra D",25500.0,10603.08,1,observed,exact_tokens,100.0,43.99999999999999,15629.18,fuzzy,False,state_summary_observed
+2026,house,32,R,Joey Callahan,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,81.25,22.42647058823529,20938.68,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,33,R,Ben Robbins,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,66.66666666666667,9.523809523809533,0.0,unmatched,False,unknown_no_matched_filing
+2026,house,34,R,David Standridge,"STANDRIDGE, DAVID",35500.0,5347.34,1,observed,exact_tokens,100.0,45.945945945945944,4869.34,exact,False,state_summary_observed
+2026,house,35,R,Steve Hurst,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,69.56521739130434,10.105757931844892,4527.82,fuzzy,True,invalid_zero_assumption_transactions_positive
+2026,house,36,R,Randy Wood,"WOOD, RANDY",46000.0,25645.37,1,observed,exact_tokens,100.0,40.0,23495.37,exact,False,state_summary_observed
+2026,house,37,D,Michelle French,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,93.75,35.68548387096775,10264.99,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,37,R,Jeff Monroe,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,73.33333333333334,18.160919540229898,0.0,surname_review,False,transaction_match_zero_expenditures
+2026,house,38,D,Hazel Floyd,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,78.57142857142857,28.57142857142857,2379.46,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,38,R,Kristin Nelson,"NELSON, KRISTIN",39950.0,41442.58,1,observed,exact_tokens,100.0,43.99999999999999,80062.89,exact,False,state_summary_observed
+2026,house,39,R,Ginny Shaver,"SHAVER, GINNY",55950.0,28115.64,1,observed,exact_tokens,100.0,45.45454545454546,26799.66,exact,False,state_summary_observed
+2026,house,40,D,Pam Howard,"Howard, Pamela ",2353.71,1880.31,1,observed,exact_tokens,100.0,53.333333333333336,1870.26,canonical_name,False,state_summary_observed
+2026,house,40,R,ChadRobertson,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,74.28571428571429,18.730158730158735,0.0,unmatched,False,unknown_no_matched_filing
+2026,house,41,D,David J. A. Morgan,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,71.11111111111111,13.968253968253975,2570.4700000000003,fuzzy,True,invalid_zero_assumption_transactions_positive
+2026,house,41,R,Corley Ellis,"ELLIS, CORLEY",37750.0,14058.08,1,observed,exact_tokens,100.0,39.13043478260869,12912.67,exact,False,state_summary_observed
+2026,house,42,R,Van Smith,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,44.44444444444444,0.9661835748792242,0.0,unmatched,False,unknown_no_matched_filing
+2026,house,43,D,TaylorCook,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,57.14285714285714,14.285714285714278,0.0,unmatched,False,unknown_no_matched_filing
+2026,house,43,R,Arnold Mooney,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,92.85714285714286,39.91596638655462,16909.37,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,44,R,Danny Garrett,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,76.92307692307692,8.17307692307692,0.0,surname_review,False,transaction_match_zero_expenditures
+2026,house,45,D,Toni Kornegay Vaughn,"Vaughn, Toni Kornegay",13784.04,7482.23,1,observed,exact_tokens,100.0,50.0,6870.18,fuzzy,False,state_summary_observed
+2026,house,45,R,Susan DuBose,"DUBOSE, SUSAN",98082.81,57375.51,1,observed,exact_tokens,100.0,48.14814814814814,53178.51,exact,False,state_summary_observed
+2026,house,46,R,David L. Faulkner,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,82.05128205128204,24.908424908424905,25810.97,fuzzy,True,invalid_zero_assumption_transactions_positive
+2026,house,47,D,Jim Toomey,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,77.41935483870968,7.854137447405336,7886.19,canonical_name,True,invalid_zero_assumption_transactions_positive
+2026,house,47,R,MikeShaw,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,53.84615384615385,10.367892976588628,0.0,unmatched,False,unknown_no_matched_filing
+2026,house,48,R,Lloyd Peeples,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,74.28571428571429,20.952380952380956,679037.32,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,49,R,Russell Bedsole,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,78.94736842105263,26.00619195046439,5527.860000000001,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,50,D,Alan Thomas,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,73.33333333333334,6.666666666666671,0.0,unmatched,False,unknown_no_matched_filing
+2026,house,50,R,Bill Morris,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,93.33333333333333,30.476190476190474,50655.48,canonical_name,True,invalid_zero_assumption_transactions_positive
+2026,house,51,R,Allen Treadaway,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,76.92307692307692,25.31017369727047,0.0,surname_review,False,transaction_match_zero_expenditures
+2026,house,52,D,GiGi Hayes,"Hayes, GiGi ",17994.39,41946.96,1,observed,exact_tokens,100.0,45.45454545454546,42204.58,exact,False,state_summary_observed
+2026,house,53,D,Anthony Daniels,"DANIELS, ANTHONY",62850.0,79658.11,1,observed,exact_tokens,100.0,41.17647058823529,57630.2,exact,False,state_summary_observed
+2026,house,54,D,Neil Rafferty,"RAFFERTY, NEIL",149931.5,76488.47,1,observed,exact_tokens,100.0,47.05882352941176,74939.6,exact,False,state_summary_observed
+2026,house,55,D,Travis Hendrix,"HENDRIX, TRAVIS",125474.6,51626.41,1,observed,exact_tokens,100.0,41.93548387096775,50675.59,exact,False,state_summary_observed
+2026,house,56,D,Ontario J Tillman,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,93.75,39.20454545454546,34163.12,fuzzy,True,invalid_zero_assumption_transactions_positive
+2026,house,57,D,Patrick Sellers,"SELLERS, PATRICK",114845.0,116899.0,1,observed,exact_tokens,100.0,38.46153846153846,107066.83,exact,False,state_summary_observed
+2026,house,58,D,Rolanda Hollis,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,75.67567567567568,21.82952182952183,20567.98,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,59,D,Mary Moore,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,83.33333333333334,24.07407407407409,14038.46,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,60,D,Alicia Escott Lumpkin,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,70.0,21.515151515151516,206975.75,fuzzy,True,invalid_zero_assumption_transactions_positive
+2026,house,61,R,Ron Bolton,"BOLTON, RONALD",39350.0,4539.1,1,observed,exact_tokens,100.0,47.82608695652174,4022.5,canonical_name,False,state_summary_observed
+2026,house,62,R,Bill Lamb,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,71.42857142857143,10.822510822510822,11683.18,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,63,D,JudithTaylor,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,77.41935483870968,16.549789621318368,0.0,unmatched,False,unknown_no_matched_filing
+2026,house,63,R,Norman Crow,"CROW, NORMAN",43750.0,20295.52,1,observed,exact_tokens,100.0,30.769230769230774,20295.52,exact,False,state_summary_observed
+2026,house,64,R,Donna Givens,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,80.0,28.148148148148138,58471.61,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,65,R,John Knapp,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,74.07407407407408,26.074074074074076,13699.95,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,66,R,Alan Baker,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,76.92307692307692,13.286713286713287,9739.69,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,67,D,Prince Chestnut,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,81.08108108108108,16.795366795366803,6680.38,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,68,D,Thomas E. Action Jackson,"ACTION JACKSON, THOMAS E",50900.0,47879.71,1,observed,exact_tokens,100.0,38.095238095238095,44160.17,fuzzy,False,state_summary_observed
+2026,house,68,R,Fred Kelley,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,78.57142857142857,21.42857142857143,0.0,unmatched,False,unknown_no_matched_filing
+2026,house,69,D,Kelvin J Lawrence,"LAWRENCE, KELVIN J",110300.26,101772.95,1,observed,exact_tokens,100.0,40.0,98234.15,fuzzy,False,state_summary_observed
+2026,house,69,R,Josh Pendergrass,"Pendergrass, Joshua ",15219.41,5519.77,1,observed,fuzzy_review,94.11764705882352,40.784313725490186,0.0,surname_review,False,state_summary_observed
+2026,house,70,D,Christopher John England,"ENGLAND, CHRISTOPHER JOHN",74750.0,6830.87,1,observed,exact_tokens,100.0,42.307692307692314,5880.95,fuzzy,False,state_summary_observed
+2026,house,70,R,Ian M. Chwatuk,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,91.66666666666666,44.607843137254896,3178.91,fuzzy,True,invalid_zero_assumption_transactions_positive
+2026,house,71,D,"Artis ""A.J."" McCampbell ","MCCAMPBELL, ARTIS J",45250.0,16188.58,1,observed,fuzzy_review,94.73684210526316,43.30827067669174,15512.92,fuzzy,False,state_summary_observed
+2026,house,72,D,Curtis L Travis,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,93.75,31.68103448275862,145351.88999999998,fuzzy,True,invalid_zero_assumption_transactions_positive
+2026,house,73,R,Kenneth Paschal,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,81.08108108108108,34.414414414414416,12017.29,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,74,D,Jasmyne Crimiel,"Crimiel, Jasmyne  ",88629.13,51013.82,1,observed,exact_tokens,100.0,47.05882352941176,49832.69,exact,False,state_summary_observed
+2026,house,74,R,Alva Lambert,"Lambert, Alva ",4750.0,0.0,1,observed,exact_tokens,100.0,42.85714285714286,0.0,surname_review,False,state_summary_observed
+2026,house,75,D,Tisha Dickson Nickson,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,85.71428571428572,26.623376623376643,4586.78,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,75,R,Reed Ingram,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,75.86206896551724,25.86206896551724,0.0,surname_review,False,transaction_match_zero_expenditures
+2026,house,76,D,Patrice Penni McClammy,"MCCLAMMY, PATRICE ""PENNI""",71151.0,53092.51,1,observed,exact_tokens,100.0,56.75675675675676,52541.41,fuzzy,False,state_summary_observed
+2026,house,77,D,TaShinaMorris,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,52.94117647058824,6.274509803921575,0.0,unmatched,False,unknown_no_matched_filing
+2026,house,78,D,Kenyatte Hassell,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,82.05128205128204,27.505827505827504,37636.07,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,79,R,Joe Lovvorn,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,73.33333333333334,26.66666666666668,0.0,surname_review,False,transaction_match_zero_expenditures
+2026,house,80,D,Manfred Malone,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,77.77777777777779,15.708812260536405,917.04,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,80,R,Chris Blackshear,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,89.79591836734694,36.137381781981084,9583.18,canonical_name,True,invalid_zero_assumption_transactions_positive
+2026,house,81,R,Ed Oliver,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,81.25,35.09615384615385,12059.89,canonical_name,True,invalid_zero_assumption_transactions_positive
+2026,house,82,D,Pebblin W. Warren,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,86.48648648648648,31.941031941031945,112798.68,fuzzy,True,invalid_zero_assumption_transactions_positive
+2026,house,82,R,Kinsley Hammons,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,50.0,0.0,0.0,unmatched,False,unknown_no_matched_filing
+2026,house,83,D,Jeremy A. Gray,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,86.66666666666667,34.81481481481481,25137.1,fuzzy,True,invalid_zero_assumption_transactions_positive
+2026,house,84,D,Berry Forte,"FORTE, BERRY ",47500.0,19324.32,1,observed,exact_tokens,100.0,41.66666666666667,19324.32,exact,False,state_summary_observed
+2026,house,85,D,Aristotle Onassis Kirkland,"Kirkland, Aristotle Onassis",2706.22,2050.46,1,observed,exact_tokens,100.0,43.99999999999999,2050.46,fuzzy,False,state_summary_observed
+2026,house,85,R,Rick Rehm,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,60.86956521739131,3.726708074534173,0.0,surname_review,False,transaction_match_zero_expenditures
+2026,house,86,R,Paul Lee,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,69.56521739130434,16.23188405797101,33109.18,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,87,R,Jeff Sorrells,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,83.87096774193549,30.02481389578164,11755.21,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,88,R,Jerry Starnes,"STARNES, JERRY",42600.0,2714.73,1,observed,exact_tokens,100.0,41.66666666666667,2714.73,exact,False,state_summary_observed
+2026,house,89,R,MarcusB.Paramore,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,90.9090909090909,37.57575757575757,0.0,surname_review,False,transaction_match_zero_expenditures
+2026,house,90,R,Chris Sells,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,78.57142857142857,10.278745644599312,17778.18,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,91,R,Jody Linton,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,61.111111111111114,12.62626262626263,127743.77,fuzzy,True,invalid_zero_assumption_transactions_positive
+2026,house,92,R,MatthewHammett,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,48.64864864864865,1.9819819819819884,0.0,unmatched,False,unknown_no_matched_filing
+2026,house,93,R,Steve Clouse,"CLOUSE, STEVE",184500.0,132663.52,1,observed,exact_tokens,100.0,48.38709677419355,130252.93,exact,False,state_summary_observed
+2026,house,94,R,Jennifer Fidler,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,78.94736842105263,22.53711201079622,25171.75,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,95,R,Frances Holk-Jones,"HOLK-JONES, FRANCES",537000.0,664872.91,1,observed,exact_tokens,100.0,47.61904761904761,628247.45,exact,False,state_summary_observed
+2026,house,96,D,TerriOsborne,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,56.00000000000001,3.826086956521749,0.0,unmatched,False,unknown_no_matched_filing
+2026,house,96,R,Danielle Duggar,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,93.75,31.25,64953.42,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,97,D,Adline C. Clarke,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,83.33333333333334,30.000000000000007,70147.7,fuzzy,True,invalid_zero_assumption_transactions_positive
+2026,house,98,D,"Napoleon Bracy, Jr.","BRACY, NAPOLEON",43750.0,67681.15,1,observed,exact_tokens,100.0,50.0,58380.4,exact,False,state_summary_observed
+2026,house,99,D,Sam Jones,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,92.3076923076923,44.30769230769231,77999.63,canonical_name,True,invalid_zero_assumption_transactions_positive
+2026,house,99,R,Charlie Watts,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,53.333333333333336,1.9047619047619122,0.0,unmatched,False,unknown_no_matched_filing
+2026,house,100,R,MarkShirey,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,76.92307692307692,28.92307692307692,0.0,unmatched,False,unknown_no_matched_filing
+2026,house,101,D,Joan Friedlander,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,80.0,24.999999999999993,3641.0,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,101,R,Chris Pringle,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,81.25,11.482558139534888,107100.08,exact,True,invalid_zero_assumption_transactions_positive
+2026,house,102,R,Shane Stringer,"STRINGER, SHANE",45500.0,7330.01,1,observed,exact_tokens,100.0,46.666666666666664,4354.07,exact,False,state_summary_observed
+2026,house,103,D,Barbara Drummond,"DRUMMOND, BARBARA",91165.23,16665.2,1,observed,exact_tokens,100.0,50.0,56658.130000000005,exact,False,state_summary_observed
+2026,house,104,R,Margie Wilcox,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,70.58823529411764,20.588235294117638,0.0,surname_review,False,transaction_match_zero_expenditures
+2026,house,105,R,Chip Brown,"BROWN, CHIP",42000.0,5278.0,1,observed,exact_tokens,100.0,40.0,5905.78,exact,False,state_summary_observed
+2026,senate,1,R,Tim Melson,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,68.96551724137932,22.811671087533163,0.0,surname_review,False,transaction_match_zero_expenditures
+2026,senate,2,D,Rudolph Valentino Drake,"Drake, Rudolph Valentino",3831.8,1284.25,1,observed,exact_tokens,100.0,56.52173913043478,4138.48,fuzzy,False,state_summary_observed
+2026,senate,2,R,John Roberts,"ROBERTS, JOHN",116575.0,38152.85,1,observed,exact_tokens,100.0,46.666666666666664,26199.1,exact,False,state_summary_observed
+2026,senate,3,D,John Dickey,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,70.96774193548387,14.967741935483865,5394.110000000001,exact,True,invalid_zero_assumption_transactions_positive
+2026,senate,3,R,Arthur Orr,"ORR, ARTHUR",222600.0,24363.13,1,observed,exact_tokens,100.0,56.25,10374.13,exact,False,state_summary_observed
+2026,senate,4,R,Garlan Gudger,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,78.78787878787878,22.787878787878775,1275485.16,exact,True,invalid_zero_assumption_transactions_positive
+2026,senate,5,R,Matt Woods,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,64.51612903225806,21.037868162692845,0.0,unmatched,False,unknown_no_matched_filing
+2026,senate,6,D,Bobby Martin,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,80.0,24.827586206896555,1474.18,exact,True,invalid_zero_assumption_transactions_positive
+2026,senate,6,R,Larry Stutts,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,75.0,25.0,13281.73,exact,True,invalid_zero_assumption_transactions_positive
+2026,senate,7,D,Jared Sluss,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,75.86206896551724,27.86206896551724,7174.19,exact,True,invalid_zero_assumption_transactions_positive
+2026,senate,7,R,Sam Givhan,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,86.95652173913044,36.95652173913044,8895.32,exact,True,invalid_zero_assumption_transactions_positive
+2026,senate,8,D,Katie Kramer,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,70.58823529411764,20.588235294117638,0.0,surname_review,False,transaction_match_zero_expenditures
+2026,senate,8,R,Steve Livingston,"LIVINGSTON, STEVE",230000.0,34345.56,1,observed,exact_tokens,100.0,54.285714285714285,30845.56,exact,False,state_summary_observed
+2026,senate,9,R,WesKitchens,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,61.53846153846154,18.06020066889632,0.0,unmatched,False,unknown_no_matched_filing
+2026,senate,10,I,Jesse Battles,"BATTLES, JESSE ",44894.02,39492.81,1,observed,exact_tokens,100.0,50.0,31660.65,exact,False,state_summary_observed
+2026,senate,10,R,Andrew Jones,"JONES, ANDREW",393731.65,579769.57,1,observed,exact_tokens,100.0,46.15384615384615,581296.73,exact,False,state_summary_observed
+2026,senate,11,D,Donald J. Mottern,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,86.48648648648648,32.43243243243243,2900.73,fuzzy,True,invalid_zero_assumption_transactions_positive
+2026,senate,11,R,Lance Bell,"BELL, LANCE",140600.0,35197.51,1,observed,exact_tokens,100.0,56.52173913043478,39916.99,exact,False,state_summary_observed
+2026,senate,12,R,Keith Kelley,"KELLEY, KEITH",116670.43,19559.42,1,observed,exact_tokens,100.0,33.33333333333333,17559.42,exact,False,state_summary_observed
+2026,senate,13,D,Jamie Forsyth,"Forsyth, Jamie ",2392.34,2488.98,1,observed,exact_tokens,100.0,50.0,2488.98,exact,False,state_summary_observed
+2026,senate,13,R,Randy Price,"PRICE, RANDY",362350.0,335693.54,1,observed,exact_tokens,100.0,52.0,330979.88,exact,False,state_summary_observed
+2026,senate,14,D,Mandie Ledkins,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,51.42857142857142,1.4285714285714235,0.0,surname_review,False,transaction_match_zero_expenditures
+2026,senate,14,R,April Weaver,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,92.3076923076923,42.30769230769231,20163.32,exact,True,invalid_zero_assumption_transactions_positive
+2026,senate,15,R,Scott Ortis,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,73.33333333333334,15.000000000000014,738171.46,exact,True,invalid_zero_assumption_transactions_positive
+2026,senate,16,D,Spencer Stone,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,78.78787878787878,30.787878787878782,1427.17,exact,True,invalid_zero_assumption_transactions_positive
+2026,senate,16,R,"J.T.""Jabo""Waggoner",,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,81.25,28.30882352941176,0.0,surname_review,False,transaction_match_zero_expenditures
+2026,senate,17,R,Shay Shelnutt,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,78.78787878787878,24.941724941724935,39573.05,exact,True,invalid_zero_assumption_transactions_positive
+2026,senate,18,D,Rodger M. Smitherman ,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,92.6829268292683,38.62887277521424,47721.91,fuzzy,True,invalid_zero_assumption_transactions_positive
+2026,senate,19,D,Merika Coleman,"COLEMAN, MERIKA ",92500.0,26764.69,1,observed,exact_tokens,100.0,42.85714285714286,19585.76,exact,False,state_summary_observed
+2026,senate,20,D,Linda Coleman-Madison,"COLEMAN-MADISON, LINDA",73500.0,69813.84,1,observed,exact_tokens,100.0,42.85714285714286,69563.84,exact,False,state_summary_observed
+2026,senate,21,R,Gerald Allen,"ALLEN, GERALD",93250.0,28842.41,1,observed,exact_tokens,100.0,21.73913043478261,24803.17,exact,False,state_summary_observed
+2026,senate,22,D,Ashley Sharpe,"Sharpe, Ashley ",4781.96,2274.5,1,observed,exact_tokens,100.0,40.74074074074075,2270.5,exact,False,state_summary_observed
+2026,senate,22,R,Terry L. Waters,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,92.3076923076923,42.30769230769231,76134.44,fuzzy,True,invalid_zero_assumption_transactions_positive
+2026,senate,23,D,Robert Stewart,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,87.5,33.65384615384615,59160.42,exact,True,invalid_zero_assumption_transactions_positive
+2026,senate,23,R,Thayer Bear Havard Spencer,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,52.17391304347826,6.340579710144922,0.0,unmatched,False,unknown_no_matched_filing
+2026,senate,24,D,Bobby Singleton,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,93.75,37.74999999999999,87792.88,exact,True,invalid_zero_assumption_transactions_positive
+2026,senate,26,D,Kirk Hatcher,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,54.54545454545454,7.486631016042779,0.0,surname_review,False,transaction_match_zero_expenditures
+2026,senate,27,R,Jay Hovey,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,59.25925925925925,13.804713804713792,0.0,surname_review,False,transaction_match_zero_expenditures
+2026,senate,28,D,Billy Beasley,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,72.22222222222221,26.06837606837606,0.0,surname_review,False,transaction_match_zero_expenditures
+2026,senate,28,R,Brent Comer,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,91.66666666666666,43.66666666666666,2482.41,exact,True,invalid_zero_assumption_transactions_positive
+2026,senate,29,D,JimmyMcCray,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,70.96774193548387,25.51319648093841,0.0,unmatched,False,unknown_no_matched_filing
+2026,senate,29,R,Donnie Chesteen,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,72.22222222222221,26.5079365079365,0.0,surname_review,False,transaction_match_zero_expenditures
+2026,senate,30,R,"Clyde Chambliss, Jr.","CHAMBLISS, CLYDE",133000.0,24617.09,1,observed,exact_tokens,100.0,57.14285714285714,20440.96,exact,False,state_summary_observed
+2026,senate,31,R,Josh Carnley,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,92.3076923076923,33.97435897435898,0.0,surname_review,False,transaction_match_zero_expenditures
+2026,senate,32,D,Janet Appleby,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,92.85714285714286,39.010989010989015,1291.86,exact,True,invalid_zero_assumption_transactions_positive
+2026,senate,32,R,Chris Elliott,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,81.25,36.08870967741935,606711.73,exact,True,invalid_zero_assumption_transactions_positive
+2026,senate,33,D,Vivian Davis Figures,"FIGURES, VIVIAN DAVIS",99000.0,9673.14,1,observed,exact_tokens,100.0,48.71794871794872,8673.14,fuzzy,False,state_summary_observed
+2026,senate,34,R,Rusty Glover,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,68.57142857142857,20.295566502463053,79288.8,fuzzy,True,invalid_zero_assumption_transactions_positive
+2026,senate,35,R,David Sessions,,,,0,no_state_entry_zero_assumption_sensitivity_only,unmatched,84.84848484848484,31.907308377896605,3061.1800000000003,exact,True,invalid_zero_assumption_transactions_positive

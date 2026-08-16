@@ -1,0 +1,12 @@
+cycle,match_method,precincts
+2014,county_level_ballot,133
+2014,exact,532
+2014,fuzzy,667
+2014,unmatched,977
+2018,county_level_ballot,135
+2018,exact,1052
+2018,fuzzy,627
+2018,unmatched,426
+2022,exact,944
+2022,fuzzy,526
+2022,unmatched,469

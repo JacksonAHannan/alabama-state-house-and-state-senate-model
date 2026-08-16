@@ -1,0 +1,18 @@
+{
+  "primary_issue": "criminal_justice",
+  "secondary_issues": [
+    "healthcare_medicaid",
+    "infrastructure_energy"
+  ],
+  "plain_english_revision": "The amendment adds two new criminal penalties: a Class A felony for men who undergo vasectomies and a Class C felony for attempting one. It does not address the original bill's abortion provisions directly.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "advocating_for_criminalization_of_vasectomy_procedures",
+  "confidence": "high",
+  "evidence_quotes": [
+    "A man who has a vasectomy shall be guilty of a Class A felony.",
+    "A man who attempts to have a vasectomy shall be guilty of a Class C felony."
+  ],
+  "needs_human_review": true,
+  "review_reason": "The amendment's intent is unclear without context on whether it was intended as satire, procedural error, or substantive policy. The text is not linked to the bill's abortion provisions and lacks explanatory rationale."
+}

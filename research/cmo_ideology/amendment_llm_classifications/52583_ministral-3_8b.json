@@ -1,0 +1,18 @@
+{
+  "primary_issue": "criminal_justice",
+  "secondary_issues": [
+    "ethics_government",
+    "criminal_justice"
+  ],
+  "plain_english_revision": "**Summary of Amendment Changes**",
+  "revision_direction": "indeterminate",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Exempts Class 2 municipalities from a specific election requirement for council-manager form governance, while preserving the general rule elsewhere.",
+  "confidence": "low",
+  "evidence_quotes": [
+    "**Line 8-10**: 'with certain exceptions'",
+    "**Line 12-13**: 'in every municipality except a Class 2 municipality'"
+  ],
+  "needs_human_review": true,
+  "review_reason": "The amendment text is highly procedural and lacks context for the broader bill's intent. The amendment only specifies *where* exceptions apply (Class 2 municipalities) but does not clarify *what* election requirement is being modified or why. Without seeing the original Sec. 11-43A-8, it cannot be determined whether this is a restriction on voting rights, term limits, or another procedural rule."
+}

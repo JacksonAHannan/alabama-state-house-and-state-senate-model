@@ -1,0 +1,11 @@
+{
+  "policy_key": "law_enforcement_funding",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "funding for law enforcement agencies",
+  "evidence_quote": "",
+  "needs_human_review": true,
+  "review_reason": "The provided source text is a prompt asking the candidate to indicate their funding levels for law enforcement, but it does not include any specific response from the candidate. Without the candidate's actual selection (e.g., 'increase,' 'maintain,' or 'decrease'), this item cannot be classified as +1, -1, or 0 based on conventional ideological frameworks."
+}

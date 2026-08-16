@@ -1,0 +1,17 @@
+{
+  "primary_issue": "taxes_budget",
+  "secondary_issues": [
+    "health_social_services"
+  ],
+  "plain_english_revision": "The amendment expands the prohibition on smoking in vehicles with minors present to include vaping. It adds 'or vaping' after references to tobacco products and defines vape devices as electronic nicotine delivery systems carrying liquid nicotine.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "progressive",
+  "candidate_position_supported": "The amendment advances a policy that broadens health protections for minors by explicitly including vaping alongside traditional tobacco products in the ban on smoking inside vehicles with children present.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "\"after 'products' insert the following: or vaping\"",
+    "\"For purposes of this section, vape or vaping has the same meaning as electronic nicotine delivery system that carries a liquid nicotine container\""
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

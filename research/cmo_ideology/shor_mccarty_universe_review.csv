@@ -1,0 +1,164 @@
+cycle,chamber,district,candidate,candidate_cmo_total_oof,shor_match_status,shor_similarity,shor_suggested_name
+2014,house,7,John (Jody) Letson,37.152067339362816,ambiguous_multiple_scores,100.0,Letson
+2010,house,5,HENRY A. WHITE,-4.410210802999908,fuzzy_review,95.0,henry white
+2010,house,16,"WILLIAM E. THIGPEN, SR.",1.1014822904799324,fuzzy_review,95.0,thigpen william
+2014,house,16,Daniel H. Boman,-64.72643785224722,fuzzy_review,95.0,boman daniel
+2014,house,52,John W. Rogers  Jr.,1.0888403999084844,fuzzy_review,95.0,john rogers
+2014,house,69,Kelvin J. Lawrence,-8.713631177625967,fuzzy_review,95.0,kelvin lawrence
+2018,house,97,Adline C. Clarke,-16.62946314389688,fuzzy_review,95.0,adline clarke
+2022,house,12,"James C. Fields, Jr.",12.042137747654712,fuzzy_review,95.0,fields james
+2022,house,68,"Thomas E. ""Action"" Jackson",-13.119345423671165,fuzzy_review,95.0,jackson thomas
+2022,house,69,Kelvin J. Lawrence,-4.784382154295706,fuzzy_review,95.0,kelvin lawrence
+2022,senate,33,Vivian Davis Figures,-5.037608023441571,fuzzy_review,95.0,figures vivian
+2010,house,27,JEFF McLAUGHLIN,16.835914301678343,fuzzy_review,90.9090909090909,jeffrey mclaughlin
+2010,house,7,JOHN 'Jody' LETSON,-7.59056207044936,fuzzy_review,90.0,letson
+2010,house,29,JOHN G. 'Jack' PAGE III,-9.569465662579733,fuzzy_review,90.0,john page
+2010,senate,25,DOUG 'Smitty' SMITH,-50.60951043424632,fuzzy_review,90.0,smith
+2014,senate,4,"Angelo ""Doc"" Mancuso",3.670922911088162,fuzzy_review,90.0,mancuso
+2014,senate,22,Susan Smith,-8.036951697889567,fuzzy_review,90.0,smith
+2018,house,66,Susan E. Smith,-7.130589447113426,fuzzy_review,90.0,smith
+2018,senate,16,Lindsey Deckard,7.123816242528923,fuzzy_review,90.0,lindsey
+2018,senate,26,"David ""Coach"" Burkette",23.543047828356347,fuzzy_review,90.0,burke
+2014,house,10,Means,-62.20544920521216,fuzzy_review,90.0,larry means
+2010,house,9,KATHY WHITE GOODWIN,-7.7981505976669245,unmatched,85.5,henry white
+2010,house,42,JAMES M. 'Jimmy' MARTIN,-3.735957989780367,unmatched,85.5,buskey james
+2010,house,73,JOSEPH LISTER 'Joe' HUBBARD,-15.448586423927622,unmatched,85.5,carothers joe
+2010,house,81,BETTY CAROL GRAHAM,-16.54774351007314,unmatched,85.5,betty graham
+2010,senate,17,T. E. 'Tommy' HUDSON,-25.46014676432937,unmatched,85.5,d little t
+2010,senate,30,'Walking' WENDELL MITCHELL,-20.52471357901929,unmatched,85.5,joseph mitchell
+2014,house,22,Dennis W. Stephens,-5.445905221774051,unmatched,85.5,mcdaniel w
+2018,house,5,Brian D Williams,-3.691930857671956,unmatched,85.5,d little t
+2018,house,20,Linda Meigs,15.120380750211098,unmatched,85.5,coleman linda madison
+2018,house,32,Barbara Bigsby Boyd,18.54155804427397,unmatched,85.5,barbara boyd
+2018,house,37,Charlotte A. Clark-Frieson,-0.8794073976738286,unmatched,85.5,clark william
+2018,house,40,Pamela Jean Howard,-5.01994716502157,unmatched,85.5,hawk howard
+2018,house,51,Veronica R. Johnson,9.396655238669217,unmatched,85.5,e johnson
+2018,house,79,Mary Wynne Kling,4.553879013317703,unmatched,85.5,mary moore
+2022,house,15,Richard P. Rouco,-5.292916462301196,unmatched,85.5,p parker
+2022,house,32,Barbara Bigsby Boyd,14.758347766172662,unmatched,85.5,barbara boyd
+2022,house,62,Brenda T. Cephus,-11.302087391343305,unmatched,85.5,d little t
+2022,house,82,Pebblin Walker Warren,11.757015253148449,unmatched,85.5,james warren
+2010,senate,4,ZEB LITTLE,-2.581864430760426,unmatched,83.33333333333334,little zebulon
+2010,house,13,TOMMY SHERER,-18.42592988311932,unmatched,80.0,sherer thomas
+2014,senate,28,Billy Beasley,-10.508058145304744,unmatched,78.57142857142857,beasley william
+2010,house,86,MERRITT CAROTHERS,-10.919907768033768,unmatched,77.72727272727272,carothers joe
+2018,house,38,Brian McGee,-8.142814732245341,unmatched,77.14285714285715,ghee
+2018,senate,21,Rick Burnham,1.2500376907511512,unmatched,77.14285714285715,turnham
+2022,house,33,"Fred Crum, Sr.",-5.443061031123301,unmatched,77.14285714285715,reed
+2022,senate,27,Sherri Reese,-1.449806608799696,unmatched,77.14285714285715,reed
+2010,senate,9,TIM MITCHELL,0.8268087940844913,unmatched,76.0,joseph mitchell
+2010,house,26,RANDALL WHITE,21.631200749515003,unmatched,75.86206896551724,frank paul white
+2018,house,90,Joanne Whetstone,-5.460621110998908,unmatched,75.00000000000001,letson
+2022,house,92,Steve Hubbard,-13.51975354982246,unmatched,75.0,hurst steve
+2018,house,29,Jared Millican,-0.7326667134314242,unmatched,73.33333333333334,michael millican
+2022,house,40,Pam Howard,-8.06332795782472,unmatched,72.72727272727273,howard ralph
+2010,house,40,RICKY WHALEY,-1.819566887980012,unmatched,72.0,bailey
+2014,house,90,Walton Hickman,-30.247915515603594,unmatched,72.0,letson
+2018,house,61,"Thomas ""Tommy"" Hyche",-10.382928249153371,unmatched,72.0,sherer thomas
+2022,house,41,Chris Nelson,3.583549294790896,unmatched,72.0,letson
+2022,senate,7,Korey Wilson,7.66825777260269,unmatched,72.0,letson
+2018,senate,35,Tom Holmes,-13.348495607584448,unmatched,71.25,alvin holmes
+2014,house,89,Joel Lee Williams,7.831168274683277,unmatched,70.96774193548387,fuller william
+2018,house,89,Joel Lee Williams,0.3430655275791618,unmatched,70.96774193548387,fuller william
+2018,house,27,Bill Jones,-6.843490969774368,unmatched,70.0,bill dukes
+2018,house,80,"Christopher F. ""Apostle"" Davis",-5.4231878257328106,unmatched,69.66666666666666,christopher england
+2018,house,33,Scott Brewer,-4.178202602981539,unmatched,69.23076923076923,roderick scott
+2022,house,65,Marcus Caster,-5.615525280650052,unmatched,69.23076923076923,mancuso
+2022,house,95,Richard Brackner,-8.719506430576029,unmatched,68.96551724137932,laird richard
+2018,house,99,Sam Jones,6.223338165235334,unmatched,67.85714285714286,jones patrick
+2022,house,57,Patrick Sellers,8.264118526251355,unmatched,67.85714285714286,jones patrick
+2010,house,8,DRAMA BRELAND,22.719643209401934,unmatched,67.5,burke
+2010,house,30,WALLY BURNS,-0.1959368345802161,unmatched,67.5,burke
+2010,senate,5,BRETT WADSWORTH,-21.9155996736796,unmatched,67.5,burke
+2014,house,37,Josh Burns,11.209411545257582,unmatched,67.5,burke
+2014,senate,31,Larry Greenwood,-21.63413883710769,unmatched,67.5,ghee
+2018,house,30,Jared Vaughn,-10.247332988304674,unmatched,67.5,reed
+2018,house,88,Cory Creel,-14.237354233820165,unmatched,67.5,reed
+2018,house,94,Danielle Mashburn-Myrick,10.57012340209576,unmatched,67.5,mcdaniel w
+2018,senate,11,Carl Carter,-5.338559230420936,unmatched,67.05882352941177,carter tommy
+2010,house,14,KEN GUIN,-32.82046401676733,unmatched,66.66666666666667,guin james
+2014,house,33,Anthony Zachero,-24.83511283519849,unmatched,66.66666666666667,anthony daniels
+2018,house,21,Terry Jones,10.854799274569618,unmatched,66.66666666666667,jones patrick
+2018,senate,1,Caroline Self,7.993848824374398,unmatched,66.66666666666667,charles steele
+2018,senate,12,Jim Williams,7.961137843212162,unmatched,66.66666666666667,thigpen william
+2022,house,26,Ben Alford,-22.143850172065903,unmatched,66.66666666666667,ford joe
+2018,house,8,Billy Jackson,2.3873840681770684,unmatched,66.5,jackson thomas
+2010,senate,13,GREG VARNER,15.46300589679028,unmatched,66.08695652173913,burdine greg
+2014,house,2,"Andrew ""Andy"" Betterton",27.492379331342505,unmatched,65.45454545454547,letson
+2014,house,79,Shirley Scott-Harris,3.395271584752084,unmatched,65.45454545454547,bailey
+2018,house,104,Arlene Cunningham Easley,-4.955844852406495,unmatched,65.45454545454547,bailey
+2022,house,47,Christian Coleman,-14.058156327331812,unmatched,65.45454545454547,freeman
+2022,house,43,Prince Cleveland,10.38613939432803,unmatched,64.51612903225806,chestnut prince
+2018,house,2,Lora Kay Morrow,8.554765905456089,unmatched,64.28571428571429,morrison
+2022,senate,12,Danny McCullars,-4.431617126946359,unmatched,64.28571428571429,mcclain
+2014,house,40,Copeland,-9.599025942207504,unmatched,64.28571428571429,hollis rolanda
+2010,house,75,GLENN L. ALLEN,-31.267117518826367,unmatched,64.0,allen layson
+2014,house,17,Don Barnwell,14.399869689365218,unmatched,64.0,barron lowell
+2014,house,21,C. Terry Jones,6.620448418828557,unmatched,64.0,spicer terry
+2022,house,10,Marilyn Lands,12.761417245174748,unmatched,64.0,james martin
+2014,house,24,Beddingfield,23.220259733713803,unmatched,64.0,benefield kim
+2018,house,74,Rayford Mack,-39.20616275098424,unmatched,63.63636363636363,craig ford
+2014,house,29,Michael J. Gladden,-8.2110952129355,unmatched,63.33333333333332,michael millican
+2014,senate,12,Taylor Stewart,1.7393217649157735,unmatched,63.33333333333332,butch taylor
+2022,house,7,"Mose Jones, Jr.",-3.9793281318530624,unmatched,63.33333333333332,jones patrick
+2018,house,15,Suzanna Coleman,-0.4396152150908179,unmatched,62.857142857142854,coleman evans merika
+2018,senate,27,Nancy Carlton Bendinger,8.081093535870522,unmatched,62.608695652173914,enfinger jeff
+2022,house,74,Phillip Ensler,9.87439418214278,unmatched,62.06896551724138,beasley william
+2018,house,73,Jack Jacobs,-5.95747291436453,unmatched,60.86956521739131,jack venable
+2010,house,24,NATHANIEL LEDBETTER,22.120996946160894,unmatched,60.00000000000001,betty graham
+2010,house,93,RONNIE HELMS,-35.56967455110176,unmatched,60.00000000000001,ghee
+2010,senate,12,"WALLACE WYATT, JR.",12.112139701905845,unmatched,60.00000000000001,spratt
+2014,house,47,Salvatore Bambinelli,-33.64626920576614,unmatched,60.00000000000001,reed
+2014,house,74,Zack Buckner,-12.880817296817163,unmatched,60.00000000000001,burke
+2014,senate,8,Horace Clemmons,-7.930780318008536,unmatched,60.00000000000001,drake
+2018,house,36,Nicki Arnold-Swindle,-3.850121561272406,unmatched,60.00000000000001,lindsey
+2018,house,48,Alli Summerford,24.098850085602905,unmatched,60.00000000000001,craig ford
+2018,house,62,Will Benton,-4.192815978631836,unmatched,60.00000000000001,letson
+2018,house,64,Amber Selman-Lynn,-3.789482317935745,unmatched,60.00000000000001,albert hall
+2018,senate,7,Deborah Barros,0.2794485638785984,unmatched,60.00000000000001,box
+2018,senate,32,Jason Fisher,-3.564721291321816,unmatched,60.00000000000001,letson
+2022,house,3,Wesley Thompson,9.376404418587184,unmatched,60.00000000000001,bailey
+2022,house,27,Herb Neu,1.1798620091071628,unmatched,60.00000000000001,ghee
+2022,senate,21,Lisa Ward,8.144337894380072,unmatched,60.00000000000001,coleman linda madison
+2022,senate,29,"Nathan ""Nate"" Mathis",-3.560545092217289,unmatched,60.00000000000001,smith
+2018,house,43,Carin Mayo,-3.55606679309877,unmatched,60.0,eric major
+2018,house,45,Jenn Gray,12.188487339675138,unmatched,60.0,gary tanner
+2010,house,63,SUSAN PACE HAMILL,-7.865515930077716,unmatched,59.25925925925925,hall laura
+2014,senate,13,Darrell Turner,4.4413062137511226,unmatched,59.25925925925925,darrio melton
+2018,senate,13,Darrell Turner,-6.295617079204739,unmatched,59.25925925925925,darrio melton
+2014,senate,16,Cindy Bell,-26.664494270388737,unmatched,58.82352941176471,lindsey
+2014,senate,11,Ron Crumpton,-8.537050902022724,unmatched,58.33333333333333,quinton ross
+2014,senate,35,Beau Doolittle,-28.52231427194632,unmatched,58.33333333333333,d little t
+2014,house,81,Dylan V. Oliver,-4.12592836473779,unmatched,57.0,oliver robinson
+2018,house,10,J.B. King,7.230127000134674,unmatched,56.25,bobby singleton
+2018,house,47,Jim Toomey,-0.6028708703952805,unmatched,56.25,ed roberts tommy
+2018,house,81,"Jeremy ""J.J."" Jeffcoat",-8.712947075710716,unmatched,56.25,ford joe
+2018,senate,14,Jerry McDonald,-4.799446409200099,unmatched,56.25,jeffrey mclaughlin
+2022,senate,23,Robert L. Stewart,6.476796078587959,unmatched,56.25,ed roberts tommy
+2010,house,36,GARRY BEARDEN,-14.922737264106372,unmatched,56.00000000000001,burdine greg
+2014,senate,7,Bryan Bennett,-4.120904756822883,unmatched,56.00000000000001,betty graham
+2018,house,18,Eddie Britton,-8.914972768645212,unmatched,56.00000000000001,boman daniel
+2022,house,25,Mallory Hagan,5.2764533130804665,unmatched,56.00000000000001,hogan thomas
+2018,house,4,Jo Ann Cummings,-8.714657304649025,unmatched,55.38461538461539,mancuso
+2018,house,41,Emily Anne Marcum,-1.8298729248490488,unmatched,55.38461538461539,mancuso
+2010,house,45,CHARLENE CANNON,-13.682525765719763,unmatched,55.172413793103445,charles newton
+2018,house,96,Maurice Horsey,-11.63284842790964,unmatched,55.172413793103445,joseph mitchell
+2018,house,83,"Jeremy ""Mr. Eyg"" Gray",14.498765114422364,unmatched,54.54545454545454,clay george
+2010,senate,35,SCOTT A BUZBEE,-4.334660926466683,unmatched,54.0,burke
+2014,house,80,Tillman Pugh,-7.080766038473943,unmatched,54.0,freeman
+2014,house,93,Jennifer Marsden,-23.198430344788083,unmatched,54.0,eric major
+2018,house,7,Kenneth A. Brackins,-9.967139244615996,unmatched,54.0,burke
+2010,house,92,DAVID S. DARBY,-10.35188644843488,unmatched,52.77777777777778,colston david
+2018,senate,25,David A. Sadler,-23.97545290275973,unmatched,52.77777777777778,colston david
+2018,house,3,Chad Young,11.275289261212585,unmatched,52.17391304347826,hilliard john
+2014,house,8,Rex Cheatham,16.743981777741908,unmatched,51.85185185185186,chestnut prince
+2014,senate,27,Haylee Moss,-9.181923544912811,unmatched,51.85185185185186,alexander louise
+2010,house,4,VAUGHN GOODWIN,0.6172867840777458,unmatched,51.42857142857142,ghee
+2010,house,38,HUEY P. LONG,7.885459012553253,unmatched,51.42857142857142,ghee
+2018,house,28,Kyle Pierce,-3.054431554855441,unmatched,51.42857142857142,reed
+2018,house,86,Kristy M. Kirkland,-4.873634584070492,unmatched,50.0,curtis mike
+2022,house,63,Samuel Adams,7.7614045688255695,unmatched,50.0,artis mccampbell
+2022,senate,2,Kim Caudle Lewis,15.04537943600424,unmatched,50.0,alvin holmes
+2018,house,46,Felicia Stewart,22.34478427253325,unmatched,49.090909090909086,fite lea
+2018,senate,2,Amy Wasyluka,3.6286398524567822,unmatched,45.45454545454546,hall laura
+2010,house,43,VIRGINIA SWEET,-0.1531991071741014,unmatched,45.0,ghee

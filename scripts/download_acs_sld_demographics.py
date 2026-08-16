@@ -17,17 +17,20 @@ BASE_VARS = ["NAME", "B03002_001E", "B03002_003E", "B15003_001E",
 
 
 def api_key() -> str:
-    for line in (ROOT / "token.env").read_text(encoding="utf-8").splitlines():
-        if line.startswith("CENSUS_API_KEY="):
-            return line.split("=", 1)[1].strip()
+    token = ROOT / "token.env"
+    if token.exists():
+        for line in token.read_text(encoding="utf-8").splitlines():
+            if line.startswith("CENSUS_API_KEY="):
+                return line.split("=", 1)[1].strip()
     return os.environ.get("CENSUS_API_KEY", "")
 
 
 def pull(year: int, chamber: str, geography: str) -> pd.DataFrame:
     url = f"https://api.census.gov/data/{year}/acs/acs5"
     variables = BASE_VARS
-    params = {"get": ",".join(variables), "for": f"{geography}:*", "in": "state:01",
-              "key": api_key()}
+    params = {"get": ",".join(variables), "for": f"{geography}:*", "in": "state:01"}
+    if api_key():
+        params["key"] = api_key()
     response = requests.get(url, params=params, timeout=60)
     if not response.ok:
         raise RuntimeError(f"Census API {response.status_code}: {response.text[:500]}")
@@ -51,9 +54,16 @@ def pull(year: int, chamber: str, geography: str) -> pd.DataFrame:
 
 def main() -> None:
     frames = []
-    for year in (2014, 2018, 2022):
+    for year in (2010, 2014, 2018, 2022):
         frames.append(pull(year, "house", "state legislative district (lower chamber)"))
         frames.append(pull(year, "senate", "state legislative district (upper chamber)"))
+    # ACS 2024 tabulations use the 2024-session SLD geography represented by
+    # the supplied 2025 TIGER files; label these as prospective 2026 features.
+    for chamber, geography in [("house", "state legislative district (lower chamber)"),
+                               ("senate", "state legislative district (upper chamber)")]:
+        prospective = pull(2024, chamber, geography)
+        prospective["cycle"] = 2026
+        frames.append(prospective)
     data = pd.concat(frames, ignore_index=True)
     OUT.mkdir(parents=True, exist_ok=True)
     data.to_csv(OUT / "acs_direct_sld_demographics.csv", index=False)

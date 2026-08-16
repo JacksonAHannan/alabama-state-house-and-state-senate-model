@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_alternative_energy_funding",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting state funding for alternative energy is generally considered a progressive policy stance as it aligns with environmental protection and renewable energy adoption goals.",
+  "evidence_quote": "Do you support state funding for the development of alternative energy?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

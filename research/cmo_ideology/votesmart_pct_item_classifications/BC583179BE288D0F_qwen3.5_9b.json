@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_disclosure",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The question asks for support on a procedural transparency issue (disclosure) rather than an ideological stance like limiting money or expanding rights.",
+  "evidence_quote": "Do you support requiring full and timely disclosure of campaign finance information?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

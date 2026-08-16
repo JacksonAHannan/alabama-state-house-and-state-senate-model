@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_agricultural_research_funding",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Supporting increased funding for agricultural and forestry research is generally considered a progressive or centrist economic policy focused on public investment in science, sustainability, and rural development rather than traditional conservative free-market deregulation.",
+  "evidence_quote": "Provide increased funding for agricultural and forestry research.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

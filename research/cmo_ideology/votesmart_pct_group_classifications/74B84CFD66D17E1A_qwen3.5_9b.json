@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_drug_education_expansion",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Expanding federally sponsored drug education and treatment programs is conventionally viewed as a progressive social policy focused on harm reduction and public health rather than punitive measures.",
+  "evidence_quote": "Expand federally sponsored drug education and drug treatment programs.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

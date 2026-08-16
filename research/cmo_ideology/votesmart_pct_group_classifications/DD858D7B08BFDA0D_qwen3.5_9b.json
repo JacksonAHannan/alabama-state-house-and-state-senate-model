@@ -1,0 +1,11 @@
+{
+  "policy_key": "criminalize_undocumented_immigrant_hiring",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option proposes making it a crime for employers in Alabama to hire individuals without legal immigration status.",
+  "evidence_quote": "n) Criminalize the employment of an undocumented immigrant in Alabama.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_drunk_driving_bac_limit",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting a lower blood-alcohol-content (BAC) limit for drunk driving is conventionally considered more progressive as it advocates for stricter public safety regulations and harsher penalties on impaired drivers.",
+  "evidence_quote": "i) Support the lower .08 blood-alcohol-content limit defining drunk driving.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

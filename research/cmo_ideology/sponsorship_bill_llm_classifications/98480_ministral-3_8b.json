@@ -1,0 +1,14 @@
+{
+  "plain_english_policy": "This bill (SB344, 2010) establishes a **new administrative fee structure** for Alabama\u2019s participation in the Interstate Compact for Adult Offender Supervision. It does not alter substantive criminal justice policy but instead creates a **revenue mechanism tied to offender transfers**, with two key components:",
+  "policy_direction_if_enacted": "**Increased financial burden on offenders moving interstate + centralized funding for probation oversight**",
+  "ideological_valence": "conservative",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "no_inference_beyond_text",
+  "confidence": "high",
+  "evidence_quotes": [
+    "\u2018shall pay a transfer application fee of seventy-five dollars ($75) for each application prepared for the offender\u2019",
+    "\u2018The proceeds\u2026 shall be deposited into the State Treasury to the credit of the Probationer\u2019s Upkeep Fund\u2019"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The bill is unambiguous in its financial and administrative intent. It does not address substantive criminal justice policy (e.g., sentencing, parole eligibility) but instead creates a **new funding stream for probation oversight** by imposing a fee on offenders relocating out of state under the Interstate Compact. The $75 fee\u2014with limited exemptions\u2014directs revenue to the Board of Pardons and Paroles, which manages Alabama\u2019s probation system. This aligns with conservative policy trends in criminal justice financing (e.g., shifting costs to offenders) but does not reflect broader ideological stances beyond its text."
+}

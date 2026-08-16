@@ -1,0 +1,11 @@
+{
+  "policy_key": "defense_spending_increase",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option asks for support on increasing defense spending without specifying the context or justification.",
+  "evidence_quote": "Do you support increasing defense spending?",
+  "needs_human_review": true,
+  "review_reason": "This is a generic policy question lacking specific details that would allow classification as conservative or progressive."
+}

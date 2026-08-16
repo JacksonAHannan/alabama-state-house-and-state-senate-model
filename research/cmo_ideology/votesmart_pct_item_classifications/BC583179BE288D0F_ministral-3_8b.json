@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_disclosure",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "mandating transparent and immediate reporting of campaign finance data",
+  "evidence_quote": "requiring full and timely disclosure of campaign finance information",
+  "needs_human_review": false,
+  "review_reason": ""
+}

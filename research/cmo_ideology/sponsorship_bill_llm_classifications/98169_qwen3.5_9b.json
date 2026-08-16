@@ -1,0 +1,16 @@
+{
+  "plain_english_policy": "This bill mandates that Alabama's State Ethics Commission organize and administer mandatory training programs on state ethics laws for a wide range of public officials. These groups include legislators, constitutional officers (like the Governor), cabinet members, executive staff, municipal mayors/councils/commissioners, and county commissioners.\n\nThe policy establishes specific timelines: \n- Legislators must attend once every four years at the start of their term, plus additional sessions if ethics laws change. Special election winners have 3 months to train.\n- Executive branch officials (Governor, cabinet) get trained within 30 days of taking office or after law changes.\n- Local and county leaders currently in office must train within 120 days; new ones have 120 days from swearing-in. The Ethics Commission Director schedules these with input from local government associations.\n\nThe training curriculum, designed by the Ethics Commission Executive Director, covers current laws, past cases/advisory opinions, and includes Q&A sessions. Instructors can include ethics staff, law school faculty, experts, affected persons, and media representatives.\n\nAttendance is compulsory unless someone has a catastrophic illness. Crucially, this requirement does not prevent officials from being prosecuted or penalized for ethical violations even if they haven't completed the training yet.",
+  "policy_direction_if_enacted": "Enactment would create a structured, mandatory ethics education system in Alabama targeting all levels of government (state and local). It shifts ethics compliance from purely reactive to proactive by requiring officials to understand laws before or shortly after assuming office. The inclusion of diverse faculty members suggests an intent to broaden perspectives on ethical issues beyond just legal experts.",
+  "ideological_valence": "progressive",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "Senator Means (sponsor) supports establishing mandatory ethics training for public officials in Alabama.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "\"This bill would require the Ethics Commission to conduct a mandatory training program on the Ethics Law for members of the Legislature...\"",
+    "\"(a) The State Ethics Commission shall provide for and administer training programs as provided herein on the State Ethics Law...\"",
+    "\"Each legislator must attend the training programs.\"\n\"Except as provided herein, attendance at any session of the training program shall be mandatory,\"",
+    "\"The curriculum shall include, but not be limited to, a review of the current law, a discussion of actual cases and advisory opinions on which the State Ethics Commission has ruled...\""
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

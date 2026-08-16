@@ -1,0 +1,15 @@
+{
+  "plain_english_policy": "This bill creates a new legislative committee to oversee distinctive license plates in Alabama. The primary policy change is that this newly formed committee will be authorized to approve applications for out-of-state colleges and universities, which were previously prohibited from having their own license plates under existing law (Section 32-6-67(d)(1)). If approved by the committee, any revenue generated from selling these specific license plates would not go directly to the sponsoring organization. Instead, the bill mandates that all proceeds for out-of-state college and university plates be deposited into the Education Trust Fund.",
+  "policy_direction_if_enacted": "Enactment of this bill would shift policy by removing the statutory ban on distinctive license plates for out-of-state institutions in Alabama. It establishes a bureaucratic process (a legislative committee) to review these requests, likely limiting them based on guidelines set by that committee rather than allowing automatic issuance or direct private sponsorship without oversight. Financially, it redirects revenue from this specific category of plate sales away from the universities themselves and toward state-funded programs aimed at reducing high school dropout rates.",
+  "ideological_valence": "mixed",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "The sponsors affirmatively advanced a bill that expands access to distinctive license plates for out-of-state entities while simultaneously creating state oversight and redirecting the associated revenue to public education goals.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "\"This bill would allow the legislative oversight committee to consider and approve an application for an out-of-state college or university.\"",
+    "\"(d) The committee shall not consider for approval applications from the following types of organizations: (1) Out-of-state colleges and universities.\" ... [amended by Section 1]",
+    "\"The remainder of the additional fee for a distinctive license plate for out-of-state colleges and universities shall be deposited into the Education Trust Fund and shall be used for preventing and lowering the rates of high school dropouts.\""
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

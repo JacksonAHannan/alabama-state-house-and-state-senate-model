@@ -1,0 +1,19 @@
+{
+  "primary_issue": "infrastructure_energy",
+  "secondary_issues": [
+    "public_education",
+    "criminal_justice"
+  ],
+  "plain_english_revision": "The amendment expands remote participation rules for Alabama State University's Board of Trustees by adding explicit provisions for video/telephone meetings, including emergency protocols and public access requirements. It also clarifies the board\u2019s regular meeting schedule (May/November) and modifies notice procedures for special meetings.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "To standardize remote governance mechanisms for university boards under the Alabama Open Meetings Act while ensuring public participation in virtual proceedings.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "Participation by such these means shall constitute presence in person at a meeting for all purposes.",
+    "Notice of an emergency meeting shall be given at least 72 hours before the time... unless circumstances require sooner.",
+    "telephone or video conference ... shall also allow members of the public the opportunity to simultaneously listen to or observe such the meetings."
+  ],
+  "needs_human_review": false,
+  "review_reason": "All changes are explicitly text-based and do not rely on external context."
+}

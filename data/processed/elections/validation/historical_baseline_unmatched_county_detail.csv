@@ -1,0 +1,481 @@
+county_key,office,party_norm,votes,cycle,chamber
+BALDWIN,Attorney General,D,0.0,1998,house
+BALDWIN,Attorney General,R,0.0,1998,house
+BALDWIN,Governor,D,0.0,1998,house
+BALDWIN,Governor,R,0.0,1998,house
+BARBOUR,Attorney General,D,0.0,1998,house
+BARBOUR,Attorney General,R,0.0,1998,house
+BARBOUR,Governor,D,0.0,1998,house
+BARBOUR,Governor,R,0.0,1998,house
+CLEBURNE,Attorney General,D,0.0,1998,house
+CLEBURNE,Attorney General,R,0.0,1998,house
+CLEBURNE,Governor,D,0.0,1998,house
+CLEBURNE,Governor,R,0.0,1998,house
+CRENSHAW,Attorney General,D,3318.0,1998,house
+CRENSHAW,Attorney General,R,1300.0,1998,house
+CRENSHAW,Governor,D,4863.0,1998,house
+CRENSHAW,Governor,R,4393.0,1998,house
+DALE,Attorney General,D,1111.0,1998,house
+DALE,Attorney General,R,1239.0,1998,house
+DALE,Governor,D,2204.0,1998,house
+DALE,Governor,R,2565.0,1998,house
+ELMORE,Attorney General,D,0.0,1998,house
+ELMORE,Attorney General,R,0.0,1998,house
+ELMORE,Governor,D,0.0,1998,house
+ELMORE,Governor,R,0.0,1998,house
+FRANKLIN,Attorney General,D,4813.0,1998,house
+FRANKLIN,Attorney General,R,3612.0,1998,house
+FRANKLIN,Governor,D,10031.0,1998,house
+FRANKLIN,Governor,R,7426.0,1998,house
+HOUSTON,Attorney General,D,0.0,1998,house
+HOUSTON,Attorney General,R,0.0,1998,house
+HOUSTON,Governor,D,0.0,1998,house
+HOUSTON,Governor,R,0.0,1998,house
+JEFFERSON,Attorney General,D,0.0,1998,house
+JEFFERSON,Attorney General,R,0.0,1998,house
+JEFFERSON,Governor,D,0.0,1998,house
+JEFFERSON,Governor,R,0.0,1998,house
+MADISON,Attorney General,D,0.0,1998,house
+MADISON,Attorney General,R,0.0,1998,house
+MADISON,Governor,D,0.0,1998,house
+MADISON,Governor,R,0.0,1998,house
+MONTGOMERY,Attorney General,D,237.0,1998,house
+MONTGOMERY,Attorney General,R,33.0,1998,house
+MONTGOMERY,Governor,D,499.0,1998,house
+MONTGOMERY,Governor,R,61.0,1998,house
+PERRY,Attorney General,D,0.0,1998,house
+PERRY,Attorney General,R,0.0,1998,house
+PERRY,Governor,D,0.0,1998,house
+PERRY,Governor,R,0.0,1998,house
+RUSSELL,Attorney General,D,0.0,1998,house
+RUSSELL,Attorney General,R,0.0,1998,house
+RUSSELL,Governor,D,0.0,1998,house
+RUSSELL,Governor,R,0.0,1998,house
+SHELBY,Attorney General,D,0.0,1998,house
+SHELBY,Attorney General,R,0.0,1998,house
+SHELBY,Governor,D,0.0,1998,house
+SHELBY,Governor,R,0.0,1998,house
+STCLAIR,Attorney General,D,1445.0,1998,house
+STCLAIR,Attorney General,R,1903.0,1998,house
+STCLAIR,Governor,D,3276.0,1998,house
+STCLAIR,Governor,R,3588.0,1998,house
+TALLADEGA,Attorney General,D,0.0,1998,house
+TALLADEGA,Attorney General,R,0.0,1998,house
+TALLADEGA,Governor,D,0.0,1998,house
+TALLADEGA,Governor,R,0.0,1998,house
+TALLAPOOSA,Attorney General,D,0.0,1998,house
+TALLAPOOSA,Attorney General,R,0.0,1998,house
+TALLAPOOSA,Governor,D,0.0,1998,house
+TALLAPOOSA,Governor,R,0.0,1998,house
+WILCOX,Attorney General,D,0.0,1998,house
+WILCOX,Attorney General,R,0.0,1998,house
+WILCOX,Governor,D,0.0,1998,house
+WILCOX,Governor,R,0.0,1998,house
+BALDWIN,Attorney General,D,0.0,1998,senate
+BALDWIN,Attorney General,R,0.0,1998,senate
+BALDWIN,Governor,D,0.0,1998,senate
+BALDWIN,Governor,R,0.0,1998,senate
+BARBOUR,Attorney General,D,0.0,1998,senate
+BARBOUR,Attorney General,R,0.0,1998,senate
+BARBOUR,Governor,D,0.0,1998,senate
+BARBOUR,Governor,R,0.0,1998,senate
+CLEBURNE,Attorney General,D,0.0,1998,senate
+CLEBURNE,Attorney General,R,0.0,1998,senate
+CLEBURNE,Governor,D,0.0,1998,senate
+CLEBURNE,Governor,R,0.0,1998,senate
+DALE,Attorney General,D,0.0,1998,senate
+DALE,Attorney General,R,0.0,1998,senate
+DALE,Governor,D,0.0,1998,senate
+DALE,Governor,R,0.0,1998,senate
+DEKALB,Attorney General,D,299.0,1998,senate
+DEKALB,Attorney General,R,297.0,1998,senate
+DEKALB,Governor,D,664.0,1998,senate
+DEKALB,Governor,R,596.0,1998,senate
+ELMORE,Attorney General,D,0.0,1998,senate
+ELMORE,Attorney General,R,0.0,1998,senate
+ELMORE,Governor,D,0.0,1998,senate
+ELMORE,Governor,R,0.0,1998,senate
+HOUSTON,Attorney General,D,0.0,1998,senate
+HOUSTON,Attorney General,R,0.0,1998,senate
+HOUSTON,Governor,D,0.0,1998,senate
+HOUSTON,Governor,R,0.0,1998,senate
+JEFFERSON,Attorney General,D,2.0,1998,senate
+JEFFERSON,Attorney General,R,0.0,1998,senate
+JEFFERSON,Governor,D,3.0,1998,senate
+JEFFERSON,Governor,R,1.0,1998,senate
+MADISON,Attorney General,D,0.0,1998,senate
+MADISON,Attorney General,R,0.0,1998,senate
+MADISON,Governor,D,0.0,1998,senate
+MADISON,Governor,R,0.0,1998,senate
+PERRY,Attorney General,D,0.0,1998,senate
+PERRY,Attorney General,R,0.0,1998,senate
+PERRY,Governor,D,0.0,1998,senate
+PERRY,Governor,R,0.0,1998,senate
+RUSSELL,Attorney General,D,0.0,1998,senate
+RUSSELL,Attorney General,R,0.0,1998,senate
+RUSSELL,Governor,D,0.0,1998,senate
+RUSSELL,Governor,R,0.0,1998,senate
+SHELBY,Attorney General,D,0.0,1998,senate
+SHELBY,Attorney General,R,0.0,1998,senate
+SHELBY,Governor,D,0.0,1998,senate
+SHELBY,Governor,R,0.0,1998,senate
+TALLADEGA,Attorney General,D,0.0,1998,senate
+TALLADEGA,Attorney General,R,0.0,1998,senate
+TALLADEGA,Governor,D,0.0,1998,senate
+TALLADEGA,Governor,R,0.0,1998,senate
+TALLAPOOSA,Attorney General,D,0.0,1998,senate
+TALLAPOOSA,Attorney General,R,0.0,1998,senate
+TALLAPOOSA,Governor,D,0.0,1998,senate
+TALLAPOOSA,Governor,R,0.0,1998,senate
+WILCOX,Attorney General,D,0.0,1998,senate
+WILCOX,Attorney General,R,0.0,1998,senate
+WILCOX,Governor,D,0.0,1998,senate
+WILCOX,Governor,R,0.0,1998,senate
+BALDWIN,Attorney General,D,0.0,2002,house
+BALDWIN,Attorney General,R,0.0,2002,house
+BALDWIN,Governor,D,0.0,2002,house
+BALDWIN,Governor,R,0.0,2002,house
+CLAY,Attorney General,D,0.0,2002,house
+CLAY,Attorney General,R,0.0,2002,house
+CLAY,Governor,D,0.0,2002,house
+CLAY,Governor,R,0.0,2002,house
+COFFEE,Attorney General,D,0.0,2002,house
+COFFEE,Attorney General,R,0.0,2002,house
+COFFEE,Governor,D,0.0,2002,house
+COFFEE,Governor,R,0.0,2002,house
+COLBERT,Attorney General,D,164.0,2002,house
+COLBERT,Attorney General,R,141.0,2002,house
+COLBERT,Governor,D,191.0,2002,house
+COLBERT,Governor,R,122.0,2002,house
+CONECUH,Attorney General,D,0.0,2002,house
+CONECUH,Attorney General,R,0.0,2002,house
+CONECUH,Governor,D,0.0,2002,house
+CONECUH,Governor,R,0.0,2002,house
+CULLMAN,Attorney General,D,0.0,2002,house
+CULLMAN,Attorney General,R,0.0,2002,house
+CULLMAN,Governor,D,0.0,2002,house
+CULLMAN,Governor,R,0.0,2002,house
+ELMORE,Attorney General,D,0.0,2002,house
+ELMORE,Attorney General,R,0.0,2002,house
+ELMORE,Governor,D,0.0,2002,house
+ELMORE,Governor,R,0.0,2002,house
+ESCAMBIA,Attorney General,D,0.0,2002,house
+ESCAMBIA,Attorney General,R,0.0,2002,house
+ESCAMBIA,Governor,D,0.0,2002,house
+ESCAMBIA,Governor,R,0.0,2002,house
+ETOWAH,Attorney General,D,0.0,2002,house
+ETOWAH,Attorney General,R,0.0,2002,house
+ETOWAH,Governor,D,0.0,2002,house
+ETOWAH,Governor,R,0.0,2002,house
+FRANKLIN,Attorney General,D,0.0,2002,house
+FRANKLIN,Attorney General,R,0.0,2002,house
+FRANKLIN,Governor,D,0.0,2002,house
+FRANKLIN,Governor,R,0.0,2002,house
+HOUSTON,Attorney General,D,0.0,2002,house
+HOUSTON,Attorney General,R,0.0,2002,house
+HOUSTON,Governor,D,0.0,2002,house
+HOUSTON,Governor,R,0.0,2002,house
+JEFFERSON,Attorney General,D,0.0,2002,house
+JEFFERSON,Attorney General,R,0.0,2002,house
+JEFFERSON,Governor,D,0.0,2002,house
+JEFFERSON,Governor,R,0.0,2002,house
+LAMAR,Attorney General,D,0.0,2002,house
+LAMAR,Attorney General,R,1.0,2002,house
+LAMAR,Governor,D,0.0,2002,house
+LAMAR,Governor,R,1.0,2002,house
+LAUDERDALE,Attorney General,D,382.0,2002,house
+LAUDERDALE,Attorney General,R,559.0,2002,house
+LAUDERDALE,Governor,D,485.0,2002,house
+LAUDERDALE,Governor,R,481.0,2002,house
+LAWRENCE,Attorney General,D,0.0,2002,house
+LAWRENCE,Attorney General,R,0.0,2002,house
+LAWRENCE,Governor,D,0.0,2002,house
+LAWRENCE,Governor,R,0.0,2002,house
+LEE,Attorney General,D,1.0,2002,house
+LEE,Attorney General,R,0.0,2002,house
+LEE,Governor,D,2.0,2002,house
+LEE,Governor,R,0.0,2002,house
+MACON,Attorney General,D,0.0,2002,house
+MACON,Attorney General,R,0.0,2002,house
+MACON,Governor,D,0.0,2002,house
+MACON,Governor,R,0.0,2002,house
+MADISON,Attorney General,D,388.0,2002,house
+MADISON,Attorney General,R,794.0,2002,house
+MADISON,Governor,D,586.0,2002,house
+MADISON,Governor,R,650.0,2002,house
+MORGAN,Attorney General,D,0.0,2002,house
+MORGAN,Attorney General,R,0.0,2002,house
+MORGAN,Governor,D,0.0,2002,house
+MORGAN,Governor,R,0.0,2002,house
+RANDOLPH,Attorney General,D,0.0,2002,house
+RANDOLPH,Attorney General,R,0.0,2002,house
+RANDOLPH,Governor,D,0.0,2002,house
+RANDOLPH,Governor,R,0.0,2002,house
+RUSSELL,Attorney General,D,0.0,2002,house
+RUSSELL,Attorney General,R,0.0,2002,house
+RUSSELL,Governor,D,0.0,2002,house
+RUSSELL,Governor,R,0.0,2002,house
+SHELBY,Attorney General,D,0.0,2002,house
+SHELBY,Attorney General,R,0.0,2002,house
+SHELBY,Governor,D,0.0,2002,house
+SHELBY,Governor,R,0.0,2002,house
+TUSCALOOSA,Attorney General,D,1.0,2002,house
+TUSCALOOSA,Attorney General,R,0.0,2002,house
+TUSCALOOSA,Governor,D,1.0,2002,house
+TUSCALOOSA,Governor,R,0.0,2002,house
+WASHINGTON,Attorney General,D,0.0,2002,house
+WASHINGTON,Attorney General,R,0.0,2002,house
+WASHINGTON,Governor,D,0.0,2002,house
+WASHINGTON,Governor,R,0.0,2002,house
+BALDWIN,Attorney General,D,0.0,2002,senate
+BALDWIN,Attorney General,R,0.0,2002,senate
+BALDWIN,Governor,D,0.0,2002,senate
+BALDWIN,Governor,R,0.0,2002,senate
+CLAY,Attorney General,D,0.0,2002,senate
+CLAY,Attorney General,R,0.0,2002,senate
+CLAY,Governor,D,0.0,2002,senate
+CLAY,Governor,R,0.0,2002,senate
+COFFEE,Attorney General,D,0.0,2002,senate
+COFFEE,Attorney General,R,0.0,2002,senate
+COFFEE,Governor,D,0.0,2002,senate
+COFFEE,Governor,R,0.0,2002,senate
+CONECUH,Attorney General,D,0.0,2002,senate
+CONECUH,Attorney General,R,0.0,2002,senate
+CONECUH,Governor,D,0.0,2002,senate
+CONECUH,Governor,R,0.0,2002,senate
+CULLMAN,Attorney General,D,0.0,2002,senate
+CULLMAN,Attorney General,R,0.0,2002,senate
+CULLMAN,Governor,D,0.0,2002,senate
+CULLMAN,Governor,R,0.0,2002,senate
+ELMORE,Attorney General,D,0.0,2002,senate
+ELMORE,Attorney General,R,0.0,2002,senate
+ELMORE,Governor,D,0.0,2002,senate
+ELMORE,Governor,R,0.0,2002,senate
+ESCAMBIA,Attorney General,D,0.0,2002,senate
+ESCAMBIA,Attorney General,R,0.0,2002,senate
+ESCAMBIA,Governor,D,0.0,2002,senate
+ESCAMBIA,Governor,R,0.0,2002,senate
+ETOWAH,Attorney General,D,0.0,2002,senate
+ETOWAH,Attorney General,R,0.0,2002,senate
+ETOWAH,Governor,D,0.0,2002,senate
+ETOWAH,Governor,R,0.0,2002,senate
+FRANKLIN,Attorney General,D,0.0,2002,senate
+FRANKLIN,Attorney General,R,0.0,2002,senate
+FRANKLIN,Governor,D,0.0,2002,senate
+FRANKLIN,Governor,R,0.0,2002,senate
+HOUSTON,Attorney General,D,0.0,2002,senate
+HOUSTON,Attorney General,R,0.0,2002,senate
+HOUSTON,Governor,D,0.0,2002,senate
+HOUSTON,Governor,R,0.0,2002,senate
+JEFFERSON,Attorney General,D,0.0,2002,senate
+JEFFERSON,Attorney General,R,0.0,2002,senate
+JEFFERSON,Governor,D,0.0,2002,senate
+JEFFERSON,Governor,R,0.0,2002,senate
+LAMAR,Attorney General,D,0.0,2002,senate
+LAMAR,Attorney General,R,1.0,2002,senate
+LAMAR,Governor,D,0.0,2002,senate
+LAMAR,Governor,R,1.0,2002,senate
+LAWRENCE,Attorney General,D,0.0,2002,senate
+LAWRENCE,Attorney General,R,0.0,2002,senate
+LAWRENCE,Governor,D,0.0,2002,senate
+LAWRENCE,Governor,R,0.0,2002,senate
+MACON,Attorney General,D,0.0,2002,senate
+MACON,Attorney General,R,0.0,2002,senate
+MACON,Governor,D,0.0,2002,senate
+MACON,Governor,R,0.0,2002,senate
+MADISON,Attorney General,D,0.0,2002,senate
+MADISON,Attorney General,R,0.0,2002,senate
+MADISON,Governor,D,0.0,2002,senate
+MADISON,Governor,R,0.0,2002,senate
+MORGAN,Attorney General,D,0.0,2002,senate
+MORGAN,Attorney General,R,0.0,2002,senate
+MORGAN,Governor,D,0.0,2002,senate
+MORGAN,Governor,R,0.0,2002,senate
+RANDOLPH,Attorney General,D,0.0,2002,senate
+RANDOLPH,Attorney General,R,0.0,2002,senate
+RANDOLPH,Governor,D,0.0,2002,senate
+RANDOLPH,Governor,R,0.0,2002,senate
+RUSSELL,Attorney General,D,0.0,2002,senate
+RUSSELL,Attorney General,R,0.0,2002,senate
+RUSSELL,Governor,D,0.0,2002,senate
+RUSSELL,Governor,R,0.0,2002,senate
+SHELBY,Attorney General,D,0.0,2002,senate
+SHELBY,Attorney General,R,0.0,2002,senate
+SHELBY,Governor,D,0.0,2002,senate
+SHELBY,Governor,R,0.0,2002,senate
+TUSCALOOSA,Attorney General,D,0.0,2002,senate
+TUSCALOOSA,Attorney General,R,0.0,2002,senate
+TUSCALOOSA,Governor,D,0.0,2002,senate
+TUSCALOOSA,Governor,R,0.0,2002,senate
+WASHINGTON,Attorney General,D,0.0,2002,senate
+WASHINGTON,Attorney General,R,0.0,2002,senate
+WASHINGTON,Governor,D,0.0,2002,senate
+WASHINGTON,Governor,R,0.0,2002,senate
+AUTAUGA,Attorney General,D,0.0,2006,house
+AUTAUGA,Attorney General,R,0.0,2006,house
+AUTAUGA,Governor,D,0.0,2006,house
+AUTAUGA,Governor,R,0.0,2006,house
+BALDWIN,Attorney General,D,0.0,2006,house
+BALDWIN,Attorney General,R,0.0,2006,house
+BALDWIN,Governor,D,0.0,2006,house
+BALDWIN,Governor,R,0.0,2006,house
+BULLOCK,Attorney General,D,0.0,2006,house
+BULLOCK,Attorney General,R,0.0,2006,house
+BULLOCK,Governor,D,0.0,2006,house
+BULLOCK,Governor,R,0.0,2006,house
+BUTLER,Attorney General,D,0.0,2006,house
+BUTLER,Attorney General,R,0.0,2006,house
+BUTLER,Governor,D,0.0,2006,house
+BUTLER,Governor,R,0.0,2006,house
+CALHOUN,Attorney General,D,0.0,2006,house
+CALHOUN,Attorney General,R,0.0,2006,house
+CALHOUN,Governor,D,0.0,2006,house
+CALHOUN,Governor,R,0.0,2006,house
+CLAY,Attorney General,D,0.0,2006,house
+CLAY,Attorney General,R,0.0,2006,house
+CLAY,Governor,D,0.0,2006,house
+CLAY,Governor,R,0.0,2006,house
+DALE,Attorney General,D,0.0,2006,house
+DALE,Attorney General,R,0.0,2006,house
+DALE,Governor,D,0.0,2006,house
+DALE,Governor,R,0.0,2006,house
+FAYETTE,Attorney General,D,0.0,2006,house
+FAYETTE,Attorney General,R,0.0,2006,house
+FAYETTE,Governor,D,0.0,2006,house
+FAYETTE,Governor,R,0.0,2006,house
+GENEVA,Attorney General,D,2.0,2006,house
+GENEVA,Attorney General,R,0.0,2006,house
+GENEVA,Governor,D,1.0,2006,house
+GENEVA,Governor,R,1.0,2006,house
+JEFFERSON,Attorney General,D,0.0,2006,house
+JEFFERSON,Attorney General,R,0.0,2006,house
+JEFFERSON,Governor,D,0.0,2006,house
+JEFFERSON,Governor,R,0.0,2006,house
+LAWRENCE,Attorney General,D,0.0,2006,house
+LAWRENCE,Attorney General,R,0.0,2006,house
+LAWRENCE,Governor,D,0.0,2006,house
+LAWRENCE,Governor,R,0.0,2006,house
+MADISON,Attorney General,D,0.0,2006,house
+MADISON,Attorney General,R,0.0,2006,house
+MADISON,Governor,D,0.0,2006,house
+MADISON,Governor,R,0.0,2006,house
+MARION,Attorney General,D,0.0,2006,house
+MARION,Attorney General,R,0.0,2006,house
+MARION,Governor,D,0.0,2006,house
+MARION,Governor,R,0.0,2006,house
+MOBILE,Attorney General,D,0.0,2006,house
+MOBILE,Attorney General,R,0.0,2006,house
+MOBILE,Governor,D,0.0,2006,house
+MOBILE,Governor,R,0.0,2006,house
+MONTGOMERY,Attorney General,D,0.0,2006,house
+MONTGOMERY,Attorney General,R,1.0,2006,house
+MONTGOMERY,Governor,D,0.0,2006,house
+MONTGOMERY,Governor,R,1.0,2006,house
+MORGAN,Attorney General,D,0.0,2006,house
+MORGAN,Attorney General,R,0.0,2006,house
+MORGAN,Governor,D,0.0,2006,house
+MORGAN,Governor,R,0.0,2006,house
+PICKENS,Attorney General,D,0.0,2006,house
+PICKENS,Attorney General,R,0.0,2006,house
+PICKENS,Governor,D,0.0,2006,house
+PICKENS,Governor,R,0.0,2006,house
+RANDOLPH,Attorney General,D,0.0,2006,house
+RANDOLPH,Attorney General,R,0.0,2006,house
+RANDOLPH,Governor,D,0.0,2006,house
+RANDOLPH,Governor,R,0.0,2006,house
+SUMTER,Attorney General,D,0.0,2006,house
+SUMTER,Attorney General,R,0.0,2006,house
+SUMTER,Governor,D,0.0,2006,house
+SUMTER,Governor,R,0.0,2006,house
+TALLADEGA,Attorney General,D,0.0,2006,house
+TALLADEGA,Attorney General,R,0.0,2006,house
+TALLADEGA,Governor,D,0.0,2006,house
+TALLADEGA,Governor,R,0.0,2006,house
+TUSCALOOSA,Attorney General,D,0.0,2006,house
+TUSCALOOSA,Attorney General,R,0.0,2006,house
+TUSCALOOSA,Governor,D,0.0,2006,house
+TUSCALOOSA,Governor,R,0.0,2006,house
+AUTAUGA,Attorney General,D,0.0,2006,senate
+AUTAUGA,Attorney General,R,0.0,2006,senate
+AUTAUGA,Governor,D,0.0,2006,senate
+AUTAUGA,Governor,R,0.0,2006,senate
+BALDWIN,Attorney General,D,0.0,2006,senate
+BALDWIN,Attorney General,R,0.0,2006,senate
+BALDWIN,Governor,D,0.0,2006,senate
+BALDWIN,Governor,R,0.0,2006,senate
+BULLOCK,Attorney General,D,0.0,2006,senate
+BULLOCK,Attorney General,R,0.0,2006,senate
+BULLOCK,Governor,D,0.0,2006,senate
+BULLOCK,Governor,R,0.0,2006,senate
+BUTLER,Attorney General,D,0.0,2006,senate
+BUTLER,Attorney General,R,0.0,2006,senate
+BUTLER,Governor,D,0.0,2006,senate
+BUTLER,Governor,R,0.0,2006,senate
+CALHOUN,Attorney General,D,0.0,2006,senate
+CALHOUN,Attorney General,R,0.0,2006,senate
+CALHOUN,Governor,D,0.0,2006,senate
+CALHOUN,Governor,R,0.0,2006,senate
+CLAY,Attorney General,D,0.0,2006,senate
+CLAY,Attorney General,R,0.0,2006,senate
+CLAY,Governor,D,0.0,2006,senate
+CLAY,Governor,R,0.0,2006,senate
+DALE,Attorney General,D,0.0,2006,senate
+DALE,Attorney General,R,0.0,2006,senate
+DALE,Governor,D,0.0,2006,senate
+DALE,Governor,R,0.0,2006,senate
+FAYETTE,Attorney General,D,0.0,2006,senate
+FAYETTE,Attorney General,R,0.0,2006,senate
+FAYETTE,Governor,D,0.0,2006,senate
+FAYETTE,Governor,R,0.0,2006,senate
+GENEVA,Attorney General,D,0.0,2006,senate
+GENEVA,Attorney General,R,0.0,2006,senate
+GENEVA,Governor,D,0.0,2006,senate
+GENEVA,Governor,R,0.0,2006,senate
+JEFFERSON,Attorney General,D,0.0,2006,senate
+JEFFERSON,Attorney General,R,0.0,2006,senate
+JEFFERSON,Governor,D,0.0,2006,senate
+JEFFERSON,Governor,R,0.0,2006,senate
+LAWRENCE,Attorney General,D,0.0,2006,senate
+LAWRENCE,Attorney General,R,0.0,2006,senate
+LAWRENCE,Governor,D,0.0,2006,senate
+LAWRENCE,Governor,R,0.0,2006,senate
+MADISON,Attorney General,D,0.0,2006,senate
+MADISON,Attorney General,R,0.0,2006,senate
+MADISON,Governor,D,0.0,2006,senate
+MADISON,Governor,R,0.0,2006,senate
+MARION,Attorney General,D,0.0,2006,senate
+MARION,Attorney General,R,0.0,2006,senate
+MARION,Governor,D,0.0,2006,senate
+MARION,Governor,R,0.0,2006,senate
+MOBILE,Attorney General,D,0.0,2006,senate
+MOBILE,Attorney General,R,0.0,2006,senate
+MOBILE,Governor,D,0.0,2006,senate
+MOBILE,Governor,R,0.0,2006,senate
+MONTGOMERY,Attorney General,D,0.0,2006,senate
+MONTGOMERY,Attorney General,R,1.0,2006,senate
+MONTGOMERY,Governor,D,0.0,2006,senate
+MONTGOMERY,Governor,R,1.0,2006,senate
+MORGAN,Attorney General,D,0.0,2006,senate
+MORGAN,Attorney General,R,0.0,2006,senate
+MORGAN,Governor,D,0.0,2006,senate
+MORGAN,Governor,R,0.0,2006,senate
+PICKENS,Attorney General,D,0.0,2006,senate
+PICKENS,Attorney General,R,0.0,2006,senate
+PICKENS,Governor,D,0.0,2006,senate
+PICKENS,Governor,R,0.0,2006,senate
+RANDOLPH,Attorney General,D,0.0,2006,senate
+RANDOLPH,Attorney General,R,0.0,2006,senate
+RANDOLPH,Governor,D,0.0,2006,senate
+RANDOLPH,Governor,R,0.0,2006,senate
+SUMTER,Attorney General,D,0.0,2006,senate
+SUMTER,Attorney General,R,0.0,2006,senate
+SUMTER,Governor,D,0.0,2006,senate
+SUMTER,Governor,R,0.0,2006,senate
+TALLADEGA,Attorney General,D,0.0,2006,senate
+TALLADEGA,Attorney General,R,0.0,2006,senate
+TALLADEGA,Governor,D,0.0,2006,senate
+TALLADEGA,Governor,R,0.0,2006,senate
+TUSCALOOSA,Attorney General,D,0.0,2006,senate
+TUSCALOOSA,Attorney General,R,0.0,2006,senate
+TUSCALOOSA,Governor,D,0.0,2006,senate
+TUSCALOOSA,Governor,R,0.0,2006,senate

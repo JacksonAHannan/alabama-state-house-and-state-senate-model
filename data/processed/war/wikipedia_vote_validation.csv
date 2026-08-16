@@ -1,0 +1,779 @@
+cycle,chamber,district,party,candidate_official,candidate_wikipedia,name_match_score,votes_official,wikipedia_vote_options,wikipedia_option_count,exact_vote_match,validation_status,validation_source
+2010,house,1,D,GREG BURDINE,Greg Burdine,1.0,7083,7083,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,1,R,QUINTON HANSON,Quinton Hanson,1.0,6877,6877,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,2,D,MIKE CURTIS,Mike Curtis,1.0,6284,6284,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,2,R,LYNN GREER,Lynn Greer,1.0,7599,7599,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,3,D,MARCEL BLACK,Marcel Black,1.0,9076,9076,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,4,D,VAUGHN GOODWIN,Vaughn Goodwin,1.0,5244,5244,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,4,R,MICKY HAMMON,Micky Hammon,1.0,12153,12153,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,5,D,HENRY A. WHITE,Henry A. White,1.0,5402,5402,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,5,R,DAN WILLIAMS,Dan Williams,1.0,8807,8807,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,6,R,PHIL WILLIAMS,Phil Williams,1.0,9880,9880,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,7,D,JOHN 'Jody' LETSON,"John ""Jody"" Letson",1.0,6911,6911,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,7,R,KEN JOHNSON,Ken Johnson,1.0,7096,7096,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,8,D,DRAMA BRELAND,Drama Breland,1.0,5147,5147,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,8,R,TERRI COLLINS,Terri Collins,1.0,6574,6574,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,9,D,KATHY WHITE GOODWIN,Kathy White Goodwin,1.0,4294,4294,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,9,R,ED HENRY,Ed Henry,1.0,11405,11405,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,10,R,MIKE BALL,Mike Ball,1.0,11950,11950,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,11,R,JEREMY H. ODEN,Jeremy Oden,0.9166666666666666,12977,12977,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,12,D,"JAMES C. FIELDS, JR.",James C. Fields,1.0,7667,7667,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,12,R,MAC BUTTRAM,Mac Buttram,1.0,9062,9062,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,13,D,TOMMY SHERER,Tommy Sherer,1.0,5186,5186,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,13,R,BILL ROBERTS,Bill Roberts,1.0,7990,7990,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,14,D,KEN GUIN,Ken Guin,1.0,4121,4121,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,14,R,RICHARD BAUGHN,Richard Baughn,1.0,9327,9327,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,15,R,ALLEN FARLEY,Allen Farley,1.0,14117,14117,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,16,D,"WILLIAM E. THIGPEN, SR.",William E. Thigpen Sr.,1.0,6379,6379,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,16,R,DANIEL H. BOMAN,Daniel Boman,0.9230769230769231,7451,7451,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,17,D,MIKE MILLICAN,Mike Millican,1.0,8107,8107,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,18,D,JOHNNY MACK MORROW,Johnny Mack Morrow,1.0,8343,8344,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,19,D,LAURA HALL,Laura Hall,1.0,10669,10669,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,20,R,HOWARD SANDERFORD,Howard Sanderford,1.0,17733,17733,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,21,D,RANDY HINSHAW,Randy Hinshaw,1.0,6201,6201,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,21,R,JIM PATTERSON,Jim Patterson,1.0,6654,6654,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,22,D,BUTCH TAYLOR,Butch Taylor,1.0,5177,5177,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,22,R,WAYNE JOHNSON,Wayne Johnson,1.0,9523,9523,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,23,D,JOHN ROBINSON,John Robinson,1.0,7782,7782,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,24,D,NATHANIEL LEDBETTER,Nathaniel Ledbetter,1.0,6971,6971,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,24,R,TODD GREESON,Todd Greeson,1.0,7967,7967,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,25,R,MAC McCUTCHEON,Mac McCutcheon,1.0,17822,17822,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,26,D,RANDALL WHITE,Randall White,1.0,4873,4873,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,26,R,KERRY RICH,Kerry Rich,1.0,7203,7203,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,27,D,JEFF McLAUGHLIN,Jeff McLaughlin,1.0,7225,7225,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,27,R,WES LONG,Wes Long,1.0,8238,8238,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,28,D,CRAIG FORD,Craig Ford,1.0,8208,8208,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,29,D,JOHN G. 'Jack' PAGE III,,0.72,5406,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2010,house,29,R,BECKY NORDGREN,Becky Nordgren,1.0,5845,5845,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,30,D,WALLY BURNS,Wally Burns,1.0,4153,4153,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,30,R,BLAINE GALLIHER,Blaine Galliher,1.0,10979,10979,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,31,R,BARRY MASK,Barry Mask,1.0,13104,13104,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,32,D,BARBARA BIGSBY BOYD,Barbara Bigsby-Boyd,1.0,7238,7240,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,32,R,RON STRUZIK,Ron Struzik,1.0,2903,2905,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,33,R,RON JOHNSON,Ron Johnson,1.0,9567,9567,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,34,R,ELWYN THOMAS,Elwyn Thomas,1.0,13515,13515,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,35,D,STEVE HURST,Steve Hurst,1.0,6719,6722,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,35,R,STEVEN M. DEAN,Steven M. Dean,1.0,6292,6295,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,36,D,GARRY BEARDEN,Garry Bearden,1.0,3300,3301,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,36,R,RANDY WOOD,Randy Wood,1.0,10607,10612,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,37,D,RICHARD LAIRD,Richard Laird,1.0,8106,8106,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,37,R,BOB FINCHER,Bob Fincher,1.0,7011,7011,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,38,D,HUEY P. LONG,Huey P. Long,1.0,5748,5748,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,38,R,DuWAYNE BRIDGES,DuWayne Bridges,1.0,5980,5980,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,39,D,RICHARD LINDSEY,Richard Lindsey,1.0,7808,7808,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,39,R,TIM SPRAYBERRY,Tim Sprayberry,1.0,5872,5872,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,40,D,RICKY WHALEY,Ricky Whaley,1.0,5148,5148,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,40,R,K.L. (Koven) BROWN,K. L. (Koven) Brown,1.0,8582,8587,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,41,R,MIKE HILL,Mike Hill,1.0,19319,19319,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,42,D,JAMES M. 'Jimmy' MARTIN,"James M. ""Jimmy"" Martin",1.0,5452,5452,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,42,R,KURT WALLACE,Kurt Wallace,1.0,9382,9382,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,43,D,VIRGINIA SWEET,Virginia Sweet,1.0,4041,4041,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,43,R,MARY SUE McCLURKIN,Mary Sue McClurkin,1.0,16368,16368,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,44,R,ARTHUR PAYNE,Arthur Payne,1.0,11654,11654,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,45,D,CHARLENE CANNON,Charlene Cannon,1.0,5103,5103,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,45,R,OWEN DRAKE,Owen Drake,1.0,8165,8165,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,46,R,PAUL DEMARCO,Paul DeMarco,1.0,15446,15446,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,47,R,JACK WILLIAMS,Jack Williams,1.0,8735,8735,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,48,R,GREG CANFIELD,Greg Canfield,1.0,16859,16859,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,49,R,APRIL WEAVER,April Weaver,1.0,12411,12411,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,50,R,JIM McCLENDON,Jim McClendon,1.0,14248,14248,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,51,R,ALLEN TREADAWAY,Allen Treadaway,1.0,14061,14061,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,52,D,JOHN W. ROGERS JR.,John Rogers,0.9166666666666666,9599,9599,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,53,D,DEMETRIUS C. NEWTON,Demetrius Newton,0.9411764705882353,7729,7729,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,54,D,PATRICIA TODD,Patricia Todd,1.0,7599,7599,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,55,D,ROD SCOTT,Rod Scott,1.0,8670,8670,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,56,D,LAWRENCE MCADORY,Lawrence McAdory,1.0,9881,9881,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,57,D,MERIKA COLEMAN,Merika Coleman,1.0,10676,10676,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,58,D,OLIVER ROBINSON,Oliver Robinson,1.0,9704,9704,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,59,D,MARY MOORE,Mary Moore,1.0,7521,7521,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,60,D,JUANDALYNN 'LEE LEE' GIVAN,"Juandalynn ""Lee Lee"" Givan",1.0,10383,10383,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,61,D,ALAN HARPER,Alan Harper,1.0,9213,11102,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,61,R,FRANK CHANDLER,Frank Chandler,1.0,5051,3167,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,62,R,JOHN MERRILL,John Merrill,1.0,11658,11658,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,63,D,SUSAN PACE HAMILL,Susan Pace Hamill,1.0,5631,5631,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,63,R,BILL POOLE,Bill Poole,1.0,9937,9937,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,64,R,HARRY SHIVER,Harry Shiver,1.0,8524,8524,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,65,D,ELAINE BEECH,Elaine Beech,1.0,11747,11727,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,66,R,ALAN BAKER,Alan Baker,1.0,8615,8615,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,67,D,DARRIO MELTON,Dario Melton,0.96,10382,10382,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,68,D,THOMAS E. (Action) JACKSON,Thomas E. (Action) Jackson,1.0,10471,10471,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,69,D,DAVID COLSTON,David Colston,1.0,10605,11058,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,70,D,CHRISTOPHER JOHN ENGLAND,Christopher John England,1.0,7611,7611,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,71,D,ARTIS 'A.J.' McCAMPBELL,"Artis ""A. J."" McCampbell",1.0,12209,12261,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,72,D,RALPH A. HOWARD,Ralph A. Howard,1.0,11552,11552,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,73,D,JOSEPH LISTER 'Joe' HUBBARD,"Joseph Lister ""Joe"" Hubbard",1.0,8137,8137,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,73,R,DAVID GRIMES,David Grimes,1.0,7825,7825,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,74,R,JAY LOVE,Jay Love,1.0,8714,8714,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,75,D,GLENN L. ALLEN,Glenn L. Allen,1.0,5551,5551,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,75,R,GREG WREN,Greg Wren,1.0,14046,14046,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,76,D,THAD McCLAMMY,Thad McClammy,1.0,10092,10092,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,77,D,JOHN KNIGHT,John Knight,1.0,8353,8353,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,78,D,ALVIN HOLMES,Alvin Holmes,1.0,7349,7349,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,79,R,MIKE HUBBARD,Mike Hubbard,1.0,11128,11128,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,80,D,LESLEY VANCE,Lesley Vance,1.0,5576,5579,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,80,R,MERVIN DUDLEY,Mervin Dudley,1.0,4626,4626,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,81,D,BETTY CAROL GRAHAM,Betty Carol Graham,1.0,7306,7306,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,81,R,MARK M. TUGGLE,Mark M. Tuggle,1.0,9268,9268,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,82,D,PEBBLIN W. WARREN,Pebblin W. Warren,1.0,10179,10180,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,83,D,GEORGE 'Tootie' BANDY,"George ""Tootie"" Bandy",1.0,7480,7484,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,84,D,BERRY FORTE,Berry Forte,1.0,7763,7764,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,84,R,JOYCE L. PERRIN,Joyce L. Perrin,1.0,4152,4152,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,85,D,DEXTER GRIMSLEY,Dexter Grimsley,1.0,6668,6692,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,85,R,JODY SINGLETON,Jody Singleton,1.0,6243,6255,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,86,D,MERRITT CAROTHERS,Merritt Carothers,1.0,6623,6623,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,86,R,PAUL LEE,Paul Lee,1.0,9159,9159,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,87,R,DONNIE CHESTEEN,Donnie Chesteen,1.0,14347,14347,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,88,R,PAUL BECKMAN,Paul Beckman,1.0,14381,14382,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,89,D,ALAN C. BOOTHE,Alan C. Boothe,1.0,7911,7912,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,90,D,CHARLES NEWTON,Charles Newton,1.0,8427,8577,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,90,R,JERRY HARTIN,Jerry Hartin,1.0,5753,5855,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,91,D,TERRY SPICER,Terry Spicer,1.0,5383,5383,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,91,R,BARRY MOORE,Barry Moore,1.0,9754,9754,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,92,D,DAVID S. DARBY,David S. Darby,1.0,3080,3086,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,92,R,"MIKE JONES, JR.",Mike Jones Jr.,1.0,6809,6820,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,93,D,RONNIE HELMS,Ronnie Helms,1.0,3270,3271,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,93,R,STEVE CLOUSE,Steve Clouse,1.0,11417,11418,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,house,94,R,JOE FAUST,Joe Faust,1.0,16481,16481,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,95,R,STEVE McMILLAN,Steve McMillan,1.0,16239,16239,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,96,R,RANDY DAVIS,Randy Davis,1.0,13319,13319,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,97,D,YVONNE KENNEDY,Yvonne Kennedy,1.0,6714,6714,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,98,D,"NAPOLEON BRACY, JR.",Napoleon Bracy Jr.,1.0,6767,6767,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,98,R,SHARON L. POWE,Sharon L. Powe,1.0,3222,3222,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,99,D,JAMES E BUSKEY,James E. Buskey,1.0,8554,8554,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,100,R,VICTOR GASTON,Victor Gaston,1.0,12640,12640,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,101,R,JAMIE ISON,Jamie Ison,1.0,8414,8414,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,102,R,CHAD FINCHER,Chad Fincher,1.0,9641,9641,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,103,D,JOSEPH C. MITCHELL,Joseph C. Mitchell,1.0,6962,6962,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,104,R,JIM BARTON,Jim Barton,1.0,11155,11155,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,house,105,R,SPENCER COLLIER,Spencer Collier,1.0,7807,7807,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,1,D,TAMMY L. IRONS,Tammy Irons,0.9166666666666666,23178,23178,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,1,R,JERRY FREEMAN,Jerry Freeman,1.0,18266,18266,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,2,D,TOM BUTLER,Tom Butler,1.0,23060,23060,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,2,R,BILL HOLTZCLAW,Bill Holtzclaw,1.0,33050,33050,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,3,R,ARTHUR ORR,Arthur Orr,1.0,39245,39245,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,4,D,ZEB LITTLE,Zeb Little,1.0,18733,18733,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,4,R,PAUL BUSSMAN,Paul Bussman,1.0,25621,25621,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,5,D,BRETT WADSWORTH,Brett Wadsworth,1.0,12213,12213,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,5,R,GREG REED,Greg Reed,1.0,33500,33500,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,6,D,"ROGER BEDFORD, JR.",Roger Bedford Jr.,1.0,18691,18692,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,senate,6,R,JIM BONNER,Jim Bonner,1.0,16304,16304,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,7,D,JEFF ENFINGER,Jeff Enfinger,1.0,20819,20819,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,7,R,PAUL L. SANFORD,Paul Sanford,0.9230769230769231,25333,25333,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,8,D,LOWELL BARRON,Lowell Barron,1.0,20016,20016,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,8,R,SHADRACK McGILL,Shadrack McGill,1.0,20603,20603,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,9,D,TIM MITCHELL,Tim Mitchell,1.0,13933,13933,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,9,R,CLAY SCOFIELD,Clay Scofield,1.0,30834,30834,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,10,D,LARRY MEANS,Larry Means,1.0,17459,17459,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,10,R,PHIL WILLIAMS,Phil Williams,1.0,20249,20249,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,11,D,JERRY L. FIELDING,Jerry L. Fielding,1.0,19928,19929,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,senate,11,R,RAY ROBBINS,Ray Robbins,1.0,17323,17323,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,12,D,"WALLACE WYATT, JR.","Wallace Wyatt, Jr.",1.0,15203,15210,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,senate,12,R,DEL MARSH,Del Marsh,1.0,26702,26714,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,senate,13,D,GREG VARNER,Greg Varner,1.0,18443,18443,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,13,R,GERALD DIAL,Gerald Dial,1.0,18800,18800,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,14,R,CAM WARD,Cam Ward,1.0,42511,42511,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,15,R,SLADE BLACKWELL,Slade Blackwell,1.0,46018,46018,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,16,R,"J. T. ""JABO"" WAGGONER","J.T. ""Jabo"" Waggoner",1.0,43604,43604,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,17,D,T. E. 'Tommy' HUDSON,"T. E. ""Tommy"" Hudson",1.0,8973,8973,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,17,R,SCOTT BEASON,Scott Beason,1.0,38777,38777,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,18,D,RODGER M. SMITHERMAN,Rodger M. Smitherman,1.0,25154,25154,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,19,D,PRISCILLA DUNN,Priscilla Dunn,1.0,29227,29227,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,20,D,LINDA COLEMAN,Linda Coleman,1.0,28282,28282,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,21,D,PHIL POOLE,Phil Poole,1.0,19509,19509,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,21,R,GERALD ALLEN,Gerald Allen,1.0,20528,20528,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,22,D,MARC KEAHEY,Marc Keahey,1.0,24785,24785,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,22,R,DANNY B. JOYNER,Danny B. Joyner,1.0,19939,19939,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,23,D,HANK SANDERS,Hank Sanders,1.0,29868,30322,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,senate,24,D,BOBBY SINGLETON,Bobby Singleton,1.0,30801,30803,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,senate,25,D,DOUG 'Smitty' SMITH,"Doug ""Smitty"" Smith",1.0,14425,14425,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,25,R,DICK L. BREWBAKER,Dick Brewbaker,0.9333333333333333,38919,38919,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,26,D,"QUINTON T. ROSS, JR.","Quinton T. Ross, Jr.",1.0,28703,28703,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,27,D,T. D. (Ted) LITTLE,T.D. (Ted) Little,1.0,17377,17379,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,senate,27,R,TOM WHATLEY,Tom Whatley,1.0,21243,21245,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,senate,28,D,BILLY BEASLEY,Billy Beasley,1.0,28581,28619,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,senate,28,R,KIM WEST,Kim West,1.0,12028,12033,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,senate,29,R,GEORGE FLOWERS,George Flowers,1.0,19269,19225,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,senate,30,D,'Walking' WENDELL MITCHELL,"""Walking"" Wendell Mitchell",1.0,19330,19506,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,senate,30,R,BRYAN TAYLOR,Bryan Taylor,1.0,25772,25868,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,senate,31,R,JIMMY W. HOLLEY,Jimmy W. Holley,1.0,29285,29301,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2010,senate,32,R,TRIP PITTMAN,Trip Pittman,1.0,42365,42365,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,33,D,VIVIAN DAVIS FIGURES,Vivian Davis Figures,1.0,23241,23241,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,33,R,BRAD MOSER,Brad Moser,1.0,8419,8419,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,34,R,RUSTY GLOVER,Rusty Glover,1.0,34325,34325,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,35,D,SCOTT A BUZBEE,Scott A. Buzbee,1.0,12653,12653,1,True,exact,saved_wikipedia_secondary_not_certified
+2010,senate,35,R,BEN BROOKS,Ben Brooks,1.0,18307,18307,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,house,1,D,Greg Burdine,Greg Burdine,1.0,4652,4652,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,house,1,R,Phillip Pettus,Phillip Pettus,1.0,4933,4933,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,house,2,D,"Andrew ""Andy"" Betterton",,0.8,5224,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,2,R,Lynn Greer,Lynn Greer,1.0,8561,8561,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,house,3,D,Marcel Black,Marcel Black,1.0,7993,7993,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,house,3,R,Fred Joly,Fred Joly,1.0,5357,5357,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,house,4,R,Micky Hammon,Micky Hammon,1.0,8473,8473,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,house,5,D,Henry A. White,Henry A. White,1.0,5520,5520,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,house,5,R,Dan Williams,Dan Williams,1.0,7132,8807,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,6,R,Phil Williams,Phil Williams,1.0,8323,8323,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,house,7,D,John (Jody) Letson,,0.8148148148148148,5553,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,7,R,Ken Johnson,Ken Johnson,1.0,6072,7096,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,8,D,Rex Cheatham,,0.24,4195,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,8,R,Terri Collins,Terri Collins,1.0,6270,6574,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,9,R,Ed Henry,Ed Henry,1.0,9624,11405,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,10,R,Mike Ball,Mike Ball,1.0,8667,11950,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,11,R,Randall Shedd,,0.15384615384615385,6231,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,12,R,Corey Harbison,,0.24,9455,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,14,R,Tim Wadsworth,,0.2962962962962963,5525,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,15,R,Allen Farley,Allen Farley,1.0,19063,14117,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,16,D,Daniel H. Boman,Daniel Boman,0.9230769230769231,2809,3430,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,16,R,Kyle South,Kyle South,1.0,11863,10467,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,17,D,Don Barnwell,,0.24,3499,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,17,R,Mike Millican,,0.0,6212,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,18,D,Johnny MacK Morrow,Johnny Mack Morrow,1.0,6700,8344,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,18,R,Gerry Wallace,,0.0,4559,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,19,D,Laura Hall,Laura Hall,1.0,7615,7615,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,house,20,R,Howard Sanderford,Howard Sanderford,1.0,12876,17733,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,21,D,C. Terry Jones,,0.38461538461538464,4558,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,21,R,Jim Patterson,Jim Patterson,1.0,9428,6654,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,22,D,Dennis W. Stephens,,0.13793103448275862,2998,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,22,R,Ritchie Whorton,,0.35714285714285715,8688,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,23,D,John Robinson,John Robinson,1.0,3992,7782,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,23,R,"James T. ""Tommy"" Hanes Jr.",,0.0,5270,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,25,R,Mac McCutcheon,Mac McCutcheon,1.0,10432,17822,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,26,R,Kerry Rich,Kerry Rich,1.0,4880,7203,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,27,D,Jeff McLaughlin,Jeff McLaughlin,1.0,4573,7225,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,27,R,Will Ainsworth,Will Ainsworth,1.0,6392,8238,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,28,D,Craig Ford,Craig Ford,1.0,6827,8208,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,28,R,Doug Sherrod,,0.0,3704,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,29,D,Michael J. Gladden,Michael Gladden,0.9375,3219,5406,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,29,R,Becky Nordgren,Becky Nordgren,1.0,4977,5845,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,30,R,MacK N. Butler,,0.35714285714285715,9360,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,31,R,Mike Holmes,,0.19047619047619047,178,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,32,D,Barbara Bigsby Boyd,Barbara Bigsby-Boyd,1.0,3591,7240,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,33,D,Anthony Zachero,,0.0,2437,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,33,R,Ron Johnson,Ron Johnson,1.0,6534,9567,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,34,R,David Standridge,,0.14285714285714285,1336,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,35,R,Steve Hurst,,0.5,3866,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,36,R,Randy Wood,Randy Wood,1.0,3739,10612,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,37,D,Josh Burns,,0.2608695652173913,5518,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,37,R,Bob Fincher,Bob Fincher,1.0,5949,7011,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,38,R,Isaac Whorton,,0.14285714285714285,7279,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,39,D,Richard Lindsey,Richard Lindsey,1.0,5438,7808,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,39,R,Heath Jones,,0.08,3581,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,41,R,Mike Hill,Mike Hill,1.0,9223,19319,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,42,R,"James M. ""Jimmy"" Martin",,0.75,2978,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,43,R,Arnold Mooney,,0.3225806451612903,11576,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,44,R,Danny Garrett,,0.32,20720,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,45,R,Dickie Drake,Dickie Drake,1.0,13395,8165,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,46,R,David Faulkner,,0.38461538461538464,21556,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,47,D,Salvatore Bambinelli,Salvatore Bambinelli,1.0,5284,2642,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,47,R,Jack Williams,Jack Williams,1.0,14146,7073,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,48,R,Jim Carns,,0.36363636363636365,21369,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,49,R,April Weaver,April Weaver,1.0,3140,12411,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,50,R,Jim Hill,,0.47619047619047616,9201,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,51,R,Allen Treadaway,Allen Treadaway,1.0,21492,14061,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,52,D,John W. Rogers  Jr.,John Rogers,0.9166666666666666,14610,9599,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,52,R,Phillip Bahakel,,0.0,4414,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,53,D,Anthony Daniels,,0.25806451612903225,4166,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,53,R,Christopher Horn,,0.0,1190,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,54,D,Patricia A. Todd,Patricia Todd,0.9285714285714286,15202,7599,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,55,D,"Roderick ""Rod"" Scott",,0.6666666666666666,16906,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,56,D,Louise Alexander,,0.375,15920,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,56,R,Darius Foster,,0.0,7360,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,57,D,Merika Coleman,Merika Coleman,1.0,20368,10676,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,58,D,Oliver Robinson,Oliver Robinson,1.0,16574,9704,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,59,D,Mary Moore,Mary Moore,1.0,15898,7521,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,60,D,"Juandalynn ""Lele"" Givan","Juandalynn ""Lee Lee"" Givan",0.9333333333333333,19168,10383,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,61,R,Alan Harper,,0.56,5985,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,62,R,Rich Wingo,,0.18181818181818182,8416,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,63,R,Bill Poole,Bill Poole,1.0,6249,9937,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,64,R,Harry Shiver,Harry Shiver,1.0,8781,8524,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,65,D,Elaine Beech,Elaine Beech,1.0,8469,11727,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,66,R,Alan Baker,Alan Baker,1.0,2217,8615,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,67,D,Darrio Melton,Dario Melton,0.96,331,10382,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,68,D,"Thomas E ""Action"" Jackson",Thomas E. (Action) Jackson,1.0,8998,10471,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,69,D,Kelvin J. Lawrence,,0.2,6640,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,69,R,Loretta G. Grant,,0.0,3121,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,70,D,Christopher John England,Christopher John England,1.0,6799,7611,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,71,D,Artis (A.J.) McCampbell,"Artis ""A. J."" McCampbell",1.0,7525,12261,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,72,D,Ralph A. Howard,Ralph A. Howard,1.0,8133,11552,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,73,R,Matt Fridy,Matt Fridy,1.0,9183,7825,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,74,D,Zack Buckner,,0.0,3621,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,74,R,Dimitri Polizos,,0.17391304347826086,9481,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,75,R,Reed Ingram,,0.4,5712,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,76,D,Thad McClammy,Thad McClammy,1.0,8342,10092,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,77,D,John Knight,John Knight,1.0,6891,8353,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,77,R,David Grimes,,0.0,3775,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,78,D,Alvin Holmes,Alvin Holmes,1.0,6998,7349,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,78,R,Tijuanna Adetunji,,0.0,2637,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,79,D,Shirley Scott-Harris,,0.0,3535,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,79,R,Mike Hubbard,Mike Hubbard,1.0,5136,11128,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,80,D,Tillman Pugh,,0.3333333333333333,2240,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,80,R,Lesley Vance,,0.32,4702,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,81,D,Dylan V. Oliver,,0.3125,3454,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,81,R,Mark M. Tuggle,Mark Tuggle,0.9166666666666666,7052,9268,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,82,D,Pebblin W. Warren,Pebblin W. Warren,1.0,3468,10180,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,83,D,"George ""Tootie"" Bandy","George ""Tootie"" Bandy",1.0,5257,7484,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,83,R,Gary Head,,0.0,2752,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,84,D,Berry Forte,Berry Forte,1.0,7365,7764,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,84,R,Jerry A. McGilvray,,0.3225806451612903,4316,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,85,D,Dexter Grimsley,Dexter Grimsley,1.0,5777,6692,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,85,R,Bobby Lewis,,0.4,3405,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,86,R,Paul W. Lee,Paul Lee,0.8888888888888888,9253,9159,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,87,R,Donnie Chesteen,Donnie Chesteen,1.0,4326,14347,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,88,R,Paul Beckman,Paul Beckman,1.0,5708,14382,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,89,D,Joel Lee Williams,,0.13333333333333333,5436,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,89,R,Alan C. Boothe,,0.0,5519,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,90,D,Walton Hickman,,0.2857142857142857,2893,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,90,R,Chris Sells,,0.2608695652173913,4825,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,91,R,Barry Moore,Barry Moore,1.0,7484,9754,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,92,R,"Mike Jones, Jr.",Mike Jones Jr.,1.0,6829,6820,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,93,D,Jennifer Marsden,,0.5,2773,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,93,R,Steve Clouse,Steve Clouse,1.0,9139,11418,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,94,R,T. Joe Faust,Joe Faust,0.9,10738,16481,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,95,R,Steve McMillan,Steve McMillan,1.0,10336,16239,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,96,R,Randy Davis,Randy Davis,1.0,10007,13319,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,97,D,Adline C. Clarke,,0.3448275862068966,6168,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,98,D,"Napoleon Bracy, Jr.",Napoleon Bracy Jr.,1.0,6134,6767,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,98,R,Wayne E. Biggs,,0.15384615384615385,3276,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,99,D,James E. Buskey,James E. Buskey,1.0,7586,8554,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,100,R,Victor Gaston,Victor Gaston,1.0,7878,12640,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,house,101,R,Chris Pringle,,0.2608695652173913,7382,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,102,R,Jack Williams,,0.16,6688,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,103,D,Barbara A. Drummond,,0.17142857142857143,5608,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,103,R,Ralph Carmichael,,0.0,2065,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,104,R,Margie Wilcox,,0.34782608695652173,7745,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,105,R,David Sessions,,0.13793103448275862,6227,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,senate,1,D,Mike Curtis,Mike Curtis,1.0,13704,13704,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,senate,1,R,Tim Melson,Tim Melson,1.0,22982,22982,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,senate,2,R,Bill Holtzclaw,Bill Holtzclaw,1.0,24936,24936,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,senate,3,R,Arthur Orr,Arthur Orr,1.0,26906,26906,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,senate,4,D,"Angelo ""Doc"" Mancuso",Angelo Mancuso,0.875,8875,8875,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,senate,4,R,Paul Bussman,Paul Bussman,1.0,24750,24750,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,senate,5,R,Greg Reed,Greg Reed,1.0,20636,29611,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,6,D,"Roger Bedford, Jr.","Roger Bedford, Jr.",1.0,17574,17574,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,senate,6,R,Larry Stutts,Larry Stutts,1.0,17641,17641,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,senate,7,D,Bryan Bennett,Bryan Bennet,0.96,12404,12404,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,senate,7,R,Paul L. Sanford,Paul Sanford,0.9230769230769231,22873,22873,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,senate,8,D,Horace Clemmons,Horace Clemmons,1.0,5980,9322,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,8,R,Steve Livingston,Steve Livingston,1.0,15666,24332,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,9,R,Clay Scofield,Clay Scofield,1.0,20278,24596,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,10,D,Larry Means,Larry Means,1.0,16216,16530,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,10,R,Phil Williams,Phil Williams,1.0,17378,17967,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,11,D,Ron Crumpton,Ron Crumpton,1.0,6981,6981,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,senate,11,R,Jim McClendon,Jim McClendon,1.0,24318,24318,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,senate,12,D,Taylor Stewart,Taylor Stewart,1.0,1152,13178,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,12,R,Del Marsh,Del Marsh,1.0,1575,17646,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,13,D,Darrell Turner,,0.0,9623,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,senate,13,R,Gerald Dial,Gerald Dial,1.0,15159,16758,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,14,R,Cam Ward,Cam Ward,1.0,17420,25724,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,15,R,Slade Blackwell,Slade Blackwell,1.0,42673,29498,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,16,D,Cindy Bell,Cindy Bell,1.0,14181,8284,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,16,R,"J.T. ""Jabo"" Waggoner","J.T. ""Jabo"" Waggoner",1.0,46221,28107,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,17,R,Shay Shelnutt,Shay Shelnutt,1.0,40021,31105,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,18,D,Rodger M. Smitherman,Rodger Smitherman,0.9444444444444444,46390,23195,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,19,D,Priscilla Dunn,Priscilla Dunn,1.0,54286,27143,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,20,D,Linda Coleman,Linda Coleman,1.0,46736,23368,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,21,D,Phil Poole,Phil Poole,1.0,9243,12161,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,21,R,Gerald Allen,Gerald Allen,1.0,14952,20179,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,22,D,Susan Smith,Susan Smith,1.0,7500,11275,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,22,R,Greg Albritton,Greg Albritton,1.0,17929,23162,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,23,D,Hank Sanders,Hank Sanders,1.0,13986,29306,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,24,D,Bobby Singleton,Bobby Singleton,1.0,22117,26859,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,25,R,Dick L. Brewbaker,Dick Brewbaker,0.9333333333333333,22372,29545,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,26,D,"Quinton T. Ross, Jr.",Quinton Ross,0.9230769230769231,25166,25166,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,senate,27,D,Haylee Moss,Haylee Moss,1.0,10358,10358,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,senate,27,R,Tom Whatley,Tom Whatley,1.0,19808,19808,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,senate,28,D,Billy Beasley,Billy Beasley,1.0,17144,22148,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,28,R,John Savage,John Savage,1.0,7416,8020,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,29,R,Melinda McClendon,Melinda McClendon,1.0,13316,16145,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,30,R,"Clyde Chambliss, Jr.",Clyde Chambliss,1.0,10402,22916,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,31,D,Larry Greenwood,Larry Greenwood,1.0,8627,8627,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,senate,31,R,Jimmy W. Holley,Jimmy Holley,0.9230769230769231,23066,23067,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2014,senate,32,R,Trip Pittman,Trip Pittman,1.0,27837,27837,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,senate,33,D,Vivian Davis Figures,Vivian Davis Figures,1.0,23012,23012,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,senate,34,R,Rusty Glover,Rusty Glover,1.0,22451,22451,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,senate,35,D,Beau Doolittle,Beau Doolittle,1.0,6862,6862,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,senate,35,R,Bill Hightower,Bill Hightower,1.0,19173,19173,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,1,R,Phillip Pettus                        ,Phillip Pettus,1.0,7348,7348,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,2,D,Lora Kay Morrow                       ,Laura Kay Morrow,0.9032258064516129,4798,4798,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,2,R,Lynn Greer                            ,Lynn Greer,1.0,13056,13056,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,3,D,Chad Young                            ,Chad Young,1.0,8540,8540,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,3,R,Andrew Sorrell                        ,Andrew Sorrell,1.0,9448,9448,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,4,D,Jo Ann Cummings                       ,Jo Ann Cummings,1.0,4325,4325,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,4,R,Parker Duncan Moore                   ,,0.7741935483870968,11074,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2018,house,5,D,Brian D Williams                      ,Brian D Williams,1.0,4725,4725,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,5,R,Danny F. Crawford                     ,Danny Crawford,0.9333333333333333,12395,12395,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,6,R,Andy Whitt                            ,Andy Whitt,1.0,11893,11893,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,7,D,Kenneth A. Brackins                   ,Kenneth A. Brackins,1.0,3592,3592,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,7,R,Proncey Robertson                     ,,0.8484848484848485,10892,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2018,house,8,D,Billy Jackson                         ,Billy Jackson,1.0,5469,5469,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,8,R,Terri Collins                         ,Terri Collins,1.0,8803,8803,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,9,R,Scott Stadthagen                      ,Scott Stadthagen,1.0,13297,13297,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,10,D,J.B. King                             ,J.B. King,1.0,8565,8565,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,10,R,Mike Ball                             ,Mike Ball,1.0,11240,11240,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,11,R,Randall Shedd                         ,Randall Shedd,1.0,13098,13098,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,12,R,Corey Harbison                        ,Corey Harbison,1.0,14687,14687,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,13,R,Connie Cooner Rowe                    ,,0.7586206896551724,13755,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2018,house,14,R,Tim Wadsworth                         ,Tim Wadsworth,1.0,13394,13394,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,15,D,Suzanna Coleman                       ,Suzanna Coleman,1.0,6951,6951,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,15,R,Allen Farley                          ,Allen Farley,1.0,14212,14212,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,16,R,Kyle South                            ,Kyle South,1.0,14681,14681,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,17,R,Tracy Estes                           ,Tracy Estes,1.0,12158,12158,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,18,D,Eddie Britton                         ,Eddie Britton,1.0,3886,3886,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,18,R,Jamie Kiel                            ,Jamie Kiel,1.0,9845,9845,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,19,D,Laura Hall                            ,Laura Hall,1.0,12675,12675,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,20,D,Linda Meigs                           ,Linda Meigs,1.0,8527,8527,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,20,R,Howard Sanderford                     ,Howard Sanderford,1.0,14589,14589,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,21,D,Terry Jones                           ,Terry Jones,1.0,8391,8391,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,21,R,Rex Reynolds                          ,Rex Reynolds,1.0,13311,13311,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,22,R,Ritchie Whorton                       ,Ritchie Whorton,1.0,13929,13929,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,23,R,Tommy Hanes                           ,Tommy Hanes,1.0,10823,10823,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,24,R,Nathaniel Ledbetter                   ,Nathaniel Ledbetter,1.0,12394,12394,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,25,R,Mac McCutcheon                        ,Mac McCutcheon,1.0,14974,14974,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,26,R,Kerry Rich                            ,Kerry Rich,1.0,8948,8948,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,27,D,Bill Jones                            ,Bill Jones,1.0,2456,2456,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,27,R,Wes Kitchens                          ,Wes Kitchens,1.0,13245,13245,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,28,D,Kyle Pierce                           ,Kyle Pierce,1.0,5731,5731,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,28,R,Gil F. Isbell                         ,Gil Isbell,0.9090909090909091,7091,7091,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,29,D,Jared Millican                        ,,0.6153846153846154,3032,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2018,house,29,R,Becky Nordgren                        ,Becky Nordgren,1.0,11528,11528,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,30,D,Jared Vaughn                          ,Jared Vaughn,1.0,2931,2931,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,30,R,B. Craig Lipscomb                     ,B. Craig Lipscomb,1.0,13779,13779,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,31,R,Mike Holmes                           ,Mike Holmes,1.0,14323,14323,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,32,D,Barbara Bigsby Boyd                   ,,0.7741935483870968,7761,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2018,house,32,R,James Allen Lloyd                     ,James Allen Lloyd,1.0,4513,4513,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,33,D,Scott Brewer                          ,Scott Brewer,1.0,4928,4928,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,33,R,Ron Johnson                           ,Ronald Johnson,0.88,10155,10155,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,34,R,David Standridge                      ,David Standridge,1.0,13331,13331,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,35,R,Steve Hurst                           ,Steve Hurst,1.0,11567,11567,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,36,D,Nicki Arnold-Swindle                  ,Nicki Arnold-Swindle,1.0,4256,4256,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,36,R,Randy Wood                            ,Randy Wood,1.0,11399,11399,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,37,D,Charlotte A. Clark-Frieson            ,Charlotte A. Clark-Frieson,1.0,4505,4505,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,37,R,Bob Fincher                           ,Bob Fincher,1.0,11153,11153,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,38,D,Brian McGee                           ,Brian McGee,1.0,4944,4944,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,38,R,Debbie Hamby Wood                     ,Debbie Hamby Wood,1.0,11151,11151,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,39,R,Ginny Shaver                          ,Ginny Shaver,1.0,11585,11585,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,40,D,Pamela Jean Howard                    ,Pamela Jean Howard,1.0,3819,3819,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,40,R,"Koven ""K.L."" Brown                    ",,0.75,11188,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2018,house,41,D,Emily Anne Marcum                     ,Emily Anne Marcum,1.0,4610,4610,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,41,R,Corley Ellis                          ,Corley Ellis,1.0,14088,14088,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,42,R,"James M. ""Jimmy"" Martin               ",,0.75,12412,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2018,house,43,D,Carin Mayo                            ,Carin Mayo,1.0,5847,5847,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,43,R,Arnold G. Mooney II                   ,Arnold Mooney,0.9285714285714286,15035,15035,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,44,R,Danny Garrett                         ,Danny Garrett,1.0,14597,14597,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,45,D,Jenn Gray                             ,Jenn Gray,1.0,7148,7148,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,45,R,Dickie Drake                          ,Dickie Drake,1.0,13669,13669,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,46,D,Felicia Stewart                       ,Felicia Stewart,1.0,8445,8445,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,46,R,David Faulkner                        ,David Faulkner,1.0,13341,13341,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,47,D,Jim Toomey                            ,Jim Toomey,1.0,7721,7721,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,47,R,David Wheeler                         ,David Wheeler,1.0,9170,9170,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,48,D,Alli Summerford                       ,Alli Summerford,1.0,7832,7832,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,48,R,Jim Carns                             ,Jim Carns,1.0,14789,14789,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,49,R,April Weaver                          ,April Weaver,1.0,10794,10795,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2018,house,50,R,Jim Hill                              ,Jim Hill,1.0,14412,14412,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,51,D,Veronica R. Johnson                   ,Veronica R. Johnson,1.0,3174,3174,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,51,R,Allen Treadaway                       ,Allen Treadaway,1.0,15390,15390,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,52,D,"John W. Rogers, Jr.                   ",John Rogers,0.9166666666666666,13284,13284,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,53,D,Anthony Daniels                       ,Anthony Daniels,1.0,8375,8375,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,54,D,Neil Rafferty                         ,Neil Rafferty,1.0,13287,13287,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,55,D,"Roderick ""Rod"" Hampton Scott          ",,0.5142857142857142,13109,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2018,house,56,D,"Louise ""Lulu"" Alexander               ",Louise Alexander,0.8648648648648649,13769,13769,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,57,D,Merika Coleman                        ,Merika Coleman,1.0,12831,12831,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,58,D,Rolanda Hollis                        ,Rolanda Hollis,1.0,12498,12498,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,59,D,Mary Moore                            ,Mary Moore,1.0,12036,12036,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,60,D,Juandalynn Givan                      ,Juandalynn Givan,1.0,14432,14432,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,61,D,"Thomas ""Tommy"" Hyche                  ","Thomas ""Tommy"" Hyche",1.0,6491,6491,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,61,R,Rodney Sullivan                       ,Rodney Sullivan,1.0,12407,12407,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,62,D,Will Benton                           ,Will Benton,1.0,5265,5265,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,62,R,Rich Wingo                            ,Rich Wingo,1.0,11282,11282,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,63,R,Bill Poole                            ,Bill Poole,1.0,10239,10239,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,64,D,Amber Selman-Lynn                     ,Amber Selman-Lynn,1.0,4022,4022,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,64,R,Harry Shiver                          ,Harry Shiver,1.0,13030,13030,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,65,D,Elaine Beech                          ,Elaine Beech,1.0,9010,9010,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,65,R,Brett Easterbrook                     ,Brett Easterbrook,1.0,10095,10095,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,66,D,Susan E. Smith                        ,Susan E. Smith,1.0,4008,4008,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,66,R,Alan Baker                            ,Alan Baker,1.0,10431,10431,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,67,D,Prince Chestnut                       ,Prince Chestnut,1.0,11239,11635,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2018,house,68,D,"Thomas E. ""Action"" Jackson            ",,0.7567567567567568,10382,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2018,house,69,D,Kelvin Jamichael Lawrence             ,,0.75,12867,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2018,house,70,D,Christopher John England              ,Christopher J. England,0.9333333333333333,11541,11541,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,71,D,"Artis ""A.J."" McCampbell               ",Artis J. McCampbell,0.9473684210526315,12400,12400,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,72,D,Ralph A. Howard                       ,,0.8235294117647058,12811,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2018,house,73,D,Jack Jacobs                           ,Jack Jacobs,1.0,5772,5772,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,73,R,Matt Fridy                            ,Matt Fridy,1.0,12913,12913,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,74,D,Rayford Mack                          ,Rayford Mack,1.0,6160,6160,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,74,R,Dimitri Polizos                       ,Dimitri Polizos,1.0,9449,9449,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,75,R,Reed Ingram                           ,Reed Ingram,1.0,13229,13229,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,76,D,Thad McClammy                         ,Thad McClammy,1.0,11681,11681,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,77,D,Tashina Morris                        ,Tashina Morris,1.0,10638,10638,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,78,D,Kirk Hatcher                          ,Kirk Hatcher,1.0,9506,9506,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,79,D,Mary Wynne Kling                      ,Mary Wynne Kling,1.0,7015,7015,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,79,R,Joe Lovvorn                           ,Joe Lovvorn,1.0,9717,9717,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,80,D,"Christopher F. ""Apostle"" Davis        ","Christopher F. ""Apostle"" Davis",1.0,3407,3407,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,80,R,Chris E. Blackshear                   ,Chris Blackshear,0.9411764705882353,8506,8506,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,81,D,"Jeremy ""J.J."" Jeffcoat                ","Jeremy ""J.J."" Jeffcoat",1.0,4696,4697,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2018,house,81,R,Ed Oliver                             ,Ed Oliver,1.0,12823,12823,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,82,D,Pebblin Walker Warren                 ,,0.8,11411,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2018,house,83,D,"Jeremy ""Mr. Eyg"" Gray                 ",,0.7586206896551724,8940,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2018,house,83,R,Michael J Holden II                   ,Michael J Holden II,1.0,5142,5143,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2018,house,84,D,Berry Forte                           ,Berry Forte,1.0,9962,9962,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,85,D,Dexter Grimsley                       ,Dexter Grimsley,1.0,7315,7315,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,85,R,J. Ron Wilson                         ,J. Ron Wilson,1.0,6266,6266,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,86,D,Kristy M. Kirkland                    ,Kristy M. Kirkland,1.0,3238,3238,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,86,R,Paul W. Lee                           ,Paul Lee,0.8888888888888888,11226,11226,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,87,R,Jeff Sorrells                         ,Jeff Sorrells,1.0,13835,13835,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,88,D,Cory Creel                            ,Cory Creel,1.0,4793,4793,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,88,R,Will Dismukes                         ,Will Dismukes,1.0,11500,11500,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,89,D,Joel Lee Williams                     ,Joel Lee Williams,1.0,5348,5348,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,89,R,Wes Allen                             ,Wes Allen,1.0,7804,7804,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,90,D,Joanne Whetstone                      ,Joanne Whetstone,1.0,6051,6051,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,90,R,Chris Sells                           ,Chris Sells,1.0,11063,11063,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,91,R,Rhett Marques                         ,Rhett Marques,1.0,11445,11445,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,92,R,"Mike Jones, Jr.                       ",Mike Jones Jr.,1.0,11912,11912,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,93,R,Steve Clouse                          ,Steve Clouse,1.0,11974,11974,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,94,D,Danielle Mashburn-Myrick              ,Danielle Mashburn-Myrick,1.0,6257,6257,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,94,R,Joe Faust                             ,Joe Faust,1.0,15302,15302,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,95,R,Steve McMillan                        ,Steve McMillan,1.0,17008,17008,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,96,D,Maurice Horsey                        ,Maurice Horsey,1.0,5019,5019,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,96,R,Matt Simpson                          ,Matt Simpson,1.0,13699,13699,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,97,D,Adline C. Clarke                      ,Adline Clarke,0.9285714285714286,8740,8740,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,97,R,Stephen McNair                        ,Stephen McNair,1.0,4605,4605,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,98,D,"Napoleon Bracy, Jr.                   ",Napoleon Bracy Jr.,1.0,9674,9674,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,99,D,Sam Jones                             ,Sam Jones,1.0,11794,11794,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,99,R,Charles W. Talbert                    ,Charles Talbert,0.9375,4270,4270,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,100,R,Victor Gaston                         ,Victor Gaston,1.0,12086,12086,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,101,R,Chris Pringle                         ,Chris Pringle,1.0,10274,10274,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,102,R,Shane Stringer                        ,Shane Stringer,1.0,11048,11048,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,103,D,Barbara Drummond                      ,Barbara Drummond,1.0,8818,8818,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,104,D,Arlene Cunningham Easley              ,Arlene Cunningham Easley,1.0,4695,4695,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,104,R,Margie Wilcox                         ,Margie Wilcox,1.0,10152,10152,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,house,105,R,Chip Brown                            ,Chip Brown,1.0,10176,10176,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,1,D,Caroline Self                         ,Caroline Self,1.0,15830,15830,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,1,R,Tim Melson                            ,Tim Melson,1.0,33141,33141,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,2,D,Amy Wasyluka                          ,Amy Wasyluka,1.0,26911,26911,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,2,R,Tom Butler                            ,Tom Butler,1.0,31997,31997,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,3,R,Arthur Orr                            ,Arthur Orr,1.0,37295,37295,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,4,R,Garlan Gudger                         ,Garlan Gudger,1.0,39817,39817,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,5,R,Greg J. Reed                          ,Greg Reed,0.9,42404,42404,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,6,D,Johnny Mack Morrow                    ,Johnny Mack Morrow,1.0,21796,21796,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,6,R,Larry Stutts                          ,Larry Stutts,1.0,22683,22683,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,7,D,Deborah Barros                        ,Deborah Barros,1.0,24363,24363,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,7,R,Sam Givhan                            ,Sam Givhan,1.0,30080,30080,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,8,R,Steve Livingston                      ,Steve Livingston,1.0,37913,37913,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,9,R,Clay Scofield                         ,Clay Scofield,1.0,35192,35192,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,10,R,Andrew Jones                          ,Andrew Jones,1.0,25902,25902,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,11,D,Carl Carter                           ,Carl Carter,1.0,11411,11411,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,11,R,Jim McClendon                         ,Jim McClendon,1.0,36192,36192,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,12,D,Jim Williams                          ,Jim Williams,1.0,15010,15010,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,12,R,Del Marsh                             ,Del Marsh,1.0,27416,27416,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,13,D,Darrell Turner                        ,Darrell Turner,1.0,12839,12839,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,13,R,Randy Price                           ,Randy Price,1.0,31614,31614,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,14,D,Jerry McDonald                        ,Jerry McDonald,1.0,13171,13173,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2018,senate,14,R,Cam Ward                              ,Cam Ward,1.0,34953,34957,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2018,senate,15,R,Dan Roberts                           ,Dan Roberts,1.0,44792,44792,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,16,D,Lindsey Deckard                       ,Lindsey Deckard,1.0,21851,21851,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,16,R,"J.T. ""Jabo"" Waggoner                  ",Jabo Waggoner,0.8666666666666667,37068,37068,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,17,R,Shay Shelnutt                         ,Shay Shelnutt,1.0,45964,45964,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,18,D,Rodger M. Smitherman                  ,Rodger Smitherman,0.9444444444444444,39819,39819,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,19,D,Priscilla Dunn                        ,Priscilla Dunn,1.0,38668,38668,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,20,D,Linda Coleman-Madison                 ,Linda Coleman-Madison,1.0,36478,36478,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,21,D,Rick Burnham                          ,Rick Burnham,1.0,16005,16005,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,21,R,Gerald Allen                          ,Gerald Allen,1.0,33368,33368,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,22,R,Greg Albritton                        ,Greg Albritton,1.0,34507,34507,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,23,D,Malika Sanders-Fortier                ,Malika Sanders-Fortier,1.0,29920,30193,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2018,senate,24,D,Bobby Singleton                       ,Bobby Singleton,1.0,37394,37394,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,25,D,David A. Sadler                       ,David Sadler,0.9230769230769231,20866,20866,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,25,R,Will Barfoot                          ,Will Barfoot,1.0,33029,33029,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,26,D,"David ""Coach"" Burkette                ",,0.8235294117647058,31973,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2018,senate,26,R,D. J. Johnson                         ,D.J. Johnson,1.0,7863,7863,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,27,D,Nancy Carlton Bendinger               ,Nancy Carlton Bendinger,1.0,20586,20587,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2018,senate,27,R,Tom Whatley                           ,Tom Whatley,1.0,29741,29741,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,28,D,Billy Beasley                         ,Billy Beasley,1.0,28442,28445,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2018,senate,29,R,Donnie Chesteen                       ,Donnie Chesteen,1.0,34273,34273,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,30,R,"Clyde Chambliss, Jr.                  ","Clyde Chambliss, Jr.",1.0,35256,35259,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2018,senate,31,R,Jimmy W. Holley                       ,Jimmy Holley,0.9230769230769231,33137,33137,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,32,D,Jason Fisher                          ,Jason Fisher,1.0,15193,15193,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,32,R,Chris Elliott                         ,Chris Elliott,1.0,45726,45726,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,33,D,Vivian Davis Figures                  ,Vivian Davis Figures,1.0,34995,34995,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,34,R,Jack Williams                         ,Jack Williams,1.0,35093,35093,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,35,D,Tom Holmes                            ,Tom Holmes,1.0,13896,13896,1,True,exact,saved_wikipedia_secondary_not_certified
+2018,senate,35,R,David Sessions                        ,David Sessions,1.0,29046,29046,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,1,R,Phillip Pettus                        ,Phillip Pettus,1.0,10360,10360,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,2,R,Ben Harrison                          ,Ben Harrison,1.0,11233,11233,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,3,D,Wesley Thompson                       ,Wesley Thompson,1.0,4241,4241,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,3,R,"Kerry ""Bubba"" Underwood               ","Kerry ""Bubba"" Underwood",1.0,8023,8023,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,4,R,Parker Duncan Moore                   ,Parker Duncan Moore,1.0,11236,11236,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,5,R,Danny F Crawford                      ,Danny F. Crawford,1.0,12332,12332,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,6,R,Andy Whitt                            ,Andy Whitt,1.0,11052,11052,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,7,D,"Mose Jones, Jr.                       ",Mose Jones Jr.,1.0,3133,3133,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,7,R,Ernie Yarbrough                       ,Ernie Yarbrough,1.0,11225,11225,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,8,R,Terri Collins                         ,Terri Collins,1.0,7234,7234,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,9,R,Scott Stadthagen                      ,Scott Stadthagen,1.0,11041,11041,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,10,D,Marilyn Lands                         ,Marilyn Lands,1.0,6608,6608,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,10,R,David Cole                            ,David Cole,1.0,7581,7581,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,11,R,Randall Shedd                         ,Randall Shedd,1.0,12552,12552,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,12,D,"James C. Fields, Jr.                  ","James C. Fields, Jr.",1.0,2030,2030,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,12,R,Corey Harbison                        ,Corey Harbison,1.0,11958,11958,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,13,R,Matt Woods                            ,Matt Woods,1.0,11422,11422,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,14,R,Timothy (Tim) Wadsworth               ,"Timothy ""Tim"" Wadsworth",1.0,13396,13396,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,15,D,Richard P. Rouco                      ,Richard Rouco,0.9285714285714286,6166,6166,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,15,R,Leigh Hulsey                          ,Leigh Hulsey,1.0,10818,10818,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,16,R,Kyle South                            ,Kyle South,1.0,13177,13177,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,17,R,Tracy Estes                           ,Tracy Estes,1.0,12850,12850,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,18,R,Jamie Kiel                            ,Jamie Kiel,1.0,10783,10783,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,19,D,Laura Hall                            ,Laura Hall,1.0,8721,8721,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,20,R,James Lomax                           ,James Lomax,1.0,14816,14816,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,21,R,Rex Reynolds                          ,Rex Reynolds,1.0,12386,12386,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,22,R,Ritchie Whorton                       ,Ritchie Whorton,1.0,12984,12984,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,23,R,Mike Kirkland                         ,Mike Kirkland,1.0,10980,10980,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,24,R,Nathaniel Ledbetter                   ,Nathaniel Ledbetter,1.0,11285,11285,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,25,D,Mallory Hagan                         ,Mallory Hagan,1.0,7837,7837,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,25,R,Phillip K. Rigsby                     ,Phillip K. Rigsby,1.0,10813,10813,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,26,D,Ben Alford                            ,Ben Alford,1.0,1078,1078,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,26,R,Brock Colvin                          ,Brock Colvin,1.0,8258,8258,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,27,D,Herb Neu                              ,Herb Neu,1.0,1583,1583,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,27,R,Wes Kitchens                          ,Wes Kitchens,1.0,13150,13150,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,28,R,Mack N Butler                         ,Mack Butler,0.9166666666666666,6566,6566,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,29,R,Mark A. Gidley                        ,Mark A. Gidley,1.0,12612,12612,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,30,R,Craig Lipscomb                        ,Craig Lipscomb,1.0,12325,12325,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,31,R,Troy B. Stubbs                        ,Troy B. Stubbs,1.0,11418,11418,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,32,D,Barbara Bigsby Boyd                   ,,0.7741935483870968,5522,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2022,house,32,R,Evan B. Jackson                       ,Evan Jackson,0.9230769230769231,4390,4390,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,33,D,"Fred Crum, Sr.                        ","Fred Crum, Sr.",1.0,3571,3571,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,33,R,Ben Robbins                           ,Ben Robbins,1.0,9534,9534,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,34,R,David Standridge                      ,David Standridge,1.0,12222,12222,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,35,R,Steve Hurst                           ,Steve Hurst,1.0,10880,10880,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,36,R,Randy Wood                            ,Randy Wood,1.0,12449,12449,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,37,R,Bob Fincher                           ,Bob Fincher,1.0,11937,11937,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,38,R,Debbie Hamby Wood                     ,Debbie Hamby Wood,1.0,9162,9162,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,39,R,Ginny Shaver                          ,Ginny Shaver,1.0,11224,11224,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,40,D,Pam Howard                            ,Pam Howard,1.0,2221,2221,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,40,R,Chad Robertson                        ,Chad Robertson,1.0,10772,10772,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,41,D,Chris Nelson                          ,Chris Nelson,1.0,3203,3203,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,41,R,Corley Ellis                          ,Corley Ellis,1.0,10897,10897,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,42,R,Van Smith                             ,,0.782608695652174,12336,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2022,house,43,D,Prince Cleveland                      ,Prince Cleveland,1.0,3760,3760,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,43,R,Arnold Mooney                         ,Arnold Mooney,1.0,12751,12751,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,44,R,Danny Garrett                         ,Danny Garrett,1.0,11396,11396,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,45,R,Susan Dubose                          ,Susan DuBose,1.0,12060,12060,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,46,R,David Faulkner                        ,,0.0,12656,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2022,house,47,D,Christian Coleman                     ,Christian Coleman,1.0,4816,601,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2022,house,47,R,Mike Shaw                             ,,0.0,8590,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2022,house,48,R,Jim Carns                             ,Jim Carns,1.0,12518,12518,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,49,R,Russell Bedsole                       ,Russell Bedsole,1.0,10604,4492,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2022,house,50,R,Jim Hill                              ,,0.0,12720,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2022,house,51,R,Allen Treadaway                       ,,0.0,14025,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2022,house,52,D,John W. Rogers Jr.                    ,"John W. Rogers, Jr.",1.0,10229,3362,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2022,house,53,D,Anthony Daniels                       ,,0.0,5748,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2022,house,54,D,Neil Rafferty                         ,Neil Rafferty,1.0,9798,2719,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2022,house,55,D,"Fred ""Coach"" Plump                    ","Fred ""Coach"" Plump",1.0,10018,10018,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,56,D,Ontario J. Tillman                    ,Ontario J. Tillman,1.0,9008,9008,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,57,D,Patrick Sellers                       ,Patrick Sellers,1.0,9221,9221,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,57,R,Delor Baumann                         ,Delor Baumann,1.0,4752,4752,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,58,D,Rolanda Hollis                        ,Rolanda Hollis,1.0,8385,8385,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,59,D,Mary Moore                            ,Mary Moore,1.0,8859,8859,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,60,D,Juandalynn Givan                      ,Juandalynn Givan,1.0,9872,9872,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,61,R,Ron Bolton                            ,Ron Bolton,1.0,10546,10546,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,62,D,Brenda T. Cephus                      ,Brenda T. Cephus,1.0,3094,3094,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,62,R,Bill Lamb                             ,Bill Lamb,1.0,8803,8803,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,63,D,Samuel Adams                          ,Samuel Adams,1.0,2827,2827,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,63,R,Cynthia Lee Almond                    ,Cynthia Almond,0.875,5541,5541,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,64,R,Donna Givens                          ,Donna Givens,1.0,11041,11041,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,65,D,Marcus Caster                         ,Marcus Caster,1.0,4759,4759,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,65,R,Brett Easterbrook                     ,Brett Easterbrook,1.0,12693,12693,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,66,R,Alan Baker                            ,Alan Baker,1.0,12042,12042,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,67,D,Prince Chestnut                       ,Prince Chestnut,1.0,10335,10335,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,68,D,"Thomas E. ""Action"" Jackson            ","Thomas E. ""Action"" Jackson",1.0,9537,9537,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,68,R,Fred Kelley                           ,Fred Kelley,1.0,8981,8981,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,69,D,Kelvin J. Lawrence                    ,,0.0,8769,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2022,house,69,R,Karla Knight Maddox                   ,,0.0,7103,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2022,house,70,D,Christopher John England              ,,0.0,6245,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2022,house,71,D,"Artis ""Aj"" McCampbell                 ",,0.0,9126,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2022,house,72,D,Curtis L. Travis                      ,Curtis L. Travis,1.0,8128,3106,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2022,house,73,R,Kenneth Paschal                       ,,0.0,10404,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2022,house,74,D,Phillip Ensler                        ,Phillip Ensler,1.0,7538,2170,1,False,vote_difference,saved_wikipedia_secondary_not_certified
+2022,house,74,R,Charlotte Meadows                     ,,0.0,4986,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2022,house,75,R,Reed Ingram                           ,,0.0,11690,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2022,house,76,D,"Patrice ""Penni"" McClammy              ","Patrice ""Penni"" McClammy",1.0,8312,8312,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,77,D,Tashina Morris                        ,,0.0,7062,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2022,house,78,D,Kenyatte Hassell                      ,,0.0,6991,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2022,house,79,R,Joe Lovvorn                           ,Joe Lovvorn,1.0,7690,7690,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,80,R,Chris E. Blackshear                   ,Chris E. Blackshear,1.0,8113,8113,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,81,R,Ed Oliver                             ,Ed Oliver,1.0,12116,12116,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,82,D,Pebblin Walker Warren                 ,Pebblin Walker Warren,1.0,6257,6257,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,82,R,"Lennora ""Tia"" Pierrot                 ","Lennora ""Tia"" Pierrot",1.0,2526,2526,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,83,D,Jeremy Gray                           ,Jeremy Gray,1.0,6540,6540,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,84,D,Berry Forte                           ,Berry Forte,1.0,7463,7463,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,85,D,Dexter Grimsley                       ,Dexter Grimsley,1.0,5668,5668,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,85,R,Rick Rehm                             ,Rick Rehm,1.0,6665,6665,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,86,R,Paul W. Lee                           ,Paul W. Lee,1.0,10697,10697,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,87,R,Jeff Sorrells                         ,Jeff Sorrells,1.0,12957,12957,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,88,R,Jerry Starnes                         ,Jerry Starnes,1.0,10020,10020,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,89,R,Marcus B. Paramore                    ,Marcus B. Paramore,1.0,7855,7855,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,90,R,Chris Sells                           ,Chris Sells,1.0,11567,11567,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,91,R,Rhett Marques                         ,Rhett Marques,1.0,9794,9794,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,92,D,Steve Hubbard                         ,Steve Hubbard,1.0,1795,1795,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,92,R,Matthew Hammett                       ,Matthew Hammett,1.0,11812,11812,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,93,R,Steve Clouse                          ,Steve Clouse,1.0,10333,10333,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,94,R,Jennifer Fidler                       ,Jennifer Fidler,1.0,14207,14207,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,95,D,Richard Brackner                      ,Richard Brackner,1.0,2465,2465,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,95,R,Frances Holk-Jones                    ,Frances Holk-Jones,1.0,14242,14242,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,96,R,Matt Simpson                          ,Matt Simpson,1.0,11990,11990,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,97,D,Adline Clarke                         ,Adline Clarke,1.0,7337,7337,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,98,D,"Napoleon Bracy, Jr.                   ","Napoleon Bracy, Jr.",1.0,7655,7655,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,99,D,Sam Jones                             ,Sam Jones,1.0,8252,8252,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,100,R,Mark Shirey                           ,Mark Shirey,1.0,9781,9781,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,101,R,Chris Pringle                         ,Chris Pringle,1.0,8968,8968,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,102,R,Shane Stringer                        ,Shane Stringer,1.0,10472,10472,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,103,D,Barbara Drummond                      ,Barbara Drummond,1.0,6015,6015,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,104,R,Margie Wilcox                         ,Margie Wilcox,1.0,8871,8871,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,house,105,R,Chip Brown                            ,Chip Brown,1.0,10554,10554,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,1,R,Tim Melson                            ,Tim Melson,1.0,35480,35480,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,2,D,Kim Caudle Lewis                      ,Kim Caudle Lewis,1.0,20749,20749,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,2,R,Tom Butler                            ,Tom Butler,1.0,25951,25951,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,3,R,Arthur Orr                            ,Arthur Orr,1.0,30578,30578,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,4,R,Garlan Gudger                         ,Garlan Gudger,1.0,38265,38265,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,5,R,Greg J Reed                           ,Greg Reed,0.9,36159,36159,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,6,R,Larry Stutts                          ,Larry Stutts,1.0,30883,30883,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,7,D,Korey Wilson                          ,Korey Wilson,1.0,17295,17295,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,7,R,Sam Givhan                            ,Sam Givhan,1.0,29095,29095,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,8,R,Steve Livingston                      ,Steve Livingston,1.0,33758,33758,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,9,R,Clay Scofield                         ,Clay Scofield,1.0,32709,32709,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,10,R,Andrew Jones                          ,Andrew Jones,1.0,32153,32153,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,11,R,Lance Bell                            ,Lance Bell,1.0,33505,33505,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,12,D,Danny McCullars                       ,Danny McCullars,1.0,10271,10271,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,12,R,Keith Kelley                          ,Keith Kelley,1.0,28786,28786,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,13,R,Randy Price                           ,Randy Price,1.0,31759,31759,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,14,R,April Weaver                          ,April Weaver,1.0,31917,31917,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,15,R,Dan Roberts                           ,Dan Roberts,1.0,35704,35704,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,16,R,"J.T. ""Jabo"" Waggoner                  ","J. T. ""Jabo"" Waggoner",1.0,33719,33719,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,17,R,Shay Shelnutt                         ,Shay Shelnutt,1.0,38137,38137,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,18,D,Rodger M. Smitherman                  ,Rodger Smitherman,0.9444444444444444,28642,28642,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,19,D,Merika Coleman                        ,Merika Coleman,1.0,26369,26369,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,20,D,Linda Coleman-Madison                 ,Linda Coleman-Madison,1.0,27567,27567,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,21,D,Lisa Ward                             ,Lisa Ward,1.0,11198,11198,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,21,R,Gerald Allen                          ,Gerald Allen,1.0,21962,21962,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,22,R,Greg Albritton                        ,Greg Albritton,1.0,32880,32880,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,23,D,Robert L. Stewart                     ,Robert L. Stewart,1.0,25953,25953,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,23,R,Michael Nimmer                        ,Michael Nimmer,1.0,21682,21682,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,24,D,Bobby Singleton                       ,Bobby Singleton,1.0,25440,25440,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,25,R,Will Barfoot                          ,Will Barfoot,1.0,32640,32640,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,26,D,Kirk Hatcher                          ,Kirk Hatcher,1.0,25901,25901,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,27,D,Sherri Reese                          ,Sherri Reese,1.0,10996,10996,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,27,R,Jay Hovey                             ,Jay Hovey,1.0,26014,26014,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,28,D,Billy Beasley                         ,Billy Beasley,1.0,21252,21252,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,29,D,"Nathan ""Nate"" Mathis                  ",,0.8387096774193549,6476,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2022,senate,29,R,Donnie Chesteen                       ,Donnie Chesteen,1.0,31576,31576,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,30,R,"Clyde Chambliss, Jr.                  ",Clyde Chambliss Jr.,1.0,29225,29225,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,31,R,Josh Carnley                          ,Josh Carnley,1.0,30618,30618,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,32,R,Chris Elliott                         ,Chris Elliott,1.0,41073,41073,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,33,D,Vivian Davis Figures                  ,,0.8235294117647058,23203,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2022,senate,33,R,Pete Riehm                            ,Pete Riehm,1.0,11401,11401,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,34,R,Jack Williams                         ,Jack Williams,1.0,27043,27043,1,True,exact,saved_wikipedia_secondary_not_certified
+2022,senate,35,R,David Sessions                        ,David Sessions,1.0,27133,27133,1,True,exact,saved_wikipedia_secondary_not_certified
+2014,house,10,D,Means,,0.0,314,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,13,R,Rowe,,0.5333333333333333,9482,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,24,D,Beddingfield,,0.3225806451612903,4338,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,24,R,Ledbetter,,0.19047619047619047,6877,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,31,D,Holmes,,0.0,10766,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,40,D,Copeland,,0.8,9105,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,40,R,Brown,,0.5,22356,,0,False,name_review,saved_wikipedia_secondary_not_certified
+2014,house,66,D,Baker,,0.0,4862,,0,False,name_review,saved_wikipedia_secondary_not_certified

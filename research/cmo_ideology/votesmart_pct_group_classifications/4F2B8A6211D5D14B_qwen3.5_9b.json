@@ -1,0 +1,11 @@
+{
+  "policy_key": "foreign_aid_security_interest",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option states that U.S. economic assistance should be granted only when it serves the security interests of the United States.",
+  "evidence_quote": "Aid should be granted to countries when it is in the security interests of the United States.",
+  "needs_human_review": true,
+  "review_reason": "This option frames foreign aid through a national interest/security lens rather than ideological principles (like democracy promotion or poverty alleviation), making its left/right classification context-dependent and lacking stable directionality for this specific metric."
+}

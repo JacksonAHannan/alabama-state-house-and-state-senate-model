@@ -1,0 +1,11 @@
+{
+  "policy_key": "soft_money_ads_federal",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Allowing soft money ads for federal offices is generally viewed as a progressive reform to increase transparency and reduce the influence of large donors.",
+  "evidence_quote": "Allow ads paid for by soft money that support or attack a candidate for federal office.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

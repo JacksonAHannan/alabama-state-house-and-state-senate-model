@@ -1,0 +1,65 @@
+cycle,input_domain,status,source_locator,warehouse_object,limitation,required_for_specification
+1994,legislative_results,available,warehouse:canonical_vote_observations,canonical_vote_observations,,core
+1994,same_cycle_statewide_baseline,partial,warehouse:canonical_vote_observations,mart_historical_district_office_baseline,Built for 1994; split precincts use provisional legislative ballot-activity shares,core
+1994,district_plan_geometry,available,data/raw/alabama_elections_and_geography/,,,extended
+1994,precinct_or_block_crosswalk,partial,warehouse:mart_historical_precinct_district_weight,mart_historical_precinct_district_weight,Official ballot district labels are exact for single-district precincts; split shares are provisional,extended
+1994,incumbency,partial,warehouse:mart_historical_candidate_incumbency,mart_historical_candidate_incumbency,Positive matches to unique 1990 winning surnames; unmatched candidates remain unknown,core
+1994,candidate_finance,missing,,,DIME Alabama state legislative receipts begin in 1998,extended
+1994,district_demographics,partial,data/processed/demographics/1994_district_demographics.csv,mart_historical_district_demographic_feature,1990 SF3 tract-area interpolation; not block-level allocation,extended
+1994,previous_presidential_context,partial,data/processed/presidential/1994_district_presidential_features.csv,mart_historical_district_presidential_feature,Official 1992 precinct returns; Montgomery and Talladega presidential columns are blank and Wilcox is absent; unmatched precincts use fallback allocation,extended
+1998,legislative_results,available,warehouse:canonical_vote_observations,canonical_vote_observations,,core
+1998,same_cycle_statewide_baseline,partial,warehouse:canonical_vote_observations,canonical_vote_observations,A plan-specific district allocation has not been built,core
+1998,district_plan_geometry,available,data/raw/alabama_elections_and_geography/,,,extended
+1998,precinct_or_block_crosswalk,missing,,,No validated plan-specific crosswalk has been built for this cycle,extended
+1998,incumbency,available,warehouse:canonical_candidates,canonical_candidates,,core
+1998,candidate_finance,available,warehouse:mart_candidate_resources,mart_candidate_resources,,extended
+1998,district_demographics,missing,,,No plan-specific historical demographic feature table is currently built,extended
+1998,previous_presidential_context,missing,,,Prior presidential results have not been allocated to this legislative plan,extended
+2002,legislative_results,available,warehouse:canonical_vote_observations,canonical_vote_observations,,core
+2002,same_cycle_statewide_baseline,partial,warehouse:canonical_vote_observations,canonical_vote_observations,A plan-specific district allocation has not been built,core
+2002,district_plan_geometry,available,data/raw/alabama_elections_and_geography/,,,extended
+2002,precinct_or_block_crosswalk,missing,,,No validated plan-specific crosswalk has been built for this cycle,extended
+2002,incumbency,available,warehouse:canonical_candidates,canonical_candidates,,core
+2002,candidate_finance,available,warehouse:mart_candidate_resources,mart_candidate_resources,,extended
+2002,district_demographics,missing,,,No plan-specific historical demographic feature table is currently built,extended
+2002,previous_presidential_context,missing,,,Prior presidential results have not been allocated to this legislative plan,extended
+2006,legislative_results,available,warehouse:canonical_vote_observations,canonical_vote_observations,,core
+2006,same_cycle_statewide_baseline,partial,warehouse:canonical_vote_observations,canonical_vote_observations,A plan-specific district allocation has not been built,core
+2006,district_plan_geometry,available,data/raw/alabama_elections_and_geography/,,,extended
+2006,precinct_or_block_crosswalk,missing,,,No validated plan-specific crosswalk has been built for this cycle,extended
+2006,incumbency,available,warehouse:canonical_candidates,canonical_candidates,,core
+2006,candidate_finance,available,warehouse:mart_candidate_resources,mart_candidate_resources,,extended
+2006,district_demographics,missing,,,No plan-specific historical demographic feature table is currently built,extended
+2006,previous_presidential_context,missing,,,Prior presidential results have not been allocated to this legislative plan,extended
+2010,legislative_results,available,warehouse:canonical_vote_observations,canonical_vote_observations,,core
+2010,same_cycle_statewide_baseline,partial,warehouse:canonical_vote_observations,canonical_vote_observations,A plan-specific district allocation has not been built,core
+2010,district_plan_geometry,available,data/raw/alabama_elections_and_geography/,,,extended
+2010,precinct_or_block_crosswalk,missing,,,No validated plan-specific crosswalk has been built for this cycle,extended
+2010,incumbency,available,warehouse:canonical_candidates,canonical_candidates,,core
+2010,candidate_finance,available,warehouse:mart_candidate_resources,mart_candidate_resources,,extended
+2010,district_demographics,missing,,,No plan-specific historical demographic feature table is currently built,extended
+2010,previous_presidential_context,missing,,,Prior presidential results have not been allocated to this legislative plan,extended
+2014,legislative_results,available,warehouse:canonical_vote_observations,canonical_vote_observations,,core
+2014,same_cycle_statewide_baseline,available,warehouse:canonical_vote_observations,canonical_vote_observations,,core
+2014,district_plan_geometry,available,data/raw/alabama_elections_and_geography/,,,extended
+2014,precinct_or_block_crosswalk,available,,geographic_precinct_district_weights,,extended
+2014,incumbency,available,warehouse:canonical_candidates,canonical_candidates,,core
+2014,candidate_finance,available,warehouse:mart_candidate_resources,mart_candidate_resources,,extended
+2014,district_demographics,available,data/processed/demographics/acs_direct_sld_demographics.csv,,,extended
+2014,previous_presidential_context,available,data/processed/presidential/,,,extended
+2018,legislative_results,available,warehouse:canonical_vote_observations,canonical_vote_observations,,core
+2018,same_cycle_statewide_baseline,available,warehouse:canonical_vote_observations,canonical_vote_observations,,core
+2018,district_plan_geometry,available,data/raw/alabama_elections_and_geography/,,,extended
+2018,precinct_or_block_crosswalk,available,,geographic_precinct_district_weights,,extended
+2018,incumbency,available,warehouse:canonical_candidates,canonical_candidates,,core
+2018,candidate_finance,available,warehouse:mart_candidate_resources,mart_candidate_resources,,extended
+2018,district_demographics,available,data/processed/demographics/acs_direct_sld_demographics.csv,,,extended
+2018,previous_presidential_context,available,data/processed/presidential/,,,extended
+2022,legislative_results,available,warehouse:canonical_vote_observations,canonical_vote_observations,,core
+2022,same_cycle_statewide_baseline,available,warehouse:canonical_vote_observations,canonical_vote_observations,,core
+2022,district_plan_geometry,available,data/raw/alabama_elections_and_geography/,,,extended
+2022,precinct_or_block_crosswalk,available,,geographic_precinct_district_weights,,extended
+2022,incumbency,available,warehouse:canonical_candidates,canonical_candidates,,core
+2022,candidate_finance,available,warehouse:mart_candidate_resources,mart_candidate_resources,,extended
+2022,district_demographics,available,data/processed/demographics/acs_direct_sld_demographics.csv,,,extended
+2022,previous_presidential_context,available,data/processed/presidential/,,,extended

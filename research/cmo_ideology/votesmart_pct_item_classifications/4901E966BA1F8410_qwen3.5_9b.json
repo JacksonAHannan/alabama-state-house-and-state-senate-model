@@ -1,0 +1,11 @@
+{
+  "policy_key": "law_enfunding",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The item asks for funding levels without specifying a policy direction or ideological stance.",
+  "evidence_quote": "Indicate the funding levels you will support for the following general categories.Law enforcement",
+  "needs_human_review": true,
+  "review_reason": "Funding level requests are context-dependent and lack an inherent conservative/progressive dimension."
+}

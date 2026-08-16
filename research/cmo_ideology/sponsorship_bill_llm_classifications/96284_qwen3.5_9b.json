@@ -1,0 +1,14 @@
+{
+  "plain_english_policy": "This bill redirects state revenue to specific local governments. It changes how money from the Tennessee Valley Authority (TVA) and liquor taxes is shared between 'dry' counties (where alcohol sales are banned), municipalities, and other TVA-served areas.",
+  "policy_direction_if_enacted": "Enactment would alter the flow of two main state revenue streams: 1. **TVA In-Lieu-of-Taxes Payments:** The bill mandates that a portion of payments made by the Tennessee Valley Authority to the State be transferred directly to counties served by TVA, rather than staying entirely in the General Fund. It also establishes a specific mechanism where 'dry' non-TVA-served counties receive 5% of these funds until their share from liquor taxes equals a historical baseline (FY2009), after which those dry county shares are reduced and redirected to TVA-served counties.",
+  "ideological_valence": "progressive",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "The sponsors support the redistribution of state funds from general pools directly to specific local jurisdictions (counties served by TVA and dry non-TVA counties) based on a formula involving historical liquor tax data.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "\"redistribution of the payments to dry counties and municipalities under existing law to counties served by TVA\"",
+    "\"Beginning in the fiscal year ending September 30, 2010... an amount up to the amount of T.V.A. payments distributed to the dry counties and municipalities therein... shall be distributed to the dry counties and municipalities therein that are not served by T.V.A.\""
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

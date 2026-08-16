@@ -1,0 +1,17 @@
+{
+  "plain_english_policy": "This bill establishes a mandatory process for law enforcement agencies in Alabama to sell firearms that have been seized, forfeited, or abandoned. The primary policy direction is the creation of a public auction system (which can be online or live) held at least every three months to dispose of these weapons.\n\nThe proceeds from these sales are strictly designated for \"law enforcement purposes\" and must go into general funds rather than being used for other state expenses. To prevent conflicts of interest, current employees of the agency disposing of the firearms are barred from bidding on them.\n\nBefore selling a firearm, agencies are required to make reasonable efforts to identify innocent owners or victims of theft; if an eligible owner is found and can be located, the gun must be returned instead of sold. However, guns certified as unsafe due to damage, age, or modification may be destroyed, donated to museums for training purposes, or transferred to forensic science departments.\n\nFinally, the bill provides limited immunity to state agencies and their employees from lawsuits regarding injuries or property damage caused by a firearm purchased at auction under this act, unless there was gross negligence or recklessness involved.",
+  "policy_direction_if_enacted": "Enactment would institutionalize the disposal of seized firearms through periodic public auctions while ensuring funds generated support law enforcement operations. It balances the goal of removing weapons from circulation with protections for innocent owners and liability shields for government entities.",
+  "ideological_valence": "progressive",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "The bill's sponsors affirmatively advanced legislation to create a structured, transparent system for disposing of seized firearms via auction. They support the allocation of proceeds specifically back into law enforcement budgets and include provisions to protect innocent owners by requiring agencies to attempt returns before sale.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "all firearms... that are forfeited or abandoned... shall be disposed of in accordance with this act.",
+    "Prior to the disposal... state, county, and municipal law enforcement agencies shall use reasonable efforts to determine if the firearm has been lost by an innocent owner... If the law enforcement agency determines that a firearm has been lost by an innocent owner... the agency shall return the firearm",
+    "dispose of the firearms... by sale at public auction or by direct sale to persons licensed as firearms collectors, dealers, importers, or manufacturers",
+    "The proceeds from the sale shall go into the state, county, or municipal general fund and shall be allocated solely for law enforcement purposes.",
+    "Employees of the law enforcement agency from which the firearms are received shall not be eligible to bid on the firearms at an auction conducted under this section."
+  ],
+  "needs_human_review": false,
+  "review_reason": "The bill text is complete with clear policy directives, effective dates, and voting records. No ambiguity exists regarding its local nature or ceremonial status."
+}

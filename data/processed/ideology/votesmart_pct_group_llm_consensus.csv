@@ -1,0 +1,11 @@
+group_id,normalized_option,item_count,selected_response_count,models_run,core_fields_agree,consensus_dimension,consensus_direction,consensus_scorable,eligible_for_automatic_scoring
+0BA9898E4F8BE7A1,support contracting with private sector firms to build and/or manage state prisons.,2,44,2,False,,,,False
+1BACBFEAD1E1FBD8,provide tax incentives to businesses that hire welfare recipients.,2,83,2,False,,,,False
+1FC74A1B68F899F6,do you support the inclusion of sexual orientation in alabama's anti-discrimination laws?,5,52,2,True,social_ideology,-1.0,True,False
+3863E155F2AE9C89,provide tax incentives to small businesses that provide health care to their employees.,2,60,2,False,,,,False
+7560FE4980AE4AB6,deny or suspend state-issued permits and licenses to parents who are delinquent in paying court-ordered child support.,1,53,2,True,social_ideology,-1.0,True,False
+8231A3647F2408C3,do you support the enforcement of federal immigration laws by state and local police?,5,49,2,False,,,,False
+B53B7CCFCF746470,provide tax credits for businesses that provide child care for their employees.,2,91,2,True,social_ideology,-1.0,True,False
+DAB7B121DB77844F,provide increased funding for agricultural and forestry research.,1,46,2,False,,,,False
+DBC2BE2449D3C1B6,support state-funded merit scholarships for alabama students to attend college in alabama.,1,48,2,False,,,,False
+E9A927D1C962C4CD,do you support the inclusion of gender identity in alabama's anti-discrimination laws?,5,50,2,True,social_ideology,-1.0,True,False

@@ -1,0 +1,17 @@
+{
+  "primary_issue": "environment_energy",
+  "secondary_issues": [],
+  "plain_english_change": "This bill prohibits state agencies from adopting environmental rules that are stricter than federal requirements. It also requires any new or amended rule to be based on the best available science and a direct causal link between exposure and harm.",
+  "vote_stage": "final_passage",
+  "substantive_vote": true,
+  "yea_policy_effect": "prohibits stricter environmental rules than federal standards",
+  "ideological_valence": "conservative",
+  "confidence": "high",
+  "evidence_quotes": [
+    "An agency may not adopt a new rule or amend an existing rule that establishes new or changes existing numeric criteria... if the new rule or amendment would result in criteria or limitations that are more stringent or extensive in scope, coverage, or effect than any federal law or regulation",
+    "This act shall become effective immediately.",
+    "Read for the third time and passed as amended Yeas 27 Nays 7 Abstains 0"
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

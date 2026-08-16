@@ -1,0 +1,16 @@
+{
+  "plain_english_policy": "The provided text is an excerpt from a legislative bill (SB121) in Alabama, which proposes amendments to the state's Constitution and laws regarding the Alabama Trust Fund. Here\u2019s a simplified breakdown of its key points:",
+  "policy_direction_if_enacted": "1. **Fund Allocation for Transportation Projects**: The amendment proposes allocating funds from the Alabama Trust Fund for transportation projects, divided into two categories (75% and 25%).",
+  "ideological_valence": "conservative",
+  "local_or_ceremonial": true,
+  "sponsorship_supports_position": "The bill is sponsored by Senator Barron and passed through both the Senate and House of Representatives with amendments.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "The Department of Transportation shall administer the bid process for projects funded under this amendment.",
+    "Funds are to be distributed among counties and municipalities based on population ratios from the federal decennial census.",
+    "Preference may be given to Alabama-based companies employing Alabama residents in awarding contracts.",
+    "A Disadvantaged Business Enterprise (DBE) Program is mandated, with a committee overseeing compliance and reporting annually to the legislature."
+  ],
+  "needs_human_review": true,
+  "review_reason": "The bill includes complex financial and administrative provisions that require careful review by legal experts to ensure compliance with federal regulations and state laws."
+}

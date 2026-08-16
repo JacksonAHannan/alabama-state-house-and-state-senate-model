@@ -1,0 +1,17 @@
+{
+  "primary_issue": "healthcare_conscience",
+  "secondary_issues": [
+    "criminal_justice"
+  ],
+  "plain_english_revision": "This amendment requires that a Do Not Attempt Resuscitation (DNAR) order for a minor patient cannot be put in place unless at least one parent or legal representative gives consent. It also mandates that the medical team must inform both parents about this decision and document those efforts before proceeding.",
+  "revision_direction": "restricts_policy",
+  "ideological_valence": "progressive",
+  "candidate_position_supported": "The amendment advances a policy requiring parental consent for DNAR orders involving minors, ensuring that medical decisions regarding life-sustaining treatment for children involve family input before restricting resuscitation efforts.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "prohibit any health care facility or health care professional from instituting a Do Not Attempt Resuscitation order without the written or oral consent of at least one parent or representative",
+    "a Do Not Attempt Resuscitation (DNAR) order... shall not be instituted for a qualified minor until both of the following occur: Consent is obtained from the representative"
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

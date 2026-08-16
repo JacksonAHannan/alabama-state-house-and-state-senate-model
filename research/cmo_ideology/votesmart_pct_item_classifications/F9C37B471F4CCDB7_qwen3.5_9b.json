@@ -1,0 +1,11 @@
+{
+  "policy_key": "property_tax_levels",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The item asks for a specific tax level without providing options that indicate whether higher or lower taxes are more conservative or progressive.",
+  "evidence_quote": "Indicate the tax levels you will support. Select one level only.",
+  "needs_human_review": true,
+  "review_reason": "The prompt asks for a selection of 'one level' but does not list specific options (e.g., raise vs lower) or define which direction is conservative/progressive; without the full set of answer choices showing opposing values, no stable ideological direction can be determined."
+}

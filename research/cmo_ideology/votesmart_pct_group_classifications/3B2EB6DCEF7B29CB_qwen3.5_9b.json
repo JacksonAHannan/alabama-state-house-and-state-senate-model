@@ -1,0 +1,11 @@
+{
+  "policy_key": "expand_head_start_funding",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase state funding to expand Head Start programs.",
+  "evidence_quote": "j) Increase state funding to expand Head Start programs.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

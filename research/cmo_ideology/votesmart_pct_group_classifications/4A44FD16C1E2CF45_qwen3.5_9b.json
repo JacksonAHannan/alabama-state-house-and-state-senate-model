@@ -1,0 +1,11 @@
+{
+  "policy_key": "foreign_state_terrorist_accountability",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option asks whether the U.S. should hold foreign states accountable for terrorists operating within their borders; this is a procedural question about international law enforcement norms rather than an ideological stance on domestic policy.",
+  "evidence_quote": "d) Should the United States hold foreign states accountable for terrorists who operate in their country?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

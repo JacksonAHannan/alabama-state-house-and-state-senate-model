@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_tax_joint_separate_filing",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "This option addresses tax code symmetry for married couples versus separate filers. In the U.S., 'marital penalty' or 'bonus' issues are often debated; eliminating penalties (making taxes equal) is generally viewed as progressive by reducing household income concentration, while maintaining status quo can be seen as conservative fiscal conservatism depending on context.",
+  "evidence_quote": "6) Should a married couple filing jointly pay the same taxes as if they were an unmarried couple filing separately?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

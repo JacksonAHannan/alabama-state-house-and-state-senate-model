@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_hog_farm_moratorium",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting a moratorium on new hog farms and expansions is conventionally more progressive as it prioritizes environmental protection over industrial agricultural expansion.",
+  "evidence_quote": "i) Support a three-year moratorium on both new hog farms and all expansions of farms to over 500 hogs.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

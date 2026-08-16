@@ -1,0 +1,32 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "Greg Varner ran for the Alabama Senate District 13 seat in the 2010 election. He was an attorney from Ashland who represented individuals, small businesses, family farms, and local governments prior to his campaign. His primary economic platform focused on strengthening small businesses through tax breaks similar to those offered to larger industries. Varner lost the general election by approximately one point to Gerald Dial.",
+  "offices_and_public_service": [],
+  "profession_and_employment": [
+    "Attorney",
+    "Ashland attorney"
+  ],
+  "education": [],
+  "community_and_local_ties": [
+    "Ashland, Alabama (attorney practice)"
+  ],
+  "political_profile": [
+    "Democrat (implied by challenging a Democrat who switched parties)",
+    "Small-business advocate"
+  ],
+  "important_caveats": [
+    "Varner's cultural and social-issue positions remain unknown.",
+    "His broader 2010 ideological valence cannot be established solely from the recovered economic position."
+  ],
+  "source_urls_used": [
+    "https://www.annistonstar.com/news/varner-grabs-nomination-for-senate-district-13/article_3a96e165-43d9-5661-b0eb-3fda921be686.html",
+    "https://www.gregvarnerlaw.com/gregory-varner/",
+    "https://www.therandolphleader.com/2010/06/01/laird-varner-advance-toward-legislature/"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://www.annistonstar.com/news/varner-grabs-nomination-for-senate-district-13/article_3a96e165-43d9-5661-b0eb-3fda921be686.html",
+    "https://www.gregvarnerlaw.com/gregory-varner/",
+    "https://www.therandolphleader.com/2010/06/01/laird-varner-advance-toward-legislature/"
+  ]
+}

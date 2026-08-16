@@ -1,0 +1,17 @@
+{
+  "primary_issue": "taxes_budget",
+  "secondary_issues": [
+    "labor_unions",
+    "public_employee_benefits"
+  ],
+  "plain_english_revision": "This amendment modifies the unemployment compensation eligibility requirement by adding a geographic exception to the mandatory job-search frequency rule. Specifically, it exempts individuals from the weekly search obligation if they live within 45 miles of a Career Center (state employment service office) or if they reside farther than 45 miles but can reach at least one prospective employer within that distance.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "reduces administrative burden on unemployed individuals in rural areas by relaxing job-search frequency requirements when access to Career Centers or employers is limited",
+  "confidence": "high",
+  "evidence_quotes": [
+    "if he or she resides within 45 miles of a Career Center, or at least one prospective employer if he or she resides 45 miles or more from a Career Center"
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,18 @@
+{
+  "primary_issue": "criminal_justice",
+  "secondary_issues": [
+    "taxes_budget",
+    "environment"
+  ],
+  "plain_english_revision": "The amendment removes all vessels built before 1918 from the definition of 'abandoned or derelict' under Alabama law. This means those older boats would no longer be subject to seizure, fines, or removal requirements\u2014even if they are abandoned or derelict.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Advances a policy that exempts pre-1918 vessels from state enforcement actions related to abandonment or derelict status, thereby reducing potential penalties for owners of historic boats.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "This term does not include a vessel built or constructed before the year 1918.",
+    "On page 3, line 16, after 'water.' insert the following:"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment text is clear and self-contained; no additional context or hidden clauses are required to interpret its effect."
+}

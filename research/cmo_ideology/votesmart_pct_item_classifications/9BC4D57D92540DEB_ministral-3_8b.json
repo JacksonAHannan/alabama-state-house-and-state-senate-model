@@ -1,0 +1,11 @@
+{
+  "policy_key": "sales_tax_level",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "position on sales tax levels (progressive vs. conservative)",
+  "evidence_quote": "",
+  "needs_human_review": true,
+  "review_reason": "The provided SOURCE TEXT is a prompt with no candidate response or specific option selected, making it impossible to classify the candidate's position on sales tax levels."
+}

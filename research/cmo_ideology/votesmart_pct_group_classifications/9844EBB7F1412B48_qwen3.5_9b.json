@@ -1,0 +1,11 @@
+{
+  "policy_key": "expand_tax_free_medical_savings_accounts",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option supports expanding tax-free medical savings accounts (MSAs), which are generally considered a conservative policy preference due to their focus on individual responsibility and market-based solutions for healthcare financing.",
+  "evidence_quote": "Expand eligibility for tax-free medical savings accounts.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

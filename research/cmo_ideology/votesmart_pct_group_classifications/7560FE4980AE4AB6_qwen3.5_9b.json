@@ -1,0 +1,11 @@
+{
+  "policy_key": "child_support_license_denial",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Denying licenses to parents who owe child support is a progressive measure aimed at protecting children's welfare and enforcing family obligations.",
+  "evidence_quote": "d) Deny or suspend state-issued permits and licenses to parents who are delinquent in paying court-ordered child support.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

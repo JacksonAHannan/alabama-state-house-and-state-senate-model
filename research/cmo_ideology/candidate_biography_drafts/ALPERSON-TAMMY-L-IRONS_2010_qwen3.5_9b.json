@@ -1,0 +1,34 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "Tammy Irons was an elected House member and Florence attorney with local civic ties who won the open-seat Senate District 1 contest in Alabama's 2010 election. She had previously won a special election for that district in 2006, establishing her political network before seeking the Senate seat. Her pre-election Shor-McCarty score of -0.437 placed her around the middle of Alabama Democrats serving at that time.",
+  "offices_and_public_service": [
+    "Alabama House member",
+    "Florence attorney"
+  ],
+  "profession_and_employment": [
+    "Attorney in Florence, AL"
+  ],
+  "education": [],
+  "community_and_local_ties": [
+    "Local civic ties to Florence area"
+  ],
+  "political_profile": [
+    "Middle-of-caucus legislator with a strong education orientation",
+    "Not a strong conservative-Democrat case"
+  ],
+  "important_caveats": [
+    "No sufficiently strong contemporaneous evidence has yet been found on abortion or guns; those dimensions remain NA"
+  ],
+  "source_urls_used": [
+    "https://www.una.edu/pressroom/2010/05/una-rep.-tammy-irons-announce-two-grants-for-university.html",
+    "https://www.apr.org/2008-03-17/alabama-chancellor-on-familiar-ground-in-political-fight",
+    "https://www.apr.org/2012-03-06/bill-would-provide-teachers-with-300-for-supplies"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://doi.org/10.7910/DVN/GZJOT3",
+    "https://www.apr.org/2008-03-17/alabama-chancellor-on-familiar-ground-in-political-fight",
+    "https://www.apr.org/2012-03-06/bill-would-provide-teachers-with-300-for-supplies",
+    "https://www.una.edu/pressroom/2010/05/una-rep.-tammy-irons-announce-two-grants-for-university.html"
+  ]
+}

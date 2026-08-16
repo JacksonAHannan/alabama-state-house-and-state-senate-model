@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_teacher_merit_pay",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting merit pay for teachers is generally viewed as a progressive policy aimed at improving teacher quality and equity.",
+  "evidence_quote": "b) Do you support a merit pay system for teachers?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,17 @@
+{
+  "primary_issue": "taxes_budget",
+  "secondary_issues": [
+    "public_education",
+    "infrastructure_energy"
+  ],
+  "plain_english_revision": "**Summary:** This amendment adds a new provision to SB154 that grants *free toll passes* for residents of Mobile and Baldwin counties, effectively exempting them from all toll fees on state-managed roads/bridges/tunnels. The change is framed as a targeted tax relief measure for those two counties only.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "*Affirmatively advances:* A county-specific toll fee exemption for Mobile and Baldwin County residents, reducing their transportation costs without altering the underlying tax structure for other counties or users.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "A permanent resident of Mobile County or Baldwin County shall be eligible for a free toll pass for any toll fee issued pursuant to Article 5..."
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment is self-contained and does not rely on unseen language."
+}

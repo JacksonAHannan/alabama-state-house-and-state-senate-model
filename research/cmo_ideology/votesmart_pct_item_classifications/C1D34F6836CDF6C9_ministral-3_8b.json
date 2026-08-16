@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_party_contributions",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "limiting contributions from political parties to state legislative and gubernatorial candidates",
+  "evidence_quote": "",
+  "needs_human_review": true,
+  "review_reason": "The SOURCE TEXT is a prompt asking for support of limiting contributions, but does not include the candidate's explicit stance on this issue. No affirmative or negative response is provided in the text."
+}

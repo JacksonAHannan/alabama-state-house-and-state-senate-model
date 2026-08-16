@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_tax_bracket_income",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option suggests a moderate federal income tax bracket range for families.",
+  "evidence_quote": "$25,000-$75,000",
+  "needs_human_review": true,
+  "review_reason": "This is an administrative selection of a numerical range without explicit ideological framing; classification as progressive or conservative depends on the full context of other options and state-level comparisons not provided here."
+}

@@ -1,0 +1,20 @@
+{
+  "primary_issue": "environment_energy",
+  "secondary_issues": [
+    "regulatory_restrictions",
+    "federal_preemption"
+  ],
+  "plain_english_change": "Prohibits Alabama state agencies from setting environmental standards stricter than federal rules without explicit scientific justification. Requires any new rule in the absence of federal guidance to be based on 'best available science' and a direct causal link to human harm.",
+  "vote_stage": "final_passage",
+  "substantive_vote": true,
+  "yea_policy_effect": "supports preempting stricter state environmental rules",
+  "ideological_valence": "conservative",
+  "confidence": "high",
+  "evidence_quotes": [
+    "prohibits agencies from adopting a new rule... that establishes standards for certain environmental protection subjects that are more stringent than the federal requirements",
+    "An agency may not adopt a new rule or amend an existing rule that establishes numeric criteria... if the new rule or amendment would result in criteria or limitations that are more stringent... than any federal law or regulation setting a standard regarding the same or a substantially similar topic.",
+    "No agency shall establish as the default... values from the United States Environmental Protection Agency's Integrated Risk Information System"
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

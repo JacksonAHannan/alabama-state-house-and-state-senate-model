@@ -1,0 +1,15 @@
+{
+  "plain_english_policy": "This bill expands access to prescription drugs for low-income patients in Alabama by formalizing a system for redistributing unused legend drugs from healthcare facilities (hospitals, nursing homes, hospices) and physician samples to charitable clinics and pharmacies. It does not alter Medicaid eligibility or funding but creates a new pathway for drug redistribution under strict conditions.",
+  "policy_direction_if_enacted": "The bill represents a **pro-access-to-medication policy shift** with the following key implications:",
+  "ideological_valence": "mixed",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "no_inference_beyond_text",
+  "confidence": "high",
+  "evidence_quotes": [
+    "Legend drugs... may be donated and transferred to charitable clinics or pharmacies... when all of the following conditions are met:",
+    "The drugs have not expired.",
+    "No product where integrity may not be assured shall be used by the physician at the charitable clinic or dispensed by a charitable pharmacy."
+  ],
+  "needs_human_review": false,
+  "review_reason": "The bill is clear in its intent and scope, with no ambiguity about funding or eligibility criteria for Medicaid patients. The policy direction is evident from the text alone."
+}

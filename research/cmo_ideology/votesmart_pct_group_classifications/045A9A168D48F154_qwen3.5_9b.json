@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_budget_tax_increase",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks if taxes should be raised to promote growth. Raising taxes is generally considered a progressive economic policy.",
+  "evidence_quote": "b) DO you support raising taxes on any income or on any entity, to promote economic growth?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

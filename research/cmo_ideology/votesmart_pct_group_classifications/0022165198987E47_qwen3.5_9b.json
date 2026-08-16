@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_tax_income_family",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Supports low federal income tax levels for families.",
+  "evidence_quote": "Less than $25,000",
+  "needs_human_review": true,
+  "review_reason": "The option specifies a dollar threshold without indicating whether this represents the maximum allowable deduction or an ideal tax rate; context is missing to determine ideological direction."
+}

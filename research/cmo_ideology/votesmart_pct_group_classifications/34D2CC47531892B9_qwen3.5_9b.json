@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_budget_other_categories",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option to select 'Other or expanded categories' for state budget funding and tax levels is non-specific. It does not inherently indicate a conservative preference (e.g., spending cuts) nor a progressive one (e.g., increased social services). Without further detail on what the 'other category' entails, it cannot be assigned a directional political score.",
+  "evidence_quote": "l) Other or expanded categories",
+  "needs_human_review": true,
+  "review_reason": "The option is too vague to determine ideological direction; requires context from the full questionnaire response."
+}

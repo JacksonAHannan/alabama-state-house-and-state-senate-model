@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_affirmative_action",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting affirmative action is conventionally associated with progressive social policy.",
+  "evidence_quote": "Do you support the state's use of affirmative action?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

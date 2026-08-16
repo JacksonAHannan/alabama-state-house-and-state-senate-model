@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_budget_defense_active_duty",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option to pay for active duty personnel is a standard administrative function of state budgeting and does not inherently reflect conservative or progressive ideology.",
+  "evidence_quote": "f) Pay for active duty personnel",
+  "needs_human_review": false,
+  "review_reason": ""
+}

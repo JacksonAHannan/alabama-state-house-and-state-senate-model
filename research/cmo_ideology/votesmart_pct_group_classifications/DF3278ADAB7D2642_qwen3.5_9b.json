@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_spending_economic_growth",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting federal spending to promote economic growth is conventionally associated with progressive or interventionist economic policies.",
+  "evidence_quote": "Do you support federal spending as a means of promoting economic growth?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

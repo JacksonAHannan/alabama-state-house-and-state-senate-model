@@ -1,0 +1,27 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "Henry A. White is a lifelong resident of Limestone County, Alabama, with extensive local experience including serving as superintendent for county schools (four years), member of the Athens City Council (six years), and prior legislative service. In 2014, he ran in House District 5 against Dan Williams. His campaign emphasized public schools, jobs, locally owned businesses, industrial recruitment, and assistance for elderly and disabled people. Ideologically, his pre-election Shor-McCarty score was -0.230 (79th conservative percentile of the Alabama Democratic House caucus).",
+  "offices_and_public_service": [
+    "Limestone County schools superintendent (4 years)",
+    "Athens City Council member (6 years)"
+  ],
+  "profession_and_employment": [],
+  "education": [],
+  "community_and_local_ties": [
+    "lifelong Limestone County resident",
+    "local civic work"
+  ],
+  "political_profile": [
+    "Democratic House candidate, 2014 Alabama House District 5 race against Dan Williams"
+  ],
+  "important_caveats": [],
+  "source_urls_used": [
+    "https://www.alreporter.com/2014/01/31/former-rep-henry-white-announces-candidacy-for-alabama-house-of-representatives/",
+    "https://doi.org/10.7910/DVN/GZJOT3"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://doi.org/10.7910/DVN/GZJOT3",
+    "https://www.alreporter.com/2014/01/31/former-rep-henry-white-announces-candidacy-for-alabama-house-of-representatives/"
+  ]
+}

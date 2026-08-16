@@ -1,0 +1,63 @@
+amendment_id,person_id,candidate,election_cycle,date,activity_timing,bill_number,amendment_title,models_run,core_fields_agree,all_quotes_verified,eligible_for_automatic_stance,review_priority
+49016,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2017-04-18,post_election,HB24,Senate Figures Amendment Offered,2,True,False,False,quote_failure
+49103,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2017-04-13,post_election,SB301,Senate Figures Amendment Offered,2,False,False,False,high_disagreement
+49275,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2017-04-20,post_election,HB98,Senate Figures Amendment Offered,2,False,False,False,high_disagreement
+50016,ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,2017-04-11,post_election,HB334,House Bracy Amendment Offered,2,False,False,False,high_disagreement
+50080,ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,2017-04-18,post_election,HB50,House Boyd first Substitute Offered,2,False,False,False,high_disagreement
+50790,ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,2017-04-27,post_election,SB60,House Lindsey Amendment Offered,2,False,False,False,high_disagreement
+50937,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2017-05-17,post_election,HB528,Senate Figures first Substitute Offered,2,False,False,False,high_disagreement
+52583,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2017-05-03,post_election,HB136,Senate Figures Amendment Offered,2,True,False,False,quote_failure
+52712,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2017-04-06,post_election,SB190,Senate Figures Amendment Offered,2,False,False,False,high_disagreement
+61640,ALPERSON-NATHANIEL-LEDBETTER,Nathaniel Ledbetter,2010,2018-03-20,post_election,SB149,House Ledbetter Amendment Offered,2,False,False,False,high_disagreement
+61645,ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,2018-03-21,post_election,SB212,House Daniels Amendment Offered,2,False,False,False,high_disagreement
+61646,ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,2018-03-21,post_election,SB212,House Drummond Amendment Offered,2,False,False,False,high_disagreement
+61675,ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,2018-02-27,post_election,SB50,House Bracy Amendment Offered,2,False,False,False,high_disagreement
+61687,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2018-03-15,post_election,HB175,Senate Figures Amendment Offered,2,False,True,False,high_disagreement
+74118,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2019-04-18,post_election,SB258,Senate Figures Amendment Offered,2,False,False,False,high_disagreement
+74853,ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,2019-04-25,post_election,SB220,Senate Beasley Amendment Offered,2,False,False,False,high_disagreement
+75160,ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,2019-04-30,post_election,HB314,House Daniels Amendment Offered,2,False,False,False,high_disagreement
+75214,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2019-04-30,post_election,HB163,Senate Figures Amendment Offered,2,True,False,False,quote_failure
+75861,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2019-05-07,post_election,HB339,Senate Figures Amendment Offered,2,False,False,False,high_disagreement
+76059,ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,2019-05-09,post_election,HB380,House Bracy Amendment Offered,2,False,False,False,high_disagreement
+76193,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2019-05-14,post_election,HB314,Senate Figures Amendment Offered,2,False,False,False,high_disagreement
+76194,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2019-05-14,post_election,HB314,Senate Figures Amendment Offered,2,False,False,False,high_disagreement
+76195,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2019-05-14,post_election,HB314,Senate Figures Amendment Offered,2,False,False,False,high_disagreement
+76233,ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,2019-05-14,post_election,HB32,House Boyd Amendment Offered,2,False,False,False,high_disagreement
+76367,ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,2019-05-15,post_election,HB209,House Bracy Amendment Offered,2,True,False,False,quote_failure
+76451,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2019-05-16,post_election,SB320,Senate Figures Amendment Offered,2,False,False,False,high_disagreement
+76455,ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,2019-05-16,post_election,HB598,House Drummond Amendment Offered,2,False,False,False,high_disagreement
+76893,ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,2019-05-23,post_election,SB14,House Drummond Amendment Offered,2,False,False,False,high_disagreement
+77222,ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,2019-05-29,post_election,SB402,Senate Beasley Amendment Offered,2,False,False,False,high_disagreement
+77240,ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,2019-05-29,post_election,SB154,House Bracy 1st Amendment Offered,2,False,False,False,high_disagreement
+77241,ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,2019-05-29,post_election,SB154,House Bracy 2nd Amendment Offered,2,False,False,False,high_disagreement
+79902,ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,2020-02-18,post_election,HB46,House Drummond Amendment Offered,2,False,False,False,high_disagreement
+80628,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2020-02-27,post_election,HB147,Senate Figures Amendment Offered,2,True,False,False,quote_failure
+81740,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2020-03-12,post_election,SB165,Senate Figures Amendment Offered,2,False,False,False,high_disagreement
+88714,ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,2021-02-09,post_election,HB80,House Bracy Amendment Offered,2,False,False,False,high_disagreement
+89284,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2021-02-11,post_election,SB55,Senate Figures Amendment Offered,2,False,False,False,high_disagreement
+92025,ALPERSON-NATHANIEL-LEDBETTER,Nathaniel Ledbetter,2010,2021-02-25,post_election,HB220,House Ledbetter Amendment Offered,2,False,False,False,high_disagreement
+92067,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2021-02-25,post_election,SB170,Senate Figures Amendment Offered,2,False,False,False,high_disagreement
+92068,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2021-02-25,post_election,SB170,Senate Figures Amendment Offered,2,False,False,False,high_disagreement
+94875,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2021-03-09,post_election,SB214,Senate Figures Amendment Offered,2,False,False,False,high_disagreement
+94876,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2021-03-09,post_election,SB214,Senate Figures Amendment Offered,2,False,False,False,high_disagreement
+100587,ALPERSON-NATHANIEL-LEDBETTER,Nathaniel Ledbetter,2010,2021-03-30,post_election,HB224,House Ledbetter first Substitute Offered,2,False,False,False,high_disagreement
+102541,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2021-04-06,post_election,HB131,Senate Figures Amendment Offered,2,False,False,False,high_disagreement
+102568,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2021-04-06,post_election,HB130,Senate Figures Amendment Offered,2,True,False,False,quote_failure
+105030,ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,2021-04-13,post_election,HB573,House Bracy Amendment Offered,2,False,False,False,high_disagreement
+105741,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2021-04-15,post_election,HB391,Senate Figures Amendment Offered,2,False,False,False,high_disagreement
+105970,ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,2021-04-15,post_election,HB265,House Drummond Amendment Offered,2,False,False,False,high_disagreement
+109504,ALPERSON-NATHANIEL-LEDBETTER,Nathaniel Ledbetter,2010,2021-04-29,post_election,SB227,House Ledbetter Amendment Offered,2,False,False,False,high_disagreement
+113266,ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,2021-05-17,post_election,SB267,House Bracy Amendment Offered,2,False,False,False,high_disagreement
+125584,ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,2022-02-02,post_election,HB153,House Bracy Amendment Offered,2,False,False,False,high_disagreement
+128558,ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,2022-02-15,post_election,HB97,House Drummond Amendment Offered,2,False,False,False,high_disagreement
+131138,ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,2022-02-23,post_election,HB220,House Drummond Amendment Offered,2,False,False,False,high_disagreement
+135731,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2022-03-09,post_election,HB105,Senate Figures Amendment Offered,2,False,False,False,high_disagreement
+136162,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2022-03-10,post_election,SB204,Senate Figures Amendment Offered,2,False,False,False,high_disagreement
+137827,ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,2022-03-17,post_election,HB312,House Boyd Amendment Offered,2,False,False,False,high_disagreement
+140462,ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,2022-03-29,post_election,SB171,House Drummond Amendment Offered,2,False,False,False,high_disagreement
+142406,ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,2022-04-06,post_election,SB224,House Boyd 1st Amendment Offered,2,False,False,False,high_disagreement
+142408,ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,2022-04-06,post_election,SB224,House Boyd 2nd Amendment Offered,2,False,False,False,high_disagreement
+142599,ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,2022-04-06,post_election,HB400,Senate Beasley Amendment Offered,2,False,False,False,high_disagreement
+199959,ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,2024-02-21,post_election,SB18,Senate Judiciary Figures substitution adopted,2,False,False,False,high_disagreement
+203086,ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,2024-02-28,post_election,HB60,House Children and Senior Advocacy Boyd substitution adopted,2,False,False,False,high_disagreement
+205495,ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,2024-03-06,post_election,HB102,House Children and Senior Advocacy Boyd amendment adopted,2,False,False,False,high_disagreement

@@ -1,0 +1,14 @@
+{
+  "primary_issue": "abortion",
+  "secondary_issues": [],
+  "plain_english_revision": "The amendment instructs to delete lines 1 through 10 on page 17 of the bill.",
+  "revision_direction": "indeterminate",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "N/A; The text is procedural and fragmentary. It only specifies a deletion instruction without providing context on what those lines contained or the policy effect of removing them.",
+  "confidence": "low",
+  "evidence_quotes": [
+    "\"On page 17, delete lines 1 through 10 in their entirety.\""
+  ],
+  "needs_human_review": true,
+  "review_reason": "The amendment text is purely procedural (a deletion instruction) and lacks the substantive content of the deleted section or any explanatory language regarding policy goals."
+}

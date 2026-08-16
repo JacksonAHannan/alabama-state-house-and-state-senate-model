@@ -1,0 +1,20 @@
+{
+  "primary_issue": "healthcare_medicaid",
+  "secondary_issues": [
+    "healthcare_medicaid",
+    "healthcare_medicaid"
+  ],
+  "plain_english_revision": "This amendment carves out an exception for healthcare providers and hospitals from the bill\u2019s general ban on vaccine passports. It removes a word that would have broadened the prohibition to include Medicaid eligibility, then explicitly exempts doctors, dentists, medical institutions, and hospitals from the law\u2019s scope.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Exempting healthcare providers from vaccine passport restrictions in Medicaid eligibility determinations",
+  "confidence": "high",
+  "evidence_quotes": [
+    "to exclude certain health care providers",
+    "<-- removes a blanket prohibition for all entities, including Medicaid",
+    "This act shall not apply to physicians, surgeons, dentists, medical institutions, or other health care providers...",
+    "<-- creates an explicit exemption"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment text is clear and self-contained; no external context needed."
+}

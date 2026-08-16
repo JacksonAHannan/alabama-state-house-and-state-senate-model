@@ -1,0 +1,11 @@
+{
+  "policy_key": "governor_term_limits",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The question asks about term limits for governors. Term limits are generally considered a progressive reform aimed at preventing entrenched power and encouraging new leadership.",
+  "evidence_quote": "Do you support the current limit of two four-year terms for Alabama governors?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

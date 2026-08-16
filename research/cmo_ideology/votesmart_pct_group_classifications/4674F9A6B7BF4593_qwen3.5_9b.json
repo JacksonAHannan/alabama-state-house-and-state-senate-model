@@ -1,0 +1,11 @@
+{
+  "policy_key": "redirect_welfare_to_faith_orgs",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Redirecting public welfare funds to faith-based and community organizations is a policy option often associated with conservative principles that favor private charity over government provision.",
+  "evidence_quote": "g) Redirect welfare funding to faith-based and community-based private organizations.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

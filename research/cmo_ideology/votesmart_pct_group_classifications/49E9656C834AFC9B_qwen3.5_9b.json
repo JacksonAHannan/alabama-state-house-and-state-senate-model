@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_candidate_questionnaire_g",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "This option asks about prohibiting elected officials from holding additional state jobs. This is a structural government reform question rather than an ideological stance on social or economic issues.",
+  "evidence_quote": "g) Should current elected officials be prohibited from holding additional state jobs?",
+  "needs_human_review": true,
+  "review_reason": "The question addresses procedural governance (conflict of interest/holding multiple offices) which is generally considered non-ideological and context-dependent rather than having a stable conservative or progressive direction."
+}

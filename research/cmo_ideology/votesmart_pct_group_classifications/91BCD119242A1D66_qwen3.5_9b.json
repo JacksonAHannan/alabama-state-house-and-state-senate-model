@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_tax_bracket_threshold",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option suggests a high income threshold for federal taxation but lacks context on rate changes or other tax policies.",
+  "evidence_quote": "d) Over $150,000",
+  "needs_human_review": true,
+  "review_reason": "This is an incomplete response to a multi-part question asking for selections across multiple categories; it does not represent a full policy stance."
+}

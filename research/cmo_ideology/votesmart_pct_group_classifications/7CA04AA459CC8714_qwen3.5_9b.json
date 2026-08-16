@@ -1,0 +1,11 @@
+{
+  "policy_key": "environment_clean_air_act_enforcement",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Strengthening Clean Air Act enforcement is conventionally viewed as a progressive environmental policy.",
+  "evidence_quote": "b) Strengthen the regulation and enforcement of the Clean Air Act.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

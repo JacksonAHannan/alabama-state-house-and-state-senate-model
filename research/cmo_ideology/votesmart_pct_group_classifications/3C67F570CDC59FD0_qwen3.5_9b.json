@@ -1,0 +1,11 @@
+{
+  "policy_key": "health_tax_credits",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Offering tax credits to offset insurance costs is a market-based approach that reduces government direct spending and expands coverage through private mechanisms.",
+  "evidence_quote": "i) Offer tax credits to individuals and small businesses to offset the cost of insurance coverage.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

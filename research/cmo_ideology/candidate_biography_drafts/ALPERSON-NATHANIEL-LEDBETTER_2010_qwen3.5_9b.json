@@ -1,0 +1,30 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "Nathaniel Ledbetter was the Democratic candidate for Alabama House District 24 in the 2010 election. He later switched parties and won the same seat as a Republican in 2014, eventually becoming Speaker of the Alabama House.",
+  "offices_and_public_service": [
+    "Rainsville City Council",
+    "Mayor"
+  ],
+  "profession_and_employment": [],
+  "education": [],
+  "community_and_local_ties": [
+    "Deep municipal roots in Rainsville area"
+  ],
+  "political_profile": [
+    "Culturally conservative Democrat (2010)",
+    "Republican after party switch (post-2013)"
+  ],
+  "important_caveats": [
+    "Evidence of conservatism comes from a 2013 retrospective memorandum, not pre-election voter encounters."
+  ],
+  "source_urls_used": [
+    "https://southerntorch.com/wp-content/uploads/2014/02/NATHANIEL-LEDBETTER.pdf",
+    "https://apnews.com/article/d3f2441992b128fd6cc80e4207d53278"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://apnews.com/article/d3f2441992b128fd6cc80e4207d53278",
+    "https://southerntorch.com/wp-content/uploads/2014/02/NATHANIEL-LEDBETTER.pdf",
+    "https://www2.alabamavotes.gov/downloads/election/2010/general/sampleballots/Dekalb-2010-Sample.pdf"
+  ]
+}

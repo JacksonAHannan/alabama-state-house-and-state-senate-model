@@ -1,0 +1,11 @@
+{
+  "policy_key": "health_care_funding",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The item asks for funding levels without specifying whether higher or lower spending is the intended direction.",
+  "evidence_quote": "Indicate the funding levels you will support for the following general categories.",
+  "needs_human_review": true,
+  "review_reason": "Item lacks a defensible stable direction as it requests specific funding levels without indicating if an increase (progressive) or decrease (conservative) is preferred. The prompt 'State Budget: Indicate the funding levels...' does not inherently imply a conservative (+1), progressive (-1), or neutral stance on its own."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "cigarette_tax",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The item asks for a tax level on cigarettes but does not specify whether the candidate supports raising or lowering that tax. Without knowing if higher taxes are conservative (revenue-focused) or progressive (health/harm-reduction focused), no stable ideological direction can be assigned.",
+  "evidence_quote": "Indicate the tax levels you will support",
+  "needs_human_review": true,
+  "review_reason": "The prompt is non-directional; it requests a selection of 'one level' without defining what those levels are or their policy implications. A higher cigarette tax could be progressive (reducing consumption among youth) or conservative (increasing state revenue). Without the candidate's specific stance on raising vs lowering taxes, this item cannot be scored as +1 or -1."
+}

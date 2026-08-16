@@ -1,0 +1,11 @@
+{
+  "policy_key": "homeland_security_funding",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Increasing federal funding for state and local homeland security is generally considered a procedural or administrative policy rather than one with an inherent conservative or progressive ideological direction.",
+  "evidence_quote": "Should the federal government increase funding to states and cities for homeland security?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

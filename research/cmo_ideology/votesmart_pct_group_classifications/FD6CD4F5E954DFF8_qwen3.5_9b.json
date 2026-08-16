@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_budget_employee_furlough",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option proposes mandatory furloughs and layoffs for state employees as a budget stabilization measure. This is generally viewed through a progressive lens because it involves reducing public sector employment rather than cutting services or taxes.",
+  "evidence_quote": "b) Instituting mandatory furloughs AND/OR layoffs for state employees?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

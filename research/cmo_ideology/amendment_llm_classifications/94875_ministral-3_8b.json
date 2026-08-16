@@ -1,0 +1,18 @@
+{
+  "primary_issue": "infrastructure_energy",
+  "secondary_issues": [
+    "public_education",
+    "infrastructure_energy"
+  ],
+  "plain_english_revision": "The amendment modifies how members of a new regulatory body (the Alabama Gaming Commission) are selected, specifically requiring that one of the three gubernatorial appointments come from a slate nominated by the Alabama Black Legislative Caucus. It also increases the total number of gubernatorial appointees from 'One' to 'Two'.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Affirmatively advances a policy effect that ensures representation on the Alabama Gaming Commission by requiring gubernatorial appointees to be selected from slates proposed by the Alabama Black Legislative Caucus.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "One of the members appointed by the Governor, the Lieutenant Governor, and the Speaker of the House of Representatives shall each be appointed from a slate of three individuals proposed by the Alabama Black Legislative Caucus.",
+    "On page 20, lines 1 and 4, delete 'One' and insert in lieu thereof the following: Two"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment text is clear and unambiguous regarding its changes to the bill's structure."
+}

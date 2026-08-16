@@ -1,0 +1,11 @@
+{
+  "policy_key": "economic_job_creation_incentives",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option proposes financial incentives for private sector job creation.",
+  "evidence_quote": "Do you support providing financial incentives to the private sector for the purpose of job creation?",
+  "needs_human_review": true,
+  "review_reason": "Economic development via tax credits or subsidies is often debated; some view it as pro-business/conservative while others see it as necessary intervention/progressive. Without candidate stance data, direction cannot be reliably assigned."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_budget_medicaid_block_grant",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option 'h) Medicaid' in the context of a question asking if states should receive block grants rather than federal spending generally aligns with conservative fiscal principles that favor state control and reduced federal involvement. However, without explicit text from the candidate affirming or rejecting this specific change for Medicaid alone (as opposed to other categories), inferring a definitive ideological stance is speculative.",
+  "evidence_quote": "h) Medicaid",
+  "needs_human_review": true,
+  "review_reason": "The provided option 'h) Medicaid' appears to be an item within a list of choices rather than a standalone policy statement. The full context required to determine the candidate's specific position (whether they support or oppose block grants for this category) is missing from the snippet."
+}

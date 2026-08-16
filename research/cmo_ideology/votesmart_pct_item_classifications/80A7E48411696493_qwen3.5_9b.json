@@ -1,0 +1,11 @@
+{
+  "policy_key": "media_exit_polling",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The item asks about prohibiting media exit polling after polls close. This is a procedural/administrative question regarding election administration rather than an ideological stance on government size or economic policy.",
+  "evidence_quote": "Do you support prohibiting media exit polling of voters until all polling locations in Alabama are closed?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,20 @@
+{
+  "primary_issue": "public_education",
+  "secondary_issues": [
+    "gender_identity_discussion_prohibition",
+    "sexual_orientation_flag_display_prohibition",
+    "pronoun_usage_restriction"
+  ],
+  "plain_english_change": "This bill changes Alabama law to ban classroom discussions about gender identity or sexual orientation in public schools from pre-K through 12th grade. It also bans teachers and staff from displaying flags related to these topics and prohibits them from using pronouns that don't match a student's biological sex.",
+  "vote_stage": "final_passage",
+  "substantive_vote": true,
+  "yea_policy_effect": "enactment_of_prohibitions_on_gender_identity_discussion_and_flag_display_in_public_schools",
+  "ideological_valence": "conservative",
+  "confidence": "high",
+  "evidence_quotes": [
+    "\"to prohibit classroom instruction in public school prekindergarten through the twelfth grade related to gender identity or sexual orientation\"",
+    "\"No teacher, or other public preK-12 employee, may display a flag or other insignia relating to or representing sexual orientation or gender identity in a classroom of a public preK-12 school.\""
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

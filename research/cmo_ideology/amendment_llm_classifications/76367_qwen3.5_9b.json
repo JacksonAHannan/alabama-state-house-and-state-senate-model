@@ -1,0 +1,17 @@
+{
+  "primary_issue": "school_choice",
+  "secondary_issues": [
+    "school_choice"
+  ],
+  "plain_english_revision": "The amendment modifies the qualifications and powers of school resource officers by requiring specialized youth training, limiting arrest authority to certified officers only.",
+  "revision_direction": "restricts_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "The amendment restricts the power of school resource officers by mandating specialized youth training and limiting arrest authority to those certified by the Alabama Peace Officers' Standards and Training Commission.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "(5) He or she has received specialized training to work with youth at a school site.",
+    "(c) Only those school resource officers who are certified by the Alabama Peace Officers' Standards and Training Commission shall have the power of arrest."
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

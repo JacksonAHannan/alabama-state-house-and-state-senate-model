@@ -1,0 +1,11 @@
+{
+  "policy_key": "health_tax_incentives_small_business",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "tax incentives for small businesses offering employee healthcare",
+  "evidence_quote": "Provide tax incentives to small businesses that provide health care to their employees.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

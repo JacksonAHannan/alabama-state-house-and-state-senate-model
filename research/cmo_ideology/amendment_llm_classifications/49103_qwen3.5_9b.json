@@ -1,0 +1,17 @@
+{
+  "primary_issue": "criminal_justice",
+  "secondary_issues": [
+    "public_private_partnerships"
+  ],
+  "plain_english_revision": "This amendment removes the term 'sexting' from the bill and adds specific intent requirements (harassment, coercion) to charges involving private images. It also deletes existing text defining nudity according to a different section of law.",
+  "revision_direction": "indeterminate",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "The amendment seeks to narrow the scope of criminal liability by removing references to 'sexting' and requiring proof that an image was shared with intent to harass or coerce.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "\"On page 1, line 21... delete \\\"sexting,\\\"\"",
+    "\"after 'image' insert the following language: with the intent to harass, threaten, coerce, or intimidate the person depicted\""
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

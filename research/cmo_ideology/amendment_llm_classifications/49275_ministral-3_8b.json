@@ -1,0 +1,18 @@
+{
+  "primary_issue": "public_education",
+  "secondary_issues": [
+    "taxes_budget",
+    "abortion"
+  ],
+  "plain_english_revision": "This amendment adds a new requirement to the bill: if a woman certifies she would have aborted her child but instead gave birth after this law passes, Alabama must pay for all reasonable costs of raising that child until age 18. The state\u2019s financial responsibility is explicitly tied to the mother\u2019s prior intent to abort.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Advances a policy of *conditional state-funded childcare* for children born after ratification when their mothers certify they would have aborted them otherwise.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "the state be responsible for all reasonable costs of raising the child to the age of majority",
+    "where the child's birth mother certifies that she otherwise would have aborted the unborn child"
+  ],
+  "needs_human_review": true,
+  "review_reason": "The amendment\u2019s procedural feasibility depends on (1) how \u2018certification\u2019 is defined and enforced, (2) whether it conflicts with federal Medicaid/foster care laws, and (3) the bill\u2019s final language on \u2018ratification\u2019 timing. The valence of this change relative to the original bill\u2019s intent is ambiguous without full text."
+}

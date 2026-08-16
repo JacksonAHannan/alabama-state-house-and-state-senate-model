@@ -1,0 +1,11 @@
+{
+  "policy_key": "corporate_tax_levels",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The item asks for a specific tax level without defining the policy direction (e.g., raising vs. lowering), making it non-ideological and unscoreable.",
+  "evidence_quote": "Indicate the tax levels you will support.",
+  "needs_human_review": true,
+  "review_reason": "Item requests selection of 'tax levels' generally rather than specifying a directional change (increase/decrease) or linking to a specific ideological outcome; without context on whether higher taxes are progressive or conservative in this instance, direction is indeterminate. Additionally, the prompt lacks constraints that would make it scorable as per guidelines for vague items."
+}

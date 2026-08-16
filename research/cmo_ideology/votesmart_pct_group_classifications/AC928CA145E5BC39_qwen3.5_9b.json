@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_immigrant_instate_tuition",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting this option is conventionally more progressive as it advocates for equal educational access and tuition benefits regardless of immigration status.",
+  "evidence_quote": "Should immigrants unlawfully present in the United States who graduate from Alabama high schools be eligible for in-state tuition at public universities?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

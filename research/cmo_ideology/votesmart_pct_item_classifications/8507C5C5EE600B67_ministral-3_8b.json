@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_pacs",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "limiting political action committee (PAC) contributions to state legislative candidates",
+  "evidence_quote": "Do you support limiting the following types of contributions to state legislative candidates?\nOption: 2) PAC",
+  "needs_human_review": false,
+  "review_reason": ""
+}

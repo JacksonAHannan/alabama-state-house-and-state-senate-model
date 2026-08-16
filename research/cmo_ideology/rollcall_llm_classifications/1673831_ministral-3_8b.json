@@ -1,0 +1,19 @@
+{
+  "primary_issue": "Economic Development",
+  "secondary_issues": [
+    "Tax Increment Financing",
+    "Land Acquisition"
+  ],
+  "plain_english_change": "This bill modifies Alabama's laws on Major 21st Century Manufacturing Zones to allow them to be created within tax increment districts (TIDs) regardless of the size of the TID. It also allows ad valorem taxes collected in the TID to be used for reimbursing costs incurred by public entities when acquiring land within the zone before the TID is established.",
+  "vote_stage": "amendment",
+  "substantive_vote": false,
+  "yea_policy_effect": "This bill could potentially encourage economic development in Alabama by making it easier to create manufacturing zones and use tax revenues for land acquisition costs. It may also help revitalize economically distressed areas.",
+  "ideological_valence": "conservative",
+  "confidence": "medium",
+  "evidence_quotes": [
+    "The bill allows a Major 21st Century Manufacturing Zone to be located within a tax increment district without regard to the size of the district, potentially making it easier for local governments to create these zones.",
+    "It also permits ad valorem tax revenues collected in the TID to reimburse costs incurred by public entities for land acquisition prior to creating the TID."
+  ],
+  "needs_human_review": true,
+  "review_reason": "The bill's impact on local government budgets and its potential effects on property taxes need further analysis. Additionally, it is important to understand how this change will affect existing tax increment districts and their financial planning."
+}

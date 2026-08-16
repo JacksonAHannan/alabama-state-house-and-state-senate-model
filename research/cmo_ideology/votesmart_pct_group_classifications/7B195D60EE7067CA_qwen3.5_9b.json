@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_campaign_contribution_limits",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks for a position on limits to campaign contributions without specifying the candidate's stance.",
+  "evidence_quote": "Do you support any limits on campaign contributions to state candidates?",
+  "needs_human_review": true,
+  "review_reason": "This is a standard binary question that does not inherently indicate conservative or progressive ideology; it depends entirely on how the specific candidate answers."
+}

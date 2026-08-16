@@ -1,0 +1,5 @@
+specification,forward_cycles,mean_mae,latest_mae,mean_rmse,promoted,selection_rule
+baseline,2,12.569332409883293,12.03204312936364,17.216921190407486,True,improve_mean_and_latest_forward_mae
+finance_scenario,2,13.275718499840686,10.275802090285518,17.108465165539094,False,improve_mean_and_latest_forward_mae
+incumbency,2,14.00521722323359,10.651333771377443,18.177854923035763,False,improve_mean_and_latest_forward_mae
+incumbency_demographics,2,15.791756833665092,11.444447769525052,19.504911476778005,False,improve_mean_and_latest_forward_mae

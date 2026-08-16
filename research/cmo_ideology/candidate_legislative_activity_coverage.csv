@@ -1,0 +1,21 @@
+person_id,candidate,election_cycle,legiscan_people_id,match_method,review_status,sponsored_bills,attributed_amendments,named_history_actions,sponsored_bills_with_committee_events
+ALPERSON-ALAN-HARPER,Alan Harper,2010,3381,exact_name,reviewed,581,0,0,306
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,3360,unique_first_last_name,reviewed,667,7,13,338
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,3386,reviewed_name_alias,reviewed,870,3,31,678
+ALPERSON-JAMES-C-FIELDS-JR,James C. Fields Jr.,2010,3399,unique_first_last_name,reviewed,278,0,0,121
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,12517,exact_name,reviewed,362,0,10,347
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,3485,reviewed_name_alias,reviewed,397,0,13,376
+ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,12542,exact_name,reviewed,345,11,21,205
+ALPERSON-NATHANIEL-LEDBETTER,Nathaniel Ledbetter,2010,17595,exact_name,reviewed,155,7,6,104
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,3356,exact_name,reviewed,635,0,12,402
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,3490,unique_first_last_name,reviewed,587,32,83,551
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,17642,exact_name,reviewed,143,3,3,80
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,17624,unique_first_last_name,reviewed,130,8,15,74
+ALPERSON-CRAIG-FORD,Craig Ford,2014,3406,exact_name,reviewed,1045,0,20,365
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,3395,unique_first_last_name,reviewed,297,0,0,109
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,3362,exact_name,reviewed,297,0,1,113
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,3378,unique_first_last_name,reviewed,287,0,0,108
+ALPERSON-LARRY-MEANS,Larry Means,2014,3468,exact_name,reviewed,105,0,3,99
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,3392,exact_name,reviewed,529,1,20,238
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,21314,unique_first_last_name,reviewed,10,0,0,10
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,3402,unique_first_last_name,reviewed,651,0,8,353

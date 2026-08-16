@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_budget_income_tax_increase",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting an income tax increase is conventionally a progressive policy position aimed at increasing revenue through higher taxation.",
+  "evidence_quote": "d) An income tax increase on any tax bracket?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "environment_spending",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Environment spending levels in the state budget.",
+  "evidence_quote": "Indicate the funding levels you will support for the following general categories",
+  "needs_human_review": true,
+  "review_reason": "The prompt asks candidates to 'indicate' their own preferred funding level without providing a specific policy stance or direction. The candidate's answer (Option c) Environment') is just a category selection, not an ideological position on spending magnitude."
+}

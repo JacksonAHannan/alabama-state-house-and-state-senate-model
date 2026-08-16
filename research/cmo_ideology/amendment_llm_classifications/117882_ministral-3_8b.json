@@ -1,0 +1,18 @@
+{
+  "primary_issue": "criminal_justice",
+  "secondary_issues": [
+    "environment",
+    "public_education"
+  ],
+  "plain_english_revision": "This amendment replaces vague legal language in HB131 with a specific list of violent crimes that would be subject to certain restrictions or requirements (e.g., mandatory detention, bail conditions, etc.).",
+  "revision_direction": "restricts_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "expanding the scope of state intervention in a subset of felony offenses to ensure uniform application of [unseen] provisions",
+  "confidence": "high",
+  "evidence_quotes": [
+    "capital murder, murder, kidnapping in the first degree, rape in the first degree, sodomy in the first degree, sexual torture, domestic violence in the first degree, human trafficking in the first degree, burglary in the first degree, arson in the first degree, robbery in the first degree, terrorism when the specified offense is a Class A felony other than murder, and aggravated child abuse of a child under the age of six",
+    "an offense enumerated by the Legislature by general law"
+  ],
+  "needs_human_review": true,
+  "review_reason": "The amendment text does not specify what provisions are being applied to these crimes, nor does it clarify whether this is a procedural change (e.g., bail reform) or substantive (e.g., mandatory sentencing). The valence depends on the unseen bill language."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "voluntary_spending_limits",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option proposes voluntary spending limits for candidates.",
+  "evidence_quote": "Should candidates for state office be encouraged to meet voluntary spending limits?",
+  "needs_human_review": true,
+  "review_reason": "Voluntary measures lack binding force and do not represent a clear conservative or progressive stance in this context."
+}

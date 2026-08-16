@@ -1,0 +1,11 @@
+{
+  "policy_key": "affirmative_action_college_admissions",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "whether government should consider race/sex in college admissions",
+  "evidence_quote": "take race and sex into account in the following sectors: a) College and university admissions",
+  "needs_human_review": false,
+  "review_reason": ""
+}

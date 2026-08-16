@@ -1,0 +1,38 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "Jerry Fielding won the 2010 Alabama Senate District 11 election as a Democrat, recording approximately +18.2 out-of-fold CMOs. He served for 26 years prior to this race as a Talladega County district and circuit judge, which provided him with strong local recognition independent of party affiliation. Fielding switched from the Democratic Party to the Republican Party in 2012, presenting himself as culturally conservative after his election.",
+  "offices_and_public_service": [
+    "Talladega County District Judge",
+    "Alabama State Senator"
+  ],
+  "profession_and_employment": [
+    "Circuit Judge (Retired)"
+  ],
+  "education": [],
+  "community_and_local_ties": [
+    "Talladega County"
+  ],
+  "political_profile": [
+    "Democrat in 2010 election",
+    "Republican after 2012 party switch"
+  ],
+  "important_caveats": [
+    "No reliable campaign-time issue platform or pre-election legislative record recovered for the 2010 race.",
+    "His ideological valence remains unknown from the 2010 period; later cultural positions (opposing same-sex marriage, abortion, gun control) came almost two years after the election and amid redistricting changes."
+  ],
+  "source_urls_used": [
+    "https://www.apr.org/2010-09-07/ala-gop-picks-robbins-to-replace-sen-preuitt",
+    "https://www.apr.org/2010-09-01/veteran-state-senator-calls-it-quits",
+    "https://www.alreporter.com/2012/10/05/senator-fielding-welcomed-in-senate-republican-caucus-mark-kennedy-calls-him-a-liar/",
+    "https://www.sspba.org/gen/articles/2010_ALPBA_Elected_Candidates_101.jsp",
+    "https://www.govinfo.gov/content/pkg/USCOURTS-almd-2_12-cv-00691/pdf/USCOURTS-almd-2_12-cv-00691-5.pdf"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://www.alreporter.com/2012/10/05/senator-fielding-welcomed-in-senate-republican-caucus-mark-kennedy-calls-him-a-liar/",
+    "https://www.apr.org/2010-09-01/veteran-state-senator-calls-it-quits",
+    "https://www.apr.org/2010-09-07/ala-gop-picks-robbins-to-replace-sen-preuitt",
+    "https://www.govinfo.gov/content/pkg/USCOURTS-almd-2_12-cv-00691/pdf/USCOURTS-almd-2_12-cv-00691-5.pdf",
+    "https://www.sspba.org/gen/articles/2010_ALPBA_Elected_Candidates_101.jsp"
+  ]
+}

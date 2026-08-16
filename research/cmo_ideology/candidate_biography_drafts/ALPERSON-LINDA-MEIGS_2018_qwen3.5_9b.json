@@ -1,0 +1,28 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "Linda Meigs was a first-time legislative candidate for Alabama House District 20 in the 2018 election. She recorded approximately +15.1 out-of-fold CMO, with a resource-adjusted score of about +9.7. Her campaign priorities included Medicaid expansion and an education lottery; she linked Medicaid expansion to hospital closures, infant mortality, mental-health services, addiction treatment, and diabetes care. This platform is coded as mildly progressive economic policy relative to contemporary Alabama Democrats but does not support broader left-right identity inference. Meigs was a retired Grissom High School teacher who participated in local Democratic organizations.",
+  "offices_and_public_service": [],
+  "profession_and_employment": [
+    "retired_grissom_high_school_teacher"
+  ],
+  "education": [],
+  "community_and_local_ties": [
+    "local_democratic_organizations_participant",
+    "grissom_high_school_connection"
+  ],
+  "political_profile": [
+    "suburban_non_incumbent_comparison_case",
+    "first_time_candidate"
+  ],
+  "important_caveats": [
+    "evidence_too_sparse_for_confident_ranking_of_mechanisms",
+    "resource_adjustment_suggests_campaign_resources_explain_part_of_result"
+  ],
+  "source_urls_used": [
+    "https://media.al.com/news_impact/other/Huntsville%20Times%202018%20midterm%20guide.pdf"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://media.al.com/news_impact/other/Huntsville%20Times%202018%20midterm%20guide.pdf"
+  ]
+}

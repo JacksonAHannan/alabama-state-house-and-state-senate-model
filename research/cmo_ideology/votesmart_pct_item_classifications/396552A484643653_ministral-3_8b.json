@@ -1,0 +1,11 @@
+{
+  "policy_key": "alcohol_tax_level",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "level of taxation on alcohol (higher taxes = more progressive)",
+  "evidence_quote": "",
+  "needs_human_review": true,
+  "review_reason": "The SOURCE TEXT only provides a prompt and an option category ('alcohol taxes') without specifying a concrete tax level or policy stance. No definitive direction (+1/-1/0) can be assigned based on this alone."
+}

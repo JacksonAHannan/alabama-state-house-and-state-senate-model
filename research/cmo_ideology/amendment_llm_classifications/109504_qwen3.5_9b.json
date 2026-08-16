@@ -1,0 +1,18 @@
+{
+  "primary_issue": "healthcare_medicaid",
+  "secondary_issues": [
+    "public_private_partnerships"
+  ],
+  "plain_english_revision": "The amendment exempts self-funded health plans governed by federal law (ERISA) from specific state regulations regarding patient steering and price discrimination found in Sections 27-45A-8 and 27-45A-10. It also modifies the definition of 'drug' to explicitly include specialty medications eligible for CMS tier placement, regardless of conflicting laws.",
+  "revision_direction": "indeterminate",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "The amendment advances a policy position that limits the application of new state pharmacy benefit manager regulations to self-funded plans governed by ERISA and clarifies statutory definitions regarding specialty drugs.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "(a) On page 12, line 1, before \"Nothing\" insert the following: (b) The following provisions shall not apply to the administration by a person of any term, including prescription drug benefits, of a self-funded health benefit plan that is governed by the federal Employee Retirement Income Security Act of 1974...",
+    "(2), (3), (6), and (7) of Section 27-45A-10.",
+    "On page 17, line 26, after \"drug\" insert the following: ...including each and every prescription medication that is eligible for specialty tier placement by the Centers for Medicare and Medicaid Services pursuant to 42 C.F.R. \u00a7 423.560..."
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

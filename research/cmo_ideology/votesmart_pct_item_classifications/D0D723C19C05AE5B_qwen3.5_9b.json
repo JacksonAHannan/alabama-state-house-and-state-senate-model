@@ -1,0 +1,11 @@
+{
+  "policy_key": "state_lottery_funding",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The question asks about creating a state lottery to fund education. This is an administrative or fiscal policy choice rather than a core ideological stance on the role of government in social welfare.",
+  "evidence_quote": "Should Alabama create a state lottery with proceeds funding education?",
+  "needs_human_review": true,
+  "review_reason": "The item asks for support of a specific revenue mechanism (lottery) for a specific purpose (education). While lotteries are often associated with conservative fiscal conservatism or progressive social spending depending on the candidate's broader platform, this single question lacks sufficient context to determine if it reflects a stable ideological direction. It could be answered by candidates across the spectrum based on their views on gambling ethics versus education funding needs."
+}

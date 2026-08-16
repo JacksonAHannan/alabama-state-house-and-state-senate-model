@@ -1,0 +1,11 @@
+{
+  "policy_key": "agriculture_funding",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "level of public funding for agriculture sector",
+  "evidence_quote": "",
+  "needs_human_review": true,
+  "review_reason": "The SOURCE TEXT only presents a prompt without any candidate's selected option or stated position on funding levels. Funding levels are context-dependent (e.g., 'low', 'medium', 'high') and cannot be classified as +1/-1/0 without explicit evidence of a conservative/progressive stance."
+}

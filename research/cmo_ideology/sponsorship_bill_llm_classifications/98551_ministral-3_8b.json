@@ -1,0 +1,15 @@
+{
+  "plain_english_policy": "This bill (SB415) is a **fiscal mechanism** tied to state funding cuts for juvenile probation services. It does not change core policy on juvenile justice but instead creates a **direct linkage between state budget reductions and county-level salary subsidies**. Here\u2019s the breakdown:",
+  "policy_direction_if_enacted": "**Cost-shifting and fiscal alignment**: The bill ensures that if the Administrative Office of Courts (AOC) reduces its funding for state-funded juvenile probation services, counties with populations over 99,000 (as per the 1990 census) would see their **salary subsidies for county-based probation officers cut proportionally**. This creates a **shared burden** between state and local governments during budget shortfalls.",
+  "ideological_valence": "progressive",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "The bill\u2019s text is neutral on policy goals\u2014it merely formalizes an existing subsidy structure. Senator Keahey (sponsor) advanced it to **lock in a mechanism for fiscal accountability** during state budget cuts, without altering probation officer roles or jurisdiction.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "**Fiscal linkage**: 'If the Administrative Office of Courts reduces funding by a certain percentage...the salary subsidies...shall be reduced by the same percentage.' (Section 12-5A-5, as amended)",
+    "**Population threshold**: 'Counties having a population of more than 99,000 according to the 1990 federal decennial census' (SYNOPSIS)",
+    "**Subsidy formula**: 'Salary subsidies...shall be reduced by the same percentage' (Page 3)"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The bill\u2019s intent is clear: **tie county probation budgets to state funding fluctuations**. No ideological or substantive ambiguity exists in its text."
+}

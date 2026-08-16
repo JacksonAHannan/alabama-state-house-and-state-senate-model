@@ -1,0 +1,11 @@
+{
+  "policy_key": "ethanol_alternative_fuel",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting ethanol as an alternative fuel is generally considered a progressive environmental stance due to its potential for reducing reliance on fossil fuels and lowering greenhouse gas emissions compared to traditional gasoline.",
+  "evidence_quote": "j) Support the use of ethanol as an alternative fuel.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

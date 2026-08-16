@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_governor_term_limits",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Limiting campaign contributions to state legislative candidates (not directly about term limits).",
+  "evidence_quote": "",
+  "needs_human_review": true,
+  "review_reason": "The provided SOURCE TEXT does not address campaign finance limitations for state legislative candidates. It only mentions limiting the Governor's terms to 2 four-year terms, which is a term limit\u2014not a campaign contribution restriction\u2014making this item scorable false."
+}

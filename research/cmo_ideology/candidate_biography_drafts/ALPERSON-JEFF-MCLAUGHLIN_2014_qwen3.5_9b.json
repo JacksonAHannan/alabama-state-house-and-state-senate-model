@@ -1,0 +1,38 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "Jeff McLaughlin is a former Alabama state representative who served in the House from 2001 through 2010. He ran for re-election to represent House District 27 in the 2014 election against Will Ainsworth, raising approximately $13,455 compared to his opponent's roughly $113,956. McLaughlin is a Guntersville attorney and former teacher with extensive local civic ties. His campaign emphasized education, infrastructure, protecting TVA resources, opposition to extreme partisanship, honesty in government, and representation without special-interest money. Ideologically, he holds conservative views within the Alabama Democratic House caucus (92nd percentile on Shor\u2013McCarty score). He previously proposed nonpartisan judicial elections in 2010 and repeatedly sought to ban PAC-to-PAC transfers.",
+  "offices_and_public_service": [
+    "Alabama state representative, served from 2001 through 2010",
+    "Guntersville attorney",
+    "Former teacher"
+  ],
+  "profession_and_employment": [
+    "Attorney (based in Guntersville)",
+    "Teacher (former)"
+  ],
+  "education": [],
+  "community_and_local_ties": [
+    "Guntersville",
+    "House District 27"
+  ],
+  "political_profile": [
+    "Alabama Democratic House caucus member",
+    "Conservative relative-caucus classification (92nd percentile Shor\u2013McCarty score)",
+    "Reform and public-institution themes supporter"
+  ],
+  "important_caveats": [],
+  "source_urls_used": [
+    "https://www.alreporter.com/2013/11/27/jeff-mclaughlin-announces-campaign-for-house-district-27/",
+    "https://www.waff.com/story/27273752/district-27-in-marshall-co-awaits-announcement-of-new-representative/",
+    "https://www.apr.org/2010-04-07/nonpartisan-judge-elections-voted-down-by-house-panel",
+    "https://southerntorch.com/16630/"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://doi.org/10.7910/DVN/GZJOT3",
+    "https://southerntorch.com/16630/",
+    "https://www.alreporter.com/2013/11/27/jeff-mclaughlin-announces-campaign-for-house-district-27/",
+    "https://www.apr.org/2010-04-07/nonpartisan-judge-elections-voted-down-by-house-panel",
+    "https://www.waff.com/story/27273752/district-27-in-marshall-co-awaits-announcement-of-new-representative/"
+  ]
+}

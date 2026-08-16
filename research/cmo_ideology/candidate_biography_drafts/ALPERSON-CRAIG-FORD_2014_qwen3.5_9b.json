@@ -1,0 +1,30 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "Craig Ford ran for the Alabama House District 28 in the 2014 election. He recorded a campaign model output (CMO) of approximately +23.7, with adjusted estimates around +22.9 after accounting for resources. His pre-election Shor-McCarty ideology score was -0.152, placing him near the 89th conservative percentile within the Alabama Democratic House caucus at that time. In a subsequent interview regarding his 2018 Senate run as an independent, Ford described himself as aligned with conservative principles and estranged from national Democrats. Vote Smart later recorded high ratings for gun rights organizations (NRA: 92%, Gun Owners of America: 100%). Despite cultural conservatism, he advocated for full public-school funding, pre-K education, teacher raises, repeal of the Alabama Accountability Act, Medicaid expansion, and stronger mental-health funding during his political career. His campaign appeal combined conservative cultural identity with economic-populist services.",
+  "offices_and_public_service": [
+    "Alabama House District 28 (Candidate)",
+    "Senate District 10 (Independent Candidate)"
+  ],
+  "profession_and_employment": [],
+  "education": [],
+  "community_and_local_ties": [],
+  "political_profile": [
+    "Conservative cultural identity",
+    "Economic-populist services advocate",
+    "Explicit independence from party leadership"
+  ],
+  "important_caveats": [
+    "The 2018 interview is retrospective to the scored 2014 election and should corroborate rather than substitute for a contemporaneous platform."
+  ],
+  "source_urls_used": [
+    "https://aldailynews.com/senate-district-10-race-profile-ford-jones/",
+    "https://justfacts.votesmart.org/candidate/53381/craig-ford",
+    "https://doi.org/10.7910/DVN/GZJOT3"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://aldailynews.com/senate-district-10-race-profile-ford-jones/",
+    "https://doi.org/10.7910/DVN/GZJOT3",
+    "https://justfacts.votesmart.org/candidate/53381/craig-ford"
+  ]
+}

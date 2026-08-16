@@ -1,0 +1,32 @@
+check,passed,observed,expected
+LARRY MEANS 2010 CMO,True,-5.716325595739377,about -5.72
+Larry Means 2014 CMO,True,29.13324637426904,about 29.13
+JOHN 'Jody' LETSON 2010 CMO,True,-7.59056207044936,about -7.59
+John (Jody) Letson 2014 CMO,True,37.152067339362816,about 37.15
+Linda Meigs total/resource-adjusted CMO,True,15.12/9.66,about 15.12/9.66
+Kim Caudle Lewis total/resource-adjusted CMO,True,15.05/15.78,about 15.05/15.78
+James Fields 2010 CMO and raw gap,True,15.60/34.18,about 15.60/34.18
+Rex Cheatham total/fundraising-adjusted CMO,True,16.74/17.73,about 16.74/17.73
+"NAPOLEON BRACY, JR. total/fundraising-adjusted CMO",True,20.70/12.88,about 20.7/12.88
+GREG VARNER total/fundraising-adjusted CMO,True,15.46/8.43,about 15.46/8.43
+Jerry Fielding 2010 CMO,True,18.21601389364433,about 18.22
+Anthony Daniels geography range,True,48.37 to 55.66,about 48.37 to 55.66
+Barbara A. Drummond geography range,True,12.90 to 29.89,about 12.9 to 29.89
+overall ideology sample n,True,52,52
+overall ideology Spearman,True,-0.0310425085079166,about -0.03
+overall clustered interval,True,"[-0.320, 0.251]","about [-0.32, 0.25]"
+scored matched-pair direction counts,True,"{'ideology_unobserved_for_one_or_both': 10, 'large_cmo_difference_without_large_ideology_difference': 2, 'higher_cmo_candidate_more_progressive': 2, 'higher_cmo_candidate_more_conservative': 1}","1 more conservative, 2 more progressive, 2 similar"
+Drummond-Alexander geography gap sensitivity,True,0.83 to 22.50,positive lower bound below one point and not robustly above five points
+no split evidence identities,True,1,1
+blind ideology decisions pending,True,0,0
+blind pending queue hides identities,True,"['anonymous_case_id', 'dimension', 'election_cycle', 'evidence_items', 'evidence_summary', 'reviewer_code', 'reviewer_confidence', 'reviewer_note', 'source_types']",no candidate or person_id column
+independent blind decisions complete,True,46,46 candidate-dimension decisions
+blind disagreements adjudicated,True,6 raw disagreements/6 adjudications,6 raw disagreements and 6 adjudications
+current codes implement blind adjudication,True,6,6 of 6 adjudicated codes
+blind disagreements do not reverse direction,True,0,0 directional reversals
+Betterton platform provenance,True,2014-08-12/2014-08-21,published and last modified before 2014-11-04
+Daniels negative archive search logged,True,['not_recovered'],one not_recovered provenance row
+article claim-audit inventory,True,"['C01', 'C02', 'C03', 'C04', 'C05', 'C06', 'C07', 'C08', 'C09', 'C10', 'C11', 'C12', 'C13', 'C14', 'C15', 'C16', 'C17', 'C18', 'C19', 'C20', 'C21', 'C22', 'C23', 'C24', 'C25', 'C26', 'C27', 'C28', 'C29', 'C30', 'C31']",C01 through C27 present
+chart manifest inventory,True,"['01_ideology_vs_cmo.png', '01_ideology_vs_cmo.svg', '02_repeat_candidate_trajectories.png', '02_repeat_candidate_trajectories.svg', '03_matched_pair_gaps.png', '03_matched_pair_gaps.svg', '04_issue_bundle_heatmap.png', '04_issue_bundle_heatmap.svg']",eight expected PNG/SVG files
+chart artifact hashes,True,8,8 matching artifacts
+article embeds all four charts,True,[],no missing PNG references

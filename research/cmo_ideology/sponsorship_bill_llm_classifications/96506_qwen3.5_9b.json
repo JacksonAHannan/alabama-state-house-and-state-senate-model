@@ -1,0 +1,15 @@
+{
+  "plain_english_policy": "This bill establishes a formal legal framework for Alabama courts when a parent in a custody case is charged with a crime. The primary policy direction is to prioritize the child's well-being over automatically pausing family court proceedings due to criminal charges against a parent.\n\nSpecifically, the law mandates that:\n1. A judge must appoint an independent lawyer (guardian ad litem) specifically for the child during these hearings.\n2. There is a legal presumption ('rebuttable') that it is better for the case to continue rather than be paused.\n3. Judges must evaluate specific factors, such as risks to the child if proceedings are delayed and whether the criminal trial will finish quickly enough not to harm the family situation.\n4. If a parent was denied a stay (pause) but later acquitted of all charges in court, they can use that acquittal as grounds to ask for their custody or visitation rights to be changed back.",
+  "policy_direction_if_enacted": "Enactment would shift Alabama's judicial approach from potentially pausing family cases automatically upon criminal charges to a more balanced process. It ensures the child has dedicated legal representation and forces judges to weigh the specific risks of delay against other needs before deciding whether to pause custody hearings. Crucially, it protects parents' rights by allowing them to seek modified custody orders if they are later found innocent in court.",
+  "ideological_valence": "progressive",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "Representatives Mask, Irons, Curtis and Beech affirmatively advanced this legislation to codify protections for children's best interests while ensuring due process rights are not lost during criminal proceedings.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "\"This bill would provide a procedure and guidelines for the court to follow when considering a stay in custody or visitation proceedings pending the adjudication of a criminal charge involving the parent.\"",
+    "\"There shall exist a rebuttable presumption that it is in the best interest of the child to proceed with the custody or visitation matter.\"",
+    "\"The court shall appoint a guardian ad litem to represent the child in the hearing on the motion to stay the custody or visitation proceeding.\""
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

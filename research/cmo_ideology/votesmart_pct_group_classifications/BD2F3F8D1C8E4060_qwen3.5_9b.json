@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_confederate_monuments",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting the removal of Confederate monuments is conventionally progressive in the US political context.",
+  "evidence_quote": "Do you support the removal of Confederate monuments from public spaces?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

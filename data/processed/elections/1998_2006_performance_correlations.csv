@@ -1,0 +1,7 @@
+cycle,chamber,comparison,n,pearson_r
+1998,house,raw_overperformance_vs_prior_pres_margin,52,0.021801274023340558
+1998,senate,raw_overperformance_vs_prior_pres_margin,24,0.24837114115366296
+2002,house,raw_overperformance_vs_prior_pres_margin,45,-0.11769700453074294
+2002,senate,raw_overperformance_vs_prior_pres_margin,18,-0.15900740795696688
+2006,house,raw_overperformance_vs_prior_pres_margin,38,-0.05531480224015737
+2006,senate,raw_overperformance_vs_prior_pres_margin,19,0.01740498864533814

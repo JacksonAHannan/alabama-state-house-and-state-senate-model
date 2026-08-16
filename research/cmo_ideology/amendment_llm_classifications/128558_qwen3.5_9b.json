@@ -1,0 +1,14 @@
+{
+  "primary_issue": "anti_esg_governance",
+  "secondary_issues": [],
+  "plain_english_revision": "The amendment removes a specific subsection (labeled as item '(3)') from the bill text on page 2, line 26. Without access to the full original bill or prior amendments that defined what this subsection contained, it is impossible to determine the substantive policy change intended by its removal.",
+  "revision_direction": "indeterminate",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "The amendment supports a procedural revision to remove item '(3)' from page 2 of HB97. Due to missing context regarding the content of that specific subsection and its relationship to other parts of the bill, no affirmative policy position or ideological stance can be attributed to this change.",
+  "confidence": "low",
+  "evidence_quotes": [
+    "\"On page 2, line 26, strike '(3)'\""
+  ],
+  "needs_human_review": true,
+  "review_reason": "The amendment text relies on a reference to an external document (the bill itself) which is not provided. The instruction explicitly states: 'If the text... depends on unseen language, mark direction and valence indeterminate.' Additionally, without knowing what item '(3)' contained or why it was included in the original draft versus subsequent versions, any claim about its policy effect would be speculative."
+}

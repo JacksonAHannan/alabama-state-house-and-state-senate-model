@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_euthanasia_questionnaire",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting the right to choose euthanasia is conventionally a progressive stance on end-of-life issues.",
+  "evidence_quote": "Should an individual have the right to choose to die through euthanasia?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "transportation_infrastructure_funding",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The candidate is asked to specify funding levels for transportation and highway infrastructure but provides no stated preference or direction.",
+  "evidence_quote": "Indicate the funding levels you will support for the following general categories.",
+  "needs_human_review": true,
+  "review_reason": "Item asks for specific spending amounts without indicating a conservative vs progressive stance; lacks defensible stable direction per instructions."
+}

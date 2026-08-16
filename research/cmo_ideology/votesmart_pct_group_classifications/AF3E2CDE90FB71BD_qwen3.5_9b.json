@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_welfare_block_grants",
+  "dimension": "labor_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting block grants for welfare (AFDC) is conventionally a conservative policy position that favors state control and reduced federal spending.",
+  "evidence_quote": "Do you support the use of block grants given to states, rather than federal spending, in the following areas? ... l) Welfare (AFDC)",
+  "needs_human_review": false,
+  "review_reason": ""
+}

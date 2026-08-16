@@ -1,0 +1,11 @@
+{
+  "policy_key": "flex_time_unpaid_leave",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option proposes encouraging employers to provide flexible scheduling and unpaid leave for family emergencies.",
+  "evidence_quote": "Encourage employers to offer flex-time scheduling, comp-time, and unpaid leave for family emergencies.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

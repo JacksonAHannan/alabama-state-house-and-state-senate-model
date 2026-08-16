@@ -1,0 +1,19 @@
+{
+  "primary_issue": "immigration",
+  "secondary_issues": [
+    "detainer_classification"
+  ],
+  "plain_english_change": "The law now says that if ICE sends a detainer or warrant, the jail can hold someone for up to 48 hours. If no federal judge signs it within that time, they must release them unless there's another valid reason like citizenship proof.",
+  "vote_stage": "final_passage",
+  "substantive_vote": true,
+  "yea_policy_effect": "Jails can hold people for up to 48 hours on ICE detainers without a judge-signed warrant; must notify consulates and verify status of foreign nationals.",
+  "ideological_valence": "conservative",
+  "confidence": "high",
+  "evidence_quotes": [
+    "(8)a. Inmates shall be held no longer than 48 hours pursuant to an immigration detainer or an immigration warrant...",
+    "An immigration warrant signed by any immigration official other than a federal judge or federal magistrate shall be treated as an immigration detainer.",
+    "If an immigration warrant... is not received by the jail staff within 48 hours, or if ICE does not take custody of the inmate within 48 hours, the inmate shall be eligible for release from the custody."
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

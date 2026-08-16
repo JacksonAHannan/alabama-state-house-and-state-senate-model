@@ -1,0 +1,11 @@
+{
+  "policy_key": "affirmative_action_college_admissions",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Support for considering race and sex in college admissions is a progressive policy position.",
+  "evidence_quote": "State government agencies should take race and sex into account in the following sectors: ... College and university admissions",
+  "needs_human_review": false,
+  "review_reason": ""
+}

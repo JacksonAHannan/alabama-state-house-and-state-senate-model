@@ -1,0 +1,15 @@
+{
+  "plain_english_policy": "HB266 (Alabama, 2010) establishes a structured legal framework for courts to evaluate motions to stay custody/visitation proceedings when a parent faces criminal charges. Its core policy direction is **to prioritize child welfare while balancing procedural fairness and presumptive continuity in family court matters**\u2014but with safeguards that could indirectly protect accused parents under certain conditions. Here\u2019s the breakdown:  ",
+  "policy_direction_if_enacted": "1. **Default Continuity of Custody/Visitation**: The bill creates a *rebuttable presumption* that it is in the child\u2019s best interest to proceed with custody or visitation proceedings despite criminal charges against one parent. This suggests a policy of stability for children, assuming their existing arrangements are preferable unless proven otherwise. **Evidence**: *\u201cThere shall exist a rebuttable presumption that it is in the best interest of the child to proceed with the custody or visitation matter.\u201d*",
+  "ideological_valence": "conservative",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "The bill\u2019s sponsors (Mask, Irons, Curtis, Beech) advanced a text that aligns with **pro-parental rights in criminal cases** while embedding child welfare as the primary metric. The presumption against stays implies skepticism of pausing custody orders unless risks to the child are demonstrated.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "A rebuttable presumption that it is in the best interest of the child to proceed with the custody or visitation matter.",
+    "The court shall determine the best interest of the child based on ... potential risks to the mental and physical welfare of the child if the court stays the proceeding.",
+    "An acquittal ... may constitute a change in circumstances for purposes of modification."
+  ],
+  "needs_human_review": false,
+  "review_reason": "The bill\u2019s text is clear, actionable, and lacks ambiguity. It directly addresses custody/visitation stays during criminal proceedings with explicit factors for courts to weigh."
+}

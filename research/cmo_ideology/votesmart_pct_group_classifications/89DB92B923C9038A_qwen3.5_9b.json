@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_marijuana_medical",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting the decriminalization of marijuana for medicinal purposes is conventionally considered a progressive stance on social issues.",
+  "evidence_quote": "Decriminalize the use of marijuana for medicinal purposes.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

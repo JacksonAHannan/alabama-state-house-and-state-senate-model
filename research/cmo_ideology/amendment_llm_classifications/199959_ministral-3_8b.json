@@ -1,0 +1,19 @@
+{
+  "primary_issue": "criminal_justice",
+  "secondary_issues": [
+    "criminal_justice",
+    "criminal_justice"
+  ],
+  "plain_english_revision": "This amendment creates a narrow, time-limited exception to Alabama\u2019s statute of limitations for civil claims arising from sex offenses against minors. It allows victims (or their representatives) to sue *only* the bankruptcy estate of a specific congressionally chartered organization\u2014**not individual defendants or other entities**\u2014if the bankruptcy proceedings began on February 18, 2020. The change applies retroactively but expires in December 2026.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "A limited exception to the statute of limitations for civil claims against a *specific* bankruptcy estate (not general victims\u2019 rights or broader liability), with strict procedural and temporal constraints.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "if all of the following are true: ... (3) The action is for purposes of making a claim or claims in a bankruptcy proceeding that was initiated on February 18, 2020.",
+    "(4) The claim or claims is against the bankruptcy estate of a congressionally chartered organization.",
+    "An action brought under subsection (a) may only be commenced against an entity seeking bankruptcy protection as provided in subsection (a) and not against any other person or entity."
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment\u2019s text is explicit about its scope, timing, and exclusions. No hidden assumptions are required to interpret the policy effect."
+}

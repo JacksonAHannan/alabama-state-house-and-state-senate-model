@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_funding_un",
+  "dimension": "indeterminate",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option references the United Nations as a category for federal funding levels. This is likely an error or misclassification in the source questionnaire data, as 'United Nations' is not one of the specified categories (Budget Priorities, Defense Spending, Taxes) listed in the question prompt.",
+  "evidence_quote": "q) United Nations",
+  "needs_human_review": true,
+  "review_reason": "The option text does not match any of the defined policy categories in the questionnaire instructions and appears to be a data entry error or irrelevant response."
+}

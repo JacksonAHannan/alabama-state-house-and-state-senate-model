@@ -1,0 +1,18 @@
+{
+  "primary_issue": "criminal_justice",
+  "secondary_issues": [
+    "taxes_budget",
+    "lgbtq_cultural"
+  ],
+  "plain_english_revision": "**Summary of Amendment by Vivian Davis Figures (SB55, Feb. 11, 2021):** This amendment removes a blanket prohibition on *novelties* (e.g., LGBTQ+-themed or culturally sensitive merchandise) in Class 2 municipalities\u2014unless explicitly excluded elsewhere in the bill\u2014but **exempts Class 2 municipalities entirely from that restriction**. The change is procedural and context-dependent; it does not clarify whether other provisions override this carve-out.",
+  "revision_direction": "indeterminate",
+  "ideological_valence": "mixed",
+  "candidate_position_supported": "**Policy Effect:** *Conditionally* expands local authority over cultural/novelty restrictions in Class 2 municipalities by removing a state-mandated prohibition (if the broader bill\u2019s intent was to preempt municipal bans).",
+  "confidence": "low",
+  "evidence_quotes": [
+    "**Removal of blanket ban:** 'No' \u2192 'Except as provided in this subsection, no...'",
+    "**Class 2 exemption:** 'This subsection does not apply to a Class 2 municipality.'"
+  ],
+  "needs_human_review": true,
+  "review_reason": "The amendment\u2019s intent is ambiguous without seeing the full text of Sec. X-XX (where 'novelties' are defined) or other sections referenced in the bill."
+}

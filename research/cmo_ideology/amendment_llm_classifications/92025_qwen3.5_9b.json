@@ -1,0 +1,18 @@
+{
+  "primary_issue": "gambling",
+  "secondary_issues": [
+    "gambling"
+  ],
+  "plain_english_revision": "This amendment transfers the authority to manage construction and renovation of state educational property from the Division of Construction Management (Department of Finance) directly to the governing boards of each specific institution. It requires electronic document submission, mandates annual reporting on K-12 projects including costs and delays, updates definitions for 'educational institutions' to exclude public K-12 schools and those with constitutional trustees, transfers various existing powers from finance division statutes to institutional boards, establishes a requirement that new higher education buildings include tornado-rated safe spaces or hallways starting August 1, 2012, allows contracting between institutions and the Division for any purpose, preserves municipal property inspection authority, and changes terminology regarding repairs/maintenance to 'capital improvement' in specific contexts.",
+  "revision_direction": "decreases_funding",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "The amendment advances the policy position that governing boards of educational institutions should have direct authority over construction and renovation projects for their respective properties, rather than having this authority centralized within a state finance division. It also supports requiring tornado-rated safe spaces in new higher education buildings.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "\"On page 1... insert in lieu thereof the following: This bill would provide that the governing board of each educational institution or state educational institution shall oversee the construction and renovation of state property as it relates to each institution, except that the Division of Construction Management shall continue to oversee construction and renovation of state property relating to public K-12 schools...\"",
+    "\"On page 5... insert in lieu thereof the following: '(2) Any powers, authority, and jurisdiction granted to the Division of Construction Management within this section relating to an educational institution or state educational institution is hereby transferred to the governing board of each institution...'\"",
+    "\"Section 4. Section 16-1-2.2... 'any new contract awarded for the construction of a new building... shall include an Alabama Building Commission Division of Construction Management approved safe space or hallway rated for tornadoes.'\""
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

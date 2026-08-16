@@ -1,0 +1,11 @@
+{
+  "policy_key": "teacher_compensation",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increasing teacher salaries and benefits is generally viewed as a progressive policy aimed at improving public education conditions.",
+  "evidence_quote": "Do you support increasing teacher salaries AND/OR benefits in Alabama?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,15 @@
+{
+  "primary_issue": "abortion",
+  "secondary_issues": [],
+  "plain_english_revision": "This amendment changes who is responsible for notifying voters about defective absentee ballots and how those notifications are handled.",
+  "revision_direction": "decreases_funding",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "The candidate supports shifting the responsibility of issuing notices regarding rejected absentee ballots from an 'absentee election manager' to a 'local board of registrars.' Additionally, this amendment mandates that within 10 calendar days after each election, sheriffs must collect all rejected ballots and deliver them directly to these local boards.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "delete \"absentee election manager to notify\" and insert in lieu thereof the following: local board of registrars to notify absentee",
+    "rejected ballot shall be delivered to the local board of registrars. The local board of registrars shall issue a notice in writing to the voter stating the"
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

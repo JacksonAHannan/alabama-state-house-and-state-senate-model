@@ -1,0 +1,17 @@
+{
+  "primary_issue": "business_economic_development",
+  "secondary_issues": [
+    "infrastructure_energy"
+  ],
+  "plain_english_revision": "The amendment changes the rules for state grants to rural broadband projects. It allows states funds to be used alongside federal funding, but only if those funds are spent on specific parts of a project that go beyond what was federally funded (like extending service to unserved areas) or if they upgrade speeds in areas already served by slower-than-25Mbps connections.",
+  "revision_direction": "indeterminate",
+  "ideological_valence": "progressive",
+  "candidate_position_supported": "The amendment advances a policy of leveraging existing federal investments to expand rural broadband coverage and improve connection speeds without duplicating federally funded efforts. It specifically targets the upgrade of slow connections (below 25 Mbps download/3 Mbps upload) in areas already receiving some service.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "\"eligible projects shall include projects that have received funds through other federal universal service funding programs\"",
+    "\"any award of state funds may only be utilized to either (i) fund project components that extend beyond the specifications supported by the federal funding... or (ii) ensure that areas being served by the federal funding at speeds less than 25 megabits per second... will, in fact, receive faster speeds\""
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "election_day_holiday",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "This option asks whether Election Day should be a national holiday. Making holidays is generally seen as progressive or populist to increase participation.",
+  "evidence_quote": "i) Should Election Day be a national holiday?",
+  "needs_human_review": true,
+  "review_reason": "The question itself does not state the candidate's position; it asks for their preference. Without knowing if they support or oppose making it a holiday, we cannot assign a conservative/progressive score."
+}

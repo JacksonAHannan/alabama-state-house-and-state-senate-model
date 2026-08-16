@@ -1,0 +1,16 @@
+{
+  "plain_english_policy": "HB547 (2010) is a **local control measure** that shifts authority over granite/limestone surface mining permits from the state to local governments in Alabama. It requires **mandatory public hearings and prior approval** by affected counties/municipalities before the Alabama Department of Environmental Management can issue or modify mining permits. The bill does not ban mining outright but imposes **strict environmental, social, and economic review criteria**\u2014effectively creating a **de facto moratorium on new/expanded operations** until local governments approve them under these standards.",
+  "policy_direction_if_enacted": "The bill would **centralize regulatory power in local communities**, likely leading to:",
+  "ideological_valence": "progressive",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "no_inference_beyond_text",
+  "confidence": "high",
+  "evidence_quotes": [
+    "The Alabama Department of Environmental Management **shall not issue** a new or modified permit... unless the operation has received approval by the governing bodies of municipalities and counties affected...",
+    "**Public notice and an opportunity for public comment is provided**",
+    "**At least one public hearing**... with 30\u201345 days' notice",
+    "Considerations include **impact on roads, water quality, erosion, property values, blasting noise, and social/economic effects**"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The bill\u2019s text is clear and actionable; no ambiguity or ceremonial language detected."
+}

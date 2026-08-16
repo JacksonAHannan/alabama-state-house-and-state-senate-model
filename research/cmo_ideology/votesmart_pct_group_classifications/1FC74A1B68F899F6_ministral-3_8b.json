@@ -1,0 +1,11 @@
+{
+  "policy_key": "anti_discrimination_sexual_orientation",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Would you add protections against discrimination based on sexual orientation (e.g., LGBTQ+ status) to Alabama\u2019s existing anti-discrimination laws?",
+  "evidence_quote": "(No direct quote provided in the prompt, but this option is conventionally classified as -1 because it aligns with progressive/liberal advocacy for LGBTQ+ rights.)",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,412 @@
+historical_candidate_id,year,chamber,district,party,candidate_name,normalized_name,votes,winner,counties_reported,source_name
+HC-B949565A54688867FAA9,1986,house,1,D,"Nelson Starkey, Jr.",NELSON STARKEY,7764.0,0,1,Alabama SOS historical legislative archive
+HC-3C35ECEE5157AFF6A79A,1986,house,1,D,Paul Parker,PAUL PARKER,8603.0,1,1,Alabama SOS historical legislative archive
+HC-16A401FFE75F34CE2ADC,1986,house,1,R,Ken McFall,KEN MCFALL,3208.0,0,1,Alabama SOS historical legislative archive
+HC-6BC0FECD068A55EFFB78,1986,house,2,D,Tom Coburn,THOMAS COBURN,7279.0,0,1,Alabama SOS historical legislative archive
+HC-9E415BABBC6AA48FD365,1986,house,2,R,Morris Brooks,MORRIS BROOKS,8661.0,1,1,Alabama SOS historical legislative archive
+HC-41D7ABD81111F09A0EDE,1986,house,3,D,Joe Goodwin,JOE GOODWIN,6985.0,1,2,Alabama SOS historical legislative archive
+HC-F49D87877C6D68CF0AE6,1986,house,3,R,Troy Woodall,TROY WOODALL,4772.0,0,2,Alabama SOS historical legislative archive
+HC-A232C050D1DC1486EBB3,1986,house,4,D,James H. Hamilton,JAMES H HAMILTON,6718.0,0,2,Alabama SOS historical legislative archive
+HC-41134378C1EDD0D39758,1986,house,4,D,W.C. Bill Bowling,WC BILL BOWLING,8857.0,1,1,Alabama SOS historical legislative archive
+HC-EB3245802AFA7AF2B630,1986,house,4,R,Lewis Bartmess,LEWIS BARTMESS,1944.0,0,2,Alabama SOS historical legislative archive
+HC-6A592D05A42C8E3D218B,1986,house,6,D,Tom Butler,THOMAS BUTLER,7268.0,1,1,Alabama SOS historical legislative archive
+HC-CFA38C8D1ACB1ADE2A9D,1986,house,7,D,Allen Layson,ALLEN LAYSON,8176.0,1,2,Alabama SOS historical legislative archive
+HC-F4F66387A4C0DE4D86F4,1986,house,7,D,Ernest Dillard,ERNEST DILLARD,6945.0,0,2,Alabama SOS historical legislative archive
+HC-69F99404F5B2B1CC0B6E,1986,house,8,D,Herman Marks,HERMAN MARKS,9052.0,1,1,Alabama SOS historical legislative archive
+HC-D7291971098E8964DEE7,1986,house,8,R,Guy Devours,GUY DEVOURS,2586.0,0,1,Alabama SOS historical legislative archive
+HC-F38DEE61ED1F6F9C8A35,1986,house,8,R,Richard Lee,RICHARD LEE,5204.0,0,1,Alabama SOS historical legislative archive
+HC-C14700EF7F92978E5EBA,1986,house,9,D,Paul Parker,PAUL PARKER,8603.0,1,1,Alabama SOS historical legislative archive
+HC-0283154566FF70C3322C,1986,house,10,D,David Driscoll,DAVID DRISCOLL,3366.0,0,1,Alabama SOS historical legislative archive
+HC-7696AED571A54D08D99A,1986,house,10,R,Morris Brooks,MORRIS BROOKS,8661.0,1,1,Alabama SOS historical legislative archive
+HC-6167CE60FC748F321B63,1986,house,11,D,Tom Drake,THOMAS DRAKE,7341.0,1,2,Alabama SOS historical legislative archive
+HC-6FD426EF027F0A127116,1986,house,11,R,Troy Woodall,TROY WOODALL,4772.0,0,2,Alabama SOS historical legislative archive
+HC-2DE6D13A55AD7A777D6E,1986,house,12,D,W.C. Bill Bowling,WC BILL BOWLING,8857.0,1,1,Alabama SOS historical legislative archive
+HC-BEAFE906C56EEC4FCA05,1986,house,12,R,Glen L. Baker,GLEN L BAKER,6664.0,0,1,Alabama SOS historical legislative archive
+HC-325E5D57683A8AA62180,1986,house,13,D,Thomas Hogan,THOMAS HOGAN,7286.0,1,1,Alabama SOS historical legislative archive
+HC-50A135890A091623C047,1986,house,13,R,Dennis Campbell,DENNIS CAMPBELL,3190.0,0,1,Alabama SOS historical legislative archive
+HC-C5B20544BBB0E81D72DA,1986,house,14,D,Ed Frazier,EDWARD FRAZIER,6389.0,1,2,Alabama SOS historical legislative archive
+HC-948949D596070588744D,1986,house,14,R,Peggy Dunn,PEGGY DUNN,3555.0,0,2,Alabama SOS historical legislative archive
+HC-7225ACB9FCB8C2FC3AA8,1986,house,15,D,Allen Layson,ALLEN LAYSON,8176.0,1,2,Alabama SOS historical legislative archive
+HC-F82973E2A2C5446881F1,1986,house,15,R,Ernest Chappell,ERNEST CHAPPELL,2658.0,0,2,Alabama SOS historical legislative archive
+HC-48E3335A96566894A898,1986,house,16,D,Max Newman,MAX NEWMAN,7668.0,1,3,Alabama SOS historical legislative archive
+HC-AE39C1BA528F0443B11A,1986,house,16,R,Guy Devours,GUY DEVOURS,4142.0,0,3,Alabama SOS historical legislative archive
+HC-8571FEF9AE809F32FD23,1986,house,17,D,Euclid Rains,EUCLID RAINS,5742.0,0,2,Alabama SOS historical legislative archive
+HC-277CB30C4DF3379681F2,1986,house,17,D,Jack Lauderdale,JACK LAUDERDALE,6320.0,0,2,Alabama SOS historical legislative archive
+HC-B2D35553EF6F277B14DD,1986,house,17,R,Steve Logan,STEVE LOGAN,7996.0,1,2,Alabama SOS historical legislative archive
+HC-838C6982E6F0944BE163,1986,house,18,D,Charlie Britnell,CHARLIE BRITNELL,7274.0,1,2,Alabama SOS historical legislative archive
+HC-E8D82357790914DC0341,1986,house,18,R,Tim Hays,TIM HAYS,5961.0,0,1,Alabama SOS historical legislative archive
+HC-CB646D07C990F56DBDC4,1986,house,21,D,Dewayne Freeman,DEWAYNE FREEMAN,5087.0,1,1,Alabama SOS historical legislative archive
+HC-C9239A67962ADCCDA34E,1986,house,21,R,Keith Wilson,KEITH WILSON,4345.0,0,1,Alabama SOS historical legislative archive
+HC-F19B82CD1DB06C8FC766,1986,house,22,D,Albert Hall,ALBERT HALL,4561.0,1,2,Alabama SOS historical legislative archive
+HC-4D54B502AC9699387C63,1986,house,22,R,Paul W. Smith,PAUL W SMITH,3663.0,0,2,Alabama SOS historical legislative archive
+HC-9516F65FE8F371F0857B,1986,house,23,D,Ben Richardson,BEN RICHARDSON,3435.0,1,1,Alabama SOS historical legislative archive
+HC-70B4863C2D43C9859771,1986,house,23,R,Al Kline,AL KLINE,2519.0,0,1,Alabama SOS historical legislative archive
+HC-76136143589D7B147DD7,1986,house,24,D,Ralph Burke,RALPH BURKE,7013.0,1,1,Alabama SOS historical legislative archive
+HC-4C62A3292C7658C767A7,1986,house,24,D,Ron Johnson,RONALD JOHNSON,6182.0,0,1,Alabama SOS historical legislative archive
+HC-C8F3102B46A59B4F0A43,1986,house,24,R,Benny West,BENNY WEST,5183.0,0,1,Alabama SOS historical legislative archive
+HC-6F22E4C822E3B78B8B5A,1986,house,25,D,Gerald Willis,GERALD WILLIS,6191.0,1,1,Alabama SOS historical legislative archive
+HC-AC6DEADF6FD3D023FB5C,1986,house,25,D,Gordon Moon,GORDON MOON,5377.0,0,1,Alabama SOS historical legislative archive
+HC-3D021F5392FF9BB0BA68,1986,house,26,D,Euclid Rains,EUCLID RAINS,5742.0,1,2,Alabama SOS historical legislative archive
+HC-C054CB5000630C2D750C,1986,house,27,D,Bob Harvey,ROBERT HARVEY,6301.0,1,1,Alabama SOS historical legislative archive
+HC-A93A2FAB316DA3A71125,1986,house,27,R,Tim Hays,TIM HAYS,5961.0,0,1,Alabama SOS historical legislative archive
+HC-E7389A52BD751F73E42B,1986,house,28,D,Joe Ford,JOE FORD,6924.0,1,1,Alabama SOS historical legislative archive
+HC-04B06D77FC422CE6CFFD,1986,house,29,D,June Bugg,JUNE BUGG,6741.0,1,1,Alabama SOS historical legislative archive
+HC-61871D01CB4327FF1023,1986,house,30,D,Bobby Junkins,BOBBY JUNKINS,8888.0,1,2,Alabama SOS historical legislative archive
+HC-B0AEDC4F403BAE4564E0,1986,house,31,D,Jack Venable,JACK VENABLE,8839.0,1,2,Alabama SOS historical legislative archive
+HC-DD3E411F49BC77857A05,1986,house,31,R,Paul W. Smith,PAUL W SMITH,3663.0,0,2,Alabama SOS historical legislative archive
+HC-9742D138E3E31D3E566E,1986,house,32,D,Clarence Haynes,CLARENCE HAYNES,6239.0,1,1,Alabama SOS historical legislative archive
+HC-0209DCEE959ABF9283DA,1986,house,32,R,Al Kline,AL KLINE,2519.0,0,1,Alabama SOS historical legislative archive
+HC-9416B8654D2AC4CDC3BA,1986,house,33,D,Ron Johnson,RONALD JOHNSON,6182.0,1,1,Alabama SOS historical legislative archive
+HC-EDA0E17E7797D9F0CF52,1986,house,34,D,Gerald Willis,GERALD WILLIS,6191.0,1,1,Alabama SOS historical legislative archive
+HC-58331AB0A4EB7554EF24,1986,house,34,R,"A.C. Shelton, Jr.",AC SHELTON,3218.0,0,1,Alabama SOS historical legislative archive
+HC-4ED8705F3918FA196178,1986,house,35,D,Bobby Crow,BOBBY CROW,6581.0,0,1,Alabama SOS historical legislative archive
+HC-453E003D245F04B3CD2F,1986,house,35,R,"Jack Biddle, III",JACK BIDDLE,8684.0,1,1,Alabama SOS historical legislative archive
+HC-E460EF83F3DA58D64A03,1986,house,36,D,Arthur Payne,ARTHUR PAYNE,6439.0,1,1,Alabama SOS historical legislative archive
+HC-5283A7975AECD6100115,1986,house,36,D,James Campbell,JAMES CAMPBELL,6360.0,0,1,Alabama SOS historical legislative archive
+HC-8641217DAC62CBDB423D,1986,house,37,D,Richard Laird,RICHARD LAIRD,3330.0,0,2,Alabama SOS historical legislative archive
+HC-6D096F2A73ED95A105F8,1986,house,37,R,Billy Gray,BILLY GRAY,11856.0,1,1,Alabama SOS historical legislative archive
+HC-1C5E7F8EF72710E2AEE3,1986,house,38,D,Bill Fuller,WILLIAM FULLER,5748.0,1,1,Alabama SOS historical legislative archive
+HC-BDD61ED1A7BB4C867851,1986,house,39,D,Richard Lindsey,RICHARD LINDSEY,6777.0,1,3,Alabama SOS historical legislative archive
+HC-ABD06200FF6F4B012DCC,1986,house,41,D,Jim Wright,JAMES WRIGHT,7475.0,1,1,Alabama SOS historical legislative archive
+HC-BACD7300559DCC74CF26,1986,house,41,D,Mike Hill,MICHAEL HILL,7022.0,0,1,Alabama SOS historical legislative archive
+HC-E49D05BB6580A0D321C6,1986,house,41,R,Jim Entrekin,JAMES ENTREKIN,6281.0,0,1,Alabama SOS historical legislative archive
+HC-5391F32F42AB15A88591,1986,house,42,D,A.J. Blake,AJ BLAKE,5826.0,0,1,Alabama SOS historical legislative archive
+HC-FB2E3361BC76CFA21638,1986,house,42,D,John W. Rogers,JOHN W ROGERS,10055.0,1,1,Alabama SOS historical legislative archive
+HC-CACD212DA5DC20F0787F,1986,house,42,R,Fred Hughes,FRED HUGHES,5546.0,0,1,Alabama SOS historical legislative archive
+HC-48FE44EC90307D58DA65,1986,house,43,D,Greg Morris,GREG MORRIS,3932.0,0,1,Alabama SOS historical legislative archive
+HC-A5149FC9D81DAF7AE898,1986,house,43,R,"Jack Biddle, III",JACK BIDDLE,8684.0,1,1,Alabama SOS historical legislative archive
+HC-456670EAD7CD3E6C5DE4,1986,house,44,D,Arthur Payne,ARTHUR PAYNE,6439.0,1,1,Alabama SOS historical legislative archive
+HC-79583A0BB024DEBACD14,1986,house,44,R,Stephen Mosely,STEPHEN MOSELY,6332.0,0,1,Alabama SOS historical legislative archive
+HC-0DF00B843D55D0FFA13F,1986,house,45,D,Bob Gafford,ROBERT GAFFORD,5406.0,0,1,Alabama SOS historical legislative archive
+HC-F681190FDAE76CD3DE47,1986,house,45,R,Billy Gray,BILLY GRAY,11856.0,1,1,Alabama SOS historical legislative archive
+HC-76EFD7ABD8CD2F623A89,1986,house,46,D,Rodney A. Max,RODNEY A MAX,5392.0,0,1,Alabama SOS historical legislative archive
+HC-7979E260C4121F600BB3,1986,house,46,R,William Slaughter,WILLIAM SLAUGHTER,13078.0,1,1,Alabama SOS historical legislative archive
+HC-C3C3E401F058811A2D7F,1986,house,47,R,"Geo. Seibels, Jr.",GEO SEIBELS,12092.0,1,1,Alabama SOS historical legislative archive
+HC-4E08710A6E41E2961A19,1986,house,48,R,Greg Beers,GREG BEERS,13655.0,1,1,Alabama SOS historical legislative archive
+HC-94B5790ECBDE50434779,1986,house,49,D,Jack Pratt,JACK PRATT,6645.0,0,1,Alabama SOS historical legislative archive
+HC-D283B569ECA11013F1FF,1986,house,49,R,Tony Petelos,TONY PETELOS,6918.0,1,1,Alabama SOS historical legislative archive
+HC-86ED2220FB47E291AFE0,1986,house,50,D,Hugh Boles,HUGH BOLES,5957.0,0,1,Alabama SOS historical legislative archive
+HC-C016A4D2F26473CB102E,1986,house,50,R,Johnny L. Curry,JOHNNY L CURRY,6456.0,1,1,Alabama SOS historical legislative archive
+HC-CB662A3F075E8E4DB3B1,1986,house,51,D,Jim Wright,JAMES WRIGHT,7475.0,1,1,Alabama SOS historical legislative archive
+HC-9F9704F0946EDBDABDE3,1986,house,52,D,John W. Rogers,JOHN W ROGERS,10055.0,1,1,Alabama SOS historical legislative archive
+HC-DC4F685DDD1A96964869,1986,house,53,D,Demetrius Newton,DEMETRIUS NEWTON,8733.0,1,1,Alabama SOS historical legislative archive
+HC-F98D42EBF73BB2D0E98D,1986,house,53,D,Roy Johnson,ROY JOHNSON,6638.0,0,1,Alabama SOS historical legislative archive
+HC-9573737D450EB222BA0C,1986,house,53,R,Tobert Thomason,TOBERT THOMASON,2206.0,0,1,Alabama SOS historical legislative archive
+HC-70D0DFB7833E9C8BABF9,1986,house,54,D,Geo. Purdue,GEO PURDUE,8003.0,1,1,Alabama SOS historical legislative archive
+HC-9AD10ED7CC9E0C302190,1986,house,54,D,Jimmy Warren,JIMMY WARREN,3084.0,0,1,Alabama SOS historical legislative archive
+HC-125D13D31098BDCB6384,1986,house,56,D,Bobbie McDowell,BOBBIE MCDOWELL,9153.0,1,1,Alabama SOS historical legislative archive
+HC-F8B245E4AFC2981A0065,1986,house,57,D,Edward McClain,EDWARD MCCLAIN,10200.0,1,1,Alabama SOS historical legislative archive
+HC-072035AF99CC58F0CAA2,1986,house,57,D,Harrell Blakeney,HARRELL BLAKENEY,1161.0,0,1,Alabama SOS historical legislative archive
+HC-2A23FBD3A01C643D5B7C,1986,house,58,D,Pat Davis,PAT DAVIS,7115.0,1,1,Alabama SOS historical legislative archive
+HC-6BF28B5D43ADB5A87FB3,1986,house,59,D,Lucius Black,LUCIUS BLACK,5870.0,1,2,Alabama SOS historical legislative archive
+HC-2DE18E43475E943CCBC6,1986,house,61,D,"Bryant Melton, Jr.",BRYANT MELTON,7209.0,1,1,Alabama SOS historical legislative archive
+HC-44049D60666DFB6CDE99,1986,house,62,D,Phil Poole,PHIL POOLE,7440.0,1,1,Alabama SOS historical legislative archive
+HC-04D0D06F52ACC833F325,1986,house,63,D,Roy Johnson,ROY JOHNSON,6638.0,1,1,Alabama SOS historical legislative archive
+HC-D97F15CC6F02B08EF253,1986,house,64,D,Jimmy Warren,JIMMY WARREN,7260.0,1,2,Alabama SOS historical legislative archive
+HC-78C2C76FD8D1FEE7BD82,1986,house,65,D,Michael Breedlove,MICHAEL BREEDLOVE,7959.0,1,2,Alabama SOS historical legislative archive
+HC-8BB428E2236CDF76EAFB,1986,house,66,D,Harrell Blakeney,HARRELL BLAKENEY,7897.0,1,3,Alabama SOS historical legislative archive
+HC-BFAE48D48939F386D66F,1986,house,67,D,Lucius Black,LUCIUS BLACK,10278.0,1,3,Alabama SOS historical legislative archive
+HC-437960356D15149E64AD,1986,house,68,D,"Jenkins Bryant, Jr.",JENKINS BRYANT,8155.0,1,3,Alabama SOS historical legislative archive
+HC-3C9843CF0D2FABC14A95,1986,house,69,D,James Thomas,JAMES THOMAS,5873.0,1,2,Alabama SOS historical legislative archive
+HC-0B773C89B3BEBFFD091E,1986,house,69,R,Jane George,JANE GEORGE,1117.0,0,1,Alabama SOS historical legislative archive
+HC-3A4B06565298A4C19493,1986,house,69,R,William Bradley,WILLIAM BRADLEY,1922.0,0,2,Alabama SOS historical legislative archive
+HC-8B34504E45FA5492B67C,1986,house,70,D,"W.F. Noopie Cosby, Jr.",WF NOOPIE COSBY,8446.0,1,1,Alabama SOS historical legislative archive
+HC-23DE648B26B21515AD56,1986,house,71,D,Ed Grouby,EDWARD GROUBY,7550.0,1,2,Alabama SOS historical legislative archive
+HC-797FE43D4AB18CFE1F76,1986,house,71,R,Frank Thiemong III,FRANK THIEMONG,3888.0,0,2,Alabama SOS historical legislative archive
+HC-DF37AC8D86E47BFA9C97,1986,house,72,D,Lester White,LESTER WHITE,6107.0,1,1,Alabama SOS historical legislative archive
+HC-C2D0D86AE33F88D46429,1986,house,73,R,"Perry Hooper, Jr.",PERRY HOOPER,13012.0,1,1,Alabama SOS historical legislative archive
+HC-718C827B37D6997EA416,1986,house,74,D,Charles Adams,CHARLES ADAMS,3844.0,1,1,Alabama SOS historical legislative archive
+HC-B50ABC933053B0BEE9D9,1986,house,75,D,James Clark,JAMES CLARK,5646.0,1,2,Alabama SOS historical legislative archive
+HC-174FA9F4110EB34CEC29,1986,house,76,D,John Bush,JOHN BUSH,4437.0,0,2,Alabama SOS historical legislative archive
+HC-B86319267BCC65C55941,1986,house,76,R,Mike Mikell,MICHAEL MIKELL,5680.0,1,2,Alabama SOS historical legislative archive
+HC-2173C7CDF490A3AB0015,1986,house,77,D,John Buskey,JOHN BUSKEY,8346.0,1,1,Alabama SOS historical legislative archive
+HC-234AE6CB44C49DFD7CB3,1986,house,77,R,Jane George,JANE GEORGE,1117.0,0,1,Alabama SOS historical legislative archive
+HC-C3917E9E68CBBF94B066,1986,house,78,D,Alvin Holmes,ALVIN HOLMES,9209.0,1,1,Alabama SOS historical legislative archive
+HC-C8BB6A9EB3BA1229A08F,1986,house,79,D,Pete Turnham,PETE TURNHAM,5250.0,1,1,Alabama SOS historical legislative archive
+HC-5A7DEEBF27675A3FB215,1986,house,80,D,Dutch Higginbotham,DUTCH HIGGINBOTHAM,5307.0,1,1,Alabama SOS historical legislative archive
+HC-781104D49DB29DDA9077,1986,house,80,R,Shelby D. Ward,SHELBY D WARD,3848.0,0,1,Alabama SOS historical legislative archive
+HC-1AE3DBB11E21378CEBBA,1986,house,81,D,Lester White,LESTER WHITE,6107.0,1,1,Alabama SOS historical legislative archive
+HC-30B055B125AA77F4F178,1986,house,82,D,Thomas Reed,THOMAS REED,9660.0,1,2,Alabama SOS historical legislative archive
+HC-2DFC9425EC975E994B7A,1986,house,83,D,Charles Adams,CHARLES ADAMS,3844.0,1,1,Alabama SOS historical legislative archive
+HC-3226DD954102F3B0DD67,1986,house,84,D,James Clark,JAMES CLARK,5646.0,1,2,Alabama SOS historical legislative archive
+HC-9F1CCBABDF9AB29B7678,1986,house,85,D,John P. Beasley,JOHN P BEASLEY,6234.0,1,2,Alabama SOS historical legislative archive
+HC-39CAA06108222049457D,1986,house,86,D,"Joe Carothers, Jr.",JOE CAROTHERS,6880.0,0,1,Alabama SOS historical legislative archive
+HC-2D1E2DF4AF24F21127DB,1986,house,86,D,Steve McMillan,STEVE MCMILLAN,7233.0,1,1,Alabama SOS historical legislative archive
+HC-02A7511FD1E4D4FB0D97,1986,house,86,R,Mimi Page,MIMI PAGE,6417.0,0,1,Alabama SOS historical legislative archive
+HC-417CE16AD1F611E6EF76,1986,house,87,D,Mike Box,MICHAEL BOX,6219.0,0,1,Alabama SOS historical legislative archive
+HC-0D8CA56A3C2A86145EF5,1986,house,87,D,Nathan Mathis,NATHAN MATHIS,8461.0,1,2,Alabama SOS historical legislative archive
+HC-4BB89526859E31CEA3E0,1986,house,87,R,Russ Rothrock,RUSS ROTHROCK,3228.0,0,2,Alabama SOS historical legislative archive
+HC-7B2AFF60FC185955CBD8,1986,house,90,D,Dwight Faulk,DWIGHT FAULK,8197.0,0,2,Alabama SOS historical legislative archive
+HC-207BAF0B6D07A695E4BD,1986,house,90,R,Mahlon Stead,MAHLON STEAD,3472.0,0,2,Alabama SOS historical legislative archive
+HC-0D9AD482A84EB6194D12,1986,house,90,R,Victor Gaston,VICTOR GASTON,10492.0,1,1,Alabama SOS historical legislative archive
+HC-77174BBF681EFDCB64DA,1986,house,95,D,Steve McMillan,STEVE MCMILLAN,7233.0,1,1,Alabama SOS historical legislative archive
+HC-8EE0D32156FFC95184AA,1986,house,95,R,Rex Childress,REX CHILDRESS,5841.0,0,1,Alabama SOS historical legislative archive
+HC-A8C514E1638206D75705,1986,house,96,D,Mike Box,MICHAEL BOX,6219.0,1,1,Alabama SOS historical legislative archive
+HC-161FAB47B013DBFBF53B,1986,house,97,D,Mary Zoghby,MARY ZOGHBY,6460.0,1,1,Alabama SOS historical legislative archive
+HC-9AB0450D2FF8E8EF9FB1,1986,house,98,D,William Clark,WILLIAM CLARK,5356.0,1,1,Alabama SOS historical legislative archive
+HC-31A59B08502D1F8113AD,1986,house,99,D,James Buskey,JAMES BUSKEY,7610.0,1,1,Alabama SOS historical legislative archive
+HC-D0DC32A38DCDBC9FE383,1986,house,100,D,Luke Cooley,LUKE COOLEY,1987.0,0,1,Alabama SOS historical legislative archive
+HC-D98E47A8D167733D5DC8,1986,house,100,R,Victor Gaston,VICTOR GASTON,10492.0,1,1,Alabama SOS historical legislative archive
+HC-C416C8EF154AF8892C73,1986,house,101,D,Mildred Laurendine,MILDRED LAURENDINE,2041.0,0,1,Alabama SOS historical legislative archive
+HC-7C61635C9531CAC1F4E7,1986,house,101,R,Ken Kvalheim,KEN KVALHEIM,9672.0,1,1,Alabama SOS historical legislative archive
+HC-9428D64638E1CF9BC8CE,1986,house,102,D,J.E. Turner,JE TURNER,7141.0,1,1,Alabama SOS historical legislative archive
+HC-FC4D442B775CA7391A32,1986,house,102,R,Steve Campbell,STEVE CAMPBELL,4066.0,0,1,Alabama SOS historical legislative archive
+HC-A8A1CD3CB69EBB41751C,1986,house,103,D,Yvonne Kennedy,YVONNE KENNEDY,5344.0,1,1,Alabama SOS historical legislative archive
+HC-D4014583D25A26CEC0C6,1986,house,104,D,Beth Marietta,BETH MARIETTA,5903.0,1,1,Alabama SOS historical legislative archive
+HC-13B2E1084188677D2E73,1986,house,104,R,Joseph Lathan,JOSEPH LATHAN,5847.0,0,1,Alabama SOS historical legislative archive
+HC-0DB8D66ED73187D628C7,1986,house,105,D,Taylor Harper,TAYLOR HARPER,4648.0,1,1,Alabama SOS historical legislative archive
+HC-37DE6280E73556ABD7A8,1986,senate,1,D,Bill G. Smith,WILLIAM G SMITH,18821.0,0,1,Alabama SOS historical legislative archive
+HC-EF4707DF5696D7C157A8,1986,senate,1,D,Bobby Denton,BOBBY DENTON,23136.0,1,2,Alabama SOS historical legislative archive
+HC-061D41C8DE4E19C8560F,1986,senate,2,D,Jim Smith,JAMES SMITH,20166.0,1,3,Alabama SOS historical legislative archive
+HC-F0C13EE2D877922FA245,1986,senate,3,D,Ray Campbell,RAY CAMPBELL,25411.0,1,2,Alabama SOS historical legislative archive
+HC-22A64184253AF00822D5,1986,senate,4,D,Bill Drinkard,WILLIAM DRINKARD,44468.0,1,3,Alabama SOS historical legislative archive
+HC-17D630D3CB941C2366C7,1986,senate,5,D,Charles Bishop,CHARLES BISHOP,21011.0,1,3,Alabama SOS historical legislative archive
+HC-35C3F4200A3254739483,1986,senate,5,R,Charles Stalfort,CHARLES STALFORT,9722.0,0,3,Alabama SOS historical legislative archive
+HC-55E486B2D95CD1B835CF,1986,senate,6,D,Rober Bedford,ROBER BEDFORD,24400.0,1,5,Alabama SOS historical legislative archive
+HC-FEFAE3F135C22ADD2E86,1986,senate,6,R,Herb Hollingsworth,HERB HOLLINGSWORTH,11039.0,0,5,Alabama SOS historical legislative archive
+HC-0039DC62B3432710557C,1986,senate,7,D,Bill G. Smith,WILLIAM G SMITH,18821.0,1,1,Alabama SOS historical legislative archive
+HC-C57A75AEFE181CF7DD2D,1986,senate,7,R,Annie M. Wells,ANNIE M WELLS,11240.0,0,1,Alabama SOS historical legislative archive
+HC-F3BDFD8168692CB654CC,1986,senate,8,D,Lowell Barron,LOWELL BARRON,17582.0,1,3,Alabama SOS historical legislative archive
+HC-1C65ABE98B434FBFCF3A,1986,senate,9,D,Loyd Coleman,LOYD COLEMAN,15382.0,1,3,Alabama SOS historical legislative archive
+HC-568B9D4A0DE57A9097AC,1986,senate,10,D,Bill Drinkard,WILLIAM DRINKARD,22234.0,1,2,Alabama SOS historical legislative archive
+HC-02E7D8C083E6FFB51879,1986,senate,11,D,Jim Preuitt,JAMES PREUITT,18594.0,1,3,Alabama SOS historical legislative archive
+HC-6D2971120819CA1CEE44,1986,senate,11,R,Curtis Lambert,CURTIS LAMBERT,10740.0,0,3,Alabama SOS historical legislative archive
+HC-417BD7D966CCBAB1BCC0,1986,senate,12,D,Donald Holmes,DONALD HOLMES,20030.0,1,1,Alabama SOS historical legislative archive
+HC-5FB2385C6E45730870C1,1986,senate,13,D,Gerald Dial,GERALD DIAL,14949.0,0,4,Alabama SOS historical legislative archive
+HC-AAE0804F4EFBC32D4B5E,1986,senate,13,D,"Ryan deGraffenried, Jr.",RYAN DEGRAFFENRIED,46202.0,1,3,Alabama SOS historical legislative archive
+HC-8A9786A186D1E656D660,1986,senate,14,D,Frank Butch Ellis,FRANK BUTCH ELLIS,24414.0,1,3,Alabama SOS historical legislative archive
+HC-9E969B8738D7C23AE9D0,1986,senate,15,D,Hank Sanders,HANK SANDERS,2766.0,1,2,Alabama SOS historical legislative archive
+HC-95613E2D9931E1FE4099,1986,senate,16,D,Robert Hood,ROBERT HOOD,6959.0,0,1,Alabama SOS historical legislative archive
+HC-F5631FEEB4FA5DA6BD03,1986,senate,16,R,"William Cabaniss, Jr.",WILLIAM CABANISS,41834.0,1,1,Alabama SOS historical legislative archive
+HC-563A1E551C40B371445B,1986,senate,17,D,Mac Parsons,MAC PARSONS,24119.0,1,1,Alabama SOS historical legislative archive
+HC-21A809D97C561E0A0DA0,1986,senate,18,D,Earl Goodwin,EARL GOODWIN,5994.0,1,2,Alabama SOS historical legislative archive
+HC-7DD071AE684F823C9303,1986,senate,19,D,Jim Bennett,JAMES BENNETT,27507.0,1,1,Alabama SOS historical legislative archive
+HC-4973106E1DF5056EF98D,1986,senate,20,D,Earl Hilliard,EARL HILLIARD,27032.0,0,1,Alabama SOS historical legislative archive
+HC-3CB2BA268677C78E213A,1986,senate,20,R,Larry Dixon,LARRY DIXON,33459.0,1,1,Alabama SOS historical legislative archive
+HC-4EBDED57571A34FCE9EA,1986,senate,21,D,"Ryan deGraffenried, Jr.",RYAN DEGRAFFENRIED,23101.0,1,2,Alabama SOS historical legislative archive
+HC-BDA5F4C8B58E76CEDB9C,1986,senate,22,D,Rick Manley,RICK MANLEY,22682.0,1,6,Alabama SOS historical legislative archive
+HC-EAD9F629F4ED02BFC50A,1986,senate,23,D,Hank Sanders,HANK SANDERS,24685.0,1,8,Alabama SOS historical legislative archive
+HC-332E1964C6D017035A27,1986,senate,24,D,Earl Goodwin,EARL GOODWIN,20119.0,1,4,Alabama SOS historical legislative archive
+HC-E5A2C2E646FDF73AC951,1986,senate,24,R,Cordy Taylor,CORDY TAYLOR,15858.0,0,4,Alabama SOS historical legislative archive
+HC-3C7DA033105FEA6E8220,1986,senate,25,D,Jas. Chernau,JAS CHERNAU,10494.0,0,1,Alabama SOS historical legislative archive
+HC-98B7BD16ECA2D5BAE0EF,1986,senate,25,R,Larry Dixon,LARRY DIXON,33459.0,1,1,Alabama SOS historical legislative archive
+HC-4432383120C9F93284E7,1986,senate,26,D,Charles Langford,CHARLES LANGFORD,23272.0,0,2,Alabama SOS historical legislative archive
+HC-A4B3930434568445CD57,1986,senate,26,R,Perry Hand,PERRY HAND,23889.0,1,2,Alabama SOS historical legislative archive
+HC-8B15B0CDDEB919CD0F90,1986,senate,27,D,John Rice,JOHN RICE,16345.0,0,2,Alabama SOS historical legislative archive
+HC-4899B4998BA646685F93,1986,senate,27,D,Michael Figures,MICHAEL FIGURES,18808.0,1,1,Alabama SOS historical legislative archive
+HC-1987E29EC1AC4CADDF2C,1986,senate,29,D,Chip Bailey,CHIP BAILEY,22973.0,1,3,Alabama SOS historical legislative archive
+HC-B7B06A1EB8F313290D2C,1986,senate,30,D,J. Foy Covington,J FOY COVINGTON,15778.0,1,4,Alabama SOS historical legislative archive
+HC-C7BBB827D98F1470DC6C,1986,senate,31,D,E.C.Crum Foshee,EC CRUM FOSHEE,14868.0,1,3,Alabama SOS historical legislative archive
+HC-B3F41061C87FAF0873A1,1986,senate,32,D,Robert I. Gulledge,ROBERT I GULLEDGE,14518.0,0,2,Alabama SOS historical legislative archive
+HC-504872796A0F781458C6,1986,senate,32,R,Perry Hand,PERRY HAND,23889.0,1,2,Alabama SOS historical legislative archive
+HC-4FB17B29D60D99C13374,1986,senate,33,D,Michael Figures,MICHAEL FIGURES,18808.0,1,1,Alabama SOS historical legislative archive
+HC-73C6CE9BDC0390574ECB,1986,senate,34,D,J. Thomas Sandusky,J THOMAS SANDUSKY,11705.0,0,1,Alabama SOS historical legislative archive
+HC-FCFF0781EA9186A719BA,1986,senate,34,R,Ann Bedsole,ANN BEDSOLE,24379.0,1,1,Alabama SOS historical legislative archive
+HC-8B8BB92F098653065DC0,1986,senate,35,D,Bill Menton,WILLIAM MENTON,15284.0,1,1,Alabama SOS historical legislative archive
+HC-7759AF65CA6624869627,1990,house,1,D,"Nelson Starkey, Jr.",NELSON STARKEY,7095.0,1,1,Alabama SOS historical legislative archive
+HC-EFCA7F7B8D3F7C1A8FEA,1990,house,2,D,Marcel Black,MARCEL BLACK,6496.0,1,1,Alabama SOS historical legislative archive
+HC-99D5D477397E529AFBC8,1990,house,3,D,J.W. Goodwin,JW GOODWIN,6597.0,1,2,Alabama SOS historical legislative archive
+HC-601F769574A7A39FD3B4,1990,house,3,R,"Houston Cobb, Jr.",HOUSTON COBB,2639.0,0,2,Alabama SOS historical legislative archive
+HC-3AEE8DC475110BE90CC4,1990,house,4,D,James Hamilton,JAMES HAMILTON,6893.0,1,2,Alabama SOS historical legislative archive
+HC-2CE7AB453946AB78F705,1990,house,5,D,Tommy Carter,TOMMY CARTER,8780.0,1,1,Alabama SOS historical legislative archive
+HC-D2FFF16BF7AB774B991E,1990,house,6,D,Tom Butler,THOMAS BUTLER,8767.0,1,1,Alabama SOS historical legislative archive
+HC-3180942A3ACF40911502,1990,house,6,R,Gregory Wayne,GREGORY WAYNE,6656.0,0,1,Alabama SOS historical legislative archive
+HC-F6F09F4288C0DC746D8D,1990,house,7,D,Sam Letson,SAMUEL LETSON,6435.0,1,2,Alabama SOS historical legislative archive
+HC-C8C9D907FD3F75D1C485,1990,house,8,D,Morris Anderson,MORRIS ANDERSON,7257.0,1,1,Alabama SOS historical legislative archive
+HC-54543BFC1ECC476C0B41,1990,house,9,D,Paul Parker,PAUL PARKER,7633.0,1,1,Alabama SOS historical legislative archive
+HC-73E27197CD50267071BC,1990,house,9,R,Billy Buckelew,BILLY BUCKELEW,4846.0,0,1,Alabama SOS historical legislative archive
+HC-5569530AD8500974C62F,1990,house,10,D,Morris Brooks,MORRIS BROOKS,10246.0,1,1,Alabama SOS historical legislative archive
+HC-E632F3005C9CFB5B816F,1990,house,11,D,Tom Drake,THOMAS DRAKE,7221.0,1,2,Alabama SOS historical legislative archive
+HC-D890F211488EAA30BC3C,1990,house,11,R,J.L. Below,JL BELOW,4388.0,0,2,Alabama SOS historical legislative archive
+HC-86E781936C53F67D2661,1990,house,12,D,W.C. Bill Bowling,WC BILL BOWLING,7436.0,1,1,Alabama SOS historical legislative archive
+HC-4524857DAE26F21679F9,1990,house,12,R,Robert Hearin,ROBERT HEARIN,6585.0,0,1,Alabama SOS historical legislative archive
+HC-52D286B8C838A7441525,1990,house,13,D,Tom Hogan,THOMAS HOGAN,9019.0,1,1,Alabama SOS historical legislative archive
+HC-AA40383482B08A7265BE,1990,house,13,R,James Brooks,JAMES BROOKS,2277.0,0,1,Alabama SOS historical legislative archive
+HC-27A6E9DBC8D440B3CF52,1990,house,14,D,Johnny Cagle,JOHNNY CAGLE,8690.0,1,2,Alabama SOS historical legislative archive
+HC-679279D8942BB1502AF3,1990,house,15,D,Allen Layson,ALLEN LAYSON,9252.0,1,2,Alabama SOS historical legislative archive
+HC-AC324FFFD4C694B62679,1990,house,16,D,Max Newman,MAX NEWMAN,9006.0,1,3,Alabama SOS historical legislative archive
+HC-E389191EBE021542E846,1990,house,16,R,Orman Wilson,ORMAN WILSON,4250.0,0,3,Alabama SOS historical legislative archive
+HC-C862B927EABDBDBC5327,1990,house,17,D,Mike Millican,MICHAEL MILLICAN,7912.0,1,2,Alabama SOS historical legislative archive
+HC-6DE59541CD0AA3CA6021,1990,house,17,R,Robert Aderholt,ROBERT ADERHOLT,7346.0,0,2,Alabama SOS historical legislative archive
+HC-6CD284FC5CC25DD3013A,1990,house,18,D,Johnny Mack Morrow,JOHNNY MACK MORROW,7630.0,1,2,Alabama SOS historical legislative archive
+HC-C0CD184BC39AE33B3659,1990,house,18,R,Larry Lowrance,LARRY LOWRANCE,3967.0,0,2,Alabama SOS historical legislative archive
+HC-B7AA4B644BA5DB127417,1990,house,19,D,George Grayson,GEORGE GRAYSON,7104.0,1,1,Alabama SOS historical legislative archive
+HC-8F0F28BDEFFD2C89175F,1990,house,20,R,Howard Sanderford,HOWARD SANDERFORD,9632.0,1,1,Alabama SOS historical legislative archive
+HC-F839C29BA1C2A3965B64,1990,house,21,D,Dewayne Freeman,DEWAYNE FREEMAN,5622.0,1,1,Alabama SOS historical legislative archive
+HC-63D5007C716E9B3F6A1B,1990,house,21,R,Randy Hinshaw,RANDY HINSHAW,4843.0,0,1,Alabama SOS historical legislative archive
+HC-85D3CF8800E8DB915F8F,1990,house,22,D,Albert Hall,ALBERT HALL,7549.0,1,2,Alabama SOS historical legislative archive
+HC-356BAA3333645FCC0FB6,1990,house,23,D,Ben Richardson,BEN RICHARDSON,4227.0,1,1,Alabama SOS historical legislative archive
+HC-33A1E26FDF325D50AB98,1990,house,24,D,Ralph Burke,RALPH BURKE,6334.0,1,1,Alabama SOS historical legislative archive
+HC-ABF9C60450B4DF5B1478,1990,house,24,R,Ricky Harcrow,RICKY HARCROW,5856.0,0,1,Alabama SOS historical legislative archive
+HC-AC8DEFA0C45AC93E84D3,1990,house,25,D,Gordon Ray Moon,GORDON RAY MOON,5353.0,0,1,Alabama SOS historical legislative archive
+HC-3BB269316A121A98BD87,1990,house,25,R,Rich Kerry,RICH KERRY,5585.0,1,1,Alabama SOS historical legislative archive
+HC-B9A9126F3A1B51C128FE,1990,house,26,D,W.F. Frank McDaniel,WF FRANK MCDANIEL,6073.0,1,2,Alabama SOS historical legislative archive
+HC-0AF09F800A43417D28FC,1990,house,27,D,Bob Harvey,ROBERT HARVEY,6543.0,1,1,Alabama SOS historical legislative archive
+HC-0DDE98037AB9F69E5C6B,1990,house,27,R,Elwyn Thomas,ELWYN THOMAS,5916.0,0,1,Alabama SOS historical legislative archive
+HC-82BB6900F583C3339C67,1990,house,28,D,Joe Ford,JOE FORD,5938.0,1,1,Alabama SOS historical legislative archive
+HC-36D68B425D652174FD57,1990,house,28,R,H.M. Freeman,HM FREEMAN,4329.0,0,1,Alabama SOS historical legislative archive
+HC-3B6EAC2D9AA582A258BD,1990,house,29,D,June Bugg,JUNE BUGG,5860.0,1,1,Alabama SOS historical legislative archive
+HC-65FD89528ECF1739FAAE,1990,house,29,R,Ferrell Cornutt,FERRELL CORNUTT,3101.0,0,1,Alabama SOS historical legislative archive
+HC-147DD60C20E286025EA3,1990,house,30,D,"John Colvin, Jr.",JOHN COLVIN,6364.0,0,2,Alabama SOS historical legislative archive
+HC-D8257B6F320085EEAB01,1990,house,30,R,Roy Smith,ROY SMITH,7003.0,1,2,Alabama SOS historical legislative archive
+HC-BABD394CD7B9A9411807,1990,house,31,D,Jack Venable,JACK VENABLE,8872.0,1,2,Alabama SOS historical legislative archive
+HC-1AB111D66642FEA61DA2,1990,house,32,D,Clarence Haynes,CLARENCE HAYNES,6002.0,1,1,Alabama SOS historical legislative archive
+HC-7496398B61ED75D319C9,1990,house,32,R,Bobby Nabors,BOBBY NABORS,2552.0,0,1,Alabama SOS historical legislative archive
+HC-75BD3D1E0876D5699405,1990,house,33,D,Ron Johnson,RONALD JOHNSON,6068.0,1,1,Alabama SOS historical legislative archive
+HC-4C6E423D75558BC2E28F,1990,house,33,R,Howard Hattaway,HOWARD HATTAWAY,3497.0,0,1,Alabama SOS historical legislative archive
+HC-CAF35170E16C06773FE7,1990,house,34,D,Gerald Willis,GERALD WILLIS,6290.0,1,1,Alabama SOS historical legislative archive
+HC-21B70B0D17F234F40EE9,1990,house,35,D,Bobby Crow,BOBBY CROW,5057.0,1,1,Alabama SOS historical legislative archive
+HC-E2ED9FD07D867A000975,1990,house,35,R,Mike Rogers,MICHAEL ROGERS,4770.0,0,1,Alabama SOS historical legislative archive
+HC-F2F7F1555064FB7D4437,1990,house,36,D,James Campbell,JAMES CAMPBELL,5235.0,1,1,Alabama SOS historical legislative archive
+HC-D2302CBD9D0A42F539F3,1990,house,36,R,Mark Sawyer,MARK SAWYER,2931.0,0,1,Alabama SOS historical legislative archive
+HC-8AA56835EC81A27E94BE,1990,house,37,D,Richard Laird,RICHARD LAIRD,6850.0,1,3,Alabama SOS historical legislative archive
+HC-1360F68CB84E63A2B4C6,1990,house,38,D,Bill Fuller,WILLIAM FULLER,5778.0,1,1,Alabama SOS historical legislative archive
+HC-8E34D48EF3093F6FB7B0,1990,house,39,D,Richard Lindsey,RICHARD LINDSEY,6462.0,1,3,Alabama SOS historical legislative archive
+HC-6B0FD478004FBA65BD13,1990,house,40,R,Al Knight,AL KNIGHT,12435.0,1,2,Alabama SOS historical legislative archive
+HC-13F66AF2BAA9FE4847B5,1990,house,41,R,Mike Hill,MICHAEL HILL,11648.0,1,1,Alabama SOS historical legislative archive
+HC-654F5904D5642AF2384A,1990,house,42,D,Hugh Holladay,HUGH HOLLADAY,7567.0,1,1,Alabama SOS historical legislative archive
+HC-2B0D81281E37A288BBBE,1990,house,42,R,Mike Fricker,MICHAEL FRICKER,4837.0,0,1,Alabama SOS historical legislative archive
+HC-066E6671360D2FD31F37,1990,house,43,D,Jack Biddle III,JACK BIDDLE,9648.0,1,1,Alabama SOS historical legislative archive
+HC-3C9242E9B808DED322E8,1990,house,43,R,James Franklin,JAMES FRANKLIN,2006.0,0,1,Alabama SOS historical legislative archive
+HC-79035DB436375E2D966F,1990,house,44,D,Barry W. Clemmons,BARRY W CLEMMONS,3257.0,0,1,Alabama SOS historical legislative archive
+HC-81669E2CDBB247150B88,1990,house,44,R,Arthur Payne,ARTHUR PAYNE,9258.0,1,1,Alabama SOS historical legislative archive
+HC-D16A46CCD117C1638369,1990,house,45,D,Albert Morton,ALBERT MORTON,11856.0,1,1,Alabama SOS historical legislative archive
+HC-06E8AEE01F33E72B2CEA,1990,house,46,R,Jim Carns,JAMES CARNS,14427.0,1,1,Alabama SOS historical legislative archive
+HC-ED3F2A2292D8C2F5E81F,1990,house,47,D,Virginia Volker,VIRGINIA VOLKER,5409.0,0,1,Alabama SOS historical legislative archive
+HC-1AB1F28DDF4665FA62B6,1990,house,47,R,Allen Sanderson,ALLEN SANDERSON,8366.0,1,1,Alabama SOS historical legislative archive
+HC-628F252A2896B8B8F6B5,1990,house,48,D,"John Hawkins, Jr.",JOHN HAWKINS,12417.0,1,1,Alabama SOS historical legislative archive
+HC-2815ADE7BA108DB6E3CB,1990,house,49,D,Jack Pratt,JACK PRATT,5624.0,0,1,Alabama SOS historical legislative archive
+HC-26505B8424D3EBD61FAB,1990,house,49,R,Tony Petelos,TONY PETELOS,6575.0,1,1,Alabama SOS historical legislative archive
+HC-0A68E28F137C12C212C4,1990,house,50,D,John Stewart,JOHN STEWART,6074.0,0,1,Alabama SOS historical legislative archive
+HC-058165257E61FF643E33,1990,house,50,R,Johnny Curry,JOHNNY CURRY,6493.0,1,1,Alabama SOS historical legislative archive
+HC-3E81A110ACA0FCF88F7B,1990,house,51,D,Frank Rogers,FRANK ROGERS,6300.0,1,1,Alabama SOS historical legislative archive
+HC-61E942D4C30D0A0AD1F8,1990,house,51,R,Gary Seale,GARY SEALE,4218.0,0,1,Alabama SOS historical legislative archive
+HC-D899FA7FB6AD50B764A5,1990,house,52,D,John Rogers,JOHN ROGERS,8278.0,1,1,Alabama SOS historical legislative archive
+HC-59BEAF164D48C6CFF428,1990,house,53,D,Demetrius Newton,DEMETRIUS NEWTON,7575.0,1,1,Alabama SOS historical legislative archive
+HC-4E3A82807FBC43BBA35F,1990,house,54,D,George Perdue,GEORGE PERDUE,5979.0,1,1,Alabama SOS historical legislative archive
+HC-CC600CDF42B136B5CA96,1990,house,55,R,Mark Gaines,MARK GAINES,10821.0,1,1,Alabama SOS historical legislative archive
+HC-8105FE48AD5B4E57BBC9,1990,house,56,D,Bobbie G. McDowell,BOBBIE G MCDOWELL,7581.0,1,1,Alabama SOS historical legislative archive
+HC-0EFA7060006DFD676B2B,1990,house,57,D,Edward McClain,EDWARD MCCLAIN,8220.0,1,1,Alabama SOS historical legislative archive
+HC-C1CB93B450BA75638464,1990,house,58,D,David Barnes,DAVID BARNES,5029.0,1,1,Alabama SOS historical legislative archive
+HC-9FE887B22586D1E0B4E6,1990,house,58,R,Ellie Pitts,ELLIE PITTS,2258.0,0,1,Alabama SOS historical legislative archive
+HC-243C54FAC3FCAF3C1950,1990,house,59,D,"Lewis Spratt, Sr.",LEWIS SPRATT,6744.0,1,1,Alabama SOS historical legislative archive
+HC-1BE17BD4DAB6AB134F59,1990,house,59,R,Wm. Washington,WM WASHINGTON,1043.0,0,1,Alabama SOS historical legislative archive
+HC-BF492F7CFB6BACCA5550,1990,house,60,D,Sundra Escott,SUNDRA ESCOTT,9095.0,1,1,Alabama SOS historical legislative archive
+HC-43ECD18C20599048D02D,1990,house,61,D,"Bryant Melton, Jr.",BRYANT MELTON,6329.0,1,1,Alabama SOS historical legislative archive
+HC-E14BCB74252CF23F710A,1990,house,62,D,Phil Poole,PHIL POOLE,9700.0,1,1,Alabama SOS historical legislative archive
+HC-44E1EC8340B214BFA92F,1990,house,63,D,Tim Parker,TIM PARKER,7027.0,1,1,Alabama SOS historical legislative archive
+HC-4FCC48980ADEB6676D92,1990,house,63,R,L.L. McAllister,LL MCALLISTER,3713.0,0,1,Alabama SOS historical legislative archive
+HC-DF91C42FD3FE9C454DA9,1990,house,64,D,Jimmy Warren,JIMMY WARREN,7315.0,1,2,Alabama SOS historical legislative archive
+HC-463A565D969CBB92A2BF,1990,house,65,D,Jeff Dolbare,JEFF DOLBARE,9387.0,1,2,Alabama SOS historical legislative archive
+HC-9913DDFBEB92B4304E89,1990,house,65,R,Willie Nichols,WILLIE NICHOLS,3145.0,0,2,Alabama SOS historical legislative archive
+HC-F4346DB165EFF6A1D987,1990,house,66,D,Blakeney  Harrell,BLAKENEY HARRELL,8439.0,1,3,Alabama SOS historical legislative archive
+HC-00030AFD524957887495,1990,house,67,D,Lucius Black,LUCIUS BLACK,9941.0,1,3,Alabama SOS historical legislative archive
+HC-5338435D90E189912057,1990,house,68,D,"Jenkins Bryant, Jr.",JENKINS BRYANT,7683.0,1,3,Alabama SOS historical legislative archive
+HC-AE483799BB288873F0B2,1990,house,69,D,James Thomas,JAMES THOMAS,8842.0,1,3,Alabama SOS historical legislative archive
+HC-1EAE3C13B6165BB15F2A,1990,house,70,D,"Noopie Cosby, Jr.",NOOPIE COSBY,8124.0,1,1,Alabama SOS historical legislative archive
+HC-D2EB2C66C8976658BCAD,1990,house,71,D,Horace Powell,HORACE POWELL,8498.0,1,2,Alabama SOS historical legislative archive
+HC-98A4E9045361013EA16B,1990,house,71,R,Warren McEachern,WARREN MCEACHERN,3630.0,0,2,Alabama SOS historical legislative archive
+HC-B444E2DFE18394934216,1990,house,72,D,Curtis Smith,CURTIS SMITH,10896.0,1,2,Alabama SOS historical legislative archive
+HC-E7379FFD676991A1D946,1990,house,72,R,Howard Bialas,HOWARD BIALAS,3910.0,0,2,Alabama SOS historical legislative archive
+HC-A8356192248B07A11056,1990,house,73,D,Robert Finley,ROBERT FINLEY,5344.0,0,1,Alabama SOS historical legislative archive
+HC-6483863499371168EF06,1990,house,73,R,"Perry Hooper, Jr.",PERRY HOOPER,11307.0,1,1,Alabama SOS historical legislative archive
+HC-AC5E3A640AF1F88CC01A,1990,house,74,D,Tim Dever,TIM DEVER,3303.0,0,1,Alabama SOS historical legislative archive
+HC-7E8BD5D1881842DDE9B0,1990,house,74,R,Bob McKee,ROBERT MCKEE,10788.0,1,1,Alabama SOS historical legislative archive
+HC-AE4E231FA1A728A7F950,1990,house,75,D,Claud Walker,CLAUD WALKER,9002.0,1,1,Alabama SOS historical legislative archive
+HC-C8805E5C28C424A7D3C2,1990,house,76,D,Betty Thrash,BETTY THRASH,4077.0,0,2,Alabama SOS historical legislative archive
+HC-799ACCE1BA84F1655CFA,1990,house,76,R,Mike Mikell,MICHAEL MIKELL,5687.0,1,2,Alabama SOS historical legislative archive
+HC-D02EBF47EEF5768CC883,1990,house,77,D,John Buskey,JOHN BUSKEY,7459.0,1,1,Alabama SOS historical legislative archive
+HC-333F5D042F278251788E,1990,house,78,D,Alvin Holmes,ALVIN HOLMES,8557.0,1,1,Alabama SOS historical legislative archive
+HC-44FBB3D768A07243B570,1990,house,79,D,Pete Turnham,PETE TURNHAM,5992.0,1,1,Alabama SOS historical legislative archive
+HC-525CDF13499AA35167BB,1990,house,79,R,Martha Harlan,MARTHA HARLAN,3452.0,0,1,Alabama SOS historical legislative archive
+HC-F981291FFDF0048DAB03,1990,house,80,D,J.G. Higginbotham,JG HIGGINBOTHAM,6314.0,1,1,Alabama SOS historical legislative archive
+HC-D7F3134054DF7623774F,1990,house,81,D,James T. Cullins,JAMES T CULLINS,8352.0,1,1,Alabama SOS historical legislative archive
+HC-8A93A3FB52D8567A3B86,1990,house,82,D,George Clay,GEORGE CLAY,8954.0,1,2,Alabama SOS historical legislative archive
+HC-1D84E59140E5D67A6712,1990,house,83,D,Jane Gullatt,JANE GULLATT,4671.0,1,1,Alabama SOS historical legislative archive
+HC-16C4EDE554C6A32E33F0,1990,house,84,D,James Clark,JAMES CLARK,7112.0,1,2,Alabama SOS historical legislative archive
+HC-72F61189A615FFC7ABDC,1990,house,84,R,Leslie Woodham,LESLIE WOODHAM,2499.0,0,2,Alabama SOS historical legislative archive
+HC-A74B53B44C2051035CD0,1990,house,85,D,John Beasley,JOHN BEASLEY,6913.0,1,2,Alabama SOS historical legislative archive
+HC-347C15C08CFB09613528,1990,house,86,D,Joe Carothers,JOE CAROTHERS,8416.0,1,1,Alabama SOS historical legislative archive
+HC-79720F0FD6D6E8FD6F15,1990,house,86,R,Nell Keisling,NELL KEISLING,3475.0,0,1,Alabama SOS historical legislative archive
+HC-3B471282AABBC12109F8,1990,house,87,D,Nathan Mathis,NATHAN MATHIS,7569.0,1,2,Alabama SOS historical legislative archive
+HC-A384DFFC820F1635D6EA,1990,house,87,R,Eric Johnson,ERIC JOHNSON,5573.0,0,2,Alabama SOS historical legislative archive
+HC-4417E2F3440EC243784F,1990,house,88,D,Nolan Williams,NOLAN WILLIAMS,5669.0,1,1,Alabama SOS historical legislative archive
+HC-06AA8542814CEF9E7D77,1990,house,89,D,Steve Flowers,STEVE FLOWERS,7323.0,1,2,Alabama SOS historical legislative archive
+HC-E3A28FC444568665FAD3,1990,house,90,D,Charles Newton,CHARLES NEWTON,9224.0,1,2,Alabama SOS historical legislative archive
+HC-DC7864EE1E6FDFE7AD5A,1990,house,90,R,Jack Pollard,JACK POLLARD,1696.0,0,2,Alabama SOS historical legislative archive
+HC-E1055DB374B11C8A65EC,1990,house,91,D,Jimmy Holley,JIMMY HOLLEY,7157.0,1,1,Alabama SOS historical legislative archive
+HC-45B02C22A0224B5343FD,1990,house,92,D,Seth Hammett,SETH HAMMETT,8025.0,1,1,Alabama SOS historical legislative archive
+HC-31077BC1E306D80B1C22,1990,house,93,D,Frank White,FRANK WHITE,5736.0,1,1,Alabama SOS historical legislative archive
+HC-E85B0083703D08095464,1990,house,93,R,Danny Joyner,DANNY JOYNER,2216.0,0,1,Alabama SOS historical legislative archive
+HC-1778C096B705B50EFFC4,1990,house,94,D,Verlee Young,VERLEE YOUNG,6271.0,0,1,Alabama SOS historical legislative archive
+HC-68B68F734FFEF3D6B3E1,1990,house,94,R,"Walter Penry, Jr.",WALTER PENRY,9672.0,1,1,Alabama SOS historical legislative archive
+HC-A8D7085E3626EAC062DA,1990,house,95,D,Harry Shiver,HARRY SHIVER,5855.0,0,1,Alabama SOS historical legislative archive
+HC-C0E5D2D0BE34C314AF23,1990,house,95,R,Steve McMillan,STEVE MCMILLAN,6328.0,1,1,Alabama SOS historical legislative archive
+HC-07AA807A7D01FFC41246,1990,house,96,D,Mike Box,MICHAEL BOX,6560.0,1,1,Alabama SOS historical legislative archive
+HC-1C7D544EECE45158C3E2,1990,house,96,R,John Gartman,JOHN GARTMAN,3829.0,0,1,Alabama SOS historical legislative archive
+HC-70A5E6637B14B2B5106A,1990,house,97,D,Mary Zoghby,MARY ZOGHBY,6333.0,1,1,Alabama SOS historical legislative archive
+HC-133D64C3EF460DAC95FF,1990,house,98,D,William Clark,WILLIAM CLARK,5085.0,1,1,Alabama SOS historical legislative archive
+HC-095FEC8458EF084056A4,1990,house,99,D,James Buskey,JAMES BUSKEY,6738.0,1,1,Alabama SOS historical legislative archive
+HC-4393FBA55360E7F50ADF,1990,house,100,R,Victor Gaston,VICTOR GASTON,8320.0,1,1,Alabama SOS historical legislative archive
+HC-35AC310C70A61DEF07FA,1990,house,101,R,Ken Kvalheim,KEN KVALHEIM,7682.0,1,1,Alabama SOS historical legislative archive
+HC-5D2CDDBD1BCB586723BA,1990,house,102,D,Ken Megginson,KEN MEGGINSON,3922.0,0,1,Alabama SOS historical legislative archive
+HC-1D25E3FFEFDE3860CC4B,1990,house,102,R,J.E. Turner,JE TURNER,7201.0,1,1,Alabama SOS historical legislative archive
+HC-FD0D09744D5F21B440CF,1990,house,103,D,Yvonne Kennedy,YVONNE KENNEDY,4988.0,1,1,Alabama SOS historical legislative archive
+HC-497A66741BCA7F408E45,1990,house,104,D,Lois Rockhold,LOIS ROCKHOLD,5987.0,1,1,Alabama SOS historical legislative archive
+HC-7C66B364F5297F7943EF,1990,house,105,D,Taylor Harper,TAYLOR HARPER,4971.0,1,1,Alabama SOS historical legislative archive
+HC-1F113D167454EF4D92B7,1990,house,105,R,"Wm. Pope, Sr.",WM POPE,3598.0,0,1,Alabama SOS historical legislative archive
+HC-026B5C494B3A2BBAD1E3,1990,senate,1,D,Bobby Denton,BOBBY DENTON,21169.0,1,2,Alabama SOS historical legislative archive
+HC-58C2C1486CBC39F56660,1990,senate,2,D,Jim Smith,JAMES SMITH,23444.0,1,3,Alabama SOS historical legislative archive
+HC-5A2E89B08C2191C54C1B,1990,senate,2,R,Jim Manley,JAMES MANLEY,12982.0,0,3,Alabama SOS historical legislative archive
+HC-94ED296F0F3A97C99FCD,1990,senate,3,D,Ray Campbell,RAY CAMPBELL,20573.0,1,2,Alabama SOS historical legislative archive
+HC-2D46C87EB18CF6B6233E,1990,senate,3,R,Terry Smith,TERRY SMITH,11610.0,0,2,Alabama SOS historical legislative archive
+HC-C9A32493FE2982AC7CE3,1990,senate,4,R,Don Hale,DON HALE,21903.0,1,3,Alabama SOS historical legislative archive
+HC-E4794F5F76797A23E786,1990,senate,5,D,"Robt. Wilson, Jr.",ROBT WILSON,23413.0,1,3,Alabama SOS historical legislative archive
+HC-5027708A1623E3DC7089,1990,senate,5,R,Eddie Key,EDDIE KEY,11452.0,0,3,Alabama SOS historical legislative archive
+HC-107587DE0122C6CC3D8D,1990,senate,6,D,Geo. Bolling,GEO BOLLING,27281.0,1,5,Alabama SOS historical legislative archive
+HC-3DDDB7B60790C4996443,1990,senate,6,R,Rebecca Green,REBECCA GREEN,11167.0,0,5,Alabama SOS historical legislative archive
+HC-7733955448F06945B833,1990,senate,7,D,Bill Smith,WILLIAM SMITH,21219.0,1,1,Alabama SOS historical legislative archive
+HC-8B43AA5EA4036062399F,1990,senate,7,R,Elbert Peters,ELBERT PETERS,12419.0,0,1,Alabama SOS historical legislative archive
+HC-F2F2A1E4D81CB7D4E3BA,1990,senate,8,D,Lowell Barron,LOWELL BARRON,20618.0,1,3,Alabama SOS historical legislative archive
+HC-2B31CF70088F44B87D50,1990,senate,9,D,Hinton Mitchem,HINTON MITCHEM,19081.0,1,3,Alabama SOS historical legislative archive
+HC-641115C2D9EDD15DC6C7,1990,senate,10,D,Jack Floyd,JACK FLOYD,17338.0,1,2,Alabama SOS historical legislative archive
+HC-F8E32CD6393FC391B6CB,1990,senate,10,R,Chas. B. Boman,CHAS B BOMAN,15516.0,0,2,Alabama SOS historical legislative archive
+HC-11537C4082C14525CFE8,1990,senate,11,D,Jim Pruitt,JAMES PRUITT,21091.0,1,3,Alabama SOS historical legislative archive
+HC-792D5595A1AFBF714923,1990,senate,12,D,Doug Ghee,DOUG GHEE,17033.0,1,1,Alabama SOS historical legislative archive
+HC-8F8E4B657DE5B4C3F266,1990,senate,12,R,Mike James,MICHAEL JAMES,10731.0,0,1,Alabama SOS historical legislative archive
+HC-C86EC362F787C21D5572,1990,senate,13,D,Gerald Dial,GERALD DIAL,19096.0,1,6,Alabama SOS historical legislative archive
+HC-2B5A8D49B87E75B1EE9D,1990,senate,14,D,Sonny Moore,SONNY MOORE,13625.0,0,3,Alabama SOS historical legislative archive
+HC-B36A3E2BCF511A27A128,1990,senate,14,R,"Frank Ellis, Jr.",FRANK ELLIS,30254.0,1,3,Alabama SOS historical legislative archive
+HC-3D44677B27F87B54452A,1990,senate,15,D,Charlie Waldrep,CHARLIE WALDREP,16406.0,0,1,Alabama SOS historical legislative archive
+HC-873D81BA490CE3809B3B,1990,senate,15,R,John Amari,JOHN AMARI,24567.0,1,1,Alabama SOS historical legislative archive
+HC-93B1AEC82EE10A6483C0,1990,senate,16,R,J.T. Jabo Waggoner,JT JABO WAGGONER,37860.0,1,1,Alabama SOS historical legislative archive
+HC-7E5080ACEC8D69F1FC4E,1990,senate,17,D,Mac Parsons,MAC PARSONS,22374.0,1,1,Alabama SOS historical legislative archive
+HC-8DFFFD45BE5DEA813515,1990,senate,17,R,Glenn Wadsworth,GLENN WADSWORTH,12709.0,0,1,Alabama SOS historical legislative archive
+HC-EEF1C0D94AE20CB84EDA,1990,senate,18,D,Fred Horn,FRED HORN,21959.0,1,1,Alabama SOS historical legislative archive
+HC-7836D302C077D87757F3,1990,senate,19,D,Jim Bennett,JAMES BENNETT,24231.0,1,1,Alabama SOS historical legislative archive
+HC-7BF94592FB0AED15E5AB,1990,senate,20,D,Earl Hilliard,EARL HILLIARD,22189.0,1,1,Alabama SOS historical legislative archive
+HC-3F56F00607E7CFF9A985,1990,senate,21,D,Ryan deGraffenried,RYAN DEGRAFFENRIED,24445.0,1,2,Alabama SOS historical legislative archive
+HC-59BFDE1BF185ECEABE55,1990,senate,22,D,W.H. (Pat) Lindsey,WH PAT LINDSEY,23273.0,1,6,Alabama SOS historical legislative archive
+HC-BB3C48E95BEEBF23BF4D,1990,senate,23,D,Hank Sanders,HANK SANDERS,24303.0,1,8,Alabama SOS historical legislative archive
+HC-44D1651E129910CB6E10,1990,senate,23,R,Walt Williams,WALT WILLIAMS,10420.0,0,8,Alabama SOS historical legislative archive
+HC-1BC365078B56EA660124,1990,senate,24,D,Walter Owens,WALTER OWENS,26468.0,1,4,Alabama SOS historical legislative archive
+HC-C9CCD73CE5DC2CFE53C0,1990,senate,24,R,Pat Owens,PAT OWENS,9307.0,0,4,Alabama SOS historical legislative archive
+HC-03FC79E66F695C258EB5,1990,senate,25,R,Larry Dixon,LARRY DIXON,27158.0,1,1,Alabama SOS historical legislative archive
+HC-A5AC8BECEBE6102678B8,1990,senate,26,D,Charles Langford,CHARLES LANGFORD,21438.0,1,2,Alabama SOS historical legislative archive
+HC-72BB54213EE1251ADE3C,1990,senate,27,D,Ted Little,TED LITTLE,23332.0,1,2,Alabama SOS historical legislative archive
+HC-720389785F054505FB13,1990,senate,27,R,Marrell McNeal,MARRELL MCNEAL,8258.0,0,2,Alabama SOS historical legislative archive
+HC-9A723F6B974625181A1D,1990,senate,28,D,Danny Corbett,DANNY CORBETT,19046.0,1,4,Alabama SOS historical legislative archive
+HC-B5124243E995C7BA5AA2,1990,senate,28,R,Randolph Hall,RANDOLPH HALL,7131.0,0,4,Alabama SOS historical legislative archive
+HC-DF1771D428C8A7936263,1990,senate,29,D,Chip Bailey,CHIP BAILEY,23073.0,1,3,Alabama SOS historical legislative archive
+HC-74A02FD9702DE91891F3,1990,senate,29,R,MiMi Page,MIMI PAGE,11539.0,0,3,Alabama SOS historical legislative archive
+HC-038EF6BA7ED11D445443,1990,senate,30,D,"Wendell ""Walking"" Mitchell",WENDELL WALKING MITCHELL,19757.0,1,4,Alabama SOS historical legislative archive
+HC-014D8FFC1E35D8B980BD,1990,senate,30,R,Doni Ingram,DONI INGRAM,10397.0,0,4,Alabama SOS historical legislative archive
+HC-7CC81E6D9C8024F13F9C,1990,senate,31,D,E.C. Crum Foshee,EC CRUM FOSHEE,16936.0,1,3,Alabama SOS historical legislative archive
+HC-1DA301BD7A72AA1CB935,1990,senate,31,R,J.T. Raley,JT RALEY,12329.0,0,3,Alabama SOS historical legislative archive
+HC-1E9DC3BD3A7B4BCDBEC8,1990,senate,32,D,Lyle Underwood,LYLE UNDERWOOD,17387.0,0,2,Alabama SOS historical legislative archive
+HC-F825E94AED9C4CFE7AA8,1990,senate,32,R,Albert Lipscomb,ALBERT LIPSCOMB,20468.0,1,2,Alabama SOS historical legislative archive
+HC-9C5C1B8F244E40FD5CA8,1990,senate,33,D,Michael Figures,MICHAEL FIGURES,16220.0,1,1,Alabama SOS historical legislative archive
+HC-7B2FBFCAB786DD29B65F,1990,senate,33,R,Michael Bridges,MICHAEL BRIDGES,5744.0,0,1,Alabama SOS historical legislative archive
+HC-FF8A2F606088D694DF57,1990,senate,34,R,Ann Bedsole,ANN BEDSOLE,23146.0,1,1,Alabama SOS historical legislative archive
+HC-ECE9D79A4E55E4E97F05,1990,senate,35,D,Steve Windom,STEVE WINDOM,16663.0,1,1,Alabama SOS historical legislative archive
+HC-A3FEF341E469E155365C,1990,senate,35,R,Jerry Lathan,JERRY LATHAN,9225.0,0,1,Alabama SOS historical legislative archive

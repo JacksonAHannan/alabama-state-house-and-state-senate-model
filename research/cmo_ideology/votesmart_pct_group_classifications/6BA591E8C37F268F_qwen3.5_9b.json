@@ -1,0 +1,11 @@
+{
+  "policy_key": "welfare_savings_eligibility",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Allowing welfare recipients to save for education or a home is generally viewed as progressive because it expands asset-building opportunities and reduces poverty traps.",
+  "evidence_quote": "g) Allow welfare recipients to remain eligible for benefits while saving money for education, starting a business, or buying a home.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

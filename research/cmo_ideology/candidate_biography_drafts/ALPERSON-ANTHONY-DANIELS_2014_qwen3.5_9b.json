@@ -1,0 +1,38 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "Anthony Daniels ran for the Alabama House District 53 seat in the November 2014 election. He won with a two-party vote margin of approximately +55.7 points, defeating Republican Christian Horn who received 22.2 percent of the vote. The district was approximately 70 percent nonwhite. Daniels held pre-election roles including chairing the NEA Student Program and serving on the Alabama Education Association state board, establishing an education-labor identity. He later demonstrated a progressive record on issues such as Medicaid expansion and abortion.",
+  "offices_and_public_service": [
+    "Chair of NEA Student Program",
+    "Chair of Huntsville Education Association legislative committee",
+    "Member of Alabama Education Association state board"
+  ],
+  "profession_and_employment": [],
+  "education": [],
+  "community_and_local_ties": [
+    "Huntsville (implied by role in Huntsville Education Association)",
+    "Alabama Retail Association PAC endorsement recipient",
+    "Member of Black-majority coalition"
+  ],
+  "political_profile": [
+    "Democratic candidate for Alabama House District 53, 2014 election",
+    "Won with a two-party vote margin of approximately +55.7 points in HD-53 (approx. 70% nonwhite district)",
+    "Later record broadly progressive on Medicaid expansion and abortion"
+  ],
+  "important_caveats": [
+    "No contemporaneous platform or issue interview evidence recovered for the November 2014 election.",
+    "Pre-election education-association roles documented retrospectively in a later source."
+  ],
+  "source_urls_used": [
+    "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/2014/2014GeneralResults-WithoutWriteIn.pdf",
+    "https://birminghamwatch.org/2022/05/18/christian-horn-republican-secretary-of-state/",
+    "https://alabamaretail.org/news/initial-2014-endorsements/",
+    "https://blackburninstitute.sa.ua.edu/wp-content/uploads/sites/17/2018/01/Full-Packet-jsh.pdf"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://alabamaretail.org/news/initial-2014-endorsements/",
+    "https://birminghamwatch.org/2022/05/18/christian-horn-republican-secretary-of-state/",
+    "https://blackburninstitute.sa.ua.edu/wp-content/uploads/sites/17/2018/01/Full-Packet-jsh.pdf",
+    "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/2014/2014GeneralResults-WithoutWriteIn.pdf"
+  ]
+}

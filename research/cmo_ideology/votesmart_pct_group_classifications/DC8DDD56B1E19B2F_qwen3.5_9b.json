@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_environment_climate_regulations",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting environmental regulations to reduce climate change effects is conventionally a progressive stance.",
+  "evidence_quote": "Do you support enacting environmental regulations aimed at reducing the effects of climate change?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

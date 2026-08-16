@@ -1,0 +1,13 @@
+session_year,act_link_status,rows,unique_rollcalls,count_valid,analytical_eligible
+1998,no_act_match,88,88,88,0
+1998,unique_act_match,119,119,119,119
+1999,no_act_match,806,806,804,0
+2001,no_act_match,1373,1373,1373,0
+2002,no_act_match,1058,1058,1058,0
+2003,no_act_match,1444,1444,1440,0
+2004,no_act_match,1520,1520,1520,0
+2005,no_act_match,821,821,820,0
+2006,no_act_match,1451,1451,1451,0
+2007,no_act_match,901,901,901,0
+2008,no_act_match,919,919,917,0
+2009,no_act_match,1380,1380,1374,0

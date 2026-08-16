@@ -1,0 +1,11 @@
+{
+  "policy_key": "relax_federal_logging_restrictions",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Relaxing logging restrictions on federal lands is conventionally considered a progressive policy position as it aligns with environmental conservation and reduced industrial exploitation of public resources.",
+  "evidence_quote": "d) Relax logging restrictions on federal lands.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

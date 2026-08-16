@@ -1,0 +1,508 @@
+person_id,candidate,election_cycle,issue,activity_timing,sponsorship_role,bill_count,weighted_priority,enacted_count,source_count
+ALPERSON-ALAN-HARPER,Alan Harper,2010,abortion,post_election,cosponsor,1,0.009615384615384616,0,1
+ALPERSON-ALAN-HARPER,Alan Harper,2010,business_economic_development,post_election,cosponsor,1,0.0625,0,1
+ALPERSON-ALAN-HARPER,Alan Harper,2010,business_economic_development,post_election,joint_sponsor,6,1.9507326007326007,0,6
+ALPERSON-ALAN-HARPER,Alan Harper,2010,criminal_justice,post_election,cosponsor,8,0.11808803941156881,0,8
+ALPERSON-ALAN-HARPER,Alan Harper,2010,criminal_justice,post_election,joint_sponsor,3,1.0473790322580645,2,3
+ALPERSON-ALAN-HARPER,Alan Harper,2010,criminal_justice,post_election,primary_sponsor,1,1.0,0,1
+ALPERSON-ALAN-HARPER,Alan Harper,2010,criminal_justice,pre_or_during_election,joint_sponsor,7,1.992039627039627,5,7
+ALPERSON-ALAN-HARPER,Alan Harper,2010,environment,post_election,cosponsor,1,0.011904761904761904,1,1
+ALPERSON-ALAN-HARPER,Alan Harper,2010,environment,post_election,joint_sponsor,1,0.05,1,1
+ALPERSON-ALAN-HARPER,Alan Harper,2010,environment,pre_or_during_election,joint_sponsor,2,0.12072649572649571,1,2
+ALPERSON-ALAN-HARPER,Alan Harper,2010,ethics_government,post_election,joint_sponsor,3,0.15000000000000002,0,3
+ALPERSON-ALAN-HARPER,Alan Harper,2010,gambling,post_election,primary_sponsor,2,2.0,0,2
+ALPERSON-ALAN-HARPER,Alan Harper,2010,guns,post_election,cosponsor,1,0.011363636363636364,0,1
+ALPERSON-ALAN-HARPER,Alan Harper,2010,guns,post_election,joint_sponsor,2,1.0196078431372548,1,2
+ALPERSON-ALAN-HARPER,Alan Harper,2010,guns,post_election,primary_sponsor,1,1.0,0,1
+ALPERSON-ALAN-HARPER,Alan Harper,2010,health_social_services,post_election,cosponsor,3,0.027888257575757577,0,3
+ALPERSON-ALAN-HARPER,Alan Harper,2010,health_social_services,pre_or_during_election,joint_sponsor,2,0.5454545454545454,0,2
+ALPERSON-ALAN-HARPER,Alan Harper,2010,healthcare_medicaid,post_election,cosponsor,2,0.03333333333333333,0,2
+ALPERSON-ALAN-HARPER,Alan Harper,2010,healthcare_medicaid,post_election,joint_sponsor,1,0.0196078431372549,0,1
+ALPERSON-ALAN-HARPER,Alan Harper,2010,infrastructure_energy,post_election,cosponsor,5,0.08931966726084373,3,5
+ALPERSON-ALAN-HARPER,Alan Harper,2010,infrastructure_energy,post_election,joint_sponsor,1,0.009523809523809525,0,1
+ALPERSON-ALAN-HARPER,Alan Harper,2010,infrastructure_energy,pre_or_during_election,joint_sponsor,3,0.13034188034188032,2,3
+ALPERSON-ALAN-HARPER,Alan Harper,2010,public_education,post_election,cosponsor,8,0.27304256204778565,5,8
+ALPERSON-ALAN-HARPER,Alan Harper,2010,public_education,post_election,joint_sponsor,5,0.33197152310055533,4,5
+ALPERSON-ALAN-HARPER,Alan Harper,2010,public_education,pre_or_during_election,joint_sponsor,10,0.4594645550527903,9,10
+ALPERSON-ALAN-HARPER,Alan Harper,2010,public_private_partnerships,pre_or_during_election,joint_sponsor,1,0.047619047619047616,1,1
+ALPERSON-ALAN-HARPER,Alan Harper,2010,rural_hunting,post_election,cosponsor,2,0.017223910840932118,1,2
+ALPERSON-ALAN-HARPER,Alan Harper,2010,rural_hunting,pre_or_during_election,joint_sponsor,2,0.0754985754985755,0,2
+ALPERSON-ALAN-HARPER,Alan Harper,2010,taxes_budget,post_election,cosponsor,7,0.23245310245310247,3,7
+ALPERSON-ALAN-HARPER,Alan Harper,2010,taxes_budget,post_election,joint_sponsor,7,0.7104707349388201,0,7
+ALPERSON-ALAN-HARPER,Alan Harper,2010,taxes_budget,post_election,primary_sponsor,2,2.0,2,2
+ALPERSON-ALAN-HARPER,Alan Harper,2010,taxes_budget,pre_or_during_election,joint_sponsor,7,1.1948309626881055,1,7
+ALPERSON-ALAN-HARPER,Alan Harper,2010,unclassified,post_election,cosponsor,99,2.270977204864434,59,99
+ALPERSON-ALAN-HARPER,Alan Harper,2010,unclassified,post_election,joint_sponsor,120,11.597013731529678,92,120
+ALPERSON-ALAN-HARPER,Alan Harper,2010,unclassified,post_election,primary_sponsor,16,16.0,11,16
+ALPERSON-ALAN-HARPER,Alan Harper,2010,unclassified,pre_or_during_election,joint_sponsor,247,7.867385450521112,234,247
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,abortion,post_election,primary_sponsor,2,2.0,0,2
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,business_economic_development,post_election,primary_sponsor,1,1.0,1,1
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,criminal_justice,post_election,cosponsor,5,0.2835714285714286,2,5
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,criminal_justice,post_election,primary_sponsor,1,1.0,1,1
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,healthcare_medicaid,post_election,cosponsor,2,0.025657894736842105,0,2
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,healthcare_medicaid,post_election,primary_sponsor,3,3.0,0,3
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,public_education,post_election,cosponsor,2,0.005,2,2
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,rural_hunting,post_election,primary_sponsor,1,1.0,0,1
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,taxes_budget,post_election,cosponsor,4,0.059687019969278034,1,4
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,taxes_budget,post_election,primary_sponsor,16,16.0,5,16
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,unclassified,post_election,cosponsor,38,1.5096080634753164,26,38
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,unclassified,post_election,primary_sponsor,70,70.0,54,70
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,criminal_justice,post_election,cosponsor,5,0.06968253968253968,2,5
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,criminal_justice,post_election,primary_sponsor,5,5.0,0,5
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,guns,post_election,primary_sponsor,6,6.0,0,6
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,healthcare_medicaid,post_election,cosponsor,2,0.025657894736842105,0,2
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,healthcare_medicaid,post_election,primary_sponsor,1,1.0,0,1
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,minimum_wage_worker_pay,post_election,cosponsor,1,0.03125,0,1
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,public_education,post_election,cosponsor,2,0.005,2,2
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,public_education,post_election,primary_sponsor,3,3.0,0,3
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,public_employee_benefits,post_election,primary_sponsor,1,1.0,0,1
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,racial_civil_rights,post_election,cosponsor,1,0.027777777777777776,0,1
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,taxes_budget,post_election,cosponsor,5,0.07340495054841405,1,5
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,taxes_budget,post_election,primary_sponsor,8,8.0,0,8
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,unclassified,post_election,cosponsor,40,0.9374873564105988,31,40
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,unclassified,post_election,primary_sponsor,60,60.0,46,60
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,business_economic_development,post_election,cosponsor,1,0.03571428571428571,0,1
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,business_economic_development,post_election,joint_sponsor,1,0.015873015873015872,1,1
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,criminal_justice,post_election,cosponsor,5,0.17444444444444443,2,5
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,criminal_justice,post_election,joint_sponsor,4,0.7105734767025089,3,4
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,criminal_justice,post_election,primary_sponsor,4,4.0,2,4
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,criminal_justice,pre_or_during_election,joint_sponsor,4,0.3810439560439561,2,4
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,environment,post_election,joint_sponsor,1,0.02702702702702703,0,1
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,environment,pre_or_during_election,joint_sponsor,1,0.009615384615384616,1,1
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,ethics_government,post_election,joint_sponsor,2,0.1,0,2
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,gambling,post_election,cosponsor,1,0.03571428571428571,0,1
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,guns,post_election,primary_sponsor,2,2.0,0,2
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,health_social_services,post_election,cosponsor,1,0.007575757575757576,0,1
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,healthcare_medicaid,post_election,cosponsor,3,0.0412828947368421,0,3
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,healthcare_medicaid,post_election,joint_sponsor,2,0.15277777777777776,0,2
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,healthcare_medicaid,pre_or_during_election,joint_sponsor,2,0.07407407407407407,0,2
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,infrastructure_energy,post_election,cosponsor,1,0.0024509803921568627,1,1
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,infrastructure_energy,post_election,joint_sponsor,1,0.009523809523809525,0,1
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,infrastructure_energy,post_election,primary_sponsor,1,1.0,1,1
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,infrastructure_energy,pre_or_during_election,joint_sponsor,2,0.019230769230769232,2,2
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,minimum_wage_worker_pay,post_election,cosponsor,2,0.04595588235294118,0,2
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,public_education,post_election,cosponsor,7,0.0497227788499537,4,7
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,public_education,post_election,joint_sponsor,4,1.075652841781874,2,4
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,public_education,post_election,primary_sponsor,1,1.0,0,1
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,public_education,pre_or_during_election,joint_sponsor,12,0.4118455074337427,10,12
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,public_employee_benefits,post_election,cosponsor,1,0.027777777777777776,0,1
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,public_employee_benefits,pre_or_during_election,joint_sponsor,1,0.07142857142857142,0,1
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,racial_civil_rights,post_election,cosponsor,1,0.027777777777777776,0,1
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,racial_civil_rights,post_election,primary_sponsor,1,1.0,0,1
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,rural_hunting,post_election,joint_sponsor,1,0.02857142857142857,1,1
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,school_choice,post_election,joint_sponsor,1,1.0,0,1
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,taxes_budget,post_election,cosponsor,14,0.26670656177997654,2,14
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,taxes_budget,post_election,joint_sponsor,8,1.04004884004884,2,8
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,taxes_budget,post_election,primary_sponsor,8,8.0,3,8
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,taxes_budget,pre_or_during_election,joint_sponsor,12,1.5697078831532614,9,12
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,unclassified,post_election,cosponsor,104,1.945000868301421,66,104
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,unclassified,post_election,joint_sponsor,116,16.56072187713734,90,116
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,unclassified,post_election,primary_sponsor,100,100.0,67,100
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,unclassified,pre_or_during_election,joint_sponsor,246,6.6874376326843,232,246
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,business_economic_development,post_election,cosponsor,3,0.07837301587301587,2,3
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,business_economic_development,post_election,joint_sponsor,6,1.1797979797979798,2,6
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,business_economic_development,post_election,primary_sponsor,2,2.0,1,2
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,criminal_justice,post_election,cosponsor,6,0.1262025012025012,3,6
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,criminal_justice,post_election,joint_sponsor,8,1.5547619047619048,1,8
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,criminal_justice,post_election,primary_sponsor,10,10.0,4,10
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,criminal_justice,pre_or_during_election,joint_sponsor,5,0.9011305361305361,4,5
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,environment,post_election,cosponsor,2,0.07916666666666666,0,2
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,environment,post_election,joint_sponsor,1,0.09090909090909091,0,1
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,environment,post_election,primary_sponsor,2,2.0,0,2
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,environment,pre_or_during_election,joint_sponsor,1,0.009615384615384616,1,1
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,ethics_government,post_election,joint_sponsor,4,0.4583333333333333,0,4
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,gambling,post_election,joint_sponsor,1,0.09090909090909091,0,1
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,gambling,post_election,primary_sponsor,3,3.0,0,3
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,guns,post_election,cosponsor,1,0.0625,0,1
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,guns,post_election,joint_sponsor,2,0.5333333333333333,1,2
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,guns,post_election,primary_sponsor,1,1.0,1,1
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,guns,pre_or_during_election,joint_sponsor,1,1.0,1,1
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,health_social_services,post_election,cosponsor,2,0.06388888888888888,0,2
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,health_social_services,post_election,joint_sponsor,1,0.058823529411764705,0,1
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,health_social_services,post_election,primary_sponsor,2,2.0,1,2
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,health_social_services,pre_or_during_election,joint_sponsor,1,0.045454545454545456,0,1
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,healthcare_medicaid,post_election,cosponsor,4,0.12738095238095237,0,4
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,healthcare_medicaid,post_election,joint_sponsor,6,2.788034188034188,0,6
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,healthcare_medicaid,post_election,primary_sponsor,10,10.0,0,10
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,immigration,post_election,joint_sponsor,1,0.25,0,1
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,infrastructure_energy,post_election,cosponsor,6,0.045008912655971484,6,6
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,infrastructure_energy,post_election,joint_sponsor,4,1.5571428571428572,3,4
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,infrastructure_energy,post_election,primary_sponsor,12,12.0,11,12
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,infrastructure_energy,pre_or_during_election,joint_sponsor,5,1.5747863247863247,4,5
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,labor_unions,post_election,primary_sponsor,1,1.0,0,1
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,public_education,post_election,cosponsor,9,0.09724371927882364,8,9
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,public_education,post_election,joint_sponsor,7,0.30952380952380953,5,7
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,public_education,post_election,primary_sponsor,8,8.0,6,8
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,public_education,pre_or_during_election,joint_sponsor,9,0.4006410256410256,9,9
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,public_employee_benefits,post_election,joint_sponsor,1,0.08333333333333333,0,1
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,public_employee_benefits,post_election,primary_sponsor,1,1.0,0,1
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,racial_civil_rights,post_election,cosponsor,2,0.014928698752228164,2,2
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,rural_hunting,post_election,cosponsor,6,0.15894886363636362,3,6
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,rural_hunting,post_election,joint_sponsor,2,1.0909090909090908,0,2
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,rural_hunting,post_election,primary_sponsor,4,4.0,2,4
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,taxes_budget,post_election,cosponsor,20,0.5663079602977301,12,20
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,taxes_budget,post_election,joint_sponsor,27,5.909133439024743,7,27
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,taxes_budget,post_election,primary_sponsor,33,33.0,17,33
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,taxes_budget,pre_or_during_election,joint_sponsor,3,1.3537414965986394,0,3
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,unclassified,post_election,cosponsor,177,3.067802104351194,132,177
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,unclassified,post_election,joint_sponsor,124,16.875087466526086,64,124
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,unclassified,post_election,primary_sponsor,113,113.0,70,113
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,unclassified,pre_or_during_election,joint_sponsor,245,13.312792542772865,234,245
+ALPERSON-CRAIG-FORD,Craig Ford,2014,abortion,pre_or_during_election,joint_sponsor,1,0.16666666666666666,0,1
+ALPERSON-CRAIG-FORD,Craig Ford,2014,business_economic_development,pre_or_during_election,joint_sponsor,3,1.0396825396825398,1,3
+ALPERSON-CRAIG-FORD,Craig Ford,2014,criminal_justice,post_election,primary_sponsor,3,3.0,0,3
+ALPERSON-CRAIG-FORD,Craig Ford,2014,criminal_justice,pre_or_during_election,joint_sponsor,5,1.0277972027972027,3,5
+ALPERSON-CRAIG-FORD,Craig Ford,2014,criminal_justice,pre_or_during_election,primary_sponsor,3,3.0,1,3
+ALPERSON-CRAIG-FORD,Craig Ford,2014,environment,post_election,primary_sponsor,1,1.0,0,1
+ALPERSON-CRAIG-FORD,Craig Ford,2014,environment,pre_or_during_election,joint_sponsor,4,1.0896153846153847,2,4
+ALPERSON-CRAIG-FORD,Craig Ford,2014,ethics_government,pre_or_during_election,joint_sponsor,3,2.05,0,3
+ALPERSON-CRAIG-FORD,Craig Ford,2014,gambling,post_election,primary_sponsor,10,10.0,0,10
+ALPERSON-CRAIG-FORD,Craig Ford,2014,gambling,pre_or_during_election,primary_sponsor,2,2.0,0,2
+ALPERSON-CRAIG-FORD,Craig Ford,2014,guns,pre_or_during_election,joint_sponsor,4,3.083333333333333,0,4
+ALPERSON-CRAIG-FORD,Craig Ford,2014,guns,pre_or_during_election,primary_sponsor,2,2.0,0,2
+ALPERSON-CRAIG-FORD,Craig Ford,2014,health_social_services,post_election,primary_sponsor,1,1.0,0,1
+ALPERSON-CRAIG-FORD,Craig Ford,2014,health_social_services,pre_or_during_election,cosponsor,1,0.007575757575757576,0,1
+ALPERSON-CRAIG-FORD,Craig Ford,2014,health_social_services,pre_or_during_election,joint_sponsor,1,0.045454545454545456,0,1
+ALPERSON-CRAIG-FORD,Craig Ford,2014,healthcare_medicaid,post_election,primary_sponsor,2,2.0,0,2
+ALPERSON-CRAIG-FORD,Craig Ford,2014,healthcare_medicaid,pre_or_during_election,cosponsor,1,0.008928571428571428,0,1
+ALPERSON-CRAIG-FORD,Craig Ford,2014,healthcare_medicaid,pre_or_during_election,joint_sponsor,1,0.02564102564102564,0,1
+ALPERSON-CRAIG-FORD,Craig Ford,2014,immigration,pre_or_during_election,joint_sponsor,2,0.36036036036036034,1,2
+ALPERSON-CRAIG-FORD,Craig Ford,2014,infrastructure_energy,post_election,primary_sponsor,1,1.0,0,1
+ALPERSON-CRAIG-FORD,Craig Ford,2014,infrastructure_energy,pre_or_during_election,cosponsor,2,0.01911764705882353,1,2
+ALPERSON-CRAIG-FORD,Craig Ford,2014,infrastructure_energy,pre_or_during_election,joint_sponsor,6,1.5843101343101342,3,6
+ALPERSON-CRAIG-FORD,Craig Ford,2014,labor_unions,post_election,primary_sponsor,1,1.0,0,1
+ALPERSON-CRAIG-FORD,Craig Ford,2014,lgbtq_cultural,post_election,primary_sponsor,1,1.0,0,1
+ALPERSON-CRAIG-FORD,Craig Ford,2014,public_education,post_election,primary_sponsor,9,9.0,3,9
+ALPERSON-CRAIG-FORD,Craig Ford,2014,public_education,pre_or_during_election,cosponsor,5,0.0708216799488548,2,5
+ALPERSON-CRAIG-FORD,Craig Ford,2014,public_education,pre_or_during_election,joint_sponsor,15,3.976831501831502,9,15
+ALPERSON-CRAIG-FORD,Craig Ford,2014,public_education,pre_or_during_election,primary_sponsor,1,1.0,0,1
+ALPERSON-CRAIG-FORD,Craig Ford,2014,public_employee_benefits,post_election,primary_sponsor,3,3.0,0,3
+ALPERSON-CRAIG-FORD,Craig Ford,2014,public_employee_benefits,pre_or_during_election,cosponsor,1,0.027777777777777776,0,1
+ALPERSON-CRAIG-FORD,Craig Ford,2014,public_employee_benefits,pre_or_during_election,primary_sponsor,1,1.0,0,1
+ALPERSON-CRAIG-FORD,Craig Ford,2014,racial_civil_rights,post_election,primary_sponsor,1,1.0,0,1
+ALPERSON-CRAIG-FORD,Craig Ford,2014,rural_hunting,pre_or_during_election,joint_sponsor,4,2.5285714285714285,4,4
+ALPERSON-CRAIG-FORD,Craig Ford,2014,taxes_budget,post_election,primary_sponsor,10,10.0,3,10
+ALPERSON-CRAIG-FORD,Craig Ford,2014,taxes_budget,pre_or_during_election,cosponsor,3,0.05863095238095238,0,3
+ALPERSON-CRAIG-FORD,Craig Ford,2014,taxes_budget,pre_or_during_election,joint_sponsor,16,7.016117216117216,4,16
+ALPERSON-CRAIG-FORD,Craig Ford,2014,taxes_budget,pre_or_during_election,primary_sponsor,3,3.0,0,3
+ALPERSON-CRAIG-FORD,Craig Ford,2014,unclassified,post_election,primary_sponsor,165,165.0,147,165
+ALPERSON-CRAIG-FORD,Craig Ford,2014,unclassified,pre_or_during_election,cosponsor,61,0.2917294161984862,44,61
+ALPERSON-CRAIG-FORD,Craig Ford,2014,unclassified,pre_or_during_election,joint_sponsor,627,287.57517144780695,575,627
+ALPERSON-CRAIG-FORD,Craig Ford,2014,unclassified,pre_or_during_election,primary_sponsor,81,81.0,66,81
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,criminal_justice,post_election,primary_sponsor,1,1.0,0,1
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,infrastructure_energy,post_election,primary_sponsor,1,1.0,0,1
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,taxes_budget,post_election,primary_sponsor,3,3.0,1,3
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,unclassified,post_election,primary_sponsor,6,6.0,1,6
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,criminal_justice,pre_or_during_election,joint_sponsor,6,0.2487062937062937,3,6
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,environment,pre_or_during_election,joint_sponsor,3,0.08961538461538462,1,3
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,immigration,pre_or_during_election,joint_sponsor,2,0.0502828409805154,0,2
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,infrastructure_energy,pre_or_during_election,joint_sponsor,3,0.07805429864253394,2,3
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,public_education,pre_or_during_election,joint_sponsor,8,0.17841880341880342,7,8
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,taxes_budget,pre_or_during_election,joint_sponsor,3,0.4125650260104042,1,3
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,unclassified,pre_or_during_election,joint_sponsor,272,12.612382233017895,259,272
+ALPERSON-JAMES-C-FIELDS-JR,James C. Fields Jr.,2010,business_economic_development,pre_or_during_election,joint_sponsor,1,0.3333333333333333,1,1
+ALPERSON-JAMES-C-FIELDS-JR,James C. Fields Jr.,2010,criminal_justice,pre_or_during_election,joint_sponsor,6,1.067797202797203,2,6
+ALPERSON-JAMES-C-FIELDS-JR,James C. Fields Jr.,2010,environment,pre_or_during_election,joint_sponsor,1,0.009615384615384616,1,1
+ALPERSON-JAMES-C-FIELDS-JR,James C. Fields Jr.,2010,health_social_services,pre_or_during_election,joint_sponsor,1,0.045454545454545456,0,1
+ALPERSON-JAMES-C-FIELDS-JR,James C. Fields Jr.,2010,healthcare_medicaid,pre_or_during_election,joint_sponsor,3,0.4074074074074074,0,3
+ALPERSON-JAMES-C-FIELDS-JR,James C. Fields Jr.,2010,immigration,pre_or_during_election,joint_sponsor,1,0.02702702702702703,0,1
+ALPERSON-JAMES-C-FIELDS-JR,James C. Fields Jr.,2010,infrastructure_energy,pre_or_during_election,joint_sponsor,2,0.019230769230769232,2,2
+ALPERSON-JAMES-C-FIELDS-JR,James C. Fields Jr.,2010,public_education,pre_or_during_election,joint_sponsor,12,0.4118455074337427,10,12
+ALPERSON-JAMES-C-FIELDS-JR,James C. Fields Jr.,2010,public_employee_benefits,pre_or_during_election,joint_sponsor,1,0.07142857142857142,0,1
+ALPERSON-JAMES-C-FIELDS-JR,James C. Fields Jr.,2010,public_private_partnerships,pre_or_during_election,joint_sponsor,1,0.047619047619047616,1,1
+ALPERSON-JAMES-C-FIELDS-JR,James C. Fields Jr.,2010,rural_hunting,pre_or_during_election,joint_sponsor,2,0.0754985754985755,0,2
+ALPERSON-JAMES-C-FIELDS-JR,James C. Fields Jr.,2010,taxes_budget,pre_or_during_election,joint_sponsor,13,1.347641061086439,10,13
+ALPERSON-JAMES-C-FIELDS-JR,James C. Fields Jr.,2010,unclassified,pre_or_during_election,joint_sponsor,239,4.200837776525621,225,239
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,criminal_justice,pre_or_during_election,joint_sponsor,5,0.9444638694638694,2,5
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,environment,pre_or_during_election,joint_sponsor,6,1.172948717948718,2,6
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,ethics_government,pre_or_during_election,joint_sponsor,2,1.125,0,2
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,infrastructure_energy,pre_or_during_election,joint_sponsor,3,0.07805429864253394,2,3
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,public_education,pre_or_during_election,joint_sponsor,7,0.06730769230769232,7,7
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,rural_hunting,pre_or_during_election,joint_sponsor,3,0.5754985754985755,0,3
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,taxes_budget,pre_or_during_election,joint_sponsor,3,1.0870748299319728,1,3
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,unclassified,pre_or_during_election,joint_sponsor,268,13.552914445903049,252,268
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,business_economic_development,post_election,cosponsor,4,0.1466503267973856,1,4
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,business_economic_development,post_election,joint_sponsor,1,0.2,0,1
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,criminal_justice,post_election,cosponsor,13,0.4731571669071669,4,13
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,criminal_justice,post_election,joint_sponsor,8,2.0214285714285714,0,8
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,criminal_justice,post_election,primary_sponsor,3,3.0,0,3
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,environment,post_election,cosponsor,2,0.04791666666666666,0,2
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,environment,post_election,joint_sponsor,1,0.09090909090909091,0,1
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,ethics_government,post_election,cosponsor,1,0.03571428571428571,1,1
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,ethics_government,post_election,joint_sponsor,6,1.0833333333333333,0,6
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,guns,post_election,cosponsor,3,0.09643665158371041,0,3
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,guns,post_election,joint_sponsor,1,0.2,0,1
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,health_social_services,post_election,cosponsor,5,0.08313492063492063,2,5
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,health_social_services,post_election,joint_sponsor,2,0.22549019607843135,0,2
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,health_social_services,post_election,primary_sponsor,1,1.0,0,1
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,healthcare_medicaid,post_election,cosponsor,1,0.03571428571428571,0,1
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,healthcare_medicaid,post_election,joint_sponsor,2,0.2,0,2
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,infrastructure_energy,post_election,cosponsor,4,0.05800865800865801,3,4
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,infrastructure_energy,post_election,joint_sponsor,3,0.30714285714285716,3,3
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,labor_unions,post_election,cosponsor,1,0.022727272727272728,0,1
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,minimum_wage_worker_pay,post_election,joint_sponsor,1,0.08333333333333333,0,1
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,public_education,post_election,cosponsor,3,0.08908371040723982,0,3
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,public_education,post_election,joint_sponsor,13,1.792857142857143,5,13
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,public_education,post_election,primary_sponsor,2,2.0,0,2
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,public_employee_benefits,post_election,joint_sponsor,3,0.5333333333333333,0,3
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,racial_civil_rights,post_election,cosponsor,2,0.014928698752228164,2,2
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,rural_hunting,post_election,cosponsor,2,0.0393939393939394,0,2
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,rural_hunting,post_election,joint_sponsor,1,0.09090909090909091,0,1
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,school_choice,post_election,cosponsor,1,0.027777777777777776,1,1
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,taxes_budget,post_election,cosponsor,18,0.706073403188173,4,18
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,taxes_budget,post_election,joint_sponsor,24,5.602946570337875,8,24
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,taxes_budget,post_election,primary_sponsor,2,2.0,0,2
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,unclassified,post_election,cosponsor,105,2.9015447980811757,55,105
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,unclassified,post_election,joint_sponsor,117,13.512507474054788,66,117
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,unclassified,post_election,primary_sponsor,23,23.0,7,23
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,criminal_justice,pre_or_during_election,joint_sponsor,3,0.0677972027972028,2,3
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,environment,pre_or_during_election,joint_sponsor,3,0.08961538461538462,1,3
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,immigration,pre_or_during_election,joint_sponsor,1,0.02702702702702703,0,1
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,infrastructure_energy,pre_or_during_election,joint_sponsor,4,0.5780542986425339,3,4
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,public_education,pre_or_during_election,joint_sponsor,12,0.4641330891330891,10,12
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,public_employee_benefits,pre_or_during_election,joint_sponsor,1,0.07142857142857142,0,1
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,taxes_budget,pre_or_during_election,joint_sponsor,9,0.5799642934096716,8,9
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,unclassified,pre_or_during_election,joint_sponsor,258,5.8226164880102145,247,258
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,abortion,pre_or_during_election,joint_sponsor,1,0.16666666666666666,0,1
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,business_economic_development,pre_or_during_election,joint_sponsor,2,1.0238095238095237,1,2
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,business_economic_development,pre_or_during_election,primary_sponsor,4,4.0,2,4
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,criminal_justice,pre_or_during_election,joint_sponsor,12,1.8653479853479853,2,12
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,criminal_justice,pre_or_during_election,primary_sponsor,2,2.0,0,2
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,environment,pre_or_during_election,cosponsor,1,0.010416666666666666,1,1
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,environment,pre_or_during_election,joint_sponsor,2,0.05506993006993007,1,2
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,environment,pre_or_during_election,primary_sponsor,1,1.0,0,1
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,ethics_government,pre_or_during_election,joint_sponsor,1,0.05,0,1
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,ethics_government,pre_or_during_election,primary_sponsor,1,1.0,0,1
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,guns,pre_or_during_election,joint_sponsor,2,0.175,1,2
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,guns,pre_or_during_election,primary_sponsor,1,1.0,0,1
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,health_social_services,pre_or_during_election,cosponsor,1,0.007575757575757576,0,1
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,health_social_services,pre_or_during_election,primary_sponsor,1,1.0,0,1
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,healthcare_medicaid,pre_or_during_election,cosponsor,1,0.008928571428571428,0,1
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,healthcare_medicaid,pre_or_during_election,joint_sponsor,1,0.14285714285714285,0,1
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,healthcare_medicaid,pre_or_during_election,primary_sponsor,2,2.0,2,2
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,immigration,pre_or_during_election,joint_sponsor,1,0.02702702702702703,0,1
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,infrastructure_energy,pre_or_during_election,cosponsor,3,0.05522875816993464,3,3
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,infrastructure_energy,pre_or_during_election,joint_sponsor,6,0.36389389764002766,3,6
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,infrastructure_energy,pre_or_during_election,primary_sponsor,3,3.0,3,3
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,public_education,pre_or_during_election,cosponsor,4,0.013427177432401067,2,4
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,public_education,pre_or_during_election,joint_sponsor,14,0.8598974554856907,13,14
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,public_education,pre_or_during_election,primary_sponsor,1,1.0,0,1
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,public_employee_benefits,pre_or_during_election,joint_sponsor,1,0.09090909090909091,1,1
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,public_employee_benefits,pre_or_during_election,primary_sponsor,1,1.0,0,1
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,rural_hunting,pre_or_during_election,joint_sponsor,5,1.1303857935436883,2,5
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,rural_hunting,pre_or_during_election,primary_sponsor,3,3.0,1,3
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,taxes_budget,pre_or_during_election,cosponsor,3,0.027311738648947953,1,3
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,taxes_budget,pre_or_during_election,joint_sponsor,15,3.442228300696562,3,15
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,taxes_budget,pre_or_during_election,primary_sponsor,3,3.0,1,3
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,unclassified,pre_or_during_election,cosponsor,68,0.4533385063091205,44,68
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,unclassified,pre_or_during_election,joint_sponsor,387,40.26882403242533,343,387
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,unclassified,pre_or_during_election,primary_sponsor,108,108.0,87,108
+ALPERSON-LARRY-MEANS,Larry Means,2014,abortion,pre_or_during_election,joint_sponsor,1,1.0,0,1
+ALPERSON-LARRY-MEANS,Larry Means,2014,assisted_dying,pre_or_during_election,joint_sponsor,1,0.1111111111111111,0,1
+ALPERSON-LARRY-MEANS,Larry Means,2014,business_economic_development,pre_or_during_election,joint_sponsor,1,0.02857142857142857,1,1
+ALPERSON-LARRY-MEANS,Larry Means,2014,criminal_justice,pre_or_during_election,joint_sponsor,3,1.1037037037037036,0,3
+ALPERSON-LARRY-MEANS,Larry Means,2014,environment,pre_or_during_election,joint_sponsor,1,1.0,0,1
+ALPERSON-LARRY-MEANS,Larry Means,2014,ethics_government,pre_or_during_election,joint_sponsor,1,1.0,0,1
+ALPERSON-LARRY-MEANS,Larry Means,2014,health_social_services,pre_or_during_election,joint_sponsor,2,0.10833333333333334,1,2
+ALPERSON-LARRY-MEANS,Larry Means,2014,healthcare_medicaid,pre_or_during_election,joint_sponsor,2,1.1111111111111112,0,2
+ALPERSON-LARRY-MEANS,Larry Means,2014,infrastructure_energy,pre_or_during_election,joint_sponsor,3,0.12380952380952381,3,3
+ALPERSON-LARRY-MEANS,Larry Means,2014,public_education,pre_or_during_election,joint_sponsor,5,1.1482142857142856,3,5
+ALPERSON-LARRY-MEANS,Larry Means,2014,racial_civil_rights,pre_or_during_election,joint_sponsor,1,0.07692307692307693,0,1
+ALPERSON-LARRY-MEANS,Larry Means,2014,rural_hunting,pre_or_during_election,joint_sponsor,2,1.0714285714285714,0,2
+ALPERSON-LARRY-MEANS,Larry Means,2014,taxes_budget,pre_or_during_election,joint_sponsor,11,4.527716727716728,5,11
+ALPERSON-LARRY-MEANS,Larry Means,2014,unclassified,pre_or_during_election,joint_sponsor,77,20.055941145198112,51,77
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,assisted_dying,pre_or_during_election,joint_sponsor,1,0.1111111111111111,0,1
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,business_economic_development,post_election,joint_sponsor,3,0.9444444444444444,2,3
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,business_economic_development,post_election,primary_sponsor,1,1.0,0,1
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,business_economic_development,pre_or_during_election,joint_sponsor,1,0.02857142857142857,1,1
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,criminal_justice,post_election,cosponsor,4,0.08555796055796056,2,4
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,criminal_justice,post_election,joint_sponsor,6,2.6666666666666665,0,6
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,criminal_justice,post_election,primary_sponsor,2,2.0,0,2
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,criminal_justice,pre_or_during_election,joint_sponsor,2,1.037037037037037,0,2
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,environment,post_election,joint_sponsor,1,0.2,0,1
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,environment,post_election,primary_sponsor,2,2.0,0,2
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,ethics_government,post_election,joint_sponsor,8,3.158333333333333,0,8
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,ethics_government,pre_or_during_election,joint_sponsor,1,0.07142857142857142,0,1
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,gambling,pre_or_during_election,joint_sponsor,1,1.0,0,1
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,guns,post_election,cosponsor,1,0.125,0,1
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,guns,post_election,joint_sponsor,1,0.2,0,1
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,guns,pre_or_during_election,joint_sponsor,1,1.0,1,1
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,health_social_services,post_election,joint_sponsor,2,0.14215686274509803,0,2
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,health_social_services,pre_or_during_election,joint_sponsor,2,0.10833333333333334,1,2
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,healthcare_medicaid,post_election,cosponsor,3,0.09166666666666667,0,3
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,healthcare_medicaid,post_election,joint_sponsor,3,0.3111111111111111,0,3
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,healthcare_medicaid,pre_or_during_election,joint_sponsor,1,0.1111111111111111,0,1
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,infrastructure_energy,post_election,cosponsor,3,0.03300865800865801,3,3
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,infrastructure_energy,post_election,joint_sponsor,4,0.2588235294117647,2,4
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,infrastructure_energy,post_election,primary_sponsor,1,1.0,0,1
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,infrastructure_energy,pre_or_during_election,joint_sponsor,4,0.19047619047619047,3,4
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,minimum_wage_worker_pay,post_election,joint_sponsor,1,0.08333333333333333,0,1
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,public_education,post_election,cosponsor,2,0.06985294117647059,0,2
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,public_education,post_election,joint_sponsor,8,0.8511904761904762,5,8
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,public_education,post_election,primary_sponsor,2,2.0,1,2
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,public_education,pre_or_during_election,joint_sponsor,6,0.36666666666666664,3,6
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,public_employee_benefits,post_election,joint_sponsor,1,0.08333333333333333,0,1
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,public_employee_benefits,post_election,primary_sponsor,1,1.0,0,1
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,public_private_partnerships,pre_or_during_election,joint_sponsor,1,0.14285714285714285,1,1
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,racial_civil_rights,post_election,cosponsor,2,0.014928698752228164,2,2
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,rural_hunting,post_election,joint_sponsor,2,0.34285714285714286,0,2
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,rural_hunting,post_election,primary_sponsor,1,1.0,0,1
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,rural_hunting,pre_or_during_election,joint_sponsor,2,1.0714285714285714,0,2
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,taxes_budget,post_election,cosponsor,8,0.2844842284739983,1,8
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,taxes_budget,post_election,joint_sponsor,22,3.487823213302753,8,22
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,taxes_budget,post_election,primary_sponsor,3,3.0,0,3
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,taxes_budget,pre_or_during_election,joint_sponsor,10,2.950793650793651,3,10
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,unclassified,post_election,cosponsor,62,0.863253831007314,45,62
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,unclassified,post_election,joint_sponsor,121,26.61650325146354,71,121
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,unclassified,post_election,primary_sponsor,19,19.0,6,19
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,unclassified,pre_or_during_election,joint_sponsor,81,17.598798288055253,55,81
+ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,criminal_justice,post_election,cosponsor,6,0.09240981240981241,2,6
+ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,criminal_justice,post_election,joint_sponsor,2,1.1428571428571428,0,2
+ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,criminal_justice,post_election,primary_sponsor,1,1.0,1,1
+ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,environment,post_election,joint_sponsor,1,0.02702702702702703,0,1
+ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,ethics_government,post_election,joint_sponsor,1,0.07142857142857142,0,1
+ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,health_social_services,post_election,cosponsor,1,0.007575757575757576,0,1
+ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,healthcare_medicaid,post_election,cosponsor,4,0.05021146616541353,0,4
+ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,healthcare_medicaid,post_election,joint_sponsor,1,0.041666666666666664,0,1
+ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,healthcare_medicaid,post_election,primary_sponsor,1,1.0,0,1
+ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,infrastructure_energy,post_election,cosponsor,1,0.0024509803921568627,1,1
+ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,infrastructure_energy,post_election,joint_sponsor,2,0.12063492063492062,0,2
+ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,minimum_wage_worker_pay,post_election,cosponsor,2,0.04595588235294118,0,2
+ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,minimum_wage_worker_pay,post_election,primary_sponsor,5,5.0,0,5
+ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,public_education,post_election,cosponsor,7,0.058162949790124645,5,7
+ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,public_education,post_election,joint_sponsor,7,0.6101766513056835,3,7
+ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,public_education,post_election,primary_sponsor,3,3.0,1,3
+ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,racial_civil_rights,post_election,cosponsor,1,0.027777777777777776,0,1
+ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,rural_hunting,post_election,joint_sponsor,1,0.02857142857142857,1,1
+ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,taxes_budget,post_election,cosponsor,11,0.3993590079001646,2,11
+ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,taxes_budget,post_election,joint_sponsor,7,0.5438186813186813,1,7
+ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,taxes_budget,post_election,primary_sponsor,2,2.0,1,2
+ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,unclassified,post_election,cosponsor,128,2.306822337364546,89,128
+ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,unclassified,post_election,joint_sponsor,103,7.897418429094126,78,103
+ALPERSON-NAPOLEON-BRACY-JR,Napoleon Bracy Jr.,2010,unclassified,post_election,primary_sponsor,52,52.0,37,52
+ALPERSON-NATHANIEL-LEDBETTER,Nathaniel Ledbetter,2010,abortion,post_election,cosponsor,1,0.014705882352941176,1,1
+ALPERSON-NATHANIEL-LEDBETTER,Nathaniel Ledbetter,2010,business_economic_development,post_election,primary_sponsor,2,2.0,0,2
+ALPERSON-NATHANIEL-LEDBETTER,Nathaniel Ledbetter,2010,criminal_justice,post_election,cosponsor,7,0.09748020947509439,4,7
+ALPERSON-NATHANIEL-LEDBETTER,Nathaniel Ledbetter,2010,criminal_justice,post_election,primary_sponsor,3,3.0,2,3
+ALPERSON-NATHANIEL-LEDBETTER,Nathaniel Ledbetter,2010,environment,post_election,primary_sponsor,1,1.0,1,1
+ALPERSON-NATHANIEL-LEDBETTER,Nathaniel Ledbetter,2010,guns,post_election,cosponsor,1,0.03571428571428571,0,1
+ALPERSON-NATHANIEL-LEDBETTER,Nathaniel Ledbetter,2010,guns,post_election,primary_sponsor,1,1.0,1,1
+ALPERSON-NATHANIEL-LEDBETTER,Nathaniel Ledbetter,2010,health_social_services,post_election,cosponsor,1,0.010869565217391304,0,1
+ALPERSON-NATHANIEL-LEDBETTER,Nathaniel Ledbetter,2010,health_social_services,post_election,primary_sponsor,5,5.0,3,5
+ALPERSON-NATHANIEL-LEDBETTER,Nathaniel Ledbetter,2010,healthcare_medicaid,post_election,primary_sponsor,2,2.0,1,2
+ALPERSON-NATHANIEL-LEDBETTER,Nathaniel Ledbetter,2010,infrastructure_energy,post_election,primary_sponsor,4,4.0,3,4
+ALPERSON-NATHANIEL-LEDBETTER,Nathaniel Ledbetter,2010,labor_unions,post_election,cosponsor,1,0.010869565217391304,0,1
+ALPERSON-NATHANIEL-LEDBETTER,Nathaniel Ledbetter,2010,public_education,post_election,cosponsor,3,0.04071428571428571,2,3
+ALPERSON-NATHANIEL-LEDBETTER,Nathaniel Ledbetter,2010,public_education,post_election,primary_sponsor,3,3.0,0,3
+ALPERSON-NATHANIEL-LEDBETTER,Nathaniel Ledbetter,2010,taxes_budget,post_election,cosponsor,2,0.035282258064516125,1,2
+ALPERSON-NATHANIEL-LEDBETTER,Nathaniel Ledbetter,2010,taxes_budget,post_election,primary_sponsor,8,8.0,4,8
+ALPERSON-NATHANIEL-LEDBETTER,Nathaniel Ledbetter,2010,unclassified,post_election,cosponsor,29,0.22918002600054777,23,29
+ALPERSON-NATHANIEL-LEDBETTER,Nathaniel Ledbetter,2010,unclassified,post_election,primary_sponsor,90,90.0,62,90
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,business_economic_development,pre_or_during_election,joint_sponsor,2,1.0238095238095237,0,2
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,criminal_justice,pre_or_during_election,joint_sponsor,3,2.0096153846153846,2,3
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,environment,pre_or_during_election,joint_sponsor,1,0.009615384615384616,1,1
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,ethics_government,pre_or_during_election,cosponsor,1,0.05,0,1
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,guns,pre_or_during_election,primary_sponsor,1,1.0,1,1
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,healthcare_medicaid,pre_or_during_election,cosponsor,1,0.008928571428571428,0,1
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,healthcare_medicaid,pre_or_during_election,joint_sponsor,1,0.2,0,1
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,infrastructure_energy,post_election,primary_sponsor,1,1.0,0,1
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,infrastructure_energy,pre_or_during_election,cosponsor,1,0.0024509803921568627,1,1
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,infrastructure_energy,pre_or_during_election,joint_sponsor,7,4.028754578754579,4,7
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,infrastructure_energy,pre_or_during_election,primary_sponsor,1,1.0,0,1
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,public_education,pre_or_during_election,cosponsor,3,0.00732961645679131,2,3
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,public_education,pre_or_during_election,joint_sponsor,19,6.379212454212454,15,19
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,public_education,pre_or_during_election,primary_sponsor,1,1.0,0,1
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,public_employee_benefits,pre_or_during_election,joint_sponsor,4,3.071428571428571,1,4
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,rural_hunting,pre_or_during_election,joint_sponsor,5,1.3757936507936508,4,5
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,taxes_budget,post_election,primary_sponsor,4,4.0,1,4
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,taxes_budget,pre_or_during_election,cosponsor,1,0.009615384615384616,0,1
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,taxes_budget,pre_or_during_election,joint_sponsor,22,12.811616954474097,9,22
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,taxes_budget,pre_or_during_election,primary_sponsor,2,2.0,0,2
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,unclassified,post_election,primary_sponsor,30,30.0,25,30
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,unclassified,pre_or_during_election,cosponsor,62,0.48352082752999187,44,62
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,unclassified,pre_or_during_election,joint_sponsor,361,58.95312180726583,336,361
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,unclassified,pre_or_during_election,primary_sponsor,6,6.0,5,6
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,business_economic_development,post_election,joint_sponsor,3,1.2555555555555555,0,3
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,criminal_justice,post_election,cosponsor,2,0.04497354497354497,1,2
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,criminal_justice,post_election,joint_sponsor,11,4.271428571428571,2,11
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,criminal_justice,pre_or_during_election,joint_sponsor,6,0.4077972027972028,3,6
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,environment,post_election,cosponsor,2,0.04791666666666666,0,2
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,environment,post_election,joint_sponsor,2,0.2159090909090909,1,2
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,environment,pre_or_during_election,joint_sponsor,3,0.08961538461538462,1,3
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,ethics_government,post_election,joint_sponsor,5,0.5833333333333333,0,5
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,guns,post_election,joint_sponsor,1,0.2,0,1
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,health_social_services,post_election,cosponsor,3,0.08174603174603175,0,3
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,health_social_services,post_election,joint_sponsor,3,2.0588235294117645,0,3
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,healthcare_medicaid,post_election,cosponsor,2,0.05,0,2
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,healthcare_medicaid,post_election,joint_sponsor,3,1.2111111111111112,0,3
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,immigration,pre_or_during_election,joint_sponsor,1,0.02702702702702703,0,1
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,infrastructure_energy,post_election,cosponsor,3,0.14015151515151514,3,3
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,infrastructure_energy,post_election,joint_sponsor,3,0.18214285714285713,3,3
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,infrastructure_energy,post_election,primary_sponsor,2,2.0,2,2
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,infrastructure_energy,pre_or_during_election,joint_sponsor,8,2.3280542986425337,6,8
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,minimum_wage_worker_pay,post_election,joint_sponsor,1,0.08333333333333333,0,1
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,public_education,post_election,cosponsor,3,0.06092436974789916,1,3
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,public_education,post_election,joint_sponsor,8,0.43452380952380953,5,8
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,public_education,pre_or_during_election,joint_sponsor,9,0.5673076923076923,9,9
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,public_employee_benefits,post_election,cosponsor,1,0.041666666666666664,0,1
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,public_employee_benefits,post_election,joint_sponsor,1,0.08333333333333333,0,1
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,racial_civil_rights,post_election,cosponsor,2,0.014928698752228164,2,2
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,rural_hunting,post_election,cosponsor,1,0.016666666666666666,0,1
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,rural_hunting,post_election,joint_sponsor,1,0.09090909090909091,0,1
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,rural_hunting,pre_or_during_election,joint_sponsor,1,1.0,0,1
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,school_choice,post_election,cosponsor,1,0.027777777777777776,1,1
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,taxes_budget,post_election,cosponsor,6,0.11769501278772379,2,6
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,taxes_budget,post_election,joint_sponsor,24,6.425596142987447,7,24
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,taxes_budget,post_election,primary_sponsor,3,3.0,0,3
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,taxes_budget,pre_or_during_election,joint_sponsor,3,0.1347872482326264,1,3
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,unclassified,post_election,cosponsor,76,1.714065044647475,49,76
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,unclassified,post_election,joint_sponsor,124,22.67417476811339,68,124
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,unclassified,post_election,primary_sponsor,9,9.0,4,9
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,unclassified,pre_or_during_election,joint_sponsor,311,49.14148301896334,289,311
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,abortion,post_election,primary_sponsor,5,5.0,0,5
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,business_economic_development,post_election,cosponsor,2,0.050595238095238096,1,2
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,business_economic_development,post_election,joint_sponsor,1,0.05555555555555555,0,1
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,business_economic_development,post_election,primary_sponsor,1,1.0,1,1
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,business_economic_development,pre_or_during_election,joint_sponsor,1,0.02857142857142857,1,1
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,criminal_justice,post_election,cosponsor,7,0.6117424242424242,3,7
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,criminal_justice,post_election,joint_sponsor,3,0.41666666666666663,1,3
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,criminal_justice,post_election,primary_sponsor,12,12.0,4,12
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,criminal_justice,pre_or_during_election,joint_sponsor,3,0.17037037037037037,0,3
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,environment,post_election,cosponsor,1,0.020833333333333332,0,1
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,environment,post_election,joint_sponsor,1,0.09090909090909091,0,1
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,ethics_government,post_election,joint_sponsor,6,0.7833333333333333,0,6
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,guns,pre_or_during_election,joint_sponsor,1,1.0,0,1
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,health_social_services,post_election,joint_sponsor,1,0.058823529411764705,0,1
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,health_social_services,post_election,primary_sponsor,2,2.0,0,2
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,health_social_services,pre_or_during_election,joint_sponsor,1,0.041666666666666664,0,1
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,healthcare_medicaid,post_election,cosponsor,3,0.19166666666666665,0,3
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,healthcare_medicaid,post_election,joint_sponsor,1,0.1,0,1
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,healthcare_medicaid,post_election,primary_sponsor,7,7.0,0,7
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,immigration,post_election,joint_sponsor,1,0.25,0,1
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,infrastructure_energy,post_election,cosponsor,8,0.07021899668958492,7,8
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,infrastructure_energy,post_election,joint_sponsor,2,0.05714285714285714,2,2
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,infrastructure_energy,post_election,primary_sponsor,1,1.0,1,1
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,infrastructure_energy,pre_or_during_election,joint_sponsor,2,0.05714285714285714,2,2
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,labor_unions,post_election,cosponsor,1,0.03571428571428571,0,1
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,minimum_wage_worker_pay,post_election,cosponsor,1,0.08333333333333333,0,1
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,public_education,post_election,cosponsor,12,0.4619415214766258,5,12
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,public_education,post_election,joint_sponsor,8,0.6845238095238095,6,8
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,public_education,post_election,primary_sponsor,5,5.0,2,5
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,public_education,pre_or_during_election,joint_sponsor,6,1.5857142857142859,2,6
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,public_employee_benefits,post_election,cosponsor,1,0.0625,0,1
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,public_employee_benefits,post_election,joint_sponsor,1,0.08333333333333333,0,1
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,public_employee_benefits,post_election,primary_sponsor,1,1.0,0,1
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,racial_civil_rights,post_election,cosponsor,2,0.014928698752228164,2,2
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,racial_civil_rights,pre_or_during_election,joint_sponsor,1,0.07692307692307693,0,1
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,rural_hunting,post_election,cosponsor,2,0.015388257575757576,2,2
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,rural_hunting,post_election,joint_sponsor,1,0.09090909090909091,0,1
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,school_choice,post_election,cosponsor,1,0.027777777777777776,1,1
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,school_choice,pre_or_during_election,joint_sponsor,1,0.16666666666666666,0,1
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,taxes_budget,post_election,cosponsor,12,0.6533963585434174,4,12
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,taxes_budget,post_election,joint_sponsor,22,3.5980167779080823,7,22
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,taxes_budget,post_election,primary_sponsor,19,19.0,3,19
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,taxes_budget,pre_or_during_election,joint_sponsor,7,1.4532069237951593,1,7
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,unclassified,post_election,cosponsor,174,4.177922912120995,135,174
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,unclassified,post_election,joint_sponsor,101,10.234629045294007,59,101
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,unclassified,post_election,primary_sponsor,79,79.0,37,79
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,unclassified,pre_or_during_election,joint_sponsor,78,9.819275952805365,58,78

@@ -1,0 +1,19 @@
+{
+  "primary_issue": "infrastructure_energy",
+  "secondary_issues": [
+    "public_education",
+    "school_choice"
+  ],
+  "plain_english_revision": "**Core Change**: Transfers oversight of construction/renovation for most state colleges and universities from the state\u2019s Division of Construction Management to their governing boards. **Key Additions** (affirmatively advanced by amendment):",
+  "revision_direction": "indeterminate",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "**Policy Effect**: Expands institutional autonomy over campus infrastructure decisions for non-K-12 state institutions, while mandating tornado-safe spaces in new dorm/classroom buildings and requiring electronic document workflows with legislative reporting on K-12 projects.**",
+  "confidence": "high",
+  "evidence_quotes": [
+    "**Autonomy Transfer**: 'Any powers, authority, and jurisdiction granted to the Division of Construction Management... is hereby transferred to the governing board of each institution' (lines 26\u201330, p. 4).",
+    "**Tornado-Safe Spaces**: 'any new contract awarded for construction... shall include an Alabama Building Commission Division of Construction Management approved safe space or hallway rated for tornadoes' (lines 8\u201310, p. 5).",
+    "**Electronic Workflows**: 'The Division of Construction Management shall provide for the electronic submission and signing of documents' (line 23, p. 1)."
+  ],
+  "needs_human_review": false,
+  "review_reason": "Amendment text is self-contained; no external context required."
+}

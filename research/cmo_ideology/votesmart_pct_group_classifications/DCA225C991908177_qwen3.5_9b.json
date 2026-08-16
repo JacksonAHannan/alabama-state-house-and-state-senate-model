@@ -1,0 +1,11 @@
+{
+  "policy_key": "medical_marijuana",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supports legalizing medical marijuana for patients.",
+  "evidence_quote": "Do you support allowing doctors to prescribe marijuana to their patients for medicinal purposes?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

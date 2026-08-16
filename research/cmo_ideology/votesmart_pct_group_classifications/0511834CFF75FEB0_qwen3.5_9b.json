@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_gun_teacher_carry",
+  "dimension": "guns_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Allowing teachers to carry guns in classrooms is generally viewed as a progressive stance on public safety and teacher empowerment.",
+  "evidence_quote": "Should teachers be allowed to bring guns into the classroom?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

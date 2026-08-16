@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_state_testing",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The item asks for support of mandatory state testing in public schools to verify academic standards. This is a procedural or administrative question about school accountability mechanisms rather than an ideological stance on the role of government versus local control (which would be conservative) or expanded federal oversight and equity mandates (which might be progressive). Without additional context linking this specific measure to broader fiscal conservatism, social traditionalism, or liberal expansionism, it lacks a defensible stable direction for classification.",
+  "evidence_quote": "Support mandatory state testing in public schools to see if academic standards are being met",
+  "needs_human_review": true,
+  "review_reason": "The item describes an administrative procedure (testing) rather than a clear ideological preference. Classifying as -1 assumes that 'state' implies conservative centralization, but the prompt could be interpreted by progressives supporting standardized metrics for equity; thus it is nonideological/mixed."
+}

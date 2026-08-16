@@ -1,0 +1,11 @@
+{
+  "policy_key": "tanf_health_childcare_subsidies",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option proposes using federal welfare funds to provide health and childcare support specifically for low-income workers.",
+  "evidence_quote": "Use federal TANF (Temporary Assistance to Needy Families) funds to extend health and child care subsidies to the working poor.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

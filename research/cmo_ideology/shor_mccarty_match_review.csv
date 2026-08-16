@@ -1,0 +1,14 @@
+person_id,candidate,cycle,chamber,district,best_cmo,match_status,match_method,similarity,suggested_source_name,source_party,source_u_id,np_score,np_score_min,np_score_max,al_dem_caucus_conservative_percentile,reference_caucus_n,served_in_chamber_by_election,served_in_chamber_after_election,served_in_either_chamber_by_election,temporal_use,review_note
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,house,7,37.152067339362816,ambiguous_multiple_scores,manual_alias,100.0,Letson,D,AL1996L003 | AL1999L003,-0.1095,-0.13,-0.089,92.10526315789474,38.0,True,False,True,pre_election_service_available,Multiple source rows yield different ideal points; do not use mean inferentially.
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2,27.492379331342505,unmatched,none,65.45454545454547,letson,,,,,,,,,,,,
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,48,24.098850085602905,unmatched,none,60.00000000000001,craig ford,,,,,,,,,,,,
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,26,23.543047828356347,unmatched,none,90.0,burke,,,,,,,,,,,,
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,24,23.220259733713803,unmatched,none,64.0,benefield kim,,,,,,,,,,,,
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,8,22.719643209401934,unmatched,none,67.5,amari,,,,,,,,,,,,
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,house,46,22.34478427253325,unmatched,none,51.85185185185186,french steve,,,,,,,,,,,,
+ALPERSON-NATHANIEL-LEDBETTER,NATHANIEL LEDBETTER,2010,house,24,22.120996946160894,party_mismatch,normalized_exact,100.0,"Ledbetter, Nathaniel",R,AL2015L024,0.949,0.949,0.949,,59.0,False,True,False,post_election_or_other_chamber_only,Source score is from a different party period; exclude from Democratic-caucus inference.
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,26,21.631200749515003,unmatched,none,76.92307692307692,randall shedd,,,,,,,,,,,,
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,8,16.743981777741908,unmatched,none,54.0,adams,,,,,,,,,,,,
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,13,15.46300589679028,unmatched,none,70.0,greg reed,,,,,,,,,,,,
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,house,20,15.120380750211098,unmatched,none,85.5,coleman linda madison,,,,,,,,,,,,
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,senate,2,15.04537943600424,unmatched,none,60.00000000000001,sims,,,,,,,,,,,,

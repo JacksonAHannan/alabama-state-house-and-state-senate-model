@@ -1,0 +1,11 @@
+{
+  "policy_key": "national_education_standards",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting national education standards is generally viewed as a progressive policy option in Alabama politics.",
+  "evidence_quote": "Do you support national education standards?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

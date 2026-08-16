@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_homeland_security_funding",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Federal funding for homeland security is generally viewed as a progressive priority due to its focus on public safety and disaster response.",
+  "evidence_quote": "f) Homeland security",
+  "needs_human_review": true,
+  "review_reason": "The option represents a specific policy category without an inherent ideological direction; support levels vary by context rather than party doctrine."
+}

@@ -1,0 +1,212 @@
+canonical_candidate_id,cycle,chamber,district,party,candidate,incumbent,prior_candidate_name,prior_party,match_method,match_confidence,review_status
+AL-1994-house-1-D-STARKEY,1994,house,1,D,Starkey,1,"Nelson Starkey, Jr.",D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-1-R-PHILLIPS,1994,house,1,R,Phillips,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-2-D-HAMILTON,1994,house,2,D,Hamilton,1,James Hamilton,D,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-house-3-D-BLACK,1994,house,3,D,Black,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-3-R-SMALLWOOD,1994,house,3,R,Smallwood,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-4-D-SMITH,1994,house,4,D,Smith,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-4-R-PAPUCCI,1994,house,4,R,Papucci,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-5-D-CARTER,1994,house,5,D,Carter,1,Tommy Carter,D,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-house-6-D-SCHMITZ,1994,house,6,D,Schmitz,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-6-R-JORGENSEN,1994,house,6,R,Jorgensen,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-7-D-LETSON,1994,house,7,D,Letson,1,Sam Letson,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-7-R-RANDOLPH,1994,house,7,R,Randolph,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-8-D-DUKES,1994,house,8,D,Dukes,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-8-R-NEW,1994,house,8,R,New,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-9-D-PARKER,1994,house,9,D,Parker,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-10-D-HANEY,1994,house,10,R,Haney,0,,,no_unique_prior_winner_match+shor_mccarty_1996_serving_roster,low,unknown
+AL-1994-house-11-D-DRAKE,1994,house,11,D,Drake,1,Tom Drake,D,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-house-12-D-MORRISON,1994,house,12,D,Morrison,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-12-R-BOWLING,1994,house,12,R,Bowling,1,W.C. Bill Bowling,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-13-D-HOGAN,1994,house,13,D,Hogan,1,Tom Hogan,D,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-house-14-D-GUIN,1994,house,14,D,Guin,0,,,no_unique_prior_winner_match+shor_mccarty_1996_serving_roster,low,unknown
+AL-1994-house-15-D-SHARP,1994,house,15,D,Sharp,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-15-R-CURRY,1994,house,15,R,Curry,1,Johnny Curry,R,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-16-D-COLLINS,1994,house,16,D,Collins,0,,,no_unique_prior_winner_match+shor_mccarty_1996_serving_roster,low,unknown
+AL-1994-house-17-D-MILLICAN,1994,house,17,D,Millican,1,Mike Millican,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-17-R-HARPER,1994,house,17,R,Harper,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-18-D-MORROW,1994,house,18,D,Morrow,1,Johnny Mack Morrow,D,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-house-19-D-HALL,1994,house,19,D,Hall,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-19-R-ANDERSON,1994,house,19,R,Anderson,1,Morris Anderson,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-20-D-SANDERFORD,1994,house,20,R,Sanderford,1,Howard Sanderford,R,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-house-21-D-JOHNSTON,1994,house,21,D,Johnston,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-22-D-HALL,1994,house,22,D,Hall,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-23-D-POBINSON,1994,house,23,D,Pobinson,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-24-D-BURKE,1994,house,24,D,Burke,1,Ralph Burke,D,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-house-25-D-HAWK,1994,house,25,D,Hawk,0,,,no_unique_prior_winner_match+shor_mccarty_1996_serving_roster,low,unknown
+AL-1994-house-26-D-MCDANIEL,1994,house,26,D,Mcdaniel,1,W.F. Frank McDaniel,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-26-R-HOLCOMB,1994,house,26,R,Holcomb,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-27-D-MURPHREE,1994,house,27,D,Murphree,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-27-R-MARTIN,1994,house,27,R,Martin,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-28-D-FORD,1994,house,28,D,Ford,1,Joe Ford,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-28-R-O-BARR,1994,house,28,R,O'Barr,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-29-D-PAGE,1994,house,29,D,Page,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-29-R-ESTES,1994,house,29,R,Estes,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-30-D-GALLIHER,1994,house,30,D,Galliher,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-30-R-HODGES,1994,house,30,R,Hodges,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-31-D-VENABLE,1994,house,31,D,Venable,1,Jack Venable,D,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-house-32-D-BOYD,1994,house,32,D,Boyd,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-32-R-MONTGOMERY,1994,house,32,R,Montgomery,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-33-D-JOHNSON,1994,house,33,D,Johnson,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-33-R-HATTAWAY,1994,house,33,R,Hattaway,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-34-D-WILLIS,1994,house,34,D,Willis,1,Gerald Willis,D,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-house-35-D-SHADDIX,1994,house,35,D,Shaddix,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-35-R-SIMS,1994,house,35,R,Sims,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-36-D-CAMPBELL,1994,house,36,D,Campbell,1,James Campbell,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-36-R-ROGERS,1994,house,36,R,Rogers,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-37-D-LAIRD,1994,house,37,D,Laird,1,Richard Laird,D,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-house-38-D-FULLER,1994,house,38,D,Fuller,1,Bill Fuller,D,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-house-39-D-LINDSEY,1994,house,39,D,Lindsey,1,Richard Lindsey,D,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-house-40-D-MARTIN,1994,house,40,D,Martin,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-40-R-KNIGHT,1994,house,40,R,Knight,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-41-D-HILL,1994,house,41,R,Hill,1,Mike Hill,R,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-house-42-D-SMITH,1994,house,42,D,Smith,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-42-R-BIALAS,1994,house,42,R,Bialas,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-43-D-ROMEI,1994,house,43,D,Romei,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-43-R-SANDERSON,1994,house,43,R,Sanderson,1,Allen Sanderson,R,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-44-D-PAYNE,1994,house,44,R,Payne,1,Arthur Payne,R,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-house-45-D-MORTON,1994,house,45,R,Morton,1,Albert Morton,D,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-house-46-D-JONES,1994,house,46,D,Jones,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-46-R-CARNS,1994,house,46,R,Carns,1,Jim Carns,R,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-47-D-GAINES,1994,house,47,R,Gaines,1,Mark Gaines,R,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-house-48-D-GULAS,1994,house,48,D,Gulas,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-48-R-HAWKINS,1994,house,48,R,Hawkins,1,"John Hawkins, Jr.",D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-49-D-HOLLADAY,1994,house,49,D,Holladay,1,Hugh Holladay,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-49-R-THOMAS,1994,house,49,R,Thomas,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-50-D-SMITH,1994,house,50,D,Smith,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-50-R-TOWNSEND,1994,house,50,R,Townsend,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-51-D-PETELOS,1994,house,51,R,Petelos,1,Tony Petelos,R,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-house-52-D-ROGERS,1994,house,52,D,Rogers,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-53-D-NEWTON,1994,house,53,D,Newton,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-53-R-BLAKE,1994,house,53,R,Blake,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-54-D-PERDUE,1994,house,54,D,Perdue,1,George Perdue,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-54-R-PEARSON,1994,house,54,R,Pearson,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-55-D-MINNIFIELD,1994,house,55,D,Minnifield,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-55-R-EVANS,1994,house,55,R,Evans,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-56-D-MCADORY,1994,house,56,D,Mcadory,0,,,no_unique_prior_winner_match+shor_mccarty_1996_serving_roster,low,unknown
+AL-1994-house-57-D-HOUSTON,1994,house,57,D,Houston,0,,,no_unique_prior_winner_match+shor_mccarty_1996_serving_roster,low,unknown
+AL-1994-house-58-D-JOHNSON,1994,house,58,D,Johnson,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-58-R-LELAND,1994,house,58,R,Leland,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-59-D-SPRATT,1994,house,59,D,Spratt,1,"Lewis Spratt, Sr.",D,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-house-60-D-HILLARD,1994,house,60,D,Hillard,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-60-R-WRIGHT,1994,house,60,R,Wright,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-61-D-LAYSON,1994,house,61,D,Layson,1,Allen Layson,D,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-house-62-D-ALLEN,1994,house,62,D,Allen,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-62-R-COPELAND,1994,house,62,R,Copeland,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-63-D-PARKER,1994,house,63,D,Parker,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-64-D-WARREN,1994,house,64,D,Warren,1,Jimmy Warren,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-64-R-BOWEN,1994,house,64,R,Bowen,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-65-D-DOLBARE,1994,house,65,D,Dolbare,1,Jeff Dolbare,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-65-R-WILKINS,1994,house,65,R,Wilkins,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-66-D-WHITE,1994,house,66,D,White,1,Frank White,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-66-R-THOMSON,1994,house,66,R,Thomson,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-67-D-MAULL,1994,house,67,D,Maull,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-67-R-WALKER,1994,house,67,R,Walker,1,Claud Walker,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-68-D-JACKSON,1994,house,68,D,Jackson,0,,,no_unique_prior_winner_match+shor_mccarty_1996_serving_roster,low,unknown
+AL-1994-house-69-D-THOMAS,1994,house,69,D,Thomas,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-69-R-BROOKS,1994,house,69,R,Brooks,1,Morris Brooks,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-70-D-MELTON,1994,house,70,D,Melton,1,"Bryant Melton, Jr.",D,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-house-71-D-BLACK,1994,house,71,D,Black,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-72-D-HAYDEN,1994,house,72,D,Hayden,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-72-R-WILLIAMS,1994,house,72,R,Williams,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-73-D-VAUGHAN,1994,house,73,D,Vaughan,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-73-R-HOOPER,1994,house,73,R,Hooper,1,"Perry Hooper, Jr.",R,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-74-D-MCKEE,1994,house,74,R,Mckee,1,Bob McKee,R,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-house-75-D-HOLLEY,1994,house,75,D,Holley,1,Jimmy Holley,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-75-R-WREN,1994,house,75,R,Wren,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-76-D-MCCLAMMY,1994,house,76,D,McClammy,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-76-R-MERREN,1994,house,76,R,Merren,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-77-D-KNIGHT,1994,house,77,D,Knight,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-78-D-HOLMES,1994,house,78,D,Holmes,1,Alvin Holmes,D,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-house-79-D-TURNHAM,1994,house,79,D,Turnham,1,Pete Turnham,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-79-R-PIERCE,1994,house,79,R,Pierce,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-80-D-VANCE,1994,house,80,D,Vance,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-80-R-MCCRAINE,1994,house,80,R,Mccraine,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-81-D-GRAHAM,1994,house,81,D,Graham,0,,,no_unique_prior_winner_match+shor_mccarty_1996_serving_roster,low,unknown
+AL-1994-house-82-D-REED,1994,house,82,D,Reed,0,,,no_unique_prior_winner_match+shor_mccarty_1996_serving_roster,low,unknown
+AL-1994-house-83-D-BANDY,1994,house,83,D,Bandy,0,,,no_unique_prior_winner_match+shor_mccarty_1996_serving_roster,low,unknown
+AL-1994-house-84-D-CLARK,1994,house,84,D,Clark,0,,,no_unique_prior_winner_match+shor_mccarty_1996_serving_roster,low,unknown
+AL-1994-house-85-D-BAKER,1994,house,85,D,Baker,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-85-R-RALEY,1994,house,85,R,Raley,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-86-D-CAROTHERS,1994,house,86,D,Carothers,1,Joe Carothers,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-86-R-SHUEMAKE,1994,house,86,R,Shuemake,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-87-D-MATHIS,1994,house,87,D,Mathis,1,Nathan Mathis,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-87-R-SEIBENHENER,1994,house,87,R,Seibenhener,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-88-D-GIPSON,1994,house,88,D,Gipson,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-88-R-TEMPLENTON,1994,house,88,R,Templenton,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-89-D-FLOWERS,1994,house,89,R,Flowers,1,Steve Flowers,D,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-house-90-D-NEWTON,1994,house,90,D,Newton,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-91-D-SPICER,1994,house,91,D,Spicer,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-93-D-WILLIAMS,1994,house,93,D,Williams,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-93-R-CLOUSE,1994,house,93,R,Clouse,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-94-D-PENRY,1994,house,94,R,Penry,1,"Walter Penry, Jr.",R,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-house-95-D-MCNAIR,1994,house,95,D,Mcnair,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-95-R-MCMILLAN,1994,house,95,R,Mcmillan,1,Steve McMillan,R,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-96-D-BOX,1994,house,96,D,Box,1,Mike Box,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-96-R-LONG,1994,house,96,R,Long,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-97-D-KENNEDY,1994,house,97,D,Kennedy,1,Yvonne Kennedy,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-97-R-BAUMHAUER,1994,house,97,R,Baumhauer,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-98-D-CLARK,1994,house,98,D,Clark,0,,,no_unique_prior_winner_match+shor_mccarty_1996_serving_roster,low,unknown
+AL-1994-house-99-D-BUSKEY,1994,house,99,D,Buskey,0,,,no_unique_prior_winner_match+shor_mccarty_1996_serving_roster,low,unknown
+AL-1994-house-100-D-GASTON,1994,house,100,R,Gaston,1,Victor Gaston,R,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-house-101-D-PRINGLE,1994,house,101,R,Pringle,0,,,no_unique_prior_winner_match+shor_mccarty_1996_serving_roster,low,unknown
+AL-1994-house-102-D-TURNER,1994,house,102,R,Turner,1,J.E. Turner,R,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-house-103-D-MITCHELL,1994,house,103,D,Mitchell,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-103-R-GARDNER,1994,house,103,R,Gardner,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-104-D-ROCKHOLD,1994,house,104,D,Rockhold,1,Lois Rockhold,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-house-104-R-DEAN,1994,house,104,R,Dean,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-105-D-HARPER,1994,house,105,D,Harper,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-house-105-R-CRIGLER,1994,house,105,R,Crigler,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-senate-1-D-DENTON,1994,senate,1,D,Denton,1,Bobby Denton,D,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-senate-2-D-BUTLER,1994,senate,2,D,Butler,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-senate-2-R-MANLEY,1994,senate,2,R,Manley,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-senate-3-D-ROBERTS,1994,senate,3,D,Roberts,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-senate-3-R-GENTRY,1994,senate,3,R,Gentry,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-senate-4-D-FARRAR,1994,senate,4,D,Farrar,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-senate-4-R-HALE,1994,senate,4,R,Hale,1,Don Hale,R,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-senate-5-D-WILSON,1994,senate,5,D,Wilson,1,"Robt. Wilson, Jr.",D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-senate-5-R-DAVIDSON,1994,senate,5,R,Davidson,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-senate-6-D-BEDFORD,1994,senate,6,D,Bedford,0,,,no_unique_prior_winner_match+shor_mccarty_1996_serving_roster,low,unknown
+AL-1994-senate-7-D-FREEMAN,1994,senate,7,D,Freeman,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-senate-7-R-TONDERA,1994,senate,7,R,Tondera,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-senate-8-D-BARRON,1994,senate,8,D,Barron,1,Lowell Barron,D,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-senate-9-D-MITCHEM,1994,senate,9,D,Mitchem,1,Hinton Mitchem,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-senate-9-R-GOOD,1994,senate,9,R,Good,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-senate-10-D-FLOYD,1994,senate,10,D,Floyd,1,Jack Floyd,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-senate-10-R-SMITH,1994,senate,10,R,Smith,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-senate-11-D-SPRAYBERRY,1994,senate,11,D,Sprayberry,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-senate-12-D-GHEE,1994,senate,12,D,Ghee,1,Doug Ghee,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-senate-12-R-JAMES,1994,senate,12,R,James,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-senate-13-D-DIAL,1994,senate,13,D,Dial,1,Gerald Dial,D,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-senate-14-D-OWENS,1994,senate,14,D,Owens,1,Walter Owens,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-senate-14-R-ARMISTEAD,1994,senate,14,R,Armistead,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-senate-15-D-AMARI,1994,senate,15,R,Amari,1,John Amari,R,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-senate-16-D-WAGGONER,1994,senate,16,R,Waggoner,1,J.T. Jabo Waggoner,R,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-senate-17-D-BIDDLE,1994,senate,17,R,Biddle,0,,,no_unique_prior_winner_match+shor_mccarty_1996_serving_roster,low,unknown
+AL-1994-senate-18-D-SMITHERMAN,1994,senate,18,D,Smitherman,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-senate-18-R-HORN,1994,senate,18,R,Horn,1,Fred Horn,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-senate-19-D-MCCLAIN,1994,senate,19,D,Mcclain,0,,,no_unique_prior_winner_match+shor_mccarty_1996_serving_roster,low,unknown
+AL-1994-senate-20-D-ESCOTT-RUSSELL,1994,senate,20,D,Escott-Russell,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-senate-21-D-POOLE,1994,senate,21,D,Poole,0,,,no_unique_prior_winner_match+shor_mccarty_1996_serving_roster,low,unknown
+AL-1994-senate-22-D-LINDSEY,1994,senate,22,D,Lindsey,1,W.H. (Pat) Lindsey,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-senate-22-R-HUGHES,1994,senate,22,R,Hughes,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-senate-23-D-SANDERS,1994,senate,23,D,Sanders,1,Hank Sanders,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-senate-23-R-CURL,1994,senate,23,R,Curl,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-senate-24-D-STEELE,1994,senate,24,D,Steele,0,,,no_unique_prior_winner_match+shor_mccarty_1996_serving_roster,low,unknown
+AL-1994-senate-25-D-ANDERSON,1994,senate,25,D,Anderson,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-senate-25-R-DIXON,1994,senate,25,R,Dixon,1,Larry Dixon,R,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-senate-26-D-LANGFORD,1994,senate,26,D,Langford,1,Charles Langford,D,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-senate-27-D-LITTLE,1994,senate,27,D,Little,1,Ted Little,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-senate-27-R-PONDER,1994,senate,27,R,Ponder,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-senate-28-D-CLAY,1994,senate,28,D,Clay,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-senate-28-R-SETTLER,1994,senate,28,R,Settler,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-senate-29-D-BAILEY,1994,senate,29,D,Bailey,1,Chip Bailey,D,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-senate-30-D-MITCHELL,1994,senate,30,D,Mitchell,1,"Wendell ""Walking"" Mitchell",D,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-senate-31-D-ADAMS,1994,senate,31,R,Adams,0,,,no_unique_prior_winner_match+shor_mccarty_1996_serving_roster,low,unknown
+AL-1994-senate-32-D-KOONTZ,1994,senate,32,D,Koontz,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-senate-32-R-LIPSOCOMB,1994,senate,32,R,Lipsocomb,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-senate-33-D-FIGURES,1994,senate,33,D,Figures,1,Michael Figures,D,unique_chamber_surname_to_1990_winner+shor_mccarty_1996_serving_roster,medium,supported
+AL-1994-senate-34-D-SULLIVAN,1994,senate,34,D,Sullivan,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-senate-34-R-MYERS,1994,senate,34,R,Myers,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown
+AL-1994-senate-35-D-WINDOM,1994,senate,35,D,Windom,1,Steve Windom,D,unique_chamber_surname_to_1990_winner+1994_ballot_order,medium,supported
+AL-1994-senate-35-R-HEBERT,1994,senate,35,R,Hebert,0,,,no_unique_prior_winner_match+1994_ballot_order,low,unknown

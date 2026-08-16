@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_tax_charitable_deductions",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option to allow charitable deductions is a standard tax provision that does not inherently align with conservative or progressive ideologies.",
+  "evidence_quote": "h) Charitable deductions",
+  "needs_human_review": true,
+  "review_reason": "This is an administrative/procedural policy choice common across the political spectrum."
+}

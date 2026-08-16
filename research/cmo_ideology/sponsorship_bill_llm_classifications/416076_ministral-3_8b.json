@@ -1,0 +1,14 @@
+{
+  "plain_english_policy": "This bill (HB7) is a transparency measure aimed at increasing public access to campaign finance data in Alabama. It mandates that the Secretary of State create and maintain an online database where citizens can search for campaign contributions and expenditures filed by candidates under state law. The policy direction would be to enhance government accountability by making financial disclosures more accessible, allowing voters to track how much money influences elections and who is contributing to campaigns.",
+  "policy_direction_if_enacted": "If enacted, HB7 would shift Alabama\u2019s campaign finance landscape toward greater openness and public scrutiny. This aligns with broader trends in election transparency but does not alter contribution limits or ban dark money\u2014it simply ensures that existing filings are searchable by the public. The bill reflects a focus on **proactive disclosure** rather than regulatory restrictions, empowering voters to make informed decisions based on financial data.",
+  "ideological_valence": "nonideological",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "The bill\u2019s text and synopsis explicitly state its purpose without partisan framing, so no ideological inference beyond transparency is warranted. Sponsors (e.g., Reps. Black, Ford) advanced this as a procedural reform, not a policy statement on campaign finance itself.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "require the Secretary of State to maintain an electronic database searchable by the public of all campaign contributions and expenditures",
+    "accessible by the public through the Secretary of State's website which provides the capability of search and retrieval"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The bill\u2019s intent is clear from its text, metadata (e.g., RFD: Ethics), and lack of ambiguity in scope. No additional context or legal interpretation is required."
+}

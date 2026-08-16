@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_health_opioid_funding",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increasing state funding for opioid treatment facilities is a progressive policy aimed at expanding access to healthcare and harm reduction services.",
+  "evidence_quote": "Should the state government increase funding for treatment facilities to combat opioid abuse?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

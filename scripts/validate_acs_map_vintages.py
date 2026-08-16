@@ -25,7 +25,7 @@ def main() -> None:
     plan_checks = []
     for chamber, filename in (("house", "al_sldl_2021_to_2023.zip"),
                               ("senate", "al_sldu_2021_to_2023.zip")):
-        plan = gpd.read_file(f"zip://{(ROOT / 'Results and Shapefiles' / filename).as_posix()}",
+        plan = gpd.read_file(f"zip://{(ROOT / 'data/raw/alabama_elections_and_geography' / filename).as_posix()}",
                              ignore_geometry=True)
         plan["district"] = pd.to_numeric(plan.DISTRICT)
         part = acs[(acs.cycle == 2022) & (acs.chamber == chamber)]

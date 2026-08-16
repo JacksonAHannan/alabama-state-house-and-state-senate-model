@@ -1,0 +1,15 @@
+{
+  "plain_english_policy": "HB230 (2011) is a targeted tax incentive bill designed to stimulate job creation among small businesses in Alabama. It establishes an income tax credit for employers who hire new full-time workers earning over $10/hour, with conditions tied to net employment growth and eligibility rules. The policy direction reflects a pro-business approach to economic development, prioritizing incentives for private-sector hiring while excluding larger firms (those with >50 employees) and focusing on retention of newly hired workers.",
+  "policy_direction_if_enacted": "If enacted, HB230 would create a **conditional tax credit system** that aligns with the following policy goals:",
+  "ideological_valence": "conservative",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "no_inference_beyond_text",
+  "confidence": "high",
+  "evidence_quotes": [
+    "An Alabama income and financial institution excise tax credit is hereby established for small businesses that create new jobs paying more than ten dollars ($10) per hour. The credit shall equal one thousand dollars ($1,000)...",
+    "The employer must have a net increase in the total number of full-time employees... over the number employed as of the last day of the tax year immediately preceding...",
+    "This act may be cited as the 'Full Employment Act of 2011.'"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The bill's text is clear, non-ceremonial, and contains sufficient context for analysis. No additional metadata or external sources are required."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_budget_gaming_tax",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option supports using gaming proceeds for state funding. In Alabama's political context, taxing or regulating new revenue sources like gaming is generally viewed as a progressive fiscal measure aimed at expanding the tax base rather than relying on traditional conservative approaches of cutting spending or lowering taxes.",
+  "evidence_quote": "b) Regulating and taxing gaming proceeds",
+  "needs_human_review": false,
+  "review_reason": ""
+}

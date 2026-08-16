@@ -1,0 +1,11 @@
+{
+  "policy_key": "medicare_funding",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option to select 'Medicare' in a block grant versus federal spending question is procedurally neutral; it does not inherently indicate conservative or progressive ideology without knowing the candidate's stance on Medicare expansion or reduction.",
+  "evidence_quote": "Do you support the use of block grants given to states, rather than federal spending, in the following areas? Option: i) Medicare",
+  "needs_human_review": true,
+  "review_reason": "This is a procedural question about funding mechanism (block grant vs. direct spending). The ideological direction depends entirely on whether block grants would increase or decrease overall funding for Medicare and how the state uses those funds."
+}

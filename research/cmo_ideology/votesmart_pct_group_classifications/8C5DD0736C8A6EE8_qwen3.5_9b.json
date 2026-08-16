@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_defense_personnel_training",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "This option focuses on the training of armed forces personnel without specifying a partisan stance.",
+  "evidence_quote": "Armed Forces personnel training",
+  "needs_human_review": true,
+  "review_reason": "Training programs are generally administrative and non-ideological in nature."
+}

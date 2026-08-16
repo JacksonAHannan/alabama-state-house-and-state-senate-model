@@ -1,0 +1,15 @@
+{
+  "primary_issue": "taxes_budget",
+  "secondary_issues": [],
+  "plain_english_revision": "The amendment removes a fiscal year designation that would have extended funding authority for the Literacy Task Force into the next biennium (2022-2023) and restricts it to the current one (2021-2022).",
+  "revision_direction": "restricts_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Limiting state funding for literacy programs to a single biennium rather than extending it.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "delete '2021-2022 2022-2023'",
+    "insert in lieu thereof: '2021-2022'"
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

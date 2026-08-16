@@ -1,0 +1,66 @@
+person_id,candidate,election_cycle,dimension,coded_value,evidence_items,sources,high_confidence_items
+ALPERSON-ALAN-HARPER,Alan Harper,2010,overall_ideological_valence,1.0,1,1,1
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,economic_ideology,-1.0,1,1,1
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,localism_personal_vote,1.0,1,1,0
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,economic_ideology,-1.0,1,1,1
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,business_alignment,1.0,1,1,1
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,labor_position,-1.0,1,1,0
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,localism_personal_vote,2.0,1,1,1
+ALPERSON-BARBARA-BIGSBY-BOYD,Barbara Bigsby Boyd,2010,overall_ideological_valence,-1.0,1,1,1
+ALPERSON-BEDDINGFIELD,David Beddingfield,2014,labor_position,-1.0,1,1,0
+ALPERSON-BILLY-BEASLEY,Billy Beasley,2010,overall_ideological_valence,1.0,1,1,1
+ALPERSON-CRAIG-FORD,Craig Ford,2014,overall_ideological_valence,1.0,1,1,1
+ALPERSON-DARRELL-TURNER,Darrell Turner,2014,economic_ideology,-1.0,1,1,1
+ALPERSON-DARRELL-TURNER,Darrell Turner,2014,labor_position,-2.0,1,1,1
+ALPERSON-DARRELL-TURNER,Darrell Turner,2014,party_independence,1.0,1,1,0
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,economic_ideology,-1.0,1,1,0
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,labor_position,-1.0,1,1,0
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,economic_ideology,-1.0,1,1,1
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,party_independence,2.0,1,1,1
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,social_ideology,-2.0,1,1,1
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,economic_ideology,-1.0,1,1,1
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,localism_personal_vote,2.0,1,1,1
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,overall_ideological_valence,1.0,1,1,1
+ALPERSON-JAMES-C-FIELDS-JR,James C. Fields Jr.,2010,economic_ideology,-1.0,1,1,1
+ALPERSON-JAMES-C-FIELDS-JR,James C. Fields Jr.,2010,localism_personal_vote,2.0,1,1,1
+ALPERSON-JAMES-C-FIELDS-JR,James C. Fields Jr.,2010,overall_ideological_valence,1.0,1,1,1
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,overall_ideological_valence,2.0,1,1,1
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,party_independence,2.0,1,1,0
+ALPERSON-JENNIFER-MARSDEN,Jennifer Marsden,2014,economic_ideology,-2.0,1,1,1
+ALPERSON-JENNIFER-MARSDEN,Jennifer Marsden,2014,localism_personal_vote,0.0,1,1,1
+ALPERSON-JENNIFER-MARSDEN,Jennifer Marsden,2014,party_independence,1.0,1,1,0
+ALPERSON-JERRY-L-FIELDING,Jerry Fielding,2010,localism_personal_vote,2.0,1,1,1
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,economic_ideology,-1.0,1,1,1
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,labor_position,-1.0,1,1,0
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,localism_personal_vote,2.0,1,1,1
+ALPERSON-JOHN-ROBINSON,John Robinson,2014,labor_position,-1.0,1,1,0
+ALPERSON-JOHN-ROBINSON,John Robinson,2014,overall_ideological_valence,1.0,1,1,1
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2014,economic_ideology,-1.0,1,1,1
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2014,guns_position,1.0,1,1,1
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2014,localism_personal_vote,2.0,1,1,1
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,abortion_position,2.0,1,1,1
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,economic_ideology,-1.0,1,1,0
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,guns_position,2.0,1,1,1
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,localism_personal_vote,2.0,1,1,0
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,social_ideology,2.0,1,1,1
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,abortion_position,-1.0,1,1,1
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,economic_ideology,-1.0,1,1,1
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,localism_personal_vote,2.0,1,1,1
+ALPERSON-LARRY-MEANS,Larry Means,2014,economic_ideology,-1.0,1,1,0
+ALPERSON-LARRY-MEANS,Larry Means,2014,guns_position,2.0,2,2,1
+ALPERSON-LARRY-MEANS,Larry Means,2014,labor_position,-1.0,1,1,0
+ALPERSON-LARRY-MEANS,Larry Means,2014,localism_personal_vote,2.0,1,1,1
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,economic_ideology,-1.0,1,1,1
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,localism_personal_vote,1.0,1,1,0
+ALPERSON-MARC-KEAHEY,Marc Keahey,2010,guns_position,2.0,2,2,0
+ALPERSON-RANDALL-WHITE,Randall White,2010,overall_ideological_valence,1.0,1,1,0
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,labor_position,-2.0,1,1,1
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,localism_personal_vote,2.0,1,1,1
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,labor_position,-1.0,1,1,0
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,overall_ideological_valence,2.0,1,1,1
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,economic_ideology,-1.0,1,1,1
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,labor_position,-1.0,1,1,0
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,localism_personal_vote,1.0,1,1,0
+ALPERSON-TAMMY-L-IRONS,Tammy Irons,2010,overall_ideological_valence,0.0,1,1,1
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,guns_position,-1.0,1,1,1
+ALPERSON-VIVIAN-DAVIS-FIGURES,Vivian Davis Figures,2010,overall_ideological_valence,-1.0,1,1,1

@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_budget_funding",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Increasing state education funding is a procedural or administrative issue without an inherent conservative/progressive direction.",
+  "evidence_quote": "Do you support increasing funding for the state education budget?",
+  "needs_human_review": true,
+  "review_reason": "The question asks about general funding increases, which lacks specific ideological context (could be progressive if targeting equity, or administrative/mixed if just maintaining operations)."
+}

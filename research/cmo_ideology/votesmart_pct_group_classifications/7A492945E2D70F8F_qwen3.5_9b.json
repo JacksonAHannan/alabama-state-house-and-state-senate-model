@@ -1,0 +1,11 @@
+{
+  "policy_key": "early_release_nonviolent_offenders",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option supports releasing non-violent offenders early from prison.",
+  "evidence_quote": "Issuing the early release of certain non-violent offenders",
+  "needs_human_review": false,
+  "review_reason": ""
+}

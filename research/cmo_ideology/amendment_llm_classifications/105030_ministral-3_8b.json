@@ -1,0 +1,18 @@
+{
+  "primary_issue": "infrastructure_energy",
+  "secondary_issues": [
+    "business_economic_development",
+    "public_education"
+  ],
+  "plain_english_revision": "This amendment modifies HB573 by adding minority party leaders to the decision-making process for state park funding and increasing the number of required signatories for certain financial authorizations.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Increasing minority party representation in bonding authority committees and raising the threshold for financial approvals within state park enhancement projects.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "the Minority Leader of the House of Representatives or his or her designee, the Minority Leader of the Senate or his or her designee",
+    "five"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment text is clear and unambiguous. The changes are procedural but have a direct impact on governance structure."
+}

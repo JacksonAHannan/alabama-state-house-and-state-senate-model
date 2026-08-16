@@ -1,0 +1,40 @@
+year,office,party_norm,alabama_sos,openelections,difference_sos_minus_oe,absolute_difference,comparison_status,authoritative_vote_source,certified_canvass_status
+2010,Attorney General,D,605650.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2010,Attorney General,R,868331.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2010,Governor,D,625052.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2010,Governor,R,860272.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2014,Attorney General,D,497969.0,412061.0,85908.0,85908.0,different,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2014,Attorney General,R,657200.0,577763.0,79437.0,79437.0,different,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2014,Commissioner of Agriculture and Industries,D,262739.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2014,Commissioner of Agriculture and Industries,R,530666.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2014,Governor,D,604497.0,445644.0,158853.0,158853.0,different,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2014,Governor,R,1021771.0,785541.0,236230.0,236230.0,different,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2014,Lieutenant Governor,D,435013.0,428014.0,6999.0,6999.0,different,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2014,Lieutenant Governor,R,678478.0,748488.0,-70010.0,70010.0,different,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2014,Secretary of State,D,501798.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2014,Secretary of State,R,852311.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2014,State Auditor,D,519421.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2014,State Auditor,R,831544.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2014,State Treasurer,R,873389.0,784594.0,88795.0,88795.0,different,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2018,Attorney General,D,702345.0,702345.0,0.0,0.0,exact,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2018,Attorney General,R,1003298.0,1003298.0,0.0,0.0,exact,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2018,Commissioner of Agriculture and Industries,R,1080234.0,1080234.0,0.0,0.0,exact,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2018,Governor,D,694011.0,694011.0,0.0,0.0,exact,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2018,Governor,R,1021276.0,1021276.0,0.0,0.0,exact,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2018,Lieutenant Governor,D,659533.0,659533.0,0.0,0.0,exact,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2018,Lieutenant Governor,R,1043778.0,1043778.0,0.0,0.0,exact,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2018,Secretary of State,D,658070.0,658070.0,0.0,0.0,exact,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2018,Secretary of State,R,1031266.0,1031266.0,0.0,0.0,exact,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2018,State Auditor,D,665203.0,665203.0,0.0,0.0,exact,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2018,State Auditor,R,1017321.0,1017321.0,0.0,0.0,exact,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2018,State Treasurer,R,1083859.0,1083859.0,0.0,0.0,exact,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2022,Attorney General,D,450543.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2022,Attorney General,R,955425.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2022,Commissioner of Agriculture and Industries,R,946155.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2022,Governor,D,412961.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2022,Governor,R,946932.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2022,Lieutenant Governor,R,957534.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2022,Secretary of State,D,436862.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2022,Secretary of State,R,925267.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2022,State Auditor,R,949871.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2022,State Treasurer,R,946936.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending

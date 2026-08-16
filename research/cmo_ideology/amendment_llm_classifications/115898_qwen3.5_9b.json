@@ -1,0 +1,15 @@
+{
+  "primary_issue": "healthcare_conscience",
+  "secondary_issues": [],
+  "plain_english_revision": "The amendment adds a specific exemption to the new wiretapping laws, ensuring that physicians, surgeons, dentists, hospitals, and other defined healthcare providers are not subject to the act's requirements.",
+  "revision_direction": "restricts_policy",
+  "ideological_valence": "progressive",
+  "candidate_position_supported": "The amendment advances a policy of protecting healthcare professionals from surveillance mandates under new wiretapping legislation, thereby preserving patient confidentiality and professional autonomy within medical settings.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "; and to exclude certain health care providers",
+    "(d) This act shall not apply to physicians,\n17 surgeons, dentists, medical institutions, or other health care\n18 providers as those terms are defined..."
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

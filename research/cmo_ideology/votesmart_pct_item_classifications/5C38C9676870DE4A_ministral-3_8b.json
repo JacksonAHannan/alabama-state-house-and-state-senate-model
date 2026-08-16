@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_contributions",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "limiting contributions to state legislative/gubernatorial candidates (explicitly progressive leaning)",
+  "evidence_quote": "",
+  "needs_human_review": true,
+  "review_reason": "The provided SOURCE TEXT does not contain any direct answer or stance on limiting campaign contributions. The question is about whether the Alabama legislature should rewrite the state constitution, which is unrelated to campaign finance reform."
+}

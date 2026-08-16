@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_campaign_contribution_regulation",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting regulation of campaign contributions from corporations and unions is conventionally a progressive stance aimed at reducing corporate influence in politics.",
+  "evidence_quote": "Do you support the regulation of campaign contributions from corporations, unions, and individuals?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

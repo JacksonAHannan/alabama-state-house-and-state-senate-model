@@ -60,9 +60,11 @@ def _prepare_weights(raw_weights: pd.DataFrame, target_cycle: int) -> pd.DataFra
     weights["county_norm"] = weights["county_key"].map(normalize_name).map(_canonical_county)
     weights["target_match_norm"] = weights["precinct_key"].map(normalize_for_match)
     weights["office"] = weights["chamber"].map({"house": "State House", "senate": "State Senate"})
+    value = ("allocation_weight" if "allocation_method" in weights.columns
+             else "district_activity")
     weights = (
         weights.groupby(["county_norm", "target_match_norm", "office", "district"], as_index=False)
-        ["district_activity"].sum()
+        [value].sum().rename(columns={value: "district_activity"})
     )
     weights["target_activity"] = weights.groupby(
         ["county_norm", "target_match_norm", "office"]
@@ -369,7 +371,10 @@ def main() -> None:
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     args = parser.parse_args()
     root = args.root
-    weights_path = root / "data" / "processed" / "war" / "precinct_district_allocation_weights.csv"
+    geographic_path = root / "data" / "processed" / "war" / "geographic_precinct_district_weights.csv"
+    weights_path = (geographic_path if geographic_path.exists() else
+                    root / "data" / "processed" / "war" / "precinct_district_allocation_weights.csv")
+    print(f"Using allocation weights: {weights_path.name}")
     pres_dir = root / "data" / "processed" / "presidential"
 
     for target_cycle, source_years in TARGET_SOURCES.items():

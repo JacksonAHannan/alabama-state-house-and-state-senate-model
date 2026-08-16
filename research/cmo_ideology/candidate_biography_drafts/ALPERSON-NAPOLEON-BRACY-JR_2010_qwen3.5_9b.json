@@ -1,0 +1,30 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "Napoleon Bracy Jr. was a candidate for the Alabama House District 98 seat in the 2010 election, winning with approximately +20.7 out-of-fold CMO and a fundraising-adjusted score of roughly +12.9. He entered the race with six years of service on the Prichard City Council, where he was selected as council president. His campaign raised about $100,000 compared to his Republican opponent's ~$12,000. No pre-election issue platform or roll-call record has been recovered for him in 2010; thus, no ideology can be assigned based on later legislative service.",
+  "offices_and_public_service": [
+    "Prichard City Council (6 years prior to election)",
+    "Council President of Prichard"
+  ],
+  "profession_and_employment": [],
+  "education": [],
+  "community_and_local_ties": [
+    "Prichard"
+  ],
+  "political_profile": [
+    "Democratic candidate",
+    "House District 98, Alabama (2010)"
+  ],
+  "important_caveats": [
+    "No pre-election issue platform or roll-call record recovered for the 2010 election.",
+    "Ideology cannot be classified based on later legislative service."
+  ],
+  "source_urls_used": [
+    "https://almonline.org/Assets/Files/Alabama%20Municipal%20Journal/JournalArchive/2010/Dec-2010.pdf",
+    "https://sites.google.com/mcldoffice.com/mcldoffice/meet-the-legislators"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://almonline.org/Assets/Files/Alabama%20Municipal%20Journal/JournalArchive/2010/Dec-2010.pdf",
+    "https://sites.google.com/mcldoffice.com/mcldoffice/meet-the-legislators"
+  ]
+}

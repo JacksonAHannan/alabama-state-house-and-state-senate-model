@@ -1,0 +1,11 @@
+{
+  "policy_key": "defense_spending_readiness",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Maintaining troop and equipment readiness is a standard administrative goal for defense budgets.",
+  "evidence_quote": "i) Troop and equipment readiness",
+  "needs_human_review": true,
+  "review_reason": "This option describes a baseline operational requirement rather than an ideological stance on spending levels."
+}

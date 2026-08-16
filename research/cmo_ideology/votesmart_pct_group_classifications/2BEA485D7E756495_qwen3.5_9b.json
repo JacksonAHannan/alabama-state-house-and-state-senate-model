@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_wage_gap_closure",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting state government efforts to close wage gaps is conventionally progressive.",
+  "evidence_quote": "Do you support greater efforts by Alabama's state government in closing gender, racial and other wage gaps?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

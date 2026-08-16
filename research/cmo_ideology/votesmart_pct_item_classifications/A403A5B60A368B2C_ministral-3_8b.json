@@ -1,0 +1,11 @@
+{
+  "policy_key": "environment_spending",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "funding for environmental programs (e.g., conservation, pollution control)",
+  "evidence_quote": "Environment",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,15 @@
+{
+  "plain_english_policy": "Alabama Consolidated Income Tax Return Policy for Affiliated Groups",
+  "policy_direction_if_enacted": "This policy outlines how Alabama affiliated groups (a group of corporations under common control) can file a consolidated income tax return in Alabama. Here\u2019s a breakdown of the key points:",
+  "ideological_valence": "progressive",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "State Department of Revenue",
+  "confidence": "high",
+  "evidence_quotes": [
+    "The election to file a consolidated return must be made by the common parent or designated member of the Alabama affiliated group.",
+    "Transactions between members of an Alabama affiliated group should be reported on an arm\u2019s-length basis for allocation and apportionment purposes.",
+    "Each member of the Alabama affiliated group is considered a separate taxpayer for allocation and apportionment purposes, but they can deduct losses against each other if allocated to Alabama."
+  ],
+  "needs_human_review": true,
+  "review_reason": "The policy involves complex tax regulations that require careful interpretation and application. Human review is necessary to ensure compliance with federal regulations and accurate implementation of state-specific rules."
+}

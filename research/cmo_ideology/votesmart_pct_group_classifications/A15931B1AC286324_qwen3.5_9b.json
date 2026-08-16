@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_juvenile_violent_crime_adult_prosecution",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "This option asks whether minors under 18 accused of violent crimes should face adult prosecution. In the U.S., moving juveniles to adult court is generally associated with conservative law-and-order approaches, while keeping them in juvenile systems aligns with progressive rehabilitation-focused views.",
+  "evidence_quote": "b) Should an individual under 18 accused of a violent crime be prosecuted as an adult?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

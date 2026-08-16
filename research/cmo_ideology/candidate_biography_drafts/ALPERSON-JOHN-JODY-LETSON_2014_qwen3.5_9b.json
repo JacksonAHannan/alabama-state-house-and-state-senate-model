@@ -1,0 +1,33 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "John 'Jody' Letson was the Democratic candidate for Alabama House District 7 in the 2014 election. He previously represented that district from the 1990s through 2010 and served as a Lawrence County commissioner.",
+  "offices_and_public_service": [
+    "Lawrence County Commissioner",
+    "Alabama House of Representatives (District 7)"
+  ],
+  "profession_and_employment": [
+    "General Motors employee",
+    "Letson's Grocery operator",
+    "Farmer"
+  ],
+  "education": [
+    "Calhoun Community College attendee",
+    "Courtland High School graduate"
+  ],
+  "community_and_local_ties": [
+    "Lawrence County native and resident of Hillsboro",
+    "Service with Lawrence County Historical Commission",
+    "Involvement in industrial development, regional government, mental health, and youth organizations"
+  ],
+  "political_profile": [],
+  "important_caveats": [],
+  "source_urls_used": [
+    "https://justfacts.votesmart.org/candidate/biography/15202/jody-letson",
+    "https://en.wikipedia.org/wiki/Jody_Letson"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://en.wikipedia.org/wiki/Jody_Letson",
+    "https://justfacts.votesmart.org/candidate/biography/15202/jody-letson"
+  ]
+}

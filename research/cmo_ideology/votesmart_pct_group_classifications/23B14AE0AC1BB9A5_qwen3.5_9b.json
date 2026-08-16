@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_dividend_tax_elimination",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Eliminating taxes on dividends for individual investors is a progressive economic policy aimed at reducing the tax burden on lower- and middle-income households who rely more heavily on dividend income compared to wealthy individuals with diversified portfolios.",
+  "evidence_quote": "Do you support eliminating taxes on dividends paid to individual investors?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

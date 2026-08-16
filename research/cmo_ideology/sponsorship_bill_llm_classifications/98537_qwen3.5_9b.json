@@ -1,0 +1,15 @@
+{
+  "plain_english_policy": "This bill creates a new criminal offense for negligently storing firearms in ways that allow minors to access them without parental permission. It establishes three tiers of penalties based on the consequences: if a minor accesses the gun and it is reported, it's a misdemeanor; if injury occurs, it becomes a felony; if death results, it escalates further. The law applies only when the person storing the firearm knew or should have known about the risk to minors.",
+  "policy_direction_if_enacted": "Enactment would criminalize unsafe storage of firearms by adults around children under 17, introducing specific legal penalties ranging from misdemeanors to felonies depending on whether a minor accessed the weapon and what harm resulted. It aims to deter negligent firearm handling in households or premises where minors are present.",
+  "ideological_valence": "conservative",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "Senator Figures sponsored this bill affirmatively advancing the creation of a new crime for negligent firearm storage.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "\"Under existing law, it is not a crime to store a firearm in a manner that allows a child to gain access to the firearm. This bill would create the crime of criminally negligent storage of a firearm and would provide penalties.\"",
+    "\"No person shall store or keep any firearm... if he or she knows or reasonably should know that a minor is likely to gain access to the firearm without the permission of the parent or guardian of the minor, unless the person does any of the following: (1) Keeps the firearm with a gun lock in a securely locked box...\"",
+    "\"A person commits the offense of criminally negligent storage of a firearm in the third degree if he or she violates Section 1 and a minor obtains the firearm and a report is filed with a law enforcement officer.\""
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

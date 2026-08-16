@@ -1,0 +1,11 @@
+{
+  "policy_key": "transportation_infrastructure_spending",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "funding for transportation and highway infrastructure",
+  "evidence_quote": "Indicate the funding levels you will support for the following general categories.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

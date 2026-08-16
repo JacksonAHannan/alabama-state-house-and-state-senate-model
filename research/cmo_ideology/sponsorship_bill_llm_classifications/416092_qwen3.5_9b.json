@@ -1,0 +1,14 @@
+{
+  "plain_english_policy": "This bill prohibits Political Action Committees (PACs) from transferring money to other PACs.",
+  "policy_direction_if_enacted": "Enactment would restrict the flow of campaign funds by banning direct contributions between political action committees, while allowing them to contribute only to principal campaign committees. This aims to increase transparency and limit indirect funding channels in elections.",
+  "ideological_valence": "conservative",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "Representatives Morrow, Coleman, Warren, Givan, Moore (M), Boyd, Jackson, McAdory, Scott, Robinson (O), Rogers, Hall, Beech, Knight, Newton (D), Grimsley, McClammy, McCampbell, Harper and Hubbard (J) advanced this bill.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "This bill would prohibit transfers between political action committees.",
+    "It shall be unlawful for any political action committee to make a contribution to any other political action committee, other than a principal campaign committee."
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

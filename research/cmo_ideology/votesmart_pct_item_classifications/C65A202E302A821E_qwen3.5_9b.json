@@ -1,0 +1,11 @@
+{
+  "policy_key": "online_voting",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The item asks about supporting online voting. This is a procedural/administrative question regarding election administration rather than an ideological policy stance on government size or economic regulation.",
+  "evidence_quote": "Do you support voting on-line?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

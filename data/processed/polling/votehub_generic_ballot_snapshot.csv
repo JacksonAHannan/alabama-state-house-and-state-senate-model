@@ -1,0 +1,2 @@
+poll_average_as_of,downloaded_on,staleness_days,generic_ballot_dem_margin_two_party,average_7d,average_14d,average_21d,pollsters_7d,pollsters_14d,pollsters_21d,method,source,license
+2026-06-30,2026-08-14,45,6.783187007116253,7.327634994047969,6.361172444312255,7.021551433728672,3,8,12,30pct_7d_50pct_14d_20pct_21d_latest_pollster_sponsor_population_weighted,https://api.votehub.com/polls,CC BY 4.0 / VoteHub

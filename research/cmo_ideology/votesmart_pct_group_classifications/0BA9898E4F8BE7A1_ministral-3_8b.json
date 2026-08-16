@@ -1,0 +1,11 @@
+{
+  "policy_key": "private_prisons_contracting",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Advocating for state government to outsource prison construction and management to private companies.",
+  "evidence_quote": "Support contracting with private sector firms to build and/or manage state prisons.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "capital_gains_tax",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Taxing capital gains at a higher rate (progressive stance).",
+  "evidence_quote": "b) Capital gains taxes",
+  "needs_human_review": false,
+  "review_reason": ""
+}

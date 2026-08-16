@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_child_care_tax_credit",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Offering tax credits to businesses that provide child care for employees is a progressive policy option.",
+  "evidence_quote": "b) Provide tax credits for businesses that provide child care for their employees.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

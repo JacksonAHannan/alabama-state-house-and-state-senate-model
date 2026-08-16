@@ -1,0 +1,11 @@
+{
+  "policy_key": "constitutional_convention",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "supporting or opposing state-level constitutional conventions",
+  "evidence_quote": "",
+  "needs_human_review": true,
+  "review_reason": "The question is about limiting contributions to candidates, not directly about a constitutional convention. The provided option (l) is unrelated to campaign finance reform and thus does **not** provide evidence for scoring the candidate's position on campaign finance or governmental reform. It is contextually irrelevant to the requested classification."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "national_missile_defense",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "National missile defense systems are proposed to protect the country from ballistic missile attacks.",
+  "evidence_quote": "e) National missile defense",
+  "needs_human_review": true,
+  "review_reason": "This is a specific policy option within a questionnaire context; classification requires external knowledge of conventional political alignment on this issue rather than candidate text inference."
+}

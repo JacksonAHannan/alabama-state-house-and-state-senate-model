@@ -1,0 +1,18 @@
+{
+  "primary_issue": "immigration",
+  "secondary_issues": [],
+  "plain_english_revision": "The amendment removes the phrase 'or criminal' from a section regarding liability protection and adds new language establishing state policy to encourage detaining mentally ill individuals who are deemed dangerous. It grants immunity to law enforcement, hospitals, physicians, and treatment facilities acting under this act, equating them with other state agents for purposes of Section 36-1-12 of the Code of Alabama. However, it explicitly states that nothing in this amendment modifies or repeals existing medical liability laws (Sections 6-5-333, 6-5-540, and 6-5-548) or their judicial interpretations.",
+  "revision_direction": "indeterminate",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "The amendment advances a policy of encouraging the detention of mentally ill individuals who are considered dangerous to themselves or others for evaluation and treatment, while providing immunity to state agents (law enforcement, hospitals, physicians) acting under this act. It maintains existing medical liability laws without modification.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "On page 1, line 19, delete \"or criminal\"",
+    "(d)(1) It is the policy of this state to encourage a law enforcement officer...to detaining individuals who are mentally ill and a danger to themselves or others for evaluation and treatment.",
+    "These entities and individuals are acting in the name of the state and are acting as state agents",
+    "When acting pursuant to this act, a law enforcement officer...shall be afforded immunity under Section 36-1-12, Code of Alabama 1975, as any other state employee or agent of the state.",
+    "Nothing in this act shall modify, amend, repeal, or supersede any provision of Section 6-5-333, Code of Alabama 1975..."
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

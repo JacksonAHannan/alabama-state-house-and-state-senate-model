@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_budget_spending_law_enforcement",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option represents a progressive stance by advocating for increased state funding specifically directed toward law enforcement and corrections. In the context of budget questions where higher numbers typically denote more spending or tax revenue, supporting dedicated funds for these sectors is conventionally viewed as expanding government responsibility in social order rather than reducing it.",
+  "evidence_quote": "Law enforcement/corrections",
+  "needs_human_review": false,
+  "review_reason": ""
+}

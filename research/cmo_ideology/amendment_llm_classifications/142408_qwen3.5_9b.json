@@ -1,0 +1,15 @@
+{
+  "primary_issue": "ethics_government",
+  "secondary_issues": [],
+  "plain_english_revision": "The amendment adds a condition to unemployment eligibility: individuals living within 45 miles of a municipality with at least 1,500 residents must search for work among multiple employers; those outside this area need only find one prospective employer.",
+  "revision_direction": "restricts_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "The amendment restricts unemployment benefits by imposing a stricter job-search requirement on residents near larger municipalities while maintaining a lower threshold for those in rural areas.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "if he or she resides within 45 miles of a municipality with a population of, 1,500 or more...",
+    "...or at least one prospective employer if he or she does not reside within 45 miles..."
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

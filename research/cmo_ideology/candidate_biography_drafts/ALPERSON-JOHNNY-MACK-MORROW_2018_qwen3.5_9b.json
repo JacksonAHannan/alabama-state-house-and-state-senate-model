@@ -1,0 +1,46 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "Johnny Mack Morrow is an Alabama legislative candidate who ran for the Senate in District 6 in 2018. Prior to this, he served as a representative for House District 18 since at least 2014 (representing the district for approximately 24 years by that time). His political profile emphasizes pro-life, pro-family, and Second Amendment positions alongside support for public education, teacher pay increases, educator recruitment/retention, AMSTI funding, classroom resources, school safety legislation allowing armed personnel/volunteers as reserve officers, opposition to shifting funds toward charter schools, veterans programming, local industrial projects, road projects, returning TVA in-lieu-of-tax money to local groups. He is described within the memo context of a 'white-rural ideological bundle' and culturally conservative differentiation.",
+  "offices_and_public_service": [
+    "Alabama House District 18 Representative (2014-2018)",
+    "Candidate for Alabama Senate District 6, 2018"
+  ],
+  "profession_and_employment": [],
+  "education": [],
+  "community_and_local_ties": [
+    "Franklin County",
+    "TVA in-lieu-of-tax money recipient groups (local)"
+  ],
+  "political_profile": [
+    "Pro-life",
+    "Pro-family",
+    "Second Amendment support",
+    "Public education defense",
+    "Opposition to shifting public-school funds toward charter schools",
+    "Teacher pay increases advocate",
+    "Educator recruitment and retention supporter",
+    "AMSTI funding supporter",
+    "Classroom resources advocate",
+    "School safety law sponsor (armed personnel/volunteers as reserve officers)",
+    "Veterans programming support"
+  ],
+  "important_caveats": [
+    "Memo notes his 2014 abortion position remains unrecovered.",
+    "Ideological presentation in 2018 should not be backdated four years to pre-2014 record."
+  ],
+  "source_urls_used": [
+    "https://www.franklincountytimes.com/2014/11/04/morrow-re-elected-to-house/",
+    "https://www.apr.org/politics-government/2013-03-07/ala-house-wont-override-school-safety-bill-veto",
+    "https://www.franklincountytimes.com/2013/01/30/invest-in-public-education/",
+    "https://www.franklincountytimes.com/2018/08/27/rep-johnny-mack-morrow-kicks-off-campaign-for-state-senate-district-6/"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://doi.org/10.7910/DVN/GZJOT3",
+    "https://www.apr.org/politics-government/2013-03-07/ala-house-wont-override-school-safety-bill-veto",
+    "https://www.franklincountytimes.com/2013/01/30/invest-in-public-education/",
+    "https://www.franklincountytimes.com/2014/11/04/morrow-re-elected-to-house/",
+    "https://www.franklincountytimes.com/2018/08/27/rep-johnny-mack-morrow-kicks-off-campaign-for-state-senate-district-6/",
+    "https://www.franklincountytimes.com/franklincountytimes/news/2014/11/04/morrow-re-elected-to-house/?host=www-franklincountytimes-com.newsmemory.net"
+  ]
+}

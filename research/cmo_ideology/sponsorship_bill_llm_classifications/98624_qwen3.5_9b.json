@@ -1,0 +1,15 @@
+{
+  "plain_english_policy": "This bill establishes a new local revenue stream for Etowah County by creating two mandatory fees in criminal, juvenile, traffic, and quasi-criminal cases. First, it creates a 'solicitor's fee' equal to the amount of court costs previously paid into the state Fair Trial Tax Fund; this money is split between funding the county law library and the local solicitor/district attorney office for legitimate law enforcement expenses. Second, it adds an additional $7 per case as court costs: $2 goes to the Sheriff's Office (for security and other purposes) and $5 goes to the Circuit or Municipal Clerk (for office operations). The fees are only waived if a defendant proves they cannot pay in the foreseeable future.",
+  "policy_direction_if_enacted": "Enactment would increase local court revenue for Etowah County by shifting costs from defendants who can afford them into specific county funds. It directs these new revenues specifically toward law enforcement operations (Sheriff, District Attorney), legal resources (Law Library), and administrative overhead (Clerks). The policy direction is to fund local justice system expenses through mandatory assessments on criminal cases rather than general taxation.",
+  "ideological_valence": "progressive",
+  "local_or_ceremonial": true,
+  "sponsorship_supports_position": "Senator Means (N & P) advanced this bill to implement these specific fee structures and fund distributions for Etowah County.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "\"a docket fee... shall be assessed in each case. The fees, when collected, shall be distributed monthly as follows: Three dollars ($3)... to the Etowah County Law Library Fund... and the remainder to the Solicitor's Fund\"",
+    "\"In addition to the solicitor's fee, an additional fee of seven dollars ($7) shall be assessed as court costs in each case to be distributed as follows: Two dollars ($2) to the Office of Sheriff... and five dollars ($5) to either the Circuit Clerk... or to the clerk of each municipality\"",
+    "\"The fees prescribed in Section 1 shall be collected in all criminal cases where the defendant is adjudged guilty, a bond forfeited, a penalty imposed, or where there is issued any alias or capias warrant of arrest. The fees shall not be waived unless the defendant proves... that the defendant is not capable of paying\""
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

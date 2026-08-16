@@ -1,0 +1,15 @@
+{
+  "plain_english_policy": "This bill is a **non-binding resolution** (HJR335) urging local governments to explore purchasing a privately owned toll bridge in Tuscaloosa County, Alabama. It does not allocate funds or mandate action but directs the Tuscaloosa County Commission, Tuscaloosa City Council, and Northport City Council to conduct a feasibility study on acquiring the **Black Warrior River Toll Bridge**.",
+  "policy_direction_if_enacted": "**Local Government Autonomy & Infrastructure Investment**",
+  "ideological_valence": "progressive",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "no_inference_beyond_text",
+  "confidence": "high",
+  "evidence_quotes": [
+    "**Toll bridge ownership transition**: 'the current toll rate would stay intact until the purchase price of the toll bridge is paid, and then the collection of the toll would cease'",
+    "**Economic development rationale**: 'the long term effect of the county owning the toll bridge would encourage economic development'",
+    "**Tax equity argument**: 'everyone living in the county... should have the opportunity to use the bridge because their tax dollars funded the construction of a large interchange near the bridge and now the citizens have to pay more money to access the interchange due to the fee at the toll bridge'"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The bill is clear in its intent, lacks ambiguity, and does not require external context beyond its text."
+}

@@ -1,0 +1,18 @@
+{
+  "primary_issue": "anti_esg_governance",
+  "secondary_issues": [
+    "criminal_justice",
+    "public_employee_benefits"
+  ],
+  "plain_english_revision": "The amendment adds a new Section 7 to HB24 that explicitly prohibits state-funded child placing agencies from discriminating based on race, color, religion, national origin, ethnicity, sex, sexual orientation, gender identity or expression, disability, or age. This effectively overrides any potential religious exemptions in the original bill by introducing an anti-discrimination mandate for funded agencies.",
+  "revision_direction": "restricts_policy",
+  "ideological_valence": "progressive",
+  "candidate_position_supported": "advocating for non-discriminatory practices in state-funded child placing agencies",
+  "confidence": "high",
+  "evidence_quotes": [
+    "no child placing agency that receives funding from the state... shall discriminate on the basis of race, color, religion, national origin, ethnicity, sex, sexual orientation, gender identity or expression, disability, or age.",
+    "Notwithstanding any other provision of this act..."
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment text is clear and unambiguous. It explicitly adds a new section that overrides potential exemptions in the original bill."
+}

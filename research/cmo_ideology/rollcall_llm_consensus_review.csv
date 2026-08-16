@@ -1,0 +1,4 @@
+roll_call_id,bill_number,candidate_issue,models_run,core_fields_agree,all_quotes_verified,ready_for_human_review,eligible_for_automatic_stance,review_priority
+1551124,HB7,immigration,2,True,False,True,False,quote_failure
+1551126,HB7,infrastructure,2,True,False,True,False,quote_failure
+1551793,HB244,public_education,2,False,False,True,False,high_disagreement

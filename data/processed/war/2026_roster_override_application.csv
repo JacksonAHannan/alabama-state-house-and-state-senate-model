@@ -1,0 +1,20 @@
+cycle,chamber,district,party,authoritative_name,resolution,applied
+2026,house,3,R,Kerry Bubba Underwood,same_person_certified_name,True
+2026,house,4,R,Parker Duncan Moore,same_person_certified_name,True
+2026,house,17,R,Phil Segraves,certification_add_runoff_winner,True
+2026,house,28,D,Robert Louis Hunter,same_person_certified_name,True
+2026,house,37,R,Jeff Monroe,certification_add_runoff_winner,True
+2026,house,41,D,David J. A. Morgan,same_person_certified_name,True
+2026,house,51,R,Allen Treadaway,retain_wikipedia_certification_omission,True
+2026,house,52,D,GiGi Hayes,certification_add_runoff_winner,True
+2026,house,68,D,Thomas E. Action Jackson,same_person_certified_name,True
+2026,house,70,R,Ian M. Chwatuk,ocr_correction_certified_name,True
+2026,house,75,D,Tisha Dickson Nickson,same_person_certified_name,True
+2026,house,76,D,Patrice Penni McClammy,same_person_certified_name,True
+2026,house,82,D,Pebblin W. Warren,certification_add_runoff_winner,True
+2026,house,85,D,Aristotle Onassis Kirkland,same_person_certified_name,True
+2026,house,95,R,Frances Holk-Jones,certification_add,True
+2026,senate,10,R,Andrew Jones,certified_replaces_misclassified_independent,True
+2026,senate,10,I,Jesse Battles,reclassify_independent,True
+2026,senate,23,R,Thayer Bear Havard Spencer,same_person_certified_name,True
+2026,senate,26,D,Kirk Hatcher,replace_conditional_certification,True

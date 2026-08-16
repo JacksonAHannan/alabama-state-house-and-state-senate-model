@@ -1,0 +1,11 @@
+{
+  "policy_key": "gatt_support",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks for support of GATT without specifying a stance that aligns with either conservative or progressive principles.",
+  "evidence_quote": "Do you support the General Agreement on Tariffs and Trade (GATT)?",
+  "needs_human_review": true,
+  "review_reason": "This is an administrative question asking for candidate preference rather than proposing a specific policy direction."
+}

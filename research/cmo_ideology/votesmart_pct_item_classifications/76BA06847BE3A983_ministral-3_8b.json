@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_discipline_spanking",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "opposition to corporal punishment in schools",
+  "evidence_quote": "Do you support the current law that allows teachers to spank a child as long as the teacher follows local school board policies?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "welfare_spending",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "level of public funding for welfare programs (e.g., social assistance, unemployment benefits)",
+  "evidence_quote": "",
+  "needs_human_review": true,
+  "review_reason": "The SOURCE TEXT is a blank prompt without any candidate response or policy position indicated. No defensible direction can be inferred from the provided text alone."
+}

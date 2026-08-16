@@ -1,0 +1,13 @@
+as_of,dimension,group,dem_margin_two_party,dem_two_party_share,pollsters,polls,effective_cell_base,first_poll,last_poll,method
+2026-06-30,education,focaldata_bachelors,19.279776902428964,0.5963988845121448,1,1,446.0,2026-06-30,2026-06-30,latest_pollster_cell_recency_population_weighted
+2026-06-30,education,focaldata_hs_or_less,7.215385595178276,0.5360769279758913,1,1,657.0,2026-06-30,2026-06-30,latest_pollster_cell_recency_population_weighted
+2026-06-30,education,focaldata_postgrad,-3.5665022726820865,0.4821674886365896,1,1,219.0,2026-06-30,2026-06-30,latest_pollster_cell_recency_population_weighted
+2026-06-30,education,focaldata_some_college_or_associate,9.63430114787056,0.5481715057393528,1,1,694.0,2026-06-30,2026-06-30,latest_pollster_cell_recency_population_weighted
+2026-06-30,education,yougov_college_grad,19.51219512195121,0.5975609756097561,1,1,565.0,2026-06-29,2026-06-29,latest_pollster_cell_recency_population_weighted
+2026-06-30,education,yougov_no_degree,-7.462686567164184,0.4626865671641791,1,1,1038.0,2026-06-29,2026-06-29,latest_pollster_cell_recency_population_weighted
+2026-06-30,overall,all,6.127605093333759,0.5306380254666687,2,2,3619.0,2026-06-29,2026-06-30,latest_pollster_cell_recency_population_weighted
+2026-06-30,race,asian,45.53653096325766,0.7276826548162882,1,1,70.0,2026-06-30,2026-06-30,latest_pollster_cell_recency_population_weighted
+2026-06-30,race,black,81.74381642169175,0.9087190821084586,2,2,465.0,2026-06-29,2026-06-30,latest_pollster_cell_recency_population_weighted
+2026-06-30,race,hispanic,19.301070010591356,0.5965053500529568,2,2,444.0,2026-06-29,2026-06-30,latest_pollster_cell_recency_population_weighted
+2026-06-30,race,other,-2.1148253247874322,0.4894258733760628,1,1,44.0,2026-06-30,2026-06-30,latest_pollster_cell_recency_population_weighted
+2026-06-30,race,white,-10.430822027184705,0.4478458898640764,2,2,2495.0,2026-06-29,2026-06-30,latest_pollster_cell_recency_population_weighted

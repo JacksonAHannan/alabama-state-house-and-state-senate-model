@@ -1,0 +1,11 @@
+{
+  "policy_key": "immigration_english_language",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Establishing English as the official national language is generally considered a progressive stance in immigration policy contexts within Alabama, reflecting support for assimilation and integration over multiculturalism.",
+  "evidence_quote": "b) Establish English as the official national language.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

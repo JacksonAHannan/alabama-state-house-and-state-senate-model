@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_campaign_finance_party_contrib_limits",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option 'Political Party' is a category label rather than a substantive policy position; it does not express support for or against limits on political party contributions.",
+  "evidence_quote": "4) Political Party",
+  "needs_human_review": true,
+  "review_reason": "This response appears to be an incomplete enumeration of contribution types (likely from a list including individuals, PACs, etc.) rather than a candidate's stated position. It lacks the necessary affirmative or negative stance required for ideological scoring."
+}

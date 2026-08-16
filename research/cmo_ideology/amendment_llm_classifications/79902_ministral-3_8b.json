@@ -1,0 +1,19 @@
+{
+  "primary_issue": "environment",
+  "secondary_issues": [
+    "public_education",
+    "health_social_services"
+  ],
+  "plain_english_revision": "This amendment expands the existing ban on smoking tobacco products in vehicles with minors to explicitly include vaping and electronic nicotine delivery systems (ENDS). It adds definitions for 'vape' or 'vaping' to clarify that these terms align with state regulations governing liquid nicotine containers.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "advances a policy that prohibits vaping in vehicles occupied by minors, using the same regulatory framework as tobacco products",
+  "confidence": "high",
+  "evidence_quotes": [
+    "or vaping",
+    "or to vape",
+    "(c) For purposes of this section, vape or vaping has the same meaning as electronic nicotine delivery system that carries a liquid nicotine container"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment text is clear and specific. No additional context from the underlying bill is required to understand its effect."
+}

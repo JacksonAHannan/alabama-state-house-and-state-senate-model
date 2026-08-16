@@ -1,0 +1,11 @@
+{
+  "policy_key": "unemployment_tax_credit_job_creation",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option supports using tax incentives to encourage businesses to relocate or expand in areas with high unemployment. This is generally considered a progressive economic policy because it prioritizes job creation for struggling communities and uses government intervention (tax credits) to address inequality, rather than relying solely on free-market mechanisms which might favor established industries.",
+  "evidence_quote": "Provide tax credits for companies that move job-creating industries into areas with high unemployment.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_governor_term_limits",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option asks about term limits for Alabama governors rather than campaign finance contributions as stated in the question stem.",
+  "evidence_quote": "a) Do you support limits on the number of terms for Alabama governors?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

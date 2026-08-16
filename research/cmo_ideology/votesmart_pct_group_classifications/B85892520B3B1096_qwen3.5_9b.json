@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_college_financial_aid",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting state-provided financial aid for college students is conventionally a progressive policy position as it expands access to higher education and reduces economic barriers.",
+  "evidence_quote": "Do you support the state government providing college students with financial aid?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

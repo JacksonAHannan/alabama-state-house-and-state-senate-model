@@ -1,0 +1,11 @@
+{
+  "policy_key": "wto_membership",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks for a position on WTO membership without specifying the stance.",
+  "evidence_quote": "Do you support continued U.S. membership in the World Trade Organization (WTO)?",
+  "needs_human_review": true,
+  "review_reason": "This is an open-ended question asking for preference rather than proposing specific policy content."
+}

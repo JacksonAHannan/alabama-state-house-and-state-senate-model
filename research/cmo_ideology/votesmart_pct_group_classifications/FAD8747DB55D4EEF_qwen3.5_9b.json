@@ -1,0 +1,11 @@
+{
+  "policy_key": "military_tribunals",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option asks whether to use military tribunals for suspected terrorists instead of civilian courts. This is a procedural and legal question about jurisdiction rather than an ideological stance on the size or role of government.",
+  "evidence_quote": "Do you support using military tribunals to try suspected terrorists when ordinary civilian courts are deemed inappropriate or impractical?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,17 @@
+{
+  "primary_issue": "healthcare_medicaid",
+  "secondary_issues": [
+    "public_education",
+    "school_choice"
+  ],
+  "plain_english_revision": "The amendment removes the requirement for a hearing in certain disciplinary actions against school board members, unless those actions involve a hearing. This change appears to streamline or reduce procedural safeguards for some forms of discipline.",
+  "revision_direction": "restricts_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Advances the policy effect of reducing administrative burdens on school board disciplinary processes by eliminating hearings for unspecified cases.",
+  "confidence": "low",
+  "evidence_quotes": [
+    "delete the following: , except those which involve a hearing"
+  ],
+  "needs_human_review": true,
+  "review_reason": "The amendment text is incomplete and lacks context for what constitutes 'those which involve a hearing.' The broader bill's intent or scope of disciplinary actions remains unclear."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_state_enforce_federal_immigration_laws",
+  "dimension": "immigration_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting state and local police enforcement of federal immigration laws is conventionally associated with progressive or civil rights-focused positions in Alabama contexts.",
+  "evidence_quote": "Do you support the enforcement of federal immigration laws by state and local police?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

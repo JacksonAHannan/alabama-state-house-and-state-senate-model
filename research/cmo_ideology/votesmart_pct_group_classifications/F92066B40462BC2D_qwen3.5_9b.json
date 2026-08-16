@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_crime_infrastructure_security",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Increasing state funding for critical infrastructure security against terrorism is a procedural or administrative measure focused on public safety and national defense rather than a traditional left-right ideological stance.",
+  "evidence_quote": "Increase state funding for additional security of critical infrastructure against terrorist attacks.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

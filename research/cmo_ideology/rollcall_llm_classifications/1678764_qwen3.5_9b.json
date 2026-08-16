@@ -1,0 +1,18 @@
+{
+  "primary_issue": "Classify the legislative roll call",
+  "secondary_issues": [
+    "Determine if final passage is established",
+    "Identify vote outcome from metadata"
+  ],
+  "plain_english_change": "The user wants to know how SB57 was voted on in the Alabama House based on provided text.",
+  "vote_stage": "final_passage",
+  "substantive_vote": true,
+  "yea_policy_effect": "Prohibit purchase of soda and candy with SNAP benefits if waiver granted",
+  "ideological_valence": "conservative",
+  "confidence": "high",
+  "evidence_quotes": [
+    "Read for the third time and passed as amended Yeas 24 Nays 2 Abstains 0"
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

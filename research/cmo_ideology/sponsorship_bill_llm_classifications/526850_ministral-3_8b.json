@@ -1,0 +1,15 @@
+{
+  "plain_english_policy": "HB410 (2013) is a targeted expansion of school-based policing in Alabama that prioritizes cost savings, flexibility, and limited oversight for retired officers while maintaining their full law enforcement authority. The bill\u2019s policy direction can be summarized as follows: **Increase reliance on part-time, retired law enforcement personnel to fill school resource officer (SRO) roles with minimal additional state or local costs, reduced training burdens, and broadened discretion over hiring and compensation.**",
+  "policy_direction_if_enacted": "The bill would produce a system where:",
+  "ideological_valence": "conservative",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "no_inference_beyond_text",
+  "confidence": "high",
+  "evidence_quotes": [
+    "\u2018A person who retired from the position of municipal police officer, deputy sheriff, or other position that required certification by the Alabama Peace Officers\u2019 Standards and Training Commission... may be employed as a part-time reserve school resource officer.\u2019",
+    "\u2018Part-time reserve school resource officers shall have all rights, privileges, and powers of a law enforcement officer certified by the commission under the laws of the state.\u2019",
+    "\u2018A part-time reserve school resource officer shall not be required to meet physical examination requirements or continuing education requirements other than those relating to firearms and use-of-force training.\u2019"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The bill\u2019s text is clear, actionable, and lacks ceremonial/appropriations-only ambiguity. It directly alters law enforcement certification standards for SROs and creates a new class of part-time officers with full authority but reduced oversight."
+}

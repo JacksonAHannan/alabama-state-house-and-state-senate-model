@@ -1,0 +1,19 @@
+{
+  "primary_issue": "school_choice",
+  "secondary_issues": [
+    "public_private_partnerships",
+    "criminal_justice"
+  ],
+  "plain_english_revision": "The amendment modifies qualifications for school resource officers (SROs) by removing vague language, adding a requirement for youth-focused training, and restricting arrest authority to certified officers. It also clarifies that retired law enforcement may qualify as SROs.",
+  "revision_direction": "restricts_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Advances a policy of **standardizing and restricting** the authority of school resource officers by requiring specialized youth training, limiting arrest powers to certified personnel, and clarifying eligibility criteria for retired officers.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "qualified under this section or retired law enforcement officers",
+    "has received specialized training to work with youth at a school site",
+    "Only those school resource officers who are certified by the Alabama Peace Officers' Standards and Training Commission shall have the power of arrest"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment's intent is clear from its explicit deletions/insertions, though broader context (e.g., original bill text) would confirm whether this reflects a shift toward stricter oversight or procedural clarification."
+}

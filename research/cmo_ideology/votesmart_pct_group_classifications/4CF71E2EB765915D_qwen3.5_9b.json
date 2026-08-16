@@ -1,0 +1,11 @@
+{
+  "policy_key": "immigration_unlawful_presence_return",
+  "dimension": "immigration_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Requiring unlawful immigrants to return home before citizenship is a progressive stance on immigration reform.",
+  "evidence_quote": "Do you support requiring immigrants who are unlawfully present to return to their country of origin before they are eligible for citizenship?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

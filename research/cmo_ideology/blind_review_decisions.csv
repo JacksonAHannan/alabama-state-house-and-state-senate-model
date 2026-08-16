@@ -1,0 +1,47 @@
+anonymous_case_id,dimension,reviewer_code,reviewer_confidence,reviewer_note
+CASE-25EED9A96C,economic_ideology,-1,medium,Public-investment and public-school emphasis relative to the caucus.
+CASE-25EED9A96C,labor_position,-1,medium,Organizational support suggests alignment but is weaker than a vote record.
+CASE-3F2CCBB5FA,economic_ideology,-1,high,Public education and opposition to the Accountability Act.
+CASE-3F2CCBB5FA,labor_position,-2,high,Organized-labor leadership was central to the candidate identity.
+CASE-1EC5602ADB,abortion_position,-1,medium,Indirect but directional support for protecting reproductive choice.
+CASE-1EC5602ADB,economic_ideology,-1,medium,Education priority and concern about stagnation indicate modest public-investment support.
+CASE-2E5602F68F,economic_ideology,-1,high,Direct platform supports public schools and Medicaid expansion while opposing public funding for private schools.
+CASE-622D164966,economic_ideology,-1,medium,Public-education reform priority indicates modest public-investment orientation but limited economic scope.
+CASE-622D164966,labor_position,-1,medium,Education-union campaign support indicates alignment but is weaker than policy or voting evidence.
+CASE-78790E22E0,overall_ideological_valence,2,low,Contemporary source explicitly calls the candidate highly conservative but is partisan and nonspecific.
+CASE-8D74E3DE3E,labor_position,-1,medium,Education-union contribution indicates limited organizational alignment.
+CASE-974E50234E,labor_position,-1,medium,Substantial and repeated education-union support indicates alignment without direct policy evidence.
+CASE-974E50234E,overall_ideological_valence,2,high,Pre-election ideal point places the candidate near the strongly conservative edge of the reference caucus.
+CASE-9C2E2CFC97,labor_position,-1,medium,Large education-union contribution indicates alignment despite refund and gross-total ambiguity.
+CASE-9C2E2CFC97,overall_ideological_valence,2,high,Pre-election ideal point places the candidate at the strongly conservative edge of the reference caucus.
+CASE-B95512F444,economic_ideology,-1,high,Direct support for immediate school funding is progressive public investment despite a regressive sales-tax instrument.
+CASE-B95512F444,overall_ideological_valence,1,high,Pre-election ideal point places the candidate modestly on the conservative side of the reference caucus.
+CASE-C8D7F161AA,labor_position,-1,medium,Education-union campaign support indicates alignment but supplies no direct policy evidence.
+CASE-D0D05CB38C,guns_position,-1,high,Sponsorship of a child-access safe-storage penalty is direct but narrowly scoped gun-regulation evidence.
+CASE-D0D05CB38C,overall_ideological_valence,-1,high,Pre-election ideal point places the candidate on the progressive side of the reference caucus.
+CASE-DDE96BA4BB,labor_position,-2,high,Prior union employment plus corroboration and a long education-sector record establish strong labor alignment.
+CASE-E118DC28E8,economic_ideology,-2,high,Direct advocacy spans pay increases staffing program funding classroom resources and public investment over deregulation.
+CASE-E118DC28E8,guns_position,1,high,Direct sponsorship supports armed school security but is too narrow for a stronger gun-rights code.
+CASE-E84040A89A,overall_ideological_valence,1,high,Pre-election ideal point places the candidate clearly but not extremely on the conservative side of the reference caucus.
+CASE-F33A7169AB,overall_ideological_valence,1,medium,A valid pre-election legislative ideal point places the candidate modestly on the conservative side though from prior-chamber service.
+CASE-F6144B0512,overall_ideological_valence,2,high,Pre-election ideal point places the candidate at the strongly conservative edge of the reference caucus.
+CASE-FC84CBAA62,economic_ideology,-1,high,Direct support for Medicaid expansion and education-funded public services indicates conventional progressive investment.
+CASE-7187CE22B3,economic_ideology,-1,high,Public services wage growth and environmental protection.
+CASE-7187CE22B3,social_ideology,-2,high,Explicit rejection of conservative culture-war priorities.
+CASE-29D86F0B63,overall_ideological_valence,1,high,Pre-election roll-call position near the conservative edge of the caucus.
+CASE-95FD3A196D,economic_ideology,-2,high,Universal health-care language and opposition to corporate tax privileges.
+CASE-602E4C7D32,economic_ideology,-1,medium,Education Trust Fund investment is left of the caucus midpoint economically.
+CASE-602E4C7D32,labor_position,-1,medium,AEA-aligned oversight measure is suggestive but not a comprehensive labor record.
+CASE-602E4C7D32,overall_ideological_valence,0,high,Common-space score is near the caucus median.
+CASE-C9A0B1D472,economic_ideology,-1,high,Public schools local business and social-service investment.
+CASE-C9A0B1D472,overall_ideological_valence,1,high,Pre-election roll-call position is relatively conservative within the caucus.
+CASE-E2D0093589,economic_ideology,-1,medium,Public education and industrial job preservation rather than fiscal conservatism.
+CASE-E2D0093589,guns_position,2,high,NRA score and stand-your-ground sponsorship give concordant evidence.
+CASE-E2D0093589,labor_position,-1,medium,Job preservation is labor-friendly but not direct union-position evidence.
+CASE-FB2339B984,abortion_position,2,high,Explicit contemporaneous pro-life description.
+CASE-FB2339B984,economic_ideology,-1,high,Public education retirement and opposition to charter funding shifts.
+CASE-FB2339B984,guns_position,2,high,Explicit contemporaneous pro-Second Amendment description.
+CASE-FB2339B984,social_ideology,2,high,Explicit conservative Democrat and pro-family description.
+CASE-95BFD68A83,guns_position,2,high,Sponsorship of a firearms-protection measure is direct behavioral evidence.
+CASE-CF6425FDCA,overall_ideological_valence,-1,high,Pre-election roll-call position is on the more progressive side of the caucus.
+CASE-1BB9FDBAC6,economic_ideology,-1,medium,Public education and broad health-care access emphasis.

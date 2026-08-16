@@ -1,0 +1,11 @@
+{
+  "policy_key": "sales_tax_levels",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The item asks for a specific tax level without defining the direction of change (increase or decrease), making it non-ideological and indeterminate.",
+  "evidence_quote": "Indicate the tax levels you will support. Select one level only.",
+  "needs_human_review": true,
+  "review_reason": "Item lacks directional context; selecting a 'level' does not inherently indicate conservative (higher) or progressive (lower) stance without knowing if it is an increase or decrease from current rates."
+}

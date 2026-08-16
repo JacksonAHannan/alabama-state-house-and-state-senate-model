@@ -1,0 +1,20 @@
+{
+  "primary_issue": "social_services",
+  "secondary_issues": [
+    "nutrition_policy",
+    "food_assistance"
+  ],
+  "plain_english_change": "Prohibits SNAP benefits from being used to buy candy and soda in Alabama, contingent on federal waiver approval. Requires state agencies to coordinate implementation with retailers and provide training.",
+  "vote_stage": "final_passage",
+  "substantive_vote": true,
+  "yea_policy_effect": "Restricts SNAP eligibility for candy/soda purchases if waiver granted",
+  "ideological_valence": "conservative",
+  "confidence": "high",
+  "evidence_quotes": [
+    "The commissioner of the department shall request a waiver from the USDA Food and Nutrition Service to authorize the department to exclude candy and soda from the definition of 'eligible foods' under 7 C.F.R. \u00a7 271.2.",
+    "If the waiver... is approved by the USDA Food and Nutrition Service, the department shall prohibit the use of SNAP benefits for the purchase of candy and soda",
+    "The Alabama Department of Revenue shall work directly with retailers to identify items included and excluded under the waiver"
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

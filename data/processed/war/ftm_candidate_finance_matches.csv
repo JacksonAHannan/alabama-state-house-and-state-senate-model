@@ -1,0 +1,779 @@
+cycle,chamber,district,party,candidate,ftm_candidate,fundraising_total,ftm_records,ftm_election_status,finance_observation_status,match_method,match_score,match_margin,source
+2010,house,1,D,GREG BURDINE,"BURDINE, GREG",128988.0,112.0,WON-GENERAL,observed,exact_tokens,100.0,77.77777777777777,FollowTheMoney candidate summary
+2010,house,1,R,QUINTON HANSON,"HANSON, QUINTON",193055.0,163.0,LOST-GENERAL,observed,exact_tokens,100.0,76.0,FollowTheMoney candidate summary
+2010,house,2,D,MIKE CURTIS,,,,,not_observed_unknown_not_zero,unmatched,80.0,80.0,FollowTheMoney candidate summary
+2010,house,2,R,LYNN GREER,,,,,not_observed_unknown_not_zero,unmatched,90.9090909090909,90.9090909090909,FollowTheMoney candidate summary
+2010,house,3,D,MARCEL BLACK,"BLACK, MARCEL",358691.0,162.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,4,D,VAUGHN GOODWIN,"GOODWIN, VAUGHN",62438.0,96.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,4,R,MICKY HAMMON,"HAMMON, MICKY",83743.0,195.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,5,D,HENRY A. WHITE,"WHITE, HENRY A",64700.0,33.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,5,R,DAN WILLIAMS,"WILLIAMS, DAN",124002.0,129.0,WON-GENERAL,observed,exact_tokens,100.0,60.0,FollowTheMoney candidate summary
+2010,house,6,R,PHIL WILLIAMS,"WILLIAMS, PHIL",67814.0,57.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,7,D,JOHN 'Jody' LETSON,,,,,not_observed_unknown_not_zero,unmatched,81.4814814814815,81.4814814814815,FollowTheMoney candidate summary
+2010,house,7,R,KEN JOHNSON,"JOHNSON, KEN",50888.0,42.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,8,D,DRAMA BRELAND,"BRELAND, DRAMA",134254.0,112.0,LOST-GENERAL,observed,exact_tokens,100.0,68.0,FollowTheMoney candidate summary
+2010,house,8,R,TERRI COLLINS,"COLLINS, TERRI",208786.0,352.0,WON-GENERAL,observed,exact_tokens,100.0,68.0,FollowTheMoney candidate summary
+2010,house,9,D,KATHY WHITE GOODWIN,"GOODWIN, KATHY WHITE",86523.0,35.0,LOST-GENERAL,observed,exact_tokens,100.0,67.56756756756756,FollowTheMoney candidate summary
+2010,house,9,R,ED HENRY,,,,,not_observed_unknown_not_zero,unmatched,80.0,38.620689655172406,FollowTheMoney candidate summary
+2010,house,10,R,MIKE BALL,,,,,not_observed_unknown_not_zero,unmatched,76.19047619047619,76.19047619047619,FollowTheMoney candidate summary
+2010,house,11,R,JEREMY H. ODEN,"ODEN, JEREMY H",161427.0,175.0,WON-GENERAL,observed,exact_tokens,100.0,63.63636363636363,FollowTheMoney candidate summary
+2010,house,12,D,"JAMES C. FIELDS, JR.","FIELDS JR, JAMES C",118980.0,204.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,12,R,MAC BUTTRAM,"BUTTRAM, MAC",19584.0,35.0,WON-GENERAL,observed,exact_tokens,100.0,83.33333333333334,FollowTheMoney candidate summary
+2010,house,13,D,TOMMY SHERER,"SHERER, TOMMY",39547.0,48.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,13,R,BILL ROBERTS,,,,,not_observed_unknown_not_zero,unmatched,85.71428571428572,48.677248677248684,FollowTheMoney candidate summary
+2010,house,14,D,KEN GUIN,"GUIN, KEN",319075.0,206.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,14,R,RICHARD BAUGHN,"BAUGHN, RICHARD",261266.0,83.0,WON-GENERAL,observed,exact_tokens,100.0,50.0,FollowTheMoney candidate summary
+2010,house,15,R,ALLEN FARLEY,"FARLEY, ALLEN",52187.0,109.0,WON-GENERAL,observed,exact_tokens,100.0,71.42857142857143,FollowTheMoney candidate summary
+2010,house,16,D,"WILLIAM E. THIGPEN, SR.","THIGPEN SR, WILLIAM E",129919.0,174.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,16,R,DANIEL H. BOMAN,,,,,not_observed_unknown_not_zero,unmatched,92.3076923076923,92.3076923076923,FollowTheMoney candidate summary
+2010,house,17,D,MIKE MILLICAN,,,,,not_observed_unknown_not_zero,unmatched,82.75862068965517,82.75862068965517,FollowTheMoney candidate summary
+2010,house,18,D,JOHNNY MACK MORROW,"MORROW, JOHNNY MACK",234027.0,135.0,WON-GENERAL,observed,exact_tokens,100.0,62.5,FollowTheMoney candidate summary
+2010,house,19,D,LAURA HALL,"HALL, LAURA",74000.0,34.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,20,R,HOWARD SANDERFORD,"SANDERFORD, HOWARD",94042.0,97.0,WON-GENERAL,observed,exact_tokens,100.0,61.29032258064516,FollowTheMoney candidate summary
+2010,house,21,D,RANDY HINSHAW,"HINSHAW, RANDY",237835.0,190.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,21,R,JIM PATTERSON,,,,,not_observed_unknown_not_zero,unmatched,85.71428571428572,85.71428571428572,FollowTheMoney candidate summary
+2010,house,22,D,BUTCH TAYLOR,"TAYLOR, BUTCH",290014.0,193.0,LOST-GENERAL,observed,exact_tokens,100.0,57.14285714285714,FollowTheMoney candidate summary
+2010,house,22,R,WAYNE JOHNSON,"JOHNSON, WAYNE",150433.0,82.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,23,D,JOHN ROBINSON,"ROBINSON, JOHN",51367.0,112.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,24,D,NATHANIEL LEDBETTER,"LEDBETTER, NATHANIEL",132075.0,83.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,24,R,TODD GREESON,"GREESON, TODD",195458.0,165.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,25,R,MAC McCUTCHEON,"MCCUTCHEON, MAC",40034.0,86.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,26,D,RANDALL WHITE,"WHITE, RANDALL",90386.0,79.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,26,R,KERRY RICH,"RICH, KERRY",165786.0,158.0,WON-GENERAL,observed,exact_tokens,100.0,63.63636363636363,FollowTheMoney candidate summary
+2010,house,27,D,JEFF McLAUGHLIN,"MCLAUGHLIN, JEFF",0.0,0.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,27,R,WES LONG,,,,,not_observed_unknown_not_zero,unmatched,84.21052631578947,56.9377990430622,FollowTheMoney candidate summary
+2010,house,28,D,CRAIG FORD,"FORD, CRAIG",263681.0,237.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,29,D,JOHN G. 'Jack' PAGE III,"PAGE III, JOHN G (JACK)",163721.0,180.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,29,R,BECKY NORDGREN,"NORDGREN, BECKY",48655.0,28.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,30,D,WALLY BURNS,"BURNS, WALLY",44460.0,83.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,30,R,BLAINE GALLIHER,"GALLIHER, BLAINE",235973.0,223.0,WON-GENERAL,observed,exact_tokens,100.0,65.51724137931035,FollowTheMoney candidate summary
+2010,house,31,R,BARRY MASK,"MASK, BARRY",47290.0,83.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,32,D,BARBARA BIGSBY BOYD,"BOYD, BARBARA BIGSBY",59375.0,58.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,32,R,RON STRUZIK,,,,,not_observed_unknown_not_zero,unmatched,88.0,88.0,FollowTheMoney candidate summary
+2010,house,33,R,RON JOHNSON,,,,,not_observed_unknown_not_zero,unmatched,93.33333333333333,93.33333333333333,FollowTheMoney candidate summary
+2010,house,34,R,ELWYN THOMAS,"THOMAS, ELWYN",39250.0,38.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,35,D,STEVE HURST,,,,,not_observed_unknown_not_zero,unmatched,66.66666666666667,66.66666666666667,FollowTheMoney candidate summary
+2010,house,35,R,STEVEN M. DEAN,,,,,not_observed_unknown_not_zero,unmatched,86.95652173913044,60.289855072463766,FollowTheMoney candidate summary
+2010,house,36,D,GARRY BEARDEN,"BEARDEN, GARRY",36650.0,13.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,36,R,RANDY WOOD,"WOOD, RANDY",158850.0,230.0,WON-GENERAL,observed,exact_tokens,100.0,72.41379310344828,FollowTheMoney candidate summary
+2010,house,37,D,RICHARD LAIRD,"LAIRD, RICHARD",115751.0,125.0,WON-GENERAL,observed,exact_tokens,100.0,61.53846153846154,FollowTheMoney candidate summary
+2010,house,37,R,BOB FINCHER,,,,,not_observed_unknown_not_zero,unmatched,87.5,87.5,FollowTheMoney candidate summary
+2010,house,38,D,HUEY P. LONG,"LONG, HUEY P",17962.0,36.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,38,R,DuWAYNE BRIDGES,,,,,not_observed_unknown_not_zero,unmatched,83.33333333333334,83.33333333333334,FollowTheMoney candidate summary
+2010,house,39,D,RICHARD LINDSEY,,,,,not_observed_unknown_not_zero,unmatched,93.75,93.75,FollowTheMoney candidate summary
+2010,house,39,R,TIM SPRAYBERRY,,,,,not_observed_unknown_not_zero,unmatched,73.6842105263158,73.6842105263158,FollowTheMoney candidate summary
+2010,house,40,D,RICKY WHALEY,"WHALEY, RICKY",43852.0,62.0,LOST-GENERAL,observed,exact_tokens,100.0,66.66666666666666,FollowTheMoney candidate summary
+2010,house,40,R,K.L. (Koven) BROWN,,,,,not_observed_unknown_not_zero,unmatched,89.65517241379311,89.65517241379311,FollowTheMoney candidate summary
+2010,house,41,R,MIKE HILL,,,,,not_observed_unknown_not_zero,unmatched,76.19047619047619,54.76190476190476,FollowTheMoney candidate summary
+2010,house,42,D,JAMES M. 'Jimmy' MARTIN,"MARTIN, JAMES M (JIMMY)",159581.0,140.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,42,R,KURT WALLACE,"WALLACE, KURT",153042.0,80.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,43,D,VIRGINIA SWEET,"SWEET, VIRGINIA",64227.0,370.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,43,R,MARY SUE McCLURKIN,"MCCLURKIN, MARY SUE",115672.0,169.0,WON-GENERAL,observed,exact_tokens,100.0,67.74193548387096,FollowTheMoney candidate summary
+2010,house,44,R,ARTHUR PAYNE,"PAYNE, ARTHUR",75300.0,81.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,45,D,CHARLENE CANNON,"CANNON, CHARLENE",35010.0,20.0,LOST-GENERAL,observed,exact_tokens,100.0,62.96296296296296,FollowTheMoney candidate summary
+2010,house,45,R,OWEN DRAKE,"DRAKE, OWEN",136100.0,119.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,46,R,PAUL DEMARCO,"DEMARCO, PAUL",129444.0,351.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,47,R,JACK WILLIAMS,"WILLIAMS, JACK",301643.0,291.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,48,R,GREG CANFIELD,,,,,not_observed_unknown_not_zero,unmatched,72.22222222222221,72.22222222222221,FollowTheMoney candidate summary
+2010,house,49,R,APRIL WEAVER,,,,,not_observed_unknown_not_zero,unmatched,92.3076923076923,54.21245421245421,FollowTheMoney candidate summary
+2010,house,50,R,JIM McCLENDON,,,,,not_observed_unknown_not_zero,unmatched,93.75,93.75,FollowTheMoney candidate summary
+2010,house,51,R,ALLEN TREADAWAY,"TREADAWAY, ALLEN",35400.0,50.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,52,D,JOHN W. ROGERS JR.,"ROGERS JR, JOHN W",200794.0,93.0,WON-GENERAL,observed,exact_tokens,100.0,72.97297297297297,FollowTheMoney candidate summary
+2010,house,53,D,DEMETRIUS C. NEWTON,"NEWTON, DEMETRIUS C",100992.0,61.0,WON-GENERAL,observed,exact_tokens,100.0,69.23076923076923,FollowTheMoney candidate summary
+2010,house,54,D,PATRICIA TODD,"TODD, PATRICIA",48959.0,104.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,55,D,ROD SCOTT,,,,,not_observed_unknown_not_zero,unmatched,66.66666666666667,66.66666666666667,FollowTheMoney candidate summary
+2010,house,56,D,LAWRENCE MCADORY,"MCADORY, LAWRENCE",55056.0,31.0,WON-GENERAL,observed,exact_tokens,100.0,57.57575757575758,FollowTheMoney candidate summary
+2010,house,57,D,MERIKA COLEMAN,"COLEMAN, MERIKA",71450.0,78.0,WON-GENERAL,observed,exact_tokens,100.0,50.0,FollowTheMoney candidate summary
+2010,house,58,D,OLIVER ROBINSON,"ROBINSON JR, OLIVER",134850.0,139.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,59,D,MARY MOORE,"MOORE, MARY",61192.0,44.0,WON-GENERAL,observed,exact_tokens,100.0,72.72727272727273,FollowTheMoney candidate summary
+2010,house,60,D,JUANDALYNN 'LEE LEE' GIVAN,"GIVAN, JUANDALYNN (LEE LEE)",36798.0,80.0,WON-GENERAL,observed,exact_tokens,100.0,59.09090909090909,FollowTheMoney candidate summary
+2010,house,61,D,ALAN HARPER,"HARPER, ALAN",141021.0,181.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,61,R,FRANK CHANDLER,,,,,not_observed_unknown_not_zero,unmatched,93.33333333333333,93.33333333333333,FollowTheMoney candidate summary
+2010,house,62,R,JOHN MERRILL,,,,,not_observed_unknown_not_zero,unmatched,92.3076923076923,42.30769230769231,FollowTheMoney candidate summary
+2010,house,63,D,SUSAN PACE HAMILL,"HAMILL, SUSAN PACE",266229.0,933.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,63,R,BILL POOLE,,,,,not_observed_unknown_not_zero,unmatched,83.87096774193549,67.20430107526883,FollowTheMoney candidate summary
+2010,house,64,R,HARRY SHIVER,"SHIVER, HARRY",51885.0,90.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,65,D,ELAINE BEECH,"BEECH, ELAINE",40816.0,62.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,66,R,ALAN BAKER,"BAKER, ALAN",66375.0,119.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,67,D,DARRIO MELTON,"MELTON, DARRIO",70733.0,105.0,WON-GENERAL,observed,exact_tokens,100.0,77.77777777777777,FollowTheMoney candidate summary
+2010,house,68,D,THOMAS E. (Action) JACKSON,"JACKSON, THOMAS E (ACTION)",108650.0,68.0,WON-GENERAL,observed,exact_tokens,100.0,24.324324324324323,FollowTheMoney candidate summary
+2010,house,69,D,DAVID COLSTON,"COLSTON, DAVID",71323.0,59.0,WON-GENERAL,observed,exact_tokens,100.0,70.37037037037038,FollowTheMoney candidate summary
+2010,house,70,D,CHRISTOPHER JOHN ENGLAND,"ENGLAND, CHRISTOPHER JOHN",59075.0,59.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,71,D,ARTIS 'A.J.' McCAMPBELL,"MCCAMPBELL, ARTIS (A J)",83900.0,77.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,72,D,RALPH A. HOWARD,"HOWARD, RALPH A",71278.0,41.0,WON-GENERAL,observed,exact_tokens,100.0,68.75,FollowTheMoney candidate summary
+2010,house,73,D,JOSEPH LISTER 'Joe' HUBBARD,"HUBBARD, JOSEPH LISTER (JOE)",222289.0,383.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,73,R,DAVID GRIMES,"GRIMES, DAVID",238438.0,245.0,LOST-GENERAL,observed,exact_tokens,100.0,76.0,FollowTheMoney candidate summary
+2010,house,74,R,JAY LOVE,"LOVE JR, JAY",84125.0,149.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,75,D,GLENN L. ALLEN,"ALLEN, GLENN L",0.0,0.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,75,R,GREG WREN,,,,,not_observed_unknown_not_zero,unmatched,78.26086956521739,78.26086956521739,FollowTheMoney candidate summary
+2010,house,76,D,THAD McCLAMMY,"MCCLAMMY, THAD",167351.0,196.0,WON-GENERAL,observed,exact_tokens,100.0,78.57142857142857,FollowTheMoney candidate summary
+2010,house,77,D,JOHN KNIGHT,"KNIGHT, JOHN",225765.0,158.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,78,D,ALVIN HOLMES,"HOLMES, ALVIN",115381.0,70.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,79,R,MIKE HUBBARD,,,,,not_observed_unknown_not_zero,unmatched,81.4814814814815,81.4814814814815,FollowTheMoney candidate summary
+2010,house,80,D,LESLEY VANCE,"VANCE, LESLEY",258090.0,172.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,80,R,MERVIN DUDLEY,"DUDLEY, MERVIN",11500.0,15.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,81,D,BETTY CAROL GRAHAM,"GRAHAM, BETTY CAROL",289579.0,195.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,81,R,MARK M. TUGGLE,"TUGGLE, MARK M",222380.0,222.0,WON-GENERAL,observed,exact_tokens,100.0,68.0,FollowTheMoney candidate summary
+2010,house,82,D,PEBBLIN W. WARREN,"WARREN, PEBBLIN W",83752.0,98.0,WON-GENERAL,observed,exact_tokens,100.0,64.10256410256412,FollowTheMoney candidate summary
+2010,house,83,D,GEORGE 'Tootie' BANDY,"BANDY, GEORGE (TOOTIE)",33584.0,31.0,WON-GENERAL,observed,exact_tokens,100.0,60.0,FollowTheMoney candidate summary
+2010,house,84,D,BERRY FORTE,"FORTE, BERRY",49691.0,41.0,WON-GENERAL,observed,exact_tokens,100.0,73.33333333333333,FollowTheMoney candidate summary
+2010,house,84,R,JOYCE L. PERRIN,"PERRIN, JOYCE L",4908.0,36.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,85,D,DEXTER GRIMSLEY,"GRIMSLEY, DEXTER",91695.0,63.0,WON-GENERAL,observed,exact_tokens,100.0,75.0,FollowTheMoney candidate summary
+2010,house,85,R,JODY SINGLETON,"SINGLETON, JODY",155162.0,150.0,LOST-GENERAL,observed,exact_tokens,100.0,60.0,FollowTheMoney candidate summary
+2010,house,86,D,MERRITT CAROTHERS,"CAROTHERS, MERRITT",151322.0,92.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,86,R,PAUL LEE,"LEE, PAUL",267653.0,162.0,WON-GENERAL,observed,exact_tokens,100.0,75.0,FollowTheMoney candidate summary
+2010,house,87,R,DONNIE CHESTEEN,"CHESTEEN, DONNIE",144447.0,133.0,WON-GENERAL,observed,exact_tokens,100.0,60.0,FollowTheMoney candidate summary
+2010,house,88,R,PAUL BECKMAN,"BECKMAN, PAUL",88072.0,109.0,WON-GENERAL,observed,exact_tokens,100.0,75.0,FollowTheMoney candidate summary
+2010,house,89,D,ALAN C. BOOTHE,"BOOTHE, ALAN C",95533.0,81.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,90,D,CHARLES NEWTON,"NEWTON, CHARLES",23175.0,31.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,90,R,JERRY HARTIN,"HARTIN, JERRY",5996.0,6.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,91,D,TERRY SPICER,"SPICER, TERRY",331170.0,127.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,91,R,BARRY MOORE,,,,,not_observed_unknown_not_zero,unmatched,78.57142857142857,78.57142857142857,FollowTheMoney candidate summary
+2010,house,92,D,DAVID S. DARBY,"DARBY, DAVID S",37580.0,38.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,92,R,"MIKE JONES, JR.",,,,,not_observed_unknown_not_zero,unmatched,78.26086956521739,49.68944099378882,FollowTheMoney candidate summary
+2010,house,93,D,RONNIE HELMS,"HELMS, RONNIE",0.0,0.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,93,R,STEVE CLOUSE,"CLOUSE, STEVE",110810.0,155.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,94,R,JOE FAUST,"FAUST SR, JOE",82452.0,84.0,WON-GENERAL,observed,exact_tokens,100.0,78.94736842105263,FollowTheMoney candidate summary
+2010,house,95,R,STEVE McMILLAN,"MCMILLAN, STEVE",42275.0,50.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,96,R,RANDY DAVIS,"DAVIS, RANDY",66267.0,197.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,97,D,YVONNE KENNEDY,"KENNEDY, YVONNE",31750.0,26.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,98,D,"NAPOLEON BRACY, JR.","BRACY JR, NAPOLEON",100075.0,108.0,WON-GENERAL,observed,exact_tokens,100.0,64.28571428571429,FollowTheMoney candidate summary
+2010,house,98,R,SHARON L. POWE,"POWE, SHARON L",12375.0,26.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,99,D,JAMES E BUSKEY,"BUSKEY, JAMES E",128424.0,115.0,WON-GENERAL,observed,exact_tokens,100.0,61.53846153846154,FollowTheMoney candidate summary
+2010,house,100,R,VICTOR GASTON,"GASTON, VICTOR",71230.0,208.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,101,R,JAMIE ISON,,,,,not_observed_unknown_not_zero,unmatched,90.0,90.0,FollowTheMoney candidate summary
+2010,house,102,R,CHAD FINCHER,"FINCHER, CHAD",61015.0,150.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,103,D,JOSEPH C. MITCHELL,"MITCHELL, JOSEPH C",23761.0,24.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,house,104,R,JIM BARTON,,,,,not_observed_unknown_not_zero,unmatched,81.81818181818181,56.81818181818181,FollowTheMoney candidate summary
+2010,house,105,R,SPENCER COLLIER,,,,,not_observed_unknown_not_zero,unmatched,85.71428571428572,85.71428571428572,FollowTheMoney candidate summary
+2010,senate,1,D,TAMMY L. IRONS,"IRONS, TAMMY L",273998.0,728.0,WON-GENERAL,observed,exact_tokens,100.0,68.0,FollowTheMoney candidate summary
+2010,senate,1,R,JERRY FREEMAN,,,,,not_observed_unknown_not_zero,unmatched,78.78787878787878,52.12121212121211,FollowTheMoney candidate summary
+2010,senate,2,D,TOM BUTLER,,,,,not_observed_unknown_not_zero,unmatched,86.95652173913044,86.95652173913044,FollowTheMoney candidate summary
+2010,senate,2,R,BILL HOLTZCLAW,,,,,not_observed_unknown_not_zero,unmatched,58.06451612903225,58.06451612903225,FollowTheMoney candidate summary
+2010,senate,3,R,ARTHUR ORR,"ORR, ARTHUR",293315.0,428.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,senate,4,D,ZEB LITTLE,"LITTLE, ZEB",1271946.0,377.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,senate,4,R,PAUL BUSSMAN,"BUSSMAN, PAUL",431599.0,234.0,WON-GENERAL,observed,exact_tokens,100.0,63.63636363636363,FollowTheMoney candidate summary
+2010,senate,5,D,BRETT WADSWORTH,"WADSWORTH, BRETT",70376.0,46.0,LOST-GENERAL,observed,exact_tokens,100.0,73.33333333333333,FollowTheMoney candidate summary
+2010,senate,5,R,GREG REED,"REED, GREG",503217.0,647.0,WON-GENERAL,observed,exact_tokens,100.0,58.333333333333336,FollowTheMoney candidate summary
+2010,senate,6,D,"ROGER BEDFORD, JR.","BEDFORD JR, ROGER",1189230.0,947.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,senate,6,R,JIM BONNER,,,,,not_observed_unknown_not_zero,unmatched,81.81818181818181,81.81818181818181,FollowTheMoney candidate summary
+2010,senate,7,D,JEFF ENFINGER,"ENFINGER, JEFF",549367.0,423.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,senate,7,R,PAUL L. SANFORD,"SANFORD, PAUL L",425853.0,208.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,senate,8,D,LOWELL BARRON,,,,,not_observed_unknown_not_zero,unmatched,92.85714285714286,92.85714285714286,FollowTheMoney candidate summary
+2010,senate,8,R,SHADRACK McGILL,"MCGILL, SHADRACK",217861.0,160.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,senate,9,D,TIM MITCHELL,"MITCHELL, TIM",104527.0,69.0,LOST-GENERAL,observed,exact_tokens,100.0,64.28571428571429,FollowTheMoney candidate summary
+2010,senate,9,R,CLAY SCOFIELD,"SCOFIELD, CLAY",305203.0,202.0,WON-GENERAL,observed,exact_tokens,100.0,68.0,FollowTheMoney candidate summary
+2010,senate,10,D,LARRY MEANS,"MEANS, LARRY",606896.0,468.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,senate,10,R,PHIL WILLIAMS,,,,,not_observed_unknown_not_zero,unmatched,83.87096774193549,48.15668202764978,FollowTheMoney candidate summary
+2010,senate,11,D,JERRY L. FIELDING,"FIELDING, JERRY L",621876.0,184.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,senate,11,R,RAY ROBBINS,"ROBBINS, RAY",405910.0,152.0,LOST-GENERAL,observed,exact_tokens,100.0,73.33333333333333,FollowTheMoney candidate summary
+2010,senate,12,D,"WALLACE WYATT, JR.","WYATT JR, WALLACE",116645.0,66.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,senate,12,R,DEL MARSH,"MARSH, DEL",702624.0,342.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,senate,13,D,GREG VARNER,"VARNER, GREG",1138849.0,172.0,LOST-GENERAL,observed,exact_tokens,100.0,68.0,FollowTheMoney candidate summary
+2010,senate,13,R,GERALD DIAL,"DIAL, GERALD",404209.0,177.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,senate,14,R,CAM WARD,,,,,not_observed_unknown_not_zero,unmatched,59.25925925925925,59.25925925925925,FollowTheMoney candidate summary
+2010,senate,15,R,SLADE BLACKWELL,,,,,not_observed_unknown_not_zero,unmatched,85.71428571428572,56.084656084656096,FollowTheMoney candidate summary
+2010,senate,16,R,"J. T. ""JABO"" WAGGONER",,,,,not_observed_unknown_not_zero,unmatched,90.9090909090909,90.9090909090909,FollowTheMoney candidate summary
+2010,senate,17,D,T. E. 'Tommy' HUDSON,,,,,not_observed_unknown_not_zero,unmatched,90.32258064516128,90.32258064516128,FollowTheMoney candidate summary
+2010,senate,17,R,SCOTT BEASON,"BEASON, SCOTT",268494.0,134.0,WON-GENERAL,observed,exact_tokens,100.0,91.66666666666666,FollowTheMoney candidate summary
+2010,senate,18,D,RODGER M. SMITHERMAN,"SMITHERMAN, RODGER M",486505.0,194.0,WON-GENERAL,observed,exact_tokens,100.0,57.14285714285714,FollowTheMoney candidate summary
+2010,senate,19,D,PRISCILLA DUNN,"DUNN, PRISCILLA",210291.0,114.0,WON-GENERAL,observed,exact_tokens,100.0,70.37037037037038,FollowTheMoney candidate summary
+2010,senate,20,D,LINDA COLEMAN,,,,,not_observed_unknown_not_zero,unmatched,76.47058823529412,76.47058823529412,FollowTheMoney candidate summary
+2010,senate,21,D,PHIL POOLE,"POOLE, PHIL",361381.0,117.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,senate,21,R,GERALD ALLEN,"ALLEN, GERALD",434169.0,284.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,senate,22,D,MARC KEAHEY,,,,,not_observed_unknown_not_zero,unmatched,70.96774193548387,70.96774193548387,FollowTheMoney candidate summary
+2010,senate,22,R,DANNY B. JOYNER,"JOYNER, DANNY B",52801.0,36.0,LOST-GENERAL,observed,exact_tokens,100.0,76.92307692307693,FollowTheMoney candidate summary
+2010,senate,23,D,HANK SANDERS,,,,,not_observed_unknown_not_zero,unmatched,80.0,49.230769230769226,FollowTheMoney candidate summary
+2010,senate,24,D,BOBBY SINGLETON,"SINGLETON, BOBBY",283500.0,101.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,senate,25,D,DOUG 'Smitty' SMITH,"SMITH, DOUG (SMITTY)",0.0,0.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,senate,25,R,DICK L. BREWBAKER,"BREWBAKER, DICK L",185013.0,239.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,senate,26,D,"QUINTON T. ROSS, JR.","ROSS JR, QUINTON T",366203.0,172.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,senate,27,D,T. D. (Ted) LITTLE,,,,,not_observed_unknown_not_zero,unmatched,88.88888888888889,88.88888888888889,FollowTheMoney candidate summary
+2010,senate,27,R,TOM WHATLEY,,,,,not_observed_unknown_not_zero,unmatched,93.33333333333333,93.33333333333333,FollowTheMoney candidate summary
+2010,senate,28,D,BILLY BEASLEY,,,,,not_observed_unknown_not_zero,unmatched,72.22222222222221,30.84291187739462,FollowTheMoney candidate summary
+2010,senate,28,R,KIM WEST,"WEST, KIM",12681.0,44.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,senate,29,R,GEORGE FLOWERS,,,,,not_observed_unknown_not_zero,unmatched,82.35294117647058,67.53812636165577,FollowTheMoney candidate summary
+2010,senate,30,D,'Walking' WENDELL MITCHELL,"MITCHELL, WENDELL (WALKING)",463252.0,263.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,senate,30,R,BRYAN TAYLOR,"TAYLOR, BRYAN",492395.0,394.0,WON-GENERAL,observed,exact_tokens,100.0,61.904761904761905,FollowTheMoney candidate summary
+2010,senate,31,R,JIMMY W. HOLLEY,"HOLLEY, JIMMY W",121350.0,63.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,senate,32,R,TRIP PITTMAN,"PITTMAN, TRIP",174175.0,292.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,senate,33,D,VIVIAN DAVIS FIGURES,,,,,not_observed_unknown_not_zero,unmatched,82.35294117647058,64.1711229946524,FollowTheMoney candidate summary
+2010,senate,33,R,BRAD MOSER,"MOSER, BRAD",0.0,0.0,LOST-GENERAL,observed,exact_tokens,100.0,50.0,FollowTheMoney candidate summary
+2010,senate,34,R,RUSTY GLOVER,"GLOVER, RUSTY",101800.0,53.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,senate,35,D,SCOTT A BUZBEE,"BUZBEE, SCOTT A",79722.0,34.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2010,senate,35,R,BEN BROOKS,"BROOKS, BEN",323018.0,387.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,1,D,Greg Burdine,"BURDINE, GREG",134428.0,155.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,1,R,Phillip Pettus,"PETTUS, PHILLIP",40036.0,69.0,WON-GENERAL,observed,exact_tokens,100.0,70.58823529411765,FollowTheMoney candidate summary
+2014,house,2,D,"Andrew ""Andy"" Betterton","BETTERTON, ANDREW (ANDY)",107335.0,59.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,2,R,Lynn Greer,,,,,not_observed_unknown_not_zero,unmatched,90.9090909090909,90.9090909090909,FollowTheMoney candidate summary
+2014,house,3,D,Marcel Black,"BLACK, MARCEL",89150.0,82.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,3,R,Fred Joly,"JOLY, FRED",22398.0,62.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,4,R,Micky Hammon,"HAMMON, MICKY",57800.0,53.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,5,D,Henry A. White,"WHITE, HENRY A",135029.0,27.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,5,R,Dan Williams,"WILLIAMS, DAN",234844.0,192.0,WON-GENERAL,observed,exact_tokens,100.0,76.0,FollowTheMoney candidate summary
+2014,house,6,R,Phil Williams,"WILLIAMS, PHIL",42325.0,152.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,7,D,John (Jody) Letson,,,,,not_observed_unknown_not_zero,unmatched,81.4814814814815,81.4814814814815,FollowTheMoney candidate summary
+2014,house,7,R,Ken Johnson,"JOHNSON, KEN",279055.0,201.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,8,D,Rex Cheatham,"CHEATHAM, REX",87116.0,89.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,8,R,Terri Collins,"COLLINS, TERRI",273039.0,316.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,9,R,Ed Henry,,,,,not_observed_unknown_not_zero,unmatched,80.0,49.230769230769226,FollowTheMoney candidate summary
+2014,house,10,R,Mike Ball,,,,,not_observed_unknown_not_zero,unmatched,76.19047619047619,76.19047619047619,FollowTheMoney candidate summary
+2014,house,11,R,Randall Shedd,,,,,not_observed_unknown_not_zero,unmatched,92.85714285714286,92.85714285714286,FollowTheMoney candidate summary
+2014,house,12,R,Corey Harbison,"HARBISON, COREY",125118.0,84.0,WON-GENERAL,observed,exact_tokens,100.0,60.0,FollowTheMoney candidate summary
+2014,house,14,R,Tim Wadsworth,,,,,not_observed_unknown_not_zero,unmatched,81.25,59.02777777777778,FollowTheMoney candidate summary
+2014,house,15,R,Allen Farley,"FARLEY, ALLEN",33660.0,69.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,16,D,Daniel H. Boman,,,,,not_observed_unknown_not_zero,unmatched,92.3076923076923,92.3076923076923,FollowTheMoney candidate summary
+2014,house,16,R,Kyle South,"SOUTH, KYLE",212385.0,238.0,WON-GENERAL,observed,exact_tokens,100.0,68.0,FollowTheMoney candidate summary
+2014,house,17,D,Don Barnwell,"BARNWELL, DON",26265.0,18.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,17,R,Mike Millican,,,,,not_observed_unknown_not_zero,unmatched,82.75862068965517,59.6816976127321,FollowTheMoney candidate summary
+2014,house,18,D,Johnny MacK Morrow,"MORROW, JOHNNY MACK",340979.0,210.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,18,R,Gerry Wallace,"WALLACE, GERRY",13691.0,49.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,19,D,Laura Hall,"HALL, LAURA",67334.0,124.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,20,R,Howard Sanderford,"SANDERFORD, HOWARD",56987.0,80.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,21,D,C. Terry Jones,"JONES, C TERRY",58397.0,19.0,LOST-GENERAL,observed,exact_tokens,100.0,38.46153846153846,FollowTheMoney candidate summary
+2014,house,21,R,Jim Patterson,,,,,not_observed_unknown_not_zero,unmatched,85.71428571428572,85.71428571428572,FollowTheMoney candidate summary
+2014,house,22,D,Dennis W. Stephens,"STEPHENS, DENNIS W",16754.0,21.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,22,R,Ritchie Whorton,"WHORTON, RITCHIE",140402.0,143.0,WON-GENERAL,observed,exact_tokens,100.0,71.42857142857143,FollowTheMoney candidate summary
+2014,house,23,D,John Robinson,"ROBINSON, JOHN",108569.0,36.0,LOST-GENERAL,observed,exact_tokens,100.0,72.72727272727273,FollowTheMoney candidate summary
+2014,house,23,R,"James T. ""Tommy"" Hanes Jr.","HANES JR, JAMES T (TOMMY)",125109.0,59.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,25,R,Mac McCutcheon,"MCCUTCHEON, MAC",231771.0,264.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,26,R,Kerry Rich,"RICH, KERRY",155309.0,219.0,WON-GENERAL,observed,exact_tokens,100.0,68.0,FollowTheMoney candidate summary
+2014,house,27,D,Jeff McLaughlin,"MCLAUGHLIN, JEFF",40150.0,47.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,27,R,Will Ainsworth,,,,,not_observed_unknown_not_zero,unmatched,73.6842105263158,73.6842105263158,FollowTheMoney candidate summary
+2014,house,28,D,Craig Ford,"FORD, CRAIG",456385.0,312.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,28,R,Doug Sherrod,"SHERROD, DOUG",35697.0,123.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,29,D,Michael J. Gladden,"GLADDEN, MICHAEL J",55881.0,76.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,29,R,Becky Nordgren,"NORDGREN, BECKY",215735.0,222.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,30,R,MacK N. Butler,"BUTLER, MACK N",300359.0,221.0,WON-GENERAL,observed,exact_tokens,100.0,68.0,FollowTheMoney candidate summary
+2014,house,31,R,Mike Holmes,,,,,not_observed_unknown_not_zero,unmatched,80.0,80.0,FollowTheMoney candidate summary
+2014,house,32,D,Barbara Bigsby Boyd,"BOYD, BARBARA BIGSBY",60474.0,58.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,33,D,Anthony Zachero,"ZACHERO, ANTHONY",1593.0,5.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,33,R,Ron Johnson,,,,,not_observed_unknown_not_zero,unmatched,93.33333333333333,93.33333333333333,FollowTheMoney candidate summary
+2014,house,34,R,David Standridge,"STANDRIDGE, DAVID",84910.0,53.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,35,R,Steve Hurst,,,,,not_observed_unknown_not_zero,unmatched,66.66666666666667,9.523809523809533,FollowTheMoney candidate summary
+2014,house,36,R,Randy Wood,"WOOD, RANDY",63200.0,124.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,37,D,Josh Burns,"BURNS, JOSH",55923.0,30.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,37,R,Bob Fincher,,,,,not_observed_unknown_not_zero,unmatched,87.5,66.8103448275862,FollowTheMoney candidate summary
+2014,house,38,R,Isaac Whorton,,,,,not_observed_unknown_not_zero,unmatched,92.3076923076923,50.64102564102564,FollowTheMoney candidate summary
+2014,house,39,D,Richard Lindsey,,,,,not_observed_unknown_not_zero,unmatched,93.75,93.75,FollowTheMoney candidate summary
+2014,house,39,R,Heath Jones,"JONES, HEATH",5891.0,27.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,41,R,Mike Hill,,,,,not_observed_unknown_not_zero,unmatched,76.19047619047619,76.19047619047619,FollowTheMoney candidate summary
+2014,house,42,R,"James M. ""Jimmy"" Martin","MARTIN, JAMES M (JIMMY)",132755.0,51.0,WON-GENERAL,observed,exact_tokens,100.0,87.5,FollowTheMoney candidate summary
+2014,house,43,R,Arnold Mooney,,,,,not_observed_unknown_not_zero,unmatched,92.85714285714286,52.85714285714286,FollowTheMoney candidate summary
+2014,house,44,R,Danny Garrett,,,,,not_observed_unknown_not_zero,unmatched,74.28571428571429,40.952380952380956,FollowTheMoney candidate summary
+2014,house,45,R,Dickie Drake,,,,,not_observed_unknown_not_zero,unmatched,70.58823529411764,70.58823529411764,FollowTheMoney candidate summary
+2014,house,46,R,David Faulkner,,,,,not_observed_unknown_not_zero,unmatched,75.67567567567568,47.10424710424711,FollowTheMoney candidate summary
+2014,house,47,D,Salvatore Bambinelli,"BAMBINELLI, SALVATORE",0.0,0.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,47,R,Jack Williams,"WILLIAMS, JACK",567363.0,492.0,WON-GENERAL,observed,exact_tokens,100.0,71.42857142857143,FollowTheMoney candidate summary
+2014,house,48,R,Jim Carns,,,,,not_observed_unknown_not_zero,unmatched,80.0,80.0,FollowTheMoney candidate summary
+2014,house,49,R,April Weaver,,,,,not_observed_unknown_not_zero,unmatched,92.3076923076923,92.3076923076923,FollowTheMoney candidate summary
+2014,house,50,R,Jim Hill,,,,,not_observed_unknown_not_zero,unmatched,77.77777777777779,77.77777777777779,FollowTheMoney candidate summary
+2014,house,51,R,Allen Treadaway,"TREADAWAY, ALLEN",14200.0,22.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,52,D,John W. Rogers  Jr.,"ROGERS JR, JOHN W",169104.0,104.0,WON-GENERAL,observed,exact_tokens,100.0,71.42857142857143,FollowTheMoney candidate summary
+2014,house,52,R,Phillip Bahakel,"BAHAKEL, PHILLIP",13200.0,6.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,53,D,Anthony Daniels,"DANIELS, ANTHONY",92607.0,401.0,WON-GENERAL,observed,exact_tokens,100.0,44.44444444444444,FollowTheMoney candidate summary
+2014,house,53,R,Christopher Horn,,,,,not_observed_unknown_not_zero,unmatched,73.33333333333334,48.33333333333334,FollowTheMoney candidate summary
+2014,house,54,D,Patricia A. Todd,,,,,not_observed_unknown_not_zero,unmatched,92.85714285714286,60.59907834101382,FollowTheMoney candidate summary
+2014,house,55,D,"Roderick ""Rod"" Scott","SCOTT, RODERICK (ROD)",138599.0,119.0,WON-GENERAL,observed,exact_tokens,100.0,57.14285714285714,FollowTheMoney candidate summary
+2014,house,56,D,Louise Alexander,,,,,not_observed_unknown_not_zero,unmatched,86.48648648648648,48.986486486486484,FollowTheMoney candidate summary
+2014,house,56,R,Darius Foster,"FOSTER, DARIUS",114147.0,203.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,57,D,Merika Coleman,"COLEMAN, MERIKA",108485.0,77.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,58,D,Oliver Robinson,"ROBINSON JR, OLIVER",109300.0,97.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,59,D,Mary Moore,"MOORE, MARY",59083.0,62.0,WON-GENERAL,observed,exact_tokens,100.0,69.23076923076923,FollowTheMoney candidate summary
+2014,house,60,D,"Juandalynn ""Lele"" Givan",,,,,not_observed_unknown_not_zero,unmatched,93.33333333333333,58.33333333333333,FollowTheMoney candidate summary
+2014,house,61,R,Alan Harper,"HARPER, ALAN",207086.0,179.0,WON-GENERAL,observed,exact_tokens,100.0,71.42857142857143,FollowTheMoney candidate summary
+2014,house,62,R,Rich Wingo,"WINGO, RICH",105698.0,98.0,WON-GENERAL,observed,exact_tokens,100.0,83.33333333333334,FollowTheMoney candidate summary
+2014,house,63,R,Bill Poole,,,,,not_observed_unknown_not_zero,unmatched,83.87096774193549,83.87096774193549,FollowTheMoney candidate summary
+2014,house,64,R,Harry Shiver,"SHIVER, HARRY",109100.0,82.0,WON-GENERAL,observed,exact_tokens,100.0,63.63636363636363,FollowTheMoney candidate summary
+2014,house,65,D,Elaine Beech,"BEECH, ELAINE",52450.0,64.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,66,R,Alan Baker,"BAKER, ALAN",57099.0,87.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,67,D,Darrio Melton,"MELTON, DARRIO",49924.0,133.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,68,D,"Thomas E ""Action"" Jackson","JACKSON, THOMAS E (ACTION)",48150.0,29.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,69,D,Kelvin J. Lawrence,"LAWRENCE, KELVIN J",38600.0,48.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,69,R,Loretta G. Grant,"GRANT, LORETTA G",18446.0,71.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,70,D,Christopher John England,"ENGLAND, CHRISTOPHER JOHN",63649.0,51.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,71,D,Artis (A.J.) McCampbell,"MCCAMPBELL, ARTIS (A J)",167140.0,138.0,WON-GENERAL,observed,exact_tokens,100.0,65.71428571428572,FollowTheMoney candidate summary
+2014,house,72,D,Ralph A. Howard,"HOWARD, RALPH A",45858.0,29.0,WON-GENERAL,observed,exact_tokens,100.0,69.6969696969697,FollowTheMoney candidate summary
+2014,house,73,R,Matt Fridy,,,,,not_observed_unknown_not_zero,unmatched,71.42857142857143,29.761904761904766,FollowTheMoney candidate summary
+2014,house,74,D,Zack Buckner,"BUCKNER, ZACK",6915.0,47.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,74,R,Dimitri Polizos,,,,,not_observed_unknown_not_zero,unmatched,90.9090909090909,90.9090909090909,FollowTheMoney candidate summary
+2014,house,75,R,Reed Ingram,"INGRAM, REED",101400.0,272.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,76,D,Thad McClammy,"MCCLAMMY, THAD",107595.0,111.0,WON-GENERAL,observed,exact_tokens,100.0,60.0,FollowTheMoney candidate summary
+2014,house,77,D,John Knight,"KNIGHT, JOHN",75026.0,50.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,77,R,David Grimes,"GRIMES, DAVID",6300.0,3.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,78,D,Alvin Holmes,"HOLMES, ALVIN",44350.0,28.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,78,R,Tijuanna Adetunji,"TIJUANNA, ADETUNJI",43810.0,166.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,79,D,Shirley Scott-Harris,"SCOTT-HARRIS, SHIRLEY",13688.0,110.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,79,R,Mike Hubbard,,,,,not_observed_unknown_not_zero,unmatched,81.4814814814815,50.231481481481495,FollowTheMoney candidate summary
+2014,house,80,D,Tillman Pugh,"PUGH, TILLMAN",14948.0,18.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,80,R,Lesley Vance,"VANCE, LESLEY",254562.0,192.0,WON-GENERAL,observed,exact_tokens,100.0,52.0,FollowTheMoney candidate summary
+2014,house,81,D,Dylan V. Oliver,"OLIVER, DYLAN V",126313.0,9.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,81,R,Mark M. Tuggle,"TUGGLE, MARK M",188418.0,194.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,82,D,Pebblin W. Warren,"WARREN, PEBBLIN W",39400.0,34.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,83,D,"George ""Tootie"" Bandy","BANDY, GEORGE (TOOTIE)",25070.0,32.0,WON-GENERAL,observed,exact_tokens,100.0,60.0,FollowTheMoney candidate summary
+2014,house,83,R,Gary Head,"HEAD, GARY",21899.0,71.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,84,D,Berry Forte,"FORTE, BERRY",48850.0,41.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,84,R,Jerry A. McGilvray,"MCGILVRAY, JERRY A",11594.0,35.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,85,D,Dexter Grimsley,"GRIMSLEY, DEXTER",86316.0,50.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,85,R,Bobby Lewis,"LEWIS, BOBBY",31921.0,53.0,LOST-GENERAL,observed,exact_tokens,100.0,52.38095238095239,FollowTheMoney candidate summary
+2014,house,86,R,Paul W. Lee,,,,,not_observed_unknown_not_zero,unmatched,88.88888888888889,88.88888888888889,FollowTheMoney candidate summary
+2014,house,87,R,Donnie Chesteen,,,,,not_observed_unknown_not_zero,not_observed,0.0,0.0,FollowTheMoney candidate summary
+2014,house,88,R,Paul Beckman,"BECKMAN, PAUL",41624.0,50.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,89,D,Joel Lee Williams,"WILLIAMS, JOEL LEE",17988.0,65.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,89,R,Alan C. Boothe,"BOOTHE, ALAN C",281454.0,169.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,90,D,Walton Hickman,"HICKMAN, WALTON",61547.0,42.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,90,R,Chris Sells,,,,,not_observed_unknown_not_zero,unmatched,78.57142857142857,39.86175115207373,FollowTheMoney candidate summary
+2014,house,91,R,Barry Moore,,,,,not_observed_unknown_not_zero,unmatched,78.57142857142857,55.494505494505496,FollowTheMoney candidate summary
+2014,house,92,R,"Mike Jones, Jr.",,,,,not_observed_unknown_not_zero,unmatched,78.26086956521739,78.26086956521739,FollowTheMoney candidate summary
+2014,house,93,D,Jennifer Marsden,"MARSDEN, JENNIFER",37260.0,91.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,93,R,Steve Clouse,"CLOUSE, STEVE",258530.0,327.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,94,R,T. Joe Faust,,,,,not_observed_unknown_not_zero,unmatched,90.0,90.0,FollowTheMoney candidate summary
+2014,house,95,R,Steve McMillan,"MCMILLAN, STEVE",33050.0,48.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,96,R,Randy Davis,"DAVIS, RANDY",91836.0,102.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,97,D,Adline C. Clarke,,,,,not_observed_unknown_not_zero,unmatched,83.33333333333334,83.33333333333334,FollowTheMoney candidate summary
+2014,house,98,D,"Napoleon Bracy, Jr.","BRACY JR, NAPOLEON",173250.0,149.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,98,R,Wayne E. Biggs,"BIGGS, WAYNE E",31178.0,51.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,99,D,James E. Buskey,"BUSKEY, JAMES E",90200.0,95.0,WON-GENERAL,observed,exact_tokens,100.0,61.53846153846154,FollowTheMoney candidate summary
+2014,house,100,R,Victor Gaston,"GASTON, VICTOR",67571.0,125.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,101,R,Chris Pringle,,,,,not_observed_unknown_not_zero,unmatched,81.25,47.916666666666664,FollowTheMoney candidate summary
+2014,house,102,R,Jack Williams,,,,,not_observed_unknown_not_zero,unmatched,78.78787878787878,46.52981427174974,FollowTheMoney candidate summary
+2014,house,103,D,Barbara A. Drummond,"DRUMMOND, BARBARA",85460.0,154.0,WON-GENERAL,observed,fuzzy_review,94.11764705882352,70.58823529411764,FollowTheMoney candidate summary
+2014,house,103,R,Ralph Carmichael,"CARMICHAEL, RALPH",8292.0,7.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,104,R,Margie Wilcox,,,,,not_observed_unknown_not_zero,unmatched,81.25,0.0,FollowTheMoney candidate summary
+2014,house,105,R,David Sessions,"SESSIONS, DAVID",46125.0,76.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,senate,1,D,Mike Curtis,,,,,not_observed_unknown_not_zero,unmatched,80.0,49.230769230769226,FollowTheMoney candidate summary
+2014,senate,1,R,Tim Melson,"MELSON, TIM",532568.0,402.0,WON-GENERAL,observed,exact_tokens,100.0,66.66666666666666,FollowTheMoney candidate summary
+2014,senate,2,R,Bill Holtzclaw,,,,,not_observed_unknown_not_zero,unmatched,58.06451612903225,44.271412680756384,FollowTheMoney candidate summary
+2014,senate,3,R,Arthur Orr,"ORR, ARTHUR",480888.0,609.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,senate,4,D,"Angelo ""Doc"" Mancuso",,,,,not_observed_unknown_not_zero,unmatched,87.5,87.5,FollowTheMoney candidate summary
+2014,senate,4,R,Paul Bussman,"BUSSMAN, PAUL",478042.0,423.0,WON-GENERAL,observed,exact_tokens,100.0,69.23076923076923,FollowTheMoney candidate summary
+2014,senate,5,R,Greg Reed,"REED, GREG",367945.0,415.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,senate,6,D,"Roger Bedford, Jr.","BEDFORD JR, ROGER",838357.0,688.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,senate,6,R,Larry Stutts,,,,,not_observed_unknown_not_zero,unmatched,75.0,75.0,FollowTheMoney candidate summary
+2014,senate,7,D,Bryan Bennett,"BENNETT, BRYAN",8125.0,26.0,LOST-GENERAL,observed,exact_tokens,100.0,74.19354838709677,FollowTheMoney candidate summary
+2014,senate,7,R,Paul L. Sanford,"SANFORD, PAUL L",314197.0,209.0,WON-GENERAL,observed,exact_tokens,100.0,60.0,FollowTheMoney candidate summary
+2014,senate,8,D,Horace Clemmons,,,,,not_observed_unknown_not_zero,unmatched,83.33333333333334,33.33333333333334,FollowTheMoney candidate summary
+2014,senate,8,R,Steve Livingston,"LIVINGSTON, STEVE",428767.0,252.0,WON-GENERAL,observed,exact_tokens,100.0,57.14285714285714,FollowTheMoney candidate summary
+2014,senate,9,R,Clay Scofield,"SCOFIELD, CLAY",178368.0,212.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,senate,10,D,Larry Means,"MEANS, LARRY",450521.0,273.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,senate,10,R,Phil Williams,,,,,not_observed_unknown_not_zero,unmatched,83.87096774193549,83.87096774193549,FollowTheMoney candidate summary
+2014,senate,11,D,Ron Crumpton,,,,,not_observed_unknown_not_zero,unmatched,88.88888888888889,88.88888888888889,FollowTheMoney candidate summary
+2014,senate,11,R,Jim McClendon,,,,,not_observed_unknown_not_zero,unmatched,85.71428571428572,59.9078341013825,FollowTheMoney candidate summary
+2014,senate,12,D,Taylor Stewart,"STEWART, TAYLOR",602879.0,117.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,senate,12,R,Del Marsh,"MARSH, DEL",1431645.0,520.0,WON-GENERAL,observed,exact_tokens,100.0,61.904761904761905,FollowTheMoney candidate summary
+2014,senate,13,D,Darrell Turner,"TURNER, DARRELL",231212.0,394.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,senate,13,R,Gerald Dial,"DIAL, GERALD",952364.0,415.0,WON-GENERAL,observed,exact_tokens,100.0,82.85714285714286,FollowTheMoney candidate summary
+2014,senate,14,R,Cam Ward,,,,,not_observed_unknown_not_zero,unmatched,59.25925925925925,59.25925925925925,FollowTheMoney candidate summary
+2014,senate,15,R,Slade Blackwell,,,,,not_observed_unknown_not_zero,unmatched,85.71428571428572,85.71428571428572,FollowTheMoney candidate summary
+2014,senate,16,D,Cindy Bell,,,,,not_observed_unknown_not_zero,unmatched,63.63636363636363,63.63636363636363,FollowTheMoney candidate summary
+2014,senate,16,R,"J.T. ""Jabo"" Waggoner",,,,,not_observed_unknown_not_zero,unmatched,90.9090909090909,90.9090909090909,FollowTheMoney candidate summary
+2014,senate,17,R,Shay Shelnutt,"SHELNUTT, SHAY",376377.0,214.0,WON-GENERAL,observed,exact_tokens,100.0,66.66666666666666,FollowTheMoney candidate summary
+2014,senate,18,D,Rodger M. Smitherman,"SMITHERMAN, RODGER M",242634.0,117.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,senate,19,D,Priscilla Dunn,"DUNN, PRISCILLA",123950.0,65.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,senate,20,D,Linda Coleman,,,,,not_observed_unknown_not_zero,unmatched,76.47058823529412,76.47058823529412,FollowTheMoney candidate summary
+2014,senate,21,D,Phil Poole,"POOLE, PHIL",205196.0,43.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,senate,21,R,Gerald Allen,"ALLEN, GERALD",539821.0,408.0,WON-GENERAL,observed,exact_tokens,100.0,53.84615384615385,FollowTheMoney candidate summary
+2014,senate,22,D,Susan Smith,,,,,not_observed_unknown_not_zero,unmatched,91.66666666666666,91.66666666666666,FollowTheMoney candidate summary
+2014,senate,22,R,Greg Albritton,"ALBRITTON, GREG",316731.0,159.0,WON-GENERAL,observed,exact_tokens,100.0,64.28571428571429,FollowTheMoney candidate summary
+2014,senate,23,D,Hank Sanders,,,,,not_observed_unknown_not_zero,unmatched,80.0,49.230769230769226,FollowTheMoney candidate summary
+2014,senate,24,D,Bobby Singleton,"SINGLETON, BOBBY",201350.0,92.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,senate,25,R,Dick L. Brewbaker,"BREWBAKER, DICK L",130550.0,57.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,senate,26,D,"Quinton T. Ross, Jr.","ROSS JR, QUINTON T",151700.0,81.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,senate,27,D,Haylee Moss,"MOSS, HAYLEE",0.0,0.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,senate,27,R,Tom Whatley,,,,,not_observed_unknown_not_zero,unmatched,93.33333333333333,53.33333333333333,FollowTheMoney candidate summary
+2014,senate,28,D,Billy Beasley,,,,,not_observed_unknown_not_zero,unmatched,72.22222222222221,72.22222222222221,FollowTheMoney candidate summary
+2014,senate,28,R,John Savage,"SAVAGE, JOHN",11798.0,29.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,senate,29,R,Melinda McClendon,"MCCLENDON, MELINDA",338879.0,163.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,senate,30,R,"Clyde Chambliss, Jr.","CHAMBLISS JR, CLYDE",588733.0,562.0,WON-GENERAL,observed,exact_tokens,100.0,69.23076923076923,FollowTheMoney candidate summary
+2014,senate,31,D,Larry Greenwood,"GREENWOOD, LARRY",0.0,0.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,senate,31,R,Jimmy W. Holley,"HOLLEY, JIMMY W",494994.0,381.0,WON-GENERAL,observed,exact_tokens,100.0,77.77777777777777,FollowTheMoney candidate summary
+2014,senate,32,R,Trip Pittman,"PITTMAN, TRIP",115192.0,175.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,senate,33,D,Vivian Davis Figures,,,,,not_observed_unknown_not_zero,unmatched,82.35294117647058,82.35294117647058,FollowTheMoney candidate summary
+2014,senate,34,R,Rusty Glover,"GLOVER, RUSTY",101207.0,59.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,senate,35,D,Beau Doolittle,"DOOLITTLE, BEAU",41769.0,55.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,senate,35,R,Bill Hightower,,,,,not_observed_unknown_not_zero,unmatched,72.34042553191489,72.34042553191489,FollowTheMoney candidate summary
+2018,house,1,R,Phillip Pettus                        ,"PETTUS, PHILLIP",150268.0,124.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,2,D,Lora Kay Morrow                       ,"MORROW, LORA KAY",14225.0,171.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,2,R,Lynn Greer                            ,,,,,not_observed_unknown_not_zero,unmatched,90.9090909090909,90.9090909090909,FollowTheMoney candidate summary
+2018,house,3,D,Chad Young                            ,"YOUNG, CHAD",104156.0,234.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,3,R,Andrew Sorrell                        ,,,,,not_observed_unknown_not_zero,unmatched,80.0,49.230769230769226,FollowTheMoney candidate summary
+2018,house,4,D,Jo Ann Cummings                       ,"CUMMINGS, JO ANN",10389.0,51.0,LOST-GENERAL,observed,exact_tokens,100.0,70.58823529411765,FollowTheMoney candidate summary
+2018,house,4,R,Parker Duncan Moore                   ,"MOORE, PARKER DUNCAN",0.0,0.0,WON-GENERAL,observed,exact_tokens,100.0,0.0,FollowTheMoney candidate summary
+2018,house,5,D,Brian D Williams                      ,"WILLIAMS, BRIAN D",9729.0,57.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,5,R,Danny F. Crawford                     ,,,,,not_observed_unknown_not_zero,unmatched,93.33333333333333,93.33333333333333,FollowTheMoney candidate summary
+2018,house,6,R,Andy Whitt                            ,"WHITT, ANDY",87588.0,141.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,7,D,Kenneth A. Brackins                   ,"BRACKINS, KENNETH A",23476.0,117.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,7,R,Proncey Robertson                     ,"ROBERTSON, PRONCEY",111845.0,105.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,8,D,Billy Jackson                         ,"JACKSON, BILLY",12936.0,59.0,LOST-GENERAL,observed,exact_tokens,100.0,65.21739130434783,FollowTheMoney candidate summary
+2018,house,8,R,Terri Collins                         ,"COLLINS, TERRI",187864.0,231.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,9,R,Scott Stadthagen                      ,"STADTHAGEN JR, SCOTT",119318.0,184.0,WON-GENERAL,observed,exact_tokens,100.0,74.19354838709677,FollowTheMoney candidate summary
+2018,house,10,D,J.B. King                             ,,,,,not_observed_unknown_not_zero,unmatched,80.0,80.0,FollowTheMoney candidate summary
+2018,house,10,R,Mike Ball                             ,,,,,not_observed_unknown_not_zero,unmatched,76.19047619047619,28.19047619047619,FollowTheMoney candidate summary
+2018,house,11,R,Randall Shedd                         ,,,,,not_observed_unknown_not_zero,unmatched,92.85714285714286,92.85714285714286,FollowTheMoney candidate summary
+2018,house,12,R,Corey Harbison                        ,"HARBISON, COREY",162155.0,151.0,WON-GENERAL,observed,exact_tokens,100.0,62.96296296296296,FollowTheMoney candidate summary
+2018,house,13,R,Connie Cooner Rowe                    ,"ROWE, CONNIE COONER",177780.0,206.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,14,R,Tim Wadsworth                         ,,,,,not_observed_unknown_not_zero,unmatched,81.25,55.443548387096776,FollowTheMoney candidate summary
+2018,house,15,D,Suzanna Coleman                       ,"COLEMAN, SUZANNA",13313.0,158.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,15,R,Allen Farley                          ,"FARLEY, ALLEN",88385.0,128.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,16,R,Kyle South                            ,"SOUTH, KYLE",122764.0,177.0,WON-GENERAL,observed,exact_tokens,100.0,54.54545454545454,FollowTheMoney candidate summary
+2018,house,17,R,Tracy Estes                           ,"ESTES, TRACY",114717.0,140.0,WON-GENERAL,observed,exact_tokens,100.0,66.66666666666666,FollowTheMoney candidate summary
+2018,house,18,D,Eddie Britton                         ,,,,,not_observed_unknown_not_zero,unmatched,92.85714285714286,92.85714285714286,FollowTheMoney candidate summary
+2018,house,18,R,Jamie Kiel                            ,,,,,not_observed_unknown_not_zero,unmatched,90.9090909090909,60.90909090909091,FollowTheMoney candidate summary
+2018,house,19,D,Laura Hall                            ,"HALL, LAURA",123725.0,196.0,WON-GENERAL,observed,exact_tokens,100.0,76.0,FollowTheMoney candidate summary
+2018,house,20,D,Linda Meigs                           ,"MEIGS, LINDA",57976.0,469.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,20,R,Howard Sanderford                     ,"SANDERFORD, HOWARD",117005.0,153.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,21,D,Terry Jones                           ,"JONES, TERRY",26756.0,223.0,LOST-GENERAL,observed,exact_tokens,100.0,8.333333333333343,FollowTheMoney candidate summary
+2018,house,21,R,Rex Reynolds                          ,"REYNOLDS, REX",0.0,0.0,WON-GENERAL,observed,exact_tokens,100.0,0.0,FollowTheMoney candidate summary
+2018,house,22,R,Ritchie Whorton                       ,"WHORTON, RITCHIE",119648.0,95.0,WON-GENERAL,observed,exact_tokens,100.0,71.42857142857143,FollowTheMoney candidate summary
+2018,house,23,R,Tommy Hanes                           ,,,,,not_observed_unknown_not_zero,unmatched,73.33333333333334,42.56410256410257,FollowTheMoney candidate summary
+2018,house,24,R,Nathaniel Ledbetter                   ,"LEDBETTER, NATHANIEL",137158.0,147.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,25,R,Mac McCutcheon                        ,"MCCUTCHEON, MAC",299616.0,113.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,26,R,Kerry Rich                            ,"RICH, KERRY",95589.0,129.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,27,D,Bill Jones                            ,,,,,not_observed_unknown_not_zero,unmatched,43.47826086956522,43.47826086956522,FollowTheMoney candidate summary
+2018,house,27,R,Wes Kitchens                          ,,,,,not_observed_unknown_not_zero,unmatched,83.33333333333334,56.66666666666667,FollowTheMoney candidate summary
+2018,house,28,D,Kyle Pierce                           ,"PIERCE, KYLE",40345.0,181.0,LOST-GENERAL,observed,exact_tokens,100.0,63.63636363636363,FollowTheMoney candidate summary
+2018,house,28,R,Gil F. Isbell                         ,"ISBELL, GIL F",86536.0,120.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,29,D,Jared Millican                        ,"MILLICAN, JARED",14892.0,91.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,29,R,Becky Nordgren                        ,"NORDGREN, BECKY",127135.0,157.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,30,D,Jared Vaughn                          ,"VAUGHN, JARED",14606.0,48.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,30,R,B. Craig Lipscomb                     ,"LIPSCOMB, B CRAIG",137589.0,156.0,WON-GENERAL,observed,exact_tokens,100.0,64.28571428571429,FollowTheMoney candidate summary
+2018,house,31,R,Mike Holmes                           ,,,,,not_observed_unknown_not_zero,unmatched,80.0,60.64516129032258,FollowTheMoney candidate summary
+2018,house,32,D,Barbara Bigsby Boyd                   ,"BOYD, BARBARA BIGSBY",82896.0,74.0,WON-GENERAL,observed,exact_tokens,100.0,70.58823529411765,FollowTheMoney candidate summary
+2018,house,32,R,James Allen Lloyd                     ,"LLOYD, JAMES ALLEN",0.0,0.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,33,D,Scott Brewer                          ,"BREWER, SCOTT",1364.0,13.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,33,R,Ron Johnson                           ,,,,,not_observed_unknown_not_zero,unmatched,93.33333333333333,53.33333333333333,FollowTheMoney candidate summary
+2018,house,34,R,David Standridge                      ,"STANDRIDGE, DAVID",70809.0,110.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,35,R,Steve Hurst                           ,,,,,not_observed_unknown_not_zero,unmatched,66.66666666666667,66.66666666666667,FollowTheMoney candidate summary
+2018,house,36,D,Nicki Arnold-Swindle                  ,"ARNOLD-SWINDLE, NICKI",8989.0,88.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,36,R,Randy Wood                            ,"WOOD, RANDY",108563.0,155.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,37,D,Charlotte A. Clark-Frieson            ,"CLARK-FRIESON, CHARLOTTE A",22030.0,244.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,37,R,Bob Fincher                           ,,,,,not_observed_unknown_not_zero,unmatched,87.5,87.5,FollowTheMoney candidate summary
+2018,house,38,D,Brian McGee                           ,"MCGEE, BRIAN",37998.0,121.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,38,R,Debbie Hamby Wood                     ,"WOOD, DEBBIE HAMBY",223861.0,194.0,WON-GENERAL,observed,exact_tokens,100.0,70.37037037037038,FollowTheMoney candidate summary
+2018,house,39,R,Ginny Shaver                          ,"SHAVER, GINNY",119944.0,272.0,WON-GENERAL,observed,exact_tokens,100.0,73.91304347826086,FollowTheMoney candidate summary
+2018,house,40,D,Pamela Jean Howard                    ,"HOWARD, PAMELA JEAN",8689.0,63.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,40,R,"Koven ""K.L."" Brown                    ","BROWN, K L (KOVEN)",75178.0,94.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,41,D,Emily Anne Marcum                     ,"MARCUM, EMILY ANNE",7948.0,45.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,41,R,Corley Ellis                          ,"ELLIS, CORLEY",82987.0,151.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,42,R,"James M. ""Jimmy"" Martin               ","MARTIN, JAMES M (JIMMY)",111809.0,89.0,WON-GENERAL,observed,exact_tokens,100.0,51.515151515151516,FollowTheMoney candidate summary
+2018,house,43,D,Carin Mayo                            ,"MAYO, CARIN",14156.0,146.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,43,R,Arnold G. Mooney II                   ,"MOONEY II, ARNOLD G",263471.0,303.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,44,R,Danny Garrett                         ,,,,,not_observed_unknown_not_zero,unmatched,74.28571428571429,74.28571428571429,FollowTheMoney candidate summary
+2018,house,45,D,Jenn Gray                             ,"GRAY, JENN",39780.0,400.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,45,R,Dickie Drake                          ,,,,,not_observed_unknown_not_zero,unmatched,70.58823529411764,28.921568627450974,FollowTheMoney candidate summary
+2018,house,46,D,Felicia Stewart                       ,"STEWART, FELICIA",131795.0,948.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,46,R,David Faulkner                        ,,,,,not_observed_unknown_not_zero,unmatched,75.67567567567568,75.67567567567568,FollowTheMoney candidate summary
+2018,house,47,D,Jim Toomey                            ,,,,,not_observed_unknown_not_zero,unmatched,81.81818181818181,81.81818181818181,FollowTheMoney candidate summary
+2018,house,47,R,David Wheeler                         ,,,,,not_observed_unknown_not_zero,unmatched,92.85714285714286,92.85714285714286,FollowTheMoney candidate summary
+2018,house,48,D,Alli Summerford                       ,"SUMMERFORD, ALLI",88671.0,473.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,48,R,Jim Carns                             ,,,,,not_observed_unknown_not_zero,unmatched,80.0,44.28571428571429,FollowTheMoney candidate summary
+2018,house,49,R,April Weaver                          ,,,,,not_observed_unknown_not_zero,unmatched,92.3076923076923,67.3076923076923,FollowTheMoney candidate summary
+2018,house,50,R,Jim Hill                              ,,,,,not_observed_unknown_not_zero,unmatched,77.77777777777779,77.77777777777779,FollowTheMoney candidate summary
+2018,house,51,D,Veronica R. Johnson                   ,"JOHNSON, VERONICA R",3771.0,31.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,51,R,Allen Treadaway                       ,"TREADAWAY, ALLEN",54200.0,58.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,52,D,"John W. Rogers, Jr.                   ","ROGERS JR, JOHN W",40900.0,29.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,53,D,Anthony Daniels                       ,"DANIELS, ANTHONY",199848.0,443.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,54,D,Neil Rafferty                         ,"RAFFERTY, NEIL",115832.0,373.0,WON-GENERAL,observed,exact_tokens,100.0,65.71428571428572,FollowTheMoney candidate summary
+2018,house,55,D,"Roderick ""Rod"" Hampton Scott          ",,,,,not_observed_unknown_not_zero,unmatched,81.81818181818181,40.79254079254079,FollowTheMoney candidate summary
+2018,house,56,D,"Louise ""Lulu"" Alexander               ","ALEXANDER, LOUISE (LULU)",94061.0,71.0,WON-GENERAL,observed,exact_tokens,100.0,65.71428571428572,FollowTheMoney candidate summary
+2018,house,57,D,Merika Coleman                        ,"COLEMAN, MERIKA",59245.0,39.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,58,D,Rolanda Hollis                        ,"HOLLIS, ROLANDA",72028.0,70.0,WON-GENERAL,observed,exact_tokens,100.0,57.14285714285714,FollowTheMoney candidate summary
+2018,house,59,D,Mary Moore                            ,"MOORE, MARY",51743.0,48.0,WON-GENERAL,observed,exact_tokens,100.0,80.95238095238095,FollowTheMoney candidate summary
+2018,house,60,D,Juandalynn Givan                      ,,,,,not_observed_unknown_not_zero,unmatched,80.0,50.58823529411765,FollowTheMoney candidate summary
+2018,house,61,D,"Thomas ""Tommy"" Hyche                  ","HYCHE, THOMAS (TOMMY)",31880.0,131.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,61,R,Rodney Sullivan                       ,"SULLIVAN, RODNEY",114791.0,138.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,62,D,Will Benton                           ,"BENTON, WILL",17789.0,102.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,62,R,Rich Wingo                            ,"WINGO, RICH",55348.0,45.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,63,R,Bill Poole                            ,,,,,not_observed_unknown_not_zero,unmatched,83.87096774193549,83.87096774193549,FollowTheMoney candidate summary
+2018,house,64,D,Amber Selman-Lynn                     ,"SELMAN-LYNN, AMBER",17783.0,195.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,64,R,Harry Shiver                          ,"SHIVER, HARRY",128000.0,94.0,WON-GENERAL,observed,exact_tokens,100.0,69.23076923076923,FollowTheMoney candidate summary
+2018,house,65,D,Elaine Beech                          ,"BEECH, ELAINE",218294.0,171.0,LOST-GENERAL,observed,exact_tokens,100.0,52.0,FollowTheMoney candidate summary
+2018,house,65,R,Brett Easterbrook                     ,"EASTERBROOK, BRETT",132778.0,112.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,66,D,Susan E. Smith                        ,"SMITH, SUSAN E",20797.0,68.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,66,R,Alan Baker                            ,"BAKER, ALAN",98889.0,173.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,67,D,Prince Chestnut                       ,"CHESTNUT, PRINCE",74730.0,70.0,WON-GENERAL,observed,exact_tokens,100.0,65.71428571428572,FollowTheMoney candidate summary
+2018,house,68,D,"Thomas E. ""Action"" Jackson            ","JACKSON, THOMAS E (ACTION)",17550.0,19.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,69,D,Kelvin Jamichael Lawrence             ,,,,,not_observed_unknown_not_zero,unmatched,80.95238095238095,35.952380952380956,FollowTheMoney candidate summary
+2018,house,70,D,Christopher John England              ,"ENGLAND, CHRISTOPHER JOHN",52000.0,41.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,71,D,"Artis ""A.J."" McCampbell               ","MCCAMPBELL, ARTIS (A J)",9951.0,100.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,72,D,Ralph A. Howard                       ,"HOWARD, RALPH A",29450.0,32.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,73,D,Jack Jacobs                           ,"JACOBS JACK,",39176.0,141.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,73,R,Matt Fridy                            ,,,,,not_observed_unknown_not_zero,unmatched,71.42857142857143,29.761904761904766,FollowTheMoney candidate summary
+2018,house,74,D,Rayford Mack                          ,"MACK, RAYFORD",9097.0,68.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,74,R,Dimitri Polizos                       ,,,,,not_observed_unknown_not_zero,unmatched,90.9090909090909,90.9090909090909,FollowTheMoney candidate summary
+2018,house,75,R,Reed Ingram                           ,"INGRAM, REED",57176.0,41.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,76,D,Thad McClammy                         ,"MCCLAMMY, THAD",66200.0,62.0,WON-GENERAL,observed,exact_tokens,100.0,78.57142857142857,FollowTheMoney candidate summary
+2018,house,77,D,Tashina Morris                        ,"MORRIS, TASHINA",32517.0,38.0,WON-GENERAL,observed,exact_tokens,100.0,62.5,FollowTheMoney candidate summary
+2018,house,78,D,Kirk Hatcher                          ,"HATCHER, KIRK",63179.0,127.0,WON-GENERAL,observed,exact_tokens,100.0,71.42857142857143,FollowTheMoney candidate summary
+2018,house,79,D,Mary Wynne Kling                      ,"KLING, MARY WYNNE",25770.0,283.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,79,R,Joe Lovvorn                           ,"LOVVORN, JOE",218984.0,219.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,80,D,"Christopher F. ""Apostle"" Davis        ","DAVIS, CHRISTOPHER F (APOSTLE)",1470.0,6.0,LOST-GENERAL,observed,exact_tokens,100.0,79.48717948717947,FollowTheMoney candidate summary
+2018,house,80,R,Chris E. Blackshear                   ,,,,,not_observed_unknown_not_zero,unmatched,80.0,80.0,FollowTheMoney candidate summary
+2018,house,81,D,"Jeremy ""J.J."" Jeffcoat                ","JEFFCOAT, JEREMY (J J)",24181.0,81.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,81,R,Ed Oliver                             ,,,,,not_observed_unknown_not_zero,unmatched,81.81818181818181,37.37373737373737,FollowTheMoney candidate summary
+2018,house,82,D,Pebblin Walker Warren                 ,,,,,not_observed_unknown_not_zero,unmatched,86.48648648648648,45.46084546084546,FollowTheMoney candidate summary
+2018,house,83,D,"Jeremy ""Mr. Eyg"" Gray                 ","GRAY, JEREMY (MR EYG)",78282.0,158.0,WON-GENERAL,observed,exact_tokens,100.0,65.51724137931035,FollowTheMoney candidate summary
+2018,house,83,R,Michael J Holden II                   ,"HOLDEN II, MICHAEL J",4086.0,21.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,84,D,Berry Forte                           ,"FORTE, BERRY",26600.0,22.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,85,D,Dexter Grimsley                       ,"GRIMSLEY, DEXTER",129304.0,94.0,WON-GENERAL,observed,exact_tokens,100.0,60.0,FollowTheMoney candidate summary
+2018,house,85,R,J. Ron Wilson                         ,"WILSON, J RON",63200.0,18.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,86,D,Kristy M. Kirkland                    ,"KIRKLAND, KRISTY M",6506.0,35.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,86,R,Paul W. Lee                           ,,,,,not_observed_unknown_not_zero,unmatched,88.88888888888889,88.88888888888889,FollowTheMoney candidate summary
+2018,house,87,R,Jeff Sorrells                         ,"SORRELLS, JEFF",47661.0,98.0,WON-GENERAL,observed,exact_tokens,100.0,69.23076923076923,FollowTheMoney candidate summary
+2018,house,88,D,Cory Creel                            ,"CREEL, CORY",5470.0,52.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,88,R,Will Dismukes                         ,"DISMUKES, WILL",129010.0,139.0,WON-GENERAL,observed,exact_tokens,100.0,84.61538461538461,FollowTheMoney candidate summary
+2018,house,89,D,Joel Lee Williams                     ,"WILLIAMS, JOEL LEE",46173.0,83.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,89,R,Wes Allen                             ,,,,,not_observed_unknown_not_zero,unmatched,85.71428571428572,65.02463054187193,FollowTheMoney candidate summary
+2018,house,90,D,Joanne Whetstone                      ,"WHETSTONE, JOANNE",24034.0,79.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,90,R,Chris Sells                           ,,,,,not_observed_unknown_not_zero,unmatched,78.57142857142857,78.57142857142857,FollowTheMoney candidate summary
+2018,house,91,R,Rhett Marques                         ,"MARQUES, RHETT",118526.0,96.0,WON-GENERAL,observed,exact_tokens,100.0,52.0,FollowTheMoney candidate summary
+2018,house,92,R,"Mike Jones, Jr.                       ",,,,,not_observed_unknown_not_zero,unmatched,78.26086956521739,78.26086956521739,FollowTheMoney candidate summary
+2018,house,93,R,Steve Clouse                          ,"CLOUSE, STEVE",148197.0,91.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,94,D,Danielle Mashburn-Myrick              ,"MASHBURN-MYRICK, DANIELLE",68146.0,458.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,94,R,Joe Faust                             ,"FAUST SR, JOE",125267.0,151.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,95,R,Steve McMillan                        ,"MCMILLAN, STEVE",39555.0,37.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,96,D,Maurice Horsey                        ,"HORSEY, MAURICE",13104.0,166.0,LOST-GENERAL,observed,exact_tokens,100.0,76.0,FollowTheMoney candidate summary
+2018,house,96,R,Matt Simpson                          ,"SIMPSON, MATT",101773.0,129.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,97,D,Adline C. Clarke                      ,,,,,not_observed_unknown_not_zero,unmatched,83.33333333333334,52.56410256410257,FollowTheMoney candidate summary
+2018,house,97,R,Stephen McNair                        ,"MCNAIR, STEPHEN",121726.0,266.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,98,D,"Napoleon Bracy, Jr.                   ","BRACY JR, NAPOLEON",82300.0,65.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,99,D,Sam Jones                             ,,,,,not_observed_unknown_not_zero,unmatched,85.71428571428572,50.000000000000014,FollowTheMoney candidate summary
+2018,house,99,R,Charles W. Talbert                    ,"TALBERT, CHARLES W",3605.0,21.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,100,R,Victor Gaston                         ,"GASTON, VICTOR",73329.0,148.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,101,R,Chris Pringle                         ,,,,,not_observed_unknown_not_zero,unmatched,81.25,81.25,FollowTheMoney candidate summary
+2018,house,102,R,Shane Stringer                        ,"STRINGER, SHANE",144403.0,225.0,WON-GENERAL,observed,exact_tokens,100.0,68.0,FollowTheMoney candidate summary
+2018,house,103,D,Barbara Drummond                      ,"DRUMMOND, BARBARA",61664.0,56.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,104,D,Arlene Cunningham Easley              ,"EASLEY, ARLENE CUNNINGHAM",15758.0,84.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,house,104,R,Margie Wilcox                         ,,,,,not_observed_unknown_not_zero,unmatched,81.25,81.25,FollowTheMoney candidate summary
+2018,house,105,R,Chip Brown                            ,"BROWN, CHIP",124113.0,110.0,WON-GENERAL,observed,exact_tokens,100.0,58.620689655172406,FollowTheMoney candidate summary
+2018,senate,1,D,Caroline Self                         ,"SELF, CAROLINE",105438.0,761.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,senate,1,R,Tim Melson                            ,"MELSON, TIM",568061.0,258.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,senate,2,D,Amy Wasyluka                          ,"WASYLUKA, AMY",52466.0,450.0,LOST-GENERAL,observed,exact_tokens,100.0,77.77777777777777,FollowTheMoney candidate summary
+2018,senate,2,R,Tom Butler                            ,,,,,not_observed_unknown_not_zero,unmatched,86.95652173913044,61.95652173913044,FollowTheMoney candidate summary
+2018,senate,3,R,Arthur Orr                            ,"ORR, ARTHUR",219080.0,111.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,senate,4,R,Garlan Gudger                         ,"GUDGER, GARLAN",508336.0,264.0,WON-GENERAL,observed,exact_tokens,100.0,68.0,FollowTheMoney candidate summary
+2018,senate,5,R,Greg J. Reed                          ,,,,,not_observed_unknown_not_zero,unmatched,90.0,90.0,FollowTheMoney candidate summary
+2018,senate,6,D,Johnny Mack Morrow                    ,"MORROW, JOHNNY MACK",528418.0,263.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,senate,6,R,Larry Stutts                          ,,,,,not_observed_unknown_not_zero,unmatched,75.0,33.333333333333336,FollowTheMoney candidate summary
+2018,senate,7,D,Deborah Barros                        ,"BARROS, DEBORAH",11153.0,219.0,LOST-GENERAL,observed,exact_tokens,100.0,57.14285714285714,FollowTheMoney candidate summary
+2018,senate,7,R,Sam Givhan                            ,,,,,not_observed_unknown_not_zero,unmatched,86.95652173913044,60.289855072463766,FollowTheMoney candidate summary
+2018,senate,8,R,Steve Livingston                      ,"LIVINGSTON, STEVE",268111.0,231.0,WON-GENERAL,observed,exact_tokens,100.0,85.71428571428571,FollowTheMoney candidate summary
+2018,senate,9,R,Clay Scofield                         ,"SCOFIELD, CLAY",257481.0,175.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,senate,10,R,Andrew Jones                          ,"JONES, ANDREW",372440.0,330.0,WON-GENERAL,observed,exact_tokens,100.0,76.0,FollowTheMoney candidate summary
+2018,senate,11,D,Carl Carter                           ,"CARTER, CARL",20761.0,137.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,senate,11,R,Jim McClendon                         ,,,,,not_observed_unknown_not_zero,unmatched,85.71428571428572,85.71428571428572,FollowTheMoney candidate summary
+2018,senate,12,D,Jim Williams                          ,,,,,not_observed_unknown_not_zero,unmatched,84.61538461538461,84.61538461538461,FollowTheMoney candidate summary
+2018,senate,12,R,Del Marsh                             ,"MARSH, DEL",1115827.0,434.0,WON-GENERAL,observed,exact_tokens,100.0,71.42857142857143,FollowTheMoney candidate summary
+2018,senate,13,D,Darrell Turner                        ,"TURNER, DARRELL",51321.0,123.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,senate,13,R,Randy Price                           ,"PRICE, RANDY",626455.0,366.0,WON-GENERAL,observed,exact_tokens,100.0,63.63636363636363,FollowTheMoney candidate summary
+2018,senate,14,D,Jerry McDonald                        ,"MCDONALD, JERRY",5191.0,57.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,senate,14,R,Cam Ward                              ,,,,,not_observed_unknown_not_zero,unmatched,59.25925925925925,59.25925925925925,FollowTheMoney candidate summary
+2018,senate,15,R,Dan Roberts                           ,"ROBERTS, DAN",275513.0,136.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,senate,16,D,Lindsey Deckard                       ,"DECKARD, LINDSEY",47616.0,219.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,senate,16,R,"J.T. ""Jabo"" Waggoner                  ",,,,,not_observed_unknown_not_zero,unmatched,90.9090909090909,90.9090909090909,FollowTheMoney candidate summary
+2018,senate,17,R,Shay Shelnutt                         ,"SHELNUTT, SHAY",256772.0,185.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,senate,18,D,Rodger M. Smitherman                  ,"SMITHERMAN, RODGER M",241184.0,114.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,senate,19,D,Priscilla Dunn                        ,"DUNN, PRISCILLA",76100.0,47.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,senate,20,D,Linda Coleman-Madison                 ,"COLEMAN-MADISON, LINDA",73400.0,39.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,senate,21,D,Rick Burnham                          ,"BURNHAM, RICK",17876.0,64.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,senate,21,R,Gerald Allen                          ,"ALLEN, GERALD",316357.0,211.0,WON-GENERAL,observed,exact_tokens,100.0,53.84615384615385,FollowTheMoney candidate summary
+2018,senate,22,R,Greg Albritton                        ,"ALBRITTON, GREG",284927.0,129.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,senate,23,D,Malika Sanders-Fortier                ,"SANDERS-FORTIER, MALIKA",74307.0,42.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,senate,24,D,Bobby Singleton                       ,"SINGLETON, BOBBY",237700.0,116.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,senate,25,D,David A. Sadler                       ,"SADLER, DAVID A",12235.0,78.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,senate,25,R,Will Barfoot                          ,"BARFOOT, WILL",462410.0,467.0,WON-GENERAL,observed,exact_tokens,100.0,58.333333333333336,FollowTheMoney candidate summary
+2018,senate,26,D,"David ""Coach"" Burkette                ","BURKETTE, DAVID (COACH)",0.0,0.0,WON-GENERAL,observed,exact_tokens,100.0,0.0,FollowTheMoney candidate summary
+2018,senate,26,R,D. J. Johnson                         ,,,,,not_observed_unknown_not_zero,unmatched,95.23809523809523,0.0,FollowTheMoney candidate summary
+2018,senate,27,D,Nancy Carlton Bendinger               ,"BENDINGER, NANCY CARLTON",45298.0,284.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,senate,27,R,Tom Whatley                           ,,,,,not_observed_unknown_not_zero,unmatched,93.33333333333333,93.33333333333333,FollowTheMoney candidate summary
+2018,senate,28,D,Billy Beasley                         ,,,,,not_observed_unknown_not_zero,unmatched,72.22222222222221,72.22222222222221,FollowTheMoney candidate summary
+2018,senate,29,R,Donnie Chesteen                       ,"CHESTEEN, DONNIE",327417.0,240.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,senate,30,R,"Clyde Chambliss, Jr.                  ","CHAMBLISS JR, CLYDE",289376.0,299.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,senate,31,R,Jimmy W. Holley                       ,"HOLLEY, JIMMY W",164525.0,74.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,senate,32,D,Jason Fisher                          ,"FISHER, JASON",62473.0,481.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2018,senate,32,R,Chris Elliott                         ,,,,,not_observed_unknown_not_zero,unmatched,81.25,42.22560975609756,FollowTheMoney candidate summary
+2018,senate,33,D,Vivian Davis Figures                  ,,,,,not_observed_unknown_not_zero,unmatched,82.35294117647058,49.920508744038145,FollowTheMoney candidate summary
+2018,senate,34,R,Jack Williams                         ,,,,,not_observed_unknown_not_zero,unmatched,78.78787878787878,45.454545454545446,FollowTheMoney candidate summary
+2018,senate,35,D,Tom Holmes                            ,,,,,not_observed_unknown_not_zero,unmatched,81.25,81.25,FollowTheMoney candidate summary
+2018,senate,35,R,David Sessions                        ,"SESSIONS, DAVID",386916.0,214.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,1,R,Phillip Pettus                        ,"PETTUS, PHILLIP",231775.0,180.0,WON-GENERAL,observed,exact_tokens,100.0,86.20689655172413,FollowTheMoney candidate summary
+2022,house,2,R,Ben Harrison                          ,,,,,not_observed_unknown_not_zero,unmatched,82.75862068965517,30.584707646176916,FollowTheMoney candidate summary
+2022,house,3,D,Wesley Thompson                       ,"THOMPSON, WESLEY",74200.0,263.0,LOST-GENERAL,observed,exact_tokens,100.0,71.42857142857143,FollowTheMoney candidate summary
+2022,house,3,R,"Kerry ""Bubba"" Underwood               ","UNDERWOOD, KERRY (BUBBA)",205648.0,168.0,WON-GENERAL,observed,exact_tokens,100.0,80.0,FollowTheMoney candidate summary
+2022,house,4,R,Parker Duncan Moore                   ,"MOORE, PARKER DUNCAN",189957.0,172.0,WON-GENERAL,observed,exact_tokens,100.0,58.82352941176471,FollowTheMoney candidate summary
+2022,house,5,R,Danny F Crawford                      ,,,,,not_observed_unknown_not_zero,unmatched,93.33333333333333,93.33333333333333,FollowTheMoney candidate summary
+2022,house,6,R,Andy Whitt                            ,"WHITT, ANDY",214186.0,156.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,7,D,"Mose Jones, Jr.                       ","JONES JR, MOSE",1982.0,12.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,7,R,Ernie Yarbrough                       ,"YARBROUGH, ERNIE",143563.0,133.0,WON-GENERAL,observed,exact_tokens,100.0,50.0,FollowTheMoney candidate summary
+2022,house,8,R,Terri Collins                         ,"COLLINS, TERRI",86722.0,130.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,9,R,Scott Stadthagen                      ,"STADTHAGEN JR, SCOTT",145623.0,161.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,10,D,Marilyn Lands                         ,"LANDS, MARILYN",198872.0,738.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,10,R,David Cole                            ,"COLE, DAVID",228196.0,139.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,11,R,Randall Shedd                         ,,,,,not_observed_unknown_not_zero,unmatched,92.85714285714286,92.85714285714286,FollowTheMoney candidate summary
+2022,house,12,D,"James C. Fields, Jr.                  ",,,,,not_observed_unknown_not_zero,unmatched,92.3076923076923,92.3076923076923,FollowTheMoney candidate summary
+2022,house,12,R,Corey Harbison                        ,"HARBISON, COREY",117395.0,102.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,13,R,Matt Woods                            ,,,,,not_observed_unknown_not_zero,unmatched,86.95652173913044,52.173913043478265,FollowTheMoney candidate summary
+2022,house,14,R,Timothy (Tim) Wadsworth               ,,,,,not_observed_unknown_not_zero,unmatched,90.0,57.44186046511628,FollowTheMoney candidate summary
+2022,house,15,D,Richard P. Rouco                      ,,,,,not_observed_unknown_not_zero,unmatched,92.85714285714286,92.85714285714286,FollowTheMoney candidate summary
+2022,house,15,R,Leigh Hulsey                          ,"HULSEY, LEIGH",200563.0,289.0,WON-GENERAL,observed,exact_tokens,100.0,79.3103448275862,FollowTheMoney candidate summary
+2022,house,16,R,Kyle South                            ,"SOUTH, KYLE",133900.0,98.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,17,R,Tracy Estes                           ,"ESTES, TRACY",128708.0,162.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,18,R,Jamie Kiel                            ,,,,,not_observed_unknown_not_zero,unmatched,90.9090909090909,90.9090909090909,FollowTheMoney candidate summary
+2022,house,19,D,Laura Hall                            ,"HALL, LAURA",89503.0,76.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,20,R,James Lomax                           ,"LOMAX, JAMES",217861.0,185.0,WON-GENERAL,observed,exact_tokens,100.0,52.0,FollowTheMoney candidate summary
+2022,house,21,R,Rex Reynolds                          ,"REYNOLDS, REX",99119.0,66.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,22,R,Ritchie Whorton                       ,"WHORTON, RITCHIE",141261.0,67.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,23,R,Mike Kirkland                         ,,,,,not_observed_unknown_not_zero,unmatched,82.75862068965517,54.187192118226605,FollowTheMoney candidate summary
+2022,house,24,R,Nathaniel Ledbetter                   ,"LEDBETTER, NATHANIEL",339491.0,235.0,WON-GENERAL,observed,exact_tokens,100.0,77.77777777777777,FollowTheMoney candidate summary
+2022,house,25,D,Mallory Hagan                         ,"HAGAN, MALLORY",207565.0,952.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,25,R,Phillip K. Rigsby                     ,,,,,not_observed_unknown_not_zero,unmatched,93.33333333333333,59.99999999999999,FollowTheMoney candidate summary
+2022,house,26,D,Ben Alford                            ,,,,,not_observed_unknown_not_zero,unmatched,74.07407407407408,74.07407407407408,FollowTheMoney candidate summary
+2022,house,26,R,Brock Colvin                          ,,,,,not_observed_unknown_not_zero,unmatched,75.0,50.0,FollowTheMoney candidate summary
+2022,house,27,D,Herb Neu                              ,"NEU, HERB",4958.0,62.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,27,R,Wes Kitchens                          ,,,,,not_observed_unknown_not_zero,unmatched,83.33333333333334,83.33333333333334,FollowTheMoney candidate summary
+2022,house,28,R,Mack N Butler                         ,"BUTLER, MACK N",214912.0,77.0,WON-GENERAL,observed,exact_tokens,100.0,84.0,FollowTheMoney candidate summary
+2022,house,29,R,Mark A. Gidley                        ,,,,,not_observed_unknown_not_zero,unmatched,91.66666666666666,58.33333333333332,FollowTheMoney candidate summary
+2022,house,30,R,Craig Lipscomb                        ,,,,,not_observed_unknown_not_zero,unmatched,93.33333333333333,93.33333333333333,FollowTheMoney candidate summary
+2022,house,31,R,Troy B. Stubbs                        ,,,,,not_observed_unknown_not_zero,unmatched,91.66666666666666,69.44444444444443,FollowTheMoney candidate summary
+2022,house,32,D,Barbara Bigsby Boyd                   ,"BOYD, BARBARA BIGSBY",94206.0,51.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,32,R,Evan B. Jackson                       ,,,,,not_observed_unknown_not_zero,unmatched,92.3076923076923,92.3076923076923,FollowTheMoney candidate summary
+2022,house,33,D,"Fred Crum, Sr.                        ","CRUM, FRED",8235.0,54.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,33,R,Ben Robbins                           ,"ROBBINS, BEN",115848.0,162.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,34,R,David Standridge                      ,"STANDRIDGE, DAVID",97327.0,86.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,35,R,Steve Hurst                           ,,,,,not_observed_unknown_not_zero,unmatched,66.66666666666667,66.66666666666667,FollowTheMoney candidate summary
+2022,house,36,R,Randy Wood                            ,"WOOD, RANDY",73747.0,59.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,37,R,Bob Fincher                           ,,,,,not_observed_unknown_not_zero,unmatched,87.5,87.5,FollowTheMoney candidate summary
+2022,house,38,R,Debbie Hamby Wood                     ,"WOOD, DEBBIE HAMBY",251314.0,233.0,WON-GENERAL,observed,exact_tokens,100.0,72.41379310344828,FollowTheMoney candidate summary
+2022,house,39,R,Ginny Shaver                          ,"SHAVER, GINNY",177674.0,164.0,WON-GENERAL,observed,exact_tokens,100.0,76.0,FollowTheMoney candidate summary
+2022,house,40,D,Pam Howard                            ,,,,,not_observed_unknown_not_zero,unmatched,83.87096774193549,83.87096774193549,FollowTheMoney candidate summary
+2022,house,40,R,Chad Robertson                        ,,,,,not_observed_unknown_not_zero,unmatched,77.77777777777779,37.777777777777786,FollowTheMoney candidate summary
+2022,house,41,D,Chris Nelson                          ,,,,,not_observed_unknown_not_zero,unmatched,85.71428571428572,85.71428571428572,FollowTheMoney candidate summary
+2022,house,41,R,Corley Ellis                          ,"ELLIS, CORLEY",137321.0,138.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,42,R,Van Smith                             ,,,,,not_observed_unknown_not_zero,unmatched,52.63157894736843,52.63157894736843,FollowTheMoney candidate summary
+2022,house,43,D,Prince Cleveland                      ,"CLEVELAND, PRINCE",22869.0,196.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,43,R,Arnold Mooney                         ,,,,,not_observed_unknown_not_zero,unmatched,92.85714285714286,92.85714285714286,FollowTheMoney candidate summary
+2022,house,44,R,Danny Garrett                         ,,,,,not_observed_unknown_not_zero,unmatched,74.28571428571429,74.28571428571429,FollowTheMoney candidate summary
+2022,house,45,R,Susan Dubose                          ,"DUBOSE, SUSAN",240625.0,321.0,WON-GENERAL,observed,exact_tokens,100.0,76.47058823529412,FollowTheMoney candidate summary
+2022,house,46,R,David Faulkner                        ,,,,,not_observed_unknown_not_zero,unmatched,75.67567567567568,75.67567567567568,FollowTheMoney candidate summary
+2022,house,47,D,Christian Coleman                     ,"COLEMAN, CHRISTIAN",12482.0,71.0,LOST-GENERAL,observed,exact_tokens,100.0,69.6969696969697,FollowTheMoney candidate summary
+2022,house,47,R,Mike Shaw                             ,,,,,not_observed_unknown_not_zero,unmatched,76.19047619047619,76.19047619047619,FollowTheMoney candidate summary
+2022,house,48,R,Jim Carns                             ,,,,,not_observed_unknown_not_zero,unmatched,80.0,44.28571428571429,FollowTheMoney candidate summary
+2022,house,49,R,Russell Bedsole                       ,"BEDSOLE, RUSSELL",98216.0,75.0,WON-GENERAL,observed,exact_tokens,100.0,77.77777777777777,FollowTheMoney candidate summary
+2022,house,50,R,Jim Hill                              ,,,,,not_observed_unknown_not_zero,unmatched,77.77777777777779,77.77777777777779,FollowTheMoney candidate summary
+2022,house,51,R,Allen Treadaway                       ,"TREADAWAY, ALLEN",32638.0,26.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,52,D,John W. Rogers Jr.                    ,"ROGERS JR, JOHN W",56098.0,46.0,WON-GENERAL,observed,exact_tokens,100.0,73.33333333333333,FollowTheMoney candidate summary
+2022,house,53,D,Anthony Daniels                       ,"DANIELS, ANTHONY",167584.0,132.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,54,D,Neil Rafferty                         ,"RAFFERTY, NEIL",283119.0,605.0,WON-GENERAL,observed,exact_tokens,100.0,68.0,FollowTheMoney candidate summary
+2022,house,55,D,"Fred ""Coach"" Plump                    ","PLUMP, FRED (COACH)",73250.0,59.0,WON-GENERAL,observed,exact_tokens,100.0,64.70588235294119,FollowTheMoney candidate summary
+2022,house,56,D,Ontario J. Tillman                    ,,,,,not_observed_unknown_not_zero,unmatched,93.75,62.980769230769226,FollowTheMoney candidate summary
+2022,house,57,D,Patrick Sellers                       ,"SELLERS, PATRICK",105741.0,144.0,WON-GENERAL,observed,exact_tokens,100.0,66.66666666666666,FollowTheMoney candidate summary
+2022,house,57,R,Delor Baumann                         ,"BAUMANN, DELOR",4288.0,5.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,58,D,Rolanda Hollis                        ,"HOLLIS, ROLANDA",43153.0,75.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,59,D,Mary Moore                            ,"MOORE, MARY",47306.0,36.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,60,D,Juandalynn Givan                      ,,,,,not_observed_unknown_not_zero,unmatched,80.0,42.96296296296296,FollowTheMoney candidate summary
+2022,house,61,R,Ron Bolton                            ,,,,,not_observed_unknown_not_zero,unmatched,86.66666666666667,52.18390804597701,FollowTheMoney candidate summary
+2022,house,62,D,Brenda T. Cephus                      ,,,,,not_observed_unknown_not_zero,unmatched,92.85714285714286,92.85714285714286,FollowTheMoney candidate summary
+2022,house,62,R,Bill Lamb                             ,,,,,not_observed_unknown_not_zero,unmatched,57.14285714285714,57.14285714285714,FollowTheMoney candidate summary
+2022,house,63,D,Samuel Adams                          ,"ADAMS, SAMUEL",19176.0,74.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,63,R,Cynthia Lee Almond                    ,,,,,not_observed_unknown_not_zero,unmatched,87.5,87.5,FollowTheMoney candidate summary
+2022,house,64,R,Donna Givens                          ,"GIVENS, DONNA",316340.0,387.0,WON-GENERAL,observed,exact_tokens,100.0,75.0,FollowTheMoney candidate summary
+2022,house,65,D,Marcus Caster                         ,"CASTER, MARCUS",2173.0,3.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,65,R,Brett Easterbrook                     ,"EASTERBROOK, BRETT",138646.0,102.0,WON-GENERAL,observed,exact_tokens,100.0,74.35897435897436,FollowTheMoney candidate summary
+2022,house,66,R,Alan Baker                            ,"BAKER, ALAN",86269.0,69.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,67,D,Prince Chestnut                       ,"CHESTNUT, PRINCE",130263.0,103.0,WON-GENERAL,observed,exact_tokens,100.0,66.66666666666666,FollowTheMoney candidate summary
+2022,house,68,D,"Thomas E. ""Action"" Jackson            ","JACKSON, THOMAS E (ACTION)",159895.0,103.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,68,R,Fred Kelley                           ,,,,,not_observed_unknown_not_zero,unmatched,78.57142857142857,78.57142857142857,FollowTheMoney candidate summary
+2022,house,69,D,Kelvin J. Lawrence                    ,"LAWRENCE, KELVIN J",255071.0,164.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,69,R,Karla Knight Maddox                   ,,,,,not_observed_unknown_not_zero,unmatched,77.41935483870968,77.41935483870968,FollowTheMoney candidate summary
+2022,house,70,D,Christopher John England              ,"ENGLAND, CHRISTOPHER JOHN",74513.0,70.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,71,D,"Artis ""Aj"" McCampbell                 ",,,,,not_observed_unknown_not_zero,unmatched,92.3076923076923,92.3076923076923,FollowTheMoney candidate summary
+2022,house,72,D,Curtis L. Travis                      ,,,,,not_observed_unknown_not_zero,unmatched,92.85714285714286,65.27093596059115,FollowTheMoney candidate summary
+2022,house,73,R,Kenneth Paschal                       ,"PASCHAL, KENNETH",46161.0,109.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,74,D,Phillip Ensler                        ,"ENSLER, PHILLIP",324059.0,617.0,WON-GENERAL,observed,exact_tokens,100.0,72.41379310344828,FollowTheMoney candidate summary
+2022,house,74,R,Charlotte Meadows                     ,"MEADOWS, CHARLOTTE",148692.0,230.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,75,R,Reed Ingram                           ,"INGRAM, REED",69117.0,43.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,76,D,"Patrice ""Penni"" McClammy              ","MCCLAMMY, PATRICE (PENNI)",51821.0,44.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,77,D,Tashina Morris                        ,"MORRIS, TASHINA",25000.0,21.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,78,D,Kenyatte Hassell                      ,"HASSELL, KENYATTE",29875.0,26.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,79,R,Joe Lovvorn                           ,"LOVVORN, JOE",212678.0,169.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,80,R,Chris E. Blackshear                   ,,,,,not_observed_unknown_not_zero,unmatched,80.0,80.0,FollowTheMoney candidate summary
+2022,house,81,R,Ed Oliver                             ,,,,,not_observed_unknown_not_zero,unmatched,81.81818181818181,81.81818181818181,FollowTheMoney candidate summary
+2022,house,82,D,Pebblin Walker Warren                 ,,,,,not_observed_unknown_not_zero,unmatched,86.48648648648648,45.46084546084546,FollowTheMoney candidate summary
+2022,house,82,R,"Lennora ""Tia"" Pierrot                 ","PIERROT, LENNORA (TIA)",3299.0,6.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,83,D,Jeremy Gray                           ,,,,,not_observed_unknown_not_zero,unmatched,75.86206896551724,75.86206896551724,FollowTheMoney candidate summary
+2022,house,84,D,Berry Forte                           ,"FORTE, BERRY",36956.0,26.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,85,D,Dexter Grimsley                       ,"GRIMSLEY, DEXTER",178168.0,87.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,85,R,Rick Rehm                             ,,,,,not_observed_unknown_not_zero,unmatched,69.23076923076923,69.23076923076923,FollowTheMoney candidate summary
+2022,house,86,R,Paul W. Lee                           ,,,,,not_observed_unknown_not_zero,unmatched,88.88888888888889,88.88888888888889,FollowTheMoney candidate summary
+2022,house,87,R,Jeff Sorrells                         ,"SORRELLS, JEFF",169741.0,112.0,WON-GENERAL,observed,exact_tokens,100.0,68.0,FollowTheMoney candidate summary
+2022,house,88,R,Jerry Starnes                         ,"STARNES, JERRY",144324.0,219.0,WON-GENERAL,observed,exact_tokens,100.0,76.92307692307693,FollowTheMoney candidate summary
+2022,house,89,R,Marcus B. Paramore                    ,"PARAMORE, MARCUS B",144466.0,142.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,90,R,Chris Sells                           ,,,,,not_observed_unknown_not_zero,unmatched,78.57142857142857,78.57142857142857,FollowTheMoney candidate summary
+2022,house,91,R,Rhett Marques                         ,"MARQUES, RHETT",160002.0,160.0,WON-GENERAL,observed,exact_tokens,100.0,72.72727272727273,FollowTheMoney candidate summary
+2022,house,92,D,Steve Hubbard                         ,,,,,not_observed_unknown_not_zero,unmatched,78.78787878787878,78.78787878787878,FollowTheMoney candidate summary
+2022,house,92,R,Matthew Hammett                       ,"HAMMETT, MATTHEW",109636.0,99.0,WON-GENERAL,observed,exact_tokens,100.0,75.75757575757575,FollowTheMoney candidate summary
+2022,house,93,R,Steve Clouse                          ,"CLOUSE, STEVE",210210.0,118.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,94,R,Jennifer Fidler                       ,"FIDLER, JENNIFER",244930.0,317.0,WON-GENERAL,observed,exact_tokens,100.0,66.66666666666666,FollowTheMoney candidate summary
+2022,house,95,D,Richard Brackner                      ,"BRACKNER, RICHARD",25882.0,261.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,95,R,Frances Holk-Jones                    ,"HOLK-JONES, FRANCES",318255.0,325.0,WON-GENERAL,observed,exact_tokens,100.0,77.14285714285714,FollowTheMoney candidate summary
+2022,house,96,R,Matt Simpson                          ,"SIMPSON, MATT",226301.0,199.0,WON-GENERAL,observed,exact_tokens,100.0,85.18518518518519,FollowTheMoney candidate summary
+2022,house,97,D,Adline Clarke                         ,,,,,not_observed_unknown_not_zero,unmatched,76.47058823529412,76.47058823529412,FollowTheMoney candidate summary
+2022,house,98,D,"Napoleon Bracy, Jr.                   ","BRACY JR, NAPOLEON",114169.0,86.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,99,D,Sam Jones                             ,,,,,not_observed_unknown_not_zero,unmatched,85.71428571428572,68.32298136645963,FollowTheMoney candidate summary
+2022,house,100,R,Mark Shirey                           ,"SHIREY, MARK",168585.0,171.0,WON-GENERAL,observed,exact_tokens,100.0,73.91304347826086,FollowTheMoney candidate summary
+2022,house,101,R,Chris Pringle                         ,,,,,not_observed_unknown_not_zero,unmatched,81.25,81.25,FollowTheMoney candidate summary
+2022,house,102,R,Shane Stringer                        ,"STRINGER, SHANE",93147.0,88.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,103,D,Barbara Drummond                      ,"DRUMMOND, BARBARA",81806.0,60.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,house,104,R,Margie Wilcox                         ,,,,,not_observed_unknown_not_zero,unmatched,81.25,81.25,FollowTheMoney candidate summary
+2022,house,105,R,Chip Brown                            ,"BROWN, CHIP",119750.0,90.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,senate,1,R,Tim Melson                            ,"MELSON, TIM",424060.0,139.0,WON-GENERAL,observed,exact_tokens,100.0,68.0,FollowTheMoney candidate summary
+2022,senate,2,D,Kim Caudle Lewis                      ,,,,,not_observed_unknown_not_zero,unmatched,58.82352941176471,58.82352941176471,FollowTheMoney candidate summary
+2022,senate,2,R,Tom Butler                            ,,,,,not_observed_unknown_not_zero,unmatched,86.95652173913044,42.512077294685994,FollowTheMoney candidate summary
+2022,senate,3,R,Arthur Orr                            ,"ORR, ARTHUR",324318.0,138.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,senate,4,R,Garlan Gudger                         ,"GUDGER, GARLAN",647061.0,240.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,senate,5,R,Greg J Reed                           ,,,,,not_observed_unknown_not_zero,unmatched,90.0,90.0,FollowTheMoney candidate summary
+2022,senate,6,R,Larry Stutts                          ,,,,,not_observed_unknown_not_zero,unmatched,75.0,75.0,FollowTheMoney candidate summary
+2022,senate,7,D,Korey Wilson                          ,"WILSON, KOREY",15438.0,208.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,senate,7,R,Sam Givhan                            ,,,,,not_observed_unknown_not_zero,unmatched,86.95652173913044,86.95652173913044,FollowTheMoney candidate summary
+2022,senate,8,R,Steve Livingston                      ,"LIVINGSTON, STEVE",230193.0,107.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,senate,9,R,Clay Scofield                         ,"SCOFIELD, CLAY",290776.0,135.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,senate,10,R,Andrew Jones                          ,"JONES, ANDREW",265782.0,319.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,senate,11,R,Lance Bell                            ,"BELL, LANCE",389820.0,234.0,WON-GENERAL,observed,exact_tokens,100.0,75.0,FollowTheMoney candidate summary
+2022,senate,12,D,Danny McCullars                       ,"MCCULLARS, DANNY",7436.0,26.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,senate,12,R,Keith Kelley                          ,"KELLEY, KEITH",458341.0,349.0,WON-GENERAL,observed,exact_tokens,100.0,66.66666666666666,FollowTheMoney candidate summary
+2022,senate,13,R,Randy Price                           ,"PRICE, RANDY",579395.0,280.0,WON-GENERAL,observed,exact_tokens,100.0,61.904761904761905,FollowTheMoney candidate summary
+2022,senate,14,R,April Weaver                          ,"WEAVER, APRIL",54800.0,32.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,senate,15,R,Dan Roberts                           ,"ROBERTS, DAN",616688.0,335.0,WON-GENERAL,observed,exact_tokens,100.0,61.53846153846154,FollowTheMoney candidate summary
+2022,senate,16,R,"J.T. ""Jabo"" Waggoner                  ",,,,,not_observed_unknown_not_zero,unmatched,90.9090909090909,90.9090909090909,FollowTheMoney candidate summary
+2022,senate,17,R,Shay Shelnutt                         ,"SHELNUTT, SHAY",398611.0,122.0,WON-GENERAL,observed,exact_tokens,100.0,73.33333333333333,FollowTheMoney candidate summary
+2022,senate,18,D,Rodger M. Smitherman                  ,"SMITHERMAN, RODGER M",231350.0,86.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,senate,19,D,Merika Coleman                        ,"COLEMAN, MERIKA",286594.0,227.0,WON-GENERAL,observed,exact_tokens,100.0,60.0,FollowTheMoney candidate summary
+2022,senate,20,D,Linda Coleman-Madison                 ,"COLEMAN-MADISON, LINDA",235930.0,87.0,WON-GENERAL,observed,exact_tokens,100.0,71.42857142857143,FollowTheMoney candidate summary
+2022,senate,21,D,Lisa Ward                             ,"WARD, LISA",94389.0,1006.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,senate,21,R,Gerald Allen                          ,"ALLEN, GERALD",363991.0,196.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,senate,22,R,Greg Albritton                        ,"ALBRITTON, GREG",608811.0,234.0,WON-GENERAL,observed,exact_tokens,100.0,64.28571428571429,FollowTheMoney candidate summary
+2022,senate,23,D,Robert L. Stewart                     ,,,,,not_observed_unknown_not_zero,unmatched,93.33333333333333,47.61904761904761,FollowTheMoney candidate summary
+2022,senate,23,R,Michael Nimmer                        ,,,,,not_observed_unknown_not_zero,unmatched,64.0,64.0,FollowTheMoney candidate summary
+2022,senate,24,D,Bobby Singleton                       ,"SINGLETON, BOBBY",447620.0,160.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,senate,25,R,Will Barfoot                          ,"BARFOOT, WILL",187787.0,80.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,senate,26,D,Kirk Hatcher                          ,"HATCHER, KIRK",41000.0,25.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,senate,27,D,Sherri Reese                          ,"REESE, SHERRI",12987.0,128.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,senate,27,R,Jay Hovey                             ,,,,,not_observed_unknown_not_zero,unmatched,80.0,40.0,FollowTheMoney candidate summary
+2022,senate,28,D,Billy Beasley                         ,,,,,not_observed_unknown_not_zero,unmatched,72.22222222222221,50.793650793650784,FollowTheMoney candidate summary
+2022,senate,29,D,"Nathan ""Nate"" Mathis                  ","MATHIS, NATHAN (NATE)",12019.0,11.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,senate,29,R,Donnie Chesteen                       ,"CHESTEEN, DONNIE",445244.0,178.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,senate,30,R,"Clyde Chambliss, Jr.                  ","CHAMBLISS JR, CLYDE",208977.0,82.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,senate,31,R,Josh Carnley                          ,,,,,not_observed_unknown_not_zero,unmatched,92.3076923076923,60.30769230769231,FollowTheMoney candidate summary
+2022,senate,32,R,Chris Elliott                         ,,,,,not_observed_unknown_not_zero,unmatched,81.25,81.25,FollowTheMoney candidate summary
+2022,senate,33,D,Vivian Davis Figures                  ,,,,,not_observed_unknown_not_zero,unmatched,82.35294117647058,82.35294117647058,FollowTheMoney candidate summary
+2022,senate,33,R,Pete Riehm                            ,"RIEHM, PETE",120323.0,131.0,LOST-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2022,senate,34,R,Jack Williams                         ,,,,,not_observed_unknown_not_zero,unmatched,78.78787878787878,78.78787878787878,FollowTheMoney candidate summary
+2022,senate,35,R,David Sessions                        ,"SESSIONS, DAVID",281138.0,133.0,WON-GENERAL,observed,exact_tokens,100.0,100.0,FollowTheMoney candidate summary
+2014,house,10,D,Means,,,,,not_observed_unknown_not_zero,not_observed,0.0,0.0,FollowTheMoney candidate summary
+2014,house,13,R,Rowe,,,,,not_observed_unknown_not_zero,unmatched,36.36363636363637,11.363636363636367,FollowTheMoney candidate summary
+2014,house,24,D,Beddingfield,,,,,not_observed_unknown_not_zero,unmatched,80.0,80.0,FollowTheMoney candidate summary
+2014,house,24,R,Ledbetter,,,,,not_observed_unknown_not_zero,unmatched,64.28571428571428,35.71428571428571,FollowTheMoney candidate summary
+2014,house,31,D,Holmes,,,,,not_observed_unknown_not_zero,not_observed,0.0,0.0,FollowTheMoney candidate summary
+2014,house,40,D,Copeland,,,,,not_observed_unknown_not_zero,unmatched,73.6842105263158,33.684210526315795,FollowTheMoney candidate summary
+2014,house,40,R,Brown,,,,,not_observed_unknown_not_zero,unmatched,50.0,50.0,FollowTheMoney candidate summary
+2014,house,66,D,Baker,,,,,not_observed_unknown_not_zero,not_observed,0.0,0.0,FollowTheMoney candidate summary

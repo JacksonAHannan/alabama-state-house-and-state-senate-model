@@ -1,0 +1,19 @@
+{
+  "primary_issue": "healthcare_conscience",
+  "secondary_issues": [
+    "public_education",
+    "healthcare_medicaid"
+  ],
+  "plain_english_revision": "This amendment adds a new section requiring Alabama\u2019s Medicaid program to create rules expanding eligibility for coverage, but only under specific conditions tied to conscience protections. It does not alter the abortion restrictions in HB314 itself.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Affirmatively advances a policy to clarify or mandate Medicaid eligibility expansions for certain groups, contingent on conscience-based exemptions.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "The Department of Medicaid shall promulgate rules to expand eligibility for Medicaid.",
+    "Section 9. [newly inserted]",
+    "On page 8, after line 27"
+  ],
+  "needs_human_review": true,
+  "review_reason": "Amendment text is procedural and depends on unseen language in the original bill (e.g., 'conscience protections' not defined here). Valence requires context from HB314\u2019s full text."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "individual_health_insurance_requirement",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Mandating that individuals purchase health insurance is a progressive policy option.",
+  "evidence_quote": "d) Should individuals be required to purchase health care insurance?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

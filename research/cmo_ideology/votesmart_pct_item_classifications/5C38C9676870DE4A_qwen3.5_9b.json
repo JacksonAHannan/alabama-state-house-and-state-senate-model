@@ -1,0 +1,11 @@
+{
+  "policy_key": "rewrite_state_constitution",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The item asks whether the legislature should rewrite the state constitution. This is a procedural or administrative question about legislative action rather than an ideological policy stance on economic distribution, social welfare, or civil liberties.",
+  "evidence_quote": "m) Should the Alabama legislature rewrite the state constitution?",
+  "needs_human_review": true,
+  "review_reason": "The item asks for support of rewriting the constitution. This is a procedural/administrative question about legislative action rather than an ideological policy stance on economic distribution, social welfare, or civil liberties."
+}

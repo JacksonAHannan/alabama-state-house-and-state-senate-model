@@ -1,0 +1,11 @@
+{
+  "policy_key": "automatic_voter_registration",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Automatic voter registration is a progressive policy aimed at expanding access to voting by enrolling eligible citizens automatically unless they opt out.",
+  "evidence_quote": "d) Do you support automatic voter registration?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

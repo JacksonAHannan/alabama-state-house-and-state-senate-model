@@ -1,0 +1,42 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "Alli Summerford was the 2018 Democratic candidate for Alabama House District 48, covering parts of Jefferson and Shelby counties. She is a Mountain Brook resident who founded a web-design and digital-marketing business operated for roughly two decades. Her educational background includes a bachelor's degree from the University of Tennessee and an MBA focused on new-venture analysis. Prior to her candidacy, she reported civic work including service on a women's shelter board, library support, Rotary exchange service, and founding a local track-club booster organization.",
+  "offices_and_public_service": [
+    "2018 Democratic candidate for Alabama House District 48",
+    "Founder of web-design and digital-marketing business (operated roughly two decades)",
+    "Women's shelter board member",
+    "Library support volunteer/worker",
+    "Rotary exchange service participant",
+    "Local track-club booster organization founder"
+  ],
+  "profession_and_employment": [
+    "Founder of web-design and digital-marketing business (operated roughly two decades)"
+  ],
+  "education": [
+    "Bachelor's degree from the University of Tennessee",
+    "MBA focused on new-venture analysis"
+  ],
+  "community_and_local_ties": [
+    "Mountain Brook resident",
+    "Civic work in Jefferson and Shelby counties (District 48 area)"
+  ],
+  "political_profile": [
+    "2018 Democratic candidate for Alabama House District 48"
+  ],
+  "important_caveats": [],
+  "source_urls_used": [
+    "https://www.alreporter.com/2018/02/23/alli-summerford-runs-house-district-48/",
+    "https://vestaviavoice.com/peopleplaces/2018-elections-guide1022/",
+    "https://abcnews.com/GMA/News/female-candidates-lean-run-1st-time-alabama/story?id=58205964",
+    "https://www.sos.alabama.gov/sites/default/files/election-2018/Democratic_Party_2018_General_Election_Certification_of_Candidates.pdf",
+    "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/2018/2018-Official-General-Election-Results-Certified-2018-11-27.pdf"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://abcnews.com/GMA/News/female-candidates-lean-run-1st-time-alabama/story?id=58205964",
+    "https://vestaviavoice.com/peopleplaces/2018-elections-guide1022/",
+    "https://www.alreporter.com/2018/02/23/alli-summerford-runs-house-district-48/",
+    "https://www.sos.alabama.gov/sites/default/files/election-2018/Democratic_Party_2018_General_Election_Certification_of_Candidates.pdf",
+    "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/2018/2018-Official-General-Election-Results-Certified-2018-11-27.pdf"
+  ]
+}

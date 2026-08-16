@@ -1,0 +1,17 @@
+{
+  "primary_issue": "school_choice",
+  "secondary_issues": [
+    "public_private_partnerships",
+    "infrastructure_energy"
+  ],
+  "plain_english_revision": "The amendment clarifies that the bill's restrictions on gender-specific athletic events apply only to interscholastic athletics *within* Alabama, not across state lines. It also specifies that these rules would govern the state\u2019s athletic association (likely the Alabama High School Athletic Association) rather than leaving it ambiguous whether other regional or national bodies could set competing standards.",
+  "revision_direction": "restricts_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "The amendment advances a policy effect of limiting the bill\u2019s scope to in-state athletic events and state-level oversight, thereby reducing potential conflicts with out-of-state or national organizations.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "within the state"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment is explicit and self-contained; no unseen language is required to interpret its effect."
+}

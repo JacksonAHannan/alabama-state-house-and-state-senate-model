@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_environment_clean_water_funding",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting increased state funding for clean drinking water initiatives is conventionally aligned with progressive environmental policy positions that prioritize public health infrastructure and ecological protection.",
+  "evidence_quote": "Do you support increasing state funding for clean drinking water initiatives?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

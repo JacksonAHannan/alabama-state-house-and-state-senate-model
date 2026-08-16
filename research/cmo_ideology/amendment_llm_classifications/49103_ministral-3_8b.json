@@ -1,0 +1,19 @@
+{
+  "primary_issue": "criminal_justice",
+  "secondary_issues": [
+    "criminal_justice",
+    "criminal_justice"
+  ],
+  "plain_english_revision": "The amendment modifies SB301 by removing or clarifying language related to sexting, non-consensual image distribution, and juvenile sentencing for child pornography offenses. It also adds specific intent requirements and references to statutory definitions.",
+  "revision_direction": "restricts_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Advancing stricter enforcement of non-consensual image distribution crimes by requiring proof of harassing intent, while limiting juvenile registration requirements for child pornography offenses under specific conditions.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "with the intent to harass, threaten, coerce, or intimidate the person depicted",
+    "as defined in Section 13A-12-190",
+    "The sentencing court may exempt from this chapter a juvenile sex offender adjudicated delinquent of a violation of the Alabama Child Pornography Act after the juvenile has been counseled on the dangers of the conduct for which he or she was adjudicated delinquent."
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment text is clear and unambiguous, with no reliance on unseen language. The intent and effect are evident from the provided text."
+}

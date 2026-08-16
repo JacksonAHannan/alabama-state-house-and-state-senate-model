@@ -1,0 +1,14 @@
+{
+  "plain_english_policy": "HB214 (2010) is a targeted policy shift in Alabama\u2019s welfare and food stamp eligibility rules for individuals with drug-related felony convictions. It **reverses federal restrictions** by allowing such persons to regain access to Temporary Assistance for Needy Families (TANF) and SNAP (food stamps) under specific conditions: after completing their sentence, while on probation *if compliant*, or upon finishing a court-mandated drug/alcohol treatment program. This bill **prioritizes rehabilitation over permanent disqualification**, aligning Alabama with the federal law\u2019s optional state exemptions\u2014though it does not fully waive all restrictions (e.g., active incarceration remains ineligible).",
+  "policy_direction_if_enacted": "The bill would create a **restorative justice framework** for drug offenders in welfare programs, emphasizing conditional reintegration. Key effects likely include:",
+  "ideological_valence": "progressive",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "The bill\u2019s text explicitly cites federal law (21 U.S.C. \u00a7862a) to justify its exemption, indicating the sponsors\u2019 intent to **override Alabama\u2019s prior alignment with federal ineligibility** for drug felons.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "A person convicted of a drug related felony... shall be eligible... upon completion of his or her sentence or if the person is satisfactorily serving a sentence of probation, including if the person is in the process of completing or has completed mandatory participation in a drug or alcohol treatment program.",
+    "Pursuant to subsection (d) of 21 U.S.C. \u00a7862a... a state may exempt any or all individuals domiciled in the state from the federal law..."
+  ],
+  "needs_human_review": false,
+  "review_reason": "The bill\u2019s intent is unambiguous: it directly modifies eligibility criteria for TANF/SNAP by leveraging federal statutory language to create exceptions. No ceremonial or appropriations-only elements are present."
+}

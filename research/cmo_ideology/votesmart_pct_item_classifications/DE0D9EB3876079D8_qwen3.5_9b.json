@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_funding",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The item asks for a funding level but does not specify whether the requested 'Higher' option represents an increase or decrease relative to a baseline.",
+  "evidence_quote": "Select one level only.",
+  "needs_human_review": true,
+  "review_reason": "Without context on what constitutes the current spending level (baseline), selecting 'Higher' is ambiguous; it could mean higher than zero, higher than last year's budget, or simply choosing option c from a list. The direction cannot be definitively assigned as conservative (+1) or progressive (-1)."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_tax_funding",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Using state tax dollars to fund political campaigns (partial public financing).",
+  "evidence_quote": "Do you support partial funding from state taxes for state level political campaigns?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

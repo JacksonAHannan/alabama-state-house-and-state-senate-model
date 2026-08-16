@@ -1,0 +1,18 @@
+{
+  "primary_issue": "infrastructure_energy",
+  "secondary_issues": [
+    "public_education",
+    "healthcare_medicaid"
+  ],
+  "plain_english_revision": "The amendment removes a section that would have required the state to allocate $10 million annually for school infrastructure repairs and $5 million for Medicaid expansion outreach programs, while also mandating energy efficiency upgrades in public buildings. The deleted text explicitly stated: 'The State Board of Education shall prioritize $10M/year for school facility repairs, with 30% allocated to rural districts. Additionally, the Department of Human Resources must spend $5M/year on Medicaid outreach, and all state agencies must install energy-saving measures costing no more than $2M annually.'",
+  "revision_direction": "restricts_policy",
+  "ideological_valence": "conservative",
+  "candidate_position_supported": "reducing mandatory state spending on education, healthcare outreach, and energy efficiency upgrades",
+  "confidence": "high",
+  "evidence_quotes": [
+    "'The State Board of Education shall prioritize $10M/year for school facility repairs...'",
+    "'Additionally, the Department of Human Resources must spend $5M/year on Medicaid outreach...'"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment text is clear and unambiguous in its intent to remove specific funding mandates."
+}

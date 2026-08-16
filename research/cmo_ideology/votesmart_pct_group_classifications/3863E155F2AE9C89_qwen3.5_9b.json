@@ -1,0 +1,11 @@
+{
+  "policy_key": "health_tax_incentives_small_business",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option proposes using tax incentives to encourage small businesses to offer health care coverage. This is generally viewed as a progressive policy because it expands access to healthcare and uses government intervention (tax breaks) to support employee welfare, aligning with left-leaning priorities on social safety nets.",
+  "evidence_quote": "a) Provide tax incentives to small businesses that provide health care to their employees.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

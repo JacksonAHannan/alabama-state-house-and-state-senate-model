@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_tax_eitc",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Supporting the Earned Income Tax Credit (EITC) is a progressive policy aimed at reducing poverty and supporting low-to-moderate-income working families.",
+  "evidence_quote": "Earned income tax credit",
+  "needs_human_review": false,
+  "review_reason": ""
+}

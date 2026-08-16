@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_environment_stricter_than_federal",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting stricter state environmental regulations than federal law is conventionally a progressive policy position.",
+  "evidence_quote": "f) Enact environmental regulations even if they are stricter than federal law.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

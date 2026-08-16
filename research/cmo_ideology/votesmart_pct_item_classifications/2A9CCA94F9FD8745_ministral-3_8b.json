@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_corporate_limits_state",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "opposition to maintaining or increasing corporate contribution limits for state legislative candidates (i.e., favors relaxing or removing such limits)",
+  "evidence_quote": "Do you support current limits on corporate contributions to state legislative candidates?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

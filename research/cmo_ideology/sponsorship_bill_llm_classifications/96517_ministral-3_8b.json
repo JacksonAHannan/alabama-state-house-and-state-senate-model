@@ -1,0 +1,14 @@
+{
+  "plain_english_policy": "This bill represents a **one-time fiscal transfer** of education funding from a dedicated trust fund to the general state budget during FY2011. It does not alter long-term policy but reflects short-term budget priorities by redirecting Children First Trust Fund revenues (which were earmarked for K-12 education) into the General Fund. This action effectively **reduces dedicated school funding** without establishing a new allocation mechanism, signaling a preference for broader state spending flexibility over targeted education investment.",
+  "policy_direction_if_enacted": "The bill\u2019s enactment would produce three key outcomes in FY2011:",
+  "ideological_valence": "conservative",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "no_inference_beyond_text",
+  "confidence": "high",
+  "evidence_quotes": [
+    "any portion of Children First Trust Fund receipts currently allocated for the State Board of Education shall be transferred from the Children First Trust Fund to the State General Fund during the fiscal year ending September 30, 2011",
+    "Notwithstanding any provision... that portion... shall be transferred"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The bill\u2019s intent is unambiguous: a one-time reallocation of education funding to the General Fund. No ceremonial or appropriations-only ambiguity exists."
+}

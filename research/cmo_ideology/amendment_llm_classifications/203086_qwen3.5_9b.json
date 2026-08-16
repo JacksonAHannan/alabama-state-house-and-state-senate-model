@@ -1,0 +1,18 @@
+{
+  "primary_issue": "criminal_justice",
+  "secondary_issues": [
+    "healthcare_conscience"
+  ],
+  "plain_english_revision": "This amendment creates new crimes for abusing, neglecting, or financially exploiting adults with disabilities in Alabama. It defines specific offenses based on the severity of injury (physical vs. serious physical) and the amount of money stolen ($500 to over $2,500). The law establishes penalties ranging from misdemeanors to Class A felonies. Crucially, it extends the statute of limitations for financial exploitation cases to seven years and clarifies that a defendant's belief about the victim's disability status is not a valid legal defense.",
+  "revision_direction": "restricts_policy",
+  "ideological_valence": "conservative",
+  "candidate_position_supported": "The amendment advances a conservative policy position by expanding criminal liability and enforcement mechanisms to protect vulnerable adults with disabilities from abuse, neglect, and financial exploitation. It specifically restricts the ability of perpetrators to use 'reasonable belief' regarding an adult's disability status as a defense against charges.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "\"create the crimes of abuse and neglect of an adult with a disability in the first, second, and third degrees\"",
+    "\"financial exploitation of an adult with a disability... constitutes financial exploitation of an adult with a disability in the first degree.\"\n(b) Financial exploitation ... is a Class B felony.",
+    "Any prosecution brought for financial exploitation of an adult with a disability shall be commenced within seven years after the commission of the offense.\",\n(c) It shall not be a defense to financial exploitation of an adult with a disability that the accused reasonably believed that the victim was not an adult with a disability.\""
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

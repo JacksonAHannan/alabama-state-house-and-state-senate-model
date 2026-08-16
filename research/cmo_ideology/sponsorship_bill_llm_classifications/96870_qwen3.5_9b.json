@@ -1,0 +1,15 @@
+{
+  "plain_english_policy": "**The Alabama Public School and College Authority (APSCA) is authorized to issue 'Refunding Bonds' specifically designed to pay off existing debt at a lower cost.**\n\nHere are the key rules for these bonds:\n1. **Purpose**: They can be used to retire old bonds before, on, or after their maturity date.\n2. **Cost Savings Requirement**: The new Refunding Bonds must save money. Their total present value of payments (including fees) cannot exceed 95% of the cost of paying off the old debt using its original schedule.\n3. **Maturity Limitation**: The average life of the new bonds can't be more than three years longer than the old ones they replace.\n4. **Payment Source**: They are paid only from specific tax receipts, reserves, or other funds pledged for this purpose\u2014not general state taxes.\n5. **Trust Requirement**: Money raised must either pay off the debt immediately or be placed in a trust/escrow fund with government securities to ensure future payments on time.",
+  "policy_direction_if_enacted": "The policy directs APSCA officials to issue Refunding Bonds only when they result in significant cost savings (at least 5% reduction) and strictly adhere to maturity limits. Officials must establish a trust or escrow fund for the proceeds, ensuring that refunded bonds are effectively 'defeased' (removed from active debt status). The policy also mandates using specific tax revenues and prohibits pledging the state's general credit.",
+  "ideological_valence": "conservative",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "}",
+  "confidence": "high",
+  "evidence_quotes": [
+    "the Alabama Public School and College Authority is hereby authorized to sell and issue its Refunding Bonds.",
+    "Provided, however, no Refunding Bonds shall be issued unless the present value of all debt service on the Refunding Bonds... shall not be greater than 95 percent of the present value of all debt service on the Bonds to be refunded",
+    "the Alabama Public School and College Authority is hereby authorized to pledge irrevocably for such purpose, and there is hereby appropriated for such purpose, such amount as may be necessary of the residues of the receipts from the excise taxes pledged and appropriated herein"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The text clearly outlines specific financial rules (95% cost savings threshold, 3-year maturity limit) that constitute a binding policy directive for debt management. The language is prescriptive ('is hereby authorized', 'shall not be greater than'), indicating an enacted rule rather than just informational content."
+}

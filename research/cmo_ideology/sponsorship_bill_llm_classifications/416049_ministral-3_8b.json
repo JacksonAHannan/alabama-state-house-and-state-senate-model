@@ -1,0 +1,14 @@
+{
+  "plain_english_policy": "This bill (HB12 from Alabama\u2019s 2010 session) would cap the amount a statewide candidate can personally loan to their own campaign at **$250,000 per election cycle**. Under existing law, there was no such limit. The policy direction is clear: **reduce personal financial risk for candidates by restricting how much they can self-fund via loans**, which could indirectly curb excessive reliance on personal wealth in elections while preserving some flexibility for wealthy candidates to invest in their campaigns.",
+  "policy_direction_if_enacted": "1. **Limited but targeted campaign finance reform**: Unlike broad contribution bans, this bill focuses narrowly on *self-loans*\u2014a loophole where wealthy candidates avoid donor limits by funding their own races. It does not restrict third-party contributions or public financing, so the overall system remains largely intact for other actors.",
+  "ideological_valence": "mixed",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "The bill\u2019s text and synopsis explicitly state it was introduced to address a specific loophole (unlimited self-loans) without partisan framing. Representative Ford\u2019s sponsorship aligns with the bill\u2019s stated purpose, but no broader ideological inference is warranted beyond the text.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "Under existing law, there is **no limit** on the amount of funds a candidate seeking election for statewide office may loan his or her campaign. This bill would **limit** the amount... to $250,000.",
+    "No candidate seeking election to a statewide office may make a loan to his or her campaign in excess of two hundred fifty thousand dollars ($250,000) in any election cycle."
+  ],
+  "needs_human_review": false,
+  "review_reason": "The bill\u2019s intent and text are unambiguous; no contextual ambiguity exists beyond the stated policy goal. The $250K cap is a clear restriction on self-funding, with no ceremonial or appropriations-only elements."
+}

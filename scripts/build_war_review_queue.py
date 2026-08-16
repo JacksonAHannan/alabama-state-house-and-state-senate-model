@@ -11,7 +11,7 @@ WAR = ROOT / "data" / "processed" / "war"
 # build_presidential_district_features.TARGET_SOURCES. A race is fallback-heavy
 # if ANY of its cycle's presidential inputs leaned mostly on county-level
 # redistribution rather than direct precinct matches.
-CYCLE_PRESIDENTIAL_SOURCES = {2014: [2012], 2018: [2012, 2016], 2022: [2016, 2020]}
+CYCLE_PRESIDENTIAL_SOURCES = {2010: [], 2014: [2012], 2018: [2012, 2016], 2022: [2016, 2020]}
 
 
 def max_presidential_fallback_share(races: pd.DataFrame) -> pd.Series:
@@ -40,10 +40,19 @@ def main() -> None:
     races["max_pres_fallback_share"] = max_presidential_fallback_share(races)
     races["high_pres_fallback"] = races.max_pres_fallback_share.ge(0.50)
     races["finance_incomplete"] = ~races.finance_complete.fillna(False).astype(bool)
+    races["ftm_finance_incomplete"] = ~races.ftm_finance_complete.fillna(False).astype(bool)
     races["baseline_incomplete"] = ~races.core_index_complete.fillna(False).astype(bool)
     races["cycle_shift_risk"] = races.cycle.eq(2014)
+    uncertainty_path = ROOT / "data" / "processed" / "elections" / "canonical_baseline_uncertainty.csv"
+    if uncertainty_path.exists():
+        uncertainty = pd.read_csv(uncertainty_path)[["cycle","chamber","district","baseline_range"]]
+        races = races.merge(uncertainty, on=["cycle","chamber","district"], how="left", validate="one_to_one")
+    else:
+        races["baseline_range"] = 0.0
+    races["baseline_geography_sensitive"] = races.baseline_range.fillna(0).ge(1.0)
     flag_cols = ["high_absolute_war", "high_pres_fallback", "finance_incomplete",
-                 "baseline_incomplete", "cycle_shift_risk"]
+                 "ftm_finance_incomplete", "baseline_incomplete", "cycle_shift_risk",
+                 "baseline_geography_sensitive"]
     races["review_flag_count"] = races[flag_cols].sum(axis=1)
     races["review_reasons"] = races.apply(
         lambda row: " | ".join(col for col in flag_cols if bool(row[col])), axis=1)

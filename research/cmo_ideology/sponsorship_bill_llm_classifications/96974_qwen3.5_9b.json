@@ -1,0 +1,14 @@
+{
+  "plain_english_policy": "This bill amends an existing Alabama statute specifically for Pickens County to ensure that the county solicitor's fee is collected in all criminal cases where court costs are assessed. The policy direction enforces a strict linkage between this specific fee and general court costs: if any other court costs or charges are waived, the solicitor's fee must also be waived; conversely, it cannot be waived unless *all* other costs are waived. This prevents partial waivers that would leave the county without its designated legal fees while potentially relieving defendants of other expenses.",
+  "policy_direction_if_enacted": "Enactment codifies a mandatory collection rule for Pickens County solicitor's fees in criminal proceedings involving court costs, prohibiting selective waiver practices where general costs are forgiven but this specific fee remains unpaid. It ensures the fee is collected whenever a defendant faces penalties, bond forfeiture, arrest warrants, or any assessment of court costs.",
+  "ideological_valence": "progressive",
+  "local_or_ceremonial": true,
+  "sponsorship_supports_position": "Representative Harper (N & P) advanced this legislation to formalize fee collection rules for Pickens County.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "\"The solicitor's fee shall be collected as prescribed in Section 1 in all criminal cases where the defendant is adjudged guilty... or in any other case where court costs are assessed\"",
+    "\"The solicitor's fee shall not be waived or remitted unless all other costs and charges of court are waived.\""
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

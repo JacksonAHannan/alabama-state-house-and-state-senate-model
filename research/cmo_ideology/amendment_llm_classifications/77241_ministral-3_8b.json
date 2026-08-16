@@ -1,0 +1,19 @@
+{
+  "primary_issue": "taxes_budget",
+  "secondary_issues": [
+    "public_employee_benefits",
+    "infrastructure_energy"
+  ],
+  "plain_english_revision": "**Summary of Amendment Effect**",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Advances a targeted tax subsidy for residents of Mobile and Baldwin counties by creating a permanent half-price toll pass for the I-10 bridge and Wallace Tunnel, with no stated income or eligibility criteria beyond residency.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "**Eligibility criterion**: 'A permanent resident of Mobile County or Baldwin County shall be eligible...'",
+    "**Subsidy amount**: '...for a half price toll pass...'",
+    "**Scope restriction**: '...for usage of the I-10 bridge or the Wallace Tunnel over the Mobile River.'"
+  ],
+  "needs_human_review": false,
+  "review_reason": "No procedural ambiguity, no reliance on unseen language; amendment is self-contained and clearly actionable."
+}

@@ -1,0 +1,19 @@
+{
+  "primary_issue": "school_choice",
+  "secondary_issues": [
+    "public_education",
+    "school_choice"
+  ],
+  "plain_english_revision": "The amendment removes provisions that would have required the State Superintendent of Education to play a role in approving or overseeing school board decisions related to charter schools, private school partnerships, or alternative education programs. It also deletes language about accountability mechanisms tied to those entities.",
+  "revision_direction": "removes_safeguard",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Advances the expansion of charter schools and/or private school partnerships without explicit state oversight or accountability for performance, funding transparency, or compliance with public education standards.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "the State Superintendent of Education and",
+    "*lines 12-13, 20-21*",
+    "delete lines 4 to 12"
+  ],
+  "needs_human_review": true,
+  "review_reason": "The amendment's intent is inferred from the deletion of specific references to the State Superintendent and accountability language. The broader policy impact (e.g., whether it enables new programs or weakens oversight) requires contextual knowledge of SB170\u2019s original provisions."
+}

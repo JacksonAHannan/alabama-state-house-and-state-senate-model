@@ -1,0 +1,11 @@
+{
+  "policy_key": "us_support_palestinian_state",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting the creation of a Palestinian state is conventionally associated with progressive foreign policy positions that emphasize human rights and conflict resolution.",
+  "evidence_quote": "Should the United States support the creation of a Palestinian state?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

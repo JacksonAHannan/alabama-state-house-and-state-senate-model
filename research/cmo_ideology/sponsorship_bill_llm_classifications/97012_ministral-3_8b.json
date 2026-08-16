@@ -1,0 +1,15 @@
+{
+  "plain_english_policy": "This bill is a **local, revenue-generating measure** that empowers the Bullock County Sheriff to install vending machines in the county jail\u2019s canteen. The proceeds from these machines would be directed into a dedicated **Sheriff\u2019s Fund**, which could only be used for law enforcement purposes\u2014effectively creating a new, non-taxpayer-funded revenue stream for the sheriff\u2019s office without altering existing funding sources.",
+  "policy_direction_if_enacted": "The bill reflects a **decentralized, incremental approach to local law enforcement financing**, with three key implications:",
+  "ideological_valence": "conservative",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "no_inference_beyond_text",
+  "confidence": "high",
+  "evidence_quotes": [
+    "The Sheriff of Bullock County may allow vending machines to be placed in the canteen... Proceeds... shall be deposited in the **Sheriff's Fund**",
+    "**Proceeds... shall be used exclusively for law enforcement purposes** and in the discharge of the sheriff's office as the sheriff sees fit.",
+    "The Sheriff's Fund... shall not diminish or take the place of any other reimbursement"
+  ],
+  "needs_human_review": false,
+  "review_reason": "No. The bill\u2019s text is clear, unambiguous, and lacks ceremonial/appropriations-only elements."
+}

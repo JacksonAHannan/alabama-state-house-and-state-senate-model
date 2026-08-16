@@ -1,0 +1,11 @@
+{
+  "policy_key": "scientific_research_funding",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Supports federal funding for scientific research.",
+  "evidence_quote": "l) Scientific research",
+  "needs_human_review": true,
+  "review_reason": "The option is a single category label without specified funding levels or ideological framing; direction cannot be inferred from the text alone."
+}

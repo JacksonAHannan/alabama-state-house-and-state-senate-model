@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_mortgage_deductions",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Supporting mortgage interest deductions is generally viewed as a progressive tax policy because it benefits homeowners with larger mortgages who are often higher-income earners but also serves to encourage home ownership.",
+  "evidence_quote": "n) Mortgage deductions",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "usa_withdraw_from_iraq",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting US troop withdrawal from Iraq is conventionally associated with progressive foreign policy positions emphasizing non-interventionism and diplomatic solutions over military engagement.",
+  "evidence_quote": "Should the United States withdraw its troops from Iraq?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

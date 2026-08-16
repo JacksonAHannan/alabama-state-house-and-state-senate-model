@@ -1,0 +1,11 @@
+{
+  "policy_key": "estate_tax_repeal",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting the permanent repeal of the federal estate tax is a conventionally progressive policy position.",
+  "evidence_quote": "Do you support permanent repeal of the federal estate tax?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

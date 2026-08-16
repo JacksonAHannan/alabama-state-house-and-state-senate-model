@@ -1,0 +1,19 @@
+{
+  "primary_issue": "environment",
+  "secondary_issues": [
+    "public_education",
+    "healthcare_conscience"
+  ],
+  "plain_english_revision": "The amendment would expand confidentiality protections for legislators' personal information to match those of law enforcement officers and judges, while removing prosecutors from the bill's scope. It also introduces a new category of protected conduct\u2014harassment\u2014applicable to both officers and legislators under certain circumstances.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "legislative confidentiality protections for personal information, including harassment-related disclosures",
+  "confidence": "high",
+  "evidence_quotes": [
+    "members of the Legislature",
+    "law enforcement officers or legislators under certain circumstances",
+    "or legislator"
+  ],
+  "needs_human_review": true,
+  "review_reason": "The amendment's procedural nature and reliance on 'certain circumstances' (unseen language) make full policy intent ambiguous."
+}

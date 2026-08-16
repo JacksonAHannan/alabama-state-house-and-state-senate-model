@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_stem_cell_funding",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting state funding for stem cell research is generally considered a progressive stance as it aligns with scientific advancement and often reflects support for reproductive rights and medical innovation over conservative restrictions on embryonic life.",
+  "evidence_quote": "c) Do you support state funding for stem cell research?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

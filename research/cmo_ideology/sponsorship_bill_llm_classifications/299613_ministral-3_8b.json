@@ -1,0 +1,14 @@
+{
+  "plain_english_policy": "HB450 (2011) is a **firearms-focused criminalization bill** that expands state penalties for actions related to illegal firearm/ammunition transfers. It does not address licensing, background checks, or general gun ownership\u2014only the role of intermediaries who knowingly facilitate violations of federal *or* state law. The policy direction would be to **criminalize certain types of indirect involvement in firearms trafficking**, with a focus on deterring third-party manipulation of legal processes (e.g., providing false info to dealers/sellers).",
+  "policy_direction_if_enacted": "The bill would create two new Class C felonies (punishable by 10\u201320 years in prison under Alabama law) targeting **persons who intentionally aid or deceive licensed dealers/private sellers** in transferring firearms/ammunition they know violates state *or* federal law. This includes both **active encouragement of illegal transfers** and **providing false legal information to facilitate them**.",
+  "ideological_valence": "conservative",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "The bill\u2019s text explicitly defines crimes without partisan framing, but the sponsors\u2019 party affiliation (all Republicans) aligns with a broader trend of **expanding criminal penalties for firearms-related activity** during that era.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "A person who knowingly solicits... to transfer a firearm or ammunition under circumstances which the person knows would violate the laws of this state or the United States is guilty of a Class C felony.",
+    "Providing... materially false information with intent to deceive the dealer or seller about the legality of the transfer... is guilty of a Class C felony."
+  ],
+  "needs_human_review": false,
+  "review_reason": "The bill\u2019s text is clear, unambiguous, and directly addresses criminal liability for specific actions. No additional context is required to interpret its intent or effect."
+}

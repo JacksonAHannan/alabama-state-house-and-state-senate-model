@@ -1,0 +1,17 @@
+{
+  "primary_issue": "school_choice",
+  "secondary_issues": [
+    "labor_unions"
+  ],
+  "plain_english_revision": "The amendment changes the rules for suspending or revoking a minor's employment eligibility. It states that if a minor aged 14 or 15 has unsatisfactory school attendance or performance, as determined by their head administrator (or home-school instructor), the department must revoke or suspend their work permit upon notification from the school.",
+  "revision_direction": "restricts_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "The amendment supports maintaining strict oversight of child labor permits by allowing immediate revocation or suspension when a minor's academic performance is deemed unsatisfactory by their school authority.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "\"Replace lines 81 through 88 on pages 3 and 4 with the following: (e) The employment of a minor 14 or 15 years of age shall be revoked or suspended by the department if the minor's regular school attendance and performance record is not satisfactory to the head administrator...\"",
+    "\"The revocation or suspension shall be processed by the department upon notification by the school.\""
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

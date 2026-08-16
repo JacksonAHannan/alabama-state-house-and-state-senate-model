@@ -1,0 +1,20 @@
+{
+  "primary_issue": "public_education",
+  "secondary_issues": [
+    "gender_identity_restrictions",
+    "sexual_orientation_prohibitions"
+  ],
+  "plain_english_change": "Prohibits public K-12 schools from discussing gender identity or sexual orientation in developmentally inappropriate ways, bans teachers from displaying LGBTQ+ flags/insignia, and requires students to be addressed by pronouns matching their biological sex.",
+  "vote_stage": "unknown",
+  "substantive_vote": false,
+  "yea_policy_effect": "unknown/indeterminate",
+  "ideological_valence": "conservative",
+  "confidence": "high",
+  "evidence_quotes": [
+    "prohibit classroom instruction in public school prekindergarten through the twelfth grade related to gender identity or sexual orientation",
+    "No teacher, or other public preK-12 employee, may display a flag or other insignia relating to or representing sexual orientation or gender identity in a classroom of a public preK-12 school.",
+    "prohibiting education employees from referring to a student by pronouns inconsistent with the student's biological sex"
+  ],
+  "needs_human_review": true,
+  "review_reason": "Vote description indicates 'Motion to Add Cosponsor,' not final passage or substantive policy vote."
+}

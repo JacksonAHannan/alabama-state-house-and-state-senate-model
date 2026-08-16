@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_hate_crime_expansion",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Expanding hate crime laws to include gender, sexual orientation, and disability is generally considered a progressive policy aimed at protecting marginalized groups.",
+  "evidence_quote": "Require that crimes based on gender, sexual orientation or disability be prosecuted as hate crimes.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

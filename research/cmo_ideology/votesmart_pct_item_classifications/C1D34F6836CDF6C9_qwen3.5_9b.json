@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_limits",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The question asks for support on limiting contributions to political parties but does not specify a direction (limiting vs. allowing) or provide enough context to determine if the stance is conservative or progressive.",
+  "evidence_quote": "Do you support limiting the following types of contributions",
+  "needs_human_review": true,
+  "review_reason": "The item asks for an opinion on a specific policy (limiting party contributions) but lacks sufficient context to determine if supporting such limits is conventionally conservative or progressive. Without knowing whether the candidate supports limiting them (+1/-1 relative to baseline) or opposes it, and given that campaign finance positions often vary by ideology in complex ways not captured here alone, this cannot be reliably scored as +1 or -1 without external knowledge of the specific political context intended."
+}

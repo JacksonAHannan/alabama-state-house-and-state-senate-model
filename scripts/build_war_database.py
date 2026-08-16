@@ -36,7 +36,9 @@ def load_jefferson_2014_legislative(root: Path) -> pd.DataFrame:
     """Repair OpenElections' omitted Jefferson legislative contests."""
     path = (
         root
-        / "Results and Shapefiles"
+        / "data"
+        / "raw"
+        / "alabama_elections_and_geography"
         / "2014General-precinctLevel"
         / "Jefferson 2014 General Precinct.xls"
     )
@@ -73,7 +75,8 @@ def load_jefferson_2014_legislative(root: Path) -> pd.DataFrame:
     return data
 
 
-def oe_cycle(data: pd.DataFrame, cycle: int) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+def oe_cycle(data: pd.DataFrame, cycle: int,
+             geographic_weights: pd.DataFrame | None = None) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     candidates: list[pd.DataFrame] = []
     weights: list[pd.DataFrame] = []
     for office, chamber in [("State House", "house"), ("State Senate", "senate")]:
@@ -113,8 +116,13 @@ def oe_cycle(data: pd.DataFrame, cycle: int) -> tuple[pd.DataFrame, pd.DataFrame
     ][["county_key", "precinct_key", "office", "party_norm", "candidate", "votes"]]
     baseline_parts: list[pd.DataFrame] = []
     for weight in weights:
+        allocation = weight
+        if geographic_weights is not None:
+            weight_chamber = weight.chamber.iloc[0]
+            allocation = geographic_weights[
+                geographic_weights.chamber.eq(weight_chamber)].copy()
         merged = statewide.merge(
-            weight[["county_key", "precinct_key", "district", "allocation_weight", "chamber"]],
+            allocation[["county_key", "precinct_key", "district", "allocation_weight", "chamber"]],
             on=["county_key", "precinct_key"],
             how="inner",
         )
@@ -128,8 +136,9 @@ def candidate_columns(columns: list[str], prefix: str) -> list[str]:
     return [c for c in columns if c.startswith(prefix) and "OWRI" not in c]
 
 
-def rdh_2022_cycle(root: Path) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
-    source = root / "Results and Shapefiles" / "al_gen_22_prec"
+def rdh_2022_cycle(root: Path,
+                   geographic_weights: pd.DataFrame | None = None) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+    source = root / "data" / "raw" / "alabama_elections_and_geography" / "al_gen_22_prec"
     statewide = gpd.read_file(source / "al_gen_22_st_prec.shp", ignore_geometry=True)
     candidates: list[pd.DataFrame] = []
     allocations: list[pd.DataFrame] = []
@@ -216,8 +225,12 @@ def rdh_2022_cycle(root: Path) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame
             part["candidate"] = field["column"]
             long_parts.append(part)
         statewide_long = pd.concat(long_parts, ignore_index=True)
+        allocation = weights
+        if geographic_weights is not None:
+            allocation = geographic_weights[
+                geographic_weights.chamber.eq(chamber)].copy()
         merged = statewide_long.merge(
-            weights[["county_key", "precinct_key", "district", "allocation_weight"]],
+            allocation[["county_key", "precinct_key", "district", "allocation_weight"]],
             on=["county_key", "precinct_key"],
             how="inner",
         )
@@ -366,6 +379,11 @@ def main() -> None:
     candidate_parts = []
     allocation_parts = []
     weight_parts = []
+    geographic_path = root / "data" / "processed" / "war" / "geographic_precinct_district_weights.csv"
+    geographic = pd.read_csv(geographic_path) if geographic_path.exists() else None
+    if geographic is not None:
+        geographic["district"] = geographic.district.astype(int)
+        print("Using Census-block population geographic allocation weights")
     for cycle, filename in [
         (2014, "20141104__al__general__precinct.csv"),
         (2018, "20181106__al__general__precinct.csv"),
@@ -384,12 +402,14 @@ def main() -> None:
             source_data = pd.concat(
                 [source_data, load_jefferson_2014_legislative(root)], ignore_index=True
             )
-        candidates, allocations, weights = oe_cycle(source_data, cycle)
+        cycle_geographic = None if geographic is None else geographic[geographic.cycle.eq(cycle)]
+        candidates, allocations, weights = oe_cycle(source_data, cycle, cycle_geographic)
         candidate_parts.append(candidates)
         allocation_parts.append(allocations)
         weights["cycle"] = cycle
         weight_parts.append(weights)
-    candidates, allocations, weights = rdh_2022_cycle(root)
+    cycle_geographic = None if geographic is None else geographic[geographic.cycle.eq(2022)]
+    candidates, allocations, weights = rdh_2022_cycle(root, cycle_geographic)
     candidate_parts.append(candidates)
     allocation_parts.append(allocations)
     weights["cycle"] = 2022

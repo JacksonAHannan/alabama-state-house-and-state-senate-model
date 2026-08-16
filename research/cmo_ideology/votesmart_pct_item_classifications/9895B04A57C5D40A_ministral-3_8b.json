@@ -1,0 +1,11 @@
+{
+  "policy_key": "healthcare_funding",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "level of public funding for healthcare services",
+  "evidence_quote": "",
+  "needs_human_review": true,
+  "review_reason": "The provided source text is a prompt asking the candidate to select one level of funding for healthcare, but it does not include any specific option (e.g., 'increase', 'maintain', or 'decrease') chosen by the candidate. Without the candidate's actual selection from predefined options (e.g., +10%, 0% change, -5%), this item cannot be classified as +1 (conservative), -1 (progressive), or 0 (nonideological/mixed). The lack of a concrete choice makes it unscorable under the given instructions."
+}

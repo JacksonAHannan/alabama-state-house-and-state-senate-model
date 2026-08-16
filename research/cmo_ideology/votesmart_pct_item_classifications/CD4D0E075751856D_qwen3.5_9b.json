@@ -1,0 +1,11 @@
+{
+  "policy_key": "governor_term_limits",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The question asks for support of existing term limits on the Governor. Term limits are generally considered a progressive reform aimed at reducing executive power and preventing career politicians from holding office indefinitely.",
+  "evidence_quote": "(Limited to 2, 4-year terms)",
+  "needs_human_review": true,
+  "review_reason": "The item asks for support of the 'current law' which limits terms. While term limits are conventionally progressive (-1), asking if a candidate supports maintaining an existing limit can be non-ideological (0) depending on whether they view it as necessary reform or unnecessary restriction; however, without context on their stance toward incumbency vs. regular elections, the direction is indeterminate."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "spending_limits",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The question asks for support of spending limits on campaigns. While such limits are often associated with progressive reform agendas to reduce money's influence in politics, the prompt itself is a general inquiry about principles without specifying an ideological framework or providing context that would definitively align it as either conservative or progressive across all contexts.",
+  "evidence_quote": "Do you support imposing spending limits on state level political campaigns?",
+  "needs_human_review": true,
+  "review_reason": "The item asks for support of a specific reform (spending limits) which is conventionally associated with the -1 (progressive) direction, but without additional context or explicit ideological framing in the prompt itself, it risks being marked as nonideological. However, given that spending limits are widely recognized as a progressive policy goal distinct from conservative preferences for free market campaign financing, assigning -1 is defensible if we assume standard political science classifications where 'spending limits' = progressive reform."
+}

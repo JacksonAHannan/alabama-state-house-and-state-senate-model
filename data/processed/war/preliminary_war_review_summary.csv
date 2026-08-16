@@ -1,6 +1,8 @@
 flag,races
-high_absolute_war,10
-high_pres_fallback,31
-finance_incomplete,29
+high_absolute_war,35
+high_pres_fallback,32
+finance_incomplete,94
+ftm_finance_incomplete,113
 baseline_incomplete,2
-cycle_shift_risk,57
+cycle_shift_risk,58
+baseline_geography_sensitive,1

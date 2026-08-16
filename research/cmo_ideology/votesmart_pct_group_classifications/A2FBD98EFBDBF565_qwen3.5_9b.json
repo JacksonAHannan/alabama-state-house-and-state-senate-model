@@ -1,0 +1,11 @@
+{
+  "policy_key": "increase_federal_minimum_wage",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increasing the federal minimum wage is a progressive policy aimed at improving worker compensation and reducing poverty.",
+  "evidence_quote": "Increase the federal minimum wage.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

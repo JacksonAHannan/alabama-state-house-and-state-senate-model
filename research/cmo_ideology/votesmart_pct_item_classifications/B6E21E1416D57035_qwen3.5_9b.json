@@ -1,0 +1,11 @@
+{
+  "policy_key": "constitutional_convention",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The item asks about holding a constitutional convention to rewrite the state constitution. This is an administrative or structural reform question rather than a substantive policy stance on conservative vs progressive issues.",
+  "evidence_quote": "Should Alabama hold a constitutional convention to rewrite the state constitution?",
+  "needs_human_review": true,
+  "review_reason": "The item concerns procedural government structure (constitutional rewriting) which does not have a stable ideological direction; it is nonideological."
+}

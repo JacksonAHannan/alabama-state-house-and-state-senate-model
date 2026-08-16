@@ -12,9 +12,13 @@ from rapidfuzz import fuzz, process
 from build_incumbency_features import read_candidate_code_names
 
 ROOT = Path(__file__).resolve().parents[1]
-FIN = ROOT / "Candidate Financial Information"
+FIN = ROOT / "data" / "raw" / "finance" / "alabama"
 WAR = ROOT / "data" / "processed" / "war"
-ELECTION_DAY = {2014: "2014-11-04", 2018: "2018-11-06", 2022: "2022-11-08"}
+# Historical windows end on Election Day. The 2026 value is an explicitly
+# frozen data-as-of cutoff, preventing post-cutoff information from leaking
+# into a prospective model.
+ELECTION_DAY = {2014: "2014-11-04", 2018: "2018-11-06", 2022: "2022-11-08", 2026: "2026-08-14"}
+WINDOW_START = {2014: "2013-01-01", 2018: "2017-01-01", 2022: "2021-01-01", 2026: "2025-01-01"}
 FIRST_NAME_EQUIVALENTS = {
     "BILL": "WILLIAM", "BOB": "ROBERT", "CHRIS": "CHRISTOPHER",
     "CINDY": "CYNTHIA", "ED": "EDWARD", "JIM": "JAMES",
@@ -49,15 +53,23 @@ def canonical_person(value: object) -> str:
 
 def load_cycle(cycle: int) -> pd.DataFrame:
     with ZipFile(FIN / f"{cycle}_ExpendituresExtract.zip") as archive:
-        filename = archive.namelist()[0]
+        csv_members = sorted(name for name in archive.namelist() if name.lower().endswith(".csv"))
+        if len(csv_members) != 1:
+            raise ValueError(f"Expected one CSV in {cycle} finance archive; found {csv_members}")
+        filename = csv_members[0]
         data = pd.read_csv(BytesIO(archive.read(filename)), low_memory=False)
     data["ExpenditureDate"] = pd.to_datetime(data.ExpenditureDate, errors="coerce")
+    data["FiledDate"] = pd.to_datetime(data.FiledDate, errors="coerce")
     data["ExpenditureAmount"] = pd.to_numeric(data.ExpenditureAmount, errors="coerce").fillna(0)
+    # Retain the latest filing for a transaction ID. Merely dropping rows marked
+    # amended can preserve the superseded value and discard its correction.
+    data = data.sort_values(["ExpenditureID", "FiledDate"], na_position="first").drop_duplicates(
+        "ExpenditureID", keep="last")
     keep = (data.CommitteeType.eq("Principal Campaign Committee") &
             data.CandidateName.notna() & data.CandidateName.astype(str).str.strip().ne("") &
             data.ExpenditureDate.le(pd.Timestamp(ELECTION_DAY[cycle])) &
-            data.ExpenditureDate.ge(pd.Timestamp(f"{cycle}-01-01")) &
-            ~data.Amended.astype(str).str.upper().eq("Y"))
+            data.ExpenditureDate.ge(pd.Timestamp(WINDOW_START[cycle])) &
+            data.ExpenditureID.notna())
     data = data[keep].copy()
     data["finance_name"] = data.CandidateName.astype(str).str.strip()
     data["finance_name_norm"] = data.finance_name.map(norm)
@@ -67,6 +79,8 @@ def load_cycle(cycle: int) -> pd.DataFrame:
                 expenditure_transactions=("ExpenditureID", "nunique"),
                 committee_count=("CommitteeId", "nunique")))
     out["cycle"] = cycle
+    out["window_start"] = WINDOW_START[cycle]
+    out["window_end"] = ELECTION_DAY[cycle]
     return out
 
 
@@ -74,6 +88,14 @@ def main() -> None:
     finance = pd.concat([load_cycle(c) for c in ELECTION_DAY], ignore_index=True)
     finance["finance_canonical"] = finance.finance_name_norm.map(canonical_person)
     candidates = pd.read_csv(WAR / "race_candidate_results.csv")
+    final_2026 = WAR / "2026_final_candidate_roster.csv"
+    certified_2026 = WAR / "2026_certified_candidate_roster.csv"
+    roster_2026 = final_2026 if final_2026.exists() else certified_2026 if certified_2026.exists() else WAR / "2026_candidate_roster_provisional.csv"
+    if roster_2026.exists():
+        provisional = pd.read_csv(roster_2026)
+        provisional["candidate_code"] = pd.NA
+        provisional["votes"] = pd.NA
+        candidates = pd.concat([candidates, provisional[candidates.columns]], ignore_index=True)
     code_names = read_candidate_code_names()
     candidates.loc[candidates.cycle.eq(2022), "candidate"] = (
         candidates.loc[candidates.cycle.eq(2022), "candidate_code"].map(code_names)
@@ -90,7 +112,9 @@ def main() -> None:
         elif found:
             score = float(found[0][1]); second = float(found[1][1]) if len(found) > 1 else 0.0
             margin = score - second
-            if score >= 92 and margin >= 5:
+            # Statewide name-only matching is intentionally conservative because
+            # the extract has no office/district metadata.
+            if score >= 97 and margin >= 10:
                 selected, method = found[0][0], "fuzzy"
         if selected is None:
             canonical = canonical_person(row.candidate_norm)
@@ -102,7 +126,9 @@ def main() -> None:
             same_surname = [choice for choice in choices
                             if surname(choice) == surname(row.candidate_norm)]
             if len(same_surname) == 1:
-                selected, method = same_surname[0], "unique_surname"
+                # Record the evidence but do not automatically assign money to
+                # a candidate from surname alone.
+                method = "surname_review"
         matches.append({"cycle": row.cycle, "chamber": row.chamber,
                         "district": int(row.district), "party": row.party,
                         "candidate": row.candidate, "candidate_norm": row.candidate_norm,
@@ -144,7 +170,9 @@ def main() -> None:
 
     finance.to_csv(WAR / "finance_candidate_cycle_totals.csv", index=False)
     matched.to_csv(WAR / "candidate_finance_matches.csv", index=False)
-    matched[matched.finance_match_method.eq("unmatched")].to_csv(
+    # Every non-exact match requires evidence review; previously this file only
+    # exposed unmatched candidates and hid the riskier accepted guesses.
+    matched[~matched.finance_match_method.eq("exact")].to_csv(
         WAR / "candidate_finance_review.csv", index=False)
     race.to_csv(WAR / "race_finance_features.csv", index=False)
     coverage.to_csv(WAR / "candidate_finance_coverage.csv", index=False)

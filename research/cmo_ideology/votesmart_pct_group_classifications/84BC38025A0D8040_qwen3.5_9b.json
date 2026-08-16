@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_budget_state_employee_compensation",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option proposes cutting state employee salaries and/or pensions to balance the budget. This is conventionally viewed as a progressive stance because it prioritizes fiscal restraint over austerity measures that disproportionately affect public sector workers.",
+  "evidence_quote": "d) Reducing state employee salaries AND/OR pensions",
+  "needs_human_review": false,
+  "review_reason": ""
+}

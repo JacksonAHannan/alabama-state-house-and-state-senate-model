@@ -1,0 +1,11 @@
+{
+  "policy_key": "abortion_buffer_zones",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting buffer zones around abortion clinics is conventionally viewed as a progressive policy option because it aims to protect access to reproductive healthcare by preventing harassment and intimidation of patients.",
+  "evidence_quote": "h) Support \"buffer zones\" by requiring demonstrators to stay at least 15 feet away from abortion clinic doorways and driveways.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

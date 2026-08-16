@@ -1,0 +1,11 @@
+{
+  "policy_key": "eliminate_welfare",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option calls for the complete removal of government-funded welfare programs.",
+  "evidence_quote": "i) Eliminate government-funded welfare programs.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

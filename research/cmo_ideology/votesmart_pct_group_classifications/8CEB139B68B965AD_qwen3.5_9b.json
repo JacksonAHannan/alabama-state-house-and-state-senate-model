@@ -1,0 +1,11 @@
+{
+  "policy_key": "nafta_support",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Supporting NAFTA is generally considered a pro-business and free-market stance.",
+  "evidence_quote": "Do you support the North American Free Trade Agreement (NAFTA)?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

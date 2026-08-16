@@ -1,0 +1,30 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "Vivian Davis Figures represented the majority-Black Mobile district in Alabama Senate District 33 since succeeding her late husband, Michael Figures. In February 2010 she sponsored SB401 to impose escalating penalties for negligently storing firearms where minors could gain access and had a long pre-2010 record of pursuing comprehensive restrictions on smoking in workplaces and public accommodations.",
+  "offices_and_public_service": [
+    "Alabama Senate District 33"
+  ],
+  "profession_and_employment": [],
+  "education": [],
+  "community_and_local_ties": [],
+  "political_profile": [
+    "progressive",
+    "gun-safety"
+  ],
+  "important_caveats": [
+    "Incumbency, family political networks, and Black down-ballot coalition loyalty are powerful alternative mechanisms."
+  ],
+  "source_urls_used": [
+    "https://doi.org/10.7910/DVN/GZJOT3",
+    "https://www.legislature.state.al.us/pdf/SearchableInstruments/2010RS/EndOfDay/StatusSheet.pdf",
+    "https://alabamaretail.org/wp-content/uploads/20090206CRR.pdf",
+    "https://web.archive.org/web/20110516063507/http://www.legislature.state.al.us/senate/senators/senatebios/sd033.html"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://alabamaretail.org/wp-content/uploads/20090206CRR.pdf",
+    "https://doi.org/10.7910/DVN/GZJOT3",
+    "https://web.archive.org/web/20110516063507/http://www.legislature.state.al.us/senate/senators/senatebios/sd033.html",
+    "https://www.legislature.state.al.us/pdf/SearchableInstruments/2010RS/EndOfDay/StatusSheet.pdf"
+  ]
+}

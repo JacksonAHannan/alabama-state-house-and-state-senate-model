@@ -1,0 +1,11 @@
+{
+  "policy_key": "alab_health_immigrant_medicaid",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting Medicaid coverage for legal immigrants is generally considered a progressive stance as it expands access to healthcare.",
+  "evidence_quote": "Use state funds to continue some Medicaid coverage for legal immigrants.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

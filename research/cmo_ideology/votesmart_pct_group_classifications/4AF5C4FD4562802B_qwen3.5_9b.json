@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_college_savings_tax_incentives",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting federal tax incentives for college savings is conventionally viewed as a progressive policy option.",
+  "evidence_quote": "m) Support federal tax incentives to help families save for college.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

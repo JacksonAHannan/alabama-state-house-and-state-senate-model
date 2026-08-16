@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_income_tax_increase",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting an income tax increase is conventionally progressive.",
+  "evidence_quote": "In order to balance the budget, do you support an income tax increase on any tax bracket?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

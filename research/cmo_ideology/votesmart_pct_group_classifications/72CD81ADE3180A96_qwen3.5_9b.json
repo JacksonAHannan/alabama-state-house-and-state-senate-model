@@ -1,0 +1,11 @@
+{
+  "policy_key": "health_commercial_insurance_reform",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting commercial health insurance reform is generally viewed as a progressive stance aimed at expanding access and reducing costs.",
+  "evidence_quote": "Do you support expanding access to health care through commercial health insurance reform?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

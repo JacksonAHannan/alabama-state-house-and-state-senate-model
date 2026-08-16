@@ -1,0 +1,11 @@
+{
+  "policy_key": "alternative_fuels_development",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting the development and use of alternative fuels to reduce pollution is generally considered a progressive environmental policy.",
+  "evidence_quote": "Encourage further development and use of alternative fuels to reduce pollution.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

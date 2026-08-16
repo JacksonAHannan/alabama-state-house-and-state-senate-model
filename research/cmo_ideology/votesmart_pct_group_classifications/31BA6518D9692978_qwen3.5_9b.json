@@ -1,0 +1,11 @@
+{
+  "policy_key": "teacher_tenure_effectiveness",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option questions whether tenure processes produce effective teachers.",
+  "evidence_quote": "Is the tenure process for public school teachers producing effective teachers?",
+  "needs_human_review": true,
+  "review_reason": "This is a question seeking information rather than expressing a policy stance or preference."
+}

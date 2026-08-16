@@ -10,7 +10,7 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "Results and Shapefiles" / "2018-Official-General-Precinct-Results.zip"
+SOURCE = ROOT / "data" / "raw" / "alabama_elections_and_geography" / "2018-Official-General-Precinct-Results.zip"
 WAR = ROOT / "data" / "processed" / "war"
 
 

@@ -1,0 +1,11 @@
+{
+  "policy_key": "law_enforcement_funding",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The item asks for a funding level without specifying the amount or direction (increase/decrease), making it impossible to determine if the stance is conservative or progressive based solely on this text.",
+  "evidence_quote": "Indicate the funding levels you will support",
+  "needs_human_review": false,
+  "review_reason": ""
+}

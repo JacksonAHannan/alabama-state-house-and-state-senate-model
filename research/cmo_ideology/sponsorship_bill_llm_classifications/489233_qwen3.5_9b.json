@@ -1,0 +1,17 @@
+{
+  "plain_english_policy": "This bill proposes a constitutional amendment to establish an Alabama Lottery. The policy direction is to create a state-run lottery corporation that operates games of chance, explicitly prohibiting the operation of casinos in exchange for this revenue stream. All net proceeds from the lottery are dedicated to the Education Trust Fund rather than general funds. These funds cannot replace existing education budgets but must be used specifically to increase classroom instructional supplies (targeting $1,000 per teacher), fund resource officers ($25 million annually minimum), and provide scholarships for honor roll students.",
+  "policy_direction_if_enacted": "Enactment would permanently alter the state constitution to authorize gambling via a lottery while banning casinos. It creates a new government entity (Alabama Lottery Corporation) with powers defined by future legislation, establishes a dedicated trust fund for education that is ring-fenced from other revenues, and mandates specific spending priorities on supplies, school safety officers, and scholarships.",
+  "ideological_valence": "mixed",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "Representative Ford (Ways and Means Education) sponsored the bill to advance these specific changes.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "\"The Legislature shall have no power to authorize lotteries or gift enterprises for any purposes... Except as provided in Part II of this section,\"",
+    "\"Establishment of an Alabama Lottery. The Legislature shall, by general law, provide for the establishment, administration, operation, and regulation of an Alabama Lottery.\",",
+    "\"The proceeds from the Alabama Lottery shall be applied first to the payment of the expenses... and the balance... deposited... in a special, separate account... designated the 'Lottery Trust Fund'\",",
+    "\"prohibited from operating... directly or indirectly, a casino or casinos\"",
+    "\"Monies in the Lottery Trust Fund shall be allocated and disbursed... exclusively (a) first, to increase the annual appropriation for classroom instructional supplies...; (b) a minimum of $25 million annually... resource officers\""
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

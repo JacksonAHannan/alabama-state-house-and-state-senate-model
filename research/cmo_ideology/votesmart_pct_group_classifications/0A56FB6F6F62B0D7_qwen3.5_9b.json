@@ -1,0 +1,11 @@
+{
+  "policy_key": "fetal_homicide_penalty",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The policy proposes increasing criminal penalties for federal crimes when they result in the death of a fetus. This is conventionally viewed as more progressive due to its alignment with pro-choice principles and fetal protection laws.",
+  "evidence_quote": "g) Support additional criminal penalties if a fetus is killed in the commission of a federal crime against a pregnant woman.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

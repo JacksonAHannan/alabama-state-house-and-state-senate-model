@@ -1,0 +1,11 @@
+{
+  "policy_key": "ban_racial_profiling",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option calls for prohibiting law enforcement from using race as a factor in investigations or stops.",
+  "evidence_quote": "Ban the use of racial profiling by law enforcement officers.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,15 @@
+{
+  "plain_english_policy": "HB197 (2011) shifts Alabama\u2019s pesticide regulation system toward a **two-year biennial registration cycle** and establishes a tiered fee structure to fund state oversight. The bill does not alter core safety or environmental restrictions but **increases administrative burden on registrants** while generating more revenue for the Agricultural Fund.",
+  "policy_direction_if_enacted": "The bill reflects a **pro-regulatory, cost-recovery approach** with these key effects if enacted:",
+  "ideological_valence": "mixed",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "no_inference_beyond_text",
+  "confidence": "high",
+  "evidence_quotes": [
+    "registration shall be renewed annually... **The fee shall be paid according to the schedule in subsection (i).** The fee structure shall remain in effect until October 1, 2011, and thereafter in no event shall the product registration fee exceed the national average...",
+    "**All registrations issued by the department pursuant to subsection (a) shall be biennial** upon payment of a fee of four hundred dollars ($400) per product.",
+    "The fee shall accompany the application for registration and be deposited to the credit of the Agricultural Fund of the State Treasury."
+  ],
+  "needs_human_review": false,
+  "review_reason": "No ambiguity in text; no ceremonial/appropriations-only language. Directly alters administrative process and fee structure."
+}

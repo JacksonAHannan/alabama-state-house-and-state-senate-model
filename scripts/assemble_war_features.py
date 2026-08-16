@@ -29,6 +29,22 @@ def main() -> None:
     finance["district"] = finance.district.astype(int)
     assembled = assembled.merge(finance, on=["cycle", "chamber", "district"], how="left",
                                 validate="one_to_one")
+    expected = {(cycle, chamber, district) for cycle in (2014, 2018, 2022)
+                for chamber, count in (("house", 105), ("senate", 35))
+                for district in range(1, count + 1)}
+    actual = set(assembled[["cycle", "chamber", "district"]].itertuples(index=False, name=None))
+    if actual != expected:
+        raise ValueError(f"District-cycle universe mismatch: missing={expected-actual}, extra={actual-expected}")
+    for column in ("legislative_dem_margin", "statewide_index_margin"):
+        values = assembled[column].dropna()
+        if not values.between(-100, 100).all():
+            raise ValueError(f"{column} outside [-100, 100]")
+    for column in ("nonwhite_share", "white_college_share"):
+        values = assembled[column].dropna()
+        if not values.between(0, 1).all():
+            raise ValueError(f"{column} outside [0, 1]")
+    if assembled[["nonwhite_share", "white_college_share"]].isna().any().any():
+        raise ValueError("Unexpected missing ACS demographics")
     assembled.to_csv(war / "war_model_features.csv", index=False)
     print(f"Rows: {len(assembled)}")
     print(f"2014 presidential coverage: "

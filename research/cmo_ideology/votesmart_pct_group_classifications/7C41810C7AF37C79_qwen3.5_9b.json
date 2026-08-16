@@ -1,0 +1,11 @@
+{
+  "policy_key": "international_policy_north_korea_pressure",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks whether the US should use diplomatic and economic pressure on North Korea regarding its nuclear program. This is a procedural or administrative question about foreign policy tools rather than an ideological stance.",
+  "evidence_quote": "Should the United States use diplomatic and economic pressure to encourage North Korea to abandon its nuclear weapons program?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

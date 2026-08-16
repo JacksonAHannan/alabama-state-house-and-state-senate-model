@@ -1,0 +1,29 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "Alan Harper was an incumbent Democrat representing Alabama House District 61 in the 2010 election. He recorded approximately +24.1 OOF CMO as a candidate and later switched to the Republican Party in 2012, becoming part of the state's GOP supermajority.",
+  "offices_and_public_service": [
+    "Alabama House District 61 (Incumbent Democrat)"
+  ],
+  "profession_and_employment": [],
+  "education": [],
+  "community_and_local_ties": [],
+  "political_profile": [
+    "Democrat",
+    "Republican"
+  ],
+  "important_caveats": [
+    "The memo notes that his party switch in 2012 is not pre-election evidence for the 2010 vote.",
+    "Harper's Shor-McCarty score was -0.105, placing him at the 71st conservative percentile of the active Alabama Democratic House caucus."
+  ],
+  "source_urls_used": [
+    "https://doi.org/10.7910/DVN/GZJOT3",
+    "https://yellowhammernews.com/rep-alan-harper-of-aliceville-announces-switch-to-alabama-gop/",
+    "https://www.alreporter.com/2012/02/07/statement-from-house-minority-leader-craig-ford-regarding-rep-alan-harper-switching-parties/"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://doi.org/10.7910/DVN/GZJOT3",
+    "https://www.alreporter.com/2012/02/07/statement-from-house-minority-leader-craig-ford-regarding-rep-alan-harper-switching-parties/",
+    "https://yellowhammernews.com/rep-alan-harper-of-aliceville-announces-switch-to-alabama-gop/"
+  ]
+}

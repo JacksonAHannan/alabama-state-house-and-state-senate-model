@@ -1,0 +1,18 @@
+{
+  "primary_issue": "infrastructure_energy",
+  "secondary_issues": [
+    "healthcare_medicaid",
+    "public_education"
+  ],
+  "plain_english_revision": "The amendment adds the University of South Alabama (USA) as a potential partner in administering or overseeing the proposed Cyber Engineering School. It specifically includes the President of USA\u2014or their designee\u2014as a voting member on the governing board, without altering other eligibility criteria or funding conditions.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Institutional collaboration: Ensures state universities (specifically USA) have a formal role in shaping the Cyber Engineering School\u2019s governance, programs, or eligibility standards.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "The President of the University of South Alabama, or his or her designee.",
+    "\u2014 *Amendment text* (line 12)"
+  ],
+  "needs_human_review": false,
+  "review_reason": "No hidden dependencies on unseen language; amendment is self-contained and procedural in scope."
+}

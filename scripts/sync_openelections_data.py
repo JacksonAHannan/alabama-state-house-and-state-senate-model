@@ -9,7 +9,10 @@ missing rather than silently leaving a stale copy in place.
 from __future__ import annotations
 
 import argparse
+import hashlib
+import subprocess
 import shutil
+from datetime import datetime, timezone
 from pathlib import Path
 
 CYCLES: list[tuple[int, str]] = [
@@ -30,8 +33,16 @@ def sync(source_repo: Path, dest_dir: Path) -> list[dict[str, object]]:
             raise FileNotFoundError(f"missing OpenElections source file for {cycle}: {source_path}")
         dest_path = dest_dir / Path(relpath).name
         shutil.copyfile(source_path, dest_path)
+        digest = hashlib.sha256(dest_path.read_bytes()).hexdigest()
+        try:
+            commit = subprocess.check_output(
+                ["git", "-C", str(source_repo), "rev-parse", "HEAD"], text=True).strip()
+        except (subprocess.CalledProcessError, FileNotFoundError):
+            commit = "unknown"
         report.append({"cycle": cycle, "source": str(source_path), "dest": str(dest_path),
-                        "bytes": dest_path.stat().st_size})
+                       "bytes": dest_path.stat().st_size, "sha256": digest,
+                       "source_commit": commit,
+                       "retrieved_utc": datetime.now(timezone.utc).isoformat()})
     return report
 
 
@@ -47,6 +58,9 @@ def main() -> None:
     if not source_repo.exists():
         raise FileNotFoundError(f"openelections-data-al checkout not found at {source_repo}")
     report = sync(source_repo, root / "data" / "raw" / "openelections")
+    import pandas as pd
+    pd.DataFrame(report).to_csv(root / "data" / "raw" / "openelections" /
+                                "source_manifest.csv", index=False)
     for row in report:
         print(f"{row['cycle']}: {row['dest']} ({row['bytes']:,} bytes)")
 

@@ -1,0 +1,21 @@
+cycle,chamber,district,party,candidate,committee_id,registered_date,annual_summary_available,cash_contributions,other_receipts,in_kind_contributions,expenditures,beginning_balance,ending_balance,current_candidate_expenditures,financial_summary_url
+2014,house,2,R,Lynn Greer,25266.0,08/06/2013,True,129164.9,27560.0,16441.92,169607.04,19232.73,6350.59,0.0,https://fcpa.alabamavotes.gov/page.request.do?page=page.acfPublicCommitteeFinancialSummary&committeeIdStr=393
+2014,house,20,R,Howard Sanderford,24925.0,06/06/2013,True,37225.0,0.0,0.0,22253.84,52820.95,67792.11,0.0,https://fcpa.alabamavotes.gov/page.request.do?page=page.acfPublicCommitteeFinancialSummary&committeeIdStr=52
+2014,house,28,D,Craig Ford,25105.0,07/01/2013,True,254478.97,100000.0,19987.81,144106.5,110523.46,320895.93,0.0,https://fcpa.alabamavotes.gov/page.request.do?page=page.acfPublicCommitteeFinancialSummary&committeeIdStr=232
+2018,house,2,R,Lynn Greer,25266.0,08/06/2013,True,63600.0,0.0,2465.01,179424.14,118275.99,2451.85,0.0,https://fcpa.alabamavotes.gov/page.request.do?page=page.acfPublicCommitteeFinancialSummary&committeeIdStr=393
+2018,house,3,D,Chad Young,27634.0,02/08/2018,True,88117.09,2204.33,17557.5,88269.56,0.0,2051.86,0.0,https://fcpa.alabamavotes.gov/page.request.do?page=page.acfPublicCommitteeFinancialSummary&committeeIdStr=2759
+2018,house,3,R,Andrew Sorrell,26315.0,06/02/2017,True,78919.0,159256.97,29772.31,340847.19,103006.7,335.48,0.0,https://fcpa.alabamavotes.gov/page.request.do?page=page.acfPublicCommitteeFinancialSummary&committeeIdStr=1441
+2018,house,17,R,Tracy Estes,26696.0,01/30/2020,True,82611.99,35000.0,12092.69,120555.85,16014.06,13070.2,0.0,https://fcpa.alabamavotes.gov/page.request.do?page=page.acfPublicCommitteeFinancialSummary&committeeIdStr=1821
+2018,house,20,R,Howard Sanderford,24925.0,06/06/2013,True,95100.0,0.0,1701.13,94893.4,34681.71,34888.31,0.0,https://fcpa.alabamavotes.gov/page.request.do?page=page.acfPublicCommitteeFinancialSummary&committeeIdStr=52
+2018,house,21,D,Terry Jones,25378.0,10/28/2013,False,,,,,,,0.0,https://fcpa.alabamavotes.gov/page.request.do?page=page.acfPublicCommitteeFinancialSummary&committeeIdStr=504
+2018,house,21,D,Terry Jones,26652.0,10/23/2017,True,23855.39,0.0,2900.69,23336.49,0.0,518.9,0.0,https://fcpa.alabamavotes.gov/page.request.do?page=page.acfPublicCommitteeFinancialSummary&committeeIdStr=1777
+2018,house,29,D,Jared Millican,27906.0,02/05/2018,True,15458.67,0.0,2143.27,14305.29,0.0,1153.38,0.0,https://fcpa.alabamavotes.gov/page.request.do?page=page.acfPublicCommitteeFinancialSummary&committeeIdStr=3031
+2022,house,17,R,Tracy Estes,26696.0,01/30/2020,True,22200.0,0.0,771.6,32838.49,101997.74,91359.25,0.0,https://fcpa.alabamavotes.gov/page.request.do?page=page.acfPublicCommitteeFinancialSummary&committeeIdStr=1821
+2022,house,26,R,Brock Colvin,29465.0,09/28/2021,True,146393.0,0.0,4618.26,103117.96,8060.79,51335.83,0.0,https://fcpa.alabamavotes.gov/page.request.do?page=page.acfPublicCommitteeFinancialSummary&committeeIdStr=4590
+2022,house,30,R,Craig Lipscomb,26723.0,11/30/2017,True,18000.0,24089.92,782.56,20269.34,59861.34,81681.92,0.0,https://fcpa.alabamavotes.gov/page.request.do?page=page.acfPublicCommitteeFinancialSummary&committeeIdStr=1848
+2022,house,40,R,Chad Robertson,29543.0,11/29/2021,True,113845.0,10000.0,13360.69,113726.9,2400.0,12518.1,0.0,https://fcpa.alabamavotes.gov/page.request.do?page=page.acfPublicCommitteeFinancialSummary&committeeIdStr=4668
+2026,house,8,D,Bruce Sparkman,33882.0,01/23/2026,False,,,,,,,0.0,https://fcpa.alabamavotes.gov/page.request.do?page=page.acfPublicCommitteeFinancialSummary&committeeIdStr=9007
+2026,house,10,R,Aaron Thomas,32479.0,07/30/2025,False,,,,,,,0.0,https://fcpa.alabamavotes.gov/page.request.do?page=page.acfPublicCommitteeFinancialSummary&committeeIdStr=7604
+2026,house,11,R,Heath Allbright,31417.0,04/23/2025,False,,,,,,,0.0,https://fcpa.alabamavotes.gov/page.request.do?page=page.acfPublicCommitteeFinancialSummary&committeeIdStr=6542
+2026,house,26,R,Brock Colvin,29465.0,09/28/2021,False,,,,,,,0.0,https://fcpa.alabamavotes.gov/page.request.do?page=page.acfPublicCommitteeFinancialSummary&committeeIdStr=4590
+2026,house,30,R,Craig Lipscomb,26723.0,11/30/2017,False,,,,,,,0.0,https://fcpa.alabamavotes.gov/page.request.do?page=page.acfPublicCommitteeFinancialSummary&committeeIdStr=1848

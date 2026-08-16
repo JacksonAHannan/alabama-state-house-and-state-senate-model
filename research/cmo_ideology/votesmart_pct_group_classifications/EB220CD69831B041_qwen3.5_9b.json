@@ -1,0 +1,11 @@
+{
+  "policy_key": "hate_crime_prosecution",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting the prosecution of crimes motivated by race, religion, or other protected characteristics as hate crimes is a progressive policy stance aimed at providing enhanced penalties and recognition for bias-motivated offenses.",
+  "evidence_quote": "Require that crimes based on race, ethnic background, religious belief, sex, age, disability, or sexual orientation be prosecuted as hate crimes.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

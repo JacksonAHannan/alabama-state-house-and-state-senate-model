@@ -1,0 +1,18 @@
+{
+  "primary_issue": "gambling",
+  "secondary_issues": [
+    "taxes_budget",
+    "public_private_partnerships"
+  ],
+  "plain_english_revision": "The amendment removes certain online gambling formats from the definition of 'video lottery' and explicitly excludes bingo and horse-race betting (pari-mutuel) from that category.",
+  "revision_direction": "restricts_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Narrows the state\u2019s video lottery program to exclude mobile/internet-based games and pari-mutuel betting, while preserving bingo as a separate activity.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "any mobile or Internet-based or monitor-based interactive game",
+    "All forms of bingo and pari-mutuel wagering are excluded from the definition of video lottery"
+  ],
+  "needs_human_review": false,
+  "review_reason": "No hidden dependencies on other bill sections; amendment is self-contained."
+}

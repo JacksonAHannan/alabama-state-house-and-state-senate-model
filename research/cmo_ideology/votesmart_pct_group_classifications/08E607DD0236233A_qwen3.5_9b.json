@@ -1,0 +1,11 @@
+{
+  "policy_key": "crime_job_training_youth",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting job training and placement for at-risk youth is a progressive social policy focused on rehabilitation and economic opportunity rather than punitive measures.",
+  "evidence_quote": "Support programs that provide job training and placement services for at-risk youth.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

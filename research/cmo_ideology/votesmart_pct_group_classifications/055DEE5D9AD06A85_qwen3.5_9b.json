@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_tax_charitable_contributions",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Supports federal tax deductions for charitable contributions.",
+  "evidence_quote": "Charitable contributions",
+  "needs_human_review": true,
+  "review_reason": "This option is a standard policy choice without clear ideological direction; it does not inherently lean conservative or progressive."
+}

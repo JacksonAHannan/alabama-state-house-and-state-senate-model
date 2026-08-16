@@ -1,0 +1,11 @@
+{
+  "policy_key": "transportation_infrastructure",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "funding for transportation infrastructure (highways, roads, bridges)",
+  "evidence_quote": "",
+  "needs_human_review": true,
+  "review_reason": "The source text does not provide any specific funding level or policy direction for transportation infrastructure. It only lists the category without indicating whether the candidate supports increased, decreased, or maintained funding levels."
+}

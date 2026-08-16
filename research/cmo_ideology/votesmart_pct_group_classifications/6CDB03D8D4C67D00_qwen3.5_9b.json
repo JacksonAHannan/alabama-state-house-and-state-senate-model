@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_education_standards",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting federal education standards is conventionally more progressive as it aligns with national uniformity and often increased federal oversight.",
+  "evidence_quote": "Do you support adopting federal education standards in Alabama?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

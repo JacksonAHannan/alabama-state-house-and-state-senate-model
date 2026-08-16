@@ -1,0 +1,11 @@
+{
+  "policy_key": "gun_liability_protection",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Supporting legislation to protect gun industry entities from civil lawsuits by crime victims.",
+  "evidence_quote": "j) Support legislation that would protect manufacturers, distributors, dealers, and importers of firearms from civil lawsuits by crime victims.",
+  "needs_human_review": true,
+  "review_reason": "This option is a procedural stance on liability law rather than an ideological position; it does not inherently align with conservative or progressive values without additional context about the specific legal mechanisms involved. The direction score of -1 reflects that limiting civil suits for victims often conflicts with progressive priorities in gun safety and accountability, but this classification depends heavily on jurisdictional norms regarding tort reform."
+}

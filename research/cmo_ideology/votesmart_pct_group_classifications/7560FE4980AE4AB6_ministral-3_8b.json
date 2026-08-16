@@ -1,0 +1,11 @@
+{
+  "policy_key": "child_support_permit_restrictions",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Restrict state-issued permits/licenses for parents who fail to pay court-ordered child support.",
+  "evidence_quote": "Deny or suspend state-issued permits and licenses to parents who are delinquent in paying court-ordered child support.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

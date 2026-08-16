@@ -1,0 +1,19 @@
+{
+  "primary_issue": "school_choice",
+  "secondary_issues": [
+    "school_choice",
+    "environment"
+  ],
+  "plain_english_revision": "The amendment replaces vague child labor restrictions with a new rule: if a minor\u2019s school attendance or performance is unsatisfactory, their work permit can be revoked or suspended by the state department\u2014based solely on a school administrator\u2019s (or homeschool instructor\u2019s) judgment. It also introduces two new \u2018Class I\u2019 and \u2018Class II\u2019 permit tiers for child labor applications, though the criteria for these classes are not defined in the amendment text.",
+  "revision_direction": "indeterminate",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Advancing a policy that ties child employment eligibility to school performance metrics (without specifying how those metrics are measured or applied).",
+  "confidence": "low",
+  "evidence_quotes": [
+    "The employment of a minor 14 or 15 years of age shall be revoked or suspended by the department if the minor's regular school attendance and performance record is not satisfactory to the head administrator...",
+    "The department shall issue Class I and Class II [permits]",
+    "(f)(d) Any person individual, entity, franchise"
+  ],
+  "needs_human_review": true,
+  "review_reason": "Amendment text is fragmented; critical details (e.g., how \u2018unsatisfactory\u2019 is defined, what distinguishes Class I/II permits) are missing. Procedural language lacks context."
+}

@@ -1,0 +1,38 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "David \"Coach\" Burkette is a candidate for the Alabama Senate District 26 in the 2018 election. He grew up in the district, worked as a coach and administrator in its public schools, and served three terms on the Montgomery City Council before his legislative run.",
+  "offices_and_public_service": [
+    "Montgomery City Council (3 terms)"
+  ],
+  "profession_and_employment": [
+    "Public school coach",
+    "Public school administrator"
+  ],
+  "education": [],
+  "community_and_local_ties": [
+    "District resident/grower-up",
+    "Alabama Education Association supporter"
+  ],
+  "political_profile": [
+    "2018 Alabama Senate District 26 candidate (special election)",
+    "Economic positioning: public education and organized labor alignment"
+  ],
+  "important_caveats": [
+    "Evidence is too narrow to characterize his social ideology",
+    "Campaign debt, unpaid workers, low cash on hand documented"
+  ],
+  "source_urls_used": [
+    "https://www.wsfa.com/story/38189013/new-district-26-state-senator-chosen-in-special-election/",
+    "https://www.alreporter.com/2017/12/14/john-knight-david-burkette-runoff-senate-seat/",
+    "https://www.alreporter.com/2018/02/28/upset-burkette-knocks-off-knight-district-26-primary-runoff/",
+    "https://www.alreporter.com/2018/02/08/knight-v-burkette-near-riot-unpaid-bills-campaign-manager-calls-quits-district-26-race/"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://publicunionfacts.com/union/QUxBQkFNQSBFRFVDQVRJT04gQVNTT0NJQVRJT04%3D/alabama-education-association/state-candidates/all-contributions",
+    "https://www.alreporter.com/2017/12/14/john-knight-david-burkette-runoff-senate-seat/",
+    "https://www.alreporter.com/2018/02/08/knight-v-burkette-near-riot-unpaid-bills-campaign-manager-calls-quits-district-26-race/",
+    "https://www.alreporter.com/2018/02/28/upset-burkette-knocks-off-knight-district-26-primary-runoff/",
+    "https://www.wsfa.com/story/38189013/new-district-26-state-senator-chosen-in-special-election/"
+  ]
+}

@@ -1,0 +1,69 @@
+county_key,precinct_key,office,party_norm,votes,chamber
+COVINGTN,LIBERTYVILLE,Attorney General,D,32.0,house
+COVINGTN,GOOLSBY'S PLACE,Attorney General,D,12.0,house
+COVINGTN,FLORALA-2,Attorney General,D,43.0,house
+COVINGTN,FLORAL-4,Attorney General,D,56.0,house
+COVINGTN,BOLE'S MILL,Attorney General,D,27.0,house
+COVINGTN,LOCKHART-2,Attorney General,D,50.0,house
+JACKSON,CHALLENGED VOTES,Attorney General,D,1.0,house
+LADRDALE,CO. BOARD OF ED. ADM. BLDG.,Attorney General,D,396.0,house
+LOWNDES,OWENS STORE 2,Attorney General,D,27.0,house
+MARENGO,OLD LINDEN ARMORY 2,Attorney General,D,121.0,house
+MORGAN,1001,Attorney General,D,113.0,house
+MORGAN,11001,Attorney General,D,85.0,house
+COVINGTN,LIBERTYVILLE,Governor,D,38.0,house
+COVINGTN,GOOLSBY'S PLACE,Governor,D,22.0,house
+COVINGTN,FLORALA-2,Governor,D,57.0,house
+COVINGTN,FLORAL-4,Governor,D,65.0,house
+COVINGTN,BOLE'S MILL,Governor,D,34.0,house
+COVINGTN,LOCKHART-2,Governor,D,53.0,house
+JACKSON,CHALLENGED VOTES,Governor,D,1.0,house
+LADRDALE,CO. BOARD OF ED. ADM. BLDG.,Governor,D,458.0,house
+LOWNDES,OWENS STORE 2,Governor,D,32.0,house
+MARENGO,OLD LINDEN ARMORY 2,Governor,D,131.0,house
+MORGAN,1001,Governor,D,120.0,house
+MORGAN,11001,Governor,D,94.0,house
+COVINGTN,LIBERTYVILLE,Governor,R,89.0,house
+COVINGTN,GOOLSBY'S PLACE,Governor,R,34.0,house
+COVINGTN,FLORALA-2,Governor,R,68.0,house
+COVINGTN,FLORAL-4,Governor,R,55.0,house
+COVINGTN,BOLE'S MILL,Governor,R,40.0,house
+COVINGTN,LOCKHART-2,Governor,R,35.0,house
+JACKSON,CHALLENGED VOTES,Governor,R,3.0,house
+LADRDALE,CO. BOARD OF ED. ADM. BLDG.,Governor,R,575.0,house
+LOWNDES,OWENS STORE 2,Governor,R,62.0,house
+MARENGO,OLD LINDEN ARMORY 2,Governor,R,52.0,house
+MORGAN,1001,Governor,R,82.0,house
+MORGAN,11001,Governor,R,113.0,house
+COVINGTN,LIBERTYVILLE,Attorney General,R,88.0,house
+COVINGTN,GOOLSBY'S PLACE,Attorney General,R,44.0,house
+COVINGTN,FLORALA-2,Attorney General,R,73.0,house
+COVINGTN,FLORAL-4,Attorney General,R,50.0,house
+COVINGTN,BOLE'S MILL,Attorney General,R,38.0,house
+COVINGTN,LOCKHART-2,Attorney General,R,31.0,house
+JACKSON,CHALLENGED VOTES,Attorney General,R,3.0,house
+LADRDALE,CO. BOARD OF ED. ADM. BLDG.,Attorney General,R,635.0,house
+LOWNDES,OWENS STORE 2,Attorney General,R,65.0,house
+MARENGO,OLD LINDEN ARMORY 2,Attorney General,R,54.0,house
+MORGAN,1001,Attorney General,R,87.0,house
+MORGAN,11001,Attorney General,R,115.0,house
+DEKALB,MCKESTES OLD SCHOOL\BUILDING,Attorney General,D,89.0,senate
+DEKALB,LOVELESS BROWNFELL\SCHOOL,Attorney General,D,26.0,senate
+HALE,SIX A-THREE,Attorney General,D,99.0,senate
+JACKSON,CHALLENGED VOTES,Attorney General,D,1.0,senate
+MADISON,MAYSVILLE FIRE STATION,Attorney General,D,361.0,senate
+DEKALB,MCKESTES OLD SCHOOL\BUILDING,Governor,D,99.0,senate
+DEKALB,LOVELESS BROWNFELL\SCHOOL,Governor,D,29.0,senate
+HALE,SIX A-THREE,Governor,D,122.0,senate
+JACKSON,CHALLENGED VOTES,Governor,D,1.0,senate
+MADISON,MAYSVILLE FIRE STATION,Governor,D,420.0,senate
+DEKALB,MCKESTES OLD SCHOOL\BUILDING,Governor,R,50.0,senate
+DEKALB,LOVELESS BROWNFELL\SCHOOL,Governor,R,15.0,senate
+HALE,SIX A-THREE,Governor,R,23.0,senate
+JACKSON,CHALLENGED VOTES,Governor,R,3.0,senate
+MADISON,MAYSVILLE FIRE STATION,Governor,R,459.0,senate
+DEKALB,MCKESTES OLD SCHOOL\BUILDING,Attorney General,R,57.0,senate
+DEKALB,LOVELESS BROWNFELL\SCHOOL,Attorney General,R,17.0,senate
+HALE,SIX A-THREE,Attorney General,R,22.0,senate
+JACKSON,CHALLENGED VOTES,Attorney General,R,3.0,senate
+MADISON,MAYSVILLE FIRE STATION,Attorney General,R,500.0,senate

@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_paid_family_leave",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supports expanding paid family and medical leave.",
+  "evidence_quote": "Do you support expanding paid family AND/OR medical leave opportunities?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

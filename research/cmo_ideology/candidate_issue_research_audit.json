@@ -1,0 +1,59 @@
+{
+  "overall_complete": false,
+  "requirements": {
+    "bill_text_archive": {
+      "complete": true,
+      "expected_versions": 39853,
+      "present_versions": 39841,
+      "missing_versions": 12
+    },
+    "sponsorships": {
+      "complete": true,
+      "distinct_bills": 3705,
+      "reviewed_legislator_identities": 20,
+      "focal_candidate_cases": 30
+    },
+    "amendment_attribution_and_text": {
+      "complete": true,
+      "attributed_amendments": 62,
+      "texts_extracted": 62
+    },
+    "amendment_revision_direction": {
+      "complete": true,
+      "expected_model_cases": 124,
+      "observed_model_cases": 124,
+      "human_reviewed_amendments": 62,
+      "human_adjudication_required": true,
+      "excluded_cross_bill_links": 10
+    },
+    "sponsorship_policy_direction": {
+      "complete": true,
+      "review_bills": 192,
+      "expected_model_cases": 384,
+      "observed_model_cases": 384,
+      "human_reviewed_bills": 192,
+      "human_adjudication_required": true,
+      "excluded_bad_text_links": 0
+    },
+    "pre_floor_committee_activity": {
+      "complete": true,
+      "committee_path_events": 10252,
+      "pre_first_floor_passage_events": 9147,
+      "individual_votes_available": false
+    },
+    "public_campaign_positions": {
+      "complete": false,
+      "sourced_position_rows": 130,
+      "reviewed_nonposition_sources": 17,
+      "pending_ranked_sources": 0,
+      "open_campaign_issue_searches": 108,
+      "open_campaign_candidates": 21
+    },
+    "matrix_integration": {
+      "complete": true,
+      "candidate_cases": 30,
+      "issues": 25,
+      "documented_evidence_rows": 823
+    }
+  }
+}

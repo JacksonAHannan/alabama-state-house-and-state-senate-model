@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_budget_emergency_preparedness",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Emergency preparedness funding is generally viewed as a progressive priority due to its focus on public safety and social welfare.",
+  "evidence_quote": "State Budget: Indicate the funding levels (#1-6) you will support for the following general categories. Select one level per category.State Taxes: Indicate the tax levels (#1-6) you will support. Select one level per tax.\nOption: c) Emergency preparedness",
+  "needs_human_review": false,
+  "review_reason": ""
+}

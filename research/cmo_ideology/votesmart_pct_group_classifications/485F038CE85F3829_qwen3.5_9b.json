@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_tv_content_mandates",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting government mandates to restrict content on television is conventionally viewed as a progressive stance due to its emphasis on protecting vulnerable audiences (especially children) from harmful media and increasing regulatory oversight of private industry.",
+  "evidence_quote": "d) Support government mandates to curtail violent and sexual content on television.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

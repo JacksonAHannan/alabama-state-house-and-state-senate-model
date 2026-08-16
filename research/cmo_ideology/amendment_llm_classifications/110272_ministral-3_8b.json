@@ -1,0 +1,18 @@
+{
+  "primary_issue": "criminal_justice",
+  "secondary_issues": [
+    "public_private_partnerships",
+    "criminal_justice"
+  ],
+  "plain_english_revision": "The amendment replaces broad, general language about which crimes qualify for a specific program with an explicit list of the most serious felonies. It specifies exactly which offenses\u2014like capital murder, rape in the first degree, or aggravated child abuse\u2014are covered under the law\u2019s funding mechanism.",
+  "revision_direction": "restricts_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "The amendment advances a policy effect of narrowing eligibility for certain criminal justice-related funds to only the most severe felony offenses, as defined by statute.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "capital murder, murder, kidnapping in the first degree, rape in the first degree, sodomy in the first degree, ... aggravated child abuse of a child under the age of six",
+    "an offense enumerated by the Legislature by general law"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment text is clear and self-contained; no external context or interpretation is required."
+}

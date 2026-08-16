@@ -1,0 +1,29 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "Billy Beasley was a multi-term state representative who ran for the Alabama Senate District 28 seat in the 2010 election. He defeated former Tuskegee mayor Johnny Ford in a Democratic runoff before facing Republican Kim West, and he moved from the House to an open Senate district that year.",
+  "offices_and_public_service": [
+    "Alabama state representative",
+    "Alabama senate district 28 candidate"
+  ],
+  "profession_and_employment": [],
+  "education": [],
+  "community_and_local_ties": [],
+  "political_profile": [
+    "moderately conservative within the Democratic caucus (Shor\u2013McCarty score -0.217)"
+  ],
+  "important_caveats": [
+    "The Shor-McCarty data is from his pre-election House service.",
+    "His recognition may be influenced by prior officeholding and primary coalition rather than just ideology."
+  ],
+  "source_urls_used": [
+    "https://doi.org/10.7910/DVN/GZJOT3",
+    "https://www.wsfa.com/story/12784074/district-28-candidate-takes-voting-complaint-to-president/",
+    "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/2010-sample-ballots/Lee-2010-Sample.pdf"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://doi.org/10.7910/DVN/GZJOT3",
+    "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/2010-sample-ballots/Lee-2010-Sample.pdf",
+    "https://www.wsfa.com/story/12784074/district-28-candidate-takes-voting-complaint-to-president/"
+  ]
+}

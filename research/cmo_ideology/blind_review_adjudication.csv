@@ -1,0 +1,7 @@
+anonymous_case_id,candidate,election_cycle,dimension,original_code,reviewer_code,adjudicated_code,decision,rationale
+CASE-78790E22E0,Randall White,2010,overall_ideological_valence,1,2,1,retain_original,"The reviewer marked low confidence; a partisan nonspecific description supports conservative direction but not strong intensity."
+CASE-974E50234E,John Robinson,2014,overall_ideological_valence,1,2,1,retain_original,"The 87th conservative percentile falls in the fixed 65th-through-90th mild-conservative band."
+CASE-9C2E2CFC97,Richard Lindsey,2014,overall_ideological_valence,1,2,2,adopt_reviewer,"The 92nd conservative percentile falls in the fixed top-decile strong-conservative band."
+CASE-D0D05CB38C,Vivian Davis Figures,2010,guns_position,-2,-1,-1,adopt_reviewer,"A child-access safe-storage bill is direct regulation evidence but too narrow for a broad strong gun-regulation code."
+CASE-E118DC28E8,Johnny Mack Morrow,2014,economic_ideology,-1,-2,-1,retain_original,"Teacher pay and school-program investment are conventionally progressive for Alabama Democrats but do not establish an unusually expansive economic program."
+CASE-F6144B0512,Jeff McLaughlin,2014,overall_ideological_valence,1,2,2,adopt_reviewer,"The 92nd conservative percentile falls in the fixed top-decile strong-conservative band and is corroborated by contemporary self-presentation."

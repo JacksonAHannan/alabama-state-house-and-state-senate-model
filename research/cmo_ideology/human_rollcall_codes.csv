@@ -1,0 +1,4 @@
+roll_call_id,human_issue_code,policy_direction_of_yea,substantive_vote,review_status,review_note
+1551124,immigration,,false,reviewed,"Generic third-reading record; a separate same-day roll call explicitly records passage as amended, so this row is not counted as a substantive position."
+1551126,immigration,"supports expanded state and local immigration-detention enforcement",true,reviewed,"Motion explicitly says read a third time and pass as amended; reviewed against the engrossed HB7 text."
+1551793,culture_lgbtq,,false,reviewed,"Motion was to add a cosponsor, not to pass or amend the bill; it cannot establish a substantive policy position."

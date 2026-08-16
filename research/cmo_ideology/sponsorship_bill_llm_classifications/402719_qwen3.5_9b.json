@@ -1,0 +1,14 @@
+{
+  "plain_english_policy": "This bill modifies the health insurance contribution rules for state retirees in Alabama. Specifically, it requires that when calculating employer contributions to retiree health premiums, 'hazardous duty time' earned by correctional officers must be counted as creditable service years. The text mandates that this credited hazardous duty time is included in the calculation of retirement benefits under specific sections governing correctional officers.",
+  "policy_direction_if_enacted": "Enactment would produce a policy direction where state employers (via the State Employees' Insurance Board) must include one year of 'hazardous duty time' for every five years awarded to correctional officers when determining their health insurance premium contributions upon retirement. This effectively increases the calculated service credit used in these specific financial calculations, potentially altering the cost-sharing structure between the employer and the retiree compared to non-correctional officer retirees.",
+  "ideological_valence": "progressive",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "The sponsors affirmatively advanced a bill that expands creditable service time for correctional officers in health insurance calculations.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "\"(g) Notwithstanding the provisions of subsection (a), the calculation of the employer contribution for correction officers... shall include credit for any hazardous duty time awarded under the Employees' Retirement System or the Teachers' Retirement System\"",
+    "\"to include the one year of hazardous duty time for every five years as a correctional officer awarded to each correctional officer\""
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

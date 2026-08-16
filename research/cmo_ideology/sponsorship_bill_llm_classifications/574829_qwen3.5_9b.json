@@ -1,0 +1,15 @@
+{
+  "plain_english_policy": "This document outlines strict rules for how a state's Board of Control manages retirement funds and prevents conflicts of interest.\n\n**Key Rules:**\n- **No Personal Gain**: Board members and employees cannot profit personally from investments, receive extra pay, or use the system\u2019s money for themselves (except paying bills). They also can't act as guarantors for loans made by the board.\n- **Investment Authority**:\nThe - The Secretary-Treasurer manages day-to-day investing with full power to buy/sell assets without needing immediate board approval, but must follow policies set by the Board. \n\nThe Investment Committee (3 members) reviews and approves major decisions based on these policies.\n\nA qualified bank can be hired as a consultant for investment advice.\n- **Interest Rates**: The system earns regular interest (between 3% and 4.75%) which is paid out to the funds annually from earnings.\n- **Financial Oversight**:\nThe Secretary-Treasurer reports on all investments twice yearly. Funds are deposited in the State Treasury, and payments require signatures from two designated board members.",
+  "policy_direction_if_enacted": "This policy would create a highly regulated investment framework for state retirement funds with strong anti-corruption measures (no personal gain), professional management by a Secretary-Treasurer under Board oversight, an Investment Committee for review, external banking consultants allowed only if they meet strict capital requirements ($300M+), and clear rules on interest rates and financial reporting.",
+  "ideological_valence": "conservative",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "}",
+  "confidence": "high",
+  "evidence_quotes": [
+    "No member or employee of the Board of Control shall, directly or indirectly... receive any pay or emolument for his or her services.",
+    "The Secretary-Treasurer may make investment decisions regarding all moneys under his or her control without approval from the board of control...",
+    "Regular interest shall mean the percentage rate or rates to be compounded annually as shall be set by the Board of Control, the rate or rates to be limited to a minimum of three percent and a maximum of four and three-fourths percent."
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

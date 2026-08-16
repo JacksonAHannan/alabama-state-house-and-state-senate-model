@@ -1,0 +1,13 @@
+{
+  "plain_english_policy": "This bill (HB5 from Alabama's 2010 session) explicitly targets **political action committee (PAC) to PAC transfers** by making them illegal under state campaign finance law. The policy direction it would establish is a **restriction on indirect campaign financing**, specifically closing a loophole where PACs could route contributions through other PACs to circumvent contribution limits or donor disclosure requirements.",
+  "policy_direction_if_enacted": "1. **Reduced indirect campaign funding**: By prohibiting PAC-to-PAC transfers, the bill would eliminate a common practice of 'stacking' contributions\u2014where donors use multiple PACs to exceed individual contribution caps or obscure their identity.",
+  "ideological_valence": "nonideological",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "The bill\u2019s text is unambiguous and actionable. Sponsors (e.g., Reps. Morrow, Coleman) advanced this specific restriction without broader ideological framing in the text.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "It shall be unlawful for any political action committee to make a contribution to any other political action committee, **other than a principal campaign committee**."
+  ],
+  "needs_human_review": false,
+  "review_reason": "The bill\u2019s intent is clear: close PAC-to-PAC transfers. No broader context or ambiguity exists in the text."
+}

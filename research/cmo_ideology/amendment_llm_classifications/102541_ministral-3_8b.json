@@ -1,0 +1,18 @@
+{
+  "primary_issue": "business_economic_development",
+  "secondary_issues": [
+    "public_education",
+    "environment"
+  ],
+  "plain_english_revision": "The amendment to HB131, proposed by Vivian Davis Figures in April 2021, replaces broad legislative authority over bail eligibility with a **fixed list of specific offenses** that would be ineligible for bail. The amendment explicitly names and defines each offense via statutory citations (e.g., 'rape in the first degree' as per \u00a713A-6-61), removing any discretion to add future crimes without constitutional amendment. This shifts from a general legislative power to an enumerated, static framework.",
+  "revision_direction": "restricts_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Advances the policy effect of **mandating bail ineligibility for a predefined set of violent and severe felonies** without legislative expansion.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "capital murder, murder, kidnapping in the first degree, rape in the first degree, sodomy in the first degree, sexual torture, domestic violence in the first degree, human trafficking in the first degree, burglary in the first degree, arson in the first degree, robbery in the first degree, terrorism when the specified offense is a Class A felony other than murder, and aggravated child abuse of a child under the age of six",
+    "an offense enumerated by the Legislature... insert in lieu thereof the following: capital murder, as provided in Section 13A-5-40..."
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment text is clear and self-contained; no external context or intent inference required."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_tax_bracket_threshold",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "This option specifies a high income threshold ($40,000) for federal taxation but does not define the tax rate or policy intent (e.g., whether it implies higher rates above this amount or exemption below). Without context on the proposed tax structure, direction cannot be inferred.",
+  "evidence_quote": "f) Over $40,000",
+  "needs_human_review": false,
+  "review_reason": ""
+}

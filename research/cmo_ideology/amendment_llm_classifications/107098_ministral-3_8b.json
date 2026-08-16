@@ -1,0 +1,18 @@
+{
+  "primary_issue": "infrastructure_energy",
+  "secondary_issues": [
+    "public_education",
+    "healthcare_medicaid"
+  ],
+  "plain_english_revision": "This amendment removes all references to the State Superintendent of Education from sections of SB170 related to COVID-19 vaccine mandates or policies. It also deletes several paragraphs (lines 4\u201312, 17\u201319 on page 18; lines 21\u201327/20:1\u20136 on page 19/20) and renumbers the remaining text to maintain continuity.",
+  "revision_direction": "removes_safeguard",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Advances a policy effect that eliminates state-level oversight of vaccine-related provisions in public education and Medicaid/healthcare contexts, without specifying alternative accountability mechanisms.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "delete lines 4 to 12, inclusive, and renumber the remaining subdivision accordingly",
+    "<\u2014removes unspecified vaccine policy language"
+  ],
+  "needs_human_review": true,
+  "review_reason": "The amendment\u2019s substantive intent is unclear without seeing the deleted text. The removal of the Superintendent of Education may affect vaccine mandates, but procedural gaps remain."
+}

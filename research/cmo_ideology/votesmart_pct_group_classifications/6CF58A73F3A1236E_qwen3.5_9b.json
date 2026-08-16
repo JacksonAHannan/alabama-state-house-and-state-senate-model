@@ -1,0 +1,11 @@
+{
+  "policy_key": "medicaid_managed_care_expansion",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option supports moving Medicaid recipients into managed care programs.",
+  "evidence_quote": "d) Transfer more existing Medicaid recipients into managed care programs.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

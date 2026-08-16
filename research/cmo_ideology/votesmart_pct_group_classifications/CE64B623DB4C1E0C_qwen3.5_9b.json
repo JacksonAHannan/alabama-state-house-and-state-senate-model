@@ -1,0 +1,11 @@
+{
+  "policy_key": "stem_cell_research_existing_lines",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting research on existing stem cell lines is generally considered a progressive stance in the context of U.S. healthcare policy debates.",
+  "evidence_quote": "l) Support stem cell research on existing lines of stem cells.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

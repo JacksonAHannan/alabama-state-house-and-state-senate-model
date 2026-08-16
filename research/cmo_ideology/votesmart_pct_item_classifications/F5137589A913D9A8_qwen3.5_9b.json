@@ -1,0 +1,11 @@
+{
+  "policy_key": "agriculture_funding",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The item asks for a funding level without specifying whether higher or lower spending is preferred.",
+  "evidence_quote": "Indicate the funding levels you will support for the following general categories.",
+  "needs_human_review": true,
+  "review_reason": "This question solicits an opinion on specific budget amounts but provides no ideological context (e.g., 'increase' vs. 'decrease') to determine a conservative or progressive direction without external knowledge of current spending baselines, which violates the instruction not to infer positions."
+}

@@ -1,0 +1,16 @@
+{
+  "primary_issue": "ethics_government",
+  "secondary_issues": [
+    "labor_unions"
+  ],
+  "plain_english_revision": "The amendment modifies the eligibility requirements for unemployment benefits by adding a geographic condition. It stipulates that an individual must search for work at least once per week if they live within 45 miles of a Career Center, or at least one prospective employer if they reside more than 45 miles from such a center.",
+  "revision_direction": "restricts_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "The amendment supports restricting unemployment benefit eligibility based on the applicant's proximity to Career Centers. Specifically, it advances a policy requiring job search activity (one time per week) for residents within 45 miles of a Career Center or those with at least one prospective employer if living further away.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "if he or she resides within 45 miles of a Career Center, or at least one prospective employer if he or she resides 45 miles or more from a Career Center"
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

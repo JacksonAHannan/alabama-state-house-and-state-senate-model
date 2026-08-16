@@ -1,0 +1,11 @@
+{
+  "policy_key": "property_tax_level",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "level of property taxes proposed (higher = more progressive)",
+  "evidence_quote": "",
+  "needs_human_review": true,
+  "review_reason": "The SOURCE TEXT does not provide any specific tax level option for property taxes (e.g., 'lower', 'maintain', or 'increase'). It only lists 'property taxes' as an item to select without defining the proposed direction (+/-)."
+}

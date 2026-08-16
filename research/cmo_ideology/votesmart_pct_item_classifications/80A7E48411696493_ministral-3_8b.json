@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_exit_polling_restrictions",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "restricting media exit polling to protect election integrity or privacy",
+  "evidence_quote": "prohibiting media exit polling of voters until all polling locations in Alabama are closed",
+  "needs_human_review": false,
+  "review_reason": ""
+}

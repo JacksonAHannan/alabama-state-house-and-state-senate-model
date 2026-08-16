@@ -1,0 +1,11 @@
+{
+  "policy_key": "gas_tax_increase",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "whether to increase gas taxes (progressive) or leave them unchanged/low (conservative)",
+  "evidence_quote": "",
+  "needs_human_review": true,
+  "review_reason": "The SOURCE TEXT only provides a list of options without specifying the candidate's selection, so no definitive position can be inferred. The item is unscorable as written."
+}

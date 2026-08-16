@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_k_12_funding",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The item asks for funding levels without specifying a direction (increase or decrease), making it non-ideological and indeterminate.",
+  "evidence_quote": "Indicate the funding levels you will support",
+  "needs_human_review": true,
+  "review_reason": "Item lacks directional context; 'funding levels' could imply any amount."
+}

@@ -1,0 +1,17 @@
+{
+  "primary_issue": "criminal_justice",
+  "secondary_issues": [
+    "public_private_partnerships",
+    "criminal_justice"
+  ],
+  "plain_english_revision": "**Effect**: If a court rules this abortion law unconstitutional and orders Alabama to pay legal fees, the legislators who voted for it must cover those costs out of their own pockets. The amendment does not change the substance of the ban\u2014only who bears financial risk if challenged in court.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "**Policy effect**: Shifts liability for legal defense costs from taxpayers to individual legislators who voted for the bill, thereby increasing their personal financial exposure if litigation succeeds.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "**\u2018Any attorney fees billed to the State of Alabama as a result of a lawsuit challenging the legality of this act, shall be paid by the members of Legislature who voted in favor of this act.\u2019**"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment\u2019s intent is clear and does not rely on unseen language. It explicitly ties financial risk to legislators\u2019 votes, with no procedural ambiguity."
+}

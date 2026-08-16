@@ -1,0 +1,19 @@
+{
+  "primary_issue": "healthcare_medicaid",
+  "secondary_issues": [
+    "criminal_justice",
+    "public_private_partnerships"
+  ],
+  "plain_english_revision": "This amendment carves out an exemption for healthcare providers from a wiretapping law that would otherwise apply to Medicaid/Medicare fraud investigations. It explicitly excludes doctors, hospitals, and related entities from the new surveillance requirements\u2014even if they\u2019re suspected of fraud.",
+  "revision_direction": "restricts_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Advances a policy that exempts Medicaid/Medicare providers from state wiretapping laws when investigating fraud, narrowing the scope of surveillance authority to non-healthcare entities.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "to exclude certain health care providers",
+    "This act shall not apply to physicians, surgeons, dentists, medical institutions, or other health care providers as those terms are defined...",
+    "hospitals as described in Section 22-21-20"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment is clear and self-contained. It removes a general 'and' clause, inserts a specific exclusion for healthcare providers, and defines the scope via existing statutory references (6-5-481, 6-5-542, 22-21-20). No hidden dependencies or procedural ambiguity."
+}

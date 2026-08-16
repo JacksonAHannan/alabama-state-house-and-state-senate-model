@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_higher_funding",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "funding for higher education",
+  "evidence_quote": "",
+  "needs_human_review": true,
+  "review_reason": "The item is a funding level question without a specific amount or direction (conservative/progressive). It is context-dependent and lacks a stable ideological anchor."
+}

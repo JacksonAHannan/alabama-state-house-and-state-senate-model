@@ -1,0 +1,18 @@
+{
+  "primary_issue": "taxes_budget",
+  "secondary_issues": [
+    "taxes_budget",
+    "taxes_budget"
+  ],
+  "plain_english_revision": "The amendment removes a general prohibition on new municipal occupational taxes for one specific type of municipality: Class 2 municipalities. This means those localities can now impose or modify such taxes without needing prior authorization by local law.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Exempting Class 2 municipalities from the prohibition on new occupational taxes (as defined in HB147).",
+  "confidence": "high",
+  "evidence_quotes": [
+    "This act does not apply to a Class 2 municipality.",
+    "Section 2. This act does not apply to a Class 2 municipality."
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment text is clear and unambiguous, with no reliance on unseen language or procedural ambiguity."
+}

@@ -1,0 +1,18 @@
+{
+  "primary_issue": "public_employee_benefits",
+  "secondary_issues": [
+    "public_employee_benefits",
+    "public_employee_benefits"
+  ],
+  "plain_english_revision": "The amendment expands the category of protected personal information on law enforcement officers' economic interest forms to include *all* public officials\u2014not just law enforcement\u2014making their private financial details exempt from public disclosure.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Advances a policy that broadens the scope of personal information exemptions for *public officials* (beyond law enforcement) from public disclosure in economic interest statements.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "after the word 'any' insert the following: **public official or**",
+    "On page 6, line 14"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment text is clear and self-contained; no external context required."
+}

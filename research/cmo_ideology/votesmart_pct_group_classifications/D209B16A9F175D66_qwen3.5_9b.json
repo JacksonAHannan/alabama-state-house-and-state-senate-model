@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_health_physician_assisted_suicide",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Legalizing physician-assisted suicide is generally considered a progressive policy position on end-of-life issues.",
+  "evidence_quote": "f) Legalize physician assisted suicide in Alabama.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "capital_gains_tax",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The item asks for a selection of tax levels but does not specify whether the chosen level is higher or lower than current rates. Without knowing if 'supporting' this option implies raising taxes (progressive) or maintaining them relative to other options, no stable ideological direction can be determined.",
+  "evidence_quote": "Select one level only.",
+  "needs_human_review": true,
+  "review_reason": "The prompt asks the respondent to select a tax level without defining what that specific level represents in terms of magnitude change (increase vs. decrease). Therefore, selecting option 'b' does not inherently indicate support for higher or lower taxes compared to other options unless those levels are defined elsewhere."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_budget_cut_salaries_pensions",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option proposes cutting state employee salaries and/or pensions to balance the budget.",
+  "evidence_quote": "a) Reducing state employee salaries AND/OR pensions?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,18 @@
+{
+  "primary_issue": "taxes_budget",
+  "secondary_issues": [
+    "labor_unions",
+    "public_employee_benefits"
+  ],
+  "plain_english_revision": "This amendment modifies the unemployment compensation eligibility requirement by adding a geographic exception for job searches. It specifies that individuals must search within 45 miles of a town with at least 1,500 residents\u2014or conduct *at least one* job search if they live farther away\u2014before qualifying for benefits.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Advances a policy that reduces the administrative burden on unemployed individuals in rural areas by lowering their required job-search frequency while maintaining eligibility thresholds for urban residents.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "if he or she resides within 45 miles of a municipality with a population of 1,500 or more",
+    "at least one prospective employer if he or she does not reside within 45 miles of a municipality with a population of 1,500 or more"
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment\u2019s intent is clear from the text alone; no hidden assumptions about broader bill context are required."
+}

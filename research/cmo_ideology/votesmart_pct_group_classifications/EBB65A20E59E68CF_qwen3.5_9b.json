@@ -1,0 +1,11 @@
+{
+  "policy_key": "defense_troop_retention",
+  "dimension": "immigration_position",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "This option focuses on improving troop retention rates within the military. While increasing defense spending is often associated with conservative fiscal policy, specifically targeting 'retention' involves social welfare measures for service members (such as better pay, housing, or benefits) to keep them in the force. These internal personnel improvements are generally considered progressive-leaning administrative actions rather than a core ideological stance on national security or taxation.",
+  "evidence_quote": "Programs to improve troop retention rates",
+  "needs_human_review": false,
+  "review_reason": ""
+}

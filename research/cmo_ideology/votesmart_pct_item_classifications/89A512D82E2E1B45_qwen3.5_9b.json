@@ -1,0 +1,11 @@
+{
+  "policy_key": "transportation_infrastructure",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The item asks for a funding level without specifying whether the increase or decrease is needed.",
+  "evidence_quote": "Indicate the funding levels you will support for the following general categories. Select one level only.",
+  "needs_human_review": true,
+  "review_reason": "Funding levels are context-dependent and lack an inherent ideological direction (conservative vs progressive) without knowing if current spending is insufficient or excessive."
+}

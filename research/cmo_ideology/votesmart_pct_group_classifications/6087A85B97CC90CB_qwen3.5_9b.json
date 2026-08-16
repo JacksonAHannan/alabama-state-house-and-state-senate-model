@@ -1,0 +1,11 @@
+{
+  "policy_key": "instant_runoff_voting",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Instant run-off voting is a procedural electoral reform mechanism rather than an ideological stance; its adoption depends on administrative context and local governance preferences.",
+  "evidence_quote": "h) Do you support instant run-off voting (IRV)?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

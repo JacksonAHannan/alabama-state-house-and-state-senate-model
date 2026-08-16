@@ -1,0 +1,11 @@
+{
+  "policy_key": "interstate_health_insurance_compact",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting interstate health insurance compacts is generally viewed as a progressive measure aimed at expanding access to affordable healthcare and reducing costs by allowing states to share resources.",
+  "evidence_quote": "c) Do you support interstate health insurance compacts?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

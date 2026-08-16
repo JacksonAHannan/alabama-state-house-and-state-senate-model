@@ -1,0 +1,18 @@
+{
+  "plain_english_policy": "The provided document is an excerpt from a budget or appropriation bill (HB290), detailing various state agencies' funding allocations. Here\u2019s a breakdown in plain English for some of the key sections mentioned in your query, focusing on Sections 5-2A-24, 5-16-38.1, and 5-18-5 from the Code of Alabama 1975, as well as specific funding details for several state entities like the Bar Association, Boxing Commission, Building Commission, etc.",
+  "policy_direction_if_enacted": "If enacted, this budget would allocate funds to various state departments and authorities for their respective programs. Here are some key points from the document you provided:",
+  "ideological_valence": "nonideological",
+  "local_or_ceremonial": false,
+  "sponsorship_supports_position": "The document itself does not indicate sponsorship or support for a particular political position, but it outlines the financial allocations and sources of funds for various state programs.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "Section 5-2A-24: This section likely pertains to the Alabama State Board of Chiropractic Examiners, which is responsible for regulating chiropractors in Alabama. The budget allocates funds for their professional and occupational licensing and regulation program.",
+    "Section 5-16-38.1: This section might relate to the Building Commission\u2019s responsibilities, including oversight of building codes and construction standards. The budget includes funding for special services and professional licensing programs.",
+    "Section 5-18-5: This section could be related to the Alabama Boxing Commission, which regulates boxing activities in the state. The budget allocates funds for licensing, regulation, and enforcement programs.",
+    "Bar Association, Alabama: $6,051,535 is allocated from a combination of federal/local funds and the State Bar Association Fund for professional and occupational licensing and regulation programs.",
+    "Boxing Commission, Alabama: $165,000 is earmarked for licensing, regulation, and enforcement activities as per Act 2009-622.",
+    "Building Commission, State: The budget includes $1,375,000 total for special services and professional licensing programs, with a significant portion ($992,093) coming from miscellaneous estimated funds."
+  ],
+  "needs_human_review": true,
+  "review_reason": "The document is detailed but requires human review to ensure accuracy in interpreting specific sections of the Code of Alabama and understanding the exact nature of each program's funding allocation. It also needs contextual background on how these funds are used."
+}

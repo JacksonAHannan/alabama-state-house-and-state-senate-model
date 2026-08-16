@@ -1,0 +1,18 @@
+{
+  "primary_issue": "infrastructure_energy",
+  "secondary_issues": [
+    "public_private_partnerships",
+    "infrastructure_energy"
+  ],
+  "plain_english_revision": "The amendment replaces the original bill with a new version that mandates the Alabama Criminal Justice Information System (ACJIS) to systematically collect and report data on allegations of excessive force by law enforcement officers. The amendment specifies what data must be collected, including officer and victim demographics, incident details, court outcomes, and internal review findings. It also requires ACJIS to submit an annual report to legislative committees.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "establishing a standardized system for tracking allegations of excessive force and providing legislative oversight through data-driven reporting",
+  "confidence": "high",
+  "evidence_quotes": [
+    "The ACJIS shall collect data regarding any and all allegations of excessive force by state, county, and municipal law enforcement officers.",
+    "The ACJIS shall compile an annual report that shall be presented to the House Public Safety and Homeland Security Committee and the Senate Judiciary Committee."
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment is explicit in its policy changes, with clear procedural requirements for data collection and reporting. No hidden assumptions or external references are required to understand its effect."
+}

@@ -1,0 +1,35 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "Larry Means was an Alabama Democratic candidate who ran for Senate in District 10 during the 2014 election, where he lost narrowly to Republican Phil Williams after previously losing a seat as incumbent in 2010. He is characterized by culturally conservative and economically populist views: holding strong gun rights positions with a perfect NRA-PVF rating and sponsoring Alabama's 2006 stand-your-ground law; while emphasizing jobs and public education, he helped create an industrial authority that preserved Goodyear jobs. His localism was exceptional, having served in Attalla government for years before the Senate race, returning to win mayoralty there after being acquitted of bingo-corruption charges.",
+  "offices_and_public_service": [
+    "Attalla city council",
+    "Alabama State Senator (District 10)",
+    "Attalla Mayor"
+  ],
+  "profession_and_employment": [],
+  "education": [],
+  "community_and_local_ties": [
+    "Attalla, Alabama"
+  ],
+  "political_profile": [
+    "culturally conservative",
+    "economically populist",
+    "localism-focused"
+  ],
+  "important_caveats": [
+    "Indicted in federal bingo-corruption case roughly one month before 2010 general election; acquitted later."
+  ],
+  "source_urls_used": [
+    "https://justfacts.votesmart.org/candidate/15978/larry-means",
+    "https://www.bhamwiki.com/w/Alabama_Stand_Your_Ground_Law",
+    "https://www.birminghamtimes.com/2014/09/working-for-working-families/",
+    "https://www.apr.org/politics-government/2012-08-29/acquitted-former-senator-makes-political-comeback"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://justfacts.votesmart.org/candidate/15978/larry-means",
+    "https://www.apr.org/politics-government/2012-08-29/acquitted-former-senator-makes-political-comeback",
+    "https://www.bhamwiki.com/w/Alabama_Stand_Your_Ground_Law",
+    "https://www.birminghamtimes.com/2014/09/working-for-working-families/"
+  ]
+}

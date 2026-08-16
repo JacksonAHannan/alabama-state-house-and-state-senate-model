@@ -1,0 +1,11 @@
+{
+  "policy_key": "state_employee_furlough_layoffs",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option proposes mandatory furloughs and/or layoffs for state employees as a method to balance the budget.",
+  "evidence_quote": "3) Budget Stabilization:Indicate which proposals you support (if any) for balancing Alabama's budget.\ne) Instituting mandatory furloughs AND/OR layoffs for state employees",
+  "needs_human_review": false,
+  "review_reason": ""
+}

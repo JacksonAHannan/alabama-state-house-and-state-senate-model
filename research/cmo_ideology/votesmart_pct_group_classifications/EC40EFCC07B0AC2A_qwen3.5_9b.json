@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_energy_funding",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting state funding for traditional fossil fuels like coal and natural gas is conventionally associated with progressive environmental stances that prioritize economic development over strict climate regulation.",
+  "evidence_quote": "b) Do you support state funding for the development of traditional domestic energy sources (e.g. coal, natural gas, oil)?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

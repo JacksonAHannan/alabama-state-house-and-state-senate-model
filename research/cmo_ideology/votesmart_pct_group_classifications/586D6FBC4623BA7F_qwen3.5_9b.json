@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_campaign_finance_pac_limits",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Supporting limits on PAC contributions is generally viewed as a progressive or populist measure aimed at reducing corporate influence in politics.",
+  "evidence_quote": "2) Political Action Committee",
+  "needs_human_review": true,
+  "review_reason": "The option text 'Political Action Committee' alone does not indicate support for or against limits; it is merely an item on a list requiring the candidate's stance to be inferred from their vote (e.g., Yes/No). Without knowing if they voted 'Yes' (supporting limits) or 'No', no ideological direction can be assigned. However, based on standard political science conventions where *limiting* PAC money is considered progressive and *allowing/unlimited* spending as conservative, the mere mention of this category in a reform context often leans toward the goal of restriction if selected affirmatively."
+}

@@ -1,0 +1,73 @@
+amendment_id,linked_bill_number,header_bill_number,header_bill_candidates,bill_link_status,position_inference_allowed,validation_note
+49016,HB24,HB24,HB24,matched,True,Official amendment header matches the linked bill.
+49103,SB301,SB301,SB301,matched,True,Official amendment header matches the linked bill.
+49275,HB98,HB98,HB98,matched,True,Official amendment header matches the linked bill.
+50016,HB334,HB334,HB334,matched,True,Official amendment header matches the linked bill.
+50080,HB50,HB50,HB50,matched,True,Official amendment header matches the linked bill.
+50790,SB60,SB60,SB60,matched,True,Official amendment header matches the linked bill.
+50937,HB528,HB528,HB528,matched,True,Official amendment header matches the linked bill.
+52583,HB136,HB136,HB136,matched,True,Official amendment header matches the linked bill.
+52712,SB190,SB190,SB190,matched,True,Official amendment header matches the linked bill.
+61640,SB149,SB149,SB149,matched,True,Official amendment header matches the linked bill.
+61645,SB212,SB212,SB212,matched,True,Official amendment header matches the linked bill.
+61646,SB212,SB212,SB212,matched,True,Official amendment header matches the linked bill.
+61675,SB50,SB50,SB50,matched,True,Official amendment header matches the linked bill.
+61687,HB175,HB175,HB175,matched,True,Official amendment header matches the linked bill.
+74118,SB258,SB258,SB258,matched,True,Official amendment header matches the linked bill.
+74853,SB220,SB220,SB220,matched,True,Official amendment header matches the linked bill.
+75160,HB314,HB314,HB314,matched,True,Official amendment header matches the linked bill.
+75214,HB163,HB163,HB163,matched,True,Official amendment header matches the linked bill.
+75861,HB339,HB339,HB339,matched,True,Official amendment header matches the linked bill.
+76059,HB380,HB380,HB380,matched,True,Official amendment header matches the linked bill.
+76193,HB314,HB314,HB314,matched,True,Official amendment header matches the linked bill.
+76194,HB314,HB314,HB314,matched,True,Official amendment header matches the linked bill.
+76195,HB314,HB314,HB314,matched,True,Official amendment header matches the linked bill.
+76233,HB32,HB32,HB32,matched,True,Official amendment header matches the linked bill.
+76367,HB209,HB209,HB209,matched,True,Official amendment header matches the linked bill.
+76451,SB320,SB320,SB320,matched,True,Official amendment header matches the linked bill.
+76455,HB598,HB598,HB598,matched,True,Official amendment header matches the linked bill.
+76695,HR245,HB597,HB597|HB190|HB537|HB378,mismatch,False,Official amendment header names a different bill; exclude this LegiScan link.
+76893,SB14,SB14,SB14,matched,True,Official amendment header matches the linked bill.
+77222,SB402,SB402,SB402,matched,True,Official amendment header matches the linked bill.
+77240,SB154,SB154,SB154,matched,True,Official amendment header matches the linked bill.
+77241,SB154,SB154,SB154,matched,True,Official amendment header matches the linked bill.
+79902,HB46,HB46,HB46,matched,True,Official amendment header matches the linked bill.
+80628,HB147,HB147,HB147,matched,True,Official amendment header matches the linked bill.
+81740,SB165,SB165,SB165,matched,True,Official amendment header matches the linked bill.
+88714,HB80,HB80,HB80,matched,True,Official amendment header matches the linked bill.
+89284,SB55,SB55,SB55,matched,True,Official amendment header matches the linked bill.
+92025,HB220,HB220,HB220,matched,True,Official amendment header matches the linked bill.
+92067,SB170,SB170,SB170,matched,True,Official amendment header matches the linked bill.
+92068,SB170,SB170,SB170,matched,True,Official amendment header matches the linked bill.
+94875,SB214,SB214,SB214,matched,True,Official amendment header matches the linked bill.
+94876,SB214,SB214,SB214,matched,True,Official amendment header matches the linked bill.
+100587,HB224,HB224,HB224,matched,True,Official amendment header matches the linked bill.
+102541,HB131,HB131,HB131,matched,True,Official amendment header matches the linked bill.
+102568,HB130,HB130,HB130,matched,True,Official amendment header matches the linked bill.
+105030,HB573,HB573,HB573,matched,True,Official amendment header matches the linked bill.
+105741,HB391,HB391,HB391,matched,True,Official amendment header matches the linked bill.
+105970,HB265,HB265,HB265,matched,True,Official amendment header matches the linked bill.
+107097,HJR166,SB170,SB170,mismatch,False,Official amendment header names a different bill; exclude this LegiScan link.
+107098,HJR166,SB170,SB170,mismatch,False,Official amendment header names a different bill; exclude this LegiScan link.
+109504,SB227,SB227,SB227,matched,True,Official amendment header matches the linked bill.
+110272,SB361,HB131,HB131,mismatch,False,Official amendment header names a different bill; exclude this LegiScan link.
+111451,HJR2,HB130,HB130,mismatch,False,Official amendment header names a different bill; exclude this LegiScan link.
+112592,SB153,HB220,HB220,mismatch,False,Official amendment header names a different bill; exclude this LegiScan link.
+113266,SB267,SB267,SB267,matched,True,Official amendment header matches the linked bill.
+114109,HB305,HB220,HB220,mismatch,False,Official amendment header names a different bill; exclude this LegiScan link.
+115898,SB71,SB267,SB267,mismatch,False,Official amendment header names a different bill; exclude this LegiScan link.
+116599,SJR23,HB224,HB224,mismatch,False,Official amendment header names a different bill; exclude this LegiScan link.
+117882,HR178,HB131,HB131,mismatch,False,Official amendment header names a different bill; exclude this LegiScan link.
+125584,HB153,HB153,HB153,matched,True,Official amendment header matches the linked bill.
+128558,HB97,HB97,HB97,matched,True,Official amendment header matches the linked bill.
+131138,HB220,HB220,HB220,matched,True,Official amendment header matches the linked bill.
+135731,HB105,HB105,HB105,matched,True,Official amendment header matches the linked bill.
+136162,SB204,SB204,SB204,matched,True,Official amendment header matches the linked bill.
+137827,HB312,HB312,HB312,matched,True,Official amendment header matches the linked bill.
+140462,SB171,SB171,SB171,matched,True,Official amendment header matches the linked bill.
+142406,SB224,SB224,SB224,matched,True,Official amendment header matches the linked bill.
+142408,SB224,SB224,SB224,matched,True,Official amendment header matches the linked bill.
+142599,HB400,HB400,HB400,matched,True,Official amendment header matches the linked bill.
+199959,SB18,SB18,SB18,matched,True,Official amendment header matches the linked bill.
+203086,HB60,HB60,HB60,matched,True,Official amendment header matches the linked bill.
+205495,HB102,HB102,HB102,matched,True,Official amendment header matches the linked bill.

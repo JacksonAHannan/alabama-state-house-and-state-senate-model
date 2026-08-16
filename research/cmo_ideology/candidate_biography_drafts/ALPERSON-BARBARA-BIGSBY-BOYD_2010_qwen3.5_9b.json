@@ -1,0 +1,29 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "Barbara Bigsby Boyd served as an incumbent Democratic representative for Alabama House District 32 starting from 1994, defeating Republican Ron Struzik in the 2010 election. She worked in education for over 45 years and was recognized by a legislative commendation as an advocate for education, children, seniors, and local communities.",
+  "offices_and_public_service": [
+    "Alabama House District 32 Representative (from 1994)"
+  ],
+  "profession_and_employment": [
+    "Education worker"
+  ],
+  "education": [],
+  "community_and_local_ties": [
+    "Local communities in Alabama",
+    "Educator and community networks"
+  ],
+  "political_profile": [
+    "Democratic Party member (2010)",
+    "Progressive caucus member within the Democratic party (approx. 32nd conservative percentile)"
+  ],
+  "important_caveats": [],
+  "source_urls_used": [
+    "https://doi.org/10.7910/DVN/GZJOT3",
+    "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HJR307-int.pdf"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HJR307-int.pdf",
+    "https://doi.org/10.7910/DVN/GZJOT3"
+  ]
+}

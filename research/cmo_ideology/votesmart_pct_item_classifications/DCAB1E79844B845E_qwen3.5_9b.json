@@ -1,0 +1,11 @@
+{
+  "policy_key": "sex_offender_notification",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting notification to communities about convicted sex offenders moving in is a progressive policy aimed at community safety and transparency.",
+  "evidence_quote": "Inform communities when a convicted sex offender moves into the community.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

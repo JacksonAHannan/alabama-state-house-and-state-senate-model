@@ -1,3 +1,28 @@
 token.env
 .venv/
 __pycache__/
+.pytest_cache/
+*.py[cod]
+/.claude/worktrees/
+/local_archive/
+/artifacts/site/*.html
+
+# Immutable source archives are kept locally and registered by manifests.
+/data/raw/**
+!/data/raw/README.md
+
+# Rebuildable analytical stores and oversized denormalized vote exports.
+*.sqlite
+/data/processed/legislative/legiscan_alabama_individual_votes.csv
+/data/processed/legislative/historical_house_journal_member_votes.csv
+/data/processed/legislative/historical_senate_journal_member_votes.csv
+/data/processed/legislative/historical_journal_member_votes_identified.csv
+
+# Local research download/cache bundles.
+/alabama_legislator_portraits_1994_2022.zip
+/alabama_legislator_portraits_1994_2022/
+/alabama_legislator_portraits_1994_2022_cache/
+
+# Generated execution logs.
+*.log
+*.err.log

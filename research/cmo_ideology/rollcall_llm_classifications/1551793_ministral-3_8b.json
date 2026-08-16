@@ -1,0 +1,20 @@
+{
+  "primary_issue": "gender_identity_restrictions_in_public_k-12_education",
+  "secondary_issues": [
+    "sexual_orientation_restrictions_in_public_k-12_education",
+    "pronoun_use_prohibition_based_on_biological_sex"
+  ],
+  "plain_english_change": "Prohibits classroom discussions about gender identity/sexual orientation in Alabama public schools (preK\u201312), bans teachers from displaying LGBTQ+ flags or insignia, and requires students to be addressed by pronouns matching their biological sex.",
+  "vote_stage": "unknown",
+  "substantive_vote": false,
+  "yea_policy_effect": "unknown/indeterminate",
+  "ideological_valence": "conservative",
+  "confidence": "high",
+  "evidence_quotes": [
+    "prohibit classroom instruction in public school prekindergarten through the twelfth grade related to gender identity or sexual orientation",
+    "No teacher... may display a flag or other insignia relating to or representing sexual orientation or gender identity",
+    "referring to a student by pronouns inconsistent with the student's biological sex"
+  ],
+  "needs_human_review": true,
+  "review_reason": "Vote description refers only to 'Motion to Add Cosponsor,' not final passage or substantive policy vote."
+}

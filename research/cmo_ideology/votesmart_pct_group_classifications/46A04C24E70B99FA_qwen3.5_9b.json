@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_trade_tariffs",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting tariffs on nations with restrictive trade barriers is conventionally a progressive stance in Alabama politics.",
+  "evidence_quote": "Do you support imposing tariffs on products imported from nations that maintain restrictive trade barriers on American products?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

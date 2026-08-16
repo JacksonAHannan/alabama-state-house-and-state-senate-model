@@ -1,0 +1,11 @@
+{
+  "policy_key": "term_limits_state_legislators",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "limiting terms for state legislators (Alabama)",
+  "evidence_quote": "Do you support limiting the number of terms for Alabama state senators and representatives?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

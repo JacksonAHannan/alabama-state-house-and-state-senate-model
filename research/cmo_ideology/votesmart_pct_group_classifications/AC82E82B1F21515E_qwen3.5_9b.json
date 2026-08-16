@@ -1,0 +1,11 @@
+{
+  "policy_key": "healthcare_single_payer",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Support for a government-run single-ppayer healthcare system is conventionally progressive.",
+  "evidence_quote": "Do you support a government-run (single-payer) healthcare program such as Medicare-for All?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

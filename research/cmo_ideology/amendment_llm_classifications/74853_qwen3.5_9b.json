@@ -1,0 +1,16 @@
+{
+  "primary_issue": "business_economic_development",
+  "secondary_issues": [
+    "gambling"
+  ],
+  "plain_english_revision": "The amendment changes the definition of 'video lottery' to explicitly exclude all forms of bingo and pari-mutuel wagering.",
+  "revision_direction": "restricts_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "This amendment restricts the scope of what constitutes a 'video lottery' by excluding specific gambling activities (bingo and pari-mutuel wagering) from that definition.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "On page 4, line 23, after \"chance.\" insert the following: All forms of bingo and pari-mutuel wagering are excluded from the definition of video lottery and video lottery terminal."
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

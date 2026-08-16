@@ -1,0 +1,11 @@
+{
+  "policy_key": "state_legislative_contribution_limits",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The item asks for support on limiting individual contributions to state legislative candidates. This is a standard regulatory question about campaign finance rules rather than an ideological stance; the direction depends entirely on whether one supports or opposes such limits, which varies by context and does not map cleanly to conservative vs progressive without additional framing.",
+  "evidence_quote": "Do you support limiting the following types of contributions to state legislative candidates? Option: 1) Individual",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "health_patient_rights_sue",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting a Patient's Bill of Rights that allows suing for denied claims is conventionally viewed as progressive in the US healthcare debate.",
+  "evidence_quote": "d) Support a Patient's Bill of Rights which includes the right to sue when claims are denied.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

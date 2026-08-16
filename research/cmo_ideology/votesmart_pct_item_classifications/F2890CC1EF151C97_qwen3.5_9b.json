@@ -1,0 +1,11 @@
+{
+  "policy_key": "affirmative_action_public_employment",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supports considering race and sex in public hiring.",
+  "evidence_quote": "State government agencies should take race and sex into account in the following sectors: b) Public employment",
+  "needs_human_review": false,
+  "review_reason": ""
+}

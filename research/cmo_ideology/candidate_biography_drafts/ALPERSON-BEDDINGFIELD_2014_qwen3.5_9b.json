@@ -1,0 +1,35 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "David Beddingfield was the Democratic nominee for Alabama House District 24 in the 2014 election. He recorded approximately +23.2 OOF CMO against Nathaniel Ledbetter, achieving a positive campaign metric despite facing a resource disadvantage compared to his opponent's roughly $145,000 in contributions versus Beddingfield's about $60,000. His candidacy was supported by education-union backing from the Alabama Education Association (AEA). Prior to and during this election cycle, he served as president of the Fort Payne City Board of Education, a role confirmed by an official 2008 school directory and correspondence in April 2014.",
+  "offices_and_public_service": [
+    "President of the Fort Payne City Board of Education (pre-2014 election)"
+  ],
+  "profession_and_employment": [],
+  "education": [],
+  "community_and_local_ties": [
+    "Fort Payne, Alabama"
+  ],
+  "political_profile": [
+    "Democratic nominee",
+    "House District 24 candidate"
+  ],
+  "important_caveats": [
+    "No detailed issue platform has been recovered for Beddingfield.",
+    "Ideological moderation cannot be confirmed due to missing full campaign platform."
+  ],
+  "source_urls_used": [
+    "https://southerntorch.com/16630/",
+    "https://publicunionfacts.com/union/QUxBQkFNQSBFRFVDQVRJT04gQVNTT0NJQVRJT04%3D/alabama-education-association/state-candidates/all-contributions",
+    "https://www2.alabamavotes.gov/downloads/election/2014/primary/2014-Pri-StateCert-DemCand_2014-03-21.pdf",
+    "https://mail.acaletics.com/Directories/Directories/Working%20Files/AL/SDE_Directory.pdf",
+    "https://www.splcenter.org/wp-content/uploads/files/d6_legacy_files/final_letter_to_superintendent_cunningham_re_enrollment_of_jt_-_english.pdf"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://mail.acaletics.com/Directories/Directories/Working%20Files/AL/SDE_Directory.pdf",
+    "https://publicunionfacts.com/union/QUxBQkFNQSBFRFVDQVRJT04gQVNTT0NJQVRJT04%3D/alabama-education-association/state-candidates/all-contributions",
+    "https://southerntorch.com/16630/",
+    "https://www.splcenter.org/wp-content/uploads/files/d6_legacy_files/final_letter_to_superintendent_cunningham_re_enrollment_of_jt_-_english.pdf",
+    "https://www2.alabamavotes.gov/downloads/election/2014/primary/2014-Pri-StateCert-DemCand_2014-03-21.pdf"
+  ]
+}

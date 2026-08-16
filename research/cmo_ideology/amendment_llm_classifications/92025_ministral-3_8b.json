@@ -1,0 +1,19 @@
+{
+  "primary_issue": "infrastructure_energy",
+  "secondary_issues": [
+    "public_education",
+    "school_choice"
+  ],
+  "plain_english_revision": "**Core Change**: Transfers authority over construction/renovation of most state university and college property from the state\u2019s Division of Construction Management (Finance Dept.) to individual institutional governing boards\u2014*except* for K-12 schools and constitutionally protected higher-ed boards. Adds new tornado-safety requirements for dorm/classroom buildings at public colleges, mandates electronic document workflows, and imposes annual reporting on the Division for K-12 projects.",
+  "revision_direction": "decreases_funding",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "**Policy Effect**: Expands institutional autonomy over campus infrastructure decisions while imposing standardized tornado-safety protocols and transparency requirements for state oversight of K-12 construction projects.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "**Devolution of authority** (lines 10\u201317): *\u201cThe governing board of each educational institution\u2026 shall oversee the construction and renovation of state property as it relates to each institution, except that the Division of Construction Management shall continue to oversee construction and renovation of state property relating to public K-12 schools\u2026\u201d*",
+    "**Tornado-safety mandate** (lines 9\u201310): *\u201csafe spaces or hallways at higher education institutions be rated for tornadoes.*\u201d",
+    "**Electronic reporting** (lines 20\u201323): *\u201crequire the Division of Construction Management to provide for the electronic submission and signing of documents\u2026 and make annual reports to the Legislature.\u201d*"
+  ],
+  "needs_human_review": true,
+  "review_reason": "**Fragmentation Risk**: The amendment\u2019s procedural edits (e.g., line deletions/insertions) obscure whether it *expands* or *contracts* overall state oversight. The \u201cexcept\u201d clause for K-12 schools suggests a targeted shift, but the tornado-safety provision could imply *new* state mandates on institutions. Valence depends on unseen original bill language."
+}

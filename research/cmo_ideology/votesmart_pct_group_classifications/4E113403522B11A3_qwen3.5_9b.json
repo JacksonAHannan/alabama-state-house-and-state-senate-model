@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_environment_cleaner_fuels",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting the requirement for cleaner burning fuels to prevent pollution is a progressive environmental stance focused on reducing emissions and improving air quality.",
+  "evidence_quote": "Require the use of cleaner burning fuels in order to prevent pollution.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

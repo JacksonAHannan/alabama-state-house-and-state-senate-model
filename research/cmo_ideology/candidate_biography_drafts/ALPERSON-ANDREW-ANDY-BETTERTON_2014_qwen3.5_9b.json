@@ -1,0 +1,33 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "Andrew 'Andy' Betterton ran for the Alabama House District 2 seat in the 2014 election, losing to Republican incumbent Lynn Greer. He recorded approximately +27.5 OOF CMO despite this loss. His biography includes two terms on the Florence City Board of Education and a second term on the Florence City Council, along with extensive civic-board service. Betterton's platform favored public education, opposed using public tax dollars for private schools, and supported Medicaid expansion.",
+  "offices_and_public_service": [
+    "Florence City Board of Education",
+    "Florence City Council"
+  ],
+  "profession_and_employment": [],
+  "education": [],
+  "community_and_local_ties": [
+    "Florence"
+  ],
+  "political_profile": [
+    "Democrat",
+    "Progressive economic platform"
+  ],
+  "important_caveats": [
+    "Biography site WordPress API dates publication to August 12, 2014 and last modification to August 22, 2014."
+  ],
+  "source_urls_used": [
+    "https://abetterton.com/andy-betterton/",
+    "https://abetterton.com/issues/",
+    "https://www.alreporter.com/2014/02/11/democrats-qualify-in-house-races/"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://abetterton.com/andy-betterton/",
+    "https://abetterton.com/issues/",
+    "https://abetterton.com/wp-json/wp/v2/pages?slug=andy-betterton&_fields=id,date,modified,slug,link,status,title",
+    "https://abetterton.com/wp-json/wp/v2/pages?slug=issues&_fields=id,date,modified,slug,link,status,title",
+    "https://www.alreporter.com/2014/02/11/democrats-qualify-in-house-races/"
+  ]
+}

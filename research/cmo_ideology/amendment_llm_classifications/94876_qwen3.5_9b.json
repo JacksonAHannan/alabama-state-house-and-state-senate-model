@@ -1,0 +1,14 @@
+{
+  "primary_issue": "environment",
+  "secondary_issues": [],
+  "plain_english_revision": "This amendment changes a constitutional provision regarding gaming by adding a condition that if the state legislature does not pass all necessary laws to enable the lottery before voters ratify the change, the entire amendment becomes invalid regardless of how the election vote turns out.",
+  "revision_direction": "indeterminate",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "The candidate position field must describe only the policy effect affirmatively advanced by offering this amendment. If the text is procedural or depends on unseen language (such as a specific legislative agenda not provided), mark direction and valence indeterminate.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "\"In the event the Legislature has failed to pass all required enabling legislation by the date of the ratification vote on this amendment, the amendment shall be void, irrespective of the outcome of the election.\""
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

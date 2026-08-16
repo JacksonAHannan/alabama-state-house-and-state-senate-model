@@ -1,0 +1,751 @@
+person_id,candidate,election_cycle,chamber,district,best_cmo,issue,priority_cell
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,house,53,55.655956689780965,public_education,
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,house,53,55.655956689780965,school_choice,
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,house,53,55.655956689780965,healthcare_medicaid,L:3.0 (3 bills)
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,house,53,55.655956689780965,labor_unions,
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,house,53,55.655956689780965,guns,
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,house,53,55.655956689780965,abortion,L:2.0 (2 bills)
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,house,53,55.655956689780965,taxes_budget,L:16.0 (16 bills)
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,house,53,55.655956689780965,business_economic_development,L:1.0 (1 bills)
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,house,53,55.655956689780965,ethics_government,
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,house,53,55.655956689780965,lgbtq_cultural,
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,house,53,55.655956689780965,gambling,
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,house,53,55.655956689780965,infrastructure_energy,
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,house,53,55.655956689780965,health_social_services,
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,house,53,55.655956689780965,criminal_justice,L:1.0 (1 bills)
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,house,53,55.655956689780965,environment,
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,house,53,55.655956689780965,immigration,
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,house,53,55.655956689780965,rural_hunting,L:1.0 (1 bills)
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,house,53,55.655956689780965,public_employee_benefits,
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,house,53,55.655956689780965,assisted_dying,
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,house,53,55.655956689780965,healthcare_conscience,
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,house,53,55.655956689780965,public_private_partnerships,
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,house,53,55.655956689780965,occupational_licensing,
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,house,53,55.655956689780965,anti_esg_governance,
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,house,53,55.655956689780965,racial_civil_rights,
+ALPERSON-ANTHONY-DANIELS,Anthony Daniels,2014,house,53,55.655956689780965,minimum_wage_worker_pay,
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,house,39,40.756299374806446,public_education,E:7.4 (20 bills)
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,house,39,40.756299374806446,school_choice,
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,house,39,40.756299374806446,healthcare_medicaid,E:0.2 (1 bills)
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,house,39,40.756299374806446,labor_unions,
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,house,39,40.756299374806446,guns,E:1.0 (1 bills)
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,house,39,40.756299374806446,abortion,
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,house,39,40.756299374806446,taxes_budget,E:14.8 (24 bills); L:4.0 (4 bills)
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,house,39,40.756299374806446,business_economic_development,E:1.0 (2 bills)
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,house,39,40.756299374806446,ethics_government,
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,house,39,40.756299374806446,lgbtq_cultural,
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,house,39,40.756299374806446,gambling,
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,house,39,40.756299374806446,infrastructure_energy,E:5.0 (8 bills); L:1.0 (1 bills)
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,house,39,40.756299374806446,health_social_services,
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,house,39,40.756299374806446,criminal_justice,E:2.0 (3 bills)
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,house,39,40.756299374806446,environment,E:0.0 (1 bills)
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,house,39,40.756299374806446,immigration,
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,house,39,40.756299374806446,rural_hunting,E:1.4 (5 bills)
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,house,39,40.756299374806446,public_employee_benefits,E:3.1 (4 bills)
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,house,39,40.756299374806446,assisted_dying,
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,house,39,40.756299374806446,healthcare_conscience,
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,house,39,40.756299374806446,public_private_partnerships,
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,house,39,40.756299374806446,occupational_licensing,
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,house,39,40.756299374806446,anti_esg_governance,
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,house,39,40.756299374806446,racial_civil_rights,
+ALPERSON-RICHARD-LINDSEY,Richard Lindsey,2014,house,39,40.756299374806446,minimum_wage_worker_pay,
+ALPERSON-BARBARA-BIGSBY-BOYD,BARBARA BIGSBY BOYD,2010,house,32,40.16708706446988,public_education,E:0.4 (12 bills); L:2.1 (5 bills)
+ALPERSON-BARBARA-BIGSBY-BOYD,BARBARA BIGSBY BOYD,2010,house,32,40.16708706446988,school_choice,L:1.0 (1 bills)
+ALPERSON-BARBARA-BIGSBY-BOYD,BARBARA BIGSBY BOYD,2010,house,32,40.16708706446988,healthcare_medicaid,E:0.1 (2 bills); L:0.2 (2 bills)
+ALPERSON-BARBARA-BIGSBY-BOYD,BARBARA BIGSBY BOYD,2010,house,32,40.16708706446988,labor_unions,
+ALPERSON-BARBARA-BIGSBY-BOYD,BARBARA BIGSBY BOYD,2010,house,32,40.16708706446988,guns,L:2.0 (2 bills)
+ALPERSON-BARBARA-BIGSBY-BOYD,BARBARA BIGSBY BOYD,2010,house,32,40.16708706446988,abortion,
+ALPERSON-BARBARA-BIGSBY-BOYD,BARBARA BIGSBY BOYD,2010,house,32,40.16708706446988,taxes_budget,E:1.6 (12 bills); L:9.0 (16 bills)
+ALPERSON-BARBARA-BIGSBY-BOYD,BARBARA BIGSBY BOYD,2010,house,32,40.16708706446988,business_economic_development,L:0.0 (1 bills)
+ALPERSON-BARBARA-BIGSBY-BOYD,BARBARA BIGSBY BOYD,2010,house,32,40.16708706446988,ethics_government,L:0.1 (2 bills)
+ALPERSON-BARBARA-BIGSBY-BOYD,BARBARA BIGSBY BOYD,2010,house,32,40.16708706446988,lgbtq_cultural,
+ALPERSON-BARBARA-BIGSBY-BOYD,BARBARA BIGSBY BOYD,2010,house,32,40.16708706446988,gambling,
+ALPERSON-BARBARA-BIGSBY-BOYD,BARBARA BIGSBY BOYD,2010,house,32,40.16708706446988,infrastructure_energy,E:0.0 (2 bills); L:1.0 (2 bills)
+ALPERSON-BARBARA-BIGSBY-BOYD,BARBARA BIGSBY BOYD,2010,house,32,40.16708706446988,health_social_services,
+ALPERSON-BARBARA-BIGSBY-BOYD,BARBARA BIGSBY BOYD,2010,house,32,40.16708706446988,criminal_justice,E:0.4 (4 bills); L:4.7 (8 bills)
+ALPERSON-BARBARA-BIGSBY-BOYD,BARBARA BIGSBY BOYD,2010,house,32,40.16708706446988,environment,E:0.0 (1 bills); L:0.0 (1 bills)
+ALPERSON-BARBARA-BIGSBY-BOYD,BARBARA BIGSBY BOYD,2010,house,32,40.16708706446988,immigration,
+ALPERSON-BARBARA-BIGSBY-BOYD,BARBARA BIGSBY BOYD,2010,house,32,40.16708706446988,rural_hunting,L:0.0 (1 bills)
+ALPERSON-BARBARA-BIGSBY-BOYD,BARBARA BIGSBY BOYD,2010,house,32,40.16708706446988,public_employee_benefits,E:0.1 (1 bills)
+ALPERSON-BARBARA-BIGSBY-BOYD,BARBARA BIGSBY BOYD,2010,house,32,40.16708706446988,assisted_dying,
+ALPERSON-BARBARA-BIGSBY-BOYD,BARBARA BIGSBY BOYD,2010,house,32,40.16708706446988,healthcare_conscience,
+ALPERSON-BARBARA-BIGSBY-BOYD,BARBARA BIGSBY BOYD,2010,house,32,40.16708706446988,public_private_partnerships,
+ALPERSON-BARBARA-BIGSBY-BOYD,BARBARA BIGSBY BOYD,2010,house,32,40.16708706446988,occupational_licensing,
+ALPERSON-BARBARA-BIGSBY-BOYD,BARBARA BIGSBY BOYD,2010,house,32,40.16708706446988,anti_esg_governance,
+ALPERSON-BARBARA-BIGSBY-BOYD,BARBARA BIGSBY BOYD,2010,house,32,40.16708706446988,racial_civil_rights,L:1.0 (1 bills)
+ALPERSON-BARBARA-BIGSBY-BOYD,BARBARA BIGSBY BOYD,2010,house,32,40.16708706446988,minimum_wage_worker_pay,
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,house,27,37.692109000464725,public_education,E:0.1 (7 bills)
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,house,27,37.692109000464725,school_choice,
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,house,27,37.692109000464725,healthcare_medicaid,
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,house,27,37.692109000464725,labor_unions,
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,house,27,37.692109000464725,guns,
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,house,27,37.692109000464725,abortion,
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,house,27,37.692109000464725,taxes_budget,E:1.1 (3 bills)
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,house,27,37.692109000464725,business_economic_development,
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,house,27,37.692109000464725,ethics_government,E:1.1 (2 bills)
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,house,27,37.692109000464725,lgbtq_cultural,
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,house,27,37.692109000464725,gambling,
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,house,27,37.692109000464725,infrastructure_energy,E:0.1 (3 bills)
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,house,27,37.692109000464725,health_social_services,
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,house,27,37.692109000464725,criminal_justice,E:0.9 (5 bills)
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,house,27,37.692109000464725,environment,E:1.2 (6 bills)
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,house,27,37.692109000464725,immigration,
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,house,27,37.692109000464725,rural_hunting,E:0.6 (3 bills)
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,house,27,37.692109000464725,public_employee_benefits,
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,house,27,37.692109000464725,assisted_dying,
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,house,27,37.692109000464725,healthcare_conscience,
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,house,27,37.692109000464725,public_private_partnerships,
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,house,27,37.692109000464725,occupational_licensing,
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,house,27,37.692109000464725,anti_esg_governance,
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,house,27,37.692109000464725,racial_civil_rights,
+ALPERSON-JEFF-MCLAUGHLIN,Jeff McLaughlin,2014,house,27,37.692109000464725,minimum_wage_worker_pay,
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,house,7,37.152067339362816,public_education,E:0.5 (12 bills)
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,house,7,37.152067339362816,school_choice,
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,house,7,37.152067339362816,healthcare_medicaid,
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,house,7,37.152067339362816,labor_unions,
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,house,7,37.152067339362816,guns,
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,house,7,37.152067339362816,abortion,
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,house,7,37.152067339362816,taxes_budget,E:0.6 (9 bills)
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,house,7,37.152067339362816,business_economic_development,
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,house,7,37.152067339362816,ethics_government,
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,house,7,37.152067339362816,lgbtq_cultural,
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,house,7,37.152067339362816,gambling,
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,house,7,37.152067339362816,infrastructure_energy,E:0.6 (4 bills)
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,house,7,37.152067339362816,health_social_services,
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,house,7,37.152067339362816,criminal_justice,E:0.1 (3 bills)
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,house,7,37.152067339362816,environment,E:0.1 (3 bills)
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,house,7,37.152067339362816,immigration,E:0.0 (1 bills)
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,house,7,37.152067339362816,rural_hunting,
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,house,7,37.152067339362816,public_employee_benefits,E:0.1 (1 bills)
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,house,7,37.152067339362816,assisted_dying,
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,house,7,37.152067339362816,healthcare_conscience,
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,house,7,37.152067339362816,public_private_partnerships,
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,house,7,37.152067339362816,occupational_licensing,
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,house,7,37.152067339362816,anti_esg_governance,
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,house,7,37.152067339362816,racial_civil_rights,
+ALPERSON-JOHN-JODY-LETSON,John (Jody) Letson,2014,house,7,37.152067339362816,minimum_wage_worker_pay,
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,senate,6,31.14717422709608,public_education,E:1.9 (15 bills)
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,senate,6,31.14717422709608,school_choice,
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,senate,6,31.14717422709608,healthcare_medicaid,E:2.1 (3 bills)
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,senate,6,31.14717422709608,labor_unions,
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,senate,6,31.14717422709608,guns,E:1.2 (3 bills)
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,senate,6,31.14717422709608,abortion,E:0.2 (1 bills)
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,senate,6,31.14717422709608,taxes_budget,E:6.4 (18 bills)
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,senate,6,31.14717422709608,business_economic_development,E:5.0 (6 bills)
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,senate,6,31.14717422709608,ethics_government,E:1.1 (2 bills)
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,senate,6,31.14717422709608,lgbtq_cultural,
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,senate,6,31.14717422709608,gambling,
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,senate,6,31.14717422709608,infrastructure_energy,E:3.4 (9 bills)
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,senate,6,31.14717422709608,health_social_services,E:1.0 (1 bills)
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,senate,6,31.14717422709608,criminal_justice,E:3.9 (14 bills)
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,senate,6,31.14717422709608,environment,E:1.1 (3 bills)
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,senate,6,31.14717422709608,immigration,E:0.0 (1 bills)
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,senate,6,31.14717422709608,rural_hunting,E:4.1 (8 bills)
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,senate,6,31.14717422709608,public_employee_benefits,E:1.1 (2 bills)
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,senate,6,31.14717422709608,assisted_dying,
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,senate,6,31.14717422709608,healthcare_conscience,
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,senate,6,31.14717422709608,public_private_partnerships,
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,senate,6,31.14717422709608,occupational_licensing,
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,senate,6,31.14717422709608,anti_esg_governance,
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,senate,6,31.14717422709608,racial_civil_rights,
+ALPERSON-JOHNNY-MACK-MORROW,Johnny Mack Morrow,2018,senate,6,31.14717422709608,minimum_wage_worker_pay,
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,house,103,29.89025236951064,public_education,L:3.0 (3 bills)
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,house,103,29.89025236951064,school_choice,
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,house,103,29.89025236951064,healthcare_medicaid,L:1.0 (1 bills)
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,house,103,29.89025236951064,labor_unions,
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,house,103,29.89025236951064,guns,L:6.0 (6 bills)
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,house,103,29.89025236951064,abortion,
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,house,103,29.89025236951064,taxes_budget,L:8.0 (8 bills)
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,house,103,29.89025236951064,business_economic_development,
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,house,103,29.89025236951064,ethics_government,
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,house,103,29.89025236951064,lgbtq_cultural,
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,house,103,29.89025236951064,gambling,
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,house,103,29.89025236951064,infrastructure_energy,
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,house,103,29.89025236951064,health_social_services,
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,house,103,29.89025236951064,criminal_justice,L:5.0 (5 bills)
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,house,103,29.89025236951064,environment,
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,house,103,29.89025236951064,immigration,
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,house,103,29.89025236951064,rural_hunting,
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,house,103,29.89025236951064,public_employee_benefits,L:1.0 (1 bills)
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,house,103,29.89025236951064,assisted_dying,
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,house,103,29.89025236951064,healthcare_conscience,
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,house,103,29.89025236951064,public_private_partnerships,
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,house,103,29.89025236951064,occupational_licensing,
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,house,103,29.89025236951064,anti_esg_governance,
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,house,103,29.89025236951064,racial_civil_rights,
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,house,103,29.89025236951064,minimum_wage_worker_pay,
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,house,5,29.729306552658905,public_education,E:0.2 (8 bills)
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,house,5,29.729306552658905,school_choice,
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,house,5,29.729306552658905,healthcare_medicaid,
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,house,5,29.729306552658905,labor_unions,
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,house,5,29.729306552658905,guns,
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,house,5,29.729306552658905,abortion,
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,house,5,29.729306552658905,taxes_budget,E:0.4 (3 bills)
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,house,5,29.729306552658905,business_economic_development,
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,house,5,29.729306552658905,ethics_government,
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,house,5,29.729306552658905,lgbtq_cultural,
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,house,5,29.729306552658905,gambling,
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,house,5,29.729306552658905,infrastructure_energy,E:0.1 (3 bills)
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,house,5,29.729306552658905,health_social_services,
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,house,5,29.729306552658905,criminal_justice,E:0.2 (6 bills)
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,house,5,29.729306552658905,environment,E:0.1 (3 bills)
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,house,5,29.729306552658905,immigration,E:0.1 (2 bills)
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,house,5,29.729306552658905,rural_hunting,
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,house,5,29.729306552658905,public_employee_benefits,
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,house,5,29.729306552658905,assisted_dying,
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,house,5,29.729306552658905,healthcare_conscience,
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,house,5,29.729306552658905,public_private_partnerships,
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,house,5,29.729306552658905,occupational_licensing,
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,house,5,29.729306552658905,anti_esg_governance,
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,house,5,29.729306552658905,racial_civil_rights,
+ALPERSON-HENRY-A-WHITE,Henry A. White,2014,house,5,29.729306552658905,minimum_wage_worker_pay,
+ALPERSON-LARRY-MEANS,Larry Means,2014,senate,10,29.13324637426904,public_education,E:1.1 (5 bills)
+ALPERSON-LARRY-MEANS,Larry Means,2014,senate,10,29.13324637426904,school_choice,
+ALPERSON-LARRY-MEANS,Larry Means,2014,senate,10,29.13324637426904,healthcare_medicaid,E:1.1 (2 bills)
+ALPERSON-LARRY-MEANS,Larry Means,2014,senate,10,29.13324637426904,labor_unions,
+ALPERSON-LARRY-MEANS,Larry Means,2014,senate,10,29.13324637426904,guns,
+ALPERSON-LARRY-MEANS,Larry Means,2014,senate,10,29.13324637426904,abortion,E:1.0 (1 bills)
+ALPERSON-LARRY-MEANS,Larry Means,2014,senate,10,29.13324637426904,taxes_budget,E:4.5 (11 bills)
+ALPERSON-LARRY-MEANS,Larry Means,2014,senate,10,29.13324637426904,business_economic_development,E:0.0 (1 bills)
+ALPERSON-LARRY-MEANS,Larry Means,2014,senate,10,29.13324637426904,ethics_government,E:1.0 (1 bills)
+ALPERSON-LARRY-MEANS,Larry Means,2014,senate,10,29.13324637426904,lgbtq_cultural,
+ALPERSON-LARRY-MEANS,Larry Means,2014,senate,10,29.13324637426904,gambling,
+ALPERSON-LARRY-MEANS,Larry Means,2014,senate,10,29.13324637426904,infrastructure_energy,E:0.1 (3 bills)
+ALPERSON-LARRY-MEANS,Larry Means,2014,senate,10,29.13324637426904,health_social_services,E:0.1 (2 bills)
+ALPERSON-LARRY-MEANS,Larry Means,2014,senate,10,29.13324637426904,criminal_justice,E:1.1 (3 bills)
+ALPERSON-LARRY-MEANS,Larry Means,2014,senate,10,29.13324637426904,environment,E:1.0 (1 bills)
+ALPERSON-LARRY-MEANS,Larry Means,2014,senate,10,29.13324637426904,immigration,
+ALPERSON-LARRY-MEANS,Larry Means,2014,senate,10,29.13324637426904,rural_hunting,E:1.1 (2 bills)
+ALPERSON-LARRY-MEANS,Larry Means,2014,senate,10,29.13324637426904,public_employee_benefits,
+ALPERSON-LARRY-MEANS,Larry Means,2014,senate,10,29.13324637426904,assisted_dying,E:0.1 (1 bills)
+ALPERSON-LARRY-MEANS,Larry Means,2014,senate,10,29.13324637426904,healthcare_conscience,
+ALPERSON-LARRY-MEANS,Larry Means,2014,senate,10,29.13324637426904,public_private_partnerships,
+ALPERSON-LARRY-MEANS,Larry Means,2014,senate,10,29.13324637426904,occupational_licensing,
+ALPERSON-LARRY-MEANS,Larry Means,2014,senate,10,29.13324637426904,anti_esg_governance,
+ALPERSON-LARRY-MEANS,Larry Means,2014,senate,10,29.13324637426904,racial_civil_rights,E:0.1 (1 bills)
+ALPERSON-LARRY-MEANS,Larry Means,2014,senate,10,29.13324637426904,minimum_wage_worker_pay,
+ALPERSON-TAMMY-L-IRONS,TAMMY L. IRONS,2010,senate,1,27.9658213674507,public_education,E:0.6 (9 bills); L:0.4 (8 bills)
+ALPERSON-TAMMY-L-IRONS,TAMMY L. IRONS,2010,senate,1,27.9658213674507,school_choice,
+ALPERSON-TAMMY-L-IRONS,TAMMY L. IRONS,2010,senate,1,27.9658213674507,healthcare_medicaid,L:1.2 (3 bills)
+ALPERSON-TAMMY-L-IRONS,TAMMY L. IRONS,2010,senate,1,27.9658213674507,labor_unions,
+ALPERSON-TAMMY-L-IRONS,TAMMY L. IRONS,2010,senate,1,27.9658213674507,guns,L:0.2 (1 bills)
+ALPERSON-TAMMY-L-IRONS,TAMMY L. IRONS,2010,senate,1,27.9658213674507,abortion,
+ALPERSON-TAMMY-L-IRONS,TAMMY L. IRONS,2010,senate,1,27.9658213674507,taxes_budget,E:0.1 (3 bills); L:9.4 (27 bills)
+ALPERSON-TAMMY-L-IRONS,TAMMY L. IRONS,2010,senate,1,27.9658213674507,business_economic_development,L:1.3 (3 bills)
+ALPERSON-TAMMY-L-IRONS,TAMMY L. IRONS,2010,senate,1,27.9658213674507,ethics_government,L:0.6 (5 bills)
+ALPERSON-TAMMY-L-IRONS,TAMMY L. IRONS,2010,senate,1,27.9658213674507,lgbtq_cultural,
+ALPERSON-TAMMY-L-IRONS,TAMMY L. IRONS,2010,senate,1,27.9658213674507,gambling,
+ALPERSON-TAMMY-L-IRONS,TAMMY L. IRONS,2010,senate,1,27.9658213674507,infrastructure_energy,E:2.3 (8 bills); L:2.2 (5 bills)
+ALPERSON-TAMMY-L-IRONS,TAMMY L. IRONS,2010,senate,1,27.9658213674507,health_social_services,L:2.1 (3 bills)
+ALPERSON-TAMMY-L-IRONS,TAMMY L. IRONS,2010,senate,1,27.9658213674507,criminal_justice,E:0.4 (6 bills); L:4.3 (11 bills)
+ALPERSON-TAMMY-L-IRONS,TAMMY L. IRONS,2010,senate,1,27.9658213674507,environment,E:0.1 (3 bills); L:0.2 (2 bills)
+ALPERSON-TAMMY-L-IRONS,TAMMY L. IRONS,2010,senate,1,27.9658213674507,immigration,E:0.0 (1 bills)
+ALPERSON-TAMMY-L-IRONS,TAMMY L. IRONS,2010,senate,1,27.9658213674507,rural_hunting,E:1.0 (1 bills); L:0.1 (1 bills)
+ALPERSON-TAMMY-L-IRONS,TAMMY L. IRONS,2010,senate,1,27.9658213674507,public_employee_benefits,L:0.1 (1 bills)
+ALPERSON-TAMMY-L-IRONS,TAMMY L. IRONS,2010,senate,1,27.9658213674507,assisted_dying,
+ALPERSON-TAMMY-L-IRONS,TAMMY L. IRONS,2010,senate,1,27.9658213674507,healthcare_conscience,
+ALPERSON-TAMMY-L-IRONS,TAMMY L. IRONS,2010,senate,1,27.9658213674507,public_private_partnerships,
+ALPERSON-TAMMY-L-IRONS,TAMMY L. IRONS,2010,senate,1,27.9658213674507,occupational_licensing,
+ALPERSON-TAMMY-L-IRONS,TAMMY L. IRONS,2010,senate,1,27.9658213674507,anti_esg_governance,
+ALPERSON-TAMMY-L-IRONS,TAMMY L. IRONS,2010,senate,1,27.9658213674507,racial_civil_rights,
+ALPERSON-TAMMY-L-IRONS,TAMMY L. IRONS,2010,senate,1,27.9658213674507,minimum_wage_worker_pay,L:0.1 (1 bills)
+ALPERSON-MARC-KEAHEY,MARC KEAHEY,2010,senate,22,27.95594433082924,public_education,E:0.4 (6 bills); L:2.9 (10 bills)
+ALPERSON-MARC-KEAHEY,MARC KEAHEY,2010,senate,22,27.95594433082924,school_choice,
+ALPERSON-MARC-KEAHEY,MARC KEAHEY,2010,senate,22,27.95594433082924,healthcare_medicaid,E:0.1 (1 bills); L:0.3 (3 bills)
+ALPERSON-MARC-KEAHEY,MARC KEAHEY,2010,senate,22,27.95594433082924,labor_unions,
+ALPERSON-MARC-KEAHEY,MARC KEAHEY,2010,senate,22,27.95594433082924,guns,E:1.0 (1 bills); L:0.2 (1 bills)
+ALPERSON-MARC-KEAHEY,MARC KEAHEY,2010,senate,22,27.95594433082924,abortion,
+ALPERSON-MARC-KEAHEY,MARC KEAHEY,2010,senate,22,27.95594433082924,taxes_budget,E:3.0 (10 bills); L:6.5 (25 bills)
+ALPERSON-MARC-KEAHEY,MARC KEAHEY,2010,senate,22,27.95594433082924,business_economic_development,E:0.0 (1 bills); L:1.9 (4 bills)
+ALPERSON-MARC-KEAHEY,MARC KEAHEY,2010,senate,22,27.95594433082924,ethics_government,E:0.1 (1 bills); L:3.2 (8 bills)
+ALPERSON-MARC-KEAHEY,MARC KEAHEY,2010,senate,22,27.95594433082924,lgbtq_cultural,
+ALPERSON-MARC-KEAHEY,MARC KEAHEY,2010,senate,22,27.95594433082924,gambling,E:1.0 (1 bills)
+ALPERSON-MARC-KEAHEY,MARC KEAHEY,2010,senate,22,27.95594433082924,infrastructure_energy,E:0.2 (4 bills); L:1.3 (5 bills)
+ALPERSON-MARC-KEAHEY,MARC KEAHEY,2010,senate,22,27.95594433082924,health_social_services,E:0.1 (2 bills); L:0.1 (2 bills)
+ALPERSON-MARC-KEAHEY,MARC KEAHEY,2010,senate,22,27.95594433082924,criminal_justice,E:1.0 (2 bills); L:4.7 (8 bills)
+ALPERSON-MARC-KEAHEY,MARC KEAHEY,2010,senate,22,27.95594433082924,environment,L:2.2 (3 bills)
+ALPERSON-MARC-KEAHEY,MARC KEAHEY,2010,senate,22,27.95594433082924,immigration,
+ALPERSON-MARC-KEAHEY,MARC KEAHEY,2010,senate,22,27.95594433082924,rural_hunting,E:1.1 (2 bills); L:1.3 (3 bills)
+ALPERSON-MARC-KEAHEY,MARC KEAHEY,2010,senate,22,27.95594433082924,public_employee_benefits,L:1.1 (2 bills)
+ALPERSON-MARC-KEAHEY,MARC KEAHEY,2010,senate,22,27.95594433082924,assisted_dying,E:0.1 (1 bills)
+ALPERSON-MARC-KEAHEY,MARC KEAHEY,2010,senate,22,27.95594433082924,healthcare_conscience,
+ALPERSON-MARC-KEAHEY,MARC KEAHEY,2010,senate,22,27.95594433082924,public_private_partnerships,E:0.1 (1 bills)
+ALPERSON-MARC-KEAHEY,MARC KEAHEY,2010,senate,22,27.95594433082924,occupational_licensing,
+ALPERSON-MARC-KEAHEY,MARC KEAHEY,2010,senate,22,27.95594433082924,anti_esg_governance,
+ALPERSON-MARC-KEAHEY,MARC KEAHEY,2010,senate,22,27.95594433082924,racial_civil_rights,
+ALPERSON-MARC-KEAHEY,MARC KEAHEY,2010,senate,22,27.95594433082924,minimum_wage_worker_pay,L:0.1 (1 bills)
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2,27.492379331342505,public_education,
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2,27.492379331342505,school_choice,
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2,27.492379331342505,healthcare_medicaid,
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2,27.492379331342505,labor_unions,
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2,27.492379331342505,guns,
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2,27.492379331342505,abortion,
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2,27.492379331342505,taxes_budget,
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2,27.492379331342505,business_economic_development,
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2,27.492379331342505,ethics_government,
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2,27.492379331342505,lgbtq_cultural,
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2,27.492379331342505,gambling,
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2,27.492379331342505,infrastructure_energy,
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2,27.492379331342505,health_social_services,
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2,27.492379331342505,criminal_justice,
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2,27.492379331342505,environment,
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2,27.492379331342505,immigration,
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2,27.492379331342505,rural_hunting,
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2,27.492379331342505,public_employee_benefits,
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2,27.492379331342505,assisted_dying,
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2,27.492379331342505,healthcare_conscience,
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2,27.492379331342505,public_private_partnerships,
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2,27.492379331342505,occupational_licensing,
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2,27.492379331342505,anti_esg_governance,
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2,27.492379331342505,racial_civil_rights,
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2,27.492379331342505,minimum_wage_worker_pay,
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,48,24.098850085602905,public_education,
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,48,24.098850085602905,school_choice,
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,48,24.098850085602905,healthcare_medicaid,
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,48,24.098850085602905,labor_unions,
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,48,24.098850085602905,guns,
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,48,24.098850085602905,abortion,
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,48,24.098850085602905,taxes_budget,
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,48,24.098850085602905,business_economic_development,
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,48,24.098850085602905,ethics_government,
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,48,24.098850085602905,lgbtq_cultural,
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,48,24.098850085602905,gambling,
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,48,24.098850085602905,infrastructure_energy,
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,48,24.098850085602905,health_social_services,
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,48,24.098850085602905,criminal_justice,
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,48,24.098850085602905,environment,
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,48,24.098850085602905,immigration,
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,48,24.098850085602905,rural_hunting,
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,48,24.098850085602905,public_employee_benefits,
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,48,24.098850085602905,assisted_dying,
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,48,24.098850085602905,healthcare_conscience,
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,48,24.098850085602905,public_private_partnerships,
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,48,24.098850085602905,occupational_licensing,
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,48,24.098850085602905,anti_esg_governance,
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,48,24.098850085602905,racial_civil_rights,
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,48,24.098850085602905,minimum_wage_worker_pay,
+ALPERSON-ALAN-HARPER,ALAN HARPER,2010,house,61,24.05857612987002,public_education,E:0.5 (10 bills); L:0.3 (5 bills)
+ALPERSON-ALAN-HARPER,ALAN HARPER,2010,house,61,24.05857612987002,school_choice,
+ALPERSON-ALAN-HARPER,ALAN HARPER,2010,house,61,24.05857612987002,healthcare_medicaid,L:0.0 (1 bills)
+ALPERSON-ALAN-HARPER,ALAN HARPER,2010,house,61,24.05857612987002,labor_unions,
+ALPERSON-ALAN-HARPER,ALAN HARPER,2010,house,61,24.05857612987002,guns,L:2.0 (3 bills)
+ALPERSON-ALAN-HARPER,ALAN HARPER,2010,house,61,24.05857612987002,abortion,
+ALPERSON-ALAN-HARPER,ALAN HARPER,2010,house,61,24.05857612987002,taxes_budget,E:1.2 (7 bills); L:2.7 (9 bills)
+ALPERSON-ALAN-HARPER,ALAN HARPER,2010,house,61,24.05857612987002,business_economic_development,L:2.0 (6 bills)
+ALPERSON-ALAN-HARPER,ALAN HARPER,2010,house,61,24.05857612987002,ethics_government,L:0.2 (3 bills)
+ALPERSON-ALAN-HARPER,ALAN HARPER,2010,house,61,24.05857612987002,lgbtq_cultural,
+ALPERSON-ALAN-HARPER,ALAN HARPER,2010,house,61,24.05857612987002,gambling,L:2.0 (2 bills)
+ALPERSON-ALAN-HARPER,ALAN HARPER,2010,house,61,24.05857612987002,infrastructure_energy,E:0.1 (3 bills); L:0.0 (1 bills)
+ALPERSON-ALAN-HARPER,ALAN HARPER,2010,house,61,24.05857612987002,health_social_services,E:0.5 (2 bills)
+ALPERSON-ALAN-HARPER,ALAN HARPER,2010,house,61,24.05857612987002,criminal_justice,E:2.0 (7 bills); L:2.0 (4 bills)
+ALPERSON-ALAN-HARPER,ALAN HARPER,2010,house,61,24.05857612987002,environment,E:0.1 (2 bills); L:0.1 (1 bills)
+ALPERSON-ALAN-HARPER,ALAN HARPER,2010,house,61,24.05857612987002,immigration,
+ALPERSON-ALAN-HARPER,ALAN HARPER,2010,house,61,24.05857612987002,rural_hunting,E:0.1 (2 bills)
+ALPERSON-ALAN-HARPER,ALAN HARPER,2010,house,61,24.05857612987002,public_employee_benefits,
+ALPERSON-ALAN-HARPER,ALAN HARPER,2010,house,61,24.05857612987002,assisted_dying,
+ALPERSON-ALAN-HARPER,ALAN HARPER,2010,house,61,24.05857612987002,healthcare_conscience,
+ALPERSON-ALAN-HARPER,ALAN HARPER,2010,house,61,24.05857612987002,public_private_partnerships,E:0.0 (1 bills)
+ALPERSON-ALAN-HARPER,ALAN HARPER,2010,house,61,24.05857612987002,occupational_licensing,
+ALPERSON-ALAN-HARPER,ALAN HARPER,2010,house,61,24.05857612987002,anti_esg_governance,
+ALPERSON-ALAN-HARPER,ALAN HARPER,2010,house,61,24.05857612987002,racial_civil_rights,
+ALPERSON-ALAN-HARPER,ALAN HARPER,2010,house,61,24.05857612987002,minimum_wage_worker_pay,
+ALPERSON-CRAIG-FORD,Craig Ford,2014,house,28,23.68662617909687,public_education,E:5.0 (16 bills); L:9.0 (9 bills)
+ALPERSON-CRAIG-FORD,Craig Ford,2014,house,28,23.68662617909687,school_choice,
+ALPERSON-CRAIG-FORD,Craig Ford,2014,house,28,23.68662617909687,healthcare_medicaid,E:0.0 (1 bills); L:2.0 (2 bills)
+ALPERSON-CRAIG-FORD,Craig Ford,2014,house,28,23.68662617909687,labor_unions,L:1.0 (1 bills)
+ALPERSON-CRAIG-FORD,Craig Ford,2014,house,28,23.68662617909687,guns,E:5.1 (6 bills)
+ALPERSON-CRAIG-FORD,Craig Ford,2014,house,28,23.68662617909687,abortion,E:0.2 (1 bills)
+ALPERSON-CRAIG-FORD,Craig Ford,2014,house,28,23.68662617909687,taxes_budget,E:10.0 (19 bills); L:10.0 (10 bills)
+ALPERSON-CRAIG-FORD,Craig Ford,2014,house,28,23.68662617909687,business_economic_development,E:1.0 (3 bills)
+ALPERSON-CRAIG-FORD,Craig Ford,2014,house,28,23.68662617909687,ethics_government,E:2.0 (3 bills)
+ALPERSON-CRAIG-FORD,Craig Ford,2014,house,28,23.68662617909687,lgbtq_cultural,L:1.0 (1 bills)
+ALPERSON-CRAIG-FORD,Craig Ford,2014,house,28,23.68662617909687,gambling,E:2.0 (2 bills); L:10.0 (10 bills)
+ALPERSON-CRAIG-FORD,Craig Ford,2014,house,28,23.68662617909687,infrastructure_energy,E:1.6 (6 bills); L:1.0 (1 bills)
+ALPERSON-CRAIG-FORD,Craig Ford,2014,house,28,23.68662617909687,health_social_services,E:0.0 (1 bills); L:1.0 (1 bills)
+ALPERSON-CRAIG-FORD,Craig Ford,2014,house,28,23.68662617909687,criminal_justice,E:4.0 (8 bills); L:3.0 (3 bills)
+ALPERSON-CRAIG-FORD,Craig Ford,2014,house,28,23.68662617909687,environment,E:1.1 (4 bills); L:1.0 (1 bills)
+ALPERSON-CRAIG-FORD,Craig Ford,2014,house,28,23.68662617909687,immigration,E:0.4 (2 bills)
+ALPERSON-CRAIG-FORD,Craig Ford,2014,house,28,23.68662617909687,rural_hunting,E:2.5 (4 bills)
+ALPERSON-CRAIG-FORD,Craig Ford,2014,house,28,23.68662617909687,public_employee_benefits,E:1.0 (1 bills); L:3.0 (3 bills)
+ALPERSON-CRAIG-FORD,Craig Ford,2014,house,28,23.68662617909687,assisted_dying,
+ALPERSON-CRAIG-FORD,Craig Ford,2014,house,28,23.68662617909687,healthcare_conscience,
+ALPERSON-CRAIG-FORD,Craig Ford,2014,house,28,23.68662617909687,public_private_partnerships,
+ALPERSON-CRAIG-FORD,Craig Ford,2014,house,28,23.68662617909687,occupational_licensing,
+ALPERSON-CRAIG-FORD,Craig Ford,2014,house,28,23.68662617909687,anti_esg_governance,
+ALPERSON-CRAIG-FORD,Craig Ford,2014,house,28,23.68662617909687,racial_civil_rights,L:1.0 (1 bills)
+ALPERSON-CRAIG-FORD,Craig Ford,2014,house,28,23.68662617909687,minimum_wage_worker_pay,
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,26,23.543047828356347,public_education,
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,26,23.543047828356347,school_choice,
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,26,23.543047828356347,healthcare_medicaid,
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,26,23.543047828356347,labor_unions,
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,26,23.543047828356347,guns,
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,26,23.543047828356347,abortion,
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,26,23.543047828356347,taxes_budget,L:3.0 (3 bills)
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,26,23.543047828356347,business_economic_development,
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,26,23.543047828356347,ethics_government,
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,26,23.543047828356347,lgbtq_cultural,
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,26,23.543047828356347,gambling,
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,26,23.543047828356347,infrastructure_energy,L:1.0 (1 bills)
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,26,23.543047828356347,health_social_services,
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,26,23.543047828356347,criminal_justice,L:1.0 (1 bills)
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,26,23.543047828356347,environment,
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,26,23.543047828356347,immigration,
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,26,23.543047828356347,rural_hunting,
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,26,23.543047828356347,public_employee_benefits,
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,26,23.543047828356347,assisted_dying,
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,26,23.543047828356347,healthcare_conscience,
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,26,23.543047828356347,public_private_partnerships,
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,26,23.543047828356347,occupational_licensing,
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,26,23.543047828356347,anti_esg_governance,
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,26,23.543047828356347,racial_civil_rights,
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,26,23.543047828356347,minimum_wage_worker_pay,
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,24,23.220259733713803,public_education,
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,24,23.220259733713803,school_choice,
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,24,23.220259733713803,healthcare_medicaid,
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,24,23.220259733713803,labor_unions,
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,24,23.220259733713803,guns,
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,24,23.220259733713803,abortion,
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,24,23.220259733713803,taxes_budget,
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,24,23.220259733713803,business_economic_development,
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,24,23.220259733713803,ethics_government,
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,24,23.220259733713803,lgbtq_cultural,
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,24,23.220259733713803,gambling,
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,24,23.220259733713803,infrastructure_energy,
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,24,23.220259733713803,health_social_services,
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,24,23.220259733713803,criminal_justice,
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,24,23.220259733713803,environment,
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,24,23.220259733713803,immigration,
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,24,23.220259733713803,rural_hunting,
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,24,23.220259733713803,public_employee_benefits,
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,24,23.220259733713803,assisted_dying,
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,24,23.220259733713803,healthcare_conscience,
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,24,23.220259733713803,public_private_partnerships,
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,24,23.220259733713803,occupational_licensing,
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,24,23.220259733713803,anti_esg_governance,
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,24,23.220259733713803,racial_civil_rights,
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,24,23.220259733713803,minimum_wage_worker_pay,
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,8,22.719643209401934,public_education,
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,8,22.719643209401934,school_choice,
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,8,22.719643209401934,healthcare_medicaid,
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,8,22.719643209401934,labor_unions,
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,8,22.719643209401934,guns,
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,8,22.719643209401934,abortion,
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,8,22.719643209401934,taxes_budget,
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,8,22.719643209401934,business_economic_development,
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,8,22.719643209401934,ethics_government,
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,8,22.719643209401934,lgbtq_cultural,
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,8,22.719643209401934,gambling,
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,8,22.719643209401934,infrastructure_energy,
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,8,22.719643209401934,health_social_services,
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,8,22.719643209401934,criminal_justice,
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,8,22.719643209401934,environment,
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,8,22.719643209401934,immigration,
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,8,22.719643209401934,rural_hunting,
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,8,22.719643209401934,public_employee_benefits,
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,8,22.719643209401934,assisted_dying,
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,8,22.719643209401934,healthcare_conscience,
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,8,22.719643209401934,public_private_partnerships,
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,8,22.719643209401934,occupational_licensing,
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,8,22.719643209401934,anti_esg_governance,
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,8,22.719643209401934,racial_civil_rights,
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,8,22.719643209401934,minimum_wage_worker_pay,
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,house,46,22.34478427253325,public_education,
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,house,46,22.34478427253325,school_choice,
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,house,46,22.34478427253325,healthcare_medicaid,
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,house,46,22.34478427253325,labor_unions,
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,house,46,22.34478427253325,guns,
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,house,46,22.34478427253325,abortion,
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,house,46,22.34478427253325,taxes_budget,
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,house,46,22.34478427253325,business_economic_development,
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,house,46,22.34478427253325,ethics_government,
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,house,46,22.34478427253325,lgbtq_cultural,
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,house,46,22.34478427253325,gambling,
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,house,46,22.34478427253325,infrastructure_energy,
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,house,46,22.34478427253325,health_social_services,
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,house,46,22.34478427253325,criminal_justice,
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,house,46,22.34478427253325,environment,
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,house,46,22.34478427253325,immigration,
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,house,46,22.34478427253325,rural_hunting,
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,house,46,22.34478427253325,public_employee_benefits,
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,house,46,22.34478427253325,assisted_dying,
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,house,46,22.34478427253325,healthcare_conscience,
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,house,46,22.34478427253325,public_private_partnerships,
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,house,46,22.34478427253325,occupational_licensing,
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,house,46,22.34478427253325,anti_esg_governance,
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,house,46,22.34478427253325,racial_civil_rights,
+ALPERSON-FELICIA-STEWART,Felicia Stewart,2018,house,46,22.34478427253325,minimum_wage_worker_pay,
+ALPERSON-NATHANIEL-LEDBETTER,NATHANIEL LEDBETTER,2010,house,24,22.120996946160894,public_education,L:3.0 (3 bills)
+ALPERSON-NATHANIEL-LEDBETTER,NATHANIEL LEDBETTER,2010,house,24,22.120996946160894,school_choice,
+ALPERSON-NATHANIEL-LEDBETTER,NATHANIEL LEDBETTER,2010,house,24,22.120996946160894,healthcare_medicaid,L:2.0 (2 bills)
+ALPERSON-NATHANIEL-LEDBETTER,NATHANIEL LEDBETTER,2010,house,24,22.120996946160894,labor_unions,
+ALPERSON-NATHANIEL-LEDBETTER,NATHANIEL LEDBETTER,2010,house,24,22.120996946160894,guns,L:1.0 (1 bills)
+ALPERSON-NATHANIEL-LEDBETTER,NATHANIEL LEDBETTER,2010,house,24,22.120996946160894,abortion,
+ALPERSON-NATHANIEL-LEDBETTER,NATHANIEL LEDBETTER,2010,house,24,22.120996946160894,taxes_budget,L:8.0 (8 bills)
+ALPERSON-NATHANIEL-LEDBETTER,NATHANIEL LEDBETTER,2010,house,24,22.120996946160894,business_economic_development,L:2.0 (2 bills)
+ALPERSON-NATHANIEL-LEDBETTER,NATHANIEL LEDBETTER,2010,house,24,22.120996946160894,ethics_government,
+ALPERSON-NATHANIEL-LEDBETTER,NATHANIEL LEDBETTER,2010,house,24,22.120996946160894,lgbtq_cultural,
+ALPERSON-NATHANIEL-LEDBETTER,NATHANIEL LEDBETTER,2010,house,24,22.120996946160894,gambling,
+ALPERSON-NATHANIEL-LEDBETTER,NATHANIEL LEDBETTER,2010,house,24,22.120996946160894,infrastructure_energy,L:4.0 (4 bills)
+ALPERSON-NATHANIEL-LEDBETTER,NATHANIEL LEDBETTER,2010,house,24,22.120996946160894,health_social_services,L:5.0 (5 bills)
+ALPERSON-NATHANIEL-LEDBETTER,NATHANIEL LEDBETTER,2010,house,24,22.120996946160894,criminal_justice,L:3.0 (3 bills)
+ALPERSON-NATHANIEL-LEDBETTER,NATHANIEL LEDBETTER,2010,house,24,22.120996946160894,environment,L:1.0 (1 bills)
+ALPERSON-NATHANIEL-LEDBETTER,NATHANIEL LEDBETTER,2010,house,24,22.120996946160894,immigration,
+ALPERSON-NATHANIEL-LEDBETTER,NATHANIEL LEDBETTER,2010,house,24,22.120996946160894,rural_hunting,
+ALPERSON-NATHANIEL-LEDBETTER,NATHANIEL LEDBETTER,2010,house,24,22.120996946160894,public_employee_benefits,
+ALPERSON-NATHANIEL-LEDBETTER,NATHANIEL LEDBETTER,2010,house,24,22.120996946160894,assisted_dying,
+ALPERSON-NATHANIEL-LEDBETTER,NATHANIEL LEDBETTER,2010,house,24,22.120996946160894,healthcare_conscience,
+ALPERSON-NATHANIEL-LEDBETTER,NATHANIEL LEDBETTER,2010,house,24,22.120996946160894,public_private_partnerships,
+ALPERSON-NATHANIEL-LEDBETTER,NATHANIEL LEDBETTER,2010,house,24,22.120996946160894,occupational_licensing,
+ALPERSON-NATHANIEL-LEDBETTER,NATHANIEL LEDBETTER,2010,house,24,22.120996946160894,anti_esg_governance,
+ALPERSON-NATHANIEL-LEDBETTER,NATHANIEL LEDBETTER,2010,house,24,22.120996946160894,racial_civil_rights,
+ALPERSON-NATHANIEL-LEDBETTER,NATHANIEL LEDBETTER,2010,house,24,22.120996946160894,minimum_wage_worker_pay,
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,26,21.631200749515003,public_education,
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,26,21.631200749515003,school_choice,
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,26,21.631200749515003,healthcare_medicaid,
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,26,21.631200749515003,labor_unions,
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,26,21.631200749515003,guns,
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,26,21.631200749515003,abortion,
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,26,21.631200749515003,taxes_budget,
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,26,21.631200749515003,business_economic_development,
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,26,21.631200749515003,ethics_government,
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,26,21.631200749515003,lgbtq_cultural,
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,26,21.631200749515003,gambling,
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,26,21.631200749515003,infrastructure_energy,
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,26,21.631200749515003,health_social_services,
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,26,21.631200749515003,criminal_justice,
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,26,21.631200749515003,environment,
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,26,21.631200749515003,immigration,
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,26,21.631200749515003,rural_hunting,
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,26,21.631200749515003,public_employee_benefits,
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,26,21.631200749515003,assisted_dying,
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,26,21.631200749515003,healthcare_conscience,
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,26,21.631200749515003,public_private_partnerships,
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,26,21.631200749515003,occupational_licensing,
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,26,21.631200749515003,anti_esg_governance,
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,26,21.631200749515003,racial_civil_rights,
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,26,21.631200749515003,minimum_wage_worker_pay,
+ALPERSON-NAPOLEON-BRACY-JR,"NAPOLEON BRACY, JR.",2010,house,98,20.69524874961392,public_education,L:3.6 (10 bills)
+ALPERSON-NAPOLEON-BRACY-JR,"NAPOLEON BRACY, JR.",2010,house,98,20.69524874961392,school_choice,
+ALPERSON-NAPOLEON-BRACY-JR,"NAPOLEON BRACY, JR.",2010,house,98,20.69524874961392,healthcare_medicaid,L:1.0 (2 bills)
+ALPERSON-NAPOLEON-BRACY-JR,"NAPOLEON BRACY, JR.",2010,house,98,20.69524874961392,labor_unions,
+ALPERSON-NAPOLEON-BRACY-JR,"NAPOLEON BRACY, JR.",2010,house,98,20.69524874961392,guns,
+ALPERSON-NAPOLEON-BRACY-JR,"NAPOLEON BRACY, JR.",2010,house,98,20.69524874961392,abortion,
+ALPERSON-NAPOLEON-BRACY-JR,"NAPOLEON BRACY, JR.",2010,house,98,20.69524874961392,taxes_budget,L:2.5 (9 bills)
+ALPERSON-NAPOLEON-BRACY-JR,"NAPOLEON BRACY, JR.",2010,house,98,20.69524874961392,business_economic_development,
+ALPERSON-NAPOLEON-BRACY-JR,"NAPOLEON BRACY, JR.",2010,house,98,20.69524874961392,ethics_government,L:0.1 (1 bills)
+ALPERSON-NAPOLEON-BRACY-JR,"NAPOLEON BRACY, JR.",2010,house,98,20.69524874961392,lgbtq_cultural,
+ALPERSON-NAPOLEON-BRACY-JR,"NAPOLEON BRACY, JR.",2010,house,98,20.69524874961392,gambling,
+ALPERSON-NAPOLEON-BRACY-JR,"NAPOLEON BRACY, JR.",2010,house,98,20.69524874961392,infrastructure_energy,L:0.1 (2 bills)
+ALPERSON-NAPOLEON-BRACY-JR,"NAPOLEON BRACY, JR.",2010,house,98,20.69524874961392,health_social_services,
+ALPERSON-NAPOLEON-BRACY-JR,"NAPOLEON BRACY, JR.",2010,house,98,20.69524874961392,criminal_justice,L:2.1 (3 bills)
+ALPERSON-NAPOLEON-BRACY-JR,"NAPOLEON BRACY, JR.",2010,house,98,20.69524874961392,environment,L:0.0 (1 bills)
+ALPERSON-NAPOLEON-BRACY-JR,"NAPOLEON BRACY, JR.",2010,house,98,20.69524874961392,immigration,
+ALPERSON-NAPOLEON-BRACY-JR,"NAPOLEON BRACY, JR.",2010,house,98,20.69524874961392,rural_hunting,L:0.0 (1 bills)
+ALPERSON-NAPOLEON-BRACY-JR,"NAPOLEON BRACY, JR.",2010,house,98,20.69524874961392,public_employee_benefits,
+ALPERSON-NAPOLEON-BRACY-JR,"NAPOLEON BRACY, JR.",2010,house,98,20.69524874961392,assisted_dying,
+ALPERSON-NAPOLEON-BRACY-JR,"NAPOLEON BRACY, JR.",2010,house,98,20.69524874961392,healthcare_conscience,
+ALPERSON-NAPOLEON-BRACY-JR,"NAPOLEON BRACY, JR.",2010,house,98,20.69524874961392,public_private_partnerships,
+ALPERSON-NAPOLEON-BRACY-JR,"NAPOLEON BRACY, JR.",2010,house,98,20.69524874961392,occupational_licensing,
+ALPERSON-NAPOLEON-BRACY-JR,"NAPOLEON BRACY, JR.",2010,house,98,20.69524874961392,anti_esg_governance,
+ALPERSON-NAPOLEON-BRACY-JR,"NAPOLEON BRACY, JR.",2010,house,98,20.69524874961392,racial_civil_rights,
+ALPERSON-NAPOLEON-BRACY-JR,"NAPOLEON BRACY, JR.",2010,house,98,20.69524874961392,minimum_wage_worker_pay,L:5.0 (5 bills)
+ALPERSON-JERRY-L-FIELDING,JERRY L. FIELDING,2010,senate,11,18.21601389364433,public_education,L:3.8 (15 bills)
+ALPERSON-JERRY-L-FIELDING,JERRY L. FIELDING,2010,senate,11,18.21601389364433,school_choice,
+ALPERSON-JERRY-L-FIELDING,JERRY L. FIELDING,2010,senate,11,18.21601389364433,healthcare_medicaid,L:0.2 (2 bills)
+ALPERSON-JERRY-L-FIELDING,JERRY L. FIELDING,2010,senate,11,18.21601389364433,labor_unions,
+ALPERSON-JERRY-L-FIELDING,JERRY L. FIELDING,2010,senate,11,18.21601389364433,guns,L:0.2 (1 bills)
+ALPERSON-JERRY-L-FIELDING,JERRY L. FIELDING,2010,senate,11,18.21601389364433,abortion,
+ALPERSON-JERRY-L-FIELDING,JERRY L. FIELDING,2010,senate,11,18.21601389364433,taxes_budget,L:7.6 (26 bills)
+ALPERSON-JERRY-L-FIELDING,JERRY L. FIELDING,2010,senate,11,18.21601389364433,business_economic_development,L:0.2 (1 bills)
+ALPERSON-JERRY-L-FIELDING,JERRY L. FIELDING,2010,senate,11,18.21601389364433,ethics_government,L:1.1 (6 bills)
+ALPERSON-JERRY-L-FIELDING,JERRY L. FIELDING,2010,senate,11,18.21601389364433,lgbtq_cultural,
+ALPERSON-JERRY-L-FIELDING,JERRY L. FIELDING,2010,senate,11,18.21601389364433,gambling,
+ALPERSON-JERRY-L-FIELDING,JERRY L. FIELDING,2010,senate,11,18.21601389364433,infrastructure_energy,L:0.3 (3 bills)
+ALPERSON-JERRY-L-FIELDING,JERRY L. FIELDING,2010,senate,11,18.21601389364433,health_social_services,L:1.2 (3 bills)
+ALPERSON-JERRY-L-FIELDING,JERRY L. FIELDING,2010,senate,11,18.21601389364433,criminal_justice,L:5.0 (11 bills)
+ALPERSON-JERRY-L-FIELDING,JERRY L. FIELDING,2010,senate,11,18.21601389364433,environment,L:0.1 (1 bills)
+ALPERSON-JERRY-L-FIELDING,JERRY L. FIELDING,2010,senate,11,18.21601389364433,immigration,
+ALPERSON-JERRY-L-FIELDING,JERRY L. FIELDING,2010,senate,11,18.21601389364433,rural_hunting,L:0.1 (1 bills)
+ALPERSON-JERRY-L-FIELDING,JERRY L. FIELDING,2010,senate,11,18.21601389364433,public_employee_benefits,L:0.5 (3 bills)
+ALPERSON-JERRY-L-FIELDING,JERRY L. FIELDING,2010,senate,11,18.21601389364433,assisted_dying,
+ALPERSON-JERRY-L-FIELDING,JERRY L. FIELDING,2010,senate,11,18.21601389364433,healthcare_conscience,
+ALPERSON-JERRY-L-FIELDING,JERRY L. FIELDING,2010,senate,11,18.21601389364433,public_private_partnerships,
+ALPERSON-JERRY-L-FIELDING,JERRY L. FIELDING,2010,senate,11,18.21601389364433,occupational_licensing,
+ALPERSON-JERRY-L-FIELDING,JERRY L. FIELDING,2010,senate,11,18.21601389364433,anti_esg_governance,
+ALPERSON-JERRY-L-FIELDING,JERRY L. FIELDING,2010,senate,11,18.21601389364433,racial_civil_rights,
+ALPERSON-JERRY-L-FIELDING,JERRY L. FIELDING,2010,senate,11,18.21601389364433,minimum_wage_worker_pay,L:0.1 (1 bills)
+ALPERSON-BILLY-BEASLEY,BILLY BEASLEY,2010,senate,28,17.174310704986432,public_education,E:0.4 (9 bills); L:8.3 (15 bills)
+ALPERSON-BILLY-BEASLEY,BILLY BEASLEY,2010,senate,28,17.174310704986432,school_choice,
+ALPERSON-BILLY-BEASLEY,BILLY BEASLEY,2010,senate,28,17.174310704986432,healthcare_medicaid,L:12.8 (16 bills)
+ALPERSON-BILLY-BEASLEY,BILLY BEASLEY,2010,senate,28,17.174310704986432,labor_unions,L:1.0 (1 bills)
+ALPERSON-BILLY-BEASLEY,BILLY BEASLEY,2010,senate,28,17.174310704986432,guns,E:1.0 (1 bills); L:1.5 (3 bills)
+ALPERSON-BILLY-BEASLEY,BILLY BEASLEY,2010,senate,28,17.174310704986432,abortion,
+ALPERSON-BILLY-BEASLEY,BILLY BEASLEY,2010,senate,28,17.174310704986432,taxes_budget,E:1.4 (3 bills); L:38.9 (60 bills)
+ALPERSON-BILLY-BEASLEY,BILLY BEASLEY,2010,senate,28,17.174310704986432,business_economic_development,L:3.2 (8 bills)
+ALPERSON-BILLY-BEASLEY,BILLY BEASLEY,2010,senate,28,17.174310704986432,ethics_government,L:0.5 (4 bills)
+ALPERSON-BILLY-BEASLEY,BILLY BEASLEY,2010,senate,28,17.174310704986432,lgbtq_cultural,
+ALPERSON-BILLY-BEASLEY,BILLY BEASLEY,2010,senate,28,17.174310704986432,gambling,L:3.1 (4 bills)
+ALPERSON-BILLY-BEASLEY,BILLY BEASLEY,2010,senate,28,17.174310704986432,infrastructure_energy,E:1.6 (5 bills); L:13.6 (16 bills)
+ALPERSON-BILLY-BEASLEY,BILLY BEASLEY,2010,senate,28,17.174310704986432,health_social_services,E:0.0 (1 bills); L:2.1 (3 bills)
+ALPERSON-BILLY-BEASLEY,BILLY BEASLEY,2010,senate,28,17.174310704986432,criminal_justice,E:0.9 (5 bills); L:11.6 (18 bills)
+ALPERSON-BILLY-BEASLEY,BILLY BEASLEY,2010,senate,28,17.174310704986432,environment,E:0.0 (1 bills); L:2.1 (3 bills)
+ALPERSON-BILLY-BEASLEY,BILLY BEASLEY,2010,senate,28,17.174310704986432,immigration,L:0.2 (1 bills)
+ALPERSON-BILLY-BEASLEY,BILLY BEASLEY,2010,senate,28,17.174310704986432,rural_hunting,L:5.1 (6 bills)
+ALPERSON-BILLY-BEASLEY,BILLY BEASLEY,2010,senate,28,17.174310704986432,public_employee_benefits,L:1.1 (2 bills)
+ALPERSON-BILLY-BEASLEY,BILLY BEASLEY,2010,senate,28,17.174310704986432,assisted_dying,
+ALPERSON-BILLY-BEASLEY,BILLY BEASLEY,2010,senate,28,17.174310704986432,healthcare_conscience,
+ALPERSON-BILLY-BEASLEY,BILLY BEASLEY,2010,senate,28,17.174310704986432,public_private_partnerships,
+ALPERSON-BILLY-BEASLEY,BILLY BEASLEY,2010,senate,28,17.174310704986432,occupational_licensing,
+ALPERSON-BILLY-BEASLEY,BILLY BEASLEY,2010,senate,28,17.174310704986432,anti_esg_governance,
+ALPERSON-BILLY-BEASLEY,BILLY BEASLEY,2010,senate,28,17.174310704986432,racial_civil_rights,
+ALPERSON-BILLY-BEASLEY,BILLY BEASLEY,2010,senate,28,17.174310704986432,minimum_wage_worker_pay,
+ALPERSON-VIVIAN-DAVIS-FIGURES,VIVIAN DAVIS FIGURES,2010,senate,33,16.744298484529196,public_education,E:1.6 (6 bills); L:5.7 (13 bills)
+ALPERSON-VIVIAN-DAVIS-FIGURES,VIVIAN DAVIS FIGURES,2010,senate,33,16.744298484529196,school_choice,E:0.2 (1 bills)
+ALPERSON-VIVIAN-DAVIS-FIGURES,VIVIAN DAVIS FIGURES,2010,senate,33,16.744298484529196,healthcare_medicaid,L:7.1 (8 bills)
+ALPERSON-VIVIAN-DAVIS-FIGURES,VIVIAN DAVIS FIGURES,2010,senate,33,16.744298484529196,labor_unions,
+ALPERSON-VIVIAN-DAVIS-FIGURES,VIVIAN DAVIS FIGURES,2010,senate,33,16.744298484529196,guns,E:1.0 (1 bills)
+ALPERSON-VIVIAN-DAVIS-FIGURES,VIVIAN DAVIS FIGURES,2010,senate,33,16.744298484529196,abortion,L:5.0 (5 bills)
+ALPERSON-VIVIAN-DAVIS-FIGURES,VIVIAN DAVIS FIGURES,2010,senate,33,16.744298484529196,taxes_budget,E:1.5 (7 bills); L:22.6 (41 bills)
+ALPERSON-VIVIAN-DAVIS-FIGURES,VIVIAN DAVIS FIGURES,2010,senate,33,16.744298484529196,business_economic_development,E:0.0 (1 bills); L:1.1 (2 bills)
+ALPERSON-VIVIAN-DAVIS-FIGURES,VIVIAN DAVIS FIGURES,2010,senate,33,16.744298484529196,ethics_government,L:0.8 (6 bills)
+ALPERSON-VIVIAN-DAVIS-FIGURES,VIVIAN DAVIS FIGURES,2010,senate,33,16.744298484529196,lgbtq_cultural,
+ALPERSON-VIVIAN-DAVIS-FIGURES,VIVIAN DAVIS FIGURES,2010,senate,33,16.744298484529196,gambling,
+ALPERSON-VIVIAN-DAVIS-FIGURES,VIVIAN DAVIS FIGURES,2010,senate,33,16.744298484529196,infrastructure_energy,E:0.1 (2 bills); L:1.1 (3 bills)
+ALPERSON-VIVIAN-DAVIS-FIGURES,VIVIAN DAVIS FIGURES,2010,senate,33,16.744298484529196,health_social_services,E:0.0 (1 bills); L:2.1 (3 bills)
+ALPERSON-VIVIAN-DAVIS-FIGURES,VIVIAN DAVIS FIGURES,2010,senate,33,16.744298484529196,criminal_justice,E:0.2 (3 bills); L:12.4 (15 bills)
+ALPERSON-VIVIAN-DAVIS-FIGURES,VIVIAN DAVIS FIGURES,2010,senate,33,16.744298484529196,environment,L:0.1 (1 bills)
+ALPERSON-VIVIAN-DAVIS-FIGURES,VIVIAN DAVIS FIGURES,2010,senate,33,16.744298484529196,immigration,L:0.2 (1 bills)
+ALPERSON-VIVIAN-DAVIS-FIGURES,VIVIAN DAVIS FIGURES,2010,senate,33,16.744298484529196,rural_hunting,L:0.1 (1 bills)
+ALPERSON-VIVIAN-DAVIS-FIGURES,VIVIAN DAVIS FIGURES,2010,senate,33,16.744298484529196,public_employee_benefits,L:1.1 (2 bills)
+ALPERSON-VIVIAN-DAVIS-FIGURES,VIVIAN DAVIS FIGURES,2010,senate,33,16.744298484529196,assisted_dying,
+ALPERSON-VIVIAN-DAVIS-FIGURES,VIVIAN DAVIS FIGURES,2010,senate,33,16.744298484529196,healthcare_conscience,
+ALPERSON-VIVIAN-DAVIS-FIGURES,VIVIAN DAVIS FIGURES,2010,senate,33,16.744298484529196,public_private_partnerships,
+ALPERSON-VIVIAN-DAVIS-FIGURES,VIVIAN DAVIS FIGURES,2010,senate,33,16.744298484529196,occupational_licensing,
+ALPERSON-VIVIAN-DAVIS-FIGURES,VIVIAN DAVIS FIGURES,2010,senate,33,16.744298484529196,anti_esg_governance,
+ALPERSON-VIVIAN-DAVIS-FIGURES,VIVIAN DAVIS FIGURES,2010,senate,33,16.744298484529196,racial_civil_rights,E:0.1 (1 bills)
+ALPERSON-VIVIAN-DAVIS-FIGURES,VIVIAN DAVIS FIGURES,2010,senate,33,16.744298484529196,minimum_wage_worker_pay,
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,8,16.743981777741908,public_education,
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,8,16.743981777741908,school_choice,
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,8,16.743981777741908,healthcare_medicaid,
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,8,16.743981777741908,labor_unions,
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,8,16.743981777741908,guns,
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,8,16.743981777741908,abortion,
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,8,16.743981777741908,taxes_budget,
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,8,16.743981777741908,business_economic_development,
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,8,16.743981777741908,ethics_government,
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,8,16.743981777741908,lgbtq_cultural,
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,8,16.743981777741908,gambling,
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,8,16.743981777741908,infrastructure_energy,
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,8,16.743981777741908,health_social_services,
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,8,16.743981777741908,criminal_justice,
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,8,16.743981777741908,environment,
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,8,16.743981777741908,immigration,
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,8,16.743981777741908,rural_hunting,
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,8,16.743981777741908,public_employee_benefits,
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,8,16.743981777741908,assisted_dying,
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,8,16.743981777741908,healthcare_conscience,
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,8,16.743981777741908,public_private_partnerships,
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,8,16.743981777741908,occupational_licensing,
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,8,16.743981777741908,anti_esg_governance,
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,8,16.743981777741908,racial_civil_rights,
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,8,16.743981777741908,minimum_wage_worker_pay,
+ALPERSON-JAMES-C-FIELDS-JR,"JAMES C. FIELDS, JR.",2010,house,12,15.60316659430908,public_education,E:0.4 (12 bills)
+ALPERSON-JAMES-C-FIELDS-JR,"JAMES C. FIELDS, JR.",2010,house,12,15.60316659430908,school_choice,
+ALPERSON-JAMES-C-FIELDS-JR,"JAMES C. FIELDS, JR.",2010,house,12,15.60316659430908,healthcare_medicaid,E:0.4 (3 bills)
+ALPERSON-JAMES-C-FIELDS-JR,"JAMES C. FIELDS, JR.",2010,house,12,15.60316659430908,labor_unions,
+ALPERSON-JAMES-C-FIELDS-JR,"JAMES C. FIELDS, JR.",2010,house,12,15.60316659430908,guns,
+ALPERSON-JAMES-C-FIELDS-JR,"JAMES C. FIELDS, JR.",2010,house,12,15.60316659430908,abortion,
+ALPERSON-JAMES-C-FIELDS-JR,"JAMES C. FIELDS, JR.",2010,house,12,15.60316659430908,taxes_budget,E:1.3 (13 bills)
+ALPERSON-JAMES-C-FIELDS-JR,"JAMES C. FIELDS, JR.",2010,house,12,15.60316659430908,business_economic_development,E:0.3 (1 bills)
+ALPERSON-JAMES-C-FIELDS-JR,"JAMES C. FIELDS, JR.",2010,house,12,15.60316659430908,ethics_government,
+ALPERSON-JAMES-C-FIELDS-JR,"JAMES C. FIELDS, JR.",2010,house,12,15.60316659430908,lgbtq_cultural,
+ALPERSON-JAMES-C-FIELDS-JR,"JAMES C. FIELDS, JR.",2010,house,12,15.60316659430908,gambling,
+ALPERSON-JAMES-C-FIELDS-JR,"JAMES C. FIELDS, JR.",2010,house,12,15.60316659430908,infrastructure_energy,E:0.0 (2 bills)
+ALPERSON-JAMES-C-FIELDS-JR,"JAMES C. FIELDS, JR.",2010,house,12,15.60316659430908,health_social_services,E:0.0 (1 bills)
+ALPERSON-JAMES-C-FIELDS-JR,"JAMES C. FIELDS, JR.",2010,house,12,15.60316659430908,criminal_justice,E:1.1 (6 bills)
+ALPERSON-JAMES-C-FIELDS-JR,"JAMES C. FIELDS, JR.",2010,house,12,15.60316659430908,environment,E:0.0 (1 bills)
+ALPERSON-JAMES-C-FIELDS-JR,"JAMES C. FIELDS, JR.",2010,house,12,15.60316659430908,immigration,E:0.0 (1 bills)
+ALPERSON-JAMES-C-FIELDS-JR,"JAMES C. FIELDS, JR.",2010,house,12,15.60316659430908,rural_hunting,E:0.1 (2 bills)
+ALPERSON-JAMES-C-FIELDS-JR,"JAMES C. FIELDS, JR.",2010,house,12,15.60316659430908,public_employee_benefits,E:0.1 (1 bills)
+ALPERSON-JAMES-C-FIELDS-JR,"JAMES C. FIELDS, JR.",2010,house,12,15.60316659430908,assisted_dying,
+ALPERSON-JAMES-C-FIELDS-JR,"JAMES C. FIELDS, JR.",2010,house,12,15.60316659430908,healthcare_conscience,
+ALPERSON-JAMES-C-FIELDS-JR,"JAMES C. FIELDS, JR.",2010,house,12,15.60316659430908,public_private_partnerships,E:0.0 (1 bills)
+ALPERSON-JAMES-C-FIELDS-JR,"JAMES C. FIELDS, JR.",2010,house,12,15.60316659430908,occupational_licensing,
+ALPERSON-JAMES-C-FIELDS-JR,"JAMES C. FIELDS, JR.",2010,house,12,15.60316659430908,anti_esg_governance,
+ALPERSON-JAMES-C-FIELDS-JR,"JAMES C. FIELDS, JR.",2010,house,12,15.60316659430908,racial_civil_rights,
+ALPERSON-JAMES-C-FIELDS-JR,"JAMES C. FIELDS, JR.",2010,house,12,15.60316659430908,minimum_wage_worker_pay,
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,13,15.46300589679028,public_education,
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,13,15.46300589679028,school_choice,
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,13,15.46300589679028,healthcare_medicaid,
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,13,15.46300589679028,labor_unions,
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,13,15.46300589679028,guns,
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,13,15.46300589679028,abortion,
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,13,15.46300589679028,taxes_budget,
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,13,15.46300589679028,business_economic_development,
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,13,15.46300589679028,ethics_government,
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,13,15.46300589679028,lgbtq_cultural,
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,13,15.46300589679028,gambling,
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,13,15.46300589679028,infrastructure_energy,
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,13,15.46300589679028,health_social_services,
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,13,15.46300589679028,criminal_justice,
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,13,15.46300589679028,environment,
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,13,15.46300589679028,immigration,
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,13,15.46300589679028,rural_hunting,
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,13,15.46300589679028,public_employee_benefits,
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,13,15.46300589679028,assisted_dying,
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,13,15.46300589679028,healthcare_conscience,
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,13,15.46300589679028,public_private_partnerships,
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,13,15.46300589679028,occupational_licensing,
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,13,15.46300589679028,anti_esg_governance,
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,13,15.46300589679028,racial_civil_rights,
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,13,15.46300589679028,minimum_wage_worker_pay,
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,house,20,15.120380750211098,public_education,
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,house,20,15.120380750211098,school_choice,
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,house,20,15.120380750211098,healthcare_medicaid,
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,house,20,15.120380750211098,labor_unions,
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,house,20,15.120380750211098,guns,
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,house,20,15.120380750211098,abortion,
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,house,20,15.120380750211098,taxes_budget,
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,house,20,15.120380750211098,business_economic_development,
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,house,20,15.120380750211098,ethics_government,
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,house,20,15.120380750211098,lgbtq_cultural,
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,house,20,15.120380750211098,gambling,
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,house,20,15.120380750211098,infrastructure_energy,
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,house,20,15.120380750211098,health_social_services,
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,house,20,15.120380750211098,criminal_justice,
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,house,20,15.120380750211098,environment,
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,house,20,15.120380750211098,immigration,
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,house,20,15.120380750211098,rural_hunting,
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,house,20,15.120380750211098,public_employee_benefits,
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,house,20,15.120380750211098,assisted_dying,
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,house,20,15.120380750211098,healthcare_conscience,
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,house,20,15.120380750211098,public_private_partnerships,
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,house,20,15.120380750211098,occupational_licensing,
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,house,20,15.120380750211098,anti_esg_governance,
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,house,20,15.120380750211098,racial_civil_rights,
+ALPERSON-LINDA-MEIGS,Linda Meigs,2018,house,20,15.120380750211098,minimum_wage_worker_pay,
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,senate,2,15.04537943600424,public_education,
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,senate,2,15.04537943600424,school_choice,
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,senate,2,15.04537943600424,healthcare_medicaid,
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,senate,2,15.04537943600424,labor_unions,
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,senate,2,15.04537943600424,guns,
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,senate,2,15.04537943600424,abortion,
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,senate,2,15.04537943600424,taxes_budget,
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,senate,2,15.04537943600424,business_economic_development,
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,senate,2,15.04537943600424,ethics_government,
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,senate,2,15.04537943600424,lgbtq_cultural,
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,senate,2,15.04537943600424,gambling,
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,senate,2,15.04537943600424,infrastructure_energy,
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,senate,2,15.04537943600424,health_social_services,
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,senate,2,15.04537943600424,criminal_justice,
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,senate,2,15.04537943600424,environment,
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,senate,2,15.04537943600424,immigration,
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,senate,2,15.04537943600424,rural_hunting,
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,senate,2,15.04537943600424,public_employee_benefits,
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,senate,2,15.04537943600424,assisted_dying,
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,senate,2,15.04537943600424,healthcare_conscience,
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,senate,2,15.04537943600424,public_private_partnerships,
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,senate,2,15.04537943600424,occupational_licensing,
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,senate,2,15.04537943600424,anti_esg_governance,
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,senate,2,15.04537943600424,racial_civil_rights,
+ALPERSON-KIM-CAUDLE-LEWIS,Kim Caudle Lewis,2022,senate,2,15.04537943600424,minimum_wage_worker_pay,

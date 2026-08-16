@@ -1,0 +1,31 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "Richard Lindsey is a candidate for Alabama House District 39 in the 2014 election. He was an incumbent representing the district since 1983 and previously chaired the Education Finance and Appropriations Committee. Ideologically, his Shor\u2013McCarty score places him around the 92nd conservative percentile of the Alabama Democratic House caucus, making him conservative relative to fellow Democrats while aligned with the education establishment. His positions on abortion or guns are unknown as no time-valid evidence has been recovered for these dimensions.",
+  "offices_and_public_service": [
+    "Alabama State Representative (House District 39)"
+  ],
+  "profession_and_employment": [],
+  "education": [],
+  "community_and_local_ties": [],
+  "political_profile": [
+    "Incumbent since 1983",
+    "Chaired the Education Finance and Appropriations Committee",
+    "Conservative relative to fellow Democrats (Shor\u2013McCarty score ~92nd percentile of Alabama Democratic House caucus)",
+    "Aligned with education establishment"
+  ],
+  "important_caveats": [
+    "No time-valid evidence has yet been recovered for Lindsey's abortion or gun positions.",
+    "Lindsey recorded about +40.8 Total OOF CMO while winning."
+  ],
+  "source_urls_used": [
+    "https://www.alreporter.com/2014/09/24/heath-jones-running-as-republican-in-house-district-39/",
+    "https://publicunionfacts.com/union/QUxBQkFNQSBFRFVDQVRJT04gQVNTT0NJQVRJT04%3D/alabama-education-association/state-candidates/all-contributions",
+    "https://doi.org/10.7910/DVN/GZJOT3"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://doi.org/10.7910/DVN/GZJOT3",
+    "https://publicunionfacts.com/union/QUxBQkFNQSBFRFVDQVRJT04gQVNTT0NJQVRJT04%3D/alabama-education-association/state-candidates/all-contributions",
+    "https://www.alreporter.com/2014/09/24/heath-jones-running-as-republican-in-house-district-39/"
+  ]
+}

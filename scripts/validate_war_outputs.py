@@ -1,4 +1,4 @@
-"""Validate final WAR artifacts and create a compact model-readiness audit."""
+"""Validate CMO artifacts and create a compact model-readiness audit."""
 
 from pathlib import Path
 
@@ -21,59 +21,64 @@ def add(rows, section, check, value, passed, note=""):
 
 
 def main() -> None:
-    features = pd.read_csv(WAR / "war_model_features.csv")
-    source_races = pd.read_csv(WAR / "race_results.csv")
-    races = pd.read_csv(WAR / "preliminary_war_races.csv")
-    candidates = pd.read_csv(WAR / "preliminary_war_candidates.csv")
-    diagnostics = pd.read_csv(WAR / "preliminary_war_diagnostics.csv")
-    specs = pd.read_csv(WAR / "war_specification_comparison.csv")
+    canonical = ROOT / "data" / "processed" / "elections" / "canonical_cmo_features.csv"
+    features = pd.read_csv(canonical if canonical.exists() else WAR / "war_model_features.csv")
+    source_races = features
+    races = pd.read_csv(WAR / "preliminary_cmo_races.csv")
+    candidates = pd.read_csv(WAR / "preliminary_cmo_candidates.csv")
+    diagnostics = pd.read_csv(WAR / "cmo_diagnostics.csv")
+    benchmarks = pd.read_csv(WAR / "cmo_benchmark_diagnostics.csv")
     rows = []
 
     key = ["cycle", "chamber", "district"]
     add(rows, "features", "unique_cycle_chamber_district", int(features.duplicated(key).sum()),
         not features.duplicated(key).any(), "Duplicate count; must equal zero.")
-    expected = {(2014, "house"): 105, (2014, "senate"): 35,
+    expected = {(1994, "house"): 104, (1994, "senate"): 35,
+                (1998, "house"): 57, (1998, "senate"): 28,
+                (2002, "house"): 104, (2002, "senate"): 35,
+                (2006, "house"): 98, (2006, "senate"): 34,
+                (2010, "house"): 105, (2010, "senate"): 35,
+                (2014, "house"): 105, (2014, "senate"): 35,
                 (2018, "house"): 105, (2018, "senate"): 35,
                 (2022, "house"): 105, (2022, "senate"): 35}
     counts = features.groupby(["cycle", "chamber"]).size().to_dict()
-    add(rows, "features", "all_420_district_cycles_present", len(features),
-        len(features) == 420 and counts == expected,
-        "Expected 105 House and 35 Senate districts in each of three cycles.")
+    add(rows, "features", "all_eight_cycle_source_rows_present", len(features),
+        len(features) == sum(expected.values()) and counts == expected,
+        "Expected the audited canonical source universe for every cycle, 1994-2022.")
 
     eligible = races[races["war_eligible"].astype(bool)].copy()
-    expected_eligible = int(source_races.war_eligible.astype(bool).sum())
+    source_mask = source_races.war_eligible.astype(bool)
+    if "model_eligible" in source_races:
+        source_mask &= source_races.model_eligible.astype(bool)
+    expected_eligible = int(source_mask.sum())
     add(rows, "eligibility", "eligible_race_count", len(eligible),
         len(eligible) == expected_eligible,
         f"Contested D-R races only; expected dynamically from race_results ({expected_eligible}).")
     add(rows, "eligibility", "scores_only_on_eligible_races", int(races.war_residual_final.notna().sum()),
-        races.loc[~races.war_eligible.astype(bool), "war_residual_final"].isna().all())
+        len(races) == expected_eligible)
 
-    required = ["raw_overperformance", "war_residual_oof", "war_residual_final",
-                "war_model_se", "war_final_ci_low", "war_final_ci_high"]
+    required = ["raw_overperformance", "cmo_total_oof", "cmo_total_final",
+                "cmo_total_stability_low", "cmo_total_stability_high",
+                "cmo_resource_adjusted_oof"]
     missing = int(eligible[required].isna().sum().sum())
     add(rows, "scores", "eligible_score_fields_complete", missing, missing == 0,
         "Missing cells across score and uncertainty fields.")
-    ordered = (eligible.war_final_ci_low <= eligible.war_residual_final) & \
-              (eligible.war_residual_final <= eligible.war_final_ci_high) & \
-              (eligible.war_model_se >= 0)
-    add(rows, "scores", "confidence_intervals_ordered", int((~ordered).sum()), ordered.all(),
-        "Violation count; must equal zero.")
+    ordered = ((eligible.cmo_total_stability_low <= eligible.cmo_total_oof) &
+               (eligible.cmo_total_oof <= eligible.cmo_total_stability_high))
+    add(rows, "scores", "stability_bands_ordered", int((~ordered).sum()), ordered.all(),
+        "These are cross-cycle sensitivity bands, not confidence intervals.")
 
-    c = candidates[candidates.candidate_war_final.notna()].copy()
-    pairs = c.pivot_table(index=key, columns="party", values="candidate_war_final", aggfunc="first")
+    c = candidates[candidates.candidate_cmo_total_oof.notna()].copy()
+    pairs = c.pivot_table(index=key, columns="party", values="candidate_cmo_total_oof", aggfunc="first")
     pair_error = (pairs.get("D") + pairs.get("R")).abs()
     add(rows, "scores", "candidate_scores_are_zero_sum", float(pair_error.max()),
         bool(pair_error.fillna(np.inf).le(1e-9).all()), "Maximum absolute D+R score.")
 
-    interval_sign_ok = np.where(
-        c.party.eq("D"),
-        np.isclose(c.candidate_war_final_ci_low, c.war_final_ci_low) &
-        np.isclose(c.candidate_war_final_ci_high, c.war_final_ci_high),
-        np.isclose(c.candidate_war_final_ci_low, -c.war_final_ci_high) &
-        np.isclose(c.candidate_war_final_ci_high, -c.war_final_ci_low),
-    )
-    add(rows, "scores", "candidate_interval_sign_conversion", int((~interval_sign_ok).sum()),
-        bool(interval_sign_ok.all()), "Republican intervals must reverse endpoints and signs.")
+    band_sign_ok = c.candidate_cmo_total_stability_low.le(
+        c.candidate_cmo_total_oof) & c.candidate_cmo_total_oof.le(
+        c.candidate_cmo_total_stability_high)
+    add(rows, "scores", "candidate_stability_band_order", int((~band_sign_ok).sum()),
+        bool(band_sign_ok.all()))
 
     add(rows, "coverage", "core_baseline_complete_eligible",
         int(eligible.core_index_complete.fillna(False).sum()),
@@ -97,29 +102,30 @@ def main() -> None:
         add(rows, "source_validation", "2018_candidate_totals_match_official_workbooks",
             "missing", False, "Run validate_2018_official_legislative_totals.py.")
 
-    metric = diagnostics.iloc[0]
-    add(rows, "validation", "random_fold_oof_r2_positive", float(metric["r2_oof"]),
-        metric["r2_oof"] > 0)
-    add(rows, "validation", "leave_cycle_out_r2_nonnegative", float(metric["r2_leave_cycle_out"]),
-        metric["r2_leave_cycle_out"] >= 0,
+    metric = diagnostics[diagnostics.specification.eq("total")].iloc[0]
+    add(rows, "validation", "random_fold_oof_r2_positive", float(metric["random_r2"]),
+        metric["random_r2"] > 0)
+    add(rows, "validation", "leave_cycle_out_r2_nonnegative", float(metric["cycle_holdout_r2"]),
+        metric["cycle_holdout_r2"] >= 0,
         "A failure means the model should not be described as validated across unseen eras.")
-    comparable = specs[specs.races.eq(len(eligible))]
-    best = comparable.loc[comparable.cycle_holdout_rmse.idxmin()]
-    add(rows, "validation", "best_cycle_holdout_specification", best.specification, True,
-        f"RMSE {best.cycle_holdout_rmse:.3f}; comparison, not an absolute acceptance test.")
+    naive = benchmarks.loc[benchmarks.benchmark.eq("zero_overperformance"), "mae"].iloc[0]
+    add(rows, "validation", "headline_beats_naive_random_fold_mae",
+        float(naive - metric.random_mae), metric.random_mae < naive,
+        "Positive value is MAE improvement over a training-mean benchmark.")
 
     qa = pd.DataFrame(rows)
     qa.to_csv(WAR / "model_readiness_qa.csv", index=False)
 
     # Audit the largest candidate-level scores with every major input alongside them.
     extreme = c.loc[c.candidate_war_oof.abs().ge(25)].copy()
-    feature_cols = key + [
+    requested_feature_cols = key + [
         "legislative_dem_margin", "statewide_index_margin",
         "incumbency_status", "incumbent_party", "prior_pres_dem_margin",
         "prior_pres_swing", "pres_2012_fallback_share", "core_index_complete",
         "baseline_quality", "dem_candidate_spending", "rep_candidate_spending",
         "finance_complete", "nonwhite_share", "white_college_share",
     ]
+    feature_cols = [column for column in requested_feature_cols if column in eligible.columns]
     extreme = extreme.merge(eligible[feature_cols], on=key, how="left", validate="many_to_one")
     extreme["source_outcome_validation"] = np.where(
         extreme.cycle.eq(2014), "matches archived Wikipedia district table",

@@ -1,0 +1,11 @@
+{
+  "policy_key": "sex_offender_notification",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "requires public notification when a convicted sex offender relocates to a neighborhood",
+  "evidence_quote": "Inform communities when a convicted sex offender moves into the community.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

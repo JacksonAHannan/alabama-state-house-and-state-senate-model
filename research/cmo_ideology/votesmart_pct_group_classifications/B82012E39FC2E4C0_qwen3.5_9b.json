@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_medical_research_funding",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Supports federal funding for medical research.",
+  "evidence_quote": "Medical research",
+  "needs_human_review": true,
+  "review_reason": "The option is a single category selection without specified funding levels or ideological framing; direction inferred from general support of science which can be nonpartisan."
+}

@@ -1,0 +1,19 @@
+{
+  "primary_issue": "infrastructure_energy",
+  "secondary_issues": [
+    "ethics_government",
+    "public_education"
+  ],
+  "plain_english_revision": "The amendment shifts responsibility for notifying voters about defective or uncounted ballots from the absentee election manager to the local board of registrars. It also mandates that rejected ballots be delivered to the local board of registrars, who must issue written notice to voters within 10 days after each election. The sheriff is tasked with collecting all rejected ballots within this same timeframe.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "strengthening voter notification procedures and centralized oversight of rejected ballots",
+  "confidence": "high",
+  "evidence_quotes": [
+    "delete 'absentee election manager to notify' and insert in lieu thereof the following: local board of registrars to notify absentee",
+    "rejected ballot shall be delivered to the local board of registrars. The local board of registrars shall issue a notice in writing to the voter stating the",
+    "Within 10 calendar days after each election, the sheriff shall collect all rejected ballots."
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment text is clear and specific about its changes. No assumptions are made regarding the underlying bill's intent or the sponsor's broader ideology."
+}

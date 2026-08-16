@@ -1,0 +1,17 @@
+{
+  "primary_issue": "immigration",
+  "secondary_issues": [
+    "criminal_justice",
+    "healthcare_medicaid"
+  ],
+  "plain_english_revision": "The amendment removes criminal liability protections for law enforcement and healthcare providers in mental health detentions, while adding a new section that explicitly frames these actions as state-sanctioned and grants immunity under broader state-employee rules. It also preserves existing medical malpractice laws.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Advancing a policy that treats mental health detentions as state-directed actions with immunity for participating entities, while leaving medical liability frameworks unchanged.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "It is the **policy of this state** to encourage...detaining individuals who are mentally ill and a danger to themselves or others for evaluation and treatment. These actions are necessary to protect the individuals and the public."
+  ],
+  "needs_human_review": false,
+  "review_reason": "The amendment\u2019s intent is clear in its text, but the broader bill context (e.g., original liability scope) would require external review for full impact assessment."
+}

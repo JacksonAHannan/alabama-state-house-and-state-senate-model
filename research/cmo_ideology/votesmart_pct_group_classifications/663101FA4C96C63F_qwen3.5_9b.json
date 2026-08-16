@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_teacher_merit_pay",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "medium",
+  "plain_english_policy": "Merit pay systems are generally viewed as more conservative in education policy due to their focus on individual accountability and market-based incentives rather than collective bargaining or standardized funding.",
+  "evidence_quote": "c) Do you support using a merit pay system for teachers?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

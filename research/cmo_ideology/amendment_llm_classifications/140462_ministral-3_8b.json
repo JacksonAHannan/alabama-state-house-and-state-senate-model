@@ -1,0 +1,19 @@
+{
+  "primary_issue": "infrastructure_energy",
+  "secondary_issues": [
+    "public_education",
+    "assisted_dying"
+  ],
+  "plain_english_revision": "The amendment clarifies and expands parental notification requirements for student math deficiencies, reduces funding thresholds for intervention programs, and alters the composition of oversight committees by adding minority leaders to ensure broader stakeholder representation. It does not address Common Core or core curriculum content.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "indeterminate",
+  "candidate_position_supported": "Parental transparency in student assessment results and expanded oversight accountability for math improvement initiatives",
+  "confidence": "high",
+  "evidence_quotes": [
+    "Mathematics deficiencies identified from a screener, diagnostic, or formative assessment, or any of them.",
+    "The information provided to the parent... details the strengths, deficiencies, and progress of the student.",
+    "A report... may be provided to the parent in lieu of a separate report."
+  ],
+  "needs_human_review": false,
+  "review_reason": "All changes are explicit and do not rely on unseen bill text. Valence is indeterminate because the amendment\u2019s intent cannot be inferred beyond its literal effects without context on Drummond\u2019s broader legislative priorities."
+}

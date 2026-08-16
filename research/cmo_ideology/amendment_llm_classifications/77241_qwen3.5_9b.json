@@ -1,0 +1,17 @@
+{
+  "primary_issue": "taxes_budget",
+  "secondary_issues": [
+    "infrastructure_energy"
+  ],
+  "plain_english_revision": "This amendment grants permanent residents of Mobile County and Baldwin County a discount on toll fees for using the I-10 bridge or Wallace Tunnel.",
+  "revision_direction": "expands_policy",
+  "ideological_valence": "progressive",
+  "candidate_position_supported": "The candidate supports providing financial relief to local permanent residents by offering them half-price access to specific infrastructure tolls, specifically the I-10 bridge and Wallace Tunnel.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "\"A permanent resident of Mobile County or Baldwin County shall be eligible for a half price toll pass\"",
+    "\"for usage of the I-10 bridge or the Wallace Tunnel over the Mobile River\""
+  ],
+  "needs_human_review": false,
+  "review_reason": ""
+}

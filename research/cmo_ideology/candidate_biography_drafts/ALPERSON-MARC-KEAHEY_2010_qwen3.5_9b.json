@@ -1,0 +1,34 @@
+{
+  "identity_assessment": "confirmed_alabama",
+  "summary": "George Marc Keahey was the Democratic candidate for Alabama Senate District 22 in the 2010 election. Prior to this, he represented Alabama House District 65 after his 2006 election and won a special election for Senate District 22 in 2009. He is an attorney with degrees from the University of Alabama business program and Cumberland School of Law J.D., having worked as a public defender, assistant district attorney, and private lawyer. His legislative committee work covered agriculture and conservation, business and labor, fiscal responsibility, and judiciary.",
+  "offices_and_public_service": [
+    "Alabama House District 65 (2006 election)",
+    "Alabama Senate District 22 special election winner (2009)"
+  ],
+  "profession_and_employment": [
+    "Attorney",
+    "Public defender",
+    "Assistant district attorney",
+    "Private lawyer"
+  ],
+  "education": [
+    "University of Alabama business degree",
+    "Cumberland School of Law J.D."
+  ],
+  "community_and_local_ties": [],
+  "political_profile": [
+    "Democratic candidate for Senate District 22 in 2010"
+  ],
+  "important_caveats": [],
+  "source_urls_used": [
+    "https://www.apr.org/2009-06-03/keahey-apparent-winner-in-special-senate-election",
+    "https://www2.alabamavotes.gov/downloads/election/2010/general/2010GeneralElection-AmendedResults-ALSenateandHouse.pdf",
+    "https://en.wikipedia.org/wiki/Marc_Keahey"
+  ],
+  "model": "qwen3.5:9b",
+  "allowed_source_urls": [
+    "https://en.wikipedia.org/wiki/Marc_Keahey",
+    "https://www.apr.org/2009-06-03/keahey-apparent-winner-in-special-senate-election",
+    "https://www2.alabamavotes.gov/downloads/election/2010/general/2010GeneralElection-AmendedResults-ALSenateandHouse.pdf"
+  ]
+}

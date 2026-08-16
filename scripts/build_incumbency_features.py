@@ -28,6 +28,16 @@ PARTIES = {"Democratic": "D", "Republican": "R", "Independent": "I",
 # J. Gladden was the 2014 challenger, not a second incumbent.
 FALSE_INCUMBENT_ANNOTATIONS = {(2014, "house", 29, "MICHAEL GLADDEN")}
 
+SAVED_PAGE_OVERRIDES = {
+    (2010, "house"): ROOT / "data" / "raw" / "alabama_elections_and_geography" / "2010 Alabama House of Representatives election - Wikipedia.html",
+    (2014, "senate"): ROOT / "data" / "raw" / "alabama_elections_and_geography" / "2014 Alabama Senate election - Wikipedia.html",
+}
+
+
+def wikipedia_path(cycle: int, chamber: str) -> Path:
+    override = SAVED_PAGE_OVERRIDES.get((cycle, chamber))
+    return override if override and override.exists() else WIKI / f"{cycle}_{chamber}.html"
+
 
 def clean_candidate(value: str) -> str:
     value = re.sub(r"\[[^]]*]", "", value)
@@ -95,7 +105,7 @@ def parse_wikipedia_page(path: Path, cycle: int, chamber: str) -> pd.DataFrame:
 
 
 def read_candidate_code_names() -> dict[str, str]:
-    readme = ROOT / "Results and Shapefiles" / "al_gen_22_prec" / "README.txt"
+    readme = ROOT / "data" / "raw" / "alabama_elections_and_geography" / "al_gen_22_prec" / "README.txt"
     mapping = {}
     pattern = re.compile(r"^(G(?:SL\d{3}|SU\d{2})[A-Z][A-Z]{3})\s+.*?-:-(.*?)-:-")
     for line in readme.read_text(encoding="utf-8", errors="replace").splitlines():
@@ -123,7 +133,7 @@ def main() -> None:
     frames = []
     for cycle in (2010, 2014, 2018, 2022):
         for chamber in ("house", "senate"):
-            frames.append(parse_wikipedia_page(WIKI / f"{cycle}_{chamber}.html", cycle, chamber))
+            frames.append(parse_wikipedia_page(wikipedia_path(cycle, chamber), cycle, chamber))
     wiki = pd.concat(frames, ignore_index=True)
     wiki = (wiki.groupby(["cycle", "chamber", "district", "party", "candidate",
                           "candidate_norm", "source_file"], as_index=False)

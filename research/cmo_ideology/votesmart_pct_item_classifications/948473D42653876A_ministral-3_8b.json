@@ -1,0 +1,11 @@
+{
+  "policy_key": "environment_funding",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Environmental funding levels (progressive vs. conservative)",
+  "evidence_quote": "",
+  "needs_human_review": true,
+  "review_reason": "The provided SOURCE TEXT is a prompt for the candidate to select a funding level, but no specific choice or position is given in the text itself. This requires inference of intent from the candidate's response (which isn't provided)."
+}

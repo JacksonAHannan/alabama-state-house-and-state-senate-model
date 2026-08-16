@@ -1,0 +1,11 @@
+{
+  "policy_key": "medical_marijuana",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting the medical use of marijuana is conventionally associated with progressive positions on drug policy and patient autonomy.",
+  "evidence_quote": "Allow doctors to prescribe marijuana to their patients for medicinal purposes.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

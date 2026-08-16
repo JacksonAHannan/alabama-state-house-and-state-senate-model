@@ -1,158 +1,158 @@
 cycle,chamber,district,party,candidate,candidate_norm,source_file,votes_wikipedia,incumbent_wikipedia,winner_wikipedia
-2010,house,1,D,Greg Burdine,GREG BURDINE,2010_house.html,7083,False,True
-2010,house,1,R,Quinton Hanson,QUINTON HANSON,2010_house.html,6877,False,False
-2010,house,2,D,Mike Curtis,MIKE CURTIS,2010_house.html,6284,True,False
-2010,house,2,R,Lynn Greer,LYNN GREER,2010_house.html,7599,False,True
-2010,house,3,D,Marcel Black,MARCEL BLACK,2010_house.html,9076,True,True
-2010,house,4,D,Vaughn Goodwin,VAUGHN GOODWIN,2010_house.html,5244,False,False
-2010,house,4,R,Micky Hammon,MICKY HAMMON,2010_house.html,12153,True,True
-2010,house,5,D,Henry A. White,HENRY A WHITE,2010_house.html,5402,True,False
-2010,house,5,I,Jerry Hill,JERRY HILL,2010_house.html,1359,False,False
-2010,house,5,R,Dan Williams,DAN WILLIAMS,2010_house.html,8807,False,True
-2010,house,6,R,Phil Williams,PHIL WILLIAMS,2010_house.html,9880,False,True
-2010,house,7,D,"John ""Jody"" Letson",JOHN JODY LETSON,2010_house.html,6911,True,False
-2010,house,7,R,Ken Johnson,KEN JOHNSON,2010_house.html,7096,False,True
-2010,house,8,D,Drama Breland,DRAMA BRELAND,2010_house.html,5147,False,False
-2010,house,8,R,Terri Collins,TERRI COLLINS,2010_house.html,6574,False,True
-2010,house,9,D,Kathy White Goodwin,KATHY WHITE GOODWIN,2010_house.html,4294,False,False
-2010,house,9,R,Ed Henry,ED HENRY,2010_house.html,11405,False,True
-2010,house,10,R,Mike Ball,MIKE BALL,2010_house.html,11950,True,True
-2010,house,11,R,Jeremy Oden,JEREMY ODEN,2010_house.html,12977,True,True
-2010,house,12,D,James C. Fields,JAMES C FIELDS,2010_house.html,7667,True,False
-2010,house,12,R,Mac Buttram,MAC BUTTRAM,2010_house.html,9062,False,True
-2010,house,13,D,Tommy Sherer,TOMMY SHERER,2010_house.html,5186,True,False
-2010,house,13,R,Bill Roberts,BILL ROBERTS,2010_house.html,7990,False,True
-2010,house,14,D,Ken Guin,KEN GUIN,2010_house.html,4121,True,False
-2010,house,14,R,Richard Baughn,RICHARD BAUGHN,2010_house.html,9327,False,True
-2010,house,15,R,Allen Farley,ALLEN FARLEY,2010_house.html,14117,False,True
-2010,house,16,D,William E. Thigpen Sr.,WILLIAM E THIGPEN,2010_house.html,6379,True,False
-2010,house,16,R,Daniel Boman,DANIEL BOMAN,2010_house.html,7451,False,True
-2010,house,17,D,Mike Millican,MIKE MILLICAN,2010_house.html,8107,True,True
-2010,house,18,D,Johnny Mack Morrow,JOHNNY MACK MORROW,2010_house.html,8344,True,True
-2010,house,19,D,Laura Hall,LAURA HALL,2010_house.html,10669,True,True
-2010,house,20,R,Howard Sanderford,HOWARD SANDERFORD,2010_house.html,17733,True,True
-2010,house,21,D,Randy Hinshaw,RANDY HINSHAW,2010_house.html,6201,True,False
-2010,house,21,R,Jim Patterson,JIM PATTERSON,2010_house.html,6654,False,True
-2010,house,22,D,Butch Taylor,BUTCH TAYLOR,2010_house.html,5177,False,False
-2010,house,22,R,Wayne Johnson,WAYNE JOHNSON,2010_house.html,9523,False,True
-2010,house,23,D,John Robinson,JOHN ROBINSON,2010_house.html,7782,True,True
-2010,house,24,D,Nathaniel Ledbetter,NATHANIEL LEDBETTER,2010_house.html,6971,False,False
-2010,house,24,R,Todd Greeson,TODD GREESON,2010_house.html,7967,True,True
-2010,house,25,R,Mac McCutcheon,MAC MCCUTCHEON,2010_house.html,17822,True,True
-2010,house,26,D,Randall White,RANDALL WHITE,2010_house.html,4873,False,False
-2010,house,26,R,Kerry Rich,KERRY RICH,2010_house.html,7203,False,True
-2010,house,27,D,Jeff McLaughlin,JEFF MCLAUGHLIN,2010_house.html,7225,True,False
-2010,house,27,R,Wes Long,WES LONG,2010_house.html,8238,False,True
-2010,house,28,D,Craig Ford,CRAIG FORD,2010_house.html,8208,True,True
-2010,house,29,D,Jack Page,JACK PAGE,2010_house.html,5406,True,False
-2010,house,29,R,Becky Nordgren,BECKY NORDGREN,2010_house.html,5845,False,True
-2010,house,30,D,Wally Burns,WALLY BURNS,2010_house.html,4153,False,False
-2010,house,30,R,Blaine Galliher,BLAINE GALLIHER,2010_house.html,10979,True,True
-2010,house,31,R,Barry Mask,BARRY MASK,2010_house.html,13104,True,True
-2010,house,32,D,Barbara Bigsby-Boyd,BARBARA BIGSBY BOYD,2010_house.html,7240,True,True
-2010,house,32,R,Ron Struzik,RON STRUZIK,2010_house.html,2905,False,False
-2010,house,33,R,Ron Johnson,RON JOHNSON,2010_house.html,9567,True,True
-2010,house,34,R,Elwyn Thomas,ELWYN THOMAS,2010_house.html,13515,True,True
-2010,house,35,D,Steve Hurst,STEVE HURST,2010_house.html,6722,True,True
-2010,house,35,R,Steven M. Dean,STEVEN M DEAN,2010_house.html,6295,False,False
-2010,house,36,D,Garry Bearden,GARRY BEARDEN,2010_house.html,3301,False,False
-2010,house,36,R,Randy Wood,RANDY WOOD,2010_house.html,10612,True,True
-2010,house,37,D,Richard Laird,RICHARD LAIRD,2010_house.html,8106,True,True
-2010,house,37,R,Bob Fincher,BOB FINCHER,2010_house.html,7011,False,False
-2010,house,38,D,Huey P. Long,HUEY P LONG,2010_house.html,5748,False,False
-2010,house,38,R,DuWayne Bridges,DUWAYNE BRIDGES,2010_house.html,5980,True,True
-2010,house,39,D,Richard Lindsey,RICHARD LINDSEY,2010_house.html,7808,True,True
-2010,house,39,R,Tim Sprayberry,TIM SPRAYBERRY,2010_house.html,5872,False,False
-2010,house,40,D,Ricky Whaley,RICKY WHALEY,2010_house.html,5148,False,False
-2010,house,40,R,K. L. (Koven) Brown,K L KOVEN BROWN,2010_house.html,8587,False,True
-2010,house,41,R,Mike Hill,MIKE HILL,2010_house.html,19319,True,True
-2010,house,42,D,"James M. ""Jimmy"" Martin",JAMES M JIMMY MARTIN,2010_house.html,5452,True,False
-2010,house,42,R,Kurt Wallace,KURT WALLACE,2010_house.html,9382,False,True
-2010,house,43,D,Virginia Sweet,VIRGINIA SWEET,2010_house.html,4041,False,False
-2010,house,43,R,Mary Sue McClurkin,MARY SUE MCCLURKIN,2010_house.html,16368,True,True
-2010,house,44,R,Arthur Payne,ARTHUR PAYNE,2010_house.html,11654,True,True
-2010,house,45,D,Charlene Cannon,CHARLENE CANNON,2010_house.html,5103,False,False
-2010,house,45,R,Owen Drake,OWEN DRAKE,2010_house.html,8165,True,True
-2010,house,46,R,Paul DeMarco,PAUL DEMARCO,2010_house.html,15446,True,True
-2010,house,47,I,"Charles ""Chip"" McCallum",CHARLES CHIP MCCALLUM,2010_house.html,5527,False,False
-2010,house,47,R,Jack Williams,JACK WILLIAMS,2010_house.html,8735,True,True
-2010,house,48,R,Greg Canfield,GREG CANFIELD,2010_house.html,16859,True,True
-2010,house,49,R,April Weaver,APRIL WEAVER,2010_house.html,12411,False,True
-2010,house,50,R,Jim McClendon,JIM MCCLENDON,2010_house.html,14248,True,True
-2010,house,51,R,Allen Treadaway,ALLEN TREADAWAY,2010_house.html,14061,True,True
-2010,house,52,D,John Rogers,JOHN ROGERS,2010_house.html,9599,True,True
-2010,house,53,D,Demetrius Newton,DEMETRIUS NEWTON,2010_house.html,7729,True,True
-2010,house,54,D,Patricia Todd,PATRICIA TODD,2010_house.html,7599,True,True
-2010,house,55,D,Rod Scott,ROD SCOTT,2010_house.html,8670,True,True
-2010,house,56,D,Lawrence McAdory,LAWRENCE MCADORY,2010_house.html,9881,True,True
-2010,house,57,D,Merika Coleman,MERIKA COLEMAN,2010_house.html,10676,True,True
-2010,house,58,D,Oliver Robinson,OLIVER ROBINSON,2010_house.html,9704,True,True
-2010,house,59,D,Mary Moore,MARY MOORE,2010_house.html,7521,True,True
-2010,house,60,D,"Juandalynn ""Lee Lee"" Givan",JUANDALYNN LEE LEE GIVAN,2010_house.html,10383,False,True
-2010,house,61,D,Alan Harper,ALAN HARPER,2010_house.html,11102,True,True
-2010,house,61,R,Frank Chandler,FRANK CHANDLER,2010_house.html,3167,False,False
-2010,house,62,R,John Merrill,JOHN MERRILL,2010_house.html,11658,False,True
-2010,house,63,D,Susan Pace Hamill,SUSAN PACE HAMILL,2010_house.html,5631,False,False
-2010,house,63,R,Bill Poole,BILL POOLE,2010_house.html,9937,False,True
-2010,house,64,R,Harry Shiver,HARRY SHIVER,2010_house.html,8524,True,True
-2010,house,65,D,Elaine Beech,ELAINE BEECH,2010_house.html,11727,False,True
-2010,house,65,I,Ozelle Hubert,OZELLE HUBERT,2010_house.html,1920,False,False
-2010,house,66,R,Alan Baker,ALAN BAKER,2010_house.html,8615,True,True
-2010,house,67,D,Dario Melton,DARIO MELTON,2010_house.html,10382,False,True
-2010,house,68,D,Thomas E. (Action) Jackson,THOMAS E ACTION JACKSON,2010_house.html,10471,True,True
-2010,house,69,D,David Colston,DAVID COLSTON,2010_house.html,11058,False,True
-2010,house,70,D,Christopher John England,CHRISTOPHER JOHN ENGLAND,2010_house.html,7611,True,True
-2010,house,71,D,"Artis ""A. J."" McCampbell",ARTIS A J MCCAMPBELL,2010_house.html,12261,True,True
-2010,house,72,D,Ralph A. Howard,RALPH A HOWARD,2010_house.html,11552,True,True
-2010,house,73,D,"Joseph Lister ""Joe"" Hubbard",JOSEPH LISTER JOE HUBBARD,2010_house.html,8137,False,True
-2010,house,73,R,David Grimes,DAVID GRIMES,2010_house.html,7825,True,False
-2010,house,74,I,Jay King,JAY KING,2010_house.html,2562,False,False
-2010,house,74,R,Jay Love,JAY LOVE,2010_house.html,8714,True,True
-2010,house,75,D,Glenn L. Allen,GLENN L ALLEN,2010_house.html,5551,False,False
-2010,house,75,R,Greg Wren,GREG WREN,2010_house.html,14046,True,True
-2010,house,76,D,Thad McClammy,THAD MCCLAMMY,2010_house.html,10092,True,True
-2010,house,77,D,John Knight,JOHN KNIGHT,2010_house.html,8353,True,True
-2010,house,78,D,Alvin Holmes,ALVIN HOLMES,2010_house.html,7349,True,True
-2010,house,78,I,Ken Guin,KEN GUIN,2010_house.html,1313,False,False
-2010,house,79,R,Mike Hubbard,MIKE HUBBARD,2010_house.html,11128,True,True
-2010,house,80,D,Lesley Vance,LESLEY VANCE,2010_house.html,5579,True,True
-2010,house,80,R,Mervin Dudley,MERVIN DUDLEY,2010_house.html,4626,False,False
-2010,house,81,D,Betty Carol Graham,BETTY CAROL GRAHAM,2010_house.html,7306,True,False
-2010,house,81,R,Mark M. Tuggle,MARK M TUGGLE,2010_house.html,9268,False,True
-2010,house,82,D,Pebblin W. Warren,PEBBLIN W WARREN,2010_house.html,10180,True,True
-2010,house,83,D,"George ""Tootie"" Bandy",GEORGE TOOTIE BANDY,2010_house.html,7484,True,True
-2010,house,84,D,Berry Forte,BERRY FORTE,2010_house.html,7764,False,True
-2010,house,84,R,Joyce L. Perrin,JOYCE L PERRIN,2010_house.html,4152,False,False
-2010,house,85,D,Dexter Grimsley,DEXTER GRIMSLEY,2010_house.html,6692,False,True
-2010,house,85,R,Jody Singleton,JODY SINGLETON,2010_house.html,6255,False,False
-2010,house,86,D,Merritt Carothers,MERRITT CAROTHERS,2010_house.html,6623,False,False
-2010,house,86,R,Paul Lee,PAUL LEE,2010_house.html,9159,False,True
-2010,house,87,R,Donnie Chesteen,DONNIE CHESTEEN,2010_house.html,14347,False,True
-2010,house,88,R,Paul Beckman,PAUL BECKMAN,2010_house.html,14382,False,True
-2010,house,89,D,Alan C. Boothe,ALAN C BOOTHE,2010_house.html,7912,True,True
-2010,house,90,D,Charles Newton,CHARLES NEWTON,2010_house.html,8577,True,True
-2010,house,90,R,Jerry Hartin,JERRY HARTIN,2010_house.html,5855,False,False
-2010,house,91,D,Terry Spicer,TERRY SPICER,2010_house.html,5383,True,False
-2010,house,91,R,Barry Moore,BARRY MOORE,2010_house.html,9754,False,True
-2010,house,92,D,David S. Darby,DAVID S DARBY,2010_house.html,3086,False,False
-2010,house,92,I,Don Cotton,DON COTTON,2010_house.html,3180,False,False
-2010,house,92,R,Mike Jones Jr.,MIKE JONES,2010_house.html,6820,False,True
-2010,house,93,D,Ronnie Helms,RONNIE HELMS,2010_house.html,3271,False,False
-2010,house,93,R,Steve Clouse,STEVE CLOUSE,2010_house.html,11418,True,True
-2010,house,94,R,Joe Faust,JOE FAUST,2010_house.html,16481,True,True
-2010,house,95,R,Steve McMillan,STEVE MCMILLAN,2010_house.html,16239,True,True
-2010,house,96,R,Randy Davis,RANDY DAVIS,2010_house.html,13319,True,True
-2010,house,97,D,Yvonne Kennedy,YVONNE KENNEDY,2010_house.html,6714,True,True
-2010,house,98,D,Napoleon Bracy Jr.,NAPOLEON BRACY,2010_house.html,6767,False,True
-2010,house,98,R,Sharon L. Powe,SHARON L POWE,2010_house.html,3222,False,False
-2010,house,99,D,James E. Buskey,JAMES E BUSKEY,2010_house.html,8554,True,True
-2010,house,99,I,Rashawn Figures,RASHAWN FIGURES,2010_house.html,1800,False,False
-2010,house,100,R,Victor Gaston,VICTOR GASTON,2010_house.html,12640,True,True
-2010,house,101,R,Jamie Ison,JAMIE ISON,2010_house.html,8414,True,True
-2010,house,102,R,Chad Fincher,CHAD FINCHER,2010_house.html,9641,True,True
-2010,house,103,D,Joseph C. Mitchell,JOSEPH C MITCHELL,2010_house.html,6962,True,True
-2010,house,104,R,Jim Barton,JIM BARTON,2010_house.html,11155,True,True
-2010,house,105,R,Spencer Collier,SPENCER COLLIER,2010_house.html,7807,True,True
+2010,house,1,D,Greg Burdine,GREG BURDINE,2010 Alabama House of Representatives election - Wikipedia.html,7083,False,True
+2010,house,1,R,Quinton Hanson,QUINTON HANSON,2010 Alabama House of Representatives election - Wikipedia.html,6877,False,False
+2010,house,2,D,Mike Curtis,MIKE CURTIS,2010 Alabama House of Representatives election - Wikipedia.html,6284,True,False
+2010,house,2,R,Lynn Greer,LYNN GREER,2010 Alabama House of Representatives election - Wikipedia.html,7599,False,True
+2010,house,3,D,Marcel Black,MARCEL BLACK,2010 Alabama House of Representatives election - Wikipedia.html,9076,True,True
+2010,house,4,D,Vaughn Goodwin,VAUGHN GOODWIN,2010 Alabama House of Representatives election - Wikipedia.html,5244,False,False
+2010,house,4,R,Micky Hammon,MICKY HAMMON,2010 Alabama House of Representatives election - Wikipedia.html,12153,True,True
+2010,house,5,D,Henry A. White,HENRY A WHITE,2010 Alabama House of Representatives election - Wikipedia.html,5402,True,False
+2010,house,5,I,Jerry Hill,JERRY HILL,2010 Alabama House of Representatives election - Wikipedia.html,1359,False,False
+2010,house,5,R,Dan Williams,DAN WILLIAMS,2010 Alabama House of Representatives election - Wikipedia.html,8807,False,True
+2010,house,6,R,Phil Williams,PHIL WILLIAMS,2010 Alabama House of Representatives election - Wikipedia.html,9880,False,True
+2010,house,7,D,"John ""Jody"" Letson",JOHN JODY LETSON,2010 Alabama House of Representatives election - Wikipedia.html,6911,True,False
+2010,house,7,R,Ken Johnson,KEN JOHNSON,2010 Alabama House of Representatives election - Wikipedia.html,7096,False,True
+2010,house,8,D,Drama Breland,DRAMA BRELAND,2010 Alabama House of Representatives election - Wikipedia.html,5147,False,False
+2010,house,8,R,Terri Collins,TERRI COLLINS,2010 Alabama House of Representatives election - Wikipedia.html,6574,False,True
+2010,house,9,D,Kathy White Goodwin,KATHY WHITE GOODWIN,2010 Alabama House of Representatives election - Wikipedia.html,4294,False,False
+2010,house,9,R,Ed Henry,ED HENRY,2010 Alabama House of Representatives election - Wikipedia.html,11405,False,True
+2010,house,10,R,Mike Ball,MIKE BALL,2010 Alabama House of Representatives election - Wikipedia.html,11950,True,True
+2010,house,11,R,Jeremy Oden,JEREMY ODEN,2010 Alabama House of Representatives election - Wikipedia.html,12977,True,True
+2010,house,12,D,James C. Fields,JAMES C FIELDS,2010 Alabama House of Representatives election - Wikipedia.html,7667,True,False
+2010,house,12,R,Mac Buttram,MAC BUTTRAM,2010 Alabama House of Representatives election - Wikipedia.html,9062,False,True
+2010,house,13,D,Tommy Sherer,TOMMY SHERER,2010 Alabama House of Representatives election - Wikipedia.html,5186,True,False
+2010,house,13,R,Bill Roberts,BILL ROBERTS,2010 Alabama House of Representatives election - Wikipedia.html,7990,False,True
+2010,house,14,D,Ken Guin,KEN GUIN,2010 Alabama House of Representatives election - Wikipedia.html,4121,True,False
+2010,house,14,R,Richard Baughn,RICHARD BAUGHN,2010 Alabama House of Representatives election - Wikipedia.html,9327,False,True
+2010,house,15,R,Allen Farley,ALLEN FARLEY,2010 Alabama House of Representatives election - Wikipedia.html,14117,False,True
+2010,house,16,D,William E. Thigpen Sr.,WILLIAM E THIGPEN,2010 Alabama House of Representatives election - Wikipedia.html,6379,True,False
+2010,house,16,R,Daniel Boman,DANIEL BOMAN,2010 Alabama House of Representatives election - Wikipedia.html,7451,False,True
+2010,house,17,D,Mike Millican,MIKE MILLICAN,2010 Alabama House of Representatives election - Wikipedia.html,8107,True,True
+2010,house,18,D,Johnny Mack Morrow,JOHNNY MACK MORROW,2010 Alabama House of Representatives election - Wikipedia.html,8344,True,True
+2010,house,19,D,Laura Hall,LAURA HALL,2010 Alabama House of Representatives election - Wikipedia.html,10669,True,True
+2010,house,20,R,Howard Sanderford,HOWARD SANDERFORD,2010 Alabama House of Representatives election - Wikipedia.html,17733,True,True
+2010,house,21,D,Randy Hinshaw,RANDY HINSHAW,2010 Alabama House of Representatives election - Wikipedia.html,6201,True,False
+2010,house,21,R,Jim Patterson,JIM PATTERSON,2010 Alabama House of Representatives election - Wikipedia.html,6654,False,True
+2010,house,22,D,Butch Taylor,BUTCH TAYLOR,2010 Alabama House of Representatives election - Wikipedia.html,5177,False,False
+2010,house,22,R,Wayne Johnson,WAYNE JOHNSON,2010 Alabama House of Representatives election - Wikipedia.html,9523,False,True
+2010,house,23,D,John Robinson,JOHN ROBINSON,2010 Alabama House of Representatives election - Wikipedia.html,7782,True,True
+2010,house,24,D,Nathaniel Ledbetter,NATHANIEL LEDBETTER,2010 Alabama House of Representatives election - Wikipedia.html,6971,False,False
+2010,house,24,R,Todd Greeson,TODD GREESON,2010 Alabama House of Representatives election - Wikipedia.html,7967,True,True
+2010,house,25,R,Mac McCutcheon,MAC MCCUTCHEON,2010 Alabama House of Representatives election - Wikipedia.html,17822,True,True
+2010,house,26,D,Randall White,RANDALL WHITE,2010 Alabama House of Representatives election - Wikipedia.html,4873,False,False
+2010,house,26,R,Kerry Rich,KERRY RICH,2010 Alabama House of Representatives election - Wikipedia.html,7203,False,True
+2010,house,27,D,Jeff McLaughlin,JEFF MCLAUGHLIN,2010 Alabama House of Representatives election - Wikipedia.html,7225,True,False
+2010,house,27,R,Wes Long,WES LONG,2010 Alabama House of Representatives election - Wikipedia.html,8238,False,True
+2010,house,28,D,Craig Ford,CRAIG FORD,2010 Alabama House of Representatives election - Wikipedia.html,8208,True,True
+2010,house,29,D,Jack Page,JACK PAGE,2010 Alabama House of Representatives election - Wikipedia.html,5406,True,False
+2010,house,29,R,Becky Nordgren,BECKY NORDGREN,2010 Alabama House of Representatives election - Wikipedia.html,5845,False,True
+2010,house,30,D,Wally Burns,WALLY BURNS,2010 Alabama House of Representatives election - Wikipedia.html,4153,False,False
+2010,house,30,R,Blaine Galliher,BLAINE GALLIHER,2010 Alabama House of Representatives election - Wikipedia.html,10979,True,True
+2010,house,31,R,Barry Mask,BARRY MASK,2010 Alabama House of Representatives election - Wikipedia.html,13104,True,True
+2010,house,32,D,Barbara Bigsby-Boyd,BARBARA BIGSBY BOYD,2010 Alabama House of Representatives election - Wikipedia.html,7240,True,True
+2010,house,32,R,Ron Struzik,RON STRUZIK,2010 Alabama House of Representatives election - Wikipedia.html,2905,False,False
+2010,house,33,R,Ron Johnson,RON JOHNSON,2010 Alabama House of Representatives election - Wikipedia.html,9567,True,True
+2010,house,34,R,Elwyn Thomas,ELWYN THOMAS,2010 Alabama House of Representatives election - Wikipedia.html,13515,True,True
+2010,house,35,D,Steve Hurst,STEVE HURST,2010 Alabama House of Representatives election - Wikipedia.html,6722,True,True
+2010,house,35,R,Steven M. Dean,STEVEN M DEAN,2010 Alabama House of Representatives election - Wikipedia.html,6295,False,False
+2010,house,36,D,Garry Bearden,GARRY BEARDEN,2010 Alabama House of Representatives election - Wikipedia.html,3301,False,False
+2010,house,36,R,Randy Wood,RANDY WOOD,2010 Alabama House of Representatives election - Wikipedia.html,10612,True,True
+2010,house,37,D,Richard Laird,RICHARD LAIRD,2010 Alabama House of Representatives election - Wikipedia.html,8106,True,True
+2010,house,37,R,Bob Fincher,BOB FINCHER,2010 Alabama House of Representatives election - Wikipedia.html,7011,False,False
+2010,house,38,D,Huey P. Long,HUEY P LONG,2010 Alabama House of Representatives election - Wikipedia.html,5748,False,False
+2010,house,38,R,DuWayne Bridges,DUWAYNE BRIDGES,2010 Alabama House of Representatives election - Wikipedia.html,5980,True,True
+2010,house,39,D,Richard Lindsey,RICHARD LINDSEY,2010 Alabama House of Representatives election - Wikipedia.html,7808,True,True
+2010,house,39,R,Tim Sprayberry,TIM SPRAYBERRY,2010 Alabama House of Representatives election - Wikipedia.html,5872,False,False
+2010,house,40,D,Ricky Whaley,RICKY WHALEY,2010 Alabama House of Representatives election - Wikipedia.html,5148,False,False
+2010,house,40,R,K. L. (Koven) Brown,K L KOVEN BROWN,2010 Alabama House of Representatives election - Wikipedia.html,8587,False,True
+2010,house,41,R,Mike Hill,MIKE HILL,2010 Alabama House of Representatives election - Wikipedia.html,19319,True,True
+2010,house,42,D,"James M. ""Jimmy"" Martin",JAMES M JIMMY MARTIN,2010 Alabama House of Representatives election - Wikipedia.html,5452,True,False
+2010,house,42,R,Kurt Wallace,KURT WALLACE,2010 Alabama House of Representatives election - Wikipedia.html,9382,False,True
+2010,house,43,D,Virginia Sweet,VIRGINIA SWEET,2010 Alabama House of Representatives election - Wikipedia.html,4041,False,False
+2010,house,43,R,Mary Sue McClurkin,MARY SUE MCCLURKIN,2010 Alabama House of Representatives election - Wikipedia.html,16368,True,True
+2010,house,44,R,Arthur Payne,ARTHUR PAYNE,2010 Alabama House of Representatives election - Wikipedia.html,11654,True,True
+2010,house,45,D,Charlene Cannon,CHARLENE CANNON,2010 Alabama House of Representatives election - Wikipedia.html,5103,False,False
+2010,house,45,R,Owen Drake,OWEN DRAKE,2010 Alabama House of Representatives election - Wikipedia.html,8165,True,True
+2010,house,46,R,Paul DeMarco,PAUL DEMARCO,2010 Alabama House of Representatives election - Wikipedia.html,15446,True,True
+2010,house,47,I,"Charles ""Chip"" McCallum",CHARLES CHIP MCCALLUM,2010 Alabama House of Representatives election - Wikipedia.html,5527,False,False
+2010,house,47,R,Jack Williams,JACK WILLIAMS,2010 Alabama House of Representatives election - Wikipedia.html,8735,True,True
+2010,house,48,R,Greg Canfield,GREG CANFIELD,2010 Alabama House of Representatives election - Wikipedia.html,16859,True,True
+2010,house,49,R,April Weaver,APRIL WEAVER,2010 Alabama House of Representatives election - Wikipedia.html,12411,False,True
+2010,house,50,R,Jim McClendon,JIM MCCLENDON,2010 Alabama House of Representatives election - Wikipedia.html,14248,True,True
+2010,house,51,R,Allen Treadaway,ALLEN TREADAWAY,2010 Alabama House of Representatives election - Wikipedia.html,14061,True,True
+2010,house,52,D,John Rogers,JOHN ROGERS,2010 Alabama House of Representatives election - Wikipedia.html,9599,True,True
+2010,house,53,D,Demetrius Newton,DEMETRIUS NEWTON,2010 Alabama House of Representatives election - Wikipedia.html,7729,True,True
+2010,house,54,D,Patricia Todd,PATRICIA TODD,2010 Alabama House of Representatives election - Wikipedia.html,7599,True,True
+2010,house,55,D,Rod Scott,ROD SCOTT,2010 Alabama House of Representatives election - Wikipedia.html,8670,True,True
+2010,house,56,D,Lawrence McAdory,LAWRENCE MCADORY,2010 Alabama House of Representatives election - Wikipedia.html,9881,True,True
+2010,house,57,D,Merika Coleman,MERIKA COLEMAN,2010 Alabama House of Representatives election - Wikipedia.html,10676,True,True
+2010,house,58,D,Oliver Robinson,OLIVER ROBINSON,2010 Alabama House of Representatives election - Wikipedia.html,9704,True,True
+2010,house,59,D,Mary Moore,MARY MOORE,2010 Alabama House of Representatives election - Wikipedia.html,7521,True,True
+2010,house,60,D,"Juandalynn ""Lee Lee"" Givan",JUANDALYNN LEE LEE GIVAN,2010 Alabama House of Representatives election - Wikipedia.html,10383,False,True
+2010,house,61,D,Alan Harper,ALAN HARPER,2010 Alabama House of Representatives election - Wikipedia.html,11102,True,True
+2010,house,61,R,Frank Chandler,FRANK CHANDLER,2010 Alabama House of Representatives election - Wikipedia.html,3167,False,False
+2010,house,62,R,John Merrill,JOHN MERRILL,2010 Alabama House of Representatives election - Wikipedia.html,11658,False,True
+2010,house,63,D,Susan Pace Hamill,SUSAN PACE HAMILL,2010 Alabama House of Representatives election - Wikipedia.html,5631,False,False
+2010,house,63,R,Bill Poole,BILL POOLE,2010 Alabama House of Representatives election - Wikipedia.html,9937,False,True
+2010,house,64,R,Harry Shiver,HARRY SHIVER,2010 Alabama House of Representatives election - Wikipedia.html,8524,True,True
+2010,house,65,D,Elaine Beech,ELAINE BEECH,2010 Alabama House of Representatives election - Wikipedia.html,11727,False,True
+2010,house,65,I,Ozelle Hubert,OZELLE HUBERT,2010 Alabama House of Representatives election - Wikipedia.html,1920,False,False
+2010,house,66,R,Alan Baker,ALAN BAKER,2010 Alabama House of Representatives election - Wikipedia.html,8615,True,True
+2010,house,67,D,Dario Melton,DARIO MELTON,2010 Alabama House of Representatives election - Wikipedia.html,10382,False,True
+2010,house,68,D,Thomas E. (Action) Jackson,THOMAS E ACTION JACKSON,2010 Alabama House of Representatives election - Wikipedia.html,10471,True,True
+2010,house,69,D,David Colston,DAVID COLSTON,2010 Alabama House of Representatives election - Wikipedia.html,11058,False,True
+2010,house,70,D,Christopher John England,CHRISTOPHER JOHN ENGLAND,2010 Alabama House of Representatives election - Wikipedia.html,7611,True,True
+2010,house,71,D,"Artis ""A. J."" McCampbell",ARTIS A J MCCAMPBELL,2010 Alabama House of Representatives election - Wikipedia.html,12261,True,True
+2010,house,72,D,Ralph A. Howard,RALPH A HOWARD,2010 Alabama House of Representatives election - Wikipedia.html,11552,True,True
+2010,house,73,D,"Joseph Lister ""Joe"" Hubbard",JOSEPH LISTER JOE HUBBARD,2010 Alabama House of Representatives election - Wikipedia.html,8137,False,True
+2010,house,73,R,David Grimes,DAVID GRIMES,2010 Alabama House of Representatives election - Wikipedia.html,7825,True,False
+2010,house,74,I,Jay King,JAY KING,2010 Alabama House of Representatives election - Wikipedia.html,2562,False,False
+2010,house,74,R,Jay Love,JAY LOVE,2010 Alabama House of Representatives election - Wikipedia.html,8714,True,True
+2010,house,75,D,Glenn L. Allen,GLENN L ALLEN,2010 Alabama House of Representatives election - Wikipedia.html,5551,False,False
+2010,house,75,R,Greg Wren,GREG WREN,2010 Alabama House of Representatives election - Wikipedia.html,14046,True,True
+2010,house,76,D,Thad McClammy,THAD MCCLAMMY,2010 Alabama House of Representatives election - Wikipedia.html,10092,True,True
+2010,house,77,D,John Knight,JOHN KNIGHT,2010 Alabama House of Representatives election - Wikipedia.html,8353,True,True
+2010,house,78,D,Alvin Holmes,ALVIN HOLMES,2010 Alabama House of Representatives election - Wikipedia.html,7349,True,True
+2010,house,78,I,Ken Guin,KEN GUIN,2010 Alabama House of Representatives election - Wikipedia.html,1313,False,False
+2010,house,79,R,Mike Hubbard,MIKE HUBBARD,2010 Alabama House of Representatives election - Wikipedia.html,11128,True,True
+2010,house,80,D,Lesley Vance,LESLEY VANCE,2010 Alabama House of Representatives election - Wikipedia.html,5579,True,True
+2010,house,80,R,Mervin Dudley,MERVIN DUDLEY,2010 Alabama House of Representatives election - Wikipedia.html,4626,False,False
+2010,house,81,D,Betty Carol Graham,BETTY CAROL GRAHAM,2010 Alabama House of Representatives election - Wikipedia.html,7306,True,False
+2010,house,81,R,Mark M. Tuggle,MARK M TUGGLE,2010 Alabama House of Representatives election - Wikipedia.html,9268,False,True
+2010,house,82,D,Pebblin W. Warren,PEBBLIN W WARREN,2010 Alabama House of Representatives election - Wikipedia.html,10180,True,True
+2010,house,83,D,"George ""Tootie"" Bandy",GEORGE TOOTIE BANDY,2010 Alabama House of Representatives election - Wikipedia.html,7484,True,True
+2010,house,84,D,Berry Forte,BERRY FORTE,2010 Alabama House of Representatives election - Wikipedia.html,7764,False,True
+2010,house,84,R,Joyce L. Perrin,JOYCE L PERRIN,2010 Alabama House of Representatives election - Wikipedia.html,4152,False,False
+2010,house,85,D,Dexter Grimsley,DEXTER GRIMSLEY,2010 Alabama House of Representatives election - Wikipedia.html,6692,False,True
+2010,house,85,R,Jody Singleton,JODY SINGLETON,2010 Alabama House of Representatives election - Wikipedia.html,6255,False,False
+2010,house,86,D,Merritt Carothers,MERRITT CAROTHERS,2010 Alabama House of Representatives election - Wikipedia.html,6623,False,False
+2010,house,86,R,Paul Lee,PAUL LEE,2010 Alabama House of Representatives election - Wikipedia.html,9159,False,True
+2010,house,87,R,Donnie Chesteen,DONNIE CHESTEEN,2010 Alabama House of Representatives election - Wikipedia.html,14347,False,True
+2010,house,88,R,Paul Beckman,PAUL BECKMAN,2010 Alabama House of Representatives election - Wikipedia.html,14382,False,True
+2010,house,89,D,Alan C. Boothe,ALAN C BOOTHE,2010 Alabama House of Representatives election - Wikipedia.html,7912,True,True
+2010,house,90,D,Charles Newton,CHARLES NEWTON,2010 Alabama House of Representatives election - Wikipedia.html,8577,True,True
+2010,house,90,R,Jerry Hartin,JERRY HARTIN,2010 Alabama House of Representatives election - Wikipedia.html,5855,False,False
+2010,house,91,D,Terry Spicer,TERRY SPICER,2010 Alabama House of Representatives election - Wikipedia.html,5383,True,False
+2010,house,91,R,Barry Moore,BARRY MOORE,2010 Alabama House of Representatives election - Wikipedia.html,9754,False,True
+2010,house,92,D,David S. Darby,DAVID S DARBY,2010 Alabama House of Representatives election - Wikipedia.html,3086,False,False
+2010,house,92,I,Don Cotton,DON COTTON,2010 Alabama House of Representatives election - Wikipedia.html,3180,False,False
+2010,house,92,R,Mike Jones Jr.,MIKE JONES,2010 Alabama House of Representatives election - Wikipedia.html,6820,False,True
+2010,house,93,D,Ronnie Helms,RONNIE HELMS,2010 Alabama House of Representatives election - Wikipedia.html,3271,False,False
+2010,house,93,R,Steve Clouse,STEVE CLOUSE,2010 Alabama House of Representatives election - Wikipedia.html,11418,True,True
+2010,house,94,R,Joe Faust,JOE FAUST,2010 Alabama House of Representatives election - Wikipedia.html,16481,True,True
+2010,house,95,R,Steve McMillan,STEVE MCMILLAN,2010 Alabama House of Representatives election - Wikipedia.html,16239,True,True
+2010,house,96,R,Randy Davis,RANDY DAVIS,2010 Alabama House of Representatives election - Wikipedia.html,13319,True,True
+2010,house,97,D,Yvonne Kennedy,YVONNE KENNEDY,2010 Alabama House of Representatives election - Wikipedia.html,6714,True,True
+2010,house,98,D,Napoleon Bracy Jr.,NAPOLEON BRACY,2010 Alabama House of Representatives election - Wikipedia.html,6767,False,True
+2010,house,98,R,Sharon L. Powe,SHARON L POWE,2010 Alabama House of Representatives election - Wikipedia.html,3222,False,False
+2010,house,99,D,James E. Buskey,JAMES E BUSKEY,2010 Alabama House of Representatives election - Wikipedia.html,8554,True,True
+2010,house,99,I,Rashawn Figures,RASHAWN FIGURES,2010 Alabama House of Representatives election - Wikipedia.html,1800,False,False
+2010,house,100,R,Victor Gaston,VICTOR GASTON,2010 Alabama House of Representatives election - Wikipedia.html,12640,True,True
+2010,house,101,R,Jamie Ison,JAMIE ISON,2010 Alabama House of Representatives election - Wikipedia.html,8414,True,True
+2010,house,102,R,Chad Fincher,CHAD FINCHER,2010 Alabama House of Representatives election - Wikipedia.html,9641,True,True
+2010,house,103,D,Joseph C. Mitchell,JOSEPH C MITCHELL,2010 Alabama House of Representatives election - Wikipedia.html,6962,True,True
+2010,house,104,R,Jim Barton,JIM BARTON,2010 Alabama House of Representatives election - Wikipedia.html,11155,True,True
+2010,house,105,R,Spencer Collier,SPENCER COLLIER,2010 Alabama House of Representatives election - Wikipedia.html,7807,True,True
 2010,senate,1,D,Tammy Irons,TAMMY IRONS,2010_senate.html,23178,False,True
 2010,senate,1,R,Jerry Freeman,JERRY FREEMAN,2010_senate.html,18266,False,False
 2010,senate,2,D,Tom Butler,TOM BUTLER,2010_senate.html,23060,True,False
@@ -358,60 +358,60 @@ cycle,chamber,district,party,candidate,candidate_norm,source_file,votes_wikipedi
 2014,house,103,D,Joseph C. Mitchell,JOSEPH C MITCHELL,2014_house.html,6962,True,True
 2014,house,104,R,Jim Barton,JIM BARTON,2014_house.html,11155,True,True
 2014,house,105,R,Spencer Collier,SPENCER COLLIER,2014_house.html,7807,True,True
-2014,senate,1,D,Mike Curtis,MIKE CURTIS,2014_senate.html,13704,False,False
-2014,senate,1,R,Tim Melson,TIM MELSON,2014_senate.html,22982,False,True
-2014,senate,2,R,Bill Holtzclaw,BILL HOLTZCLAW,2014_senate.html,24936,False,True
-2014,senate,3,R,Arthur Orr,ARTHUR ORR,2014_senate.html,26906,True,True
-2014,senate,4,D,Angelo Mancuso,ANGELO MANCUSO,2014_senate.html,8875,False,False
-2014,senate,4,R,Paul Bussman,PAUL BUSSMAN,2014_senate.html,24750,False,True
-2014,senate,5,R,Greg Reed,GREG REED,2014_senate.html,29611,False,True
-2014,senate,6,D,"Roger Bedford, Jr.",ROGER BEDFORD,2014_senate.html,17574,False,False
-2014,senate,6,R,Larry Stutts,LARRY STUTTS,2014_senate.html,17641,False,True
-2014,senate,7,D,Bryan Bennet,BRYAN BENNET,2014_senate.html,12404,False,False
-2014,senate,7,R,Paul Sanford,PAUL SANFORD,2014_senate.html,22873,False,True
-2014,senate,8,D,Horace Clemmons,HORACE CLEMMONS,2014_senate.html,9322,False,False
-2014,senate,8,R,Steve Livingston,STEVE LIVINGSTON,2014_senate.html,24332,False,True
-2014,senate,9,R,Clay Scofield,CLAY SCOFIELD,2014_senate.html,24596,False,True
-2014,senate,10,D,Larry Means,LARRY MEANS,2014_senate.html,16530,False,False
-2014,senate,10,R,Phil Williams,PHIL WILLIAMS,2014_senate.html,17967,False,True
-2014,senate,11,D,Ron Crumpton,RON CRUMPTON,2014_senate.html,6981,False,False
-2014,senate,11,R,Jim McClendon,JIM MCCLENDON,2014_senate.html,24318,False,True
-2014,senate,12,D,Taylor Stewart,TAYLOR STEWART,2014_senate.html,13178,False,False
-2014,senate,12,R,Del Marsh,DEL MARSH,2014_senate.html,17646,False,True
-2014,senate,13,I,Bill Fuller,BILL FULLER,2014_senate.html,3697,False,False
-2014,senate,13,R,Gerald Dial,GERALD DIAL,2014_senate.html,16758,False,True
-2014,senate,14,R,Cam Ward,CAM WARD,2014_senate.html,25724,False,True
-2014,senate,15,R,Slade Blackwell,SLADE BLACKWELL,2014_senate.html,29498,False,True
-2014,senate,16,D,Cindy Bell,CINDY BELL,2014_senate.html,8284,False,False
-2014,senate,16,R,"J.T. ""Jabo"" Waggoner",J T JABO WAGGONER,2014_senate.html,28107,False,True
-2014,senate,17,R,Shay Shelnutt,SHAY SHELNUTT,2014_senate.html,31105,False,True
-2014,senate,18,D,Rodger Smitherman,RODGER SMITHERMAN,2014_senate.html,23195,False,True
-2014,senate,19,D,Priscilla Dunn,PRISCILLA DUNN,2014_senate.html,27143,False,True
-2014,senate,20,D,Linda Coleman,LINDA COLEMAN,2014_senate.html,23368,False,True
-2014,senate,21,D,Phil Poole,PHIL POOLE,2014_senate.html,12161,False,False
-2014,senate,21,R,Gerald Allen,GERALD ALLEN,2014_senate.html,20179,False,True
-2014,senate,22,D,Susan Smith,SUSAN SMITH,2014_senate.html,11275,False,False
-2014,senate,22,R,Greg Albritton,GREG ALBRITTON,2014_senate.html,23162,False,True
-2014,senate,23,D,Hank Sanders,HANK SANDERS,2014_senate.html,29306,False,True
-2014,senate,24,D,Bobby Singleton,BOBBY SINGLETON,2014_senate.html,26859,False,True
-2014,senate,25,R,Dick Brewbaker,DICK BREWBAKER,2014_senate.html,29545,False,True
-2014,senate,26,D,Quinton Ross,QUINTON ROSS,2014_senate.html,25166,False,True
-2014,senate,27,D,Haylee Moss,HAYLEE MOSS,2014_senate.html,10358,False,False
-2014,senate,27,R,Tom Whatley,TOM WHATLEY,2014_senate.html,19808,False,True
-2014,senate,28,D,Billy Beasley,BILLY BEASLEY,2014_senate.html,22148,False,True
-2014,senate,28,R,John Savage,JOHN SAVAGE,2014_senate.html,8020,False,False
-2014,senate,29,I,Harri Anne Smith,HARRI ANNE SMITH,2014_senate.html,17830,False,True
-2014,senate,29,R,Melinda McClendon,MELINDA MCCLENDON,2014_senate.html,16145,False,False
-2014,senate,30,I,Bryan Morgan,BRYAN MORGAN,2014_senate.html,5653,False,False
-2014,senate,30,R,Clyde Chambliss,CLYDE CHAMBLISS,2014_senate.html,22916,False,True
-2014,senate,31,D,Larry Greenwood,LARRY GREENWOOD,2014_senate.html,8627,False,False
-2014,senate,31,R,Jimmy Holley,JIMMY HOLLEY,2014_senate.html,23067,False,True
-2014,senate,32,I,Kimberly McCuiston,KIMBERLY MCCUISTON,2014_senate.html,6306,False,False
-2014,senate,32,R,Trip Pittman,TRIP PITTMAN,2014_senate.html,27837,False,True
-2014,senate,33,D,Vivian Davis Figures,VIVIAN DAVIS FIGURES,2014_senate.html,23012,False,True
-2014,senate,34,R,Rusty Glover,RUSTY GLOVER,2014_senate.html,22451,False,True
-2014,senate,35,D,Beau Doolittle,BEAU DOOLITTLE,2014_senate.html,6862,False,False
-2014,senate,35,R,Bill Hightower,BILL HIGHTOWER,2014_senate.html,19173,False,True
+2014,senate,1,D,Mike Curtis,MIKE CURTIS,2014 Alabama Senate election - Wikipedia.html,13704,False,False
+2014,senate,1,R,Tim Melson,TIM MELSON,2014 Alabama Senate election - Wikipedia.html,22982,False,True
+2014,senate,2,R,Bill Holtzclaw,BILL HOLTZCLAW,2014 Alabama Senate election - Wikipedia.html,24936,False,True
+2014,senate,3,R,Arthur Orr,ARTHUR ORR,2014 Alabama Senate election - Wikipedia.html,26906,True,True
+2014,senate,4,D,Angelo Mancuso,ANGELO MANCUSO,2014 Alabama Senate election - Wikipedia.html,8875,False,False
+2014,senate,4,R,Paul Bussman,PAUL BUSSMAN,2014 Alabama Senate election - Wikipedia.html,24750,False,True
+2014,senate,5,R,Greg Reed,GREG REED,2014 Alabama Senate election - Wikipedia.html,29611,False,True
+2014,senate,6,D,"Roger Bedford, Jr.",ROGER BEDFORD,2014 Alabama Senate election - Wikipedia.html,17574,False,False
+2014,senate,6,R,Larry Stutts,LARRY STUTTS,2014 Alabama Senate election - Wikipedia.html,17641,False,True
+2014,senate,7,D,Bryan Bennet,BRYAN BENNET,2014 Alabama Senate election - Wikipedia.html,12404,False,False
+2014,senate,7,R,Paul Sanford,PAUL SANFORD,2014 Alabama Senate election - Wikipedia.html,22873,False,True
+2014,senate,8,D,Horace Clemmons,HORACE CLEMMONS,2014 Alabama Senate election - Wikipedia.html,9322,False,False
+2014,senate,8,R,Steve Livingston,STEVE LIVINGSTON,2014 Alabama Senate election - Wikipedia.html,24332,False,True
+2014,senate,9,R,Clay Scofield,CLAY SCOFIELD,2014 Alabama Senate election - Wikipedia.html,24596,False,True
+2014,senate,10,D,Larry Means,LARRY MEANS,2014 Alabama Senate election - Wikipedia.html,16530,False,False
+2014,senate,10,R,Phil Williams,PHIL WILLIAMS,2014 Alabama Senate election - Wikipedia.html,17967,False,True
+2014,senate,11,D,Ron Crumpton,RON CRUMPTON,2014 Alabama Senate election - Wikipedia.html,6981,False,False
+2014,senate,11,R,Jim McClendon,JIM MCCLENDON,2014 Alabama Senate election - Wikipedia.html,24318,False,True
+2014,senate,12,D,Taylor Stewart,TAYLOR STEWART,2014 Alabama Senate election - Wikipedia.html,13178,False,False
+2014,senate,12,R,Del Marsh,DEL MARSH,2014 Alabama Senate election - Wikipedia.html,17646,False,True
+2014,senate,13,I,Bill Fuller,BILL FULLER,2014 Alabama Senate election - Wikipedia.html,3697,False,False
+2014,senate,13,R,Gerald Dial,GERALD DIAL,2014 Alabama Senate election - Wikipedia.html,16758,False,True
+2014,senate,14,R,Cam Ward,CAM WARD,2014 Alabama Senate election - Wikipedia.html,25724,False,True
+2014,senate,15,R,Slade Blackwell,SLADE BLACKWELL,2014 Alabama Senate election - Wikipedia.html,29498,False,True
+2014,senate,16,D,Cindy Bell,CINDY BELL,2014 Alabama Senate election - Wikipedia.html,8284,False,False
+2014,senate,16,R,"J.T. ""Jabo"" Waggoner",J T JABO WAGGONER,2014 Alabama Senate election - Wikipedia.html,28107,False,True
+2014,senate,17,R,Shay Shelnutt,SHAY SHELNUTT,2014 Alabama Senate election - Wikipedia.html,31105,False,True
+2014,senate,18,D,Rodger Smitherman,RODGER SMITHERMAN,2014 Alabama Senate election - Wikipedia.html,23195,False,True
+2014,senate,19,D,Priscilla Dunn,PRISCILLA DUNN,2014 Alabama Senate election - Wikipedia.html,27143,False,True
+2014,senate,20,D,Linda Coleman,LINDA COLEMAN,2014 Alabama Senate election - Wikipedia.html,23368,False,True
+2014,senate,21,D,Phil Poole,PHIL POOLE,2014 Alabama Senate election - Wikipedia.html,12161,False,False
+2014,senate,21,R,Gerald Allen,GERALD ALLEN,2014 Alabama Senate election - Wikipedia.html,20179,False,True
+2014,senate,22,D,Susan Smith,SUSAN SMITH,2014 Alabama Senate election - Wikipedia.html,11275,False,False
+2014,senate,22,R,Greg Albritton,GREG ALBRITTON,2014 Alabama Senate election - Wikipedia.html,23162,False,True
+2014,senate,23,D,Hank Sanders,HANK SANDERS,2014 Alabama Senate election - Wikipedia.html,29306,False,True
+2014,senate,24,D,Bobby Singleton,BOBBY SINGLETON,2014 Alabama Senate election - Wikipedia.html,26859,False,True
+2014,senate,25,R,Dick Brewbaker,DICK BREWBAKER,2014 Alabama Senate election - Wikipedia.html,29545,False,True
+2014,senate,26,D,Quinton Ross,QUINTON ROSS,2014 Alabama Senate election - Wikipedia.html,25166,False,True
+2014,senate,27,D,Haylee Moss,HAYLEE MOSS,2014 Alabama Senate election - Wikipedia.html,10358,False,False
+2014,senate,27,R,Tom Whatley,TOM WHATLEY,2014 Alabama Senate election - Wikipedia.html,19808,False,True
+2014,senate,28,D,Billy Beasley,BILLY BEASLEY,2014 Alabama Senate election - Wikipedia.html,22148,False,True
+2014,senate,28,R,John Savage,JOHN SAVAGE,2014 Alabama Senate election - Wikipedia.html,8020,False,False
+2014,senate,29,I,Harri Anne Smith,HARRI ANNE SMITH,2014 Alabama Senate election - Wikipedia.html,17830,False,True
+2014,senate,29,R,Melinda McClendon,MELINDA MCCLENDON,2014 Alabama Senate election - Wikipedia.html,16145,False,False
+2014,senate,30,I,Bryan Morgan,BRYAN MORGAN,2014 Alabama Senate election - Wikipedia.html,5653,False,False
+2014,senate,30,R,Clyde Chambliss,CLYDE CHAMBLISS,2014 Alabama Senate election - Wikipedia.html,22916,False,True
+2014,senate,31,D,Larry Greenwood,LARRY GREENWOOD,2014 Alabama Senate election - Wikipedia.html,8627,False,False
+2014,senate,31,R,Jimmy Holley,JIMMY HOLLEY,2014 Alabama Senate election - Wikipedia.html,23067,False,True
+2014,senate,32,I,Kimberly McCuiston,KIMBERLY MCCUISTON,2014 Alabama Senate election - Wikipedia.html,6306,False,False
+2014,senate,32,R,Trip Pittman,TRIP PITTMAN,2014 Alabama Senate election - Wikipedia.html,27837,False,True
+2014,senate,33,D,Vivian Davis Figures,VIVIAN DAVIS FIGURES,2014 Alabama Senate election - Wikipedia.html,23012,False,True
+2014,senate,34,R,Rusty Glover,RUSTY GLOVER,2014 Alabama Senate election - Wikipedia.html,22451,False,True
+2014,senate,35,D,Beau Doolittle,BEAU DOOLITTLE,2014 Alabama Senate election - Wikipedia.html,6862,False,False
+2014,senate,35,R,Bill Hightower,BILL HIGHTOWER,2014 Alabama Senate election - Wikipedia.html,19173,False,True
 2018,house,1,D,72,,2018_house.html,33,False,False
 2018,house,1,I,4,,2018_house.html,0,False,False
 2018,house,1,I,Bobby James Dolan III,BOBBY JAMES DOLAN,2018_house.html,4336,False,False

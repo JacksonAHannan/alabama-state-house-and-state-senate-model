@@ -1,0 +1,22 @@
+{
+  "primary_issue": "infrastructure_energy",
+  "secondary_issues": [
+    "public_education",
+    "school_choice"
+  ],
+  "plain_english_revision": "**Core Change**: Transfers oversight of construction/renovation for most state colleges and universities from the state\u2019s Division of Construction Management (DCM) to their governing boards. **Key Additions**",
+  "revision_direction": "indeterminate",
+  "ideological_valence": "nonideological",
+  "candidate_position_supported": "**Policy Effect**: Expands institutional autonomy over campus infrastructure decisions for state colleges/universities, while mandating DCM\u2019s electronic processes and tornado-safe space requirements for new dorm/classroom buildings.",
+  "confidence": "high",
+  "evidence_quotes": [
+    "**Transfer of Authority**",
+    "\u2018Any powers, authority, and jurisdiction granted to the Division of Construction Management within this section relating to an educational institution... is hereby transferred to the governing board of each institution\u2019",
+    "**Electronic Processes**",
+    "\u2018The Division of Construction Management shall provide for the electronic submission and signing of documents. The bill would also require the division to make annual reports to the Legislature.\u2019",
+    "**Tornado-Safe Spaces**",
+    "\u2018any new contract awarded... shall include an Alabama Building Commission Division of Construction Management approved safe space or hallway rated for tornadoes\u2019"
+  ],
+  "needs_human_review": true,
+  "review_reason": "The amendment\u2019s procedural scope (e.g., renumbering, line deletions) and reliance on cross-referenced sections make full intent ambiguous without the original bill text. The \u2018nonideological\u2019 valence assumes no partisan framing; context may reveal deeper policy implications."
+}
