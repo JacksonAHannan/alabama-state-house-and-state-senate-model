@@ -35,11 +35,39 @@ SPECS = {
     "incumbency": ["dem_incumbent_i", "rep_incumbent_i"],
     "incumbency_demographics": ["dem_incumbent_i", "rep_incumbent_i", "nonwhite_share", "white_college_share"],
     "finance_scenario": ["dem_incumbent_i", "rep_incumbent_i", "log_fundraising_ratio_d_to_r", "ftm_finance_complete"],
+    "federal_realign_finance": ["dem_incumbent_i", "rep_incumbent_i", "log_fundraising_ratio_d_to_r",
+                                "ftm_finance_complete", "federal_contested_coverage"],
 }
 
 
 def historical() -> pd.DataFrame:
-    return prepare(pd.read_csv(ELECTIONS / "canonical_cmo_features.csv"))
+    data = prepare(pd.read_csv(ELECTIONS / "canonical_cmo_features.csv"))
+    federal = pd.read_csv(ELECTIONS / "historical_federal_district_baselines.csv")
+    return data.merge(federal[["cycle", "chamber", "district", "federal_index_margin",
+                               "federal_contested_coverage"]],
+                      on=["cycle", "chamber", "district"], how="left", validate="one_to_one")
+
+
+def current_fundraising_features() -> pd.DataFrame:
+    """Build race ratios from the current Alabama state campaign-finance export.
+
+    An unmatched filing remains unknown. It is not silently converted to zero.
+    """
+    finance = pd.read_csv(WAR / "2026_state_candidate_finance_matches.csv")
+    finance = finance[finance.cycle.eq(2026) & finance.party.isin(["D", "R"])].copy()
+    finance["observed"] = finance.finance_observation_status.eq("observed")
+    finance["receipts"] = pd.to_numeric(finance.state_contributions, errors="coerce")
+    wide = finance.pivot_table(index=["chamber", "district"], columns="party", values="receipts", aggfunc="sum")
+    observed = finance.pivot_table(index=["chamber", "district"], columns="party", values="observed", aggfunc="max")
+    for party in ("D", "R"):
+        if party not in wide: wide[party] = np.nan
+        if party not in observed: observed[party] = False
+    result = wide.reset_index()
+    complete = observed["D"].fillna(False) & observed["R"].fillna(False)
+    result["ftm_finance_complete"] = complete.to_numpy(dtype=int)
+    result["log_fundraising_ratio_d_to_r"] = np.where(
+        complete.to_numpy(), np.log((result["D"] + 500.0) / (result["R"] + 500.0)), np.nan)
+    return result[["chamber", "district", "log_fundraising_ratio_d_to_r", "ftm_finance_complete"]]
 
 
 def prospective_features() -> pd.DataFrame:
@@ -57,8 +85,7 @@ def prospective_features() -> pd.DataFrame:
             inc[party] = False
     inc = inc.rename(columns={"D": "dem_incumbent_i", "R": "rep_incumbent_i"})
     polling = pd.read_csv(WAR / "2026_poll_adjusted_baseline.csv").rename(columns={"status": "polling_baseline_status"})
-    finance = pd.read_csv(WAR / "ftm_race_finance_features.csv")
-    finance = finance[finance.cycle.eq(2026)]
+    finance = current_fundraising_features()
     x = (eligible.merge(current, on=["chamber", "district"]).merge(old, on=["chamber", "district"])
          .merge(demo[["chamber", "district", "nonwhite_share", "white_college_share"]], on=["chamber", "district"])
          .merge(inc[["chamber", "district", "dem_incumbent_i", "rep_incumbent_i"]], on=["chamber", "district"])
@@ -70,7 +97,21 @@ def prospective_features() -> pd.DataFrame:
     x["dem_incumbent_i"] = x.dem_incumbent_i.astype(int)
     x["rep_incumbent_i"] = x.rep_incumbent_i.astype(int)
     x["ftm_finance_complete"] = x.ftm_finance_complete.eq(True).astype(int)
+    # The prospective anchor is itself a federal result (2024 President). The
+    # historical federal-residual model therefore applies to this anchor without
+    # inventing an unavailable 2026 state-office baseline.
+    x["federal_index_margin"] = x.poll_adjusted_dem_margin
+    x["federal_contested_coverage"] = 1.0
     return x
+
+
+def specification_baseline(name: str) -> str:
+    return "federal_index_margin" if name.startswith("federal_") else "prior_pres_dem_margin"
+
+
+def realignment_weights(cycles: pd.Series) -> np.ndarray:
+    """Predeclared era weights: 2008 nationalization and the 2016 break."""
+    return np.select([cycles.ge(2018), cycles.ge(2010)], [4.0, 2.0], default=1.0)
 
 
 def residual_model(features: list[str]) -> Pipeline:
@@ -81,31 +122,38 @@ def residual_model(features: list[str]) -> Pipeline:
 
 
 def backtest_layers(data: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, dict[str, bool]]:
-    # 2010 has no comparable prior-presidential baseline and is deliberately
-    # excluded rather than converted into a fully observed row through imputation.
-    data = data[data.prior_pres_dem_margin.notna()].copy()
+    # Validate prospective layers only in the post-2008 nationalized-election
+    # period. Within that window, the federal specification gives post-2016
+    # observations twice the weight of the 2010-2014 Obama-era observations.
+    data = data[data.cycle.ge(2010) & data.prior_pres_dem_margin.notna()].copy()
     rows, errors = [], []
     cycles = sorted(data.cycle.unique())
     for test_cycle in cycles[1:]:
         train = data[data.cycle.lt(test_cycle)]
         test = data[data.cycle.eq(test_cycle)]
         for name, features in SPECS.items():
-            usable_train = train.dropna(subset=["prior_pres_dem_margin"])
+            baseline_col = specification_baseline(name)
+            usable_train = train.dropna(subset=[baseline_col])
+            usable_test = test.dropna(subset=[baseline_col]).copy()
+            if usable_test.empty:
+                continue
             adjustment = np.zeros(len(test))
             if features:
                 model = residual_model(features)
-                target = usable_train.legislative_dem_margin - usable_train.prior_pres_dem_margin
-                model.fit(usable_train[features], target)
-                adjustment = model.predict(test[features])
-            pred = test.prior_pres_dem_margin.to_numpy() + adjustment
-            err = test.legislative_dem_margin.to_numpy() - pred
-            for race, p, a, e in zip(test.itertuples(), pred, adjustment, err):
+                target = usable_train.legislative_dem_margin - usable_train[baseline_col]
+                fit_args = ({"model__sample_weight": realignment_weights(usable_train.cycle)}
+                            if name.startswith("federal_") else {})
+                model.fit(usable_train[features], target, **fit_args)
+                adjustment = model.predict(usable_test[features])
+            pred = usable_test[baseline_col].to_numpy() + adjustment
+            err = usable_test.legislative_dem_margin.to_numpy() - pred
+            for race, p, a, e in zip(usable_test.itertuples(), pred, adjustment, err):
                 errors.append({"specification": name, "test_cycle": test_cycle, "chamber": race.chamber,
                                "district": race.district, "baseline": race.prior_pres_dem_margin,
                                "adjustment": a, "prediction": p, "actual": race.legislative_dem_margin, "error": e})
-            rows.append({"specification": name, "test_cycle": test_cycle, "races": len(test),
-                         "mae": mean_absolute_error(test.legislative_dem_margin, pred),
-                         "rmse": mean_squared_error(test.legislative_dem_margin, pred) ** .5})
+            rows.append({"specification": name, "test_cycle": test_cycle, "races": len(usable_test),
+                         "mae": mean_absolute_error(usable_test.legislative_dem_margin, pred),
+                         "rmse": mean_squared_error(usable_test.legislative_dem_margin, pred) ** .5})
     detail, errdf = pd.DataFrame(rows), pd.DataFrame(errors)
     summary = (detail.groupby("specification", as_index=False)
                .agg(forward_cycles=("test_cycle", "nunique"), mean_mae=("mae", "mean"),
@@ -202,9 +250,12 @@ def main() -> None:
         if not features:
             test[f"scenario_{name}_margin"] = test.baseline_forecast_margin
             continue
-        fit = train[train.prior_pres_dem_margin.notna()].dropna(subset=features)
+        baseline_col = specification_baseline(name)
+        fit = train.dropna(subset=[baseline_col])
         model = residual_model(features)
-        model.fit(fit[features], fit.legislative_dem_margin - fit.prior_pres_dem_margin)
+        fit_args = ({"model__sample_weight": realignment_weights(fit.cycle)}
+                    if name.startswith("federal_") else {})
+        model.fit(fit[features], fit.legislative_dem_margin - fit[baseline_col], **fit_args)
         adj = model.predict(test[features])
         test[f"scenario_{name}_adjustment"] = adj
         test[f"scenario_{name}_margin"] = test.baseline_forecast_margin + adj

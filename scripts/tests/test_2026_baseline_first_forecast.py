@@ -32,6 +32,20 @@ def test_only_baseline_passes_declared_promotion_gate():
     assert selected == {"baseline"}
 
 
+def test_current_state_fundraising_reaches_forecast_features():
+    forecast = pd.read_csv(WAR / "2026_prospective_features_and_forecast.csv")
+    assert "scenario_finance_scenario_adjustment" in forecast
+    assert forecast.ftm_finance_complete.sum() > 0
+    observed = forecast[forecast.ftm_finance_complete.eq(1)]
+    assert observed.log_fundraising_ratio_d_to_r.notna().all()
+
+
+def test_federal_realign_specification_is_forward_tested():
+    result = pd.read_csv(WAR / "2026_residual_layer_backtest_summary.csv")
+    assert "federal_realign_finance" in set(result.specification)
+    assert result.loc[result.specification.eq("federal_realign_finance"), "forward_cycles"].iloc[0] >= 2
+
+
 def test_simulation_probabilities_and_intervals_are_valid():
     forecast = pd.read_csv(WAR / "2026_prospective_features_and_forecast.csv")
     assert forecast.dem_win_probability.between(0, 1).all()

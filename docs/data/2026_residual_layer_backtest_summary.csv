@@ -1,5 +1,6 @@
 specification,forward_cycles,mean_mae,latest_mae,mean_rmse,promoted,selection_rule
-baseline,2,12.569332409883293,12.03204312936364,17.216921190407486,True,improve_mean_and_latest_forward_mae
-finance_scenario,2,13.275718499840686,10.275802090285518,17.108465165539094,False,improve_mean_and_latest_forward_mae
-incumbency,2,14.00521722323359,10.651333771377443,18.177854923035763,False,improve_mean_and_latest_forward_mae
-incumbency_demographics,2,15.791756833665092,11.444447769525052,19.504911476778005,False,improve_mean_and_latest_forward_mae
+baseline,3,17.341950707854593,12.03204312936364,23.65316339483348,True,improve_mean_and_latest_forward_mae
+finance_scenario,3,17.57758930219303,9.566170572255887,23.11208268639312,False,improve_mean_and_latest_forward_mae
+incumbency,3,18.278189791476198,9.710156726696383,23.857999096181214,False,improve_mean_and_latest_forward_mae
+incumbency_demographics,3,19.445389567041627,10.455266546647715,24.923684270194382,False,improve_mean_and_latest_forward_mae
+federal_realign_finance,3,24.526380648807105,12.842893327384067,31.296259233773792,False,improve_mean_and_latest_forward_mae
