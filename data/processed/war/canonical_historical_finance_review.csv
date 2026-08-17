@@ -1,0 +1,234 @@
+canonical_candidate_id,cycle,chamber,district,party,candidate,total_fundraising,finance_observation_status,source_name,source_measure,aggregation_status,match_score,match_margin,resolution
+AL-1994-house-1-D-STARKEY,1994,house,1,D,Starkey,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-1-R-PHILLIPS,1994,house,1,R,Phillips,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-3-D-BLACK,1994,house,3,D,Black,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-3-R-SMALLWOOD,1994,house,3,R,Smallwood,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-4-D-SMITH,1994,house,4,D,Smith,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-4-R-PAPUCCI,1994,house,4,R,Papucci,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-6-D-SCHMITZ,1994,house,6,D,Schmitz,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-6-R-JORGENSEN,1994,house,6,R,Jorgensen,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-7-D-LETSON,1994,house,7,D,Letson,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-7-R-RANDOLPH,1994,house,7,R,Randolph,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-8-D-DUKES,1994,house,8,D,Dukes,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-8-R-NEW,1994,house,8,R,New,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-12-D-MORRISON,1994,house,12,D,Morrison,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-12-R-BOWLING,1994,house,12,R,Bowling,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-15-D-SHARP,1994,house,15,D,Sharp,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-15-R-CURRY,1994,house,15,R,Curry,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-17-D-MILLICAN,1994,house,17,D,Millican,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-17-R-HARPER,1994,house,17,R,Harper,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-19-D-HALL,1994,house,19,D,Hall,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-19-R-ANDERSON,1994,house,19,R,Anderson,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-26-D-MCDANIEL,1994,house,26,D,Mcdaniel,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-26-R-HOLCOMB,1994,house,26,R,Holcomb,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-27-D-MURPHREE,1994,house,27,D,Murphree,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-27-R-MARTIN,1994,house,27,R,Martin,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-28-D-FORD,1994,house,28,D,Ford,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-28-R-O-BARR,1994,house,28,R,O'Barr,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-29-D-PAGE,1994,house,29,D,Page,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-29-R-ESTES,1994,house,29,R,Estes,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-30-D-GALLIHER,1994,house,30,D,Galliher,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-30-R-HODGES,1994,house,30,R,Hodges,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-32-D-BOYD,1994,house,32,D,Boyd,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-32-R-MONTGOMERY,1994,house,32,R,Montgomery,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-33-D-JOHNSON,1994,house,33,D,Johnson,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-33-R-HATTAWAY,1994,house,33,R,Hattaway,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-35-D-SHADDIX,1994,house,35,D,Shaddix,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-35-R-SIMS,1994,house,35,R,Sims,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-36-D-CAMPBELL,1994,house,36,D,Campbell,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-36-R-ROGERS,1994,house,36,R,Rogers,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-40-D-MARTIN,1994,house,40,D,Martin,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-40-R-KNIGHT,1994,house,40,R,Knight,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-42-D-SMITH,1994,house,42,D,Smith,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-42-R-BIALAS,1994,house,42,R,Bialas,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-43-D-ROMEI,1994,house,43,D,Romei,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-43-R-SANDERSON,1994,house,43,R,Sanderson,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-46-D-JONES,1994,house,46,D,Jones,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-46-R-CARNS,1994,house,46,R,Carns,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-48-D-GULAS,1994,house,48,D,Gulas,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-48-R-HAWKINS,1994,house,48,R,Hawkins,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-49-D-HOLLADAY,1994,house,49,D,Holladay,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-49-R-THOMAS,1994,house,49,R,Thomas,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-50-D-SMITH,1994,house,50,D,Smith,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-50-R-TOWNSEND,1994,house,50,R,Townsend,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-53-D-NEWTON,1994,house,53,D,Newton,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-53-R-BLAKE,1994,house,53,R,Blake,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-54-D-PERDUE,1994,house,54,D,Perdue,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-54-R-PEARSON,1994,house,54,R,Pearson,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-55-D-MINNIFIELD,1994,house,55,D,Minnifield,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-55-R-EVANS,1994,house,55,R,Evans,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-58-D-JOHNSON,1994,house,58,D,Johnson,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-58-R-LELAND,1994,house,58,R,Leland,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-60-D-HILLARD,1994,house,60,D,Hillard,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-60-R-WRIGHT,1994,house,60,R,Wright,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-62-D-ALLEN,1994,house,62,D,Allen,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-62-R-COPELAND,1994,house,62,R,Copeland,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-64-D-WARREN,1994,house,64,D,Warren,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-64-R-BOWEN,1994,house,64,R,Bowen,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-65-D-DOLBARE,1994,house,65,D,Dolbare,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-65-R-WILKINS,1994,house,65,R,Wilkins,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-66-D-WHITE,1994,house,66,D,White,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-66-R-THOMSON,1994,house,66,R,Thomson,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-67-D-MAULL,1994,house,67,D,Maull,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-67-R-WALKER,1994,house,67,R,Walker,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-69-D-THOMAS,1994,house,69,D,Thomas,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-69-R-BROOKS,1994,house,69,R,Brooks,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-72-D-HAYDEN,1994,house,72,D,Hayden,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-72-R-WILLIAMS,1994,house,72,R,Williams,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-73-D-VAUGHAN,1994,house,73,D,Vaughan,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-73-R-HOOPER,1994,house,73,R,Hooper,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-75-D-HOLLEY,1994,house,75,D,Holley,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-75-R-WREN,1994,house,75,R,Wren,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-76-D-MCCLAMMY,1994,house,76,D,McClammy,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-76-R-MERREN,1994,house,76,R,Merren,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-79-D-TURNHAM,1994,house,79,D,Turnham,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-79-R-PIERCE,1994,house,79,R,Pierce,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-80-D-VANCE,1994,house,80,D,Vance,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-80-R-MCCRAINE,1994,house,80,R,Mccraine,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-85-D-BAKER,1994,house,85,D,Baker,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-85-R-RALEY,1994,house,85,R,Raley,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-86-D-CAROTHERS,1994,house,86,D,Carothers,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-86-R-SHUEMAKE,1994,house,86,R,Shuemake,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-87-D-MATHIS,1994,house,87,D,Mathis,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-87-R-SEIBENHENER,1994,house,87,R,Seibenhener,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-88-D-GIPSON,1994,house,88,D,Gipson,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-88-R-TEMPLENTON,1994,house,88,R,Templenton,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-93-D-WILLIAMS,1994,house,93,D,Williams,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-93-R-CLOUSE,1994,house,93,R,Clouse,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-95-D-MCNAIR,1994,house,95,D,Mcnair,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-95-R-MCMILLAN,1994,house,95,R,Mcmillan,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-96-D-BOX,1994,house,96,D,Box,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-96-R-LONG,1994,house,96,R,Long,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-97-D-KENNEDY,1994,house,97,D,Kennedy,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-97-R-BAUMHAUER,1994,house,97,R,Baumhauer,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-103-D-MITCHELL,1994,house,103,D,Mitchell,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-103-R-GARDNER,1994,house,103,R,Gardner,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-104-D-ROCKHOLD,1994,house,104,D,Rockhold,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-104-R-DEAN,1994,house,104,R,Dean,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-105-D-HARPER,1994,house,105,D,Harper,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-house-105-R-CRIGLER,1994,house,105,R,Crigler,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-2-D-BUTLER,1994,senate,2,D,Butler,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-2-R-MANLEY,1994,senate,2,R,Manley,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-3-D-ROBERTS,1994,senate,3,D,Roberts,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-3-R-GENTRY,1994,senate,3,R,Gentry,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-4-D-FARRAR,1994,senate,4,D,Farrar,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-4-R-HALE,1994,senate,4,R,Hale,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-5-D-WILSON,1994,senate,5,D,Wilson,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-5-R-DAVIDSON,1994,senate,5,R,Davidson,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-7-D-FREEMAN,1994,senate,7,D,Freeman,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-7-R-TONDERA,1994,senate,7,R,Tondera,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-9-D-MITCHEM,1994,senate,9,D,Mitchem,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-9-R-GOOD,1994,senate,9,R,Good,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-10-D-FLOYD,1994,senate,10,D,Floyd,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-10-R-SMITH,1994,senate,10,R,Smith,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-12-D-GHEE,1994,senate,12,D,Ghee,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-12-R-JAMES,1994,senate,12,R,James,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-14-D-OWENS,1994,senate,14,D,Owens,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-14-R-ARMISTEAD,1994,senate,14,R,Armistead,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-18-D-SMITHERMAN,1994,senate,18,D,Smitherman,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-18-R-HORN,1994,senate,18,R,Horn,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-22-D-LINDSEY,1994,senate,22,D,Lindsey,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-22-R-HUGHES,1994,senate,22,R,Hughes,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-23-D-SANDERS,1994,senate,23,D,Sanders,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-23-R-CURL,1994,senate,23,R,Curl,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-25-D-ANDERSON,1994,senate,25,D,Anderson,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-25-R-DIXON,1994,senate,25,R,Dixon,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-27-D-LITTLE,1994,senate,27,D,Little,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-27-R-PONDER,1994,senate,27,R,Ponder,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-28-D-CLAY,1994,senate,28,D,Clay,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-28-R-SETTLER,1994,senate,28,R,Settler,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-32-D-KOONTZ,1994,senate,32,D,Koontz,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-32-R-LIPSOCOMB,1994,senate,32,R,Lipsocomb,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-34-D-SULLIVAN,1994,senate,34,D,Sullivan,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-34-R-MYERS,1994,senate,34,R,Myers,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-35-D-WINDOM,1994,senate,35,D,Windom,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1994-senate-35-R-HEBERT,1994,senate,35,R,Hebert,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1998-house-2-R-TATUM,1998,house,2,R,Tatum,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1998-house-3-R-SMALLWOOD,1998,house,3,R,Smallwood,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1998-house-12-R-HASTIMGS,1998,house,12,R,Hastimgs,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1998-house-13-R-BRANCH,1998,house,13,R,Branch,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1998-house-20-D-WILBURN,1998,house,20,D,Wilburn,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1998-house-23-R-SHELTON,1998,house,23,R,Shelton,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1998-house-29-R-MALONE,1998,house,29,R,Malone,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1998-house-32-R-BRADFORD,1998,house,32,R,Bradford,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1998-house-60-R-RUSSELL,1998,house,60,R,Russell,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1998-house-65-R-OVERTON,1998,house,65,R,Overton,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1998-house-66-R-AUST,1998,house,66,R,Aust,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1998-house-67-R-DOBYNES,1998,house,67,R,Dobynes,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1998-house-72-R-SUTTON,1998,house,72,R,Sutton,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1998-house-87-D-MATHIS,1998,house,87,D,Mathis,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1998-senate-3-R-BUCHANAN,1998,senate,3,R,Buchanan,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1998-senate-8-R-CULPEPPER,1998,senate,8,R,Culpepper,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1998-senate-12-D-THOMAS,1998,senate,12,D,Thomas,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1998-senate-18-D-MORROW,1998,senate,18,D,Morrow,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1998-senate-18-R-BRITNELL,1998,senate,18,R,Britnell,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1998-senate-24-R-WILLIAMS,1998,senate,24,R,Williams,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1998-senate-30-R-HOLLAND,1998,senate,30,R,Holland,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-1998-senate-35-D-STATEN,1998,senate,35,D,Staten,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-house-1-D-STARKEY-NELSON,2002,house,1,D,"Starkey, Nelson",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-house-3-R-BARNES-STEVEN-C,2002,house,3,R,"Barnes, Steven C.",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-house-7-R-RIDDLE-YOLANDA-YOYO,2002,house,7,R,"Riddle, Yolanda (Yoyo)",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-house-16-R-ACKER-JOE-D,2002,house,16,R,"Acker, Joe D.",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-house-25-R-GARNER-RAY,2002,house,25,R,"Garner, Ray",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-house-28-R-ABEL-DAVID-C,2002,house,28,R,"Abel, David C.",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-house-29-D-PAGE-JACK,2002,house,29,D,"Page, Jack",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-house-32-R-LITTLE-BENJAMIN-L,2002,house,32,R,"Little, Benjamin L.",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-house-33-D-CURTIS-CLARA,2002,house,33,D,"Curtis, Clara",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-house-33-R-JOHNSON-RON,2002,house,33,R,"Johnson, Ron",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-house-37-R-CREED-WAYNE-J,2002,house,37,R,"Creed, Wayne J.",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-house-40-D-FITE-LEA,2002,house,40,D,"Fite, Lea",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-house-41-D-MCKINZIE-MACK,2002,house,41,D,"McKinzie, Mack",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-house-42-D-MARTIN-JAMES-M-JIMMY,2002,house,42,D,"Martin, James M. ""Jimmy""",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-house-50-R-MCCLENDON-JIM,2002,house,50,R,"McClendon, Jim",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-house-59-R-WASHINGTON-WILLIAM,2002,house,59,R,"Washington, William",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-house-63-R-BENTLEY-ROBERT,2002,house,63,R,"Bentley, Robert",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-house-67-D-SALAAM-Y,2002,house,67,D,"Salaam, Y.",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-house-81-R-PATTERSON-BENJIE,2002,house,81,R,"Patterson, Benjie",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-house-85-D-BAKER-LOCY-SUNNY,2002,house,85,D,"Baker, Locy ""Sunny""",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-house-102-D-JOHNSON-GARY,2002,house,102,D,"Johnson, Gary",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-senate-2-R-ANDREWS-STEVE,2002,senate,2,R,"Andrews, Steve",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-senate-8-D-BARRON-LOWELL,2002,senate,8,D,"Barron, Lowell",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-senate-9-R-EDMONDS-DORIS,2002,senate,9,R,"Edmonds, Doris",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-senate-10-R-WILLIAMS-DAVID-L,2002,senate,10,R,"Williams, David L.",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-senate-11-D-PREIUTT-JIM,2002,senate,11,D,"Preiutt, Jim",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-senate-11-R-BRADFORD-RALPH-SR,2002,senate,11,R,"Bradford, Ralph, Sr.",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-senate-12-D-GRAY-PRESTON-R-JR,2002,senate,12,D,"Gray, Preston R., Jr.",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-senate-15-D-TURNER-JOHN,2002,senate,15,D,"Turner, John",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-senate-17-D-MOORE-CAROLINE-B,2002,senate,17,D,"Moore, Caroline B.",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-senate-23-R-MOTES-RICHARD,2002,senate,23,R,"Motes, Richard",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-senate-25-D-COX-HOBSON,2002,senate,25,D,"Cox, Hobson",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2002-senate-35-R-CALLAHAN-GEORGE-M,2002,senate,35,R,"Callahan, George M.",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2006-house-6-R-JOHN-TONY-STILES,2006,house,6,R,"JOHN ""TONY"" STILES",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2006-house-7-R-MICHAEL-ROBINSON,2006,house,7,R,MICHAEL ROBINSON,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2006-house-13-R-JAMES-BROOKS,2006,house,13,R,JAMES BROOKS,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2006-house-35-R-LONNIE-C-ROBINSON,2006,house,35,R,LONNIE C. ROBINSON,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2006-house-85-D-BAKER,2006,house,85,D,BAKER,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2006-house-85-R-RALEY,2006,house,85,R,RALEY,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2006-house-88-D-M-BENJAMIN-ABERNATHY-I,2006,house,88,D,"M. BENJAMIN ABERNATHY, I",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2006-house-94-D-GENE-PONDER,2006,house,94,D,GENE PONDER,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2006-senate-9-D-HINTON-HITCHEM,2006,senate,9,D,HINTON HITCHEM,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2006-senate-11-R-JIM-HETHCOX,2006,senate,11,R,JIM HETHCOX,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2006-senate-18-R-STANLEY-NANCE,2006,senate,18,R,STANLEY NANCE,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2006-senate-21-R-JOE-NATHAN-SAXTON-SR,2006,senate,21,R,"JOE NATHAN SAXTON, SR.",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2010-house-27-D-JEFF-MCLAUGHLIN,2010,house,27,D,JEFF McLAUGHLIN,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2010-house-32-R-RON-STRUZIK,2010,house,32,R,RON STRUZIK,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2010-house-75-D-GLENN-L-ALLEN,2010,house,75,D,GLENN L. ALLEN,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2010-house-93-D-RONNIE-HELMS,2010,house,93,D,RONNIE HELMS,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2010-house-98-R-SHARON-L-POWE,2010,house,98,R,SHARON L. POWE,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2010-senate-25-D-DOUG-SMITTY-SMITH,2010,senate,25,D,DOUG 'Smitty' SMITH,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2010-senate-33-R-BRAD-MOSER,2010,senate,33,R,BRAD MOSER,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2014-house-10-D-MEANS,2014,house,10,D,Means,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2014-house-40-D-COPELAND,2014,house,40,D,Copeland,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2014-house-47-D-SALVATORE-BAMBINELLI,2014,house,47,D,Salvatore Bambinelli,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2014-house-78-R-TIJUANNA-ADETUNJI,2014,house,78,R,Tijuanna Adetunji,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2014-senate-16-D-CINDY-BELL,2014,senate,16,D,Cindy Bell,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2014-senate-27-D-HAYLEE-MOSS,2014,senate,27,D,Haylee Moss,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2014-senate-28-D-BILLY-BEASLEY,2014,senate,28,D,Billy Beasley,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2014-senate-31-D-LARRY-GREENWOOD,2014,senate,31,D,Larry Greenwood,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2018-house-27-D-BILL-JONES,2018,house,27,D,Bill Jones,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2018-house-48-D-ALLI-SUMMERFORD,2018,house,48,D,Alli Summerford,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2018-house-66-D-SUSAN-E-SMITH,2018,house,66,D,Susan E. Smith,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2018-house-85-R-J-RON-WILSON,2018,house,85,R,J. Ron Wilson,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2018-senate-26-D-DAVID-COACH-BURKETTE,2018,senate,26,D,"David ""Coach"" Burkette",,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2022-house-40-D-GSL040DHOW,2022,house,40,D,GSL040DHOW,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research
+AL-2022-house-65-D-GSL065DCAS,2022,house,65,D,GSL065DCAS,,unknown_unmatched,none,unknown,unmatched,,,pending_manual_or_archival_research

@@ -3,8 +3,8 @@
   const $ = s => document.querySelector(s);
   const $$ = s => [...document.querySelectorAll(s)];
   const params = new URLSearchParams(location.search);
-  const state = { chamber: params.get("chamber")||"house", model: params.get("model")||"ensemble_ramp_ridge_80_20", mode: params.get("mode")||"probability", selected: +(params.get("district")||0)||null, sort: "closeness", asc: true };
-  const PUBLIC_MODEL="ensemble_ramp_ridge_80_20";
+  const state = { chamber: params.get("chamber")||"house", model: params.get("model")||"basic_polling_100", mode: params.get("mode")||"probability", selected: +(params.get("district")||0)||null, sort: "closeness", asc: true };
+  const PUBLIC_MODEL="basic_polling_100";
   const chamberName = c => c === "house" ? "State House" : "State Senate";
   const districtName = (c,d) => `${c === "house" ? "HD" : "SD"}-${d}`;
   const partyName = p => ({D:"Democratic",R:"Republican",I:"Independent"}[p] || p);
@@ -124,7 +124,7 @@
           <div class="overview-stat range"><b>${s.low}–${s.high}</b><span>Democratic 80% range</span></div>
         </div>
         <div class="seatbar" aria-hidden="true"><div class="d" style="width:${100*s.median/s.total}%"></div><div class="u" style="width:${100*s.unknown/s.total}%"></div><div class="r" style="width:${100*(s.total-s.median-s.unknown)/s.total}%"></div><i class="majority-mark" style="left:${100*(Math.floor(s.total/2)+1)/s.total}%"></i></div>
-        <div class="overview-foot">${modeled} D–R forecasts · ${s.competitive} competitive · ${s.disagreements} winner disagreements · ${s.control<.001?"<0.1":(100*s.control).toFixed(1)}% D-control chance${state.model!==PUBLIC_MODEL?` · ${s.median-s.publicMedian>=0?"+":""}${s.median-s.publicMedian} median D seats vs public`:""}${s.unknown?` · ${s.unknown} unmodeled`:""}</div>
+        <div class="overview-foot">${modeled} D–R forecasts · ${s.competitive} competitive · ${s.disagreements} winner disagreements · ${s.control<.001?"<0.1":(100*s.control).toFixed(1)}% D-control chance${state.model!==PUBLIC_MODEL?` · ${s.median-s.publicMedian>=0?"+":""}${s.median-s.publicMedian} median D seats vs Basic`:""}${s.unknown?` · ${s.unknown} unmodeled`:""}</div>
       </button>`;
     }).join("");
     $$('[data-overview]').forEach(b=>b.addEventListener("click",()=>selectChamber(b.dataset.overview,true)));
@@ -210,22 +210,17 @@
     let running=r.pollBaseline;const maxGroup=Math.max(1,...grouped.map(g=>Math.abs(g.effect)));
     const groupRows=grouped.map(g=>{running+=g.effect;return `<div class="metric contribution group"><span>${g.name}<small>${g.items.length} model term${g.items.length===1?"":"s"}</small><i class="effect-track" aria-hidden="true"><i class="${g.effect>=0?"d":"r"}" style="width:${100*Math.abs(g.effect)/maxGroup}%"></i></i></span><b>${fmtEffect(g.effect)}<small>→ ${fmtMargin(running)}</small></b></div>`}).join("");
     const technical=steps.map(s=>`<div class="metric contribution"><span>${variableLabels[s.variable]||s.variable}<small>${fmtValue(s.variable,s.value)}</small></span><b>${fmtEffect(s.effect)}<small>→ ${fmtMargin(s.runningMargin)}</small></b></div>`).join("");
-    const compare=state.model===PUBLIC_MODEL?`<div class="comparison-call"><b>Public forecast</b><span>Ramp alone: ${fmtMargin(r.models.post2016_ramp.margin)} · Ensemble adjustment: ${fmtEffect(r.margin-r.models.post2016_ramp.margin)}</span></div>`:`<div class="comparison-call ${winnerFor(r.margin)!==winnerFor(pub.margin)?"warning":""}"><b>${fmtEffect(delta)} vs public model</b><span>Public: ${fmtMargin(pub.margin)}${winnerFor(r.margin)!==winnerFor(pub.margin)?" · Models disagree on the favored party":""}</span></div>`;
+    const compare=state.model===PUBLIC_MODEL?`<div class="comparison-call"><b>Basic model</b><span>Transparent default and guardrail for every richer specification.</span></div>`:`<div class="comparison-call ${winnerFor(r.margin)!==winnerFor(pub.margin)?"warning":""}"><b>${fmtEffect(delta)} vs Basic</b><span>Basic: ${fmtMargin(pub.margin)}${winnerFor(r.margin)!==winnerFor(pub.margin)?" · Models disagree on the favored party":""}</span></div>`;
     const financeComplete=r.candidates.filter(c=>["D","R"].includes(c.party)).every(c=>c.financeStatus==="observed");
     const model=r.status==="modeled"?`<div class="decomp"><h4>${selectedModel.label} forecast</h4>
       ${compare}<div class="data-badges"><span>${financeComplete?"Complete matched finance":"Incomplete finance data"}</span><span>${winnerDisagreement(r)?"Models disagree on winner":"Models agree on winner"}</span></div>
       <div class="metric"><span>2024 presidential margin</span><b>${fmtMargin(r.pres24)}</b></div>
       <div class="metric"><span>2026 environment change</span><b>${fmtEffect(r.environmentAdjustment)}</b></div>
-      <div class="metric"><span>Post-2016 ramp</span><b>${fmtMargin(r.pollBaseline)}</b></div>
+      <div class="metric"><span>Basic forecast</span><b>${fmtMargin(r.pollBaseline)}</b></div>
       ${groupRows||'<div class="metric"><span>Additional model adjustment</span><b>None</b></div>'}
       <div class="metric total"><span>Selected model forecast</span><b>${fmtMargin(r.margin)}</b></div>
       ${steps.length?`<details class="technical-terms"><summary>Technical variable detail (${steps.length} terms)</summary>${technical}<small>These are exact sequential contribution estimates in the fixed order shown. For nonlinear models, changing the order can change individual attributions even though the final forecast is unchanged.</small></details>`:""}
-      <details class="scenario-box"><summary>View experimental candidate scenarios</summary>
-        <div class="metric"><span>Finance scenario shift</span><b>${fmtMargin(r.financeScenario-r.margin)}</b></div>
-        <div class="metric"><span>Finance scenario margin</span><b>${fmtMargin(r.financeScenario)}</b></div>
-        <div class="metric"><span>Prior-CMO scenario shift</span><b>${fmtMargin(r.cmoScenarioAdjustment)}</b></div>
-        <small>These layers failed or lack the declared forward-validation gate and do not affect the headline.</small>
-      </details>${uncertaintyHtml(r)}<div class="source-note"><b>Data provenance</b><span>Election baseline, polling, ACS demographics, certified candidates, and Alabama finance filings. Dates and downloads appear in the source ledger below.</span></div></div>`:"";
+      ${state.model===PUBLIC_MODEL?"":`<div class="scenario-box"><small>Fundamentals+ incorporates candidate and district information, but it did not beat Basic in the 2022 holdout and therefore remains experimental.</small></div>`}${uncertaintyHtml(r)}<div class="source-note"><b>Data provenance</b><span>Election baseline, polling, ACS demographics, regional context, certified candidates, candidate history, and Alabama finance filings. Dates and downloads appear in the source ledger below.</span></div></div>`:"";
     const ordered=[...DATA[state.chamber].races].filter(x=>x.status==="modeled").sort((a,b)=>Math.abs(a.margin)-Math.abs(b.margin)), pos=ordered.findIndex(x=>x.district===r.district);
     const prev=ordered[(pos-1+ordered.length)%ordered.length], next=ordered[(pos+1)%ordered.length];
     $("#detail").innerHTML=`<div class="race-kicker">2026 general election</div><div class="race-title">${chamberName(state.chamber)} District ${r.district}</div><button class="share-link small-button" id="shareRace">Copy link</button><span class="rating" style="background:${bg}">${effectiveRating(r)}</span>${headline}<div>${r.candidates.map(candidateHtml).join("")||"<p>No certified candidate listed.</p>"}</div>${model}<div class="race-nav"><button class="small-button" data-race-nav="${prev?.district||r.district}">← Closer race</button><button class="small-button" data-race-nav="${next?.district||r.district}">Next race →</button></div>`;
@@ -275,7 +270,7 @@
   }
 
   function downloadCsv(){
-    const header=["selected_model","chamber","district","candidates","rating","dem_win_probability","forecast_margin","public_model_margin","difference_from_public","margin_80_low","margin_80_high","models_disagree_on_winner"];
+    const header=["selected_model","chamber","district","candidates","rating","dem_win_probability","forecast_margin","basic_model_margin","difference_from_basic","margin_80_low","margin_80_high","models_disagree_on_winner"];
     const esc=v=>`"${String(v??"").replaceAll('"','""')}"`;
     const body=DATA[state.chamber].races.map(r=>[state.model,state.chamber,r.district,r.candidates.map(c=>`${c.name} (${c.party})`).join("; "),effectiveRating(r),r.demProbability,r.margin,publicVersion(r)?.margin,modelDelta(r),r.low80,r.high80,winnerDisagreement(r)].map(esc).join(","));
     const blob=new Blob([[header.join(","),...body].join("\n")],{type:"text/csv"}),a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=`alabama_2026_${state.chamber}_forecast.csv`;a.click();URL.revokeObjectURL(a.href);
