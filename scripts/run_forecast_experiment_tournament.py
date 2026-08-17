@@ -21,8 +21,8 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "processed" / "war"
 SEED = 20260816
 PUBLIC_MODELS = {
-    "post2016_ramp": "Post-2016 ramp",
     "ensemble_ramp_ridge_80_20": "80/20 ramp + ridge",
+    "post2016_ramp": "Post-2016 ramp",
     "ramp_all_extra_trees": "Extra Trees",
     "ramp_all_gradient_boosting": "Gradient boosting",
     "ramp_all_spline_ridge": "Spline ridge",

@@ -56,7 +56,21 @@ def test_model_switcher_and_default_decomposition_are_complete():
     assert set(race["models"]) == {model["id"] for model in data["models"]}
     default = race["models"]["ensemble_ramp_ridge_80_20"]
     assert default["steps"]
-    assert abs(default["steps"][-1]["runningMargin"] - default["margin"]) < 1e-8
+    assert len(data["contributionVariables"]) == len(default["steps"])
+    assert abs(default["steps"][-1][2] - default["margin"]) < 1e-8
+
+
+def test_comparison_ui_provenance_and_mobile_table_contract():
+    text, data = page_and_payload()
+    assert all(model.get("status") and model.get("description") for model in data["models"])
+    assert len(data["provenance"]) >= 6
+    assert "Models disagree on winner" in text
+    assert "Technical variable detail" in text
+    assert "Data sources and freshness" in text
+    assert "Finance scenario</th>" not in text
+    assert "difference_from_public" in text
+    assert "URLSearchParams(location.search)" in text
+    assert 'aria-controls="workspace"' in text
 
 
 def test_personal_branding_and_profile_links():

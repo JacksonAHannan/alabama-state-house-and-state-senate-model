@@ -64,10 +64,26 @@ def build_payload():
     build_date=dt.date.today()
     summaries=pd.read_csv(WAR/"forecast_experiment_tournament_summary.csv").set_index("specification")
     ensemble_summaries=pd.read_csv(WAR/"forecast_experiment_ensemble_summary.csv").set_index("specification")
+    model_copy={
+        "ensemble_ramp_ridge_80_20":("Public forecast","Conservative blend that improved every forward holdout versus the ramp."),
+        "post2016_ramp":("Conservative baseline","Transfers the projected national environment using the post-2016 cadence."),
+        "ramp_all_extra_trees":("Experimental nonlinear","Best all-cycle point accuracy; less stable in 2018."),
+        "ramp_all_gradient_boosting":("Experimental nonlinear","Flexible residual model with strong recent accuracy."),
+        "ramp_all_spline_ridge":("Experimental nonlinear","Best 2022 result; effects vary nonlinearly with inputs."),
+        "ramp_all_elastic_net":("Experimental regularized","Strong all-cycle accuracy and the best calibration among leading challengers."),
+    }
     payload={"meta":{"pollAsOf":poll_date.isoformat(),"buildDate":build_date.isoformat(),
                      "financeAsOf":"2026-08-14","pollStalenessDays":(build_date-poll_date).days,
                      "model":"ensemble_ramp_ridge_80_20","version":"2026.08.16-ramp-ridge-80-20"},
-             "models":[]}
+             "models":[],"contributionVariables":(contributions[["step","variable"]].drop_duplicates()
+                 .sort_values("step").variable.tolist()),"provenance":[
+                 {"category":"Election baseline","source":"2024 presidential results allocated to 2026 districts","asOf":"2024 general election","download":"data/2026_model_comparison.csv"},
+                 {"category":"National environment","source":"Quality-gated generic-ballot polling and Catalist midterm history","asOf":poll_date.isoformat(),"download":"data/polling_environment.csv"},
+                 {"category":"Demographics","source":"U.S. Census ACS district composition and reviewed demographic transfer inputs","asOf":"latest model vintage","download":"data/2026_model_variable_contributions.csv"},
+                 {"category":"Candidates and incumbency","source":"Certified candidate roster and incumbent matching","asOf":build_date.isoformat(),"download":"data/2026_model_comparison.csv"},
+                 {"category":"Campaign finance","source":"Alabama state campaign-finance filings; unmatched records remain missing","asOf":"2026-08-14","download":"data/2026_model_variable_contributions.csv"},
+                 {"category":"Validation","source":"Seven expanding-window holdouts, 1998–2022","asOf":"2022 election","download":"data/forecast_experiment_tournament_summary.csv"}
+             ]}
     model_forecasts={}; model_seats={}
     for model,label in PUBLIC_MODELS.items():
         modeled=forecast.copy()
@@ -77,7 +93,9 @@ def build_payload():
         model_forecasts[model]={(r.chamber,int(r.district)):r for r in modeled.itertuples()}
         model_seats[model]=seat_dist
         score=(ensemble_summaries.loc[model] if model in ensemble_summaries.index else summaries.loc[model])
-        payload["models"].append({"id":model,"label":label,"default":model=="ensemble_ramp_ridge_80_20",
+        status,description=model_copy[model]
+        payload["models"].append({"id":model,"label":label,"status":status,"description":description,
+            "default":model=="ensemble_ramp_ridge_80_20",
             "meanMae":clean(score.cycle_balanced_mean_mae),"recentMae":clean(score.post2016_mean_mae),
             "latestMae":clean(score.latest_mae)})
     for chamber,map_path in MAPS.items():
@@ -97,10 +115,10 @@ def build_payload():
                 for model in PUBLIC_MODELS:
                     mr=model_forecasts[model][(chamber,district)]
                     steps=contributions[(contributions.model.eq(model))&(contributions.chamber.eq(chamber))&(contributions.district.eq(district))]
-                    model_values[model]={"margin":float(mr.predicted_dem_margin),"demProbability":float(mr.dem_win_probability),
-                        "low80":float(mr.margin_80_low),"high80":float(mr.margin_80_high),
-                        "steps":[{"variable":s.variable,"value":clean(s.value),"effect":float(s.contribution),
-                                  "runningMargin":float(s.running_margin)} for s in steps.itertuples()]}
+                    model_values[model]={"margin":round(float(mr.predicted_dem_margin),6),"demProbability":round(float(mr.dem_win_probability),6),
+                        "low80":round(float(mr.margin_80_low),6),"high80":round(float(mr.margin_80_high),6),
+                        "steps":[[clean(s.value),round(float(s.contribution),6),round(float(s.running_margin),6)]
+                                 for s in steps.itertuples()]}
                 selected=model_values["ensemble_ramp_ridge_80_20"]
                 p=selected["demProbability"]; margin=selected["margin"]; low80=selected["low80"]; high80=selected["high80"]
                 baseline=float(row.poll_adjusted_dem_margin); pres24=float(row.baseline_2024_pres_dem_margin)
@@ -133,7 +151,7 @@ HTML="""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="v
 <header class="mast"><div class="mast-inner"><div class="brand">Jackson Hannan<small>Alabama legislative forecast</small></div><nav class="social-nav" aria-label="Jackson Hannan online"><a href="https://github.com/JacksonAHannan" target="_blank" rel="me noopener">GitHub</a><a href="https://www.instagram.com/topsoilintraining/" target="_blank" rel="me noopener">Instagram</a><a href="https://substack.com/@jacksonhannan" target="_blank" rel="me noopener">Substack</a><a href="https://www.linkedin.com/in/jackson-hannan" target="_blank" rel="me noopener">LinkedIn</a></nav></div></header>
 <section class="hero"><div class="kicker">The Alabama Legislature</div><h1>2026 Election Forecast</h1><div class="dek">A district-by-district forecast anchored to 2024 presidential performance and adjusted for the projected 2026 national environment using Alabama’s demographic composition.</div><div class="status-row"><span class="status-chip">Forecast built <b id="buildDate"></b></span><span class="status-chip">Polling through <b id="pollDate"></b></span><span class="status-chip" id="pollAge"></span><span class="status-chip">Finance through <b id="financeDate"></b></span></div>
 <details class="quick-method"><summary>How the headline forecast works</summary><ol><li>Allocate the observed 2024 presidential vote into each 2026 legislative district.</li><li>Apply the post-2016 national-environment ramp.</li><li>Blend 80% of that ramp with 20% of a regularized model using incumbency, fundraising, demographics, presidential trend, chamber, and realignment-era variables.</li><li>Simulate shared statewide, chamber, and district uncertainty.</li></ol></details></section>
-<main class="shell"><section class="model-switcher" aria-labelledby="modelSwitcherTitle"><div><div class="kicker">Compare validated models</div><h2 id="modelSwitcherTitle">Forecast model</h2><p id="modelDescription" class="section-note"></p></div><div class="model-tabs" id="modelTabs" role="tablist" aria-label="Forecast model"></div></section><section class="overview-grid" id="overviewGrid" aria-label="House and Senate forecast summaries"></section>
+<main class="shell"><section class="model-switcher" aria-labelledby="modelSwitcherTitle"><div><div class="kicker">Backtested comparisons</div><h2 id="modelSwitcherTitle">Forecast model</h2><p id="modelDescription" class="section-note"></p></div><div class="model-scores" id="modelScores" aria-label="Forward-validation error scores"></div><div class="model-tabs" id="modelTabs" role="tablist" aria-label="Forecast model"></div><p class="mae-note">MAE is the average absolute district-margin error; lower is better. Only two holdouts occur after 2016.</p></section><section class="overview-grid" id="overviewGrid" aria-label="House and Senate forecast summaries"></section>
 <section class="workspace" id="workspace"><header class="workspace-head"><h2 id="chamberTitle"></h2><div class="segmented" aria-label="Select chamber"><button data-chamber="house" aria-pressed="true">State House</button><button data-chamber="senate" aria-pressed="false">State Senate</button></div></header>
 <div class="chamber-strip"><div class="strip-stat"><b id="medianSeats"></b><span>Median Democratic seats</span></div><div class="strip-stat distribution-cell"><div class="distribution" id="distribution" aria-label="Simulated Democratic seat distribution"></div><div class="distribution-axis" id="distributionAxis"></div></div><div class="strip-stat"><b id="seatRange"></b><span>Democratic 80% seat range</span></div></div>
 <div class="interactive"><section class="map-panel"><div class="map-head"><div><h3 id="mapTitle"></h3><p>Choose a district on the map or with the district finder.</p></div><div class="mode-tabs" aria-label="Map display"><button data-mode="probability" aria-pressed="true">Win chance</button><button data-mode="margin" aria-pressed="false">Margin</button><button data-mode="rating" aria-pressed="false">Rating</button></div></div><div class="map-tools"><label class="sr-only" for="districtSelect">Find a district</label><select id="districtSelect"></select><span class="section-note">Urban districts can also be selected from this list.</span></div><div class="map-wrap"><svg id="map" viewBox="0 0 650 710" role="group"></svg></div><div class="legend" id="legend" aria-label="Map legend"></div></section>
@@ -194,6 +212,14 @@ def main():
     payload_data=build_payload()
     payload=json.dumps(payload_data,separators=(",",":"),ensure_ascii=False)
     page=HTML.replace("__CSS__",css).replace("__PAYLOAD__",payload).replace("__JS__",js)
+    page=page.replace('<section class="workspace" id="workspace">',
+                      '<section class="workspace" id="workspace" role="tabpanel" aria-live="polite">')
+    page=page.replace('<option value="crosses">80% interval crosses even</option>',
+                      '<option value="crosses">80% interval crosses even</option><option value="winner-disagreement">Models disagree on winner</option><option value="rating-disagreement">Models disagree on rating</option>')
+    page=page.replace('<th><button data-sort="margin">Headline margin<span></span></button></th><th>80% interval</th><th>Finance scenario</th>',
+                      '<th><button data-sort="margin">Selected margin<span></span></button></th><th>Vs. public</th><th>80% interval</th>')
+    page=page.replace('<section class="section method">',
+                      '<section class="section provenance"><h2>Data sources and freshness</h2><p class="section-note">Observed, modeled, missing, and imputed values are distinguished in district details. Supporting data remain downloadable.</p><div id="sourceLedger" class="source-ledger"></div></section><section class="section method">')
     page=page.replace(
         "Headline margins use the selected baseline. Candidate and fundraising scenarios are shown separately and do not change ratings.",
         "Margins, probabilities, intervals, and ratings use the model selected above.")
