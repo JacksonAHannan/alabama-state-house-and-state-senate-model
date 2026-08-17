@@ -37,6 +37,12 @@ def main():
     result["two_party_votes"]=result.dem_votes+result.rep_votes
     result["legislative_dem_margin"]=100*(result.dem_votes-result.rep_votes)/result.two_party_votes.where(result.two_party_votes.gt(0))
     result["war_eligible"]=result.dem_votes.gt(0)&result.rep_votes.gt(0)
+    result["contest_status"]=np.select(
+        [result.dem_votes.gt(0)&result.rep_votes.eq(0),
+         result.rep_votes.gt(0)&result.dem_votes.eq(0),
+         result.war_eligible],
+        ["unopposed_democrat","unopposed_republican","contested_two_party"],
+        default="no_major_party_votes")
     inc=(candidates[candidates.incumbent.astype(bool)].groupby(["year","chamber","district","canonical_party"]).size()
          .unstack(fill_value=0).reset_index())
     inc=inc.rename(columns={"year":"cycle","D":"dem_incumbent","R":"rep_incumbent"})

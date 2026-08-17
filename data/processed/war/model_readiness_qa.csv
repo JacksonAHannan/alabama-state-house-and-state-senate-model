@@ -10,6 +10,6 @@ scores,candidate_stability_band_order,0.0,True,
 coverage,core_baseline_complete_eligible,511.0,True,100.0% complete.
 coverage,finance_complete_eligible,282.0,False,55.2% complete; model includes missingness flag.
 source_validation,2018_candidate_totals_match_official_workbooks,204.0,True,Exact candidate vote matches out of 204 modeled candidates.
-validation,random_fold_oof_r2_positive,0.3309470108160228,True,
-validation,leave_cycle_out_r2_nonnegative,0.2313670399146329,True,A failure means the model should not be described as validated across unseen eras.
-validation,headline_beats_naive_random_fold_mae,4.346804639728354,True,Positive value is MAE improvement over a training-mean benchmark.
+validation,random_fold_oof_r2_positive,0.3207294664307318,True,
+validation,leave_cycle_out_r2_nonnegative,0.1681750118692838,True,A failure means the model should not be described as validated across unseen eras.
+validation,headline_beats_naive_random_fold_mae,4.275188348954794,True,Positive value is MAE improvement over a training-mean benchmark.

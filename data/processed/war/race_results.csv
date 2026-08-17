@@ -133,7 +133,7 @@ cycle,chamber,district,dem_votes,rep_votes,two_party_votes,legislative_dem_margi
 2014,senate,27.0,10358.0,19808.0,30166.0,-31.326659152688457,True,R,2012_enacted
 2014,senate,28.0,22147.0,8020.0,30167.0,46.829316803129245,True,D,2012_enacted
 2014,senate,29.0,0.0,16145.0,16145.0,-100.0,False,R,2012_enacted
-2014,senate,30.0,2020.0,20896.0,22916.0,-82.3703962297085,True,R,2012_enacted
+2014,senate,30.0,0.0,22916.0,22916.0,-100.0,False,R,2012_enacted
 2014,senate,31.0,8627.0,23066.0,31693.0,-45.558956236392895,True,R,2012_enacted
 2014,senate,32.0,0.0,27837.0,27837.0,-100.0,False,R,2012_enacted
 2014,senate,33.0,23012.0,0.0,23012.0,100.0,False,D,2012_enacted

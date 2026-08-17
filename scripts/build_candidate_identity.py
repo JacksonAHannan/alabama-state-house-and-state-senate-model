@@ -31,6 +31,50 @@ def opposing_party_alias(name, party, pool):
     conflict=bool(found is not None and score>=88 and margin>=5 and found.canonical_party != party)
     return found,score,margin,conflict
 
+def reconcile_official_candidate_results(canonical, official):
+    """Replace covered races with independently consolidated official totals.
+
+    County workbooks are useful for geography, but candidate labels can vary by
+    county and some files contain duplicated contest blocks.  The WAR candidate
+    table is built independently from consolidated official returns, so it is
+    authoritative for candidate identity, party, and race-wide vote totals.
+    """
+    required={"cycle","chamber","district","candidate","party","votes"}
+    missing=required-set(official.columns)
+    if missing:
+        raise ValueError(f"Official candidate results missing columns: {sorted(missing)}")
+    covered=official[official.party.isin(["D","R"])].copy()
+    covered["year"]=pd.to_numeric(covered.cycle,errors="raise").astype(int)
+    covered["district"]=pd.to_numeric(covered.district,errors="raise").astype(int)
+    covered["canonical_party"]=covered.party
+    covered["canonical_votes"]=pd.to_numeric(covered.votes,errors="raise")
+    covered["canonical_name"]=covered.candidate.astype(str)
+    covered["canonical_source"]="official_consolidated_candidate_results"
+    covered=covered[["year","chamber","district","canonical_party","canonical_votes",
+                     "canonical_name","canonical_source"]]
+    race_keys=set(map(tuple,covered[["year","chamber","district"]].drop_duplicates().values))
+    retained=canonical[[tuple(x) not in race_keys for x in
+                        canonical[["year","chamber","district"]].values]].copy()
+    return pd.concat([retained,covered],ignore_index=True,sort=False)
+
+def candidate_integrity_issues(canonical):
+    """Return race-level violations that would corrupt two-party CMO scores."""
+    issues=[]
+    keys=["year","chamber","district"]
+    for race,pool in canonical.groupby(keys,sort=False):
+        for left_idx,left in pool.iterrows():
+            other=pool[(pool.index!=left_idx)&pool.canonical_party.ne(left.canonical_party)]
+            if other.empty: continue
+            found,score,margin=best_name(left.canonical_name,
+                other.rename(columns={"canonical_name":"candidate"}))
+            if found is not None and score>=88 and margin>=5:
+                issues.append({"year":race[0],"chamber":race[1],"district":race[2],
+                    "issue":"cross_party_candidate_alias","candidate":left.canonical_name,
+                    "party":left.canonical_party,"matched_candidate":found.candidate,
+                    "matched_party":found.canonical_party,"name_score":score})
+    return pd.DataFrame(issues,columns=["year","chamber","district","issue","candidate",
+        "party","matched_candidate","matched_party","name_score"])
+
 def apply_incumbency_roster(canonical, roster):
     """Overlay prior-winner incumbency evidence onto canonical candidates."""
     result=canonical.copy()
@@ -132,6 +176,13 @@ def main():
                .rename(columns={"source_party":"canonical_party","source_votes":"canonical_votes","ballot_name":"canonical_name"}))
         extra["canonical_source"]="openelections_fallback"
         canonical=pd.concat([canonical,extra],ignore_index=True)
+    official_path=WAR/"race_candidate_results.csv"
+    if official_path.exists():
+        canonical=reconcile_official_candidate_results(canonical,pd.read_csv(official_path))
+    integrity_issues=candidate_integrity_issues(canonical)
+    if not integrity_issues.empty:
+        integrity_issues.to_csv(OUT/"candidate_integrity_issues.csv",index=False)
+        raise ValueError(f"Canonical candidate integrity failed: {len(integrity_issues)} issue(s)")
     canonical["person_id"]="ALPERSON-"+canonical.canonical_name.map(lambda x:re.sub(r"[^A-Z0-9]+","-",normalize_name(x)).strip("-"))
     canonical["canonical_candidate_id"]=[f"AL-{r.year}-{r.chamber}-{r.district}-{r.canonical_party}-{r.person_id[9:]}" for r in canonical.itertuples()]
     canonical["incumbent"]=False
@@ -213,7 +264,12 @@ def main():
                             "review_rows":len(review) if 'review' in locals() else 0})
     review=pd.concat([match[~match.match_status.eq("accepted")],pd.DataFrame(unresolved)],ignore_index=True,sort=False)
     review.to_csv(OUT/"candidate_identity_review.csv",index=False)
-    pd.DataFrame(opposing_aliases).to_csv(OUT/"candidate_party_conflicts.csv",index=False)
+    conflict_columns=["year","source","chamber","district","candidate_key","ballot_name",
+                      "source_party","source_votes","matched_name","matched_party",
+                      "name_score","score_margin","reason"]
+    pd.DataFrame(opposing_aliases,columns=conflict_columns).to_csv(
+        OUT/"candidate_party_conflicts.csv",index=False)
+    integrity_issues.to_csv(OUT/"candidate_integrity_issues.csv",index=False)
     switches.to_csv(OUT/"candidate_party_switches.csv",index=False)
     print(match.groupby(["year","source","match_status"]).size().to_string())
     print(f"Canonical candidates: {len(canonical):,}; accepted aliases: {len(accepted):,}; "

@@ -4,7 +4,9 @@ from scripts.build_candidate_identity import (
     apply_incumbency_roster,
     apply_validated_incumbency_transitions,
     candidate_score,
+    candidate_integrity_issues,
     opposing_party_alias,
+    reconcile_official_candidate_results,
 )
 
 def test_candidate_score_rewards_name_and_vote_agreement():
@@ -26,6 +28,27 @@ def test_same_party_alias_is_not_a_conflict():
     pool=pd.DataFrame([{"canonical_name":"Mike Holmes","canonical_party":"R"}])
     *_,conflict=opposing_party_alias("Holmes","R",pool)
     assert not conflict
+
+def test_official_results_replace_county_party_fragments_and_totals():
+    canonical=pd.DataFrame([
+        {"year":2014,"chamber":"house","district":31,"canonical_party":"D",
+         "canonical_votes":10766,"canonical_name":"Holmes","canonical_source":"alabama_sos"},
+        {"year":2014,"chamber":"house","district":31,"canonical_party":"R",
+         "canonical_votes":178,"canonical_name":"Mike Holmes","canonical_source":"alabama_sos"},
+    ])
+    official=pd.DataFrame([{"cycle":2014,"chamber":"house","district":31,
+                            "candidate":"Mike Holmes","party":"R","votes":10944}])
+    result=reconcile_official_candidate_results(canonical,official)
+    assert result[["canonical_name","canonical_party","canonical_votes"]].to_dict("records")==[
+        {"canonical_name":"Mike Holmes","canonical_party":"R","canonical_votes":10944}]
+
+def test_integrity_check_detects_cross_party_candidate_alias():
+    frame=pd.DataFrame([
+        {"year":2014,"chamber":"house","district":66,"canonical_party":"D","canonical_name":"Baker"},
+        {"year":2014,"chamber":"house","district":66,"canonical_party":"R","canonical_name":"Alan Baker"},
+    ])
+    issues=candidate_integrity_issues(frame)
+    assert "cross_party_candidate_alias" in issues.issue.tolist()
 
 def test_prior_winner_roster_overlays_missing_incumbent_annotation():
     canonical=pd.DataFrame([

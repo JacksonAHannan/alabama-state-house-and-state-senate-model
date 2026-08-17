@@ -14,9 +14,10 @@ from pathlib import Path
 import geopandas as gpd
 import numpy as np
 import pandas as pd
+from rapidfuzz.fuzz import WRatio
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from oe_normalize import is_pseudocandidate, load_oe, norm_party  # noqa: E402
+from oe_normalize import is_pseudocandidate, load_oe, norm_party, normalize_name  # noqa: E402
 
 
 CORE_BASELINE_OFFICES = {"Governor", "Attorney General"}
@@ -30,6 +31,42 @@ EXECUTIVE_OFFICES = {
     "Commissioner of Agriculture and Industries",
 }
 MAP_VINTAGE = {2014: "2012_enacted", 2018: "2017_remedial", 2022: "2021_enacted"}
+
+
+def consolidate_cross_party_candidate_aliases(results: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Merge county-specific surname fragments into the fuller ballot record."""
+    data=results.copy().reset_index(drop=True)
+    merged=[]
+    removed=set()
+    for race,pool in data.groupby(["cycle","chamber","district"],sort=False):
+        rows=list(pool.index)
+        for i in rows:
+            if i in removed: continue
+            candidates=[]
+            for j in rows:
+                if i==j or j in removed or data.at[i,"party"]==data.at[j,"party"]: continue
+                score=float(WRatio(normalize_name(data.at[i,"candidate"]),normalize_name(data.at[j,"candidate"])))
+                if score>=88: candidates.append((score,j))
+            if len(candidates)!=1: continue
+            score,j=candidates[0]
+            # The fuller ballot name carries the reliable party label. Equal
+            # length matches are too ambiguous to resolve automatically.
+            len_i=len(normalize_name(data.at[i,"candidate"]))
+            len_j=len(normalize_name(data.at[j,"candidate"]))
+            if len_i==len_j: continue
+            fragment,target=(i,j) if len_i<len_j else (j,i)
+            if fragment in removed: continue
+            merged.append({"cycle":race[0],"chamber":race[1],"district":race[2],
+                "fragment_candidate":data.at[fragment,"candidate"],
+                "fragment_party":data.at[fragment,"party"],
+                "resolved_candidate":data.at[target,"candidate"],
+                "resolved_party":data.at[target,"party"],
+                "transferred_votes":data.at[fragment,"votes"],"name_score":score})
+            data.at[target,"votes"]+=data.at[fragment,"votes"]
+            removed.add(fragment)
+    audit=pd.DataFrame(merged,columns=["cycle","chamber","district","fragment_candidate",
+        "fragment_party","resolved_candidate","resolved_party","transferred_votes","name_score"])
+    return data.drop(index=list(removed)).reset_index(drop=True),audit
 
 
 def load_jefferson_2014_legislative(root: Path) -> pd.DataFrame:
@@ -415,7 +452,9 @@ def main() -> None:
     weights["cycle"] = 2022
     weight_parts.append(weights)
 
-    candidate_results, races = race_tables(pd.concat(candidate_parts, ignore_index=True))
+    candidate_input, party_alias_audit = consolidate_cross_party_candidate_aliases(
+        pd.concat(candidate_parts, ignore_index=True))
+    candidate_results, races = race_tables(candidate_input)
     all_allocations = pd.concat(allocation_parts, ignore_index=True)
     office_baselines, baselines = baseline_tables(all_allocations)
     district_cycle = races.merge(
@@ -434,6 +473,7 @@ def main() -> None:
     output = root / "data" / "processed" / "war"
     output.mkdir(parents=True, exist_ok=True)
     candidate_results.to_csv(output / "race_candidate_results.csv", index=False)
+    party_alias_audit.to_csv(output / "candidate_party_alias_reconciliation.csv", index=False)
     races.to_csv(output / "race_results.csv", index=False)
     office_baselines.to_csv(output / "district_baseline_office.csv", index=False)
     baselines.to_csv(output / "district_baselines.csv", index=False)
