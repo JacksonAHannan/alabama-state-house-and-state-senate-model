@@ -1,0 +1,283 @@
+model,model_label,is_public_default,chamber,district,predicted_dem_margin
+post2016_ramp,Post-2016 ramp,False,house,2,-63.49062890537633
+post2016_ramp,Post-2016 ramp,False,house,4,-29.219723622884857
+post2016_ramp,Post-2016 ramp,False,house,5,-41.902324370500615
+post2016_ramp,Post-2016 ramp,False,house,8,-26.11246426375141
+post2016_ramp,Post-2016 ramp,False,house,10,4.086021331415267
+post2016_ramp,Post-2016 ramp,False,house,15,-12.70290140191546
+post2016_ramp,Post-2016 ramp,False,house,16,-73.64992533328218
+post2016_ramp,Post-2016 ramp,False,house,19,34.79746144883655
+post2016_ramp,Post-2016 ramp,False,house,20,-19.793763940644155
+post2016_ramp,Post-2016 ramp,False,house,21,-15.561935208509794
+post2016_ramp,Post-2016 ramp,False,house,25,-1.0596962261872145
+post2016_ramp,Post-2016 ramp,False,house,28,-24.903459959047392
+post2016_ramp,Post-2016 ramp,False,house,32,3.158354962154016
+post2016_ramp,Post-2016 ramp,False,house,37,-43.14496715711068
+post2016_ramp,Post-2016 ramp,False,house,38,-41.249322256764
+post2016_ramp,Post-2016 ramp,False,house,40,-60.03455656406872
+post2016_ramp,Post-2016 ramp,False,house,41,-43.86971945352963
+post2016_ramp,Post-2016 ramp,False,house,43,-38.35271371649463
+post2016_ramp,Post-2016 ramp,False,house,45,-39.790495057162886
+post2016_ramp,Post-2016 ramp,False,house,47,-11.72279270162599
+post2016_ramp,Post-2016 ramp,False,house,50,-57.46951227503262
+post2016_ramp,Post-2016 ramp,False,house,63,-12.7994009190402
+post2016_ramp,Post-2016 ramp,False,house,68,1.87470732275784
+post2016_ramp,Post-2016 ramp,False,house,69,10.027280860094296
+post2016_ramp,Post-2016 ramp,False,house,70,41.10259210062137
+post2016_ramp,Post-2016 ramp,False,house,74,31.41726124826928
+post2016_ramp,Post-2016 ramp,False,house,75,-24.254849893243744
+post2016_ramp,Post-2016 ramp,False,house,80,-31.74434886958659
+post2016_ramp,Post-2016 ramp,False,house,82,33.5587923161323
+post2016_ramp,Post-2016 ramp,False,house,85,-24.28153771213197
+post2016_ramp,Post-2016 ramp,False,house,96,-41.48003399067956
+post2016_ramp,Post-2016 ramp,False,house,99,30.270041575425907
+post2016_ramp,Post-2016 ramp,False,house,101,-25.79463257058688
+post2016_ramp,Post-2016 ramp,False,senate,2,3.3585116519646285
+post2016_ramp,Post-2016 ramp,False,senate,3,-37.27274283857304
+post2016_ramp,Post-2016 ramp,False,senate,6,-51.51363947519474
+post2016_ramp,Post-2016 ramp,False,senate,7,-8.504259381625046
+post2016_ramp,Post-2016 ramp,False,senate,8,-51.80794354819332
+post2016_ramp,Post-2016 ramp,False,senate,11,-48.11538720757936
+post2016_ramp,Post-2016 ramp,False,senate,13,-46.348257981685606
+post2016_ramp,Post-2016 ramp,False,senate,14,-41.03088423799503
+post2016_ramp,Post-2016 ramp,False,senate,16,-20.90080129098672
+post2016_ramp,Post-2016 ramp,False,senate,22,-57.92312584977384
+post2016_ramp,Post-2016 ramp,False,senate,23,6.94180229173997
+post2016_ramp,Post-2016 ramp,False,senate,28,5.449745986205526
+post2016_ramp,Post-2016 ramp,False,senate,29,-56.61468695548132
+post2016_ramp,Post-2016 ramp,False,senate,32,-50.76054222095612
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,2,-63.36098678720031
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,4,-30.055622747577267
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,5,-42.110261422354625
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,8,-26.845041945579126
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,10,5.279263253241417
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,15,-13.372219892044653
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,16,-72.92266246135806
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,19,36.35209456590687
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,20,-22.881065421229536
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,21,-16.23543196236248
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,25,-2.3563230630280496
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,28,-24.697964838720676
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,32,3.668032506047667
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,37,-42.4353031975767
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,38,-40.730684026485065
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,40,-59.81904580602175
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,41,-43.90330548571903
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,43,-39.749397541252726
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,45,-41.67447847940008
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,47,-12.478499420101057
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,50,-56.737533448886545
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,63,-14.37176348275399
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,68,4.421717868314537
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,69,13.336561015668472
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,70,42.33035719592887
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,74,32.65116008378288
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,75,-25.057535451499373
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,80,-31.44503708050556
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,82,35.128333075122136
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,85,-24.161141748496245
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,96,-41.55702092643061
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,99,32.015231658913486
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,house,101,-26.407273513282878
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,senate,2,1.5205962300067726
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,senate,3,-37.59547850352965
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,senate,6,-51.222885180169015
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,senate,7,-9.34222190200577
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,senate,8,-51.739199569482615
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,senate,11,-47.94149345683357
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,senate,13,-47.91174747275923
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,senate,14,-41.42882002756304
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,senate,16,-22.14517015805064
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,senate,22,-56.845182452023764
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,senate,23,9.518098496611197
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,senate,28,7.900786506990782
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,senate,29,-56.478146034028704
+ensemble_ramp_ridge_80_20,80/20 ramp + ridge,True,senate,32,-51.332427098215135
+ramp_all_extra_trees,Extra Trees,False,house,2,-65.84336199811021
+ramp_all_extra_trees,Extra Trees,False,house,4,-35.13750598432679
+ramp_all_extra_trees,Extra Trees,False,house,5,-45.65748768705397
+ramp_all_extra_trees,Extra Trees,False,house,8,-24.993110915305422
+ramp_all_extra_trees,Extra Trees,False,house,10,29.817697752071098
+ramp_all_extra_trees,Extra Trees,False,house,15,-18.4986817990998
+ramp_all_extra_trees,Extra Trees,False,house,16,-75.60945815355245
+ramp_all_extra_trees,Extra Trees,False,house,19,60.18580690247808
+ramp_all_extra_trees,Extra Trees,False,house,20,-25.516019273376116
+ramp_all_extra_trees,Extra Trees,False,house,21,-20.953467606790635
+ramp_all_extra_trees,Extra Trees,False,house,25,-7.142845461379447
+ramp_all_extra_trees,Extra Trees,False,house,28,-27.944764226648648
+ramp_all_extra_trees,Extra Trees,False,house,32,3.3454824873452895
+ramp_all_extra_trees,Extra Trees,False,house,37,-43.692487559095014
+ramp_all_extra_trees,Extra Trees,False,house,38,-43.45546568797894
+ramp_all_extra_trees,Extra Trees,False,house,40,-62.22433965406379
+ramp_all_extra_trees,Extra Trees,False,house,41,-46.69903776478718
+ramp_all_extra_trees,Extra Trees,False,house,43,-43.72569013928106
+ramp_all_extra_trees,Extra Trees,False,house,45,-45.31004502191696
+ramp_all_extra_trees,Extra Trees,False,house,47,-17.162301940274773
+ramp_all_extra_trees,Extra Trees,False,house,50,-57.95409603729999
+ramp_all_extra_trees,Extra Trees,False,house,63,-18.88847936827364
+ramp_all_extra_trees,Extra Trees,False,house,68,29.445506114882296
+ramp_all_extra_trees,Extra Trees,False,house,69,37.86615132804437
+ramp_all_extra_trees,Extra Trees,False,house,70,66.4909375542629
+ramp_all_extra_trees,Extra Trees,False,house,74,31.640847152432446
+ramp_all_extra_trees,Extra Trees,False,house,75,-29.74780314406034
+ramp_all_extra_trees,Extra Trees,False,house,80,-34.163448511671746
+ramp_all_extra_trees,Extra Trees,False,house,82,58.86349320108421
+ramp_all_extra_trees,Extra Trees,False,house,85,-27.009216872012505
+ramp_all_extra_trees,Extra Trees,False,house,96,-44.69104448762012
+ramp_all_extra_trees,Extra Trees,False,house,99,56.011798924209145
+ramp_all_extra_trees,Extra Trees,False,house,101,-31.200651505678053
+ramp_all_extra_trees,Extra Trees,False,senate,2,2.4260562424015326
+ramp_all_extra_trees,Extra Trees,False,senate,3,-41.41224207461316
+ramp_all_extra_trees,Extra Trees,False,senate,6,-53.700058026239525
+ramp_all_extra_trees,Extra Trees,False,senate,7,-14.482638286967056
+ramp_all_extra_trees,Extra Trees,False,senate,8,-54.6346742312496
+ramp_all_extra_trees,Extra Trees,False,senate,11,-50.9285410439523
+ramp_all_extra_trees,Extra Trees,False,senate,13,-51.27926516056457
+ramp_all_extra_trees,Extra Trees,False,senate,14,-45.25815621620013
+ramp_all_extra_trees,Extra Trees,False,senate,16,-26.151466059874213
+ramp_all_extra_trees,Extra Trees,False,senate,22,-57.64705526791554
+ramp_all_extra_trees,Extra Trees,False,senate,23,33.623091739605684
+ramp_all_extra_trees,Extra Trees,False,senate,28,31.65849158273099
+ramp_all_extra_trees,Extra Trees,False,senate,29,-59.158283198173024
+ramp_all_extra_trees,Extra Trees,False,senate,32,-55.76210867003101
+ramp_all_gradient_boosting,Gradient boosting,False,house,2,-62.677062854393185
+ramp_all_gradient_boosting,Gradient boosting,False,house,4,-36.017263072178764
+ramp_all_gradient_boosting,Gradient boosting,False,house,5,-40.84196326863215
+ramp_all_gradient_boosting,Gradient boosting,False,house,8,-24.838012387961456
+ramp_all_gradient_boosting,Gradient boosting,False,house,10,22.139769711741867
+ramp_all_gradient_boosting,Gradient boosting,False,house,15,-19.500440851209365
+ramp_all_gradient_boosting,Gradient boosting,False,house,16,-65.30623610945828
+ramp_all_gradient_boosting,Gradient boosting,False,house,19,53.00641826383196
+ramp_all_gradient_boosting,Gradient boosting,False,house,20,-31.48865020320097
+ramp_all_gradient_boosting,Gradient boosting,False,house,21,-22.359474657803702
+ramp_all_gradient_boosting,Gradient boosting,False,house,25,-7.85723567548112
+ramp_all_gradient_boosting,Gradient boosting,False,house,28,-19.36173818330967
+ramp_all_gradient_boosting,Gradient boosting,False,house,32,24.240402681961896
+ramp_all_gradient_boosting,Gradient boosting,False,house,37,-37.91532103790688
+ramp_all_gradient_boosting,Gradient boosting,False,house,38,-35.70760048102628
+ramp_all_gradient_boosting,Gradient boosting,False,house,40,-56.180566213404035
+ramp_all_gradient_boosting,Gradient boosting,False,house,41,-42.80935835166117
+ramp_all_gradient_boosting,Gradient boosting,False,house,43,-45.150253165788534
+ramp_all_gradient_boosting,Gradient boosting,False,house,45,-47.158139084268505
+ramp_all_gradient_boosting,Gradient boosting,False,house,47,-14.199861765600382
+ramp_all_gradient_boosting,Gradient boosting,False,house,50,-52.23644773061395
+ramp_all_gradient_boosting,Gradient boosting,False,house,63,-19.596940368334106
+ramp_all_gradient_boosting,Gradient boosting,False,house,68,30.893969248608173
+ramp_all_gradient_boosting,Gradient boosting,False,house,69,32.24923422174078
+ramp_all_gradient_boosting,Gradient boosting,False,house,70,62.40181872727999
+ramp_all_gradient_boosting,Gradient boosting,False,house,74,37.607676380552995
+ramp_all_gradient_boosting,Gradient boosting,False,house,75,-31.05238934253765
+ramp_all_gradient_boosting,Gradient boosting,False,house,80,-27.890358518921907
+ramp_all_gradient_boosting,Gradient boosting,False,house,82,51.61254069645889
+ramp_all_gradient_boosting,Gradient boosting,False,house,85,-20.427547361467287
+ramp_all_gradient_boosting,Gradient boosting,False,house,96,-44.108288422638125
+ramp_all_gradient_boosting,Gradient boosting,False,house,99,51.68856085896786
+ramp_all_gradient_boosting,Gradient boosting,False,house,101,-32.592172019880785
+ramp_all_gradient_boosting,Gradient boosting,False,senate,2,-4.326358119057877
+ramp_all_gradient_boosting,Gradient boosting,False,senate,3,-36.21238173670457
+ramp_all_gradient_boosting,Gradient boosting,False,senate,6,-45.97191769945702
+ramp_all_gradient_boosting,Gradient boosting,False,senate,7,-15.301798830918951
+ramp_all_gradient_boosting,Gradient boosting,False,senate,8,-47.953953197528634
+ramp_all_gradient_boosting,Gradient boosting,False,senate,11,-44.26139685691467
+ramp_all_gradient_boosting,Gradient boosting,False,senate,13,-46.872232887438756
+ramp_all_gradient_boosting,Gradient boosting,False,senate,14,-39.970523136126566
+ramp_all_gradient_boosting,Gradient boosting,False,senate,16,-27.698340740280628
+ramp_all_gradient_boosting,Gradient boosting,False,senate,22,-50.187199620231176
+ramp_all_gradient_boosting,Gradient boosting,False,senate,23,31.316644080894058
+ramp_all_gradient_boosting,Gradient boosting,False,senate,28,27.671699347852005
+ramp_all_gradient_boosting,Gradient boosting,False,senate,29,-52.76069660481663
+ramp_all_gradient_boosting,Gradient boosting,False,senate,32,-57.40287323558121
+ramp_all_spline_ridge,Spline ridge,False,house,2,-62.52774236721196
+ramp_all_spline_ridge,Spline ridge,False,house,4,-34.28147288070185
+ramp_all_spline_ridge,Spline ridge,False,house,5,-42.98857448692556
+ramp_all_spline_ridge,Spline ridge,False,house,8,-28.696364109976606
+ramp_all_spline_ridge,Spline ridge,False,house,10,13.948073474360264
+ramp_all_spline_ridge,Spline ridge,False,house,15,-16.830847744020822
+ramp_all_spline_ridge,Spline ridge,False,house,16,-70.26597788771802
+ramp_all_spline_ridge,Spline ridge,False,house,19,47.79364957142657
+ramp_all_spline_ridge,Spline ridge,False,house,20,-35.575933498296216
+ramp_all_spline_ridge,Spline ridge,False,house,21,-19.591469914975605
+ramp_all_spline_ridge,Spline ridge,False,house,25,-8.513579538071298
+ramp_all_spline_ridge,Spline ridge,False,house,28,-22.91080347829364
+ramp_all_spline_ridge,Spline ridge,False,house,32,8.191284427776603
+ramp_all_spline_ridge,Spline ridge,False,house,37,-38.36420818401893
+ramp_all_spline_ridge,Spline ridge,False,house,38,-38.40829118387062
+ramp_all_spline_ridge,Spline ridge,False,house,40,-58.318842176884644
+ramp_all_spline_ridge,Spline ridge,False,house,41,-44.034049458033806
+ramp_all_spline_ridge,Spline ridge,False,house,43,-46.010452696236705
+ramp_all_spline_ridge,Spline ridge,False,house,45,-50.06106538880986
+ramp_all_spline_ridge,Spline ridge,False,house,47,-17.881844582389903
+ramp_all_spline_ridge,Spline ridge,False,house,50,-51.285745572457046
+ramp_all_spline_ridge,Spline ridge,False,house,63,-21.436166098498987
+ramp_all_spline_ridge,Spline ridge,False,house,68,21.073121532200226
+ramp_all_spline_ridge,Spline ridge,False,house,69,32.16789952130584
+ramp_all_spline_ridge,Spline ridge,False,house,70,51.94489667414382
+ramp_all_spline_ridge,Spline ridge,False,house,74,36.514570605357534
+ramp_all_spline_ridge,Spline ridge,False,house,75,-29.492883373700483
+ramp_all_spline_ridge,Spline ridge,False,house,80,-30.102617272726587
+ramp_all_spline_ridge,Spline ridge,False,house,82,46.005730485000214
+ramp_all_spline_ridge,Spline ridge,False,house,85,-22.898941648600175
+ramp_all_spline_ridge,Spline ridge,False,house,96,-40.96932006191601
+ramp_all_spline_ridge,Spline ridge,False,house,99,44.48225837343993
+ramp_all_spline_ridge,Spline ridge,False,house,101,-29.818014523280873
+ramp_all_spline_ridge,Spline ridge,False,senate,2,-6.309131801977324
+ramp_all_spline_ridge,Spline ridge,False,senate,3,-38.967659097287765
+ramp_all_spline_ridge,Spline ridge,False,senate,6,-49.211679033842
+ramp_all_spline_ridge,Spline ridge,False,senate,7,-13.557871023095382
+ramp_all_spline_ridge,Spline ridge,False,senate,8,-50.52820284308946
+ramp_all_spline_ridge,Spline ridge,False,senate,11,-46.43702185604806
+ramp_all_spline_ridge,Spline ridge,False,senate,13,-53.42792185899711
+ramp_all_spline_ridge,Spline ridge,False,senate,14,-43.04539678785513
+ramp_all_spline_ridge,Spline ridge,False,senate,16,-28.29906885302378
+ramp_all_spline_ridge,Spline ridge,False,senate,22,-50.62093670233146
+ramp_all_spline_ridge,Spline ridge,False,senate,23,26.180539132595754
+ramp_all_spline_ridge,Spline ridge,False,senate,28,24.11094577631785
+ramp_all_spline_ridge,Spline ridge,False,senate,29,-55.40833649780736
+ramp_all_spline_ridge,Spline ridge,False,senate,32,-53.81217445402882
+ramp_all_elastic_net,Elastic Net,False,house,2,-69.14954557359167
+ramp_all_elastic_net,Elastic Net,False,house,4,-45.51320356376267
+ramp_all_elastic_net,Elastic Net,False,house,5,-50.48694716658078
+ramp_all_elastic_net,Elastic Net,False,house,8,-33.811258148487475
+ramp_all_elastic_net,Elastic Net,False,house,10,9.566356696208722
+ramp_all_elastic_net,Elastic Net,False,house,15,-26.7315627555583
+ramp_all_elastic_net,Elastic Net,False,house,16,-73.3328109997593
+ramp_all_elastic_net,Elastic Net,False,house,19,46.4823886656735
+ramp_all_elastic_net,Elastic Net,False,house,20,-53.01124215536165
+ramp_all_elastic_net,Elastic Net,False,house,21,-30.092910221482867
+ramp_all_elastic_net,Elastic Net,False,house,25,-23.129469626633337
+ramp_all_elastic_net,Elastic Net,False,house,28,-27.0462553384426
+ramp_all_elastic_net,Elastic Net,False,house,32,7.012784549589293
+ramp_all_elastic_net,Elastic Net,False,house,37,-42.43337104328626
+ramp_all_elastic_net,Elastic Net,False,house,38,-41.4153016740008
+ramp_all_elastic_net,Elastic Net,False,house,40,-64.19161568386508
+ramp_all_elastic_net,Elastic Net,False,house,41,-50.475858802343815
+ramp_all_elastic_net,Elastic Net,False,house,43,-62.74134404658727
+ramp_all_elastic_net,Elastic Net,False,house,45,-61.71646137631904
+ramp_all_elastic_net,Elastic Net,False,house,47,-29.39597339106394
+ramp_all_elastic_net,Elastic Net,False,house,50,-56.09253005021395
+ramp_all_elastic_net,Elastic Net,False,house,63,-38.00731820430331
+ramp_all_elastic_net,Elastic Net,False,house,68,25.22185999002677
+ramp_all_elastic_net,Elastic Net,False,house,69,35.34584888915931
+ramp_all_elastic_net,Elastic Net,False,house,70,50.041367584057475
+ramp_all_elastic_net,Elastic Net,False,house,74,35.84653443523939
+ramp_all_elastic_net,Elastic Net,False,house,75,-40.773117165437526
+ramp_all_elastic_net,Elastic Net,False,house,80,-34.468564837794034
+ramp_all_elastic_net,Elastic Net,False,house,82,43.43021834727857
+ramp_all_elastic_net,Elastic Net,False,house,85,-27.76052627133035
+ramp_all_elastic_net,Elastic Net,False,house,96,-50.12355551238099
+ramp_all_elastic_net,Elastic Net,False,house,99,45.44181752499516
+ramp_all_elastic_net,Elastic Net,False,house,101,-39.62494930031066
+ramp_all_elastic_net,Elastic Net,False,senate,2,-18.56006963898132
+ramp_all_elastic_net,Elastic Net,False,senate,3,-46.28810969637894
+ramp_all_elastic_net,Elastic Net,False,senate,6,-53.69919976242371
+ramp_all_elastic_net,Elastic Net,False,senate,7,-24.357243687564505
+ramp_all_elastic_net,Elastic Net,False,senate,8,-56.64414999011371
+ramp_all_elastic_net,Elastic Net,False,senate,11,-51.447663385693595
+ramp_all_elastic_net,Elastic Net,False,senate,13,-59.37452210953723
+ramp_all_elastic_net,Elastic Net,False,senate,14,-50.85286778211595
+ramp_all_elastic_net,Elastic Net,False,senate,16,-43.46836987199787
+ramp_all_elastic_net,Elastic Net,False,senate,22,-52.76312467908899
+ramp_all_elastic_net,Elastic Net,False,senate,23,30.039515712859178
+ramp_all_elastic_net,Elastic Net,False,senate,28,27.32572940772222
+ramp_all_elastic_net,Elastic Net,False,senate,29,-60.59982372266693
+ramp_all_elastic_net,Elastic Net,False,senate,32,-64.02756260710075

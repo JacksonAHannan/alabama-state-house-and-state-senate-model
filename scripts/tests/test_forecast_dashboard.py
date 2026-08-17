@@ -38,12 +38,25 @@ def test_dashboard_has_accessible_controls_and_fallbacks():
 
 def test_dashboard_explains_headline_and_scenarios():
     text = PAGE.read_text(encoding="utf-8")
-    assert "Candidate and finance adjustments remain separate experimental scenarios" in text
+    assert "Blend 80% of that ramp with 20% of a regularized model" in text
     assert "View experimental candidate scenarios" in text
     assert "middle 80% of simulated outcomes" in text
     assert "Experimental uncertainty estimates" in text
     assert "full 1994–2022 archive and expanding-window holdouts from 1998 through 2022" in text
     assert "provisional rather than fully calibrated" in text
+
+
+def test_model_switcher_and_default_decomposition_are_complete():
+    text, data = page_and_payload()
+    assert data["meta"]["model"] == "ensemble_ramp_ridge_80_20"
+    assert len(data["models"]) == 6
+    assert sum(model["default"] for model in data["models"]) == 1
+    assert 'id="modelTabs"' in text
+    race = next(r for r in data["house"]["races"] if r["status"] == "modeled")
+    assert set(race["models"]) == {model["id"] for model in data["models"]}
+    default = race["models"]["ensemble_ramp_ridge_80_20"]
+    assert default["steps"]
+    assert abs(default["steps"][-1]["runningMargin"] - default["margin"]) < 1e-8
 
 
 def test_personal_branding_and_profile_links():

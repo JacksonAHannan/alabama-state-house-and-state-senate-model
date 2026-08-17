@@ -2,7 +2,7 @@
   "use strict";
   const $ = s => document.querySelector(s);
   const $$ = s => [...document.querySelectorAll(s)];
-  const state = { chamber: "house", mode: "probability", selected: null, sort: "closeness", asc: true };
+  const state = { chamber: "house", model: "ensemble_ramp_ridge_80_20", mode: "probability", selected: null, sort: "closeness", asc: true };
   const chamberName = c => c === "house" ? "State House" : "State Senate";
   const districtName = (c,d) => `${c === "house" ? "HD" : "SD"}-${d}`;
   const partyName = p => ({D:"Democratic",R:"Republican",I:"Independent"}[p] || p);
@@ -22,6 +22,35 @@
   const competitive = r => r.status === "modeled" && r.demProbability >= .35 && r.demProbability <= .65;
   const intervalCrosses = r => r.low80 != null && r.low80 <= 0 && r.high80 >= 0;
   const leader = r => r.demProbability == null ? null : r.demProbability >= .5 ? "D" : "R";
+  const variableLabels = {
+    model_intercept_and_chamber:"Model intercept and chamber context",dem_incumbent_i:"Democratic incumbent",
+    rep_incumbent_i:"Republican incumbent",finance_ratio_capped:"Fundraising ratio (capped)",
+    ftm_finance_complete:"Both parties have matched finance records",open_seat:"Open seat",
+    finance_x_open:"Fundraising × open seat",finance_x_dem_inc:"Fundraising × Democratic incumbent",
+    finance_x_rep_inc:"Fundraising × Republican incumbent",nonwhite_share:"Nonwhite population share",
+    white_college_share:"White college-graduate share",ramp_x_nonwhite:"Environment × nonwhite share",
+    ramp_x_white_college:"Environment × white college share",prior_pres_swing_filled:"Previous presidential swing",
+    trend_available:"Previous swing available",post2008:"After the 2008 realignment",
+    post2016:"After the 2016 realignment",years_since_2008:"Years since 2008",years_since_2016:"Years since 2016"
+  };
+
+  function applyModel(){
+    for(const c of ["house","senate"]){
+      DATA[c].seatDistribution=DATA[c].modelSeatDistributions[state.model];
+      for(const r of DATA[c].races){
+        const m=r.models?.[state.model]; if(!m) continue;
+        r.margin=m.margin; r.demProbability=m.demProbability; r.low80=m.low80; r.high80=m.high80; r.rating=ratingForProbability(m.demProbability);
+      }
+    }
+  }
+  const ratingForProbability=p=>{const lead=p>=.5?"D":"R",q=Math.max(p,1-p);return q<.55?"Toss-up":q<.70?`Lean ${lead}`:q<.90?`Likely ${lead}`:`Solid ${lead}`};
+
+  function renderModelTabs(){
+    $("#modelTabs").innerHTML=DATA.models.map(m=>`<button role="tab" data-model="${m.id}" aria-selected="${m.id===state.model}">${m.label}${m.default?" <small>Public forecast</small>":""}</button>`).join("");
+    const m=DATA.models.find(x=>x.id===state.model);
+    $("#modelDescription").textContent=`Seven expanding-window holdouts: ${m.meanMae.toFixed(2)} all-cycle MAE · ${m.recentMae.toFixed(2)} in 2018–22 · ${m.latestMae.toFixed(2)} in 2022. ${m.default?"This is the public headline model.":"Experimental comparison; not the public headline."}`;
+    $$('[data-model]').forEach(b=>b.addEventListener("click",()=>{state.model=b.dataset.model;applyModel();renderAll();renderModelTabs()}));
+  }
 
   function validatePayload(){
     const issues=[];
@@ -138,11 +167,15 @@
     const lead=leader(r), leadProb=lead ? Math.max(r.demProbability,1-r.demProbability) : null;
     const bg=lead==="D"?"var(--blue)":lead==="R"?"var(--red)":"var(--gray)";
     const headline=r.status==="modeled"?`<div class="headline-call"><strong>${fmtMargin(r.margin)}</strong><span>${partyName(lead)} nominee favored · ${Math.round(100*leadProb)}% win probability</span></div>`:`<div class="headline-call"><strong>${effectiveRating(r)}</strong><span>${r.status==="unopposed-major-party"?"Single major-party nominee; independent contests are not modeled":"No two-party forecast available"}</span></div>`;
-    const model=r.status==="modeled"?`<div class="decomp"><h4>Headline forecast</h4>
+    const selectedModel=DATA.models.find(x=>x.id===state.model), steps=r.models?.[state.model]?.steps||[];
+    const stepRows=steps.map(s=>`<div class="metric contribution"><span>${variableLabels[s.variable]||s.variable}<small>Value: ${s.value==null?"imputed historical median":s.value}</small></span><b>${s.effect>=0?"D+":"R+"}${Math.abs(s.effect).toFixed(2)}<small>→ ${fmtMargin(s.runningMargin)}</small></b></div>`).join("");
+    const model=r.status==="modeled"?`<div class="decomp"><h4>${selectedModel.label} forecast</h4>
       <div class="metric"><span>2024 presidential margin</span><b>${fmtMargin(r.pres24)}</b></div>
       <div class="metric"><span>2026 environment change</span><b>${fmtMargin(r.environmentAdjustment)}</b></div>
-      <div class="metric"><span>Selected baseline forecast</span><b>${fmtMargin(r.margin)}</b></div>
-      <div class="metric"><span>Candidate adjustments promoted</span><b>None</b></div>
+      <div class="metric"><span>Post-2016 ramp</span><b>${fmtMargin(r.pollBaseline)}</b></div>
+      ${stepRows||'<div class="metric"><span>Additional model adjustment</span><b>None</b></div>'}
+      <div class="metric total"><span>Selected model forecast</span><b>${fmtMargin(r.margin)}</b></div>
+      ${steps.length?'<small>Effects are an exact sequential reveal decomposition in the order shown; nonlinear-model effects can depend on that order.</small>':''}
       <details class="scenario-box"><summary>View experimental candidate scenarios</summary>
         <div class="metric"><span>Finance scenario shift</span><b>${fmtMargin(r.financeScenario-r.margin)}</b></div>
         <div class="metric"><span>Finance scenario margin</span><b>${fmtMargin(r.financeScenario)}</b></div>
@@ -222,7 +255,7 @@
     $("#financeDate").textContent=DATA.meta.financeAsOf;
     $("#pollAge").textContent=`${DATA.meta.pollStalenessDays} days old`;
     if(DATA.meta.pollStalenessDays>21) $("#pollAge").classList.add("stale");
-    bind(); renderAll();
+    applyModel(); bind(); renderModelTabs(); renderAll();
   } catch(error) {
     document.body.innerHTML=`<main class="error"><h1>Dashboard data error</h1><p>${error.message}</p><p>Rebuild the forecast payload before publishing.</p></main>`;
     console.error(error);

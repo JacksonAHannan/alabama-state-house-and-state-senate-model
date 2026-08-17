@@ -16,3 +16,9 @@
 @media(max-width:850px){.social-nav{gap:13px}.site-footer{padding:24px 18px;align-items:flex-start;flex-direction:column}}
 @media(max-width:520px){.mast-inner{align-items:flex-start;flex-direction:column}.social-nav{justify-content:flex-start;gap:10px 16px}.social-nav a{font-size:11px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+.model-switcher{margin:0 0 22px;padding:20px;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow)}
+.model-switcher h2{margin:2px 0 4px}.model-tabs{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px}
+.model-tabs button{border:1px solid var(--navy);background:#fff;color:var(--navy);padding:9px 12px;font:700 13px 'Libre Franklin';cursor:pointer}
+.model-tabs button[aria-selected="true"]{background:var(--navy);color:#fff}.model-tabs small{display:block;font-size:9px;text-transform:uppercase;letter-spacing:.06em}
+.metric.contribution span,.metric.contribution b{display:flex;flex-direction:column}.metric.contribution small{font-weight:400;color:var(--muted);font-size:11px;margin-top:2px}
+.metric.total{border-top:2px solid var(--navy);font-size:16px}.metric.total b{color:var(--navy)}
