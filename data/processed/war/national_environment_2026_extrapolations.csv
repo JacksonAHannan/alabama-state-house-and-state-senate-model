@@ -1,0 +1,5 @@
+cadence,weight_2026,interpretation
+hold_2022,1.2575,conservative plateau
+post2016_saturating_curve,1.3843393123640453,two-point diminishing-jump curve; descriptive only
+half_last_jump,1.5225,diminishing post-2022 increase
+repeat_last_jump,1.7875,linear post-2018 extrapolation

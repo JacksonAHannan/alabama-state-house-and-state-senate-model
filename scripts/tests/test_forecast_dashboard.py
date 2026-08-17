@@ -42,7 +42,7 @@ def test_dashboard_explains_headline_and_scenarios():
     assert "View experimental candidate scenarios" in text
     assert "middle 80% of simulated outcomes" in text
     assert "Experimental uncertainty estimates" in text
-    assert "post-2008 expanding-window forward tests with holdouts in 2014, 2018, and 2022" in text
+    assert "full 1994–2022 archive and expanding-window holdouts from 1998 through 2022" in text
     assert "provisional rather than fully calibrated" in text
 
 

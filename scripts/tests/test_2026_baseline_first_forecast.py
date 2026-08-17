@@ -51,7 +51,7 @@ def test_catalist_national_environment_scenarios_are_forward_tested():
     for name in ("national_environment", "national_environment_demographics",
                  "national_environment_finance"):
         assert name in result.index
-        assert result.loc[name, "forward_cycles"] == 3
+        assert result.loc[name, "forward_cycles"] == 7
     # The national adjustment helps the latest (2022) holdout but does not pass
     # the stricter mean-and-latest promotion gate.
     assert result.loc["national_environment", "latest_mae"] < result.loc["baseline", "latest_mae"]

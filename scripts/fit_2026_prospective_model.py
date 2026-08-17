@@ -48,15 +48,10 @@ SPECS = {
 }
 
 
-def catalist_midterm_swings() -> dict[int, float]:
-    """National Democratic-margin change from presidential to midterm vote."""
-    data = pd.read_csv(POLLING / "catalist_national_demographic_master.csv")
-    overall = data[(data.dimension.eq("overall")) & (data.group.eq("Total")) &
-                   (data.metric.eq("dem_two_party_share_pct"))]
-    margins = {(int(r.year), r.election_type): 2.0 * float(r.value) - 100.0
-               for r in overall.itertuples()}
-    return {cycle: margins[(cycle, "us_house")] - margins[(cycle - 2, "president")]
-            for cycle in (2010, 2014, 2018, 2022)}
+def national_midterm_swings() -> dict[int, float]:
+    """Official national Democratic-margin change from President to midterm."""
+    data = pd.read_csv(ROOT / "data" / "manual" / "national_midterm_environment.csv")
+    return data.set_index("cycle").national_environment_swing.to_dict()
 
 
 def historical() -> pd.DataFrame:
@@ -65,12 +60,14 @@ def historical() -> pd.DataFrame:
     data = data.merge(federal[["cycle", "chamber", "district", "federal_index_margin",
                                "federal_contested_coverage"]],
                       on=["cycle", "chamber", "district"], how="left", validate="one_to_one")
-    data["national_environment_swing"] = data.cycle.map(catalist_midterm_swings())
+    data["national_environment_swing"] = data.cycle.map(national_midterm_swings())
     data["national_environment_baseline"] = data.prior_pres_dem_margin + data.national_environment_swing
     # Exploratory nationalization schedule motivated by the 2016 realignment:
     # local results receive no national swing through 2014, half in the first
     # Trump-era midterm, and the full observed swing by 2022.
-    data["national_environment_weight"] = data.cycle.map({2010: 0.0, 2014: 0.0, 2018: 0.5, 2022: 1.0})
+    data["national_environment_weight"] = data.cycle.map(
+        {1994: 0.0, 1998: 0.0, 2002: 0.0, 2006: 0.0,
+         2010: 0.0, 2014: 0.0, 2018: 0.5, 2022: 1.0})
     data["national_environment_ramp_baseline"] = (
         data.prior_pres_dem_margin + data.national_environment_weight * data.national_environment_swing)
     data["national_swing_x_nonwhite"] = data.national_environment_swing * data.nonwhite_share
@@ -168,10 +165,9 @@ def residual_model(features: list[str]) -> Pipeline:
 
 
 def backtest_layers(data: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, dict[str, bool]]:
-    # Validate prospective layers only in the post-2008 nationalized-election
-    # period. Within that window, the federal specification gives post-2016
-    # observations twice the weight of the 2010-2014 Obama-era observations.
-    data = data[data.cycle.ge(2010) & data.prior_pres_dem_margin.notna()].copy()
+    # Use every available historical cycle. Promotion must improve the full
+    # expanding-window record, the post-2016 mean, and the latest holdout.
+    data = data[data.prior_pres_dem_margin.notna()].copy()
     rows, errors = [], []
     cycles = sorted(data.cycle.unique())
     for test_cycle in cycles[1:]:
@@ -204,12 +200,17 @@ def backtest_layers(data: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, dic
     summary = (detail.groupby("specification", as_index=False)
                .agg(forward_cycles=("test_cycle", "nunique"), mean_mae=("mae", "mean"),
                     latest_mae=("mae", "last"), mean_rmse=("rmse", "mean")))
+    recent = (detail[detail.test_cycle.ge(2018)].groupby("specification").mae.mean()
+              .rename("post2016_mean_mae"))
+    summary = summary.merge(recent, on="specification", how="left")
     base = summary.set_index("specification").loc["baseline"]
-    promoted = {r.specification: bool(r.mean_mae < base.mean_mae and r.latest_mae < base.latest_mae)
+    promoted = {r.specification: bool(r.mean_mae < base.mean_mae and
+                                      r.post2016_mean_mae < base.post2016_mean_mae and
+                                      r.latest_mae < base.latest_mae)
                 for r in summary.itertuples()}
     promoted["baseline"] = True
     summary["promoted"] = summary.specification.map(promoted)
-    summary["selection_rule"] = "improve_mean_and_latest_forward_mae"
+    summary["selection_rule"] = "improve_all_cycle_post2016_and_latest_forward_mae"
     return summary.sort_values("mean_mae"), errdf, promoted
 
 
@@ -322,7 +323,7 @@ def main() -> None:
     test["selected_specification"] = "poll_adjusted_direct_baseline"
     if promoted.get("national_environment_post2016_ramp", False):
         test["selected_specification"] = "poll_adjusted_post2016_national_environment_ramp"
-        test["selection_reason"] = "post-2016 national-environment ramp improved mean and latest forward MAE"
+        test["selection_reason"] = "national-environment ramp improved all-cycle, post-2016, and latest forward MAE"
     else:
         test["selection_reason"] = "complex layers failed declared forward-MAE promotion gate"
     test["model_status"] = "baseline_first_experimental"
