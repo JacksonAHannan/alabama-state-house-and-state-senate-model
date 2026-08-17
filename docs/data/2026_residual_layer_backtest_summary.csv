@@ -1,4 +1,5 @@
 specification,forward_cycles,mean_mae,latest_mae,mean_rmse,promoted,selection_rule
+national_environment_post2016_ramp,3,16.424930190054926,9.875514493851853,23.241383004488558,True,improve_mean_and_latest_forward_mae
 baseline,3,17.341950707854593,12.03204312936364,23.65316339483348,True,improve_mean_and_latest_forward_mae
 finance_scenario,3,17.57758930219303,9.566170572255887,23.11208268639312,False,improve_mean_and_latest_forward_mae
 national_environment,3,17.93444658937814,9.875514493851853,24.814573524992046,False,improve_mean_and_latest_forward_mae

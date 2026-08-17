@@ -34,6 +34,7 @@ RNG_SEED = 20260815
 SPECS = {
     "baseline": [],
     "national_environment": [],
+    "national_environment_post2016_ramp": [],
     "national_environment_demographics": ["dem_incumbent_i", "rep_incumbent_i", "nonwhite_share",
                                             "white_college_share", "national_swing_x_nonwhite",
                                             "national_swing_x_white_college"],
@@ -66,6 +67,12 @@ def historical() -> pd.DataFrame:
                       on=["cycle", "chamber", "district"], how="left", validate="one_to_one")
     data["national_environment_swing"] = data.cycle.map(catalist_midterm_swings())
     data["national_environment_baseline"] = data.prior_pres_dem_margin + data.national_environment_swing
+    # Exploratory nationalization schedule motivated by the 2016 realignment:
+    # local results receive no national swing through 2014, half in the first
+    # Trump-era midterm, and the full observed swing by 2022.
+    data["national_environment_weight"] = data.cycle.map({2010: 0.0, 2014: 0.0, 2018: 0.5, 2022: 1.0})
+    data["national_environment_ramp_baseline"] = (
+        data.prior_pres_dem_margin + data.national_environment_weight * data.national_environment_swing)
     data["national_swing_x_nonwhite"] = data.national_environment_swing * data.nonwhite_share
     data["national_swing_x_white_college"] = data.national_environment_swing * data.white_college_share
     return data
@@ -132,6 +139,8 @@ def prospective_features() -> pd.DataFrame:
                      catalist.metric.eq("dem_two_party_share_pct")].iloc[0]
     x["national_environment_swing"] = (200.0 * float(national.dem_two_party_share) - 100.0) - (2.0 * float(prior.value) - 100.0)
     x["national_environment_baseline"] = x.poll_adjusted_dem_margin
+    x["national_environment_weight"] = 1.0
+    x["national_environment_ramp_baseline"] = x.poll_adjusted_dem_margin
     x["national_swing_x_nonwhite"] = x.national_environment_swing * x.nonwhite_share
     x["national_swing_x_white_college"] = x.national_environment_swing * x.white_college_share
     return x
@@ -141,7 +150,8 @@ def specification_baseline(name: str) -> str:
     if name.startswith("federal_"):
         return "federal_index_margin"
     if name.startswith("national_environment"):
-        return "national_environment_baseline"
+        return ("national_environment_ramp_baseline"
+                if name == "national_environment_post2016_ramp" else "national_environment_baseline")
     return "prior_pres_dem_margin"
 
 
@@ -310,7 +320,11 @@ def main() -> None:
     test["predicted_dem_margin"] = (test.baseline_forecast_margin + test.incumbency_adjustment
                                     + test.demographic_residual_adjustment + test.cmo_adjustment + test.finance_adjustment)
     test["selected_specification"] = "poll_adjusted_direct_baseline"
-    test["selection_reason"] = "complex layers failed declared forward-MAE promotion gate"
+    if promoted.get("national_environment_post2016_ramp", False):
+        test["selected_specification"] = "poll_adjusted_post2016_national_environment_ramp"
+        test["selection_reason"] = "post-2016 national-environment ramp improved mean and latest forward MAE"
+    else:
+        test["selection_reason"] = "complex layers failed declared forward-MAE promotion gate"
     test["model_status"] = "baseline_first_experimental"
     test, seats = simulate(test.reset_index(drop=True), errors)
     test["predicted_winner"] = np.where(test.predicted_dem_margin.gt(0), "D", "R")
