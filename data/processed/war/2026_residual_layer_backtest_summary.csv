@@ -1,6 +1,9 @@
 specification,forward_cycles,mean_mae,latest_mae,mean_rmse,promoted,selection_rule
 baseline,3,17.341950707854593,12.03204312936364,23.65316339483348,True,improve_mean_and_latest_forward_mae
 finance_scenario,3,17.57758930219303,9.566170572255887,23.11208268639312,False,improve_mean_and_latest_forward_mae
+national_environment,3,17.93444658937814,9.875514493851853,24.814573524992046,False,improve_mean_and_latest_forward_mae
 incumbency,3,18.278189791476198,9.710156726696383,23.857999096181214,False,improve_mean_and_latest_forward_mae
+national_environment_demographics,3,18.30053334860648,11.146203425825782,23.837540292539757,False,improve_mean_and_latest_forward_mae
+national_environment_finance,3,18.88777986281342,9.642149323650862,24.21140414099712,False,improve_mean_and_latest_forward_mae
 incumbency_demographics,3,19.445389567041627,10.455266546647715,24.923684270194382,False,improve_mean_and_latest_forward_mae
 federal_realign_finance,3,24.526380648807105,12.842893327384067,31.296259233773792,False,improve_mean_and_latest_forward_mae

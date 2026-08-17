@@ -46,6 +46,18 @@ def test_federal_realign_specification_is_forward_tested():
     assert result.loc[result.specification.eq("federal_realign_finance"), "forward_cycles"].iloc[0] >= 2
 
 
+def test_catalist_national_environment_scenarios_are_forward_tested():
+    result = pd.read_csv(WAR / "2026_residual_layer_backtest_summary.csv").set_index("specification")
+    for name in ("national_environment", "national_environment_demographics",
+                 "national_environment_finance"):
+        assert name in result.index
+        assert result.loc[name, "forward_cycles"] == 3
+    # The national adjustment helps the latest (2022) holdout but does not pass
+    # the stricter mean-and-latest promotion gate.
+    assert result.loc["national_environment", "latest_mae"] < result.loc["baseline", "latest_mae"]
+    assert not bool(result.loc["national_environment", "promoted"])
+
+
 def test_simulation_probabilities_and_intervals_are_valid():
     forecast = pd.read_csv(WAR / "2026_prospective_features_and_forecast.csv")
     assert forecast.dem_win_probability.between(0, 1).all()

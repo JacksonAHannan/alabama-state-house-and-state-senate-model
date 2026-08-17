@@ -26,12 +26,19 @@ WAR = ROOT / "data" / "processed" / "war"
 ELECTIONS = ROOT / "data" / "processed" / "elections"
 PRES = ROOT / "data" / "processed" / "presidential"
 DEM = ROOT / "data" / "processed" / "demographics"
+POLLING = ROOT / "data" / "processed" / "polling"
 FORECAST = WAR / "2026_prospective_features_and_forecast.csv"
 LEGACY = WAR / "2026_prospective_features_and_forecast_legacy_core_20260815.csv"
 RNG_SEED = 20260815
 
 SPECS = {
     "baseline": [],
+    "national_environment": [],
+    "national_environment_demographics": ["dem_incumbent_i", "rep_incumbent_i", "nonwhite_share",
+                                            "white_college_share", "national_swing_x_nonwhite",
+                                            "national_swing_x_white_college"],
+    "national_environment_finance": ["dem_incumbent_i", "rep_incumbent_i", "log_fundraising_ratio_d_to_r",
+                                     "ftm_finance_complete"],
     "incumbency": ["dem_incumbent_i", "rep_incumbent_i"],
     "incumbency_demographics": ["dem_incumbent_i", "rep_incumbent_i", "nonwhite_share", "white_college_share"],
     "finance_scenario": ["dem_incumbent_i", "rep_incumbent_i", "log_fundraising_ratio_d_to_r", "ftm_finance_complete"],
@@ -40,12 +47,28 @@ SPECS = {
 }
 
 
+def catalist_midterm_swings() -> dict[int, float]:
+    """National Democratic-margin change from presidential to midterm vote."""
+    data = pd.read_csv(POLLING / "catalist_national_demographic_master.csv")
+    overall = data[(data.dimension.eq("overall")) & (data.group.eq("Total")) &
+                   (data.metric.eq("dem_two_party_share_pct"))]
+    margins = {(int(r.year), r.election_type): 2.0 * float(r.value) - 100.0
+               for r in overall.itertuples()}
+    return {cycle: margins[(cycle, "us_house")] - margins[(cycle - 2, "president")]
+            for cycle in (2010, 2014, 2018, 2022)}
+
+
 def historical() -> pd.DataFrame:
     data = prepare(pd.read_csv(ELECTIONS / "canonical_cmo_features.csv"))
     federal = pd.read_csv(ELECTIONS / "historical_federal_district_baselines.csv")
-    return data.merge(federal[["cycle", "chamber", "district", "federal_index_margin",
+    data = data.merge(federal[["cycle", "chamber", "district", "federal_index_margin",
                                "federal_contested_coverage"]],
                       on=["cycle", "chamber", "district"], how="left", validate="one_to_one")
+    data["national_environment_swing"] = data.cycle.map(catalist_midterm_swings())
+    data["national_environment_baseline"] = data.prior_pres_dem_margin + data.national_environment_swing
+    data["national_swing_x_nonwhite"] = data.national_environment_swing * data.nonwhite_share
+    data["national_swing_x_white_college"] = data.national_environment_swing * data.white_college_share
+    return data
 
 
 def current_fundraising_features() -> pd.DataFrame:
@@ -102,11 +125,24 @@ def prospective_features() -> pd.DataFrame:
     # inventing an unavailable 2026 state-office baseline.
     x["federal_index_margin"] = x.poll_adjusted_dem_margin
     x["federal_contested_coverage"] = 1.0
+    national = pd.read_csv(POLLING / "votehub_silver_bplus_topline_environment.csv").iloc[0]
+    catalist = pd.read_csv(POLLING / "catalist_national_demographic_master.csv")
+    prior = catalist[(catalist.year.eq(2024)) & catalist.election_type.eq("president") &
+                     catalist.dimension.eq("overall") & catalist.group.eq("Total") &
+                     catalist.metric.eq("dem_two_party_share_pct")].iloc[0]
+    x["national_environment_swing"] = (200.0 * float(national.dem_two_party_share) - 100.0) - (2.0 * float(prior.value) - 100.0)
+    x["national_environment_baseline"] = x.poll_adjusted_dem_margin
+    x["national_swing_x_nonwhite"] = x.national_environment_swing * x.nonwhite_share
+    x["national_swing_x_white_college"] = x.national_environment_swing * x.white_college_share
     return x
 
 
 def specification_baseline(name: str) -> str:
-    return "federal_index_margin" if name.startswith("federal_") else "prior_pres_dem_margin"
+    if name.startswith("federal_"):
+        return "federal_index_margin"
+    if name.startswith("national_environment"):
+        return "national_environment_baseline"
+    return "prior_pres_dem_margin"
 
 
 def realignment_weights(cycles: pd.Series) -> np.ndarray:
