@@ -1,0 +1,5 @@
+test_cycle,nominal_coverage,calibration_races,test_races,interval_radius,empirical_coverage,method
+2018,0.8,58,64,38.77817305781912,0.875,expanding_window_split_conformal
+2018,0.95,58,64,91.8073278846586,1.0,expanding_window_split_conformal
+2022,0.8,122,33,36.62904780605531,1.0,expanding_window_split_conformal
+2022,0.95,122,33,53.54057905574085,1.0,expanding_window_split_conformal

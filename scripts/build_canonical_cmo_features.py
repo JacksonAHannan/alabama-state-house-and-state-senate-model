@@ -121,6 +121,10 @@ def main():
     have=set(map(tuple,office_baseline[["cycle","chamber","district","office"]].values))
     legacy=legacy[[tuple(x) not in have for x in legacy[["cycle","chamber","district","office"]].values]]
     office_baseline=pd.concat([office_baseline,legacy],ignore_index=True,sort=False)
+    # Preserve the office-level inputs used by the model for downstream displays.
+    # The separate baseline-scenario audit starts in 2010, which previously left
+    # the 1994-2006 story entries without their Governor and Attorney General tabs.
+    office_baseline.to_csv(ELECT/"canonical_cmo_district_office_baselines.csv",index=False)
     baseline=(office_baseline.groupby(["cycle","chamber","district"],as_index=False)
               .agg(core_index_margin=("office_margin","mean"),core_index_offices=("office","nunique"),
                    baseline_fallback_share=("baseline_fallback_share","max"),
