@@ -1,102 +1,97 @@
 # 2026 Alabama legislative forecast methodology
 
-## Selected headline specification
+## Public model views
 
-The headline district margin is deliberately baseline-first:
+The forecast publishes two views of the same candidate-margin-overperformance
+(CMO) expectation:
 
-`2026 forecast = allocated 2024 presidential margin + district demographic environment swing + promoted adjustments`
+`Basic = poll-adjusted presidential baseline + 20% × expected CMO`
 
-The environment swing uses the selected Catalist/YouGov demographic transfer,
-poststratified with Alabama ACS district cells. It is anchored to the observed
-2024 presidential result rather than the demographic model's fitted 2024 level.
+`Fundamentals+ = poll-adjusted presidential baseline + 100% × expected CMO`
 
-No residual adjustment currently passes the promotion gate, so the headline is:
+Basic is the default. Its partial pooling is a guardrail against overfitting and
+structural change. Fundamentals+ shows the full historically estimated
+relationship. Switching views updates district margins, ratings, intervals,
+probabilities, and chamber simulations together.
 
-`2026 forecast = poll_adjusted_dem_margin`
+## Poll-adjusted presidential baseline
 
-The previous full-margin ridge forecast is preserved at
-`data/processed/war/2026_prospective_features_and_forecast_legacy_core_20260815.csv`.
-It must not be used for headline ratings.
+The structural anchor is each district's allocated 2024 presidential margin.
+The 2024-to-2026 adjustment uses national generic-ballot polls from pollsters
+graded **B or better** in the supplied Nate Silver ratings file. The feed keeps
+the newest eligible poll from each pollster in a rolling 60-day window, weights
+likely-voter, registered-voter, and adult samples differently, and applies a
+21-day recency half-life.
 
-## Why the model was changed
+Reviewed race and education crosstabs, Catalist national vote history, Alabama
+ecological-inference estimates, and ACS race-by-education district composition
+transfer the national environment into Alabama. The modeled change is added to
+the observed district result; a fitted demographic level never replaces the
+observed 2024 vote.
 
-The legacy model predicted the complete legislative margin and used categorical
-cycle effects. Because 2026 was unseen, one-hot encoding mapped it to the omitted
-2010 reference environment. Demographic and historical missingness effects could
-then overwhelm the district baseline. Senate District 2 moved from a sensible
-poll-adjusted D+4.6 baseline to R+8.5 even though neither nominee was an incumbent.
+Historical testing supports a post-2016 nationalization ramp: no national swing
+is transferred through 2014, half is transferred in 2018, and the full swing is
+transferred in 2022 and prospectively in 2026. A 125% continued-nationalization
+case remains an experimental scenario rather than either public model view.
 
-The revised model never uses an election-year category for prospective scoring.
-It models only the residual above a strong baseline and uses ridge models without
-an intercept, so adjustments shrink toward zero.
+## CMO expected-performance model
 
-## Backtest and promotion rule
+The expectation predicts legislative margin residuals above the environment
+baseline using contextual information known for every district:
 
-Comparable forward tests begin in 2014 because 2010 lacks a district-level 2008
-presidential baseline. For each later cycle, models train only on earlier cycles.
-Every candidate layer predicts:
+- nonwhite share and white-college share;
+- prior presidential trend and a flag identifying where it is available;
+- House or Senate chamber;
+- 2008 and 2016 era breaks; and
+- years elapsed since those breaks.
 
-`legislative margin - prior presidential margin`
+Numeric fields are median-imputed inside the pipeline and standardized before
+ridge estimation. Historical cycles receive equal total training weight.
 
-The historical archive does not contain consistent vintage, district-level
-generic-ballot projections for 2014–2022. Consequently, the residual-layer gate
-uses the transparent direct prior-presidential benchmark; it does not invent or
-backfill a historical polling environment. Acquiring equivalent-date historical
-poll snapshots remains a prerequisite for a fully matched environment backtest.
+Candidate incumbency, fundraising, ideology, and prior CMO are deliberately
+excluded. They can be consequences of persistent candidate strength and
+survival, so treating them as independent causes would subtract part of the
+phenomenon that CMO is intended to capture. The expectation is contextual and
+does not identify an individual candidate effect.
 
-A layer is promoted only if it improves both:
+## Forward validation
 
-1. mean expanding-window forward MAE; and
-2. latest-cycle forward MAE.
+Expanding-window tests train only on elections earlier than the held-out cycle.
+The website reports cycle-balanced mean absolute error across all eligible
+holdouts, the post-2016 holdouts, and 2022 separately. Fundamentals+ is the full
+substantive estimate; Basic remains the default because only a small number of
+election environments—and two after 2016—identify these relationships.
 
-Current results are in `2026_residual_layer_backtest_summary.csv`:
+## Uncertainty and seats
 
-| Layer | Mean forward MAE | Latest MAE | Promoted |
-|---|---:|---:|---|
-| Direct baseline | 12.57 | 12.03 | Yes |
-| Finance scenario | 13.28 | 10.28 | No |
-| Incumbency | 14.01 | 10.65 | No |
-| Incumbency + demographics | 15.79 | 11.44 | No |
+Each public view uses 50,000 deterministic-seed simulations centered on its own
+district margins. Error scales come from that view's expanding-window errors.
+Each draw contains:
 
-Demographic main effects therefore do not re-enter the headline after already
-being used in the polling transfer. Finance is shown as a scenario, not treated
-as a causal or validated headline adjustment.
+- one statewide error shared by every modeled district;
+- one House or Senate error shared within the chamber; and
+- one district-specific error.
 
-## Candidate CMO
+Win probabilities, 80%/95% intervals, and chamber seat distributions are
+empirical simulation quantities. Certified single-major-party districts are
+fixed in chamber totals. Independent-only and unresolved districts remain
+unmodeled.
 
-Prior candidate CMO uses only historical out-of-fold scores. Exact normalized
-name-and-party matches are averaged and shrunk by `n / (n + 2)`. This is retained
-as a scenario because there are too few repeat candidates for a genuine forward
-candidate-history validation. Candidates without history receive zero.
+The short historical series cannot establish durable calibration. Polling,
+demographic-transfer, model-selection, and geographic-correlation uncertainty
+are not yet modeled separately, so probabilities remain provisional.
 
-## Uncertainty and seat simulation
+## Automated polling and site refresh
 
-Fifty thousand deterministic-seed simulations add three error components:
+The official YouGov/Economist archive is ingested automatically, with each PDF
+stored alongside its URL, retrieval time, and SHA-256 hash. VoteHub remains the
+broader discovery feed; locally archived releases supplement it when its API
+lags or omits a document.
 
-- a common statewide error;
-- a chamber-specific error; and
-- a district-specific error.
+```powershell
+python scripts/refresh_2026_forecast.py
+```
 
-Their scales are estimated from direct-baseline forward errors. District win
-probabilities and 80%/95% intervals are empirical simulation quantities. The
-seat distribution includes certified single-major-party districts as fixed seats
-and simulates the 47 contested Democratic-versus-Republican races.
-
-Only two comparable forward cycles exist, so this correlation structure and all
-probabilities remain experimental.
-
-## District-level audit outputs
-
-`2026_forecast_decomposition.csv` reports, for every modeled race:
-
-- allocated 2024 presidential margin;
-- environment adjustment;
-- poll-adjusted baseline;
-- each promoted adjustment (currently zero);
-- prior-CMO and finance scenario adjustments;
-- headline margin and simulated win probability; and
-- the selected specification and reason.
-
-The dashboard renders this decomposition directly. It must not describe finance,
-incumbency, demographics, or CMO as part of the headline unless the corresponding
-promotion flag is true.
+That command refreshes poll discovery, the B-or-better quality gate, the
+official YouGov feed, the polling environment, district baseline, both model
+views, simulations, and website exports in dependency order.

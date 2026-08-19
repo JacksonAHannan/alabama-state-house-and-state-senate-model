@@ -100,8 +100,17 @@ def feature_stages(region_cols: list[str]) -> dict[str,list[str]]:
             "demographics_regions_finance_incumbency":incumbency,"all_plus_candidate_history":history}
 
 
+def cmo_expectation_features() -> list[str]:
+    """Non-candidate context used by the prospective CMO expectation."""
+    return ["nonwhite_share", "white_college_share", "prior_pres_swing_filled",
+            "trend_available", "post2008", "post2016", "years_since_2008",
+            "years_since_2016", "chamber_house"]
+
+
 def evaluate(data: pd.DataFrame,stages: dict[str,list[str]]) -> pd.DataFrame:
     specs={"basic_polling_100":{"features":[],"alpha":None,"blend":0}}
+    specs["cmo_expectation__blend20"]={"features":cmo_expectation_features(),"alpha":20.,"blend":.20}
+    specs["cmo_expectation__blend100"]={"features":cmo_expectation_features(),"alpha":20.,"blend":1.0}
     for stage,features in stages.items():
         for alpha in (20.,100.):
             for blend in (.10,.20):
@@ -202,6 +211,18 @@ def prospective(data: pd.DataFrame,regions: pd.DataFrame,stages: dict[str,list[s
         for row,margin in zip(p.itertuples(),structural+weight*swing):
             outputs.append({"chamber":row.chamber,"district":row.district,"specification":label,
                             "predicted_dem_margin":margin,"adjustment_vs_basic_100":(weight-1)*swing})
+    # The two public views share one CMO expectation. Basic shrinks it to 20%;
+    # Fundamentals+ applies the full expected-performance adjustment.
+    cmo_features=cmo_expectation_features()
+    train=data.dropna(subset=["legislative_dem_margin","basic_polling_baseline"]).copy()
+    cmo_fit=pipeline(20.); cmo_target=train.legislative_dem_margin-train.basic_polling_baseline
+    cmo_fit.fit(train[cmo_features],cmo_target,ridge__sample_weight=cycle_balanced_weights(train))
+    cmo_expected=cmo_fit.predict(p[cmo_features])
+    for name,weight in [("cmo_expectation__blend20",.20),("cmo_expectation__blend100",1.0)]:
+        adjustment=weight*cmo_expected
+        for row,margin,a in zip(p.itertuples(),structural+swing+adjustment,adjustment):
+            outputs.append({"chamber":row.chamber,"district":row.district,"specification":name,
+                            "predicted_dem_margin":margin,"adjustment_vs_basic_100":a})
     # Fundamentals+ is the fullest best-performing staged challenger. It is
     # intentionally published as a comparison view despite failing the basic
     # model's latest-cycle promotion guardrail.
@@ -216,6 +237,8 @@ def prospective(data: pd.DataFrame,regions: pd.DataFrame,stages: dict[str,list[s
                         "predicted_dem_margin":margin,"adjustment_vs_basic_100":a})
     eligible=summary[summary.passes_basic_guardrail]
     for name in eligible.specification:
+        if "__ridge" not in name:
+            continue
         stage=name.split("__")[0]; alpha=float(name.split("ridge")[1].split("__")[0]); blend=float(name.split("blend")[1])/100
         features=stages[stage]
         if stage=="all_plus_candidate_history": continue

@@ -1,6 +1,6 @@
 as_of,dimension,group,relative_logit,projected_dem_two_party_share,pollsters,polls,pollster_list,minimum_silver_grade
-2026-08-07,education,marist_college_grad,0.1778704414997497,0.578655168481125,3,3,Beacon Research/Shaw & Co. Research | Echelon Insights | Marist College,B+
-2026-08-07,education,marist_not_college_grad,-0.13132980693827184,0.5020137171414413,3,3,Beacon Research/Shaw & Co. Research | Echelon Insights | Marist College,B+
-2026-08-07,race,black,1.7806479322025046,0.8721420746759109,4,4,Echelon Insights | Marist College | Public Policy Polling | TIPP Insights,B+
-2026-08-07,race,hispanic,0.15726916230980478,0.5736243272571083,5,5,Beacon Research/Shaw & Co. Research | Echelon Insights | Marist College | Public Policy Polling | TIPP Insights,B+
-2026-08-07,race,white,-0.2477135815060629,0.4729442378156913,5,5,Beacon Research/Shaw & Co. Research | Echelon Insights | Marist College | Public Policy Polling | TIPP Insights,B+
+2026-08-17,education,marist_college_grad,0.18580046607955422,0.5835064070391256,4,4,Beacon Research/Shaw & Co. Research | Echelon Insights | Marist College | Marist University,B
+2026-08-17,education,marist_not_college_grad,-0.13428480542911791,0.5042746663674066,4,4,Beacon Research/Shaw & Co. Research | Echelon Insights | Marist College | Marist University,B
+2026-08-17,race,black,1.765799158492854,0.8718239772923699,5,5,Echelon Insights | Marist College | Marist University | Public Policy Polling | TIPP Insights,B
+2026-08-17,race,hispanic,0.16021747827283317,0.5772760881505036,6,6,Beacon Research/Shaw & Co. Research | Echelon Insights | Marist College | Marist University | Public Policy Polling | TIPP Insights,B
+2026-08-17,race,white,-0.24616672892141614,0.4763220134909599,6,6,Beacon Research/Shaw & Co. Research | Echelon Insights | Marist College | Marist University | Public Policy Polling | TIPP Insights,B

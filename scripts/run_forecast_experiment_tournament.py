@@ -15,7 +15,7 @@ from sklearn.metrics import brier_score_loss, mean_absolute_error, mean_squared_
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, SplineTransformer, StandardScaler
 
-from fit_2026_prospective_model import historical
+from fit_2026_prospective_model import BASE_FEATURES, FORECAST, historical, simulate
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "processed" / "war"
@@ -87,10 +87,17 @@ DEMO = ["nonwhite_share", "white_college_share", "ramp_x_nonwhite", "ramp_x_whit
 TREND = ["prior_pres_swing_filled", "trend_available"]
 FEDERAL = ["federal_lean_to_nation", "federal_state_gap", "federal_contested_coverage", "federal_coverage_missing"]
 ALL = INC + FIN_OPEN + DEMO + TREND + ["post2008", "post2016", "years_since_2008", "years_since_2016"]
+# Forecast analogue of the headline CMO expectation. These are contextual
+# variables only: no incumbency status, fundraising, ideology, or prior CMO.
+CMO_EXPECTATION = ["nonwhite_share", "white_college_share", "prior_pres_swing_filled",
+                   "trend_available", "post2008", "post2016", "years_since_2008",
+                   "years_since_2016"]
 
 SPECS = {
     "prior_presidential": {"baseline": "prior_pres_dem_margin", "features": [], "model": "none", "eligible": True},
     "post2016_ramp": {"baseline": "ramp_baseline", "features": [], "model": "none", "eligible": True},
+    "ramp_cmo_expected_performance": {"baseline": "ramp_baseline", "features": CMO_EXPECTATION,
+                                       "model": "ridge", "eligible": True},
     "ramp_incumbency": {"baseline": "ramp_baseline", "features": INC, "model": "ridge", "eligible": True},
     "ramp_capped_fundraising": {"baseline": "ramp_baseline", "features": FIN, "model": "ridge", "eligible": True},
     "ramp_incumbency_fundraising": {"baseline": "ramp_baseline", "features": INC + FIN, "model": "ridge", "eligible": True},
@@ -313,6 +320,56 @@ def write_public_model_comparison() -> tuple[pd.DataFrame, pd.DataFrame]:
     return comparison, detail
 
 
+def simulation_errors(predictions: pd.DataFrame, specification: str) -> pd.DataFrame:
+    """Adapt a model's expanding-window errors to the shared simulator API."""
+    use = predictions[predictions.specification.eq(specification)].copy()
+    if use.empty:
+        raise ValueError(f"No out-of-fold errors for {specification}")
+    use["error"] = use.actual - use.prediction
+    use["specification"] = "baseline"
+    return use[["specification", "test_cycle", "chamber", "district", "error"]]
+
+
+def publish_canonical_forecast() -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Publish the selected 80/20 ensemble as the sole canonical forecast."""
+    if not BASE_FEATURES.exists():
+        raise FileNotFoundError(f"Run fit_2026_prospective_model.py first: {BASE_FEATURES}")
+    detail, _ = evaluate()
+    ensemble_predictions, ensemble_summary = ensembles(detail)
+    comparison, _ = write_public_model_comparison()
+    selected = "ensemble_ramp_ridge_80_20"
+    score = ensemble_summary.set_index("specification").loc[selected]
+    if not (score.worst_cycle_degradation_vs_ramp < 0):
+        raise ValueError("Selected ensemble no longer improves every ramp holdout")
+    base = pd.read_csv(BASE_FEATURES)
+    margins = (comparison[comparison.model.eq(selected)]
+               [["chamber", "district", "predicted_dem_margin"]])
+    forecast = (base.drop(columns=["predicted_dem_margin", "dem_win_probability",
+                                   "margin_80_low", "margin_80_high",
+                                   "margin_95_low", "margin_95_high"], errors="ignore")
+                .merge(margins, on=["chamber", "district"], validate="one_to_one"))
+    forecast["ensemble_adjustment"] = forecast.predicted_dem_margin - forecast.poll_adjusted_dem_margin
+    forecast["selected_specification"] = selected
+    forecast["selection_reason"] = (
+        "80/20 ramp-ridge ensemble improved every expanding-window holdout versus the ramp")
+    forecast["model_status"] = "public_experimental_selected_ensemble"
+    errors = simulation_errors(ensemble_predictions, selected)
+    forecast, seats = simulate(forecast.reset_index(drop=True), errors)
+    forecast["predicted_winner"] = np.where(forecast.predicted_dem_margin.gt(0), "D", "R")
+    forecast.to_csv(FORECAST, index=False)
+    seats.to_csv(OUT / "2026_correlated_seat_simulation.csv", index=False)
+    decomposition_columns = [
+        "chamber", "district", "structural_2024_pres_margin", "environment_adjustment",
+        "baseline_forecast_margin", "ensemble_adjustment", "incumbency_adjustment",
+        "demographic_residual_adjustment", "cmo_adjustment", "finance_adjustment",
+        "cmo_scenario_adjustment", "scenario_finance_scenario_adjustment",
+        "predicted_dem_margin", "dem_win_probability", "margin_80_low", "margin_80_high",
+        "selected_specification", "selection_reason",
+    ]
+    forecast[decomposition_columns].to_csv(OUT / "2026_forecast_decomposition.csv", index=False)
+    return forecast, seats
+
+
 def main() -> None:
     detail, summary = evaluate()
     ensemble_detail, ensemble_summary = ensembles(detail)
@@ -321,6 +378,7 @@ def main() -> None:
     ensemble_detail.to_csv(OUT / "forecast_experiment_ensemble_predictions.csv", index=False)
     ensemble_summary.to_csv(OUT / "forecast_experiment_ensemble_summary.csv", index=False)
     write_public_model_comparison()
+    publish_canonical_forecast()
     print("Forecast-eligible specifications")
     print(summary[summary.promotion_eligible][["specification", "cycle_balanced_mean_mae", "post2016_mean_mae",
           "latest_mae", "latest_house_mae", "latest_senate_mae", "worst_cycle_degradation_vs_ramp",

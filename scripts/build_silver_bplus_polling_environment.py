@@ -1,4 +1,4 @@
-"""Build a current environment using B+ or better toplines and crosstab shapes."""
+"""Build a current environment using Silver B-rated or better polls."""
 from pathlib import Path
 import numpy as np
 import pandas as pd
@@ -44,7 +44,7 @@ def main():
     pd.DataFrame([{'as_of':as_of.date().isoformat(),'dem_two_party_share':overall,
                    'dem_two_party_margin':200*overall-100,'pollsters':recent.silver_pollster.nunique(),
                    'pollster_list':' | '.join(sorted(recent.silver_pollster.unique())),
-                   'window_days':60,'minimum_silver_grade':'B+'}]).to_csv(
+                   'window_days':60,'minimum_silver_grade':'B'}]).to_csv(
         POLLING/'votehub_silver_bplus_topline_environment.csv',index=False)
 
     cells=pd.read_csv(POLLING/'votehub_demographic_crosstabs_long.csv')
@@ -83,7 +83,7 @@ def main():
                      'relative_logit':effect,'projected_dem_two_party_share':float(expit(logit(overall)+effect)),
                      'pollsters':part.canonical_pollster.nunique(),'polls':part.poll_id.nunique(),
                      'pollster_list':' | '.join(sorted(part.canonical_pollster.unique())),
-                     'minimum_silver_grade':'B+'})
+                     'minimum_silver_grade':'B'})
     pd.DataFrame(rows).to_csv(POLLING/'votehub_silver_bplus_demographic_environment.csv',index=False)
     print(pd.DataFrame(rows).to_string(index=False))
 

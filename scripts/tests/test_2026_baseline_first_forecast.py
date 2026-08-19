@@ -11,10 +11,13 @@ def test_legacy_forecast_is_archived():
     assert (WAR / "2026_prospective_features_and_forecast_legacy_core_20260815.csv").exists()
 
 
-def test_headline_uses_poll_adjusted_baseline_when_layers_fail_gate():
-    forecast = pd.read_csv(WAR / "2026_prospective_features_and_forecast.csv")
-    assert forecast.selected_specification.eq("poll_adjusted_post2016_national_environment_ramp").all()
-    assert (forecast.predicted_dem_margin - forecast.poll_adjusted_dem_margin).abs().max() < 1e-9
+def test_public_views_use_partial_and_full_cmo_expectation():
+    forecast = pd.read_csv(WAR / "next_forecast_tournament_2026.csv")
+    views = forecast[forecast.specification.str.startswith("cmo_expectation")]
+    assert set(views.specification) == {
+        "cmo_expectation__blend20", "cmo_expectation__blend100"
+    }
+    assert views.groupby("specification").size().eq(47).all()
 
 
 def test_sd2_smell_test_and_decomposition():
@@ -24,6 +27,7 @@ def test_sd2_smell_test_and_decomposition():
     assert row.environment_adjustment > 0
     assert row.predicted_dem_margin > 0
     assert row.incumbency_adjustment == 0
+    assert row.ensemble_adjustment != 0
 
 
 def test_only_baseline_and_environment_ramp_pass_declared_promotion_gate():

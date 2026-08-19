@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 RATINGS = ROOT / "data" / "raw" / "polling" / "nate_silver_pollster_ratings.csv"
 QUEUE = ROOT / "data" / "processed" / "polling" / "votehub_crosstab_document_review_queue.csv"
 OUT = ROOT / "data" / "processed" / "polling"
-ELIGIBLE = {"A+", "A", "A-", "A/B", "B+"}
+ELIGIBLE = {"A+", "A", "A-", "A/B", "B+", "B"}
 
 # Conservative aliases only: combined firms are not promoted from a constituent
 # firm's grade unless Silver lists that exact partnership.
@@ -40,6 +40,8 @@ def attach_grades(queue: pd.DataFrame, ratings: pd.DataFrame) -> pd.DataFrame:
                      "predictive_plus_minus": match.get("Predictive Plus-Minus") if match is not None else None,
                      "silver_number_of_polls": match.get("Number of polls") if match is not None else None,
                      "match_method": "explicit_alias" if pollster in ALIASES else ("normalized_exact" if match is not None else "unmatched"),
+                     "b_or_better": bool(match is not None and match["silver_grade"] in ELIGIBLE),
+                     # Compatibility field for existing downstream artifacts.
                      "b_plus_or_better": bool(match is not None and match["silver_grade"] in ELIGIBLE)})
     crosswalk = pd.DataFrame(rows)
     return queue.merge(crosswalk, left_on="pollster", right_on="votehub_pollster", validate="many_to_one")

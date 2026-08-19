@@ -28,10 +28,11 @@ def test_public_pages_describe_current_runs() -> None:
     cmo = (DOCS / "cmo.html").read_text(encoding="utf-8")
     cmo_method = (DOCS / "cmo-methodology.html").read_text(encoding="utf-8")
 
-    assert "Basic remains the default because Fundamentals+ did not improve the 2022 holdout" in forecast
+    assert "poll-adjusted presidential baseline plus 20% of CMO expected performance" in forecast
+    assert "applies the full CMO expected-performance adjustment" in forecast
     assert "50,000 deterministic-seed simulations" in forecast_method
-    assert "Only six held-out cycles and two post-2016 cycles" in forecast_method
-    assert "352 of 509 eligible races (69.2%)" in forecast_method
+    assert "two after 2016" in forecast_method
+    assert "poll-adjusted presidential baseline + 100%" in forecast_method
     assert "Alabama Candidate Margin Overperformance" in cmo
     assert "Build updated August 17, 2026" in cmo
     assert "Canonical fundraising" in cmo

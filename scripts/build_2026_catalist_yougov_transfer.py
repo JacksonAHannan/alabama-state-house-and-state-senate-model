@@ -28,7 +28,7 @@ def poll_movements():
             'college':weighted_poll_group(p,cycle,['college_grad','postgrad']),
             'noncollege':weighted_poll_group(p,cycle,['hs_or_less','some_college']),
         } for cycle in [2024]}
-    # Current levels use the Silver B+ quality-gated VoteHub environment. The
+    # Current levels use the Silver B-or-better quality-gated VoteHub environment. The
     # topline pools eight eligible pollsters; race shapes pool three, while the
     # compatible education split is supplied by A- rated Marist.
     topline=pd.read_csv(POLLING/'votehub_silver_bplus_topline_environment.csv').iloc[0]
@@ -122,7 +122,7 @@ def main():
                           'forward_offset_mean_ae':backtest[backtest.cell!='other'].absolute_error_points.mean(),
                           'forward_offset_max_ae':backtest[backtest.cell!='other'].absolute_error_points.max(),
                           'release_gate_passed':gate,
-                          'environment_source':'Silver B+ or better VoteHub and supplemental toplines; quality-gated reviewed race and education crosstabs',
+                          'environment_source':'Silver B or better VoteHub and supplemental toplines; quality-gated reviewed race and education crosstabs',
                           'status':'eligible_silver_bplus_demographic_environment' if gate else 'experimental'}])
     projection.to_csv(POLLING/'2026_alabama_catalist_yougov_cell_projection.csv',index=False)
     summary.to_csv(POLLING/'2026_alabama_demographic_environment.csv',index=False)
