@@ -48,8 +48,8 @@
   const $ = s => document.querySelector(s);
   const $$ = s => [...document.querySelectorAll(s)];
   const params = new URLSearchParams(location.search);
-  const state = { chamber: params.get("chamber")||"house", model: params.get("model")||"basic_polling_100", mode: params.get("mode")||"probability", selected: +(params.get("district")||0)||null, sort: "closeness", asc: true };
-  const PUBLIC_MODEL="basic_polling_100";
+  const PUBLIC_MODEL=DATA.meta.model;
+  const state = { chamber: params.get("chamber")||"house", model: params.get("model")||PUBLIC_MODEL, mode: params.get("mode")||"probability", selected: +(params.get("district")||0)||null, sort: "closeness", asc: true };
   const chamberName = c => c === "house" ? "State House" : "State Senate";
   const districtName = (c,d) => `${c === "house" ? "HD" : "SD"}-${d}`;
   const partyName = p => ({D:"Democratic",R:"Republican",I:"Independent"}[p] || p);

@@ -58,6 +58,8 @@ def test_model_switcher_and_default_decomposition_are_complete():
     assert default["steps"]
     assert len(data["contributionVariables"]) == len(default["steps"])
     assert abs(default["steps"][-1][2] - default["margin"]) < 1e-8
+    assert 'const PUBLIC_MODEL=DATA.meta.model' in text
+    assert 'basic_polling_100' not in text
 
 
 def test_comparison_ui_provenance_and_mobile_table_contract():
