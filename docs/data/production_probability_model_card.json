@@ -1,0 +1,106 @@
+{
+  "model_name": "Southern recent-era legislative margin probability calibrator",
+  "status": "research_candidate",
+  "built_date": "2026-08-19",
+  "training_races": 1188,
+  "training_states": [
+    "AR",
+    "GA",
+    "TN",
+    "TX"
+  ],
+  "training_cycles": [
+    2018,
+    2020,
+    2022,
+    2024
+  ],
+  "selected_distribution": {
+    "family": "normal",
+    "scale": 6.0,
+    "df": null,
+    "training_brier": 0.02633002997098893
+  },
+  "family_validation_comparison": [
+    {
+      "family": "logistic",
+      "validation": "forward_cycle",
+      "mean_brier": 0.03098122259609438,
+      "mean_log_loss": 0.10274057660268497,
+      "mean_calibration_mae": 0.02307992949360324
+    },
+    {
+      "family": "logistic",
+      "validation": "leave_state_out",
+      "mean_brier": 0.03307496035640706,
+      "mean_log_loss": 0.1241587707336139,
+      "mean_calibration_mae": 0.02751630715860566
+    },
+    {
+      "family": "normal",
+      "validation": "forward_cycle",
+      "mean_brier": 0.031016449810616253,
+      "mean_log_loss": 0.10314847565858905,
+      "mean_calibration_mae": 0.02978901522151425
+    },
+    {
+      "family": "normal",
+      "validation": "leave_state_out",
+      "mean_brier": 0.03315795066698635,
+      "mean_log_loss": 0.1286741772862984,
+      "mean_calibration_mae": 0.040458347601859464
+    },
+    {
+      "family": "student_t",
+      "validation": "forward_cycle",
+      "mean_brier": 0.031035673726101276,
+      "mean_log_loss": 0.10537300654796666,
+      "mean_calibration_mae": 0.023740927480651614
+    },
+    {
+      "family": "student_t",
+      "validation": "leave_state_out",
+      "mean_brier": 0.03301068800606466,
+      "mean_log_loss": 0.11808918241071045,
+      "mean_calibration_mae": 0.025883642982256653
+    }
+  ],
+  "validation": [
+    {
+      "validation": "forward_cycle",
+      "holdouts": 3,
+      "races": 905,
+      "mean_brier": 0.031016449810616253,
+      "mean_log_loss": 0.10314847565858905,
+      "mean_calibration_mae": 0.02978901522151425,
+      "mean_winner_accuracy": 0.9605729629995716
+    },
+    {
+      "validation": "leave_state_out",
+      "holdouts": 4,
+      "races": 1188,
+      "mean_brier": 0.03315795066698635,
+      "mean_log_loss": 0.1286741772862984,
+      "mean_calibration_mae": 0.040458347601859464,
+      "mean_winner_accuracy": 0.9583728159443017
+    }
+  ],
+  "residual_quantiles": {
+    "0.025": -11.991952403457942,
+    "0.1": -7.568825986374438,
+    "0.5": -0.15065298879446942,
+    "0.9": 8.064262973535499,
+    "0.975": 14.948289391272235
+  },
+  "rules": [
+    "Probability is calibrated from expected margin, not from the public Monte Carlo intervals.",
+    "Distribution is zero-centered so calibration cannot silently shift the margin forecast.",
+    "State-cycle-chamber cells receive equal total fitting weight.",
+    "Alabama is excluded from training."
+  ],
+  "known_limitations": [
+    "Only recent Southern cycles with compatible district presidential baselines are eligible.",
+    "Odd-year Louisiana and Mississippi files are staged but not mixed into the even-year environment calibration yet.",
+    "National polling uncertainty must be modeled as a shared scenario layer, not hidden in district win probabilities."
+  ]
+}

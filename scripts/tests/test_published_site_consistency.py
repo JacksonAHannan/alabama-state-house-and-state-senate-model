@@ -30,7 +30,8 @@ def test_public_pages_describe_current_runs() -> None:
 
     assert "poll-adjusted presidential baseline plus 20% of CMO expected performance" in forecast
     assert "applies the full CMO expected-performance adjustment" in forecast
-    assert "50,000 deterministic-seed simulations" in forecast_method
+    assert "P(D win) = Φ(expected Democratic margin / 6.0)" in forecast_method
+    assert "1,188 contested legislative races" in forecast_method
     assert "two after 2016" in forecast_method
     assert "poll-adjusted presidential baseline + 100%" in forecast_method
     assert "Alabama Candidate Margin Overperformance" in cmo
@@ -51,3 +52,8 @@ def test_public_cmo_and_forecast_row_counts() -> None:
     assert candidates.candidate_cmo_total_oof.notna().all()
     assert set(races.cycle) == {1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022}
     assert forecasts.groupby("specification").size().eq(47).all()
+
+
+def test_public_probability_export_matches_current_model_output() -> None:
+    source = ROOT / "data" / "processed" / "forecast_calibration" / "production_probability_2026.csv"
+    assert source.read_bytes() == (DOCS / "data" / "production_probability_2026.csv").read_bytes()

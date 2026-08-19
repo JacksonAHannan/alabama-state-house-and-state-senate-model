@@ -40,10 +40,10 @@ def test_dashboard_explains_headline_and_scenarios():
     text = PAGE.read_text(encoding="utf-8")
     assert "poll-adjusted presidential baseline plus 20% of CMO expected performance" in text
     assert "applies the full CMO expected-performance adjustment" in text
-    assert "middle 80% of simulated outcomes" in text
-    assert "Experimental uncertainty estimates" in text
+    assert "middle 80% conditional predictive interval" in text
+    assert "Conditional probability estimates" in text
     assert "CMO expected performance" in text
-    assert "provisional rather than fully calibrated" in text
+    assert "six-point normal calibration" in text
 
 
 def test_model_switcher_and_default_decomposition_are_complete():
@@ -90,3 +90,13 @@ def test_personal_branding_and_profile_links():
 def test_uncertainty_axis_has_correct_party_direction():
     css = (ROOT / "dashboard" / "forecast_dashboard.css").read_text(encoding="utf-8")
     assert "linear-gradient(90deg,var(--red),#eee 50%,var(--blue))" in css
+
+
+def test_live_probabilities_use_recent_southern_calibration():
+    _, data = page_and_payload()
+    hd21 = next(r for r in data["house"]["races"] if r["district"] == 21)
+    basic = hd21["models"]["cmo_expectation__blend20"]
+    plus = hd21["models"]["cmo_expectation__blend100"]
+    assert .03 < basic["demProbability"] < .04
+    assert .01 < plus["demProbability"] < .025
+    assert basic["high80"] - basic["low80"] < 16

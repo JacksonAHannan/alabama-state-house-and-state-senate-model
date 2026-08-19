@@ -198,7 +198,7 @@
       <span class="interval-band" style="left:${pct(r.low80)}%;width:${pct(r.high80)-pct(r.low80)}%"></span>
       <i class="interval-dot" style="left:${pct(r.margin)}%"></i>
       <span class="interval-end" style="left:${pct(r.low80)}%">${fmtMargin(r.low80)}</span><span class="interval-end" style="left:${pct(r.high80)}%">${fmtMargin(r.high80)}</span>
-    </div><div class="interval-caption">The band contains the middle 80% of simulated outcomes. Scale: R+${bound} to D+${bound}; the center line is an even race.</div></div>`;
+    </div><div class="interval-caption">The band is the middle 80% conditional predictive interval from the recent Southern calibration. Scale: R+${bound} to D+${bound}; the center line is an even race.</div></div>`;
   }
 
   function renderDetail(r){
