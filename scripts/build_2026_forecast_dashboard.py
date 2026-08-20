@@ -10,6 +10,7 @@ from pathlib import Path
 import geopandas as gpd
 import numpy as np
 import pandas as pd
+from shapely.geometry import mapping
 
 ROOT = Path(__file__).resolve().parents[1]
 WAR = ROOT / "data" / "processed" / "war"
@@ -21,9 +22,6 @@ MAPS = {
     "house": ROOT / "data" / "raw" / "alabama_elections_and_geography" / "tl_2025_01_sldl" / "tl_2025_01_sldl.shp",
     "senate": ROOT / "data" / "raw" / "alabama_elections_and_geography" / "tl_2025_01_sldu" / "tl_2025_01_sldu.shp",
 }
-PRECINCT_CONTEXT = ROOT / "data" / "raw" / "alabama_elections_and_geography" / "al_2024_gen_prec" / "al_2024_gen_all_prec" / "al_2024_gen_all_prec.shp"
-PLACE_CONTEXT = ROOT / "data" / "raw" / "census" / "tl_2024_01_place.zip"
-MAJOR_PLACES = {"Huntsville", "Birmingham", "Montgomery", "Mobile", "Tuscaloosa", "Hoover", "Auburn", "Dothan", "Decatur", "Florence", "Gadsden"}
 PUBLIC_MODELS = {
     "cmo_expectation__blend20": "Basic",
     "cmo_expectation__blend100": "Fundamentals+",
@@ -131,26 +129,11 @@ def build_payload():
             "default":model==DEFAULT_MODEL,
             "meanMae":clean(score.cycle_balanced_mae),"recentMae":clean(score.post2016_mae),
             "latestMae":clean(score.latest_2022_mae),"passesGuardrail":bool(score.passes_basic_guardrail)})
-    precincts=gpd.read_file(PRECINCT_CONTEXT)[["COUNTYFP","County","geometry"]].to_crs(4326)
-    precincts["geometry"]=precincts.geometry.make_valid()
-    counties=precincts.dissolve(by=["COUNTYFP","County"],as_index=False)
-    counties["geometry"]=counties.geometry.simplify(.006,preserve_topology=True)
-    places=gpd.read_file(PLACE_CONTEXT).to_crs(4326)
-    places=places[places.NAME.isin(MAJOR_PLACES)].copy()
-    places["geometry"]=places.geometry.simplify(.003,preserve_topology=True)
     for chamber,map_path in MAPS.items():
         geo=gpd.read_file(map_path).to_crs(4326); field="SLDLST" if chamber=="house" else "SLDUST"
-        geo["district"]=geo[field].astype(int); geo["geometry"]=geo.geometry.simplify(.004,preserve_topology=True)
-        bounds=geo.total_bounds
-        paths=[{"district":int(r.district),"path":path_for_geometry(r.geometry,bounds)} for _,r in geo.iterrows()]
-        county_context=[]
-        for _,r in counties.iterrows():
-            x,y=point_for_geometry(r.geometry,bounds)
-            county_context.append({"name":str(r.County),"path":path_for_geometry(r.geometry,bounds),"x":x,"y":y})
-        place_context=[]
-        for _,r in places.iterrows():
-            x,y=point_for_geometry(r.geometry,bounds)
-            place_context.append({"name":str(r.NAME),"path":path_for_geometry(r.geometry,bounds),"x":x,"y":y})
+        geo["district"]=geo[field].astype(int)
+        geo["geometry"]=geo.geometry.make_valid().simplify(.001,preserve_topology=True)
+        paths=[{"district":int(r.district),"geometry":mapping(r.geometry)} for _,r in geo.iterrows()]
         races=[]; total=105 if chamber=="house" else 35
         for district in range(1,total+1):
             sub=roster[(roster.chamber==chamber)&(roster.district==district)]
@@ -190,7 +173,7 @@ def build_payload():
         for model,seat_dist in model_seats.items():
             sd=seat_dist[seat_dist.chamber.eq(chamber)][["dem_seats","probability"]].rename(columns={"dem_seats":"demSeats"})
             distributions[model]=[{k:clean(v) for k,v in x.items()} for x in sd.to_dict("records")]
-        payload[chamber]={"paths":paths,"context":{"counties":county_context,"places":place_context},"races":races,"modelSeatDistributions":distributions,
+        payload[chamber]={"paths":paths,"races":races,"modelSeatDistributions":distributions,
                           "seatDistribution":distributions[DEFAULT_MODEL]}
     return payload
 
@@ -202,7 +185,7 @@ HTML="""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="v
 <main class="shell"><section class="model-switcher" aria-labelledby="modelSwitcherTitle"><div><div class="kicker">Backtested comparisons</div><h2 id="modelSwitcherTitle">Forecast model</h2><p id="modelDescription" class="section-note"></p></div><div class="model-scores" id="modelScores" aria-label="Forward-validation error scores"></div><div class="model-tabs" id="modelTabs" role="tablist" aria-label="Forecast model"></div><p class="mae-note">MAE is the average absolute district-margin error; lower is better. Only two holdouts occur after 2016.</p></section><section class="overview-grid" id="overviewGrid" aria-label="House and Senate forecast summaries"></section>
 <section class="workspace" id="workspace"><header class="workspace-head"><h2 id="chamberTitle"></h2><div class="segmented" aria-label="Select chamber"><button data-chamber="house" aria-pressed="true">State House</button><button data-chamber="senate" aria-pressed="false">State Senate</button></div></header>
 <div class="chamber-strip"><div class="strip-stat"><b id="medianSeats"></b><span>Median Democratic seats</span></div><div class="strip-stat distribution-cell"><div class="distribution" id="distribution" aria-label="Conditional Democratic seat distribution"></div><div class="distribution-axis" id="distributionAxis"></div></div><div class="strip-stat"><b id="seatRange"></b><span>Democratic 80% seat range</span></div></div>
-<div class="interactive"><section class="map-panel"><div class="map-head"><div><h3 id="mapTitle"></h3><p>Choose a district on the map or with the district finder.</p></div><div class="mode-tabs" aria-label="Map display"><button data-mode="probability" aria-pressed="true">Win chance</button><button data-mode="margin" aria-pressed="false">Margin</button><button data-mode="rating" aria-pressed="false">Rating</button></div></div><div class="map-tools"><label class="sr-only" for="districtSelect">Find a district</label><select id="districtSelect"></select><span class="section-note">Urban districts can also be selected from this list.</span></div><div class="map-wrap"><svg id="map" viewBox="0 0 650 710" role="group"></svg></div><div class="legend" id="legend" aria-label="Map legend"></div></section>
+<div class="interactive"><section class="map-panel"><div class="map-head"><div><h3 id="mapTitle"></h3><p>Choose a district on the map or with the district finder.</p></div><div class="mode-tabs" aria-label="Map display"><button data-mode="probability" aria-pressed="true">Win chance</button><button data-mode="margin" aria-pressed="false">Margin</button><button data-mode="rating" aria-pressed="false">Rating</button></div></div><div class="map-tools"><label class="sr-only" for="districtSelect">Find a district</label><select id="districtSelect"></select><span class="section-note">Pan and zoom to explore roads, cities, and district geography.</span></div><div class="map-wrap"><div id="map" role="group" aria-label="Interactive Alabama legislative district forecast map"></div></div><div class="legend" id="legend" aria-label="Map legend"></div></section>
 <aside class="detail" id="detail" aria-live="polite"><div class="detail-empty">Select a district to explore its forecast.</div></aside></div></section>
 <section class="section"><h2>District forecast table</h2><p class="section-note"><span id="rowCount"></span>. Headline margins use the selected baseline. Candidate and fundraising scenarios are shown separately and do not change ratings.</p><div class="table-tools"><label class="sr-only" for="search">Search candidates or districts</label><input id="search" type="search" placeholder="Search candidate or district"><label class="sr-only" for="ratingFilter">Filter by rating</label><select id="ratingFilter"><option value="all">All ratings</option><option>Solid D</option><option>Very likely D</option><option>Likely D</option><option>Lean D</option><option>Toss-up</option><option>Lean R</option><option>Likely R</option><option>Very likely R</option><option>Solid R</option><option>Unopposed D</option><option>Unopposed R</option></select><label class="sr-only" for="scopeFilter">Filter races</label><select id="scopeFilter"><option value="all">All districts</option><option value="competitive">Competitive (35–65%)</option><option value="modeled">Modeled D–R races</option><option value="open">Open seats</option><option value="crosses">80% interval crosses even</option></select><button class="small-button" id="download">Download CSV</button></div><div class="table-hint">Swipe horizontally to see all columns; the district column remains fixed.</div><div class="table-wrap"><table><thead><tr><th><button data-sort="district">District<span></span></button></th><th>Candidates</th><th><button data-sort="rating">Rating<span></span></button></th><th><button data-sort="demProbability">Dem. chance<span></span></button></th><th><button data-sort="margin">Headline margin<span></span></button></th><th>80% interval</th><th>Finance scenario</th></tr></thead><tbody id="rows"></tbody></table></div></section>
 <section class="section method"><div><h2>How to read this forecast</h2><p><b>Basic</b> is the default guardrail: the poll-adjusted presidential baseline plus 20% of CMO expected performance.</p><p><b>Fundamentals+</b> uses the same inputs and applies the full CMO expected-performance adjustment. It is more responsive to district context and less conservative than Basic.</p><div class="method-links"><a href="methodology.html">Full methodology</a><a href="data/next_forecast_tournament_2026.csv">District data</a><a href="data/next_forecast_tournament_summary.csv">Backtests</a></div></div><div class="caveat"><b>Experimental forecast.</b><p>District probabilities use a zero-centered, six-point normal calibration fitted to 1,188 recent Southern legislative races and tested in forward-cycle and leave-state-out holdouts. They are conditional on the displayed national environment.</p><p>Single-major-party districts are treated as fixed seats for chamber summaries even when an independent is present. Gray, dashed districts are unresolved or unmodeled rather than toss-ups.</p><p>Polling staleness is displayed at the top of the page. The environment component should be rebuilt when new polling becomes available.</p></div></section></main><footer class="site-footer"><div><b>Model and analysis by Jackson Hannan</b><span>Alabama 2026 Legislative Forecast</span></div><nav aria-label="Jackson Hannan profiles"><a href="https://github.com/JacksonAHannan" target="_blank" rel="me noopener">GitHub</a><a href="https://www.instagram.com/topsoilintraining/" target="_blank" rel="me noopener">Instagram</a><a href="https://substack.com/@jacksonhannan" target="_blank" rel="me noopener">Substack</a><a href="https://www.linkedin.com/in/jackson-hannan" target="_blank" rel="me noopener">LinkedIn</a></nav></footer><div class="tooltip" id="tooltip" role="tooltip"></div><script>const DATA=__PAYLOAD__;__JS__</script></body></html>"""
@@ -254,6 +237,8 @@ def main():
     payload_data=build_payload()
     payload=json.dumps(payload_data,separators=(",",":"),ensure_ascii=False)
     page=HTML.replace("__CSS__",css).replace("__PAYLOAD__",payload).replace("__JS__",js)
+    page=page.replace("<style>",'<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQ3ynhHdWqKjMZV9xlqFQWmxlZ8lVw=" crossorigin=""><style>',1)
+    page=page.replace("<script>const DATA=",'<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script><script>const DATA=',1)
     page=page.replace('<section class="workspace" id="workspace">',
                       '<section class="workspace" id="workspace" role="tabpanel" aria-live="polite">')
     page=page.replace('<option value="crosses">80% interval crosses even</option>',

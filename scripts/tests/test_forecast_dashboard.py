@@ -104,11 +104,11 @@ def test_live_probabilities_use_recent_southern_calibration():
 
 def test_map_starts_statewide_and_zooms_to_selected_district():
     text = PAGE.read_text(encoding="utf-8")
-    assert 'const STATEWIDE_VIEWBOX={x:0,y:0,width:650,height:710}' in text
     assert 'if(state.selected&&!race(state.chamber,state.selected))state.selected=null' in text
     assert 'state.chamber=c;state.selected=null;syncUrl()' in text
     assert 'function updateMapViewport()' in text
-    assert 'district.getBBox()' in text
+    assert 'forecastMap.fitBounds(statewideBounds' in text
+    assert 'forecastMap.fitBounds(selectedBounds' in text
     assert 'Statewide view</option>' in text
     assert 'else clearDistrict()' in text
     assert 'Select a district' in text
@@ -137,19 +137,18 @@ def test_rating_thresholds_match_published_probability_bands():
     }
 
 
-def test_map_has_geographic_context_and_close_control():
+def test_map_uses_leaflet_basemap_and_close_control():
     text, data = page_and_payload()
     css = (ROOT / "dashboard" / "forecast_dashboard.css").read_text(encoding="utf-8")
     for chamber in ("house", "senate"):
-        assert len(data[chamber]["context"]["counties"]) == 67
-        assert {p["name"] for p in data[chamber]["context"]["places"]} == {
-            "Huntsville", "Birmingham", "Montgomery", "Mobile", "Tuscaloosa",
-            "Hoover", "Auburn", "Dothan", "Decatur", "Florence", "Gadsden",
-        }
-    assert 'class="context-county"' in text
-    assert 'class="context-place"' in text
+        assert all(p["geometry"]["type"] in {"Polygon", "MultiPolygon"} for p in data[chamber]["paths"])
+    assert 'leaflet@1.9.4/dist/leaflet.css' in text
+    assert 'leaflet@1.9.4/dist/leaflet.js' in text
+    assert 'basemaps.cartocdn.com/light_all' in text
+    assert 'OpenStreetMap' in text and 'CARTO' in text
+    assert 'L.geoJSON(collection' in text
     assert 'class="close-detail"' in text
     assert 'aria-label="Close district and return to statewide map"' in text
     assert 'addEventListener("click",clearDistrict)' in text
-    assert ".district{fill-opacity:.68" in css
-    assert ".map-wrap svg.zoomed .county-label{display:block}" in css
+    assert "#map{width:100%;height:610px" in css
+    assert ".leaflet-interactive:hover" in css

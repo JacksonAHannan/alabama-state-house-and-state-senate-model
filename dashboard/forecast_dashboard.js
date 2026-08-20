@@ -4,8 +4,8 @@
   const $$ = s => [...document.querySelectorAll(s)];
   const params = new URLSearchParams(location.search);
   const PUBLIC_MODEL=DATA.meta.model;
-  const STATEWIDE_VIEWBOX={x:0,y:0,width:650,height:710};
   const state = { chamber: params.get("chamber")||"house", model: params.get("model")||PUBLIC_MODEL, mode: params.get("mode")||"probability", selected: +(params.get("district")||0)||null, sort: "closeness", asc: true };
+  let forecastMap=null, districtLayer=null, statewideBounds=null;
   const chamberName = c => c === "house" ? "State House" : "State Senate";
   const districtName = (c,d) => `${c === "house" ? "HD" : "SD"}-${d}`;
   const partyName = p => ({D:"Democratic",R:"Republican",I:"Independent"}[p] || p);
@@ -172,46 +172,37 @@
   }
 
   function renderMap(){
-    const svg=$("#map"), races=DATA[state.chamber].races;
-    svg.setAttribute("aria-label",`${chamberName(state.chamber)} district forecast map. Use Tab to move through districts and Enter to select.`);
-    const context=DATA[state.chamber].context;
-    const countyLayer=context.counties.map(c=>`<path class="context-county" d="${c.path}"></path>`).join("");
-    const placeLayer=context.places.map(p=>`<path class="context-place" d="${p.path}"></path>`).join("");
-    const labels=context.counties.map(c=>`<text class="context-label county-label" x="${c.x}" y="${c.y}">${c.name}</text>`).join("")+context.places.map(p=>`<text class="context-label place-label" x="${p.x}" y="${p.y}">${p.name}</text>`).join("");
-    const districtLayer=DATA[state.chamber].paths.map(p=>{
-      const r=races.find(x=>x.district===p.district), label=`${districtName(state.chamber,p.district)}, ${effectiveRating(r)}, ${fmtMargin(r.margin)}`;
-      return `<path class="district ${state.selected===p.district?'selected':''} ${r.demProbability==null?'unmodeled':''}" data-district="${p.district}" fill="${mapColor(r)}" d="${p.path}" role="button" tabindex="0" aria-label="${label}"><title>${label}</title></path>`;
-    }).join("");
-    svg.innerHTML=`<g aria-hidden="true">${countyLayer}${placeLayer}</g><g>${districtLayer}</g><g aria-hidden="true">${labels}</g>`;
-    $$(".district").forEach(el=>{
-      const select=()=>selectDistrict(+el.dataset.district,true);
-      el.addEventListener("click",select);
-      el.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();select()}});
-      el.addEventListener("mousemove",e=>showTooltip(e,race(state.chamber,el.dataset.district)));
-      el.addEventListener("mouseleave",hideTooltip);
-    });
+    if(!forecastMap){
+      forecastMap=L.map("map",{zoomControl:true,attributionControl:true,minZoom:5,maxZoom:16,zoomSnap:.25});
+      L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",{
+        subdomains:"abcd",maxZoom:20,
+        attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+      }).addTo(forecastMap);
+    }
+    if(districtLayer) districtLayer.remove();
+    const races=DATA[state.chamber].races;
+    const collection={type:"FeatureCollection",features:DATA[state.chamber].paths.map(p=>({type:"Feature",properties:{district:p.district},geometry:p.geometry}))};
+    districtLayer=L.geoJSON(collection,{
+      style:feature=>{const r=races.find(x=>x.district===feature.properties.district),selected=state.selected===r.district;return {fillColor:mapColor(r),fillOpacity:selected ? .68 : .42,color:selected?"#111827":"#ffffff",weight:selected?3:1.25,dashArray:r.demProbability==null?"5 4":null};},
+      onEachFeature:(feature,layer)=>{
+        const district=feature.properties.district,r=races.find(x=>x.district===district);
+        layer.bindTooltip(tooltipText(r),{sticky:true,className:"forecast-map-tooltip"});
+        layer.on("click",()=>selectDistrict(district,true));
+        layer.on("add",()=>{const el=layer.getElement();if(!el)return;el.setAttribute("tabindex","0");el.setAttribute("role","button");el.setAttribute("aria-label",`${districtName(state.chamber,district)}, ${effectiveRating(r)}, ${fmtMargin(r.margin)}`);el.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();selectDistrict(district,true)}})});
+      }
+    }).addTo(forecastMap);
+    statewideBounds=districtLayer.getBounds();
     updateMapViewport();
     $("#legend").innerHTML=legend();
   }
 
   function updateMapViewport(){
-    const svg=$("#map");
-    if(!state.selected){
-      svg.classList.remove("zoomed");
-      svg.setAttribute("viewBox",`${STATEWIDE_VIEWBOX.x} ${STATEWIDE_VIEWBOX.y} ${STATEWIDE_VIEWBOX.width} ${STATEWIDE_VIEWBOX.height}`);
-      $$(".context-label").forEach(label=>label.style.fontSize="9px");
-      return;
-    }
-    svg.classList.add("zoomed");
-    const district=svg.querySelector(`.district[data-district="${state.selected}"]`);
-    if(!district) return;
-    const box=district.getBBox(), padding=Math.max(box.width,box.height)*.18+6;
-    let x=box.x-padding, y=box.y-padding, width=box.width+2*padding, height=box.height+2*padding;
-    const targetRatio=STATEWIDE_VIEWBOX.width/STATEWIDE_VIEWBOX.height, ratio=width/height;
-    if(ratio>targetRatio){const expanded=width/targetRatio;y-=(expanded-height)/2;height=expanded}
-    else{const expanded=height*targetRatio;x-=(expanded-width)/2;width=expanded}
-    svg.setAttribute("viewBox",`${x} ${y} ${width} ${height}`);
-    $$(".context-label").forEach(label=>label.style.fontSize=`${Math.max(1.2,9*width/STATEWIDE_VIEWBOX.width)}px`);
+    if(!forecastMap||!districtLayer)return;
+    requestAnimationFrame(()=>forecastMap.invalidateSize());
+    if(!state.selected){forecastMap.fitBounds(statewideBounds,{padding:[12,12],animate:false});return}
+    let selectedBounds=null;
+    districtLayer.eachLayer(layer=>{if(layer.feature.properties.district===state.selected)selectedBounds=layer.getBounds()});
+    if(selectedBounds)forecastMap.fitBounds(selectedBounds,{padding:[30,30],maxZoom:11,animate:true});
   }
 
   function showTooltip(e,r){const t=$("#tooltip");t.style.display="block";t.style.left=Math.min(innerWidth-255,e.clientX+12)+"px";t.style.top=Math.min(innerHeight-90,e.clientY+12)+"px";t.textContent=tooltipText(r)}
