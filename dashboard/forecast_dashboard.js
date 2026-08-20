@@ -4,6 +4,7 @@
   const $$ = s => [...document.querySelectorAll(s)];
   const params = new URLSearchParams(location.search);
   const PUBLIC_MODEL=DATA.meta.model;
+  const STATEWIDE_VIEWBOX={x:0,y:0,width:650,height:710};
   const state = { chamber: params.get("chamber")||"house", model: params.get("model")||PUBLIC_MODEL, mode: params.get("mode")||"probability", selected: +(params.get("district")||0)||null, sort: "closeness", asc: true };
   const chamberName = c => c === "house" ? "State House" : "State Senate";
   const districtName = (c,d) => `${c === "house" ? "HD" : "SD"}-${d}`;
@@ -181,7 +182,24 @@
       el.addEventListener("mousemove",e=>showTooltip(e,race(state.chamber,el.dataset.district)));
       el.addEventListener("mouseleave",hideTooltip);
     });
+    updateMapViewport();
     $("#legend").innerHTML=legend();
+  }
+
+  function updateMapViewport(){
+    const svg=$("#map");
+    if(!state.selected){
+      svg.setAttribute("viewBox",`${STATEWIDE_VIEWBOX.x} ${STATEWIDE_VIEWBOX.y} ${STATEWIDE_VIEWBOX.width} ${STATEWIDE_VIEWBOX.height}`);
+      return;
+    }
+    const district=svg.querySelector(`.district[data-district="${state.selected}"]`);
+    if(!district) return;
+    const box=district.getBBox(), padding=Math.max(box.width,box.height)*.18+6;
+    let x=box.x-padding, y=box.y-padding, width=box.width+2*padding, height=box.height+2*padding;
+    const targetRatio=STATEWIDE_VIEWBOX.width/STATEWIDE_VIEWBOX.height, ratio=width/height;
+    if(ratio>targetRatio){const expanded=width/targetRatio;y-=(expanded-height)/2;height=expanded}
+    else{const expanded=height*targetRatio;x-=(expanded-width)/2;width=expanded}
+    svg.setAttribute("viewBox",`${x} ${y} ${width} ${height}`);
   }
 
   function showTooltip(e,r){const t=$("#tooltip");t.style.display="block";t.style.left=Math.min(innerWidth-255,e.clientX+12)+"px";t.style.top=Math.min(innerHeight-90,e.clientY+12)+"px";t.textContent=tooltipText(r)}
@@ -202,6 +220,10 @@
   }
 
   function renderDetail(r){
+    if(!r){
+      $("#detail").innerHTML=`<div class="race-kicker">District explorer</div><div class="race-title">Select a district</div><p>Choose a district on the statewide map, from the district finder, or from the table below to zoom into its geography and open the race forecast.</p>`;
+      return;
+    }
     const lead=leader(r), leadProb=lead ? Math.max(r.demProbability,1-r.demProbability) : null;
     const bg=lead==="D"?"var(--blue)":lead==="R"?"var(--red)":"var(--gray)";
     const headline=r.status==="modeled"?`<div class="headline-call"><strong>${fmtMargin(r.margin)}</strong><span>${partyName(lead)} nominee favored · ${Math.round(100*leadProb)}% win probability</span></div>`:`<div class="headline-call"><strong>${effectiveRating(r)}</strong><span>${r.status==="unopposed-major-party"?"Single major-party nominee; independent contests are not modeled":"No two-party forecast available"}</span></div>`;
@@ -229,7 +251,8 @@
   }
 
   function populateDistrictSelect(){
-    $("#districtSelect").innerHTML=`<option value="">Find a district…</option>`+DATA[state.chamber].races.map(r=>`<option value="${r.district}">${districtName(state.chamber,r.district)} · ${effectiveRating(r)}</option>`).join("");
+    $("#districtSelect").innerHTML=`<option value="">Statewide view</option>`+DATA[state.chamber].races.map(r=>`<option value="${r.district}">${districtName(state.chamber,r.district)} · ${effectiveRating(r)}</option>`).join("");
+    $("#districtSelect").value=state.selected?String(state.selected):"";
   }
 
   function selectDistrict(d,scroll=false){
@@ -237,8 +260,12 @@
     if(scroll && innerWidth<851) $("#detail").scrollIntoView({behavior:"smooth",block:"start"});
   }
 
+  function clearDistrict(){
+    state.selected=null;syncUrl();renderMap();renderDetail(null);renderTable();$("#districtSelect").value="";
+  }
+
   function selectChamber(c,scroll=false){
-    state.chamber=c; state.selected=closestRace(c).district;syncUrl();
+    state.chamber=c;state.selected=null;syncUrl();
     $$('[data-chamber]').forEach(b=>b.setAttribute("aria-pressed",b.dataset.chamber===c));
     renderAll();
     if(scroll) $("#workspace").scrollIntoView({behavior:"smooth"});
@@ -288,7 +315,7 @@
   function bind(){
     $$('[data-chamber]').forEach(b=>b.addEventListener("click",()=>selectChamber(b.dataset.chamber)));
     $$('[data-mode]').forEach(b=>b.addEventListener("click",()=>{state.mode=b.dataset.mode;syncUrl();$$('[data-mode]').forEach(x=>x.setAttribute("aria-pressed",x===b));renderMap()}));
-    $("#districtSelect").addEventListener("change",e=>{if(e.target.value)selectDistrict(+e.target.value,true)});
+    $("#districtSelect").addEventListener("change",e=>{if(e.target.value)selectDistrict(+e.target.value,true);else clearDistrict()});
     for(const id of ["search","ratingFilter","scopeFilter"]) $("#"+id).addEventListener(id==="search"?"input":"change",renderTable);
     $$('th button[data-sort]').forEach(b=>b.addEventListener("click",()=>{state.asc=state.sort===b.dataset.sort?!state.asc:true;state.sort=b.dataset.sort;renderTable()}));
     $("#download").addEventListener("click",downloadCsv);
@@ -298,7 +325,7 @@
     validatePayload();
     if(!DATA.models.some(m=>m.id===state.model))state.model=PUBLIC_MODEL;
     if(!["house","senate"].includes(state.chamber))state.chamber="house";
-    if(!race(state.chamber,state.selected)||race(state.chamber,state.selected).status!=="modeled")state.selected=closestRace(state.chamber).district;
+    if(state.selected&&!race(state.chamber,state.selected))state.selected=null;
     $("#buildDate").textContent=DATA.meta.buildDate;
     $("#pollDate").textContent=DATA.meta.pollAsOf;
     $("#financeDate").textContent=DATA.meta.financeAsOf;

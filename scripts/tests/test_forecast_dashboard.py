@@ -100,3 +100,15 @@ def test_live_probabilities_use_recent_southern_calibration():
     assert .03 < basic["demProbability"] < .04
     assert .01 < plus["demProbability"] < .025
     assert basic["high80"] - basic["low80"] < 16
+
+
+def test_map_starts_statewide_and_zooms_to_selected_district():
+    text = PAGE.read_text(encoding="utf-8")
+    assert 'const STATEWIDE_VIEWBOX={x:0,y:0,width:650,height:710}' in text
+    assert 'if(state.selected&&!race(state.chamber,state.selected))state.selected=null' in text
+    assert 'state.chamber=c;state.selected=null;syncUrl()' in text
+    assert 'function updateMapViewport()' in text
+    assert 'district.getBBox()' in text
+    assert 'Statewide view</option>' in text
+    assert 'else clearDistrict()' in text
+    assert 'Select a district' in text
