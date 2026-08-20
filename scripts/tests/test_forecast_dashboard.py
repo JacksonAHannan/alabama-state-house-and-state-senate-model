@@ -144,6 +144,8 @@ def test_map_uses_leaflet_basemap_and_close_control():
         assert all(p["geometry"]["type"] in {"Polygon", "MultiPolygon"} for p in data[chamber]["paths"])
     assert 'leaflet@1.9.4/dist/leaflet.css' in text
     assert 'leaflet@1.9.4/dist/leaflet.js' in text
+    assert 'sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=' in text
+    assert 'sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=' in text
     assert 'basemaps.cartocdn.com/light_all' in text
     assert 'OpenStreetMap' in text and 'CARTO' in text
     assert 'L.geoJSON(collection' in text

@@ -237,7 +237,7 @@ def main():
     payload_data=build_payload()
     payload=json.dumps(payload_data,separators=(",",":"),ensure_ascii=False)
     page=HTML.replace("__CSS__",css).replace("__PAYLOAD__",payload).replace("__JS__",js)
-    page=page.replace("<style>",'<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQ3ynhHdWqKjMZV9xlqFQWmxlZ8lVw=" crossorigin=""><style>',1)
+    page=page.replace("<style>",'<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""><style>',1)
     page=page.replace("<script>const DATA=",'<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script><script>const DATA=',1)
     page=page.replace('<section class="workspace" id="workspace">',
                       '<section class="workspace" id="workspace" role="tabpanel" aria-live="polite">')
