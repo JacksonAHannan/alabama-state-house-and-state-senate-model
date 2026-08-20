@@ -173,6 +173,8 @@ cycle,chamber,district,party,candidate,ocr_confidence,certification_page,parse_m
 2026,senate,23,D,Robert Stewart,0.9919811349648696,3,name_to_provisional,Robert Stewart,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf
 2026,senate,23,R,Thayer Bear Havard Spencer,,,manual_override,,,,manual_reviewed_authoritative,2026_roster_manual_overrides.csv
 2026,senate,24,D,Bobby Singleton,0.99439314695505,3,name_to_provisional,Bobby Singleton,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf
+2026,senate,25,D,Phadra Carson Foster,,,manual_override,,,,manual_reviewed_authoritative,2026_roster_manual_overrides.csv
+2026,senate,25,R,Will Barfoot,,,manual_override,,,,manual_reviewed_authoritative,2026_roster_manual_overrides.csv
 2026,senate,26,D,Kirk Hatcher,,,manual_override,,,,manual_reviewed_authoritative,2026_roster_manual_overrides.csv
 2026,senate,27,R,Jay Hovey,0.9804103705618116,4,office_name_row,,,0.0,certified_party_nominee_ocr,CertificationofRepublicanPartyCandidates-2026General.pdf
 2026,senate,28,D,Billy Beasley,0.9610583552947412,3,name_to_provisional,Billy Beasley,1.0,1.0,certified_party_nominee_ocr,CertificationofDemocraticPartyCandidates-2026General.pdf

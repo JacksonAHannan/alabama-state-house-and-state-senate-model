@@ -6,6 +6,7 @@ from build_incumbency_features import best_match
 
 ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/"data"/"processed"/"war"
 DB=ROOT/"data"/"processed"/"elections"/"alabama_elections.sqlite"
+MANUAL=ROOT/"data"/"manual"/"candidates"/"2026_incumbency_overrides.csv"
 
 def main():
     final=OUT/"2026_final_candidate_roster.csv"; certified=OUT/"2026_certified_candidate_roster.csv"
@@ -31,7 +32,17 @@ def main():
                      "incumbent_wikipedia":annotated,
                      "incumbency_source":"2022_winner_match+wikipedia_annotation" if prior and annotated else
                        "2022_winner_match" if prior else "wikipedia_annotation" if annotated else "not_incumbent"})
-    candidates=pd.DataFrame(rows); candidates.to_csv(OUT/"2026_candidate_incumbency.csv",index=False)
+    candidates=pd.DataFrame(rows)
+    if MANUAL.exists():
+        overrides=pd.read_csv(MANUAL)
+        for override in overrides.itertuples(index=False):
+            key=(candidates.chamber.eq(override.chamber)&candidates.district.eq(int(override.district))&
+                 candidates.party.eq(override.party)&candidates.candidate.eq(override.candidate))
+            if key.sum()!=1:
+                raise ValueError(f"Incumbency override matched {key.sum()} rows: {override.candidate}")
+            candidates.loc[key,"incumbent"]=bool(override.incumbent)
+            candidates.loc[key,"incumbency_source"]=f"manual_override:{override.resolution}"
+    candidates.to_csv(OUT/"2026_candidate_incumbency.csv",index=False)
     candidates[(candidates.incumbent)&(
         candidates.prior_winner_match_score.lt(.95)|
         candidates.incumbent_wikipedia.ne(candidates.prior_winner_match.notna()))].to_csv(

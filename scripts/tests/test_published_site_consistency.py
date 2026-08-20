@@ -51,7 +51,7 @@ def test_public_cmo_and_forecast_row_counts() -> None:
     assert len(races) == 509
     assert candidates.candidate_cmo_total_oof.notna().all()
     assert set(races.cycle) == {1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022}
-    assert forecasts.groupby("specification").size().eq(47).all()
+    assert forecasts.groupby("specification").size().eq(48).all()
 
 
 def test_public_probability_export_matches_current_model_output() -> None:

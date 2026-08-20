@@ -102,6 +102,18 @@ def test_live_probabilities_use_recent_southern_calibration():
     assert basic["high80"] - basic["low80"] < 16
 
 
+def test_sd25_is_a_contested_modeled_senate_race():
+    _, data = page_and_payload()
+    sd25 = next(r for r in data["senate"]["races"] if r["district"] == 25)
+    assert sd25["status"] == "modeled"
+    assert {(c["name"], c["party"]) for c in sd25["candidates"]} == {
+        ("Phadra Carson Foster", "D"),
+        ("Will Barfoot", "R"),
+    }
+    assert sd25["demProbability"] is not None
+    assert all(r["status"] != "unmodeled" for r in data["senate"]["races"])
+
+
 def test_map_starts_statewide_and_zooms_to_selected_district():
     text = PAGE.read_text(encoding="utf-8")
     assert 'if(state.selected&&!race(state.chamber,state.selected))state.selected=null' in text

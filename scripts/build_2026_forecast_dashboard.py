@@ -84,7 +84,7 @@ def build_payload():
                          on=["chamber","district","party","candidate"],how="left")
                   .merge(finance[["chamber","district","party","candidate","state_contributions","state_expenditures","finance_observation_status"]],
                          on=["chamber","district","party","candidate"],how="left"))
-    fidx={(r.chamber,int(r.district)):r for r in forecast.itertuples()}
+    pollidx={(r.chamber,int(r.district)):r for r in polling.itertuples()}
     poll_date=dt.date.fromisoformat(str(polling.poll_average_as_of.iloc[0]))
     build_date=dt.date.today()
     summaries=pd.read_csv(WAR/"next_forecast_tournament_summary.csv").set_index("specification")
@@ -105,11 +105,11 @@ def build_payload():
              ]}
     model_forecasts={}; model_seats={}
     for model,label in PUBLIC_MODELS.items():
-        modeled=forecast.copy()
+        modeled=(comparison[comparison.model.eq(model)][["chamber","district","predicted_dem_margin"]]
+                 .copy())
         probabilities=calibrated[calibrated.specification.eq(model)][
             ["chamber","district","predicted_dem_margin","dem_win_probability","probability_scale"]]
-        modeled=(modeled.drop(columns=["predicted_dem_margin","dem_win_probability","margin_80_low","margin_80_high",
-                                       "margin_95_low","margin_95_high"],errors="ignore")
+        modeled=(modeled.drop(columns=["predicted_dem_margin"])
                  .merge(probabilities,on=["chamber","district"],how="left",validate="one_to_one"))
         width=1.2815515655446004*modeled.probability_scale
         modeled["margin_80_low"]=modeled.predicted_dem_margin-width
@@ -140,12 +140,13 @@ def build_payload():
             candidates=[{"name":str(c.candidate),"party":str(c.party),"incumbent":bool(clean(c.incumbent) or False),
                          "raised":clean(c.state_contributions),"spent":clean(c.state_expenditures),
                          "financeStatus":clean(c.finance_observation_status)} for c in sub.itertuples()]
-            major={c["party"] for c in candidates if c["party"] in {"D","R"}}; row=fidx.get((chamber,district)); model_values={}
-            if row is not None:
+            major={c["party"] for c in candidates if c["party"] in {"D","R"}}
+            poll_row=pollidx.get((chamber,district)); model_values={}
+            if all((chamber,district) in model_forecasts[model] for model in PUBLIC_MODELS):
                 status="modeled"; model_values={}
                 for model in PUBLIC_MODELS:
                     mr=model_forecasts[model][(chamber,district)]
-                    poll_baseline=float(row.poll_adjusted_dem_margin)
+                    poll_baseline=float(poll_row.poll_adjusted_dem_margin)
                     cmo_adjustment=float(mr.predicted_dem_margin)-poll_baseline
                     model_values[model]={"margin":round(float(mr.predicted_dem_margin),6),"demProbability":round(float(mr.dem_win_probability),6),
                         "low80":round(float(mr.margin_80_low),6),"high80":round(float(mr.margin_80_high),6),
@@ -153,7 +154,7 @@ def build_payload():
                                  [round(cmo_adjustment,6),round(cmo_adjustment,6),round(float(mr.predicted_dem_margin),6)]]}
                 selected=model_values[DEFAULT_MODEL]
                 p=selected["demProbability"]; margin=selected["margin"]; low80=selected["low80"]; high80=selected["high80"]
-                baseline=float(row.poll_adjusted_dem_margin); pres24=float(row.baseline_2024_pres_dem_margin)
+                baseline=float(poll_row.poll_adjusted_dem_margin); pres24=float(poll_row.baseline_2024_pres_dem_margin)
                 environment=baseline-pres24; finance_scenario=cmo_scenario=None
             elif major=={"D"}:
                 p,status,margin=1.0,"unopposed-major-party",None
