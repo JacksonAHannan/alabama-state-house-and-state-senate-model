@@ -174,10 +174,15 @@
   function renderMap(){
     const svg=$("#map"), races=DATA[state.chamber].races;
     svg.setAttribute("aria-label",`${chamberName(state.chamber)} district forecast map. Use Tab to move through districts and Enter to select.`);
-    svg.innerHTML=DATA[state.chamber].paths.map(p=>{
+    const context=DATA[state.chamber].context;
+    const countyLayer=context.counties.map(c=>`<path class="context-county" d="${c.path}"></path>`).join("");
+    const placeLayer=context.places.map(p=>`<path class="context-place" d="${p.path}"></path>`).join("");
+    const labels=context.counties.map(c=>`<text class="context-label county-label" x="${c.x}" y="${c.y}">${c.name}</text>`).join("")+context.places.map(p=>`<text class="context-label place-label" x="${p.x}" y="${p.y}">${p.name}</text>`).join("");
+    const districtLayer=DATA[state.chamber].paths.map(p=>{
       const r=races.find(x=>x.district===p.district), label=`${districtName(state.chamber,p.district)}, ${effectiveRating(r)}, ${fmtMargin(r.margin)}`;
       return `<path class="district ${state.selected===p.district?'selected':''} ${r.demProbability==null?'unmodeled':''}" data-district="${p.district}" fill="${mapColor(r)}" d="${p.path}" role="button" tabindex="0" aria-label="${label}"><title>${label}</title></path>`;
     }).join("");
+    svg.innerHTML=`<g aria-hidden="true">${countyLayer}${placeLayer}</g><g>${districtLayer}</g><g aria-hidden="true">${labels}</g>`;
     $$(".district").forEach(el=>{
       const select=()=>selectDistrict(+el.dataset.district,true);
       el.addEventListener("click",select);
@@ -192,9 +197,12 @@
   function updateMapViewport(){
     const svg=$("#map");
     if(!state.selected){
+      svg.classList.remove("zoomed");
       svg.setAttribute("viewBox",`${STATEWIDE_VIEWBOX.x} ${STATEWIDE_VIEWBOX.y} ${STATEWIDE_VIEWBOX.width} ${STATEWIDE_VIEWBOX.height}`);
+      $$(".context-label").forEach(label=>label.style.fontSize="9px");
       return;
     }
+    svg.classList.add("zoomed");
     const district=svg.querySelector(`.district[data-district="${state.selected}"]`);
     if(!district) return;
     const box=district.getBBox(), padding=Math.max(box.width,box.height)*.18+6;
@@ -203,6 +211,7 @@
     if(ratio>targetRatio){const expanded=width/targetRatio;y-=(expanded-height)/2;height=expanded}
     else{const expanded=height*targetRatio;x-=(expanded-width)/2;width=expanded}
     svg.setAttribute("viewBox",`${x} ${y} ${width} ${height}`);
+    $$(".context-label").forEach(label=>label.style.fontSize=`${Math.max(1.2,9*width/STATEWIDE_VIEWBOX.width)}px`);
   }
 
   function showTooltip(e,r){const t=$("#tooltip");t.style.display="block";t.style.left=Math.min(innerWidth-255,e.clientX+12)+"px";t.style.top=Math.min(innerHeight-90,e.clientY+12)+"px";t.textContent=tooltipText(r)}
@@ -248,9 +257,10 @@
       ${state.model===PUBLIC_MODEL?"":`<div class="scenario-box"><small>Fundamentals+ incorporates candidate and district information, but it did not beat Basic in the 2022 holdout and therefore remains experimental.</small></div>`}${uncertaintyHtml(r)}<div class="source-note"><b>Data provenance</b><span>Election baseline, polling, ACS demographics, regional context, certified candidates, candidate history, and Alabama finance filings. Dates and downloads appear in the source ledger below.</span></div></div>`:"";
     const ordered=[...DATA[state.chamber].races].filter(x=>x.status==="modeled").sort((a,b)=>Math.abs(a.margin)-Math.abs(b.margin)), pos=ordered.findIndex(x=>x.district===r.district);
     const prev=ordered[(pos-1+ordered.length)%ordered.length], next=ordered[(pos+1)%ordered.length];
-    $("#detail").innerHTML=`<div class="race-kicker">2026 general election</div><div class="race-title">${chamberName(state.chamber)} District ${r.district}</div><button class="share-link small-button" id="shareRace">Copy link</button><span class="rating" style="background:${bg}">${effectiveRating(r)}</span>${headline}<div>${r.candidates.map(candidateHtml).join("")||"<p>No certified candidate listed.</p>"}</div>${model}<div class="race-nav"><button class="small-button" data-race-nav="${prev?.district||r.district}">← Closer race</button><button class="small-button" data-race-nav="${next?.district||r.district}">Next race →</button></div>`;
+    $("#detail").innerHTML=`<button class="close-detail" id="closeDistrict" aria-label="Close district and return to statewide map">×</button><div class="race-kicker">2026 general election</div><div class="race-title">${chamberName(state.chamber)} District ${r.district}</div><button class="share-link small-button" id="shareRace">Copy link</button><span class="rating" style="background:${bg}">${effectiveRating(r)}</span>${headline}<div>${r.candidates.map(candidateHtml).join("")||"<p>No certified candidate listed.</p>"}</div>${model}<div class="race-nav"><button class="small-button" data-race-nav="${prev?.district||r.district}">← Closer race</button><button class="small-button" data-race-nav="${next?.district||r.district}">Next race →</button></div>`;
     $$('[data-race-nav]').forEach(b=>b.addEventListener("click",()=>selectDistrict(+b.dataset.raceNav,true)));
     $("#shareRace")?.addEventListener("click",async e=>{syncUrl();try{await navigator.clipboard.writeText(location.href);e.currentTarget.textContent="Link copied"}catch{e.currentTarget.textContent="Use address bar to copy"}});
+    $("#closeDistrict")?.addEventListener("click",clearDistrict);
   }
 
   function populateDistrictSelect(){

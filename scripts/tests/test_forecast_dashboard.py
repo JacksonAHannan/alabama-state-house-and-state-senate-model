@@ -135,3 +135,21 @@ def test_rating_thresholds_match_published_probability_bands():
         "Not modeled", "Toss-up", "Lean D", "Lean R", "Likely D", "Likely R",
         "Very likely D", "Very likely R", "Solid D", "Solid R",
     }
+
+
+def test_map_has_geographic_context_and_close_control():
+    text, data = page_and_payload()
+    css = (ROOT / "dashboard" / "forecast_dashboard.css").read_text(encoding="utf-8")
+    for chamber in ("house", "senate"):
+        assert len(data[chamber]["context"]["counties"]) == 67
+        assert {p["name"] for p in data[chamber]["context"]["places"]} == {
+            "Huntsville", "Birmingham", "Montgomery", "Mobile", "Tuscaloosa",
+            "Hoover", "Auburn", "Dothan", "Decatur", "Florence", "Gadsden",
+        }
+    assert 'class="context-county"' in text
+    assert 'class="context-place"' in text
+    assert 'class="close-detail"' in text
+    assert 'aria-label="Close district and return to statewide map"' in text
+    assert 'addEventListener("click",clearDistrict)' in text
+    assert ".district{fill-opacity:.68" in css
+    assert ".map-wrap svg.zoomed .county-label{display:block}" in css

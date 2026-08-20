@@ -21,6 +21,9 @@ MAPS = {
     "house": ROOT / "data" / "raw" / "alabama_elections_and_geography" / "tl_2025_01_sldl" / "tl_2025_01_sldl.shp",
     "senate": ROOT / "data" / "raw" / "alabama_elections_and_geography" / "tl_2025_01_sldu" / "tl_2025_01_sldu.shp",
 }
+PRECINCT_CONTEXT = ROOT / "data" / "raw" / "alabama_elections_and_geography" / "al_2024_gen_prec" / "al_2024_gen_all_prec" / "al_2024_gen_all_prec.shp"
+PLACE_CONTEXT = ROOT / "data" / "raw" / "census" / "tl_2024_01_place.zip"
+MAJOR_PLACES = {"Huntsville", "Birmingham", "Montgomery", "Mobile", "Tuscaloosa", "Hoover", "Auburn", "Dothan", "Decatur", "Florence", "Gadsden"}
 PUBLIC_MODELS = {
     "cmo_expectation__blend20": "Basic",
     "cmo_expectation__blend100": "Fundamentals+",
@@ -42,6 +45,14 @@ def path_for_geometry(geom, bounds, width=650, height=710, pad=12):
         return "M"+"L".join(f"{x:.1f},{y:.1f}" for x,y in pts)+"Z"
     polygons=[geom] if geom.geom_type=="Polygon" else list(geom.geoms)
     return "".join(ring(p.exterior.coords)+"".join(ring(h.coords) for h in p.interiors) for p in polygons)
+
+
+def point_for_geometry(geom, bounds, width=650, height=710, pad=12):
+    minx, miny, maxx, maxy = bounds
+    scale = min((width - 2*pad)/(maxx-minx), (height - 2*pad)/(maxy-miny))
+    ox, oy = (width-(maxx-minx)*scale)/2, (height-(maxy-miny)*scale)/2
+    point = geom.representative_point()
+    return round(ox+(point.x-minx)*scale, 1), round(height-(oy+(point.y-miny)*scale), 1)
 
 
 def rating(p):
@@ -120,11 +131,26 @@ def build_payload():
             "default":model==DEFAULT_MODEL,
             "meanMae":clean(score.cycle_balanced_mae),"recentMae":clean(score.post2016_mae),
             "latestMae":clean(score.latest_2022_mae),"passesGuardrail":bool(score.passes_basic_guardrail)})
+    precincts=gpd.read_file(PRECINCT_CONTEXT)[["COUNTYFP","County","geometry"]].to_crs(4326)
+    precincts["geometry"]=precincts.geometry.make_valid()
+    counties=precincts.dissolve(by=["COUNTYFP","County"],as_index=False)
+    counties["geometry"]=counties.geometry.simplify(.006,preserve_topology=True)
+    places=gpd.read_file(PLACE_CONTEXT).to_crs(4326)
+    places=places[places.NAME.isin(MAJOR_PLACES)].copy()
+    places["geometry"]=places.geometry.simplify(.003,preserve_topology=True)
     for chamber,map_path in MAPS.items():
         geo=gpd.read_file(map_path).to_crs(4326); field="SLDLST" if chamber=="house" else "SLDUST"
         geo["district"]=geo[field].astype(int); geo["geometry"]=geo.geometry.simplify(.004,preserve_topology=True)
         bounds=geo.total_bounds
         paths=[{"district":int(r.district),"path":path_for_geometry(r.geometry,bounds)} for _,r in geo.iterrows()]
+        county_context=[]
+        for _,r in counties.iterrows():
+            x,y=point_for_geometry(r.geometry,bounds)
+            county_context.append({"name":str(r.County),"path":path_for_geometry(r.geometry,bounds),"x":x,"y":y})
+        place_context=[]
+        for _,r in places.iterrows():
+            x,y=point_for_geometry(r.geometry,bounds)
+            place_context.append({"name":str(r.NAME),"path":path_for_geometry(r.geometry,bounds),"x":x,"y":y})
         races=[]; total=105 if chamber=="house" else 35
         for district in range(1,total+1):
             sub=roster[(roster.chamber==chamber)&(roster.district==district)]
@@ -164,7 +190,7 @@ def build_payload():
         for model,seat_dist in model_seats.items():
             sd=seat_dist[seat_dist.chamber.eq(chamber)][["dem_seats","probability"]].rename(columns={"dem_seats":"demSeats"})
             distributions[model]=[{k:clean(v) for k,v in x.items()} for x in sd.to_dict("records")]
-        payload[chamber]={"paths":paths,"races":races,"modelSeatDistributions":distributions,
+        payload[chamber]={"paths":paths,"context":{"counties":county_context,"places":place_context},"races":races,"modelSeatDistributions":distributions,
                           "seatDistribution":distributions[DEFAULT_MODEL]}
     return payload
 
