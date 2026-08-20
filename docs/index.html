@@ -123,6 +123,8 @@
     $("#workspace")?.setAttribute("aria-labelledby",`model-tab-${state.model}`);
   }
   const ratingForProbability=p=>{const lead=p>=.5?"D":"R",q=Math.max(p,1-p);return q<.55?"Toss-up":q<.70?`Lean ${lead}`:q<.90?`Likely ${lead}`:`Solid ${lead}`};
+  const RATING_COLORS={"Solid D":"#397fb9","Likely D":"#70a3c8","Lean D":"#accadd","Toss-up":"#d7d0c7","Lean R":"#e4b0aa","Likely R":"#d77b74","Solid R":"#c94e4e"};
+  const probabilityColor=p=>p<.20?"#c94e4e":p<.40?"#e4b0aa":p<.60?"#ebe5dc":p<.80?"#accadd":"#397fb9";
 
   function renderModelTabs(){
     $("#modelTabs").innerHTML=DATA.models.map((m,i)=>`<button role="tab" id="model-tab-${m.id}" data-model="${m.id}" aria-controls="workspace" tabindex="${m.id===state.model?0:-1}" aria-selected="${m.id===state.model}">${m.label}<small>${m.status}</small></button>`).join("");
@@ -194,9 +196,10 @@
   function mapColor(r){
     if(r.demProbability==null) return "#aaa39a";
     if(r.status==="unopposed-major-party") return r.demProbability===1 ? "#397fb9" : "#c94e4e";
-    if(state.mode==="rating") return ({"Solid D":"#397fb9","Likely D":"#70a3c8","Lean D":"#accadd","Toss-up":"#d7d0c7","Lean R":"#e4b0aa","Likely R":"#d77b74","Solid R":"#c94e4e"}[r.rating]||"#aaa39a");
-    const value=state.mode==="margin"?r.margin:(r.demProbability*200-100);
-    const t=Math.min(1,Math.abs(value)/(state.mode==="margin"?30:80));
+    if(state.mode==="rating") return RATING_COLORS[effectiveRating(r)]||"#aaa39a";
+    if(state.mode==="probability") return probabilityColor(r.demProbability);
+    const value=r.margin;
+    const t=Math.min(1,Math.abs(value)/30);
     return value>=0?mix("#ebe5dc","#397fb9",t):mix("#ebe5dc","#c94e4e",t);
   }
 

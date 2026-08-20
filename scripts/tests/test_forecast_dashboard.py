@@ -112,3 +112,12 @@ def test_map_starts_statewide_and_zooms_to_selected_district():
     assert 'Statewide view</option>' in text
     assert 'else clearDistrict()' in text
     assert 'Select a district' in text
+
+
+def test_map_colors_follow_current_probability_and_rating_bands():
+    text = PAGE.read_text(encoding="utf-8")
+    assert 'const RATING_COLORS=' in text
+    assert 'const probabilityColor=p=>p<.20?' in text
+    assert 'if(state.mode==="rating") return RATING_COLORS[effectiveRating(r)]' in text
+    assert 'if(state.mode==="probability") return probabilityColor(r.demProbability)' in text
+    assert 'r.demProbability*200-100' not in text
