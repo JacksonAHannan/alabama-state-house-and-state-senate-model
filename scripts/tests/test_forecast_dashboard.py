@@ -117,7 +117,21 @@ def test_map_starts_statewide_and_zooms_to_selected_district():
 def test_map_colors_follow_current_probability_and_rating_bands():
     text = PAGE.read_text(encoding="utf-8")
     assert 'const RATING_COLORS=' in text
-    assert 'const probabilityColor=p=>p<.20?' in text
+    assert 'const probabilityColor=p=>RATING_COLORS[ratingForProbability(p)]' in text
     assert 'if(state.mode==="rating") return RATING_COLORS[effectiveRating(r)]' in text
     assert 'if(state.mode==="probability") return probabilityColor(r.demProbability)' in text
     assert 'r.demProbability*200-100' not in text
+
+
+def test_rating_thresholds_match_published_probability_bands():
+    text, data = page_and_payload()
+    assert 'q<.60?"Toss-up":q<.80?`Lean ${lead}`:q<.95?`Likely ${lead}`:q<.98?`Very likely ${lead}`:`Solid ${lead}`' in text
+    assert "Very likely D" in text
+    assert "Very likely R" in text
+    assert "D 40–60%" in text
+    assert "D 95–98%" in text
+    ratings = {r["rating"] for chamber in ("house", "senate") for r in data[chamber]["races"]}
+    assert ratings <= {
+        "Not modeled", "Toss-up", "Lean D", "Lean R", "Likely D", "Likely R",
+        "Very likely D", "Very likely R", "Solid D", "Solid R",
+    }

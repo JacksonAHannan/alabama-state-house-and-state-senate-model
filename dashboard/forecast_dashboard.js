@@ -77,9 +77,9 @@
     }
     $("#workspace")?.setAttribute("aria-labelledby",`model-tab-${state.model}`);
   }
-  const ratingForProbability=p=>{const lead=p>=.5?"D":"R",q=Math.max(p,1-p);return q<.55?"Toss-up":q<.70?`Lean ${lead}`:q<.90?`Likely ${lead}`:`Solid ${lead}`};
-  const RATING_COLORS={"Solid D":"#397fb9","Likely D":"#70a3c8","Lean D":"#accadd","Toss-up":"#d7d0c7","Lean R":"#e4b0aa","Likely R":"#d77b74","Solid R":"#c94e4e"};
-  const probabilityColor=p=>p<.20?"#c94e4e":p<.40?"#e4b0aa":p<.60?"#ebe5dc":p<.80?"#accadd":"#397fb9";
+  const ratingForProbability=p=>{const lead=p>=.5?"D":"R",q=Math.max(p,1-p);return q<.60?"Toss-up":q<.80?`Lean ${lead}`:q<.95?`Likely ${lead}`:q<.98?`Very likely ${lead}`:`Solid ${lead}`};
+  const RATING_COLORS={"Solid D":"#1f5f99","Very likely D":"#397fb9","Likely D":"#70a3c8","Lean D":"#accadd","Toss-up":"#d7d0c7","Lean R":"#e4b0aa","Likely R":"#d77b74","Very likely R":"#c94e4e","Solid R":"#a93333"};
+  const probabilityColor=p=>RATING_COLORS[ratingForProbability(p)];
 
   function renderModelTabs(){
     $("#modelTabs").innerHTML=DATA.models.map((m,i)=>`<button role="tab" id="model-tab-${m.id}" data-model="${m.id}" aria-controls="workspace" tabindex="${m.id===state.model?0:-1}" aria-selected="${m.id===state.model}">${m.label}<small>${m.status}</small></button>`).join("");
@@ -150,7 +150,7 @@
 
   function mapColor(r){
     if(r.demProbability==null) return "#aaa39a";
-    if(r.status==="unopposed-major-party") return r.demProbability===1 ? "#397fb9" : "#c94e4e";
+    if(r.status==="unopposed-major-party") return r.demProbability===1 ? RATING_COLORS["Solid D"] : RATING_COLORS["Solid R"];
     if(state.mode==="rating") return RATING_COLORS[effectiveRating(r)]||"#aaa39a";
     if(state.mode==="probability") return probabilityColor(r.demProbability);
     const value=r.margin;
@@ -160,9 +160,9 @@
 
   function legend(){
     const sw=(color,label,pattern="")=>`<i style="background:${color};${pattern}"></i>${label}`;
-    if(state.mode==="rating") return [sw("#397fb9","Solid D"),sw("#70a3c8","Likely D"),sw("#accadd","Lean D"),sw("#d7d0c7","Toss-up"),sw("#e4b0aa","Lean R"),sw("#d77b74","Likely R"),sw("#c94e4e","Solid R"),sw("#aaa39a","Unmodeled","background-image:repeating-linear-gradient(45deg,#aaa 0 2px,#ddd 2px 4px)")].join("");
+    if(state.mode==="rating") return [sw(RATING_COLORS["Solid D"],"Solid D · >98%"),sw(RATING_COLORS["Very likely D"],"Very likely D · 95–98%"),sw(RATING_COLORS["Likely D"],"Likely D · 80–95%"),sw(RATING_COLORS["Lean D"],"Lean D · 60–80%"),sw(RATING_COLORS["Toss-up"],"Toss-up · 40–60% D"),sw(RATING_COLORS["Lean R"],"Lean R · 60–80%"),sw(RATING_COLORS["Likely R"],"Likely R · 80–95%"),sw(RATING_COLORS["Very likely R"],"Very likely R · 95–98%"),sw(RATING_COLORS["Solid R"],"Solid R · >98%"),sw("#aaa39a","Unmodeled","background-image:repeating-linear-gradient(45deg,#aaa 0 2px,#ddd 2px 4px)")].join("");
     if(state.mode==="margin") return [sw("#c94e4e","R+20"),sw("#e4b0aa","R+10"),sw("#ebe5dc","Even"),sw("#accadd","D+10"),sw("#397fb9","D+20"),sw("#aaa39a","Unmodeled")].join("");
-    return [sw("#c94e4e","D chance <20%"),sw("#e4b0aa","20–40%"),sw("#ebe5dc","40–60%"),sw("#accadd","60–80%"),sw("#397fb9",">80%"),sw("#aaa39a","Unmodeled")].join("");
+    return [sw(RATING_COLORS["Solid R"],"D <2%"),sw(RATING_COLORS["Very likely R"],"D 2–5%"),sw(RATING_COLORS["Likely R"],"D 5–20%"),sw(RATING_COLORS["Lean R"],"D 20–40%"),sw(RATING_COLORS["Toss-up"],"D 40–60%"),sw(RATING_COLORS["Lean D"],"D 60–80%"),sw(RATING_COLORS["Likely D"],"D 80–95%"),sw(RATING_COLORS["Very likely D"],"D 95–98%"),sw(RATING_COLORS["Solid D"],"D >98%"),sw("#aaa39a","Unmodeled")].join("");
   }
 
   function tooltipText(r){
