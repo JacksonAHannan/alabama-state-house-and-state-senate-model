@@ -30,13 +30,17 @@ def test_page_contains_rebuilt_visual_system() -> None:
     html = build()
     for element_id in (
         "absoluteScatter", "selection", "decomposition", "issueForest",
+        "absoluteParty", "absoluteOutcome", "absoluteSummary", "absoluteStatus",
         "issueSelect", "issueScatter", "issueSummary", "fitForest", "eras",
     ):
         assert f'id="{element_id}"' in html
-    assert "Ideology no longer defines the expectation" in html
+    assert "The outcome is measured before ideology is added" in html
     assert "culturally conservative but economically mixed" in html
     assert "False-discovery-adjusted" in html
     assert "Underpowered" in html
+    assert "dynamicAbsoluteScatter" in html
+    assert "prefers-reduced-motion" in html
+    assert "aria-live=\"polite\"" in html
 
 
 def test_page_uses_editorial_research_template() -> None:
