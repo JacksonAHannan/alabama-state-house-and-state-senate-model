@@ -27,3 +27,14 @@ def test_transform_uses_utilitarian_atlas_copy() -> None:
     result = apply_theme("<html><head></head><body><nav></nav><h1>What did Alabama's standout Democrats stand for?</h1><script>1</script></body></html>")
     assert "Alabama Legislator Issue Atlas" in result
     assert "What did Alabama's standout Democrats stand for?" not in result
+
+
+def test_white_interface_text_has_oxblood_backing() -> None:
+    css = theme_css()
+    assert "body>header,.site-head{background:var(--brand-accent)!important;color:#fff!important" in css
+    assert "align-items:center;color:#fff!important" in css
+    assert "header a{color:#f5e9e8!important" in css
+    assert "button[aria-selected=true] *{color:inherit!important}" in css
+    assert ".controls button.active,.map-modes button.active,.baseline-tabs button.active{background:var(--brand-accent)!important" in css
+    assert ".badge.supported{color:#285642!important}" in css
+    assert ".cell .n{color:var(--brand-ink)!important;background:var(--brand-panel-strong)!important" in css
