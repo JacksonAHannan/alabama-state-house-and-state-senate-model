@@ -1,57 +1,80 @@
-from build_ideology_performance_page import build, payload
-from run_headline_ideology_tournament import DIMENSIONS
+from __future__ import annotations
+
+from scripts.build_ideology_performance_page import build, payload
 
 
-def test_gun_and_racial_headlines_use_distinct_primitive_axes():
-    assert DIMENSIONS["gun_rights"] == {
-        "gun_access": 1, "gun_purchase_regulation": -1,
-    }
-    assert DIMENSIONS["racial_and_political_equality"] == {
-        "racial_civil_rights": 1, "voting_access": 1,
-    }
-    assert not set(DIMENSIONS["gun_rights"]) & set(DIMENSIONS["racial_and_political_equality"])
-
-
-def test_payload_supports_thesis_and_uncertainty():
+def test_payload_uses_absolute_rebuild_contract() -> None:
     data = payload()
-    assert data["stats"]["iqr_effect"] > 0
-    assert data["stats"]["gop_wins"] >= 50
-    assert len(data["scatter"]) >= 300
-    assert len(data["matched"]) >= 12
-    assert len(data["cases"]) >= 6
-    assert len(data["fingerprint"]) >= 500
-    assert len(data["observations"]) >= 500
-    assert all(row["variation_class"] == "two_sided_usable" for row in data["forest"])
-    assert all(row["specification"] == "pooled_historical_association" for row in data["forest"])
-    forest = {row["dimension"]: row for row in data["forest"]}
-    assert forest["gun_rights"]["iqr_effect"] > 10
-    assert forest["gun_rights"]["ci_low"] > 0
-    assert forest["racial_and_political_equality"]["ci_low"] < 0 < forest["racial_and_political_equality"]["ci_high"]
-    assert {row["headline_dimension"] for row in data["fingerprint"]} <= {
-        row["headline_dimension"] for row in data["balance"]
-        if row["variation_class"] == "two_sided_usable"
-    }
-    assert {row["sensitivity"] for row in data["sensitivity"]} >= {
-        "all", "majority_white", "nonincumbents", "pre_2008", "post_2016"
-    }
-    assert {row["term"] for row in data["interactions"]} >= {
-        "fit_x_post_2008", "fit_x_post_2016"
-    }
+    assert data["stats"]["shorN"] == 407
+    assert data["stats"]["demCmo"] > 10
+    assert data["stats"]["demFederal"] > 10
+    assert data["stats"]["commonSupport"] == 37
+    assert {row["sample"] for row in data["absolute"]} == {"D", "R"}
+    assert len(data["shorPoints"]) == 407
+    assert len(data["issueRows"]) >= 4_000
 
 
-def test_page_is_self_contained_and_thesis_led():
+def test_primitive_axes_are_distinct_and_explained() -> None:
+    data = payload()
+    metadata = {row["key"]: row for row in data["issueMeta"]}
+    assert metadata["gun_access"]["label"] == "Gun access"
+    assert metadata["racial_civil_rights"]["label"] == "Racial civil rights"
+    assert metadata["civil_social_liberty"]["label"] == "Christian sexual morality"
+    assert metadata["tax_burden"]["label"] == "Tax burden"
+    assert metadata["tax_distribution"]["label"] == "Who bears taxes"
+    assert "Racial civil rights are excluded" in metadata["civil_social_liberty"]["description"]
+    assert "separate" in metadata["gun_access"]["description"]
+
+
+def test_page_contains_rebuilt_visual_system() -> None:
     html = build()
-    assert "__DATA__" not in html
-    assert "How conservative Democrats outran partisanship" in html
     for element_id in (
-        "gapChart", "forest", "tiers", "pairs", "cases", "eras",
-        "fingerprint", "issueSelect", "counterexamples", "sensitivities",
+        "absoluteScatter", "selection", "decomposition", "issueForest",
+        "issueSelect", "issueScatter", "issueSummary", "fitForest", "eras",
     ):
         assert f'id="{element_id}"' in html
-    assert "Mechanisms, not nuisance controls" in html
-    assert "Counterexamples" in html
-    assert "historical and associational" in html
-    assert 'id="specSelect"' in html
-    assert 'id="issueObservations"' in html
-    assert "Why guns now appear correctly" not in html
-    assert "principal components" not in html.lower()
+    assert "Ideology no longer defines the expectation" in html
+    assert "culturally conservative but economically mixed" in html
+    assert "False-discovery-adjusted" in html
+    assert "Underpowered" in html
+
+
+def test_page_uses_editorial_research_template() -> None:
+    html = build()
+    assert 'class="article-grid"' in html
+    assert 'class="toc" aria-label="On this page"' in html
+    assert "Editorial research template" in html
+    for section_id in (
+        "measure", "absolute", "selection-audit", "mechanisms", "issues",
+        "evidence", "district-fit", "time", "limits",
+    ):
+        assert f'id="{section_id}"' in html
+        assert f'href="#{section_id}"' in html
+    assert "How Alabama Democrats kept outrunning partisanship" not in html
+
+
+def test_legacy_analysis_artifacts_are_absent() -> None:
+    html = build()
+    for stale in (
+        "conservative_fit_score", "cluster_label", "matched pairs",
+        "principal components", "Why guns now appear correctly",
+        "Every issue, era, and candidate observation", "undefined",
+        "2008â", "leftâ", "durabilityâ", "Â·",
+    ):
+        assert stale not in html
+
+
+def test_page_is_self_contained_and_safe_for_missing_estimates() -> None:
+    html = build()
+    assert "__DATA__" not in html
+    assert "v==null?'—'" in html
+    assert "No adequately powered estimates" in html
+    assert "No observations" in html
+    assert 'aria-current="page"' in html
+
+
+def test_public_docs_is_not_written_by_release_candidate_builder() -> None:
+    from scripts import build_ideology_thesis_page as builder
+
+    assert "artifacts" in builder.OUTPUT.parts
+    assert "docs" not in builder.OUTPUT.parts

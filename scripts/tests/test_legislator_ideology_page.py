@@ -27,7 +27,7 @@ def test_generated_page_has_navigation_and_accessible_controls():
 
 def test_votesmart_pct_is_separate_candidate_supplied_evidence():
     payload = build_payload()
-    assert payload["method"]["voteSmartProfiles"] == 4
+    assert payload["method"]["voteSmartProfiles"] == 5
     pct = [record for candidate in payload["candidates"] for record in candidate["records"]
            if record["source_type"] == "Vote Smart PCT"]
     assert pct
