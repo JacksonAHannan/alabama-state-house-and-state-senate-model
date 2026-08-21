@@ -16,8 +16,8 @@ institutional_democratic_reform, labor_power, public_services
 
 | bundle_label | n | mean | median | ci_low | ci_high |
 |---|---|---|---|---|---|
-| low material redistribution + high punitive law and order | 121.00 | 29.82 | 27.42 | 25.09 | 34.55 |
-| high material redistribution + low punitive law and order | 31.00 | 0.72 | 1.56 | -4.26 | 5.70 |
+| high punitive law and order + low material redistribution | 122.00 | 29.55 | 27.34 | 24.84 | 34.27 |
+| low punitive law and order + high material redistribution | 30.00 | 0.82 | 2.08 | -4.34 | 5.98 |
 
 ## Interpretation limits
 

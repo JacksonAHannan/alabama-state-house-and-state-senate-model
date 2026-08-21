@@ -54,6 +54,24 @@ def test_public_cmo_and_forecast_row_counts() -> None:
     assert forecasts.groupby("specification").size().eq(48).all()
 
 
+def test_hd32_2022_uses_fresh_same_cycle_cmo_score() -> None:
+    candidates = pd.read_csv(DOCS / "data" / "preliminary_cmo_candidates.csv")
+    races = pd.read_csv(DOCS / "data" / "preliminary_cmo_races.csv")
+    boyd = candidates.loc[
+        (candidates.cycle == 2022)
+        & candidates.chamber.eq("house")
+        & candidates.district.eq(32)
+        & candidates.party.eq("D")
+    ].squeeze()
+    race = races.loc[
+        (races.cycle == 2022) & races.chamber.eq("house") & races.district.eq(32)
+    ].squeeze()
+
+    assert 7 < boyd.candidate_cmo_total_oof < 9
+    assert boyd.candidate_cmo_total_oof == race.cmo_cycle_holdout
+    assert race.basic_baseline_source == "same_cycle_statewide_index"
+
+
 def test_public_probability_export_matches_current_model_output() -> None:
     source = ROOT / "data" / "processed" / "forecast_calibration" / "production_probability_2026.csv"
     assert source.read_bytes() == (DOCS / "data" / "production_probability_2026.csv").read_bytes()

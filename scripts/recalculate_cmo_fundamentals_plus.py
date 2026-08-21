@@ -30,11 +30,15 @@ def panel() -> tuple[pd.DataFrame,list[str]]:
         [data.cycle.ge(2022),data.cycle.ge(2018)],[1.0,.5],default=0.0)
     # Polling is not required before 2018 because the supported transfer is zero.
     data["poll_implied_national_swing"]=data.poll_implied_national_swing.fillna(0)
-    prior=pd.to_numeric(data.prior_pres_dem_margin,errors="coerce")
     statewide=pd.to_numeric(data.statewide_index_margin,errors="coerce")
-    data["basic_baseline_source"]=np.where(prior.notna(),"prior_presidential","same_cycle_statewide_fallback")
-    data["basic_polling_baseline"]=prior.fillna(statewide)+data.poll_transfer_weight*data.poll_implied_national_swing
-    data["poll_swing_transferred"]=data.poll_transfer_weight*data.poll_implied_national_swing
+    # Historical CMO measures performance relative to the same-cycle statewide
+    # ticket.  The prospective forecast starts from presidential partisanship,
+    # but importing that forecast baseline here double-counts district
+    # partisanship and can manufacture enormous residuals in districts where
+    # presidential and statewide candidates diverged.
+    data["basic_baseline_source"]="same_cycle_statewide_index"
+    data["basic_polling_baseline"]=statewide
+    data["poll_swing_transferred"]=0.0
     data["poll_x_nonwhite"]=data.poll_swing_transferred*data.nonwhite_share
     data["poll_x_white_college"]=data.poll_swing_transferred*data.white_college_share
     data["chamber_house"]=data.chamber.eq("house").astype(int)
@@ -109,7 +113,12 @@ def publish(scores: pd.DataFrame,radius: float) -> None:
     race_path=WAR/"preliminary_cmo_races.csv"; candidate_path=WAR/"preliminary_cmo_candidates.csv"
     races=pd.read_csv(race_path); candidates=pd.read_csv(candidate_path)
     keys=["cycle","chamber","district"]
-    scored=races.merge(scores,on=keys,how="left",validate="one_to_one",suffixes=("","_fundamentals_plus"))
+    # This publisher is intentionally rerunnable.  Remove columns owned by the
+    # Fundamentals+ scorer before merging so a prior run cannot shadow fresh
+    # values with an unsuffixed, stale column.
+    score_columns=[column for column in scores.columns if column not in keys]
+    races=races.drop(columns=[column for column in score_columns if column in races.columns],errors="ignore")
+    scored=races.merge(scores,on=keys,how="left",validate="one_to_one")
     if scored.cmo_cycle_holdout.isna().any():
         raise ValueError("Not every published CMO race received a Fundamentals+ score")
     scored["finance_complete"]=scored.canonical_finance_complete.fillna(0).astype(int)
