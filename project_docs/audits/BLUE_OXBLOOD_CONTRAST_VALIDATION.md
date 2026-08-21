@@ -87,3 +87,16 @@ captured the twelve visual-inspection renders.
 
 **PASS.** The contrast remediation is independently validated for release. No
 model, payload, warehouse, or data finding blocks publication.
+
+## Selected-race wiki-box follow-up
+
+A narrow follow-up independently selected modeled 1994 House and Senate races
+on `docs/cmo.html` at desktop and exact 497 px mobile widths. In all four
+chamber/viewport combinations, the visible `.racebox-head` computed to oxblood
+`#743b42` with white `#ffffff` text. The WCAG contrast ratio is **8.58:1**, above
+the 4.5:1 AA requirement for ordinary text.
+
+The selected headers were `1994 Alabama House District 33` and `1994 Alabama
+Senate District 23`. Both viewports retained equal client and scroll widths
+(1403 px desktop; exactly 497 px mobile), and Chrome reported no application-
+level severe console errors. **Follow-up decision: PASS.**

@@ -27,3 +27,12 @@
 - Downstream invalidation: none.
 - Reviewer: `/root/blue_oxblood_validation` (`validation_release`)
 - Next action: release owner may publish the validated candidate.
+
+### Selected-race wiki-box follow-up
+
+- Outcome: `PASS`
+- Validation results: House and Senate `.racebox-head` elements computed to
+  `#743b42` with `#ffffff` text at desktop and exact 497 px mobile widths;
+  contrast was 8.58:1 in all four combinations. Zero overflow and no severe
+  application console errors.
+- Downstream invalidation: none.
