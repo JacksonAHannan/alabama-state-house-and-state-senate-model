@@ -1,129 +1,153 @@
-# Alabama legislative Candidate Margin Overperformance model card
+# Alabama Legislative Candidate Margin Overperformance model card
 
-## Intended use
+## Status and intended use
 
-Candidate Margin Overperformance (CMO) is a retrospective candidate-strength
-index for contested
-Democratic-versus-Republican Alabama House and Senate general elections from
-1994 through 2022. It measures two-party margin percentage points above or
-below a cross-fitted model expectation. The 1998–2022 series is the core
-historical tier. Fitted 1994 scores are a sensitivity tier because their
-geographic and prior-presidential features use substantially more fallback
-allocation.
+Candidate Margin Overperformance (CMO) is a retrospective description of how
+far a Democratic or Republican candidate side ran ahead of an independently
+constructed district electoral expectation. It covers contested Alabama House
+and Senate general elections from 1994 through 2022. The 1994 rows remain a
+sensitivity tier because their geography and presidential context require more
+fallback allocation.
 
-CMO is not wins above replacement, a fully identified causal candidate effect,
-a forecast, or a ranking of every legislator. It is the candidate-attributable
-electoral signal left after removing measured district and election context.
-That signal can include strategic positioning, biography, campaign skill,
-constituent relationships, and opponent weakness. Uncontested and non-D/R
-races are not scored.
+CMO is not wins above replacement, a causal personal effect, a forecast, or a
+win probability. A race residual can contain candidate quality, opponent
+quality, local political structure, measurement error, biography, ideology,
+campaign execution, and omitted events. Republican and Democratic side scores
+remain zero-sum within a race.
 
-The complete inventory of proposed explanatory and predictive variables,
-including their timing and endogeneity classifications, is maintained in
-`project_docs/model/CMO_HYPOTHESIS_REGISTRY.md` and its machine-readable CSV.
+## Four distinct outputs
 
-## Scores
+### Raw ticket overperformance
 
-- **Total CMO** is the headline, selection-aware candidate-strength score.
-  It adjusts for prior presidential margin and trend, demographics, cycle, and
-  chamber. It deliberately does not adjust for incumbency or prior candidate
-  performance: winning office and surviving to run again are partly downstream
-  of candidate strength, so controlling them away would bake survivorship into
-  the score.
-- **Predictive Total** retains the former party-specific incumbency controls.
-  It is the better election-outcome predictor, but is no longer interpreted as
-  the candidate-performance estimand.
-- **Candidate-history forecast** adds strictly lagged prior contested
-  overperformance, prior unopposed status, and first-term/established-incumbent
-  indicators. It is a forecast sensitivity, not a CMO ranking.
-- **Resource-adjusted CMO** additionally adjusts for the D/R spending balance.
-- **Fundraising-adjusted CMO** is a sensitivity specification using
-  FollowTheMoney candidate fundraising totals. Missing FTM candidates remain
-  unknown rather than being assigned zero dollars.
-- Both public scores use nested out-of-fold predictions. The model scoring a
-  race did not train on that race.
-- Republican scores are the sign reversal of the Democratic race residual, so
-  scores are zero-sum by construction. The data do not independently identify
-  each candidate's contribution.
+The observed legislative Democratic margin minus the source-aware same-cycle
+district ticket baseline. This is the least modeled quantity.
 
-## Uncertainty and stability
+### Context CMO
 
-The cross-cycle stability band shows how far the OOF score may move when the
-expectation is trained without an entire election cycle. It is deliberately not
-labeled a confidence or predictive interval. Leave-one-cycle-out and forward
-tests are the primary evidence about transfer across election environments.
+The observed margin minus a cycle-held-out expectation using only non-candidate
+context. Its features are prior presidential margin, demographics, chamber,
+state-versus-federal context, federal availability, and baseline geographic
+quality. It excludes ideology, incumbency, current finance, candidate history,
+winning status, and all other candidate-derived features.
 
-## Important limitations
+### Within-cycle CMO
 
-Current all-years build (August 2026): 509 model-eligible contested races across
-eight cycles. Selection-aware Total CMO random-fold MAE is 15.92 points
-(R² 0.153); leave-cycle-out MAE is 16.92 (R² 0.067). Predictive Total performs
-better, at 13.79 random-fold MAE and 15.60 leave-cycle-out MAE. This difference
-is expected because Total CMO no longer conditions away incumbent selection.
-Mean true-forward MAE is 16.71 for Total CMO, 15.79 for Predictive Total, and
-16.07 for the candidate-history forecast, so lagged history has not cleared the
-gate for promotion as the production forecast. The index is useful
-retrospectively but is not uniformly predictive across new election
-environments. Nine rows with positive incumbent matches for both parties are
-neutralized and carry an `incumbency_conflict` flag.
+Context CMO minus the median context CMO in the same chamber and election
+cycle. This removes shared chamber-cycle displacement and is the preferred
+cross-era comparison. Absolute context CMO remains available because it retains
+genuine caucus-wide ticket divergence.
 
-- The fitted canonical build contains eight cycles. Official 2008 presidential
-  precinct results are normalized, but historical finance coverage remains
-  uneven and is not required by the headline specification.
-- For 1994,
-  official ballot labels assign single-district precincts exactly; split
-  precincts use legislative-activity shares labeled
-  `legislative_activity_split_provisional`. Allocation coverage is 98.1%-99.3%
-  across chamber, office, and party cells, and unmatched votes remain in a
-  review table. These limitations make 1994 a sensitivity tier.
-- The 1994 demographic features use official 1990 Census SF3 tract counts
-  intersected with the 1992-2000 legislative plan. They cover all 140 districts
-  and reconcile 99.997% of the mapped Census population, but tract-area
-  interpolation is less precise than a block-level allocation.
-- The 1994 prior-presidential feature uses official 1992 Clinton/Bush precinct
-  returns. Wilcox is absent from the archive, while Montgomery and Talladega
-  contain blank presidential columns. Of 71 score-eligible races, 66 receive a
-  margin and 62 have complete source-county coverage. The median fallback share
-  is 60.7%, so this feature remains provisional and must carry its fallback and
-  completeness fields into any model comparison.
-- Seventy-four 1994 candidates have positive incumbency evidence from a unique
-  chamber-level surname match to a 1990 general-election winner. Unmatched
-  candidates remain unknown rather than being classified as non-incumbents.
-  Shor-McCarty's 1996 serving roster corrects party labels for unopposed winners
-  where the 1994 workbook's ballot-order inference is not informative.
-- DIME contains no 1994 Alabama legislative recipient observations. All 1994
-  candidate finance values remain null with status
-  `not_observed_unknown_not_zero`; finance-adjusted 1994 scores cannot yet be
-  estimated.
-- The 2010 and 2014 environments are structurally different and much noisier.
-- Forward-cycle performance remains era-dependent, particularly in 2014 and
-  2018. The fitted historical index must not be described as a prospective
-  forecast or as uniformly validated across unseen cycles.
-- District allocation is now independent of legislative turnout. Census block
-  population connects VTDs to the applicable legislative plan. Precinct labels
-  without a defensible VTD match fall back to county population district shares
-  and are retained as a source-quality limitation.
-- Eleven genuine competing-VTD assignments remain. Across the audited link
-  scenarios, the largest district baseline range is 1.735 points; only one
-  scored race has a range of at least one point.
-- Campaign-finance identities and presidential precinct fallbacks are
-  incomplete for some races, especially in older cycles. Spending and FTM
-  fundraising therefore remain secondary specifications and do not solve era
-  generalization.
-- Same-cycle statewide baselines make the index historical rather than usable
-  before Election Day.
-- Saved Wikipedia pages provide an independent, non-certified validation check:
-  520 of 778 canonical 2010–2022 Democratic/Republican candidate totals match
-  exactly. Nonmatches and ambiguous page structures remain in a review file and
-  do not overwrite SOS-derived totals.
+### Predictive expected-performance residual
 
-## Release gates
+A separately named prediction error from a model that may use incumbency,
+open-seat status, finance, and strictly lagged candidate history. It may
+optimize election prediction but does not define historical CMO.
 
-Public rankings must use Total CMO OOF, show resource-adjusted CMO separately,
-call the uncertainty display a stability band, disclose source-quality flags,
-and publish random, district-grouped, leave-cycle-out, forward, and benchmark
-diagnostics. Predictive Total must not be substituted for Total CMO in candidate
-rankings, and Total CMO's weaker predictive fit must not be described as a
-forecast failure: the two specifications answer different questions. A
-negative leave-cycle-out R-squared blocks claims that a model generalizes to
-unseen election eras; it does not invalidate descriptive use.
+## Source-aware electoral baseline
+
+Governor and Attorney General votes are summed before calculating a district
+margin. This vote-weights the two available statewide measurements. In 2018
+and 2022, a usable same-cycle federal index receives a prespecified 30 percent
+weight and the state ticket receives 70 percent. Earlier cycles remain
+state-ticket based. Previous presidential margin is a fallback if the state
+ticket is unavailable, not another component that double-counts partisanship.
+
+Because the baseline uses same-cycle results, CMO is retrospective and cannot
+be calculated before Election Day.
+
+## Eligibility and nominal contests
+
+Every D/R race with positive votes for both parties can receive a descriptive
+score. A race is meaningful when the losing party receives at least 10 percent,
+marginal at 5–10 percent, and nominal below 5 percent. Nominal races are scored
+but excluded from expectation fitting. Raw overperformance is never capped.
+Linear expected margins are bounded using training-only residual quantiles and
+the logical two-party margin range.
+
+## Estimation and temporal validation
+
+Each context expectation is trained without the cycle it scores. The primary
+model is ridge regression in margin space. Robust Huber regression and ridge
+regression on the change in logit Democratic vote share are retained as
+alternatives. The headline uses the same conceptually available core features
+in every era; recent-only region fields are excluded rather than zero-filled.
+
+The nested-forward diagnostic selects among a baseline-only model, three ridge
+penalties, Huber regression, and logit ridge using only earlier cycles. It then
+scores the next cycle without revising the choice after observing that result.
+This tests specification transfer; its same-cycle baseline still makes the
+result retrospective.
+
+## Candidate and opponent attribution
+
+The race score cannot identify the two candidates independently. A secondary
+crossed model represents each race as a Democratic person effect minus a
+Republican person effect. Ridge regularization supplies the identifying
+constraint and shrinks sparse candidates. Historical `person_id` values are
+not trusted automatically because some are surname buckets. Longitudinal keys
+use normalized full names; any full name appearing in multiple races in the
+same cycle is conservatively split by chamber and district. Surname-only rows
+are race-specific and do not contribute longitudinal identity evidence until a
+manual crosswalk resolves them. Appearance count, identity status, and
+attribution reliability accompany every partial-pooled effect.
+
+## Uncertainty
+
+The race-specific band measures uncertainty in the expectation, not ordinary
+prediction error around a residual. It combines disagreement among
+baseline-only, ridge, Huber, and logit expectations; geographic-fallback share;
+and marginal/nominal-contest penalties. It is a specification/data-quality
+band, not a confidence or predictive interval.
+
+## Construct validation
+
+The release measures same-candidate persistence, the bivariate association
+between prior CMO and next-cycle winning among repeat candidates,
+different-candidate same-seat persistence within a district plan, and successor
+performance after an incumbent candidate departs. It does not claim to observe
+the reason for departure or to estimate an independently controlled future-win
+effect.
+
+In the current build, 77 conservatively linked repeat-candidate observations
+show positive persistence: Spearman correlation is approximately 0.50 for raw
+ticket overperformance and 0.37 for within-cycle CMO. Different-candidate same-seat
+persistence is approximately 0.49 across 173 pairs with resolved identities. The
+bivariate association between prior CMO and next-cycle victory is small and
+negative in the repeat sample; it is not a controlled predictive test. These
+results show that unmeasured seat context remains and CMO is not a pure personal
+effect.
+
+## Current diagnostic summary
+
+The v2 build contains 509 eligible races across eight cycles. Cycle-balanced
+mean absolute error is approximately 16.04 points for the source-aware baseline,
+14.71 for context ridge, 14.57 for context Huber, 14.33 for context logit ridge,
+15.32 for nested-forward selected expectations, and 12.68 for the fully
+predictive model. The predictive advantage is expected because that model may
+use candidate-derived information.
+
+## Release rules
+
+- Candidate tables default to context CMO and expose raw, within-cycle, and
+  partial-pooled views.
+- Cross-era comparisons should use within-cycle CMO.
+- Ideology, incumbency, and finance analyses use candidate-variable-free
+  context CMO and treat those variables as explanations.
+- Forecasts use expected performance, not CMO labels as probabilities.
+- Nominal contests, incomplete geography, and the 1994 sensitivity tier remain
+  visibly flagged.
+- Negative generalization results may not be described as validated prediction.
+
+## Principal limitations
+
+- Only eight cycles are available and Alabama changed politically across them.
+- Same-cycle ticket results prevent prospective use.
+- Federal context is incomplete in some historical districts.
+- Historical geography and demographics vary in quality, especially in 1994.
+- Most candidates appear only once, limiting candidate/opponent separation.
+- Successor persistence demonstrates remaining unmeasured local context.
+- The modern federal weight is prespecified rather than precisely identified by
+  many genuinely future cycles.
+
+Machine-readable outputs use `data/processed/war/cmo_v2_`. The detailed report
+is `project_docs/model/CMO_METHODOLOGY_V2.md`.

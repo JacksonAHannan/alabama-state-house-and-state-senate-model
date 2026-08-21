@@ -33,14 +33,19 @@ def test_story_page_publishes_transparency_and_exploration_controls():
         "2022-senate": _section(2022, "senate"),
     }
     page = build_page(payload)
-    assert "<b>3</b><span>CMO specifications</span>" in page
+    assert "<b>4</b><span>Distinct estimands</span>" in page
     assert 'id="scope-filter"' in page
     assert "All cycles and chambers" in page
-    assert "Fundraising-adjusted" in page
-    assert "Specification range" in page
-    assert "Model validation" in page
-    assert "Cross-validation by specification" in page
-    assert "Total CMO forward tests" in page
+    assert "Context CMO" in page
+    assert "Within-cycle" in page
+    assert "Raw ticket" in page
+    assert "Predictive residual" in page
+    assert "Partial-pooled" in page
+    assert "Specification/data-quality band" in page
+    assert "Diagnostics" in page
+    assert "Cycle-balanced error" in page
+    assert "Construct-validity checks" in page
+    assert "Fundamentals+" not in page
     assert "Data and provenance" in page
     assert "Data sources and attribution" in page
     assert "Alabama Secretary of State" in page
