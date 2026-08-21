@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-from fit_preliminary_war_model import candidate_scores, prepare
+from fit_preliminary_war_model import add_longitudinal_candidate_features, candidate_scores, prepare
 from calibrate_forward_cmo_uncertainty import conformal_radius
 
 
@@ -20,6 +20,18 @@ def test_prepare_selects_cycle_specific_presidential_margin():
     got = prepare(frame)
     assert got.prior_pres_dem_margin.tolist() == [1, 5, 9]
     assert np.isnan(got.prior_pres_swing.iloc[0])
+
+
+def test_prepare_selects_2008_margin_for_2010_cycle():
+    frame = pd.DataFrame({
+        "war_eligible": [True], "cycle": [2010],
+        "dem_incumbent": [False], "rep_incumbent": [False],
+        "pres_2008_dem_margin": [-12], "pres_2012_dem_margin": [np.nan],
+        "pres_2016_dem_margin": [np.nan], "pres_2020_dem_margin": [np.nan],
+        "pres_swing_2012_2016": [np.nan], "pres_swing_2016_2020": [np.nan],
+        "finance_complete": [False],
+    })
+    assert prepare(frame).prior_pres_dem_margin.tolist() == [-12]
 
 
 def test_prepare_excludes_provisional_historical_extension():
@@ -52,3 +64,39 @@ def test_candidate_cmo_is_zero_sum_and_reverses_stability_band():
     assert got.loc["R", "candidate_cmo_total_oof"] == -3
     assert got.loc["R", "candidate_cmo_total_stability_low"] == -5
     assert got.loc["R", "candidate_cmo_total_stability_high"] == -1
+
+
+def test_longitudinal_features_are_lagged_and_candidate_directional():
+    races = pd.DataFrame({
+        "cycle": [2014, 2018], "chamber": ["house", "house"], "district": [1, 2],
+        "raw_overperformance": [12.0, -3.0],
+        "contest_status": ["contested_two_party", "contested_two_party"],
+    })
+    candidates = pd.DataFrame({
+        "year": [2014, 2014, 2018, 2018], "chamber": ["house"] * 4,
+        "district": [1, 1, 2, 2], "canonical_party": ["D", "R", "D", "R"],
+        "canonical_votes": [60, 40, 45, 55], "person_id": ["D1", "R1", "D2", "R1"],
+        "incumbent": [0, 0, 0, 1], "winner": [1, 0, 0, 1],
+    })
+    got = add_longitudinal_candidate_features(races, candidates).set_index("cycle")
+    assert np.isnan(got.loc[2014, "rep_prior_candidate_overperformance"])
+    assert got.loc[2018, "rep_prior_candidate_overperformance"] == -12
+    assert got.loc[2018, "rep_first_term_incumbent"] == 0
+    assert got.loc[2018, "rep_unclassified_incumbent"] == 1
+
+
+def test_unopposed_prior_race_is_not_candidate_strength():
+    races = pd.DataFrame({
+        "cycle": [2014, 2018], "chamber": ["house", "house"], "district": [1, 1],
+        "raw_overperformance": [90.0, 5.0],
+        "contest_status": ["unopposed_democrat", "contested_two_party"],
+    })
+    candidates = pd.DataFrame({
+        "year": [2014, 2018], "chamber": ["house", "house"], "district": [1, 1],
+        "canonical_party": ["D", "D"], "canonical_votes": [100, 55],
+        "person_id": ["D1", "D1"], "incumbent": [0, 1], "winner": [1, 1],
+    })
+    got = add_longitudinal_candidate_features(races, candidates).set_index("cycle")
+    assert np.isnan(got.loc[2018, "dem_prior_candidate_overperformance"])
+    assert got.loc[2018, "dem_prior_unopposed"] == 1
+    assert got.loc[2018, "dem_first_term_incumbent"] == 1

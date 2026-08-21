@@ -13,6 +13,7 @@ method instead of three different ones.
 from __future__ import annotations
 
 import argparse
+import sqlite3
 import sys
 from pathlib import Path
 
@@ -22,7 +23,9 @@ from rapidfuzz import fuzz, process
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from oe_normalize import is_county_level_ballot, normalize_for_match, normalize_name  # noqa: E402
 
-TARGET_SOURCES: dict[int, list[int]] = {2014: [2012], 2018: [2012, 2016], 2022: [2016, 2020]}
+TARGET_SOURCES: dict[int, list[int]] = {
+    2010: [2008], 2014: [2012], 2018: [2012, 2016], 2022: [2016, 2020]
+}
 
 # Known cross-file county-key spelling/typo variants that survive
 # normalize_name() as different strings, confirmed by diffing normalized
@@ -80,6 +83,51 @@ def load_target_weights(weights_path: Path, target_cycle: int) -> pd.DataFrame:
     return _prepare_weights(raw_weights, target_cycle)
 
 
+def load_legislative_activity_weights(database: Path, cycle: int) -> pd.DataFrame:
+    """Recover same-plan precinct aliases from official legislative returns."""
+    with sqlite3.connect(database) as connection:
+        raw = pd.read_sql_query(
+            """SELECT year AS cycle, county_key, precinct_key, office, district,
+                      SUM(votes) AS district_activity
+               FROM vote_observations
+               WHERE source='alabama_sos' AND year=?
+                 AND office IN ('State House','State Senate') AND district IS NOT NULL
+               GROUP BY year,county_key,precinct_key,office,district""",
+            connection, params=(cycle,))
+    raw["chamber"] = raw.office.map({"State House": "house", "State Senate": "senate"})
+    raw["precinct_activity"] = raw.groupby(
+        ["cycle", "chamber", "county_key", "precinct_key"]
+    ).district_activity.transform("sum")
+    raw = raw[raw.precinct_activity.gt(0)].copy()
+    raw["allocation_weight"] = raw.district_activity / raw.precinct_activity
+    raw["allocation_method"] = f"{cycle}_legislative_activity_alias"
+    return raw
+
+
+def combine_same_plan_alias_weights(primary: pd.DataFrame,
+                                    historical: list[tuple[int, pd.DataFrame]]) -> pd.DataFrame:
+    """Add older precinct names without replacing current geographic weights.
+
+    Alabama used the same enacted legislative plan in the 2002, 2006 and 2010
+    elections.  Older official legislative returns can therefore supply a
+    district allocation for a 2008 precinct name that disappeared by 2010.
+    Current-cycle geographic names always win; historical aliases are added
+    newest-first only when that county/name is absent from newer layers.
+    """
+    frames = [primary.assign(alias_source="2010_canonical_geography")]
+    used = set(primary[["county_norm", "target_match_norm"]].itertuples(index=False, name=None))
+    for cycle, raw in sorted(historical, reverse=True):
+        prepared = _prepare_weights(raw, cycle)
+        keys = list(prepared[["county_norm", "target_match_norm"]].itertuples(index=False, name=None))
+        add = prepared[[key not in used for key in keys]].copy()
+        if add.empty:
+            continue
+        add["alias_source"] = f"{cycle}_legislative_activity"
+        frames.append(add)
+        used.update(add[["county_norm", "target_match_norm"]].itertuples(index=False, name=None))
+    return pd.concat(frames, ignore_index=True, sort=False)
+
+
 def _match_precincts(votes: pd.DataFrame, weights: pd.DataFrame) -> pd.DataFrame:
     # County-level ballot batches are excluded from the target choice list as
     # well as from the source side (below). Both the source presidential file
@@ -116,6 +164,21 @@ def _match_precincts(votes: pd.DataFrame, weights: pd.DataFrame) -> pd.DataFrame
             margin = score - second
             if score >= 92 and margin >= 4:
                 target, method = found[0][0], "fuzzy"
+            elif score >= 92 and "alias_source" in weights.columns:
+                # A textual tie is harmless when every equally scoring alias
+                # has exactly the same House/Senate district allocation. This
+                # commonly occurs where #1/#2 polling-place suffixes collapse
+                # to a shared precinct under the same enacted plan.
+                all_found = process.extract(row.match_norm, choices, scorer=fuzz.WRatio, limit=None)
+                tied = [item[0] for item in all_found if abs(float(item[1]) - score) < 1e-9]
+                vectors = []
+                for candidate in tied:
+                    vector = (weights[(weights.county_norm.eq(row.county_norm)) &
+                                      (weights.target_match_norm.eq(candidate))]
+                              .groupby(["office", "district"]).activity_share.sum().round(10))
+                    vectors.append(tuple(vector.items()))
+                if vectors and len(set(vectors)) == 1:
+                    target, method = tied[0], "fuzzy_equivalent_allocation"
         rows.append({"source_row_id": row.source_row_id, "target_match_norm": target,
                      "match_method": method, "match_score": score, "score_margin": margin})
     return pd.DataFrame(rows)
@@ -296,6 +359,11 @@ def allocate_to_districts(
 
     district["chamber"] = district["office"].map({"State House": "house", "State Senate": "senate"})
     district = district.drop(columns="office")
+    if "alias_source" in weights.columns:
+        matches["allocation_resolution"] = matches.match_method.map({
+            "unmatched": "county_distribution_fallback",
+            "county_level_ballot": "county_level_distribution",
+        }).fillna("direct_precinct_alias")
     return district, matches
 
 
@@ -372,13 +440,25 @@ def main() -> None:
     args = parser.parse_args()
     root = args.root
     geographic_path = root / "data" / "processed" / "war" / "geographic_precinct_district_weights.csv"
-    weights_path = (geographic_path if geographic_path.exists() else
-                    root / "data" / "processed" / "war" / "precinct_district_allocation_weights.csv")
-    print(f"Using allocation weights: {weights_path.name}")
+    fallback_weights_path = (geographic_path if geographic_path.exists() else
+                             root / "data" / "processed" / "war" / "precinct_district_allocation_weights.csv")
+    canonical_weights_path = root / "data" / "processed" / "elections" / "canonical_precinct_district_weights.csv"
     pres_dir = root / "data" / "processed" / "presidential"
 
     for target_cycle, source_years in TARGET_SOURCES.items():
+        # The modern WAR-only export starts in 2014; the canonical warehouse
+        # contains the independently derived 2010 VTD/population weights.
+        weights_path = canonical_weights_path if target_cycle == 2010 else fallback_weights_path
+        print(f"{target_cycle}: using allocation weights {weights_path.name}")
         weights = load_target_weights(weights_path, target_cycle)
+        if target_cycle == 2010:
+            database = root / "data" / "processed" / "elections" / "alabama_elections.sqlite"
+            weights = combine_same_plan_alias_weights(
+                weights,
+                [(cycle, load_legislative_activity_weights(database, cycle))
+                 for cycle in (2002, 2006)],
+            )
+            print(f"2010: combined target contains {weights.target_match_norm.nunique()} precinct aliases")
         combined: pd.DataFrame | None = None
         for source_year in source_years:
             votes = pd.read_csv(pres_dir / f"{source_year}_president_precinct.csv")

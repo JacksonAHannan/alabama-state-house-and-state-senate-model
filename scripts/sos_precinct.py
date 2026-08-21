@@ -80,7 +80,20 @@ def _office(title: object) -> tuple[str, float | None]:
     text = re.sub(r"\s+", " ", str(title)).strip().upper()
     match = re.search(r"DIST(?:RICT)?\.?(?: NO\.)?\s*(\d+)", text)
     district = float(match.group(1)) if match else None
+    # Several legacy exports abbreviate President of the Public Service
+    # Commission as "President PSC".  Test this before the presidential
+    # contest or the entire PSC race is mislabeled as President.
+    if "PRESIDENT PSC" in text or "PUBLIC SERVICE COMMISSION" in text:
+        return "Public Service Commission President", district
     if "PRESIDENT" in text: return "President", district
+    if re.search(r"\b(?:U\.?S\.?|UNITED STATES) SENAT(?:E|OR)\b", text):
+        return "U.S. Senate", district
+    if re.search(r"\b(?:U\.?S\.?|UNITED STATES) (?:HOUSE|REPRESENTATIVE)\b", text):
+        if district is None:
+            ordinal = re.search(r"\b(\d+)(?:ST|ND|RD|TH) CONGRESSIONAL DISTRICT\b", text)
+            if ordinal:
+                district = float(ordinal.group(1))
+        return "U.S. House", district
     if district is None:
         embedded = re.search(r"STATE HOUSE\s*,?\s*(\d+)$", text)
         if embedded: district = float(embedded.group(1))
@@ -309,7 +322,12 @@ def _legacy_candidate_header_matrix(sheets: dict[str,list[list[object]]],county:
             office_at.append(carried)
         for row in padded[header_row+1:]:
             precinct=str(row[precinct_col]).strip()
-            if not precinct or re.search(r"\bTOTALS?\b",precinct,re.I):continue
+            # Some county sheets append both calculated and reported contest
+            # totals after the precinct rows.  They duplicate the precinct
+            # observations and must not be treated as precincts themselves.
+            if (not precinct or
+                    re.search(r"\b(?:TOTALS?|CALCULATED|REPORTED)\b", precinct, re.I)):
+                continue
             for col in range(precinct_col+1,width):
                 label=str(candidates[col]).strip(); number=pd.to_numeric(row[col],errors="coerce")
                 match=re.search(r"\s+-\s+([DR])\s*$",label,re.I)
@@ -337,7 +355,9 @@ def _legacy_2008(sheets: dict[str,list[list[object]]],county: str) -> pd.DataFra
             office_at.append(carried)
         for row in padded[candidate_row+1:]:
             precinct=str(row[0]).strip()
-            if not precinct or re.search(r"\bTOTALS?\b",precinct,re.I):continue
+            if (not precinct or
+                    re.search(r"\b(?:TOTALS?|CALCULATED|REPORTED)\b", precinct, re.I)):
+                continue
             for col in range(1,width):
                 label=str(candidates[col]).strip(); match=re.search(r"\((DEM|REP|D|R)\)\s*$",label,re.I)
                 number=pd.to_numeric(row[col],errors="coerce")

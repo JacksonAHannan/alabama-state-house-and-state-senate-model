@@ -20,8 +20,11 @@ IDEOLOGY = ROOT / "data" / "processed" / "ideology"
 PCT = IDEOLOGY / "votesmart_all_1998_2022_pct_options.csv"
 ROSTER = IDEOLOGY / "votesmart_public_candidate_roster.csv"
 CROSSWALK = IDEOLOGY / "votesmart_candidate_crosswalk.csv"
+CANONICAL = ROOT / "data" / "processed" / "elections" / "canonical_cmo_candidates.csv"
 RESOLVED = IDEOLOGY / "votesmart_candidate_crosswalk_resolved.csv"
 AUDIT = IDEOLOGY / "votesmart_pct_identity_resolution.csv"
+MANUAL_OVERRIDES = ROOT / "data" / "manual" / "ideology" / "candidate_votesmart_identity_overrides.csv"
+MANUAL_REJECTIONS = ROOT / "data" / "manual" / "ideology" / "candidate_votesmart_identity_rejections.csv"
 PARTY = {"Democratic": "D", "Republican": "R", "Independent": "I",
          "Libertarian": "L", "U.S. Taxpayers": "UST"}
 
@@ -34,6 +37,17 @@ def main() -> None:
     pct = pd.read_csv(PCT)
     roster = pd.read_csv(ROSTER)
     crosswalk = pd.read_csv(CROSSWALK)
+    canonical = pd.read_csv(CANONICAL).rename(columns={
+        "year": "election_year", "canonical_party": "party",
+        "canonical_name": "canonical_candidate"})
+    race_key = ["election_year", "chamber", "district", "party"]
+    signal_columns = [column for column in crosswalk.columns
+                      if column not in {"canonical_candidate_id", "person_id",
+                                        "canonical_candidate", *race_key}]
+    crosswalk = canonical[["canonical_candidate_id", "person_id", "canonical_candidate",
+                           *race_key]].merge(
+        crosswalk[race_key + signal_columns], on=race_key, how="left",
+        validate="one_to_one")
     forms = pct[["election_year", "votesmart_candidate_id", "candidate", "source_url"]].drop_duplicates()
     forms = forms[forms.election_year.isin(range(1998, 2023, 4))].copy()
     roster_key = roster.sort_values("election_year").drop_duplicates(
@@ -93,6 +107,61 @@ def main() -> None:
                                "canonical_candidate": target.canonical_candidate,
                                "name_score": name_score,
                                "resolution_reason": "same race/party exists but identity is not supported by name"})
+
+    if MANUAL_OVERRIDES.exists():
+        overrides = pd.read_csv(MANUAL_OVERRIDES, dtype=str).fillna("")
+        if overrides.canonical_candidate_id.duplicated().any():
+            raise ValueError("Manual Vote Smart overrides must be canonical-candidate unique")
+        # Vote Smart IDs are person identifiers and therefore legitimately
+        # recur when the same candidate runs in multiple cycles.  What must be
+        # unique is an ID within an election cycle; otherwise two canonical
+        # candidates in the same election could be assigned to one profile.
+        override_years = pd.to_numeric(
+            overrides.canonical_candidate_id.str.extract(r"^AL-(\d{4})-")[0],
+            errors="coerce",
+        )
+        if override_years.isna().any():
+            raise ValueError("Manual Vote Smart override IDs must encode an election year")
+        if pd.DataFrame({
+            "election_year": override_years,
+            "votesmart_candidate_id": overrides.votesmart_candidate_id,
+        }).duplicated().any():
+            raise ValueError("Manual Vote Smart overrides must be Vote Smart-ID unique within cycle")
+        for override in overrides.itertuples(index=False):
+            mask = resolved.canonical_candidate_id.eq(override.canonical_candidate_id)
+            if mask.sum() != 1:
+                raise ValueError(
+                    f"Manual Vote Smart override target must exist exactly once: {override.canonical_candidate_id}"
+                )
+            resolved.loc[mask, ["votesmart_candidate_id", "votesmart_candidate", "match_method",
+                                "name_score", "score_margin", "accepted", "review_required"]] = [
+                int(override.votesmart_candidate_id), override.votesmart_candidate,
+                "manual_verified_identity_override", 100.0, 100.0, True, False,
+            ]
+
+    if MANUAL_REJECTIONS.exists():
+        rejections = pd.read_csv(MANUAL_REJECTIONS, dtype=str).fillna("")
+        if rejections.canonical_candidate_id.duplicated().any():
+            raise ValueError("Manual Vote Smart rejections must be canonical-candidate unique")
+        for rejection in rejections.itertuples(index=False):
+            mask = resolved.canonical_candidate_id.eq(rejection.canonical_candidate_id)
+            if mask.sum() != 1:
+                raise ValueError(
+                    f"Manual Vote Smart rejection target must exist exactly once: {rejection.canonical_candidate_id}"
+                )
+            current_id = pd.to_numeric(
+                resolved.loc[mask, "votesmart_candidate_id"], errors="coerce"
+            ).iloc[0]
+            rejected_id = pd.to_numeric(rejection.rejected_votesmart_candidate_id, errors="coerce")
+            if pd.notna(current_id) and pd.notna(rejected_id) and int(current_id) != int(rejected_id):
+                raise ValueError(
+                    f"Vote Smart rejection ID changed for {rejection.canonical_candidate_id}: "
+                    f"expected {int(rejected_id)}, found {int(current_id)}"
+                )
+            resolved.loc[mask, ["votesmart_candidate_id", "votesmart_candidate", "match_method",
+                                "name_score", "score_margin", "accepted", "review_required"]] = [
+                pd.NA, "", "manual_rejected_identity", 0.0, 0.0, False, True,
+            ]
 
     audit = pd.DataFrame(audit_rows).sort_values(
         ["election_year", "resolution_status", "candidate"]

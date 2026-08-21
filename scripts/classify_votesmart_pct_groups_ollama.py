@@ -71,6 +71,10 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--limit", type=int)
     parser.add_argument("--models", nargs="+", default=MODELS)
+    parser.add_argument("--only-qwen-scorable", action="store_true",
+                        help="review only groups Qwen previously marked scorable")
+    parser.add_argument("--append-existing", action="store_true",
+                        help="retain prior model rows when writing classifications")
     args = parser.parse_args()
     for model in args.models:
         size = re.search(r":([0-9]+(?:\.[0-9]+)?)b(?:$|-)", model.lower())
@@ -79,6 +83,13 @@ def main() -> None:
     queue = build_queue(pd.read_csv(ITEMS), pd.read_csv(PCT))
     groups = build_groups(queue)
     groups.to_csv(GROUPS_OUT, index=False)
+    existing = pd.read_csv(CLASS_OUT) if args.append_existing and CLASS_OUT.exists() else pd.DataFrame()
+    if args.only_qwen_scorable:
+        if existing.empty:
+            parser.error("--only-qwen-scorable requires an existing classification file")
+        ids = set(existing[(existing.model.eq("qwen3.5:9b")) &
+                           (existing.scorable.eq(True))].group_id)
+        groups = groups[groups.group_id.isin(ids)]
     work = groups if args.limit is None else groups.head(args.limit)
     CACHE.mkdir(parents=True, exist_ok=True)
     rows = []
@@ -95,12 +106,16 @@ def main() -> None:
                          "classification_cache": str(path.relative_to(ROOT))})
             print(f"{model} {row.group_id} {result.get('dimension')} {result.get('affirmative_direction')}", flush=True)
     frame = pd.DataFrame(rows)
+    if not existing.empty:
+        replace = set(zip(frame.group_id, frame.model))
+        existing = existing[[pair not in replace for pair in zip(existing.group_id, existing.model)]]
+        frame = pd.concat([existing, frame], ignore_index=True, sort=False)
     frame.to_csv(CLASS_OUT, index=False)
     consensus = []
     for group_id, group in frame.groupby("group_id"):
         first = group.iloc[0]
         fields = ["dimension", "affirmative_direction", "scorable"]
-        agree = len(group) == len(args.models) and all(group[x].nunique(dropna=False) == 1 for x in fields)
+        agree = group.model.nunique() >= 2 and all(group[x].nunique(dropna=False) == 1 for x in fields)
         consensus.append({
             "group_id": group_id, "normalized_option": first.normalized_option,
             "item_count": first.item_count, "selected_response_count": first.selected_response_count,

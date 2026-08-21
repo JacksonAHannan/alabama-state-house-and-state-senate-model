@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from contextlib import closing
 from pathlib import Path
+import re
 
 import pandas as pd
 from rapidfuzz.fuzz import WRatio
@@ -21,6 +22,11 @@ PARTY = {"Democratic": "D", "Republican": "R", "Independent": "I"}
 
 def score_name(left: object, right: object) -> float:
     return float(WRatio(normalize_name(left), normalize_name(right)))
+
+
+def is_encoded_ballot_identifier(value: object) -> bool:
+    normalized = normalize_name(value).replace(" ", "")
+    return bool(re.match(r"^GSL\d{3}[DR]|^GSU\d{2}[DR]", normalized))
 
 
 def build_crosswalk(canonical: pd.DataFrame, roster: pd.DataFrame) -> pd.DataFrame:
@@ -53,6 +59,13 @@ def build_crosswalk(canonical: pd.DataFrame, roster: pd.DataFrame) -> pd.DataFra
         accepted = bool(
             match is not None
             and (
+                # The authoritative 2022 election import stores SOS contest
+                # identifiers (GSL/GSU...) in the ballot-name field.  A unique
+                # candidate in the same general-election chamber/district/party
+                # slot is the identity evidence; fuzzy name scoring is not.
+                (method == "same_race_party" and len(pool) == 1
+                 and is_encoded_ballot_identifier(candidate.ballot_name))
+                or
                 (method.startswith("same_race") and best_score >= 86 and margin >= 4)
                 or (method == "1994_unique_person_name" and best_score >= 96 and margin >= 8)
             )
@@ -68,7 +81,9 @@ def build_crosswalk(canonical: pd.DataFrame, roster: pd.DataFrame) -> pd.DataFra
                 "canonical_candidate": candidate.ballot_name,
                 "votesmart_candidate_id": int(match.votesmart_candidate_id) if accepted else None,
                 "votesmart_candidate": match.candidate if match is not None else None,
-                "match_method": method if accepted else "unmatched",
+                "match_method": ("unique_race_party_encoded_ballot_slot"
+                                 if accepted and is_encoded_ballot_identifier(candidate.ballot_name)
+                                 else method if accepted else "unmatched"),
                 "name_score": round(best_score, 3),
                 "score_margin": round(margin, 3),
                 "accepted": accepted,
@@ -82,7 +97,15 @@ def build_crosswalk(canonical: pd.DataFrame, roster: pd.DataFrame) -> pd.DataFra
         .agg(lambda values: sorted(set(values.dropna())))
     )
     unique_people = accepted_people[accepted_people.map(len).eq(1)]
+    # Some early election records contain only a surname, so their person_id is
+    # likewise only a surname placeholder.  Such an ID may describe multiple
+    # people in the same cycle and must never carry a later Vote Smart identity
+    # backward to every namesake.
+    person_cycle_counts = canonical.groupby(["year", "person_id"]).size()
+    ambiguous_people = set(person_cycle_counts[person_cycle_counts.gt(1)].index.get_level_values("person_id"))
     for index, row in result[result.election_year.eq(1994) & ~result.accepted].iterrows():
+        if row.person_id in ambiguous_people:
+            continue
         identifiers = unique_people.get(row.person_id, [])
         if len(identifiers) != 1:
             continue

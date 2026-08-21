@@ -1,11 +1,715 @@
 group_id,normalized_option,item_count,selected_response_count,models_run,core_fields_agree,consensus_dimension,consensus_direction,consensus_scorable,eligible_for_automatic_scoring
+0022165198987E47,"less than $25,000",2,3,2,False,,,,False
+006F04E6B4A7DCEC,provide tax incentives for companies to hire and train homeless people who want to work.,1,1,2,False,,,,False
+00805BB4C2E2CD97,"establish a national database of ballistic ""fingerprints"" to track guns used in criminal activities.",1,0,2,False,,,,False
+029143C129CC83DE,do you support requiring a government-issued identification in order to vote at the polls?,1,1,2,True,economic_ideology,-1.0,True,False
+02AF10CA0E801C3F,do you support reducing military intervention in middle east conflicts?,1,1,2,False,,,,False
+02D56BEDF3C2D7A2,require welfare recipients to accept some form of government-sponsored job after two years if unemployed in the private sector.,1,0,2,False,,,,False
+045A9A168D48F154,"do you support raising taxes on any income or on any entity, to promote economic growth?",1,6,2,False,,,,False
+0460F466E4AAFB4E,encourage further development and use of alternative fuels to reduce pollution.,2,3,2,True,environment_position,-1.0,True,False
+050A3EC8E54D57AB,do you support the forgiveness of federal student loan debt?,1,1,2,True,education_position,-1.0,True,False
+0511834CFF75FEB0,should teachers be allowed to bring guns into the classroom?,1,18,2,True,guns_position,-1.0,True,False
+055DEE5D9AD06A85,charitable contributions,1,2,2,False,,,,False
+0592065077C61341,grant u.s. citizenship to children born in the us only if their parents immigrated legally.,1,0,2,False,,,,False
+05D6B648CCE657F0,eliminate government regulations of the private sector in order to encourage investment and economic expansion.,1,0,2,False,,,,False
+05E730B9BA52716C,the u.s. should withdraw completely from the united nations.,1,0,2,False,,,,False
+061DCDE326D5F77B,regulating the internet should not in any way be controlled by the federal government.,1,0,2,False,,,,False
+068B5E78CA2983E4,"support ""buffer zones"" by requiring demonstrators to stay at least 15 feet away from abortion clinic doorways and driveways.",1,20,2,False,,,,False
+06966D48627A18D7,support domestic oil exploration in areas that are currently restricted.,1,1,2,False,,,,False
+0699F25330D7201C,support the right of workers to strike without fear of being permanently replaced.,1,1,2,False,,,,False
+06AC65E6D3B13B0E,economic aid to russia and the former republics should be continued unless russia exports nuclear weapons or related technology.,1,1,2,False,,,,False
+06E69803933A89E1,"do you support granting the president ""fast-track"" authority in trade negotiations?",1,1,2,False,,,,False
+07E0C49AA4F569D6,increase border security to stop the flow of illegal drugs into the u.s.,1,1,2,False,,,,False
+089CEA5CDFAEEAFA,do you support continued u.s. membership in the world trade organization (wto)?,2,3,2,False,,,,False
+08E607DD0236233A,support programs that provide job training and placement services for at-risk youth.,2,3,2,False,,,,False
+08F04665CA34FA95,support programs that give incentives for employers to hire and train welfare recipients.,1,1,2,False,,,,False
+08FA8117FF8C8EC1,child tax credit,3,3,2,False,,,,False
+090AEEC0987F84F2,support a patient's bill of rights which includes the right to sue when claims are denied.,2,2,2,False,,,,False
+0911E0341CF2C44D,support strict penalties for internet crimes such as hacking and internet violence.,1,1,2,False,,,,False
+0A56FB6F6F62B0D7,support additional criminal penalties if a fetus is killed in the commission of a federal crime against a pregnant woman.,1,2,2,False,,,,False
+0A5D4C12E9926A2F,space exploration programs,2,3,2,False,,,,False
+0A7DF7732A3B4DD1,"use state funds to clean up former industrial and commercial sites that are contaminated, unused or abandoned.",1,15,2,False,,,,False
+0A8697D8017B6CCF,require that unwed teenage mothers live with a parent or guardian (if possible) and attend school to receive benefits.,1,1,2,False,,,,False
+0A9F46887593E35F,allow the importation of prescription drugs into the united states.,1,1,2,True,healthcare_position,-1.0,True,False
+0AAC0D3A13589B86,support the federal government funding universal pre-k programs.,1,0,2,True,education_position,-1.0,True,False
+0B19A5E05928BFEB,do you support medicaid expansion under the affordable care act?,1,5,2,True,healthcare_position,-1.0,True,False
+0B3D2A8D95BFF0E9,"$12,001-$40,000",1,0,2,False,,,,False
+0B3E78031FB2145B,do you support pre-emptive military strikes against countries deemed to be a threat to united states national security?,1,1,2,False,,,,False
 0BA9898E4F8BE7A1,support contracting with private sector firms to build and/or manage state prisons.,2,44,2,False,,,,False
+0BC8E6FE21BDFFBF,support a patient's bill of rights which includes appeal mechanisms when claims are denied.,1,2,2,False,,,,False
+0CFC895831E570C3,the us should participate in un peacekeeping missions only when vital us interests are directly threatened.,1,1,2,False,,,,False
+0D712987367DCE53,scientific research,4,4,2,False,,,,False
+0D7BE80A5EF04E06,support legislation to detail how personal information can be collected and used on the internet.,1,2,2,False,,,,False
+0DB254895C54A818,fema,1,1,2,False,,,,False
+0E7E6B0E664670BB,"do you support repealing the 2010 affordable care act (""obamacare"")?",2,2,2,False,,,,False
+0E85BA7A06E29272,provide homeless families with apartment vouchers they can use to supplement the cost of an apartment.,2,1,2,True,social_ideology,-1.0,True,False
+0E8A781903D82F12,increase fees charged to ranchers who graze cattle on federal lands.,1,1,2,True,environment_position,-1.0,True,False
+0E8DF6411791CB00,should the united states impose greater international sanctions on iran if it continues to defy united nations mandates?,1,1,2,False,,,,False
+0EC48D6F139E2B2C,support a patient's bill of rights which includes the right to appeal to an administrative board of specialists when services are denied.,1,1,2,True,healthcare_position,-1.0,True,False
+0FFE2BB43AA96DEA,impose mandatory jail sentences for selling illegal drugs.,1,1,2,False,,,,False
+11C033041E0B08A1,do you support a policy of pre-emptive strikes against countries deemed to be a threat to national security?,1,2,2,False,,,,False
+120BA5F92005A90E,allow unregulated soft money campaign contributions to political parties or committees.,2,2,2,False,,,,False
+12638E9226370274,"$25,000-$75,000",1,2,2,False,,,,False
+128404344718B091,ensure the viability of social security by increasing the payroll tax.,1,1,2,False,,,,False
+12CD885053C337F8,income taxes (mid-income families),1,5,2,True,economic_ideology,-1.0,True,False
+13ABCEB90F3633BD,do you support eliminating religious exemptions for vaccinations?,2,21,2,False,,,,False
+1408A78062DE3595,excise taxes (alcohol),1,1,2,False,,,,False
+145FD06736CCD527,relax logging restrictions on federal lands.,1,2,2,False,,,,False
+1539B9D09E873DDB,should the united states decrease its financial support of the united nations?,1,2,2,False,,,,False
+155B67F97585AB70,should the us continue funding for radio free europe and radio liberty?,1,1,2,False,,,,False
+1567238D519F09AB,aid should be granted to countries when it is in the security interests of the u. s.,1,1,2,False,,,,False
+1576C0F9EED6FAB4,"do you support requiring immigrants to return to their country of origin before they are eligible for citizenship, regardless of their immigration status?",1,1,2,False,,,,False
+15BB7131EFEEB9DD,require congressional candidates to raise over half of their campaign money from their home state.,1,0,2,False,,,,False
+15E02859B4A61476,support programs to provide prison inmates with drug and alcohol addiction treatment.,3,4,2,False,,,,False
+161FD7B22ACBA91C,increase the immigration quota for computer scientists and other information technology workers.,1,0,2,False,,,,False
+1621A830DBA6A9B0,"do you support a government-run (e.g. single-payer) healthcare program, such as medicare-for-all?",1,1,2,False,,,,False
+164AAE4D6ECCB2EE,do you support national education standards?,2,22,2,True,education_position,-1.0,True,False
+166F77E84897A076,"less than $12,000",1,0,2,False,,,,False
+1765CA2AFD6376BB,waive environmental review requirements for grazing permits.,1,0,2,True,environment_position,-1.0,True,False
+17C9FEC7B387FCD0,"support strict penalties for internet crime (e.g. hacking, identity theft, worms/viruses).",1,1,2,False,,,,False
+182B16038E3ACB29,support on-line voter registration.,1,1,2,False,,,,False
+18AA63FC40BCA6DC,do you support expanding paid family and/or medical leave opportunities?,1,6,2,False,,,,False
+1935C54D5EBEDDAC,"do you support federal spending as a means of promoting economic growth (e.g. grants, tax incentives)?",1,1,2,True,economic_ideology,-1.0,True,False
+1972F999970255CA,"support a lock box measure, limiting congress's ability to spend social security and medicare surpluses on any other federal programs except social security and medicare, until each program's long-term solvency is guaranteed.",1,1,2,False,,,,False
+19C1C5C28598E907,the u.s. should take military action against iraq only as part of an international effort.,1,1,2,False,,,,False
+19C4E1714A0001AE,aid should be eliminated for any nation with documented human rights abuses.,2,3,2,False,,,,False
+1A9947261D91EBDC,support international voluntary emission targets to limit global warming.,1,1,2,True,environment_position,-1.0,True,False
+1AFDB39BF3051E44,"do you support the federal government taking action, beyond those of the federal reserve, to alleviate inflation?",1,1,2,True,economic_ideology,-1.0,True,False
+1B0B7E51EE5D8E25,defense,5,6,2,False,,,,False
+1B65CEB46B954825,transportation/infrastructure,1,5,2,False,,,,False
+1B694013D15B3CD5,lower social security's annual cost-of-living increases.,1,0,2,False,,,,False
 1BACBFEAD1E1FBD8,provide tax incentives to businesses that hire welfare recipients.,2,83,2,False,,,,False
+1BB0B3A466CE8E76,agricultural,1,1,2,False,,,,False
+1BC9CEAFAAE44C28,ban university financial aid officers from owning stock in or accepting gifts from student loan lenders.,1,1,2,True,education_position,-1.0,True,False
+1C0A3E8CF0A6D8CF,strengthen logging restrictions on federal lands.,1,0,2,True,environment_position,-1.0,True,False
+1CBB7AF386FF920D,arts funding,1,1,2,False,,,,False
+1D451A345C0BA0EA,provide block grants to states for implementation of programs to combat juvenile crime.,1,0,2,False,,,,False
+1D53E4043CBE76C8,do you support the united states involvement in intergovernmental organizations dedicated to trade?,1,1,2,False,,,,False
+1E1D2C58DE6AF1C9,"strengthen emission controls on all gasoline and diesel-powered engines, including cars, trucks, and sport utility vehicles.",1,0,2,False,,,,False
+1E5E26637D0F1AB0,should aid to african nations for aids prevention programs fund distribution of contraceptives?,1,2,2,True,social_ideology,-1.0,True,False
+1E970BED228AE982,"strengthen fuel efficiency standards on all gasoline and diesel-powered engines, including cars, trucks, and sport utility vehicles.",1,0,2,True,environment_position,-1.0,True,False
+1EBCE51BF5882D89,"in a total of seventy-five (75) words or less, please explain what your two main legislative priorities will be if elected. please explain how you would obtain any additional government funding needed to implement these priorities.",1,0,2,False,,,,False
+1EF3D07C5DBC21F6,"direct federal poverty aid through religious, community-based or other non-profit organizations.",1,0,2,False,,,,False
+1F5C7CC61F97D187,provide extra federal aid to states with higher numbers of immigrants for necessary medical and social services.,2,1,2,False,,,,False
+1F77984C238F911F,increase the amount individuals are permitted to contribute to federal campaigns.,2,2,2,False,,,,False
+1FA7C0F27119E9E6,should the united states increase military support for afghanistan?,1,1,2,False,,,,False
 1FC74A1B68F899F6,do you support the inclusion of sexual orientation in alabama's anti-discrimination laws?,5,52,2,True,social_ideology,-1.0,True,False
+201BD84F5912E645,"require drug testing for federal employees in sensitive positions (air traffic control, national park police, secret service, etc.).",1,0,2,False,,,,False
+205A437897EB2F3A,allow workers to sell company stock and to diversify their company retirement funds into other investment options.,1,1,2,True,economic_ideology,-1.0,True,False
+205DD9D173906B57,"in the following area, please explain in a total of 100 words or less, any additional priorities of your campaign that have not been covered in these questions.",1,0,2,False,,,,False
+207473601411AB57,do you believe there has been a decline in moral and ethical standards in america over the last four decades?,1,1,2,False,,,,False
+220A112C0399C276,do you support the us providing increased offensive military aid to ukraine?,1,1,2,True,nonideological,0.0,False,False
+22D457E74D07DA16,decrease the number of legal immigrants allowed into the country.,2,1,2,False,,,,False
+23B14AE0AC1BB9A5,do you support eliminating taxes on dividends paid to individual investors?,1,2,2,True,economic_ideology,-1.0,True,False
+2582074FE7BBCBD1,reimburse states for providing services to illegal aliens.,1,0,2,False,,,,False
+25FCBB570323CD60,reduce current federal regulations on the environment.,1,0,2,False,,,,False
+2655B6685802B39B,defense plant conversion,2,2,2,False,,,,False
+26B369354F9301D7,providing health care is not a responsibility of the federal government.,2,1,2,False,,,,False
+26FC77B7CCEDA0D7,should the united states expand its missile defense shield?,1,1,2,True,nonideological,0.0,False,False
+2732841D2EB03E95,should the united states support the lebanese government against insurgent forces?,1,1,2,False,,,,False
+280BE146CCC8D0AD,should a minor accused of a violent crime be prosecuted as an adult?,4,41,2,True,criminal_justice_position,-1.0,True,False
+2826B354ABF46803,should the u.s. have full diplomatic relations with china?,1,1,2,False,,,,False
+28CA923FF6333D20,limit the benefits given to single women if they have additional children while receiving welfare benefits.,1,1,2,False,,,,False
+28E3972634DD7AAA,student loan programs,1,1,2,False,,,,False
+29852317882B2654,encourage further development and use of alternative fuels.,1,1,2,False,,,,False
+29C02E3ED802026E,require universities to disclose financial relationships with lenders.,1,1,2,True,education_position,-1.0,True,False
+2A0CF005D6CB8216,"support strict penalties for internet crimes (e.g. hacking, identity theft, worms/viruses).",1,2,2,False,,,,False
+2A4EE550D27BA09C,support the lower .08 blood-alcohol-content limit defining drunk driving.,1,30,2,False,,,,False
+2A98D33A1D288944,support instant run-off voting (irv).,1,0,2,False,,,,False
+2AA99A7296F720D1,excise taxes (cigarettes),1,1,2,False,,,,False
+2AF95CDEF30CB6CE,"retiree income over $40,000",1,1,2,False,,,,False
+2BEA485D7E756495,"do you support greater efforts by alabama's state government in closing gender, racial and other wage gaps?",1,6,2,True,social_ideology,-1.0,True,False
+2C1FA4AA3ADB80AA,support prohibiting ads containing candidates' name that are paid for by third parties from airing 60 days before a primary and 30 days before a general federal election.,1,0,2,False,,,,False
+2C20F5A95D5FF2F1,support amnesty for certain illegal immigrants who already reside in the united states.,1,0,2,False,,,,False
+2C5FF6FBFDCC049F,do you support the trade embargo against cuba?,2,3,2,False,,,,False
+2CF8894455E3D244,should the united states decrease financial support for pakistan?,1,1,2,False,,,,False
+2D5B3767059EBD29,would you cut taxes and use social security surpluses to supplement the difference?,1,1,2,False,,,,False
+2D97E8370C28F39A,do you support federal funding for research on existing embryonic stem cell lines?,1,1,2,True,social_ideology,-1.0,True,False
+2E52A6E0D5E2D369,increase funding for school capital improvements (e.g. buildings and infrastructure).,1,1,2,False,,,,False
+2EF47121421FC085,"please explain in a total of 100 words or less, your top two or three priorities if elected. if they require additional funding for implementation, please explain how you would obtain this funding.",3,0,2,False,,,,False
+2F3F13AD22AD4BE1,increase funding for community policing programs.,1,1,2,False,,,,False
+2F700B04FC1F57D3,"strengthen emission controls on all gasoline or diesel powered engines, including cars and trucks.",1,1,2,True,environment_position,-1.0,True,False
+3004250577A6A502,"relax restrictions barring legal immigrants from using social programs (e.g. public housing, food stamps).",1,0,2,False,,,,False
+301CBC6CC1F61331,do you support amending the united states constitution to allow voluntary prayer and/or moment of silence in public schools?,1,1,2,False,,,,False
+30479BCD09F25CF4,"require that crimes based on gender, sexual orientation, and disability be prosecuted as federal hate crimes.",2,1,2,False,,,,False
+30D3D9AEF529570D,should the united states increase financial support to afghanistan?,1,2,2,False,,,,False
+31720C3A154368A7,support automatic enrollment of children in federal health care programs such as chip and medicaid.,1,1,2,False,,,,False
+31A7542E9A78481B,should the united states lift the travel ban to cuba?,1,2,2,False,,,,False
+31B833E72C496648,reduce government regulation of the private sector in order to encourage investment and economic expansion.,2,2,2,False,,,,False
+31BA6518D9692978,is the tenure process for public school teachers producing effective teachers?,1,4,2,False,,,,False
+31F00AC6D2F7F391,should the government be able to regulate the cost of prescription drugs?,1,1,2,False,,,,False
+32B37C403E01EF30,do you support permanent repeal of the federal estate tax?,1,2,2,False,,,,False
+34D2CC47531892B9,other or expanded categories,16,25,2,False,,,,False
+34FF7535FB4C3708,other or expanded principles.,1,0,2,False,,,,False
+3545F0BF775A2396,should a nation's human rights record affect its normal trade relations (most favored nation) status with the united states?,1,2,2,False,,,,False
+35D60DCD9F98FFED,"in order to balance the budget, do you support reducing state employee salaries and/or pensions?",1,6,2,False,,,,False
+35F28FC8C6A80F32,foreign aid should only be given when extraordinary circumstances and disaster threaten the lives of civilian populations.,1,0,2,False,,,,False
+365B5D755B1F6302,prosecute youths accused of murder as adults.,1,0,2,False,,,,False
+365F09420DDDC6DB,increase penalties for the possession of any illegal guns.,1,0,2,False,,,,False
+36EC5245E374BC1A,allow workers to invest a portion of their payroll tax in private accounts which they manage themselves.,2,1,2,False,,,,False
+3845CD69C1D3638A,abolish all federal welfare programs.,2,0,2,False,,,,False
+3847E68634BE7FC7,eliminate any governmental programs designed to reduce unemployment.,1,0,2,False,,,,False
 3863E155F2AE9C89,provide tax incentives to small businesses that provide health care to their employees.,2,60,2,False,,,,False
+388C1250E037201F,do you support increasing funding for the state education budget?,1,19,2,False,,,,False
+38CAB1C16E291772,do you support increasing security along the southern us border?,1,1,2,False,,,,False
+39549B192FF8FF19,provide tax credits for companies that move job-creating industries into areas with high unemployment.,2,2,2,False,,,,False
+3954DE319D5E61AA,use state funds to continue some medicaid coverage for legal immigrants.,1,14,2,False,,,,False
+3A41CE270332B45F,transfer homeless housing programs to states through block grants.,1,0,2,False,,,,False
+3A51BF6371EBFBBE,should election day be a national holiday?,1,2,2,False,,,,False
+3A7E40262EC1985D,support marriage promotion programs for welfare recipients.,1,13,2,False,,,,False
+3ABE016C02E5929E,"prohibit the dilation and extraction procedure, also known as ""partial birth"" abortion.",1,0,2,False,,,,False
+3AD41E411C9F1AB9,the federal government should discontinue affirmative action programs.,2,1,2,False,,,,False
+3B2EB6DCEF7B29CB,increase state funding to expand head start programs.,1,15,2,False,,,,False
+3B51557F7BA4C9AF,continuing the moratorium on internet sales taxes.,1,0,2,False,,,,False
+3B73F3B156019509,eliminate federal financial aid for individuals convicted of drug offenses.,1,0,2,False,,,,False
+3BCCD2960835245D,revise the 1872 mining law to increase the fees charged to mining companies using federal lands.,1,1,2,True,environment_position,-1.0,True,False
+3C29BA8E59C1FCB7,increase funding for block grants to states to help them hire additional teachers.,1,1,2,False,,,,False
+3C67F570CDC59FD0,offer tax credits to individuals and small businesses to offset the cost of insurance coverage.,2,2,2,False,,,,False
+3D78917764D78B8D,"should your priorities require additional government funding, please explain how you intend to obtain the additional funding.",1,0,2,False,,,,False
+3DE680A3D47DD122,increase funding for computers and computer training in public schools.,1,1,2,False,,,,False
+3DEC9BBC83F7EF3E,the u.s. should resolve future disputes with iraq only through diplomatic means.,1,0,2,False,,,,False
+3E30B86DF72E4524,the us should use military force only when the us border or territories are attacked or american citizens are in danger.,1,1,2,False,,,,False
+3F3A7E58FF156D2A,allow states and local communities to use federal funds for needle-exchange programs to combat the spread of hiv.,1,1,2,False,,,,False
+3F5D09AED88443DA,support national standards for and testing of public school students.,1,0,2,True,education_position,-1.0,True,False
+40B59E96E5443BD1,impose harsher penalties for youths convicted of violent offenses.,1,0,2,False,,,,False
+40B61FF87C5BA53C,legalize physician-assisted suicide in alabama.,1,12,2,False,,,,False
+40CDA2B3D460F7AF,emergency preparedness,1,39,2,False,,,,False
+40CF425E96A12D4B,increase funding of programs such as pell grants and stafford loans to help students pay for college.,2,2,2,True,education_position,-1.0,True,False
+40D1AE9E5F87C6BC,raise the minimum age for ownership of handguns from 18 to 21.,1,1,2,False,,,,False
+410EA978838A65D3,require the immigration and naturalization service (ins) to reduce the time between applying for citizenship and taking the oath of allegiance to six months.,1,1,2,False,,,,False
+41342A6E8C557ED3,provide free or low-cost television advertising to candidates who agree to voluntary campaign spending limits.,1,0,2,False,,,,False
+41584D4A6D4299AC,support harsher financial punishments for those who knowingly employ illegal immigrants.,1,1,2,False,,,,False
+416C1A0E9565F2D5,strengthen the regulation and enforcement of the clean water act.,3,3,2,True,environment_position,-1.0,True,False
+4207C611009556D1,do you support greater efforts by alabama state government in closing the pay gap between men and women?,1,19,2,False,,,,False
+42DD94642B7489B1,small business taxes,1,1,2,False,,,,False
+42E9B64D36A85BC9,"should law enforcement agencies have greater discretion to monitor domestic communications, to prevent future terrorist attacks?",1,1,2,False,,,,False
+43303B890AD0C824,do you support the construction of a wall along the mexican border?,1,1,2,False,,,,False
+433FBD6532706FEC,increase funding for national job-training programs that re-train displaced workers or teach skills needed in today's job market.,2,2,2,False,,,,False
+4389D26D161C84C0,"eliminate the department of education, thereby giving state and local government greater control over educational issues.",1,0,2,False,,,,False
+442D4AFF43DAA0A4,establish english as the official and recognized language of the united states.,1,1,2,False,,,,False
+44E6C1303DB203E0,use federal tanf (temporary assistance to needy families) funds to extend health and child care subsidies to the working poor.,1,21,2,False,,,,False
+4543247C172F3794,limit the amount of punitive damages that can be awarded in medical malpractice lawsuits.,1,20,2,False,,,,False
+45D7447C779AF731,border security,1,1,2,False,,,,False
+463C89D0F20B2714,support the united states granting aid to countries when extraordinary circumstances cause disaster and threaten civilian lives.,1,1,2,False,,,,False
+4674F9A6B7BF4593,redirect welfare funding to faith-based and community-based private organizations.,2,31,2,False,,,,False
+46A04C24E70B99FA,do you support imposing tariffs on products imported from nations that maintain restrictive trade barriers on american products?,2,2,2,False,,,,False
+46AB841CDFADF6BC,"should a nation's human rights record affect its ""most favored nation"" trading status with the united states?",1,1,2,False,,,,False
+46BC828449A20BB1,restructure the electric utility industry to allow consumers to choose their power company.,1,29,2,False,,,,False
+46D1BB9474881CFA,should the united states support the creation of an independent nation of kosovo?,1,1,2,False,,,,False
+485F038CE85F3829,support government mandates to curtail violent and sexual content on television.,2,3,2,False,,,,False
+49145D798057FD53,the federal government should provide affirmative actions programs as long as such programs do not include quotas.,1,1,2,True,social_ideology,-1.0,True,False
+49382D23E36A55DF,"do you support a universally-accessible, publicly-administered health insurance option?",3,28,2,False,,,,False
+49417827CE50D133,homeland security,3,4,2,False,,,,False
+4941F55D6353FA25,research and development of new weapons,3,4,2,False,,,,False
+49DE0C9649653C61,aid should be granted to countries that are close allies of the u. s. and in need of financial/military assistance.,1,1,2,False,,,,False
+49E9656C834AFC9B,should current elected officials be prohibited from holding additional state jobs?,2,22,2,False,,,,False
+4A44FD16C1E2CF45,should the united states hold foreign states accountable for terrorists who operate in their country?,2,3,2,False,,,,False
+4A5B7ABA21E8D958,"maintain the national standards and goals set forth in ""goals 2000"".",1,1,2,False,,,,False
+4A8B05799F4F6B1B,repeal all bans and measures that restrict law-abiding citizens from owning legally-obtained firearms.,1,1,2,False,,,,False
+4AF5C4FD4562802B,support federal tax incentives to help families save for college.,3,4,2,False,,,,False
+4B9C020C3D3503CD,eliminate all federal education standards and testing requirements for k-12 students (no child left behind).,1,0,2,False,,,,False
+4BE7C1FD594D489E,restrict the investigative authority of the fbi and other governmental agencies.,1,0,2,False,,,,False
+4C74D88C2B16F2A8,support limiting the president's use of signing statements in order to prevent an alternative interpretation of the bill.,1,1,2,False,,,,False
+4CB948126BC7CECE,environmental,1,1,2,False,,,,False
+4CF71E2EB765915D,do you support requiring immigrants who are unlawfully present to return to their country of origin before they are eligible for citizenship?,2,2,2,False,,,,False
+4D8DC757608DE7EF,medicaid,3,3,2,False,,,,False
+4DEDDCA962F56CBF,should the us continue funding for radio free asia?,1,1,2,False,,,,False
+4DFF1C4D0E5D3A69,support the detention of asylum seekers from countries known to sponsor terrorism.,1,2,2,False,,,,False
+4E113403522B11A3,require the use of cleaner burning fuels in order to prevent pollution.,1,20,2,False,,,,False
+4EC405667226A7D0,should the united states continue to provide leadership in the israeli-palestinian peace process?,2,3,2,False,,,,False
+4F277F3B05FB432F,national parks,3,4,2,False,,,,False
+4F2B8A6211D5D14B,aid should be granted to countries when it is in the security interests of the united states.,1,2,2,False,,,,False
+4F3E7EC450804542,"abortions should be illegal when the fetus is viable, with or without life support.",1,0,2,False,,,,False
+4F62707F301AE07A,"support health care strategies focused on prevention, including health education, and natural medicines and remedies.",1,1,2,True,healthcare_position,-1.0,True,False
+4F6A149798F17248,prohibit non-u.s. citizens from making soft money contributions to national parties or party committees.,1,1,2,False,,,,False
+4F70CEEE3D3C7C98,eliminate all federal programs designed to reduce unemployment.,2,0,2,False,,,,False
+4FE2AEA59A370244,do you support increasing defense spending?,2,2,2,False,,,,False
+502E47E19F460040,provide citizens age 55-65 the option of purchasing medicare health coverage.,1,1,2,True,healthcare_position,-1.0,True,False
+505BE6852678C781,should the united states remove the north korean government from power?,1,2,2,False,,,,False
+505D80CF6A736006,lower the annual cost-of-living increases.,1,0,2,False,,,,False
+50BC5933E496BC2D,should the united states commit troops to united nations peacekeeping missions?,1,2,2,True,indeterminate,-1.0,False,False
+50C9C8918F4A6BF8,do you support the united states involvement in free trade agreements?,1,1,2,False,,,,False
+50DFDFB15FC13B0A,increase state funding for training health workers to recognize and respond to the release of biological agents.,1,24,2,True,healthcare_position,0.0,False,False
+515A951400C97364,do you support increasing teacher salaries and/or benefits in alabama?,1,5,2,False,,,,False
+522135DDEBA64D90,increase funding of programs that help alcoholics and drug addicts recover and find steady work.,1,0,2,False,,,,False
+527588C46237744E,programs to improve military retention rates,1,1,2,False,,,,False
+5312DDB4462B2011,do you support the permanent repeal of the federal estate tax?,1,1,2,True,economic_ideology,-1.0,True,False
+532DD99338525543,"$40,001-$100,000",1,0,2,False,,,,False
+5371120FFF0410CA,should the united states adopt stricter rules for student visa applications from nations known to sponsor terrorism?,1,2,2,True,nonideological,0.0,False,False
+539AF3BD61FC541A,support a temporary worker program.,1,1,2,False,,,,False
+53A360F8E45BCB48,require welfare recipients to spend at least 40 hours a week in a combination of work and training programs.,2,2,2,False,,,,False
+540F8B8A1FA6DB1B,"do you support protecting government officials, including law enforcement officers, from personal liability in civil lawsuits concerning alleged misconduct?",1,1,2,False,,,,False
+5509400E1C485B40,cia appropriations,1,1,2,False,,,,False
+55253656725ADBF3,increase funding for local boys & girls clubs and other independent organizations in communities with at-risk youth.,1,1,2,False,,,,False
+55522A1661687460,do you support state funding for embryonic stem cell research?,2,24,2,False,,,,False
+556D60860336196E,discuss your proposals for iraq.,1,0,2,False,,,,False
+556FC9F38E10E090,continue to give states and local governments responsibility for welfare programs through tanf block grants.,1,1,2,True,social_ideology,-1.0,True,False
+55CF5359C513C3D8,intelligence operations,2,3,2,False,,,,False
+5692C5B69FA5A393,social security,1,1,2,False,,,,False
+569CC37BB2D3318F,increase funding for public works projects such as the repair of roads and bridges.,1,1,2,False,,,,False
+571584025D5034B2,"strengthen emission controls and fuel efficiency standards on all gasoline and diesel-powered engines, including cars, trucks, and sport utility vehicles.",1,1,2,True,environment_position,-1.0,True,False
+57C28D02BAD7694C,foreign aid should be eliminated from any nation with documented human rights abuses.,1,1,2,False,,,,False
+586D6FBC4623BA7F,political action committee,3,29,2,False,,,,False
+58B8D0CB42BD33E4,ease procedures on the purchase and registration of firearms.,1,1,2,False,,,,False
+58FE86AC6306A4BF,continue the moratorium on internet taxation.,1,1,2,False,,,,False
+598D2A11B325C61F,do you support limits on the number of terms for alabama governors?,2,24,2,False,,,,False
+5998AF93F1D88E5D,do you support a merit pay system for teachers?,1,5,2,True,education_position,-1.0,True,False
+5A5038CC5FB5D9D1,support housing assistance for welfare recipients.,2,1,2,True,social_ideology,-1.0,True,False
+5A9597F01625D288,should the u.s. have full diplomatic relations with cuba?,1,1,2,False,,,,False
+5ADE8EE4F136FCAC,increase the number of visas issued for agricultural workers.,1,0,2,False,,,,False
+5B84BE0AC5BDC62E,increase the minimum wage.,1,1,2,False,,,,False
+5BC7D7F2F633D83E,increase federal taxes on gasoline and diesel fuels to promote conservation and alternative fuel development.,1,0,2,True,environment_position,-1.0,True,False
+5BF5398218C2FC57,military hardware,4,4,2,False,,,,False
+5BFFB6817682A846,the u.s. should pay its debt to the united nations.,1,1,2,False,,,,False
+5C2DF00EDAB240CC,united nations,2,2,2,False,,,,False
+5D06A12F288CFE08,"allow energy producers to trade pollution credits under ""cap and trade"" laws.",1,0,2,False,,,,False
+5D659F780C24C243,increase funding for child care programs.,1,1,2,False,,,,False
+5DC710E5E9CAE99E,should the us maintain ground troops in kosovo?,1,1,2,False,,,,False
+5E0DD4DEC520B406,estate taxes,1,1,2,False,,,,False
+5E921C40A3B17F77,the u.s. should not continue to play a prominent leadership role in the peace process between israel and the palestine authority.,1,0,2,False,,,,False
+5E983FE95FEB42CA,"implement a universal healthcare program to guarantee coverage to all americans, regardless of income.",1,0,2,False,,,,False
+5E9BB7B380439F59,decriminalize the possession of small amounts of marijuana.,2,11,2,False,,,,False
+5EAC92FBA9C2440B,national aeronautical space administration (nasa),1,1,2,False,,,,False
+5F0D92E6D72A6660,international aid,4,5,2,True,social_ideology,-1.0,True,False
+5F18065485427AD6,"direct federal poverty aid through religious, community-based, or other non-profit organizations.",1,1,2,False,,,,False
+5F41B8E8B52AEE5D,do you support providing financial incentives to the private sector for the purpose of job creation?,3,29,2,False,,,,False
+6003CBD39C3C7253,"family income over $150,000",1,1,2,False,,,,False
+600D70C308AF6831,charitable deductions,2,2,2,False,,,,False
+6087A85B97CC90CB,do you support instant run-off voting (irv)?,1,2,2,False,,,,False
+60AAA1DD20EC2A89,"if yes, please explain what you would do as a member of congress to address this concern.",1,0,2,False,,,,False
+60E99F2FE7149BA5,do you support the regulation of indirect campaign contributions from corporations and unions?,3,21,2,False,,,,False
+616831BBDBD249BC,"encourage tax-free medical savings accounts, which would be taxed if used for any purpose other than medical costs.",1,1,2,False,,,,False
+617C21163B00AF26,increase the income tax deduction on individual contributions made to charities that help the poor and homeless.,1,1,2,False,,,,False
+62731594A7AA65FA,"strengthen emission controls on all gasoline or diesel-powered engines, including cars, trucks, and sport utility vehicles.",1,1,2,False,,,,False
+6273A2DE503B84D6,do you support modifying the 1972 anti-ballistic missile (abm) treaty in order to deploy the national missile defense system?,1,1,2,False,,,,False
+62908FD32DB15471,law enforcement (federal),1,1,2,False,,,,False
+62BDF551EEB9AF04,job training programs,1,1,2,False,,,,False
+62DE382F72CFB05F,"do you generally support increased regulations on social media companies (e.g. tik tok, facebook, etc.)?",1,1,2,False,,,,False
+636DB0AF7FDAE2E0,please explain what your top two or three priorities will be if elected. please explain how you would obtain any additional government funding needed to implement these priorities.,1,0,2,False,,,,False
+63C696EEB2256F00,provide tax credits or grants to businesses that offer child care services to employees.,1,1,2,False,,,,False
+643B28EE1E8107C7,illegal immigrants should be given a pathway to citizenship.,1,0,2,False,,,,False
+64B9667ED822BC69,provide rent or housing supplement vouchers for low-income families.,1,0,2,False,,,,False
+64E6ABD3C09DDB53,increase border security to stop the flow of illegal drugs into the united states.,1,2,2,False,,,,False
+656240776CCC1C79,the us should contribute more funding and troops to united nations peacekeeping missions.,1,0,2,False,,,,False
+663101FA4C96C63F,do you support using a merit pay system for teachers?,2,23,2,True,education_position,-1.0,True,False
+6637A273CDBD7D7F,do you support the world trade organization (wto)?,1,1,2,False,,,,False
+675B9C4908916FC4,support the united states granting aid to countries when it is in the security interests of the united states.,1,1,2,False,,,,False
+67A5BA42DD2E9DDE,support increasing the amount individuals are permitted to contribute to federal campaigns.,1,1,2,False,,,,False
+67CE3DA63AAFEEEE,invest a portion of social security's assets collectively in stocks and bonds instead of u.s. treasury securities.,1,0,2,False,,,,False
+67F4356192CE8A10,enact environmental regulations even if they are stricter than federal law.,1,15,2,True,environment_position,-1.0,True,False
+682B83A0FBF9BF23,"encourage employers to offer flex-time scheduling, comp-time, and unpaid leave for family emergencies.",2,3,2,False,,,,False
+68BF0109C6F8A87B,education,7,8,2,False,,,,False
+6B24539B27BA0C49,"restrict the eligibility of legal immigrants for certain social programs (i.e. afdc, hud housing, food stamps, etc.).",1,0,2,False,,,,False
+6B4E3D309015DCFF,impose stricter penalties for those convicted of white-collar crimes.,1,1,2,False,,,,False
+6B9AD4BC7318E2AF,allow laboratories to create new lines of stem cells for additional research.,1,0,2,True,healthcare_position,-1.0,True,False
+6BA591E8C37F268F,"allow welfare recipients to remain eligible for benefits while saving money for education, starting a business, or buying a home.",1,18,2,False,,,,False
+6BB1FA48BF3AAD56,should the us recognize and extend full diplomatic relations to taiwan?,1,1,2,False,,,,False
+6C40F7768F7053D0,grant broader authority to the us immigration and naturalization service to deny entrance visas to terrorist suspects.,1,1,2,False,,,,False
+6CAD1DDCB3FA2EA4,civil rights enforcement,1,1,2,False,,,,False
+6CDB03D8D4C67D00,do you support adopting federal education standards in alabama?,2,22,2,True,education_position,-1.0,True,False
+6CF58A73F3A1236E,transfer more existing medicaid recipients into managed care programs.,2,23,2,False,,,,False
+6D3326B3855993B4,medicare,4,4,2,False,,,,False
+6D3C942E03D10946,should the federal government continue affirmative action programs?,1,1,2,True,social_ideology,-1.0,True,False
+6E08562232C21150,please explain what your two main legislative priorities will be if elected. please explain how you would obtain any additional government funding needed to implement these priorities.,1,0,2,False,,,,False
+6E0DDAB9117F3083,"allow issue advocacy commercials by corporations, labor unions, and non-profit groups which appear within 60 days of a general election and within 30 days of a primary election.",1,1,2,False,,,,False
+6E1D499BD18D1EE5,low-income housing,1,1,2,False,,,,False
+6E1F592F69594D58,provide government jobs for those who wish to work and cannot find a job in the private sector.,1,0,2,False,,,,False
+6E493F0FBBD486F7,do you support lifting the trade embargo imposed against cuba?,1,1,2,True,economic_ideology,-1.0,True,False
+6EE624D48006E9FA,the federal government should prosecute cases of discrimination in the private sector.,1,0,2,False,,,,False
+6F404F8BB2004998,support changing the mission of head start to emphasize improving the math and reading skills of disadvantaged children.,1,2,2,False,,,,False
+6F60D0DF17B6FDB7,do you support replacing the current u.s. income tax structure with a flat income tax?,1,1,2,False,,,,False
+6F8F8ECFB0F90D18,support a constitutional amendment giving communities control over local school funding and standards.,1,28,2,True,education_position,-1.0,True,False
+705519D7EEEBF808,implement tighter restrictions on firearm sales in an effort to hinder terrorist groups from stockpiling weapon arsenals.,1,0,2,False,,,,False
+70CF1DD161C580BB,do you support requiring the federal budget to be balanced each year?,1,1,2,False,,,,False
+7118C0E793465903,should the president be allowed to veto certain items of legislation while signing spending or tax bills into law?,1,1,2,True,government_reform_position,-1.0,True,False
+7143581A79E4D5CD,do you support increasing state funding for clean drinking water initiatives?,2,23,2,True,environment_position,-1.0,True,False
+72243000CEBAB4E4,ban the use of racial profiling by law enforcement officers.,1,22,2,False,,,,False
+72425E3F73558131,support federal education standards and testing requirements for k-12 students (no child left behind).,1,1,2,False,,,,False
+724F92F8CB384087,nasa,1,1,2,False,,,,False
+7259E4082B6EBD98,support amnesty for illegal immigrants already working in the united states.,1,0,2,False,,,,False
+72CD81ADE3180A96,do you support expanding access to health care through commercial health insurance reform?,3,28,2,False,,,,False
+7313C6900C902847,increase funding for improvements to alabama's power generating and transmission facilities.,1,15,2,False,,,,False
+73BD24796B85C77F,should individuals be required to purchase health care insurance?,2,23,2,True,healthcare_position,-1.0,True,False
+73FE6E7BB04BD3F0,do you support funding the national service program (ameri-corps) in which young people receive money from the federal government for college in return for performing community service?,1,1,2,True,education_position,-1.0,True,False
+74B84CFD66D17E1A,expand federally sponsored drug education and drug treatment programs.,2,3,2,False,,,,False
+7505AF35DFFF30EF,modernization of weaponry and equipment,3,4,2,False,,,,False
+751CCB4AC7D2A263,do you support replacing the us income tax structure with a broad-based consumption tax?,1,1,2,False,,,,False
+751FEDA0EBB6E557,do you support the federal government increasing funding for affordable housing programs?,1,1,2,True,economic_ideology,-1.0,True,False
+755FC01360573BFF,increase funding for the pell grant program.,1,1,2,False,,,,False
 7560FE4980AE4AB6,deny or suspend state-issued permits and licenses to parents who are delinquent in paying court-ordered child support.,1,53,2,True,social_ideology,-1.0,True,False
+770D0AFB443B49F9,"renew the ban on the sale or transfer of semi-automatic guns, except those used for hunting.",1,0,2,False,,,,False
+7729CE222D0AC6F5,increase funding of programs that prevent teen pregnancy and family break-up.,1,1,2,False,,,,False
+778289F96AF6BBC5,remove all legislative limits on campaign financing.,1,0,2,False,,,,False
+778FF26850FE42B0,"eliminate restrictions on federal education funding, giving educators or local school districts more flexibility to design and implement their programs.",1,0,2,False,,,,False
+77D09258570F35B3,"over $40,000",1,2,2,False,,,,False
+77E25983C19CF911,"$350,001 and above",1,0,2,False,,,,False
+7870C7A4CCCACD4B,should candidates for state office be encouraged to meet voluntary spending limits?,3,29,2,False,,,,False
+78C4AB5D188F0CD5,the u.s. should continue to play a prominent leadership role in the peace process between israel and the palestine authority.,1,1,2,False,,,,False
+795F2C1B083ED362,do you support interstate health insurance compacts?,3,27,2,False,,,,False
+79C94D91874916D8,should marriage be restricted to a union only between a man and a woman?,1,2,2,True,social_ideology,-1.0,True,False
+79F079115AA718D1,environmental programs,1,1,2,True,environment_position,-1.0,True,False
+79F70EA49DFBCD36,provide continued medicaid benefits for those welfare recipients who have moved from welfare to work.,1,1,2,False,,,,False
+7A492945E2D70F8F,issuing the early release of certain non-violent offenders,2,22,2,False,,,,False
+7AA0B258179A6F2D,food stamps,1,1,2,False,,,,False
+7B195D60EE7067CA,do you support any limits on campaign contributions to state candidates?,1,19,2,False,,,,False
+7B68A09D630CDD30,support proportional increases of social security benefits based on the cost of living index.,1,1,2,False,,,,False
+7C124B10E020F4FD,"strengthen current laws dealing with non-controlled substances, including inhalants and commercially available pills.",1,0,2,False,,,,False
+7C41810C7AF37C79,should the united states use diplomatic and economic pressure to encourage north korea to abandon its nuclear weapons program?,1,2,2,False,,,,False
+7CA04AA459CC8714,strengthen the regulation and enforcement of the clean air act.,3,3,2,True,environment_position,-1.0,True,False
+7DA977CD8FFF7517,the federal government should not provide any affirmative action programs.,1,0,2,False,,,,False
+7DBF6E046C7E1194,should the alabama ethics commission have the power of subpoena?,2,24,2,False,,,,False
+7E0583EA8ADBF26A,should the united states be involved in bringing an end to the violence in the democratic republic of congo?,1,1,2,False,,,,False
+7EE9C83E70BDC871,provide tax incentives for small businesses to help provide health care to their employees.,1,1,2,False,,,,False
+7F406FB6ED2CE6D6,do you support the creation of a federal identification card system?,1,1,2,False,,,,False
+7F9628C32F88B097,allow workers to invest a portion of their payroll tax in private accounts that they manage themselves.,1,1,2,False,,,,False
+802E32D513B92646,regulating and taxing gaming proceeds,2,23,2,False,,,,False
+80746504A90D6E73,reduce prison sentences for those who commit non-violent crimes.,3,1,2,False,,,,False
+808F782DC6692DB5,do you support providing tax incentives to businesses for the purpose of job creation?,1,1,2,False,,,,False
+809CDED40020ACA3,increase state autonomy in handling immigration issues.,1,0,2,False,,,,False
+80E5AE1345019F2C,the federal government should utilize merit and qualifications in making government contracting decisions.,1,1,2,True,labor_position,-1.0,True,False
+8188C300189178DB,"support increased development of traditional energy resources (e.g. coal, natural gas, oil).",2,3,2,False,,,,False
+81BFF213F085756B,do you support requiring states to adopt federal education standards?,1,1,2,True,education_position,-1.0,True,False
+82236338205C5781,invest a portion of social security assets collectively in stocks and bonds instead of united states treasury securities.,1,0,2,False,,,,False
 8231A3647F2408C3,do you support the enforcement of federal immigration laws by state and local police?,5,49,2,False,,,,False
+82BFE21C61AF8CF4,excise taxes (transportation fuel),1,1,2,False,,,,False
+83D71CA641CF39F5,do you support long-term use of national guard troops to supplement the armed forces in assignments overseas?,1,1,2,True,nonideological,0.0,False,False
+83D7B9715C2EBBEA,do you support increased spending on infrastructure projects for the purpose of job creation?,2,24,2,False,,,,False
+83DC9F6C4FD7F403,maintain all federal registration procedures and restrictions on possessing firearms.,1,0,2,False,,,,False
+83E0FEAC3326106A,"support a ""managed competition"" health care plan to contain costs and improve access that does not include mandated health alliances, government cost control powers, or employer/employee mandates.",1,0,2,False,,,,False
+83E8576234A30E60,"prosecute as adults, youths accused of a felony.",1,0,2,False,,,,False
+84BC38025A0D8040,reducing state employee salaries and/or pensions,1,5,2,True,government_reform_position,-1.0,True,False
+84F6DD87B9896A9B,should aid to african nations for aids prevention fund abstinence education?,1,2,2,False,,,,False
+850144AA1475666C,relax wiretapping restrictions to give the fbi broader authority to investigate terrorist suspects.,1,1,2,False,,,,False
+851CF3C698B958F9,support the u.s. re-entering the kyoto treaty process to limit global warming.,1,1,2,False,,,,False
+85B8EFFC71983C21,"please explain in a total of 75 words or less, your top two or three priorities if elected. if they require additional funding for implementation, please explain how you would obtain this funding.",1,0,2,False,,,,False
+86001C644B25B93D,allow parents to use tax-free savings accounts to send their children to any publicly-funded school.,1,1,2,False,,,,False
+86828B33B20E678D,"promote education flexibility by giving federal funds, in the form of block grants, to the states to spend it as they see fit.",1,0,2,False,,,,False
+86D3C214BFD1DE34,an income tax increase on any tax bracket?,1,17,2,False,,,,False
+8700985C1F9FBF0E,should the us have diplomatic relations with the government of vietnam?,1,1,2,False,,,,False
+87E1A10FA2B74F14,would you support enforcing the spending limits agreed to in 1997 by the president and congress to balance the budget?,1,1,2,False,,,,False
+887E922FC94446FD,"require individuals to pay the social security tax on incomes above $68,400 (which is currently exempt).",1,1,2,False,,,,False
+88C2FC7A44434AB8,do you support lowering taxes as a means of promoting economic growth?,1,1,2,False,,,,False
+88C430AFCC3D2B92,public health services,2,3,2,False,,,,False
+88E7247BE81C3641,strengthen the clean water act.,1,1,2,True,environment_position,-1.0,True,False
+89AE9B3FA776D772,promote the selling of pollution credits between nations to encourage industries to decrease pollution levels.,1,1,2,False,,,,False
+89B050381280C38F,do you support normal trade relations (most favored nation status) with vietnam?,1,1,2,False,,,,False
+89D6514174F36DAE,enforcement of civil rights should primarily be the responsibility of the federal government.,2,1,2,False,,,,False
+89DB92B923C9038A,decriminalize the use of marijuana for medicinal purposes.,3,30,2,False,,,,False
+89F2B18C2EC4F273,should an individual have the right to choose to die through euthanasia?,1,5,2,True,healthcare_position,-1.0,True,False
+8A44B99C1A6534AC,include gender identity in federal anti-discrimination laws.,1,0,2,True,social_ideology,-1.0,True,False
+8A83C2B0E59C1269,should the us have diplomatic relations with the government of cuba?,1,1,2,True,nonideological,0.0,False,False
+8AD56F7836C2D160,corporate income taxes,1,1,2,False,,,,False
+8BC3D2C05FAC2478,do you support the general agreement on tariffs and trade (gatt)?,3,4,2,False,,,,False
+8BDB6B3E9CDB0802,"$75,000 - $150,000",1,1,2,False,,,,False
+8C10B472C2D5CF0A,"in order to balance the budget, do you support reducing defense spending?",1,1,2,True,economic_ideology,-1.0,True,False
+8C5DD0736C8A6EE8,armed forces personnel training,4,5,2,False,,,,False
+8CB6EF1D18F64BD8,law enforcement,1,1,2,False,,,,False
+8CEB139B68B965AD,do you support the north american free trade agreement (nafta)?,3,4,2,False,,,,False
+8CFA9A47AA3DE988,increase funding for block grants to states to aid in the hiring of additional teachers.,1,1,2,False,,,,False
+8D5E33962662D82D,support research and development of nuclear reactors as an alternative energy source.,1,1,2,True,environment_position,-1.0,True,False
+8D75EDB92C37A4C6,"support a patient's bill of rights to define and enforce the rights of insured patients, including greater access to specialists and emergency rooms, wider choice of health care providers, and appeal mechanisms when claims are denied.",1,1,2,False,,,,False
+8E018115FB74E2BB,housing projects,1,1,2,False,,,,False
+8E67A5CE777C2C9C,do you support state funding for the development of alternative energy?,3,28,2,True,environment_position,-1.0,True,False
+8F0CEA41CD762012,do you support the united states imposing economic sanctions on china?,1,1,2,False,,,,False
+8FBB8044329886D5,"impose ""truth in sentencing"" for violent criminals so they serve full sentences with no chance of parole.",3,3,2,False,,,,False
+903D7AA736606488,"transfer public lands, such as federal forests and range lands, to the jurisdiction of state and local governments.",1,0,2,True,environment_position,-1.0,True,False
+906567F2C57B70E7,allow middle and low income families to deduct yearly health care costs from their taxable income.,1,1,2,False,,,,False
+90699DC1C9B7CA76,limit the number of appeals allowed to inmates on death row.,1,1,2,True,criminal_justice_position,-1.0,True,False
+906E791A9425166B,"family income less than $25,000",1,1,2,False,,,,False
+907DECFCC13A76FA,arts,4,5,2,False,,,,False
+91A21B4A55FD8FB4,raise the retirement age for individual eligibility to receive full social security benefits.,1,0,2,False,,,,False
+91BCD119242A1D66,"over $150,000",2,3,2,False,,,,False
+922365293523A553,"prohibit states from passing laws that deny human services (medical care, education) to illegal immigrants or their children.",2,1,2,False,,,,False
+94860E534478FC0B,deport all permanent resident aliens convicted of a felony.,1,0,2,False,,,,False
+9579343420BC9AEA,pay for active duty personnel,4,5,2,False,,,,False
+95BA7A2406DABF9A,"support the use of ""boot camps"" as alternative sentencing for juvenile offenders.",1,1,2,False,,,,False
+95C4150F2F5D9060,do you support expanding federal funding to support social safety net programs such as social security and medicare?,1,1,2,True,social_ideology,-1.0,True,False
+95D1256A454C8F0D,"family income $25-75,000",1,1,2,False,,,,False
+969B38A044442AB4,should the united states provide economic and military support to the transitional government of somalia?,1,1,2,False,,,,False
+96F5B93B70735B0E,the federal government should consider race and sex in making government contracting decisions.,1,1,2,False,,,,False
+976D7547FACFC190,support expanding prescription drug coverage under private managed care plans.,1,0,2,False,,,,False
+98194022783DCCF9,do you support allowing individuals to divert a portion of their social security taxes into personal retirement accounts?,1,1,2,True,economic_ideology,-1.0,True,False
+9835E52B89C4ABCE,increase the payroll tax to better finance social security in its current form.,2,0,2,False,,,,False
+9844EBB7F1412B48,expand eligibility for tax-free medical savings accounts.,2,3,2,False,,,,False
+9860CDD92AB55633,do you support china becoming a member of the world trade organization?,1,1,2,False,,,,False
+98DFA17E591B567A,do you support federal funding to create lines of stem cells from new embryos?,1,1,2,True,social_ideology,-1.0,True,False
+98F835D28580A3F0,further limit the number of immigrants allowed into the country.,1,0,2,False,,,,False
+9985655450E63B0A,illegal immigrants should have to return to their countries of origin before being considered for citizenship.,1,1,2,False,,,,False
+998D9AB229585EE7,foreign aid should be maintained at current levels.,1,0,2,False,,,,False
+9A179B45D676AB7B,require the federal government to reimburse citizens when environmental regulations limit use of privately owned lands.,1,0,2,True,environment_position,-1.0,True,False
+9A29A8F230234ED7,strategic defense initiative (sdi),1,1,2,False,,,,False
+9A8CFEEB3732B83B,"use state funds to clean up former industrial and commercial sites that are contaminated, unused, or abandoned.",1,15,2,True,environment_position,-1.0,True,False
+9B9D38535E77953A,should the state government increase funding for treatment facilities to combat opioid abuse?,2,26,2,True,healthcare_position,-1.0,True,False
+9BC472975FA8FB7D,law enforcement/corrections,1,5,2,False,,,,False
+9C17ECC90F6E5C3E,require that a percentage of purchases made by federal agencies include recycled components.,1,1,2,True,environment_position,-1.0,True,False
+9C1F54650CE1CD7D,should the united states increase military support to afghanistan?,1,2,2,False,,,,False
+9C1F732E7F1CBB10,decrease the number of immigrants allowed into the country.,1,1,2,False,,,,False
+9DA93BD2D9E880F3,remove all contribution limits on federal campaigns and parties.,2,1,2,False,,,,False
+9DCA446A0A0DDAAF,"expand eligibility for tax-free medical savings accounts, which would be taxed if used for purposes other than medical costs.",1,1,2,False,,,,False
+9DD2EAB0915BC480,collect taxes on commercial internet transactions.,1,1,2,False,,,,False
+9E2579AE37F50AC3,the u.s. should take unilateral military action if iraq does not comply with all accepted united nations resolutions.,1,0,2,False,,,,False
+9E67C6ACDAF6282D,should the united states trade nuclear fuel to india for civilian purposes?,1,1,2,False,,,,False
+9F8C3EF1A6DB5775,"do you support alternatives to incarceration for certain non-violent offenders, such as mandatory counseling or substance abuse treatment?",3,29,2,False,,,,False
+A0767F4EBB0B7563,make campaign spending limits mandatory for all federal candidates.,1,1,2,True,social_ideology,-1.0,True,False
+A09E75678605C28A,"over $40, 000",1,1,2,False,,,,False
+A0BB7F2261EE4079,"allow parents to use tax-free savings accounts to send their children to any participating school: public, private or religious.",1,0,2,False,,,,False
+A0D990D3F3D26805,reducing state employee salaries and/or pensions?,1,17,2,False,,,,False
+A15931B1AC286324,should an individual under 18 accused of a violent crime be prosecuted as an adult?,1,5,2,False,,,,False
+A1F41C4EF7925095,do you support the supreme court's decision to overturn roe v. wade?,1,1,2,False,,,,False
+A2145AEEDAD654D7,the u.s. should participate in united nations peacekeeping missions only when vital u.s. interests are involved.,1,0,2,False,,,,False
+A2B5C4ACDB1B0E2E,"encourage employers to offer child care services, flex-time scheduling, comp-time, and unpaid leave for family emergencies.",1,1,2,True,social_ideology,-1.0,True,False
+A2FBD98EFBDBF565,increase the federal minimum wage.,3,2,2,False,,,,False
+A31BACE454B65297,do you support state funding for stem cell research?,2,24,2,False,,,,False
+A399710553C38635,do you support legislation that grants citizens the right to choose to die through euthanasia?,1,17,2,False,,,,False
+A410929427A6F237,ban unregulated soft money campaign contributions to political parties or committees.,1,1,2,False,,,,False
+A43933E76CD45392,"relax current guidelines that forbid the federal bureau of investigation (fbi) from investigating terrorist groups when there is a ""reasonable indication"" of terrorist activities.",1,1,2,False,,,,False
+A490F741BA36592C,support a federal shield law to protect reporter-source privilege.,1,0,2,False,,,,False
+A5AF82CD68472847,utilize cost-benefit analysis to determine economic impacts of proposed environmental protection and cleanup legislation.,1,1,2,False,,,,False
+A5C3E4A9AD2B4EBE,provide tax credits for businesses that offer on-site child care.,1,1,2,True,social_ideology,-1.0,True,False
+A5EC1EDCF273B36D,encourage development of alternative fuels and electric cars to reduce pollution.,1,1,2,True,environment_position,-1.0,True,False
+A617B2749862700A,should marriage only be between one man and one woman?,2,24,2,False,,,,False
+A704795E7934F0E2,implement a universal health care program to guarantee coverage to all americans regardless of income.,3,1,2,False,,,,False
+A714B77C7A43E502,increase state funding for state and local emergency agencies to prevent or respond to terrorism.,1,25,2,False,,,,False
+A731C552F9AC5A70,should the us continue funding for radio marti and tv marti?,1,1,2,False,,,,False
+A75835E377CC16DF,maintain current welfare-to-work requirements in order for states to qualify for block grants.,1,1,2,False,,,,False
+A833F4F1CB28AD33,do you support the united states imposing trade sanctions on venezuela?,1,1,2,False,,,,False
+A8FAA81E4495D9AF,support expanding prescription drug coverage under medicare.,2,2,2,False,,,,False
+A90CE283DCC15018,do you support automatic voter registration?,1,6,2,False,,,,False
+A92CC70C5BBD97B9,require states to return any unused welfare block grant funding to the federal government.,1,0,2,False,,,,False
+AA0BB345CFB6E155,should the federal government consider race and gender in government contracting decisions?,1,1,2,True,social_ideology,-1.0,True,False
+AA8EE2B9DACB4C76,instituting mandatory furloughs and layoffs for state employees,2,22,2,False,,,,False
+AA970259FC65AF10,establish limits on the amount of punitive damages awarded in medical malpractice lawsuits.,1,1,2,False,,,,False
+AAE2DCF5178C4739,eliminate united states aid for any nation with documented human rights abuses.,1,1,2,False,,,,False
+AB63485DEFDB8E27,support merit-based visas over family-based visas.,1,1,2,False,,,,False
+AB6D98438987BE86,support designating election day as a national holiday.,1,0,2,False,,,,False
+AB6E0CC1286984F4,increase funding of federally-sponsored drug education and drug treatment programs.,1,0,2,False,,,,False
+AC4AE49C65AE9AF4,"eliminate federal funding for programs associated with the ""war on drugs.""",2,0,2,False,,,,False
+AC82E82B1F21515E,do you support a government-run (single-payer) healthcare program such as medicare-for all?,1,6,2,False,,,,False
+AC928CA145E5BC39,should immigrants unlawfully present in the united states who graduate from alabama high schools be eligible for in-state tuition at public universities?,2,19,2,True,education_position,-1.0,True,False
+AD32CFF24C9555F8,provide child care services to welfare recipients who work or attend school.,1,1,2,False,,,,False
+ADCD120649DFB0E3,continue to give states and local governments flexibility in and responsibility for welfare programs through federal block grants.,2,3,2,False,,,,False
+ADDA89B005C3DB22,"$25,000 - $75,000",1,1,2,False,,,,False
+AEBEFF563523BE85,do you support lowering the cost of prescription drugs?,1,6,2,False,,,,False
+AEF2CA533DF8A2DB,student loan credit,2,2,2,False,,,,False
+AF3E2CDE90FB71BD,welfare (afdc),2,2,2,False,,,,False
+AFEE1DEDDEFDFD79,support strong internet privacy laws.,1,0,2,False,,,,False
+AFF2159D760B004F,should the united states maintain its financial support of the united nations?,1,2,2,False,,,,False
+B008A27EF40AC55A,economic aid to russia and the former republics should be increased to facilitate democracy and market reforms.,1,0,2,True,economic_ideology,-1.0,True,False
+B0AD6EF478AFA1D4,establish spending limits on congressional campaigns and provide public funding for complying candidates.,1,0,2,False,,,,False
+B11F3109EA4BAD61,require full disclosure of funding sources of issue advocacy commercials which appear within 60 days of an election.,1,1,2,False,,,,False
+B17CC1CE4807BB0B,support public taxpayer funding for congressional candidates who comply with campaign spending limits.,1,0,2,False,,,,False
+B27640083F4BEAB4,earned income tax credit,4,4,2,False,,,,False
+B35997538D957CDE,do you support medicaid expansion through alabama's health care programs?,1,18,2,True,healthcare_position,-1.0,True,False
+B4517751CE3C71E3,should the united states use sanctions to encourage the government of zimbabwe to end its human rights abuses?,1,1,2,False,,,,False
+B4A9469A370A21C4,support opening a select portion of the arctic national wildlife refuge for oil exploration.,1,1,2,False,,,,False
 B53B7CCFCF746470,provide tax credits for businesses that provide child care for their employees.,2,91,2,True,social_ideology,-1.0,True,False
+B5603FFC88DB6E7D,covert intelligence operations,1,1,2,False,,,,False
+B571AF20CC9B9A80,should the united states decrease military support for pakistan?,1,1,2,False,,,,False
+B595BEBA67D7B594,do you support expanding federal funding to support entitlement programs such as social security and medicare?,1,1,2,True,social_ideology,-1.0,True,False
+B5D18EE5DC63970D,do you support the use of an independent and/or bipartisan commission for redistricting?,3,28,2,False,,,,False
+B5D9B31A4C9BD560,expand funding for community policing programs.,1,1,2,False,,,,False
+B6012DD405D57D81,"do you support the regulation of campaign contributions from corporations, unions, and individuals?",1,5,2,True,government_reform_position,-1.0,True,False
+B68FE65F0796D269,do you support the state's use of affirmative action?,2,24,2,True,social_ideology,-1.0,True,False
+B6A7B4AC8D163DAE,restore food stamp programs to legal immigrants.,1,1,2,False,,,,False
+B6AE53FAA92D12EA,school lunches,1,1,2,False,,,,False
+B6FF7681D05EE78D,establish empowerment zones in areas with large numbers of unemployed people.,1,1,2,True,economic_ideology,-1.0,True,False
+B789FF5F203B9F29,support the use of ethanol as an alternative fuel.,2,2,2,True,environment_position,-1.0,True,False
+B8101DAD9D2848C0,do you support the federal government allowing permits for drilling on public lands?,1,1,2,False,,,,False
+B82012E39FC2E4C0,medical research,4,5,2,False,,,,False
+B85892520B3B1096,do you support the state government providing college students with financial aid?,3,28,2,True,education_position,-1.0,True,False
+B91551C6A5BC686A,increase spending to build more federal prisons.,2,0,2,False,,,,False
+B9C038F4C3B9D3B6,allow energy producers to trade pollution credits.,1,1,2,True,environment_position,-1.0,True,False
+BAD8B2D078C0FE19,abortions should be limited by waiting periods and notification requirements as decided by each state government.,2,0,2,False,,,,False
+BB221490D5133FE8,aid granted by the united states should be scaled back and eventually eliminated.,1,0,2,False,,,,False
+BC05364CDBCB59B4,support legislation to provide prescription drug coverage under medicare.,1,1,2,True,healthcare_position,-1.0,True,False
+BC5E1266216D5C4E,strengthen child support collection procedures and increase penalties for parents who do not pay child support.,1,1,2,False,,,,False
+BC81DC8F10190073,support expanding child healthcare programs.,1,1,2,False,,,,False
+BCB29FEA3BCED8F4,increase funding for aids programs.,1,1,2,False,,,,False
+BD2F3F8D1C8E4060,do you support the removal of confederate monuments from public spaces?,1,15,2,True,social_ideology,-1.0,True,False
+BD42CAB0EB89231D,require that crimes based on sexual orientation be prosecuted as federal hate crimes.,1,0,2,False,,,,False
+BDFA22A792119458,do you support increasing penalties for illegal cockfighting?,2,23,2,False,,,,False
+BEED5B1810B59583,increase funding for national job-training programs.,1,1,2,False,,,,False
+C12170A2F4E48491,do you generally support requiring states to adopt federal education standards?,1,1,2,True,education_position,-1.0,True,False
+C14CFFAF0E2AD1BD,federal debt reduction,1,1,2,False,,,,False
+C18524FF005B6424,"$75,000-$150,000",1,2,2,False,,,,False
+C1B73B1F5FEB4720,payroll taxes,1,1,2,False,,,,False
+C1D267AF7ABA8B62,mortgage deductions,2,2,2,False,,,,False
+C1EFD5A77B8A48AF,do you support the use of private prisons?,1,5,2,False,,,,False
+C2024C3EB635E288,do you support alternatives to incarceration for certain non-violent offenders such as mandatory counseling or substance abuse treatment?,1,1,2,False,,,,False
+C246F1DC78AFB6A1,support giving the president the power of the line item veto for items concerning appropriations.,1,1,2,False,,,,False
+C30890F60FF2C0FF,promote the selling of pollution credits to encourage industries to decrease amount of pollution.,1,1,2,True,environment_position,-1.0,True,False
+C3FCBC3E5F720EC0,should a nation's human rights record affect its normal trade relations (most favored nation status) with the united states?,1,1,2,False,,,,False
+C43AF8B4840D979D,establish enterprise zones in areas with large numbers of unemployed people.,1,1,2,False,,,,False
+C4801694EA70C4D8,aid programs should be scaled back and eventually eliminated except for extraordinary circumstances.,1,0,2,False,,,,False
+C4BA27B747971C3B,regulating the internet is not a responsibility of the federal government.,1,0,2,False,,,,False
+C503C2DCDE9739BE,hold gun owners responsible for crimes committed with their guns by children age 16 and under.,1,1,2,False,,,,False
+C50FA97510C33A9B,"do you support the regulation of indirect campaign contributions from corporations, unions, and individuals?",1,1,2,False,,,,False
+C5388A13C0F6EF6D,the us should withdraw from the un completely.,1,0,2,False,,,,False
+C565CF84F4FED88C,"in the following area, please explain in a total of 100 words or less, your top legislative priority and how you plan to fund it.",1,0,2,False,,,,False
+C593814AEDA9F0E8,support a three-year moratorium on both new hog farms and all expansions of farms to over 500 hogs.,1,12,2,True,environment_position,-1.0,True,False
+C5ECF5B9E85430ED,do you support legalizing physician-assisted suicide in alabama?,2,24,2,False,,,,False
+C6167771D623CD67,do you support a wealth tax in order to pay for public programs?,1,1,2,False,,,,False
+C67332BCE2FA8FC0,gas/oil taxes,1,5,2,False,,,,False
+C68E76B6C1745298,support legislation that would increase the federal limits on individual contributions.,1,0,2,False,,,,False
+C74FDEFE189C6D78,raise the retirement age for when individuals are eligible to receive full social security benefits.,1,0,2,False,,,,False
+C79092D44C0D1B49,establish english as the official national language.,3,3,2,False,,,,False
+C83549423B764872,maintain limits on the authority of federal agencies investigating suspected terrorists.,1,0,2,False,,,,False
+C8DE23C103C914DB,provide funding for family planning programs as a means to decrease the number of abortions.,1,1,2,False,,,,False
+C95C3C8569923F59,increase penalties for the possession of any illegal firearms.,1,1,2,False,,,,False
+C97C85A67E772BFB,farm subsidies,1,1,2,False,,,,False
+C991ADDCEC452753,providing education is not a responsibility of the federal government.,1,1,2,False,,,,False
+C9D362C9CEF72578,do you support lowering corporate taxes as a means of promoting economic growth?,1,1,2,False,,,,False
+CA57BEBAA0DE3D5E,the u.s. should end the economic embargo against iraq.,1,0,2,False,,,,False
+CB046A4CB0B0EC0F,"in the following area, please explain in a total of 100 words or less, your top two or three priorities if elected. if they require additional funding for implementation, please explain how you would obtain this funding.",1,0,2,False,,,,False
+CB94BA7AC8EDE017,require that chemical tracing agents be added to commercially-sold products that can be used to produce explosives.,1,1,2,False,,,,False
+CC12BCDF5296235D,do you believe that human activity is contributing to climate change?,1,1,2,True,environment_position,-1.0,True,False
+CC57EDCB48D79EDE,implement regulation of internet content.,1,2,2,False,,,,False
+CC6CA7620B36B41C,do you support economic intervention as a means of resolving international conflicts?,1,1,2,False,,,,False
+CC850415584F26D6,the federal government should consider race and gender in government contracting decisions.,1,1,2,False,,,,False
+CCC762105001CFFE,prohibit political action committee (pac) contributions to candidates for federal office.,4,0,2,False,,,,False
+CCF484792879BB5D,do you support requiring individuals to purchase health care insurance?,2,20,2,False,,,,False
+CD1648665197B3CA,the federal government should consider preferences to minority-owned businesses in granting government contracts.,1,0,2,True,social_ideology,-1.0,True,False
+CD32E257835C5EE4,eliminate government-funded welfare programs.,3,36,2,False,,,,False
+CDC89CC2758A0601,the federal government should continue affirmative action programs.,2,2,2,False,,,,False
+CE0973CA85E077FE,increase funding of homeless shelters and low income housing projects.,1,0,2,False,,,,False
+CE64B623DB4C1E0C,support stem cell research on existing lines of stem cells.,1,2,2,True,healthcare_position,-1.0,True,False
+CE70A49882C863B6,allow doctors to prescribe marijuana to their patients for medicinal purposes.,2,11,2,False,,,,False
+CE9859AEB7377F63,decrease benefits paid to retirees.,1,0,2,False,,,,False
+CF0BBD323D406930,"should the united states be involved in bringing an end to the violence in darfur, sudan?",1,1,2,False,,,,False
+CF3DFA6B6BBC584F,should the united states maintain its troop levels in iraq?,1,1,2,False,,,,False
+CF3EC0F5F7D0E721,allow law-abiding citizens to carry concealed firearms that are legally owned and registered.,1,0,2,False,,,,False
+CF4A0126230669D1,limit social security benefits based on recipients' other income and assets.,1,0,2,False,,,,False
+CF8303172E4119B3,aid programs should be scaled back and eventually eliminated.,1,1,2,False,,,,False
+CFA352CA9A3DABE1,should the federal government increase funding to states and cities for homeland security?,2,3,2,True,nonideological,0.0,False,False
+CFAA6B81A72C51A1,"support ""buffer-zones"" by requiring demonstrators to stay at least five feet from abortion clinic doorways and driveways.",1,0,2,True,social_ideology,-1.0,True,False
+D056C0406A67D561,support the right of workers to unionize.,1,0,2,False,,,,False
+D0AF6AAAD822B771,overhaul the current unemployment system by focusing on training and education in skills needed in certain industries.,1,0,2,False,,,,False
+D14A50C31ACCD498,"impose regulations on ""spam"" emails.",1,1,2,False,,,,False
+D14C330823A10BC9,military space shuttle missions,2,2,2,False,,,,False
+D156C0A967CA05A4,make no substantial changes at this time.,1,0,2,False,,,,False
+D1B68FD65976163F,support granting states limited control over head start programs.,1,1,2,False,,,,False
+D209B16A9F175D66,legalize physician assisted suicide in alabama.,1,2,2,True,healthcare_position,-1.0,True,False
+D2E186455175494F,medical expense deductions,2,2,2,True,economic_ideology,-1.0,True,False
+D3A659F9906FA181,should fee increases be used to balance the state budget?,1,39,2,False,,,,False
+D44A66199A838832,do you support state funding for improvements to alabama's energy infrastructure?,3,26,2,False,,,,False
+D4823F880F69312C,other or expanded categories:,1,0,2,False,,,,False
+D494E217A53950FA,expand the nationwide ban on the sale or transfer of assault weapons to include all forms of semi-automatic weapons.,1,0,2,False,,,,False
+D678809E405ED181,environmental cleanup,1,1,2,False,,,,False
+D6912D5F85D3C988,do you support replacing the us income tax structure with a flat income tax?,1,1,2,True,economic_ideology,-1.0,True,False
+D74176E7AE0FEFA8,should illegal immigrants who graduate from alabama high schools be eligible for in-state tuition at public universities?,3,29,2,True,education_position,-1.0,True,False
+D752EBFF3CF6AC5C,abortions should be legal in all circumstances as long as the procedure is completed within the first trimester of pregnancy.,1,0,2,False,,,,False
+D7915D3B7C780CC9,do you support building the keystone xl pipeline?,1,1,2,True,environment_position,-1.0,True,False
+D810AD19B1D4B293,do you support the deployment of us troops to the former yugoslavia?,1,1,2,False,,,,False
+D81592FA8023E11C,allow 55-65 year-olds to buy into medicare.,1,1,2,True,healthcare_position,-1.0,True,False
+D87E4EB913899959,political party,3,29,2,False,,,,False
+D8A0B7A1E0F9FFCC,"should the united states use military force to prevent governments hostile to the u.s. from possessing a weapon of mass destruction (for example: nuclear, biological, chemical)?",1,1,2,False,,,,False
+D9298A10D1B07358,other,3,0,2,False,,,,False
+D93BF575632985D8,do you support expanding paid family and/or medical leave benefits (e.g. maternity leave)?,1,1,2,True,healthcare_position,-1.0,True,False
+D9CED0C694E028B4,support funding for open space preservation.,1,20,2,True,environment_position,-1.0,True,False
+DA1365C89E69FCF9,"ban the sale, ownership or possession of handguns except by law enforcement and other government officials.",1,0,2,False,,,,False
+DA61E5C47E009AF4,do you support the cooperative threat reduction programs with russia to prevent the spread of nuclear weapons to unfriendly nations?,1,1,2,False,,,,False
 DAB7B121DB77844F,provide increased funding for agricultural and forestry research.,1,46,2,False,,,,False
+DABD019C0FE38B50,should the u.s. recognize and extend full diplomatic relations to taiwan?,1,1,2,False,,,,False
+DBA3ADFF58F0E88D,do you support limits on the number of terms for alabama state legislators?,2,23,2,False,,,,False
 DBC2BE2449D3C1B6,support state-funded merit scholarships for alabama students to attend college in alabama.,1,48,2,False,,,,False
+DBCFBDC757BC26B3,tax cuts,1,1,2,False,,,,False
+DC8B01CC084F0E43,"increase the eligibility of legal immigrants for certain social programs (e.g. public housing, food stamps).",1,0,2,False,,,,False
+DC8DDD56B1E19B2F,do you support enacting environmental regulations aimed at reducing the effects of climate change?,2,23,2,True,environment_position,-1.0,True,False
+DCA225C991908177,do you support allowing doctors to prescribe marijuana to their patients for medicinal purposes?,3,29,2,True,healthcare_position,-1.0,True,False
+DD1DCE1EC3DBA434,should a married couple filing jointly pay the same taxes as if they were an unmarried couple filing separately?,2,3,2,False,,,,False
+DD858D7B08BFDA0D,criminalize the employment of an undocumented immigrant in alabama.,1,27,2,False,,,,False
+DD9AC8AD36A6EE22,support public taxpayer funding for federal candidates who comply with campaign spending limits.,1,1,2,False,,,,False
+DDBC81D6C74FB6CD,allow workers to invest a portion of their payroll tax in private accounts managed by private firms contracted by the government.,2,0,2,False,,,,False
+DE05EAC13320004C,"$100,001-$180,000",1,0,2,False,,,,False
+DEFEA0C9A2822F24,support international mandatory emission targets to limit global warming.,1,0,2,False,,,,False
+DF3278ADAB7D2642,do you support federal spending as a means of promoting economic growth?,2,2,2,False,,,,False
+DF35CAB2B386E152,do you support providing financial incentives to farms that produce biofuel crops?,2,23,2,False,,,,False
+DF76AF2DD0B35006,economic aid to russia and the former republics should be decreased and/or eliminated.,1,0,2,False,,,,False
+DF830BAB06565F1C,"remove all contribution limits on federal candidates and parties, but require complete and immediate disclosure via the internet.",1,0,2,False,,,,False
+DFB3FCA37BD5686A,job training,1,1,2,False,,,,False
+DFE73FCF3CBD5D77,"support legislation that would protect manufacturers, distributors, dealers, and importers of firearms from civil lawsuits by crime victims.",1,2,2,False,,,,False
+E018DF1B2734135F,aid should be granted to countries when extraordinary circumstances cause disaster and threaten civilian lives.,2,3,2,False,,,,False
+E096FDD4550F5DC4,increase penalties for selling illegal drugs.,2,1,2,False,,,,False
+E10DB080C8EBE4A8,the us should pay the money it owes to the united nations.,1,0,2,True,economic_ideology,-1.0,True,False
+E149D08DCB277E8E,"on an attached page, disk, or via email, please explain in a total of 75 words or less, your top two or three priorities if elected. if they require additional funding for implementation, please explain how you would obtain this funding.",1,0,2,False,,,,False
+E1B2176050C2EA34,do you support providing financial relief to businesses and/or corporations negatively impacted by the state of national emergency for covid-19?,1,6,2,False,,,,False
+E1B7BBB24A058BF5,should the possession of small amounts of marijuana be decriminalized?,2,23,2,False,,,,False
+E1DA54C8BBBFA9CC,should the united states support the creation of a palestinian state?,2,3,2,False,,,,False
+E26913E2331E9D96,should a minor who sends sexually-explicit or nude photos by cell phone face criminal charges?,3,27,2,False,,,,False
+E349685D5C7CD386,allow ads paid for by soft money that support or attack a candidate for federal office.,1,2,2,False,,,,False
+E34B415E87A3EABF,should the united states withdraw its troops from iraq?,2,3,2,False,,,,False
+E3D8A795EEBBE8B3,aids programs,1,1,2,False,,,,False
+E3DC4D68FDB9F2E7,decrease interest rates of stafford loans.,1,1,2,False,,,,False
+E4391551F1553D5D,"do you support increased regulations on the hydraulic fracturing (""fracking"") industry?",1,1,2,True,environment_position,-1.0,True,False
+E4733C7AB98CBE53,the federal government should prosecute cases of discrimination in the public sector.,1,0,2,False,,,,False
+E4FDCADC0E516377,increase penalties for crimes committed on school grounds.,1,0,2,False,,,,False
+E50BD2DDE3B925A5,"do you generally support removing barriers to international trade (for example: tariffs, quotas, etc.)?",1,1,2,False,,,,False
+E5114A18B899DDEF,"in order to balance the budget, do you support an income tax increase on any tax bracket?",2,2,2,True,economic_ideology,-1.0,True,False
+E5625EDF7C3115ED,charitable contribution deduction,1,0,2,False,,,,False
+E62F9FFB7DF94F02,support the separation of the ins into two bureaus: one administering naturalization and one administering border patrol.,1,0,2,False,,,,False
+E708828032EA4D55,"should the united states grant law enforcement agencies greater discretion to read mail and email, tap phones, and conduct random searches to prevent future terrorist attacks?",1,2,2,False,,,,False
+E74345BF32527BEB,require background checks of gun buyers at gun shows.,1,1,2,False,,,,False
+E7AE8035BAD7BF1B,space exploration,1,1,2,False,,,,False
+E863666DD266F5EA,"children of illegal immigrants, born in the united states, should not automatically receive us citizenship.",1,0,2,False,,,,False
+E90344D88AFC4B0F,"support the use of ""boot camps"" as alternative sentencing for adult first-time felons.",1,1,2,False,,,,False
+E90D1F2E9DA84B7E,"should the united states increase its financial support to colombia to combat ""the war on drugs""?",1,2,2,False,,,,False
+E91B67EEF03FE81A,do you support the removal of confederate monuments from public spaces in alabama?,1,5,2,True,social_ideology,-1.0,True,False
 E9A927D1C962C4CD,do you support the inclusion of gender identity in alabama's anti-discrimination laws?,5,50,2,True,social_ideology,-1.0,True,False
+EA2971826CAC8BA4,student loan tax credit,1,1,2,False,,,,False
+EA33918F6C0910B1,should the u.s use military force in order to prevent governments hostile to the united states from possessing a nuclear weapon?,1,0,2,False,,,,False
+EA6A28ABB32D50B9,national missile defense,2,3,2,False,,,,False
+EAA29B7658B27980,allow teachers and professionals to receive federal funding to establish charter or magnet schools.,1,1,2,False,,,,False
+EAC9C143108BFA46,decriminalize the possession and private use of marijuana.,1,0,2,False,,,,False
+EAEE875867E46BDF,other or expanded principles,4,1,2,False,,,,False
+EAF052E2D3D23DF1,should trade agreements include provisions to address environmental concerns and to protect workers' rights?,1,2,2,False,,,,False
+EB220CD69831B041,"require that crimes based on race, ethnic background, religious belief, sex, age, disability, or sexual orientation be prosecuted as hate crimes.",1,14,2,False,,,,False
+EBA134D42CF8EC29,other or expanded principles:,31,0,2,False,,,,False
+EBA997BDFCA714D4,revise the 1872 mining law to increase the amounts charged to mining companies using federal lands.,1,0,2,False,,,,False
+EBB65A20E59E68CF,programs to improve troop retention rates,2,3,2,False,,,,False
+EBDFF548D6C0D0DB,"increase funding for school capital improvements (e.g. buildings, infrastructure, technology).",1,1,2,False,,,,False
+EBFDF0DBE71BA835,increase funding for national job-training programs that retrain displaced workers or teach skills needed in todays job market.,1,1,2,False,,,,False
+EC2E080BAB87B243,do you support broadening nafta to include other countries?,1,1,2,False,,,,False
+EC40EFCC07B0AC2A,"do you support state funding for the development of traditional domestic energy sources (e.g. coal, natural gas, oil)?",3,28,2,False,,,,False
+ECA1CBA52B726288,support housing assistance for low-income families.,1,1,2,False,,,,False
+ECFD0A7495563362,mortgage deduction,2,2,2,False,,,,False
+ECFE43ADFD3AD670,reduce government regulation of the private sector.,1,1,2,False,,,,False
+EE18B902AB2076D6,troop and equipment readiness,3,3,2,False,,,,False
+EEAF2D84AAADE3D4,provide vouchers to the working poor so they can buy into a private health care plan.,1,0,2,False,,,,False
+EFB32A9266D37779,the u.s. should not commit military troops to united nations peacekeeping missions.,1,0,2,False,,,,False
+EFC76F9929B71ACA,providing healthcare is not a responsibility of the federal government.,1,0,2,False,,,,False
+F0EDCE818972C0DD,"require that crimes based on gender, sexual orientation or disability be prosecuted as hate crimes.",1,12,2,False,,,,False
+F13717986136D850,should citizens be allowed to carry concealed guns?,1,4,2,True,guns_position,-1.0,True,False
+F13B8411ECFE4846,support mandatory jail sentences for selling illegal drugs.,3,3,2,False,,,,False
+F152579408A03850,ease citizenship requirements in order to make it easier for immigrants to become united states citizens.,1,0,2,False,,,,False
+F16730192CB05B89,impose a two-year limit on welfare benefits for recipients who are able to work.,1,1,2,False,,,,False
+F20937CFF57ABA9E,other of expanded principles,1,1,2,True,social_ideology,-1.0,True,False
+F22A722C36627BA3,establish limits on the amount of damages awarded in medical malpractice lawsuits.,1,0,2,False,,,,False
+F3712720B27C3D38,law enforcement (state),1,1,2,False,,,,False
+F3A3007AFA39C821,should the united states apply greater economic and diplomatic sanctions against north korea if it fails to abide by its agreement to suspend its nuclear program?,1,1,2,False,,,,False
+F3EA03B27FFBD18E,do you support a decrease in income taxes in order to balance the budget?,1,1,2,False,,,,False
+F51FCF568F985465,eliminate any federal programs designed to reduce unemployment.,1,0,2,False,,,,False
+F6061D8DAEA9B022,should the united states use military force to destroy the north korean nuclear weapons program?,1,2,2,False,,,,False
+F609956D9C231D77,transfer current medicaid recipients into managed care programs.,1,7,2,False,,,,False
+F60AEA3DC01B6737,support sex education programs which stress safe sexual practices.,1,7,2,False,,,,False
+F76B4AEC9DBA9377,relax standards on federal lands to allow increased recreational usage.,1,2,2,False,,,,False
+F7BE8F0FECEEA96E,would you cut taxes if there were an operating surplus?,1,1,2,False,,,,False
+F90266594B8DFF4C,medical expense deduction,2,2,2,False,,,,False
+F91A7D1DF641F6AE,should the federal government regulate internet gambling?,1,1,2,True,social_ideology,-1.0,True,False
+F92066B40462BC2D,increase state funding for additional security of critical infrastructure against terrorist attacks.,1,28,2,False,,,,False
+F95918FECC7B430D,"medicare, medicaid, and federal subsidies should be prohibited from being used on abortion procedures.",1,1,2,False,,,,False
+F96074E72C11F50B,give states added flexibility from the federal government in enforcing and funding federal environment regulations.,1,0,2,False,,,,False
+F9C8E6C2796F9E40,do you support a federal constitutional amendment defining marriage as between a man and a woman?,1,1,2,False,,,,False
+F9D809C7D1E34C9D,implement enterprise zones in communities with high unemployment.,1,1,2,False,,,,False
+FA0533AB564F1E3A,implement regulation of internet content by the federal government.,1,1,2,False,,,,False
+FA16F4E4A53385A1,foreign aid should be given to countries only when it is in the security interests of the united states.,1,0,2,False,,,,False
+FAABB64789AB7F96,"family income $75-150,000",1,1,2,False,,,,False
+FAABDBE1946DD504,should the united states increase financial support for afghanistan?,1,1,2,False,,,,False
+FAD8747DB55D4EEF,do you support using military tribunals to try suspected terrorists when ordinary civilian courts are deemed inappropriate or impractical?,2,3,2,False,,,,False
+FB67C0CB7390D419,discuss your proposals for the reconstruction of iraq. what funding sources would you use to implement these proposals? (75 words or less. please use an attached page if the space below is not adequate.),1,0,2,False,,,,False
+FD06AB43224C339F,national missile defense program,1,1,2,False,,,,False
+FD382A1376A99C34,do you support the national common core state standards initiative?,1,4,2,False,,,,False
+FD6CD4F5E954DFF8,instituting mandatory furloughs and/or layoffs for state employees?,1,18,2,False,,,,False
+FDE8FDD1B1A348B0,instituting mandatory furloughs and/or layoffs for state employees,1,5,2,False,,,,False
+FE51D32A5D4D6537,development of new weapons,1,1,2,False,,,,False
+FE8022B6317E1309,"$180,001-$350,000",1,0,2,False,,,,False
+FF191E472737AC82,change the endangered species act of 1973 to limit the number of habitats eligible to be designated as endangered.,1,0,2,False,,,,False

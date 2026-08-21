@@ -27,20 +27,25 @@ unavailable and its presidential-trend field is deliberately null.
   Alabama county workbooks, with no unmatched candidates or vote differences.
 
 The headline **Total CMO** specification is a ridge regression of legislative
-margin minus a same-cycle statewide ballot index on incumbency, prior
-presidential margin and trend, demographics, cycle, and chamber. A separately
-published **resource-adjusted CMO** adds spending and finance completeness.
-Incumbency enters as two separate indicators, `dem_incumbent` and
-`rep_incumbent`, rather than a single signed `dem_incumbent - rep_incumbent`
-term. An unconstrained OLS check found the two effects are not mirror images:
-Democratic incumbency is associated with roughly +14 points of
-overperformance (highly significant), while Republican incumbency is
-associated with about -3 points and is not statistically significant. Forcing
-a single symmetric coefficient understated the Democratic incumbency effect
-and overstated the Republican one; splitting the term removed most of the
-leftover incumbency-correlated bias in the WAR residuals (group-mean bias
-dropped from -2.15/+0.32/+3.95 points across Republican-incumbent/open/
-Democratic-incumbent races to -0.50/-0.26/+1.41).
+margin minus a same-cycle statewide ballot index on prior presidential margin
+and trend, demographics, cycle, and chamber. It deliberately excludes
+incumbency and prior candidate performance. Strong candidates often acquire
+incumbency by overperforming enough to win; rerunning, surviving, and deterring
+challengers further select the incumbent pool. Conditioning the headline score
+on incumbency would therefore remove part of the candidate-strength phenomenon
+being measured.
+
+The separate **Predictive Total** specification retains party-specific
+`dem_incumbent` and `rep_incumbent` indicators because they can improve outcome
+prediction without being interpreted causally. Earlier diagnostics found that
+the two incumbent associations were not mirror images: Democratic incumbency
+was associated with roughly +14 points of raw overperformance, while Republican
+incumbency was associated with about -3 points and was not statistically
+significant. Those figures describe a selected cross-section, not the causal
+effect of taking office. The candidate-history sensitivity further decomposes
+the process into strictly lagged prior CMO, prior winner and contest status,
+first-term versus established incumbency, cycle gap, and prior incumbent
+appearances. See `CMO_HYPOTHESIS_REGISTRY.md` for the complete framework.
 
 `white_college_share` is now pulled directly from ACS table C15002H (White
 alone, not Hispanic or Latino, by sex by educational attainment) instead of

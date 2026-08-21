@@ -28,6 +28,7 @@ PRES = ROOT / "data" / "processed" / "presidential"
 DEM = ROOT / "data" / "processed" / "demographics"
 POLLING = ROOT / "data" / "processed" / "polling"
 FORECAST = WAR / "2026_prospective_features_and_forecast.csv"
+BASE_FEATURES = WAR / "2026_prospective_baseline_features.csv"
 LEGACY = WAR / "2026_prospective_features_and_forecast_legacy_core_20260815.csv"
 RNG_SEED = 20260815
 
@@ -329,18 +330,20 @@ def main() -> None:
     test["model_status"] = "baseline_first_experimental"
     test, seats = simulate(test.reset_index(drop=True), errors)
     test["predicted_winner"] = np.where(test.predicted_dem_margin.gt(0), "D", "R")
-    seats.to_csv(WAR / "2026_correlated_seat_simulation.csv", index=False)
+    # This file is an auditable baseline/scenario input to model selection. The
+    # tournament publishes the canonical forecast, decomposition, and seats.
     decomposition = test[["chamber", "district", "structural_2024_pres_margin", "environment_adjustment",
                           "baseline_forecast_margin", "incumbency_adjustment", "demographic_residual_adjustment",
                           "cmo_adjustment", "finance_adjustment", "cmo_scenario_adjustment",
                           "scenario_finance_scenario_adjustment", "predicted_dem_margin", "dem_win_probability",
                           "selected_specification", "selection_reason"]]
-    decomposition.to_csv(WAR / "2026_forecast_decomposition.csv", index=False)
-    test.to_csv(FORECAST, index=False)
+    test["model_status"] = "preselection_baseline_features"
+    test.to_csv(BASE_FEATURES, index=False)
     print(summary.to_string(index=False))
     print("\nSD-2 decomposition")
     print(decomposition[(decomposition.chamber.eq("senate")) & (decomposition.district.eq(2))].to_string(index=False))
-    print(f"\nArchived legacy forecast: {LEGACY.name}; scored {len(test)} D-R races")
+    print(f"\nBaseline features: {BASE_FEATURES.name}; scored {len(test)} D-R races")
+    print("Run run_forecast_experiment_tournament.py to publish the canonical forecast.")
 
 
 if __name__ == "__main__":

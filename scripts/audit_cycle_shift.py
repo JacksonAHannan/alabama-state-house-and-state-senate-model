@@ -18,6 +18,10 @@ def main() -> None:
         "nonwhite_share", "white_college_share", "log_spending_ratio_d_to_r",
         "war_residual_oof", "war_residual_loco",
     ]
+    # The current CMO decomposes incumbency into separate Democratic and
+    # Republican indicators; retain compatibility with older snapshots without
+    # requiring their retired net-advantage column.
+    measures = [column for column in measures if column in races.columns]
     summary = (races.groupby("cycle")[measures]
                .agg(["count", "mean", "median", "std"])
                .stack(level=0, future_stack=True).reset_index()

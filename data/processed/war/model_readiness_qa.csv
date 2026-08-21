@@ -1,15 +1,15 @@
 section,check,value,passed,note
 features,unique_cycle_chamber_district,0.0,True,Duplicate count; must equal zero.
 features,all_eight_cycle_source_rows_present,1055.0,True,"Expected the audited canonical source universe for every cycle, 1994-2022."
-eligibility,eligible_race_count,511.0,True,Contested D-R races only; expected dynamically from race_results (511).
-eligibility,scores_only_on_eligible_races,511.0,True,
+eligibility,eligible_race_count,509.0,True,Contested D-R races only; expected dynamically from race_results (509).
+eligibility,scores_only_on_eligible_races,509.0,True,
 scores,eligible_score_fields_complete,0.0,True,Missing cells across score and uncertainty fields.
 scores,stability_bands_ordered,0.0,True,"These are cross-cycle sensitivity bands, not confidence intervals."
 scores,candidate_scores_are_zero_sum,0.0,True,Maximum absolute D+R score.
 scores,candidate_stability_band_order,0.0,True,
-coverage,core_baseline_complete_eligible,511.0,True,100.0% complete.
-coverage,finance_complete_eligible,282.0,False,55.2% complete; model includes missingness flag.
+coverage,core_baseline_complete_eligible,509.0,True,100.0% complete.
+coverage,finance_complete_eligible,352.0,False,69.2% complete; model includes missingness flag.
 source_validation,2018_candidate_totals_match_official_workbooks,204.0,True,Exact candidate vote matches out of 204 modeled candidates.
-validation,random_fold_oof_r2_positive,0.3207294664307318,True,
-validation,leave_cycle_out_r2_nonnegative,0.1681750118692838,True,A failure means the model should not be described as validated across unseen eras.
-validation,headline_beats_naive_random_fold_mae,4.275188348954794,True,Positive value is MAE improvement over a training-mean benchmark.
+validation,random_fold_oof_r2_positive,0.1669854332038858,True,
+validation,leave_cycle_out_r2_nonnegative,0.0583351401306797,True,A failure means the model should not be described as validated across unseen eras.
+validation,headline_beats_naive_random_fold_mae,2.300670554193621,True,Positive value is MAE improvement over a training-mean benchmark.

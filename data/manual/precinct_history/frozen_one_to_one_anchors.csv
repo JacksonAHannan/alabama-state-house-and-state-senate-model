@@ -1,0 +1,833 @@
+cycle,county_key,precinct_key,donor_vtd_id,donor_name,donor_vintage,name_match_method,name_match_score,name_match_margin
+1994,BIBB,BRENT-NORTH,VTD2000-007-9,Brent National Guard Armory,2000,adjacent_cycle_alias_graph,,99.9999999999998
+1994,BIBB,BRENT-SOUTH,VTD2000-007-13,Brent-James Lot,2000,adjacent_cycle_alias_graph,,99.99999999999982
+1994,BIBB,CEDAR GROVE,VTD2000-007-2,Cedar Grove Fire Dept.,2000,fuzzy_name,90.0,47.142857142857146
+1994,BIBB,CENTERVILLE,VTD2000-007-5,Centerville City Hall,2000,fuzzy_name,90.0,26.470588235294123
+1994,BIBB,CENTERVILLE-CENTRAL,VTD2000-007-14,Rock Building,2000,adjacent_cycle_alias_graph,,100.00000000000024
+1994,BIBB,EOLINE,VTD2000-007-12,Eoline Fire Dept.,2000,fuzzy_name,90.0,40.909090909090914
+1994,BIBB,FURNACE,VTD2000-007-6,Furnace-Brierfield Park-Mulberry Church,2000,fuzzy_name,90.0,24.23076923076924
+1994,BIBB,GREENPOND,VTD2000-007-1,Green Pond Fire Dept.,2000,adjacent_cycle_alias_graph,,99.9985791153334
+1994,BIBB,HARRISBURG,VTD2000-007-4,Harrisburg School,2000,fuzzy_name,90.0,44.99999999999999
+1994,BIBB,PONDVILLE,VTD2000-007-3,Pondville School,2000,fuzzy_name,90.0,30.0
+1994,BIBB,RANDOLPH,VTD2000-007-7,Randolph Fire Dept.,2000,fuzzy_name,90.0,53.35714285714285
+1994,BIBB,TABERNACLE,VTD2000-007-8,Tabernacle Community Center,2000,fuzzy_name,90.0,37.05882352941176
+1994,BIBB,WEST BLOCTON-EAST,VTD2000-007-10,West Blocton Community Bldg.,2000,adjacent_cycle_alias_graph,,99.99999994741044
+1994,BIBB,WEST BLOCTON-WEST,VTD2000-007-11,West Blocton-District 1 Shop,2000,adjacent_cycle_alias_graph,,99.9999177411608
+1994,CHILTON,CANE CREEK- GAP OF MT. FIRE,VTD2000-021-120,Cane Creek Fire Station,2000,one_to_one_inventory_global_assignment,75.0,
+1994,CHILTON,CLANTON FACILITY BLDG.,VTD2000-021-260,Clanton Facility Bldg.,2000,exact_name,100.0,100.0
+1994,CHILTON,COLLINS CHAPEL- FIRE STA,VTD2000-021-210,Collins Chapel Fire Station,2000,fuzzy_name,92.0,28.363636363636367
+1994,CHILTON,COURTHOUSE- CLANTON,VTD2000-021-270,Clanton Courthouse,2000,fuzzy_name,95.0,34.545454545454554
+1994,CHILTON,ENTERPRISE- FIRE STATION,VTD2000-021-70,Enterprise Fire Station,2000,exact_name,100.0,100.0
+1994,CHILTON,FAIRVIEW- FIRE STATION,VTD2000-021-50,Fairview Fire Station,2000,exact_name,100.0,100.0
+1994,CHILTON,ISABELLA- FIRE STATION,VTD2000-021-220,Isabella Fire Station,2000,exact_name,100.0,100.0
+1994,CHILTON,JEMISON TOWN HALL,VTD2000-021-160,Jemison Town Hall,2000,exact_name,100.0,100.0
+1994,CHILTON,LIBRARY- CLANTON,VTD2000-021-250,Clanton Library,2000,fuzzy_name,95.0,9.5
+1994,CHILTON,MAPLESVILLE-OLD DEPOT,VTD2000-021-20,Maplesville,2000,fuzzy_name,90.0,48.13953488372093
+1994,CHILTON,MARS HILL- W CHILTON,VTD2000-021-180,Mars Hill Fire Station,2000,one_to_one_inventory_global_assignment,68.29268292682926,
+1994,CHILTON,PROVIDENCE- E CHILTON,VTD2000-021-170,Providence Fire Station,2000,one_to_one_inventory_global_assignment,74.4186046511628,
+1994,CHILTON,PROVIDENCE- N CHILTON,VTD2000-021-110,Providence,2000,fuzzy_name,90.0,20.232558139534888
+1994,CHILTON,SOUTH CHILTON FIRE STATION,VTD2000-021-30,So. Chilton Fire Station,2000,fuzzy_name,93.87755102040816,18.877551020408163
+1994,CHILTON,THORSBY TOWN HALL,VTD2000-021-200,Thorsby Town Hall,2000,exact_name,100.0,100.0
+1994,CHILTON,UNION GROVE- FIRE STATION,VTD2000-021-140,Union Grove Fire Station,2000,exact_name,100.0,100.0
+1994,CHILTON,VERBENA- FIRE STATION,VTD2000-021-90,Verbena Fire Station,2000,exact_name,100.0,100.0
+1994,CHILTON,VETERANS CLUB-CLANTON,VTD2000-021-240,Clanton Veteran's Club,2000,fuzzy_name,88.3720930232558,25.038759689922465
+1994,CLARKE,ALLEN/SUGGSVILLE,VTD2000-025-16,Community House,2000,one_to_one_inventory_global_assignment,32.25806451612904,
+1994,CLARKE,ANDERSON/SCYRENE,VTD2000-025-12,Garrick's Store-Nat'l Guard Armory,2000,one_to_one_inventory_global_assignment,45.0,
+1994,CLARKE,BASHI,VTD2000-025-20,Bashi Methodist Church,2000,fuzzy_name,90.0,36.0
+1994,CLARKE,CAMPBELL/MORVIN,VTD2000-025-19,Morvin Voting House,2000,one_to_one_inventory_global_assignment,54.285714285714285,
+1994,CLARKE,CARLTON,VTD2000-025-1,Goodhope AME Church-Fire Station,2000,one_to_one_inventory_global_assignment,60.00000000000001,
+1994,CLARKE,CHANCE,VTD2000-025-2,Sherman Grocery,2000,one_to_one_inventory_global_assignment,47.61904761904761,
+1994,CLARKE,CHILTON,VTD2000-025-21,Fire Station-National Guard Armory,2000,one_to_one_inventory_global_assignment,51.3,
+1994,CLARKE,COFFEEVILLE/W.BEND/CENTERPOINT,VTD2000-025-15,Hopewell Church,2000,one_to_one_inventory_global_assignment,40.0,
+1994,CLARKE,GAINESTOWN/CHOCTAW BLUFF,VTD2000-025-9,Fire Station,2000,one_to_one_inventory_global_assignment,51.3,
+1994,CLARKE,GOSPORT,VTD2000-025-6,Gosport Fire Station,2000,fuzzy_name,90.0,36.0
+1994,CLARKE,GROVEHILL/ANTIOCH/ALLEN/HELLWESTERN,VTD2000-025-4,Overstreet Grocery,2000,one_to_one_inventory_global_assignment,38.0,
+1994,CLARKE,JACKSON/CITY HALL/RESCUE SQUAD,VTD2000-025-3,City Hall,2000,fuzzy_name_district_constraint,90.0,100.00000000000038
+1994,CLARKE,LIBERTY/FULTON/GREENWOOD,VTD2000-025-18,Old Fulton School,2000,one_to_one_inventory_global_assignment,53.65853658536586,
+1994,CLARKE,MCVAY/PARKERTOWN/JACKSON,VTD2000-025-14,National Guard Armory,2000,one_to_one_inventory_global_assignment,38.0,
+1994,CLARKE,SALIPTA,VTD2000-025-8,Alabama Sandblasting,2000,one_to_one_inventory_global_assignment,54.0,
+1994,CLARKE,TALLAHATTA SPRINGS,VTD2000-025-5,Voting House,2000,one_to_one_inventory_global_assignment,45.0,
+1994,CLARKE,THOMASVILLE,VTD2000-025-10,Courthouse-City Hall,2000,one_to_one_inventory_global_assignment,50.0,
+1994,CLARKE,THOMASVILLE/SPRINGFIELS,VTD2000-025-11,Voting House,2000,one_to_one_inventory_global_assignment,40.0,
+1994,CLARKE,WALKER SPRINGS,VTD2000-025-7,Skipper Fire Station-National Guard Armory,2000,one_to_one_inventory_global_assignment,42.75,
+1994,CLARKE,WHATLEY/GROVE HILL,VTD2000-025-13,High School Gym,2000,one_to_one_inventory_global_assignment,40.3030303030303,
+1994,CLARKE,WINN-ZIMCO,VTD2000-025-22,Old Fulton School,2000,one_to_one_inventory_global_assignment,40.0,
+1994,CULLMAN,ANTIOCH CTR.,VTD2000-043-10,Bremen Community Center,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,ARKADELPHIA CTR.,VTD2000-043-7,Arkadelphia Community Center,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,BAILEYTON T.H.,VTD2000-043-20-1,Baileyton Town Hall,2000,one_to_one_inventory_global_assignment,81.25,
+1994,CULLMAN,BALDWIN CTR.,VTD2000-043-8,Antioch Community Center,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,BATTLEGROUND F.D.,VTD2000-043-16,Battleground Fire Dept.,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,BERLIN CTR.,VTD2000-043-20-2,Brooklyn Community Center,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,BETHEL CTR.,VTD2000-043-11-2,Valley Grove Community Center,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,BETHSADIA F.D.,VTD2000-043-13,Bethsadia Fire Dept.,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,BOLTE-WHITE CHRC.,VTD2000-043-27,White City Community Center,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,BREMEN CTR.,VTD2000-043-14-2,Bethel Community Center,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,BROOKLYN CTR.,VTD2000-043-30-1,Kelley Community Center Box 1,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,BRUSHY POND CTR.,VTD2000-043-26,Brushy Pond Community Center,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,CENTER HILL CTR.,VTD2000-043-31,Center Hill Community Center,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,CIVIC CTR.,VTD2000-043-24,Walter Community Center,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,COLD SPRINGS F.D.,VTD2000-043-9,Cold Springs Fire Dept.,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,COLONY T.H.,VTD2000-043-6-2,Colony Town Hall,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,COURTHOUSE,VTD2000-043-35-2,East Point Water Tower,2000,one_to_one_inventory_global_assignment,42.35294117647059,
+1994,CULLMAN,COURTHOUSE BSMT.,VTD2000-043-36,Bolte-White Grove Church,2000,one_to_one_inventory_global_assignment,45.6,
+1994,CULLMAN,CRANE HILL F.D.,VTD2000-043-12,Crane Hill Fire Dept.,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,CULLMAN C.H.,VTD2000-043-1,Cullman,2000,fuzzy_name_district_constraint,90.0,99.99999999999989
+1994,CULLMAN,CULLMAN HTH. DEPT.,VTD2000-043-15-1,Jones Chapel Fire Dept.,2000,one_to_one_inventory_global_assignment,59.375,
+1994,CULLMAN,CULLMAN MIDDLE,VTD2000-043-34,Cullman County Health Dept.,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,DODGE CITY F.D.,VTD2000-043-2-2,Dodge City Fire Dept.,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,E. ELEMENTARY,VTD2000-043-17-3,West Point Fire Dept. Box 3,2000,one_to_one_inventory_global_assignment,52.5,
+1994,CULLMAN,E. POINT CTR.,VTD2000-043-19,Goldridge Community Center,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,FAIRVIEW F. D.,VTD2000-043-28,Fairview Fire Dept.,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,FAIRVIEW F.D.,VTD2000-043-22-1,Holly Pond Town Hall Box 1,2000,one_to_one_inventory_global_assignment,28.5,
+1994,CULLMAN,FRIENDSHIP CHRC.,VTD2000-043-17-2,Friendship Methodist Church,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,GARDEN C.T.H.,VTD2000-043-4,Garden City Town Hall,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,GOLD RIDGE CTR.,VTD2000-043-35-1,East Point Community Center,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,GOOD HOPE T.H.,VTD2000-043-2-1,Good Hope Town Hall,2000,one_to_one_inventory_global_assignment,81.25,
+1994,CULLMAN,GRANDVIEW CTR.,VTD2000-043-29-1,Grandview Community Center Box 1,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,HANCEVILLE C.H.,VTD2000-043-3-3,Hanceville City Hall Box 3,2000,one_to_one_inventory_global_assignment,82.35294117647058,
+1994,CULLMAN,HOLLY POND T. H.,VTD2000-043-22-2,Holly Pond Town Hall Box 2,2000,one_to_one_inventory_global_assignment,82.35294117647058,
+1994,CULLMAN,JONES CHPL. F.D.,VTD2000-043-15-2,Jones Chapel Fire Dept. Box 2,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,JOPPA,VTD2000-043-21-1,Joppa School,2000,fuzzy_name,90.0,38.57142857142858
+1994,CULLMAN,KELLEY CTR.,VTD2000-043-23,Berlin Community Center,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,LOGAN F.D.,VTD2000-043-14-1,Logan Fire Dept.,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,MOODY TOWN CHRC.,VTD2000-043-6-1,MoodyTown Union Hill Church,2000,one_to_one_inventory_global_assignment,72.0,
+1994,CULLMAN,NEW CANAAN BLDG.,VTD2000-043-21-2,New Canaan FMX Building,2000,fuzzy_name,95.0,50.81395348837209
+1994,CULLMAN,PROVIDENCE F.D.,VTD2000-043-18-2,Providence Fire Dept.,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,SIMCOE CTR.,VTD2000-043-32,Simcoe Community Center,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,STEPPVILLE F.S.,VTD2000-043-3-2,Steppville Fire Station,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,STOUTS MTN. CHRC.,VTD2000-043-5,Stouts Mountain Church,2000,one_to_one_inventory_global_assignment,81.08108108108108,
+1994,CULLMAN,TRIMBLE F.S.,VTD2000-043-11-1,Trimble Fire Station,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,VALLEY GR. CTR.,VTD2000-043-33,Baldwin Community Center,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,VMT./PROV. F.D.,VTD2000-043-18-1,Vinemont Providence Fire Dept.,2000,one_to_one_inventory_global_assignment,60.00000000000001,
+1994,CULLMAN,W. ELEMENTARY,VTD2000-043-3-1,Hanceville City Hall Box 1,2000,one_to_one_inventory_global_assignment,37.5,
+1994,CULLMAN,WALTER CTR.,VTD2000-043-30-2,Kelley Community Center Box 2,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,WELTI,VTD2000-043-25,Welti School,2000,fuzzy_name,90.0,30.0
+1994,CULLMAN,WEST POINT CTR.,VTD2000-043-17-1,West Point Fire Dept. Box 1,2000,one_to_one_inventory_global_assignment,85.5,
+1994,CULLMAN,WHITE CITY CTR.,VTD2000-043-29-2,Grandview Community Center Box 2,2000,one_to_one_inventory_global_assignment,85.5,
+1994,JACKSON,ASPEL,VTD2000-071-36,Aspel Water Board Bldg.,2000,fuzzy_name,90.0,18.0
+1994,JACKSON,BISHOP,VTD2000-071-19,Bishop-Hall's Store,2000,fuzzy_name,90.0,40.909090909090914
+1994,JACKSON,BRIDGEPORT,VTD2000-071-1,Bridgeport Community Center,2000,fuzzy_name,90.0,36.0
+1994,JACKSON,BRYANT,VTD2000-071-4,Bryant School,2000,fuzzy_name,90.0,38.7
+1994,JACKSON,COLLINS,VTD2000-071-18,Estill Fork,2000,one_to_one_inventory_global_assignment,27.692307692307693,
+1994,JACKSON,CROW,VTD2000-071-35,Crow Fire Hall,2000,fuzzy_name,90.0,30.0
+1994,JACKSON,DEAN,VTD2000-071-39,Dean's Chapel Community Center,2000,fuzzy_name,90.0,22.5
+1994,JACKSON,DUTTON,VTD2000-071-28,Dutton City Hall,2000,fuzzy_name,90.0,33.0
+1994,JACKSON,FACKLER,VTD2000-071-6,Flackler Fire Hall,2000,one_to_one_inventory_global_assignment,77.14285714285715,
+1994,JACKSON,FLAT ROCK,VTD2000-071-5,Flat Rock Ruritan Bldg.,2000,fuzzy_name_district_constraint,90.0,99.99997951986488
+1994,JACKSON,GARTH,VTD2000-071-26,Garth-Johnson's Store,2000,fuzzy_name,90.0,25.875
+1994,JACKSON,GROSS SPRING,VTD2000-071-20,Christain Home,2000,one_to_one_inventory_global_assignment,30.76923076923077,
+1994,JACKSON,HANDERICK,VTD2000-071-33,Hambrick Community Center,2000,one_to_one_inventory_global_assignment,63.52941176470588,
+1994,JACKSON,HIGDON,VTD2000-071-29,Higdon Rescue Squad Bldg.,2000,fuzzy_name,90.0,33.0
+1994,JACKSON,HOLLYSPRING,VTD2000-071-31,Holly Spring Baptist Church,2000,one_to_one_inventory_global_assignment,81.81818181818181,
+1994,JACKSON,HOLLYTREE,VTD2000-071-27,Hollytree-Morris's Store,2000,fuzzy_name,90.0,25.714285714285708
+1994,JACKSON,HOLLYWOOD,VTD2000-071-10,Hollywood City Hall,2000,fuzzy_name,90.0,23.499999999999982
+1994,JACKSON,HYTOP,VTD2000-071-25,Hytop Fire Hall,2000,fuzzy_name,90.0,36.0
+1994,JACKSON,LANGSTON,VTD2000-071-12,Langston City Hall,2000,fuzzy_name,90.0,33.0
+1994,JACKSON,LARKYSVILLE,VTD2000-071-14,Larkinsville Old School,2000,one_to_one_inventory_global_assignment,73.63636363636364,
+1994,JACKSON,LIMROCK,VTD2000-071-32,Limrock Fire Dept.,2000,fuzzy_name,90.0,37.38461538461539
+1994,JACKSON,LONG ISLAND,VTD2000-071-2,Long Island Community Center,2000,fuzzy_name,90.0,42.63157894736841
+1994,JACKSON,MACEDONIA,VTD2000-071-30,Macedonia School,2000,fuzzy_name,90.0,40.0
+1994,JACKSON,MINK CREEK,VTD2000-071-15,Mink Creek-Lakeview Store,2000,fuzzy_name,90.0,36.0
+1994,JACKSON,PAINT ROCK,VTD2000-071-23,Paint Rock Senior Citizen Center,2000,fuzzy_name_district_constraint,90.0,100.00000000000009
+1994,JACKSON,PISGUH,VTD2000-071-11,Pisgah Fire Hall,2000,one_to_one_inventory_global_assignment,75.00000000000001,
+1994,JACKSON,PRINCETON,VTD2000-071-34,Princeton Fire Hall,2000,fuzzy_name,90.0,33.0
+1994,JACKSON,ROSALEE,VTD2000-071-38,Rosalie School,2000,one_to_one_inventory_global_assignment,77.14285714285715,
+1994,JACKSON,SCOTTSBORO,VTD2000-071-21,Scottsboro Armory-City Hall,2000,fuzzy_name,90.0,42.0
+1994,JACKSON,SECTION,VTD2000-071-24,Section City Hall,2000,fuzzy_name,90.0,27.818181818181813
+1994,JACKSON,SKYLINE,VTD2000-071-22,Skyline City Hall,2000,fuzzy_name,90.0,38.57142857142858
+1994,JACKSON,STEVENSON,VTD2000-071-3,Stevenson City Park,2000,fuzzy_name,90.0,33.75
+1994,JACKSON,TRENTON,VTD2000-071-17,Trenton Fire Hall,2000,fuzzy_name,90.0,27.818181818181813
+1994,JACKSON,TUPELO,VTD2000-071-13,Tupelo-Pikeville Store,2000,fuzzy_name,90.0,30.0
+1994,JACKSON,WININGER,VTD2000-071-37,Letcher Fire Hall,2000,one_to_one_inventory_global_assignment,34.2,
+1994,JACKSON,WOODVILLE,VTD2000-071-16,Woodville City Hall,2000,fuzzy_name,90.0,37.38461538461539
+1994,MONTGMRY,ALA STATE UNIV,VTD2000-101-4-C,Alabama State University,2000,one_to_one_inventory_global_assignment,85.5,
+1994,MONTGMRY,ALCAZAR SHRINE TEMP,VTD2000-101-3-G,Alcazar Shrine Temple,2000,fuzzy_name,95.0,49.4
+1994,MONTGMRY,ALDERSGATE CHURCH,VTD2000-101-1-E,Aldersgate United Methodist Church,2000,one_to_one_inventory_global_assignment,85.5,
+1994,MONTGMRY,AUM,VTD2000-101-5-Q,Auburn University at Montgomery,2000,one_to_one_inventory_global_assignment,48.0,
+1994,MONTGMRY,BELLINGRATH COM CTR,VTD2000-101-4-L,Bellingrath Community Center,2000,fuzzy_name_district_constraint,88.0,99.99999895358668
+1994,MONTGMRY,BEULAH BAPTIST CHURCH,VTD2000-101-2-B,Beulah Baptist Church,2000,exact_name,100.0,100.0
+1994,MONTGMRY,BRANTLEY BANK,VTD2000-101-5-N,Ramer Library,2000,one_to_one_inventory_global_assignment,46.15384615384615,
+1994,MONTGMRY,CAPITAL CTY BOYS CL,VTD2000-101-4-A,Franklin Boys-Girls Club,2000,one_to_one_inventory_global_assignment,47.82608695652174,
+1994,MONTGMRY,CAPITOL HEIGHTS COMM,VTD2000-101-3-A,Capitol Heights Community Center,2000,fuzzy_name,95.0,32.95918367346939
+1994,MONTGMRY,CARVER HIGH SCHOOL,VTD2000-101-2-C,Carver High School,2000,exact_name,100.0,100.0
+1994,MONTGMRY,CATOMA SCHOOL,VTD2000-101-2-K,Catoma School,2000,exact_name,100.0,100.0
+1994,MONTGMRY,CHESSER COMM CENTER,VTD2000-101-5-J,Chesser Community Center,2000,exact_name,100.0,100.0
+1994,MONTGMRY,CHISHOLM ELEM SCHOOL,VTD2000-101-4-K,Chisholm Community Center,2000,one_to_one_inventory_global_assignment,59.607843137254896,
+1994,MONTGMRY,CLOVERDALE COMM CTR.,VTD2000-101-1-A,Cloverdale Community Center,2000,exact_name,100.0,100.0
+1994,MONTGMRY,EASTDALE BAPTIST CH,VTD2000-101-5-G,Eastdale Baptist Church,2000,exact_name,100.0,100.0
+1994,MONTGMRY,FITZPATRICK ELEM,VTD2000-101-5-E,Fitzpatrick Elementary School,2000,fuzzy_name,95.0,9.5
+1994,MONTGMRY,FLETA MASONIC LODGE,VTD2000-101-2-F,Fire Station No. 14,2000,one_to_one_inventory_global_assignment,43.24324324324324,
+1994,MONTGMRY,FLOWERS ELEM SCHOOL,VTD2000-101-3-E,Flowers Elementary School,2000,exact_name,100.0,100.0
+1994,MONTGMRY,FT. SHEPHERD ARMORY,VTD2000-101-5-K,Pintala Volunteer Fire Dept,2000,one_to_one_inventory_global_assignment,40.0,
+1994,MONTGMRY,GA WASHINGTON SCHOOL,VTD2000-101-5-R,1st Christian Church,2000,one_to_one_inventory_global_assignment,38.095238095238095,
+1994,MONTGMRY,GOODE ST SCHOOL,VTD2000-101-4-E,Goode Street School,2000,one_to_one_inventory_global_assignment,81.08108108108108,
+1994,MONTGMRY,GOODWYN COMM CENTER,VTD2000-101-3-F,Goodwyn Community Center,2000,exact_name,100.0,100.0
+1994,MONTGMRY,HAMNER HALL FIRE ST,VTD2000-101-4-D,Hamner Hall Fire Station,2000,fuzzy_name_district_constraint,91.30434782608695,100.0
+1994,MONTGMRY,HAYNEVILLE RD. COMM,VTD2000-101-2-G,Hayneville Road Community Center,2000,fuzzy_name,88.3720930232558,26.33127669672519
+1994,MONTGMRY,HIGHLAND AVE SCHOOL,VTD2000-101-1-B,Highland Avenue Elementary School,2000,fuzzy_name_district_constraint,85.5,63.36879865291312
+1994,MONTGMRY,HIGHLAND GARDENS,VTD2000-101-3-B,Highland Gardens Community Center,2000,fuzzy_name_district_constraint,90.0,100.00000000000004
+1994,MONTGMRY,HOPE HULL CHURCH,VTD2000-101-5-A,Hope Hull Church Of Christ,2000,fuzzy_name_district_constraint,90.0,99.99999962607733
+1994,MONTGMRY,HOUSTON HILLS COMM,VTD2000-101-4-B,Houston Hills Community Center,2000,fuzzy_name,95.0,29.693877551020407
+1994,MONTGMRY,HUNTER STATION COMM,VTD2000-101-2-J,Hunter Station Community Center,2000,fuzzy_name,95.0,22.2340425531915
+1994,MONTGMRY,JOHN PATTERSON SCHOOL,VTD2000-101-1-F,John Patterson Technical School,2000,fuzzy_name,95.0,9.5
+1994,MONTGMRY,KING HILL COMM CTR,VTD2000-101-4-G,King Hill Community Center,2000,exact_name,100.0,100.0
+1994,MONTGMRY,LAGOON PARK FIRE ST,VTD2000-101-3-D,Lagoon Park Fire Station,2000,fuzzy_name_district_constraint,91.30434782608695,99.999999935761
+1994,MONTGMRY,LAPINE COMM CENTER,VTD2000-101-5-M,Lapine Community Center,2000,exact_name,100.0,100.0
+1994,MONTGMRY,LIBRARY COLISEUM BR,VTD2000-101-3-C,Coliseum Blvd Library,2000,one_to_one_inventory_global_assignment,86.85714285714286,
+1994,MONTGMRY,MCINTYRE COMM CTR,VTD2000-101-4-M,McIntyre Community Center,2000,exact_name,100.0,100.0
+1994,MONTGMRY,MONTGOMERY BOYS CLUB,VTD2000-101-2-D,Montgomery Boys Club,2000,exact_name,100.0,100.0
+1994,MONTGMRY,MONTGOMERY MUS FINE ART,VTD2000-101-1-G,Montgomery Museum Of Fine Arts,2000,fuzzy_name_district_constraint,86.79245283018868,99.999999180229
+1994,MONTGMRY,NEWELL BROS CONS CO,VTD2000-101-5-B,Snowdoun Womens Club,2000,one_to_one_inventory_global_assignment,46.51162790697675,
+1994,MONTGMRY,NEWTOWN COMM CENTER,VTD2000-101-4-F,Newtown Community Center,2000,exact_name,100.0,100.0
+1994,MONTGMRY,NO MONTGY COMM CNTR,VTD2000-101-4-H,North Montgomery Community Center,2000,fuzzy_name_district_constraint,88.13559322033898,99.99999977024336
+1994,MONTGMRY,NORMANDALE LIBRARY,VTD2000-101-2-A,Bryant Missionary Baptist Church,2000,one_to_one_inventory_global_assignment,41.142857142857146,
+1994,MONTGMRY,PETER CRUMP ELEM,VTD2000-101-5-D,Peter Crump School,2000,one_to_one_inventory_global_assignment,72.06896551724137,
+1994,MONTGMRY,PETERSON ELEM SCHOOL,VTD2000-101-2-E,Peterson Elementary School,2000,exact_name,100.0,100.0
+1994,MONTGMRY,PIKE ROAD LIBRARY,VTD2000-101-5-I,Pike Road Library,2000,exact_name,100.0,100.0
+1994,MONTGMRY,SETH JOHNSON ELEM,VTD2000-101-5-C,Seth Johnson Elementary School,2000,fuzzy_name,95.0,25.204081632653057
+1994,MONTGMRY,SIKES & KOHNS MALL,VTD2000-101-5-P,Sikes & Kohn Country Mall,2000,one_to_one_inventory_global_assignment,80.85106382978724,
+1994,MONTGMRY,SNOWDOUN WOMENS CLB,VTD2000-101-5-H,Georgia Washington School,2000,one_to_one_inventory_global_assignment,36.36363636363637,
+1994,MONTGMRY,SO MONTGOMERY FIRE DEPT.,VTD2000-101-5-O,South Montgomery Volunteer Fire Dept,2000,fuzzy_name_district_constraint,89.81818181818181,99.99999992089978
+1994,MONTGMRY,SOUTHEAST YMCA,VTD2000-101-1-D,Southeast YMCA,2000,exact_name,100.0,100.0
+1994,MONTGMRY,SOUTHLAWN ELEM SCHOOL,VTD2000-101-2-I,Southlawn Elementary School,2000,exact_name,100.0,100.0
+1994,MONTGMRY,TECHNACENTER,VTD2000-101-5-F,Technacenter,2000,exact_name,100.0,100.0
+1994,MONTGMRY,UNION ACADEMY BAPT,VTD2000-101-4-I,Union Academy Baptist Church,2000,fuzzy_name,95.0,9.5
+1994,MONTGMRY,UNION CHAPEL AME ZI,VTD2000-101-4-J,Union Chapel AME Church,2000,one_to_one_inventory_global_assignment,86.85714285714286,
+1994,MONTGMRY,VAUGHN RD ELEM SCHOOL,VTD2000-101-1-C,Vaughn Park Church Of Christ,2000,one_to_one_inventory_global_assignment,47.27272727272728,
+1994,MONTGMRY,WARES FERRY RD ELEM,VTD2000-101-3-H,Wares Ferry Road Elementary School,2000,fuzzy_name,88.93617021276596,28.13617021276596
+1994,MONTGMRY,WM. HARRISON ELEM,VTD2000-101-2-H,Harrison Elementary School,2000,fuzzy_name_district_constraint,88.04878048780488,99.9999999119652
+1994,MORGAN,10001,VTD2000-103-8-1,Lacey's Spring Comm Center,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,1001,VTD2000-103-16-1,Trinity Municipal Building,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,11001,VTD2000-103-27-1,Gum Pond Fire Station,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,12001,VTD2000-103-5-1,Priceville Fire Station,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,13001,VTD2000-103-7-1,Outreach Ministries Of Ala,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,14001,VTD2000-103-19-1,Danville Volunteer Fire Station,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,15001,VTD2000-103-2-1,Flint Elementary School,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,15002,VTD2000-103-15-2,John J Thompson Post 52,2000,one_to_one_inventory_global_assignment,60.0,
+1994,MORGAN,16001,VTD2000-103-14-1,Sparkman Elem School,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,17001,VTD2000-103-13-1,Somerville Town Hall,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,18001,VTD2000-103-12-1,Union Church Of Christ,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,19001,VTD2000-103-20-1,Massey Club House,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,20001,VTD2000-103-28-1,Lebanon Baptist Church,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,2001,VTD2000-103-21-1,Falkville Municipal Building,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,21001,VTD2000-103-22-1,Dist No 3 Shop Building,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,22001,VTD2000-103-3-9,American Legion Building,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,23001,VTD2000-103-11-1,Morgan Co Dist 4 Shop Bldg,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,24001,VTD2000-103-9-1,Union Hill Jr High School,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,25001,VTD2000-103-23-1,Oden Ridge Volunteer Fire Dept,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,26001,VTD2000-103-24-1,Brewer High School,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,27001,VTD2000-103-10-1,Tri-County Volunteer Fire Dept,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,28001,VTD2000-103-6-1,Center Springs Methodist Church,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,30001,VTD2000-103-3-4,Decatur High School,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,3001,VTD2000-103-3-15,Frances Nungester Elem School,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,3002,VTD2000-103-3-14,Chestnut Grove Elem School,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,3003,VTD2000-103-3-16,Cedar Ridge Middle School,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,3004,VTD2000-103-3-5,Somerville Rd Elem School,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,3005,VTD2000-103-3-8,Austinville Elem School,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,3006,VTD2000-103-3-11,Benjamin Davis Elem School,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,3007,VTD2000-103-3-1,Morgan Co Courthouse,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,3008,VTD2000-103-3-3,Decatur Utilities Auditorium,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,3009,VTD2000-103-15-1,John J Sparkman Civic Center,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,3010,VTD2000-103-3-10,Julian Harris Elem School,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,3011,VTD2000-103-3-6,Woodmeade Elem School,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,3012,VTD2000-103-3-2,West Decatur Elem School,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,3013,VTD2000-103-4-3,Eastwood Elem School,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,3014,VTD2000-103-3-12,Cashin Homes Comm Center,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,3015,VTD2000-103-3-7,Aquadome Recreation Center,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,4001,VTD2000-103-4-1,Decature Fire & Rescue Station,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,4002,VTD2000-103-3-13,Morgan Co Dept Of Human Resources,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,4003,VTD2000-103-4-2,Walter Jackson Elem School,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,5001,VTD2000-103-1-1,McCurry Tackle Shop,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,6001,VTD2000-103-17-1,Pleasant Hill Baptist Church,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,7001,VTD2000-103-18-1,Neel Fire Dept,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,8001,VTD2000-103-25-1,New Era Town Hall,2000,one_to_one_inventory_global_assignment,0.0,
+1994,MORGAN,9001,VTD2000-103-26-1,Ebenezer Volunteer Fire Dept,2000,one_to_one_inventory_global_assignment,0.0,
+1994,PIKE,ADAMS ARMORY,VTD2000-109-6,Adams Armory,2000,exact_name,100.0,100.0
+1994,PIKE,ALLEN'S STORE,VTD2000-109-20,S Central Al Reg Housing Auth,2000,one_to_one_inventory_global_assignment,85.5,
+1994,PIKE,BANKS,VTD2000-109-12,Banks City Hall,2000,fuzzy_name,90.0,41.142857142857146
+1994,PIKE,BRUNDIDGE - ARMORY,VTD2000-109-14,Haisten Bldg,2000,adjacent_cycle_alias_graph,,99.99999992351904
+1994,PIKE,BRUNDIDGE - COMM. CNTR.,VTD2000-109-19,Galloway Road Community Center,2000,one_to_one_inventory_global_assignment,72.38095238095238,
+1994,PIKE,CHINA GROVE,VTD2000-109-3,Old Schessler's Store,2000,adjacent_cycle_alias_graph,,99.99999976543972
+1994,PIKE,EBENEZER,VTD2000-109-8,Ebernezer Clubhouse,2000,adjacent_cycle_alias_graph,,99.99999998958371
+1994,PIKE,ENON,VTD2000-109-10,Former Dixie Dandy,2000,adjacent_cycle_alias_graph,,99.99999976149286
+1994,PIKE,GOSHEN,VTD2000-109-24,Goshen City Hall,2000,fuzzy_name,90.0,30.0
+1994,PIKE,HAMILTON CROSS ROADS,VTD2000-109-15-2,Church Of Christ,2000,adjacent_cycle_alias_graph,,99.99999988006128
+1994,PIKE,HENDERSON,VTD2000-109-23,Henderson Community Clubhouse,2000,fuzzy_name,90.0,37.05882352941176
+1994,PIKE,JOSIE,VTD2000-109-9,Former Green's Store,2000,adjacent_cycle_alias_graph,,99.9999995656377
+1994,PIKE,LINWOOD,VTD2000-109-4,Murphy's Meat House,2000,adjacent_cycle_alias_graph,,99.99999992321575
+1994,PIKE,MEEKSVILLE,VTD2000-109-2,Meeksville Volunteer Fire Dept,2000,fuzzy_name,90.0,45.0
+1994,PIKE,NEEDMORE,VTD2000-109-5,Child's Grocery Store,2000,adjacent_cycle_alias_graph,,100.00000000000064
+1994,PIKE,RURAL - M & F GROCERY,VTD2000-109-25,M & F Grocery,2000,fuzzy_name,95.0,35.54054054054055
+1994,PIKE,SACO,VTD2000-109-7,Saco Volunteer Fire Dept,2000,fuzzy_name,90.0,22.5
+1994,PIKE,SHADY GROVE,VTD2000-109-27,Oak Bowery Church,2000,one_to_one_inventory_global_assignment,37.89473684210526,
+1994,PIKE,SHELLHORN SCHOOL,VTD2000-109-26,Shell Horn School,2000,fuzzy_name,96.96969696969695,46.96969696969697
+1994,PIKE,SHILOH,VTD2000-109-11,Former Fleming Store,2000,adjacent_cycle_alias_graph,,100.00000000000011
+1994,PIKE,SPRINGHILL - HOUS. AU.,VTD2000-109-18,Richburg Mini Mart,2000,one_to_one_inventory_global_assignment,33.333333333333336,
+1994,PIKE,SPRINGHILL VOL. F.D.,VTD2000-109-17,Springhill Volunteer Fire Dept,2000,adjacent_cycle_alias_graph,,99.99999987019604
+1994,PIKE,TARENTUM,VTD2000-109-16,Community Clubhouse,2000,adjacent_cycle_alias_graph,,99.99999985440944
+1994,PIKE,TENNILLE,VTD2000-109-15-1,Holder's Grocery,2000,adjacent_cycle_alias_graph,,99.99999969911109
+1994,PIKE,TROY - 1ST BAPTIST CH.,VTD2000-109-22,First Baptist Church,2000,fuzzy_name,95.0,9.5
+1994,PIKE,TROY - ARMY RESERVE,VTD2000-109-13,Troy Army Reserve Center,2000,fuzzy_name,95.0,45.0
+1994,PIKE,TROY - COURTHOUSE,VTD2000-109-21,Troy Courthouse,2000,exact_name,100.0,100.0
+1994,PIKE,TROY COMMUNITY COMPLEX,VTD2000-109-1,Troy Community Complex,2000,exact_name,100.0,100.0
+1994,SUMTER,DISTRICT FIVE,VTD2000-119-6,City Of Livingston Area,2000,one_to_one_inventory_global_assignment,45.0,
+1994,SUMTER,DISTRICT FOUR,VTD2000-119-4,York-Cuba,2000,one_to_one_inventory_global_assignment,34.54545454545455,
+1994,SUMTER,DISTRICT ONE,VTD2000-119-5,Livingston-York-Belmont,2000,one_to_one_inventory_global_assignment,40.909090909090914,
+1994,SUMTER,DISTRICT SIX,VTD2000-119-2,Livingston-Coatopa-Bellamy,2000,one_to_one_inventory_global_assignment,37.5,
+1994,SUMTER,DISTRICT THREE,VTD2000-119-1,Panola-Geiger-Emelle-Gainesville-Epes,2000,one_to_one_inventory_global_assignment,38.57142857142858,
+1994,SUMTER,DISTRICT TWO,VTD2000-119-3,York-Cuba,2000,one_to_one_inventory_global_assignment,27.14285714285714,
+1998,CHILTON,0010 MAPLESVILLE NEW FIRE STATION,VTD2000-021-20,Maplesville,2000,fuzzy_name,90.0,14.0
+1998,CHILTON,0020 SOUTH CHILTON FIRE STATION,VTD2000-021-30,So. Chilton Fire Station,2000,one_to_one_inventory_global_assignment,93.87755102040816,
+1998,CHILTON,0030 FAIRVIEW FIRE STATION,VTD2000-021-50,Fairview Fire Station,2000,one_to_one_inventory_global_assignment,100.0,
+1998,CHILTON,0040 ENTERPRISE FIRE STATION,VTD2000-021-70,Enterprise Fire Station,2000,exact_name,100.0,100.0
+1998,CHILTON,0050 VERBENA FIRE STATION,VTD2000-021-90,Verbena Fire Station,2000,one_to_one_inventory_global_assignment,100.0,
+1998,CHILTON,0060 PROVIDENCE E CHILTON,VTD2000-021-170,Providence Fire Station,2000,one_to_one_inventory_global_assignment,74.4186046511628,
+1998,CHILTON,0070 CANE CREEK GAP MT. FIRE,VTD2000-021-120,Cane Creek Fire Station,2000,one_to_one_inventory_global_assignment,75.20833333333333,
+1998,CHILTON,0080 UNION GROVE FIRE STATION,VTD2000-021-140,Union Grove Fire Station,2000,exact_name,100.0,100.0
+1998,CHILTON,0090 JEMISON FIRE DEPARTMENT,VTD2000-021-160,Jemison Town Hall,2000,one_to_one_inventory_global_assignment,55.41666666666666,
+1998,CHILTON,0100 PROVIDENCE N CHILTON,VTD2000-021-110,Providence,2000,fuzzy_name,90.0,20.232558139534888
+1998,CHILTON,0110 MARS HILL W CHILTON,VTD2000-021-180,Mars Hill Fire Station,2000,one_to_one_inventory_global_assignment,68.29268292682926,
+1998,CHILTON,0120 THORSBY TOWN HALL,VTD2000-021-200,Thorsby Town Hall,2000,one_to_one_inventory_global_assignment,100.0,
+1998,CHILTON,0130 COLLINS CHAPEL FIRE STATION,VTD2000-021-210,Collins Chapel Fire Station,2000,exact_name,100.0,100.0
+1998,CHILTON,0140 ISABELLA FIRE STATION,VTD2000-021-220,Isabella Fire Station,2000,one_to_one_inventory_global_assignment,100.0,
+1998,CHILTON,0150 VETERANS CLUB CLANTON,VTD2000-021-240,Clanton Veteran's Club,2000,fuzzy_name,88.3720930232558,25.038759689922465
+1998,CHILTON,0160 LIBRARY CLANTON,VTD2000-021-250,Clanton Library,2000,one_to_one_inventory_global_assignment,95.0,
+1998,CHILTON,0170 CLANTON FACILITY BLDG.,VTD2000-021-260,Clanton Facility Bldg.,2000,one_to_one_inventory_global_assignment,100.0,
+1998,CHILTON,0180 COURTHOUSE CLANTON,VTD2000-021-270,Clanton Courthouse,2000,one_to_one_inventory_global_assignment,95.0,
+1998,CLAY,0101 HIGHLND/COPPERMN,VTD2000-027-0101,Highland-Coppermine,2000,exact_vtd_code_district_constraint,100.0,99.99999995953836
+1998,CLAY,0201 DELTA COMMUNITY,VTD2000-027-0201,Delta Community Center,2000,exact_vtd_code_district_constraint,100.0,99.99999983749258
+1998,CLAY,0301 BARFIELD,VTD2000-027-0301,Barfield Volunteer Fire Dept.,2000,exact_vtd_code_district_constraint,100.0,99.99999999999996
+1998,CLAY,0401 LINEVILLE,VTD2000-027-0401A,Lineville Nat'l Guard Armory,2000,one_to_one_inventory_global_assignment,90.0,
+1998,CLAY,0601 HIGHLND/COPPERMN,VTD2000-027-0601,Highland-Coppermine Fire Dept.,2000,exact_vtd_code_district_constraint,100.0,99.9999997937906
+1998,CLAY,0602 IDAHO,VTD2000-027-0602,Idaho Fire Dept.,2000,exact_vtd_code_district_constraint,100.0,99.9999998998002
+1998,CLAY,0701 HIPINE,VTD2000-027-0701,Hipine Fire Dept.,2000,exact_vtd_code_district_constraint,100.0,99.99999999999991
+1998,CLAY,0801 MILLERVILLE,VTD2000-027-0801,Millerville Fire Dept.,2000,exact_vtd_code_district_constraint,100.0,100.00000000000009
+1998,CLAY,0802 COLETA VALLEY,VTD2000-027-0802,Coleta Valley Fire Dept.,2000,exact_vtd_code_district_constraint,100.0,99.99999992180064
+1998,CLAY,0901 TRI-COMMUNITY,VTD2000-027-0901,Tri-Community Fire Dept.,2000,exact_vtd_code_district_constraint,100.0,99.99999392309728
+1998,CLAY,1001 HOLLINS COMMUNITY,VTD2000-027-1001,Hollins Community Center,2000,exact_vtd_code_district_constraint,100.0,99.99999707148108
+1998,CLAY,1101 MELLOW VALLEY,VTD2000-027-1101,Mellow Valley High School Gym,2000,exact_vtd_code_district_constraint,100.0,99.99999997402044
+1998,CLAY,1102 MELLOW VALLEY,VTD2000-027-1102,Mellow Valley High School Gym,2000,exact_vtd_code_district_constraint,100.0,99.99997815162138
+1998,CLAY,1201 CRAGFORD,VTD2000-027-1201,Cragford Fire Dept.,2000,exact_vtd_code_district_constraint,100.0,99.99999999999991
+1998,CLAY,1301 LINEVILLE,VTD2000-027-1301,Lineville Nat'l Guard Armory,2000,exact_vtd_code_district_constraint,100.0,99.99999999999986
+1998,CLAY,1401 BLUFF SPRINGS,VTD2000-027-1401,Bluff Springs Fire Dept.,2000,exact_vtd_code_district_constraint,100.0,99.99999984314256
+1998,CLAY,1601 ASHLAND,VTD2000-027-1601,Ashland Nat'l Guard Armory,2000,exact_vtd_code_district_constraint,100.0,99.99999999999994
+1998,CLAY,1701 ASHLAND,VTD2000-027-1701,Ashland Nat'l Guard Armory,2000,exact_vtd_code_district_constraint,100.0,100.00000000000009
+1998,CLAY,1801 ASHLAND,VTD2000-027-1801,Ashland Nat'l Guard Armory,2000,exact_vtd_code_district_constraint,100.0,99.99999997028443
+1998,CLAY,2101 LINEVILLE,VTD2000-027-0401B,Lineville Nat'l Guard Armory,2000,one_to_one_inventory_global_assignment,90.0,
+1998,CLAY,2201 ASHLAND,VTD2000-027-2201,Ashland National Guard Armory,2000,exact_vtd_code_district_constraint,100.0,100.00000000000011
+1998,CLAY,2301 MILLERVILLE,VTD2000-027-2301,Millerville Fire Dept.,2000,exact_vtd_code_district_constraint,100.0,99.99999999999986
+1998,CLAY,2401 TRI-COMMUNITY,VTD2000-027-2401,Tri-Community Fire Dept.,2000,exact_vtd_code_district_constraint,100.0,99.99999998199765
+1998,CRENSHAW,0010 PANOLA COMMUNITY CENTER,VTD2000-041-1,Panola Community Center,2000,one_to_one_inventory_global_assignment,100.0,
+1998,CRENSHAW,0020 DANIELVILLE SCHOOL HOUSE,VTD2000-041-2,Danielsville School,2000,one_to_one_inventory_global_assignment,83.72093023255813,
+1998,CRENSHAW,0030 PETREY COMMUNITY CENTER,VTD2000-041-3,Petery Community Center,2000,fuzzy_name,95.65217391304348,10.54579093432008
+1998,CRENSHAW,0050 HONORAVILLE SCHOOL,VTD2000-041-4,Honoraville Volunteer Fire Station,2000,one_to_one_inventory_global_assignment,85.5,
+1998,CRENSHAW,0070 PATSBURG DEPOT BUILDING,VTD2000-041-5,Patsburg Depot Building,2000,exact_name,100.0,100.0
+1998,CRENSHAW,0080 RUTLEDGE COMMUNITY CENTER,VTD2000-041-6,Rutledge Community Center,2000,exact_name,100.0,100.0
+1998,CRENSHAW,0100 VIDETTE COMMUNITY CENTER,VTD2000-041-7,Vidette Community Center,2000,exact_name,100.0,100.0
+1998,CRENSHAW,0110 BUSHS GROCERY - BRANTLEY,VTD2000-041-8,Bush's Grocery,2000,one_to_one_inventory_global_assignment,86.66666666666667,
+1998,CRENSHAW,0120 BRANTLEY COMMUNITY CENTER,VTD2000-041-9,Brantley Community Center,2000,exact_name,100.0,100.0
+1998,CRENSHAW,0140 GLENWOOD CITY HALL,VTD2000-041-10,Glenwood Town Hall,2000,one_to_one_inventory_global_assignment,83.33333333333334,
+1998,CRENSHAW,0150 WEEDS STORE BRANTLEY,VTD2000-041-11,Weeds Store,2000,fuzzy_name,90.0,31.53846153846154
+1998,CRENSHAW,0160 PLEASANT HOME SCHOOL - RUTLEDGE,VTD2000-041-12,Pleasant Home School,2000,fuzzy_name,95.0,9.5
+1998,CRENSHAW,0170 TO -NEW FIRE DEPARTMENT,VTD2000-041-13,Highland Home Volunteer Fire Dept.,2000,one_to_one_inventory_global_assignment,85.5,
+1998,CRENSHAW,0190 COUNTY COURTHOUSE,VTD2000-041-14,Crenshaw County Courthouse,2000,fuzzy_name,90.0,35.45454545454545
+1998,CRENSHAW,0220 DOZIER CITY HALL,VTD2000-041-15,Dozier Town Hall,2000,one_to_one_inventory_global_assignment,81.25,
+1998,CRENSHAW,0230 HARBIN FARM-LUVERNE,VTD2000-041-16,Harbin Farm Center,2000,adjacent_cycle_alias_graph,,100.00000000000024
+1998,CRENSHAW,0250 LILLERS STORE - BRANTLEY,VTD2000-041-17,Lillery Shows Store,2000,one_to_one_inventory_global_assignment,63.41463414634146,
+1998,CRENSHAW,0260 CHAPEL HILL COMMUNITY CENTER,VTD2000-041-18,Chapel Hill Community Center,2000,exact_name,100.0,100.0
+1998,CULLMAN,0110 CULLMAN CIVIC CENTER,VTD2000-043-30-1,Kelley Community Center Box 1,2000,one_to_one_inventory_global_assignment,55.81395348837209,
+1998,CULLMAN,0120 CULLMAN CIVIC CENTER,VTD2000-043-1,Cullman,2000,fuzzy_name_district_constraint,90.0,99.99999999999989
+1998,CULLMAN,0130 CULLMAN CIVIC CENTER,VTD2000-043-29-2,Grandview Community Center Box 2,2000,one_to_one_inventory_global_assignment,52.17391304347826,
+1998,CULLMAN,0140 CULLMAN COUNTY OFFICE BLDG.,VTD2000-043-17-3,West Point Fire Dept. Box 3,2000,one_to_one_inventory_global_assignment,39.28571428571429,
+1998,CULLMAN,0150 CULLMAN CITY HALL,VTD2000-043-3-1,Hanceville City Hall Box 1,2000,one_to_one_inventory_global_assignment,70.27027027027026,
+1998,CULLMAN,0160 CULLMAN COURTHOUSE BASEMENT,VTD2000-043-15-1,Jones Chapel Fire Dept.,2000,one_to_one_inventory_global_assignment,40.0,
+1998,CULLMAN,0170 CULLMAN COUNTY OFFICE BLDG.,VTD2000-043-17-1,West Point Fire Dept. Box 1,2000,one_to_one_inventory_global_assignment,39.28571428571429,
+1998,CULLMAN,0210 GOOD HOPE TOWN HALL,VTD2000-043-2-1,Good Hope Town Hall,2000,exact_name,100.0,100.0
+1998,CULLMAN,0220 DODGE CITY FIRE DEPT.,VTD2000-043-2-2,Dodge City Fire Dept.,2000,exact_name,100.0,100.0
+1998,CULLMAN,0310 HANCEVILLE CITY HALL,VTD2000-043-3-3,Hanceville City Hall Box 3,2000,one_to_one_inventory_global_assignment,100.0,
+1998,CULLMAN,0320 STEPPVILLE FIRE STATION,VTD2000-043-3-2,Steppville Fire Station,2000,exact_name,100.0,100.0
+1998,CULLMAN,0400 GARDEN CITY TOWN HALL,VTD2000-043-4,Garden City Town Hall,2000,exact_name,100.0,100.0
+1998,CULLMAN,0500 STOUTS MOUNTAIN CHURCH,VTD2000-043-5,Stouts Mountain Church,2000,exact_name,100.0,100.0
+1998,CULLMAN,0610 MOODY TOWN UNION HILL CH.,VTD2000-043-6-1,MoodyTown Union Hill Church,2000,fuzzy_name,98.1818181818182,12.681818181818189
+1998,CULLMAN,0620 COLONY TOWN HALL,VTD2000-043-6-2,Colony Town Hall,2000,exact_name,100.0,100.0
+1998,CULLMAN,0700 ARKADELPHIA COMMUNITY CTR.,VTD2000-043-7,Arkadelphia Community Center,2000,exact_name,100.0,100.0
+1998,CULLMAN,0800 ANTIOCH COMMUNITY CENTER,VTD2000-043-8,Antioch Community Center,2000,exact_name,100.0,100.0
+1998,CULLMAN,0900 COLD SPRINGS FIRE DEPT.,VTD2000-043-9,Cold Springs Fire Dept.,2000,exact_name,100.0,100.0
+1998,CULLMAN,1000 BREMEN COMMUNITY CENTER,VTD2000-043-10,Bremen Community Center,2000,exact_name,100.0,100.0
+1998,CULLMAN,1110 TRIMBLE FIRE STATION,VTD2000-043-11-1,Trimble Fire Station,2000,exact_name,100.0,100.0
+1998,CULLMAN,1120 VALLEY GROVE COMM. CENTER,VTD2000-043-11-2,Valley Grove Community Center,2000,exact_name,100.0,100.0
+1998,CULLMAN,1200 CRANE HILL FIRE DEPARTMENT,VTD2000-043-12,Crane Hill Fire Dept.,2000,exact_name,100.0,100.0
+1998,CULLMAN,1300 BETHSADIA FIRE DEPARTMENT,VTD2000-043-13,Bethsadia Fire Dept.,2000,exact_name,100.0,100.0
+1998,CULLMAN,1410 LOGAN FIRE DEPARTMENT,VTD2000-043-14-1,Logan Fire Dept.,2000,exact_name,100.0,100.0
+1998,CULLMAN,1420 BETHEL COMMUNITY CENTER,VTD2000-043-14-2,Bethel Community Center,2000,exact_name,100.0,100.0
+1998,CULLMAN,1510 JONES CHAPEL FIRE DEPT.,VTD2000-043-15-2,Jones Chapel Fire Dept. Box 2,2000,one_to_one_inventory_global_assignment,100.0,
+1998,CULLMAN,1600 BATTLEGROUND FIRE DEPT.,VTD2000-043-16,Battleground Fire Dept.,2000,exact_name,100.0,100.0
+1998,CULLMAN,1710 WEST POINT COMM. CENTER,VTD2000-043-35-2,East Point Water Tower,2000,one_to_one_inventory_global_assignment,61.224489795918366,
+1998,CULLMAN,1720 FRIENDSHIP METHODIST CHURCH,VTD2000-043-17-2,Friendship Methodist Church,2000,exact_name,100.0,100.0
+1998,CULLMAN,1810 VINEMONT PROVIDENCE FIRE DEPT.,VTD2000-043-18-1,Vinemont Providence Fire Dept.,2000,exact_name,100.0,100.0
+1998,CULLMAN,1820 PROVIDENCE FIRE DEPARTMENT,VTD2000-043-18-2,Providence Fire Dept.,2000,exact_name,100.0,100.0
+1998,CULLMAN,1900 GOLD RIDGE COMM. CENTER,VTD2000-043-19,Goldridge Community Center,2000,fuzzy_name,98.1132075471698,15.951045385007646
+1998,CULLMAN,2010 BAILEYTOWN TOWN HALL,VTD2000-043-20-1,Baileyton Town Hall,2000,fuzzy_name,97.43589743589745,25.213675213675216
+1998,CULLMAN,2020 BROOKLYN COMM. CENTER,VTD2000-043-20-2,Brooklyn Community Center,2000,exact_name,100.0,100.0
+1998,CULLMAN,2110 JOPPA VOLUNTEER FIRE DEPT.,VTD2000-043-21-1,Joppa School,2000,fuzzy_name_district_constraint,85.5,99.9999997915756
+1998,CULLMAN,2120 NEW CANAAN FMX BLDG.,VTD2000-043-21-2,New Canaan FMX Building,2000,exact_name,100.0,100.0
+1998,CULLMAN,2210 HOLLY POND TOWN HALL,VTD2000-043-22-2,Holly Pond Town Hall Box 2,2000,one_to_one_inventory_global_assignment,100.0,
+1998,CULLMAN,2300 BERLIN COMM. CENTER,VTD2000-043-23,Berlin Community Center,2000,exact_name,100.0,100.0
+1998,CULLMAN,2400 WALTER COMMUNITY CENTER,VTD2000-043-24,Walter Community Center,2000,exact_name,100.0,100.0
+1998,CULLMAN,2500 WELTI SCHOOL,VTD2000-043-25,Welti School,2000,exact_name,100.0,100.0
+1998,CULLMAN,2600 BRUSHY POND COMM. CENTER,VTD2000-043-26,Brushy Pond Community Center,2000,exact_name,100.0,100.0
+1998,CULLMAN,2700 WHITE CITY COMM. CENTER,VTD2000-043-27,White City Community Center,2000,exact_name,100.0,100.0
+1998,CULLMAN,2810 FAIRVIEW FIRE DEPT.,VTD2000-043-28,Fairview Fire Dept.,2000,exact_name,100.0,100.0
+1998,CULLMAN,2820 FAIRVIEW TOWN HALL,VTD2000-043-22-1,Holly Pond Town Hall Box 1,2000,one_to_one_inventory_global_assignment,63.33333333333332,
+1998,CULLMAN,2910 GRANDVIEW COMM. CENTER,VTD2000-043-29-1,Grandview Community Center Box 1,2000,one_to_one_inventory_global_assignment,100.0,
+1998,CULLMAN,3010 KELLEY COMM. CENTER,VTD2000-043-30-2,Kelley Community Center Box 2,2000,one_to_one_inventory_global_assignment,100.0,
+1998,CULLMAN,3100 CENTER HILL COMMUNITY CENTER,VTD2000-043-31,Center Hill Community Center,2000,exact_name,100.0,100.0
+1998,CULLMAN,3200 SIMCOE COMM. CENTER,VTD2000-043-32,Simcoe Community Center,2000,exact_name,100.0,100.0
+1998,CULLMAN,3300 BALDWIN COMM. CENTER,VTD2000-043-33,Baldwin Community Center,2000,exact_name,100.0,100.0
+1998,CULLMAN,3400 CULLMAN COUNTY HEALTH DEPT.,VTD2000-043-34,Cullman County Health Dept.,2000,exact_name,100.0,100.0
+1998,CULLMAN,3510 EAST POINT COMM. CENTER,VTD2000-043-35-1,East Point Community Center,2000,exact_name,100.0,100.0
+1998,CULLMAN,3600 BOLTE-WHITE GROVE CHURCH,VTD2000-043-36,Bolte-White Grove Church,2000,exact_name,100.0,100.0
+1998,JACKSON,ASPEL,VTD2000-071-36,Aspel Water Board Bldg.,2000,fuzzy_name,90.0,18.0
+1998,JACKSON,BISHOP,VTD2000-071-19,Bishop-Hall's Store,2000,fuzzy_name,90.0,40.909090909090914
+1998,JACKSON,BRIDGEPORT,VTD2000-071-1,Bridgeport Community Center,2000,fuzzy_name,90.0,36.0
+1998,JACKSON,BRYANT,VTD2000-071-4,Bryant School,2000,fuzzy_name,90.0,38.7
+1998,JACKSON,COLLINS,VTD2000-071-18,Estill Fork,2000,one_to_one_inventory_global_assignment,27.692307692307693,
+1998,JACKSON,CROW MTN.,VTD2000-071-35,Crow Fire Hall,2000,one_to_one_inventory_global_assignment,85.5,
+1998,JACKSON,DEAN'S CHAPEL,VTD2000-071-39,Dean's Chapel Community Center,2000,fuzzy_name_district_constraint,90.0,99.99999978793284
+1998,JACKSON,DUTTON,VTD2000-071-28,Dutton City Hall,2000,fuzzy_name,90.0,33.0
+1998,JACKSON,FACKLER,VTD2000-071-6,Flackler Fire Hall,2000,one_to_one_inventory_global_assignment,77.14285714285715,
+1998,JACKSON,FIAT ROCK,VTD2000-071-5,Flat Rock Ruritan Bldg.,2000,fuzzy_name_district_constraint,85.5,99.99997951986488
+1998,JACKSON,GARTH,VTD2000-071-26,Garth-Johnson's Store,2000,fuzzy_name,90.0,25.875
+1998,JACKSON,GROSS SPRINGS,VTD2000-071-20,Christain Home,2000,one_to_one_inventory_global_assignment,29.629629629629623,
+1998,JACKSON,HAMBRICK,VTD2000-071-33,Hambrick Community Center,2000,fuzzy_name,90.0,37.38461538461539
+1998,JACKSON,HIGDON,VTD2000-071-29,Higdon Rescue Squad Bldg.,2000,fuzzy_name,90.0,33.0
+1998,JACKSON,HOLLY SPRINGS,VTD2000-071-31,Holly Spring Baptist Church,2000,one_to_one_inventory_global_assignment,86.4,
+1998,JACKSON,HOLLYTREE,VTD2000-071-27,Hollytree-Morris's Store,2000,fuzzy_name,90.0,25.714285714285708
+1998,JACKSON,HOLLYWOOD,VTD2000-071-10,Hollywood City Hall,2000,fuzzy_name,90.0,23.499999999999982
+1998,JACKSON,LANGSTON,VTD2000-071-12,Langston City Hall,2000,fuzzy_name,90.0,33.0
+1998,JACKSON,LARKINSVILE,VTD2000-071-14,Larkinsville Old School,2000,one_to_one_inventory_global_assignment,85.71428571428571,
+1998,JACKSON,LIMROCK,VTD2000-071-32,Limrock Fire Dept.,2000,fuzzy_name,90.0,37.38461538461539
+1998,JACKSON,LONG ISLAND,VTD2000-071-2,Long Island Community Center,2000,fuzzy_name,90.0,42.63157894736841
+1998,JACKSON,MACEDONIA,VTD2000-071-30,Macedonia School,2000,fuzzy_name,90.0,40.0
+1998,JACKSON,MINK CREEK,VTD2000-071-15,Mink Creek-Lakeview Store,2000,fuzzy_name,90.0,36.0
+1998,JACKSON,PAINT ROCK,VTD2000-071-23,Paint Rock Senior Citizen Center,2000,fuzzy_name_district_constraint,90.0,100.00000000000009
+1998,JACKSON,PISGAH,VTD2000-071-11,Pisgah Fire Hall,2000,fuzzy_name,90.0,36.0
+1998,JACKSON,PRINCETON,VTD2000-071-34,Princeton Fire Hall,2000,fuzzy_name,90.0,33.0
+1998,JACKSON,ROSALIE,VTD2000-071-38,Rosalie School,2000,fuzzy_name,90.0,38.57142857142858
+1998,JACKSON,SCOTTSBORO,VTD2000-071-21,Scottsboro Armory-City Hall,2000,fuzzy_name,90.0,42.0
+1998,JACKSON,SECTION,VTD2000-071-24,Section City Hall,2000,fuzzy_name,90.0,27.818181818181813
+1998,JACKSON,SKYLINE,VTD2000-071-22,Skyline City Hall,2000,fuzzy_name,90.0,38.57142857142858
+1998,JACKSON,STEVENSON,VTD2000-071-3,Stevenson City Park,2000,fuzzy_name,90.0,33.75
+1998,JACKSON,TRENTON,VTD2000-071-17,Trenton Fire Hall,2000,fuzzy_name,90.0,27.818181818181813
+1998,JACKSON,TUPELO,VTD2000-071-13,Tupelo-Pikeville Store,2000,fuzzy_name,90.0,30.0
+1998,JACKSON,WININGER,VTD2000-071-37,Letcher Fire Hall,2000,one_to_one_inventory_global_assignment,34.2,
+1998,JACKSON,WOODVILLE,VTD2000-071-16,Woodville City Hall,2000,fuzzy_name,90.0,37.38461538461539
+1998,JACKSON,WYTOP,VTD2000-071-25,Hytop Fire Hall,2000,one_to_one_inventory_global_assignment,76.0,
+1998,LAMAR,001 VERNON EAST,VTD2000-075-1N,Vernon,2000,fuzzy_name_district_constraint,90.0,99.9999999999998
+1998,LAMAR,002 VERNON WEST,VTD2000-075-1E,Vernon-National Guard Armory,2000,one_to_one_inventory_global_assignment,85.5,
+1998,LAMAR,003 CROSSVILLE LAWRENCE,VTD2000-075-2,Crossville-Lawrence,2000,one_to_one_inventory_global_assignment,100.0,
+1998,LAMAR,004 FAIRVIEW SIZEMORE,VTD2000-075-3,Fairview-Sizemore,2000,exact_name,100.0,100.0
+1998,LAMAR,005 BEAVERTON BROWN N,VTD2000-075-4N,Beaverton-City Hall,2000,one_to_one_inventory_global_assignment,65.76923076923076,
+1998,LAMAR,006 BEAVERTON BROWN S,VTD2000-075-4S,Beaverton South City Hall,2000,one_to_one_inventory_global_assignment,65.76923076923076,
+1998,LAMAR,007 CREWS GOODE,VTD2000-075-5,Crews-Goode-Methodist Church,2000,one_to_one_inventory_global_assignment,90.0,
+1998,LAMAR,008 HENSON SPRINGS,VTD2000-075-8,Pine Springs-Behind Church,2000,exact_vtd_code_district_constraint,100.0,99.99999995350792
+1998,LAMAR,009 DETROIT MILLVILLE,VTD2000-075-7,Detroit-Millville-City Hall,2000,fuzzy_name,90.0,35.945945945945944
+1998,LAMAR,010 PINE SPRINGS,VTD2000-075-6,Henson Springs-Fire Station,2000,one_to_one_inventory_global_assignment,85.5,
+1998,LAMAR,011 SULLIGENT MOSCOW N,VTD2000-075-9N,Sulligent-Moscow-City Hall,2000,one_to_one_inventory_global_assignment,89.41176470588236,
+1998,LAMAR,012 SULLIGENT MOSCOW S,VTD2000-075-9S,Moscow South,2000,one_to_one_inventory_global_assignment,85.5,
+1998,LAMAR,013 BEDFORD MILITARY,VTD2000-075-10,Bedford-Military,2000,one_to_one_inventory_global_assignment,100.0,
+1998,LAMAR,014 MOLLOY BETTS,VTD2000-075-11,Molloy-Betts,2000,one_to_one_inventory_global_assignment,100.0,
+1998,LAMAR,015 TRULL,VTD2000-075-12,Trull,2000,one_to_one_inventory_global_assignment,100.0,
+1998,LAMAR,016 VAILS,VTD2000-075-13,Vails,2000,one_to_one_inventory_global_assignment,100.0,
+1998,LAMAR,017 MILLPORT,VTD2000-075-14,Millport-Library,2000,one_to_one_inventory_global_assignment,90.0,
+1998,LAMAR,018 KENNEDY STEENS,VTD2000-075-15,Kennedy-Steens,2000,one_to_one_inventory_global_assignment,100.0,
+1998,LAMAR,019 STRICKLAND KINDVIL,VTD2000-075-16,Strickland-Kingville,2000,fuzzy_name,89.47368421052632,12.330827067669162
+1998,LAMAR,020 FERNBANK WILSON,VTD2000-075-17,Fernbank-Wilson,2000,one_to_one_inventory_global_assignment,100.0,
+1998,LAMAR,021 HIGHTOGY RIDGE,VTD2000-075-18,Hightogy-Ridge,2000,one_to_one_inventory_global_assignment,100.0,
+1998,LAMAR,022 MT. PLEASANT CURRY,VTD2000-075-20,Mt. Pleasant-Curry,2000,one_to_one_inventory_global_assignment,100.0,
+1998,LAMAR,023 MT. OLIVE GUIN,VTD2000-075-21,Mt. Olive-Guin,2000,one_to_one_inventory_global_assignment,100.0,
+1998,LAMAR,024 BLOOMING GROVE,VTD2000-075-22,Blooming Grove,2000,exact_name,100.0,100.0
+1998,LAMAR,025 STAR,VTD2000-075-23,Star,2000,exact_name,100.0,100.0
+1998,PIKE,0001 TROY COMM. COMPLEX,VTD2000-109-1,Troy Community Complex,2000,exact_vtd_code_district_constraint,100.0,99.99999999999991
+1998,PIKE,0002 MEEKSVILLE,VTD2000-109-2,Meeksville Volunteer Fire Dept,2000,exact_vtd_code_district_constraint,100.0,99.9999999801873
+1998,PIKE,0003 CHINA GROVE,VTD2000-109-3,Old Schessler's Store,2000,exact_vtd_code_district_constraint,100.0,99.99999976543972
+1998,PIKE,0004 LINWOOD CO. VOTING BLDG.,VTD2000-109-4,Murphy's Meat House,2000,exact_vtd_code_district_constraint,100.0,99.99999992321575
+1998,PIKE,0005 NEEDMORE CHILDS STORE,VTD2000-109-5,Child's Grocery Store,2000,exact_vtd_code_district_constraint,100.0,100.00000000000064
+1998,PIKE,0006 TROY ADAMS ARMORY,VTD2000-109-6,Adams Armory,2000,exact_vtd_code_district_constraint,100.0,99.99999999999996
+1998,PIKE,0007 SACO VOL FIRE DEPT.,VTD2000-109-7,Saco Volunteer Fire Dept,2000,exact_vtd_code_district_constraint,100.0,99.99999983579757
+1998,PIKE,0008 EBENEZER CO. VOTING BLDG.,VTD2000-109-8,Ebernezer Clubhouse,2000,exact_vtd_code_district_constraint,100.0,99.99999998958371
+1998,PIKE,0009 JOSIE FORMER GREENS STR.,VTD2000-109-9,Former Green's Store,2000,exact_vtd_code_district_constraint,100.0,99.9999995656377
+1998,PIKE,0010 ENON CO. VOTING BLDG.,VTD2000-109-10,Former Dixie Dandy,2000,exact_vtd_code_district_constraint,100.0,99.99999976149286
+1998,PIKE,0011 SHILOH FORMER FLEMING,VTD2000-109-11,Former Fleming Store,2000,exact_vtd_code_district_constraint,100.0,100.00000000000011
+1998,PIKE,0012 BANKS CITY HALL,VTD2000-109-12,Banks City Hall,2000,exact_vtd_code_district_constraint,100.0,99.99999999999984
+1998,PIKE,0013 TROY ARMY RESERVE CTR.,VTD2000-109-13,Troy Army Reserve Center,2000,exact_vtd_code_district_constraint,100.0,99.99999999999976
+1998,PIKE,0014 BRUNDIDGE OLD ARMORY,VTD2000-109-14,Haisten Bldg,2000,exact_vtd_code_district_constraint,100.0,99.99999992351904
+1998,PIKE,0016 TARENTUM COMM. CLUBHOUSE,VTD2000-109-16,Community Clubhouse,2000,exact_vtd_code_district_constraint,100.0,99.99999985440944
+1998,PIKE,0017 SPRINGHILL,VTD2000-109-17,Springhill Volunteer Fire Dept,2000,exact_vtd_code_district_constraint,100.0,99.99999987019604
+1998,PIKE,0018 RICHBURGS MINI MART,VTD2000-109-18,Richburg Mini Mart,2000,exact_vtd_code_district_constraint,100.0,99.99999998163062
+1998,PIKE,0019 BRUNDIDGE GALLOWAY RD.,VTD2000-109-19,Galloway Road Community Center,2000,exact_vtd_code_district_constraint,100.0,100.0
+1998,PIKE,0020 SPRINGHILL HOUSING ATH,VTD2000-109-20,S Central Al Reg Housing Auth,2000,exact_vtd_code_district_constraint,100.0,99.99999999999976
+1998,PIKE,0021 TROY COURTHOUSE,VTD2000-109-21,Troy Courthouse,2000,exact_vtd_code_district_constraint,100.0,100.00000000000024
+1998,PIKE,0022 TROY 1ST BAPTIST CHURCH,VTD2000-109-22,First Baptist Church,2000,exact_vtd_code_district_constraint,100.0,99.99999999999989
+1998,PIKE,0023 HENDERSON VFD,VTD2000-109-23,Henderson Community Clubhouse,2000,exact_vtd_code_district_constraint,100.0,99.9999985440216
+1998,PIKE,0024 GOSHEN CITY HALL,VTD2000-109-24,Goshen City Hall,2000,exact_vtd_code_district_constraint,100.0,99.99999991192428
+1998,PIKE,0025 RURAL HOME M & F GROCERY,VTD2000-109-25,M & F Grocery,2000,exact_vtd_code_district_constraint,100.0,99.9999998304066
+1998,PIKE,0026 SHELLHORN SCHOOL,VTD2000-109-26,Shell Horn School,2000,exact_vtd_code_district_constraint,100.0,99.99999993494464
+1998,PIKE,0027 BRIAR HILL SHADY GROVE,VTD2000-109-27,Oak Bowery Church,2000,exact_vtd_code_district_constraint,100.0,99.99999974417042
+1998,PIKE,0151 TENNILLE HOLDERS GRO.,VTD2000-109-15-1,Holder's Grocery,2000,exact_vtd_code_district_constraint,100.0,99.99999969911109
+1998,PIKE,0152 HAMILTON CROSS ROADS,VTD2000-109-15-2,Church Of Christ,2000,exact_vtd_code_district_constraint,100.0,99.99999988006128
+2002,BIBB,BRENT-NORTH,VTD2000-007-9,Brent National Guard Armory,2000,adjacent_cycle_alias_graph,,99.99999999999976
+2002,BIBB,BRENT-SOUTH,VTD2000-007-13,Brent-James Lot,2000,adjacent_cycle_alias_graph,,99.99999963630432
+2002,BIBB,CEDAR GROVE,VTD2000-007-2,Cedar Grove Fire Dept.,2000,fuzzy_name,90.0,47.142857142857146
+2002,BIBB,CENTREVILLE,VTD2000-007-5,Centerville City Hall,2000,adjacent_cycle_alias_graph,,99.9999833059639
+2002,BIBB,CENTREVILLE-CENT.,VTD2000-007-14,Rock Building,2000,one_to_one_inventory_global_assignment,27.58620689655172,
+2002,BIBB,EOLINE,VTD2000-007-12,Eoline Fire Dept.,2000,fuzzy_name,90.0,40.909090909090914
+2002,BIBB,FURNACE,VTD2000-007-6,Furnace-Brierfield Park-Mulberry Church,2000,fuzzy_name,90.0,24.23076923076924
+2002,BIBB,GREENPOND,VTD2000-007-1,Green Pond Fire Dept.,2000,adjacent_cycle_alias_graph,,99.9985942385021
+2002,BIBB,HARRISBURG,VTD2000-007-4,Harrisburg School,2000,fuzzy_name,90.0,44.99999999999999
+2002,BIBB,PONDVILLE,VTD2000-007-3,Pondville School,2000,fuzzy_name,90.0,30.0
+2002,BIBB,RANDOLPH,VTD2000-007-7,Randolph Fire Dept.,2000,fuzzy_name,90.0,53.35714285714285
+2002,BIBB,TABERNACLE,VTD2000-007-8,Tabernacle Community Center,2000,fuzzy_name,90.0,37.05882352941176
+2002,BIBB,WEST BLOCTON-EAST,VTD2000-007-10,West Blocton Community Bldg.,2000,adjacent_cycle_alias_graph,,99.99999995256528
+2002,BIBB,WEST BLOCTON-WEST,VTD2000-007-11,West Blocton-District 1 Shop,2000,adjacent_cycle_alias_graph,,99.99991773394667
+2002,CHILTON,CANE CREEK-GAP OF MT_ FIRE,VTD2000-021-120,Cane Creek Fire Station,2000,one_to_one_inventory_global_assignment,75.0,
+2002,CHILTON,CLANTON FACILITY BLDG_,VTD2000-021-260,Clanton Facility Bldg.,2000,exact_name,100.0,100.0
+2002,CHILTON,COLLINS CHAPEL-FIRE STATION,VTD2000-021-210,Collins Chapel Fire Station,2000,exact_name,100.0,100.0
+2002,CHILTON,COURTHOUSE-CLANTON,VTD2000-021-270,Clanton Courthouse,2000,fuzzy_name,95.0,34.545454545454554
+2002,CHILTON,ENTERPRISE-FIRE STATION,VTD2000-021-70,Enterprise Fire Station,2000,exact_name,100.0,100.0
+2002,CHILTON,FAIRVIEW-FIRE STATION,VTD2000-021-50,Fairview Fire Station,2000,exact_name,100.0,100.0
+2002,CHILTON,ISABELLA-FIRE STATION,VTD2000-021-220,Isabella Fire Station,2000,exact_name,100.0,100.0
+2002,CHILTON,JEMISON FIRE DEPARTMENT,VTD2000-021-160,Jemison Town Hall,2000,one_to_one_inventory_global_assignment,55.41666666666666,
+2002,CHILTON,LIBRARY-CLANTON,VTD2000-021-250,Clanton Library,2000,fuzzy_name,95.0,9.5
+2002,CHILTON,MAPLESVILLE-NEW FIRE STATION,VTD2000-021-20,Maplesville,2000,fuzzy_name,90.0,14.0
+2002,CHILTON,MARS HILL-W CHILTON FIRE,VTD2000-021-180,Mars Hill Fire Station,2000,one_to_one_inventory_global_assignment,74.34782608695652,
+2002,CHILTON,PROVIDENCE-E CHILTON FIRE,VTD2000-021-110,Providence,2000,fuzzy_name,90.0,14.791666666666671
+2002,CHILTON,PROVIDENCE-N CHILTON FIRE,VTD2000-021-170,Providence Fire Station,2000,one_to_one_inventory_global_assignment,75.20833333333333,
+2002,CHILTON,SOUTH CHILTON FIRE STATION,VTD2000-021-30,So. Chilton Fire Station,2000,fuzzy_name,93.87755102040816,18.877551020408163
+2002,CHILTON,THORSBY TOWN HALL,VTD2000-021-200,Thorsby Town Hall,2000,exact_name,100.0,100.0
+2002,CHILTON,UNION GROVE-FIRE STATION,VTD2000-021-140,Union Grove Fire Station,2000,exact_name,100.0,100.0
+2002,CHILTON,VERBENA-FIRE STATION,VTD2000-021-90,Verbena Fire Station,2000,exact_name,100.0,100.0
+2002,CHILTON,VETERANS CLUB-CLANTON,VTD2000-021-240,Clanton Veteran's Club,2000,fuzzy_name,88.3720930232558,25.038759689922465
+2002,CLAY,ASHLAND NATIONAL GUARD 17,VTD2000-027-2201,Ashland National Guard Armory,2000,fuzzy_name,88.93617021276596,14.426366291197326
+2002,CLAY,ASHLAND NATIONAL GUARD 18A,VTD2000-027-1701,Ashland Nat'l Guard Armory,2000,one_to_one_inventory_global_assignment,76.92307692307692,
+2002,CLAY,ASHLAND NATIONAL GUARD 18B,VTD2000-027-1601,Ashland Nat'l Guard Armory,2000,one_to_one_inventory_global_assignment,73.07692307692308,
+2002,CLAY,ASHLAND NATIONAL GUARD 21,VTD2000-027-1801,Ashland Nat'l Guard Armory,2000,one_to_one_inventory_global_assignment,74.50980392156863,
+2002,CLAY,BARFIELD VOLUNTEER,VTD2000-027-0301,Barfield Volunteer Fire Dept.,2000,fuzzy_name,90.0,40.0
+2002,CLAY,BLUFF SPRINGS F.D.,VTD2000-027-1401,Bluff Springs Fire Dept.,2000,adjacent_cycle_alias_graph,,99.99999984314256
+2002,CLAY,COLETA VALLEY F.D.,VTD2000-027-0802,Coleta Valley Fire Dept.,2000,adjacent_cycle_alias_graph,,99.99999992180064
+2002,CLAY,CRAGFORD F.D.,VTD2000-027-1201,Cragford Fire Dept.,2000,adjacent_cycle_alias_graph,,99.99999999999991
+2002,CLAY,DELTA COMMUNITY CENTER,VTD2000-027-0201,Delta Community Center,2000,exact_name,100.0,100.0
+2002,CLAY,HIGHLAND/COPPERMINE FD,VTD2000-027-0601,Highland-Coppermine Fire Dept.,2000,exact_name,100.0,100.0
+2002,CLAY,HIGHLAND/COPPERMINE FD 2,VTD2000-027-0101,Highland-Coppermine,2000,one_to_one_inventory_global_assignment,90.0,
+2002,CLAY,HIPINE F.D.,VTD2000-027-0701,Hipine Fire Dept.,2000,adjacent_cycle_alias_graph,,99.99999999999991
+2002,CLAY,HOLLINS COMMUNITY CENTER,VTD2000-027-1001,Hollins Community Center,2000,exact_name,100.0,100.0
+2002,CLAY,IDAHO F.D.,VTD2000-027-0602,Idaho Fire Dept.,2000,adjacent_cycle_alias_graph,,99.9999998998002
+2002,CLAY,LINEVILLE ARMORY,VTD2000-027-1301,Lineville Nat'l Guard Armory,2000,one_to_one_inventory_global_assignment,85.5,
+2002,CLAY,LINEVILLE NATIONAL GUARD 15,VTD2000-027-0401A,Lineville Nat'l Guard Armory,2000,one_to_one_inventory_global_assignment,76.36363636363637,
+2002,CLAY,LINEVILLE NATIONAL GUARD 20,VTD2000-027-0401B,Lineville Nat'l Guard Armory,2000,one_to_one_inventory_global_assignment,76.36363636363637,
+2002,CLAY,MELLOW VALLEY HIGH 01,VTD2000-027-1101,Mellow Valley High School Gym,2000,adjacent_cycle_alias_graph,,99.99999997402044
+2002,CLAY,MELLOW VALLEY HIGH 02,VTD2000-027-1102,Mellow Valley High School Gym,2000,adjacent_cycle_alias_graph,,99.99997815162138
+2002,CLAY,MILLERVILLE F.D. 08,VTD2000-027-0801,Millerville Fire Dept.,2000,one_to_one_inventory_global_assignment,85.5,
+2002,CLAY,MILLERVILLE F.D. 22,VTD2000-027-2301,Millerville Fire Dept.,2000,one_to_one_inventory_global_assignment,85.5,
+2002,CLAY,TRI-COMMUNITY F.D. 10,VTD2000-027-2401,Tri-Community Fire Dept.,2000,one_to_one_inventory_global_assignment,74.84848484848484,
+2002,CLAY,TRI-COMMUNITY F.D. 23,VTD2000-027-0901,Tri-Community Fire Dept.,2000,one_to_one_inventory_global_assignment,74.84848484848484,
+2002,CRENSHAW,BRANTLEY COMMUNITY CENTER,VTD2000-041-9,Brantley Community Center,2000,exact_name,100.0,100.0
+2002,CRENSHAW,BUSHS GROCERY - BRANTLEY,VTD2000-041-8,Bush's Grocery,2000,one_to_one_inventory_global_assignment,86.66666666666667,
+2002,CRENSHAW,CHAPEL HILL COMMUNITY CENTER,VTD2000-041-18,Chapel Hill Community Center,2000,exact_name,100.0,100.0
+2002,CRENSHAW,COUNTY COURTHOUSE,VTD2000-041-14,Crenshaw County Courthouse,2000,fuzzy_name,90.0,35.45454545454545
+2002,CRENSHAW,DANIELVILLE SCHOOL HOUSE,VTD2000-041-2,Danielsville School,2000,one_to_one_inventory_global_assignment,83.72093023255813,
+2002,CRENSHAW,DOZIER CITY HALL,VTD2000-041-15,Dozier Town Hall,2000,one_to_one_inventory_global_assignment,81.25,
+2002,CRENSHAW,GLENWOOD CITY HALL,VTD2000-041-10,Glenwood Town Hall,2000,one_to_one_inventory_global_assignment,83.33333333333334,
+2002,CRENSHAW,HARBIN FARM CENTER - LUVERNE,VTD2000-041-16,Harbin Farm Center,2000,fuzzy_name,95.0,45.6
+2002,CRENSHAW,HIGHLAND HOME - NEW FIRE DEPT_,VTD2000-041-13,Highland Home Volunteer Fire Dept.,2000,fuzzy_name_district_constraint,88.88888888888889,99.9999999125875
+2002,CRENSHAW,HONORAVILLE FIRE STATION,VTD2000-041-4,Honoraville Volunteer Fire Station,2000,fuzzy_name,95.0,9.5
+2002,CRENSHAW,LILLERS STORE - BRANTLEY,VTD2000-041-17,Lillery Shows Store,2000,one_to_one_inventory_global_assignment,63.41463414634146,
+2002,CRENSHAW,PANOLA COMMUNITY CENTER,VTD2000-041-1,Panola Community Center,2000,exact_name,100.0,100.0
+2002,CRENSHAW,PATSBURG DEPOT BUILDING,VTD2000-041-5,Patsburg Depot Building,2000,exact_name,100.0,100.0
+2002,CRENSHAW,PETREY COMMUNITY CENTER,VTD2000-041-3,Petery Community Center,2000,fuzzy_name,95.65217391304348,10.54579093432008
+2002,CRENSHAW,PLEASANT HOME SCHOOL-RUTLEDGE,VTD2000-041-12,Pleasant Home School,2000,fuzzy_name,95.0,9.5
+2002,CRENSHAW,RUTLEDGE COMMUNITY CENTER,VTD2000-041-6,Rutledge Community Center,2000,exact_name,100.0,100.0
+2002,CRENSHAW,VIDETTE COMMUNITY CENTER,VTD2000-041-7,Vidette Community Center,2000,exact_name,100.0,100.0
+2002,CRENSHAW,WEEDS STORE BRANTLEY,VTD2000-041-11,Weeds Store,2000,fuzzy_name,90.0,31.53846153846154
+2002,CULLMAN,0110 CULLMAN CIVIC CENTER,VTD2000-043-30-1,Kelley Community Center Box 1,2000,one_to_one_inventory_global_assignment,55.81395348837209,
+2002,CULLMAN,0120 CULLMAN CIVIC CENTER,VTD2000-043-35-2,East Point Water Tower,2000,one_to_one_inventory_global_assignment,38.095238095238095,
+2002,CULLMAN,0130 CULLMAN CIVIC CENTER,VTD2000-043-29-2,Grandview Community Center Box 2,2000,one_to_one_inventory_global_assignment,52.17391304347826,
+2002,CULLMAN,0140 CULLMAN COUNTY OFFICE BLDG.BSMNT.,VTD2000-043-17-3,West Point Fire Dept. Box 3,2000,one_to_one_inventory_global_assignment,41.93548387096774,
+2002,CULLMAN,0150 CULLMAN CITY HALL,VTD2000-043-3-1,Hanceville City Hall Box 1,2000,one_to_one_inventory_global_assignment,70.27027027027026,
+2002,CULLMAN,0160 CULLMAN COURTHOUSE BASEMENT,VTD2000-043-15-1,Jones Chapel Fire Dept.,2000,one_to_one_inventory_global_assignment,40.0,
+2002,CULLMAN,0170 CULLMAN COUNTY OFFICE BLDG.,VTD2000-043-1,Cullman,2000,fuzzy_name,90.0,28.70967741935484
+2002,CULLMAN,0210 GOOD HOPE TOWN HALL,VTD2000-043-2-1,Good Hope Town Hall,2000,exact_name,100.0,100.0
+2002,CULLMAN,0220 DODGE CITY TOWN HALL,VTD2000-043-2-2,Dodge City Fire Dept.,2000,adjacent_cycle_alias_graph,,100.0000000000002
+2002,CULLMAN,0310 HANCEVILLE CITY HALL,VTD2000-043-3-3,Hanceville City Hall Box 3,2000,one_to_one_inventory_global_assignment,100.0,
+2002,CULLMAN,0320 STEPPVILLE FIRE STATION,VTD2000-043-3-2,Steppville Fire Station,2000,exact_name,100.0,100.0
+2002,CULLMAN,0400 GARDEN CITY TOWN HALL,VTD2000-043-4,Garden City Town Hall,2000,exact_name,100.0,100.0
+2002,CULLMAN,0500 STOUTS MOUNTAIN CHURCH,VTD2000-043-5,Stouts Mountain Church,2000,exact_name,100.0,100.0
+2002,CULLMAN,0610 MOODY TOWN UNION HILL CH.,VTD2000-043-6-1,MoodyTown Union Hill Church,2000,fuzzy_name,98.1818181818182,12.681818181818189
+2002,CULLMAN,0620 COLONY TOWN HALL,VTD2000-043-6-2,Colony Town Hall,2000,exact_name,100.0,100.0
+2002,CULLMAN,0700 ARKADELPHIA COMMUNITY CTR.,VTD2000-043-7,Arkadelphia Community Center,2000,exact_name,100.0,100.0
+2002,CULLMAN,0800 ANTIOCH COMMUNITY CENTER,VTD2000-043-8,Antioch Community Center,2000,exact_name,100.0,100.0
+2002,CULLMAN,0900 COLD SPRINGS FIRE DEPT.,VTD2000-043-9,Cold Springs Fire Dept.,2000,exact_name,100.0,100.0
+2002,CULLMAN,1000 BREMEN COMMUNITY CENTER,VTD2000-043-10,Bremen Community Center,2000,exact_name,100.0,100.0
+2002,CULLMAN,1110 TRIMBLE FIRE STATION,VTD2000-043-11-1,Trimble Fire Station,2000,exact_name,100.0,100.0
+2002,CULLMAN,1120 VALLEY GROVE COMM. CENTER,VTD2000-043-11-2,Valley Grove Community Center,2000,exact_name,100.0,100.0
+2002,CULLMAN,1200 CRANE HILL FIRE DEPARTMENT,VTD2000-043-12,Crane Hill Fire Dept.,2000,exact_name,100.0,100.0
+2002,CULLMAN,1300 BETHSADIA FIRE DEPARTMENT,VTD2000-043-13,Bethsadia Fire Dept.,2000,exact_name,100.0,100.0
+2002,CULLMAN,1410 LOGAN FIRE DEPARTMENT,VTD2000-043-14-1,Logan Fire Dept.,2000,exact_name,100.0,100.0
+2002,CULLMAN,1420 BETHEL COMMUNITY CENTER,VTD2000-043-14-2,Bethel Community Center,2000,exact_name,100.0,100.0
+2002,CULLMAN,1510 JONES CHAPEL FIRE DEPT.,VTD2000-043-15-2,Jones Chapel Fire Dept. Box 2,2000,one_to_one_inventory_global_assignment,100.0,
+2002,CULLMAN,1600 BATTLEGROUND FIRE DEPT.,VTD2000-043-16,Battleground Fire Dept.,2000,exact_name,100.0,100.0
+2002,CULLMAN,1710 WEST POINT COMM. CENTER,VTD2000-043-17-1,West Point Fire Dept. Box 1,2000,one_to_one_inventory_global_assignment,60.37735849056604,
+2002,CULLMAN,1720 FRIENDSHIP METHODIST CHURCH,VTD2000-043-17-2,Friendship Methodist Church,2000,exact_name,100.0,100.0
+2002,CULLMAN,1810 VINEMONT PROVIDENCE FIRE DEPT.,VTD2000-043-18-1,Vinemont Providence Fire Dept.,2000,exact_name,100.0,100.0
+2002,CULLMAN,1820 PROVIDENCE FIRE DEPARTMENT,VTD2000-043-18-2,Providence Fire Dept.,2000,exact_name,100.0,100.0
+2002,CULLMAN,1900 GOLD RIDGE COMM. CENTER,VTD2000-043-19,Goldridge Community Center,2000,fuzzy_name,98.1132075471698,15.951045385007646
+2002,CULLMAN,2010 BAILEYTOWN TOWN HALL,VTD2000-043-20-1,Baileyton Town Hall,2000,fuzzy_name,97.43589743589745,25.213675213675216
+2002,CULLMAN,2020 BROOKLYN COMM. CENTER,VTD2000-043-20-2,Brooklyn Community Center,2000,exact_name,100.0,100.0
+2002,CULLMAN,2110 JOPPA VOLUNTEER FIRE DEPT.,VTD2000-043-21-1,Joppa School,2000,fuzzy_name_district_constraint,85.5,99.99999978786236
+2002,CULLMAN,2120 NEW CANAAN FMX BLDG.,VTD2000-043-21-2,New Canaan FMX Building,2000,exact_name,100.0,100.0
+2002,CULLMAN,2210 HOLLY POND TOWN HALL,VTD2000-043-22-2,Holly Pond Town Hall Box 2,2000,one_to_one_inventory_global_assignment,100.0,
+2002,CULLMAN,2300 BERLIN COMM. CENTER,VTD2000-043-23,Berlin Community Center,2000,exact_name,100.0,100.0
+2002,CULLMAN,2400 WALTER COMMUNITY CENTER,VTD2000-043-24,Walter Community Center,2000,exact_name,100.0,100.0
+2002,CULLMAN,2500 WELTI FIRE STA.,VTD2000-043-25,Welti School,2000,adjacent_cycle_alias_graph,,99.99999941109516
+2002,CULLMAN,2600 BRUSHY POND COMM. CENTER,VTD2000-043-26,Brushy Pond Community Center,2000,exact_name,100.0,100.0
+2002,CULLMAN,2700 WHITE CITY COMM. CENTER,VTD2000-043-27,White City Community Center,2000,exact_name,100.0,100.0
+2002,CULLMAN,2810 FAIRVIEW FIRE DEPT.,VTD2000-043-28,Fairview Fire Dept.,2000,exact_name,100.0,100.0
+2002,CULLMAN,2820 FAIRVIEW TOWN HALL,VTD2000-043-22-1,Holly Pond Town Hall Box 1,2000,one_to_one_inventory_global_assignment,63.33333333333332,
+2002,CULLMAN,2910 GRANDVIEW COMM. CENTER,VTD2000-043-29-1,Grandview Community Center Box 1,2000,one_to_one_inventory_global_assignment,100.0,
+2002,CULLMAN,3010 KELLEY COMM. CENTER,VTD2000-043-30-2,Kelley Community Center Box 2,2000,one_to_one_inventory_global_assignment,100.0,
+2002,CULLMAN,3100 CENTER HILL COMMUNITY CENTER,VTD2000-043-31,Center Hill Community Center,2000,exact_name,100.0,100.0
+2002,CULLMAN,3200 SIMCOE COMM. CENTER,VTD2000-043-32,Simcoe Community Center,2000,exact_name,100.0,100.0
+2002,CULLMAN,3300 BALDWIN COMM. CENTER,VTD2000-043-33,Baldwin Community Center,2000,exact_name,100.0,100.0
+2002,CULLMAN,3400 CULLMAN COUNTY HEALTH DEPT.,VTD2000-043-34,Cullman County Health Dept.,2000,exact_name,100.0,100.0
+2002,CULLMAN,3510 EAST POINT COMM. CENTER,VTD2000-043-35-1,East Point Community Center,2000,exact_name,100.0,100.0
+2002,CULLMAN,3600 BOLTE-WHITE GROVE CHURCH,VTD2000-043-36,Bolte-White Grove Church,2000,exact_name,100.0,100.0
+2002,ESCAMBIA,ALCO J_D_ JC MUSEUM,VTD2000-053-0010,Alco-JD Museum,2000,one_to_one_inventory_global_assignment,87.5,
+2002,ESCAMBIA,APPLETON VOL_FIRE DEPARTMENT,VTD2000-053-040C,Appleton Vol Fire Dept.,2000,exact_name,100.0,100.0
+2002,ESCAMBIA,ATMORE CITY HALL .1,VTD2000-053-0310,Atmore City Hall,2000,split_base_district_constraint,95.0,99.99999999999994
+2002,ESCAMBIA,ATMORE CITY HALL .2,VTD2000-053-050D,East Brewton City Hall,2000,one_to_one_inventory_global_assignment,70.0,
+2002,ESCAMBIA,BARNETTS C_R_ ROBINSONS STORE,VTD2000-053-0180,Barnett Crossroads,2000,one_to_one_inventory_global_assignment,65.45454545454547,
+2002,ESCAMBIA,BETHEL ROBERTS CO VOTING HOUSE,VTD2000-053-090H,Bethel-Roberts Voting House,2000,fuzzy_name,95.0,9.5
+2002,ESCAMBIA,BRADLEY - ROCK CREEK,VTD2000-053-0100,Bradley Vol. Fire Dept.,2000,one_to_one_inventory_global_assignment,85.5,
+2002,ESCAMBIA,BREWTON CIVIC CENTER .1,VTD2000-053-030B,Brewton Civic Center,2000,split_base_district_constraint,95.0,99.99999939345606
+2002,ESCAMBIA,BREWTON CIVIC CENTER .2,VTD2000-053-0270,Canoe Civic Center,2000,one_to_one_inventory_global_assignment,76.0,
+2002,ESCAMBIA,CANOE CIVIC CLUB BUILDING,VTD2000-053-0170,Pineview Voting House,2000,one_to_one_inventory_global_assignment,34.78260869565217,
+2002,ESCAMBIA,COUNTY HWY DEPARTMENT,VTD2000-053-0240,District 4 Warehouse,2000,one_to_one_inventory_global_assignment,34.14634146341463,
+2002,ESCAMBIA,DAMASCUS BOYKIN SCHOOL,VTD2000-053-0120,Damascus-Boykin School,2000,exact_name,100.0,100.0
+2002,ESCAMBIA,DIXIE VOLUNTEER FIRE DEPT_,VTD2000-053-0110,Dixie Vol. Fire Dept.,2000,exact_name,100.0,100.0
+2002,ESCAMBIA,EAST BREWTON SAILS SITE,VTD2000-053-020A,Brewton Courthouse,2000,one_to_one_inventory_global_assignment,53.2,
+2002,ESCAMBIA,FLOMATON CITY HALL,VTD2000-053-0150,Flomaton City Hall,2000,exact_name,100.0,100.0
+2002,ESCAMBIA,FLOMATON COMMUNITY HOUSE,VTD2000-053-0140,Flomaton Community House,2000,exact_name,100.0,100.0
+2002,ESCAMBIA,HUXFORD MASONIC LODGE,VTD2000-053-0190,Huxford Masonic Lodge,2000,exact_name,100.0,100.0
+2002,ESCAMBIA,KIRKLAND NORTH BREWTON SCHOOL,VTD2000-053-0130,Kirkland-N Brewton School,2000,fuzzy_name,92.5925925925926,7.092592592592595
+2002,ESCAMBIA,LITTLE ESCAMBIA VOTING HOUSE,VTD2000-053-0160,Little Escambia Voting House,2000,exact_name,100.0,100.0
+2002,ESCAMBIA,LITTLE ROCK STORE,VTD2000-053-0280,Little Rock Store,2000,exact_name,100.0,100.0
+2002,ESCAMBIA,MCCALL SCHOOL,VTD2000-053-0220,McCall School,2000,exact_name,100.0,100.0
+2002,ESCAMBIA,MCCULLOGH VFD,VTD2000-053-0300,McCullough Vol. Fire Dept.,2000,fuzzy_name,98.59154929577466,13.770120724346086
+2002,ESCAMBIA,NEW ORDER BAPTIST CHURCH,VTD2000-053-0320,Pleasant Hill Church,2000,one_to_one_inventory_global_assignment,50.0,
+2002,ESCAMBIA,NOKOMIS VOTING HOUSE,VTD2000-053-0330,Nokomis Voting House,2000,exact_name,100.0,100.0
+2002,ESCAMBIA,PINEVIEW VOTING HOUSE,VTD2000-053-0200,Butler St-Black's Mill,2000,one_to_one_inventory_global_assignment,28.91304347826087,
+2002,ESCAMBIA,POARCH SAIL CENTER,VTD2000-053-0290,Poarch Sail Center,2000,exact_name,100.0,100.0
+2002,ESCAMBIA,POLLARD TOWN HALL,VTD2000-053-0230,Pollard Town Hall,2000,exact_name,100.0,100.0
+2002,ESCAMBIA,RACHEL PATTERSON SCHOOL,VTD2000-053-0250,Rachel Patterson Elementary School,2000,fuzzy_name,95.0,9.5
+2002,ESCAMBIA,RIVERVIEW TOWN HALL,VTD2000-053-070F,Riverview Town Hall,2000,exact_name,100.0,100.0
+2002,ESCAMBIA,ROCK HILL RIDGE ROAD FIRE DEPT,VTD2000-053-080G,Ridge Road Volunteer Fire Dept.,2000,one_to_one_inventory_global_assignment,79.6774193548387,
+2002,ESCAMBIA,STAFF CHEVROLET .1,VTD2000-053-0260,Staff Chevrolet,2000,split_base_district_constraint,95.0,99.97749397838508
+2002,ESCAMBIA,STAFF CHEVROLET .2,VTD2000-053-050E,WS Neal School,2000,one_to_one_inventory_global_assignment,45.16129032258065,
+2002,ESCAMBIA,WALLACE METHODIST CHURCH,VTD2000-053-0210,Wallace Methodist Church,2000,exact_name,100.0,100.0
+2002,LAMAR,BEAVERTON-BROWN N,VTD2000-075-4S,Beaverton South City Hall,2000,one_to_one_inventory_global_assignment,65.76923076923076,
+2002,LAMAR,BEAVERTON-BROWN S,VTD2000-075-4N,Beaverton-City Hall,2000,one_to_one_inventory_global_assignment,65.76923076923076,
+2002,LAMAR,BEDFORD-MILITARY,VTD2000-075-10,Bedford-Military,2000,exact_name,100.0,100.0
+2002,LAMAR,BLOOMING GROVE,VTD2000-075-22,Blooming Grove,2000,exact_name,100.0,100.0
+2002,LAMAR,CREWS-GOODE,VTD2000-075-5,Crews-Goode-Methodist Church,2000,fuzzy_name,90.0,47.14285714285714
+2002,LAMAR,CROSSVILLE-LAWRENCE,VTD2000-075-2,Crossville-Lawrence,2000,exact_name,100.0,100.0
+2002,LAMAR,DETROIT-MILLVILLE,VTD2000-075-7,Detroit-Millville-City Hall,2000,fuzzy_name,90.0,35.945945945945944
+2002,LAMAR,FAIRVIEW-SIZEMORE,VTD2000-075-3,Fairview-Sizemore,2000,exact_name,100.0,100.0
+2002,LAMAR,FERNBANK-WILSON,VTD2000-075-17,Fernbank-Wilson,2000,exact_name,100.0,100.0
+2002,LAMAR,HENSON SPRGS,VTD2000-075-6,Henson Springs-Fire Station,2000,one_to_one_inventory_global_assignment,85.5,
+2002,LAMAR,HIGHTOGY-RIDGE,VTD2000-075-18,Hightogy-Ridge,2000,exact_name,100.0,100.0
+2002,LAMAR,KENNEDY-STEENS,VTD2000-075-15,Kennedy-Steens,2000,exact_name,100.0,100.0
+2002,LAMAR,MILLPORT,VTD2000-075-14,Millport-Library,2000,fuzzy_name,90.0,34.61538461538461
+2002,LAMAR,MOLLOY-BETTS,VTD2000-075-11,Molloy-Betts,2000,exact_name,100.0,100.0
+2002,LAMAR,MT OLIVE-GUIN,VTD2000-075-21,Mt. Olive-Guin,2000,exact_name,100.0,100.0
+2002,LAMAR,MT PLEASANT-CURRY,VTD2000-075-20,Mt. Pleasant-Curry,2000,exact_name,100.0,100.0
+2002,LAMAR,PINE SPRGS,VTD2000-075-8,Pine Springs-Behind Church,2000,one_to_one_inventory_global_assignment,85.5,
+2002,LAMAR,STAR,VTD2000-075-23,Star,2000,exact_name,100.0,100.0
+2002,LAMAR,STRICKLAND-KING,VTD2000-075-16,Strickland-Kingville,2000,one_to_one_inventory_global_assignment,85.71428571428572,
+2002,LAMAR,SULLIGENT-MOSCOW N,VTD2000-075-9N,Sulligent-Moscow-City Hall,2000,fuzzy_name_district_constraint,89.41176470588236,99.99999997562256
+2002,LAMAR,SULLIGENT-MOSCOW S,VTD2000-075-9S,Moscow South,2000,one_to_one_inventory_global_assignment,85.5,
+2002,LAMAR,TRULL,VTD2000-075-12,Trull,2000,exact_name,100.0,100.0
+2002,LAMAR,VAILS,VTD2000-075-13,Vails,2000,exact_name,100.0,100.0
+2002,LAMAR,VERNON EAST,VTD2000-075-1N,Vernon,2000,fuzzy_name_district_constraint,90.0,99.9999999999998
+2002,LAMAR,VERNON WEST,VTD2000-075-1E,Vernon-National Guard Armory,2000,one_to_one_inventory_global_assignment,85.5,
+2002,MARION,BACCUS,VTD2000-093-13,Union Hall-Baccus,2000,fuzzy_name,90.0,40.909090909090914
+2002,MARION,BARNSVILLE,VTD2000-093-17,Barnsville Church,2000,fuzzy_name,90.0,30.0
+2002,MARION,BEAR CREEK,VTD2000-093-8,Bear Creek City Hall,2000,fuzzy_name,90.0,36.0
+2002,MARION,BEXAR,VTD2000-093-4,Old Bexar Post Office,2000,fuzzy_name,90.0,10.0
+2002,MARION,BRILLIANT,VTD2000-093-18,Brilliant Community Center,2000,fuzzy_name,90.0,36.5625
+2002,MARION,CLARK,VTD2000-093-9N,Craft Comm Building,2000,one_to_one_inventory_global_assignment,51.42857142857142,
+2002,MARION,E_T_ SIMS JR_ BUILDING .1,VTD2000-093-1N,Neighborhood Facilities Bldg,2000,one_to_one_inventory_global_assignment,51.85185185185186,
+2002,MARION,E_T_ SIMS JR_ BUILDING .2,VTD2000-093-1S,Hamilton Neighborhood Facilities Bldg,2000,one_to_one_inventory_global_assignment,85.5,
+2002,MARION,GUIN,VTD2000-093-15,City Hall-Guin,2000,fuzzy_name,90.0,22.5
+2002,MARION,HACKLEBURG,VTD2000-093-7,Hackleburg City Hall,2000,fuzzy_name,90.0,45.0
+2002,MARION,HOWELL,VTD2000-093-10,Sullins Church,2000,one_to_one_inventory_global_assignment,42.75,
+2002,MARION,KEMP,VTD2000-093-3,Kemp Pleasent Site Church,2000,fuzzy_name,90.0,45.0
+2002,MARION,KIMBROUGH .1,VTD2000-093-9S,Kimbrough Craft Comm Building,2000,one_to_one_inventory_global_assignment,85.71428571428571,
+2002,MARION,KIMBROUGH .2,VTD2000-093-2,Byrd Community Center,2000,one_to_one_inventory_global_assignment,34.285714285714285,
+2002,MARION,PEARCES MILL,VTD2000-093-11,Pea Ridge Fire Station,2000,one_to_one_inventory_global_assignment,52.5,
+2002,MARION,PIKEVILLE,VTD2000-093-16,Pikeville Liberty Church,2000,fuzzy_name,90.0,40.0
+2002,MARION,RYE,VTD2000-093-14,Community Center,2000,one_to_one_inventory_global_assignment,45.0,
+2002,MARION,SHILOH,VTD2000-093-6,Shiloh Community Center,2000,fuzzy_name,90.0,40.909090909090914
+2002,MARION,SHOTTSVILLE,VTD2000-093-12,Grove Church,2000,one_to_one_inventory_global_assignment,33.04347826086956,
+2002,MARION,WIGINTON,VTD2000-093-19,Wiginton Community Bldg,2000,fuzzy_name,90.0,40.909090909090914
+2002,MARION,WINFIELD,VTD2000-093-5,Community Fire Dept,2000,one_to_one_inventory_global_assignment,45.6,
+2002,SUMTER,001 DISTRICT 1,VTD2000-119-1,Panola-Geiger-Emelle-Gainesville-Epes,2000,exact_vtd_code_district_constraint,100.0,99.99999992642682
+2002,SUMTER,002 DISTRICT 2,VTD2000-119-2,Livingston-Coatopa-Bellamy,2000,exact_vtd_code_district_constraint,100.0,99.99999998429088
+2002,SUMTER,003 DISTRICT 3,VTD2000-119-3,York-Cuba,2000,exact_vtd_code_district_constraint,100.0,99.99999992047506
+2002,SUMTER,004 DISTRICT 4,VTD2000-119-4,York-Cuba,2000,exact_vtd_code_district_constraint,100.0,99.99999999999986
+2002,SUMTER,005 DISTRICT 5,VTD2000-119-5,Livingston-York-Belmont,2000,exact_vtd_code_district_constraint,100.0,99.99999995836362
+2002,SUMTER,006 DISTRICT 6,VTD2000-119-6,City Of Livingston Area,2000,exact_vtd_code_district_constraint,100.0,100.00000000000004
+2006,CHILTON,CANE CREEK-GAP OF MT_ FIRE,VTD2010-021-120,Cane Creek Fire Station,2010,one_to_one_inventory_global_assignment,75.0,
+2006,CHILTON,CLANTON FACILITY BLDG_,VTD2010-021-260,Clanton Facility Bldg.,2010,exact_name,100.0,100.0
+2006,CHILTON,COLLINS CHAPEL-FIRE STATION,VTD2010-021-210,Collins Chapel Fire Station,2010,exact_name,100.0,100.0
+2006,CHILTON,COURTHOUSE-CLANTON,VTD2010-021-270,Chilton County Courthouse,2010,one_to_one_inventory_global_assignment,70.69767441860465,
+2006,CHILTON,ENTERPRISE-FIRE STATION,VTD2010-021-70,Enterprise Fire Station,2010,exact_name,100.0,100.0
+2006,CHILTON,FAIRVIEW-FIRE STATION,VTD2010-021-50,Fairview Fire Station,2010,exact_name,100.0,100.0
+2006,CHILTON,ISABELLA-FIRE STATION,VTD2010-021-220,Isabella Fire Station,2010,exact_name,100.0,100.0
+2006,CHILTON,JEMISON FIRE DEPARTMENT,VTD2010-021-160,City of Jemison,2010,one_to_one_inventory_global_assignment,85.5,
+2006,CHILTON,LIBRARY-CLANTON,VTD2010-021-250,Clanton Library,2010,fuzzy_name,95.0,9.5
+2006,CHILTON,MAPLESVILLE-NEW FIRE STATION,VTD2010-021-20,Maplesville Fire Station,2010,fuzzy_name,95.0,21.530612244897966
+2006,CHILTON,MARS HILL-W CHILTON FIRE,VTD2010-021-180,"Mars Hill, West Chilton Fire Station",2010,fuzzy_name_district_constraint,90.86956521739133,100.00000000000024
+2006,CHILTON,PROVIDENCE-E CHILTON FIRE,VTD2010-021-170,"Providence, North Chilton Fire Station",2010,one_to_one_inventory_global_assignment,91.04166666666666,
+2006,CHILTON,PROVIDENCE-N CHILTON FIRE,VTD2010-021-110,"Providence , East Chilton Fire Station",2010,one_to_one_inventory_global_assignment,91.04166666666666,
+2006,CHILTON,SOUTH CHILTON FIRE STATION,VTD2010-021-30,So. Chilton Fire Station,2010,fuzzy_name,93.87755102040816,11.268855368234256
+2006,CHILTON,THORSBY TOWN HALL,VTD2010-021-200,Thorsby Town Hall,2010,exact_name,100.0,100.0
+2006,CHILTON,UNION GROVE-FIRE STATION,VTD2010-021-140,Union Grove Fire Station,2010,exact_name,100.0,100.0
+2006,CHILTON,VERBENA-FIRE STATION,VTD2010-021-90,Verbena Fire Station,2010,exact_name,100.0,100.0
+2006,CHILTON,VETERANS CLUB-CLANTON,VTD2010-021-240,Douglas Glass Amer. Legion Post 6,2010,one_to_one_inventory_global_assignment,34.285714285714285,
+2006,CLAY,PCT 1001 HOLLINS COMM_ CENTER,VTD2010-027-1001,Hollins Community Center,2010,fuzzy_name,95.0,9.5
+2006,CLAY,PCT 101 HIGHLAND COPPERMINE,VTD2010-027-0101,Highland-Coppermine,2010,fuzzy_name,95.0,16.521739130434796
+2006,CLAY,PCT 1101 SIKESVILLE CO LINE FD,VTD2010-027-0802,Coleta Fire Department,2010,one_to_one_inventory_global_assignment,85.5,
+2006,CLAY,PCT 1102 MELLOW VALLEY HIGH,VTD2010-027-1101,Mellow Valley High School Gym,2010,one_to_one_inventory_global_assignment,76.0,
+2006,CLAY,PCT 1201 CRAGFORD FIRE,VTD2010-027-1201,Cragford Fire Dept.,2010,one_to_one_inventory_global_assignment,70.57142857142856,
+2006,CLAY,PCT 1301 LINEVILLE NG ARMORY,VTD2010-027-2101,Lineville Guard Armory,2010,one_to_one_inventory_global_assignment,80.0,
+2006,CLAY,PCT 1401 BLUFF SPRINGS FIRE,VTD2010-027-1401,Bluff Springs Fire Dept.,2010,one_to_one_inventory_global_assignment,76.0,
+2006,CLAY,PCT 1601 ASHLAND NG ARMORY,VTD2010-027-1801,Ashland Guard Armory,2010,one_to_one_inventory_global_assignment,78.23529411764704,
+2006,CLAY,PCT 1701 ASHLAND NG ARMORY,VTD2010-027-1601,Ashland Nat'l Guard Armory,2010,one_to_one_inventory_global_assignment,66.5,
+2006,CLAY,PCT 1801 ASHLAND NG ARMORY,VTD2010-027-1701,Ashland National Guard Armory,2010,one_to_one_inventory_global_assignment,66.5,
+2006,CLAY,PCT 201 DELTA COMMUNITY CENTER,VTD2010-027-0201,Delta Community Center,2010,fuzzy_name,95.0,9.5
+2006,CLAY,PCT 2101 LINEVILLE NG ARMORY,VTD2010-027-0401,Lineville National Guard Voting District,2010,one_to_one_inventory_global_assignment,47.5,
+2006,CLAY,PCT 2201 ASHLAND NG ARMORY,VTD2010-027-2201,Ashland National Guard,2010,one_to_one_inventory_global_assignment,51.45833333333333,
+2006,CLAY,PCT 2301 MILLERVILLE FIRE DEPT,VTD2010-027-0801,Millerville Fire Dept.,2010,fuzzy_name,95.0,9.5
+2006,CLAY,PCT 2401 TRI-COMMUNITY FIRE,VTD2010-027-2401,Tri-Community F.D.,2010,one_to_one_inventory_global_assignment,85.5,
+2006,CLAY,PCT 301 BARFIELD VOL_ FIRE,VTD2010-027-0301,Barfield Volunteer Fire Dept.,2010,one_to_one_inventory_global_assignment,80.92592592592592,
+2006,CLAY,PCT 401 LINEVILLE NG ARMORY,VTD2010-027-1301,Lineville Nat'l Guard Armory,2010,one_to_one_inventory_global_assignment,70.69767441860465,
+2006,CLAY,PCT 601 HIGHLAND COPPERMINE,VTD2010-027-0601,Highland-Coppermine Fire Dept.,2010,one_to_one_inventory_global_assignment,78.4782608695652,
+2006,CLAY,PCT 602 IDAHO FIRE DEPARTMENT,VTD2010-027-0602,Idaho Fire Dept.,2010,fuzzy_name,95.0,17.972972972972983
+2006,CLAY,PCT 701 HIPINE FIRE DEPT,VTD2010-027-0701,Hipine Fire Dept.,2010,fuzzy_name,95.0,15.833333333333345
+2006,CLAY,PCT 801 MILLERVILLE FIRE,VTD2010-027-2301,Millerville F.D.,2010,one_to_one_inventory_global_assignment,85.5,
+2006,CLAY,PCT 802 COLETA VALLEY FIRE,VTD2010-027-1102,Mellow Valley H.S.,2010,one_to_one_inventory_global_assignment,85.5,
+2006,CLAY,PCT 901 TRI-COMMUNITY FIRE,VTD2010-027-0901,Tri-Community Fire Dept.,2010,one_to_one_inventory_global_assignment,77.72727272727272,
+2006,MARENGO,AIMWELL VOTING BOOTH,VTD2010-091-0509,Aimwell,2010,fuzzy_name,90.0,12.727272727272734
+2006,MARENGO,CORNERSTONE CHURCH,VTD2010-091-0305,Cornerstone Church,2010,exact_name,100.0,100.0
+2006,MARENGO,DAYTON TOWN OFFICE,VTD2010-091-0303,Dayton,2010,fuzzy_name,90.0,38.57142857142858
+2006,MARENGO,DEMOPOLIS CIVIC CENTER,VTD2010-091-0101,Civic Center,2010,fuzzy_name,90.0,29.53488372093024
+2006,MARENGO,DEMOPOLIS HIGH SCHOOL,VTD2010-091-0202,Demopolis High School,2010,exact_name,100.0,100.0
+2006,MARENGO,DEMOPOLIS NATL GUARD ARMORY,VTD2010-091-0102,National Guard Armory,2010,one_to_one_inventory_global_assignment,70.83333333333333,
+2006,MARENGO,DEMOPOLIS WESTSIDE  ELEMENTARY,VTD2010-091-0201,Westside School,2010,one_to_one_inventory_global_assignment,85.5,
+2006,MARENGO,DIXONS MILLS,VTD2010-091-0408,Dixon's Mill,2010,fuzzy_name,91.66666666666666,42.57575757575757
+2006,MARENGO,FAUNSDALE TOWN OFFICE,VTD2010-091-0302,Faunsdale,2010,fuzzy_name,90.0,38.7
+2006,MARENGO,FLATWOOD COMMUNITY CENTER,VTD2010-091-0403,Flatwoods Voting Booth,2010,one_to_one_inventory_global_assignment,55.319148936170215,
+2006,MARENGO,HOBOKEN VOTING BOOTH,VTD2010-091-0505,Hoboken,2010,fuzzy_name,90.0,18.57142857142857
+2006,MARENGO,JEFFERSON VOLUNTEER FIRE,VTD2010-091-0501,Jefferson,2010,fuzzy_name,90.0,41.142857142857146
+2006,MARENGO,LINDEN OLD COURTHOUSE BUILDING,VTD2010-091-0502,Old Linden Courthouse,2010,fuzzy_name,95.0,43.57142857142858
+2006,MARENGO,MAGNOLIA COMMUNITY CENTER,VTD2010-091-0405,Magnolia,2010,fuzzy_name_district_constraint,90.0,100.0
+2006,MARENGO,MCKINLEY TAYLORVILLE COM. CTR,VTD2010-091-0402,Taylorville Voting Booth,2010,one_to_one_inventory_global_assignment,59.71428571428571,
+2006,MARENGO,MYRTLEWOOD COMMUNITY CENTER,VTD2010-091-0511,Myrtlewood,2010,fuzzy_name_district_constraint,90.0,100.0
+2006,MARENGO,NANAFALIA COMMUNITY CENTER,VTD2010-091-0508,Nanafalia,2010,fuzzy_name_district_constraint,90.0,100.0
+2006,MARENGO,OCTAGON VOTING BOOTH,VTD2010-091-0409,Octagon,2010,fuzzy_name,90.0,17.272727272727266
+2006,MARENGO,PUTMAN VOTING BOOTH,VTD2010-091-0507,Putnam,2010,one_to_one_inventory_global_assignment,72.0,
+2006,MARENGO,RANGE LINE VOTING BOOTH,VTD2010-091-0306,Rangeline,2010,one_to_one_inventory_global_assignment,80.0,
+2006,MARENGO,SPRINGHILL VOLUNTEER FIRE,VTD2010-091-0204,Springhill Voting Booth,2010,one_to_one_inventory_global_assignment,62.5,
+2006,MARENGO,SURGINER COMM. CENTER,VTD2010-091-0407,Surginer,2010,fuzzy_name_district_constraint,90.0,99.99998402376325
+2006,MARENGO,SWEET WATER TOWN OFFICE,VTD2010-091-0504,Sweet Water,2010,fuzzy_name,90.0,45.0
+2006,MARENGO,THOMASTON LUNCH ROOM,VTD2010-091-0401,Thomaston,2010,fuzzy_name,90.0,27.818181818181813
+2006,MARENGO,V F W / HWY 43,VTD2010-091-0301,VFW,2010,one_to_one_inventory_global_assignment,60.00000000000001,
+2006,MARION,BACCUS,VTD2010-093-13,Baccus,2010,exact_name,100.0,100.0
+2006,MARION,BARNSVILLE,VTD2010-093-17,Barnsville Church,2010,fuzzy_name,90.0,25.875
+2006,MARION,BEAR CREEK,VTD2010-093-8,Bear Creek City Hall,2010,fuzzy_name,90.0,36.0
+2006,MARION,BEXAR,VTD2010-093-4,Old Bexar Post Office,2010,fuzzy_name,90.0,10.0
+2006,MARION,BRILLIANT,VTD2010-093-18,Brilliant Community Center,2010,fuzzy_name,90.0,36.5625
+2006,MARION,CLARK,VTD2010-093-9N,Craft Comm Building,2010,one_to_one_inventory_global_assignment,51.42857142857142,
+2006,MARION,E_T_ SIMS JR_ BUILDING .1,VTD2010-093-1S,Hamilton Neighborhood Facilities Bldg,2010,one_to_one_inventory_global_assignment,85.5,
+2006,MARION,E_T_ SIMS JR_ BUILDING .2,VTD2010-093-1N,Neighborhood Facilities Bldg,2010,one_to_one_inventory_global_assignment,51.85185185185186,
+2006,MARION,GUIN,VTD2010-093-15,City Hall-Guin,2010,fuzzy_name,90.0,22.5
+2006,MARION,HACKLEBURG,VTD2010-093-7,Hackleburg City Hall,2010,fuzzy_name,90.0,50.0
+2006,MARION,HOWELL,VTD2010-093-10,Sullins Church,2010,one_to_one_inventory_global_assignment,42.75,
+2006,MARION,KEMP,VTD2010-093-3,Kemp Pleasent Site Church,2010,fuzzy_name,90.0,41.142857142857146
+2006,MARION,KIMBROUGH .1,VTD2010-093-9S,Kimbrough Craft Comm Building,2010,one_to_one_inventory_global_assignment,85.71428571428571,
+2006,MARION,KIMBROUGH .2,VTD2010-093-12,Piney Grove Church,2010,one_to_one_inventory_global_assignment,34.48275862068966,
+2006,MARION,PEARCES MILL,VTD2010-093-11,Pea Ridge Fire Station,2010,one_to_one_inventory_global_assignment,52.5,
+2006,MARION,PIKEVILLE,VTD2010-093-16,Pikeville Liberty Church,2010,fuzzy_name,90.0,28.928571428571423
+2006,MARION,RYE,VTD2010-093-2,Byrd FD,2010,one_to_one_inventory_global_assignment,68.4,
+2006,MARION,SHILOH,VTD2010-093-6,Shiloh Community Center,2010,fuzzy_name,90.0,30.0
+2006,MARION,SHOTTSVILLE,VTD2010-093-5,Shottsville Fire Dept,2010,fuzzy_name,90.0,36.5625
+2006,MARION,WIGINTON,VTD2010-093-19,Wiginton Community Bldg,2010,fuzzy_name,90.0,40.909090909090914
+2006,MARION,WINFIELD,VTD2010-093-14,Winfield Community Center,2010,fuzzy_name,90.0,36.5625
+2006,SUMTER,BELLAMY COMMUNITY C,VTD2010-119-5,Bellamy Community Center,2010,fuzzy_name,89.72222222222221,23.055555555555543
+2006,SUMTER,BOYD TRAILER,VTD2010-119-8,Boyd Voting Trailer,2010,one_to_one_inventory_global_assignment,85.5,
+2006,SUMTER,COATOPA BEL FIRE DE,VTD2010-119-6,Coatopa Fire Dept,2010,one_to_one_inventory_global_assignment,73.54838709677419,
+2006,SUMTER,CUBA COMMUNITY CENT,VTD2010-119-3,Cuba City Hall,2010,one_to_one_inventory_global_assignment,60.60606060606061,
+2006,SUMTER,EMELLE SUMT TOWN HA,VTD2010-119-9,Emelle City Hall,2010,one_to_one_inventory_global_assignment,62.85714285714285,
+2006,SUMTER,EPES COMMUNITY CENT,VTD2010-119-10,Epes Community Center,2010,fuzzy_name,95.0,18.80952380952381
+2006,SUMTER,GAINESVILLE COMMUNI,VTD2010-119-11,Gainesville City Hall,2010,one_to_one_inventory_global_assignment,70.0,
+2006,SUMTER,GEIGER TOWN HALL,VTD2010-119-12,Geiger City Hall,2010,one_to_one_inventory_global_assignment,81.25,
+2006,SUMTER,LIVINGSTON CIVIC CE,VTD2010-119-7,Livingston Community Center,2010,one_to_one_inventory_global_assignment,69.56521739130434,
+2006,SUMTER,PANOLA TRAILER,VTD2010-119-13,Panola Community Center,2010,one_to_one_inventory_global_assignment,85.5,
+2006,SUMTER,WARD COMMUNITY CENT,VTD2010-119-2,Ward Fire Station,2010,one_to_one_inventory_global_assignment,47.5,
+2006,SUMTER,WHITFIELD TRAILER,VTD2010-119-1,Whitfield Community Center,2010,one_to_one_inventory_global_assignment,85.5,
+2006,SUMTER,YORK COLEMAN,VTD2010-119-4,York Hightower Center,2010,one_to_one_inventory_global_assignment,85.5,
+2006,WALKER,ABUNDANT LIFE CH,VTD2010-127-30,Abundant Life Church,2010,exact_name,100.0,100.0
+2006,WALKER,ARGO FIRE DEPT_,VTD2010-127-42,Argo Fire Department,2010,exact_name,100.0,100.0
+2006,WALKER,BEVILL STATE TECH_,VTD2010-127-37,Bevill St Tech Voting District,2010,one_to_one_inventory_global_assignment,85.5,
+2006,WALKER,BOLDO COMM_ BLDG_,VTD2010-127-28,Boldo Comm Bldg,2010,exact_name,100.0,100.0
+2006,WALKER,CARBON HILL METHODIST,VTD2010-127-5,Carbon Hill Community Center Voting District,2010,one_to_one_inventory_global_assignment,85.5,
+2006,WALKER,COPELAND FERRY FD,VTD2010-127-19,Copeland Ferry Fire Dept,2010,exact_name,100.0,100.0
+2006,WALKER,CORDOVA VFW BLDG,VTD2010-127-12,Cordova VFW,2010,fuzzy_name,90.0,30.90909090909092
+2006,WALKER,CORONA BAPTIST CHURCH,VTD2010-127-18,Corona Baptist Church,2010,exact_name,100.0,100.0
+2006,WALKER,CURRY-COMM_ CTR_,VTD2010-127-17,Curry Smith Lake,2010,one_to_one_inventory_global_assignment,57.89473684210527,
+2006,WALKER,DILLWORTH COMM_ BLDG_,VTD2010-127-38,Dillworth Community Building,2010,exact_name,100.0,100.0
+2006,WALKER,DORA CIVIC CENTER,VTD2010-127-13,Dora Civic Center,2010,exact_name,100.0,100.0
+2006,WALKER,ELDRIDGE CITY HALL,VTD2010-127-25,Eldridge City Hall,2010,exact_name,100.0,100.0
+2006,WALKER,EMPIRE UNION BLDG_,VTD2010-127-16,Empire Union Bldg,2010,exact_name,100.0,100.0
+2006,WALKER,FARMSTEAD SCHOOL,VTD2010-127-2,Farmstead School Voting District,2010,fuzzy_name_district_constraint,90.0,99.99999999999989
+2006,WALKER,JASPER MALL,VTD2010-127-1,Jasper Mall Voting District,2010,fuzzy_name,90.0,39.70588235294117
+2006,WALKER,KANSAS CITY HALL,VTD2010-127-26,Kansas City Hall,2010,exact_name,100.0,100.0
+2006,WALKER,LIBERTY GROVE BAPT_ CH,VTD2010-127-33,Crossroads Church of Christ Voting District,2010,one_to_one_inventory_global_assignment,85.5,
+2006,WALKER,LIBERTY HILL CHURCH,VTD2010-127-20,Liberty Hill Church Voting District,2010,fuzzy_name_district_constraint,90.0,100.0
+2006,WALKER,MACEDONIA CH OF CHRIST,VTD2010-127-29,Macedonia Church Of Christ,2010,exact_name,100.0,100.0
+2006,WALKER,MANCHESTER COMM_ BLDG,VTD2010-127-44,Manchester Community,2010,fuzzy_name,95.0,9.5
+2006,WALKER,MCCOLLUM NAT'L GUARD,VTD2010-127-36,McCollum National Guard Armory,2010,one_to_one_inventory_global_assignment,85.5,
+2006,WALKER,MEADOW/SMITH LIBRARY,VTD2010-127-4,Meadow Smith Library/Frisco Voting District,2010,fuzzy_name,90.0,31.944444444444443
+2006,WALKER,NAUVOO CITY HALL,VTD2010-127-34,Nauvoo City Hall,2010,exact_name,100.0,100.0
+2006,WALKER,NEW BETHANY CH GOD,VTD2010-127-35,New Bethany Church Of God,2010,fuzzy_name,95.0,9.5
+2006,WALKER,NEW HOPE MISSIONARY,VTD2010-127-39,New Hope Missionary Baptist Church Voting District,2010,fuzzy_name,90.0,47.368421052631575
+2006,WALKER,OAKMAN SR CITIZENS,VTD2010-127-9,Oakman Senior Citizens Voting District,2010,one_to_one_inventory_global_assignment,85.5,
+2006,WALKER,OLD HERMAN CHURCH,VTD2010-127-45,Old Herman Church,2010,exact_name,100.0,100.0
+2006,WALKER,PARRISH HS OLD GYM,VTD2010-127-22,Parrish HS Old Gym,2010,exact_name,100.0,100.0
+2006,WALKER,PINEYWOODS FIRE DEPT_,VTD2010-127-43,Pineywoods Fire Dept,2010,exact_name,100.0,100.0
+2006,WALKER,PLEASANTFIELD BAPT_,VTD2010-127-41,Pleasant Field Baptist Church,2010,one_to_one_inventory_global_assignment,84.0,
+2006,WALKER,POCAHONIAS METH_ CH,VTD2010-127-24,Pocahontas Methodist Church,2010,one_to_one_inventory_global_assignment,85.71428571428572,
+2006,WALKER,PROSPECT METH_ CHURCH,VTD2010-127-32,Prospect Methodist Church Voting District,2010,one_to_one_inventory_global_assignment,85.5,
+2006,WALKER,REDMILL COMMUNITY CTR,VTD2010-127-3,Redmill Community Center Voting District,2010,fuzzy_name_district_constraint,90.0,99.99999682949012
+2006,WALKER,RICE'S CHAPEL CH,VTD2010-127-27,Rice's Chapel Church,2010,exact_name,100.0,100.0
+2006,WALKER,SARAGOSSA COMM_ CTR,VTD2010-127-23,Saragoosa Community Center,2010,fuzzy_name,96.15384615384616,10.65384615384616
+2006,WALKER,SIPSEY SCHOOL,VTD2010-127-15,Sipsey School Voting District,2010,fuzzy_name_district_constraint,90.0,99.99999999999996
+2006,WALKER,SWANN GYM,VTD2010-127-7,Memorial Park,2010,one_to_one_inventory_global_assignment,25.909090909090907,
+2006,WALKER,THACH SCHOOL,VTD2010-127-31,Thach School,2010,exact_name,100.0,100.0
+2006,WALKER,TOWNLEY ODD FELLOWS,VTD2010-127-6,Townley Odd Fellows Lodge Voting District,2010,fuzzy_name,90.0,49.090909090909086
+2006,WALKER,TUTWILER FIRE DEPT,VTD2010-127-10,Tutwiler Fire Dept,2010,exact_name,100.0,100.0
+2006,WALKER,TWILLEY TOWN CHURCH,VTD2010-127-21,Twilly Town Church,2010,fuzzy_name,97.2972972972973,11.797297297297304
+2006,WALKER,UNION HALL GOODSPRINGS,VTD2010-127-11,Union Hall/Goodsprings Voting District,2010,fuzzy_name,90.0,38.837209302325576
+2006,WALKER,VALLEY JR_ HIGH,VTD2010-127-14,Valley Jr High School Voting District,2010,fuzzy_name,90.0,45.0
+2006,WALKER,WESTSIDE BAPTIST,VTD2010-127-8,Westside Baptist Church,2010,fuzzy_name,95.0,9.5
+2006,WALKER,WOODS MOBILE HOME,VTD2010-127-40,Walker Co Emergency Management Voting District,2010,one_to_one_inventory_global_assignment,37.05882352941176,

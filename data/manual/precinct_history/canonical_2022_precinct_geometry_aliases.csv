@@ -1,0 +1,2 @@
+cycle,county_key,county_fips,precinct_key,geometry_name,review_status,note
+2022,CULLMAN,043,FAIRVIEW TOWN HALL_ L-Z,FAIRVIEW FIRE DEPT_ A-K,approved,"The SOS workbook splits this physical polling location by voter-name range; both rows share the RDH precinct polygon whose label retains the A-K suffix."

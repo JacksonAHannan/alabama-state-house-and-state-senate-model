@@ -1,0 +1,30 @@
+organization,primitive_axis,policy_pole,policy_family,policy_key,constituency_tags_json,mapping_confidence,mapping_note
+National Federation of Independent Business - Alabama,market_governance,market_autonomy,economy_business,nfib_small_business_market_alignment,"[""small_business""]",high,Issue-specific small-business organization; alignment indicates its scored market/regulatory agenda only.
+National Rifle Association Political Victory Fund (NRA-PVF) - Alabama,gun_access,expand,guns,nra_gun_access,"[""rural""]",high,Firearm-access organization.
+National Rifle Association (NRA),gun_access,expand,guns,nra_gun_access,"[""rural""]",high,Firearm-access organization.
+Gun Owners of America (GOA),gun_access,expand,guns,goa_gun_access,"[""rural""]",high,Firearm-access organization.
+Everytown for Gun Safety/Moms Demand Action for Gun Sense in America,gun_purchase_regulation,strengthen,guns,everytown_gun_regulation,[],high,Gun-safety regulation organization.
+AFL-CIO (American Federation of Labor and Congress of Industrial Organizations),labor_rights,expand,labor,labor_union_rights,"[""labor_union""]",high,Labor federation scorecard.
+Alabama AFL-CIO,labor_rights,expand,labor,labor_union_rights,"[""labor_union""]",high,State labor federation endorsement.
+United Automobile Aerospace and Agricultural Implement Workers of America (UAW),labor_rights,expand,labor,labor_union_rights,"[""labor_union""]",high,Labor union endorsement.
+"United Automobile, Aerospace and Agricultural Implement Workers of America (UAW)",labor_rights,expand,labor,labor_union_rights,"[""labor_union""]",high,Labor union endorsement.
+United Mine Workers of America,labor_rights,expand,labor,labor_union_rights,"[""labor_union"",""extractive_industry""]",high,Labor union endorsement.
+American Federation of State County & Municipal Employees (AFSCME),labor_rights,expand,labor,labor_union_rights,"[""labor_union"",""public_employee""]",high,Public-sector labor union.
+"American Federation of State, County & Municipal Employees (AFSCME)",labor_rights,expand,labor,labor_union_rights,"[""labor_union"",""public_employee""]",high,Public-sector labor union.
+American Federation of Government Employees (AFGE),labor_rights,expand,labor,labor_union_rights,"[""labor_union"",""public_employee""]",high,Public-sector labor union.
+Alabama State Employees Association,public_employee_compensation,protect,labor,public_employee_compensation,"[""public_employee""]",high,State-employee organization endorsement.
+League of Conservation Voters,environmental_protection,strengthen,environment,environmental_protection,[],high,Environmental-protection scorecard.
+Planned Parenthood Action Fund,abortion_access,expand,abortion_reproductive,abortion_access,[],high,Reproductive-rights organization.
+National Right to Life Committee,abortion_access,restrict,abortion_reproductive,abortion_access,[],high,Anti-abortion organization.
+NORML (National Organization for the Reform of Marijuana Laws),drug_criminalization,decriminalize,criminal_justice,marijuana_decriminalization,[],high,Marijuana-law reform organization.
+NumbersUSA,immigration_access,restrict,immigration,immigration_restriction,[],high,Immigration-restriction organization.
+The Leadership Conference on Civil and Human Rights,anti_discrimination,expand,civil_rights,anti_discrimination,[],high,Civil-rights coalition scorecard.
+Alliance for Retired Americans,social_security_generosity,expand,social_welfare,retirement_security,"[""senior_citizens""]",medium,Retiree organization; applies to retirement-security agenda only.
+National Taxpayers Union,tax_burden,decrease,taxes_budget,tax_reduction,[],high,Taxpayer scorecard focused on lower taxes and spending.
+Council for Citizens Against Government Waste,public_spending,reduce,taxes_budget,spending_reduction,[],high,Spending-reduction scorecard.
+The Club for Growth,market_governance,market_autonomy,economy_business,market_autonomy,"[""large_business""]",high,Free-market organization.
+Americans for Prosperity,market_governance,market_autonomy,economy_business,market_autonomy,[],high,Free-market advocacy organization.
+FreedomWorks,market_governance,market_autonomy,economy_business,market_autonomy,[],high,Free-market advocacy organization.
+Alabama Farmers Federation,resource_development,expand,environment_resources,agricultural_resource_use,"[""rural"",""agriculture""]",medium,Coalition endorsement is evidence of agricultural alignment; not generic environmental opposition.
+Alabama Forestry Association,resource_development,expand,environment_resources,forestry_resource_use,"[""rural"",""extractive_industry""]",medium,Coalition endorsement is evidence of forestry/resource-development alignment.
+LGBTQ+ Victory Fund,anti_discrimination,expand,civil_rights,lgbtq_anti_discrimination,[],high,LGBTQ political representation and equality organization.

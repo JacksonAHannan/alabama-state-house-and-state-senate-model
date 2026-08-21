@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "roles": {
+    "orchestrator": {
+      "owns": ["AGENTS.md", "project_docs/coordination/"],
+      "notes": "Coordinates tasks; does not override domain evidence or validation gates."
+    },
+    "source_provenance": {
+      "owns": ["data/raw/README.md", "scripts/download_", "scripts/sync_"],
+      "notes": "Raw source files are immutable; acquisition scripts and manifests are reproducible."
+    },
+    "elections_geography": {
+      "owns": ["scripts/*precinct*", "scripts/*geograph*", "data/manual/precinct_history/", "data/processed/precinct_history/", "project_docs/pipelines/PRECINCT_HISTORY_PIPELINE.md"],
+      "notes": "Prepares canonical-ready geography and election observations."
+    },
+    "people_finance": {
+      "owns": ["scripts/*candidate_identity*", "scripts/*finance*", "data/manual/candidates/", "data/manual/finance/", "data/processed/finance/"],
+      "notes": "Owns identity evidence and resource features, not canonical warehouse publication."
+    },
+    "legislative_ideology": {
+      "owns": ["data/manual/ideology/", "data/processed/ideology/", "data/processed/legislative/", "research/cmo_ideology/", "project_docs/methodology/FULL_CANDIDATE_IDEOLOGY.md", "project_docs/pipelines/LEGISCAN_ROLLCALL_PIPELINE.md"],
+      "notes": "Separates source evidence, machine coding, and human adjudication."
+    },
+    "cmo_model": {
+      "owns": ["scripts/*cmo*", "scripts/fit_preliminary_war_model.py", "data/processed/war/preliminary_cmo_", "project_docs/model/CMO_MODEL_CARD.md", "project_docs/model/MODEL_READINESS.md"],
+      "notes": "CMO is candidate margin overperformance, not literal wins above replacement."
+    },
+    "forecast_model": {
+      "owns": ["scripts/*forecast*", "data/processed/war/2026_", "data/processed/war/forecast_", "project_docs/methodology/FORECAST_METHODOLOGY.md", "project_docs/model/2026_FORECAST_READINESS.md"],
+      "notes": "Owns prospective modeling and simulations, not public site publication."
+    },
+    "web_product": {
+      "owns": ["dashboard/", "scripts/build_site.py", "scripts/build_*dashboard.py", "artifacts/site/"],
+      "notes": "Builds release candidates; docs publication remains serialized."
+    },
+    "warehouse_integrator": {
+      "owns": ["scripts/build_election_database.py", "scripts/load_*warehouse.py", "scripts/sync_warehouse_source_registry.py", "project_docs/WAREHOUSE_ARCHITECTURE.md", "project_docs/data_catalog.csv"],
+      "notes": "Sole publisher of canonical warehouse schemas, tables, and views."
+    },
+    "validation_release": {
+      "owns": ["scripts/tests/", "scripts/validate_", "project_docs/audits/"],
+      "notes": "Independent reviewer and release gate owner; docs publication requires approval."
+    }
+  },
+  "serialized_scopes": [
+    "data/processed/elections/alabama_elections.sqlite",
+    "docs/",
+    "project_docs/data_catalog.csv",
+    "project_docs/coordination/active_tasks.csv"
+  ]
+}

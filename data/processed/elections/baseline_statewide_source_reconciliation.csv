@@ -1,10 +1,59 @@
 year,office,party_norm,alabama_sos,openelections,difference_sos_minus_oe,absolute_difference,comparison_status,authoritative_vote_source,certified_canvass_status
+1994,Attorney General,D,1159407.4,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+1994,Commissioner of Agriculture and Industries,D,540940.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+1994,Commissioner of Agriculture and Industries,R,565969.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+1994,Governor,D,590497.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+1994,Governor,R,603157.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+1994,Lieutenant Governor,D,728500.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+1994,Lieutenant Governor,R,441656.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+1994,Secretary of State,D,567898.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+1994,Secretary of State,R,497798.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+1994,State Auditor,D,517445.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+1994,State Auditor,R,539323.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+1994,State Treasurer,D,561788.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+1994,State Treasurer,R,561065.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+1998,Attorney General,D,641185.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+1998,Attorney General,R,648298.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+1998,Governor,D,1415398.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+1998,Governor,R,1218917.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+1998,Secretary of State,D,611500.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+1998,Secretary of State,R,620329.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+1998,State Auditor,D,654908.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+1998,State Auditor,R,554690.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+1998,State Treasurer,D,811003.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+1998,State Treasurer,R,441848.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2002,Attorney General,D,568943.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2002,Attorney General,R,860485.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2002,Governor,D,739002.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2002,Governor,R,743450.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2002,Lieutenant Governor,D,763944.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2002,Lieutenant Governor,R,697527.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2002,Secretary of State,D,689020.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2002,Secretary of State,R,695498.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2002,State Auditor,D,636991.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2002,State Auditor,R,717130.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2002,State Treasurer,D,669865.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2002,State Treasurer,R,731414.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2006,Attorney General,D,485835.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2006,Attorney General,R,544520.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2006,Commissioner of Agriculture and Industries,D,437899.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2006,Commissioner of Agriculture and Industries,R,324771.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2006,Governor,D,426923.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2006,Governor,R,600312.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2006,Lieutenant Governor,D,501054.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2006,Lieutenant Governor,R,493218.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2006,Secretary of State,D,424511.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2006,Secretary of State,R,584102.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2006,State Auditor,D,407277.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2006,State Auditor,R,508169.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2006,State Treasurer,D,361619.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2006,State Treasurer,R,582422.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
 2010,Attorney General,D,605650.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
 2010,Attorney General,R,868331.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
 2010,Governor,D,625052.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
 2010,Governor,R,860272.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
-2014,Attorney General,D,497969.0,412061.0,85908.0,85908.0,different,alabama_sos_official_precinct,separate_canvass_comparison_pending
-2014,Attorney General,R,657200.0,577763.0,79437.0,79437.0,different,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2014,Attorney General,D,590253.0,412061.0,178192.0,178192.0,different,alabama_sos_official_precinct,separate_canvass_comparison_pending
+2014,Attorney General,R,794075.0,577763.0,216312.0,216312.0,different,alabama_sos_official_precinct,separate_canvass_comparison_pending
 2014,Commissioner of Agriculture and Industries,D,262739.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
 2014,Commissioner of Agriculture and Industries,R,530666.0,,,,secondary_missing,alabama_sos_official_precinct,separate_canvass_comparison_pending
 2014,Governor,D,604497.0,445644.0,158853.0,158853.0,different,alabama_sos_official_precinct,separate_canvass_comparison_pending

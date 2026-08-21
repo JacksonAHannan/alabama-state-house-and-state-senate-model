@@ -1,5 +1,13 @@
 test_cycle,nominal_coverage,calibration_races,test_races,interval_radius,empirical_coverage,method
-2018,0.8,58,64,38.77817305781912,0.875,expanding_window_split_conformal
-2018,0.95,58,64,91.8073278846586,1.0,expanding_window_split_conformal
-2022,0.8,122,33,36.62904780605531,1.0,expanding_window_split_conformal
-2022,0.95,122,33,53.54057905574085,1.0,expanding_window_split_conformal
+2002,0.8,85,74,26.941469169970414,0.8378378378378378,expanding_window_split_conformal
+2002,0.95,85,74,39.976955868543705,0.9594594594594594,expanding_window_split_conformal
+2006,0.8,159,62,25.58343017588929,0.8064516129032258,expanding_window_split_conformal
+2006,0.95,159,62,39.86370849829993,0.9516129032258065,expanding_window_split_conformal
+2010,0.8,221,63,25.58343017588929,0.6984126984126984,expanding_window_split_conformal
+2010,0.95,221,63,39.86370849829993,0.9523809523809523,expanding_window_split_conformal
+2014,0.8,284,56,27.03383296508964,0.8928571428571429,expanding_window_split_conformal
+2014,0.95,284,56,39.86370849829993,0.9821428571428571,expanding_window_split_conformal
+2018,0.8,340,64,26.256903267426566,0.984375,expanding_window_split_conformal
+2018,0.95,340,64,39.26307791128086,1.0,expanding_window_split_conformal
+2022,0.8,404,33,24.098517591851323,1.0,expanding_window_split_conformal
+2022,0.95,404,33,38.08972453809371,1.0,expanding_window_split_conformal

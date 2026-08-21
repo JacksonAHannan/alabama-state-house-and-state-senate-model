@@ -20,12 +20,18 @@ research.
 See [the detailed repository layout](project_docs/REPOSITORY_LAYOUT.md) before
 adding a new source or generated artifact.
 
+For coordinated or parallel agent work, follow the
+[dedicated agent workflow](project_docs/coordination/AGENT_WORKFLOW.md). It
+defines domain ownership, task and handoff contracts, the single-writer
+warehouse rule, and independent release gates.
+
 ## Common commands
 
 ```powershell
 python scripts/build_site.py
 python -m pytest -q
 python scripts/audit_repository_paths.py
+python scripts/validate_agent_workflow.py
 ```
 
 The public site is generated into `docs/`. Standalone copies are written under

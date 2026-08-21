@@ -12,6 +12,7 @@ BUILDERS = [
     "build_2026_forecast_dashboard.py",
     "build_war_story_page.py",
     "build_legislator_ideology_page.py",
+    "build_ideology_performance_page.py",
 ]
 
 

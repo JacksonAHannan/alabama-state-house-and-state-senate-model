@@ -94,8 +94,8 @@ equals the candidate election year. A 1998 response is never backfilled into a
 
 ## Initial build status
 
-The current deterministic pass maps 528 of 1,729 distinct year-items, scores
-10,582 candidate responses, and produces 187 same-election candidate-cycle
+The current deterministic pass maps 589 of 1,729 distinct year-items, scores
+11,104 candidate responses, and produces 188 same-election candidate-cycle
 profiles. The expanded pass includes ordinal budget/tax batteries and reviewed
 rules for education, welfare, health care, environmental policy, and criminal
 justice. Another 2,473 responses are retained as position-only evidence.
@@ -148,3 +148,60 @@ came from attempts to force campaign-process questions onto a generic ideology
 scale. The result supports using these models to surface possible mappings and
 disagreements, while retaining controlled rules and human adjudication as the
 authority.
+
+The complete grouped pass evaluated 714 normalized remaining wordings with
+Qwen 9B and sent Qwen's 446 claimed-scorable groups to Ministral 8B. Qwen's
+direction distribution failed a basic calibration check: it assigned 605 groups
+to the progressive direction and none to the conservative direction. Ministral
+used both directions, but the models agreed on the core fields for only 117
+normalized groups, and manual checks found incorrect agreements on concealed
+carry, teacher merit pay, estate-tax repeal, voter identification, Keystone XL,
+and death-row appeals. Consequently, agreement was not auto-accepted.
+
+`votesmart_pct_adjudication_audit.csv` assigns every year-item a disposition:
+
+- 589 accepted deterministic ideological rules;
+- 66 accepted position-only items;
+- 147 accepted non-scorable items;
+- 122 model-agreement items that still require a controlled rule; and
+- 805 model-disagreement items requiring review.
+
+This is complete model evaluation coverage, not complete ideological scoring.
+The distinction prevents token volume or model agreement from substituting for
+measurement validity.
+
+## Multi-axis redesign (ontology 2.0)
+
+The original left/right item coding is retained as a legacy, reproducible
+artifact, but new adjudications no longer force every position into a single
+progressive/conservative polarity. The versioned descriptive ontology permits
+multiple axis/pole effects on the same item. Economic structure separates
+market intervention, welfare generosity, business scale, labor/capital
+alignment, tax distribution, and public/private provision. Childcare is a
+first-class domain. Environmental coding separately represents pollution
+protection, preservation, resource development and management, property
+rights, climate/energy, and hunting or rural recreation.
+
+Two small local models (`gemma2:2b` and `alibayram/smollm3`) make independent
+initial proposals. Only disagreements, low-confidence outputs, quote failures,
+or explicit review flags are escalated to `ministral-3:8b`. Qwen is excluded
+from this redesigned cascade because its earlier direction output failed
+calibration. All model outputs—including agreements and Ministral escalations—
+remain proposals requiring human review. Any scalar ideology measure must be a
+separate, documented derivation from descriptive positions rather than an item
+classification primitive.
+
+Direct review of the 23 complete-disagreement items added narrow primitives for
+campaign-finance restrictions, drug criminalization, public-employee
+compensation, tax burden, public spending, emergency preparedness, redistricting
+governance, marriage equality, and renewable-energy support. Ordinal tax and
+spending batteries retain an explicit response mode; the category name alone is
+not treated as a yes/no policy position.
+
+The additive small-model consensus remains provisional. Its assignment of the
+welfare domain to 58 of 114 items and the welfare-policy axis to 70 items is a
+clear overgeneralization failure. These rows are useful for queue reduction and
+review organization but are not eligible for final CMO scoring without direct
+text review or a controlled lexical rule. The combined adjudication audit marks
+each row as either `direct_text_review` or `model_consensus_provisional` so that
+downstream code cannot silently treat the two authorities as equivalent.

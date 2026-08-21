@@ -1,0 +1,13 @@
+check,passed,detail
+every_archive_bill_has_one_terminal_disposition,True,archive=28833 ledger=28833 unique=28833
+non_rollcall_bills_explicitly_non_scoring,True,non_rollcall=19717
+archive_scoring_requires_frontier_reviewed_rollcall,True,eligible_bills=5227
+all_rollcalls_have_terminal_output,True,input=42391 output=42391
+all_linked_rollcall_bills_frontier_reviewed,True,linked=9116 missing=0
+every_output_has_terminal_decision,True,"{'exclude': 41483, 'map': 993}"
+all_mapped_poles_validate,True,mapped_rows=993
+no_contradictory_mapped_poles,True,contradictory_rollcall_axes=0
+legislative_evidence_uses_frontier_authority,True,evidence_rows=9561
+legislative_evidence_ids_unique,True,duplicates=0
+candidate_issue_profiles_unique,True,profiles=8577
+explicit_insufficient_text_retained,True,bill_unknowns=2

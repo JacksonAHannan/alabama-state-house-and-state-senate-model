@@ -2,7 +2,8 @@
 
 ## Intended use
 
-Candidate Margin Overperformance (CMO) is a retrospective index for contested
+Candidate Margin Overperformance (CMO) is a retrospective candidate-strength
+index for contested
 Democratic-versus-Republican Alabama House and Senate general elections from
 1994 through 2022. It measures two-party margin percentage points above or
 below a cross-fitted model expectation. The 1998–2022 series is the core
@@ -10,15 +11,31 @@ historical tier. Fitted 1994 scores are a sensitivity tier because their
 geographic and prior-presidential features use substantially more fallback
 allocation.
 
-CMO is not wins above replacement, a causal candidate effect, a forecast, or a
-ranking of every legislator. Uncontested and non-D/R races are not scored.
+CMO is not wins above replacement, a fully identified causal candidate effect,
+a forecast, or a ranking of every legislator. It is the candidate-attributable
+electoral signal left after removing measured district and election context.
+That signal can include strategic positioning, biography, campaign skill,
+constituent relationships, and opponent weakness. Uncontested and non-D/R
+races are not scored.
+
+The complete inventory of proposed explanatory and predictive variables,
+including their timing and endogeneity classifications, is maintained in
+`project_docs/model/CMO_HYPOTHESIS_REGISTRY.md` and its machine-readable CSV.
 
 ## Scores
 
-- **Total CMO** is the headline score. It adjusts for incumbency, prior
-  presidential margin and trend, demographics, cycle, and chamber, but excludes
-  spending because fundraising and spending may be consequences of candidate
-  strength and competitiveness.
+- **Total CMO** is the headline, selection-aware candidate-strength score.
+  It adjusts for prior presidential margin and trend, demographics, cycle, and
+  chamber. It deliberately does not adjust for incumbency or prior candidate
+  performance: winning office and surviving to run again are partly downstream
+  of candidate strength, so controlling them away would bake survivorship into
+  the score.
+- **Predictive Total** retains the former party-specific incumbency controls.
+  It is the better election-outcome predictor, but is no longer interpreted as
+  the candidate-performance estimand.
+- **Candidate-history forecast** adds strictly lagged prior contested
+  overperformance, prior unopposed status, and first-term/established-incumbent
+  indicators. It is a forecast sensitivity, not a CMO ranking.
 - **Resource-adjusted CMO** additionally adjusts for the D/R spending balance.
 - **Fundraising-adjusted CMO** is a sensitivity specification using
   FollowTheMoney candidate fundraising totals. Missing FTM candidates remain
@@ -38,12 +55,17 @@ tests are the primary evidence about transfer across election environments.
 
 ## Important limitations
 
-Current all-years build (August 2026): 511 contested races across eight cycles.
-Total CMO random-fold MAE is 13.91 points (R² 0.331); leave-cycle-out MAE is
-15.10 (R² 0.231). Forward MAE after 1998 ranges from 9.69 to 20.81 points, so
-the index is useful retrospectively but is not uniformly predictive across new
-election environments. Nine rows with positive incumbent matches for both
-parties are neutralized and carry an `incumbency_conflict` flag.
+Current all-years build (August 2026): 509 model-eligible contested races across
+eight cycles. Selection-aware Total CMO random-fold MAE is 15.92 points
+(R² 0.153); leave-cycle-out MAE is 16.92 (R² 0.067). Predictive Total performs
+better, at 13.79 random-fold MAE and 15.60 leave-cycle-out MAE. This difference
+is expected because Total CMO no longer conditions away incumbent selection.
+Mean true-forward MAE is 16.71 for Total CMO, 15.79 for Predictive Total, and
+16.07 for the candidate-history forecast, so lagged history has not cleared the
+gate for promotion as the production forecast. The index is useful
+retrospectively but is not uniformly predictive across new election
+environments. Nine rows with positive incumbent matches for both parties are
+neutralized and carry an `incumbency_conflict` flag.
 
 - The fitted canonical build contains eight cycles. Official 2008 presidential
   precinct results are normalized, but historical finance coverage remains
@@ -100,5 +122,8 @@ parties are neutralized and carry an `incumbency_conflict` flag.
 Public rankings must use Total CMO OOF, show resource-adjusted CMO separately,
 call the uncertainty display a stability band, disclose source-quality flags,
 and publish random, district-grouped, leave-cycle-out, forward, and benchmark
-diagnostics. A negative leave-cycle-out R-squared blocks claims that the model
-generalizes to unseen election eras; it does not invalidate descriptive use.
+diagnostics. Predictive Total must not be substituted for Total CMO in candidate
+rankings, and Total CMO's weaker predictive fit must not be described as a
+forecast failure: the two specifications answer different questions. A
+negative leave-cycle-out R-squared blocks claims that a model generalizes to
+unseen election eras; it does not invalidate descriptive use.

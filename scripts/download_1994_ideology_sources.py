@@ -22,6 +22,16 @@ OBSERVATIONS = ROOT / "data" / "manual" / "ideology" / "alabama_1994_candidate_o
 
 SOURCES = (
     {
+        "source_id": "AL1994-TREASURED-FORESTS-ROSTER",
+        "organization": "Alabama Forestry Commission",
+        "url": "https://www.forestry.alabama.gov/Pages/Informational/Treasured_Forests/Magazine/1994_Fall.pdf",
+        "filename": "alabama_treasured_forests_fall_1994.pdf",
+        "resource_type": "contemporaneous_candidate_roster",
+        "candidate_level_data_available_online": True,
+        "target_material": "Full names, parties, districts, and incumbent markers for 1994 Alabama House and Senate general-election candidates",
+        "acquisition_status": "public_digitized",
+    },
+    {
         "source_id": "AL1994-TRENHOLM-GWEN-PATTON",
         "organization": "Alabama New South Coalition",
         "url": "https://library.trenholmstate.edu/gwen-patton-collection",

@@ -17,7 +17,12 @@ def test_public_views_use_partial_and_full_cmo_expectation():
     assert set(views.specification) == {
         "cmo_expectation__blend20", "cmo_expectation__blend100"
     }
-    assert views.groupby("specification").size().eq(47).all()
+    expected = forecast.loc[
+        forecast.specification.eq("basic_polling_100"),
+        ["chamber", "district"],
+    ].drop_duplicates().shape[0]
+    assert expected > 0
+    assert views.groupby("specification").size().eq(expected).all()
 
 
 def test_sd2_smell_test_and_decomposition():

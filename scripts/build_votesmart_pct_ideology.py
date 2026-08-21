@@ -95,6 +95,10 @@ RULES = (
     Rule("economic_homeowner_assistance", "economic_ideology", r"direct financial assistance to homeowners", -1),
     Rule("economic_welfare_drug_test", "economic_ideology", r"welfare applicants? to pass a drug test", 1),
     Rule("economic_flat_income_tax", "economic_ideology", r"flat tax structure.*income tax", 1),
+    Rule("economic_flat_federal_income_tax", "economic_ideology", r"replacing the us income tax structure with a flat income tax", 1),
+    Rule("economic_income_tax_increase", "economic_ideology", r"income tax increase on any tax bracket", -1),
+    Rule("economic_estate_tax_repeal", "economic_ideology", r"repeal of the federal estate tax", 1),
+    Rule("economic_social_security_private_accounts", "economic_ideology", r"divert a portion of their social security taxes into personal retirement", 1),
     Rule("economic_internet_sales_tax", "economic_ideology", r"internet sales be taxed", -1),
     Rule("economic_extend_internet_sales_tax", "economic_ideology", r"sales taxes be extended to internet sales", -1),
     Rule("economic_tort_damage_limits", "economic_ideology", r"limits? (?:on )?(?:cash )?damages?.*(?:lawsuits|malpractice)|limit the amount of damages.*malpractice", 1),
@@ -115,6 +119,8 @@ RULES = (
     Rule("labor_collective_bargaining", "labor_position", r"collective bargaining", -1),
     Rule("labor_right_to_work", "labor_position", r"right[- ]to[- ]work", 1),
     Rule("social_sexual_orientation_protection", "social_ideology", r"include sexual orientation.*anti-discrimination", -1),
+    Rule("social_sexual_orientation_inclusion", "social_ideology", r"inclusion of sexual orientation.*anti-discrimination", -1),
+    Rule("social_gender_identity_inclusion", "social_ideology", r"inclusion of gender identity.*anti-discrimination", -1),
     Rule("social_same_sex_marriage", "social_ideology", r"same-sex (?:couples|marriage)|marriage between two people of the same sex", -1),
     Rule("social_religious_display", "social_ideology", r"religious (?:symbols|display)|ten commandments", 1, "medium"),
     Rule("social_abstinence_education", "social_ideology", r"sex education.*(?:stress|stresses) abstinence|abstinence-only", 1),
@@ -129,6 +135,8 @@ RULES = (
     Rule("social_head_start", "social_ideology", r"increase (?:state )?funding for head start", -1),
     Rule("social_at_risk_youth_services", "social_ideology", r"funding for community centers and other social agencies.*at-risk youth", -1),
     Rule("social_at_risk_youth_programs", "social_ideology", r"state funding of programs for at-risk youth", -1),
+    Rule("social_confederate_monument_removal", "social_ideology", r"removal of confederate monuments from public spaces", -1),
+    Rule("social_stem_cell_research", "social_ideology", r"(?:state|federal) funding for (?:embryonic )?stem cell research|stem cell research on existing lines", -1, "medium"),
     Rule("education_vouchers", "education_position", r"school vouchers?|vouchers.*school", 1, "medium"),
     Rule("education_charter_schools", "education_position", r"charter schools?", 1, "medium"),
     Rule("education_corporate_investment", "education_position", r"private or corporate investment in public school", 1, "medium"),
@@ -139,6 +147,8 @@ RULES = (
     Rule("education_teacher_salaries", "education_position", r"state funding to increase teacher salaries", -1),
     Rule("education_college_affordability", "education_position", r"state funding for tax incentives and financial aid.*college more affordable", -1),
     Rule("education_teacher_testing_merit_pay", "education_position", r"teacher testing and reward.*merit pay", 1, "medium"),
+    Rule("education_teacher_merit_pay", "education_position", r"merit pay system for teachers", 1, "medium"),
+    Rule("education_student_financial_aid", "education_position", r"government providing college students with financial aid|increase funding of programs such as pell grants", -1),
     Rule("education_exit_exams", "education_position", r"public schools to administer high school exit exams", 1, "medium"),
     Rule("education_national_testing", "education_position", r"national standards and testing of public school students", 1, "medium"),
     Rule("education_corporporal_punishment", "education_position", r"teachers? to spank|corporal punishment", 1, "medium"),
@@ -155,12 +165,19 @@ RULES = (
     Rule("environment_suspend_unfunded_mandates", "environment_position", r"suspend participation in unfunded.*environmental protection", 1),
     Rule("environment_alternative_fuels", "environment_position", r"increased use of alternative fuel technology", -1),
     Rule("environment_traditional_energy", "environment_position", r"increased production of traditional domestic energy", 1),
+    Rule("environment_alternative_energy_funding", "environment_position", r"state funding for the development of alternative energy", -1),
+    Rule("environment_clean_water_funding", "environment_position", r"state funding for clean drinking water initiatives", -1),
+    Rule("environment_climate_regulation", "environment_position", r"environmental regulations aimed at reducing the effects of climate change", -1),
+    Rule("environment_keystone_pipeline", "environment_position", r"building the keystone xl pipeline", 1),
     Rule("health_medicaid_expansion", "healthcare_position", r"expand(?:ing)? medicaid", -1),
     Rule("health_government_insurance", "healthcare_position", r"government.*health (?:insurance|care)|public health insurance", -1, "medium"),
     Rule("health_basic_access", "healthcare_position", r"ensure that citizens have access to basic health care", -1),
     Rule("health_not_government_responsibility", "healthcare_position", r"medical care to all citizens is not a responsibility of state government", 1),
     Rule("health_hmo_appeal", "healthcare_position", r"patients' right to appeal.*services are denied by their hmo", -1, "medium"),
     Rule("health_hmo_lawsuit", "healthcare_position", r"patients' right to sue their hmos", -1, "medium"),
+    Rule("health_opioid_treatment", "healthcare_position", r"funding for treatment facilities to combat opioid abuse", -1),
+    Rule("health_medical_marijuana", "healthcare_position", r"doctors to prescribe marijuana.*medicinal", -1),
+    Rule("health_assisted_suicide", "healthcare_position", r"physician-assisted suicide|physician assisted suicide|right to choose to die through euthanasia", -1, "medium"),
     Rule("crime_death_penalty", "criminal_justice_position", r"death penalty|capital punishment", 1),
     Rule("crime_mandatory_minimum", "criminal_justice_position", r"mandatory minimum", 1, "medium"),
     Rule("crime_marijuana_legalization", "criminal_justice_position", r"legaliz.*marijuana", -1),
@@ -177,6 +194,10 @@ RULES = (
     Rule("crime_prison_job_training", "criminal_justice_position", r"prison inmates with vocational and job-related skills", -1),
     Rule("crime_chain_gangs", "criminal_justice_position", r"implement chain gangs", 1),
     Rule("crime_meth_precursor_restrictions", "criminal_justice_position", r"restriction of the sale of products used to make methamphetamine", 1),
+    Rule("crime_limit_death_row_appeals", "criminal_justice_position", r"limit the number of appeals allowed to inmates on death row", 1),
+    Rule("immigration_instate_tuition", "immigration_position", r"(?:illegal immigrants|immigrants unlawfully present).*eligible for in-state tuition", -1),
+    Rule("guns_teachers_carry", "guns_position", r"teachers be allowed to bring guns into the classroom", 1, "medium"),
+    Rule("elections_government_id", "government_reform_position", r"government-issued identification in order to vote", 1),
     Rule("elections_photo_id", "government_reform_position", r"photo identification|photo id.*(?:vote|ballot)", 1),
     Rule("government_balanced_budget", "government_reform_position", r"balanced (?:federal )?budget", 1, "medium"),
     Rule("education_mandatory_testing", "education_position", r"mandatory state testing in public schools", 1, "medium"),
@@ -213,9 +234,13 @@ def normalize_text(value: object) -> str:
 def classify_item(option_text: object, section: object = "", question: object = "") -> dict[str, object]:
     normalized = normalize_text(option_text)
     context = " ".join(filter(None, [normalize_text(section), normalize_text(question), normalized]))
-    if not normalized or normalized in {"other", "other or expanded principles"}:
+    if not normalized:
         return {"policy_key": "", "dimension": "", "affirmative_direction": np.nan,
                 "coding_confidence": "", "response_mode": "", "coding_status": "unmapped"}
+    if re.fullmatch(r"(?:other|other or expanded (?:principles|categories))", normalized):
+        return {"policy_key": "open_ended_other", "dimension": "non_scorable",
+                "affirmative_direction": np.nan, "coding_confidence": "high",
+                "response_mode": "", "coding_status": "non_scorable"}
     for rule in RULES:
         target = normalized if rule.response_mode == "ordinal" else context
         if re.search(rule.pattern, target, flags=re.I):

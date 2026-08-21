@@ -1,18 +1,18 @@
 cycle,chamber,office,source_votes_with_join,allocated_votes,allocation_reconciliation_ratio
-2014,house,Attorney General,989824.0,989823.9999999999,0.9999999999999999
-2014,house,Governor,1231185.0,1231184.9999999998,0.9999999999999998
-2014,house,Lieutenant Governor,1176502.0,1176501.9999999998,0.9999999999999998
-2014,house,State Treasurer,784594.0,784593.9999999999,0.9999999999999999
+2014,house,Attorney General,989824.0,989824.0,1.0
+2014,house,Governor,1220949.0,1220949.0,1.0
+2014,house,Lieutenant Governor,1166372.0,1166372.0,1.0
+2014,house,State Treasurer,776031.0,776031.0,1.0
 2014,senate,Attorney General,989824.0,989824.0,1.0
-2014,senate,Governor,1231185.0,1231185.0,1.0
-2014,senate,Lieutenant Governor,1176502.0,1176502.0,1.0
-2014,senate,State Treasurer,784594.0,784594.0,1.0
-2018,house,Attorney General,1705643.0,1705642.9999999998,0.9999999999999999
+2014,senate,Governor,1227937.0,1227937.0,1.0
+2014,senate,Lieutenant Governor,1173359.0,1173359.0,1.0
+2014,senate,State Treasurer,782366.0,782366.0,1.0
+2018,house,Attorney General,1705643.0,1705643.0,1.0
 2018,house,Commissioner of Agriculture and Industries,1080234.0,1080234.0,1.0
-2018,house,Governor,1715287.0,1715286.9999999998,0.9999999999999999
-2018,house,Lieutenant Governor,1703311.0,1703310.9999999998,0.9999999999999999
-2018,house,Secretary of State,1689336.0,1689335.9999999998,0.9999999999999999
-2018,house,State Auditor,1682524.0,1682523.9999999998,0.9999999999999999
+2018,house,Governor,1715287.0,1715287.0,1.0
+2018,house,Lieutenant Governor,1703311.0,1703311.0,1.0
+2018,house,Secretary of State,1689336.0,1689336.0,1.0
+2018,house,State Auditor,1682524.0,1682524.0,1.0
 2018,house,State Treasurer,1083859.0,1083859.0,1.0
 2018,senate,Attorney General,1705643.0,1705643.0,1.0
 2018,senate,Commissioner of Agriculture and Industries,1080234.0,1080234.0,1.0
@@ -21,13 +21,13 @@ cycle,chamber,office,source_votes_with_join,allocated_votes,allocation_reconcili
 2018,senate,Secretary of State,1689336.0,1689336.0,1.0
 2018,senate,State Auditor,1682524.0,1682524.0,1.0
 2018,senate,State Treasurer,1083859.0,1083859.0,1.0
-2022,house,Attorney General,1405968.0,1405967.9999999998,0.9999999999999999
-2022,house,Commissioner of Agriculture and Industries,946155.0,946154.9999999999,0.9999999999999999
-2022,house,Governor,1359893.0,1359892.9999999998,0.9999999999999998
-2022,house,Lieutenant Governor,957534.0,957533.9999999999,0.9999999999999999
-2022,house,Secretary of State,1362129.0,1362128.9999999998,0.9999999999999998
-2022,house,State Auditor,949871.0,949870.9999999999,0.9999999999999999
-2022,house,State Treasurer,946936.0,946935.9999999999,0.9999999999999999
+2022,house,Attorney General,1405968.0,1405968.0,1.0
+2022,house,Commissioner of Agriculture and Industries,946155.0,946155.0,1.0
+2022,house,Governor,1359893.0,1359893.0,1.0
+2022,house,Lieutenant Governor,957534.0,957534.0,1.0
+2022,house,Secretary of State,1362129.0,1362129.0,1.0
+2022,house,State Auditor,949871.0,949871.0,1.0
+2022,house,State Treasurer,946936.0,946936.0,1.0
 2022,senate,Attorney General,1405968.0,1405968.0,1.0
 2022,senate,Commissioner of Agriculture and Industries,946155.0,946155.0,1.0
 2022,senate,Governor,1359893.0,1359893.0,1.0

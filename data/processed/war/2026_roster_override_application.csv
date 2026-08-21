@@ -17,4 +17,6 @@ cycle,chamber,district,party,authoritative_name,resolution,applied
 2026,senate,10,R,Andrew Jones,certified_replaces_misclassified_independent,True
 2026,senate,10,I,Jesse Battles,reclassify_independent,True
 2026,senate,23,R,Thayer Bear Havard Spencer,same_person_certified_name,True
+2026,senate,25,D,Phadra Carson Foster,post_map_reversion_special_primary_certification,True
+2026,senate,25,R,Will Barfoot,post_map_reversion_special_primary_certification,True
 2026,senate,26,D,Kirk Hatcher,replace_conditional_certification,True

@@ -158,8 +158,11 @@ def oe_cycle(data: pd.DataFrame, cycle: int,
             weight_chamber = weight.chamber.iloc[0]
             allocation = geographic_weights[
                 geographic_weights.chamber.eq(weight_chamber)].copy()
+        allocation_columns = ["county_key", "precinct_key", "district", "allocation_weight", "chamber"]
+        if "allocation_method" in allocation:
+            allocation_columns.append("allocation_method")
         merged = statewide.merge(
-            allocation[["county_key", "precinct_key", "district", "allocation_weight", "chamber"]],
+            allocation[allocation_columns],
             on=["county_key", "precinct_key"],
             how="inner",
         )
@@ -266,8 +269,11 @@ def rdh_2022_cycle(root: Path,
         if geographic_weights is not None:
             allocation = geographic_weights[
                 geographic_weights.chamber.eq(chamber)].copy()
+        allocation_columns = ["county_key", "precinct_key", "district", "allocation_weight"]
+        if "allocation_method" in allocation:
+            allocation_columns.append("allocation_method")
         merged = statewide_long.merge(
-            allocation[["county_key", "precinct_key", "district", "allocation_weight"]],
+            allocation[allocation_columns],
             on=["county_key", "precinct_key"],
             how="inner",
         )
@@ -347,6 +353,19 @@ def race_tables(candidate_results: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataF
 
 
 def baseline_tables(allocations: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
+    if "allocation_method" not in allocations:
+        allocations = allocations.copy()
+        allocations["allocation_method"] = "legislative_activity"
+    allocations["fallback_allocated_votes"] = np.where(
+        allocations.allocation_method.str.contains("county_population_fallback", regex=False),
+        allocations.allocated_votes,
+        0.0,
+    )
+    allocations["activity_fallback_allocated_votes"] = np.where(
+        allocations.allocation_method.eq("split_legislative_activity_fallback"),
+        allocations.allocated_votes,
+        0.0,
+    )
     office_party = (
         allocations.groupby(["cycle", "chamber", "district", "office", "party_norm"], as_index=False)["allocated_votes"]
         .sum()
@@ -366,6 +385,36 @@ def baseline_tables(allocations: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFra
     )
     office_party["contested_dr"] = office_party["office_dem_margin"].notna()
     office_party["core_office"] = office_party["office"].isin(CORE_BASELINE_OFFICES)
+    fallback = (allocations.groupby(
+        ["cycle", "chamber", "district", "office"], as_index=False
+    ).agg(total_allocated_votes=("allocated_votes", "sum"),
+          fallback_allocated_votes=("fallback_allocated_votes", "sum"),
+          activity_fallback_allocated_votes=("activity_fallback_allocated_votes", "sum")))
+    fallback["baseline_fallback_share"] = (
+        fallback.fallback_allocated_votes /
+        fallback.total_allocated_votes.where(fallback.total_allocated_votes.gt(0))
+    )
+    fallback["activity_split_fallback_share"] = (
+        fallback.activity_fallback_allocated_votes /
+        fallback.total_allocated_votes.where(fallback.total_allocated_votes.gt(0))
+    )
+    def summarize_method(values: pd.Series) -> str:
+        methods = set(values)
+        if "split_county_population_fallback" in methods:
+            return "reported_district_with_county_split_fallback"
+        if "split_legislative_activity_fallback" in methods:
+            return "reported_district_with_activity_split_fallback"
+        if "split_precinct_block_population" in methods:
+            return "reported_district_with_population_splits"
+        return "reported_single_district"
+    method = (allocations.groupby(
+        ["cycle", "chamber", "district", "office"], as_index=False
+    ).allocation_method.agg(summarize_method))
+    office_party = office_party.merge(
+        fallback[["cycle", "chamber", "district", "office", "baseline_fallback_share",
+                  "activity_split_fallback_share"]],
+        on=["cycle", "chamber", "district", "office"], validate="one_to_one"
+    ).merge(method, on=["cycle", "chamber", "district", "office"], validate="one_to_one")
 
     contested = office_party[office_party["contested_dr"]]
     expanded = contested.groupby(["cycle", "chamber", "district"]).agg(

@@ -1,4 +1,4 @@
-"""Extract precinct-level President vote totals from an OpenElections CSV.
+"""Extract precinct-level President vote totals from a normalized election CSV.
 
 Replaces normalize_2012_president.py's raw Secretary-of-State-zip parsing:
 2012, 2016, and 2020 President results all come from the same normalized
@@ -27,6 +27,7 @@ YEAR_FILENAMES = {
     2016: "20161108__al__general__precinct.csv",
     2020: "20201103__al__general__precinct.csv",
 }
+SOS_NORMALIZED_YEARS = {2008}
 
 # Mapping of exact candidate names to party for President rows where party is null.
 # This is needed because 2012 OE data has no party field for President rows.
@@ -125,13 +126,35 @@ def extract_president_precinct_votes(oe_csv_path: Path) -> pd.DataFrame:
     return pivot[["county_key", "precinct_key", "dem_votes", "rep_votes", "two_party_votes", "pres_dem_margin"]]
 
 
+def extract_sos_president_precinct_votes(path: Path) -> pd.DataFrame:
+    """Build the same compact D/R precinct table from an SOS-normalized file."""
+    data = pd.read_csv(path)
+    president = data[data["office"].eq("President") & data["party_norm"].isin(["D", "R"])]
+    pivot = (president.groupby(["county_key", "precinct_key", "party_norm"], as_index=False).votes.sum()
+             .pivot(index=["county_key", "precinct_key"], columns="party_norm", values="votes")
+             .fillna(0).reset_index())
+    for column in ["D", "R"]:
+        if column not in pivot:
+            pivot[column] = 0.0
+    pivot = pivot.rename(columns={"D": "dem_votes", "R": "rep_votes"})
+    pivot["two_party_votes"] = pivot.dem_votes + pivot.rep_votes
+    pivot["pres_dem_margin"] = 100 * (pivot.dem_votes - pivot.rep_votes) / pivot.two_party_votes.where(
+        pivot.two_party_votes > 0)
+    return pivot[["county_key", "precinct_key", "dem_votes", "rep_votes", "two_party_votes", "pres_dem_margin"]]
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
-    parser.add_argument("--year", type=int, required=True, choices=sorted(YEAR_FILENAMES))
+    parser.add_argument("--year", type=int, required=True,
+                        choices=sorted(set(YEAR_FILENAMES) | SOS_NORMALIZED_YEARS))
     args = parser.parse_args()
-    source = args.root / "data" / "raw" / "openelections" / YEAR_FILENAMES[args.year]
-    result = extract_president_precinct_votes(source)
+    if args.year in SOS_NORMALIZED_YEARS:
+        source = args.root / "data" / "raw" / "sos_normalized" / f"{args.year}_general_precinct.csv"
+        result = extract_sos_president_precinct_votes(source)
+    else:
+        source = args.root / "data" / "raw" / "openelections" / YEAR_FILENAMES[args.year]
+        result = extract_president_precinct_votes(source)
     output_dir = args.root / "data" / "processed" / "presidential"
     output_dir.mkdir(parents=True, exist_ok=True)
     result.to_csv(output_dir / f"{args.year}_president_precinct.csv", index=False)

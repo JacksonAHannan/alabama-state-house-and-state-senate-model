@@ -1,0 +1,20 @@
+review_id,election_year,normalized_option,decision,dimension,affirmative_direction,policy_key,confidence,reviewer_notes,reviewed_at_utc
+B4C11C285F3DA7B1,1998,provide tax incentives to small businesses that provide health care to their employees.,ideological,healthcare_position,-1.0,progressive,medium,"We should add a populist axis to some of these, as emphasis on ""small business"" is somewhat of a ""little guy vs big guy"" issue that plays well and isn't entirely left-right ideological.",2026-08-17T01:14:24.803619+00:00
+9420CEB59F3A5B54,1998,provide tax credits for businesses that provide child care for their employees.,ideological,education_position,-1.0,,medium,Need to add a childcare dimension,2026-08-17T01:16:02.778494+00:00
+DC24DA6CE8CE0373,1998,deny or suspend state-issued permits and licenses to parents who are delinquent in paying court-ordered child support.,ideological,criminal_justice_position,1.0,,medium,,2026-08-17T01:16:23.795332+00:00
+63383E8D3ECED2DE,1998,provide tax incentives to businesses that hire welfare recipients.,ideological,economic_ideology,-1.0,,medium,Need to add welfare dimension,2026-08-17T01:17:24.650966+00:00
+9D9EDCB0385C047E,1998,support state-funded merit scholarships for alabama students to attend college in alabama.,ideological,education_position,-1.0,,medium,,2026-08-17T01:17:39.862273+00:00
+850172B3EBD601E2,1998,provide increased funding for agricultural and forestry research.,non_scorable,,,,medium,,2026-08-17T01:18:01.817749+00:00
+86F73CED0D2C803E,2006,emergency preparedness,non_scorable,,,,medium,,2026-08-17T01:18:15.108975+00:00
+AE7AFBFDADB8713B,2006,should fee increases be used to balance the state budget?,ideological,economic_ideology,1.0,,medium,,2026-08-17T01:18:26.837907+00:00
+086F985BEC634E5D,2002,provide tax credits for businesses that provide child care for their employees.,ideological,economic_ideology,-1.0,,medium,Another childcare position,2026-08-17T01:18:58.064723+00:00
+67A1A9458B0C5345,2002,provide tax incentives to businesses that hire welfare recipients.,ideological,economic_ideology,-1.0,,medium,,2026-08-17T01:19:08.578406+00:00
+180C8F52DAB2611C,2002,increase state funding for additional security of critical infrastructure against terrorist attacks.,ideological,criminal_justice_position,1.0,,medium,Terrorism is slightly different than criminal justice but close enough,2026-08-17T01:19:56.454038+00:00
+D328971C903F1683,1998,restructure the electric utility industry to allow consumers to choose their power company.,ideological,economic_ideology,1.0,,medium,This is uniquely libertarian in its bent instead of strictly conservative.,2026-08-17T01:20:27.574270+00:00
+BBD154B206600077,2002,support the lower .08 blood-alcohol-content limit defining drunk driving.,position_only,criminal_justice_position,,,medium,"More pro-alcoholic than anything, although we might want to add a temperance position",2026-08-17T01:21:10.446436+00:00
+2B2DA101C222848F,2006,criminalize the employment of an undocumented immigrant in alabama.,ideological,immigration_position,1.0,,medium,Conservative on immigration but also pro-labor,2026-08-17T01:21:30.338258+00:00
+6F2F07CB8ACCADC4,2006,increase state funding for state and local emergency agencies to prevent or respond to terrorism.,ideological,criminal_justice_position,1.0,,medium,,2026-08-17T01:21:42.920514+00:00
+12E4E8D5CD254CBA,2010,do you support limits on the number of terms for alabama governors?,non_scorable,,,,medium,Populist rather than ideological,2026-08-17T01:21:59.043635+00:00
+7EB52696081DFCF1,2010,political action committee,ideological,government_reform_position,-1.0,,medium,"Populist government reform position, probably codes as progressive",2026-08-17T01:22:41.060650+00:00
+A7650344F2E564A0,2010,political party,position_only,government_reform_position,,,medium,Populist,2026-08-17T01:23:01.386856+00:00
+599EFED63AC23D0D,2010,should candidates for state office be encouraged to meet voluntary spending limits?,position_only,government_reform_position,,,medium,Populist,2026-08-17T01:23:18.395789+00:00

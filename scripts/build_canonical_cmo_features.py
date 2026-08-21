@@ -60,7 +60,7 @@ def main():
     weights=pd.read_csv(ELECT/"canonical_precinct_district_weights.csv")
     allocated=observations.merge(weights,left_on=["year","node_id"],right_on=["cycle","node_id"],validate="many_to_many")
     allocated["allocated_votes"]=allocated.votes*allocated.allocation_weight
-    allocated["baseline_allocation_method"]="census_vtd_population"
+    allocated["baseline_allocation_method"]=allocated.allocation_method
     # Before 2010, no accepted precinct-to-VTD identity crosswalk has yet been
     # built. Preserve those official races in the CMO database using explicit,
     # provisional legislative-activity shares; never label them geographic.
@@ -121,12 +121,24 @@ def main():
         fallback_share[["cycle","chamber","district","office","baseline_fallback_share"]],
         on=["cycle","chamber","district","office"],how="left",validate="one_to_one")
     office_baseline["baseline_source"]="alabama_sos_canonical"
-    legacy=pd.read_csv(WAR/"district_baseline_office.csv")
-    legacy=legacy[legacy.office.isin(CORE)][["cycle","chamber","district","office","office_dem_margin"]].rename(columns={"office_dem_margin":"office_margin"})
-    legacy["baseline_source"]="openelections_geographic_fallback"
-    have=set(map(tuple,office_baseline[["cycle","chamber","district","office"]].values))
-    legacy=legacy[[tuple(x) not in have for x in legacy[["cycle","chamber","district","office"]].values]]
-    office_baseline=pd.concat([office_baseline,legacy],ignore_index=True,sort=False)
+    # For 2014-2022, prefer the election-specific spatial products. In 2022 the
+    # RDH/SOS precinct file contains the complete official vote totals already
+    # attached to precinct polygons; re-allocating separate absentee batches by
+    # county would move those votes away from their published precinct totals.
+    geographic=pd.read_csv(WAR/"district_baseline_office.csv")
+    geographic=geographic[
+        geographic.cycle.isin([2014,2018,2022]) & geographic.office.isin(CORE)
+    ][["cycle","chamber","district","office","dem_votes","rep_votes","office_dem_margin",
+       "allocation_method","baseline_fallback_share","activity_split_fallback_share"]].rename(
+        columns={"dem_votes":"D","rep_votes":"R","office_dem_margin":"office_margin",
+                 "allocation_method":"baseline_allocation_method"})
+    geographic["baseline_source"]="election_precinct_block_population"
+    replace_keys=set(map(tuple,geographic[["cycle","chamber","district","office"]].values))
+    office_baseline=office_baseline[
+        [tuple(x) not in replace_keys for x in office_baseline[
+            ["cycle","chamber","district","office"]].values]
+    ]
+    office_baseline=pd.concat([office_baseline,geographic],ignore_index=True,sort=False)
     # Preserve the office-level inputs used by the model for downstream displays.
     # The separate baseline-scenario audit starts in 2010, which previously left
     # the 1994-2006 story entries without their Governor and Attorney General tabs.
@@ -137,6 +149,12 @@ def main():
                    baseline_allocation_method=("baseline_allocation_method",lambda x:
                        "county_population_fallback" if (x=="county_population_fallback").any()
                        else "legislative_activity_provisional" if (x=="legislative_activity_provisional").any()
+                       else "reported_district_with_county_split_fallback" if (x=="reported_district_with_county_split_fallback").any()
+                       else "reported_district_with_activity_split_fallback" if (x=="reported_district_with_activity_split_fallback").any()
+                       else "reported_district_with_population_splits" if (x=="reported_district_with_population_splits").any()
+                       else "reported_single_district" if (x=="reported_single_district").any()
+                       else "precinct_block_population" if (x=="precinct_block_population").any()
+                       else "canonical_precinct_block_population" if (x=="canonical_precinct_block_population").any()
                        else "census_vtd_population")))
     baseline["core_index_complete"]=baseline.core_index_offices.eq(2)
     result=result.merge(baseline,on=["cycle","chamber","district"],how="left")
@@ -171,7 +189,7 @@ def main():
         result=result.merge(ftm[["cycle","chamber","district","log_fundraising_ratio_d_to_r","ftm_finance_complete"]],
                             on=["cycle","chamber","district"],how="left")
     pres=[]
-    for cycle in (2014,2018,2022):
+    for cycle in (2010,2014,2018,2022):
         p=pd.read_csv(ROOT/"data"/"processed"/"presidential"/f"{cycle}_district_presidential_features.csv").drop(columns="office",errors="ignore")
         pres.append(p)
     result=result.merge(pd.concat(pres,ignore_index=True,sort=False),on=["cycle","chamber","district"],how="left")

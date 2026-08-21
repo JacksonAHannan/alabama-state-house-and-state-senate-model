@@ -12,6 +12,8 @@ from pathlib import Path
 
 import pandas as pd
 
+from ideology_ontology_v3 import primitive_axis_direction
+
 
 ROOT = Path(__file__).resolve().parents[1]
 RESEARCH = ROOT / "research" / "cmo_ideology"
@@ -66,6 +68,63 @@ PCT_GROUPS = {
     "environment_position": "Environment & infrastructure",
 }
 
+FRONTIER_GROUPS = {
+    "abortion_access": "Abortion", "abortion_public_funding": "Abortion",
+    "gun_access": "Guns", "gun_purchase_regulation": "Guns",
+    "labor_rights": "Labor & wages", "labor_capital_alignment": "Labor & wages",
+    "public_employee_compensation": "Labor & wages",
+    "education_public_funding": "Public education", "education_access": "Public education",
+    "education_accountability": "Public education", "education_market_choice": "School choice",
+    "tax_burden": "Taxes & spending", "tax_distribution": "Taxes & spending",
+    "public_spending": "Taxes & spending", "deficit_discipline": "Taxes & spending",
+    "market_governance": "Economic development", "business_subsidy": "Economic development",
+    "public_private_provision": "Economic development",
+    "healthcare_access": "Health care", "healthcare_public_responsibility": "Health care",
+    "healthcare_delivery": "Health care", "medicaid_structure": "Health care",
+    "criminal_punishment": "Criminal justice", "incarceration": "Criminal justice",
+    "due_process": "Criminal justice", "police_authority": "Criminal justice",
+    "drug_criminalization": "Criminal justice", "drug_treatment": "Criminal justice",
+    "immigration_access": "Immigration", "immigration_enforcement": "Immigration",
+    "immigrant_public_benefits": "Immigration", "national_language_identity": "Immigration",
+    "christian_sexual_morality": "Civil & cultural rights",
+    "civil_social_liberty": "Civil & cultural rights", "racial_civil_rights": "Civil & cultural rights",
+    "anti_discrimination": "Civil & cultural rights", "affirmative_action": "Civil & cultural rights",
+    "religion_state": "Civil & cultural rights", "confederate_commemoration": "Civil & cultural rights",
+    "voting_access": "Government & ethics", "election_integrity_controls": "Government & ethics",
+    "campaign_finance_disclosure": "Government & ethics",
+    "government_ethics_transparency": "Government & ethics",
+    "environmental_protection": "Environment & infrastructure",
+    "conservation_preservation": "Environment & infrastructure",
+    "resource_development": "Environment & infrastructure", "climate_energy": "Environment & infrastructure",
+    "renewable_energy_support": "Environment & infrastructure",
+    "hunting_rural_recreation": "Rural & local interests", "gambling_policy": "Rural & local interests",
+}
+
+# Convert the ontology's issue-specific first-pole coordinate into the page's
+# display scale (-1 progressive, +1 conservative). None means the issue has no
+# honest general left/right display direction and remains visible but uncolored.
+CONSERVATIVE_SIGN = {
+    "abortion_access": -1, "abortion_public_funding": -1,
+    "gun_access": 1, "gun_purchase_regulation": -1,
+    "labor_rights": -1, "labor_capital_alignment": -1, "public_employee_compensation": -1,
+    "education_public_funding": -1, "education_access": -1,
+    "education_accountability": 1, "education_market_choice": 1,
+    "tax_burden": -1, "tax_distribution": -1, "public_spending": -1,
+    "deficit_discipline": 1, "market_governance": -1, "public_private_provision": -1,
+    "healthcare_access": -1, "healthcare_public_responsibility": -1,
+    "criminal_punishment": 1, "incarceration": 1, "due_process": -1,
+    "police_authority": 1, "drug_criminalization": 1, "drug_treatment": -1,
+    "immigration_access": -1, "immigration_enforcement": 1,
+    "immigrant_public_benefits": -1, "national_language_identity": 1,
+    "christian_sexual_morality": 1, "civil_social_liberty": -1,
+    "racial_civil_rights": -1, "anti_discrimination": -1, "affirmative_action": -1,
+    "religion_state": 1, "voting_access": -1, "election_integrity_controls": 1,
+    "campaign_finance_disclosure": -1, "government_ethics_transparency": -1,
+    "environmental_protection": -1, "conservation_preservation": -1,
+    "resource_development": 1, "climate_energy": -1, "renewable_energy_support": -1,
+    "hunting_rural_recreation": 1,
+}
+
 
 def clean(value):
     if pd.isna(value):
@@ -111,44 +170,19 @@ def build_payload() -> dict:
                     url=f"https://justfacts.votesmart.org/candidate/political-courage-test/{int(profile.votesmart_candidate_id)}",
                 )
 
-    codes = pd.read_csv(RESEARCH / "anchor_vote_human_codes.csv")
-    codes = codes.drop_duplicates("roll_call_id").set_index("roll_call_id")
-    votes = pd.read_csv(RESEARCH / "candidate_rollcall_position_evidence.csv")
-    for _, row in votes.iterrows():
-        code = codes.loc[row.roll_call_id] if row.roll_call_id in codes.index else None
-        valence = None if code is None else VALENCE.get(str(code.ideological_valence).lower())
-        if valence is not None and str(row.vote).lower() == "nay":
-            valence *= -1
+    frontier_path = ROOT / "data" / "processed" / "ideology" / "candidate_legislative_position_evidence_v3.csv"
+    frontier_votes = pd.read_csv(frontier_path, low_memory=False).fillna("")
+    for _, row in frontier_votes.iterrows():
+        axis_direction = primitive_axis_direction(row.primitive_axis, row.policy_pole)
+        sign = CONSERVATIVE_SIGN.get(row.primitive_axis)
+        valence = None if axis_direction is None or sign is None else float(row.position_value) * axis_direction * sign
         add_record(
-            records, person_id=row.person_id, issue=row.human_issue_code,
-            group=ISSUE_GROUPS.get(row.human_issue_code, row.human_issue_code),
-            source_type="Roll call", direction=valence, weight=.85,
-            confidence=None if code is None else code.human_confidence,
-            timing=row.evidence_timing, date=row.vote_date, bill=row.bill_number,
-            summary=row.candidate_position, url=row.source_url,
-        )
-
-    sponsors = pd.read_csv(RESEARCH / "candidate_sponsorship_position_evidence.csv")
-    for _, row in sponsors.iterrows():
-        role = str(row.sponsorship_role).lower()
-        weight = 1.0 if "primary" in role else .35
-        add_record(
-            records, person_id=row.person_id, issue=row.human_issue_code,
-            group=ISSUE_GROUPS.get(row.human_issue_code, row.human_issue_code),
-            source_type="Sponsorship", direction=VALENCE.get(str(row.ideological_valence).lower()),
-            weight=weight, confidence=row.confidence, timing=row.temporal_status,
-            date=row.evidence_date, bill=row.bill_number, summary=row.position_summary,
-            url=row.source_url,
-        )
-
-    amendments = pd.read_csv(RESEARCH / "candidate_amendment_position_evidence.csv")
-    for _, row in amendments.iterrows():
-        add_record(
-            records, person_id=row.person_id, issue=row.issue,
-            group=ISSUE_GROUPS.get(row.issue, row.issue), source_type="Amendment",
-            direction=VALENCE.get(str(row.ideological_valence).lower()), weight=1.0,
+            records, person_id=row.person_id, issue=row.primitive_axis,
+            group=FRONTIER_GROUPS.get(row.primitive_axis, row.primitive_axis.replace("_", " ").title()),
+            source_type="Frontier-reviewed roll call", direction=valence, weight=1.0,
             confidence=row.confidence, timing=row.temporal_status, date=row.evidence_date,
-            bill=row.bill_number, summary=row.position_summary, url=row.source_url,
+            evidence_cycle=pd.to_numeric(row.election_cycle, errors="coerce"),
+            bill=row.policy_key, summary=row.source_text, url=row.source_url,
         )
 
     public = pd.read_csv(RESEARCH / "state_issue_position_ledger.csv")
@@ -167,7 +201,10 @@ def build_payload() -> dict:
     candidates = []
     for _, row in cohort.iterrows():
         pid = row.person_id
-        candidate_records = by_person.get(pid, [])
+        candidate_records = [record for record in by_person.get(pid, [])
+                             if record.get("evidence_cycle") is None
+                             or pd.isna(record.get("evidence_cycle"))
+                             or record["evidence_cycle"] <= row.cycle]
         bio = bios.loc[pid] if pid in bios.index else None
         sm = shor.loc[pid] if pid in shor.index else None
         li_pool = (legislative[legislative.person_id.eq(pid) & legislative.year.eq(row.cycle)]
@@ -244,7 +281,7 @@ def build_page() -> str:
     css = (ASSETS / "legislator_ideology.css").read_text(encoding="utf-8")
     js = (ASSETS / "legislator_ideology.js").read_text(encoding="utf-8")
     return f"""<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Alabama Legislator Issue Atlas</title><style>{css}</style></head><body>
-<header><div class=\"mast\"><div><div class=\"brand\">Jackson Hannan</div><div class=\"tag\">Alabama legislative models</div></div><nav class=\"nav\" aria-label=\"Site navigation\"><a href=\"index.html\">Forecast</a><a href=\"cmo.html\">CMO</a><a href=\"legislators.html\" aria-current=\"page\">Issue atlas</a><a href=\"cmo-methodology.html\">Methodology</a><a href=\"https://github.com/JacksonAHannan\" target=\"_blank\" rel=\"me noopener\">GitHub</a></nav></div></header>
+<header><div class=\"mast\"><div><div class=\"brand\">Jackson Hannan</div><div class=\"tag\">Alabama legislative models</div></div><nav class=\"nav\" aria-label=\"Site navigation\"><a href=\"index.html\">Forecast</a><a href=\"cmo.html\">CMO</a><a href=\"ideology-performance.html\">Issues & caucuses</a><a href=\"legislators.html\" aria-current=\"page\">Issue atlas</a><a href=\"cmo-methodology.html\">Methodology</a><a href=\"https://github.com/JacksonAHannan\" target=\"_blank\" rel=\"me noopener\">GitHub</a></nav></div></header>
 <main><section class=\"story-head\"><div class=\"kicker\">The politics behind overperformance</div><h1>What did Alabama's standout Democrats stand for?</h1><div class=\"dek\">An evidence atlas of the votes, bills, amendments, and public positions of 30 Democratic legislative candidates who substantially outran expectations from 2010 through 2022.</div><div class=\"byline\">Research and analysis by <b>Jackson Hannan</b> &nbsp;•&nbsp; August 2026</div></section>
 <section class=\"status\"><div class=\"status-lead\"><span>How to read this project</span><b>Direction is not certainty</b><p>Color describes reviewed actions and candidate-supplied questionnaire positions. Opacity describes how much evidence exists; gray means we do not know.</p></div><div><b>30</b><span>Target candidates</span></div><div><b>5</b><span>Evidence types</span></div><div><b>14</b><span>Issue families</span></div></section>
 <section class=\"intro\"><p>Alabama Democrats have not overperformed in only one way. Some paired support for public investment with culturally conservative votes. Others assembled records centered on labor, civil rights, local economic development, or constituent service. This page shows those combinations without forcing every career onto a single national left–right line.</p></section>

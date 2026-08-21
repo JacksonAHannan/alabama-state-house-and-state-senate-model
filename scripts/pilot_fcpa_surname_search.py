@@ -46,8 +46,8 @@ def search(last_name: str) -> tuple[list[dict],str]:
     return payload["data"]["list"],url
 
 
-def annual_financial_summary(record_id: object, cycle: int) -> tuple[dict, str]:
-    """Return the official calendar-year summary displayed for a committee."""
+def all_financial_summaries(record_id: object) -> tuple[dict, str]:
+    """Return every official calendar-year summary displayed for a committee."""
     encoded=base64.b64encode(str(int(float(record_id))).encode()).decode()
     detail_url=(SEARCH+"?"+urllib.parse.urlencode({"page":"page.acfPublicCommitteeDetails",
                                                    "type":base64.b64encode(b"pcc").decode(),
@@ -68,8 +68,13 @@ def annual_financial_summary(record_id: object, cycle: int) -> tuple[dict, str]:
     match=re.search(re.escape(FINANCIAL_SUMMARY_MARKER)+r"(\{.*?\});",html,re.DOTALL)
     if not match:
         return {},summary_url
-    payload=json.loads(match.group(1))
-    return payload.get(str(int(cycle)),{}),summary_url
+    return json.loads(match.group(1)),summary_url
+
+
+def annual_financial_summary(record_id: object, cycle: int) -> tuple[dict, str]:
+    """Return one calendar year from the official committee summary."""
+    payload,url=all_financial_summaries(record_id)
+    return payload.get(str(int(cycle)),{}),url
 
 
 def expected_office(chamber: str) -> str:

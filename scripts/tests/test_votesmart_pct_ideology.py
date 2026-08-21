@@ -11,7 +11,7 @@ def test_clear_policy_items_have_expected_direction():
     assert classify_item("Allow citizens to carry concealed guns.")["affirmative_direction"] == 1
     assert classify_item("Require background checks on gun sales at gun shows.")["affirmative_direction"] == -1
     assert classify_item("Do you generally support pro-choice or pro-life legislation?")["dimension"] == "abortion_position"
-    assert classify_item("Other or expanded principles")["coding_status"] == "unmapped"
+    assert classify_item("Other or expanded principles")["coding_status"] == "non_scorable"
     assert classify_item("Should abortions be illegal after the first trimester of pregnancy?")["affirmative_direction"] == 1
     assert classify_item("Should abortion be legal only within the first trimester?")["affirmative_direction"] == -1
     assert classify_item("Should voters present photo identification before voting?")["dimension"] == "government_reform_position"
