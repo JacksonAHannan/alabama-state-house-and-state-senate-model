@@ -18,20 +18,20 @@ def test_candidate_directional_ticket_outcomes_are_zero_sum() -> None:
 
 def test_cmo_is_the_frozen_ideology_blind_input() -> None:
     panel = pd.read_csv(PANEL)
-    cmo = pd.read_csv("data/processed/war/cmo_v2_candidates.csv")
+    cmo = pd.read_csv("data/processed/war/cmo_v3_candidates.csv")
     expected = panel[["canonical_candidate_id", "candidate_cmo"]].merge(
-        cmo[["canonical_candidate_id", "candidate_context_cmo"]],
+        cmo[["canonical_candidate_id", "candidate_headline_cmo"]],
         on="canonical_candidate_id", how="left", validate="one_to_one")
-    assert np.allclose(expected.candidate_cmo, expected.candidate_context_cmo, equal_nan=True)
-    assert panel.cmo_source.eq("cmo_v2_context").all()
+    assert np.allclose(expected.candidate_cmo, expected.candidate_headline_cmo, equal_nan=True)
+    assert panel.cmo_source.eq("cmo_v3_direct_ticket").all()
 
 
-def test_barbara_boyd_uses_corrected_context_cmo() -> None:
+def test_barbara_boyd_uses_direct_ticket_cmo() -> None:
     panel = pd.read_csv(PANEL)
     boyd = panel[(panel.cycle.eq(2022)) & (panel.chamber.eq("house"))
                  & (panel.district.eq(32)) & panel.party.eq("D")]
     assert len(boyd) == 1
-    assert -5.0 < boyd.iloc[0].candidate_cmo < -4.0
+    assert 9.0 < boyd.iloc[0].candidate_cmo < 11.0
 
 
 def test_absolute_and_issue_analyses_include_both_parties() -> None:

@@ -114,10 +114,10 @@ The parties have limited common support on the absolute scale. Republican modera
 
 | party | shor_observed | candidate_cycles | people | winner_share | incumbent_share | mean_cmo | mean_federal_overperformance |
 |---|---|---|---|---|---|---|---|
-| D | False | 300.000 | 283.000 | 0.213 | 0.017 | -7.686 | 7.364 |
-| D | True | 209.000 | 179.000 | 0.837 | 0.220 | 9.959 | 34.975 |
-| R | False | 311.000 | 302.000 | 0.273 | 0.013 | -5.733 | -24.860 |
-| R | True | 198.000 | 154.000 | 0.934 | 0.364 | 10.139 | -9.296 |
+| D | False | 300.000 | 283.000 | 0.213 | 0.017 | 2.871 | 7.364 |
+| D | True | 209.000 | 179.000 | 0.837 | 0.220 | 22.552 | 34.975 |
+| R | False | 311.000 | 302.000 | 0.273 | 0.013 | -17.959 | -24.860 |
+| R | True | 198.000 | 154.000 | 0.934 | 0.364 | 0.053 | -9.296 |
 
 Shor coverage is a selected officeholder sample. Differences between observed and unobserved candidates quantify why these estimates describe successful legislative candidates rather than all people who ran.
 
@@ -125,10 +125,10 @@ Shor coverage is a selected officeholder sample. Differences between observed an
 
 | sample | outcome | specification | n | people | coefficient | cluster_se | p_value | status |
 |---|---|---|---|---|---|---|---|---|
-| D | candidate_cmo | party_winners_only | 175.000 | 160.000 | 13.378 | 2.946 | 0.000 | estimated |
-| D | candidate_cmo | party_prior_service_only | 177.000 | 152.000 | 15.807 | 2.958 | 0.000 | estimated |
-| R | candidate_cmo | party_winners_only | 185.000 | 145.000 | -8.831 | 5.844 | 0.133 | estimated |
-| R | candidate_cmo | party_prior_service_only | 136.000 | 110.000 | -4.994 | 7.206 | 0.490 | estimated |
+| D | candidate_cmo | party_winners_only | 175.000 | 160.000 | 11.885 | 2.906 | 0.000 | estimated |
+| D | candidate_cmo | party_prior_service_only | 177.000 | 152.000 | 13.759 | 2.833 | 0.000 | estimated |
+| R | candidate_cmo | party_winners_only | 185.000 | 145.000 | -11.398 | 5.839 | 0.053 | estimated |
+| R | candidate_cmo | party_prior_service_only | 136.000 | 110.000 | -6.764 | 7.201 | 0.350 | estimated |
 | D | candidate_federal_overperformance | party_winners_only | 159.000 | 148.000 | 17.423 | 5.688 | 0.003 | estimated |
 | D | candidate_federal_overperformance | party_prior_service_only | 157.000 | 145.000 | 17.975 | 5.646 | 0.002 | estimated |
 | R | candidate_federal_overperformance | party_winners_only | 160.000 | 136.000 | -3.797 | 7.993 | 0.636 | estimated |
@@ -138,8 +138,8 @@ Shor coverage is a selected officeholder sample. Differences between observed an
 
 | sample | outcome | n | people | coefficient | cluster_se | ci_low | ci_high | p_value | status |
 |---|---|---|---|---|---|---|---|---|---|
-| D | candidate_cmo | 209.000 | 179.000 | 14.593 | 2.860 | 8.988 | 20.199 | 0.000 | estimated |
-| R | candidate_cmo | 198.000 | 154.000 | -7.316 | 5.959 | -18.996 | 4.365 | 0.221 | estimated |
+| D | candidate_cmo | 209.000 | 179.000 | 13.135 | 2.796 | 7.654 | 18.616 | 0.000 | estimated |
+| R | candidate_cmo | 198.000 | 154.000 | -9.139 | 6.013 | -20.924 | 2.646 | 0.131 | estimated |
 | D | candidate_federal_overperformance | 187.000 | 171.000 | 18.768 | 5.245 | 8.488 | 29.047 | 0.000 | estimated |
 | R | candidate_federal_overperformance | 173.000 | 146.000 | -5.310 | 7.424 | -19.861 | 9.241 | 0.476 | estimated |
 | D | candidate_presidential_overperformance | 199.000 | 170.000 | 10.746 | 3.565 | 3.759 | 17.733 | 0.003 | estimated |
@@ -151,9 +151,9 @@ Positive coefficients mean moving right helps; negative coefficients mean moving
 
 | outcome | specification | term | n | coefficient | cluster_se | p_value | status |
 |---|---|---|---|---|---|---|---|
-| candidate_cmo | common_incumbency | incumbent_i | 407.000 | 5.695 | 2.244 | 0.012 | estimated |
-| candidate_cmo | party_specific_incumbency | incumbent_i | 407.000 | 6.744 | 2.853 | 0.019 | estimated |
-| candidate_cmo | party_specific_incumbency | democratic_x_incumbency | 407.000 | -2.327 | 3.829 | 0.544 | estimated |
+| candidate_cmo | common_incumbency | incumbent_i | 407.000 | 6.131 | 2.426 | 0.012 | estimated |
+| candidate_cmo | party_specific_incumbency | incumbent_i | 407.000 | 7.194 | 3.076 | 0.020 | estimated |
+| candidate_cmo | party_specific_incumbency | democratic_x_incumbency | 407.000 | -2.358 | 3.989 | 0.555 | estimated |
 | candidate_statewide_overperformance | common_incumbency | incumbent_i | 407.000 | 6.138 | 2.424 | 0.012 | estimated |
 | candidate_statewide_overperformance | party_specific_incumbency | incumbent_i | 407.000 | 7.944 | 3.073 | 0.010 | estimated |
 | candidate_statewide_overperformance | party_specific_incumbency | democratic_x_incumbency | 407.000 | -4.002 | 3.986 | 0.316 | estimated |
@@ -168,10 +168,10 @@ Positive coefficients mean moving right helps; negative coefficients mean moving
 
 | sample | outcome | specification | n | coefficient | cluster_se | p_value | status |
 |---|---|---|---|---|---|---|---|
-| D | candidate_cmo | party_total_context | 209.000 | 14.593 | 2.860 | 0.000 | estimated |
-| D | candidate_cmo | party_mediator_adjusted | 158.000 | 13.652 | 3.222 | 0.000 | estimated |
-| R | candidate_cmo | party_total_context | 198.000 | -7.316 | 5.959 | 0.221 | estimated |
-| R | candidate_cmo | party_mediator_adjusted | 169.000 | -0.297 | 5.467 | 0.957 | estimated |
+| D | candidate_cmo | party_total_context | 209.000 | 13.135 | 2.796 | 0.000 | estimated |
+| D | candidate_cmo | party_mediator_adjusted | 158.000 | 12.337 | 2.864 | 0.000 | estimated |
+| R | candidate_cmo | party_total_context | 198.000 | -9.139 | 6.013 | 0.131 | estimated |
+| R | candidate_cmo | party_mediator_adjusted | 169.000 | -2.543 | 5.545 | 0.647 | estimated |
 | D | candidate_federal_overperformance | party_total_context | 187.000 | 18.768 | 5.245 | 0.000 | estimated |
 | D | candidate_federal_overperformance | party_mediator_adjusted | 139.000 | 21.450 | 5.954 | 0.000 | estimated |
 | R | candidate_federal_overperformance | party_total_context | 173.000 | -5.310 | 7.424 | 0.476 | estimated |
@@ -337,12 +337,12 @@ A positive congruence coefficient means conservative positioning becomes more fa
 
 | sample | outcome | n | coefficient | cluster_se | p_value | status |
 |---|---|---|---|---|---|---|
-| D:2008_2014 | candidate_cmo | 61.000 | 7.290 | 5.260 | 0.172 | estimated |
+| D:2008_2014 | candidate_cmo | 61.000 | 8.612 | 5.161 | 0.102 | estimated |
 | D:post_2016 | candidate_cmo | 5.000 |  |  |  | underpowered |
-| D:pre_2008 | candidate_cmo | 143.000 | 16.428 | 4.445 | 0.000 | estimated |
-| R:2008_2014 | candidate_cmo | 83.000 | -5.583 | 10.650 | 0.602 | estimated |
-| R:post_2016 | candidate_cmo | 35.000 | -6.918 | 10.135 | 0.499 | estimated |
-| R:pre_2008 | candidate_cmo | 80.000 | 1.743 | 9.230 | 0.851 | estimated |
+| D:pre_2008 | candidate_cmo | 143.000 | 14.183 | 4.065 | 0.001 | estimated |
+| R:2008_2014 | candidate_cmo | 83.000 | -9.327 | 10.989 | 0.399 | estimated |
+| R:post_2016 | candidate_cmo | 35.000 | -7.459 | 9.326 | 0.429 | estimated |
+| R:pre_2008 | candidate_cmo | 80.000 | -0.485 | 9.083 | 0.958 | estimated |
 | D:2008_2014 | candidate_federal_overperformance | 51.000 | -2.504 | 10.241 | 0.808 | estimated |
 | D:post_2016 | candidate_federal_overperformance | 5.000 |  |  |  | underpowered |
 | D:pre_2008 | candidate_federal_overperformance | 131.000 | 22.167 | 6.746 | 0.001 | estimated |
@@ -354,12 +354,12 @@ A positive congruence coefficient means conservative positioning becomes more fa
 
 | sample | outcome | n | coefficient | cluster_se | p_value | status |
 |---|---|---|---|---|---|---|
-| D:omit_1998 | candidate_cmo | 151.000 | 16.784 | 3.403 | 0.000 | estimated |
-| D:omit_2002 | candidate_cmo | 159.000 | 13.976 | 3.275 | 0.000 | estimated |
-| D:omit_2006 | candidate_cmo | 174.000 | 11.651 | 3.179 | 0.000 | estimated |
-| D:omit_2010 | candidate_cmo | 172.000 | 15.743 | 3.176 | 0.000 | estimated |
-| D:omit_2014 | candidate_cmo | 185.000 | 14.660 | 2.895 | 0.000 | estimated |
-| D:omit_2018 | candidate_cmo | 204.000 | 14.722 | 2.878 | 0.000 | estimated |
+| D:omit_1998 | candidate_cmo | 151.000 | 15.210 | 3.268 | 0.000 | estimated |
+| D:omit_2002 | candidate_cmo | 159.000 | 12.327 | 3.071 | 0.000 | estimated |
+| D:omit_2006 | candidate_cmo | 174.000 | 11.245 | 3.244 | 0.001 | estimated |
+| D:omit_2010 | candidate_cmo | 172.000 | 13.875 | 3.127 | 0.000 | estimated |
+| D:omit_2014 | candidate_cmo | 185.000 | 12.824 | 2.852 | 0.000 | estimated |
+| D:omit_2018 | candidate_cmo | 204.000 | 13.363 | 2.817 | 0.000 | estimated |
 | D:omit_1998 | candidate_federal_overperformance | 129.000 | 21.981 | 6.850 | 0.002 | estimated |
 | D:omit_2002 | candidate_federal_overperformance | 137.000 | 17.103 | 6.021 | 0.005 | estimated |
 | D:omit_2006 | candidate_federal_overperformance | 164.000 | 13.224 | 5.296 | 0.014 | estimated |
