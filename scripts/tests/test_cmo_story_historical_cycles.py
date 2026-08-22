@@ -65,6 +65,13 @@ def test_story_page_publishes_transparency_and_exploration_controls():
     assert 'data-map-mode="rawticket"' not in page
     assert 'data-map-mode="pair"' not in page
     assert "mapMode='absolute'" in page
+    assert "Number(v)/30" in page
+    assert "Math.sqrt(Math.min(30,Math.abs(v))/30)" not in page
+    assert "Color intensity is linear on a symmetric scale" in page
+    assert "square-root scale" not in page
+    assert "linear-gradient(90deg,#d34b45 0%,#f2f1ed 50%,#3d77a8 100%)" in page
+    assert "<span>R +15</span><span>Even</span><span>D +15</span>" in page
+    assert "<span>R +10</span>" not in page
     detail = page.index("function detail(x)")
     headline = page.index('<div class="candidate-headline">', detail)
     race_box = page.index("${raceBox(x)}", detail)

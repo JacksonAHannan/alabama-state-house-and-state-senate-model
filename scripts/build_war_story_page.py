@@ -295,7 +295,7 @@ __ATTRIBUTION_PANEL__
 let active='2010-house',sortKey='war',sortDir=-1,selected=null,mapMode='absolute',baselineChoices={};
 const $=s=>document.querySelector(s), fmt=n=>(n>0?'+':'')+Number(n).toFixed(1), fmtMaybe=n=>n==null?'Unavailable':fmt(n), pct=n=>n==null?'Unavailable':(100*Number(n)).toFixed(1)+'%', esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const allCandidates=()=>Object.entries(DATA).flatMap(([section,d])=>d.candidates.map(x=>({...x,section,cycle:d.cycle,chamber:d.chamber})));
-function color(v){if(v==null)return '#deded9';const x=Math.sign(v)*Math.sqrt(Math.min(30,Math.abs(v))/30);if(x<0)return mix('#f2f1ed','#d34b45',-x);return mix('#f2f1ed','#3d77a8',x)}
+function color(v){if(v==null)return '#deded9';const x=Math.max(-1,Math.min(1,Number(v)/30));if(x<0)return mix('#f2f1ed','#d34b45',-x);return mix('#f2f1ed','#3d77a8',x)}
 function mapMetric(d,district){if(mapMode==='absolute')return d.demWar[district];if(mapMode==='governor')return d.rawVsGovernor[district];return d.rawVsPresidential[district]}
 function mapRawValue(d,district){return mapMetric(d,district)}
 function mapDescription(){return {absolute:'CMO, absolute margin points',governor:'Raw overperformance vs. governor',presidential:'Raw overperformance vs. previous presidential margin'}[mapMode]}
@@ -319,6 +319,12 @@ document.querySelectorAll('th[data-sort]').forEach(th=>th.onclick=()=>{const k=t
             .replace("__CYCLE_COUNT__", str(cycle_count))
             .replace("__VALIDATION_PANEL__", build_validation_panel())
             .replace("__ATTRIBUTION_PANEL__", build_attribution_panel())
+            .replace("The default view maps absolute CMO.", "The default view maps CMO in margin points.")
+            .replace("All views use a symmetric square-root scale capped visually at", "Color intensity is linear on a symmetric scale capped visually at")
+            .replace("background:linear-gradient(90deg,#d34b45,#e8a19d,#f2f1ed,#9bbcd4,#3d77a8)",
+                     "background:linear-gradient(90deg,#d34b45 0%,#f2f1ed 50%,#3d77a8 100%)")
+            .replace("<span>R +10</span><span>Even</span><span>D +10</span>",
+                     "<span>R +15</span><span>Even</span><span>D +15</span>")
             .replace("Build updated August 16, 2026", "Build updated August 17, 2026")
             .replace("Spending ${x.financeComplete?'complete':'incomplete'} · FTM ${x.ftmFinanceComplete?'complete':'incomplete'}",
                      "Canonical fundraising ${x.ftmFinanceComplete?'complete':'incomplete'} · DIME/FCPA source priority"))
