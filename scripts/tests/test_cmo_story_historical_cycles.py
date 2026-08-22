@@ -3,7 +3,7 @@ import json
 import re
 from pathlib import Path
 
-from build_war_story_page import build_page, modernize_v4_copy
+from build_war_story_page import build_page, modernize_v5_copy
 
 
 def _section(cycle, chamber):
@@ -16,7 +16,7 @@ def test_story_page_exposes_early_house_and_senate_cycles():
         for cycle in (1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022)
         for chamber in ("house", "senate")
     }
-    page = modernize_v4_copy(build_page(payload))
+    page = modernize_v5_copy(build_page(payload))
     assert "Early historical · 1994–2006" in page
     assert "<b>8</b><span>Historical cycles</span>" in page
     encoded = re.search(r"const DATA=(\{.*?\});\n", page, re.S)
@@ -32,19 +32,17 @@ def test_story_page_publishes_transparency_and_exploration_controls():
         "2010-house": _section(2010, "house"),
         "2022-senate": _section(2022, "senate"),
     }
-    page = modernize_v4_copy(build_page(payload))
-    assert "<b>3</b><span>Map views</span>" in page
+    page = modernize_v5_copy(build_page(payload))
+    assert "<b>4</b><span>Map views</span>" in page
     assert 'id="scope-filter"' in page
     assert "All cycles and chambers" in page
-    assert "WAR-style CMO" in page
-    assert "Raw ticket gap" in page
-    assert "Lag adjustment" in page
-    assert "Incumbency adjustment" in page
-    assert "Career pooled" in page
-    assert "Structural gap" in page
+    assert "Candidate Quality Index" in page
+    assert "Uncertainty interval" in page
+    assert "Intrinsic sensitivity" in page
+    assert "Pre-election estimate" in page
     assert "Diagnostics" in page
-    assert "Cycle-held-out tournament" in page
-    assert "Construct checks" in page
+    assert "Repeat-candidate construct check" in page
+    assert "Candidate-quality penalty" in page
     assert "Fundamentals+" not in page
     assert "Data and provenance" in page
     assert "Data sources and attribution" in page
@@ -58,12 +56,12 @@ def test_story_page_publishes_transparency_and_exploration_controls():
     assert "selectCandidate(" in page
     assert "districtStatus" in page
     assert '<button data-map-mode="absolute" class="active">CMO</button>' in page
+    assert '<button data-map-mode="quality">Candidate quality differential</button>' in page
     assert '<button data-map-mode="governor">Raw overperformance vs. governor</button>' in page
     assert '<button data-map-mode="presidential">Raw overperformance vs. previous presidential margin</button>' in page
     assert 'data-map-mode="relative"' not in page
     assert 'data-map-mode="within"' not in page
     assert 'data-map-mode="rawticket"' not in page
-    assert 'data-map-mode="pair"' not in page
     assert "mapMode='absolute'" in page
     assert "Number(v)/30" in page
     assert "Math.sqrt(Math.min(30,Math.abs(v))/30)" not in page
