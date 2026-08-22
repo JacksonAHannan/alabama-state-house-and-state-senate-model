@@ -82,213 +82,13 @@ def path_for_geometry(geom, bounds, width=640, height=700, pad=12):
 
 
 def load_data():
-    with (WAR / "preliminary_cmo_candidates.csv").open(encoding="utf-8-sig", newline="") as f:
+    """Build the public payload from the Split Ticket-style CMO v4 product."""
+    with (WAR / "cmo_v4_candidates.csv").open(encoding="utf-8-sig", newline="") as f:
         candidates = list(csv.DictReader(f))
-    with (WAR / "preliminary_cmo_races.csv").open(encoding="utf-8-sig", newline="") as f:
+    with (WAR / "cmo_v4_races.csv").open(encoding="utf-8-sig", newline="") as f:
         races = list(csv.DictReader(f))
-    with (WAR / "wikipedia_legislative_candidates.csv").open(encoding="utf-8-sig", newline="") as f:
-        public_candidates = list(csv.DictReader(f))
-    with (WAR / "2022_wikipedia_vote_validation.csv").open(encoding="utf-8-sig", newline="") as f:
-        validated_2022_names = list(csv.DictReader(f))
-    with (ROOT / "data" / "processed" / "elections" / "canonical_cmo_district_office_baselines.csv").open(encoding="utf-8-sig", newline="") as f:
-        office_baselines = list(csv.DictReader(f))
     with (ROOT / "data" / "processed" / "elections" / "canonical_cmo_features.csv").open(encoding="utf-8-sig", newline="") as f:
-        all_races = list(csv.DictReader(f))
-
-    public_names = {
-        (int(r["cycle"]), r["chamber"], int(r["district"]), r["party"], int(number(r["votes_wikipedia"], 0))): r["candidate"]
-        for r in public_candidates
-    }
-    public_names.update({
-        (int(r["cycle"]), r["chamber"], int(r["district"]), r["party"], int(number(r["votes_modeled"], 0))): r["candidate_modeled"]
-        for r in validated_2022_names
-    })
-    race_index = {(int(r["cycle"]), r["chamber"], int(r["district"])): r for r in races}
-    name_db = sqlite3.connect(ROOT / "data" / "processed" / "elections" / "alabama_elections.sqlite")
-    observed_names = name_db.execute("""
-        SELECT year, office, party_norm, TRIM(candidate), COUNT(*) AS records, SUM(votes) AS votes
-        FROM vote_observations
-        WHERE authority_rank = 1 AND party_norm IN ('D','R')
-        GROUP BY year, office, party_norm, TRIM(candidate)
-        ORDER BY year, office, party_norm, records DESC, votes DESC
-    """).fetchall()
-    name_db.close()
-    office_names = {}
-    for year, office, party, candidate, records, votes in observed_names:
-        office_names.setdefault((int(year), office, party), candidate)
-    office_names.update({
-        (2010, "Governor", "D"): "Ron Sparks", (2010, "Governor", "R"): "Robert Bentley",
-        (2010, "Attorney General", "D"): "James H. Anderson", (2010, "Attorney General", "R"): "Luther Strange",
-    })
-    office_index = {}
-    for row in office_baselines:
-        margin = number(row.get("office_margin"))
-        if margin is None:
-            continue
-        key = (int(row["cycle"]), row["chamber"], int(float(row["district"])))
-        office_index.setdefault(key, []).append({
-            "label": row["office"], "demMargin": round(margin, 2),
-            "demVotes": round(number(row.get("D", row.get("dem_votes")), 0)),
-            "repVotes": round(number(row.get("R", row.get("rep_votes")), 0)), "kind": "office",
-            "demName": office_names.get((int(row["cycle"]), row["office"], "D"), "Democratic nominee"),
-            "repName": office_names.get((int(row["cycle"]), row["office"], "R"), "Republican nominee"),
-        })
-    groups = {}
-    for row in candidates:
-        cycle, chamber, district = int(row["cycle"]), row["chamber"], int(float(row["district"]))
-        race = race_index[(cycle, chamber, district)]
-        candidate_name = public_names.get(
-            (cycle, chamber, district, row["party"], int(number(row["votes"], 0))),
-            row["candidate"],
-        )
-        item = {
-            "district": district,
-            "candidate": candidate_name,
-            "personId": row.get("person_id", ""),
-            "party": row["party"],
-            "votes": int(number(row["votes"], 0)),
-            "war": round(number(row["candidate_cmo_total_oof"], 0), 2),
-            "adjusted": round(number(row["candidate_cmo_resource_adjusted_oof"], 0), 2),
-            "fundraisingAdjusted": round(number(row.get("candidate_cmo_fundraising_adjusted_oof"), 0), 2),
-            "specificationRange": round(number(row.get("candidate_cmo_specification_range"), 0), 2),
-            "signConsistent": str(row.get("candidate_cmo_sign_consistent", "")).lower() in {"true", "1"},
-            "low": round(number(row["candidate_cmo_total_stability_low"], 0), 2),
-            "high": round(number(row["candidate_cmo_total_stability_high"], 0), 2),
-            "raw": round((number(race["raw_overperformance"], 0) if row["party"] == "D" else -number(race["raw_overperformance"], 0)), 2),
-            "expected": round((number(race["expected_cmo_total_oof"], 0) if row["party"] == "D" else -number(race["expected_cmo_total_oof"], 0)), 2),
-            "margin": round((number(race["legislative_dem_margin"], 0) if row["party"] == "D" else -number(race["legislative_dem_margin"], 0)), 2),
-            "cycleTopTicket": round((number(race["statewide_index_margin"], 0) if row["party"] == "D" else -number(race["statewide_index_margin"], 0)), 2),
-            "priorPres": (round(number(race["prior_pres_dem_margin"]), 2) if row["party"] == "D" and number(race["prior_pres_dem_margin"]) is not None
-                          else round(-number(race["prior_pres_dem_margin"]), 2) if number(race["prior_pres_dem_margin"]) is not None else None),
-            "expectedMargin": round((number(race["legislative_dem_margin"], 0) - number(race["cmo_total_oof"], 0) if row["party"] == "D" else -number(race["legislative_dem_margin"], 0) + number(race["cmo_total_oof"], 0)), 2),
-            "winner": ((row["party"] == "D" and number(race["dem_votes"], 0) > number(race["rep_votes"], 0)) or
-                       (row["party"] == "R" and number(race["rep_votes"], 0) > number(race["dem_votes"], 0))),
-            "incumbent": ((row["party"] == "D" and str(race.get("dem_incumbent", "")).lower() in {"true", "1"}) or
-                          (row["party"] == "R" and str(race.get("rep_incumbent", "")).lower() in {"true", "1"})),
-            "quality": "; ".join(filter(None, [
-                "1994 sensitivity tier" if cycle == 1994 else "",
-                "historical geography/context" if cycle < 2010 else "",
-                "incumbency match conflict excluded" if str(race.get("incumbency_conflict", "0")) in {"1", "1.0", "True", "true"} else "",
-                "finance incomplete" if str(race.get("finance_complete", "")).lower() not in {"true", "1"} else "",
-                "core baseline incomplete" if str(race.get("core_index_complete", "")).lower() not in {"true", "1"} else "",
-                "2014 structural-break risk" if cycle == 2014 else "",
-            ])) or "standard source checks passed",
-            "modelTier": race.get("model_tier", ""),
-            "baselineMethod": race.get("baseline_allocation_method", ""),
-            "baselineFallbackShare": number(race.get("baseline_fallback_share")),
-            "priorPresYear": number(race.get("prior_presidential_year")),
-            "priorPresFallbackShare": number(race.get("prior_pres_fallback_share")),
-            "priorPresComplete": str(race.get("prior_pres_source_complete", "")).lower() in {"true", "1"},
-            "priorPresSwing": number(race.get("prior_pres_swing")),
-            "presTrendAvailable": str(race.get("pres_trend_available", "")).lower() in {"true", "1"},
-            "demographicsMethod": race.get("demographics_method", "") or race.get("demographics_method_historical", ""),
-            "demographicReferenceYear": number(race.get("demographic_reference_year")),
-            "nonwhiteShare": number(race.get("nonwhite_share")),
-            "whiteCollegeShare": number(race.get("white_college_share")),
-            "incumbencyComplete": str(race.get("incumbency_evidence_complete", "")).lower() in {"true", "1"},
-            "incumbencyConflict": str(race.get("incumbency_conflict", "")).lower() in {"true", "1"},
-            "financeComplete": str(race.get("finance_complete", "")).lower() in {"true", "1"},
-            "ftmFinanceComplete": str(race.get("ftm_finance_complete", "")).lower() in {"true", "1"},
-            "readinessStatus": race.get("readiness_status", ""),
-        }
-        groups.setdefault((cycle, chamber), []).append(item)
-
-    payload = {}
-    for (cycle, chamber), items in groups.items():
-        ordered_scores = sorted(x["war"] for x in items)
-        for item in items:
-            below = sum(v < item["war"] for v in ordered_scores)
-            equal = sum(v == item["war"] for v in ordered_scores)
-            item["percentile"] = round(100 * (below + 0.5 * equal) / len(ordered_scores), 1)
-        frame = gpd.read_file(f"zip://{(MAPS / MAP_FILES[(cycle, chamber)]).resolve()}").to_crs(4326)
-        frame["district"] = frame.apply(lambda r: district_id(r, cycle, chamber), axis=1)
-        frame["geometry"] = frame.geometry.simplify(0.007, preserve_topology=True)
-        bounds = frame.total_bounds
-        paths = [{"district": int(r.district), "path": path_for_geometry(r.geometry, bounds)} for _, r in frame.iterrows()]
-        winners = {x["district"]: x for x in items if x["winner"]}
-        scored = [x["war"] for x in winners.values()]
-        districts_in_race = sorted({x["district"] for x in items})
-        cycle_races = [r for r in all_races if int(r["cycle"]) == cycle and r["chamber"] == chamber]
-        district_status = {}
-        for row in cycle_races:
-            district = int(float(row["district"]))
-            if str(row.get("war_eligible", "")).lower() in {"true", "1"}:
-                status = "Eligible contested D–R race"
-            elif number(row.get("dem_votes"), 0) <= 0 or number(row.get("rep_votes"), 0) <= 0:
-                status = "Uncontested or missing a Democratic/Republican nominee"
-            elif str(row.get("core_index_complete", "")).lower() not in {"true", "1"}:
-                status = "Statewide baseline incomplete"
-            else:
-                status = "Not eligible for a published CMO score"
-            district_status[str(district)] = status
-        dem_war = {
-            d: round(number(race_index[(cycle, chamber, d)]["cmo_total_oof"], 0), 2)
-            for d in districts_in_race
-        }
-        ordered_dem = sorted(dem_war.values())
-        dem_percentile = {
-            d: round(2 * ((sum(v < score for v in ordered_dem) +
-                           0.5 * sum(v == score for v in ordered_dem)) / len(ordered_dem)) - 1, 4)
-            for d, score in dem_war.items()
-        }
-        governor_margin = {
-            d: next((o["demMargin"] for o in office_index.get((cycle, chamber, d), [])
-                     if o["label"] == "Governor"), None)
-            for d in districts_in_race
-        }
-        raw_vs_governor = {
-            d: (round(number(race_index[(cycle, chamber, d)]["legislative_dem_margin"], 0) - governor_margin[d], 2)
-                if governor_margin[d] is not None else None)
-            for d in districts_in_race
-        }
-        raw_vs_presidential = {
-            d: (round(number(race_index[(cycle, chamber, d)]["legislative_dem_margin"], 0) - prior, 2)
-                if (prior := number(race_index[(cycle, chamber, d)].get("prior_pres_dem_margin"))) is not None else None)
-            for d in districts_in_race
-        }
-        payload[f"{cycle}-{chamber}"] = {
-            "cycle": cycle,
-            "chamber": chamber,
-            "mapVintage": "1992 enacted plan" if cycle <= 1998 else "2001 enacted plan" if cycle <= 2010 else "2012 enacted plan" if cycle == 2014 else "2017 enacted plan" if cycle == 2018 else "2021 enacted plan",
-            "paths": paths,
-            "candidates": sorted(items, key=lambda x: x["war"], reverse=True),
-            "winners": winners,
-            "demWar": dem_war,
-            "demPercentile": dem_percentile,
-            "rawVsGovernor": raw_vs_governor,
-            "rawVsPresidential": raw_vs_presidential,
-            "districtStatus": district_status,
-            "baselines": {
-                str(d): ([{"label": "Same-cycle composite", "demMargin": round(number(race_index[(cycle, chamber, d)].get("statewide_index_margin"), 0), 2), "kind": "composite", "demName": "Democratic ticket average", "repName": "Republican ticket average"},
-                          {"label": "Previous presidential", "demMargin": round(number(race_index[(cycle, chamber, d)].get("prior_pres_dem_margin"), 0), 2), "kind": "presidential",
-                           "available": number(race_index[(cycle, chamber, d)].get("prior_pres_dem_margin")) is not None,
-                           "demName": {1994:"Bill Clinton",1998:"Bill Clinton",2002:"Al Gore",2006:"John Kerry",2014: "Barack Obama", 2018: "Hillary Clinton", 2022: "Joe Biden"}.get(cycle, "Democratic presidential nominee"),
-                           "repName": {1994:"George H. W. Bush",1998:"Bob Dole",2002:"George W. Bush",2006:"George W. Bush",2014: "Mitt Romney", 2018: "Donald Trump", 2022: "Donald Trump"}.get(cycle, "Republican presidential nominee")}] +
-                         office_index.get((cycle, chamber, d), []))
-                for d in districts_in_race
-            },
-            "summary": {
-                "races": len(winners),
-                "candidates": len(items),
-                "median": round(float(np.median(scored)), 1),
-                "top": max(winners.values(), key=lambda x: x["war"])["candidate"],
-            },
-        }
-    return payload
-
-
-def load_data_v2():
-    """Build the public payload from the versioned direct-estimand CMO v3 product."""
-    with (WAR / "cmo_v3_candidates.csv").open(encoding="utf-8-sig", newline="") as f:
-        candidates = list(csv.DictReader(f))
-    with (WAR / "cmo_v3_races.csv").open(encoding="utf-8-sig", newline="") as f:
-        races = list(csv.DictReader(f))
-    # V2 race rows are metadata-only here. No V2 score or expectation enters
-    # the public payload.
-    with (WAR / "cmo_v2_races.csv").open(encoding="utf-8-sig", newline="") as f:
         race_metadata = list(csv.DictReader(f))
-    with (WAR / "preliminary_cmo_candidates.csv").open(encoding="utf-8-sig", newline="") as f:
-        legacy_names = list(csv.DictReader(f))
     with (WAR / "wikipedia_legislative_candidates.csv").open(encoding="utf-8-sig", newline="") as f:
         public_candidates = list(csv.DictReader(f))
     with (WAR / "2022_wikipedia_vote_validation.csv").open(encoding="utf-8-sig", newline="") as f:
@@ -299,13 +99,9 @@ def load_data_v2():
     race_index = {(int(r["cycle"]), r["chamber"], int(float(r["district"]))): r for r in races}
     metadata_index = {(int(r["cycle"]), r["chamber"], int(float(r["district"]))): r for r in race_metadata}
     public_name_index = {
-        (int(r["cycle"]), r["chamber"], int(float(r["district"])), r["party"], int(number(r["votes"], 0))): r["candidate"]
-        for r in legacy_names
-    }
-    public_name_index.update({
         (int(r["cycle"]), r["chamber"], int(r["district"]), r["party"], int(number(r["votes_wikipedia"], 0))): r["candidate"]
         for r in public_candidates
-    })
+    }
     name_db = sqlite3.connect(ROOT / "data" / "processed" / "elections" / "alabama_elections.sqlite")
     observed_names = name_db.execute("""
         SELECT year, office, party_norm, TRIM(candidate), COUNT(*) AS records, SUM(votes) AS votes
@@ -344,32 +140,32 @@ def load_data_v2():
         meta = metadata_index[(cycle, chamber, district)]
         party = row["canonical_party"]
         orient = 1 if party == "D" else -1
-        width = number(row.get("candidate_headline_cmo_high"), 0) - number(row.get("candidate_headline_cmo_low"), 0)
         item = {
             "district": district,
             "candidate": public_name_index.get((cycle, chamber, district, party, int(number(row["canonical_votes"], 0))), row["canonical_name"]),
             "personId": row["candidate_effect_id"],
             "party": party, "votes": int(number(row["canonical_votes"], 0)),
-            "war": round(number(row["candidate_headline_cmo"], 0), 2),
-            "within": round(number(row.get("candidate_state_ticket_cmo"), 0), 2),
-            "raw": (round(number(row.get("candidate_federal_ticket_cmo")), 2)
-                    if number(row.get("candidate_federal_ticket_cmo")) is not None else None),
-            "predictiveResidual": (round(number(row.get("candidate_presidential_ticket_cmo")), 2)
-                                   if number(row.get("candidate_presidential_ticket_cmo")) is not None else None),
-            "partialPooled": round(number(row.get("career_cmo_partial_pooled"), 0), 2),
+            "war": round(number(row["candidate_war_cmo"], 0), 2),
+            "within": round(number(row.get("candidate_raw_ticket_gap"), 0), 2),
+            "raw": round(number(row.get("candidate_lagged_partisanship_adjustment"), 0), 2),
+            "predictiveResidual": round(number(row.get("candidate_incumbency_adjustment"), 0), 2),
+            "partialPooled": round(number(row.get("career_war_partial_pooled"), 0), 2),
+            "structuralBase": round(number(row.get("candidate_structural_base_adjustment"), 0), 2),
+            "demographicAdjustment": round(number(row.get("candidate_demographic_adjustment"), 0), 2),
+            "campaignEffortAdjustment": round(number(row.get("candidate_campaign_effort_adjustment"), 0), 2),
+            "predictedStructuralGap": round(number(row.get("candidate_predicted_structural_gap"), 0), 2),
             "appearances": int(number(row.get("appearances"), 1)),
             "attributionReliability": number(row.get("career_reliability"), 0),
             "identityStatus": row.get("identity_status", ""), "contestTier": row.get("contest_tier", ""),
-            "low": round(number(row["candidate_headline_cmo_low"], 0), 2),
-            "high": round(number(row["candidate_headline_cmo_high"], 0), 2),
-            "specificationRange": round(width, 2),
-            "signConsistent": bool(number(race.get("federal_ticket_cmo")) is None or
-                                   np.sign(number(race.get("headline_cmo"), 0)) == np.sign(number(race.get("federal_ticket_cmo"), 0))),
-            "expectedMargin": round(orient * number(race["baseline_ensemble_margin"], 0), 2),
+            "low": round(number(row["candidate_war_cmo"], 0), 2),
+            "high": round(number(row["candidate_war_cmo"], 0), 2),
+            "specificationRange": round(number(row.get("candidate_predicted_structural_gap"), 0), 2),
+            "signConsistent": True,
+            "expectedMargin": round(orient * (number(race["war_baseline_margin"], 0) + number(race["predicted_structural_gap"], 0)), 2),
             "margin": round(orient * number(race["legislative_dem_margin"], 0), 2),
-            "cycleTopTicket": round(orient * number(race["baseline_ensemble_margin"], 0), 2),
-            "priorPres": (round(orient * number(race.get("prior_pres_dem_margin_v2")), 2)
-                          if number(race.get("prior_pres_dem_margin_v2")) is not None else None),
+            "cycleTopTicket": round(orient * number(race["war_baseline_margin"], 0), 2),
+            "priorPres": (round(orient * number(race.get("prior_pres_margin")), 2)
+                          if number(race.get("prior_pres_margin")) is not None else None),
             "priorPresYear": number(meta.get("prior_presidential_year")),
             "winner": str(row.get("winner", "")).lower() in {"true", "1"},
             "incumbent": str(row.get("incumbent", "")).lower() in {"true", "1"},
@@ -377,9 +173,9 @@ def load_data_v2():
                 "nominal contest; excluded from fitting" if row.get("contest_tier") == "nominal" else "",
                 "1994 sensitivity tier" if cycle == 1994 else "",
                 "race-specific unresolved identity" if row.get("identity_status") == "surname_only_unresolved_race_specific" else "",
-                "statewide baseline fallback" if number(meta.get("baseline_fallback_share"), 0) > 0 else "",
+                "state-ticket fallback" if str(row.get("federal_primary", "")).lower() not in {"true", "1"} else "",
             ])) or "standard source checks passed",
-            "modelTier": meta.get("model_tier", ""), "baselineMethod": race.get("baseline_source_v3", ""),
+            "modelTier": meta.get("model_tier", ""), "baselineMethod": race.get("war_baseline_source", ""),
             "baselineFallbackShare": number(meta.get("baseline_fallback_share")),
             "priorPresFallbackShare": number(meta.get("prior_pres_fallback_share")),
             "priorPresComplete": str(meta.get("prior_pres_source_complete", "")).lower() in {"true", "1"},
@@ -402,15 +198,15 @@ def load_data_v2():
         paths = [{"district": int(r.district), "path": path_for_geometry(r.geometry, bounds)} for _, r in frame.iterrows()]
         winners = {x["district"]: x for x in items if x["winner"]}
         districts = sorted({x["district"] for x in items})
-        dem_context = {d: round(number(race_index[(cycle, chamber, d)]["headline_cmo"], 0), 2) for d in districts}
-        dem_within = {d: round(number(race_index[(cycle, chamber, d)].get("state_ticket_cmo"), 0), 2) for d in districts}
-        dem_raw = {d: round(number(race_index[(cycle, chamber, d)].get("federal_ticket_cmo"), 0), 2) for d in districts}
+        dem_context = {d: round(number(race_index[(cycle, chamber, d)]["war_cmo"], 0), 2) for d in districts}
+        dem_within = {d: round(number(race_index[(cycle, chamber, d)].get("raw_ticket_gap"), 0), 2) for d in districts}
+        dem_raw = {d: round(number(race_index[(cycle, chamber, d)].get("lagged_partisanship_adjustment"), 0), 2) for d in districts}
         dem_pair = {d: round(number(next(x for x in items if x["district"] == d and x["party"] == "D").get("partialPooled"), 0), 2) for d in districts}
         ordered_dem = sorted(dem_context.values())
         percentiles = {d: round(2 * ((sum(v < s for v in ordered_dem) + .5 * sum(v == s for v in ordered_dem)) / len(ordered_dem)) - 1, 4) for d, s in dem_context.items()}
         gov = {d: next((o["demMargin"] for o in office_index.get((cycle, chamber, d), []) if o["label"] == "Governor"), None) for d in districts}
         raw_gov = {d: round(number(race_index[(cycle, chamber, d)]["legislative_dem_margin"], 0) - gov[d], 2) if gov[d] is not None else None for d in districts}
-        raw_pres = {d: round(number(race_index[(cycle, chamber, d)]["legislative_dem_margin"], 0) - number(race_index[(cycle, chamber, d)]["prior_pres_dem_margin_v2"]), 2) if number(race_index[(cycle, chamber, d)].get("prior_pres_dem_margin_v2")) is not None else None for d in districts}
+        raw_pres = {d: round(number(race_index[(cycle, chamber, d)]["legislative_dem_margin"], 0) - number(race_index[(cycle, chamber, d)]["prior_pres_margin"]), 2) if number(race_index[(cycle, chamber, d)].get("prior_pres_margin")) is not None else None for d in districts}
         payload[f"{cycle}-{chamber}"] = {
             "cycle": cycle, "chamber": chamber,
             "mapVintage": "1992 enacted plan" if cycle <= 1998 else "2001 enacted plan" if cycle <= 2010 else "2012 enacted plan" if cycle == 2014 else "2017 enacted plan" if cycle == 2018 else "2021 enacted plan",
@@ -418,64 +214,22 @@ def load_data_v2():
             "demWar": dem_context, "demWithin": dem_within, "demRawTicket": dem_raw, "demPair": dem_pair,
             "demPercentile": percentiles, "rawVsGovernor": raw_gov, "rawVsPresidential": raw_pres,
             "districtStatus": {str(d): f"{race_index[(cycle, chamber, d)]['contest_tier'].title()} contested D–R race" for d in districts},
-            "baselines": {str(d): ([{"label": "Source-aware ensemble", "demMargin": round(number(race_index[(cycle, chamber, d)]["baseline_ensemble_margin"], 0), 2), "kind": "composite", "demName": "Democratic baseline", "repName": "Republican baseline"}, {"label": "Previous presidential", "demMargin": round(number(race_index[(cycle, chamber, d)].get("prior_pres_dem_margin_v2"), 0), 2), "kind": "presidential", "available": number(race_index[(cycle, chamber, d)].get("prior_pres_dem_margin_v2")) is not None, "demName": "Democratic nominee", "repName": "Republican nominee"}] + office_index.get((cycle, chamber, d), [])) for d in districts},
+            "baselines": {str(d): ([{"label": "WAR ticket baseline", "demMargin": round(number(race_index[(cycle, chamber, d)]["war_baseline_margin"], 0), 2), "kind": "composite", "demName": "Democratic baseline", "repName": "Republican baseline"}, {"label": "Previous presidential", "demMargin": round(number(race_index[(cycle, chamber, d)].get("prior_pres_margin"), 0), 2), "kind": "presidential", "available": number(race_index[(cycle, chamber, d)].get("prior_pres_margin")) is not None, "demName": "Democratic nominee", "repName": "Republican nominee"}] + office_index.get((cycle, chamber, d), [])) for d in districts},
             "summary": {"races": len(winners), "candidates": len(items), "median": round(float(np.median([x["war"] for x in winners.values()])), 1), "top": max(winners.values(), key=lambda x: x["war"])["candidate"]},
         }
     return payload
 
 
 def build_validation_panel():
-    diagnostics = list(csv.DictReader((WAR / "cmo_diagnostics.csv").open(encoding="utf-8-sig", newline="")))
-    benchmarks = list(csv.DictReader((WAR / "cmo_benchmark_diagnostics.csv").open(encoding="utf-8-sig", newline="")))
-    forward = list(csv.DictReader((WAR / "cmo_forward_validation.csv").open(encoding="utf-8-sig", newline="")))
-    labels = {"total": "Total", "resource_adjusted": "Resource-adjusted", "fundraising_adjusted": "Fundraising-adjusted"}
+    tournament = list(csv.DictReader((WAR / "cmo_v4_model_tournament.csv").open(encoding="utf-8-sig", newline="")))
+    validity = list(csv.DictReader((WAR / "cmo_v4_construct_validity.csv").open(encoding="utf-8-sig", newline="")))
     rows = "".join(
-        f"<tr><td>{labels.get(r['specification'], html.escape(r['specification']))}</td>"
-        f"<td>{number(r['random_mae']):.1f}</td><td>{number(r['random_r2']):.3f}</td>"
-        f"<td>{number(r['district_grouped_mae']):.1f}</td><td>{number(r['district_grouped_r2']):.3f}</td>"
-        f"<td>{number(r['cycle_holdout_mae']):.1f}</td><td>{number(r['cycle_holdout_r2']):.3f}</td></tr>"
-        for r in diagnostics
-    )
-    benchmark_rows = "".join(
-        f"<tr><td>{html.escape(r['benchmark'].replace('_', ' ').title())}</td><td>{number(r['mae']):.1f}</td><td>{number(r['r2']):.3f}</td></tr>"
-        for r in benchmarks
-    )
-    total_forward = [r for r in forward if r["specification"] == "total"]
-    forward_rows = "".join(
-        f"<tr class=\"{'risk-row' if number(r['r2']) < 0 else ''}\"><td>{r['test_cycle']}</td><td>{r['test_races']}</td>"
-        f"<td>{number(r['mae']):.1f}</td><td>{number(r['r2']):.3f}</td></tr>" for r in total_forward
-    )
-    return f'''<section class="validation" id="validation"><div class="section-head"><div><h2>Model validation</h2><p>Out-of-sample error in margin percentage points. Negative R² means the model transferred worse than predicting the test set mean.</p></div><span class="warning-chip">Retrospective—not a forecast</span></div><div class="validation-grid"><div><h3>Cross-validation by specification</h3><div class="table-wrap compact"><table><thead><tr><th>Specification</th><th>Random MAE</th><th>Random R²</th><th>District MAE</th><th>District R²</th><th>Cycle MAE</th><th>Cycle R²</th></tr></thead><tbody>{rows}</tbody></table></div></div><div><h3>Total CMO forward tests</h3><div class="table-wrap compact"><table><thead><tr><th>Test cycle</th><th>Races</th><th>MAE</th><th>R²</th></tr></thead><tbody>{forward_rows}</tbody></table></div></div></div><details><summary>Simple benchmark comparison</summary><div class="table-wrap compact benchmark"><table><thead><tr><th>Benchmark</th><th>MAE</th><th>R²</th></tr></thead><tbody>{benchmark_rows}</tbody></table></div></details><p class="validation-note">Forward performance varies materially by election era, including negative R² in several cycles. CMO is suitable for retrospective comparison, not uniform claims about unseen elections.</p></section>'''
-
-
-def build_validation_panel_v2():
-    diagnostics = list(csv.DictReader((WAR / "cmo_v2_diagnostics.csv").open(encoding="utf-8-sig", newline="")))
-    validity = list(csv.DictReader((WAR / "cmo_v2_construct_validity.csv").open(encoding="utf-8-sig", newline="")))
-    labels = {
-        "baseline_ensemble_margin": "Source-aware baseline", "context_ridge": "Context CMO (ridge)",
-        "context_huber": "Robust alternative", "context_bounded_logit": "Bounded-logit alternative",
-        "nested_forward_selected": "Nested-forward specification", "predictive_full": "Predictive residual",
-    }
-    rows = []
-    for spec in labels:
-        values = [r for r in diagnostics if r["specification"] == spec]
-        if values:
-            rows.append(f"<tr><td>{labels[spec]}</td><td>{sum(number(r['races'], 0) for r in values):.0f}</td><td>{np.mean([number(r['mae'], 0) for r in values]):.1f}</td><td>{np.mean([number(r['rmse'], 0) for r in values]):.1f}</td></tr>")
+        f"<tr><td>{html.escape(r['specification'].replace('_', ' ').title())}</td><td>{r.get('alpha', '')}</td>"
+        f"<td>{number(r.get('mean_cycle_mae'), 0):.1f}</td><td>{number(r.get('mean_cycle_rmse'), 0):.1f}</td></tr>" for r in tournament)
     validity_rows = "".join(
-        f"<tr><td>{html.escape(r['design'].replace('_', ' ').title())}</td><td>{html.escape(r['outcome'].replace('candidate_', '').replace('_', ' ').title())}</td><td>{r['n']}</td><td>{number(r['spearman']):.3f}</td><td>{number(r['spearman_p']):.3f}</td></tr>"
-        for r in validity
-    )
-    return f'''<section class="validation" id="validation"><div class="section-head"><div><h2>Diagnostics</h2><p>Errors are calculated by cycle. The displayed averages weight election cycles equally, so a large cycle does not dominate the result.</p></div><span class="warning-chip">Retrospective—not causal</span></div><div class="validation-grid"><div><h3>Cycle-balanced error</h3><div class="table-wrap compact"><table><thead><tr><th>Specification</th><th>Race predictions</th><th>Mean cycle MAE</th><th>Mean cycle RMSE</th></tr></thead><tbody>{''.join(rows)}</tbody></table></div></div><div><h3>Construct-validity checks</h3><div class="table-wrap compact"><table><thead><tr><th>Design</th><th>Measure</th><th>N</th><th>Spearman</th><th>p</th></tr></thead><tbody>{validity_rows}</tbody></table></div></div></div><p class="validation-note">Context CMO is the public comparison measure. Predictive residual is shown separately because it conditions on candidate-linked variables. The partial-pooled candidate-pair estimate is descriptive attribution, not a causal individual effect.</p></section>'''
-
-
-def build_validation_panel_v3():
-    tournament = list(csv.DictReader((WAR / "cmo_v3_baseline_tournament.csv").open(encoding="utf-8-sig", newline="")))
-    pathologies = list(csv.DictReader((WAR / "cmo_v3_context_pathology_audit.csv").open(encoding="utf-8-sig", newline="")))
-    rows = "".join(
-        f"<tr><td>{html.escape(r['baseline'].replace('_', ' ').title())}</td><td>{r['races']}</td>"
-        f"<td>{number(r['mean_absolute_gap']):.1f}</td><td>{number(r['median_gap']):.1f}</td>"
-        f"<td>{number(r['p95_absolute_gap']):.1f}</td></tr>" for r in tournament)
-    return f'''<section class="validation" id="validation"><div class="section-head"><div><h2>Diagnostics</h2><p>The baseline comparison reports the observed distance between legislative results and each available ticket measure. It is descriptive, not a forecast tournament.</p></div><span class="warning-chip">Retrospective—not causal</span></div><div class="table-wrap compact"><table><thead><tr><th>Baseline</th><th>Races</th><th>Mean absolute gap</th><th>Median gap</th><th>95th percentile absolute gap</th></tr></thead><tbody>{rows}</tbody></table></div><p class="validation-note">The former context model moved {len(pathologies)} races by more than 20 points relative to the direct ticket residual. Those estimates remain in the downloadable pathology audit and are excluded from headline CMO.</p></section>'''
+        f"<tr><td>{html.escape(r['design'].replace('_', ' ').title())}: {html.escape(r['outcome'].replace('_', ' '))}</td><td>{r.get('n', '')}</td>"
+        f"<td>{number(r.get('pearson'), 0):.3f}</td></tr>" for r in validity)
+    return f'''<section class="validation" id="validation"><div class="section-head"><div><h2>Diagnostics</h2><p>The structural model is selected with election-cycle holdouts. These diagnostics test the construction; they do not turn a retrospective residual into a forecast.</p></div><span class="warning-chip">Retrospective—not causal</span></div><div class="validation-grid"><div><h3>Cycle-held-out tournament</h3><div class="table-wrap compact"><table><thead><tr><th>Model</th><th>Ridge alpha</th><th>MAE</th><th>RMSE</th></tr></thead><tbody>{rows}</tbody></table></div></div><div><h3>Construct checks</h3><div class="table-wrap compact"><table><thead><tr><th>Check</th><th>N</th><th>Value</th></tr></thead><tbody>{validity_rows}</tbody></table></div></div></div><p class="validation-note">The score has little repeat-candidate persistence in the present sample. Read it as a candidate-cycle structural residual, not a durable or causal measure of candidate quality.</p></section>'''
 
 
 def build_attribution_panel(tag="section"):
@@ -535,8 +289,8 @@ main{max-width:1280px;margin:auto;padding:44px 28px 90px}.story-head{max-width:9
 <section class="rankings"><h2>Candidate results</h2><div class="note">Direct CMO is the headline comparison. Federal, presidential, and career-pooled columns are labeled alternatives rather than replacements for the observed score.</div><div class="filters"><input id="candidate-search" type="search" placeholder="Search candidate or district"><select id="scope-filter"><option value="active">Selected cycle and chamber</option><option value="all">All cycles and chambers</option></select><select id="party-filter"><option value="all">All parties</option><option value="D">Democratic</option><option value="R">Republican</option></select><select id="outcome-filter"><option value="all">All candidates</option><option value="winner">Winners</option><option value="incumbent">Incumbents</option></select></div><div class="table-wrap"><table><thead><tr><th data-sort="cycle">Cycle</th><th data-sort="district">District</th><th data-sort="candidate">Candidate</th><th data-sort="war">Direct CMO ↕</th><th data-sort="within">State-ticket CMO</th><th data-sort="raw">Federal CMO</th><th data-sort="predictiveResidual">Presidential CMO</th><th data-sort="partialPooled">Career pooled</th><th data-sort="specificationRange">Band width</th><th data-sort="cycleTopTicket">Baseline margin</th><th data-sort="margin">Actual margin</th><th data-sort="votes">Votes</th></tr></thead><tbody id="rows"></tbody></table></div></section>
 __VALIDATION_PANEL__
 __ATTRIBUTION_PANEL__
-<section class="downloads"><h2>Data and provenance</h2><p>Build updated August 21, 2026 from CMO methodology v3. Download the versioned rows, baseline tournament, pathology audit, and reproducibility manifest.</p><div class="download-links"><a href="data/cmo_v3_candidates.csv">Candidate output</a><a href="data/cmo_v3_races.csv">Race output</a><a href="data/cmo_v3_baseline_tournament.csv">Baseline comparison</a><a href="data/cmo_v3_context_pathology_audit.csv">Context pathology audit</a><a href="data/cmo_v3_provenance.csv">Run manifest</a><a href="cmo-methodology.html">Methodology</a></div></section>
-<section class="method"><h2>How to read CMO</h2><p>The source-aware baseline combines same-cycle Governor and Attorney General returns by vote weight. From 2018 onward, usable same-cycle federal results receive a declared 30 percent weight; previous presidential results remain a fallback.</p><p>Direct CMO is simply the candidate-oriented legislative margin minus that baseline. Regression expectations are audit-only because out-of-era extrapolation can absorb or reverse the performance the measure is intended to describe. The displayed band reflects disagreement among ticket baselines and source quality; it is not a 95 percent confidence interval.</p><p><a href="cmo-methodology.html">Read the full CMO methodology</a>, <a href="index.html">view the 2026 forecast</a>, or read the <a href="methodology.html#models">forecast methodology</a>.</p><div class="source">Model output: <code>cmo_v3_candidates.csv</code>. Scores cover contested Democratic-versus-Republican races.</div></section></main><div class="tooltip" id="tooltip"></div>
+<section class="downloads"><h2>Data and provenance</h2><p>Build updated August 21, 2026 from CMO methodology v4. Download the current rows, components, tournament, diagnostics, and provenance manifest.</p><div class="download-links"><a href="data/cmo_v4_candidates.csv">Candidate output</a><a href="data/cmo_v4_races.csv">Race output</a><a href="data/cmo_v4_components.csv">Components</a><a href="data/cmo_v4_model_tournament.csv">Model tournament</a><a href="data/cmo_v4_construct_validity.csv">Construct checks</a><a href="data/cmo_v4_provenance.csv">Run manifest</a><a href="cmo-methodology.html">Methodology</a></div></section>
+<section class="method"><h2>How to read CMO</h2><p>The preferred baseline is the same-cycle federal ticket inside the district, with a documented same-cycle state-ticket fallback when necessary.</p><p>The structural model uses symmetric incumbency, era-specific downballot lag, limited demographics, and capped campaign effort. WAR-style CMO is the observed ticket gap minus that prediction; ideology is excluded so it can be tested afterward.</p><p><a href="cmo-methodology.html">Read the full CMO methodology</a>, <a href="index.html">view the 2026 forecast</a>, or read the <a href="methodology.html#models">forecast methodology</a>.</p><div class="source">Model output: <code>cmo_v4_candidates.csv</code>. Scores cover contested Democratic-versus-Republican races.</div></section></main><div class="tooltip" id="tooltip"></div>
 <script>const DATA=__PAYLOAD__;
 let active='2010-house',sortKey='war',sortDir=-1,selected=null,mapMode='relative',baselineChoices={};
 const $=s=>document.querySelector(s), fmt=n=>(n>0?'+':'')+Number(n).toFixed(1), fmtMaybe=n=>n==null?'Unavailable':fmt(n), pct=n=>n==null?'Unavailable':(100*Number(n)).toFixed(1)+'%', esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -563,7 +317,7 @@ document.querySelectorAll('th[data-sort]').forEach(th=>th.onclick=()=>{const k=t
     return (template.replace("__PAYLOAD__", json.dumps(payload, separators=(",", ":")))
             .replace("__ELIGIBLE_RACES__", str(eligible_races))
             .replace("__CYCLE_COUNT__", str(cycle_count))
-            .replace("__VALIDATION_PANEL__", build_validation_panel_v3())
+            .replace("__VALIDATION_PANEL__", build_validation_panel())
             .replace("__ATTRIBUTION_PANEL__", build_attribution_panel())
             .replace("Build updated August 16, 2026", "Build updated August 17, 2026")
             .replace("Spending ${x.financeComplete?'complete':'incomplete'} · FTM ${x.ftmFinanceComplete?'complete':'incomplete'}",
@@ -584,7 +338,7 @@ def build_methodology_page(eligible_races):
 <section id="versions"><h2>5. Three CMO specifications</h2><p><b>Total CMO</b>, the headline measure, uses Fundamentals+ and therefore conditions partly on observed finance. <b>Resource-adjusted CMO</b> and <b>Fundraising-adjusted CMO</b> remain legacy sensitivity specifications for comparison.</p><p>None supports a causal claim. Fundraising is endogenous, finance coverage is incomplete, and money raised is not the same as money efficiently deployed. Numerical prior-CMO values are unavailable in the current historical training panel, so only prior-appearance and prior-winner indicators contribute candidate-history information.</p></section>
 <section id="validation"><h2>6. Validation and interpretation</h2><p>Validation emphasizes forward and grouped tests rather than random folds alone. The model reports random out-of-fold error, leave-one-cycle-out error, source coverage, exact vote-total checks, score symmetry, and sensitivity to specifications. Historical era shifts—especially 2014—make cycle holdouts materially harder than within-era prediction.</p><p>Large positive scores mean “far ahead of this model’s expectation,” not “personally caused this many points.” Rankings are most useful alongside the district result, expected baseline, top-of-ticket context, stability band, and source notes.</p></section>
 <section id="limits"><h2>7. Important limitations</h2><ul><li>The index contains eight cycles and __ELIGIBLE_RACES__ eligible races, but only a small number of independent election environments.</li><li>Scores are conditional on contested Democratic-versus-Republican races and do not represent all candidates or legislators.</li><li>The zero-sum construction attributes a race residual symmetrically to the two candidates.</li><li>Election eras, district boundaries, turnout, and source quality change across cycles; 1994 is a sensitivity tier.</li><li>Same-cycle context makes the historical index descriptive; it cannot be used unchanged before Election Day.</li><li>The stability band is a model-sensitivity diagnostic, not calibrated predictive uncertainty.</li></ul></section>
-<section id="forecast"><h2>8. Relationship to the 2026 forecast</h2><p>The forecast and CMO are separate products. CMO describes historical overperformance. For 2026, prior CMO was tested as a shrinkage-adjusted candidate layer using exact candidate-and-party matches. It did not improve both the average and latest forward-cycle error under the declared promotion rule, so it does not alter the headline forecast and remains a scenario layer.</p><div class="links"><a href="cmo.html">Explore CMO</a><a href="index.html">View forecast</a><a href="methodology.html#candidate">Forecast candidate layer</a><a href="data/preliminary_cmo_candidates.csv">Candidate data</a></div></section>
+<section id="forecast"><h2>8. Relationship to the 2026 forecast</h2><p>The forecast and CMO are separate products. CMO describes historical overperformance. CMO v4 is not inserted directly into the headline forecast because repeat-candidate persistence is weak in the current sample.</p><div class="links"><a href="cmo.html">Explore CMO</a><a href="index.html">View forecast</a><a href="methodology.html#candidate">Forecast candidate layer</a><a href="data/cmo_v4_candidates.csv">Candidate data</a></div></section>
 __ATTRIBUTION_PANEL__
 </article></div></main><footer>Model and analysis by Jackson Hannan · <a href="https://github.com/JacksonAHannan">GitHub</a> · <a href="https://substack.com/@jacksonhannan">Substack</a></footer></body></html>'''
     return (page.replace("__ELIGIBLE_RACES__", str(eligible_races))
@@ -593,9 +347,82 @@ __ATTRIBUTION_PANEL__
                      "Headline Fundamentals+ uses canonical fundraising where available plus an explicit availability flag. Coverage is 352 of 509 races (69.2%); missing records remain unknown."))
 
 
+def modernize_v4_copy(rendered):
+    replacements = {
+        "Direct ticket comparison": "WAR-style residual",
+        "Direct ticket CMO": "WAR-style CMO",
+        "Direct CMO": "WAR-style CMO",
+        "direct-CMO": "WAR-style CMO",
+        "State-ticket CMO": "Raw ticket gap",
+        "Federal CMO": "Lag adjustment",
+        "Presidential CMO": "Incumbency adjustment",
+        "State ticket": "Raw ticket gap",
+        "Federal ticket": "Lag adjustment",
+        "Band width": "Structural gap",
+        "Build updated August 21, 2026 from CMO methodology v3.": "Build updated August 21, 2026 from CMO methodology v4.",
+    }
+    for old, new in replacements.items():
+        rendered = rendered.replace(old, new)
+    rendered = rendered.replace(
+        "The headline score is the legislative margin minus a source-aware same-district ticket baseline. Demographics, incumbency, finance, ideology, and candidate history do not alter the election-level score.",
+        "The headline score is the observed legislative-versus-ticket gap minus the gap predicted from incumbency, downballot lag, demographics, and campaign effort.")
+    rendered = rendered.replace(
+        "Candidate Margin Overperformance compares a legislative result with same-district political conditions measured from the ticket. The main score is directly auditable from the actual legislative margin and selected baseline.",
+        "This model applies Split Ticket's WAR structure to Alabama legislative elections: measure the raw legislative-versus-ticket gap, predict its structural portion, and score the residual.")
+    rendered = rendered.replace(
+        "Positive values indicate performance ahead of the source-aware ticket baseline.",
+        "Positive values indicate performance ahead of the model's structural expectation.")
+    rendered = rendered.replace("<b>4</b><span>Comparison views</span>", "<b>5</b><span>Model components</span>")
+    rendered = rendered.replace(
+        "WAR-style CMO is the headline comparison. Federal, presidential, and career-pooled columns are labeled alternatives rather than replacements for the observed score.",
+        "The table separates the observed ticket gap, modeled structural expectation, and remaining WAR-style residual.")
+    rendered = rendered.replace(
+        "The source-aware baseline combines same-cycle Governor and Attorney General returns by vote weight. From 2018 onward, usable same-cycle federal results receive a declared 30 percent weight; previous presidential results remain a fallback.",
+        "The preferred baseline is the same-cycle federal ticket inside the district. When it is unavailable, the model uses the documented same-cycle state-ticket fallback.")
+    rendered = rendered.replace(
+        "WAR-style CMO is simply the candidate-oriented legislative margin minus that baseline. Regression expectations are audit-only because out-of-era extrapolation can absorb or reverse the performance the measure is intended to describe. The displayed band reflects disagreement among ticket baselines and source quality; it is not a 95 percent confidence interval.",
+        "The structural model uses symmetric incumbency, era-specific downballot lag, limited demographics, and capped campaign effort. WAR-style CMO is the observed ticket gap minus that prediction; ideology is excluded so it can be tested afterward.")
+    rendered = rendered.replace("Overperformance versus the state ticket", "Observed legislative-versus-ticket gap")
+    rendered = rendered.replace("Overperformance versus the same-cycle federal ticket", "Modeled downballot-lag adjustment")
+    rendered = rendered.replace("Baseline/data-quality band", "WAR-style CMO")
+    rendered = rendered.replace("Federal-ticket CMO", "Lagged-partisanship adjustment")
+    rendered = rendered.replace("Presidential-baseline CMO", "Incumbency adjustment")
+    rendered = rendered.replace("actual versus ticket baseline", "actual versus structural expectation")
+    rendered = rendered.replace('<th colspan="2" class="group-head">Ticket baseline</th>', '<th colspan="2" class="group-head">Structural expectation</th>')
+    rendered = rendered.replace('<span>Ticket baseline margin</span>', '<span>Structural expected margin</span>')
+    rendered = rendered.replace('<span class="badge ${stable?\'\':\'warn\'}">${stable?\'Narrower band\':\'Wider band\'}</span>', '')
+    rendered = rendered.replace('<span class="badge ${x.signConsistent?\'\':\'warn\'}">${x.signConsistent?\'Ticket alternatives agree\':\'Ticket direction differs\'}</span>', '')
+    rendered = rendered.replace('<div class="stat"><span>WAR-style CMO</span><b>${fmt(x.low)} to ${fmt(x.high)}</b></div>', '')
+    rendered = rendered.replace("Direct comparison", "WAR decomposition")
+    rendered = rendered.replace("Source-aware baseline margin", "Expected legislative margin")
+    rendered = rendered.replace(
+        "the source-aware same-district ticket baseline by about <b>${Math.abs(x.war).toFixed(1)} points</b>. Regression context expectations are not used in this score.",
+        "the model's structural expectation by about <b>${Math.abs(x.war).toFixed(1)} points</b>. The raw ticket gap is ${fmt(x.within)} and the predicted structural gap is ${fmt(x.predictedStructuralGap)}.")
+    return rendered
+
+
+def modernize_methodology_v4(rendered):
+    body = '''<article class="copy">
+<section id="estimand"><h2>1. What CMO measures</h2><p>CMO is a state-legislative analogue to Split Ticket's WAR. It begins with the observed two-party margin gap between a legislative race and the same district's ticket baseline, predicts the portion normally associated with structural conditions, and treats the remainder as candidate margin overperformance.</p><div class="formula">Raw ticket gap = legislative margin − ticket margin<br>WAR-style CMO = raw ticket gap − predicted structural gap</div><p>Republican values reverse the Democratic race residual, so every race is zero-sum. The residual is retrospective and is not a causal estimate of either candidate's personal contribution.</p></section>
+<section id="data"><h2>2. Data and eligibility</h2><p>The model covers contested Democratic-versus-Republican Alabama House and Senate races from 1994 through 2022. Official and reconciled returns provide legislative, federal, statewide, and presidential results. Census and ACS sources supply era-appropriate demographics; finance enters only through a capped campaign-effort term.</p></section>
+<section id="baseline"><h2>3. Ticket baseline</h2><p>The preferred comparison is the same-cycle U.S. House and U.S. Senate result measured within the legislative district. It captures the national political environment facing the legislative candidates. Eighty-one races without a usable federal comparison use a documented same-cycle state-ticket fallback; 428 use the federal-primary baseline.</p></section>
+<section id="models"><h2>4. Structural expectation</h2><p>A regularized ridge model predicts the normal legislative-ticket gap. Major terms are symmetric party-oriented incumbency and era-specific downballot lag—the difference between same-cycle federal voting and preceding presidential voting. Prior presidential margin and available presidential swing provide additional political context.</p><p>Nonwhite share and white-college share are minor demographic terms capped at ±3 points. Campaign effort uses spending, fundraising, or resource ratios according to availability and is capped at ±2 points. Ideology and cycle fixed effects are excluded: ideology is an outcome to test afterward, while cycle indicators would absorb statewide Conservadem overperformance.</p></section>
+<section id="validation"><h2>5. Model selection and checks</h2><p>Ridge strength is selected with leave-one-cycle-out testing. Published checks cover vote arithmetic, ticket-source selection, component reconciliation, caps, party symmetry, candidate orientation, and exact zero-sum scores.</p></section>
+<section id="identity"><h2>6. Candidate and career summaries</h2><p>Election-level CMO is the primary product. Candidate histories use normalized full-name identities; unresolved surname-only records remain race-specific. A separately labeled partial-pooled career summary shrinks repeat candidates toward zero and never replaces the candidate-cycle result.</p></section>
+<section id="limits"><h2>7. Limitations</h2><ul><li>Eight cycles provide many races but few independent statewide environments.</li><li>The effort cap reaches its ±2-point bound often, signaling that finance measurement remains coarse.</li><li>Repeat-candidate WAR persistence is near zero in the current sample, so CMO should not be treated as a durable talent rating or forecast signal.</li><li>Fallback ticket sources and historical geographic allocation add uncertainty that is documented row by row.</li><li>Zero-sum residuals cannot separately identify the contributions of opposing candidates.</li></ul></section>
+<section id="reproducibility"><h2>8. Reproducibility</h2><p>The versioned build publishes race rows, candidate rows, component decomposition, coefficients, cycle diagnostics, construct checks, and a provenance manifest.</p><div class="links"><a href="cmo.html">Explore CMO</a><a href="data/cmo_v4_candidates.csv">Candidate data</a><a href="data/cmo_v4_races.csv">Race data</a><a href="data/cmo_v4_components.csv">Components</a><a href="data/cmo_v4_provenance.csv">Run manifest</a></div></section>
+__ATTRIBUTION_PANEL__
+</article>'''.replace("__ATTRIBUTION_PANEL__", build_attribution_panel())
+    start = rendered.index('<article class="copy">')
+    end = rendered.index('</article></div></main>')
+    rendered = rendered[:start] + body + rendered[end + len('</article>'):]
+    rendered = rendered.replace("A retrospective index of how far an Alabama legislative candidate ran ahead of or behind a cross-fitted expectation for the district and election.", "A retrospective WAR-style residual for Alabama legislative candidates, measured against same-district ticket voting and a regularized structural expectation.")
+    return rendered
+
+
 if __name__ == "__main__":
-    data = load_data_v2()
-    rendered = build_page(data)
+    data = load_data()
+    rendered = modernize_v4_copy(build_page(data))
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(rendered, encoding="utf-8")
     LEGACY_OUTPUT.write_text(rendered, encoding="utf-8")
@@ -615,7 +442,7 @@ if __name__ == "__main__":
 <section id="identity"><h2>5. Candidate identity and career summaries</h2><p>Candidate histories link on normalized full names. Surname-only source records are treated as unresolved and race-specific, and same-cycle collisions are split by chamber and district. Career CMO is a separately labeled partial-pooled summary. It never replaces the election-level score.</p></section>
 <section id="validation"><h2>6. Validation</h2><p>Every score is arithmetically reproducible from the published legislative and baseline margins. Validation checks vote-margin arithmetic, source selection, candidate orientation, zero-sum symmetry, uncertainty construction, and the baseline tournament.</p></section>
 <section id="limits"><h2>7. Limitations</h2><ul><li>Eight election cycles provide many races but few independent statewide environments.</li><li>The index covers contested Democratic-versus-Republican races and not every legislative candidate.</li><li>Zero-sum race residuals cannot identify both candidates' contributions without stronger assumptions.</li><li>District plans, source quality, turnout, and party coalitions change over time.</li><li>Same-cycle election context makes historical CMO descriptive and unsuitable as a direct pre-election forecast input.</li></ul></section>
-<section id="reproducibility"><h2>8. Reproducibility</h2><p>Each build records input hashes, code hash, configuration, run identifier, and output hashes in a deterministic manifest. Human identity adjudications remain separate from machine-generated evidence.</p><div class="links"><a href="cmo.html">Explore CMO</a><a href="data/cmo_v3_candidates.csv">Candidate data</a><a href="data/cmo_v3_races.csv">Race data</a><a href="data/cmo_v3_provenance.csv">Run manifest</a><a href="data/cmo_v3_context_pathology_audit.csv">Pathology audit</a></div></section>
+<section id="reproducibility"><h2>8. Reproducibility</h2><p>Each build records input hashes, code hash, configuration, run identifier, and output hashes in a deterministic manifest. Human identity adjudications remain separate from machine-generated evidence.</p><div class="links"><a href="cmo.html">Explore CMO</a><a href="data/cmo_v4_candidates.csv">Candidate data</a><a href="data/cmo_v4_races.csv">Race data</a><a href="data/cmo_v4_provenance.csv">Run manifest</a><a href="data/cmo_v4_components.csv">Components</a></div></section>
 __ATTRIBUTION_PANEL__
 </article>'''.replace("__ATTRIBUTION_PANEL__", build_attribution_panel())
     sections = re.sub(
@@ -623,14 +450,19 @@ __ATTRIBUTION_PANEL__
         '<section id="estimand"><h2>1. Direct CMO</h2><p>The headline score is the candidate-oriented difference between the legislative margin and a source-aware same-district ticket baseline. It is an observed comparison, not a second-stage regression residual.</p><div class="formula">Candidate CMO = party-oriented (legislative margin minus source-aware ticket margin)</div><p>Republican values reverse the Democratic race residual, so each race remains zero-sum. Demographics, finance, incumbency, ideology, and candidate history do not alter an election-level score.</p></section>',
         sections, count=1, flags=re.S)
     methodology_html = methodology_html[:start] + sections + methodology_html[end + len('</article>'):]
-    methodology_html = methodology_html.replace("A retrospective index of how far an Alabama legislative candidate ran ahead of or behind a cross-fitted expectation for the district and election.", "Documentation for the direct source-aware ticket comparison, alternative baselines, identity rules, diagnostics, and reproducible CMO v3 build.")
+    methodology_html = methodology_html.replace("A retrospective index of how far an Alabama legislative candidate ran ahead of or behind a cross-fitted expectation for the district and election.", "Documentation for the WAR-style ticket residual, structural model, diagnostics, and reproducible CMO v4 build.")
     old_toc = '<aside class="toc"><b>On this page</b><a href="#estimand">What CMO measures</a><a href="#data">Data and eligibility</a><a href="#baseline">Expected baseline</a><a href="#crossfit">Cross-fitting</a><a href="#versions">Three specifications</a><a href="#validation">Validation</a><a href="#limits">Limitations</a><a href="#forecast">Forecast use</a><a href="#sources">Sources and credit</a></aside>'
     new_toc = '<aside class="toc"><b>On this page</b><a href="#estimand">Four measures</a><a href="#data">Coverage and contest tiers</a><a href="#baseline">Political baseline</a><a href="#models">Estimation</a><a href="#identity">Identity and partial pooling</a><a href="#validation">Validation</a><a href="#limits">Limitations</a><a href="#reproducibility">Reproducibility</a><a href="#sources">Sources and credit</a></aside>'
     methodology_html = methodology_html.replace(old_toc, new_toc)
+    methodology_html = modernize_methodology_v4(methodology_html)
     SITE_METHODOLOGY_OUTPUT.write_text(methodology_html, encoding="utf-8")
     site_data = SITE_OUTPUT.parent / "data"
     site_data.mkdir(parents=True, exist_ok=True)
-    for source in WAR.glob("cmo_v3_*"):
+    for pattern in ("cmo_v2_*", "cmo_v3_*", "preliminary_cmo_*"):
+        for stale in site_data.glob(pattern):
+            if stale.is_file():
+                stale.unlink()
+    for source in WAR.glob("cmo_v4_*"):
         if source.is_file():
             shutil.copy2(source, site_data / source.name)
     shutil.copy2(ROOT / "project_docs" / "model" / "CMO_MODEL_CARD.md", site_data / "cmo_model_card.md")

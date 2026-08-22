@@ -1,6 +1,4 @@
 asset_id,asset_kind,layer,locator,owner_script,key_description,status,replacement_asset_id,notes
-raw_votesmart_ideology,raw_api_snapshot,raw,data/raw/ideology/votesmart/,scripts/download_votesmart_ideology.py,endpoint + request parameters + page,planned,,Authenticated historical candidate PCT ratings and campaign URL snapshots for 1994-2022
-raw_votesmart_public,raw_html_snapshot,raw,data/raw/ideology/votesmart_public/,scripts/scrape_votesmart_public.py,candidate ID + page type,active,,Cached public PCT and evaluations pages with request pacing and SHA-256 manifests
 raw_sos_elections,raw_file,raw,data/raw/alabama_elections_and_geography/,scripts/sos_precinct.py,provider file + county/sheet,active,,Immutable official election archives
 source_vote_observations,database_table,source,vote_observations,scripts/build_election_database.py,source/year/county/precinct/office/district/candidate,active,,Normalized source observations; conflicting providers coexist
 canonical_votes,database_view,canonical,canonical_vote_observations,scripts/build_election_database.py,source observation natural key,active,,Authority-ranked election observations
@@ -21,14 +19,7 @@ legiscan_bills_csv,csv_export,source,data/processed/legislative/legiscan_alabama
 legiscan_votes_csv,csv_export,source,data/processed/legislative/legiscan_alabama_individual_votes.csv,scripts/import_legiscan_alabama_rollcalls.py,roll_call/person,compatibility,legiscan_votes_table,Compatibility export validated against warehouse
 raw_finance,raw_file,raw,data/raw/finance/,scripts/build_multisource_finance_features.py,provider record ID,active,,Immutable state and FollowTheMoney files
 candidate_finance_mart,csv_export,mart,data/processed/war/ftm_race_finance_features.csv,scripts/build_multisource_finance_features.py,cycle/chamber/district,compatibility,,Planned finance mart table
-dime_recipients,raw_file,raw,data/raw/finance/dime_recipients_1979_2024.csv/dime_recipients_1979_2024.csv,scripts/build_dime_finance_features.py,bonica recipient/cycle,active,,Immutable DIME recipient-cycle download
-candidate_resources,csv_export,mart,data/processed/war/candidate_resource_harmonized.csv,scripts/build_dime_finance_features.py,canonical_candidate_id,active,,Authority-selected receipts with source provenance
-race_resource_features,csv_export,mart,data/processed/war/race_resource_features_harmonized.csv,scripts/build_dime_finance_features.py,cycle/chamber/district,active,,Complete-case D/R log resource ratio
-historical_legislative_results,database_table,source,source_historical_legislative_county_result,scripts/load_historical_cmo_warehouse.py,result_id,active,,Official 1986 and 1990 Alabama SOS county-district results
-historical_statewide_results,database_table,source,source_historical_statewide_county_result,scripts/load_historical_cmo_warehouse.py,result_id,active,,Official 1990 governor county results
-historical_candidate_results,csv_export,mart,data/processed/elections/historical_candidate_results.csv,scripts/load_historical_cmo_warehouse.py,historical_candidate_id,active,,Aggregated historical candidate totals
-cmo_cycle_input_coverage,csv_export,qa,data/processed/elections/cmo_cycle_input_coverage.csv,scripts/load_historical_cmo_warehouse.py,cycle/input_domain,active,,Explicit model-readiness contract by historical cycle
 raw_census,raw_file,raw,data/raw/census/,scripts/build_geographic_crosswalks.py,Census GEOID,active,,Immutable Census archives and manifests
 precinct_district_weights,csv_export,canonical,data/processed/elections/canonical_precinct_district_weights.csv,scripts/build_canonical_geographic_weights.py,cycle/chamber/node/district,compatibility,,Planned canonical geography table
 forecast_features,csv_export,mart,data/processed/war/2026_prospective_features_and_forecast.csv,scripts/fit_2026_prospective_model.py,chamber/district,compatibility,,Versioned forecast mart migration pending
-published_cmo_data,csv_export,publication,docs/data/preliminary_cmo_candidates.csv,scripts/build_site.py,candidate-cycle,active,,Publication-only export; never an upstream input
+published_cmo_v4_data,csv_export,publication,docs/data/cmo_v4_candidates.csv,scripts/build_war_story_page.py,candidate-cycle,active,,Current publication-only CMO export; never an upstream input

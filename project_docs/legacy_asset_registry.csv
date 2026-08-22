@@ -1,0 +1,10 @@
+asset_pattern,status,replacement,reason
+data/processed/war/cmo_v2_*,historical,data/processed/war/cmo_v4_*,Superseded context-model experiment
+data/processed/war/cmo_v3_*,historical,data/processed/war/cmo_v4_*,Superseded direct-ticket estimand
+data/processed/war/preliminary_cmo_*,historical,data/processed/war/cmo_v4_*,Superseded preliminary model
+scripts/rebuild_cmo_methodology_v2.py,historical,scripts/rebuild_cmo_war_analogue.py,Retained for reproducibility only
+scripts/rebuild_cmo_direct_estimand.py,historical,scripts/rebuild_cmo_war_analogue.py,Retained for reproducibility only
+scripts/fit_preliminary_war_model.py,historical,scripts/rebuild_cmo_war_analogue.py,Retained for reproducibility and forecast scenario audit
+docs/data/cmo_v2_*,removed,docs/data/cmo_v4_*,Publication output must expose current model only
+docs/data/cmo_v3_*,removed,docs/data/cmo_v4_*,Publication output must expose current model only
+docs/data/preliminary_cmo_*,removed,docs/data/cmo_v4_*,Publication output must expose current model only

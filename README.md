@@ -28,11 +28,18 @@ warehouse rule, and independent release gates.
 ## Common commands
 
 ```powershell
-python scripts/build_site.py
-python -m pytest -q
-python scripts/audit_repository_paths.py
+python scripts/project.py build cmo
+python scripts/project.py build forecast
+python scripts/project.py build site
+python scripts/project.py audit
+python scripts/project.py test
 python scripts/validate_agent_workflow.py
 ```
+
+These are the canonical entry points. Do not infer the current model from an
+older script or CSV that happens to remain in the repository. See
+[Canonical pipelines](project_docs/CANONICAL_PIPELINES.md) and the
+[legacy asset registry](project_docs/legacy_asset_registry.csv).
 
 The public site is generated into `docs/`. Standalone copies are written under
 `artifacts/site/`; they are conveniences rather than canonical source files.

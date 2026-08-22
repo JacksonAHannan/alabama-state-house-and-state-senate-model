@@ -39,3 +39,15 @@ CSS, and JavaScript sources.
 The project-wide SQLite warehouse architecture, lifecycle rules, and current
 migration boundary are documented in `project_docs/WAREHOUSE_ARCHITECTURE.md`.
 Its machine-readable asset catalog is `project_docs/data_catalog.csv`.
+
+## Canonical versus historical model products
+
+The repository retains superseded processed model outputs for reproducibility.
+Their presence does not make them valid inputs. Current entry points and
+headline outputs are declared in `project_docs/CANONICAL_PIPELINES.md`; known
+superseded products are listed in `project_docs/legacy_asset_registry.csv`.
+
+Only CMO v4 is published under `docs/data/`. CMO v2, CMO v3, preliminary CMO,
+and Fundamentals+ experiments remain under `data/processed/war/` and may be
+used only by explicitly historical diagnostics. The hygiene audit prevents
+these versions from leaking back into the public site.

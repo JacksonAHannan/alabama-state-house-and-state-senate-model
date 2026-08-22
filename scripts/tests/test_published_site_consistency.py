@@ -12,9 +12,9 @@ WAR = ROOT / "data" / "processed" / "war"
 
 def test_publication_exports_match_current_model_outputs() -> None:
     pairs = [
-        ("cmo_v3_candidates.csv", "cmo_v3_candidates.csv"),
-        ("cmo_v3_races.csv", "cmo_v3_races.csv"),
-        ("cmo_v3_baseline_tournament.csv", "cmo_v3_baseline_tournament.csv"),
+        ("cmo_v4_candidates.csv", "cmo_v4_candidates.csv"),
+        ("cmo_v4_races.csv", "cmo_v4_races.csv"),
+        ("cmo_v4_model_tournament.csv", "cmo_v4_model_tournament.csv"),
         ("next_forecast_tournament_2026.csv", "next_forecast_tournament_2026.csv"),
         ("next_forecast_tournament_summary.csv", "next_forecast_tournament_summary.csv"),
         ("next_forecast_tournament_cycle_metrics.csv", "next_forecast_tournament_cycle_metrics.csv"),
@@ -37,30 +37,29 @@ def test_public_pages_describe_current_runs() -> None:
     assert "poll-adjusted presidential baseline + 100%" in forecast_method
     assert "Alabama Candidate Margin Overperformance" in cmo
     assert "Build updated August 21, 2026" in cmo
-    assert "Direct ticket comparison" in cmo
+    assert "WAR-style residual" in cmo
     assert "Fundamentals+" not in cmo
-    assert "Regression expectations are audit-only" in cmo
-    assert "8 cycles:" in cmo_method
-    assert "<b>509</b> contested" in cmo_method
-    assert "Direct CMO" in cmo_method
-    assert "Source-aware political baseline" in cmo_method
+    assert "observed ticket gap minus that prediction" in cmo
+    assert "1994 through 2022" in cmo_method
+    assert "WAR-style CMO" in cmo_method
+    assert "same-cycle U.S. House and U.S. Senate" in cmo_method
     assert "Fundamentals+" not in cmo_method
 
 
 def test_public_cmo_and_forecast_row_counts() -> None:
-    candidates = pd.read_csv(DOCS / "data" / "cmo_v3_candidates.csv")
-    races = pd.read_csv(DOCS / "data" / "cmo_v3_races.csv")
+    candidates = pd.read_csv(DOCS / "data" / "cmo_v4_candidates.csv")
+    races = pd.read_csv(DOCS / "data" / "cmo_v4_races.csv")
     forecasts = pd.read_csv(DOCS / "data" / "next_forecast_tournament_2026.csv")
     assert len(candidates) == 1018
     assert len(races) == 509
-    assert candidates.candidate_headline_cmo.notna().all()
+    assert candidates.candidate_war_cmo.notna().all()
     assert set(races.cycle) == {1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022}
     assert forecasts.groupby("specification").size().eq(48).all()
 
 
-def test_hd32_2022_uses_direct_cmo_v3_score() -> None:
-    candidates = pd.read_csv(DOCS / "data" / "cmo_v3_candidates.csv")
-    races = pd.read_csv(DOCS / "data" / "cmo_v3_races.csv")
+def test_hd32_2022_uses_war_style_cmo_v4_score() -> None:
+    candidates = pd.read_csv(DOCS / "data" / "cmo_v4_candidates.csv")
+    races = pd.read_csv(DOCS / "data" / "cmo_v4_races.csv")
     boyd = candidates.loc[
         (candidates.cycle == 2022)
         & candidates.chamber.eq("house")
@@ -71,9 +70,9 @@ def test_hd32_2022_uses_direct_cmo_v3_score() -> None:
         (races.cycle == 2022) & races.chamber.eq("house") & races.district.eq(32)
     ].squeeze()
 
-    assert 9 < boyd.candidate_headline_cmo < 11
-    assert boyd.candidate_headline_cmo == race.headline_cmo
-    assert race.baseline_source_v3 == "state_ticket_70_federal_30"
+    assert -3 < boyd.candidate_war_cmo < -2
+    assert boyd.candidate_war_cmo == race.war_cmo
+    assert race.war_baseline_source == "same_cycle_federal"
 
 
 def test_public_probability_export_matches_current_model_output() -> None:

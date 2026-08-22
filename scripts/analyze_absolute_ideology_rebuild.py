@@ -66,13 +66,14 @@ def build_panel() -> pd.DataFrame:
     candidates = pd.read_csv(ELECTIONS / "canonical_cmo_candidates_with_ideology_v3.csv", low_memory=False)
     candidates = candidates[candidates.war_eligible.eq(True) & candidates.canonical_party.isin(["D", "R"])].copy()
     candidates = candidates.rename(columns={"year": "election_year", "canonical_party": "party"})
-    # CMO v3 is the approved direct, source-aware ticket residual. Regression
-    # context expectations are diagnostics and must not enter this outcome.
-    cmo = pd.read_csv(WAR / "cmo_v3_candidates.csv", low_memory=False)[
-        ["canonical_candidate_id", "candidate_headline_cmo"]
+    # CMO v4 is the validated Split Ticket-style structural residual. Ideology
+    # is excluded from its construction and enters only in this downstream
+    # explanatory analysis.
+    cmo = pd.read_csv(WAR / "cmo_v4_candidates.csv", low_memory=False)[
+        ["canonical_candidate_id", "candidate_war_cmo"]
     ]
     if cmo.canonical_candidate_id.duplicated().any():
-        raise ValueError("cmo_v3_candidates contains duplicate canonical_candidate_id values")
+        raise ValueError("cmo_v4_candidates contains duplicate canonical_candidate_id values")
     races = pd.read_csv(WAR / "preliminary_cmo_races.csv", low_memory=False)
     federal = pd.read_csv(ELECTIONS / "historical_federal_district_baselines.csv")
     keys = ["cycle", "chamber", "district"]
@@ -90,8 +91,8 @@ def build_panel() -> pd.DataFrame:
     panel["democratic_i"] = panel.party.eq("D").astype(int)
     panel["incumbent_i"] = panel.incumbent.fillna(False).astype(int)
     panel["democratic_x_incumbency"] = panel.democratic_i * panel.incumbent_i
-    panel["candidate_cmo"] = panel.candidate_headline_cmo
-    panel["cmo_source"] = "cmo_v3_direct_ticket"
+    panel["candidate_cmo"] = panel.candidate_war_cmo
+    panel["cmo_source"] = "cmo_v4_war_residual"
     panel["candidate_statewide_overperformance"] = panel.party_direction * (
         panel.legislative_dem_margin - panel.statewide_index_margin)
     panel["candidate_federal_overperformance"] = panel.party_direction * (

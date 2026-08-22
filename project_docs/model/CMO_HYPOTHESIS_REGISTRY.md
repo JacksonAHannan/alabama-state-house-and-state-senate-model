@@ -125,6 +125,38 @@ elsewhere. Economic populism may operate independently of social conservatism.
 All evidence must predate the election being explained; later roll calls cannot
 be projected backward onto an earlier candidacy.
 
+An additional absolute-ideology test uses the nationally bridged Shor–McCarty
+scale rather than Alabama-party-relative ranks. Its current 1998–2018 matched
+sample finds that Democratic movement rightward is strongly associated with
+corrected CMO and performance over statewide, federal, and presidential
+baselines. Republican movement leftward is not distinguishable from zero in
+the available Alabama sample. The Democratic association survives a
+sensitivity analysis that estimates incumbency among Republicans and imposes
+that coefficient on Democrats. This is descriptive evidence of asymmetric
+electoral convergence, not yet a validated forecast feature; Shor coverage is
+conditioned on winning legislative office and its career scores can postdate
+the election being explained. Full estimates are in
+`project_docs/model/ABSOLUTE_IDEOLOGY_REBUILD.md`.
+
+The consolidated rebuild keeps expected performance ideology-blind and treats
+incumbency and finance as possible mediators. A common incumbency effect is
+compatible with corrected CMO and statewide-relative performance, while the
+federal-relative decomposition remains asymmetric. Primitive-axis analysis
+also replaces the overly broad social family for substantive interpretation:
+gun access, Christian sexual morality/civil-social restriction, racial civil
+rights, abortion, and religion-state positions remain separate, as do tax
+burden and tax distribution. Current Democratic evidence describes a
+culturally conservative but economically mixed coalition; it does not support
+reducing every issue to a single conservatism score.
+
+Selection sensitivities refine the Republican hypothesis. Less conservative
+Republican winners have a significant corrected-CMO advantage, but the result
+does not persist against the federal baseline or among candidates whose
+legislative service was already observed by election day. This remains a
+suggestive winner-sample pattern, not evidence of a general Republican
+moderation effect. Democratic absolute conservatism is stable when each cycle
+is omitted in turn and in winner-only and prior-service-only samples.
+
 ### Biography, campaign organization, and opponents
 
 Candidate biographies and research memos have also raised local tenure, prior

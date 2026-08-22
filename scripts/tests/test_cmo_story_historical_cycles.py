@@ -3,7 +3,7 @@ import json
 import re
 from pathlib import Path
 
-from build_war_story_page import build_page
+from build_war_story_page import build_page, modernize_v4_copy
 
 
 def _section(cycle, chamber):
@@ -16,7 +16,7 @@ def test_story_page_exposes_early_house_and_senate_cycles():
         for cycle in (1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022)
         for chamber in ("house", "senate")
     }
-    page = build_page(payload)
+    page = modernize_v4_copy(build_page(payload))
     assert "Early historical · 1994–2006" in page
     assert "<b>8</b><span>Historical cycles</span>" in page
     encoded = re.search(r"const DATA=(\{.*?\});\n", page, re.S)
@@ -32,19 +32,19 @@ def test_story_page_publishes_transparency_and_exploration_controls():
         "2010-house": _section(2010, "house"),
         "2022-senate": _section(2022, "senate"),
     }
-    page = build_page(payload)
-    assert "<b>4</b><span>Comparison views</span>" in page
+    page = modernize_v4_copy(build_page(payload))
+    assert "<b>5</b><span>Model components</span>" in page
     assert 'id="scope-filter"' in page
     assert "All cycles and chambers" in page
-    assert "Direct CMO" in page
-    assert "State-ticket CMO" in page
-    assert "Federal CMO" in page
-    assert "Presidential CMO" in page
+    assert "WAR-style CMO" in page
+    assert "Raw ticket gap" in page
+    assert "Lag adjustment" in page
+    assert "Incumbency adjustment" in page
     assert "Career pooled" in page
-    assert "Baseline/data-quality band" in page
+    assert "Structural gap" in page
     assert "Diagnostics" in page
-    assert "Mean absolute gap" in page
-    assert "pathology audit" in page
+    assert "Cycle-held-out tournament" in page
+    assert "Construct checks" in page
     assert "Fundamentals+" not in page
     assert "Data and provenance" in page
     assert "Data sources and attribution" in page

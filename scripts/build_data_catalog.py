@@ -33,7 +33,7 @@ ASSETS = [
     ("raw_census","raw_file","raw","data/raw/census/","scripts/build_geographic_crosswalks.py","Census GEOID","active",None,"Immutable Census archives and manifests"),
     ("precinct_district_weights","csv_export","canonical","data/processed/elections/canonical_precinct_district_weights.csv","scripts/build_canonical_geographic_weights.py","cycle/chamber/node/district","compatibility",None,"Planned canonical geography table"),
     ("forecast_features","csv_export","mart","data/processed/war/2026_prospective_features_and_forecast.csv","scripts/fit_2026_prospective_model.py","chamber/district","compatibility",None,"Versioned forecast mart migration pending"),
-    ("published_cmo_data","csv_export","publication","docs/data/preliminary_cmo_candidates.csv","scripts/build_site.py","candidate-cycle","active",None,"Publication-only export; never an upstream input"),
+    ("published_cmo_v4_data","csv_export","publication","docs/data/cmo_v4_candidates.csv","scripts/build_war_story_page.py","candidate-cycle","active",None,"Current publication-only CMO export; never an upstream input"),
 ]
 
 LINEAGE = [
@@ -44,7 +44,7 @@ LINEAGE = [
     ("canonical_candidates","candidate_elections","reconciles"),
     ("canonical_candidates","candidate_aliases","reconciles"),
     ("canonical_candidates","cmo_feature_mart","features"),
-    ("cmo_feature_mart","published_cmo_data","exports"),
+    ("cmo_feature_mart","published_cmo_v4_data","exports"),
     ("raw_legiscan","legiscan_bills_csv","normalizes"),
     ("raw_legiscan","legiscan_votes_csv","normalizes"),
     ("legiscan_bills_csv","legiscan_bills_table","normalizes"),
