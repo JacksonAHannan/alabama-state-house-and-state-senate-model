@@ -9,16 +9,24 @@ def test_payload_uses_validated_current_cluster_outputs():
     assert selected == {"D": 2, "R": 3}
     assert all(row["candidate_cmo"] is not None for row in data["members"])
     assert len(data["issues"]) >= 17
+    assert data["distinguishing"]["D"] == ["abortion_access", "marriage_equality", "anti_discrimination"]
+    assert data["distinguishing"]["R"] == ["labor_capital_alignment", "government_ethics_transparency", "gun_purchase_regulation"]
 
 
 def test_page_has_interactive_controls_and_candidate_detail():
     html = build()
     for element_id in ("party", "issue", "outcome", "era", "clusters", "profile", "eras",
-                       "performance", "scatter", "candidate", "search", "rows"):
+                       "performance", "threeD", "threeDSub", "legend3d", "coverage3d", "reset3d",
+                       "scatter", "candidate", "search", "rows"):
         assert f'id="{element_id}"' in html
     assert "renderProfile" in html
     assert "renderScatter" in html
     assert "renderCandidate" in html
+    assert "render3D" in html
+    assert "onpointermove" in html
+    assert "complete candidate-cycles" in html
+    assert "cluster centroids" in html
+    assert "class:'centroid'" in html
     assert "Cluster assignment uses issue positions only" in html
     assert "Weak discrete structure" in html
     assert "__DATA__" not in html
