@@ -1,216 +1,208 @@
-"""Identify empirical ideological clusters among Alabama Democratic candidates."""
+"""Discover party-specific ideological groupings using the current ideology panel."""
 from __future__ import annotations
 
 from pathlib import Path
-
 import numpy as np
 import pandas as pd
 from sklearn.cluster import KMeans
-from sklearn.impute import KNNImputer
+from sklearn.impute import KNNImputer, SimpleImputer
 from sklearn.metrics import adjusted_rand_score, silhouette_score
-from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
-from scipy.stats import fisher_exact
-from scipy.stats import mannwhitneyu
 
 ROOT = Path(__file__).resolve().parents[1]
-ELECTIONS = ROOT / "data" / "processed" / "elections"
-IDEOLOGY = ROOT / "data" / "processed" / "ideology"
-LEG = ROOT / "data" / "processed" / "legislative"
-OUT = ROOT / "research" / "cmo_ideology" / "democratic_clusters"
 RESEARCH = ROOT / "research" / "cmo_ideology"
-SEED = 20260817
-def assemble() -> tuple[pd.DataFrame, list[str]]:
-    candidates = pd.read_csv(ELECTIONS / "canonical_cmo_candidates_with_ideology_v3.csv", low_memory=False)
-    races = pd.read_csv(ELECTIONS / "canonical_cmo_features.csv", low_memory=False)
-    positions = pd.read_csv(IDEOLOGY / "candidate_issue_valence_v3_adjudicated.csv")
-    legislative = pd.read_csv(LEG / "candidate_pre_election_legislative_features.csv", low_memory=False)
-    democrats = candidates[candidates.canonical_party.eq("D")].copy()
-    race_cols = ["cycle", "chamber", "district", "contest_status", "core_index_margin",
-                 "prior_presidential_year", "prior_pres_dem_margin", "nonwhite_share", "white_college_share"]
-    democrats = democrats.merge(races[race_cols], left_on=["year", "chamber", "district"],
-                                right_on=["cycle", "chamber", "district"], how="left", suffixes=("", "_race"))
-    leg_cols = ["canonical_candidate_id", "ideal_point", "chamber_percentile", "distance_from_caucus_median",
-                "party_loyalty_rate", "cross_party_voting_rate", "votes_used"]
-    democrats = democrats.merge(legislative[leg_cols], on="canonical_candidate_id", how="left", validate="one_to_one")
-    wide = positions.pivot_table(index="canonical_candidate_id", columns="primitive_axis",
-                                 values="adjudicated_issue_valence", aggfunc="first")
-    eligible_ids = set(democrats.loc[democrats.ideology_v3_issue_count.fillna(0).ge(3), "canonical_candidate_id"])
-    coverage = wide.loc[wide.index.intersection(eligible_ids)].notna().sum()
-    axes = sorted(coverage[coverage.ge(30)].index.tolist())
-    wide = wide[axes].add_prefix("issue__").reset_index()
-    democrats = democrats.merge(wide, on="canonical_candidate_id", how="left")
-    features = [f"issue__{axis}" for axis in axes] + ["ideal_point", "party_loyalty_rate", "cross_party_voting_rate"]
-    return democrats, features
+OUT = RESEARCH / "democratic_clusters"
+PANEL = RESEARCH / "absolute_rebuild_panel.csv"
+CMO = ROOT / "data" / "processed" / "war" / "cmo_v4_candidates.csv"
+SEED, POLE = 20260821, 0.15
+MIN_FEATURE_N, MIN_POLE_N, MIN_CLUSTER_N, MIN_CLUSTER_SHARE = 30, 5, 12, 0.08
 
 
-def fit_clusters(frame: pd.DataFrame, features: list[str], within_cycle: bool = True) -> tuple[pd.DataFrame, pd.DataFrame, KNNImputer, StandardScaler, KMeans]:
-    sample = frame[frame.ideology_v3_issue_count.fillna(0).ge(3)].copy()
+def issue_columns(frame: pd.DataFrame, party: str) -> list[str]:
+    sample, columns = frame[frame.party.eq(party)], []
+    for column in frame.columns:
+        if not column.startswith("primitive_conservative_"):
+            continue
+        values = pd.to_numeric(sample[column], errors="coerce").dropna()
+        if len(values) < MIN_FEATURE_N or values.std(ddof=0) == 0:
+            continue
+        if min(int((values < -POLE).sum()), int((values > POLE).sum())) >= MIN_POLE_N:
+            columns.append(column)
+    return sorted(columns)
+
+
+def eligible_sample(frame: pd.DataFrame, party: str, features: list[str]) -> pd.DataFrame:
+    sample = frame[frame.party.eq(party)].copy()
+    minimum = max(3, int(np.ceil(len(features) * 0.30)))
+    sample["cluster_dimensions_observed"] = sample[features].notna().sum(axis=1)
+    return sample[sample.cluster_dimensions_observed.ge(minimum)].copy()
+
+
+def prepare_matrix(sample: pd.DataFrame, features: list[str], method: str = "knn", within_era: bool = False) -> np.ndarray:
     raw = sample[features].astype(float)
-    # Normalize observed values before distance-based imputation so axes with
-    # different empirical variance contribute comparably.
-    means, stds = raw.mean(), raw.std(ddof=0).replace(0, 1)
-    normalized = (raw - means) / stds
-    if within_cycle:
-        # Identify caucuses relative to Democrats facing the same electoral and
-        # policy era, preventing questionnaire changes and secular party change
-        # from masquerading as candidate factions.
-        for year, index in sample.groupby("year").groups.items():
+    normalized = (raw - raw.mean()) / raw.std(ddof=0).replace(0, 1)
+    if within_era:
+        for _, index in sample.groupby("era").groups.items():
             part = raw.loc[index]
-            year_mean = part.mean()
-            year_std = part.std(ddof=0)
-            usable = part.notna().sum().ge(3) & year_std.gt(0)
-            normalized.loc[index, usable] = (part.loc[:, usable] - year_mean[usable]) / year_std[usable]
-    imputer = KNNImputer(n_neighbors=7, weights="distance")
-    x = imputer.fit_transform(normalized)
-    scaler = StandardScaler()
-    x = scaler.fit_transform(x)
-    projection = PCA(n_components=2, random_state=SEED)
-    coordinates = projection.fit_transform(x)
-    diagnostics = []
-    rng = np.random.default_rng(SEED)
-    models = {}
-    for k in range(2, 7):
-        model = KMeans(n_clusters=k, n_init=100, random_state=SEED).fit(x)
-        counts = np.bincount(model.labels_, minlength=k)
-        stability = []
-        for iteration in range(40):
+            usable = part.notna().sum().ge(3) & part.std(ddof=0).gt(0)
+            normalized.loc[index, usable] = (part.loc[:, usable] - part.loc[:, usable].mean()) / part.loc[:, usable].std(ddof=0)
+    if method == "median":
+        values = SimpleImputer(strategy="median").fit_transform(normalized)
+    else:
+        values = KNNImputer(n_neighbors=min(7, max(2, len(sample) - 1)), weights="distance").fit_transform(normalized)
+    return StandardScaler().fit_transform(values)
+
+
+def diagnostics_for_matrix(x: np.ndarray, max_k: int = 6) -> tuple[pd.DataFrame, dict[int, KMeans]]:
+    rng, rows, models = np.random.default_rng(SEED), [], {}
+    for k in range(2, min(max_k, len(x) - 1) + 1):
+        model = KMeans(n_clusters=k, n_init=100, random_state=SEED + k).fit(x)
+        sizes, stability = np.bincount(model.labels_, minlength=k), []
+        for iteration in range(60):
             index = rng.integers(0, len(x), len(x))
-            boot = KMeans(n_clusters=k, n_init=20, random_state=SEED + iteration + k * 100).fit(x[index])
+            boot = KMeans(n_clusters=k, n_init=30, random_state=SEED + k * 100 + iteration).fit(x[index])
             stability.append(adjusted_rand_score(model.labels_, boot.predict(x)))
-        diagnostics.append({"clusters": k, "silhouette": silhouette_score(x, model.labels_),
-                            "bootstrap_ari_mean": np.mean(stability), "bootstrap_ari_min": np.min(stability),
-                            "smallest_cluster": counts.min(), "smallest_cluster_share": counts.min()/len(x)})
+        rows.append({"clusters": k, "silhouette": silhouette_score(x, model.labels_),
+                     "bootstrap_ari_mean": np.mean(stability), "bootstrap_ari_p10": np.quantile(stability, .10),
+                     "smallest_cluster": int(sizes.min()), "smallest_cluster_share": sizes.min() / len(x)})
         models[k] = model
-    diagnostics = pd.DataFrame(diagnostics)
-    viable = diagnostics[diagnostics.smallest_cluster_share.ge(.08)].copy()
+    return pd.DataFrame(rows), models
+
+
+def choose_k(diagnostics: pd.DataFrame) -> int:
+    viable = diagnostics[diagnostics.smallest_cluster.ge(MIN_CLUSTER_N)
+                         & diagnostics.smallest_cluster_share.ge(MIN_CLUSTER_SHARE)].copy()
     if viable.empty:
-        # A collapsed headline space can expose a dominant continuum rather
-        # than well-separated clusters. Retain the least-fragmented candidate
-        # solution for diagnosis instead of crashing or silently restoring the
-        # old detailed taxonomy.
         viable = diagnostics[diagnostics.clusters.eq(2)].copy()
-    viable["selection_score"] = viable.silhouette + .35 * viable.bootstrap_ari_mean
-    best_k = int(viable.sort_values("selection_score", ascending=False).iloc[0].clusters)
-    model = models[best_k]
-    sample["cluster_id"] = model.labels_ + 1
-    sample["cluster_distance"] = np.min(model.transform(x), axis=1)
-    sample["ideology_map_x"] = coordinates[:, 0]
-    sample["ideology_map_y"] = coordinates[:, 1]
-    sample.attrs["projection_loadings"] = pd.DataFrame({
-        "feature": features,
-        "component_1_loading": projection.components_[0],
-        "component_2_loading": projection.components_[1],
-    })
-    sample.attrs["projection_variance"] = projection.explained_variance_ratio_
-    sample.attrs["normalization_means"] = means
-    sample.attrs["normalization_stds"] = stds
-    return sample, diagnostics, imputer, scaler, model
+    viable["selection_score"] = viable.silhouette + .30 * viable.bootstrap_ari_mean - .015 * (viable.clusters - 2)
+    return int(viable.sort_values(["selection_score", "clusters"], ascending=[False, True]).iloc[0].clusters)
+
+
+def clean_axis(column: str) -> str:
+    return column.removeprefix("primitive_conservative_").replace("_", " ")
+
+
+def cluster_labels(profiles: pd.DataFrame, party: str) -> dict[int, str]:
+    if party == "D":
+        cultural = profiles[[c for c in profiles if any(x in c for x in
+            ("abortion_access", "civil_social_liberty", "gun_access", "criminal_punishment"))]].mean(axis=1)
+        traditional = int(cultural.idxmax())
+        return {int(i): ("Traditionalist-populist Democrats" if int(i) == traditional else
+                         "Progressive-modern Democrats") for i in profiles.index}
+    overall = profiles.mean(axis=1)
+    moderate = int(overall.idxmin())
+    remaining = profiles.drop(index=moderate)
+    business_axes = [c for c in profiles if c.endswith("market_governance") or c.endswith("labor_capital_alignment")]
+    business = int(remaining[business_axes].mean(axis=1).idxmax())
+    return {int(i): ("Moderate pre-realignment Republicans" if int(i) == moderate else
+                     "Business conservatives" if int(i) == business else
+                     "Social and institutional conservatives") for i in profiles.index}
+
+
+def fit_party(panel: pd.DataFrame, party: str):
+    features = issue_columns(panel, party)
+    if len(features) < 3:
+        raise RuntimeError(f"{party}: fewer than three adequately covered two-sided issues")
+    sample = eligible_sample(panel, party, features)
+    x = prepare_matrix(sample, features)
+    diagnostics, models = diagnostics_for_matrix(x)
+    chosen = choose_k(diagnostics)
+    sample["cluster_id"] = models[chosen].labels_ + 1
+    sample["cluster_party"], sample["cluster_dimensions_used"], sample["cluster_solution_k"] = party, len(features), chosen
+    observed = sample.groupby("cluster_id")[features].mean()
+    labels = cluster_labels(observed, party)
+    sample["cluster_label"] = sample.cluster_id.map(labels)
+    profiles = observed.copy()
+    profiles.insert(0, "cluster_label", [labels[int(i)] for i in profiles.index])
+    profiles.insert(1, "candidate_cycles", sample.cluster_id.value_counts().sort_index())
+    profiles.insert(2, "people", sample.groupby("cluster_id").person_id.nunique())
+    profiles = profiles.reset_index().assign(party=party, dimensions_used=len(features))
+    alternate = KMeans(n_clusters=chosen, n_init=100, random_state=SEED + chosen).fit_predict(
+        prepare_matrix(sample, features, "median"))
+    within_era = KMeans(n_clusters=chosen, n_init=100, random_state=SEED + chosen).fit_predict(
+        prepare_matrix(sample, features, "knn", within_era=True))
+    missingness = StandardScaler().fit_transform(sample[features].notna().astype(float))
+    missingness_labels = KMeans(n_clusters=chosen, n_init=100, random_state=SEED + chosen).fit_predict(missingness)
+    sensitivity = pd.DataFrame([{"party": party, "clusters": chosen,
+        "knn_vs_median_ari": adjusted_rand_score(sample.cluster_id - 1, alternate),
+        "absolute_vs_within_era_ari": adjusted_rand_score(sample.cluster_id - 1, within_era),
+        "position_vs_missingness_ari": adjusted_rand_score(sample.cluster_id - 1, missingness_labels),
+        "candidate_cycles": len(sample), "features": len(features),
+        "minimum_dimensions_observed": int(sample.cluster_dimensions_observed.min()),
+        "median_dimensions_observed": sample.cluster_dimensions_observed.median()}])
+    diagnostics.insert(0, "party", party)
+    diagnostics["selected"], diagnostics["features"] = diagnostics.clusters.eq(chosen), len(features)
+    return sample, diagnostics, profiles, sensitivity
+
+
+def performance_summary(assignments: pd.DataFrame) -> pd.DataFrame:
+    rows = []
+    outcomes = ["candidate_cmo", "candidate_federal_overperformance", "candidate_presidential_overperformance"]
+    for (party, cluster_id, label), group in assignments.groupby(["party", "cluster_id", "cluster_label"]):
+        for outcome in outcomes:
+            values = pd.to_numeric(group[outcome], errors="coerce").dropna()
+            rows.append({"party": party, "cluster_id": cluster_id, "cluster_label": label, "outcome": outcome,
+                         "n": len(values), "mean": values.mean(), "median": values.median(), "sd": values.std(),
+                         "standard_error": values.std()/np.sqrt(len(values)) if len(values) > 1 else np.nan})
+    return pd.DataFrame(rows)
+
+
+def write_report(assignments, diagnostics, profiles, sensitivity, performance) -> None:
+    lines = ["# Empirical ideological groupings in Alabama legislative caucuses", "",
+             "Clusters are fit separately by party from absolute, temporally eligible issue positions. CMO, election results, incumbency, fundraising, demographics, district partisanship, and era are excluded from clustering and attached only afterward.", ""]
+    for party, name in [("D", "Democratic"), ("R", "Republican")]:
+        selected = diagnostics[diagnostics.party.eq(party) & diagnostics.selected].iloc[0]
+        sens = sensitivity[sensitivity.party.eq(party)].iloc[0]
+        lines += [f"## {name} solution", "",
+                  f"Selected **{int(selected.clusters)} clusters** among **{int(sens.candidate_cycles)} candidate-cycles**, using **{int(sens.features)} two-sided issue dimensions**. Silhouette is **{selected.silhouette:.3f}**; mean bootstrap ARI is **{selected.bootstrap_ari_mean:.3f}**; KNN-versus-median-imputation ARI is **{sens.knn_vs_median_ari:.3f}**; absolute-versus-within-era ARI is **{sens.absolute_vs_within_era_ari:.3f}**; position-versus-missingness ARI is **{sens.position_vs_missingness_ari:.3f}**.", ""]
+        for row in profiles[profiles.party.eq(party)].itertuples(index=False):
+            lines.append(f"- **{row.cluster_label}:** {int(row.candidate_cycles)} candidate-cycles and {int(row.people)} people.")
+        lines += ["", "### CMO attached after clustering", ""]
+        for row in performance[performance.party.eq(party) & performance.outcome.eq("candidate_cmo")].itertuples(index=False):
+            lines.append(f"- **{row.cluster_label}:** mean {row.mean:+.2f}, median {row.median:+.2f}, n={int(row.n)}.")
+        if sens.knn_vs_median_ari < .50 or sens.absolute_vs_within_era_ari < .35:
+            lines += ["", "**Robustness warning:** this discrete solution changes substantially under alternate imputation or within-era normalization. Treat the labels as a description of historical tendencies, not stable caucus membership."]
+        lines.append("")
+    lines += ["## Interpretation limits", "", "- Low silhouettes indicate a continuum rather than formal caucuses.",
+              "- Issue evidence is more common for officeholders and is not missing at random.",
+              "- Candidate-cycles repeat people; person persistence and era composition are separate outputs.",
+              "- Performance differences are descriptive; electoral outcomes never determine assignment."]
+    (OUT / "DEMOCRATIC_IDEOLOGICAL_CLUSTERS.md").write_text("\n".join(lines)+"\n", encoding="utf-8")
 
 
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
-    democrats, features = assemble()
-    clustered, diagnostics, _, _, model = fit_clusters(democrats, features, within_cycle=True)
-    projection_loadings = clustered.attrs["projection_loadings"].copy()
-    projection_loadings.to_csv(OUT / "democratic_cluster_projection_loadings.csv", index=False)
-    pd.DataFrame({"component": [1, 2], "explained_variance_share": clustered.attrs["projection_variance"]}).to_csv(
-        OUT / "democratic_cluster_projection_summary.csv", index=False)
-    modeled = pd.read_csv(RESEARCH / "candidate_cycle_analysis.csv", low_memory=False)
-    modeled_cols = ["canonical_candidate_id", "expected_cmo_total_oof", "candidate_cmo_total_oof",
-                    "candidate_cmo_resource_adjusted_oof", "candidate_cmo_fundraising_adjusted_oof"]
-    clustered = clustered.merge(modeled[modeled_cols], on="canonical_candidate_id", how="left", validate="one_to_one")
+    panel = pd.read_csv(PANEL, low_memory=False)
+    results = [fit_party(panel, party) for party in ("D", "R")]
+    assignments = pd.concat([r[0] for r in results], ignore_index=True)
+    diagnostics = pd.concat([r[1] for r in results], ignore_index=True)
+    profiles = pd.concat([r[2] for r in results], ignore_index=True)
+    sensitivity = pd.concat([r[3] for r in results], ignore_index=True)
+    performance = performance_summary(assignments)
+    era = assignments.groupby(["party", "cluster_id", "cluster_label", "era"], dropna=False).size().rename("n").reset_index()
+    era["within_cluster_share"] = era.n / era.groupby(["party", "cluster_id"]).n.transform("sum")
+    repeated = assignments.groupby(["party", "person_id"], dropna=False).agg(
+        observations=("cluster_id", "size"), distinct_clusters=("cluster_id", "nunique")).reset_index()
+    repeated = repeated[repeated.observations.gt(1)]
+    persistence = repeated.groupby("party").agg(repeated_people=("person_id", "size"),
+        stable_people=("distinct_clusters", lambda x: int(x.eq(1).sum()))).reset_index()
+    persistence["stable_share"] = persistence.stable_people / persistence.repeated_people
+    cmo = pd.read_csv(CMO, usecols=["canonical_candidate_id", "candidate_war_cmo"]).rename(columns={"candidate_war_cmo":"published_cmo_v4"})
+    check = assignments[["canonical_candidate_id", "candidate_cmo"]].merge(cmo, on="canonical_candidate_id", how="left", validate="one_to_one")
+    check["difference"] = check.candidate_cmo - check.published_cmo_v4
+    if check.published_cmo_v4.isna().any() or check.difference.abs().max() > 1e-9:
+        raise ValueError("Clustering panel CMO does not match current CMO v4")
+    assignments.to_csv(OUT / "democratic_candidate_cluster_membership.csv", index=False)
     diagnostics.to_csv(OUT / "cluster_model_diagnostics.csv", index=False)
-    profile_cols = features + ["raw_overperformance", "core_index_margin", "prior_pres_dem_margin",
-                               "party_loyalty_rate", "cross_party_voting_rate", "incumbent"]
-    profile_cols = list(dict.fromkeys(profile_cols))
-    profiles = clustered.groupby("cluster_id")[profile_cols].agg(["mean", "median", "count"])
-    profiles.to_csv(OUT / "democratic_cluster_profiles.csv")
-
-    contested = clustered.contest_status.eq("contested_two_party")
-    high_threshold = clustered.loc[contested, "raw_overperformance"].quantile(.75)
-    clustered["high_raw_overperformance"] = contested & clustered.raw_overperformance.ge(high_threshold)
-    clustered["unopposed_democrat"] = clustered.contest_status.eq("unopposed_democrat")
-    # Core index provides the consistently available top-of-ticket baseline;
-    # prior presidential margin is retained as the stricter presidential flag.
-    clustered["republican_top_ticket_district"] = clustered.core_index_margin.lt(0)
-    clustered["republican_presidential_district"] = clustered.prior_pres_dem_margin.lt(0)
-    # Name empirical blocs from their observed profiles, never from numeric IDs
-    # left over from an earlier solution. Higher values on this index indicate
-    # the recognizably Alabama crossover bundle: gun access, punitive justice,
-    # welfare conditionality, and lower abortion/civil/voting access.
-    naming = clustered.groupby("cluster_id").agg(
-        gun=("issue__gun_access", "mean"), punishment=("issue__criminal_punishment", "mean"),
-        conditionality=("issue__welfare_conditionality", "mean"), abortion=("issue__abortion_access", "mean"),
-        liberty=("issue__civil_social_liberty", "mean"), voting=("issue__voting_access", "mean"))
-    naming["traditionalist_index"] = (naming.gun + naming.punishment + naming.conditionality
-                                       - naming.abortion - naming.liberty - naming.voting)
-    traditionalist_id = int(naming.traditionalist_index.idxmax())
-    labels = {cid: ("Crossover/traditionalist bloc" if cid == traditionalist_id
-                    else "Mainstream/progressive bloc") for cid in naming.index}
-    clustered["cluster_label"] = clustered.cluster_id.map(labels)
-    clustered.to_csv(OUT / "democratic_candidate_cluster_membership.csv", index=False)
-    targets = clustered[clustered.high_raw_overperformance | (clustered.unopposed_democrat & clustered.republican_top_ticket_district)].copy()
-    targets["selection_group"] = np.select(
-        [targets.high_raw_overperformance & targets.unopposed_democrat & targets.republican_top_ticket_district,
-         targets.high_raw_overperformance,
-         targets.unopposed_democrat & targets.republican_top_ticket_district],
-        ["high_raw_and_unopposed_gop_lean", "high_raw_overperformance", "unopposed_gop_lean"], default="")
-    targets.sort_values(["selection_group", "raw_overperformance"], ascending=[True, False]).to_csv(
-        OUT / "democratic_cluster_focal_candidates.csv", index=False)
-
-    cluster_summary = (clustered.groupby("cluster_id")
-                       .agg(candidate_cycles=("canonical_candidate_id", "size"), people=("person_id", "nunique"),
-                            cycles=("year", "nunique"), median_year=("year", "median"),
-                            high_raw_overperformance=("high_raw_overperformance", "sum"), unopposed=("unopposed_democrat", "sum"),
-                            unopposed_gop_lean=("republican_top_ticket_district", lambda s: int((s & clustered.loc[s.index, "unopposed_democrat"]).sum())),
-                            mean_cmo=("raw_overperformance", "mean"), median_core_margin=("core_index_margin", "median"))
-                       .reset_index())
-    cluster_summary.to_csv(OUT / "democratic_cluster_summary.csv", index=False)
-    crossover = clustered.cluster_id.eq(traditionalist_id)
-    high_table = [[int((crossover & clustered.high_raw_overperformance).sum()), int((crossover & ~clustered.high_raw_overperformance).sum())],
-                  [int((~crossover & clustered.high_raw_overperformance).sum()), int((~crossover & ~clustered.high_raw_overperformance).sum())]]
-    high_odds, high_p = fisher_exact(high_table)
-    cmo_observed = contested & clustered.candidate_cmo_total_oof.notna()
-    cmo_threshold = clustered.loc[cmo_observed, "candidate_cmo_total_oof"].quantile(.75)
-    high_oof_cmo = cmo_observed & clustered.candidate_cmo_total_oof.ge(cmo_threshold)
-    cmo_table = [[int((crossover & high_oof_cmo).sum()), int((crossover & cmo_observed & ~high_oof_cmo).sum())],
-                 [int((~crossover & high_oof_cmo).sum()), int((~crossover & cmo_observed & ~high_oof_cmo).sum())]]
-    cmo_odds, cmo_p = fisher_exact(cmo_table)
-    cmo_cross = clustered.loc[crossover & cmo_observed, "candidate_cmo_total_oof"]
-    cmo_other = clustered.loc[~crossover & cmo_observed, "candidate_cmo_total_oof"]
-    cmo_mw_p = mannwhitneyu(cmo_cross, cmo_other, alternative="two-sided").pvalue
-    gop_unopposed = clustered.unopposed_democrat & clustered.republican_top_ticket_district
-    gop_table = [[int((crossover & gop_unopposed).sum()), int((crossover & ~gop_unopposed).sum())],
-                 [int((~crossover & gop_unopposed).sum()), int((~crossover & ~gop_unopposed).sum())]]
-    gop_odds, gop_p = fisher_exact(gop_table)
-    person_stability = clustered.groupby("person_id").agg(observations=("cluster_id", "size"), clusters=("cluster_id", "nunique"))
-    repeated = person_stability[person_stability.observations.gt(1)]
-    stable_people = int(repeated.clusters.eq(1).sum())
-    report = [
-        "# Democratic ideological clusters and crossover performance", "",
-        f"The primary analysis clusters **{len(clustered)} Democratic candidate-cycles** with at least three adjudicated issue axes. CMO, district partisanship, race status, demographics, and incumbency are excluded from the clustering features.", "",
-        f"A {model.n_clusters}-cluster within-cycle solution was selected (silhouette **{diagnostics.loc[diagnostics.clusters.eq(model.n_clusters),'silhouette'].iloc[0]:.3f}**, mean bootstrap ARI **{diagnostics.loc[diagnostics.clusters.eq(model.n_clusters),'bootstrap_ari_mean'].iloc[0]:.3f}**). This is useful exploratory structure, not proof of formal caucus membership.", "",
-        "## Interpreted clusters", "",
-        f"- **Crossover/traditionalist bloc:** {int(crossover.sum())} candidate-cycles. It combines expanded gun access, punitive criminal justice, welfare conditionality, restricted abortion/civil/voting access, and higher cross-party voting. This is a multi-issue identity rather than a single conservative score.",
-        f"- **Mainstream/progressive bloc:** {int((~crossover).sum())} candidate-cycles. It combines stronger abortion, civil-liberty, voting-access, public-service, welfare, and environmental positions with less gun access and lower cross-party voting.", "",
-        "## Relationship to electoral performance", "",
-        f"Raw district overperformance is strongly concentrated in the crossover bloc. Its top-quartile cutoff is **{high_threshold:.2f} points**; the crossover bloc has **{int((crossover & clustered.high_raw_overperformance).sum())}** such cases versus **{int((~crossover & clustered.high_raw_overperformance).sum())}** elsewhere (Fisher odds ratio **{high_odds:.2f}**, p = **{high_p:.4f}**).",
-        f"The relationship is attenuated in out-of-fold residual CMO: the crossover mean is **{cmo_cross.mean():.2f}** versus **{cmo_other.mean():.2f}** elsewhere (Mann-Whitney p = **{cmo_mw_p:.3f}**); top-quartile residual CMO has odds ratio **{cmo_odds:.2f}**, p = **{cmo_p:.3f}**. This is a decomposition result, not a rejection of the total advantage: residual CMO removes candidate and district pathways through which caucus identity can produce incumbency, fundraising, survival, and expected support.",
-        f"It contains **{int((crossover & gop_unopposed).sum())}** unopposed Democrats in Republican-leaning core-index districts, versus **{int((~crossover & gop_unopposed).sum())}** elsewhere (odds ratio **{gop_odds:.2f}**, p = **{gop_p:.4f}**). The latter sample is small and is descriptive, not a strong causal result.", "",
-        "## Sensitivity and limitations", "",
-        "- Within-cycle standardization reduces, but does not eliminate, the era split: the traditionalist bloc is much less common in recent cycles and has no classified 2022 cases.",
-        "- The low silhouette means candidates lie on a continuum with two dense tendencies, not in two cleanly separated formal caucuses.",
-        "- Candidate-cycles are observations; the same person may appear in multiple elections.",
-        f"- Among {len(repeated)} people observed in multiple clustered cycles, {stable_people} ({stable_people/len(repeated):.1%}) remain in the same cluster. Cluster switching therefore reflects real temporal/source uncertainty and argues against treating labels as permanent personal identities.",
-        "- Unopposed status is an outcome of recruitment and strategic entry as well as candidate ideology. It should not be interpreted as voter approval measured in a contested race.",
-        "- Core index margin is the consistently available top-of-ticket measure. The stricter prior-presidential margin is missing for many later candidate-cycles.",
-    ]
-    (OUT / "DEMOCRATIC_IDEOLOGICAL_CLUSTERS.md").write_text("\n".join(report), encoding="utf-8")
-    print(f"Selected k={model.n_clusters}; clustered {len(clustered)} Democratic candidate-cycles")
-    print(diagnostics.to_string(index=False))
-    print(cluster_summary.to_string(index=False))
-    print(f"High raw-overperformance cutoff: {high_threshold:.3f}; focal candidates: {len(targets)}")
+    profiles.to_csv(OUT / "democratic_cluster_profiles.csv", index=False)
+    sensitivity.to_csv(OUT / "cluster_sensitivity.csv", index=False)
+    performance.to_csv(OUT / "democratic_cluster_summary.csv", index=False)
+    era.to_csv(OUT / "cluster_era_composition.csv", index=False)
+    persistence.to_csv(OUT / "cluster_person_persistence.csv", index=False)
+    check.to_csv(OUT / "cluster_cmo_v4_check.csv", index=False)
+    write_report(assignments, diagnostics, profiles, sensitivity, performance)
+    print(diagnostics[diagnostics.selected].to_string(index=False))
+    print("\n", performance[performance.outcome.eq("candidate_cmo")].to_string(index=False))
 
 
 if __name__ == "__main__":

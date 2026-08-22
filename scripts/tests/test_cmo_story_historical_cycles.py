@@ -33,7 +33,7 @@ def test_story_page_publishes_transparency_and_exploration_controls():
         "2022-senate": _section(2022, "senate"),
     }
     page = modernize_v4_copy(build_page(payload))
-    assert "<b>5</b><span>Model components</span>" in page
+    assert "<b>3</b><span>Map views</span>" in page
     assert 'id="scope-filter"' in page
     assert "All cycles and chambers" in page
     assert "WAR-style CMO" in page
@@ -57,6 +57,18 @@ def test_story_page_publishes_transparency_and_exploration_controls():
     assert "Attribution boundary" in page
     assert "selectCandidate(" in page
     assert "districtStatus" in page
+    assert '<button data-map-mode="absolute" class="active">CMO</button>' in page
+    assert '<button data-map-mode="governor">Raw overperformance vs. governor</button>' in page
+    assert '<button data-map-mode="presidential">Raw overperformance vs. previous presidential margin</button>' in page
+    assert 'data-map-mode="relative"' not in page
+    assert 'data-map-mode="within"' not in page
+    assert 'data-map-mode="rawticket"' not in page
+    assert 'data-map-mode="pair"' not in page
+    assert "mapMode='absolute'" in page
+    detail = page.index("function detail(x)")
+    headline = page.index('<div class="candidate-headline">', detail)
+    race_box = page.index("${raceBox(x)}", detail)
+    assert headline < race_box
 
 
 def test_canonical_office_export_covers_every_story_cycle_and_chamber():

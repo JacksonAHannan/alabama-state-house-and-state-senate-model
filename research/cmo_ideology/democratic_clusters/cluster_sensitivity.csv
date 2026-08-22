@@ -1,0 +1,3 @@
+party,clusters,knn_vs_median_ari,absolute_vs_within_era_ari,position_vs_missingness_ari,candidate_cycles,features,minimum_dimensions_observed,median_dimensions_observed
+D,2,0.7397250320164946,0.5239200504152153,-0.01357030112949183,117,17,6,9.0
+R,3,0.2387948854274341,0.19819775008092258,0.2195481427400786,164,13,4,5.5

@@ -1,23 +1,25 @@
 import pandas as pd
 
-from analyze_democratic_ideological_clusters import assemble, fit_clusters
+from analyze_democratic_ideological_clusters import OUT, PANEL, choose_k, issue_columns
 
 
-def test_cluster_input_uses_only_democrats_and_issue_evidence():
-    frame, features = assemble()
-    assert set(frame.canonical_party) == {"D"}
-    assert any(column.startswith("issue__") for column in features)
-    assert "raw_overperformance" not in features
-    assert "core_index_margin" not in features
+def test_cluster_inputs_are_issue_positions_only():
+    panel = pd.read_csv(PANEL, low_memory=False)
+    forbidden = {"candidate_cmo", "winner", "incumbent_i", "candidate_finance_advantage"}
+    for party in ("D", "R"):
+        features = issue_columns(panel, party)
+        assert len(features) >= 3
+        assert all(column.startswith("primitive_conservative_") for column in features)
+        assert forbidden.isdisjoint(features)
 
 
-def test_cluster_solution_has_no_tiny_selected_cluster():
-    frame, features = assemble()
-    clustered, diagnostics, *_ = fit_clusters(frame, features)
-    shares = clustered.cluster_id.value_counts(normalize=True)
-    assert len(clustered) >= 150
-    assert shares.min() >= .08
-    assert diagnostics.clusters.tolist() == [2, 3, 4, 5, 6]
-    assert clustered[["ideology_map_x", "ideology_map_y"]].notna().all().all()
-    assert clustered.attrs["projection_loadings"].feature.is_unique
-    assert len(clustered.attrs["projection_variance"]) == 2
+def test_selected_solutions_follow_rule_and_warn_on_republican_instability():
+    diagnostics = pd.read_csv(OUT / "cluster_model_diagnostics.csv")
+    sensitivity = pd.read_csv(OUT / "cluster_sensitivity.csv")
+    for _, party in diagnostics.groupby("party"):
+        assert int(party.loc[party.selected, "clusters"].iloc[0]) == choose_k(party)
+    republican = sensitivity[sensitivity.party.eq("R")].iloc[0]
+    assert republican.knn_vs_median_ari < .5
+    report = (OUT / "DEMOCRATIC_IDEOLOGICAL_CLUSTERS.md").read_text(encoding="utf-8")
+    assert "Robustness warning" in report
+    assert "position-versus-missingness ARI" in report
