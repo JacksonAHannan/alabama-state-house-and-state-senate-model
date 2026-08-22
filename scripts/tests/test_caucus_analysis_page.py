@@ -10,8 +10,6 @@ def test_payload_uses_validated_current_cluster_outputs():
     assert selected == {"D": 2, "R": 3}
     assert all(row["candidate_cmo"] is not None for row in data["members"])
     assert len(data["issues"]) >= 17
-    assert data["distinguishing"]["D"] == ["abortion_access", "marriage_equality", "anti_discrimination"]
-    assert data["distinguishing"]["R"] == ["labor_capital_alignment", "government_ethics_transparency", "gun_purchase_regulation"]
     assert data["constellation"]["D"]["dimensions"] == 17
     assert data["constellation"]["R"]["dimensions"] == 13
     assert all(math.isfinite(row["constellation_x"]) and math.isfinite(row["constellation_y"])
@@ -22,23 +20,23 @@ def test_payload_uses_validated_current_cluster_outputs():
 def test_page_has_interactive_controls_and_candidate_detail():
     html = build()
     for element_id in ("party", "issue", "outcome", "era", "clusters", "profile", "eras",
-                       "performance", "threeD", "threeDSub", "legend3d", "coverage3d", "reset3d",
-                       "constellationSection", "constellationPanel", "constellation", "constellationTab",
-                       "threeIssueTab", "legendConstellation", "coverageConstellation",
+                       "performance", "constellationSection", "constellation",
+                       "legendConstellation", "coverageConstellation",
                        "scatter", "candidate", "search", "rows"):
         assert f'id="{element_id}"' in html
     assert "renderProfile" in html
     assert "renderScatter" in html
     assert "renderCandidate" in html
-    assert "render3D" in html
     assert "renderConstellation" in html
     assert "ellipseFor" in html
     assert "constellation_coverage" in html
     assert "all issue dimensions used to fit" in html
-    assert "onpointermove" in html
-    assert "complete candidate-cycles" in html
-    assert "cluster centroids" in html
-    assert "class:'centroid'" in html
+    assert "threeD" not in html
+    assert "Three-dimensional" not in html
+    assert "threeIssueTab" not in html
+    assert "render3D" not in html
+    assert "legend3d" not in html
+    assert 'class="constellation-legend"' in html
     assert "Cluster assignment uses issue positions only" in html
     assert "Weak discrete structure" in html
     assert "__DATA__" not in html
