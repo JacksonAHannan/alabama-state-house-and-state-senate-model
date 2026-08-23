@@ -78,15 +78,33 @@ def test_merged_payload_contains_transition_and_current_clusters() -> None:
     data = payload()
     assert len(data["cluster"]["members"]) == 274
     assert len([row for row in data["cluster"]["members"] if row["party"] == "D"]) == 115
+    assert all(row["candidate_quality_residual"] is not None
+               for row in data["cluster"]["members"])
+    assert all("candidate_cmo" not in row for row in data["cluster"]["members"])
     assert {row["cycle"] for row in data["democraticTransition"]} == {
         1998, 2002, 2006, 2010, 2014, 2018, 2022,
     }
     federal = next(row for row in data["headlineBlocPerformance"]
                    if row["outcome"] == "candidate_federal_overperformance")
     assert federal["difference"] > 19
+    quality = next(row for row in data["headlineBlocPerformance"]
+                   if row["outcome"] == "candidate_quality_residual")
+    assert 12 < quality["difference"] < 13
+    assert quality["traditionalist_mean"] > 8
+    assert quality["progressive_mean"] < -4
     assert {row["cluster_label"] for row in data["caseStudies"]} == {
         "Progressive-modern Democrats", "Traditionalist-populist Democrats",
     }
+
+
+def test_page_does_not_label_candidate_quality_residual_as_cmo() -> None:
+    html = build()
+    assert 'value="candidate_quality_residual">Candidate quality residual</option>' in html
+    assert 'value="candidate_cmo"' not in html
+    assert "candidate_cmo" not in html
+    assert "<span>CMO</span>" not in html
+    assert '<th class="num">Quality residual</th>' in html
+    assert "it is neither Direct CMO nor the career-pooled quality index" in html
 
 
 def test_public_docs_is_not_written_by_release_candidate_builder() -> None:
