@@ -56,6 +56,11 @@ def test_story_page_publishes_transparency_and_exploration_controls():
     assert "Shor–McCarty state legislative data" in page
     assert "Attribution boundary" in page
     assert "selectCandidate(" in page
+    assert "Candidate CMO timeline" in page
+    assert "career-observation" in page
+    assert "historyMax=Math.max" in page
+    assert "CMO is signed to the Democratic margin" in page
+    assert "Candidate Atlas" not in page
     assert "districtStatus" in page
     assert '<button data-map-mode="absolute" class="active">CMO</button>' in page
     assert '<button data-map-mode="quality">Residual quality differential</button>' in page

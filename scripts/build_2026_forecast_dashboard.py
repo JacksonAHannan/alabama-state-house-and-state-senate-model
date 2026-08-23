@@ -32,6 +32,40 @@ PUBLIC_MODELS = {
 DEFAULT_MODEL = "headline"
 
 
+def normalize_name(value: object) -> str:
+    """Conservative display-history key; exact normalized name and party only."""
+    return re.sub(r"[^A-Z0-9]", "", str(value).upper())
+
+
+def display_candidate_name(value: object) -> str | None:
+    name = str(value)
+    return None if re.fullmatch(r"GSL\d+[A-Z0-9]+", name.upper()) else name
+
+
+def region_summary(row: object | None) -> list[dict]:
+    if row is None:
+        return []
+    labels = {
+        "region_auburn_city_share": "Auburn",
+        "region_birmingham_city_share": "Birmingham",
+        "region_birmingham_educated_suburbs_share": "Birmingham educated suburbs",
+        "region_black_belt_share": "Black Belt",
+        "region_huntsville_city_share": "Huntsville",
+        "region_madison_county_remainder_share": "Madison County outside Huntsville and Madison",
+        "region_madison_city_share": "Madison",
+        "region_mobile_city_share": "Mobile",
+        "region_other_alabama_share": "Other Alabama",
+        "region_shelby_county_remainder_share": "Shelby County outside Birmingham suburbs",
+        "region_tuscaloosa_city_share": "Tuscaloosa",
+    }
+    shares = [
+        {"name": label, "share": round(float(getattr(row, field)), 6)}
+        for field, label in labels.items()
+        if pd.notna(getattr(row, field, np.nan)) and float(getattr(row, field)) >= .05
+    ]
+    return sorted(shares, key=lambda item: item["share"], reverse=True)[:3]
+
+
 def clean(value):
     if pd.isna(value): return None
     return value.item() if hasattr(value, "item") else value
@@ -85,6 +119,44 @@ def build_payload():
     model_finance=model_finance[model_finance.cycle.eq(2026)]
     model_finance_index={(r.chamber,int(r.district),r.party):r for r in model_finance.itertuples()}
     polling=pd.read_csv(WAR/"2026_poll_adjusted_baseline.csv")
+    demographics=pd.read_csv(ROOT/"data/processed/demographics/2026_sld_demographics.csv")
+    cvap=pd.read_csv(ROOT/"data/processed/demographics/rdh_2024_sld_cvap.csv")
+    regions=pd.read_csv(WAR/"next_forecast_tournament_region_features.csv")
+    regions=regions[regions.cycle.eq(2026)]
+    cmo_history=pd.read_csv(WAR/"cmo_v6_southern_candidates.csv")
+    canonical_candidates=pd.read_csv(ROOT/"data/processed/elections/canonical_cmo_candidates.csv")
+    cmo_history=cmo_history[cmo_history.cycle.le(2022)].copy()
+    cmo_history["history_key"]=cmo_history.canonical_name.map(normalize_name)+"|"+cmo_history.canonical_party.astype(str)
+    candidate_histories={}
+    for history_key, history in cmo_history.groupby("history_key", sort=False):
+        if history.candidate_effect_id.nunique() != 1:
+            continue
+        candidate_histories[history_key]=[
+            {
+                "cycle":int(row.cycle), "chamber":str(row.chamber), "district":int(row.district),
+                "cmo":clean(row.candidate_direct_cmo), "incumbent":bool(row.incumbent),
+                "winner":bool(row.winner),
+            }
+            for row in history.sort_values(["cycle","chamber","district"]).itertuples()
+            if pd.notna(row.candidate_direct_cmo)
+        ]
+    prior_results={}
+    for (chamber,district), prior in canonical_candidates[canonical_candidates.year.eq(2022)].groupby(["chamber","district"]):
+        dem=prior[prior.canonical_party.eq("D")]
+        rep=prior[prior.canonical_party.eq("R")]
+        dem_votes=float(dem.canonical_votes.sum()); rep_votes=float(rep.canonical_votes.sum())
+        total=dem_votes+rep_votes
+        prior_results[(str(chamber),int(district))]={
+            "cycle":2022,
+            "margin":round(100*(dem_votes-rep_votes)/total,6) if dem_votes and rep_votes and total else None,
+            "demVotes":int(dem_votes) if dem_votes else None,
+            "repVotes":int(rep_votes) if rep_votes else None,
+            "demCandidate":display_candidate_name(dem.canonical_name.iloc[0]) if not dem.empty else None,
+            "repCandidate":display_candidate_name(rep.canonical_name.iloc[0]) if not rep.empty else None,
+        }
+    demographic_index={(r.chamber,int(r.district)):r for r in demographics.itertuples()}
+    cvap_index={(r.chamber,int(r.district)):r for r in cvap.itertuples()}
+    region_index={(r.chamber,int(r.district)):r for r in regions.itertuples()}
     roster=(roster.merge(incumbency[["chamber","district","party","candidate","incumbent"]],
                          on=["chamber","district","party","candidate"],how="left")
                   .merge(finance[["chamber","district","party","candidate","state_contributions","state_expenditures","finance_observation_status"]],
@@ -114,6 +186,10 @@ def build_payload():
                  {"category":"Candidates and incumbency","source":"Certified 2026 roster and reviewed incumbent matching","asOf":build_date.isoformat(),"download":"data/post2016_headline_v1_2026_scenarios.csv"},
                  {"category":"Fundraising","source":"Alabama principal campaign committee receipts; missing records remain missing","asOf":"2026-08-14","download":"data/post2016_headline_v1_2026_scenarios.csv"},
                  {"category":"Historical test","source":"2018 Alabama legislative races used to predict the 2022 cycle","asOf":"2022 election","download":"data/post2016_headline_v1_forward_metrics.csv"},
+                 {"category":"District demographics","source":"2022 ACS district estimates and 2020-2024 ACS CVAP special tabulation","asOf":"2024 ACS","download":"data/2026_sld_demographics.csv"},
+                 {"category":"Regional geography","source":"Project region-share crosswalk for the 2026 legislative districts","asOf":"2026 district plan","download":"data/next_forecast_tournament_region_features.csv"},
+                 {"category":"Prior legislative context","source":"Canonical 2022 Alabama legislative candidate results","asOf":"2022 election","download":"data/canonical_cmo_candidates.csv"},
+                 {"category":"Candidate history","source":"Current canonical Alabama candidate margin-overperformance records","asOf":"1994-2022 elections","download":"data/cmo_v6_southern_candidates.csv"},
                  {"category":"Methodology","source":"Model definitions, uncertainty, and limitations","asOf":build_date.isoformat(),"download":"data/post2016_headline_v1_manifest.json"}
              ]}
     model_forecasts={}; model_seats={}
@@ -175,9 +251,13 @@ def build_payload():
                 candidates.append({"name":str(candidate.candidate),"party":party,
                     "incumbent":bool(clean(candidate.incumbent) or False),
                     "raised":raised,"spent":spent,
-                    "financeStatus":finance_status})
+                    "financeStatus":finance_status,
+                    "cmoHistory":candidate_histories.get(normalize_name(candidate.candidate)+"|"+party,[])})
             major={c["party"] for c in candidates if c["party"] in {"D","R"}}
             poll_row=pollidx.get((chamber,district)); model_values={}
+            baseline=float(poll_row.poll_adjusted_dem_margin) if poll_row is not None else None
+            pres24=float(poll_row.baseline_2024_pres_dem_margin) if poll_row is not None else None
+            environment=baseline-pres24 if baseline is not None and pres24 is not None else None
             if all((chamber,district) in model_forecasts[model] for model in PUBLIC_MODELS):
                 status="modeled"; model_values={}
                 for model in PUBLIC_MODELS:
@@ -199,22 +279,34 @@ def build_payload():
                                  [round(polling_error,6),round(polling_error,6),round(float(mr.predicted_dem_margin),6)]]}
                 selected=model_values[DEFAULT_MODEL]
                 p=selected["demProbability"]; margin=selected["margin"]; low80=selected["low80"]; high80=selected["high80"]
-                baseline=float(poll_row.poll_adjusted_dem_margin); pres24=float(poll_row.baseline_2024_pres_dem_margin)
-                environment=baseline-pres24; finance_scenario=cmo_scenario=None
+                finance_scenario=cmo_scenario=None
             elif major=={"D"}:
                 p,status,margin=1.0,"unopposed-major-party",None
-                low80=high80=baseline=pres24=environment=finance_scenario=cmo_scenario=None
+                low80=high80=finance_scenario=cmo_scenario=None
             elif major=={"R"}:
                 p,status,margin=0.0,"unopposed-major-party",None
-                low80=high80=baseline=pres24=environment=finance_scenario=cmo_scenario=None
+                low80=high80=finance_scenario=cmo_scenario=None
             else:
                 p,status,margin=None,"unmodeled",None
-                low80=high80=baseline=pres24=environment=finance_scenario=cmo_scenario=None
+                low80=high80=finance_scenario=cmo_scenario=None
+            demo_row=demographic_index.get((chamber,district))
+            cvap_row=cvap_index.get((chamber,district))
+            profile={
+                "priorResult":prior_results.get((chamber,district)),
+                "openSeat":not any(candidate["incumbent"] for candidate in candidates),
+                "nonwhiteShare":clean(getattr(demo_row,"nonwhite_share",None)),
+                "collegeShare":clean(getattr(demo_row,"college_share",None)),
+                "whiteCollegeShare":clean(getattr(demo_row,"white_college_share",None)),
+                "blackCvapShare":clean(getattr(cvap_row,"cvap_black_nh_share",None)),
+                "whiteCvapShare":clean(getattr(cvap_row,"cvap_white_nh_share",None)),
+                "cvapTotal":clean(getattr(cvap_row,"CVAP_TOT24",None)),
+                "regions":region_summary(region_index.get((chamber,district))),
+            }
             races.append({"district":district,"candidates":candidates,"status":status,"demProbability":p,
                           "rating":rating(p) if status=="modeled" else "Not modeled","margin":margin,
                           "low80":low80,"high80":high80,"pollBaseline":baseline,"pres24":pres24,
                           "environmentAdjustment":environment,"financeScenario":finance_scenario,
-                          "cmoScenarioAdjustment":cmo_scenario,"models":model_values})
+                          "cmoScenarioAdjustment":cmo_scenario,"models":model_values,"profile":profile})
         distributions={}
         for model,seat_dist in model_seats.items():
             sd=seat_dist[seat_dist.chamber.eq(chamber)][["dem_seats","probability"]].rename(columns={"dem_seats":"demSeats"})
@@ -231,6 +323,7 @@ HTML="""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="v
 <main class="shell"><section class="model-switcher" aria-labelledby="modelSwitcherTitle"><div><div class="kicker">Forecast and polling-error scenarios</div><h2 id="modelSwitcherTitle">Forecast view</h2><p id="modelDescription" class="section-note"></p></div><div class="model-scores" id="modelScores" aria-label="Forward-test error score"></div><div class="model-tabs" id="modelTabs" role="tablist" aria-label="Forecast view"></div><p class="mae-note">The displayed MAE is the average district-margin error when the model was trained on 2018 and tested on 2022. The scenario tabs change only the assumed national polling error.</p></section><section class="overview-grid" id="overviewGrid" aria-label="House and Senate forecast summaries"></section>
 <section class="workspace" id="workspace"><header class="workspace-head"><h2 id="chamberTitle"></h2><div class="segmented" aria-label="Select chamber"><button data-chamber="house" aria-pressed="true">State House</button><button data-chamber="senate" aria-pressed="false">State Senate</button></div></header>
 <div class="chamber-strip"><div class="strip-stat"><b id="medianSeats"></b><span>Median Democratic seats</span></div><div class="strip-stat distribution-cell"><div class="distribution" id="distribution" aria-label="Conditional Democratic seat distribution"></div><div class="distribution-axis" id="distributionAxis"></div></div><div class="strip-stat"><b id="seatRange"></b><span>Democratic 80% seat range</span></div></div>
+<div class="chamber-insights"><section class="majority-path" aria-labelledby="majorityPathTitle"><div class="panel-head"><div><span class="panel-kicker">Chamber control</span><h3 id="majorityPathTitle">Path to a majority</h3></div><span id="majorityThreshold"></span></div><div id="majorityPath"></div></section><section class="race-watch" aria-labelledby="raceWatchTitle"><div class="panel-head"><div><span class="panel-kicker">Race overview</span><h3 id="raceWatchTitle">Seats to watch</h3></div><span id="raceWatchCount"></span></div><div id="raceWatch"></div></section></div>
 <div class="interactive"><section class="map-panel"><div class="map-head"><div><h3 id="mapTitle"></h3><p>Choose a district on the map or with the district finder.</p></div><div class="mode-tabs" aria-label="Map display"><button data-mode="probability" aria-pressed="true">Win chance</button><button data-mode="margin" aria-pressed="false">Margin</button><button data-mode="rating" aria-pressed="false">Rating</button></div></div><div class="map-tools"><label class="sr-only" for="districtSelect">Find a district</label><select id="districtSelect"></select><span class="section-note">Pan and zoom to explore roads, cities, and district geography.</span></div><div class="map-wrap"><div id="map" role="group" aria-label="Interactive Alabama legislative district forecast map"></div></div><div class="legend" id="legend" aria-label="Map legend"></div></section>
 <aside class="detail" id="detail" aria-live="polite"><div class="detail-empty">Select a district to explore its forecast.</div></aside></div></section>
 <section class="section"><h2>District forecast table</h2><p class="section-note"><span id="rowCount"></span>. Margins, probabilities, intervals, and ratings follow the forecast view selected above.</p><div class="table-tools"><label class="sr-only" for="search">Search candidates or districts</label><input id="search" type="search" placeholder="Search candidate or district"><label class="sr-only" for="ratingFilter">Filter by rating</label><select id="ratingFilter"><option value="all">All ratings</option><option>Solid D</option><option>Very likely D</option><option>Likely D</option><option>Lean D</option><option>Toss-up</option><option>Lean R</option><option>Likely R</option><option>Very likely R</option><option>Solid R</option><option>Unopposed D</option><option>Unopposed R</option></select><label class="sr-only" for="scopeFilter">Filter races</label><select id="scopeFilter"><option value="all">All districts</option><option value="competitive">Competitive (35–65%)</option><option value="modeled">Modeled D–R races</option><option value="open">Open seats</option><option value="crosses">80% interval crosses even</option></select><button class="small-button" id="download">Download CSV</button></div><div class="table-hint">Swipe horizontally to see all columns; the district column remains fixed.</div><div class="table-wrap"><table><thead><tr><th><button data-sort="district">District<span></span></button></th><th>Candidates</th><th><button data-sort="rating">Rating<span></span></button></th><th><button data-sort="demProbability">Dem. chance<span></span></button></th><th><button data-sort="margin">Headline margin<span></span></button></th><th>80% interval</th><th>Finance scenario</th></tr></thead><tbody id="rows"></tbody></table></div></section>
@@ -396,6 +489,11 @@ def main():
         (CAL/"production_probability_validation_summary.csv","production_probability_validation_summary.csv"),
         (CAL/"production_probability_family_comparison.csv","production_probability_family_comparison.csv"),
         (CAL/"production_probability_model_card.json","production_probability_model_card.json"),
+        (ROOT/"data/processed/demographics/2026_sld_demographics.csv","2026_sld_demographics.csv"),
+        (ROOT/"data/processed/demographics/rdh_2024_sld_cvap.csv","rdh_2024_sld_cvap.csv"),
+        (WAR/"next_forecast_tournament_region_features.csv","next_forecast_tournament_region_features.csv"),
+        (ROOT/"data/processed/elections/canonical_cmo_candidates.csv","canonical_cmo_candidates.csv"),
+        (WAR/"cmo_v6_southern_candidates.csv","cmo_v6_southern_candidates.csv"),
     ]:
         shutil.copy2(source,SITE/"data"/name)
     for stale_name in (

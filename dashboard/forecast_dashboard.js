@@ -9,6 +9,8 @@
   const chamberName = c => c === "house" ? "State House" : "State Senate";
   const districtName = (c,d) => `${c === "house" ? "HD" : "SD"}-${d}`;
   const partyName = p => ({D:"Democratic",R:"Republican",I:"Independent"}[p] || p);
+  const fmtPct = v => v == null || Number.isNaN(+v) ? "—" : `${(100*+v).toFixed(1)}%`;
+  const fmtNumber = v => v == null ? "—" : new Intl.NumberFormat("en-US").format(v);
   const fmtMargin = v => v == null || Number.isNaN(+v) ? "—" : `${+v >= 0 ? "D+" : "R+"}${Math.abs(+v).toFixed(1)}`;
   const fmtMoney = (v,status) => {
     if (v != null) return new Intl.NumberFormat("en-US",{style:"currency",currency:"USD",maximumFractionDigits:0}).format(v);
@@ -87,7 +89,7 @@
     $("#modelDescription").innerHTML=`<b>${m.status}.</b> ${m.description}`;
     $("#modelScores").innerHTML=`<span><b>${m.meanMae.toFixed(2)}</b>All-cycle MAE</span><span><b>${m.recentMae.toFixed(2)}</b>2018–22 MAE</span><span><b>${m.latestMae.toFixed(2)}</b>2022 MAE</span>`;
     const tabs=$$('[data-model]');
-    tabs.forEach((b,i)=>{b.addEventListener("click",()=>selectModel(b.dataset.model));b.addEventListener("keydown",e=>{if(!["ArrowLeft","ArrowRight","Home","End"].includes(e.key))return;e.preventDefault();let n=e.key==="Home"?0:e.key==="End"?tabs.length-1:(i+(e.key==="ArrowRight"?1:-1)+tabs.length)%tabs.length;tabs[n].focus();selectModel(tabs[n].dataset.model)})});
+    tabs.forEach((b,i)=>{b.addEventListener("click",()=>selectModel(b.dataset.model));b.addEventListener("keydown",e=>{if(!["ArrowLeft","ArrowRight","Home","End"].includes(e.key))return;e.preventDefault();let n=e.key==="Home"?0:e.key==="End"?tabs.length-1:(i+(e.key==="ArrowRight"?1:-1)+tabs.length)%tabs.length;selectModel(tabs[n].dataset.model);requestAnimationFrame(()=>document.querySelector(`[data-model="${state.model}"]`)?.focus())})});
   }
   function selectModel(model){state.model=model;applyModel();syncUrl();renderAll();renderModelTabs()}
 
@@ -146,6 +148,37 @@
     $("#chamberTitle").textContent=`Explore the ${chamberName(state.chamber)}`;
     $("#mapTitle").textContent=`Alabama ${chamberName(state.chamber)}`;
     renderDistribution();
+  }
+
+  function pathForParty(party){
+    const rows=DATA[state.chamber].races, total=state.chamber==="house"?105:35, majority=Math.floor(total/2)+1;
+    const fixed=rows.filter(r=>r.status==="unopposed-major-party"&&leader(r)===party).length;
+    const modeled=rows.filter(r=>r.status==="modeled").sort((a,b)=>party==="D"?b.demProbability-a.demProbability:a.demProbability-b.demProbability);
+    const needed=Math.max(0,majority-fixed), tipping=needed>0&&needed<=modeled.length?modeled[needed-1]:null;
+    const near=tipping?modeled.slice(Math.max(0,needed-3),Math.min(modeled.length,needed+2)):[];
+    return {party,fixed,needed,tipping,near,majority,modeledCount:modeled.length};
+  }
+
+  function renderMajorityPath(){
+    const stats=seatStats(state.chamber), d=pathForParty("D"), r=pathForParty("R");
+    const pct=x=>x<.001?"<0.1%":`${(100*x).toFixed(1)}%`;
+    const route=x=>`<article class="party-path ${x.party}"><div><b>${partyName(x.party)} path</b><strong>${pct(x.party==="D"?stats.control:1-stats.control)}</strong><span>chance of chamber control</span></div><p>${x.fixed} fixed seats; ${x.needed} modeled wins needed${x.tipping?`. The modeled route reaches the threshold at ${districtName(state.chamber,x.tipping.district)} (${Math.round(100*(x.party==="D"?x.tipping.demProbability:1-x.tipping.demProbability))}% ${x.party} chance).`:x.needed>x.modeledCount?`. Only ${x.modeledCount} two-party races are modeled, so control is not reachable under the fixed-seat treatment.`:"."}</p>${x.near.length?`<div class="path-races" aria-label="Races around the ${partyName(x.party)} majority threshold">${x.near.map(q=>`<button data-jump-district="${q.district}" class="${q===x.tipping?'tipping':''}"><span>${districtName(state.chamber,q.district)}</span><b>${Math.round(100*(x.party==="D"?q.demProbability:1-q.demProbability))}%</b></button>`).join("")}</div>`:""}</article>`;
+    $("#majorityThreshold").textContent=`${stats.majority} seats required`;
+    $("#majorityPath").innerHTML=`<div class="path-grid">${route(d)}${route(r)}</div><p class="panel-note">The marked race is the threshold seat in each party's probability-ranked route, not a claim that every easier seat will vote the same way.</p>`;
+  }
+
+  function renderRaceWatch(){
+    const rows=DATA[state.chamber].races, modeled=rows.filter(r=>r.status==="modeled");
+    const closest=[...modeled].sort((a,b)=>Math.abs(a.demProbability-.5)-Math.abs(b.demProbability-.5)).slice(0,4);
+    const open=[...modeled].filter(r=>r.profile?.openSeat).sort((a,b)=>Math.abs(a.demProbability-.5)-Math.abs(b.demProbability-.5)).slice(0,3);
+    const trailing=[...modeled].filter(r=>{const incumbent=r.candidates.find(c=>c.incumbent&&["D","R"].includes(c.party));return incumbent&&leader(r)!==incumbent.party}).sort((a,b)=>Math.abs(a.demProbability-.5)-Math.abs(b.demProbability-.5)).slice(0,3);
+    const group=(title,list,empty)=>`<div class="watch-group"><b>${title}</b>${list.length?list.map(q=>`<button data-jump-district="${q.district}"><span>${districtName(state.chamber,q.district)}<small>${effectiveRating(q)}</small></span><strong>${fmtMargin(q.margin)}</strong></button>`).join(""):`<p>${empty}</p>`}</div>`;
+    $("#raceWatchCount").textContent=`${modeled.length} contested forecasts`;
+    $("#raceWatch").innerHTML=`<div class="watch-grid">${group("Closest races",closest,"No modeled races")}${group("Closest open seats",open,"No modeled open seats")}${group("Incumbent party trailing",trailing,"No incumbent party currently trails")}</div>`;
+  }
+
+  function bindDistrictJumps(){
+    $$('[data-jump-district]').forEach(button=>button.addEventListener("click",()=>selectDistrict(+button.dataset.jumpDistrict,true)));
   }
 
   function mapColor(r){
@@ -208,8 +241,30 @@
   function showTooltip(e,r){const t=$("#tooltip");t.style.display="block";t.style.left=Math.min(innerWidth-255,e.clientX+12)+"px";t.style.top=Math.min(innerHeight-90,e.clientY+12)+"px";t.textContent=tooltipText(r)}
   function hideTooltip(){ $("#tooltip").style.display="none"; }
 
+  function candidateHistoryHtml(c){
+    if(!c.cmoHistory?.length)return "";
+    const max=Math.max(5,...c.cmoHistory.map(x=>Math.abs(x.cmo)));
+    return `<details class="candidate-history"><summary>${c.name} CMO history (${c.cmoHistory.length} race${c.cmoHistory.length===1?"":"s"})</summary><p>CMO is signed to the Democratic margin: positive values favor Democrats and negative values favor Republicans.</p><div class="career-timeline">${c.cmoHistory.map(x=>`<div class="career-row"><span>${x.cycle}<small>${districtName(x.chamber,x.district)}${x.incumbent?" · incumbent":""}</small></span><i class="career-scale"><i class="zero"></i><i class="career-bar ${x.cmo>=0?'D':'R'}" style="left:${x.cmo>=0?50:50-45*Math.abs(x.cmo)/max}%;width:${45*Math.abs(x.cmo)/max}%"></i></i><b>${fmtEffect(x.cmo)}</b></div>`).join("")}</div></details>`;
+  }
+
   function candidateHtml(c){
-    return `<div class="candidate"><i class="stripe ${c.party}" aria-hidden="true"></i><div><b>${c.name}</b><small>${partyName(c.party)}${c.incumbent?" · Incumbent":" · Non-incumbent"}</small></div><div class="finance-values"><small>${fmtMoney(c.raised,c.financeStatus)} raised<br>${fmtMoney(c.spent,c.financeStatus)} spent</small></div></div>`;
+    return `<div class="candidate"><i class="stripe ${c.party}" aria-hidden="true"></i><div><b>${c.name}</b><small>${partyName(c.party)}${c.incumbent?" · Incumbent":" · Non-incumbent"}</small></div><div class="finance-values"><small>${fmtMoney(c.raised,c.financeStatus)} raised<br>${fmtMoney(c.spent,c.financeStatus)} spent</small></div></div>${candidateHistoryHtml(c)}`;
+  }
+
+  function profileHtml(r){
+    const p=r.profile||{}, prior=p.priorResult;
+    const priorText=!prior?"Not available":prior.margin==null?"No two-party margin":fmtMargin(prior.margin);
+    const region=p.regions?.length?p.regions.map(x=>`${x.name} ${fmtPct(x.share)}`).join("; "):"Not available";
+    const priorDetail=prior?([prior.demCandidate,prior.repCandidate].filter(Boolean).length?[prior.demCandidate,prior.repCandidate].filter(Boolean).join(" vs. "):`D ${fmtNumber(prior.demVotes)} · R ${fmtNumber(prior.repVotes)}`):"";
+    return `<section class="district-profile"><h4>District profile</h4><div class="profile-grid"><div><span>2024 presidential margin</span><b>${fmtMargin(r.pres24)}</b></div><div><span>2022 legislative result</span><b>${priorText}</b><small>${priorDetail}</small></div><div><span>Seat status</span><b>${p.openSeat?"Open seat":"Incumbent running"}</b></div><div><span>Black CVAP</span><b>${fmtPct(p.blackCvapShare)}</b></div><div><span>White non-Hispanic CVAP</span><b>${fmtPct(p.whiteCvapShare)}</b></div><div><span>College graduate share</span><b>${fmtPct(p.collegeShare)}</b></div><div><span>White college graduate share</span><b>${fmtPct(p.whiteCollegeShare)}</b></div><div class="profile-wide"><span>Regional composition</span><b>${region}</b></div></div><p class="profile-note">Demographics are district estimates, not individual voting behavior. Regional shares describe the district's geographic composition.</p></section>`;
+  }
+
+  function componentComparisonHtml(r){
+    if(r.status!=="modeled")return "";
+    const selected=selectedVersion(r), max=Math.max(1,...selected.steps.slice(1).map(x=>Math.abs(x[1])));
+    const rows=selected.steps.map((step,index)=>`<div class="component-row"><span>${DATA.contributionVariables[index]}</span><i class="component-scale">${index?`<i class="${step[1]>=0?'D':'R'}" style="width:${100*Math.abs(step[1])/max}%"></i>`:""}</i><b>${index?fmtEffect(step[1]):"Starting point"}<small>${fmtMargin(step[2])}</small></b></div>`).join("");
+    const scenarios=DATA.models.map(model=>{const m=r.models[model.id];return `<div class="scenario-result ${model.id===state.model?'selected':''}"><span>${model.label}</span><b>${fmtMargin(m.margin)}</b><small>${Math.round(100*m.demProbability)}% D chance</small></div>`}).join("");
+    return `<section class="component-comparison"><h4>Forecast components</h4><p>Each row shows its signed change and the running district margin. The three columns below hold the candidate adjustment constant and vary only national polling error.</p><div class="component-rows">${rows}</div><div class="scenario-results">${scenarios}</div></section>`;
   }
 
   function uncertaintyHtml(r){
@@ -230,25 +285,10 @@
     const lead=leader(r), leadProb=lead ? Math.max(r.demProbability,1-r.demProbability) : null;
     const bg=lead==="D"?"var(--blue)":lead==="R"?"var(--red)":"var(--gray)";
     const headline=r.status==="modeled"?`<div class="headline-call"><strong>${fmtMargin(r.margin)}</strong><span>${partyName(lead)} nominee favored · ${Math.round(100*leadProb)}% win probability</span></div>`:`<div class="headline-call"><strong>${effectiveRating(r)}</strong><span>${r.status==="unopposed-major-party"?"Single major-party nominee; independent contests are not modeled":"No two-party forecast available"}</span></div>`;
-    const selectedModel=DATA.models.find(x=>x.id===state.model), steps=contributionSteps(r),pub=publicVersion(r),delta=modelDelta(r);
-    const grouped=[];for(const s of steps){const name=variableGroups[s.variable]||"Other";let g=grouped.find(x=>x.name===name);if(!g){g={name,effect:0,items:[]};grouped.push(g)}g.effect+=s.effect;g.items.push(s)}
-    let running=r.pollBaseline;const maxGroup=Math.max(1,...grouped.map(g=>Math.abs(g.effect)));
-    const groupRows=grouped.map(g=>{running+=g.effect;return `<div class="metric contribution group"><span>${g.name}<small>${g.items.length} model term${g.items.length===1?"":"s"}</small><i class="effect-track" aria-hidden="true"><i class="${g.effect>=0?"d":"r"}" style="width:${100*Math.abs(g.effect)/maxGroup}%"></i></i></span><b>${fmtEffect(g.effect)}<small>→ ${fmtMargin(running)}</small></b></div>`}).join("");
-    const technical=steps.map(s=>`<div class="metric contribution"><span>${variableLabels[s.variable]||s.variable}<small>${fmtValue(s.variable,s.value)}</small></span><b>${fmtEffect(s.effect)}<small>→ ${fmtMargin(s.runningMargin)}</small></b></div>`).join("");
-    const compare=state.model===PUBLIC_MODEL?`<div class="comparison-call"><b>Basic model</b><span>Transparent default and guardrail for every richer specification.</span></div>`:`<div class="comparison-call ${winnerFor(r.margin)!==winnerFor(pub.margin)?"warning":""}"><b>${fmtEffect(delta)} vs Basic</b><span>Basic: ${fmtMargin(pub.margin)}${winnerFor(r.margin)!==winnerFor(pub.margin)?" · Models disagree on the favored party":""}</span></div>`;
-    const financeComplete=r.candidates.filter(c=>["D","R"].includes(c.party)).every(c=>c.financeStatus==="observed");
-    const model=r.status==="modeled"?`<div class="decomp"><h4>${selectedModel.label} forecast</h4>
-      ${compare}<div class="data-badges"><span>${financeComplete?"Complete matched finance":"Incomplete finance data"}</span><span>${winnerDisagreement(r)?"Models disagree on winner":"Models agree on winner"}</span></div>
-      <div class="metric"><span>2024 presidential margin</span><b>${fmtMargin(r.pres24)}</b></div>
-      <div class="metric"><span>2026 environment change</span><b>${fmtEffect(r.environmentAdjustment)}</b></div>
-      <div class="metric"><span>Basic forecast</span><b>${fmtMargin(r.pollBaseline)}</b></div>
-      ${groupRows||'<div class="metric"><span>Additional model adjustment</span><b>None</b></div>'}
-      <div class="metric total"><span>Selected model forecast</span><b>${fmtMargin(r.margin)}</b></div>
-      ${steps.length?`<details class="technical-terms"><summary>Technical variable detail (${steps.length} terms)</summary>${technical}<small>These are exact sequential contribution estimates in the fixed order shown. For nonlinear models, changing the order can change individual attributions even though the final forecast is unchanged.</small></details>`:""}
-      ${state.model===PUBLIC_MODEL?"":`<div class="scenario-box"><small>Fundamentals+ incorporates candidate and district information, but it did not beat Basic in the 2022 holdout and therefore remains experimental.</small></div>`}${uncertaintyHtml(r)}<div class="source-note"><b>Data provenance</b><span>Election baseline, polling, ACS demographics, regional context, certified candidates, candidate history, and Alabama finance filings. Dates and downloads appear in the source ledger below.</span></div></div>`:"";
+    const model=r.status==="modeled"?`${componentComparisonHtml(r)}${uncertaintyHtml(r)}`:"";
     const ordered=[...DATA[state.chamber].races].filter(x=>x.status==="modeled").sort((a,b)=>Math.abs(a.margin)-Math.abs(b.margin)), pos=ordered.findIndex(x=>x.district===r.district);
     const prev=ordered[(pos-1+ordered.length)%ordered.length], next=ordered[(pos+1)%ordered.length];
-    $("#detail").innerHTML=`<button class="close-detail" id="closeDistrict" aria-label="Close district and return to statewide map">×</button><div class="race-kicker">2026 general election</div><div class="race-title">${chamberName(state.chamber)} District ${r.district}</div><button class="share-link small-button" id="shareRace">Copy link</button><span class="rating" style="background:${bg}">${effectiveRating(r)}</span>${headline}<div>${r.candidates.map(candidateHtml).join("")||"<p>No certified candidate listed.</p>"}</div>${model}<div class="race-nav"><button class="small-button" data-race-nav="${prev?.district||r.district}">← Closer race</button><button class="small-button" data-race-nav="${next?.district||r.district}">Next race →</button></div>`;
+    $("#detail").innerHTML=`<button class="close-detail" id="closeDistrict" aria-label="Close district and return to statewide map">×</button><div class="race-kicker">2026 general election</div><div class="race-title">${chamberName(state.chamber)} District ${r.district}</div><button class="share-link small-button" id="shareRace">Copy link</button><span class="rating" style="background:${bg}">${effectiveRating(r)}</span>${headline}<div>${r.candidates.map(candidateHtml).join("")||"<p>No certified candidate listed.</p>"}</div>${profileHtml(r)}${model}<div class="race-nav"><button class="small-button" data-race-nav="${prev?.district||r.district}">← Closer race</button><button class="small-button" data-race-nav="${next?.district||r.district}">Next race →</button></div>`;
     $$('[data-race-nav]').forEach(b=>b.addEventListener("click",()=>selectDistrict(+b.dataset.raceNav,true)));
     $("#shareRace")?.addEventListener("click",async e=>{syncUrl();try{await navigator.clipboard.writeText(location.href);e.currentTarget.textContent="Link copied"}catch{e.currentTarget.textContent="Use address bar to copy"}});
     $("#closeDistrict")?.addEventListener("click",clearDistrict);
@@ -313,7 +353,7 @@
   }
 
   function renderAll(){
-    renderOverview(); renderChamberStrip(); populateDistrictSelect(); renderMap(); renderDetail(race(state.chamber,state.selected)); renderTable();
+    renderOverview(); renderChamberStrip(); renderMajorityPath(); renderRaceWatch(); bindDistrictJumps(); populateDistrictSelect(); renderMap(); renderDetail(race(state.chamber,state.selected)); renderTable();
   }
 
   function bind(){

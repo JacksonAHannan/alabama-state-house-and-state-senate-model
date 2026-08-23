@@ -1,0 +1,1565 @@
+year,chamber,district,canonical_party,canonical_votes,canonical_name,canonical_source,person_id,canonical_candidate_id,incumbent,winner
+1994,house,1,D,7385.0,Starkey,alabama_sos,ALPERSON-STARKEY,AL-1994-house-1-D-STARKEY,0,1
+1994,house,1,R,4946.0,Phillips,alabama_sos,ALPERSON-PHILLIPS,AL-1994-house-1-R-PHILLIPS,0,0
+1994,house,2,D,8019.0,Hamilton,alabama_sos,ALPERSON-HAMILTON,AL-1994-house-2-D-HAMILTON,0,1
+1994,house,3,D,7723.0,Black,alabama_sos,ALPERSON-BLACK,AL-1994-house-3-D-BLACK,0,1
+1994,house,3,R,3821.0,Smallwood,alabama_sos,ALPERSON-SMALLWOOD,AL-1994-house-3-R-SMALLWOOD,0,0
+1994,house,4,D,5012.0,Smith,alabama_sos,ALPERSON-SMITH,AL-1994-house-4-D-SMITH,0,0
+1994,house,4,R,9236.0,Papucci,alabama_sos,ALPERSON-PAPUCCI,AL-1994-house-4-R-PAPUCCI,0,1
+1994,house,5,D,7602.0,Carter,alabama_sos,ALPERSON-CARTER,AL-1994-house-5-D-CARTER,0,1
+1994,house,6,D,6409.0,Schmitz,alabama_sos,ALPERSON-SCHMITZ,AL-1994-house-6-D-SCHMITZ,0,0
+1994,house,6,R,6770.0,Jorgensen,alabama_sos,ALPERSON-JORGENSEN,AL-1994-house-6-R-JORGENSEN,0,1
+1994,house,7,D,6188.0,Letson,alabama_sos,ALPERSON-LETSON,AL-1994-house-7-D-LETSON,0,1
+1994,house,7,R,5641.0,Randolph,alabama_sos,ALPERSON-RANDOLPH,AL-1994-house-7-R-RANDOLPH,0,0
+1994,house,8,D,8391.0,Dukes,alabama_sos,ALPERSON-DUKES,AL-1994-house-8-D-DUKES,0,1
+1994,house,8,R,2602.0,New,alabama_sos,ALPERSON-NEW,AL-1994-house-8-R-NEW,0,0
+1994,house,9,D,9001.0,Parker,alabama_sos,ALPERSON-PARKER,AL-1994-house-9-D-PARKER,0,1
+1994,house,10,D,10090.0,Haney,alabama_sos,ALPERSON-HANEY,AL-1994-house-10-D-HANEY,0,1
+1994,house,11,D,12518.0,Drake,alabama_sos,ALPERSON-DRAKE,AL-1994-house-11-D-DRAKE,0,1
+1994,house,12,D,7159.0,Morrison,alabama_sos,ALPERSON-MORRISON,AL-1994-house-12-D-MORRISON,0,1
+1994,house,12,R,6564.0,Bowling,alabama_sos,ALPERSON-BOWLING,AL-1994-house-12-R-BOWLING,0,0
+1994,house,13,D,8161.0,Hogan,alabama_sos,ALPERSON-HOGAN,AL-1994-house-13-D-HOGAN,0,1
+1994,house,14,D,9089.0,Guin,alabama_sos,ALPERSON-GUIN,AL-1994-house-14-D-GUIN,0,1
+1994,house,15,D,4363.0,Sharp,alabama_sos,ALPERSON-SHARP,AL-1994-house-15-D-SHARP,0,0
+1994,house,15,R,10300.0,Curry,alabama_sos,ALPERSON-CURRY,AL-1994-house-15-R-CURRY,0,1
+1994,house,16,D,8675.0,Collins,alabama_sos,ALPERSON-COLLINS,AL-1994-house-16-D-COLLINS,0,1
+1994,house,17,D,8535.0,Millican,alabama_sos,ALPERSON-MILLICAN,AL-1994-house-17-D-MILLICAN,0,1
+1994,house,17,R,5183.0,Harper,alabama_sos,ALPERSON-HARPER,AL-1994-house-17-R-HARPER,0,0
+1994,house,18,D,7939.0,Morrow,alabama_sos,ALPERSON-MORROW,AL-1994-house-18-D-MORROW,0,1
+1994,house,19,D,7314.0,Hall,alabama_sos,ALPERSON-HALL,AL-1994-house-19-D-HALL,0,1
+1994,house,19,R,1030.0,Anderson,alabama_sos,ALPERSON-ANDERSON,AL-1994-house-19-R-ANDERSON,0,0
+1994,house,20,D,11641.0,Sanderford,alabama_sos,ALPERSON-SANDERFORD,AL-1994-house-20-D-SANDERFORD,0,1
+1994,house,21,D,9877.0,Johnston,alabama_sos,ALPERSON-JOHNSTON,AL-1994-house-21-D-JOHNSTON,0,1
+1994,house,22,D,6521.0,Hall,alabama_sos,ALPERSON-HALL,AL-1994-house-22-D-HALL,0,1
+1994,house,23,D,4692.0,Pobinson,alabama_sos,ALPERSON-POBINSON,AL-1994-house-23-D-POBINSON,0,1
+1994,house,24,D,6142.0,Burke,alabama_sos,ALPERSON-BURKE,AL-1994-house-24-D-BURKE,0,1
+1994,house,25,D,5895.0,Hawk,alabama_sos,ALPERSON-HAWK,AL-1994-house-25-D-HAWK,0,1
+1994,house,26,D,5881.0,Mcdaniel,alabama_sos,ALPERSON-MCDANIEL,AL-1994-house-26-D-MCDANIEL,0,1
+1994,house,26,R,4171.0,Holcomb,alabama_sos,ALPERSON-HOLCOMB,AL-1994-house-26-R-HOLCOMB,0,0
+1994,house,27,D,6807.0,Murphree,alabama_sos,ALPERSON-MURPHREE,AL-1994-house-27-D-MURPHREE,0,1
+1994,house,27,R,5746.0,Martin,alabama_sos,ALPERSON-MARTIN,AL-1994-house-27-R-MARTIN,0,0
+1994,house,28,D,7532.0,Ford,alabama_sos,ALPERSON-FORD,AL-1994-house-28-D-FORD,0,1
+1994,house,28,R,3711.0,O'Barr,alabama_sos,ALPERSON-O-BARR,AL-1994-house-28-R-O-BARR,0,0
+1994,house,29,D,7064.0,Page,alabama_sos,ALPERSON-PAGE,AL-1994-house-29-D-PAGE,0,1
+1994,house,29,R,2464.0,Estes,alabama_sos,ALPERSON-ESTES,AL-1994-house-29-R-ESTES,0,0
+1994,house,30,D,7026.0,Galliher,alabama_sos,ALPERSON-GALLIHER,AL-1994-house-30-D-GALLIHER,0,1
+1994,house,30,R,5912.0,Hodges,alabama_sos,ALPERSON-HODGES,AL-1994-house-30-R-HODGES,0,0
+1994,house,31,D,9180.0,Venable,alabama_sos,ALPERSON-VENABLE,AL-1994-house-31-D-VENABLE,0,1
+1994,house,32,D,4541.0,Boyd,alabama_sos,ALPERSON-BOYD,AL-1994-house-32-D-BOYD,0,1
+1994,house,32,R,2241.0,Montgomery,alabama_sos,ALPERSON-MONTGOMERY,AL-1994-house-32-R-MONTGOMERY,0,0
+1994,house,33,D,5981.0,Johnson,alabama_sos,ALPERSON-JOHNSON,AL-1994-house-33-D-JOHNSON,0,1
+1994,house,33,R,3621.0,Hattaway,alabama_sos,ALPERSON-HATTAWAY,AL-1994-house-33-R-HATTAWAY,0,0
+1994,house,34,D,5180.0,Willis,alabama_sos,ALPERSON-WILLIS,AL-1994-house-34-D-WILLIS,0,1
+1994,house,35,D,4734.0,Shaddix,alabama_sos,ALPERSON-SHADDIX,AL-1994-house-35-D-SHADDIX,0,0
+1994,house,35,R,5091.0,Sims,alabama_sos,ALPERSON-SIMS,AL-1994-house-35-R-SIMS,0,1
+1994,house,36,D,4172.0,Campbell,alabama_sos,ALPERSON-CAMPBELL,AL-1994-house-36-D-CAMPBELL,0,0
+1994,house,36,R,5371.0,Rogers,alabama_sos,ALPERSON-ROGERS,AL-1994-house-36-R-ROGERS,0,1
+1994,house,37,D,7612.0,Laird,alabama_sos,ALPERSON-LAIRD,AL-1994-house-37-D-LAIRD,0,1
+1994,house,38,D,7182.0,Fuller,alabama_sos,ALPERSON-FULLER,AL-1994-house-38-D-FULLER,0,1
+1994,house,39,D,5860.0,Lindsey,alabama_sos,ALPERSON-LINDSEY,AL-1994-house-39-D-LINDSEY,0,1
+1994,house,40,D,5174.0,Martin,alabama_sos,ALPERSON-MARTIN,AL-1994-house-40-D-MARTIN,0,0
+1994,house,40,R,8703.0,Knight,alabama_sos,ALPERSON-KNIGHT,AL-1994-house-40-R-KNIGHT,0,1
+1994,house,41,D,10277.0,Hill,alabama_sos,ALPERSON-HILL,AL-1994-house-41-D-HILL,0,1
+1994,house,42,D,8909.0,Smith,alabama_sos,ALPERSON-SMITH,AL-1994-house-42-D-SMITH,0,1
+1994,house,42,R,4157.0,Bialas,alabama_sos,ALPERSON-BIALAS,AL-1994-house-42-R-BIALAS,0,0
+1994,house,43,D,3731.0,Romei,alabama_sos,ALPERSON-ROMEI,AL-1994-house-43-D-ROMEI,0,0
+1994,house,43,R,10152.0,Sanderson,alabama_sos,ALPERSON-SANDERSON,AL-1994-house-43-R-SANDERSON,0,1
+1994,house,44,D,10765.0,Payne,alabama_sos,ALPERSON-PAYNE,AL-1994-house-44-D-PAYNE,0,1
+1994,house,45,D,10599.0,Morton,alabama_sos,ALPERSON-MORTON,AL-1994-house-45-D-MORTON,0,1
+1994,house,46,D,2681.0,Jones,alabama_sos,ALPERSON-JONES,AL-1994-house-46-D-JONES,0,0
+1994,house,46,R,14516.0,Carns,alabama_sos,ALPERSON-CARNS,AL-1994-house-46-R-CARNS,0,1
+1994,house,47,D,13349.0,Gaines,alabama_sos,ALPERSON-GAINES,AL-1994-house-47-D-GAINES,0,1
+1994,house,48,D,2750.0,Gulas,alabama_sos,ALPERSON-GULAS,AL-1994-house-48-D-GULAS,0,0
+1994,house,48,R,13809.0,Hawkins,alabama_sos,ALPERSON-HAWKINS,AL-1994-house-48-R-HAWKINS,0,1
+1994,house,49,D,5872.0,Holladay,alabama_sos,ALPERSON-HOLLADAY,AL-1994-house-49-D-HOLLADAY,0,0
+1994,house,49,R,6614.0,Thomas,alabama_sos,ALPERSON-THOMAS,AL-1994-house-49-R-THOMAS,0,1
+1994,house,50,D,2498.0,Smith,alabama_sos,ALPERSON-SMITH,AL-1994-house-50-D-SMITH,0,0
+1994,house,50,R,9808.0,Townsend,alabama_sos,ALPERSON-TOWNSEND,AL-1994-house-50-R-TOWNSEND,0,1
+1994,house,51,D,12582.0,Petelos,alabama_sos,ALPERSON-PETELOS,AL-1994-house-51-D-PETELOS,0,1
+1994,house,52,D,7750.0,Rogers,alabama_sos,ALPERSON-ROGERS,AL-1994-house-52-D-ROGERS,0,1
+1994,house,53,D,5925.0,Newton,alabama_sos,ALPERSON-NEWTON,AL-1994-house-53-D-NEWTON,0,1
+1994,house,53,R,3029.0,Blake,alabama_sos,ALPERSON-BLAKE,AL-1994-house-53-R-BLAKE,0,0
+1994,house,54,D,6237.0,Perdue,alabama_sos,ALPERSON-PERDUE,AL-1994-house-54-D-PERDUE,0,1
+1994,house,54,R,3128.0,Pearson,alabama_sos,ALPERSON-PEARSON,AL-1994-house-54-R-PEARSON,0,0
+1994,house,55,D,6722.0,Minnifield,alabama_sos,ALPERSON-MINNIFIELD,AL-1994-house-55-D-MINNIFIELD,0,1
+1994,house,55,R,2282.0,Evans,alabama_sos,ALPERSON-EVANS,AL-1994-house-55-R-EVANS,0,0
+1994,house,56,D,8149.0,Mcadory,alabama_sos,ALPERSON-MCADORY,AL-1994-house-56-D-MCADORY,0,1
+1994,house,57,D,8247.0,Houston,alabama_sos,ALPERSON-HOUSTON,AL-1994-house-57-D-HOUSTON,0,1
+1994,house,58,D,6055.0,Johnson,alabama_sos,ALPERSON-JOHNSON,AL-1994-house-58-D-JOHNSON,0,1
+1994,house,58,R,813.0,Leland,alabama_sos,ALPERSON-LELAND,AL-1994-house-58-R-LELAND,0,0
+1994,house,59,D,7464.0,Spratt,alabama_sos,ALPERSON-SPRATT,AL-1994-house-59-D-SPRATT,0,1
+1994,house,60,D,6222.0,Hillard,alabama_sos,ALPERSON-HILLARD,AL-1994-house-60-D-HILLARD,0,1
+1994,house,60,R,3266.0,Wright,alabama_sos,ALPERSON-WRIGHT,AL-1994-house-60-R-WRIGHT,0,0
+1994,house,61,D,9444.0,Layson,alabama_sos,ALPERSON-LAYSON,AL-1994-house-61-D-LAYSON,0,1
+1994,house,62,D,6730.0,Allen,alabama_sos,ALPERSON-ALLEN,AL-1994-house-62-D-ALLEN,0,1
+1994,house,62,R,4962.0,Copeland,alabama_sos,ALPERSON-COPELAND,AL-1994-house-62-R-COPELAND,0,0
+1994,house,63,D,8132.0,Parker,alabama_sos,ALPERSON-PARKER,AL-1994-house-63-D-PARKER,0,1
+1994,house,64,D,7714.0,Warren,alabama_sos,ALPERSON-WARREN,AL-1994-house-64-D-WARREN,0,1
+1994,house,64,R,4261.0,Bowen,alabama_sos,ALPERSON-BOWEN,AL-1994-house-64-R-BOWEN,0,0
+1994,house,65,D,8497.0,Dolbare,alabama_sos,ALPERSON-DOLBARE,AL-1994-house-65-D-DOLBARE,0,1
+1994,house,65,R,4453.0,Wilkins,alabama_sos,ALPERSON-WILKINS,AL-1994-house-65-R-WILKINS,0,0
+1994,house,66,D,5093.0,White,alabama_sos,ALPERSON-WHITE,AL-1994-house-66-D-WHITE,0,1
+1994,house,66,R,3508.0,Thomson,alabama_sos,ALPERSON-THOMSON,AL-1994-house-66-R-THOMSON,0,0
+1994,house,67,D,7507.0,Maull,alabama_sos,ALPERSON-MAULL,AL-1994-house-67-D-MAULL,0,1
+1994,house,67,R,3785.0,Walker,alabama_sos,ALPERSON-WALKER,AL-1994-house-67-R-WALKER,0,0
+1994,house,68,D,7022.0,Jackson,alabama_sos,ALPERSON-JACKSON,AL-1994-house-68-D-JACKSON,0,1
+1994,house,69,D,4706.0,Thomas,alabama_sos,ALPERSON-THOMAS,AL-1994-house-69-D-THOMAS,0,1
+1994,house,69,R,1097.0,Brooks,alabama_sos,ALPERSON-BROOKS,AL-1994-house-69-R-BROOKS,0,0
+1994,house,70,D,5757.0,Melton,alabama_sos,ALPERSON-MELTON,AL-1994-house-70-D-MELTON,0,1
+1994,house,71,D,9219.0,Black,alabama_sos,ALPERSON-BLACK,AL-1994-house-71-D-BLACK,0,1
+1994,house,72,D,7631.0,Hayden,alabama_sos,ALPERSON-HAYDEN,AL-1994-house-72-D-HAYDEN,0,1
+1994,house,72,R,2516.0,Williams,alabama_sos,ALPERSON-WILLIAMS,AL-1994-house-72-R-WILLIAMS,0,0
+1994,house,73,D,4101.0,Vaughan,alabama_sos,ALPERSON-VAUGHAN,AL-1994-house-73-D-VAUGHAN,0,0
+1994,house,73,R,11253.0,Hooper,alabama_sos,ALPERSON-HOOPER,AL-1994-house-73-R-HOOPER,0,1
+1994,house,74,D,10410.0,Mckee,alabama_sos,ALPERSON-MCKEE,AL-1994-house-74-D-MCKEE,0,1
+1994,house,75,D,4646.0,Holley,alabama_sos,ALPERSON-HOLLEY,AL-1994-house-75-D-HOLLEY,0,0
+1994,house,75,R,9283.0,Wren,alabama_sos,ALPERSON-WREN,AL-1994-house-75-R-WREN,0,1
+1994,house,76,D,5965.0,McClammy,alabama_sos,ALPERSON-MCCLAMMY,AL-1994-house-76-D-MCCLAMMY,0,1
+1994,house,76,R,2613.0,Merren,alabama_sos,ALPERSON-MERREN,AL-1994-house-76-R-MERREN,0,0
+1994,house,77,D,5784.0,Knight,alabama_sos,ALPERSON-KNIGHT,AL-1994-house-77-D-KNIGHT,0,1
+1994,house,78,D,5897.0,Holmes,alabama_sos,ALPERSON-HOLMES,AL-1994-house-78-D-HOLMES,0,1
+1994,house,79,D,6019.0,Turnham,alabama_sos,ALPERSON-TURNHAM,AL-1994-house-79-D-TURNHAM,0,1
+1994,house,79,R,4604.0,Pierce,alabama_sos,ALPERSON-PIERCE,AL-1994-house-79-R-PIERCE,0,0
+1994,house,80,D,5101.0,Vance,alabama_sos,ALPERSON-VANCE,AL-1994-house-80-D-VANCE,0,1
+1994,house,80,R,3082.0,Mccraine,alabama_sos,ALPERSON-MCCRAINE,AL-1994-house-80-R-MCCRAINE,0,0
+1994,house,81,D,8480.0,Graham,alabama_sos,ALPERSON-GRAHAM,AL-1994-house-81-D-GRAHAM,0,1
+1994,house,82,D,7716.0,Reed,alabama_sos,ALPERSON-REED,AL-1994-house-82-D-REED,0,1
+1994,house,83,D,4480.0,Bandy,alabama_sos,ALPERSON-BANDY,AL-1994-house-83-D-BANDY,0,1
+1994,house,84,D,6801.0,Clark,alabama_sos,ALPERSON-CLARK,AL-1994-house-84-D-CLARK,0,1
+1994,house,85,D,3526.0,Baker,alabama_sos,ALPERSON-BAKER,AL-1994-house-85-D-BAKER,0,1
+1994,house,85,R,1843.0,Raley,alabama_sos,ALPERSON-RALEY,AL-1994-house-85-R-RALEY,0,0
+1994,house,86,D,5368.0,Carothers,alabama_sos,ALPERSON-CAROTHERS,AL-1994-house-86-D-CAROTHERS,0,1
+1994,house,86,R,3997.0,Shuemake,alabama_sos,ALPERSON-SHUEMAKE,AL-1994-house-86-R-SHUEMAKE,0,0
+1994,house,87,D,4277.0,Mathis,alabama_sos,ALPERSON-MATHIS,AL-1994-house-87-D-MATHIS,0,0
+1994,house,87,R,7974.0,Seibenhener,alabama_sos,ALPERSON-SEIBENHENER,AL-1994-house-87-R-SEIBENHENER,0,1
+1994,house,88,D,6575.0,Gipson,alabama_sos,ALPERSON-GIPSON,AL-1994-house-88-D-GIPSON,0,1
+1994,house,88,R,6090.0,Templenton,alabama_sos,ALPERSON-TEMPLENTON,AL-1994-house-88-R-TEMPLENTON,0,0
+1994,house,89,D,7798.0,Flowers,alabama_sos,ALPERSON-FLOWERS,AL-1994-house-89-D-FLOWERS,0,1
+1994,house,90,D,6209.0,Newton,alabama_sos,ALPERSON-NEWTON,AL-1994-house-90-D-NEWTON,0,1
+1994,house,91,D,11761.0,Spicer,alabama_sos,ALPERSON-SPICER,AL-1994-house-91-D-SPICER,0,1
+1994,house,93,D,3397.0,Williams,alabama_sos,ALPERSON-WILLIAMS,AL-1994-house-93-D-WILLIAMS,0,0
+1994,house,93,R,6184.0,Clouse,alabama_sos,ALPERSON-CLOUSE,AL-1994-house-93-R-CLOUSE,0,1
+1994,house,94,D,12329.0,Penry,alabama_sos,ALPERSON-PENRY,AL-1994-house-94-D-PENRY,0,1
+1994,house,95,D,3908.0,Mcnair,alabama_sos,ALPERSON-MCNAIR,AL-1994-house-95-D-MCNAIR,0,0
+1994,house,95,R,8801.0,Mcmillan,alabama_sos,ALPERSON-MCMILLAN,AL-1994-house-95-R-MCMILLAN,0,1
+1994,house,96,D,5676.0,Box,alabama_sos,ALPERSON-BOX,AL-1994-house-96-D-BOX,0,1
+1994,house,96,R,3959.0,Long,alabama_sos,ALPERSON-LONG,AL-1994-house-96-R-LONG,0,0
+1994,house,97,D,4609.0,Kennedy,alabama_sos,ALPERSON-KENNEDY,AL-1994-house-97-D-KENNEDY,0,1
+1994,house,97,R,2320.0,Baumhauer,alabama_sos,ALPERSON-BAUMHAUER,AL-1994-house-97-R-BAUMHAUER,0,0
+1994,house,98,D,4797.0,Clark,alabama_sos,ALPERSON-CLARK,AL-1994-house-98-D-CLARK,0,1
+1994,house,99,D,6242.0,Buskey,alabama_sos,ALPERSON-BUSKEY,AL-1994-house-99-D-BUSKEY,0,1
+1994,house,100,D,8307.0,Gaston,alabama_sos,ALPERSON-GASTON,AL-1994-house-100-D-GASTON,0,1
+1994,house,101,D,13416.0,Pringle,alabama_sos,ALPERSON-PRINGLE,AL-1994-house-101-D-PRINGLE,0,1
+1994,house,102,D,7192.0,Turner,alabama_sos,ALPERSON-TURNER,AL-1994-house-102-D-TURNER,0,1
+1994,house,103,D,4915.0,Mitchell,alabama_sos,ALPERSON-MITCHELL,AL-1994-house-103-D-MITCHELL,0,1
+1994,house,103,R,1227.0,Gardner,alabama_sos,ALPERSON-GARDNER,AL-1994-house-103-R-GARDNER,0,0
+1994,house,104,D,4301.0,Rockhold,alabama_sos,ALPERSON-ROCKHOLD,AL-1994-house-104-D-ROCKHOLD,0,0
+1994,house,104,R,6278.0,Dean,alabama_sos,ALPERSON-DEAN,AL-1994-house-104-R-DEAN,0,1
+1994,house,105,D,3940.0,Harper,alabama_sos,ALPERSON-HARPER,AL-1994-house-105-D-HARPER,0,0
+1994,house,105,R,4633.0,Crigler,alabama_sos,ALPERSON-CRIGLER,AL-1994-house-105-R-CRIGLER,0,1
+1994,senate,1,D,25817.0,Denton,alabama_sos,ALPERSON-DENTON,AL-1994-senate-1-D-DENTON,0,1
+1994,senate,2,D,19699.0,Butler,alabama_sos,ALPERSON-BUTLER,AL-1994-senate-2-D-BUTLER,0,1
+1994,senate,2,R,18048.0,Manley,alabama_sos,ALPERSON-MANLEY,AL-1994-senate-2-R-MANLEY,0,0
+1994,senate,3,D,21471.0,Roberts,alabama_sos,ALPERSON-ROBERTS,AL-1994-senate-3-D-ROBERTS,0,1
+1994,senate,3,R,15057.0,Gentry,alabama_sos,ALPERSON-GENTRY,AL-1994-senate-3-R-GENTRY,0,0
+1994,senate,4,D,14928.0,Farrar,alabama_sos,ALPERSON-FARRAR,AL-1994-senate-4-D-FARRAR,0,0
+1994,senate,4,R,23913.0,Hale,alabama_sos,ALPERSON-HALE,AL-1994-senate-4-R-HALE,0,1
+1994,senate,5,D,18093.0,Wilson,alabama_sos,ALPERSON-WILSON,AL-1994-senate-5-D-WILSON,0,0
+1994,senate,5,R,19097.0,Davidson,alabama_sos,ALPERSON-DAVIDSON,AL-1994-senate-5-R-DAVIDSON,0,1
+1994,senate,6,D,24895.0,Bedford,alabama_sos,ALPERSON-BEDFORD,AL-1994-senate-6-D-BEDFORD,0,1
+1994,senate,7,D,18354.0,Freeman,alabama_sos,ALPERSON-FREEMAN,AL-1994-senate-7-D-FREEMAN,0,1
+1994,senate,7,R,17220.0,Tondera,alabama_sos,ALPERSON-TONDERA,AL-1994-senate-7-R-TONDERA,0,0
+1994,senate,8,D,17142.0,Barron,alabama_sos,ALPERSON-BARRON,AL-1994-senate-8-D-BARRON,0,1
+1994,senate,9,D,18740.0,Mitchem,alabama_sos,ALPERSON-MITCHEM,AL-1994-senate-9-D-MITCHEM,0,1
+1994,senate,9,R,13914.0,Good,alabama_sos,ALPERSON-GOOD,AL-1994-senate-9-R-GOOD,0,0
+1994,senate,10,D,15257.0,Floyd,alabama_sos,ALPERSON-FLOYD,AL-1994-senate-10-D-FLOYD,0,0
+1994,senate,10,R,19806.0,Smith,alabama_sos,ALPERSON-SMITH,AL-1994-senate-10-R-SMITH,0,1
+1994,senate,11,D,30774.0,Sprayberry,alabama_sos,ALPERSON-SPRAYBERRY,AL-1994-senate-11-D-SPRAYBERRY,0,1
+1994,senate,12,D,15147.0,Ghee,alabama_sos,ALPERSON-GHEE,AL-1994-senate-12-D-GHEE,0,1
+1994,senate,12,R,11262.0,James,alabama_sos,ALPERSON-JAMES,AL-1994-senate-12-R-JAMES,0,0
+1994,senate,13,D,20753.0,Dial,alabama_sos,ALPERSON-DIAL,AL-1994-senate-13-D-DIAL,0,1
+1994,senate,14,D,14045.0,Owens,alabama_sos,ALPERSON-OWENS,AL-1994-senate-14-D-OWENS,0,0
+1994,senate,14,R,25477.0,Armistead,alabama_sos,ALPERSON-ARMISTEAD,AL-1994-senate-14-R-ARMISTEAD,0,1
+1994,senate,15,D,32505.0,Amari,alabama_sos,ALPERSON-AMARI,AL-1994-senate-15-D-AMARI,0,1
+1994,senate,16,D,42672.0,Waggoner,alabama_sos,ALPERSON-WAGGONER,AL-1994-senate-16-D-WAGGONER,0,1
+1994,senate,17,D,28720.0,Biddle,alabama_sos,ALPERSON-BIDDLE,AL-1994-senate-17-D-BIDDLE,0,1
+1994,senate,18,D,19558.0,Smitherman,alabama_sos,ALPERSON-SMITHERMAN,AL-1994-senate-18-D-SMITHERMAN,0,1
+1994,senate,18,R,6649.0,Horn,alabama_sos,ALPERSON-HORN,AL-1994-senate-18-R-HORN,0,0
+1994,senate,19,D,23942.0,Mcclain,alabama_sos,ALPERSON-MCCLAIN,AL-1994-senate-19-D-MCCLAIN,0,1
+1994,senate,20,D,22612.0,Escott-Russell,alabama_sos,ALPERSON-ESCOTT-RUSSELL,AL-1994-senate-20-D-ESCOTT-RUSSELL,0,1
+1994,senate,21,D,25548.0,Poole,alabama_sos,ALPERSON-POOLE,AL-1994-senate-21-D-POOLE,0,1
+1994,senate,22,D,20039.0,Lindsey,alabama_sos,ALPERSON-LINDSEY,AL-1994-senate-22-D-LINDSEY,0,1
+1994,senate,22,R,12502.0,Hughes,alabama_sos,ALPERSON-HUGHES,AL-1994-senate-22-R-HUGHES,0,0
+1994,senate,23,D,16678.0,Sanders,alabama_sos,ALPERSON-SANDERS,AL-1994-senate-23-D-SANDERS,0,1
+1994,senate,23,R,2201.0,Curl,alabama_sos,ALPERSON-CURL,AL-1994-senate-23-R-CURL,0,0
+1994,senate,24,D,23933.0,Steele,alabama_sos,ALPERSON-STEELE,AL-1994-senate-24-D-STEELE,0,1
+1994,senate,25,D,29440.0,Anderson,alabama_sos,ALPERSON-ANDERSON,AL-1994-senate-25-D-ANDERSON,0,1
+1994,senate,25,R,4578.0,Dixon,alabama_sos,ALPERSON-DIXON,AL-1994-senate-25-R-DIXON,0,0
+1994,senate,26,D,18025.0,Langford,alabama_sos,ALPERSON-LANGFORD,AL-1994-senate-26-D-LANGFORD,0,1
+1994,senate,27,D,19908.0,Little,alabama_sos,ALPERSON-LITTLE,AL-1994-senate-27-D-LITTLE,0,1
+1994,senate,27,R,10942.0,Ponder,alabama_sos,ALPERSON-PONDER,AL-1994-senate-27-R-PONDER,0,0
+1994,senate,28,D,17991.0,Clay,alabama_sos,ALPERSON-CLAY,AL-1994-senate-28-D-CLAY,0,1
+1994,senate,28,R,5583.0,Settler,alabama_sos,ALPERSON-SETTLER,AL-1994-senate-28-R-SETTLER,0,0
+1994,senate,29,D,18654.0,Bailey,alabama_sos,ALPERSON-BAILEY,AL-1994-senate-29-D-BAILEY,0,1
+1994,senate,30,D,22914.0,Mitchell,alabama_sos,ALPERSON-MITCHELL,AL-1994-senate-30-D-MITCHELL,0,1
+1994,senate,31,D,29700.0,Adams,alabama_sos,ALPERSON-ADAMS,AL-1994-senate-31-D-ADAMS,0,1
+1994,senate,32,D,11453.0,Koontz,alabama_sos,ALPERSON-KOONTZ,AL-1994-senate-32-D-KOONTZ,0,0
+1994,senate,32,R,25770.0,Lipsocomb,alabama_sos,ALPERSON-LIPSOCOMB,AL-1994-senate-32-R-LIPSOCOMB,0,1
+1994,senate,33,D,16356.0,Figures,alabama_sos,ALPERSON-FIGURES,AL-1994-senate-33-D-FIGURES,0,1
+1994,senate,34,D,7326.0,Sullivan,alabama_sos,ALPERSON-SULLIVAN,AL-1994-senate-34-D-SULLIVAN,0,0
+1994,senate,34,R,26449.0,Myers,alabama_sos,ALPERSON-MYERS,AL-1994-senate-34-R-MYERS,0,1
+1994,senate,35,D,14727.0,Windom,alabama_sos,ALPERSON-WINDOM,AL-1994-senate-35-D-WINDOM,0,1
+1994,senate,35,R,10922.0,Hebert,alabama_sos,ALPERSON-HEBERT,AL-1994-senate-35-R-HEBERT,0,0
+1998,house,1,D,7569.0,Starkey,alabama_sos,ALPERSON-STARKEY,AL-1998-house-1-D-STARKEY,0,1
+1998,house,1,R,5011.0,Beer,alabama_sos,ALPERSON-BEER,AL-1998-house-1-R-BEER,0,0
+1998,house,2,D,8178.0,Hamilton,alabama_sos,ALPERSON-HAMILTON,AL-1998-house-2-D-HAMILTON,0,1
+1998,house,2,R,4161.0,Tatum,alabama_sos,ALPERSON-TATUM,AL-1998-house-2-R-TATUM,0,0
+1998,house,3,D,10007.0,Black,alabama_sos,ALPERSON-BLACK,AL-1998-house-3-D-BLACK,0,1
+1998,house,3,R,3867.0,Smallwood,alabama_sos,ALPERSON-SMALLWOOD,AL-1998-house-3-R-SMALLWOOD,0,0
+1998,house,4,D,9580.0,Mancuso,alabama_sos,ALPERSON-MANCUSO,AL-1998-house-4-D-MANCUSO,0,1
+1998,house,4,R,7067.0,Papucci,alabama_sos,ALPERSON-PAPUCCI,AL-1998-house-4-R-PAPUCCI,0,0
+1998,house,5,D,8603.0,Carter,alabama_sos,ALPERSON-CARTER,AL-1998-house-5-D-CARTER,0,1
+1998,house,5,R,5573.0,Andrews,alabama_sos,ALPERSON-ANDREWS,AL-1998-house-5-R-ANDREWS,0,0
+1998,house,6,D,7092.0,Schmitz,alabama_sos,ALPERSON-SCHMITZ,AL-1998-house-6-D-SCHMITZ,0,1
+1998,house,6,R,6919.0,Jorgensen,alabama_sos,ALPERSON-JORGENSEN,AL-1998-house-6-R-JORGENSEN,0,0
+1998,house,8,D,8892.0,Dukes,alabama_sos,ALPERSON-DUKES,AL-1998-house-8-D-DUKES,0,1
+1998,house,8,R,3447.0,Key,alabama_sos,ALPERSON-KEY,AL-1998-house-8-R-KEY,0,0
+1998,house,9,D,7095.0,Grantland,alabama_sos,ALPERSON-GRANTLAND,AL-1998-house-9-D-GRANTLAND,0,1
+1998,house,9,R,6744.0,Ball,alabama_sos,ALPERSON-BALL,AL-1998-house-9-R-BALL,0,0
+1998,house,10,D,5253.0,Smith,alabama_sos,ALPERSON-SMITH,AL-1998-house-10-D-SMITH,0,0
+1998,house,10,R,7763.0,Haney,alabama_sos,ALPERSON-HANEY,AL-1998-house-10-R-HANEY,0,1
+1998,house,11,D,5806.0,White,alabama_sos,ALPERSON-WHITE,AL-1998-house-11-D-WHITE,0,0
+1998,house,11,R,6739.0,Oden,alabama_sos,ALPERSON-ODEN,AL-1998-house-11-R-ODEN,0,1
+1998,house,12,D,8753.0,Morrison,alabama_sos,ALPERSON-MORRISON,AL-1998-house-12-D-MORRISON,0,1
+1998,house,12,R,5069.0,Hastimgs,alabama_sos,ALPERSON-HASTIMGS,AL-1998-house-12-R-HASTIMGS,0,0
+1998,house,13,D,7328.0,Hogan,alabama_sos,ALPERSON-HOGAN,AL-1998-house-13-D-HOGAN,0,1
+1998,house,13,R,5743.0,Branch,alabama_sos,ALPERSON-BRANCH,AL-1998-house-13-R-BRANCH,0,0
+1998,house,14,D,8128.0,Guin,alabama_sos,ALPERSON-GUIN,AL-1998-house-14-D-GUIN,0,1
+1998,house,14,R,5311.0,Wallace,alabama_sos,ALPERSON-WALLACE,AL-1998-house-14-R-WALLACE,0,0
+1998,house,16,D,7292.0,Thigpen,alabama_sos,ALPERSON-THIGPEN,AL-1998-house-16-D-THIGPEN,0,1
+1998,house,16,R,5503.0,Waldon,alabama_sos,ALPERSON-WALDON,AL-1998-house-16-R-WALDON,0,0
+1998,house,17,D,9192.0,Millican,alabama_sos,ALPERSON-MILLICAN,AL-1998-house-17-D-MILLICAN,0,1
+1998,house,17,R,3673.0,Johnson,alabama_sos,ALPERSON-JOHNSON,AL-1998-house-17-R-JOHNSON,0,0
+1998,house,18,D,2075.0,Morrow,alabama_sos,ALPERSON-MORROW,AL-1998-house-18-D-MORROW,0,1
+1998,house,18,R,1515.0,Britnell,alabama_sos,ALPERSON-BRITNELL,AL-1998-house-18-R-BRITNELL,0,0
+1998,house,20,D,5197.0,Wilburn,alabama_sos,ALPERSON-WILBURN,AL-1998-house-20-D-WILBURN,0,0
+1998,house,20,R,10929.0,Sanderford,alabama_sos,ALPERSON-SANDERFORD,AL-1998-house-20-R-SANDERFORD,0,1
+1998,house,21,D,6252.0,Jones,alabama_sos,ALPERSON-JONES,AL-1998-house-21-D-JONES,0,1
+1998,house,21,R,3352.0,Clemons,alabama_sos,ALPERSON-CLEMONS,AL-1998-house-21-R-CLEMONS,0,0
+1998,house,22,D,7715.0,Hall,alabama_sos,ALPERSON-HALL,AL-1998-house-22-D-HALL,0,1
+1998,house,22,R,3352.0,Hollingsworth,alabama_sos,ALPERSON-HOLLINGSWORTH,AL-1998-house-22-R-HOLLINGSWORTH,0,0
+1998,house,23,D,6519.0,Robinson,alabama_sos,ALPERSON-ROBINSON,AL-1998-house-23-D-ROBINSON,0,1
+1998,house,23,R,3117.0,Shelton,alabama_sos,ALPERSON-SHELTON,AL-1998-house-23-R-SHELTON,0,0
+1998,house,24,D,5999.0,Burke,alabama_sos,ALPERSON-BURKE,AL-1998-house-24-D-BURKE,0,0
+1998,house,24,R,6761.0,Greeson,alabama_sos,ALPERSON-GREESON,AL-1998-house-24-R-GREESON,0,1
+1998,house,25,D,8552.0,Hawk,alabama_sos,ALPERSON-HAWK,AL-1998-house-25-D-HAWK,0,1
+1998,house,25,R,4112.0,Finley,alabama_sos,ALPERSON-FINLEY,AL-1998-house-25-R-FINLEY,0,0
+1998,house,26,D,8522.0,McDaniel,alabama_sos,ALPERSON-MCDANIEL,AL-1998-house-26-D-MCDANIEL,0,1
+1998,house,26,R,3337.0,Johnston,alabama_sos,ALPERSON-JOHNSTON,AL-1998-house-26-R-JOHNSTON,0,0
+1998,house,27,D,6706.0,Murphree,alabama_sos,ALPERSON-MURPHREE,AL-1998-house-27-D-MURPHREE,0,0
+1998,house,27,R,6748.0,Thomas,alabama_sos,ALPERSON-THOMAS,AL-1998-house-27-R-THOMAS,0,1
+1998,house,28,D,8449.0,Ford,alabama_sos,ALPERSON-FORD,AL-1998-house-28-D-FORD,0,1
+1998,house,28,R,3423.0,Stephens,alabama_sos,ALPERSON-STEPHENS,AL-1998-house-28-R-STEPHENS,0,0
+1998,house,29,D,6028.0,Page,alabama_sos,ALPERSON-PAGE,AL-1998-house-29-D-PAGE,0,1
+1998,house,29,R,4858.0,Malone,alabama_sos,ALPERSON-MALONE,AL-1998-house-29-R-MALONE,0,0
+1998,house,30,D,5511.0,Galliher,alabama_sos,ALPERSON-GALLIHER,AL-1998-house-30-D-GALLIHER,0,1
+1998,house,30,R,4445.0,Holland,alabama_sos,ALPERSON-HOLLAND,AL-1998-house-30-R-HOLLAND,0,0
+1998,house,31,D,9290.0,Venable,alabama_sos,ALPERSON-VENABLE,AL-1998-house-31-D-VENABLE,0,1
+1998,house,31,R,5283.0,Bowen,alabama_sos,ALPERSON-BOWEN,AL-1998-house-31-R-BOWEN,0,0
+1998,house,32,D,6699.0,Boyd,alabama_sos,ALPERSON-BOYD,AL-1998-house-32-D-BOYD,0,1
+1998,house,32,R,1617.0,Bradford,alabama_sos,ALPERSON-BRADFORD,AL-1998-house-32-R-BRADFORD,0,0
+1998,house,35,D,3193.0,Hurst,alabama_sos,ALPERSON-HURST,AL-1998-house-35-D-HURST,0,0
+1998,house,35,R,5573.0,Sims,alabama_sos,ALPERSON-SIMS,AL-1998-house-35-R-SIMS,0,1
+1998,house,38,D,6774.0,Fuller,alabama_sos,ALPERSON-FULLER,AL-1998-house-38-D-FULLER,0,1
+1998,house,38,R,3756.0,Ingram,alabama_sos,ALPERSON-INGRAM,AL-1998-house-38-R-INGRAM,0,0
+1998,house,42,D,7626.0,Martin,alabama_sos,ALPERSON-MARTIN,AL-1998-house-42-D-MARTIN,0,1
+1998,house,42,R,7036.0,Parnell,alabama_sos,ALPERSON-PARNELL,AL-1998-house-42-R-PARNELL,0,0
+1998,house,49,D,7321.0,Blair,alabama_sos,ALPERSON-BLAIR,AL-1998-house-49-D-BLAIR,0,0
+1998,house,49,R,7473.0,Thomas,alabama_sos,ALPERSON-THOMAS,AL-1998-house-49-R-THOMAS,0,1
+1998,house,51,D,3867.0,Mullins,alabama_sos,ALPERSON-MULLINS,AL-1998-house-51-D-MULLINS,0,0
+1998,house,51,R,9661.0,Humphryes,alabama_sos,ALPERSON-HUMPHRYES,AL-1998-house-51-R-HUMPHRYES,0,1
+1998,house,54,D,7235.0,Perdue,alabama_sos,ALPERSON-PERDUE,AL-1998-house-54-D-PERDUE,0,1
+1998,house,54,R,2252.0,Latimore,alabama_sos,ALPERSON-LATIMORE,AL-1998-house-54-R-LATIMORE,0,0
+1998,house,55,D,8147.0,Major,alabama_sos,ALPERSON-MAJOR,AL-1998-house-55-D-MAJOR,0,1
+1998,house,55,R,1906.0,Morton,alabama_sos,ALPERSON-MORTON,AL-1998-house-55-R-MORTON,0,0
+1998,house,60,D,8726.0,Hilliard,alabama_sos,ALPERSON-HILLIARD,AL-1998-house-60-D-HILLIARD,0,1
+1998,house,60,R,1612.0,Russell,alabama_sos,ALPERSON-RUSSELL,AL-1998-house-60-R-RUSSELL,0,0
+1998,house,62,D,6081.0,Tingle,alabama_sos,ALPERSON-TINGLE,AL-1998-house-62-D-TINGLE,0,0
+1998,house,62,R,8276.0,Allen,alabama_sos,ALPERSON-ALLEN,AL-1998-house-62-R-ALLEN,0,1
+1998,house,63,D,3912.0,Stanley,alabama_sos,ALPERSON-STANLEY,AL-1998-house-63-D-STANLEY,0,0
+1998,house,63,R,8672.0,Parker,alabama_sos,ALPERSON-PARKER,AL-1998-house-63-R-PARKER,0,1
+1998,house,64,D,7423.0,Warren,alabama_sos,ALPERSON-WARREN,AL-1998-house-64-D-WARREN,0,1
+1998,house,64,R,5086.0,Albritton,alabama_sos,ALPERSON-ALBRITTON,AL-1998-house-64-R-ALBRITTON,0,0
+1998,house,65,D,9100.0,Dolbare,alabama_sos,ALPERSON-DOLBARE,AL-1998-house-65-D-DOLBARE,0,1
+1998,house,65,R,4002.0,Overton,alabama_sos,ALPERSON-OVERTON,AL-1998-house-65-R-OVERTON,0,0
+1998,house,66,D,6433.0,White,alabama_sos,ALPERSON-WHITE,AL-1998-house-66-D-WHITE,0,1
+1998,house,66,R,3146.0,Aust,alabama_sos,ALPERSON-AUST,AL-1998-house-66-R-AUST,0,0
+1998,house,67,D,8521.0,Maull,alabama_sos,ALPERSON-MAULL,AL-1998-house-67-D-MAULL,0,1
+1998,house,67,R,3129.0,Dobynes,alabama_sos,ALPERSON-DOBYNES,AL-1998-house-67-R-DOBYNES,0,0
+1998,house,72,D,8973.0,Hayden,alabama_sos,ALPERSON-HAYDEN,AL-1998-house-72-D-HAYDEN,0,1
+1998,house,72,R,4152.0,Sutton,alabama_sos,ALPERSON-SUTTON,AL-1998-house-72-R-SUTTON,0,0
+1998,house,79,D,5971.0,Dempsey,alabama_sos,ALPERSON-DEMPSEY,AL-1998-house-79-D-DEMPSEY,0,0
+1998,house,79,R,8356.0,Hubbard,alabama_sos,ALPERSON-HUBBARD,AL-1998-house-79-R-HUBBARD,0,1
+1998,house,80,D,6462.0,Vance,alabama_sos,ALPERSON-VANCE,AL-1998-house-80-D-VANCE,0,1
+1998,house,80,R,3544.0,Dunn,alabama_sos,ALPERSON-DUNN,AL-1998-house-80-R-DUNN,0,0
+1998,house,81,D,10313.0,Graham,alabama_sos,ALPERSON-GRAHAM,AL-1998-house-81-D-GRAHAM,0,1
+1998,house,81,R,3723.0,Knight,alabama_sos,ALPERSON-KNIGHT,AL-1998-house-81-R-KNIGHT,0,0
+1998,house,84,D,7634.0,Beasley,alabama_sos,ALPERSON-BEASLEY,AL-1998-house-84-D-BEASLEY,0,1
+1998,house,84,R,5519.0,Horne,alabama_sos,ALPERSON-HORNE,AL-1998-house-84-R-HORNE,0,0
+1998,house,86,D,7116.0,Carothers,alabama_sos,ALPERSON-CAROTHERS,AL-1998-house-86-D-CAROTHERS,0,1
+1998,house,86,R,4227.0,Jeffers,alabama_sos,ALPERSON-JEFFERS,AL-1998-house-86-R-JEFFERS,0,0
+1998,house,87,D,5434.0,Mathis,alabama_sos,ALPERSON-MATHIS,AL-1998-house-87-D-MATHIS,0,0
+1998,house,87,R,7910.0,Seibenhener,alabama_sos,ALPERSON-SEIBENHENER,AL-1998-house-87-R-SEIBENHENER,0,1
+1998,house,89,D,8669.0,Boothe,alabama_sos,ALPERSON-BOOTHE,AL-1998-house-89-D-BOOTHE,0,1
+1998,house,89,R,7102.0,Meeks,alabama_sos,ALPERSON-MEEKS,AL-1998-house-89-R-MEEKS,0,0
+1998,house,91,D,6575.0,Spicer,alabama_sos,ALPERSON-SPICER,AL-1998-house-91-D-SPICER,0,1
+1998,house,91,R,6296.0,Moore,alabama_sos,ALPERSON-MOORE,AL-1998-house-91-R-MOORE,0,0
+1998,house,95,D,3692.0,Pfeifer,alabama_sos,ALPERSON-PFEIFER,AL-1998-house-95-D-PFEIFER,0,0
+1998,house,95,R,11126.0,McMillan,alabama_sos,ALPERSON-MCMILLAN,AL-1998-house-95-R-MCMILLAN,0,1
+1998,house,96,D,3635.0,Eason,alabama_sos,ALPERSON-EASON,AL-1998-house-96-D-EASON,0,0
+1998,house,96,R,7050.0,Greene,alabama_sos,ALPERSON-GREENE,AL-1998-house-96-R-GREENE,0,1
+1998,house,102,D,2587.0,Pace,alabama_sos,ALPERSON-PACE,AL-1998-house-102-D-PACE,0,0
+1998,house,102,R,8379.0,Turner,alabama_sos,ALPERSON-TURNER,AL-1998-house-102-R-TURNER,0,1
+1998,house,104,D,4411.0,Rockhold,alabama_sos,ALPERSON-ROCKHOLD,AL-1998-house-104-D-ROCKHOLD,0,0
+1998,house,104,R,7014.0,Dean,alabama_sos,ALPERSON-DEAN,AL-1998-house-104-R-DEAN,0,1
+1998,house,105,D,3915.0,Straub,alabama_sos,ALPERSON-STRAUB,AL-1998-house-105-D-STRAUB,0,0
+1998,house,105,R,5284.0,Crigler,alabama_sos,ALPERSON-CRIGLER,AL-1998-house-105-R-CRIGLER,0,1
+1998,senate,1,D,27746.0,Denton,alabama_sos,ALPERSON-DENTON,AL-1998-senate-1-D-DENTON,0,1
+1998,senate,1,R,11300.0,Hargett,alabama_sos,ALPERSON-HARGETT,AL-1998-senate-1-R-HARGETT,0,0
+1998,senate,2,D,27007.0,Butler,alabama_sos,ALPERSON-BUTLER,AL-1998-senate-2-D-BUTLER,0,1
+1998,senate,2,R,17970.0,McInnish,alabama_sos,ALPERSON-MCINNISH,AL-1998-senate-2-R-MCINNISH,0,0
+1998,senate,3,D,28721.0,Roberts,alabama_sos,ALPERSON-ROBERTS,AL-1998-senate-3-D-ROBERTS,0,1
+1998,senate,3,R,10265.0,Buchanan,alabama_sos,ALPERSON-BUCHANAN,AL-1998-senate-3-R-BUCHANAN,0,0
+1998,senate,4,D,21073.0,Little,alabama_sos,ALPERSON-LITTLE,AL-1998-senate-4-D-LITTLE,0,1
+1998,senate,4,R,17994.0,Hale,alabama_sos,ALPERSON-HALE,AL-1998-senate-4-R-HALE,0,0
+1998,senate,5,D,19072.0,Bishop,alabama_sos,ALPERSON-BISHOP,AL-1998-senate-5-D-BISHOP,0,0
+1998,senate,5,R,23000.0,Lee,alabama_sos,ALPERSON-LEE,AL-1998-senate-5-R-LEE,0,1
+1998,senate,6,D,25336.0,Bedford,alabama_sos,ALPERSON-BEDFORD,AL-1998-senate-6-D-BEDFORD,0,1
+1998,senate,6,R,12367.0,Hardy,alabama_sos,ALPERSON-HARDY,AL-1998-senate-6-R-HARDY,0,0
+1998,senate,7,D,17884.0,Batts,alabama_sos,ALPERSON-BATTS,AL-1998-senate-7-D-BATTS,0,0
+1998,senate,7,R,18419.0,Enfinger,alabama_sos,ALPERSON-ENFINGER,AL-1998-senate-7-R-ENFINGER,0,1
+1998,senate,8,D,20594.0,Barron,alabama_sos,ALPERSON-BARRON,AL-1998-senate-8-D-BARRON,0,1
+1998,senate,8,R,12488.0,Culpepper,alabama_sos,ALPERSON-CULPEPPER,AL-1998-senate-8-R-CULPEPPER,0,0
+1998,senate,9,D,24770.0,Mitchem,alabama_sos,ALPERSON-MITCHEM,AL-1998-senate-9-D-MITCHEM,0,1
+1998,senate,9,R,13441.0,King,alabama_sos,ALPERSON-KING,AL-1998-senate-9-R-KING,0,0
+1998,senate,10,D,22446.0,Means,alabama_sos,ALPERSON-MEANS,AL-1998-senate-10-D-MEANS,0,1
+1998,senate,10,R,14783.0,Smith,alabama_sos,ALPERSON-SMITH,AL-1998-senate-10-R-SMITH,0,0
+1998,senate,11,D,18433.0,Preuitt,alabama_sos,ALPERSON-PREUITT,AL-1998-senate-11-D-PREUITT,0,1
+1998,senate,11,R,16692.0,Hill,alabama_sos,ALPERSON-HILL,AL-1998-senate-11-R-HILL,0,0
+1998,senate,12,D,15497.0,Thomas,alabama_sos,ALPERSON-THOMAS,AL-1998-senate-12-D-THOMAS,0,0
+1998,senate,12,R,16102.0,Marsh,alabama_sos,ALPERSON-MARSH,AL-1998-senate-12-R-MARSH,0,1
+1998,senate,13,D,22513.0,Dial,alabama_sos,ALPERSON-DIAL,AL-1998-senate-13-D-DIAL,0,1
+1998,senate,13,R,10206.0,Branch,alabama_sos,ALPERSON-BRANCH,AL-1998-senate-13-R-BRANCH,0,0
+1998,senate,14,D,11302.0,Robinson,alabama_sos,ALPERSON-ROBINSON,AL-1998-senate-14-D-ROBINSON,0,0
+1998,senate,14,R,33491.0,Armistead,alabama_sos,ALPERSON-ARMISTEAD,AL-1998-senate-14-R-ARMISTEAD,0,1
+1998,senate,16,D,11193.0,Johns,alabama_sos,ALPERSON-JOHNS,AL-1998-senate-16-D-JOHNS,0,0
+1998,senate,16,R,42057.0,Waggoner,alabama_sos,ALPERSON-WAGGONER,AL-1998-senate-16-R-WAGGONER,0,1
+1998,senate,18,D,6210.0,Morrow,alabama_sos,ALPERSON-MORROW,AL-1998-senate-18-D-MORROW,0,1
+1998,senate,18,R,2670.0,Britnell,alabama_sos,ALPERSON-BRITNELL,AL-1998-senate-18-R-BRITNELL,0,0
+1998,senate,20,D,23173.0,Escott,alabama_sos,ALPERSON-ESCOTT,AL-1998-senate-20-D-ESCOTT,0,1
+1998,senate,20,R,5710.0,Bonham,alabama_sos,ALPERSON-BONHAM,AL-1998-senate-20-R-BONHAM,0,0
+1998,senate,21,D,20049.0,Poole,alabama_sos,ALPERSON-POOLE,AL-1998-senate-21-D-POOLE,0,1
+1998,senate,21,R,19991.0,Bentley,alabama_sos,ALPERSON-BENTLEY,AL-1998-senate-21-R-BENTLEY,0,0
+1998,senate,22,D,19750.0,Lindsey,alabama_sos,ALPERSON-LINDSEY,AL-1998-senate-22-D-LINDSEY,0,1
+1998,senate,22,R,15273.0,Joyner,alabama_sos,ALPERSON-JOYNER,AL-1998-senate-22-R-JOYNER,0,0
+1998,senate,24,D,24295.0,Steele,alabama_sos,ALPERSON-STEELE,AL-1998-senate-24-D-STEELE,0,1
+1998,senate,24,R,8396.0,Williams,alabama_sos,ALPERSON-WILLIAMS,AL-1998-senate-24-R-WILLIAMS,0,0
+1998,senate,25,D,12836.0,Chappell,alabama_sos,ALPERSON-CHAPPELL,AL-1998-senate-25-D-CHAPPELL,0,0
+1998,senate,25,R,34341.0,Dixon,alabama_sos,ALPERSON-DIXON,AL-1998-senate-25-R-DIXON,0,1
+1998,senate,26,D,22446.0,Langford,alabama_sos,ALPERSON-LANGFORD,AL-1998-senate-26-D-LANGFORD,0,1
+1998,senate,26,R,5528.0,Sanders,alabama_sos,ALPERSON-SANDERS,AL-1998-senate-26-R-SANDERS,0,0
+1998,senate,27,D,24332.0,Little,alabama_sos,ALPERSON-LITTLE,AL-1998-senate-27-D-LITTLE,0,1
+1998,senate,27,R,13807.0,Teel,alabama_sos,ALPERSON-TEEL,AL-1998-senate-27-R-TEEL,0,0
+1998,senate,29,D,13154.0,Palmer,alabama_sos,ALPERSON-PALMER,AL-1998-senate-29-D-PALMER,0,0
+1998,senate,29,R,20240.0,Smith,alabama_sos,ALPERSON-SMITH,AL-1998-senate-29-R-SMITH,0,1
+1998,senate,30,D,31647.0,Mitchell,alabama_sos,ALPERSON-MITCHELL,AL-1998-senate-30-D-MITCHELL,0,1
+1998,senate,30,R,13985.0,Holland,alabama_sos,ALPERSON-HOLLAND,AL-1998-senate-30-R-HOLLAND,0,0
+1998,senate,31,D,18970.0,Holley,alabama_sos,ALPERSON-HOLLEY,AL-1998-senate-31-D-HOLLEY,0,0
+1998,senate,31,R,19441.0,Adams,alabama_sos,ALPERSON-ADAMS,AL-1998-senate-31-R-ADAMS,0,1
+1998,senate,32,D,13643.0,Jensen,alabama_sos,ALPERSON-JENSEN,AL-1998-senate-32-D-JENSEN,0,0
+1998,senate,32,R,29577.0,Lipscomb,alabama_sos,ALPERSON-LIPSCOMB,AL-1998-senate-32-R-LIPSCOMB,0,1
+1998,senate,35,D,11622.0,Staten,alabama_sos,ALPERSON-STATEN,AL-1998-senate-35-D-STATEN,0,0
+1998,senate,35,R,16359.0,Callahan,alabama_sos,ALPERSON-CALLAHAN,AL-1998-senate-35-R-CALLAHAN,0,1
+2002,house,1,D,8540.0,"Starkey, Nelson",alabama_sos,ALPERSON-STARKEY-NELSON,AL-2002-house-1-D-STARKEY-NELSON,0,1
+2002,house,1,R,4772.0,"McNatt, William Dale",alabama_sos,ALPERSON-MCNATT-WILLIAM-DALE,AL-2002-house-1-R-MCNATT-WILLIAM-DALE,0,0
+2002,house,2,D,5356.0,"Pettus, Mary",alabama_sos,ALPERSON-PETTUS-MARY,AL-2002-house-2-D-PETTUS-MARY,0,0
+2002,house,2,R,5800.0,"Greer, Lynn",alabama_sos,ALPERSON-GREER-LYNN,AL-2002-house-2-R-GREER-LYNN,0,1
+2002,house,3,D,8856.0,"Black, Marcel",alabama_sos,ALPERSON-BLACK-MARCEL,AL-2002-house-3-D-BLACK-MARCEL,0,1
+2002,house,3,R,4299.0,"Barnes, Steven C.",alabama_sos,ALPERSON-BARNES-STEVEN-C,AL-2002-house-3-R-BARNES-STEVEN-C,0,0
+2002,house,4,D,7140.0,"Hansberry, Cathy",alabama_sos,ALPERSON-HANSBERRY-CATHY,AL-2002-house-4-D-HANSBERRY-CATHY,0,0
+2002,house,4,R,7790.0,"Hammon, Micky",alabama_sos,ALPERSON-HAMMON-MICKY,AL-2002-house-4-R-HAMMON-MICKY,0,1
+2002,house,5,D,7556.0,"Carter, Tommy",alabama_sos,ALPERSON-CARTER-TOMMY,AL-2002-house-5-D-CARTER-TOMMY,0,1
+2002,house,5,R,5881.0,"Coffman, Ronnie G.",alabama_sos,ALPERSON-COFFMAN-RONNIE-G,AL-2002-house-5-R-COFFMAN-RONNIE-G,0,0
+2002,house,6,D,6659.0,"Schmitz, Sue",alabama_sos,ALPERSON-SCHMITZ-SUE,AL-2002-house-6-D-SCHMITZ-SUE,0,1
+2002,house,6,R,4883.0,"Fargerson, Shawn",alabama_sos,ALPERSON-FARGERSON-SHAWN,AL-2002-house-6-R-FARGERSON-SHAWN,0,0
+2002,house,7,D,7905.0,"Letson, John (Jody)",alabama_sos,ALPERSON-LETSON-JOHN-JODY,AL-2002-house-7-D-LETSON-JOHN-JODY,0,1
+2002,house,7,R,1933.0,"Riddle, Yolanda (Yoyo)",alabama_sos,ALPERSON-RIDDLE-YOLANDA-YOYO,AL-2002-house-7-R-RIDDLE-YOLANDA-YOYO,0,0
+2002,house,8,D,8386.0,"Dukes, Bill J.",alabama_sos,ALPERSON-DUKES-BILL-J,AL-2002-house-8-D-DUKES-BILL-J,0,1
+2002,house,8,R,2949.0,"New, Clay H.",alabama_sos,ALPERSON-NEW-CLAY-H,AL-2002-house-8-R-NEW-CLAY-H,0,0
+2002,house,9,D,7808.0,"Grantland, Ronald",alabama_sos,ALPERSON-GRANTLAND-RONALD,AL-2002-house-9-D-GRANTLAND-RONALD,0,1
+2002,house,9,R,6047.0,"Coley, Roy",alabama_sos,ALPERSON-COLEY-ROY,AL-2002-house-9-R-COLEY-ROY,0,0
+2002,house,10,D,4198.0,"Smith, Pam",alabama_sos,ALPERSON-SMITH-PAM,AL-2002-house-10-D-SMITH-PAM,0,0
+2002,house,10,R,8344.0,"Ball, Mike",alabama_sos,ALPERSON-BALL-MIKE,AL-2002-house-10-R-BALL-MIKE,0,1
+2002,house,11,D,5797.0,"Maze, Dennis E.",alabama_sos,ALPERSON-MAZE-DENNIS-E,AL-2002-house-11-D-MAZE-DENNIS-E,0,0
+2002,house,11,R,7737.0,"Oden, Jeremy H.",alabama_sos,ALPERSON-ODEN-JEREMY-H,AL-2002-house-11-R-ODEN-JEREMY-H,0,1
+2002,house,12,D,9445.0,"Morrison, Neal",alabama_sos,ALPERSON-MORRISON-NEAL,AL-2002-house-12-D-MORRISON-NEAL,0,1
+2002,house,12,R,5023.0,"BeShears, Mitchell",alabama_sos,ALPERSON-BESHEARS-MITCHELL,AL-2002-house-12-R-BESHEARS-MITCHELL,0,0
+2002,house,13,D,7445.0,"Sherer, Tommy",alabama_sos,ALPERSON-SHERER-TOMMY,AL-2002-house-13-D-SHERER-TOMMY,0,1
+2002,house,13,R,4560.0,"Combs, Tommy",alabama_sos,ALPERSON-COMBS-TOMMY,AL-2002-house-13-R-COMBS-TOMMY,0,0
+2002,house,14,D,7658.0,"Guin, Ken",alabama_sos,ALPERSON-GUIN-KEN,AL-2002-house-14-D-GUIN-KEN,0,1
+2002,house,14,R,4223.0,"Frazier, Ed",alabama_sos,ALPERSON-FRAZIER-ED,AL-2002-house-14-R-FRAZIER-ED,0,0
+2002,house,15,R,12265.0,"Humphyres, Bobby",alabama_sos,ALPERSON-HUMPHYRES-BOBBY,AL-2002-house-15-R-HUMPHYRES-BOBBY,0,1
+2002,house,16,D,8243.0,"Thigpen, Williams E.",alabama_sos,ALPERSON-THIGPEN-WILLIAMS-E,AL-2002-house-16-D-THIGPEN-WILLIAMS-E,0,1
+2002,house,16,R,6693.0,"Acker, Joe D.",alabama_sos,ALPERSON-ACKER-JOE-D,AL-2002-house-16-R-ACKER-JOE-D,0,0
+2002,house,17,D,7283.0,"Millican, Mike",alabama_sos,ALPERSON-MILLICAN-MIKE,AL-2002-house-17-D-MILLICAN-MIKE,0,1
+2002,house,17,R,6884.0,"Westbrooks, Mike",alabama_sos,ALPERSON-WESTBROOKS-MIKE,AL-2002-house-17-R-WESTBROOKS-MIKE,0,0
+2002,house,18,D,9204.0,"Morrow, Johnny Mack",alabama_sos,ALPERSON-MORROW-JOHNNY-MACK,AL-2002-house-18-D-MORROW-JOHNNY-MACK,0,1
+2002,house,19,D,9978.0,"Hall, Laura",alabama_sos,ALPERSON-HALL-LAURA,AL-2002-house-19-D-HALL-LAURA,0,1
+2002,house,20,D,6779.0,"Miller, Jeff",alabama_sos,ALPERSON-MILLER-JEFF,AL-2002-house-20-D-MILLER-JEFF,0,0
+2002,house,20,R,11903.0,"Sanderford, Howard",alabama_sos,ALPERSON-SANDERFORD-HOWARD,AL-2002-house-20-R-SANDERFORD-HOWARD,0,1
+2002,house,21,D,5672.0,"Hinshaw, Randy",alabama_sos,ALPERSON-HINSHAW-RANDY,AL-2002-house-21-D-HINSHAW-RANDY,0,1
+2002,house,21,R,5156.0,"Dugan, Jerry",alabama_sos,ALPERSON-DUGAN-JERRY,AL-2002-house-21-R-DUGAN-JERRY,0,0
+2002,house,22,D,7563.0,"Hall, Albert",alabama_sos,ALPERSON-HALL-ALBERT,AL-2002-house-22-D-HALL-ALBERT,0,1
+2002,house,22,R,4095.0,"Stamm, David L.",alabama_sos,ALPERSON-STAMM-DAVID-L,AL-2002-house-22-R-STAMM-DAVID-L,0,0
+2002,house,23,D,7186.0,"Robinson, John",alabama_sos,ALPERSON-ROBINSON-JOHN,AL-2002-house-23-D-ROBINSON-JOHN,0,1
+2002,house,24,D,4165.0,"Hendrix, J. Luther",alabama_sos,ALPERSON-HENDRIX-J-LUTHER,AL-2002-house-24-D-HENDRIX-J-LUTHER,0,0
+2002,house,24,R,8585.0,"Greeson, Todd",alabama_sos,ALPERSON-GREESON-TODD,AL-2002-house-24-R-GREESON-TODD,0,1
+2002,house,25,D,5148.0,"Miles, Pam",alabama_sos,ALPERSON-MILES-PAM,AL-2002-house-25-D-MILES-PAM,0,0
+2002,house,25,R,8993.0,"Garner, Ray",alabama_sos,ALPERSON-GARNER-RAY,AL-2002-house-25-R-GARNER-RAY,0,1
+2002,house,26,D,1102.0,"McDaniel, Frank",alabama_sos,ALPERSON-MCDANIEL-FRANK,AL-2002-house-26-D-MCDANIEL-FRANK,0,1
+2002,house,26,R,598.0,"Patterson, Jeffrey",alabama_sos,ALPERSON-PATTERSON-JEFFREY,AL-2002-house-26-R-PATTERSON-JEFFREY,0,0
+2002,house,28,D,7925.0,"Ford, Craig",alabama_sos,ALPERSON-FORD-CRAIG,AL-2002-house-28-D-FORD-CRAIG,0,1
+2002,house,28,R,4394.0,"Abel, David C.",alabama_sos,ALPERSON-ABEL-DAVID-C,AL-2002-house-28-R-ABEL-DAVID-C,0,0
+2002,house,29,D,7429.0,"Page, Jack",alabama_sos,ALPERSON-PAGE-JACK,AL-2002-house-29-D-PAGE-JACK,0,1
+2002,house,29,R,3942.0,"Nordgren, Becky",alabama_sos,ALPERSON-NORDGREN-BECKY,AL-2002-house-29-R-NORDGREN-BECKY,0,0
+2002,house,30,R,10202.0,"Galliher, Blaine",alabama_sos,ALPERSON-GALLIHER-BLAINE,AL-2002-house-30-R-GALLIHER-BLAINE,0,1
+2002,house,31,D,8723.0,"Venable, Jack B.",alabama_sos,ALPERSON-VENABLE-JACK-B,AL-2002-house-31-D-VENABLE-JACK-B,0,1
+2002,house,31,R,5659.0,"Shaw, Mickey B.",alabama_sos,ALPERSON-SHAW-MICKEY-B,AL-2002-house-31-R-SHAW-MICKEY-B,0,0
+2002,house,32,D,10862.0,"Boyd, Barbara Bigsby",alabama_sos,ALPERSON-BOYD-BARBARA-BIGSBY,AL-2002-house-32-D-BOYD-BARBARA-BIGSBY,0,1
+2002,house,32,R,4158.0,"Little, Benjamin L.",alabama_sos,ALPERSON-LITTLE-BENJAMIN-L,AL-2002-house-32-R-LITTLE-BENJAMIN-L,0,0
+2002,house,33,D,4539.0,"Curtis, Clara",alabama_sos,ALPERSON-CURTIS-CLARA,AL-2002-house-33-D-CURTIS-CLARA,0,0
+2002,house,33,R,7313.0,"Johnson, Ron",alabama_sos,ALPERSON-JOHNSON-RON,AL-2002-house-33-R-JOHNSON-RON,0,1
+2002,house,34,R,10921.0,"Thomas, Elwyn",alabama_sos,ALPERSON-THOMAS-ELWYN,AL-2002-house-34-R-THOMAS-ELWYN,0,1
+2002,house,35,D,10970.0,"Hurst, Steve",alabama_sos,ALPERSON-HURST-STEVE,AL-2002-house-35-D-HURST-STEVE,0,1
+2002,house,35,R,8290.0,"Sims, Larry P.",alabama_sos,ALPERSON-SIMS-LARRY-P,AL-2002-house-35-R-SIMS-LARRY-P,0,0
+2002,house,36,D,7395.0,"Chandler, Wayne",alabama_sos,ALPERSON-CHANDLER-WAYNE,AL-2002-house-36-D-CHANDLER-WAYNE,0,0
+2002,house,36,R,14626.0,"Wood, Randy",alabama_sos,ALPERSON-WOOD-RANDY,AL-2002-house-36-R-WOOD-RANDY,0,1
+2002,house,37,D,12333.0,"Laird, Richard",alabama_sos,ALPERSON-LAIRD-RICHARD,AL-2002-house-37-D-LAIRD-RICHARD,0,1
+2002,house,37,R,4166.0,"Creed, Wayne J.",alabama_sos,ALPERSON-CREED-WAYNE-J,AL-2002-house-37-R-CREED-WAYNE-J,0,0
+2002,house,38,D,7740.0,"Patterson, Arthur Frank, Jr.",alabama_sos,ALPERSON-PATTERSON-ARTHUR-FRANK-JR,AL-2002-house-38-D-PATTERSON-ARTHUR-FRANK-JR,0,0
+2002,house,38,R,10452.0,"Bridges, DuWayne",alabama_sos,ALPERSON-BRIDGES-DUWAYNE,AL-2002-house-38-R-BRIDGES-DUWAYNE,0,1
+2002,house,39,D,8673.0,"Lindsey, Richard J.",alabama_sos,ALPERSON-LINDSEY-RICHARD-J,AL-2002-house-39-D-LINDSEY-RICHARD-J,0,1
+2002,house,40,D,12514.0,"Fite, Lea",alabama_sos,ALPERSON-FITE-LEA,AL-2002-house-40-D-FITE-LEA,0,1
+2002,house,40,R,10360.0,"Brooks, Pete",alabama_sos,ALPERSON-BROOKS-PETE,AL-2002-house-40-R-BROOKS-PETE,0,0
+2002,house,41,D,2566.0,"McKinzie, Mack",alabama_sos,ALPERSON-MCKINZIE-MACK,AL-2002-house-41-D-MCKINZIE-MACK,0,0
+2002,house,41,R,11782.0,"Hill, Mike",alabama_sos,ALPERSON-HILL-MIKE,AL-2002-house-41-R-HILL-MIKE,0,1
+2002,house,42,D,8663.0,"Martin, James M. ""Jimmy""",alabama_sos,ALPERSON-MARTIN-JAMES-M-JIMMY,AL-2002-house-42-D-MARTIN-JAMES-M-JIMMY,0,1
+2002,house,42,R,6009.0,"Caton, Allen",alabama_sos,ALPERSON-CATON-ALLEN,AL-2002-house-42-R-CATON-ALLEN,0,0
+2002,house,43,R,15079.0,"McClurkin, Mary Sue",alabama_sos,ALPERSON-MCCLURKIN-MARY-SUE,AL-2002-house-43-R-MCCLURKIN-MARY-SUE,0,1
+2002,house,44,R,11569.0,"Payne, Arthur",alabama_sos,ALPERSON-PAYNE-ARTHUR,AL-2002-house-44-R-PAYNE-ARTHUR,0,1
+2002,house,45,R,9109.0,"Morton, Albert",alabama_sos,ALPERSON-MORTON-ALBERT,AL-2002-house-45-R-MORTON-ALBERT,0,1
+2002,house,46,R,14412.0,"Gaines, Mark",alabama_sos,ALPERSON-GAINES-MARK,AL-2002-house-46-R-GAINES-MARK,0,1
+2002,house,47,R,12812.0,"Hawkins, John H.",alabama_sos,ALPERSON-HAWKINS-JOHN-H,AL-2002-house-47-R-HAWKINS-JOHN-H,0,1
+2002,house,48,R,15141.0,"Carns, Jim",alabama_sos,ALPERSON-CARNS-JIM,AL-2002-house-48-R-CARNS-JIM,0,1
+2002,house,49,R,10605.0,"Ward, Cam",alabama_sos,ALPERSON-WARD-CAM,AL-2002-house-49-R-WARD-CAM,0,1
+2002,house,50,D,3345.0,"Quarles, Marilyn",alabama_sos,ALPERSON-QUARLES-MARILYN,AL-2002-house-50-D-QUARLES-MARILYN,0,0
+2002,house,50,R,8995.0,"McClendon, Jim",alabama_sos,ALPERSON-MCCLENDON-JIM,AL-2002-house-50-R-MCCLENDON-JIM,0,1
+2002,house,51,R,12396.0,"Beason, Scott",alabama_sos,ALPERSON-BEASON-SCOTT,AL-2002-house-51-R-BEASON-SCOTT,0,1
+2002,house,52,D,9909.0,"Roger, John W., Jr.",alabama_sos,ALPERSON-ROGER-JOHN-W-JR,AL-2002-house-52-D-ROGER-JOHN-W-JR,0,1
+2002,house,53,D,8916.0,"Newton, Demetrius C.",alabama_sos,ALPERSON-NEWTON-DEMETRIUS-C,AL-2002-house-53-D-NEWTON-DEMETRIUS-C,0,1
+2002,house,54,D,8392.0,"Perdue, George",alabama_sos,ALPERSON-PERDUE-GEORGE,AL-2002-house-54-D-PERDUE-GEORGE,0,1
+2002,house,55,D,9145.0,"Major, Eric",alabama_sos,ALPERSON-MAJOR-ERIC,AL-2002-house-55-D-MAJOR-ERIC,0,1
+2002,house,56,D,10335.0,"Dunn, Pricilla",alabama_sos,ALPERSON-DUNN-PRICILLA,AL-2002-house-56-D-DUNN-PRICILLA,0,1
+2002,house,57,D,11121.0,"Coleman, Merika",alabama_sos,ALPERSON-COLEMAN-MERIKA,AL-2002-house-57-D-COLEMAN-MERIKA,0,1
+2002,house,58,D,9204.0,"Robinson, Oliver",alabama_sos,ALPERSON-ROBINSON-OLIVER,AL-2002-house-58-D-ROBINSON-OLIVER,0,1
+2002,house,59,D,8484.0,"Moore, Mary",alabama_sos,ALPERSON-MOORE-MARY,AL-2002-house-59-D-MOORE-MARY,0,1
+2002,house,59,R,2004.0,"Washington, William",alabama_sos,ALPERSON-WASHINGTON-WILLIAM,AL-2002-house-59-R-WASHINGTON-WILLIAM,0,0
+2002,house,60,D,11190.0,"Coleman, Linda",alabama_sos,ALPERSON-COLEMAN-LINDA,AL-2002-house-60-D-COLEMAN-LINDA,0,1
+2002,house,61,D,9193.0,"Layson, Allen",alabama_sos,ALPERSON-LAYSON-ALLEN,AL-2002-house-61-D-LAYSON-ALLEN,0,1
+2002,house,62,D,5659.0,"Merrill, John H.",alabama_sos,ALPERSON-MERRILL-JOHN-H,AL-2002-house-62-D-MERRILL-JOHN-H,0,0
+2002,house,62,R,6788.0,"Allen, Gerald",alabama_sos,ALPERSON-ALLEN-GERALD,AL-2002-house-62-R-ALLEN-GERALD,0,1
+2002,house,63,D,4909.0,"VanderMeer, Jeanette",alabama_sos,ALPERSON-VANDERMEER-JEANETTE,AL-2002-house-63-D-VANDERMEER-JEANETTE,0,0
+2002,house,63,R,8615.0,"Bentley, Robert",alabama_sos,ALPERSON-BENTLEY-ROBERT,AL-2002-house-63-R-BENTLEY-ROBERT,0,1
+2002,house,64,D,7133.0,"Warren, J.E. ""Jimmy""",alabama_sos,ALPERSON-WARREN-J-E-JIMMY,AL-2002-house-64-D-WARREN-J-E-JIMMY,0,0
+2002,house,64,R,8447.0,"Albritton, Greg",alabama_sos,ALPERSON-ALBRITTON-GREG,AL-2002-house-64-R-ALBRITTON-GREG,0,1
+2002,house,65,D,11615.0,"Dolbare, Jeff",alabama_sos,ALPERSON-DOLBARE-JEFF,AL-2002-house-65-D-DOLBARE-JEFF,0,1
+2002,house,65,R,8166.0,"Williams, Nick",alabama_sos,ALPERSON-WILLIAMS-NICK,AL-2002-house-65-R-WILLIAMS-NICK,0,0
+2002,house,66,D,6165.0,"White, F.P. ""Skippy""",alabama_sos,ALPERSON-WHITE-F-P-SKIPPY,AL-2002-house-66-D-WHITE-F-P-SKIPPY,0,1
+2002,house,67,D,6192.0,"Salaam, Y.",alabama_sos,ALPERSON-SALAAM-Y,AL-2002-house-67-D-SALAAM-Y,0,1
+2002,house,67,R,5349.0,"Story, Mark A.",alabama_sos,ALPERSON-STORY-MARK-A,AL-2002-house-67-R-STORY-MARK-A,0,0
+2002,house,68,D,11500.0,"Jackson, Thomas E.",alabama_sos,ALPERSON-JACKSON-THOMAS-E,AL-2002-house-68-D-JACKSON-THOMAS-E,0,1
+2002,house,69,D,10198.0,"Thomas, James L.",alabama_sos,ALPERSON-THOMAS-JAMES-L,AL-2002-house-69-D-THOMAS-JAMES-L,0,1
+2002,house,70,D,6544.0,"Melton, Bryant",alabama_sos,ALPERSON-MELTON-BRYANT,AL-2002-house-70-D-MELTON-BRYANT,0,1
+2002,house,70,R,1772.0,"Hill, Stephen",alabama_sos,ALPERSON-HILL-STEPHEN,AL-2002-house-70-R-HILL-STEPHEN,0,0
+2002,house,71,D,10876.0,"Black, Lucius",alabama_sos,ALPERSON-BLACK-LUCIUS,AL-2002-house-71-D-BLACK-LUCIUS,0,1
+2002,house,72,D,11306.0,"Singleton, Bobby",alabama_sos,ALPERSON-SINGLETON-BOBBY,AL-2002-house-72-D-SINGLETON-BOBBY,0,1
+2002,house,73,R,9918.0,"Grimes, David",alabama_sos,ALPERSON-GRIMES-DAVID,AL-2002-house-73-R-GRIMES-DAVID,0,1
+2002,house,74,D,3667.0,"Ott, Ruth Mitchell",alabama_sos,ALPERSON-OTT-RUTH-MITCHELL,AL-2002-house-74-D-OTT-RUTH-MITCHELL,0,0
+2002,house,74,R,9712.0,"Love, Jay, Jr.",alabama_sos,ALPERSON-LOVE-JAY-JR,AL-2002-house-74-R-LOVE-JAY-JR,0,1
+2002,house,75,R,11208.0,"Brewbaker, Dick L.",alabama_sos,ALPERSON-BREWBAKER-DICK-L,AL-2002-house-75-R-BREWBAKER-DICK-L,0,1
+2002,house,76,D,7367.0,"McClammy, Thad",alabama_sos,ALPERSON-MCCLAMMY-THAD,AL-2002-house-76-D-MCCLAMMY-THAD,0,1
+2002,house,76,R,3035.0,"Grant, Tanner",alabama_sos,ALPERSON-GRANT-TANNER,AL-2002-house-76-R-GRANT-TANNER,0,0
+2002,house,77,D,7920.0,"Knight, John",alabama_sos,ALPERSON-KNIGHT-JOHN,AL-2002-house-77-D-KNIGHT-JOHN,0,1
+2002,house,78,D,7839.0,"Holmes, Alvin",alabama_sos,ALPERSON-HOLMES-ALVIN,AL-2002-house-78-D-HOLMES-ALVIN,0,1
+2002,house,79,R,10425.0,"Hubbard, Mike",alabama_sos,ALPERSON-HUBBARD-MIKE,AL-2002-house-79-R-HUBBARD-MIKE,0,1
+2002,house,80,D,6018.0,"Vance, Lesley",alabama_sos,ALPERSON-VANCE-LESLEY,AL-2002-house-80-D-VANCE-LESLEY,0,1
+2002,house,81,D,10400.0,"Graham, Betty Carol",alabama_sos,ALPERSON-GRAHAM-BETTY-CAROL,AL-2002-house-81-D-GRAHAM-BETTY-CAROL,0,1
+2002,house,81,R,4458.0,"Patterson, Benjie",alabama_sos,ALPERSON-PATTERSON-BENJIE,AL-2002-house-81-R-PATTERSON-BENJIE,0,0
+2002,house,82,D,9003.0,"Ford, Johnny",alabama_sos,ALPERSON-FORD-JOHNNY,AL-2002-house-82-D-FORD-JOHNNY,0,1
+2002,house,83,D,6106.0,"Bandy, George (Tootie)",alabama_sos,ALPERSON-BANDY-GEORGE-TOOTIE,AL-2002-house-83-D-BANDY-GEORGE-TOOTIE,0,1
+2002,house,84,D,8617.0,"Beasley, Billy",alabama_sos,ALPERSON-BEASLEY-BILLY,AL-2002-house-84-D-BEASLEY-BILLY,0,1
+2002,house,85,D,6718.0,"Baker, Locy ""Sunny""",alabama_sos,ALPERSON-BAKER-LOCY-SUNNY,AL-2002-house-85-D-BAKER-LOCY-SUNNY,0,1
+2002,house,85,R,4350.0,"Smith, Gary L.",alabama_sos,ALPERSON-SMITH-GARY-L,AL-2002-house-85-R-SMITH-GARY-L,0,0
+2002,house,86,D,8482.0,"Carothers, Joe",alabama_sos,ALPERSON-CAROTHERS-JOE,AL-2002-house-86-D-CAROTHERS-JOE,0,1
+2002,house,87,D,3453.0,"Hutto, Mickey A.",alabama_sos,ALPERSON-HUTTO-MICKEY-A,AL-2002-house-87-D-HUTTO-MICKEY-A,0,0
+2002,house,87,R,9083.0,"Beck, Warren Harris",alabama_sos,ALPERSON-BECK-WARREN-HARRIS,AL-2002-house-87-R-BECK-WARREN-HARRIS,0,1
+2002,house,88,R,11681.0,"Gipson, H. Mac",alabama_sos,ALPERSON-GIPSON-H-MAC,AL-2002-house-88-R-GIPSON-H-MAC,0,1
+2002,house,89,D,7708.0,"Boothe, Alan",alabama_sos,ALPERSON-BOOTHE-ALAN,AL-2002-house-89-D-BOOTHE-ALAN,0,1
+2002,house,90,D,9575.0,"Newton, Charles",alabama_sos,ALPERSON-NEWTON-CHARLES,AL-2002-house-90-D-NEWTON-CHARLES,0,1
+2002,house,91,D,7984.0,"Spicer, Terry",alabama_sos,ALPERSON-SPICER-TERRY,AL-2002-house-91-D-SPICER-TERRY,0,1
+2002,house,91,R,4865.0,"Howell, Wes",alabama_sos,ALPERSON-HOWELL-WES,AL-2002-house-91-R-HOWELL-WES,0,0
+2002,house,92,D,8552.0,"Hammett, Seth",alabama_sos,ALPERSON-HAMMETT-SETH,AL-2002-house-92-D-HAMMETT-SETH,0,1
+2002,house,92,R,3599.0,"Broxton, Roger",alabama_sos,ALPERSON-BROXTON-ROGER,AL-2002-house-92-R-BROXTON-ROGER,0,0
+2002,house,93,R,9593.0,"Clouse, Steve",alabama_sos,ALPERSON-CLOUSE-STEVE,AL-2002-house-93-R-CLOUSE-STEVE,0,1
+2002,house,94,R,10967.0,"Faust, Joe, Sr.",alabama_sos,ALPERSON-FAUST-JOE-SR,AL-2002-house-94-R-FAUST-JOE-SR,0,1
+2002,house,95,R,12227.0,"McMillan, Steve",alabama_sos,ALPERSON-MCMILLAN-STEVE,AL-2002-house-95-R-MCMILLAN-STEVE,0,1
+2002,house,96,R,15866.0,"Davis, Randy",alabama_sos,ALPERSON-DAVIS-RANDY,AL-2002-house-96-R-DAVIS-RANDY,0,1
+2002,house,97,D,14576.0,"Kennedy, Yvonne",alabama_sos,ALPERSON-KENNEDY-YVONNE,AL-2002-house-97-D-KENNEDY-YVONNE,0,1
+2002,house,98,D,15558.0,"Clark, Bill",alabama_sos,ALPERSON-CLARK-BILL,AL-2002-house-98-D-CLARK-BILL,0,1
+2002,house,99,D,16956.0,"Buskey, James E.",alabama_sos,ALPERSON-BUSKEY-JAMES-E,AL-2002-house-99-D-BUSKEY-JAMES-E,0,1
+2002,house,100,R,20238.0,"Gaston, Victor",alabama_sos,ALPERSON-GASTON-VICTOR,AL-2002-house-100-R-GASTON-VICTOR,0,1
+2002,house,101,R,18078.0,"Ison, Jamie",alabama_sos,ALPERSON-ISON-JAMIE,AL-2002-house-101-R-ISON-JAMIE,0,1
+2002,house,102,D,4698.0,"Johnson, Gary",alabama_sos,ALPERSON-JOHNSON-GARY,AL-2002-house-102-D-JOHNSON-GARY,0,0
+2002,house,102,R,16424.0,"Turner, J.E.",alabama_sos,ALPERSON-TURNER-J-E,AL-2002-house-102-R-TURNER-J-E,0,1
+2002,house,103,D,12512.0,"Mitchell, Joseph C.",alabama_sos,ALPERSON-MITCHELL-JOSEPH-C,AL-2002-house-103-D-MITCHELL-JOSEPH-C,0,1
+2002,house,104,D,6908.0,"Webster, Daniel J.",alabama_sos,ALPERSON-WEBSTER-DANIEL-J,AL-2002-house-104-D-WEBSTER-DANIEL-J,0,0
+2002,house,104,R,18898.0,"Barton, Jim",alabama_sos,ALPERSON-BARTON-JIM,AL-2002-house-104-R-BARTON-JIM,0,1
+2002,house,105,R,13434.0,"Collier, ""Jack"" Spencer",alabama_sos,ALPERSON-COLLIER-JACK-SPENCER,AL-2002-house-105-R-COLLIER-JACK-SPENCER,0,1
+2002,senate,1,D,25174.0,"Denton, Bobby",alabama_sos,ALPERSON-DENTON-BOBBY,AL-2002-senate-1-D-DENTON-BOBBY,0,1
+2002,senate,1,R,14344.0,"Hanson, Quinton",alabama_sos,ALPERSON-HANSON-QUINTON,AL-2002-senate-1-R-HANSON-QUINTON,0,0
+2002,senate,2,D,23922.0,"Butler, Tom",alabama_sos,ALPERSON-BUTLER-TOM,AL-2002-senate-2-D-BUTLER-TOM,0,1
+2002,senate,2,R,17488.0,"Andrews, Steve",alabama_sos,ALPERSON-ANDREWS-STEVE,AL-2002-senate-2-R-ANDREWS-STEVE,0,0
+2002,senate,3,D,26359.0,"Roberts, Tommy Ed",alabama_sos,ALPERSON-ROBERTS-TOMMY-ED,AL-2002-senate-3-D-ROBERTS-TOMMY-ED,0,1
+2002,senate,3,R,15729.0,"Smith, Terry",alabama_sos,ALPERSON-SMITH-TERRY,AL-2002-senate-3-R-SMITH-TERRY,0,0
+2002,senate,4,D,24439.0,"Little, Zeb",alabama_sos,ALPERSON-LITTLE-ZEB,AL-2002-senate-4-D-LITTLE-ZEB,0,1
+2002,senate,4,R,14279.0,"Hunt, Guy",alabama_sos,ALPERSON-HUNT-GUY,AL-2002-senate-4-R-HUNT-GUY,0,0
+2002,senate,5,D,17133.0,"Dutton, John Randall",alabama_sos,ALPERSON-DUTTON-JOHN-RANDALL,AL-2002-senate-5-D-DUTTON-JOHN-RANDALL,0,0
+2002,senate,5,R,23657.0,"Lee, Curt",alabama_sos,ALPERSON-LEE-CURT,AL-2002-senate-5-R-LEE-CURT,0,1
+2002,senate,6,D,23486.0,"Bedford, Roger",alabama_sos,ALPERSON-BEDFORD-ROGER,AL-2002-senate-6-D-BEDFORD-ROGER,0,1
+2002,senate,6,R,15205.0,"Frazier, Betty",alabama_sos,ALPERSON-FRAZIER-BETTY,AL-2002-senate-6-R-FRAZIER-BETTY,0,0
+2002,senate,7,D,25365.0,"Enfinger, Jeff",alabama_sos,ALPERSON-ENFINGER-JEFF,AL-2002-senate-7-D-ENFINGER-JEFF,0,1
+2002,senate,7,R,12823.0,"Peters, Elbert",alabama_sos,ALPERSON-PETERS-ELBERT,AL-2002-senate-7-R-PETERS-ELBERT,0,0
+2002,senate,8,D,19890.0,"Barron, Lowell",alabama_sos,ALPERSON-BARRON-LOWELL,AL-2002-senate-8-D-BARRON-LOWELL,0,1
+2002,senate,8,R,14222.0,"Hammonds, David",alabama_sos,ALPERSON-HAMMONDS-DAVID,AL-2002-senate-8-R-HAMMONDS-DAVID,0,0
+2002,senate,9,D,8914.0,"Mitchem, Hinton",alabama_sos,ALPERSON-MITCHEM-HINTON,AL-2002-senate-9-D-MITCHEM-HINTON,0,0
+2002,senate,9,R,9438.0,"Edmonds, Doris",alabama_sos,ALPERSON-EDMONDS-DORIS,AL-2002-senate-9-R-EDMONDS-DORIS,0,1
+2002,senate,10,D,24702.0,"Means, Larry",alabama_sos,ALPERSON-MEANS-LARRY,AL-2002-senate-10-D-MEANS-LARRY,0,1
+2002,senate,10,R,11670.0,"Williams, David L.",alabama_sos,ALPERSON-WILLIAMS-DAVID-L,AL-2002-senate-10-R-WILLIAMS-DAVID-L,0,0
+2002,senate,11,D,27018.0,"Preiutt, Jim",alabama_sos,ALPERSON-PREIUTT-JIM,AL-2002-senate-11-D-PREIUTT-JIM,0,1
+2002,senate,11,R,12589.0,"Bradford, Ralph, Sr.",alabama_sos,ALPERSON-BRADFORD-RALPH-SR,AL-2002-senate-11-R-BRADFORD-RALPH-SR,0,0
+2002,senate,12,D,26643.0,"Gray, Preston R., Jr.",alabama_sos,ALPERSON-GRAY-PRESTON-R-JR,AL-2002-senate-12-D-GRAY-PRESTON-R-JR,0,0
+2002,senate,12,R,39091.0,"Marsh, Del",alabama_sos,ALPERSON-MARSH-DEL,AL-2002-senate-12-R-MARSH-DEL,0,1
+2002,senate,13,D,31924.0,"Dial, Gerald",alabama_sos,ALPERSON-DIAL-GERALD,AL-2002-senate-13-D-DIAL-GERALD,0,1
+2002,senate,14,R,33932.0,"Erwin, Henry E. ""Hank"", Jr.",alabama_sos,ALPERSON-ERWIN-HENRY-E-HANK-JR,AL-2002-senate-14-R-ERWIN-HENRY-E-HANK-JR,0,1
+2002,senate,15,D,4673.0,"Turner, John",alabama_sos,ALPERSON-TURNER-JOHN,AL-2002-senate-15-D-TURNER-JOHN,0,0
+2002,senate,15,R,36998.0,"French, Steve",alabama_sos,ALPERSON-FRENCH-STEVE,AL-2002-senate-15-R-FRENCH-STEVE,0,1
+2002,senate,16,R,42312.0,"Waggoner, J.T. ""Jabo""",alabama_sos,ALPERSON-WAGGONER-J-T-JABO,AL-2002-senate-16-R-WAGGONER-J-T-JABO,0,1
+2002,senate,17,D,5685.0,"Moore, Caroline B.",alabama_sos,ALPERSON-MOORE-CAROLINE-B,AL-2002-senate-17-D-MOORE-CAROLINE-B,0,0
+2002,senate,17,R,30478.0,"Biddle, Jack, III",alabama_sos,ALPERSON-BIDDLE-JACK-III,AL-2002-senate-17-R-BIDDLE-JACK-III,0,1
+2002,senate,18,D,28206.0,"Smitherman, Rodger M.",alabama_sos,ALPERSON-SMITHERMAN-RODGER-M,AL-2002-senate-18-D-SMITHERMAN-RODGER-M,0,1
+2002,senate,19,D,28085.0,"McClain, E.B.",alabama_sos,ALPERSON-MCCLAIN-E-B,AL-2002-senate-19-D-MCCLAIN-E-B,0,1
+2002,senate,19,R,8451.0,"Walker, Cliff",alabama_sos,ALPERSON-WALKER-CLIFF,AL-2002-senate-19-R-WALKER-CLIFF,0,0
+2002,senate,20,D,28775.0,"Escott, Sundra",alabama_sos,ALPERSON-ESCOTT-SUNDRA,AL-2002-senate-20-D-ESCOTT-SUNDRA,0,1
+2002,senate,21,D,19911.0,"Poole, Phil",alabama_sos,ALPERSON-POOLE-PHIL,AL-2002-senate-21-D-POOLE-PHIL,0,1
+2002,senate,21,R,13179.0,"Tingle, Jerry",alabama_sos,ALPERSON-TINGLE-JERRY,AL-2002-senate-21-R-TINGLE-JERRY,0,0
+2002,senate,22,D,25498.0,"Lindsey, Pat",alabama_sos,ALPERSON-LINDSEY-PAT,AL-2002-senate-22-D-LINDSEY-PAT,0,1
+2002,senate,22,R,23503.0,"Day, Sheldon A.",alabama_sos,ALPERSON-DAY-SHELDON-A,AL-2002-senate-22-R-DAY-SHELDON-A,0,0
+2002,senate,23,D,30356.0,"Sanders, Hank",alabama_sos,ALPERSON-SANDERS-HANK,AL-2002-senate-23-D-SANDERS-HANK,0,1
+2002,senate,23,R,12644.0,"Motes, Richard",alabama_sos,ALPERSON-MOTES-RICHARD,AL-2002-senate-23-R-MOTES-RICHARD,0,0
+2002,senate,24,D,28942.0,"Steele, Charles, Jr.",alabama_sos,ALPERSON-STEELE-CHARLES-JR,AL-2002-senate-24-D-STEELE-CHARLES-JR,0,1
+2002,senate,25,D,9003.0,"Cox, Hobson",alabama_sos,ALPERSON-COX-HOBSON,AL-2002-senate-25-D-COX-HOBSON,0,0
+2002,senate,25,R,36730.0,"Dixon, Larry",alabama_sos,ALPERSON-DIXON-LARRY,AL-2002-senate-25-R-DIXON-LARRY,0,1
+2002,senate,26,D,23587.0,"Ross, Quinton T.",alabama_sos,ALPERSON-ROSS-QUINTON-T,AL-2002-senate-26-D-ROSS-QUINTON-T,0,1
+2002,senate,26,R,9113.0,"Love, Beverly Ray",alabama_sos,ALPERSON-LOVE-BEVERLY-RAY,AL-2002-senate-26-R-LOVE-BEVERLY-RAY,0,0
+2002,senate,27,D,23153.0,"Little, T.D. (Ted)",alabama_sos,ALPERSON-LITTLE-T-D-TED,AL-2002-senate-27-D-LITTLE-T-D-TED,0,1
+2002,senate,27,R,12943.0,"Ward, Keith J.",alabama_sos,ALPERSON-WARD-KEITH-J,AL-2002-senate-27-R-WARD-KEITH-J,0,0
+2002,senate,28,D,26106.0,"Penn, Myron C.",alabama_sos,ALPERSON-PENN-MYRON-C,AL-2002-senate-28-D-PENN-MYRON-C,0,1
+2002,senate,29,R,28584.0,"Smith, Harri Anne",alabama_sos,ALPERSON-SMITH-HARRI-ANNE,AL-2002-senate-29-R-SMITH-HARRI-ANNE,0,1
+2002,senate,30,D,25930.0,"Mitchell, ""Walking"" Wendell",alabama_sos,ALPERSON-MITCHELL-WALKING-WENDELL,AL-2002-senate-30-D-MITCHELL-WALKING-WENDELL,0,1
+2002,senate,31,D,22517.0,"Holley, Jimmy W.",alabama_sos,ALPERSON-HOLLEY-JIMMY-W,AL-2002-senate-31-D-HOLLEY-JIMMY-W,0,1
+2002,senate,31,R,11935.0,"White, Gregory B.",alabama_sos,ALPERSON-WHITE-GREGORY-B,AL-2002-senate-31-R-WHITE-GREGORY-B,0,0
+2002,senate,32,R,32743.0,"Byrne, Bradley",alabama_sos,ALPERSON-BYRNE-BRADLEY,AL-2002-senate-32-R-BYRNE-BRADLEY,0,1
+2002,senate,33,D,46866.0,"Figures, Vivian Davis",alabama_sos,ALPERSON-FIGURES-VIVIAN-DAVIS,AL-2002-senate-33-D-FIGURES-VIVIAN-DAVIS,0,1
+2002,senate,34,R,57446.0,"Myers, Hap",alabama_sos,ALPERSON-MYERS-HAP,AL-2002-senate-34-R-MYERS-HAP,0,1
+2002,senate,35,D,31652.0,"Tanner, Gary",alabama_sos,ALPERSON-TANNER-GARY,AL-2002-senate-35-D-TANNER-GARY,0,1
+2002,senate,35,R,30468.0,"Callahan, George M.",alabama_sos,ALPERSON-CALLAHAN-GEORGE-M,AL-2002-senate-35-R-CALLAHAN-GEORGE-M,0,0
+2006,house,4,D,3819.0,SUE MITCHELL,alabama_sos,ALPERSON-SUE-MITCHELL,AL-2006-house-4-D-SUE-MITCHELL,0,0
+2006,house,4,R,6276.0,MICKY HAMMON,alabama_sos,ALPERSON-MICKY-HAMMON,AL-2006-house-4-R-MICKY-HAMMON,0,1
+2006,house,6,D,7202.0,SUE SCHMITZ,alabama_sos,ALPERSON-SUE-SCHMITZ,AL-2006-house-6-D-SUE-SCHMITZ,0,1
+2006,house,6,R,3960.0,"JOHN ""TONY"" STILES",alabama_sos,ALPERSON-JOHN-TONY-STILES,AL-2006-house-6-R-JOHN-TONY-STILES,0,0
+2006,house,7,D,8470.0,"JOHN ""JODY"" LETSON",alabama_sos,ALPERSON-JOHN-JODY-LETSON,AL-2006-house-7-D-JOHN-JODY-LETSON,0,1
+2006,house,7,R,3999.0,MICHAEL ROBINSON,alabama_sos,ALPERSON-MICHAEL-ROBINSON,AL-2006-house-7-R-MICHAEL-ROBINSON,0,0
+2006,house,8,D,7833.0,BILL J. DUKES,alabama_sos,ALPERSON-BILL-J-DUKES,AL-2006-house-8-D-BILL-J-DUKES,0,1
+2006,house,9,D,7135.0,RONALD GRANTLAND,alabama_sos,ALPERSON-RONALD-GRANTLAND,AL-2006-house-9-D-RONALD-GRANTLAND,0,1
+2006,house,9,R,5719.0,SCOTT STONE,alabama_sos,ALPERSON-SCOTT-STONE,AL-2006-house-9-R-SCOTT-STONE,0,0
+2006,house,10,R,9041.0,MIKE BALL,alabama_sos,ALPERSON-MIKE-BALL,AL-2006-house-10-R-MIKE-BALL,0,1
+2006,house,11,D,5063.0,JIM BOYD,alabama_sos,ALPERSON-JIM-BOYD,AL-2006-house-11-D-JIM-BOYD,0,0
+2006,house,11,R,5981.0,JEREMY H. ODEN,alabama_sos,ALPERSON-JEREMY-H-ODEN,AL-2006-house-11-R-JEREMY-H-ODEN,0,1
+2006,house,12,D,9097.0,NEAL MORRISON,alabama_sos,ALPERSON-NEAL-MORRISON,AL-2006-house-12-D-NEAL-MORRISON,0,1
+2006,house,12,R,5312.0,RHONDA D. BRUNER,alabama_sos,ALPERSON-RHONDA-D-BRUNER,AL-2006-house-12-R-RHONDA-D-BRUNER,0,0
+2006,house,13,D,7298.0,TOMMY SHERER,alabama_sos,ALPERSON-TOMMY-SHERER,AL-2006-house-13-D-TOMMY-SHERER,0,1
+2006,house,13,R,3202.0,JAMES BROOKS,alabama_sos,ALPERSON-JAMES-BROOKS,AL-2006-house-13-R-JAMES-BROOKS,0,0
+2006,house,14,D,7770.0,KEN GUIN,alabama_sos,ALPERSON-KEN-GUIN,AL-2006-house-14-D-KEN-GUIN,0,1
+2006,house,15,R,10566.0,PAT MOORE,alabama_sos,ALPERSON-PAT-MOORE,AL-2006-house-15-R-PAT-MOORE,0,1
+2006,house,16,D,5976.0,"WILLIAM E. THIGPEN, SR.",alabama_sos,ALPERSON-WILLIAM-E-THIGPEN-SR,AL-2006-house-16-D-WILLIAM-E-THIGPEN-SR,0,1
+2006,house,17,D,8168.0,MIKE MILLICAN,alabama_sos,ALPERSON-MIKE-MILLICAN,AL-2006-house-17-D-MIKE-MILLICAN,0,1
+2006,house,17,R,4582.0,BILLY DIXON,alabama_sos,ALPERSON-BILLY-DIXON,AL-2006-house-17-R-BILLY-DIXON,0,0
+2006,house,19,D,8481.0,LAURA HALL,alabama_sos,ALPERSON-LAURA-HALL,AL-2006-house-19-D-LAURA-HALL,0,1
+2006,house,20,R,13859.0,HOWARD SANDERFORD,alabama_sos,ALPERSON-HOWARD-SANDERFORD,AL-2006-house-20-R-HOWARD-SANDERFORD,0,1
+2006,house,21,D,6063.0,RANDY HINSHAW,alabama_sos,ALPERSON-RANDY-HINSHAW,AL-2006-house-21-D-RANDY-HINSHAW,0,1
+2006,house,21,R,3861.0,AL WIGGINS,alabama_sos,ALPERSON-AL-WIGGINS,AL-2006-house-21-R-AL-WIGGINS,0,0
+2006,house,22,D,8068.0,ALBERT HALL,alabama_sos,ALPERSON-ALBERT-HALL,AL-2006-house-22-D-ALBERT-HALL,0,1
+2006,house,23,D,7569.0,ROBINSON,alabama_sos,ALPERSON-ROBINSON,AL-2006-house-23-D-ROBINSON,0,1
+2006,house,25,R,9983.0,MAC MCCUTCHEON,alabama_sos,ALPERSON-MAC-MCCUTCHEON,AL-2006-house-25-R-MAC-MCCUTCHEON,0,1
+2006,house,26,D,5310.0,FRANK MCDANIEL,alabama_sos,ALPERSON-FRANK-MCDANIEL,AL-2006-house-26-D-FRANK-MCDANIEL,0,1
+2006,house,26,R,3958.0,JEFF STONE,alabama_sos,ALPERSON-JEFF-STONE,AL-2006-house-26-R-JEFF-STONE,0,0
+2006,house,27,D,10360.0,JEFF MCLAUGHLIN,alabama_sos,ALPERSON-JEFF-MCLAUGHLIN,AL-2006-house-27-D-JEFF-MCLAUGHLIN,0,1
+2006,house,28,D,7335.0,CRAIG FORD,alabama_sos,ALPERSON-CRAIG-FORD,AL-2006-house-28-D-CRAIG-FORD,0,1
+2006,house,28,R,3694.0,CHRISTOPHER P. WORD,alabama_sos,ALPERSON-CHRISTOPHER-P-WORD,AL-2006-house-28-R-CHRISTOPHER-P-WORD,0,0
+2006,house,29,D,5271.0,"JOHN G. ""JACK"" PAGE, III",alabama_sos,ALPERSON-JOHN-G-JACK-PAGE-III,AL-2006-house-29-D-JOHN-G-JACK-PAGE-III,0,1
+2006,house,29,R,3554.0,CODY ROBINSON,alabama_sos,ALPERSON-CODY-ROBINSON,AL-2006-house-29-R-CODY-ROBINSON,0,0
+2006,house,30,R,7021.0,BLAINE GALLIHER,alabama_sos,ALPERSON-BLAINE-GALLIHER,AL-2006-house-30-R-BLAINE-GALLIHER,0,1
+2006,house,31,R,13946.0,BARRY MASK,alabama_sos,ALPERSON-BARRY-MASK,AL-2006-house-31-R-BARRY-MASK,0,1
+2006,house,32,D,6103.0,BARBARA BIGSBY BOYD,alabama_sos,ALPERSON-BARBARA-BIGSBY-BOYD,AL-2006-house-32-D-BARBARA-BIGSBY-BOYD,0,1
+2006,house,32,R,2189.0,BEN LITTLE,alabama_sos,ALPERSON-BEN-LITTLE,AL-2006-house-32-R-BEN-LITTLE,0,0
+2006,house,33,D,4404.0,CLARA L. CURTIS,alabama_sos,ALPERSON-CLARA-L-CURTIS,AL-2006-house-33-D-CLARA-L-CURTIS,0,0
+2006,house,33,R,8161.0,RON JOHNSON,alabama_sos,ALPERSON-RON-JOHNSON,AL-2006-house-33-R-RON-JOHNSON,0,1
+2006,house,34,D,372.0,JEREMY P. SHERER,alabama_sos,ALPERSON-JEREMY-P-SHERER,AL-2006-house-34-D-JEREMY-P-SHERER,0,0
+2006,house,34,R,552.0,ELWYN THOMAS,alabama_sos,ALPERSON-ELWYN-THOMAS,AL-2006-house-34-R-ELWYN-THOMAS,0,1
+2006,house,35,D,7572.0,STEVE HURST,alabama_sos,ALPERSON-STEVE-HURST,AL-2006-house-35-D-STEVE-HURST,0,1
+2006,house,35,R,3166.0,LONNIE C. ROBINSON,alabama_sos,ALPERSON-LONNIE-C-ROBINSON,AL-2006-house-35-R-LONNIE-C-ROBINSON,0,0
+2006,house,36,R,6128.0,RANDY WOOD,alabama_sos,ALPERSON-RANDY-WOOD,AL-2006-house-36-R-RANDY-WOOD,0,1
+2006,house,37,D,7752.0,RICHARD LAIRD,alabama_sos,ALPERSON-RICHARD-LAIRD,AL-2006-house-37-D-RICHARD-LAIRD,0,1
+2006,house,37,R,3510.0,PETE WARD,alabama_sos,ALPERSON-PETE-WARD,AL-2006-house-37-R-PETE-WARD,0,0
+2006,house,38,D,1296.0,MARK CARLTON,alabama_sos,ALPERSON-MARK-CARLTON,AL-2006-house-38-D-MARK-CARLTON,0,0
+2006,house,38,R,1793.0,DUWAYNE BRIDGES,alabama_sos,ALPERSON-DUWAYNE-BRIDGES,AL-2006-house-38-R-DUWAYNE-BRIDGES,0,1
+2006,house,39,D,8139.0,RICHARD J. LINDSEY,alabama_sos,ALPERSON-RICHARD-J-LINDSEY,AL-2006-house-39-D-RICHARD-J-LINDSEY,0,1
+2006,house,40,D,5946.0,LEA FITE,alabama_sos,ALPERSON-LEA-FITE,AL-2006-house-40-D-LEA-FITE,0,1
+2006,house,40,R,5553.0,TOM SHELTON,alabama_sos,ALPERSON-TOM-SHELTON,AL-2006-house-40-R-TOM-SHELTON,0,0
+2006,house,41,R,13253.0,MIKE HILL,alabama_sos,ALPERSON-MIKE-HILL,AL-2006-house-41-R-MIKE-HILL,0,1
+2006,house,42,D,7950.0,JAMES M. (JIMMY) MARTIN,alabama_sos,ALPERSON-JAMES-M-JIMMY-MARTIN,AL-2006-house-42-D-JAMES-M-JIMMY-MARTIN,0,1
+2006,house,42,R,5061.0,ALLEN CATON,alabama_sos,ALPERSON-ALLEN-CATON,AL-2006-house-42-R-ALLEN-CATON,0,0
+2006,house,43,R,14036.0,MARY SUE MCCLURKIN,alabama_sos,ALPERSON-MARY-SUE-MCCLURKIN,AL-2006-house-43-R-MARY-SUE-MCCLURKIN,0,1
+2006,house,44,D,4019.0,JONATHAN BARBEE,alabama_sos,ALPERSON-JONATHAN-BARBEE,AL-2006-house-44-D-JONATHAN-BARBEE,0,0
+2006,house,44,R,8435.0,ARTHUR PAYNE,alabama_sos,ALPERSON-ARTHUR-PAYNE,AL-2006-house-44-R-ARTHUR-PAYNE,0,1
+2006,house,45,D,5245.0,PAT SEWELL,alabama_sos,ALPERSON-PAT-SEWELL,AL-2006-house-45-D-PAT-SEWELL,0,0
+2006,house,45,R,5735.0,OWEN DRAKE,alabama_sos,ALPERSON-OWEN-DRAKE,AL-2006-house-45-R-OWEN-DRAKE,0,1
+2006,house,46,R,12987.0,PAUL DEMARCO,alabama_sos,ALPERSON-PAUL-DEMARCO,AL-2006-house-46-R-PAUL-DEMARCO,0,1
+2006,house,47,R,10634.0,JACK WILLIAMS,alabama_sos,ALPERSON-JACK-WILLIAMS,AL-2006-house-47-R-JACK-WILLIAMS,0,1
+2006,house,48,R,13788.0,"J. GREGORY ""GREG"" CANFIELD",alabama_sos,ALPERSON-J-GREGORY-GREG-CANFIELD,AL-2006-house-48-R-J-GREGORY-GREG-CANFIELD,0,1
+2006,house,49,R,6657.0,CAM WARD,alabama_sos,ALPERSON-CAM-WARD,AL-2006-house-49-R-CAM-WARD,0,1
+2006,house,50,R,1401.0,JIM MCCLENDON,alabama_sos,ALPERSON-JIM-MCCLENDON,AL-2006-house-50-R-JIM-MCCLENDON,0,1
+2006,house,51,R,10696.0,ALLEN TREADAWAY,alabama_sos,ALPERSON-ALLEN-TREADAWAY,AL-2006-house-51-R-ALLEN-TREADAWAY,0,1
+2006,house,52,D,7788.0,"JOHN W. ROGERS, JR.",alabama_sos,ALPERSON-JOHN-W-ROGERS-JR,AL-2006-house-52-D-JOHN-W-ROGERS-JR,0,1
+2006,house,53,D,7000.0,DEMETRIUS C. NEWTON,alabama_sos,ALPERSON-DEMETRIUS-C-NEWTON,AL-2006-house-53-D-DEMETRIUS-C-NEWTON,0,1
+2006,house,54,D,6542.0,PATRICIA TODD,alabama_sos,ALPERSON-PATRICIA-TODD,AL-2006-house-54-D-PATRICIA-TODD,0,1
+2006,house,55,D,7063.0,"RODERICK ""ROD"" SCOTT",alabama_sos,ALPERSON-RODERICK-ROD-SCOTT,AL-2006-house-55-D-RODERICK-ROD-SCOTT,0,1
+2006,house,56,D,7861.0,PRISCILLA DUNN,alabama_sos,ALPERSON-PRISCILLA-DUNN,AL-2006-house-56-D-PRISCILLA-DUNN,0,1
+2006,house,57,D,8843.0,MERIKA COLEMAN,alabama_sos,ALPERSON-MERIKA-COLEMAN,AL-2006-house-57-D-MERIKA-COLEMAN,0,1
+2006,house,58,D,7178.0,OLIVER ROBINSON,alabama_sos,ALPERSON-OLIVER-ROBINSON,AL-2006-house-58-D-OLIVER-ROBINSON,0,1
+2006,house,58,R,2156.0,RICHARD RUTLEDGE,alabama_sos,ALPERSON-RICHARD-RUTLEDGE,AL-2006-house-58-R-RICHARD-RUTLEDGE,0,0
+2006,house,59,D,6440.0,MARY MOORE,alabama_sos,ALPERSON-MARY-MOORE,AL-2006-house-59-D-MARY-MOORE,0,1
+2006,house,60,D,8522.0,"EARL F. HILLIARD, JR.",alabama_sos,ALPERSON-EARL-F-HILLIARD-JR,AL-2006-house-60-D-EARL-F-HILLIARD-JR,0,1
+2006,house,61,D,8168.0,ALAN HARPER,alabama_sos,ALPERSON-ALAN-HARPER,AL-2006-house-61-D-ALAN-HARPER,0,1
+2006,house,61,R,3760.0,FRANK CHANDLER,alabama_sos,ALPERSON-FRANK-CHANDLER,AL-2006-house-61-R-FRANK-CHANDLER,0,0
+2006,house,62,D,4645.0,ANN SKELTON,alabama_sos,ALPERSON-ANN-SKELTON,AL-2006-house-62-D-ANN-SKELTON,0,0
+2006,house,62,R,7667.0,GERALD ALLEN,alabama_sos,ALPERSON-GERALD-ALLEN,AL-2006-house-62-R-GERALD-ALLEN,0,1
+2006,house,63,R,9061.0,ROBERT J. BENTLEY,alabama_sos,ALPERSON-ROBERT-J-BENTLEY,AL-2006-house-63-R-ROBERT-J-BENTLEY,0,1
+2006,house,64,D,3615.0,"ELLIOT D. ""DICK"" WEAVER",alabama_sos,ALPERSON-ELLIOT-D-DICK-WEAVER,AL-2006-house-64-D-ELLIOT-D-DICK-WEAVER,0,0
+2006,house,64,R,5441.0,HARRY SHIVER,alabama_sos,ALPERSON-HARRY-SHIVER,AL-2006-house-64-R-HARRY-SHIVER,0,1
+2006,house,65,D,3010.0,GEORGE M. (MARC) KEAHEY,alabama_sos,ALPERSON-GEORGE-M-MARC-KEAHEY,AL-2006-house-65-D-GEORGE-M-MARC-KEAHEY,0,1
+2006,house,65,R,1311.0,NICK WILLIAMS,alabama_sos,ALPERSON-NICK-WILLIAMS,AL-2006-house-65-R-NICK-WILLIAMS,0,0
+2006,house,66,D,826.0,"F. P. ""SKIPPY"" WHITE",alabama_sos,ALPERSON-F-P-SKIPPY-WHITE,AL-2006-house-66-D-F-P-SKIPPY-WHITE,0,0
+2006,house,66,R,1689.0,ALAN BAKER,alabama_sos,ALPERSON-ALAN-BAKER,AL-2006-house-66-R-ALAN-BAKER,0,1
+2006,house,67,D,7933.0,YUSUF SALAAM,alabama_sos,ALPERSON-YUSUF-SALAAM,AL-2006-house-67-D-YUSUF-SALAAM,0,1
+2006,house,68,D,7687.0,THOMAS E. JACKSON,alabama_sos,ALPERSON-THOMAS-E-JACKSON,AL-2006-house-68-D-THOMAS-E-JACKSON,0,1
+2006,house,69,D,6235.0,JAMES LOUIS THOMAS,alabama_sos,ALPERSON-JAMES-LOUIS-THOMAS,AL-2006-house-69-D-JAMES-LOUIS-THOMAS,0,1
+2006,house,70,D,6619.0,CHRISTOPHER JOHN ENGLAND,alabama_sos,ALPERSON-CHRISTOPHER-JOHN-ENGLAND,AL-2006-house-70-D-CHRISTOPHER-JOHN-ENGLAND,0,1
+2006,house,71,D,12059.0,ARTIS (A.J.) McCAMPBELL,alabama_sos,ALPERSON-ARTIS-A-J-MCCAMPBELL,AL-2006-house-71-D-ARTIS-A-J-MCCAMPBELL,0,1
+2006,house,72,D,6143.0,RALPH A. HOWARD,alabama_sos,ALPERSON-RALPH-A-HOWARD,AL-2006-house-72-D-RALPH-A-HOWARD,0,1
+2006,house,73,D,4926.0,LARRY A. GREWELLE,alabama_sos,ALPERSON-LARRY-A-GREWELLE,AL-2006-house-73-D-LARRY-A-GREWELLE,0,0
+2006,house,73,R,8096.0,DAVID GRIMES,alabama_sos,ALPERSON-DAVID-GRIMES,AL-2006-house-73-R-DAVID-GRIMES,0,1
+2006,house,74,R,8953.0,JAY LOVE,alabama_sos,ALPERSON-JAY-LOVE,AL-2006-house-74-R-JAY-LOVE,0,1
+2006,house,75,R,11726.0,GREG WREN,alabama_sos,ALPERSON-GREG-WREN,AL-2006-house-75-R-GREG-WREN,0,1
+2006,house,76,D,8226.0,THAD McCLAMMY,alabama_sos,ALPERSON-THAD-MCCLAMMY,AL-2006-house-76-D-THAD-MCCLAMMY,0,1
+2006,house,77,D,6821.0,JOHN KNIGHT,alabama_sos,ALPERSON-JOHN-KNIGHT,AL-2006-house-77-D-JOHN-KNIGHT,0,1
+2006,house,78,D,6508.0,ALVIN HOLMES,alabama_sos,ALPERSON-ALVIN-HOLMES,AL-2006-house-78-D-ALVIN-HOLMES,0,1
+2006,house,79,D,5207.0,CAROLYN ELLIS,alabama_sos,ALPERSON-CAROLYN-ELLIS,AL-2006-house-79-D-CAROLYN-ELLIS,0,0
+2006,house,79,R,7082.0,MIKE HUBBARD,alabama_sos,ALPERSON-MIKE-HUBBARD,AL-2006-house-79-R-MIKE-HUBBARD,0,1
+2006,house,80,D,1436.0,LESLEY VANCE,alabama_sos,ALPERSON-LESLEY-VANCE,AL-2006-house-80-D-LESLEY-VANCE,0,1
+2006,house,80,R,1398.0,CINDY DUNN IRVIN,alabama_sos,ALPERSON-CINDY-DUNN-IRVIN,AL-2006-house-80-R-CINDY-DUNN-IRVIN,0,0
+2006,house,81,D,9802.0,BETTY CAROL GRAHAM,alabama_sos,ALPERSON-BETTY-CAROL-GRAHAM,AL-2006-house-81-D-BETTY-CAROL-GRAHAM,0,1
+2006,house,82,D,8202.0,PEBBLIN W. WARREN,alabama_sos,ALPERSON-PEBBLIN-W-WARREN,AL-2006-house-82-D-PEBBLIN-W-WARREN,0,1
+2006,house,83,D,3146.0,"GEORGE ""TOOTIE"" BANDY",alabama_sos,ALPERSON-GEORGE-TOOTIE-BANDY,AL-2006-house-83-D-GEORGE-TOOTIE-BANDY,0,1
+2006,house,84,D,1703.0,"WILLIAM M. ""Billy"" BEASLEY",alabama_sos,ALPERSON-WILLIAM-M-BILLY-BEASLEY,AL-2006-house-84-D-WILLIAM-M-BILLY-BEASLEY,0,1
+2006,house,85,D,2644.0,BAKER,alabama_sos,ALPERSON-BAKER,AL-2006-house-85-D-BAKER,0,0
+2006,house,85,R,3058.0,RALEY,alabama_sos,ALPERSON-RALEY,AL-2006-house-85-R-RALEY,0,1
+2006,house,87,R,5763.0,WARREN HARRIS BECK,alabama_sos,ALPERSON-WARREN-HARRIS-BECK,AL-2006-house-87-R-WARREN-HARRIS-BECK,0,1
+2006,house,88,D,3342.0,"M. BENJAMIN ABERNATHY, I",alabama_sos,ALPERSON-M-BENJAMIN-ABERNATHY-I,AL-2006-house-88-D-M-BENJAMIN-ABERNATHY-I,0,0
+2006,house,88,R,10542.0,H. MAC GIPSON,alabama_sos,ALPERSON-H-MAC-GIPSON,AL-2006-house-88-R-H-MAC-GIPSON,0,1
+2006,house,89,D,7660.0,ALAN C. BOOTHE,alabama_sos,ALPERSON-ALAN-C-BOOTHE,AL-2006-house-89-D-ALAN-C-BOOTHE,0,1
+2006,house,90,D,6538.0,CHARLES NEWTON,alabama_sos,ALPERSON-CHARLES-NEWTON,AL-2006-house-90-D-CHARLES-NEWTON,0,1
+2006,house,91,D,6787.0,TERRY SPICER,alabama_sos,ALPERSON-TERRY-SPICER,AL-2006-house-91-D-TERRY-SPICER,0,1
+2006,house,91,R,6409.0,RICKY E. SNELLGROVE,alabama_sos,ALPERSON-RICKY-E-SNELLGROVE,AL-2006-house-91-R-RICKY-E-SNELLGROVE,0,0
+2006,house,92,D,8703.0,SETH HAMMETT,alabama_sos,ALPERSON-SETH-HAMMETT,AL-2006-house-92-D-SETH-HAMMETT,0,1
+2006,house,92,R,2586.0,WILLIAM E. BLOCKER,alabama_sos,ALPERSON-WILLIAM-E-BLOCKER,AL-2006-house-92-R-WILLIAM-E-BLOCKER,0,0
+2006,house,93,D,3192.0,JOHN WILLIAMS,alabama_sos,ALPERSON-JOHN-WILLIAMS,AL-2006-house-93-D-JOHN-WILLIAMS,0,0
+2006,house,93,R,6995.0,STEVE CLOUSE,alabama_sos,ALPERSON-STEVE-CLOUSE,AL-2006-house-93-R-STEVE-CLOUSE,0,1
+2006,house,94,D,3426.0,GENE PONDER,alabama_sos,ALPERSON-GENE-PONDER,AL-2006-house-94-D-GENE-PONDER,0,0
+2006,house,94,R,11344.0,JOE FAUST,alabama_sos,ALPERSON-JOE-FAUST,AL-2006-house-94-R-JOE-FAUST,0,1
+2006,house,95,D,3863.0,FRANK CAMP,alabama_sos,ALPERSON-FRANK-CAMP,AL-2006-house-95-D-FRANK-CAMP,0,0
+2006,house,95,R,11256.0,STEVE MCMILLAN,alabama_sos,ALPERSON-STEVE-MCMILLAN,AL-2006-house-95-R-STEVE-MCMILLAN,0,1
+2006,house,96,R,10451.0,RANDY DAVIS,alabama_sos,ALPERSON-RANDY-DAVIS,AL-2006-house-96-R-RANDY-DAVIS,0,1
+2006,house,97,D,5924.0,YVONNE KENNEDY,alabama_sos,ALPERSON-YVONNE-KENNEDY,AL-2006-house-97-D-YVONNE-KENNEDY,0,1
+2006,house,98,D,6257.0,JAMES O. GORDON,alabama_sos,ALPERSON-JAMES-O-GORDON,AL-2006-house-98-D-JAMES-O-GORDON,0,1
+2006,house,99,D,7806.0,JAMES E. BUSKEY,alabama_sos,ALPERSON-JAMES-E-BUSKEY,AL-2006-house-99-D-JAMES-E-BUSKEY,0,1
+2006,house,100,R,9338.0,VICTOR GASTON,alabama_sos,ALPERSON-VICTOR-GASTON,AL-2006-house-100-R-VICTOR-GASTON,0,1
+2006,house,101,D,2843.0,AMY BECKERLE SMITH,alabama_sos,ALPERSON-AMY-BECKERLE-SMITH,AL-2006-house-101-D-AMY-BECKERLE-SMITH,0,0
+2006,house,101,R,7477.0,JAMIE ISON,alabama_sos,ALPERSON-JAMIE-ISON,AL-2006-house-101-R-JAMIE-ISON,0,1
+2006,house,102,D,2312.0,GARY JOHNSON,alabama_sos,ALPERSON-GARY-JOHNSON,AL-2006-house-102-D-GARY-JOHNSON,0,0
+2006,house,102,R,7043.0,CHAD FINCHER,alabama_sos,ALPERSON-CHAD-FINCHER,AL-2006-house-102-R-CHAD-FINCHER,0,1
+2006,house,103,D,5818.0,JOSEPH C. MITCHELL,alabama_sos,ALPERSON-JOSEPH-C-MITCHELL,AL-2006-house-103-D-JOSEPH-C-MITCHELL,0,1
+2006,house,104,R,9214.0,JIM BARTON,alabama_sos,ALPERSON-JIM-BARTON,AL-2006-house-104-R-JIM-BARTON,0,1
+2006,house,105,R,6610.0,SPENCER COLLIER,alabama_sos,ALPERSON-SPENCER-COLLIER,AL-2006-house-105-R-SPENCER-COLLIER,0,1
+2006,senate,2,D,13231.0,TOM BUTLER,alabama_sos,ALPERSON-TOM-BUTLER,AL-2006-senate-2-D-TOM-BUTLER,0,1
+2006,senate,2,R,9381.0,JIM BURDEN,alabama_sos,ALPERSON-JIM-BURDEN,AL-2006-senate-2-R-JIM-BURDEN,0,0
+2006,senate,3,D,14522.0,BOBBY DAY,alabama_sos,ALPERSON-BOBBY-DAY,AL-2006-senate-3-D-BOBBY-DAY,0,0
+2006,senate,3,R,24274.0,ARTHUR ORR,alabama_sos,ALPERSON-ARTHUR-ORR,AL-2006-senate-3-R-ARTHUR-ORR,0,1
+2006,senate,4,D,23389.0,ZEB LITTLE,alabama_sos,ALPERSON-ZEB-LITTLE,AL-2006-senate-4-D-ZEB-LITTLE,0,1
+2006,senate,4,R,15648.0,HAROLD SACHS,alabama_sos,ALPERSON-HAROLD-SACHS,AL-2006-senate-4-R-HAROLD-SACHS,0,0
+2006,senate,5,D,16088.0,LARRY B. CAGLE,alabama_sos,ALPERSON-LARRY-B-CAGLE,AL-2006-senate-5-D-LARRY-B-CAGLE,0,0
+2006,senate,5,R,20322.0,CHARLES BISHOP,alabama_sos,ALPERSON-CHARLES-BISHOP,AL-2006-senate-5-R-CHARLES-BISHOP,0,1
+2006,senate,6,D,12903.0,"ROGER BEDFORD, JR.",alabama_sos,ALPERSON-ROGER-BEDFORD-JR,AL-2006-senate-6-D-ROGER-BEDFORD-JR,0,1
+2006,senate,7,D,23582.0,PARKER GRIFFITH,alabama_sos,ALPERSON-PARKER-GRIFFITH,AL-2006-senate-7-D-PARKER-GRIFFITH,0,1
+2006,senate,7,R,12414.0,CHERYL BASWELL-GUTHRIE,alabama_sos,ALPERSON-CHERYL-BASWELL-GUTHRIE,AL-2006-senate-7-R-CHERYL-BASWELL-GUTHRIE,0,0
+2006,senate,8,D,9882.0,LOWELL R. BARRON,alabama_sos,ALPERSON-LOWELL-R-BARRON,AL-2006-senate-8-D-LOWELL-R-BARRON,0,1
+2006,senate,8,R,6678.0,DON STOUT,alabama_sos,ALPERSON-DON-STOUT,AL-2006-senate-8-R-DON-STOUT,0,0
+2006,senate,9,D,20001.0,HINTON HITCHEM,alabama_sos,ALPERSON-HINTON-HITCHEM,AL-2006-senate-9-D-HINTON-HITCHEM,0,1
+2006,senate,9,R,17375.0,BILL INGRAM,alabama_sos,ALPERSON-BILL-INGRAM,AL-2006-senate-9-R-BILL-INGRAM,0,0
+2006,senate,10,D,26449.0,LARRY MEANS,alabama_sos,ALPERSON-LARRY-MEANS,AL-2006-senate-10-D-LARRY-MEANS,0,1
+2006,senate,11,D,25766.0,JIM PREUITT,alabama_sos,ALPERSON-JIM-PREUITT,AL-2006-senate-11-D-JIM-PREUITT,0,1
+2006,senate,11,R,13557.0,JIM HETHCOX,alabama_sos,ALPERSON-JIM-HETHCOX,AL-2006-senate-11-R-JIM-HETHCOX,0,0
+2006,senate,12,R,18687.0,DEL MARSH,alabama_sos,ALPERSON-DEL-MARSH,AL-2006-senate-12-R-DEL-MARSH,0,1
+2006,senate,13,D,11289.0,KIM S. BENEFIELD,alabama_sos,ALPERSON-KIM-S-BENEFIELD,AL-2006-senate-13-D-KIM-S-BENEFIELD,0,1
+2006,senate,13,R,11236.0,JIM C. INGRAM,alabama_sos,ALPERSON-JIM-C-INGRAM,AL-2006-senate-13-R-JIM-C-INGRAM,0,0
+2006,senate,14,R,28076.0,HANK ERWIN,alabama_sos,ALPERSON-HANK-ERWIN,AL-2006-senate-14-R-HANK-ERWIN,0,1
+2006,senate,15,R,35972.0,STEVE FRENCH,alabama_sos,ALPERSON-STEVE-FRENCH,AL-2006-senate-15-R-STEVE-FRENCH,0,1
+2006,senate,16,D,9786.0,RUSS PARKER,alabama_sos,ALPERSON-RUSS-PARKER,AL-2006-senate-16-D-RUSS-PARKER,0,0
+2006,senate,16,R,34195.0,"J. T. ""JABO"" WAGGONER",alabama_sos,ALPERSON-J-T-JABO-WAGGONER,AL-2006-senate-16-R-J-T-JABO-WAGGONER,0,1
+2006,senate,17,R,14525.0,SCOTT BEASON,alabama_sos,ALPERSON-SCOTT-BEASON,AL-2006-senate-17-R-SCOTT-BEASON,0,1
+2006,senate,18,D,21212.0,RODGER M. SMITHERMAN,alabama_sos,ALPERSON-RODGER-M-SMITHERMAN,AL-2006-senate-18-D-RODGER-M-SMITHERMAN,0,1
+2006,senate,18,R,5063.0,STANLEY NANCE,alabama_sos,ALPERSON-STANLEY-NANCE,AL-2006-senate-18-R-STANLEY-NANCE,0,0
+2006,senate,19,D,23600.0,E.B. MCCLAIN,alabama_sos,ALPERSON-E-B-MCCLAIN,AL-2006-senate-19-D-E-B-MCCLAIN,0,1
+2006,senate,20,D,21661.0,LINDA COLEMAN,alabama_sos,ALPERSON-LINDA-COLEMAN,AL-2006-senate-20-D-LINDA-COLEMAN,0,1
+2006,senate,20,R,5535.0,MEL GLENN,alabama_sos,ALPERSON-MEL-GLENN,AL-2006-senate-20-R-MEL-GLENN,0,0
+2006,senate,21,D,22017.0,PHIL POOLE,alabama_sos,ALPERSON-PHIL-POOLE,AL-2006-senate-21-D-PHIL-POOLE,0,1
+2006,senate,21,R,9695.0,"JOE NATHAN SAXTON, SR.",alabama_sos,ALPERSON-JOE-NATHAN-SAXTON-SR,AL-2006-senate-21-R-JOE-NATHAN-SAXTON-SR,0,0
+2006,senate,22,D,9258.0,PAT LINDSEY,alabama_sos,ALPERSON-PAT-LINDSEY,AL-2006-senate-22-D-PAT-LINDSEY,0,0
+2006,senate,22,R,9309.0,JOHN MCMILLAN,alabama_sos,ALPERSON-JOHN-MCMILLAN,AL-2006-senate-22-R-JOHN-MCMILLAN,0,1
+2006,senate,23,D,20493.0,HANK SANDERS,alabama_sos,ALPERSON-HANK-SANDERS,AL-2006-senate-23-D-HANK-SANDERS,0,1
+2006,senate,23,R,11734.0,BOB DUKE,alabama_sos,ALPERSON-BOB-DUKE,AL-2006-senate-23-R-BOB-DUKE,0,0
+2006,senate,24,D,22902.0,BOBBY D. SINGLETON,alabama_sos,ALPERSON-BOBBY-D-SINGLETON,AL-2006-senate-24-D-BOBBY-D-SINGLETON,0,1
+2006,senate,25,D,11469.0,MIKE CHAPPELL,alabama_sos,ALPERSON-MIKE-CHAPPELL,AL-2006-senate-25-D-MIKE-CHAPPELL,0,0
+2006,senate,25,R,33197.0,LARRY DIXON,alabama_sos,ALPERSON-LARRY-DIXON,AL-2006-senate-25-R-LARRY-DIXON,0,1
+2006,senate,26,D,23652.0,"QUINTON T. ROSS, JR.",alabama_sos,ALPERSON-QUINTON-T-ROSS-JR,AL-2006-senate-26-D-QUINTON-T-ROSS-JR,0,1
+2006,senate,27,D,16012.0,T. D. (TED) LITTLE,alabama_sos,ALPERSON-T-D-TED-LITTLE,AL-2006-senate-27-D-T-D-TED-LITTLE,0,1
+2006,senate,27,R,10520.0,PEGGY MARTIN,alabama_sos,ALPERSON-PEGGY-MARTIN,AL-2006-senate-27-R-PEGGY-MARTIN,0,0
+2006,senate,28,D,15938.0,MYRON C. PENN,alabama_sos,ALPERSON-MYRON-C-PENN,AL-2006-senate-28-D-MYRON-C-PENN,0,1
+2006,senate,29,D,3624.0,RONNIE HELMS,alabama_sos,ALPERSON-RONNIE-HELMS,AL-2006-senate-29-D-RONNIE-HELMS,0,0
+2006,senate,29,R,9436.0,HARRI ANNE SMITH,alabama_sos,ALPERSON-HARRI-ANNE-SMITH,AL-2006-senate-29-R-HARRI-ANNE-SMITH,0,1
+2006,senate,30,D,18907.0,"""WALKING"" WENDELL MITCHELL",alabama_sos,ALPERSON-WALKING-WENDELL-MITCHELL,AL-2006-senate-30-D-WALKING-WENDELL-MITCHELL,0,1
+2006,senate,30,R,12352.0,JOAN REYNOLDS,alabama_sos,ALPERSON-JOAN-REYNOLDS,AL-2006-senate-30-R-JOAN-REYNOLDS,0,0
+2006,senate,31,D,16900.0,JIMMY W. HOLLEY,alabama_sos,ALPERSON-JIMMY-W-HOLLEY,AL-2006-senate-31-D-JIMMY-W-HOLLEY,0,1
+2006,senate,31,R,13685.0,DWIGHT ADAMS,alabama_sos,ALPERSON-DWIGHT-ADAMS,AL-2006-senate-31-R-DWIGHT-ADAMS,0,0
+2006,senate,32,R,32670.0,BRADLEY BYRNE,alabama_sos,ALPERSON-BRADLEY-BYRNE,AL-2006-senate-32-R-BRADLEY-BYRNE,0,1
+2006,senate,33,D,19029.0,VIVIAN DAVIS FIGURES,alabama_sos,ALPERSON-VIVIAN-DAVIS-FIGURES,AL-2006-senate-33-D-VIVIAN-DAVIS-FIGURES,0,1
+2006,senate,33,R,7594.0,JEFFERY JONES,alabama_sos,ALPERSON-JEFFERY-JONES,AL-2006-senate-33-R-JEFFERY-JONES,0,0
+2006,senate,34,R,27080.0,RUSTY GLOVER,alabama_sos,ALPERSON-RUSTY-GLOVER,AL-2006-senate-34-R-RUSTY-GLOVER,0,1
+2006,senate,35,D,13434.0,GARY TANNER,alabama_sos,ALPERSON-GARY-TANNER,AL-2006-senate-35-D-GARY-TANNER,0,0
+2006,senate,35,R,13945.0,BEN BROOKS,alabama_sos,ALPERSON-BEN-BROOKS,AL-2006-senate-35-R-BEN-BROOKS,0,1
+2010,house,1,D,7083.0,GREG BURDINE,alabama_sos,ALPERSON-GREG-BURDINE,AL-2010-house-1-D-GREG-BURDINE,0,1
+2010,house,1,R,6877.0,QUINTON HANSON,alabama_sos,ALPERSON-QUINTON-HANSON,AL-2010-house-1-R-QUINTON-HANSON,0,0
+2010,house,2,D,6284.0,MIKE CURTIS,alabama_sos,ALPERSON-MIKE-CURTIS,AL-2010-house-2-D-MIKE-CURTIS,1,0
+2010,house,2,R,7599.0,LYNN GREER,alabama_sos,ALPERSON-LYNN-GREER,AL-2010-house-2-R-LYNN-GREER,0,1
+2010,house,3,D,9076.0,MARCEL BLACK,alabama_sos,ALPERSON-MARCEL-BLACK,AL-2010-house-3-D-MARCEL-BLACK,1,1
+2010,house,4,D,5244.0,VAUGHN GOODWIN,alabama_sos,ALPERSON-VAUGHN-GOODWIN,AL-2010-house-4-D-VAUGHN-GOODWIN,0,0
+2010,house,4,R,12153.0,MICKY HAMMON,alabama_sos,ALPERSON-MICKY-HAMMON,AL-2010-house-4-R-MICKY-HAMMON,1,1
+2010,house,5,D,5402.0,HENRY A. WHITE,alabama_sos,ALPERSON-HENRY-A-WHITE,AL-2010-house-5-D-HENRY-A-WHITE,1,0
+2010,house,5,R,8807.0,DAN WILLIAMS,alabama_sos,ALPERSON-DAN-WILLIAMS,AL-2010-house-5-R-DAN-WILLIAMS,0,1
+2010,house,6,R,9880.0,PHIL WILLIAMS,alabama_sos,ALPERSON-PHIL-WILLIAMS,AL-2010-house-6-R-PHIL-WILLIAMS,0,1
+2010,house,7,D,6911.0,JOHN 'Jody' LETSON,alabama_sos,ALPERSON-JOHN-JODY-LETSON,AL-2010-house-7-D-JOHN-JODY-LETSON,1,0
+2010,house,7,R,7096.0,KEN JOHNSON,alabama_sos,ALPERSON-KEN-JOHNSON,AL-2010-house-7-R-KEN-JOHNSON,0,1
+2010,house,8,D,5147.0,DRAMA BRELAND,alabama_sos,ALPERSON-DRAMA-BRELAND,AL-2010-house-8-D-DRAMA-BRELAND,0,0
+2010,house,8,R,6574.0,TERRI COLLINS,alabama_sos,ALPERSON-TERRI-COLLINS,AL-2010-house-8-R-TERRI-COLLINS,0,1
+2010,house,9,D,4294.0,KATHY WHITE GOODWIN,alabama_sos,ALPERSON-KATHY-WHITE-GOODWIN,AL-2010-house-9-D-KATHY-WHITE-GOODWIN,0,0
+2010,house,9,R,11405.0,ED HENRY,alabama_sos,ALPERSON-ED-HENRY,AL-2010-house-9-R-ED-HENRY,0,1
+2010,house,10,R,11950.0,MIKE BALL,alabama_sos,ALPERSON-MIKE-BALL,AL-2010-house-10-R-MIKE-BALL,1,1
+2010,house,11,R,12977.0,JEREMY H. ODEN,alabama_sos,ALPERSON-JEREMY-H-ODEN,AL-2010-house-11-R-JEREMY-H-ODEN,1,1
+2010,house,12,D,7667.0,"JAMES C. FIELDS, JR.",alabama_sos,ALPERSON-JAMES-C-FIELDS-JR,AL-2010-house-12-D-JAMES-C-FIELDS-JR,1,0
+2010,house,12,R,9062.0,MAC BUTTRAM,alabama_sos,ALPERSON-MAC-BUTTRAM,AL-2010-house-12-R-MAC-BUTTRAM,0,1
+2010,house,13,D,5186.0,TOMMY SHERER,alabama_sos,ALPERSON-TOMMY-SHERER,AL-2010-house-13-D-TOMMY-SHERER,1,0
+2010,house,13,R,7990.0,BILL ROBERTS,alabama_sos,ALPERSON-BILL-ROBERTS,AL-2010-house-13-R-BILL-ROBERTS,0,1
+2010,house,14,D,4121.0,KEN GUIN,alabama_sos,ALPERSON-KEN-GUIN,AL-2010-house-14-D-KEN-GUIN,1,0
+2010,house,14,R,9327.0,RICHARD BAUGHN,alabama_sos,ALPERSON-RICHARD-BAUGHN,AL-2010-house-14-R-RICHARD-BAUGHN,0,1
+2010,house,15,R,14117.0,ALLEN FARLEY,alabama_sos,ALPERSON-ALLEN-FARLEY,AL-2010-house-15-R-ALLEN-FARLEY,0,1
+2010,house,16,D,6379.0,"WILLIAM E. THIGPEN, SR.",alabama_sos,ALPERSON-WILLIAM-E-THIGPEN-SR,AL-2010-house-16-D-WILLIAM-E-THIGPEN-SR,1,0
+2010,house,16,R,7451.0,DANIEL H. BOMAN,alabama_sos,ALPERSON-DANIEL-H-BOMAN,AL-2010-house-16-R-DANIEL-H-BOMAN,0,1
+2010,house,17,D,8107.0,MIKE MILLICAN,alabama_sos,ALPERSON-MIKE-MILLICAN,AL-2010-house-17-D-MIKE-MILLICAN,1,1
+2010,house,18,D,8343.0,JOHNNY MACK MORROW,alabama_sos,ALPERSON-JOHNNY-MACK-MORROW,AL-2010-house-18-D-JOHNNY-MACK-MORROW,1,1
+2010,house,19,D,10669.0,LAURA HALL,alabama_sos,ALPERSON-LAURA-HALL,AL-2010-house-19-D-LAURA-HALL,1,1
+2010,house,20,R,17733.0,HOWARD SANDERFORD,alabama_sos,ALPERSON-HOWARD-SANDERFORD,AL-2010-house-20-R-HOWARD-SANDERFORD,1,1
+2010,house,21,D,6201.0,RANDY HINSHAW,alabama_sos,ALPERSON-RANDY-HINSHAW,AL-2010-house-21-D-RANDY-HINSHAW,1,0
+2010,house,21,R,6654.0,JIM PATTERSON,alabama_sos,ALPERSON-JIM-PATTERSON,AL-2010-house-21-R-JIM-PATTERSON,0,1
+2010,house,22,D,5177.0,BUTCH TAYLOR,alabama_sos,ALPERSON-BUTCH-TAYLOR,AL-2010-house-22-D-BUTCH-TAYLOR,0,0
+2010,house,22,R,9523.0,WAYNE JOHNSON,alabama_sos,ALPERSON-WAYNE-JOHNSON,AL-2010-house-22-R-WAYNE-JOHNSON,0,1
+2010,house,23,D,7782.0,JOHN ROBINSON,alabama_sos,ALPERSON-JOHN-ROBINSON,AL-2010-house-23-D-JOHN-ROBINSON,1,1
+2010,house,24,D,6971.0,NATHANIEL LEDBETTER,alabama_sos,ALPERSON-NATHANIEL-LEDBETTER,AL-2010-house-24-D-NATHANIEL-LEDBETTER,0,0
+2010,house,24,R,7967.0,TODD GREESON,alabama_sos,ALPERSON-TODD-GREESON,AL-2010-house-24-R-TODD-GREESON,1,1
+2010,house,25,R,17822.0,MAC McCUTCHEON,alabama_sos,ALPERSON-MAC-MCCUTCHEON,AL-2010-house-25-R-MAC-MCCUTCHEON,1,1
+2010,house,26,D,4873.0,RANDALL WHITE,alabama_sos,ALPERSON-RANDALL-WHITE,AL-2010-house-26-D-RANDALL-WHITE,0,0
+2010,house,26,R,7203.0,KERRY RICH,alabama_sos,ALPERSON-KERRY-RICH,AL-2010-house-26-R-KERRY-RICH,0,1
+2010,house,27,D,7225.0,JEFF McLAUGHLIN,alabama_sos,ALPERSON-JEFF-MCLAUGHLIN,AL-2010-house-27-D-JEFF-MCLAUGHLIN,1,0
+2010,house,27,R,8238.0,WES LONG,alabama_sos,ALPERSON-WES-LONG,AL-2010-house-27-R-WES-LONG,0,1
+2010,house,28,D,8208.0,CRAIG FORD,alabama_sos,ALPERSON-CRAIG-FORD,AL-2010-house-28-D-CRAIG-FORD,1,1
+2010,house,29,D,5406.0,JOHN G. 'Jack' PAGE III,alabama_sos,ALPERSON-JOHN-G-JACK-PAGE-III,AL-2010-house-29-D-JOHN-G-JACK-PAGE-III,1,0
+2010,house,29,R,5845.0,BECKY NORDGREN,alabama_sos,ALPERSON-BECKY-NORDGREN,AL-2010-house-29-R-BECKY-NORDGREN,0,1
+2010,house,30,D,4153.0,WALLY BURNS,alabama_sos,ALPERSON-WALLY-BURNS,AL-2010-house-30-D-WALLY-BURNS,0,0
+2010,house,30,R,10979.0,BLAINE GALLIHER,alabama_sos,ALPERSON-BLAINE-GALLIHER,AL-2010-house-30-R-BLAINE-GALLIHER,1,1
+2010,house,31,R,13104.0,BARRY MASK,alabama_sos,ALPERSON-BARRY-MASK,AL-2010-house-31-R-BARRY-MASK,1,1
+2010,house,32,D,7238.0,BARBARA BIGSBY BOYD,alabama_sos,ALPERSON-BARBARA-BIGSBY-BOYD,AL-2010-house-32-D-BARBARA-BIGSBY-BOYD,1,1
+2010,house,32,R,2903.0,RON STRUZIK,alabama_sos,ALPERSON-RON-STRUZIK,AL-2010-house-32-R-RON-STRUZIK,0,0
+2010,house,33,R,9567.0,RON JOHNSON,alabama_sos,ALPERSON-RON-JOHNSON,AL-2010-house-33-R-RON-JOHNSON,1,1
+2010,house,34,R,13515.0,ELWYN THOMAS,alabama_sos,ALPERSON-ELWYN-THOMAS,AL-2010-house-34-R-ELWYN-THOMAS,1,1
+2010,house,35,D,6719.0,STEVE HURST,alabama_sos,ALPERSON-STEVE-HURST,AL-2010-house-35-D-STEVE-HURST,1,1
+2010,house,35,R,6292.0,STEVEN M. DEAN,alabama_sos,ALPERSON-STEVEN-M-DEAN,AL-2010-house-35-R-STEVEN-M-DEAN,0,0
+2010,house,36,D,3300.0,GARRY BEARDEN,alabama_sos,ALPERSON-GARRY-BEARDEN,AL-2010-house-36-D-GARRY-BEARDEN,0,0
+2010,house,36,R,10607.0,RANDY WOOD,alabama_sos,ALPERSON-RANDY-WOOD,AL-2010-house-36-R-RANDY-WOOD,1,1
+2010,house,37,D,8106.0,RICHARD LAIRD,alabama_sos,ALPERSON-RICHARD-LAIRD,AL-2010-house-37-D-RICHARD-LAIRD,1,1
+2010,house,37,R,7011.0,BOB FINCHER,alabama_sos,ALPERSON-BOB-FINCHER,AL-2010-house-37-R-BOB-FINCHER,0,0
+2010,house,38,D,5748.0,HUEY P. LONG,alabama_sos,ALPERSON-HUEY-P-LONG,AL-2010-house-38-D-HUEY-P-LONG,0,0
+2010,house,38,R,5980.0,DuWAYNE BRIDGES,alabama_sos,ALPERSON-DUWAYNE-BRIDGES,AL-2010-house-38-R-DUWAYNE-BRIDGES,1,1
+2010,house,39,D,7808.0,RICHARD LINDSEY,alabama_sos,ALPERSON-RICHARD-LINDSEY,AL-2010-house-39-D-RICHARD-LINDSEY,1,1
+2010,house,39,R,5872.0,TIM SPRAYBERRY,alabama_sos,ALPERSON-TIM-SPRAYBERRY,AL-2010-house-39-R-TIM-SPRAYBERRY,0,0
+2010,house,40,D,5148.0,RICKY WHALEY,alabama_sos,ALPERSON-RICKY-WHALEY,AL-2010-house-40-D-RICKY-WHALEY,0,0
+2010,house,40,R,8582.0,K.L. (Koven) BROWN,alabama_sos,ALPERSON-K-L-KOVEN-BROWN,AL-2010-house-40-R-K-L-KOVEN-BROWN,0,1
+2010,house,41,R,19319.0,MIKE HILL,alabama_sos,ALPERSON-MIKE-HILL,AL-2010-house-41-R-MIKE-HILL,1,1
+2010,house,42,D,5452.0,JAMES M. 'Jimmy' MARTIN,alabama_sos,ALPERSON-JAMES-M-JIMMY-MARTIN,AL-2010-house-42-D-JAMES-M-JIMMY-MARTIN,1,0
+2010,house,42,R,9382.0,KURT WALLACE,alabama_sos,ALPERSON-KURT-WALLACE,AL-2010-house-42-R-KURT-WALLACE,0,1
+2010,house,43,D,4041.0,VIRGINIA SWEET,alabama_sos,ALPERSON-VIRGINIA-SWEET,AL-2010-house-43-D-VIRGINIA-SWEET,0,0
+2010,house,43,R,16368.0,MARY SUE McCLURKIN,alabama_sos,ALPERSON-MARY-SUE-MCCLURKIN,AL-2010-house-43-R-MARY-SUE-MCCLURKIN,1,1
+2010,house,44,R,11654.0,ARTHUR PAYNE,alabama_sos,ALPERSON-ARTHUR-PAYNE,AL-2010-house-44-R-ARTHUR-PAYNE,1,1
+2010,house,45,D,5103.0,CHARLENE CANNON,alabama_sos,ALPERSON-CHARLENE-CANNON,AL-2010-house-45-D-CHARLENE-CANNON,0,0
+2010,house,45,R,8165.0,OWEN DRAKE,alabama_sos,ALPERSON-OWEN-DRAKE,AL-2010-house-45-R-OWEN-DRAKE,1,1
+2010,house,46,R,15446.0,PAUL DEMARCO,alabama_sos,ALPERSON-PAUL-DEMARCO,AL-2010-house-46-R-PAUL-DEMARCO,1,1
+2010,house,47,R,8735.0,JACK WILLIAMS,alabama_sos,ALPERSON-JACK-WILLIAMS,AL-2010-house-47-R-JACK-WILLIAMS,1,1
+2010,house,48,R,16859.0,GREG CANFIELD,alabama_sos,ALPERSON-GREG-CANFIELD,AL-2010-house-48-R-GREG-CANFIELD,1,1
+2010,house,49,R,12411.0,APRIL WEAVER,alabama_sos,ALPERSON-APRIL-WEAVER,AL-2010-house-49-R-APRIL-WEAVER,0,1
+2010,house,50,R,14248.0,JIM McCLENDON,alabama_sos,ALPERSON-JIM-MCCLENDON,AL-2010-house-50-R-JIM-MCCLENDON,1,1
+2010,house,51,R,14061.0,ALLEN TREADAWAY,alabama_sos,ALPERSON-ALLEN-TREADAWAY,AL-2010-house-51-R-ALLEN-TREADAWAY,1,1
+2010,house,52,D,9599.0,JOHN W. ROGERS JR.,alabama_sos,ALPERSON-JOHN-W-ROGERS-JR,AL-2010-house-52-D-JOHN-W-ROGERS-JR,1,1
+2010,house,53,D,7729.0,DEMETRIUS C. NEWTON,alabama_sos,ALPERSON-DEMETRIUS-C-NEWTON,AL-2010-house-53-D-DEMETRIUS-C-NEWTON,1,1
+2010,house,54,D,7599.0,PATRICIA TODD,alabama_sos,ALPERSON-PATRICIA-TODD,AL-2010-house-54-D-PATRICIA-TODD,1,1
+2010,house,55,D,8670.0,ROD SCOTT,alabama_sos,ALPERSON-ROD-SCOTT,AL-2010-house-55-D-ROD-SCOTT,1,1
+2010,house,56,D,9881.0,LAWRENCE MCADORY,alabama_sos,ALPERSON-LAWRENCE-MCADORY,AL-2010-house-56-D-LAWRENCE-MCADORY,1,1
+2010,house,57,D,10676.0,MERIKA COLEMAN,alabama_sos,ALPERSON-MERIKA-COLEMAN,AL-2010-house-57-D-MERIKA-COLEMAN,1,1
+2010,house,58,D,9704.0,OLIVER ROBINSON,alabama_sos,ALPERSON-OLIVER-ROBINSON,AL-2010-house-58-D-OLIVER-ROBINSON,1,1
+2010,house,59,D,7521.0,MARY MOORE,alabama_sos,ALPERSON-MARY-MOORE,AL-2010-house-59-D-MARY-MOORE,1,1
+2010,house,60,D,10383.0,JUANDALYNN 'LEE LEE' GIVAN,alabama_sos,ALPERSON-JUANDALYNN-LEE-LEE-GIVAN,AL-2010-house-60-D-JUANDALYNN-LEE-LEE-GIVAN,0,1
+2010,house,61,D,9213.0,ALAN HARPER,alabama_sos,ALPERSON-ALAN-HARPER,AL-2010-house-61-D-ALAN-HARPER,1,1
+2010,house,61,R,5051.0,FRANK CHANDLER,alabama_sos,ALPERSON-FRANK-CHANDLER,AL-2010-house-61-R-FRANK-CHANDLER,0,0
+2010,house,62,R,11658.0,JOHN MERRILL,alabama_sos,ALPERSON-JOHN-MERRILL,AL-2010-house-62-R-JOHN-MERRILL,0,1
+2010,house,63,D,5631.0,SUSAN PACE HAMILL,alabama_sos,ALPERSON-SUSAN-PACE-HAMILL,AL-2010-house-63-D-SUSAN-PACE-HAMILL,0,0
+2010,house,63,R,9937.0,BILL POOLE,alabama_sos,ALPERSON-BILL-POOLE,AL-2010-house-63-R-BILL-POOLE,0,1
+2010,house,64,R,8524.0,HARRY SHIVER,alabama_sos,ALPERSON-HARRY-SHIVER,AL-2010-house-64-R-HARRY-SHIVER,1,1
+2010,house,65,D,11747.0,ELAINE BEECH,alabama_sos,ALPERSON-ELAINE-BEECH,AL-2010-house-65-D-ELAINE-BEECH,0,1
+2010,house,66,R,8615.0,ALAN BAKER,alabama_sos,ALPERSON-ALAN-BAKER,AL-2010-house-66-R-ALAN-BAKER,1,1
+2010,house,67,D,10382.0,DARRIO MELTON,alabama_sos,ALPERSON-DARRIO-MELTON,AL-2010-house-67-D-DARRIO-MELTON,0,1
+2010,house,68,D,10471.0,THOMAS E. (Action) JACKSON,alabama_sos,ALPERSON-THOMAS-E-ACTION-JACKSON,AL-2010-house-68-D-THOMAS-E-ACTION-JACKSON,1,1
+2010,house,69,D,10605.0,DAVID COLSTON,alabama_sos,ALPERSON-DAVID-COLSTON,AL-2010-house-69-D-DAVID-COLSTON,0,1
+2010,house,70,D,7611.0,CHRISTOPHER JOHN ENGLAND,alabama_sos,ALPERSON-CHRISTOPHER-JOHN-ENGLAND,AL-2010-house-70-D-CHRISTOPHER-JOHN-ENGLAND,1,1
+2010,house,71,D,12209.0,ARTIS 'A.J.' McCAMPBELL,alabama_sos,ALPERSON-ARTIS-A-J-MCCAMPBELL,AL-2010-house-71-D-ARTIS-A-J-MCCAMPBELL,1,1
+2010,house,72,D,11552.0,RALPH A. HOWARD,alabama_sos,ALPERSON-RALPH-A-HOWARD,AL-2010-house-72-D-RALPH-A-HOWARD,1,1
+2010,house,73,D,8137.0,JOSEPH LISTER 'Joe' HUBBARD,alabama_sos,ALPERSON-JOSEPH-LISTER-JOE-HUBBARD,AL-2010-house-73-D-JOSEPH-LISTER-JOE-HUBBARD,0,1
+2010,house,73,R,7825.0,DAVID GRIMES,alabama_sos,ALPERSON-DAVID-GRIMES,AL-2010-house-73-R-DAVID-GRIMES,1,0
+2010,house,74,R,8714.0,JAY LOVE,alabama_sos,ALPERSON-JAY-LOVE,AL-2010-house-74-R-JAY-LOVE,1,1
+2010,house,75,D,5551.0,GLENN L. ALLEN,alabama_sos,ALPERSON-GLENN-L-ALLEN,AL-2010-house-75-D-GLENN-L-ALLEN,0,0
+2010,house,75,R,14046.0,GREG WREN,alabama_sos,ALPERSON-GREG-WREN,AL-2010-house-75-R-GREG-WREN,1,1
+2010,house,76,D,10092.0,THAD McCLAMMY,alabama_sos,ALPERSON-THAD-MCCLAMMY,AL-2010-house-76-D-THAD-MCCLAMMY,1,1
+2010,house,77,D,8353.0,JOHN KNIGHT,alabama_sos,ALPERSON-JOHN-KNIGHT,AL-2010-house-77-D-JOHN-KNIGHT,1,1
+2010,house,78,D,7349.0,ALVIN HOLMES,alabama_sos,ALPERSON-ALVIN-HOLMES,AL-2010-house-78-D-ALVIN-HOLMES,1,1
+2010,house,79,R,11128.0,MIKE HUBBARD,alabama_sos,ALPERSON-MIKE-HUBBARD,AL-2010-house-79-R-MIKE-HUBBARD,1,1
+2010,house,80,D,5576.0,LESLEY VANCE,alabama_sos,ALPERSON-LESLEY-VANCE,AL-2010-house-80-D-LESLEY-VANCE,1,1
+2010,house,80,R,4626.0,MERVIN DUDLEY,alabama_sos,ALPERSON-MERVIN-DUDLEY,AL-2010-house-80-R-MERVIN-DUDLEY,0,0
+2010,house,81,D,7306.0,BETTY CAROL GRAHAM,alabama_sos,ALPERSON-BETTY-CAROL-GRAHAM,AL-2010-house-81-D-BETTY-CAROL-GRAHAM,1,0
+2010,house,81,R,9268.0,MARK M. TUGGLE,alabama_sos,ALPERSON-MARK-M-TUGGLE,AL-2010-house-81-R-MARK-M-TUGGLE,0,1
+2010,house,82,D,10179.0,PEBBLIN W. WARREN,alabama_sos,ALPERSON-PEBBLIN-W-WARREN,AL-2010-house-82-D-PEBBLIN-W-WARREN,1,1
+2010,house,83,D,7480.0,GEORGE 'Tootie' BANDY,alabama_sos,ALPERSON-GEORGE-TOOTIE-BANDY,AL-2010-house-83-D-GEORGE-TOOTIE-BANDY,1,1
+2010,house,84,D,7763.0,BERRY FORTE,alabama_sos,ALPERSON-BERRY-FORTE,AL-2010-house-84-D-BERRY-FORTE,0,1
+2010,house,84,R,4152.0,JOYCE L. PERRIN,alabama_sos,ALPERSON-JOYCE-L-PERRIN,AL-2010-house-84-R-JOYCE-L-PERRIN,0,0
+2010,house,85,D,6668.0,DEXTER GRIMSLEY,alabama_sos,ALPERSON-DEXTER-GRIMSLEY,AL-2010-house-85-D-DEXTER-GRIMSLEY,0,1
+2010,house,85,R,6243.0,JODY SINGLETON,alabama_sos,ALPERSON-JODY-SINGLETON,AL-2010-house-85-R-JODY-SINGLETON,0,0
+2010,house,86,D,6623.0,MERRITT CAROTHERS,alabama_sos,ALPERSON-MERRITT-CAROTHERS,AL-2010-house-86-D-MERRITT-CAROTHERS,0,0
+2010,house,86,R,9159.0,PAUL LEE,alabama_sos,ALPERSON-PAUL-LEE,AL-2010-house-86-R-PAUL-LEE,0,1
+2010,house,87,R,14347.0,DONNIE CHESTEEN,alabama_sos,ALPERSON-DONNIE-CHESTEEN,AL-2010-house-87-R-DONNIE-CHESTEEN,0,1
+2010,house,88,R,14381.0,PAUL BECKMAN,alabama_sos,ALPERSON-PAUL-BECKMAN,AL-2010-house-88-R-PAUL-BECKMAN,0,1
+2010,house,89,D,7911.0,ALAN C. BOOTHE,alabama_sos,ALPERSON-ALAN-C-BOOTHE,AL-2010-house-89-D-ALAN-C-BOOTHE,1,1
+2010,house,90,D,8427.0,CHARLES NEWTON,alabama_sos,ALPERSON-CHARLES-NEWTON,AL-2010-house-90-D-CHARLES-NEWTON,1,1
+2010,house,90,R,5753.0,JERRY HARTIN,alabama_sos,ALPERSON-JERRY-HARTIN,AL-2010-house-90-R-JERRY-HARTIN,0,0
+2010,house,91,D,5383.0,TERRY SPICER,alabama_sos,ALPERSON-TERRY-SPICER,AL-2010-house-91-D-TERRY-SPICER,1,0
+2010,house,91,R,9754.0,BARRY MOORE,alabama_sos,ALPERSON-BARRY-MOORE,AL-2010-house-91-R-BARRY-MOORE,0,1
+2010,house,92,D,3080.0,DAVID S. DARBY,alabama_sos,ALPERSON-DAVID-S-DARBY,AL-2010-house-92-D-DAVID-S-DARBY,0,0
+2010,house,92,R,6809.0,"MIKE JONES, JR.",alabama_sos,ALPERSON-MIKE-JONES-JR,AL-2010-house-92-R-MIKE-JONES-JR,0,1
+2010,house,93,D,3270.0,RONNIE HELMS,alabama_sos,ALPERSON-RONNIE-HELMS,AL-2010-house-93-D-RONNIE-HELMS,0,0
+2010,house,93,R,11417.0,STEVE CLOUSE,alabama_sos,ALPERSON-STEVE-CLOUSE,AL-2010-house-93-R-STEVE-CLOUSE,1,1
+2010,house,94,R,16481.0,JOE FAUST,alabama_sos,ALPERSON-JOE-FAUST,AL-2010-house-94-R-JOE-FAUST,1,1
+2010,house,95,R,16239.0,STEVE McMILLAN,alabama_sos,ALPERSON-STEVE-MCMILLAN,AL-2010-house-95-R-STEVE-MCMILLAN,1,1
+2010,house,96,R,13319.0,RANDY DAVIS,alabama_sos,ALPERSON-RANDY-DAVIS,AL-2010-house-96-R-RANDY-DAVIS,1,1
+2010,house,97,D,6714.0,YVONNE KENNEDY,alabama_sos,ALPERSON-YVONNE-KENNEDY,AL-2010-house-97-D-YVONNE-KENNEDY,1,1
+2010,house,98,D,6767.0,"NAPOLEON BRACY, JR.",alabama_sos,ALPERSON-NAPOLEON-BRACY-JR,AL-2010-house-98-D-NAPOLEON-BRACY-JR,0,1
+2010,house,98,R,3222.0,SHARON L. POWE,alabama_sos,ALPERSON-SHARON-L-POWE,AL-2010-house-98-R-SHARON-L-POWE,0,0
+2010,house,99,D,8554.0,JAMES E BUSKEY,alabama_sos,ALPERSON-JAMES-E-BUSKEY,AL-2010-house-99-D-JAMES-E-BUSKEY,1,1
+2010,house,100,R,12640.0,VICTOR GASTON,alabama_sos,ALPERSON-VICTOR-GASTON,AL-2010-house-100-R-VICTOR-GASTON,1,1
+2010,house,101,R,8414.0,JAMIE ISON,alabama_sos,ALPERSON-JAMIE-ISON,AL-2010-house-101-R-JAMIE-ISON,1,1
+2010,house,102,R,9641.0,CHAD FINCHER,alabama_sos,ALPERSON-CHAD-FINCHER,AL-2010-house-102-R-CHAD-FINCHER,1,1
+2010,house,103,D,6962.0,JOSEPH C. MITCHELL,alabama_sos,ALPERSON-JOSEPH-C-MITCHELL,AL-2010-house-103-D-JOSEPH-C-MITCHELL,1,1
+2010,house,104,R,11155.0,JIM BARTON,alabama_sos,ALPERSON-JIM-BARTON,AL-2010-house-104-R-JIM-BARTON,1,1
+2010,house,105,R,7807.0,SPENCER COLLIER,alabama_sos,ALPERSON-SPENCER-COLLIER,AL-2010-house-105-R-SPENCER-COLLIER,1,1
+2010,senate,1,D,23178.0,TAMMY L. IRONS,alabama_sos,ALPERSON-TAMMY-L-IRONS,AL-2010-senate-1-D-TAMMY-L-IRONS,0,1
+2010,senate,1,R,18266.0,JERRY FREEMAN,alabama_sos,ALPERSON-JERRY-FREEMAN,AL-2010-senate-1-R-JERRY-FREEMAN,0,0
+2010,senate,2,D,23060.0,TOM BUTLER,alabama_sos,ALPERSON-TOM-BUTLER,AL-2010-senate-2-D-TOM-BUTLER,1,0
+2010,senate,2,R,33050.0,BILL HOLTZCLAW,alabama_sos,ALPERSON-BILL-HOLTZCLAW,AL-2010-senate-2-R-BILL-HOLTZCLAW,0,1
+2010,senate,3,R,39245.0,ARTHUR ORR,alabama_sos,ALPERSON-ARTHUR-ORR,AL-2010-senate-3-R-ARTHUR-ORR,1,1
+2010,senate,4,D,18733.0,ZEB LITTLE,alabama_sos,ALPERSON-ZEB-LITTLE,AL-2010-senate-4-D-ZEB-LITTLE,1,0
+2010,senate,4,R,25621.0,PAUL BUSSMAN,alabama_sos,ALPERSON-PAUL-BUSSMAN,AL-2010-senate-4-R-PAUL-BUSSMAN,0,1
+2010,senate,5,D,12213.0,BRETT WADSWORTH,alabama_sos,ALPERSON-BRETT-WADSWORTH,AL-2010-senate-5-D-BRETT-WADSWORTH,0,0
+2010,senate,5,R,33500.0,GREG REED,alabama_sos,ALPERSON-GREG-REED,AL-2010-senate-5-R-GREG-REED,1,1
+2010,senate,6,D,18691.0,"ROGER BEDFORD, JR.",alabama_sos,ALPERSON-ROGER-BEDFORD-JR,AL-2010-senate-6-D-ROGER-BEDFORD-JR,1,1
+2010,senate,6,R,16304.0,JIM BONNER,alabama_sos,ALPERSON-JIM-BONNER,AL-2010-senate-6-R-JIM-BONNER,0,0
+2010,senate,7,D,20819.0,JEFF ENFINGER,alabama_sos,ALPERSON-JEFF-ENFINGER,AL-2010-senate-7-D-JEFF-ENFINGER,0,0
+2010,senate,7,R,25333.0,PAUL L. SANFORD,alabama_sos,ALPERSON-PAUL-L-SANFORD,AL-2010-senate-7-R-PAUL-L-SANFORD,1,1
+2010,senate,8,D,20016.0,LOWELL BARRON,alabama_sos,ALPERSON-LOWELL-BARRON,AL-2010-senate-8-D-LOWELL-BARRON,1,0
+2010,senate,8,R,20603.0,SHADRACK McGILL,alabama_sos,ALPERSON-SHADRACK-MCGILL,AL-2010-senate-8-R-SHADRACK-MCGILL,0,1
+2010,senate,9,D,13933.0,TIM MITCHELL,alabama_sos,ALPERSON-TIM-MITCHELL,AL-2010-senate-9-D-TIM-MITCHELL,0,0
+2010,senate,9,R,30834.0,CLAY SCOFIELD,alabama_sos,ALPERSON-CLAY-SCOFIELD,AL-2010-senate-9-R-CLAY-SCOFIELD,0,1
+2010,senate,10,D,17459.0,LARRY MEANS,alabama_sos,ALPERSON-LARRY-MEANS,AL-2010-senate-10-D-LARRY-MEANS,1,0
+2010,senate,10,R,20249.0,PHIL WILLIAMS,alabama_sos,ALPERSON-PHIL-WILLIAMS,AL-2010-senate-10-R-PHIL-WILLIAMS,0,1
+2010,senate,11,D,19928.0,JERRY L. FIELDING,alabama_sos,ALPERSON-JERRY-L-FIELDING,AL-2010-senate-11-D-JERRY-L-FIELDING,0,1
+2010,senate,11,R,17323.0,RAY ROBBINS,alabama_sos,ALPERSON-RAY-ROBBINS,AL-2010-senate-11-R-RAY-ROBBINS,0,0
+2010,senate,12,D,15203.0,"WALLACE WYATT, JR.",alabama_sos,ALPERSON-WALLACE-WYATT-JR,AL-2010-senate-12-D-WALLACE-WYATT-JR,0,0
+2010,senate,12,R,26702.0,DEL MARSH,alabama_sos,ALPERSON-DEL-MARSH,AL-2010-senate-12-R-DEL-MARSH,1,1
+2010,senate,13,D,18443.0,GREG VARNER,alabama_sos,ALPERSON-GREG-VARNER,AL-2010-senate-13-D-GREG-VARNER,0,0
+2010,senate,13,R,18800.0,GERALD DIAL,alabama_sos,ALPERSON-GERALD-DIAL,AL-2010-senate-13-R-GERALD-DIAL,0,1
+2010,senate,14,R,42511.0,CAM WARD,alabama_sos,ALPERSON-CAM-WARD,AL-2010-senate-14-R-CAM-WARD,0,1
+2010,senate,15,R,46018.0,SLADE BLACKWELL,alabama_sos,ALPERSON-SLADE-BLACKWELL,AL-2010-senate-15-R-SLADE-BLACKWELL,0,1
+2010,senate,16,R,43604.0,"J. T. ""JABO"" WAGGONER",alabama_sos,ALPERSON-J-T-JABO-WAGGONER,AL-2010-senate-16-R-J-T-JABO-WAGGONER,0,1
+2010,senate,17,D,8973.0,T. E. 'Tommy' HUDSON,alabama_sos,ALPERSON-T-E-TOMMY-HUDSON,AL-2010-senate-17-D-T-E-TOMMY-HUDSON,0,0
+2010,senate,17,R,38777.0,SCOTT BEASON,alabama_sos,ALPERSON-SCOTT-BEASON,AL-2010-senate-17-R-SCOTT-BEASON,1,1
+2010,senate,18,D,25154.0,RODGER M. SMITHERMAN,alabama_sos,ALPERSON-RODGER-M-SMITHERMAN,AL-2010-senate-18-D-RODGER-M-SMITHERMAN,1,1
+2010,senate,19,D,29227.0,PRISCILLA DUNN,alabama_sos,ALPERSON-PRISCILLA-DUNN,AL-2010-senate-19-D-PRISCILLA-DUNN,0,1
+2010,senate,20,D,28282.0,LINDA COLEMAN,alabama_sos,ALPERSON-LINDA-COLEMAN,AL-2010-senate-20-D-LINDA-COLEMAN,1,1
+2010,senate,21,D,19509.0,PHIL POOLE,alabama_sos,ALPERSON-PHIL-POOLE,AL-2010-senate-21-D-PHIL-POOLE,1,0
+2010,senate,21,R,20528.0,GERALD ALLEN,alabama_sos,ALPERSON-GERALD-ALLEN,AL-2010-senate-21-R-GERALD-ALLEN,0,1
+2010,senate,22,D,24785.0,MARC KEAHEY,alabama_sos,ALPERSON-MARC-KEAHEY,AL-2010-senate-22-D-MARC-KEAHEY,0,1
+2010,senate,22,R,19939.0,DANNY B. JOYNER,alabama_sos,ALPERSON-DANNY-B-JOYNER,AL-2010-senate-22-R-DANNY-B-JOYNER,0,0
+2010,senate,23,D,29868.0,HANK SANDERS,alabama_sos,ALPERSON-HANK-SANDERS,AL-2010-senate-23-D-HANK-SANDERS,1,1
+2010,senate,24,D,30801.0,BOBBY SINGLETON,alabama_sos,ALPERSON-BOBBY-SINGLETON,AL-2010-senate-24-D-BOBBY-SINGLETON,1,1
+2010,senate,25,D,14425.0,DOUG 'Smitty' SMITH,alabama_sos,ALPERSON-DOUG-SMITTY-SMITH,AL-2010-senate-25-D-DOUG-SMITTY-SMITH,0,0
+2010,senate,25,R,38919.0,DICK L. BREWBAKER,alabama_sos,ALPERSON-DICK-L-BREWBAKER,AL-2010-senate-25-R-DICK-L-BREWBAKER,0,1
+2010,senate,26,D,28703.0,"QUINTON T. ROSS, JR.",alabama_sos,ALPERSON-QUINTON-T-ROSS-JR,AL-2010-senate-26-D-QUINTON-T-ROSS-JR,1,1
+2010,senate,27,D,17377.0,T. D. (Ted) LITTLE,alabama_sos,ALPERSON-T-D-TED-LITTLE,AL-2010-senate-27-D-T-D-TED-LITTLE,1,0
+2010,senate,27,R,21243.0,TOM WHATLEY,alabama_sos,ALPERSON-TOM-WHATLEY,AL-2010-senate-27-R-TOM-WHATLEY,0,1
+2010,senate,28,D,28581.0,BILLY BEASLEY,alabama_sos,ALPERSON-BILLY-BEASLEY,AL-2010-senate-28-D-BILLY-BEASLEY,0,1
+2010,senate,28,R,12028.0,KIM WEST,alabama_sos,ALPERSON-KIM-WEST,AL-2010-senate-28-R-KIM-WEST,0,0
+2010,senate,29,R,19269.0,GEORGE FLOWERS,alabama_sos,ALPERSON-GEORGE-FLOWERS,AL-2010-senate-29-R-GEORGE-FLOWERS,0,1
+2010,senate,30,D,19330.0,'Walking' WENDELL MITCHELL,alabama_sos,ALPERSON-WALKING-WENDELL-MITCHELL,AL-2010-senate-30-D-WALKING-WENDELL-MITCHELL,1,0
+2010,senate,30,R,25772.0,BRYAN TAYLOR,alabama_sos,ALPERSON-BRYAN-TAYLOR,AL-2010-senate-30-R-BRYAN-TAYLOR,0,1
+2010,senate,31,R,29285.0,JIMMY W. HOLLEY,alabama_sos,ALPERSON-JIMMY-W-HOLLEY,AL-2010-senate-31-R-JIMMY-W-HOLLEY,1,1
+2010,senate,32,R,42365.0,TRIP PITTMAN,alabama_sos,ALPERSON-TRIP-PITTMAN,AL-2010-senate-32-R-TRIP-PITTMAN,0,1
+2010,senate,33,D,23241.0,VIVIAN DAVIS FIGURES,alabama_sos,ALPERSON-VIVIAN-DAVIS-FIGURES,AL-2010-senate-33-D-VIVIAN-DAVIS-FIGURES,1,1
+2010,senate,33,R,8419.0,BRAD MOSER,alabama_sos,ALPERSON-BRAD-MOSER,AL-2010-senate-33-R-BRAD-MOSER,0,0
+2010,senate,34,R,34325.0,RUSTY GLOVER,alabama_sos,ALPERSON-RUSTY-GLOVER,AL-2010-senate-34-R-RUSTY-GLOVER,1,1
+2010,senate,35,D,12653.0,SCOTT A BUZBEE,alabama_sos,ALPERSON-SCOTT-A-BUZBEE,AL-2010-senate-35-D-SCOTT-A-BUZBEE,0,0
+2010,senate,35,R,18307.0,BEN BROOKS,alabama_sos,ALPERSON-BEN-BROOKS,AL-2010-senate-35-R-BEN-BROOKS,1,1
+2014,house,1,D,4652.0,Greg Burdine,official_consolidated_candidate_results,ALPERSON-GREG-BURDINE,AL-2014-house-1-D-GREG-BURDINE,1,0
+2014,house,1,R,4933.0,Phillip Pettus,official_consolidated_candidate_results,ALPERSON-PHILLIP-PETTUS,AL-2014-house-1-R-PHILLIP-PETTUS,0,1
+2014,house,2,D,5224.0,"Andrew ""Andy"" Betterton",official_consolidated_candidate_results,ALPERSON-ANDREW-ANDY-BETTERTON,AL-2014-house-2-D-ANDREW-ANDY-BETTERTON,0,0
+2014,house,2,R,8561.0,Lynn Greer,official_consolidated_candidate_results,ALPERSON-LYNN-GREER,AL-2014-house-2-R-LYNN-GREER,1,1
+2014,house,3,D,7993.0,Marcel Black,official_consolidated_candidate_results,ALPERSON-MARCEL-BLACK,AL-2014-house-3-D-MARCEL-BLACK,1,1
+2014,house,3,R,5357.0,Fred Joly,official_consolidated_candidate_results,ALPERSON-FRED-JOLY,AL-2014-house-3-R-FRED-JOLY,0,0
+2014,house,4,R,8473.0,Micky Hammon,official_consolidated_candidate_results,ALPERSON-MICKY-HAMMON,AL-2014-house-4-R-MICKY-HAMMON,1,1
+2014,house,5,D,5520.0,Henry A. White,official_consolidated_candidate_results,ALPERSON-HENRY-A-WHITE,AL-2014-house-5-D-HENRY-A-WHITE,0,0
+2014,house,5,R,7132.0,Dan Williams,official_consolidated_candidate_results,ALPERSON-DAN-WILLIAMS,AL-2014-house-5-R-DAN-WILLIAMS,1,1
+2014,house,6,R,8325.0,Phil Williams,official_consolidated_candidate_results,ALPERSON-PHIL-WILLIAMS,AL-2014-house-6-R-PHIL-WILLIAMS,1,1
+2014,house,7,D,5553.0,John (Jody) Letson,official_consolidated_candidate_results,ALPERSON-JOHN-JODY-LETSON,AL-2014-house-7-D-JOHN-JODY-LETSON,0,0
+2014,house,7,R,6072.0,Ken Johnson,official_consolidated_candidate_results,ALPERSON-KEN-JOHNSON,AL-2014-house-7-R-KEN-JOHNSON,1,1
+2014,house,8,D,4195.0,Rex Cheatham,official_consolidated_candidate_results,ALPERSON-REX-CHEATHAM,AL-2014-house-8-D-REX-CHEATHAM,0,0
+2014,house,8,R,6270.0,Terri Collins,official_consolidated_candidate_results,ALPERSON-TERRI-COLLINS,AL-2014-house-8-R-TERRI-COLLINS,1,1
+2014,house,9,R,11646.0,Ed Henry,official_consolidated_candidate_results,ALPERSON-ED-HENRY,AL-2014-house-9-R-ED-HENRY,1,1
+2014,house,10,D,314.0,Means,official_consolidated_candidate_results,ALPERSON-MEANS,AL-2014-house-10-D-MEANS,0,0
+2014,house,10,R,9256.0,Mike Ball,official_consolidated_candidate_results,ALPERSON-MIKE-BALL,AL-2014-house-10-R-MIKE-BALL,1,1
+2014,house,11,R,8941.0,Randall Shedd,official_consolidated_candidate_results,ALPERSON-RANDALL-SHEDD,AL-2014-house-11-R-RANDALL-SHEDD,0,1
+2014,house,12,R,9455.0,Corey Harbison,official_consolidated_candidate_results,ALPERSON-COREY-HARBISON,AL-2014-house-12-R-COREY-HARBISON,0,1
+2014,house,13,R,9482.0,Rowe,official_consolidated_candidate_results,ALPERSON-ROWE,AL-2014-house-13-R-ROWE,0,1
+2014,house,14,R,9255.0,Tim Wadsworth,official_consolidated_candidate_results,ALPERSON-TIM-WADSWORTH,AL-2014-house-14-R-TIM-WADSWORTH,0,1
+2014,house,15,R,10178.0,Allen Farley,official_consolidated_candidate_results,ALPERSON-ALLEN-FARLEY,AL-2014-house-15-R-ALLEN-FARLEY,1,1
+2014,house,16,D,3430.0,Daniel H. Boman,official_consolidated_candidate_results,ALPERSON-DANIEL-H-BOMAN,AL-2014-house-16-D-DANIEL-H-BOMAN,1,0
+2014,house,16,R,10467.0,Kyle South,official_consolidated_candidate_results,ALPERSON-KYLE-SOUTH,AL-2014-house-16-R-KYLE-SOUTH,0,1
+2014,house,17,D,4027.0,Don Barnwell,official_consolidated_candidate_results,ALPERSON-DON-BARNWELL,AL-2014-house-17-D-DON-BARNWELL,0,0
+2014,house,17,R,7854.0,Mike Millican,official_consolidated_candidate_results,ALPERSON-MIKE-MILLICAN,AL-2014-house-17-R-MIKE-MILLICAN,1,1
+2014,house,18,D,6700.0,Johnny MacK Morrow,official_consolidated_candidate_results,ALPERSON-JOHNNY-MACK-MORROW,AL-2014-house-18-D-JOHNNY-MACK-MORROW,1,1
+2014,house,18,R,4559.0,Gerry Wallace,official_consolidated_candidate_results,ALPERSON-GERRY-WALLACE,AL-2014-house-18-R-GERRY-WALLACE,0,0
+2014,house,19,D,7615.0,Laura Hall,official_consolidated_candidate_results,ALPERSON-LAURA-HALL,AL-2014-house-19-D-LAURA-HALL,1,1
+2014,house,20,R,12876.0,Howard Sanderford,official_consolidated_candidate_results,ALPERSON-HOWARD-SANDERFORD,AL-2014-house-20-R-HOWARD-SANDERFORD,1,1
+2014,house,21,D,4558.0,C. Terry Jones,official_consolidated_candidate_results,ALPERSON-C-TERRY-JONES,AL-2014-house-21-D-C-TERRY-JONES,0,0
+2014,house,21,R,9428.0,Jim Patterson,official_consolidated_candidate_results,ALPERSON-JIM-PATTERSON,AL-2014-house-21-R-JIM-PATTERSON,1,1
+2014,house,22,D,2998.0,Dennis W. Stephens,official_consolidated_candidate_results,ALPERSON-DENNIS-W-STEPHENS,AL-2014-house-22-D-DENNIS-W-STEPHENS,0,0
+2014,house,22,R,8688.0,Ritchie Whorton,official_consolidated_candidate_results,ALPERSON-RITCHIE-WHORTON,AL-2014-house-22-R-RITCHIE-WHORTON,0,1
+2014,house,23,D,4139.0,John Robinson,official_consolidated_candidate_results,ALPERSON-JOHN-ROBINSON,AL-2014-house-23-D-JOHN-ROBINSON,1,0
+2014,house,23,R,5493.0,"James T. ""Tommy"" Hanes Jr.",official_consolidated_candidate_results,ALPERSON-JAMES-T-TOMMY-HANES-JR,AL-2014-house-23-R-JAMES-T-TOMMY-HANES-JR,0,1
+2014,house,24,D,4338.0,Beddingfield,official_consolidated_candidate_results,ALPERSON-BEDDINGFIELD,AL-2014-house-24-D-BEDDINGFIELD,0,0
+2014,house,24,R,6877.0,Ledbetter,official_consolidated_candidate_results,ALPERSON-LEDBETTER,AL-2014-house-24-R-LEDBETTER,0,1
+2014,house,25,R,10432.0,Mac McCutcheon,official_consolidated_candidate_results,ALPERSON-MAC-MCCUTCHEON,AL-2014-house-25-R-MAC-MCCUTCHEON,1,1
+2014,house,26,R,5679.0,Kerry Rich,official_consolidated_candidate_results,ALPERSON-KERRY-RICH,AL-2014-house-26-R-KERRY-RICH,1,1
+2014,house,27,D,4856.0,Jeff McLaughlin,official_consolidated_candidate_results,ALPERSON-JEFF-MCLAUGHLIN,AL-2014-house-27-D-JEFF-MCLAUGHLIN,0,0
+2014,house,27,R,6996.0,Will Ainsworth,official_consolidated_candidate_results,ALPERSON-WILL-AINSWORTH,AL-2014-house-27-R-WILL-AINSWORTH,0,1
+2014,house,28,D,6827.0,Craig Ford,official_consolidated_candidate_results,ALPERSON-CRAIG-FORD,AL-2014-house-28-D-CRAIG-FORD,1,1
+2014,house,28,R,3704.0,Doug Sherrod,official_consolidated_candidate_results,ALPERSON-DOUG-SHERROD,AL-2014-house-28-R-DOUG-SHERROD,0,0
+2014,house,29,D,4476.0,Michael J. Gladden,official_consolidated_candidate_results,ALPERSON-MICHAEL-J-GLADDEN,AL-2014-house-29-D-MICHAEL-J-GLADDEN,1,0
+2014,house,29,R,8785.0,Becky Nordgren,official_consolidated_candidate_results,ALPERSON-BECKY-NORDGREN,AL-2014-house-29-R-BECKY-NORDGREN,1,1
+2014,house,30,R,9360.0,MacK N. Butler,official_consolidated_candidate_results,ALPERSON-MACK-N-BUTLER,AL-2014-house-30-R-MACK-N-BUTLER,0,1
+2014,house,31,R,10944.0,Mike Holmes,official_consolidated_candidate_results,ALPERSON-MIKE-HOLMES,AL-2014-house-31-R-MIKE-HOLMES,0,1
+2014,house,32,D,11115.0,Barbara Bigsby Boyd,official_consolidated_candidate_results,ALPERSON-BARBARA-BIGSBY-BOYD,AL-2014-house-32-D-BARBARA-BIGSBY-BOYD,1,1
+2014,house,33,D,2748.0,Anthony Zachero,official_consolidated_candidate_results,ALPERSON-ANTHONY-ZACHERO,AL-2014-house-33-D-ANTHONY-ZACHERO,0,0
+2014,house,33,R,8343.0,Ron Johnson,official_consolidated_candidate_results,ALPERSON-RON-JOHNSON,AL-2014-house-33-R-RON-JOHNSON,1,1
+2014,house,34,R,1336.0,David Standridge,official_consolidated_candidate_results,ALPERSON-DAVID-STANDRIDGE,AL-2014-house-34-R-DAVID-STANDRIDGE,0,1
+2014,house,35,R,6945.0,Steve Hurst,official_consolidated_candidate_results,ALPERSON-STEVE-HURST,AL-2014-house-35-R-STEVE-HURST,1,1
+2014,house,36,R,19591.0,Randy Wood,official_consolidated_candidate_results,ALPERSON-RANDY-WOOD,AL-2014-house-36-R-RANDY-WOOD,1,1
+2014,house,37,D,5518.0,Josh Burns,official_consolidated_candidate_results,ALPERSON-JOSH-BURNS,AL-2014-house-37-D-JOSH-BURNS,0,0
+2014,house,37,R,5949.0,Bob Fincher,official_consolidated_candidate_results,ALPERSON-BOB-FINCHER,AL-2014-house-37-R-BOB-FINCHER,0,1
+2014,house,38,R,7279.0,Isaac Whorton,official_consolidated_candidate_results,ALPERSON-ISAAC-WHORTON,AL-2014-house-38-R-ISAAC-WHORTON,0,1
+2014,house,39,D,7786.0,Richard Lindsey,official_consolidated_candidate_results,ALPERSON-RICHARD-LINDSEY,AL-2014-house-39-D-RICHARD-LINDSEY,1,1
+2014,house,39,R,5928.0,Heath Jones,official_consolidated_candidate_results,ALPERSON-HEATH-JONES,AL-2014-house-39-R-HEATH-JONES,0,0
+2014,house,40,D,9105.0,Copeland,official_consolidated_candidate_results,ALPERSON-COPELAND,AL-2014-house-40-D-COPELAND,0,0
+2014,house,40,R,22356.0,Brown,official_consolidated_candidate_results,ALPERSON-BROWN,AL-2014-house-40-R-BROWN,0,1
+2014,house,41,R,9223.0,Mike Hill,official_consolidated_candidate_results,ALPERSON-MIKE-HILL,AL-2014-house-41-R-MIKE-HILL,1,1
+2014,house,42,R,9416.0,"James M. ""Jimmy"" Martin",official_consolidated_candidate_results,ALPERSON-JAMES-M-JIMMY-MARTIN,AL-2014-house-42-R-JAMES-M-JIMMY-MARTIN,0,1
+2014,house,43,R,11492.0,Arnold Mooney,official_consolidated_candidate_results,ALPERSON-ARNOLD-MOONEY,AL-2014-house-43-R-ARNOLD-MOONEY,0,1
+2014,house,44,R,10360.0,Danny Garrett,official_consolidated_candidate_results,ALPERSON-DANNY-GARRETT,AL-2014-house-44-R-DANNY-GARRETT,0,1
+2014,house,45,R,9609.0,Dickie Drake,official_consolidated_candidate_results,ALPERSON-DICKIE-DRAKE,AL-2014-house-45-R-DICKIE-DRAKE,1,1
+2014,house,46,R,10778.0,David Faulkner,official_consolidated_candidate_results,ALPERSON-DAVID-FAULKNER,AL-2014-house-46-R-DAVID-FAULKNER,0,1
+2014,house,47,D,2642.0,Salvatore Bambinelli,official_consolidated_candidate_results,ALPERSON-SALVATORE-BAMBINELLI,AL-2014-house-47-D-SALVATORE-BAMBINELLI,0,0
+2014,house,47,R,7073.0,Jack Williams,official_consolidated_candidate_results,ALPERSON-JACK-WILLIAMS,AL-2014-house-47-R-JACK-WILLIAMS,1,1
+2014,house,48,R,11450.0,Jim Carns,official_consolidated_candidate_results,ALPERSON-JIM-CARNS,AL-2014-house-48-R-JIM-CARNS,0,1
+2014,house,49,R,7755.0,April Weaver,official_consolidated_candidate_results,ALPERSON-APRIL-WEAVER,AL-2014-house-49-R-APRIL-WEAVER,1,1
+2014,house,50,R,9201.0,Jim Hill,official_consolidated_candidate_results,ALPERSON-JIM-HILL,AL-2014-house-50-R-JIM-HILL,0,1
+2014,house,51,R,10746.0,Allen Treadaway,official_consolidated_candidate_results,ALPERSON-ALLEN-TREADAWAY,AL-2014-house-51-R-ALLEN-TREADAWAY,1,1
+2014,house,52,D,7305.0,John W. Rogers  Jr.,official_consolidated_candidate_results,ALPERSON-JOHN-W-ROGERS-JR,AL-2014-house-52-D-JOHN-W-ROGERS-JR,1,1
+2014,house,52,R,2207.0,Phillip Bahakel,official_consolidated_candidate_results,ALPERSON-PHILLIP-BAHAKEL,AL-2014-house-52-R-PHILLIP-BAHAKEL,0,0
+2014,house,53,D,4166.0,Anthony Daniels,official_consolidated_candidate_results,ALPERSON-ANTHONY-DANIELS,AL-2014-house-53-D-ANTHONY-DANIELS,0,1
+2014,house,53,R,1190.0,Christopher Horn,official_consolidated_candidate_results,ALPERSON-CHRISTOPHER-HORN,AL-2014-house-53-R-CHRISTOPHER-HORN,0,0
+2014,house,54,D,7601.0,Patricia A. Todd,official_consolidated_candidate_results,ALPERSON-PATRICIA-A-TODD,AL-2014-house-54-D-PATRICIA-A-TODD,1,1
+2014,house,55,D,8453.0,"Roderick ""Rod"" Scott",official_consolidated_candidate_results,ALPERSON-RODERICK-ROD-SCOTT,AL-2014-house-55-D-RODERICK-ROD-SCOTT,1,1
+2014,house,56,D,7960.0,Louise Alexander,official_consolidated_candidate_results,ALPERSON-LOUISE-ALEXANDER,AL-2014-house-56-D-LOUISE-ALEXANDER,0,1
+2014,house,56,R,3680.0,Darius Foster,official_consolidated_candidate_results,ALPERSON-DARIUS-FOSTER,AL-2014-house-56-R-DARIUS-FOSTER,0,0
+2014,house,57,D,10184.0,Merika Coleman,official_consolidated_candidate_results,ALPERSON-MERIKA-COLEMAN,AL-2014-house-57-D-MERIKA-COLEMAN,1,1
+2014,house,58,D,8287.0,Oliver Robinson,official_consolidated_candidate_results,ALPERSON-OLIVER-ROBINSON,AL-2014-house-58-D-OLIVER-ROBINSON,1,1
+2014,house,59,D,7949.0,Mary Moore,official_consolidated_candidate_results,ALPERSON-MARY-MOORE,AL-2014-house-59-D-MARY-MOORE,1,1
+2014,house,60,D,9584.0,"Juandalynn ""Lele"" Givan",official_consolidated_candidate_results,ALPERSON-JUANDALYNN-LELE-GIVAN,AL-2014-house-60-D-JUANDALYNN-LELE-GIVAN,1,1
+2014,house,61,R,9008.0,Alan Harper,official_consolidated_candidate_results,ALPERSON-ALAN-HARPER,AL-2014-house-61-R-ALAN-HARPER,1,1
+2014,house,62,R,8416.0,Rich Wingo,official_consolidated_candidate_results,ALPERSON-RICH-WINGO,AL-2014-house-62-R-RICH-WINGO,0,1
+2014,house,63,R,6249.0,Bill Poole,official_consolidated_candidate_results,ALPERSON-BILL-POOLE,AL-2014-house-63-R-BILL-POOLE,1,1
+2014,house,64,R,8781.0,Harry Shiver,official_consolidated_candidate_results,ALPERSON-HARRY-SHIVER,AL-2014-house-64-R-HARRY-SHIVER,1,1
+2014,house,65,D,8469.0,Elaine Beech,official_consolidated_candidate_results,ALPERSON-ELAINE-BEECH,AL-2014-house-65-D-ELAINE-BEECH,1,1
+2014,house,66,R,7079.0,Alan Baker,official_consolidated_candidate_results,ALPERSON-ALAN-BAKER,AL-2014-house-66-R-ALAN-BAKER,1,1
+2014,house,67,D,9836.0,Darrio Melton,official_consolidated_candidate_results,ALPERSON-DARRIO-MELTON,AL-2014-house-67-D-DARRIO-MELTON,1,1
+2014,house,68,D,8998.0,"Thomas E ""Action"" Jackson",official_consolidated_candidate_results,ALPERSON-THOMAS-E-ACTION-JACKSON,AL-2014-house-68-D-THOMAS-E-ACTION-JACKSON,1,1
+2014,house,69,D,9396.0,Kelvin J. Lawrence,official_consolidated_candidate_results,ALPERSON-KELVIN-J-LAWRENCE,AL-2014-house-69-D-KELVIN-J-LAWRENCE,0,1
+2014,house,69,R,4340.0,Loretta G. Grant,official_consolidated_candidate_results,ALPERSON-LORETTA-G-GRANT,AL-2014-house-69-R-LORETTA-G-GRANT,0,0
+2014,house,70,D,6799.0,Christopher John England,official_consolidated_candidate_results,ALPERSON-CHRISTOPHER-JOHN-ENGLAND,AL-2014-house-70-D-CHRISTOPHER-JOHN-ENGLAND,1,1
+2014,house,71,D,9942.0,Artis (A.J.) McCampbell,official_consolidated_candidate_results,ALPERSON-ARTIS-A-J-MCCAMPBELL,AL-2014-house-71-D-ARTIS-A-J-MCCAMPBELL,1,1
+2014,house,72,D,10435.0,Ralph A. Howard,official_consolidated_candidate_results,ALPERSON-RALPH-A-HOWARD,AL-2014-house-72-D-RALPH-A-HOWARD,1,1
+2014,house,73,R,9183.0,Matt Fridy,official_consolidated_candidate_results,ALPERSON-MATT-FRIDY,AL-2014-house-73-R-MATT-FRIDY,0,1
+2014,house,74,D,3621.0,Zack Buckner,official_consolidated_candidate_results,ALPERSON-ZACK-BUCKNER,AL-2014-house-74-D-ZACK-BUCKNER,0,0
+2014,house,74,R,9481.0,Dimitri Polizos,official_consolidated_candidate_results,ALPERSON-DIMITRI-POLIZOS,AL-2014-house-74-R-DIMITRI-POLIZOS,0,1
+2014,house,75,R,8338.0,Reed Ingram,official_consolidated_candidate_results,ALPERSON-REED-INGRAM,AL-2014-house-75-R-REED-INGRAM,0,1
+2014,house,76,D,8342.0,Thad McClammy,official_consolidated_candidate_results,ALPERSON-THAD-MCCLAMMY,AL-2014-house-76-D-THAD-MCCLAMMY,1,1
+2014,house,77,D,6891.0,John Knight,official_consolidated_candidate_results,ALPERSON-JOHN-KNIGHT,AL-2014-house-77-D-JOHN-KNIGHT,1,1
+2014,house,77,R,3775.0,David Grimes,official_consolidated_candidate_results,ALPERSON-DAVID-GRIMES,AL-2014-house-77-R-DAVID-GRIMES,0,0
+2014,house,78,D,6998.0,Alvin Holmes,official_consolidated_candidate_results,ALPERSON-ALVIN-HOLMES,AL-2014-house-78-D-ALVIN-HOLMES,1,1
+2014,house,78,R,2637.0,Tijuanna Adetunji,official_consolidated_candidate_results,ALPERSON-TIJUANNA-ADETUNJI,AL-2014-house-78-R-TIJUANNA-ADETUNJI,0,0
+2014,house,79,D,3535.0,Shirley Scott-Harris,official_consolidated_candidate_results,ALPERSON-SHIRLEY-SCOTT-HARRIS,AL-2014-house-79-D-SHIRLEY-SCOTT-HARRIS,0,0
+2014,house,79,R,5136.0,Mike Hubbard,official_consolidated_candidate_results,ALPERSON-MIKE-HUBBARD,AL-2014-house-79-R-MIKE-HUBBARD,1,1
+2014,house,80,D,2240.0,Tillman Pugh,official_consolidated_candidate_results,ALPERSON-TILLMAN-PUGH,AL-2014-house-80-D-TILLMAN-PUGH,0,0
+2014,house,80,R,4702.0,Lesley Vance,official_consolidated_candidate_results,ALPERSON-LESLEY-VANCE,AL-2014-house-80-R-LESLEY-VANCE,1,1
+2014,house,81,D,4352.0,Dylan V. Oliver,official_consolidated_candidate_results,ALPERSON-DYLAN-V-OLIVER,AL-2014-house-81-D-DYLAN-V-OLIVER,0,0
+2014,house,81,R,9119.0,Mark M. Tuggle,official_consolidated_candidate_results,ALPERSON-MARK-M-TUGGLE,AL-2014-house-81-R-MARK-M-TUGGLE,1,1
+2014,house,82,D,8455.0,Pebblin W. Warren,official_consolidated_candidate_results,ALPERSON-PEBBLIN-W-WARREN,AL-2014-house-82-D-PEBBLIN-W-WARREN,1,1
+2014,house,83,D,5257.0,"George ""Tootie"" Bandy",official_consolidated_candidate_results,ALPERSON-GEORGE-TOOTIE-BANDY,AL-2014-house-83-D-GEORGE-TOOTIE-BANDY,1,1
+2014,house,83,R,2752.0,Gary Head,official_consolidated_candidate_results,ALPERSON-GARY-HEAD,AL-2014-house-83-R-GARY-HEAD,0,0
+2014,house,84,D,7365.0,Berry Forte,official_consolidated_candidate_results,ALPERSON-BERRY-FORTE,AL-2014-house-84-D-BERRY-FORTE,1,1
+2014,house,84,R,4316.0,Jerry A. McGilvray,official_consolidated_candidate_results,ALPERSON-JERRY-A-MCGILVRAY,AL-2014-house-84-R-JERRY-A-MCGILVRAY,0,0
+2014,house,85,D,5777.0,Dexter Grimsley,official_consolidated_candidate_results,ALPERSON-DEXTER-GRIMSLEY,AL-2014-house-85-D-DEXTER-GRIMSLEY,1,1
+2014,house,85,R,3405.0,Bobby Lewis,official_consolidated_candidate_results,ALPERSON-BOBBY-LEWIS,AL-2014-house-85-R-BOBBY-LEWIS,0,0
+2014,house,86,R,9253.0,Paul W. Lee,official_consolidated_candidate_results,ALPERSON-PAUL-W-LEE,AL-2014-house-86-R-PAUL-W-LEE,1,1
+2014,house,87,R,10404.0,Donnie Chesteen,official_consolidated_candidate_results,ALPERSON-DONNIE-CHESTEEN,AL-2014-house-87-R-DONNIE-CHESTEEN,1,1
+2014,house,88,R,8215.0,Paul Beckman,official_consolidated_candidate_results,ALPERSON-PAUL-BECKMAN,AL-2014-house-88-R-PAUL-BECKMAN,1,1
+2014,house,89,D,5436.0,Joel Lee Williams,official_consolidated_candidate_results,ALPERSON-JOEL-LEE-WILLIAMS,AL-2014-house-89-D-JOEL-LEE-WILLIAMS,0,0
+2014,house,89,R,5519.0,Alan C. Boothe,official_consolidated_candidate_results,ALPERSON-ALAN-C-BOOTHE,AL-2014-house-89-R-ALAN-C-BOOTHE,1,1
+2014,house,90,D,5894.0,Walton Hickman,official_consolidated_candidate_results,ALPERSON-WALTON-HICKMAN,AL-2014-house-90-D-WALTON-HICKMAN,0,0
+2014,house,90,R,7722.0,Chris Sells,official_consolidated_candidate_results,ALPERSON-CHRIS-SELLS,AL-2014-house-90-R-CHRIS-SELLS,0,1
+2014,house,91,R,7484.0,Barry Moore,official_consolidated_candidate_results,ALPERSON-BARRY-MOORE,AL-2014-house-91-R-BARRY-MOORE,1,1
+2014,house,92,R,8081.0,"Mike Jones, Jr.",official_consolidated_candidate_results,ALPERSON-MIKE-JONES-JR,AL-2014-house-92-R-MIKE-JONES-JR,1,1
+2014,house,93,D,2773.0,Jennifer Marsden,official_consolidated_candidate_results,ALPERSON-JENNIFER-MARSDEN,AL-2014-house-93-D-JENNIFER-MARSDEN,0,0
+2014,house,93,R,9139.0,Steve Clouse,official_consolidated_candidate_results,ALPERSON-STEVE-CLOUSE,AL-2014-house-93-R-STEVE-CLOUSE,1,1
+2014,house,94,R,10738.0,T. Joe Faust,official_consolidated_candidate_results,ALPERSON-T-JOE-FAUST,AL-2014-house-94-R-T-JOE-FAUST,1,1
+2014,house,95,R,10336.0,Steve McMillan,official_consolidated_candidate_results,ALPERSON-STEVE-MCMILLAN,AL-2014-house-95-R-STEVE-MCMILLAN,1,1
+2014,house,96,R,10007.0,Randy Davis,official_consolidated_candidate_results,ALPERSON-RANDY-DAVIS,AL-2014-house-96-R-RANDY-DAVIS,1,1
+2014,house,97,D,6168.0,Adline C. Clarke,official_consolidated_candidate_results,ALPERSON-ADLINE-C-CLARKE,AL-2014-house-97-D-ADLINE-C-CLARKE,0,1
+2014,house,98,D,6134.0,"Napoleon Bracy, Jr.",official_consolidated_candidate_results,ALPERSON-NAPOLEON-BRACY-JR,AL-2014-house-98-D-NAPOLEON-BRACY-JR,1,1
+2014,house,98,R,3276.0,Wayne E. Biggs,official_consolidated_candidate_results,ALPERSON-WAYNE-E-BIGGS,AL-2014-house-98-R-WAYNE-E-BIGGS,0,0
+2014,house,99,D,7586.0,James E. Buskey,official_consolidated_candidate_results,ALPERSON-JAMES-E-BUSKEY,AL-2014-house-99-D-JAMES-E-BUSKEY,1,1
+2014,house,100,R,7878.0,Victor Gaston,official_consolidated_candidate_results,ALPERSON-VICTOR-GASTON,AL-2014-house-100-R-VICTOR-GASTON,1,1
+2014,house,101,R,7382.0,Chris Pringle,official_consolidated_candidate_results,ALPERSON-CHRIS-PRINGLE,AL-2014-house-101-R-CHRIS-PRINGLE,0,1
+2014,house,102,R,6688.0,Jack Williams,official_consolidated_candidate_results,ALPERSON-JACK-WILLIAMS,AL-2014-house-102-R-JACK-WILLIAMS,0,1
+2014,house,103,D,5608.0,Barbara A. Drummond,official_consolidated_candidate_results,ALPERSON-BARBARA-A-DRUMMOND,AL-2014-house-103-D-BARBARA-A-DRUMMOND,0,1
+2014,house,103,R,2065.0,Ralph Carmichael,official_consolidated_candidate_results,ALPERSON-RALPH-CARMICHAEL,AL-2014-house-103-R-RALPH-CARMICHAEL,0,0
+2014,house,104,R,7745.0,Margie Wilcox,official_consolidated_candidate_results,ALPERSON-MARGIE-WILCOX,AL-2014-house-104-R-MARGIE-WILCOX,0,1
+2014,house,105,R,6227.0,David Sessions,official_consolidated_candidate_results,ALPERSON-DAVID-SESSIONS,AL-2014-house-105-R-DAVID-SESSIONS,0,1
+2014,senate,1,D,13704.0,Mike Curtis,official_consolidated_candidate_results,ALPERSON-MIKE-CURTIS,AL-2014-senate-1-D-MIKE-CURTIS,0,0
+2014,senate,1,R,22982.0,Tim Melson,official_consolidated_candidate_results,ALPERSON-TIM-MELSON,AL-2014-senate-1-R-TIM-MELSON,0,1
+2014,senate,2,R,24936.0,Bill Holtzclaw,official_consolidated_candidate_results,ALPERSON-BILL-HOLTZCLAW,AL-2014-senate-2-R-BILL-HOLTZCLAW,1,1
+2014,senate,3,R,26906.0,Arthur Orr,official_consolidated_candidate_results,ALPERSON-ARTHUR-ORR,AL-2014-senate-3-R-ARTHUR-ORR,1,1
+2014,senate,4,D,8875.0,"Angelo ""Doc"" Mancuso",official_consolidated_candidate_results,ALPERSON-ANGELO-DOC-MANCUSO,AL-2014-senate-4-D-ANGELO-DOC-MANCUSO,0,0
+2014,senate,4,R,24750.0,Paul Bussman,official_consolidated_candidate_results,ALPERSON-PAUL-BUSSMAN,AL-2014-senate-4-R-PAUL-BUSSMAN,1,1
+2014,senate,5,R,29611.0,Greg Reed,official_consolidated_candidate_results,ALPERSON-GREG-REED,AL-2014-senate-5-R-GREG-REED,1,1
+2014,senate,6,D,17574.0,"Roger Bedford, Jr.",official_consolidated_candidate_results,ALPERSON-ROGER-BEDFORD-JR,AL-2014-senate-6-D-ROGER-BEDFORD-JR,1,0
+2014,senate,6,R,17641.0,Larry Stutts,official_consolidated_candidate_results,ALPERSON-LARRY-STUTTS,AL-2014-senate-6-R-LARRY-STUTTS,0,1
+2014,senate,7,D,12404.0,Bryan Bennett,official_consolidated_candidate_results,ALPERSON-BRYAN-BENNETT,AL-2014-senate-7-D-BRYAN-BENNETT,0,0
+2014,senate,7,R,22873.0,Paul L. Sanford,official_consolidated_candidate_results,ALPERSON-PAUL-L-SANFORD,AL-2014-senate-7-R-PAUL-L-SANFORD,1,1
+2014,senate,8,D,9322.0,Horace Clemmons,official_consolidated_candidate_results,ALPERSON-HORACE-CLEMMONS,AL-2014-senate-8-D-HORACE-CLEMMONS,0,0
+2014,senate,8,R,24332.0,Steve Livingston,official_consolidated_candidate_results,ALPERSON-STEVE-LIVINGSTON,AL-2014-senate-8-R-STEVE-LIVINGSTON,0,1
+2014,senate,9,R,22574.0,Clay Scofield,official_consolidated_candidate_results,ALPERSON-CLAY-SCOFIELD,AL-2014-senate-9-R-CLAY-SCOFIELD,1,1
+2014,senate,10,D,16216.0,Larry Means,official_consolidated_candidate_results,ALPERSON-LARRY-MEANS,AL-2014-senate-10-D-LARRY-MEANS,0,0
+2014,senate,10,R,17378.0,Phil Williams,official_consolidated_candidate_results,ALPERSON-PHIL-WILLIAMS,AL-2014-senate-10-R-PHIL-WILLIAMS,1,1
+2014,senate,11,D,6981.0,Ron Crumpton,official_consolidated_candidate_results,ALPERSON-RON-CRUMPTON,AL-2014-senate-11-D-RON-CRUMPTON,0,0
+2014,senate,11,R,24318.0,Jim McClendon,official_consolidated_candidate_results,ALPERSON-JIM-MCCLENDON,AL-2014-senate-11-R-JIM-MCCLENDON,0,1
+2014,senate,12,D,36062.0,Taylor Stewart,official_consolidated_candidate_results,ALPERSON-TAYLOR-STEWART,AL-2014-senate-12-D-TAYLOR-STEWART,0,0
+2014,senate,12,R,47734.0,Del Marsh,official_consolidated_candidate_results,ALPERSON-DEL-MARSH,AL-2014-senate-12-R-DEL-MARSH,1,1
+2014,senate,13,D,10424.0,Darrell Turner,official_consolidated_candidate_results,ALPERSON-DARRELL-TURNER,AL-2014-senate-13-D-DARRELL-TURNER,0,0
+2014,senate,13,R,16758.0,Gerald Dial,official_consolidated_candidate_results,ALPERSON-GERALD-DIAL,AL-2014-senate-13-R-GERALD-DIAL,1,1
+2014,senate,14,R,25724.0,Cam Ward,official_consolidated_candidate_results,ALPERSON-CAM-WARD,AL-2014-senate-14-R-CAM-WARD,1,1
+2014,senate,15,R,29498.0,Slade Blackwell,official_consolidated_candidate_results,ALPERSON-SLADE-BLACKWELL,AL-2014-senate-15-R-SLADE-BLACKWELL,1,1
+2014,senate,16,D,8284.0,Cindy Bell,official_consolidated_candidate_results,ALPERSON-CINDY-BELL,AL-2014-senate-16-D-CINDY-BELL,0,0
+2014,senate,16,R,28107.0,"J.T. ""Jabo"" Waggoner",official_consolidated_candidate_results,ALPERSON-J-T-JABO-WAGGONER,AL-2014-senate-16-R-J-T-JABO-WAGGONER,1,1
+2014,senate,17,R,31105.0,Shay Shelnutt,official_consolidated_candidate_results,ALPERSON-SHAY-SHELNUTT,AL-2014-senate-17-R-SHAY-SHELNUTT,0,1
+2014,senate,18,D,23195.0,Rodger M. Smitherman,official_consolidated_candidate_results,ALPERSON-RODGER-M-SMITHERMAN,AL-2014-senate-18-D-RODGER-M-SMITHERMAN,1,1
+2014,senate,19,D,27143.0,Priscilla Dunn,official_consolidated_candidate_results,ALPERSON-PRISCILLA-DUNN,AL-2014-senate-19-D-PRISCILLA-DUNN,1,1
+2014,senate,20,D,23368.0,Linda Coleman,official_consolidated_candidate_results,ALPERSON-LINDA-COLEMAN,AL-2014-senate-20-D-LINDA-COLEMAN,1,1
+2014,senate,21,D,12161.0,Phil Poole,official_consolidated_candidate_results,ALPERSON-PHIL-POOLE,AL-2014-senate-21-D-PHIL-POOLE,0,0
+2014,senate,21,R,20179.0,Gerald Allen,official_consolidated_candidate_results,ALPERSON-GERALD-ALLEN,AL-2014-senate-21-R-GERALD-ALLEN,1,1
+2014,senate,22,D,11136.0,Susan Smith,official_consolidated_candidate_results,ALPERSON-SUSAN-SMITH,AL-2014-senate-22-D-SUSAN-SMITH,0,0
+2014,senate,22,R,23065.0,Greg Albritton,official_consolidated_candidate_results,ALPERSON-GREG-ALBRITTON,AL-2014-senate-22-R-GREG-ALBRITTON,0,1
+2014,senate,23,D,29306.0,Hank Sanders,official_consolidated_candidate_results,ALPERSON-HANK-SANDERS,AL-2014-senate-23-D-HANK-SANDERS,1,1
+2014,senate,24,D,26859.0,Bobby Singleton,official_consolidated_candidate_results,ALPERSON-BOBBY-SINGLETON,AL-2014-senate-24-D-BOBBY-SINGLETON,1,1
+2014,senate,25,R,29545.0,Dick L. Brewbaker,official_consolidated_candidate_results,ALPERSON-DICK-L-BREWBAKER,AL-2014-senate-25-R-DICK-L-BREWBAKER,1,1
+2014,senate,26,D,25166.0,"Quinton T. Ross, Jr.",official_consolidated_candidate_results,ALPERSON-QUINTON-T-ROSS-JR,AL-2014-senate-26-D-QUINTON-T-ROSS-JR,1,1
+2014,senate,27,D,10358.0,Haylee Moss,official_consolidated_candidate_results,ALPERSON-HAYLEE-MOSS,AL-2014-senate-27-D-HAYLEE-MOSS,0,0
+2014,senate,27,R,19808.0,Tom Whatley,official_consolidated_candidate_results,ALPERSON-TOM-WHATLEY,AL-2014-senate-27-R-TOM-WHATLEY,1,1
+2014,senate,28,D,22147.0,Billy Beasley,official_consolidated_candidate_results,ALPERSON-BILLY-BEASLEY,AL-2014-senate-28-D-BILLY-BEASLEY,1,1
+2014,senate,28,R,8020.0,John Savage,official_consolidated_candidate_results,ALPERSON-JOHN-SAVAGE,AL-2014-senate-28-R-JOHN-SAVAGE,0,0
+2014,senate,29,R,16145.0,Melinda McClendon,official_consolidated_candidate_results,ALPERSON-MELINDA-MCCLENDON,AL-2014-senate-29-R-MELINDA-MCCLENDON,0,1
+2014,senate,30,R,22916.0,"Clyde Chambliss, Jr.",official_consolidated_candidate_results,ALPERSON-CLYDE-CHAMBLISS-JR,AL-2014-senate-30-R-CLYDE-CHAMBLISS-JR,0,1
+2014,senate,31,D,8627.0,Larry Greenwood,official_consolidated_candidate_results,ALPERSON-LARRY-GREENWOOD,AL-2014-senate-31-D-LARRY-GREENWOOD,0,0
+2014,senate,31,R,23066.0,Jimmy W. Holley,official_consolidated_candidate_results,ALPERSON-JIMMY-W-HOLLEY,AL-2014-senate-31-R-JIMMY-W-HOLLEY,1,1
+2014,senate,32,R,27837.0,Trip Pittman,official_consolidated_candidate_results,ALPERSON-TRIP-PITTMAN,AL-2014-senate-32-R-TRIP-PITTMAN,1,1
+2014,senate,33,D,23012.0,Vivian Davis Figures,official_consolidated_candidate_results,ALPERSON-VIVIAN-DAVIS-FIGURES,AL-2014-senate-33-D-VIVIAN-DAVIS-FIGURES,1,1
+2014,senate,34,R,22451.0,Rusty Glover,official_consolidated_candidate_results,ALPERSON-RUSTY-GLOVER,AL-2014-senate-34-R-RUSTY-GLOVER,1,1
+2014,senate,35,D,6862.0,Beau Doolittle,official_consolidated_candidate_results,ALPERSON-BEAU-DOOLITTLE,AL-2014-senate-35-D-BEAU-DOOLITTLE,0,0
+2014,senate,35,R,19173.0,Bill Hightower,official_consolidated_candidate_results,ALPERSON-BILL-HIGHTOWER,AL-2014-senate-35-R-BILL-HIGHTOWER,0,1
+2018,house,1,R,7348.0,Phillip Pettus,official_consolidated_candidate_results,ALPERSON-PHILLIP-PETTUS,AL-2018-house-1-R-PHILLIP-PETTUS,1,1
+2018,house,2,D,4798.0,Lora Kay Morrow,official_consolidated_candidate_results,ALPERSON-LORA-KAY-MORROW,AL-2018-house-2-D-LORA-KAY-MORROW,0,0
+2018,house,2,R,13056.0,Lynn Greer,official_consolidated_candidate_results,ALPERSON-LYNN-GREER,AL-2018-house-2-R-LYNN-GREER,1,1
+2018,house,3,D,8540.0,Chad Young,official_consolidated_candidate_results,ALPERSON-CHAD-YOUNG,AL-2018-house-3-D-CHAD-YOUNG,0,0
+2018,house,3,R,9448.0,Andrew Sorrell,official_consolidated_candidate_results,ALPERSON-ANDREW-SORRELL,AL-2018-house-3-R-ANDREW-SORRELL,0,1
+2018,house,4,D,4325.0,Jo Ann Cummings,official_consolidated_candidate_results,ALPERSON-JO-ANN-CUMMINGS,AL-2018-house-4-D-JO-ANN-CUMMINGS,0,0
+2018,house,4,R,11074.0,Parker Duncan Moore,official_consolidated_candidate_results,ALPERSON-PARKER-DUNCAN-MOORE,AL-2018-house-4-R-PARKER-DUNCAN-MOORE,0,1
+2018,house,5,D,4725.0,Brian D Williams,official_consolidated_candidate_results,ALPERSON-BRIAN-D-WILLIAMS,AL-2018-house-5-D-BRIAN-D-WILLIAMS,0,0
+2018,house,5,R,12395.0,Danny F. Crawford,official_consolidated_candidate_results,ALPERSON-DANNY-F-CRAWFORD,AL-2018-house-5-R-DANNY-F-CRAWFORD,1,1
+2018,house,6,R,11893.0,Andy Whitt,official_consolidated_candidate_results,ALPERSON-ANDY-WHITT,AL-2018-house-6-R-ANDY-WHITT,0,1
+2018,house,7,D,3592.0,Kenneth A. Brackins,official_consolidated_candidate_results,ALPERSON-KENNETH-A-BRACKINS,AL-2018-house-7-D-KENNETH-A-BRACKINS,0,0
+2018,house,7,R,10892.0,Proncey Robertson,official_consolidated_candidate_results,ALPERSON-PRONCEY-ROBERTSON,AL-2018-house-7-R-PRONCEY-ROBERTSON,0,1
+2018,house,8,D,5469.0,Billy Jackson,official_consolidated_candidate_results,ALPERSON-BILLY-JACKSON,AL-2018-house-8-D-BILLY-JACKSON,0,0
+2018,house,8,R,8803.0,Terri Collins,official_consolidated_candidate_results,ALPERSON-TERRI-COLLINS,AL-2018-house-8-R-TERRI-COLLINS,1,1
+2018,house,9,R,13297.0,Scott Stadthagen,official_consolidated_candidate_results,ALPERSON-SCOTT-STADTHAGEN,AL-2018-house-9-R-SCOTT-STADTHAGEN,0,1
+2018,house,10,D,8565.0,J.B. King,official_consolidated_candidate_results,ALPERSON-J-B-KING,AL-2018-house-10-D-J-B-KING,0,0
+2018,house,10,R,11240.0,Mike Ball,official_consolidated_candidate_results,ALPERSON-MIKE-BALL,AL-2018-house-10-R-MIKE-BALL,1,1
+2018,house,11,R,13098.0,Randall Shedd,official_consolidated_candidate_results,ALPERSON-RANDALL-SHEDD,AL-2018-house-11-R-RANDALL-SHEDD,1,1
+2018,house,12,R,14687.0,Corey Harbison,official_consolidated_candidate_results,ALPERSON-COREY-HARBISON,AL-2018-house-12-R-COREY-HARBISON,1,1
+2018,house,13,R,13755.0,Connie Cooner Rowe,official_consolidated_candidate_results,ALPERSON-CONNIE-COONER-ROWE,AL-2018-house-13-R-CONNIE-COONER-ROWE,1,1
+2018,house,14,R,13394.0,Tim Wadsworth,official_consolidated_candidate_results,ALPERSON-TIM-WADSWORTH,AL-2018-house-14-R-TIM-WADSWORTH,1,1
+2018,house,15,D,6951.0,Suzanna Coleman,official_consolidated_candidate_results,ALPERSON-SUZANNA-COLEMAN,AL-2018-house-15-D-SUZANNA-COLEMAN,0,0
+2018,house,15,R,14212.0,Allen Farley,official_consolidated_candidate_results,ALPERSON-ALLEN-FARLEY,AL-2018-house-15-R-ALLEN-FARLEY,1,1
+2018,house,16,R,14681.0,Kyle South,official_consolidated_candidate_results,ALPERSON-KYLE-SOUTH,AL-2018-house-16-R-KYLE-SOUTH,1,1
+2018,house,17,R,12158.0,Tracy Estes,official_consolidated_candidate_results,ALPERSON-TRACY-ESTES,AL-2018-house-17-R-TRACY-ESTES,0,1
+2018,house,18,D,3886.0,Eddie Britton,official_consolidated_candidate_results,ALPERSON-EDDIE-BRITTON,AL-2018-house-18-D-EDDIE-BRITTON,0,0
+2018,house,18,R,9845.0,Jamie Kiel,official_consolidated_candidate_results,ALPERSON-JAMIE-KIEL,AL-2018-house-18-R-JAMIE-KIEL,0,1
+2018,house,19,D,12675.0,Laura Hall,official_consolidated_candidate_results,ALPERSON-LAURA-HALL,AL-2018-house-19-D-LAURA-HALL,1,1
+2018,house,20,D,8527.0,Linda Meigs,official_consolidated_candidate_results,ALPERSON-LINDA-MEIGS,AL-2018-house-20-D-LINDA-MEIGS,0,0
+2018,house,20,R,14589.0,Howard Sanderford,official_consolidated_candidate_results,ALPERSON-HOWARD-SANDERFORD,AL-2018-house-20-R-HOWARD-SANDERFORD,1,1
+2018,house,21,D,8391.0,Terry Jones,official_consolidated_candidate_results,ALPERSON-TERRY-JONES,AL-2018-house-21-D-TERRY-JONES,0,0
+2018,house,21,R,13311.0,Rex Reynolds,official_consolidated_candidate_results,ALPERSON-REX-REYNOLDS,AL-2018-house-21-R-REX-REYNOLDS,1,1
+2018,house,22,R,13929.0,Ritchie Whorton,official_consolidated_candidate_results,ALPERSON-RITCHIE-WHORTON,AL-2018-house-22-R-RITCHIE-WHORTON,1,1
+2018,house,23,R,10823.0,Tommy Hanes,official_consolidated_candidate_results,ALPERSON-TOMMY-HANES,AL-2018-house-23-R-TOMMY-HANES,1,1
+2018,house,24,R,12394.0,Nathaniel Ledbetter,official_consolidated_candidate_results,ALPERSON-NATHANIEL-LEDBETTER,AL-2018-house-24-R-NATHANIEL-LEDBETTER,1,1
+2018,house,25,R,14974.0,Mac McCutcheon,official_consolidated_candidate_results,ALPERSON-MAC-MCCUTCHEON,AL-2018-house-25-R-MAC-MCCUTCHEON,1,1
+2018,house,26,R,8948.0,Kerry Rich,official_consolidated_candidate_results,ALPERSON-KERRY-RICH,AL-2018-house-26-R-KERRY-RICH,1,1
+2018,house,27,D,2456.0,Bill Jones,official_consolidated_candidate_results,ALPERSON-BILL-JONES,AL-2018-house-27-D-BILL-JONES,0,0
+2018,house,27,R,13245.0,Wes Kitchens,official_consolidated_candidate_results,ALPERSON-WES-KITCHENS,AL-2018-house-27-R-WES-KITCHENS,0,1
+2018,house,28,D,5731.0,Kyle Pierce,official_consolidated_candidate_results,ALPERSON-KYLE-PIERCE,AL-2018-house-28-D-KYLE-PIERCE,0,0
+2018,house,28,R,7091.0,Gil F. Isbell,official_consolidated_candidate_results,ALPERSON-GIL-F-ISBELL,AL-2018-house-28-R-GIL-F-ISBELL,0,1
+2018,house,29,D,3032.0,Jared Millican,official_consolidated_candidate_results,ALPERSON-JARED-MILLICAN,AL-2018-house-29-D-JARED-MILLICAN,0,0
+2018,house,29,R,11528.0,Becky Nordgren,official_consolidated_candidate_results,ALPERSON-BECKY-NORDGREN,AL-2018-house-29-R-BECKY-NORDGREN,1,1
+2018,house,30,D,2931.0,Jared Vaughn,official_consolidated_candidate_results,ALPERSON-JARED-VAUGHN,AL-2018-house-30-D-JARED-VAUGHN,0,0
+2018,house,30,R,13779.0,B. Craig Lipscomb,official_consolidated_candidate_results,ALPERSON-B-CRAIG-LIPSCOMB,AL-2018-house-30-R-B-CRAIG-LIPSCOMB,0,1
+2018,house,31,R,14323.0,Mike Holmes,official_consolidated_candidate_results,ALPERSON-MIKE-HOLMES,AL-2018-house-31-R-MIKE-HOLMES,1,1
+2018,house,32,D,7761.0,Barbara Bigsby Boyd,official_consolidated_candidate_results,ALPERSON-BARBARA-BIGSBY-BOYD,AL-2018-house-32-D-BARBARA-BIGSBY-BOYD,1,1
+2018,house,32,R,4513.0,James Allen Lloyd,official_consolidated_candidate_results,ALPERSON-JAMES-ALLEN-LLOYD,AL-2018-house-32-R-JAMES-ALLEN-LLOYD,0,0
+2018,house,33,D,4928.0,Scott Brewer,official_consolidated_candidate_results,ALPERSON-SCOTT-BREWER,AL-2018-house-33-D-SCOTT-BREWER,0,0
+2018,house,33,R,10155.0,Ron Johnson,official_consolidated_candidate_results,ALPERSON-RON-JOHNSON,AL-2018-house-33-R-RON-JOHNSON,1,1
+2018,house,34,R,13331.0,David Standridge,official_consolidated_candidate_results,ALPERSON-DAVID-STANDRIDGE,AL-2018-house-34-R-DAVID-STANDRIDGE,1,1
+2018,house,35,R,11567.0,Steve Hurst,official_consolidated_candidate_results,ALPERSON-STEVE-HURST,AL-2018-house-35-R-STEVE-HURST,1,1
+2018,house,36,D,4256.0,Nicki Arnold-Swindle,official_consolidated_candidate_results,ALPERSON-NICKI-ARNOLD-SWINDLE,AL-2018-house-36-D-NICKI-ARNOLD-SWINDLE,0,0
+2018,house,36,R,11399.0,Randy Wood,official_consolidated_candidate_results,ALPERSON-RANDY-WOOD,AL-2018-house-36-R-RANDY-WOOD,1,1
+2018,house,37,D,4505.0,Charlotte A. Clark-Frieson,official_consolidated_candidate_results,ALPERSON-CHARLOTTE-A-CLARK-FRIESON,AL-2018-house-37-D-CHARLOTTE-A-CLARK-FRIESON,0,0
+2018,house,37,R,11153.0,Bob Fincher,official_consolidated_candidate_results,ALPERSON-BOB-FINCHER,AL-2018-house-37-R-BOB-FINCHER,1,1
+2018,house,38,D,4944.0,Brian McGee,official_consolidated_candidate_results,ALPERSON-BRIAN-MCGEE,AL-2018-house-38-D-BRIAN-MCGEE,0,0
+2018,house,38,R,11151.0,Debbie Hamby Wood,official_consolidated_candidate_results,ALPERSON-DEBBIE-HAMBY-WOOD,AL-2018-house-38-R-DEBBIE-HAMBY-WOOD,0,1
+2018,house,39,R,11585.0,Ginny Shaver,official_consolidated_candidate_results,ALPERSON-GINNY-SHAVER,AL-2018-house-39-R-GINNY-SHAVER,0,1
+2018,house,40,D,3819.0,Pamela Jean Howard,official_consolidated_candidate_results,ALPERSON-PAMELA-JEAN-HOWARD,AL-2018-house-40-D-PAMELA-JEAN-HOWARD,0,0
+2018,house,40,R,11188.0,"Koven ""K.L."" Brown",official_consolidated_candidate_results,ALPERSON-KOVEN-K-L-BROWN,AL-2018-house-40-R-KOVEN-K-L-BROWN,1,1
+2018,house,41,D,4610.0,Emily Anne Marcum,official_consolidated_candidate_results,ALPERSON-EMILY-ANNE-MARCUM,AL-2018-house-41-D-EMILY-ANNE-MARCUM,0,0
+2018,house,41,R,14088.0,Corley Ellis,official_consolidated_candidate_results,ALPERSON-CORLEY-ELLIS,AL-2018-house-41-R-CORLEY-ELLIS,1,1
+2018,house,42,R,12412.0,"James M. ""Jimmy"" Martin",official_consolidated_candidate_results,ALPERSON-JAMES-M-JIMMY-MARTIN,AL-2018-house-42-R-JAMES-M-JIMMY-MARTIN,1,1
+2018,house,43,D,5847.0,Carin Mayo,official_consolidated_candidate_results,ALPERSON-CARIN-MAYO,AL-2018-house-43-D-CARIN-MAYO,0,0
+2018,house,43,R,15035.0,Arnold G. Mooney II,official_consolidated_candidate_results,ALPERSON-ARNOLD-G-MOONEY-II,AL-2018-house-43-R-ARNOLD-G-MOONEY-II,1,1
+2018,house,44,R,14597.0,Danny Garrett,official_consolidated_candidate_results,ALPERSON-DANNY-GARRETT,AL-2018-house-44-R-DANNY-GARRETT,1,1
+2018,house,45,D,7148.0,Jenn Gray,official_consolidated_candidate_results,ALPERSON-JENN-GRAY,AL-2018-house-45-D-JENN-GRAY,0,0
+2018,house,45,R,13669.0,Dickie Drake,official_consolidated_candidate_results,ALPERSON-DICKIE-DRAKE,AL-2018-house-45-R-DICKIE-DRAKE,1,1
+2018,house,46,D,8445.0,Felicia Stewart,official_consolidated_candidate_results,ALPERSON-FELICIA-STEWART,AL-2018-house-46-D-FELICIA-STEWART,0,0
+2018,house,46,R,13341.0,David Faulkner,official_consolidated_candidate_results,ALPERSON-DAVID-FAULKNER,AL-2018-house-46-R-DAVID-FAULKNER,1,1
+2018,house,47,D,7721.0,Jim Toomey,official_consolidated_candidate_results,ALPERSON-JIM-TOOMEY,AL-2018-house-47-D-JIM-TOOMEY,0,0
+2018,house,47,R,9170.0,David Wheeler,official_consolidated_candidate_results,ALPERSON-DAVID-WHEELER,AL-2018-house-47-R-DAVID-WHEELER,0,1
+2018,house,48,D,7832.0,Alli Summerford,official_consolidated_candidate_results,ALPERSON-ALLI-SUMMERFORD,AL-2018-house-48-D-ALLI-SUMMERFORD,0,0
+2018,house,48,R,14789.0,Jim Carns,official_consolidated_candidate_results,ALPERSON-JIM-CARNS,AL-2018-house-48-R-JIM-CARNS,1,1
+2018,house,49,R,10794.0,April Weaver,official_consolidated_candidate_results,ALPERSON-APRIL-WEAVER,AL-2018-house-49-R-APRIL-WEAVER,1,1
+2018,house,50,R,14412.0,Jim Hill,official_consolidated_candidate_results,ALPERSON-JIM-HILL,AL-2018-house-50-R-JIM-HILL,1,1
+2018,house,51,D,3174.0,Veronica R. Johnson,official_consolidated_candidate_results,ALPERSON-VERONICA-R-JOHNSON,AL-2018-house-51-D-VERONICA-R-JOHNSON,0,0
+2018,house,51,R,15390.0,Allen Treadaway,official_consolidated_candidate_results,ALPERSON-ALLEN-TREADAWAY,AL-2018-house-51-R-ALLEN-TREADAWAY,1,1
+2018,house,52,D,13284.0,"John W. Rogers, Jr.",official_consolidated_candidate_results,ALPERSON-JOHN-W-ROGERS-JR,AL-2018-house-52-D-JOHN-W-ROGERS-JR,1,1
+2018,house,53,D,8375.0,Anthony Daniels,official_consolidated_candidate_results,ALPERSON-ANTHONY-DANIELS,AL-2018-house-53-D-ANTHONY-DANIELS,1,1
+2018,house,54,D,13287.0,Neil Rafferty,official_consolidated_candidate_results,ALPERSON-NEIL-RAFFERTY,AL-2018-house-54-D-NEIL-RAFFERTY,0,1
+2018,house,55,D,13109.0,"Roderick ""Rod"" Hampton Scott",official_consolidated_candidate_results,ALPERSON-RODERICK-ROD-HAMPTON-SCOTT,AL-2018-house-55-D-RODERICK-ROD-HAMPTON-SCOTT,1,1
+2018,house,56,D,13769.0,"Louise ""Lulu"" Alexander",official_consolidated_candidate_results,ALPERSON-LOUISE-LULU-ALEXANDER,AL-2018-house-56-D-LOUISE-LULU-ALEXANDER,1,1
+2018,house,57,D,12831.0,Merika Coleman,official_consolidated_candidate_results,ALPERSON-MERIKA-COLEMAN,AL-2018-house-57-D-MERIKA-COLEMAN,1,1
+2018,house,58,D,12498.0,Rolanda Hollis,official_consolidated_candidate_results,ALPERSON-ROLANDA-HOLLIS,AL-2018-house-58-D-ROLANDA-HOLLIS,1,1
+2018,house,59,D,12036.0,Mary Moore,official_consolidated_candidate_results,ALPERSON-MARY-MOORE,AL-2018-house-59-D-MARY-MOORE,1,1
+2018,house,60,D,14432.0,Juandalynn Givan,official_consolidated_candidate_results,ALPERSON-JUANDALYNN-GIVAN,AL-2018-house-60-D-JUANDALYNN-GIVAN,1,1
+2018,house,61,D,6491.0,"Thomas ""Tommy"" Hyche",official_consolidated_candidate_results,ALPERSON-THOMAS-TOMMY-HYCHE,AL-2018-house-61-D-THOMAS-TOMMY-HYCHE,0,0
+2018,house,61,R,12407.0,Rodney Sullivan,official_consolidated_candidate_results,ALPERSON-RODNEY-SULLIVAN,AL-2018-house-61-R-RODNEY-SULLIVAN,0,1
+2018,house,62,D,5265.0,Will Benton,official_consolidated_candidate_results,ALPERSON-WILL-BENTON,AL-2018-house-62-D-WILL-BENTON,0,0
+2018,house,62,R,11282.0,Rich Wingo,official_consolidated_candidate_results,ALPERSON-RICH-WINGO,AL-2018-house-62-R-RICH-WINGO,1,1
+2018,house,63,R,10239.0,Bill Poole,official_consolidated_candidate_results,ALPERSON-BILL-POOLE,AL-2018-house-63-R-BILL-POOLE,1,1
+2018,house,64,D,4022.0,Amber Selman-Lynn,official_consolidated_candidate_results,ALPERSON-AMBER-SELMAN-LYNN,AL-2018-house-64-D-AMBER-SELMAN-LYNN,0,0
+2018,house,64,R,13030.0,Harry Shiver,official_consolidated_candidate_results,ALPERSON-HARRY-SHIVER,AL-2018-house-64-R-HARRY-SHIVER,1,1
+2018,house,65,D,9010.0,Elaine Beech,official_consolidated_candidate_results,ALPERSON-ELAINE-BEECH,AL-2018-house-65-D-ELAINE-BEECH,1,0
+2018,house,65,R,10095.0,Brett Easterbrook,official_consolidated_candidate_results,ALPERSON-BRETT-EASTERBROOK,AL-2018-house-65-R-BRETT-EASTERBROOK,0,1
+2018,house,66,D,4008.0,Susan E. Smith,official_consolidated_candidate_results,ALPERSON-SUSAN-E-SMITH,AL-2018-house-66-D-SUSAN-E-SMITH,0,0
+2018,house,66,R,10431.0,Alan Baker,official_consolidated_candidate_results,ALPERSON-ALAN-BAKER,AL-2018-house-66-R-ALAN-BAKER,1,1
+2018,house,67,D,11239.0,Prince Chestnut,official_consolidated_candidate_results,ALPERSON-PRINCE-CHESTNUT,AL-2018-house-67-D-PRINCE-CHESTNUT,1,1
+2018,house,68,D,10382.0,"Thomas E. ""Action"" Jackson",official_consolidated_candidate_results,ALPERSON-THOMAS-E-ACTION-JACKSON,AL-2018-house-68-D-THOMAS-E-ACTION-JACKSON,1,1
+2018,house,69,D,12867.0,Kelvin Jamichael Lawrence,official_consolidated_candidate_results,ALPERSON-KELVIN-JAMICHAEL-LAWRENCE,AL-2018-house-69-D-KELVIN-JAMICHAEL-LAWRENCE,0,1
+2018,house,70,D,11541.0,Christopher John England,official_consolidated_candidate_results,ALPERSON-CHRISTOPHER-JOHN-ENGLAND,AL-2018-house-70-D-CHRISTOPHER-JOHN-ENGLAND,1,1
+2018,house,71,D,12400.0,"Artis ""A.J."" McCampbell",official_consolidated_candidate_results,ALPERSON-ARTIS-A-J-MCCAMPBELL,AL-2018-house-71-D-ARTIS-A-J-MCCAMPBELL,1,1
+2018,house,72,D,12811.0,Ralph A. Howard,official_consolidated_candidate_results,ALPERSON-RALPH-A-HOWARD,AL-2018-house-72-D-RALPH-A-HOWARD,1,1
+2018,house,73,D,5772.0,Jack Jacobs,official_consolidated_candidate_results,ALPERSON-JACK-JACOBS,AL-2018-house-73-D-JACK-JACOBS,0,0
+2018,house,73,R,12913.0,Matt Fridy,official_consolidated_candidate_results,ALPERSON-MATT-FRIDY,AL-2018-house-73-R-MATT-FRIDY,1,1
+2018,house,74,D,6160.0,Rayford Mack,official_consolidated_candidate_results,ALPERSON-RAYFORD-MACK,AL-2018-house-74-D-RAYFORD-MACK,0,0
+2018,house,74,R,9449.0,Dimitri Polizos,official_consolidated_candidate_results,ALPERSON-DIMITRI-POLIZOS,AL-2018-house-74-R-DIMITRI-POLIZOS,1,1
+2018,house,75,R,13229.0,Reed Ingram,official_consolidated_candidate_results,ALPERSON-REED-INGRAM,AL-2018-house-75-R-REED-INGRAM,1,1
+2018,house,76,D,11681.0,Thad McClammy,official_consolidated_candidate_results,ALPERSON-THAD-MCCLAMMY,AL-2018-house-76-D-THAD-MCCLAMMY,1,1
+2018,house,77,D,10638.0,Tashina Morris,official_consolidated_candidate_results,ALPERSON-TASHINA-MORRIS,AL-2018-house-77-D-TASHINA-MORRIS,0,1
+2018,house,78,D,9506.0,Kirk Hatcher,official_consolidated_candidate_results,ALPERSON-KIRK-HATCHER,AL-2018-house-78-D-KIRK-HATCHER,0,1
+2018,house,79,D,7015.0,Mary Wynne Kling,official_consolidated_candidate_results,ALPERSON-MARY-WYNNE-KLING,AL-2018-house-79-D-MARY-WYNNE-KLING,0,0
+2018,house,79,R,9717.0,Joe Lovvorn,official_consolidated_candidate_results,ALPERSON-JOE-LOVVORN,AL-2018-house-79-R-JOE-LOVVORN,1,1
+2018,house,80,D,3407.0,"Christopher F. ""Apostle"" Davis",official_consolidated_candidate_results,ALPERSON-CHRISTOPHER-F-APOSTLE-DAVIS,AL-2018-house-80-D-CHRISTOPHER-F-APOSTLE-DAVIS,0,0
+2018,house,80,R,8506.0,Chris E. Blackshear,official_consolidated_candidate_results,ALPERSON-CHRIS-E-BLACKSHEAR,AL-2018-house-80-R-CHRIS-E-BLACKSHEAR,1,1
+2018,house,81,D,4696.0,"Jeremy ""J.J."" Jeffcoat",official_consolidated_candidate_results,ALPERSON-JEREMY-J-J-JEFFCOAT,AL-2018-house-81-D-JEREMY-J-J-JEFFCOAT,0,0
+2018,house,81,R,12823.0,Ed Oliver,official_consolidated_candidate_results,ALPERSON-ED-OLIVER,AL-2018-house-81-R-ED-OLIVER,0,1
+2018,house,82,D,11411.0,Pebblin Walker Warren,official_consolidated_candidate_results,ALPERSON-PEBBLIN-WALKER-WARREN,AL-2018-house-82-D-PEBBLIN-WALKER-WARREN,1,1
+2018,house,83,D,8940.0,"Jeremy ""Mr. Eyg"" Gray",official_consolidated_candidate_results,ALPERSON-JEREMY-MR-EYG-GRAY,AL-2018-house-83-D-JEREMY-MR-EYG-GRAY,0,1
+2018,house,83,R,5142.0,Michael J Holden II,official_consolidated_candidate_results,ALPERSON-MICHAEL-J-HOLDEN-II,AL-2018-house-83-R-MICHAEL-J-HOLDEN-II,0,0
+2018,house,84,D,9962.0,Berry Forte,official_consolidated_candidate_results,ALPERSON-BERRY-FORTE,AL-2018-house-84-D-BERRY-FORTE,1,1
+2018,house,85,D,7315.0,Dexter Grimsley,official_consolidated_candidate_results,ALPERSON-DEXTER-GRIMSLEY,AL-2018-house-85-D-DEXTER-GRIMSLEY,1,1
+2018,house,85,R,6266.0,J. Ron Wilson,official_consolidated_candidate_results,ALPERSON-J-RON-WILSON,AL-2018-house-85-R-J-RON-WILSON,0,0
+2018,house,86,D,3238.0,Kristy M. Kirkland,official_consolidated_candidate_results,ALPERSON-KRISTY-M-KIRKLAND,AL-2018-house-86-D-KRISTY-M-KIRKLAND,0,0
+2018,house,86,R,11226.0,Paul W. Lee,official_consolidated_candidate_results,ALPERSON-PAUL-W-LEE,AL-2018-house-86-R-PAUL-W-LEE,1,1
+2018,house,87,R,13835.0,Jeff Sorrells,official_consolidated_candidate_results,ALPERSON-JEFF-SORRELLS,AL-2018-house-87-R-JEFF-SORRELLS,0,1
+2018,house,88,D,4793.0,Cory Creel,official_consolidated_candidate_results,ALPERSON-CORY-CREEL,AL-2018-house-88-D-CORY-CREEL,0,0
+2018,house,88,R,11500.0,Will Dismukes,official_consolidated_candidate_results,ALPERSON-WILL-DISMUKES,AL-2018-house-88-R-WILL-DISMUKES,0,1
+2018,house,89,D,5348.0,Joel Lee Williams,official_consolidated_candidate_results,ALPERSON-JOEL-LEE-WILLIAMS,AL-2018-house-89-D-JOEL-LEE-WILLIAMS,0,0
+2018,house,89,R,7804.0,Wes Allen,official_consolidated_candidate_results,ALPERSON-WES-ALLEN,AL-2018-house-89-R-WES-ALLEN,0,1
+2018,house,90,D,6051.0,Joanne Whetstone,official_consolidated_candidate_results,ALPERSON-JOANNE-WHETSTONE,AL-2018-house-90-D-JOANNE-WHETSTONE,0,0
+2018,house,90,R,11063.0,Chris Sells,official_consolidated_candidate_results,ALPERSON-CHRIS-SELLS,AL-2018-house-90-R-CHRIS-SELLS,1,1
+2018,house,91,R,11445.0,Rhett Marques,official_consolidated_candidate_results,ALPERSON-RHETT-MARQUES,AL-2018-house-91-R-RHETT-MARQUES,0,1
+2018,house,92,R,11912.0,"Mike Jones, Jr.",official_consolidated_candidate_results,ALPERSON-MIKE-JONES-JR,AL-2018-house-92-R-MIKE-JONES-JR,1,1
+2018,house,93,R,11974.0,Steve Clouse,official_consolidated_candidate_results,ALPERSON-STEVE-CLOUSE,AL-2018-house-93-R-STEVE-CLOUSE,1,1
+2018,house,94,D,6257.0,Danielle Mashburn-Myrick,official_consolidated_candidate_results,ALPERSON-DANIELLE-MASHBURN-MYRICK,AL-2018-house-94-D-DANIELLE-MASHBURN-MYRICK,0,0
+2018,house,94,R,15302.0,Joe Faust,official_consolidated_candidate_results,ALPERSON-JOE-FAUST,AL-2018-house-94-R-JOE-FAUST,1,1
+2018,house,95,R,17008.0,Steve McMillan,official_consolidated_candidate_results,ALPERSON-STEVE-MCMILLAN,AL-2018-house-95-R-STEVE-MCMILLAN,1,1
+2018,house,96,D,5019.0,Maurice Horsey,official_consolidated_candidate_results,ALPERSON-MAURICE-HORSEY,AL-2018-house-96-D-MAURICE-HORSEY,0,0
+2018,house,96,R,13699.0,Matt Simpson,official_consolidated_candidate_results,ALPERSON-MATT-SIMPSON,AL-2018-house-96-R-MATT-SIMPSON,0,1
+2018,house,97,D,8740.0,Adline C. Clarke,official_consolidated_candidate_results,ALPERSON-ADLINE-C-CLARKE,AL-2018-house-97-D-ADLINE-C-CLARKE,1,1
+2018,house,97,R,4605.0,Stephen McNair,official_consolidated_candidate_results,ALPERSON-STEPHEN-MCNAIR,AL-2018-house-97-R-STEPHEN-MCNAIR,0,0
+2018,house,98,D,9674.0,"Napoleon Bracy, Jr.",official_consolidated_candidate_results,ALPERSON-NAPOLEON-BRACY-JR,AL-2018-house-98-D-NAPOLEON-BRACY-JR,1,1
+2018,house,99,D,11794.0,Sam Jones,official_consolidated_candidate_results,ALPERSON-SAM-JONES,AL-2018-house-99-D-SAM-JONES,0,1
+2018,house,99,R,4270.0,Charles W. Talbert,official_consolidated_candidate_results,ALPERSON-CHARLES-W-TALBERT,AL-2018-house-99-R-CHARLES-W-TALBERT,0,0
+2018,house,100,R,12086.0,Victor Gaston,official_consolidated_candidate_results,ALPERSON-VICTOR-GASTON,AL-2018-house-100-R-VICTOR-GASTON,1,1
+2018,house,101,R,10274.0,Chris Pringle,official_consolidated_candidate_results,ALPERSON-CHRIS-PRINGLE,AL-2018-house-101-R-CHRIS-PRINGLE,1,1
+2018,house,102,R,11048.0,Shane Stringer,official_consolidated_candidate_results,ALPERSON-SHANE-STRINGER,AL-2018-house-102-R-SHANE-STRINGER,0,1
+2018,house,103,D,8818.0,Barbara Drummond,official_consolidated_candidate_results,ALPERSON-BARBARA-DRUMMOND,AL-2018-house-103-D-BARBARA-DRUMMOND,1,1
+2018,house,104,D,4695.0,Arlene Cunningham Easley,official_consolidated_candidate_results,ALPERSON-ARLENE-CUNNINGHAM-EASLEY,AL-2018-house-104-D-ARLENE-CUNNINGHAM-EASLEY,0,0
+2018,house,104,R,10152.0,Margie Wilcox,official_consolidated_candidate_results,ALPERSON-MARGIE-WILCOX,AL-2018-house-104-R-MARGIE-WILCOX,1,1
+2018,house,105,R,10176.0,Chip Brown,official_consolidated_candidate_results,ALPERSON-CHIP-BROWN,AL-2018-house-105-R-CHIP-BROWN,0,1
+2018,senate,1,D,15830.0,Caroline Self,official_consolidated_candidate_results,ALPERSON-CAROLINE-SELF,AL-2018-senate-1-D-CAROLINE-SELF,0,0
+2018,senate,1,R,33141.0,Tim Melson,official_consolidated_candidate_results,ALPERSON-TIM-MELSON,AL-2018-senate-1-R-TIM-MELSON,1,1
+2018,senate,2,D,26911.0,Amy Wasyluka,official_consolidated_candidate_results,ALPERSON-AMY-WASYLUKA,AL-2018-senate-2-D-AMY-WASYLUKA,0,0
+2018,senate,2,R,31997.0,Tom Butler,official_consolidated_candidate_results,ALPERSON-TOM-BUTLER,AL-2018-senate-2-R-TOM-BUTLER,0,1
+2018,senate,3,R,37295.0,Arthur Orr,official_consolidated_candidate_results,ALPERSON-ARTHUR-ORR,AL-2018-senate-3-R-ARTHUR-ORR,1,1
+2018,senate,4,R,39817.0,Garlan Gudger,official_consolidated_candidate_results,ALPERSON-GARLAN-GUDGER,AL-2018-senate-4-R-GARLAN-GUDGER,0,1
+2018,senate,5,R,42404.0,Greg J. Reed,official_consolidated_candidate_results,ALPERSON-GREG-J-REED,AL-2018-senate-5-R-GREG-J-REED,1,1
+2018,senate,6,D,21796.0,Johnny Mack Morrow,official_consolidated_candidate_results,ALPERSON-JOHNNY-MACK-MORROW,AL-2018-senate-6-D-JOHNNY-MACK-MORROW,0,0
+2018,senate,6,R,22683.0,Larry Stutts,official_consolidated_candidate_results,ALPERSON-LARRY-STUTTS,AL-2018-senate-6-R-LARRY-STUTTS,1,1
+2018,senate,7,D,24363.0,Deborah Barros,official_consolidated_candidate_results,ALPERSON-DEBORAH-BARROS,AL-2018-senate-7-D-DEBORAH-BARROS,0,0
+2018,senate,7,R,30080.0,Sam Givhan,official_consolidated_candidate_results,ALPERSON-SAM-GIVHAN,AL-2018-senate-7-R-SAM-GIVHAN,0,1
+2018,senate,8,R,37913.0,Steve Livingston,official_consolidated_candidate_results,ALPERSON-STEVE-LIVINGSTON,AL-2018-senate-8-R-STEVE-LIVINGSTON,1,1
+2018,senate,9,R,35192.0,Clay Scofield,official_consolidated_candidate_results,ALPERSON-CLAY-SCOFIELD,AL-2018-senate-9-R-CLAY-SCOFIELD,1,1
+2018,senate,10,R,25902.0,Andrew Jones,official_consolidated_candidate_results,ALPERSON-ANDREW-JONES,AL-2018-senate-10-R-ANDREW-JONES,0,1
+2018,senate,11,D,11411.0,Carl Carter,official_consolidated_candidate_results,ALPERSON-CARL-CARTER,AL-2018-senate-11-D-CARL-CARTER,0,0
+2018,senate,11,R,36192.0,Jim McClendon,official_consolidated_candidate_results,ALPERSON-JIM-MCCLENDON,AL-2018-senate-11-R-JIM-MCCLENDON,1,1
+2018,senate,12,D,15010.0,Jim Williams,official_consolidated_candidate_results,ALPERSON-JIM-WILLIAMS,AL-2018-senate-12-D-JIM-WILLIAMS,0,0
+2018,senate,12,R,27416.0,Del Marsh,official_consolidated_candidate_results,ALPERSON-DEL-MARSH,AL-2018-senate-12-R-DEL-MARSH,1,1
+2018,senate,13,D,12839.0,Darrell Turner,official_consolidated_candidate_results,ALPERSON-DARRELL-TURNER,AL-2018-senate-13-D-DARRELL-TURNER,0,0
+2018,senate,13,R,31614.0,Randy Price,official_consolidated_candidate_results,ALPERSON-RANDY-PRICE,AL-2018-senate-13-R-RANDY-PRICE,0,1
+2018,senate,14,D,13171.0,Jerry McDonald,official_consolidated_candidate_results,ALPERSON-JERRY-MCDONALD,AL-2018-senate-14-D-JERRY-MCDONALD,0,0
+2018,senate,14,R,34953.0,Cam Ward,official_consolidated_candidate_results,ALPERSON-CAM-WARD,AL-2018-senate-14-R-CAM-WARD,1,1
+2018,senate,15,R,44792.0,Dan Roberts,official_consolidated_candidate_results,ALPERSON-DAN-ROBERTS,AL-2018-senate-15-R-DAN-ROBERTS,0,1
+2018,senate,16,D,21851.0,Lindsey Deckard,official_consolidated_candidate_results,ALPERSON-LINDSEY-DECKARD,AL-2018-senate-16-D-LINDSEY-DECKARD,0,0
+2018,senate,16,R,37068.0,"J.T. ""Jabo"" Waggoner",official_consolidated_candidate_results,ALPERSON-J-T-JABO-WAGGONER,AL-2018-senate-16-R-J-T-JABO-WAGGONER,1,1
+2018,senate,17,R,45964.0,Shay Shelnutt,official_consolidated_candidate_results,ALPERSON-SHAY-SHELNUTT,AL-2018-senate-17-R-SHAY-SHELNUTT,1,1
+2018,senate,18,D,39819.0,Rodger M. Smitherman,official_consolidated_candidate_results,ALPERSON-RODGER-M-SMITHERMAN,AL-2018-senate-18-D-RODGER-M-SMITHERMAN,1,1
+2018,senate,19,D,38668.0,Priscilla Dunn,official_consolidated_candidate_results,ALPERSON-PRISCILLA-DUNN,AL-2018-senate-19-D-PRISCILLA-DUNN,1,1
+2018,senate,20,D,36478.0,Linda Coleman-Madison,official_consolidated_candidate_results,ALPERSON-LINDA-COLEMAN-MADISON,AL-2018-senate-20-D-LINDA-COLEMAN-MADISON,1,1
+2018,senate,21,D,16005.0,Rick Burnham,official_consolidated_candidate_results,ALPERSON-RICK-BURNHAM,AL-2018-senate-21-D-RICK-BURNHAM,0,0
+2018,senate,21,R,33368.0,Gerald Allen,official_consolidated_candidate_results,ALPERSON-GERALD-ALLEN,AL-2018-senate-21-R-GERALD-ALLEN,1,1
+2018,senate,22,R,34507.0,Greg Albritton,official_consolidated_candidate_results,ALPERSON-GREG-ALBRITTON,AL-2018-senate-22-R-GREG-ALBRITTON,1,1
+2018,senate,23,D,29920.0,Malika Sanders-Fortier,official_consolidated_candidate_results,ALPERSON-MALIKA-SANDERS-FORTIER,AL-2018-senate-23-D-MALIKA-SANDERS-FORTIER,0,1
+2018,senate,24,D,37394.0,Bobby Singleton,official_consolidated_candidate_results,ALPERSON-BOBBY-SINGLETON,AL-2018-senate-24-D-BOBBY-SINGLETON,1,1
+2018,senate,25,D,20866.0,David A. Sadler,official_consolidated_candidate_results,ALPERSON-DAVID-A-SADLER,AL-2018-senate-25-D-DAVID-A-SADLER,0,0
+2018,senate,25,R,33029.0,Will Barfoot,official_consolidated_candidate_results,ALPERSON-WILL-BARFOOT,AL-2018-senate-25-R-WILL-BARFOOT,0,1
+2018,senate,26,D,31973.0,"David ""Coach"" Burkette",official_consolidated_candidate_results,ALPERSON-DAVID-COACH-BURKETTE,AL-2018-senate-26-D-DAVID-COACH-BURKETTE,1,1
+2018,senate,26,R,7863.0,D. J. Johnson,official_consolidated_candidate_results,ALPERSON-D-J-JOHNSON,AL-2018-senate-26-R-D-J-JOHNSON,0,0
+2018,senate,27,D,20586.0,Nancy Carlton Bendinger,official_consolidated_candidate_results,ALPERSON-NANCY-CARLTON-BENDINGER,AL-2018-senate-27-D-NANCY-CARLTON-BENDINGER,0,0
+2018,senate,27,R,29741.0,Tom Whatley,official_consolidated_candidate_results,ALPERSON-TOM-WHATLEY,AL-2018-senate-27-R-TOM-WHATLEY,1,1
+2018,senate,28,D,28442.0,Billy Beasley,official_consolidated_candidate_results,ALPERSON-BILLY-BEASLEY,AL-2018-senate-28-D-BILLY-BEASLEY,1,1
+2018,senate,29,R,34273.0,Donnie Chesteen,official_consolidated_candidate_results,ALPERSON-DONNIE-CHESTEEN,AL-2018-senate-29-R-DONNIE-CHESTEEN,0,1
+2018,senate,30,R,35256.0,"Clyde Chambliss, Jr.",official_consolidated_candidate_results,ALPERSON-CLYDE-CHAMBLISS-JR,AL-2018-senate-30-R-CLYDE-CHAMBLISS-JR,1,1
+2018,senate,31,R,33137.0,Jimmy W. Holley,official_consolidated_candidate_results,ALPERSON-JIMMY-W-HOLLEY,AL-2018-senate-31-R-JIMMY-W-HOLLEY,1,1
+2018,senate,32,D,15193.0,Jason Fisher,official_consolidated_candidate_results,ALPERSON-JASON-FISHER,AL-2018-senate-32-D-JASON-FISHER,0,0
+2018,senate,32,R,45726.0,Chris Elliott,official_consolidated_candidate_results,ALPERSON-CHRIS-ELLIOTT,AL-2018-senate-32-R-CHRIS-ELLIOTT,0,1
+2018,senate,33,D,34995.0,Vivian Davis Figures,official_consolidated_candidate_results,ALPERSON-VIVIAN-DAVIS-FIGURES,AL-2018-senate-33-D-VIVIAN-DAVIS-FIGURES,1,1
+2018,senate,34,R,35093.0,Jack Williams,official_consolidated_candidate_results,ALPERSON-JACK-WILLIAMS,AL-2018-senate-34-R-JACK-WILLIAMS,0,1
+2018,senate,35,D,13896.0,Tom Holmes,official_consolidated_candidate_results,ALPERSON-TOM-HOLMES,AL-2018-senate-35-D-TOM-HOLMES,0,0
+2018,senate,35,R,29046.0,David Sessions,official_consolidated_candidate_results,ALPERSON-DAVID-SESSIONS,AL-2018-senate-35-R-DAVID-SESSIONS,0,1
+2022,house,1,R,10360.0,GSL001RPET,official_consolidated_candidate_results,ALPERSON-GSL001RPET,AL-2022-house-1-R-GSL001RPET,0,1
+2022,house,2,R,11233.0,GSL002RHAR,official_consolidated_candidate_results,ALPERSON-GSL002RHAR,AL-2022-house-2-R-GSL002RHAR,0,1
+2022,house,3,D,4241.0,GSL003DTHO,official_consolidated_candidate_results,ALPERSON-GSL003DTHO,AL-2022-house-3-D-GSL003DTHO,0,0
+2022,house,3,R,8023.0,GSL003RUND,official_consolidated_candidate_results,ALPERSON-GSL003RUND,AL-2022-house-3-R-GSL003RUND,0,1
+2022,house,4,R,11236.0,GSL004RMOO,official_consolidated_candidate_results,ALPERSON-GSL004RMOO,AL-2022-house-4-R-GSL004RMOO,0,1
+2022,house,5,R,12332.0,GSL005RCRA,official_consolidated_candidate_results,ALPERSON-GSL005RCRA,AL-2022-house-5-R-GSL005RCRA,0,1
+2022,house,6,R,11052.0,GSL006RWHI,official_consolidated_candidate_results,ALPERSON-GSL006RWHI,AL-2022-house-6-R-GSL006RWHI,0,1
+2022,house,7,D,3133.0,GSL007DJON,official_consolidated_candidate_results,ALPERSON-GSL007DJON,AL-2022-house-7-D-GSL007DJON,0,0
+2022,house,7,R,11225.0,GSL007RYAR,official_consolidated_candidate_results,ALPERSON-GSL007RYAR,AL-2022-house-7-R-GSL007RYAR,0,1
+2022,house,8,R,7234.0,GSL008RCOL,official_consolidated_candidate_results,ALPERSON-GSL008RCOL,AL-2022-house-8-R-GSL008RCOL,0,1
+2022,house,9,R,11041.0,GSL009RSTA,official_consolidated_candidate_results,ALPERSON-GSL009RSTA,AL-2022-house-9-R-GSL009RSTA,0,1
+2022,house,10,D,6608.0,GSL010DLAN,official_consolidated_candidate_results,ALPERSON-GSL010DLAN,AL-2022-house-10-D-GSL010DLAN,0,0
+2022,house,10,R,7581.0,GSL010RCOL,official_consolidated_candidate_results,ALPERSON-GSL010RCOL,AL-2022-house-10-R-GSL010RCOL,0,1
+2022,house,11,R,12552.0,GSL011RSHE,official_consolidated_candidate_results,ALPERSON-GSL011RSHE,AL-2022-house-11-R-GSL011RSHE,0,1
+2022,house,12,D,2030.0,GSL012DFIE,official_consolidated_candidate_results,ALPERSON-GSL012DFIE,AL-2022-house-12-D-GSL012DFIE,0,0
+2022,house,12,R,11958.0,GSL012RHAR,official_consolidated_candidate_results,ALPERSON-GSL012RHAR,AL-2022-house-12-R-GSL012RHAR,0,1
+2022,house,13,R,11422.0,GSL013RWOO,official_consolidated_candidate_results,ALPERSON-GSL013RWOO,AL-2022-house-13-R-GSL013RWOO,0,1
+2022,house,14,R,13396.0,GSL014RWAD,official_consolidated_candidate_results,ALPERSON-GSL014RWAD,AL-2022-house-14-R-GSL014RWAD,0,1
+2022,house,15,D,6166.0,GSL015DROU,official_consolidated_candidate_results,ALPERSON-GSL015DROU,AL-2022-house-15-D-GSL015DROU,0,0
+2022,house,15,R,10818.0,GSL015RHUL,official_consolidated_candidate_results,ALPERSON-GSL015RHUL,AL-2022-house-15-R-GSL015RHUL,0,1
+2022,house,16,R,13174.0,GSL016RSOU,official_consolidated_candidate_results,ALPERSON-GSL016RSOU,AL-2022-house-16-R-GSL016RSOU,0,1
+2022,house,17,R,12850.0,GSL017REST,official_consolidated_candidate_results,ALPERSON-GSL017REST,AL-2022-house-17-R-GSL017REST,0,1
+2022,house,18,R,10783.0,GSL018RKIE,official_consolidated_candidate_results,ALPERSON-GSL018RKIE,AL-2022-house-18-R-GSL018RKIE,0,1
+2022,house,19,D,8721.0,GSL019DHAL,official_consolidated_candidate_results,ALPERSON-GSL019DHAL,AL-2022-house-19-D-GSL019DHAL,0,1
+2022,house,20,R,14816.0,GSL020RLOM,official_consolidated_candidate_results,ALPERSON-GSL020RLOM,AL-2022-house-20-R-GSL020RLOM,0,1
+2022,house,21,R,12386.0,GSL021RREY,official_consolidated_candidate_results,ALPERSON-GSL021RREY,AL-2022-house-21-R-GSL021RREY,0,1
+2022,house,22,R,12984.0,GSL022RWHO,official_consolidated_candidate_results,ALPERSON-GSL022RWHO,AL-2022-house-22-R-GSL022RWHO,0,1
+2022,house,23,R,10980.0,GSL023RKIR,official_consolidated_candidate_results,ALPERSON-GSL023RKIR,AL-2022-house-23-R-GSL023RKIR,0,1
+2022,house,24,R,11285.0,GSL024RLED,official_consolidated_candidate_results,ALPERSON-GSL024RLED,AL-2022-house-24-R-GSL024RLED,0,1
+2022,house,25,D,7837.0,GSL025DHAG,official_consolidated_candidate_results,ALPERSON-GSL025DHAG,AL-2022-house-25-D-GSL025DHAG,0,0
+2022,house,25,R,10813.0,GSL025RRIG,official_consolidated_candidate_results,ALPERSON-GSL025RRIG,AL-2022-house-25-R-GSL025RRIG,0,1
+2022,house,26,D,1078.0,GSL026DALF,official_consolidated_candidate_results,ALPERSON-GSL026DALF,AL-2022-house-26-D-GSL026DALF,0,0
+2022,house,26,R,8258.0,GSL026RCOL,official_consolidated_candidate_results,ALPERSON-GSL026RCOL,AL-2022-house-26-R-GSL026RCOL,0,1
+2022,house,27,D,1583.0,GSL027DNEU,official_consolidated_candidate_results,ALPERSON-GSL027DNEU,AL-2022-house-27-D-GSL027DNEU,0,0
+2022,house,27,R,13150.0,GSL027RKIT,official_consolidated_candidate_results,ALPERSON-GSL027RKIT,AL-2022-house-27-R-GSL027RKIT,0,1
+2022,house,28,R,6566.0,GSL028RBUT,official_consolidated_candidate_results,ALPERSON-GSL028RBUT,AL-2022-house-28-R-GSL028RBUT,0,1
+2022,house,29,R,12612.0,GSL029RGID,official_consolidated_candidate_results,ALPERSON-GSL029RGID,AL-2022-house-29-R-GSL029RGID,0,1
+2022,house,30,R,12325.0,GSL030RLIP,official_consolidated_candidate_results,ALPERSON-GSL030RLIP,AL-2022-house-30-R-GSL030RLIP,0,1
+2022,house,31,R,11418.0,GSL031RSTU,official_consolidated_candidate_results,ALPERSON-GSL031RSTU,AL-2022-house-31-R-GSL031RSTU,0,1
+2022,house,32,D,5519.0,GSL032DBOY,official_consolidated_candidate_results,ALPERSON-GSL032DBOY,AL-2022-house-32-D-GSL032DBOY,0,1
+2022,house,32,R,4389.0,GSL032RJAC,official_consolidated_candidate_results,ALPERSON-GSL032RJAC,AL-2022-house-32-R-GSL032RJAC,0,0
+2022,house,33,D,3571.0,GSL033DCRU,official_consolidated_candidate_results,ALPERSON-GSL033DCRU,AL-2022-house-33-D-GSL033DCRU,0,0
+2022,house,33,R,9534.0,GSL033RROB,official_consolidated_candidate_results,ALPERSON-GSL033RROB,AL-2022-house-33-R-GSL033RROB,0,1
+2022,house,34,R,12222.0,GSL034RSTA,official_consolidated_candidate_results,ALPERSON-GSL034RSTA,AL-2022-house-34-R-GSL034RSTA,0,1
+2022,house,35,R,10880.0,GSL035RHUR,official_consolidated_candidate_results,ALPERSON-GSL035RHUR,AL-2022-house-35-R-GSL035RHUR,0,1
+2022,house,36,R,12449.0,GSL036RWOO,official_consolidated_candidate_results,ALPERSON-GSL036RWOO,AL-2022-house-36-R-GSL036RWOO,0,1
+2022,house,37,R,11937.0,GSL037RFIN,official_consolidated_candidate_results,ALPERSON-GSL037RFIN,AL-2022-house-37-R-GSL037RFIN,0,1
+2022,house,38,R,9162.0,GSL038RWOO,official_consolidated_candidate_results,ALPERSON-GSL038RWOO,AL-2022-house-38-R-GSL038RWOO,0,1
+2022,house,39,R,11224.0,GSL039RSHA,official_consolidated_candidate_results,ALPERSON-GSL039RSHA,AL-2022-house-39-R-GSL039RSHA,0,1
+2022,house,40,D,2221.0,GSL040DHOW,official_consolidated_candidate_results,ALPERSON-GSL040DHOW,AL-2022-house-40-D-GSL040DHOW,0,0
+2022,house,40,R,10772.0,GSL040RROB,official_consolidated_candidate_results,ALPERSON-GSL040RROB,AL-2022-house-40-R-GSL040RROB,0,1
+2022,house,41,D,3203.0,GSL041DNEL,official_consolidated_candidate_results,ALPERSON-GSL041DNEL,AL-2022-house-41-D-GSL041DNEL,0,0
+2022,house,41,R,10897.0,GSL041RELL,official_consolidated_candidate_results,ALPERSON-GSL041RELL,AL-2022-house-41-R-GSL041RELL,0,1
+2022,house,42,R,12336.0,GSL042RSMI,official_consolidated_candidate_results,ALPERSON-GSL042RSMI,AL-2022-house-42-R-GSL042RSMI,0,1
+2022,house,43,D,3760.0,GSL043DCLE,official_consolidated_candidate_results,ALPERSON-GSL043DCLE,AL-2022-house-43-D-GSL043DCLE,0,0
+2022,house,43,R,12751.0,GSL043RMOO,official_consolidated_candidate_results,ALPERSON-GSL043RMOO,AL-2022-house-43-R-GSL043RMOO,0,1
+2022,house,44,R,11396.0,GSL044RGAR,official_consolidated_candidate_results,ALPERSON-GSL044RGAR,AL-2022-house-44-R-GSL044RGAR,0,1
+2022,house,45,R,12060.0,GSL045RDUB,official_consolidated_candidate_results,ALPERSON-GSL045RDUB,AL-2022-house-45-R-GSL045RDUB,0,1
+2022,house,46,R,12656.0,GSL046RFAU,official_consolidated_candidate_results,ALPERSON-GSL046RFAU,AL-2022-house-46-R-GSL046RFAU,0,1
+2022,house,47,D,4816.0,GSL047DCOL,official_consolidated_candidate_results,ALPERSON-GSL047DCOL,AL-2022-house-47-D-GSL047DCOL,0,0
+2022,house,47,R,8590.0,GSL047RSHA,official_consolidated_candidate_results,ALPERSON-GSL047RSHA,AL-2022-house-47-R-GSL047RSHA,0,1
+2022,house,48,R,12518.0,GSL048RCAR,official_consolidated_candidate_results,ALPERSON-GSL048RCAR,AL-2022-house-48-R-GSL048RCAR,0,1
+2022,house,49,R,10604.0,GSL049RBED,official_consolidated_candidate_results,ALPERSON-GSL049RBED,AL-2022-house-49-R-GSL049RBED,0,1
+2022,house,50,R,12720.0,GSL050RHIL,official_consolidated_candidate_results,ALPERSON-GSL050RHIL,AL-2022-house-50-R-GSL050RHIL,0,1
+2022,house,51,R,14025.0,GSL051RTRE,official_consolidated_candidate_results,ALPERSON-GSL051RTRE,AL-2022-house-51-R-GSL051RTRE,0,1
+2022,house,52,D,10229.0,GSL052DROG,official_consolidated_candidate_results,ALPERSON-GSL052DROG,AL-2022-house-52-D-GSL052DROG,0,1
+2022,house,53,D,5748.0,GSL053DDAN,official_consolidated_candidate_results,ALPERSON-GSL053DDAN,AL-2022-house-53-D-GSL053DDAN,0,1
+2022,house,54,D,9798.0,GSL054DRAF,official_consolidated_candidate_results,ALPERSON-GSL054DRAF,AL-2022-house-54-D-GSL054DRAF,0,1
+2022,house,55,D,10018.0,GSL055DPLU,official_consolidated_candidate_results,ALPERSON-GSL055DPLU,AL-2022-house-55-D-GSL055DPLU,0,1
+2022,house,56,D,8986.0,GSL056DTIL,official_consolidated_candidate_results,ALPERSON-GSL056DTIL,AL-2022-house-56-D-GSL056DTIL,0,1
+2022,house,57,D,9221.0,GSL057DSEL,official_consolidated_candidate_results,ALPERSON-GSL057DSEL,AL-2022-house-57-D-GSL057DSEL,0,1
+2022,house,57,R,4752.0,GSL057RBAU,official_consolidated_candidate_results,ALPERSON-GSL057RBAU,AL-2022-house-57-R-GSL057RBAU,0,0
+2022,house,58,D,8385.0,GSL058DHOL,official_consolidated_candidate_results,ALPERSON-GSL058DHOL,AL-2022-house-58-D-GSL058DHOL,0,1
+2022,house,59,D,8859.0,GSL059DMOO,official_consolidated_candidate_results,ALPERSON-GSL059DMOO,AL-2022-house-59-D-GSL059DMOO,0,1
+2022,house,60,D,9872.0,GSL060DGIV,official_consolidated_candidate_results,ALPERSON-GSL060DGIV,AL-2022-house-60-D-GSL060DGIV,0,1
+2022,house,61,R,10546.0,GSL061RBOL,official_consolidated_candidate_results,ALPERSON-GSL061RBOL,AL-2022-house-61-R-GSL061RBOL,0,1
+2022,house,62,D,3094.0,GSL062DCEP,official_consolidated_candidate_results,ALPERSON-GSL062DCEP,AL-2022-house-62-D-GSL062DCEP,0,0
+2022,house,62,R,8803.0,GSL062RLAM,official_consolidated_candidate_results,ALPERSON-GSL062RLAM,AL-2022-house-62-R-GSL062RLAM,0,1
+2022,house,63,D,2827.0,GSL063DADA,official_consolidated_candidate_results,ALPERSON-GSL063DADA,AL-2022-house-63-D-GSL063DADA,0,0
+2022,house,63,R,5541.0,GSL063RALM,official_consolidated_candidate_results,ALPERSON-GSL063RALM,AL-2022-house-63-R-GSL063RALM,0,1
+2022,house,64,R,11041.0,GSL064RGIV,official_consolidated_candidate_results,ALPERSON-GSL064RGIV,AL-2022-house-64-R-GSL064RGIV,0,1
+2022,house,65,D,4759.0,GSL065DCAS,official_consolidated_candidate_results,ALPERSON-GSL065DCAS,AL-2022-house-65-D-GSL065DCAS,0,0
+2022,house,65,R,12693.0,GSL065REAS,official_consolidated_candidate_results,ALPERSON-GSL065REAS,AL-2022-house-65-R-GSL065REAS,0,1
+2022,house,66,R,12042.0,GSL066RBAK,official_consolidated_candidate_results,ALPERSON-GSL066RBAK,AL-2022-house-66-R-GSL066RBAK,0,1
+2022,house,67,D,10335.0,GSL067DCHE,official_consolidated_candidate_results,ALPERSON-GSL067DCHE,AL-2022-house-67-D-GSL067DCHE,0,1
+2022,house,68,D,9517.0,GSL068DJAC,official_consolidated_candidate_results,ALPERSON-GSL068DJAC,AL-2022-house-68-D-GSL068DJAC,0,1
+2022,house,68,R,8948.0,GSL068RKEL,official_consolidated_candidate_results,ALPERSON-GSL068RKEL,AL-2022-house-68-R-GSL068RKEL,0,0
+2022,house,69,D,8769.0,GSL069DLAW,official_consolidated_candidate_results,ALPERSON-GSL069DLAW,AL-2022-house-69-D-GSL069DLAW,0,1
+2022,house,69,R,7103.0,GSL069RMAD,official_consolidated_candidate_results,ALPERSON-GSL069RMAD,AL-2022-house-69-R-GSL069RMAD,0,0
+2022,house,70,D,6245.0,GSL070DENG,official_consolidated_candidate_results,ALPERSON-GSL070DENG,AL-2022-house-70-D-GSL070DENG,0,1
+2022,house,71,D,9126.0,GSL071DMCC,official_consolidated_candidate_results,ALPERSON-GSL071DMCC,AL-2022-house-71-D-GSL071DMCC,0,1
+2022,house,72,D,8128.0,GSL072DTRA,official_consolidated_candidate_results,ALPERSON-GSL072DTRA,AL-2022-house-72-D-GSL072DTRA,0,1
+2022,house,73,R,10343.0,GSL073RPAS,official_consolidated_candidate_results,ALPERSON-GSL073RPAS,AL-2022-house-73-R-GSL073RPAS,0,1
+2022,house,74,D,7538.0,GSL074DENS,official_consolidated_candidate_results,ALPERSON-GSL074DENS,AL-2022-house-74-D-GSL074DENS,0,1
+2022,house,74,R,4986.0,GSL074RMEA,official_consolidated_candidate_results,ALPERSON-GSL074RMEA,AL-2022-house-74-R-GSL074RMEA,0,0
+2022,house,75,R,11688.0,GSL075RING,official_consolidated_candidate_results,ALPERSON-GSL075RING,AL-2022-house-75-R-GSL075RING,0,1
+2022,house,76,D,8312.0,GSL076DMCC,official_consolidated_candidate_results,ALPERSON-GSL076DMCC,AL-2022-house-76-D-GSL076DMCC,0,1
+2022,house,77,D,7062.0,GSL077DMOR,official_consolidated_candidate_results,ALPERSON-GSL077DMOR,AL-2022-house-77-D-GSL077DMOR,0,1
+2022,house,78,D,6991.0,GSL078DHAS,official_consolidated_candidate_results,ALPERSON-GSL078DHAS,AL-2022-house-78-D-GSL078DHAS,0,1
+2022,house,79,R,7690.0,GSL079RLOV,official_consolidated_candidate_results,ALPERSON-GSL079RLOV,AL-2022-house-79-R-GSL079RLOV,0,1
+2022,house,80,R,8113.0,GSL080RBLA,official_consolidated_candidate_results,ALPERSON-GSL080RBLA,AL-2022-house-80-R-GSL080RBLA,0,1
+2022,house,81,R,12116.0,GSL081ROLI,official_consolidated_candidate_results,ALPERSON-GSL081ROLI,AL-2022-house-81-R-GSL081ROLI,0,1
+2022,house,82,D,6257.0,GSL082DWAR,official_consolidated_candidate_results,ALPERSON-GSL082DWAR,AL-2022-house-82-D-GSL082DWAR,0,1
+2022,house,82,R,2526.0,GSL082RPIE,official_consolidated_candidate_results,ALPERSON-GSL082RPIE,AL-2022-house-82-R-GSL082RPIE,0,0
+2022,house,83,D,6540.0,GSL083DGRA,official_consolidated_candidate_results,ALPERSON-GSL083DGRA,AL-2022-house-83-D-GSL083DGRA,0,1
+2022,house,84,D,7463.0,GSL084DFOR,official_consolidated_candidate_results,ALPERSON-GSL084DFOR,AL-2022-house-84-D-GSL084DFOR,0,1
+2022,house,85,D,5668.0,GSL085DGRI,official_consolidated_candidate_results,ALPERSON-GSL085DGRI,AL-2022-house-85-D-GSL085DGRI,0,0
+2022,house,85,R,6665.0,GSL085RREH,official_consolidated_candidate_results,ALPERSON-GSL085RREH,AL-2022-house-85-R-GSL085RREH,0,1
+2022,house,86,R,10697.0,GSL086RLEE,official_consolidated_candidate_results,ALPERSON-GSL086RLEE,AL-2022-house-86-R-GSL086RLEE,0,1
+2022,house,87,R,12957.0,GSL087RSOR,official_consolidated_candidate_results,ALPERSON-GSL087RSOR,AL-2022-house-87-R-GSL087RSOR,0,1
+2022,house,88,R,10020.0,GSL088RSTA,official_consolidated_candidate_results,ALPERSON-GSL088RSTA,AL-2022-house-88-R-GSL088RSTA,0,1
+2022,house,89,R,7855.0,GSL089RPAR,official_consolidated_candidate_results,ALPERSON-GSL089RPAR,AL-2022-house-89-R-GSL089RPAR,0,1
+2022,house,90,R,11567.0,GSL090RSEL,official_consolidated_candidate_results,ALPERSON-GSL090RSEL,AL-2022-house-90-R-GSL090RSEL,0,1
+2022,house,91,R,9794.0,GSL091RMAR,official_consolidated_candidate_results,ALPERSON-GSL091RMAR,AL-2022-house-91-R-GSL091RMAR,0,1
+2022,house,92,D,1789.0,GSL092DHUB,official_consolidated_candidate_results,ALPERSON-GSL092DHUB,AL-2022-house-92-D-GSL092DHUB,0,0
+2022,house,92,R,11778.0,GSL092RHAM,official_consolidated_candidate_results,ALPERSON-GSL092RHAM,AL-2022-house-92-R-GSL092RHAM,0,1
+2022,house,93,R,10333.0,GSL093RCLO,official_consolidated_candidate_results,ALPERSON-GSL093RCLO,AL-2022-house-93-R-GSL093RCLO,0,1
+2022,house,94,R,14207.0,GSL094RFID,official_consolidated_candidate_results,ALPERSON-GSL094RFID,AL-2022-house-94-R-GSL094RFID,0,1
+2022,house,95,D,2465.0,GSL095DBRA,official_consolidated_candidate_results,ALPERSON-GSL095DBRA,AL-2022-house-95-D-GSL095DBRA,0,0
+2022,house,95,R,14242.0,GSL095RHOL,official_consolidated_candidate_results,ALPERSON-GSL095RHOL,AL-2022-house-95-R-GSL095RHOL,0,1
+2022,house,96,R,11990.0,GSL096RSIM,official_consolidated_candidate_results,ALPERSON-GSL096RSIM,AL-2022-house-96-R-GSL096RSIM,0,1
+2022,house,97,D,7337.0,GSL097DCLA,official_consolidated_candidate_results,ALPERSON-GSL097DCLA,AL-2022-house-97-D-GSL097DCLA,0,1
+2022,house,98,D,7655.0,GSL098DBRA,official_consolidated_candidate_results,ALPERSON-GSL098DBRA,AL-2022-house-98-D-GSL098DBRA,0,1
+2022,house,99,D,8252.0,GSL099DJON,official_consolidated_candidate_results,ALPERSON-GSL099DJON,AL-2022-house-99-D-GSL099DJON,0,1
+2022,house,100,R,9781.0,GSL100RSHI,official_consolidated_candidate_results,ALPERSON-GSL100RSHI,AL-2022-house-100-R-GSL100RSHI,0,1
+2022,house,101,R,8968.0,GSL101RPRI,official_consolidated_candidate_results,ALPERSON-GSL101RPRI,AL-2022-house-101-R-GSL101RPRI,0,1
+2022,house,102,R,10472.0,GSL102RSTR,official_consolidated_candidate_results,ALPERSON-GSL102RSTR,AL-2022-house-102-R-GSL102RSTR,0,1
+2022,house,103,D,6015.0,GSL103DDRU,official_consolidated_candidate_results,ALPERSON-GSL103DDRU,AL-2022-house-103-D-GSL103DDRU,0,1
+2022,house,104,R,8871.0,GSL104RWIL,official_consolidated_candidate_results,ALPERSON-GSL104RWIL,AL-2022-house-104-R-GSL104RWIL,0,1
+2022,house,105,R,10554.0,GSL105RBRO,official_consolidated_candidate_results,ALPERSON-GSL105RBRO,AL-2022-house-105-R-GSL105RBRO,0,1
+2022,senate,1,R,35480.0,GSU01RMEL,official_consolidated_candidate_results,ALPERSON-GSU01RMEL,AL-2022-senate-1-R-GSU01RMEL,0,1
+2022,senate,2,D,20749.0,GSU02DLEW,official_consolidated_candidate_results,ALPERSON-GSU02DLEW,AL-2022-senate-2-D-GSU02DLEW,0,0
+2022,senate,2,R,25951.0,GSU02RBUT,official_consolidated_candidate_results,ALPERSON-GSU02RBUT,AL-2022-senate-2-R-GSU02RBUT,0,1
+2022,senate,3,R,30578.0,GSU03RORR,official_consolidated_candidate_results,ALPERSON-GSU03RORR,AL-2022-senate-3-R-GSU03RORR,0,1
+2022,senate,4,R,38265.0,GSU04RGUD,official_consolidated_candidate_results,ALPERSON-GSU04RGUD,AL-2022-senate-4-R-GSU04RGUD,0,1
+2022,senate,5,R,36159.0,GSU05RREE,official_consolidated_candidate_results,ALPERSON-GSU05RREE,AL-2022-senate-5-R-GSU05RREE,0,1
+2022,senate,6,R,30883.0,GSU06RSTU,official_consolidated_candidate_results,ALPERSON-GSU06RSTU,AL-2022-senate-6-R-GSU06RSTU,0,1
+2022,senate,7,D,17295.0,GSU07DWIL,official_consolidated_candidate_results,ALPERSON-GSU07DWIL,AL-2022-senate-7-D-GSU07DWIL,0,0
+2022,senate,7,R,29095.0,GSU07RGIV,official_consolidated_candidate_results,ALPERSON-GSU07RGIV,AL-2022-senate-7-R-GSU07RGIV,0,1
+2022,senate,8,R,33758.0,GSU08RLIV,official_consolidated_candidate_results,ALPERSON-GSU08RLIV,AL-2022-senate-8-R-GSU08RLIV,0,1
+2022,senate,9,R,32709.0,GSU09RSCO,official_consolidated_candidate_results,ALPERSON-GSU09RSCO,AL-2022-senate-9-R-GSU09RSCO,0,1
+2022,senate,10,R,32153.0,GSU10RJON,official_consolidated_candidate_results,ALPERSON-GSU10RJON,AL-2022-senate-10-R-GSU10RJON,0,1
+2022,senate,11,R,33505.0,GSU11RBEL,official_consolidated_candidate_results,ALPERSON-GSU11RBEL,AL-2022-senate-11-R-GSU11RBEL,0,1
+2022,senate,12,D,10271.0,GSU12DMCC,official_consolidated_candidate_results,ALPERSON-GSU12DMCC,AL-2022-senate-12-D-GSU12DMCC,0,0
+2022,senate,12,R,28786.0,GSU12RKEL,official_consolidated_candidate_results,ALPERSON-GSU12RKEL,AL-2022-senate-12-R-GSU12RKEL,0,1
+2022,senate,13,R,31759.0,GSU13RPRI,official_consolidated_candidate_results,ALPERSON-GSU13RPRI,AL-2022-senate-13-R-GSU13RPRI,0,1
+2022,senate,14,R,31917.0,GSU14RWEA,official_consolidated_candidate_results,ALPERSON-GSU14RWEA,AL-2022-senate-14-R-GSU14RWEA,0,1
+2022,senate,15,R,35704.0,GSU15RROB,official_consolidated_candidate_results,ALPERSON-GSU15RROB,AL-2022-senate-15-R-GSU15RROB,0,1
+2022,senate,16,R,33719.0,GSU16RWAG,official_consolidated_candidate_results,ALPERSON-GSU16RWAG,AL-2022-senate-16-R-GSU16RWAG,0,1
+2022,senate,17,R,38137.0,GSU17RSHE,official_consolidated_candidate_results,ALPERSON-GSU17RSHE,AL-2022-senate-17-R-GSU17RSHE,0,1
+2022,senate,18,D,28642.0,GSU18DSMI,official_consolidated_candidate_results,ALPERSON-GSU18DSMI,AL-2022-senate-18-D-GSU18DSMI,0,1
+2022,senate,19,D,26369.0,GSU19DCOL,official_consolidated_candidate_results,ALPERSON-GSU19DCOL,AL-2022-senate-19-D-GSU19DCOL,0,1
+2022,senate,20,D,27567.0,GSU20DCOL,official_consolidated_candidate_results,ALPERSON-GSU20DCOL,AL-2022-senate-20-D-GSU20DCOL,0,1
+2022,senate,21,D,11198.0,GSU21DWAR,official_consolidated_candidate_results,ALPERSON-GSU21DWAR,AL-2022-senate-21-D-GSU21DWAR,0,0
+2022,senate,21,R,21962.0,GSU21RALL,official_consolidated_candidate_results,ALPERSON-GSU21RALL,AL-2022-senate-21-R-GSU21RALL,0,1
+2022,senate,22,R,32880.0,GSU22RALB,official_consolidated_candidate_results,ALPERSON-GSU22RALB,AL-2022-senate-22-R-GSU22RALB,0,1
+2022,senate,23,D,25953.0,GSU23DSTE,official_consolidated_candidate_results,ALPERSON-GSU23DSTE,AL-2022-senate-23-D-GSU23DSTE,0,1
+2022,senate,23,R,21682.0,GSU23RNIM,official_consolidated_candidate_results,ALPERSON-GSU23RNIM,AL-2022-senate-23-R-GSU23RNIM,0,0
+2022,senate,24,D,25440.0,GSU24DSIN,official_consolidated_candidate_results,ALPERSON-GSU24DSIN,AL-2022-senate-24-D-GSU24DSIN,0,1
+2022,senate,25,R,32640.0,GSU25RBAR,official_consolidated_candidate_results,ALPERSON-GSU25RBAR,AL-2022-senate-25-R-GSU25RBAR,0,1
+2022,senate,26,D,25901.0,GSU26DHAT,official_consolidated_candidate_results,ALPERSON-GSU26DHAT,AL-2022-senate-26-D-GSU26DHAT,0,1
+2022,senate,27,D,10996.0,GSU27DREE,official_consolidated_candidate_results,ALPERSON-GSU27DREE,AL-2022-senate-27-D-GSU27DREE,0,0
+2022,senate,27,R,26014.0,GSU27RHOV,official_consolidated_candidate_results,ALPERSON-GSU27RHOV,AL-2022-senate-27-R-GSU27RHOV,0,1
+2022,senate,28,D,21252.0,GSU28DBEA,official_consolidated_candidate_results,ALPERSON-GSU28DBEA,AL-2022-senate-28-D-GSU28DBEA,0,1
+2022,senate,29,D,6476.0,GSU29DMAT,official_consolidated_candidate_results,ALPERSON-GSU29DMAT,AL-2022-senate-29-D-GSU29DMAT,0,0
+2022,senate,29,R,31576.0,GSU29RCHE,official_consolidated_candidate_results,ALPERSON-GSU29RCHE,AL-2022-senate-29-R-GSU29RCHE,0,1
+2022,senate,30,R,29225.0,GSU30RCHA,official_consolidated_candidate_results,ALPERSON-GSU30RCHA,AL-2022-senate-30-R-GSU30RCHA,0,1
+2022,senate,31,R,30618.0,GSU31RCAR,official_consolidated_candidate_results,ALPERSON-GSU31RCAR,AL-2022-senate-31-R-GSU31RCAR,0,1
+2022,senate,32,R,41073.0,GSU32RELL,official_consolidated_candidate_results,ALPERSON-GSU32RELL,AL-2022-senate-32-R-GSU32RELL,0,1
+2022,senate,33,D,23203.0,GSU33DFIG,official_consolidated_candidate_results,ALPERSON-GSU33DFIG,AL-2022-senate-33-D-GSU33DFIG,0,1
+2022,senate,33,R,11401.0,GSU33RRIE,official_consolidated_candidate_results,ALPERSON-GSU33RRIE,AL-2022-senate-33-R-GSU33RRIE,0,0
+2022,senate,34,R,27043.0,GSU34RWIL,official_consolidated_candidate_results,ALPERSON-GSU34RWIL,AL-2022-senate-34-R-GSU34RWIL,0,1
+2022,senate,35,R,27133.0,GSU35RSES,official_consolidated_candidate_results,ALPERSON-GSU35RSES,AL-2022-senate-35-R-GSU35RSES,0,1

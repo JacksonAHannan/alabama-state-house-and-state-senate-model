@@ -37,6 +37,12 @@ def test_dashboard_has_accessible_controls_and_fallbacks():
     assert soup.select_one("#download")
 
 
+def test_scenario_tab_arrow_navigation_restores_focus_after_rerender():
+    text = PAGE.read_text(encoding="utf-8")
+    assert 'selectModel(tabs[n].dataset.model);requestAnimationFrame' in text
+    assert 'document.querySelector(`[data-model="${state.model}"]`)?.focus()' in text
+
+
 def test_dashboard_explains_headline_and_scenarios():
     text = PAGE.read_text(encoding="utf-8")
     assert "Headline" in text
@@ -72,12 +78,74 @@ def test_comparison_ui_provenance_and_mobile_table_contract():
     assert all(model.get("status") and model.get("description") for model in data["models"])
     assert len(data["provenance"]) >= 6
     assert "Models disagree on winner" in text
-    assert "Technical variable detail" in text
+    assert "Forecast components" in text
+    assert "Path to a majority" in text
+    assert "Seats to watch" in text
     assert "Data sources and freshness" in text
     assert "Finance scenario</th>" not in text
     assert "difference_from_headline" in text
     assert "URLSearchParams(location.search)" in text
     assert 'aria-controls="workspace"' in text
+
+
+def test_chamber_paths_and_competitive_overview_are_scenario_aware():
+    text, data = page_and_payload()
+    assert 'id="majorityPath"' in text
+    assert 'id="raceWatch"' in text
+    assert "function renderMajorityPath()" in text
+    assert "function renderRaceWatch()" in text
+    assert "data-jump-district" in text
+    for chamber, total in (("house", 105), ("senate", 35)):
+        majority = total // 2 + 1
+        for model in data["models"]:
+            distribution = data[chamber]["modelSeatDistributions"][model["id"]]
+            assert abs(sum(row["probability"] for row in distribution) - 1) < 1e-8
+            assert all(0 <= row["demSeats"] <= total for row in distribution)
+            control = sum(row["probability"] for row in distribution if row["demSeats"] >= majority)
+            assert 0 <= control <= 1
+
+
+def test_district_profiles_use_current_context_and_preserve_missingness():
+    _, data = page_and_payload()
+    races = [race for chamber in ("house", "senate") for race in data[chamber]["races"]]
+    assert len(races) == 140
+    assert all(race["profile"] for race in races)
+    assert all(race["pres24"] is not None for race in races)
+    assert all(race["profile"]["priorResult"] for race in races)
+    assert all(race["profile"]["blackCvapShare"] is not None for race in races)
+    assert all(race["profile"]["collegeShare"] is not None for race in races)
+    assert any(race["profile"]["regions"] for race in races)
+
+
+def test_component_rows_reconcile_and_scenarios_compare_like_for_like():
+    text, data = page_and_payload()
+    assert "componentComparisonHtml" in text
+    assert "The three columns below hold the candidate adjustment constant" in text
+    for chamber in ("house", "senate"):
+        for race in (row for row in data[chamber]["races"] if row["status"] == "modeled"):
+            for model in data["models"]:
+                values = race["models"][model["id"]]
+                assert abs(values["steps"][-1][2] - values["margin"]) < 1e-8
+
+
+def test_candidate_cmo_timelines_use_current_cmo_output():
+    text, data = page_and_payload()
+    candidates = [candidate for chamber in ("house", "senate") for race in data[chamber]["races"] for candidate in race["candidates"]]
+    with_history = [candidate for candidate in candidates if candidate["cmoHistory"]]
+    assert len(with_history) >= 30
+    assert "CMO is signed to the Democratic margin" in text
+    assert "Candidate Atlas" not in text
+    source = pd.read_csv(ROOT / "data" / "processed" / "war" / "cmo_v6_southern_candidates.csv")
+    example = with_history[0]
+    for observation in example["cmoHistory"]:
+        match = source[
+            source.cycle.eq(observation["cycle"])
+            & source.chamber.eq(observation["chamber"])
+            & source.district.eq(observation["district"])
+            & source.canonical_party.eq(example["party"])
+        ]
+        assert len(match) == 1
+        assert abs(match.iloc[0].candidate_direct_cmo - observation["cmo"]) < 1e-10
 
 
 def test_personal_branding_and_profile_links():
