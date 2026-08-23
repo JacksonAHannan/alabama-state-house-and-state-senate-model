@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "status": "research_candidate",
+  "selected_margin_model": "baseline",
+  "selected_probability": {
+    "family": "student_t",
+    "scale": 5.75,
+    "df": 5.0
+  },
+  "configuration": {
+    "seed": 20260822,
+    "simulation_draws": 50000,
+    "forward_test_years": [
+      2020,
+      2022,
+      2024
+    ],
+    "common_test_requires_incumbency_model_ready": true,
+    "candidate_quality_shrinkage_k": 3,
+    "ridge_alpha": 20.0,
+    "margin_model_specs": {
+      "baseline": [],
+      "demographics": [
+        "nonwhite_share",
+        "white_college_share",
+        "swing_x_nonwhite",
+        "swing_x_white_college"
+      ],
+      "demographics_incumbency": [
+        "nonwhite_share",
+        "white_college_share",
+        "swing_x_nonwhite",
+        "swing_x_white_college",
+        "incumbency_balance",
+        "open_seat"
+      ],
+      "demographics_incumbency_prior_quality": [
+        "nonwhite_share",
+        "white_college_share",
+        "swing_x_nonwhite",
+        "swing_x_white_college",
+        "incumbency_balance",
+        "open_seat",
+        "prior_quality_differential",
+        "prior_quality_available"
+      ]
+    },
+    "selection_guardrails": {
+      "mean_delta_lt": 0,
+      "latest_delta_lte": 0,
+      "worst_delta_lte": 1,
+      "minimum_cycles_improved": 2
+    },
+    "probability_grid": {
+      "selection_metric_order": [
+        "brier",
+        "log_loss",
+        "family",
+        "scale"
+      ],
+      "probability_clip": [
+        1e-06,
+        0.999999
+      ],
+      "normal": {
+        "scale_start": 2.0,
+        "scale_stop": 15.0,
+        "scale_step": 0.25,
+        "stop_inclusive": true
+      },
+      "logistic": {
+        "scale_start": 1.0,
+        "scale_stop": 10.0,
+        "scale_step": 0.25,
+        "stop_inclusive": true
+      },
+      "student_t": {
+        "scale_start": 1.0,
+        "scale_stop": 12.0,
+        "scale_step": 0.25,
+        "stop_inclusive": true,
+        "degrees_of_freedom": [
+          3,
+          5,
+          8
+        ]
+      }
+    },
+    "error_decomposition": {
+      "state_group": [
+        "state",
+        "year"
+      ],
+      "chamber_group": [
+        "state",
+        "year",
+        "chamber"
+      ],
+      "district_component": "row_error_minus_state_and_chamber",
+      "national_component": "historical_poll_error_sd"
+    },
+    "scenario_definitions": {
+      "headline": "selected margin model",
+      "historical_cmo": "cmo_expectation__blend100 external scenario",
+      "environment_dem_favorable": "headline plus national_sd",
+      "environment_rep_favorable": "headline minus national_sd"
+    },
+    "finance_eligibility_policy": "promote only with comparable cutoff-consistent multi-state finance mart; otherwise exclude and report gate"
+  },
+  "inputs": [
+    {
+      "path": "data/processed/forecast_calibration/southern_legislative_probability_panel.csv",
+      "sha256": "09154b4ecd80e513acef147a73c9bdf3bb5ba95687ce1b58c6608fe9230315ed"
+    },
+    {
+      "path": "data/processed/forecast_calibration/southern_2024_incumbency_races.csv",
+      "sha256": "4e9933494f71800edd192ffd81a3c6a5cc2ae8b910733ece708223a57c924a33"
+    },
+    {
+      "path": "data/processed/forecast_calibration/southern_2024_incumbency_candidates.csv",
+      "sha256": "488b37437e469cc7be880510423824fb9ca6db0737d7c952d7eac2b9095aa41f"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/dataverse_files.zip",
+      "sha256": "b4c0913fa7bfb0aff4da2dbf67a22da696e9f07b45615f30e78127edd794a3e1"
+    },
+    {
+      "path": "data/processed/polling/historical_silver_a_generic_ballot_cycles.csv",
+      "sha256": "52e4ab48342c5550b4ecb1d146914a4120c777d4b888f4cbae88d32684817010"
+    },
+    {
+      "path": "data/processed/war/next_forecast_tournament_2026.csv",
+      "sha256": "170a0cdde3631662bc7a4df5b6317b4278037048e892a59d499893a68885c1a9"
+    },
+    {
+      "path": "data/processed/war/2026_final_candidate_roster.csv",
+      "sha256": "d9ee34c1b7b37096503d5eebbea07cfc24cc2df0f9da3ffde9ef41def710388c"
+    },
+    {
+      "path": "data/processed/presidential/2026_district_presidential_features.csv",
+      "sha256": "4e7fc2862f3a21c0373986dcb6da664454ae18213ddb97f8ee69c24c3f932a83"
+    },
+    {
+      "path": "data/processed/presidential/2022_district_presidential_features.csv",
+      "sha256": "df6f85667fc1683c5b260daec9a63a7d5b48ced00ce981d3a7d974ed6e6452f1"
+    },
+    {
+      "path": "data/processed/demographics/2026_sld_demographics.csv",
+      "sha256": "0f120269354af2bbc07f8070e8f16b991f84e832f09137af93da8b699c6f549d"
+    },
+    {
+      "path": "data/processed/war/2026_candidate_incumbency.csv",
+      "sha256": "74496cffe14803c9e7d33520919a5a81a0dad1c1624897a9bf8f255cf07bbbfa"
+    },
+    {
+      "path": "data/processed/war/2026_poll_adjusted_baseline.csv",
+      "sha256": "eb730a46c6ea2ef02ccc26fc03bc833fb2747c076196d6ac477fc06b88837b9f"
+    },
+    {
+      "path": "data/processed/war/2026_state_candidate_finance_matches.csv",
+      "sha256": "f0e298c9269620c198253a131082765d5c3e9bd5e63638097f5a3e1bd347ec60"
+    },
+    {
+      "path": "data/processed/polling/votehub_silver_bplus_topline_environment.csv",
+      "sha256": "7c09eb6e37eb9f8c0c1faa150f8ca355891868047deb4bf351a0dd44c3694994"
+    },
+    {
+      "path": "data/processed/polling/catalist_national_demographic_master.csv",
+      "sha256": "c62f0f8f94cd4f1f84d783b67ccc34004b264a1fd1da3a320ee0c48dd6517a29"
+    }
+  ],
+  "code_inputs": [
+    {
+      "path": "scripts/run_robust_forecast_pipeline.py",
+      "sha256": "e301e60cd1255d6b5eb8421982e1c507e3f89ccceb95801e4e2d7f249b08636a"
+    },
+    {
+      "path": "scripts/run_forecast_experiment_tournament.py",
+      "sha256": "7c32727708ff906668c817bb0e8fc2fbd9e95f74943284d01d3a7bd2bc0133a6"
+    },
+    {
+      "path": "scripts/fit_2026_prospective_model.py",
+      "sha256": "3582ba548d3ca16b8125cd2863273cd4876845adf4a3c3ddbc84a41f4807fc02"
+    },
+    {
+      "path": "scripts/build_southern_2024_incumbency.py",
+      "sha256": "b64e4343c506340ba19bc886bc5d2a79fc122bd56e3df1c1fe554357639334f9"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "data/processed/forecast_calibration/robust_forecast_v1_panel.csv",
+      "rows": 1188,
+      "sha256": "fb0d23a5cb40e5e9c105e1f69f79aa1bcd7026f973a1bfde938a4ded79174ef0"
+    },
+    {
+      "path": "data/processed/forecast_calibration/robust_forecast_v1_predictions.csv",
+      "rows": 3572,
+      "sha256": "c92091c7f60234bda145a9078a1cd3c2238a1c9355e172b523da0dfec6339caa"
+    },
+    {
+      "path": "data/processed/forecast_calibration/robust_forecast_v1_metrics.csv",
+      "rows": 12,
+      "sha256": "cd2e73ea2c37c32c75f399901c06c4c05b5eee302a389447721f00c87e991974"
+    },
+    {
+      "path": "data/processed/forecast_calibration/robust_forecast_v1_ranking.csv",
+      "rows": 4,
+      "sha256": "47571af5a9e2bf85fd23aa9a00c922992a6d33e6482e4657542629e220615006"
+    },
+    {
+      "path": "data/processed/forecast_calibration/robust_forecast_v1_probability_families.csv",
+      "rows": 225,
+      "sha256": "0e0c9cc0741c53e873493992177584009dc00eb1eed3f9f41996e2299b1717f2"
+    },
+    {
+      "path": "data/processed/forecast_calibration/robust_forecast_v1_calibrated_predictions.csv",
+      "rows": 893,
+      "sha256": "b4282157c6505e0800dba32c03de62fed7db6e08d5ec1676f74cfd9b0f0dc67c"
+    },
+    {
+      "path": "data/processed/forecast_calibration/robust_forecast_v1_error_components.csv",
+      "rows": 1,
+      "sha256": "4085d289d65d17b847bad2d314356d70d0ffd5ab3bc72633e1b07aa69eef5d68"
+    },
+    {
+      "path": "data/processed/forecast_calibration/robust_forecast_v1_subgroup_audit.csv",
+      "rows": 18,
+      "sha256": "4c1aa3e58f32dc5827707aed6565f36e3c8ba605ce65875331f8fbb306f857c5"
+    },
+    {
+      "path": "data/processed/forecast_calibration/robust_forecast_v1_finance_gate.csv",
+      "rows": 1,
+      "sha256": "c6c269be935e90679348cafb483246881bf4099a9be3bcb20d37689a27d12172"
+    },
+    {
+      "path": "data/processed/forecast_calibration/robust_forecast_v1_2026_scenarios.csv",
+      "rows": 192,
+      "sha256": "b782a4797e357b5c3aff99927f228133a011839cdf972c0d1a5111574a68102c"
+    },
+    {
+      "path": "data/processed/forecast_calibration/robust_forecast_v1_2026_full_uncertainty.csv",
+      "rows": 48,
+      "sha256": "04b92ca8381b47ac97b548a99286c28f7bb038a48d9ed4b5cafd418ef707bc79"
+    },
+    {
+      "path": "data/processed/forecast_calibration/robust_forecast_v1_2026_modeled_seats.csv",
+      "rows": 16,
+      "sha256": "a29ca2dcd963ea0ebf62c4dd9408448c52209a5abc550a0ac229bc04684f28a0"
+    }
+  ],
+  "build_id": "b5c625a6edb0a7c238fb"
+}

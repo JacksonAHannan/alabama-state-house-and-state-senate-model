@@ -30,10 +30,29 @@ def apply_theme(html: str) -> str:
     """Apply presentation changes without altering embedded scripts or payloads."""
     scripts_before = script_blocks(html)
     html = re.sub(r"@import\s+url\([^)]*fonts\.googleapis\.com[^)]*\)\s*;", "", html, flags=re.I)
+    html = re.sub(r'<style id="blue-oxblood-theme">.*?</style>', "", html,
+                  flags=re.I | re.S)
     html = html.replace("</head>", f"<style id=\"blue-oxblood-theme\">{theme_css()}</style></head>", 1)
     html = html.replace("<body>", '<body data-site-theme="blue-oxblood">', 1)
     if SOCIAL_LINK not in html:
         html = html.replace("</nav>", SOCIAL_LINK + "</nav>", 1)
+    # The former standalone caucus page is now a compatibility route. Keep one
+    # canonical navigation entry across every public page.
+    html = re.sub(r'<a href="caucuses\.html"[^>]*>Caucuses</a>', "", html)
+    if not re.search(r'<a href="ideology-performance\.html"', html):
+        html = re.sub(
+            r'(<a href="cmo\.html"[^>]*>.*?</a>)',
+            r'\1<a href="ideology-performance.html">Ideology &amp; caucuses</a>',
+            html,
+            count=1,
+            flags=re.S,
+        )
+    html = re.sub(
+        r'(<a href="ideology-performance\.html"[^>]*>).*?(</a>)',
+        r"\1Ideology &amp; caucuses\2",
+        html,
+        flags=re.S,
+    )
     replacements = {
         "What did Alabama's standout Democrats stand for?": "Alabama Legislator Issue Atlas",
         "The politics behind overperformance": "Candidate issue evidence",

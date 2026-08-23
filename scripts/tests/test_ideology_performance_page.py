@@ -26,31 +26,30 @@ def test_primitive_axes_are_distinct_and_explained() -> None:
     assert "separate" in metadata["gun_access"]["description"]
 
 
-def test_page_contains_rebuilt_visual_system() -> None:
+def test_page_contains_merged_visual_system() -> None:
     html = build()
     for element_id in (
-        "absoluteScatter", "selection", "decomposition", "issueForest",
-        "absoluteParty", "absoluteOutcome", "absoluteSummary", "absoluteStatus",
-        "issueSelect", "issueScatter", "issueSummary", "fitForest", "eras",
+        "performance", "headline", "transition", "transitionChart", "positions",
+        "profileChart", "performanceDistribution", "time", "eraEvidence", "issues",
+        "issueSelect", "issuePlot", "issueCoverage", "cases", "caseStudies",
+        "candidate-explorer", "constellation", "candidateDetail", "candidateRows", "methods",
     ):
         assert f'id="{element_id}"' in html
-    assert "The outcome is measured before ideology is added" in html
-    assert "culturally conservative but economically mixed" in html
-    assert "False-discovery-adjusted" in html
-    assert "Underpowered" in html
-    assert "dynamicAbsoluteScatter" in html
-    assert "prefers-reduced-motion" in html
-    assert "aria-live=\"polite\"" in html
+    assert "traditionalist-populist bloc ran substantially farther ahead" in html
+    assert "Election performance was not used to assign candidates" in html
+    assert "not proof that any one issue caused" in html
+    assert "renderTransition" in html
+    assert "renderConstellation" in html
+    assert 'aria-live="polite"' in html
 
 
-def test_page_uses_editorial_research_template() -> None:
+def test_page_uses_utilitarian_research_structure() -> None:
     html = build()
-    assert 'class="article-grid"' in html
-    assert 'class="toc" aria-label="On this page"' in html
-    assert "Editorial research template" in html
+    assert 'class="contents" aria-label="On this page"' in html
+    assert "Alabama Democratic blocs, 1998–2022" in html
     for section_id in (
-        "measure", "absolute", "selection-audit", "mechanisms", "issues",
-        "evidence", "district-fit", "time", "limits",
+        "performance", "transition", "positions", "time", "issues", "cases",
+        "candidate-explorer", "methods",
     ):
         assert f'id="{section_id}"' in html
         assert f'href="#{section_id}"' in html
@@ -60,10 +59,9 @@ def test_page_uses_editorial_research_template() -> None:
 def test_legacy_analysis_artifacts_are_absent() -> None:
     html = build()
     for stale in (
-        "conservative_fit_score", "cluster_label", "matched pairs",
-        "principal components", "Why guns now appear correctly",
-        "Every issue, era, and candidate observation", "undefined",
-        "2008â", "leftâ", "durabilityâ", "Â·",
+        "conservative_fit_score", "matched pairs", "principal components",
+        "Why guns now appear correctly", "Every issue, era, and candidate observation",
+        "undefined", "Three-dimensional", "render3D", "threeD",
     ):
         assert stale not in html
 
@@ -71,14 +69,28 @@ def test_legacy_analysis_artifacts_are_absent() -> None:
 def test_page_is_self_contained_and_safe_for_missing_estimates() -> None:
     html = build()
     assert "__DATA__" not in html
-    assert "v==null?'—'" in html
-    assert "No adequately powered estimates" in html
-    assert "No observations" in html
+    assert "Not estimated" in html
+    assert "No observations for this selection" in html
     assert 'aria-current="page"' in html
 
 
+def test_merged_payload_contains_transition_and_current_clusters() -> None:
+    data = payload()
+    assert len(data["cluster"]["members"]) == 274
+    assert len([row for row in data["cluster"]["members"] if row["party"] == "D"]) == 115
+    assert {row["cycle"] for row in data["democraticTransition"]} == {
+        1998, 2002, 2006, 2010, 2014, 2018, 2022,
+    }
+    federal = next(row for row in data["headlineBlocPerformance"]
+                   if row["outcome"] == "candidate_federal_overperformance")
+    assert federal["difference"] > 19
+    assert {row["cluster_label"] for row in data["caseStudies"]} == {
+        "Progressive-modern Democrats", "Traditionalist-populist Democrats",
+    }
+
+
 def test_public_docs_is_not_written_by_release_candidate_builder() -> None:
-    from scripts import build_ideology_thesis_page as builder
+    from scripts import build_democratic_transition_page as builder
 
     assert "artifacts" in builder.OUTPUT.parts
     assert "docs" not in builder.OUTPUT.parts

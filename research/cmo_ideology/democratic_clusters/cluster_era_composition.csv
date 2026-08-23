@@ -1,15 +1,14 @@
 party,cluster_id,cluster_label,era,n,within_cluster_share
-D,1,Progressive-modern Democrats,2008_2014,7,0.17073170731707318
-D,1,Progressive-modern Democrats,post_2016,20,0.4878048780487805
-D,1,Progressive-modern Democrats,pre_2008,14,0.34146341463414637
-D,2,Traditionalist-populist Democrats,2008_2014,13,0.17105263157894737
-D,2,Traditionalist-populist Democrats,post_2016,3,0.039473684210526314
-D,2,Traditionalist-populist Democrats,pre_2008,60,0.7894736842105263
-R,1,Business conservatives,2008_2014,26,0.45614035087719296
-R,1,Business conservatives,post_2016,10,0.17543859649122806
-R,1,Business conservatives,pre_2008,21,0.3684210526315789
-R,2,Social and institutional conservatives,2008_2014,10,0.1694915254237288
-R,2,Social and institutional conservatives,post_2016,22,0.3728813559322034
-R,2,Social and institutional conservatives,pre_2008,27,0.4576271186440678
-R,3,Moderate pre-realignment Republicans,2008_2014,1,0.020833333333333332
-R,3,Moderate pre-realignment Republicans,pre_2008,47,0.9791666666666666
+D,1,Progressive-modern Democrats,2008_2014,5,0.1282051282051282
+D,1,Progressive-modern Democrats,post_2016,20,0.5128205128205128
+D,1,Progressive-modern Democrats,pre_2008,14,0.358974358974359
+D,2,Traditionalist-populist Democrats,2008_2014,17,0.2236842105263158
+D,2,Traditionalist-populist Democrats,post_2016,4,0.05263157894736842
+D,2,Traditionalist-populist Democrats,pre_2008,55,0.7236842105263158
+R,1,Business conservatives,2008_2014,24,0.39344262295081966
+R,1,Business conservatives,post_2016,15,0.2459016393442623
+R,1,Business conservatives,pre_2008,22,0.36065573770491804
+R,2,Social and institutional conservatives,2008_2014,9,0.1323529411764706
+R,2,Social and institutional conservatives,post_2016,23,0.3382352941176471
+R,2,Social and institutional conservatives,pre_2008,36,0.5294117647058824
+R,3,Moderate pre-realignment Republicans,pre_2008,30,1.0

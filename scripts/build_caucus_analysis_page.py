@@ -122,18 +122,15 @@ $('#party').onchange=e=>{party=e.target.value;cluster=null;selected=null;render(
 
 
 def build() -> str:
-    page = _template()
-    section_start = page.index('<div class="section"><h3>Three-dimensional issue position</h3>')
-    section_end = page.index('<div class="section"><h3>Candidate positions and performance</h3>', section_start)
-    page = page[:section_start] + page[section_end:]
-    page = re.sub(r"\.three-d-wrap\{.*?\.candidate-empty", ".candidate-empty", page)
-    page = re.sub(r"\.three-d\{min-height:340px\}\.three-d-tools\{[^}]+\}", "", page)
-    page = page.replace("let viewMode='constellation';\n", "")
-    page = page.replace(",yaw=-.65,pitch=.45,drag=null", "")
-    page = page.replace('class="legend3d"', 'class="constellation-legend"')
-    obsolete = ("function axes3d()", "function project3d(", "function render3D()")
-    page = "\n".join(line for line in page.splitlines() if not line.startswith(obsolete))
-    return page
+    """Retain the former public URL without maintaining a duplicate dashboard."""
+    return '''<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="refresh" content="0; url=ideology-performance.html#candidate-explorer">
+<link rel="canonical" href="ideology-performance.html#candidate-explorer">
+<title>Ideology and caucuses · Jackson Hannan</title></head>
+<body><p>The caucus explorer is now part of the
+<a href="ideology-performance.html#candidate-explorer">ideology and performance page</a>.</p>
+<script>location.replace('ideology-performance.html#candidate-explorer');</script></body></html>'''
 
 
 def main() -> None:

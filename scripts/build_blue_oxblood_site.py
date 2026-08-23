@@ -21,7 +21,7 @@ CAUCUS_CANDIDATE = ROOT / "artifacts" / "site" / "caucuses.html"
 BUILDERS = (
     "build_2026_forecast_dashboard.py",
     "build_war_story_page.py",
-    "build_ideology_thesis_page.py",
+    "build_democratic_transition_page.py",
     "build_caucus_analysis_page.py",
     "build_legislator_ideology_page.py",
 )

@@ -1,8 +1,8 @@
 from __future__ import annotations
 
-from pathlib import Path
 import json
 import re
+from pathlib import Path
 
 import pandas as pd
 
@@ -10,20 +10,32 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[2]
 DOCS = ROOT / "docs"
 WAR = ROOT / "data" / "processed" / "war"
+CAL = ROOT / "data" / "processed" / "forecast_calibration"
 
 
 def test_publication_exports_match_current_model_outputs() -> None:
-    pairs = [
+    legacy_pairs = [
         ("cmo_v5_candidates.csv", "cmo_v5_candidates.csv"),
         ("cmo_v5_races.csv", "cmo_v5_races.csv"),
         ("cmo_v5_candidate_effects.csv", "cmo_v5_candidate_effects.csv"),
         ("cmo_v5_model_tournament.csv", "cmo_v5_model_tournament.csv"),
-        ("next_forecast_tournament_2026.csv", "next_forecast_tournament_2026.csv"),
-        ("next_forecast_tournament_summary.csv", "next_forecast_tournament_summary.csv"),
-        ("next_forecast_tournament_cycle_metrics.csv", "next_forecast_tournament_cycle_metrics.csv"),
     ]
-    for source_name, public_name in pairs:
+    for source_name, public_name in legacy_pairs:
         assert (WAR / source_name).read_bytes() == (DOCS / "data" / public_name).read_bytes()
+
+    robust_names = [
+        "robust_forecast_v1_2026_scenarios.csv",
+        "robust_forecast_v1_2026_full_uncertainty.csv",
+        "robust_forecast_v1_2026_modeled_seats.csv",
+        "robust_forecast_v1_metrics.csv",
+        "robust_forecast_v1_ranking.csv",
+        "robust_forecast_v1_probability_families.csv",
+        "robust_forecast_v1_error_components.csv",
+        "robust_forecast_v1_subgroup_audit.csv",
+        "robust_forecast_v1_manifest.json",
+    ]
+    for name in robust_names:
+        assert (CAL / name).read_bytes() == (DOCS / "data" / name).read_bytes()
 
 
 def test_public_pages_describe_current_runs() -> None:
@@ -32,18 +44,20 @@ def test_public_pages_describe_current_runs() -> None:
     cmo = (DOCS / "cmo.html").read_text(encoding="utf-8")
     cmo_method = (DOCS / "cmo-methodology.html").read_text(encoding="utf-8")
 
-    assert "poll-adjusted presidential baseline plus 20% of CMO expected performance" in forecast
-    assert "applies the full CMO expected-performance adjustment" in forecast
-    assert "P(D win) = Φ(expected Democratic margin / 6.0)" in forecast_method
-    assert "1,188 contested legislative races" in forecast_method
-    assert "two after 2016" in forecast_method
-    assert "poll-adjusted presidential baseline + 100%" in forecast_method
+    assert "Validated headline and scenarios" in forecast
+    assert "Historical CMO" in forecast
+    assert "Student-t" in forecast_method
+    assert "893 model-ready contests" in forecast_method
+    assert "50,000 simulations" in forecast_method
+    for stale in ("Basic and Fundamentals+", "six-point normal", "20% of the CMO"):
+        assert stale not in forecast_method
+
     assert "Alabama Candidate Margin Overperformance" in cmo
     assert "CMO methodology v5" in cmo
     assert "Candidate Quality Index" in cmo
     assert "Fundamentals+" not in cmo
     assert "selected same-district ticket" in cmo
-    assert "1994 through 2022" in cmo_method or "1994–2022" in cmo_method
+    assert "1994" in cmo_method and "2022" in cmo_method
     assert "Candidate Quality Index (CQI)" in cmo_method
     assert "same-cycle federal ticket" in cmo_method
     assert "pair_differential_only" in cmo_method
@@ -53,12 +67,12 @@ def test_public_pages_describe_current_runs() -> None:
 def test_public_cmo_and_forecast_row_counts() -> None:
     candidates = pd.read_csv(DOCS / "data" / "cmo_v5_candidates.csv")
     races = pd.read_csv(DOCS / "data" / "cmo_v5_races.csv")
-    forecasts = pd.read_csv(DOCS / "data" / "next_forecast_tournament_2026.csv")
+    forecasts = pd.read_csv(DOCS / "data" / "robust_forecast_v1_2026_scenarios.csv")
     assert len(candidates) == 1018
     assert len(races) == 509
     assert candidates.candidate_direct_cmo.notna().all()
     assert set(races.cycle) == {1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022}
-    assert forecasts.groupby("specification").size().eq(48).all()
+    assert forecasts.groupby("scenario").size().eq(48).all()
 
 
 def test_public_quality_map_is_race_differential_not_democratic_effect() -> None:
@@ -82,12 +96,17 @@ def test_hd32_2022_uses_direct_cmo_v5_score() -> None:
     race = races.loc[
         (races.cycle == 2022) & races.chamber.eq("house") & races.district.eq(32)
     ].squeeze()
-
     assert boyd.candidate_direct_cmo == race.direct_cmo
     assert race.selected_ticket_source == "same_cycle_federal"
     assert boyd.quality_status == "uncertain"
 
 
-def test_public_probability_export_matches_current_model_output() -> None:
-    source = ROOT / "data" / "processed" / "forecast_calibration" / "production_probability_2026.csv"
-    assert source.read_bytes() == (DOCS / "data" / "production_probability_2026.csv").read_bytes()
+def test_public_ideology_and_caucus_routes_are_merged() -> None:
+    ideology = (DOCS / "ideology-performance.html").read_text(encoding="utf-8")
+    caucus = (DOCS / "caucuses.html").read_text(encoding="utf-8")
+    assert "Alabama Democratic blocs, 1998–2022" in ideology
+    assert 'id="transitionChart"' in ideology
+    assert 'id="candidate-explorer"' in ideology
+    assert "render3D" not in ideology
+    assert 'ideology-performance.html#candidate-explorer' in caucus
+    assert "location.replace" in caucus

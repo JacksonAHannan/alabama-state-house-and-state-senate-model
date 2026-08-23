@@ -21,6 +21,8 @@ ASSETS = ROOT / "dashboard"
 OUTPUT = ROOT / "docs" / "legislators.html"
 VOTESMART = ROOT / "data" / "processed" / "ideology" / "votesmart_pct_candidate_cycle_features.csv"
 LEGISLATIVE_IDEOLOGY = ROOT / "data" / "processed" / "ideology" / "candidate_ideology_full_universe.csv"
+CAREER_IDEOLOGY = ROOT / "data" / "processed" / "ideology" / "candidate_career_ideology_through_2026.csv"
+IDENTITY_CROSSWALK = ROOT / "data" / "processed" / "ideology" / "candidate_legislator_identity_crosswalk.csv"
 
 ISSUE_GROUPS = {
     "abortion": "Abortion",
@@ -143,6 +145,8 @@ def build_payload() -> dict:
     bios = pd.read_csv(RESEARCH / "candidate_biographies.csv").set_index("person_id")
     shor = pd.read_csv(RESEARCH / "shor_mccarty_matches.csv").set_index("person_id")
     legislative = pd.read_csv(LEGISLATIVE_IDEOLOGY) if LEGISLATIVE_IDEOLOGY.exists() else pd.DataFrame()
+    career = pd.read_csv(CAREER_IDEOLOGY) if CAREER_IDEOLOGY.exists() else pd.DataFrame()
+    identities = pd.read_csv(IDENTITY_CROSSWALK, dtype=str).fillna("") if IDENTITY_CROSSWALK.exists() else pd.DataFrame()
     records: list[dict] = []
 
     pct_profiles = {}
@@ -210,6 +214,17 @@ def build_payload() -> dict:
         li_pool = (legislative[legislative.person_id.eq(pid) & legislative.year.eq(row.cycle)]
                    if not legislative.empty else legislative)
         li = li_pool.iloc[0] if len(li_pool)==1 else None
+        career_profile = None
+        if not identities.empty and not career.empty:
+            identity_hit = identities[(identities.person_id.astype(str).eq(str(pid)))
+                                      & identities.year.astype(int).eq(int(row.cycle))
+                                      & identities.chamber.eq(str(row.chamber).lower())
+                                      & identities.identity_status.eq("resolved")]
+            if len(identity_hit) == 1:
+                career_hit = career[(career.member_source_id.eq(identity_hit.iloc[0].member_source_id))
+                                    & career.chamber.eq(str(row.chamber).lower())]
+                if len(career_hit) == 1:
+                    career_profile = career_hit.iloc[0]
         cells = []
         for group in GROUP_ORDER:
             group_records = [r for r in candidate_records if r["group"] == group]
@@ -252,6 +267,12 @@ def build_payload() -> dict:
                 "votes": clean(li.votes_used),
                 "window": f"{int(li.window_start)}–{int(li.window_end)}",
                 "matchMethod": clean(li.identity_match_method),
+            },
+            "careerIdeology": None if career_profile is None or not bool(career_profile.career_ideology_available) else {
+                "score": clean(career_profile.behavioral_ideology),
+                "percentile": clean(career_profile.chamber_percentile),
+                "votes": clean(career_profile.votes_used),
+                "window": "1998–2026 archived career",
             },
             "voteSmart": None if pct_profile is None else {
                 "questionnaireYear": int(pct_profile.election_year),

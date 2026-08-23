@@ -3,6 +3,7 @@ import re
 from pathlib import Path
 
 from bs4 import BeautifulSoup
+import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -38,28 +39,29 @@ def test_dashboard_has_accessible_controls_and_fallbacks():
 
 def test_dashboard_explains_headline_and_scenarios():
     text = PAGE.read_text(encoding="utf-8")
-    assert "poll-adjusted presidential baseline plus 20% of CMO expected performance" in text
-    assert "applies the full CMO expected-performance adjustment" in text
-    assert "middle 80% conditional predictive interval" in text
-    assert "Conditional probability estimates" in text
-    assert "CMO expected performance" in text
-    assert "six-point normal calibration" in text
+    assert "Headline" in text
+    assert "Historical CMO" in text
+    assert "Student-t" in text
+    assert "50,000 simulations" in text
+    assert "Shared national, state, and chamber" in text
+    assert "six-point normal calibration" not in text
 
 
 def test_model_switcher_and_default_decomposition_are_complete():
     text, data = page_and_payload()
-    assert data["meta"]["model"] == "cmo_expectation__blend20"
-    assert len(data["models"]) == 2
+    assert data["meta"]["model"] == "headline"
+    assert data["meta"]["version"] == "b5c625a6edb0a7c238fb"
+    assert len(data["models"]) == 4
     assert sum(model["default"] for model in data["models"]) == 1
     assert 'id="modelTabs"' in text
     race = next(r for r in data["house"]["races"] if r["status"] == "modeled")
     assert set(race["models"]) == {model["id"] for model in data["models"]}
-    default = race["models"]["cmo_expectation__blend20"]
+    default = race["models"]["headline"]
     assert default["steps"]
     assert len(data["contributionVariables"]) == len(default["steps"])
     assert abs(default["steps"][-1][2] - default["margin"]) < 1e-8
     assert 'const PUBLIC_MODEL=DATA.meta.model' in text
-    assert 'basic_polling_100' not in text
+    assert 'cmo_expectation__blend20' not in text
 
 
 def test_comparison_ui_provenance_and_mobile_table_contract():
@@ -70,7 +72,7 @@ def test_comparison_ui_provenance_and_mobile_table_contract():
     assert "Technical variable detail" in text
     assert "Data sources and freshness" in text
     assert "Finance scenario</th>" not in text
-    assert "difference_from_basic" in text
+    assert "difference_from_headline" in text
     assert "URLSearchParams(location.search)" in text
     assert 'aria-controls="workspace"' in text
 
@@ -95,11 +97,11 @@ def test_uncertainty_axis_has_correct_party_direction():
 def test_live_probabilities_use_recent_southern_calibration():
     _, data = page_and_payload()
     hd21 = next(r for r in data["house"]["races"] if r["district"] == 21)
-    basic = hd21["models"]["cmo_expectation__blend20"]
-    plus = hd21["models"]["cmo_expectation__blend100"]
-    assert .03 < basic["demProbability"] < .04
-    assert .01 < plus["demProbability"] < .025
-    assert basic["high80"] - basic["low80"] < 16
+    headline = hd21["models"]["headline"]
+    cmo = hd21["models"]["historical_cmo"]
+    assert .02 < headline["demProbability"] < .023
+    assert .039 < cmo["demProbability"] < .041
+    assert headline["high80"] - headline["low80"] < 18
 
 
 def test_sd25_is_a_contested_modeled_senate_race():
@@ -166,3 +168,29 @@ def test_map_uses_leaflet_basemap_and_close_control():
     assert 'addEventListener("click",clearDistrict)' in text
     assert "#map{width:100%;height:610px" in css
     assert ".leaflet-interactive:hover" in css
+
+
+def test_robust_v1_contests_and_full_chamber_accounting_reconcile():
+    _, data = page_and_payload()
+    assert sum(r["status"] == "modeled" for c in ("house", "senate") for r in data[c]["races"]) == 48
+    assert all(r["status"] != "unmodeled" for c in ("house", "senate") for r in data[c]["races"])
+    roster = pd.read_csv(ROOT / "data" / "processed" / "war" / "2026_final_candidate_roster.csv")
+    modeled = pd.read_csv(ROOT / "data" / "processed" / "forecast_calibration" / "robust_forecast_v1_2026_modeled_seats.csv")
+    for chamber in ("house", "senate"):
+        dem = set(roster[(roster.chamber == chamber) & roster.party.eq("D")].district)
+        rep = set(roster[(roster.chamber == chamber) & roster.party.eq("R")].district)
+        fixed_dem = len(dem - rep)
+        expected = modeled[modeled.chamber.eq(chamber)].set_index("dem_modeled_seats").probability
+        actual = {row["demSeats"] - fixed_dem: row["probability"] for row in data[chamber]["modelSeatDistributions"]["headline"]}
+        assert set(actual) == set(expected.index)
+        for seats, probability in expected.items():
+            assert abs(actual[seats] - probability) < 1e-12
+
+
+def test_methodology_has_no_legacy_forecast_claims():
+    text = (ROOT / "docs" / "methodology.html").read_text(encoding="utf-8")
+    assert "893 model-ready contests" in text
+    assert "Student-t" in text
+    assert "50,000 simulations" in text
+    for legacy in ("Basic and Fundamentals+", "six-point normal", "20% of the CMO"):
+        assert legacy not in text

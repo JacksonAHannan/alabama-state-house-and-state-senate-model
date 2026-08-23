@@ -41,3 +41,15 @@ def test_votesmart_never_uses_questionnaire_after_focal_election():
     for candidate in payload["candidates"]:
         if candidate["voteSmart"] is not None:
             assert candidate["voteSmart"]["questionnaireYear"] <= candidate["cycle"]
+
+
+def test_career_and_pre_election_profiles_are_explicitly_separate():
+    payload = build_payload()
+    career = [candidate["careerIdeology"] for candidate in payload["candidates"]
+              if candidate["careerIdeology"] is not None]
+    assert career
+    assert all(profile["window"] == "1998–2026 archived career" for profile in career)
+    for candidate in payload["candidates"]:
+        profile = candidate["legislativeIdeology"]
+        if profile is not None:
+            assert str(candidate["cycle"]) in profile["window"]

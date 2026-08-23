@@ -4,29 +4,29 @@ Clusters are fit separately by party from absolute, temporally eligible issue po
 
 ## Democratic solution
 
-Selected **2 clusters** among **117 candidate-cycles**, using **17 two-sided issue dimensions**. Silhouette is **0.212**; mean bootstrap ARI is **0.829**; KNN-versus-median-imputation ARI is **0.740**; absolute-versus-within-era ARI is **0.524**; position-versus-missingness ARI is **-0.014**.
+Selected **2 clusters** among **115 candidate-cycles**, using **17 two-sided issue dimensions**. Silhouette is **0.218**; mean bootstrap ARI is **0.906**; KNN-versus-median-imputation ARI is **0.616**; absolute-versus-within-era ARI is **0.398**; position-versus-missingness ARI is **-0.014**.
 
-- **Progressive-modern Democrats:** 41 candidate-cycles and 41 people.
+- **Progressive-modern Democrats:** 39 candidate-cycles and 39 people.
 - **Traditionalist-populist Democrats:** 76 candidate-cycles and 73 people.
 
 ### CMO attached after clustering
 
-- **Progressive-modern Democrats:** mean -7.45, median -6.45, n=41.
-- **Traditionalist-populist Democrats:** mean +2.70, median +0.48, n=76.
+- **Progressive-modern Democrats:** mean -7.29, median -6.45, n=39.
+- **Traditionalist-populist Democrats:** mean +1.30, median -0.60, n=76.
 
 ## Republican solution
 
-Selected **3 clusters** among **164 candidate-cycles**, using **13 two-sided issue dimensions**. Silhouette is **0.222**; mean bootstrap ARI is **0.866**; KNN-versus-median-imputation ARI is **0.239**; absolute-versus-within-era ARI is **0.198**; position-versus-missingness ARI is **0.220**.
+Selected **3 clusters** among **159 candidate-cycles**, using **14 two-sided issue dimensions**. Silhouette is **0.201**; mean bootstrap ARI is **0.824**; KNN-versus-median-imputation ARI is **0.080**; absolute-versus-within-era ARI is **0.283**; position-versus-missingness ARI is **0.128**.
 
-- **Business conservatives:** 57 candidate-cycles and 51 people.
-- **Social and institutional conservatives:** 59 candidate-cycles and 59 people.
-- **Moderate pre-realignment Republicans:** 48 candidate-cycles and 48 people.
+- **Business conservatives:** 61 candidate-cycles and 55 people.
+- **Social and institutional conservatives:** 68 candidate-cycles and 67 people.
+- **Moderate pre-realignment Republicans:** 30 candidate-cycles and 30 people.
 
 ### CMO attached after clustering
 
-- **Business conservatives:** mean -1.14, median +0.82, n=57.
-- **Social and institutional conservatives:** mean -1.92, median +1.04, n=59.
-- **Moderate pre-realignment Republicans:** mean -5.79, median -4.61, n=48.
+- **Business conservatives:** mean +1.03, median +2.53, n=61.
+- **Social and institutional conservatives:** mean -1.56, median +1.06, n=68.
+- **Moderate pre-realignment Republicans:** mean -4.40, median -3.91, n=30.
 
 **Robustness warning:** this discrete solution changes substantially under alternate imputation or within-era normalization. Treat the labels as a description of historical tendencies, not stable caucus membership.
 
