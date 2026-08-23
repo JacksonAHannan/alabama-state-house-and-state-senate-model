@@ -25,7 +25,6 @@ MAPS = {
 }
 PUBLIC_MODELS = {
     "headline": "Headline",
-    "historical_cmo": "Historical CMO",
     "environment_dem_favorable": "Democratic environment",
     "environment_rep_favorable": "Republican environment",
 }
@@ -91,7 +90,6 @@ def build_payload():
     build_date=dt.date.today()
     model_copy={
         "headline":("Validated headline","The poll-adjusted 2024 presidential baseline. No tested demographic, incumbency, or prior-candidate adjustment cleared the forward-validation gate."),
-        "historical_cmo":("Scenario","The previous full historical-CMO expectation, retained for comparison but not selected by the modern Southern tournament."),
         "environment_dem_favorable":("Scenario","The headline margin shifted Democratic by one historical national polling-error standard deviation."),
         "environment_rep_favorable":("Scenario","The headline margin shifted Republican by one historical national polling-error standard deviation."),
     }
@@ -191,7 +189,7 @@ def build_payload():
 HTML="""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Jackson Hannan's 2026 Alabama State House and State Senate election forecast"><meta name="author" content="Jackson Hannan"><meta property="og:title" content="Alabama 2026 Legislative Forecast"><meta property="og:description" content="A district-by-district Alabama legislative forecast by Jackson Hannan."><meta property="og:type" content="website"><title>Alabama 2026 Legislative Forecast · Jackson Hannan</title><style>__CSS__</style></head><body>
 <header class="mast"><div class="mast-inner"><div class="brand">Jackson Hannan<small>Alabama legislative forecast</small></div><nav class="social-nav" aria-label="Jackson Hannan online"><a href="https://github.com/JacksonAHannan" target="_blank" rel="me noopener">GitHub</a><a href="https://www.instagram.com/topsoilintraining/" target="_blank" rel="me noopener">Instagram</a><a href="https://substack.com/@jacksonhannan" target="_blank" rel="me noopener">Substack</a><a href="https://www.linkedin.com/in/jackson-hannan" target="_blank" rel="me noopener">LinkedIn</a></nav></div></header>
 <section class="hero"><div class="kicker">The Alabama Legislature</div><h1>2026 Election Forecast</h1><div class="dek">A district-by-district forecast anchored to 2024 presidential performance and adjusted for the projected 2026 national environment using Alabama’s demographic composition.</div><div class="status-row"><span class="status-chip">Forecast built <b id="buildDate"></b></span><span class="status-chip">Polling through <b id="pollDate"></b></span><span class="status-chip" id="pollAge"></span><span class="status-chip">Finance through <b id="financeDate"></b></span></div>
-<details class="quick-method"><summary>Forecast views</summary><ol><li><b>Headline</b> uses the poll-adjusted presidential baseline selected by forward validation.</li><li><b>Historical CMO</b> retains the earlier full CMO expectation as a comparison scenario.</li><li>The Democratic- and Republican-environment views move every district by one historical national polling-error standard deviation.</li><li>Probabilities use the validated Student-t calibration; headline chamber summaries use 50,000 simulations with shared errors.</li></ol></details></section>
+<details class="quick-method"><summary>Forecast views</summary><ol><li><b>Headline</b> uses the poll-adjusted presidential baseline selected by forward validation.</li><li>The Democratic- and Republican-environment views move every district by one historical national polling-error standard deviation.</li><li>Historical CMO is analyzed separately and is not used as a 2026 scenario because its Southern structural expectation failed the modern-era gate.</li><li>Probabilities use the validated Student-t calibration; headline chamber summaries use 50,000 simulations with shared errors.</li></ol></details></section>
 <main class="shell"><section class="model-switcher" aria-labelledby="modelSwitcherTitle"><div><div class="kicker">Validated headline and scenarios</div><h2 id="modelSwitcherTitle">Forecast view</h2><p id="modelDescription" class="section-note"></p></div><div class="model-scores" id="modelScores" aria-label="Forward-validation error scores"></div><div class="model-tabs" id="modelTabs" role="tablist" aria-label="Forecast view"></div><p class="mae-note">MAE is average absolute district-margin error on common forward holdouts. Scenario tabs are comparisons, not independently selected models.</p></section><section class="overview-grid" id="overviewGrid" aria-label="House and Senate forecast summaries"></section>
 <section class="workspace" id="workspace"><header class="workspace-head"><h2 id="chamberTitle"></h2><div class="segmented" aria-label="Select chamber"><button data-chamber="house" aria-pressed="true">State House</button><button data-chamber="senate" aria-pressed="false">State Senate</button></div></header>
 <div class="chamber-strip"><div class="strip-stat"><b id="medianSeats"></b><span>Median Democratic seats</span></div><div class="strip-stat distribution-cell"><div class="distribution" id="distribution" aria-label="Conditional Democratic seat distribution"></div><div class="distribution-axis" id="distributionAxis"></div></div><div class="strip-stat"><b id="seatRange"></b><span>Democratic 80% seat range</span></div></div>
@@ -261,7 +259,7 @@ def build_methodology_v2(css: str, payload: dict) -> str:
 <section id="environment"><h2>National environment</h2><p>The district baseline incorporates quality-gated generic-ballot polling through {environment.as_of}. The national two-party environment is D+{float(environment.dem_two_party_margin):.2f} across {int(environment.pollsters)} pollsters. Rebuild this component as new polls arrive.</p></section>
 <section id="validation"><h2>Forward validation</h2><p>All specifications use the same 893 model-ready contests. The 2020, 2022, and 2024 folds train only on earlier elections; ambiguous 2024 incumbency remains missing rather than being coded as an open seat.</p><table class="method-table"><thead><tr><th>Specification</th><th>Mean MAE</th><th>2024 difference</th><th>Decision</th></tr></thead><tbody>{rows}</tbody></table><p>The selected baseline has mean MAE {base.mae.mean():.2f}; its 2022 and 2024 MAEs are {base.loc[2022,'mae']:.2f} and {base.loc[2024,'mae']:.2f}.</p></section>
 <section id="uncertainty"><h2>Probabilities and chamber summaries</h2><p>Out-of-sample margins select a Student-t curve with {int(best.df)} degrees of freedom and a {best.scale:.2f}-point scale (Brier score {best.brier:.4f}). The headline uses 50,000 simulations with shared national ({components.national_sd:.2f}), state ({components.state_sd:.2f}), and chamber ({components.chamber_sd:.2f}) errors plus district error ({components.district_sd:.2f}).</p><p>Single-major-party districts are fixed in chamber totals, even if an independent is present. Unresolved districts remain unmodeled.</p></section>
-<section id="scenarios"><h2>Scenario views</h2><p>Historical CMO shows the earlier full expected-performance approach. The Democratic- and Republican-environment scenarios shift the headline by one national polling-error standard deviation in either direction. These views do not replace the headline.</p></section>
+<section id="scenarios"><h2>Scenario views</h2><p>The Democratic- and Republican-environment scenarios shift the headline by one national polling-error standard deviation in either direction. Historical CMO is not a forecast tab: the current Southern-prior decomposition fails the 2018–2022 gate and remains a historical research product.</p></section>
 <section id="limits"><h2>Limitations</h2><ul><li>Only three forward validation cycles support the modern tournament.</li><li>The calibration panel currently covers Arkansas, Georgia, Tennessee, and Texas.</li><li>Comparable finance data did not meet the cross-state coverage gate and is excluded.</li><li>Candidate quality is difficult to separate from incumbency, fundraising, and electoral selection.</li><li>Alabama polling is sparse and requires a national-to-state transfer.</li></ul><p class="download-list"><a href="data/robust_forecast_v1_2026_scenarios.csv">District scenarios</a><a href="data/robust_forecast_v1_metrics.csv">Cycle metrics</a><a href="data/robust_forecast_v1_subgroup_audit.csv">Subgroup audit</a><a href="data/robust_forecast_v1_manifest.json">Build manifest</a></p></section>
 </article></div></main></body></html>'''
 
@@ -338,10 +336,6 @@ def main():
         (CAL/"robust_forecast_v1_error_components.csv","robust_forecast_v1_error_components.csv"),
         (CAL/"robust_forecast_v1_subgroup_audit.csv","robust_forecast_v1_subgroup_audit.csv"),
         (CAL/"robust_forecast_v1_manifest.json","robust_forecast_v1_manifest.json"),
-        (WAR/"next_forecast_tournament_2026.csv","next_forecast_tournament_2026.csv"),
-        (WAR/"next_forecast_tournament_summary.csv","next_forecast_tournament_summary.csv"),
-        (WAR/"next_forecast_tournament_cycle_metrics.csv","next_forecast_tournament_cycle_metrics.csv"),
-        (WAR/"next_forecast_tournament_past_only_selection.csv","next_forecast_tournament_past_only_selection.csv"),
         (WAR/"2026_forecast_decomposition.csv","2026_forecast_decomposition.csv"),
         (WAR/"2026_model_comparison.csv","2026_model_comparison.csv"),
         (WAR/"2026_model_variable_contributions.csv","2026_model_variable_contributions.csv"),
@@ -356,6 +350,15 @@ def main():
         (CAL/"production_probability_model_card.json","production_probability_model_card.json"),
     ]:
         shutil.copy2(source,SITE/"data"/name)
+    for stale_name in (
+        "next_forecast_tournament_2026.csv",
+        "next_forecast_tournament_summary.csv",
+        "next_forecast_tournament_cycle_metrics.csv",
+        "next_forecast_tournament_past_only_selection.csv",
+    ):
+        stale = SITE / "data" / stale_name
+        if stale.exists():
+            stale.unlink()
     print(f"Wrote {OUTPUT}, {SITE/'index.html'}, and {SITE/'methodology.html'}")
 
 

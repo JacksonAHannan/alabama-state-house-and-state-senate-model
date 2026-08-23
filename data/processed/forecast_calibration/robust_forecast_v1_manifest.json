@@ -1,6 +1,7 @@
 {
-  "schema_version": 1,
-  "status": "research_candidate",
+  "schema_version": 2,
+  "status": "validated_public_forecast",
+  "methodology_version": "robust_forecast_v1_reconciled",
   "selected_margin_model": "baseline",
   "selected_probability": {
     "family": "student_t",
@@ -101,7 +102,6 @@
     },
     "scenario_definitions": {
       "headline": "selected margin model",
-      "historical_cmo": "cmo_expectation__blend100 external scenario",
       "environment_dem_favorable": "headline plus national_sd",
       "environment_rep_favorable": "headline minus national_sd"
     },
@@ -127,10 +127,6 @@
     {
       "path": "data/processed/polling/historical_silver_a_generic_ballot_cycles.csv",
       "sha256": "52e4ab48342c5550b4ecb1d146914a4120c777d4b888f4cbae88d32684817010"
-    },
-    {
-      "path": "data/processed/war/next_forecast_tournament_2026.csv",
-      "sha256": "170a0cdde3631662bc7a4df5b6317b4278037048e892a59d499893a68885c1a9"
     },
     {
       "path": "data/processed/war/2026_final_candidate_roster.csv",
@@ -172,7 +168,7 @@
   "code_inputs": [
     {
       "path": "scripts/run_robust_forecast_pipeline.py",
-      "sha256": "e301e60cd1255d6b5eb8421982e1c507e3f89ccceb95801e4e2d7f249b08636a"
+      "sha256": "74c93c8e6517e7368f58c427602d77861c9f22de1411f814ce52131e23945e24"
     },
     {
       "path": "scripts/run_forecast_experiment_tournament.py",
@@ -235,8 +231,8 @@
     },
     {
       "path": "data/processed/forecast_calibration/robust_forecast_v1_2026_scenarios.csv",
-      "rows": 192,
-      "sha256": "b782a4797e357b5c3aff99927f228133a011839cdf972c0d1a5111574a68102c"
+      "rows": 144,
+      "sha256": "eedaca263d1a6799d3822d555495b38b5b148ce775592f978feefd576f4bd4ac"
     },
     {
       "path": "data/processed/forecast_calibration/robust_forecast_v1_2026_full_uncertainty.csv",
@@ -249,5 +245,5 @@
       "sha256": "a29ca2dcd963ea0ebf62c4dd9408448c52209a5abc550a0ac229bc04684f28a0"
     }
   ],
-  "build_id": "b5c625a6edb0a7c238fb"
+  "build_id": "315df6dcc3c8dccd1585"
 }

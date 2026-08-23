@@ -1,7 +1,0 @@
-test_cycle,selected_specification,selection_reason,selected_mae,basic_mae,delta_vs_basic
-2002,basic_polling_100,fewer than two prior held-out cycles,32.24515684653531,32.24515684653531,0.0
-2006,basic_polling_100,fewer than two prior held-out cycles,43.598621945586636,43.598621945586636,0.0
-2010,demographics_regions_finance__ridge20__blend20,prior-cycle mean improvement 3.11,23.43604879171065,25.91223926790113,-2.476190476190478
-2014,demographics_regions_finance__ridge20__blend20,prior-cycle mean improvement 2.90,22.309645762078745,23.583294204908917,-1.2736484428301722
-2018,cmo_expectation__blend20,prior-cycle mean improvement 2.50,12.41623785386118,12.47307344344572,-0.05683558958454071
-2022,all_plus_candidate_history__ridge20__blend20,prior-cycle mean improvement 2.03,10.563191908174248,9.857008882273425,0.7061830259008239

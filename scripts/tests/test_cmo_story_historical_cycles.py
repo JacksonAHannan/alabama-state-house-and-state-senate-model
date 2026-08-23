@@ -3,7 +3,7 @@ import json
 import re
 from pathlib import Path
 
-from build_war_story_page import build_page, modernize_v5_copy
+from build_war_story_page import build_page, modernize_v6_copy
 
 
 def _section(cycle, chamber):
@@ -16,7 +16,7 @@ def test_story_page_exposes_early_house_and_senate_cycles():
         for cycle in (1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022)
         for chamber in ("house", "senate")
     }
-    page = modernize_v5_copy(build_page(payload))
+    page = modernize_v6_copy(build_page(payload))
     assert "Early historical · 1994–2006" in page
     assert "<b>8</b><span>Historical cycles</span>" in page
     encoded = re.search(r"const DATA=(\{.*?\});\n", page, re.S)
@@ -32,17 +32,19 @@ def test_story_page_publishes_transparency_and_exploration_controls():
         "2010-house": _section(2010, "house"),
         "2022-senate": _section(2022, "senate"),
     }
-    page = modernize_v5_copy(build_page(payload))
+    page = modernize_v6_copy(build_page(payload))
     assert "<b>4</b><span>Map views</span>" in page
     assert 'id="scope-filter"' in page
     assert "All cycles and chambers" in page
-    assert "Candidate Quality Index" in page
+    assert "Southern-prior decomposition" in page
+    assert "Residual candidate quality" in page
+    assert "Generic incumbency component" in page
+    assert "Total electoral value" in page
     assert "Uncertainty interval" in page
-    assert "Intrinsic sensitivity" in page
-    assert "Pre-election estimate" in page
+    assert "Historical structural expectation" in page
     assert "Diagnostics" in page
-    assert "Repeat-candidate construct check" in page
-    assert "Candidate-quality penalty" in page
+    assert "Structural expectation" in page
+    assert "Residual-quality penalty" in page
     assert "Fundamentals+" not in page
     assert "Data and provenance" in page
     assert "Data sources and attribution" in page
@@ -56,7 +58,7 @@ def test_story_page_publishes_transparency_and_exploration_controls():
     assert "selectCandidate(" in page
     assert "districtStatus" in page
     assert '<button data-map-mode="absolute" class="active">CMO</button>' in page
-    assert '<button data-map-mode="quality">Candidate quality differential</button>' in page
+    assert '<button data-map-mode="quality">Residual quality differential</button>' in page
     assert '<button data-map-mode="governor">Raw overperformance vs. governor</button>' in page
     assert '<button data-map-mode="presidential">Raw overperformance vs. previous presidential margin</button>' in page
     assert 'data-map-mode="relative"' not in page

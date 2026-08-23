@@ -40,7 +40,7 @@ def test_dashboard_has_accessible_controls_and_fallbacks():
 def test_dashboard_explains_headline_and_scenarios():
     text = PAGE.read_text(encoding="utf-8")
     assert "Headline" in text
-    assert "Historical CMO" in text
+    assert "Historical CMO is analyzed separately" in text
     assert "Student-t" in text
     assert "50,000 simulations" in text
     assert "Shared national, state, and chamber" in text
@@ -50,8 +50,9 @@ def test_dashboard_explains_headline_and_scenarios():
 def test_model_switcher_and_default_decomposition_are_complete():
     text, data = page_and_payload()
     assert data["meta"]["model"] == "headline"
-    assert data["meta"]["version"] == "b5c625a6edb0a7c238fb"
-    assert len(data["models"]) == 4
+    manifest = json.loads((ROOT / "data" / "processed" / "forecast_calibration" / "robust_forecast_v1_manifest.json").read_text(encoding="utf-8"))
+    assert data["meta"]["version"] == manifest["build_id"]
+    assert len(data["models"]) == 3
     assert sum(model["default"] for model in data["models"]) == 1
     assert 'id="modelTabs"' in text
     race = next(r for r in data["house"]["races"] if r["status"] == "modeled")
@@ -98,9 +99,7 @@ def test_live_probabilities_use_recent_southern_calibration():
     _, data = page_and_payload()
     hd21 = next(r for r in data["house"]["races"] if r["district"] == 21)
     headline = hd21["models"]["headline"]
-    cmo = hd21["models"]["historical_cmo"]
     assert .02 < headline["demProbability"] < .023
-    assert .039 < cmo["demProbability"] < .041
     assert headline["high80"] - headline["low80"] < 18
 
 
@@ -194,3 +193,4 @@ def test_methodology_has_no_legacy_forecast_claims():
     assert "50,000 simulations" in text
     for legacy in ("Basic and Fundamentals+", "six-point normal", "20% of the CMO"):
         assert legacy not in text
+    assert "Historical CMO is not a forecast tab" in text

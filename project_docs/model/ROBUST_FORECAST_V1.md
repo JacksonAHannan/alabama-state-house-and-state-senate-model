@@ -1,4 +1,4 @@
-# Robust forecast research pipeline v1
+# Robust forecast pipeline v1
 
 ## Scope and selection
 
@@ -23,8 +23,10 @@ zero adjustment plus an availability flag when no prior race exists.
 
 No challenger clears the prespecified average/latest-cycle/worst-cycle gate.
 The headline 2026 margin therefore remains the poll- and demographic-transfer
-environment baseline. Historical CMO and favorable national-environment cases
-are published only as scenarios.
+environment baseline. Favorable national-environment cases are published only
+as scenarios. The former historical-CMO tab is retired because it used a
+superseded expectation and the current Southern prior fails the modern-era
+forecast gate.
 
 ## Finance
 
@@ -55,9 +57,8 @@ margin band, incumbency status, and demographic type. The demographic types
 are majority-nonwhite, high-white-college, and other; a comparable cross-state
 urban/suburban/rural label is not currently available.
 
-The research output contains one selected `headline` view and three scenarios:
-historical CMO, Democratic-favorable environment, and Republican-favorable
-environment. Scenarios cannot alter model selection. Chamber distributions
-currently count the 48 modeled contested Alabama races only; fixed and
-unmodeled seats must be added from the certified roster during a subsequent
-web-product integration.
+The output contains one selected `headline` view and two scenarios:
+Democratic-favorable environment and Republican-favorable environment.
+Scenarios cannot alter model selection. The website adds certified fixed seats
+to the simulated distributions for the 48 modeled contested Alabama races and
+labels any genuinely unresolved seats separately.

@@ -1,0 +1,72 @@
+{
+  "schema_version": 2,
+  "status": "validated_historical_decomposition",
+  "methodology_version": "cmo_v6_southern_prior",
+  "source_commit": "d60c6d6f576dc6fd7e871d4a33d317858681a477",
+  "selected_structural_model": "portable_temporal",
+  "southern_training_excludes_alabama": true,
+  "direct_cmo_definition": "candidate-oriented legislative margin minus selected same-cycle ticket margin",
+  "direct_cmo_invariant_to_v5": true,
+  "forecast_promotion_status": "rejected_modern_era_gate",
+  "public_scope": "historical decomposition; not a direct 2026 forecast adjustment",
+  "inputs": [
+    {
+      "path": "data/processed/forecast_calibration/historical_southern_extended_v2_panel.csv",
+      "sha256": "c3b9eb0b97cc758ab81f6b72fcc2f263b8bc877772909b73cdd9a20e18daf975"
+    },
+    {
+      "path": "data/processed/war/extended_v2_historical_southern/historical_southern_cmo_manifest.json",
+      "sha256": "62477b372451a2025c6e491a562544b5ee5a0159415ec6cc7889b7a7b97f2f00"
+    },
+    {
+      "path": "data/processed/war/cmo_v5_races.csv",
+      "sha256": "03d5f996c14cf5a32ee2d1a548193fe77aadd962599bfaa74940ed427c2f2214"
+    },
+    {
+      "path": "data/processed/war/cmo_v5_candidates.csv",
+      "sha256": "aae8b29dbe8c97ff303db0ba39765e870a91ab86d53d3c379baac11d085dc3d3"
+    }
+  ],
+  "code_inputs": [
+    {
+      "path": "scripts/rebuild_cmo_southern_prior_v6.py",
+      "sha256": "5fad1d9b747ba8152df338817d46aa195d9a010063cc58ce493687fce730b425"
+    },
+    {
+      "path": "scripts/rebuild_cmo_candidate_quality_v5.py",
+      "sha256": "ca5deaaeb8a70610a54ed58bc9f2b9073094cc78dca3883f8e634dec1e7d091c"
+    },
+    {
+      "path": "scripts/run_historical_southern_cmo_tournament.py",
+      "sha256": "5181e3c66d3edc354c71b97a01b8bf5b595c9b05e17e709fbd56e05c5b522b48"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "data/processed/war/cmo_v6_southern_races.csv",
+      "rows": 509,
+      "sha256": "cddc2d91c6de8f909b20fab35ad48c510983e92d72c87610de94b410906b0e4b"
+    },
+    {
+      "path": "data/processed/war/cmo_v6_southern_candidates.csv",
+      "rows": 1018,
+      "sha256": "4a51796d8661b5e924f791c8b4416f45c51eae75c8c8e72faafebd8f55635507"
+    },
+    {
+      "path": "data/processed/war/cmo_v6_southern_quality.csv",
+      "rows": 889,
+      "sha256": "c253dae4323f30862168f71bb0a16812d87ef2915fbb1b61f440bd1211cd8ce5"
+    },
+    {
+      "path": "data/processed/war/cmo_v6_southern_validation.csv",
+      "rows": 24,
+      "sha256": "8cc8b479a5a2fdfa6348420b492e1f390fccd2fe75bfcae516ce3e847565d380"
+    },
+    {
+      "path": "data/processed/war/cmo_v6_southern_case_studies.csv",
+      "rows": 6,
+      "sha256": "4a754c155115beb35108842d705df29bb2f6db503abfde933c3a0aedad19dcc7"
+    }
+  ],
+  "build_id": "c2f7098efb4b5f188733"
+}

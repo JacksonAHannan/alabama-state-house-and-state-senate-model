@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "status": "staging",
+  "code_commit": "ce5978cc83d4d145606b4268838ac6d656a1f34a",
+  "inputs": [
+    {
+      "path": "data/raw/historical_statewide_elections/dataverse_files (1).zip",
+      "sha256": "b08cd3d051b9d57806045e486f3eee13745d0389b585125bc6d78a8a4655ad02"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/dataverse_files.zip",
+      "sha256": "b4c0913fa7bfb0aff4da2dbf67a22da696e9f07b45615f30e78127edd794a3e1"
+    },
+    {
+      "path": "data/processed/forecast_calibration/southern_legislative_probability_panel.csv",
+      "sha256": "09154b4ecd80e513acef147a73c9bdf3bb5ba95687ce1b58c6608fe9230315ed"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "data/processed/forecast_calibration/southern_2024_incumbency_candidates.csv",
+      "rows": 670,
+      "sha256": "488b37437e469cc7be880510423824fb9ca6db0737d7c952d7eac2b9095aa41f"
+    },
+    {
+      "path": "data/processed/forecast_calibration/southern_2024_incumbency_races.csv",
+      "rows": 335,
+      "sha256": "4e9933494f71800edd192ffd81a3c6a5cc2ae8b910733ece708223a57c924a33"
+    },
+    {
+      "path": "data/processed/forecast_calibration/southern_2024_incumbency_review.csv",
+      "rows": 10,
+      "sha256": "74c0ade780adec6915b51cd487656e0a95da314a4c0aa6dc522b8ccdfe52654e"
+    },
+    {
+      "path": "data/processed/forecast_calibration/southern_2024_incumbency_coverage.csv",
+      "rows": 8,
+      "sha256": "9b408c667da3d988fec15fcb76137206b4c58edc5fc2fc48144d10c3991f665f"
+    },
+    {
+      "path": "data/processed/forecast_calibration/southern_2022_winner_roster.csv",
+      "rows": 825,
+      "sha256": "48ee0a581641267be598b139475a75cbbf1f275b2ef43e03f8afeadf547cf84f"
+    }
+  ],
+  "build_id": "f25c602985ecc584f3ba"
+}

@@ -1,0 +1,671 @@
+state,year,chamber,district,party,candidate,candidate_votes,normalized_name,incumbent,match_method,match_score,runner_up_score,prior_candidate,prior_year,prior_party,prior_district,party_switch
+TX,2024,upper,25,R,CAMPBELL,321652,CAMPBELL,True,district_surname_match,1.0,0.0,"campbell, donna",2022.0,R,25.0,False
+TX,2024,upper,30,R,HAGENBUCH,289981,HAGENBUCH,False,no_prior_winner_match,0.5,0.42105263157894735,,,,,False
+TX,2024,upper,12,R,PARKER,277734,PARKER,True,district_surname_match,1.0,0.16666666666666666,"parker, tan",2022.0,R,12.0,False
+TX,2024,upper,8,R,PAXTON,269743,PAXTON,True,district_surname_match,1.0,0.0,"paxton, angela",2022.0,R,8.0,False
+TX,2024,upper,7,R,BETTENCORT,251489,BETTENCORT,True,district_surname_match,0.9523809523809523,0.0,"bettencourt, paul",2022.0,R,7.0,False
+TX,2024,upper,17,R,HUFFMAN,238324,HUFFMAN,True,district_surname_match,1.0,0.0,"huffman, joan",2022.0,R,17.0,False
+TX,2024,upper,10,R,KING,227473,KING,True,district_surname_match,1.0,0.0,"king, phil",2022.0,R,10.0,False
+TX,2024,upper,15,D,COOK,200680,COOK,False,no_prior_winner_match,0.4444444444444444,0.4,,,,,False
+TX,2024,upper,8,D,MELLO,184642,MELLO,False,no_prior_winner_match,0.4,0.4,,,,,False
+TX,2024,upper,25,D,FOX,184312,FOX,False,no_prior_winner_match,0.25,0.2222222222222222,,,,,False
+TX,2024,upper,12,D,DRAPER,174875,DRAPER,False,no_prior_winner_match,0.2857142857142857,0.2857142857142857,,,,,False
+TX,2024,upper,30,D,FREY,155949,FREY,False,no_prior_winner_match,0.3333333333333333,0.3076923076923077,,,,,False
+TX,2024,upper,7,D,GWINN,145100,GWINN,False,no_prior_winner_match,0.3333333333333333,0.3076923076923077,,,,,False
+TX,2024,upper,10,D,MORRIS,141162,MORRIS,False,no_prior_winner_match,0.5454545454545454,0.3076923076923077,,,,,False
+TX,2024,upper,17,D,CHENG,133126,CHENG,False,no_prior_winner_match,0.3333333333333333,0.3076923076923077,,,,,False
+TX,2024,upper,27,R,HINOJOSA,126081,HINOJOSA,False,no_prior_winner_match,0.4,0.4,,,,,False
+TX,2024,upper,15,R,TRAHAN,123515,TRAHAN,False,no_prior_winner_match,0.46153846153846156,0.46153846153846156,,,,,False
+TX,2024,upper,27,D,LAMANTIA,123310,LAMANTIA,True,district_surname_match,1.0,0.3076923076923077,"lamantia, morgan",2022.0,D,27.0,False
+TX,2024,upper,6,D,ALVARADO,119280,ALVARADO,True,district_surname_match,1.0,0.0,"alvarado, carol",2022.0,D,6.0,False
+TX,2024,lower,73,R,ISAAC,91924,ISAAC,True,district_surname_match,1.0,0.26666666666666666,"isaac, carrie",2022.0,R,73.0,False
+TX,2024,lower,19,R,TROXCLAIR,87415,TROXCLAIR,True,district_surname_match,1.0,0.14285714285714285,"troxclair, ellen",2022.0,R,19.0,False
+GA,2024,upper,10,D,EMANUEL D JONES,85131,EMANUEL D JONES,True,exact_normalized_name,1.0,0.0,"jones, emanuel d",2022.0,D,10.0,False
+GA,2024,upper,50,R,BO HATCHETT,82868,BO HATCHETT,True,exact_normalized_name,1.0,0.0,"hatchett, bo",2022.0,R,50.0,False
+GA,2024,upper,21,R,BRANDON BEACH,81481,BRANDON BEACH,True,district_name_match,0.9285714285714286,0.0,"beach, brandon l",2022.0,R,21.0,False
+TX,2024,lower,68,R,SPILLER,79552,SPILLER,True,district_surname_match,1.0,0.6666666666666666,"spiller, david",2022.0,R,68.0,False
+TN,2024,upper,2,R,TOM HATCHER,78351,TOM HATCHER,False,no_prior_winner_match,0.42857142857142855,0.4,,,,,False
+GA,2024,upper,6,R,MATT BRASS,77875,MATT BRASS,True,exact_normalized_name,1.0,0.0,"brass, matt",2022.0,R,28.0,False
+GA,2024,upper,27,R,GREG DOLEZAL,76783,GREG DOLEZAL,True,exact_normalized_name,1.0,0.0,"dolezal, greg",2022.0,R,27.0,False
+TX,2024,lower,53,R,VIRDELL,76176,VIRDELL,False,no_prior_winner_match,0.5454545454545454,0.5454545454545454,,,,,False
+TN,2024,upper,8,R,JESSIE SEAL,74602,JESSIE SEAL,False,no_prior_winner_match,0.42857142857142855,0.4,,,,,False
+TN,2024,upper,28,R,JOEY HENSLEY,74286,JOEY HENSLEY,True,exact_normalized_name,1.0,0.0,"hensley, joey",2020.0,R,28.0,False
+TX,2024,lower,16,R,METCALF,73385,METCALF,True,district_surname_match,1.0,0.0,"metcalf, will",2022.0,R,16.0,False
+GA,2024,upper,56,R,JOHN ALBERS,72392,JOHN ALBERS,True,district_name_match,0.9166666666666666,0.0,"albers, john e",2022.0,R,56.0,False
+GA,2024,upper,16,R,MARTY HARBIN,71842,MARTY HARBIN,False,no_prior_winner_match,0.75,0.4827586206896552,,,,,False
+TX,2024,lower,2,R,MONEY,71222,MONEY,False,no_prior_winner_match,0.6,0.6,,,,,False
+GA,2024,upper,53,R,COLTON MOORE,70397,COLTON MOORE,True,exact_normalized_name,1.0,0.0,"moore, colton",2022.0,R,53.0,False
+TX,2024,upper,6,R,FIERRO,70013,FIERRO,False,no_prior_winner_match,0.5454545454545454,0.42857142857142855,,,,,False
+GA,2024,upper,55,D,RANDAL MANGHAM,69259,RANDAL MANGHAM,False,no_prior_winner_match,0.5517241379310345,0.45714285714285713,,,,,False
+TX,2024,lower,62,R,LUTHER,67062,LUTHER,False,no_prior_winner_match,0.6666666666666666,0.5,,,,,False
+TN,2024,upper,16,R,JANICE BOWLING,66356,JANICE BOWLING,True,exact_normalized_name,1.0,0.0,"bowling, janice",2020.0,R,16.0,False
+GA,2024,upper,37,R,ED SETZLER,65243,ED SETZLER,False,no_prior_winner_match,0.7142857142857143,0.5217391304347826,,,,,False
+TX,2024,lower,98,R,CAPRIGLIONE,64833,CAPRIGLIONE,True,district_surname_match,1.0,0.0,"capriglione, giovanni",2022.0,R,98.0,False
+GA,2024,upper,46,R,BILL COWSERT,64614,BILL COWSERT,False,no_prior_winner_match,0.7741935483870968,0.48,,,,,False
+TN,2024,upper,18,R,FERRELL HAILE,64367,FERRELL HAILE,True,exact_normalized_name,1.0,0.0,"haile, ferrell",2020.0,R,18.0,False
+TX,2024,lower,59,R,SLAWSON,64147,SLAWSON,True,district_surname_match,1.0,0.0,"slawson, shelby",2022.0,R,59.0,False
+TX,2024,lower,12,R,WHARTON,64105,WHARTON,False,no_prior_winner_match,0.6666666666666666,0.6153846153846154,,,,,False
+TX,2024,lower,20,R,WILSON,64086,WILSON,True,district_surname_match,1.0,0.0,"wilson, terry m",2022.0,R,20.0,False
+TX,2024,lower,122,R,DORAZIO,64018,DORAZIO,True,district_surname_match,1.0,0.15384615384615385,"dorazio, mark",2022.0,R,122.0,False
+TN,2024,upper,20,D,HEIDI CAMPBELL,63353,HEIDI CAMPBELL,True,exact_normalized_name,1.0,0.0,"campbell, heidi",2020.0,D,20.0,False
+TX,2024,lower,130,R,OLIVERSON,63270,OLIVERSON,True,district_surname_match,1.0,0.0,"oliverson, tom",2022.0,R,130.0,False
+GA,2024,upper,30,R,TIMOTHY J BEARDEN,63158,TIMOTHY J BEARDEN,False,no_prior_winner_match,0.5454545454545454,0.5161290322580645,,,,,False
+TN,2024,upper,6,R,BECKY DUNCAN MASSEY,63009,BECKY DUNCAN MASSEY,True,district_name_match,0.9230769230769231,0.0,"duncanmassey, becky d",2020.0,R,6.0,False
+GA,2024,upper,29,R,RANDY ROBERTSON,62859,RANDY ROBERTSON,True,exact_normalized_name,1.0,0.0,"robertson, randy",2022.0,R,29.0,False
+TX,2024,lower,52,R,HARRIS,62830,HARRIS,True,district_surname_match,1.0,0.0,"harris, caroline",2022.0,R,52.0,False
+GA,2024,upper,42,R,BRIAN STRICKLAND,62551,BRIAN STRICKLAND,True,unique_fuzzy_name,0.9411764705882353,0.5517241379310345,"strickland, r brian",2022.0,R,17.0,False
+GA,2024,upper,41,D,KIM JACKSON,62311,KIM JACKSON,True,exact_normalized_name,1.0,0.0,"jackson, kim",2022.0,D,41.0,False
+GA,2024,upper,47,R,FRANK GINN,62059,FRANK GINN,False,no_prior_winner_match,0.6451612903225806,0.42857142857142855,,,,,False
+TX,2024,lower,106,R,PATTERSON,61381,PATTERSON,True,district_surname_match,1.0,0.0,"patterson, jared",2022.0,R,106.0,False
+TX,2024,lower,134,D,JOHNSON,61037,JOHNSON,True,district_surname_match,1.0,0.0,"johnson, ann",2022.0,D,134.0,False
+TX,2024,lower,8,R,HARRIS,60938,HARRIS,True,district_surname_match,1.0,0.0,"harris, cody",2022.0,R,8.0,False
+TX,2024,lower,46,D,COLE,60830,COLE,True,district_surname_match,1.0,0.0,"cole, sheryl",2022.0,D,46.0,False
+TX,2024,lower,4,R,BELL,60287,BELL,True,district_surname_match,1.0,0.0,"bell, keith",2022.0,R,4.0,False
+TX,2024,lower,65,R,LITTLE,60284,LITTLE,False,no_prior_winner_match,0.5454545454545454,0.5,,,,,False
+TX,2024,lower,108,R,MEYER,60227,MEYER,True,district_surname_match,1.0,0.0,"meyer, morgan",2022.0,R,108.0,False
+TX,2024,lower,64,R,HOPPER,59542,HOPPER,False,no_prior_winner_match,0.6666666666666666,0.5454545454545454,,,,,False
+TX,2024,lower,7,R,DEAN,59056,DEAN,True,district_surname_match,1.0,0.0,"dean, jay",2022.0,R,7.0,False
+TX,2024,lower,47,D,GOODWIN,59013,GOODWIN,True,district_surname_match,1.0,0.0,"goodwin, vikki",2022.0,D,47.0,False
+TX,2024,lower,61,R,RICHARDSON,58513,RICHARDSON,False,no_prior_winner_match,0.6666666666666666,0.6666666666666666,,,,,False
+TX,2024,lower,71,R,LAMBERT,58413,LAMBERT,True,district_surname_match,1.0,0.0,"lambert, stan",2022.0,R,71.0,False
+TX,2024,lower,66,R,SHAHEEN,58294,SHAHEEN,True,district_surname_match,1.0,0.0,"shaheen, matt",2022.0,R,66.0,False
+TX,2024,lower,27,D,REYNOLDS,57594,REYNOLDS,True,district_surname_match,1.0,0.0,"reynolds, ronald (ron)",2022.0,D,27.0,False
+TX,2024,lower,44,R,SCHOOLCRAFT,57466,SCHOOLCRAFT,False,no_prior_winner_match,0.5,0.4444444444444444,,,,,False
+TX,2024,lower,30,R,LOUDERBACK,57176,LOUDERBACK,False,no_prior_winner_match,0.5333333333333333,0.4444444444444444,,,,,False
+GA,2024,upper,34,D,KENYA WICKS,56911,KENYA WICKS,False,no_prior_winner_match,0.46153846153846156,0.46153846153846156,,,,,False
+TX,2024,lower,28,R,GATES,56890,GATES,True,district_surname_match,1.0,0.0,"gates, gary",2022.0,R,28.0,False
+TX,2024,lower,6,R,ALDERS,56497,ALDERS,False,no_prior_winner_match,0.7142857142857143,0.6666666666666666,,,,,False
+TX,2024,lower,67,R,LEACH,56107,LEACH,True,district_surname_match,1.0,0.0,"leach, jeff",2022.0,R,67.0,False
+TX,2024,lower,89,R,NOBLE,55900,NOBLE,True,district_surname_match,1.0,0.0,"noble, candy",2022.0,R,89.0,False
+TX,2024,lower,13,R,ORR,55326,ORR,True,district_surname_match,1.0,0.0,"orr, angelia",2022.0,R,13.0,False
+TX,2024,lower,127,R,CUNNINGHAM,55048,CUNNINGHAM,True,district_surname_match,1.0,0.11764705882352941,"cunningham, charles",2022.0,R,127.0,False
+TN,2024,upper,10,R,TODD GARDENHIRE,54521,TODD GARDENHIRE,True,exact_normalized_name,1.0,0.0,"gardenhire, todd",2020.0,R,10.0,False
+GA,2024,upper,23,R,MAX BURNS,54455,MAX BURNS,True,exact_normalized_name,1.0,0.0,"burns, max",2022.0,R,23.0,False
+TX,2024,lower,32,R,HUNTER,54091,HUNTER,True,district_surname_match,1.0,0.0,"hunter, todd a",2022.0,R,32.0,False
+TX,2024,lower,132,R,SCHOFIELD,53928,SCHOFIELD,True,district_surname_match,1.0,0.0,"schofield, mike",2022.0,R,132.0,False
+TX,2024,lower,23,R,LEO WILSON,53832,LEO WILSON,False,no_prior_winner_match,0.72,0.6666666666666666,,,,,False
+TX,2024,lower,69,R,FRANK,53577,FRANK,True,district_surname_match,1.0,0.0,"frank, james b",2022.0,R,69.0,False
+TX,2024,lower,93,R,SCHATZLINE,53532,SCHATZLINE,True,district_surname_match,1.0,0.25,"schatzline, nate",2022.0,R,93.0,False
+TX,2024,lower,17,R,GERDES,53531,GERDES,True,district_surname_match,1.0,0.3333333333333333,"gerdes, stan",2022.0,R,17.0,False
+TX,2024,lower,45,D,ZWIENER,52912,ZWIENER,True,district_surname_match,1.0,0.0,"zwiener, erin",2022.0,D,45.0,False
+GA,2024,upper,9,D,NIKKI MERRITT,52451,NIKKI MERRITT,True,exact_normalized_name,1.0,0.0,"merritt, nikki",2022.0,D,9.0,False
+TX,2024,lower,129,R,PAUL,52419,PAUL,True,district_surname_match,1.0,0.0,"paul, dennis",2022.0,R,129.0,False
+TX,2024,lower,57,R,HAYES,51865,HAYES,True,district_surname_match,1.0,0.0,"hayes, richard",2022.0,R,57.0,False
+GA,2024,upper,48,R,SHAWN STILL,51773,SHAWN STILL,True,exact_normalized_name,1.0,0.0,"still, shawn",2022.0,R,48.0,False
+TX,2024,lower,97,R,MCQUEENEY,51432,MCQUEENEY,False,no_prior_winner_match,0.42857142857142855,0.42857142857142855,,,,,False
+TX,2024,lower,121,R,LAHOOD,51013,LAHOOD,False,no_prior_winner_match,0.5454545454545454,0.5,,,,,False
+TX,2024,lower,82,R,CRADDICK,50546,CRADDICK,True,district_surname_match,1.0,0.0,"craddick, tom",2022.0,R,82.0,False
+GA,2024,upper,40,D,SALLY HARRELL,50196,SALLY HARRELL,True,exact_normalized_name,1.0,0.0,"harrell, sally",2022.0,D,40.0,False
+TX,2024,lower,29,R,BARRY,49655,BARRY,False,no_prior_winner_match,0.6,0.5714285714285714,,,,,False
+TN,2024,upper,14,R,SHANE REEVES,48964,SHANE REEVES,True,exact_normalized_name,1.0,0.0,"reeves, shane",2020.0,R,14.0,False
+TX,2024,lower,52,D,BIRKHOLZ,48884,BIRKHOLZ,False,no_prior_winner_match,0.42857142857142855,0.42857142857142855,,,,,False
+TX,2024,lower,96,R,COOK,48814,COOK,True,district_surname_match,1.0,0.0,"cook, david",2022.0,R,96.0,False
+TX,2024,lower,26,R,MORGAN,48561,MORGAN,False,no_prior_winner_match,0.5714285714285714,0.5454545454545454,,,,,False
+GA,2024,upper,37,D,VANESSA ELLA PARKER,48270,VANESSA ELLA PARKER,False,no_prior_winner_match,0.48484848484848486,0.4375,,,,,False
+TX,2024,lower,150,R,SWANSON,48000,SWANSON,True,district_surname_match,1.0,0.0,"swanson, valoree",2022.0,R,150.0,False
+TX,2024,lower,147,D,JONES,47828,JONES,True,district_surname_match,1.0,0.3333333333333333,"jones, jolanda",2022.0,D,147.0,False
+TX,2024,lower,99,R,GEREN,47708,GEREN,True,district_surname_match,1.0,0.0,"geren, charlie",2022.0,R,99.0,False
+TX,2024,lower,112,R,BUTTON,47456,BUTTON,False,no_prior_winner_match,0.75,0.6666666666666666,,,,,False
+TX,2024,lower,25,R,VASUT,47002,VASUT,True,district_surname_match,1.0,0.0,"vasut, cody t",2022.0,R,25.0,False
+TN,2024,upper,20,R,WYATT RAMPY,46997,WYATT RAMPY,False,no_prior_winner_match,0.45454545454545453,0.4,,,,,False
+TX,2024,lower,63,R,BUMGARNER,46861,BUMGARNER,True,district_surname_match,1.0,0.5333333333333333,"bumgarner, ben",2022.0,R,63.0,False
+GA,2024,upper,7,D,NABILAH ISLAM PARKES,46748,NABILAH ISLAM PARKES,False,no_prior_winner_match,0.7878787878787878,0.47058823529411764,,,,,False
+TX,2024,lower,122,D,GEARY,46180,GEARY,False,no_prior_winner_match,0.5454545454545454,0.5454545454545454,,,,,False
+TX,2024,lower,121,D,SWIFT,46104,SWIFT,False,no_prior_winner_match,0.3333333333333333,0.3333333333333333,,,,,False
+GA,2024,upper,56,D,JD JORDAN,45834,JD JORDAN,False,no_prior_winner_match,0.8421052631578947,0.43478260869565216,,,,,False
+TN,2024,upper,22,R,BILL POWERS,45571,BILL POWERS,True,exact_normalized_name,1.0,0.0,"powers, bill",2020.0,R,22.0,False
+TX,2024,lower,128,R,CAIN,45372,CAIN,True,district_surname_match,1.0,0.0,"cain, briscoe",2022.0,R,128.0,False
+TX,2024,lower,136,D,BUCY,45185,BUCY,True,district_surname_match,1.0,0.0,"bucy, john h, iii",2022.0,D,136.0,False
+GA,2024,upper,48,D,ASHWIN RAMASWAMI,44863,ASHWIN RAMASWAMI,False,no_prior_winner_match,0.5185185185185185,0.4444444444444444,,,,,False
+GA,2024,upper,42,D,KACY D MORGAN,44854,KACY D MORGAN,False,no_prior_winner_match,0.48484848484848486,0.45161290322580644,,,,,False
+TX,2024,lower,108,D,GINSBERG,44307,GINSBERG,False,no_prior_winner_match,0.5333333333333333,0.5,,,,,False
+TX,2024,lower,43,R,LOZANO,43816,LOZANO,True,district_surname_match,1.0,0.0,"lozano, jm m 1",2022.0,R,43.0,False
+TX,2024,lower,94,R,TINDERHOLT,43785,TINDERHOLT,True,district_surname_match,1.0,0.0,"tinderholt, tony",2022.0,R,94.0,False
+TX,2024,lower,114,D,BRYANT,43554,BRYANT,True,district_surname_match,1.0,0.3333333333333333,"bryant, john",2022.0,D,114.0,False
+TX,2024,lower,20,D,WYMAN,43148,WYMAN,False,no_prior_winner_match,0.5454545454545454,0.5,,,,,False
+TX,2024,lower,146,D,SIMMONS,42840,SIMMONS,False,no_prior_winner_match,0.5,0.5,,,,,False
+TX,2024,lower,87,R,FAIRLY,42317,FAIRLY,False,no_prior_winner_match,0.6153846153846154,0.5454545454545454,,,,,False
+TX,2024,lower,138,R,HULL,42022,HULL,True,district_surname_match,1.0,0.0,"hull, lacey",2022.0,R,138.0,False
+TX,2024,lower,112,D,BISHOP,40645,BISHOP,False,no_prior_winner_match,0.46153846153846156,0.42857142857142855,,,,,False
+TX,2024,lower,101,D,TURNER,40337,TURNER,True,district_surname_match,1.0,0.0,"turner, chris",2022.0,D,101.0,False
+TX,2024,lower,45,R,MORENO,40312,MORENO,False,no_prior_winner_match,0.5714285714285714,0.5454545454545454,,,,,False
+TX,2024,lower,14,R,DYSON,40262,DYSON,False,no_prior_winner_match,0.6153846153846154,0.6,,,,,False
+TX,2024,lower,117,D,CORTEZ,40066,CORTEZ,True,district_surname_match,1.0,0.0,"cortez, philip",2022.0,D,117.0,False
+TX,2024,lower,106,D,JOHNSTON,39941,JOHNSTON,,ambiguous_fuzzy_surname,0.9333333333333333,0.9333333333333333,,,,,False
+TX,2024,lower,76,D,LALANI,39770,LALANI,True,district_surname_match,1.0,0.0,"lalani, suleman",2022.0,D,76.0,False
+TX,2024,lower,65,D,DEBURR,39686,DEBURR,False,no_prior_winner_match,0.5,0.5,,,,,False
+TX,2024,lower,61,D,ADAMS,39632,ADAMS,False,no_prior_winner_match,0.6,0.6,,,,,False
+TX,2024,lower,55,R,HICKLAND,39455,HICKLAND,False,no_prior_winner_match,0.6666666666666666,0.5714285714285714,,,,,False
+TX,2024,lower,118,R,LUJAN,39246,LUJAN,True,district_surname_match,1.0,0.0,"lujan, john",2022.0,R,118.0,False
+TX,2024,lower,47,R,FIRSING,39065,FIRSING,False,no_prior_winner_match,0.5454545454545454,0.5454545454545454,,,,,False
+TX,2024,lower,134,R,DOUGLAS,38480,DOUGLAS,False,no_prior_winner_match,0.5,0.46153846153846156,,,,,False
+GA,2024,upper,7,R,J GREGORY HOWARD,38222,J GREGORY HOWARD,False,no_prior_winner_match,0.4666666666666667,0.42857142857142855,,,,,False
+TX,2024,lower,70,D,PLESA,38183,PLESA,True,district_surname_match,1.0,0.0,"plesa, mihaela e",2022.0,D,70.0,False
+TX,2024,lower,119,D,CAMPOS,38160,CAMPOS,True,district_surname_match,1.0,0.0,"campos, elizabeth (liz)",2022.0,D,119.0,False
+TX,2024,lower,116,D,MARTINEZ FISCHER,38044,MARTINEZ FISCHER,False,no_prior_winner_match,0.8333333333333334,0.6206896551724138,,,,,False
+TX,2024,lower,132,D,WEST,37846,WEST,False,no_prior_winner_match,0.6,0.5,,,,,False
+TX,2024,lower,115,D,GARCIA HERNANDEZ,37692,GARCIA HERNANDEZ,False,no_prior_winner_match,0.7741935483870968,0.5714285714285714,,,,,False
+GA,2024,upper,16,D,AMILI BLAKE,37388,AMILI BLAKE,False,no_prior_winner_match,0.46153846153846156,0.45454545454545453,,,,,False
+TX,2024,lower,63,D,BECKLEY,37326,BECKLEY,True,unique_exact_surname,1.0,0.0,"beckley, michelle",2020.0,D,65.0,False
+TX,2024,lower,97,D,WALKER,37132,WALKER,False,no_prior_winner_match,0.7272727272727273,0.5454545454545454,,,,,False
+TX,2024,lower,66,D,CARSTENS,37098,CARSTENS,False,no_prior_winner_match,0.5714285714285714,0.5,,,,,False
+GA,2024,upper,47,D,CONOLUS SCOTT,37064,CONOLUS SCOTT,False,no_prior_winner_match,0.4,0.35714285714285715,,,,,False
+TX,2024,lower,28,D,ROCHA,37058,ROCHA,False,no_prior_winner_match,0.5714285714285714,0.5454545454545454,,,,,False
+TX,2024,lower,67,D,WASHINGTON,37051,WASHINGTON,False,no_prior_winner_match,0.4444444444444444,0.42857142857142855,,,,,False
+TX,2024,lower,84,R,TEPPER,37021,TEPPER,True,district_surname_match,1.0,0.16666666666666666,"tepper, carl",2022.0,R,84.0,False
+GA,2024,upper,46,D,GARETH FENLEY,36870,GARETH FENLEY,False,no_prior_winner_match,0.4827586206896552,0.48,,,,,False
+TX,2024,lower,73,D,DUVAL,36686,DUVAL,False,no_prior_winner_match,0.4,0.4,,,,,False
+TX,2024,lower,118,D,CARRANZA,36624,CARRANZA,False,no_prior_winner_match,0.5,0.47058823529411764,,,,,False
+TX,2024,lower,89,D,EVANS,36292,EVANS,False,no_prior_winner_match,0.5555555555555556,0.5,,,,,False
+TX,2024,lower,96,D,TURNER,36276,TURNER,,ambiguous_exact_surname,,,,,,,False
+TX,2024,lower,127,D,LEHR,35932,LEHR,False,no_prior_winner_match,0.5454545454545454,0.5,,,,,False
+TN,2024,upper,6,D,DOMONICA BRYAN,35219,DOMONICA BRYAN,False,no_prior_winner_match,0.42857142857142855,0.42857142857142855,,,,,False
+GA,2024,upper,9,R,MICHAEL GARGIULO,35036,MICHAEL GARGIULO,False,no_prior_winner_match,0.6666666666666666,0.6451612903225806,,,,,False
+TX,2024,lower,94,D,WILKERSON,34937,WILKERSON,False,no_prior_winner_match,0.5333333333333333,0.5333333333333333,,,,,False
+TX,2024,lower,70,R,KINARD,34933,KINARD,False,no_prior_winner_match,0.6,0.6,,,,,False
+TX,2024,lower,93,D,BOJORQUEZ,34871,BOJORQUEZ,False,no_prior_winner_match,0.5555555555555556,0.5333333333333333,,,,,False
+TX,2024,lower,64,D,BREWER,34786,BREWER,False,no_prior_winner_match,0.6666666666666666,0.5,,,,,False
+TN,2024,upper,10,D,MISSY CRUTCHFIELD,34536,MISSY CRUTCHFIELD,False,no_prior_winner_match,0.47058823529411764,0.42857142857142855,,,,,False
+TX,2024,lower,54,R,BUCKLEY,34526,BUCKLEY,True,district_surname_match,1.0,0.0,"buckley, brad",2022.0,R,54.0,False
+GA,2024,upper,21,D,LILLIA MICHELLE LIONEL,34349,LILLIA MICHELLE LIONEL,False,no_prior_winner_match,0.5454545454545454,0.42857142857142855,,,,,False
+TX,2024,lower,57,D,JOHNSON,34279,JOHNSON,,ambiguous_exact_surname,,,,,,,False
+GA,2024,upper,30,D,WANDA COOPER,33937,WANDA COOPER,False,no_prior_winner_match,0.5185185185185185,0.48,,,,,False
+TX,2024,lower,98,D,WHITE,33845,WHITE,False,no_prior_winner_match,0.5,0.5,,,,,False
+TX,2024,lower,129,D,PETERSON,33758,PETERSON,False,no_prior_winner_match,0.5,0.46153846153846156,,,,,False
+GA,2024,upper,23,D,SHAYNA BOSTON,33603,SHAYNA BOSTON,False,no_prior_winner_match,0.5833333333333334,0.46153846153846156,,,,,False
+TX,2024,lower,113,D,BOWERS,33547,BOWERS,True,district_surname_match,1.0,0.0,"andrewsbowers, rhetta",2022.0,D,113.0,False
+TX,2024,lower,26,D,LEE,33505,LEE,False,no_prior_winner_match,0.5714285714285714,0.5,,,,,False
+GA,2024,upper,29,D,ELLEN T WRIGHT,33500,ELLEN T WRIGHT,False,no_prior_winner_match,0.45714285714285713,0.42857142857142855,,,,,False
+GA,2024,lower,8,R,STAN GUNTER,33249,STAN GUNTER,True,exact_normalized_name,1.0,0.0,"gunter, stan",2022.0,R,8.0,False
+GA,2024,upper,5,D,SHEIKH RAHMAN,32382,SHEIKH RAHMAN,False,no_prior_winner_match,0.7878787878787878,0.5185185185185185,,,,,False
+TX,2024,lower,150,D,JIMENEZ,32181,JIMENEZ,False,no_prior_winner_match,0.5714285714285714,0.5454545454545454,,,,,False
+TX,2024,lower,115,R,JUN,31709,JUN,False,no_prior_winner_match,0.5,0.5,,,,,False
+TX,2024,lower,138,D,MORALES,31671,MORALES,,ambiguous_exact_surname,,,,,,,False
+TX,2024,lower,19,D,HANDLEY,31486,HANDLEY,False,no_prior_winner_match,0.625,0.5714285714285714,,,,,False
+TX,2024,lower,80,R,MCLAUGHLIN,31174,MCLAUGHLIN,False,no_prior_winner_match,0.5714285714285714,0.5714285714285714,,,,,False
+TX,2024,lower,29,D,BELL,31060,BELL,False,no_prior_winner_match,0.6,0.5454545454545454,,,,,False
+TX,2024,lower,44,D,NORMAN,30780,NORMAN,False,no_prior_winner_match,0.6153846153846154,0.6153846153846154,,,,,False
+GA,2024,lower,11,R,RICK JASPERSE,30728,RICK JASPERSE,False,no_prior_winner_match,0.7878787878787878,0.5384615384615384,,,,,False
+TX,2024,lower,76,R,SIMMONS,30615,SIMMONS,False,no_prior_winner_match,0.5,0.5,,,,,False
+TX,2024,lower,37,R,LOPEZ,30590,LOPEZ,True,district_surname_match,1.0,0.0,"lopez, janie",2022.0,R,37.0,False
+TX,2024,lower,41,D,GUERRA,30589,GUERRA,True,district_surname_match,1.0,0.0,"guerra, robert (bobby)",2022.0,D,41.0,False
+TX,2024,lower,124,D,GARCIA,30345,GARCIA,True,district_surname_match,1.0,0.2857142857142857,"garcia, josey",2022.0,D,124.0,False
+TX,2024,lower,25,D,DAGGETT,29999,DAGGETT,False,no_prior_winner_match,0.46153846153846156,0.4,,,,,False
+GA,2024,upper,40,R,AMELIA K SIAMOMUA,29937,AMELIA K SIAMOMUA,False,no_prior_winner_match,0.5,0.3870967741935484,,,,,False
+TN,2024,lower,21,R,LOWELL RUSSELL,29929,LOWELL RUSSELL,True,exact_normalized_name,1.0,0.0,"russell, lowell",2022.0,R,21.0,False
+GA,2024,upper,6,D,JENNY ENDERLIN,29819,JENNY ENDERLIN,False,no_prior_winner_match,0.5384615384615384,0.5333333333333333,,,,,False
+TN,2024,lower,25,R,CAMERON SEXTON,29725,CAMERON SEXTON,True,exact_normalized_name,1.0,0.0,"sexton, cameron",2022.0,R,25.0,False
+TX,2024,lower,55,D,LEE,29269,LEE,False,no_prior_winner_match,0.5714285714285714,0.5,,,,,False
+TN,2024,upper,22,D,KAREN REYNOLDS,29180,KAREN REYNOLDS,False,no_prior_winner_match,0.46153846153846156,0.4444444444444444,,,,,False
+TX,2024,lower,117,R,MOSTYN,29021,MOSTYN,False,no_prior_winner_match,0.5714285714285714,0.5,,,,,False
+GA,2024,lower,21,R,BRAD THOMAS,28977,BRAD THOMAS,True,exact_normalized_name,1.0,0.0,"thomas, brad",2022.0,R,21.0,False
+TX,2024,lower,130,D,ROBINSON,28671,ROBINSON,False,no_prior_winner_match,0.6666666666666666,0.6666666666666666,,,,,False
+TN,2024,lower,63,R,JAKE MCCALMON,28667,JAKE MCCALMON,True,exact_normalized_name,1.0,0.0,"mccalmon, jake",2022.0,R,63.0,False
+TX,2024,lower,34,R,VILLALOBOS,28553,VILLALOBOS,False,no_prior_winner_match,0.4,0.375,,,,,False
+GA,2024,lower,166,R,JESSE L PETREA,28416,JESSE L PETREA,True,exact_normalized_name,1.0,0.0,"petrea, jesse l",2022.0,R,166.0,False
+TX,2024,lower,148,D,MORALES SHAW,28341,MORALES SHAW,False,no_prior_winner_match,0.7586206896551724,0.56,,,,,False
+TN,2024,lower,46,R,CLARK BOYD,28319,CLARK BOYD,True,exact_normalized_name,1.0,0.0,"boyd, clark",2022.0,R,46.0,False
+TN,2024,lower,65,R,LEE REEVES,28234,LEE REEVES,False,no_prior_winner_match,0.5,0.45454545454545453,,,,,False
+TX,2024,lower,99,D,COFFEY,28233,COFFEY,False,no_prior_winner_match,0.6,0.5,,,,,False
+TX,2024,lower,74,D,MORALES,28197,MORALES,True,district_surname_match,1.0,0.0,"morales, eddie",2022.0,D,74.0,False
+AR,2024,upper,22,R,JOHN PAYTON,28121,JOHN PAYTON,True,exact_normalized_name,1.0,0.0,"payton, john",2022.0,R,22.0,False
+AR,2024,upper,34,R,JIM DOTSON,28119,JIM DOTSON,True,exact_normalized_name,1.0,0.0,"dotson, jim",2022.0,R,34.0,False
+GA,2024,upper,27,D,HAMZA NAZIR,28008,HAMZA NAZIR,False,no_prior_winner_match,0.4444444444444444,0.4,,,,,False
+TX,2024,lower,136,R,SALAHUDDIN,27665,SALAHUDDIN,False,no_prior_winner_match,0.5333333333333333,0.5,,,,,False
+TN,2024,lower,22,R,DAN HOWELL,27463,DAN HOWELL,True,exact_normalized_name,1.0,0.0,"howell, dan",2022.0,R,22.0,False
+TX,2024,lower,17,D,VENABLE,27389,VENABLE,False,no_prior_winner_match,0.6153846153846154,0.5714285714285714,,,,,False
+TN,2024,lower,14,R,JASON ZACHARY,27129,JASON ZACHARY,True,exact_normalized_name,1.0,0.0,"zachary, jason",2022.0,R,14.0,False
+TN,2024,lower,57,R,SUSAN M LYNN,27040,SUSAN M LYNN,True,exact_normalized_name,1.0,0.0,"lynn, susan m",2022.0,R,57.0,False
+TN,2024,lower,44,R,WILLIAM LAMBERTH,27028,WILLIAM LAMBERTH,True,district_name_match,0.9411764705882353,0.0,"lamberth, william g",2022.0,R,44.0,False
+TX,2024,lower,39,D,MARTINEZ,26962,MARTINEZ,True,district_surname_match,1.0,0.0,"martinez, armando m (mando)",2022.0,D,39.0,False
+TX,2024,lower,149,D,VO,26921,VO,True,district_surname_match,1.0,0.0,"vo, hubert",2022.0,D,149.0,False
+TX,2024,lower,23,D,MERUGUMALA,26675,MERUGUMALA,False,no_prior_winner_match,0.5,0.47619047619047616,,,,,False
+TX,2024,lower,41,R,GUERRA,26618,GUERRA,False,no_prior_winner_match,0.6,0.5454545454545454,,,,,False
+GA,2024,lower,28,R,BRENT COX,26500,BRENT COX,True,exact_normalized_name,1.0,0.0,"cox, brent",2022.0,R,28.0,False
+TN,2024,lower,8,R,JEROME MOON,26450,JEROME MOON,True,exact_normalized_name,1.0,0.0,"moon, jerome",2022.0,R,8.0,False
+TX,2024,lower,74,R,GARZA,26367,GARZA,False,no_prior_winner_match,0.42857142857142855,0.4,,,,,False
+TX,2024,lower,14,D,MEDINA,26332,MEDINA,False,no_prior_winner_match,0.6,0.5714285714285714,,,,,False
+TX,2024,lower,4,D,BAR SELA,26240,BAR SELA,False,no_prior_winner_match,0.6,0.6,,,,,False
+TN,2024,lower,94,R,RON M GANT,26053,RON M GANT,True,exact_normalized_name,1.0,0.0,"gant, ron m",2022.0,R,94.0,False
+GA,2024,lower,10,R,VICTOR ANDERSON,25871,VICTOR ANDERSON,True,district_name_match,0.9375,0.0,"anderson, victor e",2022.0,R,10.0,False
+TX,2024,lower,114,R,RAMSEY,25839,RAMSEY,False,no_prior_winner_match,0.7272727272727273,0.6666666666666666,,,,,False
+TX,2024,lower,113,R,STANLEY,25732,STANLEY,False,no_prior_winner_match,0.6666666666666666,0.5,,,,,False
+TN,2024,lower,29,R,GREG VITAL,25690,GREG VITAL,True,exact_normalized_name,1.0,0.0,"vital, greg",2022.0,R,29.0,False
+TN,2024,lower,3,R,TIMOTHY AARON HILL,25634,TIMOTHY AARON HILL,False,no_prior_winner_match,0.5185185185185185,0.4666666666666667,,,,,False
+TN,2024,lower,71,R,KIP CAPLEY,25607,KIP CAPLEY,True,exact_normalized_name,1.0,0.0,"capley, kip",2022.0,R,71.0,False
+TN,2024,lower,61,R,GINO BULSO,25594,GINO BULSO,True,exact_normalized_name,1.0,0.0,"bulso, gino",2022.0,R,61.0,False
+TN,2024,lower,70,R,CLAY DOGGETT,25462,CLAY DOGGETT,True,exact_normalized_name,1.0,0.0,"doggett, clay",2022.0,R,70.0,False
+TN,2024,lower,31,R,RON TRAVIS,25429,RON TRAVIS,True,exact_normalized_name,1.0,0.0,"travis, ron",2022.0,R,31.0,False
+GA,2024,lower,144,R,DALE WASHBURN,25400,DALE WASHBURN,True,exact_normalized_name,1.0,0.0,"washburn, dale",2022.0,R,144.0,False
+TN,2024,lower,40,R,MICHAEL HALE,25287,MICHAEL HALE,True,exact_normalized_name,1.0,0.0,"hale, michael",2022.0,R,40.0,False
+TN,2024,lower,23,R,MARK COCHRAN,25265,MARK COCHRAN,True,exact_normalized_name,1.0,0.0,"cochran, mark",2022.0,R,23.0,False
+GA,2024,lower,57,D,STACEY EVANS,25241,STACEY EVANS,True,district_name_match,0.9230769230769231,0.0,"evans, stacey g",2022.0,D,57.0,False
+GA,2024,lower,73,R,JOSH BONNER,25111,JOSH BONNER,True,exact_normalized_name,1.0,0.0,"bonner, josh",2022.0,R,73.0,False
+GA,2024,lower,30,R,DERRICK MCCOLLUM,25087,DERRICK MCCOLLUM,True,exact_normalized_name,1.0,0.0,"mccollum, derrick",2022.0,R,30.0,False
+TN,2024,lower,92,R,TODD WARNER,25086,TODD WARNER,True,exact_normalized_name,1.0,0.0,"warner, todd",2022.0,R,92.0,False
+TN,2024,upper,28,D,JAMES DALLAS,25086,JAMES DALLAS,False,no_prior_winner_match,0.6060606060606061,0.5217391304347826,,,,,False
+TX,2024,lower,37,D,GRACIA,25014,GRACIA,,ambiguous_fuzzy_surname,0.8333333333333334,0.6666666666666666,,,,,False
+TX,2024,lower,27,R,MAX ALALIBO,24908,MAX ALALIBO,False,no_prior_winner_match,0.56,0.56,,,,,False
+TN,2024,lower,64,R,SCOTT CEPICKY,24898,SCOTT CEPICKY,True,district_name_match,0.9285714285714286,0.0,"cepicky, scott e",2022.0,R,64.0,False
+TN,2024,lower,41,R,ED BUTLER,24763,ED BUTLER,True,exact_normalized_name,1.0,0.0,"butler, ed",2022.0,R,41.0,False
+TN,2024,lower,20,R,TOM STINNETT,24704,TOM STINNETT,False,no_prior_winner_match,0.5,0.48,,,,,False
+TX,2024,lower,32,D,MCAULIFFE,24656,MCAULIFFE,False,no_prior_winner_match,0.5,0.5,,,,,False
+TN,2024,lower,39,R,IRIS RUDDER,24655,IRIS RUDDER,True,exact_normalized_name,1.0,0.0,"rudder, iris",2022.0,R,39.0,False
+TN,2024,lower,26,R,GREG MARTIN,24582,GREG MARTIN,True,exact_normalized_name,1.0,0.0,"martin, greg",2022.0,R,26.0,False
+TN,2024,lower,11,R,JEREMY FAISON,24424,JEREMY FAISON,True,exact_normalized_name,1.0,0.0,"faison, jeremy",2022.0,R,11.0,False
+AR,2024,upper,25,R,BREANNE DAVIS,24210,BREANNE DAVIS,True,exact_normalized_name,1.0,0.0,"davis, breanne",2022.0,R,25.0,False
+TN,2024,lower,12,R,FRED A ATCHLEY,23955,FRED A ATCHLEY,False,no_prior_winner_match,0.5217391304347826,0.5,,,,,False
+GA,2024,lower,116,D,EL-MAHDI HOLLY,23762,EL MAHDI HOLLY,True,district_name_match,0.9629629629629629,0.3448275862068966,"holly, elmahdi",2022.0,D,116.0,False
+TN,2024,lower,66,R,"SABI ""DOC"" KUMAR",23760,SABI DOC KUMAR,True,exact_normalized_name,1.0,0.0,"kumar, sabi (doc)",2022.0,R,66.0,False
+TN,2024,lower,89,R,JUSTIN LAFFERTY,23733,JUSTIN LAFFERTY,True,exact_normalized_name,1.0,0.0,"lafferty, justin",2022.0,R,89.0,False
+TN,2024,lower,78,R,MARY LITTLETON,23678,MARY LITTLETON,True,exact_normalized_name,1.0,0.0,"littleton, mary",2022.0,R,78.0,False
+TN,2024,upper,18,D,WALTER S CHANDLER,23524,WALTER S CHANDLER,False,no_prior_winner_match,0.47058823529411764,0.4666666666666667,,,,,False
+TN,2024,lower,68,R,ARON MABERRY,23249,ARON MABERRY,False,no_prior_winner_match,0.6086956521739131,0.56,,,,,False
+TX,2024,lower,148,R,SMITH,23246,SMITH,True,unique_exact_surname,1.0,0.0,"smith, reggie",2022.0,R,62.0,False
+TN,2024,lower,27,R,MICHELE RENEAU,23085,MICHELE RENEAU,False,no_prior_winner_match,0.6451612903225806,0.5517241379310345,,,,,False
+TN,2024,upper,14,D,E R SMITH,23055,E R SMITH,False,no_prior_winner_match,0.38461538461538464,0.38095238095238093,,,,,False
+TX,2024,lower,34,D,ORTIZ,23013,ORTIZ,False,no_prior_winner_match,0.7272727272727273,0.6153846153846154,,,,,False
+GA,2024,lower,123,R,ROB LEVERETT,22874,ROB LEVERETT,True,exact_normalized_name,1.0,0.0,"leverett, rob",2022.0,R,123.0,False
+GA,2024,lower,124,R,TREY RHODES,22862,TREY RHODES,True,exact_normalized_name,1.0,0.0,"rhodes, trey",2022.0,R,124.0,False
+TX,2024,lower,105,D,MEZA,22850,MEZA,True,district_surname_match,1.0,0.0,"meza, thresa (terry)",2022.0,D,105.0,False
+GA,2024,lower,59,D,PHIL OLALEYE,22848,PHIL OLALEYE,True,exact_normalized_name,1.0,0.0,"olaleye, phil",2022.0,D,59.0,False
+GA,2024,lower,6,R,JASON T RIDLEY,22597,JASON T RIDLEY,True,exact_normalized_name,1.0,0.0,"ridley, jason t",2022.0,R,6.0,False
+TN,2024,lower,6,R,TIM HICKS,22531,TIM HICKS,True,exact_normalized_name,1.0,0.0,"hicks, tim",2022.0,R,6.0,False
+GA,2024,lower,136,R,DAVID JENKINS,22525,DAVID JENKINS,True,exact_normalized_name,1.0,0.0,"jenkins, david",2022.0,R,136.0,False
+TN,2024,lower,16,R,MICHELE CARRINGER,22376,MICHELE CARRINGER,True,exact_normalized_name,1.0,0.0,"carringer, michele",2022.0,R,16.0,False
+GA,2024,lower,26,R,LAUREN WYLIE MCDONALD III,22258,LAUREN WYLIE MCDONALD,False,no_prior_winner_match,0.8421052631578947,0.5882352941176471,,,,,False
+TX,2024,lower,46,R,KOSICH,22223,KOSICH,False,no_prior_winner_match,0.5454545454545454,0.5454545454545454,,,,,False
+TX,2024,lower,6,D,GRACE,22158,GRACE,False,no_prior_winner_match,0.6,0.5454545454545454,,,,,False
+AR,2024,upper,17,R,MARK JOHNSON,22030,MARK JOHNSON,True,exact_normalized_name,1.0,0.0,"johnson, mark",2022.0,R,17.0,False
+TX,2024,lower,54,D,RICHARDSON,21993,RICHARDSON,False,no_prior_winner_match,0.5,0.47619047619047616,,,,,False
+GA,2024,lower,49,R,CHUCK MARTIN,21944,CHUCK MARTIN,False,no_prior_winner_match,0.6666666666666666,0.56,,,,,False
+GA,2024,upper,55,R,MARY WILLIAMS BENEFIELD,21907,MARY WILLIAMS BENEFIELD,False,no_prior_winner_match,0.5789473684210527,0.3783783783783784,,,,,False
+GA,2024,lower,46,R,JOHN CARSON,21875,JOHN CARSON,True,district_name_match,0.9166666666666666,0.0,"carson, john k",2022.0,R,46.0,False
+GA,2024,lower,34,R,DEVAN SEABAUGH,21849,DEVAN SEABAUGH,True,exact_normalized_name,1.0,0.0,"seabaugh, devan",2022.0,R,34.0,False
+TX,2024,lower,43,D,CASAREZ,21847,CASAREZ,False,no_prior_winner_match,0.6153846153846154,0.5333333333333333,,,,,False
+TN,2024,lower,45,R,JOHNNY GARRETT,21845,JOHNNY GARRETT,True,district_name_match,0.9333333333333333,0.0,"garrett, johnny c",2022.0,R,45.0,False
+TX,2024,lower,101,R,BURGESS,21781,BURGESS,False,no_prior_winner_match,0.6666666666666666,0.6153846153846154,,,,,False
+TX,2024,lower,119,R,GRABLE,21763,GRABLE,False,no_prior_winner_match,0.5454545454545454,0.5454545454545454,,,,,False
+GA,2024,lower,60,D,SHEILA JONES,21692,SHEILA JONES,True,exact_normalized_name,1.0,0.0,"jones, sheila",2022.0,D,60.0,False
+GA,2024,lower,45,R,SHARON COOPER,21650,SHARON COOPER,True,district_name_match,0.9285714285714286,0.17647058823529413,"cooper, sharon m",2022.0,R,45.0,False
+GA,2024,lower,64,D,SYLVIA WAYFER BAKER,21529,SYLVIA WAYFER BAKER,False,no_prior_winner_match,0.45454545454545453,0.45161290322580644,,,,,False
+GA,2024,lower,110,D,SEGUN ADEYINA,21469,SEGUN ADEYINA,True,exact_normalized_name,1.0,0.0,"adeyina, segun",2022.0,D,110.0,False
+GA,2024,lower,118,R,CLINT CROWE,21450,CLINT CROWE,True,exact_normalized_name,1.0,0.0,"crowe, clint",2022.0,R,118.0,False
+GA,2024,lower,55,D,INGA S WILLIS,21440,INGA S WILLIS,True,district_name_match,0.9166666666666666,0.23076923076923078,"willis, inga",2022.0,D,55.0,False
+GA,2024,lower,131,R,ROB CLIFTON,21351,ROB CLIFTON,False,no_prior_winner_match,0.5217391304347826,0.5217391304347826,,,,,False
+GA,2024,lower,12,R,EDDIE LUMSDEN,21310,EDDIE LUMSDEN,False,no_prior_winner_match,0.7647058823529411,0.5384615384615384,,,,,False
+GA,2024,lower,72,R,DAVID HUDDLESTON,21281,DAVID HUDDLESTON,True,exact_normalized_name,1.0,0.0,"huddleston, david",2022.0,R,72.0,False
+GA,2024,lower,1,R,MIKE CAMERON,21227,MIKE CAMERON,True,exact_normalized_name,1.0,0.0,"cameron, mike",2022.0,R,1.0,False
+TX,2024,lower,80,D,CASTELLANO,21225,CASTELLANO,False,no_prior_winner_match,0.5333333333333333,0.5,,,,,False
+TN,2024,lower,42,R,RYAN D WILLIAMS,21184,RYAN D WILLIAMS,True,exact_normalized_name,1.0,0.0,"williams, ryan d",2022.0,R,42.0,False
+TN,2024,upper,2,D,PATTI YOUNG,21111,PATTI YOUNG,False,no_prior_winner_match,0.48,0.4,,,,,False
+GA,2024,lower,111,R,REY MARTINEZ,21107,REY MARTINEZ,False,no_prior_winner_match,0.7272727272727273,0.56,,,,,False
+TX,2024,lower,53,D,HERRERA,21058,HERRERA,,ambiguous_fuzzy_surname,0.8571428571428571,0.6153846153846154,,,,,False
+GA,2024,lower,82,R,KAREN I MATHIAK,20984,KAREN I MATHIAK,,ambiguous_fuzzy_name,0.9285714285714286,0.5925925925925926,,,,,False
+GA,2024,lower,24,R,CARTER BARRETT,20845,CARTER BARRETT,True,exact_normalized_name,1.0,0.0,"barrett, carter",2022.0,R,24.0,False
+TN,2024,lower,24,R,KEVIN RAPER,20826,KEVIN RAPER,True,district_name_match,0.9166666666666666,0.3,"raper, kevin d",2022.0,R,24.0,False
+TX,2024,lower,84,D,LOPEZ,20733,LOPEZ,True,unique_exact_surname,1.0,0.0,"lopez, ray",2022.0,D,125.0,False
+GA,2024,lower,88,D,BILLY MITCHELL,20711,BILLY MITCHELL,False,no_prior_winner_match,0.7368421052631579,0.6666666666666666,,,,,False
+GA,2024,lower,175,R,JOHN LAHOOD,20695,JOHN LAHOOD,True,exact_normalized_name,1.0,0.0,"lahood, john",2022.0,R,175.0,False
+TN,2024,lower,48,R,BRYAN TERRY,20555,BRYAN TERRY,True,exact_normalized_name,1.0,0.0,"terry, bryan",2022.0,R,48.0,False
+TX,2024,lower,7,D,COOPER,20520,COOPER,False,no_prior_winner_match,0.6153846153846154,0.6,,,,,False
+GA,2024,lower,71,R,"JUSTIN ""JUTT"" HOWARD",20442,JUSTIN JUTT HOWARD,False,no_prior_winner_match,0.5,0.4827586206896552,,,,,False
+GA,2024,lower,125,R,GARY RICHARDSON,20341,GARY RICHARDSON,False,no_prior_winner_match,0.6206896551724138,0.5384615384615384,,,,,False
+TN,2024,lower,33,R,RICK SCARBROUGH,20299,RICK SCARBROUGH,False,no_prior_winner_match,0.5384615384615384,0.5,,,,,False
+TX,2024,lower,149,R,TRUONG,20291,TRUONG,False,no_prior_winner_match,0.5333333333333333,0.5,,,,,False
+TN,2024,lower,35,R,WILLIAM H SLATER,20190,WILLIAM H SLATER,True,district_name_match,0.9333333333333333,0.21428571428571427,"slater, william",2022.0,R,35.0,False
+GA,2024,lower,167,R,BUDDY DELOACH,20080,BUDDY DELOACH,True,exact_normalized_name,1.0,0.0,"deloach, buddy",2022.0,R,167.0,False
+TN,2024,lower,83,R,MARK WHITE,19910,MARK WHITE,True,exact_normalized_name,1.0,0.0,"white, mark",2022.0,R,83.0,False
+GA,2024,lower,121,R,MARCUS A WIEDOWER,19764,MARCUS A WIEDOWER,True,exact_normalized_name,1.0,0.0,"wiedower, marcus a",2022.0,R,121.0,False
+GA,2024,lower,86,D,IMANI BARNES,19737,IMANI BARNES,True,exact_normalized_name,1.0,0.0,"barnes, imani",2022.0,D,86.0,False
+GA,2024,lower,19,R,JOSEPH GULLETT,19659,JOSEPH GULLETT,True,exact_normalized_name,1.0,0.0,"gullett, joseph",2022.0,R,19.0,False
+GA,2024,lower,180,R,STEVEN SAINZ,19640,STEVEN SAINZ,True,exact_normalized_name,1.0,0.0,"sainz, steven",2022.0,R,180.0,False
+GA,2024,lower,67,D,LYDIA GLAIZE,19626,LYDIA GLAIZE,True,exact_normalized_name,1.0,0.0,"glaize, lydia",2022.0,D,67.0,False
+GA,2024,lower,100,R,DAVID CLARK,19620,DAVID CLARK,True,district_name_match,0.9166666666666666,0.0,"clark, david t",2022.0,R,100.0,False
+TX,2024,lower,116,R,CRAIN,19596,CRAIN,,ambiguous_fuzzy_surname,0.8888888888888888,0.6153846153846154,,,,,False
+GA,2024,lower,47,R,JAN JONES,19537,JAN JONES,True,district_name_match,0.9,0.0,"jones, jan s",2022.0,R,47.0,False
+TN,2024,lower,30,R,ESTHER HELTON-HAYNES,19473,ESTHER HELTON HAYNES,False,no_prior_winner_match,0.7878787878787878,0.4375,,,,,False
+GA,2024,lower,22,R,JORDAN RIDLEY,19402,JORDAN RIDLEY,True,exact_normalized_name,1.0,0.0,"ridley, jordan",2022.0,R,22.0,False
+TX,2024,lower,12,D,HOWARD MULLINS,19325,HOWARD MULLINS,False,no_prior_winner_match,0.4827586206896552,0.46153846153846156,,,,,False
+GA,2024,lower,120,R,HOUSTON GAINES,19248,HOUSTON GAINES,True,exact_normalized_name,1.0,0.0,"gaines, houston",2022.0,R,120.0,False
+TX,2024,lower,62,D,DRAKE,19240,DRAKE,False,no_prior_winner_match,0.5454545454545454,0.5,,,,,False
+GA,2024,lower,56,D,BRYCE BERRY,19223,BRYCE BERRY,False,no_prior_winner_match,0.5,0.48,,,,,False
+GA,2024,lower,44,R,DON L PARSONS,19216,DON L PARSONS,False,no_prior_winner_match,0.7878787878787878,0.6923076923076923,,,,,False
+GA,2024,lower,81,R,NOELLE KAHAIAN,19185,NOELLE KAHAIAN,False,no_prior_winner_match,0.56,0.5185185185185185,,,,,False
+TX,2024,lower,128,D,CREWS,19181,CREWS,False,no_prior_winner_match,0.5454545454545454,0.5454545454545454,,,,,False
+GA,2024,lower,139,R,CARMEN RICE,19069,CARMEN RICE,False,no_prior_winner_match,0.5833333333333334,0.56,,,,,False
+TN,2024,lower,7,R,REBECCA K ALEXANDER,19016,REBECCA K ALEXANDER,True,exact_normalized_name,1.0,0.0,"alexander, rebecca k",2022.0,R,7.0,False
+TX,2024,lower,124,R,SOTO,18981,SOTO,False,no_prior_winner_match,0.6,0.5,,,,,False
+GA,2024,upper,53,D,BART ALEXANDER BRYANT,18970,BART ALEXANDER BRYANT,False,no_prior_winner_match,0.48484848484848486,0.4444444444444444,,,,,False
+TX,2024,lower,105,R,CANNADAY,18928,CANNADAY,False,no_prior_winner_match,0.5714285714285714,0.5,,,,,False
+GA,2024,lower,40,R,KIMBERLY R NEW,18869,KIMBERLY R NEW,True,exact_normalized_name,1.0,0.0,"new, kimberly r",2022.0,R,64.0,False
+GA,2024,lower,101,D,SCOTT HOLCOMB,18764,SCOTT HOLCOMB,,ambiguous_fuzzy_name,0.9285714285714286,0.64,,,,,False
+GA,2024,lower,25,R,TODD JONES,18747,TODD JONES,True,exact_normalized_name,1.0,0.0,"jones, todd",2022.0,R,25.0,False
+TN,2024,lower,18,R,ELAINE DAVIS,18611,ELAINE DAVIS,True,exact_normalized_name,1.0,0.0,"davis, elaine",2022.0,R,18.0,False
+GA,2024,lower,53,R,DEBORAH SILCOX,18277,DEBORAH SILCOX,True,exact_normalized_name,1.0,0.0,"silcox, deborah",2022.0,R,53.0,False
+GA,2024,lower,103,R,SOO HONG,18232,SOO HONG,True,exact_normalized_name,1.0,0.0,"hong, soo",2022.0,R,103.0,False
+GA,2024,lower,52,D,SHEA ROBERTS,18196,SHEA ROBERTS,True,exact_normalized_name,1.0,0.0,"roberts, shea",2022.0,D,52.0,False
+GA,2024,lower,48,R,SCOTT HILTON,18183,SCOTT HILTON,True,exact_normalized_name,1.0,0.0,"hilton, scott",2022.0,R,48.0,False
+GA,2024,lower,158,R,BUTCH PARRISH,18048,BUTCH PARRISH,False,no_prior_winner_match,0.7647058823529411,0.46153846153846156,,,,,False
+GA,2024,lower,54,D,BETSY HOLLAND,17950,BETSY HOLLAND,True,exact_normalized_name,1.0,0.0,"holland, betsy",2022.0,D,54.0,False
+TX,2024,lower,16,D,MIDLER,17930,MIDLER,False,no_prior_winner_match,0.5,0.5,,,,,False
+TN,2024,lower,34,R,TIM RUDD,17805,TIM RUDD,True,exact_normalized_name,1.0,0.0,"rudd, tim",2022.0,R,34.0,False
+GA,2024,lower,70,R,LYNN SMITH,17597,LYNN SMITH,False,no_prior_winner_match,0.7407407407407407,0.6086956521739131,,,,,False
+GA,2024,lower,13,R,KATIE DEMPSEY,17407,KATIE DEMPSEY,True,district_name_match,0.9285714285714286,0.0,"dempsey, katie m",2022.0,R,13.0,False
+TX,2024,lower,39,R,GARCIA,17308,GARCIA,False,no_prior_winner_match,0.5454545454545454,0.5,,,,,False
+TX,2024,lower,13,D,HUNTER,17303,HUNTER,False,no_prior_winner_match,0.6666666666666666,0.6666666666666666,,,,,False
+TX,2024,lower,2,D,WASHINGTON,17182,WASHINGTON,False,no_prior_winner_match,0.4444444444444444,0.42857142857142855,,,,,False
+GA,2024,lower,169,R,ANGIE O'STEEN,17166,ANGIE O STEEN,False,no_prior_winner_match,0.56,0.5454545454545454,,,,,False
+TX,2024,lower,30,D,BASSHAM,17115,BASSHAM,False,no_prior_winner_match,0.5555555555555556,0.46153846153846156,,,,,False
+GA,2024,lower,173,R,DARLENE K TAYLOR,17033,DARLENE K TAYLOR,True,exact_normalized_name,1.0,0.0,"taylor, darlene k",2022.0,R,173.0,False
+AR,2024,upper,20,R,DAN SULLIVAN,16929,DAN SULLIVAN,True,exact_normalized_name,1.0,0.0,"sullivan, dan",2022.0,R,20.0,False
+GA,2024,lower,53,D,SUSIE GREENBERG,16926,SUSIE GREENBERG,False,no_prior_winner_match,0.5333333333333333,0.5333333333333333,,,,,False
+TN,2024,lower,37,R,CHARLIE BAUM,16859,CHARLIE BAUM,True,exact_normalized_name,1.0,0.0,"baum, charlie",2022.0,R,37.0,False
+GA,2024,lower,42,D,GABRIEL SANCHEZ,16686,GABRIEL SANCHEZ,False,no_prior_winner_match,0.5517241379310345,0.5161290322580645,,,,,False
+TN,2024,lower,60,D,SHAUNDELLE BROOKS,16681,SHAUNDELLE BROOKS,False,no_prior_winner_match,0.4375,0.43243243243243246,,,,,False
+TN,2024,lower,50,D,BO MITCHELL,16632,BO MITCHELL,True,exact_normalized_name,1.0,0.0,"mitchell, bo",2022.0,D,50.0,False
+GA,2024,lower,51,D,ESTHER PANITCH,16558,ESTHER PANITCH,True,exact_normalized_name,1.0,0.0,"panitch, esther",2022.0,D,51.0,False
+TN,2024,lower,97,R,JOHN GILLESPIE,16368,JOHN GILLESPIE,True,exact_normalized_name,1.0,0.0,"gillespie, john",2022.0,R,97.0,False
+TX,2024,lower,147,R,GUTIERREZ,16332,GUTIERREZ,False,no_prior_winner_match,0.5714285714285714,0.5333333333333333,,,,,False
+GA,2024,lower,35,D,LISA GAYLE CAMPBELL,16279,LISA GAYLE CAMPBELL,False,no_prior_winner_match,0.8125,0.6451612903225806,,,,,False
+GA,2024,lower,147,R,BETHANY BALLARD,16277,BETHANY BALLARD,True,exact_normalized_name,1.0,0.0,"ballard, bethany",2022.0,R,147.0,False
+TN,2024,lower,13,R,ROBERT STEVENS,16210,ROBERT STEVENS,True,exact_normalized_name,1.0,0.0,"stevens, robert",2022.0,R,13.0,False
+GA,2024,lower,137,D,DEBBIE G BUCKNER,16108,DEBBIE G BUCKNER,True,exact_normalized_name,1.0,0.0,"buckner, debbie g",2022.0,D,137.0,False
+GA,2024,lower,34,D,KARL GALLEGOS,16053,KARL GALLEGOS,False,no_prior_winner_match,0.5,0.5,,,,,False
+GA,2024,lower,162,D,CARL W GILLIARD,16032,CARL W GILLIARD,True,exact_normalized_name,1.0,0.0,"gilliard, carl w",2022.0,D,162.0,False
+GA,2024,lower,45,D,ERIC CASTATER,16027,ERIC CASTATER,False,no_prior_winner_match,0.5454545454545454,0.5384615384615384,,,,,False
+TN,2024,lower,18,D,BRYAN GOLDBERG,16013,BRYAN GOLDBERG,False,no_prior_winner_match,0.64,0.5925925925925926,,,,,False
+GA,2024,lower,142,D,MIRIAM PARIS,15936,MIRIAM PARIS,True,district_name_match,0.9230769230769231,0.0,"paris, miriam l",2022.0,D,142.0,False
+TN,2024,upper,16,D,WAYNE STEELE,15916,WAYNE STEELE,False,no_prior_winner_match,0.5833333333333334,0.5185185185185185,,,,,False
+AR,2024,upper,34,D,KAYLEE WEDGEWORTH,15897,KAYLEE WEDGEWORTH,False,no_prior_winner_match,0.41379310344827586,0.37037037037037035,,,,,False
+GA,2024,lower,50,D,MICHELLE AU,15868,MICHELLE AU,True,exact_normalized_name,1.0,0.0,"au, michelle",2022.0,D,50.0,False
+GA,2024,upper,50,D,JUNE KRISE,15810,JUNE KRISE,False,no_prior_winner_match,0.5217391304347826,0.43478260869565216,,,,,False
+AR,2024,upper,17,D,MAUREEN SKINNER,15800,MAUREEN SKINNER,False,no_prior_winner_match,0.5185185185185185,0.48,,,,,False
+GA,2024,lower,107,D,SAM PARK,15538,SAM PARK,False,no_prior_winner_match,0.8421052631578947,0.5714285714285714,,,,,False
+GA,2024,upper,5,R,LISA BABBAGE,15511,LISA BABBAGE,False,no_prior_winner_match,0.4444444444444444,0.4,,,,,False
+GA,2024,lower,126,D,LC MYLES JR,15465,LC MYLES,False,no_prior_winner_match,0.5,0.43478260869565216,,,,,False
+GA,2024,lower,80,D,LONG TRAN,15457,LONG TRAN,True,exact_normalized_name,1.0,0.0,"tran, long",2022.0,D,80.0,False
+TX,2024,lower,59,D,BOHM,15367,BOHM,False,no_prior_winner_match,0.4,0.4,,,,,False
+TN,2024,lower,49,R,MIKE SPARKS,15361,MIKE SPARKS,True,exact_normalized_name,1.0,0.0,"sparks, mike",2022.0,R,49.0,False
+TN,2024,lower,98,D,ANTONIO PARKINSON,15348,ANTONIO PARKINSON,True,exact_normalized_name,1.0,0.0,"parkinson, antonio",2022.0,D,98.0,False
+GA,2024,lower,108,D,JASMINE CLARK,15315,JASMINE CLARK,True,exact_normalized_name,1.0,0.0,"clark, jasmine",2022.0,D,108.0,False
+TN,2024,lower,97,D,JESSE HUSETH,15292,JESSE HUSETH,False,no_prior_winner_match,0.6956521739130435,0.56,,,,,False
+GA,2024,lower,41,D,MICHAEL SMITH,15280,MICHAEL SMITH,True,district_name_match,0.9285714285714286,0.0,"smith, michael a",2022.0,D,41.0,False
+TN,2024,lower,27,D,KATHY LENNON,15276,KATHY LENNON,False,no_prior_winner_match,0.5384615384615384,0.5185185185185185,,,,,False
+GA,2024,lower,46,D,MICHEAL GARZA,15274,MICHEAL GARZA,False,no_prior_winner_match,0.5714285714285714,0.5714285714285714,,,,,False
+GA,2024,lower,102,D,GABE OKOYE,15166,GABE OKOYE,True,exact_normalized_name,1.0,0.0,"okoye, gabe",2022.0,D,102.0,False
+GA,2024,lower,105,R,SANDY DONATUCCI,15142,SANDY DONATUCCI,False,no_prior_winner_match,0.5185185185185185,0.5,,,,,False
+GA,2024,lower,105,D,FAROOQ MUGHAL,15062,FAROOQ MUGHAL,True,exact_normalized_name,1.0,0.0,"mughal, farooq",2022.0,D,105.0,False
+TN,2024,lower,88,D,LARRY J MILLER,15043,LARRY J MILLER,True,exact_normalized_name,1.0,0.0,"miller, larry j",2022.0,D,88.0,False
+TN,2024,lower,26,D,ALLISON GORMAN,14986,ALLISON GORMAN,False,no_prior_winner_match,0.5,0.48,,,,,False
+GA,2024,lower,48,D,LAURA MURVARTIAN,14954,LAURA MURVARTIAN,False,no_prior_winner_match,0.5517241379310345,0.5,,,,,False
+GA,2024,lower,49,D,GRACE DEMIT,14937,GRACE DEMIT,False,no_prior_winner_match,0.5833333333333334,0.47619047619047616,,,,,False
+GA,2024,lower,99,R,MATT REEVES,14812,MATT REEVES,True,exact_normalized_name,1.0,0.0,"reeves, matt",2022.0,R,99.0,False
+GA,2024,lower,37,D,MARY FRANCES WILLIAMS,14748,MARY FRANCES WILLIAMS,False,no_prior_winner_match,0.8333333333333334,0.6666666666666666,,,,,False
+TN,2024,lower,14,D,AMANDA S COLLINS,14716,AMANDA S COLLINS,False,no_prior_winner_match,0.5161290322580645,0.5,,,,,False
+TN,2024,lower,61,D,CLAIRE JONES,14711,CLAIRE JONES,False,no_prior_winner_match,0.5833333333333334,0.5454545454545454,,,,,False
+TN,2024,upper,8,D,R E ELLISON,14678,R E ELLISON,False,no_prior_winner_match,0.4166666666666667,0.4,,,,,False
+GA,2024,upper,10,R,FURQUAN STAFFORD,14658,FURQUAN STAFFORD,False,no_prior_winner_match,0.47058823529411764,0.3870967741935484,,,,,False
+GA,2024,lower,19,D,RJ COYLE,14642,RJ COYLE,False,no_prior_winner_match,0.5882352941176471,0.47619047619047616,,,,,False
+GA,2024,lower,44,D,DANIELLE BELL,14571,DANIELLE BELL,False,no_prior_winner_match,0.5161290322580645,0.5,,,,,False
+GA,2024,lower,97,D,RUWA ROMMAN,14536,RUWA ROMMAN,True,exact_normalized_name,1.0,0.0,"romman, ruwa",2022.0,D,97.0,False
+TX,2024,lower,69,D,COPPAGE,14514,COPPAGE,False,no_prior_winner_match,0.5454545454545454,0.5,,,,,False
+TN,2024,lower,83,D,NOAH NORDSTROM,14488,NOAH NORDSTROM,False,no_prior_winner_match,0.41379310344827586,0.4,,,,,False
+GA,2024,lower,81,D,MISHAEL WHITE,14468,MISHAEL WHITE,False,no_prior_winner_match,0.6451612903225806,0.6428571428571429,,,,,False
+TN,2024,lower,60,R,CHAD BOBO,14335,CHAD BOBO,False,no_prior_winner_match,0.5263157894736842,0.47619047619047616,,,,,False
+GA,2024,lower,99,D,MICHELLE KANG,14191,MICHELLE KANG,False,no_prior_winner_match,0.8333333333333334,0.6,,,,,False
+GA,2024,lower,83,D,KAREN LUPTON,14170,KAREN LUPTON,True,exact_normalized_name,1.0,0.0,"lupton, karen",2022.0,D,83.0,False
+TN,2024,lower,50,R,JENNIFER FRENSLEY WEBB,14117,JENNIFER FRENSLEY WEBB,False,no_prior_winner_match,0.4117647058823529,0.4,,,,,False
+GA,2024,lower,153,D,DAVID SAMPSON,14014,DAVID SAMPSON,True,exact_normalized_name,1.0,0.0,"sampson, david",2022.0,D,153.0,False
+TN,2024,lower,53,D,JASON L POWELL,14004,JASON L POWELL,True,district_name_match,0.9230769230769231,0.0,"powell, jason",2022.0,D,53.0,False
+TX,2024,lower,8,D,SALTER,13961,SALTER,False,no_prior_winner_match,0.5454545454545454,0.5454545454545454,,,,,False
+GA,2024,lower,128,D,MACK JACKSON,13926,MACK JACKSON,True,district_name_match,0.9230769230769231,0.0,"jackson, w mack",2022.0,D,128.0,False
+GA,2024,lower,128,R,TRACY WHEELER,13878,TRACY WHEELER,False,no_prior_winner_match,0.5185185185185185,0.5161290322580645,,,,,False
+GA,2024,upper,41,R,JEFF NEWLIN,13846,JEFF NEWLIN,False,no_prior_winner_match,0.6666666666666666,0.43478260869565216,,,,,False
+TX,2024,lower,71,D,GOOLSBEE,13678,GOOLSBEE,False,no_prior_winner_match,0.5,0.5,,,,,False
+GA,2024,lower,145,D,TANGIE HERRING,13652,TANGIE HERRING,False,no_prior_winner_match,0.5,0.48,,,,,False
+AR,2024,lower,83,R,PAUL CHILDRESS,13545,PAUL CHILDRESS,False,no_prior_winner_match,0.46153846153846156,0.46153846153846156,,,,,False
+TN,2024,lower,52,D,JUSTIN JONES,13479,JUSTIN JONES,True,exact_normalized_name,1.0,0.0,"jones, justin",2022.0,D,52.0,False
+TN,2024,lower,63,D,LAURA ANDRESON,13433,LAURA ANDRESON,False,no_prior_winner_match,0.5714285714285714,0.4666666666666667,,,,,False
+GA,2024,lower,145,R,NOAH REDDING HARBUCK,13379,NOAH REDDING HARBUCK,False,no_prior_winner_match,0.48484848484848486,0.4375,,,,,False
+GA,2024,lower,143,D,ANISSA JONES,13318,ANISSA JONES,False,no_prior_winner_match,0.782608695652174,0.6666666666666666,,,,,False
+GA,2024,lower,111,D,SCOTT T JACKSON,13193,SCOTT T JACKSON,False,no_prior_winner_match,0.6666666666666666,0.625,,,,,False
+TN,2024,lower,30,D,HEATHER MCCLENDON,13136,HEATHER MCCLENDON,False,no_prior_winner_match,0.6,0.5333333333333333,,,,,False
+GA,2024,lower,108,R,ELVIA DAVILA,13118,ELVIA DAVILA,False,no_prior_winner_match,0.6956521739130435,0.5,,,,,False
+GA,2024,lower,149,D,FLOYD GRIFFIN,13002,FLOYD GRIFFIN,False,no_prior_winner_match,0.48,0.45454545454545453,,,,,False
+GA,2024,lower,40,D,MONTENIA EDWARDS,12924,MONTENIA EDWARDS,False,no_prior_winner_match,0.5,0.5,,,,,False
+TN,2024,lower,57,D,AILINA CARONA,12895,AILINA CARONA,False,no_prior_winner_match,0.5454545454545454,0.5185185185185185,,,,,False
+AR,2024,lower,12,R,HOPE HENDREN DUKE,12844,HOPE HENDREN DUKE,True,district_name_match,0.9696969696969697,0.13333333333333333,"hendrenduke, hope",2022.0,R,12.0,False
+GA,2024,lower,50,R,NARENDER REDDY,12801,NARENDER REDDY,False,no_prior_winner_match,0.5,0.5,,,,,False
+GA,2024,lower,22,D,"JAMES ""JL"" SHADE",12642,JAMES JL SHADE,False,no_prior_winner_match,0.5714285714285714,0.5333333333333333,,,,,False
+GA,2024,lower,121,D,ERIC MARTIN GISLER,12567,ERIC MARTIN GISLER,False,no_prior_winner_match,0.5161290322580645,0.5161290322580645,,,,,False
+GA,2024,upper,34,R,ANDREW E HONEYCUTT,12537,ANDREW E HONEYCUTT,False,no_prior_winner_match,0.45714285714285713,0.4375,,,,,False
+TN,2024,lower,65,D,LARHONDA WILLIAMS,12503,LARHONDA WILLIAMS,False,no_prior_winner_match,0.75,0.5161290322580645,,,,,False
+GA,2024,lower,73,D,TOM THOMASON,12436,TOM THOMASON,False,no_prior_winner_match,0.6086956521739131,0.5714285714285714,,,,,False
+TN,2024,lower,93,D,G A HARDAWAY SR,12398,G A HARDAWAY,False,no_prior_winner_match,0.8,0.5217391304347826,,,,,False
+GA,2024,lower,82,D,ANTHONY DICKSON,12351,ANTHONY DICKSON,False,no_prior_winner_match,0.5517241379310345,0.5185185185185185,,,,,False
+GA,2024,lower,147,D,ARIEL PHILLIPS,12318,ARIEL PHILLIPS,False,no_prior_winner_match,0.64,0.5925925925925926,,,,,False
+TX,2024,lower,146,R,YORK,12282,YORK,False,no_prior_winner_match,0.5714285714285714,0.5,,,,,False
+TN,2024,lower,15,D,SAM MCKENZIE,12281,SAM MCKENZIE,True,exact_normalized_name,1.0,0.0,"mckenzie, sam",2022.0,D,15.0,False
+AR,2024,lower,42,R,STEPHEN MEEKS,12238,STEPHEN MEEKS,True,exact_normalized_name,1.0,0.0,"meeks, stephen",2022.0,R,42.0,False
+GA,2024,lower,47,D,DEBRA SHIGLEY,12189,DEBRA SHIGLEY,False,no_prior_winner_match,0.6666666666666666,0.56,,,,,False
+GA,2024,lower,120,D,ANDREW FERGUSON,12156,ANDREW FERGUSON,False,no_prior_winner_match,0.5185185185185185,0.5161290322580645,,,,,False
+TN,2024,lower,80,D,JOHNNY W SHAW,12140,JOHNNY W SHAW,True,exact_normalized_name,1.0,0.0,"shaw, johnny w",2022.0,D,80.0,False
+GA,2024,lower,54,R,"SAMANTHA BROWN ""SAM"" PARKS",12132,SAMANTHA BROWN SAM PARKS,False,no_prior_winner_match,0.5641025641025641,0.5116279069767442,,,,,False
+AR,2024,lower,41,R,ALYSSA BROWN,12074,ALYSSA BROWN,False,no_prior_winner_match,0.72,0.6363636363636364,,,,,False
+AR,2024,lower,57,R,CAMERON COOPER,11987,CAMERON COOPER,True,exact_normalized_name,1.0,0.0,"cooper, cameron",2022.0,R,57.0,False
+GA,2024,lower,25,D,ELAINE PADGETT,11979,ELAINE PADGETT,False,no_prior_winner_match,0.4666666666666667,0.4444444444444444,,,,,False
+GA,2024,lower,51,R,DEREK KEITH GETTMANN,11959,DEREK KEITH GETTMANN,False,no_prior_winner_match,0.5294117647058824,0.48484848484848486,,,,,False
+TN,2024,lower,89,D,CARY HAMMOND,11920,CARY HAMMOND,False,no_prior_winner_match,0.5384615384615384,0.5217391304347826,,,,,False
+GA,2024,lower,124,D,MELANIE M MILLER,11913,MELANIE M MILLER,False,no_prior_winner_match,0.6666666666666666,0.6060606060606061,,,,,False
+GA,2024,lower,150,D,PATTY MARIE STINSON,11892,PATTY MARIE STINSON,False,no_prior_winner_match,0.6,0.5238095238095238,,,,,False
+GA,2024,lower,103,D,CHRIS LUCHEY,11880,CHRIS LUCHEY,False,no_prior_winner_match,0.6086956521739131,0.5,,,,,False
+GA,2024,lower,100,D,JENNIFER AMBLER,11833,JENNIFER AMBLER,False,no_prior_winner_match,0.5185185185185185,0.5,,,,,False
+GA,2024,lower,37,R,SHEA TAYLOR,11725,SHEA TAYLOR,False,no_prior_winner_match,0.6153846153846154,0.6086956521739131,,,,,False
+TX,2024,lower,68,D,SWANN,11704,SWANN,False,no_prior_winner_match,0.5,0.4,,,,,False
+TN,2024,lower,34,D,AMELIA PANT,11624,AMELIA PANT,False,no_prior_winner_match,0.48,0.47619047619047616,,,,,False
+TN,2024,lower,49,D,LUIS MATA,11492,LUIS MATA,False,no_prior_winner_match,0.43478260869565216,0.43478260869565216,,,,,False
+GA,2024,lower,131,D,HEATHER ROSE WHITE,11466,HEATHER ROSE WHITE,False,no_prior_winner_match,0.5,0.5,,,,,False
+AR,2024,lower,92,R,JULIE MAYBERRY,11425,JULIE MAYBERRY,True,exact_normalized_name,1.0,0.0,"mayberry, julie",2022.0,R,92.0,False
+GA,2024,lower,110,R,CHARLES LOLLAR,11410,CHARLES LOLLAR,False,no_prior_winner_match,0.6206896551724138,0.5925925925925926,,,,,False
+GA,2024,lower,177,D,DEXTER SHARPER,11400,DEXTER SHARPER,True,district_name_match,0.9333333333333333,0.0,"sharper, dexter l",2022.0,D,177.0,False
+GA,2024,lower,52,R,ROBERT BRANDON MCNEILY,11321,ROBERT BRANDON MCNEILY,False,no_prior_winner_match,0.5945945945945946,0.5142857142857142,,,,,False
+GA,2024,lower,166,D,GAY FORTSON,11237,GAY FORTSON,False,no_prior_winner_match,0.5454545454545454,0.5217391304347826,,,,,False
+GA,2024,lower,126,R,WILLIAM C HARRIS,11234,WILLIAM C HARRIS,False,no_prior_winner_match,0.6666666666666666,0.625,,,,,False
+GA,2024,lower,125,D,KAY TURNER,11194,KAY TURNER,False,no_prior_winner_match,0.56,0.56,,,,,False
+AR,2024,lower,86,R,JOHN MADDOX,11181,JOHN MADDOX,True,exact_normalized_name,1.0,0.0,"maddox, john",2022.0,R,86.0,False
+TN,2024,lower,75,R,JEFF BURKHART,11164,JEFF BURKHART,True,exact_normalized_name,1.0,0.0,"burkhart, jeff",2022.0,R,75.0,False
+GA,2024,lower,149,R,KEN VANCE,11078,KEN VANCE,False,no_prior_winner_match,0.8181818181818182,0.5454545454545454,,,,,False
+AR,2024,lower,78,R,KEITH BROOKS,11078,KEITH BROOKS,True,exact_normalized_name,1.0,0.0,"brooks, keith",2022.0,R,78.0,False
+TN,2024,lower,67,D,RONNIE GLYNN,11055,RONNIE GLYNN,True,district_name_match,0.9230769230769231,0.25,"glynn, ronnie l",2022.0,D,67.0,False
+TX,2024,lower,87,D,GASSAWAY,11048,GASSAWAY,False,no_prior_winner_match,0.5263157894736842,0.42857142857142855,,,,,False
+TN,2024,lower,68,D,GARFIELD SCOTT,10950,GARFIELD SCOTT,False,no_prior_winner_match,0.42857142857142855,0.4166666666666667,,,,,False
+TN,2024,lower,67,R,JAMIE DEAN PELTZ,10924,JAMIE DEAN PELTZ,False,no_prior_winner_match,0.5,0.4666666666666667,,,,,False
+TN,2024,lower,48,D,MATT FERRY,10903,MATT FERRY,False,no_prior_winner_match,0.5714285714285714,0.47619047619047616,,,,,False
+GA,2024,lower,137,R,STEPHEN ACORN,10881,STEPHEN ACORN,False,no_prior_winner_match,0.64,0.56,,,,,False
+AR,2024,upper,20,D,ERIKA ASKELAND,10869,ERIKA ASKELAND,False,no_prior_winner_match,0.4375,0.4166666666666667,,,,,False
+TN,2024,lower,13,D,JONATHAN YANCEY,10859,JONATHAN YANCEY,False,no_prior_winner_match,0.5,0.5,,,,,False
+TN,2024,lower,29,D,RYAN SCOFIELD,10671,RYAN SCOFIELD,False,no_prior_winner_match,0.56,0.5217391304347826,,,,,False
+GA,2024,lower,118,D,SHARONDA BELL,10671,SHARONDA BELL,False,no_prior_winner_match,0.5714285714285714,0.56,,,,,False
+GA,2024,lower,139,D,CARL SPRAYBERRY,10665,CARL SPRAYBERRY,False,no_prior_winner_match,0.5185185185185185,0.4666666666666667,,,,,False
+TN,2024,lower,64,D,EILEEN H LONGSTREET,10590,EILEEN H LONGSTREET,False,no_prior_winner_match,0.4375,0.4375,,,,,False
+TX,2024,lower,82,D,SCHAFERSMAN,10555,SCHAFERSMAN,False,no_prior_winner_match,0.7777777777777778,0.5555555555555556,,,,,False
+GA,2024,lower,35,R,GARY CECIL CHAFFEE,10501,GARY CECIL CHAFFEE,False,no_prior_winner_match,0.5,0.42424242424242425,,,,,False
+GA,2024,lower,80,R,BRIAN ANDERSON,10473,BRIAN ANDERSON,False,no_prior_winner_match,0.6666666666666666,0.6451612903225806,,,,,False
+GA,2024,lower,150,R,CARY MOORE,10443,CARY MOORE,False,no_prior_winner_match,0.6363636363636364,0.6086956521739131,,,,,False
+GA,2024,lower,142,R,CALVIN DENNIS PALMER,10391,CALVIN DENNIS PALMER,False,no_prior_winner_match,0.5142857142857142,0.5,,,,,False
+GA,2024,lower,136,D,JEFF LOWE,10383,JEFF LOWE,False,no_prior_winner_match,0.4444444444444444,0.43478260869565216,,,,,False
+TN,2024,lower,45,D,ALISON BEALE,10354,ALISON BEALE,False,no_prior_winner_match,0.5833333333333334,0.5,,,,,False
+GA,2024,lower,107,R,HAI CAO,10189,HAI CAO,False,no_prior_winner_match,0.5714285714285714,0.5555555555555556,,,,,False
+GA,2024,lower,97,R,MICHAEL ALLEN CORBIN,10167,MICHAEL ALLEN CORBIN,False,no_prior_winner_match,0.6285714285714286,0.6190476190476191,,,,,False
+GA,2024,lower,70,D,DIANE BOULAI,10166,DIANE BOULAI,False,no_prior_winner_match,0.5833333333333334,0.5,,,,,False
+AR,2024,lower,85,R,RICHARD MCGREW,10153,RICHARD MCGREW,True,exact_normalized_name,1.0,0.0,"mcgrew, richard",2022.0,R,85.0,False
+GA,2024,lower,71,D,KWASI HUDSON,10092,KWASI HUDSON,False,no_prior_winner_match,0.6428571428571429,0.5,,,,,False
+GA,2024,lower,24,D,RANDYE DUGAN,10044,RANDYE DUGAN,False,no_prior_winner_match,0.5185185185185185,0.47619047619047616,,,,,False
+AR,2024,lower,25,R,CHAD PURYEAR,10041,CHAD PURYEAR,True,exact_normalized_name,1.0,0.0,"puryear, chad",2022.0,R,25.0,False
+AR,2024,lower,24,R,BRAD HALL,10036,BRAD HALL,False,no_prior_winner_match,0.631578947368421,0.5714285714285714,,,,,False
+AR,2024,lower,68,R,BRIAN S EVANS,10002,BRIAN S EVANS,True,district_name_match,0.9166666666666666,0.0,"evans, brian",2022.0,R,68.0,False
+GA,2024,lower,67,R,MATTHEW HAMMETT,9890,MATTHEW HAMMETT,False,no_prior_winner_match,0.6666666666666666,0.6111111111111112,,,,,False
+TN,2024,lower,33,D,ANNE BACKUS,9685,ANNE BACKUS,False,no_prior_winner_match,0.5217391304347826,0.5217391304347826,,,,,False
+GA,2024,lower,42,R,DIANE E JACKSON,9672,DIANE E JACKSON,False,no_prior_winner_match,0.7407407407407407,0.6875,,,,,False
+GA,2024,lower,21,D,MITCHELL SIMMONS,9668,MITCHELL SIMMONS,False,no_prior_winner_match,0.7878787878787878,0.7096774193548387,,,,,False
+GA,2024,lower,64,R,CASSAUNDRA BURKS,9569,CASSAUNDRA BURKS,False,no_prior_winner_match,0.4666666666666667,0.45161290322580644,,,,,False
+TN,2024,lower,46,D,JONI COCHRAN,9508,JONI COCHRAN,False,no_prior_winner_match,0.6666666666666666,0.5833333333333334,,,,,False
+AR,2024,lower,54,R,MARY BENTLEY,9453,MARY BENTLEY,True,exact_normalized_name,1.0,0.0,"bentley, mary",2022.0,R,54.0,False
+TN,2024,lower,37,D,CHERI BROWN,9399,CHERI BROWN,False,no_prior_winner_match,0.5714285714285714,0.5714285714285714,,,,,False
+AR,2024,lower,18,R,ROBIN LUNDSTRUM,9332,ROBIN LUNDSTRUM,True,exact_normalized_name,1.0,0.0,"lundstrum, robin",2022.0,R,18.0,False
+TN,2024,lower,16,D,LAUREN CARVER,9331,LAUREN CARVER,False,no_prior_winner_match,0.6666666666666666,0.6363636363636364,,,,,False
+GA,2024,lower,30,D,KIM FLORIA,9278,KIM FLORIA,False,no_prior_winner_match,0.5714285714285714,0.5217391304347826,,,,,False
+TN,2024,lower,75,D,ALLIE PHILLIPS,9230,ALLIE PHILLIPS,False,no_prior_winner_match,0.4827586206896552,0.46153846153846156,,,,,False
+GA,2024,lower,26,D,LAKIEA J BAILEY,9191,LAKIEA J BAILEY,False,no_prior_winner_match,0.5806451612903226,0.5333333333333333,,,,,False
+AR,2024,lower,51,R,CINDY CRAWFORD,9032,CINDY CRAWFORD,True,exact_normalized_name,1.0,0.0,"crawford, cindy",2022.0,R,51.0,False
+AR,2024,lower,96,R,SONIA EUBANKS BARKER,8990,SONIA EUBANKS BARKER,True,district_name_match,0.9743589743589743,0.3225806451612903,"eubanksbarker, sonia",2022.0,R,96.0,False
+GA,2024,lower,173,D,THERESA THOMAS,8984,THERESA THOMAS,False,no_prior_winner_match,0.72,0.7142857142857143,,,,,False
+AR,2024,lower,30,R,FRAN CAVENAUGH,8923,FRAN CAVENAUGH,True,district_name_match,0.9032258064516129,0.0,"cavenaugh, frances",2022.0,R,30.0,False
+AR,2024,lower,14,R,NICK BURKES,8808,NICK BURKES,False,no_prior_winner_match,0.64,0.6086956521739131,,,,,False
+AR,2024,lower,58,R,LES EAVES,8776,LES EAVES,True,exact_normalized_name,1.0,0.0,"eaves, les",2022.0,R,58.0,False
+AR,2024,lower,45,R,AARON M PILKINGTON,8722,AARON M PILKINGTON,True,district_name_match,0.9411764705882353,0.0,"pilkington, aaron",2022.0,R,45.0,False
+GA,2024,lower,144,D,ANITA HYLAND,8714,ANITA HYLAND,False,no_prior_winner_match,0.5925925925925926,0.56,,,,,False
+GA,2024,lower,180,D,DEFONSIO DANIELS,8680,DEFONSIO DANIELS,False,no_prior_winner_match,0.6206896551724138,0.5185185185185185,,,,,False
+GA,2024,lower,60,R,CATHY G HENSON,8613,CATHY G HENSON,False,no_prior_winner_match,0.5714285714285714,0.5333333333333333,,,,,False
+TN,2024,lower,92,D,TERI MAI,8569,TERI MAI,False,no_prior_winner_match,0.6,0.5454545454545454,,,,,False
+AR,2024,lower,10,R,MINDY MCALINDON,8561,MINDY MCALINDON,True,exact_normalized_name,1.0,0.0,"mcalindon, mindy",2022.0,R,10.0,False
+AR,2024,lower,6,R,HARLAN BREAUX,8483,HARLAN BREAUX,True,exact_normalized_name,1.0,0.0,"breaux, harlan",2022.0,R,6.0,False
+AR,2024,upper,25,D,MICHELLE JUSTICE,8408,MICHELLE JUSTICE,False,no_prior_winner_match,0.4827586206896552,0.4444444444444444,,,,,False
+GA,2024,lower,167,D,REBEKAH MOORE,8375,REBEKAH MOORE,False,no_prior_winner_match,0.782608695652174,0.64,,,,,False
+GA,2024,lower,123,D,HOPE S BEARD,8367,HOPE S BEARD,False,no_prior_winner_match,0.5185185185185185,0.48484848484848486,,,,,False
+TN,2024,lower,6,D,BRAD BATT,8356,BRAD BATT,False,no_prior_winner_match,0.5714285714285714,0.5,,,,,False
+TN,2024,lower,35,D,LEXI MELTON,8345,LEXI MELTON,False,no_prior_winner_match,0.5833333333333334,0.5,,,,,False
+TN,2024,lower,20,D,KAREN GERTZ,8312,KAREN GERTZ,False,no_prior_winner_match,0.64,0.5384615384615384,,,,,False
+GA,2024,lower,83,R,CATHERINE BERNARD,8281,CATHERINE BERNARD,False,no_prior_winner_match,0.6,0.5806451612903226,,,,,False
+TN,2024,lower,78,D,DEBORAH CASTLE DOYLE,8270,DEBORAH CASTLE DOYLE,False,no_prior_winner_match,0.5454545454545454,0.4666666666666667,,,,,False
+AR,2024,lower,69,R,DAVID RAY,8254,DAVID RAY,True,exact_normalized_name,1.0,0.0,"ray, david",2022.0,R,69.0,False
+GA,2024,lower,143,R,BARBARA BOYER,8196,BARBARA BOYER,False,no_prior_winner_match,0.5185185185185185,0.5,,,,,False
+GA,2024,lower,162,R,KEITH PADGETT,8186,KEITH PADGETT,False,no_prior_winner_match,0.5384615384615384,0.5185185185185185,,,,,False
+GA,2024,lower,175,D,ANISSA KNIGHT WISEMAN,8070,ANISSA KNIGHT WISEMAN,False,no_prior_winner_match,0.5142857142857142,0.48484848484848486,,,,,False
+TN,2024,lower,44,D,BRIAN ROBERTSON,8039,BRIAN ROBERTSON,False,no_prior_winner_match,0.5517241379310345,0.5384615384615384,,,,,False
+AR,2024,lower,97,R,MATTHEW J SHEPHERD,7881,MATTHEW J SHEPHERD,True,exact_normalized_name,1.0,0.0,"shepherd, matthew j",2022.0,R,97.0,False
+GA,2024,lower,102,R,KATHY STATHAM,7855,KATHY STATHAM,False,no_prior_winner_match,0.5,0.45454545454545453,,,,,False
+TN,2024,lower,80,R,BRAD GRANTHAM,7843,BRAD GRANTHAM,False,no_prior_winner_match,0.5217391304347826,0.46153846153846156,,,,,False
+TN,2024,lower,8,D,SUE DUBOIS,7827,SUE DUBOIS,False,no_prior_winner_match,0.47619047619047616,0.45454545454545453,,,,,False
+AR,2024,lower,37,R,STEVE HOLLOWELL,7762,STEVE HOLLOWELL,True,exact_normalized_name,1.0,0.0,"hollowell, steve",2022.0,R,37.0,False
+TN,2024,lower,7,D,SYLVAIN BRUNI,7665,SYLVAIN BRUNI,False,no_prior_winner_match,0.48,0.48,,,,,False
+TN,2024,lower,39,D,ROSE MARY DRAKE,7632,ROSE MARY DRAKE,False,no_prior_winner_match,0.4827586206896552,0.46153846153846156,,,,,False
+GA,2024,lower,13,D,KEVIN ARONHALT,7555,KEVIN ARONHALT,False,no_prior_winner_match,0.5384615384615384,0.5185185185185185,,,,,False
+AR,2024,lower,70,R,CARLTON WING,7541,CARLTON WING,True,exact_normalized_name,1.0,0.0,"wing, carlton",2022.0,R,70.0,False
+TN,2024,lower,53,R,YOG NEPAL,7494,YOG NEPAL,False,no_prior_winner_match,0.42105263157894735,0.4,,,,,False
+TN,2024,lower,42,D,"AMBER ""BENNIE"" TAYLOR",7482,AMBER BENNIE TAYLOR,False,no_prior_winner_match,0.45161290322580644,0.42424242424242425,,,,,False
+AR,2024,lower,82,R,TONY FURMAN,7431,TONY FURMAN,True,exact_normalized_name,1.0,0.0,"furman, tony",2022.0,R,82.0,False
+AR,2024,lower,84,R,LES WARREN,7354,LES WARREN,True,district_name_match,0.9090909090909091,0.0,"warren, les a",2022.0,R,84.0,False
+GA,2024,lower,28,D,MICHAEL D HENSON,7350,MICHAEL D HENSON,False,no_prior_winner_match,0.7058823529411765,0.6451612903225806,,,,,False
+AR,2024,lower,70,D,ALEX HOLLADAY,7255,ALEX HOLLADAY,False,no_prior_winner_match,0.48,0.48,,,,,False
+GA,2024,lower,101,R,KENDRA BIEGALSKI,7252,KENDRA BIEGALSKI,False,no_prior_winner_match,0.4827586206896552,0.4827586206896552,,,,,False
+AR,2024,lower,71,R,BRANDON ACHOR,7226,BRANDON ACHOR,True,exact_normalized_name,1.0,0.0,"achor, brandon",2022.0,R,71.0,False
+TN,2024,lower,94,D,TERRY S SAINE,7178,TERRY S SAINE,False,no_prior_winner_match,0.5925925925925926,0.56,,,,,False
+AR,2024,lower,7,R,BRIT MCKENZIE,7159,BRIT MCKENZIE,True,exact_normalized_name,1.0,0.0,"mckenzie, brit",2022.0,R,7.0,False
+AR,2024,lower,55,R,MATT BROWN,7063,MATT BROWN,True,exact_normalized_name,1.0,0.0,"brown, matt",2022.0,R,55.0,False
+AR,2024,lower,81,R,RJ HAWK,6973,RJ HAWK,True,district_name_match,0.9333333333333333,0.3,"hawk, r j",2022.0,R,81.0,False
+TN,2024,lower,21,D,KENNETH R MOORE,6967,KENNETH R MOORE,False,no_prior_winner_match,0.46153846153846156,0.42857142857142855,,,,,False
+GA,2024,lower,177,R,CLAY GRINER,6954,CLAY GRINER,False,no_prior_winner_match,0.6363636363636364,0.5454545454545454,,,,,False
+GA,2024,lower,72,D,RODNEY ROSS MOORE,6909,RODNEY ROSS MOORE,False,no_prior_winner_match,0.5517241379310345,0.5185185185185185,,,,,False
+GA,2024,lower,153,R,BRENDA BATTLE,6875,BRENDA BATTLE,False,no_prior_winner_match,0.5185185185185185,0.5185185185185185,,,,,False
+AR,2024,lower,53,R,MATT DUFFIELD,6763,MATT DUFFIELD,True,exact_normalized_name,1.0,0.0,"duffield, matt",2022.0,R,53.0,False
+GA,2024,lower,57,R,JULIE ALLEN,6763,JULIE ALLEN,False,no_prior_winner_match,0.6666666666666666,0.5217391304347826,,,,,False
+GA,2024,lower,158,D,MADELINE RYAN SMITH,6711,MADELINE RYAN SMITH,False,no_prior_winner_match,0.7058823529411765,0.6666666666666666,,,,,False
+TN,2024,lower,25,D,WESLEY M ADKINS,6603,WESLEY M ADKINS,False,no_prior_winner_match,0.5185185185185185,0.5,,,,,False
+AR,2024,lower,10,D,KATE SCHAFFER,6577,KATE SCHAFFER,False,no_prior_winner_match,0.5161290322580645,0.5,,,,,False
+AR,2024,lower,67,R,KARILYN BROWN,6550,KARILYN BROWN,True,exact_normalized_name,1.0,0.0,"brown, karilyn",2022.0,R,67.0,False
+GA,2024,lower,41,R,ANDREA SMITH,6542,ANDREA SMITH,False,no_prior_winner_match,0.72,0.6666666666666666,,,,,False
+GA,2024,lower,11,D,KAYLA L HOLLIFIELD,6392,KAYLA L HOLLIFIELD,False,no_prior_winner_match,0.5806451612903226,0.5161290322580645,,,,,False
+AR,2024,lower,94,R,JEFF WARDLAW,6385,JEFF WARDLAW,False,no_prior_winner_match,0.8275862068965517,0.47619047619047616,,,,,False
+AR,2024,lower,50,R,ZACK GRAMLICH,6329,ZACK GRAMLICH,True,exact_normalized_name,1.0,0.0,"gramlich, zack",2022.0,R,50.0,False
+AR,2024,lower,19,R,STEVE UNGER,6320,STEVE UNGER,True,exact_normalized_name,1.0,0.0,"unger, steve",2022.0,R,19.0,False
+AR,2024,lower,13,R,R SCOTT RICHARDSON,6162,R SCOTT RICHARDSON,True,district_name_match,0.9714285714285714,0.25806451612903225,"scottrichardson, r",2022.0,R,13.0,False
+TN,2024,lower,66,D,ELIZABETH WEBB,6152,ELIZABETH WEBB,False,no_prior_winner_match,0.4375,0.41379310344827586,,,,,False
+GA,2024,lower,55,R,SAMUEL S LENAEUS,6095,SAMUEL S LENAEUS,False,no_prior_winner_match,0.5925925925925926,0.5882352941176471,,,,,False
+AR,2024,upper,22,D,SANDY MAIER,6078,SANDY MAIER,False,no_prior_winner_match,0.47619047619047616,0.42857142857142855,,,,,False
+TN,2024,lower,52,R,LAURA NELSON,5995,LAURA NELSON,False,no_prior_winner_match,0.6153846153846154,0.5,,,,,False
+AR,2024,lower,67,D,ANDREW CADE EBERLY,5991,ANDREW CADE EBERLY,False,no_prior_winner_match,0.5625,0.5333333333333333,,,,,False
+AR,2024,lower,66,D,MARK W PERRY,5987,MARK W PERRY,True,exact_normalized_name,1.0,0.0,"perry, mark w",2022.0,D,66.0,False
+AR,2024,lower,56,D,STEVE MAGIE,5959,STEVE MAGIE,True,exact_normalized_name,1.0,0.0,"magie, steve",2022.0,D,56.0,False
+GA,2024,lower,8,D,CHARLOTTE SLECZKOWSKI,5948,CHARLOTTE SLECZKOWSKI,False,no_prior_winner_match,0.5128205128205128,0.4444444444444444,,,,,False
+TN,2024,lower,88,R,LARRY HUNTER,5896,LARRY HUNTER,False,no_prior_winner_match,0.6153846153846154,0.5454545454545454,,,,,False
+TN,2024,lower,71,D,TIM COY,5853,TIM COY,False,no_prior_winner_match,0.625,0.5333333333333333,,,,,False
+GA,2024,lower,169,D,THERESA R REWIS,5799,THERESA R REWIS,False,no_prior_winner_match,0.5806451612903226,0.5384615384615384,,,,,False
+TN,2024,lower,15,R,JUSTIN HIRST,5790,JUSTIN HIRST,False,no_prior_winner_match,0.6666666666666666,0.6666666666666666,,,,,False
+TN,2024,lower,24,D,ANDREA CHASE,5769,ANDREA CHASE,False,no_prior_winner_match,0.5384615384615384,0.5185185185185185,,,,,False
+AR,2024,lower,71,D,CASSANDRA D GREEN,5752,CASSANDRA D GREEN,False,no_prior_winner_match,0.5161290322580645,0.4827586206896552,,,,,False
+AR,2024,lower,32,R,JACK LADYMAN,5510,JACK LADYMAN,True,exact_normalized_name,1.0,0.0,"ladyman, jack",2022.0,R,32.0,False
+AR,2024,lower,15,R,JOHN P CARR,5498,JOHN P CARR,True,exact_normalized_name,1.0,0.0,"carr, john p",2022.0,R,15.0,False
+TN,2024,lower,98,R,CECIL HALE,5410,CECIL HALE,False,no_prior_winner_match,0.7272727272727273,0.5,,,,,False
+AR,2024,lower,78,D,JAMES HENRY BARTOLOMEI,5395,JAMES HENRY BARTOLOMEI,False,no_prior_winner_match,0.47058823529411764,0.43243243243243246,,,,,False
+GA,2024,lower,116,R,REIGN STEVENS,5346,REIGN STEVENS,False,no_prior_winner_match,0.56,0.56,,,,,False
+GA,2024,lower,10,D,PAULETTE WILLIAMS,5323,PAULETTE WILLIAMS,False,no_prior_winner_match,0.7857142857142857,0.6875,,,,,False
+AR,2024,lower,36,R,JOHNNY RYE,5318,JOHNNY RYE,True,district_name_match,0.9090909090909091,0.0,"rye, johnny 2",2022.0,R,36.0,False
+TN,2024,lower,3,D,LORI LOVE,5248,LORI LOVE,False,no_prior_winner_match,0.5217391304347826,0.5217391304347826,,,,,False
+TN,2024,lower,12,D,LESLIE P BRADDOCK,5196,LESLIE P BRADDOCK,False,no_prior_winner_match,0.46153846153846156,0.45161290322580644,,,,,False
+GA,2024,lower,1,D,JOHN B ZIBLUK,5195,JOHN B ZIBLUK,False,no_prior_winner_match,0.5185185185185185,0.5,,,,,False
+AR,2024,lower,18,D,JUSTIN MEEKS,5155,JUSTIN MEEKS,False,no_prior_winner_match,0.72,0.6666666666666666,,,,,False
+GA,2024,lower,88,R,WILLIAM PARK FREEMAN,5132,WILLIAM PARK FREEMAN,False,no_prior_winner_match,0.6111111111111112,0.5333333333333333,,,,,False
+TN,2024,lower,41,D,JOEL DEREK HAWN,5113,JOEL DEREK HAWN,False,no_prior_winner_match,0.5185185185185185,0.5,,,,,False
+AR,2024,lower,56,R,KIM SLAUGHTER,5113,KIM SLAUGHTER,False,no_prior_winner_match,0.5833333333333334,0.48,,,,,False
+AR,2024,lower,55,D,CYNTHIA NATIONS,5011,CYNTHIA NATIONS,False,no_prior_winner_match,0.46153846153846156,0.46153846153846156,,,,,False
+AR,2024,lower,19,D,BILLY COOK,5002,BILLY COOK,False,no_prior_winner_match,0.45454545454545453,0.43478260869565216,,,,,False
+TN,2024,lower,70,D,JASON LUTTRELL,4965,JASON LUTTRELL,False,no_prior_winner_match,0.6923076923076923,0.64,,,,,False
+GA,2024,lower,86,R,"BARRY ""Z"" ZISHOLTZ",4936,BARRY Z ZISHOLTZ,False,no_prior_winner_match,0.5161290322580645,0.4864864864864865,,,,,False
+TN,2024,lower,40,D,DANIEL T HAWTHORNE,4913,DANIEL T HAWTHORNE,False,no_prior_winner_match,0.5454545454545454,0.5333333333333333,,,,,False
+AR,2024,lower,62,R,MARK D MCELROY,4845,MARK D MCELROY,True,exact_normalized_name,1.0,0.0,"mcelroy, mark d",2022.0,R,62.0,False
+AR,2024,lower,35,D,JESSIE MCGRUDER,4814,JESSIE MCGRUDER,False,no_prior_winner_match,0.5714285714285714,0.5,,,,,False
+AR,2024,lower,12,D,DAVID L BARBER,4804,DAVID L BARBER,False,no_prior_winner_match,0.6428571428571429,0.6086956521739131,,,,,False
+GA,2024,lower,12,D,LOGAN JOHNSON,4778,LOGAN JOHNSON,False,no_prior_winner_match,0.5833333333333334,0.56,,,,,False
+TN,2024,lower,22,D,ANNA GRABOWSKI,4773,ANNA GRABOWSKI,False,no_prior_winner_match,0.45161290322580644,0.4444444444444444,,,,,False
+AR,2024,lower,14,D,JACOB MALLOY,4700,JACOB MALLOY,False,no_prior_winner_match,0.5217391304347826,0.5217391304347826,,,,,False
+AR,2024,lower,35,R,ROBERT THORNE JR,4691,ROBERT THORNE,False,no_prior_winner_match,0.48,0.48,,,,,False
+AR,2024,lower,11,R,REBECCA BURKES,4663,REBECCA BURKES,True,exact_normalized_name,1.0,0.0,"burkes, rebecca",2022.0,R,11.0,False
+AR,2024,lower,81,D,GINA THOMAS-LITTLEJOHN,4610,GINA THOMAS LITTLEJOHN,False,no_prior_winner_match,0.4,0.3783783783783784,,,,,False
+TN,2024,lower,11,D,JUSTIN L GROSS,4517,JUSTIN L GROSS,False,no_prior_winner_match,0.6923076923076923,0.6206896551724138,,,,,False
+AR,2024,lower,83,D,TERESA DANNAWAY,4491,TERESA DANNAWAY,False,no_prior_winner_match,0.4444444444444444,0.4375,,,,,False
+TN,2024,lower,23,D,DAVID W THOMFORDE,4470,DAVID W THOMFORDE,False,no_prior_winner_match,0.5454545454545454,0.5,,,,,False
+AR,2024,lower,34,R,JOEY CARR,4397,JOEY CARR,True,exact_normalized_name,1.0,0.0,"carr, joey",2022.0,R,34.0,False
+AR,2024,lower,13,D,ASHLEY SHEYS,4382,ASHLEY SHEYS,False,no_prior_winner_match,0.64,0.4666666666666667,,,,,False
+AR,2024,lower,63,D,LINCOLN BARNETT,4218,LINCOLN BARNETT,False,no_prior_winner_match,0.5384615384615384,0.4827586206896552,,,,,False
+AR,2024,lower,15,D,STEPHANIE FUNK,4213,STEPHANIE FUNK,False,no_prior_winner_match,0.5925925925925926,0.56,,,,,False
+AR,2024,lower,51,D,JANE-ELLEN UDOUJ-KUTCHKA,4206,JANE ELLEN UDOUJ KUTCHKA,False,no_prior_winner_match,0.3902439024390244,0.3783783783783784,,,,,False
+AR,2024,lower,62,D,DEXTER R MILLER,4185,DEXTER R MILLER,False,no_prior_winner_match,0.5384615384615384,0.46153846153846156,,,,,False
+AR,2024,lower,25,D,CAITLIN TANNEHILL OXFORD,4171,CAITLIN TANNEHILL OXFORD,False,no_prior_winner_match,0.47368421052631576,0.4,,,,,False
+AR,2024,lower,54,D,DOUG CORBITT,4120,DOUG CORBITT,False,no_prior_winner_match,0.5,0.48,,,,,False
+TN,2024,lower,31,D,BRITTANY LYNN WARFEL,4094,BRITTANY LYNN WARFEL,False,no_prior_winner_match,0.47058823529411764,0.45161290322580644,,,,,False
+GA,2024,lower,6,D,CATHY KOTT,3894,CATHY KOTT,False,no_prior_winner_match,0.5,0.47619047619047616,,,,,False
+AR,2024,lower,6,D,RICK DELANEY,3724,RICK DELANEY,False,no_prior_winner_match,0.5714285714285714,0.56,,,,,False
+GA,2024,lower,56,R,MESHA K MAINOR,3722,MESHA K MAINOR,True,district_name_match,0.9230769230769231,0.0,"mainor, mesha",2022.0,D,56.0,True
+AR,2024,lower,7,D,DAVID MCPHERSON,3614,DAVID MCPHERSON,False,no_prior_winner_match,0.6206896551724138,0.5833333333333334,,,,,False
+AR,2024,lower,32,D,DAVID MCAVOY,3585,DAVID MCAVOY,False,no_prior_winner_match,0.7619047619047619,0.64,,,,,False
+AR,2024,lower,82,D,SAMUEL BRAZELL JR,3578,SAMUEL BRAZELL,False,no_prior_winner_match,0.4444444444444444,0.43478260869565216,,,,,False
+AR,2024,lower,50,D,ROBIN W MCCRAY,3567,ROBIN W MCCRAY,False,no_prior_winner_match,0.5833333333333334,0.5384615384615384,,,,,False
+AR,2024,lower,84,D,JILL SUMMERFORD,3494,JILL SUMMERFORD,False,no_prior_winner_match,0.4827586206896552,0.4827586206896552,,,,,False
+AR,2024,lower,63,R,TAMMI NORTHCUTT BELL,3475,TAMMI NORTHCUTT BELL,False,no_prior_winner_match,0.45161290322580644,0.4,,,,,False
+AR,2024,lower,97,D,O'DELL CARR,3459,O DELL CARR,False,no_prior_winner_match,0.7,0.6363636363636364,,,,,False
+AR,2024,lower,96,D,ROBIN G ROARK,3358,ROBIN G ROARK,False,no_prior_winner_match,0.5,0.5,,,,,False
+AR,2024,lower,94,D,ANNETTE TAYLOR,3356,ANNETTE TAYLOR,False,no_prior_winner_match,0.5185185185185185,0.5,,,,,False
+AR,2024,lower,69,D,KWAMI ABDUL-BEY,3330,KWAMI ABDUL BEY,False,no_prior_winner_match,0.5185185185185185,0.4444444444444444,,,,,False
+AR,2024,lower,85,D,CORTNEY WARWICK MCKEE,3275,CORTNEY WARWICK MCKEE,False,no_prior_winner_match,0.48484848484848486,0.47058823529411764,,,,,False
+AR,2024,lower,11,D,REY HERNANDEZ,3223,REY HERNANDEZ,False,no_prior_winner_match,0.4827586206896552,0.48,,,,,False
+AR,2024,lower,41,D,TOM NOWLIN,3147,TOM NOWLIN,False,no_prior_winner_match,0.5454545454545454,0.5,,,,,False
+AR,2024,lower,42,D,LAUREN FAULK,3050,LAUREN FAULK,False,no_prior_winner_match,0.48,0.48,,,,,False
+AR,2024,lower,37,D,LISA HEAD,2955,LISA HEAD,False,no_prior_winner_match,0.631578947368421,0.5555555555555556,,,,,False
+TN,2024,lower,93,R,RENARDA RENEE CLARIETT,2920,RENARDA RENEE CLARIETT,False,no_prior_winner_match,0.45161290322580644,0.4444444444444444,,,,,False
+AR,2024,lower,58,D,TREVOR MCGARRAH,2844,TREVOR MCGARRAH,False,no_prior_winner_match,0.56,0.5,,,,,False
+AR,2024,lower,68,D,TOM BARTOLE,2789,TOM BARTOLE,False,no_prior_winner_match,0.5217391304347826,0.47619047619047616,,,,,False
+AR,2024,lower,34,D,DESMOND HAMMETT,2694,DESMOND HAMMETT,False,no_prior_winner_match,0.5,0.4666666666666667,,,,,False
+AR,2024,lower,9,D,DIANA GONZALES WORTHEN,2662,DIANA GONZALES WORTHEN,False,no_prior_winner_match,0.5945945945945946,0.47058823529411764,,,,,False
+AR,2024,lower,45,D,WHITNEY SHEREE FREEMAN,2639,WHITNEY SHEREE FREEMAN,False,no_prior_winner_match,0.48484848484848486,0.42105263157894735,,,,,False
+AR,2024,lower,66,R,WAYNE M BALL,2537,WAYNE M BALL,False,no_prior_winner_match,0.6363636363636364,0.47619047619047616,,,,,False
+AR,2024,lower,36,D,DANIEL PARKER,2519,DANIEL PARKER,False,no_prior_winner_match,0.6923076923076923,0.5925925925925926,,,,,False
+AR,2024,lower,53,D,AMIE GATES,2452,AMIE GATES,False,no_prior_winner_match,0.5714285714285714,0.5454545454545454,,,,,False
+GA,2024,lower,59,R,MAURICE MPAYAMAGURU,2312,MAURICE MPAYAMAGURU,False,no_prior_winner_match,0.5,0.47058823529411764,,,,,False
+AR,2024,lower,9,R,DEANNA HODGES,2188,DEANNA HODGES,True,exact_normalized_name,1.0,0.0,"hodges, deanna",2022.0,R,9.0,False
+AR,2024,lower,57,D,CIARA' BOLTE,2159,CIARA BOLTE,False,no_prior_winner_match,0.5217391304347826,0.5,,,,,False
+AR,2024,lower,30,D,HAMILTON HOLMES,2147,HAMILTON HOLMES,False,no_prior_winner_match,0.5925925925925926,0.5925925925925926,,,,,False
+AR,2024,lower,24,D,RYAN INTCHAUSPE,2068,RYAN INTCHAUSPE,False,no_prior_winner_match,0.6153846153846154,0.5185185185185185,,,,,False
+AR,2024,lower,92,D,DAVID MURRAY,2049,DAVID MURRAY,,ambiguous_fuzzy_name,0.8571428571428571,0.64,,,,,False
+AR,2024,lower,86,D,BILL BRADSHAW,1550,BILL BRADSHAW,False,no_prior_winner_match,0.5833333333333334,0.48,,,,,False

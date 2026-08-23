@@ -14,13 +14,14 @@ CAL = ROOT / "data" / "processed" / "forecast_calibration"
 
 
 def test_publication_exports_match_current_model_outputs() -> None:
-    legacy_pairs = [
-        ("cmo_v5_candidates.csv", "cmo_v5_candidates.csv"),
-        ("cmo_v5_races.csv", "cmo_v5_races.csv"),
-        ("cmo_v5_candidate_effects.csv", "cmo_v5_candidate_effects.csv"),
-        ("cmo_v5_model_tournament.csv", "cmo_v5_model_tournament.csv"),
+    current_pairs = [
+        ("cmo_v6_southern_candidates.csv", "cmo_v6_southern_candidates.csv"),
+        ("cmo_v6_southern_races.csv", "cmo_v6_southern_races.csv"),
+        ("cmo_v6_southern_quality.csv", "cmo_v6_southern_quality.csv"),
+        ("cmo_v6_southern_validation.csv", "cmo_v6_southern_validation.csv"),
+        ("cmo_v6_southern_manifest.json", "cmo_v6_southern_manifest.json"),
     ]
-    for source_name, public_name in legacy_pairs:
+    for source_name, public_name in current_pairs:
         assert (WAR / source_name).read_bytes() == (DOCS / "data" / public_name).read_bytes()
 
     robust_names = [
@@ -45,7 +46,7 @@ def test_public_pages_describe_current_runs() -> None:
     cmo_method = (DOCS / "cmo-methodology.html").read_text(encoding="utf-8")
 
     assert "Validated headline and scenarios" in forecast
-    assert "Historical CMO" in forecast
+    assert "Historical CMO is analyzed separately" in forecast
     assert "Student-t" in forecast_method
     assert "893 model-ready contests" in forecast_method
     assert "50,000 simulations" in forecast_method
@@ -53,40 +54,41 @@ def test_public_pages_describe_current_runs() -> None:
         assert stale not in forecast_method
 
     assert "Alabama Candidate Margin Overperformance" in cmo
-    assert "CMO methodology v5" in cmo
-    assert "Candidate Quality Index" in cmo
+    assert "CMO v6 preserves observed CMO" in cmo
+    assert "Southern-prior decomposition" in cmo
     assert "Fundamentals+" not in cmo
     assert "selected same-district ticket" in cmo
     assert "1994" in cmo_method and "2022" in cmo_method
-    assert "Candidate Quality Index (CQI)" in cmo_method
+    assert "Residual candidate quality" in cmo_method
     assert "same-cycle federal ticket" in cmo_method
     assert "pair_differential_only" in cmo_method
     assert "Fundamentals+" not in cmo_method
 
 
 def test_public_cmo_and_forecast_row_counts() -> None:
-    candidates = pd.read_csv(DOCS / "data" / "cmo_v5_candidates.csv")
-    races = pd.read_csv(DOCS / "data" / "cmo_v5_races.csv")
+    candidates = pd.read_csv(DOCS / "data" / "cmo_v6_southern_candidates.csv")
+    races = pd.read_csv(DOCS / "data" / "cmo_v6_southern_races.csv")
     forecasts = pd.read_csv(DOCS / "data" / "robust_forecast_v1_2026_scenarios.csv")
     assert len(candidates) == 1018
     assert len(races) == 509
     assert candidates.candidate_direct_cmo.notna().all()
     assert set(races.cycle) == {1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022}
+    assert set(forecasts.scenario) == {"headline", "environment_dem_favorable", "environment_rep_favorable"}
     assert forecasts.groupby("scenario").size().eq(48).all()
 
 
 def test_public_quality_map_is_race_differential_not_democratic_effect() -> None:
     page = (DOCS / "cmo.html").read_text(encoding="utf-8")
     payload = json.loads(re.search(r"const DATA=(\{.*?\});\n", page, re.S).group(1))
-    races = pd.read_csv(DOCS / "data" / "cmo_v5_races.csv")
+    races = pd.read_csv(DOCS / "data" / "cmo_v6_southern_races.csv")
     for row in races.itertuples():
         displayed = payload[f"{row.cycle}-{row.chamber}"]["demPair"][str(row.district)]
-        assert abs(displayed - round(row.candidate_quality_differential, 2)) < 1e-9
+        assert abs(displayed - round(row.pooled_quality_differential, 2)) < 1e-9
 
 
-def test_hd32_2022_uses_direct_cmo_v5_score() -> None:
-    candidates = pd.read_csv(DOCS / "data" / "cmo_v5_candidates.csv")
-    races = pd.read_csv(DOCS / "data" / "cmo_v5_races.csv")
+def test_hd32_2022_uses_direct_cmo_v6_score() -> None:
+    candidates = pd.read_csv(DOCS / "data" / "cmo_v6_southern_candidates.csv")
+    races = pd.read_csv(DOCS / "data" / "cmo_v6_southern_races.csv")
     boyd = candidates.loc[
         (candidates.cycle == 2022)
         & candidates.chamber.eq("house")
@@ -98,7 +100,7 @@ def test_hd32_2022_uses_direct_cmo_v5_score() -> None:
     ].squeeze()
     assert boyd.candidate_direct_cmo == race.direct_cmo
     assert race.selected_ticket_source == "same_cycle_federal"
-    assert boyd.quality_status == "uncertain"
+    assert boyd.southern_quality_status == "uncertain"
 
 
 def test_public_ideology_and_caucus_routes_are_merged() -> None:

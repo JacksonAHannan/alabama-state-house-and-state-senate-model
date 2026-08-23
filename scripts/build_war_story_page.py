@@ -82,10 +82,10 @@ def path_for_geometry(geom, bounds, width=640, height=700, pad=12):
 
 
 def load_data():
-    """Build the public payload from the validated dual-estimand CMO v5 product."""
-    with (WAR / "cmo_v5_candidates.csv").open(encoding="utf-8-sig", newline="") as f:
+    """Build the public payload from the validated CMO v6 historical product."""
+    with (WAR / "cmo_v6_southern_candidates.csv").open(encoding="utf-8-sig", newline="") as f:
         candidates = list(csv.DictReader(f))
-    with (WAR / "cmo_v5_races.csv").open(encoding="utf-8-sig", newline="") as f:
+    with (WAR / "cmo_v6_southern_races.csv").open(encoding="utf-8-sig", newline="") as f:
         races = list(csv.DictReader(f))
     with (ROOT / "data" / "processed" / "elections" / "canonical_cmo_features.csv").open(encoding="utf-8-sig", newline="") as f:
         race_metadata = list(csv.DictReader(f))
@@ -149,18 +149,17 @@ def load_data():
             "within": round(number(row.get("candidate_state_ticket_cmo")), 2) if number(row.get("candidate_state_ticket_cmo")) is not None else None,
             "raw": round(number(row.get("candidate_federal_ticket_cmo")), 2) if number(row.get("candidate_federal_ticket_cmo")) is not None else None,
             "predictiveResidual": round(number(row.get("candidate_presidential_ticket_cmo")), 2) if number(row.get("candidate_presidential_ticket_cmo")) is not None else None,
-            "partialPooled": round(number(row.get("candidate_quality_index"), 0), 2),
-            "qualityLow": round(number(row.get("candidate_quality_low"), 0), 2),
-            "qualityHigh": round(number(row.get("candidate_quality_high"), 0), 2),
-            "qualityStatus": row.get("quality_status", "uncertain"),
-            "intrinsicQuality": round(number(row.get("intrinsic_quality_index"), 0), 2),
-            "preElectionQuality": round(number(row.get("pre_election_quality_index")), 2) if number(row.get("pre_election_quality_index")) is not None else None,
-            "preElectionAppearances": int(number(row.get("pre_election_appearances"), 0)),
-            "preElectionSource": row.get("pre_election_quality_source", ""),
+            "partialPooled": round(number(row.get("southern_candidate_quality_index"), 0), 2),
+            "qualityLow": round(number(row.get("southern_candidate_quality_low"), 0), 2),
+            "qualityHigh": round(number(row.get("southern_candidate_quality_high"), 0), 2),
+            "qualityStatus": row.get("southern_quality_status", "uncertain"),
+            "qualityResidual": round(number(row.get("candidate_quality_residual"), 0), 2),
+            "southernExpectedGap": round(number(row.get("candidate_southern_expected_gap"), 0), 2),
+            "genericIncumbency": round(number(row.get("candidate_generic_incumbency_component"), 0), 2),
+            "totalElectoralValue": round(number(row.get("candidate_total_electoral_value"), 0), 2),
             "replacementLevel": round(number(row.get("candidate_replacement_level"), 0), 2),
             "structuralAdjustment": round(number(row.get("candidate_structural_adjustment"), 0), 2),
-            "appearances": int(number(row.get("appearances"), 1)),
-            "attributionReliability": number(row.get("quality_reliability"), 0),
+            "appearances": int(number(row.get("southern_quality_appearances"), 1)),
             "identityStatus": row.get("identity_status", ""), "contestTier": row.get("contest_tier", ""),
             "low": round(number(row.get("candidate_direct_baseline_low"), 0), 2),
             "high": round(number(row.get("candidate_direct_baseline_high"), 0), 2),
@@ -206,7 +205,7 @@ def load_data():
         dem_context = {d: round(number(race_index[(cycle, chamber, d)]["direct_cmo"], 0), 2) for d in districts}
         dem_within = {d: round(number(race_index[(cycle, chamber, d)].get("state_ticket_cmo")), 2) if number(race_index[(cycle, chamber, d)].get("state_ticket_cmo")) is not None else None for d in districts}
         dem_raw = {d: round(number(race_index[(cycle, chamber, d)].get("federal_ticket_cmo")), 2) if number(race_index[(cycle, chamber, d)].get("federal_ticket_cmo")) is not None else None for d in districts}
-        dem_pair = {d: round(number(race_index[(cycle, chamber, d)].get("candidate_quality_differential"), 0), 2) for d in districts}
+        dem_pair = {d: round(number(race_index[(cycle, chamber, d)].get("pooled_quality_differential"), 0), 2) for d in districts}
         ordered_dem = sorted(dem_context.values())
         percentiles = {d: round(2 * ((sum(v < s for v in ordered_dem) + .5 * sum(v == s for v in ordered_dem)) / len(ordered_dem)) - 1, 4) for d, s in dem_context.items()}
         gov = {d: next((o["demMargin"] for o in office_index.get((cycle, chamber, d), []) if o["label"] == "Governor"), None) for d in districts}
@@ -267,6 +266,31 @@ def build_attribution_panel(tag="section"):
         for role, name, use, url in sources
     )
     return f'<{tag} class="attribution" id="sources"><div class="section-head"><div><h2>Data sources and attribution</h2><p>Credits describe how each source is used in CMO. Derived scores, allocations, matches, and errors are this project’s calculations and should not be attributed to the source organizations.</p></div></div><div class="source-ledger">{cards}</div><p class="attribution-note"><b>Attribution boundary:</b> Source organizations provide underlying records or geography; none endorses this model. Alabama Secretary of State returns remain authoritative. OpenElections and Wikipedia are secondary checks. Finance missingness is never interpreted as zero.</p></{tag}>'
+
+
+def build_validation_panel_v6():
+    validation = list(csv.DictReader((WAR / "cmo_v6_southern_validation.csv").open(encoding="utf-8-sig", newline="")))
+    quality = list(csv.DictReader((WAR / "cmo_v6_southern_quality.csv").open(encoding="utf-8-sig", newline="")))
+    by_model = {}
+    for row in validation:
+        by_model.setdefault(row["model"], []).append(row)
+    labels = {
+        "ticket_baseline_only": "Ticket baseline only",
+        "southern_incumbent_neutral": "Southern prior, incumbent neutral",
+        "southern_portable_temporal": "Southern prior, observed incumbency",
+    }
+    model_rows = "".join(
+        f"<tr><td>{labels[key]}</td><td>{np.mean([number(r['mae'], 0) for r in rows]):.2f}</td>"
+        f"<td>{np.mean([number(r['mae'], 0) for r in rows if int(float(r['cycle'])) >= 2018]):.2f}</td></tr>"
+        for key, rows in by_model.items()
+    )
+    penalty_rows = "".join(
+        f"<tr><td>{number(row.get('parameter'), 0):g}</td><td>{int(number(row.get('races'), 0))}</td>"
+        f"<td>{number(row.get('mae'), 0):.2f}</td><td>{number(row.get('zero_baseline_mae'), 0):.2f}</td></tr>"
+        for row in quality
+        if row.get("specification") == "seen_candidate" and not row.get("candidate_effect_id")
+    )
+    return f'''<section class="validation" id="validation"><div class="section-head"><div><h2>Diagnostics</h2><p>The Southern prior improves historical fit across all eight cycles but fails in the modern era. It is used to decompose historical CMO, not to move the 2026 forecast.</p></div><span class="warning-chip">Historical decomposition</span></div><div class="validation-grid"><div><h3>Structural expectation</h3><div class="table-wrap compact"><table><thead><tr><th>Model</th><th>All-cycle MAE</th><th>2018–2022 MAE</th></tr></thead><tbody>{model_rows}</tbody></table></div></div><div><h3>Residual-quality penalty</h3><div class="table-wrap compact"><table><thead><tr><th>Penalty</th><th>Seen races</th><th>Prior-quality MAE</th><th>Zero MAE</th></tr></thead><tbody>{penalty_rows}</tbody></table></div></div></div><p class="validation-note">Direct CMO is observed and unchanged. Residual candidate quality, generic incumbency, and total electoral value are partially identified historical decompositions and retain uncertainty labels.</p></section>'''
 
 
 def build_page(payload):
@@ -334,7 +358,7 @@ document.querySelectorAll('th[data-sort]').forEach(th=>th.onclick=()=>{const k=t
     return (template.replace("__PAYLOAD__", json.dumps(payload, separators=(",", ":")))
             .replace("__ELIGIBLE_RACES__", str(eligible_races))
             .replace("__CYCLE_COUNT__", str(cycle_count))
-            .replace("__VALIDATION_PANEL__", build_validation_panel())
+            .replace("__VALIDATION_PANEL__", build_validation_panel_v6())
             .replace("__ATTRIBUTION_PANEL__", build_attribution_panel())
             .replace("The default view maps absolute CMO.", "The default view maps CMO in margin points.")
             .replace("All views use a symmetric square-root scale capped visually at", "Color intensity is linear on a symmetric scale capped visually at")
@@ -501,9 +525,64 @@ __ATTRIBUTION_PANEL__
     return rendered
 
 
+def modernize_v6_copy(rendered):
+    """Promote v6 labels and fields without changing the Direct CMO estimand."""
+    rendered = modernize_v5_copy(rendered)
+    rendered = re.sub(
+        r'<div class="dek">.*?</div>',
+        '<div class="dek">Observed ticket overperformance and a Southern-prior decomposition of structural lag, generic incumbency, and residual candidate quality in Alabama legislative elections, 1994–2022.</div>',
+        rendered, count=1, flags=re.S)
+    rendered = re.sub(
+        r'<section class="intro">.*?</section>',
+        '<section class="intro"><p>CMO is the observed candidate-oriented difference between the legislative margin and a source-aware same-district ticket margin. Its arithmetic is unchanged in v6.</p><p><strong>The decomposition is separate from CMO.</strong> A model trained on non-Alabama Southern races estimates historical structural lag and generic incumbency; the remaining candidate-versus-opponent differential is partially pooled and reported with uncertainty.</p></section>',
+        rendered, count=1, flags=re.S)
+    rendered = rendered.replace('Candidate quality differential</button>', 'Residual quality differential</button>')
+    rendered = rendered.replace("Candidate Quality differential, D minus R", "Pooled residual-quality differential, D minus R")
+    rendered = re.sub(
+        r'<th data-sort="war">CMO.*?</th><th data-sort="partialPooled">.*?</th><th data-sort="qualityLow">.*?</th>',
+        '<th data-sort="war">CMO ↕</th><th data-sort="partialPooled">Residual quality</th><th data-sort="totalElectoralValue">Total value</th>',
+        rendered, count=1, flags=re.S)
+    detail_js = r'''function detail(x){const box=$('#detail');if(!x){box.innerHTML='<div class="detail-empty">Select a district or candidate row to inspect the race.</div>';return}const history=allCandidates().filter(c=>c.personId&&c.personId===x.personId).sort((a,b)=>a.cycle-b.cycle),historyHtml=history.length>1?`<div class="decomp"><div class="decomp-title">Resolved candidate history</div>${history.map(c=>`<div class="stat"><span>${c.cycle} ${c.chamber} ${c.district}</span><b>CMO ${fmt(c.war)}</b></div>`).join('')}</div>`:'';box.innerHTML=`<div class="candidate-headline"><h3>${esc(x.candidate)}</h3><div class="party ${x.party}">${x.party==='D'?'Democratic':'Republican'} &middot; District ${x.district}${x.incumbent?' &middot; Incumbent':''}</div><div class="war-number">${fmt(x.war)}</div><div class="war-label">CMO &middot; ${x.percentile.toFixed(0)}th percentile</div><div class="distribution"><i style="left:${x.percentile}%"></i><div class="distribution-label"><span>Lowest</span><span>Median</span><span>Highest</span></div></div></div>${raceBox(x)}<div class="decomp"><div class="decomp-title">Southern-prior decomposition</div><div class="stat"><span>Historical structural expectation</span><b>${fmt(x.southernExpectedGap)}</b></div><div class="stat"><span>Race-level residual quality</span><b>${fmt(x.qualityResidual)}</b></div><div class="stat"><span>Partial-pooled residual quality</span><b>${fmt(x.partialPooled)}</b></div><div class="stat"><span>Uncertainty interval</span><b>${fmt(x.qualityLow)} to ${fmt(x.qualityHigh)}</b></div><div class="stat"><span>Evidence status</span><b>${esc(x.qualityStatus)} &middot; ${x.appearances} appearance${x.appearances===1?'':'s'}</b></div><div class="stat"><span>Generic incumbency component</span><b>${fmt(x.genericIncumbency)}</b></div><div class="stat"><span>Total electoral value</span><b>${fmt(x.totalElectoralValue)}</b></div></div><div class="decomp"><div class="decomp-title">Alternative observed comparisons</div><div class="stat"><span>State ticket</span><b>${fmtMaybe(x.within)}</b></div><div class="stat"><span>Same-cycle federal ticket</span><b>${fmtMaybe(x.raw)}</b></div><div class="stat"><span>Previous presidential ticket</span><b>${fmtMaybe(x.predictiveResidual)}</b></div></div><div class="decomp"><div class="decomp-title">Source quality</div><div class="quality-grid"><div><span>Selected baseline</span><b>${esc(x.baselineMethod||'Unavailable')}</b></div><div><span>Identity linkage</span><b>${esc(x.identityStatus)}</b></div><div><span>Demographics</span><b>${esc(x.demographicsMethod||'Unavailable')}${x.demographicReferenceYear?' &middot; '+Math.round(x.demographicReferenceYear):''}</b></div><div><span>Previous president</span><b>${fmtMaybe(x.priorPres)}</b></div><div><span>Votes</span><b>${x.votes.toLocaleString()}</b></div></div></div>${historyHtml}<div class="explain">${x.war>=0?'This candidate ran ahead of':'This candidate ran behind'} the selected same-district ticket by about <b>${Math.abs(x.war).toFixed(1)} margin points</b>. The Southern-prior fields are a historical decomposition, not a direct 2026 forecast adjustment.</div>`}'''
+    rendered = re.sub(r"function detail\(x\)\{.*?\}\nfunction renderMap", detail_js + "\nfunction renderMap", rendered, count=1, flags=re.S)
+    rows_js = r'''function renderRows(){const d=DATA[active],scope=$('#scope-filter').value,q=$('#candidate-search').value.toLowerCase(),party=$('#party-filter').value,outcome=$('#outcome-filter').value,source=scope==='all'?allCandidates():d.candidates.map(x=>({...x,section:active,cycle:d.cycle,chamber:d.chamber})),rows=source.filter(x=>(party==='all'||x.party===party)&&(outcome==='all'||(outcome==='winner'&&x.winner)||(outcome==='incumbent'&&x.incumbent))&&(!q||x.candidate.toLowerCase().includes(q)||String(x.district)===q||String(x.cycle)===q||`${x.chamber} ${x.district}`.includes(q))).sort((a,b)=>{let A=a[sortKey],B=b[sortKey];return(typeof A==='string'?A.localeCompare(B):(A??-9999)-(B??-9999))*sortDir});$('#rows').innerHTML=rows.map(x=>`<tr tabindex="0" data-section="${x.section}" data-district="${x.district}" data-party="${x.party}"><td>${x.cycle} ${x.chamber==='house'?'H':'S'}</td><td>${x.district}</td><td class="cand"><i class="party-dot ${x.party}"></i>${esc(x.candidate)}${x.winner?' <small>✓</small>':''}${x.contestTier==='nominal'?' <span class="tier-badge sensitivity">Nominal</span>':''}</td><td class="num"><b>${fmt(x.war)}</b></td><td class="num">${fmt(x.partialPooled)}<br><small>${esc(x.qualityStatus)}</small></td><td class="num">${fmt(x.totalElectoralValue)}</td><td class="num">${fmtMaybe(x.within)}</td><td class="num">${fmtMaybe(x.raw)}</td><td class="num">${fmtMaybe(x.predictiveResidual)}</td><td class="num">${fmt(x.cycleTopTicket)}</td><td class="num">${fmt(x.margin)}</td><td class="num">${x.votes.toLocaleString()}</td></tr>`).join('');document.querySelectorAll('#rows tr').forEach(row=>{row.onclick=()=>selectCandidate(row.dataset.section,row.dataset.district,row.dataset.party);row.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();row.onclick()}}})}'''
+    rendered = re.sub(r"function renderRows\(\)\{.*?\}\nfunction render\(\)", rows_js + "\nfunction render()", rendered, count=1, flags=re.S)
+    rendered = re.sub(
+        r'<section class="downloads">.*?</section>',
+        '<section class="downloads"><h2>Data and provenance</h2><p>CMO v6 preserves observed CMO and publishes the current Southern-prior historical decomposition, validation, case studies, and manifest.</p><div class="download-links"><a href="data/cmo_v6_southern_candidates.csv">Candidate output</a><a href="data/cmo_v6_southern_races.csv">Race output</a><a href="data/cmo_v6_southern_quality.csv">Quality estimates</a><a href="data/cmo_v6_southern_validation.csv">Validation</a><a href="data/cmo_v6_southern_case_studies.csv">Case studies</a><a href="data/cmo_v6_southern_manifest.json">Run manifest</a><a href="cmo-methodology.html">Methodology</a></div></section>',
+        rendered, count=1, flags=re.S)
+    rendered = re.sub(
+        r'<section class="method">.*?</section></main>',
+        '<section class="method"><h2>How to read the measures</h2><p>CMO reports what happened relative to the selected same-district ticket and remains the headline descriptive measure.</p><p>The v6 decomposition asks how much of that gap resembles historical Southern downballot structure, generic incumbency, or a repeatable residual candidate-versus-opponent component. It improves historical fit but fails the 2018–2022 forecast gate.</p><p><a href="cmo-methodology.html">Read the full CMO methodology</a> or <a href="index.html">view the 2026 forecast</a>.</p><div class="source">Current outputs: <code>cmo_v6_southern_candidates.csv</code> and <code>cmo_v6_southern_races.csv</code>.</div></section></main>',
+        rendered, count=1, flags=re.S)
+    rendered = rendered.replace("CMO methodology v5", "CMO methodology v6")
+    return rendered
+
+
+def modernize_methodology_v6(rendered):
+    rendered = modernize_methodology_v5(rendered)
+    body = '''<article class="copy">
+<section id="estimand"><h2>1. Direct CMO</h2><p><b>Candidate Margin Overperformance (CMO)</b> is the observed candidate-oriented legislative margin minus the selected same-district ticket margin.</p><div class="formula">Democratic race CMO = legislative Democratic margin − selected ticket Democratic margin<br>Candidate CMO = Democratic race CMO for D; its negative for R</div><p>Direct CMO is unchanged from v5. It is not residualized for incumbency, fundraising, demographics, ideology, or candidate history.</p></section>
+<section id="data"><h2>2. Coverage</h2><p>The model covers 509 contested Democratic–Republican Alabama House and Senate races from 1994 through 2022 and publishes 1,018 candidate-cycle rows.</p></section>
+<section id="baseline"><h2>3. Ticket selection</h2><p>The preferred baseline is the same-cycle federal ticket measured inside the legislative district. A documented same-cycle state-ticket result is used when federal context is unavailable. State, federal, and previous-presidential comparisons remain separate.</p></section>
+<section id="prior"><h2>4. Southern structural prior</h2><p>The historical decomposition fits the validated <code>portable_temporal</code> model on 2,350 Southern legislative contests from ten states after excluding every Alabama observation. It estimates the expected downballot gap for each Alabama race under its observed incumbency and under an incumbent-neutral counterfactual.</p><div class="formula">Residual candidate quality = Direct CMO − Southern structural expectation<br>Generic incumbency gap = inclusive expectation − incumbent-neutral expectation</div><p>Federal ticket baselines can combine U.S. House and Senate results, so the model averages predictions under both source-office categories and retains their range.</p></section>
+<section id="quality"><h2>5. Residual candidate quality</h2><p>The candidate-versus-opponent residual is partial-pooled across the identity and opponent network with ridge penalty 3, selected in forward tests among previously observed candidates. Total electoral value adds the candidate-oriented half-share of generic incumbency to the pooled residual effect.</p></section>
+<section id="validation"><h2>6. Validation and regime change</h2><p>The Southern expectation lowers cycle-balanced historical MAE from 21.33 to 17.29 points, with gains concentrated in 1994–2014. It fails the modern gate: 2018–2022 MAE rises from 6.54 for the ticket baseline to 13.66. Therefore it is useful for historical decomposition but rejected as a direct 2026 forecast adjustment.</p></section>
+<section id="uncertainty"><h2>7. Identification and uncertainty</h2><p>Residual quality remains a zero-sum candidate-versus-opponent differential. A one-time race cannot uniquely distinguish candidate strength from opponent weakness or omitted local conditions; isolated one-time candidates retain the <code>pair_differential_only</code> identification label. Partial-pooled estimates retain intervals, appearances, and an evidence status; an interval crossing zero means uncertain evidence.</p></section>
+<section id="limits"><h2>8. Limitations</h2><ul><li>Many candidates appear once and most personal estimates remain uncertain.</li><li>The Southern historical panel ends in 2016 and cannot be extrapolated through the post-2016 regime without modern validation.</li><li>Fallback ticket sources and historical geographic allocation create row-specific comparability limits.</li><li>CMO is descriptive and is not itself a pre-election win probability.</li></ul></section>
+<section id="reproducibility"><h2>9. Reproducibility</h2><p>The build publishes race rows, candidate rows, residual-quality estimates, cycle validation, named cases, and a manifest hashing every operative data and code input.</p><div class="links"><a href="cmo.html">Explore CMO</a><a href="data/cmo_v6_southern_candidates.csv">Candidate data</a><a href="data/cmo_v6_southern_races.csv">Race data</a><a href="data/cmo_v6_southern_quality.csv">Quality estimates</a><a href="data/cmo_v6_southern_manifest.json">Run manifest</a></div></section>
+__ATTRIBUTION_PANEL__
+</article>'''.replace("__ATTRIBUTION_PANEL__", build_attribution_panel())
+    start = rendered.index('<article class="copy">')
+    end = rendered.index('</article></div></main>')
+    rendered = rendered[:start] + body + rendered[end + len('</article>'):]
+    rendered = re.sub(r'<aside class="toc">.*?</aside>', '<aside class="toc"><b>On this page</b><a href="#estimand">Direct CMO</a><a href="#data">Coverage</a><a href="#baseline">Ticket selection</a><a href="#prior">Southern prior</a><a href="#quality">Residual quality</a><a href="#validation">Validation</a><a href="#uncertainty">Identification</a><a href="#limits">Limitations</a><a href="#reproducibility">Reproducibility</a><a href="#sources">Sources</a></aside>', rendered, count=1, flags=re.S)
+    rendered = rendered.replace("Documentation for observed CMO and partial-pooled Candidate Quality in Alabama legislative elections.", "Documentation for Direct CMO and the Southern-prior historical decomposition in Alabama legislative elections.")
+    return rendered
+
+
 if __name__ == "__main__":
     data = load_data()
-    rendered = modernize_v5_copy(build_page(data))
+    rendered = modernize_v6_copy(build_page(data))
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(rendered, encoding="utf-8")
     LEGACY_OUTPUT.write_text(rendered, encoding="utf-8")
@@ -535,7 +614,7 @@ __ATTRIBUTION_PANEL__
     old_toc = '<aside class="toc"><b>On this page</b><a href="#estimand">What CMO measures</a><a href="#data">Data and eligibility</a><a href="#baseline">Expected baseline</a><a href="#crossfit">Cross-fitting</a><a href="#versions">Three specifications</a><a href="#validation">Validation</a><a href="#limits">Limitations</a><a href="#forecast">Forecast use</a><a href="#sources">Sources and credit</a></aside>'
     new_toc = '<aside class="toc"><b>On this page</b><a href="#estimand">Four measures</a><a href="#data">Coverage and contest tiers</a><a href="#baseline">Political baseline</a><a href="#models">Estimation</a><a href="#identity">Identity and partial pooling</a><a href="#validation">Validation</a><a href="#limits">Limitations</a><a href="#reproducibility">Reproducibility</a><a href="#sources">Sources and credit</a></aside>'
     methodology_html = methodology_html.replace(old_toc, new_toc)
-    methodology_html = modernize_methodology_v5(methodology_html)
+    methodology_html = modernize_methodology_v6(methodology_html)
     SITE_METHODOLOGY_OUTPUT.write_text(methodology_html, encoding="utf-8")
     site_data = SITE_OUTPUT.parent / "data"
     site_data.mkdir(parents=True, exist_ok=True)
@@ -543,8 +622,8 @@ __ATTRIBUTION_PANEL__
         for stale in site_data.glob(pattern):
             if stale.is_file():
                 stale.unlink()
-    for source in WAR.glob("cmo_v5_*"):
+    for source in WAR.glob("cmo_v6_southern_*"):
         if source.is_file():
             shutil.copy2(source, site_data / source.name)
-    shutil.copy2(ROOT / "project_docs" / "model" / "CMO_METHODOLOGY_V5.md", site_data / "cmo_methodology_v5.md")
+    shutil.copy2(ROOT / "project_docs" / "model" / "CMO_METHODOLOGY_V6_SOUTHERN_PRIOR.md", site_data / "cmo_methodology_v6.md")
     print(f"Wrote {OUTPUT} ({OUTPUT.stat().st_size:,} bytes)")

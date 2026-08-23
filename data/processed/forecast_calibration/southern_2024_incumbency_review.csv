@@ -1,0 +1,11 @@
+state,year,chamber,district,party,candidate,candidate_votes,normalized_name,incumbent,match_method,match_score,runner_up_score,prior_candidate,prior_year,prior_party,prior_district,party_switch
+TX,2024,lower,106,D,JOHNSTON,39941,JOHNSTON,,ambiguous_fuzzy_surname,0.9333333333333333,0.9333333333333333,,,,,False
+TX,2024,lower,96,D,TURNER,36276,TURNER,,ambiguous_exact_surname,,,,,,,False
+TX,2024,lower,57,D,JOHNSON,34279,JOHNSON,,ambiguous_exact_surname,,,,,,,False
+TX,2024,lower,138,D,MORALES,31671,MORALES,,ambiguous_exact_surname,,,,,,,False
+TX,2024,lower,37,D,GRACIA,25014,GRACIA,,ambiguous_fuzzy_surname,0.8333333333333334,0.6666666666666666,,,,,False
+TX,2024,lower,53,D,HERRERA,21058,HERRERA,,ambiguous_fuzzy_surname,0.8571428571428571,0.6153846153846154,,,,,False
+GA,2024,lower,82,R,KAREN I MATHIAK,20984,KAREN I MATHIAK,,ambiguous_fuzzy_name,0.9285714285714286,0.5925925925925926,,,,,False
+TX,2024,lower,116,R,CRAIN,19596,CRAIN,,ambiguous_fuzzy_surname,0.8888888888888888,0.6153846153846154,,,,,False
+GA,2024,lower,101,D,SCOTT HOLCOMB,18764,SCOTT HOLCOMB,,ambiguous_fuzzy_name,0.9285714285714286,0.64,,,,,False
+AR,2024,lower,92,D,DAVID MURRAY,2049,DAVID MURRAY,,ambiguous_fuzzy_name,0.8571428571428571,0.64,,,,,False

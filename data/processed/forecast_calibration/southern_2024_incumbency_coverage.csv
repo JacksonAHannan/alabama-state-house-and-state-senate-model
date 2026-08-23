@@ -1,0 +1,9 @@
+state,chamber,races,model_ready,inferred_open,incumbent_running
+AR,lower,49,48,7,41
+AR,upper,5,5,0,5
+GA,lower,90,88,25,63
+GA,upper,23,23,9,14
+TN,lower,60,60,10,50
+TN,upper,10,10,2,8
+TX,lower,88,79,22,57
+TX,upper,10,10,2,8
