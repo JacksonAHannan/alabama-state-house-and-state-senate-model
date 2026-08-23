@@ -1,0 +1,174 @@
+canonical_candidate_id,chamber,district,canonical_party,resolved_name,inferred_incumbent,prior_winner_name,prior_district
+AL-2022-house-1-R-GSL001RPET,house,1,R,Phillip Pettus,True,Phillip Pettus,1.0
+AL-2022-house-2-R-GSL002RHAR,house,2,R,Ben Harrison,False,,
+AL-2022-house-3-D-GSL003DTHO,house,3,D,Wesley Thompson,False,,
+AL-2022-house-3-R-GSL003RUND,house,3,R,Kerry Underwood,False,,
+AL-2022-house-4-R-GSL004RMOO,house,4,R,Parker Moore,False,,
+AL-2022-house-5-R-GSL005RCRA,house,5,R,Danny Crawford,True,Danny Crawford,5.0
+AL-2022-house-6-R-GSL006RWHI,house,6,R,Andy Whitt,True,Andy Whitt,6.0
+AL-2022-house-7-D-GSL007DJON,house,7,D,"Mose Jones, Jr.",False,,
+AL-2022-house-7-R-GSL007RYAR,house,7,R,Ernie Yarbrough,False,,
+AL-2022-house-8-R-GSL008RCOL,house,8,R,Terri Collins,True,Terri Collins,8.0
+AL-2022-house-9-R-GSL009RSTA,house,9,R,Scott Stadthagen,True,Scott Stadthagen,9.0
+AL-2022-house-10-D-GSL010DLAN,house,10,D,Marilyn Lands,False,,
+AL-2022-house-10-R-GSL010RCOL,house,10,R,David Cole,False,,
+AL-2022-house-11-R-GSL011RSHE,house,11,R,Randall Shedd,True,Randall Shedd,11.0
+AL-2022-house-12-D-GSL012DFIE,house,12,D,"James Fields, Jr.",False,,
+AL-2022-house-12-R-GSL012RHAR,house,12,R,Corey Harbison,True,Corey Harbison,12.0
+AL-2022-house-13-R-GSL013RWOO,house,13,R,Matt Woods,False,,
+AL-2022-house-14-R-GSL014RWAD,house,14,R,Tim Wadsworth,True,Tim Wadsworth,14.0
+AL-2022-house-15-D-GSL015DROU,house,15,D,Richard Rouco,False,,
+AL-2022-house-15-R-GSL015RHUL,house,15,R,Leigh Hulsey,False,,
+AL-2022-house-16-R-GSL016RSOU,house,16,R,Kyle South,True,Kyle South,16.0
+AL-2022-house-17-R-GSL017REST,house,17,R,Tracy Estes,True,Tracy Estes,17.0
+AL-2022-house-18-R-GSL018RKIE,house,18,R,Jamie Kiel,True,Jamie Kiel,18.0
+AL-2022-house-19-D-GSL019DHAL,house,19,D,Laura Hall,True,Laura Hall,19.0
+AL-2022-house-20-R-GSL020RLOM,house,20,R,James Lomax,False,,
+AL-2022-house-21-R-GSL021RREY,house,21,R,Rex Reynolds,True,Rex Reynolds,21.0
+AL-2022-house-22-R-GSL022RWHO,house,22,R,Ritchie Whorton,True,Ritchie Whorton,22.0
+AL-2022-house-23-R-GSL023RKIR,house,23,R,Mike Kirkland,False,,
+AL-2022-house-24-R-GSL024RLED,house,24,R,Nathaniel Ledbetter,True,Nathaniel Ledbetter,24.0
+AL-2022-house-25-D-GSL025DHAG,house,25,D,Mallory Hagan,False,,
+AL-2022-house-25-R-GSL025RRIG,house,25,R,Phillip Rigsby,False,,
+AL-2022-house-26-D-GSL026DALF,house,26,D,Ben Alford,False,,
+AL-2022-house-26-R-GSL026RCOL,house,26,R,Brock Colvin,False,,
+AL-2022-house-27-D-GSL027DNEU,house,27,D,Herb Neu,False,,
+AL-2022-house-27-R-GSL027RKIT,house,27,R,Wes Kitchens,True,Wes Kitchens,27.0
+AL-2022-house-28-R-GSL028RBUT,house,28,R,Mack Butler,False,,
+AL-2022-house-29-R-GSL029RGID,house,29,R,Mark Gidley,False,,
+AL-2022-house-30-R-GSL030RLIP,house,30,R,Craig Lipscomb,False,,
+AL-2022-house-31-R-GSL031RSTU,house,31,R,Troy Stubbs,False,,
+AL-2022-house-32-D-GSL032DBOY,house,32,D,Barbara Boyd,False,,
+AL-2022-house-32-R-GSL032RJAC,house,32,R,Evan Jackson,False,,
+AL-2022-house-33-D-GSL033DCRU,house,33,D,Fred Crum,False,,
+AL-2022-house-33-R-GSL033RROB,house,33,R,Ben Robbins,False,,
+AL-2022-house-34-R-GSL034RSTA,house,34,R,David Standridge,True,David Standridge,34.0
+AL-2022-house-35-R-GSL035RHUR,house,35,R,Steve Hurst,True,Steve Hurst,35.0
+AL-2022-house-36-R-GSL036RWOO,house,36,R,Randy Wood,True,Randy Wood,36.0
+AL-2022-house-37-R-GSL037RFIN,house,37,R,Bob Fincher,True,Bob Fincher,37.0
+AL-2022-house-38-R-GSL038RWOO,house,38,R,Debbie Wood,False,,
+AL-2022-house-39-R-GSL039RSHA,house,39,R,Ginny Shaver,True,Ginny Shaver,39.0
+AL-2022-house-40-D-GSL040DHOW,house,40,D,Pam Howard,False,,
+AL-2022-house-40-R-GSL040RROB,house,40,R,Chad Robertson,False,,
+AL-2022-house-41-D-GSL041DNEL,house,41,D,Chris Nelson,False,,
+AL-2022-house-41-R-GSL041RELL,house,41,R,Corley Ellis,True,Corley Ellis,41.0
+AL-2022-house-42-R-GSL042RSMI,house,42,R,Van Smith,False,,
+AL-2022-house-43-D-GSL043DCLE,house,43,D,Prince Cleveland,False,,
+AL-2022-house-43-R-GSL043RMOO,house,43,R,Arnold Mooney II,False,,
+AL-2022-house-44-R-GSL044RGAR,house,44,R,Danny Garrett,True,Danny Garrett,44.0
+AL-2022-house-45-R-GSL045RDUB,house,45,R,Susan DuBose,False,,
+AL-2022-house-46-R-GSL046RFAU,house,46,R,David Faulkner,True,David Faulkner,46.0
+AL-2022-house-47-D-GSL047DCOL,house,47,D,Christian Coleman,False,,
+AL-2022-house-47-R-GSL047RSHA,house,47,R,Mike Shaw,False,,
+AL-2022-house-48-R-GSL048RCAR,house,48,R,Jim Carns,True,Jim Carns,48.0
+AL-2022-house-49-R-GSL049RBED,house,49,R,Russell Bedsole,False,,
+AL-2022-house-50-R-GSL050RHIL,house,50,R,Jim Hill,True,Jim Hill,50.0
+AL-2022-house-51-R-GSL051RTRE,house,51,R,Allen Treadaway,True,Allen Treadaway,51.0
+AL-2022-house-52-D-GSL052DROG,house,52,D,"John Rogers, Jr.",False,,
+AL-2022-house-53-D-GSL053DDAN,house,53,D,Anthony Daniels,True,Anthony Daniels,53.0
+AL-2022-house-54-D-GSL054DRAF,house,54,D,Neil Rafferty,True,Neil Rafferty,54.0
+AL-2022-house-55-D-GSL055DPLU,house,55,D,Fred Plump,False,,
+AL-2022-house-56-D-GSL056DTIL,house,56,D,Ontario Tillman,False,,
+AL-2022-house-57-D-GSL057DSEL,house,57,D,Patrick Sellers,False,,
+AL-2022-house-57-R-GSL057RBAU,house,57,R,Delor Baumann,False,,
+AL-2022-house-58-D-GSL058DHOL,house,58,D,Rolanda Hollis,True,Rolanda Hollis,58.0
+AL-2022-house-59-D-GSL059DMOO,house,59,D,Mary Moore,True,Mary Moore,59.0
+AL-2022-house-60-D-GSL060DGIV,house,60,D,Juandalynn Givan,True,Juandalynn Givan,60.0
+AL-2022-house-61-R-GSL061RBOL,house,61,R,Ron Bolton,False,,
+AL-2022-house-62-D-GSL062DCEP,house,62,D,Brenda Cephus,False,,
+AL-2022-house-62-R-GSL062RLAM,house,62,R,Bill Lamb,False,,
+AL-2022-house-63-D-GSL063DADA,house,63,D,Samuel Adams,False,,
+AL-2022-house-63-R-GSL063RALM,house,63,R,Cynthia Almond,False,,
+AL-2022-house-64-R-GSL064RGIV,house,64,R,Donna Givens,False,,
+AL-2022-house-65-D-GSL065DCAS,house,65,D,Marcus Caster,False,,
+AL-2022-house-65-R-GSL065REAS,house,65,R,Brett Easterbrook,True,Brett Easterbrook,65.0
+AL-2022-house-66-R-GSL066RBAK,house,66,R,Alan Baker,True,Alan Baker,66.0
+AL-2022-house-67-D-GSL067DCHE,house,67,D,Prince Chestnut,True,Prince Chestnut,67.0
+AL-2022-house-68-D-GSL068DJAC,house,68,D,"Thomas Jackson, Jr.",False,,
+AL-2022-house-68-R-GSL068RKEL,house,68,R,Fred Kelley,False,,
+AL-2022-house-69-D-GSL069DLAW,house,69,D,Kelvin Lawrence,False,,
+AL-2022-house-69-R-GSL069RMAD,house,69,R,Karla Knight Maddox,False,,
+AL-2022-house-70-D-GSL070DENG,house,70,D,Christopher England,False,,
+AL-2022-house-71-D-GSL071DMCC,house,71,D,Artis McCampbell,False,,
+AL-2022-house-72-D-GSL072DTRA,house,72,D,Curtis Travis,False,,
+AL-2022-house-73-R-GSL073RPAS,house,73,R,Kenneth Paschal,False,,
+AL-2022-house-74-D-GSL074DENS,house,74,D,Phillip Ensler,False,,
+AL-2022-house-74-R-GSL074RMEA,house,74,R,Charlotte Meadows,False,,
+AL-2022-house-75-R-GSL075RING,house,75,R,Reed Ingram,True,Reed Ingram,75.0
+AL-2022-house-76-D-GSL076DMCC,house,76,D,Patrice McClammy,False,,
+AL-2022-house-77-D-GSL077DMOR,house,77,D,TaShina Morris,True,Tashina Morris,77.0
+AL-2022-house-78-D-GSL078DHAS,house,78,D,Kenyatté Hassell,False,,
+AL-2022-house-79-R-GSL079RLOV,house,79,R,Joe Lovvorn,True,Joe Lovvorn,79.0
+AL-2022-house-80-R-GSL080RBLA,house,80,R,Chris Blackshear,False,,
+AL-2022-house-81-R-GSL081ROLI,house,81,R,Ed Oliver,False,,
+AL-2022-house-82-D-GSL082DWAR,house,82,D,Pebblin Warren,False,,
+AL-2022-house-82-R-GSL082RPIE,house,82,R,"Lennora ""Tia"" Pierrot",False,,
+AL-2022-house-83-D-GSL083DGRA,house,83,D,Jeremy Gray,False,,
+AL-2022-house-84-D-GSL084DFOR,house,84,D,Berry Forte,True,Berry Forte,84.0
+AL-2022-house-85-D-GSL085DGRI,house,85,D,Dexter Grimsley,True,Dexter Grimsley,85.0
+AL-2022-house-85-R-GSL085RREH,house,85,R,Rick Rehm,False,,
+AL-2022-house-86-R-GSL086RLEE,house,86,R,Paul Lee,False,,
+AL-2022-house-87-R-GSL087RSOR,house,87,R,Jeff Sorrells,True,Jeff Sorrells,87.0
+AL-2022-house-88-R-GSL088RSTA,house,88,R,Jerry Starnes,False,,
+AL-2022-house-89-R-GSL089RPAR,house,89,R,Marcus Paramore,False,,
+AL-2022-house-90-R-GSL090RSEL,house,90,R,Chris Sells,True,Chris Sells,90.0
+AL-2022-house-91-R-GSL091RMAR,house,91,R,Rhett Marques,True,Rhett Marques,91.0
+AL-2022-house-92-D-GSL092DHUB,house,92,D,Steve Hubbard,False,,
+AL-2022-house-92-R-GSL092RHAM,house,92,R,Matthew Hammett,False,,
+AL-2022-house-93-R-GSL093RCLO,house,93,R,Steve Clouse,True,Steve Clouse,93.0
+AL-2022-house-94-R-GSL094RFID,house,94,R,Jennifer Fidler,False,,
+AL-2022-house-95-D-GSL095DBRA,house,95,D,"Richard Brackner, Jr.",False,,
+AL-2022-house-95-R-GSL095RHOL,house,95,R,Frances Holk-Jones,False,,
+AL-2022-house-96-R-GSL096RSIM,house,96,R,Matt Simpson,True,Matt Simpson,96.0
+AL-2022-house-97-D-GSL097DCLA,house,97,D,Adline Clarke,False,,
+AL-2022-house-98-D-GSL098DBRA,house,98,D,"Napoleon Bracy, Jr.",True,"Napoleon Bracy, Jr.",98.0
+AL-2022-house-99-D-GSL099DJON,house,99,D,Sam Jones,True,Sam Jones,99.0
+AL-2022-house-100-R-GSL100RSHI,house,100,R,Mark Shirey,False,,
+AL-2022-house-101-R-GSL101RPRI,house,101,R,Chris Pringle,True,Chris Pringle,101.0
+AL-2022-house-102-R-GSL102RSTR,house,102,R,Shane Stringer,True,Shane Stringer,102.0
+AL-2022-house-103-D-GSL103DDRU,house,103,D,Barbara Drummond,True,Barbara Drummond,103.0
+AL-2022-house-104-R-GSL104RWIL,house,104,R,Margie Wilcox,True,Margie Wilcox,104.0
+AL-2022-house-105-R-GSL105RBRO,house,105,R,Chip Brown,True,Chip Brown,105.0
+AL-2022-senate-1-R-GSU01RMEL,senate,1,R,GSU01RMEL,False,,
+AL-2022-senate-2-D-GSU02DLEW,senate,2,D,Kimberly Caudle Lewis,False,,
+AL-2022-senate-2-R-GSU02RBUT,senate,2,R,GSU02RBUT,False,,
+AL-2022-senate-3-R-GSU03RORR,senate,3,R,GSU03RORR,False,,
+AL-2022-senate-4-R-GSU04RGUD,senate,4,R,GSU04RGUD,False,,
+AL-2022-senate-5-R-GSU05RREE,senate,5,R,GSU05RREE,False,,
+AL-2022-senate-6-R-GSU06RSTU,senate,6,R,GSU06RSTU,False,,
+AL-2022-senate-7-D-GSU07DWIL,senate,7,D,Korey Wilson,False,,
+AL-2022-senate-7-R-GSU07RGIV,senate,7,R,Sam Givhan,True,Sam Givhan,7.0
+AL-2022-senate-8-R-GSU08RLIV,senate,8,R,GSU08RLIV,False,,
+AL-2022-senate-9-R-GSU09RSCO,senate,9,R,GSU09RSCO,False,,
+AL-2022-senate-10-R-GSU10RJON,senate,10,R,GSU10RJON,False,,
+AL-2022-senate-11-R-GSU11RBEL,senate,11,R,GSU11RBEL,False,,
+AL-2022-senate-12-D-GSU12DMCC,senate,12,D,Danny McCullars,False,,
+AL-2022-senate-12-R-GSU12RKEL,senate,12,R,Keith Kelley,False,,
+AL-2022-senate-13-R-GSU13RPRI,senate,13,R,GSU13RPRI,False,,
+AL-2022-senate-14-R-GSU14RWEA,senate,14,R,GSU14RWEA,False,,
+AL-2022-senate-15-R-GSU15RROB,senate,15,R,GSU15RROB,False,,
+AL-2022-senate-16-R-GSU16RWAG,senate,16,R,GSU16RWAG,False,,
+AL-2022-senate-17-R-GSU17RSHE,senate,17,R,GSU17RSHE,False,,
+AL-2022-senate-18-D-GSU18DSMI,senate,18,D,GSU18DSMI,False,,
+AL-2022-senate-19-D-GSU19DCOL,senate,19,D,GSU19DCOL,False,,
+AL-2022-senate-20-D-GSU20DCOL,senate,20,D,GSU20DCOL,False,,
+AL-2022-senate-21-D-GSU21DWAR,senate,21,D,Lisa Ward,False,,
+AL-2022-senate-21-R-GSU21RALL,senate,21,R,Gerald Allen,False,,
+AL-2022-senate-22-R-GSU22RALB,senate,22,R,GSU22RALB,False,,
+AL-2022-senate-23-D-GSU23DSTE,senate,23,D,Robert L. Stewart,False,,
+AL-2022-senate-23-R-GSU23RNIM,senate,23,R,Michael Nimmer,False,,
+AL-2022-senate-24-D-GSU24DSIN,senate,24,D,GSU24DSIN,False,,
+AL-2022-senate-25-R-GSU25RBAR,senate,25,R,GSU25RBAR,False,,
+AL-2022-senate-26-D-GSU26DHAT,senate,26,D,GSU26DHAT,False,,
+AL-2022-senate-27-D-GSU27DREE,senate,27,D,Sherri Reese,False,,
+AL-2022-senate-27-R-GSU27RHOV,senate,27,R,Jay Hovey,False,,
+AL-2022-senate-28-D-GSU28DBEA,senate,28,D,GSU28DBEA,False,,
+AL-2022-senate-29-D-GSU29DMAT,senate,29,D,"Nathan ""Nate"" Mathis",False,,
+AL-2022-senate-29-R-GSU29RCHE,senate,29,R,Donnie Chesteen,True,Donnie Chesteen,29.0
+AL-2022-senate-30-R-GSU30RCHA,senate,30,R,GSU30RCHA,False,,
+AL-2022-senate-31-R-GSU31RCAR,senate,31,R,GSU31RCAR,False,,
+AL-2022-senate-32-R-GSU32RELL,senate,32,R,GSU32RELL,False,,
+AL-2022-senate-33-D-GSU33DFIG,senate,33,D,Vivian Davis Figures,True,Vivian Davis Figures,33.0
+AL-2022-senate-33-R-GSU33RRIE,senate,33,R,Pete Riehm,False,,
+AL-2022-senate-34-R-GSU34RWIL,senate,34,R,GSU34RWIL,False,,
+AL-2022-senate-35-R-GSU35RSES,senate,35,R,GSU35RSES,False,,

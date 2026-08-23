@@ -42,11 +42,11 @@ def test_story_page_publishes_transparency_and_exploration_controls():
     assert "Total electoral value" in page
     assert "Uncertainty interval" in page
     assert "Historical structural expectation" in page
-    assert "Diagnostics" in page
+    assert "Historical accuracy" in page
     assert "Structural expectation" in page
     assert "Residual-quality penalty" in page
     assert "Fundamentals+" not in page
-    assert "Data and provenance" in page
+    assert "Data and sources" in page
     assert "Data sources and attribution" in page
     assert "Alabama Secretary of State" in page
     assert "U.S. Census Bureau" in page

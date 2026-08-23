@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "status": "owner_selected_public_headline_release_candidate",
+  "methodology_version": "post2016_headline_v1",
+  "source_experiment_build": "30d4e3967a7bbc38700e",
+  "selected_source_scenario": "uniform_polling_federal_within_cycle_orthogonal",
+  "selected_specification": "polling_federal_plus_incumbency_within_cycle_orthogonal_fundraising",
+  "probability": {
+    "family": "student_t",
+    "df": 5.0,
+    "scale": 5.75
+  },
+  "simulation": {
+    "seed": 20260822,
+    "draws": 50000
+  },
+  "polling_error_scenarios": {
+    "shift_points": 2.2038495277753904
+  },
+  "forward_validation": {
+    "train_cycle": 2018,
+    "test_cycle": 2022,
+    "train_races": 59,
+    "test_races": 30,
+    "mae": 7.08255426434464,
+    "bootstrap_improvement_vs_polling_federal": 2.914605749352062,
+    "bootstrap_ci": [
+      0.8301385713262579,
+      4.996397917549296
+    ]
+  },
+  "inputs": [
+    {
+      "path": "data/processed/forecast_calibration/post2016_polling_cmo_2026_forecast.csv",
+      "sha256": "3ef0555979173fd409d4f14102623fcb3f3a7617ace978076c69c9452d7c90e7"
+    },
+    {
+      "path": "data/processed/forecast_calibration/post2016_polling_cmo_metrics.csv",
+      "sha256": "86823ea6cbf73f340fbac1067a9909341fadf76f8033685f54ae73c38e713dd8"
+    },
+    {
+      "path": "data/processed/forecast_calibration/post2016_polling_cmo_bootstrap.csv",
+      "sha256": "386ecdcd7796e0c38f219c956a2a6411ab34d1dac2b61b20d678c7b15a1d9c5b"
+    },
+    {
+      "path": "data/processed/forecast_calibration/post2016_polling_cmo_manifest.json",
+      "sha256": "4acf8073af10c7e1069637e0e9d7961dc19cfc50e2c72ac41fa99119cbeac57c"
+    },
+    {
+      "path": "data/processed/forecast_calibration/robust_forecast_v1_error_components.csv",
+      "sha256": "4085d289d65d17b847bad2d314356d70d0ffd5ab3bc72633e1b07aa69eef5d68"
+    }
+  ],
+  "code_inputs": [
+    {
+      "path": "scripts/promote_post2016_headline_forecast.py",
+      "sha256": "177e2d424432292cfa19d9e0564ebaab80f67f2303c94d16a24a22bdd32d9117"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "data/processed/forecast_calibration/post2016_headline_v1_2026_scenarios.csv",
+      "rows": 144,
+      "sha256": "77b3ae6bedfd0432b1c85e170f418c4741e76885e490832f5a6ddf60e0caad06"
+    },
+    {
+      "path": "data/processed/forecast_calibration/post2016_headline_v1_2026_full_uncertainty.csv",
+      "rows": 48,
+      "sha256": "3a1ade2d86dcc5574e54ca3862d03a6c62a2394568862caef12e98cb7271e858"
+    },
+    {
+      "path": "data/processed/forecast_calibration/post2016_headline_v1_2026_modeled_seats.csv",
+      "rows": 14,
+      "sha256": "5c181408780cac63b6a57233159e7cbf9a26ed08489939da7f8aace17d6c7689"
+    },
+    {
+      "path": "data/processed/forecast_calibration/post2016_headline_v1_forward_metrics.csv",
+      "rows": 13,
+      "sha256": "50078f1b008cb054f9d479d2fa17f8a9a56d57fd92102139fb3f60e7a03b1639"
+    },
+    {
+      "path": "data/processed/forecast_calibration/post2016_headline_v1_bootstrap.csv",
+      "rows": 6,
+      "sha256": "a5697acc59dfe5ac5eba5a2a00b1b83c1d2067a927d9ac5fc17529c61da9bf66"
+    }
+  ],
+  "build_id": "e178fb3f50c98c9c312b"
+}

@@ -40,17 +40,19 @@ def test_dashboard_has_accessible_controls_and_fallbacks():
 def test_dashboard_explains_headline_and_scenarios():
     text = PAGE.read_text(encoding="utf-8")
     assert "Headline" in text
-    assert "Historical CMO is analyzed separately" in text
+    assert "Dem scenario" in text
+    assert "Rep scenario" in text
+    assert "relative campaign fundraising" in text
     assert "Student-t" in text
     assert "50,000 simulations" in text
-    assert "Shared national, state, and chamber" in text
+    assert "Shared national, statewide, and chamber" in text
     assert "six-point normal calibration" not in text
 
 
 def test_model_switcher_and_default_decomposition_are_complete():
     text, data = page_and_payload()
     assert data["meta"]["model"] == "headline"
-    manifest = json.loads((ROOT / "data" / "processed" / "forecast_calibration" / "robust_forecast_v1_manifest.json").read_text(encoding="utf-8"))
+    manifest = json.loads((ROOT / "data" / "processed" / "forecast_calibration" / "post2016_headline_v1_manifest.json").read_text(encoding="utf-8"))
     assert data["meta"]["version"] == manifest["build_id"]
     assert len(data["models"]) == 3
     assert sum(model["default"] for model in data["models"]) == 1
@@ -99,7 +101,7 @@ def test_live_probabilities_use_recent_southern_calibration():
     _, data = page_and_payload()
     hd21 = next(r for r in data["house"]["races"] if r["district"] == 21)
     headline = hd21["models"]["headline"]
-    assert .02 < headline["demProbability"] < .023
+    assert .005 < headline["demProbability"] < .007
     assert headline["high80"] - headline["low80"] < 18
 
 
@@ -169,12 +171,12 @@ def test_map_uses_leaflet_basemap_and_close_control():
     assert ".leaflet-interactive:hover" in css
 
 
-def test_robust_v1_contests_and_full_chamber_accounting_reconcile():
+def test_post2016_headline_contests_and_full_chamber_accounting_reconcile():
     _, data = page_and_payload()
     assert sum(r["status"] == "modeled" for c in ("house", "senate") for r in data[c]["races"]) == 48
     assert all(r["status"] != "unmodeled" for c in ("house", "senate") for r in data[c]["races"])
     roster = pd.read_csv(ROOT / "data" / "processed" / "war" / "2026_final_candidate_roster.csv")
-    modeled = pd.read_csv(ROOT / "data" / "processed" / "forecast_calibration" / "robust_forecast_v1_2026_modeled_seats.csv")
+    modeled = pd.read_csv(ROOT / "data" / "processed" / "forecast_calibration" / "post2016_headline_v1_2026_modeled_seats.csv")
     for chamber in ("house", "senate"):
         dem = set(roster[(roster.chamber == chamber) & roster.party.eq("D")].district)
         rep = set(roster[(roster.chamber == chamber) & roster.party.eq("R")].district)
@@ -186,11 +188,35 @@ def test_robust_v1_contests_and_full_chamber_accounting_reconcile():
             assert abs(actual[seats] - probability) < 1e-12
 
 
+def test_modeled_candidate_finance_matches_headline_model_input():
+    _, data = page_and_payload()
+    scenarios = pd.read_csv(
+        ROOT / "data" / "processed" / "forecast_calibration"
+        / "post2016_headline_v1_2026_scenarios.csv"
+    )
+    headline = scenarios[scenarios.scenario.eq("headline")]
+    for row in headline.itertuples():
+        race = next(r for r in data[row.chamber]["races"] if r["district"] == row.district)
+        candidates = {candidate["party"]: candidate for candidate in race["candidates"]}
+        expected_dem = None if pd.isna(row.dem_fundraising) else row.dem_fundraising
+        expected_rep = None if pd.isna(row.rep_fundraising) else row.rep_fundraising
+        expected_dem_status = None if pd.isna(row.dem_finance_status) else row.dem_finance_status
+        expected_rep_status = None if pd.isna(row.rep_finance_status) else row.rep_finance_status
+        assert candidates["D"]["raised"] == expected_dem
+        assert candidates["R"]["raised"] == expected_rep
+        assert candidates["D"]["financeStatus"] == expected_dem_status
+        assert candidates["R"]["financeStatus"] == expected_rep_status
+
+
 def test_methodology_has_no_legacy_forecast_claims():
     text = (ROOT / "docs" / "methodology.html").read_text(encoding="utf-8")
-    assert "893 model-ready contests" in text
+    assert "59 contested races in 2018" in text
+    assert "7.08 points" in text
     assert "Student-t" in text
     assert "50,000 simulations" in text
-    for legacy in ("Basic and Fundamentals+", "six-point normal", "20% of the CMO"):
+    for legacy in (
+        "Basic and Fundamentals+", "six-point normal", "20% of the CMO",
+        "893 model-ready contests", "Build <b>", "robust forecast build",
+    ):
         assert legacy not in text
-    assert "Historical CMO is not a forecast tab" in text
+    assert "Dem and Rep scenarios" in text

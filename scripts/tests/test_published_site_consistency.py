@@ -24,18 +24,16 @@ def test_publication_exports_match_current_model_outputs() -> None:
     for source_name, public_name in current_pairs:
         assert (WAR / source_name).read_bytes() == (DOCS / "data" / public_name).read_bytes()
 
-    robust_names = [
-        "robust_forecast_v1_2026_scenarios.csv",
-        "robust_forecast_v1_2026_full_uncertainty.csv",
-        "robust_forecast_v1_2026_modeled_seats.csv",
-        "robust_forecast_v1_metrics.csv",
-        "robust_forecast_v1_ranking.csv",
-        "robust_forecast_v1_probability_families.csv",
+    forecast_names = [
+        "post2016_headline_v1_2026_scenarios.csv",
+        "post2016_headline_v1_2026_full_uncertainty.csv",
+        "post2016_headline_v1_2026_modeled_seats.csv",
+        "post2016_headline_v1_forward_metrics.csv",
+        "post2016_headline_v1_bootstrap.csv",
+        "post2016_headline_v1_manifest.json",
         "robust_forecast_v1_error_components.csv",
-        "robust_forecast_v1_subgroup_audit.csv",
-        "robust_forecast_v1_manifest.json",
     ]
-    for name in robust_names:
+    for name in forecast_names:
         assert (CAL / name).read_bytes() == (DOCS / "data" / name).read_bytes()
 
 
@@ -45,17 +43,21 @@ def test_public_pages_describe_current_runs() -> None:
     cmo = (DOCS / "cmo.html").read_text(encoding="utf-8")
     cmo_method = (DOCS / "cmo-methodology.html").read_text(encoding="utf-8")
 
-    assert "Validated headline and scenarios" in forecast
-    assert "Historical CMO is analyzed separately" in forecast
+    assert "Forecast and polling-error scenarios" in forecast
+    assert "Dem scenario" in forecast and "Rep scenario" in forecast
     assert "Student-t" in forecast_method
-    assert "893 model-ready contests" in forecast_method
+    assert "59 contested races in 2018" in forecast_method
+    assert "7.08 points" in forecast_method
     assert "50,000 simulations" in forecast_method
-    for stale in ("Basic and Fundamentals+", "six-point normal", "20% of the CMO"):
+    for stale in (
+        "Basic and Fundamentals+", "six-point normal", "20% of the CMO",
+        "893 model-ready contests", "Build <b>", "robust forecast build",
+    ):
         assert stale not in forecast_method
 
     assert "Alabama Candidate Margin Overperformance" in cmo
-    assert "CMO v6 preserves observed CMO" in cmo
-    assert "Southern-prior decomposition" in cmo
+    assert "CMO measures how far a legislative candidate ran ahead" in cmo
+    assert "Historical accuracy" in cmo
     assert "Fundamentals+" not in cmo
     assert "selected same-district ticket" in cmo
     assert "1994" in cmo_method and "2022" in cmo_method
@@ -63,12 +65,18 @@ def test_public_pages_describe_current_runs() -> None:
     assert "same-cycle federal ticket" in cmo_method
     assert "pair_differential_only" in cmo_method
     assert "Fundamentals+" not in cmo_method
+    for stale in (
+        "arithmetic is unchanged", "The decomposition is separate from CMO",
+        "CMO v6 preserves", "Direct CMO is unchanged from", "portable_temporal",
+    ):
+        assert stale not in cmo
+        assert stale not in cmo_method
 
 
 def test_public_cmo_and_forecast_row_counts() -> None:
     candidates = pd.read_csv(DOCS / "data" / "cmo_v6_southern_candidates.csv")
     races = pd.read_csv(DOCS / "data" / "cmo_v6_southern_races.csv")
-    forecasts = pd.read_csv(DOCS / "data" / "robust_forecast_v1_2026_scenarios.csv")
+    forecasts = pd.read_csv(DOCS / "data" / "post2016_headline_v1_2026_scenarios.csv")
     assert len(candidates) == 1018
     assert len(races) == 509
     assert candidates.candidate_direct_cmo.notna().all()
@@ -112,3 +120,22 @@ def test_public_ideology_and_caucus_routes_are_merged() -> None:
     assert "render3D" not in ideology
     assert 'ideology-performance.html#candidate-explorer' in caucus
     assert "location.replace" in caucus
+
+
+def test_public_pages_avoid_internal_release_vocabulary() -> None:
+    stale_phrases = (
+        "arithmetic is unchanged",
+        "the decomposition is separate from cmo",
+        "cmo v6 preserves",
+        "direct cmo is unchanged from",
+        "validated robust forecast build",
+        "owner_selected_public_headline",
+        "common-population forward tournament",
+        "portable_temporal",
+        "canonical modern finance input",
+        "geographic pipeline where documented",
+    )
+    for page in DOCS.glob("*.html"):
+        text = page.read_text(encoding="utf-8").lower()
+        for phrase in stale_phrases:
+            assert phrase not in text, f"{phrase!r} remains in {page.name}"

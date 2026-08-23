@@ -1,0 +1,16 @@
+specification,adjustment_weight,test_cycle,test_races,mae,rmse,post_holdout_selection_warning
+polling_federal_plus_incumbency_fundraising,0.0,2022,30,9.997160013696703,14.565085937425216,True
+polling_federal_plus_incumbency_fundraising,0.25,2022,30,8.628109253719687,13.451615191556778,True
+polling_federal_plus_incumbency_fundraising,0.5,2022,30,7.68677046151595,12.785212824662764,True
+polling_federal_plus_incumbency_fundraising,0.75,2022,30,7.582985144529268,12.636806380378786,True
+polling_federal_plus_incumbency_fundraising,1.0,2022,30,8.430118180791245,13.024115203402632,True
+polling_federal_plus_incumbency_orthogonal_fundraising,0.0,2022,30,9.997160013696703,14.565085937425216,True
+polling_federal_plus_incumbency_orthogonal_fundraising,0.25,2022,30,8.424527494778875,13.275259251039175,True
+polling_federal_plus_incumbency_orthogonal_fundraising,0.5,2022,30,7.583605472216841,12.65417768242943,True
+polling_federal_plus_incumbency_orthogonal_fundraising,0.75,2022,30,8.101892731266014,12.799564143874722,True
+polling_federal_plus_incumbency_orthogonal_fundraising,1.0,2022,30,9.25502035635887,13.687015618691548,True
+polling_federal_plus_incumbency_within_cycle_orthogonal_fundraising,0.0,2022,30,9.997160013696703,14.565085937425216,True
+polling_federal_plus_incumbency_within_cycle_orthogonal_fundraising,0.25,2022,30,8.541741771963196,13.286222274495834,True
+polling_federal_plus_incumbency_within_cycle_orthogonal_fundraising,0.5,2022,30,7.535444628576518,12.295458270902206,True
+polling_federal_plus_incumbency_within_cycle_orthogonal_fundraising,0.75,2022,30,6.921773919027519,11.66642634473584,True
+polling_federal_plus_incumbency_within_cycle_orthogonal_fundraising,1.0,2022,30,7.0825542643446395,11.458853826812529,True

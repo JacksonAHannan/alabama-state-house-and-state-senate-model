@@ -1,0 +1,15 @@
+chamber,dem_modeled_seats,probability,draws
+house,7,4e-05,50000
+house,8,0.00994,50000
+house,9,0.6713,50000
+house,10,0.3005,50000
+house,11,0.01688,50000
+house,12,0.0012,50000
+house,13,0.00012,50000
+house,14,2e-05,50000
+senate,1,0.00312,50000
+senate,2,0.11734,50000
+senate,3,0.66638,50000
+senate,4,0.2065,50000
+senate,5,0.00664,50000
+senate,6,2e-05,50000
