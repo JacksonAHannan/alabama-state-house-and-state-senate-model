@@ -29,6 +29,32 @@ def test_transform_uses_utilitarian_atlas_copy() -> None:
     assert "What did Alabama's standout Democrats stand for?" not in result
 
 
+def test_transform_uses_one_shared_header_and_preserves_active_route() -> None:
+    source = '''<html><head></head><body><header><div class="brand">Old</div><nav>
+    <a href="index.html">Forecast</a><a href="cmo.html" aria-current="page">CMO</a>
+    <a href="legislators.html">Candidate atlas</a></nav></header><script>1</script></body></html>'''
+    result = apply_theme(source)
+    assert result.count('class="site-header"') == 1
+    assert result.count('class="site-portrait"') == 1
+    assert "Alabama legislative models" in result
+    assert '<a href="cmo.html" aria-current="page">CMO</a>' in result
+    assert result.count('aria-current="page"') == 1
+    assert "Candidate atlas" not in result
+    for label in ("Forecast", "CMO", "Ideology &amp; caucuses", "Forecast methodology",
+                  "CMO methodology", "GitHub", "Instagram", "Substack", "LinkedIn",
+                  "@electionsjack"):
+        assert label in result
+
+
+def test_legacy_atlas_route_marks_ideology_current() -> None:
+    source = '''<html><head></head><body><header><nav>
+    <a href="legislators.html" aria-current="page">Issue atlas</a>
+    </nav></header><script>1</script></body></html>'''
+    result = apply_theme(source)
+    assert '<a href="ideology-performance.html" aria-current="page">Ideology &amp; caucuses</a>' in result
+    assert "legislators.html" not in result
+
+
 def test_white_interface_text_has_oxblood_backing() -> None:
     css = theme_css()
     assert "body>header,.site-head{background:var(--brand-accent)!important;color:#fff!important" in css

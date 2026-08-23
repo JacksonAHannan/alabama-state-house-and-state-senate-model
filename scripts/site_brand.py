@@ -10,7 +10,20 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 THEME = ROOT / "dashboard" / "blue_oxblood_theme.css"
 PORTRAIT = Path(r"C:\Users\User\Desktop\images.jfif")
-SOCIAL_LINK = '<a href="https://x.com/electionsjack" target="_blank" rel="me noopener">@electionsjack</a>'
+PUBLIC_NAV = (
+    ("index.html", "Forecast"),
+    ("cmo.html", "CMO"),
+    ("ideology-performance.html", "Ideology &amp; caucuses"),
+    ("methodology.html", "Forecast methodology"),
+    ("cmo-methodology.html", "CMO methodology"),
+)
+EXTERNAL_NAV = (
+    ("https://github.com/JacksonAHannan", "GitHub"),
+    ("https://www.instagram.com/topsoilintraining/", "Instagram"),
+    ("https://substack.com/@jacksonhannan", "Substack"),
+    ("https://www.linkedin.com/in/jackson-hannan", "LinkedIn"),
+    ("https://x.com/electionsjack", "@electionsjack"),
+)
 
 
 def portrait_uri() -> str:
@@ -26,6 +39,54 @@ def script_blocks(html: str) -> list[str]:
     return re.findall(r"<script(?:\s[^>]*)?>(.*?)</script>", html, flags=re.I | re.S)
 
 
+def active_public_page(html: str) -> str | None:
+    """Read the source page's active route before replacing its local header."""
+    match = re.search(
+        r"<a\b(?=[^>]*\baria-current=[\"']page[\"'])(?=[^>]*\bhref=[\"']([^\"']+)[\"'])[^>]*>",
+        html,
+        flags=re.I,
+    )
+    if not match:
+        return None
+    route = match.group(1).split("#", 1)[0].split("?", 1)[0]
+    if route in {"legislators.html", "caucuses.html"}:
+        return "ideology-performance.html"
+    return route
+
+
+def shared_header(active_page: str | None) -> str:
+    """Return the single public masthead used by every substantive page."""
+    internal = []
+    for href, label in PUBLIC_NAV:
+        current = ' aria-current="page"' if href == active_page else ""
+        internal.append(f'<a href="{href}"{current}>{label}</a>')
+    external = [
+        f'<a href="{href}" target="_blank" rel="me noopener">{label}</a>'
+        for href, label in EXTERNAL_NAV
+    ]
+    return (
+        '<header class="site-header"><div class="site-header-inner">'
+        '<a class="site-identity" href="index.html" aria-label="Jackson Hannan — Alabama legislative models">'
+        '<span class="site-portrait" aria-hidden="true"></span>'
+        '<span class="site-wordmark">Jackson Hannan<small>Alabama legislative models</small></span></a>'
+        '<nav class="site-nav" aria-label="Site navigation">'
+        + "".join(internal + external)
+        + "</nav></div></header>"
+    )
+
+
+def normalize_header(html: str) -> str:
+    """Replace the first page header while retaining the source page identity."""
+    active_page = active_public_page(html)
+    return re.sub(
+        r"<header(?:\s[^>]*)?>.*?</header>",
+        lambda _: shared_header(active_page),
+        html,
+        count=1,
+        flags=re.I | re.S,
+    )
+
+
 def apply_theme(html: str) -> str:
     """Apply presentation changes without altering embedded scripts or payloads."""
     scripts_before = script_blocks(html)
@@ -34,8 +95,6 @@ def apply_theme(html: str) -> str:
                   flags=re.I | re.S)
     html = html.replace("</head>", f"<style id=\"blue-oxblood-theme\">{theme_css()}</style></head>", 1)
     html = html.replace("<body>", '<body data-site-theme="blue-oxblood">', 1)
-    if SOCIAL_LINK not in html:
-        html = html.replace("</nav>", SOCIAL_LINK + "</nav>", 1)
     # The former standalone caucus page is now a compatibility route. Keep one
     # canonical navigation entry across every public page.
     html = re.sub(r'<a href="caucuses\.html"[^>]*>Caucuses</a>', "", html)
@@ -89,6 +148,7 @@ def apply_theme(html: str) -> str:
     }
     for old, new in replacements.items():
         html = html.replace(old, new)
+    html = normalize_header(html)
     if script_blocks(html) != scripts_before:
         raise AssertionError("Branding transformation altered embedded JavaScript or data payloads")
     return html
