@@ -61,6 +61,10 @@ def test_story_page_publishes_transparency_and_exploration_controls():
     assert "historyMax=Math.max" in page
     assert "CMO is signed to the Democratic margin" in page
     assert "Candidate Atlas" not in page
+    assert ".distribution-label{position:absolute;top:17px;left:0;right:0" in page
+    assert ".distribution>i{position:absolute" in page
+    assert "@media(max-width:480px){.dashboard,.dashboard>*,.map-panel,.detail{min-width:0;max-width:100%}" in page
+    assert ".racebox>table{width:100%;table-layout:fixed}" in page
     assert "districtStatus" in page
     assert '<button data-map-mode="absolute" class="active">CMO</button>' in page
     assert '<button data-map-mode="quality">Residual quality differential</button>' in page

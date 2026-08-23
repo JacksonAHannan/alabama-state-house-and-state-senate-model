@@ -62,6 +62,7 @@ def test_white_interface_text_has_oxblood_backing() -> None:
     assert "header a{color:#f5e9e8!important" in css
     assert "button[aria-selected=true] *{color:inherit!important}" in css
     assert ".controls button.active,.map-modes button.active,.baseline-tabs button.active{background:var(--brand-accent)!important" in css
-    assert ".racebox-head{background:var(--brand-accent)!important;color:#fff!important}" in css
+    assert ".racebox-head,.baseline-wikibox-head{background:var(--brand-accent)!important;color:#fff!important" in css
+    assert ".racebox-sub{background:#f5e9e8!important;color:var(--brand-ink)!important}" in css
     assert ".badge.supported{color:#285642!important}" in css
     assert ".cell .n{color:var(--brand-ink)!important;background:var(--brand-panel-strong)!important" in css
