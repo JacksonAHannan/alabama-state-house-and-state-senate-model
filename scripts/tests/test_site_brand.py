@@ -40,10 +40,21 @@ def test_transform_uses_one_shared_header_and_preserves_active_route() -> None:
     assert '<a href="cmo.html" aria-current="page">CMO</a>' in result
     assert result.count('aria-current="page"') == 1
     assert "Candidate atlas" not in result
-    for label in ("Forecast", "CMO", "Ideology &amp; caucuses", "Forecast methodology",
-                  "CMO methodology", "GitHub", "Instagram", "Substack", "LinkedIn",
-                  "@electionsjack"):
+    for label in ("Forecast", "CMO", "Ideology &amp; caucuses", "Methods",
+                  "GitHub", "Instagram", "Substack", "LinkedIn", "@electionsjack"):
         assert label in result
+    assert 'class="skip-link"' in result
+    assert 'id="main-content"' not in result  # source fixture has no main element
+    assert 'class="site-footer"' in result
+
+
+def test_methodology_toc_gets_mobile_disclosure() -> None:
+    source = '''<html><head></head><body><header><nav><a href="methodology.html" aria-current="page">Methodology</a></nav></header>
+    <main><div class="method-grid"><aside class="toc"><b>On this page</b><a href="#one">One</a><a href="#two">Two</a></aside><article></article></div></main><script>1</script></body></html>'''
+    result = apply_theme(source)
+    assert 'class="mobile-toc"' in result
+    assert result.count('href="#one"') == 2
+    assert 'id="main-content"' in result
 
 
 def test_legacy_atlas_route_marks_ideology_current() -> None:

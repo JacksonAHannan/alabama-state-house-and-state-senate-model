@@ -147,6 +147,7 @@
     $("#seatRange").textContent=`${s.low}–${s.high}`;
     $("#chamberTitle").textContent=`Explore the ${chamberName(state.chamber)}`;
     $("#mapTitle").textContent=`Alabama ${chamberName(state.chamber)}`;
+    $("#mapScope").textContent=state.selected?`${districtName(state.chamber,state.selected)} selected. Close the district panel to return to the statewide view.`:"Statewide view. Choose a district on the map or with the district finder.";
     renderDistribution();
   }
 
@@ -279,9 +280,11 @@
 
   function renderDetail(r){
     if(!r){
+      $("#detail").classList.add("is-empty");
       $("#detail").innerHTML=`<div class="race-kicker">District explorer</div><div class="race-title">Select a district</div><p>Choose a district on the statewide map, from the district finder, or from the table below to zoom into its geography and open the race forecast.</p>`;
       return;
     }
+    $("#detail").classList.remove("is-empty");
     const lead=leader(r), leadProb=lead ? Math.max(r.demProbability,1-r.demProbability) : null;
     const bg=lead==="D"?"var(--blue)":lead==="R"?"var(--red)":"var(--gray)";
     const headline=r.status==="modeled"?`<div class="headline-call"><strong>${fmtMargin(r.margin)}</strong><span>${partyName(lead)} nominee favored · ${Math.round(100*leadProb)}% win probability</span></div>`:`<div class="headline-call"><strong>${effectiveRating(r)}</strong><span>${r.status==="unopposed-major-party"?"Single major-party nominee; independent contests are not modeled":"No two-party forecast available"}</span></div>`;
@@ -300,12 +303,12 @@
   }
 
   function selectDistrict(d,scroll=false){
-    state.selected=+d; syncUrl(); renderMap(); renderDetail(race(state.chamber,d)); renderTable(); $("#districtSelect").value=String(d);
-    if(scroll && innerWidth<851) $("#detail").scrollIntoView({behavior:"smooth",block:"start"});
+    state.selected=+d; syncUrl(); renderMap(); renderDetail(race(state.chamber,d)); renderTable(); renderChamberStrip(); $("#districtSelect").value=String(d);
+    if(scroll && innerWidth<851){$("#detail").scrollIntoView({behavior:"smooth",block:"start"});$("#detail .close-detail")?.focus({preventScroll:true})}
   }
 
   function clearDistrict(){
-    state.selected=null;syncUrl();renderMap();renderDetail(null);renderTable();$("#districtSelect").value="";
+    state.selected=null;syncUrl();renderMap();renderDetail(null);renderTable();renderChamberStrip();$("#districtSelect").value="";
   }
 
   function selectChamber(c,scroll=false){

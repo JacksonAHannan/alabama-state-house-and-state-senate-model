@@ -8,9 +8,9 @@ import sys
 from pathlib import Path
 
 try:
-    from scripts.site_brand import apply_theme
+    from scripts.site_brand import apply_theme, methods_landing
 except ModuleNotFoundError:  # Direct execution from the scripts directory.
-    from site_brand import apply_theme
+    from site_brand import apply_theme, methods_landing
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -30,6 +30,7 @@ PUBLIC_PAGES = (
     "methodology.html",
     "cmo.html",
     "cmo-methodology.html",
+    "methods.html",
     "ideology-performance.html",
     "caucuses.html",
     "legislators.html",
@@ -45,6 +46,18 @@ def main() -> None:
     if not CAUCUS_CANDIDATE.exists():
         raise FileNotFoundError(f"Missing reviewed caucus page candidate: {CAUCUS_CANDIDATE}")
     shutil.copy2(CAUCUS_CANDIDATE, DOCS / "caucuses.html")
+    (DOCS / "methods.html").write_text(methods_landing(), encoding="utf-8")
+    (DOCS / "legislators.html").write_text(
+        '<!doctype html><html lang="en"><head><meta charset="utf-8">'
+        '<meta name="viewport" content="width=device-width,initial-scale=1">'
+        '<meta http-equiv="refresh" content="0; url=ideology-performance.html#issues">'
+        '<link rel="canonical" href="ideology-performance.html#issues">'
+        '<title>Candidate evidence · Jackson Hannan</title></head><body>'
+        '<header><nav><a href="ideology-performance.html" aria-current="page">Ideology &amp; caucuses</a></nav></header>'
+        '<main><p>The candidate evidence atlas has moved to '
+        '<a href="ideology-performance.html#issues">Ideology &amp; caucuses</a>.</p></main></body></html>',
+        encoding="utf-8",
+    )
     STAGE.mkdir(parents=True, exist_ok=True)
     for filename in PUBLIC_PAGES:
         path = DOCS / filename

@@ -35,6 +35,10 @@ def test_story_page_publishes_transparency_and_exploration_controls():
     page = modernize_v6_copy(build_page(payload))
     assert "<b>4</b><span>Map views</span>" in page
     assert 'id="scope-filter"' in page
+    assert 'id="scope-filter" aria-label="Candidate result scope"' in page
+    assert 'id="party-filter" aria-label="Candidate party"' in page
+    assert 'id="outcome-filter" aria-label="Candidate outcome"' in page
+    assert 'role="button" aria-label="Open ${x.candidate}' in page
     assert "All cycles and chambers" in page
     assert "Southern-prior decomposition" in page
     assert "Residual candidate quality" in page
@@ -90,6 +94,7 @@ def test_story_page_publishes_transparency_and_exploration_controls():
     assert "${candidateHeadline(x)}" in page
     assert "selectedParty=party" in page
     assert "renderMap();detail(currentSelectedCandidate())" in page
+    assert "function clearSelection()" in page
     detail = page.index("function detail(x)")
     headline = page.index('<div class="candidate-headline">', detail)
     race_box = page.index("${raceBox(x)}", detail)
