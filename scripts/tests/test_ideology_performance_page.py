@@ -109,12 +109,24 @@ def test_merged_payload_contains_transition_and_current_clusters() -> None:
     }
     federal = next(row for row in data["headlineBlocPerformance"]
                    if row["outcome"] == "candidate_federal_overperformance")
-    assert federal["difference"] > 19
+    assert 11.1 < federal["difference"] < 11.3
+    assert federal["ci_low"] < 0 < federal["ci_high"]
+    assert federal["n"] == 93
+    assert federal["strata"] == 9
     quality = next(row for row in data["headlineBlocPerformance"]
                    if row["outcome"] == "candidate_quality_index")
-    assert 2 < quality["difference"] < 3
-    assert quality["traditionalist_mean"] > 1
-    assert quality["progressive_mean"] < -1
+    assert 4.4 < quality["difference"] < 4.6
+    assert quality["ci_low"] > 0
+    assert quality["n"] == 107
+    assert quality["strata"] == 10
+    presidential = next(row for row in data["headlineBlocPerformance"]
+                        if row["outcome"] == "candidate_presidential_overperformance")
+    assert 19.3 < presidential["difference"] < 19.5
+    assert presidential["ci_low"] > 0
+    assert all(row["method"] == "cycle_chamber_fixed_effects_person_clustered_se"
+               for row in data["headlineBlocPerformance"])
+    assert all("traditionalist_mean" not in row and "progressive_mean" not in row
+               for row in data["headlineBlocPerformance"])
     assert {row["cluster_label"] for row in data["caseStudies"]} == {
         "Progressive-modern Democrats", "Traditionalist-populist Democrats",
     }
@@ -129,6 +141,18 @@ def test_page_uses_candidate_quality_index_without_southern_residual() -> None:
     assert '<th class="num">CQI</th>' in html
     assert "post-2016-invalid Southern structural residual" in html
     assert "candidate_quality_residual" not in html
+
+
+def test_headline_compares_blocs_within_election_context() -> None:
+    html = build()
+    assert "Within-election performance differences" in html
+    assert "within the same election year and chamber" in html
+    assert "only cycle-and-chamber cells containing both blocs" in html
+    assert "traditionalist-populist minus progressive-modern" in html
+    assert "Traditionalist-populist mean" not in html
+    assert "Progressive-modern mean" not in html
+    assert "Performance relative to three expectations" not in html
+    assert "r.ci_low" in html and "r.ci_high" in html
 
 
 def test_representative_cases_use_cqi_median() -> None:
