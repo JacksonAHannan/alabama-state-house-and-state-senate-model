@@ -64,6 +64,29 @@ def test_total_and_mediator_estimands_are_distinct() -> None:
     assert total.n.max() > direct.n.max()
 
 
+def test_cqi_is_joined_exactly_and_estimated_by_era() -> None:
+    panel = pd.read_csv(PANEL)
+    source = pd.read_csv("data/processed/war/cmo_v5_candidates.csv")
+    joined = panel[["canonical_candidate_id", "candidate_quality_index"]].merge(
+        source[["canonical_candidate_id", "candidate_quality_index"]],
+        on="canonical_candidate_id", how="left", validate="one_to_one",
+        suffixes=("_panel", "_source"),
+    )
+    assert np.allclose(joined.candidate_quality_index_panel,
+                       joined.candidate_quality_index_source, equal_nan=True)
+
+    estimates = pd.read_csv("research/cmo_ideology/absolute_rebuild_estimates.csv")
+    cqi = estimates[
+        estimates.outcome.eq("candidate_quality_index")
+        & estimates.specification.eq("party_era_context")
+        & estimates["sample"].str.startswith("D:")
+    ].set_index("sample")
+    assert 8.9 < cqi.loc["D:pre_2008", "coefficient"] < 9.2
+    assert 7.7 < cqi.loc["D:2008_2014", "coefficient"] < 7.9
+    assert cqi.loc["D:post_2016", "status"] == "underpowered"
+    assert cqi.loc["D:post_2016", "n"] == 5
+
+
 def test_symmetric_and_party_specific_incumbency_are_reported() -> None:
     estimates = pd.read_csv("research/cmo_ideology/absolute_rebuild_estimates.csv")
     common = estimates[(estimates.specification.eq("common_incumbency")) & estimates.term.eq("incumbent_i")]

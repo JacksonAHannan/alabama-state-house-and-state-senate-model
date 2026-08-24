@@ -349,6 +349,12 @@ A positive congruence coefficient means conservative positioning becomes more fa
 | R:2008_2014 | candidate_federal_overperformance | 66.000 | 10.722 | 18.736 | 0.569 | estimated |
 | R:post_2016 | candidate_federal_overperformance | 35.000 | -18.876 | 11.684 | 0.115 | estimated |
 | R:pre_2008 | candidate_federal_overperformance | 72.000 | -3.167 | 11.289 | 0.780 | estimated |
+| D:2008_2014 | candidate_quality_index | 61.000 | 7.801 | 4.185 | 0.068 | estimated |
+| D:post_2016 | candidate_quality_index | 5.000 |  |  |  | underpowered |
+| D:pre_2008 | candidate_quality_index | 143.000 | 9.036 | 2.123 | 0.000 | estimated |
+| R:2008_2014 | candidate_quality_index | 83.000 | -0.467 | 5.461 | 0.932 | estimated |
+| R:post_2016 | candidate_quality_index | 35.000 | -10.188 | 3.521 | 0.007 | estimated |
+| R:pre_2008 | candidate_quality_index | 80.000 | 0.188 | 2.762 | 0.946 | estimated |
 
 ## Democratic leave-one-cycle-out stability
 

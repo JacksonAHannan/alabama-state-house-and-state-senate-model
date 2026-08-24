@@ -75,7 +75,8 @@ def payload() -> dict:
     era = estimates[
         estimates.specification.eq("party_era_context")
         & estimates.term.eq("absolute_conservatism_z")
-        & estimates.outcome.isin(["candidate_cmo", "candidate_federal_overperformance"])]
+        & estimates.outcome.isin(["candidate_cmo", "candidate_quality_index",
+                                  "candidate_federal_overperformance"])]
     robustness = estimates[
         estimates.specification.isin(["party_winners_only", "party_prior_service_only", "party_leave_cycle_out"])
         & estimates.term.eq("absolute_conservatism_z")

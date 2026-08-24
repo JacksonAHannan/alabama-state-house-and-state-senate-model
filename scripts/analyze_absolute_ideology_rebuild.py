@@ -74,6 +74,11 @@ def build_panel() -> pd.DataFrame:
     ]
     if cmo.canonical_candidate_id.duplicated().any():
         raise ValueError("cmo_v4_candidates contains duplicate canonical_candidate_id values")
+    quality = pd.read_csv(WAR / "cmo_v5_candidates.csv", low_memory=False)[
+        ["canonical_candidate_id", "candidate_quality_index"]
+    ]
+    if quality.canonical_candidate_id.duplicated().any():
+        raise ValueError("cmo_v5_candidates contains duplicate canonical_candidate_id values")
     races = pd.read_csv(WAR / "preliminary_cmo_races.csv", low_memory=False)
     federal = pd.read_csv(ELECTIONS / "historical_federal_district_baselines.csv")
     keys = ["cycle", "chamber", "district"]
@@ -85,6 +90,7 @@ def build_panel() -> pd.DataFrame:
     candidates = candidates.drop(columns=[column for column in race_columns if column not in keys and column in candidates],
                                  errors="ignore")
     panel = (candidates.merge(cmo, on="canonical_candidate_id", how="left", validate="one_to_one")
+             .merge(quality, on="canonical_candidate_id", how="left", validate="one_to_one")
              .merge(races[race_columns], on=keys, how="left", validate="many_to_one")
              .merge(federal, on=keys, how="left", validate="many_to_one"))
     panel["party_direction"] = np.where(panel.party.eq("D"), 1.0, -1.0)
@@ -258,6 +264,16 @@ def run_absolute(panel: pd.DataFrame) -> pd.DataFrame:
                                 ["absolute_conservatism_z", "incumbent_i", "nonwhite_share",
                                  "white_college_share", "chamber"], "party_era_context",
                                 f"{party}:{era}", ["absolute_conservatism_z"]))
+    # CQI is a separate retrospective, partial-pooled candidate estimate. It
+    # is included only in the era comparison requested for the public chart;
+    # it does not replace the raw federal or presidential durability outcomes.
+    for party in ("D", "R"):
+        sample = data[data.party.eq(party)]
+        for era, era_data in sample.groupby("era"):
+            rows.extend(fit(era_data, "candidate_quality_index",
+                            ["absolute_conservatism_z", "incumbent_i", "nonwhite_share",
+                             "white_college_share", "chamber"], "party_era_context",
+                            f"{party}:{era}", ["absolute_conservatism_z"]))
     return pd.DataFrame(rows)
 
 
@@ -428,7 +444,8 @@ def write_report(panel: pd.DataFrame, estimates: pd.DataFrame, issues: pd.DataFr
                            & estimates.term.isin(["incumbent_i", "democratic_x_incumbency"])]
     era = estimates[(estimates.specification.eq("party_era_context"))
                     & estimates.term.eq("absolute_conservatism_z")
-                    & estimates.outcome.isin(["candidate_cmo", "candidate_federal_overperformance"])]
+                    & estimates.outcome.isin(["candidate_cmo", "candidate_quality_index",
+                                              "candidate_federal_overperformance"])]
     leave_out = estimates[(estimates.specification.eq("party_leave_cycle_out"))
                           & estimates.term.eq("absolute_conservatism_z")
                           & estimates["sample"].str.startswith("D:")

@@ -171,3 +171,9 @@ R:omit_2018,candidate_presidential_overperformance,party_leave_cycle_out,155,131
 R:2008_2014,candidate_presidential_overperformance,party_era_context,81,66,absolute_conservatism_z,estimated,-5.523785572880702,13.34649591292667,-31.682917562216975,20.635346416455572,0.6803278793613448
 R:post_2016,candidate_presidential_overperformance,party_era_context,35,35,absolute_conservatism_z,estimated,-2.475505514175016,14.762935472420889,-31.410859040119956,26.459848011769925,0.8678254583447279
 R:pre_2008,candidate_presidential_overperformance,party_era_context,74,73,absolute_conservatism_z,estimated,-0.26302781817125026,15.449925157598576,-30.544881127064457,30.01882549072196,0.9864641299705987
+D:2008_2014,candidate_quality_index,party_era_context,61,50,absolute_conservatism_z,estimated,7.80075162140891,4.185057832312067,-0.40196172992274093,16.00346497274056,0.06832544548365714
+D:post_2016,candidate_quality_index,party_era_context,5,5,absolute_conservatism_z,underpowered,,,,,
+D:pre_2008,candidate_quality_index,party_era_context,143,142,absolute_conservatism_z,estimated,9.035738057911885,2.1225760404489127,4.875489018632017,13.195987097191754,3.760576223210792e-05
+R:2008_2014,candidate_quality_index,party_era_context,83,67,absolute_conservatism_z,estimated,-0.46694079398807803,5.461470475283299,-11.171422925543345,10.237541337567189,0.9321249028954559
+R:post_2016,candidate_quality_index,party_era_context,35,35,absolute_conservatism_z,estimated,-10.18809683037425,3.5213020248846285,-17.089848799148122,-3.2863448616003774,0.006608741524466463
+R:pre_2008,candidate_quality_index,party_era_context,80,79,absolute_conservatism_z,estimated,0.1879506643075053,2.7615961544236884,-5.224777798362924,5.600679126977935,0.945913065775788

@@ -76,6 +76,25 @@ def test_page_is_self_contained_and_safe_for_missing_estimates() -> None:
     assert 'aria-current="page"' in html
 
 
+def test_era_cards_use_cqi_not_raw_federal_performance() -> None:
+    data = payload()
+    cqi = {
+        row["sample"]: row for row in data["era"]
+        if row["outcome"] == "candidate_quality_index"
+        and row["sample"].startswith("D:")
+    }
+    assert 8.9 < cqi["D:pre_2008"]["coefficient"] < 9.2
+    assert 7.7 < cqi["D:2008_2014"]["coefficient"] < 7.9
+    assert cqi["D:post_2016"]["status"] == "underpowered"
+
+    html = build()
+    assert "CQI association by era" in html
+    assert "const outcome='candidate_quality_index'" in html
+    assert "const outcome='candidate_federal_overperformance',eras" not in html
+    assert '"coefficient":7.8007516214' in html
+    assert '"coefficient":-2.5043222061' not in html
+
+
 def test_merged_payload_contains_transition_and_current_clusters() -> None:
     data = payload()
     assert len(data["cluster"]["members"]) == 274
