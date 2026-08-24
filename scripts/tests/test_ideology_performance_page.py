@@ -80,7 +80,9 @@ def test_merged_payload_contains_transition_and_current_clusters() -> None:
     data = payload()
     assert len(data["cluster"]["members"]) == 274
     assert len([row for row in data["cluster"]["members"] if row["party"] == "D"]) == 115
-    assert all(row["candidate_quality_residual"] is not None
+    assert all(row["candidate_quality_index"] is not None
+               for row in data["cluster"]["members"])
+    assert all("candidate_quality_residual" not in row
                for row in data["cluster"]["members"])
     assert all("candidate_cmo" not in row for row in data["cluster"]["members"])
     assert {row["cycle"] for row in data["democraticTransition"]} == {
@@ -90,31 +92,32 @@ def test_merged_payload_contains_transition_and_current_clusters() -> None:
                    if row["outcome"] == "candidate_federal_overperformance")
     assert federal["difference"] > 19
     quality = next(row for row in data["headlineBlocPerformance"]
-                   if row["outcome"] == "candidate_quality_residual")
-    assert 12 < quality["difference"] < 13
-    assert quality["traditionalist_mean"] > 8
-    assert quality["progressive_mean"] < -4
+                   if row["outcome"] == "candidate_quality_index")
+    assert 2 < quality["difference"] < 3
+    assert quality["traditionalist_mean"] > 1
+    assert quality["progressive_mean"] < -1
     assert {row["cluster_label"] for row in data["caseStudies"]} == {
         "Progressive-modern Democrats", "Traditionalist-populist Democrats",
     }
 
 
-def test_page_does_not_label_candidate_quality_residual_as_cmo() -> None:
+def test_page_uses_candidate_quality_index_without_southern_residual() -> None:
     html = build()
-    assert 'value="candidate_quality_residual">Candidate quality residual</option>' in html
+    assert 'value="candidate_quality_index">Candidate Quality Index (CQI)</option>' in html
     assert 'value="candidate_cmo"' not in html
     assert "candidate_cmo" not in html
     assert "<span>CMO</span>" not in html
-    assert '<th class="num">Quality residual</th>' in html
-    assert "it is neither Direct CMO nor the career-pooled quality index" in html
+    assert '<th class="num">CQI</th>' in html
+    assert "post-2016-invalid Southern structural residual" in html
+    assert "candidate_quality_residual" not in html
 
 
-def test_representative_cases_use_quality_residual_median() -> None:
+def test_representative_cases_use_cqi_median() -> None:
     data = payload()
     members = pd.DataFrame(data["cluster"]["members"])
     representatives = [
         row for row in data["caseStudies"]
-        if row["kind"] == "Near bloc median quality residual"
+        if row["kind"] == "Near bloc median CQI"
     ]
     assert len(representatives) == 2
     for case in representatives:
@@ -122,21 +125,29 @@ def test_representative_cases_use_quality_residual_median() -> None:
             members.party.eq("D")
             & members.cluster_label.eq(case["cluster_label"])
         ]
-        median = bloc.candidate_quality_residual.median()
+        median = bloc.candidate_quality_index.median()
         eligible = bloc[
-            bloc.candidate_quality_residual.notna()
+            bloc.candidate_quality_index.notna()
             & bloc.candidate_federal_overperformance.notna()
         ].copy()
         expected = eligible.loc[
-            (eligible.candidate_quality_residual - median).abs().idxmin()
+            (eligible.candidate_quality_index - median).abs().idxmin()
         ]
         assert case["canonical_candidate_id"] == expected.canonical_candidate_id
     traditionalist = next(
         row for row in representatives
         if row["cluster_label"] == "Traditionalist-populist Democrats"
     )
-    assert traditionalist["name"] == "Galliher"
+    assert traditionalist["name"] == "Boyd"
     assert traditionalist["name"] != "White"
+
+
+def test_modern_cqi_does_not_inherit_failed_southern_prior_sign() -> None:
+    members = pd.DataFrame(payload()["cluster"]["members"])
+    modern = members[(members.party == "D") & (members.era == "post_2016")]
+    means = modern.groupby("cluster_label").candidate_quality_index.mean()
+    assert means["Traditionalist-populist Democrats"] > 5
+    assert abs(means["Progressive-modern Democrats"]) < 1
 
 
 def test_public_docs_is_not_written_by_release_candidate_builder() -> None:
