@@ -99,17 +99,26 @@ def payload() -> dict:
 
     case_rows = []
     for label in (TRADITIONALIST, PROGRESSIVE):
-        subset = democrats[democrats.cluster_label.eq(label)].copy()
-        subset = subset[subset.candidate_federal_overperformance.notna()]
-        if subset.empty:
+        bloc = democrats[democrats.cluster_label.eq(label)].copy()
+        subset = bloc[
+            bloc.candidate_federal_overperformance.notna()
+            & bloc.candidate_quality_residual.notna()
+        ].copy()
+        if subset.empty or bloc.candidate_quality_residual.notna().sum() == 0:
             continue
-        # Include an upper-decile performer and an observation near the bloc median;
-        # this avoids presenting the single most extreme record as representative.
-        median = subset.candidate_federal_overperformance.median()
+        # The performance case is defined on the federal comparison. The
+        # representative case is independently defined on current v6 residual
+        # quality so its label and displayed headline value refer to the same
+        # quantity. Restrict the card candidate to rows with a federal value,
+        # but compare it with the median of the full quality-scored bloc.
+        quality_median = bloc.candidate_quality_residual.median()
         upper_decile = subset.candidate_federal_overperformance.quantile(0.90)
         picks = [(subset.candidate_federal_overperformance - upper_decile).abs().idxmin(),
-                 (subset.candidate_federal_overperformance - median).abs().idxmin()]
-        for kind, index in zip(("Upper-decile federal performance", "Near bloc median"), picks):
+                 (subset.candidate_quality_residual - quality_median).abs().idxmin()]
+        for kind, index in zip((
+            "Upper-decile federal performance",
+            "Near bloc median quality residual",
+        ), picks):
             row = subset.loc[index]
             case_rows.append({
                 "kind": kind, "canonical_candidate_id": row.canonical_candidate_id,
@@ -179,7 +188,7 @@ def build() -> str:
 
 <section id="issues"><div class="section-head"><div class="kicker">Issue explorer</div><h2>Candidate evidence by issue</h2><p>Use this view to inspect individual observations, evidence balance, and performance. Sparse or one-sided issue records should not be read as clean causal comparisons.</p></div><div class="panel"><div class="controls"><label>Issue<select id="issueSelect"></select></label><label>Measure<select id="issueOutcome"><option value="candidate_federal_overperformance">Raw vs. federal baseline</option><option value="candidate_presidential_overperformance">Raw vs. previous president</option><option value="candidate_quality_residual">Candidate quality residual</option></select></label><label>Era<select id="issueEra"><option value="all">All eras</option><option value="pre_2008">Before 2008</option><option value="2008_2014">2008–2014</option><option value="post_2016">2016 and later</option></select></label></div><div id="issueWarning" class="method" hidden></div><div class="issue-layout"><aside id="issueCopy" class="issue-copy"></aside><div><div id="issuePlot" class="issue-plot"><span class="axis-note">Issue position: liberal-coded ← 0 → conservative-coded</span></div><div id="issueCoverage" class="coverage"></div></div></div></div></section>
 
-<section id="cases"><div class="section-head"><div class="kicker">Selected observations</div><h2>Examples and typical cases</h2><p>These cards include a high federal-baseline performer and an observation near each bloc median. They are entry points into the evidence, not a hand-selected proof of the result.</p></div><div id="caseStudies" class="cases"></div></section>
+<section id="cases"><div class="section-head"><div class="kicker">Selected observations</div><h2>Examples and typical cases</h2><p>These cards include a high federal-baseline performer and the eligible observation nearest each bloc's median candidate-quality residual. They are entry points into the evidence, not a hand-selected proof of the result.</p></div><div id="caseStudies" class="cases"></div></section>
 
 <section id="candidate-explorer"><div class="section-head"><div class="kicker">Caucus explorer</div><h2>Candidate similarity across all clustering dimensions</h2><p>Nearby points have similar observed issue records. The two display coordinates are a projection and do not represent individual ideological axes. Ellipses summarize the two groupings; they are not district geography or probability regions.</p></div><div class="panel"><div class="constellation-wrap"><div class="constellation-main"><svg id="constellation" viewBox="0 0 760 500" role="img" aria-label="Candidate similarity map"></svg><div class="key"><span><i class="trad"></i>Traditionalist-populist</span><span><i class="prog"></i>Progressive-modern</span><span id="constellationCoverage"></span></div></div><aside id="candidateDetail" class="candidate-detail"><p>Select a point or table row to inspect a candidate-cycle.</p></aside></div><div class="table-tools"><label>Search candidates<input id="candidateSearch" type="search" placeholder="Name or district"></label></div><div class="table-wrap"><table><thead><tr><th>Candidate</th><th>Race</th><th>Bloc</th><th class="num">Quality residual</th><th class="num">Vs. federal</th><th class="num">Vs. president</th></tr></thead><tbody id="candidateRows"></tbody></table></div></div></section>
 

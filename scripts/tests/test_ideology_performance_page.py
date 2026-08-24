@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import pandas as pd
+
 from scripts.build_ideology_performance_page import build, payload
 
 
@@ -105,6 +107,36 @@ def test_page_does_not_label_candidate_quality_residual_as_cmo() -> None:
     assert "<span>CMO</span>" not in html
     assert '<th class="num">Quality residual</th>' in html
     assert "it is neither Direct CMO nor the career-pooled quality index" in html
+
+
+def test_representative_cases_use_quality_residual_median() -> None:
+    data = payload()
+    members = pd.DataFrame(data["cluster"]["members"])
+    representatives = [
+        row for row in data["caseStudies"]
+        if row["kind"] == "Near bloc median quality residual"
+    ]
+    assert len(representatives) == 2
+    for case in representatives:
+        bloc = members[
+            members.party.eq("D")
+            & members.cluster_label.eq(case["cluster_label"])
+        ]
+        median = bloc.candidate_quality_residual.median()
+        eligible = bloc[
+            bloc.candidate_quality_residual.notna()
+            & bloc.candidate_federal_overperformance.notna()
+        ].copy()
+        expected = eligible.loc[
+            (eligible.candidate_quality_residual - median).abs().idxmin()
+        ]
+        assert case["canonical_candidate_id"] == expected.canonical_candidate_id
+    traditionalist = next(
+        row for row in representatives
+        if row["cluster_label"] == "Traditionalist-populist Democrats"
+    )
+    assert traditionalist["name"] == "Galliher"
+    assert traditionalist["name"] != "White"
 
 
 def test_public_docs_is_not_written_by_release_candidate_builder() -> None:
