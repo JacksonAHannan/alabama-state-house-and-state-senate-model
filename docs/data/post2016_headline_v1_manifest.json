@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "owner_selected_public_headline_release_candidate",
   "methodology_version": "post2016_headline_v1",
-  "source_experiment_build": "30d4e3967a7bbc38700e",
+  "source_experiment_build": "03af263d5d3d4c473bdc",
   "selected_source_scenario": "uniform_polling_federal_within_cycle_orthogonal",
   "selected_specification": "polling_federal_plus_incumbency_within_cycle_orthogonal_fundraising",
   "probability": {
@@ -32,7 +32,7 @@
   "inputs": [
     {
       "path": "data/processed/forecast_calibration/post2016_polling_cmo_2026_forecast.csv",
-      "sha256": "3ef0555979173fd409d4f14102623fcb3f3a7617ace978076c69c9452d7c90e7"
+      "sha256": "b3408bf0c0b3796f0c221ed27be3da9a856d93c5f75129e219bb8937cbee644b"
     },
     {
       "path": "data/processed/forecast_calibration/post2016_polling_cmo_metrics.csv",
@@ -44,7 +44,7 @@
     },
     {
       "path": "data/processed/forecast_calibration/post2016_polling_cmo_manifest.json",
-      "sha256": "4acf8073af10c7e1069637e0e9d7961dc19cfc50e2c72ac41fa99119cbeac57c"
+      "sha256": "66c05b3e19b159c61bc9ce054d95c96cadc900bc00842a2daa1fe5eadd8d9980"
     },
     {
       "path": "data/processed/forecast_calibration/robust_forecast_v1_error_components.csv",
@@ -61,17 +61,17 @@
     {
       "path": "data/processed/forecast_calibration/post2016_headline_v1_2026_scenarios.csv",
       "rows": 144,
-      "sha256": "77b3ae6bedfd0432b1c85e170f418c4741e76885e490832f5a6ddf60e0caad06"
+      "sha256": "105a5995bdd4deec620e6b81064d55574e23831ddf38c704a5bc5376ba4c1e91"
     },
     {
       "path": "data/processed/forecast_calibration/post2016_headline_v1_2026_full_uncertainty.csv",
       "rows": 48,
-      "sha256": "3a1ade2d86dcc5574e54ca3862d03a6c62a2394568862caef12e98cb7271e858"
+      "sha256": "7520764c2577fb92bb9cafbeaaad34066d430c3f4b9fc0afe817cb2cc832255d"
     },
     {
       "path": "data/processed/forecast_calibration/post2016_headline_v1_2026_modeled_seats.csv",
-      "rows": 14,
-      "sha256": "5c181408780cac63b6a57233159e7cbf9a26ed08489939da7f8aace17d6c7689"
+      "rows": 13,
+      "sha256": "fc993de33dddd2aa2d758d76842039e80b0db24983fb790d7bd04596da33595e"
     },
     {
       "path": "data/processed/forecast_calibration/post2016_headline_v1_forward_metrics.csv",
@@ -84,5 +84,5 @@
       "sha256": "a5697acc59dfe5ac5eba5a2a00b1b83c1d2067a927d9ac5fc17529c61da9bf66"
     }
   ],
-  "build_id": "e178fb3f50c98c9c312b"
+  "build_id": "4cbe010c1899b730ec4c"
 }

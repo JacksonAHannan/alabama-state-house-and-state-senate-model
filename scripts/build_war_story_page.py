@@ -41,6 +41,17 @@ MAP_FILES = {
     (2022, "senate"): "al_sldu_2021_to_2023.zip",
 }
 
+PRIOR_PRESIDENTIAL_NOMINEES = {
+    1994: (1992, "Bill Clinton", "George H. W. Bush"),
+    1998: (1996, "Bill Clinton", "Bob Dole"),
+    2002: (2000, "Al Gore", "George W. Bush"),
+    2006: (2004, "John Kerry", "George W. Bush"),
+    2010: (2008, "Barack Obama", "John McCain"),
+    2014: (2012, "Barack Obama", "Mitt Romney"),
+    2018: (2016, "Hillary Clinton", "Donald Trump"),
+    2022: (2020, "Joe Biden", "Donald Trump"),
+}
+
 
 def number(value, default=None):
     try:
@@ -218,8 +229,8 @@ def load_data():
             "demWar": dem_context, "demWithin": dem_within, "demRawTicket": dem_raw, "demPair": dem_pair,
             "demPercentile": percentiles, "rawVsGovernor": raw_gov, "rawVsPresidential": raw_pres,
             "districtStatus": {str(d): f"{race_index[(cycle, chamber, d)]['contest_tier'].title()} contested D–R race" for d in districts},
-            "baselines": {str(d): ([{"label": "Selected ticket baseline", "demMargin": round(number(race_index[(cycle, chamber, d)]["selected_ticket_margin"], 0), 2), "kind": "composite", "demName": "Democratic baseline", "repName": "Republican baseline"}, {"label": "Previous presidential", "demMargin": round(number(race_index[(cycle, chamber, d)].get("prior_presidential_margin"), 0), 2), "kind": "presidential", "available": number(race_index[(cycle, chamber, d)].get("prior_presidential_margin")) is not None, "demName": "Democratic nominee", "repName": "Republican nominee"}] + office_index.get((cycle, chamber, d), [])) for d in districts},
-            "summary": {"races": len(winners), "candidates": len(items), "median": round(float(np.median([x["war"] for x in winners.values()])), 1), "top": max(winners.values(), key=lambda x: x["war"])["candidate"]},
+            "baselines": {str(d): ([{"label": "Selected ticket baseline", "demMargin": round(number(race_index[(cycle, chamber, d)]["selected_ticket_margin"], 0), 2), "kind": "composite", "demName": "Democratic baseline", "repName": "Republican baseline"}, {"label": f"{PRIOR_PRESIDENTIAL_NOMINEES[cycle][0]} President", "demMargin": round(number(race_index[(cycle, chamber, d)].get("prior_presidential_margin"), 0), 2), "kind": "presidential", "available": number(race_index[(cycle, chamber, d)].get("prior_presidential_margin")) is not None, "demName": PRIOR_PRESIDENTIAL_NOMINEES[cycle][1], "repName": PRIOR_PRESIDENTIAL_NOMINEES[cycle][2]}] + office_index.get((cycle, chamber, d), [])) for d in districts},
+            "summary": {"races": len(winners), "candidates": len(items), "median": round(float(np.median([x["war"] for x in winners.values()])), 1), "top": max(winners.values(), key=lambda x: x["war"])["candidate"], "warMedian": round(float(np.median([x["partialPooled"] for x in winners.values()])), 1), "warTop": max(winners.values(), key=lambda x: x["partialPooled"])["candidate"]},
         }
     return payload
 
@@ -260,6 +271,7 @@ def build_attribution_panel(tag="section"):
         ("Finance cross-check", "FollowTheMoney / National Institute on Money in Politics", "Candidate fundraising totals provide a secondary comparison with Alabama campaign-finance records.", "https://www.followthemoney.org/"),
         ("Historical roster evidence", "Shor–McCarty state legislative data", "Serving-legislator roster and party evidence used in historical incumbency review.", "https://americanlegislatures.com/"),
         ("Independent validation", "Wikipedia election pages", "Archived pages used only to cross-check candidate names and vote totals; discrepancies do not overwrite official returns.", "https://en.wikipedia.org/wiki/Alabama_Legislature"),
+        ("WAR framework and terminology", "Split Ticket", "The public WAR name credits Split Ticket's candidate-quality framework; this project's Alabama construction, inputs, estimates, and limitations are its own.", "https://split-ticket.org/2025/08/15/deconstructing-war/"),
     ]
     cards = "".join(
         f'<article><span>{html.escape(role)}</span><h3><a href="{url}" target="_blank" rel="noopener">{html.escape(name)} ↗</a></h3><p>{html.escape(use)}</p></article>'
@@ -618,6 +630,100 @@ def modernize_v6_copy(rendered):
     return rendered
 
 
+def modernize_war_headline(rendered):
+    """Make candidate WAR the public product while retaining CMO as evidence."""
+    rendered = re.sub(
+        r"<title>.*?</title>",
+        "<title>Alabama Legislative Wins Above Replacement (WAR)</title>",
+        rendered, count=1, flags=re.S,
+    )
+    rendered = re.sub(
+        r'<section class="story-head"><h1>.*?</h1><div class="dek">.*?</div>',
+        '<section class="story-head"><h1>Alabama Legislative WAR</h1><div class="dek">Candidate-level Wins Above Replacement estimates, observed ticket overperformance, and historical district context for Alabama legislative elections, 1994&ndash;2022.</div>',
+        rendered, count=1, flags=re.S,
+    )
+    rendered = re.sub(
+        r'<section class="model-status">.*?</section>',
+        '<section class="model-status"><div class="status-card feature"><span>Historical WAR architecture</span><b>Partially pooled candidate quality</b><p>WAR estimates the candidate-versus-opponent component remaining after the Southern historical model accounts for ordinary down-ballot structure. CMO remains a separate observed ticket comparison.</p></div><div class="status-card"><b>8</b><span>Historical cycles</span></div><div class="status-card"><b>509</b><span>Contested D vs. R races</span></div><div class="status-card"><b>4</b><span>Map views</span></div></section>',
+        rendered, count=1, flags=re.S,
+    )
+    rendered = re.sub(
+        r'<section class="intro">.*?</section>',
+        '<section class="intro"><p><strong>WAR is the headline candidate-quality estimate.</strong> It partially pools each candidate&rsquo;s residual across the candidate-opponent network after accounting for the historical Southern down-ballot expectation. Scores are margin points and retain uncertainty.</p><p>CMO remains the directly observed difference between a legislative candidate&rsquo;s margin and the selected same-district ticket. Governor, federal, and previous-presidential comparisons remain visible as separate evidence.</p></section>',
+        rendered, count=1, flags=re.S,
+    )
+    rendered = re.sub(
+        r'<section class="measure-guide".*?</section><section class="explorer">',
+        '<section class="measure-guide" aria-labelledby="measureGuideTitle"><h2 id="measureGuideTitle">Measures used on this page</h2><div><article><b>WAR</b><p>Partial-pooled candidate quality after the Southern historical model accounts for ordinary down-ballot structure.</p></article><article><b>CMO</b><p>Observed candidate margin minus the selected same-district ticket margin.</p></article><article><b>Total electoral value</b><p>WAR plus the candidate-oriented generic incumbency component.</p></article></div></section><section class="explorer">',
+        rendered, count=1, flags=re.S,
+    )
+    rendered = rendered.replace(
+        "The default view maps CMO in margin points. The raw comparison views show the legislative margin relative to the same district's governor result or previous presidential result. Those three views use a symmetric ±30-point red-to-blue scale. Residual quality uses a separate ±20-point gold-to-teal scale; tooltips show uncapped values.",
+        "The default view maps the Democratic-versus-Republican WAR differential on its own gold-to-teal scale. CMO and the governor and previous-presidential comparisons use a separate red-to-blue margin scale; tooltips show uncapped values.",
+    )
+    rendered = rendered.replace(
+        '<button data-map-mode="absolute" class="active">CMO</button><button data-map-mode="quality">Residual quality differential</button>',
+        '<button data-map-mode="quality" class="active">WAR</button><button data-map-mode="absolute">CMO</button>',
+    )
+    rendered = rendered.replace(
+        "let active='2010-house',sortKey='war',sortDir=-1,selected=null,selectedParty=null,mapMode='absolute',baselineChoices={};",
+        "let active='2010-house',sortKey='partialPooled',sortDir=-1,selected=null,selectedParty=null,mapMode='quality',baselineChoices={};",
+    )
+    rendered = rendered.replace(
+        "quality:{description:'Pooled residual-quality differential, D minus R',headline:'Residual quality differential vs. opponent',title:'residual quality',cap:20",
+        "quality:{description:'WAR differential, Democratic candidate minus Republican candidate',headline:'Candidate WAR',title:'WAR',cap:20",
+    )
+    rendered = rendered.replace(
+        "function candidateMetric(x){if(!x)return null;if(mapMode==='absolute')return x.war;const value=mapMetric(DATA[active],x.district);return value==null?null:(x.party==='D'?Number(value):-Number(value))}",
+        "function candidateMetric(x){if(!x)return null;if(mapMode==='quality')return Number(x.partialPooled);if(mapMode==='absolute')return x.war;const value=mapMetric(DATA[active],x.district);return value==null?null:(x.party==='D'?Number(value):-Number(value))}",
+    )
+    rendered = rendered.replace(
+        "return mapMode==='quality'?`${side} residual-quality advantage: ${amount} points`:`${side} overperformance: ${amount} points`",
+        "return mapMode==='quality'?`${side} WAR advantage: ${amount} points`:`${side} overperformance: ${amount} points`",
+    )
+    rendered = re.sub(
+        r'<th data-sort="war">CMO.*?</th><th data-sort="partialPooled">.*?</th><th data-sort="totalElectoralValue">.*?</th>',
+        '<th data-sort="partialPooled">WAR &harr;</th><th data-sort="war">CMO</th><th data-sort="totalElectoralValue">Total value</th>',
+        rendered, count=1, flags=re.S,
+    )
+    rendered = rendered.replace(
+        '<td class="num"><b>${fmt(x.war)}</b></td><td class="num">${fmt(x.partialPooled)}<br><small>${esc(x.qualityStatus)}</small></td><td class="num">${fmt(x.totalElectoralValue)}</td>',
+        '<td class="num"><b>${fmt(x.partialPooled)}</b><br><small>${esc(x.qualityStatus)}</small></td><td class="num">${fmt(x.war)}</td><td class="num">${fmt(x.totalElectoralValue)}</td>',
+    )
+    rendered = rendered.replace(
+        ", CMO ${fmt(x.war)}\" data-section=",
+        ", WAR ${fmt(x.partialPooled)}\" data-section=",
+    )
+    rendered = rendered.replace("Candidate CMO timeline", "Candidate WAR timeline")
+    rendered = rendered.replace("CMO is signed to the Democratic margin. Select a race to open it.", "WAR is candidate-oriented. Select a race to open it.")
+    rendered = rendered.replace('<b>CMO ${fmt(c.war)}</b>', '<b>WAR ${fmt(c.partialPooled)}</b>')
+    rendered = rendered.replace("Math.abs(c.war)", "Math.abs(c.partialPooled)")
+    rendered = rendered.replace("c.war>=0", "c.partialPooled>=0")
+    rendered = rendered.replace("${fmt(c.war)}", "${fmt(c.partialPooled)}")
+    rendered = rendered.replace("Southern-prior decomposition", "WAR decomposition")
+    rendered = rendered.replace("Race-level residual quality", "Unpooled quality residual")
+    rendered = rendered.replace("Partial-pooled residual quality", "WAR")
+    rendered = rendered.replace("Residual quality differential", "WAR differential")
+    rendered = rendered.replace("residual candidate quality", "WAR")
+    rendered = rendered.replace("Residual candidate quality", "WAR")
+    rendered = rendered.replace("Candidate Quality Index", "WAR")
+    rendered = rendered.replace("Candidate Quality", "WAR")
+    rendered = rendered.replace(
+        "CMO is the observed ticket comparison. WAR is a separate, shrinkage-based estimate; its interval and evidence status are shown rather than hidden.",
+        "WAR is the headline partial-pooled estimate. CMO remains the observed ticket comparison; both are shown with distinct labels.",
+    )
+    rendered = rendered.replace(
+        "<div><b>${fmt(d.summary.median)}</b><span>Median winner CMO</span></div><div><b>${esc(d.summary.top)}</b><span>Top winner</span></div>",
+        "<div><b>${fmt(d.summary.warMedian)}</b><span>Median winner WAR</span></div><div><b>${esc(d.summary.warTop)}</b><span>Highest winner WAR</span></div>",
+    )
+    rendered = re.sub(
+        r'<section class="method">.*?</section></main>',
+        '<section class="method"><h2>How to read WAR</h2><p>WAR is a retrospective, partial-pooled estimate of candidate quality in margin points. It is not a win probability and does not uniquely separate candidate strength from opponent weakness in isolated one-time races.</p><p>CMO and the raw governor, federal, and previous-presidential comparisons show what happened before the historical structural adjustment. They remain available because the decomposition is uncertain.</p><p>The WAR name credits <a href="https://split-ticket.org/2025/08/15/deconstructing-war/" target="_blank" rel="noopener">Split Ticket&rsquo;s candidate-quality framework</a>; this project&rsquo;s Alabama construction and estimates are independent.</p><p><a href="cmo-methodology.html">Read the full WAR methodology</a> or <a href="index.html">view the 2026 forecast</a>.</p></section></main>',
+        rendered, count=1, flags=re.S,
+    )
+    return rendered
+
+
 def modernize_methodology_v6(rendered):
     rendered = modernize_methodology_v5(rendered)
     body = '''<article class="copy">
@@ -640,9 +746,42 @@ __ATTRIBUTION_PANEL__
     return rendered
 
 
+def modernize_war_methodology(rendered):
+    """Present the v6 decomposition as WAR with CMO kept as an input measure."""
+    rendered = re.sub(r"<title>.*?</title>", "<title>Alabama Legislative WAR Methodology</title>", rendered, count=1, flags=re.S)
+    rendered = re.sub(r"<h1>.*?</h1>", "<h1>WAR methodology</h1>", rendered, count=1, flags=re.S)
+    rendered = re.sub(
+        r'<(?P<tag>div|p) class="dek">.*?</(?P=tag)>',
+        '<p class="dek">Definitions, inputs, partial pooling, validation, and limitations for Alabama legislative Wins Above Replacement.</p>',
+        rendered, count=1, flags=re.S,
+    )
+    body = '''<article class="copy">
+<section id="estimand"><h2>1. What WAR estimates</h2><p><b>Wins Above Replacement (WAR)</b> is the partial-pooled candidate effect remaining after the historical Southern model estimates ordinary down-ballot structure for the race.</p><div class="formula">Race quality residual = observed CMO &minus; Southern structural expectation<br>Candidate WAR values are fitted so q(D candidate) &minus; q(R candidate) explains that residual</div><p>WAR is expressed in two-party margin points. It is retrospective, uncertain, and distinct from a win probability.</p></section>
+<section id="cmo"><h2>2. CMO as the observed input</h2><p><b>Candidate Margin Overperformance (CMO)</b> is the candidate-oriented legislative margin minus the selected same-district ticket margin. Incumbency, fundraising, demographics, ideology, and candidate history do not alter CMO.</p><p>CMO remains published alongside WAR because it is directly auditable and shows the performance being decomposed.</p></section>
+<section id="data"><h2>3. Coverage</h2><p>The model covers 509 contested Democratic&ndash;Republican Alabama House and Senate races from 1994 through 2022 and publishes 1,018 candidate-cycle rows.</p></section>
+<section id="baseline"><h2>4. Ticket and geographic inputs</h2><p>The preferred CMO baseline is the same-cycle federal ticket measured inside the legislative district, with a documented same-cycle state-ticket fallback. Governor, federal, and previous-presidential comparisons remain separate.</p><p>Precinct-to-district allocation now gives official legislative ballot evidence priority over shared Census VTD geometry. One reported district receives the entire named precinct; a precinct reporting multiple districts is divided by its observed legislative activity; spatial and county fallbacks apply only when ballot evidence is unavailable.</p></section>
+<section id="prior"><h2>5. Southern structural expectation</h2><p>The comparison uses 2,350 legislative contests from ten Southern states, excluding Alabama. It estimates ordinary down-ballot performance for a race with similar timing, chamber, federal baseline, and incumbency. The residual becomes the input to candidate partial pooling.</p></section>
+<section id="quality"><h2>6. Partial pooling and incumbency</h2><p>The candidate-versus-opponent residual is partial-pooled across the identity and opponent network with the forward-selected ridge penalty. Generic incumbency is reported separately; total electoral value adds the candidate-oriented generic incumbency component to WAR.</p></section>
+<section id="validation"><h2>7. Validation and regime change</h2><p>The Southern expectation improves historical fit across 1994&ndash;2022 but fails the modern 2018&ndash;2022 forecast gate. WAR is therefore used for historical candidate analysis and not inserted directly into the 2026 forecast as a deterministic adjustment.</p></section>
+<section id="uncertainty"><h2>8. Identification and uncertainty</h2><p>A one-time race identifies only the candidate-versus-opponent differential. It cannot uniquely distinguish candidate strength, opponent weakness, and omitted local conditions. Isolated one-time candidates retain an uncertain, pair-differential-only label. Intervals crossing zero indicate uncertain evidence.</p></section>
+<section id="limits"><h2>9. Limitations</h2><ul><li>Most candidates appear only once.</li><li>The Southern calibration panel ends in 2016 and does not validate a modern forecast adjustment.</li><li>Historical geography and fallback ticket sources add row-specific uncertainty.</li><li>WAR is a margin-point estimate, not literal seat wins or a causal division of credit.</li></ul></section>
+<section id="reproducibility"><h2>10. Downloads and credit</h2><p>The WAR name credits <a href="https://split-ticket.org/2025/08/15/deconstructing-war/" target="_blank" rel="noopener">Split Ticket&rsquo;s candidate-quality framework</a>. This project&rsquo;s Alabama data, allocation hierarchy, Southern model, and estimates are independent.</p><div class="links"><a href="cmo.html">Explore WAR</a><a href="data/cmo_v6_southern_candidates.csv">Candidate data</a><a href="data/cmo_v6_southern_races.csv">Race data</a><a href="data/cmo_v6_southern_quality.csv">WAR estimates</a><a href="data/cmo_v6_southern_validation.csv">Historical checks</a></div></section>
+__ATTRIBUTION_PANEL__
+</article>'''.replace("__ATTRIBUTION_PANEL__", build_attribution_panel())
+    start = rendered.index('<article class="copy">')
+    end = rendered.index('</article></div></main>')
+    rendered = rendered[:start] + body + rendered[end + len('</article>'):]
+    rendered = re.sub(
+        r'<aside class="toc">.*?</aside>',
+        '<aside class="toc"><b>On this page</b><a href="#estimand">WAR</a><a href="#cmo">CMO</a><a href="#data">Coverage</a><a href="#baseline">Inputs</a><a href="#prior">Southern expectation</a><a href="#quality">Partial pooling</a><a href="#validation">Validation</a><a href="#uncertainty">Identification</a><a href="#limits">Limitations</a><a href="#reproducibility">Downloads and credit</a><a href="#sources">Sources</a></aside>',
+        rendered, count=1, flags=re.S,
+    )
+    return rendered
+
+
 if __name__ == "__main__":
     data = load_data()
-    rendered = modernize_v6_copy(build_page(data))
+    rendered = modernize_war_headline(modernize_v6_copy(build_page(data)))
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(rendered, encoding="utf-8")
     LEGACY_OUTPUT.write_text(rendered, encoding="utf-8")
@@ -674,7 +813,9 @@ __ATTRIBUTION_PANEL__
     old_toc = '<aside class="toc"><b>On this page</b><a href="#estimand">What CMO measures</a><a href="#data">Data and eligibility</a><a href="#baseline">Expected baseline</a><a href="#crossfit">Cross-fitting</a><a href="#versions">Three specifications</a><a href="#validation">Validation</a><a href="#limits">Limitations</a><a href="#forecast">Forecast use</a><a href="#sources">Sources and credit</a></aside>'
     new_toc = '<aside class="toc"><b>On this page</b><a href="#estimand">Four measures</a><a href="#data">Coverage and contest tiers</a><a href="#baseline">Political baseline</a><a href="#models">Estimation</a><a href="#identity">Identity and partial pooling</a><a href="#validation">Validation</a><a href="#limits">Limitations</a><a href="#reproducibility">Reproducibility</a><a href="#sources">Sources and credit</a></aside>'
     methodology_html = methodology_html.replace(old_toc, new_toc)
-    methodology_html = modernize_methodology_v6(methodology_html)
+    methodology_html = modernize_war_methodology(
+        modernize_methodology_v6(methodology_html)
+    )
     SITE_METHODOLOGY_OUTPUT.write_text(methodology_html, encoding="utf-8")
     site_data = SITE_OUTPUT.parent / "data"
     site_data.mkdir(parents=True, exist_ok=True)

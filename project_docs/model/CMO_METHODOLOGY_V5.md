@@ -1,10 +1,10 @@
-# CMO methodology v5: observed overperformance and candidate quality
+# CMO methodology v5: observed overperformance and candidate WAR
 
 ## Two estimands
 
 **Direct CMO** is the candidate-oriented legislative margin minus the selected same-cycle ticket margin. It is observed overperformance and is never residualized for incumbency, fundraising, demographics, or candidate history.
 
-**Candidate Quality Index (CQI)** is the partial-pooled candidate effect from the direct gap after cycle/chamber/source replacement levels and the selected predetermined structural specification (`cycle_centered`). The candidate ridge penalty is 1.
+**Wins Above Replacement (WAR)** is the public name for the partial-pooled candidate effect from the direct gap after cycle/chamber/source replacement levels and the selected predetermined structural specification (`cycle_centered`). The candidate ridge penalty is 1. The internal `candidate_quality_index` field is retained as a stable compatibility column; it does not denote a second public measure.
 
 ## Downballot lag
 
@@ -12,7 +12,7 @@ Current same-cycle federal margin appears only in the ticket baseline. Lag featu
 
 ## Incumbency
 
-Total CQI retains officeholding as part of electoral value. An intrinsic sensitivity subtracts a prespecified 3-point generic officeholding effect before estimating candidate effects. Fundraising is not subtracted from either score.
+Total WAR retains officeholding as part of electoral value. An intrinsic sensitivity subtracts a prespecified 3-point generic officeholding effect before estimating candidate effects. Fundraising is not subtracted from either score.
 
 ## Identity and isolated races
 

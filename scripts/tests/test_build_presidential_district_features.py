@@ -51,6 +51,16 @@ def test_prepare_weights_filters_cycle_and_computes_share():
     assert round(row10.activity_share, 2) == 0.8
 
 
+def test_2008_presidential_context_places_hd32_on_democratic_side():
+    features = pd.read_csv("data/processed/presidential/2010_district_presidential_features.csv")
+    row = features[
+        features.cycle.eq(2010) & features.chamber.eq("house") & features.district.eq(32)
+    ].squeeze()
+    assert row.pres_2008_source_complete
+    assert row.pres_2008_dem_margin > 0
+    assert round(row.pres_2008_dem_margin, 6) == 24.052976
+
+
 def test_allocate_to_districts_splits_precinct_by_activity_share():
     weights = _prepared_weights()
     votes = pd.DataFrame(

@@ -107,7 +107,7 @@ Fundraising first-stage diagnostics:
 
 The primary experimental baseline is the 2024 presidential district margin plus the current national generic-ballot swing. Parallel scenarios use raw fundraising, a cross-cycle structural residual, and a residual normalized within each election cycle using only contemporaneously observable covariates. Sensitivities show 75%-shrunk candidate adjustments and the existing demographic-transfer polling baseline. Models are refit on both 2018 and 2022 after the forward test.
 
-Explicit FCPA records are complete for 43/48 currently contested Democratic-versus-Republican races. Complete races receive the combined lag, incumbency, and fundraising adjustment. The remaining races receive the separately fitted lag-plus-incumbency adjustment and are flagged `finance_model_applied = false`.
+Cutoff-specific official Alabama committee summaries are complete for 45/48 currently contested Democratic-versus-Republican races. Complete races receive the combined lag, incumbency, and fundraising adjustment. The remaining races receive the separately fitted lag-plus-incumbency adjustment and are flagged `finance_model_applied = false`.
 
 Win probabilities use the already validated Student-t link with 5 degrees of freedom and a 5.75-point scale. This experiment changes predicted margins, not the probability calibration.
 

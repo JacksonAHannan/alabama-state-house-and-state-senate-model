@@ -286,42 +286,42 @@ def match_precincts(target: pd.DataFrame, refs: pd.DataFrame,
 def hierarchical_precinct_weights(activity: pd.DataFrame, matches: pd.DataFrame,
                                   spatial: pd.DataFrame,
                                   official_blocks: pd.DataFrame) -> pd.DataFrame:
-    """Use reported districts first and geography only for genuine splits."""
+    """Use reported ballot districts before any VTD-derived geometry.
+
+    A Census VTD is not a precinct identity.  Multiple named election
+    precincts can occupy one VTD, so a VTD that crosses district lines is not
+    evidence that every precinct matched to it is itself split.  Official
+    same-cycle legislative returns therefore control whenever they identify a
+    precinct's district or districts:
+
+    * one reported district -> assign the full precinct to that district;
+    * multiple reported districts -> split by the observed legislative ballot
+      activity within that precinct;
+    * no reported district -> allow spatial and county fallbacks downstream.
+
+    This ordering prevents the shared-VTD leakage that previously assigned the
+    same multi-district polygon shares to several distinct polling places.
+    """
     keys = ["cycle", "county_key", "precinct_key"]
     base = activity.merge(matches, on=keys, how="left", validate="many_to_one")
     base["reported_districts"] = base.groupby(keys).district.transform("nunique")
     base["county_batch"] = base.precinct_key.map(is_county_level_ballot)
 
-    spatial_candidates = base[~base.county_batch][
-        keys + ["county_fips", "geometry_id"]
-    ].drop_duplicates().merge(
-        spatial[["county_fips", "geometry_id", "district", "allocation_weight"]],
-        on=["county_fips", "geometry_id"], how="inner", validate="many_to_many"
-    )
-    spatial_counts = spatial_candidates.groupby(keys).district.nunique()
-    spatial_split_keys = set(spatial_counts[spatial_counts.gt(1)].index)
-    resolved_mask = spatial_candidates[keys].apply(tuple, axis=1).isin(spatial_split_keys)
-    resolved = spatial_candidates[resolved_mask].copy()
-    resolved["allocation_weight"] = resolved.allocation_weight / resolved.groupby(
-        keys).allocation_weight.transform("sum")
-    resolved = resolved.merge(
-        matches, on=keys + ["county_fips", "geometry_id"], how="left", validate="many_to_one"
-    )
-    resolved["allocation_method"] = "split_precinct_block_population"
-
-    # A single reported district is conclusive only when the precinct polygon
-    # does not cross another district. This protects unopposed districts whose
-    # race may be absent from the election results.
+    # The reported ballot is precinct-specific; the matched Census VTD is not.
+    # Do not let a shared or multi-district VTD turn a one-district precinct
+    # into a synthetic split.
     single = base[
-        base.reported_districts.eq(1) & ~base.county_batch &
-        ~base[keys].apply(tuple, axis=1).isin(spatial_split_keys)
+        base.reported_districts.eq(1) & ~base.county_batch
     ].copy()
     single["allocation_weight"] = 1.0
     single["allocation_method"] = "reported_single_district"
 
+    # Multiple legislative districts reported under the same precinct label
+    # are genuine ballot evidence of a split.  Activity shares approximate the
+    # portion of the precinct assigned to each ballot style more directly than
+    # a VTD polygon that may also contain other precincts.
     split = base[
-        base.reported_districts.gt(1) & ~base.county_batch &
-        ~base[keys].apply(tuple, axis=1).isin(spatial_split_keys)
+        base.reported_districts.gt(1) & ~base.county_batch
     ].copy()
     unresolved = split.copy()
     unresolved_total = unresolved.groupby(keys).allocation_weight.transform("sum")
@@ -349,10 +349,7 @@ def hierarchical_precinct_weights(activity: pd.DataFrame, matches: pd.DataFrame,
     )
     unresolved_zero["allocation_method"] = "split_county_population_fallback"
 
-    unassigned = base[
-        base.reported_districts.eq(0) & ~base.county_batch &
-        ~base[keys].apply(tuple, axis=1).isin(spatial_split_keys)
-    ][
+    unassigned = base[base.reported_districts.eq(0) & ~base.county_batch][
         keys + ["county_fips", "geometry_id", "vtd", "match_method", "match_score", "score_margin"]
     ].drop_duplicates()
     unassigned_spatial = unassigned[unassigned.geometry_id.notna()].merge(
@@ -371,7 +368,7 @@ def hierarchical_precinct_weights(activity: pd.DataFrame, matches: pd.DataFrame,
 
     keep = keys + ["county_fips", "geometry_id", "vtd", "match_method", "match_score",
                    "score_margin", "district", "allocation_weight", "allocation_method"]
-    return pd.concat([single[keep], resolved[keep], unresolved_valid[keep],
+    return pd.concat([single[keep], unresolved_valid[keep],
                       unresolved_zero[keep], unassigned_spatial[keep],
                       unassigned_fallback[keep], batch[keep]],
                      ignore_index=True)

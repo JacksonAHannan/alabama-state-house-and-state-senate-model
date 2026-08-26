@@ -115,7 +115,7 @@ def build_payload():
     roster=pd.read_csv(WAR/"2026_final_candidate_roster.csv")
     incumbency=pd.read_csv(WAR/"2026_candidate_incumbency.csv")
     finance=pd.read_csv(WAR/"2026_state_candidate_finance_matches.csv")
-    model_finance=pd.read_csv(WAR/"fcpa_candidate_cycle_finance.csv")
+    model_finance=pd.read_csv(ROOT/"data/processed/finance/2026_candidate_finance_reconciled.csv")
     model_finance=model_finance[model_finance.cycle.eq(2026)]
     model_finance_index={(r.chamber,int(r.district),r.party):r for r in model_finance.itertuples()}
     polling=pd.read_csv(WAR/"2026_poll_adjusted_baseline.csv")
@@ -460,7 +460,7 @@ def main():
     page=page.replace('<nav class="social-nav" aria-label="Jackson Hannan online">',
                       '<nav class="social-nav" aria-label="Site navigation"><a href="index.html" aria-current="page">Forecast</a><a href="cmo.html">CMO</a><a href="methodology.html">Forecast methodology</a><a href="cmo-methodology.html">CMO methodology</a>')
     page=page.replace('<a href="methodology.html">Full methodology</a>',
-                      '<a href="methodology.html">Full methodology</a><a href="cmo.html">Historical CMO model</a>')
+                      '<a href="methodology.html">Full methodology</a><a href="cmo.html">Historical WAR model</a>')
     page=re.sub(r'<div class="caveat">.*?</div></section></main>', UNCERTAINTY_CAVEAT+'</section></main>', page, count=1, flags=re.S)
     OUTPUT.write_text(page,encoding="utf-8")
     SITE.mkdir(parents=True,exist_ok=True)

@@ -1,10 +1,11 @@
-"""Build CMO v5: direct ticket overperformance plus candidate quality.
+"""Build CMO v5: direct ticket overperformance plus candidate WAR.
 
 The headline CMO is observed legislative margin minus a same-cycle ticket
-baseline.  Candidate Quality Index (CQI) is a separate, partial-pooled estimate
-of the repeatable candidate differential after cycle/chamber/source replacement
-levels and strictly predetermined lag features.  Current federal margin is never
-reused as a lag predictor.
+baseline. Wins Above Replacement (WAR) is the public name for the separate,
+partial-pooled estimate of the repeatable candidate differential after
+cycle/chamber/source replacement levels and strictly predetermined lag
+features. The stable internal column remains ``candidate_quality_index`` for
+compatibility. Current federal margin is never reused as a lag predictor.
 """
 from __future__ import annotations
 
@@ -439,19 +440,21 @@ def main() -> None:
     pd.DataFrame(manifest).to_csv(WAR / "cmo_v5_provenance.csv", index=False)
 
     REPORT.write_text(
-        "# CMO methodology v5: observed overperformance and candidate quality\n\n"
+        "# CMO methodology v5: observed overperformance and candidate WAR\n\n"
         "## Two estimands\n\n"
         "**Direct CMO** is the candidate-oriented legislative margin minus the selected same-cycle "
         "ticket margin. It is observed overperformance and is never residualized for incumbency, "
         "fundraising, demographics, or candidate history.\n\n"
-        "**Candidate Quality Index (CQI)** is the partial-pooled candidate effect from the direct gap "
+        "**Wins Above Replacement (WAR)** is the public name for the partial-pooled candidate effect from the direct gap "
         "after cycle/chamber/source replacement levels and the selected predetermined structural "
-        f"specification (`{selected_spec}`). The candidate ridge penalty is {selected_penalty:g}.\n\n"
+        f"specification (`{selected_spec}`). The candidate ridge penalty is {selected_penalty:g}. "
+        "The internal `candidate_quality_index` field is retained as a stable compatibility column; "
+        "it does not denote a second public measure.\n\n"
         "## Downballot lag\n\nCurrent same-cycle federal margin appears only in the ticket baseline. "
         "Lag features use prior presidential margins and presidential changes completed before the "
         "legislative election. The former `federal_t - presidential_t-1` predictor is prohibited because "
         "it algebraically reused the baseline inside the outcome.\n\n"
-        "## Incumbency\n\nTotal CQI retains officeholding as part of electoral value. An intrinsic "
+        "## Incumbency\n\nTotal WAR retains officeholding as part of electoral value. An intrinsic "
         f"sensitivity subtracts a prespecified {GENERIC_INCUMBENCY_MARGIN:g}-point generic officeholding "
         "effect before estimating candidate effects. Fundraising is not subtracted from either score.\n\n"
         "## Identity and isolated races\n\nLiteral `Last, First` source names are reordered before model-local "

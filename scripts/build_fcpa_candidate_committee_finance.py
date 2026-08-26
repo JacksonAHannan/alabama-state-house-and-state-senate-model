@@ -12,6 +12,7 @@ from rapidfuzz.fuzz import WRatio
 
 from oe_normalize import normalize_name
 from pilot_fcpa_surname_search import all_financial_summaries, expected_office, search, surname
+from reconcile_2026_candidate_finance import score_names
 
 ROOT = Path(__file__).resolve().parents[1]
 WAR = ROOT / "data/processed/war"
@@ -40,10 +41,24 @@ def district_compatible(chamber: str, district: int, item: dict) -> bool:
 
 def candidate_records(delay: float) -> pd.DataFrame:
     source = pd.read_csv(WAR / "candidate_finance_matches.csv")
-    candidates = (source[source.cycle.isin([2014, 2018, 2022, 2026])]
+    historical = (source[source.cycle.isin([2014, 2018, 2022])]
                   [["cycle", "chamber", "district", "party", "candidate"]]
                   .drop_duplicates().copy())
+    current = pd.read_csv(WAR / "2026_final_candidate_roster.csv")
+    current = current[current.party.isin(["D", "R"])][
+        ["cycle", "chamber", "district", "party", "candidate"]
+    ].drop_duplicates()
+    candidates = pd.concat([historical, current], ignore_index=True).drop_duplicates()
     candidates["surname"] = candidates.candidate.map(candidate_surname)
+    manual_path = ROOT / "data/manual/finance/2026_candidate_finance_aliases.csv"
+    manual_aliases = {}
+    if manual_path.exists():
+        manual = pd.read_csv(manual_path)
+        manual = manual[manual.decision.eq("approved")]
+        manual_aliases = {
+            (int(row.cycle), row.chamber, int(row.district), row.party, row.candidate): row.state_candidate
+            for row in manual.itertuples(index=False)
+        }
     retrieved = datetime.now(timezone.utc).isoformat()
     surnames = sorted(set(candidates.surname) - {""})
     with ThreadPoolExecutor(max_workers=6) as executor:
@@ -54,12 +69,22 @@ def candidate_records(delay: float) -> pd.DataFrame:
         compatible = [item for item in results
                       if district_compatible(candidate.chamber, candidate.district, item)
                       and party_compatible(candidate.party, item.get("party"))]
+        if int(candidate.cycle) == 2026:
+            active = [item for item in compatible if str(item.get("committeeStatus", "")).upper() == "ACTIVE"]
+            if active:
+                compatible = active
         scored = []
         for item in compatible:
             found = " ".join(filter(None, [item.get("candidateFirstName"), item.get("candidateMiddleName"),
                                             item.get("candidateLastName")]))
             candidate_name = re.sub(r"(?<=[a-z])(?=[A-Z])", " ", str(candidate.candidate))
-            scored.append((float(WRatio(normalize_name(candidate_name), normalize_name(found))), found, item))
+            robust_score, _ = score_names(candidate_name, found)
+            alias = manual_aliases.get(
+                (int(candidate.cycle), candidate.chamber, int(candidate.district), candidate.party, candidate.candidate)
+            )
+            alias_score = score_names(alias, found)[0] if alias else 0.0
+            score = max(float(WRatio(normalize_name(candidate_name), normalize_name(found))), robust_score, alias_score)
+            scored.append((score, found, item))
         scored.sort(key=lambda value: value[0], reverse=True)
         best_score = scored[0][0] if scored else 0.0
         # Retain every PCC record tied to the same best-scoring legal candidate

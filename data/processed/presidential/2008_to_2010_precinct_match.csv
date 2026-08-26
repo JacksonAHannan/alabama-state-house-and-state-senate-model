@@ -1,0 +1,2680 @@
+source_row_id,target_match_norm,match_method,match_score,score_margin,allocation_resolution
+1,,county_level_ballot,0.0,0.0,county_level_distribution
+2,AUTAUGAVILLE VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+3,,unmatched,81.9607843137255,15.294117647058826,county_distribution_fallback
+4,BOOTH VOLUNTEER FIRE,exact,100.0,100.0,direct_precinct_alias
+5,CAMELLIA BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+6,CAMELLIA BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+7,,unmatched,90.0,38.27586206896552,county_distribution_fallback
+8,CHURCH OF LIVING WATER,exact,100.0,100.0,direct_precinct_alias
+9,CHURCH OF LIVING WATER,exact,100.0,100.0,direct_precinct_alias
+10,INDEPENDENCE VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+11,JONES COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+12,MARBURY COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+13,OLD KINGSTON VOTING SITE,exact,100.0,100.0,direct_precinct_alias
+14,,unmatched,95.83333333333334,0.0,county_distribution_fallback
+15,,unmatched,95.83333333333334,0.0,county_distribution_fallback
+16,PRATTMONT BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+17,,unmatched,90.0,38.57142857142858,county_distribution_fallback
+18,,county_level_ballot,0.0,0.0,county_level_distribution
+19,SAFE HARBOR MINISTRIES,exact,100.0,100.0,direct_precinct_alias
+20,SAFE HARBOR MINISTRIES,exact,100.0,100.0,direct_precinct_alias
+21,SAFE HARBOR MINISTRIES,exact,100.0,100.0,direct_precinct_alias
+22,TRINITY UNITED METHODIST 1,fuzzy_equivalent_allocation,96.0,0.0,direct_precinct_alias
+23,TRINITY UNITED METHODIST 1,fuzzy_equivalent_allocation,96.0,0.0,direct_precinct_alias
+24,TRINITY UNITED METHODIST 1,fuzzy_equivalent_allocation,96.0,0.0,direct_precinct_alias
+25,UPPER KINGSTON COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+26,UPPER KINGSTON COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+27,WHITE CITY FIRE,exact,100.0,100.0,direct_precinct_alias
+28,,county_level_ballot,0.0,0.0,county_level_distribution
+29,BARNWELL COMMUNITY CENTER,fuzzy,97.95918367346938,17.108119843682147,direct_precinct_alias
+30,BAY MINETTE CITY HALL CIVIC,exact,100.0,100.0,direct_precinct_alias
+31,BAY MINETTE CITY HALL CIVIC,exact,100.0,100.0,direct_precinct_alias
+32,BELFOREST COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+33,BON SECOUR MORGANS CHAPEL,exact,100.0,100.0,direct_precinct_alias
+34,,unmatched,85.5,27.435483870967744,county_distribution_fallback
+35,BROMLEY CROSSROADS VOLUNTEER FIRE,exact,100.0,100.0,direct_precinct_alias
+36,CLEARSPRINGS FELLOWSHIP HALL,fuzzy,96.2962962962963,10.796296296296305,direct_precinct_alias
+37,CROSSROADS DURANT CHAPEL,exact,100.0,100.0,direct_precinct_alias
+38,DAPHNE CIVIC CENTER,fuzzy,94.44444444444444,4.970760233918128,direct_precinct_alias
+39,DAPHNE CIVIC CENTER,fuzzy,94.44444444444444,4.970760233918128,direct_precinct_alias
+40,DAPHNE CIVIC CENTER,fuzzy,94.44444444444444,4.970760233918128,direct_precinct_alias
+41,DAPHNE CIVIC CENTER,fuzzy,94.44444444444444,4.970760233918128,direct_precinct_alias
+42,DAPHNE CIVIC CENTER,fuzzy,94.44444444444444,4.970760233918128,direct_precinct_alias
+43,DAPHNE HIGH SCHOOL,exact,100.0,100.0,direct_precinct_alias
+44,DAPHNE HIGH SCHOOL,exact,100.0,100.0,direct_precinct_alias
+45,DOUGLASVILLE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+46,,unmatched,56.486486486486484,1.0698198198198199,county_distribution_fallback
+47,,unmatched,56.486486486486484,1.0698198198198199,county_distribution_fallback
+48,ELBERTA CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+49,ELSANOR COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+50,FAIRHOPE CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+51,FAIRHOPE CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+52,FAIRHOPE CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+53,FAIRHOPE CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+54,FAIRHOPE CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+55,FERGUSON STORE LITTLE RIVER,exact,100.0,100.0,direct_precinct_alias
+56,FOLEY CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+57,FOLEY CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+58,FOLEY CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+59,FORT MORGAN VOLUNTEER FIRE DEPARTMENT STATION 2,fuzzy_equivalent_allocation,93.18181818181819,1.0765550239234472,direct_precinct_alias
+60,,unmatched,90.0,4.5,county_distribution_fallback
+61,GULF SHORES ACTIVITY,exact,100.0,100.0,direct_precinct_alias
+62,GULF SHORES ACTIVITY,exact,100.0,100.0,direct_precinct_alias
+63,GULF SHORES ACTIVITY,exact,100.0,100.0,direct_precinct_alias
+64,JOSEPHINE FIRE HOUSE,exact,100.0,100.0,direct_precinct_alias
+65,LILLIAN COMMUNITY,exact,100.0,100.0,direct_precinct_alias
+66,LILLIAN COMMUNITY,exact,100.0,100.0,direct_precinct_alias
+67,LOTTIE FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+68,LOXLEY TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+69,LOXLEY ELLISVILLE COMMUNITY CENTER,fuzzy_equivalent_allocation,98.50746268656717,3.507462686567166,direct_precinct_alias
+70,MAGNOLIA SPRINGS WESLEYAN,fuzzy_equivalent_allocation,95.83333333333334,3.833333333333343,direct_precinct_alias
+71,MAGNOLIA SPRINGS WESLEYAN,fuzzy_equivalent_allocation,95.83333333333334,3.833333333333343,direct_precinct_alias
+72,MARLOW VOLUNTEER FIRE,exact,100.0,100.0,direct_precinct_alias
+73,MIFLIN COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+74,ORANGE BEACH COMMUNITY CENTER 1,fuzzy_equivalent_allocation,96.66666666666667,1.6666666666666714,direct_precinct_alias
+75,ORANGE BEACH COMMUNITY CENTER 1,fuzzy_equivalent_allocation,96.66666666666667,1.6666666666666714,direct_precinct_alias
+76,ORANGE BEACH COMMUNITY CENTER 1,fuzzy_equivalent_allocation,96.66666666666667,1.6666666666666714,direct_precinct_alias
+77,,unmatched,90.9090909090909,5.4090909090909065,county_distribution_fallback
+78,PINEGROVE VOLUNTEER FIRE DEPARTMENT,fuzzy,98.59154929577466,11.635027556644218,direct_precinct_alias
+79,PERDIDO ELEMENTARY SCHOOL,fuzzy,97.95918367346938,13.959183673469383,direct_precinct_alias
+80,,county_level_ballot,0.0,0.0,county_level_distribution
+81,PT CLEAR SAINT FRANCIS,exact,100.0,100.0,direct_precinct_alias
+82,RABUN FIRE HOUSE,exact,100.0,100.0,direct_precinct_alias
+83,ROBERTSDALE CITY HALL,exact,100.0,100.0,direct_precinct_alias
+84,ROBERTSDALE CITY HALL,exact,100.0,100.0,direct_precinct_alias
+85,ROCKWELL ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+86,SEMINOLE FIRE HOUSE,exact,100.0,100.0,direct_precinct_alias
+87,SILVERHILL TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+88,SPANISH FORT FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+89,,unmatched,90.25,4.75,county_distribution_fallback
+90,STOCKTON FIRE HOUSE,exact,100.0,100.0,direct_precinct_alias
+91,SUMMERDALE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+92,TENSAW VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+93,VAUGHN COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+94,WHITE HOUSE VOLUNTEER FIRE,exact,100.0,100.0,direct_precinct_alias
+95,,county_level_ballot,0.0,0.0,county_level_distribution
+96,BAKERHILL TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+97,BEVILL CENTER,exact,100.0,100.0,direct_precinct_alias
+98,BLUE SPRINGS CITY HALL,exact,100.0,100.0,direct_precinct_alias
+99,CHATT CTS COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+100,CLAYTON COURTHOUSE,exact,100.0,100.0,direct_precinct_alias
+101,CLIO CITY HALL,exact,100.0,100.0,direct_precinct_alias
+102,COWIKEE VOLUNTEER FIRE,exact,100.0,100.0,direct_precinct_alias
+103,ELAMVILLE VOLUNTEER FIRE,exact,100.0,100.0,direct_precinct_alias
+104,EUFAULA COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+105,EUFAULA WATER BOARD,exact,100.0,100.0,direct_precinct_alias
+106,FELLOWSHIP BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+107,GREENS CROSSROADS,fuzzy,97.14285714285714,52.14285714285714,direct_precinct_alias
+108,LOUISVILLE CITY HALL,exact,100.0,100.0,direct_precinct_alias
+109,MOUNT ANDREW COMMUNITY CENTER,fuzzy,98.30508474576271,12.805084745762713,direct_precinct_alias
+110,,county_level_ballot,0.0,0.0,county_level_distribution
+111,SANFORD GYM,fuzzy,95.0,10.151515151515156,direct_precinct_alias
+112,SPRINGHILL VOLUNTEER FIRE,exact,100.0,100.0,direct_precinct_alias
+113,SUTTONS RESTAURANT,exact,100.0,100.0,direct_precinct_alias
+114,TEXASVILLE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+115,WHITE OAK METHODIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+116,,county_level_ballot,0.0,0.0,county_level_distribution
+117,ALTERNATIVE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+118,BRENT CITY HALL,exact,100.0,100.0,direct_precinct_alias
+119,BRENT NORTH LIBRARY,exact,100.0,100.0,direct_precinct_alias
+120,BRIERFIELD FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+121,CENTREVILLE ROCK BUILDING,exact,100.0,100.0,direct_precinct_alias
+122,EOLINE FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+123,GREENPOND FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+124,LAWLEY COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+125,,county_level_ballot,0.0,0.0,county_level_distribution
+126,,county_level_ballot,0.0,0.0,county_level_distribution
+127,ALLGOOD TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+128,BLOUNT SPRINGS,exact,100.0,100.0,direct_precinct_alias
+129,BLOUNTSVILLE,exact,100.0,100.0,direct_precinct_alias
+130,BROOKSVILLE,exact,100.0,100.0,direct_precinct_alias
+131,CLEVELAND,exact,100.0,100.0,direct_precinct_alias
+132,DALLAS SELFVILLE,exact,100.0,100.0,direct_precinct_alias
+133,HAYDEN,exact,100.0,100.0,direct_precinct_alias
+134,HAYDEN,exact,100.0,100.0,direct_precinct_alias
+135,HOLLY SPRINGS,exact,100.0,100.0,direct_precinct_alias
+136,LOCUST FORK,exact,100.0,100.0,direct_precinct_alias
+137,MOUNT HIGH,exact,100.0,100.0,direct_precinct_alias
+138,MURPHREE VALLEY,exact,100.0,100.0,direct_precinct_alias
+139,NECTAR,exact,100.0,100.0,direct_precinct_alias
+140,ONEONTA,exact,100.0,100.0,direct_precinct_alias
+141,ONEONTA,exact,100.0,100.0,direct_precinct_alias
+142,PINE MOUNTAIN,exact,100.0,100.0,direct_precinct_alias
+143,,county_level_ballot,0.0,0.0,county_level_distribution
+144,,unmatched,90.0,50.0,county_distribution_fallback
+145,ROCK SPRINGS,exact,100.0,100.0,direct_precinct_alias
+146,ROSA,exact,100.0,100.0,direct_precinct_alias
+147,ROYAL,exact,100.0,100.0,direct_precinct_alias
+148,SMOKE RISE,exact,100.0,100.0,direct_precinct_alias
+149,SNEAD,exact,100.0,100.0,direct_precinct_alias
+150,SAINT MOUNTAIN,exact,100.0,100.0,direct_precinct_alias
+151,SUGAR CREEK BANGOR,exact,100.0,100.0,direct_precinct_alias
+152,SUMMIT,exact,100.0,100.0,direct_precinct_alias
+153,SUSAN MOORE,exact,100.0,100.0,direct_precinct_alias
+154,ABERFOIL,exact,100.0,100.0,direct_precinct_alias
+155,,county_level_ballot,0.0,0.0,county_level_distribution
+156,CORINTH,exact,100.0,100.0,direct_precinct_alias
+157,CORNERSTONE FIRE,exact,100.0,100.0,direct_precinct_alias
+158,FITZPATRICK FIRE,exact,100.0,100.0,direct_precinct_alias
+159,GUERRYTON,exact,100.0,100.0,direct_precinct_alias
+160,INDIAN CREEK,exact,100.0,100.0,direct_precinct_alias
+161,INVERNESS,exact,100.0,100.0,direct_precinct_alias
+162,MIDWAY,exact,100.0,100.0,direct_precinct_alias
+163,PEACHBURG,exact,100.0,100.0,direct_precinct_alias
+164,PEROTE,exact,100.0,100.0,direct_precinct_alias
+165,POST OAK,exact,100.0,100.0,direct_precinct_alias
+166,,county_level_ballot,0.0,0.0,county_level_distribution
+167,SARDIS,exact,100.0,100.0,direct_precinct_alias
+168,THOMPSON NEW MOUNT PLEASANT,exact,100.0,100.0,direct_precinct_alias
+169,THREE NOTCH,exact,100.0,100.0,direct_precinct_alias
+170,UNION SPGS ARMORY,exact,100.0,100.0,direct_precinct_alias
+171,UNION SPGS ARMORY,exact,100.0,100.0,direct_precinct_alias
+172,,county_level_ballot,0.0,0.0,county_level_distribution
+173,BOLLING VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+174,CENTER HILL VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+175,CENTRAL VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+176,CHAPMAN POST OFFICE,exact,100.0,100.0,direct_precinct_alias
+177,DUNBAR COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+178,DUNBAR COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+179,FOREST HOME VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+180,FRIENDSHIP,exact,100.0,100.0,direct_precinct_alias
+181,GARLAND VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+182,GEORGIANA ARMORY 1,fuzzy_equivalent_allocation,95.0,0.0,direct_precinct_alias
+183,GEORGIANA ARMORY 1,fuzzy_equivalent_allocation,95.0,0.0,direct_precinct_alias
+184,HARRISON VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+185,HEALTH DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+186,HEALTH DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+187,INDUSTRY,exact,100.0,100.0,direct_precinct_alias
+188,MANNINGHAM VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+189,MCKENZIE TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+190,MCLAINS VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+191,MIDWAY VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+192,MONTEREY OLD SCHOOL HOUSE,exact,100.0,100.0,direct_precinct_alias
+193,NEW ARMORY,exact,100.0,100.0,direct_precinct_alias
+194,NEW ARMORY,exact,100.0,100.0,direct_precinct_alias
+195,PROVIDENCE VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+196,,county_level_ballot,0.0,0.0,county_level_distribution
+197,ROCKY CREEK VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+198,SEARCY VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+199,STEINERS STORE,exact,100.0,100.0,direct_precinct_alias
+200,FIRST UNITED METHODIST WEAVER,exact,100.0,100.0,direct_precinct_alias
+201,FIRST UNITED METHODIST WEAVER,exact,100.0,100.0,direct_precinct_alias
+202,,county_level_ballot,0.0,0.0,county_level_distribution
+203,ALEXANDRIA CIVITAN CLUB CENTER,exact,100.0,100.0,direct_precinct_alias
+204,ANGEL FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+205,ANNISTON CARVER CENTER,exact,100.0,100.0,direct_precinct_alias
+206,ANNISTON FIRST PRESBYTERIAN,exact,100.0,100.0,direct_precinct_alias
+207,ANNISTON MEETING CENTER,exact,100.0,100.0,direct_precinct_alias
+208,ANNISTON MENTAL HEALTH CENTER,exact,100.0,100.0,direct_precinct_alias
+209,ANNISTON THANKFUL BAPTIST,exact,100.0,100.0,direct_precinct_alias
+210,ANNISTON GOLDEN SPRINGS COMMUNITY,exact,100.0,100.0,direct_precinct_alias
+211,ANNISTON GOLDEN SPRINGS COMMUNITY,exact,100.0,100.0,direct_precinct_alias
+212,ASBERRY BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+213,BETHEL UNITED METHODIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+214,BETTA VIEW CHURCH OF CHRIST 1,fuzzy_equivalent_allocation,96.42857142857143,0.0,direct_precinct_alias
+215,BETTA VIEW CHURCH OF CHRIST 1,fuzzy_equivalent_allocation,96.42857142857143,0.0,direct_precinct_alias
+216,BOILING SPRINGS BAPTIST,exact,100.0,100.0,direct_precinct_alias
+217,BYNUM SCHOOL,exact,100.0,100.0,direct_precinct_alias
+218,CALHOUN COUNTY HEALTH DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+219,CHOCCOLOCCO COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+220,CHURCH OF THE COVENANT,exact,100.0,100.0,direct_precinct_alias
+221,,unmatched,90.56603773584906,5.066037735849065,county_distribution_fallback
+222,EULATON UNITED METHODIST,exact,100.0,100.0,direct_precinct_alias
+223,FOUR MILE METHODIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+224,FRIENDSHIP BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+225,FRIENDSHIP COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+226,GLENWOOD MEADOWS MEETING ROOM,exact,100.0,100.0,direct_precinct_alias
+227,GODS COVENANT MINISTRY,exact,100.0,100.0,direct_precinct_alias
+228,HOBSON CITY CITY HALL,exact,100.0,100.0,direct_precinct_alias
+229,,unmatched,70.58823529411764,3.9215686274509665,county_distribution_fallback
+230,JACKSONVILLE FIRST BAPTIST,exact,100.0,100.0,direct_precinct_alias
+231,JACKSONVILLE WESTSIDE BAPTIST,exact,100.0,100.0,direct_precinct_alias
+232,LEATHERWOOD RD CIVIL DEFENSE,exact,100.0,100.0,direct_precinct_alias
+233,MOORE AVENUE CHURCH OF CHRIST,exact,100.0,100.0,direct_precinct_alias
+234,OAK GROVE BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+235,OHATCHEE FIRST BAPTIST CHU,fuzzy,94.54545454545455,9.045454545454547,direct_precinct_alias
+236,OXFORD CHEAHA CLUBHOUSE C C,exact,100.0,100.0,direct_precinct_alias
+237,OXFORD OXFORD LAKE PARK C C,exact,100.0,100.0,direct_precinct_alias
+238,OXFORD POLICE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+239,PIEDMONT COMMUNITY BUILDING,exact,100.0,100.0,direct_precinct_alias
+240,PIEDMONT FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+241,PIEDMONT NATIONAL GUARD ARMORY,exact,100.0,100.0,direct_precinct_alias
+242,PIEDMONT RECREATION BUILDING,exact,100.0,100.0,direct_precinct_alias
+243,,county_level_ballot,0.0,0.0,county_level_distribution
+244,SAKS HIGH SCHOOL,exact,100.0,100.0,direct_precinct_alias
+245,SAKS HIGH SCHOOL,exact,100.0,100.0,direct_precinct_alias
+246,SOUTH HIGHLAND COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+247,,unmatched,68.4,11.400000000000006,county_distribution_fallback
+248,THE DONOHO SCHOOL,exact,100.0,100.0,direct_precinct_alias
+249,WEBSTERS CHAPEL FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+250,WELLINGTON MOUNT VIEW BAPTIST,exact,100.0,100.0,direct_precinct_alias
+251,WEST PARK HEIGHTS BAPTIST,exact,100.0,100.0,direct_precinct_alias
+252,WHITE PLAINS HIGH SCHOOL,exact,100.0,100.0,direct_precinct_alias
+253,WHITE PLAINS V F D,exact,100.0,100.0,direct_precinct_alias
+254,WIGGINS COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+255,,county_level_ballot,0.0,0.0,county_level_distribution
+256,BUFFALO,exact,100.0,100.0,direct_precinct_alias
+257,CUSSETA,exact,100.0,100.0,direct_precinct_alias
+258,FAIRFAX,exact,100.0,100.0,direct_precinct_alias
+259,FIVE POINTS,exact,100.0,100.0,direct_precinct_alias
+260,FREDONIA,exact,100.0,100.0,direct_precinct_alias
+261,HUGULEY,exact,100.0,100.0,direct_precinct_alias
+262,LAFAYETTE,exact,100.0,100.0,direct_precinct_alias
+263,LAKEVIEW,exact,100.0,100.0,direct_precinct_alias
+264,LANETT,exact,100.0,100.0,direct_precinct_alias
+265,LANGDALE,exact,100.0,100.0,direct_precinct_alias
+266,MILLTOWN,exact,100.0,100.0,direct_precinct_alias
+267,MOUNT OLIVE,exact,100.0,100.0,direct_precinct_alias
+268,PENTON,exact,100.0,100.0,direct_precinct_alias
+269,,county_level_ballot,0.0,0.0,county_level_distribution
+270,,unmatched,90.0,40.909090909090914,county_distribution_fallback
+271,RIDGE GROVE,exact,100.0,100.0,direct_precinct_alias
+272,RIVERVIEW,exact,100.0,100.0,direct_precinct_alias
+273,SHAWMUT,exact,100.0,100.0,direct_precinct_alias
+274,SPARKLING SPRINGS,exact,100.0,100.0,direct_precinct_alias
+275,STANDING ROCK,exact,100.0,100.0,direct_precinct_alias
+276,STROUD,exact,100.0,100.0,direct_precinct_alias
+277,STURKIE,exact,100.0,100.0,direct_precinct_alias
+278,UNION HILL,exact,100.0,100.0,direct_precinct_alias
+279,WAVERLY,exact,100.0,100.0,direct_precinct_alias
+280,WEST CHAMBERS,exact,100.0,100.0,direct_precinct_alias
+281,,county_level_ballot,0.0,0.0,county_level_distribution
+282,BROOMTOWN FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+283,CEDAR BLUFF FIRST BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+284,DANIELS CHAPEL FELLOWSHIP HALL,exact,100.0,100.0,direct_precinct_alias
+285,EBENEZER CHURCH,exact,100.0,100.0,direct_precinct_alias
+286,ELLISVILLE VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+287,FRIENDSHIP BAPTIST,exact,100.0,100.0,direct_precinct_alias
+288,GAYLESVILLE CITY HALL,exact,100.0,100.0,direct_precinct_alias
+289,GOSHEN METHODIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+290,LEESBURG V F D,exact,100.0,100.0,direct_precinct_alias
+291,MCCORDS CROSSROADS FIRE HALL,exact,100.0,100.0,direct_precinct_alias
+292,MELROSE BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+293,MOUNT CALVARY BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+294,MOUNT WEISNER FIRE HALL,exact,100.0,100.0,direct_precinct_alias
+295,NEW HOPE METHODIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+296,,county_level_ballot,0.0,0.0,county_level_distribution
+297,ROCK RUN CHURCH,exact,100.0,100.0,direct_precinct_alias
+298,SAND ROCK TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+299,SHADY GROVE CHURCH,exact,100.0,100.0,direct_precinct_alias
+300,SPRING CREEK FIRE HALL,exact,100.0,100.0,direct_precinct_alias
+301,SPRING GARDEN FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+302,THE ROC,exact,100.0,100.0,direct_precinct_alias
+303,THE ROC,exact,100.0,100.0,direct_precinct_alias
+304,THE VALLEY CHURCH,exact,100.0,100.0,direct_precinct_alias
+305,TUCKERS CHAPEL FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+306,UNITY MISSIONARY BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+307,,county_level_ballot,0.0,0.0,county_level_distribution
+308,CANE CREEK GAP OF MOUNT FIRE,exact,100.0,100.0,direct_precinct_alias
+309,CLANTON FACILITY BUILDING,exact,100.0,100.0,direct_precinct_alias
+310,COLLINS CHAPEL FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+311,COURTHOUSE CLANTON,exact,100.0,100.0,direct_precinct_alias
+312,ENTERPRISE FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+313,FAIRVIEW FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+314,ISABELLA FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+315,JEMISON FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+316,LIBRARY CLANTON,exact,100.0,100.0,direct_precinct_alias
+317,MAPLESVILLE NEW FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+318,MARS HILL W CHILTON FIRE,fuzzy,94.11764705882352,8.617647058823522,direct_precinct_alias
+319,NEW THORSBY TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+320,PROVIDENCE E CHILTON FIRE,fuzzy_equivalent_allocation,94.33962264150944,3.297955974842779,direct_precinct_alias
+321,PROVIDENCE N W,exact,100.0,100.0,direct_precinct_alias
+322,,county_level_ballot,0.0,0.0,county_level_distribution
+323,SOUTH CHILTON FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+324,UNION GROVE FIRE STATION,fuzzy_equivalent_allocation,95.0,0.6603773584905639,direct_precinct_alias
+325,VERBENA FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+326,VETERANS CLUB CLANTON,exact,100.0,100.0,direct_precinct_alias
+327,,county_level_ballot,0.0,0.0,county_level_distribution
+328,ARARAT,exact,100.0,100.0,direct_precinct_alias
+329,BARRYTOWN,exact,100.0,100.0,direct_precinct_alias
+330,BLADON SPRINGS,exact,100.0,100.0,direct_precinct_alias
+331,BOGUELOOSA,exact,100.0,100.0,direct_precinct_alias
+332,BRANCH,exact,100.0,100.0,direct_precinct_alias
+333,BUTLER,exact,100.0,100.0,direct_precinct_alias
+334,CHAPPELL HILL,exact,100.0,100.0,direct_precinct_alias
+335,CROMWELL,exact,100.0,100.0,direct_precinct_alias
+336,CROSSROADS,exact,100.0,100.0,direct_precinct_alias
+337,CULLOMBURG,exact,100.0,100.0,direct_precinct_alias
+338,GILBERTOWN,exact,100.0,100.0,direct_precinct_alias
+339,HALSELL,exact,100.0,100.0,direct_precinct_alias
+340,HURRICANE,exact,100.0,100.0,direct_precinct_alias
+341,INTERSECTION,exact,100.0,100.0,direct_precinct_alias
+342,ISNEY,exact,100.0,100.0,direct_precinct_alias
+343,LAVACA,exact,100.0,100.0,direct_precinct_alias
+344,LISMAN,exact,100.0,100.0,direct_precinct_alias
+345,LUSK,exact,100.0,100.0,direct_precinct_alias
+346,MELVIN,exact,100.0,100.0,direct_precinct_alias
+347,MOUNT STERLING,exact,100.0,100.0,direct_precinct_alias
+348,PELHAM,exact,100.0,100.0,direct_precinct_alias
+349,PENNINGTON,exact,100.0,100.0,direct_precinct_alias
+350,PLEASANT VALLEY,exact,100.0,100.0,direct_precinct_alias
+351,,county_level_ballot,0.0,0.0,county_level_distribution
+352,PUSHMATAHA,exact,100.0,100.0,direct_precinct_alias
+353,RIDERWOOD,exact,100.0,100.0,direct_precinct_alias
+354,ROCK SPRINGS,exact,100.0,100.0,direct_precinct_alias
+355,SILAS,exact,100.0,100.0,direct_precinct_alias
+356,SOUWILPA,exact,100.0,100.0,direct_precinct_alias
+357,TOOMEY,exact,100.0,100.0,direct_precinct_alias
+358,TOXEY,exact,100.0,100.0,direct_precinct_alias
+359,WOMACK HILL,exact,100.0,100.0,direct_precinct_alias
+360,YANTLEY,exact,100.0,100.0,direct_precinct_alias
+361,,county_level_ballot,0.0,0.0,county_level_distribution
+362,,unmatched,88.88888888888889,3.3888888888888857,county_distribution_fallback
+363,,unmatched,87.17948717948718,1.6794871794871824,county_distribution_fallback
+364,CHOCTAW BLUFF FIRE STA,exact,100.0,100.0,direct_precinct_alias
+365,COFFEEVILLE HIGH SCHOOL GYM,fuzzy,96.15384615384616,6.15384615384616,direct_precinct_alias
+366,FULTON CITY HALL,exact,100.0,100.0,direct_precinct_alias
+367,GOOD HOPE AME CHRCH GAINSTOWN,fuzzy,98.30508474576271,12.805084745762713,direct_precinct_alias
+368,,unmatched,88.88888888888889,3.3888888888888857,county_distribution_fallback
+369,GROVE HILL CITY HALL,exact,100.0,100.0,direct_precinct_alias
+370,GROVE HILL NATIONAL GUARD,exact,100.0,100.0,direct_precinct_alias
+371,GROVE HILL OLD ENGINEERS OFF,exact,100.0,100.0,direct_precinct_alias
+372,,unmatched,90.9090909090909,5.4090909090909065,county_distribution_fallback
+373,HOPEWELL CHURCH CHILTON,exact,100.0,100.0,direct_precinct_alias
+374,JACKSON CITY HALL,exact,100.0,100.0,direct_precinct_alias
+375,,unmatched,87.17948717948718,0.8158508158508226,county_distribution_fallback
+376,JACKSON NATIONAL GUARD,fuzzy_equivalent_allocation,95.0,0.45454545454545325,direct_precinct_alias
+377,JACKSON SKIPPERS FIRE STATION,fuzzy,92.5925925925926,21.342592592592595,direct_precinct_alias
+378,MORNING STAR BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+379,MORVIN CAMP MORVIN,exact,100.0,100.0,direct_precinct_alias
+380,,unmatched,90.9090909090909,5.4090909090909065,county_distribution_fallback
+381,OVERSTREET GRO WALKER SPR,fuzzy,94.33962264150944,8.839622641509436,direct_precinct_alias
+382,,county_level_ballot,0.0,0.0,county_level_distribution
+383,,unmatched,88.88888888888889,3.3888888888888857,county_distribution_fallback
+384,SALTWORKS VOTING HOUSE CARLTON,exact,100.0,100.0,direct_precinct_alias
+385,,unmatched,90.19607843137256,12.247360482654614,county_distribution_fallback
+386,TALLAHATTA SPR COMMUNITY HOUSE,fuzzy,94.91525423728814,37.33949666153056,direct_precinct_alias
+387,THOMASVILLE FIRE STA,exact,100.0,100.0,direct_precinct_alias
+388,THOMASVILLE NATIONAL GUARD,exact,100.0,100.0,direct_precinct_alias
+389,THOMASVILLE NEW CITY HALL,exact,100.0,100.0,direct_precinct_alias
+390,,unmatched,88.37209302325581,35.34883720930233,county_distribution_fallback
+391,WINN AND ZIMCO FIRE STATION,fuzzy,92.0,6.5,direct_precinct_alias
+392,HOLLINS COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+393,HIGHLAND COPPERMINE,exact,100.0,100.0,direct_precinct_alias
+394,MELLOW VALLEY HIGH 1,fuzzy_equivalent_allocation,95.0,0.0,direct_precinct_alias
+395,MELLOW VALLEY HIGH 1,fuzzy_equivalent_allocation,95.0,0.0,direct_precinct_alias
+396,,unmatched,90.0,0.0,county_distribution_fallback
+397,LINEVILLE NG ARMORY,exact,100.0,100.0,direct_precinct_alias
+398,,unmatched,90.0,0.0,county_distribution_fallback
+399,ASHLAND NG ARMORY,exact,100.0,100.0,direct_precinct_alias
+400,ASHLAND NG ARMORY,exact,100.0,100.0,direct_precinct_alias
+401,ASHLAND NG ARMORY,exact,100.0,100.0,direct_precinct_alias
+402,DELTA COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+403,LINEVILLE NG ARMORY,exact,100.0,100.0,direct_precinct_alias
+404,ASHLAND NG ARMORY,exact,100.0,100.0,direct_precinct_alias
+405,,unmatched,90.0,4.5,county_distribution_fallback
+406,PCT 901 TRI COMMUNITY FIRE,fuzzy,95.0,5.0,direct_precinct_alias
+407,BARFIELD VOLUNTEER,fuzzy_equivalent_allocation,95.0,0.0,direct_precinct_alias
+408,LINEVILLE NG ARMORY,exact,100.0,100.0,direct_precinct_alias
+409,HIGHLAND COPPERMINE,exact,100.0,100.0,direct_precinct_alias
+410,IDAHO FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+411,,unmatched,90.0,4.5,county_distribution_fallback
+412,,unmatched,90.0,0.0,county_distribution_fallback
+413,PCT 802 COLETA VALLEY FIRE,fuzzy,95.0,5.0,direct_precinct_alias
+414,PCT 901 TRI COMMUNITY FIRE,fuzzy,95.0,5.0,direct_precinct_alias
+415,,county_level_ballot,0.0,0.0,county_level_distribution
+416,,county_level_ballot,0.0,0.0,county_level_distribution
+417,ABEL,exact,100.0,100.0,direct_precinct_alias
+418,,county_level_ballot,0.0,0.0,county_level_distribution
+419,BEASON MILL,exact,100.0,100.0,direct_precinct_alias
+420,BORDEN SPRINGS VOLUNTEER FIRE,exact,100.0,100.0,direct_precinct_alias
+421,CHULAFINNIE,exact,100.0,100.0,direct_precinct_alias
+422,EDWARDSVILLE,exact,100.0,100.0,direct_precinct_alias
+423,FRUITHURST,exact,100.0,100.0,direct_precinct_alias
+424,HEFLIN RECREATIONAL CENTER,exact,100.0,100.0,direct_precinct_alias
+425,HEFLIN RECREATIONAL CENTER,exact,100.0,100.0,direct_precinct_alias
+426,HIGHTOWER,exact,100.0,100.0,direct_precinct_alias
+427,HOPEWELL,exact,100.0,100.0,direct_precinct_alias
+428,MICAVILLE FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+429,MUSCADINE,exact,100.0,100.0,direct_precinct_alias
+430,OAK LEVEL VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+431,PLAINVIEW COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+432,,county_level_ballot,0.0,0.0,county_level_distribution
+433,RANBURNE RESCUE SQUAD BUILDING,exact,100.0,100.0,direct_precinct_alias
+434,TURKEY HEAVEN V F D,exact,100.0,100.0,direct_precinct_alias
+435,,county_level_ballot,0.0,0.0,county_level_distribution
+436,BASIN,exact,100.0,100.0,direct_precinct_alias
+437,BLUFF SPRINGS,exact,100.0,100.0,direct_precinct_alias
+438,CHESTNUT GROVE,exact,100.0,100.0,direct_precinct_alias
+439,COOL SPRINGS,exact,100.0,100.0,direct_precinct_alias
+440,DAMASCUS ELBA,exact,100.0,100.0,direct_precinct_alias
+441,DANLEYS CROSS ROADS,exact,100.0,100.0,direct_precinct_alias
+442,EANON,exact,100.0,100.0,direct_precinct_alias
+443,ELBA RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+444,ENTERPRISE CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+445,ENTERPRISE RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+446,ENTERPRISE RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+447,ENTERPRISE YMCA,exact,100.0,100.0,direct_precinct_alias
+448,ENTERPRISE YMCA,exact,100.0,100.0,direct_precinct_alias
+449,FAIRVIEW ELBA,exact,100.0,100.0,direct_precinct_alias
+450,FRISCO,exact,100.0,100.0,direct_precinct_alias
+451,GOODMAN,exact,100.0,100.0,direct_precinct_alias
+452,HERITAGE CHURCH ENTERPRISE,exact,100.0,100.0,direct_precinct_alias
+453,HOLLEYS STORE,exact,100.0,100.0,direct_precinct_alias
+454,INO COMMUNITY ELBA,exact,100.0,100.0,direct_precinct_alias
+455,JOHNS CHAPEL AME CHURCH,exact,100.0,100.0,direct_precinct_alias
+456,JOHNS CHAPEL AME CHURCH,exact,100.0,100.0,direct_precinct_alias
+457,KINSTON CITY HALL,exact,100.0,100.0,direct_precinct_alias
+458,LEE COMMUNITY,exact,100.0,100.0,direct_precinct_alias
+459,MOUNT PLEASANT,exact,100.0,100.0,direct_precinct_alias
+460,NATIONAL GUARD ARMORY ELBA,exact,100.0,100.0,direct_precinct_alias
+461,NEW BROCKTON COMMUNITY ROOM,exact,100.0,100.0,direct_precinct_alias
+462,,unmatched,85.5,0.0,county_distribution_fallback
+463,NEWBIA,exact,100.0,100.0,direct_precinct_alias
+464,PERRYS STORE,exact,100.0,100.0,direct_precinct_alias
+465,PINE LEVEL,exact,100.0,100.0,direct_precinct_alias
+466,PLEASANT RIDGE,exact,100.0,100.0,direct_precinct_alias
+467,,county_level_ballot,0.0,0.0,county_level_distribution
+468,VICTORIA,exact,100.0,100.0,direct_precinct_alias
+469,WISE MILL CHURCH,exact,100.0,100.0,direct_precinct_alias
+470,WISE MILL SCHOOL VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+471,ZION CHAPEL SR CITIZEN CENTER,exact,100.0,100.0,direct_precinct_alias
+472,,county_level_ballot,0.0,0.0,county_level_distribution
+473,ALLSBORO CUMBERLAND PRES,exact,100.0,100.0,direct_precinct_alias
+474,BARTON FIRST BAPTIST,exact,100.0,100.0,direct_precinct_alias
+475,,unmatched,85.5,2.08536585365853,county_distribution_fallback
+476,CAVE SPRINGS MIS BAPTIST,exact,100.0,100.0,direct_precinct_alias
+477,CHEROKEE LIONS DEN,exact,100.0,100.0,direct_precinct_alias
+478,CHEROKEE WATER GAS DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+479,COLBERT HEIGHTS BAPTIST,exact,100.0,100.0,direct_precinct_alias
+480,COUNTY HIGHWAY DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+481,FIRST SOUTHERN BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+482,GRACE LIFE CHURCH,exact,100.0,100.0,direct_precinct_alias
+483,HATTON BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+484,HOPE HAVEN SCHOOL,exact,100.0,100.0,direct_precinct_alias
+485,8 1 HWY 247 FIRE DEPARTMENT,fuzzy,95.0,9.5,direct_precinct_alias
+486,LA GRANGE FIRE DEPTARTMEN,fuzzy,96.0,7.111111111111114,direct_precinct_alias
+487,LEIGHTON CITY HALL,exact,100.0,100.0,direct_precinct_alias
+488,LEIGHTON CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+489,LITTLEVILLE CITY HALL,exact,100.0,100.0,direct_precinct_alias
+490,MARGERUM METHODIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+491,,unmatched,85.5,0.0,county_distribution_fallback
+492,MYNOT CHURCH OF CHRIST,exact,100.0,100.0,direct_precinct_alias
+493,NEW BETHEL FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+494,16 7 PARK TERRACE CUMBERLAND,fuzzy,95.0,30.319148936170222,direct_precinct_alias
+495,PLUMBER STEAMFITTER UNION,exact,100.0,100.0,direct_precinct_alias
+496,,county_level_ballot,0.0,0.0,county_level_distribution
+497,,unmatched,89.47368421052632,3.973684210526315,county_distribution_fallback
+498,SHEFFIELD BOARD OF ED BUILDING,fuzzy,92.85714285714286,25.060532687651346,direct_precinct_alias
+499,SHEFFIELD FIRE MONTGOMERY,exact,100.0,100.0,direct_precinct_alias
+500,SHEFFIELD FIRE STN 2ND SAINT,exact,100.0,100.0,direct_precinct_alias
+501,SHEFFIELD MICHAEL CENTER,exact,100.0,100.0,direct_precinct_alias
+502,SHEFFIELD RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+503,14 1 SPRING VALLEY FIRE DEPARTMENT,fuzzy,95.0,24.629629629629633,direct_precinct_alias
+504,TUSCUMB CALVARY BAPTIST,exact,100.0,100.0,direct_precinct_alias
+505,TUSCUMBIA MULTI PURPOSE,exact,100.0,100.0,direct_precinct_alias
+506,2 2 TUSCUMBIA UTILITIES BUILDING,fuzzy,95.0,32.254901960784316,direct_precinct_alias
+507,,unmatched,48.78048780487805,1.9719771665801744,county_distribution_fallback
+508,WOODWARD AVE BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+509,2ND MOUNT ZION CHURCH,exact,100.0,100.0,direct_precinct_alias
+510,,county_level_ballot,0.0,0.0,county_level_distribution
+511,ANNEX VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+512,ANTIOCH VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+513,BELLEVILLE FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+514,BERMUDA COMMUNITY HOUSE,exact,100.0,100.0,direct_precinct_alias
+515,BROOKLYN MASONIC LODGE,exact,100.0,100.0,direct_precinct_alias
+516,BROWNVILLE FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+517,CASTLEBERRY FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+518,DAVID BURT BUILDING,exact,100.0,100.0,direct_precinct_alias
+519,FLAT ROCK FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+520,HEALTH DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+521,JOHNSONVILLE FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+522,LENOX COMMUNITY HOUSE,exact,100.0,100.0,direct_precinct_alias
+523,LITTLE ZION CHURCH,exact,100.0,100.0,direct_precinct_alias
+524,LYEFFION FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+525,MOUNT UNION CHURCH,exact,100.0,100.0,direct_precinct_alias
+526,NATIONAL GUARD ARMORY,exact,100.0,100.0,direct_precinct_alias
+527,NAZARENE BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+528,OLD FIELD CHURCH,exact,100.0,100.0,direct_precinct_alias
+529,PAUL FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+530,,county_level_ballot,0.0,0.0,county_level_distribution
+531,RANGE FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+532,REPTON CITY HALL,exact,100.0,100.0,direct_precinct_alias
+533,ROBINSON MILL VOTING HOUSE,fuzzy_equivalent_allocation,98.11320754716981,1.959361393323647,direct_precinct_alias
+534,SANDCUTT FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+535,SKINNERTON VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+536,WOOTEN VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+537,,county_level_ballot,0.0,0.0,county_level_distribution
+538,COTTAGE GROVE DAY CARE CENTER,exact,100.0,100.0,direct_precinct_alias
+539,COURTHOUSE,exact,100.0,100.0,direct_precinct_alias
+540,EQUALITY FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+541,HANOVER,exact,100.0,100.0,direct_precinct_alias
+542,KELLEYTON FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+543,MARBLE VALLEY FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+544,MOUNT OLIVE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+545,OLD RAILROAD DEPOT,exact,100.0,100.0,direct_precinct_alias
+546,,county_level_ballot,0.0,0.0,county_level_distribution
+547,RAY FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+548,RICHVILLE FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+549,WEOGUFKA VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+550,WEST COOSA SENIOR CENTER,exact,100.0,100.0,direct_precinct_alias
+551,,county_level_ballot,0.0,0.0,county_level_distribution
+552,BABBIE CEDAR GROVE FIRE,fuzzy,95.0,9.5,direct_precinct_alias
+553,BEULAH BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+554,BLUE SPRINGS HORN HILL CT,fuzzy,95.0,5.0,direct_precinct_alias
+555,CAROLINA CITY HALL,exact,100.0,100.0,direct_precinct_alias
+556,CATOES MASONIC LODGE 609,fuzzy,95.0,16.951219512195124,direct_precinct_alias
+557,,unmatched,91.66666666666666,6.166666666666657,county_distribution_fallback
+558,,unmatched,74.4186046511628,6.333498268184073,county_distribution_fallback
+559,GANTT CITY HALL,exact,100.0,100.0,direct_precinct_alias
+560,HEATH CITY HALL,exact,100.0,100.0,direct_precinct_alias
+561,,unmatched,90.0,0.0,county_distribution_fallback
+562,,unmatched,90.0,0.0,county_distribution_fallback
+563,,unmatched,90.0,0.0,county_distribution_fallback
+564,LIBERTYVILLE CITY HALL,exact,100.0,100.0,direct_precinct_alias
+565,LOANGO FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+566,,unmatched,90.0,4.5,county_distribution_fallback
+567,,unmatched,89.99999999999999,5.555555555555543,county_distribution_fallback
+568,OPP SENIOR CITIZENS BUILDING,fuzzy,94.33962264150944,40.05390835579515,direct_precinct_alias
+569,OPP SENIOR CITIZENS BUILDING,fuzzy,94.33962264150944,40.05390835579515,direct_precinct_alias
+570,,unmatched,88.46153846153845,0.08944543828265239,county_distribution_fallback
+571,,county_level_ballot,0.0,0.0,county_level_distribution
+572,RED LEVEL FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+573,RIVER FALLS CITY HALL,exact,100.0,100.0,direct_precinct_alias
+574,,unmatched,73.91304347826086,10.579710144927525,county_distribution_fallback
+575,ROSE HILL WIGGINS STORE,exact,100.0,100.0,direct_precinct_alias
+576,,unmatched,77.1875,19.292763157894733,county_distribution_fallback
+577,STANLEY RED OAK FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+578,STRAUGHN AG BUILDING,exact,100.0,100.0,direct_precinct_alias
+579,,unmatched,90.0,2.0,county_distribution_fallback
+580,WING FIRE DEPARTMENT BEDA,fuzzy,95.0,9.285714285714278,direct_precinct_alias
+581,,county_level_ballot,0.0,0.0,county_level_distribution
+582,BRANTLEY COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+583,BUSHS GROCERY BRANTLEY,exact,100.0,100.0,direct_precinct_alias
+584,CHAPEL HILL COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+585,COUNTY COURTHOUSE,exact,100.0,100.0,direct_precinct_alias
+586,DANIELVILLE SCHOOL HOUSE,exact,100.0,100.0,direct_precinct_alias
+587,DOZIER CITY HALL,exact,100.0,100.0,direct_precinct_alias
+588,GLENWOOD CITY HALL,exact,100.0,100.0,direct_precinct_alias
+589,HARBIN FARM CENTER LUVERNE,exact,100.0,100.0,direct_precinct_alias
+590,HIGHLAND HOME NEW FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+591,HONORAVILLE FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+592,LILLERS STORE BRANTLEY,exact,100.0,100.0,direct_precinct_alias
+593,PANOLA COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+594,PATSBURG DEPOT BUILDING,exact,100.0,100.0,direct_precinct_alias
+595,PETREY COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+596,PLEASANT HOME SCHOOL RUTLEDGE,exact,100.0,100.0,direct_precinct_alias
+597,,county_level_ballot,0.0,0.0,county_level_distribution
+598,RUTLEDGE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+599,VIDETTE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+600,WEEDS STORE BRANTLEY,exact,100.0,100.0,direct_precinct_alias
+601,,county_level_ballot,0.0,0.0,county_level_distribution
+602,ARKADELPHIA FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+603,BAILEYTON TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+604,BALDWIN COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+605,BATTLEGROUND FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+606,COMMUNITY CENTER,fuzzy,95.0,8.043478260869563,direct_precinct_alias
+607,BERLIN COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+608,BETHEL COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+609,BETHSADIA FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+610,BOLTE WHITE GROVE CHURCH,fuzzy,93.87755102040816,39.71088435374149,direct_precinct_alias
+611,BREMEN FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+612,BROOKLYN COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+613,BRUSHY POND COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+614,CENTER HILL COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+615,COLD SPRINGS FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+616,COLONY TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+617,,unmatched,85.1063829787234,27.747892412685665,county_distribution_fallback
+618,CRANE HILL FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+619,CULLMAN CITY HALL,exact,100.0,100.0,direct_precinct_alias
+620,CULLMAN CIVIC CENTER,fuzzy,95.0,6.6279069767442,direct_precinct_alias
+621,CULLMAN CIVIC CENTER,fuzzy,95.0,6.6279069767442,direct_precinct_alias
+622,CULLMAN COUNTY OFFICE BUILDING BSMNT,exact,100.0,100.0,direct_precinct_alias
+623,CULLMAN COUNTY HEALTH DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+624,DODGE CITY TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+625,EAST POINT COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+626,FAIRVIEW FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+627,FAIRVIEW TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+628,FRIENDSHIP METHODIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+629,GARDEN CITY TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+630,GOLD RIDGE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+631,GOOD HOPE TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+632,GRANDVIEW COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+633,,unmatched,85.5,0.0,county_distribution_fallback
+634,HOLLY POND FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+635,JONES CHAPEL FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+636,JOPPA VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+637,KELLEY COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+638,LOGAN FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+639,MOODY TOWN UNION HILL CHURCH,exact,100.0,100.0,direct_precinct_alias
+640,WELTI MOUNT ZION CHURCH,fuzzy,95.0,9.5,direct_precinct_alias
+641,NEW CANAAN,exact,100.0,100.0,direct_precinct_alias
+642,PROVIDENCE FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+643,,county_level_ballot,0.0,0.0,county_level_distribution
+644,SIMCOE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+645,STEPPVILLE FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+646,STOUTS MOUNTAIN CHURCH,exact,100.0,100.0,direct_precinct_alias
+647,TRIMBLE FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+648,VALLEY GROVE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+649,VINEMONT FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+650,WALTER COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+651,WEST POINT COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+652,WHITE CITY COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+653,,county_level_ballot,0.0,0.0,county_level_distribution
+654,ARGUTA VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+655,ARITON CITY HALL,exact,100.0,100.0,direct_precinct_alias
+656,BERTHA VOTING HALL,exact,100.0,100.0,direct_precinct_alias
+657,CLAYHATCHEE COMMUNITY HOUSE,exact,100.0,100.0,direct_precinct_alias
+658,CLOPTON VOTING HALL,exact,100.0,100.0,direct_precinct_alias
+659,DALEVILLE CULT AND CON CENTER 1,fuzzy_equivalent_allocation,96.66666666666667,0.0,direct_precinct_alias
+660,DALEVILLE CULT AND CON CENTER 1,fuzzy_equivalent_allocation,96.66666666666667,0.0,direct_precinct_alias
+661,ECHO VOTING HALL,exact,100.0,100.0,direct_precinct_alias
+662,EWELL VOTING HALL,exact,100.0,100.0,direct_precinct_alias
+663,GRIMES COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+664,LEVEL PLAINS COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+665,MARLEY MILL FORESTRY COMMUNITY,exact,100.0,100.0,direct_precinct_alias
+666,MIDLAND CITY VOTING HALL,exact,100.0,100.0,direct_precinct_alias
+667,NEWTON CITY HALL,exact,100.0,100.0,direct_precinct_alias
+668,OZARK CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+669,OZARK CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+670,PINCKARD CITY HALL,exact,100.0,100.0,direct_precinct_alias
+671,,county_level_ballot,0.0,0.0,county_level_distribution
+672,ROCKY HEAD FT RUCKER ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+673,ROCKY HEAD COMMUNITY HOUSE,exact,100.0,100.0,direct_precinct_alias
+674,SKIPPERVILLE VOTING HALL,exact,100.0,100.0,direct_precinct_alias
+675,SYLVAN GROVE VOTING HALL,exact,100.0,100.0,direct_precinct_alias
+676,,county_level_ballot,0.0,0.0,county_level_distribution
+677,BELOIT COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+678,,unmatched,85.71428571428572,0.2142857142857224,county_distribution_fallback
+679,BROWNS NEW FRIENDSHIP CHURCH,exact,100.0,100.0,direct_precinct_alias
+680,BYRD SCHOOL,exact,100.0,100.0,direct_precinct_alias
+681,CAHABA ROAD FIRE STATION,fuzzy,95.65217391304348,10.152173913043484,direct_precinct_alias
+682,CARLOWVILLE MINTER VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+683,CARVER NEIGHBORHOOD CENTER,exact,100.0,100.0,direct_precinct_alias
+684,COURTHOUSE,exact,100.0,100.0,direct_precinct_alias
+685,EASTEND FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+686,GOOD HOPE CHURCH,exact,100.0,100.0,direct_precinct_alias
+687,MARION JCT BLACKBELT EXPER SAINT,exact,100.0,100.0,direct_precinct_alias
+688,MEMORIAL STADIUM,exact,100.0,100.0,direct_precinct_alias
+689,MOUNT ZION CHURCH,exact,100.0,100.0,direct_precinct_alias
+690,NORTHERN HTS PRES CHURCH,exact,100.0,100.0,direct_precinct_alias
+691,OLD NATIONAL GUARD ARMORY,exact,100.0,100.0,direct_precinct_alias
+692,ORRVILLE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+693,PLANTERSVILLE VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+694,,county_level_ballot,0.0,0.0,county_level_distribution
+695,QUEEN OF PEACE SCHOOL,fuzzy,95.23809523809523,9.738095238095227,direct_precinct_alias
+696,RANGEDALE CENTER,exact,100.0,100.0,direct_precinct_alias
+697,SAFFORD COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+698,SELMA MALL,exact,100.0,100.0,direct_precinct_alias
+699,SELMONT WATER WORKS,exact,100.0,100.0,direct_precinct_alias
+700,SHILOH SCHOOL BUILDING,exact,100.0,100.0,direct_precinct_alias
+701,SUMMERFIELD VOLUNTEER FIRE,exact,100.0,100.0,direct_precinct_alias
+702,TIPTON SCHOOL,exact,100.0,100.0,direct_precinct_alias
+703,TYLER COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+704,UNION OLD NATL GRD ARMORY,fuzzy,96.15384615384616,11.538461538461547,direct_precinct_alias
+705,VALLEY GRANDE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+706,WOODROW AVE FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+707,,county_level_ballot,0.0,0.0,county_level_distribution
+708,ADAMSBURG FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+709,ANTIOCH BARRYS BBQ,fuzzy,97.2972972972973,52.297297297297305,direct_precinct_alias
+710,ARONEY FIRE HALL,exact,100.0,100.0,direct_precinct_alias
+711,BLAKE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+712,CARTERSVILLE FIRE HALL,exact,100.0,100.0,direct_precinct_alias
+713,COLLINSVL NATL GD ARMORY,fuzzy,93.33333333333333,7.833333333333329,direct_precinct_alias
+714,COPELAND BRG LIBERTY HILL,exact,100.0,100.0,direct_precinct_alias
+715,DEKALB COUNTY SCHOOL COLISEUM,exact,100.0,100.0,direct_precinct_alias
+716,DEKALB COUNTY SCHOOL COLISEUM,exact,100.0,100.0,direct_precinct_alias
+717,DOGTOWN FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+718,EAST HIGHLAND F H,exact,100.0,100.0,direct_precinct_alias
+719,,unmatched,88.46153846153845,0.0,county_distribution_fallback
+720,,unmatched,85.5,31.0909090909091,county_distribution_fallback
+721,,unmatched,85.5,0.0,county_distribution_fallback
+722,GERALDINE TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+723,GROVE OAK CLUB HOUSE,exact,100.0,100.0,direct_precinct_alias
+724,HAMMONDVILLE,fuzzy_equivalent_allocation,95.0,3.5714285714285694,direct_precinct_alias
+725,HENAGAR RURITAN BUILDING,fuzzy,95.83333333333334,10.14705882352942,direct_precinct_alias
+726,IDER MTN HOME CHURCH,exact,100.0,100.0,direct_precinct_alias
+727,IDER TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+728,KILPATRICK FIRE STN,exact,100.0,100.0,direct_precinct_alias
+729,LEBANON CHURCH,exact,100.0,100.0,direct_precinct_alias
+730,MACEDONIA BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+731,MCKESTES COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+732,MENTONE TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+733,PAINTER LIBERTY BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+734,PAYNE GAP CHURCH,exact,100.0,100.0,direct_precinct_alias
+735,PEA RIDGE CHURCH,exact,100.0,100.0,direct_precinct_alias
+736,,unmatched,95.0,0.0,county_distribution_fallback
+737,PLEASANT HILL COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+738,PORTERSVILLE BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+739,POWELL PARK PAVILLION,exact,100.0,100.0,direct_precinct_alias
+740,,county_level_ballot,0.0,0.0,county_level_distribution
+741,RODENTOWN COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+742,SAND MTN RESEARCH CENTER,exact,100.0,100.0,direct_precinct_alias
+743,SENIOR CITIZEN CENTER,exact,100.0,100.0,direct_precinct_alias
+744,SENIOR CITIZEN CENTER,exact,100.0,100.0,direct_precinct_alias
+745,SHADY GROVE BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+746,SHILOH TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+747,SKIRUM COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+748,SULPHUR SPRINGS COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+749,SYLVANIA TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+750,,unmatched,85.5,0.0,county_distribution_fallback
+751,VALLEY HEAD TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+752,VFW HALL LOBBY,exact,100.0,100.0,direct_precinct_alias
+753,WHITON OLD SCHOOL BUILDING,exact,100.0,100.0,direct_precinct_alias
+754,WILBORN COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+755,WILLS VALLEY RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+756,WILLS VALLEY RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+757,,county_level_ballot,0.0,0.0,county_level_distribution
+758,ASBURY KENT COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+759,BLUE RIDGE BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+760,,unmatched,85.5,9.5,county_distribution_fallback
+761,COOSADA CITY HALL,exact,100.0,100.0,direct_precinct_alias
+762,CRENSHAW PARK,exact,100.0,100.0,direct_precinct_alias
+763,DEATSVILLE VOLUNTEER FIRE,fuzzy,95.0,9.5,direct_precinct_alias
+764,ECLECTIC METHODIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+765,FAIN PARK WETUMPKA,exact,100.0,100.0,direct_precinct_alias
+766,FITZPATRICK COMMUNITY HOUSE,exact,100.0,100.0,direct_precinct_alias
+767,,unmatched,90.0,12.448979591836732,county_distribution_fallback
+768,,unmatched,90.0,4.5,county_distribution_fallback
+769,HOLTVILLE CAINS CHAPEL,exact,100.0,100.0,direct_precinct_alias
+770,KOWALIGA FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+771,MILLBROOK CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+772,MILLBROOK CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+773,,unmatched,96.42857142857143,0.0,county_distribution_fallback
+774,,unmatched,96.42857142857143,0.0,county_distribution_fallback
+775,,unmatched,76.0,20.444444444444443,county_distribution_fallback
+776,,unmatched,76.0,20.444444444444443,county_distribution_fallback
+777,NEW HOPE CHURCH,exact,100.0,100.0,direct_precinct_alias
+778,PLEASANT HILL COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+779,,county_level_ballot,0.0,0.0,county_level_distribution
+780,REDHILL COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+781,ROCK SPRINGS VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+782,SANTUCK COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+783,,unmatched,79.16666666666666,0.0,county_distribution_fallback
+784,TITUS COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+785,,unmatched,95.65217391304348,0.0,county_distribution_fallback
+786,,unmatched,95.65217391304348,0.0,county_distribution_fallback
+787,,unmatched,95.65217391304348,0.0,county_distribution_fallback
+788,,unmatched,84.0,22.46153846153846,county_distribution_fallback
+789,WEOKA COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+790,WETUMPKA CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+791,,county_level_ballot,0.0,0.0,county_level_distribution
+792,ALCO J D JC MUSEUM,exact,100.0,100.0,direct_precinct_alias
+793,APPLETON VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+794,ATMORE CITY HALL,exact,100.0,100.0,direct_precinct_alias
+795,ATMORE CITY HALL,exact,100.0,100.0,direct_precinct_alias
+796,,unmatched,85.5,14.911764705882362,county_distribution_fallback
+797,ATMORE PUBLIC LIBRARY,exact,100.0,100.0,direct_precinct_alias
+798,ATMORE PUBLIC LIBRARY,exact,100.0,100.0,direct_precinct_alias
+799,BARNETTS C R ROBINSONS STORE,exact,100.0,100.0,direct_precinct_alias
+800,BETHEL ROBERTS COUNTY VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+801,BRADLEY ROCK CREEK,exact,100.0,100.0,direct_precinct_alias
+802,,unmatched,78.23529411764704,4.3222506393861835,county_distribution_fallback
+803,,unmatched,78.23529411764704,4.3222506393861835,county_distribution_fallback
+804,CANOE CIVIC CLUB BUILDING,exact,100.0,100.0,direct_precinct_alias
+805,DAMASCUS BOYKIN SCHOOL,exact,100.0,100.0,direct_precinct_alias
+806,DIXIE VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+807,FLOMATON COMMUNITY HOUSE,exact,100.0,100.0,direct_precinct_alias
+808,,unmatched,83.33333333333334,14.761904761904773,county_distribution_fallback
+809,HUXFORD MASONIC LODGE,exact,100.0,100.0,direct_precinct_alias
+810,LITTLE ESCAMBIA VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+811,LITTLE ROCK STORE,exact,100.0,100.0,direct_precinct_alias
+812,MCCALL SCHOOL,exact,100.0,100.0,direct_precinct_alias
+813,MCCULLOGH VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+814,,unmatched,85.5,0.0,county_distribution_fallback
+815,PINEVIEW VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+816,,unmatched,85.5,0.0,county_distribution_fallback
+817,POARCH SAIL CENTER,exact,100.0,100.0,direct_precinct_alias
+818,POLLARD TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+819,,county_level_ballot,0.0,0.0,county_level_distribution
+820,RACHEL PATTERSON SCHOOL,exact,100.0,100.0,direct_precinct_alias
+821,RIVERVIEW TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+822,ROCK HILL RIDGE ROAD FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+823,,unmatched,63.41463414634146,2.9495178672717017,county_distribution_fallback
+824,WALLACE METHODIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+825,12TH STREET BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+826,FIRST UNITED METH ATTALLA,fuzzy,95.0,9.5,direct_precinct_alias
+827,FIRST UNITED METH ATTALLA,fuzzy,95.0,9.5,direct_precinct_alias
+828,,county_level_ballot,0.0,0.0,county_level_distribution
+829,,county_level_ballot,0.0,0.0,county_level_distribution
+830,ALTOONA CITY HALL,exact,100.0,100.0,direct_precinct_alias
+831,ATTALLA RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+832,ATTALLA RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+833,BLACK CREEK CHURCH FELLOWSHIP,exact,100.0,100.0,direct_precinct_alias
+834,CARVER COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+835,CARVER COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+836,CAVE SPRINGS COMMUNITY CLUB HOUSE,exact,100.0,100.0,direct_precinct_alias
+837,DISTRICT NO 3 MAINTENANCE SHOP,exact,100.0,100.0,direct_precinct_alias
+838,DUCK SPRINGS SCHOOL,exact,100.0,100.0,direct_precinct_alias
+839,EAST GADSDEN RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+840,EAST GADSDEN RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+841,EGYPT COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+842,ELLIOTT COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+843,ELLIOTT COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+844,FORDS VALLEY WATER,exact,100.0,100.0,direct_precinct_alias
+845,GADSDEN CONVENTION HALL,exact,100.0,100.0,direct_precinct_alias
+846,GADSDEN CONVENTION HALL,exact,100.0,100.0,direct_precinct_alias
+847,GALLANT COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+848,GEORGE WALLACE SENIOR CENTER,exact,100.0,100.0,direct_precinct_alias
+849,GEORGE WALLACE SENIOR CENTER,exact,100.0,100.0,direct_precinct_alias
+850,HOKES BLUFF COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+851,HOKES BLUFF COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+852,IVALEE VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+853,LIBERTY METHODIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+854,LOOKOUT MTN COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+855,MEADOW BROOK BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+856,MORTON CHAPEL CHURCH,exact,100.0,100.0,direct_precinct_alias
+857,MOUNTAINBORO CITY HALL,exact,100.0,100.0,direct_precinct_alias
+858,NEW UNION COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+859,NOCCALULA KIWANIS PVLN 1,fuzzy_equivalent_allocation,95.65217391304348,0.0,direct_precinct_alias
+860,NOCCALULA KIWANIS PVLN 1,fuzzy_equivalent_allocation,95.65217391304348,0.0,direct_precinct_alias
+861,NORTH GADSDEN RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+862,NORTHEAST ETOWAH COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+863,NORTHEAST ETOWAH COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+864,,county_level_ballot,0.0,0.0,county_level_distribution
+865,RAINBOW CITY COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+866,RAINBOW CITY COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+867,RAINBOW CITY COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+868,RAINBOW CITY FIRE DEPARTMENT NO,fuzzy_equivalent_allocation,95.0,0.0,direct_precinct_alias
+869,REECE CITY TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+870,RIDGEVILLE TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+871,SARDIS CITY HALL,exact,100.0,100.0,direct_precinct_alias
+872,SOUTHSIDE HS OLD LUNCH RM,fuzzy,96.15384615384616,41.60839160839162,direct_precinct_alias
+873,SOUTHSIDE HS OLD LUNCH RM,fuzzy,96.15384615384616,41.60839160839162,direct_precinct_alias
+874,SOUTHSIDE HS OLD LUNCH RM,fuzzy,96.15384615384616,41.60839160839162,direct_precinct_alias
+875,TABERNACLE CHURCH,exact,100.0,100.0,direct_precinct_alias
+876,TILLISON BEND WATER AUTHORITY,exact,100.0,100.0,direct_precinct_alias
+877,UNION 3 BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+878,WALLACE HALL COMMUNITY COLLEGE 1,fuzzy_equivalent_allocation,96.7741935483871,0.0,direct_precinct_alias
+879,WALLACE HALL COMMUNITY COLLEGE 1,fuzzy_equivalent_allocation,96.7741935483871,0.0,direct_precinct_alias
+880,WALNUT GROVE FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+881,WALNUT PARK RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+882,WEST ETOWAH VOLUNTEER FIRE,fuzzy,95.0,9.5,direct_precinct_alias
+883,WHORTON BEND FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+884,,county_level_ballot,0.0,0.0,county_level_distribution
+885,BERRY ARMORY,exact,100.0,100.0,direct_precinct_alias
+886,BOLEY BOLEY SPRINGS CHURCH,exact,100.0,100.0,direct_precinct_alias
+887,BROWNS GLEN ALLEN COMMUNITY CNT,exact,100.0,100.0,direct_precinct_alias
+888,BROWNS WHITES CHAPEL VT CNT,exact,100.0,100.0,direct_precinct_alias
+889,BYLOR VOTING CENTER BANKSTON,exact,100.0,100.0,direct_precinct_alias
+890,CLEAR CREEK VT CNT PHILA CHURCH,exact,100.0,100.0,direct_precinct_alias
+891,COLES NEW RIVER CHURCH OF CHRIST,exact,100.0,100.0,direct_precinct_alias
+892,COLES VOTING CNT KILLINGSWORTH,exact,100.0,100.0,direct_precinct_alias
+893,COLLIN VT CNT MOUNT VERNON,exact,100.0,100.0,direct_precinct_alias
+894,FAYETTE CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+895,FAYETTE COVIN VOTING CENTER,exact,100.0,100.0,direct_precinct_alias
+896,FAYETTE YOUTH CENTER,exact,100.0,100.0,direct_precinct_alias
+897,FORDS VOTING CENTER FORDS MOUNT,exact,100.0,100.0,direct_precinct_alias
+898,GEORGES CREEK VT CNT PEA RDG,exact,100.0,100.0,direct_precinct_alias
+899,GILPIN LAWRENCE MILL COMMUNITY CNT,exact,100.0,100.0,direct_precinct_alias
+900,HICO VT CNT N OF NEWTONVILLE,exact,100.0,100.0,direct_precinct_alias
+901,LEE BELK COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+902,LEE OAKRIDGE VOTING CENTER,exact,100.0,100.0,direct_precinct_alias
+903,PLEASANT GROVE VOTING CENTER,exact,100.0,100.0,direct_precinct_alias
+904,,county_level_ballot,0.0,0.0,county_level_distribution
+905,RIDGE CONCORD CHURCH VT CNT,exact,100.0,100.0,direct_precinct_alias
+906,RUSSELL VOTING CENTER BOBO SCHOOL,exact,100.0,100.0,direct_precinct_alias
+907,STONEWALL CANNAN COMMUNITY CNT,exact,100.0,100.0,direct_precinct_alias
+908,STOUGH VOTING CENTER,exact,100.0,100.0,direct_precinct_alias
+909,STUDDARDS CROSSROADS,exact,100.0,100.0,direct_precinct_alias
+910,SUGAR CREEK EXP STA NEAR WNFLD,exact,100.0,100.0,direct_precinct_alias
+911,THOMPSON KIRKLAND SCHOOL BUILDING,exact,100.0,100.0,direct_precinct_alias
+912,WEBSTER VT CNT WAYSIDE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+913,UNION,exact,100.0,100.0,direct_precinct_alias
+914,RUSSELLVILLE HIGH SCHOOL,exact,100.0,100.0,direct_precinct_alias
+915,,unmatched,81.4814814814815,25.231481481481495,county_distribution_fallback
+916,COURTHOUSE,exact,100.0,100.0,direct_precinct_alias
+917,CHUCKIE MULLINS CENTER,exact,100.0,100.0,direct_precinct_alias
+918,RUSSELLVILLE ELECTRIC WRHS,exact,100.0,100.0,direct_precinct_alias
+919,FRANKFORT,exact,100.0,100.0,direct_precinct_alias
+920,PLEASANT SITE,exact,100.0,100.0,direct_precinct_alias
+921,RED BAY,exact,100.0,100.0,direct_precinct_alias
+922,VINA FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+923,BELGREEN,exact,100.0,100.0,direct_precinct_alias
+924,HODGES,exact,100.0,100.0,direct_precinct_alias
+925,PHIL CAMPBELL,exact,100.0,100.0,direct_precinct_alias
+926,ROCKWOOD,exact,100.0,100.0,direct_precinct_alias
+927,MOUNT STAR HILLS,exact,100.0,100.0,direct_precinct_alias
+928,SAINT CROSS ROAD,fuzzy,93.33333333333333,48.888888888888886,direct_precinct_alias
+929,THARPTOWN,exact,100.0,100.0,direct_precinct_alias
+930,HALLTOWN,exact,100.0,100.0,direct_precinct_alias
+931,LAWLERS,exact,100.0,100.0,direct_precinct_alias
+932,WACO CHURCH OF CHRIST,exact,100.0,100.0,direct_precinct_alias
+933,JONESBORO,exact,100.0,100.0,direct_precinct_alias
+934,SPRUCE PINE,exact,100.0,100.0,direct_precinct_alias
+935,TRAPPTOWN E FRANKLIN JR HIGH,fuzzy_equivalent_allocation,96.2962962962963,1.2962962962963047,direct_precinct_alias
+936,NEWBURG,exact,100.0,100.0,direct_precinct_alias
+937,,county_level_ballot,0.0,0.0,county_level_distribution
+938,,county_level_ballot,0.0,0.0,county_level_distribution
+939,,county_level_ballot,0.0,0.0,county_level_distribution
+940,BELLWOOD VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+941,BLACK,exact,100.0,100.0,direct_precinct_alias
+942,CHANCELLOR VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+943,COFFEE SPRINGS,exact,100.0,100.0,direct_precinct_alias
+944,DEVCO VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+945,FADETTE VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+946,FARM CENTER,exact,100.0,100.0,direct_precinct_alias
+947,FLAT CREEK,exact,100.0,100.0,direct_precinct_alias
+948,GENEVA ARMORY,exact,100.0,100.0,direct_precinct_alias
+949,GENEVA CITY HALL,exact,100.0,100.0,direct_precinct_alias
+950,GENEVA COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+951,GENEVA COUNTY COURTHOUSE,exact,100.0,100.0,direct_precinct_alias
+952,GILMORE,exact,100.0,100.0,direct_precinct_alias
+953,HACODA,exact,100.0,100.0,direct_precinct_alias
+954,HUGHES COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+955,HUGHES COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+956,HUGHES VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+957,LOWERY,exact,100.0,100.0,direct_precinct_alias
+958,LYTLE,exact,100.0,100.0,direct_precinct_alias
+959,MALVERN,exact,100.0,100.0,direct_precinct_alias
+960,PINEY GROVE,exact,100.0,100.0,direct_precinct_alias
+961,,county_level_ballot,0.0,0.0,county_level_distribution
+962,REVELS GROCERY,exact,100.0,100.0,direct_precinct_alias
+963,SAMSON AMERICAN LEGION HALL,exact,100.0,100.0,direct_precinct_alias
+964,SAMSON COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+965,SLOCOMB NATIONAL GUARD ARMORY,exact,100.0,100.0,direct_precinct_alias
+966,TATE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+967,,county_level_ballot,0.0,0.0,county_level_distribution
+968,BOLIGEE CITY HALL,exact,100.0,100.0,direct_precinct_alias
+969,CLINTON COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+970,EUTAW ACTIVITY CENTER,exact,100.0,100.0,direct_precinct_alias
+971,FORKLAND TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+972,JENA CLUBHOUSE,exact,100.0,100.0,direct_precinct_alias
+973,KNOXVILLE FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+974,MANTUA FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+975,MCKINLEY BRANCH,fuzzy,96.7741935483871,11.274193548387103,direct_precinct_alias
+976,MORROW BROWN COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+977,MOUNT HEBRON PRE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+978,NATIONAL GUARD ARMORY,exact,100.0,100.0,direct_precinct_alias
+979,,county_level_ballot,0.0,0.0,county_level_distribution
+980,SOUTH FORK REST,exact,100.0,100.0,direct_precinct_alias
+981,TISHABEE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+982,UNION TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+983,,county_level_ballot,0.0,0.0,county_level_distribution
+984,AKRON CITY HALL,exact,100.0,100.0,direct_precinct_alias
+985,BUCKSNORT,exact,100.0,100.0,direct_precinct_alias
+986,CEDARVILLE,exact,100.0,100.0,direct_precinct_alias
+987,GALLION VOLUNTEER FIRE,exact,100.0,100.0,direct_precinct_alias
+988,GREENSBORO ARMORY,exact,100.0,100.0,direct_precinct_alias
+989,GREENSBORO ARMORY,exact,100.0,100.0,direct_precinct_alias
+990,HAVANA,exact,100.0,100.0,direct_precinct_alias
+991,MOUNDVILLE CITY HALL,exact,100.0,100.0,direct_precinct_alias
+992,MOUNT HERMAN,exact,100.0,100.0,direct_precinct_alias
+993,NEWBERN OLD BANK BUILDING,exact,100.0,100.0,direct_precinct_alias
+994,PHIPPS WORK CENTER,exact,100.0,100.0,direct_precinct_alias
+995,,county_level_ballot,0.0,0.0,county_level_distribution
+996,SAWYERVILLE HEAD START SCHOOL,exact,100.0,100.0,direct_precinct_alias
+997,STEWART,exact,100.0,100.0,direct_precinct_alias
+998,SUNSHINE HIGH SCHOOL,exact,100.0,100.0,direct_precinct_alias
+999,VALLEY,exact,100.0,100.0,direct_precinct_alias
+1000,ABBEVILLE VOTING CENTER,exact,100.0,100.0,direct_precinct_alias
+1001,ABBEVILLE VOTING CENTER,exact,100.0,100.0,direct_precinct_alias
+1002,,county_level_ballot,0.0,0.0,county_level_distribution
+1003,CAPPS POST OFFICE,exact,100.0,100.0,direct_precinct_alias
+1004,DOUGLAS CROSSROADS,exact,100.0,100.0,direct_precinct_alias
+1005,EDWIN VOTING CENTER,exact,100.0,100.0,direct_precinct_alias
+1006,HALEBURG CITY HALL,exact,100.0,100.0,direct_precinct_alias
+1007,HEADLAND VOTING CENTER,exact,100.0,100.0,direct_precinct_alias
+1008,HEADLAND VOTING CENTER,exact,100.0,100.0,direct_precinct_alias
+1009,JUDSON COMMUNITY,exact,100.0,100.0,direct_precinct_alias
+1010,LAWRENCEVILLE HS,exact,100.0,100.0,direct_precinct_alias
+1011,NEWVILLE VT HOUSE,exact,100.0,100.0,direct_precinct_alias
+1012,,county_level_ballot,0.0,0.0,county_level_distribution
+1013,SHORTERVILLE HOUSE,exact,100.0,100.0,direct_precinct_alias
+1014,TUMBLETON VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+1015,UNION VT HOUSE,exact,100.0,100.0,direct_precinct_alias
+1016,WILLS CROSS ROADS VT,exact,100.0,100.0,direct_precinct_alias
+1017,,county_level_ballot,0.0,0.0,county_level_distribution
+1018,ANDREW BELL COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1019,ASHFORD,exact,100.0,100.0,direct_precinct_alias
+1020,BAY SPRINGS,exact,100.0,100.0,direct_precinct_alias
+1021,COLUMBIA,exact,100.0,100.0,direct_precinct_alias
+1022,COTTONWOOD,exact,100.0,100.0,direct_precinct_alias
+1023,COWARTS,exact,100.0,100.0,direct_precinct_alias
+1024,DOUG TEW COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1025,DOUG TEW COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1026,DUPREE,exact,100.0,100.0,direct_precinct_alias
+1027,ENTERPRISE CHURCH,exact,100.0,100.0,direct_precinct_alias
+1028,FARM CENTER,exact,100.0,100.0,direct_precinct_alias
+1029,FARM CENTER,exact,100.0,100.0,direct_precinct_alias
+1030,GORDON,exact,100.0,100.0,direct_precinct_alias
+1031,HARMON,exact,100.0,100.0,direct_precinct_alias
+1032,HODGESVILLE,exact,100.0,100.0,direct_precinct_alias
+1033,KINSEY,exact,100.0,100.0,direct_precinct_alias
+1034,LIBRARY,exact,100.0,100.0,direct_precinct_alias
+1035,LIBRARY,exact,100.0,100.0,direct_precinct_alias
+1036,LOVETOWN,exact,100.0,100.0,direct_precinct_alias
+1037,LUCY,exact,100.0,100.0,direct_precinct_alias
+1038,MADRID,exact,100.0,100.0,direct_precinct_alias
+1039,PANSEY,exact,100.0,100.0,direct_precinct_alias
+1040,,county_level_ballot,0.0,0.0,county_level_distribution
+1041,REHOBETH,exact,100.0,100.0,direct_precinct_alias
+1042,TAYLOR,exact,100.0,100.0,direct_precinct_alias
+1043,VAUGHN BLUMBERG,exact,100.0,100.0,direct_precinct_alias
+1044,WALTON PARK,exact,100.0,100.0,direct_precinct_alias
+1045,WALTON PARK,exact,100.0,100.0,direct_precinct_alias
+1046,WATER AND ELECTRIC,exact,100.0,100.0,direct_precinct_alias
+1047,WATER AND ELECTRIC,exact,100.0,100.0,direct_precinct_alias
+1048,WEBB,exact,100.0,100.0,direct_precinct_alias
+1049,WESTGATE,exact,100.0,100.0,direct_precinct_alias
+1050,WESTGATE,exact,100.0,100.0,direct_precinct_alias
+1051,WESTGATE,exact,100.0,100.0,direct_precinct_alias
+1052,WICKSBURG,exact,100.0,100.0,direct_precinct_alias
+1053,WIREGRASS PARK,exact,100.0,100.0,direct_precinct_alias
+1054,WIREGRASS PARK,exact,100.0,100.0,direct_precinct_alias
+1055,,county_level_ballot,0.0,0.0,county_level_distribution
+1056,ASPEL JACKSON COUNTY WATERWORKS,exact,100.0,100.0,direct_precinct_alias
+1057,BISHOP HALLS STORE,exact,100.0,100.0,direct_precinct_alias
+1058,BRIDGEPORT COMMUNITY CENTER,fuzzy,96.42857142857143,6.428571428571431,direct_precinct_alias
+1059,BRIDGEPORT COMMUNITY CENTER,fuzzy,96.42857142857143,6.428571428571431,direct_precinct_alias
+1060,BRYANT COMMUNITY BUILDING,exact,100.0,100.0,direct_precinct_alias
+1061,CHRISTIAN HOME MTN TOP DAIRY,exact,100.0,100.0,direct_precinct_alias
+1062,CROW FIRE HALL,exact,100.0,100.0,direct_precinct_alias
+1063,DEANS CHAPEL COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1064,DUTTON CITY HALL,exact,100.0,100.0,direct_precinct_alias
+1065,ESTILL FORK PRINCES STORE,exact,100.0,100.0,direct_precinct_alias
+1066,FACKLER FIRE HALL,exact,100.0,100.0,direct_precinct_alias
+1067,FLAT ROCK RURITAN BUILDING,exact,100.0,100.0,direct_precinct_alias
+1068,GARTH BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1069,HAMBRICK COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1070,HIGDON NORTH SAND MTN SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1071,HOLLY SPRINGS BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1072,HOLLYTREE GROCERY,exact,100.0,100.0,direct_precinct_alias
+1073,HOLLYWOOD CITY HALL,exact,100.0,100.0,direct_precinct_alias
+1074,HYTOP TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+1075,LANGSTON CITY HALL,exact,100.0,100.0,direct_precinct_alias
+1076,LARKINSVILLE STOCK BARN,exact,100.0,100.0,direct_precinct_alias
+1077,LETCHER CHURCH OF GOD,exact,100.0,100.0,direct_precinct_alias
+1078,LIMROCK FIRE HALL,exact,100.0,100.0,direct_precinct_alias
+1079,LONG ISLAND COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1080,MACEDONIA SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1081,MINK CREEK SAINT SOMEWHERE STORE,exact,100.0,100.0,direct_precinct_alias
+1082,PAINT ROCK SENIOR CITIZEN CENTER,exact,100.0,100.0,direct_precinct_alias
+1083,PISGAH CITY HALL,exact,100.0,100.0,direct_precinct_alias
+1084,PLEASANT GROVES COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1085,PRINCETON FIRE HALL,exact,100.0,100.0,direct_precinct_alias
+1086,,county_level_ballot,0.0,0.0,county_level_distribution
+1087,ROSALIE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1088,SCOTTSBORO RECREATION COM BUILDING,fuzzy,97.14285714285714,11.642857142857139,direct_precinct_alias
+1089,SCOTTSBORO RECREATION COM BUILDING,fuzzy,97.14285714285714,11.642857142857139,direct_precinct_alias
+1090,SCOTTSBORO RECREATION COM BUILDING,fuzzy,97.14285714285714,11.642857142857139,direct_precinct_alias
+1091,SECTION OLD CITY HALL,exact,100.0,100.0,direct_precinct_alias
+1092,SKYLINE CITY HALL,exact,100.0,100.0,direct_precinct_alias
+1093,STEVENSON CITY PARK,fuzzy,95.0,5.0,direct_precinct_alias
+1094,STEVENSON CITY PARK,fuzzy,95.0,5.0,direct_precinct_alias
+1095,TRENTON FIRE HALL,exact,100.0,100.0,direct_precinct_alias
+1096,,unmatched,90.0,30.90909090909092,county_distribution_fallback
+1097,WOODVILLE BOB JONES COMMUNITY,exact,100.0,100.0,direct_precinct_alias
+1098,MOUNT OLIVE ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+1099,MOUNT OLIVE ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+1100,BAGLEY JR HIGH SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1101,BAGLEY JR HIGH,exact,100.0,100.0,direct_precinct_alias
+1102,MASONIC LODGE W J,exact,100.0,100.0,direct_precinct_alias
+1103,ALLIANCE COMMUNITY CNT,exact,100.0,100.0,direct_precinct_alias
+1104,ALLIANCE COMMUNITY CNT,exact,100.0,100.0,direct_precinct_alias
+1105,SYLVAN SPRINGS COMMUNITY,exact,100.0,100.0,direct_precinct_alias
+1106,PLEASANT GROVE BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1107,CONCORD HIGHLANDS BA,exact,100.0,100.0,direct_precinct_alias
+1108,HUEYTOWN COMMUNITY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1109,VALLEY CREEK BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1110,OAK GROVE F B C,exact,100.0,100.0,direct_precinct_alias
+1111,PLEAS HILL U M C,exact,100.0,100.0,direct_precinct_alias
+1112,CORNER SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1113,SAINT PETER CAT CHR,exact,100.0,100.0,direct_precinct_alias
+1114,TRUSS CITY HALL,exact,100.0,100.0,direct_precinct_alias
+1115,TRUSS FIRST BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1116,MOUNT VIEW BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1117,CLVIEW BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1118,CVIEW BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1119,CENTER POINT CTHS,exact,100.0,100.0,direct_precinct_alias
+1120,HILLDLE BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1121,JEFF STATE COLL,exact,100.0,100.0,direct_precinct_alias
+1122,5416 MCELWAIN BAP,exact,100.0,100.0,direct_precinct_alias
+1123,CHEROKEE BEND SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1124,IRONDALE SR BLD,exact,100.0,100.0,direct_precinct_alias
+1125,IRONDALE SR CT,exact,100.0,100.0,direct_precinct_alias
+1126,FIRE STATION 31,exact,100.0,100.0,direct_precinct_alias
+1127,HUFFMAN MIDDLE,exact,100.0,100.0,direct_precinct_alias
+1128,BREWSTER RD BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1129,FIRST UMC OF CENTER,exact,100.0,100.0,direct_precinct_alias
+1130,LEEDS CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+1131,LEEDS FIRST U M C,exact,100.0,100.0,direct_precinct_alias
+1132,SULPHER SPRING CHURCH,exact,100.0,100.0,direct_precinct_alias
+1133,SULPHER SPRINGCH,exact,100.0,100.0,direct_precinct_alias
+1134,HUNTER STREET BAP,exact,100.0,100.0,direct_precinct_alias
+1135,PRNCE O PEACE CHR,exact,100.0,100.0,direct_precinct_alias
+1136,SHADES CREST BAP,exact,100.0,100.0,direct_precinct_alias
+1137,BLUFF PARK METH,exact,100.0,100.0,direct_precinct_alias
+1138,EDGEWOOD ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+1139,HOMEWOOD PUB LIB,exact,100.0,100.0,direct_precinct_alias
+1140,MOUNT BROOK GRAM SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1141,SAINT LUKES EPIS CHURCH,exact,100.0,100.0,direct_precinct_alias
+1142,MOUNT BRK CITY HALL,exact,100.0,100.0,direct_precinct_alias
+1143,HOOVER PRK AND RECREATION,exact,100.0,100.0,direct_precinct_alias
+1144,OAKMONT PRES CHR,exact,100.0,100.0,direct_precinct_alias
+1145,SAINT PETER CAT CHR,exact,100.0,100.0,direct_precinct_alias
+1146,SAINT MARK UMC,exact,100.0,100.0,direct_precinct_alias
+1147,VEST HILLS C C,exact,100.0,100.0,direct_precinct_alias
+1148,MOUNT TOP COM CHR,exact,100.0,100.0,direct_precinct_alias
+1149,TOWN VILL VEST,exact,100.0,100.0,direct_precinct_alias
+1150,VEST HILLS UMC,exact,100.0,100.0,direct_precinct_alias
+1151,HOOVER PUB LIB,exact,100.0,100.0,direct_precinct_alias
+1152,MTN CHAPEL UMC,exact,100.0,100.0,direct_precinct_alias
+1153,SAINT THOMAS EPIS CHURCH,exact,100.0,100.0,direct_precinct_alias
+1154,FIRE STATION 2,exact,100.0,100.0,direct_precinct_alias
+1155,CAHABA HTS COMMUNITY,exact,100.0,100.0,direct_precinct_alias
+1156,BROOKWOOD BAP CHR,exact,100.0,100.0,direct_precinct_alias
+1157,LIBERTY PARK BAP,exact,100.0,100.0,direct_precinct_alias
+1158,KOREAN UMC,exact,100.0,100.0,direct_precinct_alias
+1159,GARDENDALE CIVIC,exact,100.0,100.0,direct_precinct_alias
+1160,MORRIS TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+1161,KIMBERLY TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+1162,WARRIOR CITY HALL,exact,100.0,100.0,direct_precinct_alias
+1163,TRAFFORD TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+1164,KERMITJOHNSON SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1165,PALMERDALE U M C,exact,100.0,100.0,direct_precinct_alias
+1166,PINSON UMC,exact,100.0,100.0,direct_precinct_alias
+1167,CLAY COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1168,CENTRAL PARK RECREATION CNT,exact,100.0,100.0,direct_precinct_alias
+1169,LEE ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1170,WIGGINS LIBRARY,exact,100.0,100.0,direct_precinct_alias
+1171,HARRISON PARK RECREATION,exact,100.0,100.0,direct_precinct_alias
+1172,HARRISON PARK RECREA,exact,100.0,100.0,direct_precinct_alias
+1173,HEMPHILL SCHOOL RECREATION,exact,100.0,100.0,direct_precinct_alias
+1174,JACKSON ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1175,HENRY CRUMPTON RECREATION,exact,100.0,100.0,direct_precinct_alias
+1176,SHADY GROVE BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1177,MACEDONIA CHURCH,exact,100.0,100.0,direct_precinct_alias
+1178,ROSS BRIDGE WELCOME,exact,100.0,100.0,direct_precinct_alias
+1179,E S AND S,exact,100.0,100.0,direct_precinct_alias
+1180,HOMEWOOD COURTHOUSE,exact,100.0,100.0,direct_precinct_alias
+1181,HOMEWOOD EXCEPT,exact,100.0,100.0,direct_precinct_alias
+1182,SHADES CAHABA SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1183,AFTON LEE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1184,BHM BOTANIC GARDENS,exact,100.0,100.0,direct_precinct_alias
+1185,LEGION FIELD LOBBY,exact,100.0,100.0,direct_precinct_alias
+1186,NEW ERA BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1187,HILL ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1188,MEMORIAL RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+1189,MEMORIAL RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+1190,CENTER STR SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1191,CENTER STR SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1192,GLEN IRIS ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1193,GREEN SPR BAP CHR,exact,100.0,100.0,direct_precinct_alias
+1194,RAMSAY ALT HS,exact,100.0,100.0,direct_precinct_alias
+1195,SOUTHSIDE LIBRARY,exact,100.0,100.0,direct_precinct_alias
+1196,FIRE STATION 22,exact,100.0,100.0,direct_precinct_alias
+1197,WILKERSON MIDDLE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1198,TUGGLE ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1199,TUGGLE ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1200,LEWIS ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1201,MOUNT ZION COMMUNITY CHURCH,exact,100.0,100.0,direct_precinct_alias
+1202,COURTHOUSE LOBBY,exact,100.0,100.0,direct_precinct_alias
+1203,COURTHOUSE LOBBY,exact,100.0,100.0,direct_precinct_alias
+1204,SOUTHTOWN HOUSING,exact,100.0,100.0,direct_precinct_alias
+1205,MORTON SIMPSON CNT,exact,100.0,100.0,direct_precinct_alias
+1206,AVONDALE LIBRARY,exact,100.0,100.0,direct_precinct_alias
+1207,AVONDALE ELE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1208,AVONDALE ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1209,WILLOW WOOD RECREATION CEN,exact,100.0,100.0,direct_precinct_alias
+1210,N AVONDALE LIBRARY,exact,100.0,100.0,direct_precinct_alias
+1211,FIRE STATION 12,exact,100.0,100.0,direct_precinct_alias
+1212,CRESTWOOD COM CEN,exact,100.0,100.0,direct_precinct_alias
+1213,IRONDALE CITY HALL,exact,100.0,100.0,direct_precinct_alias
+1214,MAYTOWN BABTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1215,SYLVAN SPG TOWN,exact,100.0,100.0,direct_precinct_alias
+1216,BOOKER HT DEVEL CORP,exact,100.0,100.0,direct_precinct_alias
+1217,BOOKER HTS DEV CORP,exact,100.0,100.0,direct_precinct_alias
+1218,MULGA TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+1219,ADAMSVILLE BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1220,ADAMSVILLE SEN,exact,100.0,100.0,direct_precinct_alias
+1221,FIRE STA MINOR,exact,100.0,100.0,direct_precinct_alias
+1222,FIRE STATION 17,exact,100.0,100.0,direct_precinct_alias
+1223,ENSLEY PARK RECREATION CEN,exact,100.0,100.0,direct_precinct_alias
+1224,C J DONALD SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1225,FIRE STATION 1,exact,100.0,100.0,direct_precinct_alias
+1226,CHARLES BROWN,exact,100.0,100.0,direct_precinct_alias
+1227,CENTRAL PARK SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1228,FIVE POINTS WEST LIB,exact,100.0,100.0,direct_precinct_alias
+1229,CANAAN BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1230,MUSCODA COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1231,MUSCODA COM CEN,exact,100.0,100.0,direct_precinct_alias
+1232,JONESBORO ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+1233,FIRE DEP ADMIN BLD,exact,100.0,100.0,direct_precinct_alias
+1234,THOMPSON MANOR,exact,100.0,100.0,direct_precinct_alias
+1235,BESSEMER CITY HALL,exact,100.0,100.0,direct_precinct_alias
+1236,SOUTHSIDE HOMES,exact,100.0,100.0,direct_precinct_alias
+1237,DUNBAR ABRAMS COM,exact,100.0,100.0,direct_precinct_alias
+1238,FIRE STATION 5,exact,100.0,100.0,direct_precinct_alias
+1239,LAWSON STATE,exact,100.0,100.0,direct_precinct_alias
+1240,JOHNS COMMUNITY CENT,exact,100.0,100.0,direct_precinct_alias
+1241,LIPSCOMB COUNTY HL,exact,100.0,100.0,direct_precinct_alias
+1242,FIRE SAINT LIPSCOMB,exact,100.0,100.0,direct_precinct_alias
+1243,FIRE SAINT LIPSCOMB,exact,100.0,100.0,direct_precinct_alias
+1244,NEW BETH BAP CHR,exact,100.0,100.0,direct_precinct_alias
+1245,HUEYTOWN COUN CLUB,exact,100.0,100.0,direct_precinct_alias
+1246,HUEYTOWN COUNTY HLL,exact,100.0,100.0,direct_precinct_alias
+1247,BROOKLANE COMMUNITY,exact,100.0,100.0,direct_precinct_alias
+1248,NEW BETHEM BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1249,FAIRFIELD CITY HALL,exact,100.0,100.0,direct_precinct_alias
+1250,MOUNT PILGRIM BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1251,GLEN OAKS ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+1252,SAINT MARYS CATH,fuzzy,96.96969696969697,5.541125541125538,direct_precinct_alias
+1253,MIDFIELD COMMUNITY CEN,exact,100.0,100.0,direct_precinct_alias
+1254,BRIGHTON SENIOR CIT,exact,100.0,100.0,direct_precinct_alias
+1255,FIRST BAPTIST RSVT,exact,100.0,100.0,direct_precinct_alias
+1256,BRYANT CHAPEL CHURCH,exact,100.0,100.0,direct_precinct_alias
+1257,MOUNT OLIVE BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1258,WENONAH ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1259,MOUNT ZION BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1260,GATE CITY ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1261,BARRETT ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1262,BARRETT ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1263,OPORTO ARMORY,exact,100.0,100.0,direct_precinct_alias
+1264,ROBINSON ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+1265,DON HAWKINS PK AND RECREATION,exact,100.0,100.0,direct_precinct_alias
+1266,GASKINS MID SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1267,FIRE STATION 29 BHM,exact,100.0,100.0,direct_precinct_alias
+1268,SUN VAL ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1269,LM SMITH MID SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1270,LADY OF LDS CHRCH,exact,100.0,100.0,direct_precinct_alias
+1271,KETONA NURSING,exact,100.0,100.0,direct_precinct_alias
+1272,FULTONDALE SR,exact,100.0,100.0,direct_precinct_alias
+1273,HOOPER CITY RECREATION,exact,100.0,100.0,direct_precinct_alias
+1274,WRIGHTS CHAPEL UMC,fuzzy,97.2972972972973,4.989604989604999,direct_precinct_alias
+1275,N BIRMINGHAM RECREATION CNT,exact,100.0,100.0,direct_precinct_alias
+1276,NORWOOD COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1277,HUDSON MIDDLE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1278,HARRIMAN PARK RECREATION CT,exact,100.0,100.0,direct_precinct_alias
+1279,INGLENOOK ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1280,TARRANT CITY HALL,exact,100.0,100.0,direct_precinct_alias
+1281,FIRST BAP CHURCH MP,exact,100.0,100.0,direct_precinct_alias
+1282,CALVARY CHRISTIAN CHURCH,exact,100.0,100.0,direct_precinct_alias
+1283,SHEPHERD CENTER EAST,exact,100.0,100.0,direct_precinct_alias
+1284,MAURICE LW COM CT,exact,100.0,100.0,direct_precinct_alias
+1285,BROOKSIDE CITY HL,exact,100.0,100.0,direct_precinct_alias
+1286,FULTONDALE 1 BAP,exact,100.0,100.0,direct_precinct_alias
+1287,FIRE SAINT 1 HLVIEW,exact,100.0,100.0,direct_precinct_alias
+1288,FORESTDALE SQU,exact,100.0,100.0,direct_precinct_alias
+1289,SANDUSKY COMMUNITY PK,exact,100.0,100.0,direct_precinct_alias
+1290,S HAMPTON SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1291,BETHEL BAPTIST CHR,exact,100.0,100.0,direct_precinct_alias
+1292,MOUNT HEBRON BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1293,LIVELY HOPE BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1294,MORNINGSTAR BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1295,E ENSLEY PUBLIC LIB,exact,100.0,100.0,direct_precinct_alias
+1296,WOODROW WILSON ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+1297,MINOR ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1298,,county_level_ballot,0.0,0.0,county_level_distribution
+1299,,county_level_ballot,0.0,0.0,county_level_distribution
+1300,,county_level_ballot,0.0,0.0,county_level_distribution
+1301,,county_level_ballot,0.0,0.0,county_level_distribution
+1302,BEAVERTON CITY HALL NORTH,fuzzy,95.83333333333334,8.333333333333343,direct_precinct_alias
+1303,BEAVERTON CITY HALL SOUTH,fuzzy,95.83333333333334,8.333333333333343,direct_precinct_alias
+1304,,unmatched,81.4814814814815,30.05291005291007,county_distribution_fallback
+1305,BLOOMING GROVE,exact,100.0,100.0,direct_precinct_alias
+1306,,unmatched,87.17948717948718,1.6794871794871824,county_distribution_fallback
+1307,CROSSVILLE LAWR,exact,100.0,100.0,direct_precinct_alias
+1308,DETROIT CITY HALL,exact,100.0,100.0,direct_precinct_alias
+1309,FAIRVIEW SIZEMORE,exact,100.0,100.0,direct_precinct_alias
+1310,FERNBANK COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1311,GUIN MOUNT OLIVE,exact,100.0,100.0,direct_precinct_alias
+1312,HENSON SPRINGS FIRE STAT,fuzzy_equivalent_allocation,93.33333333333333,3.3333333333333286,direct_precinct_alias
+1313,HIGHTOGY RIDGE,exact,100.0,100.0,direct_precinct_alias
+1314,KENNEDY COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1315,MILLPORT LIBRARY,exact,100.0,100.0,direct_precinct_alias
+1316,MOLLOY BETTS,exact,100.0,100.0,direct_precinct_alias
+1317,MOUNT PLEASANT CURRY,exact,100.0,100.0,direct_precinct_alias
+1318,PINE SPRGS,exact,100.0,100.0,direct_precinct_alias
+1319,,county_level_ballot,0.0,0.0,county_level_distribution
+1320,STAR COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1321,STRICKLAND KINGVILLE,exact,100.0,100.0,direct_precinct_alias
+1322,SULLIGENT CITY HALL NORTH,fuzzy,95.83333333333334,8.333333333333343,direct_precinct_alias
+1323,SULLIGENT CITY HALL SOUTH,fuzzy,95.83333333333334,8.333333333333343,direct_precinct_alias
+1324,TRULL,exact,100.0,100.0,direct_precinct_alias
+1325,VAILS,exact,100.0,100.0,direct_precinct_alias
+1326,VERNON EAST,fuzzy,95.0,4.0909090909090935,direct_precinct_alias
+1327,VERNON WEST,fuzzy,95.0,4.0909090909090935,direct_precinct_alias
+1328,,county_level_ballot,0.0,0.0,county_level_distribution
+1329,BLACKBURN ZIP CITY COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1330,BROADWAY RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+1331,CENTER STAR FIRST BAPTIST,fuzzy,95.0,9.5,direct_precinct_alias
+1332,CENTER STAR FIRST BAPTIST,fuzzy,95.0,9.5,direct_precinct_alias
+1333,CENTRAL COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1334,,unmatched,85.5,0.0,county_distribution_fallback
+1335,CLOVERDALE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1336,COUNTY BOARD OF ED ADM BUILDING,exact,100.0,100.0,direct_precinct_alias
+1337,,unmatched,71.1864406779661,15.120866907474309,county_distribution_fallback
+1338,CROSSROADS SR CIT BUILDING,fuzzy,95.0,23.813559322033896,direct_precinct_alias
+1339,FLORENCE RICHARDS CENTER,exact,100.0,100.0,direct_precinct_alias
+1340,FLORENCE SHERROD AVE CHURCH CHRIST,exact,100.0,100.0,direct_precinct_alias
+1341,FLORENCE FIRST PRESBYTERIAN CHURCH,exact,100.0,100.0,direct_precinct_alias
+1342,FLORENCE BLVD CHURCH OF CHRIST,exact,100.0,100.0,direct_precinct_alias
+1343,FLORENCE EAST AT CNTRL BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1344,FLORENCE FOREST HILLS SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1345,FLORENCE FOREST HILLS SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1346,FLORENCE HANDY RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+1347,FLORENCE HARLAN SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1348,FLORENCE HIBBETT SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1349,FLORENCE HIGH SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1350,FLORENCE MARS HILL SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1351,FLORENCE MARS HILL SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1352,,unmatched,90.0,4.5,county_distribution_fallback
+1353,,unmatched,97.22222222222221,0.0,county_distribution_fallback
+1354,,unmatched,97.22222222222221,0.0,county_distribution_fallback
+1355,GREENHILL SR CITIZEN CENTER,exact,100.0,100.0,direct_precinct_alias
+1356,GREENHILL SR CITIZEN CENTER,exact,100.0,100.0,direct_precinct_alias
+1357,HIGHLAND BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1358,HIGHLAND BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1359,KILLEN BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1360,KILLEN BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1361,LEXINGTON FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+1362,MITCHELL ANDERSON TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+1363,OAKLAND FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+1364,,county_level_ballot,0.0,0.0,county_level_distribution
+1365,,unmatched,96.42857142857143,0.0,county_distribution_fallback
+1366,,unmatched,96.42857142857143,0.0,county_distribution_fallback
+1367,SAINT FLORIAN SEN CENTER,fuzzy,94.11764705882352,25.506535947712408,direct_precinct_alias
+1368,WATERLOO COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1369,,county_level_ballot,0.0,0.0,county_level_distribution
+1370,AYCOCK BUILDING 18 1,exact,100.0,100.0,direct_precinct_alias
+1371,BOARD OF EDUCATION 25 1,exact,100.0,100.0,direct_precinct_alias
+1372,CADDO FIRE STATION 33 1,exact,100.0,100.0,direct_precinct_alias
+1373,CADDO SENIOR CITIZEN SITE 34 1,exact,100.0,100.0,direct_precinct_alias
+1374,CHALYBEATE FIRE STATION 17 1,exact,100.0,100.0,direct_precinct_alias
+1375,COURTLAND MCCARLEY CENTER 6 1,exact,100.0,100.0,direct_precinct_alias
+1376,DONALD CHURCH 7 1 AND 8 1,exact,100.0,100.0,direct_precinct_alias
+1377,FAIRFIELD CHURCH 22 1 AND 30 1,exact,100.0,100.0,direct_precinct_alias
+1378,FAITH BAPTIST CHURCH 36 1,exact,100.0,100.0,direct_precinct_alias
+1379,FLAT ROCK NEW ZION BAPTIST 11 1,exact,100.0,100.0,direct_precinct_alias
+1380,FREEMAN TABERNACLE BAPTIST 26 1,exact,100.0,100.0,direct_precinct_alias
+1381,HATTON MASONIC HALL 13 1,exact,100.0,100.0,direct_precinct_alias
+1382,HILLSBORO V F D 4 1,exact,100.0,100.0,direct_precinct_alias
+1383,HILLSBORO CITY HALL 1 1,exact,100.0,100.0,direct_precinct_alias
+1384,KITCHENS MILL 29 1 AND 35 1,exact,100.0,100.0,direct_precinct_alias
+1385,LANDERSVILLE METHODIST 12 1,exact,100.0,100.0,direct_precinct_alias
+1386,LAWRENCE HLTH DPT MOULTON 19 1,exact,100.0,100.0,direct_precinct_alias
+1387,LINDSEY HALL CHURCH 31 1,exact,100.0,100.0,direct_precinct_alias
+1388,LOOSIER CHURCH OF CHRIST 16 1,exact,100.0,100.0,direct_precinct_alias
+1389,MOULTON CITY HALL 24 1,exact,100.0,100.0,direct_precinct_alias
+1390,MOUNT HOPE FIRE STATION 9 1,exact,100.0,100.0,direct_precinct_alias
+1391,MOUNT MORIAH FELLOW 15 1 AND 21 1,exact,100.0,100.0,direct_precinct_alias
+1392,N COURTLAND SENIOR C C 2 1,exact,100.0,100.0,direct_precinct_alias
+1393,PINEY GROVE CHURCH 32 1,exact,100.0,100.0,direct_precinct_alias
+1394,PLEASANT GR 14 20 23 27 1,fuzzy,94.33962264150944,15.718932986337023,direct_precinct_alias
+1395,,county_level_ballot,0.0,0.0,county_level_distribution
+1396,RED BANK FIRE STATION 3 1,exact,100.0,100.0,direct_precinct_alias
+1397,SPEAKE VOLUNTEER FIRE 28 1,exact,100.0,100.0,direct_precinct_alias
+1398,TOWN CREEK SR CITIZENS 5 1,exact,100.0,100.0,direct_precinct_alias
+1399,WOLF SPRINGS COMMUNITY CENTER 10 1,exact,100.0,100.0,direct_precinct_alias
+1400,,county_level_ballot,0.0,0.0,county_level_distribution
+1401,,unmatched,69.0909090909091,7.050092764378483,county_distribution_fallback
+1402,,unmatched,69.0909090909091,7.050092764378483,county_distribution_fallback
+1403,BEAUREGARD SCHOOL GYM LOBBY,exact,100.0,100.0,direct_precinct_alias
+1404,BEST WESTERN,exact,100.0,100.0,direct_precinct_alias
+1405,BEST WESTERN,exact,100.0,100.0,direct_precinct_alias
+1406,BEST WESTERN,exact,100.0,100.0,direct_precinct_alias
+1407,BEULAH SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1408,BOYKIN COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1409,BOYKIN COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1410,BROWN RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+1411,BROWN RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+1412,CITY HALL BUILDING LOACHAPOKA,exact,100.0,100.0,direct_precinct_alias
+1413,COVINGTON RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+1414,COVINGTON RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+1415,DEAN ROAD RECREATION CENTER AUBURN,exact,100.0,100.0,direct_precinct_alias
+1416,DEAN ROAD RECREATION CENTER AUBURN,exact,100.0,100.0,direct_precinct_alias
+1417,DOWNTOWN MARVYN,exact,100.0,100.0,direct_precinct_alias
+1418,EAMC HEALTH RESOURCE CENTER,exact,100.0,100.0,direct_precinct_alias
+1419,EAMC HEALTH RESOURCE CENTER,exact,100.0,100.0,direct_precinct_alias
+1420,FARMVILLE VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+1421,GLENWOOD SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1422,LEE CHAMBERS FIRE DEPARTMENT NO,exact,100.0,100.0,direct_precinct_alias
+1423,LEE COUNTY SNACKS,exact,100.0,100.0,direct_precinct_alias
+1424,NATIONAL GUARD ARMORY,exact,100.0,100.0,direct_precinct_alias
+1425,NATIONAL GUARD ARMORY,exact,100.0,100.0,direct_precinct_alias
+1426,OLD SALEM SCHOOL SALEM,exact,100.0,100.0,direct_precinct_alias
+1427,OPELIKA LEARNING CENTER,exact,100.0,100.0,direct_precinct_alias
+1428,OPELIKA LEARNING CENTER,exact,100.0,100.0,direct_precinct_alias
+1429,OPELIKA RECREATION,exact,100.0,100.0,direct_precinct_alias
+1430,OPELIKA RECREATION,exact,100.0,100.0,direct_precinct_alias
+1431,PINE GROVE UN METHODIST,fuzzy,92.0,38.5625,direct_precinct_alias
+1432,,county_level_ballot,0.0,0.0,county_level_distribution
+1433,SENIOR CENTER SMITH STATION,exact,100.0,100.0,direct_precinct_alias
+1434,SMITH SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1435,SMITH SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1436,WAVERLY TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+1437,,county_level_ballot,0.0,0.0,county_level_distribution
+1438,ARDMORE TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+1439,ATHENS RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+1440,ATHENS RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+1441,BELMORE BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1442,,unmatched,82.35294117647058,8.464052287581694,county_distribution_fallback
+1443,CLEMENTS BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1444,CREEKSIDE ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1445,CREEKSIDE ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1446,CREEKSIDE ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1447,ELKMONT FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+1448,FRIENDSHIP UNITED METH CHURCH,exact,100.0,100.0,direct_precinct_alias
+1449,FRIENDSHIP UNITED METH CHURCH,exact,100.0,100.0,direct_precinct_alias
+1450,GOODSPRINGS COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1451,ISOMS CHAPEL UNITED METH,exact,100.0,100.0,direct_precinct_alias
+1452,JOHNSON ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1453,LAMB OF GOD LUTHERAN CHURCH,exact,100.0,100.0,direct_precinct_alias
+1454,LEGGTOWN,exact,100.0,100.0,direct_precinct_alias
+1455,,unmatched,90.0,4.5,county_distribution_fallback
+1456,,unmatched,85.5,0.0,county_distribution_fallback
+1457,,unmatched,85.5,0.0,county_distribution_fallback
+1458,OAK GROVE FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+1459,,unmatched,88.23529411764706,2.735294117647058,county_distribution_fallback
+1460,,unmatched,88.23529411764706,2.735294117647058,county_distribution_fallback
+1461,,unmatched,90.0,12.972972972972983,county_distribution_fallback
+1462,PLEASANT GROVE FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+1463,,county_level_ballot,0.0,0.0,county_level_distribution
+1464,REID ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1465,RIPLEY WOW HALL,exact,100.0,100.0,direct_precinct_alias
+1466,,unmatched,85.5,0.0,county_distribution_fallback
+1467,,unmatched,85.5,0.0,county_distribution_fallback
+1468,,unmatched,70.37037037037037,10.370370370370374,county_distribution_fallback
+1469,,unmatched,70.37037037037037,10.370370370370374,county_distribution_fallback
+1470,TANNER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+1471,WEST LIMESTONE FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+1472,,county_level_ballot,0.0,0.0,county_level_distribution
+1473,,unmatched,90.0,4.5,county_distribution_fallback
+1474,BETHEL CHURCH,exact,100.0,100.0,direct_precinct_alias
+1475,G E COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1476,HAYNEVILLE COURTHOUSE,exact,100.0,100.0,direct_precinct_alias
+1477,LETOHATCHEE OLD STORE,exact,100.0,100.0,direct_precinct_alias
+1478,LOWNDESBORO TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+1479,MOSSES TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+1480,NATIONAL GUARD ARMORY,exact,100.0,100.0,direct_precinct_alias
+1481,NEW PLEASANT VALLEY CHURCH,fuzzy,95.0,42.05882352941176,direct_precinct_alias
+1482,OLD MASONIC HALL,exact,100.0,100.0,direct_precinct_alias
+1483,OLD STORE,exact,100.0,100.0,direct_precinct_alias
+1484,,county_level_ballot,0.0,0.0,county_level_distribution
+1485,SANDY RIDGE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1486,WHITEHALL TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+1487,,county_level_ballot,0.0,0.0,county_level_distribution
+1488,BROWNVILLE VOLUNTEER FIRE,exact,100.0,100.0,direct_precinct_alias
+1489,CHEWHAW AME ZION CHURCH,exact,100.0,100.0,direct_precinct_alias
+1490,DIST 3 VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+1491,FRANKLIN TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+1492,LITTLE TEXAS VT CENTER COUNTY RD 22,exact,100.0,100.0,direct_precinct_alias
+1493,,unmatched,75.00000000000001,0.0,county_distribution_fallback
+1494,,unmatched,75.00000000000001,0.0,county_distribution_fallback
+1495,NOTASULGA CITY HALL,exact,100.0,100.0,direct_precinct_alias
+1496,OLD COUNTY DISTRICT 2 SHOP,fuzzy,93.87755102040816,8.377551020408163,direct_precinct_alias
+1497,PRIARIE FARM RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+1498,,county_level_ballot,0.0,0.0,county_level_distribution
+1499,SEASHA,exact,100.0,100.0,direct_precinct_alias
+1500,SEASHA,exact,100.0,100.0,direct_precinct_alias
+1501,,unmatched,89.36170212765957,2.405180388529132,county_distribution_fallback
+1502,,unmatched,89.36170212765957,2.405180388529132,county_distribution_fallback
+1503,,unmatched,90.0,4.5,county_distribution_fallback
+1504,WARRIOR D 2 RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+1505,WOODLAND COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1506,FIRST BAPTIST CHURCH OF MERIDIANVILLE,exact,100.0,100.0,direct_precinct_alias
+1507,A AND M UNIVERSITY NEW GYM,exact,100.0,100.0,direct_precinct_alias
+1508,A AND M UNIVERSITY NEW GYM,exact,100.0,100.0,direct_precinct_alias
+1509,A AND M UNIVERSITY NEW GYM,exact,100.0,100.0,direct_precinct_alias
+1510,A AND M UNIVERSITY NEW GYM,exact,100.0,100.0,direct_precinct_alias
+1511,,county_level_ballot,0.0,0.0,county_level_distribution
+1512,AIRPORT ROAD FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+1513,ALDERSGATE UNITED METHODIST,exact,100.0,100.0,direct_precinct_alias
+1514,ALDERSGATE UNITED METHODIST,exact,100.0,100.0,direct_precinct_alias
+1515,ASBURY METH CHURCH,exact,100.0,100.0,direct_precinct_alias
+1516,BETHEL PRIMITIVE BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1517,BIG COVE FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+1518,BLACKBURN CHAPEL C P CHURCH,exact,100.0,100.0,direct_precinct_alias
+1519,BLOSSOMWOOD SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1520,BOBO VOLUNTEER FIRE,exact,100.0,100.0,direct_precinct_alias
+1521,BROWNSBORO BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1522,CALVARY FRIENDSHIP CENTER,exact,100.0,100.0,direct_precinct_alias
+1523,CHAFFEE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1524,CHAPMAN MIDDLE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1525,CHAPMAN MIDDLE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1526,CHARLES STONE AG CENTER,exact,100.0,100.0,direct_precinct_alias
+1527,CHASE VALLEY UNITED METHODIST,exact,100.0,100.0,direct_precinct_alias
+1528,CHURCH OF CHRIST MERIDIANVILLE,exact,100.0,100.0,direct_precinct_alias
+1529,COUNTY COMMISSION DIST 1 OFFICE,exact,100.0,100.0,direct_precinct_alias
+1530,COVE UNITED METHODIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1531,COVE UNITED METHODIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1532,COVENANT PRESBYTERIAN CHURCH,exact,100.0,100.0,direct_precinct_alias
+1533,DISCOVERY MIDDLE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1534,DR RICHARD SHOWERS CENTER,exact,100.0,100.0,direct_precinct_alias
+1535,ED WHITE MIDDLE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1536,FIRST MISSIONARY BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1537,GRACE UNITED METHODIST,fuzzy_equivalent_allocation,95.0,3.7719298245614112,direct_precinct_alias
+1538,GURLEY CITY HALL,exact,100.0,100.0,direct_precinct_alias
+1539,HAROLD HARBIN GYM,exact,100.0,100.0,direct_precinct_alias
+1540,HARVEST BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1541,HAVEN BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1542,HIGHLANDS SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1543,HILLWOOD BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1544,HILLWOOD BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1545,HUNTSVILLE MIDDLE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1546,HURRICANE CREEK COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1547,JACKSON WAY BAPTIST,fuzzy,95.0,9.5,direct_precinct_alias
+1548,JOHNSON HIGH SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1549,J E WILLIAMS ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1550,KEEL MOUNT VOLUNTEER FIRE DEPARTMENT OUT,fuzzy,95.0,9.5,direct_precinct_alias
+1551,LAKEWOOD COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1552,LEE HIGH SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1553,LEWIS CHAPEL C P CHURCH,exact,100.0,100.0,direct_precinct_alias
+1554,LITTLE INDIAN CREEK CHURCH,exact,100.0,100.0,direct_precinct_alias
+1555,LOCUST GROVE BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1556,MADISON BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1557,MADISON CHURCH OF CHRIST,exact,100.0,100.0,direct_precinct_alias
+1558,MADISON CHURCH OF CHRIST,exact,100.0,100.0,direct_precinct_alias
+1559,MADISON CITY HALL,exact,100.0,100.0,direct_precinct_alias
+1560,MADISON CITY HALL,exact,100.0,100.0,direct_precinct_alias
+1561,MADISON COUNTY NATURE TRAIL,exact,100.0,100.0,direct_precinct_alias
+1562,MADISON COUNTY TEACHER CENTER,exact,100.0,100.0,direct_precinct_alias
+1563,MADISON COUNTY TEACHER CENTER,exact,100.0,100.0,direct_precinct_alias
+1564,MADISON MISSION 7TH DAY CHURCH,exact,100.0,100.0,direct_precinct_alias
+1565,MARY KELLY JOHNSTON GYM,exact,100.0,100.0,direct_precinct_alias
+1566,MAYSVILLE CHURCH OF CHRIST,exact,100.0,100.0,direct_precinct_alias
+1567,MCDONNELL SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1568,MONROVIA CHURCH OF CHRIST,exact,100.0,100.0,direct_precinct_alias
+1569,MONROVIA CHURCH OF CHRIST,exact,100.0,100.0,direct_precinct_alias
+1570,MONROVIA COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1571,MONTE SANO FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+1572,MOUNTAIN VIEW BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1573,NEW HOPE CITY HALL,exact,100.0,100.0,direct_precinct_alias
+1574,,unmatched,85.5,0.0,county_distribution_fallback
+1575,NEW MARKET FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+1576,NEW SHILOH CHURCH,exact,100.0,100.0,direct_precinct_alias
+1577,OAKWOOD COLLEGE BLAKE CENTER,exact,100.0,100.0,direct_precinct_alias
+1578,OLD NAVAL RESERVE CENTER,exact,100.0,100.0,direct_precinct_alias
+1579,OWENS CROSS ROADS CITY HALL,exact,100.0,100.0,direct_precinct_alias
+1580,PHILLIPS CME CHURCH,exact,100.0,100.0,direct_precinct_alias
+1581,PINEVIEW BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1582,PINEVIEW BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1583,PLAINVIEW CHURCH OF CHRIST,exact,100.0,100.0,direct_precinct_alias
+1584,PLEASANT SPRINGS BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1585,PLEVNA FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+1586,,county_level_ballot,0.0,0.0,county_level_distribution
+1587,RIDGECREST SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1588,SAINT LUKE MISSIONARY BAPTIST,fuzzy,92.5925925925926,23.204837490551782,direct_precinct_alias
+1589,SENIOR CENTER,exact,100.0,100.0,direct_precinct_alias
+1590,SHERWOOD BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1591,,unmatched,85.5,7.264705882352956,county_distribution_fallback
+1592,SOUTHWOOD PRESBYTERIAN CHURCH,exact,100.0,100.0,direct_precinct_alias
+1593,SAINT JOHNS CATHOLIC SCHOOL,fuzzy,98.11320754716981,12.613207547169807,direct_precinct_alias
+1594,TERRY HEIGHTS SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1595,THE DWELLING PLACE,exact,100.0,100.0,direct_precinct_alias
+1596,THE DWELLING PLACE,exact,100.0,100.0,direct_precinct_alias
+1597,TONEY UNITED METHODIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1598,TRIANA CITY HALL,exact,100.0,100.0,direct_precinct_alias
+1599,TRINITY UNITED METHODIST,exact,100.0,100.0,direct_precinct_alias
+1600,UNIVERSITY PLACE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1601,VISITATION PARISH CENTER,exact,100.0,100.0,direct_precinct_alias
+1602,WEATHERLY HGTS BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1603,WEATHERLY HGTS BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1604,WEST HUNTSVILLE BAPTIST,fuzzy,95.0,9.5,direct_precinct_alias
+1605,WEST MASTIN LAKE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1606,WESTLAWN MIDDLE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1607,WESTSIDE NEIGHBORHOOD CENTER,exact,100.0,100.0,direct_precinct_alias
+1608,WHITESBURG BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1609,WHITESBURG BOAT HARBOR,exact,100.0,100.0,direct_precinct_alias
+1610,WHITESBURG MIDDLE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1611,WILLOWBROOK BAPTIST,fuzzy,95.0,9.285714285714278,direct_precinct_alias
+1612,WILLOWBROOK BAPTIST,fuzzy,95.0,9.285714285714278,direct_precinct_alias
+1613,,county_level_ballot,0.0,0.0,county_level_distribution
+1614,AIMWELL VOTING BOOTH,exact,100.0,100.0,direct_precinct_alias
+1615,CORNERSTONE CHURCH,exact,100.0,100.0,direct_precinct_alias
+1616,DAYTON TOWN OFFICE,exact,100.0,100.0,direct_precinct_alias
+1617,DEMOPOLIS CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+1618,DEMOPOLIS HIGH SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1619,DEMOPOLIS NATL GUARD ARMORY,exact,100.0,100.0,direct_precinct_alias
+1620,DEMOPOLIS WESTSIDE ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+1621,DIXONS MILLS,exact,100.0,100.0,direct_precinct_alias
+1622,FAUNSDALE TOWN OFFICE,exact,100.0,100.0,direct_precinct_alias
+1623,FLATWOOD COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1624,HOBOKEN VOTING BOOTH,exact,100.0,100.0,direct_precinct_alias
+1625,JEFFERSON VOLUNTEER FIRE,exact,100.0,100.0,direct_precinct_alias
+1626,LINDEN OLD COURTHOUSE BUILDING,exact,100.0,100.0,direct_precinct_alias
+1627,MAGNOLIA COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1628,MCKINLEY TAYLORVILLE COM CENTER,exact,100.0,100.0,direct_precinct_alias
+1629,MYRTLEWOOD COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1630,NANAFALIA COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1631,OCTAGON VOTING BOOTH,exact,100.0,100.0,direct_precinct_alias
+1632,,county_level_ballot,0.0,0.0,county_level_distribution
+1633,PUTMAN VOTING BOOTH,exact,100.0,100.0,direct_precinct_alias
+1634,RANGELINE VOTING BOOTH,exact,100.0,100.0,direct_precinct_alias
+1635,SPRINGHILL VOLUNTEER FIRE,exact,100.0,100.0,direct_precinct_alias
+1636,SURGINER COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1637,SWEET WATER TOWN OFFICE,exact,100.0,100.0,direct_precinct_alias
+1638,THOMASTON LUNCH ROOM,exact,100.0,100.0,direct_precinct_alias
+1639,V F W HWY 43,exact,100.0,100.0,direct_precinct_alias
+1640,,county_level_ballot,0.0,0.0,county_level_distribution
+1641,BACCUS,exact,100.0,100.0,direct_precinct_alias
+1642,BARNSVILLE,exact,100.0,100.0,direct_precinct_alias
+1643,BEAR CREEK,exact,100.0,100.0,direct_precinct_alias
+1644,BEXAR,exact,100.0,100.0,direct_precinct_alias
+1645,BRILLIANT,exact,100.0,100.0,direct_precinct_alias
+1646,CLARK,exact,100.0,100.0,direct_precinct_alias
+1647,ET SIMS JR BUILDING,fuzzy_equivalent_allocation,97.43589743589743,2.197802197802204,direct_precinct_alias
+1648,ET SIMS JR BUILDING,fuzzy_equivalent_allocation,97.43589743589743,2.197802197802204,direct_precinct_alias
+1649,GUIN,exact,100.0,100.0,direct_precinct_alias
+1650,HACKLEBURG,exact,100.0,100.0,direct_precinct_alias
+1651,HOWELL,exact,100.0,100.0,direct_precinct_alias
+1652,KEMP,exact,100.0,100.0,direct_precinct_alias
+1653,KIMBROUGH 1,fuzzy_equivalent_allocation,95.0,0.0,direct_precinct_alias
+1654,KIMBROUGH 1,fuzzy_equivalent_allocation,95.0,0.0,direct_precinct_alias
+1655,PEARCES MILL,exact,100.0,100.0,direct_precinct_alias
+1656,PIKEVILLE,exact,100.0,100.0,direct_precinct_alias
+1657,,county_level_ballot,0.0,0.0,county_level_distribution
+1658,RYE,exact,100.0,100.0,direct_precinct_alias
+1659,SHILOH,exact,100.0,100.0,direct_precinct_alias
+1660,SHOTTSVILLE,exact,100.0,100.0,direct_precinct_alias
+1661,WIGINTON,exact,100.0,100.0,direct_precinct_alias
+1662,WINFIELD,exact,100.0,100.0,direct_precinct_alias
+1663,,county_level_ballot,0.0,0.0,county_level_distribution
+1664,ALBERTVILLE FIRST BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1665,ALBERTVILLE FIRST BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1666,ALBERTVILLE MRSHL COUNTY GAS SHOP,exact,100.0,100.0,direct_precinct_alias
+1667,ALBERTVILLE RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+1668,ALBERTVILLE RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+1669,ALBERTVILLE RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+1670,ARAB COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1671,ARAB COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1672,ARAB NEW RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+1673,ARAB NEW RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+1674,BIG SPRING M AND S CONSTRUCTION,exact,100.0,100.0,direct_precinct_alias
+1675,BOAZ RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+1676,BOAZ RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+1677,BUCKSNORT COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1678,,unmatched,85.5,0.0,county_distribution_fallback
+1679,CRANFORD RUTH VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+1680,GEORGIA MOUNTAIN COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1681,GRANT CITY HALL,exact,100.0,100.0,direct_precinct_alias
+1682,GRASSY SCHOOL GYM,exact,100.0,100.0,direct_precinct_alias
+1683,GUNTERSVILLE RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+1684,GUNTERSVILLE RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+1685,HENRYVILLE METHODIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1686,HONEYCOMB BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1687,,unmatched,87.87878787878788,2.3787878787878753,county_distribution_fallback
+1688,MOUNT HEBRON FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+1689,MOUNT HIGH LATTIWOOD COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1690,MOUNT PISGAH BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1691,N MARSHALL UTILITY BUILDING,exact,100.0,100.0,direct_precinct_alias
+1692,OLEANDER MIDWAY COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1693,PAINT ROCK HEBRON COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1694,PINE GROVE COM CENTER,exact,100.0,100.0,direct_precinct_alias
+1695,,county_level_ballot,0.0,0.0,county_level_distribution
+1696,RED HILL METHODIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1697,REEDBRAKE DOUGLAS CITY HALL,exact,100.0,100.0,direct_precinct_alias
+1698,REEDBRAKE LIBERTY HILL CHURCH,exact,100.0,100.0,direct_precinct_alias
+1699,REEDBRAKE NIXON CHAPEL F D,exact,100.0,100.0,direct_precinct_alias
+1700,ROCK SPRINGS CHURCH,exact,100.0,100.0,direct_precinct_alias
+1701,SIMS COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1702,THOMPSON CHILDRESS STORE,exact,100.0,100.0,direct_precinct_alias
+1703,THOMPSON ASBURY FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+1704,,unmatched,83.07692307692307,13.564727954971843,county_distribution_fallback
+1705,,unmatched,79.53488372093024,5.6218402426693785,county_distribution_fallback
+1706,WAKEFIELD FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+1707,WARRENTON COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1708,WATERFRONT VOLUNTEER FIRE,exact,100.0,100.0,direct_precinct_alias
+1709,WRIGHTS SWEARENGIN COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1710,FIRST BAPTIST CHURCH IRVINGTON,exact,100.0,100.0,direct_precinct_alias
+1711,FIRST BAPTIST CHURCH IRVINGTON,exact,100.0,100.0,direct_precinct_alias
+1712,,unmatched,89.79591836734694,3.521408563425368,county_distribution_fallback
+1713,,unmatched,89.79591836734694,3.521408563425368,county_distribution_fallback
+1714,,county_level_ballot,0.0,0.0,county_level_distribution
+1715,,county_level_ballot,0.0,0.0,county_level_distribution
+1716,AUGUSTA EVANS SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1717,AUGUSTA EVANS SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1718,AZALEA CITY CHURCH CHRIST,exact,100.0,100.0,direct_precinct_alias
+1719,AZALEA CITY CHURCH CHRIST,exact,100.0,100.0,direct_precinct_alias
+1720,,unmatched,85.5,22.16666666666668,county_distribution_fallback
+1721,,unmatched,85.5,22.16666666666668,county_distribution_fallback
+1722,BISHOP SAINT COMMUNITY COLLEGE,exact,100.0,100.0,direct_precinct_alias
+1723,BISHOP SAINT COMMUNITY COLLEGE,exact,100.0,100.0,direct_precinct_alias
+1724,,unmatched,51.300000000000004,2.81515151515152,county_distribution_fallback
+1725,,unmatched,51.300000000000004,2.81515151515152,county_distribution_fallback
+1726,BOYS CLUB OF MOBILE,exact,100.0,100.0,direct_precinct_alias
+1727,BOYS CLUB OF MOBILE,exact,100.0,100.0,direct_precinct_alias
+1728,CALLAHAN BOYS GIRLS CLUB,fuzzy,95.65217391304348,10.152173913043484,direct_precinct_alias
+1729,CALLAHAN BOYS GIRLS CLUB,fuzzy,95.65217391304348,10.152173913043484,direct_precinct_alias
+1730,,unmatched,79.6774193548387,31.677419354838705,county_distribution_fallback
+1731,,unmatched,79.6774193548387,31.677419354838705,county_distribution_fallback
+1732,CHARLES HAYNES LODGE 627 1,fuzzy_equivalent_allocation,95.0,0.0,direct_precinct_alias
+1733,CHARLES HAYNES LODGE 627 1,fuzzy_equivalent_allocation,95.0,0.0,direct_precinct_alias
+1734,,unmatched,95.23809523809523,0.0,county_distribution_fallback
+1735,,unmatched,95.23809523809523,0.0,county_distribution_fallback
+1736,CHUNCHULA BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1737,CHUNCHULA BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1738,CODEN COMMUNITY HOUSE,exact,100.0,100.0,direct_precinct_alias
+1739,CODEN COMMUNITY HOUSE,exact,100.0,100.0,direct_precinct_alias
+1740,COLLEGE PARK BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1741,COLLEGE PARK BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1742,COMMUNITY OF CHRIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1743,COMMUNITY OF CHRIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1744,,unmatched,85.5,0.0,county_distribution_fallback
+1745,,unmatched,85.5,0.0,county_distribution_fallback
+1746,,unmatched,90.0,7.391304347826093,county_distribution_fallback
+1747,,unmatched,90.0,7.391304347826093,county_distribution_fallback
+1748,CRANFORD BURNS SCHOOL 1,fuzzy_equivalent_allocation,95.45454545454545,0.0,direct_precinct_alias
+1749,CRANFORD BURNS SCHOOL 1,fuzzy_equivalent_allocation,95.45454545454545,0.0,direct_precinct_alias
+1750,CREEKWOOD CHURCH CHRIST,exact,100.0,100.0,direct_precinct_alias
+1751,CREEKWOOD CHURCH CHRIST,exact,100.0,100.0,direct_precinct_alias
+1752,CYPRESS SHORES BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1753,CYPRESS SHORES BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1754,D I BAPTIST RESORT MIN BL,exact,100.0,100.0,direct_precinct_alias
+1755,D I BAPTIST RESORT MIN BL,exact,100.0,100.0,direct_precinct_alias
+1756,DODGE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1757,DODGE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1758,E R DICKSON ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+1759,E R DICKSON ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+1760,EICHOLD MERTZ ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1761,EICHOLD MERTZ ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1762,ELKS LODGE 108,exact,100.0,100.0,direct_precinct_alias
+1763,ELKS LODGE 108,exact,100.0,100.0,direct_precinct_alias
+1764,,unmatched,85.5,23.54347826086957,county_distribution_fallback
+1765,,unmatched,85.5,23.54347826086957,county_distribution_fallback
+1766,FELLOWSHIP BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1767,FELLOWSHIP BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1768,FIGURES RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+1769,FIGURES RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+1770,,unmatched,89.99999999999999,0.0,county_distribution_fallback
+1771,,unmatched,89.99999999999999,0.0,county_distribution_fallback
+1772,FRIENDSHIP BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1773,FRIENDSHIP BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1774,FRIENDSHIP MISS BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1775,FRIENDSHIP MISS BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1776,GEORGETOWN BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1777,GEORGETOWN BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1778,GRAND BAY MIDDLE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1779,GRAND BAY MIDDLE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1780,HAVENWOOD BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1781,HAVENWOOD BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1782,HILLCREST BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1783,HILLCREST BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1784,HILLSDALE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1785,HILLSDALE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1786,HOLLINGERS ISLAND SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1787,HOLLINGERS ISLAND SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1788,HOWARD BLACKWELL LODGE,fuzzy,95.23809523809523,5.7644110275689115,direct_precinct_alias
+1789,HOWARD BLACKWELL LODGE,fuzzy,95.23809523809523,5.7644110275689115,direct_precinct_alias
+1790,INDIAN SPRINGS BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1791,INDIAN SPRINGS BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1792,INDIAN SPRINGS ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1793,INDIAN SPRINGS ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1794,JON ARCHER AG CENTER,exact,100.0,100.0,direct_precinct_alias
+1795,JON ARCHER AG CENTER,exact,100.0,100.0,direct_precinct_alias
+1796,JOSEPH DOTCH COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1797,JOSEPH DOTCH COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1798,KALI OKA CIVIC CLUB,exact,100.0,100.0,direct_precinct_alias
+1799,KALI OKA CIVIC CLUB,exact,100.0,100.0,direct_precinct_alias
+1800,KATE SHEPARD SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1801,KATE SHEPARD SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1802,,unmatched,90.86956521739131,0.0,county_distribution_fallback
+1803,,unmatched,90.86956521739131,0.0,county_distribution_fallback
+1804,LIVING WORD CHURCH,exact,100.0,100.0,direct_precinct_alias
+1805,LIVING WORD CHURCH,exact,100.0,100.0,direct_precinct_alias
+1806,MAE EANES SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1807,MAE EANES SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1808,MEADOWLAKE ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1809,MEADOWLAKE ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1810,MOBILE CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+1811,MOBILE CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+1812,MOBILE MUSEUM OF ART,exact,100.0,100.0,direct_precinct_alias
+1813,MOBILE MUSEUM OF ART,exact,100.0,100.0,direct_precinct_alias
+1814,,unmatched,91.66666666666666,6.166666666666657,county_distribution_fallback
+1815,,unmatched,91.66666666666666,6.166666666666657,county_distribution_fallback
+1816,MORNINGSIDE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1817,MORNINGSIDE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1818,MOUNT ARARAT BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1819,MOUNT ARARAT BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1820,MOUNT SINAI MISS BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1821,MOUNT SINAI MISS BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1822,MOUNT VERNON CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+1823,MOUNT VERNON CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+1824,MOUNT VERNON COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1825,MOUNT VERNON COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1826,MURPHY HIGH SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1827,MURPHY HIGH SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1828,ODD FELLOWS LODGE,exact,100.0,100.0,direct_precinct_alias
+1829,ODD FELLOWS LODGE,exact,100.0,100.0,direct_precinct_alias
+1830,OLD CITRONELLE SR CENTER,exact,100.0,100.0,direct_precinct_alias
+1831,OLD CITRONELLE SR CENTER,exact,100.0,100.0,direct_precinct_alias
+1832,OUR SAVIOR CATHOLIC CHURCH,exact,100.0,100.0,direct_precinct_alias
+1833,OUR SAVIOR CATHOLIC CHURCH,exact,100.0,100.0,direct_precinct_alias
+1834,PALMER PILLANS MIDDLE SCHOOL,fuzzy_equivalent_allocation,95.0,0.0,direct_precinct_alias
+1835,PALMER PILLANS MIDDLE SCHOOL,fuzzy_equivalent_allocation,95.0,0.0,direct_precinct_alias
+1836,PLATEAU COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1837,PLATEAU COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1838,PLEASANT VALLEY METH,exact,100.0,100.0,direct_precinct_alias
+1839,PLEASANT VALLEY METH,exact,100.0,100.0,direct_precinct_alias
+1840,PRICHARD COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1841,PRICHARD COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1842,PROVIDENCE CHURCH OF GOD,exact,100.0,100.0,direct_precinct_alias
+1843,PROVIDENCE CHURCH OF GOD,exact,100.0,100.0,direct_precinct_alias
+1844,,county_level_ballot,0.0,0.0,county_level_distribution
+1845,,county_level_ballot,0.0,0.0,county_level_distribution
+1846,RIVER LIFE MINISTRIES,exact,100.0,100.0,direct_precinct_alias
+1847,RIVER LIFE MINISTRIES,exact,100.0,100.0,direct_precinct_alias
+1848,RIVERSIDE CHURCH NAZARENE,exact,100.0,100.0,direct_precinct_alias
+1849,RIVERSIDE CHURCH NAZARENE,exact,100.0,100.0,direct_precinct_alias
+1850,ROCK OF FAITH BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1851,ROCK OF FAITH BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1852,SAGE AVENUE BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1853,SAGE AVENUE BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1854,SARALAND CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+1855,SARALAND CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+1856,SATSUMA CITY HALL,exact,100.0,100.0,direct_precinct_alias
+1857,SATSUMA CITY HALL,exact,100.0,100.0,direct_precinct_alias
+1858,SEMMES COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1859,SEMMES COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1860,SEMMES FIRST BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1861,SEMMES FIRST BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1862,SEVEN HILLS BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1863,SEVEN HILLS BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1864,,unmatched,90.9090909090909,23.489736070381227,county_distribution_fallback
+1865,,unmatched,90.9090909090909,23.489736070381227,county_distribution_fallback
+1866,SHELTON BCH RD BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1867,SHELTON BCH RD BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1868,SONRISE BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1869,SONRISE BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1870,SPRINGHILL AVE RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+1871,SPRINGHILL AVE RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+1872,SAINT ANDREWS EPISCOPAL CHURCH,exact,100.0,100.0,direct_precinct_alias
+1873,SAINT ANDREWS EPISCOPAL CHURCH,exact,100.0,100.0,direct_precinct_alias
+1874,SAINT ELMO 7TH DAY ADV CHURCH,exact,100.0,100.0,direct_precinct_alias
+1875,SAINT ELMO 7TH DAY ADV CHURCH,exact,100.0,100.0,direct_precinct_alias
+1876,SAINT IGNATIUS MARIAN CENTER,fuzzy,96.42857142857143,10.92857142857143,direct_precinct_alias
+1877,SAINT IGNATIUS MARIAN CENTER,fuzzy,96.42857142857143,10.92857142857143,direct_precinct_alias
+1878,,unmatched,95.0,0.0,county_distribution_fallback
+1879,,unmatched,95.0,0.0,county_distribution_fallback
+1880,SAINT JOHN UNITED METH,exact,100.0,100.0,direct_precinct_alias
+1881,SAINT JOHN UNITED METH,exact,100.0,100.0,direct_precinct_alias
+1882,SAINT MICHAEL CATHOLIC CHURCH,exact,100.0,100.0,direct_precinct_alias
+1883,SAINT MICHAEL CATHOLIC CHURCH,exact,100.0,100.0,direct_precinct_alias
+1884,SAINT PHILLIP NERI CHURCH,exact,100.0,100.0,direct_precinct_alias
+1885,SAINT PHILLIP NERI CHURCH,exact,100.0,100.0,direct_precinct_alias
+1886,,unmatched,76.59574468085107,1.387411347517741,county_distribution_fallback
+1887,,unmatched,76.59574468085107,1.387411347517741,county_distribution_fallback
+1888,THE MUG CAFE,exact,100.0,100.0,direct_precinct_alias
+1889,THE MUG CAFE,exact,100.0,100.0,direct_precinct_alias
+1890,THOMAS SULLIVAN COMMUNITY CENTER,fuzzy,96.7741935483871,11.274193548387103,direct_precinct_alias
+1891,THOMAS SULLIVAN COMMUNITY CENTER,fuzzy,96.7741935483871,11.274193548387103,direct_precinct_alias
+1892,TILLMANS CORNER CM CENTER,exact,100.0,100.0,direct_precinct_alias
+1893,TILLMANS CORNER CM CENTER,exact,100.0,100.0,direct_precinct_alias
+1894,TOULMINVILLE LIBRARY,exact,100.0,100.0,direct_precinct_alias
+1895,TOULMINVILLE LIBRARY,exact,100.0,100.0,direct_precinct_alias
+1896,TRAVIS RD BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1897,TRAVIS RD BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1898,TURNERVILLE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1899,TURNERVILLE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1900,UNION BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1901,UNION BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1902,UNIVERSITY CHURCH CHRIST,exact,100.0,100.0,direct_precinct_alias
+1903,UNIVERSITY CHURCH CHRIST,exact,100.0,100.0,direct_precinct_alias
+1904,VIA SENIOR CENTER,fuzzy,97.14285714285714,11.642857142857139,direct_precinct_alias
+1905,VIA SENIOR CENTER,fuzzy,97.14285714285714,11.642857142857139,direct_precinct_alias
+1906,VIGOR HIGH SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1907,VIGOR HIGH SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1908,,unmatched,88.88888888888889,3.782505910165483,county_distribution_fallback
+1909,,unmatched,88.88888888888889,3.782505910165483,county_distribution_fallback
+1910,WHITLEY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1911,WHITLEY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1912,,county_level_ballot,0.0,0.0,county_level_distribution
+1913,ANTIOCH BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1914,BEATRICE TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+1915,BETHEL BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1916,,unmatched,86.27450980392157,0.7745098039215748,county_distribution_fallback
+1917,BURNT CORN FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+1918,,unmatched,90.0,3.0434782608695627,county_distribution_fallback
+1919,COLEMAN ASSEMBLY OF GOD,exact,100.0,100.0,direct_precinct_alias
+1920,CHRYSLER ELISKA,fuzzy,95.0,5.0,direct_precinct_alias
+1921,EXCEL BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1922,FRANKLIN FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+1923,FRISCO CITY,fuzzy,95.0,5.0,direct_precinct_alias
+1924,GOODWAY FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+1925,LOWER PEACH TREE,exact,100.0,100.0,direct_precinct_alias
+1926,MIDWAY MCCLAMMY,fuzzy,95.0,5.0,direct_precinct_alias
+1927,MCGILL,exact,100.0,100.0,direct_precinct_alias
+1928,MEGARGEL,exact,100.0,100.0,direct_precinct_alias
+1929,MEXIA FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+1930,,unmatched,75.55555555555556,0.707070707070713,county_distribution_fallback
+1931,MONROEVILLE FIRESTATION,fuzzy,97.87234042553192,6.96324951644101,direct_precinct_alias
+1932,MONROEVILLE ARMORY,exact,100.0,100.0,direct_precinct_alias
+1933,MONROEVILLE ARMORY,exact,100.0,100.0,direct_precinct_alias
+1934,MONROEVILLE HOUS AUTH,fuzzy,93.33333333333333,21.264367816091962,direct_precinct_alias
+1935,OAK GROVE,fuzzy,94.11764705882352,15.367647058823522,direct_precinct_alias
+1936,,unmatched,91.17647058823529,1.17647058823529,county_distribution_fallback
+1937,DAYS INN OLLIE,fuzzy,95.0,47.5,direct_precinct_alias
+1938,,unmatched,90.0,4.285714285714278,county_distribution_fallback
+1939,PETERMAN WATER DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+1940,,county_level_ballot,0.0,0.0,county_level_distribution
+1941,SHILOH GRIMES VOTING HOUS,fuzzy,96.0,6.0,direct_precinct_alias
+1942,TINELA HYBART,exact,100.0,100.0,direct_precinct_alias
+1943,TUNNEL SPRINGS,exact,100.0,100.0,direct_precinct_alias
+1944,URIAH FIRESTATION,fuzzy,97.14285714285714,7.142857142857139,direct_precinct_alias
+1945,,unmatched,90.0,14.0,county_distribution_fallback
+1946,FIRST SOUTHRN BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1947,FIRST SOUTHRN BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1948,,county_level_ballot,0.0,0.0,county_level_distribution
+1949,AIDT,exact,100.0,100.0,direct_precinct_alias
+1950,AIDT,exact,100.0,100.0,direct_precinct_alias
+1951,AIDT,exact,100.0,100.0,direct_precinct_alias
+1952,ALABAMA STATE UNIV,exact,100.0,100.0,direct_precinct_alias
+1953,ALABAMA STATE UNIV,exact,100.0,100.0,direct_precinct_alias
+1954,ALABAMA STATE UNIV,exact,100.0,100.0,direct_precinct_alias
+1955,ALCAZAR SHRINE TEMPL,fuzzy_equivalent_allocation,95.0,2.317073170731703,direct_precinct_alias
+1956,ALCAZAR SHRINE TEMPL,fuzzy_equivalent_allocation,95.0,2.317073170731703,direct_precinct_alias
+1957,ALDERSGATE METHODIST,fuzzy,97.43589743589743,6.959706959706949,direct_precinct_alias
+1958,ALDERSGATE METHODIST,fuzzy,97.43589743589743,6.959706959706949,direct_precinct_alias
+1959,AUM,exact,100.0,100.0,direct_precinct_alias
+1960,AUM,exact,100.0,100.0,direct_precinct_alias
+1961,BELL ROAD YMCA,exact,100.0,100.0,direct_precinct_alias
+1962,BELL ROAD YMCA,exact,100.0,100.0,direct_precinct_alias
+1963,BELL ROAD YMCA,exact,100.0,100.0,direct_precinct_alias
+1964,BELLINGRATH COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1965,BELLINGRATH COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1966,BEULAH BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1967,BEULAH BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1968,BEULAH BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1969,CAPITOL HTS BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1970,CAPITOL HTS BAPTIST,exact,100.0,100.0,direct_precinct_alias
+1971,2C CARVER COMMUNITY CENTER,fuzzy,95.0,9.893617021276597,direct_precinct_alias
+1972,2C CARVER COMMUNITY CENTER,fuzzy,95.0,9.893617021276597,direct_precinct_alias
+1973,CATOMA SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1974,CATOMA SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1975,CHISHOLM COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1976,CHISHOLM COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+1977,CLEVELAND AVE YMCA,exact,100.0,100.0,direct_precinct_alias
+1978,CLEVELAND AVE YMCA,exact,100.0,100.0,direct_precinct_alias
+1979,,unmatched,87.5,2.0,county_distribution_fallback
+1980,,unmatched,87.5,2.0,county_distribution_fallback
+1981,,unmatched,87.5,2.0,county_distribution_fallback
+1982,COLISEUM BVD LIBRARY,exact,100.0,100.0,direct_precinct_alias
+1983,COLISEUM BVD LIBRARY,exact,100.0,100.0,direct_precinct_alias
+1984,,unmatched,85.5,0.0,county_distribution_fallback
+1985,,unmatched,85.5,0.0,county_distribution_fallback
+1986,DUBLIN SO MO VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+1987,DUBLIN SO MO VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+1988,EASTDALE BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1989,EASTDALE BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+1990,FIRE STATION 14,exact,100.0,100.0,direct_precinct_alias
+1991,FIRE STATION 14,exact,100.0,100.0,direct_precinct_alias
+1992,FITZPATRICK ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1993,FITZPATRICK ELEMENTARY SCHOOL,fuzzy,92.85714285714286,4.721549636803886,direct_precinct_alias
+1994,FITZPATRICK ELEMENTARY SCHOOL,fuzzy,92.85714285714286,4.721549636803886,direct_precinct_alias
+1995,FLOWERS ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1996,FLOWERS ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+1997,,unmatched,95.0,0.0,county_distribution_fallback
+1998,,unmatched,95.0,0.0,county_distribution_fallback
+1999,G WASHINGTON SCHOOL,exact,100.0,100.0,direct_precinct_alias
+2000,G WASHINGTON SCHOOL,exact,100.0,100.0,direct_precinct_alias
+2001,GOODWYN COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2002,GOODWYN COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2003,GOODWYN COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2004,HAMNER HALL FIRE,exact,100.0,100.0,direct_precinct_alias
+2005,HAMNER HALL FIRE,exact,100.0,100.0,direct_precinct_alias
+2006,HARRISON ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+2007,HARRISON ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+2008,HAYNEVILLE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2009,HAYNEVILLE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2010,HIGHLAND AVE BAPTIST,exact,100.0,100.0,direct_precinct_alias
+2011,HIGHLAND AVE BAPTIST,exact,100.0,100.0,direct_precinct_alias
+2012,,unmatched,95.0,0.0,county_distribution_fallback
+2013,,unmatched,95.0,0.0,county_distribution_fallback
+2014,HOUSTON HILL COM CENTER,exact,100.0,100.0,direct_precinct_alias
+2015,HOUSTON HILL COM CENTER,exact,100.0,100.0,direct_precinct_alias
+2016,HUNTER STATION CENTER,exact,100.0,100.0,direct_precinct_alias
+2017,HUNTER STATION CENTER,exact,100.0,100.0,direct_precinct_alias
+2018,KING HILL COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2019,KING HILL COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2020,LAGOON PARK FIRE,exact,100.0,100.0,direct_precinct_alias
+2021,LAGOON PARK FIRE,exact,100.0,100.0,direct_precinct_alias
+2022,LAKEVIEW BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+2023,LAKEVIEW BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+2024,MCINTYRE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2025,MCINTYRE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2026,MONTG BOYS CLUB,exact,100.0,100.0,direct_precinct_alias
+2027,MONTG BOYS CLUB,exact,100.0,100.0,direct_precinct_alias
+2028,MUSEUM OF FINE ARTS,exact,100.0,100.0,direct_precinct_alias
+2029,MUSEUM OF FINE ARTS,exact,100.0,100.0,direct_precinct_alias
+2030,NEWTOWN COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2031,NEWTOWN COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2032,PETER CRUMP SCHOOL,exact,100.0,100.0,direct_precinct_alias
+2033,PETER CRUMP SCHOOL,exact,100.0,100.0,direct_precinct_alias
+2034,PIKE ROAD VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2035,PIKE ROAD VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2036,PINE LEVEL SO MO VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2037,PINE LEVEL SO MO VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2038,PINTLALA VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2039,PINTLALA VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2040,,county_level_ballot,0.0,0.0,county_level_distribution
+2041,RAMER PUBLIC LIBRARY,fuzzy,97.5609756097561,6.651884700665192,direct_precinct_alias
+2042,RAMER PUBLIC LIBRARY,fuzzy,97.5609756097561,6.651884700665192,direct_precinct_alias
+2043,SETH JOHNSON ELE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+2044,SETH JOHNSON ELE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+2045,SHERIDAN HEIGHTS,exact,100.0,100.0,direct_precinct_alias
+2046,SHERIDAN HEIGHTS,exact,100.0,100.0,direct_precinct_alias
+2047,SNOWDOUN WOMENS CLUB,fuzzy_equivalent_allocation,97.5609756097561,2.3228803716608724,direct_precinct_alias
+2048,SNOWDOUN WOMENS CLUB,fuzzy_equivalent_allocation,97.5609756097561,2.3228803716608724,direct_precinct_alias
+2049,SOUTHLAWN ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+2050,SOUTHLAWN ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+2051,SAINT JAMES METHODIST,exact,100.0,100.0,direct_precinct_alias
+2052,SAINT JAMES METHODIST,exact,100.0,100.0,direct_precinct_alias
+2053,SAINT JAMES METHODIST,exact,100.0,100.0,direct_precinct_alias
+2054,SAINT PAUL AME CHURCH,exact,100.0,100.0,direct_precinct_alias
+2055,SAINT PAUL AME CHURCH,exact,100.0,100.0,direct_precinct_alias
+2056,STRATA CHURCH CHRIST,fuzzy,97.5609756097561,6.651884700665192,direct_precinct_alias
+2057,STRATA CHURCH CHRIST,fuzzy,97.5609756097561,6.651884700665192,direct_precinct_alias
+2058,UNION ACADEMY BAPTIST,exact,100.0,100.0,direct_precinct_alias
+2059,UNION ACADEMY BAPTIST,exact,100.0,100.0,direct_precinct_alias
+2060,UNION CHAPEL AME CHURCH,exact,100.0,100.0,direct_precinct_alias
+2061,UNION CHAPEL AME CHURCH,exact,100.0,100.0,direct_precinct_alias
+2062,VAUGHN PARK CHURCH,exact,100.0,100.0,direct_precinct_alias
+2063,VAUGHN PARK CHURCH,exact,100.0,100.0,direct_precinct_alias
+2064,VAUGHN PARK CHURCH,exact,100.0,100.0,direct_precinct_alias
+2065,WARES FERRY RD ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2066,WARES FERRY RD ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2067,WHITFIELD METHODIST,exact,100.0,100.0,direct_precinct_alias
+2068,WHITFIELD METHODIST,exact,100.0,100.0,direct_precinct_alias
+2069,,county_level_ballot,0.0,0.0,county_level_distribution
+2070,AMERICAN LEGION DECATUR,exact,100.0,100.0,direct_precinct_alias
+2071,AMERICAN LEGION HARTSELLE,exact,100.0,100.0,direct_precinct_alias
+2072,AMERICAN LEGION HARTSELLE,exact,100.0,100.0,direct_precinct_alias
+2073,AQUADOME RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+2074,AUSTINVILLE ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2075,AUSTINVILLE ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2076,BENJAMIN DAVIS ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2077,BENJAMIN DAVIS ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2078,BREWER HIGH SCHOOL,exact,100.0,100.0,direct_precinct_alias
+2079,CEDAR RIDGE MIDDLE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+2080,CENTER SPRINGS METH,exact,100.0,100.0,direct_precinct_alias
+2081,CHESTNUT GROVE ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2082,COTACO SCHOOL,exact,100.0,100.0,direct_precinct_alias
+2083,DANVILLE VOLUNTEER FIRE,exact,100.0,100.0,direct_precinct_alias
+2084,DECATUR FIRE AND RESCUE,exact,100.0,100.0,direct_precinct_alias
+2085,DECATUR FIRE AND RESCUE,exact,100.0,100.0,direct_precinct_alias
+2086,DECATUR HIGH SCHOOL,exact,100.0,100.0,direct_precinct_alias
+2087,DECATUR UTILITIES,exact,100.0,100.0,direct_precinct_alias
+2088,DIST NO 3 SHOP BUILDING,exact,100.0,100.0,direct_precinct_alias
+2089,EASTWOOD ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2090,EASTWOOD ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2091,EBENEZER VOLUNTEER FIRE,exact,100.0,100.0,direct_precinct_alias
+2092,,unmatched,85.5,0.0,county_distribution_fallback
+2093,FALKVILLE MUNICIPAL BUILDING,exact,100.0,100.0,direct_precinct_alias
+2094,GUM POND FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+2095,JULIAN HARRIS ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2096,JULIAN HARRIS ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2097,JULIAN HARRIS ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2098,LACEYS SPRING SCHOOL GYM,exact,100.0,100.0,direct_precinct_alias
+2099,LEBANON BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+2100,MACADONIA CUMBERLAND CHURCH,exact,100.0,100.0,direct_precinct_alias
+2101,MASSEY FIRE STATION 1,fuzzy,95.0,9.5,direct_precinct_alias
+2102,MORGAN COUNTY COURTHOUSE,exact,100.0,100.0,direct_precinct_alias
+2103,MORGAN COUNTY D H R,exact,100.0,100.0,direct_precinct_alias
+2104,NEEL VOLUNTEER FIRE,exact,100.0,100.0,direct_precinct_alias
+2105,NUNGESTER ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2106,NUNGESTER ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2107,ODEN RIDGE VOLUNTEER FIRE,exact,100.0,100.0,direct_precinct_alias
+2108,PRICEVILLE MUNICIPAL BUILDING,exact,100.0,100.0,direct_precinct_alias
+2109,PRICEVILLE MUNICIPAL BUILDING,exact,100.0,100.0,direct_precinct_alias
+2110,,county_level_ballot,0.0,0.0,county_level_distribution
+2111,RYAN SCHOOL,exact,100.0,100.0,direct_precinct_alias
+2112,S A V E S FIRE DEPARTMENT,fuzzy,95.0,9.5,direct_precinct_alias
+2113,SOMERVILLE RD ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2114,SOMERVILLE RD ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2115,SPARKMAN CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+2116,SPARKMAN CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+2117,SPARKMAN CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+2118,SPARKMAN ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2119,TRINITY MUNICIPAL BUILDING,exact,100.0,100.0,direct_precinct_alias
+2120,TURNER SURLES COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2121,UNION HILL JR HIGH,exact,100.0,100.0,direct_precinct_alias
+2122,UNION HILL JR HIGH,exact,100.0,100.0,direct_precinct_alias
+2123,W DECATUR ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+2124,W MORGAN E LAWRENCE WATER AUTH,exact,100.0,100.0,direct_precinct_alias
+2125,WALTER JACKSON ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2126,WOODMEADE ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2127,WOODMEADE ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2128,,county_level_ballot,0.0,0.0,county_level_distribution
+2129,AIRPORT,exact,100.0,100.0,direct_precinct_alias
+2130,COMMUNITY LIFE BUILDING,exact,100.0,100.0,direct_precinct_alias
+2131,COMMUNITY LIFE BUILDING,exact,100.0,100.0,direct_precinct_alias
+2132,,unmatched,85.5,0.0,county_distribution_fallback
+2133,FIRE STATION HWY 219,exact,100.0,100.0,direct_precinct_alias
+2134,HINTON HALL,exact,100.0,100.0,direct_precinct_alias
+2135,METAL BUILDING HEIBERGER GROCERY,exact,100.0,100.0,direct_precinct_alias
+2136,OLD NATIONAL GUARD ARMORY,fuzzy,95.0,5.0,direct_precinct_alias
+2137,OLD NATIONAL GUARD ARMORY,fuzzy,95.0,5.0,direct_precinct_alias
+2138,OLD NATIONAL GUARD ARMORY,fuzzy,95.0,5.0,direct_precinct_alias
+2139,NORTH PERRY FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+2140,,county_level_ballot,0.0,0.0,county_level_distribution
+2141,RADFORDVILLE,exact,100.0,100.0,direct_precinct_alias
+2142,SEVERE,exact,100.0,100.0,direct_precinct_alias
+2143,UNIONTOWN CITY HALL,exact,100.0,100.0,direct_precinct_alias
+2144,UNIONTOWN CITY HALL,exact,100.0,100.0,direct_precinct_alias
+2145,WESTSIDE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+2146,,county_level_ballot,0.0,0.0,county_level_distribution
+2147,ALICEVILLE 2,fuzzy_equivalent_allocation,95.0,0.0,direct_precinct_alias
+2148,ALICEVILLE 5,exact,100.0,100.0,direct_precinct_alias
+2149,BENEVOLA,fuzzy,93.33333333333333,16.190476190476176,direct_precinct_alias
+2150,BETHLEHEM 21,fuzzy_equivalent_allocation,95.0,0.0,direct_precinct_alias
+2151,CARROLLTON,exact,100.0,100.0,direct_precinct_alias
+2152,CARROLLTON 4,fuzzy,95.65217391304348,7.652173913043484,direct_precinct_alias
+2153,COCHRANE DANCY,exact,100.0,100.0,direct_precinct_alias
+2154,ETHELSVILLE,exact,100.0,100.0,direct_precinct_alias
+2155,FAIRVIEW ZION,exact,100.0,100.0,direct_precinct_alias
+2156,FOREST,exact,100.0,100.0,direct_precinct_alias
+2157,GORDO,exact,100.0,100.0,direct_precinct_alias
+2158,GORDO 5,exact,100.0,100.0,direct_precinct_alias
+2159,KIRK,exact,100.0,100.0,direct_precinct_alias
+2160,LIBERTY,exact,100.0,100.0,direct_precinct_alias
+2161,MACEDONIA,exact,100.0,100.0,direct_precinct_alias
+2162,MCSHAN,exact,100.0,100.0,direct_precinct_alias
+2163,PALMETTO,exact,100.0,100.0,direct_precinct_alias
+2164,PICKENSVILLE,exact,100.0,100.0,direct_precinct_alias
+2165,PINE GROVE,exact,100.0,100.0,direct_precinct_alias
+2166,PINE GROVE 4,exact,100.0,100.0,direct_precinct_alias
+2167,,county_level_ballot,0.0,0.0,county_level_distribution
+2168,REFORM,exact,100.0,100.0,direct_precinct_alias
+2169,REFORM,exact,100.0,100.0,direct_precinct_alias
+2170,SAPPS,exact,100.0,100.0,direct_precinct_alias
+2171,SPEEDS MILL,exact,100.0,100.0,direct_precinct_alias
+2172,SPRING HILL,exact,100.0,100.0,direct_precinct_alias
+2173,,county_level_ballot,0.0,0.0,county_level_distribution
+2174,,unmatched,82.92682926829268,31.10864745011086,county_distribution_fallback
+2175,,unmatched,85.5,9.5,county_distribution_fallback
+2176,BANKS CITY HALL,exact,100.0,100.0,direct_precinct_alias
+2177,BRUNDIDGE GALLOWAY RD,exact,100.0,100.0,direct_precinct_alias
+2178,BRUNDIDGE HAISTEN BUILDING,exact,100.0,100.0,direct_precinct_alias
+2179,CHINA GROVE COUNTY VOTING BUILDING,exact,100.0,100.0,direct_precinct_alias
+2180,DUNNS VOTING CENTER PREC 28,fuzzy_equivalent_allocation,95.0,0.0,direct_precinct_alias
+2181,EBENEZER COUNTY VOTING BUILDING,exact,100.0,100.0,direct_precinct_alias
+2182,ENON COUNTY VOTING BUILDING,exact,100.0,100.0,direct_precinct_alias
+2183,GOSHEN CITY HALL,exact,100.0,100.0,direct_precinct_alias
+2184,HAMILTON CROSSROADS CHURCH,exact,100.0,100.0,direct_precinct_alias
+2185,HENDERS0N VOLUNTEER FIRE,fuzzy,95.83333333333334,10.333333333333343,direct_precinct_alias
+2186,JOSIE COUNTY VOTING BUILDING,exact,100.0,100.0,direct_precinct_alias
+2187,LITTLE OAK COUNTY VOTING BUILDING,exact,100.0,100.0,direct_precinct_alias
+2188,M P CHURCH,exact,100.0,100.0,direct_precinct_alias
+2189,MEEKSVILLE VOLUNTEER FIRE,exact,100.0,100.0,direct_precinct_alias
+2190,OAK BOWERY CHURCH OF CHRIST,exact,100.0,100.0,direct_precinct_alias
+2191,PARK MEMORIAL CHURCH,exact,100.0,100.0,direct_precinct_alias
+2192,PIKE COUNTY COURTHOUSE,exact,100.0,100.0,direct_precinct_alias
+2193,,county_level_ballot,0.0,0.0,county_level_distribution
+2194,RURAL HOME COUNTY VOTING BUILDING,exact,100.0,100.0,direct_precinct_alias
+2195,SACO VOLUNTEER FIRE,exact,100.0,100.0,direct_precinct_alias
+2196,SPRINGHILL HOUSING AUTHORITY,exact,100.0,100.0,direct_precinct_alias
+2197,SPRINGHILL VOLUNTEER FIRE,exact,100.0,100.0,direct_precinct_alias
+2198,TARENTUM COMMUNITY CLUBHOUSE,exact,100.0,100.0,direct_precinct_alias
+2199,TENNILLE,exact,100.0,100.0,direct_precinct_alias
+2200,TROY FIRST BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+2201,TROY ADAMS ARMORY,exact,100.0,100.0,direct_precinct_alias
+2202,,county_level_ballot,0.0,0.0,county_level_distribution
+2203,BACON LEVEL,exact,100.0,100.0,direct_precinct_alias
+2204,BETHEL,exact,100.0,100.0,direct_precinct_alias
+2205,CAVERS GROVE,exact,100.0,100.0,direct_precinct_alias
+2206,CEDRON,exact,100.0,100.0,direct_precinct_alias
+2207,CORINTH,exact,100.0,100.0,direct_precinct_alias
+2208,GRAHAM,exact,100.0,100.0,direct_precinct_alias
+2209,LEVEL ROAD,exact,100.0,100.0,direct_precinct_alias
+2210,MIDWAY,exact,100.0,100.0,direct_precinct_alias
+2211,MOORES STORE,exact,100.0,100.0,direct_precinct_alias
+2212,NATIONAL GUARD ARMORY,exact,100.0,100.0,direct_precinct_alias
+2213,NATIONAL GUARD ARMORY,exact,100.0,100.0,direct_precinct_alias
+2214,NATIONAL GUARD ARMORY,exact,100.0,100.0,direct_precinct_alias
+2215,NEW HOPE,exact,100.0,100.0,direct_precinct_alias
+2216,OMAHA,exact,100.0,100.0,direct_precinct_alias
+2217,OPHELIA,exact,100.0,100.0,direct_precinct_alias
+2218,PINE HILL,exact,100.0,100.0,direct_precinct_alias
+2219,POTASH,exact,100.0,100.0,direct_precinct_alias
+2220,,county_level_ballot,0.0,0.0,county_level_distribution
+2221,ROCK MILLS,exact,100.0,100.0,direct_precinct_alias
+2222,SWAGG,exact,100.0,100.0,direct_precinct_alias
+2223,WADLEY,exact,100.0,100.0,direct_precinct_alias
+2224,WEDOWEE CITY HALL,exact,100.0,100.0,direct_precinct_alias
+2225,WEDOWEE CITY HALL,exact,100.0,100.0,direct_precinct_alias
+2226,WEHADKEE,exact,100.0,100.0,direct_precinct_alias
+2227,WESLEY CHAPEL,exact,100.0,100.0,direct_precinct_alias
+2228,WILSONS STORE,fuzzy,96.0,10.285714285714278,direct_precinct_alias
+2229,WOODLAND FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2230,,county_level_ballot,0.0,0.0,county_level_distribution
+2231,AUSTIN SUMBRY PARK,exact,100.0,100.0,direct_precinct_alias
+2232,CENTRAL ACTIVITIES CENTER,exact,100.0,100.0,direct_precinct_alias
+2233,CENTRAL ACTIVITIES CENTER,exact,100.0,100.0,direct_precinct_alias
+2234,CHATTAHOOCHEE VALLEY,exact,100.0,100.0,direct_precinct_alias
+2235,CLAUDE PARKMAN BUILDING,exact,100.0,100.0,direct_precinct_alias
+2236,COTTONTON FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+2237,,unmatched,89.41176470588236,3.911764705882362,county_distribution_fallback
+2238,DIXIE VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2239,FT MITCHELL COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2240,HATCHECHUBBEE FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+2241,HURTSBORO FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2242,LADONIA FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+2243,LADONIA FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+2244,NATIONAL GUARD ARMORY,exact,100.0,100.0,direct_precinct_alias
+2245,PITTSVIEW FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+2246,,county_level_ballot,0.0,0.0,county_level_distribution
+2247,ROY MARTIN CENTER,exact,100.0,100.0,direct_precinct_alias
+2248,ROY MARTIN CENTER,exact,100.0,100.0,direct_precinct_alias
+2249,RUSSELL COUNTY COURTHOUSE,exact,100.0,100.0,direct_precinct_alias
+2250,SEALE OLD RUSSELL COURTHOUSE,exact,100.0,100.0,direct_precinct_alias
+2251,SPENCER RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+2252,,county_level_ballot,0.0,0.0,county_level_distribution
+2253,ALABASTER LIBERTY BAPTIST,exact,100.0,100.0,direct_precinct_alias
+2254,,unmatched,96.15384615384616,0.0,county_distribution_fallback
+2255,,unmatched,96.15384615384616,0.0,county_distribution_fallback
+2256,BAY SPRINGS BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+2257,CALERA COMMUNTIY CENTER,fuzzy,95.65217391304348,8.695652173913047,direct_precinct_alias
+2258,CALERA COMMUNTIY CENTER,fuzzy,95.65217391304348,8.695652173913047,direct_precinct_alias
+2259,CAMP BRANCH CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+2260,CHELSEA CITY HALL,exact,100.0,100.0,direct_precinct_alias
+2261,CHELSEA LIBERTY BAPTIST,exact,100.0,100.0,direct_precinct_alias
+2262,CHRIST UNITED METH 1,fuzzy_equivalent_allocation,95.0,0.0,direct_precinct_alias
+2263,CHRIST UNITED METH 1,fuzzy_equivalent_allocation,95.0,0.0,direct_precinct_alias
+2264,,unmatched,96.15384615384616,0.0,county_distribution_fallback
+2265,,unmatched,96.15384615384616,0.0,county_distribution_fallback
+2266,CONCORD BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+2267,CONCORD BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+2268,COVENANT LIFE CHURCH,exact,100.0,100.0,direct_precinct_alias
+2269,COVENANT LIFE CHURCH,exact,100.0,100.0,direct_precinct_alias
+2270,DUNNAVANT COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2271,EVANGEL PRESBYTERIAN 1,fuzzy_equivalent_allocation,95.23809523809523,0.0,direct_precinct_alias
+2272,EVANGEL PRESBYTERIAN 1,fuzzy_equivalent_allocation,95.23809523809523,0.0,direct_precinct_alias
+2273,FAITH PRESBYTERIAN 1,fuzzy_equivalent_allocation,95.0,0.0,direct_precinct_alias
+2274,FAITH PRESBYTERIAN 1,fuzzy_equivalent_allocation,95.0,0.0,direct_precinct_alias
+2275,FIRST CHRISTIAN CHURCH,exact,100.0,100.0,direct_precinct_alias
+2276,FIRST CHRISTIAN CHURCH,exact,100.0,100.0,direct_precinct_alias
+2277,FIRST PRESBYTERIAN CHURCH,exact,100.0,100.0,direct_precinct_alias
+2278,FIRST PRESBYTERIAN CHURCH,exact,100.0,100.0,direct_precinct_alias
+2279,FOURMILE VOLUNTEER FIRE AND RESCUE,fuzzy,97.05882352941177,6.433823529411768,direct_precinct_alias
+2280,GREYSTONE FARMS CLUBHOUSE,exact,100.0,100.0,direct_precinct_alias
+2281,HARPERSVILLE CITY HALL,exact,100.0,100.0,direct_precinct_alias
+2282,,unmatched,96.15384615384616,0.0,county_distribution_fallback
+2283,,unmatched,96.15384615384616,0.0,county_distribution_fallback
+2284,,unmatched,96.15384615384616,0.0,county_distribution_fallback
+2285,,unmatched,96.15384615384616,0.0,county_distribution_fallback
+2286,,unmatched,85.5,0.0,county_distribution_fallback
+2287,,unmatched,85.5,0.0,county_distribution_fallback
+2288,MAYLENE PENTECOSTAL CHURCH,exact,100.0,100.0,direct_precinct_alias
+2289,,unmatched,96.2962962962963,0.0,county_distribution_fallback
+2290,,unmatched,96.2962962962963,0.0,county_distribution_fallback
+2291,MONTEVALLO PARKS AND RECREATION BUILDING,exact,100.0,100.0,direct_precinct_alias
+2292,NEW HOPE PRESBYTERIAN CHURCH,exact,100.0,100.0,direct_precinct_alias
+2293,NEW HOPE PRESBYTERIAN CHURCH,exact,100.0,100.0,direct_precinct_alias
+2294,NEW LIFE ASSEMBLY OF GOD,exact,100.0,100.0,direct_precinct_alias
+2295,NORTH SHELBY BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+2296,OLD SHELBY ELEMENTARY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+2297,PEA RIDGE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2298,PELHAM CIVIC COMPLEX,fuzzy,95.0,4.523809523809518,direct_precinct_alias
+2299,PELHAM CIVIC COMPLEX,exact,100.0,100.0,direct_precinct_alias
+2300,PELHAM CIVIC COMPLEX,exact,100.0,100.0,direct_precinct_alias
+2301,,county_level_ballot,0.0,0.0,county_level_distribution
+2302,,unmatched,96.42857142857143,0.0,county_distribution_fallback
+2303,,unmatched,96.42857142857143,0.0,county_distribution_fallback
+2304,RIVERCHASE UNITED METH 1,fuzzy_equivalent_allocation,95.65217391304348,0.0,direct_precinct_alias
+2305,RIVERCHASE UNITED METH 1,fuzzy_equivalent_allocation,95.65217391304348,0.0,direct_precinct_alias
+2306,SHOAL CREEK TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+2307,SILURIA BAPTIST CHURCH,fuzzy,95.0,5.0,direct_precinct_alias
+2308,SILURIA BAPTIST CHURCH,fuzzy,95.0,5.0,direct_precinct_alias
+2309,SOUTHCREST BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+2310,SOUTHCREST BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+2311,SOUTHSIDE BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+2312,SOUTHSIDE BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+2313,,unmatched,95.0,0.0,county_distribution_fallback
+2314,,unmatched,95.0,0.0,county_distribution_fallback
+2315,THE CHURCH AT BROOKHILLS,fuzzy_equivalent_allocation,97.95918367346938,1.8053375196232224,direct_precinct_alias
+2316,THE CHURCH AT BROOKHILLS,fuzzy_equivalent_allocation,97.95918367346938,1.8053375196232224,direct_precinct_alias
+2317,TURNER HOLLIS A L POST 195,fuzzy,95.0,24.428571428571445,direct_precinct_alias
+2318,UNDERWOOD BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+2319,,unmatched,96.0,0.0,county_distribution_fallback
+2320,,unmatched,96.0,0.0,county_distribution_fallback
+2321,UNIVERSITY BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+2322,VALLEYDALE BAPTIST CHURCH 1,fuzzy_equivalent_allocation,96.15384615384616,0.0,direct_precinct_alias
+2323,VALLEYDALE BAPTIST CHURCH 1,fuzzy_equivalent_allocation,96.15384615384616,0.0,direct_precinct_alias
+2324,VANDIVER VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2325,VINCENT CITY HALL,exact,100.0,100.0,direct_precinct_alias
+2326,WILSONVILLE UNITED METH CHURCH,exact,100.0,100.0,direct_precinct_alias
+2327,WILTON MUNICIPAL ANNEX,exact,100.0,100.0,direct_precinct_alias
+2328,,county_level_ballot,0.0,0.0,county_level_distribution
+2329,ASHVILLE NEW TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+2330,,unmatched,90.625,6.56702898550725,county_distribution_fallback
+2331,CHANDLER MTN COMMUNITY HOUSE,exact,100.0,100.0,direct_precinct_alias
+2332,WHITES CHAPEL CITY HALL,fuzzy,95.0,9.5,direct_precinct_alias
+2333,COOK SPRINGS FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2334,CROPWELL CIVIC CENTER 1,fuzzy_equivalent_allocation,95.45454545454545,0.0,direct_precinct_alias
+2335,CROPWELL CIVIC CENTER 1,fuzzy_equivalent_allocation,95.45454545454545,0.0,direct_precinct_alias
+2336,EASONVILLE COOSA VALLEY SCHOOL 1,fuzzy_equivalent_allocation,96.7741935483871,0.0,direct_precinct_alias
+2337,EASONVILLE COOSA VALLEY SCHOOL 1,fuzzy_equivalent_allocation,96.7741935483871,0.0,direct_precinct_alias
+2338,EDEN OLD CITY HALL,exact,100.0,100.0,direct_precinct_alias
+2339,FAIRVIEW CHURCH,exact,100.0,100.0,direct_precinct_alias
+2340,FRIENDSHIP VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2341,GALLANT VOLUNTEER FIRE DEPARTMENT,fuzzy,95.0,9.5,direct_precinct_alias
+2342,GUM SPRINGS CHURCH,exact,100.0,100.0,direct_precinct_alias
+2343,MARGARET CITY HALL,exact,100.0,100.0,direct_precinct_alias
+2344,,unmatched,85.5,0.0,county_distribution_fallback
+2345,,unmatched,85.5,0.0,county_distribution_fallback
+2346,,unmatched,85.5,0.0,county_distribution_fallback
+2347,NEW LONDON FIRE HALL,exact,100.0,100.0,direct_precinct_alias
+2348,ODENVILLE AGING CENTER,exact,100.0,100.0,direct_precinct_alias
+2349,OLDHAM CHAPEL CHURCH ED BUILDING,exact,100.0,100.0,direct_precinct_alias
+2350,PELL CITY COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2351,PELL CITY COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2352,PINEDALE VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2353,POPLAR SPRINGS CHURCH,exact,100.0,100.0,direct_precinct_alias
+2354,PRESCOTT COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2355,,county_level_ballot,0.0,0.0,county_level_distribution
+2356,RAGLAND TOWN HALL,fuzzy,95.0,9.5,direct_precinct_alias
+2357,RIVERSIDE CITY HALL,exact,100.0,100.0,direct_precinct_alias
+2358,SHOAL CREEK,exact,100.0,100.0,direct_precinct_alias
+2359,SLATE UNION CHURCH,exact,100.0,100.0,direct_precinct_alias
+2360,,unmatched,85.5,0.0,county_distribution_fallback
+2361,,unmatched,85.5,0.0,county_distribution_fallback
+2362,STEELE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2363,WATTSVILLE FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2364,WOLF CREEK FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2365,,county_level_ballot,0.0,0.0,county_level_distribution
+2366,BELLAMY COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2367,BOYD TRAILER,exact,100.0,100.0,direct_precinct_alias
+2368,COATOPA BEL FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2369,CUBA COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2370,EMELLE SUMT TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+2371,EPES COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2372,GAINESVILLE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2373,GEIGER TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+2374,LIVINGSTON CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+2375,PANOLA TRAILER,exact,100.0,100.0,direct_precinct_alias
+2376,,county_level_ballot,0.0,0.0,county_level_distribution
+2377,WARD COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2378,WHITFIELD TRAILER,exact,100.0,100.0,direct_precinct_alias
+2379,YORK COLEMAN,exact,100.0,100.0,direct_precinct_alias
+2380,,county_level_ballot,0.0,0.0,county_level_distribution
+2381,B N MABRA CENTER,exact,100.0,100.0,direct_precinct_alias
+2382,B N MABRA CENTER,exact,100.0,100.0,direct_precinct_alias
+2383,BEMISTON RECREATION CENTER,exact,100.0,100.0,direct_precinct_alias
+2384,BETHEL CHURCH,exact,100.0,100.0,direct_precinct_alias
+2385,CITY HALL BON AIR,exact,100.0,100.0,direct_precinct_alias
+2386,CITY HALL OAK GROVE,exact,100.0,100.0,direct_precinct_alias
+2387,COUNTY LINE VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2388,,unmatched,91.89189189189189,43.43035343035343,county_distribution_fallback
+2389,FIRE DEPARTMENT FAYETTEVILLE,exact,100.0,100.0,direct_precinct_alias
+2390,FIRE STATION STEMLEY,exact,100.0,100.0,direct_precinct_alias
+2391,GABLES CORNER TALLADEGA,exact,100.0,100.0,direct_precinct_alias
+2392,IRONATON FIRE HALL,exact,100.0,100.0,direct_precinct_alias
+2393,,unmatched,96.2962962962963,0.0,county_distribution_fallback
+2394,,unmatched,96.2962962962963,0.0,county_distribution_fallback
+2395,,unmatched,96.2962962962963,0.0,county_distribution_fallback
+2396,KINGSTON BAPTIST,exact,100.0,100.0,direct_precinct_alias
+2397,MUNFORD OLD HIGH SCHOOL GYM,exact,100.0,100.0,direct_precinct_alias
+2398,,unmatched,75.00000000000001,0.0,county_distribution_fallback
+2399,NUTRITION CENTER SYCAMORE,exact,100.0,100.0,direct_precinct_alias
+2400,,unmatched,95.0,0.0,county_distribution_fallback
+2401,OLD SILVER RUN SCHOOL,exact,100.0,100.0,direct_precinct_alias
+2402,,county_level_ballot,0.0,0.0,county_level_distribution
+2403,R S LIMBAUGH COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2404,R S LIMBAUGH COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2405,RENFROE FIRE HALL,exact,100.0,100.0,direct_precinct_alias
+2406,,unmatched,96.66666666666667,0.0,county_distribution_fallback
+2407,,unmatched,96.66666666666667,0.0,county_distribution_fallback
+2408,,unmatched,90.9090909090909,5.4090909090909065,county_distribution_fallback
+2409,TALLADEGA COUNTY CENTRAL H S,exact,100.0,100.0,direct_precinct_alias
+2410,VOLUNTEER FIRE DEPARTMENT LAY LAKE,exact,100.0,100.0,direct_precinct_alias
+2411,WALDO FIRE HALL,exact,100.0,100.0,direct_precinct_alias
+2412,WINTERBORO VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2413,A C HOUSING AUTHORITY,exact,100.0,100.0,direct_precinct_alias
+2414,,county_level_ballot,0.0,0.0,county_level_distribution
+2415,ALEX CITY FIRE STATION LK HILL,exact,100.0,100.0,direct_precinct_alias
+2416,ALEX CITY NTL GUARD ARMORY 1,fuzzy_equivalent_allocation,96.2962962962963,0.0,direct_precinct_alias
+2417,ALEX CITY NTL GUARD ARMORY 1,fuzzy_equivalent_allocation,96.2962962962963,0.0,direct_precinct_alias
+2418,BUTTSTON VOLUNTEER FIRE,exact,100.0,100.0,direct_precinct_alias
+2419,CHURCHHILL VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+2420,COOPER COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2421,COOPER COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2422,COOPER COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2423,COWPENS VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+2424,DADEVILLE NATIONAL GUARD,exact,100.0,100.0,direct_precinct_alias
+2425,DADEVILLE NATIONAL GUARD,exact,100.0,100.0,direct_precinct_alias
+2426,DAVISTON COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2427,EAGLE CREEK VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+2428,HACKNEYVILLE VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2429,HILLABEE BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+2430,JACKSONS GAP VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2431,MANOY VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+2432,MARYS CROSS ROADS VOTING HOUSE,exact,100.0,100.0,direct_precinct_alias
+2433,MOUNT LOVELY BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+2434,MOUNT LOVELY BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+2435,NEW PACES PT VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2436,NEW PACES PT VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2437,NEW SITE TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+2438,OURTOWN V F D,exact,100.0,100.0,direct_precinct_alias
+2439,,county_level_ballot,0.0,0.0,county_level_distribution
+2440,REELTOWN FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2441,SARDIS COMMUNITY BUILDING,exact,100.0,100.0,direct_precinct_alias
+2442,TALLASSEE COMMUNITY LIBRARY,exact,100.0,100.0,direct_precinct_alias
+2443,UNION COMMUNITY BUILDING,exact,100.0,100.0,direct_precinct_alias
+2444,WALL STREET COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2445,ABERNANT BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+2446,,county_level_ballot,0.0,0.0,county_level_distribution
+2447,,county_level_ballot,0.0,0.0,county_level_distribution
+2448,ANTIOCH BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+2449,BIG SANDY BAPTIST,exact,100.0,100.0,direct_precinct_alias
+2450,BIG SANDY BAPTIST,exact,100.0,100.0,direct_precinct_alias
+2451,BOBBY MILLER ACTIVITY,exact,100.0,100.0,direct_precinct_alias
+2452,BOBBY MILLER ACTIVITY,exact,100.0,100.0,direct_precinct_alias
+2453,BOBBY MILLER ACTIVITY,exact,100.0,100.0,direct_precinct_alias
+2454,BUHL VOLUNTEER FIRE DEPARTMENT STATION,exact,100.0,100.0,direct_precinct_alias
+2455,CARROLLS CREEK BAPTIST,exact,100.0,100.0,direct_precinct_alias
+2456,CARROLLS CREEK BAPTIST,exact,100.0,100.0,direct_precinct_alias
+2457,CHAPEL HILL BAPTIST,exact,100.0,100.0,direct_precinct_alias
+2458,CHAPEL HILL BAPTIST,exact,100.0,100.0,direct_precinct_alias
+2459,COALING TOWN HALL,exact,100.0,100.0,direct_precinct_alias
+2460,COKER VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2461,COMMUNITY CHURCH COTTONDALE,exact,100.0,100.0,direct_precinct_alias
+2462,COMMUNITY CHURCH COTTONDALE,exact,100.0,100.0,direct_precinct_alias
+2463,COTTONDALE METH CHURCH,exact,100.0,100.0,direct_precinct_alias
+2464,COTTONDALE METH CHURCH,exact,100.0,100.0,direct_precinct_alias
+2465,COUNTY ROAD CAMP,exact,100.0,100.0,direct_precinct_alias
+2466,DUNCANVILLE VOLUNTEER FIRE DEPARTMENT 1,fuzzy_equivalent_allocation,97.36842105263158,0.0,direct_precinct_alias
+2467,DUNCANVILLE VOLUNTEER FIRE DEPARTMENT 1,fuzzy_equivalent_allocation,97.36842105263158,0.0,direct_precinct_alias
+2468,ECHOLA VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2469,ELROD VOLUNTEER FIRE DEPARTMENT STATION,exact,100.0,100.0,direct_precinct_alias
+2470,FLATWOODS EL SCHOOL,exact,100.0,100.0,direct_precinct_alias
+2471,FLATWOODS EL SCHOOL,exact,100.0,100.0,direct_precinct_alias
+2472,FORREST LAKE METH,exact,100.0,100.0,direct_precinct_alias
+2473,FORREST LAKE METH,exact,100.0,100.0,direct_precinct_alias
+2474,FOSTERS VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2475,G G HARDIN COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2476,HAGLER VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2477,HOLT ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2478,HOLT ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2479,JAYCEE PARK 1,fuzzy_equivalent_allocation,95.0,0.0,direct_precinct_alias
+2480,JAYCEE PARK 1,fuzzy_equivalent_allocation,95.0,0.0,direct_precinct_alias
+2481,JAYCEE PARK 1,fuzzy_equivalent_allocation,95.0,0.0,direct_precinct_alias
+2482,LAKEVIEW FIRE,exact,100.0,100.0,direct_precinct_alias
+2483,LAKEVIEW FIRE,exact,100.0,100.0,direct_precinct_alias
+2484,MAYFIELD FIRE,exact,100.0,100.0,direct_precinct_alias
+2485,MCABEE CENTER,exact,100.0,100.0,direct_precinct_alias
+2486,MCABEE CENTER,exact,100.0,100.0,direct_precinct_alias
+2487,MCABEE CENTER,exact,100.0,100.0,direct_precinct_alias
+2488,MCDONALD HUGHES CC,exact,100.0,100.0,direct_precinct_alias
+2489,MCDONALD HUGHES CC,exact,100.0,100.0,direct_precinct_alias
+2490,MCDONALD HUGHES CC,exact,100.0,100.0,direct_precinct_alias
+2491,MCFARLAND MALL,exact,100.0,100.0,direct_precinct_alias
+2492,MCFARLAND MALL,exact,100.0,100.0,direct_precinct_alias
+2493,MCFARLAND MALL,exact,100.0,100.0,direct_precinct_alias
+2494,MCFARLAND MALL,exact,100.0,100.0,direct_precinct_alias
+2495,MONTGOMERY VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2496,MOUNT OLIVE VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2497,NORTHPORT CITY HALL,exact,100.0,100.0,direct_precinct_alias
+2498,NORTHPORT CITY HALL,exact,100.0,100.0,direct_precinct_alias
+2499,NORTHPORT CITY HALL,exact,100.0,100.0,direct_precinct_alias
+2500,NORTHPORT COM CENTER,exact,100.0,100.0,direct_precinct_alias
+2501,NORTHPORT COM CENTER,exact,100.0,100.0,direct_precinct_alias
+2502,NORTHSIDE VOLUNTEER FIRE DEPARTMENT,fuzzy,95.0,9.5,direct_precinct_alias
+2503,PETERSON METHODIST,exact,100.0,100.0,direct_precinct_alias
+2504,MARY PHELPS CENTER,fuzzy_equivalent_allocation,95.0,0.0,direct_precinct_alias
+2505,MARY PHELPS CENTER,fuzzy_equivalent_allocation,95.0,0.0,direct_precinct_alias
+2506,,county_level_ballot,0.0,0.0,county_level_distribution
+2507,,unmatched,95.0,0.0,county_distribution_fallback
+2508,ROMULUS VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2509,SHERIFFS FIRING RANGE,fuzzy,97.67441860465115,13.674418604651152,direct_precinct_alias
+2510,SKYLAND ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2511,SKYLAND ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2512,SKYLAND ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2513,,unmatched,83.72093023255813,0.0,county_distribution_fallback
+2514,,unmatched,83.72093023255813,0.0,county_distribution_fallback
+2515,SOUTHSIDE CC,exact,100.0,100.0,direct_precinct_alias
+2516,SOUTHSIDE CC,exact,100.0,100.0,direct_precinct_alias
+2517,SPRAYBERRY REG ED C,exact,100.0,100.0,direct_precinct_alias
+2518,SPRAYBERRY REG ED C,exact,100.0,100.0,direct_precinct_alias
+2519,STATION 2 CARROLLS CREEK,exact,100.0,100.0,direct_precinct_alias
+2520,,unmatched,90.0,6.1290322580645125,county_distribution_fallback
+2521,,unmatched,90.0,6.1290322580645125,county_distribution_fallback
+2522,,unmatched,90.0,6.1290322580645125,county_distribution_fallback
+2523,,unmatched,90.0,6.1290322580645125,county_distribution_fallback
+2524,TANNEHILL VLY BAPTIST,exact,100.0,100.0,direct_precinct_alias
+2525,TANNEHILL VLY BAPTIST,exact,100.0,100.0,direct_precinct_alias
+2526,TUSCAL CRTHOUSE ANX,exact,100.0,100.0,direct_precinct_alias
+2527,TUSCAL CRTHOUSE ANX,exact,100.0,100.0,direct_precinct_alias
+2528,TUSCAL CRTHOUSE ANX,exact,100.0,100.0,direct_precinct_alias
+2529,TUSCALOOSA ACAD,exact,100.0,100.0,direct_precinct_alias
+2530,TUSCALOOSA ACAD,exact,100.0,100.0,direct_precinct_alias
+2531,TUSCALOOSA ACAD,exact,100.0,100.0,direct_precinct_alias
+2532,TUSCALOOSA ACAD,exact,100.0,100.0,direct_precinct_alias
+2533,UNITY BAPTIST,exact,100.0,100.0,direct_precinct_alias
+2534,UNIV MALL,exact,100.0,100.0,direct_precinct_alias
+2535,UNIV MALL,exact,100.0,100.0,direct_precinct_alias
+2536,UNIV MALL,exact,100.0,100.0,direct_precinct_alias
+2537,,unmatched,85.5,14.07142857142857,county_distribution_fallback
+2538,,unmatched,85.5,14.07142857142857,county_distribution_fallback
+2539,,unmatched,85.5,14.07142857142857,county_distribution_fallback
+2540,VANCE COMMUNITY,exact,100.0,100.0,direct_precinct_alias
+2541,VESTAVIA HILLS ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2542,VESTAVIA HILLS ELEMENTARY,exact,100.0,100.0,direct_precinct_alias
+2543,WHITSON CHURCH OF CHRIST,exact,100.0,100.0,direct_precinct_alias
+2544,,unmatched,88.88888888888889,0.364298724954466,county_distribution_fallback
+2545,YELLOW CREEK VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2546,,county_level_ballot,0.0,0.0,county_level_distribution
+2547,ABUNDANT LIFE CHURCH,exact,100.0,100.0,direct_precinct_alias
+2548,ARGO FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2549,BEVILL STATE TECH,exact,100.0,100.0,direct_precinct_alias
+2550,BOLDO COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2551,CARBON HILL COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2552,COPELAND FERRY FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2553,CORDOVA VFW BUILDING,exact,100.0,100.0,direct_precinct_alias
+2554,CORONA BAPTIST CHURCH,exact,100.0,100.0,direct_precinct_alias
+2555,CROSSROADDS CHURCH CHRIST,exact,100.0,100.0,direct_precinct_alias
+2556,CURRY COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2557,DILLWORTH COMMUNITY BUILDING,exact,100.0,100.0,direct_precinct_alias
+2558,DORA CIVIC CENTER,exact,100.0,100.0,direct_precinct_alias
+2559,ELDRIDGE CITY HALL,exact,100.0,100.0,direct_precinct_alias
+2560,EMPIRE UNION BUILDING,exact,100.0,100.0,direct_precinct_alias
+2561,FARMSTEAD SCHOOL,exact,100.0,100.0,direct_precinct_alias
+2562,JASPER MALL,exact,100.0,100.0,direct_precinct_alias
+2563,KANSAS CITY HALL,exact,100.0,100.0,direct_precinct_alias
+2564,LIBERTY HILL CHURCH,exact,100.0,100.0,direct_precinct_alias
+2565,MACEDONIA CHURCH OF CHRIST,exact,100.0,100.0,direct_precinct_alias
+2566,MANCHESTER COMMUNITY BUILDING,exact,100.0,100.0,direct_precinct_alias
+2567,MCCOLLUM NATL GUARD,exact,100.0,100.0,direct_precinct_alias
+2568,MEADOW SMITH LIBRARY,exact,100.0,100.0,direct_precinct_alias
+2569,MEMORIAL PARK NATATORIUM,exact,100.0,100.0,direct_precinct_alias
+2570,NAUVOO CITY HALL,exact,100.0,100.0,direct_precinct_alias
+2571,NEW BETHANY CHURCH GOD,exact,100.0,100.0,direct_precinct_alias
+2572,NEW HOPE MISSIONARY,exact,100.0,100.0,direct_precinct_alias
+2573,OAKMAN SR CITIZENS,exact,100.0,100.0,direct_precinct_alias
+2574,OLD HERMAN CHURCH,exact,100.0,100.0,direct_precinct_alias
+2575,PARRISH HS OLD GYM,exact,100.0,100.0,direct_precinct_alias
+2576,PINEYWOODS FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2577,PLEASANTFIELD BAPTIST,exact,100.0,100.0,direct_precinct_alias
+2578,POCAHONAS METH CHURCH,exact,100.0,100.0,direct_precinct_alias
+2579,PROSPECT METH CHURCH,exact,100.0,100.0,direct_precinct_alias
+2580,,county_level_ballot,0.0,0.0,county_level_distribution
+2581,REDMILL COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2582,RICES CHAPEL CHURCH,exact,100.0,100.0,direct_precinct_alias
+2583,SARAGOSSA COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2584,SIPSEY SCHOOL,exact,100.0,100.0,direct_precinct_alias
+2585,THACH SCHOOL,exact,100.0,100.0,direct_precinct_alias
+2586,TOWNLEY ODD FELLOWS,exact,100.0,100.0,direct_precinct_alias
+2587,TUTWILER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2588,TWILLEY TOWN CHURCH,exact,100.0,100.0,direct_precinct_alias
+2589,UNION HALL GOODSPRINGS,exact,100.0,100.0,direct_precinct_alias
+2590,VALLEY JR HIGH,exact,100.0,100.0,direct_precinct_alias
+2591,WALKER COUNTY EMA BUILDING,exact,100.0,100.0,direct_precinct_alias
+2592,WESTSIDE BAPTIST,exact,100.0,100.0,direct_precinct_alias
+2593,,county_level_ballot,0.0,0.0,county_level_distribution
+2594,,unmatched,90.0,28.888888888888886,county_distribution_fallback
+2595,,unmatched,85.5,0.0,county_distribution_fallback
+2596,CHARITY CHAPEL FIRE HOUSE,exact,100.0,100.0,direct_precinct_alias
+2597,CHATOM COURTHOUSE,fuzzy,95.0,5.277777777777786,direct_precinct_alias
+2598,COPELAND FIRE HOUSE,exact,100.0,100.0,direct_precinct_alias
+2599,,unmatched,58.53658536585367,2.126328955597259,county_distribution_fallback
+2600,DEER PARK FIRE HOUSE,exact,100.0,100.0,direct_precinct_alias
+2601,,unmatched,59.85,9.555882352941175,county_distribution_fallback
+2602,,unmatched,85.5,0.0,county_distribution_fallback
+2603,FAIRFORD FIRE HOUSE,exact,100.0,100.0,direct_precinct_alias
+2604,FRANKVILLE FIRE HOUSE,exact,100.0,100.0,direct_precinct_alias
+2605,FRUITDALE FIRE HOUSE,exact,100.0,100.0,direct_precinct_alias
+2606,HOBSON FIRE HOUSE,exact,100.0,100.0,direct_precinct_alias
+2607,,unmatched,90.0,30.540540540540547,county_distribution_fallback
+2608,LATON HILL FIRE HOUSE,exact,100.0,100.0,direct_precinct_alias
+2609,LEROY FIRE HOUSE,exact,100.0,100.0,direct_precinct_alias
+2610,,unmatched,90.0,30.540540540540547,county_distribution_fallback
+2611,,unmatched,85.5,0.0,county_distribution_fallback
+2612,,unmatched,85.5,0.0,county_distribution_fallback
+2613,,unmatched,45.0,0.0,county_distribution_fallback
+2614,,unmatched,90.0,4.5,county_distribution_fallback
+2615,,unmatched,90.0,4.5,county_distribution_fallback
+2616,,unmatched,64.68085106382978,9.842141386410425,county_distribution_fallback
+2617,,county_level_ballot,0.0,0.0,county_level_distribution
+2618,RED CREEK FIRE HOUSE,exact,100.0,100.0,direct_precinct_alias
+2619,,unmatched,90.0,4.5,county_distribution_fallback
+2620,,unmatched,48.857142857142854,3.857142857142854,county_distribution_fallback
+2621,SAINT STEPHENS FIRE HOUSE,exact,100.0,100.0,direct_precinct_alias
+2622,TIBBIE FIRE HOUSE,exact,100.0,100.0,direct_precinct_alias
+2623,WAGARVILLE FIRE HOUSE,exact,100.0,100.0,direct_precinct_alias
+2624,YARBO FIRE HOUSE,exact,100.0,100.0,direct_precinct_alias
+2625,,unmatched,90.0,0.0,county_distribution_fallback
+2626,,unmatched,90.0,4.5,county_distribution_fallback
+2627,,county_level_ballot,0.0,0.0,county_level_distribution
+2628,ARLINGTON COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2629,BOYKIN NUTRITION CENTER,exact,100.0,100.0,direct_precinct_alias
+2630,BRIDGEPORT NATIONAL GUARD,exact,100.0,100.0,direct_precinct_alias
+2631,CALEDONIA E M JONES,exact,100.0,100.0,direct_precinct_alias
+2632,CLIFTON VOC BUILDING,exact,100.0,100.0,direct_precinct_alias
+2633,COY PUBLIC SCHOOL HOUSE,exact,100.0,100.0,direct_precinct_alias
+2634,FAITH FELLOWSHIP,exact,100.0,100.0,direct_precinct_alias
+2635,FURMAN TATES CHAPEL CHURC,fuzzy_equivalent_allocation,98.0392156862745,3.0392156862745026,direct_precinct_alias
+2636,GRAMPIN HILLS NG ARMORY,exact,100.0,100.0,direct_precinct_alias
+2637,GROCERY STORE,exact,100.0,100.0,direct_precinct_alias
+2638,HWY 10 28,exact,100.0,100.0,direct_precinct_alias
+2639,LOWER PEACHTREE COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2640,MAGNOLIA PBBL HILL FAMILY,exact,100.0,100.0,direct_precinct_alias
+2641,MILLER FERRY RIVERVIEW CHURCH,exact,100.0,100.0,direct_precinct_alias
+2642,NATL GUARD ARMORY CAMDEN,exact,100.0,100.0,direct_precinct_alias
+2643,PINE APPLE AWIN FIRE STN,exact,100.0,100.0,direct_precinct_alias
+2644,PINE HILL CITY HALL,exact,100.0,100.0,direct_precinct_alias
+2645,PINE HILL MIDDLE SCHOOL,exact,100.0,100.0,direct_precinct_alias
+2646,PORTABLE BUILDING,exact,100.0,100.0,direct_precinct_alias
+2647,PRAIRIE BLUFF CATHERINE,fuzzy,97.77777777777777,11.503267973856197,direct_precinct_alias
+2648,,county_level_ballot,0.0,0.0,county_level_distribution
+2649,SE CAMDEN CRTHOUSE ANX,exact,100.0,100.0,direct_precinct_alias
+2650,SEDAN PORT BUILDING HWY 41,fuzzy,98.0392156862745,12.539215686274503,direct_precinct_alias
+2651,SNOW HILL SAINT PAUL AME,exact,100.0,100.0,direct_precinct_alias
+2652,SUNNY SOUTH VOT BOOTH,exact,100.0,100.0,direct_precinct_alias
+2653,VOC BUILDING ANNIEMANIE,exact,100.0,100.0,direct_precinct_alias
+2654,WHISKEY,exact,100.0,100.0,direct_precinct_alias
+2655,YE OLDE SHOPPE,exact,100.0,100.0,direct_precinct_alias
+2656,YELLOW BLUFF CITY HALL,exact,100.0,100.0,direct_precinct_alias
+2657,,county_level_ballot,0.0,0.0,county_level_distribution
+2658,ADDISON COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2659,A R C BUILDING HALEYVILLE,fuzzy,95.83333333333334,10.333333333333343,direct_precinct_alias
+2660,ARLEY FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+2661,,unmatched,89.47368421052632,3.973684210526315,county_distribution_fallback
+2662,BLACK POND VOLUNTEER FIRE DEPARTMENT,exact,100.0,100.0,direct_precinct_alias
+2663,DELMAR,exact,100.0,100.0,direct_precinct_alias
+2664,DOUBLE SPRINGS COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2665,HALEYVILLE CITY HALL,exact,100.0,100.0,direct_precinct_alias
+2666,HALEYVILLE HOUSING AUTHORITY,fuzzy,96.42857142857143,10.92857142857143,direct_precinct_alias
+2667,,unmatched,88.88888888888889,3.3888888888888857,county_distribution_fallback
+2668,HOUSTON FIRE STATION,exact,100.0,100.0,direct_precinct_alias
+2669,LYNN CITY HALL,exact,100.0,100.0,direct_precinct_alias
+2670,,unmatched,89.47368421052632,3.973684210526315,county_distribution_fallback
+2671,NATURAL BRIDGE,exact,100.0,100.0,direct_precinct_alias
+2672,NEEDMORE HOME ZONE,exact,100.0,100.0,direct_precinct_alias
+2673,NEIGHBORHOOD FCLTY HALEYVILLE,exact,100.0,100.0,direct_precinct_alias
+2674,NESMITH COMMUNITY CENTER,exact,100.0,100.0,direct_precinct_alias
+2675,OLD UNION CHURCH,exact,100.0,100.0,direct_precinct_alias
+2676,PEBBLE FIRE HOUSE,exact,100.0,100.0,direct_precinct_alias
+2677,,county_level_ballot,0.0,0.0,county_level_distribution
+2678,S HALEYVILLE SCOUT HEADQUARTER,exact,100.0,100.0,direct_precinct_alias
+2679,,unmatched,85.5,0.0,county_distribution_fallback

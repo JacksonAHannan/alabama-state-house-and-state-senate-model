@@ -43,6 +43,7 @@ POLLING = ROOT / "data/processed/polling"
 RAW_POLLING = ROOT / "data/raw/polling"
 PRESIDENTIAL = ROOT / "data/processed/presidential"
 OUT = ROOT / "data/processed/forecast_calibration"
+IDEOLOGY_2026 = OUT / "2026_race_ideology_features.csv"
 DOC = ROOT / "project_docs/model/POST2016_POLLING_CMO_EXPERIMENT.md"
 
 SEED = 20260822
@@ -61,7 +62,7 @@ FINANCE_STRUCTURE_FEATURES = [
 PARTIAL_ORTHOGONAL_WEIGHTS = (0.25, 0.50, 0.75)
 
 FINANCE_PANEL = WAR / "fcpa_fundraising_experiment_panel.csv"
-FINANCE_CANDIDATES = WAR / "fcpa_candidate_cycle_finance.csv"
+FINANCE_CANDIDATES = ROOT / "data/processed/finance/2026_candidate_finance_reconciled.csv"
 CANONICAL_CANDIDATES = ELECTIONS / "canonical_cmo_candidates.csv"
 IDENTITY_CROSSWALK = IDEOLOGY / "candidate_legislator_identity_crosswalk.csv"
 RAW_POLLS = RAW_POLLING / "fivethirtyeight_raw_polls.csv"
@@ -575,7 +576,12 @@ def final_models(panel: pd.DataFrame) -> dict[str, Pipeline]:
 def prospective_finance(eligible: pd.DataFrame) -> pd.DataFrame:
     finance = pd.read_csv(FINANCE_CANDIDATES)
     finance = finance[finance.cycle.eq(2026) & finance.party.isin(["D", "R"])].copy()
-    finance["usable"] = ~finance.aggregation_status.eq("multiple_active_pcc_records_review")
+    # Only cutoff-specific observed state records are usable.  In particular,
+    # an empty response from the live annual-summary endpoint is not an
+    # observed zero and must not contribute a fundraising adjustment.
+    finance["usable"] = finance.finance_observation_status.isin(
+        ["observed_positive", "observed_noncash_only", "observed_zero"]
+    )
     values = finance.pivot_table(
         index=["chamber", "district"], columns="party", values="fundraising_total", aggfunc="first"
     )
@@ -644,6 +650,20 @@ def prospective_panel() -> pd.DataFrame:
     )
     out["polling_federal_margin"] = out.uniform_poll_adjusted_dem_margin
     out["abs_polling_federal_margin"] = out.polling_federal_margin.abs()
+    if not IDEOLOGY_2026.exists():
+        raise FileNotFoundError(
+            "Build the prospective ideology audit first: "
+            "python scripts/build_2026_forecast_ideology_features.py"
+        )
+    ideology = pd.read_csv(IDEOLOGY_2026, low_memory=False)
+    ideology = ideology[
+        ideology.dem_candidate.notna() & ideology.rep_candidate.notna()
+    ].copy()
+    out = out.merge(ideology, on=["chamber", "district"], how="left", validate="one_to_one")
+    out["ideology_forecast_applied"] = False
+    out["ideology_forecast_exclusion_reason"] = (
+        "descriptive_only_selection_biased_no_comparable_forward_validation"
+    )
     return out.sort_values(["chamber", "district"]).reset_index(drop=True)
 
 
@@ -917,7 +937,7 @@ def write_methodology(
         "",
         "The primary experimental baseline is the 2024 presidential district margin plus the current national generic-ballot swing. Parallel scenarios use raw fundraising, a cross-cycle structural residual, and a residual normalized within each election cycle using only contemporaneously observable covariates. Sensitivities show 75%-shrunk candidate adjustments and the existing demographic-transfer polling baseline. Models are refit on both 2018 and 2022 after the forward test.",
         "",
-        f"Explicit FCPA records are complete for {int(finance_complete)}/48 currently contested Democratic-versus-Republican races. Complete races receive the combined lag, incumbency, and fundraising adjustment. The remaining races receive the separately fitted lag-plus-incumbency adjustment and are flagged `finance_model_applied = false`.",
+        f"Cutoff-specific official Alabama committee summaries are complete for {int(finance_complete)}/48 currently contested Democratic-versus-Republican races. Complete races receive the combined lag, incumbency, and fundraising adjustment. The remaining races receive the separately fitted lag-plus-incumbency adjustment and are flagged `finance_model_applied = false`.",
         "",
         f"Win probabilities use the already validated Student-t link with {PROBABILITY_DF:.0f} degrees of freedom and a {PROBABILITY_SCALE:.2f}-point scale. This experiment changes predicted margins, not the probability calibration.",
         "",
@@ -1026,7 +1046,7 @@ def main() -> None:
     data_inputs = [
         FINANCE_PANEL, FINANCE_CANDIDATES, CANONICAL_CANDIDATES, IDENTITY_CROSSWALK,
         RAW_POLLS, SILVER_RATINGS, ROSTER, INCUMBENCY_2026, POLL_BASELINE_2026,
-        CURRENT_ENVIRONMENT,
+        CURRENT_ENVIRONMENT, IDEOLOGY_2026,
     ]
     manifest = {
         "schema_version": 1,

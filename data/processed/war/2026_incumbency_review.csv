@@ -1,92 +1,60 @@
-cycle,chamber,district,party,candidate,incumbent,prior_winner_match,prior_winner_match_score,incumbent_wikipedia,incumbency_source
-2026,house,2,R,Ben Harrison,True,,0.4,True,wikipedia_annotation
-2026,house,3,R,Kerry Bubba Underwood,True,,0.3448275862068966,True,wikipedia_annotation
-2026,house,4,R,Parker Duncan Moore,True,,0.37037037037037035,True,wikipedia_annotation
-2026,house,5,R,Danny F. Crawford,True,,0.3333333333333333,True,wikipedia_annotation
-2026,house,6,R,Andy Whitt,True,,0.4444444444444444,True,wikipedia_annotation
-2026,house,7,R,Ernie Yarbrough,True,,0.43478260869565216,True,wikipedia_annotation
-2026,house,9,R,Scott Stadthagen,True,,0.4166666666666667,True,wikipedia_annotation
-2026,house,10,D,Marilyn Lands,True,,0.38095238095238093,True,wikipedia_annotation
-2026,house,11,R,Heath Allbright,True,,0.34782608695652173,True,wikipedia_annotation
-2026,house,12,R,Cindy Myrex,True,,0.3157894736842105,True,wikipedia_annotation
-2026,house,14,R,Tim R.Wadsworth,True,,0.43478260869565216,True,wikipedia_annotation
-2026,house,15,R,Leigh Hulsey,True,,0.5,True,wikipedia_annotation
-2026,house,16,R,Bryan Brinyark,True,,0.36363636363636365,True,wikipedia_annotation
-2026,house,18,R,Jamie Kiel,True,,0.4444444444444444,True,wikipedia_annotation
-2026,house,19,D,Laura Hall,True,,0.5555555555555556,True,wikipedia_annotation
-2026,house,20,R,James Lomax,True,,0.5263157894736842,True,wikipedia_annotation
-2026,house,21,R,Rex Reynolds,True,,0.4,True,wikipedia_annotation
-2026,house,22,R,Ritchie Whorton,True,,0.34782608695652173,True,wikipedia_annotation
-2026,house,23,R,Mike Kirkland,True,,0.38095238095238093,True,wikipedia_annotation
-2026,house,24,R,Nathaniel Ledbetter,True,,0.37037037037037035,True,wikipedia_annotation
-2026,house,25,R,Phillip K. Rigsby,True,,0.4166666666666667,True,wikipedia_annotation
-2026,house,26,R,Brock Colvin,True,,0.4,True,wikipedia_annotation
-2026,house,27,R,Jeana Ross,True,,0.3333333333333333,True,wikipedia_annotation
-2026,house,28,R,Mack N Butler,True,,0.38095238095238093,True,wikipedia_annotation
-2026,house,29,R,Mark A. Gidley,True,,0.38095238095238093,True,wikipedia_annotation
-2026,house,30,R,Craig Lipscomb,True,,0.36363636363636365,True,wikipedia_annotation
-2026,house,31,R,Troy B.Stubbs,True,,0.38095238095238093,True,wikipedia_annotation
-2026,house,33,R,Ben Robbins,True,,0.42105263157894735,True,wikipedia_annotation
-2026,house,34,R,David Standridge,True,,0.3333333333333333,True,wikipedia_annotation
-2026,house,35,R,Steve Hurst,True,,0.5263157894736842,True,wikipedia_annotation
-2026,house,36,R,Randy Wood,True,,0.4444444444444444,True,wikipedia_annotation
-2026,house,38,R,Kristin Nelson,True,,0.36363636363636365,True,wikipedia_annotation
-2026,house,39,R,Ginny Shaver,True,,0.5,True,wikipedia_annotation
-2026,house,40,R,ChadRobertson,True,,0.2857142857142857,True,wikipedia_annotation
-2026,house,41,R,Corley Ellis,True,,0.4,True,wikipedia_annotation
-2026,house,42,R,Van Smith,True,,0.47058823529411764,True,wikipedia_annotation
-2026,house,43,R,Arnold Mooney,True,,0.47619047619047616,True,wikipedia_annotation
-2026,house,44,R,Danny Garrett,True,,0.38095238095238093,True,wikipedia_annotation
-2026,house,45,R,Susan DuBose,True,,0.5,True,wikipedia_annotation
-2026,house,46,R,David L. Faulkner,True,,0.4166666666666667,True,wikipedia_annotation
-2026,house,47,R,MikeShaw,True,,0.375,True,wikipedia_annotation
-2026,house,49,R,Russell Bedsole,True,,0.5217391304347826,True,wikipedia_annotation
-2026,house,51,R,Allen Treadaway,True,,0.43478260869565216,True,wikipedia_annotation
-2026,house,53,D,Anthony Daniels,True,,0.34782608695652173,True,wikipedia_annotation
-2026,house,54,D,Neil Rafferty,True,,0.47619047619047616,True,wikipedia_annotation
-2026,house,55,D,Travis Hendrix,True,,0.36363636363636365,True,wikipedia_annotation
-2026,house,56,D,Ontario J Tillman,True,,0.32,True,wikipedia_annotation
-2026,house,57,D,Patrick Sellers,True,,0.34782608695652173,True,wikipedia_annotation
-2026,house,58,D,Rolanda Hollis,True,,0.45454545454545453,True,wikipedia_annotation
-2026,house,59,D,Mary Moore,True,,0.4444444444444444,True,wikipedia_annotation
-2026,house,61,R,Ron Bolton,True,,0.4444444444444444,True,wikipedia_annotation
-2026,house,62,R,Bill Lamb,True,,0.5882352941176471,True,wikipedia_annotation
-2026,house,63,R,Norman Crow,True,,0.42105263157894735,True,wikipedia_annotation
-2026,house,64,R,Donna Givens,True,,0.4,True,wikipedia_annotation
-2026,house,66,R,Alan Baker,True,,0.5555555555555556,True,wikipedia_annotation
-2026,house,67,D,Prince Chestnut,True,,0.34782608695652173,True,wikipedia_annotation
-2026,house,68,D,Thomas E. Action Jackson,True,,0.3225806451612903,True,wikipedia_annotation
-2026,house,69,D,Kelvin J Lawrence,True,,0.4,True,wikipedia_annotation
-2026,house,70,D,Christopher John England,True,,0.3125,True,wikipedia_annotation
-2026,house,71,D,"Artis ""A.J."" McCampbell ",True,,0.35714285714285715,True,wikipedia_annotation
-2026,house,72,D,Curtis L Travis,True,,0.5217391304347826,True,wikipedia_annotation
-2026,house,73,R,Kenneth Paschal,True,,0.34782608695652173,True,wikipedia_annotation
-2026,house,75,R,Reed Ingram,True,,0.42105263157894735,True,wikipedia_annotation
-2026,house,76,D,Patrice Penni McClammy,True,,0.26666666666666666,True,wikipedia_annotation
-2026,house,77,D,TaShinaMorris,True,,0.38095238095238093,True,wikipedia_annotation
-2026,house,78,D,Kenyatte Hassell,True,,0.3333333333333333,True,wikipedia_annotation
-2026,house,79,R,Joe Lovvorn,True,,0.42105263157894735,True,wikipedia_annotation
-2026,house,80,R,Chris Blackshear,True,,0.3333333333333333,True,wikipedia_annotation
-2026,house,81,R,Ed Oliver,True,,0.47058823529411764,True,wikipedia_annotation
-2026,house,83,D,Jeremy A. Gray,True,,0.38095238095238093,True,wikipedia_annotation
-2026,house,84,D,Berry Forte,True,,0.42105263157894735,True,wikipedia_annotation
-2026,house,85,R,Rick Rehm,True,,0.47058823529411764,True,wikipedia_annotation
-2026,house,86,R,Paul Lee,True,,0.625,True,wikipedia_annotation
-2026,house,87,R,Jeff Sorrells,True,,0.47619047619047616,True,wikipedia_annotation
-2026,house,88,R,Jerry Starnes,True,,0.38095238095238093,True,wikipedia_annotation
-2026,house,89,R,MarcusB.Paramore,True,,0.4166666666666667,True,wikipedia_annotation
-2026,house,90,R,Chris Sells,True,,0.5263157894736842,True,wikipedia_annotation
-2026,house,92,R,MatthewHammett,True,,0.2727272727272727,True,wikipedia_annotation
-2026,house,93,R,Steve Clouse,True,,0.5,True,wikipedia_annotation
-2026,house,94,R,Jennifer Fidler,True,,0.34782608695652173,True,wikipedia_annotation
-2026,house,97,D,Adline C. Clarke,True,,0.43478260869565216,True,wikipedia_annotation
-2026,house,98,D,"Napoleon Bracy, Jr.",True,,0.45454545454545453,True,wikipedia_annotation
-2026,house,99,D,Sam Jones,True,,0.5882352941176471,True,wikipedia_annotation
-2026,house,100,R,MarkShirey,True,,0.4444444444444444,True,wikipedia_annotation
-2026,house,101,R,Chris Pringle,True,,0.5714285714285714,True,wikipedia_annotation
-2026,house,102,R,Shane Stringer,True,,0.5454545454545454,True,wikipedia_annotation
-2026,house,103,D,Barbara Drummond,True,,0.4166666666666667,True,wikipedia_annotation
-2026,house,104,R,Margie Wilcox,True,,0.38095238095238093,True,wikipedia_annotation
-2026,house,105,R,Chip Brown,True,,0.4444444444444444,True,wikipedia_annotation
-2026,senate,5,R,Matt Woods,True,,0.3333333333333333,True,wikipedia_annotation
-2026,senate,25,R,Will Barfoot,True,,0.4,False,manual_override:verified_current_incumbent
+cycle,chamber,district,party,candidate,incumbent,prior_winner_match,prior_winner_match_score,prior_winner_candidate_id,prior_winner_district,prior_winner_name_source,prior_winner_match_scope,incumbent_wikipedia,incumbency_source
+2026,house,3,R,Kerry Bubba Underwood,True,,0.8333333333333334,,,,unmatched,True,wikipedia_annotation
+2026,house,4,R,Parker Duncan Moore,True,,0.7741935483870968,,,,unmatched,True,wikipedia_annotation
+2026,house,5,R,Danny F. Crawford,True,Danny Crawford,0.9333333333333333,AL-2022-house-5-R-GSL005RCRA,5.0,verified_ballotpedia_election_crosswalk,same_district_party,True,2022_winner_match+wikipedia_annotation
+2026,house,10,D,Marilyn Lands,True,,0.5,,,,unmatched,True,wikipedia_annotation
+2026,house,11,R,Heath Allbright,True,,0.41379310344827586,,,,unmatched,True,wikipedia_annotation
+2026,house,12,R,Cindy Myrex,True,,0.43478260869565216,,,,unmatched,True,wikipedia_annotation
+2026,house,14,R,Tim R.Wadsworth,True,Tim Wadsworth,0.9285714285714286,AL-2022-house-14-R-GSL014RWAD,14.0,verified_ballotpedia_election_crosswalk,same_district_party,True,2022_winner_match+wikipedia_annotation
+2026,house,16,R,Bryan Brinyark,True,,0.5,,,,unmatched,True,wikipedia_annotation
+2026,house,25,R,Phillip K. Rigsby,True,Phillip Rigsby,0.9333333333333333,AL-2022-house-25-R-GSL025RRIG,25.0,verified_ballotpedia_election_crosswalk,same_district_party,True,2022_winner_match+wikipedia_annotation
+2026,house,27,R,Jeana Ross,True,,0.5714285714285714,,,,unmatched,True,wikipedia_annotation
+2026,house,28,R,Mack N Butler,True,Mack Butler,0.9166666666666666,AL-2022-house-28-R-GSL028RBUT,28.0,verified_ballotpedia_election_crosswalk,same_district_party,True,2022_winner_match+wikipedia_annotation
+2026,house,29,R,Mark A. Gidley,True,Mark Gidley,0.9166666666666666,AL-2022-house-29-R-GSL029RGID,29.0,verified_ballotpedia_election_crosswalk,same_district_party,True,2022_winner_match+wikipedia_annotation
+2026,house,31,R,Troy B.Stubbs,True,Troy Stubbs,0.9166666666666666,AL-2022-house-31-R-GSL031RSTU,31.0,verified_ballotpedia_election_crosswalk,same_district_party,True,2022_winner_match+wikipedia_annotation
+2026,house,38,R,Kristin Nelson,True,,0.56,,,,unmatched,True,wikipedia_annotation
+2026,house,46,R,David L. Faulkner,True,David Faulkner,0.9333333333333333,AL-2022-house-46-R-GSL046RFAU,46.0,verified_ballotpedia_election_crosswalk,same_district_party,True,2022_winner_match+wikipedia_annotation
+2026,house,47,R,MikeShaw,True,Mike Shaw,0.9411764705882353,AL-2022-house-47-R-GSL047RSHA,47.0,verified_ballotpedia_election_crosswalk,same_district_party,True,2022_winner_match+wikipedia_annotation
+2026,house,55,D,Travis Hendrix,True,,0.4444444444444444,,,,unmatched,True,wikipedia_annotation
+2026,house,56,D,Ontario J Tillman,True,Ontario Tillman,0.9375,AL-2022-house-56-D-GSL056DTIL,56.0,verified_ballotpedia_election_crosswalk,same_district_party,True,2022_winner_match+wikipedia_annotation
+2026,house,63,R,Norman Crow,True,,0.48,,,,unmatched,True,wikipedia_annotation
+2026,house,68,D,Thomas E. Action Jackson,True,,0.7567567567567568,,,,unmatched,True,wikipedia_annotation
+2026,house,69,D,Kelvin J Lawrence,True,Kelvin Lawrence,0.9375,AL-2022-house-69-D-GSL069DLAW,69.0,verified_ballotpedia_election_crosswalk,same_district_party,True,2022_winner_match+wikipedia_annotation
+2026,house,70,D,Christopher John England,True,Christopher England,0.8837209302325582,AL-2022-house-70-D-GSL070DENG,70.0,legislative_prior_service_district_party,same_district_party,True,2022_winner_match+wikipedia_annotation
+2026,house,71,D,"Artis ""A.J."" McCampbell ",True,Artis McCampbell,0.8888888888888888,AL-2022-house-71-D-GSL071DMCC,71.0,legislative_prior_service_district_party,same_district_party,True,2022_winner_match+wikipedia_annotation
+2026,house,72,D,Curtis L Travis,True,Curtis Travis,0.9285714285714286,AL-2022-house-72-D-GSL072DTRA,72.0,verified_ballotpedia_election_crosswalk,same_district_party,True,2022_winner_match+wikipedia_annotation
+2026,house,76,D,Patrice Penni McClammy,True,,0.8421052631578947,,,,unmatched,True,wikipedia_annotation
+2026,house,82,D,Pebblin W. Warren,True,Pebblin Warren,0.9333333333333333,AL-2022-house-82-D-GSL082DWAR,82.0,verified_ballotpedia_election_crosswalk,same_district_party,False,2022_winner_match
+2026,house,83,D,Jeremy A. Gray,True,Jeremy Gray,0.9166666666666666,AL-2022-house-83-D-GSL083DGRA,83.0,verified_ballotpedia_election_crosswalk,same_district_party,True,2022_winner_match+wikipedia_annotation
+2026,house,95,R,Frances Holk-Jones,True,Frances Holk-Jones,1.0,AL-2022-house-95-R-GSL095RHOL,95.0,verified_ballotpedia_election_crosswalk,same_district_party,False,2022_winner_match
+2026,house,97,D,Adline C. Clarke,True,Adline Clarke,0.9285714285714286,AL-2022-house-97-D-GSL097DCLA,97.0,verified_ballotpedia_election_crosswalk,same_district_party,True,2022_winner_match+wikipedia_annotation
+2026,senate,1,R,Tim Melson,True,Tim Melson,1.0,AL-2022-senate-1-R-GSU01RMEL,1.0,canonical_election_ballot,same_district_party,False,2022_winner_match
+2026,senate,3,R,Arthur Orr,True,Arthur Orr,1.0,AL-2022-senate-3-R-GSU03RORR,3.0,canonical_election_ballot,same_district_party,False,2022_winner_match
+2026,senate,4,R,Garlan Gudger,True,Garlan Gudger,1.0,AL-2022-senate-4-R-GSU04RGUD,4.0,canonical_election_ballot,same_district_party,False,2022_winner_match
+2026,senate,5,R,Matt Woods,True,,0.4,,,,unmatched,True,wikipedia_annotation
+2026,senate,6,R,Larry Stutts,True,Larry Stutts,1.0,AL-2022-senate-6-R-GSU06RSTU,6.0,canonical_election_ballot,same_district_party,False,2022_winner_match
+2026,senate,7,R,Sam Givhan,True,Sam Givhan,1.0,AL-2022-senate-7-R-GSU07RGIV,7.0,manual_verified_candidate_alias,same_district_party,False,2022_winner_match
+2026,senate,8,R,Steve Livingston,True,Steve Livingston,1.0,AL-2022-senate-8-R-GSU08RLIV,8.0,canonical_election_ballot,same_district_party,False,2022_winner_match
+2026,senate,10,R,Andrew Jones,True,Andrew Jones,1.0,AL-2022-senate-10-R-GSU10RJON,10.0,canonical_election_ballot,same_district_party,False,2022_winner_match
+2026,senate,11,R,Lance Bell,True,Lance Bell,1.0,AL-2022-senate-11-R-GSU11RBEL,11.0,canonical_election_ballot,same_district_party,False,2022_winner_match
+2026,senate,12,R,Keith Kelley,True,Keith Kelley,1.0,AL-2022-senate-12-R-GSU12RKEL,12.0,manual_verified_candidate_alias,same_district_party,False,2022_winner_match
+2026,senate,13,R,Randy Price,True,Randy Price,1.0,AL-2022-senate-13-R-GSU13RPRI,13.0,canonical_election_ballot,same_district_party,False,2022_winner_match
+2026,senate,14,R,April Weaver,True,April Weaver,1.0,AL-2022-senate-14-R-GSU14RWEA,14.0,canonical_election_ballot,same_district_party,False,2022_winner_match
+2026,senate,16,R,"J.T.""Jabo""Waggoner",True,"J. T. ""Jabo"" Waggoner",1.0,AL-2022-senate-16-R-GSU16RWAG,16.0,canonical_election_ballot,same_district_party,False,2022_winner_match
+2026,senate,17,R,Shay Shelnutt,True,Shay Shelnutt,1.0,AL-2022-senate-17-R-GSU17RSHE,17.0,canonical_election_ballot,same_district_party,False,2022_winner_match
+2026,senate,18,D,Rodger M. Smitherman ,True,Rodger Smitherman,0.9444444444444444,AL-2022-senate-18-D-GSU18DSMI,18.0,canonical_election_ballot,same_district_party,False,2022_winner_match
+2026,senate,19,D,Merika Coleman,True,Merika Coleman,1.0,AL-2022-senate-19-D-GSU19DCOL,19.0,canonical_election_ballot,same_district_party,False,2022_winner_match
+2026,senate,20,D,Linda Coleman-Madison,True,Linda Coleman-Madison,1.0,AL-2022-senate-20-D-GSU20DCOL,20.0,canonical_election_ballot,same_district_party,False,2022_winner_match
+2026,senate,21,R,Gerald Allen,True,Gerald Allen,1.0,AL-2022-senate-21-R-GSU21RALL,21.0,manual_verified_candidate_alias,same_district_party,False,2022_winner_match
+2026,senate,23,D,Robert Stewart,True,Robert L. Stewart,0.9333333333333333,AL-2022-senate-23-D-GSU23DSTE,23.0,manual_verified_candidate_alias,same_district_party,False,2022_winner_match
+2026,senate,24,D,Bobby Singleton,True,Bobby Singleton,1.0,AL-2022-senate-24-D-GSU24DSIN,24.0,canonical_election_ballot,same_district_party,False,2022_winner_match
+2026,senate,25,R,Will Barfoot,True,Will Barfoot,1.0,AL-2022-senate-25-R-GSU25RBAR,25.0,canonical_election_ballot,same_district_party,False,manual_override:verified_current_incumbent
+2026,senate,26,D,Kirk Hatcher,True,Kirk Hatcher,1.0,AL-2022-senate-26-D-GSU26DHAT,26.0,canonical_election_ballot,same_district_party,False,2022_winner_match
+2026,senate,27,R,Jay Hovey,True,Jay Hovey,1.0,AL-2022-senate-27-R-GSU27RHOV,27.0,manual_verified_candidate_alias,same_district_party,False,2022_winner_match
+2026,senate,28,D,Billy Beasley,True,Billy Beasley,1.0,AL-2022-senate-28-D-GSU28DBEA,28.0,canonical_election_ballot,same_district_party,False,2022_winner_match
+2026,senate,29,R,Donnie Chesteen,True,Donnie Chesteen,1.0,AL-2022-senate-29-R-GSU29RCHE,29.0,manual_verified_candidate_alias,same_district_party,False,2022_winner_match
+2026,senate,30,R,"Clyde Chambliss, Jr.",True,Clyde Chambliss Jr.,1.0,AL-2022-senate-30-R-GSU30RCHA,30.0,canonical_election_ballot,same_district_party,False,2022_winner_match
+2026,senate,31,R,Josh Carnley,True,Josh Carnley,1.0,AL-2022-senate-31-R-GSU31RCAR,31.0,canonical_election_ballot,same_district_party,False,2022_winner_match
+2026,senate,32,R,Chris Elliott,True,Chris Elliott,1.0,AL-2022-senate-32-R-GSU32RELL,32.0,canonical_election_ballot,same_district_party,False,2022_winner_match
+2026,senate,33,D,Vivian Davis Figures,True,Vivian Davis Figures,1.0,AL-2022-senate-33-D-GSU33DFIG,33.0,manual_verified_candidate_alias,same_district_party,False,2022_winner_match
+2026,senate,35,R,David Sessions,True,David Sessions,1.0,AL-2022-senate-35-R-GSU35RSES,35.0,canonical_election_ballot,same_district_party,False,2022_winner_match

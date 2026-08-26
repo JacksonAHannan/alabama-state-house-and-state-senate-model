@@ -55,15 +55,16 @@ def test_public_pages_describe_current_runs() -> None:
     ):
         assert stale not in forecast_method
 
-    assert "Alabama Candidate Margin Overperformance" in cmo
-    assert "CMO measures how far a legislative candidate ran ahead" in cmo
+    assert "Alabama Legislative Wins Above Replacement (WAR)" in cmo
+    assert "WAR is the headline candidate-quality estimate" in cmo
     assert "Historical accuracy" in cmo
     assert "Fundamentals+" not in cmo
     assert "selected same-district ticket" in cmo
     assert "1994" in cmo_method and "2022" in cmo_method
-    assert "Residual candidate quality" in cmo_method
+    assert "What WAR estimates" in cmo_method
+    assert "Wins Above Replacement (WAR)" in cmo_method
     assert "same-cycle federal ticket" in cmo_method
-    assert "pair_differential_only" in cmo_method
+    assert "pair-differential-only" in cmo_method
     assert "Fundamentals+" not in cmo_method
     for stale in (
         "arithmetic is unchanged", "The decomposition is separate from CMO",

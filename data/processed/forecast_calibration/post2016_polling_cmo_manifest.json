@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "experimental_not_promoted",
   "methodology": "post2016_polling_cmo_forecast",
-  "code_commit": "3f355b5c7630fac721b1f651ff22ff77331110c8",
+  "code_commit": "573ccd72a948bb34bb20394a03b2cc6d9e3cffca",
   "training_cycles": [
     2018
   ],
@@ -31,8 +31,8 @@
       "sha256": "12151fa64f67dd6c3f9049da2939936270ca3cfaa517047d6703c636e80665fb"
     },
     {
-      "path": "data/processed/war/fcpa_candidate_cycle_finance.csv",
-      "sha256": "a1ec3ab1759ed8b8154c7559bfbcf5ef1488bbd6162152f9640af7af2438085c"
+      "path": "data/processed/finance/2026_candidate_finance_reconciled.csv",
+      "sha256": "36b131d423f475420df132c1199fd1c41d0ebd251eeaf1531c358d970bbf894d"
     },
     {
       "path": "data/processed/elections/canonical_cmo_candidates.csv",
@@ -40,7 +40,7 @@
     },
     {
       "path": "data/processed/ideology/candidate_legislator_identity_crosswalk.csv",
-      "sha256": "e24f64a6dc5d5194cbb59afaccb785d80d4d30c7835697f47c2c860aaaff16a2"
+      "sha256": "6fa23d496d2c59f6b81c3a7275f53dd1c9bc1127c412e42763d3ebd7662d3769"
     },
     {
       "path": "data/raw/polling/fivethirtyeight_raw_polls.csv",
@@ -56,7 +56,7 @@
     },
     {
       "path": "data/processed/war/2026_candidate_incumbency.csv",
-      "sha256": "74496cffe14803c9e7d33520919a5a81a0dad1c1624897a9bf8f255cf07bbbfa"
+      "sha256": "9aae05a0e0ae8998754dc1ecbcdbae7da925f560f375f9eb32337d1c95cbc3c9"
     },
     {
       "path": "data/processed/war/2026_poll_adjusted_baseline.csv",
@@ -65,12 +65,16 @@
     {
       "path": "data/processed/polling/votehub_silver_bplus_topline_environment.csv",
       "sha256": "7c09eb6e37eb9f8c0c1faa150f8ca355891868047deb4bf351a0dd44c3694994"
+    },
+    {
+      "path": "data/processed/forecast_calibration/2026_race_ideology_features.csv",
+      "sha256": "90adccf8b000b4868f360e74b673a6f8fe450018f89389daacc1146e6b7e3822"
     }
   ],
   "code_inputs": [
     {
       "path": "scripts/run_post2016_polling_cmo_forecast.py",
-      "sha256": "a319155cf7dd4cfc52bb1839b99a7d551cc00c3c7e7fb3b5790363aea22c46bc"
+      "sha256": "4035c98f5ba6c024aa72cf9d4f75bd51de650956874d09ed3638863058b6f07b"
     },
     {
       "path": "scripts/build_historical_silver_generic_ballot.py",
@@ -141,14 +145,14 @@
     {
       "path": "data/processed/forecast_calibration/post2016_polling_cmo_2026_features.csv",
       "rows": 48,
-      "sha256": "4b90d921a3ab0d79c27580f8b889f55eb27ab7f49d9283a67a6aa97af7f2941b"
+      "sha256": "de6ef5172340a025fd11190bac430295d5e9df95a8d0ded36e01d6ac0b37075c"
     },
     {
       "path": "data/processed/forecast_calibration/post2016_polling_cmo_2026_forecast.csv",
       "rows": 432,
-      "sha256": "3ef0555979173fd409d4f14102623fcb3f3a7617ace978076c69c9452d7c90e7"
+      "sha256": "b3408bf0c0b3796f0c221ed27be3da9a856d93c5f75129e219bb8937cbee644b"
     }
   ],
   "promotion_gate": "failed_by_design_insufficient_forward_cycles_and_cutoff_mismatch",
-  "build_id": "30d4e3967a7bbc38700e"
+  "build_id": "03af263d5d3d4c473bdc"
 }

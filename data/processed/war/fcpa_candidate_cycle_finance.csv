@@ -136,7 +136,6 @@ cycle,chamber,district,party,candidate,pcc_records,pcc_records_with_activity,cas
 2014,house,101,R,Chris Pringle,1,1,172993.45,1116.52,7337.54,149572.41,1,174109.97,single_active_pcc_record
 2014,house,102,R,Jack Williams,1,1,101668.77,16000.0,11692.42,87414.5,1,117668.77,single_active_pcc_record
 2014,house,103,D,Barbara A. Drummond,1,1,83571.33,0.0,3466.51,77675.23,1,83571.33,single_active_pcc_record
-2014,house,103,R,Ralph Carmichael,1,0,0.0,0.0,0.0,0.0,0,0.0,committee_found_no_cycle_activity
 2014,house,104,R,Margie Wilcox,1,1,41850.0,19.78,55.8,21922.66,2,41869.78,single_active_pcc_record
 2014,house,105,R,David Sessions,1,1,46125.0,0.0,0.0,6359.07,2,46125.0,single_active_pcc_record
 2014,senate,1,D,Mike Curtis,1,1,53600.0,0.0,185000.0,54726.69,1,53600.0,single_active_pcc_record
@@ -162,6 +161,7 @@ cycle,chamber,district,party,candidate,pcc_records,pcc_records_with_activity,cas
 2014,senate,13,D,Darrell Turner,2,1,190643.94,0.0,31380.35,190604.12,2,190643.94,single_active_pcc_record
 2014,senate,13,R,Gerald Dial,2,1,880776.0,4100.0,41887.56,814136.87,2,884876.0,single_active_pcc_record
 2014,senate,14,R,Cam Ward,1,1,350141.78,10000.0,16681.07,142082.2,2,360141.78,single_active_pcc_record
+2014,senate,16,D,Cindy Bell,1,1,37866.33,0.0,0.0,37582.65,1,37866.33,single_active_pcc_record
 2014,senate,16,R,"J.T. ""Jabo"" Waggoner",1,1,388519.89,0.0,0.0,81252.19,2,388519.89,single_active_pcc_record
 2014,senate,17,R,Shay Shelnutt,1,1,349575.56,140000.0,16801.92,422697.65,1,489575.56,single_active_pcc_record
 2014,senate,18,D,Rodger M. Smitherman,1,1,235600.0,1500.0,0.0,93965.14,2,237100.0,single_active_pcc_record
@@ -367,6 +367,7 @@ cycle,chamber,district,party,candidate,pcc_records,pcc_records_with_activity,cas
 2018,senate,24,D,Bobby Singleton,1,1,214450.0,0.0,0.0,118107.29,2,214450.0,single_active_pcc_record
 2018,senate,25,D,David A. Sadler,1,1,9310.0,2925.0,0.0,12921.44,1,12235.0,single_active_pcc_record
 2018,senate,25,R,Will Barfoot,1,1,509165.55000000005,62.5,13819.72,334056.84,2,509228.05000000005,single_active_pcc_record
+2018,senate,26,D,"David ""Coach"" Burkette",1,1,193952.16,16647.02,4879.98,234429.91999999998,2,210599.18,single_active_pcc_record
 2018,senate,26,R,D. J. Johnson,1,0,0.0,0.0,0.0,0.0,0,0.0,committee_found_no_cycle_activity
 2018,senate,27,D,Nancy Carlton Bendinger,1,1,42329.7,0.0,2968.78,40024.79,1,42329.7,single_active_pcc_record
 2018,senate,27,R,Tom Whatley,1,1,1002272.0,66187.95,18136.84,1078236.31,2,1068459.95,single_active_pcc_record
@@ -561,7 +562,7 @@ cycle,chamber,district,party,candidate,pcc_records,pcc_records_with_activity,cas
 2026,house,7,R,Ernie Yarbrough,1,1,50635.0,4900.0,0.0,17628.46,1,55535.0,single_active_pcc_record
 2026,house,8,R,Patrick Johnson,1,0,0.0,0.0,0.0,0.0,0,0.0,committee_found_no_cycle_activity
 2026,house,9,R,Scott Stadthagen,1,1,176740.0,0.0,1000.0,26919.6,1,176740.0,single_active_pcc_record
-2026,house,10,D,Marilyn Lands,2,1,135803.0,25308.46,4.01,4155.78,1,161111.46,single_active_pcc_record
+2026,house,10,D,Marilyn Lands,1,1,135803.0,25308.46,4.01,4155.78,1,161111.46,single_active_pcc_record
 2026,house,10,R,Aaron Thomas,1,1,15321.0,2000.0,0.0,775.57,1,17321.0,single_active_pcc_record
 2026,house,11,R,Heath Allbright,1,1,154001.57,30000.0,11974.23,143526.35,1,184001.57,single_active_pcc_record
 2026,house,12,R,Cindy Myrex,1,1,217908.05,50449.39,51120.97,223738.84,1,268357.44,single_active_pcc_record
@@ -571,7 +572,7 @@ cycle,chamber,district,party,candidate,pcc_records,pcc_records_with_activity,cas
 2026,house,15,R,Leigh Hulsey,1,1,98796.4,0.0,1352.61,9905.43,1,98796.4,single_active_pcc_record
 2026,house,16,D,Christian Martin,1,0,0.0,0.0,0.0,0.0,0,0.0,committee_found_no_cycle_activity
 2026,house,16,R,Bryan Brinyark,1,1,63250.0,0.0,0.0,10765.02,1,63250.0,single_active_pcc_record
-2026,house,17,R,Phil Segraves,2,1,14300.0,0.0,0.0,0.0,1,14300.0,single_active_pcc_record
+2026,house,17,R,Phil Segraves,1,1,14300.0,0.0,0.0,0.0,1,14300.0,single_active_pcc_record
 2026,house,18,R,Jamie Kiel,1,1,54250.0,0.0,380.0,12281.87,1,54250.0,single_active_pcc_record
 2026,house,19,D,Laura Hall,1,1,45250.0,0.0,0.0,16238.35,1,45250.0,single_active_pcc_record
 2026,house,19,R,Donald Barnes,1,0,0.0,0.0,0.0,0.0,0,0.0,committee_found_no_cycle_activity
@@ -579,7 +580,7 @@ cycle,chamber,district,party,candidate,pcc_records,pcc_records_with_activity,cas
 2026,house,20,R,James Lomax,1,1,104300.0,0.0,963.67,6582.95,1,104300.0,single_active_pcc_record
 2026,house,21,D,Forrest Satterfield,1,0,0.0,0.0,0.0,0.0,0,0.0,committee_found_no_cycle_activity
 2026,house,21,R,Rex Reynolds,1,1,206250.0,0.0,4657.9,8541.01,1,206250.0,single_active_pcc_record
-2026,house,22,R,Ritchie Whorton,2,1,31050.0,7759.7,0.0,10659.65,1,38809.7,single_active_pcc_record
+2026,house,22,R,Ritchie Whorton,1,1,31050.0,7759.7,0.0,10659.65,1,38809.7,single_active_pcc_record
 2026,house,23,R,Mike Kirkland,1,1,53500.0,0.0,0.0,21505.51,1,53500.0,single_active_pcc_record
 2026,house,24,R,Nathaniel Ledbetter,1,1,439750.0,0.0,0.0,41245.06,1,439750.0,single_active_pcc_record
 2026,house,25,D,Allison T Montgomery,1,0,0.0,0.0,0.0,0.0,0,0.0,committee_found_no_cycle_activity
@@ -602,30 +603,31 @@ cycle,chamber,district,party,candidate,pcc_records,pcc_records_with_activity,cas
 2026,house,38,D,Hazel Floyd,1,1,2533.74,0.0,585.23,989.32,1,2533.74,single_active_pcc_record
 2026,house,38,R,Kristin Nelson,1,1,145635.0,250.0,691.1,93306.56,1,145885.0,single_active_pcc_record
 2026,house,39,R,Ginny Shaver,1,1,57050.0,621.6,380.0,14142.01,1,57671.6,single_active_pcc_record
+2026,house,40,D,Pam Howard,1,1,3130.0,0.0,1000.0,976.99,1,3130.0,single_active_pcc_record
 2026,house,40,R,ChadRobertson,1,1,96675.0,0.0,0.0,8385.95,1,96675.0,single_active_pcc_record
 2026,house,41,R,Corley Ellis,1,1,119250.0,0.0,1000.0,16296.53,1,119250.0,single_active_pcc_record
-2026,house,42,R,Van Smith,2,1,38500.0,740.0,0.0,11950.38,1,39240.0,single_active_pcc_record
+2026,house,42,R,Van Smith,1,1,38500.0,740.0,0.0,11950.38,1,39240.0,single_active_pcc_record
 2026,house,43,D,TaylorCook,1,1,100.0,705.16,0.0,679.47,1,805.16,single_active_pcc_record
 2026,house,43,R,Arnold Mooney,1,1,141326.0,14445.3,0.0,33328.14,1,155771.3,single_active_pcc_record
 2026,house,44,R,Danny Garrett,1,1,179402.56,0.0,857.11,28719.33,1,179402.56,single_active_pcc_record
 2026,house,45,D,Toni Kornegay Vaughn,1,1,5300.0,0.0,476.0,312.05,1,5300.0,single_active_pcc_record
 2026,house,45,R,Susan DuBose,1,1,91307.23,0.0,760.0,30056.82,1,91307.23,single_active_pcc_record
 2026,house,46,R,David L. Faulkner,1,1,99250.0,0.0,857.11,9996.03,1,99250.0,single_active_pcc_record
-2026,house,47,D,Jim Toomey,3,0,0.0,0.0,0.0,0.0,0,0.0,committee_found_no_cycle_activity
+2026,house,47,D,Jim Toomey,1,0,0.0,0.0,0.0,0.0,0,0.0,committee_found_no_cycle_activity
 2026,house,47,R,MikeShaw,1,1,103531.02,27244.22,1880.0,5301.75,1,130775.24,single_active_pcc_record
 2026,house,48,R,Lloyd Peeples,1,1,26697.0,250000.0,0.0,99543.01,1,276697.0,single_active_pcc_record
 2026,house,49,R,Russell Bedsole,1,1,54000.0,0.0,0.0,3621.56,1,54000.0,single_active_pcc_record
 2026,house,50,D,Alan Thomas,1,0,0.0,0.0,0.0,0.0,0,0.0,committee_found_no_cycle_activity
 2026,house,50,R,Bill Morris,1,1,18400.0,0.0,0.0,3672.28,1,18400.0,single_active_pcc_record
 2026,house,51,R,Allen Treadaway,1,1,30000.0,0.0,0.0,1184.95,1,30000.0,single_active_pcc_record
-2026,house,52,D,GiGi Hayes,2,0,0.0,0.0,0.0,0.0,0,0.0,committee_found_no_cycle_activity
+2026,house,52,D,GiGi Hayes,1,0,0.0,0.0,0.0,0.0,0,0.0,committee_found_no_cycle_activity
 2026,house,53,D,Anthony Daniels,1,1,127774.28,0.0,4.01,31031.98,1,127774.28,single_active_pcc_record
 2026,house,54,D,Neil Rafferty,1,1,74620.0,0.0,0.0,5814.98,1,74620.0,single_active_pcc_record
-2026,house,55,D,Travis Hendrix,2,1,27000.0,0.0,0.0,1950.82,1,27000.0,single_active_pcc_record
+2026,house,55,D,Travis Hendrix,1,1,27000.0,0.0,0.0,1950.82,1,27000.0,single_active_pcc_record
 2026,house,56,D,Ontario J Tillman,1,1,44250.0,0.0,0.0,8176.31,1,44250.0,single_active_pcc_record
 2026,house,57,D,Patrick Sellers,1,1,55200.0,66.45,0.0,35645.11,1,55266.45,single_active_pcc_record
 2026,house,58,D,Rolanda Hollis,1,1,41500.0,0.0,0.0,20108.94,1,41500.0,single_active_pcc_record
-2026,house,59,D,Mary Moore,2,1,19000.0,0.0,0.0,575.0,1,19000.0,single_active_pcc_record
+2026,house,59,D,Mary Moore,1,1,19000.0,0.0,0.0,575.0,1,19000.0,single_active_pcc_record
 2026,house,60,D,Alicia Escott Lumpkin,1,1,84019.93,0.0,1825.0,12598.29,1,84019.93,single_active_pcc_record
 2026,house,61,R,Ron Bolton,1,1,37500.0,0.0,380.0,7824.39,1,37500.0,single_active_pcc_record
 2026,house,62,R,Bill Lamb,1,1,18000.0,0.0,0.0,11600.0,1,18000.0,single_active_pcc_record
@@ -636,7 +638,7 @@ cycle,chamber,district,party,candidate,pcc_records,pcc_records_with_activity,cas
 2026,house,66,R,Alan Baker,1,1,66000.0,0.0,0.0,9431.11,1,66000.0,single_active_pcc_record
 2026,house,67,D,Prince Chestnut,1,1,24650.0,0.0,1808.84,6895.13,1,24650.0,single_active_pcc_record
 2026,house,68,D,Thomas E. Action Jackson,1,1,17000.0,0.0,4.01,8259.79,1,17000.0,single_active_pcc_record
-2026,house,68,R,Fred Kelley,2,1,5400.0,0.0,0.0,0.0,1,5400.0,single_active_pcc_record
+2026,house,68,R,Fred Kelley,1,1,5400.0,0.0,0.0,0.0,1,5400.0,single_active_pcc_record
 2026,house,69,D,Kelvin J Lawrence,1,1,24000.0,0.0,0.0,17622.67,1,24000.0,single_active_pcc_record
 2026,house,69,R,Josh Pendergrass,1,0,0.0,0.0,0.0,0.0,0,0.0,committee_found_no_cycle_activity
 2026,house,70,D,Christopher John England,1,1,37500.0,0.0,0.0,16545.78,1,37500.0,single_active_pcc_record
@@ -648,23 +650,23 @@ cycle,chamber,district,party,candidate,pcc_records,pcc_records_with_activity,cas
 2026,house,74,R,Alva Lambert,1,0,0.0,0.0,0.0,0.0,0,0.0,committee_found_no_cycle_activity
 2026,house,75,D,Tisha Dickson Nickson,1,0,0.0,0.0,0.0,0.0,0,0.0,committee_found_no_cycle_activity
 2026,house,75,R,Reed Ingram,1,1,97050.0,0.0,0.0,7978.0,1,97050.0,single_active_pcc_record
-2026,house,76,D,Patrice Penni McClammy,2,1,13500.0,0.0,4.01,12421.89,1,13500.0,single_active_pcc_record
+2026,house,76,D,Patrice Penni McClammy,1,1,13500.0,0.0,4.01,12421.89,1,13500.0,single_active_pcc_record
 2026,house,77,D,TaShinaMorris,1,1,29000.0,0.0,4.01,15705.0,1,29000.0,single_active_pcc_record
 2026,house,78,D,Kenyatte Hassell,1,1,25000.0,0.0,0.0,1430.58,1,25000.0,single_active_pcc_record
 2026,house,79,R,Joe Lovvorn,1,1,281965.0,11729.25,125.0,17886.24,1,293694.25,single_active_pcc_record
 2026,house,80,D,Manfred Malone,1,1,0.0,1013.05,0.0,0.0,1,1013.05,single_active_pcc_record
 2026,house,80,R,Chris Blackshear,1,1,125990.0,0.0,1000.0,6764.15,1,125990.0,single_active_pcc_record
-2026,house,81,R,Ed Oliver,2,1,63000.0,0.0,0.0,14124.87,1,63000.0,single_active_pcc_record
+2026,house,81,R,Ed Oliver,1,1,63000.0,0.0,0.0,14124.87,1,63000.0,single_active_pcc_record
 2026,house,82,D,Pebblin W. Warren,1,1,25500.0,0.0,4.01,13104.55,1,25500.0,single_active_pcc_record
 2026,house,82,R,Kinsley Hammons,1,0,0.0,0.0,0.0,0.0,0,0.0,committee_found_no_cycle_activity
 2026,house,83,D,Jeremy A. Gray,1,1,49500.0,0.0,0.0,16026.14,1,49500.0,single_active_pcc_record
-2026,house,84,D,Berry Forte,2,1,10500.0,0.0,0.0,94.0,1,10500.0,single_active_pcc_record
+2026,house,84,D,Berry Forte,1,1,10500.0,0.0,0.0,94.0,1,10500.0,single_active_pcc_record
 2026,house,85,D,Aristotle Onassis Kirkland,1,0,0.0,0.0,0.0,0.0,0,0.0,committee_found_no_cycle_activity
 2026,house,85,R,Rick Rehm,1,1,59693.96,0.0,6455.29,3611.68,1,59693.96,single_active_pcc_record
 2026,house,86,R,Paul Lee,1,1,171300.0,124.47,0.0,19154.07,1,171424.47,single_active_pcc_record
 2026,house,87,R,Jeff Sorrells,1,1,75450.0,0.0,0.0,18949.77,1,75450.0,single_active_pcc_record
 2026,house,88,R,Jerry Starnes,1,1,41600.0,0.0,760.0,4770.05,1,41600.0,single_active_pcc_record
-2026,house,89,R,MarcusB.Paramore,2,1,61200.0,0.0,0.0,19790.0,1,61200.0,single_active_pcc_record
+2026,house,89,R,MarcusB.Paramore,1,1,61200.0,0.0,0.0,19790.0,1,61200.0,single_active_pcc_record
 2026,house,90,R,Chris Sells,1,1,38750.0,0.0,0.0,18865.0,1,38750.0,single_active_pcc_record
 2026,house,91,R,Jody Linton,1,1,28450.0,0.0,0.0,1645.31,1,28450.0,single_active_pcc_record
 2026,house,92,R,MatthewHammett,1,1,36200.0,0.0,0.0,2702.34,1,36200.0,single_active_pcc_record
@@ -694,11 +696,10 @@ cycle,chamber,district,party,candidate,pcc_records,pcc_records_with_activity,cas
 2026,senate,6,D,Bobby Martin,1,1,660.0,0.0,0.0,332.13,1,660.0,single_active_pcc_record
 2026,senate,6,R,Larry Stutts,1,1,139350.0,0.0,490.58,22152.74,1,139350.0,single_active_pcc_record
 2026,senate,7,D,Jared Sluss,1,0,0.0,0.0,0.0,0.0,0,0.0,committee_found_no_cycle_activity
-2026,senate,7,R,Sam Givhan,2,1,249400.0,19308.37,0.0,21082.31,1,268708.37,single_active_pcc_record
+2026,senate,7,R,Sam Givhan,1,1,249400.0,19308.37,0.0,21082.31,1,268708.37,single_active_pcc_record
 2026,senate,8,D,Katie Kramer,1,0,0.0,0.0,0.0,0.0,0,0.0,committee_found_no_cycle_activity
 2026,senate,8,R,Steve Livingston,1,1,239750.0,5385.44,0.0,41722.33,1,245135.44,single_active_pcc_record
 2026,senate,9,R,WesKitchens,1,1,189636.67,51508.31,0.0,4668.93,1,241144.98,single_active_pcc_record
-2026,senate,10,I,Jesse Battles,1,1,31464.17,5000.0,11422.8,22284.93,1,36464.17,single_active_pcc_record
 2026,senate,10,R,Andrew Jones,1,1,274140.0,13659.32,2023.48,50799.55,1,287799.32,single_active_pcc_record
 2026,senate,11,D,Donald J. Mottern,1,1,2529.03,0.0,0.0,0.0,1,2529.03,single_active_pcc_record
 2026,senate,11,R,Lance Bell,1,1,222850.0,0.0,0.0,19096.54,1,222850.0,single_active_pcc_record
@@ -720,15 +721,18 @@ cycle,chamber,district,party,candidate,pcc_records,pcc_records_with_activity,cas
 2026,senate,23,D,Robert Stewart,1,1,62490.0,0.0,0.0,20979.34,1,62490.0,single_active_pcc_record
 2026,senate,23,R,Thayer Bear Havard Spencer,1,0,0.0,0.0,0.0,0.0,0,0.0,committee_found_no_cycle_activity
 2026,senate,24,D,Bobby Singleton,1,1,220250.0,0.0,0.0,32223.38,1,220250.0,single_active_pcc_record
+2026,senate,25,D,Phadra Carson Foster,1,0,0.0,0.0,0.0,0.0,0,0.0,committee_found_no_cycle_activity
+2026,senate,25,R,Will Barfoot,1,1,141950.0,11601.79,0.0,450681.88,1,153551.79,single_active_pcc_record
 2026,senate,26,D,Kirk Hatcher,1,1,34000.0,0.0,0.0,0.0,1,34000.0,single_active_pcc_record
 2026,senate,27,R,Jay Hovey,1,1,238875.0,6517.48,0.0,37324.66,1,245392.48,single_active_pcc_record
+2026,senate,28,D,Billy Beasley,1,1,114750.0,0.0,0.0,13686.1,1,114750.0,single_active_pcc_record
 2026,senate,28,R,Brent Comer,1,0,0.0,0.0,0.0,0.0,0,0.0,committee_found_no_cycle_activity
 2026,senate,29,D,JimmyMcCray,1,0,0.0,0.0,0.0,0.0,0,0.0,committee_found_no_cycle_activity
 2026,senate,29,R,Donnie Chesteen,1,1,255700.0,0.0,0.0,53724.06,1,255700.0,single_active_pcc_record
-2026,senate,30,R,"Clyde Chambliss, Jr.",2,1,130850.98,1476.07,0.0,41867.0,1,132327.05,single_active_pcc_record
+2026,senate,30,R,"Clyde Chambliss, Jr.",1,1,130850.98,1476.07,0.0,41867.0,1,132327.05,single_active_pcc_record
 2026,senate,31,R,Josh Carnley,1,1,186850.0,0.0,0.0,23173.0,1,186850.0,single_active_pcc_record
 2026,senate,32,D,Janet Appleby,1,0,0.0,0.0,0.0,0.0,0,0.0,committee_found_no_cycle_activity
 2026,senate,32,R,Chris Elliott,1,1,333005.0,200.0,2222.9,46045.91,1,333205.0,single_active_pcc_record
 2026,senate,33,D,Vivian Davis Figures,1,1,46000.0,0.0,0.0,6733.45,1,46000.0,single_active_pcc_record
-2026,senate,34,R,Rusty Glover,2,1,68742.04,700.0,4296.61,38754.9,1,69442.04,single_active_pcc_record
+2026,senate,34,R,Rusty Glover,1,1,68742.04,700.0,4296.61,38754.9,1,69442.04,single_active_pcc_record
 2026,senate,35,R,David Sessions,1,1,145350.0,0.0,0.0,76376.85,1,145350.0,single_active_pcc_record
