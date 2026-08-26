@@ -87,8 +87,16 @@ def cluster_labels(profiles: pd.DataFrame, party: str) -> dict[int, str]:
         cultural = profiles[[c for c in profiles if any(x in c for x in
             ("abortion_access", "civil_social_liberty", "gun_access", "criminal_punishment"))]].mean(axis=1)
         traditional = int(cultural.idxmax())
-        return {int(i): ("Traditionalist-populist Democrats" if int(i) == traditional else
-                         "Progressive-modern Democrats") for i in profiles.index}
+        progressive = int(cultural.idxmin())
+        labels = {
+            traditional: "Traditionalist-populist Democrats",
+            progressive: "Progressive-modern Democrats",
+        }
+        middle = [int(i) for i in cultural.sort_values().index if int(i) not in labels]
+        for position, cluster_id in enumerate(middle, start=1):
+            labels[cluster_id] = ("Bridge-coalition Democrats" if len(middle) == 1
+                                  else f"Bridge-coalition Democrats {position}")
+        return labels
     overall = profiles.mean(axis=1)
     moderate = int(overall.idxmin())
     remaining = profiles.drop(index=moderate)

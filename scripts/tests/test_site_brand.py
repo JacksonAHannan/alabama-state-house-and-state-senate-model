@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from scripts.site_brand import apply_theme, script_blocks, theme_css
+from scripts.site_brand import apply_theme, methods_landing, script_blocks, theme_css
 
 
 def test_theme_embeds_portrait_and_uses_conventional_fonts() -> None:
@@ -77,3 +77,11 @@ def test_white_interface_text_has_oxblood_backing() -> None:
     assert ".racebox-sub{background:#f5e9e8!important;color:var(--brand-ink)!important}" in css
     assert ".badge.supported{color:#285642!important}" in css
     assert ".cell .n{color:var(--brand-ink)!important;background:var(--brand-panel-strong)!important" in css
+
+
+def test_methods_landing_uses_public_war_name() -> None:
+    html = methods_landing()
+    assert "WAR (Wins Above Replacement)" in html
+    assert "WAR comparisons" in html
+    assert "Candidate Quality Index" not in html
+    assert "CQI" not in html

@@ -114,10 +114,49 @@ def test_hd32_2022_uses_direct_cmo_v6_score() -> None:
 def test_public_ideology_and_caucus_routes_are_merged() -> None:
     ideology = (DOCS / "ideology-performance.html").read_text(encoding="utf-8")
     caucus = (DOCS / "caucuses.html").read_text(encoding="utf-8")
-    assert "Alabama Democratic blocs, 1998–2022" in ideology
+    section_order = [
+        ideology.index(f'<section id="{section}"')
+        for section in (
+            "performance", "overview", "transition", "positions",
+            "distribution", "time", "issues", "cases",
+            "candidate-explorer", "continuous", "methods",
+        )
+    ]
+    assert section_order == sorted(section_order)
+    assert "WAR relative to progressive-modern candidates" in ideology
+    assert "Adjusted raw ticket comparisons" in ideology
+    assert ideology.index("WAR relative to progressive-modern candidates") < ideology.index(
+        "Adjusted raw ticket comparisons"
+    )
+    for group in (
+        "Traditionalist-populist Democrats",
+        "Bridge-coalition Democrats",
+        "Progressive-modern Democrats",
+    ):
+        assert group in ideology
+    payload = json.loads(re.search(r"const DATA=(\{.*?\});\n", ideology, re.S).group(1))
+    assert payload["schemaVersion"] == 2
+    assert payload["groups"] == [
+        "Traditionalist-populist Democrats",
+        "Bridge-coalition Democrats",
+        "Progressive-modern Democrats",
+    ]
+    assert all(row["candidate_quality_index"] is not None for row in payload["members"])
+    assert all("candidate_cmo" not in row for row in payload["members"])
+    assert all("candidate_quality_residual" not in row for row in payload["members"])
+    assert "WAR means Wins Above Replacement" in ideology
+    assert "Split Ticket's WAR methodology" in ideology
+    assert "https://split-ticket.org/2025/08/15/deconstructing-war/" in ideology
+    assert "Candidate Quality Index" not in ideology
+    assert "CQI" not in ideology
+    assert "Candidate Atlas" not in ideology
+    assert "legislators.html" not in ideology
+    assert "Alabama Democratic groupings, 1998–2022" in ideology
     assert 'id="transitionChart"' in ideology
     assert 'id="candidate-explorer"' in ideology
     assert "render3D" not in ideology
+    assert 'id="threeD"' not in ideology
+    assert "three-d-wrap" not in ideology
     assert 'ideology-performance.html#candidate-explorer' in caucus
     assert "location.replace" in caucus
 

@@ -21,8 +21,20 @@ def test_payload_uses_validated_current_cluster_outputs() -> None:
     assert selected == expected
     assert all(row["candidate_cmo"] is not None for row in data["members"])
     assert len(data["issues"]) >= 17
-    assert data["constellation"]["D"]["dimensions"] == 17
-    assert data["constellation"]["R"]["dimensions"] == 14
+    selected_features = dict(zip(
+        diagnostics.loc[diagnostics.selected, "party"],
+        diagnostics.loc[diagnostics.selected, "features"],
+    ))
+    assert data["constellation"]["D"]["dimensions"] == selected_features["D"]
+    democratic_labels = {
+        row["cluster_label"] for row in data["members"] if row["party"] == "D"
+    }
+    assert democratic_labels == {
+        "Traditionalist-populist Democrats",
+        "Bridge-coalition Democrats",
+        "Progressive-modern Democrats",
+    }
+    assert data["constellation"]["R"]["dimensions"] == selected_features["R"]
     assert all(math.isfinite(row["constellation_x"]) and math.isfinite(row["constellation_y"])
                for row in data["members"])
 
