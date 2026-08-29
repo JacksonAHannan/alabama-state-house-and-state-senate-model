@@ -8,6 +8,21 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[2]
 PAGE = ROOT / "artifacts" / "site" / "alabama-2026-legislative-forecast.html"
+CAL = ROOT / "data" / "processed" / "forecast_calibration"
+
+
+def selected_headline_mae() -> float:
+    manifest = json.loads(
+        (CAL / "post2016_headline_v1_manifest.json").read_text(encoding="utf-8")
+    )
+    metrics = pd.read_csv(CAL / "post2016_headline_v1_forward_metrics.csv")
+    selected = metrics.loc[
+        metrics.specification.eq(manifest["selected_specification"]), "mae"
+    ]
+    assert len(selected) == 1
+    mae = float(selected.iloc[0])
+    assert abs(mae - float(manifest["forward_validation"]["mae"])) < 1e-12
+    return mae
 
 
 def page_and_payload():
@@ -278,8 +293,13 @@ def test_modeled_candidate_finance_matches_headline_model_input():
 
 def test_methodology_has_no_legacy_forecast_claims():
     text = (ROOT / "docs" / "methodology.html").read_text(encoding="utf-8")
+    headline_mae = selected_headline_mae()
     assert "59 contested races in 2018" in text
-    assert "7.08 points" in text
+    assert (
+        f"The headline specification records {headline_mae:.2f} points of mean absolute margin error"
+        in text
+    )
+    assert "Headline: direct relative fundraising" in text
     assert "Student-t" in text
     assert "50,000 simulations" in text
     for legacy in (

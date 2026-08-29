@@ -2,6 +2,7 @@
 """Build the self-contained, accessible 2026 forecast dashboard."""
 from __future__ import annotations
 
+import argparse
 import datetime as dt
 import json
 import re
@@ -327,7 +328,7 @@ HTML="""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="v
 <div class="interactive"><section class="map-panel"><div class="map-head"><div><h3 id="mapTitle"></h3><p id="mapScope">Statewide view. Choose a district on the map or with the district finder.</p></div><div class="mode-tabs" aria-label="Map display"><button data-mode="probability" aria-pressed="true">Win chance</button><button data-mode="margin" aria-pressed="false">Margin</button><button data-mode="rating" aria-pressed="false">Rating</button></div></div><div class="map-tools"><label class="sr-only" for="districtSelect">Find a district</label><select id="districtSelect"></select><span class="section-note">Pan and zoom to explore roads, cities, and district geography.</span></div><div class="map-wrap"><div id="map" role="group" aria-label="Interactive Alabama legislative district forecast map"></div></div><div class="legend" id="legend" aria-label="Map legend"></div></section>
 <aside class="detail" id="detail" aria-live="polite"><div class="detail-empty">Select a district to explore its forecast.</div></aside></div></section>
 <section class="section"><h2>District forecast table</h2><p class="section-note"><span id="rowCount"></span>. Margins, probabilities, intervals, and ratings follow the forecast view selected above.</p><div class="table-tools"><label class="sr-only" for="search">Search candidates or districts</label><input id="search" type="search" placeholder="Search candidate or district"><label class="sr-only" for="ratingFilter">Filter by rating</label><select id="ratingFilter"><option value="all">All ratings</option><option>Solid D</option><option>Very likely D</option><option>Likely D</option><option>Lean D</option><option>Toss-up</option><option>Lean R</option><option>Likely R</option><option>Very likely R</option><option>Solid R</option><option>Unopposed D</option><option>Unopposed R</option></select><label class="sr-only" for="scopeFilter">Filter races</label><select id="scopeFilter"><option value="all">All districts</option><option value="competitive">Competitive (35–65%)</option><option value="modeled">Modeled D–R races</option><option value="open">Open seats</option><option value="crosses">80% interval crosses even</option></select><button class="small-button" id="download">Download CSV</button></div><div class="table-hint">Swipe horizontally to see all columns; the district column remains fixed.</div><div class="table-wrap"><table><thead><tr><th><button data-sort="district">District<span></span></button></th><th>Candidates</th><th><button data-sort="rating">Rating<span></span></button></th><th><button data-sort="demProbability">Dem. chance<span></span></button></th><th><button data-sort="margin">Headline margin<span></span></button></th><th>80% interval</th><th>Finance scenario</th></tr></thead><tbody id="rows"></tbody></table></div></section>
-<section class="section method"><div><h2>How to read this forecast</h2><p>The headline begins with each district’s 2024 presidential margin, applies the national swing implied by current generic-ballot polling, and adds the expected Alabama legislative difference from that federal baseline.</p><p>That down-ballot adjustment reflects generic legislative lag, incumbency, and fundraising strength relative to comparable districts. The Dem and Rep scenarios show how a typical national polling error would move the forecast.</p><div class="method-links"><a href="methodology.html">Full methodology</a><a href="data/post2016_headline_v1_2026_scenarios.csv">District scenarios</a><a href="data/post2016_headline_v1_forward_metrics.csv">Historical test</a></div></div><div class="caveat"><b>Forecast uncertainty.</b><p>Win probabilities use a Student-t distribution with five degrees of freedom and a 5.75-point scale.</p><p>Headline chamber summaries use 50,000 simulations with shared national, statewide, and chamber errors plus district-specific error.</p><p>Single-major-party districts are fixed in chamber summaries even when an independent is present. Gray, dashed districts are unresolved rather than toss-ups.</p><p>The complete candidate adjustment has one direct forward test, from 2018 to 2022, and should be interpreted with that limitation in mind.</p></div></section></main><footer class="site-footer"><div><b>Model and analysis by Jackson Hannan</b><span>Alabama 2026 Legislative Forecast</span></div><nav aria-label="Jackson Hannan profiles"><a href="https://github.com/JacksonAHannan" target="_blank" rel="me noopener">GitHub</a><a href="https://www.instagram.com/topsoilintraining/" target="_blank" rel="me noopener">Instagram</a><a href="https://substack.com/@jacksonhannan" target="_blank" rel="me noopener">Substack</a><a href="https://www.linkedin.com/in/jackson-hannan" target="_blank" rel="me noopener">LinkedIn</a></nav></footer><div class="tooltip" id="tooltip" role="tooltip"></div><script>const DATA=__PAYLOAD__;__JS__</script></body></html>"""
+<section class="section method"><div><h2>How to read this forecast</h2><p>The headline begins with each district’s 2024 presidential margin, applies the national swing implied by current generic-ballot polling, and adds the expected Alabama legislative difference from that federal baseline.</p><p>That down-ballot adjustment reflects generic legislative lag, incumbency, and the observed fundraising difference between the Democratic and Republican candidates. The Dem and Rep scenarios show how a typical national polling error would move the forecast.</p><div class="method-links"><a href="methodology.html">Full methodology</a><a href="data/post2016_headline_v1_2026_scenarios.csv">District scenarios</a><a href="data/post2016_headline_v1_forward_metrics.csv">Historical test</a></div></div><div class="caveat"><b>Forecast uncertainty.</b><p>Win probabilities use a Student-t distribution with five degrees of freedom and a 5.75-point scale.</p><p>Headline chamber summaries use 50,000 simulations with shared national, statewide, and chamber errors plus district-specific error.</p><p>Single-major-party districts are fixed in chamber summaries even when an independent is present. Gray, dashed districts are unresolved rather than toss-ups.</p><p>The complete candidate adjustment has one direct forward test, from 2018 to 2022, and should be interpreted with that limitation in mind.</p></div></section></main><footer class="site-footer"><div><b>Model and analysis by Jackson Hannan</b><span>Alabama 2026 Legislative Forecast</span></div><nav aria-label="Jackson Hannan profiles"><a href="https://github.com/JacksonAHannan" target="_blank" rel="me noopener">GitHub</a><a href="https://www.instagram.com/topsoilintraining/" target="_blank" rel="me noopener">Instagram</a><a href="https://substack.com/@jacksonhannan" target="_blank" rel="me noopener">Substack</a><a href="https://www.linkedin.com/in/jackson-hannan" target="_blank" rel="me noopener">LinkedIn</a></nav></footer><div class="tooltip" id="tooltip" role="tooltip"></div><script>const DATA=__PAYLOAD__;__JS__</script></body></html>"""
 
 
 UNCERTAINTY_CAVEAT = """<div class="caveat"><b>Forecast uncertainty.</b><p>The headline uses 50,000 correlated simulations. Shared national, statewide, and chamber error prevents the chamber distribution from treating every district as independent.</p><p>District probabilities use a Student-t(5) curve with a 5.75-point scale. Scenario tabs show a typical national polling error in either direction.</p><p>The full candidate adjustment has one direct forward test, from 2018 to 2022. Districts with one major-party nominee are fixed; genuinely unresolved districts remain unmodeled and gray.</p></div>"""
@@ -372,12 +373,19 @@ def build_methodology(css: str, payload: dict) -> str:
 def build_methodology_v2(css: str, payload: dict) -> str:
     metrics=pd.read_csv(CAL/"post2016_headline_v1_forward_metrics.csv")
     manifest=json.loads((CAL/"post2016_headline_v1_manifest.json").read_text(encoding="utf-8"))
+    bootstrap=pd.read_csv(CAL/"post2016_headline_v1_bootstrap.csv")
     components=pd.read_csv(CAL/"robust_forecast_v1_error_components.csv").iloc[0]
+    selected_specification=manifest["selected_specification"]
+    selected_metric=metrics[metrics.specification.eq(selected_specification)].squeeze()
+    selected_bootstrap=bootstrap[
+        bootstrap.target.eq(selected_specification)
+        & bootstrap.reference.eq("polling_federal_only")
+    ].squeeze()
     display_specs={
         "polling_federal_only":"Polling-implied federal baseline",
         "polling_federal_plus_incumbency":"Federal baseline and incumbency",
-        "polling_federal_plus_incumbency_fundraising":"With raw fundraising gap",
-        "polling_federal_plus_incumbency_within_cycle_orthogonal_fundraising":"Headline model",
+        "polling_federal_plus_incumbency_fundraising":"Headline: direct relative fundraising",
+        "polling_federal_plus_incumbency_within_cycle_orthogonal_fundraising":"Residualized fundraising sensitivity",
     }
     rows="".join(
         f"<tr><td>{display_specs[r.specification]}</td><td>{r.mae:.2f}</td><td>{r.rmse:.2f}</td><td>{r.winner_accuracy:.1%}</td></tr>"
@@ -395,15 +403,15 @@ def build_methodology_v2(css: str, payload: dict) -> str:
 <div class="method-grid"><aside class="toc"><b>On this page</b><a href="#headline">Headline</a><a href="#environment">Environment</a><a href="#candidate">Candidate adjustment</a><a href="#validation">Historical test</a><a href="#uncertainty">Uncertainty</a><a href="#scenarios">Scenarios</a><a href="#limits">Limitations</a></aside><article class="method-copy">
 <section id="headline"><h2>Headline margin</h2><div class="formula">Headline margin = 2024 presidential margin + national polling swing + expected Alabama legislative overperformance</div><p>The first two terms represent the federal result implied by current polling. The final term estimates how an Alabama legislative candidate would normally run relative to that federal baseline given the race’s chamber, incumbency, and fundraising position.</p></section>
 <section id="environment"><h2>National environment</h2><p>The national two-party generic-ballot environment is D+{float(environment.dem_two_party_margin):.2f} across {int(environment.pollsters)} quality-gated pollsters through {environment.as_of}. Compared with the 2024 national presidential result, this produces a {national_swing:+.2f}-point Democratic swing that is applied uniformly to every district’s 2024 presidential margin.</p></section>
-<section id="candidate"><h2>Down-ballot and candidate adjustment</h2><p>The model learns the legislative-minus-federal margin from elections after 2016. It estimates a generic Alabama legislative lag, an incumbency adjustment, and the Democratic-versus-Republican fundraising gap.</p><p>Fundraising is normalized within the election cycle. A first-stage model estimates the fundraising gap normally associated with district partisanship, competitiveness, chamber, and incumbency. The forecast uses the remaining relative fundraising strength. This first stage never uses the legislative result.</p><p>Explicit Alabama campaign-finance observations are complete for {finance_complete} of 48 contested two-party races. A race without complete finance receives the lag and incumbency terms but no fundraising adjustment.</p></section>
-<section id="validation"><h2>Historical test</h2><p>The model trains on 59 contested races in 2018 and predicts the same 30 contested 2022 races under every specification.</p><table class="method-table"><thead><tr><th>Specification</th><th>2022 MAE</th><th>RMSE</th><th>Winner accuracy</th></tr></thead><tbody>{rows}</tbody></table><p>The headline specification records 7.08 points of mean absolute margin error, compared with 10.00 for the polling-implied federal baseline. A paired race bootstrap estimates a 2.91-point improvement, with a 95% interval from 0.83 to 5.00 points.</p></section>
+<section id="candidate"><h2>Down-ballot and candidate adjustment</h2><p>The model learns the legislative-minus-federal margin from elections after 2016. It estimates a generic Alabama legislative lag, an incumbency adjustment, and the observed Democratic-versus-Republican fundraising advantage.</p><p>Fundraising is transformed as <code>log1p(D receipts / $50,000) - log1p(R receipts / $50,000)</code>. The log transformation compresses large dollar differences while preserving which party raised more. The release build checks that this contribution cannot point toward the lower-raising party.</p><p>Explicit Alabama campaign-finance observations are complete for {finance_complete} of 48 contested two-party races. A race without complete finance receives the lag and incumbency terms but no fundraising adjustment.</p></section>
+<section id="validation"><h2>Historical test</h2><p>The model trains on 59 contested races in 2018 and predicts the same 30 contested 2022 races under every specification.</p><table class="method-table"><thead><tr><th>Specification</th><th>2022 MAE</th><th>RMSE</th><th>Winner accuracy</th></tr></thead><tbody>{rows}</tbody></table><p>The headline specification records {selected_metric.mae:.2f} points of mean absolute margin error, compared with 10.00 for the polling-implied federal baseline. A paired race bootstrap estimates a {selected_bootstrap.paired_mean_mae_improvement:.2f}-point improvement, with a 95% interval from {selected_bootstrap.bootstrap_ci_low:.2f} to {selected_bootstrap.bootstrap_ci_high:.2f} points. The residualized sensitivity scored better in this one holdout but sometimes pointed toward the party that raised less, so it is not presented as relative fundraising strength or used for the headline.</p></section>
 <section id="uncertainty"><h2>Probabilities and chamber summaries</h2><p>Expected margins are converted to conditional win probabilities with a Student-t curve with five degrees of freedom and a 5.75-point scale. The headline uses 50,000 simulations with shared national ({components.national_sd:.2f}), statewide ({components.state_sd:.2f}), and chamber ({components.chamber_sd:.2f}) errors plus district-specific error ({components.district_sd:.2f}).</p><p>Single-major-party districts are fixed in chamber totals, even if an independent is present. Unresolved districts remain unmodeled.</p></section>
 <section id="scenarios"><h2>Dem and Rep scenarios</h2><p>The Dem scenario shifts every district {poll_error:.2f} points Democratic. The Rep scenario shifts every district {poll_error:.2f} points Republican. That amount is one historical national polling-error standard deviation; all candidate and district adjustments otherwise remain unchanged.</p></section>
 <section id="limits"><h2>Limitations</h2><ul><li>The complete candidate adjustment has one direct forward test, from 2018 to 2022.</li><li>Historical fundraising covers full election cycles, while the current 2026 figures are a partial-cycle snapshot.</li><li>Fundraising reflects resources, donor expectations, and candidate strength and should not be interpreted as a purely causal campaign effect.</li><li>Alabama polling is sparse, so the national generic ballot supplies the political-environment estimate.</li><li>Polling house effects and mode effects are not yet estimated explicitly.</li></ul><p class="download-list"><a href="data/post2016_headline_v1_2026_scenarios.csv">District scenarios</a><a href="data/post2016_headline_v1_forward_metrics.csv">Historical test</a><a href="data/post2016_headline_v1_bootstrap.csv">Bootstrap comparison</a></p></section>
 </article></div></main></body></html>'''
 
 
-def main():
+def main(*, publish: bool = True):
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     css=(ASSETS/"forecast_dashboard.css").read_text(encoding="utf-8")
     js=(ASSETS/"forecast_dashboard.js").read_text(encoding="utf-8")
@@ -463,11 +471,16 @@ def main():
                       '<a href="methodology.html">Full methodology</a><a href="cmo.html">Historical WAR model</a>')
     page=re.sub(r'<div class="caveat">.*?</div></section></main>', UNCERTAINTY_CAVEAT+'</section></main>', page, count=1, flags=re.S)
     OUTPUT.write_text(page,encoding="utf-8")
+    methodology=build_methodology_v2(css,payload_data).replace(
+        'href="data/2026_forecast_decomposition.csv"','href="data/2026_model_comparison.csv"')
+    methodology_artifact=OUTPUT.parent/"forecast-methodology.html"
+    methodology_artifact.write_text(methodology,encoding="utf-8")
+    if not publish:
+        print(f"Wrote {OUTPUT} and {methodology_artifact} (artifact only)")
+        return
     SITE.mkdir(parents=True,exist_ok=True)
     (SITE/"data").mkdir(exist_ok=True)
     (SITE/"index.html").write_text(page,encoding="utf-8")
-    methodology=build_methodology_v2(css,payload_data).replace(
-        'href="data/2026_forecast_decomposition.csv"','href="data/2026_model_comparison.csv"')
     (SITE/"methodology.html").write_text(methodology,encoding="utf-8")
     for source,name in [
         (CAL/"post2016_headline_v1_2026_scenarios.csv","post2016_headline_v1_2026_scenarios.csv"),
@@ -508,4 +521,12 @@ def main():
     print(f"Wrote {OUTPUT}, {SITE/'index.html'}, and {SITE/'methodology.html'}")
 
 
-if __name__=="__main__": main()
+if __name__=="__main__":
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--artifact-only",
+        action="store_true",
+        help="Build local release-candidate HTML without writing publication files under docs/.",
+    )
+    args=parser.parse_args()
+    main(publish=not args.artifact_only)

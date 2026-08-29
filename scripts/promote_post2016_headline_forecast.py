@@ -18,10 +18,8 @@ SOURCE_METRICS = CAL / "post2016_polling_cmo_metrics.csv"
 SOURCE_BOOTSTRAP = CAL / "post2016_polling_cmo_bootstrap.csv"
 SOURCE_MANIFEST = CAL / "post2016_polling_cmo_manifest.json"
 ERROR_COMPONENTS = CAL / "robust_forecast_v1_error_components.csv"
-SELECTED_SOURCE_SCENARIO = "uniform_polling_federal_within_cycle_orthogonal"
-SELECTED_SPECIFICATION = (
-    "polling_federal_plus_incumbency_within_cycle_orthogonal_fundraising"
-)
+SELECTED_SOURCE_SCENARIO = "uniform_polling_federal"
+SELECTED_SPECIFICATION = "polling_federal_plus_incumbency_fundraising"
 SEED = 20260822
 SIMULATION_DRAWS = 50_000
 PROBABILITY_DF = 5.0
@@ -54,6 +52,19 @@ def build_scenarios() -> tuple[pd.DataFrame, float]:
     assert headline.loc[~headline.finance_complete, "model_used"].eq(
         "polling_federal_plus_incumbency"
     ).all()
+    # The public component is explicitly relative fundraising strength, so its
+    # direction must agree with the observed D-minus-R receipts gap. A
+    # residualized feature can legitimately reverse that direction (a party
+    # may raise less, but more than the first stage expected); that construct
+    # remains a research sensitivity and is not suitable for this label.
+    complete = headline.finance_complete.astype(bool)
+    signed_product = (
+        headline.loc[complete, "fundraising_gap_log50"]
+        * headline.loc[complete, "fundraising_adjustment"]
+    )
+    assert signed_product.ge(-1e-10).all()
+    nonzero_gap = complete & headline.fundraising_gap_log50.abs().gt(1e-10)
+    assert headline.loc[nonzero_gap, "fundraising_adjustment"].abs().gt(1e-10).all()
     national_sd = float(pd.read_csv(ERROR_COMPONENTS).iloc[0].national_sd)
     frames = []
     definitions = {
@@ -70,7 +81,7 @@ def build_scenarios() -> tuple[pd.DataFrame, float]:
         frame["headline_dem_margin"] = frame.predicted_dem_margin
         frame["predicted_dem_margin"] = frame.headline_dem_margin + shift
         frame["dem_win_probability"] = probability(frame.predicted_dem_margin)
-        frame["selected_model"] = "post2016_polling_cmo_within_cycle_finance"
+        frame["selected_model"] = "post2016_polling_cmo_direct_relative_finance"
         frames.append(frame)
     scenarios = pd.concat(frames, ignore_index=True)
     return scenarios, national_sd
@@ -142,9 +153,9 @@ def write_methodology(
 
 The forecast treats the current national generic-ballot movement from 2024 as the federal result that would otherwise anchor down-ballot performance. Each district begins with its 2024 presidential margin and receives the same national polling swing.
 
-The model then estimates the usual legislative difference from that federal baseline using Alabama elections after 2016. The candidate adjustment includes generic down-ballot lag, incumbency, and fundraising strength relative to what would normally be expected from district partisanship, competitiveness, chamber, and incumbency.
+The model then estimates the usual legislative difference from that federal baseline using Alabama elections after 2016. The candidate adjustment includes generic down-ballot lag, incumbency, and the observed Democratic-versus-Republican fundraising advantage.
 
-The fundraising normalization uses the current cycle's fundraising and district covariates but no election result. Missing campaign-finance observations remain missing and receive no fundraising adjustment. Current finance coverage is {finance_complete} of 48 contested Democratic-versus-Republican races.
+Fundraising is transformed as `log1p(D receipts / $50,000) - log1p(R receipts / $50,000)`. This compresses very large dollar differences while preserving which party raised more. The fitted coefficient is positive, and the release build enforces that the fundraising contribution cannot favor the party that raised less. Missing campaign-finance observations remain missing and receive no fundraising adjustment. Current finance coverage is {finance_complete} of 48 contested Democratic-versus-Republican races.
 
 ## Historical test
 
@@ -226,7 +237,7 @@ def main() -> None:
     manifest = {
         "schema_version": 1,
         "status": "owner_selected_public_headline_release_candidate",
-        "methodology_version": "post2016_headline_v1",
+        "methodology_version": "post2016_headline_v1_1",
         "source_experiment_build": source_manifest["build_id"],
         "selected_source_scenario": SELECTED_SOURCE_SCENARIO,
         "selected_specification": SELECTED_SPECIFICATION,

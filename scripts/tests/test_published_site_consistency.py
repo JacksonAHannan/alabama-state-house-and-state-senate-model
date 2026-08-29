@@ -13,6 +13,20 @@ WAR = ROOT / "data" / "processed" / "war"
 CAL = ROOT / "data" / "processed" / "forecast_calibration"
 
 
+def selected_headline_mae() -> float:
+    manifest = json.loads(
+        (CAL / "post2016_headline_v1_manifest.json").read_text(encoding="utf-8")
+    )
+    metrics = pd.read_csv(CAL / "post2016_headline_v1_forward_metrics.csv")
+    selected = metrics.loc[
+        metrics.specification.eq(manifest["selected_specification"]), "mae"
+    ]
+    assert len(selected) == 1
+    mae = float(selected.iloc[0])
+    assert abs(mae - float(manifest["forward_validation"]["mae"])) < 1e-12
+    return mae
+
+
 def test_publication_exports_match_current_model_outputs() -> None:
     current_pairs = [
         ("cmo_v6_southern_candidates.csv", "cmo_v6_southern_candidates.csv"),
@@ -42,12 +56,17 @@ def test_public_pages_describe_current_runs() -> None:
     forecast_method = (DOCS / "methodology.html").read_text(encoding="utf-8")
     cmo = (DOCS / "cmo.html").read_text(encoding="utf-8")
     cmo_method = (DOCS / "cmo-methodology.html").read_text(encoding="utf-8")
+    headline_mae = selected_headline_mae()
 
     assert "Forecast and polling-error scenarios" in forecast
     assert "Dem scenario" in forecast and "Rep scenario" in forecast
     assert "Student-t" in forecast_method
     assert "59 contested races in 2018" in forecast_method
-    assert "7.08 points" in forecast_method
+    assert (
+        f"The headline specification records {headline_mae:.2f} points of mean absolute margin error"
+        in forecast_method
+    )
+    assert "Headline: direct relative fundraising" in forecast_method
     assert "50,000 simulations" in forecast_method
     for stale in (
         "Basic and Fundamentals+", "six-point normal", "20% of the CMO",
