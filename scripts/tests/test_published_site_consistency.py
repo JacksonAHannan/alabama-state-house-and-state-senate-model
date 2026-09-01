@@ -15,36 +15,36 @@ CAL = ROOT / "data" / "processed" / "forecast_calibration"
 
 def selected_headline_mae() -> float:
     manifest = json.loads(
-        (CAL / "post2016_headline_v1_manifest.json").read_text(encoding="utf-8")
+        (CAL / "alabama_war_forecast_v1_manifest.json").read_text(encoding="utf-8")
     )
-    metrics = pd.read_csv(CAL / "post2016_headline_v1_forward_metrics.csv")
+    metrics = pd.read_csv(CAL / "alabama_war_forecast_v1_forward_metrics.csv")
     selected = metrics.loc[
         metrics.specification.eq(manifest["selected_specification"]), "mae"
     ]
     assert len(selected) == 1
     mae = float(selected.iloc[0])
-    assert abs(mae - float(manifest["forward_validation"]["mae"])) < 1e-12
+    assert abs(mae - float(manifest["diagnostics"]["selected_forward_mae"])) < 1e-12
     return mae
 
 
 def test_publication_exports_match_current_model_outputs() -> None:
     current_pairs = [
-        ("cmo_v6_southern_candidates.csv", "cmo_v6_southern_candidates.csv"),
-        ("cmo_v6_southern_races.csv", "cmo_v6_southern_races.csv"),
-        ("cmo_v6_southern_quality.csv", "cmo_v6_southern_quality.csv"),
-        ("cmo_v6_southern_validation.csv", "cmo_v6_southern_validation.csv"),
-        ("cmo_v6_southern_manifest.json", "cmo_v6_southern_manifest.json"),
+        ("alabama_war_v1/candidate_cycle_war.csv", "alabama_war_v1_candidate_cycle_war.csv"),
+        ("alabama_war_v1/race_war.csv", "alabama_war_v1_race_war.csv"),
+        ("alabama_war_v1/coverage.csv", "alabama_war_v1_coverage.csv"),
+        ("alabama_war_v1/manifest.json", "alabama_war_v1_manifest.json"),
     ]
     for source_name, public_name in current_pairs:
         assert (WAR / source_name).read_bytes() == (DOCS / "data" / public_name).read_bytes()
 
     forecast_names = [
-        "post2016_headline_v1_2026_scenarios.csv",
-        "post2016_headline_v1_2026_full_uncertainty.csv",
-        "post2016_headline_v1_2026_modeled_seats.csv",
-        "post2016_headline_v1_forward_metrics.csv",
-        "post2016_headline_v1_bootstrap.csv",
-        "post2016_headline_v1_manifest.json",
+        "alabama_war_forecast_v1_2026_scenarios.csv",
+        "alabama_war_forecast_v1_2026_full_uncertainty.csv",
+        "alabama_war_forecast_v1_2026_modeled_seats.csv",
+        "alabama_war_forecast_v1_forward_predictions.csv",
+        "alabama_war_forecast_v1_forward_metrics.csv",
+        "alabama_war_forecast_v1_probability_families.csv",
+        "alabama_war_forecast_v1_manifest.json",
         "robust_forecast_v1_error_components.csv",
     ]
     for name in forecast_names:
@@ -61,29 +61,27 @@ def test_public_pages_describe_current_runs() -> None:
     assert "Forecast and polling-error scenarios" in forecast
     assert "Dem scenario" in forecast and "Rep scenario" in forecast
     assert "Student-t" in forecast_method
-    assert "59 contested races in 2018" in forecast_method
+    assert "64 contested 2018 races" in forecast_method
     assert (
-        f"The headline specification records {headline_mae:.2f} points of mean absolute margin error"
+        f"records {headline_mae:.2f} points of MAE"
         in forecast_method
     )
-    assert "Headline: direct relative fundraising" in forecast_method
-    assert "50,000 simulations" in forecast_method
+    assert "candidate_history_used=false" in forecast_method
+    assert "50,000 correlated simulations" in forecast_method
     for stale in (
         "Basic and Fundamentals+", "six-point normal", "20% of the CMO",
-        "893 model-ready contests", "Build <b>", "robust forecast build",
+        "893 model-ready contests", "robust forecast build",
     ):
         assert stale not in forecast_method
 
-    assert "Alabama Legislative Wins Above Replacement (WAR)" in cmo
-    assert "WAR is the headline candidate-quality estimate" in cmo
-    assert "Historical accuracy" in cmo
+    assert "Alabama WAR" in cmo
+    assert "These are race residuals, not pooled career effects" in cmo
     assert "Fundamentals+" not in cmo
-    assert "selected same-district ticket" in cmo
-    assert "1994" in cmo_method and "2022" in cmo_method
-    assert "What WAR estimates" in cmo_method
-    assert "Wins Above Replacement (WAR)" in cmo_method
-    assert "same-cycle federal ticket" in cmo_method
-    assert "pair-differential-only" in cmo_method
+    assert "actual legislative-minus-ticket gap" in cmo
+    assert "2018" in cmo_method and "2022" in cmo_method
+    assert "1. Estimand" in cmo_method
+    assert "No pooled individual candidate effect" in cmo_method
+    assert "same-cycle fitted structural gap" in cmo_method
     assert "Fundamentals+" not in cmo_method
     for stale in (
         "arithmetic is unchanged", "The decomposition is separate from CMO",
@@ -94,41 +92,31 @@ def test_public_pages_describe_current_runs() -> None:
 
 
 def test_public_cmo_and_forecast_row_counts() -> None:
-    candidates = pd.read_csv(DOCS / "data" / "cmo_v6_southern_candidates.csv")
-    races = pd.read_csv(DOCS / "data" / "cmo_v6_southern_races.csv")
-    forecasts = pd.read_csv(DOCS / "data" / "post2016_headline_v1_2026_scenarios.csv")
-    assert len(candidates) == 1018
-    assert len(races) == 509
-    assert candidates.candidate_direct_cmo.notna().all()
-    assert set(races.cycle) == {1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022}
+    candidates = pd.read_csv(DOCS / "data" / "alabama_war_v1_candidate_cycle_war.csv")
+    races = pd.read_csv(DOCS / "data" / "alabama_war_v1_race_war.csv")
+    forecasts = pd.read_csv(DOCS / "data" / "alabama_war_forecast_v1_2026_scenarios.csv")
+    assert len(candidates) == 194
+    assert len(races) == 97
+    assert candidates.candidate_cycle_war.notna().all()
+    assert set(races.cycle) == {2018, 2022}
     assert set(forecasts.scenario) == {"headline", "environment_dem_favorable", "environment_rep_favorable"}
     assert forecasts.groupby("scenario").size().eq(48).all()
 
 
-def test_public_quality_map_is_race_differential_not_democratic_effect() -> None:
+def test_public_war_page_uses_candidate_cycle_residuals() -> None:
     page = (DOCS / "cmo.html").read_text(encoding="utf-8")
-    payload = json.loads(re.search(r"const DATA=(\{.*?\});\n", page, re.S).group(1))
-    races = pd.read_csv(DOCS / "data" / "cmo_v6_southern_races.csv")
-    for row in races.itertuples():
-        displayed = payload[f"{row.cycle}-{row.chamber}"]["demPair"][str(row.district)]
-        assert abs(displayed - round(row.pooled_quality_differential, 2)) < 1e-9
+    payload = json.loads(re.search(r"const DATA=(\[.*?\]);", page, re.S).group(1))
+    candidates = pd.read_csv(DOCS / "data" / "alabama_war_v1_candidate_cycle_war.csv")
+    grimsley = next(row for row in payload if row["candidate"] == "Dexter Grimsley")
+    source = candidates[candidates.candidate_name.eq("Dexter Grimsley")].squeeze()
+    assert abs(grimsley["war"] - source.candidate_cycle_war) < 1e-10
 
 
-def test_hd32_2022_uses_direct_cmo_v6_score() -> None:
-    candidates = pd.read_csv(DOCS / "data" / "cmo_v6_southern_candidates.csv")
-    races = pd.read_csv(DOCS / "data" / "cmo_v6_southern_races.csv")
-    boyd = candidates.loc[
-        (candidates.cycle == 2022)
-        & candidates.chamber.eq("house")
-        & candidates.district.eq(32)
-        & candidates.canonical_party.eq("D")
-    ].squeeze()
-    race = races.loc[
-        (races.cycle == 2022) & races.chamber.eq("house") & races.district.eq(32)
-    ].squeeze()
-    assert boyd.candidate_direct_cmo == race.direct_cmo
-    assert race.selected_ticket_source == "same_cycle_federal"
-    assert boyd.southern_quality_status == "uncertain"
+def test_grimsley_public_war_is_corrected_race_residual() -> None:
+    candidates = pd.read_csv(DOCS / "data" / "alabama_war_v1_candidate_cycle_war.csv")
+    grimsley = candidates[candidates.candidate_name.eq("Dexter Grimsley")].squeeze()
+    assert abs(grimsley.candidate_cycle_war - 13.295433950839808) < 1e-10
+    assert grimsley.score_identification == "race_differential_party_orientation"
 
 
 def test_public_ideology_and_caucus_routes_are_merged() -> None:

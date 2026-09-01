@@ -779,7 +779,7 @@ __ATTRIBUTION_PANEL__
     return rendered
 
 
-if __name__ == "__main__":
+if False and __name__ == "__main__":  # superseded by the residual-WAR publisher below
     data = load_data()
     rendered = modernize_war_headline(modernize_v6_copy(build_page(data)))
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
@@ -828,3 +828,60 @@ __ATTRIBUTION_PANEL__
             shutil.copy2(source, site_data / source.name)
     shutil.copy2(ROOT / "project_docs" / "model" / "CMO_METHODOLOGY_V6_SOUTHERN_PRIOR.md", site_data / "cmo_methodology_v6.md")
     print(f"Wrote {OUTPUT} ({OUTPUT.stat().st_size:,} bytes)")
+
+
+def build_residual_war_page():
+    """Build the corrected post-2016 Alabama race-residual WAR explorer."""
+    source = WAR / "alabama_war_v1"
+    with (source / "candidate_cycle_war.csv").open(encoding="utf-8-sig", newline="") as handle:
+        records = list(csv.DictReader(handle))
+    manifest = json.loads((source / "manifest.json").read_text(encoding="utf-8"))
+    rows = []
+    for record in records:
+        orientation = 1.0 if record["canonical_party"] == "D" else -1.0
+        rows.append({
+            "cycle": int(record["cycle"]),
+            "chamber": "House" if record["chamber"] == "lower" else "Senate",
+            "district": int(float(record["district"])),
+            "party": record["canonical_party"],
+            "candidate": record["candidate_name"],
+            "incumbent": record["incumbent"] in {"1", "True", "true"},
+            "rawGap": orientation * float(record["raw_gap"]),
+            "structuralGap": orientation * float(record["fitted_structural_expected_gap"]),
+            "war": float(record["candidate_cycle_war"]),
+            "result": record["candidate_cycle_result"],
+        })
+    rows.sort(key=lambda row: (row["cycle"], row["chamber"], row["district"], row["party"]))
+    payload = json.dumps(rows, separators=(",", ":"), ensure_ascii=False).replace("</", "<\\/")
+    run_id = html.escape(manifest["alabama_war_run_id"])
+    page = '''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Post-2016 Alabama legislative race-residual WAR ratings"><title>Alabama WAR · Jackson Hannan</title><style>
+*{box-sizing:border-box}body{margin:0;background:#f6f7f5;color:#201c1d;font:15px/1.5 Arial,sans-serif}header{background:#fff;border-bottom:1px solid #ccd4d5}header nav{width:min(1180px,calc(100% - 32px));margin:auto;display:flex;gap:22px;padding:18px 0}header a{color:#4e2630;text-decoration:none;font-weight:700}.hero,.shell{width:min(1180px,calc(100% - 32px));margin:auto}.hero{padding:58px 0 34px}.kicker{text-transform:uppercase;letter-spacing:.13em;color:#743b42;font-size:12px;font-weight:800}.hero h1{font:700 clamp(42px,7vw,78px)/.98 Georgia,serif;margin:8px 0 18px}.dek{max-width:780px;font:20px/1.55 Georgia,serif;color:#48565b}.formula{background:#e9eef0;border-left:4px solid #743b42;padding:18px 20px;margin-top:22px;font:17px/1.6 Georgia,serif}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#aebbbf;border:1px solid #aebbbf;margin:28px 0}.stat{background:#fff;padding:20px}.stat b{display:block;font:700 30px Georgia,serif}.stat span{color:#5a686d}.tools{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0}.tools input,.tools select{background:#fff;border:1px solid #aab5b8;padding:11px 12px;font:inherit;min-width:170px}.tools input{flex:1;min-width:230px}.table-wrap{overflow:auto;border:1px solid #bbc5c7;background:#fff}table{width:100%;border-collapse:collapse;min-width:850px}th,td{text-align:left;padding:12px 14px;border-bottom:1px solid #e0e5e6}th{position:sticky;top:0;background:#e9eef0;font-size:12px;text-transform:uppercase;letter-spacing:.07em}td.num{text-align:right;font-variant-numeric:tabular-nums}.party{display:inline-grid;place-items:center;width:25px;height:25px;border-radius:50%;color:#fff;font-weight:800}.party.D{background:#326da8}.party.R{background:#a54245}.war.pos{color:#225f46;font-weight:800}.war.neg{color:#8a3037;font-weight:800}.note{margin:26px 0 70px;padding:22px;border-top:3px solid #743b42;font:16px/1.65 Georgia,serif}.note a{color:#743b42;font-weight:700}@media(max-width:700px){.stats{grid-template-columns:1fr}.hero{padding-top:36px}}
+</style></head><body><header><nav><a href="index.html">Forecast</a><a href="cmo.html" aria-current="page">Alabama WAR</a><a href="ideology-performance.html">Ideology &amp; caucuses</a><a href="methods.html">Methods</a></nav></header><main><section class="hero"><div class="kicker">Alabama legislative elections · 2018–2022</div><h1>Alabama WAR</h1><p class="dek">How far each Democratic–Republican legislative result finished above or below the structural margin expected for that race. These are race residuals, not pooled career effects.</p><div class="formula"><b>WAR = actual legislative-minus-ticket gap − fitted structural expected gap.</b><br>The Democratic candidate receives the race residual; the Republican receives its exact negative.</div><div class="stats"><div class="stat"><b>97</b><span>contested races</span></div><div class="stat"><b>194</b><span>candidate-cycle ratings</span></div><div class="stat"><b>2018–22</b><span>strict post-2016 coverage</span></div></div></section><section class="shell"><div class="tools"><input id="search" type="search" placeholder="Search candidate or district" aria-label="Search candidate or district"><select id="cycle" aria-label="Filter cycle"><option value="all">All cycles</option><option>2018</option><option>2022</option></select><select id="chamber" aria-label="Filter chamber"><option value="all">Both chambers</option><option>House</option><option>Senate</option></select></div><div class="table-wrap"><table><thead><tr><th>Candidate</th><th>Party</th><th>Cycle</th><th>District</th><th>Raw ticket gap</th><th>Structural gap</th><th>Alabama WAR</th></tr></thead><tbody id="rows"></tbody></table></div><p id="count"></p><div class="note"><b>Interpretation.</b> Positive WAR means the candidate performed better than the structural expectation; negative WAR means worse. A one-race residual does not uniquely divide credit between candidate strength, opponent weakness, and omitted local conditions. WAR is retrospective and is not a win probability. <a href="cmo-methodology.html">Read the methodology</a> or <a href="data/alabama_war_v1_candidate_cycle_war.csv">download candidate ratings</a>.<br><small>Run __RUN_ID__</small></div></section></main><script>const DATA=__PAYLOAD__;const body=document.getElementById("rows"),search=document.getElementById("search"),cycle=document.getElementById("cycle"),chamber=document.getElementById("chamber"),count=document.getElementById("count");const fmt=v=>(v>=0?"+":"")+v.toFixed(2);function draw(){const q=search.value.toLowerCase().trim();const filtered=DATA.filter(r=>(cycle.value==="all"||String(r.cycle)===cycle.value)&&(chamber.value==="all"||r.chamber===chamber.value)&&(!q||`${r.candidate} ${r.chamber} ${r.district} ${r.party}`.toLowerCase().includes(q)));body.innerHTML=filtered.map(r=>`<tr><td><b>${r.candidate}</b>${r.incumbent?" <small>incumbent</small>":""}</td><td><span class="party ${r.party}">${r.party}</span></td><td>${r.cycle}</td><td>${r.chamber} ${r.district}</td><td class="num">${fmt(r.rawGap)}</td><td class="num">${fmt(r.structuralGap)}</td><td class="num war ${r.war>=0?"pos":"neg"}">${fmt(r.war)}</td></tr>`).join("");count.textContent=`Showing ${filtered.length} of ${DATA.length} candidate-cycle ratings.`}search.addEventListener("input",draw);cycle.addEventListener("change",draw);chamber.addEventListener("change",draw);draw();</script></body></html>'''
+    return page.replace("__PAYLOAD__", payload).replace("__RUN_ID__", run_id)
+
+
+def build_residual_war_methodology():
+    return '''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Alabama WAR methodology</title><style>body{margin:0;font:16px/1.65 Arial,sans-serif;color:#211d1e;background:#f6f7f5}header nav,main{width:min(900px,calc(100% - 36px));margin:auto}header{background:#fff;border-bottom:1px solid #ccd4d5}header nav{display:flex;gap:20px;padding:18px 0}a{color:#743b42;font-weight:700}h1,h2{font-family:Georgia,serif}h1{font-size:52px;line-height:1;margin:60px 0 18px}section{padding:10px 0 22px;border-bottom:1px solid #ccd4d5}.formula{background:#e9eef0;border-left:4px solid #743b42;padding:18px 20px;font-family:Georgia,serif}.links{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:70px}</style></head><body><header><nav><a href="index.html">Forecast</a><a href="cmo.html">Alabama WAR</a><a href="methods.html">Methods</a></nav></header><main><h1>Alabama WAR methodology</h1><p>Definitions, construction, validation, and limitations for the post-2016 Alabama legislative race residual.</p><section><h2>1. Estimand</h2><p>WAR is the actual legislative-minus-ticket gap minus the same-cycle fitted structural gap.</p><div class="formula">Race WAR = raw gap − fitted structural expected gap<br>Democratic candidate WAR = race WAR<br>Republican candidate WAR = −race WAR</div><p>No pooled individual candidate effect, career average, fundraising term, or ideology measure is called WAR.</p></section><section><h2>2. Structural expectation</h2><p>The source model is trained on strict post-2016 Southern Democratic-versus-Republican general elections. It estimates ordinary down-ballot structure from ticket partisanship, era, chamber, state, reviewed incumbency, and a lag term whose ticket-change effect decays over time. Finance was tested separately and rejected from headline WAR.</p></section><section><h2>3. Alabama coverage</h2><p>The Alabama publication filters the validated Southern run without refitting or changing scores: 64 races in 2018 and 33 in 2022, producing 194 opposite-signed candidate-cycle views. Uncontested, non-D–R, and non-strict rows are not silently scored.</p></section><section><h2>4. Forecast use</h2><p>A generic candidate has expected residual WAR of zero. The 2026 forecast therefore does not add prior WAR, CMO, candidate identity, repeat-candidate history, ideology, or fundraising. A candidate-independent structural adjustment was tested from 2018 into 2022 but failed its margin-error promotion gate, so it remains an audit diagnostic and is zero in the public headline.</p></section><section><h2>5. Limitations</h2><ul><li>WAR is retrospective and is not a win probability.</li><li>A race residual cannot uniquely separate candidate strength from opponent weakness or omitted local conditions.</li><li>Only two Alabama cycles are available after 2016, yielding one direct forward holdout.</li><li>Same-cycle ticket selection and historical district geography remain sources of uncertainty.</li></ul></section><section><h2>6. Downloads and credit</h2><p>The residual definition follows Split Ticket’s published framing of WAR as actual candidate performance minus structurally predicted performance. This Alabama implementation, data, and estimates are independent.</p><div class="links"><a href="data/alabama_war_v1_candidate_cycle_war.csv">Candidate ratings</a><a href="data/alabama_war_v1_race_war.csv">Race ratings</a><a href="data/alabama_war_v1_manifest.json">Manifest</a><a href="data/alabama_war_forecast_v1_forward_metrics.csv">Forecast test</a></div></section></main></body></html>'''
+
+
+if __name__ == "__main__":
+    rendered = build_residual_war_page()
+    methodology_html = build_residual_war_methodology()
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    SITE_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT.write_text(rendered, encoding="utf-8")
+    LEGACY_OUTPUT.write_text(rendered, encoding="utf-8")
+    SITE_OUTPUT.write_text(rendered, encoding="utf-8")
+    SITE_METHODOLOGY_OUTPUT.write_text(methodology_html, encoding="utf-8")
+    site_data = SITE_OUTPUT.parent / "data"
+    site_data.mkdir(parents=True, exist_ok=True)
+    sources = {
+        WAR / "alabama_war_v1" / "candidate_cycle_war.csv": "alabama_war_v1_candidate_cycle_war.csv",
+        WAR / "alabama_war_v1" / "race_war.csv": "alabama_war_v1_race_war.csv",
+        WAR / "alabama_war_v1" / "coverage.csv": "alabama_war_v1_coverage.csv",
+        WAR / "alabama_war_v1" / "manifest.json": "alabama_war_v1_manifest.json",
+        ROOT / "data/processed/forecast_calibration/alabama_war_forecast_v1_forward_metrics.csv": "alabama_war_forecast_v1_forward_metrics.csv",
+    }
+    for source, name in sources.items():
+        shutil.copy2(source, site_data / name)
+    print(f"Wrote corrected Alabama WAR page with 194 candidate-cycle ratings ({OUTPUT})")

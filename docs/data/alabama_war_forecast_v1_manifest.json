@@ -1,0 +1,117 @@
+{
+  "build_id": "4a24f61e28a3d5987062",
+  "configuration": {
+    "candidate_history_used": false,
+    "candidate_war_adjustment": 0.0,
+    "design_features": [
+      "environment_baseline_margin",
+      "baseline_margin_squared",
+      "environment_ticket_change",
+      "environment_change_x_years",
+      "chamber_upper",
+      "incumbency_balance"
+    ],
+    "finance_used": false,
+    "forward_test": "train_2018_test_2022",
+    "generic_ballot_environment": true,
+    "generic_candidate_assumption": true,
+    "ideology_used": false,
+    "incumbency_treatment": "tested_in_candidate_structural_model; zero when promotion gate fails",
+    "ridge_alpha": 100.0,
+    "seed": 20260831,
+    "simulation_draws": 50000,
+    "structural_promoted": false,
+    "structural_promotion_gate": "forward_2022_mae_strictly_better_than_generic_ballot_baseline"
+  },
+  "diagnostics": {
+    "baseline_forward_mae": 7.073410990280289,
+    "candidate_structural_forward_mae": 9.489546161819012,
+    "forward_test_rows": 33,
+    "historical_rows": 97,
+    "max_forecast_identity_error": 0.0,
+    "prospective_rows_per_scenario": 48,
+    "selected_forward_mae": 7.073410990280289
+  },
+  "generated_at_utc": "2026-09-01T02:45:13.849126+00:00",
+  "git_commit": "569b019fecb7786a1c824fcc81490202e39cc4bc",
+  "inputs": [
+    {
+      "path": "data/processed/war/alabama_war_v1/race_war.csv",
+      "sha256": "1115eeeebf2de65ace7be05b71aca24f750db277797c8ae36f52ce3b7f4325cd"
+    },
+    {
+      "path": "data/processed/war/alabama_war_v1/manifest.json",
+      "sha256": "af5e2a07cefec49713e648c6fc21ea1dc50cdfd46160807f1e477e47ce456da6"
+    },
+    {
+      "path": "data/processed/polling/historical_silver_a_generic_ballot_cycles.csv",
+      "sha256": "52e4ab48342c5550b4ecb1d146914a4120c777d4b888f4cbae88d32684817010"
+    },
+    {
+      "path": "data/processed/war/2026_final_candidate_roster.csv",
+      "sha256": "d9ee34c1b7b37096503d5eebbea07cfc24cc2df0f9da3ffde9ef41def710388c"
+    },
+    {
+      "path": "data/processed/war/2026_candidate_incumbency.csv",
+      "sha256": "9aae05a0e0ae8998754dc1ecbcdbae7da925f560f375f9eb32337d1c95cbc3c9"
+    },
+    {
+      "path": "data/processed/war/2026_poll_adjusted_baseline.csv",
+      "sha256": "eb730a46c6ea2ef02ccc26fc03bc833fb2747c076196d6ac477fc06b88837b9f"
+    },
+    {
+      "path": "data/processed/forecast_calibration/robust_forecast_v1_error_components.csv",
+      "sha256": "4085d289d65d17b847bad2d314356d70d0ffd5ab3bc72633e1b07aa69eef5d68"
+    },
+    {
+      "path": "project_docs/model/ALABAMA_WAR_FORECAST_FIELD_CONTRACT.md",
+      "sha256": "1b04f220aaf3bec7736080aee368baa286cc9725d83b2b89cbfb32c35bb43c59"
+    }
+  ],
+  "methodology_version": "alabama_war_generic_forecast_v1",
+  "outputs": [
+    {
+      "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_historical_panel.csv",
+      "rows": 97,
+      "sha256": "a6965500f1b67e17907e9b518d6fafa22fd59a234c514d6c612264415858e535"
+    },
+    {
+      "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_forward_predictions.csv",
+      "rows": 33,
+      "sha256": "97fcab527a8b145e572bd2e952792d6bd8d91680737657ebc1527539f76c253c"
+    },
+    {
+      "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_forward_metrics.csv",
+      "rows": 2,
+      "sha256": "583e5068549530666d13e44b05ef2c5d56cdd09bce89a7d1c5fba5fa37c1d6a7"
+    },
+    {
+      "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_probability_families.csv",
+      "rows": 53,
+      "sha256": "2aecf3ae42e3b6b20896cca9bbe89965953fee85390ce3489285adb4212652e4"
+    },
+    {
+      "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_2026_scenarios.csv",
+      "rows": 144,
+      "sha256": "2507c07a89e82b15cb2ff90a0438de341caa94f8d82bf6f260add8570a7a69a6"
+    },
+    {
+      "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_2026_full_uncertainty.csv",
+      "rows": 48,
+      "sha256": "c9e410ce708e33c330475e1d3853242a96f732f923974b2f7e9765f4f324e0da"
+    },
+    {
+      "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_2026_modeled_seats.csv",
+      "rows": 19,
+      "sha256": "4c7fed0107aff09a7214ded3a9d130f97cde81627809ae6552b36043854d2868"
+    }
+  ],
+  "probability": {
+    "df": 5.0,
+    "family": "student_t",
+    "scale": 4.0
+  },
+  "schema_version": 1,
+  "selected_specification": "generic_ballot_baseline",
+  "status": "validated_generic_candidate_forecast"
+}

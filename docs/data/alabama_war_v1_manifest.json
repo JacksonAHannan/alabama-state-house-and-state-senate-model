@@ -1,0 +1,46 @@
+{
+  "alabama_war_run_id": "AL-WAR-V1-E1F8E11BF2853322239F",
+  "configuration": {
+    "candidate_pooling": false,
+    "cutoff_rule": "cycle > 2016",
+    "finance_in_war": false,
+    "state_code": "AL",
+    "war_definition": "raw_gap - fitted_structural_expected_gap"
+  },
+  "diagnostics": {
+    "candidate_cycle_rows": 194,
+    "cycles": [
+      2018,
+      2022
+    ],
+    "max_candidate_orientation_error": 0.0,
+    "max_war_formula_error": 3.552713678800501e-15,
+    "race_rows": 97
+  },
+  "generated_at_utc": "2026-09-01T02:43:04.238208+00:00",
+  "git_commit": "569b019fecb7786a1c824fcc81490202e39cc4bc",
+  "input_hashes": {
+    "data/processed/war/post2016_southern_war_v3/candidate_cycle_war.csv": "7e18780eaeff5f962b03dd55ddfd41baab43ac665e90798d333a95fb6a7dff44",
+    "data/processed/war/post2016_southern_war_v3/race_war.csv": "3f3e5943afa388916c18562c6aea15ad966289fa0368e73b5cd4a5baf42222f5",
+    "project_docs/model/ALABAMA_WAR_FORECAST_FIELD_CONTRACT.md": "1b04f220aaf3bec7736080aee368baa286cc9725d83b2b89cbfb32c35bb43c59"
+  },
+  "methodology_version": "alabama_war_v1_race_residual",
+  "outputs": [
+    {
+      "path": "data/processed/war/alabama_war_v1/race_war.csv",
+      "rows": 97,
+      "sha256": "1115eeeebf2de65ace7be05b71aca24f750db277797c8ae36f52ce3b7f4325cd"
+    },
+    {
+      "path": "data/processed/war/alabama_war_v1/candidate_cycle_war.csv",
+      "rows": 194,
+      "sha256": "e437a000be6593bc292497f39868ec45f15ddd5e83109c6c812e5a785dcecace"
+    },
+    {
+      "path": "data/processed/war/alabama_war_v1/coverage.csv",
+      "rows": 4,
+      "sha256": "abd013ed848e0830aea5bc326f8e67c1c02421db0bd09ca0faf22a95ab1173a9"
+    }
+  ],
+  "source_model_run_id": "WAR-POST2016-V3-D9C7EE17BD14B8C7D23A"
+}

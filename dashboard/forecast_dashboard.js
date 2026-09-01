@@ -243,13 +243,13 @@
   function hideTooltip(){ $("#tooltip").style.display="none"; }
 
   function candidateHistoryHtml(c){
-    if(!c.cmoHistory?.length)return "";
-    const max=Math.max(5,...c.cmoHistory.map(x=>Math.abs(x.cmo)));
-    return `<details class="candidate-history"><summary>${c.name} CMO history (${c.cmoHistory.length} race${c.cmoHistory.length===1?"":"s"})</summary><p>CMO is signed to the Democratic margin: positive values favor Democrats and negative values favor Republicans.</p><div class="career-timeline">${c.cmoHistory.map(x=>`<div class="career-row"><span>${x.cycle}<small>${districtName(x.chamber,x.district)}${x.incumbent?" · incumbent":""}</small></span><i class="career-scale"><i class="zero"></i><i class="career-bar ${x.cmo>=0?'D':'R'}" style="left:${x.cmo>=0?50:50-45*Math.abs(x.cmo)/max}%;width:${45*Math.abs(x.cmo)/max}%"></i></i><b>${fmtEffect(x.cmo)}</b></div>`).join("")}</div></details>`;
+    if(!c.warHistory?.length)return "";
+    const max=Math.max(5,...c.warHistory.map(x=>Math.abs(x.war)));
+    return `<details class="candidate-history"><summary>${c.name} Alabama WAR history (${c.warHistory.length} race${c.warHistory.length===1?"":"s"})</summary><p>These retrospective race residuals are shown for context only. The forecast evaluates both nominees as generic candidates and does not use prior WAR.</p><div class="career-timeline">${c.warHistory.map(x=>`<div class="career-row"><span>${x.cycle}<small>${districtName(x.chamber,x.district)}${x.incumbent?" · incumbent":""}</small></span><i class="career-scale"><i class="zero"></i><i class="career-bar ${x.war>=0?'D':'R'}" style="left:${x.war>=0?50:50-45*Math.abs(x.war)/max}%;width:${45*Math.abs(x.war)/max}%"></i></i><b>${fmtEffect(x.war)}</b></div>`).join("")}</div></details>`;
   }
 
   function candidateHtml(c){
-    return `<div class="candidate"><i class="stripe ${c.party}" aria-hidden="true"></i><div><b>${c.name}</b><small>${partyName(c.party)}${c.incumbent?" · Incumbent":" · Non-incumbent"}</small></div><div class="finance-values"><small>${fmtMoney(c.raised,c.financeStatus)} raised<br>${fmtMoney(c.spent,c.financeStatus)} spent</small></div></div>${candidateHistoryHtml(c)}`;
+    return `<div class="candidate"><i class="stripe ${c.party}" aria-hidden="true"></i><div><b>${c.name}</b><small>${partyName(c.party)}${c.incumbent?" · Incumbent":" · Non-incumbent"}</small></div><div class="finance-values"><small>${fmtMoney(c.raised,c.financeStatus)} raised<br>${fmtMoney(c.spent,c.financeStatus)} spent<br>not used by forecast</small></div></div>${candidateHistoryHtml(c)}`;
   }
 
   function profileHtml(r){
@@ -265,7 +265,7 @@
     const selected=selectedVersion(r), max=Math.max(1,...selected.steps.slice(1).map(x=>Math.abs(x[1])));
     const rows=selected.steps.map((step,index)=>`<div class="component-row"><span>${DATA.contributionVariables[index]}</span><i class="component-scale">${index?`<i class="${step[1]>=0?'D':'R'}" style="width:${100*Math.abs(step[1])/max}%"></i>`:""}</i><b>${index?fmtEffect(step[1]):"Starting point"}<small>${fmtMargin(step[2])}</small></b></div>`).join("");
     const scenarios=DATA.models.map(model=>{const m=r.models[model.id];return `<div class="scenario-result ${model.id===state.model?'selected':''}"><span>${model.label}</span><b>${fmtMargin(m.margin)}</b><small>${Math.round(100*m.demProbability)}% D chance</small></div>`}).join("");
-    return `<section class="component-comparison"><h4>Forecast components</h4><p>Each row shows its signed change and the running district margin. The three columns below hold the candidate adjustment constant and vary only national polling error.</p><div class="component-rows">${rows}</div><div class="scenario-results">${scenarios}</div></section>`;
+    return `<section class="component-comparison"><h4>Forecast components</h4><p>The headline evaluates a generic Democrat against a generic Republican. Candidate WAR, history, ideology, and fundraising are not used; the scenario columns vary only national polling error.</p><div class="component-rows">${rows}</div><div class="scenario-results">${scenarios}</div></section>`;
   }
 
   function uncertaintyHtml(r){
@@ -375,7 +375,7 @@
     if(state.selected&&!race(state.chamber,state.selected))state.selected=null;
     $("#buildDate").textContent=DATA.meta.buildDate;
     $("#pollDate").textContent=DATA.meta.pollAsOf;
-    $("#financeDate").textContent=DATA.meta.financeAsOf;
+    if($("#financeDate")) $("#financeDate").textContent=DATA.meta.financeAsOf;
     $("#pollAge").textContent=`${DATA.meta.pollStalenessDays} days old`;
     if(DATA.meta.pollStalenessDays>21) $("#pollAge").classList.add("stale");
     applyModel(); bind(); renderModelTabs(); renderProvenance();renderAll();syncUrl();

@@ -37,7 +37,7 @@ def test_transform_uses_one_shared_header_and_preserves_active_route() -> None:
     assert result.count('class="site-header"') == 1
     assert result.count('class="site-portrait"') == 1
     assert "Alabama legislative models" in result
-    assert '<a href="cmo.html" aria-current="page">WAR</a>' in result
+    assert '<a href="cmo.html" aria-current="page">Alabama WAR</a>' in result
     assert result.count('aria-current="page"') == 1
     assert "Candidate atlas" not in result
     for label in ("Forecast", "WAR", "Ideology &amp; caucuses", "Methods",
@@ -81,9 +81,10 @@ def test_white_interface_text_has_oxblood_backing() -> None:
 
 def test_methods_landing_uses_public_war_name() -> None:
     html = methods_landing()
-    assert "WAR (Wins Above Replacement)" in html
+    assert "Alabama WAR" in html
+    assert "race residual" in html
     assert "WAR comparisons" in html
-    assert "<h2>WAR methodology</h2>" in html
+    assert "<h2>Alabama WAR methodology</h2>" in html
     assert "Read WAR methods" in html
     assert "<h2>CMO methodology</h2>" not in html
     assert "Candidate Quality Index" not in html

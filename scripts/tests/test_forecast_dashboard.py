@@ -13,15 +13,15 @@ CAL = ROOT / "data" / "processed" / "forecast_calibration"
 
 def selected_headline_mae() -> float:
     manifest = json.loads(
-        (CAL / "post2016_headline_v1_manifest.json").read_text(encoding="utf-8")
+        (CAL / "alabama_war_forecast_v1_manifest.json").read_text(encoding="utf-8")
     )
-    metrics = pd.read_csv(CAL / "post2016_headline_v1_forward_metrics.csv")
+    metrics = pd.read_csv(CAL / "alabama_war_forecast_v1_forward_metrics.csv")
     selected = metrics.loc[
         metrics.specification.eq(manifest["selected_specification"]), "mae"
     ]
     assert len(selected) == 1
     mae = float(selected.iloc[0])
-    assert abs(mae - float(manifest["forward_validation"]["mae"])) < 1e-12
+    assert abs(mae - float(manifest["diagnostics"]["selected_forward_mae"])) < 1e-12
     return mae
 
 
@@ -63,7 +63,7 @@ def test_dashboard_explains_headline_and_scenarios():
     assert "Headline" in text
     assert "Dem scenario" in text
     assert "Rep scenario" in text
-    assert "relative campaign fundraising" in text
+    assert "Candidate history and fundraising are not forecast inputs" in text
     assert "Student-t" in text
     assert "50,000 simulations" in text
     assert "Shared national, statewide, and chamber" in text
@@ -73,7 +73,7 @@ def test_dashboard_explains_headline_and_scenarios():
 def test_model_switcher_and_default_decomposition_are_complete():
     text, data = page_and_payload()
     assert data["meta"]["model"] == "headline"
-    manifest = json.loads((ROOT / "data" / "processed" / "forecast_calibration" / "post2016_headline_v1_manifest.json").read_text(encoding="utf-8"))
+    manifest = json.loads((ROOT / "data" / "processed" / "forecast_calibration" / "alabama_war_forecast_v1_manifest.json").read_text(encoding="utf-8"))
     assert data["meta"]["version"] == manifest["build_id"]
     assert len(data["models"]) == 3
     assert sum(model["default"] for model in data["models"]) == 1
@@ -135,7 +135,7 @@ def test_district_profiles_use_current_context_and_preserve_missingness():
 def test_component_rows_reconcile_and_scenarios_compare_like_for_like():
     text, data = page_and_payload()
     assert "componentComparisonHtml" in text
-    assert "The three columns below hold the candidate adjustment constant" in text
+    assert "The headline evaluates a generic Democrat against a generic Republican" in text
     for chamber in ("house", "senate"):
         for race in (row for row in data[chamber]["races"] if row["status"] == "modeled"):
             for model in data["models"]:
@@ -143,24 +143,24 @@ def test_component_rows_reconcile_and_scenarios_compare_like_for_like():
                 assert abs(values["steps"][-1][2] - values["margin"]) < 1e-8
 
 
-def test_candidate_cmo_timelines_use_current_cmo_output():
+def test_candidate_war_timelines_are_display_only():
     text, data = page_and_payload()
     candidates = [candidate for chamber in ("house", "senate") for race in data[chamber]["races"] for candidate in race["candidates"]]
-    with_history = [candidate for candidate in candidates if candidate["cmoHistory"]]
-    assert len(with_history) >= 30
-    assert "CMO is signed to the Democratic margin" in text
+    with_history = [candidate for candidate in candidates if candidate["warHistory"]]
+    assert with_history
+    assert "does not use prior WAR" in text
     assert "Candidate Atlas" not in text
-    source = pd.read_csv(ROOT / "data" / "processed" / "war" / "cmo_v6_southern_candidates.csv")
+    source = pd.read_csv(ROOT / "data" / "processed" / "war" / "alabama_war_v1" / "candidate_cycle_war.csv")
     example = with_history[0]
-    for observation in example["cmoHistory"]:
+    for observation in example["warHistory"]:
         match = source[
             source.cycle.eq(observation["cycle"])
-            & source.chamber.eq(observation["chamber"])
+            & source.chamber.eq({"house": "lower", "senate": "upper"}[observation["chamber"]])
             & source.district.eq(observation["district"])
             & source.canonical_party.eq(example["party"])
         ]
         assert len(match) == 1
-        assert abs(match.iloc[0].candidate_direct_cmo - observation["cmo"]) < 1e-10
+        assert abs(match.iloc[0].candidate_cycle_war - observation["war"]) < 1e-10
 
 
 def test_personal_branding_and_profile_links():
@@ -180,12 +180,16 @@ def test_uncertainty_axis_has_correct_party_direction():
     assert "linear-gradient(90deg,var(--red),#eee 50%,var(--blue))" in css
 
 
-def test_live_probabilities_use_recent_southern_calibration():
+def test_live_probabilities_use_selected_generic_candidate_calibration():
     _, data = page_and_payload()
     hd21 = next(r for r in data["house"]["races"] if r["district"] == 21)
     headline = hd21["models"]["headline"]
-    assert .005 < headline["demProbability"] < .007
-    assert headline["high80"] - headline["low80"] < 18
+    scenarios = pd.read_csv(CAL / "alabama_war_forecast_v1_2026_scenarios.csv")
+    source = scenarios[
+        scenarios.scenario.eq("headline") & scenarios.chamber.eq("house") & scenarios.district.eq(21)
+    ].squeeze()
+    assert abs(headline["demProbability"] - source.dem_win_probability) < 1e-6
+    assert headline["high80"] > headline["low80"]
 
 
 def test_sd25_is_a_contested_modeled_senate_race():
@@ -259,7 +263,7 @@ def test_post2016_headline_contests_and_full_chamber_accounting_reconcile():
     assert sum(r["status"] == "modeled" for c in ("house", "senate") for r in data[c]["races"]) == 48
     assert all(r["status"] != "unmodeled" for c in ("house", "senate") for r in data[c]["races"])
     roster = pd.read_csv(ROOT / "data" / "processed" / "war" / "2026_final_candidate_roster.csv")
-    modeled = pd.read_csv(ROOT / "data" / "processed" / "forecast_calibration" / "post2016_headline_v1_2026_modeled_seats.csv")
+    modeled = pd.read_csv(ROOT / "data" / "processed" / "forecast_calibration" / "alabama_war_forecast_v1_2026_modeled_seats.csv")
     for chamber in ("house", "senate"):
         dem = set(roster[(roster.chamber == chamber) & roster.party.eq("D")].district)
         rep = set(roster[(roster.chamber == chamber) & roster.party.eq("R")].district)
@@ -271,40 +275,32 @@ def test_post2016_headline_contests_and_full_chamber_accounting_reconcile():
             assert abs(actual[seats] - probability) < 1e-12
 
 
-def test_modeled_candidate_finance_matches_headline_model_input():
-    _, data = page_and_payload()
+def test_candidate_finance_is_display_only_not_model_input():
+    text, data = page_and_payload()
     scenarios = pd.read_csv(
         ROOT / "data" / "processed" / "forecast_calibration"
-        / "post2016_headline_v1_2026_scenarios.csv"
+        / "alabama_war_forecast_v1_2026_scenarios.csv"
     )
-    headline = scenarios[scenarios.scenario.eq("headline")]
-    for row in headline.itertuples():
-        race = next(r for r in data[row.chamber]["races"] if r["district"] == row.district)
-        candidates = {candidate["party"]: candidate for candidate in race["candidates"]}
-        expected_dem = None if pd.isna(row.dem_fundraising) else row.dem_fundraising
-        expected_rep = None if pd.isna(row.rep_fundraising) else row.rep_fundraising
-        expected_dem_status = None if pd.isna(row.dem_finance_status) else row.dem_finance_status
-        expected_rep_status = None if pd.isna(row.rep_finance_status) else row.rep_finance_status
-        assert candidates["D"]["raised"] == expected_dem
-        assert candidates["R"]["raised"] == expected_rep
-        assert candidates["D"]["financeStatus"] == expected_dem_status
-        assert candidates["R"]["financeStatus"] == expected_rep_status
+    assert scenarios.finance_used.eq(False).all()
+    assert scenarios.fundraising_adjustment.eq(0).all()
+    assert "not used by forecast" in text
+    assert any(candidate["raised"] is not None for chamber in ("house", "senate") for race in data[chamber]["races"] for candidate in race["candidates"])
 
 
 def test_methodology_has_no_legacy_forecast_claims():
     text = (ROOT / "docs" / "methodology.html").read_text(encoding="utf-8")
     headline_mae = selected_headline_mae()
-    assert "59 contested races in 2018" in text
+    assert "64 contested 2018 races" in text
     assert (
-        f"The headline specification records {headline_mae:.2f} points of mean absolute margin error"
+        f"records {headline_mae:.2f} points of MAE"
         in text
     )
-    assert "Headline: direct relative fundraising" in text
+    assert "candidate_history_used=false" in text
     assert "Student-t" in text
-    assert "50,000 simulations" in text
+    assert "50,000 correlated simulations" in text
     for legacy in (
         "Basic and Fundamentals+", "six-point normal", "20% of the CMO",
-        "893 model-ready contests", "Build <b>", "robust forecast build",
+        "893 model-ready contests", "robust forecast build",
     ):
         assert legacy not in text
-    assert "Dem and Rep scenarios" in text
+    assert "Dem and Rep scenario tabs" in text

@@ -12,7 +12,7 @@ THEME = ROOT / "dashboard" / "blue_oxblood_theme.css"
 PORTRAIT = Path(r"C:\Users\User\Desktop\images.jfif")
 PUBLIC_NAV = (
     ("index.html", "Forecast"),
-    ("cmo.html", "WAR"),
+    ("cmo.html", "Alabama WAR"),
     ("ideology-performance.html", "Ideology &amp; caucuses"),
     ("methods.html", "Methods"),
 )
@@ -145,9 +145,9 @@ def methods_landing() -> str:
 <title>Methods · Jackson Hannan</title><style>
 *{box-sizing:border-box}body{margin:0}.methods-shell{width:min(1000px,calc(100% - 40px));margin:auto;padding:52px 0 90px}.methods-hero{max-width:760px}.methods-hero h1{margin:0 0 16px}.methods-hero p{font:19px/1.6 Georgia,serif}.methods-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;margin-top:38px;background:#9db4c1;border:1px solid #9db4c1}.methods-card{display:flex;min-height:230px;flex-direction:column;background:#f8fbfc;padding:24px;color:#211b1b;text-decoration:none}.methods-card h2{margin:0 0 10px;font-size:24px}.methods-card p{margin:0 0 22px;line-height:1.55;color:#586772}.methods-card span{margin-top:auto;font-weight:700}.methods-notes{margin-top:44px;padding-top:20px;border-top:3px solid #743b42}.methods-notes p{max-width:760px;font:16px/1.65 Georgia,serif}@media(max-width:760px){.methods-shell{padding:38px 0 65px}.methods-grid{grid-template-columns:1fr}.methods-card{min-height:0}}
 </style></head><body><header><nav><a href="methods.html" aria-current="page">Methods</a></nav></header><main>
-<section class="methods-shell"><div class="methods-hero"><div class="kicker">Documentation</div><h1>Methods</h1><p>Definitions, data sources, validation, and limitations for the forecast, WAR, Candidate Margin Overperformance, and historical ideology analysis.</p></div>
-<div class="methods-grid"><a class="methods-card" href="methodology.html"><h2>Forecast methodology</h2><p>National environment, district baselines, incumbency, fundraising, uncertainty, simulations, and historical testing.</p><span>Read forecast methods →</span></a><a class="methods-card" href="cmo-methodology.html"><h2>WAR methodology</h2><p>Candidate WAR, partial pooling, observed CMO, the Southern historical comparison, and coverage limitations.</p><span>Read WAR methods →</span></a><a class="methods-card" href="ideology-performance.html#methods"><h2>Ideology methods</h2><p>Issue evidence, caucus clustering, WAR comparisons, era estimates, and interpretation limits.</p><span>Read ideology methods →</span></a></div>
-<div class="methods-notes"><h2>Measure definitions</h2><p><b>CMO</b> is an observed legislative margin relative to a selected same-district ticket. <b>WAR (Wins Above Replacement)</b> estimates a repeatable, partially pooled candidate component in margin points and adapts Split Ticket's candidate-quality framework. <b>Raw ticket comparisons</b> retain incumbency, fundraising, and other mechanisms that may contribute to durable performance.</p></div></section></main></body></html>'''
+<section class="methods-shell"><div class="methods-hero"><div class="kicker">Documentation</div><h1>Methods</h1><p>Definitions, data sources, validation, and limitations for the forecast, Alabama WAR, and historical ideology analysis.</p></div>
+<div class="methods-grid"><a class="methods-card" href="methodology.html"><h2>Forecast methodology</h2><p>Generic-ballot district baselines, zero-WAR generic candidates, uncertainty, simulations, and the 2018-to-2022 promotion test.</p><span>Read forecast methods →</span></a><a class="methods-card" href="cmo-methodology.html"><h2>Alabama WAR methodology</h2><p>Race residuals, structural expectations, party orientation, coverage, validation, and limitations.</p><span>Read WAR methods →</span></a><a class="methods-card" href="ideology-performance.html#methods"><h2>Ideology methods</h2><p>Issue evidence, caucus clustering, WAR comparisons, era estimates, and interpretation limits.</p><span>Read ideology methods →</span></a></div>
+<div class="methods-notes"><h2>Measure definitions</h2><p><b>Alabama WAR</b> is the actual legislative-minus-ticket gap minus the same-cycle fitted structural gap. It is a race residual: the Democratic candidate receives the residual and the Republican receives its negative. It is not a pooled career effect or a forecast probability.</p></div></section></main></body></html>'''
 
 
 def apply_theme(html: str) -> str:
