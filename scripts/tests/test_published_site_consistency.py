@@ -37,6 +37,17 @@ def test_publication_exports_match_current_model_outputs() -> None:
     for source_name, public_name in current_pairs:
         assert (WAR / source_name).read_bytes() == (DOCS / "data" / public_name).read_bytes()
 
+    historical_pairs = [
+        ("candidate_cycle_war.csv", "alabama_historical_war_v1_candidate_cycle_war.csv"),
+        ("race_war.csv", "alabama_historical_war_v1_race_war.csv"),
+        ("coverage.csv", "alabama_historical_war_v1_coverage.csv"),
+        ("structural_coefficients.csv", "alabama_historical_war_v1_structural_coefficients.csv"),
+        ("manifest.json", "alabama_historical_war_v1_manifest.json"),
+    ]
+    for source_name, public_name in historical_pairs:
+        source = WAR / "alabama_historical_war_v1" / source_name
+        assert source.read_bytes() == (DOCS / "data" / public_name).read_bytes()
+
     forecast_names = [
         "alabama_war_forecast_v1_2026_scenarios.csv",
         "alabama_war_forecast_v1_2026_full_uncertainty.csv",
@@ -75,13 +86,15 @@ def test_public_pages_describe_current_runs() -> None:
         assert stale not in forecast_method
 
     assert "Alabama WAR" in cmo
-    assert "These are race residuals, not pooled career effects" in cmo
+    assert "No pooled candidate effect" in cmo
+    assert "1994" in cmo and "2022" in cmo
+    assert "Modern-model backcast" in cmo
     assert "Fundamentals+" not in cmo
     assert "actual legislative-minus-ticket gap" in cmo
-    assert "2018" in cmo_method and "2022" in cmo_method
+    assert "1994" in cmo_method and "2022" in cmo_method
     assert "1. Estimand" in cmo_method
-    assert "No pooled individual candidate effect" in cmo_method
-    assert "same-cycle fitted structural gap" in cmo_method
+    assert "No pooled candidate coefficient" in cmo_method
+    assert "fitted structural expected gap" in cmo_method
     assert "Fundamentals+" not in cmo_method
     for stale in (
         "arithmetic is unchanged", "The decomposition is separate from CMO",
@@ -105,9 +118,16 @@ def test_public_cmo_and_forecast_row_counts() -> None:
 
 def test_public_war_page_uses_candidate_cycle_residuals() -> None:
     page = (DOCS / "cmo.html").read_text(encoding="utf-8")
-    payload = json.loads(re.search(r"const DATA=(\[.*?\]);", page, re.S).group(1))
+    payload = json.loads(re.search(r"const DATA=(\{.*?\});\s*let active=", page, re.S).group(1))
+    rows = [
+        dict(row, cycle=section["cycle"], chamber=section["chamber"])
+        for section in payload.values() for row in section["candidates"]
+    ]
     candidates = pd.read_csv(DOCS / "data" / "alabama_war_v1_candidate_cycle_war.csv")
-    grimsley = next(row for row in payload if row["candidate"] == "Dexter Grimsley")
+    grimsley = next(
+        row for row in rows
+        if row["candidate"] == "Dexter Grimsley" and row["cycle"] == 2018
+    )
     source = candidates[candidates.candidate_name.eq("Dexter Grimsley")].squeeze()
     assert abs(grimsley["war"] - source.candidate_cycle_war) < 1e-10
 
@@ -143,20 +163,25 @@ def test_public_ideology_and_caucus_routes_are_merged() -> None:
     ):
         assert group in ideology
     payload = json.loads(re.search(r"const DATA=(\{.*?\});\n", ideology, re.S).group(1))
-    assert payload["schemaVersion"] == 2
+    assert payload["schemaVersion"] == 3
     assert payload["groups"] == [
         "Traditionalist-populist Democrats",
         "Bridge-coalition Democrats",
         "Progressive-modern Democrats",
     ]
-    assert all(row["candidate_quality_index"] is not None for row in payload["members"])
+    assert all(row["candidate_cycle_war"] is not None for row in payload["members"])
+    assert all(row["war_scoring_scope"] in {
+        "post2016_southern_model_backcast", "published_same_cycle_residual"
+    } for row in payload["members"])
     assert all("candidate_cmo" not in row for row in payload["members"])
     assert all("candidate_quality_residual" not in row for row in payload["members"])
-    assert "WAR means Wins Above Replacement" in ideology
+    assert "WAR is the candidate-oriented race residual" in ideology
     assert "Split Ticket's WAR methodology" in ideology
     assert "https://split-ticket.org/2025/08/15/deconstructing-war/" in ideology
     assert "Candidate Quality Index" not in ideology
     assert "CQI" not in ideology
+    assert "candidate_quality_index" not in ideology
+    assert "No pooled individual effect, fundraising term, or ideology term enters WAR" in ideology
     assert "Candidate Atlas" not in ideology
     assert "legislators.html" not in ideology
     assert "Alabama Democratic groupings, 1998–2022" in ideology

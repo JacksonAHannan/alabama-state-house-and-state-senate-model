@@ -93,10 +93,11 @@ def path_for_geometry(geom, bounds, width=640, height=700, pad=12):
 
 
 def load_data():
-    """Build the public payload from the validated CMO v6 historical product."""
-    with (WAR / "cmo_v6_southern_candidates.csv").open(encoding="utf-8-sig", newline="") as f:
+    """Build the public payload from corrected historical residual WAR."""
+    historical_war = WAR / "alabama_historical_war_v1"
+    with (historical_war / "candidate_cycle_war.csv").open(encoding="utf-8-sig", newline="") as f:
         candidates = list(csv.DictReader(f))
-    with (WAR / "cmo_v6_southern_races.csv").open(encoding="utf-8-sig", newline="") as f:
+    with (historical_war / "race_war.csv").open(encoding="utf-8-sig", newline="") as f:
         races = list(csv.DictReader(f))
     with (ROOT / "data" / "processed" / "elections" / "canonical_cmo_features.csv").open(encoding="utf-8-sig", newline="") as f:
         race_metadata = list(csv.DictReader(f))
@@ -153,28 +154,34 @@ def load_data():
         orient = 1 if party == "D" else -1
         item = {
             "district": district,
-            "candidate": public_name_index.get((cycle, chamber, district, party, int(number(row["canonical_votes"], 0))), row["canonical_name"]),
-            "personId": row["candidate_effect_id"],
+            "candidate": public_name_index.get((cycle, chamber, district, party, int(number(row["canonical_votes"], 0))), row["candidate_name"]),
+            "personId": row.get("person_id") or row["candidate_effect_id"],
             "party": party, "votes": int(number(row["canonical_votes"], 0)),
-            "war": round(number(row["candidate_direct_cmo"], 0), 2),
+            "war": number(row["candidate_cycle_war"], 0),
             "within": round(number(row.get("candidate_state_ticket_cmo")), 2) if number(row.get("candidate_state_ticket_cmo")) is not None else None,
             "raw": round(number(row.get("candidate_federal_ticket_cmo")), 2) if number(row.get("candidate_federal_ticket_cmo")) is not None else None,
             "predictiveResidual": round(number(row.get("candidate_presidential_ticket_cmo")), 2) if number(row.get("candidate_presidential_ticket_cmo")) is not None else None,
-            "partialPooled": round(number(row.get("southern_candidate_quality_index"), 0), 2),
-            "qualityLow": round(number(row.get("southern_candidate_quality_low"), 0), 2),
-            "qualityHigh": round(number(row.get("southern_candidate_quality_high"), 0), 2),
-            "qualityStatus": row.get("southern_quality_status", "uncertain"),
-            "qualityResidual": round(number(row.get("candidate_quality_residual"), 0), 2),
-            "southernExpectedGap": round(number(row.get("candidate_southern_expected_gap"), 0), 2),
-            "genericIncumbency": round(number(row.get("candidate_generic_incumbency_component"), 0), 2),
-            "totalElectoralValue": round(number(row.get("candidate_total_electoral_value"), 0), 2),
-            "replacementLevel": round(number(row.get("candidate_replacement_level"), 0), 2),
-            "structuralAdjustment": round(number(row.get("candidate_structural_adjustment"), 0), 2),
-            "appearances": int(number(row.get("southern_quality_appearances"), 1)),
+            "rawGap": round(number(row.get("candidate_raw_gap"), 0), 2),
+            "predictedStructuralGap": round(number(row.get("candidate_structural_expected_gap"), 0), 2),
+            "lagComponent": round(number(row.get("candidate_lag_component"), 0), 2),
+            "partialPooled": number(row.get("candidate_cycle_war"), 0),
+            "qualityLow": number(row.get("candidate_cycle_war"), 0),
+            "qualityHigh": number(row.get("candidate_cycle_war"), 0),
+            "qualityStatus": row.get("scoring_scope", ""),
+            "qualityResidual": number(row.get("candidate_cycle_war"), 0),
+            "southernExpectedGap": round(number(row.get("candidate_structural_expected_gap"), 0), 2),
+            "genericIncumbency": 0.0,
+            "totalElectoralValue": number(row.get("candidate_cycle_war"), 0),
+            "replacementLevel": 0.0,
+            "structuralAdjustment": round(number(row.get("candidate_structural_expected_gap"), 0), 2),
+            "appearances": 1,
+            "scoringScope": row.get("scoring_scope", ""),
+            "lagContextAvailable": str(row.get("lag_context_available", "")).lower() in {"true", "1"},
+            "backcastExtrapolationYears": int(number(row.get("backcast_extrapolation_years"), 0)),
             "identityStatus": row.get("identity_status", ""), "contestTier": row.get("contest_tier", ""),
-            "low": round(number(row.get("candidate_direct_baseline_low"), 0), 2),
-            "high": round(number(row.get("candidate_direct_baseline_high"), 0), 2),
-            "specificationRange": round(abs(number(row.get("candidate_direct_baseline_high"), 0) - number(row.get("candidate_direct_baseline_low"), 0)), 2),
+            "low": number(row.get("candidate_cycle_war"), 0),
+            "high": number(row.get("candidate_cycle_war"), 0),
+            "specificationRange": 0.0,
             "signConsistent": True,
             "expectedMargin": round(orient * number(race["selected_ticket_margin"], 0), 2),
             "margin": round(orient * number(race["legislative_dem_margin"], 0), 2),
@@ -185,6 +192,8 @@ def load_data():
             "winner": str(row.get("winner", "")).lower() in {"true", "1"},
             "incumbent": str(row.get("incumbent", "")).lower() in {"true", "1"},
             "quality": "; ".join(filter(None, [
+                "modern post-2016 structural backcast" if row.get("scoring_scope") == "post2016_southern_model_backcast" else "published same-cycle residual",
+                "prior-presidential lag context unavailable" if str(row.get("lag_context_available", "")).lower() not in {"true", "1"} else "",
                 "nominal contest; excluded from fitting" if row.get("contest_tier") == "nominal" else "",
                 "1994 sensitivity tier" if cycle == 1994 else "",
                 "race-specific unresolved identity" if row.get("identity_status") == "surname_only_unresolved_race_specific" else "",
@@ -213,10 +222,10 @@ def load_data():
         paths = [{"district": int(r.district), "path": path_for_geometry(r.geometry, bounds)} for _, r in frame.iterrows()]
         winners = {x["district"]: x for x in items if x["winner"]}
         districts = sorted({x["district"] for x in items})
-        dem_context = {d: round(number(race_index[(cycle, chamber, d)]["direct_cmo"], 0), 2) for d in districts}
+        dem_context = {d: number(race_index[(cycle, chamber, d)]["war"], 0) for d in districts}
         dem_within = {d: round(number(race_index[(cycle, chamber, d)].get("state_ticket_cmo")), 2) if number(race_index[(cycle, chamber, d)].get("state_ticket_cmo")) is not None else None for d in districts}
         dem_raw = {d: round(number(race_index[(cycle, chamber, d)].get("federal_ticket_cmo")), 2) if number(race_index[(cycle, chamber, d)].get("federal_ticket_cmo")) is not None else None for d in districts}
-        dem_pair = {d: round(number(race_index[(cycle, chamber, d)].get("pooled_quality_differential"), 0), 2) for d in districts}
+        dem_pair = dict(dem_context)
         ordered_dem = sorted(dem_context.values())
         percentiles = {d: round(2 * ((sum(v < s for v in ordered_dem) + .5 * sum(v == s for v in ordered_dem)) / len(ordered_dem)) - 1, 4) for d, s in dem_context.items()}
         gov = {d: next((o["demMargin"] for o in office_index.get((cycle, chamber, d), []) if o["label"] == "Governor"), None) for d in districts}
@@ -779,6 +788,91 @@ __ATTRIBUTION_PANEL__
     return rendered
 
 
+def modernize_historical_residual_war(rendered):
+    """Retain the historical map while replacing every superseded CMO/WAR claim."""
+    rendered = rendered.replace(
+        "<title>Alabama Legislative Candidate Margin Overperformance (CMO)</title>",
+        "<title>Alabama historical WAR · Jackson Hannan</title>",
+    )
+    rendered = re.sub(
+        r'<section class="story-head">.*?</section>',
+        '<section class="story-head"><h1>Alabama historical WAR</h1>'
+        '<div class="dek">Race-residual performance for every modeled Alabama legislative election from 1994 through 2022, with the modern post-2016 structural relationship applied backward to earlier elections.</div>'
+        '<div class="byline">Model and analysis by <b>Jackson Hannan</b> &nbsp;·&nbsp; September 2026</div></section>',
+        rendered, count=1, flags=re.S,
+    )
+    rendered = re.sub(
+        r'<section class="model-status">.*?</section>',
+        '<section class="model-status"><div class="status-card feature"><span>Historical WAR architecture</span><b>Modern-model backcast</b><p>1994–2014 structural expectations come from the selected model trained only on strict Southern races after 2016. Published 2018/2022 Alabama WAR remains unchanged.</p></div><div class="status-card"><b>8</b><span>Historical cycles</span></div><div class="status-card"><b>509</b><span>Contested D vs. R races</span></div><div class="status-card"><b>3</b><span>Map views</span></div></section>',
+        rendered, count=1, flags=re.S,
+    )
+    rendered = re.sub(
+        r'<section class="intro">.*?</section>',
+        '<section class="intro"><p><strong>WAR is the race residual:</strong> the actual legislative-minus-ticket gap minus the fitted structural expected gap. Scores are two-party margin points and are zero-sum within each race.</p><p>For 1994–2014, the fitted expectation is a backward application of the post-2016 Southern <code>decaying_lag</code> ridge model. It is explicitly a historical backcast. For 2018 and 2022, the map uses the exact published same-cycle Alabama WAR residual.</p><p>No pooled candidate effect, career average, fundraising, ideology, or committee identity enters WAR.</p></section>',
+        rendered, count=1, flags=re.S,
+    )
+    rendered = rendered.replace(
+        "The default view maps CMO in margin points. The raw comparison views show the legislative margin relative to the same district's governor result or previous presidential result. Those three views use a symmetric Â±30-point red-to-blue scale. Residual quality uses a separate Â±20-point gold-to-teal scale; tooltips show uncapped values.",
+        "The default view maps race-residual WAR in margin points. Raw comparison views retain the governor and previous-presidential benchmarks for context. Colors are capped at ±30 points; tooltips and race details show uncapped values.",
+    )
+    # Match the legacy explorer note independently of its historically mangled
+    # plus/minus glyph so the correction is deterministic across Windows codecs.
+    rendered = re.sub(
+        r'The default view maps CMO in margin points\..*?tooltips show uncapped values\.',
+        'The default view maps race-residual WAR in margin points. Raw comparison views retain the governor and previous-presidential benchmarks for context. Colors are capped at ±30 points; tooltips and race details show uncapped values.',
+        rendered,
+        count=1,
+    )
+    rendered = rendered.replace('id="map-sub">CMO, observed margin points', 'id="map-sub">Alabama WAR, residual margin points')
+    rendered = rendered.replace('data-map-mode="absolute" class="active">CMO</button>', 'data-map-mode="absolute" class="active">Alabama WAR</button>')
+    rendered = re.sub(
+        r'<section class="rankings"><h2>Candidate results</h2>.*?<div class="filters">',
+        '<section class="rankings"><h2>Candidate-cycle WAR results</h2><div class="note">Each pair of candidate rows is one opposite-signed race residual. Historical backcasts and published modern residuals are labeled separately.</div><div class="filters">',
+        rendered, count=1, flags=re.S,
+    )
+    rendered = re.sub(
+        r'(<section class="rankings">.*?<table><thead>)<tr>.*?</tr>(</thead>)',
+        r'\1<tr><th data-sort="cycle">Cycle</th><th data-sort="district">District</th><th data-sort="candidate">Candidate</th><th data-sort="war">Alabama WAR ↕</th><th data-sort="rawGap">Raw ticket gap</th><th data-sort="predictedStructuralGap">Structural expectation</th><th data-sort="lagComponent">Lag component</th><th data-sort="scoringScope">Scoring method</th><th data-sort="cycleTopTicket">Baseline margin</th><th data-sort="margin">Actual margin</th><th data-sort="votes">Votes</th></tr>\2',
+        rendered, count=1, flags=re.S,
+    )
+    validation = '''<section class="validation" id="validation"><div class="section-head"><div><h2>Historical scoring boundary</h2><p>The model is not trained on the elections it backcasts.</p></div><span class="warning-chip">Extrapolation</span></div><div class="validation-grid"><div><h3>1994–2014</h3><p>The selected post-2016 Southern structural model is fit once on 3,658 strict modern races, then applied backward to 412 Alabama races. Negative years-since-2016 values make this an extrapolation outside the training era.</p></div><div><h3>2018–2022</h3><p>The 97 modern Alabama races exactly preserve the published same-cycle residual WAR values.</p></div></div><p class="validation-note">Historical WAR is descriptive. It cannot uniquely divide a race residual between candidate strength, opponent weakness, and omitted local conditions.</p></section>'''
+    rendered = re.sub(r'<section class="validation".*?</section>', validation, rendered, count=1, flags=re.S)
+    rendered = re.sub(r'<section class="attribution".*?</section>', '', rendered, count=1, flags=re.S)
+    rendered = re.sub(
+        r'<section class="downloads">.*?</section>',
+        '<section class="downloads"><h2>Data and provenance</h2><p>Download the complete historical race residuals, candidate orientations, coverage, coefficients, and content-addressed manifest.</p><div class="download-links"><a href="data/alabama_historical_war_v1_candidate_cycle_war.csv">Candidate-cycle WAR</a><a href="data/alabama_historical_war_v1_race_war.csv">Race WAR</a><a href="data/alabama_historical_war_v1_coverage.csv">Coverage</a><a href="data/alabama_historical_war_v1_structural_coefficients.csv">Backcast coefficients</a><a href="data/alabama_historical_war_v1_manifest.json">Manifest</a><a href="cmo-methodology.html">Methodology</a></div></section>',
+        rendered, count=1, flags=re.S,
+    )
+    rendered = re.sub(
+        r'<section class="method">.*?</section></main>',
+        '<section class="method"><h2>How to read historical WAR</h2><p>Positive WAR means the candidate performed better than the fitted structural expectation; negative WAR means worse. The Democratic candidate receives the race residual and the Republican receives its exact negative.</p><p>Candidate display names come from election records, with archived election pages used only as a spelling cross-check. Finance provider and committee names are prohibited.</p><p><a href="cmo-methodology.html">Read the full methodology</a> or <a href="index.html">view the 2026 forecast</a>.</p></section></main>',
+        rendered, count=1, flags=re.S,
+    )
+    rendered = re.sub(
+        r'const MODE_CONFIG=.*?;\nfunction modeConfig',
+        "const MODE_CONFIG={absolute:{description:'Alabama WAR, residual margin points',headline:'Alabama WAR',title:'WAR',cap:30,low:'#d34b45',mid:'#f2f1ed',high:'#3d77a8',ticks:['R +30','R +15','Even','D +15','D +30']},governor:{description:'Raw overperformance vs. governor',headline:'Raw overperformance vs. governor',title:'overperformance vs. governor',cap:30,low:'#d34b45',mid:'#f2f1ed',high:'#3d77a8',ticks:['R +30','R +15','Even','D +15','D +30']},presidential:{description:'Raw overperformance vs. previous presidential margin',headline:'Raw overperformance vs. previous presidential margin',title:'overperformance vs. previous president',cap:30,low:'#d34b45',mid:'#f2f1ed',high:'#3d77a8',ticks:['R +30','R +15','Even','D +15','D +30']}};\nfunction modeConfig",
+        rendered, count=1, flags=re.S,
+    )
+    rendered = rendered.replace(
+        "function mapMetric(d,district){if(mapMode==='absolute')return d.demWar[district];if(mapMode==='quality')return d.demPair[district];if(mapMode==='governor')return d.rawVsGovernor[district];return d.rawVsPresidential[district]}",
+        "function mapMetric(d,district){if(mapMode==='absolute')return d.demWar[district];if(mapMode==='governor')return d.rawVsGovernor[district];return d.rawVsPresidential[district]}",
+    )
+    rendered = re.sub(
+        r'function mapValueText\(value\)\{.*?\}\nfunction mix',
+        "function mapValueText(value){const side=value>=0?'Democratic':'Republican',amount=Math.abs(value).toFixed(1);return mapMode==='absolute'?`${side} WAR advantage: ${amount} points`:`${side} overperformance: ${amount} points`}\nfunction mix",
+        rendered, count=1, flags=re.S,
+    )
+    detail_js = r'''function detail(x){const box=$('#detail');if(!x){box.innerHTML='<div class="detail-empty">Select a district or candidate row to inspect the race.</div>';return}const history=allCandidates().filter(c=>c.personId&&c.personId===x.personId).sort((a,b)=>a.cycle-b.cycle),scope=x.scoringScope==='post2016_southern_model_backcast'?'Modern-model backcast':'Published same-cycle residual',historyHtml=history.length>1?`<div class="decomp"><div class="decomp-title">Resolved election history</div>${history.map(c=>`<div class="stat"><span>${c.cycle} ${c.chamber} ${c.district}</span><b>WAR ${fmt(c.war)}</b></div>`).join('')}</div>`:'';box.innerHTML=`<div class="candidate-headline"><h3>${esc(x.candidate)}</h3><div class="party ${x.party}">${x.party==='D'?'Democratic':'Republican'} · District ${x.district}${x.incumbent?' · Incumbent':''}</div><div class="war-number">${fmt(x.war)}</div><div class="war-label">Alabama WAR · ${x.percentile.toFixed(0)}th percentile</div><div class="distribution"><i style="left:${x.percentile}%"></i><div class="distribution-label"><span>Lowest</span><span>Median</span><span>Highest</span></div></div></div>${raceBox(x)}<div class="decomp"><div class="decomp-title">Residual decomposition</div><div class="stat"><span>Raw legislative-minus-ticket gap</span><b>${fmt(x.rawGap)}</b></div><div class="stat"><span>Fitted structural expectation</span><b>${fmt(x.predictedStructuralGap)}</b></div><div class="stat"><span>Lag component</span><b>${fmt(x.lagComponent)}</b></div><div class="stat"><span>Scoring method</span><b>${scope}</b></div><div class="stat"><span>Lag context</span><b>${x.lagContextAvailable?'Observed':'Unavailable; zero-valued model encoding'}</b></div></div><div class="decomp"><div class="decomp-title">Source quality</div><div class="quality-grid"><div><span>Baseline method</span><b>${esc(x.baselineMethod||'Unavailable')}</b></div><div><span>Identity linkage</span><b>${esc(x.identityStatus)}</b></div><div><span>Previous president</span><b>${fmtMaybe(x.priorPres)}</b></div><div><span>Votes</span><b>${x.votes.toLocaleString()}</b></div></div></div>${historyHtml}<div class="explain">${x.war>=0?'This candidate finished ahead of':'This candidate finished behind'} the fitted structural expectation by <b>${Math.abs(x.war).toFixed(1)} margin points</b>. ${x.scoringScope==='post2016_southern_model_backcast'?'This is a backward application of a model trained only on post-2016 Southern races.':'This is the published modern same-cycle residual.'}</div>`}'''
+    rendered = re.sub(r'function detail\(x\)\{.*?\}\nfunction renderMap', detail_js + '\nfunction renderMap', rendered, count=1, flags=re.S)
+    rows_js = r'''function renderRows(){const d=DATA[active],scope=$('#scope-filter').value,q=$('#candidate-search').value.toLowerCase(),party=$('#party-filter').value,outcome=$('#outcome-filter').value,source=scope==='all'?allCandidates():d.candidates.map(x=>({...x,section:active,cycle:d.cycle,chamber:d.chamber})),rows=source.filter(x=>(party==='all'||x.party===party)&&(outcome==='all'||(outcome==='winner'&&x.winner)||(outcome==='incumbent'&&x.incumbent))&&(!q||x.candidate.toLowerCase().includes(q)||String(x.district)===q||String(x.cycle)===q||`${x.chamber} ${x.district}`.includes(q))).sort((a,b)=>{let A=a[sortKey],B=b[sortKey];return(typeof A==='string'?A.localeCompare(B):(A??-9999)-(B??-9999))*sortDir});$('#rows').innerHTML=rows.map(x=>`<tr tabindex="0" data-section="${x.section}" data-district="${x.district}" data-party="${x.party}"><td>${x.cycle} ${x.chamber==='house'?'H':'S'}</td><td>${x.district}</td><td class="cand"><i class="party-dot ${x.party}"></i>${esc(x.candidate)}${x.winner?' <small>✓</small>':''}</td><td class="num"><b>${fmt(x.war)}</b></td><td class="num">${fmt(x.rawGap)}</td><td class="num">${fmt(x.predictedStructuralGap)}</td><td class="num">${fmt(x.lagComponent)}</td><td>${x.scoringScope==='post2016_southern_model_backcast'?'Modern backcast':'Published modern'}</td><td class="num">${fmt(x.cycleTopTicket)}</td><td class="num">${fmt(x.margin)}</td><td class="num">${x.votes.toLocaleString()}</td></tr>`).join('');document.querySelectorAll('#rows tr').forEach(row=>{row.onclick=()=>selectCandidate(row.dataset.section,row.dataset.district,row.dataset.party);row.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();row.onclick()}}})}'''
+    rendered = re.sub(r'function renderRows\(\)\{.*?\}\nfunction render\(', rows_js + '\nfunction render(', rendered, count=1, flags=re.S)
+    rendered = rendered.replace("<span>Median winner CMO</span>", "<span>Median winner WAR</span>")
+    rendered = rendered.replace("<span>Top winner</span>", "<span>Top WAR winner</span>")
+    rendered = rendered.replace(">CMO</a>", ">Alabama WAR</a>")
+    rendered = rendered.replace(">CMO methodology</a>", ">WAR methodology</a>")
+    return rendered
+
+
 if False and __name__ == "__main__":  # superseded by the residual-WAR publisher below
     data = load_data()
     rendered = modernize_war_headline(modernize_v6_copy(build_page(data)))
@@ -864,9 +958,13 @@ def build_residual_war_methodology():
     return '''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Alabama WAR methodology</title><style>body{margin:0;font:16px/1.65 Arial,sans-serif;color:#211d1e;background:#f6f7f5}header nav,main{width:min(900px,calc(100% - 36px));margin:auto}header{background:#fff;border-bottom:1px solid #ccd4d5}header nav{display:flex;gap:20px;padding:18px 0}a{color:#743b42;font-weight:700}h1,h2{font-family:Georgia,serif}h1{font-size:52px;line-height:1;margin:60px 0 18px}section{padding:10px 0 22px;border-bottom:1px solid #ccd4d5}.formula{background:#e9eef0;border-left:4px solid #743b42;padding:18px 20px;font-family:Georgia,serif}.links{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:70px}</style></head><body><header><nav><a href="index.html">Forecast</a><a href="cmo.html">Alabama WAR</a><a href="methods.html">Methods</a></nav></header><main><h1>Alabama WAR methodology</h1><p>Definitions, construction, validation, and limitations for the post-2016 Alabama legislative race residual.</p><section><h2>1. Estimand</h2><p>WAR is the actual legislative-minus-ticket gap minus the same-cycle fitted structural gap.</p><div class="formula">Race WAR = raw gap − fitted structural expected gap<br>Democratic candidate WAR = race WAR<br>Republican candidate WAR = −race WAR</div><p>No pooled individual candidate effect, career average, fundraising term, or ideology measure is called WAR.</p></section><section><h2>2. Structural expectation</h2><p>The source model is trained on strict post-2016 Southern Democratic-versus-Republican general elections. It estimates ordinary down-ballot structure from ticket partisanship, era, chamber, state, reviewed incumbency, and a lag term whose ticket-change effect decays over time. Finance was tested separately and rejected from headline WAR.</p></section><section><h2>3. Alabama coverage</h2><p>The Alabama publication filters the validated Southern run without refitting or changing scores: 64 races in 2018 and 33 in 2022, producing 194 opposite-signed candidate-cycle views. Uncontested, non-D–R, and non-strict rows are not silently scored.</p></section><section><h2>4. Forecast use</h2><p>A generic candidate has expected residual WAR of zero. The 2026 forecast therefore does not add prior WAR, CMO, candidate identity, repeat-candidate history, ideology, or fundraising. A candidate-independent structural adjustment was tested from 2018 into 2022 but failed its margin-error promotion gate, so it remains an audit diagnostic and is zero in the public headline.</p></section><section><h2>5. Limitations</h2><ul><li>WAR is retrospective and is not a win probability.</li><li>A race residual cannot uniquely separate candidate strength from opponent weakness or omitted local conditions.</li><li>Only two Alabama cycles are available after 2016, yielding one direct forward holdout.</li><li>Same-cycle ticket selection and historical district geography remain sources of uncertainty.</li></ul></section><section><h2>6. Downloads and credit</h2><p>The residual definition follows Split Ticket’s published framing of WAR as actual candidate performance minus structurally predicted performance. This Alabama implementation, data, and estimates are independent.</p><div class="links"><a href="data/alabama_war_v1_candidate_cycle_war.csv">Candidate ratings</a><a href="data/alabama_war_v1_race_war.csv">Race ratings</a><a href="data/alabama_war_v1_manifest.json">Manifest</a><a href="data/alabama_war_forecast_v1_forward_metrics.csv">Forecast test</a></div></section></main></body></html>'''
 
 
+def build_historical_residual_war_methodology():
+    return '''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Alabama historical WAR methodology</title><style>body{margin:0;font:16px/1.65 Arial,sans-serif;color:#211d1e;background:#f6f7f5}header nav,main{width:min(900px,calc(100% - 36px));margin:auto}header{background:#fff;border-bottom:1px solid #ccd4d5}header nav{display:flex;gap:20px;padding:18px 0}a{color:#743b42;font-weight:700}h1,h2{font-family:Georgia,serif}h1{font-size:52px;line-height:1;margin:60px 0 18px}section{padding:10px 0 22px;border-bottom:1px solid #ccd4d5}.formula{background:#e9eef0;border-left:4px solid #743b42;padding:18px 20px;font-family:Georgia,serif}.warning{background:#fff3d6;border-left:4px solid #ae7b26;padding:14px}.links{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:70px}</style></head><body><header><nav><a href="index.html">Forecast</a><a href="cmo.html">Alabama WAR</a><a href="methods.html">Methods</a></nav></header><main><h1>Alabama historical WAR methodology</h1><p>Race-residual WAR for Alabama legislative elections from 1994 through 2022.</p><section><h2>1. Estimand</h2><div class="formula">Raw gap = Democratic legislative margin − Democratic ticket margin<br>Race WAR = raw gap − fitted structural expected gap<br>Democratic WAR = race WAR; Republican WAR = −race WAR</div><p>Every score is a race differential in two-party margin points. No pooled candidate coefficient, career average, fundraising, or ideology adjustment enters WAR.</p></section><section><h2>2. Modern training model</h2><p>The backcast uses the selected <code>decaying_lag</code> ridge specification with alpha 100. It is trained on 3,658 strict Southern races after 2016. Predictors are incumbency balance, ticket margin and its square, time and cycle indicators, state, chamber, ticket-office family, prior presidential margin, ticket change, and the ticket-change-by-years interaction.</p></section><section><h2>3. Historical backcast</h2><p>For the 412 races from 1994 through 2014, the modern fitted relationship is applied backward to the historical Alabama ticket, incumbency, chamber, and prior-presidential context. The model is not refit on those historical outcomes.</p><div class="warning"><b>Extrapolation warning.</b> These scores answer how historical races compare with a modern structural relationship. They are not contemporaneous historical fits, and negative years-since-2016 values extend the model outside its training era.</div></section><section><h2>4. Published modern scores</h2><p>The 97 races in 2018 and 2022 retain the exact published Alabama WAR v1 same-cycle residuals. The pooled modern-model prediction is retained only as a diagnostic.</p></section><section><h2>5. Missingness and names</h2><p>Missing prior-presidential context remains labeled. For compatibility with the selected modern design, unavailable numeric lag inputs receive its zero-valued model encoding; that is not treated as an observed zero.</p><p>Candidate display names come from election identity records, with archived election pages used only as a spelling cross-check. Finance provider names, committee names, and committee IDs cannot supply display identity.</p></section><section><h2>6. Interpretation and limitations</h2><ul><li>WAR is retrospective, not a forecast probability.</li><li>A race residual cannot distinguish candidate strength from opponent weakness or omitted local conditions.</li><li>Historical baselines, district allocation, and map vintages carry source uncertainty.</li><li>The public forecast evaluates generic candidates at zero expected WAR.</li></ul></section><section><h2>7. Downloads</h2><div class="links"><a href="data/alabama_historical_war_v1_candidate_cycle_war.csv">Candidate-cycle WAR</a><a href="data/alabama_historical_war_v1_race_war.csv">Race WAR</a><a href="data/alabama_historical_war_v1_coverage.csv">Coverage</a><a href="data/alabama_historical_war_v1_structural_coefficients.csv">Coefficients</a><a href="data/alabama_historical_war_v1_manifest.json">Manifest</a></div></section></main></body></html>'''
+
+
 if __name__ == "__main__":
-    rendered = build_residual_war_page()
-    methodology_html = build_residual_war_methodology()
+    rendered = modernize_historical_residual_war(build_page(load_data()))
+    methodology_html = build_historical_residual_war_methodology()
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     SITE_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(rendered, encoding="utf-8")
@@ -876,6 +974,11 @@ if __name__ == "__main__":
     site_data = SITE_OUTPUT.parent / "data"
     site_data.mkdir(parents=True, exist_ok=True)
     sources = {
+        WAR / "alabama_historical_war_v1" / "candidate_cycle_war.csv": "alabama_historical_war_v1_candidate_cycle_war.csv",
+        WAR / "alabama_historical_war_v1" / "race_war.csv": "alabama_historical_war_v1_race_war.csv",
+        WAR / "alabama_historical_war_v1" / "coverage.csv": "alabama_historical_war_v1_coverage.csv",
+        WAR / "alabama_historical_war_v1" / "structural_coefficients.csv": "alabama_historical_war_v1_structural_coefficients.csv",
+        WAR / "alabama_historical_war_v1" / "manifest.json": "alabama_historical_war_v1_manifest.json",
         WAR / "alabama_war_v1" / "candidate_cycle_war.csv": "alabama_war_v1_candidate_cycle_war.csv",
         WAR / "alabama_war_v1" / "race_war.csv": "alabama_war_v1_race_war.csv",
         WAR / "alabama_war_v1" / "coverage.csv": "alabama_war_v1_coverage.csv",
@@ -884,4 +987,4 @@ if __name__ == "__main__":
     }
     for source, name in sources.items():
         shutil.copy2(source, site_data / name)
-    print(f"Wrote corrected Alabama WAR page with 194 candidate-cycle ratings ({OUTPUT})")
+    print(f"Wrote historical Alabama WAR map with 1,018 candidate-cycle ratings ({OUTPUT})")

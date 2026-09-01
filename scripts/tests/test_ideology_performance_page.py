@@ -21,21 +21,25 @@ def test_payload_uses_current_three_group_contract() -> None:
         ROOT / "research/cmo_ideology/democratic_clusters/democratic_candidate_cluster_membership.csv",
         low_memory=False,
     )
-    assert data["schemaVersion"] == 2
+    assert data["schemaVersion"] == 3
     assert set(data["groups"]) == GROUPS
     assert len(data["members"]) == len(current)
     assert len([row for row in data["members"] if row["party"] == "D"]) == int(current.party.eq("D").sum())
     assert {row["cluster_label"] for row in data["members"] if row["party"] == "D"} == GROUPS
     assert all("candidate_cmo" not in row for row in data["members"])
     assert all("candidate_quality_residual" not in row for row in data["members"])
-    assert all(row["candidate_quality_index"] is not None for row in data["members"])
+    assert all(row["candidate_cycle_war"] is not None for row in data["members"])
+    assert all(row["war_scoring_scope"] in {
+        "post2016_southern_model_backcast", "published_same_cycle_residual"
+    } for row in data["members"])
+    assert all("candidate_quality_index" not in row for row in data["members"])
 
 
 def test_group_summaries_are_recomputed_from_members() -> None:
     data = payload()
     members = pd.DataFrame(data["members"])
     outcomes = {
-        "candidate_quality_index",
+        "candidate_cycle_war",
         "candidate_federal_overperformance",
         "candidate_presidential_overperformance",
     }
@@ -59,7 +63,7 @@ def test_adjusted_comparisons_include_both_nonreference_groups() -> None:
     assert all(row["method"] == "cycle_chamber_fixed_effects_person_clustered_se" for row in data["contrasts"])
     quality = next(
         row for row in data["contrasts"]
-        if row["group"] == TRADITIONALIST and row["outcome"] == "candidate_quality_index"
+        if row["group"] == TRADITIONALIST and row["outcome"] == "candidate_cycle_war"
     )
     assert quality["difference"] > 0
     assert quality["ci_low"] > 0
@@ -91,11 +95,15 @@ def test_cases_cover_every_group_and_use_reproducible_selection() -> None:
         group = members[
             members.party.eq("D")
             & members.cluster_label.eq(case["group"])
-            & members.candidate_quality_index.notna()
+            & members.candidate_cycle_war.notna()
             & members.candidate_federal_overperformance.notna()
         ].copy()
-        expected = group.loc[(group.candidate_quality_index - group.candidate_quality_index.median()).abs().idxmin()]
-        assert case["canonical_candidate_id"] == expected.canonical_candidate_id
+        distances = (group.candidate_cycle_war - group.candidate_cycle_war.median()).abs()
+        selected_distance = float(distances[
+            group.canonical_candidate_id.eq(case["canonical_candidate_id"])
+        ].iloc[0])
+        # JSON precision can reverse an exact near-tie at the final decimal.
+        assert selected_distance <= float(distances.min()) + 1e-6
 
 
 def test_evidence_coverage_is_current_and_exhaustive() -> None:
@@ -144,8 +152,8 @@ def test_page_language_and_measurements_are_explicit() -> None:
     html = build()
     for group in GROUPS:
         assert group in html
-    assert "WAR means Wins Above Replacement" in html
-    assert "WAR (Wins Above Replacement)" in html
+    assert "WAR is the candidate-oriented race residual" in html
+    assert "Race-residual WAR" in html
     assert "Candidate Quality Index" not in html
     assert "CQI" not in html
     assert "Raw margin overperformance versus federal candidates" in html
@@ -156,9 +164,12 @@ def test_page_language_and_measurements_are_explicit() -> None:
     assert "https://split-ticket.org/2025/08/15/deconstructing-war/" in html
     assert "Split Ticket's WAR methodology" in html
     assert html.index('id="performance"') < html.index('id="overview"')
-    assert "const OUTCOME_LABELS={candidate_quality_index:'WAR'" in html
+    assert "const OUTCOME_LABELS={candidate_cycle_war:'Race-residual WAR'" in html
+    assert "No pooled individual effect, fundraising term, or ideology term enters WAR" in html
+    assert "post-2016 Southern races" in html
     for stale in (
-        "candidate_cmo", "candidate_quality_residual", "two blocs", "binary comparison",
+        "candidate_cmo", "candidate_quality_residual", "candidate_quality_index",
+        "two blocs", "binary comparison",
         "Three-dimensional", "Candidate Atlas", "undefined", "https://cdn",
     ):
         assert stale not in html
