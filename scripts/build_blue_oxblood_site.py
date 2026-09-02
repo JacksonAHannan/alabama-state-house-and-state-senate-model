@@ -21,6 +21,7 @@ CAUCUS_CANDIDATE = ROOT / "artifacts" / "site" / "caucuses.html"
 BUILDERS = (
     "build_2026_forecast_dashboard.py",
     "build_war_story_page.py",
+    "build_southern_war_map.py",
     "build_democratic_transition_page.py",
     "build_caucus_analysis_page.py",
     "build_legislator_ideology_page.py",
@@ -30,6 +31,8 @@ PUBLIC_PAGES = (
     "methodology.html",
     "cmo.html",
     "cmo-methodology.html",
+    "southern-war.html",
+    "southern-war-methodology.html",
     "methods.html",
     "ideology-performance.html",
     "caucuses.html",

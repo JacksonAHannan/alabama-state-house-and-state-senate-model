@@ -48,6 +48,16 @@ def test_publication_exports_match_current_model_outputs() -> None:
         source = WAR / "alabama_historical_war_v1" / source_name
         assert source.read_bytes() == (DOCS / "data" / public_name).read_bytes()
 
+    southern_pairs = [
+        ("race_war.csv", "southern_historical_war_v1_race_war.csv"),
+        ("candidate_cycle_war.csv", "southern_historical_war_v1_candidate_cycle_war.csv"),
+        ("coverage.csv", "southern_historical_war_v1_coverage.csv"),
+        ("manifest.json", "southern_historical_war_v1_manifest.json"),
+    ]
+    for source_name, public_name in southern_pairs:
+        source = WAR / "southern_historical_war_v1" / source_name
+        assert source.read_bytes() == (DOCS / "data" / public_name).read_bytes()
+
     forecast_names = [
         "alabama_war_forecast_v1_2026_scenarios.csv",
         "alabama_war_forecast_v1_2026_full_uncertainty.csv",
