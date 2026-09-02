@@ -27,7 +27,7 @@ The backcast prediction is retained for 2018/2022 as a diagnostic but does not r
 
 ## Identity authority
 
-Candidate display names come from the canonical Alabama election candidate record. Archived election-page names may supply a secondary spelling cross-check in the page builder. Finance `provider_candidate_name`, committee names, committee IDs, and finance aliases are prohibited from display-name selection.
+Candidate display names come from the canonical Alabama election candidate record. When that record contains an identifier-shaped source label rather than a person's name, an evidence-backed adjudication with a `verified_` identity status in `data/manual/ideology/candidate_research_aliases.csv` supplies the public name; the malformed source value remains in `source_candidate_name`. Archived election-page names may supply a secondary spelling cross-check in the page builder. Finance `provider_candidate_name`, committee names, committee IDs, and finance aliases are prohibited from display-name selection. Committee-like and identifier-shaped values cannot pass the publication gate.
 
 ## Missingness and extrapolation
 

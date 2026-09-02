@@ -73,12 +73,25 @@ def test_2018_and_2022_exactly_preserve_published_alabama_war() -> None:
 
 def test_candidate_display_names_cannot_come_from_finance_committees() -> None:
     candidates = load("candidate_cycle_war.csv")
-    assert candidates.display_name_source.eq("canonical_alabama_election_candidate").all()
+    assert set(candidates.display_name_source) == {
+        "canonical_alabama_election_candidate", "verified_candidate_research_alias"
+    }
     committee = re.compile(
         r"committee|campaign|friends of|\bfor (?:house|senate|representative)\b|\bpac\b",
         re.IGNORECASE,
     )
     assert not candidates.candidate_name.astype(str).str.contains(committee, na=False).any()
+    source_id = re.compile(r"^[A-Z]{3}\d{3}[A-Z]{4,}$")
+    assert not candidates.candidate_name.astype(str).str.fullmatch(source_id, na=False).any()
+    expected = {
+        "AL-2022-house-12-D-GSL012DFIE": "James C. Fields Jr.",
+        "AL-2022-house-27-D-GSL027DNEU": "Herb Neu",
+        "AL-2022-house-47-D-GSL047DCOL": "Christian Coleman",
+    }
+    actual = candidates.set_index("canonical_candidate_id").candidate_name.to_dict()
+    assert {key: actual[key] for key in expected} == expected
+    original = candidates.set_index("canonical_candidate_id").source_candidate_name.to_dict()
+    assert original["AL-2022-house-12-D-GSL012DFIE"] == "GSL012DFIE"
     source = (ROOT / "scripts/build_alabama_historical_war_v1.py").read_text(encoding="utf-8")
     assert "provider_candidate_name" not in source
     assert "committee_id" not in source
@@ -90,6 +103,9 @@ def test_manifest_records_extrapolation_and_no_pooling_or_finance() -> None:
     assert manifest["configuration"]["candidate_pooling"] is False
     assert manifest["configuration"]["finance_in_war"] is False
     assert manifest["configuration"]["committee_names_allowed"] is False
+    assert manifest["configuration"]["identifier_shaped_names_allowed"] is False
     assert manifest["diagnostics"]["race_rows"] == 509
     assert manifest["diagnostics"]["committee_like_candidate_names"] == 0
+    assert manifest["diagnostics"]["identifier_shaped_candidate_names"] == 0
+    assert manifest["diagnostics"]["verified_display_name_adjudications"] > 0
     assert manifest["status"] == "validated_historical_backcast_with_extrapolation_warning"

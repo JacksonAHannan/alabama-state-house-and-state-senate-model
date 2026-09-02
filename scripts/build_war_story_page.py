@@ -965,6 +965,13 @@ def build_historical_residual_war_methodology():
 if __name__ == "__main__":
     rendered = modernize_historical_residual_war(build_page(load_data()))
     methodology_html = build_historical_residual_war_methodology()
+    methodology_html = methodology_html.replace(
+        "Candidate display names come from election identity records, with archived election pages used only as a spelling cross-check.",
+        "Candidate display names come from election identity records. Evidence-backed manual adjudications replace malformed identifier-shaped source labels, while archived election pages provide a spelling cross-check.",
+    ).replace(
+        "The public forecast evaluates generic candidates at zero expected WAR.",
+        "The public forecast sets candidate-specific residual WAR to zero, while retaining the fitted WAR structure and incumbency effect.",
+    )
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     SITE_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(rendered, encoding="utf-8")

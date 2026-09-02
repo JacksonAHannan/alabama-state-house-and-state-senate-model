@@ -1,29 +1,31 @@
 #!/usr/bin/env python3
 """Forecast 2026 Alabama races as generic D versus generic R candidates.
 
-The national generic ballot supplies the election environment. The only
-prospective race adjustment is a candidate-independent structural model plus
-reviewed incumbency balance. Candidate WAR, candidate history, ideology, and
-campaign finance are absent by contract.
+The national generic ballot supplies the election environment. A structural
+WAR expectation trained on post-2016 Alabama races adjusts that baseline,
+including the model's incumbency effect. Candidate-specific WAR, candidate
+history, ideology, and campaign finance are absent by contract.
 """
 from __future__ import annotations
 
 import hashlib
 import json
 import subprocess
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
 from scipy.stats import t as student_t
-from sklearn.linear_model import Ridge
 from sklearn.metrics import accuracy_score, brier_score_loss, mean_absolute_error, mean_squared_error
-from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import StandardScaler
 
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
+
+import retrain_post2016_southern_war_v2 as war_model  # noqa: E402
+
 WAR = ROOT / "data/processed/war"
 AL_WAR = WAR / "alabama_war_v1"
 POLLING = ROOT / "data/processed/polling"
@@ -35,6 +37,7 @@ AUDIT = ROOT / "project_docs/audits/ALABAMA_WAR_FORECAST_VALIDATION.md"
 PREFIX = "alabama_war_forecast_v1"
 SEED = 20260831
 ALPHA = 100.0
+WAR_SPECIFICATION = "decaying_lag"
 SIMULATION_DRAWS = 50_000
 FEATURES = [
     "environment_baseline_margin",
@@ -60,16 +63,51 @@ def git_commit() -> str:
         return "unknown"
 
 
-def model() -> Pipeline:
-    return Pipeline([("scale", StandardScaler()), ("ridge", Ridge(alpha=ALPHA))])
-
-
 def feature_engineering(frame: pd.DataFrame) -> pd.DataFrame:
     result = frame.copy()
     result["baseline_margin_squared"] = result.environment_baseline_margin.pow(2) / 100.0
     result["environment_change_x_years"] = result.environment_ticket_change * (result.cycle - 2016)
     result["chamber_upper"] = result.chamber.isin(["upper", "senate"]).astype(int)
     return result
+
+
+def prepare_war_environment_rows(frame: pd.DataFrame) -> pd.DataFrame:
+    """Map a generic-ballot environment into the published WAR design."""
+    result = frame.copy()
+    result["state_code"] = "AL"
+    result["chamber"] = result.chamber.map(
+        {"house": "lower", "senate": "upper", "lower": "lower", "upper": "upper"}
+    )
+    if result.chamber.isna().any():
+        raise RuntimeError("Unknown prospective chamber in WAR environment rows")
+    result["baseline_dem_margin"] = result.environment_baseline_margin.astype(float)
+    result["baseline_office_family"] = "generic_ballot"
+    result["years_since_2016"] = result.cycle.astype(int) - 2016
+    result["lag_current_ticket_change"] = result.environment_ticket_change.astype(float)
+    result["lag_change_x_years"] = (
+        result.lag_current_ticket_change * result.years_since_2016
+    )
+    return result
+
+
+def war_structural_prediction(
+    rows: pd.DataFrame, *, training_before: int | None = None
+) -> tuple[np.ndarray, list[str], int, str]:
+    training, warehouse_run = war_model.load_training()
+    training = war_model.attach_lag_context(training)
+    if training_before is not None:
+        training = training[training.cycle.lt(training_before)].copy()
+    if training.empty or not training.cycle.gt(2016).all():
+        raise RuntimeError("WAR forecast training must contain only post-2016 races")
+    prepared = prepare_war_environment_rows(rows)
+    combined = pd.concat([training, prepared], ignore_index=True, sort=False)
+    designs, _ = war_model.design_matrices(combined)
+    design = designs[WAR_SPECIFICATION]
+    fitted = war_model.ridge_model(ALPHA).fit(
+        design.iloc[: len(training)], training.direct_overperformance.to_numpy(float)
+    )
+    prediction = fitted.predict(design.iloc[len(training):])
+    return prediction, list(design.columns), len(training), str(warehouse_run["build_run_id"])
 
 
 def historical_panel() -> pd.DataFrame:
@@ -103,20 +141,17 @@ def probability_scale(margins: np.ndarray, outcomes: np.ndarray) -> tuple[float,
 
 
 def forward_test(panel: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, float, pd.DataFrame]:
-    train = panel[panel.cycle.eq(2018)].copy()
     test = panel[panel.cycle.eq(2022)].copy()
-    fitted = model().fit(train[FEATURES], train.generic_structural_target)
-    predicted_adjustment = fitted.predict(test[FEATURES])
+    predicted_adjustment, _, train_rows, _ = war_structural_prediction(
+        test, training_before=2022
+    )
     baseline_prediction = test.environment_baseline_margin.to_numpy(float)
     structural_prediction = baseline_prediction + predicted_adjustment
     actual = test.legislative_dem_margin.to_numpy(float)
     outcomes = (actual > 0).astype(int)
-    # The structural candidate must beat the generic-ballot baseline before it
-    # can enter the public headline. Probability calibration follows the
-    # selected (baseline) margin model when that promotion gate fails.
     baseline_mae = float(mean_absolute_error(actual, baseline_prediction))
     structural_mae = float(mean_absolute_error(actual, structural_prediction))
-    selected_prediction = structural_prediction if structural_mae < baseline_mae else baseline_prediction
+    selected_prediction = structural_prediction
     scale, probability_table = probability_scale(selected_prediction, outcomes)
     probabilities = student_t.cdf(selected_prediction / scale, df=5.0)
 
@@ -124,8 +159,8 @@ def forward_test(panel: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, float
         "dem_candidate_name", "rep_candidate_name", "legislative_dem_margin",
         "generic_ballot_environment_margin", "environment_baseline_margin", "incumbency_balance",
     ]].copy()
-    predictions["rejected_structural_adjustment"] = predicted_adjustment
-    predictions["generic_structural_adjustment"] = np.where(structural_mae < baseline_mae, predicted_adjustment, 0.0)
+    predictions["war_structural_expected_gap"] = predicted_adjustment
+    predictions["generic_structural_adjustment"] = predicted_adjustment
     predictions["predicted_dem_margin"] = selected_prediction
     predictions["error"] = actual - selected_prediction
     predictions["dem_win_probability"] = probabilities
@@ -140,8 +175,8 @@ def forward_test(panel: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, float
         ("generic_war_structural", structural_prediction, student_t.cdf(structural_prediction / scale, df=5.0)),
     ):
         metric_rows.append({
-            "specification": name, "train_cycle": 2018, "test_cycle": 2022,
-            "train_races": len(train), "test_races": len(test),
+            "specification": name, "train_cycle": "post2016_before_2022", "test_cycle": 2022,
+            "train_races": train_rows, "test_races": len(test),
             "mae": float(mean_absolute_error(actual, prediction)),
             "rmse": float(mean_squared_error(actual, prediction) ** 0.5),
             "mean_error": float(np.mean(actual - prediction)),
@@ -183,8 +218,9 @@ def prospective_features() -> pd.DataFrame:
     return result
 
 
-def predict_scenarios(panel: pd.DataFrame, scale: float, promote_structural: bool) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
-    fitted = model().fit(panel[FEATURES], panel.generic_structural_target)
+def predict_scenarios(
+    scale: float,
+) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, list[str], str]:
     current = prospective_features()
     component = pd.read_csv(OUT / "robust_forecast_v1_error_components.csv").iloc[0]
     national_sd = float(component.national_sd)
@@ -198,18 +234,24 @@ def predict_scenarios(panel: pd.DataFrame, scale: float, promote_structural: boo
         scenario_frame["environment_baseline_margin"] += shift
         scenario_frame["environment_ticket_change"] += shift
         scenario_frame = feature_engineering(scenario_frame)
-        full_adjustment = fitted.predict(scenario_frame[FEATURES])
+        full_adjustment, design_features, _, warehouse_run_id = war_structural_prediction(
+            scenario_frame
+        )
         neutral = scenario_frame.copy()
-        neutral["incumbency_balance"] = 0
-        neutral_adjustment = fitted.predict(neutral[FEATURES])
+        neutral["incumbency_balance"] = 0.0
+        neutral_adjustment, neutral_features, _, neutral_run_id = war_structural_prediction(
+            neutral
+        )
+        if neutral_features != design_features or neutral_run_id != warehouse_run_id:
+            raise RuntimeError("WAR structural decomposition used inconsistent designs")
         scenario_frame["scenario"] = scenario
         scenario_frame["source_scenario"] = "uniform_generic_ballot_environment"
         scenario_frame["polling_error_adjustment"] = shift
-        scenario_frame["rejected_structural_adjustment"] = full_adjustment
-        scenario_frame["generic_downballot_lag"] = neutral_adjustment if promote_structural else 0.0
-        scenario_frame["incumbency_adjustment"] = (full_adjustment - neutral_adjustment) if promote_structural else 0.0
+        scenario_frame["war_structural_expected_gap"] = full_adjustment
+        scenario_frame["generic_downballot_lag"] = neutral_adjustment
+        scenario_frame["incumbency_adjustment"] = full_adjustment - neutral_adjustment
         scenario_frame["fundraising_adjustment"] = 0.0
-        scenario_frame["generic_structural_adjustment"] = full_adjustment if promote_structural else 0.0
+        scenario_frame["generic_structural_adjustment"] = full_adjustment
         scenario_frame["candidate_war_adjustment"] = 0.0
         scenario_frame["candidate_history_used"] = False
         scenario_frame["finance_used"] = False
@@ -220,7 +262,7 @@ def predict_scenarios(panel: pd.DataFrame, scale: float, promote_structural: boo
         scenario_frame["dem_win_probability"] = student_t.cdf(
             scenario_frame.predicted_dem_margin / scale, df=5.0
         )
-        scenario_frame["model_used"] = "generic_war_structural" if promote_structural else "generic_ballot_zero_war"
+        scenario_frame["model_used"] = "generic_war_environment_adjusted"
         scenario_frame["selected_model"] = "alabama_war_generic_candidate"
         scenario_frame["current_national_poll_margin"] = scenario_frame.generic_ballot_environment_margin
         scenario_frame["poll_average_as_of"] = scenario_frame.poll_average_as_of.astype(str)
@@ -262,7 +304,10 @@ def predict_scenarios(panel: pd.DataFrame, scale: float, promote_structural: boo
             "chamber": chamber, "dem_modeled_seats": int(value),
             "probability": float(frequency / SIMULATION_DRAWS), "draws": SIMULATION_DRAWS,
         } for value, frequency in zip(values, frequencies))
-    return scenarios, pd.DataFrame(uncertainty_rows), pd.DataFrame(modeled_seat_rows)
+    return (
+        scenarios, pd.DataFrame(uncertainty_rows), pd.DataFrame(modeled_seat_rows),
+        design_features, warehouse_run_id,
+    )
 
 
 def main() -> None:
@@ -271,8 +316,7 @@ def main() -> None:
     forward, metrics, scale, probability_table = forward_test(panel)
     baseline_metric = metrics[metrics.specification.eq("generic_ballot_baseline")].iloc[0]
     structural_metric = metrics[metrics.specification.eq("generic_war_structural")].iloc[0]
-    promote_structural = bool(structural_metric.mae < baseline_metric.mae)
-    scenarios, uncertainty, modeled_seats = predict_scenarios(panel, scale, promote_structural)
+    scenarios, uncertainty, modeled_seats, design_features, warehouse_run_id = predict_scenarios(scale)
 
     paths = {
         "historical_panel": OUT / f"{PREFIX}_historical_panel.csv",
@@ -291,34 +335,45 @@ def main() -> None:
     for key, path in paths.items():
         frames[key].to_csv(path, index=False)
 
-    selected_specification = "generic_war_structural" if promote_structural else "generic_ballot_baseline"
+    selected_specification = "generic_war_structural"
     selected = metrics[metrics.specification.eq(selected_specification)].iloc[0]
     generated = datetime.now(timezone.utc).isoformat()
     build_id = hashlib.sha256(
-        (sha256(AL_WAR / "race_war.csv") + sha256(CONTRACT) + ",".join(FEATURES)).encode()
+        (
+            sha256(AL_WAR / "race_war.csv")
+            + sha256(WAR / "post2016_southern_war_v3/manifest.json")
+            + sha256(WAR / "2026_poll_adjusted_baseline.csv")
+            + sha256(CONTRACT)
+            + selected_specification
+            + ",".join(FEATURES)
+        ).encode()
     ).hexdigest()[:20]
     manifest = {
-        "schema_version": 1,
-        "status": "validated_generic_candidate_forecast",
-        "methodology_version": "alabama_war_generic_forecast_v1",
+        "schema_version": 2,
+        "status": "published_owner_selected_environment_adjusted_war_forecast_with_validation_warning",
+        "methodology_version": "alabama_war_environment_forecast_v2",
         "build_id": build_id,
         "generated_at_utc": generated,
         "git_commit": git_commit(),
         "selected_specification": selected_specification,
+        "selection_reason": "owner_required_war_structural_expectation_with_generic_ballot_environment",
         "probability": {"family": "student_t", "df": 5.0, "scale": scale},
         "configuration": {
             "seed": SEED, "simulation_draws": SIMULATION_DRAWS, "ridge_alpha": ALPHA,
-            "design_features": FEATURES,
+            "design_features": design_features,
             "generic_ballot_environment": True,
             "candidate_war_adjustment": 0.0,
             "candidate_history_used": False,
             "finance_used": False,
             "ideology_used": False,
             "generic_candidate_assumption": True,
-            "incumbency_treatment": "tested_in_candidate_structural_model; zero when promotion gate fails",
-            "structural_promotion_gate": "forward_2022_mae_strictly_better_than_generic_ballot_baseline",
-            "structural_promoted": promote_structural,
-            "forward_test": "train_2018_test_2022",
+            "incumbency_treatment": "included_as_symmetric_race_condition_in_war_structure",
+            "structural_selection_policy": "owner_selected; forward validation retained as advisory",
+            "structural_applied": True,
+            "forward_test": "train_post2016_southern_before_2022_test_alabama_2022",
+            "war_training_cutoff_rule": "cycle > 2016; prospective fit through 2024",
+            "war_structural_specification": WAR_SPECIFICATION,
+            "war_training_warehouse_run_id": warehouse_run_id,
         },
         "diagnostics": {
             "historical_rows": len(panel), "forward_test_rows": len(forward),
@@ -326,6 +381,9 @@ def main() -> None:
             "selected_forward_mae": float(selected.mae),
             "baseline_forward_mae": float(baseline_metric.mae),
             "candidate_structural_forward_mae": float(structural_metric.mae),
+            "structural_improves_baseline_on_holdout": bool(
+                structural_metric.mae < baseline_metric.mae
+            ),
             "max_forecast_identity_error": float((
                 scenarios.predicted_dem_margin
                 - scenarios.environment_baseline_margin
@@ -337,6 +395,7 @@ def main() -> None:
             {"path": str(path.relative_to(ROOT)).replace("\\", "/"), "sha256": sha256(path)}
             for path in (
                 AL_WAR / "race_war.csv", AL_WAR / "manifest.json",
+                WAR / "post2016_southern_war_v3/manifest.json",
                 POLLING / "historical_silver_a_generic_ballot_cycles.csv",
                 WAR / "2026_final_candidate_roster.csv", WAR / "2026_candidate_incumbency.csv",
                 WAR / "2026_poll_adjusted_baseline.csv", OUT / "robust_forecast_v1_error_components.csv", CONTRACT,
@@ -349,20 +408,27 @@ def main() -> None:
     }
     manifest_path = OUT / f"{PREFIX}_manifest.json"
     manifest_path.write_text(json.dumps(manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    holdout_assessment = (
+        "improved on the generic-ballot-only benchmark"
+        if structural_metric.mae < baseline_metric.mae
+        else "performed worse than the generic-ballot-only benchmark"
+    )
 
     METHOD.write_text(
         f"# Alabama WAR generic-candidate forecast v1\n\nBuild: `{build_id}`\n\nGenerated: `{generated}`\n\n"
         "The forecast evaluates a generic Democrat against a generic Republican. Candidate identity, prior WAR/CMO, "
-        "repeat-candidate performance, ideology, and fundraising are absent; prospective candidate WAR is exactly zero. "
-        "Reviewed incumbency remains a symmetric structural race condition.\n\n"
-        "The baseline is each district's prior presidential margin shifted by the national generic ballot. A ridge model "
-        "trained only on Alabama's post-2016 contested races predicts the ordinary legislative-minus-baseline gap using "
-        "the environment baseline, its curvature and time interaction, chamber, and incumbency balance. The model trains "
-        "on 2018 and is tested on 2022 before being refit on both cycles for 2026.\n\n"
+        "repeat-candidate performance, ideology, and fundraising are absent; prospective candidate-specific WAR is "
+        "exactly zero. Incumbency remains a symmetric race condition in the WAR structure.\n\n"
+        "The baseline is each district's prior presidential margin shifted by the national generic ballot. The published "
+        "post-2016 Southern WAR `decaying_lag` ridge design predicts the ordinary legislative-minus-baseline gap using "
+        "ticket partisanship, time, state, chamber, ticket family, prior presidential context, ticket change, and "
+        "incumbency balance. The 2022 diagnostic fits eligible Southern races before 2022; the prospective fit uses all "
+        "eligible post-2016 Southern races through 2024.\n\n"
         f"The candidate-independent structural adjustment produced a {structural_metric.mae:.3f}-point 2022 MAE versus "
-        f"{baseline_metric.mae:.3f} for the generic-ballot district baseline. It therefore failed the promotion gate and "
-        "is zero in the headline forecast. This is the corrected WAR identity for generic candidates: the residual WAR "
-        f"term is zero. Probabilities use Student-t(5) with a {scale:.2f}-point scale chosen on that single "
+        f"{baseline_metric.mae:.3f} for the generic-ballot district baseline. The published specification applies that "
+        f"structural expected gap at the project owner's direction. It {holdout_assessment} on the sole Alabama 2022 "
+        "holdout; that comparison remains explicit. Candidate-specific residual WAR remains zero. Probabilities use Student-t(5) with a "
+        f"{scale:.2f}-point scale chosen on that single "
         "holdout; that limited probability sample is a material uncertainty. Chamber simulations add correlated national, "
         "statewide, chamber, and district error components.\n",
         encoding="utf-8",
@@ -370,11 +436,12 @@ def main() -> None:
     AUDIT.write_text(
         f"# Alabama WAR forecast validation\n\nBuild `{build_id}` generated `{generated}`.\n\n"
         f"- Alabama retrospective coverage: {len(panel)} races (2018 and 2022).\n"
-        f"- Forward test: {len(forward)} 2022 races after training on 2018 only.\n"
+        f"- Forward test: {len(forward)} Alabama 2022 races after training on {int(structural_metric.train_races)} eligible Southern races after 2016 and before 2022.\n"
         f"- Generic structural candidate MAE: {structural_metric.mae:.3f}; generic-ballot baseline MAE: {baseline_metric.mae:.3f}.\n"
-        f"- Structural promotion gate: {'passed' if promote_structural else 'failed'}; selected specification: `{selected_specification}`.\n"
+        f"- Selected specification: `{selected_specification}` by owner-required model definition; forward validation is advisory.\n"
         f"- Prospective coverage: {int(scenarios.groupby('scenario').size().min())} D-R races in each scenario.\n"
-        "- Candidate WAR is zero, candidate history is false, finance is false, and the forecast identity reconciles within floating-point tolerance.\n"
+        "- Candidate-specific WAR is zero, incumbency is included structurally, candidate history is false, finance is false, and the forecast identity reconciles within floating-point tolerance.\n"
+        f"- Holdout assessment: the selected structural specification {holdout_assessment} on the sole Alabama 2022 holdout.\n"
         "- Limitation: Alabama supplies only one direct forward cycle, so calibration and structural estimates remain sample-limited.\n",
         encoding="utf-8",
     )

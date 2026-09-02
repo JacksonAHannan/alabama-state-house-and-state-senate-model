@@ -72,7 +72,8 @@ def test_public_pages_describe_current_runs() -> None:
     assert "Forecast and polling-error scenarios" in forecast
     assert "Dem scenario" in forecast and "Rep scenario" in forecast
     assert "Student-t" in forecast_method
-    assert "64 contested 2018 races" in forecast_method
+    assert "eligible Southern races after 2016 and before 2022" in forecast_method
+    assert "WAR model's incumbency term" in forecast_method
     assert (
         f"records {headline_mae:.2f} points of MAE"
         in forecast_method

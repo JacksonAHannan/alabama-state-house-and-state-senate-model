@@ -290,7 +290,8 @@ def test_candidate_finance_is_display_only_not_model_input():
 def test_methodology_has_no_legacy_forecast_claims():
     text = (ROOT / "docs" / "methodology.html").read_text(encoding="utf-8")
     headline_mae = selected_headline_mae()
-    assert "64 contested 2018 races" in text
+    assert "eligible Southern races after 2016 and before 2022" in text
+    assert "WAR model's incumbency term" in text
     assert (
         f"records {headline_mae:.2f} points of MAE"
         in text

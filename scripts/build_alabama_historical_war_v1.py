@@ -29,6 +29,7 @@ HISTORICAL_CONTEXT = ROOT / "data/processed/elections/canonical_cmo_features.csv
 PUBLISHED_ALABAMA = WAR / "alabama_war_v1"
 SOUTHERN_MANIFEST = WAR / "post2016_southern_war_v3/manifest.json"
 FIELD_CONTRACT = ROOT / "project_docs/model/ALABAMA_HISTORICAL_WAR_V1_FIELD_CONTRACT.md"
+DISPLAY_NAME_ALIASES = ROOT / "data/manual/ideology/candidate_research_aliases.csv"
 METHOD_REPORT = ROOT / "project_docs/model/ALABAMA_HISTORICAL_WAR_V1.md"
 AUDIT_REPORT = ROOT / "project_docs/audits/ALABAMA_HISTORICAL_WAR_V1_VALIDATION.md"
 OUT = WAR / "alabama_historical_war_v1"
@@ -40,6 +41,7 @@ COMMITTEE_PATTERN = re.compile(
     r"committee|campaign|friends of|\bfor (?:house|senate|representative)\b|\bpac\b",
     re.IGNORECASE,
 )
+SOURCE_ID_PATTERN = re.compile(r"^[A-Z]{3}\d{3}[A-Z]{4,}$")
 
 
 def sha256(path: Path) -> str:
@@ -202,6 +204,29 @@ def build_candidate_rows(races: pd.DataFrame) -> pd.DataFrame:
     orientation = candidates.canonical_party.map({"D": 1.0, "R": -1.0})
     if orientation.isna().any():
         raise ValueError("Historical candidate output contains a non-major party")
+    aliases = pd.read_csv(DISPLAY_NAME_ALIASES, low_memory=False)
+    aliases = aliases[aliases.identity_status.astype(str).str.startswith("verified_")][
+        ["canonical_candidate_id", "research_name"]
+    ].copy()
+    if aliases.canonical_candidate_id.duplicated().any():
+        raise ValueError("Verified candidate display-name adjudications are not unique")
+    candidates["source_candidate_name"] = candidates.canonical_name
+    candidates = candidates.merge(
+        aliases.rename(columns={"research_name": "verified_research_name"}),
+        on="canonical_candidate_id", how="left", validate="many_to_one",
+    )
+    identifier_like = candidates.source_candidate_name.astype(str).str.fullmatch(
+        SOURCE_ID_PATTERN, na=False
+    )
+    unresolved = identifier_like & candidates.verified_research_name.isna()
+    if unresolved.any():
+        values = candidates.loc[
+            unresolved, ["canonical_candidate_id", "source_candidate_name"]
+        ].to_dict("records")
+        raise ValueError(f"Unresolved source IDs entered historical WAR: {values[:5]}")
+    candidates["canonical_name"] = candidates.source_candidate_name.where(
+        ~identifier_like, candidates.verified_research_name
+    )
     candidates["candidate_name"] = candidates.canonical_name
     candidates["candidate_cycle_war"] = orientation * candidates.war
     candidates["candidate_raw_gap"] = orientation * candidates.raw_gap
@@ -210,13 +235,19 @@ def build_candidate_rows(races: pd.DataFrame) -> pd.DataFrame:
     )
     candidates["candidate_lag_component"] = orientation * candidates.fitted_lag_component
     candidates["score_identification"] = "race_differential_party_orientation"
-    candidates["display_name_source"] = "canonical_alabama_election_candidate"
+    candidates["display_name_source"] = np.where(
+        identifier_like,
+        "verified_candidate_research_alias",
+        "canonical_alabama_election_candidate",
+    )
     committee_like = candidates.candidate_name.astype(str).str.contains(
         COMMITTEE_PATTERN, na=False
     )
     if committee_like.any():
         values = candidates.loc[committee_like, "candidate_name"].tolist()
         raise ValueError(f"Committee-like name entered historical WAR: {values[:5]}")
+    if candidates.candidate_name.astype(str).str.fullmatch(SOURCE_ID_PATTERN, na=False).any():
+        raise ValueError("Identifier-shaped candidate name entered historical WAR")
     return candidates
 
 
@@ -235,7 +266,7 @@ def output_columns(races: pd.DataFrame, candidates: pd.DataFrame) -> tuple[pd.Da
     ]
     candidate_columns = [
         "cycle", "chamber", "district", "canonical_party", "candidate_name",
-        "canonical_name", "canonical_candidate_id", "person_id", "candidate_effect_id",
+        "canonical_name", "source_candidate_name", "canonical_candidate_id", "person_id", "candidate_effect_id",
         "identity_status", "display_name_source", "canonical_votes", "winner", "incumbent",
         "candidate_raw_gap", "candidate_structural_expected_gap", "candidate_lag_component",
         "candidate_cycle_war", "scoring_scope", "lag_context_available",
@@ -274,7 +305,7 @@ def main() -> None:
     run_material = "".join([
         sha256(HISTORICAL_RACES), sha256(HISTORICAL_CANDIDATES),
         sha256(HISTORICAL_CONTEXT), sha256(PUBLISHED_ALABAMA / "race_war.csv"),
-        sha256(SOUTHERN_MANIFEST), sha256(FIELD_CONTRACT),
+        sha256(SOUTHERN_MANIFEST), sha256(FIELD_CONTRACT), sha256(DISPLAY_NAME_ALIASES),
     ])
     run_id = "AL-HIST-WAR-V1-" + hashlib.sha256(run_material.encode()).hexdigest()[:20].upper()
     generated = dt.datetime.now(dt.timezone.utc).isoformat()
@@ -315,6 +346,7 @@ def main() -> None:
             "candidate_pooling": False,
             "finance_in_war": False,
             "committee_names_allowed": False,
+            "identifier_shaped_names_allowed": False,
         },
         "diagnostics": {
             "race_rows": int(len(race_output)),
@@ -325,12 +357,17 @@ def main() -> None:
             "max_war_formula_error": formula_error,
             "max_candidate_orientation_error": orientation_error,
             "committee_like_candidate_names": 0,
+            "identifier_shaped_candidate_names": 0,
+            "verified_display_name_adjudications": int(
+                candidate_output.display_name_source.eq("verified_candidate_research_alias").sum()
+            ),
         },
         "input_hashes": {
             str(path.relative_to(ROOT)).replace("\\", "/"): sha256(path)
             for path in (
                 HISTORICAL_RACES, HISTORICAL_CANDIDATES, HISTORICAL_CONTEXT,
                 PUBLISHED_ALABAMA / "race_war.csv", SOUTHERN_MANIFEST, FIELD_CONTRACT,
+                DISPLAY_NAME_ALIASES,
             )
         },
         "outputs": [],
@@ -369,7 +406,8 @@ def main() -> None:
         f"- Missing lag-context races retained explicitly: {int((~race_output.lag_context_available).sum())}.\n"
         f"- Maximum formula error: {formula_error:.3g}.\n"
         f"- Maximum candidate-orientation error: {orientation_error:.3g}.\n"
-        "- Candidate display names use election identity only; committee-like names: 0.\n"
+        "- Candidate display names use canonical election identity, with evidence-backed aliases "
+        "for malformed source IDs; committee-like and identifier-shaped names: 0.\n"
         "- Publication limitation: pre-2016 scores extrapolate a modern relationship backward.\n",
         encoding="utf-8",
     )

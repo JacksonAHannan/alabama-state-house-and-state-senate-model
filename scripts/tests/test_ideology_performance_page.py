@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from collections import Counter
 from pathlib import Path
+import re
 
 import pandas as pd
 
@@ -33,6 +34,22 @@ def test_payload_uses_current_three_group_contract() -> None:
         "post2016_southern_model_backcast", "published_same_cycle_residual"
     } for row in data["members"])
     assert all("candidate_quality_index" not in row for row in data["members"])
+
+
+def test_public_candidate_names_resolve_malformed_source_ids() -> None:
+    members = pd.DataFrame(payload()["members"])
+    assert not members.canonical_name.astype(str).str.fullmatch(
+        re.compile(r"^[A-Z]{3}\d{3}[A-Z]{4,}$"), na=False
+    ).any()
+    expected = {
+        "AL-2022-house-12-D-GSL012DFIE": "James C. Fields Jr.",
+        "AL-2022-house-27-D-GSL027DNEU": "Herb Neu",
+        "AL-2022-house-47-D-GSL047DCOL": "Christian Coleman",
+    }
+    actual = members.set_index("canonical_candidate_id").canonical_name.to_dict()
+    assert {key: actual[key] for key in expected} == expected
+    sources = members.set_index("canonical_candidate_id").display_name_source.to_dict()
+    assert all(sources[key] == "verified_candidate_research_alias" for key in expected)
 
 
 def test_group_summaries_are_recomputed_from_members() -> None:

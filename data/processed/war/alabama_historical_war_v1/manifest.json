@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "methodology_version": "alabama_historical_war_v1_modern_backcast",
-  "historical_war_run_id": "AL-HIST-WAR-V1-2CD9D5044B91015A3749",
-  "generated_at_utc": "2026-09-01T12:41:41.669178+00:00",
-  "git_commit": "2f2f818bedbe9a61db86cb22ce83fc06b65e13b2",
+  "historical_war_run_id": "AL-HIST-WAR-V1-1FBFE5489CAEFA2E77AB",
+  "generated_at_utc": "2026-09-02T00:39:11.157903+00:00",
+  "git_commit": "94fad6e7a8e0fd90f076aa4530d4e96328bd3215",
   "warehouse_build_run_id": "RUN-A4718C009110424B872392120C7F7E9F",
   "source_southern_war_run_id": "WAR-POST2016-V3-D9C7EE17BD14B8C7D23A",
   "source_alabama_war_run_id": "AL-WAR-V1-E1F8E11BF2853322239F",
@@ -25,7 +25,8 @@
     "structural_alpha": 100.0,
     "candidate_pooling": false,
     "finance_in_war": false,
-    "committee_names_allowed": false
+    "committee_names_allowed": false,
+    "identifier_shaped_names_allowed": false
   },
   "diagnostics": {
     "race_rows": 509,
@@ -35,7 +36,9 @@
     "lag_context_missing_races": 21,
     "max_war_formula_error": 7.105427357601002e-15,
     "max_candidate_orientation_error": 0.0,
-    "committee_like_candidate_names": 0
+    "committee_like_candidate_names": 0,
+    "identifier_shaped_candidate_names": 0,
+    "verified_display_name_adjudications": 50
   },
   "input_hashes": {
     "data/processed/war/cmo_v5_races.csv": "a8745953791aae048aa83cf013668165cd6e7968ef712c0d9a21d82429504024",
@@ -43,28 +46,29 @@
     "data/processed/elections/canonical_cmo_features.csv": "b72934f50e22a74bafa9b2f9648cdf8faf3a787f0ac6b18e758131bbbc2856d0",
     "data/processed/war/alabama_war_v1/race_war.csv": "1115eeeebf2de65ace7be05b71aca24f750db277797c8ae36f52ce3b7f4325cd",
     "data/processed/war/post2016_southern_war_v3/manifest.json": "ca792a694a77cd582e09d98c85d483fed6b90e1638f43e03fcd5cf0448a9800b",
-    "project_docs/model/ALABAMA_HISTORICAL_WAR_V1_FIELD_CONTRACT.md": "46c701c13892d63b594501e37d02023502b6c46f98893cc8919e2fbfb03be851"
+    "project_docs/model/ALABAMA_HISTORICAL_WAR_V1_FIELD_CONTRACT.md": "9d699affdf33bf25852bcf344c266714f5830114d7bf3e9918f6967d22721d1f",
+    "data/manual/ideology/candidate_research_aliases.csv": "a764a270a9955670e08038b0a3352903adebcdb2bf6e38915dc3af03ef79ea51"
   },
   "outputs": [
     {
       "path": "data/processed/war/alabama_historical_war_v1/race_war.csv",
       "rows": 509,
-      "sha256": "bfedcdca3b79c2f5ba06de4fa1394b2a84f785e08d1c8618f0d5fab06b080371"
+      "sha256": "ae05150a11c41e43cef06c41884e5a6d106eb99b4d4e600e2620c44ed222be8b"
     },
     {
       "path": "data/processed/war/alabama_historical_war_v1/candidate_cycle_war.csv",
       "rows": 1018,
-      "sha256": "a188efd08330e4ebabad906280919aabe0d63c8d93dec20fe5ffe2629bd58246"
+      "sha256": "5704b422cb60e4da00b62c6cef4213637866e322f9569e396e0e48738263a89a"
     },
     {
       "path": "data/processed/war/alabama_historical_war_v1/structural_coefficients.csv",
       "rows": 34,
-      "sha256": "601ad37c846abea29a5194f7538b8d210cba1526223ab56c5c08e57a1d05ecb7"
+      "sha256": "048b0d13af8ed095f8903ba0d340ba223759e148b550afff49f5da5d04ee55ce"
     },
     {
       "path": "data/processed/war/alabama_historical_war_v1/coverage.csv",
       "rows": 16,
-      "sha256": "8c5265547576c641e5c7cdbe12f8ad86d3061d1563adc82f0c86b91f3cb3986e"
+      "sha256": "9a99eeb5e54ec7bcf0236a5ee29e399c8dce92594283750fe2ea49e6794eae1c"
     }
   ],
   "status": "validated_historical_backcast_with_extrapolation_warning"

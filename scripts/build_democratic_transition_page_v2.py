@@ -8,6 +8,7 @@ continuous measurement.
 from __future__ import annotations
 
 import json
+import re
 from functools import lru_cache
 from pathlib import Path
 
@@ -29,6 +30,8 @@ HISTORICAL_WAR = (
     / "candidate_cycle_war.csv"
 )
 EVIDENCE = ROOT / "data" / "processed" / "ideology" / "candidate_position_evidence_v3_all_sources.csv"
+DISPLAY_NAME_ALIASES = ROOT / "data" / "manual" / "ideology" / "candidate_research_aliases.csv"
+SOURCE_ID_PATTERN = re.compile(r"^[A-Z]{3}\d{3}[A-Z]{4,}$")
 
 TRADITIONALIST = "Traditionalist-populist Democrats"
 BRIDGE = "Bridge-coalition Democrats"
@@ -314,12 +317,44 @@ def payload() -> dict:
                .merge(war, on="canonical_candidate_id", how="left", validate="one_to_one"))
     if members.candidate_cycle_war.isna().any():
         raise ValueError("Every clustered candidate-cycle must have historical residual WAR")
+    aliases = pd.read_csv(DISPLAY_NAME_ALIASES, low_memory=False)
+    aliases = aliases[aliases.identity_status.astype(str).str.startswith("verified_")][
+        ["canonical_candidate_id", "research_name"]
+    ].copy()
+    if aliases.canonical_candidate_id.duplicated().any():
+        raise ValueError("Verified public-name adjudications are not unique")
+    members["source_candidate_name"] = members.canonical_name
+    members = members.merge(
+        aliases.rename(columns={"research_name": "verified_research_name"}),
+        on="canonical_candidate_id", how="left", validate="one_to_one",
+    )
+    identifier_like = members.source_candidate_name.astype(str).str.fullmatch(
+        SOURCE_ID_PATTERN, na=False
+    )
+    unresolved = identifier_like & members.verified_research_name.isna()
+    if unresolved.any():
+        names = members.loc[
+            unresolved, ["canonical_candidate_id", "source_candidate_name"]
+        ].to_dict("records")
+        raise ValueError(f"Unresolved public candidate source IDs: {names[:5]}")
+    members["canonical_name"] = members.source_candidate_name.where(
+        ~identifier_like, members.verified_research_name
+    )
+    members["display_name_source"] = np.where(
+        identifier_like,
+        "verified_candidate_research_alias",
+        "canonical_alabama_election_candidate",
+    )
+    members = members.drop(columns="verified_research_name")
     committee_like = members.canonical_name.astype(str).str.contains(
         r"\b(?:committee|campaign|friends of|elect|pac)\b", case=False, regex=True
     )
     if committee_like.any():
         names = members.loc[committee_like, "canonical_name"].tolist()
         raise ValueError(f"Committee-like public candidate names are prohibited: {names[:5]}")
+    if members.canonical_name.astype(str).str.fullmatch(SOURCE_ID_PATTERN, na=False).any():
+        raise ValueError("Identifier-shaped public candidate names are prohibited")
+    members = members.drop(columns="source_candidate_name")
     if set(members.loc[members.party.eq("D"), "cluster_label"]) != set(GROUPS):
         raise ValueError("Current Democratic cluster labels do not match the three-group contract")
     if members.era.astype(str).str.lower().eq("undefined").any():
@@ -367,7 +402,7 @@ def payload() -> dict:
             "modern_scope": "published_alabama_same_cycle_residual",
             "pooled_candidate_effect": False,
             "fundraising_in_war": False,
-            "candidate_name_source": "canonical_election_identity",
+            "candidate_name_source": "canonical_election_identity_with_verified_source_id_adjudication",
         },
     }
     return result

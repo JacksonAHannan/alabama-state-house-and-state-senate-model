@@ -1,39 +1,70 @@
 {
-  "build_id": "4a24f61e28a3d5987062",
+  "build_id": "00509565ea4fb62b4e10",
   "configuration": {
     "candidate_history_used": false,
     "candidate_war_adjustment": 0.0,
     "design_features": [
-      "environment_baseline_margin",
+      "incumbency_balance",
+      "baseline_dem_margin",
       "baseline_margin_squared",
-      "environment_ticket_change",
-      "environment_change_x_years",
+      "years_since_2016",
+      "odd_year",
+      "presidential_cycle",
+      "state_code_AL",
+      "state_code_AR",
+      "state_code_FL",
+      "state_code_GA",
+      "state_code_KY",
+      "state_code_LA",
+      "state_code_MO",
+      "state_code_MS",
+      "state_code_NC",
+      "state_code_OK",
+      "state_code_SC",
+      "state_code_TN",
+      "state_code_TX",
+      "state_code_VA",
+      "chamber_lower",
       "chamber_upper",
-      "incumbency_balance"
+      "baseline_office_family_federal_composite",
+      "baseline_office_family_generic_ballot",
+      "baseline_office_family_governor",
+      "baseline_office_family_president",
+      "baseline_office_family_state_composite",
+      "baseline_office_family_statewide_other",
+      "baseline_office_family_us_house",
+      "baseline_office_family_us_senate",
+      "prior_pres_margin",
+      "lag_current_ticket_change",
+      "lag_change_x_years"
     ],
     "finance_used": false,
-    "forward_test": "train_2018_test_2022",
+    "forward_test": "train_post2016_southern_before_2022_test_alabama_2022",
     "generic_ballot_environment": true,
     "generic_candidate_assumption": true,
     "ideology_used": false,
-    "incumbency_treatment": "tested_in_candidate_structural_model; zero when promotion gate fails",
+    "incumbency_treatment": "included_as_symmetric_race_condition_in_war_structure",
     "ridge_alpha": 100.0,
     "seed": 20260831,
     "simulation_draws": 50000,
-    "structural_promoted": false,
-    "structural_promotion_gate": "forward_2022_mae_strictly_better_than_generic_ballot_baseline"
+    "structural_applied": true,
+    "structural_selection_policy": "owner_selected; forward validation retained as advisory",
+    "war_structural_specification": "decaying_lag",
+    "war_training_cutoff_rule": "cycle > 2016; prospective fit through 2024",
+    "war_training_warehouse_run_id": "RUN-A4718C009110424B872392120C7F7E9F"
   },
   "diagnostics": {
     "baseline_forward_mae": 7.073410990280289,
-    "candidate_structural_forward_mae": 9.489546161819012,
+    "candidate_structural_forward_mae": 9.558900865178801,
     "forward_test_rows": 33,
     "historical_rows": 97,
-    "max_forecast_identity_error": 0.0,
+    "max_forecast_identity_error": 6.217248937900877e-15,
     "prospective_rows_per_scenario": 48,
-    "selected_forward_mae": 7.073410990280289
+    "selected_forward_mae": 9.558900865178801,
+    "structural_improves_baseline_on_holdout": false
   },
-  "generated_at_utc": "2026-09-01T02:45:13.849126+00:00",
-  "git_commit": "569b019fecb7786a1c824fcc81490202e39cc4bc",
+  "generated_at_utc": "2026-09-02T00:44:48.885584+00:00",
+  "git_commit": "94fad6e7a8e0fd90f076aa4530d4e96328bd3215",
   "inputs": [
     {
       "path": "data/processed/war/alabama_war_v1/race_war.csv",
@@ -42,6 +73,10 @@
     {
       "path": "data/processed/war/alabama_war_v1/manifest.json",
       "sha256": "af5e2a07cefec49713e648c6fc21ea1dc50cdfd46160807f1e477e47ce456da6"
+    },
+    {
+      "path": "data/processed/war/post2016_southern_war_v3/manifest.json",
+      "sha256": "ca792a694a77cd582e09d98c85d483fed6b90e1638f43e03fcd5cf0448a9800b"
     },
     {
       "path": "data/processed/polling/historical_silver_a_generic_ballot_cycles.csv",
@@ -65,10 +100,10 @@
     },
     {
       "path": "project_docs/model/ALABAMA_WAR_FORECAST_FIELD_CONTRACT.md",
-      "sha256": "1b04f220aaf3bec7736080aee368baa286cc9725d83b2b89cbfb32c35bb43c59"
+      "sha256": "7a63f4c8b27e9830724b8b2856c4d8af2e1fb9d12e08a3ec73ce809352f3dad8"
     }
   ],
-  "methodology_version": "alabama_war_generic_forecast_v1",
+  "methodology_version": "alabama_war_environment_forecast_v2",
   "outputs": [
     {
       "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_historical_panel.csv",
@@ -78,40 +113,41 @@
     {
       "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_forward_predictions.csv",
       "rows": 33,
-      "sha256": "97fcab527a8b145e572bd2e952792d6bd8d91680737657ebc1527539f76c253c"
+      "sha256": "f9c619e2b0fc38eef1a8b32cba872a90b4e4e499b4730243b49e9046f477fdef"
     },
     {
       "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_forward_metrics.csv",
       "rows": 2,
-      "sha256": "583e5068549530666d13e44b05ef2c5d56cdd09bce89a7d1c5fba5fa37c1d6a7"
+      "sha256": "65b90266ebbaa9193e4021b80e9734bb0f2380c96fb74107afb1f282112bc503"
     },
     {
       "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_probability_families.csv",
       "rows": 53,
-      "sha256": "2aecf3ae42e3b6b20896cca9bbe89965953fee85390ce3489285adb4212652e4"
+      "sha256": "4499bf990238f17ced9d541519884916412dae0b99c78973819b4cf1d8c2551a"
     },
     {
       "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_2026_scenarios.csv",
       "rows": 144,
-      "sha256": "2507c07a89e82b15cb2ff90a0438de341caa94f8d82bf6f260add8570a7a69a6"
+      "sha256": "e5197a967df5f602d5b9da29660183df1603c3b6692c134d6cdb0ae240ed2eac"
     },
     {
       "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_2026_full_uncertainty.csv",
       "rows": 48,
-      "sha256": "c9e410ce708e33c330475e1d3853242a96f732f923974b2f7e9765f4f324e0da"
+      "sha256": "c964e817ec9b567a8c894a340240b981d08ced00bafb634441812fa3d058bdb8"
     },
     {
       "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_2026_modeled_seats.csv",
-      "rows": 19,
-      "sha256": "4c7fed0107aff09a7214ded3a9d130f97cde81627809ae6552b36043854d2868"
+      "rows": 15,
+      "sha256": "c7b79bbb95f8c086774e5c171998e0231cebb717e1c3fbce7b3b9a72926fd520"
     }
   ],
   "probability": {
     "df": 5.0,
     "family": "student_t",
-    "scale": 4.0
+    "scale": 8.25
   },
-  "schema_version": 1,
-  "selected_specification": "generic_ballot_baseline",
-  "status": "validated_generic_candidate_forecast"
+  "schema_version": 2,
+  "selected_specification": "generic_war_structural",
+  "selection_reason": "owner_required_war_structural_expectation_with_generic_ballot_environment",
+  "status": "published_owner_selected_environment_adjusted_war_forecast_with_validation_warning"
 }
