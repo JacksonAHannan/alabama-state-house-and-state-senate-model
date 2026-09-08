@@ -29,7 +29,8 @@ was promoted, and no original election return was modified.
   Chromium 151) passed at 1258x900 and 390x844: all 116 slices, keyboard order,
   empty-slice explanation, no horizontal overflow, no console, page or request errors.
   11 map tests, 7 historical tests and 5 release-gate tests passed.
-- Local `docs/` artifacts were rebuilt; publication (commit and push) was not performed.
+- Published on user authorization in commit `d4497d7` to `origin/master`
+  (GitHub Pages serves `docs/`); the publication commit is the rollback reference.
 
 The sections below record the 2026-09-05 release and are retained as history.
 

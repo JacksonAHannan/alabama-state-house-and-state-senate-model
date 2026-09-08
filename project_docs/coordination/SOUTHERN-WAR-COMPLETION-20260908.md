@@ -145,8 +145,14 @@ HD92. No winner flag changes.
   input-field differences versus the archived run that trace to earlier registered
   repairs (36 Louisiana source-file IDs from `RUN-C5CB7CFA…`; 91 masked incomplete
   finance amounts from `RUN-40A033B9…`), not to this effort's writes.
-- Units 1-9 accepted; publication of `docs/` was not performed and remains a separate
-  authorization.
+- Units 1-9 accepted.
+- 2026-09-08 publication (user-authorized): commit `d4497d7` "Publish Southern
+  historical WAR with certified Alabama lineage" pushed to `origin/master` (163
+  files: Southern docs pages and downloads, v3 run and archive, sensitivity outputs,
+  historical outputs, preparation exports, Southern scripts and tests with their
+  import closure, contracts, audits, coordination records and the internal
+  checklist). Unrelated pre-existing working-tree changes for other products were
+  deliberately left uncommitted. Raw canvass PDFs remain ignored under `data/raw/`.
 - 2026-09-08 integrated verification: the single full-suite run
   (`pytest --testmon --testmon-noselect -p no:cacheprovider -q`, 1,078 collected) was
   killed by the operating system for low memory after 977 tests with 4 failures. The
