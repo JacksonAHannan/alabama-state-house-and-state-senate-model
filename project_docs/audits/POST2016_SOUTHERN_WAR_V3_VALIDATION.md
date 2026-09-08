@@ -1,10 +1,10 @@
 # Post-2016 Southern WAR v3 validation
 
-Research run `WAR-POST2016-V3-D9C7EE17BD14B8C7D23A` uses warehouse build `RUN-4ED478C647B34A7B9A402970625DB334`.
+Research run `WAR-POST2016-V3-4AF79A70EAA8F39EBD49` uses warehouse build `RUN-92AB8DE353AC47D6AECE3D7767C29FCD`.
 
 ## Enforced gates
 
-- All 3,658 rows are strict-ready and have `cycle > 2016`.
+- All 3,660 rows are strict-ready and have `cycle > 2016`.
 - Race keys are unique and candidate-cycle grain is exactly two major-party rows per race.
 - Headline `war` exactly equals `raw_gap - fitted_structural_expected_gap`.
 - Democratic and Republican candidate-cycle scores are exact opposites.

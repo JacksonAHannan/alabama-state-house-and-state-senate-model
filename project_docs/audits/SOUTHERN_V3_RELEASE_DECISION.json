@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-09-08T14:05:00Z",
+  "model_run_id": "WAR-POST2016-V3-4AF79A70EAA8F39EBD49",
+  "manifest_path": "data/processed/war/post2016_southern_war_v3/manifest.json",
+  "manifest_sha256": "c6c09e19335965380e068c40484437bf460db81add232dc8d7cf78d135a905a6",
+  "decision": "approved_for_descriptive_historical_use",
+  "review_record_path": "project_docs/audits/SOUTHERN_V3_INDEPENDENT_REVIEW_2026_09_08.md",
+  "review_record_sha256": "cd0847259e84592e528d5b1d9784e6db77b1caf52fe5ace8e708bf4f0c0ff9d0",
+  "warehouse_build_run_id": "RUN-92AB8DE353AC47D6AECE3D7767C29FCD",
+  "supersedes": {
+    "model_run_id": "WAR-POST2016-V3-8BB52074EC806C5BF6BF",
+    "manifest_sha256": "0ea558730b9e953d95853d552960886c855b8bb3f9fb9cb2ee0a3c44a47c7638",
+    "decision": "blocked_insufficient_evidence",
+    "review_record_path": "project_docs/audits/SOUTHERN_V3_INDEPENDENT_REVIEW_2026_09_07.md",
+    "archive_path": "data/processed/war/post2016_southern_war_v3_archive/WAR-POST2016-V3-8BB52074EC806C5BF6BF/"
+  },
+  "resolved_blockers": [
+    "97 Alabama outcomes now carry certified canvass source files through the reviewed canonical/certified bridge (377 approved rows; repair run RUN-4C2EF8D12CC442D99A516E0D393DE157; source append RUN-DD7FF8C9ACBE4EAAA026AD1046693CA9)",
+    "Alabama 2018 and 2022 canonical totals corrected to the certified canvass (21 rows with before-images); no remaining canonical/certified disagreement",
+    "missing-context sensitivity and bootstrap uncertainty recorded in project_docs/audits/SOUTHERN_V3_CONTEXT_SENSITIVITY.md and independently reproduced"
+  ],
+  "limits": "Approval covers the exact run above as a descriptive same-cycle race residual for the Southern historical WAR product. It is not predictive validation, external-reference certification, or publication approval; canvass redistribution terms remain review; downstream builders must still pass their own gates."
+}

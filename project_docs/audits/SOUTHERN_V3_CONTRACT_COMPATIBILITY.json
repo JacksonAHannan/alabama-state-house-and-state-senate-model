@@ -1,0 +1,17 @@
+{
+  "status": "approved_documentation_only",
+  "reviewer": "/root/al2022_source_implementation",
+  "model_run_id": "WAR-POST2016-V3-8BB52074EC806C5BF6BF",
+  "manifest_sha256": "0ea558730b9e953d95853d552960886c855b8bb3f9fb9cb2ee0a3c44a47c7638",
+  "contract_path": "project_docs/model/POST2016_SOUTHERN_WAR_V3_FIELD_CONTRACT.md",
+  "archived_contract_path": "project_docs/audits/SOUTHERN_V3_RUN_8BB52074_FIELD_CONTRACT.md",
+  "recorded_sha256": "272c60027414654d37ef6d5851cc6224cb432ea12bdf6df05cf53a48b0c7ae32",
+  "current_sha256": "3de27261136fb5574fc7be90b23d599de919c9b8226a2c62772b5936190618dc",
+  "code_hashes": {
+    "scripts/retrain_post2016_southern_war.py": "ead76fb849c93043d380cff7d2a14eb2a7bca31944134af207acf7002d2e075d",
+    "scripts/retrain_post2016_southern_war_v2.py": "9a52de7cd3043f8d8a57d07a39e5914d257af2ffc3ebe2da8f17b2c9e8f0a730",
+    "scripts/retrain_post2016_southern_war_v3.py": "29d4f7b3b323b6146d82350b21dc1770a82a557059c9f2a88c1d3b346ad94997"
+  },
+  "rationale": "Current text clarifies separate-cycle descriptive fitting and documents the unchanged implementation's inputs, missingness encoding, deviations and limitations. Static independent review confirmed agreement with the pinned implementation; no model or data change follows from this documentation disposition.",
+  "limits": "Exact run and documents only. Not independent scientific validation, external-reference certification or publication approval. Original manifest, all output checks and pending source/sensitivity requirements remain unchanged."
+}

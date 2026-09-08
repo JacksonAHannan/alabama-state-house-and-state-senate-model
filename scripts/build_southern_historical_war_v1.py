@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build 2016-2022 Southern race-residual WAR with a leakage-safe 2016 backcast."""
+"""Build 2016-2024 Southern race-residual WAR with a leakage-safe 2016 backcast."""
 from __future__ import annotations
 
 import datetime as dt
@@ -15,7 +15,8 @@ import pandas as pd
 
 import retrain_post2016_southern_war as v1
 import retrain_post2016_southern_war_v2 as v2
-from southern_war_map_contract import scheduled_keys_2016_2022
+from southern_war_map_contract import scheduled_keys_2016_2024
+from southern_war_release_gate import require_approved_release
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -25,10 +26,24 @@ ALABAMA_NAMES = ROOT / "data/processed/war/alabama_historical_war_v1/candidate_c
 WIKIPEDIA_CANDIDATES = ROOT / "data/processed/war/wikipedia_legislative_candidates.csv"
 WIKIPEDIA_2022_VALIDATION = ROOT / "data/processed/war/2022_wikipedia_vote_validation.csv"
 FIELD_CONTRACT = ROOT / "project_docs/model/SOUTHERN_HISTORICAL_WAR_MAP_FIELD_CONTRACT.md"
+V3_RELEASE_DECISION = ROOT / "project_docs/audits/SOUTHERN_V3_RELEASE_DECISION.json"
 METHOD = ROOT / "project_docs/model/SOUTHERN_HISTORICAL_WAR_V1.md"
 AUDIT = ROOT / "project_docs/audits/SOUTHERN_HISTORICAL_WAR_V1_VALIDATION.md"
 OUT = ROOT / "data/processed/war/southern_historical_war_v1"
 RACE_KEYS = ["state_code", "cycle", "chamber", "district"]
+STATE_NAMES = {
+    "AL": "Alabama", "AR": "Arkansas", "FL": "Florida", "GA": "Georgia",
+    "KY": "Kentucky", "LA": "Louisiana", "MO": "Missouri", "MS": "Mississippi",
+    "NC": "North Carolina", "OK": "Oklahoma", "SC": "South Carolina",
+    "TN": "Tennessee", "TX": "Texas", "VA": "Virginia",
+}
+COVERAGE_COLUMNS = [
+    "state_code", "state_name", "scheduled_slices", "empty_scheduled_slices", "scored_races",
+    "backcast_2016_races", "published_post2016_races", "strict_races_registered_source_file",
+    "strict_races_source_file_unresolved", "excluded_research_outcomes",
+    "excluded_baseline_not_strict", "excluded_incumbency_experimental", "finance_complete_races",
+    "plan_provenance", "upstream_model_run_id", "warehouse_build_run_id",
+]
 SPECIFICATION = "decaying_lag"
 ALPHA = 100.0
 TITLE_PREFIX = re.compile(r"^(?:STATE\s+)?(?:REPRESENTATIVE|SENATOR)\s+", re.I)
@@ -64,7 +79,7 @@ def load_strict_history() -> tuple[pd.DataFrame, dict[str, object]]:
                democratic_finance_status,republican_finance_status,
                finance_complete,log_fundraising_ratio_d_to_r,race_finance_status
         FROM mart_southern_war_training_with_finance
-        WHERE cycle BETWEEN 2016 AND 2022 AND training_status = ?
+        WHERE cycle BETWEEN 2016 AND 2024 AND training_status = ?
         ORDER BY state_code,cycle,chamber,CAST(district AS INTEGER),district
     """
     uri = f"file:{DATABASE.resolve().as_posix()}?mode=ro"
@@ -86,6 +101,74 @@ def load_strict_history() -> tuple[pd.DataFrame, dict[str, object]]:
     frame["district"] = frame.district.map(v2.normalized_district)
     frame["baseline_office_family"] = frame.baseline_office.map(v1.office_family)
     return frame, run.iloc[0].to_dict()
+
+
+def load_outcome_inventory() -> pd.DataFrame:
+    """Every existing 2016-2024 outcome with its recorded eligibility and lineage flags."""
+    query = """
+        SELECT war_outcome_id,build_run_id,state_code,cycle,chamber,district,training_status,
+               strict_baseline_eligible,strict_incumbency_eligible,source_file_id,
+               district_plan_id,geography_vintage
+        FROM mart_southern_war_training_no_finance
+        WHERE cycle BETWEEN 2016 AND 2024
+        ORDER BY state_code,cycle,chamber,CAST(district AS INTEGER),district
+    """
+    uri = f"file:{DATABASE.resolve().as_posix()}?mode=ro"
+    with sqlite3.connect(uri, uri=True) as connection:
+        frame = pd.read_sql_query(query, connection)
+    if frame.empty or frame.build_run_id.nunique() != 1 or frame.war_outcome_id.duplicated().any():
+        raise ValueError("Southern outcome inventory must come from one warehouse run with unique IDs")
+    frame["district"] = frame.district.map(v2.normalized_district)
+    return frame
+
+
+def state_release_coverage(
+    races: pd.DataFrame, inventory: pd.DataFrame, schedule: pd.DataFrame,
+    upstream_model_run_id: str, warehouse_build_run_id: str,
+) -> pd.DataFrame:
+    """One row per state: included, excluded, lineage, plan and finance accounting."""
+    strict = inventory[inventory.training_status.eq(v2.TRAINING_STATUS)]
+    excluded = inventory[inventory.training_status.ne(v2.TRAINING_STATUS)]
+    if set(strict.war_outcome_id) != set(races.war_outcome_id):
+        raise ValueError("Scored races must be exactly the strict outcome inventory")
+    baseline_excluded = excluded[excluded.strict_baseline_eligible.ne(1)]
+    incumbency_excluded = excluded[excluded.strict_baseline_eligible.eq(1) & excluded.strict_incumbency_eligible.ne(1)]
+    if len(baseline_excluded) + len(incumbency_excluded) != len(excluded):
+        raise ValueError("Excluded outcomes must fall into exactly one recorded exclusion class")
+    scored_slices = races.groupby(["state_code", "cycle", "chamber"]).size()
+    rows = []
+    for state in sorted(STATE_NAMES):
+        state_races = races[races.state_code.eq(state)]
+        state_strict = strict[strict.state_code.eq(state)]
+        state_schedule = schedule[schedule.state_code.eq(state)]
+        empty = sum(
+            (state, int(row.cycle), row.chamber) not in scored_slices.index
+            for row in state_schedule.itertuples(index=False)
+        )
+        registered = state_strict.source_file_id.notna() & state_strict.source_file_id.ne("")
+        provenance = sorted(set(state_races.geography_vintage.dropna().astype(str)))
+        rows.append({
+            "state_code": state, "state_name": STATE_NAMES[state],
+            "scheduled_slices": len(state_schedule), "empty_scheduled_slices": int(empty),
+            "scored_races": len(state_races),
+            "backcast_2016_races": int(state_races.cycle.eq(2016).sum()),
+            "published_post2016_races": int(state_races.cycle.gt(2016).sum()),
+            "strict_races_registered_source_file": int(registered.sum()),
+            "strict_races_source_file_unresolved": int((~registered).sum()),
+            "excluded_research_outcomes": int(excluded.state_code.eq(state).sum()),
+            "excluded_baseline_not_strict": int(baseline_excluded.state_code.eq(state).sum()),
+            "excluded_incumbency_experimental": int(incumbency_excluded.state_code.eq(state).sum()),
+            "finance_complete_races": int(state_races.finance_complete.eq(1).sum()),
+            "plan_provenance": " | ".join(provenance) if provenance else "no scored races",
+            "upstream_model_run_id": upstream_model_run_id,
+            "warehouse_build_run_id": warehouse_build_run_id,
+        })
+    coverage = pd.DataFrame(rows, columns=COVERAGE_COLUMNS)
+    if coverage.scored_races.sum() != len(races) or coverage.scheduled_slices.sum() != len(schedule):
+        raise ValueError("State coverage does not conserve scored races or scheduled slices")
+    if coverage.excluded_research_outcomes.sum() != len(excluded):
+        raise ValueError("State coverage does not conserve excluded outcomes")
+    return coverage
 
 
 def score_history(history: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
@@ -119,11 +202,19 @@ def score_history(history: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
         "raw_gap", "fitted_structural_expected_gap",
         "fitted_structural_nonlag_expected_gap", "fitted_lag_component", "war",
     ]
+    # Reusing a published residual requires identical observed inputs, not just a key match.
+    input_fields = ["dem_votes", "rep_votes", "legislative_dem_margin", "baseline_dem_margin"]
+    parity = history[history.cycle.gt(2016)].merge(
+        published[RACE_KEYS + input_fields], on=RACE_KEYS, how="left",
+        validate="one_to_one", suffixes=("", "_published"),
+    )
+    for field in input_fields:
+        np.testing.assert_allclose(parity[field], parity[f"{field}_published"], atol=1e-9, rtol=0)
     post = history[history.cycle.gt(2016)].merge(
         published[keep], on=RACE_KEYS, how="left", validate="one_to_one",
     )
     if post.war.isna().any():
-        raise ValueError("A strict 2017-2022 race is absent from published Southern WAR v3")
+        raise ValueError("A strict 2017-2024 race is absent from published Southern WAR v3")
     np.testing.assert_allclose(post.direct_overperformance, post.raw_gap, atol=1e-9)
     post["scoring_scope"] = "published_same_cycle_residual"
     races = pd.concat([backcast, post], ignore_index=True, sort=False)
@@ -221,7 +312,15 @@ def candidate_rows(races: pd.DataFrame) -> pd.DataFrame:
 
 
 def main() -> None:
+    # Historical reuse is a release action.  Validate the exact independent
+    # decision before reading training rows or calculating any output.
+    upstream_manifest, upstream_decision = require_approved_release(
+        PUBLISHED / "manifest.json", V3_RELEASE_DECISION
+    )
     history, warehouse_run = load_strict_history()
+    inventory = load_outcome_inventory()
+    if inventory.build_run_id.iloc[0] != warehouse_run["build_run_id"]:
+        raise ValueError("Outcome inventory and strict history come from different warehouse runs")
     races, coefficients = score_history(history)
     candidates = candidate_rows(races)
     formula_error = float(np.max(np.abs(
@@ -233,7 +332,7 @@ def main() -> None:
         raise ValueError("Southern historical WAR arithmetic failed")
 
     schedule = pd.DataFrame(
-        sorted(scheduled_keys_2016_2022()),
+        sorted(scheduled_keys_2016_2024()),
         columns=["state_code", "cycle", "chamber"],
     )
     coverage = races.groupby(["state_code", "cycle", "chamber"], as_index=False).agg(
@@ -248,10 +347,13 @@ def main() -> None:
     coverage["finance_coverage_rate"] = np.where(
         coverage.scored_races.gt(0), coverage.finance_complete_races / coverage.scored_races, np.nan
     )
+    state_coverage = state_release_coverage(
+        races, inventory, schedule, upstream_manifest["model_run_id"], warehouse_run["build_run_id"]
+    )
 
     race_columns = [
-        "war_outcome_id", *RACE_KEYS, "election_date", "district_plan_id", "geography_vintage",
-        "dem_candidate_name", "rep_candidate_name", "dem_votes", "rep_votes", "two_party_votes",
+        "war_outcome_id", *RACE_KEYS, "election_date", "election_stage", "district_plan_id", "geography_vintage",
+        "dem_candidate_name", "rep_candidate_name", "dem_votes", "rep_votes", "two_party_votes", "third_party_votes",
         "legislative_dem_margin", "baseline_dem_margin", "baseline_source", "baseline_office",
         "incumbency_balance", "raw_gap", "lag_context_available",
         "fitted_structural_nonlag_expected_gap", "fitted_lag_component",
@@ -273,13 +375,14 @@ def main() -> None:
         WIKIPEDIA_CANDIDATES, WIKIPEDIA_2022_VALIDATION,
         FIELD_CONTRACT, Path(__file__).resolve(), Path(v2.__file__).resolve(), Path(v1.__file__).resolve(),
         Path(__file__).with_name("southern_war_map_contract.py"),
+        Path(__file__).with_name("southern_war_release_gate.py"), V3_RELEASE_DECISION,
     ]
     run_basis = {
         "methodology_version": "southern_historical_war_v1",
         "warehouse_build_run_id": warehouse_run["build_run_id"],
         "inputs": {str(path.relative_to(ROOT)).replace("\\", "/"): sha256(path) for path in input_paths},
         "configuration": {
-            "scope": "prespecified Southern regular elections 2016-2022",
+            "scope": "prespecified Southern regular elections 2016-2024",
             "strict_training_status": v2.TRAINING_STATUS,
             "post2016_score_source": "post2016_southern_war_v3 published same-cycle residual",
             "backcast_cycle": 2016,
@@ -287,12 +390,14 @@ def main() -> None:
             "structural_specification": SPECIFICATION,
             "structural_alpha": ALPHA,
             "finance_in_headline_war": False,
+            "upstream_model_run_id": upstream_manifest["model_run_id"],
+            "upstream_release_decision": upstream_decision["decision"],
         },
     }
     run_id = "WAR-SOUTH-HIST-V1-" + hashlib.sha256(
         json.dumps(run_basis, sort_keys=True).encode()
     ).hexdigest()[:20].upper()
-    for frame in (race_output, candidate_output, coefficients, coverage):
+    for frame in (race_output, candidate_output, coefficients, coverage, state_coverage):
         frame.insert(0, "historical_war_run_id", run_id)
     OUT.mkdir(parents=True, exist_ok=True)
     outputs = {
@@ -300,6 +405,7 @@ def main() -> None:
         "candidate_cycle_war.csv": candidate_output,
         "structural_coefficients.csv": coefficients,
         "coverage.csv": coverage,
+        "state_release_coverage.csv": state_coverage,
     }
     for name, frame in outputs.items():
         frame.to_csv(OUT / name, index=False)
@@ -320,6 +426,11 @@ def main() -> None:
             "published_post2016_races": int(race_output.cycle.gt(2016).sum()),
             "finance_complete_races": int(race_output.finance_complete.sum()),
             "formula_max_error": formula_error, "orientation_max_error": orientation_error,
+            "excluded_research_outcomes": int(state_coverage.excluded_research_outcomes.sum()),
+            "excluded_baseline_not_strict": int(state_coverage.excluded_baseline_not_strict.sum()),
+            "excluded_incumbency_experimental": int(state_coverage.excluded_incumbency_experimental.sum()),
+            "strict_races_source_file_unresolved": int(state_coverage.strict_races_source_file_unresolved.sum()),
+            "empty_scheduled_slices": int(state_coverage.empty_scheduled_slices.sum()),
         },
         "finance_coverage_by_state": {
             state: {"scored_races": int(row.scored), "complete_races": int(row.complete),
@@ -335,8 +446,10 @@ def main() -> None:
         })
     METHOD.write_text(
         f"# Southern historical WAR v1\n\nRun: `{run_id}`\n\n"
+        "> **Release status:** this builder ran only after the exact upstream v3 "
+        "release gate passed. The manifest records that decision as an input.\n\n"
         f"The release scores {len(race_output):,} strict D-versus-R regular legislative races "
-        "in the 14-state Southern scope from 2016 through 2022. Post-2016 races preserve the "
+        "in the 14-state Southern scope from 2016 through 2024. Post-2016 races preserve the "
         "published Southern WAR v3 same-cycle structural residual. The 2016 races are scored "
         "by applying the selected post-2016 `decaying_lag` ridge model (alpha 100) backward, "
         "without using any 2016 outcome to fit the model.\n\n"
@@ -345,14 +458,43 @@ def main() -> None:
         "complete. It does not enter headline WAR because the prespecified nested time-forward "
         "finance test failed. Missouri and Mississippi are the principal finance gaps in this "
         "warehouse run; missing finance is unknown, never zero. Research-only context, "
-        "uncontested races, and non-D/R races remain unscored.\n",
+        "uncontested races, and non-D/R races remain unscored.\n\n"
+        "## Explicit empty schedule slices\n\n"
+        "Virginia's 2017 and 2021 lower-chamber slices remain present in the schedule with zero "
+        "scored contests because their same-year governor returns use 2019-plan cross-election "
+        "precinct membership and locality fallback. Recovery requires registered election and "
+        "contemporaneous-plan sources, reviewed allocations, retained fallback/unknown rows, and "
+        "district/state reconciliation. Missing WAR is not zero.\n\n"
+        "## Exclusions, source lineage and plan provenance\n\n"
+        f"The warehouse holds {len(inventory):,} model-valid D-versus-R outcomes for the schedule; "
+        f"{int(state_coverage.excluded_research_outcomes.sum()):,} remain research-only and unscored: "
+        f"{int(state_coverage.excluded_baseline_not_strict.sum()):,} because their recorded ticket baseline is "
+        "not strictly eligible (the two Virginia lower-chamber slices above) and "
+        f"{int(state_coverage.excluded_incumbency_experimental.sum()):,} because incumbency rests on "
+        "experimental prior-winner continuity without roster evidence. Reason-coded counts per state are in "
+        "`state_release_coverage.csv`; a documented exclusion is not a zero score.\n\n"
+        f"{int(state_coverage.strict_races_registered_source_file.sum()):,} of {len(race_output):,} strict races "
+        "carry a registered scalar source file; "
+        f"{int(state_coverage.strict_races_source_file_unresolved.sum()):,} do not. Alabama 2018 and 2022 "
+        "contests take the certified State Canvassing Board canvass as their registered source through the "
+        "reviewed canonical/certified bridge, which also supplies their third-party vote totals. Every scored "
+        "race retains the provider-reported district plan label; display geometry does not certify an "
+        "allocation.\n",
         encoding="utf-8",
     )
     AUDIT.write_text(
         f"# Southern historical WAR v1 validation\n\nRun `{run_id}` generated {generated}.\n\n"
-        f"- {len(schedule)} scheduled state/cycle/chamber slices from 2016 through 2022.\n"
+        f"- Upstream v3 run `{upstream_manifest['model_run_id']}` with release decision "
+        f"`{upstream_decision['decision']}`; warehouse run `{warehouse_run['build_run_id']}`.\n"
+        f"- {len(schedule)} scheduled state/cycle/chamber slices from 2016 through 2024; "
+        f"{int(state_coverage.empty_scheduled_slices.sum())} explicit empty slices.\n"
         f"- {len(race_output):,} unique strict race scores and {len(candidate_output):,} exact party orientations.\n"
         f"- {int(race_output.cycle.eq(2016).sum()):,} 2016 backcast races use no 2016 fitting outcomes.\n"
+        f"- {int(state_coverage.excluded_research_outcomes.sum()):,} research-only outcomes remain unscored "
+        f"({int(state_coverage.excluded_baseline_not_strict.sum()):,} baseline, "
+        f"{int(state_coverage.excluded_incumbency_experimental.sum()):,} incumbency).\n"
+        f"- {int(state_coverage.strict_races_source_file_unresolved.sum()):,} strict races lack a registered "
+        "scalar source file.\n"
         f"- Formula error: {formula_error:.3g}; candidate-orientation error: {orientation_error:.3g}.\n"
         "- Missing finance remains null and finance is excluded from headline WAR.\n"
         "- Public map geometry is validated separately against exact election-year Census files.\n",

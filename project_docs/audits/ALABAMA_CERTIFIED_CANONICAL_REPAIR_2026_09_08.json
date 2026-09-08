@@ -1,0 +1,389 @@
+{
+  "warehouse_status": "committed",
+  "build_run_id": "RUN-4C2EF8D12CC442D99A516E0D393DE157",
+  "latest_run_before": "RUN-DD7FF8C9ACBE4EAAA026AD1046693CA9",
+  "configuration": {
+    "backup": "C:\\Users\\User\\Documents\\GitHub\\alabama-state-house-and-state-senate-model\\data\\processed\\elections\\backups\\pre-alabama-certified-totals-2026-09-08.sqlite",
+    "expected_run": "RUN-DD7FF8C9ACBE4EAAA026AD1046693CA9",
+    "cycles": [
+      2018,
+      2022
+    ],
+    "before_snapshot": {
+      "canonical_candidates": "0d169551cc9278a12d2069996a037887e39fd89f670d8424e02f38d6c6b125dc",
+      "canonical_southern_legislative_candidate_election": "b60015f7d287e26149519dac331f7d1356e060c151f497870562f3e5c06fabf9",
+      "source_southern_legislative_observation_set": "73a634fe7a1b33a24d52561a4ec85012849adddf12d519dc1c4f717efccc8b59",
+      "source_southern_legislative_candidate_result": "b1c81dea5e182d7a5097fb11a4290d264ac0e8063fcea2cfa2926d36b0039bea",
+      "warehouse_source_file": "7867165a1d3ea26154619ad4fb93445abe5b06d7dd52a39122968edb33415456",
+      "warehouse_build_run": "428b3c72d75c5ae33ccb2635a9ef2f91934de9e3ab3e9fcc9ce13c6cb318a960",
+      "qa_warehouse_source_repair": "a857a11ef2f6c19e10faab94429bbdbc9de82ff2a7163213578bd1c631cee0f8",
+      "warehouse_schema_version": "2e075723a7004da7cf2ed451302f02e6e322cced2237143c783cc414d27f7fc7",
+      "warehouse_table_registry": "110902b9739c403b43662c7c7c990942f1f9fd66952429946f79a345446d9c47",
+      "mart_southern_war_outcome": "59ab352032199ed88e341148f2426ccaed23bce217e5a2a9730c6cc7f77e0c8c"
+    },
+    "before_counts": {
+      "canonical_candidates": 1564,
+      "canonical_southern_legislative_candidate_election": 79812,
+      "source_southern_legislative_observation_set": 52511,
+      "source_southern_legislative_candidate_result": 83064,
+      "warehouse_source_file": 26694,
+      "warehouse_build_run": 120,
+      "qa_warehouse_source_repair": 52,
+      "warehouse_schema_version": 26,
+      "warehouse_table_registry": 98,
+      "mart_southern_war_outcome": 4582
+    },
+    "application_code_sha256": {
+      "scripts/repair_alabama_canonical_certified_totals.py": "ebcd34511843424c44b88f3139ad9995b0e2ab6e2fa0a93eb2e95f396b8cde77",
+      "scripts/alabama_certified_bridge.py": "b886676222a1726003bb4ece274563645b65dafa5f8076556bacd673f2d8770c",
+      "scripts/warehouse.py": "dd9df42bbb3760a51443027f53f166d7f943e8d3e8ba9ce4461ac403b72234e0",
+      "scripts/warehouse_alabama_certified_bridge_schema.sql": "36948b60dab01dd9f80213632c5d1ac533e76289648c898b68f11b02d9aee2fc"
+    },
+    "source_files": {
+      "SRC-A3632F0E8738FDFB544D": {
+        "local_path": "data/raw/alabama_elections_and_geography/2018_general_certified_canvass.pdf",
+        "sha256": "a83be9be26ac195989bf94ad5097e4269f516674f645373526a9d6621f310044"
+      },
+      "SRC-DD940F20743C33261CC2": {
+        "local_path": "data/raw/alabama_elections_and_geography/2022_general_certified_canvass.pdf",
+        "sha256": "2f924587c91a72f161913a110612125bbc17b78151e20963a0003774666091ed"
+      }
+    },
+    "authority": "certified State Canvassing Board canvass totals for Alabama legislative contests",
+    "contract": "one approved bridge per canonical candidate at exact race/party grain with name evidence; disagreeing canonical totals corrected to certified; before-images retained"
+  },
+  "validation": {
+    "bridge_rows": 377,
+    "match_methods": {
+      "surname_unique_race_party": 203,
+      "decoded_ballot_code_exact_normalized_name": 173,
+      "precinct_workbook_exact_name_alignment_canvass_label_disagrees": 1
+    },
+    "corrections": 21,
+    "corrected_candidates": [
+      {
+        "canonical_candidate_id": "AL-2018-house-49-R-APRIL-WEAVER",
+        "before": 10794,
+        "after": 10795,
+        "certified_cell": "AL18CELL-BF4DA060EFDC6A21AB58FB91",
+        "certified_candidate_name": "Weaver"
+      },
+      {
+        "canonical_candidate_id": "AL-2018-house-67-D-PRINCE-CHESTNUT",
+        "before": 11239,
+        "after": 11635,
+        "certified_cell": "AL18CELL-1CC53B826B88D288D0C55059",
+        "certified_candidate_name": "Chestnut"
+      },
+      {
+        "canonical_candidate_id": "AL-2018-house-81-D-JEREMY-J-J-JEFFCOAT",
+        "before": 4696,
+        "after": 4697,
+        "certified_cell": "AL18CELL-3B3885641EEA94653B385A91",
+        "certified_candidate_name": "Jeffcoat"
+      },
+      {
+        "canonical_candidate_id": "AL-2018-house-83-D-JEREMY-MR-EYG-GRAY",
+        "before": 8940,
+        "after": 8943,
+        "certified_cell": "AL18CELL-8EADCBC8D590A02C0BE34A95",
+        "certified_candidate_name": "Gray"
+      },
+      {
+        "canonical_candidate_id": "AL-2018-house-83-R-MICHAEL-J-HOLDEN-II",
+        "before": 5142,
+        "after": 5143,
+        "certified_cell": "AL18CELL-330D1B7AC6C599BF6AB04100",
+        "certified_candidate_name": "Gray II"
+      },
+      {
+        "canonical_candidate_id": "AL-2018-senate-14-D-JERRY-MCDONALD",
+        "before": 13171,
+        "after": 13173,
+        "certified_cell": "AL18CELL-CC7B20A61F965A0FB364DFB2",
+        "certified_candidate_name": "McDonald"
+      },
+      {
+        "canonical_candidate_id": "AL-2018-senate-14-R-CAM-WARD",
+        "before": 34953,
+        "after": 34957,
+        "certified_cell": "AL18CELL-C81DFDFBFD71FB9429D6A8EE",
+        "certified_candidate_name": "Ward"
+      },
+      {
+        "canonical_candidate_id": "AL-2018-senate-23-D-MALIKA-SANDERS-FORTIER",
+        "before": 29920,
+        "after": 30193,
+        "certified_cell": "AL18CELL-1323BCA191C17412B0FB416B",
+        "certified_candidate_name": "Sanders-Fortier"
+      },
+      {
+        "canonical_candidate_id": "AL-2018-senate-27-D-NANCY-CARLTON-BENDINGER",
+        "before": 20586,
+        "after": 20587,
+        "certified_cell": "AL18CELL-5407905920E7FB475744E8EC",
+        "certified_candidate_name": "Bendinger"
+      },
+      {
+        "canonical_candidate_id": "AL-2018-senate-28-D-BILLY-BEASLEY",
+        "before": 28442,
+        "after": 28445,
+        "certified_cell": "AL18CELL-515C96155171FD1EFDC3E8EF",
+        "certified_candidate_name": "Beasley"
+      },
+      {
+        "canonical_candidate_id": "AL-2018-senate-30-R-CLYDE-CHAMBLISS-JR",
+        "before": 35256,
+        "after": 35259,
+        "certified_cell": "AL18CELL-24E4B5614816C18046F9F10A",
+        "certified_candidate_name": "Chambliss, Jr."
+      },
+      {
+        "canonical_candidate_id": "AL-2022-house-16-R-GSL016RSOU",
+        "before": 13174,
+        "after": 13177,
+        "certified_cell": "AL22CELL-2DB45AAA4DE6C969BD97E799",
+        "certified_candidate_name": "Kyle South"
+      },
+      {
+        "canonical_candidate_id": "AL-2022-house-32-D-GSL032DBOY",
+        "before": 5519,
+        "after": 5522,
+        "certified_cell": "AL22CELL-506B6D22DE46E058FFAF92E9",
+        "certified_candidate_name": "Barbara Bigsby Boyd"
+      },
+      {
+        "canonical_candidate_id": "AL-2022-house-32-R-GSL032RJAC",
+        "before": 4389,
+        "after": 4390,
+        "certified_cell": "AL22CELL-2A411163F110C59258EEC86D",
+        "certified_candidate_name": "Evan B. Jackson"
+      },
+      {
+        "canonical_candidate_id": "AL-2022-house-56-D-GSL056DTIL",
+        "before": 8986,
+        "after": 9008,
+        "certified_cell": "AL22CELL-9A3A51131D71EC065F988220",
+        "certified_candidate_name": "Ontario J. Tillman"
+      },
+      {
+        "canonical_candidate_id": "AL-2022-house-68-D-GSL068DJAC",
+        "before": 9517,
+        "after": 9537,
+        "certified_cell": "AL22CELL-CEFA3C54B6C672A512EEA1A8",
+        "certified_candidate_name": "Thomas E. \"Action\" Jackson"
+      },
+      {
+        "canonical_candidate_id": "AL-2022-house-68-R-GSL068RKEL",
+        "before": 8948,
+        "after": 8981,
+        "certified_cell": "AL22CELL-7A3BD3C695ADCE2F5E076D94",
+        "certified_candidate_name": "Fred Kelley"
+      },
+      {
+        "canonical_candidate_id": "AL-2022-house-73-R-GSL073RPAS",
+        "before": 10343,
+        "after": 10404,
+        "certified_cell": "AL22CELL-77443AA6DDA05A957AA10F3B",
+        "certified_candidate_name": "Kenneth Paschal"
+      },
+      {
+        "canonical_candidate_id": "AL-2022-house-75-R-GSL075RING",
+        "before": 11688,
+        "after": 11690,
+        "certified_cell": "AL22CELL-739FF611DA4220A7CFF249B3",
+        "certified_candidate_name": "Reed Ingram"
+      },
+      {
+        "canonical_candidate_id": "AL-2022-house-92-D-GSL092DHUB",
+        "before": 1789,
+        "after": 1795,
+        "certified_cell": "AL22CELL-D90162EA8D61B9E6B0345E74",
+        "certified_candidate_name": "Steve Hubbard"
+      },
+      {
+        "canonical_candidate_id": "AL-2022-house-92-R-GSL092RHAM",
+        "before": 11778,
+        "after": 11812,
+        "certified_cell": "AL22CELL-488964C7797566A2A269D7F3",
+        "certified_candidate_name": "Matthew Hammett"
+      }
+    ],
+    "affected_observation_sets": [
+      "ALCANON-2018-house-49",
+      "ALCANON-2018-house-67",
+      "ALCANON-2018-house-81",
+      "ALCANON-2018-house-83",
+      "ALCANON-2018-senate-14",
+      "ALCANON-2018-senate-23",
+      "ALCANON-2018-senate-27",
+      "ALCANON-2018-senate-28",
+      "ALCANON-2018-senate-30",
+      "ALCANON-2022-house-16",
+      "ALCANON-2022-house-32",
+      "ALCANON-2022-house-56",
+      "ALCANON-2022-house-68",
+      "ALCANON-2022-house-73",
+      "ALCANON-2022-house-75",
+      "ALCANON-2022-house-92"
+    ],
+    "materialized_rows_updated": 23,
+    "source_files": {
+      "SRC-A3632F0E8738FDFB544D": {
+        "local_path": "data/raw/alabama_elections_and_geography/2018_general_certified_canvass.pdf",
+        "sha256": "a83be9be26ac195989bf94ad5097e4269f516674f645373526a9d6621f310044"
+      },
+      "SRC-DD940F20743C33261CC2": {
+        "local_path": "data/raw/alabama_elections_and_geography/2022_general_certified_canvass.pdf",
+        "sha256": "2f924587c91a72f161913a110612125bbc17b78151e20963a0003774666091ed"
+      }
+    },
+    "before_images": [
+      {
+        "canonical_candidate_id": "AL-2018-house-49-R-APRIL-WEAVER",
+        "canonical_votes_before": 10794,
+        "canonical_votes_after": 10795,
+        "certified_cell": "AL18CELL-BF4DA060EFDC6A21AB58FB91"
+      },
+      {
+        "canonical_candidate_id": "AL-2018-house-67-D-PRINCE-CHESTNUT",
+        "canonical_votes_before": 11239,
+        "canonical_votes_after": 11635,
+        "certified_cell": "AL18CELL-1CC53B826B88D288D0C55059"
+      },
+      {
+        "canonical_candidate_id": "AL-2018-house-81-D-JEREMY-J-J-JEFFCOAT",
+        "canonical_votes_before": 4696,
+        "canonical_votes_after": 4697,
+        "certified_cell": "AL18CELL-3B3885641EEA94653B385A91"
+      },
+      {
+        "canonical_candidate_id": "AL-2018-house-83-D-JEREMY-MR-EYG-GRAY",
+        "canonical_votes_before": 8940,
+        "canonical_votes_after": 8943,
+        "certified_cell": "AL18CELL-8EADCBC8D590A02C0BE34A95"
+      },
+      {
+        "canonical_candidate_id": "AL-2018-house-83-R-MICHAEL-J-HOLDEN-II",
+        "canonical_votes_before": 5142,
+        "canonical_votes_after": 5143,
+        "certified_cell": "AL18CELL-330D1B7AC6C599BF6AB04100"
+      },
+      {
+        "canonical_candidate_id": "AL-2018-senate-14-D-JERRY-MCDONALD",
+        "canonical_votes_before": 13171,
+        "canonical_votes_after": 13173,
+        "certified_cell": "AL18CELL-CC7B20A61F965A0FB364DFB2"
+      },
+      {
+        "canonical_candidate_id": "AL-2018-senate-14-R-CAM-WARD",
+        "canonical_votes_before": 34953,
+        "canonical_votes_after": 34957,
+        "certified_cell": "AL18CELL-C81DFDFBFD71FB9429D6A8EE"
+      },
+      {
+        "canonical_candidate_id": "AL-2018-senate-23-D-MALIKA-SANDERS-FORTIER",
+        "canonical_votes_before": 29920,
+        "canonical_votes_after": 30193,
+        "certified_cell": "AL18CELL-1323BCA191C17412B0FB416B"
+      },
+      {
+        "canonical_candidate_id": "AL-2018-senate-27-D-NANCY-CARLTON-BENDINGER",
+        "canonical_votes_before": 20586,
+        "canonical_votes_after": 20587,
+        "certified_cell": "AL18CELL-5407905920E7FB475744E8EC"
+      },
+      {
+        "canonical_candidate_id": "AL-2018-senate-28-D-BILLY-BEASLEY",
+        "canonical_votes_before": 28442,
+        "canonical_votes_after": 28445,
+        "certified_cell": "AL18CELL-515C96155171FD1EFDC3E8EF"
+      },
+      {
+        "canonical_candidate_id": "AL-2018-senate-30-R-CLYDE-CHAMBLISS-JR",
+        "canonical_votes_before": 35256,
+        "canonical_votes_after": 35259,
+        "certified_cell": "AL18CELL-24E4B5614816C18046F9F10A"
+      },
+      {
+        "canonical_candidate_id": "AL-2022-house-16-R-GSL016RSOU",
+        "canonical_votes_before": 13174,
+        "canonical_votes_after": 13177,
+        "certified_cell": "AL22CELL-2DB45AAA4DE6C969BD97E799"
+      },
+      {
+        "canonical_candidate_id": "AL-2022-house-32-D-GSL032DBOY",
+        "canonical_votes_before": 5519,
+        "canonical_votes_after": 5522,
+        "certified_cell": "AL22CELL-506B6D22DE46E058FFAF92E9"
+      },
+      {
+        "canonical_candidate_id": "AL-2022-house-32-R-GSL032RJAC",
+        "canonical_votes_before": 4389,
+        "canonical_votes_after": 4390,
+        "certified_cell": "AL22CELL-2A411163F110C59258EEC86D"
+      },
+      {
+        "canonical_candidate_id": "AL-2022-house-56-D-GSL056DTIL",
+        "canonical_votes_before": 8986,
+        "canonical_votes_after": 9008,
+        "certified_cell": "AL22CELL-9A3A51131D71EC065F988220"
+      },
+      {
+        "canonical_candidate_id": "AL-2022-house-68-D-GSL068DJAC",
+        "canonical_votes_before": 9517,
+        "canonical_votes_after": 9537,
+        "certified_cell": "AL22CELL-CEFA3C54B6C672A512EEA1A8"
+      },
+      {
+        "canonical_candidate_id": "AL-2022-house-68-R-GSL068RKEL",
+        "canonical_votes_before": 8948,
+        "canonical_votes_after": 8981,
+        "certified_cell": "AL22CELL-7A3BD3C695ADCE2F5E076D94"
+      },
+      {
+        "canonical_candidate_id": "AL-2022-house-73-R-GSL073RPAS",
+        "canonical_votes_before": 10343,
+        "canonical_votes_after": 10404,
+        "certified_cell": "AL22CELL-77443AA6DDA05A957AA10F3B"
+      },
+      {
+        "canonical_candidate_id": "AL-2022-house-75-R-GSL075RING",
+        "canonical_votes_before": 11688,
+        "canonical_votes_after": 11690,
+        "certified_cell": "AL22CELL-739FF611DA4220A7CFF249B3"
+      },
+      {
+        "canonical_candidate_id": "AL-2022-house-92-D-GSL092DHUB",
+        "canonical_votes_before": 1789,
+        "canonical_votes_after": 1795,
+        "certified_cell": "AL22CELL-D90162EA8D61B9E6B0345E74"
+      },
+      {
+        "canonical_candidate_id": "AL-2022-house-92-R-GSL092RHAM",
+        "canonical_votes_before": 11778,
+        "canonical_votes_after": 11812,
+        "certified_cell": "AL22CELL-488964C7797566A2A269D7F3"
+      }
+    ],
+    "backup": "C:\\Users\\User\\Documents\\GitHub\\alabama-state-house-and-state-senate-model\\data\\processed\\elections\\backups\\pre-alabama-certified-totals-2026-09-08.sqlite",
+    "not_rebuilt": [
+      "mart_southern_war_outcome Alabama 2018/2022 rows: votes, third-party totals and source_file_id until load_southern_war_preparation_warehouse.py rebuilds the mart",
+      "data/processed/war/race_candidate_results.csv and its producer build_war_database.py still carry the pre-certified 2018/2022 D/R totals; build_candidate_identity.py would regenerate canonical_candidates from them and must adopt the certified canvass before any identity rebuild",
+      "candidate_alias_match_candidates and candidate_aliases copy canonical_votes at identity-build time (21 rows now differ by the recorded deltas; identity match statuses unchanged)",
+      "data/processed/elections/canonical_cmo_candidates.csv, canonical_cmo_features.csv and historical_cmo_extension.csv compatibility exports embed the old Alabama 2018/2022 totals",
+      "Alabama products consuming canonical 2018/2022 totals (alabama_war_v1, alabama_historical_war_v1, alabama_war_forecast_v1 bundles) are stale pending their own revalidation; not rebuilt here"
+    ],
+    "readiness_before": {
+      "mart_southern_war_training_no_finance": "7cf286c5f31f4f1a80b28773dbec196e5415db45b0143de46fb0faafd5270636",
+      "mart_southern_war_training_with_finance": "f794f85593e4f3bb5bc2b2d43054f3973624e223ef19dc55f4eb212d74a8ed5e"
+    },
+    "readiness_after": {
+      "mart_southern_war_training_no_finance": "7cf286c5f31f4f1a80b28773dbec196e5415db45b0143de46fb0faafd5270636",
+      "mart_southern_war_training_with_finance": "f794f85593e4f3bb5bc2b2d43054f3973624e223ef19dc55f4eb212d74a8ed5e"
+    },
+    "after_canonical_sha256": "f786e69b299542b05aae21777a6f29fdfa246c7257d743df577f7f0ecd4142d3",
+    "after_bridge_sha256": "b28740730e51a02465eeb62b264097a7154b953a16d217e2b2ba2ae4cf38e0b1",
+    "report_status": "database commit evidence authoritative; report written after commit"
+  }
+}

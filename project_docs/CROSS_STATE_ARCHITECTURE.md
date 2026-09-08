@@ -2,10 +2,12 @@
 
 ## Purpose
 
-This repository is one state node in a federated Southern legislative modeling
-project. Repositories share contracts and concepts but retain state-local data,
-adapters, audits, model runs, and publication history. This avoids a single
-fragile warehouse while allowing pooled analysis through compatible exports.
+This repository hosts the central research warehouse for the Alabama forecast,
+historical Alabama WAR, ideology/caucus analysis, and Southern legislative WAR.
+It is also the Alabama node in a federated Southern project. Companion state
+repositories may retain local sources, adapters, audits, and publication history;
+their validated exports enter central analysis through explicit shared contracts.
+Central storage does not erase state-specific authority, provenance, or ownership.
 
 ## Architectural principles
 
@@ -43,9 +45,11 @@ feature marts -> versioned model runs -> validation gates
         +--> docs/ and local artifacts
 ```
 
-SQLite is the preferred state-local analytical warehouse. Binary source files
-remain outside it; the database stores provenance, normalized records,
-lineage, canonical views, features, model runs, and validation results.
+The Alabama-hosted central warehouse uses SQLite; companion state repositories
+may also use local SQLite stores. Binary source files remain outside the
+database, which stores provenance, normalized records, lineage, canonical views,
+features, model runs, and validation results. See `WAREHOUSE_ARCHITECTURE.md` for
+the central database lifecycle; a state-only bootstrap must not replace it.
 
 ## Canonical domains
 
@@ -80,11 +84,21 @@ Identifiers must not depend on display names or row order.
 4. Resolve identities and geography while retaining evidence.
 5. Build canonical views under declared authority policies.
 6. Build leakage-safe feature marts.
-7. Train/backtest with time-forward splits.
-8. Gate publication on integrity, coverage, calibration, and reproducibility.
+7. Apply the product-specific analysis and validation contract: retrospective
+   residual/era checks for historical WAR; evidence-window and sensitivity
+   checks for ideology; time-forward testing and calibration for forecasts.
+8. Gate publication on integrity, coverage, reproducibility, and the relevant
+   product diagnostics. Keep research promotion separate from page rendering.
 9. Export common cross-state tables and state-specific public products.
 
 ## Publication gates
+
+Every product requires registered source provenance, correct keys/geography,
+explicit coverage and exclusions, a versioned run, and an auditable validation
+record. Source repairs require downstream dependency review before publication.
+Historical residuals and descriptive ideology analyses are not forecasts;
+their contracts must specify their own checks and limitations. Existing
+product-specific gates remain in force until explicitly reviewed and revised.
 
 No forecast is publishable unless:
 
@@ -94,6 +108,10 @@ No forecast is publishable unless:
 - forward validation and calibration are documented;
 - uncertainty includes model, data, and contest-status limitations;
 - a model card identifies the exact code, data, and configuration versions.
+
+Public pages and downloads must agree with the selected run. A successful
+renderer is not scientific validation or publication approval. Internal planning
+and completion tracking in `project_docs/` do not belong in the public site.
 
 ## Cross-state governance
 

@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-09-08T02:09:19.771240+00:00",
+  "scope": "factual Alabama 2018 legislative source reconciliation only; no warehouse or analytical writes",
+  "status": "review_required_precinct_subtotals_below_certified_canvass",
+  "precinct_source": {
+    "source_file_id": "SRC-58554CA554544F2029A1",
+    "provider": "alabama_sos",
+    "local_path": "data/raw/alabama_elections_and_geography/2018-Official-General-Precinct-Results.zip",
+    "sha256": "fb467ac457e8ac30c3d817afa4ea94f72ca6b4d3bab6f677bee624c579946c4e",
+    "retrieved_at_utc": "2026-08-16T19:15:03.565157+00:00",
+    "county_workbooks": 67,
+    "warehouse_status": "registered_normalized_for_official_vote_counts",
+    "source_url": null,
+    "license_or_terms": null
+  },
+  "canvass_source": {
+    "source_file_id": "SRC-A3632F0E8738FDFB544D",
+    "provider": "alabama_sos",
+    "local_path": "data/raw/alabama_elections_and_geography/2018_general_certified_canvass.pdf",
+    "source_url": "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/2018/2018-Official-General-Election-Results-Certified-2018-11-27.pdf",
+    "source_index_url": "https://www.sos.alabama.gov/alabama-votes/voter/election-information/2018",
+    "retrieved_at_utc": "2026-09-08T01:32:33.6217607Z",
+    "sha256": "a83be9be26ac195989bf94ad5097e4269f516674f645373526a9d6621f310044",
+    "size_bytes": 2307020,
+    "certified_date": "2018-11-27",
+    "license_or_terms": "review: public official election record; explicit redistribution license not established",
+    "warehouse_status": "not_registered"
+  },
+  "code_sha256": {
+    "scripts/alabama_2018_official_results.py": "7b8022ada88f92478567f686bc479ef3fe0dbce65c18d79ac25798b32996a5fe",
+    "scripts/alabama_2022_official_results.py": "96f853959fff04d80b478c23116987b39af5a8780d51c5181dbacf3c32e990d3",
+    "scripts/sos_precinct.py": "a87f1a4713e8a164a2614136e34222bce7d45b8432f4ef22231eaa6870d710cf",
+    "scripts/oe_normalize.py": "e1b306249cbc1bc3dd5b23ae038ee94df9d89ec3183ec061a4f8f878a63e1dff"
+  },
+  "coverage": {
+    "canvass_pages": 192,
+    "legislative_total_pages": 38,
+    "house_districts": 105,
+    "senate_districts": 35,
+    "certified_rows": 352,
+    "named_candidate_rows": 212,
+    "write_in_rows": 140,
+    "precinct_source_cells": 38699,
+    "observed_precinct_cells": 13787,
+    "unknown_precinct_cells_retained": 24912
+  },
+  "candidate_alignment": {
+    "unique_exact_contest_party_category": 351,
+    "precinct_candidate_scope_absent": 1,
+    "method": "The canvass prints surnames while the precinct workbooks print fuller names. A bridge is used only when both sources have exactly one candidate at chamber/district/party/category grain; no fuzzy matching is used."
+  },
+  "reconciliation": {
+    "matched_certified_total_rows": 322,
+    "review_rows": 30,
+    "review_reasons": {
+      "vote_mismatch": 29,
+      "missing_precinct_candidate": 1
+    },
+    "certified_votes": {
+      "named_candidate": 3024638,
+      "write_in": 27312
+    },
+    "observed_precinct_subtotal_votes": {
+      "named_candidate": 3023533,
+      "write_in": 26764
+    },
+    "review_absolute_vote_delta": 1593,
+    "review_signed_observed_minus_certified_delta": -1593,
+    "review_by_category_party": {
+      "named_candidate_D": {"rows": 7, "signed_delta": -679, "absolute_delta": 679},
+      "named_candidate_I": {"rows": 1, "signed_delta": -417, "absolute_delta": 417},
+      "named_candidate_R": {"rows": 4, "signed_delta": -9, "absolute_delta": 9},
+      "write_in_O": {"rows": 18, "signed_delta": -488, "absolute_delta": 488}
+    }
+  },
+  "strict_southern_intersection": {
+    "alabama_2018_strict_races": 64,
+    "review_named_major_party_rows": 6,
+    "affected_strict_races": {"lower": 2, "upper": 2},
+    "signed_observed_minus_certified_delta": -12,
+    "absolute_vote_delta": 12
+  },
+  "conclusion": "The certified canvass supplies complete contest totals and the precinct archive preserves useful physical-cell evidence, but blank precinct cells are not zero. Four current strict Southern races intersect six major-party subtotal discrepancies. Keep the source cohort in review until warehouse registration, exact source-set staging, canonical authority adjudication and downstream dependency validation are complete."
+}

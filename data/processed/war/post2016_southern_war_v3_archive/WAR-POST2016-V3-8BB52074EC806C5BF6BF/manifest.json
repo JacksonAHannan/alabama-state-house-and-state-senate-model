@@ -1,0 +1,179 @@
+{
+  "code_hashes": {
+    "scripts/retrain_post2016_southern_war.py": "ead76fb849c93043d380cff7d2a14eb2a7bca31944134af207acf7002d2e075d",
+    "scripts/retrain_post2016_southern_war_v2.py": "9a52de7cd3043f8d8a57d07a39e5914d257af2ffc3ebe2da8f17b2c9e8f0a730",
+    "scripts/retrain_post2016_southern_war_v3.py": "29d4f7b3b323b6146d82350b21dc1770a82a557059c9f2a88c1d3b346ad94997"
+  },
+  "configuration": {
+    "candidate_pooling_in_headline_war": false,
+    "cutoff_rule": "cycle > 2016",
+    "finance_headline_included": false,
+    "finance_sensitivity": {
+      "aggregate_mae": 6.042480877586372,
+      "coefficient": 3.0739886980436366,
+      "intercept": 0.049781070081536705,
+      "latest_cycle": 2024,
+      "latest_mae": 5.185930949134537,
+      "nested_forward_mae": 5.645468468734492,
+      "nested_latest_cycle": 2024,
+      "nested_latest_mae": 5.185930949134537,
+      "nested_no_finance_latest_mae": 5.125449396678462,
+      "nested_no_finance_mae": 5.625027623966249,
+      "no_finance_aggregate_mae": 6.019293643985787,
+      "no_finance_latest_mae": 5.125449396678462,
+      "predictive_gate_status": "fails_nested_forward_gate",
+      "promotion_status": "rejected_not_comparable_total_spending_and_endogenous",
+      "retrospective_best_aggregate_mae": 5.976392820944497,
+      "retrospective_best_sensitivity": "viability_gated_10k",
+      "selected_feature": "finance_viability_gated_log_ratio_250k",
+      "selected_sensitivity": "viability_gated_250k",
+      "selection_basis": "nested_forward_choice_for_latest_evaluation_cycle"
+    },
+    "finance_thresholds": [
+      10000.0,
+      20000.0,
+      30000.0,
+      40000.0,
+      50000.0,
+      60000.0,
+      70000.0,
+      80000.0,
+      90000.0,
+      100000.0,
+      250000.0
+    ],
+    "headline_fit_scope": "same_cycle_full_sample_descriptive",
+    "headline_war_definition": "raw_gap - fitted_structural_expected_gap",
+    "selected_structural_alpha": 100.0,
+    "selected_structural_specification": "decaying_lag",
+    "structural_selection": {
+      "best_no_lag_forward_mae": 5.110405044432089,
+      "lag_added_value_status": "passes_lag_added_value_gate",
+      "mae_improvement_vs_no_lag": 0.3051411653185374,
+      "selected_forward_mae": 4.805263879113552
+    },
+    "training_status": "strict_war_ready_no_finance"
+  },
+  "diagnostics": {
+    "candidate_cycle_key_duplicates": 0,
+    "candidate_cycle_rows": 7320,
+    "cycles": [
+      2018,
+      2019,
+      2020,
+      2022,
+      2023,
+      2024
+    ],
+    "finance_complete_rows": 3102,
+    "lag_context_rows": 1284,
+    "max_candidate_orientation_error": 0.0,
+    "max_war_formula_error": 0.0,
+    "race_key_duplicates": 0,
+    "states": 14,
+    "training_rows": 3660
+  },
+  "generated_at_utc": "2026-09-02T03:28:08.820222+00:00",
+  "input_hashes": {
+    "data/processed/elections/alabama_elections.sqlite": "7b899909723f3e390ad075c24b9f7000753f178ea0d076b943175378c6540a2a",
+    "data/processed/forecast_calibration/southern_legislative_probability_panel.csv": "09154b4ecd80e513acef147a73c9bdf3bb5ba95687ce1b58c6608fe9230315ed",
+    "data/processed/presidential/2018_district_presidential_features.csv": "53ac22998689c1a1a69d93cb9e6388ab4d4b1bb01895c70859cff6a6c43b2694",
+    "data/processed/presidential/2022_district_presidential_features.csv": "b5243cebb2c7e8b22b2a1fee4598914920fca844f74ca80d17fd548d728b5bd3",
+    "data/processed/war/post2016_southern_war_v2/manifest.json": "062c9e201d660052180ea629ccbbb0fd386c308de39fda031546d599020652f5",
+    "project_docs/model/POST2016_SOUTHERN_WAR_V3_FIELD_CONTRACT.md": "272c60027414654d37ef6d5851cc6224cb432ea12bdf6df05cf53a48b0c7ae32"
+  },
+  "methodology_version": "post2016_southern_war_v3_residual",
+  "model_run_id": "WAR-POST2016-V3-8BB52074EC806C5BF6BF",
+  "outputs": [
+    {
+      "path": "data/processed/war/post2016_southern_war_v3/race_war.csv",
+      "rows": 3660,
+      "sha256": "18939202c25cb3e737d1d76764f10005665d2f48d6b6e62f9a2fd17ac7b3ed64"
+    },
+    {
+      "path": "data/processed/war/post2016_southern_war_v3/candidate_cycle_war.csv",
+      "rows": 7320,
+      "sha256": "10cb0472b16fef633b7785174cc832c267de85817f41e59ef07917df44372909"
+    },
+    {
+      "path": "data/processed/war/post2016_southern_war_v3/structural_forward_predictions.csv",
+      "rows": 31620,
+      "sha256": "802bc0d1cb7f8245ec62207e268b5480c3b24fe45a5ba7aaa0db6c59c24ddda7"
+    },
+    {
+      "path": "data/processed/war/post2016_southern_war_v3/structural_forward_metrics.csv",
+      "rows": 120,
+      "sha256": "6e2798def55988241b4703536fa3efa06ca071a5ed3e1ea8a03687da6e62253d"
+    },
+    {
+      "path": "data/processed/war/post2016_southern_war_v3/validation_cross_fitted_predictions.csv",
+      "rows": 3660,
+      "sha256": "0733504e60f6b4cd3d3fc92fda8f9793bd9759fd16e825d72e5d4b33ee51d2d0"
+    },
+    {
+      "path": "data/processed/war/post2016_southern_war_v3/structural_coefficients_by_cycle.csv",
+      "rows": 204,
+      "sha256": "e5faec30016fd92f84a2dcc4b9e6223b2239d8936febdfb209eb1f5d46fb0658"
+    },
+    {
+      "path": "data/processed/war/post2016_southern_war_v3/lag_diagnostics_by_cycle.csv",
+      "rows": 6,
+      "sha256": "c0471a467cd94a07a4d61a68426f8fdd1a9275c61575adc189f1c8f637b5e516"
+    },
+    {
+      "path": "data/processed/war/post2016_southern_war_v3/v2_correction_comparison.csv",
+      "rows": 3660,
+      "sha256": "854a37d18b3adcbaeaeba2cfe4320517c2afc640dfa3d4b5f9be4aeb2d5387c3"
+    },
+    {
+      "path": "data/processed/war/post2016_southern_war_v3/coverage.csv",
+      "rows": 94,
+      "sha256": "76af90fb692ce6761023b9c796d2ced3cb1c531a7bb751d26d0de3dba495b4a1"
+    },
+    {
+      "path": "data/processed/war/post2016_southern_war_v3/finance_forward_predictions.csv",
+      "rows": 29003,
+      "sha256": "8578db4a21233078372393de86228d4044a94e1b74d53b71333d26d7218e5d8f"
+    },
+    {
+      "path": "data/processed/war/post2016_southern_war_v3/finance_forward_metrics.csv",
+      "rows": 78,
+      "sha256": "1f0d4bbfc792bb6e51b065d2dee7a3ab7a46c1db4bce865ab2c9218b9d0b5883"
+    },
+    {
+      "path": "data/processed/war/post2016_southern_war_v3/finance_nested_predictions.csv",
+      "rows": 2754,
+      "sha256": "9c06498febb0f1fd72fafc9628c4d76cb881c4114295f1c7010e01b5035541c4"
+    },
+    {
+      "path": "data/processed/war/post2016_southern_war_v3/finance_nested_metrics.csv",
+      "rows": 8,
+      "sha256": "80526b921a642f55fcc5b8c67b8c03186bd45a5f21cba38dece1676a25d6ffa6"
+    }
+  ],
+  "reports": [
+    {
+      "path": "project_docs/model/POST2016_SOUTHERN_WAR_V3.md",
+      "sha256": "7d2f74d8aec3c73ee18d2fd606c327fa3d9ea014c968426c7a9a4259cb5f71ce"
+    },
+    {
+      "path": "project_docs/model/POST2016_SOUTHERN_WAR_V3_FIELD_CONTRACT.md",
+      "sha256": "272c60027414654d37ef6d5851cc6224cb432ea12bdf6df05cf53a48b0c7ae32"
+    },
+    {
+      "path": "project_docs/audits/POST2016_SOUTHERN_WAR_V3_VALIDATION.md",
+      "sha256": "ac940e9d71ceae6f64e4f34d0a1ada5d1f7f824f5534db7ba9e6b33bd7912fb5"
+    }
+  ],
+  "schema_version": 1,
+  "source_commit": "88878b973fdac3cee95a8d8648da321e38e0021c",
+  "split_ticket_methodology": {
+    "database_url": "https://split-ticket.org/full-wins-above-replacement-war-database/",
+    "implemented_definition": "actual legislative-versus-ticket gap minus fitted structural gap",
+    "method_url": "https://split-ticket.org/2025/08/15/deconstructing-war/",
+    "portability_limit": "state model lacks complete comparable demographics and candidate-plus-outside spending"
+  },
+  "status": "research_candidate_pending_independent_validation",
+  "warehouse_build_run_id": "RUN-85A4692E481448B6BB1380D76E07742B",
+  "warehouse_code_commit": "88878b973fdac3cee95a8d8648da321e38e0021c"
+}

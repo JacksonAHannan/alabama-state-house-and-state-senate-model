@@ -1,0 +1,1027 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Internal · Four-product completion checklist</title>
+<style>
+:root{--paper:#dbeaf2;--panel:#f8fbfc;--ink:#211b1b;--muted:#586772;--rule:#9db4c1;--accent:#743b42}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 Arial,Helvetica,sans-serif}
+header{background:var(--accent);color:white;padding:25px max(20px,calc((100vw - 1120px)/2))}
+header p{margin:0;max-width:75ch}h1{font-size:clamp(26px,4vw,42px);line-height:1.15;margin:6px 0 12px;letter-spacing:-1px}
+main{max-width:1160px;margin:auto;padding:24px 20px 60px}h2{font-size:23px;line-height:1.3;margin:0 0 12px}h3{font-size:18px;margin:0}
+a{color:var(--accent)}button,input,select,textarea{font:inherit}button,select,input[type=search]{border:1px solid var(--rule);background:var(--panel);color:var(--ink);padding:9px 12px;border-radius:3px}
+button{cursor:pointer}button.primary{background:var(--accent);color:white;border-color:var(--accent)}:focus-visible{outline:3px solid #111;outline-offset:3px}
+.skip{position:absolute;left:15px;top:-100px;background:white;padding:10px}.skip:focus{top:10px}
+.summary{display:grid;grid-template-columns:1fr 1.3fr;gap:28px;margin:24px 0}.summary>section{min-width:0}
+#counter{font-size:32px;font-weight:700;margin:8px 0}progress{width:100%;height:16px;accent-color:var(--accent)}
+.muted,.gate,.detail{color:var(--muted)}.small{font-size:13px}.toolbar{display:flex;flex-wrap:wrap;gap:12px;align-items:end;margin:20px 0}.toolbar label{display:grid;gap:4px}
+#search{width:min(100%,350px)}.notice{background:var(--panel);border-left:4px solid var(--accent);padding:14px 18px}
+#save-status{min-height:1.5em;overflow-wrap:anywhere}details.instructions{border:1px solid var(--rule);padding:12px 16px;background:var(--panel)}
+summary{cursor:pointer;font-weight:700}li{margin:7px 0}code{overflow-wrap:anywhere}
+nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
+.phase{margin:28px 0;border:1px solid var(--rule);background:var(--panel)}.phase-head{padding:20px;border-bottom:1px solid var(--rule)}
+.phase-head .gate{margin:8px 0;max-width:95ch}.phase-count{font-size:14px;font-weight:400;white-space:nowrap}
+.task{padding:16px 20px;border-bottom:1px solid #d5e0e6}.task:last-child{border:0}.task label{display:flex;align-items:flex-start;gap:12px;font-weight:600;cursor:pointer}
+.task input[type=checkbox]{width:21px;height:21px;flex:0 0 21px;margin:2px 0;accent-color:var(--accent)}
+.task.done label span{text-decoration:line-through;color:var(--muted)}.task .detail{margin:6px 0 7px 33px;font-size:14px;max-width:100ch}
+.task details{margin-left:33px;font-size:13px}.task details summary{font-weight:400}.task textarea{width:100%;max-width:850px;min-height:72px;display:block;margin:8px 0;border:1px solid var(--rule);padding:8px;background:white}
+.task-id{font-size:12px;color:var(--muted);margin-left:33px}#chart{width:100%;height:auto;display:block;background:var(--panel);border:1px solid var(--rule)}
+#chart text{font:13px Arial;fill:var(--muted)}.table-scroll{overflow:auto;max-height:240px}table{border-collapse:collapse;width:100%;font-size:13px}th,td{padding:7px;text-align:left;border-bottom:1px solid var(--rule)}
+#no-results{padding:20px;background:var(--panel)}[hidden]{display:none!important}footer{margin-top:30px;font-size:13px;color:var(--muted)}
+@media(max-width:700px){.summary{grid-template-columns:1fr;gap:18px}.toolbar{align-items:stretch}.toolbar label{width:100%}.toolbar select,#search{width:100%}.phase-head,.task{padding:14px}main{padding:18px 12px}header{padding:20px 16px}}
+@media print{.toolbar,button,.instructions,#save-status,nav{display:none}.summary{grid-template-columns:1fr 1fr}body{background:white}.phase{break-inside:auto}.task{break-inside:avoid}.task textarea{border:0}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to checklist</a>
+<header><p>Internal working document · Not part of the public website</p><h1>Four products. One completion checklist.</h1><p>Alabama 2026 forecast, historical Alabama WAR, ideology and caucuses, and Southern legislative WAR, 2016–2024.</p></header>
+<main id="main">
+<p class="notice">Completion means reproducible evidence and an honest release contract—not filling every gap. Prefer deleting unnecessary work, then simplifying, then optimizing. Optional research can be closed with an explicit, reviewed deferral.</p>
+<div class="summary">
+<section aria-labelledby="progress-title"><h2 id="progress-title">Project progress</h2><p id="counter" aria-live="polite"></p><progress id="progress" aria-label="Completed checklist items"></progress><p id="remaining" class="small"></p><p class="small muted">Boxes are equally weighted tasks, not effort estimates or proof of scientific readiness. Five documented milestones start checked. Unchecked items still require verification or an accepted disposition.</p><div id="product-counts" class="small"></div></section>
+<section aria-labelledby="chart-title"><h2 id="chart-title">Boxes checked over time</h2><svg id="chart" viewBox="0 0 640 240" role="img" aria-labelledby="chart-title chart-description"></svg><p id="chart-description" class="small muted">Recorded snapshots only. The initial point records previously delivered work at checklist creation; no earlier dates are invented. Unchecking a task lowers the count.</p><details><summary>History table</summary><div class="table-scroll" tabindex="0" role="region" aria-label="Completion history"><table><thead><tr><th scope="col">Time (UTC)</th><th scope="col">Checked / total</th><th scope="col">Event</th></tr></thead><tbody id="history"></tbody></table></div></details></section>
+</div>
+<details class="instructions">
+<summary>How to save progress and hand off to an implementer agent</summary>
+<p>This HTML file is the internal source of truth. It is not a public-site asset, a warehouse output or a publication approval.</p>
+<ol>
+<li>Check or uncheck an item and add evidence under “Evidence / disposition.” Counts and history update immediately. Browser drafts are saved locally when storage is available.</li>
+<li>Select <strong>Download updated HTML</strong>. Review the downloaded file, then replace <code>project_docs/PROJECT_COMPLETION_CHECKLIST.html</code> in the repository with that file. Downloads do not automatically modify repository files; browser storage does not sync between people or devices.</li>
+<li>An agent can instead edit the embedded <code>checklist-data</code> JSON directly: update the task's <code>done</code> and <code>evidence</code>, append a UTC history snapshot with <code>at</code>, <code>done</code>, <code>total</code> and <code>event</code>, and change <code>revision</code> to a new unique value. Retain stable task IDs and all prior history. Counts are derived, not manually maintained.</li>
+<li>When changing scope, preserve earlier snapshots and their original totals. Document added/removed tasks in a new history event. Keep deferred research visible with rationale rather than silently deleting a difficult requirement.</li>
+<li>Merge concurrent repository edits by task ID and review history conflicts. This is a single-editor file, not a collaborative server; coordinate ownership before editing.</li>
+</ol>
+<p>Phase 1 sets the contract; Phase 2 repairs shared dependencies. Product Phases 3–6 may proceed in parallel once their inputs are ready. Phase 7 verifies the integrated release. The research-v4 and optional-finance items require a decision, not mandatory expansion.</p>
+</details>
+<div class="toolbar"><button id="download" class="primary" type="button">Download updated HTML</button><label>Find a task<input id="search" type="search" placeholder="Search tasks, IDs or evidence"></label><label>Workstream<select id="product"><option value="">All workstreams</option></select></label><label>Status<select id="status"><option value="">All tasks</option><option value="open">Unchecked</option><option value="done">Checked</option></select></label></div>
+<p id="save-status" role="status" class="small">Repository version loaded. Browser edits must be downloaded and saved back to the repository.</p>
+<nav id="phase-nav" aria-label="Checklist phases"></nav>
+<p id="visible-count" class="small muted"></p>
+<div id="phases"></div><p id="no-results" hidden>No tasks match these filters. Clear the search or choose all tasks.</p>
+<footer>Baseline: September 5, 2026. Evidence: existing repository audits, manifests and the prior four-product review; not a new whole-warehouse certification. Linked audit paths resolve from this file's location in <code>project_docs/</code>. Version-specific counts must be reconciled when inputs change. Only explicitly supported milestones are prechecked.</footer>
+<noscript><p>Enable JavaScript to use the interactive checklist. All tasks and saved history are also present in the embedded checklist-data JSON in this file.</p></noscript>
+</main>
+<script id="checklist-data" type="application/json">
+{
+  "schemaVersion": 1,
+  "revision": "2026-09-08T13:45:12Z",
+  "title": "Four-product completion checklist",
+  "baselineDate": "2026-09-05",
+  "baselineCode": "88878b9 (existing dirty worktree)",
+  "phases": [
+    {
+      "id": "scope",
+      "title": "Phase 1 · Agree on the release contract",
+      "product": "Shared foundation",
+      "gate": "Start here. Exit: one current definition, owner, entry point and acceptance standard for each product.",
+      "source": "CANONICAL_PIPELINES.md",
+      "tasks": [
+        {
+          "id": "scope-01",
+          "text": "Name the four canonical products and their owners",
+          "detail": "Record the approved model/data version, source mart, builder, output page and accountable reviewer for each product. Separate current publication from research and legacy outputs.",
+          "done": false,
+          "evidence": "Source certification remains open. The exact readiness audit accounts for all 97 missing scalar links as Alabama canonical outcomes and proves 0/97 are recoverable through the current registered bridge-consensus repair. The official 2018 certified canvass is now acquired and a missingness-preserving adapter covers all 140 districts: 322/352 totals reconcile exactly, 30 remain review, and four current strict races intersect six major-party discrepancies totaling 12 absolute votes. The reviewed 2022 certified cohort still differs from the canonical route in ten candidate totals across seven House contests. Virginia 2017/2021 plan/allocation evidence and 151 incumbency adjudications also remain open. See audits/SOUTHERN_RELEASE_READINESS_2026_09_07.md, audits/ALABAMA_2018_CERTIFIED_SOURCE_RECONCILIATION.json and audits/ALABAMA_2022_CERTIFIED_SOURCE_RECONCILIATION.json."
+        },
+        {
+          "id": "scope-02",
+          "text": "Replace the stale canonical pipeline index",
+          "detail": "Reconcile CANONICAL_PIPELINES.md with the actual current product routes and inspect scripts/project.py before changing commands. Distinguish data builds, rendering and publication; document legacy dispatcher limitations.",
+          "done": true,
+          "evidence": "2026-09-05: Updated AGENTS.md, CANONICAL_PIPELINES.md, CROSS_STATE_ARCHITECTURE.md and STATE_ADAPTER_GUIDE.md against the current builder entry points and dispatcher. All 17 documentation links and referenced scripts resolve; git diff --check passed. Documentation only: no model, warehouse or public-site rebuild. Legacy dispatcher migration and certified end-to-end command sequences remain separate open work."
+        },
+        {
+          "id": "scope-03",
+          "text": "Write one reproducible command sequence per product",
+          "detail": "Distinguish upstream rebuilds from page rendering; the forecast page command is not an end-to-end data rebuild. Reuse existing scripts rather than adding an orchestrator.",
+          "done": false,
+          "evidence": "2026-09-07 partial infrastructure progress: removed superseded dispatcher cmo chain; remaining renderer targets require explicit --publish without waiving release gates. Five isolated subprocess tests and independent review passed. Product-specific end-to-end reproducibility remains open; no builders ran. See coordination/CHECKLIST-EXECUTION-20260906.md."
+        },
+        {
+          "id": "scope-04",
+          "text": "Pin the Split Ticket adaptation contract",
+          "detail": "Specify retrospective residual, sign/orientation, percentage-point units, election universe, presidential context, incumbency, demographics and deviations from the reference methodology. Explain the finance-free adaptation; fundraising receipts are not interchangeable with spending.",
+          "done": true,
+          "evidence": "POST2016_SOUTHERN_WAR_V3_FIELD_CONTRACT.md reconciled with primary Split Ticket explanation and actual v2/v3 design/fitting code. Same-cycle fits and absence of demographic/finance predictors explicit; baseline/lag deviations, sign/units and backcast/forecast distinctions pinned. Independent review PASS. Documentation only; existing run hashes not recertified."
+        },
+        {
+          "id": "scope-05",
+          "text": "Separate retrospective and predictive acceptance tests",
+          "detail": "Use reconciliation and descriptive sensitivity for historical WAR; require time-forward calibration and uncertainty diagnostics for forecasts. Explicitly adjudicate the research v4 publication gate rather than bypassing it.",
+          "done": true,
+          "evidence": "CANONICAL_PIPELINES.md Acceptance meanings distinguishes retrospective reconciliation/sensitivity from time-forward forecast calibration and uncertainty. Existing specification/finance gates and deferred v4 promotion gates preserved. Independent review PASS; definition only, actual validation remains open."
+        },
+        {
+          "id": "scope-06",
+          "text": "Confirm ideology and caucus scope",
+          "detail": "State which parties, years, issue channels and populations the public release covers. Distinguish statistical groupings from documented formal caucus membership; do not promise unsupported coverage.",
+          "done": true,
+          "evidence": "Existing Democratic 1998–2022 public scope, channels, population and exclusions recorded in CANONICAL_PIPELINES.md. Both-party research inventory distinguished from displayed sample and formal caucuses. Independent scope review PASS; no output recertification."
+        },
+        {
+          "id": "scope-07",
+          "text": "Define missingness and review dispositions",
+          "detail": "Use observed, reconstructed, imputed, excluded and unknown consistently. Decide what blocks release and what can ship with a prominent limitation; absence of evidence is not a zero.",
+          "done": true,
+          "evidence": "CANONICAL_PIPELINES.md Acceptance meanings records distinct value states, required unresolved checks as release blockers, and only contract-permitted independently reviewed exclusions. No arbitrary completeness threshold or missing-to-zero conversion. Independent review PASS; enforcement and final validation remain open."
+        },
+        {
+          "id": "scope-08",
+          "text": "Inventory redundant scripts and conflicting documentation",
+          "detail": "Trace consumers before retiring dead entry points or duplicate exports. Preserve immutable sources and reproducibility artifacts; delete only proven unused code and label historical methodology as superseded.",
+          "done": false,
+          "evidence": "2026-09-05 documentation portion: see project_docs/audits/DOCUMENTATION_ARCHITECTURE_AUDIT_2026_09_05.md and its 751-row inventory. Updated 25 existing documents, retired the duplicate roadmap/standing-team instructions, and preserved source/run evidence. Script-deletion analysis, legacy dispatcher migration and old public-download cleanup remain outside this documentation pass; this broader task stays unchecked."
+        },
+        {
+          "id": "scope-09",
+          "text": "Record the release matrix and stopping rule",
+          "detail": "For each product define required coverage, permitted exclusions, reviewer and evidence of acceptance. No arbitrary completeness percentage, new predictors or endless acquisition merely to tick boxes.",
+          "done": false,
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": "warehouse",
+      "title": "Phase 2 · Reconcile the shared warehouse",
+      "product": "Shared data",
+      "gate": "Depends on Phase 1. Exit: affected dependencies are rebuilt or explicitly excluded, with source-backed QA and no silent stale consumers.",
+      "source": "audits/WAREHOUSE_SOURCE_REPAIRS_2026_09_05.md",
+      "tasks": [
+        {
+          "id": "warehouse-01",
+          "text": "Apply the documented source-confirmed warehouse repairs",
+          "detail": "September 5 repair runs cover Jefferson 2014 summary duplication, Marshall 2002 parsing, 1994 precinct IDs, AG party codes, Arkansas geometry, finance masking and registry corrections. This does not certify downstream products.",
+          "done": true,
+          "evidence": "Recorded in the linked phase audit; checked at checklist initialization, not a claimed completion timestamp."
+        },
+        {
+          "id": "warehouse-02",
+          "text": "Inventory every dependency affected by those repairs",
+          "detail": "Follow WQA-dependencies through precinct nodes, fingerprints, links, match candidates, historical weights/baselines, Arkansas allocations and publications. Check run timestamps/hashes before deciding what is still stale.",
+          "done": true,
+          "evidence": "project_docs/audits/WAREHOUSE_REPAIR_DEPENDENCIES_2026_09_06.md and companion JSON: read-only dependency inventory, 76 manifest comparisons, confirmed stale materializations and explicit unresolved impact. Independent inventory review passed; no repairs, model validation or publication approval. Handoff: project_docs/coordination/WAREHOUSE-REPAIR-DEPENDENCIES-20260906.md."
+        },
+        {
+          "id": "warehouse-03",
+          "text": "Rebuild affected precinct identity and linkage products",
+          "detail": "Replay corrected source identifiers through canonical adapters; compare pre/post mappings and preserve ambiguity and adjudication evidence.",
+          "done": true,
+          "evidence": "Revalidated after office-label correction under RUN-986CDF1CB3CE44468E5C8218E7DB555D. 72 precinct fingerprints rebuilt; all 45132 node records/IDs and five geography tables preserved. 43 affected suggestions remain unaccepted. 32 tests, verified backup, independent code/stage/post reviews, source-row hashes, protected tables, schema/FK and two export checks passed. See project_docs/audits/SOS_OFFICE_IDENTITY_REPAIR_2026_09_07.json. Prior 9984 run remains evidence for earlier scopes. Allocations, ambiguous source cells and unrelated 2008 reconstruction remain separate open tasks."
+        },
+        {
+          "id": "warehouse-04",
+          "text": "Rebuild affected historical allocations and baselines",
+          "detail": "Use correct plan/year/chamber weights for repaired Alabama sources and Arkansas geometries. Reconcile source totals and quantify district changes before replacing accepted outputs.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "warehouse-05",
+          "text": "Adjudicate remaining natural-key collisions",
+          "detail": "The repair audit records 5,354 collision groups and 15,035 excess rows at a proposed grain. Distinguish duplicate records, distinct source cells, competing versions and an incorrectly specified key. Never blanket-deduplicate.",
+          "done": false,
+          "evidence": "Prior census and office repair remain historical evidence. RUN-3723F54646824B1682D8543BE39C7EC5 now fills 4083 uniquely matched physical source locators/source IDs across the corrected cohorts; six ambiguous matches remain unresolved. All substantive fields and original ingest IDs preserved, verified backup, 21 fixtures and independent pre/post reviews PASS. No deduplication or provider-grain adjudication. See audits/SOS_CELL_LINEAGE_REPAIR_2026_09_07.json; broader collision census remains open."
+        },
+        {
+          "id": "warehouse-06",
+          "text": "Resolve or explicitly quarantine the fractional 1994 source cell",
+          "detail": "Review the Morgan workbook inconsistency with original cells and totals. Retain the reported value and evidence if no authoritative correction can be established.",
+          "done": false,
+          "evidence": "Original Morgan K48 value and conflicting source totals remain documented in project_docs/audits/WAREHOUSE_CHECKLIST_REPAIRS_2026_09_06.md. No authoritative correction or fully enforced downstream quarantine; remains open."
+        },
+        {
+          "id": "warehouse-07",
+          "text": "Audit all roll-call consumers for reconciliation gates",
+          "detail": "24 provider contradictions are preserved and excluded by canonical QA views; the current ideology preparation also has a gate. Verify every other consumer uses equivalent eligibility and cannot restore those conflicts silently.",
+          "done": true,
+          "evidence": "project_docs/audits/WAREHOUSE_CHECKLIST_REPAIRS_2026_09_06.md: eight consumer boundaries use canonical contents or checked standalone access; source/QA exemptions documented. 45 targeted tests passed; independent read-only review and live standalone parity passed. No analytical rebuild or product certification."
+        },
+        {
+          "id": "warehouse-08",
+          "text": "Close recoverable lineage gaps",
+          "detail": "Recover source-file links for 469 eligible legacy Southern rows where evidence supports it; review legacy Alabama regional build tokens, unknown retrieval dates, terms/scope and orphaned running statuses. Never invent provenance.",
+          "done": false,
+          "evidence": "Prior repairs restored 377 source links and withdrew eight unsupported Census acquisition dates. Full certified 2022 reconciliation now passes for 211 named candidates and 140 write-in totals, preserving 22018 unknown precinct cells in those categories. RUN-DA2442D0AD664F5681DE08E573D79A15 registered the certified canvass with verified backup and independent pre/post review; no vote or model output changed. The remaining 97 Alabama records still lack approved historical transformation lineage. Canonical numerical repair, complete source selection, downstream reconciliation, terms/scope and legacy run states remain open. See project_docs/audits/ALABAMA_2022_CERTIFIED_SOURCE_RECONCILIATION.json and WAREHOUSE_CHECKLIST_REPAIRS_2026_09_06.md."
+        },
+        {
+          "id": "warehouse-09",
+          "text": "Register useful stray data before loading it",
+          "detail": "Inventory uncatalogued local files, identify overlapping sources and authoritative scope, check terms, hash/register immutable raw inputs, then load only nonredundant canonical records through tested adapters.",
+          "done": false,
+          "evidence": "Certified 2022 SOS canvass registered as SRC-DD940F20743C33261CC2. RUN-F135A5EC686C410CAF58BC5639804FA7 appended 140 source sets and 351 literal candidate/write-in records with source-cell lineage and unknown counts; no canonical adoption. Separate backup, 27 new safeguards, existing warehouse/history tests, exact preservation and independent pre/post review passed. Shared refresh retains separately owned sources. See audits/ALABAMA_2022_SOURCE_LOAD_2026_09_07.json. Redistribution terms and broader stray-data inventory remain open."
+        },
+        {
+          "id": "warehouse-10",
+          "text": "Enforce shared data contracts at joins",
+          "detail": "Test primary keys, cardinality, party/candidate identities, election stage, districts/chambers, plan vintage, missingness and vote conservation. Preserve third-party and uncontested distinctions.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "warehouse-11",
+          "text": "Make stale inputs a publication failure",
+          "detail": "Extend existing build checks to reject unreviewed dependency runs and incompatible manifests. Allow explicit documented exclusions, not file-existence fallback.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "warehouse-12",
+          "text": "Run warehouse integrity and repair replay checks",
+          "detail": "Run SQLite integrity/foreign-key checks, source fixture tests, geometry validity and aggregate reconciliation. Record exact commands, results and run IDs; verify backup recovery to a separate path.",
+          "done": false,
+          "evidence": "September 6 precinct application passed full post-commit SQLite integrity_check, foreign_key_check, schema/stage/source/export parity and separate backup verification. Targeted repair and parser fixtures passed. Broader allocation/geometry replay and downstream validation remain open; see project_docs/audits/WAREHOUSE_CHECKLIST_REPAIRS_2026_09_06.md."
+        },
+        {
+          "id": "warehouse-13",
+          "text": "Refresh catalog and lineage after reconciliation",
+          "detail": "Retain one catalog and lineage graph with source, adapter, canonical table, model mart and public output relationships. Do not build a competing metadata system.",
+          "done": false,
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": "alabama",
+      "title": "Phase 3 · Certify historical Alabama WAR",
+      "product": "Historical Alabama WAR",
+      "gate": "Depends on affected Phase 2 data. Exit: all included historical races are reproducible, with explicit backcast and geography limitations.",
+      "source": "audits/ALABAMA_HISTORICAL_WAR_V1_VALIDATION.md",
+      "tasks": [
+        {
+          "id": "alabama-01",
+          "text": "Unify the historical map and ideology WAR definition",
+          "detail": "Current public builders use alabama_historical_war_v1 race-residual WAR rather than a pooled career-effect score. Preserve this shared definition in future changes.",
+          "done": true,
+          "evidence": "Recorded in the linked phase audit; checked at checklist initialization, not a claimed completion timestamp."
+        },
+        {
+          "id": "alabama-02",
+          "text": "Reconcile the historical race universe",
+          "detail": "Verify the documented 509 races and 1,018 candidate orientations across 1994–2022 against current repaired sources; document every exclusion and any resulting count change.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "alabama-03",
+          "text": "Revalidate source outcomes after warehouse repair",
+          "detail": "Check candidate/party identities, incumbency, stages, D/R/other vote totals, margins and source-cell lineage for affected years. Rebuild only invalidated downstream products.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "alabama-04",
+          "text": "Certify each presidential baseline and target district plan",
+          "detail": "Record source election, allocation method, target plan, geography vintage, county fallback and conservation checks. No later plan or election may substitute silently.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "alabama-05",
+          "text": "Quantify reconstructed-geography uncertainty",
+          "detail": "Review 1994–2006 precinct reconstruction, fuzzy joins, county fallback and synthetic partitions. Distinguish display outlines from allocation evidence and expose uncertainty.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "alabama-06",
+          "text": "Revisit unresolved 2008 precinct-name allocation",
+          "detail": "The historical audit reports 227 unmatched names allocated within county. Test whether source evidence can resolve identity; county-total reconciliation alone does not establish a correct district assignment.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "alabama-07",
+          "text": "Label and test cross-era backcasts",
+          "detail": "412 pre-2016 races are backcasts of a later Southern model, not contemporary fits. Assess era sensitivity and transportability; preserve an explicit backcast flag.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "alabama-08",
+          "text": "Review missing lag-context treatment",
+          "detail": "21 cases have compatibility zero with a missing-context flag. Test the effect, explain the assumption and retain unknowns in source data rather than representing zero as observed history.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "alabama-09",
+          "text": "Verify modern residual parity and WAR identities",
+          "detail": "Reconcile the 97 modern Alabama races with the approved Southern residual source; test candidate orientation, sign, decomposition and no double counting.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "alabama-10",
+          "text": "Check all Alabama map interactions and downloads",
+          "detail": "Verify selected-race wikibox, outcomes, correct vote denominators, unscored states, legend, keyboard operation, mobile layout and public/download parity.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "alabama-11",
+          "text": "Publish an Alabama-specific validation and limitations card",
+          "detail": "Include run IDs/hashes, repaired-input status, coverage/exclusions, backcast policy, geography uncertainty and reproducible commands. Do not describe reconstructed precincts as certified boundaries.",
+          "done": false,
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": "southern",
+      "title": "Phase 4 · Close Southern 2016–2024 release gaps",
+      "product": "Southern legislative WAR",
+      "gate": "Can run alongside Phases 3, 5 and 6 after their shared prerequisites. Exit: every scheduled slice is accounted for and the approved method is clearly distinguished from research.",
+      "source": "audits/SOUTHERN_WAR_2024_MAP_RELEASE.md",
+      "tasks": [
+        {
+          "id": "southern-01",
+          "text": "Include the 2023 and 2024 elections in the historical release",
+          "detail": "Delivered release: 4,280 strict races, including 90 from 2023 and 770 from 2024, with 116 scheduled state/year/chamber map slices.",
+          "done": true,
+          "evidence": "Recorded in the linked phase audit; checked at checklist initialization, not a claimed completion timestamp."
+        },
+        {
+          "id": "southern-02",
+          "text": "Match the Alabama map and selected-race layout",
+          "detail": "Delivered shared styles and right-hand race wikibox for all 14 states; detail stacks below the map on mobile. Existing browser checks cover all 116 views.",
+          "done": true,
+          "evidence": "Recorded in the linked phase audit; checked at checklist initialization, not a claimed completion timestamp."
+        },
+        {
+          "id": "southern-03",
+          "text": "Validate the expanded display-geography joins",
+          "detail": "Delivered manifest and join audit cover 9,644 outlines, vote conservation and no unmatched scored race. 22 shapes retain valid unsimplified outlines; source geography is not altered.",
+          "done": true,
+          "evidence": "Recorded in the linked phase audit; checked at checklist initialization, not a claimed completion timestamp."
+        },
+        {
+          "id": "southern-04",
+          "text": "Account for every excluded research-only outcome",
+          "detail": "Reconcile the 302 research-only outcomes outside the current strict publication against source baseline, identity and incumbency eligibility. Recover what is supportable and publish reason-coded exclusions for the rest.",
+          "done": true,
+          "evidence": "All 4,582 outcomes accounted for under RUN-92AB8DE353AC47D6AECE3D7767C29FCD: 4,280 strict scored, 302 excluded and reason-coded (151 Virginia 2017/2021 lower-chamber baselines using 2019-plan cross-election membership; 151 experimental prior-winner incumbency rows with no roster evidence in source_southern_incumbency_evidence). No recoverable source-backed evidence existed for either class, so no row was recovered and none was scored; both classes are published per state in data/processed/war/southern_historical_war_v1/state_release_coverage.csv and the map methodology limitations section. Evidence: audits/SOUTHERN_RELEASE_READINESS_2026_09_08.md/.json; independent review audits/SOUTHERN_V3_INDEPENDENT_REVIEW_2026_09_08.md accepted the disposition."
+        },
+        {
+          "id": "southern-05",
+          "text": "Explain slices with no scored contests",
+          "detail": "Keep VA 2017/2021 lower-chamber empty states explicit. Document why strict eligibility removes those races and whether source repair can recover them; do not fabricate scores.",
+          "done": true,
+          "evidence": "Accepted exact query-only accounting and durable explanation in model/SOUTHERN_HISTORICAL_WAR_V1.md and audits/SOUTHERN_RELEASE_READINESS_2026_09_07.md. VA 2017 lower retains 60 existing outcomes and VA 2021 lower retains 91, all excluded only by strict baseline eligibility. Their same-year governor returns use 2019-plan cross-election precinct membership plus locality fallback, so strict recovery requires registered contemporaneous plan/membership and allocation reconciliation. Both slices remain explicit with zero scores; missing WAR is not zero and no substitute comparator was fabricated. This closes the explanation task, not source repair or release approval."
+        },
+        {
+          "id": "southern-06",
+          "text": "Certify outcome and context provenance through 2024",
+          "detail": "Check authoritative results, actual election schedules/stages, incumbency and district-plan context for every included state/year/chamber. Display boundary coverage is not proof of baseline allocation validity.",
+          "done": true,
+          "evidence": "Outcome provenance: every one of the 4,280 strict races carries a registered, hash-verified scalar source file (0 unresolved after the Alabama certified-canvass integration; audits/ALABAMA_CERTIFIED_CANONICAL_REPAIR_2026_09_08.md, bridge table with 377 approved rows, 21 corrections with before-images). Schedule: all 116 state/cycle/chamber slices present with actual odd-year and staggered schedules and final-stage rules. Context: strict rows carry accepted incumbency and strict baselines from the versioned panel. District-plan context remains the provider-reported label with plan vintage explicitly unverified; display geometry is presentation evidence only, and this limitation is published per state rather than certified away. Independent review 2026-09-08 verified registry hashes, lineage and cardinality."
+        },
+        {
+          "id": "southern-07",
+          "text": "Revalidate WAR source parity after upstream repairs",
+          "detail": "Recheck modern residuals against the approved v3 source, 2016 backcast labels, D/R vote totals and source manifest hashes after any Phase 2 rebuild.",
+          "done": true,
+          "evidence": "v3 retrained on the repaired warehouse as WAR-POST2016-V3-4AF79A70EAA8F39EBD49 (manifest SHA256 c6c09e19335965380e068c40484437bf460db81add232dc8d7cf78d135a905a6): all output, report, input and code hashes verified; historical run WAR-SOUTH-HIST-V1-45EC0B380AAEA007C2DF reproduces post-2016 residuals exactly and labels 620 strict 2016 races as backcasts; D/R vote totals and margins reconcile with the certified Alabama canvass (max WAR change 0.076 points vs the archived NOT APPROVED run WAR-POST2016-V3-8BB52074EC806C5BF6BF, all in Alabama, no sign changes). Sensitivity/uncertainty audit audits/SOUTHERN_V3_CONTEXT_SENSITIVITY.md passed its parity gate. Release decision audits/SOUTHERN_V3_RELEASE_DECISION.json approved_for_descriptive_historical_use bound to the exact manifest and review record."
+        },
+        {
+          "id": "southern-08",
+          "text": "Decide whether research v4 is required for this release",
+          "detail": "Current publication is v3 plus labeled 2016 backcasts. Record whether exact-history v4 remains deferred research or becomes an explicit migration project; do not automatically promote it.",
+          "done": true,
+          "evidence": "Reviewed disposition in CANONICAL_PIPELINES.md: retain v3 plus labeled 2016 backcasts; defer v4 migration. Independent review PASS; source/plan/release gates remain open."
+        },
+        {
+          "id": "southern-09",
+          "text": "Resolve or document the Mississippi exact-history blocker",
+          "detail": "For v4, 134 unresolved 2012 precinct names leave 31 Mississippi 2019 strict races unscored. Recover evidence on the correct plan or retain null/review status; never use 2019 votes as 2012 results.",
+          "done": true,
+          "evidence": "Accepted as documented deferral, not resolution, under existing deferred-v4 scope. Independent documentation review PASS. Preserve documented 134 unresolved source rows and 31 null/review v4 records, all underlying reconciliation gates, and current v3 source/plan/release requirements. No source substitution, values filled, artifact recertification or publication approval. See audits/SOUTHERN_RELEASE_READINESS_2026_09_07.md and POST2016_SOUTHERN_WAR_V4_VALIDATION.md."
+        },
+        {
+          "id": "southern-10",
+          "text": "Disposition v4 coverage and validation before promotion",
+          "detail": "Research v4 currently covers 2017–2022. If selected, extend and validate 2016/2023/2024, check ACS denominators and exact presidential histories, and adjudicate mixed forward diagnostics. Otherwise record deferral and keep publication unchanged.",
+          "done": true,
+          "evidence": "Reviewed disposition in CANONICAL_PIPELINES.md: v4 expansion/promotion deferred; failed/unresolved research gates preserved, publication unchanged. Independent review PASS; no artifact recertified."
+        },
+        {
+          "id": "southern-11",
+          "text": "Keep optional finance separate from WAR readiness",
+          "detail": "Document incomplete finance coverage, particularly Missouri/Mississippi; retain nulls for incomplete features. Either finish a source-backed display overlay or defer it explicitly—finance is not a mandatory input to the current product.",
+          "done": true,
+          "evidence": "Reviewed disposition: finance expansion deferred; complete source-backed overlay only, incomplete Missouri/Mississippi values unknown/masked. Headline excludes finance. Display parity gates remain required. CANONICAL_PIPELINES.md and Southern methodology; independent review PASS."
+        },
+        {
+          "id": "southern-12",
+          "text": "Run full regional regression checks for the final data run",
+          "detail": "Recheck all 116 slices, two empty slices, keyboard/filter/selection behavior, third-party denominators, map scale, mobile details and download parity after final reconciliation.",
+          "done": true,
+          "evidence": "Final data run WAR-SOUTH-HIST-V1-45EC0B380AAEA007C2DF: map payload covers all 116 slices, 4,280 races, two explicit empty slices (VA 2017/2021 lower); join audit shows 0 unmatched races, 0 duplicate keys, 0 invalid geometries and D/R vote conservation; downloads copied and hash-checked against the manifest; Alabama third-party denominators now come from the certified canvass. Browser harness scripts/run_southern_war_browser_checks.mjs passed at 1258x900 and 390x844 (in-page checks over all 116 slices, keyboard order state/cycle/chamber/district, empty-slice explanation, no horizontal overflow, no console/page/request errors). 11 map tests and 7 historical tests pass."
+        },
+        {
+          "id": "southern-13",
+          "text": "Publish state-level coverage and release limitations",
+          "detail": "Provide included/excluded counts, source lineage gaps, plan provenance, v3/backcast labels, optional overlay coverage and exact run IDs per state. Link the accepted methodology and machine-readable QA.",
+          "done": true,
+          "evidence": "Per-state coverage and release limitations published: data/processed/war/southern_historical_war_v1/state_release_coverage.csv (hashed manifest output, copied to docs/data/southern_historical_war_v1_state_release_coverage.csv) and the methodology section 'State coverage and release limitations' with included/excluded counts by class, source-lineage counts, plan-provenance labels, v3 same-cycle vs 2016 backcast labels, finance overlay coverage, exact run IDs (historical, upstream v3, warehouse) and links to the join audit, coverage, manifest and state coverage downloads. Payload carries stateLimitations and runIds; map builder reconciles them against the payload before release."
+        }
+      ]
+    },
+    {
+      "id": "ideology",
+      "title": "Phase 5 · Certify ideology and caucus analysis",
+      "product": "Ideology and caucuses",
+      "gate": "Depends on reconciled legislative evidence and the accepted historical WAR contract. Exit: source coverage, temporal eligibility and descriptive claims are auditable.",
+      "source": "audits/LEGISLATIVE_IDEOLOGY_POST_REPAIR_COVERAGE.md",
+      "tasks": [
+        {
+          "id": "ideology-01",
+          "text": "Reconcile the current evidence coverage funnel",
+          "detail": "Start from the documented 58 expected session-chambers, 57 present, 60,704 roll calls, 987 issue-mapped votes and 550 candidate-cycles with legislative scores. Recompute current counts, distinguishing disposition from substantive evidence.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "ideology-02",
+          "text": "Document irrecoverable and weak archive coverage",
+          "detail": "No 1994 roll-call archive and absent 2000 Senate archive; weak 1998 Senate volume/identity and 2008 member-ID gaps. Search only bounded authoritative leads, then preserve explicit missingness.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "ideology-03",
+          "text": "Adjudicate remaining officeholder identities",
+          "detail": "24 expected officeholders remain unresolved in the coverage audit. Require source evidence, stable review IDs and pre-election service windows; do not force fuzzy matches.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "ideology-04",
+          "text": "Recheck roll-call eligibility and issue mapping",
+          "detail": "Ensure provider contradictions and procedural/ambiguous votes remain excluded; verify final/conference vote rules, text recovery, polarity and issue-family mapping with fixtures and a review queue.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "ideology-05",
+          "text": "Reconcile all evidence channels without double counting",
+          "detail": "Keep roll calls, direct issue research and other permitted sources distinct. The closed research inventory reports 1,098 of 1,564 candidate-cycles with any valid issue evidence; this is not the same as behavioral-score coverage.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "ideology-06",
+          "text": "Verify minimum-evidence and missingness rules",
+          "detail": "Apply the declared three-issue/two-family threshold where relevant. Separate searched-with-no-evidence from not searched; do not impute moderateness or ideology from absence.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "ideology-07",
+          "text": "Audit temporal cutoffs and identity joins",
+          "detail": "Prove each candidate-cycle uses only eligible pre-election evidence and correct person/session/chamber identity. Test cardinality, repeated-person handling and no leakage from later service.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "ideology-08",
+          "text": "Explain incompatible ideology scales",
+          "detail": "Document absolute Shor–McCarty anchoring versus chamber/biennium behavioral scales, orientation and comparison limits. Do not plot unlike scales as if interchangeable.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "ideology-09",
+          "text": "Revalidate descriptive clusters and caucus labels",
+          "detail": "Test sensitivity to evidence thresholds, imputation, era, issue selection and repeated people. Report low separation, membership stability and nonrandom missingness; labels are not proof of formal caucus membership.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "ideology-10",
+          "text": "Check that grouping is independent of WAR outcomes",
+          "detail": "Build issue-based groups without outcome leakage, then attach the accepted historical residual. Keep associations descriptive, with sample sizes and uncertainty rather than causal or candidate-quality claims.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "ideology-11",
+          "text": "Verify every downstream artifact after evidence repairs",
+          "detail": "Compare manifests before rerunning clusters, hypothesis tables and pages; some public definitions are already updated. Regenerate only stale products and retire conflicting older validation claims.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "ideology-12",
+          "text": "Review public coverage, group explanations and accessibility",
+          "detail": "Show missing-evidence states, sample sizes, source links, year/party scope, scale definitions, historical backcast caveats and accessible chart/table alternatives.",
+          "done": false,
+          "evidence": "Source cards label full both-party inventory versus eligible displayed sample with accessible description linkage. Mocked-payload render test: 1 passed, 11 deselected; independent review PASS. Public review and validated rendering remain open."
+        },
+        {
+          "id": "ideology-13",
+          "text": "Publish the evidence and sensitivity release bundle",
+          "detail": "Include reviewed identity decisions, coverage/exclusion funnel, temporal tests, cluster sensitivity, data/code hashes and limitations. Do not restart exhaustive searching without a specific recoverable gap.",
+          "done": false,
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": "forecast",
+      "title": "Phase 6 · Reconcile the 2026 forecast release",
+      "product": "2026 Alabama forecast",
+      "gate": "Depends on certified current inputs and the chosen release contract. Exit: public claims agree with the actual version, with honest validation limits.",
+      "source": "audits/ALABAMA_WAR_FORECAST_VALIDATION.md",
+      "tasks": [
+        {
+          "id": "forecast-01",
+          "text": "Fix the public structural-adjustment contradiction",
+          "detail": "docs/index.html says the adjustment remains zero, while the manifest has structural_applied=true and owner-selected inclusion. Reconcile the builder, visible copy, methodology and manifest to the approved actual behavior.",
+          "done": false,
+          "evidence": "Template corrected to owner-selected structure with advisory holdout limitation and candidate-specific WAR zero. Focused test: 1 passed, 21 deselected; independent review PASS. Public output not regenerated/recertified, so full task remains open."
+        },
+        {
+          "id": "forecast-02",
+          "text": "Certify the dated candidate roster and election universe",
+          "detail": "Verify authoritative nominees, withdrawals/replacements, identities, district plans, incumbency and election stages. Reconcile modeled, single-major-party, independent-only and unresolved seats with all chamber seats.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "forecast-03",
+          "text": "Certify the 2024 baseline on the 2026 plans",
+          "detail": "Verify source totals, allocation vintage, target district plan and uncertainty for every baseline. Keep observed election data distinct from modeled district allocations.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "forecast-04",
+          "text": "Refresh and freeze the polling/environment snapshot",
+          "detail": "Record retrieval/as-of dates, eligibility, weighting, source terms and staleness policy. Refresh stale inputs from authoritative sources and provide reproducible cutoffs.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "forecast-05",
+          "text": "Document the national-to-Alabama transfer assumption",
+          "detail": "Explain uniform generic-ballot transfer and sparse state evidence. Distinguish an owner-selected assumption from demonstrated predictive validity.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "forecast-06",
+          "text": "Reconcile active and excluded model components",
+          "detail": "Current manifest excludes finance, candidate history and ideology and fixes candidate-specific WAR at zero. Keep public descriptions, contribution tables and downloads aligned; adding predictors is not required for completion.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "forecast-07",
+          "text": "Review structural-model selection against evidence",
+          "detail": "The sole direct Alabama forward holdout is 33 races in 2022 and favored the simpler comparator. Record the approved selection and its limitations; do not call an owner override validation-selected.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "forecast-08",
+          "text": "Audit calibration and evaluation independence",
+          "detail": "Document that probability-family/scale selection used the same limited holdout. Separate tuning from honest evaluation wherever evidence permits, and report what cannot be independently validated.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "forecast-09",
+          "text": "Verify uncertainty and chamber aggregation diagnostics",
+          "detail": "Check time-forward errors, probability calibration, interval coverage, shared-error assumptions and seat accounting. 50,000 simulation draws do not create additional independent evidence.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "forecast-10",
+          "text": "Clarify independent and single-major-party seat treatment",
+          "detail": "Explain when chamber summaries fix a seat despite an independent candidate and test that this policy matches the published contract. Keep unresolved seats visible, not silently assigned.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "forecast-11",
+          "text": "Reconcile scenarios, dashboard and downloads",
+          "detail": "Verify scenario names, contributions, margins/probabilities, rounding, as-of dates, modeled-seat count (48 in the audited snapshot), source links and mobile/keyboard behavior against the exact release manifest.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "forecast-12",
+          "text": "Publish a current forecast model card and refresh policy",
+          "detail": "Replace or label obsolete readiness notes. Include input cutoffs, chosen specification, comparator results, calibration limits, exclusions, run hashes and a clear stale/withdrawn status when publication gates fail.",
+          "done": false,
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": "release",
+      "title": "Phase 7 · Verify, simplify and hand off",
+      "product": "All four products",
+      "gate": "Runs after each relevant product phase. Exit: all required items have evidence or an approved explicit disposition, and a reproducible release can be reviewed.",
+      "source": "DATA_CONTRACTS.md",
+      "tasks": [
+        {
+          "id": "release-01",
+          "text": "Remove proven-unused code and duplicate outputs",
+          "detail": "Trace imports, commands, links and catalog lineage first. Delete dead wrappers/configuration and redundant calculations; retain raw sources and required replay artifacts. Prefer deletion, then simplification, then measured optimization.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "release-02",
+          "text": "Exercise scoped builds from documented inputs",
+          "detail": "Run each product's actual dependency sequence in a safe output location. Confirm unrelated products are not rebuilt or mutated by a scoped publication command.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "release-03",
+          "text": "Validate schema, keys, totals and temporal/geographic contracts",
+          "detail": "Run fixture and integration checks for all changed adapters and consumers, including missingness, vote conservation, party normalization, vintage, join cardinality and leakage.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "release-04",
+          "text": "Run targeted tests and then the full repository suite",
+          "detail": "Last Southern release recorded 726 passes and one stale assertion, corrected and passed on rerun—not a second clean full-suite run. Obtain a fresh complete result for the final integrated release and record remaining warnings.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "release-05",
+          "text": "Review all four pages in a browser",
+          "detail": "Test desktop and narrow mobile widths, keyboard focus, labels/contrast, empty/error/loading states, table/chart alternatives, selection behavior and valid navigation/download links.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "release-06",
+          "text": "Reconcile all public claims with data manifests",
+          "detail": "Check page prose, tooltips, chart labels, model versions, as-of dates, counts and methods against generated data. No scaffold, stale artifact or research-only result may be labeled validated.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "release-07",
+          "text": "Freeze a versioned release bundle",
+          "detail": "Record code version including dirty-tree identity where needed, configuration, source and output hashes, run IDs, catalog lineage, validation results and approved limitations for all four products.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "release-08",
+          "text": "Check source terms and repository hygiene",
+          "detail": "Exclude credentials, restricted raw data, machine-specific paths, transient databases and unrelated scratch artifacts from publication. Preserve recovery backups according to the documented retention policy.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "release-09",
+          "text": "Obtain the accountable release review",
+          "detail": "Have a reviewer accept remaining exclusions, sensitivity limitations, forecast assumptions and scope decisions. Unresolved evidence stays unknown/review; a checked task is not scientific certification.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "release-10",
+          "text": "Document rollback and maintenance",
+          "detail": "Record how to restore the previous validated release and which authoritative sources trigger refreshes. Keep manual deterministic commands until a stable workflow justifies automation.",
+          "done": false,
+          "evidence": ""
+        },
+        {
+          "id": "release-11",
+          "text": "Update this checklist with evidence and saved history",
+          "detail": "For each completed or dispositioned task record the artifact/command, result and date. Save the updated HTML into the repository and preserve prior history; do not infer historical completion dates.",
+          "done": false,
+          "evidence": ""
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "at": "2026-09-05T23:02:55Z",
+      "done": 5,
+      "total": 82,
+      "event": "Checklist baseline; prior delivery dates are not reconstructed."
+    },
+    {
+      "at": "2026-09-05T23:28:12Z",
+      "done": 6,
+      "total": 82,
+      "event": "scope-02 checked: current pipeline routing and agent guidance reconciled; command migration and end-to-end certification remain open."
+    },
+    {
+      "at": "2026-09-06T04:19:18Z",
+      "done": 6,
+      "total": 82,
+      "event": "scope-08 documentation-audit evidence added; broader script and publication cleanup remains open."
+    },
+    {
+      "at": "2026-09-06T17:00:01Z",
+      "done": 7,
+      "total": 82,
+      "event": "warehouse-02 checked after independent review of the read-only repair dependency inventory; stale-data repairs and product validation remain open."
+    },
+    {
+      "at": "2026-09-06T18:32:17Z",
+      "done": 8,
+      "total": 82,
+      "event": "warehouse-07 accepted after source-gate tests and independent review; isolated finance export repaired and warehouse-03 staged, not yet applied."
+    },
+    {
+      "at": "2026-09-06T18:53:01Z",
+      "done": 9,
+      "total": 82,
+      "event": "warehouse-03 accepted after backed-up scoped application, integrity checks and independent review. Source conflicts, recoverable lineage, allocations and downstream validation remain open."
+    },
+    {
+      "at": "2026-09-07T02:42:38Z",
+      "done": 9,
+      "total": 82,
+      "event": "warehouse-08 partially repaired: 377 supported source-file links recovered and independently reviewed. Remaining provenance gaps prevent closing the task; no additional checkbox marked complete."
+    },
+    {
+      "at": "2026-09-07T05:01:38Z",
+      "done": 9,
+      "total": 82,
+      "event": "warehouse-08 progressed: eight unsupported Census acquisition timestamps withdrawn; recurrence fixed. Alabama source replay and official-source comparison expose three 2022 races needing separate numerical reconciliation. Broader task remains unchecked."
+    },
+    {
+      "at": "2026-09-07T14:19:00Z",
+      "done": 9,
+      "total": 82,
+      "event": "Source-adapter review checkpoint: ten disputed totals across seven districts corroborated; producer integration deferred pending full completeness evidence. No warehouse numerical changes or additional completed boxes."
+    },
+    {
+      "at": "2026-09-07T15:05:00Z",
+      "done": 9,
+      "total": 82,
+      "event": "Multiple source units accepted: full 2022 named/write-in certified reconciliation; contest-sheet provenance preservation; historical staging review; guarded canvass registry addition. Remaining source adjudications and consumer reconciliation prevent broad checkbox closure."
+    },
+    {
+      "at": "2026-09-07T16:46:00Z",
+      "done": 9,
+      "total": 82,
+      "event": "Scoped certified Alabama 2022 source load accepted after backup and independent review: 140 sets and 351 factual source records. Canonical adoption and broader warehouse tasks remain open."
+    },
+    {
+      "at": "2026-09-07T20:42:00Z",
+      "done": 8,
+      "total": 82,
+      "event": "292 source office/district corrections accepted with votes and 22 ambiguous rows unchanged. Reopened warehouse-03 because corrected office labels invalidate affected fingerprints/linkage evidence; prior acceptance history preserved."
+    },
+    {
+      "at": "2026-09-07T21:05:00Z",
+      "done": 12,
+      "total": 82,
+      "event": "Four reviewed scope dispositions accepted: existing ideology scope and deferral of v4 migration/expansion and optional finance expansion. Two template explanations corrected with focused tests; publication and data validation remain open."
+    },
+    {
+      "at": "2026-09-07T21:12:00Z",
+      "done": 15,
+      "total": 82,
+      "event": "Adaptation, acceptance-type and missingness/review contracts independently accepted as definitions; current outputs not recertified. Fresh office-dependent identity stage is under review, not applied."
+    },
+    {
+      "at": "2026-09-07T21:20:46Z",
+      "done": 16,
+      "total": 82,
+      "event": "warehouse-03 reaccepted after guarded office-dependent identity repair, verified backup, exact source/protected-data preservation and independent post-commit review. Downstream and project-wide completion remain open."
+    },
+    {
+      "at": "2026-09-07T21:57:30Z",
+      "done": 16,
+      "total": 82,
+      "event": "Recorded accepted dispatcher safety evidence; no whole checklist item closed. Source-cell lineage and fractional-input guards remain in implementation, not applied or accepted."
+    },
+    {
+      "at": "2026-09-07T22:13:33Z",
+      "done": 16,
+      "total": 82,
+      "event": "Accepted metadata-only source-cell repair with independent post-commit verification. Broad collision adjudication remains open; no source values or analytical products changed."
+    },
+    {
+      "at": "2026-09-08T00:04:29Z",
+      "done": 17,
+      "total": 82,
+      "event": "southern-09 accepted as independently reviewed deferred-v4 documentation, not source resolution. Recorded full existing-outcome exclusion inventory; current v3 approval contradiction and source provenance requirements remain open."
+    },
+    {
+      "at": "2026-09-08T01:52:01Z",
+      "done": 18,
+      "total": 82,
+      "event": "southern-05 accepted after exact Virginia empty-slice accounting and a durable recovery-limit explanation. Added an exact upstream release-decision guard and acquired the official Alabama 2018 certified canvass; source integration, rating execution and release approval remain open."
+    },
+    {
+      "at": "2026-09-08T02:12:18Z",
+      "done": 18,
+      "total": 82,
+      "event": "Alabama 2018 certified-source adapter accepted: complete 140-district canvass coverage, 322 exact totals and 30 explicit review rows with 24912 blank precinct cells retained as unknown. Four strict Southern races intersect small certified-total discrepancies; southern-06 remains open and no ratings changed."
+    },
+    {
+      "at": "2026-09-08T13:45:12Z",
+      "done": 23,
+      "total": 82,
+      "event": "Southern phase closed: Alabama certified-canvass integration (RUN-DD7FF8C9ACBE4EAAA026AD1046693CA9, RUN-4C2EF8D12CC442D99A516E0D393DE157, RUN-92AB8DE353AC47D6AECE3D7767C29FCD) resolved all 97 source-lineage gaps; v3 retrained as WAR-POST2016-V3-4AF79A70EAA8F39EBD49 and independently APPROVED FOR DESCRIPTIVE HISTORICAL USE; historical run WAR-SOUTH-HIST-V1-45EC0B380AAEA007C2DF and local map rebuilt with state-level limitations; browser checks passed at 1258px and 390px. southern-04, -06, -07, -12 and -13 accepted. Publication not performed."
+    }
+  ]
+}
+</script>
+<script>
+"use strict";
+const seed = JSON.parse(document.getElementById("checklist-data").textContent);
+const storageKey = "alabama-internal-checklist:" + seed.revision;
+let state = structuredClone(seed);
+const $ = id => document.getElementById(id);
+const tasks = () => state.phases.flatMap(phase => phase.tasks);
+const count = () => tasks().filter(task => task.done).length;
+function valid(candidate) {
+  if (!candidate || candidate.schemaVersion !== 1 || candidate.revision !== seed.revision ||
+      !Array.isArray(candidate.phases) || !Array.isArray(candidate.history) || !candidate.history.length) return false;
+  if (candidate.phases.length !== seed.phases.length) return false;
+  const expected = seed.phases.flatMap(phase => phase.tasks);
+  const actual = candidate.phases.flatMap(phase => Array.isArray(phase.tasks) ? phase.tasks : []);
+  if (actual.length !== expected.length || !actual.every((task, i) => task.id === expected[i].id &&
+      task.text === expected[i].text && task.detail === expected[i].detail &&
+      typeof task.done === "boolean" && typeof task.evidence === "string")) return false;
+  if (!candidate.phases.every((phase,i) => ["id","title","product","gate","source"].every(key => phase[key] === seed.phases[i][key]))) return false;
+  let previous = -Infinity;
+  for (const point of candidate.history) {
+    const time = Date.parse(point.at);
+    if (!Number.isFinite(time) || time < previous || !Number.isInteger(point.done) ||
+        !Number.isInteger(point.total) || point.done < 0 || point.total < point.done ||
+        typeof point.event !== "string") return false;
+    previous = time;
+  }
+  const last = candidate.history.at(-1);
+  return last.done === actual.filter(task => task.done).length && last.total === actual.length;
+}
+try {
+  const draft = localStorage.getItem(storageKey);
+  if (draft) {
+    const parsed = JSON.parse(draft);
+    if (!valid(parsed)) throw new Error("Invalid draft");
+    state = parsed;
+    $("save-status").textContent = "Local browser draft restored. Download and save it back to the repository to share these changes.";
+  }
+} catch (error) {
+  $("save-status").textContent = "Browser draft unavailable or invalid. Repository version loaded; use Download updated HTML to preserve edits.";
+}
+function save() {
+  try {
+    localStorage.setItem(storageKey, JSON.stringify(state));
+    $("save-status").textContent = "Draft saved in this browser only. Download updated HTML and replace the repository file to share it.";
+  } catch (error) {
+    $("save-status").textContent = "Browser storage unavailable or full. Changes are in memory only—download updated HTML before closing.";
+  }
+}
+function element(tag, text, className) {
+  const node = document.createElement(tag);
+  if (text !== undefined) node.textContent = text;
+  if (className) node.className = className;
+  return node;
+}
+function snapshot(event) {
+  const lastTime = Date.parse(state.history.at(-1).at);
+  state.history.push({at:new Date(Math.max(Date.now(), lastTime + 1)).toISOString(),done:count(),total:tasks().length,event});
+}
+function drawChart() {
+  const svg = $("chart");
+  svg.replaceChildren();
+  const points = state.history, start = Date.parse(points[0].at), end = Date.parse(points.at(-1).at);
+  const max = Math.max(1,...points.map(point => point.total));
+  const x = point => end === start ? 340 : 52 + (Date.parse(point.at)-start)/(end-start)*568;
+  const y = value => 194 - value/max*168;
+  function mark(tag,attrs,text) {
+    const node = document.createElementNS("http://www.w3.org/2000/svg",tag);
+    for (const [key,value] of Object.entries(attrs)) node.setAttribute(key,value);
+    if (text !== undefined) node.textContent = text;
+    svg.append(node);
+    return node;
+  }
+  for (const value of [0,Math.round(max/2),max]) {
+    mark("line",{x1:52,x2:620,y1:y(value),y2:y(value),stroke:"#d5e0e6"});
+    mark("text",{x:42,y:y(value)+4,"text-anchor":"end"},String(value));
+  }
+  let path = "";
+  points.forEach((point,i) => {path += i ? " H "+x(point)+" V "+y(point.done) : "M "+x(point)+" "+y(point.done);});
+  mark("path",{d:path,fill:"none",stroke:"#743b42","stroke-width":3});
+  for (const point of points) {
+    const dot = mark("circle",{cx:x(point),cy:y(point.done),r:4,fill:"#743b42"});
+    const title = document.createElementNS(svg.namespaceURI,"title");
+    title.textContent = point.at+": "+point.done+"/"+point.total+" — "+point.event;
+    dot.append(title);
+  }
+  const label = point => new Date(point.at).toISOString().replace("T"," ").slice(0,19)+" UTC";
+  mark("text",{x:52,y:222},label(points[0]));
+  if (points.length>1) mark("text",{x:620,y:238,"text-anchor":"end"},label(points.at(-1)));
+  const body = $("history"); body.replaceChildren();
+  for (const point of points.toReversed()) {
+    const row = element("tr");
+    row.append(element("td",label(point)),element("td",point.done+" / "+point.total),element("td",point.event)); body.append(row);
+  }
+}
+function updateProgress() {
+  const done = count(), total = tasks().length;
+  $("counter").textContent = done+" / "+total+" checked";
+  $("progress").max = total; $("progress").value = done;
+  $("remaining").textContent = (total-done)+" remaining · "+Math.round(done/total*100)+"% of checklist items";
+  $("product-counts").replaceChildren();
+  for (const product of [...new Set(state.phases.map(phase => phase.product))]) {
+    const subset = state.phases.filter(phase => phase.product===product).flatMap(phase => phase.tasks);
+    $("product-counts").append(element("div",product+": "+subset.filter(task=>task.done).length+" / "+subset.length));
+  }
+  for (const phase of state.phases) {
+    $("count-"+phase.id).textContent = " · "+phase.tasks.filter(task=>task.done).length+" / "+phase.tasks.length+" checked";
+  }
+  drawChart();
+}
+function filter() {
+  const query = $("search").value.toLowerCase(), status = $("status").value, product = $("product").value;
+  let visible = 0;
+  for (const phase of state.phases) {
+    let phaseVisible = 0;
+    for (const task of phase.tasks) {
+      const match = (!product || phase.product===product) &&
+        (!status || task.done===(status==="done")) &&
+        [task.id,task.text,task.detail,task.evidence].join(" ").toLowerCase().includes(query);
+      $("task-"+task.id).hidden = !match;
+      if (match) {visible++;phaseVisible++;}
+    }
+    $("phase-"+phase.id).hidden = !phaseVisible;
+  }
+  $("visible-count").textContent = "Showing "+visible+" of "+tasks().length+" tasks. Progress totals always include all tasks.";
+  $("no-results").hidden = visible>0;
+}
+function render() {
+  const container = $("phases"); container.replaceChildren();
+  $("phase-nav").replaceChildren();
+  for (const phase of state.phases) {
+    const link = element("a",phase.title.split(" · ")[0]); link.href="#phase-"+phase.id; $("phase-nav").append(link);
+    const section = element("section",undefined,"phase"); section.id="phase-"+phase.id;
+    const head = element("div",undefined,"phase-head"), title = element("h2",phase.title);
+    const tally = element("span","","phase-count"); tally.id="count-"+phase.id; title.append(tally);
+    head.append(title,element("p",phase.product,"small"),element("p",phase.gate,"gate"));
+    const source = element("a","Evidence / starting audit"); source.href=phase.source; source.className="small"; head.append(source); section.append(head);
+    for (const task of phase.tasks) {
+      const row = element("article",undefined,"task"+(task.done?" done":"")); row.id="task-"+task.id;
+      const label = element("label"), box = element("input"); box.type="checkbox"; box.checked=task.done; box.id=task.id;
+      label.append(box,element("span",task.text)); row.append(label,element("div",task.id,"task-id"),element("p",task.detail,"detail"));
+      const notes = element("details"), summary=element("summary","Evidence / disposition"+(task.evidence?" (recorded)":""));
+      const input=element("textarea"); input.value=task.evidence; input.setAttribute("aria-label","Evidence for "+task.text); input.placeholder="Artifact or command, result, reviewer / disposition, and date";
+      notes.append(summary,input); row.append(notes);
+      box.addEventListener("change",() => {
+        task.done=box.checked; row.classList.toggle("done",task.done);
+        snapshot(task.id+(task.done?" checked":" unchecked")); save(); updateProgress(); filter();
+      });
+      input.addEventListener("input",() => {task.evidence=input.value;summary.textContent="Evidence / disposition"+(task.evidence?" (recorded)":"");save();});
+      section.append(row);
+    }
+    container.append(section);
+  }
+  updateProgress(); filter();
+}
+for (const product of [...new Set(state.phases.map(phase=>phase.product))]) {
+  const option = element("option",product); option.value=product; $("product").append(option);
+}
+for (const id of ["search","product","status"]) $(id).addEventListener("input",filter);
+function exportedHTML() {
+  const copy = structuredClone(state);
+  copy.revision = new Date().toISOString()+"-"+crypto.randomUUID();
+  const documentCopy = document.documentElement.cloneNode(true);
+  // Escape '<' so an evidence note cannot terminate the embedded JSON script.
+  documentCopy.querySelector("#checklist-data").textContent = "\n"+JSON.stringify(copy,null,2).replace(/</g,"\\u003c")+"\n";
+  documentCopy.querySelector("#phases").replaceChildren();
+  documentCopy.querySelector("#phase-nav").replaceChildren();
+  documentCopy.querySelector("#product-counts").replaceChildren();
+  documentCopy.querySelector("#history").replaceChildren();
+  documentCopy.querySelector("#chart").replaceChildren();
+  documentCopy.querySelector("#product").innerHTML='<option value="">All workstreams</option>';
+  documentCopy.querySelector("#save-status").textContent="Repository snapshot loaded. Browser edits must be downloaded and saved back to the repository.";
+  documentCopy.querySelector("#search").setAttribute("value","");
+  return "<!doctype html>\n"+documentCopy.outerHTML;
+}
+$("download").addEventListener("click",() => {
+  const url = URL.createObjectURL(new Blob([exportedHTML()],{type:"text/html;charset=utf-8"}));
+  const link = element("a"); link.href=url; link.download="PROJECT_COMPLETION_CHECKLIST.html";
+  document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+  $("save-status").textContent="Download requested. Save the downloaded HTML over project_docs/PROJECT_COMPLETION_CHECKLIST.html to update the repository.";
+});
+window.addEventListener("storage",event => {
+  if (event.key===storageKey) $("save-status").textContent="Another tab changed this draft. Download your current copy before reloading and reconcile edits; this page does not merge concurrent changes.";
+});
+render();
+</script>
+</body>
+</html>

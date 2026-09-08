@@ -1,15 +1,101 @@
-# Dedicated agent workflow
+# Phase management and selective agent coordination
 
 ## Purpose
 
-The project is organized as a hub-and-spoke research program. A coordinating
-agent decomposes work and integrates results; domain agents own bounded
-pipelines; an independent validation agent controls release gates. The goal is
-parallel progress without competing definitions of candidates, geography,
-features, or published results.
+Use phase management for substantial authorized work under
+[AGENTS.md](../../AGENTS.md). Its selective-delegation rule or a direct user
+request may authorize bounded agents; neither requires a standing team. For
+an ordinary scoped task, one implementer may perform the work and checks;
+do not create agents, task contracts or new process merely to edit a document.
+
+When multiple implementers are authorized, one coordinator sequences dependencies
+and domain owners take bounded write scopes. Independent review is still required
+where the product's release contract requires it; an implementer's own tests
+must not be presented as independent approval.
 
 The machine-readable role and path registry is
 `agent_ownership.json`. Concurrent work is declared in `active_tasks.csv`.
+Role names are stable ledger identifiers, not a complete product map. In
+particular, `cmo_model` is a legacy role name used by historical WAR tasks; it
+does not select an old CMO model. Current product routes are in
+`../CANONICAL_PIPELINES.md`, and current planned work is in the internal checklist.
+The registry's ownership patterns retain legacy compatibility paths and are not
+an exhaustive inventory of current builders. A task's explicit write scope,
+applicable instructions and collision check govern edits; role membership does
+not grant blanket permission to rebuild every matching output.
+
+## Phase management
+
+The primary agent retains the overall goal, non-goals, acceptance criteria,
+dependencies and decisions. It may implement small integration changes or
+tightly coupled work itself. Delegate only a bounded question or outcome,
+not the entire project or a large checklist phase by default.
+
+1. Identify the authorized finish line and map it to existing checklist IDs.
+   Order outcomes by dependencies. Use the task template for substantial
+   assignments, including single-agent work that needs a durable handoff.
+2. Give a worker the short overall goal, its specific outcome, constraints,
+   input snapshot, read/write scope, acceptance checks and required handoff.
+   Supply relevant contracts rather than the full planning history. Workers
+   must read applicable instructions themselves and report unrelated findings
+   without expanding scope.
+3. Keep one implementation writer initially; add read-only exploration or
+   review only for useful independent work. Use available runtime limits, not
+   an assumed agent count. Further delegation follows the same constraints;
+   do not create recursive teams or a manager that merely waits on one worker.
+4. Inspect the actual diff, artifacts and verification evidence against the
+   acceptance criteria. Request only concrete missing work. Review consequential
+   source/schema changes and release candidates at meaningful boundaries;
+   routine edits do not each require a separate reviewer.
+5. Record accepted outcomes and evidence, then proceed to the next authorized,
+   unblocked outcome without waiting for another "continue." Missing authority
+   or a required user decision requires a pause. A blocked dependency prevents
+   its consumers from proceeding, but not unrelated authorized work.
+
+Follow the testing policy in `../../AGENTS.md` and `../CANONICAL_PIPELINES.md`:
+testmon for routine Python changes, explicit affected tests for non-Python
+inputs, and broader checks when risk or release requirements justify them.
+Do not repeat unchanged passing checks without a new reason. Reviewers may
+independently reproduce checks required by the acceptance contract.
+
+### Progress and stopping
+
+After a meaningful work cycle, identify what advanced: an accepted outcome,
+a resolved uncertainty, an eliminated hypothesis, or an evidenced blocker.
+After two consecutive cycles with none of these, reassess and simplify or
+change approach. Do not abandon necessary hard work on a clock, manufacture
+easy subtasks, or weaken acceptance criteria to increase the checkbox count.
+
+The requested work is complete only when its required outcomes and integrated
+checks pass, including any required independent review. An unresolved required
+blocker means partial/blocked, not complete. An explicit reviewed exclusion may
+close an item only where the product contract permits it; record who authorized
+the disposition. Completion does not itself authorize publication.
+
+### Durable state and recovery
+
+The internal HTML checklist owns priorities and accepted project completion;
+task contracts and handoffs own execution detail, and `active_tasks.csv` owns
+concurrent write claims. Do not add a second authoritative checklist or place
+the only copy of decisions/evidence in ignored scratch notes. The primary
+agent coordinates edits to the checklist and ledger as single-writer files.
+
+At handoff or interruption, record the exact input snapshot, owned paths/tables,
+changes already applied, last command and known commit/output state, checks
+completed and outstanding, replay safety, and the next safe action. Use the
+handoff template; do not invent state that was not observed.
+
+After a restart, reconcile live sessions and existing task claims with actual
+files, warehouse build/transaction records and output hashes before resuming.
+An interrupted command may already have committed. Do not blindly rerun a
+write or retry against a changed snapshot; first determine whether it completed
+and whether replay is safe. Use existing recovery safeguards, never overwrite
+the central warehouse to recover a task.
+
+For read-only work, verify effective tool permissions and use read-only SQLite
+connections or a consistent frozen snapshot. A role name or "read-only" prompt
+does not enforce permissions. Tests may write caches or fixtures: inspect their
+side effects and isolate them from production data and other writers.
 
 ## Roles
 
@@ -20,7 +106,7 @@ The machine-readable role and path registry is
 | `elections_geography` | Election normalization, precinct identity, maps, VTD/block links, historical allocations | canonical-ready election/geography staging data |
 | `people_finance` | Person/candidate identity, aliases, rosters, incumbency, committees, finance | reviewed identity/resource staging data |
 | `legislative_ideology` | Bills, roll calls, sponsorship, Vote Smart, public positions, ideology features | evidence ledger and ideology mart inputs |
-| `cmo_model` | Historical baselines, candidate margin overperformance, backtests, diagnostics | versioned CMO run candidate |
+| `cmo_model` | Historical Alabama and Southern WAR; legacy role identifier retained for existing contracts | versioned historical analysis candidate |
 | `forecast_model` | 2026 environment, district forecast, uncertainty, simulations | versioned forecast run candidate |
 | `web_product` | Dashboard code, accessibility, methodology presentation, publication exports | reviewed site build candidate |
 | `warehouse_integrator` | Schema lifecycle, canonical views, migrations, atomic builds | validated warehouse version |
@@ -43,7 +129,7 @@ Before concurrent edits, add tasks to `active_tasks.csv`. Write scopes use
 repository-relative paths and must be as narrow as practical. Run:
 
 ```powershell
-python scripts/validate_agent_workflow.py
+& .venv/Scripts/python.exe scripts/validate_agent_workflow.py
 ```
 
 Two live tasks may read the same input. They may not claim overlapping write
@@ -76,20 +162,38 @@ The database should have one writer but may have many read-only consumers.
 
 ### 5. Independent validation
 
-The validation agent did not implement the change being reviewed. It reruns the
-contract checks and tests domain-specific release gates. At minimum it checks
-source completeness, key uniqueness, join cardinality, leakage, subgroup error,
-temporal validity, and before/after output diffs where relevant.
+The independent reviewer did not implement the change being reviewed. It checks
+actual artifacts and source evidence against the same recorded snapshot, not
+only the implementer's summary, and reproduces required contract checks. Source
+completeness, key uniqueness, join cardinality, leakage, subgroup error, temporal
+validity and before/after diffs are checked where relevant.
 
-Failed gates return the task to its domain owner. A caveat is not a substitute
-for a failed required gate unless the orchestrator explicitly changes the
-release scope.
+Return `pass`, `fail`, or `blocked/insufficient evidence`, with concrete findings,
+checks performed and remaining limitations. A separate agent provides another
+check, not automatic scientific or publication approval. Do not raise style-only
+or speculative requirements or reopen settled issues without new evidence.
+
+Failed gates return the smallest concrete repair to the domain owner. Missing
+evidence stays unresolved rather than triggering endless repair loops. Required
+gates cannot be waived by the coordinator alone; any scope/gate change needs
+the explicit authority, review and updated contract required by `AGENTS.md`.
 
 ### 6. Handoff and close
 
-Use `HANDOFF_TEMPLATE.md`. Set the ledger status to `review` while validation is
-pending and `complete` only after acceptance. Remove or archive completed rows
-periodically; Git history preserves the record.
+Use `HANDOFF_TEMPLATE.md`. Review verdicts are evidence fields, not new ledger
+statuses: use `review` while validation is pending, `active` for an in-scope
+repair, `blocked` for missing evidence/authority, and `complete` only after
+acceptance. Before releasing a blocked task's write claim, verify its writer
+has stopped; recheck collisions before reactivating it. Preserve task and review
+history.
+An old row marked active/review is not proof that its owner is currently running,
+nor permission to close or delete it without checking its evidence and owner.
+Update only tasks within the requested scope; do not mass-close historical rows
+to make the collision validator pass.
+
+Update accepted task progress in `../PROJECT_COMPLETION_CHECKLIST.html`, with
+evidence, a new revision and an accurate history snapshot. This internal file is
+not a public-site asset and does not replace the concurrent-write ledger.
 
 ## Dependency flow
 
@@ -115,7 +219,7 @@ cutoff.
 
 - Source downloads for unrelated providers.
 - Precinct research and legislative research in separate paths.
-- CMO and forecast experiments reading the same frozen mart.
+- Separate product tasks reading the same frozen, validated inputs.
 - UI prototypes using a frozen publication fixture.
 - Independent validation while a different domain begins unrelated work.
 
@@ -127,25 +231,14 @@ cutoff.
 - Site publication into `docs/`.
 - Changes to shared schemas, global configuration, or ownership rules.
 
-## Suggested standing cadence
+## Integration and release boundary
 
-1. Orchestrator chooses the next dependency-unblocking tasks.
-2. Domain agents work in parallel against a named snapshot.
-3. Warehouse integrator publishes one coherent data version.
-4. Model agents rerun against that version.
-5. Validation agent issues pass/fail findings.
-6. Web agent publishes only approved run IDs.
+The four products share election, geography, identity and legislative evidence,
+but do not share one automatic refresh/retrain/publish cycle. Rebuild only
+invalidated dependencies within the request. A source repair, optional finance
+load or historical analysis does not authorize changing a forecast or publishing
+all pages. Serialize warehouse writes and public-site publication, and retain
+the applicable product-specific validation gates and rollback evidence.
 
-This cadence is event-driven rather than calendar-bound; small fixes need not
-wait for a formal batch when their scope is isolated.
-
-## First standing workstreams
-
-- Historical elections and precinct geography.
-- Candidate/person identity and finance reconciliation.
-- Legislative evidence and multidimensional ideology.
-- Historical CMO estimation and causal/descriptive research.
-- 2026 forecast and polling environment.
-
-The warehouse integrator and validation agent operate across all five, while
-the web agent consumes only approved exports.
+Use the phased checklist for priorities rather than maintaining a second
+standing workstream schedule here.

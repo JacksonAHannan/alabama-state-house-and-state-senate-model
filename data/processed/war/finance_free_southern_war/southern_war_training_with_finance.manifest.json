@@ -1,0 +1,25 @@
+{
+  "contract_version": 1,
+  "generated_at_utc": "2026-09-06T18:16:56.047644+00:00",
+  "pipeline": "scripts/load_southern_war_preparation_warehouse.py",
+  "pipeline_sha256": "c71145d45139794d50ab62446ae303ddcb3cae02ce0bfa3e12656874614bf580",
+  "code_version": "88878b973fdac3cee95a8d8648da321e38e0021c",
+  "operation": "export_finance_only",
+  "database": "alabama_elections.sqlite",
+  "source_view": "mart_southern_war_training_with_finance",
+  "source_view_sql_sha256": "cba2d373979b124b5081ccb27b0530b82189c5dbab7ae7ee88eb561190ed0098",
+  "source_query": "SELECT * FROM mart_southern_war_training_with_finance ORDER BY state_code,cycle,chamber,CAST(district AS INTEGER),district",
+  "warehouse_run_ids": [
+    "RUN-85A4692E481448B6BB1380D76E07742B"
+  ],
+  "previous_output_sha256": "89cf801469168f47174bb6533a3431ce9ffad79a4e05d89211f4d8f9fef3e595",
+  "output": "southern_war_training_with_finance.csv",
+  "output_sha256": "088bdb4d4c0d271945b7f44f7ad7d1443c1af19083789ed6ee93da6aecce30dc",
+  "rows": 4582,
+  "incomplete_rows": 675,
+  "validation": {
+    "unique_race_keys": true,
+    "incomplete_numeric_features": 0
+  },
+  "scope": "This file only; upstream runs, sibling exports and publications are not revalidated."
+}

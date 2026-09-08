@@ -1,0 +1,143 @@
+{
+  "contract_version": 1,
+  "generated_at_utc": "2026-09-02T03:27:17.517258+00:00",
+  "pipeline": "scripts/audit_southern_war_2016_2024.py",
+  "warehouse_build_run_id": "RUN-85A4692E481448B6BB1380D76E07742B",
+  "code_version": "88878b973fdac3cee95a8d8648da321e38e0021c",
+  "warehouse_validation": {
+    "alabama_2026_incumbency_rows": 140,
+    "alabama_2026_incumbents_running": 122,
+    "alabama_2026_open_seats": 18,
+    "alabama_2026_workbook_supported_corrections": 1,
+    "context_feature_rows": 8085,
+    "finance_included": true,
+    "foreign_key_violations": 0,
+    "missing_baseline": 0,
+    "missing_context": 0,
+    "missing_incumbency": 0,
+    "missing_scheduled_state_cycle_chambers": [],
+    "model_valid_outcomes": 4582,
+    "research_ready_no_finance": 302,
+    "research_ready_with_finance": 272,
+    "scheduled_state_cycle_chambers_expected": 116,
+    "scheduled_state_cycle_chambers_observed": 116,
+    "strict_ready_no_finance": 4280,
+    "strict_ready_with_finance": 3635,
+    "unscheduled_model_outcome_slices": [],
+    "war_ready_finance_unobserved": 675
+  },
+  "warehouse_finished_at_utc": "2026-09-02T03:26:57.035558+00:00",
+  "finance_warehouse_build_run_id": "RUN-133197C8B7B94F21A2939B438EDAF692",
+  "finance_code_version": "88878b973fdac3cee95a8d8648da321e38e0021c",
+  "finance_warehouse_validation": {
+    "accepted_identity_matches": 12532,
+    "candidate_mart_rows": 12532,
+    "complete_races_missing_required_values": 0,
+    "finance_complete_races": 3908,
+    "foreign_key_violations": 0,
+    "generated_incumbency_evidence_rows": 4040,
+    "incumbency_evidence_2016_2024": 9396,
+    "incumbency_evidence_rows": 9536,
+    "incumbency_supported_matches": 5693,
+    "manifest_source_files": 20083,
+    "observed_candidate_mart_rows": 10820,
+    "observed_rows_missing_total": 0,
+    "observed_source_candidates": 10841,
+    "race_mart_rows": 7976,
+    "review_identity_matches": 24,
+    "scope_mismatch_rows": 0,
+    "source_candidate_rows": 12559,
+    "supplemental_upstream_files": 2,
+    "unmatched_identity_rows": 3,
+    "unresolved_provider_lineage_paths": 206,
+    "warehouse_historical_incumbency_evidence_rows": 5356,
+    "workbook_incumbency_evidence_rows": 140
+  },
+  "finance_warehouse_finished_at_utc": "2026-09-02T03:26:28.995485+00:00",
+  "scope": {
+    "states": [
+      "AL",
+      "AR",
+      "FL",
+      "GA",
+      "KY",
+      "LA",
+      "MO",
+      "MS",
+      "NC",
+      "OK",
+      "SC",
+      "TN",
+      "TX",
+      "VA"
+    ],
+    "cycles": "regular elections 2016-2024; state-specific odd-year schedules retained",
+    "excluded_states": [
+      "DE",
+      "MD",
+      "WV"
+    ]
+  },
+  "totals": {
+    "scheduled_slices": 116,
+    "loaded_slices": 116,
+    "model_valid_outcomes": 4582,
+    "strict_ready": 4280,
+    "research_ready": 302,
+    "missing_context": 0,
+    "missing_baseline": 0,
+    "missing_incumbency": 0,
+    "finance_complete_outcomes": 3907,
+    "strict_war_finance_complete": 3635,
+    "research_war_finance_complete": 272,
+    "sqlite_integrity": "ok",
+    "foreign_key_violations": 0
+  },
+  "incumbency_workbook_inventory": {
+    "sheets": [
+      "README",
+      "Incumbents",
+      "Election_Cycles",
+      "Sources",
+      "Data_Dictionary",
+      "QA_Summary",
+      "Extraction_Log"
+    ],
+    "populated_incumbency_rows": 140,
+    "populated_states": [
+      "AL"
+    ],
+    "populated_cycles": [
+      2026
+    ],
+    "election_cycle_sheet_nonblank_rows": 138
+  },
+  "inputs": [
+    {
+      "path": "data/processed/elections/alabama_elections.sqlite",
+      "warehouse_build_run_id": "RUN-85A4692E481448B6BB1380D76E07742B",
+      "note": "mutable warehouse identified by validated build run; database hash intentionally omitted"
+    },
+    {
+      "path": "data/processed/war/finance_free_southern_war/build_manifest.json",
+      "sha256": "d3162d6ae168845978c08e14f22ee49851b216c219f29674cf142c45559dce15"
+    },
+    {
+      "path": "data/raw/candidates/southern_state_legislative_incumbents_2016_2026.xlsx",
+      "sha256": "7f79dfd537834a1c40f8b869e8ab98033ae5bf98fdfb067f197acccdced95082"
+    },
+    {
+      "path": "data/processed/source_audits/southern_incumbency_2016_2024_manifest.json",
+      "sha256": "c83c7c61585d9453d2da89bc4111f75318db5e557af00a081c1872b73602281a"
+    },
+    {
+      "path": "data/processed/source_audits/virginia_generic_ballot_environment_manifest.json",
+      "sha256": "7558763e9a5b4d80c337c35a0190fe1427c0d83dff854187c05869422085d822"
+    }
+  ],
+  "outputs": [
+    "data/processed/source_audits/southern_war_2016_2024_coverage.csv",
+    "data/processed/source_audits/southern_war_2016_2024_state_summary.csv",
+    "project_docs/audits/SOUTHERN_WAR_2016_2024_COMPLETENESS.md"
+  ]
+}

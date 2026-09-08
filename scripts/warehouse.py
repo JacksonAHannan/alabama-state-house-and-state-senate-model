@@ -58,6 +58,7 @@ def register_source_file(connection: sqlite3.Connection, *, provider: str, path:
                          original_url: str | None = None, media_type: str | None = None,
                          license_name: str | None = None, extraction_status: str = "registered",
                          authoritative_scope: str | None = None,
+                         retrieved_at_utc: str | None = None,
                          project_root: Path = ROOT) -> str:
     relative = path.resolve().relative_to(project_root.resolve()).as_posix()
     identifier = source_file_id(provider, relative)
@@ -67,11 +68,13 @@ def register_source_file(connection: sqlite3.Connection, *, provider: str, path:
        license,extraction_status,authoritative_scope)
       VALUES (?,?,?,?,?,?,?,?,?,?)
       ON CONFLICT(source_file_id) DO UPDATE SET
-        original_url=excluded.original_url, sha256=excluded.sha256,
-        media_type=excluded.media_type, license=excluded.license,
+        original_url=coalesce(excluded.original_url,warehouse_source_file.original_url), sha256=excluded.sha256,
+        retrieved_at_utc=coalesce(excluded.retrieved_at_utc,warehouse_source_file.retrieved_at_utc),
+        media_type=coalesce(excluded.media_type,warehouse_source_file.media_type),
+        license=coalesce(excluded.license,warehouse_source_file.license),
         extraction_status=excluded.extraction_status,
-        authoritative_scope=excluded.authoritative_scope
-    """, (identifier, provider, relative, original_url, utcnow(), file_sha256(path), media_type,
+        authoritative_scope=coalesce(excluded.authoritative_scope,warehouse_source_file.authoritative_scope)
+    """, (identifier, provider, relative, original_url, retrieved_at_utc, file_sha256(path), media_type,
           license_name, extraction_status, authoritative_scope))
     return identifier
 
@@ -149,7 +152,7 @@ def git_commit() -> str | None:
 
 @contextmanager
 def atomic_database(target: Path) -> Iterator[Path]:
-    """Yield a temporary database path and atomically publish it on success."""
+    """Validate a temporary database and publish to a new path without overwrite."""
     target = target.resolve()
     temporary = target.with_name(f".{target.name}.{uuid.uuid4().hex}.building")
     try:
@@ -157,6 +160,6 @@ def atomic_database(target: Path) -> Iterator[Path]:
         with closing(connect(temporary, readonly=True)) as connection:
             if connection.execute("PRAGMA integrity_check").fetchone()[0] != "ok":
                 raise RuntimeError("SQLite integrity check failed")
-        os.replace(temporary, target)
+        os.link(temporary, target)
     finally:
         if temporary.exists(): temporary.unlink()

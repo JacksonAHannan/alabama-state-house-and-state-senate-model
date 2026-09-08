@@ -1,14 +1,23 @@
 # Handoff: <task ID and title>
 
-- Outcome: `accepted candidate | partial | blocked`
-- Upstream snapshot used: `<version/cutoff>`
+- Outcome: `ready for review | partial | blocked`
+- Task/checklist IDs and criteria satisfied: `<IDs; evidence per acceptance criterion>`
+- Upstream snapshot used: `<warehouse/model run, cutoff, commit and relevant dirty-file hashes>`
+- Owned paths/tables: `<actual scope; confirm writer stopped before releasing ownership>`
 - Changed source files: `<paths>`
 - Generated outputs: `<paths/tables>`
 - Commands run: `<commands>`
+- Last command state: `<completed | interrupted | unknown; known commit/output evidence>`
+- Recovery/replay: `<safe to repeat? why; recovery reference and required preflight checks>`
 - Validation results: `<tests, counts, hashes, diffs>`
+- Checks not run: `<skipped/failed checks and why; no implied full-suite pass>`
 - Manual decisions: `<paths and summary, or none>`
 - Assumptions and limitations: `<explicit caveats>`
 - Warehouse changes requested: `<schema/view/mart proposal, or none>`
 - Downstream invalidation: `<what must be rebuilt>`
 - Reviewer: `<validation role/agent>`
+- Review verdict: `<pending | pass | fail | blocked/insufficient evidence; findings and evidence>`
+- Acceptance status: `<implementer checks only | independent review and evidence>`
+- Required unresolved criteria: `<remaining work/decision and accountable owner; or none>`
+- Checklist update: `<accepted task IDs, saved revision/history; or no status change>`
 - Next action: `<single concrete next step>`

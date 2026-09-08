@@ -1,0 +1,272 @@
+{
+  "audit": "southern_v3_missing_context_sensitivity_and_uncertainty",
+  "bootstrap": {
+    "draws": 400,
+    "mean_war_party_draw_agreement": 0.9485587431693989,
+    "median_expected_gap_se": 0.758901160012992,
+    "median_expected_gap_se_by_cycle": {
+      "2018": 1.1012762406928467,
+      "2019": 2.364166781962653,
+      "2020": 0.6744252178538617,
+      "2022": 0.565401498195213,
+      "2023": 3.4832528973057872,
+      "2024": 0.6182815551687613
+    },
+    "seed": 20260908,
+    "share_war_interval_excludes_zero": 0.7918032786885246,
+    "share_war_interval_excludes_zero_by_cycle": {
+      "2018": 0.8009756097560976,
+      "2019": 0.7847222222222222,
+      "2020": 0.8091954022988506,
+      "2022": 0.7647831800262812,
+      "2023": 0.7444444444444445,
+      "2024": 0.7935064935064935
+    },
+    "share_war_party_stable_all_draws": 0.6303278688524591
+  },
+  "context_sensitivity": {
+    "all": {
+      "lag_available_fit": {
+        "mae": 1.3816415513123137,
+        "max_abs_diff": 13.240798358254814,
+        "mean_diff": 0.0571250030723308,
+        "n": 1284,
+        "sign_change_share": 0.12071651090342679,
+        "spearman": 0.8799757275946575
+      },
+      "missing_excluded_fit": {
+        "mae": 3.423027413041957,
+        "max_abs_diff": 40.78626669861848,
+        "mean_diff": 0.9615965344031593,
+        "n": 3426,
+        "sign_change_share": 0.2133683596030356,
+        "spearman": 0.7124751035710164
+      },
+      "no_lag_spec": {
+        "mae": 0.6819894143524998,
+        "max_abs_diff": 13.212725284008862,
+        "mean_diff": 1.6676399180817652e-15,
+        "n": 3660,
+        "sign_change_share": 0.05218579234972678,
+        "spearman": 0.9769973570925893
+      }
+    },
+    "available": {
+      "lag_available_fit": {
+        "mae": 1.3816415513123137,
+        "max_abs_diff": 13.240798358254814,
+        "mean_diff": 0.0571250030723308,
+        "n": 1284,
+        "sign_change_share": 0.12071651090342679,
+        "spearman": 0.8799757275946575
+      },
+      "missing_excluded_fit": {
+        "mae": 1.3816415513123137,
+        "max_abs_diff": 13.240798358254814,
+        "mean_diff": 0.05712500307233081,
+        "n": 1284,
+        "sign_change_share": 0.12071651090342679,
+        "spearman": 0.8799757275946575
+      },
+      "no_lag_spec": {
+        "mae": 1.3294454377582248,
+        "max_abs_diff": 13.212725284008862,
+        "mean_diff": -0.03390179609782712,
+        "n": 1284,
+        "sign_change_share": 0.11526479750778816,
+        "spearman": 0.9218289437124575
+      }
+    },
+    "missing": {
+      "lag_available_fit": {
+        "mae": null,
+        "max_abs_diff": null,
+        "mean_diff": null,
+        "n": 0,
+        "sign_change_share": null,
+        "spearman": null
+      },
+      "missing_excluded_fit": {
+        "mae": 4.64671529654376,
+        "max_abs_diff": 40.78626669861848,
+        "mean_diff": 1.5037727464614143,
+        "n": 2142,
+        "sign_change_share": 0.2689075630252101,
+        "spearman": 0.6726457138664402
+      },
+      "no_lag_spec": {
+        "mae": 0.33210156332011337,
+        "max_abs_diff": 3.9141540703130175,
+        "mean_diff": 0.01832066758822227,
+        "n": 2376,
+        "sign_change_share": 0.0180976430976431,
+        "spearman": 0.9963412572685652
+      }
+    }
+  },
+  "cross_fit": {
+    "by_cycle": [
+      {
+        "cross_fitted_residual_mae": 6.246229785501814,
+        "cycle": "all",
+        "headline_war_mae": 5.242402103967367,
+        "mae_difference": 2.39886397556716,
+        "max_abs_difference": 18.365471288435938,
+        "mean_difference": -0.04558467031691704,
+        "n": 3660,
+        "pearson_correlation": 0.9263724782813609,
+        "sign_agreement_share": 0.8453551912568306
+      },
+      {
+        "cross_fitted_residual_mae": 6.531977442998477,
+        "cycle": "2018",
+        "headline_war_mae": 6.421750362963194,
+        "mae_difference": 0.5142145113491743,
+        "max_abs_difference": 6.0669241093503175,
+        "mean_difference": -0.02013283164502156,
+        "n": 1025,
+        "pearson_correlation": 0.997125156484741,
+        "sign_agreement_share": 0.9717073170731707
+      },
+      {
+        "cross_fitted_residual_mae": 14.590665406563964,
+        "cycle": "2019",
+        "headline_war_mae": 13.664893992292374,
+        "mae_difference": 2.9301707981024747,
+        "max_abs_difference": 10.69956538415735,
+        "mean_difference": -0.2517485807350317,
+        "n": 144,
+        "pearson_correlation": 0.983071042056478,
+        "sign_agreement_share": 0.9166666666666666
+      },
+      {
+        "cross_fitted_residual_mae": 5.477048216229814,
+        "cycle": "2020",
+        "headline_war_mae": 4.648108602503698,
+        "mae_difference": 2.497947549305817,
+        "max_abs_difference": 10.937512972906584,
+        "mean_difference": -0.01074918338571957,
+        "n": 870,
+        "pearson_correlation": 0.9050525088123827,
+        "sign_agreement_share": 0.8471264367816091
+      },
+      {
+        "cross_fitted_residual_mae": 4.538207160538111,
+        "cycle": "2022",
+        "headline_war_mae": 3.142123174626095,
+        "mae_difference": 2.920620091861746,
+        "max_abs_difference": 11.839578427496868,
+        "mean_difference": 0.01893473789103647,
+        "n": 761,
+        "pearson_correlation": 0.7880947869339664,
+        "sign_agreement_share": 0.7634691195795007
+      },
+      {
+        "cross_fitted_residual_mae": 18.787635370675318,
+        "cycle": "2023",
+        "headline_war_mae": 16.319731679314483,
+        "mae_difference": 6.534088430779885,
+        "max_abs_difference": 18.365471288435938,
+        "mean_difference": 6.121294033932982,
+        "n": 90,
+        "pearson_correlation": 0.9777954494616189,
+        "sign_agreement_share": 0.8444444444444444
+      },
+      {
+        "cross_fitted_residual_mae": 5.396589008659443,
+        "cycle": "2024",
+        "headline_war_mae": 3.549826977124948,
+        "mae_difference": 3.6973421622637743,
+        "max_abs_difference": 15.15524465126334,
+        "mean_difference": -0.8648389017420723,
+        "n": 770,
+        "pearson_correlation": 0.7726330734997557,
+        "sign_agreement_share": 0.7428571428571429
+      }
+    ],
+    "mae_difference": 2.39886397556716,
+    "pearson_correlation": 0.9263724782813609,
+    "sign_agreement_share": 0.8453551912568306
+  },
+  "generated_at_utc": "2026-09-08T13:20:14.003192+00:00",
+  "interpretation_limits": [
+    "descriptive same-cycle refits; no predictive validation",
+    "no external reference certification; no source lineage certification",
+    "bootstrap reflects sampling variability of the structural fit conditional on design, alpha and zero-fill encoding",
+    "this audit records evidence and does not approve release"
+  ],
+  "lag_context_rows": 1284,
+  "missing_context_by_cycle": [
+    {
+      "cycle": 2018,
+      "lag_context_rows": 347,
+      "missing_context_rows": 678,
+      "missing_context_share": 0.6614634146341464,
+      "races": 1025
+    },
+    {
+      "cycle": 2019,
+      "lag_context_rows": 0,
+      "missing_context_rows": 144,
+      "missing_context_share": 1.0,
+      "races": 144
+    },
+    {
+      "cycle": 2020,
+      "lag_context_rows": 268,
+      "missing_context_rows": 602,
+      "missing_context_share": 0.6919540229885057,
+      "races": 870
+    },
+    {
+      "cycle": 2022,
+      "lag_context_rows": 335,
+      "missing_context_rows": 426,
+      "missing_context_share": 0.5597897503285151,
+      "races": 761
+    },
+    {
+      "cycle": 2023,
+      "lag_context_rows": 0,
+      "missing_context_rows": 90,
+      "missing_context_share": 1.0,
+      "races": 90
+    },
+    {
+      "cycle": 2024,
+      "lag_context_rows": 334,
+      "missing_context_rows": 436,
+      "missing_context_share": 0.5662337662337662,
+      "races": 770
+    }
+  ],
+  "missing_context_rows": 2376,
+  "model_run_id": "WAR-POST2016-V3-4AF79A70EAA8F39EBD49",
+  "parity_gate": "passed",
+  "parity_max_abs_difference": {
+    "fitted_structural_expected_gap": 6.483702463810914e-14,
+    "fitted_structural_nonlag_expected_gap": 6.483702463810914e-14,
+    "war": 6.483702463810914e-14
+  },
+  "parity_tolerance": 1e-08,
+  "run_dir": "data/processed/war/post2016_southern_war_v3",
+  "runtime_seconds": 5.68,
+  "schema_version": 1,
+  "selected_lag_columns": [
+    "prior_pres_margin",
+    "lag_current_ticket_change",
+    "lag_change_x_years"
+  ],
+  "selected_structural_alpha": 100.0,
+  "selected_structural_specification": "decaying_lag",
+  "sha256": {
+    "manifest.json": "c6c09e19335965380e068c40484437bf460db81add232dc8d7cf78d135a905a6",
+    "race_war.csv": "afe25d61789bc41c9d989615547291a706eae121540cd2569de1493a2190ccec",
+    "scripts/audit_southern_v3_context_sensitivity.py": "b9729974c96519abd6bbfa08d678b9444204eb269ddb5cea59ef1247f941c12b",
+    "scripts/retrain_post2016_southern_war.py": "ead76fb849c93043d380cff7d2a14eb2a7bca31944134af207acf7002d2e075d",
+    "scripts/retrain_post2016_southern_war_v2.py": "9a52de7cd3043f8d8a57d07a39e5914d257af2ffc3ebe2da8f17b2c9e8f0a730",
+    "scripts/retrain_post2016_southern_war_v3.py": "29d4f7b3b323b6146d82350b21dc1770a82a557059c9f2a88c1d3b346ad94997"
+  },
+  "training_rows": 3660,
+  "warehouse_build_run_id": "RUN-92AB8DE353AC47D6AECE3D7767C29FCD"
+}

@@ -1,5 +1,9 @@
-"""Prespecified 2016-2022 Southern WAR map schedule and state metadata."""
+"""Southern WAR map schedule; retain the older research cutoff explicitly."""
 from __future__ import annotations
+
+from load_southern_war_preparation_warehouse import (
+    scheduled_war_keys_2016_2024 as scheduled_keys_2016_2024,
+)
 
 
 STATE_FIPS = {

@@ -3,6 +3,9 @@ token.env
 .venv/
 __pycache__/
 .pytest_cache/
+/.testmondata
+/.testmondata-shm
+/.testmondata-wal
 *.py[cod]
 /.claude/worktrees/
 /local_archive/

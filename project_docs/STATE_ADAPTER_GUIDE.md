@@ -2,10 +2,14 @@
 
 ## Adapter boundary
 
-Alabama source formats belong in adapter modules under `scripts/`. An adapter
+Alabama and other Southern state/provider formats belong in adapter modules
+under `scripts/` or validated companion-repository adapters. An adapter
 may understand agency filenames, HTML structure, spreadsheet tabs, district
 labels, local party abbreviations, and election terminology. Code downstream
 of the adapter must consume canonical records defined in `DATA_CONTRACTS.md`.
+Companion exports must declare their source authority, state, contract version,
+and lineage before central ingestion; do not treat them as unqualified local
+Alabama records or silently override existing source observations.
 
 ## Adding a source
 
@@ -24,6 +28,10 @@ of the adapter must consume canonical records defined in `DATA_CONTRACTS.md`.
 corrections. It should hold stable state identity, chamber labels, official
 source entry points, and feature flags. Corrections and exceptions belong in
 reviewable adjudication tables with evidence.
+
+Alabama's repository identity is not the Southern analysis universe. Regional
+loaders must use their explicit state and election-schedule contracts, preserving
+odd-year elections, staggered chambers, and state-specific final-stage rules.
 
 ## Redistricting
 

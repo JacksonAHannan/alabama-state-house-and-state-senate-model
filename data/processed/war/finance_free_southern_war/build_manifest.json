@@ -1,0 +1,48 @@
+{
+  "contract_version": 1,
+  "pipeline": "scripts/load_southern_war_preparation_warehouse.py",
+  "build_run_id": "RUN-92AB8DE353AC47D6AECE3D7767C29FCD",
+  "code_version": "88878b973fdac3cee95a8d8648da321e38e0021c",
+  "finance_included": true,
+  "finance_missingness_policy": "Finance remains null unless both candidate observations and identities are complete; the finance-free interface remains available for sensitivity analysis.",
+  "validation": {
+    "alabama_2026_incumbency_rows": 140,
+    "alabama_2026_incumbents_running": 122,
+    "alabama_2026_open_seats": 18,
+    "alabama_2026_workbook_supported_corrections": 1,
+    "context_feature_rows": 8085,
+    "finance_included": true,
+    "foreign_key_violations": 0,
+    "missing_baseline": 0,
+    "missing_context": 0,
+    "missing_incumbency": 0,
+    "missing_scheduled_state_cycle_chambers": [],
+    "model_valid_outcomes": 4582,
+    "research_ready_no_finance": 302,
+    "research_ready_with_finance": 272,
+    "scheduled_state_cycle_chambers_expected": 116,
+    "scheduled_state_cycle_chambers_observed": 116,
+    "strict_ready_no_finance": 4280,
+    "strict_ready_with_finance": 3635,
+    "unscheduled_model_outcome_slices": [],
+    "war_ready_finance_unobserved": 675
+  },
+  "inputs": [
+    {
+      "path": "data/processed/war/southern_war_panel_v1/southern_war_panel.csv",
+      "sha256": "8cfbdfef67e73546d46186fe741ee7bb06b580fefc3476a4dc5b8a7e7f28cb50"
+    },
+    {
+      "path": "data/processed/war/southern_war_panel_v1/build_manifest.json",
+      "sha256": "a023b90b81235cfa8fdf1ba8bea5d746514ca8043790a411ee105a6129ce1c54"
+    },
+    {
+      "path": "data/raw/candidates/southern_state_legislative_incumbents_2016_2026.xlsx",
+      "sha256": "7f79dfd537834a1c40f8b869e8ab98033ae5bf98fdfb067f197acccdced95082"
+    },
+    {
+      "path": "data/processed/war/2026_race_incumbency.csv",
+      "sha256": "b155abdb1c8405fa2332aab7812034394f486d5785691fe0805b2814f1441cbe"
+    }
+  ]
+}

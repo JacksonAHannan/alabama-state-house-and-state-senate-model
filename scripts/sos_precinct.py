@@ -83,7 +83,7 @@ def _office(title: object) -> tuple[str, float | None]:
     # Several legacy exports abbreviate President of the Public Service
     # Commission as "President PSC".  Test this before the presidential
     # contest or the entire PSC race is mislabeled as President.
-    if "PRESIDENT PSC" in text or "PUBLIC SERVICE COMMISSION" in text:
+    if "PRESIDENT PSC" in text or ("PUBLIC SERVICE COMMISSION" in text and "PRESIDENT" in text):
         return "Public Service Commission President", district
     if "PRESIDENT" in text: return "President", district
     if re.search(r"\b(?:U\.?S\.?|UNITED STATES) SENAT(?:E|OR)\b", text):
@@ -133,16 +133,16 @@ def _wide_sheet(rows: list[list[object]], county: str) -> pd.DataFrame:
     if not rows: return pd.DataFrame()
     width = max(map(len, rows)); padded = [r + [""] * (width - len(r)) for r in rows]
     header, records = [str(x).strip() for x in padded[0]], []
-    for row in padded[1:]:
+    for row_number, row in enumerate(padded[1:], start=2):
         title, party, candidate = row[:3]
         if not str(title).strip() or is_pseudocandidate(candidate): continue
         office, district = _office(title)
-        for precinct, votes in zip(header[3:], row[3:]):
+        for column, (precinct, votes) in enumerate(zip(header[3:], row[3:]), start=4):
             number = pd.to_numeric(votes, errors="coerce")
-            if not precinct or pd.isna(number): continue
+            if not precinct or pd.isna(number) or precinct.upper() == "TOTAL OF REGISTERED VOTERS": continue
             records.append({"county": county, "precinct": precinct, "office": office,
                             "district": district, "party": party, "candidate": candidate,
-                            "votes": float(number)})
+                            "votes": float(number), "source_row": row_number, "source_column": column})
     return pd.DataFrame(records)
 
 
@@ -201,13 +201,18 @@ def _legacy_1994(rows: list[list[object]], county: str) -> pd.DataFrame:
         named=[c for c in cols if str(candidates[c]).strip() and not is_pseudocandidate(candidates[c])]
         for rank,col in enumerate(named):
             code=str(codes[col]).strip().upper()
-            if code.startswith("A") or code.endswith("1") or rank==0: party_at[col]="D"
+            if code in {"AG1", "AG2"}:
+                party_at[col] = {"AG1": "D", "AG2": "R"}[code]
+            elif code.startswith("A") or code.endswith("1") or rank==0: party_at[col]="D"
             elif code.startswith("B") or code.endswith("2") or rank==1: party_at[col]="R"
             else: party_at[col]=""
     records=[]
-    for row in padded[4:]:
+    for row_number, row in enumerate(padded[4:], start=5):
         precinct=str(row[1]).strip() or str(row[2]).strip()
         if not precinct or re.search(r"\bTOTALS?\b",precinct,re.I): continue
+        code = str(row[2]).strip()
+        if isinstance(row[2], (int, float)) and float(row[2]).is_integer():
+            code = str(int(row[2]))
         for col in range(3,width):
             candidate=str(candidates[col]).strip(); number=pd.to_numeric(row[col],errors="coerce")
             if not candidate or is_pseudocandidate(candidate) or pd.isna(number): continue
@@ -216,6 +221,9 @@ def _legacy_1994(rows: list[list[object]], county: str) -> pd.DataFrame:
             office,district=_office(title)
             records.append({"county":county,"precinct":precinct,"office":office,"district":district,
                             "party":party_at.get(col,""),"candidate":candidate,"votes":float(number),
+                            "precinct_code":code, "precinct_key":(code or precinct).upper(),
+                            "source_row":row_number, "source_column":col+1,
+                            "ballot_code":str(codes[col]).strip(),
                             "party_method":"ballot_order_with_export_code"})
     return pd.DataFrame(records)
 
@@ -272,18 +280,26 @@ def _legacy_2002(rows: list[list[object]], county: str) -> pd.DataFrame:
                                 "party":padded[party_row][col],"candidate":candidate,"votes":float(number),
                                 "party_method":"printed"})
         return pd.DataFrame(records)
-    precincts=padded[header_row-1][5:]
+    labels = [str(value).strip() for value in padded[header_row]]
+    party_col = labels.index("Party Code")
+    candidate_col = labels.index("Candidate")
+    title_col = party_col - 1
+    if labels[title_col] != "Contest Title" or candidate_col != party_col + 1:
+        raise ValueError(f"Unrecognized 2002 metadata layout in {county}")
+    # The column after Candidate is the county summary, not a precinct.
+    first_precinct = candidate_col + 2
+    precincts=padded[header_row-1][first_precinct:]
     records=[]
-    for row in padded[header_row+1:]:
-        title,party,candidate=row[2:5]
+    for row_number, row in enumerate(padded[header_row+1:], start=header_row+2):
+        title,party,candidate=row[title_col],row[party_col],row[candidate_col]
         if not str(title).strip() or is_pseudocandidate(candidate):continue
         office,district=_office(title)
-        for precinct,votes in zip(precincts[1:],row[6:]):
+        for column, (precinct,votes) in enumerate(zip(precincts,row[first_precinct:]), start=first_precinct+1):
             number=pd.to_numeric(votes,errors="coerce")
             if not str(precinct).strip() or pd.isna(number):continue
             records.append({"county":county,"precinct":str(precinct).strip(),"office":office,
                             "district":district,"party":party,"candidate":candidate,"votes":float(number),
-                            "party_method":"printed"})
+                            "party_method":"printed", "source_row":row_number, "source_column":column})
     return pd.DataFrame(records)
 
 
@@ -383,29 +399,37 @@ def _contest_sheets(sheets: dict[str, list[list[object]]], county: str) -> pd.Da
         # Candidate labels occupy the first cell of a merged Polling/Total
         # pair. Spreadsheet readers expose the second cell as blank.
         carried = ""
-        candidate_at = []
+        printed_carried = ""
+        candidate_at, printed_candidate_at = [], []
         for value in candidates:
-            if str(value).strip(): carried = str(value).strip()
+            if str(value).strip():
+                carried = str(value).strip()
+                printed_carried = str(value)
             candidate_at.append(carried)
+            printed_candidate_at.append(printed_carried)
         candidate_at.extend([carried] * (len(headers) - len(candidate_at)))
-        columns = [(i, candidate_at[i]) for i, h in enumerate(headers)
+        printed_candidate_at.extend([printed_carried] * (len(headers) - len(printed_candidate_at)))
+        columns = [(i, candidate_at[i], printed_candidate_at[i]) for i, h in enumerate(headers)
                    if str(h).strip().upper() == "TOTAL VOTES" and i < len(candidate_at)
                    and candidate_at[i]]
-        for row in rows[3:]:
+        for row_number, row in enumerate(rows[3:], start=4):
             if not row or not str(row[0]).strip() or re.search(r"\bTOTALS?\b", str(row[0]), re.I): continue
-            for col, candidate in columns:
+            for col, candidate, printed_candidate in columns:
                 number = pd.to_numeric(row[col] if col < len(row) else None, errors="coerce")
                 if pd.isna(number): continue
                 records.append({"county": county, "precinct": str(row[0]).strip(), "office": office,
                                 "district": district, "party": "", "candidate": candidate,
-                                "votes": float(number)})
+                                "votes": float(number), "source_sheet": name,
+                                "source_row": row_number, "source_column": col + 1,
+                                "printed_precinct": str(row[0]), "printed_candidate": printed_candidate})
     return pd.DataFrame(records)
 
 
 def normalize_workbook(content: bytes, county: str, year: int) -> pd.DataFrame:
     sheets = _workbook_sheets(content)
     if year == 1994:
-        data = pd.concat([_legacy_1994(rows, county) for rows in sheets.values()], ignore_index=True)
+        data = pd.concat([_legacy_1994(rows, county).assign(source_sheet=name)
+                          for name, rows in sheets.items()], ignore_index=True)
     elif year == 1998:
         data = pd.concat([_legacy_1998(rows, county) for rows in sheets.values()], ignore_index=True)
     elif year == 2002:
@@ -424,6 +448,7 @@ def normalize_workbook(content: bytes, county: str, year: int) -> pd.DataFrame:
         # Normalize Jefferson's harmless header spelling difference.
         rows[0][1:3] = ["Party", "Candidate"]
         data = _wide_sheet(rows, county)
+        data["source_sheet"] = wide_name
     elif data.empty and "Precinct Results" in sheets:
         data = _wide_sheet(sheets["Precinct Results"], county)
     elif data.empty:
@@ -435,7 +460,8 @@ def normalize_workbook(content: bytes, county: str, year: int) -> pd.DataFrame:
     if data.empty: return data
     data["year"] = year; data["party_norm"] = data["party"].map(norm_party)
     data["county_key"] = data["county"].str.upper().str.strip()
-    data["precinct_key"] = data["precinct"].str.upper().str.strip()
+    if "precinct_key" not in data:
+        data["precinct_key"] = data["precinct"].str.upper().str.strip()
     return data
 
 
@@ -484,6 +510,7 @@ def load_sos_year(root: Path, year: int) -> pd.DataFrame:
                 data["year"]=year; data["party_norm"]=data.party.map(norm_party)
                 data["county_key"]=data.county.str.upper().str.strip(); data["precinct_key"]=data.precinct.str.upper().str.strip()
                 data["source_file"]=f"{source}::{county}"; parts.append(data)
+                data["source_sheet"]=county
         if len(sheets)!=67: raise AssertionError(f"SOS {year}: expected 67 county sheets, found {len(sheets)}")
         return _repair_legislative_metadata(pd.concat(parts,ignore_index=True))
     directory, archive, parts = base / source, base / f"{source}.zip", []

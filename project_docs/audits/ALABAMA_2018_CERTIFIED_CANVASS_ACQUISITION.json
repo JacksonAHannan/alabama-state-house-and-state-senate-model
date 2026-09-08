@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "acquired_not_integrated",
+  "source_file_id": "SRC-A3632F0E8738FDFB544D",
+  "provider": "alabama_sos",
+  "local_path": "data/raw/alabama_elections_and_geography/2018_general_certified_canvass.pdf",
+  "local_manifest_path": "data/raw/alabama_elections_and_geography/2018_general_certified_canvass.manifest.json",
+  "source_url": "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/2018/2018-Official-General-Election-Results-Certified-2018-11-27.pdf",
+  "source_index_url": "https://www.sos.alabama.gov/alabama-votes/voter/election-information/2018",
+  "retrieved_at_utc": "2026-09-08T01:32:33.6217607Z",
+  "sha256": "a83be9be26ac195989bf94ad5097e4269f516674f645373526a9d6621f310044",
+  "size_bytes": 2307020,
+  "media_type": "application/pdf",
+  "license_or_terms": "review: public official election record; explicit redistribution license not established",
+  "state_code": "AL",
+  "cycle": 2018,
+  "election_date": "2018-11-06",
+  "election_stage": "general",
+  "certified_date": "2018-11-27",
+  "geography_vintage": "reported 2018 election districts; no boundary certification implied",
+  "authoritative_scope": "certified general-election candidate and write-in contest totals",
+  "visual_verification": {
+    "page_count": 192,
+    "senate_start_pdf_page": 23,
+    "house_start_pdf_page": 43,
+    "renderer": "PyMuPDF from the repository virtual environment; Poppler was unavailable on PATH"
+  },
+  "integration_limits": "The source is not registered in warehouse_source_file and has no candidate-result bridge. Acquisition alone does not repair the 2018 Alabama scalar lineage gap or certify current analytical values."
+}
