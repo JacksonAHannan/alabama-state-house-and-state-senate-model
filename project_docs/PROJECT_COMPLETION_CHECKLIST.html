@@ -65,7 +65,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
 <script id="checklist-data" type="application/json">
 {
   "schemaVersion": 1,
-  "revision": "2026-09-11T14:34:32Z",
+  "revision": "2026-09-11T16:02:46Z",
   "title": "Four-product completion checklist",
   "baselineDate": "2026-09-05",
   "baselineCode": "88878b9 (existing dirty worktree)",
@@ -95,8 +95,8 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "id": "scope-03",
           "text": "Write one reproducible command sequence per product",
           "detail": "Distinguish upstream rebuilds from page rendering; the forecast page command is not an end-to-end data rebuild. Reuse existing scripts rather than adding an orchestrator.",
-          "done": false,
-          "evidence": "2026-09-07 partial infrastructure progress: removed superseded dispatcher cmo chain; remaining renderer targets require explicit --publish without waiving release gates. Five isolated subprocess tests and independent review passed. Product-specific end-to-end reproducibility remains open; no builders ran. See coordination/CHECKLIST-EXECUTION-20260906.md."
+          "done": true,
+          "evidence": "2026-09-07 partial infrastructure progress: removed superseded dispatcher cmo chain; remaining renderer targets require explicit --publish without waiving release gates. Five isolated subprocess tests and independent review passed. Product-specific end-to-end reproducibility remains open; no builders ran. See coordination/CHECKLIST-EXECUTION-20260906.md. 2026-09-11: CANONICAL_PIPELINES.md 'Reproducible command sequences per product' records the exact executed order for each product (upstream gated stages vs renderers, warehouse-write steps marked, artifact-only previews vs publication), as run for the 2026-09-11 release. No orchestrator added. Ideology upstream evidence stages still lack a single certified rebuild (stated)."
         },
         {
           "id": "scope-04",
@@ -137,8 +137,8 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "id": "scope-09",
           "text": "Record the release matrix and stopping rule",
           "detail": "For each product define required coverage, permitted exclusions, reviewer and evidence of acceptance. No arbitrary completeness percentage, new predictors or endless acquisition merely to tick boxes.",
-          "done": false,
-          "evidence": ""
+          "done": true,
+          "evidence": "2026-09-11: CANONICAL_PIPELINES.md 'Release matrix and stopping rule' defines per product the required coverage, permitted exclusions, independent acceptance and evidence artifacts, plus the stopping rule (current evidence for the published run; unresolved items are reviewed exclusions or visible unknowns; no completeness percentage, predictor or acquisition requirement)."
         }
       ]
     },
@@ -182,7 +182,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "text": "Adjudicate remaining natural-key collisions",
           "detail": "The repair audit records 5,354 collision groups and 15,035 excess rows at a proposed grain. Distinguish duplicate records, distinct source cells, competing versions and an incorrectly specified key. Never blanket-deduplicate.",
           "done": false,
-          "evidence": "Prior census and office repair remain historical evidence. RUN-3723F54646824B1682D8543BE39C7EC5 filled 4083 uniquely matched physical source locators/source IDs; six ambiguous matches remain unresolved. September 8 census has 5354 groups/15035 excess rows at the proposed grain. Resumed RUN-91B2A0C3435548A1B6932613B3073995 filled five source-provenance fields for 228882 unique legacy rows after full-cohort reconciliation and exact raw-cell review. All source values and labels remain unchanged. 3552 ambiguous rows and 47 refused cohorts remain untouched; no deduplication or canonical adoption. 71 focused tests and independent post-commit source/schema/control/integrity checks passed. See audits/WAREHOUSE_COMPLETION_REPAIRS_2026_09_08.md; provider-grain adjudication remains open."
+          "evidence": "Prior census and office repair remain historical evidence. RUN-3723F54646824B1682D8543BE39C7EC5 filled 4083 uniquely matched physical source locators/source IDs; six ambiguous matches remain unresolved. September 8 census has 5354 groups/15035 excess rows at the proposed grain. Resumed RUN-91B2A0C3435548A1B6932613B3073995 filled five source-provenance fields for 228882 unique legacy rows after full-cohort reconciliation and exact raw-cell review. All source values and labels remain unchanged. 3552 ambiguous rows and 47 refused cohorts remain untouched; no deduplication or canonical adoption. 71 focused tests and independent post-commit source/schema/control/integrity checks passed. See audits/WAREHOUSE_COMPLETION_REPAIRS_2026_09_08.md; provider-grain adjudication remains open. 2026-09-11 (audits/SOURCE_COLLISION_ADJUDICATION_PACKET_2026_09_11.md): three cases adjudicated at the evidence level. 2002 HD26: the two observation sets are complementary DeKalb and Marshall county segments of one contest (district D 7,069 / R 4,459); canonical and the published WAR carry only DeKalb (margin overstated 7.0 pp). 2002 HD27: source gap from the legacy 2002 Marshall parse plus a stale identity build (RUN-872E84CE… predates repair RUN-40A033B9…), not a builder rule. 2014 HD31/HD66/SD30: provider-printed party labels plus a legacy x2 block duplication in vote_observations; canonical totals equal distinct SOS sums and all three are unopposed/excluded. Owner disposition options recorded; blast radius of the 2002 Marshall and 2014 duplication defects not yet enumerated. 2026-09-11 dispositions applied: HD26 A1 and HD27 B1 (owner), SD9 as the same defect surfaced by a scratch identity rebuild, via scripts/repair_alabama_2002_marshall_canonical.py as RUN-DFB1D093D7594AB68A264292050E924D with three approved adjudication records, before-images, separate backup and independent pre-application review PASS; scoped so the 21 certified 2018/2022 corrections were not reverted. 2014 labels: C1 (preserve as source fact with consumer warning). Remaining: blast-radius enumeration of the 2002 legacy Marshall parse beyond these contests and of the 2014 x2 block duplication; the broader 5,354-group collision census is still not adjudicated."
         },
         {
           "id": "warehouse-06",
@@ -260,8 +260,8 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "id": "alabama-02",
           "text": "Reconcile the historical race universe",
           "detail": "Verify the documented 509 races and 1,018 candidate orientations across 1994–2022 against current repaired sources; document every exclusion and any resulting count change.",
-          "done": false,
-          "evidence": "2026-09-10 (audits/ALABAMA_HISTORICAL_RACE_UNIVERSE_2026_09_10.md, read-only): recomputed exactly 509 races / 1,018 orientations (412 backcast, 97 modern, 21 lag-context-missing) with zero set difference per cycle/chamber against canonical_candidates strict D-and-R races and the Southern candidate-election view; exclusion ledger 546 races (266 unopposed D, 280 unopposed R, 0 no-major-party). Open before acceptance: 2002 House 27 appears as a contested D-R race in the registered SOS source (MARSHALL sheet) but has no canonical_candidates row and is absent from the universe; unadjudicated. Independent cross-check dispatched. Cross-check reproduced 509/1,018, the per-cell table, the 546 exclusions and the warehouse derivation exactly (pass for reconciliation). Held open only for the 2002 House 27 source-coverage gap (SOS MARSHALL sheet: McLaughlin D 7,724, Hawkins R 4,789, Driggers 662; no canonical_candidates row), which needs adjudication as intended omission or canonical defect (warehouse-04/05)."
+          "done": true,
+          "evidence": "2026-09-10 (audits/ALABAMA_HISTORICAL_RACE_UNIVERSE_2026_09_10.md, read-only): recomputed exactly 509 races / 1,018 orientations (412 backcast, 97 modern, 21 lag-context-missing) with zero set difference per cycle/chamber against canonical_candidates strict D-and-R races and the Southern candidate-election view; exclusion ledger 546 races (266 unopposed D, 280 unopposed R, 0 no-major-party). Open before acceptance: 2002 House 27 appears as a contested D-R race in the registered SOS source (MARSHALL sheet) but has no canonical_candidates row and is absent from the universe; unadjudicated. Independent cross-check dispatched. Cross-check reproduced 509/1,018, the per-cell table, the 546 exclusions and the warehouse derivation exactly (pass for reconciliation). Held open only for the 2002 House 27 source-coverage gap (SOS MARSHALL sheet: McLaughlin D 7,724, Hawkins R 4,789, Driggers 662; no canonical_candidates row), which needs adjudication as intended omission or canonical defect (warehouse-04/05). 2026-09-11 accepted: the 2002 House 27 gap is closed (canonical rows inserted from the repaired source, Klarner-corroborated); universe is 510 races / 1,020 orientations with the exclusion ledger unchanged (546 unopposed); per-cycle counts 54/18, 57/28, 52/23, 40/22, 42/21, 40/16, 49/15, 25/8; documented in the release card."
         },
         {
           "id": "alabama-03",
@@ -295,15 +295,15 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "id": "alabama-07",
           "text": "Label and test cross-era backcasts",
           "detail": "412 pre-2016 races are backcasts of a later Southern model, not contemporary fits. Assess era sensitivity and transportability; preserve an explicit backcast flag.",
-          "done": false,
-          "evidence": "2026-09-11: backcast flag and extrapolation years present in the rebuilt export (412 rows scoring_scope=post2016_southern_model_backcast); era sensitivity/transportability assessment still open; baseline-driven outliers 2014 HD52/HD56 and 2002 HD26 must be assessed."
+          "done": true,
+          "evidence": "2026-09-11: backcast flag and extrapolation years present in the rebuilt export (412 rows scoring_scope=post2016_southern_model_backcast); era sensitivity/transportability assessment still open; baseline-driven outliers 2014 HD52/HD56 and 2002 HD26 must be assessed. 2026-09-11 (audits/ALABAMA_BACKCAST_SENSITIVITY_2026_09_11.md, 16 fixture tests, parity 7e-15 on the published run): backcast flag and extrapolation years verified on all 412 rows. Era assessment: rank order transports (Pearson 0.91-0.96 per cycle vs a same-era descriptive fit) but level does not (mean -20.5 pp, sign agreement 0.66; incumbency coefficient 13.6 in 1994-2006 vs 6.2 modern; leave-one-era-out Pearson 0.73 when fitting 2010-2014 and scoring 1994-2006). Limitation disclosed in the release card and public methodology template; accepted as tested-and-labeled, not as transportable."
         },
         {
           "id": "alabama-08",
           "text": "Review missing lag-context treatment",
           "detail": "21 cases have compatibility zero with a missing-context flag. Test the effect, explain the assumption and retain unknowns in source data rather than representing zero as observed history.",
-          "done": false,
-          "evidence": ""
+          "done": true,
+          "evidence": "2026-09-11: the 18 missing-lag-context races (1994:5, 1998:2, 2002:7, 2006:4) retain the explicit missing flag; a no-lag specification moves them +2.0..+5.9 points with one sign change (2002 House 63); a lag-available-only fit moves them -0.05..-17.2 with 6 sign changes; 65% of the modern training rows also carry the zero-fill encoding. Effect tested and explained; unknowns retained in source data; disclosed in the release card."
         },
         {
           "id": "alabama-09",
@@ -461,28 +461,28 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "text": "Recheck roll-call eligibility and issue mapping",
           "detail": "Ensure provider contradictions and procedural/ambiguous votes remain excluded; verify final/conference vote rules, text recovery, polarity and issue-family mapping with fixtures and a review queue.",
           "done": false,
-          "evidence": ""
+          "evidence": "2026-09-11 (audits/IDEOLOGY_EVIDENCE_LAYER_VALIDATION_2026_09_11.md, 19 tests): 2,022 mapped roll calls all final-passage/conference class, 0 procedural/ambiguous admitted; 0/2,321 mapped rows fail validate_primitive; vote-vs-sponsorship pole agreement 1.000 across 1,495 shared (candidate, bill, axis) cells. Defect recorded: 16 low-confidence bill mappings and 1 low-confidence roll call are admitted without appearing in a review queue; held open until queued or explicitly accepted."
         },
         {
           "id": "ideology-05",
           "text": "Reconcile all evidence channels without double counting",
           "detail": "Keep roll calls, direct issue research and other permitted sources distinct. The closed research inventory reports 1,098 of 1,564 candidate-cycles with any valid issue evidence; this is not the same as behavioral-score coverage.",
-          "done": false,
-          "evidence": ""
+          "done": true,
+          "evidence": "2026-09-11: roll-call, sponsorship, Vote Smart and research channels are distinct source_types; 0 duplicate evidence_ids across four ledgers; the 1,495 (candidate, bill, axis) cells present in both legislative channels count once per channel by design (vote 1.0 + sponsorship 1.2, documented); 4,730 profiles corroborated across channels. Limit: Vote Smart/research rows carry no bill id, so bill-level overlap with roll calls is not constructible."
         },
         {
           "id": "ideology-06",
           "text": "Verify minimum-evidence and missingness rules",
           "detail": "Apply the declared three-issue/two-family threshold where relevant. Separate searched-with-no-evidence from not searched; do not impute moderateness or ideology from absence.",
-          "done": false,
-          "evidence": ""
+          "done": true,
+          "evidence": "2026-09-11: declared three-issue/two-family threshold recomputes to exactly the 492 model-eligible candidate-cycles in the integrated artifact; all 440 evidence-less cycles are searched_no_evidence (0 not searched); no position imputed from absence (scoring code audited). Stale closure file (2026-08-17) accounts for 26 cycles that since gained evidence; recorded, not restated."
         },
         {
           "id": "ideology-07",
           "text": "Audit temporal cutoffs and identity joins",
           "detail": "Prove each candidate-cycle uses only eligible pre-election evidence and correct person/session/chamber identity. Test cardinality, repeated-person handling and no leakage from later service.",
-          "done": false,
-          "evidence": ""
+          "done": true,
+          "evidence": "2026-09-11: 0 action-after-general-election and 0 session-outside-window violations over 51,800 legislative evidence rows; people_id -> candidate unique per cycle (0 violations), 0 person_id mismatches; 9 cross-chamber cycles are flagged pre-election service in the chamber actually served. Identity testable for 768 of 1,564 cycles (those with a resolved people_id); the remainder carry no legislative evidence."
         },
         {
           "id": "ideology-08",
@@ -561,7 +561,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "text": "Refresh and freeze the polling/environment snapshot",
           "detail": "Record retrieval/as-of dates, eligibility, weighting, source terms and staleness policy. Refresh stale inputs from authoritative sources and provide reproducible cutoffs.",
           "done": false,
-          "evidence": ""
+          "evidence": "2026-09-11 (audits/FORECAST_POLLING_SNAPSHOT_POLICY_2026_09_11.md): inventory of every polling/environment input with as-of, retrieval, hash and terms (unknown where unknown); implemented eligibility/weighting documented exactly (Silver grade filter, 60-day window, LV/RV/A weights, 21-day half-life; historical 21-day pre-election panel); refresh policy and command sequence drafted. Not done: the refresh itself. Findings: live environment as-of 2026-08-17 (25 days stale; recorded staleness field says 1 day); frozen FTE/Silver/Catalist inputs have no URL/time/terms and cannot be refreshed reproducibly; refresh_2026_forecast.py does not invoke the forecast script."
         },
         {
           "id": "forecast-05",
@@ -660,15 +660,15 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "id": "release-05",
           "text": "Review all four pages in a browser",
           "detail": "Test desktop and narrow mobile widths, keyboard focus, labels/contrast, empty/error/loading states, table/chart alternatives, selection behavior and valid navigation/download links.",
-          "done": false,
-          "evidence": "2026-09-11: all ten public pages browser-checked at 1258 and 390 px over HTTP after publication: 0 console/page errors, 0 failed requests, maps render; Southern harness passed all 116 slices. Open: pre-existing 390 px horizontal overflow on methodology.html, cmo-methodology.html, southern-war-methodology.html (shared header nav / mobile TOC; table.limitations). Not accepted until fixed."
+          "done": true,
+          "evidence": "2026-09-11: all ten public pages browser-checked at 1258 and 390 px over HTTP after publication: 0 console/page errors, 0 failed requests, maps render; Southern harness passed all 116 slices. Open: pre-existing 390 px horizontal overflow on methodology.html, cmo-methodology.html, southern-war-methodology.html (shared header nav / mobile TOC; table.limitations). Not accepted until fixed. 2026-09-11 fix: blue_oxblood_theme.css narrow-viewport containment; all three methodology shells now scrollWidth 390 at 390 px (were 505/426/426) with desktop header/nav geometry identical to the published pages. Local proof only; publication pending. 2026-09-11 second release: all ten public pages render without horizontal overflow at 390 px and without console/page errors at 1258 and 390 px; Alabama methodology carries the era and 2002 disclosures. Accepted."
         },
         {
           "id": "release-06",
           "text": "Reconcile all public claims with data manifests",
           "detail": "Check page prose, tooltips, chart labels, model versions, as-of dates, counts and methods against generated data. No scaffold, stale artifact or research-only result may be labeled validated.",
           "done": false,
-          "evidence": "2026-09-11: download/manifest parity verified for the Alabama historical/modern WAR exports, Southern historical manifest, forecast bundle and release card (byte-identical); page payload version equals the forecast manifest build id; run ids on the Southern methodology page equal manifests. See audits/SITE_RELEASE_2026_09_11.md."
+          "evidence": "2026-09-11: download/manifest parity verified for the Alabama historical/modern WAR exports, Southern historical manifest, forecast bundle and release card (byte-identical); page payload version equals the forecast manifest build id; run ids on the Southern methodology page equal manifests. See audits/SITE_RELEASE_2026_09_11.md. 2026-09-11 second release: download parity re-verified (historical manifest/export, release card, legacy cmo_v6 downloads byte-identical); the page's coverage sentence and backcast count are now manifest-driven (510 / 413)."
         },
         {
           "id": "release-07",
@@ -882,6 +882,18 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
       "done": 32,
       "total": 82,
       "event": "Owner authorized publication and commit. Structural fix: v3 manifest declares the training frame by content digest (run WAR-POST2016-V3-530FBD4238CC483E557C, outputs byte-identical, contract review APPROVED). All four pages republished on the new lineage with browser checks and download parity; alabama-11, forecast-01/05/06 accepted. Pre-existing methodology-shell mobile overflow logged under release-05."
+    },
+    {
+      "at": "2026-09-11T15:15:48Z",
+      "done": 39,
+      "total": 82,
+      "event": "Post-release wave: scope-03/09 (command sequences, release matrix), alabama-07/08 (era and missing-lag sensitivity; level non-transportability disclosed), ideology-05/06/07 accepted; ideology-04 held on an unqueued low-confidence set; forecast-04 inventory and policy; warehouse-05 adjudication packet; release-05 mobile overflow fixed locally. Session crash mid-wave recovered from on-disk deliverables."
+    },
+    {
+      "at": "2026-09-11T16:02:46Z",
+      "done": 41,
+      "total": 82,
+      "event": "Owner adjudicated the 2002 Marshall cases (HD26 A1, HD27 B1, 2014 C1); scoped canonical repair RUN-DFB1D093… applied after independent review; universe 510/1,020; historical Alabama WAR, compat chain and pages rebuilt and republished with the mobile fix and era disclosure. alabama-02 and release-05 accepted."
     }
   ]
 }

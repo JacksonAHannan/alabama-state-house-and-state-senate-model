@@ -14,7 +14,7 @@ def load(name):
 
 def test_direct_cmo_reconciles_and_is_candidate_oriented():
     races, candidates = load("cmo_v5_races.csv"), load("cmo_v5_candidates.csv")
-    assert len(races) == 509
+    assert len(races) == 510
     assert len(candidates) == 1018
     np.testing.assert_allclose(
         races.direct_cmo, races.legislative_dem_margin - races.selected_ticket_margin, atol=1e-9)

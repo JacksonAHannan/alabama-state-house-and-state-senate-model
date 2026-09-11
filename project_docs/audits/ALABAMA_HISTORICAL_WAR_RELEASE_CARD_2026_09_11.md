@@ -12,7 +12,7 @@ limitations travel with the data. It does not itself approve publication.
 | Warehouse (analytical target) | `RUN-504CE4C4DF904D88A5A40D268F3FCEAB` | `southern_war_preparation_no_finance`; 4,582 outcomes, 4,280 strict |
 | Southern residual source | see `data/processed/war/post2016_southern_war_v3/manifest.json` (`model_run_id`) and `project_docs/audits/SOUTHERN_V3_RELEASE_DECISION.json` | approved for descriptive historical use; supersedes `WAR-POST2016-V3-4AF79A70EAA8F39EBD49` and, before it, `8BB52074…` |
 | Modern Alabama WAR | `data/processed/war/alabama_war_v1/manifest.json` (`alabama_war_run_id`) | exact Alabama rows of the source run, 97 races |
-| Historical Alabama WAR | `data/processed/war/alabama_historical_war_v1/manifest.json` (`historical_war_run_id`) | 509 races, 1,018 candidate orientations |
+| Historical Alabama WAR | `data/processed/war/alabama_historical_war_v1/manifest.json` (`historical_war_run_id`) | 510 races, 1,020 candidate orientations (2002 House 27 added 2026-09-11) |
 
 Exact identifiers and hashes are read from those manifests at publication time;
 the published `docs/data/*_manifest.json` copies are the authoritative record for
@@ -41,20 +41,35 @@ the page. Reproducible commands (in order): `scripts/build_canonical_geographic_
 
 ## Coverage and exclusions
 
-509 contested D-versus-R general-election races, 1994–2022 (54/18, 57/28,
-51/23, 40/22, 42/21, 40/16, 49/15, 25/8 by cycle house/senate); 546 races
+510 contested D-versus-R general-election races, 1994–2022 (54/18, 57/28,
+52/23, 40/22, 42/21, 40/16, 49/15, 25/8 by cycle house/senate); 546 races
 excluded as unopposed (266 D, 280 R); 0 races excluded for missing context.
-Recorded open question: 2002 House 27 appears as a contested race in the SOS
-source but has no canonical candidate row (not adjudicated; `warehouse-05`).
+2002 Marshall County adjudications (`RUN-DFB1D093D7594AB68A264292050E924D`,
+`audits/SOURCE_COLLISION_ADJUDICATION_PACKET_2026_09_11.md`): House 26 now
+carries the DeKalb + Marshall district total (D 7,069 / R 4,459), House 27 was
+added (D 7,724 / R 4,789; Klarner-corroborated), and Senate 9 gained its
+Marshall segment (D 24,603 / R 16,995; the recorded winner was inverted before).
+Madison County's Senate 9 precinct cells sum 160 / 247 votes above the sheet's
+printed totals; the precinct-cell sum is retained and the discrepancy recorded.
 
 ## Backcast policy
 
-412 races (1994–2014) are backcasts: the modern fitted relationship applied to
+413 races (1994–2014) are backcasts: the modern fitted relationship applied to
 historical ticket, incumbency, chamber and prior-presidential context
 (`scoring_scope = post2016_southern_model_backcast`, `backcast_extrapolation_years`
 per row). They are not same-cycle fits and carry no cross-fitted validation.
-Era sensitivity is not yet assessed (`alabama-07`). 18 races lack lag context
-and are scored with the explicit missing-context encoding (`alabama-08`).
+Era sensitivity (`audits/ALABAMA_BACKCAST_SENSITIVITY_2026_09_11.md`, parity
+passed on this run): the backcast preserves rank order against a descriptive
+same-era fit on 1994–2014 Alabama (Pearson 0.91–0.96 per cycle) but not level:
+same-era residuals are lower by a mean of 20.5 points (5th–95th percentile
+−31 to −7), sign agreement 0.66, and the incumbency coefficient halves between
+the modern fit (6.2) and 1994–2006 (13.6). Read backcast WAR as a within-cycle
+ranking and a modern-relationship extrapolation, not as a level comparable to
+2018/2022. Within-cycle bootstrap SE of the expected gap: median 4.7 (1994),
+4.9 (1998), 2.4 (2002), 2.3 (2006), 1.5 (2010), 1.7 (2014). 19 races lack lag
+context and are scored with the explicit missing-context encoding (`alabama-08`);
+a no-lag specification moves them by +2.0 to +5.9 points with one sign change
+(2002 House 63).
 
 ## Baseline-sensitive districts
 
@@ -66,7 +81,7 @@ result:
 |---|---|---|
 | 2014 House 52 | 55.6 → 88.3 | federal contested coverage ≈ 0.55 in 2014; allocation re-keyed |
 | 2014 House 56 | 39.8 → 74.0 | same |
-| 2002 House 26 | −17.7 → −39.6 | Marshall County conflicting `vote_observations` sets (unadjudicated) |
+| 2002 House 26 | −17.7 → −39.6 | Marshall segment missing from the legislative total (now adjudicated; legislative margin 29.6 → 22.6) |
 
 Median absolute WAR change across all 509 races: 0.42 points. Full deltas:
 `artifacts/war/alabama_dependency_rebuild_20260910/` and

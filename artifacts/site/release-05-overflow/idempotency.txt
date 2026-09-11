@@ -1,0 +1,12 @@
+methodology.html
+  docs:      skip-link 1 header 2 len 175652
+  reapplied: skip-link 2 header 2 len 176073
+  identical: False
+cmo-methodology.html
+  docs:      skip-link 1 header 1 len 147397
+  reapplied: skip-link 2 header 1 len 147818
+  identical: False
+southern-war-methodology.html
+  docs:      skip-link 2 header 1 len 161573
+  reapplied: skip-link 3 header 1 len 161994
+  identical: False

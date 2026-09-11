@@ -1,0 +1,678 @@
+{
+  "audit": "SOURCE_COLLISION_ADJUDICATION_PACKET_2026_09_11",
+  "task_id": "WAREHOUSE-05-SOURCE-ADJUDICATION-EVIDENCE-20260911",
+  "checklist_item": "warehouse-05",
+  "generated_at_utc": "2026-09-11T15:07:59Z",
+  "mode": "read-only evidence packet; no disposition selected; no writes to warehouse/docs/published exports",
+  "warehouse": {
+    "path": "data/processed/elections/alabama_elections.sqlite",
+    "bytes": 5819064320,
+    "access": "sqlite3.connect('file:...?mode=ro', uri=True) + PRAGMA query_only=ON",
+    "writes_performed": 0,
+    "latest_analytical_run": "RUN-504CE4C4DF904D88A5A40D268F3FCEAB",
+    "published_lineage": {
+      "v3": "WAR-POST2016-V3-530FBD4238CC483E557C",
+      "historical_alabama_war_run": "AL-HIST-WAR-V1-76814789B2F7641E4255",
+      "commit": "f407b9d0"
+    }
+  },
+  "pre_repair_reference": {
+    "path": "data/processed/elections/backups/pre-source-repair-2026-09-05.sqlite",
+    "bytes": 5746839552,
+    "purpose": "state consumed by the 2026-09-02 canonical_candidates build (RUN-872E84CE49F34E46A3B71A275F9C8890)"
+  },
+  "registered_sources": [
+    {
+      "source_file_id": "SRC-9E0F7297AEB976F98688",
+      "path": "data/raw/alabama_elections_and_geography/2002-GeneralElection-PrecinctLevel_0.xls",
+      "sha256": "9400cfa16da62d303fac0115707ad3f71fc9d29a36f157ac17e0792d2a5ed45e",
+      "scope": "official_vote_counts",
+      "on_disk_hash_matches": true
+    },
+    {
+      "source_file_id": "SRC-EB647D3AA2049AD37AD6",
+      "path": "data/raw/alabama_elections_and_geography/2014General-precinctLevel.zip",
+      "sha256": "a4facea99c554d855eabe098305df4f2b73431ec57b64c1c46080abecb725e67",
+      "scope": "official_vote_counts",
+      "on_disk_hash_matches": true
+    },
+    {
+      "source_file_id": "SRC-F88A7698F08358C9E20B",
+      "path": "data/raw/openelections/20141104__al__general__precinct.csv",
+      "sha256": "a5b7ef896c78db994c0842d3f7aa9466a8d054ce7246a73e5b0ed9fcf6ec5933",
+      "scope": "identity_enrichment",
+      "on_disk_hash_matches": true
+    }
+  ],
+  "registered_2014_canvass": null,
+  "registered_canvass_availability": "Only 2018 (SRC-A3632F0E8738FDFB544D) and 2022 (SRC-DD940F20743C33261CC2) certified canvass PDFs are registered; no 2014 certified canvass exists in warehouse_source_file.",
+  "build_runs": [
+    {
+      "build_run_id": "RUN-16A85CF9DA9E4233A55619147EE1ED4C",
+      "target": "election_source_layer",
+      "started_at_utc": "2026-08-16T19:07:59Z",
+      "status": "validated",
+      "code_commit": "de9e5e59d757b4bb5d77f56c7921e2cc38bdc0b9",
+      "note": "initial pre-locator vote_observations load"
+    },
+    {
+      "build_run_id": "RUN-872E84CE49F34E46A3B71A275F9C8890",
+      "target": "canonical_candidate_identity",
+      "started_at_utc": "2026-09-02T02:51:42Z",
+      "status": "validated",
+      "code_commit": "88878b973fdac3cee95a8d8648da321e38e0021c",
+      "note": "last canonical_candidates build; predates the Marshall repair"
+    },
+    {
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "target": "source_quality_repair_2026_09_05",
+      "started_at_utc": "2026-09-05T21:25:47Z",
+      "completed_at_utc": "2026-09-05T21:34:14Z",
+      "status": "validated",
+      "code_commit": "88878b973fdac3cee95a8d8648da321e38e0021c",
+      "note": "WQA-02 reparsed 2002 MARSHALL; added locator columns"
+    }
+  ],
+  "cases": [
+    {
+      "case": "A",
+      "title": "2002 House District 26",
+      "finding": "Not a conflict: the two observation sets are complementary DeKalb and Marshall county segments of the same district-26 contest (same title, same two candidates, two sheets of one registered workbook). The canonical layer carries only the DeKalb segment (1,102/598) and omits Marshall (5,967/3,861), understating the legislative margin by 7.01 pp.",
+      "raw_cells": {
+        "source_file_id": "SRC-9E0F7297AEB976F98688",
+        "MARSHALL": [
+          {
+            "row": 68,
+            "cols": "D/E/F/G",
+            "title": "STATE HOUSE OF REPRESENTATIVES, DISTRICT 26",
+            "party": "DEM",
+            "candidate": "McDaniel, Frank",
+            "printed_total": 5967,
+            "precinct_cells": "H-BE (50)",
+            "col_note": "column C repeats the county name; precinct values start at H"
+          },
+          {
+            "row": 69,
+            "cols": "D/E/F/G",
+            "title": "STATE HOUSE OF REPRESENTATIVES, DISTRICT 26",
+            "party": "REP",
+            "candidate": "Patterson, Jeffrey",
+            "printed_total": 3861,
+            "col_note": "column C repeats the county name; precinct values start at H"
+          },
+          {
+            "row": 70,
+            "cols": "D/E/F/G",
+            "party": "WI",
+            "candidate": "WRITE-IN",
+            "printed_total": 5,
+            "col_note": "column C repeats the county name; precinct values start at H"
+          }
+        ],
+        "DEKALB": [
+          {
+            "row": 71,
+            "cols": "C/D/E/F",
+            "title": "STATE HOUSE OF REPRESENTATIVES, DISTRICT 26",
+            "party": "DEM",
+            "candidate": "McDaniel, Frank",
+            "printed_total": 1102,
+            "precinct_cells": "G-CE (77)",
+            "col_note": "offset layout: column C is the contest title"
+          },
+          {
+            "row": 72,
+            "cols": "C/D/E/F",
+            "party": "REP",
+            "candidate": "Patterson, Jeffrey",
+            "printed_total": 598,
+            "precinct_cells": "G-CE (77)"
+          },
+          {
+            "row": 73,
+            "cols": "C/D/E/F",
+            "party": "WI",
+            "candidate": "WRITE-IN",
+            "printed_total": 0,
+            "precinct_cells": "G-CE (77)"
+          }
+        ],
+        "district_total_printed": {
+          "D": 7069,
+          "R": 4459,
+          "write_in": 5
+        },
+        "sheet_scan": "state house district 26 appears on exactly 2 of 67 sheets: DEKALB and MARSHALL"
+      },
+      "stored_observations": [
+        {
+          "set": "legacy_null_source",
+          "rows": 154,
+          "rowid_range": [
+            394138,
+            394291
+          ],
+          "county_key": "DEKALB",
+          "polling": "office=State House, district=26",
+          "D": 1102,
+          "R": 598,
+          "source_file": null,
+          "source_sheet": null,
+          "source_row": null,
+          "source_column": null,
+          "source_file_id": null,
+          "build_run_id": null,
+          "authority_rank": 1,
+          "attribution_note": "no stored locators (pre-locator columns); 77 precinct keys are set-identical to the DEKALB sheet header G-CC and values match cell-for-cell; owning load RUN-16A85CF9DA9E4233A55619147EE1ED4C"
+        },
+        {
+          "set": "repaired_locator_set",
+          "rows": 100,
+          "rowid_range": [
+            2449719,
+            2449818
+          ],
+          "county_key": "MARSHALL",
+          "D": 5967,
+          "R": 3861,
+          "source_file": "2002-GeneralElection-PrecinctLevel_0.xls::MARSHALL",
+          "source_sheet": "MARSHALL",
+          "source_row": {
+            "D": 68,
+            "R": 69
+          },
+          "source_column": [
+            8,
+            57
+          ],
+          "source_file_id": "SRC-9E0F7297AEB976F98688",
+          "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+          "authority_rank": 1
+        }
+      ],
+      "canonical_layer": {
+        "rows": 2,
+        "ids": [
+          "AL-2002-house-26-D-MCDANIEL-FRANK",
+          "AL-2002-house-26-R-PATTERSON-JEFFREY"
+        ],
+        "dem_votes": 1102,
+        "rep_votes": 598,
+        "canonical_source": "alabama_sos"
+      },
+      "downstream": {
+        "canonical_cmo_features_csv": {
+          "dem_votes": 1102.0,
+          "rep_votes": 598.0,
+          "two_party_votes": 1700.0,
+          "legislative_dem_margin": 29.647059,
+          "war_eligible": true,
+          "contest_status": "contested_two_party",
+          "core_index_margin": -24.189062,
+          "core_index_offices": 2,
+          "baseline_fallback_share": 0.0510023,
+          "baseline_allocation_method": "county_population_fallback",
+          "raw_overperformance": 53.836121,
+          "model_tier": "core_1998_2022",
+          "readiness_status": "experimental_complete_context"
+        },
+        "cmo_v5_races_csv": {
+          "dem_votes": 1102.0,
+          "rep_votes": 598.0,
+          "legislative_dem_margin": 29.647059,
+          "selected_ticket_margin": -39.648808
+        },
+        "historical_war_race_war_csv": {
+          "run": "AL-HIST-WAR-V1-76814789B2F7641E4255",
+          "line": 180,
+          "dem_votes": 1102.0,
+          "rep_votes": 598.0,
+          "legislative_dem_margin": 29.647059,
+          "selected_ticket_margin": -39.648808,
+          "selected_ticket_source": "same_cycle_federal",
+          "raw_gap": 69.295867,
+          "fitted_structural_expected_gap": 12.06524,
+          "war": 57.230626,
+          "scoring_scope": "post2016_southern_model_backcast",
+          "backcast_extrapolation_years": 16
+        }
+      },
+      "effect_if_district_total_adopted": {
+        "legislative_dem_margin": {
+          "from": 29.647059,
+          "to": 22.6405,
+          "delta_pp": -7.0065
+        },
+        "raw_gap": {
+          "from": 69.295867,
+          "to": 62.2893,
+          "delta": -7.0065
+        },
+        "war": {
+          "from": 57.230626,
+          "to": 50.2241,
+          "delta": -7.0065
+        },
+        "ticket_baseline": {
+          "value": -39.648808,
+          "changes": false,
+          "reason": "same-cycle federal allocation is not a function of the legislative observation sets"
+        }
+      },
+      "options": [
+        {
+          "id": "A1",
+          "action": "Adopt the county-complement district total (7,069/4,459).",
+          "consequence": "canonical_candidates, canonical_cmo_features, cmo_v5_*, alabama_historical_war_v1 (509 races), the Alabama slice of the Southern historical WAR, docs/cmo.html and its downloads, and the release card change; rebuild and review required.",
+          "evidence_needed": "Owner instruction that printed county portions sum to district totals for multi-county legislative districts; check of other 2002 multi-county districts (HD24/HD29 also on the DeKalb sheet)."
+        },
+        {
+          "id": "A2",
+          "action": "Retain DeKalb-only canonical total; flag the known undercount.",
+          "consequence": "No numeric change; HD26 keeps a wrong legislative margin and WAR (57.23); release card must state the undercount as a limitation.",
+          "evidence_needed": "Owner acceptance of a knowingly understated race, or an explicit exclusion."
+        },
+        {
+          "id": "A3",
+          "action": "Remove HD26 from the 509-race universe as unresolved-source.",
+          "consequence": "Builder hard asserts (509 races / 1,018 candidates) and every published count change; exclusion ledger and field contract must be updated.",
+          "evidence_needed": "Owner decision to shrink the published universe plus updated contract/release decision."
+        }
+      ],
+      "not_established": [
+        "blast radius on other multi-county districts",
+        "interaction with county_population_fallback baseline method",
+        "whether other Marshall legislative rows were dropped by the same legacy parse"
+      ]
+    },
+    {
+      "case": "B",
+      "title": "2002 House District 27",
+      "finding": "HD27's omission is a SOURCE GAP, not a canonical-builder rule: the legacy 2002 adapter parsed the MARSHALL sheet with the wrong column offset, storing office='MARSHALL' and district NULL, so the rows failed the identity build's office/district filter; the identity build also predates the 2026-09-05 repair that fixed the parse.",
+      "raw_cells": {
+        "source_file_id": "SRC-9E0F7297AEB976F98688",
+        "sheet": "MARSHALL",
+        "rows": [
+          {
+            "row": 71,
+            "title": "STATE HOUSE OF REPRESENTATIVES, DISTRICT 27",
+            "party": "DEM",
+            "candidate": "McLaughlin, Jeffrey",
+            "printed_total": 7724
+          },
+          {
+            "row": 72,
+            "party": "LIB",
+            "candidate": "Driggers, Allen Eugene",
+            "printed_total": 662
+          },
+          {
+            "row": 73,
+            "party": "REP",
+            "candidate": "Hawkins, Gerald (Jerry)",
+            "printed_total": 4789
+          },
+          {
+            "row": 74,
+            "party": "WI",
+            "candidate": "WRITE-IN",
+            "printed_total": 14
+          }
+        ],
+        "sheet_scan": "state house district 27 appears on exactly 1 of 67 sheets: MARSHALL (district is Marshall-only in this source)"
+      },
+      "stored_observations": {
+        "rows": 150,
+        "rowid_range": [
+          2449819,
+          2449968
+        ],
+        "D": 7724,
+        "R": 4789,
+        "LIB": 662,
+        "source_file": "2002-GeneralElection-PrecinctLevel_0.xls::MARSHALL",
+        "source_sheet": "MARSHALL",
+        "source_row": {
+          "D": 71,
+          "LIB": 72,
+          "R": 73
+        },
+        "source_column": [
+          8,
+          57
+        ],
+        "source_file_id": "SRC-9E0F7297AEB976F98688",
+        "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+        "authority_rank": 1
+      },
+      "canonical_layer": {
+        "rows": 0,
+        "note": "2002 house canonical has 155 rows / 104 districts / 51 two-party races; district 27 absent"
+      },
+      "root_cause": {
+        "mechanism": "scripts/sos_precinct.py::_legacy_2002 at git 7ffd27e3 read title,party,candidate=row[2:5] and paired padded[header_row-1][5:] with row[6:]; correct for the DEKALB offset layout, wrong for the MARSHALL standard layout (county name taken as office, party code as candidate, summary column counted as a precinct).",
+        "pre_repair_evidence": {
+          "backup": "data/processed/elections/backups/pre-source-repair-2026-09-05.sqlite",
+          "marshall_2002_rows": 4029,
+          "all_office_value": "MARSHALL",
+          "district": null,
+          "rows_with_party_like_DISTRICT_27": 204,
+          "sum_with_summary_column_included": 26378,
+          "rows_state_house_or_senate_district_27": 0
+        },
+        "fix": "WQA-02 in RUN-40A033B9854141F6B05A76173E66D17B reparsed MARSHALL with the corrected metadata-header adapter (2,950 retained cells).",
+        "stale_identity_build": "canonical_candidate_identity RUN-872E84CE49F34E46A3B71A275F9C8890 dated 2026-09-02 predates the 2026-09-05 repair and was never rerun.",
+        "canonical_builder_filter": "vote_observations WHERE office IN ('State House','State Senate') AND district IS NOT NULL, then resolved_party IN ('D','R') - no multi-county/office-string/district-parse exclusion rule exists."
+      },
+      "options": [
+        {
+          "id": "B1",
+          "action": "Rebuild identity/canonical from the repaired warehouse.",
+          "consequence": "HD27 enters as a contested D-R race (D 7,724 / R 4,789; LIB 662 non-major-party); universe becomes 510 races / 1,020 candidate rows; hard asserts, release card, exclusion ledger, cmo_v5_*, historical export and all published counts change; model re-run and review required.",
+          "evidence_needed": "Owner authorization to expand the published race universe; decision on the LIB row."
+        },
+        {
+          "id": "B2",
+          "action": "Keep HD27 excluded; record it explicitly as a known source-covered but unmodelled race.",
+          "consequence": "No numeric change; release card/limitations and exclusion ledger gain an entry with cause and raw-cell reference; a follow-up identity rebuild is still owed.",
+          "evidence_needed": "Owner acceptance of the declared gap."
+        },
+        {
+          "id": "B3",
+          "action": "Rebuild only canonical_candidates + canonical_cmo_features, leaving cmo_v5/WAR at 509.",
+          "consequence": "The features export would contain HD27 while cmo_v5_races does not; the divergence must be documented or the chain re-run in order.",
+          "evidence_needed": "Confirmation that no consumer treats a features row as universe membership."
+        }
+      ],
+      "not_established": [
+        "none material to the mechanism; only the owner's universe decision remains"
+      ]
+    },
+    {
+      "case": "C",
+      "title": "2014 House 31, House 66, Senate 30",
+      "finding": "The corrupted party labels are provider-printed source defects ('Holmes (D)' Elmore, 'Baker (D)' Escambia, 'Chambliss, Jr. (D)' Coosa) compounded by a legacy x2 duplication in vote_observations; the canonical layer equals the sum of distinct SOS precinct cells (10,944 / 7,079 / 22,916) and the three races are unopposed-Republican, excluded from the 509-race universe.",
+      "raw_cells": {
+        "source_file_id": "SRC-EB647D3AA2049AD37AD6",
+        "HD31": [
+          {
+            "member": "Elmore 2014 General Precinct.xlsx",
+            "sheet": "Sheet1",
+            "office_cell": "r1cU",
+            "label_cell": "r2cU",
+            "label": "Holmes (D)",
+            "value_rows": "3-32",
+            "distinct_cells": 27,
+            "distinct_sum": 10766,
+            "printed_totals_rows": "33/34 = 10766 / 10766"
+          },
+          {
+            "member": "2014-General-Autauga.xlsx",
+            "sheet": "Precinct Results",
+            "row": 101,
+            "cols": "A/B/C",
+            "label": "REP / Mike Holmes",
+            "distinct_cells": 3,
+            "distinct_sum": 178
+          }
+        ],
+        "HD66": [
+          {
+            "member": "Escambia 2014 General Precinct.xlsx",
+            "sheet": "Sheet1",
+            "office_cell": "r1cS",
+            "label_cell": "r2cS",
+            "label": "Baker (D)",
+            "distinct_cells": 23,
+            "distinct_sum": 4862,
+            "printed_totals_rows": "34/35 = 4862 / 5293 (internally inconsistent)"
+          },
+          {
+            "member": "2014-General-Baldwin.xlsx",
+            "sheet": "Precinct Results",
+            "row": 142,
+            "label": "REP / Alan Baker",
+            "distinct_cells": 15,
+            "distinct_sum": 2217
+          }
+        ],
+        "SD30": [
+          {
+            "member": "Elmore 2014 General Precinct.xlsx",
+            "sheet": "Sheet1",
+            "office_cell": "r1cR",
+            "label_cell": "r2cR",
+            "label": "Chambliss, Jr. (R )",
+            "distinct_cells": 21,
+            "distinct_sum": 8050
+          },
+          {
+            "member": "Chilton 2014 General Precinct.xlsx",
+            "sheet": "Sheet1",
+            "office_cell": "r1cR",
+            "label_cell": "r2cR",
+            "label": "Chambliss Jr. (R )",
+            "distinct_cells": 8,
+            "distinct_sum": 2444
+          },
+          {
+            "member": "Coosa 2014 General Precinct.xlsx",
+            "sheet": "Sheet1",
+            "office_cell": "r1cP",
+            "label_cell": "r2cP",
+            "label": "Chambliss, Jr. (D)",
+            "distinct_cells": 14,
+            "distinct_sum": 2020
+          },
+          {
+            "member": "2014-General-Autauga.xlsx",
+            "sheet": "Precinct Results",
+            "row": 120,
+            "label": "REP / Clyde Chambliss, Jr.",
+            "distinct_cells": 20,
+            "distinct_sum": 9639
+          },
+          {
+            "member": "2014-General-Tallapoosa.xlsx",
+            "sheet": "Precinct Results",
+            "row": 134,
+            "label": "REP / Clyde Chambliss, Jr.",
+            "distinct_cells": 8,
+            "distinct_sum": 763
+          }
+        ]
+      },
+      "stored_observations": {
+        "locators": "all NULL (source_file, source_sheet, source_row, source_column, source_file_id, build_run_id)",
+        "duplication": "every candidate block stored twice (two identical rows per precinct); each stored total is 2x the raw precinct cells",
+        "groups": [
+          {
+            "contest": "HD31",
+            "candidate_key": "HOLMES",
+            "party_norm": "D",
+            "county_key": "ELMORE",
+            "rows": 54,
+            "votes": 21532,
+            "raw": 10766
+          },
+          {
+            "contest": "HD31",
+            "candidate_key": "MIKE HOLMES",
+            "party_norm": "R",
+            "county_key": "AUTAUGA",
+            "rows": 6,
+            "votes": 356,
+            "raw": 178
+          },
+          {
+            "contest": "HD66",
+            "candidate_key": "BAKER",
+            "party_norm": "D",
+            "county_key": "ESCAMBIA",
+            "rows": 46,
+            "votes": 9724,
+            "raw": 4862
+          },
+          {
+            "contest": "HD66",
+            "candidate_key": "ALAN BAKER",
+            "party_norm": "R",
+            "county_key": "BALDWIN",
+            "rows": 30,
+            "votes": 4434,
+            "raw": 2217
+          },
+          {
+            "contest": "SD30",
+            "candidate_key": "CHAMBLISS JR",
+            "party_norm": "R",
+            "county_key": "ELMORE",
+            "rows": 42,
+            "votes": 16100,
+            "raw": 8050
+          },
+          {
+            "contest": "SD30",
+            "candidate_key": "CHAMBLISS JR",
+            "party_norm": "R",
+            "county_key": "CHILTON",
+            "rows": 16,
+            "votes": 4888,
+            "raw": 2444
+          },
+          {
+            "contest": "SD30",
+            "candidate_key": "CHAMBLISS JR",
+            "party_norm": "D",
+            "county_key": "COOSA",
+            "rows": 28,
+            "votes": 4040,
+            "raw": 2020
+          },
+          {
+            "contest": "SD30",
+            "candidate_key": "CLYDE CHAMBLISS JR",
+            "party_norm": "R",
+            "county_key": "AUTAUGA",
+            "rows": 40,
+            "votes": 19278,
+            "raw": 9639
+          },
+          {
+            "contest": "SD30",
+            "candidate_key": "CLYDE CHAMBLISS JR",
+            "party_norm": "R",
+            "county_key": "TALLAPOOSA",
+            "rows": 16,
+            "votes": 1526,
+            "raw": 763
+          },
+          {
+            "contest": "SD30",
+            "candidate_key": "BRYAN MORGAN/MORGAN/MORGAN IND",
+            "party_norm": "O",
+            "note": "independent; also duplicated; MORGAN and MORGAN IND both carry the same 2,326/806/349 columns"
+          }
+        ]
+      },
+      "parser_path": "matrix counties (Elmore/Escambia/Chilton/Coosa): normalize_workbook -> _county_matrix_sheets (scripts/sos_precinct.py:149-173), party = re.search(r\"\\(([DR])\\s*\\)\", candidate_label); wide counties (Autauga/Baldwin/Tallapoosa): _wide_sheet (lines 132-146) reads the printed Party column. Both reproduce the printed labels; the (D) labels are in the source workbooks.",
+      "canonical_layer": [
+        {
+          "contest": "2014 house 31",
+          "party": "R",
+          "name": "Mike Holmes",
+          "votes": 10944,
+          "id": "AL-2014-house-31-R-MIKE-HOLMES",
+          "canonical_source": "official_consolidated_candidate_results"
+        },
+        {
+          "contest": "2014 house 66",
+          "party": "R",
+          "name": "Alan Baker",
+          "votes": 7079,
+          "id": "AL-2014-house-66-R-ALAN-BAKER",
+          "canonical_source": "official_consolidated_candidate_results"
+        },
+        {
+          "contest": "2014 senate 30",
+          "party": "R",
+          "name": "Clyde Chambliss, Jr.",
+          "votes": 22916,
+          "id": "AL-2014-senate-30-R-CLYDE-CHAMBLISS-JR",
+          "canonical_source": "official_consolidated_candidate_results"
+        }
+      ],
+      "official_consolidation_path": "data/processed/war/race_candidate_results.csv (196 rows for 2014) produced by scripts/build_war_database.py::race_tables (single-token surname fragments reattached to the full-name record's candidate/party) + oe_normalize.load_oe (drops county summary rows).",
+      "verification": "canonical totals equal the sum of distinct raw precinct cells of the registered 2014 SOS zip exactly: HD31 10,766+178=10,944; HD66 4,862+2,217=7,079; SD30 8,050+2,444+2,020+9,639+763=22,916. No 2014 certified canvass is registered.",
+      "downstream": {
+        "canonical_cmo_features_csv": [
+          {
+            "contest": "2014 house 31",
+            "dem_votes": 0.0,
+            "rep_votes": 10944.0,
+            "contest_status": "unopposed_republican",
+            "war_eligible": false,
+            "legislative_dem_margin": -100.0,
+            "core_index_margin": -47.207572
+          },
+          {
+            "contest": "2014 house 66",
+            "dem_votes": 0.0,
+            "rep_votes": 7079.0,
+            "contest_status": "unopposed_republican",
+            "war_eligible": false,
+            "legislative_dem_margin": -100.0,
+            "core_index_margin": -53.082217
+          },
+          {
+            "contest": "2014 senate 30",
+            "dem_votes": 0.0,
+            "rep_votes": 22916.0,
+            "contest_status": "unopposed_republican",
+            "war_eligible": false,
+            "legislative_dem_margin": -100.0,
+            "core_index_margin": -31.313829
+          }
+        ],
+        "historical_war": "no race_war.csv row; excluded from the 509-race universe (cmo_v5_races 2014 omits house 31, house 66, senate 30)"
+      },
+      "options": [
+        {
+          "id": "C1",
+          "action": "Leave canonical and the WAR universe unchanged; record the vote_observations defect as a preservation note.",
+          "consequence": "No numeric change; precinct-level consumers and future identity builds must be warned that these contests carry mislabelled and duplicated rows.",
+          "evidence_needed": "Decision that the legacy duplication is a preservation artifact; documented consumer warning."
+        },
+        {
+          "id": "C2",
+          "action": "Repair the legacy 2014 rows (deduplicate blocks; correct the three (D) labels to R per the official record).",
+          "consequence": "vote_observations 2014 row counts drop and the source layer no longer mirrors the raw workbook verbatim; an auditable adjudication with before-image, reviewer status and build run is required; qa_vote_observation_quality changes.",
+          "evidence_needed": "A scoped census of the 2014 duplication beyond these three races; authority decision (provider label vs official consolidated); confirmation no in-universe race is affected."
+        },
+        {
+          "id": "C3",
+          "action": "Quarantine the three contests from precinct-level allocation until the duplication is resolved.",
+          "consequence": "Any 2014 precinct-level allocation touching HD31/HD66/SD30 must refuse or flag; no WAR change.",
+          "evidence_needed": "Trace of every 2014 precinct-level consumer and whether it touches these districts."
+        }
+      ],
+      "not_established": [
+        "exact x2 duplication mechanism",
+        "whether other 2014 contests are duplicated (almost certainly, pattern is per-block)",
+        "whether the printed (D) labels reflect an error or a real cross-filing",
+        "whether Escambia REPORTED TOTALS 5,293 contains a legitimate correction"
+      ]
+    }
+  ],
+  "not_established_packet_level": [
+    "No owner disposition selected; no change authorized.",
+    "Full blast radius of the 2002 Marshall parse defect on other legislative districts not enumerated.",
+    "Full blast radius of the 2014 legacy duplication across all contests not enumerated.",
+    "2014 HD66 Escambia CALCULATED vs REPORTED contradiction not adjudicated.",
+    "Canonical/official-consolidated 2014 figures not certified by a 2014 canvass (none registered).",
+    "warehouse-08 provenance limits: most vote_observations rows carry no physical locators (2002: 2,950 of 180,723; 2014: 11,059 of 184,714).",
+    "No downstream rebuild, model re-run, publication or release gate touched."
+  ],
+  "query_log_note": "See the companion .md for the exact SQL used; all statements were SELECT under a query_only read-only connection.",
+  "companion_markdown": "project_docs/audits/SOURCE_COLLISION_ADJUDICATION_PACKET_2026_09_11.md"
+}

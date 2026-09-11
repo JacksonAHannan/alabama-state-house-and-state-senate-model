@@ -19,7 +19,7 @@ def test_direct_cmo_is_unchanged_and_prior_excludes_alabama():
     new = load("cmo_v6_southern_races.csv")
     joined = old[KEYS + ["direct_cmo"]].merge(
         new[KEYS + ["direct_cmo"]], on=KEYS, suffixes=("_v5", "_v6"), validate="one_to_one")
-    assert len(joined) == len(old) == len(new) == 509
+    assert len(joined) == len(old) == len(new) == 510
     np.testing.assert_allclose(joined.direct_cmo_v5, joined.direct_cmo_v6, atol=1e-12)
     manifest = json.loads((WAR / "cmo_v6_southern_manifest.json").read_text(encoding="utf-8"))
     assert manifest["southern_training_excludes_alabama"] is True

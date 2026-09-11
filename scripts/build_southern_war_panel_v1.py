@@ -2531,7 +2531,8 @@ def build() -> dict[str, int]:
     assert not panel.duplicated(KEYS).any(), "Selected panel race keys are not unique"
     al = panel[panel.state.eq("AL") & panel.strict_war_eligible]
     assert sorted(al.year.unique().tolist()) == [1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022]
-    assert len(al) == 509, f"Expected 509 canonical Alabama WAR races, got {len(al)}"
+    # 510 after the 2002 Marshall canonical repair (RUN-DFB1D093D7594AB68A264292050E924D) added House 27.
+    assert len(al) == 510, f"Expected 510 canonical Alabama WAR races, got {len(al)}"
     assert panel.loc[panel.strict_war_eligible, ["dem_votes", "rep_votes", "baseline_dem_margin", "incumbency_balance"]].notna().all().all()
     return manifest["row_counts"]
 

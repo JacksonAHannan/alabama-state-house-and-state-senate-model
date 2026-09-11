@@ -2,7 +2,7 @@
   "schema_version": 2,
   "status": "validated_historical_decomposition",
   "methodology_version": "cmo_v6_southern_prior",
-  "source_commit": "a4b635411e60c9ad7c0d26816cbcabad97892471",
+  "source_commit": "38c30819f3524c3d97cb7a1bfa4fb6ec00e8f249",
   "selected_structural_model": "portable_temporal",
   "southern_training_excludes_alabama": true,
   "direct_cmo_definition": "candidate-oriented legislative margin minus selected same-cycle ticket margin",
@@ -20,11 +20,11 @@
     },
     {
       "path": "data/processed/war/cmo_v5_races.csv",
-      "sha256": "a8745953791aae048aa83cf013668165cd6e7968ef712c0d9a21d82429504024"
+      "sha256": "c06fea12f57718fca167a1a20fce472d710783ba7a64796d0b0547106b603740"
     },
     {
       "path": "data/processed/war/cmo_v5_candidates.csv",
-      "sha256": "be5ce11349ba84bcb1a54e04c40e9520f6ecfdf9e9803c82eff5863f14be500c"
+      "sha256": "afca6b9ac06f02c2e0aa54a0ef4404c20c14499a39adafcef062ebfeaa6d9810"
     }
   ],
   "code_inputs": [
@@ -44,29 +44,29 @@
   "outputs": [
     {
       "path": "data/processed/war/cmo_v6_southern_races.csv",
-      "rows": 509,
-      "sha256": "f32c79202c714e41478c85632fca8ae75311944f6e7204e97167e59604088774"
+      "rows": 510,
+      "sha256": "802b6952eeb033bbdf19f075a003dff4ee63c8d87ca7da07a5fd4d34add27c0e"
     },
     {
       "path": "data/processed/war/cmo_v6_southern_candidates.csv",
-      "rows": 1018,
-      "sha256": "4c064beab218b155bec02b7b2c7b1d2a186a5f1cda3817d303b618fc4f79b2e6"
+      "rows": 1020,
+      "sha256": "5ad60e94c6730f227ba6faa180bbc21d3e2fd1ee4a4bc525714d91194fc5bcdd"
     },
     {
       "path": "data/processed/war/cmo_v6_southern_quality.csv",
-      "rows": 889,
-      "sha256": "c253dae4323f30862168f71bb0a16812d87ef2915fbb1b61f440bd1211cd8ce5"
+      "rows": 891,
+      "sha256": "00b528d4cb4377ae0fd57ddff362ccf1d395479d8cfeef0d1645f0a44d07f88b"
     },
     {
       "path": "data/processed/war/cmo_v6_southern_validation.csv",
       "rows": 24,
-      "sha256": "8cc8b479a5a2fdfa6348420b492e1f390fccd2fe75bfcae516ce3e847565d380"
+      "sha256": "a0afc7819c0906657a7e84a512395f45cd8e5870f5c5c0f05d913429cf2bd0b3"
     },
     {
       "path": "data/processed/war/cmo_v6_southern_case_studies.csv",
       "rows": 6,
-      "sha256": "144727eacc591d7bf2be3f5468d9f365dc77dfd8182a357487a3de16edce4183"
+      "sha256": "476fe313b60ed7da58adfba1e5f823ea3357b114afa714916090fa03f7decd19"
     }
   ],
-  "build_id": "6ba2f92802a18308c2a0"
+  "build_id": "054a749113935e719e8a"
 }

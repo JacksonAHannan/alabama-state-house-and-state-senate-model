@@ -41,6 +41,9 @@ AUDIT_REPORT = ROOT / "project_docs/audits/ALABAMA_HISTORICAL_WAR_V1_VALIDATION.
 OUT = WAR / "alabama_historical_war_v1"
 
 RACE_KEYS = ["cycle", "chamber", "district"]
+# Contested D-versus-R general races 1994-2022 after the 2002 Marshall canonical
+# repair (RUN-DFB1D093D7594AB68A264292050E924D): 509 + House 27 (2002).
+EXPECTED_RACES = 510
 ALPHA = 100.0
 SPECIFICATION = "decaying_lag"
 COMMITTEE_PATTERN = re.compile(
@@ -94,7 +97,7 @@ def prepare_historical_races() -> pd.DataFrame:
     if races.duplicated(RACE_KEYS).any() or context.duplicated(RACE_KEYS).any():
         raise ValueError("Historical race/context keys are not unique")
     races = races.merge(context, on=RACE_KEYS, how="left", validate="one_to_one")
-    if len(races) != 509 or races[RACE_KEYS].isna().any().any():
+    if len(races) != EXPECTED_RACES or races[RACE_KEYS].isna().any().any():
         raise ValueError("Historical Alabama race coverage changed")
     if races[["dem_incumbent", "rep_incumbent"]].isna().any().any():
         raise ValueError("Historical backcast requires explicit incumbency")
@@ -214,7 +217,7 @@ def apply_published_modern_scores(races: pd.DataFrame) -> pd.DataFrame:
 
 def build_candidate_rows(races: pd.DataFrame) -> pd.DataFrame:
     candidates = pd.read_csv(HISTORICAL_CANDIDATES, low_memory=False)
-    if candidates.duplicated(RACE_KEYS + ["canonical_party"]).any() or len(candidates) != 1018:
+    if candidates.duplicated(RACE_KEYS + ["canonical_party"]).any() or len(candidates) != 2 * EXPECTED_RACES:
         raise ValueError("Historical candidate grain changed")
     race_fields = races[RACE_KEYS + [
         "raw_gap", "fitted_structural_expected_gap",

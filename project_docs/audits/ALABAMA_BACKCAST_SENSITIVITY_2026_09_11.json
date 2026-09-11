@@ -1,0 +1,757 @@
+{
+  "audit": "alabama_historical_backcast_era_sensitivity_and_missing_lag",
+  "audit_id": "ALABAMA_BACKCAST_SENSITIVITY_2026_09_11",
+  "bootstrap": {
+    "draws": 200,
+    "mean_war_party_draw_agreement": 0.9612257281553398,
+    "median_expected_gap_se": 2.608171709524932,
+    "median_expected_gap_se_by_cycle": {
+      "1994": 4.6845396091999145,
+      "1998": 4.874725586926718,
+      "2002": 2.429960622394576,
+      "2006": 2.2513088662641345,
+      "2010": 1.4846440551460178,
+      "2014": 1.731826856113587
+    },
+    "resampling": "training races resampled with replacement within each modern training cycle, refit on the published specification and alpha, scoring every backcast race",
+    "seed": 20260911,
+    "share_war_interval_excludes_zero": 0.8519417475728155,
+    "share_war_interval_excludes_zero_by_cycle": {
+      "1994": 0.6944444444444444,
+      "1998": 0.8941176470588236,
+      "2002": 0.7702702702702703,
+      "2006": 0.9516129032258065,
+      "2010": 0.9206349206349206,
+      "2014": 0.9107142857142857
+    },
+    "share_war_party_stable_all_draws": 0.7742718446601942
+  },
+  "checklist_items": [
+    "alabama-07",
+    "alabama-08"
+  ],
+  "configuration": {
+    "alpha": 100.0,
+    "bootstrap_draws": 200,
+    "bootstrap_seed": 20260911,
+    "era_windows": {
+      "1994_2006": [
+        1994,
+        1998,
+        2002,
+        2006
+      ],
+      "2010_2014": [
+        2010,
+        2014
+      ]
+    },
+    "even_tolerance": 1e-12,
+    "no_lag_specification": "fundamentals_no_lag",
+    "parity_tolerance": 1e-08,
+    "specification": "decaying_lag"
+  },
+  "era_leaveout": {
+    "coefficient_notes": [
+      "era_drift is the 2010-2014 fit minus the 1994-2006 fit on the same feature space",
+      "complementary dummy pairs carry mirrored coefficients; each pair is one degree of freedom",
+      "features constant inside an era window are not identified there and carry a zero coefficient"
+    ],
+    "directions": [
+      {
+        "alternative_mae": 17.83807311513966,
+        "backcast_mean_war": 12.700436460773357,
+        "fit_era": "1994_2006",
+        "fit_races": 293,
+        "headline_mae": 18.798242163853757,
+        "mae": 26.12963111298537,
+        "max_abs_diff": 37.164158948811945,
+        "max_diff": 1.4672709659953718,
+        "mean_diff": -26.090581875126954,
+        "median_diff": -26.69813507830805,
+        "min_diff": -37.164158948811945,
+        "n": 119,
+        "out_of_era_mean_war": -13.390145414353594,
+        "p05_diff": -34.83601400041308,
+        "p95_diff": -17.23008638884372,
+        "pearson": 0.9273733697779953,
+        "score_era": "2010_2014",
+        "sd_diff": 7.218020903582763,
+        "sign_change_share": 0.5714285714285714,
+        "spearman": 0.9211508332146421
+      },
+      {
+        "alternative_mae": 20.760053391473875,
+        "backcast_mean_war": 23.604672444394485,
+        "fit_era": "2010_2014",
+        "fit_races": 119,
+        "headline_mae": 26.97682607820778,
+        "mae": 25.29980258664646,
+        "max_abs_diff": 80.84308475198989,
+        "max_diff": 63.32560065528794,
+        "mean_diff": -22.66599134816247,
+        "median_diff": -20.889967901973286,
+        "min_diff": -80.84308475198989,
+        "n": 293,
+        "out_of_era_mean_war": 0.938681096232006,
+        "p05_diff": -55.487789726406575,
+        "p95_diff": 5.972161023663515,
+        "pearson": 0.7279191693646387,
+        "score_era": "1994_2006",
+        "sd_diff": 19.296257533835515,
+        "sign_change_share": 0.32764505119453924,
+        "spearman": 0.7351375540164171
+      }
+    ],
+    "largest_structural_era_coefficient_drifts": [
+      {
+        "coefficient_historical_1994_2006": 13.555896520585817,
+        "coefficient_historical_2010_2014": 6.603282193468723,
+        "coefficient_historical_pooled_1994_2014": 13.892805588746914,
+        "coefficient_modern_backcast": 6.161263239424764,
+        "era_drift": -6.952614327117094,
+        "feature": "incumbency_balance"
+      },
+      {
+        "coefficient_historical_1994_2006": -0.5952398963539234,
+        "coefficient_historical_2010_2014": 0.8481927595786823,
+        "coefficient_historical_pooled_1994_2014": 0.2881185197674633,
+        "coefficient_modern_backcast": -3.2519517331055554,
+        "era_drift": 1.4434326559326056,
+        "feature": "baseline_office_family_state_composite"
+      },
+      {
+        "coefficient_historical_1994_2006": 0.5952398963539179,
+        "coefficient_historical_2010_2014": -0.8481927595786827,
+        "coefficient_historical_pooled_1994_2014": -0.28811851976744624,
+        "coefficient_modern_backcast": -0.29285407186350254,
+        "era_drift": -1.4434326559326007,
+        "feature": "baseline_office_family_federal_composite"
+      },
+      {
+        "coefficient_historical_1994_2006": 0.31356132471980547,
+        "coefficient_historical_2010_2014": -0.7234858384022851,
+        "coefficient_historical_pooled_1994_2014": -0.339371012031113,
+        "coefficient_modern_backcast": 0.13390100346120604,
+        "era_drift": -1.0370471631220906,
+        "feature": "years_since_2016"
+      },
+      {
+        "coefficient_historical_1994_2006": -0.07780738655178468,
+        "coefficient_historical_2010_2014": -0.43093952295385257,
+        "coefficient_historical_pooled_1994_2014": 0.032847677098223046,
+        "coefficient_modern_backcast": 0.12342398528662853,
+        "era_drift": -0.35313213640206786,
+        "feature": "chamber_upper"
+      }
+    ]
+  },
+  "era_transportability": {
+    "all_cycles": {
+      "alternative_mae": 15.829530425918854,
+      "backcast_mean_war": 20.45514797339712,
+      "cycle": "all",
+      "fit_scope": "pooled_1994_2014",
+      "headline_mae": 24.614565190323972,
+      "mae": 20.69336951536946,
+      "max_abs_diff": 33.149269659155124,
+      "max_diff": 20.141293084218624,
+      "mean_diff": -20.45514797339712,
+      "median_diff": -21.657251196050296,
+      "min_diff": -33.149269659155124,
+      "n": 412,
+      "p05_diff": -31.346671856545402,
+      "p95_diff": -7.4267143386844205,
+      "pearson": 0.9386419530022672,
+      "same_era_mean_war": -2.6214198018333793e-15,
+      "sd_diff": 8.023691475356905,
+      "sign_change_share": 0.33980582524271846,
+      "spearman": 0.9362318099509545
+    },
+    "by_cycle": [
+      {
+        "alternative_mae": 17.850368696573828,
+        "backcast_mean_war": 18.54289304930154,
+        "cycle": "1994",
+        "fit_scope": "pooled_1994_2014",
+        "headline_mae": 23.15645707920433,
+        "mae": 21.122901881377114,
+        "max_abs_diff": 30.52941536413867,
+        "max_diff": 2.3483968784499183,
+        "mean_diff": -21.057668634753504,
+        "median_diff": -23.36439792715467,
+        "min_diff": -30.52941536413867,
+        "n": 72,
+        "p05_diff": -29.388296953699133,
+        "p95_diff": -6.130732215092822,
+        "pearson": 0.9453112932667437,
+        "same_era_mean_war": -2.5147755854519662,
+        "sd_diff": 7.812211547819685,
+        "sign_change_share": 0.3194444444444444,
+        "spearman": 0.9344652389221174
+      },
+      {
+        "alternative_mae": 14.674537745672195,
+        "backcast_mean_war": 27.90644459156157,
+        "cycle": "1998",
+        "fit_scope": "pooled_1994_2014",
+        "headline_mae": 29.116821605697837,
+        "mae": 24.727948869803992,
+        "max_abs_diff": 33.149269659155124,
+        "max_diff": -6.508449220828005,
+        "mean_diff": -24.727948869803992,
+        "median_diff": -25.052572153227093,
+        "min_diff": -33.149269659155124,
+        "n": 85,
+        "p05_diff": -32.85169565237743,
+        "p95_diff": -15.057125239535884,
+        "pearson": 0.9425633781624548,
+        "same_era_mean_war": 3.1784957217575687,
+        "sd_diff": 6.358963510068106,
+        "sign_change_share": 0.32941176470588235,
+        "spearman": 0.9431307406683603
+      },
+      {
+        "alternative_mae": 16.283803411102124,
+        "backcast_mean_war": 16.77147741744461,
+        "cycle": "2002",
+        "fit_scope": "pooled_1994_2014",
+        "headline_mae": 22.17507217221173,
+        "mae": 20.64691392155403,
+        "max_abs_diff": 30.891594495974857,
+        "max_diff": -5.142172068610247,
+        "mean_diff": -20.64691392155403,
+        "median_diff": -20.68056194507769,
+        "min_diff": -30.891594495974857,
+        "n": 74,
+        "p05_diff": -30.33710886760043,
+        "p95_diff": -8.735038353800235,
+        "pearson": 0.9635519976864293,
+        "same_era_mean_war": -3.875436504109419,
+        "sd_diff": 6.908787564703948,
+        "sign_change_share": 0.3108108108108108,
+        "spearman": 0.9579118844872268
+      },
+      {
+        "alternative_mae": 17.131101052096174,
+        "backcast_mean_war": 31.741025927165126,
+        "cycle": "2006",
+        "fit_scope": "pooled_1994_2014",
+        "headline_mae": 34.21064441909975,
+        "mae": 21.63131693065531,
+        "max_abs_diff": 31.31290175453573,
+        "max_diff": 20.141293084218624,
+        "mean_diff": -20.981597798906325,
+        "median_diff": -21.72591042802111,
+        "min_diff": -31.31290175453573,
+        "n": 62,
+        "p05_diff": -30.182585983372352,
+        "p95_diff": -11.969019231871913,
+        "pearson": 0.953445677001778,
+        "same_era_mean_war": 10.759428128258811,
+        "sd_diff": 8.81411623997217,
+        "sign_change_share": 0.3064516129032258,
+        "spearman": 0.9408224421444941
+      },
+      {
+        "alternative_mae": 14.537562515037937,
+        "backcast_mean_war": 14.55835302760777,
+        "cycle": "2010",
+        "fit_scope": "pooled_1994_2014",
+        "headline_mae": 20.128069820154167,
+        "mae": 18.83886011659828,
+        "max_abs_diff": 26.466997298867973,
+        "max_diff": -4.054983926514442,
+        "mean_diff": -18.83886011659828,
+        "median_diff": -18.44264425904966,
+        "min_diff": -26.466997298867973,
+        "n": 63,
+        "p05_diff": -26.22241692701181,
+        "p95_diff": -7.487926180776009,
+        "pearson": 0.9341037802725938,
+        "same_era_mean_war": -4.28050708899051,
+        "sd_diff": 6.852675281496762,
+        "sign_change_share": 0.42857142857142855,
+        "spearman": 0.9206989247311829
+      },
+      {
+        "alternative_mae": 14.39657365793225,
+        "backcast_mean_war": 10.610280323084643,
+        "cycle": "2014",
+        "fit_scope": "pooled_1994_2014",
+        "headline_mae": 17.302186050515783,
+        "mae": 15.12646756604299,
+        "max_abs_diff": 27.914656405593316,
+        "max_diff": 13.352135963972767,
+        "mean_diff": -14.17704086305607,
+        "median_diff": -12.61362595651558,
+        "min_diff": -27.914656405593316,
+        "n": 56,
+        "p05_diff": -26.683416248477652,
+        "p95_diff": -4.661508818930742,
+        "pearson": 0.9082231262644089,
+        "same_era_mean_war": -3.5667605399714266,
+        "sd_diff": 8.119174393907398,
+        "sign_change_share": 0.35714285714285715,
+        "spearman": 0.9107313738892687
+      }
+    ],
+    "fit_scope": "pooled_1994_2014_same_era_descriptive_fit"
+  },
+  "expected_historical_war_run_id": "AL-HIST-WAR-V1-76814789B2F7641E4255",
+  "generated_at_utc": "2026-09-11T15:07:08.095186+00:00",
+  "git_commit": "38c30819f3524c3d97cb7a1bfa4fb6ec00e8f249",
+  "headline": {
+    "bootstrap_median_expected_gap_se_by_cycle": {
+      "1994": 4.6845396091999145,
+      "1998": 4.874725586926718,
+      "2002": 2.429960622394576,
+      "2006": 2.2513088662641345,
+      "2010": 1.4846440551460178,
+      "2014": 1.731826856113587
+    },
+    "era_transportability_by_cycle": {
+      "1994": {
+        "mae": 21.122901881377114,
+        "mean_diff": -21.057668634753504,
+        "n": 72,
+        "pearson": 0.9453112932667437,
+        "sign_agreement_share": 0.6805555555555556,
+        "spearman": 0.9344652389221174
+      },
+      "1998": {
+        "mae": 24.727948869803992,
+        "mean_diff": -24.727948869803992,
+        "n": 85,
+        "pearson": 0.9425633781624548,
+        "sign_agreement_share": 0.6705882352941177,
+        "spearman": 0.9431307406683603
+      },
+      "2002": {
+        "mae": 20.64691392155403,
+        "mean_diff": -20.64691392155403,
+        "n": 74,
+        "pearson": 0.9635519976864293,
+        "sign_agreement_share": 0.6891891891891893,
+        "spearman": 0.9579118844872268
+      },
+      "2006": {
+        "mae": 21.63131693065531,
+        "mean_diff": -20.981597798906325,
+        "n": 62,
+        "pearson": 0.953445677001778,
+        "sign_agreement_share": 0.6935483870967742,
+        "spearman": 0.9408224421444941
+      },
+      "2010": {
+        "mae": 18.83886011659828,
+        "mean_diff": -18.83886011659828,
+        "n": 63,
+        "pearson": 0.9341037802725938,
+        "sign_agreement_share": 0.5714285714285714,
+        "spearman": 0.9206989247311829
+      },
+      "2014": {
+        "mae": 15.12646756604299,
+        "mean_diff": -14.17704086305607,
+        "n": 56,
+        "pearson": 0.9082231262644089,
+        "sign_agreement_share": 0.6428571428571428,
+        "spearman": 0.9107313738892687
+      }
+    },
+    "era_transportability_overall": {
+      "mae": 20.69336951536946,
+      "mean_diff": -20.45514797339712,
+      "median_diff": -21.657251196050296,
+      "n": 412,
+      "p05_diff": -31.346671856545402,
+      "p95_diff": -7.4267143386844205,
+      "pearson": 0.9386419530022672,
+      "sign_agreement_share": 0.6601941747572815,
+      "spearman": 0.9362318099509545
+    },
+    "largest_structural_era_coefficient_drifts": [
+      {
+        "coefficient_historical_1994_2006": 13.555896520585817,
+        "coefficient_historical_2010_2014": 6.603282193468723,
+        "coefficient_historical_pooled_1994_2014": 13.892805588746914,
+        "coefficient_modern_backcast": 6.161263239424764,
+        "era_drift": -6.952614327117094,
+        "feature": "incumbency_balance"
+      },
+      {
+        "coefficient_historical_1994_2006": -0.5952398963539234,
+        "coefficient_historical_2010_2014": 0.8481927595786823,
+        "coefficient_historical_pooled_1994_2014": 0.2881185197674633,
+        "coefficient_modern_backcast": -3.2519517331055554,
+        "era_drift": 1.4434326559326056,
+        "feature": "baseline_office_family_state_composite"
+      },
+      {
+        "coefficient_historical_1994_2006": 0.5952398963539179,
+        "coefficient_historical_2010_2014": -0.8481927595786827,
+        "coefficient_historical_pooled_1994_2014": -0.28811851976744624,
+        "coefficient_modern_backcast": -0.29285407186350254,
+        "era_drift": -1.4434326559326007,
+        "feature": "baseline_office_family_federal_composite"
+      },
+      {
+        "coefficient_historical_1994_2006": 0.31356132471980547,
+        "coefficient_historical_2010_2014": -0.7234858384022851,
+        "coefficient_historical_pooled_1994_2014": -0.339371012031113,
+        "coefficient_modern_backcast": 0.13390100346120604,
+        "era_drift": -1.0370471631220906,
+        "feature": "years_since_2016"
+      },
+      {
+        "coefficient_historical_1994_2006": -0.07780738655178468,
+        "coefficient_historical_2010_2014": -0.43093952295385257,
+        "coefficient_historical_pooled_1994_2014": 0.032847677098223046,
+        "coefficient_modern_backcast": 0.12342398528662853,
+        "era_drift": -0.35313213640206786,
+        "feature": "chamber_upper"
+      }
+    ],
+    "leave_one_era_out": {
+      "1994_2006->2010_2014": {
+        "mae": 26.12963111298537,
+        "n": 119,
+        "pearson": 0.9273733697779953,
+        "sign_agreement_share": 0.4285714285714286
+      },
+      "2010_2014->1994_2006": {
+        "mae": 25.29980258664646,
+        "n": 293,
+        "pearson": 0.7279191693646387,
+        "sign_agreement_share": 0.6723549488054608
+      }
+    },
+    "missing_lag": {
+      "lag_available_fit": {
+        "max_abs_diff": 17.186933014783058,
+        "max_diff": -0.045407443937351744,
+        "mean_diff": -9.11695159669993,
+        "median_diff": -9.038467835550476,
+        "min_diff": -17.186933014783058,
+        "n": 18,
+        "sign_change_races": [
+          {
+            "chamber": "lower",
+            "cycle": 1994,
+            "district": 33
+          },
+          {
+            "chamber": "lower",
+            "cycle": 1994,
+            "district": 49
+          },
+          {
+            "chamber": "lower",
+            "cycle": 1994,
+            "district": 73
+          },
+          {
+            "chamber": "lower",
+            "cycle": 1994,
+            "district": 97
+          },
+          {
+            "chamber": "lower",
+            "cycle": 1998,
+            "district": 9
+          },
+          {
+            "chamber": "upper",
+            "cycle": 2002,
+            "district": 19
+          }
+        ],
+        "sign_change_share": 0.3333333333333333,
+        "sign_changes": 6
+      },
+      "no_lag_spec": {
+        "max_abs_diff": 5.8640553323501035,
+        "max_diff": 5.8640553323501035,
+        "mean_diff": 3.873878080750784,
+        "median_diff": 4.0329462181285685,
+        "min_diff": 2.00841094724023,
+        "n": 18,
+        "sign_change_races": [
+          {
+            "chamber": "lower",
+            "cycle": 2002,
+            "district": 63
+          }
+        ],
+        "sign_change_share": 0.05555555555555555,
+        "sign_changes": 1
+      }
+    }
+  },
+  "historical_war_run_id": "AL-HIST-WAR-V1-76814789B2F7641E4255",
+  "input_hash_drift": [],
+  "interpretation_limits": [
+    "descriptive same-era and out-of-era refits; no predictive or prospective validation",
+    "the backcast is a modern-relationship extrapolation, not a contemporaneous fit",
+    "bootstrap reflects training-sample variability conditional on design, alpha, the zero-fill encoding and the observed race universe",
+    "no external WAR reference comparison and no source-lineage certification",
+    "this audit records evidence and does not approve release or recertify the run"
+  ],
+  "missing_lag": {
+    "alternatives": {
+      "lag_available_fit": {
+        "max_abs_diff": 17.186933014783058,
+        "max_diff": -0.045407443937351744,
+        "mean_diff": -9.11695159669993,
+        "median_diff": -9.038467835550476,
+        "min_diff": -17.186933014783058,
+        "n": 18,
+        "sign_change_races": [
+          {
+            "chamber": "lower",
+            "cycle": 1994,
+            "district": 33
+          },
+          {
+            "chamber": "lower",
+            "cycle": 1994,
+            "district": 49
+          },
+          {
+            "chamber": "lower",
+            "cycle": 1994,
+            "district": 73
+          },
+          {
+            "chamber": "lower",
+            "cycle": 1994,
+            "district": 97
+          },
+          {
+            "chamber": "lower",
+            "cycle": 1998,
+            "district": 9
+          },
+          {
+            "chamber": "upper",
+            "cycle": 2002,
+            "district": 19
+          }
+        ],
+        "sign_change_share": 0.3333333333333333,
+        "sign_changes": 6
+      },
+      "no_lag_spec": {
+        "max_abs_diff": 5.8640553323501035,
+        "max_diff": 5.8640553323501035,
+        "mean_diff": 3.873878080750784,
+        "median_diff": 4.0329462181285685,
+        "min_diff": 2.00841094724023,
+        "n": 18,
+        "sign_change_races": [
+          {
+            "chamber": "lower",
+            "cycle": 2002,
+            "district": 63
+          }
+        ],
+        "sign_change_share": 0.05555555555555555,
+        "sign_changes": 1
+      }
+    },
+    "by_status": [
+      {
+        "cycle": "all",
+        "headline_mean_abs_lag_component": 3.477228028272471,
+        "lag_available_fit_alternative_mae": 22.913816078993282,
+        "lag_available_fit_headline_mae": 24.614565190323972,
+        "lag_available_fit_mae": 8.597395240715352,
+        "lag_available_fit_max_abs_diff": 45.06906739797347,
+        "lag_available_fit_max_diff": 19.38196091263729,
+        "lag_available_fit_mean_diff": -6.864116604455198,
+        "lag_available_fit_median_diff": -4.792307067545863,
+        "lag_available_fit_min_diff": -45.06906739797347,
+        "lag_available_fit_n": 412,
+        "lag_available_fit_p05_diff": -23.977378495441215,
+        "lag_available_fit_p95_diff": 5.124352251820645,
+        "lag_available_fit_pearson": 0.930576139910772,
+        "lag_available_fit_sd_diff": 9.907642541480731,
+        "lag_available_fit_sign_change_share": 0.1529126213592233,
+        "lag_available_fit_sign_changes": 63,
+        "lag_available_fit_spearman": 0.9156307059061131,
+        "lag_context_available": "all",
+        "missing_context_share": 0.043689320388349516,
+        "n": 412,
+        "no_lag_spec_alternative_mae": 26.954751589443838,
+        "no_lag_spec_headline_mae": 24.614565190323972,
+        "no_lag_spec_mae": 4.0259190473782684,
+        "no_lag_spec_max_abs_diff": 25.55087764303508,
+        "no_lag_spec_max_diff": 16.71316030505276,
+        "no_lag_spec_mean_diff": 2.446184542648837,
+        "no_lag_spec_median_diff": 2.1073840689259056,
+        "no_lag_spec_min_diff": -25.55087764303508,
+        "no_lag_spec_n": 412,
+        "no_lag_spec_p05_diff": -5.138844571724247,
+        "no_lag_spec_p95_diff": 10.224429189915092,
+        "no_lag_spec_pearson": 0.9819623649772705,
+        "no_lag_spec_sd_diff": 4.661953388068198,
+        "no_lag_spec_sign_change_share": 0.04854368932038835,
+        "no_lag_spec_sign_changes": 20,
+        "no_lag_spec_spearman": 0.9822188071984782
+      },
+      {
+        "cycle": "all",
+        "headline_mean_abs_lag_component": 3.636086161543802,
+        "lag_available_fit_alternative_mae": 23.4355758352756,
+        "lag_available_fit_headline_mae": 25.07523506815866,
+        "lag_available_fit_mae": 8.573659163538391,
+        "lag_available_fit_max_abs_diff": 45.06906739797347,
+        "lag_available_fit_max_diff": 19.38196091263729,
+        "lag_available_fit_mean_diff": -6.761195208870412,
+        "lag_available_fit_median_diff": -4.723281556017311,
+        "lag_available_fit_min_diff": -45.06906739797347,
+        "lag_available_fit_n": 394,
+        "lag_available_fit_p05_diff": -24.363914735547812,
+        "lag_available_fit_p95_diff": 5.422027225564513,
+        "lag_available_fit_pearson": 0.9298979476701067,
+        "lag_available_fit_sd_diff": 10.057345676892117,
+        "lag_available_fit_sign_change_share": 0.1446700507614213,
+        "lag_available_fit_sign_changes": 57,
+        "lag_available_fit_spearman": 0.9155956606808181,
+        "lag_context_available": "available",
+        "missing_context_share": 0.0,
+        "n": 394,
+        "no_lag_spec_alternative_mae": 27.430895147555468,
+        "no_lag_spec_headline_mae": 25.07523506815866,
+        "no_lag_spec_mae": 4.032865081386631,
+        "no_lag_spec_max_abs_diff": 25.55087764303508,
+        "no_lag_spec_max_diff": 16.71316030505276,
+        "no_lag_spec_mean_diff": 2.3809599647660065,
+        "no_lag_spec_median_diff": 1.9999178923721166,
+        "no_lag_spec_min_diff": -25.55087764303508,
+        "no_lag_spec_n": 394,
+        "no_lag_spec_p05_diff": -5.265738304784911,
+        "no_lag_spec_p95_diff": 10.256004981794439,
+        "no_lag_spec_pearson": 0.9817170128097876,
+        "no_lag_spec_sd_diff": 4.751741675775904,
+        "no_lag_spec_sign_change_share": 0.048223350253807105,
+        "no_lag_spec_sign_changes": 19,
+        "no_lag_spec_spearman": 0.9819568137974536
+      },
+      {
+        "cycle": "all",
+        "headline_mean_abs_lag_component": 0.0,
+        "lag_available_fit_alternative_mae": 11.49307474703591,
+        "lag_available_fit_headline_mae": 14.531013419942553,
+        "lag_available_fit_mae": 9.11695159669993,
+        "lag_available_fit_max_abs_diff": 17.186933014783058,
+        "lag_available_fit_max_diff": -0.045407443937351744,
+        "lag_available_fit_mean_diff": -9.11695159669993,
+        "lag_available_fit_median_diff": -9.038467835550476,
+        "lag_available_fit_min_diff": -17.186933014783058,
+        "lag_available_fit_n": 18,
+        "lag_available_fit_p05_diff": -16.899800215911664,
+        "lag_available_fit_p95_diff": -1.2148519897448014,
+        "lag_available_fit_pearson": 0.9425152313916636,
+        "lag_available_fit_sd_diff": 5.405714410833725,
+        "lag_available_fit_sign_change_share": 0.3333333333333333,
+        "lag_available_fit_sign_changes": 6,
+        "lag_available_fit_spearman": 0.9298245614035088,
+        "lag_context_available": "missing",
+        "missing_context_share": 1.0,
+        "n": 18,
+        "no_lag_spec_alternative_mae": 16.532498150778295,
+        "no_lag_spec_headline_mae": 14.531013419942553,
+        "no_lag_spec_mae": 3.873878080750784,
+        "no_lag_spec_max_abs_diff": 5.8640553323501035,
+        "no_lag_spec_max_diff": 5.8640553323501035,
+        "no_lag_spec_mean_diff": 3.873878080750784,
+        "no_lag_spec_median_diff": 4.0329462181285685,
+        "no_lag_spec_min_diff": 2.00841094724023,
+        "no_lag_spec_n": 18,
+        "no_lag_spec_p05_diff": 2.0922423769577954,
+        "no_lag_spec_p95_diff": 5.325597874102199,
+        "no_lag_spec_pearson": 0.9979233099654974,
+        "no_lag_spec_sd_diff": 1.102502229660922,
+        "no_lag_spec_sign_change_share": 0.05555555555555555,
+        "no_lag_spec_sign_changes": 1,
+        "no_lag_spec_spearman": 0.9896800825593396
+      }
+    ],
+    "missing_race_count": 18
+  },
+  "not_established": [
+    "whether the modern structural relationship holds in 1994-2014 Alabama",
+    "that the same-era fit is a better or worse WAR definition than the backcast",
+    "any causal interpretation of residuals, incumbent effects or ticket-lag terms",
+    "plan vintage, baseline provenance and source-cell lineage of the compatibility inputs",
+    "any forward or prospective accuracy of the backcast"
+  ],
+  "parity_gate": "passed",
+  "parity_max_abs_difference": {
+    "fitted_lag_component": 1.7763568394002505e-15,
+    "fitted_structural_expected_gap": 3.552713678800501e-15,
+    "fitted_structural_nonlag_expected_gap": 1.7763568394002505e-15,
+    "modern_backcast_structural_expected_gap": 3.552713678800501e-15,
+    "modern_backcast_war": 7.105427357601002e-15,
+    "raw_gap": 3.552713678800501e-15,
+    "raw_gap_all_509_races": 3.552713678800501e-15,
+    "war": 7.105427357601002e-15
+  },
+  "parity_tolerance": 1e-08,
+  "race_counts": {
+    "backcast_races": 412,
+    "historical_rows": 509,
+    "missing_lag_context_races": 18,
+    "modern_training_rows": 3660,
+    "publication_export_modified": false,
+    "published_modern_races": 97,
+    "warehouse_writes": 0
+  },
+  "run_dir": "data/processed/war/alabama_historical_war_v1",
+  "runtime_seconds": 2.03,
+  "schema_version": 1,
+  "scope": "Read-only sensitivity diagnostics for the 412 pre-2016 Alabama backcast races in the published historical export: same-era descriptive refit, leave-one-era-out coefficient drift, missing lag-context alternatives and a within-cycle training bootstrap. Not a recertification, replacement contract or forward validation.",
+  "sha256": {
+    "manifest.json": "da0333ff2603d4d9d3422e766670552b484ad0b74a88b48bfc62056867fc3bc9",
+    "race_war.csv": "6ad950e385cddf8c3636679b1304523c0702bb916ce1129efc6763c5ef859fdc",
+    "scripts/audit_alabama_backcast_sensitivity.py": "a6631a2f39d8ab1d17856641cf17e390a3a2a1abec9fce3bbb08bea9762635e5",
+    "scripts/build_alabama_historical_war_v1.py": "e0cc3643a675144e2d1f97f9ed2229c9fc86b7795b22eed524d7129170144f67",
+    "scripts/retrain_post2016_southern_war.py": "ead76fb849c93043d380cff7d2a14eb2a7bca31944134af207acf7002d2e075d",
+    "scripts/retrain_post2016_southern_war_v2.py": "9a52de7cd3043f8d8a57d07a39e5914d257af2ffc3ebe2da8f17b2c9e8f0a730"
+  },
+  "source_alabama_war_run_id": "AL-WAR-V1-C00FF05BC2BE58E16087",
+  "source_southern_war_run_id": "WAR-POST2016-V3-530FBD4238CC483E557C",
+  "training_frame": {
+    "cycles": [
+      2018,
+      2019,
+      2020,
+      2022,
+      2023,
+      2024
+    ],
+    "missing_lag_context_rows": 2376,
+    "missing_lag_context_share": 0.6491803278688525,
+    "rows": 3660,
+    "states": [
+      "AL",
+      "AR",
+      "FL",
+      "GA",
+      "KY",
+      "LA",
+      "MO",
+      "MS",
+      "NC",
+      "OK",
+      "SC",
+      "TN",
+      "TX",
+      "VA"
+    ]
+  },
+  "warehouse_build_run_id": "RUN-504CE4C4DF904D88A5A40D268F3FCEAB",
+  "warehouse_build_run_id_live": "RUN-504CE4C4DF904D88A5A40D268F3FCEAB"
+}

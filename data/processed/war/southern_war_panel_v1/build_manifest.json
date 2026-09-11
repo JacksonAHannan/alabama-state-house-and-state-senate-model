@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "build_id": "7c295b67b3d4df1bec2d",
-  "code_commit": "720c3507b147bc0a7c048c4c84ab0262920802c1",
+  "build_id": "dc097a3bddfabd0ad5d5",
+  "code_commit": "38c30819f3524c3d97cb7a1bfa4fb6ec00e8f249",
   "pipeline": "scripts/build_southern_war_panel_v1.py",
   "states": [
     "AL",
@@ -185,11 +185,11 @@
     },
     {
       "path": "data/processed/war/cmo_v5_races.csv",
-      "sha256": "1c2a1698752697de8a2122e43448433489ce419cf5e64acb30548ab020bb5764"
+      "sha256": "c06fea12f57718fca167a1a20fce472d710783ba7a64796d0b0547106b603740"
     },
     {
       "path": "data/processed/war/cmo_v5_candidates.csv",
-      "sha256": "c29722506cb4b94732244b3b7b7c6e6f48bb9b304532afcbf6a7307258fb091f"
+      "sha256": "afca6b9ac06f02c2e0aa54a0ef4404c20c14499a39adafcef062ebfeaa6d9810"
     },
     {
       "path": "external://texas-state-house-and-state-senate-model/data/processed/models/full_history_cmo_candidates.csv",
@@ -1383,8 +1383,8 @@
   "outputs": [
     {
       "path": "data/processed/war/southern_war_panel_v1/baseline_observations.csv",
-      "rows": 14279,
-      "sha256": "7e0a01137f1fc9eb14c51c7599662c818c2552821d58a7b20ec76738691e2f0a"
+      "rows": 14280,
+      "sha256": "1aa44e28d11e595430b146b80426bc7885a64ecadd5a75bf85cf2d735126fc4a"
     },
     {
       "path": "data/processed/war/southern_war_panel_v1/louisiana_legislative_stage_candidates.csv",
@@ -1408,8 +1408,8 @@
     },
     {
       "path": "data/processed/war/southern_war_panel_v1/race_outcome_observation_audit.csv",
-      "rows": 32132,
-      "sha256": "751b4978262dbc4739f856e22111a44fd7ec2aa70bcc61d5f279d5863a00f215"
+      "rows": 32133,
+      "sha256": "790bcaff31f5aa640a21a7c938924080db0b440e9d42a20684c2ca44853db5da"
     },
     {
       "path": "data/processed/war/southern_war_panel_v1/repository_election_source_files.csv",
@@ -1423,18 +1423,18 @@
     },
     {
       "path": "data/processed/war/southern_war_panel_v1/southern_war_exclusions.csv",
-      "rows": 20959,
-      "sha256": "99b9b3f86830aebb64596ed6e776ea28bb4b31f5727e1986122624184b47d145"
+      "rows": 20958,
+      "sha256": "68468884a064e3e4c5ca21a247cb131ed5f1903cdd941be0b123c138fa5f6694"
     },
     {
       "path": "data/processed/war/southern_war_panel_v1/southern_war_panel.csv",
       "rows": 28307,
-      "sha256": "2cb76655de26b628a1fffcf472c6f8385be485e43ccf49227d5fae8c4a18c945"
+      "sha256": "4c392e4b9999578733a6d7343ae78b4b8d68c7da040e5a2350e905755723dc10"
     },
     {
       "path": "data/processed/war/southern_war_panel_v1/southern_war_panel_coverage.csv",
       "rows": 384,
-      "sha256": "376fee4a7b40c2d8168be024df5c931ba0a3e0e0b0ef27b0fed8db5567f9d2a6"
+      "sha256": "a58f9c83675e01c67ab8d23b710cb62230c9d9ed63fc554373d9306e7f58c01d"
     },
     {
       "path": "data/processed/war/southern_war_panel_v1/texas_upstream_reconciliation.csv",
@@ -1445,8 +1445,8 @@
   "row_counts": {
     "panel": 28307,
     "contested_outcomes": 13213,
-    "strict_war_ready": 7348,
-    "research_war_ready": 7854,
+    "strict_war_ready": 7349,
+    "research_war_ready": 7855,
     "states_with_strict_rows": 14,
     "state_years_with_strict_rows": 105
   },

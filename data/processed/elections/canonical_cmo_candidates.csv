@@ -426,8 +426,8 @@ year,chamber,district,canonical_party,canonical_votes,canonical_name,canonical_s
 2002,house,24,R,8585.0,"Greeson, Todd",alabama_sos,ALPERSON-GREESON-TODD,AL-2002-house-24-R-GREESON-TODD,0,1
 2002,house,25,D,5148.0,"Miles, Pam",alabama_sos,ALPERSON-MILES-PAM,AL-2002-house-25-D-MILES-PAM,0,0
 2002,house,25,R,8993.0,"Garner, Ray",alabama_sos,ALPERSON-GARNER-RAY,AL-2002-house-25-R-GARNER-RAY,0,1
-2002,house,26,D,1102.0,"McDaniel, Frank",alabama_sos,ALPERSON-MCDANIEL-FRANK,AL-2002-house-26-D-MCDANIEL-FRANK,0,1
-2002,house,26,R,598.0,"Patterson, Jeffrey",alabama_sos,ALPERSON-PATTERSON-JEFFREY,AL-2002-house-26-R-PATTERSON-JEFFREY,0,0
+2002,house,26,D,7069.0,"McDaniel, Frank",alabama_sos,ALPERSON-MCDANIEL-FRANK,AL-2002-house-26-D-MCDANIEL-FRANK,0,1
+2002,house,26,R,4459.0,"Patterson, Jeffrey",alabama_sos,ALPERSON-PATTERSON-JEFFREY,AL-2002-house-26-R-PATTERSON-JEFFREY,0,0
 2002,house,28,D,7925.0,"Ford, Craig",alabama_sos,ALPERSON-FORD-CRAIG,AL-2002-house-28-D-FORD-CRAIG,0,1
 2002,house,28,R,4394.0,"Abel, David C.",alabama_sos,ALPERSON-ABEL-DAVID-C,AL-2002-house-28-R-ABEL-DAVID-C,0,0
 2002,house,29,D,7429.0,"Page, Jack",alabama_sos,ALPERSON-PAGE-JACK,AL-2002-house-29-D-PAGE-JACK,0,1
@@ -551,8 +551,8 @@ year,chamber,district,canonical_party,canonical_votes,canonical_name,canonical_s
 2002,senate,7,R,12823.0,"Peters, Elbert",alabama_sos,ALPERSON-PETERS-ELBERT,AL-2002-senate-7-R-PETERS-ELBERT,0,0
 2002,senate,8,D,19890.0,"Barron, Lowell",alabama_sos,ALPERSON-BARRON-LOWELL,AL-2002-senate-8-D-BARRON-LOWELL,0,1
 2002,senate,8,R,14222.0,"Hammonds, David",alabama_sos,ALPERSON-HAMMONDS-DAVID,AL-2002-senate-8-R-HAMMONDS-DAVID,0,0
-2002,senate,9,D,8914.0,"Mitchem, Hinton",alabama_sos,ALPERSON-MITCHEM-HINTON,AL-2002-senate-9-D-MITCHEM-HINTON,0,0
-2002,senate,9,R,9438.0,"Edmonds, Doris",alabama_sos,ALPERSON-EDMONDS-DORIS,AL-2002-senate-9-R-EDMONDS-DORIS,0,1
+2002,senate,9,D,24603.0,"Mitchem, Hinton",alabama_sos,ALPERSON-MITCHEM-HINTON,AL-2002-senate-9-D-MITCHEM-HINTON,0,1
+2002,senate,9,R,16995.0,"Edmonds, Doris",alabama_sos,ALPERSON-EDMONDS-DORIS,AL-2002-senate-9-R-EDMONDS-DORIS,0,0
 2002,senate,10,D,24702.0,"Means, Larry",alabama_sos,ALPERSON-MEANS-LARRY,AL-2002-senate-10-D-MEANS-LARRY,0,1
 2002,senate,10,R,11670.0,"Williams, David L.",alabama_sos,ALPERSON-WILLIAMS-DAVID-L,AL-2002-senate-10-R-WILLIAMS-DAVID-L,0,0
 2002,senate,11,D,27018.0,"Preiutt, Jim",alabama_sos,ALPERSON-PREIUTT-JIM,AL-2002-senate-11-D-PREIUTT-JIM,0,1
@@ -1563,3 +1563,5 @@ year,chamber,district,canonical_party,canonical_votes,canonical_name,canonical_s
 2022,senate,33,R,11401.0,GSU33RRIE,official_consolidated_candidate_results,ALPERSON-GSU33RRIE,AL-2022-senate-33-R-GSU33RRIE,0,0
 2022,senate,34,R,27043.0,GSU34RWIL,official_consolidated_candidate_results,ALPERSON-GSU34RWIL,AL-2022-senate-34-R-GSU34RWIL,1,1
 2022,senate,35,R,27133.0,GSU35RSES,official_consolidated_candidate_results,ALPERSON-GSU35RSES,AL-2022-senate-35-R-GSU35RSES,1,1
+2002,house,27,D,7724.0,"McLaughlin, Jeffrey",alabama_sos,ALPERSON-MCLAUGHLIN-JEFFREY,AL-2002-house-27-D-MCLAUGHLIN-JEFFREY,0,1
+2002,house,27,R,4789.0,"Hawkins, Gerald (Jerry)",alabama_sos,ALPERSON-HAWKINS-GERALD-JERRY,AL-2002-house-27-R-HAWKINS-GERALD-JERRY,0,0

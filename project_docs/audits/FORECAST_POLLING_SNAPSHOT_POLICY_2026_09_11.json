@@ -1,0 +1,654 @@
+{
+  "generated_at_utc": "2026-09-11T15:01:03.946972+00:00",
+  "task_id": "forecast-04",
+  "artifact": "forecast polling/environment snapshot inventory and refresh policy",
+  "forecast_build_id": "368bb272a990ff436e56",
+  "forecast_manifest": "data/processed/forecast_calibration/alabama_war_forecast_v1_manifest.json",
+  "forecast_manifest_generated_at_utc": "2026-09-11T14:27:39.495787+00:00",
+  "audit_date_utc": "2026-09-11",
+  "counts": {
+    "declared_manifest_inputs": 9,
+    "declared_manifest_inputs_under_processed_polling": 1,
+    "polling_derived_declared_inputs_outside_polling": 2,
+    "scenario_poll_fields": 6,
+    "tier2_lineage_paths_listed": 29,
+    "warehouse_registered_polling_source_files": 8
+  },
+  "current_environment": {
+    "as_of_date": "2026-08-17",
+    "staleness_days_as_of_2026_09_11": 25,
+    "recorded_poll_staleness_days_at_download": 1,
+    "dem_two_party_margin": 7.554772105617104,
+    "pollsters": 6,
+    "pollster_list": [
+      "Beacon Research/Shaw & Co. Research",
+      "Cygnal",
+      "Echelon Insights",
+      "Hart Research Associates/Public Opinion Strategies",
+      "Quinnipiac University",
+      "YouGov"
+    ],
+    "window_days": 60,
+    "minimum_silver_grade": "B (code set is A+/A/A-/A/B/B+/B)",
+    "historical_environment_as_of": "election day per cycle (2018-11-06, 2022-11-08)"
+  },
+  "declared_forecast_inputs_tier1": [
+    {
+      "path": "data/processed/polling/historical_silver_a_generic_ballot_cycles.csv",
+      "role": "historical 2018/2022 forward-test environment; source of national_sd, one of 9 declared forecast-manifest inputs",
+      "declared_in_forecast_manifest": true,
+      "sha256": "52e4ab48342c5550b4ecb1d146914a4120c777d4b888f4cbae88d32684817010",
+      "size_bytes": 1883,
+      "rows": 7,
+      "cycles": [
+        1998,
+        2002,
+        2006,
+        2010,
+        2014,
+        2018,
+        2022
+      ],
+      "cycles_consumed": [
+        2018,
+        2022
+      ],
+      "acquisition_script": "scripts/build_historical_silver_generic_ballot.py",
+      "upstream_raw": [
+        "data/raw/polling/fivethirtyeight_raw_polls.csv",
+        "data/raw/polling/nate_silver_pollster_ratings.csv"
+      ],
+      "warehouse_registration": "not registered in warehouse_source_file",
+      "source_url": "unknown",
+      "retrieval_time": "unknown (file mtime proxy 2026-08-17T18:01:21Z)",
+      "as_of_date": "election day per cycle (2018-11-06, 2022-11-08); latest polls 2018-11-02, 2022-11-06",
+      "license_terms": "unknown",
+      "current_staleness_days": "not applicable (frozen historical election-day panel)",
+      "rating_policy": "current_2026_silver_A_plus_A_A_minus_survivorship_screen",
+      "poll_policy": "latest_nonpartisan_poll_per_pollster_within_21_days"
+    },
+    {
+      "path": "data/processed/war/2026_poll_adjusted_baseline.csv",
+      "role": "live national generic-ballot environment mapped to 140 districts; supplies votehub_2026_dem_margin, national_dem_swing_2024_2026, uniform_poll_adjusted_dem_margin, poll_average_as_of, poll_staleness_days_at_download",
+      "declared_in_forecast_manifest": true,
+      "sha256": "eb730a46c6ea2ef02ccc26fc03bc833fb2747c076196d6ac477fc06b88837b9f",
+      "size_bytes": 35663,
+      "rows": 140,
+      "builder": "scripts/build_2026_poll_adjusted_baseline.py",
+      "live_source": "data/processed/polling/votehub_silver_bplus_topline_environment.csv",
+      "fallback_source_not_used": "data/processed/polling/votehub_generic_ballot_snapshot.csv",
+      "source_url": "https://api.votehub.com/polls",
+      "retrieval_time": "2026-08-18 (source poll retrieved_on)",
+      "as_of_date": "2026-08-17",
+      "poll_staleness_days_at_download": 1,
+      "current_staleness_days": 25,
+      "license_terms": "CC BY 4.0 / VoteHub (in-code constant; not a verified terms record)",
+      "status": "catalist_yougov_demographic_transfer_selected",
+      "values": {
+        "votehub_2026_dem_margin": 7.554772105617104,
+        "national_2024_dem_margin": -1.48,
+        "national_dem_swing_2024_2026": 9.034772105617105
+      },
+      "warehouse_registration": "not registered in warehouse_source_file"
+    },
+    {
+      "path": "data/processed/forecast_calibration/robust_forecast_v1_error_components.csv",
+      "role": "national_sd for scenario shifts and national simulation component",
+      "declared_in_forecast_manifest": true,
+      "sha256": "4085d289d65d17b847bad2d314356d70d0ffd5ab3bc72633e1b07aa69eef5d68",
+      "size_bytes": 156,
+      "rows": 1,
+      "builder": "scripts/run_robust_forecast_pipeline.py (error_components)",
+      "upstream_polling_input": "data/processed/polling/historical_silver_a_generic_ballot_cycles.csv",
+      "source_url": "derived",
+      "retrieval_time": "derived",
+      "as_of_date": "inherits historical election-day freeze",
+      "license_terms": "n/a (derived; upstream terms unknown)",
+      "values": {
+        "national_sd": 2.2038495277753904,
+        "state_sd": 2.007251917599354,
+        "chamber_sd": 1.0250611195349373,
+        "district_sd": 5.905697688068906,
+        "total_residual_sd": 6.251567248923569
+      },
+      "warehouse_registration": "not registered in warehouse_source_file"
+    }
+  ],
+  "upstream_lineage_tier2": [
+    {
+      "path": "data/raw/polling/silver_recent/manifest.csv",
+      "role": "manifest of 8 curated poll documents",
+      "sha256": "aeed9cf6152e11a18ecbf3fdf9bf005fb00f50394521c1cd89e6adf6358f186b",
+      "size_bytes": 2458,
+      "source_url": "per-row source_url",
+      "retrieval_time": "per-row 2026-08-15T07:30:57Z",
+      "license_terms": "unknown",
+      "warehouse_registered": "n/a",
+      "as_of_date": "unknown"
+    },
+    {
+      "path": "data/raw/polling/silver_recent/cnbc_hart_pos_2026_q2_topline.pdf",
+      "role": "curated A- topline",
+      "sha256": "9c244e8948a51e4eec096aecdc402db3a352e4d5e55905ace8c8bbbf5229745b",
+      "size_bytes": 637077,
+      "source_url": "https://fm.cnbc.com/applications/cnbc.com/resources/editorialfiles/2026/07/17/CNBC_Q2_2026_Topline.pdf",
+      "retrieval_time": "2026-08-15T07:30:57Z",
+      "license_terms": "unknown (license NULL)",
+      "warehouse_registered": "yes",
+      "as_of_date": "2026-07-08..2026-07-12"
+    },
+    {
+      "path": "data/raw/polling/silver_recent/cygnal_2026_07_deck.pdf",
+      "role": "curated A deck",
+      "sha256": "2e2787f168ce3ab74a11b9f5e45cbc9e33767922901d6ea381ca346a3975afcb",
+      "size_bytes": 25799138,
+      "source_url": "https://www.cygn.al/wp-content/uploads/2026/07/24136-Cygnal-National-Jul-26-NVT-Deck-Public-2.pdf",
+      "retrieval_time": "2026-08-15T07:30:57Z",
+      "license_terms": "unknown (license NULL)",
+      "warehouse_registered": "yes",
+      "as_of_date": "2026-06-30..2026-07-01"
+    },
+    {
+      "path": "data/raw/polling/silver_recent/cygnal_2026_08_deck.pdf",
+      "role": "curated A deck",
+      "sha256": "65b2a2216e0e7561262122d52e5906f6261589af3d36ccaf8f15419d7bfc02e0",
+      "size_bytes": 16391753,
+      "source_url": "https://www.cygn.al/wp-content/uploads/2026/08/24265-Cygnal-National-Aug26-NVT-Deck-Public-1.pdf",
+      "retrieval_time": "2026-08-15T07:30:57Z",
+      "license_terms": "unknown (license NULL)",
+      "warehouse_registered": "yes",
+      "as_of_date": "2026-08-06..2026-08-07"
+    },
+    {
+      "path": "data/raw/polling/silver_recent/echelon_2026_07_crosstabs.xlsx",
+      "role": "curated A- crosstabs",
+      "sha256": "2ff19a8ad282c2e4f7954e3f21c7cdeb48e9e77a2b6b097a751d3ffd4a67c7e1",
+      "size_bytes": 253072,
+      "source_url": "https://docs.google.com/spreadsheets/d/1tupLF7a50dTC-mx8k8mzT1WdbExscW3I/export?format=xlsx",
+      "retrieval_time": "2026-08-15T07:30:57Z",
+      "license_terms": "unknown (license NULL)",
+      "warehouse_registered": "yes",
+      "as_of_date": "2026-07-09..2026-07-13"
+    },
+    {
+      "path": "data/raw/polling/silver_recent/echelon_2026_07_topline.pdf",
+      "role": "curated A- topline",
+      "sha256": "09e873d4027c50587b3776b95bb8e8c7b6dd9517b16118c93a7425ba24e1f210",
+      "size_bytes": 663418,
+      "source_url": "https://echeloninsights.com/hubfs/_Media%20for%20Insights%20Blog/July%202026%20Voter%20Omnibus%20Topline%20-%20Updated%20External.pdf",
+      "retrieval_time": "2026-08-15T07:30:57Z",
+      "license_terms": "unknown (license NULL)",
+      "warehouse_registered": "yes",
+      "as_of_date": "2026-07-09..2026-07-13"
+    },
+    {
+      "path": "data/raw/polling/silver_recent/fox_beacon_shaw_2026_07_crosstabs.pdf",
+      "role": "curated A- crosstabs",
+      "sha256": "26da55319ab00c7dad33691a2e682d3bcaf2bf65976d37eadf05775535c1b1ab",
+      "size_bytes": 707077,
+      "source_url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/07/fox_july-17-20-2026_national_cross-tabs_july-27-release.pdf",
+      "retrieval_time": "2026-08-15T07:30:57Z",
+      "license_terms": "unknown (license NULL)",
+      "warehouse_registered": "yes",
+      "as_of_date": "2026-07-17..2026-07-20"
+    },
+    {
+      "path": "data/raw/polling/silver_recent/fox_beacon_shaw_2026_07_topline.pdf",
+      "role": "curated A- topline",
+      "sha256": "c08d3b715d0659fae1c99244902a49b6a8b300efbd3c565b05437e168415999f",
+      "size_bytes": 864930,
+      "source_url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/07/fox_july-17-20-2026_national_topline_july-27-release.pdf",
+      "retrieval_time": "2026-08-15T07:30:57Z",
+      "license_terms": "unknown (license NULL)",
+      "warehouse_registered": "yes",
+      "as_of_date": "2026-07-17..2026-07-20"
+    },
+    {
+      "path": "data/raw/polling/silver_recent/quinnipiac_2026_06_release.pdf",
+      "role": "curated B+ release tables",
+      "sha256": "12b7aa6df7eca1c1d24cd110838ee5899ea5293313f5e0a199529027fecf66de",
+      "size_bytes": 266488,
+      "source_url": "https://poll.qu.edu/images/polling/us/us06242026_ujrk36.pdf",
+      "retrieval_time": "2026-08-15T07:30:57Z",
+      "license_terms": "unknown (license NULL)",
+      "warehouse_registered": "yes",
+      "as_of_date": "2026-06-18..2026-06-22"
+    },
+    {
+      "path": "data/raw/polling/silver_recent/yougov_economist_2026-08-17_81771ca9479c.pdf",
+      "role": "auto-discovered Economist/YouGov topline (drives current as_of)",
+      "sha256": "81771ca9479c5745f0b63247ba56c1c516553910387aba752f4a586d5ce6ed07",
+      "size_bytes": 86438,
+      "source_url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/econtoplines_8q3E3LQ.pdf",
+      "retrieval_time": "2026-08-18",
+      "license_terms": "unknown",
+      "warehouse_registered": "no",
+      "as_of_date": "2026-08-14..2026-08-17"
+    },
+    {
+      "path": "data/raw/polling/votehub_generic_ballot_catalog.json",
+      "role": "VoteHub API poll catalog",
+      "sha256": "6560eb7cd9a4f29a600be03358525997382337dae233d41102b1390eee90de84",
+      "size_bytes": 5765,
+      "source_url": "https://api.votehub.com/polls?poll_type=generic-ballot",
+      "retrieval_time": "not recorded (mtime 2026-08-19T04:57:24Z)",
+      "license_terms": "unknown",
+      "warehouse_registered": "no",
+      "as_of_date": "unknown"
+    },
+    {
+      "path": "data/raw/polling/nate_silver_pollster_ratings.csv",
+      "role": "Silver pollster grades (A-range and B-range screens)",
+      "sha256": "bbc4d969873902b99b7b7ab2bdf7ab107d9afc57dfcc301df30fbb4ece6fbefa",
+      "size_bytes": 31959,
+      "source_url": "unknown (REPOSITORY_LAYOUT maps from data-GiFps.csv)",
+      "retrieval_time": "unknown (mtime 2026-08-15T06:53:43Z)",
+      "license_terms": "unknown",
+      "warehouse_registered": "no",
+      "as_of_date": "unknown"
+    },
+    {
+      "path": "data/raw/polling/fivethirtyeight_raw_polls.csv",
+      "role": "FiveThirtyEight raw poll records 1998-2023",
+      "sha256": "9f0b185506e59117c150fb988e73b612346effe8e3a8f0d90fdafcad07f54756",
+      "size_bytes": 4961378,
+      "source_url": "unknown",
+      "retrieval_time": "unknown (mtime 2026-08-17T17:56:03Z)",
+      "license_terms": "unknown",
+      "warehouse_registered": "no",
+      "as_of_date": "unknown"
+    },
+    {
+      "path": "data/raw/polling/votehub_crosstabs_reviewed.csv",
+      "role": "manually reviewed crosstab cells",
+      "sha256": "4bf23f4f93bd2aed72368b11d19fd58336782dc55df1706b23643ae215f25b2f",
+      "size_bytes": 35367,
+      "source_url": "unknown",
+      "retrieval_time": "unknown (mtime 2026-08-15T07:01:03Z)",
+      "license_terms": "unknown",
+      "warehouse_registered": "no",
+      "as_of_date": "unknown"
+    },
+    {
+      "path": "data/raw/polling/generic_ballot_environment/fivethirtyeight_old_model_caae521c49a1ec93.csv",
+      "role": "FTE generic-ballot averages (Virginia 2019 product; not a forecast input)",
+      "sha256": "caae521c49a1ec9387a84a1a40f8f5a4555215513334cb667474d4f2ff130840",
+      "size_bytes": 229659,
+      "source_url": "https://raw.githubusercontent.com/fivethirtyeight/data/master/polls/old_model/generic_ballot_averages_old_model.csv",
+      "retrieval_time": "2026-08-31T02:26:35Z",
+      "license_terms": "FTE LICENSE url",
+      "warehouse_registered": "no",
+      "as_of_date": "unknown"
+    },
+    {
+      "path": "data/raw/polling/generic_ballot_environment/fivethirtyeight_2023_archived_snapshot_3881963f2c2db423.csv",
+      "role": "commit-pinned FTE archive incl. 2023",
+      "sha256": "3881963f2c2db423b7c521af0c915e092b7ec93115f72dc6d19a7927bb8ac7a9",
+      "size_bytes": 315658,
+      "source_url": "https://raw.githubusercontent.com/kr0710/Data607/0c5c987e9715020c9f0d88d0ca1bc067358ac55e/generic_ballot_averages.csv",
+      "retrieval_time": "2026-08-31T02:26:35Z",
+      "license_terms": "FTE LICENSE url",
+      "warehouse_registered": "no",
+      "as_of_date": "unknown"
+    },
+    {
+      "path": "data/raw/polling/Catalist_What_Happened_2024_Public_National_Crosstabs_2025_05_19.xlsx",
+      "role": "Catalist national demographic estimates",
+      "sha256": "f76b4e849e772286d33f642a81b6ec03192ccbb7b665be65dc8e2d11f13cd0b6",
+      "size_bytes": 82677,
+      "source_url": "https://catalist.us/whathappened2024/",
+      "retrieval_time": "unknown (mtime 2026-08-15T04:11:33Z)",
+      "license_terms": "unknown",
+      "warehouse_registered": "no",
+      "as_of_date": "unknown"
+    },
+    {
+      "path": "data/processed/polling/votehub_silver_bplus_topline_environment.csv",
+      "role": "live environment actually consumed",
+      "sha256": "7c09eb6e37eb9f8c0c1faa150f8ca355891868047deb4bf351a0dd44c3694994",
+      "size_bytes": 311,
+      "source_url": "derived from VoteHub catalog",
+      "retrieval_time": "2026-08-18/19",
+      "license_terms": "CC BY 4.0 (in-code)",
+      "warehouse_registered": "no",
+      "as_of_date": "2026-08-17"
+    },
+    {
+      "path": "data/processed/polling/votehub_silver_bplus_demographic_environment.csv",
+      "role": "demographic branch of the district baseline",
+      "sha256": "b763a884b310d47e1d76f2b8f2f2ebb25b505dcff2160702b0ead47852558909",
+      "size_bytes": 1046,
+      "source_url": "derived",
+      "retrieval_time": "2026-08-19T04:57:27Z",
+      "license_terms": "unknown",
+      "warehouse_registered": "no",
+      "as_of_date": "2026-08-17"
+    },
+    {
+      "path": "data/processed/polling/votehub_crosstab_documents_with_silver_grades.csv",
+      "role": "VoteHub pollster -> Silver grade crosswalk",
+      "sha256": "7b835edb5144b11053c639c68a688853f94f3bdc10a650e97fe443a37f1e0f0b",
+      "size_bytes": 7691,
+      "source_url": "derived",
+      "retrieval_time": "2026-08-21T15:21:36Z",
+      "license_terms": "unknown",
+      "warehouse_registered": "no",
+      "as_of_date": "unknown"
+    },
+    {
+      "path": "data/processed/polling/silver_recent_generic_ballot_cells.csv",
+      "role": "curated + auto poll cells (23 rows)",
+      "sha256": "2a26b20427565c6e1c235a3c00eff2786171efc0efd1314d259cfa12e1c93fe1",
+      "size_bytes": 6218,
+      "source_url": "mixed (manifest.csv + auto YouGov)",
+      "retrieval_time": "2026-08-18/19",
+      "license_terms": "unknown",
+      "warehouse_registered": "no",
+      "as_of_date": "unknown"
+    },
+    {
+      "path": "data/processed/polling/votehub_crosstab_source_manifest.csv",
+      "role": "101 discovered VoteHub source documents",
+      "sha256": "c3278ea193e04e641a884be17eb5674e94dd1cc9f9d2ff0d03dc837537a015ea",
+      "size_bytes": 34794,
+      "source_url": "per-row",
+      "retrieval_time": "2026-08-21T15:21:36Z",
+      "license_terms": "unknown",
+      "warehouse_registered": "no",
+      "as_of_date": "unknown"
+    },
+    {
+      "path": "data/processed/polling/votehub_generic_ballot_snapshot.csv",
+      "role": "fallback environment (unused today)",
+      "sha256": "ec90d306d077bdfab8fd233789134369c4058c3d8db83755b4fa9e38d81cb1a2",
+      "size_bytes": null,
+      "source_url": "https://api.votehub.com/polls",
+      "retrieval_time": "2026-08-14",
+      "license_terms": "CC BY 4.0 (in-code)",
+      "warehouse_registered": "no",
+      "as_of_date": "2026-06-30"
+    },
+    {
+      "path": "data/processed/polling/historical_silver_a_generic_ballot_polls.csv",
+      "role": "per-poll historical selection",
+      "sha256": "c88655c65fa14bf832df2fee4647480b4cc3f6c8cf334de6cb0dea1a2fe67e3d",
+      "size_bytes": 10764,
+      "source_url": "derived",
+      "retrieval_time": "derived",
+      "license_terms": "unknown",
+      "warehouse_registered": "no",
+      "as_of_date": "unknown"
+    },
+    {
+      "path": "data/processed/polling/historical_silver_a_pollster_crosswalk.csv",
+      "role": "pollster -> Silver rating match",
+      "sha256": "4bdb2e682f7a4fad3a1e5a5b3b324da2410e333a710db631928c1000e17770a4",
+      "size_bytes": 1152,
+      "source_url": "derived",
+      "retrieval_time": "derived",
+      "license_terms": "unknown",
+      "warehouse_registered": "no",
+      "as_of_date": "unknown"
+    },
+    {
+      "path": "data/processed/polling/historical_silver_a_current_2026.csv",
+      "role": "2026 A-rated snapshot (diagnostic)",
+      "sha256": "631a47a4cd09cc6aa35abe09889d7fdcfcf9fac29efb3c677913b939216bbb50",
+      "size_bytes": 2673,
+      "source_url": "derived",
+      "retrieval_time": "derived",
+      "license_terms": "unknown",
+      "warehouse_registered": "no",
+      "as_of_date": "unknown"
+    },
+    {
+      "path": "data/processed/polling/catalist_national_demographic_master.csv",
+      "role": "Catalist national demographic master",
+      "sha256": "c62f0f8f94cd4f1f84d783b67ccc34004b264a1fd1da3a320ee0c48dd6517a29",
+      "size_bytes": 255555,
+      "source_url": "https://catalist.us/... per-row",
+      "retrieval_time": "unknown",
+      "license_terms": "unknown",
+      "warehouse_registered": "no",
+      "as_of_date": "unknown"
+    },
+    {
+      "path": "data/processed/polling/yougov_generic_ballot_election_snapshots.csv",
+      "role": "YouGov tracker election snapshots",
+      "sha256": "f0904133b567dcf61998c9bff8546ac254572a4bf44474ccda74929afafbc1b9",
+      "size_bytes": 11542,
+      "source_url": "per-row source",
+      "retrieval_time": "unknown",
+      "license_terms": "unknown",
+      "warehouse_registered": "no",
+      "as_of_date": "unknown"
+    },
+    {
+      "path": "data/processed/polling/virginia_generic_ballot_environment.csv",
+      "role": "separate Virginia environment product (not a forecast input)",
+      "sha256": "db746e2fc14d68eae8396063ec79eae81c0f0fb8910847976fb806802c9e376a",
+      "size_bytes": 1249,
+      "source_url": "FTE GitHub",
+      "retrieval_time": "2026-08-31T02:26:36Z",
+      "license_terms": "FTE LICENSE url",
+      "warehouse_registered": "no",
+      "as_of_date": "unknown"
+    }
+  ],
+  "implemented_logic": {
+    "current_topline_environment": {
+      "builder": "scripts/build_silver_bplus_polling_environment.py",
+      "frame": "VoteHub catalog (data/raw/polling/votehub_generic_ballot_catalog.json) + silver_recent_generic_ballot_cells.csv supplement appended after catalog",
+      "eligibility": "silver grade in {A+,A,A-,A/B,B+,B}; internal false; partisan null",
+      "window": "end_date >= max(end_date) - 59 days (inclusive 60-day window)",
+      "as_of": "max(end_date), the latest poll field date; never the download date",
+      "dedup": "latest poll per silver_pollster (keep last after sort by end_date); supplement rows win ties",
+      "weight": "population_weight * 0.5^(age_days/21); POP={lv:1.0, rv:0.75, a:0.5}; missing population -> 0.5",
+      "aggregate": "weighted mean of dem_pct/(dem_pct+rep_pct); margin = 200*share - 100",
+      "missing_policy": "no zero fill; NaN share propagates (see flag P4); downstream forecast raises on NaN"
+    },
+    "historical_environment": {
+      "builder": "scripts/build_historical_silver_generic_ballot.py",
+      "frame": "fivethirtyeight_raw_polls.csv where type_simple == House-G-US, cycles 1998-2022, non-partisan",
+      "eligibility": "pollster must match a CURRENT 2026 Silver A+/A/A- rating (difflib ratio >= 0.78); ABC/WaPo alias to The Washington Post",
+      "window": "0 <= electiondate - polldate <= 21 days",
+      "dedup": "latest poll per pollster per cycle",
+      "weight": "population {lv:1.0, rv:0.8, a:0.55, v:0.9}, default 0.7 (DIFFERENT from current environment; flag P3)",
+      "as_of": "implicit election day per cycle",
+      "known_bias": "current-2026-raings survivorship screen applied retroactively (flag P7)"
+    },
+    "forecast_consumption": {
+      "builder": "scripts/run_alabama_war_generic_forecast.py",
+      "seed": 20260831,
+      "simulation_draws": 50000,
+      "ridge_alpha": 100.0,
+      "specification": "decaying_lag",
+      "historical_panel_inputs": "cycle in {2018,2022}: final_poll_margin and poll_implied_national_swing",
+      "prospective_inputs": "generic_ballot_environment_margin=votehub_2026_dem_margin; environment_baseline_margin=uniform_poll_adjusted_dem_margin (uniform branch); environment_ticket_change=national_dem_swing_2024_2026",
+      "demographic_branch_used": false,
+      "scenario_shift": "national_sd = 2.2038495277753904 from robust_forecast_v1_error_components.csv (SD of poll_error over 7 historical cycles)",
+      "build_id_preimage": [
+        "race_war.csv sha256",
+        "post2016_southern_war_v3/manifest.json sha256",
+        "2026_poll_adjusted_baseline.csv sha256",
+        "ALABAMA_WAR_FORECAST_FIELD_CONTRACT.md sha256",
+        "spec",
+        "features"
+      ],
+      "build_id_covers_historical_cycles": false,
+      "build_id_covers_error_components": false
+    },
+    "scenario_poll_fields": {
+      "poll_average_as_of": "2026-08-17",
+      "poll_staleness_days_at_download": 1,
+      "polling_error_adjustment": [
+        -2.2038495277753904,
+        0.0,
+        2.2038495277753904
+      ],
+      "current_national_poll_margin": 7.554772105617104
+    },
+    "dashboard": {
+      "builder": "scripts/build_2026_forecast_dashboard.py",
+      "pollStalenessDays": "(build_date - poll_average_as_of).days computed at render time",
+      "gate": "require_fresh_inputs() refuses to render unless every declared manifest input/output hash matches disk"
+    }
+  },
+  "policy": {
+    "authoritative_sources": {
+      "2026_live_environment": "VoteHub polls API https://api.votehub.com/polls?poll_type=generic-ballot",
+      "curated_documents": "publisher URLs in download_recent_silver_poll_assets.py::ASSETS (manual) + auto Economist/YouGov page",
+      "frozen_not_refreshable": [
+        "data/raw/polling/fivethirtyeight_raw_polls.csv",
+        "data/raw/polling/nate_silver_pollster_ratings.csv",
+        "data/raw/polling/Catalist_What_Happened_2024_Public_National_Crosstabs_2025_05_19.xlsx"
+      ]
+    },
+    "cadence": {
+      "live_environment": "weekly during the active window; before publication",
+      "curated_documents": "weekly; requires human extension of the hardcoded ASSETS list (flag P8)",
+      "frozen_inputs": "no routine refresh; change requires separate re-validation"
+    },
+    "as_of_cutoff_rule": {
+      "definition": "as_of = max(end_date) over eligible polls",
+      "accept": "as_of >= build_date - 21 days",
+      "accept_with_stale_label": "22-60 days, label stale_environment and show recomputed pollStalenessDays",
+      "refuse": "as_of older than 60 days or a refresh with no new field date; keep previous snapshot",
+      "missing_policy": "never interpolate, zero-fill, or back-date"
+    },
+    "manifest_effect": {
+      "live_refresh_changes_build_id": true,
+      "reason": "2026_poll_adjusted_baseline.csv is in the build-id preimage",
+      "historical_cycles_or_error_components_change_build_id": false,
+      "required_identity": "(as_of, poll margin, pollster list, schema) + sha256 of the three Tier-1 inputs + build_id"
+    },
+    "must_rerun": [
+      "scripts/build_silver_bplus_polling_environment.py",
+      "scripts/build_2026_poll_adjusted_baseline.py",
+      "scripts/run_alabama_war_generic_forecast.py",
+      "scripts/build_2026_forecast_dashboard.py"
+    ],
+    "must_not_change": [
+      "data/raw/polling/fivethirtyeight_raw_polls.csv",
+      "data/raw/polling/nate_silver_pollster_ratings.csv",
+      "data/raw/polling/Catalist_What_Happened_2024_Public_National_Crosstabs_2025_05_19.xlsx",
+      "data/processed/war/post2016_southern_war_v3/",
+      "data/processed/war/alabama_war_v1/"
+    ],
+    "reproducible_command_sequence_snapshot_only": [
+      "python scripts/build_votehub_crosstab_source_inventory.py --from-date <YYYY-MM-DD> --skip-document-downloads",
+      "python scripts/build_silver_pollster_quality_gate.py",
+      "python scripts/refresh_yougov_generic_ballot.py",
+      "python scripts/build_silver_bplus_polling_environment.py",
+      "python scripts/build_2026_poll_adjusted_baseline.py"
+    ],
+    "reproducible_command_sequence_full": [
+      "python scripts/build_votehub_crosstab_source_inventory.py --from-date <YYYY-MM-DD> --download --workers 8",
+      "python scripts/build_silver_pollster_quality_gate.py",
+      "python scripts/refresh_yougov_generic_ballot.py",
+      "python scripts/build_silver_bplus_polling_environment.py",
+      "python scripts/build_2026_catalist_yougov_transfer.py",
+      "python scripts/build_2026_poll_adjusted_baseline.py",
+      "python scripts/run_robust_forecast_pipeline.py",
+      "python scripts/run_alabama_war_generic_forecast.py",
+      ".venv/Scripts/python.exe -m pytest --testmon --testmon-noselect -p no:cacheprovider scripts/tests/test_alabama_war_generic_forecast.py -q",
+      "python scripts/build_2026_forecast_dashboard.py --artifact-only"
+    ],
+    "refresh_executable_reproducibly_today": {
+      "live_2026_environment": "conditional: scriptable from the VoteHub API and local derivations, but the API was not contacted and no new field date is guaranteed; new as_of requires new polls",
+      "historical_frozen_inputs": "no: no recorded URL, retrieval time, or terms; no acquisition script"
+    }
+  },
+  "flags": [
+    {
+      "id": "P1",
+      "severity": "high",
+      "finding": "scripts/refresh_2026_forecast.py does not run run_alabama_war_generic_forecast.py, so its environment rebuild would leave the WAR forecast manifest stale and the dashboard gate would refuse to render",
+      "options": [
+        "insert the forecast script",
+        "document that the packaged script is not the forecast-product refresh path"
+      ]
+    },
+    {
+      "id": "P2",
+      "severity": "high",
+      "finding": "build_id preimage excludes historical_silver_a_generic_ballot_cycles.csv and robust_forecast_v1_error_components.csv although both are declared inputs",
+      "options": [
+        "add their hashes to the preimage (code change + rebuild)",
+        "keep the scheme and use the declared input-hash tuple as environment identity"
+      ]
+    },
+    {
+      "id": "P3",
+      "severity": "medium",
+      "finding": "population weights differ between the current environment {lv1.0,rv0.75,a0.5} and the historical environment {lv1.0,rv0.8,a0.55,v0.9,default0.7}",
+      "options": [
+        "document as intentional (different source population labels)",
+        "unify"
+      ]
+    },
+    {
+      "id": "P4",
+      "severity": "medium",
+      "finding": "build_silver_bplus_polling_environment.py has no guard for a poll missing one party share; NaN propagates into the topline environment",
+      "options": [
+        "drop and count such polls explicitly"
+      ]
+    },
+    {
+      "id": "P5",
+      "severity": "high",
+      "finding": "terms unknown for all non-FTE polling raw sources (8 silver_recent docs, VoteHub catalog, crosstabs_reviewed, YouGov/Economist topline, Catalist workbook); VoteHub CC BY 4.0 is an in-code constant",
+      "options": [
+        "record verified terms in the acquisition manifest before publication use"
+      ]
+    },
+    {
+      "id": "P6",
+      "severity": "high",
+      "finding": "two polling raw files cannot be refreshed reproducibly (no URL/time/terms/script): FTE raw polls and Silver ratings; both feed the historical forward test and national_sd",
+      "options": [
+        "freeze explicitly in policy",
+        "locate and record provenance"
+      ]
+    },
+    {
+      "id": "P7",
+      "severity": "medium",
+      "finding": "historical rating screen is survivorship-biased (current 2026 A-range ratings applied to 1998-2022)",
+      "options": [
+        "freeze and label; document the limitation"
+      ]
+    },
+    {
+      "id": "P8",
+      "severity": "medium",
+      "finding": "download_recent_silver_poll_assets.py uses a hardcoded ASSETS list; a weekly cadence depends on a human extending it",
+      "options": [
+        "document the manual step",
+        "add discovery of high-grade publisher releases"
+      ]
+    },
+    {
+      "id": "P9",
+      "severity": "low",
+      "finding": "poll_staleness_days_at_download=1 is frozen in the baseline file while true staleness is 25 days; the dashboard recomputes its own value",
+      "options": [
+        "do not quote the frozen column as current staleness"
+      ]
+    }
+  ],
+  "not_established": [
+    "VoteHub API state today (no download performed)",
+    "accuracy of the in-code VoteHub CC BY 4.0 claim against VoteHub terms of service",
+    "source URLs, retrieval timestamps and terms for fivethirtyeight_raw_polls.csv, nate_silver_pollster_ratings.csv, votehub_crosstabs_reviewed.csv and the Catalist workbook",
+    "consumers of the 1998-2014 rows in the historical cycles file (not used by this forecast)",
+    "numerical effect of any refresh on the published forecast (nothing was rebuilt)",
+    "consumers of the fallback votehub_generic_ballot_snapshot.csv beyond the baseline builder's fallback branch",
+    "whether any product consumes the virginia_generic_ballot_environment.csv files"
+  ],
+  "out_of_scope_findings": [
+    "warehouse_source_file matches for '%poll%' include one Arkansas Secretary of State precinct-results file (name contains 'Polling_Location'), not a polling input",
+    "REPOSITORY_LAYOUT.md maps nate_silver_pollster_ratings.csv from a loose file named data-GiFps.csv; the only in-repo provenance note, with no URL or date"
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "live_rows": 1564,
+  "scratch_rows": 1566,
+  "added": [
+    {
+      "year": 2002,
+      "chamber": "house",
+      "district": 27,
+      "canonical_party": "D",
+      "canonical_name_scratch": "McLaughlin, Jeffrey",
+      "canonical_votes_scratch": 7724.0,
+      "canonical_source_scratch": "alabama_sos"
+    },
+    {
+      "year": 2002,
+      "chamber": "house",
+      "district": 27,
+      "canonical_party": "R",
+      "canonical_name_scratch": "Hawkins, Gerald (Jerry)",
+      "canonical_votes_scratch": 4789.0,
+      "canonical_source_scratch": "alabama_sos"
+    }
+  ],
+  "removed": [],
+  "changed_votes": [
+    {
+      "year": 2002,
+      "chamber": "senate",
+      "district": 9,
+      "canonical_party": "D",
+      "canonical_name_live": "Mitchem, Hinton",
+      "canonical_votes_live": 8914.0,
+      "canonical_votes_scratch": 24603.0,
+      "votes_delta": 15689.0
+    },
+    {
+      "year": 2002,
+      "chamber": "senate",
+      "district": 9,
+      "canonical_party": "R",
+      "canonical_name_live": "Edmonds, Doris",
+      "canonical_votes_live": 9438.0,
+      "canonical_votes_scratch": 16995.0,
+      "votes_delta": 7557.0
+    },
+    {
+      "year": 2002,
+      "chamber": "house",
+      "district": 26,
+      "canonical_party": "D",
+      "canonical_name_live": "McDaniel, Frank",
+      "canonical_votes_live": 1102.0,
+      "canonical_votes_scratch": 7069.0,
+      "votes_delta": 5967.0
+    },
+    {
+      "year": 2002,
+      "chamber": "house",
+      "district": 26,
+      "canonical_party": "R",
+      "canonical_name_live": "Patterson, Jeffrey",
+      "canonical_votes_live": 598.0,
+      "canonical_votes_scratch": 4459.0,
+      "votes_delta": 3861.0
+    },
+    {
+      "year": 2018,
+      "chamber": "house",
+      "district": 67,
+      "canonical_party": "D",
+      "canonical_name_live": "Prince Chestnut",
+      "canonical_votes_live": 11635.0,
+      "canonical_votes_scratch": 11239.0,
+      "votes_delta": -396.0
+    },
+    {
+      "year": 2018,
+      "chamber": "senate",
+      "district": 23,
+      "canonical_party": "D",
+      "canonical_name_live": "Malika Sanders-Fortier",
+      "canonical_votes_live": 30193.0,
+      "canonical_votes_scratch": 29920.0,
+      "votes_delta": -273.0
+    },
+    {
+      "year": 2022,
+      "chamber": "house",
+      "district": 73,
+      "canonical_party": "R",
+      "canonical_name_live": "GSL073RPAS",
+      "canonical_votes_live": 10404.0,
+      "canonical_votes_scratch": 10343.0,
+      "votes_delta": -61.0
+    },
+    {
+      "year": 2022,
+      "chamber": "house",
+      "district": 92,
+      "canonical_party": "R",
+      "canonical_name_live": "GSL092RHAM",
+      "canonical_votes_live": 11812.0,
+      "canonical_votes_scratch": 11778.0,
+      "votes_delta": -34.0
+    },
+    {
+      "year": 2022,
+      "chamber": "house",
+      "district": 68,
+      "canonical_party": "R",
+      "canonical_name_live": "GSL068RKEL",
+      "canonical_votes_live": 8981.0,
+      "canonical_votes_scratch": 8948.0,
+      "votes_delta": -33.0
+    },
+    {
+      "year": 2022,
+      "chamber": "house",
+      "district": 56,
+      "canonical_party": "D",
+      "canonical_name_live": "GSL056DTIL",
+      "canonical_votes_live": 9008.0,
+      "canonical_votes_scratch": 8986.0,
+      "votes_delta": -22.0
+    },
+    {
+      "year": 2022,
+      "chamber": "house",
+      "district": 68,
+      "canonical_party": "D",
+      "canonical_name_live": "GSL068DJAC",
+      "canonical_votes_live": 9537.0,
+      "canonical_votes_scratch": 9517.0,
+      "votes_delta": -20.0
+    },
+    {
+      "year": 2022,
+      "chamber": "house",
+      "district": 92,
+      "canonical_party": "D",
+      "canonical_name_live": "GSL092DHUB",
+      "canonical_votes_live": 1795.0,
+      "canonical_votes_scratch": 1789.0,
+      "votes_delta": -6.0
+    },
+    {
+      "year": 2018,
+      "chamber": "senate",
+      "district": 14,
+      "canonical_party": "R",
+      "canonical_name_live": "Cam Ward",
+      "canonical_votes_live": 34957.0,
+      "canonical_votes_scratch": 34953.0,
+      "votes_delta": -4.0
+    },
+    {
+      "year": 2018,
+      "chamber": "senate",
+      "district": 28,
+      "canonical_party": "D",
+      "canonical_name_live": "Billy Beasley",
+      "canonical_votes_live": 28445.0,
+      "canonical_votes_scratch": 28442.0,
+      "votes_delta": -3.0
+    },
+    {
+      "year": 2018,
+      "chamber": "senate",
+      "district": 30,
+      "canonical_party": "R",
+      "canonical_name_live": "Clyde Chambliss, Jr.",
+      "canonical_votes_live": 35259.0,
+      "canonical_votes_scratch": 35256.0,
+      "votes_delta": -3.0
+    },
+    {
+      "year": 2022,
+      "chamber": "house",
+      "district": 32,
+      "canonical_party": "D",
+      "canonical_name_live": "GSL032DBOY",
+      "canonical_votes_live": 5522.0,
+      "canonical_votes_scratch": 5519.0,
+      "votes_delta": -3.0
+    },
+    {
+      "year": 2018,
+      "chamber": "house",
+      "district": 83,
+      "canonical_party": "D",
+      "canonical_name_live": "Jeremy \"Mr. Eyg\" Gray",
+      "canonical_votes_live": 8943.0,
+      "canonical_votes_scratch": 8940.0,
+      "votes_delta": -3.0
+    },
+    {
+      "year": 2022,
+      "chamber": "house",
+      "district": 16,
+      "canonical_party": "R",
+      "canonical_name_live": "GSL016RSOU",
+      "canonical_votes_live": 13177.0,
+      "canonical_votes_scratch": 13174.0,
+      "votes_delta": -3.0
+    },
+    {
+      "year": 2022,
+      "chamber": "house",
+      "district": 75,
+      "canonical_party": "R",
+      "canonical_name_live": "GSL075RING",
+      "canonical_votes_live": 11690.0,
+      "canonical_votes_scratch": 11688.0,
+      "votes_delta": -2.0
+    },
+    {
+      "year": 2018,
+      "chamber": "senate",
+      "district": 14,
+      "canonical_party": "D",
+      "canonical_name_live": "Jerry McDonald",
+      "canonical_votes_live": 13173.0,
+      "canonical_votes_scratch": 13171.0,
+      "votes_delta": -2.0
+    },
+    {
+      "year": 2018,
+      "chamber": "house",
+      "district": 49,
+      "canonical_party": "R",
+      "canonical_name_live": "April Weaver",
+      "canonical_votes_live": 10795.0,
+      "canonical_votes_scratch": 10794.0,
+      "votes_delta": -1.0
+    },
+    {
+      "year": 2018,
+      "chamber": "house",
+      "district": 83,
+      "canonical_party": "R",
+      "canonical_name_live": "Michael J Holden II",
+      "canonical_votes_live": 5143.0,
+      "canonical_votes_scratch": 5142.0,
+      "votes_delta": -1.0
+    },
+    {
+      "year": 2018,
+      "chamber": "house",
+      "district": 81,
+      "canonical_party": "D",
+      "canonical_name_live": "Jeremy \"J.J.\" Jeffcoat",
+      "canonical_votes_live": 4697.0,
+      "canonical_votes_scratch": 4696.0,
+      "votes_delta": -1.0
+    },
+    {
+      "year": 2018,
+      "chamber": "senate",
+      "district": 27,
+      "canonical_party": "D",
+      "canonical_name_live": "Nancy Carlton Bendinger",
+      "canonical_votes_live": 20587.0,
+      "canonical_votes_scratch": 20586.0,
+      "votes_delta": -1.0
+    },
+    {
+      "year": 2022,
+      "chamber": "house",
+      "district": 32,
+      "canonical_party": "R",
+      "canonical_name_live": "GSL032RJAC",
+      "canonical_votes_live": 4390.0,
+      "canonical_votes_scratch": 4389.0,
+      "votes_delta": -1.0
+    }
+  ],
+  "changed_votes_by_year": {
+    "2002": 4,
+    "2018": 11,
+    "2022": 10
+  },
+  "changed_name_count": 0,
+  "changed_id_count": 0,
+  "changed_incumbent_count": 0,
+  "changed_ids_by_year": {},
+  "elapsed_seconds": 165.5
+}

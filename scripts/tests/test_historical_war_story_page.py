@@ -25,8 +25,8 @@ def test_historical_map_restores_every_cycle_and_chamber() -> None:
         1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022,
     }
     assert {section["chamber"] for section in payload.values()} == {"house", "senate"}
-    assert sum(section["summary"]["races"] for section in payload.values()) == 509
-    assert sum(len(section["candidates"]) for section in payload.values()) == 1_018
+    assert sum(section["summary"]["races"] for section in payload.values()) == 510
+    assert sum(len(section["candidates"]) for section in payload.values()) == 1_020
     assert 'id="map"' in html
     assert "function renderMap" in html
 

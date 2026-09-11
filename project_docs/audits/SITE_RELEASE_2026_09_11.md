@@ -66,3 +66,33 @@ Backcast era sensitivity (`alabama-07`), 2002 HD26/HD27 source adjudications
 (`warehouse-05`), polling snapshot refresh policy (`forecast-04`), and the
 ideology evidence-layer acceptance items (`ideology-04..11`) remain open and are
 stated on the respective pages or cards. Publication does not close them.
+
+## Second release, 2026-09-11 (post-crash continuation)
+
+Owner authorization: publish once after the 2002 Marshall rebuild. Published:
+
+- Historical Alabama WAR `AL-HIST-WAR-V1-44F191EB8D939EF062CC` (510 races /
+  1,020 orientations; 413 backcast; 19 missing-lag) after the owner-adjudicated
+  2002 Marshall canonical repair `RUN-DFB1D093D7594AB68A264292050E924D`
+  (House 26 A1, House 27 B1, Senate 9 same defect; independent pre-application
+  review `ALABAMA_2002_MARSHALL_CANONICAL_REVIEW_2026_09_11.md` PASS). Versus the
+  first release exactly two WAR values changed (2002 Senate 9 +21.1, 2002 House 26
+  −7.0) and House 27 was added; the other 507 races are unchanged. The Southern
+  v3 run, its training-frame digest, the forecast and the Southern historical run
+  are unaffected (2002 is outside the modern training frame).
+- Alabama methodology and release card: era-level non-transportability of the
+  backcast disclosed (`ALABAMA_BACKCAST_SENSITIVITY_2026_09_11.md`), the 2002
+  adjudications and the Madison sheet discrepancy recorded.
+- Mobile shells: `blue_oxblood_theme.css` narrow-viewport containment; all ten
+  pages render without horizontal overflow at 390 px.
+- 2014 House 31/66, Senate 30 party labels: owner option C1 — preserved as source
+  fact with a consumer warning in the adjudication packet; canonical totals were
+  already correct and the contests are unopposed/excluded.
+
+Verification: 20 page renders (ten pages × 1258/390 px) over HTTP; 0 overflow, 0
+legacy claim strings, era disclosure present, maps render (105/189/130 district
+paths). One transient request failure on the first desktop load of `index.html`
+did not reproduce. Download parity byte-identical for the Alabama historical
+manifest/export, release card and the legacy `cmo_v6` downloads. Tests: 71
+affected tests pass (historical WAR, Alabama v1, cmo v5/v6, canonical finance,
+panel, ideology/caucus pages, repair fixtures, backcast sensitivity).

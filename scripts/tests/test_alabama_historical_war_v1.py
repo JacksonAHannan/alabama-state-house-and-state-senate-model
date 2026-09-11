@@ -21,8 +21,9 @@ def load(name: str) -> pd.DataFrame:
 def test_historical_coverage_and_arithmetic() -> None:
     races = load("race_war.csv")
     candidates = load("candidate_cycle_war.csv")
-    assert len(races) == 509
-    assert len(candidates) == 1018
+    manifest = json.loads((OUT / "manifest.json").read_text(encoding="utf-8"))
+    assert len(races) == manifest["diagnostics"]["race_rows"] == 510
+    assert len(candidates) == 2 * len(races)
     assert set(races.cycle) == {1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022}
     assert not races.duplicated(KEYS).any()
     assert not candidates.duplicated(KEYS + ["canonical_party"]).any()
@@ -36,7 +37,7 @@ def test_historical_coverage_and_arithmetic() -> None:
 def test_pre2016_scores_are_modern_model_backcasts() -> None:
     races = load("race_war.csv")
     historical = races[races.cycle.le(2014)]
-    assert len(historical) == 412
+    assert len(historical) == 413  # 412 + 2002 House 27 after the Marshall canonical repair
     assert historical.scoring_scope.eq("post2016_southern_model_backcast").all()
     np.testing.assert_allclose(
         historical.fitted_structural_expected_gap,
@@ -104,7 +105,7 @@ def test_manifest_records_extrapolation_and_no_pooling_or_finance() -> None:
     assert manifest["configuration"]["finance_in_war"] is False
     assert manifest["configuration"]["committee_names_allowed"] is False
     assert manifest["configuration"]["identifier_shaped_names_allowed"] is False
-    assert manifest["diagnostics"]["race_rows"] == 509
+    assert manifest["diagnostics"]["race_rows"] == 510
     assert manifest["diagnostics"]["committee_like_candidate_names"] == 0
     assert manifest["diagnostics"]["identifier_shaped_candidate_names"] == 0
     assert manifest["diagnostics"]["verified_display_name_adjudications"] > 0

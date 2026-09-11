@@ -22,8 +22,8 @@ Literal `Last, First` source names are reordered before model-local longitudinal
 
 | cycle | chamber | district | candidate_direct_cmo | candidate_quality_index | candidate_quality_low | candidate_quality_high | quality_status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2010.000 | house | 2.000 | 19.518 | 3.542 | -12.708 | 19.792 | uncertain |
-| 2014.000 | senate | 1.000 | 10.533 | 3.542 | -12.708 | 19.792 | uncertain |
+| 2010.000 | house | 2.000 | 19.518 | 3.535 | -12.670 | 19.739 | uncertain |
+| 2014.000 | senate | 1.000 | 10.533 | 3.535 | -12.670 | 19.739 | uncertain |
 
 ## Interpretation
 

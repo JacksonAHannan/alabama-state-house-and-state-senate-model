@@ -1,0 +1,231 @@
+{
+  "warehouse_status": "committed",
+  "build_run_id": "RUN-DFB1D093D7594AB68A264292050E924D",
+  "latest_run_before": "RUN-504CE4C4DF904D88A5A40D268F3FCEAB",
+  "configuration": {
+    "backup": "C:\\Users\\User\\Documents\\GitHub\\alabama-state-house-and-state-senate-model\\data\\processed\\elections\\backups\\pre-2002-marshall-canonical-2026-09-11.sqlite",
+    "expected_run": "RUN-504CE4C4DF904D88A5A40D268F3FCEAB",
+    "source_file_id": "SRC-9E0F7297AEB976F98688",
+    "workbook": "2002-GeneralElection-PrecinctLevel_0.xls",
+    "repair_run_for_marshall_rows": "RUN-40A033B9854141F6B05A76173E66D17B",
+    "packet": "project_docs/audits/SOURCE_COLLISION_ADJUDICATION_PACKET_2026_09_11.md",
+    "before_controls": {
+      "warehouse_build_run": "a1a4768c144e883691d818e200def37d09ccf4bbfae69968e22a14189695c71a",
+      "qa_warehouse_source_repair": "e389e2cfad26711c8d674ce37f5069ad11611d86890d1e4a0fe2e1c063f74811",
+      "warehouse_manual_adjudication": "a1f733f11cc0e44f9c70991fa5c3dfff0a338f25d08c8daf55c225b9d505eb47",
+      "warehouse_source_file": "54eb359b3d42ab1e536a2cb2a9ffc7310a81f3ead1ce5e9a2a345e32215ab74d",
+      "warehouse_table_registry": "d3a55e8acfdcf71761c945aa8a4e63ecc8d22863a1793c931abc0d22bc1b23b6",
+      "warehouse_schema_version": "898094d70faf91624c2dad8563190a4f19f012f8a18d413c2442622577db254d",
+      "vote_observations": "6a5c8c2e7e137414c088fabd84a53fbeb7f996f0911aee3d87d53b12551f75e6",
+      "mart_southern_war_outcome": "9e9028ef11b53ac9bb02ef94672b2aa09c68f8ce054d5ea3dd5073b7b1697c1e",
+      "mart_southern_war_context_feature": "c3567ed5991dc96ca156b54e12a3b645a238a46c176347b6061f897a3a120ed7"
+    },
+    "before_counts": {
+      "canonical_candidates": 1564,
+      "canonical_southern_legislative_candidate_election": 79812,
+      "warehouse_build_run": 128,
+      "qa_warehouse_source_repair": 56,
+      "warehouse_manual_adjudication": 1,
+      "warehouse_source_file": 26694,
+      "warehouse_table_registry": 99,
+      "warehouse_schema_version": 27,
+      "vote_observations": 2184861,
+      "mart_southern_war_outcome": 4582,
+      "mart_southern_war_context_feature": 8085
+    },
+    "canonical_digest_excluding_targets": "a62df37ab4cb35ac5649903b38bafc8def5d10484760b1e7d3f476ed7315a9cf",
+    "materialized_digest_excluding_targets": "bceef3a9993f8048f5d46a98ba75c837a335ca4fdd9dd20d760f3580f0dc58ba",
+    "application_code_sha256": {
+      "scripts/repair_alabama_2002_marshall_canonical.py": "3373cc62a315f87918df01a2cbda3e26b8677c6193aac61f9c2a221db3591806",
+      "scripts/warehouse.py": "dd9df42bbb3760a51443027f53f166d7f943e8d3e8ba9ce4461ac403b72234e0"
+    },
+    "authorized_by": "owner decisions 2026-09-11 (HD26 A1, HD27 B1; SD9 same defect); independent review ALABAMA_2002_MARSHALL_CANONICAL_REVIEW_2026_09_11.md PASS (21887096\u2026)",
+    "proposal": {
+      "updates": [
+        {
+          "id": "AL-2002-house-26-D-MCDANIEL-FRANK",
+          "before": 1102.0,
+          "after": 7069.0,
+          "winner_after": 1,
+          "cells": "DEKALB!r71 1,102 + MARSHALL!r68 5,967"
+        },
+        {
+          "id": "AL-2002-house-26-R-PATTERSON-JEFFREY",
+          "before": 598.0,
+          "after": 4459.0,
+          "winner_after": 0,
+          "cells": "DEKALB!r72 598 + MARSHALL!r69 3,861"
+        },
+        {
+          "id": "AL-2002-senate-9-D-MITCHEM-HINTON",
+          "before": 8914.0,
+          "after": 24603.0,
+          "winner_after": 1,
+          "cells": "BLOUNT!r65 2,029 + MADISON!r79 precinct cells 6,885 (printed total 6,725) + MARSHALL!r65 15,689"
+        },
+        {
+          "id": "AL-2002-senate-9-R-EDMONDS-DORIS",
+          "before": 9438.0,
+          "after": 16995.0,
+          "winner_after": 0,
+          "cells": "BLOUNT!r66 1,232 + MADISON!r80 precinct cells 8,206 (printed total 7,959) + MARSHALL!r66 7,557"
+        }
+      ],
+      "inserts": [
+        {
+          "year": 2002,
+          "chamber": "house",
+          "district": 27,
+          "canonical_party": "D",
+          "canonical_votes": 7724.0,
+          "canonical_name": "McLaughlin, Jeffrey",
+          "canonical_source": "alabama_sos",
+          "person_id": "ALPERSON-MCLAUGHLIN-JEFFREY",
+          "canonical_candidate_id": "AL-2002-house-27-D-MCLAUGHLIN-JEFFREY",
+          "incumbent": 0,
+          "winner": 1,
+          "cells": "MARSHALL!r71 7,724"
+        },
+        {
+          "year": 2002,
+          "chamber": "house",
+          "district": 27,
+          "canonical_party": "R",
+          "canonical_votes": 4789.0,
+          "canonical_name": "Hawkins, Gerald (Jerry)",
+          "canonical_source": "alabama_sos",
+          "person_id": "ALPERSON-HAWKINS-GERALD-JERRY",
+          "canonical_candidate_id": "AL-2002-house-27-R-HAWKINS-GERALD-JERRY",
+          "incumbent": 0,
+          "winner": 0,
+          "cells": "MARSHALL!r73 4,789"
+        }
+      ],
+      "adjudications": [
+        "ADJ-2002-AL-HD26-COUNTY-COMPLEMENT",
+        "ADJ-2002-AL-HD27-MARSHALL-PARSE",
+        "ADJ-2002-AL-SD9-MARSHALL-SEGMENT"
+      ],
+      "madison_discrepancy": {
+        "sheet": "MADISON",
+        "rows": [
+          79,
+          80
+        ],
+        "printed_totals": [
+          6725,
+          7959
+        ],
+        "precinct_cell_sums": [
+          6885,
+          8206
+        ],
+        "difference": [
+          160,
+          247
+        ],
+        "disposition": "recorded; precinct-cell sum retained per canonical rule"
+      }
+    }
+  },
+  "validation": {
+    "updates": [
+      {
+        "id": "AL-2002-house-26-D-MCDANIEL-FRANK",
+        "before": 1102.0,
+        "after": 7069.0,
+        "winner_after": 1,
+        "cells": "DEKALB!r71 1,102 + MARSHALL!r68 5,967"
+      },
+      {
+        "id": "AL-2002-house-26-R-PATTERSON-JEFFREY",
+        "before": 598.0,
+        "after": 4459.0,
+        "winner_after": 0,
+        "cells": "DEKALB!r72 598 + MARSHALL!r69 3,861"
+      },
+      {
+        "id": "AL-2002-senate-9-D-MITCHEM-HINTON",
+        "before": 8914.0,
+        "after": 24603.0,
+        "winner_after": 1,
+        "cells": "BLOUNT!r65 2,029 + MADISON!r79 precinct cells 6,885 (printed total 6,725) + MARSHALL!r65 15,689"
+      },
+      {
+        "id": "AL-2002-senate-9-R-EDMONDS-DORIS",
+        "before": 9438.0,
+        "after": 16995.0,
+        "winner_after": 0,
+        "cells": "BLOUNT!r66 1,232 + MADISON!r80 precinct cells 8,206 (printed total 7,959) + MARSHALL!r66 7,557"
+      }
+    ],
+    "inserts": [
+      {
+        "year": 2002,
+        "chamber": "house",
+        "district": 27,
+        "canonical_party": "D",
+        "canonical_votes": 7724.0,
+        "canonical_name": "McLaughlin, Jeffrey",
+        "canonical_source": "alabama_sos",
+        "person_id": "ALPERSON-MCLAUGHLIN-JEFFREY",
+        "canonical_candidate_id": "AL-2002-house-27-D-MCLAUGHLIN-JEFFREY",
+        "incumbent": 0,
+        "winner": 1,
+        "cells": "MARSHALL!r71 7,724"
+      },
+      {
+        "year": 2002,
+        "chamber": "house",
+        "district": 27,
+        "canonical_party": "R",
+        "canonical_votes": 4789.0,
+        "canonical_name": "Hawkins, Gerald (Jerry)",
+        "canonical_source": "alabama_sos",
+        "person_id": "ALPERSON-HAWKINS-GERALD-JERRY",
+        "canonical_candidate_id": "AL-2002-house-27-R-HAWKINS-GERALD-JERRY",
+        "incumbent": 0,
+        "winner": 0,
+        "cells": "MARSHALL!r73 4,789"
+      }
+    ],
+    "adjudications": [
+      "ADJ-2002-AL-HD26-COUNTY-COMPLEMENT",
+      "ADJ-2002-AL-HD27-MARSHALL-PARSE",
+      "ADJ-2002-AL-SD9-MARSHALL-SEGMENT"
+    ],
+    "madison_discrepancy": {
+      "sheet": "MADISON",
+      "rows": [
+        79,
+        80
+      ],
+      "printed_totals": [
+        6725,
+        7959
+      ],
+      "precinct_cell_sums": [
+        6885,
+        8206
+      ],
+      "difference": [
+        160,
+        247
+      ],
+      "disposition": "recorded; precinct-cell sum retained per canonical rule"
+    },
+    "backup": "C:\\Users\\User\\Documents\\GitHub\\alabama-state-house-and-state-senate-model\\data\\processed\\elections\\backups\\pre-2002-marshall-canonical-2026-09-11.sqlite",
+    "not_rebuilt": [
+      "candidate_aliases, candidate_party_affiliations, candidate_party_switches, candidate_alias_match_candidates (identity-build copies; HD27 absent, SD9/HD26 votes stale)",
+      "canonical_southern_legislative_candidate_election: Klarner HD27 rows LCAND-B1A8473C428DB3E46D37 / LCAND-9BD17D79BFA93F9EFC32 (set LSET-120E9CDFC994B713A780, rank 30) remain beside the new ALCANON-2002-house-27 set until load_southern_legislative_history_warehouse.py re-materializes from the resolved view; the final-candidate view already prefers ALCANON and the 2016-2024 outcome mart is unaffected",
+      "build_1998_2006_context_features.py outputs (1998_2006_candidate_incumbency.csv, 1998_2006_cmo_context_features.csv, mart_historical_cmo_context_feature_v2)",
+      "build_dime_finance_features.py and build_multisource_finance_features.py candidate/race finance matches (new HD27 candidates absent)",
+      "canonical_cmo_features.csv, canonical_cmo_candidates.csv, canonical_cmo_district_office_baselines.csv, historical_cmo_extension.csv",
+      "cmo_v5_*",
+      "southern_war_panel_v1 (Alabama 2002 backcast rows; outside the v3 training frame)",
+      "alabama_historical_war_v1",
+      "docs/cmo.html, ideology pages"
+    ],
+    "report_status": "database commit evidence authoritative; report written after commit"
+  }
+}

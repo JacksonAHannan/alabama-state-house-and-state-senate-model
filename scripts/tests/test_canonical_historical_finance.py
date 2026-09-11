@@ -14,7 +14,7 @@ from build_canonical_historical_finance import SMOOTHING_DOLLARS, build
 
 def test_canonical_finance_preserves_unknowns_and_observed_zeros() -> None:
     candidates, races, coverage = build()
-    assert len(races) == 509
+    assert len(races) == 510
     complete = races.canonical_finance_complete.eq(1)
     assert complete.any() and (~complete).any()
     assert complete.equals(races[["dem_fundraising", "rep_fundraising"]].notna().all(axis=1))

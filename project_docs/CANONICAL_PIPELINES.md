@@ -117,6 +117,68 @@ election-only database; it must never replace the populated central warehouse.
 After a source repair, resolve affected stale dependencies before running any
 of the publication-writing commands above.
 
+## Reproducible command sequences per product
+
+Each sequence is the order actually executed for the 2026-09-11 release
+(`audits/SITE_RELEASE_2026_09_11.md`). Upstream stages regenerate data and are
+gated; renderers only draw. Run one stage at a time on this host. Warehouse
+writes (marked *W*) take a separate verified backup first
+(`sqlite3.Connection.backup`, `PRAGMA quick_check`) and record a
+`warehouse_build_run` row; publication-writing renderers run only under an
+explicit publication authorization, otherwise with `--artifact-only`.
+
+**Southern WAR, 2016–2024** (after any Alabama source or allocation change):
+`build_canonical_geographic_weights.py` → `build_1994_cmo_baseline.py` *W* →
+`build_historical_federal_baselines.py` *W* → `build_canonical_cmo_features.py` →
+`rebuild_cmo_candidate_quality_v5.py` → `build_southern_war_panel_v1.py` →
+`load_southern_war_preparation_warehouse.py` *W* → archive the current approved
+v3 bundle → `retrain_post2016_southern_war_v3.py` →
+`pytest scripts/tests/test_post2016_southern_war_v3.py scripts/tests/test_southern_war_preparation_warehouse.py` →
+`audit_southern_v3_context_sensitivity.py` → independent review record → new
+`audits/SOUTHERN_V3_RELEASE_DECISION.json` → `build_southern_historical_war_v1.py`
+→ `build_southern_war_map.py` (publishes `docs/southern-war.html`).
+
+**Historical Alabama WAR** (after the Southern decision above):
+`build_alabama_war_v1.py` → `build_alabama_historical_war_v1.py` →
+`pytest scripts/tests/test_alabama_war_v1.py scripts/tests/test_alabama_historical_war_v1.py`
+→ release card under `audits/` → `build_war_story_page.py --artifact-only`
+(candidate) or without the flag (publishes `docs/cmo.html`).
+
+**2026 forecast** (after `alabama_war_v1`): polling snapshot per the refresh
+policy → `run_alabama_war_generic_forecast.py` →
+`pytest scripts/tests/test_alabama_war_generic_forecast.py` →
+`build_2026_forecast_dashboard.py --artifact-only` (candidate) or without the
+flag (publishes `docs/index.html`, methodology and downloads).
+
+**Ideology and caucuses** (after the historical Alabama export):
+`run_frontier_ideology_pipeline.py` (evidence ledger through valence) →
+`validate_frontier_ideology_integration.py` → cluster and thesis analyses →
+`build_democratic_transition_page.py`, `build_caucus_analysis_page.py`
+(candidates under `artifacts/site/`; the site publisher copies them). There is
+still no single certified rebuild for the upstream evidence stages (roll-call
+warehouse, ontology, adjudication); trace `IDEOLOGY-ROLLCALL-OPENAI-CLASSIFY-20260908.md`
+before rerunning them.
+
+**Whole site:** `python scripts/project.py build site --publish` runs the six
+renderers and applies the theme; it is publication, not validation.
+
+## Release matrix and stopping rule
+
+| Product | Required coverage | Permitted exclusions | Independent acceptance | Evidence of acceptance |
+|---|---|---|---|---|
+| Southern WAR 2016–2024 | every scheduled state/cycle/chamber slice (116) accounted for; every strict D-vs-R final contest scored | reason-coded research-only outcomes (baseline not strict; experimental incumbency) published per state; explicit empty slices | `validation_release` review of the exact run + decision file bound by hash | `SOUTHERN_V3_RELEASE_DECISION.json`, review record, sensitivity audit, state coverage file |
+| Historical Alabama WAR | 509 contested D-vs-R general races 1994–2022; 1,018 orientations | unopposed races (546); backcast label on pre-2016 rows; explicit missing-lag-context encoding | reviewed Southern source + builder identities + race-universe reconciliation reproduced independently | manifest, release card, `ALABAMA_HISTORICAL_RACE_UNIVERSE_*`, dependency-rebuild audit |
+| 2026 forecast | all 140 seats accounted for (modeled, single-major-party, independent-only, unresolved) | seats not modeled must be visible as such, never assigned silently | `validation_release` review of manifest, holdout and public-contract reconciliation | forecast manifest, validation audit, public-contract reconciliation, polling snapshot policy |
+| Ideology and caucuses | the Democratic 1998–2022 candidate-cycles with sufficient evidence and a valid historical-WAR join | candidate-cycles below the evidence threshold (shown as missing, not imputed) | evidence-layer validation (`ideology-04..07`) and cluster sensitivity reviewed independently | funnel audit, evidence-layer validation, cluster validation |
+
+Stopping rule: a product is complete for release when every row above has
+current evidence for the published run and every unresolved item is either an
+explicit, reviewed exclusion permitted by its contract or an `unknown` shown to
+readers. No completeness percentage, additional predictor, or further source
+acquisition is required to stop; a required provenance, identity, reconciliation
+or stale-input failure blocks only the affected consumer. Publication after
+acceptance is a separate owner authorization with a recorded rollback commit.
+
 ## Definitions and release status
 
 The historical public WAR products use a Split Ticket-style race residual:

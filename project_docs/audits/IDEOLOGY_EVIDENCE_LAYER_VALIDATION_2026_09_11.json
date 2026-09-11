@@ -1,0 +1,755 @@
+{
+  "audit": "IDEOLOGY_EVIDENCE_LAYER_VALIDATION_2026_09_11",
+  "title": "Ideology evidence layer validation (ideology-04..07)",
+  "generated_at_utc": "2026-09-11T15:09:24+00:00",
+  "scope": "read-only audit; no pipeline, warehouse, docs/ or data export write",
+  "method": "standard-library csv streaming reads; no pandas; no database",
+  "inputs": {
+    "data/processed/legislative/comprehensive_rollcall_classifications.csv": {
+      "path": "data/processed/legislative/comprehensive_rollcall_classifications.csv",
+      "rows": 60704,
+      "bytes": 42127332,
+      "sha256": "65f9c2f053b0f0efe6370ef33dbb528aad87ac57bb4d2db69f6f640d4b82a260",
+      "mtime_utc": "2026-08-25T03:33:07+00:00"
+    },
+    "data/processed/legislative/frontier_rollcall_ontology_v3.csv": {
+      "path": "data/processed/legislative/frontier_rollcall_ontology_v3.csv",
+      "rows": 61003,
+      "bytes": 28955782,
+      "sha256": "b45f5f2ec74562bfafd2988e0c32e2502880b5888be36fe7c444993fba72c274",
+      "mtime_utc": "2026-09-09T01:55:29+00:00"
+    },
+    "data/processed/legislative/historical_frontier_rollcall_ontology_v3.csv": {
+      "path": "data/processed/legislative/historical_frontier_rollcall_ontology_v3.csv",
+      "rows": 29475,
+      "bytes": 18853615,
+      "sha256": "b6a35753498502ae83ef5e2dc49849d00ec52d6ca1e5bafe5d80e97618d78825",
+      "mtime_utc": "2026-08-25T03:33:16+00:00"
+    },
+    "data/manual/ideology/frontier_legislative_bill_adjudications.csv": {
+      "path": "data/manual/ideology/frontier_legislative_bill_adjudications.csv",
+      "rows": 28833,
+      "bytes": 6043773,
+      "sha256": "c958e62433b1e6c482c63c3e2ac841886cfb92b0bb57511fb966c12f0dd2bb66",
+      "mtime_utc": "2026-09-09T01:55:27+00:00"
+    },
+    "data/processed/ideology/candidate_legislative_position_evidence_v3.csv": {
+      "path": "data/processed/ideology/candidate_legislative_position_evidence_v3.csv",
+      "rows": 35619,
+      "bytes": 23474689,
+      "sha256": "6909ac46c9d7faf905aca47db9658de6371991793ab63d02b2ae6d850388d045",
+      "mtime_utc": "2026-09-09T01:59:36+00:00"
+    },
+    "data/processed/ideology/candidate_legislative_sponsorship_evidence_v3.csv": {
+      "path": "data/processed/ideology/candidate_legislative_sponsorship_evidence_v3.csv",
+      "rows": 16181,
+      "bytes": 7329838,
+      "sha256": "33fdc0ce15017151e9b79910e3d7a8c20f8f67799043a68bd1c538a5a6c34a8d",
+      "mtime_utc": "2026-09-09T04:18:49+00:00"
+    },
+    "data/processed/ideology/candidate_position_evidence_v3.csv": {
+      "path": "data/processed/ideology/candidate_position_evidence_v3.csv",
+      "rows": 62745,
+      "bytes": 36239595,
+      "sha256": "f0bdfe2112e96ea80bf85b497fe44a01a726c681b23f4150215458a4ee90edfd",
+      "mtime_utc": "2026-09-09T04:20:17+00:00"
+    },
+    "data/processed/ideology/candidate_position_evidence_v3_all_sources.csv": {
+      "path": "data/processed/ideology/candidate_position_evidence_v3_all_sources.csv",
+      "rows": 63881,
+      "bytes": 39655383,
+      "sha256": "5198371f527e7a8b94a647ee84dd582d60c90722ad95428d7e8343d3249151ff",
+      "mtime_utc": "2026-09-09T04:21:37+00:00"
+    },
+    "data/processed/ideology/candidate_issue_valence_v3.csv": {
+      "path": "data/processed/ideology/candidate_issue_valence_v3.csv",
+      "rows": 18958,
+      "bytes": 3106645,
+      "sha256": "8506ac12e54dc83eab0e9b0b6633241d2ffc4f11ade49a500497949f0e68b18b",
+      "mtime_utc": "2026-09-09T04:21:49+00:00"
+    },
+    "data/processed/ideology/candidate_family_valence_v3_all_sources.csv": {
+      "path": "data/processed/ideology/candidate_family_valence_v3_all_sources.csv",
+      "rows": 4538,
+      "bytes": 585717,
+      "sha256": "3ab301fa8bdbc49d20022d684c35bddbbcdd7ae55e603ff38b9ec17d5c7bd9d5",
+      "mtime_utc": "2026-09-09T04:21:49+00:00"
+    },
+    "data/processed/ideology/candidate_ideology_full_universe.csv": {
+      "path": "data/processed/ideology/candidate_ideology_full_universe.csv",
+      "rows": 1564,
+      "bytes": 879022,
+      "sha256": "fef4365f6217dfb37ef6b0414cd7b8c8bb07217647774223dd633b8853985b59",
+      "mtime_utc": "2026-09-09T01:57:17+00:00"
+    },
+    "data/processed/ideology/candidate_legislator_identity_crosswalk.csv": {
+      "path": "data/processed/ideology/candidate_legislator_identity_crosswalk.csv",
+      "rows": 1564,
+      "bytes": 312258,
+      "sha256": "6fa23d496d2c59f6b81c3a7275f53dd1c9bc1127c412e42763d3ebd7662d3769",
+      "mtime_utc": "2026-08-25T03:44:55+00:00"
+    },
+    "data/processed/elections/canonical_cmo_candidates_with_ideology_v3.csv": {
+      "path": "data/processed/elections/canonical_cmo_candidates_with_ideology_v3.csv",
+      "rows": 1564,
+      "bytes": 476252,
+      "sha256": "42d591309eeec4b50c4e476fac771294696a27cc7a9c5d678f6168fc54488ae0",
+      "mtime_utc": "2026-09-09T04:22:11+00:00"
+    },
+    "research/cmo_ideology/candidate_issue_research/candidate_research_final_status.csv": {
+      "path": "research/cmo_ideology/candidate_issue_research/candidate_research_final_status.csv",
+      "rows": 1564,
+      "bytes": 426403,
+      "sha256": "fbb4aa801c192c7e1e193fbe9784e79a39f8dfb58065271396802649318f527b",
+      "mtime_utc": "2026-08-17T20:55:36+00:00"
+    },
+    "data/processed/legislative/frontier_legislative_bill_adjudications_luna_review_queue.csv": {
+      "path": "data/processed/legislative/frontier_legislative_bill_adjudications_luna_review_queue.csv",
+      "rows": 1,
+      "bytes": 456,
+      "sha256": "4ea5d282ce194a794e57fe61a6c3c857ad2c8e57b36b39293881eaa8996ce3af",
+      "mtime_utc": "2026-09-09T01:54:54+00:00"
+    },
+    "data/processed/legislative/legislative_rollcall_ontology_v3_openai_review_queue.csv": {
+      "path": "data/processed/legislative/legislative_rollcall_ontology_v3_openai_review_queue.csv",
+      "rows": 10,
+      "bytes": 2810,
+      "sha256": "65b05e8e5d52d55b71d5bc25ca0250703251682b386ba936eb7d4c44a0efa63b",
+      "mtime_utc": "2026-09-08T16:54:05+00:00"
+    },
+    "scripts/build_comprehensive_rollcall_classifications.py": {
+      "path": "scripts/build_comprehensive_rollcall_classifications.py",
+      "rows": null,
+      "bytes": 24073,
+      "sha256": "3acd7f6738a7abb944f9a4eb05f9f6c2fccfc4341e408e61dd9045b385f11a31",
+      "mtime_utc": "2026-09-06T18:21:57+00:00"
+    },
+    "project_docs/coordination/IDEOLOGY-HISTORICAL-FINAL-VOTES-003.md": {
+      "path": "project_docs/coordination/IDEOLOGY-HISTORICAL-FINAL-VOTES-003.md",
+      "rows": null,
+      "bytes": 2843,
+      "sha256": "e7e41670aee153d469a21826ed2a559680e353cb4d29d9601199de9728db9a64",
+      "mtime_utc": "2026-08-25T03:34:51+00:00"
+    },
+    "project_docs/audits/HISTORICAL_FINAL_VOTE_IDEOLOGY_COVERAGE.md": {
+      "path": "project_docs/audits/HISTORICAL_FINAL_VOTE_IDEOLOGY_COVERAGE.md",
+      "rows": null,
+      "bytes": 3025,
+      "sha256": "b6f33ba2b30446e371df0e197d0f010db9935dc744b8a1c15153a73f7a9c8054",
+      "mtime_utc": "2026-08-25T03:34:51+00:00"
+    }
+  },
+  "layer_inventory": {
+    "classification_rows": 60704,
+    "ontology_rows": 61003,
+    "ontology_mapped_rows": 2321,
+    "vote_evidence_rows": 35619,
+    "sponsorship_evidence_rows": 16181,
+    "combined_ledger_rows": 62745,
+    "all_sources_rows": 63881,
+    "valence_rows": 18958,
+    "family_rows": 4538,
+    "universe_rows": 1564
+  },
+  "ideology_04": {
+    "terminal_disposition": {
+      "distinct_rollcalls": 60704,
+      "by_status": {
+        "excluded_procedural_or_ambiguous_motion": 49305,
+        "excluded_historical_non_scalar": 4349,
+        "mapped_frontier_policy_pole": 1766,
+        "excluded_historical_local": 1572,
+        "excluded_frontier_procedural": 1446,
+        "excluded_frontier_local_non_generalizable": 977,
+        "excluded_historical_budget_baseline": 534,
+        "mapped_historical_frontier_policy_pole": 256,
+        "excluded_frontier_insufficient_text": 149,
+        "excluded_frontier_mixed_no_scalar_direction": 136,
+        "excluded_historical_insufficient_text": 114,
+        "excluded_frontier_symbolic": 66,
+        "excluded_historical_symbolic": 24,
+        "excluded_historical_conflicting_poles": 10
+      }
+    },
+    "mapped": {
+      "mapped_rows": 2321,
+      "mapped_rollcalls": 2022
+    },
+    "mapped_motion_test": {
+      "by_motion_disposition": {
+        "bill_direction_applies": 2022
+      },
+      "bill_direction_applies_share": 1.0,
+      "procedural_or_ambiguous": 0
+    },
+    "mapped_motion_class_desc": {
+      "final_passage": 1041,
+      "concurrence": 652,
+      "other_adopt_or_misc": 227,
+      "conference_report": 102
+    },
+    "mapped_rows_failing_validate_primitive": 0,
+    "polarity": {
+      "all_votes": {
+        "shared_cells": 1495,
+        "agreeing_cells": 1495,
+        "fraction": 1.0,
+        "mismatch_count": 0,
+        "mismatch_examples": []
+      },
+      "yea_only": {
+        "shared_cells": 1492,
+        "agreeing_cells": 1492,
+        "fraction": 1.0,
+        "mismatch_count": 0,
+        "mismatch_examples": []
+      }
+    },
+    "review_queue": {
+      "luna_bill_queue_rows": 1,
+      "openai_rollcall_queue_rows": 10,
+      "low_confidence_mapping_bills": 16,
+      "low_confidence_mapping_bills_in_review_queue": 0,
+      "low_confidence_mapped_rollcall_rows": 1,
+      "low_confidence_mapped_rollcalls_in_bill_queue": 0,
+      "every_low_confidence_mapping_queued": false
+    },
+    "csv_evidence": {
+      "terminal_disposition": "terminal_status,rollcalls\nexcluded_procedural_or_ambiguous_motion,49305\nexcluded_historical_non_scalar,4349\nmapped_frontier_policy_pole,1766\nexcluded_historical_local,1572\nexcluded_frontier_procedural,1446\nexcluded_frontier_local_non_generalizable,977\nexcluded_historical_budget_baseline,534\nmapped_historical_frontier_policy_pole,256\nexcluded_frontier_insufficient_text,149\nexcluded_frontier_mixed_no_scalar_direction,136\nexcluded_historical_insufficient_text,114\nexcluded_frontier_symbolic,66\nexcluded_historical_symbolic,24\nexcluded_historical_conflicting_poles,10",
+      "mapped_motion_class": "motion_class,rollcalls\nfinal_passage,1041\nconcurrence,652\nother_adopt_or_misc,227\nconference_report,102",
+      "low_confidence_mapping": "bill_id,session_year,bill_number,decision,axes,poles,in_luna_queue\n1060535,2018,HB216,map,civil_social_liberty,expand,False\n1248532,2019,HB334,map,tax_burden,decrease,False\n1250623,2019,SB251,map,anti_discrimination,expand,False\n1256416,2019,HB555,map,market_governance,intervention,False\n1491951,2021,HB599,map,criminal_punishment,rehabilitative,False\n1578824,2022,HB176,map,civil_social_liberty,expand,False\n2021827,2025,SB316,map,market_governance,intervention,False\n2073726,2026,HB196,map,security_preparedness,expand,False\n2089018,2026,SB188,map,civil_social_liberty,restrict,False\n291787,2011,HB20,map,market_governance,market_autonomy,False\n414224,2012,HB535,map,constitutional_reform,reform,False\n421565,2012,SB538,map,civil_social_liberty,expand,False\n592130,2014,HB285,map,public_private_provision,public_provision,False\n639015,2014,HB613,map,family_support_enforcement,strict_enforcement,False\n767873,2015,SB354,map,land_use_property_rights,property_rights,False\n96700,2010,HB460,map,civil_social_liberty,expand,False"
+    }
+  },
+  "ideology_05": {
+    "combined_ledger_source_type": {
+      "legislative_vote": 35619,
+      "bill_sponsorship": 16181,
+      "candidate_questionnaire": 10945
+    },
+    "all_sources_source_type": {
+      "legislative_vote": 35623,
+      "bill_sponsorship": 16251,
+      "candidate_questionnaire": 9316,
+      "interest_group_rating": 1675,
+      "interest_group_endorsement": 407,
+      "candidate_interview": 141,
+      "public_statement": 129,
+      "candidate_platform": 91,
+      "candidate_voter_guide": 16,
+      "candidate_announcement": 15,
+      "legislative_cosponsorship": 12,
+      "candidate_reported_position": 12,
+      "legislative_position": 11,
+      "candidate_profile": 9,
+      "candidate_statement": 9,
+      "campaign_advertisement": 9,
+      "legislative_proposal": 9,
+      "candidate_forum": 8,
+      "archived_campaign_platform": 7,
+      "legislative_record": 6,
+      "candidate_retrospective": 6,
+      "campaign_ad": 5,
+      "campaign_release": 5,
+      "legislative_advocacy": 5,
+      "campaign_platform": 4,
+      "retrospective_office_profile": 4,
+      "official_biography": 4,
+      "candidate_campaign_statement": 4,
+      "candidate_race_profile": 4,
+      "secondary_source_synthesis": 3,
+      "candidate_biography": 3,
+      "candidate_campaign_platform": 3,
+      "candidate_position_guide": 3,
+      "candidate_campaign_position": 3,
+      "candidate_reelection_statement": 3,
+      "legislator_signed_column": 3,
+      "new_member_campaign_profile": 3,
+      "incumbent_record_reelection_statement": 3,
+      "legislative_budget_sponsorship": 3,
+      "candidate_biographical_action": 2,
+      "candidate_platform_report": 2,
+      "legislative_sponsorship_and_statement": 2,
+      "candidate_authored_column": 2,
+      "legislative_record_campaign_statement": 2,
+      "interest_group_leadership": 2,
+      "candidate_campaign_pledge": 2,
+      "candidate_pledge": 2,
+      "legislative_agenda_statement": 2,
+      "bill_cosponsorship": 2,
+      "legislative_amendment": 2,
+      "candidate_campaign_ad": 2,
+      "official_behavior": 1,
+      "retrospective_candidate_position": 1,
+      "campaign_commitment": 1,
+      "endorsement_profile": 1,
+      "candidate_distinction": 1,
+      "campaign_literature": 1,
+      "candidate_campaign_position_reported": 1,
+      "legislative_committee_vote": 1,
+      "interest_group_support": 1,
+      "party_candidate_profile": 1,
+      "legislative_record_summary": 1,
+      "bill_sponsorship_and_statement": 1,
+      "legislative_agenda": 1,
+      "contemporaneous_profile": 1,
+      "candidate_legislative_statement": 1,
+      "candidate_election_guide": 1,
+      "candidate_connection_survey": 1,
+      "legislative_record_candidate_profile": 1,
+      "incumbent_public_statement": 1,
+      "campaign_statement": 1,
+      "legislative_procedural_vote": 1,
+      "legislative_statement": 1,
+      "legislative_budget_action": 1,
+      "legislative_reform_leadership": 1,
+      "public_official_action": 1,
+      "public_advocacy": 1,
+      "interest_group_award": 1,
+      "legislative_initiative": 1,
+      "congressional_testimony": 1,
+      "legislative_disclosure_action": 1
+    },
+    "research_rows_not_primary_legislative_channels": 2691,
+    "distinct_candidate_axis_cells_by_area": {
+      "candidate_questionnaire": 3653,
+      "legislative_vote": 11547,
+      "bill_sponsorship": 6709
+    },
+    "double_count": {
+      "shared_key_count": 1495,
+      "vote_rows_in_shared": 1877,
+      "sponsorship_rows_in_shared": 1495,
+      "shared_candidate_bill_pairs": 1135
+    },
+    "double_count_examples": [
+      [
+        "AL-2010-house-11-R-JEREMY-H-ODEN",
+        "96242",
+        "gun_access"
+      ],
+      [
+        "AL-2010-house-11-R-JEREMY-H-ODEN",
+        "96349",
+        "business_subsidy"
+      ],
+      [
+        "AL-2010-house-11-R-JEREMY-H-ODEN",
+        "96349",
+        "labor_rights"
+      ],
+      [
+        "AL-2010-house-12-D-JAMES-C-FIELDS-JR",
+        "96349",
+        "business_subsidy"
+      ],
+      [
+        "AL-2010-house-12-D-JAMES-C-FIELDS-JR",
+        "96349",
+        "labor_rights"
+      ],
+      [
+        "AL-2010-house-13-D-TOMMY-SHERER",
+        "96242",
+        "gun_access"
+      ],
+      [
+        "AL-2010-house-14-D-KEN-GUIN",
+        "96588",
+        "criminal_punishment"
+      ],
+      [
+        "AL-2010-house-14-D-KEN-GUIN",
+        "96588",
+        "drug_treatment"
+      ],
+      [
+        "AL-2010-house-16-D-WILLIAM-E-THIGPEN-SR",
+        "96420",
+        "public_employee_compensation"
+      ],
+      [
+        "AL-2010-house-18-D-JOHNNY-MACK-MORROW",
+        "96242",
+        "gun_access"
+      ],
+      [
+        "AL-2010-house-24-R-TODD-GREESON",
+        "96242",
+        "gun_access"
+      ],
+      [
+        "AL-2010-house-25-R-MAC-MCCUTCHEON",
+        "96242",
+        "gun_access"
+      ],
+      [
+        "AL-2010-house-28-D-CRAIG-FORD",
+        "96242",
+        "gun_access"
+      ],
+      [
+        "AL-2010-house-29-D-JOHN-G-JACK-PAGE-III",
+        "96242",
+        "gun_access"
+      ],
+      [
+        "AL-2010-house-3-D-MARCEL-BLACK",
+        "96588",
+        "criminal_punishment"
+      ],
+      [
+        "AL-2010-house-3-D-MARCEL-BLACK",
+        "96588",
+        "drug_treatment"
+      ],
+      [
+        "AL-2010-house-33-R-RON-JOHNSON",
+        "96399",
+        "digital_privacy"
+      ],
+      [
+        "AL-2010-house-34-R-ELWYN-THOMAS",
+        "96242",
+        "gun_access"
+      ],
+      [
+        "AL-2010-house-35-D-STEVE-HURST",
+        "96242",
+        "gun_access"
+      ],
+      [
+        "AL-2010-house-41-R-MIKE-HILL",
+        "96242",
+        "gun_access"
+      ],
+      [
+        "AL-2010-house-52-D-JOHN-W-ROGERS-JR",
+        "96588",
+        "criminal_punishment"
+      ],
+      [
+        "AL-2010-house-52-D-JOHN-W-ROGERS-JR",
+        "96588",
+        "drug_treatment"
+      ],
+      [
+        "AL-2010-house-55-D-ROD-SCOTT",
+        "96588",
+        "criminal_punishment"
+      ],
+      [
+        "AL-2010-house-55-D-ROD-SCOTT",
+        "96588",
+        "drug_treatment"
+      ],
+      [
+        "AL-2010-house-58-D-OLIVER-ROBINSON",
+        "96588",
+        "criminal_punishment"
+      ],
+      [
+        "AL-2010-house-58-D-OLIVER-ROBINSON",
+        "96588",
+        "drug_treatment"
+      ],
+      [
+        "AL-2010-house-61-D-ALAN-HARPER",
+        "96420",
+        "public_employee_compensation"
+      ],
+      [
+        "AL-2010-house-70-D-CHRISTOPHER-JOHN-ENGLAND",
+        "96588",
+        "criminal_punishment"
+      ],
+      [
+        "AL-2010-house-70-D-CHRISTOPHER-JOHN-ENGLAND",
+        "96588",
+        "drug_treatment"
+      ],
+      [
+        "AL-2010-house-77-D-JOHN-KNIGHT",
+        "96349",
+        "business_subsidy"
+      ],
+      [
+        "AL-2010-house-77-D-JOHN-KNIGHT",
+        "96349",
+        "labor_rights"
+      ],
+      [
+        "AL-2010-house-81-D-BETTY-CAROL-GRAHAM",
+        "96320",
+        "public_spending"
+      ],
+      [
+        "AL-2010-house-89-D-ALAN-C-BOOTHE",
+        "96545",
+        "business_subsidy"
+      ],
+      [
+        "AL-2010-house-89-D-ALAN-C-BOOTHE",
+        "96545",
+        "public_spending"
+      ],
+      [
+        "AL-2010-house-91-D-TERRY-SPICER",
+        "96545",
+        "business_subsidy"
+      ],
+      [
+        "AL-2010-house-91-D-TERRY-SPICER",
+        "96545",
+        "public_spending"
+      ],
+      [
+        "AL-2010-house-96-R-RANDY-DAVIS",
+        "96242",
+        "gun_access"
+      ],
+      [
+        "AL-2010-house-97-D-YVONNE-KENNEDY",
+        "96588",
+        "criminal_punishment"
+      ],
+      [
+        "AL-2010-house-97-D-YVONNE-KENNEDY",
+        "96588",
+        "drug_treatment"
+      ],
+      [
+        "AL-2010-house-99-D-JAMES-E-BUSKEY",
+        "96588",
+        "criminal_punishment"
+      ],
+      [
+        "AL-2010-house-99-D-JAMES-E-BUSKEY",
+        "96588",
+        "drug_treatment"
+      ],
+      [
+        "AL-2010-senate-10-D-LARRY-MEANS",
+        "98435",
+        "public_employee_compensation"
+      ],
+      [
+        "AL-2010-senate-10-D-LARRY-MEANS",
+        "98451",
+        "environmental_protection"
+      ],
+      [
+        "AL-2010-senate-12-R-DEL-MARSH",
+        "98451",
+        "environmental_protection"
+      ],
+      [
+        "AL-2010-senate-12-R-DEL-MARSH",
+        "98666",
+        "market_governance"
+      ],
+      [
+        "AL-2010-senate-14-R-CAM-WARD",
+        "96242",
+        "gun_access"
+      ],
+      [
+        "AL-2010-senate-16-R-J-T-JABO-WAGGONER",
+        "98451",
+        "environmental_protection"
+      ],
+      [
+        "AL-2010-senate-18-D-RODGER-M-SMITHERMAN",
+        "98435",
+        "public_employee_compensation"
+      ],
+      [
+        "AL-2010-senate-18-D-RODGER-M-SMITHERMAN",
+        "98706",
+        "criminal_punishment"
+      ],
+      [
+        "AL-2010-senate-19-D-PRISCILLA-DUNN",
+        "98451",
+        "environmental_protection"
+      ]
+    ],
+    "aggregate_weighting": {
+      "formula": "weight = sum(evidence_weight) per (candidate, election_cycle, primitive_axis); value = sum(axis_contribution * evidence_weight) / weight",
+      "vote_weight": 1.0,
+      "sponsorship_weight": 1.2,
+      "both_channels_count_by_design": true,
+      "design_basis": "SPONSORSHIP-IDEOLOGY-PIPELINE-20260908.md: sponsorship is a distinct pre-priority signal applied to every sponsored bill (including bills with floor votes); the owner set weight 1.2 and both channels aggregate as independent rows."
+    },
+    "duplicate_evidence_ids": {
+      "vote_file": 0,
+      "sponsorship_file": 0,
+      "combined_ledger": 0,
+      "all_sources": 0
+    },
+    "profile_overlap": {
+      "multi_channel_profiles": 3947,
+      "multi_channel_profiles_all_sources": 4742,
+      "multi_channel_profiles_valence": 4730,
+      "vote_and_sponsorship_profiles": 3947,
+      "questionnaire_and_vote_profiles": 208,
+      "bill_level_overlap_with_votes_constructible": false,
+      "bill_level_overlap_note": "Vote Smart questionnaire rows use the Vote Smart question id as source_record_id and research rows use a source URL; neither carries a LegiScan bill id, so a bill-level overlap test with roll-call evidence is not constructible from the artifacts."
+    },
+    "csv_evidence": {
+      "source_type_counts": "source_type,rows\nlegislative_vote,35623\nbill_sponsorship,16251\ncandidate_questionnaire,9316\ninterest_group_rating,1675\ninterest_group_endorsement,407\ncandidate_interview,141\npublic_statement,129\ncandidate_platform,91\ncandidate_voter_guide,16\ncandidate_announcement,15\nlegislative_cosponsorship,12\ncandidate_reported_position,12\nlegislative_position,11\ncandidate_profile,9\ncandidate_statement,9\ncampaign_advertisement,9\nlegislative_proposal,9\ncandidate_forum,8\narchived_campaign_platform,7\nlegislative_record,6\ncandidate_retrospective,6\ncampaign_ad,5\ncampaign_release,5\nlegislative_advocacy,5\ncampaign_platform,4\nretrospective_office_profile,4\nofficial_biography,4\ncandidate_campaign_statement,4\ncandidate_race_profile,4\nsecondary_source_synthesis,3\ncandidate_biography,3\ncandidate_campaign_platform,3\ncandidate_position_guide,3\ncandidate_campaign_position,3\ncandidate_reelection_statement,3\nlegislator_signed_column,3\nnew_member_campaign_profile,3\nincumbent_record_reelection_statement,3\nlegislative_budget_sponsorship,3\ncandidate_biographical_action,2\ncandidate_platform_report,2\nlegislative_sponsorship_and_statement,2\ncandidate_authored_column,2\nlegislative_record_campaign_statement,2\ninterest_group_leadership,2\ncandidate_campaign_pledge,2\ncandidate_pledge,2\nlegislative_agenda_statement,2\nbill_cosponsorship,2\nlegislative_amendment,2\ncandidate_campaign_ad,2\nofficial_behavior,1\nretrospective_candidate_position,1\ncampaign_commitment,1\nendorsement_profile,1\ncandidate_distinction,1\ncampaign_literature,1\ncandidate_campaign_position_reported,1\nlegislative_committee_vote,1\ninterest_group_support,1\nparty_candidate_profile,1\nlegislative_record_summary,1\nbill_sponsorship_and_statement,1\nlegislative_agenda,1\ncontemporaneous_profile,1\ncandidate_legislative_statement,1\ncandidate_election_guide,1\ncandidate_connection_survey,1\nlegislative_record_candidate_profile,1\nincumbent_public_statement,1\ncampaign_statement,1\nlegislative_procedural_vote,1\nlegislative_statement,1\nlegislative_budget_action,1\nlegislative_reform_leadership,1\npublic_official_action,1\npublic_advocacy,1\ninterest_group_award,1\nlegislative_initiative,1\ncongressional_testimony,1\nlegislative_disclosure_action,1",
+      "cycle_axis_channel_counts": "election_cycle,primitive_axis,source_type,evidence_rows\n,abortion_access,candidate_questionnaire,7\n,anti_discrimination,candidate_questionnaire,2\n,civil_social_liberty,candidate_questionnaire,4\n,conservation_preservation,candidate_questionnaire,1\n,criminal_punishment,candidate_questionnaire,2\n,education_market_choice,candidate_questionnaire,1\n,education_public_funding,candidate_questionnaire,2\n,environmental_protection,candidate_questionnaire,3\n,gun_access,candidate_questionnaire,3\n,gun_purchase_regulation,candidate_questionnaire,2\n,healthcare_access,candidate_questionnaire,3\n,immigration_access,candidate_questionnaire,1\n,market_governance,candidate_questionnaire,3\n,marriage_equality,candidate_questionnaire,1\n,public_private_provision,candidate_questionnaire,1\n,renewable_energy_support,candidate_questionnaire,2\n,tax_burden,candidate_questionnaire,10\n,welfare_generosity,candidate_questionnaire,1\n1996.0,abortion_access,candidate_questionnaire,1\n1996.0,criminal_punishment,candidate_questionnaire,4\n1996.0,deficit_discipline,candidate_questionnaire,1\n1996.0,education_public_funding,candidate_questionnaire,1\n1996.0,tax_burden,candidate_questionnaire,3\n1998,civil_social_liberty,legislative_vote,32\n1998,criminal_punishment,legislative_vote,66\n1998,education_public_funding,legislative_vote,35\n1998,healthcare_access,legislative_vote,34\n1998,market_governance,legislative_vote,55\n1998,public_employee_compensation,legislative_vote,36\n1998,religion_state,legislative_vote,41\n1998,tax_burden,legislative_vote,62\n1998.0,abortion_access,candidate_questionnaire,254\n1998.0,anti_discrimination,candidate_questionnaire,249\n1998.0,childcare_delivery,candidate_questionnaire,52\n1998.0,childcare_support,candidate_questionnaire,52\n1998.0,civil_social_liberty,candidate_questionnaire,289\n1998.0,criminal_punishment,candidate_questionnaire,643\n1998.0,deficit_discipline,candidate_questionnaire,67\n1998.0,education_accountability,candidate_questionnaire,64\n1998.0,education_market_choice,candidate_questionnaire,53\n1998.0,education_public_funding,candidate_questionnaire,140\n1998.0,environmental_protection,candidate_questionnaire,336\n1998.0,gun_access,candidate_questionnaire,94\n1998.0,healthcare_access,candidate_questionnaire,182\n1998.0,labor_capital_alignment,candidate_questionnaire,52\n1998.0,land_use_property_rights,candidate_questionnaire,43\n1998.0,market_governance,candidate_questionnaire,259\n1998.0,marriage_equality,candidate_questionnaire,70\n1998.0,public_spending,candidate_questionnaire,46\n1998.0,religion_state,candidate_questionnaire,52\n1998.0,resource_management,candidate_questionnaire,46\n1998.0,tax_burden,candidate_questionnaire,587\n1998.0,voting_access,candidate_questionnaire,63\n1998.0,welfare_conditionality,candidate_questionnaire,159\n1998.0,welfare_generosity,candidate_questionnaire,181\n2000.0,abortion_access,candidate_questionnaire,2\n2000.0,anti_discrimination,candidate_questionnaire,1\n2000.0,criminal_punishment,candidate_questionnaire,4\n2000.0,education_accountability,candidate_questionnaire,2\n2000.0,gun_access,candidate_questionnaire,2\n2000.0,land_use_property_rights,candidate_questionnaire,1\n2000.0,tax_burden,candidate_questionnaire,6\n2000.0,welfare_generosity,candidate_questionnaire,1\n2002,abortion_access,legislative_vote,143\n2002,business_subsidy,legislative_vote,79\n2002,civil_social_liberty,legislative_vote,56\n2002,criminal_punishment,legislative_vote,492\n2002,education_public_funding,legislative_vote,85\n2002,environmental_protection,legislative_vote,31\n2002,healthcare_access,legislative_vote,124\n2002,public_employee_compensation,legislative_vote,122\n2002,racial_civil_rights,legislative_vote,73\n2002,religion_state,legislative_vote,86\n2002,tax_burden,legislative_vote,444\n2002,voting_access,legislative_vote,68\n2002.0,abortion_access,candidate_questionnaire,129\n2002.0,anti_discrimination,candidate_questionnaire,176\n2002.0,childcare_delivery,candidate_questionnaire,39\n2002.0,childcare_support,candidate_questionnaire,39\n2002.0,civil_social_liberty,candidate_questionnaire,85\n2002.0,conservation_preservation,candidate_questionnaire,39\n2002.0,criminal_punishment,candidate_questionnaire,321\n2002.0,education_accountability,candidate_questionnaire,80\n2002.0,education_market_choice,candidate_questionnaire,20\n2002.0,education_public_funding,candidate_questionnaire,113\n2002.0,environmental_protection,candidate_questionnaire,101\n2002.0,gun_access,candidate_questionnaire,115\n2002.0,gun_purchase_regulation,candidate_questionnaire,33\n2002.0,healthcare_access,candidate_questionnaire,203\n2002.0,market_governance,candidate_questionnaire,162\n2002.0,marriage_equality,candidate_questionnaire,96\n2002.0,religion_state,candidate_questionnaire,70\n2002.0,renewable_energy_support,candidate_questionnaire,40\n2002.0,tax_burden,candidate_questionnaire,575\n2002.0,voting_access,candidate_questionnaire,53\n2002.0,welfare_conditionality,candidate_questionnaire,36\n2002.0,welfare_generosity,candidate_questionnaire,158\n2004.0,abortion_access,candidate_questionnaire,6\n2004.0,civil_social_liberty,candidate_questionnaire,2\n2004.0,criminal_punishment,candidate_questionnaire,7\n2004.0,education_accountability,candidate_questionnaire,2\n2004.0,education_market_choice,candidate_questionnaire,4\n2004.0,environmental_protection,candidate_questionnaire,2\n2004.0,gun_access,candidate_questionnaire,6\n2004.0,healthcare_access,candidate_questionnaire,1\n2004.0,land_use_property_rights,candidate_questionnaire,1\n2004.0,marriage_equality,candidate_questionnaire,2\n2004.0,tax_burden,candidate_questionnaire,12\n2004.0,welfare_generosity,candidate_questionnaire,2\n2006,abortion_access,legislative_vote,88\n2006,civil_social_liberty,legislative_vote,240\n2006,criminal_punishment,legislative_vote,501\n2006,government_ethics_transparency,legislative_vote,36\n2006,gun_access,legislative_vote,53\n2006,healthcare_access,legislative_vote,637\n2006,public_employee_compensation,legislative_vote,171\n2006,racial_civil_rights,legislative_vote,45\n2006,tax_burden,legislative_vote,405\n2006.0,abortion_access,candidate_questionnaire,128\n2006.0,anti_discrimination,candidate_questionnaire,114\n2006.0,civil_social_liberty,candidate_questionnaire,143\n2006.0,criminal_punishment,candidate_questionnaire,303\n2006.0,drug_criminalization,candidate_questionnaire,11\n2006.0,education_accountability,candidate_questionnaire,60\n2006.0,education_market_choice,candidate_questionnaire,33\n2006.0,education_public_funding,candidate_questionnaire,78\n2006.0,environmental_protection,candidate_questionnaire,37\n2006.0,gun_access,candidate_questionnaire,53\n2006.0,gun_purchase_regulation,candidate_questionnaire,37\n2006.0,healthcare_access,candidate_questionnaire,112\n2006.0,labor_capital_alignment,candidate_questionnaire,21\n2006.0,market_governance,candidate_questionnaire,94\n2006.0,marriage_equality,candidate_questionnaire,37\n2006.0,religion_state,candidate_questionnaire,35\n2006.0,renewable_energy_support,candidate_questionnaire,41\n2006.0,resource_development,candidate_questionnaire,28\n2006.0,tax_burden,candidate_questionnaire,325\n2006.0,welfare_conditionality,candidate_questionnaire,37\n2006.0,welfare_generosity,candidate_questionnaire,85\n2008.0,abortion_access,candidate_questionnaire,2\n2008.0,criminal_punishment,candidate_questionnaire,2\n2008.0,education_market_choice,candidate_questionnaire,2\n2008.0,environmental_protection,candidate_questionnaire,1\n2008.0,gun_access,candidate_questionnaire,1\n2008.0,welfare_generosity,candidate_questionnaire,1\n2010,abortion_access,bill_sponsorship,17\n2010,affirmative_action,bill_sponsorship,11\n2010,anti_discrimination,bill_sponsorship,4\n2010,bioethics_end_of_life,bill_sponsorship,7\n2010,business_subsidy,bill_sponsorship,123\n2010,business_subsidy,legislative_vote,345\n2010,campaign_finance_disclosure,bill_sponsorship,110\n2010,campaign_finance_restrictions,bill_sponsorship,103\n2010,civil_social_liberty,bill_sponsorship,103\n2010,civil_social_liberty,legislative_vote,86\n2010,climate_energy,bill_sponsorship,19\n2010,constitutional_reform,bill_sponsorship,38\n2010,criminal_punishment,bill_sponsorship,320\n2010,criminal_punishment,legislative_vote,105\n2010,deficit_discipline,bill_sponsorship,4\n2010,digital_privacy,bill_sponsorship,9\n2010,digital_privacy,legislative_vote,80\n2010,direct_democracy,bill_sponsorship,10\n2010,drug_criminalization,bill_sponsorship,74\n2010,drug_treatment,bill_sponsorship,11\n2010,drug_treatment,legislative_vote,68\n2010,due_process,bill_sponsorship,36\n2010,economic_stimulus,bill_sponsorship,2\n2010,education_access,bill_sponsorship,5\n2010,education_accountability,bill_sponsorship,26\n2010,education_market_choice,bill_sponsorship,18\n2010,education_public_funding,bill_sponsorship,24\n2010,education_public_funding,legislative_vote,20\n2010,education_teacher_labor,bill_sponsorship,26\n2010,election_integrity_controls,bill_sponsorship,68\n2010,environmental_protection,bill_sponsorship,134\n2010,environmental_protection,legislative_vote,19\n2010,family_support_enforcement,bill_sponsorship,6\n2010,federalism,bill_sponsorship,56\n2010,gambling_policy,bill_sponsorship,15\n2010,government_ethics_transparency,bill_sponsorship,220\n2010,government_ethics_transparency,legislative_vote,3\n2010,gun_access,bill_sponsorship,17\n2010,gun_access,legislative_vote,72\n2010,healthcare_access,bill_sponsorship,37\n2010,healthcare_access,legislative_vote,92\n2010,healthcare_delivery,bill_sponsorship,6\n2010,healthcare_public_responsibility,bill_sponsorship,35\n2010,healthcare_regulation_patient_rights,bill_sponsorship,20\n2010,hunting_rural_recreation,bill_sponsorship,24\n2010,immigrant_public_benefits,bill_sponsorship,9\n2010,immigration_access,bill_sponsorship,18\n2010,immigration_enforcement,bill_sponsorship,165\n2010,incarceration,bill_sponsorship,5\n2010,incarceration,legislative_vote,13\n2010,institutional_populism,bill_sponsorship,1\n2010,labor_rights,bill_sponsorship,32\n2010,labor_rights,legislative_vote,172\n2010,land_use_property_rights,bill_sponsorship,75\n2010,market_governance,bill_sponsorship,230\n2010,market_governance,legislative_vote,70\n2010,marriage_equality,bill_sponsorship,3\n2010,police_authority,bill_sponsorship,63\n2010,public_employee_compensation,bill_sponsorship,106\n2010,public_employee_compensation,legislative_vote,94\n2010,public_private_provision,bill_sponsorship,33\n2010,public_spending,bill_sponsorship,57\n2010,public_spending,legislative_vote,342\n2010,religion_state,bill_sponsorship,4\n2010,resource_development,bill_sponsorship,5\n2010,resource_management,bill_sponsorship,6\n2010,security_preparedness,bill_sponsorship,1\n2010,surveillance_authority,bill_sponsorship,1\n2010,tax_burden,bill_sponsorship,295\n2010,tax_burden,legislative_vote,8\n2010,term_limits,bill_sponsorship,9\n2010,voting_access,bill_sponsorship,17\n2010,welfare_conditionality,bill_sponsorship,8\n2010,welfare_generosity,bill_sponsorship,26\n2010.0,abortion_access,candidate_questionnaire,136\n2010.0,anti_discrimination,candidate_questionnaire,45\n2010.0,civil_social_liberty,candidate_questionnaire,114\n2010.0,climate_energy,candidate_questionnaire,44\n2010.0,conservation_preservation,candidate_questionnaire,22\n2010.0,criminal_punishment,candidate_questionnaire,69\n2010.0,drug_criminalization,candidate_questionnaire,22\n2010.0,education_market_choice,candidate_questionnaire,19\n2010.0,education_public_funding,candidate_questionnaire,48\n2010.0,environmental_protection,candidate_questionnaire,46\n2010.0,gun_access,candidate_questionnaire,46\n2010.0,gun_purchase_regulation,candidate_questionnaire,44\n2010.0,healthcare_access,candidate_questionnaire,70\n2010.0,immigration_access,candidate_questionnaire,45\n2010.0,labor_capital_alignment,candidate_questionnaire,21\n2010.0,market_governance,candidate_questionnaire,111\n2010.0,marriage_equality,candidate_questionnaire,44\n2010.0,public_employee_compensation,candidate_questionnaire,21\n2010.0,public_private_provision,candidate_questionnaire,23\n2010.0,renewable_energy_support,candidate_questionnaire,44\n2010.0,resource_development,candidate_questionnaire,22\n2010.0,tax_burden,candidate_questionnaire,232\n2010.0,welfare_generosity,candidate_questionnaire,24\n2014,abortion_access,bill_sponsorship,189\n2014,abortion_access,legislative_vote,266\n2014,affirmative_action,bill_sponsorship,2\n2014,anti_discrimination,bill_sponsorship,78\n2014,anti_discrimination,legislative_vote,68\n2014,business_subsidy,bill_sponsorship,532\n2014,business_subsidy,legislative_vote,762\n2014,campaign_finance_disclosure,bill_sponsorship,17\n2014,campaign_finance_disclosure,legislative_vote,229\n2014,campaign_finance_restrictions,bill_sponsorship,107\n2014,campaign_finance_restrictions,legislative_vote,304\n2014,campaign_public_funding,bill_sponsorship,1\n2014,childcare_delivery,bill_sponsorship,1\n2014,christian_sexual_morality,bill_sponsorship,4\n2014,civil_social_liberty,bill_sponsorship,296\n2014,civil_social_liberty,legislative_vote,224\n2014,confederate_commemoration,bill_sponsorship,2\n2014,conservation_preservation,bill_sponsorship,108\n2014,conservation_preservation,legislative_vote,77\n2014,constitutional_reform,bill_sponsorship,80\n2014,criminal_punishment,bill_sponsorship,1082\n2014,criminal_punishment,legislative_vote,1456\n2014,defense_spending,bill_sponsorship,2\n2014,deficit_discipline,bill_sponsorship,62\n2014,deficit_discipline,legislative_vote,68\n2014,digital_content_regulation,bill_sponsorship,26\n2014,digital_privacy,bill_sponsorship,72\n2014,digital_privacy,legislative_vote,139\n2014,direct_democracy,bill_sponsorship,27\n2014,drug_criminalization,bill_sponsorship,112\n2014,drug_criminalization,legislative_vote,23\n2014,due_process,bill_sponsorship,112\n2014,due_process,legislative_vote,99\n2014,economic_stimulus,bill_sponsorship,219\n2014,economic_stimulus,legislative_vote,235\n2014,education_access,bill_sponsorship,228\n2014,education_access,legislative_vote,216\n2014,education_accountability,bill_sponsorship,86\n2014,education_accountability,legislative_vote,349\n2014,education_curriculum_traditionalism,bill_sponsorship,53\n2014,education_market_choice,bill_sponsorship,44\n2014,education_market_choice,legislative_vote,426\n2014,education_public_funding,bill_sponsorship,116\n2014,education_public_funding,legislative_vote,254\n2014,education_teacher_labor,bill_sponsorship,76\n2014,education_teacher_labor,legislative_vote,26\n2014,election_integrity_controls,bill_sponsorship,154\n2014,election_integrity_controls,legislative_vote,205\n2014,environmental_protection,bill_sponsorship,124\n2014,environmental_protection,legislative_vote,163\n2014,family_support_enforcement,bill_sponsorship,17\n2014,federalism,bill_sponsorship,166\n2014,gambling_policy,bill_sponsorship,61\n2014,government_ethics_transparency,bill_sponsorship,281\n2014,government_ethics_transparency,legislative_vote,814\n2014,gun_access,bill_sponsorship,123\n2014,gun_access,legislative_vote,146\n2014,gun_purchase_regulation,bill_sponsorship,13\n2014,gun_purchase_regulation,legislative_vote,99\n2014,healthcare_access,bill_sponsorship,172\n2014,healthcare_access,legislative_vote,183\n2014,healthcare_public_responsibility,bill_sponsorship,62\n2014,healthcare_regulation_patient_rights,bill_sponsorship,79\n2014,healthcare_regulation_patient_rights,legislative_vote,41\n2014,hunting_rural_recreation,bill_sponsorship,146\n2014,immigrant_public_benefits,bill_sponsorship,72\n2014,immigrant_public_benefits,legislative_vote,249\n2014,immigration_access,bill_sponsorship,32\n2014,immigration_access,legislative_vote,587\n2014,immigration_enforcement,bill_sponsorship,145\n2014,immigration_enforcement,legislative_vote,249\n2014,incarceration,bill_sponsorship,32\n2014,institutional_populism,bill_sponsorship,13\n2014,labor_rights,bill_sponsorship,248\n2014,labor_rights,legislative_vote,20\n2014,land_use_property_rights,bill_sponsorship,123\n2014,land_use_property_rights,legislative_vote,158\n2014,malpractice_liability,bill_sponsorship,64\n2014,malpractice_liability,legislative_vote,140\n2014,market_governance,bill_sponsorship,1015\n2014,market_governance,legislative_vote,1033\n2014,marriage_equality,bill_sponsorship,1\n2014,medicaid_structure,bill_sponsorship,6\n2014,national_language_identity,bill_sponsorship,1\n2014,police_authority,bill_sponsorship,102\n2014,police_authority,legislative_vote,123\n2014,public_employee_compensation,bill_sponsorship,369\n2014,public_employee_compensation,legislative_vote,628\n2014,public_private_provision,bill_sponsorship,125\n2014,public_private_provision,legislative_vote,258\n2014,public_spending,bill_sponsorship,293\n2014,public_spending,legislative_vote,911\n2014,public_utility_rates,bill_sponsorship,20\n2014,racial_civil_rights,bill_sponsorship,22\n2014,redistricting_governance,bill_sponsorship,2\n2014,religion_state,bill_sponsorship,100\n2014,renewable_energy_support,bill_sponsorship,1\n2014,resource_development,bill_sponsorship,39\n2014,resource_management,bill_sponsorship,91\n2014,resource_management,legislative_vote,73\n2014,security_preparedness,bill_sponsorship,40\n2014,surveillance_authority,bill_sponsorship,31\n2014,surveillance_authority,legislative_vote,75\n2014,tax_burden,bill_sponsorship,1214\n2014,tax_burden,legislative_vote,2075\n2014,term_limits,bill_sponsorship,61\n2014,trade_openness,bill_sponsorship,7\n2014,voting_access,bill_sponsorship,204\n2014,voting_access,legislative_vote,75\n2014,welfare_conditionality,bill_sponsorship,165\n2014,welfare_conditionality,legislative_vote,89\n2014,welfare_generosity,bill_sponsorship,98\n2014,welfare_generosity,legislative_vote,23\n2014.0,abortion_access,candidate_questionnaire,32\n2014.0,anti_discrimination,candidate_questionnaire,8\n2014.0,campaign_finance_restrictions,candidate_questionnaire,10\n2014.0,climate_energy,candidate_questionnaire,5\n2014.0,conservation_preservation,candidate_questionnaire,5\n2014.0,criminal_punishment,candidate_questionnaire,13\n2014.0,education_market_choice,candidate_questionnaire,10\n2014.0,education_public_funding,candidate_questionnaire,10\n2014.0,environmental_protection,candidate_questionnaire,10\n2014.0,gun_access,candidate_questionnaire,4\n2014.0,gun_purchase_regulation,candidate_questionnaire,8\n2014.0,healthcare_access,candidate_questionnaire,10\n2014.0,immigration_access,candidate_questionnaire,9\n2014.0,institutional_populism,candidate_questionnaire,15\n2014.0,labor_capital_alignment,candidate_questionnaire,15\n2014.0,market_governance,candidate_questionnaire,24\n2014.0,marriage_equality,candidate_questionnaire,8\n2014.0,public_employee_compensation,candidate_questionnaire,5\n2014.0,redistricting_governance,candidate_questionnaire,5\n2014.0,renewable_energy_support,candidate_questionnaire,5\n2014.0,resource_development,candidate_questionnaire,5\n2014.0,tax_burden,candidate_questionnaire,35\n2014.0,voting_access,candidate_questionnaire,5\n2014.0,welfare_generosity,candidate_questionnaire,5\n2016.0,abortion_access,candidate_questionnaire,1\n2016.0,criminal_punishment,candidate_questionnaire,2\n2016.0,environmental_protection,candidate_questionnaire,2\n2016.0,gun_access,candidate_questionnaire,1\n2016.0,marriage_equality,candidate_questionnaire,1\n2016.0,public_private_provision,candidate_questionnaire,1\n2016.0,renewable_energy_support,candidate_questionnaire,1\n2016.0,resource_development,candidate_questionnaire,1\n2016.0,tax_burden,candidate_questionnaire,6\n2016.0,welfare_generosity,candidate_questionnaire,1\n2018,abortion_access,bill_sponsorship,11\n2018,abortion_access,legislative_vote,75\n2018,affirmative_action,bill_sponsorship,3\n2018,affirmative_action,legislative_vote,164\n2018,anti_discrimination,bill_sponsorship,26\n2018,bioethics_end_of_life,bill_sponsorship,9\n2018,bioethics_end_of_life,legislative_vote,159\n2018,business_subsidy,bill_sponsorship,50\n2018,business_subsidy,legislative_vote,908\n2018,campaign_finance_disclosure,bill_sponsorship,3\n2018,campaign_finance_restrictions,bill_sponsorship,5\n2018,childcare_delivery,bill_sponsorship,6\n2018,civil_social_liberty,bill_sponsorship,36\n2018,civil_social_liberty,legislative_vote,292\n2018,climate_energy,bill_sponsorship,1\n2018,confederate_commemoration,bill_sponsorship,9\n2018,confederate_commemoration,legislative_vote,188\n2018,conservation_preservation,bill_sponsorship,3\n2018,constitutional_reform,bill_sponsorship,9\n2018,criminal_punishment,bill_sponsorship,178\n2018,criminal_punishment,legislative_vote,719\n2018,defense_spending,bill_sponsorship,1\n2018,deficit_discipline,bill_sponsorship,8\n2018,deficit_discipline,legislative_vote,183\n2018,digital_privacy,bill_sponsorship,18\n2018,digital_privacy,legislative_vote,19\n2018,direct_democracy,bill_sponsorship,5\n2018,direct_democracy,legislative_vote,67\n2018,drug_criminalization,bill_sponsorship,14\n2018,drug_criminalization,legislative_vote,463\n2018,drug_treatment,bill_sponsorship,3\n2018,drug_treatment,legislative_vote,89\n2018,due_process,bill_sponsorship,41\n2018,due_process,legislative_vote,20\n2018,economic_stimulus,bill_sponsorship,12\n2018,economic_stimulus,legislative_vote,254\n2018,education_access,bill_sponsorship,17\n2018,education_accountability,bill_sponsorship,14\n2018,education_curriculum_traditionalism,bill_sponsorship,11\n2018,education_market_choice,bill_sponsorship,6\n2018,education_market_choice,legislative_vote,126\n2018,education_public_funding,bill_sponsorship,21\n2018,education_public_funding,legislative_vote,249\n2018,education_teacher_labor,bill_sponsorship,9\n2018,education_teacher_labor,legislative_vote,101\n2018,election_integrity_controls,bill_sponsorship,7\n2018,election_integrity_controls,legislative_vote,17\n2018,environmental_protection,bill_sponsorship,19\n2018,environmental_protection,legislative_vote,57\n2018,family_support_enforcement,bill_sponsorship,5\n2018,federalism,bill_sponsorship,10\n2018,federalism,legislative_vote,142\n2018,gambling_policy,bill_sponsorship,13\n2018,government_ethics_transparency,bill_sponsorship,24\n2018,government_ethics_transparency,legislative_vote,98\n2018,gun_access,bill_sponsorship,24\n2018,gun_access,legislative_vote,90\n2018,gun_purchase_regulation,bill_sponsorship,9\n2018,gun_purchase_regulation,legislative_vote,66\n2018,healthcare_access,bill_sponsorship,68\n2018,healthcare_access,legislative_vote,357\n2018,healthcare_delivery,bill_sponsorship,5\n2018,healthcare_public_responsibility,bill_sponsorship,7\n2018,healthcare_regulation_patient_rights,bill_sponsorship,19\n2018,healthcare_regulation_patient_rights,legislative_vote,153\n2018,hunting_rural_recreation,bill_sponsorship,19\n2018,incarceration,bill_sponsorship,18\n2018,incarceration,legislative_vote,301\n2018,institutional_populism,bill_sponsorship,15\n2018,labor_capital_alignment,bill_sponsorship,1\n2018,labor_rights,bill_sponsorship,26\n2018,land_use_property_rights,bill_sponsorship,29\n2018,land_use_property_rights,legislative_vote,91\n2018,malpractice_liability,bill_sponsorship,4\n2018,market_governance,bill_sponsorship,185\n2018,market_governance,legislative_vote,786\n2018,marriage_equality,bill_sponsorship,1\n2018,medicaid_structure,bill_sponsorship,3\n2018,police_authority,bill_sponsorship,28\n2018,police_authority,legislative_vote,135\n2018,public_employee_compensation,bill_sponsorship,73\n2018,public_employee_compensation,legislative_vote,369\n2018,public_private_provision,bill_sponsorship,19\n2018,public_spending,bill_sponsorship,75\n2018,public_spending,legislative_vote,668\n2018,racial_civil_rights,bill_sponsorship,1\n2018,religion_state,bill_sponsorship,16\n2018,religion_state,legislative_vote,68\n2018,resource_development,bill_sponsorship,1\n2018,resource_management,bill_sponsorship,4\n2018,resource_management,legislative_vote,18\n2018,security_preparedness,bill_sponsorship,6\n2018,security_preparedness,legislative_vote,122\n2018,surveillance_authority,bill_sponsorship,8\n2018,tax_burden,bill_sponsorship,218\n2018,tax_burden,legislative_vote,1030\n2018,term_limits,bill_sponsorship,7\n2018,term_limits,legislative_vote,92\n2018,trade_openness,bill_sponsorship,4\n2018,trade_openness,legislative_vote,77\n2018,voting_access,bill_sponsorship,32\n2018,voting_access,legislative_vote,214\n2018,welfare_conditionality,bill_sponsorship,15\n2018,welfare_conditionality,legislative_vote,72\n2018,welfare_generosity,bill_sponsorship,14\n2018.0,abortion_access,candidate_questionnaire,51\n2018.0,anti_discrimination,candidate_questionnaire,35\n2018.0,campaign_finance_restrictions,candidate_questionnaire,19\n2018.0,civil_social_liberty,candidate_questionnaire,15\n2018.0,criminal_punishment,candidate_questionnaire,51\n2018.0,education_market_choice,candidate_questionnaire,17\n2018.0,environmental_protection,candidate_questionnaire,35\n2018.0,gun_access,candidate_questionnaire,33\n2018.0,gun_purchase_regulation,candidate_questionnaire,34\n2018.0,healthcare_access,candidate_questionnaire,37\n2018.0,immigration_access,candidate_questionnaire,29\n2018.0,institutional_populism,candidate_questionnaire,19\n2018.0,labor_capital_alignment,candidate_questionnaire,53\n2018.0,market_governance,candidate_questionnaire,51\n2018.0,public_employee_compensation,candidate_questionnaire,35\n2018.0,renewable_energy_support,candidate_questionnaire,17\n2018.0,voting_access,candidate_questionnaire,17\n2018.0,welfare_conditionality,candidate_questionnaire,18\n2022,abortion_access,bill_sponsorship,25\n2022,abortion_public_funding,bill_sponsorship,3\n2022,affirmative_action,bill_sponsorship,3\n2022,anti_discrimination,bill_sponsorship,32\n2022,anti_discrimination,legislative_vote,133\n2022,bioethics_end_of_life,bill_sponsorship,3\n2022,bioethics_end_of_life,legislative_vote,71\n2022,business_subsidy,bill_sponsorship,33\n2022,business_subsidy,legislative_vote,515\n2022,campaign_finance_disclosure,bill_sponsorship,3\n2022,campaign_finance_restrictions,bill_sponsorship,3\n2022,campaign_public_funding,legislative_vote,4\n2022,childcare_delivery,bill_sponsorship,2\n2022,civil_social_liberty,bill_sponsorship,101\n2022,civil_social_liberty,legislative_vote,408\n2022,confederate_commemoration,bill_sponsorship,17\n2022,conservation_preservation,bill_sponsorship,1\n2022,constitutional_reform,bill_sponsorship,29\n2022,constitutional_reform,legislative_vote,67\n2022,criminal_punishment,bill_sponsorship,182\n2022,criminal_punishment,legislative_vote,530\n2022,deficit_discipline,bill_sponsorship,3\n2022,digital_content_regulation,bill_sponsorship,15\n2022,digital_privacy,bill_sponsorship,20\n2022,digital_privacy,legislative_vote,2\n2022,direct_democracy,bill_sponsorship,2\n2022,drug_criminalization,bill_sponsorship,11\n2022,drug_criminalization,legislative_vote,76\n2022,drug_treatment,bill_sponsorship,1\n2022,due_process,bill_sponsorship,82\n2022,due_process,legislative_vote,205\n2022,economic_stimulus,bill_sponsorship,4\n2022,economic_stimulus,legislative_vote,71\n2022,education_access,bill_sponsorship,13\n2022,education_access,legislative_vote,67\n2022,education_accountability,bill_sponsorship,20\n2022,education_accountability,legislative_vote,73\n2022,education_curriculum_traditionalism,bill_sponsorship,20\n2022,education_curriculum_traditionalism,legislative_vote,141\n2022,education_market_choice,bill_sponsorship,14\n2022,education_market_choice,legislative_vote,4\n2022,education_public_funding,bill_sponsorship,14\n2022,education_public_funding,legislative_vote,368\n2022,education_teacher_labor,bill_sponsorship,12\n2022,education_teacher_labor,legislative_vote,75\n2022,election_integrity_controls,bill_sponsorship,43\n2022,election_integrity_controls,legislative_vote,274\n2022,environmental_protection,bill_sponsorship,9\n2022,federalism,bill_sponsorship,41\n2022,federalism,legislative_vote,8\n2022,gambling_policy,bill_sponsorship,16\n2022,gambling_policy,legislative_vote,65\n2022,government_ethics_transparency,bill_sponsorship,44\n2022,government_ethics_transparency,legislative_vote,122\n2022,gun_access,bill_sponsorship,60\n2022,gun_access,legislative_vote,144\n2022,gun_purchase_regulation,bill_sponsorship,9\n2022,healthcare_access,bill_sponsorship,67\n2022,healthcare_access,legislative_vote,74\n2022,healthcare_public_responsibility,bill_sponsorship,3\n2022,healthcare_regulation_patient_rights,bill_sponsorship,17\n2022,healthcare_regulation_patient_rights,legislative_vote,365\n2022,hunting_rural_recreation,bill_sponsorship,21\n2022,incarceration,bill_sponsorship,11\n2022,incarceration,legislative_vote,285\n2022,institutional_populism,bill_sponsorship,1\n2022,labor_rights,bill_sponsorship,24\n2022,labor_rights,legislative_vote,215\n2022,land_use_property_rights,bill_sponsorship,10\n2022,land_use_property_rights,legislative_vote,71\n2022,malpractice_liability,bill_sponsorship,6\n2022,market_governance,bill_sponsorship,177\n2022,market_governance,legislative_vote,527\n2022,police_authority,bill_sponsorship,52\n2022,public_employee_compensation,bill_sponsorship,99\n2022,public_employee_compensation,legislative_vote,292\n2022,public_private_provision,bill_sponsorship,9\n2022,public_private_provision,legislative_vote,69\n2022,public_spending,bill_sponsorship,77\n2022,public_spending,legislative_vote,364\n2022,racial_civil_rights,bill_sponsorship,8\n2022,redistricting_governance,bill_sponsorship,2\n2022,religion_state,bill_sponsorship,5\n2022,religion_state,legislative_vote,138\n2022,resource_development,bill_sponsorship,3\n2022,resource_management,bill_sponsorship,4\n2022,resource_management,legislative_vote,60\n2022,security_preparedness,bill_sponsorship,5\n2022,security_preparedness,legislative_vote,4\n2022,surveillance_authority,bill_sponsorship,13\n2022,surveillance_authority,legislative_vote,69\n2022,tax_burden,bill_sponsorship,217\n2022,tax_burden,legislative_vote,855\n2022,term_limits,bill_sponsorship,4\n2022,trade_openness,bill_sponsorship,4\n2022,voting_access,bill_sponsorship,107\n2022,voting_access,legislative_vote,67\n2022,welfare_conditionality,bill_sponsorship,5\n2022,welfare_conditionality,legislative_vote,4\n2022,welfare_generosity,bill_sponsorship,4\n2022,welfare_generosity,legislative_vote,71\n2022.0,abortion_access,candidate_questionnaire,18\n2022.0,anti_discrimination,candidate_questionnaire,12\n2022.0,civil_social_liberty,candidate_questionnaire,5\n2022.0,criminal_punishment,candidate_questionnaire,12\n2022.0,education_market_choice,candidate_questionnaire,5\n2022.0,environmental_protection,candidate_questionnaire,10\n2022.0,gun_access,candidate_questionnaire,6\n2022.0,gun_purchase_regulation,candidate_questionnaire,12\n2022.0,healthcare_access,candidate_questionnaire,11\n2022.0,immigration_access,candidate_questionnaire,6\n2022.0,labor_capital_alignment,candidate_questionnaire,6\n2022.0,market_governance,candidate_questionnaire,12\n2022.0,renewable_energy_support,candidate_questionnaire,6\n2022.0,voting_access,candidate_questionnaire,4\n2024.0,gun_access,candidate_questionnaire,1\n2024.0,renewable_energy_support,candidate_questionnaire,1"
+    }
+  },
+  "ideology_06": {
+    "threshold_rule": {
+      "issue_min_weight": 0.65,
+      "family_min_weight": 1.5,
+      "family_min_distinct_issues": 2,
+      "candidate_min_scored_issues": 3,
+      "candidate_min_scored_families": 2
+    },
+    "threshold_application": {
+      "universe": 1564,
+      "with_observed_profile": 1124,
+      "with_scored_issue": 1104,
+      "meeting_three_issue_floor": 802,
+      "meeting_two_family_floor": 492,
+      "model_eligible": 492,
+      "model_ineligible": 1072
+    },
+    "integrated_model_eligible": 492,
+    "integrated_matches_recompute": true,
+    "searched_vs_not_searched": {
+      "closure_status_rows": 1564,
+      "current_cycles_without_observed_evidence": 440,
+      "of_which_research_status_searched_no_recoverable_evidence": 440,
+      "of_which_no_manual_search_logged": 122,
+      "of_which_manual_broad_search_logged": 318,
+      "closure_evidence_recovered": 1098,
+      "closure_residuals": 466,
+      "residuals_gaining_current_evidence": 26,
+      "unaccounted_cycles": 0
+    },
+    "imputation": {
+      "neutrality_imputed_true": 0,
+      "fillna_or_impute_lines_scanned": 32,
+      "position_fill_lines": [],
+      "verdict": "no fillna/impute applies to a candidate position value; unavailable issues and families stay NaN via Series.where(issue_score_available)"
+    },
+    "csv_evidence": {
+      "searched_status": "final_research_status,has_current_evidence,cycles\nevidence_recovered,True,1098\nsearched_no_recoverable_evidence,True,26\nsearched_no_recoverable_evidence,False,440",
+      "exhaustion_basis": "exhaustion_basis,cycles\nnot_applicable,1098\nmanual_broad_search_plus_structured_source_sweep,326\nstructured_votesmart_legislative_identity_source_sweep,140"
+    }
+  },
+  "ideology_07": {
+    "temporal": {
+      "vote_rows": 35619,
+      "sponsorship_rows": 16181,
+      "vote_rows_with_exact_date": 31251,
+      "vote_rows_on_mid_session_placeholder": 4368,
+      "sponsorship_rows_on_mid_session_placeholder": 16181,
+      "cutoff_violations": 0,
+      "vote_violations": 0,
+      "sponsorship_violations": 0,
+      "session_outside_cycle_window": 0,
+      "leakage_from_later_service": 0
+    },
+    "identity_cardinality": {
+      "distinct_people": 311,
+      "rows_with_identity": 768,
+      "cardinality_violations": 0,
+      "repeated_people": 218,
+      "candidate_cycles_held_by_repeated_people": 675
+    },
+    "identity_violation_examples": [],
+    "person_id_mismatch_vs_universe": 0,
+    "chamber": {
+      "rows_from_other_than_candidacy_chamber": 607,
+      "candidate_cycles": 9,
+      "pairs": {
+        "senate->house": 607
+      },
+      "flagged_cross_chamber_by_identity_layer": 9,
+      "did_not_serve_violations": 0
+    },
+    "csv_evidence": {
+      "temporal_class": "channel,rows,exact_date,placeholder\nlegislative_vote,35619,31251,4368\nbill_sponsorship,16181,0,16181"
+    }
+  },
+  "provenance": {
+    "classification_file": {
+      "path": "data/processed/legislative/comprehensive_rollcall_classifications.csv",
+      "rows": 60704,
+      "sha256_working_tree": "65f9c2f053b0f0efe6370ef33dbb528aad87ac57bb4d2db69f6f640d4b82a260",
+      "git_blob_hash_object": "eb52a5762c3658f9d4e5d047a30fd3dde3ae5124",
+      "git_blob_at_commit": "eb52a5762c3658f9d4e5d047a30fd3dde3ae5124",
+      "committed_blob_sha256": "db4b1a1dc99a0ce2b89b09dee6eb9ce7b086b9f6d7e4bb06b81e1a30460f60e2",
+      "line_endings": "CRLF working tree / LF blob (core.autocrlf=true)"
+    },
+    "producer_script": {
+      "path": "scripts/build_comprehensive_rollcall_classifications.py",
+      "sha256_working_tree": "3acd7f6738a7abb944f9a4eb05f9f6c2fccfc4341e408e61dd9045b385f11a31",
+      "git_blob_hash_object": "a24f120af625cdaa9c22cb95633c24ae80768832"
+    },
+    "commits": {
+      "head": "38c30819f3524c3d97cb7a1bfa4fb6ec00e8f249",
+      "last_touching_file": "f407b9d0febe4ebfd814ce7e9f4cc6496de225fc",
+      "previous_touching_file": "7ffd27e382ca804612cdee63c87f5015f4c2fc72",
+      "diff_numstat_previous_to_last": "60704\t42391\tdata/processed/legislative/comprehensive_rollcall_classifications.csv"
+    },
+    "explaining_records": {
+      "coordination": "project_docs/coordination/IDEOLOGY-HISTORICAL-FINAL-VOTES-003.md",
+      "coordination_sha256": "e7e41670aee153d469a21826ed2a559680e353cb4d29d9601199de9728db9a64",
+      "audit": "project_docs/audits/HISTORICAL_FINAL_VOTE_IDEOLOGY_COVERAGE.md",
+      "audit_sha256": "b6f33ba2b30446e371df0e197d0f010db9935dc744b8a1c15153a73f7a9c8054"
+    }
+  },
+  "not_established": [
+    "Scientific acceptance of the Luna (gpt-5.6-luna) full-corpus bill adjudication and of the sponsorship channel.",
+    "The human-era evidence layer (13,617 records / 403 roll calls / 26 axes): the artifact was overwritten and no byte copy is retained.",
+    "Whether low-confidence (and medium-confidence) admitted mappings are analytically reliable; this audit only records that they are not diverted to the review queue.",
+    "Bill-level overlap between Vote Smart / research rows and roll-call evidence: research rows carry no bill identifier.",
+    "Identity of candidates without a resolved people_id (796 of 1,564 crosswalk rows): cardinality is only testable where an identity exists.",
+    "The 26 candidate-cycles that gained evidence after the 2026-08-17 closure file: their missingness disposition is stale but not contradictory."
+  ],
+  "out_of_scope_findings": [
+    "All 35,619 vote-evidence rows carry adjudication_authority frontier_manual_review:<rule> although the bill decisions are Luna; flagged for ideology-11 in the 2026-09-10 funnel audit.",
+    "The 16 low-confidence admitted bill mappings and the single low-confidence mapped roll call are not diverted to any review queue, so the low-confidence signal survives into the scores (recorded under ideology-04, not repaired).",
+    "candidate_ideology_full_coverage.csv any_ideology (704) still does not reconcile with the 1,124 candidate-cycles carrying a v3 observed profile.",
+    "The historical ontology's mapped set is 260 rows over 256 distinct roll calls (multi-axis rows), not the 256 rows the historical audit's table implies."
+  ],
+  "item_disposition": {
+    "ideology-04": {
+      "verdict": "sufficient evidence for acceptance with one recorded defect",
+      "basis": "2,022/2,022 mapped roll calls pass the classification motion test with 0 procedural/ambiguous; 0/2,321 mapped rows fail validate_primitive; vote-vs-sponsorship pole agreement is 1.0000 over 1,495 shared (candidate, bill, axis) cells; temporal/eligibility cross-checked under ideology-07.",
+      "caveat": "the low-confidence-mapping review-queue requirement fails: 0 of 16 low-confidence mapping bills and 0 of 1 low-confidence mapped roll calls are in a review queue."
+    },
+    "ideology-05": {
+      "verdict": "sufficient evidence for acceptance with a stated overlap-constructibility limit",
+      "basis": "three primary channels are distinct; 0 duplicate evidence_ids in all four ledgers; 1,495 (candidate, bill, axis) keys appear in both legislative channels and both count by design (vote 1.0 + sponsorship 1.2); 4,730 profiles corroborated across channels.",
+      "caveat": "bill-level overlap of Vote Smart/research rows with roll-call evidence is not constructible because those rows carry no bill identifier."
+    },
+    "ideology-06": {
+      "verdict": "sufficient evidence for acceptance",
+      "basis": "the declared threshold recomputes to 492 model-eligible candidate-cycles and matches the integrated artifact exactly; all 440 evidence-less cycles carry a searched-with-no-evidence disposition (0 not searched, 0 unaccounted); no position value is imputed from absence.",
+      "caveat": "the closure file's accounting is stale for 26 cycles that gained evidence after 2026-08-17."
+    },
+    "ideology-07": {
+      "verdict": "sufficient evidence for acceptance",
+      "basis": "0 action-after-cutoff and 0 session-outside-window violations across 51,800 legislative evidence rows; people_id->candidate is unique per cycle with 0 violations; 0 person_id mismatches; the 9 cross-chamber cycles are flagged by the identity layer and are pre-election service in the chamber the person actually served in.",
+      "caveat": "identity is only testable for the 768 of 1,564 candidate-cycles with a resolved people_id."
+    }
+  },
+  "defects_and_gaps": [
+    "REVIEW QUEUE (ideology-04): low-confidence admitted mappings are not queued. 16 bill-level map/multi_axis decisions carry confidence=low and 1 mapped roll call carries frontier_confidence=low; none appears in frontier_legislative_bill_adjudications_luna_review_queue.csv (1 row) or legislative_rollcall_ontology_v3_openai_review_queue.csv (10 rows).",
+    "STALE CLOSURE ACCOUNTING (ideology-06): candidate_research_final_status.csv (2026-08-17) closes 1,098 cycles as evidence_recovered and 466 as searched_no_recoverable_evidence; the current layer has 1,124 with an observed profile and 440 without, so 26 residual cycles now carry evidence and the closure file has not been restated.",
+    "OVERLAP CONSTRUCTIBILITY (ideology-05): Vote Smart questionnaire rows use Vote Smart question ids and research rows use source URLs, so a bill-level overlap test against roll-call evidence cannot be built from the artifacts; only the profile-level co-occurrence is verifiable.",
+    "CHANNEL COMPLEMENTARITY (ideology-05): only 208 candidate-axis profiles carry both questionnaire and roll-call evidence, so corroboration across channels is dominated by vote+sponsorship (3,947 profiles) rather than questionnaire+vote."
+  ],
+  "runtime": {
+    "seconds": 18.172,
+    "tracemalloc_peak_mb": 352.7,
+    "largest_input_mb": 40.18,
+    "reader": "stdlib csv streaming; no pandas; no warehouse load"
+  }
+}
