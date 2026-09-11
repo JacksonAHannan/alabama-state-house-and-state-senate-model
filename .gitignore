@@ -39,3 +39,8 @@ __pycache__/
 /tmp/
 /.omp/
 /artifacts/warehouse/legacy_source_lineage_20260908/
+
+# staging copies of identity repairs; hashes recorded in their application.json files
+/data/processed/elections/precinct_identity_stage_*/
+/AGENTS.local-before-rebase.md
+/artifacts/war/canonical_identity_rebuild_20260911/scratch_warehouse.sqlite
