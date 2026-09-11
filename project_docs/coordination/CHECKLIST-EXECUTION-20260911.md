@@ -42,3 +42,25 @@ duplication and printed labels / C3 quarantine from precinct allocation).
 Any A1/B1 choice invalidates the Alabama compat chain, the historical export
 and the pages, and re-enters the Southern panel (Alabama 2002 is a backcast
 cycle, outside the v3 training frame, so v3 itself is unaffected).
+
+### Checkpoint 2 (2026-09-11 16:10Z) — second release
+
+Owner dispositions: HD26 A1, HD27 B1, 2014 C1, publish once after rebuild.
+Scratch identity rebuild against a warehouse copy surfaced SD9 as a third
+Marshall casualty and proved a full rebuild would revert the 21 certified
+corrections; the scoped repair `RUN-DFB1D093D7594AB68A264292050E924D` applied
+after independent review PASS. Compat chain, `cmo_v6` legacy, panel and
+`AL-HIST-WAR-V1-44F191EB8D939EF062CC` rebuilt; ten pages republished with the
+mobile fix, era disclosure and release-card link; 20 renders clean. Checklist
+41/82; `alabama-02`, `release-05` accepted.
+
+Commits `29c1b3df` (release), `29a2739e` and `1396e0ee` (untracking staging
+copies and geopackages that `git add -A` re-included; ~600 MB of blobs remain
+in history — owner may request a history rewrite). Rollback reference for the
+published site: `f407b9d0`.
+
+Open follow-ups: `ideology-04` (queue 17 low-confidence mappings), blast
+radius of the 2002 legacy Marshall parse and the 2014 x2 duplication
+(`warehouse-05`), stale `candidate_research_final_status.csv` (26 cycles),
+polling refresh (`forecast-04`, needs authoritative-source terms), orphaned
+`docs/data` legacy downloads (`release-01`).
