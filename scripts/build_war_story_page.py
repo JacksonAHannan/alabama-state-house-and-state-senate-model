@@ -987,6 +987,15 @@ if __name__ == "__main__":
     SITE_METHODOLOGY_OUTPUT.write_text(methodology_html, encoding="utf-8")
     site_data = SITE_OUTPUT.parent / "data"
     site_data.mkdir(parents=True, exist_ok=True)
+    # Owner-authorized removal (2026-09-11, DOCS_DATA_INVENTORY_2026_09_11.md): legacy
+    # CMO v4/v5/v6 exports, diagnostics and model cards are no longer published;
+    # their upstream artifacts remain under data/processed/war.
+    for pattern in ("cmo_v4_*", "cmo_v5_*", "cmo_v6_*", "cmo_methodology_v*.md", "cmo_model_card.md",
+                    "cmo_benchmark_diagnostics.csv", "cmo_diagnostics.csv", "cmo_forward_interval_calibration.csv",
+                    "cmo_forward_validation.csv", "rdh_2024_sld_cvap.csv"):
+        for stale in site_data.glob(pattern):
+            if stale.is_file():
+                stale.unlink()
     sources = {
         WAR / "alabama_historical_war_v1" / "candidate_cycle_war.csv": "alabama_historical_war_v1_candidate_cycle_war.csv",
         WAR / "alabama_historical_war_v1" / "race_war.csv": "alabama_historical_war_v1_race_war.csv",

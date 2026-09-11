@@ -78,3 +78,16 @@ Escalated to owner: (1) forecast probability scale sits at the grid boundary
 `audits/FORECAST_SELECTION_AND_CALIBRATION_INDEPENDENCE_2026_09_11.md`;
 (2) removal of 30 superseded `docs/data` downloads (publication action);
 (3) optional git history rewrite for ~600 MB of accidentally committed blobs.
+
+### Checkpoint 4 (2026-09-11 21:14Z) — third release
+
+Owner decisions executed: probability scale by residual likelihood (build
+`b76d607f2d81e54697a3`, scale 8.0, 80% coverage 0.85; margins and seat distributions
+unchanged); 30 superseded `docs/data` downloads removed; git history left as
+is. Catalog updated. Ten pages republished, 20 renders clean. Checklist 45/82;
+`forecast-08`, `forecast-09` accepted.
+
+Open: `warehouse-05` broad collision census; `warehouse-04` Arkansas geometries
+and 1994/2002 allocation reconciliation card; `forecast-02/03/10/11/12`;
+`alabama-04/05/06`; `ideology-08..13`; Phase 7 release items. External:
+polling refresh terms (`forecast-04`).

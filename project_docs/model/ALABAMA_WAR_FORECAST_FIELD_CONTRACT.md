@@ -31,3 +31,5 @@ The prospective identity is:
 No field matching candidate identity, prior candidate WAR/CMO, candidate history, ideology, fundraising, receipts, expenditures, or campaign finance may appear in the forecast design-feature list recorded by the manifest.
 
 Same-cycle fitted Alabama WAR is retrospective. Cross-cycle forecast errors and probabilities are separate prospective diagnostics and must not be labeled WAR.
+
+District win probabilities use a Student-t distribution with five degrees of freedom. The scale is the maximum-likelihood scale of the forward-holdout margin residuals (`probability.selection_rule = maximum_likelihood_on_holdout_margin_residuals`); the manifest records the scale, the holdout Brier score and the empirical coverage of the nominal 80% interval (`probability.holdout_coverage_80`). Selecting the scale by binary-outcome Brier is not permitted: on a holdout whose winners are all correctly ordered it is monotone in sharpness and returns the search-grid bound. The scale is tuned and evaluated on the same holdout; no independent probability evaluation exists until a second Alabama forward cycle is available.

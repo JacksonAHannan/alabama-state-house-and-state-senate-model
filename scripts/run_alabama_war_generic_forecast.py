@@ -140,15 +140,30 @@ def historical_panel() -> pd.DataFrame:
     return panel
 
 
-def probability_scale(margins: np.ndarray, outcomes: np.ndarray) -> tuple[float, pd.DataFrame]:
+def probability_scale(margins: np.ndarray, outcomes: np.ndarray, residuals: np.ndarray) -> tuple[float, pd.DataFrame]:
+    """Choose the Student-t(5) scale from the spread of holdout margin residuals.
+
+    The scale is the maximum-likelihood Student-t(5) scale of ``actual - predicted``
+    over the holdout races.  Earlier builds minimised the Brier score of binary
+    win/loss outcomes instead; on a holdout whose winners are all correctly
+    ordered that criterion is monotone in sharpness and selects the search-grid
+    lower bound regardless of margin error (see
+    FORECAST_SELECTION_AND_CALIBRATION_INDEPENDENCE_2026_09_11.md).  Brier and
+    the empirical coverage of the nominal 80% interval are reported for every
+    candidate scale so the trade-off stays visible.
+    """
     rows = []
+    q10, q90 = student_t.ppf(0.10, df=5.0), student_t.ppf(0.90, df=5.0)
     for scale in np.arange(2.0, 15.01, 0.25):
         probabilities = student_t.cdf(margins / scale, df=5.0)
         rows.append({
             "family": "student_t", "df": 5.0, "scale": float(scale),
+            "residual_log_likelihood": float(student_t.logpdf(residuals / scale, df=5.0).sum() - len(residuals) * np.log(scale)),
             "brier": float(brier_score_loss(outcomes, probabilities)),
+            "coverage_80": float(np.mean((residuals >= q10 * scale) & (residuals <= q90 * scale))),
         })
-    table = pd.DataFrame(rows).sort_values(["brier", "scale"]).reset_index(drop=True)
+    table = pd.DataFrame(rows).sort_values(["residual_log_likelihood", "scale"], ascending=[False, True]).reset_index(drop=True)
+    table["selection_rule"] = "maximum_likelihood_on_holdout_margin_residuals"
     return float(table.iloc[0].scale), table
 
 
@@ -164,7 +179,7 @@ def forward_test(panel: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, float
     baseline_mae = float(mean_absolute_error(actual, baseline_prediction))
     structural_mae = float(mean_absolute_error(actual, structural_prediction))
     selected_prediction = structural_prediction
-    scale, probability_table = probability_scale(selected_prediction, outcomes)
+    scale, probability_table = probability_scale(selected_prediction, outcomes, actual - selected_prediction)
     probabilities = student_t.cdf(selected_prediction / scale, df=5.0)
 
     predictions = test[KEYS + [
@@ -371,7 +386,7 @@ def main() -> None:
         "git_commit": git_commit(),
         "selected_specification": selected_specification,
         "selection_reason": "owner_required_war_structural_expectation_with_generic_ballot_environment",
-        "probability": {"family": "student_t", "df": 5.0, "scale": scale},
+        "probability": {"family": "student_t", "df": 5.0, "scale": scale, "selection_rule": "maximum_likelihood_on_holdout_margin_residuals", "holdout_coverage_80": float(probability_table.iloc[0].coverage_80), "holdout_brier": float(probability_table.iloc[0].brier)},
         "configuration": {
             "seed": SEED, "simulation_draws": SIMULATION_DRAWS, "ridge_alpha": ALPHA,
             "design_features": design_features,
@@ -444,8 +459,8 @@ def main() -> None:
         f"{baseline_metric.mae:.3f} for the generic-ballot district baseline. The published specification applies that "
         f"structural expected gap at the project owner's direction. It {holdout_assessment} on the sole Alabama 2022 "
         "holdout; that comparison remains explicit. Candidate-specific residual WAR remains zero. Probabilities use Student-t(5) with a "
-        f"{scale:.2f}-point scale chosen on that single "
-        "holdout; that limited probability sample is a material uncertainty. Chamber simulations add correlated national, "
+        f"{scale:.2f}-point scale, the maximum-likelihood scale of the {len(forward)} holdout margin residuals (nominal 80% interval "
+        f"covers {probability_table.iloc[0].coverage_80:.0%} of them); a single 33-race holdout remains a material uncertainty for the probability layer. Chamber simulations add correlated national, "
         "statewide, chamber, and district error components.\n",
         encoding="utf-8",
     )
@@ -459,6 +474,7 @@ def main() -> None:
         "- Candidate-specific WAR is zero, incumbency is included structurally, candidate history is false, finance is false, and the forecast identity reconciles within floating-point tolerance.\n"
         "- Owner-selected model assumption: the uniform national-to-Alabama generic-ballot transfer's Alabama-specific validity is not established beyond the single 2022 forward holdout.\n"
         f"- Holdout assessment: the selected structural specification {holdout_assessment} on the sole Alabama 2022 holdout.\n"
+        f"- Probability scale: Student-t(5) scale {scale:.2f} selected by maximum likelihood on the holdout margin residuals (80% interval coverage {probability_table.iloc[0].coverage_80:.0%}; Brier {probability_table.iloc[0].brier:.4f}); the scale is tuned and evaluated on the same 33 races, so no independent probability evaluation exists.\n"
         "- Limitation: Alabama supplies only one direct forward cycle, so calibration and structural estimates remain sample-limited.\n",
         encoding="utf-8",
     )

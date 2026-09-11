@@ -8,6 +8,7 @@ from warehouse import ROOT, connect, initialize
 
 ASSETS = [
     ("southern_war_v3_release","csv_export","mart","data/processed/war/post2016_southern_war_v3/race_war.csv","scripts/retrain_post2016_southern_war_v3.py","state/cycle/chamber/district","active",None,"Published same-cycle residuals; research-only v4 is not substituted"),
+    ("alabama_historical_war_release","csv_export","mart","data/processed/war/alabama_historical_war_v1/race_war.csv","scripts/build_alabama_historical_war_v1.py","cycle/chamber/district","active",None,"1994-2022 Alabama race residuals; 1994-2014 explicitly backcast; content-addressed manifest"),
     ("southern_historical_war_release","csv_export","mart","data/processed/war/southern_historical_war_v1/race_war.csv","scripts/build_southern_historical_war_v1.py","state/cycle/chamber/district","active",None,"2016-2024 strict race residuals; 2016 explicitly backcast; content-addressed manifest"),
     ("southern_map_geometry_manifest","csv_export","source","data/processed/source_audits/southern_legislative_geography_manifest.csv","scripts/acquire_southern_legislative_geography.py","state/cycle/chamber","active",None,"116 election-year Census display layers; immutable hashes and terms; not an allocation crosswalk"),
     ("southern_war_map_payload","publication","publication","docs/data/southern_war_map_payload.json","scripts/build_southern_war_map.py","state/cycle/chamber/district","active",None,"All 116 scheduled maps through 2024; scored races and unscored outlines remain distinct"),
@@ -44,7 +45,8 @@ ASSETS = [
     ("raw_census","raw_file","raw","data/raw/census/","scripts/build_geographic_crosswalks.py","Census GEOID","active",None,"Immutable Census archives and manifests"),
     ("precinct_district_weights","csv_export","canonical","data/processed/elections/canonical_precinct_district_weights.csv","scripts/build_canonical_geographic_weights.py","cycle/chamber/node/district","compatibility",None,"Planned canonical geography table"),
     ("forecast_features","csv_export","mart","data/processed/war/2026_prospective_features_and_forecast.csv","scripts/fit_2026_prospective_model.py","chamber/district","compatibility",None,"Versioned forecast mart migration pending"),
-    ("published_cmo_v4_data","csv_export","publication","docs/data/cmo_v4_candidates.csv","scripts/build_war_story_page.py","candidate-cycle","active",None,"Current publication-only CMO export; never an upstream input"),
+    ("published_historical_war_data","csv_export","publication","docs/data/alabama_historical_war_v1_candidate_cycle_war.csv","scripts/build_war_story_page.py","canonical_candidate_id","active",None,"Current publication-only historical Alabama WAR export; never an upstream input"),
+    ("published_cmo_v4_data","csv_export","publication","docs/data/cmo_v4_candidates.csv","scripts/build_war_story_page.py","candidate-cycle","retired",None,"Legacy CMO v4 public export; removed from docs/data on 2026-09-11 (DOCS_DATA_INVENTORY_2026_09_11.md); upstream retained under data/processed/war"),
     ("raw_southern_sos_elections","raw_file","raw","data/raw/southern_sos_elections/","scripts/acquire_southern_sos_precinct_results.py","provider artifact path + SHA-256","active",None,"Immutable official Southern election downloads; availability varies by state and cycle"),
     ("southern_election_source_files","database_table","source","source_southern_election_file","scripts/load_southern_election_warehouse.py","source_file_id","active",None,"Contract-complete Southern source registry with explicit unknown terms and geography vintages"),
     ("southern_candidate_results","database_table","source","source_southern_candidate_election","scripts/load_southern_election_warehouse.py","candidate_election_id","active",None,"Official candidate-party-contest totals at provider-reported contest geography"),
@@ -134,6 +136,7 @@ LINEAGE = [
     ("canonical_candidates","candidate_aliases","reconciles"),
     ("canonical_candidates","cmo_feature_mart","features"),
     ("cmo_feature_mart","published_cmo_v4_data","exports"),
+    ("alabama_historical_war_release","published_historical_war_data","exports"),
     ("raw_legiscan","legiscan_bills_csv","normalizes"),
     ("raw_legiscan","legiscan_votes_csv","normalizes"),
     ("legiscan_bills_csv","legiscan_bills_table","normalizes"),

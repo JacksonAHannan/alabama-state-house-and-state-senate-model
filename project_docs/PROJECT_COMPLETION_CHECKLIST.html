@@ -65,7 +65,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
 <script id="checklist-data" type="application/json">
 {
   "schemaVersion": 1,
-  "revision": "2026-09-11T17:05:39Z",
+  "revision": "2026-09-11T21:13:15Z",
   "title": "Four-product completion checklist",
   "baselineDate": "2026-09-05",
   "baselineCode": "88878b9 (existing dirty worktree)",
@@ -588,15 +588,15 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "id": "forecast-08",
           "text": "Audit calibration and evaluation independence",
           "detail": "Document that probability-family/scale selection used the same limited holdout. Separate tuning from honest evaluation wherever evidence permits, and report what cannot be independently validated.",
-          "done": false,
-          "evidence": "2026-09-11: documented that the Student-t(5) scale is tuned by Brier on the same 33-race holdout used for evaluation (in-sample for the probability layer; df fixed) and that no independent Alabama probability evaluation exists. Finding: the selected scale 2.0 is the search-grid lower bound because all 33 winners were correctly ordered; the nominal 80% interval covers 18% of holdout residuals (88% at scale ≈ RMSE 9.19). Seat expectations unaffected (12.1 vs 12.4); per-district probabilities and ratings are overconfident. Owner decision on options 1-3 pending."
+          "done": true,
+          "evidence": "2026-09-11: documented that the Student-t(5) scale is tuned by Brier on the same 33-race holdout used for evaluation (in-sample for the probability layer; df fixed) and that no independent Alabama probability evaluation exists. Finding: the selected scale 2.0 is the search-grid lower bound because all 33 winners were correctly ordered; the nominal 80% interval covers 18% of holdout residuals (88% at scale ≈ RMSE 9.19). Seat expectations unaffected (12.1 vs 12.4); per-district probabilities and ratings are overconfident. Owner decision on options 1-3 pending. 2026-09-11 owner option 1 applied: scale selected by maximum likelihood on the 33 holdout margin residuals (8.00; 80% coverage 0.85; Brier 0.0176), rule and diagnostics recorded in manifest, field contract (binary-Brier selection prohibited), methodology and validation audit; build b76d607f2d81e54697a3 published. Tuning and evaluation still share the single holdout — stated everywhere; a second Alabama forward cycle is the only route to independence. Accepted as 'separated where evidence permits, remainder reported'."
         },
         {
           "id": "forecast-09",
           "text": "Verify uncertainty and chamber aggregation diagnostics",
           "detail": "Check time-forward errors, probability calibration, interval coverage, shared-error assumptions and seat accounting. 50,000 simulation draws do not create additional independent evidence.",
-          "done": false,
-          "evidence": "2026-09-11 evidence: interval coverage 18% at nominal 80% on the sole holdout; time-forward MAE 7.65 / RMSE 9.19; shared-error components from robust_forecast_v1_error_components.csv; simulation count is not evidence. Not accepted until the scale disposition is decided."
+          "done": true,
+          "evidence": "2026-09-11 evidence: interval coverage 18% at nominal 80% on the sole holdout; time-forward MAE 7.65 / RMSE 9.19; shared-error components from robust_forecast_v1_error_components.csv; simulation count is not evidence. Not accepted until the scale disposition is decided. 2026-09-11: with the residual-likelihood scale the nominal 80% interval covers 85% of holdout residuals; time-forward MAE 7.65 / RMSE 9.19; chamber aggregation uses correlated national/state/chamber/district components with seat distributions unchanged by the scale; 50,000 draws documented as computational. Accepted."
         },
         {
           "id": "forecast-10",
@@ -633,7 +633,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "text": "Remove proven-unused code and duplicate outputs",
           "detail": "Trace imports, commands, links and catalog lineage first. Delete dead wrappers/configuration and redundant calculations; retain raw sources and required replay artifacts. Prefer deletion, then simplification, then measured optimization.",
           "done": false,
-          "evidence": "2026-09-11 inventory (audits/DOCS_DATA_INVENTORY_2026_09_11.md/.csv): 61 docs/data files = 24 active, 8 unlinked-current, 29 superseded (cmo_v4/v5/v6, diagnostics, legacy model cards; 15 byte-stale vs upstream); 30-file removal list proposed; catalog rows to update identified. Removal is a publication action awaiting owner authorization. Script-level dead code (build_war_story_page.py legacy publisher block) also identified."
+          "evidence": "2026-09-11 inventory (audits/DOCS_DATA_INVENTORY_2026_09_11.md/.csv): 61 docs/data files = 24 active, 8 unlinked-current, 29 superseded (cmo_v4/v5/v6, diagnostics, legacy model cards; 15 byte-stale vs upstream); 30-file removal list proposed; catalog rows to update identified. Removal is a publication action awaiting owner authorization. Script-level dead code (build_war_story_page.py legacy publisher block) also identified. 2026-09-11 owner-authorized: 30 superseded docs/data downloads removed at publish (story-page and forecast publishers unlink them); 31 files remain, all from live producers; catalog updated (published_cmo_v4_data retired, published_historical_war_data and alabama_historical_war_release added). Dead code removal (legacy `if False` publisher block, superseded scripts) still open."
         },
         {
           "id": "release-02",
@@ -668,7 +668,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "text": "Reconcile all public claims with data manifests",
           "detail": "Check page prose, tooltips, chart labels, model versions, as-of dates, counts and methods against generated data. No scaffold, stale artifact or research-only result may be labeled validated.",
           "done": false,
-          "evidence": "2026-09-11: download/manifest parity verified for the Alabama historical/modern WAR exports, Southern historical manifest, forecast bundle and release card (byte-identical); page payload version equals the forecast manifest build id; run ids on the Southern methodology page equal manifests. See audits/SITE_RELEASE_2026_09_11.md. 2026-09-11 second release: download parity re-verified (historical manifest/export, release card, legacy cmo_v6 downloads byte-identical); the page's coverage sentence and backcast count are now manifest-driven (510 / 413)."
+          "evidence": "2026-09-11: download/manifest parity verified for the Alabama historical/modern WAR exports, Southern historical manifest, forecast bundle and release card (byte-identical); page payload version equals the forecast manifest build id; run ids on the Southern methodology page equal manifests. See audits/SITE_RELEASE_2026_09_11.md. 2026-09-11 second release: download parity re-verified (historical manifest/export, release card, legacy cmo_v6 downloads byte-identical); the page's coverage sentence and backcast count are now manifest-driven (510 / 413). 2026-09-11 third release: index payload version equals the published forecast manifest build b76d607f2d81e54697a3; probability rule text on page matches manifest; parity re-verified."
         },
         {
           "id": "release-07",
@@ -900,6 +900,12 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
       "done": 43,
       "total": 82,
       "event": "Wave 3: ideology-04 and forecast-07 accepted; low-confidence mappings queued with a producer invariant; research closure restated; blast radius closed the 2002 Marshall question and corrected the 2014 'duplication' characterization; docs/data inventory (30 removals proposed); forecast probability-scale boundary/overconfidence finding escalated to the owner."
+    },
+    {
+      "at": "2026-09-11T21:13:15Z",
+      "done": 45,
+      "total": 82,
+      "event": "Owner decisions: probability scale from holdout residuals (option 1), remove 30 superseded downloads, keep git history. Forecast rebuilt and republished (scale 8.0, coverage 85%); docs/data cleaned; catalog updated. forecast-08/09 accepted."
     }
   ]
 }

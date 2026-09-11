@@ -96,3 +96,29 @@ did not reproduce. Download parity byte-identical for the Alabama historical
 manifest/export, release card and the legacy `cmo_v6` downloads. Tests: 71
 affected tests pass (historical WAR, Alabama v1, cmo v5/v6, canonical finance,
 panel, ideology/caucus pages, repair fixtures, backcast sensitivity).
+
+## Third release, 2026-09-11 (forecast probability scale; docs/data cleanup)
+
+Owner decisions: select the Student-t(5) scale from holdout margin residuals
+(option 1 of `FORECAST_SELECTION_AND_CALIBRATION_INDEPENDENCE_2026_09_11.md`);
+remove the 30 superseded `docs/data` downloads; leave git history as is.
+
+- Forecast build `b76d607f2d81e54697a3`: scale 8.00 by maximum likelihood on the 33
+  holdout residuals (was 2.00 at the Brier grid boundary); nominal 80% interval
+  now covers 85% of holdout residuals (was 18%); holdout Brier 0.0176 (was
+  0.0051). Point margins and chamber seat distributions are identical to the
+  previous build; nine district probabilities move by more than 0.05 (max 0.27)
+  and four races now sit in the 0.10–0.90 band; expected Democratic seats 12.05
+  → 12.31. The manifest records `probability.selection_rule`,
+  `holdout_coverage_80` and `holdout_brier`; the field contract forbids
+  binary-Brier scale selection; page and methodology state the rule and coverage.
+- `docs/data`: 30 superseded files removed at publish (cmo_v4/v5/v6 families,
+  legacy diagnostics and model cards, `rdh_2024_sld_cvap.csv`); 31
+  files remain, all produced by the three live publishers. Catalog: the public
+  export node now points at the historical WAR download; `published_cmo_v4_data`
+  is `retired`; `alabama_historical_war_release` added.
+
+Verification: 20 renders (ten pages × two viewports) with no overflow, no page
+or console errors except the browser's automatic `favicon.ico` request (no
+favicon is published; pre-existing), no legacy claim strings; methodology
+carries the scale rule. 33 forecast/dashboard/catalog/story-page tests pass.
