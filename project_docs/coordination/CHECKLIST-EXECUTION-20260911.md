@@ -111,3 +111,9 @@ Catalist workbook and Vote Smart with terms; resolve NYT precinct and SOS
 canvass redistribution status; 2,153 registrations lack a license string (the
 Alabama Legislature, DOJ Section 5 and ADAH archive families account for
 2,091); decide whether the 14 tracked raw files stay in git.
+
+### Checkpoint 6 (2026-09-11 22:59Z) — fourth release
+
+Owner: accept 2014 repair; sourcing not a priority. Executed the repair and
+downstream chain, republished all pages (`audits/SITE_RELEASE_2026_09_11.md`,
+fourth release). Checklist 50/82; `alabama-04`, `release-08` accepted.

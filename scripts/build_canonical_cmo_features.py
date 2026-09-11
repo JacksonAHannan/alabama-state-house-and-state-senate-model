@@ -125,13 +125,18 @@ def main():
         fallback_share[["cycle","chamber","district","office","baseline_fallback_share"]],
         on=["cycle","chamber","district","office"],how="left",validate="one_to_one")
     office_baseline["baseline_source"]="alabama_sos_canonical"
-    # For 2014-2022, prefer the election-specific spatial products. In 2022 the
-    # RDH/SOS precinct file contains the complete official vote totals already
-    # attached to precinct polygons; re-allocating separate absentee batches by
-    # county would move those votes away from their published precinct totals.
+    # For 2018 and 2022, prefer the election-specific spatial products, which
+    # conserve the certified statewide totals. In 2022 the RDH/SOS precinct
+    # file contains the complete official vote totals already attached to
+    # precinct polygons; re-allocating separate absentee batches by county
+    # would move those votes away from their published precinct totals.
+    # 2014 keeps the SOS-canonical allocation above: the legacy 2014 spatial
+    # product was derived from OpenElections copies that cover only 49 of 67
+    # counties for Attorney General and fall 17% short for Governor
+    # (owner decision 2026-09-11, ALABAMA_BASELINE_PLAN_CERTIFICATION).
     geographic=pd.read_csv(WAR/"district_baseline_office.csv")
     geographic=geographic[
-        geographic.cycle.isin([2014,2018,2022]) & geographic.office.isin(CORE)
+        geographic.cycle.isin([2018,2022]) & geographic.office.isin(CORE)
     ][["cycle","chamber","district","office","dem_votes","rep_votes","office_dem_margin",
        "allocation_method","baseline_fallback_share","activity_split_fallback_share"]].rename(
         columns={"dem_votes":"D","rep_votes":"R","office_dem_margin":"office_margin",

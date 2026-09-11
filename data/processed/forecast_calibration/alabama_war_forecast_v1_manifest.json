@@ -1,5 +1,5 @@
 {
-  "build_id": "b76d607f2d81e54697a3",
+  "build_id": "db49297557ebfc98fb33",
   "configuration": {
     "candidate_history_used": false,
     "candidate_war_adjustment": 0.0,
@@ -63,8 +63,8 @@
     "selected_forward_mae": 7.65135405693177,
     "structural_improves_baseline_on_holdout": false
   },
-  "generated_at_utc": "2026-09-11T21:08:27.543428+00:00",
-  "git_commit": "55b7734bb118c08f153b745a448375acca1ec018",
+  "generated_at_utc": "2026-09-11T22:52:19.972462+00:00",
+  "git_commit": "a26f9013ffe5a3b38bd5fd07bce4908aae997d27",
   "inputs": [
     {
       "path": "data/processed/war/alabama_war_v1/race_war.csv",
@@ -72,7 +72,7 @@
     },
     {
       "path": "data/processed/war/alabama_war_v1/manifest.json",
-      "sha256": "edb8f2c13dfc483739ae7e7e670e773a55851c00b7972a0e49165ca653ec6280"
+      "sha256": "49317d297a4f21f18b98f7106f84d183e56cd8baecc6063d4ba620b2209b1002"
     },
     {
       "path": "data/processed/war/post2016_southern_war_v3/manifest.json",
@@ -100,7 +100,7 @@
     },
     {
       "path": "project_docs/model/ALABAMA_WAR_FORECAST_FIELD_CONTRACT.md",
-      "sha256": "68207718aa1a1dbb9831bfc7e8e559789934c409ef5db55b5724524d211c28ad"
+      "sha256": "b373374ecd21893c8ad1e6d7e7a42ca7eded5413b8d1ad415c64db314ccfdbbc"
     }
   ],
   "methodology_version": "alabama_war_environment_forecast_v2",

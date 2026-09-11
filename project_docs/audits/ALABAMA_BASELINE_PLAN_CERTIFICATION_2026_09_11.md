@@ -312,6 +312,26 @@ context, not the selected ticket baseline.
   from `district_baseline_office.csv`; three house Attorney General rows
   (HD13 county fallback, HD24, HD40) fall back to canonical SOS allocations.
 
+## 7a. Resolution of the 2014 state-ticket flag (owner decision, 2026-09-11)
+
+The owner accepted the recommended repair. `scripts/build_canonical_cmo_features.py`
+now applies the legacy spatial override (`district_baseline_office.csv`,
+`baseline_source = election_precinct_block_population`) only to 2018 and 2022,
+where it conserves the certified totals; 2014 keeps the SOS-canonical allocation
+computed in the same builder. After the rebuild the 2014 allocated state ticket
+equals the SOS statewide totals exactly for both chambers (Governor D 521,632 /
+R 938,624; Attorney General D 504,345 / R 714,638; all 280 cycle-office rows
+`alabama_sos_canonical`). No other cycle changed (max |Δ office margin| = 0 for
+1994–2010, 2018, 2022). District core-index margins moved for 140 of 140 2014
+districts (median 1.1 pp, max 27.2 pp in HD82, where the legacy source lacked
+whole counties). In the historical WAR export only the 26 races on the 2014
+state-ticket fallback changed (|Δ baseline| ≤ 2.62 pp, |Δ WAR| ≤ 2.22 pp, eight
+races > 0.5 pp); the 30 same-cycle-federal 2014 races, every other cycle, the
+modern `alabama_war_v1` export, the forecast scenarios and the v3 training-frame
+digest (`cc9204796781b99a…`) are unchanged. Historical run
+`AL-HIST-WAR-V1-0E018273EBEDEEEFAD75` supersedes `AL-HIST-WAR-V1-44F191EB8D939EF062CC`.
+Before-images: `artifacts/war/baseline_2014_fix_20260911/`.
+
 ## 8. Substitution checks
 
 | check | result | evidence |

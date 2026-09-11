@@ -95,7 +95,16 @@ fallback (`build_canonical_cmo_features.py`), 2010–2022 use the canonical
 precinct-to-district weights. The 2008 precinct-name allocation review
 (`alabama-06`) remains open.
 
-## Not established
+## 2014 state-ticket baseline (2026-09-11, second revision)
+
+The 2014 Governor and Attorney General district baselines now come from the
+SOS-canonical precinct allocation (conserving the certified statewide totals)
+instead of a legacy OpenElections-derived spatial product that covered 49 of 67
+counties for Attorney General. Only the 26 2014 races scored against the state
+ticket moved (|ΔWAR| ≤ 2.2 pp). See
+`audits/ALABAMA_BASELINE_PLAN_CERTIFICATION_2026_09_11.md` §7a.
+
+# Not established
 
 Era sensitivity of the backcast; the 2002 House 26/27 source adjudications;
 independent browser review of the published page (performed at publication);

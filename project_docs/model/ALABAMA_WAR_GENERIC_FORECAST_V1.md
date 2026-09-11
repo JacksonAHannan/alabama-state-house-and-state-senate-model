@@ -1,8 +1,8 @@
 # Alabama WAR generic-candidate forecast v1
 
-Build: `b76d607f2d81e54697a3`
+Build: `db49297557ebfc98fb33`
 
-Generated: `2026-09-11T21:08:27.543428+00:00`
+Generated: `2026-09-11T22:52:19.972462+00:00`
 
 The forecast evaluates a generic Democrat against a generic Republican. Candidate identity, prior WAR/CMO, repeat-candidate performance, ideology, and fundraising are absent; prospective candidate-specific WAR is exactly zero. Incumbency remains a symmetric race condition in the WAR structure.
 

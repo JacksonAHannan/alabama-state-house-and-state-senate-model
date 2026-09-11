@@ -1,6 +1,6 @@
 # Alabama historical WAR v1 validation
 
-- Run: `AL-HIST-WAR-V1-44F191EB8D939EF062CC`.
+- Run: `AL-HIST-WAR-V1-0E018273EBEDEEEFAD75`.
 - Coverage: 510 races and 1020 candidate-cycle rows.
 - Backcast races, 1994–2014: 413.
 - Exact published modern races, 2018/2022: 97.

@@ -1,6 +1,6 @@
 # Alabama WAR forecast validation
 
-Build `b76d607f2d81e54697a3` generated `2026-09-11T21:08:27.543428+00:00`.
+Build `db49297557ebfc98fb33` generated `2026-09-11T22:52:19.972462+00:00`.
 
 - Alabama retrospective coverage: 97 races (2018 and 2022).
 - Forward test: 33 Alabama 2022 races after training on 2039 eligible Southern races after 2016 and before 2022.

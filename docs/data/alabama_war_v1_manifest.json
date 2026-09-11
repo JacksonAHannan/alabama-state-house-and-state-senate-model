@@ -1,5 +1,5 @@
 {
-  "alabama_war_run_id": "AL-WAR-V1-C00FF05BC2BE58E16087",
+  "alabama_war_run_id": "AL-WAR-V1-68CE14574E53AD91E73F",
   "configuration": {
     "candidate_pooling": false,
     "cutoff_rule": "cycle > 2016",
@@ -17,12 +17,12 @@
     "max_war_formula_error": 3.552713678800501e-15,
     "race_rows": 97
   },
-  "generated_at_utc": "2026-09-11T14:27:35.225278+00:00",
-  "git_commit": "720c3507b147bc0a7c048c4c84ab0262920802c1",
+  "generated_at_utc": "2026-09-11T22:52:17.320014+00:00",
+  "git_commit": "a26f9013ffe5a3b38bd5fd07bce4908aae997d27",
   "input_hashes": {
     "data/processed/war/post2016_southern_war_v3/candidate_cycle_war.csv": "7efe49b467070c840e6c4f8803b2516e2e1d7e1f930e1201ef7ed5af9e1c3176",
     "data/processed/war/post2016_southern_war_v3/race_war.csv": "cd0095ad902bc297c7b21cdef13e432f32ab27ccab9e29a08d002d9b374e3692",
-    "project_docs/model/ALABAMA_WAR_FORECAST_FIELD_CONTRACT.md": "38d579652238a5daebf80fd0f9a2f6bf9ff60d77155b93e587113efc633b948d"
+    "project_docs/model/ALABAMA_WAR_FORECAST_FIELD_CONTRACT.md": "b373374ecd21893c8ad1e6d7e7a42ca7eded5413b8d1ad415c64db314ccfdbbc"
   },
   "methodology_version": "alabama_war_v1_race_residual",
   "outputs": [

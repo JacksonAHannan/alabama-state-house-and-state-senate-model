@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "build_id": "dc097a3bddfabd0ad5d5",
-  "code_commit": "38c30819f3524c3d97cb7a1bfa4fb6ec00e8f249",
+  "build_id": "84a64752c5c6c662c534",
+  "code_commit": "a26f9013ffe5a3b38bd5fd07bce4908aae997d27",
   "pipeline": "scripts/build_southern_war_panel_v1.py",
   "states": [
     "AL",
@@ -185,11 +185,11 @@
     },
     {
       "path": "data/processed/war/cmo_v5_races.csv",
-      "sha256": "c06fea12f57718fca167a1a20fce472d710783ba7a64796d0b0547106b603740"
+      "sha256": "5400b28290ac7e1838ea25c8c8d1645e02dc60955f7a8a587e67b4e4feff2a7f"
     },
     {
       "path": "data/processed/war/cmo_v5_candidates.csv",
-      "sha256": "afca6b9ac06f02c2e0aa54a0ef4404c20c14499a39adafcef062ebfeaa6d9810"
+      "sha256": "41ef37b1286a1aefdbd5965b657cc432dd0bbbcb0013ed36403abcbc716488a7"
     },
     {
       "path": "external://texas-state-house-and-state-senate-model/data/processed/models/full_history_cmo_candidates.csv",
@@ -1384,7 +1384,7 @@
     {
       "path": "data/processed/war/southern_war_panel_v1/baseline_observations.csv",
       "rows": 14280,
-      "sha256": "1aa44e28d11e595430b146b80426bc7885a64ecadd5a75bf85cf2d735126fc4a"
+      "sha256": "2cbcc667789e86452be20fd3b716a324ab9c9fa9e4a4f46b914c50b76fe5f882"
     },
     {
       "path": "data/processed/war/southern_war_panel_v1/louisiana_legislative_stage_candidates.csv",
@@ -1429,7 +1429,7 @@
     {
       "path": "data/processed/war/southern_war_panel_v1/southern_war_panel.csv",
       "rows": 28307,
-      "sha256": "4c392e4b9999578733a6d7343ae78b4b8d68c7da040e5a2350e905755723dc10"
+      "sha256": "8a919954160137d5f18e1f5749786fe176027862f73602f8bfc3405dec9e0873"
     },
     {
       "path": "data/processed/war/southern_war_panel_v1/southern_war_panel_coverage.csv",

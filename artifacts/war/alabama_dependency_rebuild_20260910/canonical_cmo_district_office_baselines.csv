@@ -1395,286 +1395,286 @@ cycle,chamber,district,office,D,R,office_margin,baseline_allocation_method,basel
 2010,senate,34.0,Governor,9942.943236188594,31807.439335386644,-52.36957065414766,census_vtd_population,0.0,alabama_sos_canonical,
 2010,senate,35.0,Attorney General,13283.074488230137,17841.080803956767,-14.644594440996208,census_vtd_population,0.0,alabama_sos_canonical,
 2010,senate,35.0,Governor,13553.264048496072,17326.84745819568,-12.220109402396,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,1.0,Attorney General,4090.358627496235,5452.904485507164,-14.27756776562474,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,1.0,Governor,3572.7570791369217,6045.895645777115,-25.71190204460049,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,2.0,Attorney General,4252.1616280471835,9367.884101071866,-37.56024447177513,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,2.0,Governor,3585.0940374782144,10257.223165328753,-48.200955303188344,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,3.0,Attorney General,6464.3159910355425,6748.528243119511,-2.1510300662538877,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,3.0,Governor,5917.347795232609,7442.150364280124,-11.413621610941783,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,4.0,Attorney General,2729.2985981640336,7707.297108738122,-47.69753136343043,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,4.0,Governor,2243.435942897334,8321.214418875008,-57.52938590348252,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,5.0,Attorney General,3897.868769573434,8926.449696639404,-39.21129173697887,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,5.0,Governor,3195.375893293906,9853.7922157522,-51.02559999853528,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,6.0,Attorney General,3731.172325888852,7189.2757490126405,-31.666314416819223,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,6.0,Governor,3087.6409974103876,8005.033417596723,-44.33008881549494,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,7.0,Attorney General,3875.8241023560504,7614.099071579033,-32.53524773519172,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,7.0,Governor,3354.0359384087374,8407.065977162703,-42.96391677436164,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,8.0,Attorney General,3815.142922743608,6828.924508174147,-28.314191026979284,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,8.0,Governor,3391.7815527490293,7338.580320106121,-36.78159985770286,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,9.0,Attorney General,2924.2277169113268,10022.909021557905,-54.828194434330754,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,9.0,Governor,2584.1307195167706,11789.289056455993,-64.04292423384842,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,10.0,Attorney General,4066.1164835813875,7889.537159723838,-31.980022090079874,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,10.0,Governor,3333.1113153589235,9138.944497260472,-46.55073124373873,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,11.0,Attorney General,2384.2581985265397,9247.587412406057,-59.00464503611343,county_population_fallback,0.015891201639882457,alabama_sos_canonical,
-2014,house,11.0,Governor,2700.4516162703767,13400.510516051834,-66.45602176966432,county_population_fallback,0.02311827312251238,alabama_sos_canonical,
-2014,house,12.0,Attorney General,2678.461660893069,8862.423968065008,-53.58308284119296,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,12.0,Governor,2200.5561416189757,9484.919921919995,-62.336902156940745,census_vtd_population,0.0,alabama_sos_canonical,
 2014,house,13.0,Attorney General,3582.540166017011,8649.20561036683,-41.42225923410022,county_population_fallback,0.00584572191877884,alabama_sos_canonical,
-2014,house,13.0,Governor,6080.349736575287,18488.24459360263,-50.503071890387176,county_population_fallback,0.005860681769173989,alabama_sos_canonical,
-2014,house,14.0,Attorney General,3275.6380031207354,8165.841518380806,-42.74100658109902,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,14.0,Governor,4532.29520831479,13538.674807991976,-49.83893831681457,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,15.0,Attorney General,3572.9916278839155,9130.00835228553,-43.74570363753939,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,15.0,Governor,3271.9737866549112,9498.721226450565,-48.75809369345735,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,16.0,Attorney General,4068.8041130457887,9858.517288981493,-41.5709023207646,county_population_fallback,0.003951162703336946,alabama_sos_canonical,
-2014,house,16.0,Governor,4029.932293616493,12314.836870468074,-50.68841593099121,county_population_fallback,0.006936711491791437,alabama_sos_canonical,
-2014,house,17.0,Attorney General,3487.0010225036945,8145.973024794125,-40.049706836341194,county_population_fallback,0.005241212339254386,alabama_sos_canonical,
-2014,house,17.0,Governor,3678.464332772134,10518.85284977794,-48.180852967160085,county_population_fallback,0.008848224653543494,alabama_sos_canonical,
-2014,house,18.0,Attorney General,4406.922719994941,6650.887293771234,-20.293028827432547,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,18.0,Governor,3977.6361449437036,7344.716853362176,-29.73834775264714,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,19.0,Attorney General,6912.472450582319,3430.7072673811754,33.66242565769399,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,19.0,Governor,5850.104167945944,4283.976030962805,15.454072853615086,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,20.0,Attorney General,3919.877558640618,11645.333386068743,-49.632837324662276,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,20.0,Governor,2921.348837449796,12754.672456082939,-62.728440045497756,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,21.0,Attorney General,4889.8957782815505,9389.588751015877,-31.511592477321155,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,21.0,Governor,3887.904481601919,10375.861435147292,-45.48558207848109,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,22.0,Attorney General,3280.5127195571413,8746.244384638785,-45.44642930532574,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,22.0,Governor,2479.2701980170013,9778.510797088582,-59.547813768137146,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,23.0,Attorney General,3397.6600944146626,6015.563078575367,-27.81090956891815,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,23.0,Governor,2854.304228400636,7043.561371424458,-42.32485378562678,census_vtd_population,0.0,alabama_sos_canonical,
 2014,house,24.0,Attorney General,3452.789263436274,7269.983017168218,-35.59894450651107,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,24.0,Governor,5056.881788257139,16784.885856707097,-53.69530643804797,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,25.0,Attorney General,4385.544524088216,9167.628829163743,-35.28387175781316,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,25.0,Governor,3305.1559497783373,10233.22129076188,-51.17352853957772,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,26.0,Attorney General,1610.6542520899166,5059.7233671204995,-51.70725425045509,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,26.0,Governor,1314.042027190293,6034.162141875907,-64.23501587715738,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,27.0,Attorney General,2894.013107114325,8953.057364525006,-51.14381881930567,county_population_fallback,0.002960560435082973,alabama_sos_canonical,
-2014,house,27.0,Governor,2444.2107631954887,10643.899191503437,-62.64990481199371,county_population_fallback,0.005396470647381712,alabama_sos_canonical,
-2014,house,28.0,Attorney General,5598.59155395476,4948.325727427858,6.165458675538766,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,28.0,Governor,5126.58351244085,5560.561873579682,-4.060750981328488,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,29.0,Attorney General,4237.974361840135,8806.288222947815,-35.02163369844446,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,29.0,Governor,4798.829399839436,13216.917722459044,-46.726279323716525,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,30.0,Attorney General,3181.1535988231317,8614.320817644691,-46.06145566503235,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,30.0,Governor,2660.267662437609,9302.087868054403,-55.52267852837856,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,31.0,Attorney General,4536.84848401361,8990.905766210568,-32.925326701016516,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,31.0,Governor,5874.6361033441535,21173.95358242961,-56.562348191973015,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,32.0,Attorney General,9031.08337814326,7648.041037411434,8.292056023288733,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,32.0,Governor,13710.491072623885,14944.163899914754,-4.305313843329007,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,33.0,Attorney General,4277.5761151758425,7232.805231668788,-25.674467486718584,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,33.0,Governor,4383.1836165732475,9461.284169443525,-36.679637176080355,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,34.0,Attorney General,1730.6578453687293,7472.542542806367,-62.3900866574111,county_population_fallback,0.05536972161418077,alabama_sos_canonical,
-2014,house,34.0,Governor,2450.499262076719,14376.268112745573,-70.87379640437206,county_population_fallback,0.06098350461181439,alabama_sos_canonical,
-2014,house,35.0,Attorney General,6463.594693058035,10850.685511231297,-25.337991336691154,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,35.0,Governor,9549.959251209371,20449.377761554028,-36.33219796059971,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,36.0,Attorney General,7858.131787971899,14999.684826307133,-31.243373585708017,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,36.0,Governor,12405.869717951196,29007.296092338143,-40.08731534902899,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,37.0,Attorney General,4986.276105155247,7066.002836963132,-17.255879504580566,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,37.0,Governor,4561.181279370569,7859.605548088703,-26.555678915816642,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,38.0,Attorney General,3321.8342451945955,5768.409322906846,-26.914296183410563,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,38.0,Governor,2803.5910004799657,6422.9989179913,-39.228013269186526,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,39.0,Attorney General,4456.577894935006,9278.498711674303,-35.106617566435645,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,39.0,Governor,5249.389185617461,13728.899262574067,-44.68005689820059,census_vtd_population,0.0,alabama_sos_canonical,
 2014,house,40.0,Attorney General,12343.134269554781,21281.592512657142,-26.582991442568282,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,40.0,Governor,20791.454203456637,46754.61464636686,-38.437707604619646,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,41.0,Attorney General,2612.3319387658416,8421.816844226954,-52.6500504906678,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,41.0,Governor,2288.5242438484124,8844.585796258809,-58.88796148418609,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,42.0,Attorney General,3104.3724477264154,8506.272562853543,-46.52540931364933,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,42.0,Governor,4199.861250200348,15533.035463922217,-57.43289684180463,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,43.0,Attorney General,2626.207066048706,10771.89586078979,-60.79732958629535,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,43.0,Governor,2336.1140511257217,11155.676308184162,-65.36984360250294,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,44.0,Attorney General,2861.735754857458,9635.634646255054,-54.20259361757083,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,44.0,Governor,2520.111879985587,10044.444579011582,-59.88538253284704,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,45.0,Attorney General,3443.014847136876,8970.425011543231,-44.52762672822964,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,45.0,Governor,3171.6518425183394,9339.49704689922,-49.298791493064996,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,46.0,Attorney General,3419.1495565234404,9921.878738965777,-48.74233858450775,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,46.0,Governor,3332.7449145493747,10056.51454917826,-50.21763640359656,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,47.0,Attorney General,3096.973663861801,6813.187028543599,-37.499022266406826,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,47.0,Governor,2917.283157553977,7062.796365964709,-41.537877515320076,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,48.0,Attorney General,2806.037386922175,10893.752756708345,-59.035323059648576,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,48.0,Governor,2769.3278075196768,11022.572017910039,-59.8412424311037,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,49.0,Attorney General,2828.2530091257095,7134.109732486993,-43.221240131879135,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,49.0,Governor,3779.1304327385337,12052.048447868543,-52.25711917931894,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,50.0,Attorney General,1893.689424556755,8622.126928109948,-63.983976877334214,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,50.0,Governor,1624.4711664618321,8932.418751066376,-69.22443675831782,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,51.0,Attorney General,2313.0245613107318,9944.078716055374,-62.25821861871802,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,51.0,Governor,1967.8572892332197,10366.352449118198,-68.09106815956834,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,52.0,Attorney General,7621.488046584488,2156.9115790600326,55.88415974729883,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,52.0,Governor,7529.375423037236,2277.432547427446,53.55405032327693,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,53.0,Attorney General,3911.8231415188316,1767.5573207712116,37.75527691770464,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,53.0,Governor,3363.24391779752,2244.9746709335896,19.939829897339024,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,54.0,Attorney General,7180.832323885638,2873.741493464649,42.83712973481407,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,54.0,Governor,7045.248137212936,3051.5828602469574,39.55365082341859,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,55.0,Attorney General,8297.524521483838,1048.9817523137133,77.5535002794685,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,55.0,Governor,8133.281120185454,1239.730929033548,73.54679749639611,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,56.0,Attorney General,8458.504836989365,3626.3913495598163,39.98473311510796,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,56.0,Governor,8190.093106629838,3925.7221532551885,35.19673139531773,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,57.0,Attorney General,9407.67507589803,3030.937707984763,51.26566345224492,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,57.0,Governor,9145.690871925153,3310.2194425774233,46.84901610565882,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,58.0,Attorney General,7983.4898890791565,2355.686491053882,54.43183471402254,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,58.0,Governor,7698.094120201618,2657.3527031933713,48.67719860837121,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,59.0,Attorney General,7639.900320196977,1277.5356331220853,71.34746714616801,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,59.0,Governor,7450.088215665072,1482.7951102864133,66.80142220197479,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,60.0,Attorney General,9181.472891489871,2126.7911129755566,62.38518817502447,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,60.0,Governor,8984.766511809508,2347.338908925098,58.57188365667479,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,61.0,Attorney General,3941.6795982742196,7810.752855018509,-32.921467722711945,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,61.0,Governor,4793.461768851995,11324.988811901594,-40.52205272663515,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,62.0,Attorney General,4038.3668628004784,7205.135238106403,-28.165320261295623,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,62.0,Governor,3551.7773168519066,7792.10791274842,-37.379879204277806,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,63.0,Attorney General,2661.0517298702944,5383.586042118532,-33.84284525187716,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,63.0,Governor,2292.2311955073087,5857.895225370718,-43.749800257445266,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,64.0,Attorney General,2663.8834157465726,8280.045254059925,-51.317602734454354,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,64.0,Governor,2120.049648011872,8890.44970074092,-61.490399647459775,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,65.0,Attorney General,5194.575588479132,8592.814299241478,-24.647440439679603,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,65.0,Governor,4769.662588416419,9384.972972628715,-32.60635262778547,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,66.0,Attorney General,3668.0823867345343,6114.344415246358,-25.00669903317312,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,66.0,Governor,5399.971087463793,11680.726965434851,-36.77107257864789,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,67.0,Attorney General,9206.543439429133,3795.4793964147657,41.617093827101876,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,67.0,Governor,17039.35897957046,8545.683861604339,33.19781471812503,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,68.0,Attorney General,8092.947934380438,4922.295985634073,24.361064365997912,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,68.0,Governor,7649.946579814562,5516.073762805848,16.207424578412986,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,69.0,Attorney General,10574.966847536636,4073.0639893724983,44.387555778358106,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,69.0,Governor,12592.438231230863,6294.391493658212,33.34623560074289,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,70.0,Attorney General,6267.110821144879,2369.637902369673,45.126621643673424,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,70.0,Governor,6002.973035607584,2691.138568896951,38.09284510443515,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,71.0,Attorney General,9358.623307576112,3847.00926652082,41.736842291571975,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,71.0,Governor,11279.45378272083,5242.736032412034,36.53703182116754,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,72.0,Attorney General,9280.028543507282,3755.089958069806,42.38502768324681,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,72.0,Governor,10880.534728026852,4888.558418568579,37.998230169323016,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,73.0,Attorney General,2999.0410998642496,8437.11574835272,-47.55159203099187,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,73.0,Governor,2651.8823511757023,8865.59666130259,-53.95029852795749,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,74.0,Attorney General,6137.9750629238215,7335.31691505674,-8.886780261941459,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,74.0,Governor,5023.719617956674,8596.453185629147,-26.231191183799588,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,75.0,Attorney General,4992.231301187062,6411.593171636374,-12.446367215067253,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,75.0,Governor,4968.491328913274,10175.093007110921,-34.38156755142813,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,76.0,Attorney General,7727.251690344729,1617.6747515851623,65.37854499684893,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,76.0,Governor,7345.293596820456,2047.1487705126265,56.40859553990747,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,77.0,Attorney General,7731.645225157719,3302.7417067680108,40.137286699414055,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,77.0,Governor,7029.0600429690385,4075.6854682513117,26.595607902347755,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,78.0,Attorney General,8217.533026145747,1569.8759355463048,67.92049986486099,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,78.0,Governor,7816.064207061033,2001.4820231610122,59.22643038848732,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,79.0,Attorney General,4126.075371136196,4682.2735547721195,-6.314443130198417,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,79.0,Governor,3357.280932372837,5743.008560903999,-26.215953133070144,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,80.0,Attorney General,2511.003866242174,4734.363224477844,-30.68663506481796,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,80.0,Governor,2309.8627957282906,5023.795523617289,-37.00653357042651,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,81.0,Attorney General,4871.572259102505,8774.540078405296,-28.601316790973982,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,81.0,Governor,5000.208827323892,11925.097593458062,-40.914407065808604,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,82.0,Attorney General,7802.4429535733725,2420.9499390399133,52.63901202918409,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,82.0,Governor,11808.785065523101,3808.026007840937,51.23170806188609,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,83.0,Attorney General,5254.304007263826,3138.270424691778,25.213164324346405,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,83.0,Governor,5009.189854514969,3471.4292404927446,18.132645704220554,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,84.0,Attorney General,7566.997506999906,4055.8628605897898,30.20886886158336,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,84.0,Governor,7165.2947025258545,4537.442568453939,22.45502119054154,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,85.0,Attorney General,4976.142836291863,4405.934554535901,6.077633534694748,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,85.0,Governor,3867.8209894092724,5624.560157714657,-18.5068334391277,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,86.0,Attorney General,4653.303801644664,6502.139714423625,-16.573396746762235,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,86.0,Governor,2865.522288328799,8433.890322859843,-49.2801548729822,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,87.0,Attorney General,3685.297415969933,8481.125326144322,-39.41855393182713,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,87.0,Governor,3224.029150239589,16358.987168341257,-67.07321183018624,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,88.0,Attorney General,4060.301322707391,6825.590444235477,-25.402504275537858,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,88.0,Governor,4438.628565611715,10236.262839405481,-39.50716985756783,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,89.0,Attorney General,5278.823391755052,5644.732193529295,-3.349722523197264,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,89.0,Governor,4176.942480376091,6891.7485524709,-24.52689359598585,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,90.0,Attorney General,6712.143568734142,7116.711409550637,-2.925533903217447,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,90.0,Governor,8302.540666479235,11607.80882669357,-16.600754102019657,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,91.0,Attorney General,3131.9611652288336,6660.1102536473345,-36.03067152489606,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,91.0,Governor,2136.7069456429085,7768.301797637622,-56.85603110461804,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,92.0,Attorney General,3093.5828165316348,6869.864017161266,-37.90135345390278,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,92.0,Governor,2704.2390650379507,8789.538170233105,-52.94429307818097,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,93.0,Attorney General,4329.4325543384875,7378.068211366856,-26.04002099200117,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,93.0,Governor,2964.6850916462486,8902.813798613342,-50.036901303954565,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,94.0,Attorney General,2820.813142817583,9914.724926648207,-55.70170451485437,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,94.0,Governor,2342.7321733395884,10515.912393428258,-63.56175549957739,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,95.0,Attorney General,2476.944005300687,9491.968474562085,-58.610374844530796,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,95.0,Governor,2027.4131391102703,10047.752655961216,-66.42011921794457,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,96.0,Attorney General,3028.484627697007,9057.563465651876,-49.884617299121565,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,96.0,Governor,2586.665988256666,9604.641706495388,-57.56540556563693,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,97.0,Attorney General,5648.081168219736,2404.0853870618357,40.287241438518194,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,97.0,Governor,5477.148754384049,2617.6856819617456,35.32454054382285,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,98.0,Attorney General,6955.91181419898,3928.8731825584196,27.809815559446715,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,98.0,Governor,6743.947810546556,4228.249172049884,22.927939067143523,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,99.0,Attorney General,6974.915915985644,2821.460497321506,42.39787492263149,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,99.0,Governor,6728.079772591724,3101.7104891766544,36.89162420402128,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,100.0,Attorney General,2475.319054886446,7369.741231099314,-49.71449675305672,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,100.0,Governor,2201.44449804373,7706.772398973773,-55.56325581232699,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,101.0,Attorney General,2639.379166389182,6614.5163210012315,-42.9563653493674,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,101.0,Governor,2453.1598065608705,6875.580280561281,-47.40640678911546,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,102.0,Attorney General,1817.6417783591626,6224.4349766781725,-54.79670652930186,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,102.0,Governor,1631.8200372684228,6451.958922970387,-59.62729695369564,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,103.0,Attorney General,5597.684397806183,2419.5493066318804,39.64129284911574,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,103.0,Governor,5412.95257770084,2648.6982179677957,34.288936965841074,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,104.0,Attorney General,2737.9349731694347,7091.830755857568,-44.29297607603414,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,104.0,Governor,2458.490444696298,7430.756747328081,-50.2795228603638,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,105.0,Attorney General,1607.5077734074182,5791.2430427044565,-56.54650863746262,census_vtd_population,0.0,alabama_sos_canonical,
-2014,house,105.0,Governor,1367.549788063072,6073.849513074322,-63.24482176748541,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,1.0,Attorney General,12939.092523142743,23923.882387758837,-29.798978219111483,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,1.0,Governor,10777.918299325229,26557.616947749397,-42.264557194638215,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,2.0,Attorney General,11923.402816420908,21474.543403205516,-28.59798780432746,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,2.0,Governor,9272.268226025988,24065.856199104812,-44.37438586655219,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,3.0,Attorney General,10260.528806733175,23852.518933522664,-39.84396302048957,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,3.0,Governor,8625.672673602538,25828.97206923513,-49.93027652449896,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,4.0,Attorney General,8808.415195010484,24917.01125339303,-47.76395068873944,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,4.0,Governor,7366.516834840939,26953.98231425462,-57.07220455717022,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,5.0,Attorney General,10932.624023181661,26139.542430142847,-41.01977268069123,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,5.0,Governor,13776.26803203336,40749.45593806119,-49.468738683454575,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,6.0,Attorney General,14791.102475842112,19442.032874452096,-13.586048578428013,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,6.0,Governor,13433.005611636247,21413.535307069313,-22.90192795333993,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,7.0,Attorney General,14157.501523076146,21566.852041908864,-20.74033475610583,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,7.0,Governor,11529.055325450832,24127.173947025778,-35.332167418217594,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,8.0,Attorney General,11481.209571183259,24892.147948677717,-36.87022395491445,county_population_fallback,0.06262555031407015,alabama_sos_canonical,
-2014,senate,8.0,Governor,12330.29682374779,39660.1721244268,-52.56708749429076,county_population_fallback,0.08889339143588616,alabama_sos_canonical,
-2014,senate,9.0,Attorney General,6674.56052440779,21470.964759257087,-52.57107154946882,county_population_fallback,0.020289121018572477,alabama_sos_canonical,
-2014,senate,9.0,Governor,5678.6070689137705,26245.37110425208,-64.42418900231549,county_population_fallback,0.036292246293804724,alabama_sos_canonical,
-2014,senate,10.0,Attorney General,12473.156197627934,21113.89196788995,-25.726392291696,county_population_fallback,0.008963291398908642,alabama_sos_canonical,
-2014,senate,10.0,Governor,10940.819180238646,23547.657530910845,-36.553769701857085,county_population_fallback,0.017710205626988162,alabama_sos_canonical,
-2014,senate,11.0,Attorney General,8925.426311139645,23525.64689701471,-44.991487622684545,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,11.0,Governor,7914.248500329655,24731.005351313295,-51.51363480709249,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,12.0,Attorney General,32311.797799955435,51734.28168306136,-23.109327648091696,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,12.0,Governor,54145.99503000446,111895.99095887633,-34.78035726020475,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,13.0,Attorney General,11470.151180146879,19224.212699010823,-25.2621671828461,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,13.0,Governor,11061.880860325502,23243.035484201966,-35.508480771502235,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,14.0,Attorney General,8828.178262238267,23051.2311953549,-44.61517065438905,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,14.0,Governor,10817.542060985825,34360.932756608825,-52.11196436063415,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,15.0,Attorney General,9948.038685650536,27735.911140861517,-47.20278138863394,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,15.0,Governor,9399.67939152692,28525.58485958369,-50.43051339450241,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,16.0,Attorney General,9129.992421481153,27609.760969411916,-50.29910884625444,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,16.0,Governor,8483.904844524823,28495.28257555965,-54.11524462045389,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,17.0,Attorney General,7275.212832386415,28987.913442446352,-59.87542399268793,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,17.0,Governor,7870.748804168458,40113.335919770114,-67.19433599931999,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,18.0,Attorney General,22341.35386210539,7449.653225430082,49.98723471455243,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,18.0,Governor,21964.88177164334,7950.037223153351,46.8490138680559,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,19.0,Attorney General,25466.756959278096,9229.07994555054,46.80007304123495,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,19.0,Governor,24736.638006338086,10023.732796468074,42.32666358289325,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,20.0,Attorney General,21842.115881171394,8431.32239646662,44.2988779857585,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,20.0,Governor,21105.702054257516,9229.960313907592,39.14779112524862,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,21.0,Attorney General,11499.706619548038,21365.52497239473,-30.019013635264916,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,21.0,Governor,12378.65363334704,29022.718155193183,-40.201722316972045,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,22.0,Attorney General,12065.034043905876,23195.75106978756,-31.566843988278347,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,22.0,Governor,13191.045290648108,31168.196540671757,-40.5262815770915,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,23.0,Attorney General,27975.63797662349,13419.898175906235,35.162583103366174,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,23.0,Governor,39974.01291321248,24276.492456150612,24.431746282492277,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,24.0,Attorney General,24136.202254542568,10427.505066520247,39.66211454310158,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,24.0,Governor,27472.46694759641,13037.176528175612,35.63420751420398,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,25.0,Attorney General,17410.135545498833,22850.926834487043,-13.513779734965153,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,25.0,Governor,15609.751101385302,33852.17577380077,-36.8817509241988,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,26.0,Attorney General,24671.379838597957,5122.925394889189,65.61137871990849,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,26.0,Governor,23369.471361559372,6532.512290109618,56.307164325902484,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,27.0,Attorney General,12958.52691071867,17114.86337833401,-13.820644854691784,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,27.0,Governor,11110.551666204086,19555.30905725478,-27.53797608097332,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,28.0,Attorney General,20290.617217423547,9812.787770697507,34.806127249926185,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,28.0,Governor,23026.780900711536,12625.606902605623,29.17384960436835,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,29.0,Attorney General,12469.091008995953,21378.02201672575,-26.321095689784723,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,29.0,Governor,8967.902368551906,32579.938737550405,-56.83095857784654,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,30.0,Attorney General,12712.23684030176,20778.28296901888,-24.08456534757124,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,30.0,Governor,15646.02868374347,37121.18256373262,-40.697913291781795,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,31.0,Attorney General,11960.219650868845,19860.893509053763,-24.82840188047065,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,31.0,Governor,8829.527011284623,23404.49473039552,-45.21610066504597,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,32.0,Attorney General,8117.338598131345,28173.193074088886,-55.26470280761951,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,32.0,Governor,6757.338581512019,29864.967841960904,-63.097143563951334,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,33.0,Attorney General,21540.8987295136,6083.1675425684125,55.95747937575501,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,33.0,Governor,20972.952349983996,6786.596726387092,51.104416662417336,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,34.0,Attorney General,6600.033211629719,21019.030783000195,-52.20668439080347,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,34.0,Governor,5917.797196550229,21880.87689704722,-57.423888804011646,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,35.0,Attorney General,7957.323701520377,18262.825847710163,-39.303750449021415,census_vtd_population,0.0,alabama_sos_canonical,
-2014,senate,35.0,Governor,7176.070593789488,19197.06307743144,-45.58044801767179,census_vtd_population,0.0,alabama_sos_canonical,
+2014,house,1.0,Attorney General,4126.488281483024,5383.408762441061,-13.216972540844592,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0314540105934633
+2014,house,1.0,Governor,3614.2723579686863,5969.450698970169,-24.574774615344023,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0315249056503484
+2014,house,2.0,Attorney General,4276.852595703337,9409.518096643078,-37.50202019451358,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1472286648060312
+2014,house,2.0,Governor,3606.254948497272,10302.995946572406,-48.14595012049775,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1467557383042856
+2014,house,3.0,Attorney General,6346.08856877873,6698.766358714079,-2.70357770857274,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1303444468214138
+2014,house,3.0,Governor,5803.938985860426,7385.9123061691935,-11.993867749401572,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1315170771843098
+2014,house,4.0,Attorney General,2940.271800513855,8019.596134364278,-46.344758568542936,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3433528059729215
+2014,house,4.0,Governor,2428.9933969602507,8663.301380867473,-56.203951560761965,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3435505446467268
+2014,house,5.0,Attorney General,3797.543857222839,8666.23988634658,-39.06274474343076,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.313591513584401
+2014,house,5.0,Governor,3116.6874207247165,9565.979899523643,-50.85123117991424,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3134781143037126
+2014,house,6.0,Attorney General,3491.9130689649683,7109.446711018385,-34.123298493121204,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3539920911360923
+2014,house,6.0,Governor,2811.1734626758225,7903.914777142736,-47.5286922560439,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3638593643710713
+2014,house,7.0,Attorney General,3818.034753077801,7612.035818357197,-33.19315520904151,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.121698215589709
+2014,house,7.0,Governor,3298.7711840973598,8402.38719810787,-43.61633136913981,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1215137434384561
+2014,house,8.0,Attorney General,3716.9440452893855,6619.833858471026,-28.08312068043562,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.4175437368294092
+2014,house,8.0,Governor,3306.7273758086417,7115.52084759985,-36.54483553017489,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.4165996044672054
+2014,house,9.0,Attorney General,2496.6936166945884,9144.349777250289,-57.10532926982729,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.5928223598709135
+2014,house,9.0,Governor,2237.132489566639,10832.692943316806,-65.76645187719105,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.6326846474490476
+2014,house,10.0,Attorney General,3905.846068010251,7440.511218525171,-31.15242241410344,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1904991501477116
+2014,house,10.0,Governor,3201.9888355182047,8653.781655608833,-45.98429789249714,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.2259952153420955
+2014,house,11.0,Attorney General,1545.787555221023,5695.431150815101,-57.30587300360124,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1114559578929098
+2014,house,11.0,Governor,1874.0502671574168,8708.53848614572,-64.58238506958006,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0780957250156313
+2014,house,12.0,Attorney General,2708.961212328219,8980.213535687973,-53.650086157058006,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.2381225927840678
+2014,house,12.0,Governor,2227.2488868004234,9608.549534403946,-62.36419703109837,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.2386183450180952
+2014,house,13.0,Governor,3054.8176472675304,8871.20648480711,-48.77056069253288,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0692514437852397
+2014,house,14.0,Attorney General,1033.389027095759,4160.4316166245735,-60.206980641690286,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3314067044017056
+2014,house,14.0,Governor,2698.53659001805,9129.415533000045,-54.37018070496764,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1658185001993939
+2014,house,15.0,Attorney General,3692.29581292686,9501.80982329449,-44.03113155634408,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.6563189657280919
+2014,house,15.0,Governor,3378.1213714618198,9887.071670812822,-49.067889766909005,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.6559653005450556
+2014,house,16.0,Attorney General,3235.4192449005177,7929.250960626085,-42.04183042865057,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3747613431279412
+2014,house,16.0,Governor,3253.6094519592616,10254.9794354609,-51.829025532205264,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3140310155796593
+2014,house,17.0,Attorney General,2839.7761539059416,6638.098477139642,-40.07567594101712,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.057053467054615
+2014,house,17.0,Governor,3099.085972569556,8877.160044148372,-48.2461203912567,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0473689267070144
+2014,house,18.0,Attorney General,4464.592842959741,6729.790653129163,-20.235127829601677,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0807486884430942
+2014,house,18.0,Governor,4028.610338046401,7433.00747846104,-29.70258819406368,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0801389092991383
+2014,house,19.0,Attorney General,6549.803990111446,3082.739849473581,35.993234999771644,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3139492014420735
+2014,house,19.0,Governor,5572.192480943558,3867.960280410295,18.053015068888055,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3156034260180536
+2014,house,20.0,Attorney General,3910.979352464745,11623.2841892738,-49.6470580410014,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.4006027789895686
+2014,house,20.0,Governor,2914.658748120982,12730.288354090591,-62.739934765149,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.4007028553776593
+2014,house,21.0,Attorney General,4722.110819566404,9034.106198288251,-31.345793491954694,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.4567208835324278
+2014,house,21.0,Governor,3751.895003604485,9988.69750407356,-45.38961836604965,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.4557221023314421
+2014,house,22.0,Attorney General,3312.942178329002,8830.13468879096,-45.43488088592245,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.2726700454346482
+2014,house,22.0,Governor,2503.0881929530387,9871.293082262297,-59.54402669058731,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.2722389114824119
+2014,house,23.0,Attorney General,3274.798389085068,5805.403109447297,-27.86947757460285,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3798796057578221
+2014,house,23.0,Governor,2768.245396163433,6801.505366497702,-42.14592490821265,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3995660886650312
+2014,house,24.0,Governor,2470.400543816632,8615.185376909232,-55.43040193846833,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1077675711993294
+2014,house,25.0,Attorney General,5023.213214684694,10153.875151294544,-33.805311090569084,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3472712761958643
+2014,house,25.0,Governor,3789.919124848169,11354.233936558428,-49.9487477512835,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3487824500500961
+2014,house,26.0,Attorney General,1282.575294716144,4209.25181684154,-53.29149047620479,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.4594069037092178
+2014,house,26.0,Governor,1066.4354362706115,5093.672794575281,-65.37608118861992,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.4995728120933277
+2014,house,27.0,Attorney General,2531.2612741061344,8059.483377942953,-52.19861572969965,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3736626435133414
+2014,house,27.0,Governor,2045.649186254088,9287.431202692376,-63.89950276450384,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.4019980140293331
+2014,house,28.0,Attorney General,5579.796290481773,4897.978302229422,6.507278642228606,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0659917467789183
+2014,house,28.0,Governor,5111.381454031406,5505.208018173578,-3.709539350402869,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0663823937612816
+2014,house,29.0,Attorney General,2532.6815341921965,5558.91324185999,-37.399694268232544,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1571657792008017
+2014,house,29.0,Governor,3562.5728285061605,9769.782755005135,-46.55748856695439,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3928712959975425
+2014,house,30.0,Attorney General,3248.684540168726,8816.467807251325,-46.1476416273615,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3614828909630413
+2014,house,30.0,Governor,2714.887958408604,9519.469151699031,-55.61862492691749,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.360727458845498
+2014,house,31.0,Attorney General,67.25460445105655,160.55814599252747,-40.956242071523896,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.9856112904317372
+2014,house,31.0,Governor,3169.58950317209,10451.015180745826,-53.45890176352479,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3747060418224747
+2014,house,32.0,Attorney General,2950.907910618609,1788.1283475280857,24.53620313817254,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.8048759386872253
+2014,house,32.0,Governor,9228.37343769509,10877.24696330194,-8.201057678006709,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.6543686579814523
+2014,house,33.0,Attorney General,3727.087408931296,5520.06852023052,-19.389541227966987,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.4211558817802616
+2014,house,33.0,Governor,3876.415242495289,7626.500169095382,-32.60116928984281,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.386256172894709
+2014,house,34.0,Attorney General,554.0456179165709,2007.7430619260117,-56.74540821605816,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1642729428356259
+2014,house,34.0,Governor,576.254033056866,3447.221669422241,-71.3554113076015,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1062759738569692
+2014,house,35.0,Attorney General,1730.4629515403426,3055.564986817428,-27.686884663940493,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.5171189741468821
+2014,house,35.0,Governor,3199.7788767963984,6175.707211246675,-31.741589785361583,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3849442175168921
+2014,house,36.0,Attorney General,1114.9831430979089,3326.8246058185787,-49.79597469656842,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.056784037149132
+2014,house,36.0,Governor,7020.365015225321,15723.639725019146,-38.26623679159625,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.6517585806164131
+2014,house,37.0,Attorney General,4894.644589639329,7065.824450502921,-18.152965854236847,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1072242301822534
+2014,house,37.0,Governor,4467.56190913651,7861.506208707652,-27.52798725038272,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.105945415546454
+2014,house,38.0,Attorney General,3506.654523647228,5936.399389436696,-25.730498715282238,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.4553782887706129
+2014,house,38.0,Governor,2989.503377596043,6591.050181793868,-37.59226209500124,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.4535487815068516
+2014,house,39.0,Attorney General,2674.1628817154083,6113.2887159001375,-39.13678267221327,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0346241493248909
+2014,house,39.0,Governor,3904.2601707479967,10401.639899983802,-45.417482976332856,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.2549250251232476
+2014,house,40.0,Governor,11749.588088643748,24640.4045375867,-35.424069967112494,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.7140885059340799
+2014,house,41.0,Attorney General,2599.447695517202,8364.22675365694,-52.58072086018552,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,9.018710432034668e-05
+2014,house,41.0,Governor,2277.221669396573,8784.673711334694,-58.82764045367363,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,8.996580363847692e-05
+2014,house,42.0,Attorney General,1087.8760644289423,2494.595603242987,-39.266731723469626,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.2645734120182753
+2014,house,42.0,Governor,2552.9365268963165,9153.80853634059,-56.3852033489071,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1127575837910037
+2014,house,43.0,Attorney General,2599.762186922156,10693.092053806316,-60.88481615999899,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1086309371504893
+2014,house,43.0,Governor,2309.2153589480545,11078.631172607733,-65.50281102333933,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1085416294670033
+2014,house,44.0,Attorney General,2567.8154154426597,9030.609818214823,-55.72130933790714,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.7608795299241294
+2014,house,44.0,Governor,2259.188578627236,9401.684044509826,-61.25180933466953,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.7608011062148156
+2014,house,45.0,Attorney General,3276.94168887617,8917.70256102088,-46.25605107088164,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3967372253594872
+2014,house,45.0,Governor,3010.9512587877302,9281.707530293972,-51.01220475651619,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3972096502058531
+2014,house,46.0,Attorney General,3332.175209766674,9658.665537431358,-48.69962191653556,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.6558466973615746
+2014,house,46.0,Governor,3258.204029518247,9778.246689724472,-50.01394014846529,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.6556232355010575
+2014,house,47.0,Attorney General,3064.322340268204,6639.045798213463,-36.8400271630281,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.921947912552334
+2014,house,47.0,Governor,2884.8834102911087,6885.618891264753,-40.94708089200864,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.9218563920266124
+2014,house,48.0,Attorney General,2953.2274369057377,11463.212850004917,-59.0297274759691,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.7395198709458808
+2014,house,48.0,Governor,2906.994717417663,11605.812003010717,-59.93890398435822,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.7396601142181427
+2014,house,49.0,Attorney General,1425.6944638985992,2984.450468975694,-35.34477956626206,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.4611158978151305
+2014,house,49.0,Governor,2669.6776332968684,7559.206361112564,-47.80119444592444,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3436048805589377
+2014,house,50.0,Attorney General,1908.396220969147,8727.054188264648,-64.11254535468926,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0272189134189916
+2014,house,50.0,Governor,1636.7805469909465,9040.051658667304,-69.33958471083726,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0272626374009979
+2014,house,51.0,Attorney General,2085.989738276902,9472.302166851548,-63.90487875892213,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.4101545963614815
+2014,house,51.0,Governor,1759.189512984566,9872.057620159336,-69.75062961268091,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.4096414548921144
+2014,house,52.0,Attorney General,7549.203883950771,2081.7493209461363,56.769609888922304,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.933628206160177
+2014,house,52.0,Governor,7457.595431894971,2201.485315122108,54.41625610590384,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.9339312134077656
+2014,house,53.0,Attorney General,3881.205154412017,1759.9436431737752,37.60336036776879,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.62502480465289
+2014,house,53.0,Governor,3336.726826120447,2234.3145189514184,19.7882628917163,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.6279812905131701
+2014,house,54.0,Attorney General,6815.159205820179,2796.139799263358,41.81556940878762,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.6776397679034599
+2014,house,54.0,Governor,6691.29774014351,2964.847714913457,38.591486039375,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.6774454232310281
+2014,house,55.0,Attorney General,8659.469545290805,1175.715590870219,76.09164292093567,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.7894679365268482
+2014,house,55.0,Governor,8482.809758619142,1379.765044574416,72.02018596345367,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.7891122643959199
+2014,house,56.0,Attorney General,8338.286807971308,3392.240479095742,42.163887503408304,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.9076205508569204
+2014,house,56.0,Governor,8080.738164287806,3679.321633457426,37.42682100710294,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.907394532707259
+2014,house,57.0,Attorney General,9529.781518432685,3149.5143186612963,50.3203591251934,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.7680400793138633
+2014,house,57.0,Governor,9262.71951001945,3433.759997708147,45.91004544813829,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.7678332761835315
+2014,house,58.0,Attorney General,9388.994538118382,3035.891970531172,51.132077248065926,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.6217210570496299
+2014,house,58.0,Governor,9041.236665825363,3403.9321375366044,45.29713190202678,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.6217721940463654
+2014,house,59.0,Attorney General,7023.231044192334,1368.4934941058152,67.38468981291545,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.58151116265462
+2014,house,59.0,Governor,6844.671203865348,1561.327563564856,62.85206299067377,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.5813136214840667
+2014,house,60.0,Attorney General,9104.387115717567,2326.0595144299423,59.300636454659255,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.5921150549824472
+2014,house,60.0,Governor,8900.35162610765,2555.712884935035,55.38235870666505,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.5920069462688967
+2014,house,61.0,Attorney General,2383.5826141823327,5507.662047891245,-39.58918481800056,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.069895575084588
+2014,house,61.0,Governor,3485.806731316261,8817.303318273316,-43.33454358668367,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1129515968959553
+2014,house,62.0,Attorney General,4130.464960113024,7407.054996047263,-28.39943114624693,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.601054258778327
+2014,house,62.0,Governor,3620.883009030036,8018.438812978959,-37.7818903128317,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.6005633890154183
+2014,house,63.0,Attorney General,2484.0196368165816,5270.116652353964,-35.93046229311775,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.2399076075631716
+2014,house,63.0,Governor,2162.961144958226,5695.013295076548,-44.948633735982106,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.2398272896876725
+2014,house,64.0,Attorney General,2329.493091723218,7862.08115966083,-54.285902564917954,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.4002217231314163
+2014,house,64.0,Governor,1829.7333873671253,8425.785622298929,-64.31709822501307,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.4005735622551472
+2014,house,65.0,Attorney General,5447.785770672245,8806.959704342235,-23.56530279378122,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.2392699786308388
+2014,house,65.0,Governor,5011.979458561726,9618.916546769526,-31.487730392787363,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.2361973613595978
+2014,house,66.0,Attorney General,499.7518037404975,2301.618737781372,-64.32090676094546,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3461171453130666
+2014,house,66.0,Governor,2937.6415928986166,7164.902293560656,-41.84352721622876,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3224915184110855
+2014,house,67.0,Attorney General,313.671826276992,171.3034743193495,29.35579436366795,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.5821458169314356
+2014,house,67.0,Governor,8753.137892454937,4307.672882502466,34.03666959539861,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0218817140205065
+2014,house,68.0,Attorney General,8286.195396690984,5306.03365606098,21.925482046130043,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.2329513312144316
+2014,house,68.0,Governor,7795.890898269402,5945.98899339781,13.461781935623913,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.2331787881691608
+2014,house,69.0,Attorney General,8203.583144508319,2978.041340641392,46.733297212824105,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.1567257461455154
+2014,house,69.0,Governor,10597.881197836592,4928.372696094776,36.51562405505823,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.1130251631779571
+2014,house,70.0,Attorney General,6392.182690461977,2482.346801745138,44.05682455785556,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.6022474259622195
+2014,house,70.0,Governor,6118.716793971136,2815.280569285801,36.9760152188029,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.6027664502471121
+2014,house,71.0,Attorney General,6897.722708709111,3050.744482373569,38.669054764374,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1763038042600382
+2014,house,71.0,Governor,8918.112081185212,4347.974339975107,34.44978116470297,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.2419711863724302
+2014,house,72.0,Attorney General,7356.207440272279,3126.2586901701634,40.35261070691939,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.2586709639963885
+2014,house,72.0,Governor,9043.530135794852,4230.831615160223,36.255592629817855,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3434578302759025
+2014,house,73.0,Attorney General,2868.783904732375,8116.629598923493,-47.77103467652512,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.6317131900708466
+2014,house,73.0,Governor,2532.523543404417,8530.96149329616,-54.218340152251294,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.6321110720408416
+2014,house,74.0,Attorney General,5528.143124754825,6850.579552205442,-10.68314124131712,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.6138297325687907
+2014,house,74.0,Governor,4506.087734016663,8010.844004217362,-28.00012290148652,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.6149429146328177
+2014,house,75.0,Attorney General,3542.216598195287,4363.040430785905,-10.383265586196933,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.5320041377497925
+2014,house,75.0,Governor,3999.425144521824,7688.19010278642,-31.561314093686903,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.6130578397892172
+2014,house,76.0,Attorney General,7701.894031631642,1907.3638716107937,60.30153648041447,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.5071601805311865
+2014,house,76.0,Governor,7275.895401740082,2389.7698692738013,50.55136294776478,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.5086458772151901
+2014,house,77.0,Attorney General,7541.916654313042,3355.067586454124,38.42208977595215,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.658012506737777
+2014,house,77.0,Governor,6828.431096598935,4134.951517585832,24.567961128422123,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.6590320550736364
+2014,house,78.0,Attorney General,8252.848792905274,1625.6362797874426,67.08733641191158,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.2698931191581857
+2014,house,78.0,Governor,7843.262217712562,2066.918715846896,58.28696307960311,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.2709268539163159
+2014,house,79.0,Attorney General,3938.658378117494,4444.703945464734,-6.036307961111783,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.5749431739113621
+2014,house,79.0,Governor,3205.919492696108,5457.598042840212,-25.990350234856564,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.575486499877446
+2014,house,80.0,Attorney General,2470.5127708959835,4551.877813157525,-29.638981445832982,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.5458192321029903
+2014,house,80.0,Governor,2273.6829622178107,4836.922671174551,-36.04812080871735,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.5439170918920935
+2014,house,81.0,Attorney General,3753.931048207095,6768.235652695728,-28.647185415053357,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1357480080990206
+2014,house,81.0,Governor,4092.246248578122,9731.85603967735,-40.79548656038567,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1618237325819235
+2014,house,82.0,Attorney General,3142.5295300279554,2350.4011346169286,14.420870092345094,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.728393441006272
+2014,house,82.0,Governor,7377.759612092118,3547.9875678010685,35.05272436963428,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3730509104542915
+2014,house,83.0,Attorney General,5044.249978663325,2868.190725698474,27.5017448379143,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.7560490574724942
+2014,house,83.0,Governor,4824.319523522936,3168.52374975216,20.715979497647623,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.7562781758656607
+2014,house,84.0,Attorney General,7544.656299086182,4049.0781725268553,30.150579479961014,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0311068183886617
+2014,house,84.0,Governor,7144.275369684663,4529.171349273314,22.40215836308528,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0311021624337414
+2014,house,85.0,Attorney General,5530.372052058522,5172.327430158151,3.345367423380319,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0944398079843385
+2014,house,85.0,Governor,4220.670026891957,6608.934261932297,-22.053107125113883,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0939486788358916
+2014,house,86.0,Attorney General,4228.433658594551,5834.036173687173,-15.95634612430477,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0234772496139557
+2014,house,86.0,Governor,2623.612638849735,7571.579091485508,-48.532353127929575,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0235967102054239
+2014,house,87.0,Attorney General,1573.5940299706838,3653.5477156059296,-39.79141540202874,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3507920380070125
+2014,house,87.0,Governor,2034.5107684405853,10587.289639412264,-67.76195625507147,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1469140529101919
+2014,house,88.0,Attorney General,2420.4163225814373,4880.757967695903,-33.6978895078672,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.2090932255702569
+2014,house,88.0,Governor,3244.680483699433,7838.813872323614,-41.45022536261422,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.4027003701634846
+2014,house,89.0,Attorney General,5452.1016851757,5924.399612759817,-4.151521765921336,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0340572394932767
+2014,house,89.0,Governor,4308.134126674009,7218.353941069181,-25.248105036775293,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0338869160721248
+2014,house,90.0,Attorney General,3626.032262035928,4332.966627475406,-8.882202086635587,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.0614535892676877
+2014,house,90.0,Governor,5713.190673826147,8301.7915896639,-18.47024039824317,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.0354154683975568
+2014,house,91.0,Attorney General,3138.6849985270624,6628.746631955319,-35.73162081356585,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0050639739393114
+2014,house,91.0,Governor,2144.690604528226,7733.765930529819,-56.57842706668095,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0050329997458937
+2014,house,92.0,Attorney General,2555.7160784057523,5801.925365538054,-38.84121266633903,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0197487093321704
+2014,house,92.0,Governor,2291.0880325086737,7848.419394513859,-54.80869166478925,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0604710474479521
+2014,house,93.0,Attorney General,3951.498574200542,6852.68906778893,-26.852463042322405,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0237785637690921
+2014,house,93.0,Governor,2684.0724391437143,8267.843066100748,-50.98442025308883,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.023656410896961
+2014,house,94.0,Attorney General,2752.667233311412,9693.07462399491,-55.76531692732405,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1927065916617841
+2014,house,94.0,Governor,2287.022992523713,10278.887827310651,-63.5995667116495,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1924382075642924
+2014,house,95.0,Attorney General,2486.687281035107,9479.272952418907,-58.4373133034002,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0022249368589461
+2014,house,95.0,Governor,2038.3939636359248,10034.160324287695,-66.23094143921202,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.00222311242329
+2014,house,96.0,Attorney General,3026.600787705665,9032.805031512518,-49.80514242447343,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.232689980427373
+2014,house,96.0,Governor,2586.81471321491,9577.48815319436,-57.46875523202916,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.2317939916695073
+2014,house,97.0,Attorney General,5947.74930966397,2714.41598467872,37.32707949012424,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.29325601352145
+2014,house,97.0,Governor,5755.435523669697,2953.3535618727865,32.175333841172765,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.2930078334794567
+2014,house,98.0,Attorney General,6513.609967996358,3601.049500069499,28.795437722074933,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.6657886457884271
+2014,house,98.0,Governor,6324.690609245368,3872.7275952483033,24.044939266260204,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.6635359356314722
+2014,house,99.0,Attorney General,6047.637216046543,2803.7603508396965,36.64818850011257,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.3164056777309834
+2014,house,99.0,Governor,5827.78553924244,3056.682262593796,31.190425115569827,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.3162224132739387
+2014,house,100.0,Attorney General,2482.632100551492,7393.643857865432,-49.725339571223664,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.0552125357901751
+2014,house,100.0,Governor,2212.6246273513684,7730.877077854821,-55.49606782502207,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.0550700294578207
+2014,house,101.0,Attorney General,2961.675452114998,6644.630986895602,-38.33893451310647,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.1670751717434487
+2014,house,101.0,Governor,2760.861779449782,6916.1637396762935,-42.939867751860334,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.1666731162727912
+2014,house,102.0,Attorney General,1895.7764838992516,6152.38584742784,-52.889208595606206,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.1625282479317473
+2014,house,102.0,Governor,1709.290388257516,6379.528284259728,-57.73695869669969,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.1616537743312138
+2014,house,103.0,Attorney General,5698.506992865801,2374.618809215387,41.17225799694019,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.4485868067900989
+2014,house,103.0,Governor,5513.2886754575,2604.226644565519,35.836852980324664,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.4497204873931454
+2014,house,104.0,Attorney General,2933.676464016617,7144.492151126383,-41.78155623217877,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.2457646166535098
+2014,house,104.0,Governor,2644.106255792176,7493.391973233915,-47.83513257301559,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.2455719235123375
+2014,house,105.0,Attorney General,1964.6125638251929,5810.95007691969,-49.46699924889328,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.1309894956597439
+2014,house,105.0,Governor,1718.5053056827612,6102.054739212579,-56.05160510711841,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.1310067204881179
+2014,senate,1.0,Attorney General,12788.81454663076,23532.016456030968,-29.57862365157037,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0665593710426437
+2014,senate,1.0,Governor,10669.3201182548,26115.074935794662,-41.989965567857,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0660709609264155
+2014,senate,2.0,Attorney General,11985.94391749044,21695.519747132555,-28.82765406611613,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1280220923237265
+2014,senate,2.0,Governor,9309.462956349826,24316.55596599464,-44.62940749632604,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1281277712498072
+2014,senate,3.0,Attorney General,10313.718185788986,23931.391463350985,-39.76530785587364,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0316135245884377
+2014,senate,3.0,Governor,8670.590463459455,25920.161884775775,-49.86758092931844,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0317154029583282
+2014,senate,4.0,Attorney General,8816.30810541259,24932.732321383868,-47.75372577163696,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0336072845462086
+2014,senate,4.0,Governor,7373.856697514594,26971.20217211903,-57.06015980054568,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0339053725561798
+2014,senate,5.0,Attorney General,5358.750450096035,14878.605392052796,-47.04100187895856,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3030128054092736
+2014,senate,5.0,Governor,9181.510378186673,28533.555482413445,-51.31117939911466,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1641206672096462
+2014,senate,6.0,Attorney General,14782.84574813148,19423.73363820523,-13.56723757046424,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0481243834202923
+2014,senate,6.0,Governor,13425.316284055736,21393.62460338653,-22.884981898471917,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0488745901706254
+2014,senate,7.0,Attorney General,14139.9082488594,21510.231811472237,-20.67403816686232,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.2304121143781606
+2014,senate,7.0,Governor,11516.980025459226,24064.366228388644,-35.26394452141481,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.230966004442895
+2014,senate,8.0,Attorney General,6726.446012183172,14960.163582117882,-37.96682710652208,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0487945031828739
+2014,senate,8.0,Governor,8156.226841066976,26765.23139443934,-53.28816576866684,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0303403722112745
+2014,senate,9.0,Attorney General,5949.467840204654,19004.241136357246,-52.31596356443229,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0812787242273273
+2014,senate,9.0,Governor,4941.877180858509,23218.59775750989,-64.90203242896843,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0724081009319102
+2014,senate,10.0,Attorney General,12348.631097123036,20862.693004251934,-25.636020657111995,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0137912447058987
+2014,senate,10.0,Governor,10770.862359357665,23033.650449326,-36.27559479815453,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0137850791739419
+2014,senate,11.0,Attorney General,8474.618875139835,23127.329604865437,-46.36647875999308,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1110739410937807
+2014,senate,11.0,Governor,7482.868227356999,24310.38561576617,-52.92794965699598,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1110571281150292
+2014,senate,12.0,Attorney General,965.3583758821248,1613.2091521347843,-25.12444484053905,reported_district_with_population_splits,0.0,election_precinct_block_population,0.0
+2014,senate,12.0,Governor,28568.32077676797,56104.58989062068,-32.52075415479743,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0075610705044133
+2014,senate,13.0,Attorney General,10455.363937587928,17320.782323790485,-24.71695793072864,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0686933993144298
+2014,senate,13.0,Governor,10134.315025677835,21024.29145204983,-34.9501394876443,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1075061658855641
+2014,senate,14.0,Attorney General,5549.104206052994,13792.21137339368,-42.61916483127105,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.2294702213439977
+2014,senate,14.0,Governor,8157.565060981066,24496.60040318538,-50.03660363065842,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1377160703822005
+2014,senate,15.0,Attorney General,10092.920796992868,27365.225216573264,-46.11094316660767,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.6087866971362031
+2014,senate,15.0,Governor,9529.722702077715,28168.14291772825,-49.44157954093337,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.6087886588573411
+2014,senate,16.0,Attorney General,9170.758894981816,27778.01831817162,-50.35960815657462,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.6786996736467105
+2014,senate,16.0,Governor,8528.267033052707,28659.861878156014,-54.13446557951328,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.6788892819583783
+2014,senate,17.0,Attorney General,4936.984336588473,18631.507766330826,-58.1052167866356,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.6125680123569612
+2014,senate,17.0,Governor,6011.3079352480445,29256.49979471638,-65.91050976984495,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.4119871944502047
+2014,senate,18.0,Attorney General,22386.709533906956,7773.87733470991,48.45009237669112,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.9202452300909684
+2014,senate,18.0,Governor,22009.873809277826,8275.549105807686,45.349621638035366,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.9202760004643318
+2014,senate,19.0,Attorney General,25484.6817278182,9222.3137955069,46.8561674299409,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.8910209470714515
+2014,senate,19.0,Governor,24755.175286635906,10016.12963376277,42.38853182707685,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.8909005700166989
+2014,senate,20.0,Attorney General,22316.66543160456,9606.12992137316,39.81648652534364,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.8771904605197604
+2014,senate,20.0,Governor,21529.37205752263,10463.266941954142,34.58953516072703,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.8769451396582983
+2014,senate,21.0,Attorney General,8121.897425233205,15349.473932813597,-30.793158172679696,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3263211319227121
+2014,senate,21.0,Governor,9438.69469133982,22560.83900716343,-41.007298542095285,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.261397185386696
+2014,senate,22.0,Attorney General,7823.952305517866,17787.972082974673,-38.90383099027753,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.1829038461058579
+2014,senate,22.0,Governor,9815.450455042866,25126.576418080997,-43.81865430598386,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.1356468229206935
+2014,senate,23.0,Attorney General,13154.098516347069,6199.824176937527,35.93211799808691,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1350669540096506
+2014,senate,23.0,Governor,26624.8154920669,15661.38490484332,25.926733743674596,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0624804404076679
+2014,senate,24.0,Attorney General,20514.14232266427,10073.149332130157,34.13506860421077,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.2587298436944278
+2014,senate,24.0,Governor,23892.99886026451,12648.4694130205,30.77196943250564,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.2218416720252315
+2014,senate,25.0,Attorney General,14224.605919222417,16941.50863472247,-8.717489345030215,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3522065502850986
+2014,senate,25.0,Governor,13729.935743504551,26759.74895644156,-32.18057465622682,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.3023240917673498
+2014,senate,26.0,Attorney General,24865.394080777587,5361.49136527753,64.52501614930854,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.2793238596226846
+2014,senate,26.0,Governor,23528.550338379555,6812.835310982407,55.09212802793883,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.2796146561598578
+2014,senate,27.0,Attorney General,12863.372650414298,16796.46884609688,-13.260678402968615,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.4289795693451972
+2014,senate,27.0,Governor,11037.717824399211,19207.195206362467,-27.01107909834025,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.4298770725958496
+2014,senate,28.0,Attorney General,15907.692753493424,10275.151835433331,21.512333768509656,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1609043334588589
+2014,senate,28.0,Governor,18706.9139084182,13069.623336352664,17.740418122472445,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1339555263149925
+2014,senate,29.0,Attorney General,9704.462228217788,15666.011794850512,-23.49798258090148,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0246815718488545
+2014,senate,29.0,Governor,7358.367751263482,25674.02804841268,-55.44756852704205,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0193263616825617
+2014,senate,30.0,Attorney General,5619.283521794508,9136.96686955822,-23.838598929068727,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0793981446770536
+2014,senate,30.0,Governor,10348.416564428762,23463.893835627245,-38.78905971233707,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0705501447109699
+2014,senate,31.0,Attorney General,11900.863694132133,19780.405894239942,-24.871295571437035,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0193729870003301
+2014,senate,31.0,Governor,8788.340138446532,23302.63971775991,-45.228595837051984,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0192901464572044
+2014,senate,32.0,Attorney General,8071.152710769064,28001.193631106213,-55.25019285258131,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0668178732456612
+2014,senate,32.0,Governor,6721.452593676301,29681.448271228543,-63.07188474555724,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0667440509972147
+2014,senate,33.0,Attorney General,21620.43303427489,6185.597431656181,55.50895019528233,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.2413935178023452
+2014,senate,33.0,Governor,21045.763993764296,6897.15084394391,50.63399159320064,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.2417015152123268
+2014,senate,34.0,Attorney General,6742.125577973999,21069.3958796654,-51.51559336123957,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.1946131749047656
+2014,senate,34.0,Governor,6056.874052201295,21935.015977092586,-56.7240793968346,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.1944294567445799
+2014,senate,35.0,Attorney General,7883.522990691183,18176.45493333161,-39.49708619343121,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.0344241444492533
+2014,senate,35.0,Governor,7106.916373641559,19104.812244792516,-45.77300507648749,reported_district_with_county_split_fallback,0.0,election_precinct_block_population,0.0344759669682046
 2018,house,1.0,Attorney General,5458.168720653775,7496.857405025885,-15.736662084617407,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0329155432258807
 2018,house,1.0,Governor,5158.531056028315,7887.102103042471,-20.91558925307468,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.0329718490079092
 2018,house,2.0,Attorney General,5043.544231717887,12831.253099141972,-43.56809603641789,reported_district_with_activity_split_fallback,0.0,election_precinct_block_population,0.1401170018340971

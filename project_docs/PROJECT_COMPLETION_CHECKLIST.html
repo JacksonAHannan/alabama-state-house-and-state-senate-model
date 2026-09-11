@@ -65,7 +65,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
 <script id="checklist-data" type="application/json">
 {
   "schemaVersion": 1,
-  "revision": "2026-09-11T22:02:42Z",
+  "revision": "2026-09-11T22:59:10Z",
   "title": "Four-product completion checklist",
   "baselineDate": "2026-09-05",
   "baselineCode": "88878b9 (existing dirty worktree)",
@@ -274,8 +274,8 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "id": "alabama-04",
           "text": "Certify each presidential baseline and target district plan",
           "detail": "Record source election, allocation method, target plan, geography vintage, county fallback and conservation checks. No later plan or election may substitute silently.",
-          "done": false,
-          "evidence": "2026-09-11 (audits/ALABAMA_BASELINE_PLAN_CERTIFICATION_2026_09_11.md): per cycle/chamber source election, prior-presidential election, plan and geography vintage certified with no year/plan substitution (2018 on the 2017 remedial plan). Conservation exact for 2002/2006/2010/2018/2022 state tickets; 1994 and 1998-house lose 0.1-0.3% to unmatched precincts; 1998 HD18 relies 71% on county fallback. FLAG: for 2014 the compat builder replaces its own SOS allocation with the legacy OpenElections-derived district_baseline_office.csv (AG covers 49/67 counties; Governor 17% short) — a source substitution affecting the 26 races on the 2014 state-ticket fallback by mean -0.04 / max 2.6 pp versus an SOS-conserving allocation. Owner decision pending; not accepted."
+          "done": true,
+          "evidence": "2026-09-11 (audits/ALABAMA_BASELINE_PLAN_CERTIFICATION_2026_09_11.md): per cycle/chamber source election, prior-presidential election, plan and geography vintage certified with no year/plan substitution (2018 on the 2017 remedial plan). Conservation exact for 2002/2006/2010/2018/2022 state tickets; 1994 and 1998-house lose 0.1-0.3% to unmatched precincts; 1998 HD18 relies 71% on county fallback. FLAG: for 2014 the compat builder replaces its own SOS allocation with the legacy OpenElections-derived district_baseline_office.csv (AG covers 49/67 counties; Governor 17% short) — a source substitution affecting the 26 races on the 2014 state-ticket fallback by mean -0.04 / max 2.6 pp versus an SOS-conserving allocation. Owner decision pending; not accepted. 2026-09-11 accepted after owner-approved repair: 2014 override removed; every state-ticket cycle now either conserves exactly (2002-2022) or carries a disclosed genuine precinct-match loss (1994 -0.09..-0.19%, 1998 house -0.23/-0.29%); no plan or election substitution remains (audit §7a). Historical export AL-HIST-WAR-V1-0E018273EBEDEEEFAD75 published; 26 fallback races moved ≤2.2 pp WAR."
         },
         {
           "id": "alabama-05",
@@ -681,8 +681,8 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "id": "release-08",
           "text": "Check source terms and repository hygiene",
           "detail": "Exclude credentials, restricted raw data, machine-specific paths, transient databases and unrelated scratch artifacts from publication. Preserve recovery backups according to the documented retention policy.",
-          "done": false,
-          "evidence": "2026-09-11 (audits/SOURCE_TERMS_AND_HYGIENE_2026_09_11.md): hygiene script PASS; 0 files >50 MB tracked, 0 credential matches, .env ignored. Terms: 59 families, 2,153 registrations without a license string; publications carry derived aggregates only. Gaps: Catalist workbook and Vote Smart unregistered; NYT precinct files and SOS certified canvass carry 'redistribution license not established'; 14 raw files tracked (5 OpenElections CSVs, 8 Wikipedia pages, 1 Split Ticket HTML). Attribution for LegiScan/Vote Smart/Shor-McCarty added to the ideology page candidate. Not accepted until the terms-completion list is worked."
+          "done": true,
+          "evidence": "2026-09-11 (audits/SOURCE_TERMS_AND_HYGIENE_2026_09_11.md): hygiene script PASS; 0 files >50 MB tracked, 0 credential matches, .env ignored. Terms: 59 families, 2,153 registrations without a license string; publications carry derived aggregates only. Gaps: Catalist workbook and Vote Smart unregistered; NYT precinct files and SOS certified canvass carry 'redistribution license not established'; 14 raw files tracked (5 OpenElections CSVs, 8 Wikipedia pages, 1 Split Ticket HTML). Attribution for LegiScan/Vote Smart/Shor-McCarty added to the ideology page candidate. Not accepted until the terms-completion list is worked. 2026-09-11 owner disposition: inventory accepted as documented; no further sourcing work authorized (licence strings for 2,153 registrations, Catalist/Vote Smart registration, NYT/SOS redistribution status and the 14 tracked raw files stay recorded as open limitations in SOURCE_TERMS_AND_HYGIENE_2026_09_11.md). Publication boundary clean; attribution published on the ideology page."
         },
         {
           "id": "release-09",
@@ -912,6 +912,12 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
       "done": 48,
       "total": 82,
       "event": "Wave 4: forecast-03/10 and ideology-08 accepted; roster, 2024 baseline, Alabama plan, scale comparability and source-terms audits recorded; seat-treatment contract section and source attribution added; dead story-page code removed. Escalated: 2014 state-ticket baseline source substitution (alabama-04) and source-terms completion (release-08)."
+    },
+    {
+      "at": "2026-09-11T22:59:10Z",
+      "done": 50,
+      "total": 82,
+      "event": "Fourth release: 2014 state-ticket source substitution repaired and republished (alabama-04 accepted); source-terms inventory accepted by owner disposition (release-08); ideology attribution and seat-treatment contract published."
     }
   ]
 }

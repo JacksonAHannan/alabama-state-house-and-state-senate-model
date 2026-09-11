@@ -122,3 +122,24 @@ Verification: 20 renders (ten pages × two viewports) with no overflow, no page
 or console errors except the browser's automatic `favicon.ico` request (no
 favicon is published; pre-existing), no legacy claim strings; methodology
 carries the scale rule. 33 forecast/dashboard/catalog/story-page tests pass.
+
+## Fourth release (2026-09-11, after commit `a26f9013`)
+
+Owner decisions: repair the 2014 state-ticket baseline source substitution
+(`alabama-04`); accept the source-terms inventory as documented without
+further sourcing work (`release-08`).
+
+- `build_canonical_cmo_features.py` applies the legacy spatial override only to
+  2018/2022; 2014 keeps the SOS-canonical allocation (exact conservation).
+  Rebuilt: canonical features -> cmo_v5 -> cmo_v6 prior -> Southern panel ->
+  `alabama_war_v1` (`AL-WAR-V1-68CE14574E53AD91E73F`, values identical to the
+  published export; re-hashes the amended forecast field contract) -> forecast
+  build `db49297557ebfc98fb33` (scenarios byte-identical) -> historical
+  `AL-HIST-WAR-V1-0E018273EBEDEEEFAD75` (26 of 510 races moved, |ΔWAR| ≤ 2.2 pp).
+  v3 `WAR-POST2016-V3-530FBD4238CC483E557C` and its training-frame digest unchanged.
+- Ideology page: source attribution (LegiScan CC BY 4.0, Vote Smart,
+  Shor–McCarty CC0, SOS) and scale-comparability block published.
+- Forecast field contract: seat-treatment section published via methodology rebuild.
+- Verification: 10 pages × 2 viewports served over HTTP, 0 console errors,
+  0 failed requests, 0 horizontal overflow; six `docs/data` downloads hash-equal
+  to their upstream artifacts; 53 chain tests + 65 page/site tests pass.

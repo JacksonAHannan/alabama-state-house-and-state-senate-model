@@ -1,6 +1,6 @@
 # Alabama historical WAR v1
 
-Run: `AL-HIST-WAR-V1-44F191EB8D939EF062CC`
+Run: `AL-HIST-WAR-V1-0E018273EBEDEEEFAD75`
 
 This product restores the 1994–2022 Alabama race explorer under the corrected race-residual definition. For 1994–2014, the selected post-2016 Southern `decaying_lag` ridge model (alpha 100) is fit only on strict races after 2016 and applied backward to Alabama. For 2018 and 2022, the output preserves the exact published Alabama WAR v1 same-cycle residual.
 
