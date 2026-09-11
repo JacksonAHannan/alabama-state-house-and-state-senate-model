@@ -14,6 +14,7 @@ from pathlib import Path
 import pandas as pd
 
 from ideology_ontology_v3 import PRIMITIVES, validate_primitive
+from build_frontier_legislative_review_ledger import reconcile_low_confidence_review_queues
 
 ROOT = Path(__file__).resolve().parents[1]
 LEG = ROOT / "data" / "processed" / "legislative"
@@ -276,6 +277,10 @@ def main() -> None:
         out.loc[conflict_index, "terminal_status"] = "excluded_conflicting_canonical_poles"
     OUT.parent.mkdir(parents=True, exist_ok=True)
     out.to_csv(OUT, index=False)
+    # Fail closed if any admitted low-confidence mapping is missing from the
+    # review queues: the mapping stays scored, but it must be reviewable.
+    queue_counts = reconcile_low_confidence_review_queues()
+    print(f"Low-confidence review queues: {queue_counts}")
     covered = set(calls.canonical_rollcall_id.astype(str))
     emitted = set(out.canonical_rollcall_id.astype(str))
     if covered != emitted:

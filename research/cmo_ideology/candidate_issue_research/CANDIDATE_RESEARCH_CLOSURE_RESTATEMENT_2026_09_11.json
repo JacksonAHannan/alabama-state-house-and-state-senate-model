@@ -1,0 +1,111 @@
+{
+  "task_id": "IDEOLOGY-CLOSURE-RESTATEMENT-20260911",
+  "checklist_item": "ideology-06",
+  "generated_at_utc": "2026-09-11T16:54:07Z",
+  "producer": "scripts/finalize_candidate_issue_research.py",
+  "pure_recomputation": true,
+  "prior": {
+    "path": "research/cmo_ideology/candidate_issue_research/candidate_research_final_status.2026-08-17.csv",
+    "sha256": "fbb4aa801c192c7e1e193fbe9784e79a39f8dfb58065271396802649318f527b",
+    "bytes": 426403,
+    "rows": 1564,
+    "evidence_recovered": 1098,
+    "searched_no_recoverable_evidence": 466
+  },
+  "restated": {
+    "path": "research/cmo_ideology/candidate_issue_research/candidate_research_final_status.csv",
+    "sha256": "f015c414c4c79a0c2ac12b5b1d24fc16c11abb2bf89efdfb71708753303b5258",
+    "bytes": 465374,
+    "rows": 1564,
+    "evidence_recovered": 1124,
+    "searched_no_recoverable_evidence": 440
+  },
+  "current_evidence_layer": {
+    "path": "data/processed/ideology/candidate_issue_valence_v3.csv",
+    "distinct_candidate_cycles": 1124
+  },
+  "delta": {
+    "gained": 26,
+    "lost": 0,
+    "gained_ids": [
+      "AL-1998-house-24-D-BURKE",
+      "AL-1998-house-35-R-SIMS",
+      "AL-2002-house-55-D-MAJOR-ERIC",
+      "AL-2002-house-58-D-ROBINSON-OLIVER",
+      "AL-2010-house-1-D-GREG-BURDINE",
+      "AL-2010-house-60-D-JUANDALYNN-LEE-LEE-GIVAN",
+      "AL-2010-house-68-D-THOMAS-E-ACTION-JACKSON",
+      "AL-2010-house-70-D-CHRISTOPHER-JOHN-ENGLAND",
+      "AL-2010-house-83-D-GEORGE-TOOTIE-BANDY",
+      "AL-2010-house-84-D-BERRY-FORTE",
+      "AL-2010-house-85-D-DEXTER-GRIMSLEY",
+      "AL-2010-senate-9-R-CLAY-SCOFIELD",
+      "AL-2014-house-32-D-BARBARA-BIGSBY-BOYD",
+      "AL-2014-house-68-D-THOMAS-E-ACTION-JACKSON",
+      "AL-2014-house-70-D-CHRISTOPHER-JOHN-ENGLAND",
+      "AL-2014-house-83-D-GEORGE-TOOTIE-BANDY",
+      "AL-2014-house-94-R-T-JOE-FAUST",
+      "AL-2014-house-97-D-ADLINE-C-CLARKE",
+      "AL-2018-house-13-R-CONNIE-COONER-ROWE",
+      "AL-2018-house-32-D-BARBARA-BIGSBY-BOYD",
+      "AL-2018-house-42-R-JAMES-M-JIMMY-MARTIN",
+      "AL-2018-house-55-D-RODERICK-ROD-HAMPTON-SCOTT",
+      "AL-2018-house-68-D-THOMAS-E-ACTION-JACKSON",
+      "AL-2018-house-69-D-KELVIN-JAMICHAEL-LAWRENCE",
+      "AL-2018-house-70-D-CHRISTOPHER-JOHN-ENGLAND",
+      "AL-2018-house-82-D-PEBBLIN-WALKER-WARREN"
+    ],
+    "by_channel": {
+      "bill_sponsorship": [
+        "AL-2010-house-1-D-GREG-BURDINE",
+        "AL-2010-house-60-D-JUANDALYNN-LEE-LEE-GIVAN",
+        "AL-2010-house-84-D-BERRY-FORTE",
+        "AL-2010-senate-9-R-CLAY-SCOFIELD"
+      ],
+      "bill_sponsorship|legislative_cosponsorship": [
+        "AL-2010-house-85-D-DEXTER-GRIMSLEY"
+      ],
+      "bill_sponsorship|legislative_vote": [
+        "AL-2010-house-68-D-THOMAS-E-ACTION-JACKSON",
+        "AL-2010-house-70-D-CHRISTOPHER-JOHN-ENGLAND",
+        "AL-2010-house-83-D-GEORGE-TOOTIE-BANDY",
+        "AL-2014-house-32-D-BARBARA-BIGSBY-BOYD",
+        "AL-2014-house-68-D-THOMAS-E-ACTION-JACKSON",
+        "AL-2014-house-70-D-CHRISTOPHER-JOHN-ENGLAND",
+        "AL-2014-house-83-D-GEORGE-TOOTIE-BANDY",
+        "AL-2014-house-94-R-T-JOE-FAUST",
+        "AL-2014-house-97-D-ADLINE-C-CLARKE",
+        "AL-2018-house-13-R-CONNIE-COONER-ROWE",
+        "AL-2018-house-32-D-BARBARA-BIGSBY-BOYD",
+        "AL-2018-house-42-R-JAMES-M-JIMMY-MARTIN",
+        "AL-2018-house-55-D-RODERICK-ROD-HAMPTON-SCOTT",
+        "AL-2018-house-68-D-THOMAS-E-ACTION-JACKSON",
+        "AL-2018-house-70-D-CHRISTOPHER-JOHN-ENGLAND",
+        "AL-2018-house-82-D-PEBBLIN-WALKER-WARREN"
+      ],
+      "legislative_vote": [
+        "AL-1998-house-24-D-BURKE",
+        "AL-1998-house-35-R-SIMS",
+        "AL-2002-house-55-D-MAJOR-ERIC",
+        "AL-2002-house-58-D-ROBINSON-OLIVER",
+        "AL-2018-house-69-D-KELVIN-JAMICHAEL-LAWRENCE"
+      ]
+    }
+  },
+  "reconciliation": {
+    "restated_recovered_equals_valence_cycles": true,
+    "unaccounted_cycles": 0,
+    "neutrality_imputed": false
+  },
+  "recomputed_field_drift_outside_dispositions": {
+    "candidate_margin_overperformance": 771,
+    "absolute_cmo": 771,
+    "legislative_source_checked_and_present": 396
+  },
+  "not_established": [
+    "eligibility/correctness of the newly admitted evidence (ideology-04/05 scope)",
+    "absence of recoverable evidence beyond the local layer for the 440 residuals",
+    "restatement of the separate search-queue artifacts",
+    "re-derivation of the published page or model"
+  ]
+}

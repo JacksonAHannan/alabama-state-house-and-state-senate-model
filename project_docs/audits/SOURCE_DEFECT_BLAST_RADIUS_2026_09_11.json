@@ -1,0 +1,242 @@
+{
+  "audit": "SOURCE_DEFECT_BLAST_RADIUS_2026_09_11",
+  "task_id": "WAREHOUSE-05-BLAST-RADIUS-20260911",
+  "generated_at_utc": "2026-09-11T17:02:56Z",
+  "mode": "read_only_evidence_no_disposition",
+  "warehouse": {
+    "path": "data/processed/elections/alabama_elections.sqlite",
+    "bytes": 5819064320,
+    "connection": "file:?mode=ro + PRAGMA query_only=ON",
+    "writes_performed": 0
+  },
+  "references": {
+    "packet": "project_docs/audits/SOURCE_COLLISION_ADJUDICATION_PACKET_2026_09_11.md",
+    "marshall_review": "project_docs/audits/ALABAMA_2002_MARSHALL_CANONICAL_REVIEW_2026_09_11.md",
+    "scratch_diff": "artifacts/war/canonical_identity_rebuild_20260911/identity_rebuild_diff.json",
+    "backups": [
+      "data/processed/elections/backups/pre-source-repair-2026-09-05.sqlite",
+      "data/processed/elections/backups/pre-2002-marshall-canonical-2026-09-11.sqlite"
+    ]
+  },
+  "runs": {
+    "election_source_layer": "RUN-16A85CF9DA9E4233A55619147EE1ED4C",
+    "last_identity_build_pre_repair": "RUN-872E84CE49F34E46A3B71A275F9C8890",
+    "marshall_source_repair": "RUN-40A033B9854141F6B05A76173E66D17B",
+    "historical_federal_baseline": "RUN-70A750C82BEC43D686E5F4B1FE13461C",
+    "marshall_canonical_repair": "RUN-DFB1D093D7594AB68A264292050E924D"
+  },
+  "part1_2002_marshall": {
+    "raw_marshall_sheet": {
+      "workbook": "data/raw/alabama_elections_and_geography/2002-GeneralElection-PrecinctLevel_0.xls",
+      "sha256": "9400cfa16da62d303fac0115707ad3f71fc9d29a36f157ac17e0792d2a5ed45e",
+      "sheets": 67,
+      "legislative_contests": [
+        {"contest": "State Senate 9", "rows": [65, 66], "candidates": ["Mitchem, Hinton (DEM)", "Edmonds, Doris (REP)"], "precinct_cells": 50, "printed": [15689, 7557]},
+        {"contest": "State House 26", "rows": [68, 69], "candidates": ["McDaniel, Frank (DEM)", "Patterson, Jeffrey (REP)"], "precinct_cells": 50, "printed": [5967, 3861]},
+        {"contest": "State House 27", "rows": [71, 72, 73], "candidates": ["McLaughlin, Jeffrey (DEM)", "Driggers, Allen Eugene (LIB)", "Hawkins, Gerald (Jerry) (REP)"], "precinct_cells": 50, "printed": [7724, 662, 4789]}
+      ]
+    },
+    "other_marshall_districts_found": 0,
+    "example_districts_do_not_touch_marshall": {
+      "State House 21": ["MADISON"],
+      "State House 25": ["LIMESTONE", "MADISON"],
+      "State House 28": ["ETOWAH"],
+      "State Senate 8": ["DEKALB", "JACKSON", "MADISON"],
+      "State Senate 10": ["CHEROKEE", "ETOWAH"]
+    },
+    "repair_run_2002_marshall_contests": {
+      "total_groups": 23,
+      "legislative_groups": 3,
+      "non_legislative_groups": 20,
+      "all_50_precincts": true,
+      "groups": [
+        {"office": "State Senate", "district": 9, "rows": 100, "votes": 23246},
+        {"office": "State House", "district": 26, "rows": 100, "votes": 9828},
+        {"office": "State House", "district": 27, "rows": 150, "votes": 13175},
+        {"office": "Governor", "district": null, "rows": 150, "votes": 23480},
+        {"office": "Lieutenant Governor", "district": null, "rows": 150, "votes": 22967},
+        {"office": "Attorney General", "district": null, "rows": 150, "votes": 22577},
+        {"office": "Secretary of State", "district": null, "rows": 150, "votes": 21833},
+        {"office": "State Treasurer", "district": null, "rows": 150, "votes": 22002},
+        {"office": "State Auditor", "district": null, "rows": 150, "votes": 21304},
+        {"office": "COMMISSIONER OF AG. & INDUSTRIES", "district": null, "rows": 150, "votes": 21562},
+        {"office": "PUBLIC SERVICE COMMISSION, PLACE #1", "district": null, "rows": 150, "votes": 21704},
+        {"office": "PUBLIC SERVICE COMMISSION, PLACE #2", "district": null, "rows": 150, "votes": 21895},
+        {"office": "ASSOCIATE JUSTICE, SUPREME COURT", "district": null, "rows": 150, "votes": 22520},
+        {"office": "COURT OF CIVIL APPEALS", "district": null, "rows": 100, "votes": 21260},
+        {"office": "COURT OF CRIMINAL APPEALS, PLACE #1", "district": null, "rows": 150, "votes": 20914},
+        {"office": "COURT OF CRIMINAL APPEALS, PLACE #2", "district": null, "rows": 100, "votes": 20435},
+        {"office": "STATE BOE, DISTRICT 6", "district": 6, "rows": 100, "votes": 18264},
+        {"office": "U.S. Senate", "district": null, "rows": 150, "votes": 23352},
+        {"office": "U.S. House", "district": 4, "rows": 100, "votes": 20463},
+        {"office": "DISTRICT COURT, MARSHALL CO., PLACE #1", "district": null, "rows": 50, "votes": 17197},
+        {"office": "STATEWIDE AMENDMENT #1", "district": null, "rows": 100, "votes": 19580},
+        {"office": "STATEWIDE AMENDMENT #2", "district": null, "rows": 100, "votes": 18040},
+        {"office": "STATEWIDE AMENDMENT #3", "district": null, "rows": 100, "votes": 17630}
+      ]
+    },
+    "legacy_rows": {
+      "live_office_MARSHALL_2002": 0,
+      "pre_repair_office_MARSHALL_2002": 4029,
+      "pre_repair_district_null": 4029,
+      "pre_repair_authority_ranks": [1],
+      "live_county_marshall_2002_rows": 2950,
+      "double_count_risk": "none currently (legacy rows replaced by scoped DELETE+INSERT); latent if two providers shared a rank because canonical_vote_observations de-duplicates by MIN(authority_rank) per (year, county_key), not per natural key",
+      "only_misparsed_2002_office": true
+    },
+    "canonical_before_after": {
+      "before_run_DFB1D093D": {
+        "house26": {"D": 1102.0, "R": 598.0},
+        "house27": null,
+        "senate9": {"D": 8914.0, "R": 9438.0}
+      },
+      "after_run_DFB1D093D": {
+        "house26": {"D": 7069.0, "R": 4459.0},
+        "house27": {"D": 7724.0, "R": 4789.0},
+        "senate9": {"D": 24603.0, "R": 16995.0}
+      }
+    },
+    "statewide_federal_consumers": {
+      "read_vote_observations_directly": true,
+      "missing_marshall_segment": "yes between 2026-08-16 and 2026-09-05 (rows were office='MARSHALL'); no as of today's canonical repair",
+      "governor_ag_marshall_allocated_votes_verified": {
+        "house26": {"Governor": 9076.8, "AttorneyGeneral": 8715.4},
+        "house27": {"Governor": 12566.2, "AttorneyGeneral": 11988.6},
+        "senate9": {"Governor": 22934.0, "AttorneyGeneral": 21963.0},
+        "marshall_precincts_matched": 50,
+        "marshall_precincts_unmatched": 0
+      },
+      "office_baseline_current_rows": {
+        "house26": {"Governor": {"D": 5128.7241, "R": 6365.4645, "fallback_share": 0.04976}, "AttorneyGeneral": {"D": 3410.8262, "R": 7524.5376, "fallback_share": 0.051}},
+        "house27": {"Governor": {"D": 6267.6162, "R": 7017.2746}, "AttorneyGeneral": {"D": 4365.4543, "R": 8324.0401}},
+        "senate9": {"Governor": {"D": 18458.2316, "R": 23412.2078, "fallback_share": 0.0}, "AttorneyGeneral": {"D": 12194.9059, "R": 28044.004, "fallback_share": 0.0}}
+      },
+      "federal_baseline_current_rows": {
+        "house26": {"federal_index_margin": -39.6488076777782, "us_senate_two_party_votes": 11299.212851108849, "coverage": 0.5634528464662684},
+        "house27": {"federal_index_margin": 5.554516066692663, "us_senate_two_party_votes": 13241.20128243873, "coverage": 0.571198449050687},
+        "senate9": {"federal_index_margin": 0.20723418705256336, "us_senate_two_party_votes": 41981.03348805838, "coverage": 0.7400169373562323}
+      }
+    },
+    "not_established": [
+      "no exhaustive cell-level re-verification of all 67 2002 sheets for a different layout defect",
+      "no preserved pre-2026-09-05 baseline CSV, so the numeric omission delta is not measured",
+      "no test found for same-rank uniqueness in canonical_vote_observations"
+    ]
+  },
+  "part2_2014_duplication": {
+    "mechanism_corrected": "not intra-source; two registered sources alabama_sos (rank1, official_vote_counts) and openelections (rank2, identity_enrichment) each hold one copy",
+    "stored_rows": {"alabama_sos": 110189, "openelections": 74525, "total": 184714},
+    "stored_votes": {"alabama_sos": 31349891.0, "openelections": 8651425.0},
+    "raw_vs_stored": {
+      "sos_reparse_rows": 110189,
+      "sos_counties": 67,
+      "sos_groups_compared": 717,
+      "sos_group_sum_mismatches": 0,
+      "oe_loaded_rows": 74525,
+      "note": "OpenElections per-county Total rows removed by load_oe SUMMARY_ROW_RE"
+    },
+    "within_source_duplicate_groups": 0,
+    "cross_source_exact_key": {
+      "oe_keys": 74525,
+      "sos_keys": 110189,
+      "matched_keys": 22619,
+      "matched_equal_votes": 22619,
+      "matched_oe_votes": 5887393.0,
+      "caveat": "candidate_key/office-label spelling differences mean the exact-key overlap understates the contest-level overlap"
+    },
+    "contest_grain": {
+      "key": "county_key x office x district (district=-1 for statewide), D/R aggregated",
+      "total_groups": 1968,
+      "sos_only": 1299,
+      "oe_only": 137,
+      "both": 532,
+      "both_identical": 511,
+      "both_different": 21,
+      "share_both_identical": 0.9605
+    },
+    "by_office_sos_groups_both_identical": {
+      "State House": [208, 188, 187],
+      "State Senate": [120, 112, 111],
+      "Governor": [67, 67, 49],
+      "Attorney General": [67, 49, 49],
+      "Lieutenant Governor": [48, 48, 48],
+      "State Treasurer": [67, 67, 66],
+      "U.S. Senate": [1, 1, 1],
+      "Secretary of State": [67, 0, 0],
+      "State Auditor": [67, 0, 0]
+    },
+    "share_exactly_2x": {
+      "denominator_definition": "SOS-covered contests in the 7 offices whose labels agree between providers",
+      "sos_covered": 578,
+      "exactly_doubled": 511,
+      "share": 0.8841,
+      "legislative": {"sos_covered": 329, "exactly_doubled": 298, "share": 0.9058}
+    },
+    "counties": {
+      "legislative_both_covered_counties": 66,
+      "legislative_exceptions": [
+        {"county": "CLAY", "contest": "State House 33", "sos": 795.0, "oe": 678.0, "oe_precincts": 9, "sos_precincts": 10},
+        {"county": "CLAY", "contest": "State Senate 12", "sos": 1858.0, "oe": 1611.0, "oe_precincts": 11, "sos_precincts": 12}
+      ],
+      "no_oe_legislative": ["JEFFERSON"],
+      "governor_not_doubled_counties": ["BIBB", "BLOUNT", "BUTLER", "CALHOUN", "CHILTON", "CLAY", "COOSA", "DALLAS", "DEKALB", "ELMORE", "ESCAMBIA", "GENEVA", "GREENE", "LAMAR", "MACON", "PICKENS", "WALKER", "WILCOX"],
+      "oe_coverage_counts_by_office": {"Governor": 67, "State Treasurer": 67, "State Senate": 66, "State House": 66, "Lieutenant Governor": 66, "U.S. House": 64, "U.S. Senate": 49, "Attorney General": 49}
+    },
+    "consumers": {
+      "immune_source_or_rank_filtered": [
+        "build_canonical_geographic_weights.py",
+        "build_historical_federal_baselines.py",
+        "build_canonical_cmo_features.py",
+        "build_1994_cmo_baseline.py",
+        "build_presidential_district_features.py",
+        "build_1998_2006_context_features.py",
+        "build_alabama_race_ei.py",
+        "build_war_story_page.py",
+        "build_adjacent_precinct_alias_graph.py",
+        "build_historical_precinct_adjudication_queue.py",
+        "build_same_year_primary_precinct_aliases.py",
+        "run_top_ticket_experiments.py",
+        "stage_precinct_identity_repair.py / apply_precinct_identity_repair.py"
+      ],
+      "both_sources_by_design": ["build_candidate_identity.py (grouped by source)", "build_precinct_identity.py (source matching)"],
+      "unfiltered_exposed_analysis_script": ["analyze_canonical_baselines.py"]
+    },
+    "hypothetical_uniform_effect": {
+      "absolute_totals": "x2 if both sources summed",
+      "margins_shares": "unchanged",
+      "allocation_weight_district_activity_over_precinct_activity": "unchanged",
+      "federal_contested_coverage": "unchanged",
+      "observed_downstream_effect": "none (all product consumers filter source='alabama_sos' or authority_rank=1)"
+    },
+    "additional_2014_source_defect": {
+      "summary": "In 18 matrix-layout counties SOS stores Lt. Governor candidates under office='Governor'",
+      "cause": "scripts/sos_precinct.py::_office mapping key 'LIEUTENANT GOVERNOR' does not match workbook label 'LT. GOVERNOR', and the later 'GOVERNOR' needle matches",
+      "verified": "_office('LT. GOVERNOR') -> ('Governor', None)",
+      "example_elmore": {"sos_governor": 41432.0, "oe_governor": 20776.0, "extra_candidates": ["Ivey (R, Lt Gov)", "Fields (D, Lt Gov)"]},
+      "affected_18_counties": ["BIBB", "BLOUNT", "BUTLER", "CALHOUN", "CHILTON", "CLAY", "COOSA", "DALLAS", "DEKALB", "ELMORE", "ESCAMBIA", "GENEVA", "GREENE", "LAMAR", "MACON", "PICKENS", "WALKER", "WILCOX"]
+    },
+    "not_established": [
+      "no numeric magnitude for the historical Marshall omission (no preserved pre-2026-09-05 baseline CSV)",
+      "no confirmation whether analyze_canonical_baselines.py is a live analysis path",
+      "no cause shared between the Clay precinct-count and value discrepancies",
+      "no check of the LT. GOVERNOR mapping defect on other cycles beyond 2014"
+    ]
+  },
+  "proposed_dispositions": [
+    {"id": "M1", "target": "2002 legacy Marshall", "action": "no further source-layer action; record WQA-01-02 + this audit", "consequence": "no numeric change", "decision": "not_selected"},
+    {"id": "M2", "target": "2002 legacy Marshall", "action": "add uniqueness/parse guard against re-introducing office='MARSHALL'", "consequence": "code change; re-running election_source_layer needs separate review", "decision": "not_selected"},
+    {"id": "M3", "target": "2002 legacy Marshall", "action": "complete the post-repair compat chain (historical WAR export, pages)", "consequence": "unrebuilt consumers keep HD26/SD9/HD27 wrong", "decision": "not_selected"},
+    {"id": "D1", "target": "2014 cross-source x2", "action": "leave vote_observations; document cross-source semantics", "consequence": "no numeric change; add consumer warning", "decision": "not_selected"},
+    {"id": "D2", "target": "2014 cross-source x2", "action": "delete/flag the 2014 OpenElections overlap", "consequence": "loses identity_enrichment rows; guarded adjudication required", "decision": "not_selected"},
+    {"id": "D3", "target": "2014 cross-source x2", "action": "consumer-side source/rank filtering (analyze_canonical_baselines.py)", "consequence": "analysis output changes; no source-layer change", "decision": "not_selected"},
+    {"id": "D4", "target": "2014 Lt. Governor office-label defect", "action": "repair _office('LT. GOVERNOR') and re-load 2014 SOS rows", "consequence": "18 counties change; guarded source repair plus downstream rebuild", "decision": "not_selected"}
+  ],
+  "out_of_scope_findings": [
+    "2014 Lt. Governor merged into Governor in 18 matrix counties",
+    "Clay 2014 OpenElections coverage one precinct short for HD33/SD12",
+    "OpenElections 2014 lacks Jefferson legislative rows; partial AG/US Senate (49) and U.S. House (64) coverage",
+    "canonical_vote_observations de-duplicates by rank not natural key",
+    "qa_vote_observation_quality groups by source so cross-source duplicated blocks are not flagged",
+    "identity_rebuild_diff.json is legislative-only"
+  ]
+}

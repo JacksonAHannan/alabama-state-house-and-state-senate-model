@@ -70,3 +70,30 @@ def test_build_prompt_lists_ontology_and_echoes_ids():
     prompt = bill.build_prompt([_item("999001"), _item("999002")])
     assert "999001" in prompt and "999002" in prompt
     assert "gun_access" in prompt and "allowed poles" in prompt.lower()
+
+
+def test_review_reason_queues_low_confidence_admitted_mapping():
+    row, reason = bill.validate_item(
+        {"decision": "map", "axes": [{"axis": "gun_access", "pole": PRIMITIVES["gun_access"][0]}],
+         "confidence": "low", "rationale": "weak but usable"}, _item())
+    assert reason is None
+    assert row["decision"] == "map" and row["confidence"] == "low"
+    assert bill.review_reason_for(row, reason) == bill.LOW_CONFIDENCE_REASON
+
+
+def test_review_reason_skips_high_confidence_and_nonscoring():
+    high, _ = bill.validate_item(
+        {"decision": "map", "axes": [{"axis": "gun_access", "pole": PRIMITIVES["gun_access"][0]}],
+         "confidence": "high", "rationale": "clear"}, _item())
+    assert bill.review_reason_for(high, None) is None
+    nonscoring, reason = bill.validate_item(
+        {"decision": "procedural", "axes": [], "confidence": "low", "rationale": "admin"}, _item())
+    assert bill.review_reason_for(nonscoring, reason) is None
+
+
+def test_review_reason_preserves_schema_failure_reason():
+    row, reason = bill.validate_item(
+        {"decision": "map", "axes": [{"axis": "not_an_axis", "pole": "x"}],
+         "confidence": "low", "rationale": "bad"}, _item())
+    assert reason is not None
+    assert bill.review_reason_for(row, reason) == reason

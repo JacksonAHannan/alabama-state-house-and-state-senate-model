@@ -10,6 +10,88 @@ DEPRECATED={"tax_burden","civil_social_liberty","marriage_equality","anti_discri
 
 def joined(series): return "|".join(sorted({str(x) for x in series if pd.notna(x) and str(x)}))
 
+ONTOLOGY=LEG/"frontier_rollcall_ontology_v3.csv"
+LUNA_QUEUE=LEG/"frontier_legislative_bill_adjudications_luna_review_queue.csv"
+OPENAI_QUEUE=LEG/"legislative_rollcall_ontology_v3_openai_review_queue.csv"
+LOW_CONFIDENCE_REASON="low_confidence_admitted_mapping"
+SCORING={"map","multi_axis"}
+LUNA_QUEUE_COLUMNS=["bill_id","session_year","bill_number","reviewed_document_type","confidence","rationale",
+                    "reviewer","review_date","supersedes_authority","decision","primitive_axes","policy_poles","review_reason"]
+OPENAI_QUEUE_COLUMNS=["unit_id","issue_code","title","decision","primitive_axis","policy_pole","confidence",
+                      "terminal_status","rationale","review_reason"]
+ONTOLOGY_COLUMNS=["canonical_rollcall_id","bill_id","session_year","bill_number","vote_description",
+                  "decision","primitive_axis","policy_pole","frontier_confidence","terminal_status"]
+
+def norm_bill_id(value):
+    text=str(value).strip()
+    if text in ("","nan","None","NaN"): return ""
+    return text[:-2] if text.endswith(".0") else text
+
+def _read_table(path,columns):
+    return pd.read_csv(path,usecols=list(columns),dtype=str,low_memory=False).fillna("")
+
+def _read_queue(path,columns):
+    if not Path(path).exists(): return pd.DataFrame(columns=columns)
+    return pd.read_csv(path,dtype=str,low_memory=False).reindex(columns=columns).fillna("")
+
+def reconcile_low_confidence_review_queues(manual_path=MANUAL,ontology_path=ONTOLOGY,
+                                           luna_queue_path=LUNA_QUEUE,openai_queue_path=OPENAI_QUEUE):
+    """Queue every admitted low-confidence mapping; idempotent and row-preserving.
+
+    A ``map``/``multi_axis`` bill that only reaches ``confidence=low`` is still
+    scored -- the 2026-09-08 owner contract queues it, it does not exclude it --
+    so it must appear in a review queue. The Luna adjudicator queues its own
+    output at generation time; this step enforces the same invariant for queues
+    built or overwritten by other stages and for the roll-call-level queue.
+    Existing rows are preserved and only missing units are appended, so
+    re-running is a no-op. Raises when a low-confidence admitted mapping is
+    still unqueued.
+    """
+    manual=_read_table(manual_path,["bill_id","session_year","bill_number","reviewed_document_type","confidence",
+                                    "rationale","reviewer","review_date","supersedes_authority","decision",
+                                    "primitive_axes","policy_poles"])
+    low=manual[manual.decision.isin(SCORING)&manual.confidence.eq("low")]
+    luna=_read_queue(luna_queue_path,LUNA_QUEUE_COLUMNS)
+    queued_bills={norm_bill_id(x) for x in luna.bill_id}
+    added_luna=[]
+    for record in low.to_dict("records"):
+        bill=norm_bill_id(record.get("bill_id"))
+        if not bill or bill in queued_bills: continue
+        entry={column:str(record.get(column,"") or "") for column in LUNA_QUEUE_COLUMNS}
+        entry["bill_id"]=bill; entry["review_reason"]=LOW_CONFIDENCE_REASON
+        added_luna.append(entry); queued_bills.add(bill)
+    if added_luna:
+        luna=pd.concat([luna,pd.DataFrame(added_luna)],ignore_index=True).reindex(columns=LUNA_QUEUE_COLUMNS)
+        luna.to_csv(luna_queue_path,index=False)
+
+    onto=_read_table(ontology_path,ONTOLOGY_COLUMNS)
+    mapped_low=onto[onto.decision.eq("map")&onto.frontier_confidence.eq("low")]
+    openai=_read_queue(openai_queue_path,OPENAI_QUEUE_COLUMNS)
+    queued_units=set(openai.unit_id.astype(str))
+    added_openai=[]
+    for record in mapped_low.to_dict("records"):
+        unit=str(record.get("canonical_rollcall_id") or "").strip()
+        if not unit or unit in queued_units: continue
+        added_openai.append({
+            "unit_id":unit,"issue_code":"",
+            "title":f"{record.get('bill_number','')} {record.get('vote_description','')}".strip(),
+            "decision":"map","primitive_axis":record.get("primitive_axis",""),
+            "policy_pole":record.get("policy_pole",""),"confidence":"low",
+            "terminal_status":record.get("terminal_status",""),
+            "rationale":("Admitted to scoring from a low-confidence frontier bill mapping "
+                         f"(bill_id {norm_bill_id(record.get('bill_id'))}); queued for review."),
+            "review_reason":LOW_CONFIDENCE_REASON})
+        queued_units.add(unit)
+    if added_openai:
+        openai=pd.concat([openai,pd.DataFrame(added_openai)],ignore_index=True).reindex(columns=OPENAI_QUEUE_COLUMNS)
+        openai.to_csv(openai_queue_path,index=False)
+
+    unqueued=({norm_bill_id(x) for x in low.bill_id}|{norm_bill_id(x) for x in mapped_low.bill_id})-queued_bills
+    if unqueued:
+        raise AssertionError(f"low-confidence admitted mappings absent from the Luna review queue: {sorted(unqueued)}")
+    return {"luna_queue_rows_appended":len(added_luna),"openai_queue_rows_appended":len(added_openai),
+            "luna_queue_rows":len(luna),"openai_queue_rows":len(openai)}
+
 def main():
     bills=pd.read_csv(LEG/"legiscan_alabama_bills.csv",low_memory=False)
     calls=pd.read_csv(LEG/"legislative_rollcall_ontology_v3_audit.csv",low_memory=False)
@@ -79,6 +161,8 @@ def main():
     ).to_csv(REVIEW/"full_text_followup_queue.csv", index=False)
     summary=(ledger.groupby(["review_priority","frontier_review_status"],as_index=False).agg(bills=("bill_id","nunique"),with_rollcalls=("rollcalls",lambda x:(x>0).sum()),mapped=("mapped_rollcalls",lambda x:(x>0).sum())))
     summary.to_csv(REVIEW/"review_summary.csv",index=False)
+    queue_counts=reconcile_low_confidence_review_queues()
+    print("low-confidence review queues",queue_counts)
     print(summary.to_string(index=False)); print("taxonomy warnings",ledger.taxonomy_warning.value_counts().to_dict())
 
 if __name__=="__main__": main()

@@ -64,3 +64,17 @@ radius of the 2002 legacy Marshall parse and the 2014 x2 duplication
 (`warehouse-05`), stale `candidate_research_final_status.csv` (26 cycles),
 polling refresh (`forecast-04`, needs authoritative-source terms), orphaned
 `docs/data` legacy downloads (`release-01`).
+
+### Checkpoint 3 (2026-09-11 17:06Z)
+
+Wave 3 accepted: low-confidence review-queue invariant (`ideology-04` ✓),
+closure restatement (`ideology-06` caveat closed), blast-radius audit (no
+further 2002 casualties; 2014 "duplication" corrected to dual-source-by-design,
+erratum added to the packet), docs/data inventory (30-file removal proposal),
+forecast selection/calibration audit (`forecast-07` ✓). Checklist 43/82.
+
+Escalated to owner: (1) forecast probability scale sits at the grid boundary
+(2.0) and under-covers (18% at nominal 80%); options in
+`audits/FORECAST_SELECTION_AND_CALIBRATION_INDEPENDENCE_2026_09_11.md`;
+(2) removal of 30 superseded `docs/data` downloads (publication action);
+(3) optional git history rewrite for ~600 MB of accidentally committed blobs.

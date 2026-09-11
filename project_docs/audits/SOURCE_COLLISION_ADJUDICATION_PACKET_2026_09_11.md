@@ -1,3 +1,12 @@
+> **Erratum (2026-09-11, `SOURCE_DEFECT_BLAST_RADIUS_2026_09_11.md`):** Case C's
+> "legacy ×2 block duplication" is a mischaracterisation. The two rows per 2014
+> precinct are `alabama_sos` (authority rank 1) and `openelections` (rank 2),
+> stored by design; `canonical_vote_observations` keeps rank 1 only and every
+> product consumer filters to `alabama_sos`. No intra-source duplicate exists (0
+> of 110,189 SOS rows). The party-label defects in Case C are provider-printed
+> and remain as described. Case A/B findings stand and were applied as
+> `RUN-DFB1D093D7594AB68A264292050E924D`.
+
 # Source collision adjudication packet — 2002 HD26/HD27 and 2014 HD31/HD66/SD30
 
 Internal evidence packet for checklist item `warehouse-05` (owner adjudication of

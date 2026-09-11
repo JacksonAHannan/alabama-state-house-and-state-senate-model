@@ -6,9 +6,9 @@ historical_pre_election_record,True,6,5
 post_election,False,114,36
 post_election_adjacent,False,4,3
 post_election_same_term,False,5,5
-pre_or_during_election,True,716,245
-pre_or_same_cycle_group_signal,True,1988,929
-pre_or_same_cycle_legislative_action,True,19479,154
+pre_or_during_election,True,724,245
+pre_or_same_cycle_group_signal,True,2050,929
+pre_or_same_cycle_legislative_action,True,51800,569
 preexisting_position_reported_post_election,False,1,1
 prior_public_record,True,5,3
 recent_pre_election,True,1,1

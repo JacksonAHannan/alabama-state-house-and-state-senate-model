@@ -68,6 +68,13 @@ NONSCORING_DECISIONS = {
 ALL_DECISIONS = SCORING_DECISIONS | NONSCORING_DECISIONS
 CONFIDENCES = {"high", "medium", "low"}
 
+# Admitted mappings (map/multi_axis) whose model confidence is only "low" are
+# still scored, but per the 2026-09-08 owner contract they must be diverted to
+# the review queue rather than silently surviving into the scores. The scoring
+# decision is deliberately not changed: the contract queues them, it does not
+# exclude them.
+LOW_CONFIDENCE_REASON = "low_confidence_admitted_mapping"
+
 OUTPUT_COLUMNS = [
     "bill_id", "session_year", "bill_number", "reviewed_document_type", "decision",
     "primitive_axes", "policy_poles", "confidence", "rationale", "reviewer",
@@ -232,6 +239,20 @@ def validate_item(result: dict, item: dict) -> tuple[dict, str | None]:
              "policy_poles": ";".join(p for _, p in pairs)}, None)
 
 
+def review_reason_for(row: dict, reason: str | None) -> str | None:
+    """Return the review-queue reason for a produced row, or None when unqueued.
+
+    Schema failures keep their original reason. A clean ``map``/``multi_axis``
+    row is queued only when its model confidence is low: the 2026-09-08 contract
+    admits it to scoring but requires a review record.
+    """
+    if reason:
+        return reason
+    if row["decision"] in SCORING_DECISIONS and row["confidence"] == "low":
+        return LOW_CONFIDENCE_REASON
+    return None
+
+
 def cached_path(bill_id: str) -> Path:
     return CACHE / f"{bill_id}.json"
 
@@ -304,8 +325,9 @@ def main() -> None:
             # A genuine model response (including a schema near-miss) is cached.
             if reason != "missing_from_model_response":
                 cached_path(bid).write_text(json.dumps(row, ensure_ascii=False), encoding="utf-8")
-            if reason:
-                review_rows.append({**row, "review_reason": reason})
+            queued_reason = review_reason_for(row, reason)
+            if queued_reason:
+                review_rows.append({**row, "review_reason": queued_reason})
         done = min(start + args.batch_size, len(pending))
         if done % (args.batch_size * 20) == 0 or done == len(pending):
             print(f"  processed {done:,}/{len(pending):,} pending "
