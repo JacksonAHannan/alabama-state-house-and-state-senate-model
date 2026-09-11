@@ -44,3 +44,4 @@ __pycache__/
 /data/processed/elections/precinct_identity_stage_*/
 /AGENTS.local-before-rebase.md
 /artifacts/war/canonical_identity_rebuild_20260911/scratch_warehouse.sqlite
+/data/processed/precinct_history/approximate_*_precincts.gpkg
