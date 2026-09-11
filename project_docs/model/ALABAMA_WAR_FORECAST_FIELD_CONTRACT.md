@@ -33,3 +33,20 @@ No field matching candidate identity, prior candidate WAR/CMO, candidate history
 Same-cycle fitted Alabama WAR is retrospective. Cross-cycle forecast errors and probabilities are separate prospective diagnostics and must not be labeled WAR.
 
 District win probabilities use a Student-t distribution with five degrees of freedom. The scale is the maximum-likelihood scale of the forward-holdout margin residuals (`probability.selection_rule = maximum_likelihood_on_holdout_margin_residuals`); the manifest records the scale, the holdout Brier score and the empirical coverage of the nominal 80% interval (`probability.holdout_coverage_80`). Selecting the scale by binary-outcome Brier is not permitted: on a holdout whose winners are all correctly ordered it is monotone in sharpness and returns the search-grid bound. The scale is tuned and evaluated on the same holdout; no independent probability evaluation exists until a second Alabama forward cycle is available.
+
+## Seat treatment and chamber summaries
+
+Every seat in both chambers (105 House, 35 Senate) is classified from the dated
+roster into exactly one class: `modeled` (one Democratic and one Republican
+nominee; the generic race is forecast), `single_major_party` (exactly one major
+party nominated; the seat is fixed for that party in chamber summaries whether
+or not an independent or minor-party candidate also filed; no probability is
+forecast), `independent_only` (no major-party nominee; unmodeled, shown with
+null margin and probability, never assigned), and `unresolved` (roster
+disagreement not yet adjudicated; unmodeled and visible). Independents in a
+`modeled` race are not forecast; probabilities refer to the two-party margin.
+Chamber seat distributions add the fixed single-major-party seats to the
+simulated modeled seats. The published page states the class of every seat, and
+`project_docs/audits/FORECAST_ROSTER_UNIVERSE_*` records the partition and its
+roster provenance for each release.
+

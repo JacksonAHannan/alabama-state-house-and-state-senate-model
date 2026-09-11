@@ -1,0 +1,1341 @@
+{
+  "meta": {
+    "task_id": "RELEASE-08-SOURCE-TERMS-HYGIENE-20260911",
+    "checklist_item": "release-08 — Check source terms and repository hygiene",
+    "generated_at_utc": "2026-09-11T21:58:06Z",
+    "scope": "READ-ONLY audit. No files modified outside this audit pair.",
+    "lineage": {
+      "head": "d93dd8c6",
+      "forecast_build": "b76d607f2d81e54697a3",
+      "alabama_historical_run": "AL-HIST-WAR-V1-44F191EB8D939EF062CC",
+      "southern_v3_run": "WAR-POST2016-V3-530FBD4238CC483E557C",
+      "published_southern_mart_run": "RUN-504CE4C4DF904D88A5A40D268F3FCEAB",
+      "latest_warehouse_scoped_repair_run": "RUN-DFB1D093D7594AB68A264292050E924D"
+    },
+    "method": [
+      "warehouse_source_file aggregated read-only via sqlite3 file:...?mode=ro with PRAGMA query_only=ON",
+      "product families traced through the four published manifests and the product lineage tables (mart_southern_war_outcome published run, canonical_southern_legislative_candidate_election, source_southern_legislative_observation_set, bridge_alabama_canonical_candidate_certified_result, source_historical_legislative_county_result/_statewide_county_result, source_southern_election_file/context/assignment/census_block/vest/finance/precinct_geometry/presidential_geography, source_southern_incumbency_evidence)",
+      "registered-but-unlinked families cross-checked against product scripts and project_docs/data_catalog.csv source-layer entries",
+      "docs/data (31 files) and docs/*.html checked by text search for raw-copy redistribution and attribution"
+    ]
+  },
+  "products": {
+    "forecast_2026": {
+      "build_id": "b76d607f2d81e54697a3",
+      "manifest": "data/processed/forecast_calibration/alabama_war_forecast_v1_manifest.json",
+      "published_files": [
+        "docs/index.html",
+        "docs/data/alabama_war_forecast_v1_*",
+        "docs/data/polling_environment.csv",
+        "docs/data/poll_source_manifest.csv",
+        "docs/data/2026_sld_demographics.csv"
+      ],
+      "families": [
+        "alabama_sos",
+        "Carl Klarner, State Legislative Election Returns, 1967-2022",
+        "MIT Election Data and Science Lab",
+        "pollster_document",
+        "Southern incumbency web roster and reviewed continuity builder",
+        "Southern state legislative incumbency research workbook",
+        "us_census",
+        "census_acs"
+      ],
+      "unregistered_families": [
+        "Catalist (What Happened 2024 workbook)",
+        "VoteHub polls API",
+        "YouGov/Economist topline",
+        "FiveThirtyEight/ Silver pollster ratings"
+      ]
+    },
+    "historical_alabama_war": {
+      "run_id": "AL-HIST-WAR-V1-44F191EB8D939EF062CC",
+      "manifest": "data/processed/war/alabama_historical_war_v1/manifest.json",
+      "published_files": [
+        "docs/cmo.html",
+        "docs/data/alabama_historical_war_v1_*",
+        "docs/data/alabama_war_v1_*",
+        "docs/data/canonical_cmo_candidates.csv"
+      ],
+      "families": [
+        "alabama_sos",
+        "alabama_reapportionment_archive",
+        "census_vtd",
+        "vest_election_precinct",
+        "openelections",
+        "Carl Klarner, State Legislative Election Returns, 1967-2022",
+        "MIT Election Data and Science Lab",
+        "Project Southern WAR panel v1",
+        "Southern incumbency web roster and reviewed continuity builder"
+      ],
+      "unregistered_families": [
+        "Wikipedia election pages (committed HTML)"
+      ]
+    },
+    "ideology_caucuses": {
+      "manifest": "docs/ideology-performance.html (payload from candidate_position_evidence_v3_all_sources.csv)",
+      "published_files": [
+        "docs/ideology-performance.html",
+        "docs/caucuses.html",
+        "docs/legislators.html"
+      ],
+      "families": [
+        "legiscan",
+        "alabama_legislature",
+        "internet_archive_adah",
+        "shor_mccarty"
+      ],
+      "unregistered_families": [
+        "Vote Smart PCT corpus"
+      ]
+    },
+    "southern_war_2016_2024": {
+      "run_id": "WAR-POST2016-V3-530FBD4238CC483E557C",
+      "mart_run": "RUN-504CE4C4DF904D88A5A40D268F3FCEAB",
+      "manifest": "data/processed/war/post2016_southern_war_v3/manifest.json",
+      "published_files": [
+        "docs/southern-war.html",
+        "docs/data/southern_war_map_payload.json",
+        "docs/data/southern_historical_war_v1_*",
+        "docs/data/southern_legislative_geography_manifest.csv"
+      ],
+      "families": [
+        "Carl Klarner, State Legislative Election Returns, 1967-2022",
+        "MIT Election Data and Science Lab",
+        "alabama_sos",
+        "Virginia Department of Elections",
+        "North Carolina State Board of Elections",
+        "Louisiana Secretary of State",
+        "Tennessee Secretary of State",
+        "Florida Division of Elections",
+        "Oklahoma State Election Board",
+        "Arkansas Secretary of State",
+        "South Carolina Election Commission",
+        "Kentucky State Board of Elections",
+        "Mississippi Secretary of State",
+        "Missouri Secretary of State",
+        "Redistricting Data Hub; Mississippi SOS via OpenElections",
+        "Project Southern WAR panel v1",
+        "U.S. Census Bureau",
+        "Voting and Election Science Team",
+        "Redistricting Data Hub",
+        "Daily Kos Elections",
+        "The New York Times",
+        "Virginia Voting Precincts project",
+        "Southern state legislative incumbency research workbook",
+        "Southern incumbency web roster and reviewed continuity builder"
+      ],
+      "non_headline_overlay": [
+        "DIME",
+        "Alabama Secretary of State FCPA",
+        "and the state campaign-finance agencies"
+      ]
+    }
+  },
+  "families": [
+    {
+      "provider": "Virginia Department of Elections",
+      "role": "election_results",
+      "registrations": 10366,
+      "license_recorded": 10366,
+      "license_share": 1.0,
+      "url_recorded": 10366,
+      "url_share": 1.0,
+      "retrieved_recorded": 10366,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "official public record; reuse terms not recorded in acquisition manifest; review required",
+        "official public record; reuse terms not recorded; review required",
+        "official public records; reuse terms not stated"
+      ]
+    },
+    {
+      "provider": "Tennessee Registry of Election Finance",
+      "role": "finance",
+      "registrations": 5834,
+      "license_recorded": 5834,
+      "license_share": 1.0,
+      "url_recorded": 5834,
+      "url_share": 1.0,
+      "retrieved_recorded": 5834,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "official public records; reuse terms not stated",
+        "official public records; reuse terms not stated on download page"
+      ]
+    },
+    {
+      "provider": "Kentucky State Board of Elections",
+      "role": "election_results",
+      "registrations": 2053,
+      "license_recorded": 2053,
+      "license_share": 1.0,
+      "url_recorded": 2053,
+      "url_share": 1.0,
+      "retrieved_recorded": 2053,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "official public record; reuse terms not recorded in acquisition manifest; review required"
+      ]
+    },
+    {
+      "provider": "Florida Department of State Division of Elections",
+      "role": "context_geography",
+      "registrations": 1485,
+      "license_recorded": 1485,
+      "license_share": 1.0,
+      "url_recorded": 1485,
+      "url_share": 1.0,
+      "retrieved_recorded": 1485,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "official public precinct-level election-result download",
+        "official public records; reuse terms not stated on download page"
+      ]
+    },
+    {
+      "provider": "Georgia Government Transparency and Campaign Finance Commission",
+      "role": "finance",
+      "registrations": 1445,
+      "license_recorded": 1445,
+      "license_share": 1.0,
+      "url_recorded": 1445,
+      "url_share": 1.0,
+      "retrieved_recorded": 1445,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "official public records; reuse terms not stated",
+        "official public records; reuse terms not stated on download page"
+      ]
+    },
+    {
+      "provider": "alabama_legislature",
+      "role": "ideology_legislation",
+      "registrations": 1157,
+      "license_recorded": 0,
+      "license_share": 0.0,
+      "url_recorded": 1157,
+      "url_share": 1.0,
+      "retrieved_recorded": 1157,
+      "retrieved_share": 1.0,
+      "licenses": []
+    },
+    {
+      "provider": "Louisiana Secretary of State",
+      "role": "election_results",
+      "registrations": 931,
+      "license_recorded": 931,
+      "license_share": 1.0,
+      "url_recorded": 931,
+      "url_share": 1.0,
+      "retrieved_recorded": 931,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "official public record; reuse terms not recorded in acquisition manifest; review required"
+      ]
+    },
+    {
+      "provider": "usdoj_crt_section5",
+      "role": "precinct_history",
+      "registrations": 764,
+      "license_recorded": 0,
+      "license_share": 0.0,
+      "url_recorded": 764,
+      "url_share": 1.0,
+      "retrieved_recorded": 764,
+      "retrieved_share": 1.0,
+      "licenses": []
+    },
+    {
+      "provider": "Arkansas Secretary of State",
+      "role": "election_results",
+      "registrations": 618,
+      "license_recorded": 618,
+      "license_share": 1.0,
+      "url_recorded": 618,
+      "url_share": 1.0,
+      "retrieved_recorded": 618,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "official public record; reuse terms not recorded in acquisition manifest; review required",
+        "official public records; reuse terms not stated",
+        "official public records; reuse terms not stated on download page"
+      ]
+    },
+    {
+      "provider": "Mississippi Secretary of State",
+      "role": "election_results",
+      "registrations": 511,
+      "license_recorded": 511,
+      "license_share": 1.0,
+      "url_recorded": 511,
+      "url_share": 1.0,
+      "retrieved_recorded": 511,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "official public record; reuse terms not recorded in acquisition manifest; review required",
+        "official public records; reuse terms not stated"
+      ]
+    },
+    {
+      "provider": "Tennessee Secretary of State",
+      "role": "election_results",
+      "registrations": 346,
+      "license_recorded": 346,
+      "license_share": 1.0,
+      "url_recorded": 346,
+      "url_share": 1.0,
+      "retrieved_recorded": 346,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "official public record; reuse terms not recorded in acquisition manifest; review required"
+      ]
+    },
+    {
+      "provider": "South Carolina Election Commission",
+      "role": "election_results",
+      "registrations": 255,
+      "license_recorded": 255,
+      "license_share": 1.0,
+      "url_recorded": 255,
+      "url_share": 1.0,
+      "retrieved_recorded": 255,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "official public record; reuse terms not recorded in acquisition manifest; review required"
+      ]
+    },
+    {
+      "provider": "North Carolina State Board of Elections",
+      "role": "election_results",
+      "registrations": 184,
+      "license_recorded": 184,
+      "license_share": 1.0,
+      "url_recorded": 184,
+      "url_share": 1.0,
+      "retrieved_recorded": 184,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "Official NCSBE public download; reuse terms not separately stated",
+        "official public election-result download",
+        "official public record; reuse terms not recorded in acquisition manifest; review required",
+        "official public records; reuse terms not stated",
+        "official public records; reuse terms not stated on download page"
+      ]
+    },
+    {
+      "provider": "internet_archive_adah",
+      "role": "ideology_legislation",
+      "registrations": 170,
+      "license_recorded": 0,
+      "license_share": 0.0,
+      "url_recorded": 170,
+      "url_share": 1.0,
+      "retrieved_recorded": 170,
+      "retrieved_share": 1.0,
+      "licenses": []
+    },
+    {
+      "provider": "Arkansas Secretary of State predecessor filing archive",
+      "role": "finance",
+      "registrations": 129,
+      "license_recorded": 129,
+      "license_share": 1.0,
+      "url_recorded": 129,
+      "url_share": 1.0,
+      "retrieved_recorded": 129,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "official public records; reuse terms not stated"
+      ]
+    },
+    {
+      "provider": "U.S. Census Bureau",
+      "role": "census_geography",
+      "registrations": 110,
+      "license_recorded": 110,
+      "license_share": 1.0,
+      "url_recorded": 110,
+      "url_share": 1.0,
+      "retrieved_recorded": 110,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "U.S. Census Bureau public data; TIGER/Line attribution required",
+        "U.S. Census Bureau public data; no copyright restriction"
+      ]
+    },
+    {
+      "provider": "South Carolina State Ethics Commission",
+      "role": "finance",
+      "registrations": 38,
+      "license_recorded": 38,
+      "license_share": 1.0,
+      "url_recorded": 38,
+      "url_share": 1.0,
+      "retrieved_recorded": 38,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "official public records; reuse terms not stated",
+        "official public records; reuse terms not stated on download page"
+      ]
+    },
+    {
+      "provider": "Alabama Secretary of State FCPA",
+      "role": "finance",
+      "registrations": 36,
+      "license_recorded": 36,
+      "license_share": 1.0,
+      "url_recorded": 36,
+      "url_share": 1.0,
+      "retrieved_recorded": 36,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "official public records; reuse terms not stated",
+        "official public records; reuse terms not stated on download page"
+      ]
+    },
+    {
+      "provider": "legiscan",
+      "role": "ideology_legislation",
+      "registrations": 31,
+      "license_recorded": 31,
+      "license_share": 1.0,
+      "url_recorded": 31,
+      "url_share": 1.0,
+      "retrieved_recorded": 31,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "CC BY 4.0"
+      ]
+    },
+    {
+      "provider": "alabama_sos",
+      "role": "election_administration",
+      "registrations": 24,
+      "license_recorded": 2,
+      "license_share": 0.0833,
+      "url_recorded": 13,
+      "url_share": 0.5417,
+      "retrieved_recorded": 24,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "review: public official election record; explicit redistribution license not established"
+      ]
+    },
+    {
+      "provider": "Florida Division of Elections",
+      "role": "election_results",
+      "registrations": 21,
+      "license_recorded": 21,
+      "license_share": 1.0,
+      "url_recorded": 21,
+      "url_share": 1.0,
+      "retrieved_recorded": 21,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "official public record; reuse terms not recorded in acquisition manifest; review required",
+        "official public records; reuse terms not stated"
+      ]
+    },
+    {
+      "provider": "Oklahoma Ethics Commission Guardian",
+      "role": "finance",
+      "registrations": 18,
+      "license_recorded": 18,
+      "license_share": 1.0,
+      "url_recorded": 18,
+      "url_share": 1.0,
+      "retrieved_recorded": 18,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "official public records; reuse terms not stated on download page"
+      ]
+    },
+    {
+      "provider": "Oklahoma State Election Board",
+      "role": "election_results",
+      "registrations": 17,
+      "license_recorded": 17,
+      "license_share": 1.0,
+      "url_recorded": 17,
+      "url_share": 1.0,
+      "retrieved_recorded": 17,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "official public record; reuse terms not recorded in acquisition manifest; review required"
+      ]
+    },
+    {
+      "provider": "FollowTheMoney.org",
+      "role": "finance",
+      "registrations": 16,
+      "license_recorded": 16,
+      "license_share": 1.0,
+      "url_recorded": 16,
+      "url_share": 1.0,
+      "retrieved_recorded": 16,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "Institute data attribution required; public research table"
+      ]
+    },
+    {
+      "provider": "Voting and Election Science Team",
+      "role": "context_geography",
+      "registrations": 15,
+      "license_recorded": 15,
+      "license_share": 1.0,
+      "url_recorded": 15,
+      "url_share": 1.0,
+      "retrieved_recorded": 15,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "CC BY 4.0; preserve VEST citation and state validation report",
+        "CC BY 4.0; preserve VEST citation and validation report"
+      ]
+    },
+    {
+      "provider": "Kentucky Registry of Election Finance",
+      "role": "finance",
+      "registrations": 15,
+      "license_recorded": 15,
+      "license_share": 1.0,
+      "url_recorded": 15,
+      "url_share": 1.0,
+      "retrieved_recorded": 15,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "official public records; reuse terms not stated"
+      ]
+    },
+    {
+      "provider": "us_census",
+      "role": "census_demographics",
+      "registrations": 12,
+      "license_recorded": 0,
+      "license_share": 0.0,
+      "url_recorded": 8,
+      "url_share": 0.6667,
+      "retrieved_recorded": 4,
+      "retrieved_share": 0.3333,
+      "licenses": []
+    },
+    {
+      "provider": "MIT Election Data and Science Lab",
+      "role": "election_results",
+      "registrations": 12,
+      "license_recorded": 12,
+      "license_share": 1.0,
+      "url_recorded": 12,
+      "url_share": 1.0,
+      "retrieved_recorded": 12,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "reuse terms not retained with local artifact; review required"
+      ]
+    },
+    {
+      "provider": "Missouri Secretary of State",
+      "role": "election_results",
+      "registrations": 11,
+      "license_recorded": 11,
+      "license_share": 1.0,
+      "url_recorded": 11,
+      "url_share": 1.0,
+      "retrieved_recorded": 11,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "official public record; reuse terms not recorded in acquisition manifest; review required"
+      ]
+    },
+    {
+      "provider": "Louisiana Board of Ethics",
+      "role": "finance",
+      "registrations": 9,
+      "license_recorded": 9,
+      "license_share": 1.0,
+      "url_recorded": 9,
+      "url_share": 1.0,
+      "retrieved_recorded": 9,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "official public records; reuse terms not stated on download page"
+      ]
+    },
+    {
+      "provider": "pollster_document",
+      "role": "polling",
+      "registrations": 8,
+      "license_recorded": 0,
+      "license_share": 0.0,
+      "url_recorded": 8,
+      "url_share": 1.0,
+      "retrieved_recorded": 8,
+      "retrieved_share": 1.0,
+      "licenses": []
+    },
+    {
+      "provider": "census_acs",
+      "role": "census_demographics",
+      "registrations": 8,
+      "license_recorded": 0,
+      "license_share": 0.0,
+      "url_recorded": 8,
+      "url_share": 1.0,
+      "retrieved_recorded": 8,
+      "retrieved_share": 1.0,
+      "licenses": []
+    },
+    {
+      "provider": "Missouri Ethics Commission",
+      "role": "finance",
+      "registrations": 7,
+      "license_recorded": 7,
+      "license_share": 1.0,
+      "url_recorded": 7,
+      "url_share": 1.0,
+      "retrieved_recorded": 7,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "official public records; reuse terms not stated"
+      ]
+    },
+    {
+      "provider": "openelections",
+      "role": "election_identity",
+      "registrations": 5,
+      "license_recorded": 0,
+      "license_share": 0.0,
+      "url_recorded": 0,
+      "url_share": 0.0,
+      "retrieved_recorded": 5,
+      "retrieved_share": 1.0,
+      "licenses": []
+    },
+    {
+      "provider": "vest_election_precinct",
+      "role": "context_geography",
+      "registrations": 3,
+      "license_recorded": 0,
+      "license_share": 0.0,
+      "url_recorded": 0,
+      "url_share": 0.0,
+      "retrieved_recorded": 3,
+      "retrieved_share": 1.0,
+      "licenses": []
+    },
+    {
+      "provider": "Redistricting Data Hub",
+      "role": "context_geography",
+      "registrations": 3,
+      "license_recorded": 3,
+      "license_share": 1.0,
+      "url_recorded": 3,
+      "url_share": 1.0,
+      "retrieved_recorded": 3,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "Redistricting Data Hub public download; preserve README and attribution"
+      ]
+    },
+    {
+      "provider": "alabama_reapportionment_archive",
+      "role": "context_geography",
+      "registrations": 2,
+      "license_recorded": 0,
+      "license_share": 0.0,
+      "url_recorded": 0,
+      "url_share": 0.0,
+      "retrieved_recorded": 2,
+      "retrieved_share": 1.0,
+      "licenses": []
+    },
+    {
+      "provider": "The New York Times",
+      "role": "context_geography",
+      "registrations": 2,
+      "license_recorded": 2,
+      "license_share": 1.0,
+      "url_recorded": 2,
+      "url_share": 1.0,
+      "retrieved_recorded": 2,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "New York Times 2024 precinct-data license; attribution and license review required"
+      ]
+    },
+    {
+      "provider": "OpenElections",
+      "role": "election_results",
+      "registrations": 2,
+      "license_recorded": 2,
+      "license_share": 1.0,
+      "url_recorded": 2,
+      "url_share": 1.0,
+      "retrieved_recorded": 2,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "OpenElections public repository; converted Mississippi county results",
+        "OpenElections public repository; underlying Georgia SOS/Clarity results"
+      ]
+    },
+    {
+      "provider": "Arkansas Secretary of State Financial Disclosure",
+      "role": "finance",
+      "registrations": 2,
+      "license_recorded": 2,
+      "license_share": 1.0,
+      "url_recorded": 2,
+      "url_share": 1.0,
+      "retrieved_recorded": 2,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "official public records; reuse terms not stated"
+      ]
+    },
+    {
+      "provider": "shor_mccarty",
+      "role": "ideology_scale",
+      "registrations": 1,
+      "license_recorded": 1,
+      "license_share": 1.0,
+      "url_recorded": 1,
+      "url_share": 1.0,
+      "retrieved_recorded": 1,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "CC0 1.0"
+      ]
+    },
+    {
+      "provider": "census_vtd",
+      "role": "census_geography",
+      "registrations": 1,
+      "license_recorded": 0,
+      "license_share": 0.0,
+      "url_recorded": 0,
+      "url_share": 0.0,
+      "retrieved_recorded": 1,
+      "retrieved_share": 1.0,
+      "licenses": []
+    },
+    {
+      "provider": "alabama_sos_lublin_archive",
+      "role": "election_results",
+      "registrations": 1,
+      "license_recorded": 0,
+      "license_share": 0.0,
+      "url_recorded": 0,
+      "url_share": 0.0,
+      "retrieved_recorded": 1,
+      "retrieved_share": 1.0,
+      "licenses": []
+    },
+    {
+      "provider": "Virginia Voting Precincts project",
+      "role": "context_geography",
+      "registrations": 1,
+      "license_recorded": 1,
+      "license_share": 1.0,
+      "url_recorded": 1,
+      "url_share": 1.0,
+      "retrieved_recorded": 1,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "GPL-3.0; compiled from Virginia official and local GIS evidence"
+      ]
+    },
+    {
+      "provider": "Virginia Department of Elections historical database",
+      "role": "context_geography",
+      "registrations": 1,
+      "license_recorded": 1,
+      "license_share": 1.0,
+      "url_recorded": 1,
+      "url_share": 1.0,
+      "retrieved_recorded": 1,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "official public historical election-result export"
+      ]
+    },
+    {
+      "provider": "Texas Ethics Commission",
+      "role": "finance",
+      "registrations": 1,
+      "license_recorded": 1,
+      "license_share": 1.0,
+      "url_recorded": 1,
+      "url_share": 1.0,
+      "retrieved_recorded": 1,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "official public records; reuse terms not stated on download page"
+      ]
+    },
+    {
+      "provider": "Southern state legislative incumbency research workbook",
+      "role": "incumbency",
+      "registrations": 1,
+      "license_recorded": 1,
+      "license_share": 1.0,
+      "url_recorded": 0,
+      "url_share": 0.0,
+      "retrieved_recorded": 1,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "project-derived or supplied research input; upstream terms retained separately"
+      ]
+    },
+    {
+      "provider": "Southern incumbency web roster and reviewed continuity builder",
+      "role": "incumbency",
+      "registrations": 1,
+      "license_recorded": 1,
+      "license_share": 1.0,
+      "url_recorded": 0,
+      "url_share": 0.0,
+      "retrieved_recorded": 1,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "project-derived or supplied research input; upstream terms retained separately"
+      ]
+    },
+    {
+      "provider": "Southern candidate-cycle finance canonical builder",
+      "role": "finance",
+      "registrations": 1,
+      "license_recorded": 1,
+      "license_share": 1.0,
+      "url_recorded": 0,
+      "url_share": 0.0,
+      "retrieved_recorded": 1,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "project-derived or supplied research input; upstream terms retained separately"
+      ]
+    },
+    {
+      "provider": "Reviewed Southern campaign-finance identity adjudications",
+      "role": "finance",
+      "registrations": 1,
+      "license_recorded": 1,
+      "license_share": 1.0,
+      "url_recorded": 0,
+      "url_share": 0.0,
+      "retrieved_recorded": 1,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "project-derived or supplied research input; upstream terms retained separately"
+      ]
+    },
+    {
+      "provider": "Redistricting Data Hub; Mississippi SOS via OpenElections",
+      "role": "election_results",
+      "registrations": 1,
+      "license_recorded": 1,
+      "license_share": 1.0,
+      "url_recorded": 1,
+      "url_share": 1.0,
+      "retrieved_recorded": 1,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "reuse terms not retained with local artifact; review required"
+      ]
+    },
+    {
+      "provider": "Redistricting Data Hub redistribution of VEST",
+      "role": "context_geography",
+      "registrations": 1,
+      "license_recorded": 1,
+      "license_share": 1.0,
+      "url_recorded": 1,
+      "url_share": 1.0,
+      "retrieved_recorded": 1,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "CC BY 4.0; preserve VEST and RDH attribution and embedded README"
+      ]
+    },
+    {
+      "provider": "Project Southern WAR panel v1",
+      "role": "derived_research",
+      "registrations": 1,
+      "license_recorded": 1,
+      "license_share": 1.0,
+      "url_recorded": 0,
+      "url_share": 0.0,
+      "retrieved_recorded": 1,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "internal derived research artifact"
+      ]
+    },
+    {
+      "provider": "OpenElections conversion of Mississippi Secretary of State",
+      "role": "election_results",
+      "registrations": 1,
+      "license_recorded": 1,
+      "license_share": 1.0,
+      "url_recorded": 1,
+      "url_share": 1.0,
+      "retrieved_recorded": 1,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "OpenElections public repository; converted official Mississippi county results"
+      ]
+    },
+    {
+      "provider": "Mississippi Automated Resource Information System via Election Geodata",
+      "role": "context_geography",
+      "registrations": 1,
+      "license_recorded": 1,
+      "license_share": 1.0,
+      "url_recorded": 1,
+      "url_share": 1.0,
+      "retrieved_recorded": 1,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "MARIS metadata states no access/use limitations; Election Geodata credit requested"
+      ]
+    },
+    {
+      "provider": "Georgia Legislative and Congressional Reapportionment Office via Election Geodata",
+      "role": "context_geography",
+      "registrations": 1,
+      "license_recorded": 1,
+      "license_share": 1.0,
+      "url_recorded": 1,
+      "url_share": 1.0,
+      "retrieved_recorded": 1,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "Election Geodata permits reuse without permission; credit requested"
+      ]
+    },
+    {
+      "provider": "Daily Kos Elections",
+      "role": "context_geography",
+      "registrations": 1,
+      "license_recorded": 1,
+      "license_share": 1.0,
+      "url_recorded": 1,
+      "url_share": 1.0,
+      "retrieved_recorded": 1,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "publicly accessible Daily Kos Elections research page; attribution required"
+      ]
+    },
+    {
+      "provider": "DIME",
+      "role": "finance",
+      "registrations": 1,
+      "license_recorded": 1,
+      "license_share": 1.0,
+      "url_recorded": 1,
+      "url_share": 1.0,
+      "retrieved_recorded": 0,
+      "retrieved_share": 0.0,
+      "licenses": [
+        "ODC-BY 1.0"
+      ]
+    },
+    {
+      "provider": "Carl Klarner, State Legislative Election Returns, 1967-2022",
+      "role": "election_results",
+      "registrations": 1,
+      "license_recorded": 1,
+      "license_share": 1.0,
+      "url_recorded": 1,
+      "url_share": 1.0,
+      "retrieved_recorded": 1,
+      "retrieved_share": 1.0,
+      "licenses": [
+        "reuse terms not retained with local artifact; review required"
+      ]
+    }
+  ],
+  "missing_license_summary": {
+    "families_total": 59,
+    "registrations_total": 26694,
+    "registrations_without_license": 2153,
+    "zero_license_family_count": 11,
+    "partial_license_families": [
+      {
+        "provider": "alabama_sos",
+        "registrations": 24,
+        "license_recorded": 2
+      }
+    ],
+    "prior_09_05_count": 2154,
+    "prior_09_08_expected": 2153,
+    "note": "2,153 = 11 zero-license families (2,131) + alabama_sos 22"
+  },
+  "flagged_families": [
+    {
+      "provider": "alabama_legislature",
+      "registrations": 1157,
+      "license_recorded": 0,
+      "url_recorded": 1157,
+      "retrieved_recorded": 1157,
+      "licenses": [],
+      "published_derivative": "Derived only. Journal PDFs feed extract_historical_house/senate_journal_rollcalls.py -> historical_*_journal_rollcalls.csv -> frontier roll-call ontology -> published ideology summaries (docs/ideology-performance.html, docs/legislators.html). No journal page image or text is published; no Alabama Legislature attribution appears in docs/."
+    },
+    {
+      "provider": "usdoj_crt_section5",
+      "registrations": 764,
+      "license_recorded": 0,
+      "url_recorded": 764,
+      "retrieved_recorded": 764,
+      "licenses": [],
+      "published_derivative": "Derived/context only. Section 5 notices feed source_doj_section5_notice / precinct_change_event and precinct-history evidence for Alabama allocation decisions. No DOJ row is published in docs/data or docs/*.html."
+    },
+    {
+      "provider": "internet_archive_adah",
+      "registrations": 170,
+      "license_recorded": 0,
+      "url_recorded": 170,
+      "retrieved_recorded": 170,
+      "licenses": [],
+      "published_derivative": "Derived only. Acts scanned by ADAH via archive.org feed build_frontier_archive_bill_ledger.py -> archive bill ledger -> ideology ontology/evidence. No act text is published; no ADAH attribution appears in docs/."
+    },
+    {
+      "provider": "us_census",
+      "registrations": 12,
+      "license_recorded": 0,
+      "url_recorded": 8,
+      "retrieved_recorded": 4,
+      "licenses": [],
+      "published_derivative": "Derived only. 1990 SF3 Alabama extracts feed district context/demographic features consumed by WAR baselines. Census data is a U.S. Government work; no raw census table is published, but no license string is registered for these 12 files."
+    },
+    {
+      "provider": "pollster_document",
+      "registrations": 8,
+      "license_recorded": 0,
+      "url_recorded": 8,
+      "retrieved_recorded": 8,
+      "licenses": [],
+      "published_derivative": "Manifest + derived only. The 8 poll documents (Fox/Beacon, Echelon, Cygnal, Quinnipiac, CNBC-Hart) feed the forecast national environment. docs/data/poll_source_manifest.csv republishes filename, pollster, source URL, retrieved_utc, bytes and sha256 (no poll content); docs/data/polling_environment.csv publishes derived environment shares. Terms are not recorded."
+    },
+    {
+      "provider": "census_acs",
+      "registrations": 8,
+      "license_recorded": 0,
+      "url_recorded": 8,
+      "retrieved_recorded": 8,
+      "licenses": [],
+      "published_derivative": "Derived only. ACS 2022 block-group tables feed demographic features. docs/data/2026_sld_demographics.csv publishes derived district demographic aggregates (31,552 B). ACS is public-domain U.S. Government data but these 8 files carry no license string."
+    },
+    {
+      "provider": "openelections",
+      "registrations": 5,
+      "license_recorded": 0,
+      "url_recorded": 0,
+      "retrieved_recorded": 5,
+      "licenses": [],
+      "published_derivative": "Committed raw + derived. All 5 registered files are tracked in Git under data/raw/openelections/ (19.2 MB) and feed precinct identity enrichment and historical allocation. No license or URL is registered for them; no OpenElections attribution appears in docs/."
+    },
+    {
+      "provider": "vest_election_precinct",
+      "registrations": 3,
+      "license_recorded": 0,
+      "url_recorded": 0,
+      "retrieved_recorded": 3,
+      "licenses": [],
+      "published_derivative": "Derived only. VEST precinct packages (2016/2018 AL) feed precinct_snapshot geometry and allocation. Derived allocations appear in historical WAR exports; no raw VEST package is published. Sibling VEST registrations carry CC BY 4.0, but these 3 carry no license string."
+    },
+    {
+      "provider": "alabama_reapportionment_archive",
+      "registrations": 2,
+      "license_recorded": 0,
+      "url_recorded": 0,
+      "retrieved_recorded": 2,
+      "licenses": [],
+      "published_derivative": "Derived only. 1992-2000 House/Senate plan shapefiles supply the 1994 plan geometry used by historical Alabama WAR allocation. Only derived residuals/maps are published; no terms or URL recorded."
+    },
+    {
+      "provider": "census_vtd",
+      "registrations": 1,
+      "license_recorded": 0,
+      "url_recorded": 0,
+      "retrieved_recorded": 1,
+      "licenses": [],
+      "published_derivative": "Derived only. tl_2012_01_vtd10.zip supplies an observed precinct geometry snapshot used by precinct allocation. Only derived map output is published; no terms or URL recorded."
+    },
+    {
+      "provider": "alabama_sos_lublin_archive",
+      "registrations": 1,
+      "license_recorded": 0,
+      "url_recorded": 0,
+      "retrieved_recorded": 1,
+      "licenses": [],
+      "published_derivative": "Derived/context only. Registered single archive artifact used for Alabama historical context; no terms, retrieval of URL, or independent published copy; only derived series appear in docs/data."
+    },
+    {
+      "provider": "alabama_sos",
+      "registrations": 24,
+      "license_recorded": 2,
+      "url_recorded": 13,
+      "retrieved_recorded": 24,
+      "licenses": [
+        "review: public official election record; explicit redistribution license not established"
+      ],
+      "published_derivative": "Derived only. Official SOS precinct and county returns plus the two certified canvass PDFs feed historical Alabama WAR and the certified-canvass bridge. docs/data publishes race-level/candidate-cycle derived aggregates and coverage; the southern historical export labels rows source_provider=Official state election authority. Raw precinct zips/PDFs are not published. Only the 2 certified canvass PDFs record a review-required license string."
+    }
+  ],
+  "restricted_or_review": {
+    "attribution_required": [
+      "legiscan (CC BY 4.0, 31 files)",
+      "DIME (ODC-BY 1.0, 1 file)",
+      "FollowTheMoney.org (Institute attribution, 16)",
+      "Voting and Election Science Team (CC BY 4.0, 15)",
+      "Redistricting Data Hub (preserve README, 3)",
+      "Daily Kos Elections (attribution, 1)",
+      "Georgia reapportionment via Election Geodata (credit requested, 1)",
+      "U.S. Census Bureau (TIGER/Line attribution on 20)"
+    ],
+    "review_required": [
+      "The New York Times (attribution and license review required, 2)",
+      "alabama_sos certified canvass (explicit redistribution license not established, 2)",
+      "all official-public-record strings that state reuse terms are not recorded (about 4,013 election-file rows + state finance files)",
+      "14 rows recorded as reuse terms not retained with local artifact (MIT Election Data and Science Lab, Klarner, RDH/MS)"
+    ],
+    "public_domain_or_permissive": [
+      "shor_mccarty (CC0 1.0)",
+      "legiscan (CC BY 4.0, attribution)",
+      "U.S. Census Bureau (public data)",
+      "Virginia Voting Precincts project (GPL-3.0, 1)",
+      "OpenElections (2 files, repository terms)"
+    ],
+    "unregistered_without_recorded_terms": [
+      "Catalist What Happened 2024 workbook",
+      "VoteHub polls API (CC BY 4.0 only as an in-code constant)",
+      "Vote Smart PCT corpus",
+      "Wikipedia election pages (CC BY-SA implied, not recorded)",
+      "Split Ticket 2024 WAR source page"
+    ],
+    "finding": "No family records terms that flatly prohibit the derived aggregates now published; the incompatible/unknown cases are the unregistered Catalist workbook (its demographic-transfer selection is a published forecast branch) and the missing attribution for LegiScan/Vote Smart-derived ideology content. SOS certified canvass and NYT strings explicitly require review before redistribution."
+  },
+  "committed_raw": {
+    "total_tracked": 15,
+    "total_bytes": 27528289,
+    "files": [
+      {
+        "path": "data/raw/README.md",
+        "bytes": 1093,
+        "family": "readme"
+      },
+      {
+        "path": "data/raw/openelections/20121106__al__general__precinct.csv",
+        "bytes": 1007747,
+        "family": "openelections"
+      },
+      {
+        "path": "data/raw/openelections/20141104__al__general__precinct.csv",
+        "bytes": 4730350,
+        "family": "openelections"
+      },
+      {
+        "path": "data/raw/openelections/20161108__al__general__precinct.csv",
+        "bytes": 2262986,
+        "family": "openelections"
+      },
+      {
+        "path": "data/raw/openelections/20181106__al__general__precinct.csv",
+        "bytes": 7806381,
+        "family": "openelections"
+      },
+      {
+        "path": "data/raw/openelections/20201103__al__general__precinct.csv",
+        "bytes": 2827690,
+        "family": "openelections"
+      },
+      {
+        "path": "data/raw/reference_pages/split_ticket_2024_war/source.html",
+        "bytes": 462282,
+        "family": "split_ticket_2024_war"
+      },
+      {
+        "path": "data/raw/wikipedia/2010_house.html",
+        "bytes": 981507,
+        "family": "wikipedia"
+      },
+      {
+        "path": "data/raw/wikipedia/2010_senate.html",
+        "bytes": 624600,
+        "family": "wikipedia"
+      },
+      {
+        "path": "data/raw/wikipedia/2014_house.html",
+        "bytes": 1015147,
+        "family": "wikipedia"
+      },
+      {
+        "path": "data/raw/wikipedia/2014_senate.html",
+        "bytes": 505988,
+        "family": "wikipedia"
+      },
+      {
+        "path": "data/raw/wikipedia/2018_house.html",
+        "bytes": 963823,
+        "family": "wikipedia"
+      },
+      {
+        "path": "data/raw/wikipedia/2018_senate.html",
+        "bytes": 718368,
+        "family": "wikipedia"
+      },
+      {
+        "path": "data/raw/wikipedia/2022_house.html",
+        "bytes": 2390730,
+        "family": "wikipedia"
+      },
+      {
+        "path": "data/raw/wikipedia/2022_senate.html",
+        "bytes": 1229597,
+        "family": "wikipedia"
+      }
+    ]
+  },
+  "large_files": {
+    "threshold_mb": 50,
+    "tracked_files": 36567,
+    "count": 0,
+    "files": [],
+    "largest_tracked": {
+      "path": "data/processed/legislative/comprehensive_rollcall_direction_review_queue.csv",
+      "mb": 40.24
+    }
+  },
+  "credentials": {
+    "pattern_count": 9,
+    "files_scanned": 36446,
+    "max_bytes": 5242880,
+    "matches": 0,
+    "patterns": [
+      "AKIA[0-9A-Z]{16}",
+      "-----BEGIN ... PRIVATE KEY-----",
+      "ghp_/github_pat_",
+      "sk-[A-Za-z0-9]{24,}",
+      "xox[baprs]-",
+      "AIza...",
+      "JWT",
+      "assigned api_key/secret/token/password literals",
+      "assigned API_KEY/SECRET_KEY/... constants"
+    ],
+    "tracked_env_files": [],
+    "gitignore": {
+      "env_ignored": true,
+      "token_env_ignored": true,
+      "raw_glob": "/data/raw/**",
+      "readme_unignored": "!/data/raw/README.md",
+      "sqlite_glob": "*.sqlite",
+      "tracked_sqlite": 0
+    },
+    "note": ".env exists on disk (238 B) and is ignored via .gitignore:2; no tracked .env-like, .pem, .key, .p12 or id_rsa file.",
+    "skipped_text_files_over_5mb": 63,
+    "non_text_tracked_files": 58
+  },
+  "hygiene_script": {
+    "command": ".venv/Scripts/python.exe scripts/audit_repository_hygiene.py",
+    "exit_code": 0,
+    "output": "Repository hygiene audit passed: canonical publication boundary is clean.",
+    "checks": [
+      "no legacy docs/data/cmo_v2_|cmo_v3_|preliminary_cmo_ export",
+      "no upstream code under scripts/ or dashboard/ reading docs/data",
+      "build_war_story_page.py does not consume legacy CMO exports",
+      "data_catalog.csv does not advertise a legacy public CMO export"
+    ],
+    "side_effects": "none (read-only script)"
+  },
+  "proposed_terms_completion": [
+    {
+      "gap": "11 families with zero license registrations (2,131)",
+      "candidate_sources": [
+        "data/processed/source_audits/southern_legislative_geography_manifest.csv (license_or_terms, 116 rows, Census)",
+        "data/processed/source_audits/southern_2020_census_block_manifest.csv (license_or_terms, 14 rows, Census)",
+        "data/processed/source_audits/southern_war_v4_acs_manifest.csv (license_or_terms, 70 rows, ACS)",
+        "data/processed/source_audits/southern_2016_vest_manifest.csv (license_or_terms, 14 rows, VEST)",
+        "scripts/acquire_southern_sld_acs_v4.py in-code Census constant",
+        "the 15 Voting and Election Science Team registrations already carrying CC BY 4.0 strings"
+      ]
+    },
+    {
+      "gap": "alabama_sos 22 missing licenses",
+      "candidate_sources": [
+        "data/raw/alabama_elections_and_geography/2018_general_certified_canvass.manifest.json and 2022_...manifest.json (license_or_terms present)",
+        "data/processed/source_audits/southern_sos_download_manifest.csv (3630 rows; no license column -> would need extension)",
+        "scripts/load_alabama_2018_certified_source.py / load_alabama_2022_certified_source.py (read license_or_terms from the certified manifest)",
+        "the 09-08 repair record SRC-3F0ED360408C5AD273F6 (qa_warehouse_source_repair) shows URL+license backfill precedent"
+      ]
+    },
+    {
+      "gap": "legiscan attribution (31 files already CC BY 4.0)",
+      "candidate_sources": [
+        "data/processed/source_audits/southern_legislative_history_source_manifest.csv (15 rows, license_or_terms)",
+        "docs/ideology-performance.html (needs a LegiScan attribution line; no license field exists)"
+      ]
+    },
+    {
+      "gap": "pollster_document 8 missing licenses",
+      "candidate_sources": [
+        "project_docs/audits/FORECAST_POLLING_SNAPSHOT_POLICY_2026_09_11.md (documents per-poll terms status, mostly unknown)",
+        "docs/data/poll_source_manifest.csv (published; has source_url/retrieved/bytes/sha256 but no license column)"
+      ]
+    },
+    {
+      "gap": "finance overlay payees (DIME, FollowTheMoney, state ethics agencies)",
+      "candidate_sources": [
+        "data/processed/source_audits/southern_campaign_finance_manifest.csv (license_or_terms, 2727 rows)",
+        "data/processed/source_audits/southern_finance_summary_manifest.csv (license_or_terms, 17356 rows)",
+        "data/processed/source_audits/southern_campaign_finance_coverage.csv (17 rows, provider coverage; no license column)"
+      ]
+    },
+    {
+      "gap": "Alabama journals / ADAH acts / DOJ / reapportionment archive / Lublin archive (no manifest carries terms)",
+      "candidate_sources": [
+        "scripts/download_adah_house_journals.py and scripts/download_alabama_historical_acts.py (acquisition scripts; may embed source-page evidence)",
+        "Internet Archive item metadata for the ADAH acts (network; out of scope)",
+        "Federal public-record convention for usdoj_crt_section5 (17 U.S.C. sec.105)",
+        "no manifest found for alabama_reapportionment_archive or alabama_sos_lublin_archive"
+      ]
+    }
+  ],
+  "not_established": [
+    "Reuse terms for 11 families (2,131 registrations) and 22 Alabama SOS registrations are not recorded anywhere in the warehouse registry; this audit does not establish that those sources may be redistributed.",
+    "The published forecast demographic branch (status=catalist_yougov_demographic_transfer_selected) is Catalist-derived; the Catalist workbook is not registered in warehouse_source_file and no terms are recorded, so its compatibility with publication is not established here.",
+    "Vote Smart is a source_provider in the ideology evidence table (9,184 rows) but is not registered in warehouse_source_file; its terms are not recorded.",
+    "VoteHub supplies the live 2026 environment; its CC BY 4.0 string exists only as an in-code constant in download_votehub_generic_ballot.py and no attribution appears in docs/.",
+    "Attribution presence/absence in docs/ was checked by text search only; this audit does not certify that the published pages meet every attribution requirement of CC BY 4.0, ODC-BY 1.0 or CC0.",
+    "The 8 Wikipedia HTML files and 1 Split Ticket HTML file are tracked raw material with no warehouse registration and no recorded license; their presence in the repository is not adjudicated here.",
+    "This audit does not re-verify the 2026-09-11 warehouse/index state beyond the read-only queries and commands recorded; it does not re-run any product build.",
+    "The ideology evidence layer has 193 distinct source_provider strings but only LegiScan matches a registered warehouse provider; the terms of the other channels (Vote Smart, interest groups, news outlets, campaign material) are not recorded or auditable from the warehouse."
+  ],
+  "out_of_scope": [
+    "No Catalist, Vote Smart or VoteHub provider is registered in warehouse_source_file; their raw files live under data/raw/polling and data/raw/ideology outside the registry.",
+    "The committed Wikipedia HTML (8 files) and Split Ticket source.html (1 file) are not registered; only 5 of the 14 committed raw files (openelections) have a registry row.",
+    "The warehouse-level source manifests that already carry license_or_terms (southern_legislative_geography_manifest.csv, southern_2016_vest_manifest.csv, southern_2020_census_block_manifest.csv, southern_war_v4_acs_manifest.csv, southern_legislative_history_source_manifest.csv, southern_campaign_finance_manifest.csv, southern_finance_summary_manifest.csv, *certified_canvass.manifest.json) are candidate inputs for a terms-completion pass, not corrections applied here.",
+    "The 30 superseded docs/data downloads removed on 2026-09-11 (checkpoint 4) are out of scope; the audit covers the current 31 files."
+  ],
+  "ideology_evidence_channels": {
+    "file": "data/processed/ideology/candidate_position_evidence_v3_all_sources.csv",
+    "rows": 63881,
+    "distinct_source_providers": 193,
+    "exactly_matching_registered_provider": [
+      "LegiScan"
+    ],
+    "largest": {
+      "Alabama Legislature via LegiScan": 51801,
+      "Vote Smart": 9184,
+      "National Federation of Independent Business - Alabama": 684,
+      "National Rifle Association Political Victory Fund (NRA-PVF) - Alabama": 628,
+      "National Rifle Association (NRA)": 306,
+      "Alabama AFL-CIO": 106,
+      "Gun Owners of America (GOA)": 93,
+      "iVoterGuide": 88,
+      "Alabama Political Reporter": 85,
+      "Alabama Daily News": 83
+    },
+    "note": "Only derived ideology scores reach docs/; the evidence channels record no license or terms and are not warehouse-registered."
+  }
+}

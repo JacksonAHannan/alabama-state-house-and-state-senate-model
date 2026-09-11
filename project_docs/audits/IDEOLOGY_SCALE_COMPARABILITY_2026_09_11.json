@@ -1,0 +1,502 @@
+{
+  "generated_at_utc": "2026-09-11T22:05:00Z",
+  "task_id": "IDEOLOGY-SCALE-COMPARABILITY-20260911",
+  "checklist_item": "ideology-08",
+  "upstream": {
+    "head": "d93dd8c6",
+    "v3_run": "WAR-POST2016-V3-530FBD4238CC483E557C",
+    "al_hist_run": "AL-HIST-WAR-V1-44F191EB8D939EF062CC"
+  },
+  "measure_count": 16,
+  "page_reaching_measure_count": 6,
+  "chart_unit_count": 16,
+  "renderer_count": 13,
+  "measures": [
+    {
+      "id": "shor_np_score",
+      "class": "absolute_shor_mccarty",
+      "definition": "Shor-McCarty individual-legislator common-space ideal point",
+      "orientation": "higher = more conservative",
+      "range_units": "[-3.739, +4.704] unitless source score",
+      "anchoring": "absolute/national; source-normalized across all states and both chambers 1993-2018",
+      "coverage": "24,716 legislator rows, 50 states",
+      "producer": "scripts/download_shor_mccarty_ideology.py (raw TSV + manifest)",
+      "reaches_page": false,
+      "page_role": "ancestor of absolute_conservatism_z",
+      "comparable_across_chambers_years_people": "yes across chambers and states; one career score per person, not per cycle"
+    },
+    {
+      "id": "absolute_conservatism_z",
+      "class": "absolute_shor_mccarty",
+      "definition": "(np_score - 0.019054) / 0.898526, z against the full national np_score distribution",
+      "orientation": "higher = more conservative",
+      "range_units": "national z units",
+      "anchoring": "national (24,716-row national mean and sd), not analysis-sample sd",
+      "coverage": "407 candidate-cycles (209 D, 198 R)",
+      "producer": "scripts/analyze_symmetric_incumbency_ideology.py -> research/cmo_ideology/symmetric_incumbency_panel.csv; consumed by scripts/analyze_absolute_ideology_rebuild.py",
+      "reaches_page": true,
+      "page_role": "#continuous era chart",
+      "comparable_across_chambers_years_people": "yes for score construction; fitted sample is Alabama-only and officeholder-selected"
+    },
+    {
+      "id": "behavioral_ideology",
+      "class": "chamber_biennium_behavioral",
+      "definition": "First PC of binary HB/SB roll calls in one chamber and one pre-election window, sign-flipped R-positive, divided by window sd",
+      "orientation": "higher = more Republican/conservative",
+      "range_units": "sd=1 within each chamber-cycle; overall [-2.396, +2.397]",
+      "anchoring": "within chamber-biennium (13 chamber-cycle groups, each sd 1)",
+      "coverage": "1,101 chamber-cycle member rows, cycles 1998-2022",
+      "producer": "scripts/build_full_candidate_legislative_ideology.py",
+      "reaches_page": false,
+      "page_role": "none (no public surface)",
+      "comparable_across_chambers_years_people": "no; within-window rank only"
+    },
+    {
+      "id": "chamber_percentile",
+      "class": "chamber_biennium_behavioral",
+      "definition": "Within-chamber-cycle percentile of behavioral_ideology",
+      "orientation": "higher = more conservative relative to peers",
+      "range_units": "0.48-100 percentile",
+      "anchoring": "within chamber-cycle",
+      "coverage": "1,101 rows",
+      "producer": "scripts/build_full_candidate_legislative_ideology.py",
+      "reaches_page": false,
+      "page_role": "none",
+      "comparable_across_chambers_years_people": "no"
+    },
+    {
+      "id": "caucus_median/distance_from_caucus_median",
+      "class": "chamber_biennium_behavioral",
+      "definition": "Party median of behavioral_ideology and signed distance from it within a chamber-cycle",
+      "orientation": "higher = more conservative than own caucus median",
+      "range_units": "behavioral score units",
+      "anchoring": "within chamber-cycle x party",
+      "coverage": "1,101 rows",
+      "producer": "scripts/build_full_candidate_legislative_ideology.py",
+      "reaches_page": false,
+      "page_role": "none",
+      "comparable_across_chambers_years_people": "no"
+    },
+    {
+      "id": "career behavioral_ideology",
+      "class": "chamber_biennium_behavioral",
+      "definition": "behavioral_ideology recomputed over the archived 1998-2026 career window per chamber",
+      "orientation": "higher = more conservative relative to chamber",
+      "range_units": "sd=1 within chamber",
+      "anchoring": "within-chamber career standardization",
+      "coverage": "data/processed/ideology/candidate_career_ideology_through_2026.csv",
+      "producer": "scripts/build_full_candidate_legislative_ideology.py",
+      "reaches_page": false,
+      "page_role": "none; consumed by 2026 forecast features",
+      "comparable_across_chambers_years_people": "no"
+    },
+    {
+      "id": "issue_valence/model_issue_valence",
+      "class": "issue_valence_v3",
+      "definition": "Evidence-weight mean of position_value * primitive_axis_direction(axis, pole) per candidate-cycle-axis",
+      "orientation": "positive = first declared pole of that ontology axis (not universally conservative)",
+      "range_units": "[-1, +1] per axis",
+      "anchoring": "within-axis; no national bridge, no bridge to Shor-McCarty",
+      "coverage": "18,958 rows; 1,124 candidate-cycles; 79 axes; 1994-2022",
+      "producer": "scripts/build_candidate_issue_valence_v3.py (ideology_ontology_v3.primitive_axis_direction)",
+      "reaches_page": false,
+      "page_role": "input to primitive_conservative_*",
+      "comparable_across_chambers_years_people": "within axis and within candidate set only"
+    },
+    {
+      "id": "family_valence/model_family_valence; ideology_v3_<family>",
+      "class": "issue_valence_v3",
+      "definition": "Evidence-weight mean of primitives loaded onto one of 8 ontology families via ideology_ontology_v3.LOADINGS",
+      "orientation": "positive = first pole of the family",
+      "range_units": "[-1, +1]",
+      "anchoring": "within-family",
+      "coverage": "4,538 rows; 658 candidate rows over 7 model features",
+      "producer": "scripts/build_candidate_issue_valence_v3.py (aggregate_families)",
+      "reaches_page": false,
+      "page_role": "none",
+      "comparable_across_chambers_years_people": "within family only"
+    },
+    {
+      "id": "absolute_evidence_weight/evidence_records/conflict_ratio/position_status",
+      "class": "issue_valence_v3",
+      "definition": "Evidence metadata: weight sum, row count, opposing-weight ratio, disposition",
+      "orientation": "n/a",
+      "range_units": "weight / count / [0,1]",
+      "anchoring": "n/a",
+      "coverage": "18,958 rows",
+      "producer": "scripts/build_candidate_issue_valence_v3.py",
+      "reaches_page": false,
+      "page_role": "none",
+      "comparable_across_chambers_years_people": "n/a"
+    },
+    {
+      "id": "Vote Smart PCT dimensions",
+      "class": "issue_valence_v3",
+      "definition": "Candidate-supplied questionnaire dimension scores shown as -1 progressive to +1 conservative",
+      "orientation": "higher = conservative as displayed",
+      "range_units": "[-1, +1]",
+      "anchoring": "candidate questionnaire (self-reported)",
+      "coverage": "data/processed/ideology/votesmart_pct_candidate_cycle_features.csv",
+      "producer": "scripts/build_legislator_ideology_page.py (dead output)",
+      "reaches_page": false,
+      "page_role": "none",
+      "comparable_across_chambers_years_people": "not comparable with/without questionnaire; different instrument from roll calls"
+    },
+    {
+      "id": "primitive_conservative_<axis>",
+      "class": "composite",
+      "definition": "model_issue_valence * PRIMITIVE_DIRECTIONS[axis] (32 axes)",
+      "orientation": "higher = more conservative Alabama position for that axis only",
+      "range_units": "[-1, +1] per axis",
+      "anchoring": "within-axis; no national anchor",
+      "coverage": "32 panel columns; Democratic per-axis coverage 2 (due_process) to 202 (gun_access)",
+      "producer": "scripts/analyze_absolute_ideology_rebuild.py",
+      "reaches_page": true,
+      "page_role": "group profiles, issue scatter, cluster features",
+      "comparable_across_chambers_years_people": "within axis only; not across axes; not Shor-McCarty units"
+    },
+    {
+      "id": "issue_conservative_<family>",
+      "class": "composite",
+      "definition": "7 family composites from ISSUE_DIRECTIONS",
+      "orientation": "higher = more conservative",
+      "range_units": "[-1, +1]",
+      "anchoring": "within-family",
+      "coverage": "7 columns",
+      "producer": "scripts/analyze_absolute_ideology_rebuild.py",
+      "reaches_page": false,
+      "page_role": "none",
+      "comparable_across_chambers_years_people": "within family only"
+    },
+    {
+      "id": "candidate_cycle_war",
+      "class": "page_performance",
+      "definition": "Race residual: legislative-minus-ticket gap minus fitted structural expected gap",
+      "orientation": "higher = candidate outran expectation (candidate-directional, not left/right)",
+      "range_units": "two-party margin points",
+      "anchoring": "two vintages: post-2016 Southern model backcast (1998-2014) and published same-cycle residual (2018, 2022)",
+      "coverage": "311 page rows; 509 contested races 1994-2022 in export",
+      "producer": "scripts/build_alabama_historical_war_v1.py",
+      "reaches_page": true,
+      "page_role": "headline, distribution, trend, cases, table",
+      "comparable_across_chambers_years_people": "within one vintage; backcast and same-cycle are different constructions"
+    },
+    {
+      "id": "candidate_federal_overperformance/candidate_presidential_overperformance",
+      "class": "page_performance",
+      "definition": "party_direction * (legislative margin - baseline margin)",
+      "orientation": "higher = outran that specific baseline",
+      "range_units": "two-party margin points",
+      "anchoring": "federal index baseline / previous presidential result",
+      "coverage": "page member rows",
+      "producer": "election marts + scripts/analyze_absolute_ideology_rebuild.py",
+      "reaches_page": true,
+      "page_role": "overview, distribution, trend, cases, table",
+      "comparable_across_chambers_years_people": "same units as each other but different baselines; neither substitutes for WAR or ideology"
+    },
+    {
+      "id": "cluster label / cluster_id / constellation_x,y",
+      "class": "descriptive",
+      "definition": "K-means label and 2-D MDS projection of per-party standardized primitive axes",
+      "orientation": "n/a (descriptive)",
+      "range_units": "unitless projection coordinates",
+      "anchoring": "within-sample",
+      "coverage": "131 Democratic candidate-cycles; 18 features",
+      "producer": "scripts/analyze_democratic_ideological_clusters.py; scripts/build_caucus_analysis_page.py",
+      "reaches_page": true,
+      "page_role": "composition, similarity map",
+      "comparable_across_chambers_years_people": "descriptive within this sample only; not a scale or formal caucus membership"
+    },
+    {
+      "id": "sourceCoverage counts",
+      "class": "descriptive",
+      "definition": "Rows / candidate-cycles / axes per evidence category",
+      "orientation": "n/a",
+      "range_units": "counts",
+      "anchoring": "full research file, both parties",
+      "coverage": "5 categories",
+      "producer": "scripts/build_democratic_transition_page_v2.py",
+      "reaches_page": true,
+      "page_role": "methods",
+      "comparable_across_chambers_years_people": "counts, not a scale"
+    }
+  ],
+  "charts": [
+    {
+      "unit": "warHeadline",
+      "section": "performance",
+      "measures": [
+        "candidate_cycle_war"
+      ],
+      "axis": "text values only",
+      "verdict": "one scale"
+    },
+    {
+      "unit": "contrastList",
+      "section": "performance",
+      "measures": [
+        "candidate_cycle_war"
+      ],
+      "axis": "one shared margin-point extent",
+      "verdict": "one scale"
+    },
+    {
+      "unit": "groupGrid",
+      "section": "overview",
+      "measures": [
+        "candidate_cycle_war",
+        "candidate_federal_overperformance",
+        "candidate_presidential_overperformance"
+      ],
+      "axis": "three separately labeled metric cells",
+      "verdict": "same units, distinct labeled baselines"
+    },
+    {
+      "unit": "ticketContrastList",
+      "section": "overview",
+      "measures": [
+        "candidate_federal_overperformance",
+        "candidate_presidential_overperformance"
+      ],
+      "axis": "shared margin-point extent, each row labeled",
+      "verdict": "same units, distinct labeled baselines"
+    },
+    {
+      "unit": "transitionChart",
+      "section": "transition",
+      "measures": [
+        "cluster shares"
+      ],
+      "axis": "stacked share bars",
+      "verdict": "not a scale"
+    },
+    {
+      "unit": "profileChart",
+      "section": "positions",
+      "measures": [
+        "primitive_conservative_<axis>"
+      ],
+      "axis": "one issue axis per row",
+      "verdict": "per-axis; cross-axis ordering descriptive only"
+    },
+    {
+      "unit": "performanceDistribution",
+      "section": "distribution",
+      "measures": [
+        "one selected performance outcome"
+      ],
+      "axis": "one measure per render",
+      "verdict": "one scale"
+    },
+    {
+      "unit": "trendChart",
+      "section": "time",
+      "measures": [
+        "one selected performance outcome"
+      ],
+      "axis": "one measure per render",
+      "verdict": "one scale"
+    },
+    {
+      "unit": "issuePlot",
+      "section": "issues",
+      "measures": [
+        "primitive_conservative_<axis>",
+        "one performance outcome"
+      ],
+      "axis": "two labeled axes",
+      "verdict": "bivariate by design, not one axis"
+    },
+    {
+      "unit": "issueCoverage",
+      "section": "issues",
+      "measures": [
+        "axis coverage count"
+      ],
+      "axis": "count",
+      "verdict": "not a scale"
+    },
+    {
+      "unit": "caseStudies",
+      "section": "cases",
+      "measures": [
+        "WAR",
+        "federal",
+        "presidential",
+        "dimension count"
+      ],
+      "axis": "labeled cells",
+      "verdict": "one scale per cell"
+    },
+    {
+      "unit": "constellation",
+      "section": "candidate-explorer",
+      "measures": [
+        "standardized primitive axes -> 2-D MDS"
+      ],
+      "axis": "projection, explicitly not ideological axes",
+      "verdict": "projection, not a scale"
+    },
+    {
+      "unit": "candidateDetail",
+      "section": "candidate-explorer",
+      "measures": [
+        "WAR",
+        "top primitive_conservative_*"
+      ],
+      "axis": "labeled list",
+      "verdict": "mixed but separately labeled"
+    },
+    {
+      "unit": "candidateRows",
+      "section": "candidate-explorer",
+      "measures": [
+        "WAR",
+        "federal",
+        "presidential"
+      ],
+      "axis": "one labeled column per measure",
+      "verdict": "one scale per column"
+    },
+    {
+      "unit": "eraEvidence",
+      "section": "continuous",
+      "measures": [
+        "absolute_conservatism_z slope per era"
+      ],
+      "axis": "one scale, one axis; n and 95% interval shown",
+      "verdict": "one scale"
+    },
+    {
+      "unit": "sourceGrid",
+      "section": "methods",
+      "measures": [
+        "sourceCoverage counts"
+      ],
+      "axis": "counts",
+      "verdict": "not a scale"
+    }
+  ],
+  "shor_anchor_check": {
+    "national_rows": 24716,
+    "national_mean": 0.019054,
+    "national_sd_ddof0": 0.898526,
+    "national_min": -3.739,
+    "national_max": 4.704,
+    "states": 50,
+    "party_means": {
+      "D": -0.7725,
+      "R": 0.7587,
+      "X": -0.1198
+    },
+    "panel_absz_nonnull": 407,
+    "panel_D": 209,
+    "panel_R": 198,
+    "verdict": "absolute_conservatism_z is a national z, not a within-sample z; page wording accurate"
+  },
+  "behavioral_scale_check": {
+    "rows": 1101,
+    "cycles": [
+      1998,
+      2002,
+      2006,
+      2010,
+      2014,
+      2018,
+      2022
+    ],
+    "chamber_cycle_groups": 13,
+    "group_sd_all": 1.0,
+    "overall_range": [
+      -2.396,
+      2.397
+    ],
+    "chamber_percentile_range": [
+      0.4831,
+      100.0
+    ],
+    "verdict": "within-chamber-biennium standardized; not comparable across chambers/windows"
+  },
+  "issue_valence_check": {
+    "rows": 18958,
+    "candidate_cycles": 1124,
+    "axes": 79,
+    "universe_cycles": [
+      1994,
+      1998,
+      2002,
+      2006,
+      2010,
+      2014,
+      2018,
+      2022
+    ],
+    "value_range": [
+      -1.0,
+      1.0
+    ],
+    "verdict": "axis-specific first-pole orientation; conservative sign requires PRIMITIVE_DIRECTIONS mapping"
+  },
+  "page_payload": {
+    "members": 311,
+    "democratic_candidate_cycles": 131,
+    "people": 127,
+    "clusters": 3,
+    "features": 18,
+    "silhouette": 0.2352,
+    "bootstrap_ari_mean": 0.8375,
+    "selectable_issues": 20,
+    "issue_meta_axes": 31,
+    "panel_primitive_columns": 32,
+    "era_rows": [
+      {
+        "sample": "D:pre_2008",
+        "n": 56,
+        "coefficient": 10.1995
+      },
+      {
+        "sample": "D:2008_2014",
+        "n": 17,
+        "coefficient": 39.5471
+      },
+      {
+        "sample": "D:post_2016",
+        "n": 5,
+        "coefficient": 20.3488
+      }
+    ]
+  },
+  "violations_found": [],
+  "disclosure_gaps_found": [
+    "page carried no explicit cross-scale anchoring/comparison statement"
+  ],
+  "fix": {
+    "type": "copy_only",
+    "file": "scripts/build_democratic_transition_page_v2.py",
+    "block": "Scale comparability (methods)",
+    "logic_changed": false,
+    "artifact_bytes_before": 594827,
+    "artifact_bytes_after": 596038,
+    "sections_before": 11,
+    "sections_after": 11,
+    "render_command": ".venv/Scripts/python.exe scripts/build_democratic_transition_page.py",
+    "test_command": ".venv/Scripts/python.exe -m pytest --testmon --testmon-noselect -p no:cacheprovider scripts/tests/test_ideology_performance_page.py -q",
+    "test_result": "12 passed"
+  },
+  "page_comparability_statement": "These measures are not interchangeable, and no chart mixes measurement families on one axis. The Shor-McCarty section uses the source's absolute scale, whose scores place legislators from different states and chambers on one common continuum; the displayed z-score is distance from the mean of the full national 1993-2018 legislator distribution in that scale's own standard deviation, so one standard deviation is a national scale unit, not an Alabama party, chamber, or election-cycle unit, and the Democratic candidates shown occupy only part of that national range. Issue coordinates are separate per-issue scales between the poles of that issue, oriented so positive is the more conservative Alabama position for that issue only; their magnitudes are not comparable across issues and are not Shor-McCarty units. The chamber-relative roll-call score used in the research layer is not displayed on this page. Residual WAR and the raw federal and presidential comparisons are two-party margin points against different baselines, not ideology units. Group labels, similarity-map coordinates, and evidence counts are descriptive within-sample summaries, not scales, and the grouping was formed before any performance or absolute-ideology measure was attached.",
+  "downloads": {
+    "page_links": 0,
+    "docs_data_ideology_exports": 0,
+    "verdict": "no download channel exposes an uninventoried scale"
+  },
+  "not_established": [
+    "No independent re-estimation of era slopes, clustering, or WAR was performed.",
+    "Shor-McCarty vendor calibration document not consulted; anchoring inferred from the published file and its observed national distribution.",
+    "Adequacy of an Alabama-only officeholder sample for the national-z slope is owned by ideology-09 and the evidence-layer validation.",
+    "The published docs/ideology-performance.html does not yet carry the new block; publication is a separate authorized action."
+  ],
+  "out_of_scope_findings": [
+    "docs/legislators.html is overwritten by a redirect stub after build_legislator_ideology_page.py writes it; the chamber/biennium behavioral score has no public surface.",
+    "PROJECT_COMPLETION_CHECKLIST.html still marks ideology-08 done:false with empty evidence; not edited."
+  ]
+}

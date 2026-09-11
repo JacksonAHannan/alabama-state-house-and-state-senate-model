@@ -1,0 +1,1148 @@
+{
+  "generated_at_utc": "2026-09-11T21:55:59Z",
+  "task_id": "ALABAMA-BASELINE-PLAN-CERTIFICATION-20260911",
+  "audit": "alabama-04",
+  "read_only": true,
+  "lineage": {
+    "head": "d93dd8c6",
+    "historical_alabama_war_run": "AL-HIST-WAR-V1-44F191EB8D939EF062CC",
+    "alabama_war_v1": "AL-WAR-V1-C00FF05BC2BE58E16087",
+    "southern_v3": "WAR-POST2016-V3-530FBD4238CC483E557C",
+    "southern_training_warehouse": "RUN-504CE4C4DF904D88A5A40D268F3FCEAB",
+    "scoped_2002_repair_run": "RUN-DFB1D093D7594AB68A264292050E924D"
+  },
+  "in_universe": {
+    "source": "data/processed/war/cmo_v5_races.csv",
+    "races": 510,
+    "orientations": 1020,
+    "tiers": {
+      "core_1998_2022": 438,
+      "sensitivity_1994": 72
+    },
+    "export_reconciliation": "key set identical to alabama_historical_war_v1/race_war.csv"
+  },
+  "source_totals": {
+    "1994|Attorney General": {
+      "D": 498409,
+      "R": 660998
+    },
+    "1994|Governor": {
+      "D": 590497,
+      "R": 603157
+    },
+    "1998|Attorney General": {
+      "D": 641185,
+      "R": 648298
+    },
+    "1998|Governor": {
+      "D": 1415398,
+      "R": 1218917
+    },
+    "2002|Attorney General": {
+      "D": 576003,
+      "R": 875388
+    },
+    "2002|Governor": {
+      "D": 749428,
+      "R": 755958
+    },
+    "2006|Attorney General": {
+      "D": 485835,
+      "R": 544520
+    },
+    "2006|Governor": {
+      "D": 426923,
+      "R": 600312
+    },
+    "2010|Attorney General": {
+      "D": 605650,
+      "R": 868331
+    },
+    "2010|Governor": {
+      "D": 625052,
+      "R": 860272
+    },
+    "2014|Attorney General": {
+      "D": 504345,
+      "R": 714638
+    },
+    "2014|Governor": {
+      "D": 521632,
+      "R": 938624
+    },
+    "2018|Attorney General": {
+      "D": 702345,
+      "R": 1003298
+    },
+    "2018|Governor": {
+      "D": 694011,
+      "R": 1021276
+    },
+    "2022|Attorney General": {
+      "D": 450543,
+      "R": 955425
+    },
+    "2022|Governor": {
+      "D": 412961,
+      "R": 946932
+    }
+  },
+  "cycles": [
+    {
+      "cycle": 1994,
+      "chamber": "house",
+      "races": 54,
+      "ticket_source": {
+        "federal": 37,
+        "state_fallback": 17
+      },
+      "fallback_share": {
+        "p50": 0.0,
+        "p90": 0.0,
+        "max": 0.0,
+        "gt_10pct": []
+      },
+      "conservation": [
+        {
+          "office": "Governor",
+          "alloc_D": 589430.0,
+          "alloc_R": 602038.0,
+          "source_D": 590497,
+          "source_R": 603157,
+          "delta_D": -1067.0,
+          "delta_R": -1119.0,
+          "pct_D": -0.181,
+          "pct_R": -0.186
+        },
+        {
+          "office": "Attorney General",
+          "alloc_D": 497478.0,
+          "alloc_R": 659803.0,
+          "source_D": 498409,
+          "source_R": 660998,
+          "delta_D": -931.0,
+          "delta_R": -1195.0,
+          "pct_D": -0.187,
+          "pct_R": -0.181
+        }
+      ],
+      "weighted_margin_diff_pp": -0.0002,
+      "prior_presidential": {
+        "year": 1992,
+        "complete": 46,
+        "total": 54
+      },
+      "plan": {
+        "label": "1992-2000 plan",
+        "house_zip": "al_lower_1992_2000.zip",
+        "senate_zip": "al_upper_1992_2000.zip"
+      },
+      "allocation_geography": "same-cycle SOS precinct ballot/activity; no county fallback"
+    },
+    {
+      "cycle": 1994,
+      "chamber": "senate",
+      "races": 18,
+      "ticket_source": {
+        "federal": 12,
+        "state_fallback": 6
+      },
+      "fallback_share": {
+        "p50": 0.0,
+        "p90": 0.0,
+        "max": 0.0,
+        "gt_10pct": []
+      },
+      "conservation": [
+        {
+          "office": "Governor",
+          "alloc_D": 589826.0,
+          "alloc_R": 602607.0,
+          "source_D": 590497,
+          "source_R": 603157,
+          "delta_D": -671.0,
+          "delta_R": -550.0,
+          "pct_D": -0.114,
+          "pct_R": -0.091
+        },
+        {
+          "office": "Attorney General",
+          "alloc_D": 497833.0,
+          "alloc_R": 660399.0,
+          "source_D": 498409,
+          "source_R": 660998,
+          "delta_D": -576.0,
+          "delta_R": -599.0,
+          "pct_D": -0.116,
+          "pct_R": -0.091
+        }
+      ],
+      "weighted_margin_diff_pp": -0.0118,
+      "prior_presidential": {
+        "year": 1992,
+        "complete": 17,
+        "total": 18
+      },
+      "plan": {
+        "label": "1992-2000 plan",
+        "house_zip": "al_lower_1992_2000.zip",
+        "senate_zip": "al_upper_1992_2000.zip"
+      },
+      "allocation_geography": "same-cycle SOS precinct ballot/activity; no county fallback"
+    },
+    {
+      "cycle": 1998,
+      "chamber": "house",
+      "races": 57,
+      "ticket_source": {
+        "federal": 57,
+        "state_fallback": 0
+      },
+      "fallback_share": {
+        "p50": 0.0,
+        "p90": 0.0,
+        "max": 0.7072,
+        "gt_10pct": [
+          [
+            1998,
+            "house",
+            18,
+            0.7072
+          ]
+        ]
+      },
+      "conservation": [
+        {
+          "office": "Governor",
+          "alloc_D": 1412122.0,
+          "alloc_R": 1215329.0,
+          "source_D": 1415398,
+          "source_R": 1218917,
+          "delta_D": -3276.0,
+          "delta_R": -3588.0,
+          "pct_D": -0.231,
+          "pct_R": -0.294
+        },
+        {
+          "office": "Attorney General",
+          "alloc_D": 639740.0,
+          "alloc_R": 646395.0,
+          "source_D": 641185,
+          "source_R": 648298,
+          "delta_D": -1445.0,
+          "delta_R": -1903.0,
+          "pct_D": -0.225,
+          "pct_R": -0.294
+        }
+      ],
+      "weighted_margin_diff_pp": 0.0323,
+      "prior_presidential": {
+        "year": 1996,
+        "complete": 52,
+        "total": 57
+      },
+      "plan": {
+        "label": "1992-2000 plan",
+        "house_zip": "al_lower_1992_2000.zip",
+        "senate_zip": "al_upper_1992_2000.zip"
+      },
+      "allocation_geography": "legislative-activity split; 1990 SF3 tract county-population fallback"
+    },
+    {
+      "cycle": 1998,
+      "chamber": "senate",
+      "races": 28,
+      "ticket_source": {
+        "federal": 28,
+        "state_fallback": 0
+      },
+      "fallback_share": {
+        "p50": 0.0,
+        "p90": 0.0006,
+        "max": 0.0128,
+        "gt_10pct": []
+      },
+      "conservation": [
+        {
+          "office": "Governor",
+          "alloc_D": 1415398.0,
+          "alloc_R": 1218917.0,
+          "source_D": 1415398,
+          "source_R": 1218917,
+          "delta_D": 0.0,
+          "delta_R": -0.0,
+          "pct_D": 0.0,
+          "pct_R": -0.0
+        },
+        {
+          "office": "Attorney General",
+          "alloc_D": 641185.0,
+          "alloc_R": 648298.0,
+          "source_D": 641185,
+          "source_R": 648298,
+          "delta_D": 0.0,
+          "delta_R": 0.0,
+          "pct_D": 0.0,
+          "pct_R": 0.0
+        }
+      ],
+      "weighted_margin_diff_pp": 0.0,
+      "prior_presidential": {
+        "year": 1996,
+        "complete": 24,
+        "total": 28
+      },
+      "plan": {
+        "label": "1992-2000 plan",
+        "house_zip": "al_lower_1992_2000.zip",
+        "senate_zip": "al_upper_1992_2000.zip"
+      },
+      "allocation_geography": "legislative-activity split; 1990 SF3 tract county-population fallback"
+    },
+    {
+      "cycle": 2002,
+      "chamber": "house",
+      "races": 52,
+      "ticket_source": {
+        "federal": 52,
+        "state_fallback": 0
+      },
+      "fallback_share": {
+        "p50": 0.0,
+        "p90": 0.0164,
+        "max": 0.0552,
+        "gt_10pct": []
+      },
+      "conservation": [
+        {
+          "office": "Governor",
+          "alloc_D": 749428.0,
+          "alloc_R": 755958.0,
+          "source_D": 749428,
+          "source_R": 755958,
+          "delta_D": 0.0,
+          "delta_R": 0.0,
+          "pct_D": 0.0,
+          "pct_R": 0.0
+        },
+        {
+          "office": "Attorney General",
+          "alloc_D": 576003.0,
+          "alloc_R": 875388.0,
+          "source_D": 576003,
+          "source_R": 875388,
+          "delta_D": 0.0,
+          "delta_R": -0.0,
+          "pct_D": 0.0,
+          "pct_R": -0.0
+        }
+      ],
+      "weighted_margin_diff_pp": 0.0,
+      "prior_presidential": {
+        "year": 2000,
+        "complete": 45,
+        "total": 52
+      },
+      "plan": {
+        "label": "2002-2010 plan",
+        "house_zip": "al_lower_2002_2010.zip",
+        "senate_zip": "al_upper_2002_2010.zip"
+      },
+      "allocation_geography": "legislative-activity split; 2000 SF3 tract county-population fallback"
+    },
+    {
+      "cycle": 2002,
+      "chamber": "senate",
+      "races": 23,
+      "ticket_source": {
+        "federal": 23,
+        "state_fallback": 0
+      },
+      "fallback_share": {
+        "p50": 0.0,
+        "p90": 0.0,
+        "max": 0.0,
+        "gt_10pct": []
+      },
+      "conservation": [
+        {
+          "office": "Governor",
+          "alloc_D": 749428.0,
+          "alloc_R": 755958.0,
+          "source_D": 749428,
+          "source_R": 755958,
+          "delta_D": 0.0,
+          "delta_R": 0.0,
+          "pct_D": 0.0,
+          "pct_R": 0.0
+        },
+        {
+          "office": "Attorney General",
+          "alloc_D": 576003.0,
+          "alloc_R": 875388.0,
+          "source_D": 576003,
+          "source_R": 875388,
+          "delta_D": 0.0,
+          "delta_R": 0.0,
+          "pct_D": 0.0,
+          "pct_R": 0.0
+        }
+      ],
+      "weighted_margin_diff_pp": 0.0,
+      "prior_presidential": {
+        "year": 2000,
+        "complete": 18,
+        "total": 23
+      },
+      "plan": {
+        "label": "2002-2010 plan",
+        "house_zip": "al_lower_2002_2010.zip",
+        "senate_zip": "al_upper_2002_2010.zip"
+      },
+      "allocation_geography": "legislative-activity split; 2000 SF3 tract county-population fallback"
+    },
+    {
+      "cycle": 2006,
+      "chamber": "house",
+      "races": 40,
+      "ticket_source": {
+        "federal": 22,
+        "state_fallback": 18
+      },
+      "fallback_share": {
+        "p50": 0.0,
+        "p90": 0.0,
+        "max": 0.0,
+        "gt_10pct": []
+      },
+      "conservation": [
+        {
+          "office": "Governor",
+          "alloc_D": 426923.0,
+          "alloc_R": 600312.0,
+          "source_D": 426923,
+          "source_R": 600312,
+          "delta_D": -0.0,
+          "delta_R": 0.0,
+          "pct_D": -0.0,
+          "pct_R": 0.0
+        },
+        {
+          "office": "Attorney General",
+          "alloc_D": 485835.0,
+          "alloc_R": 544520.0,
+          "source_D": 485835,
+          "source_R": 544520,
+          "delta_D": -0.0,
+          "delta_R": 0.0,
+          "pct_D": -0.0,
+          "pct_R": 0.0
+        }
+      ],
+      "weighted_margin_diff_pp": 0.0,
+      "prior_presidential": {
+        "year": 2004,
+        "complete": 38,
+        "total": 40
+      },
+      "plan": {
+        "label": "2002-2010 plan",
+        "house_zip": "al_lower_2002_2010.zip",
+        "senate_zip": "al_upper_2002_2010.zip"
+      },
+      "allocation_geography": "legislative-activity split; 2000 SF3 tract county-population fallback"
+    },
+    {
+      "cycle": 2006,
+      "chamber": "senate",
+      "races": 22,
+      "ticket_source": {
+        "federal": 13,
+        "state_fallback": 9
+      },
+      "fallback_share": {
+        "p50": 0.0,
+        "p90": 0.0,
+        "max": 0.0,
+        "gt_10pct": []
+      },
+      "conservation": [
+        {
+          "office": "Governor",
+          "alloc_D": 426923.0,
+          "alloc_R": 600312.0,
+          "source_D": 426923,
+          "source_R": 600312,
+          "delta_D": 0.0,
+          "delta_R": 0.0,
+          "pct_D": 0.0,
+          "pct_R": 0.0
+        },
+        {
+          "office": "Attorney General",
+          "alloc_D": 485835.0,
+          "alloc_R": 544520.0,
+          "source_D": 485835,
+          "source_R": 544520,
+          "delta_D": 0.0,
+          "delta_R": -0.0,
+          "pct_D": 0.0,
+          "pct_R": -0.0
+        }
+      ],
+      "weighted_margin_diff_pp": -0.0,
+      "prior_presidential": {
+        "year": 2004,
+        "complete": 19,
+        "total": 22
+      },
+      "plan": {
+        "label": "2002-2010 plan",
+        "house_zip": "al_lower_2002_2010.zip",
+        "senate_zip": "al_upper_2002_2010.zip"
+      },
+      "allocation_geography": "legislative-activity split; 2000 SF3 tract county-population fallback"
+    },
+    {
+      "cycle": 2010,
+      "chamber": "house",
+      "races": 42,
+      "ticket_source": {
+        "federal": 42,
+        "state_fallback": 0
+      },
+      "fallback_share": {
+        "p50": 0.0,
+        "p90": 0.0,
+        "max": 0.0,
+        "gt_10pct": []
+      },
+      "conservation": [
+        {
+          "office": "Governor",
+          "alloc_D": 625052.0,
+          "alloc_R": 860272.0,
+          "source_D": 625052,
+          "source_R": 860272,
+          "delta_D": 0.0,
+          "delta_R": 0.0,
+          "pct_D": 0.0,
+          "pct_R": 0.0
+        },
+        {
+          "office": "Attorney General",
+          "alloc_D": 605650.0,
+          "alloc_R": 868331.0,
+          "source_D": 605650,
+          "source_R": 868331,
+          "delta_D": -0.0,
+          "delta_R": 0.0,
+          "pct_D": -0.0,
+          "pct_R": 0.0
+        }
+      ],
+      "weighted_margin_diff_pp": 0.0,
+      "prior_presidential": {
+        "year": 2008,
+        "complete": 42,
+        "total": 42
+      },
+      "plan": {
+        "label": "2002 plan via 2010 Census SLD",
+        "house_zip": "tl_2010_01_sldl00.zip",
+        "senate_zip": "tl_2010_01_sldu00.zip"
+      },
+      "allocation_geography": "canonical precinct->district weights from 2010 Census VTD/blocks"
+    },
+    {
+      "cycle": 2010,
+      "chamber": "senate",
+      "races": 21,
+      "ticket_source": {
+        "federal": 21,
+        "state_fallback": 0
+      },
+      "fallback_share": {
+        "p50": 0.0,
+        "p90": 0.0,
+        "max": 0.0,
+        "gt_10pct": []
+      },
+      "conservation": [
+        {
+          "office": "Governor",
+          "alloc_D": 625052.0,
+          "alloc_R": 860272.0,
+          "source_D": 625052,
+          "source_R": 860272,
+          "delta_D": 0.0,
+          "delta_R": -0.0,
+          "pct_D": 0.0,
+          "pct_R": -0.0
+        },
+        {
+          "office": "Attorney General",
+          "alloc_D": 605650.0,
+          "alloc_R": 868331.0,
+          "source_D": 605650,
+          "source_R": 868331,
+          "delta_D": 0.0,
+          "delta_R": 0.0,
+          "pct_D": 0.0,
+          "pct_R": 0.0
+        }
+      ],
+      "weighted_margin_diff_pp": -0.0,
+      "prior_presidential": {
+        "year": 2008,
+        "complete": 21,
+        "total": 21
+      },
+      "plan": {
+        "label": "2002 plan via 2010 Census SLD",
+        "house_zip": "tl_2010_01_sldl00.zip",
+        "senate_zip": "tl_2010_01_sldu00.zip"
+      },
+      "allocation_geography": "canonical precinct->district weights from 2010 Census VTD/blocks"
+    },
+    {
+      "cycle": 2014,
+      "chamber": "house",
+      "races": 40,
+      "ticket_source": {
+        "federal": 21,
+        "state_fallback": 19
+      },
+      "fallback_share": {
+        "p50": 0.0,
+        "p90": 0.0,
+        "max": 0.0,
+        "gt_10pct": []
+      },
+      "conservation": [
+        {
+          "office": "Governor",
+          "alloc_D": 443940.0,
+          "alloc_R": 777009.0,
+          "source_D": 521632,
+          "source_R": 938624,
+          "delta_D": -77692.0,
+          "delta_R": -161615.0,
+          "pct_D": -14.894,
+          "pct_R": -17.218
+        },
+        {
+          "office": "Attorney General",
+          "alloc_D": 431439.5,
+          "alloc_R": 614963.8,
+          "source_D": 504345,
+          "source_R": 714638,
+          "delta_D": -72905.5,
+          "delta_R": -99674.2,
+          "pct_D": -14.455,
+          "pct_R": -13.948
+        }
+      ],
+      "weighted_margin_diff_pp": 0.6288,
+      "prior_presidential": {
+        "year": 2012,
+        "complete": 40,
+        "total": 40
+      },
+      "plan": {
+        "label": "2012 enacted",
+        "house_zip": "al_sldl_2012_to_2017.zip",
+        "senate_zip": "al_sldu_2012_to_2017.zip"
+      },
+      "allocation_geography": "canonical weights from 2010 Census blocks; core rows from OpenElections 2014"
+    },
+    {
+      "cycle": 2014,
+      "chamber": "senate",
+      "races": 16,
+      "ticket_source": {
+        "federal": 9,
+        "state_fallback": 7
+      },
+      "fallback_share": {
+        "p50": 0.0,
+        "p90": 0.0,
+        "max": 0.0,
+        "gt_10pct": []
+      },
+      "conservation": [
+        {
+          "office": "Governor",
+          "alloc_D": 444924.0,
+          "alloc_R": 783013.0,
+          "source_D": 521632,
+          "source_R": 938624,
+          "delta_D": -76708.0,
+          "delta_R": -155611.0,
+          "pct_D": -14.705,
+          "pct_R": -16.579
+        },
+        {
+          "office": "Attorney General",
+          "alloc_D": 412061.0,
+          "alloc_R": 577763.0,
+          "source_D": 504345,
+          "source_R": 714638,
+          "delta_D": -92284.0,
+          "delta_R": -136875.0,
+          "pct_D": -18.298,
+          "pct_R": -19.153
+        }
+      ],
+      "weighted_margin_diff_pp": 0.6966,
+      "prior_presidential": {
+        "year": 2012,
+        "complete": 16,
+        "total": 16
+      },
+      "plan": {
+        "label": "2012 enacted",
+        "house_zip": "al_sldl_2012_to_2017.zip",
+        "senate_zip": "al_sldu_2012_to_2017.zip"
+      },
+      "allocation_geography": "canonical weights from 2010 Census blocks; core rows from OpenElections 2014"
+    },
+    {
+      "cycle": 2018,
+      "chamber": "house",
+      "races": 49,
+      "ticket_source": {
+        "federal": 48,
+        "state_fallback": 1
+      },
+      "fallback_share": {
+        "p50": 0.0,
+        "p90": 0.0,
+        "max": 0.0,
+        "gt_10pct": []
+      },
+      "conservation": [
+        {
+          "office": "Governor",
+          "alloc_D": 694011.0,
+          "alloc_R": 1021276.0,
+          "source_D": 694011,
+          "source_R": 1021276,
+          "delta_D": 0.0,
+          "delta_R": 0.0,
+          "pct_D": 0.0,
+          "pct_R": 0.0
+        },
+        {
+          "office": "Attorney General",
+          "alloc_D": 702345.0,
+          "alloc_R": 1003298.0,
+          "source_D": 702345,
+          "source_R": 1003298,
+          "delta_D": 0.0,
+          "delta_R": -0.0,
+          "pct_D": 0.0,
+          "pct_R": -0.0
+        }
+      ],
+      "weighted_margin_diff_pp": 0.0,
+      "prior_presidential": {
+        "year": 2016,
+        "complete": 49,
+        "total": 49
+      },
+      "plan": {
+        "label": "2017 remedial",
+        "house_zip": "al_sldl_2017_to_2021.zip",
+        "senate_zip": "al_sldu_2017_to_2021.zip"
+      },
+      "allocation_geography": "canonical weights from 2020 Census blocks; core rows from OpenElections 2018"
+    },
+    {
+      "cycle": 2018,
+      "chamber": "senate",
+      "races": 15,
+      "ticket_source": {
+        "federal": 15,
+        "state_fallback": 0
+      },
+      "fallback_share": {
+        "p50": 0.0,
+        "p90": 0.0,
+        "max": 0.0,
+        "gt_10pct": []
+      },
+      "conservation": [
+        {
+          "office": "Governor",
+          "alloc_D": 694011.0,
+          "alloc_R": 1021276.0,
+          "source_D": 694011,
+          "source_R": 1021276,
+          "delta_D": 0.0,
+          "delta_R": 0.0,
+          "pct_D": 0.0,
+          "pct_R": 0.0
+        },
+        {
+          "office": "Attorney General",
+          "alloc_D": 702345.0,
+          "alloc_R": 1003298.0,
+          "source_D": 702345,
+          "source_R": 1003298,
+          "delta_D": -0.0,
+          "delta_R": 0.0,
+          "pct_D": -0.0,
+          "pct_R": 0.0
+        }
+      ],
+      "weighted_margin_diff_pp": 0.0,
+      "prior_presidential": {
+        "year": 2016,
+        "complete": 15,
+        "total": 15
+      },
+      "plan": {
+        "label": "2017 remedial",
+        "house_zip": "al_sldl_2017_to_2021.zip",
+        "senate_zip": "al_sldu_2017_to_2021.zip"
+      },
+      "allocation_geography": "canonical weights from 2020 Census blocks; core rows from OpenElections 2018"
+    },
+    {
+      "cycle": 2022,
+      "chamber": "house",
+      "races": 25,
+      "ticket_source": {
+        "federal": 25,
+        "state_fallback": 0
+      },
+      "fallback_share": {
+        "p50": 0.0,
+        "p90": 0.0,
+        "max": 0.0,
+        "gt_10pct": []
+      },
+      "conservation": [
+        {
+          "office": "Governor",
+          "alloc_D": 412961.0,
+          "alloc_R": 946932.0,
+          "source_D": 412961,
+          "source_R": 946932,
+          "delta_D": 0.0,
+          "delta_R": -0.0,
+          "pct_D": 0.0,
+          "pct_R": -0.0
+        },
+        {
+          "office": "Attorney General",
+          "alloc_D": 450543.0,
+          "alloc_R": 955425.0,
+          "source_D": 450543,
+          "source_R": 955425,
+          "delta_D": 0.0,
+          "delta_R": 0.0,
+          "pct_D": 0.0,
+          "pct_R": 0.0
+        }
+      ],
+      "weighted_margin_diff_pp": 0.0,
+      "prior_presidential": {
+        "year": 2020,
+        "complete": 25,
+        "total": 25
+      },
+      "plan": {
+        "label": "2021 enacted",
+        "house_zip": "al_sldl_2021_to_2023.zip",
+        "senate_zip": "al_sldu_2021_to_2023.zip"
+      },
+      "allocation_geography": "canonical weights from 2020 Census blocks; core rows from 2022 RDH/SOS precinct file"
+    },
+    {
+      "cycle": 2022,
+      "chamber": "senate",
+      "races": 8,
+      "ticket_source": {
+        "federal": 8,
+        "state_fallback": 0
+      },
+      "fallback_share": {
+        "p50": 0.0,
+        "p90": 0.0,
+        "max": 0.0,
+        "gt_10pct": []
+      },
+      "conservation": [
+        {
+          "office": "Governor",
+          "alloc_D": 412961.0,
+          "alloc_R": 946932.0,
+          "source_D": 412961,
+          "source_R": 946932,
+          "delta_D": 0.0,
+          "delta_R": 0.0,
+          "pct_D": 0.0,
+          "pct_R": 0.0
+        },
+        {
+          "office": "Attorney General",
+          "alloc_D": 450543.0,
+          "alloc_R": 955425.0,
+          "source_D": 450543,
+          "source_R": 955425,
+          "delta_D": 0.0,
+          "delta_R": -0.0,
+          "pct_D": 0.0,
+          "pct_R": -0.0
+        }
+      ],
+      "weighted_margin_diff_pp": 0.0,
+      "prior_presidential": {
+        "year": 2020,
+        "complete": 8,
+        "total": 8
+      },
+      "plan": {
+        "label": "2021 enacted",
+        "house_zip": "al_sldl_2021_to_2023.zip",
+        "senate_zip": "al_sldu_2021_to_2023.zip"
+      },
+      "allocation_geography": "canonical weights from 2020 Census blocks; core rows from 2022 RDH/SOS precinct file"
+    }
+  ],
+  "prior_presidential_conservation": [
+    {
+      "cycle": 1994,
+      "chamber": "house",
+      "source_year": 1992,
+      "delta_D": 0.0,
+      "delta_R": -0.0,
+      "pct_D": 0.0,
+      "pct_R": -0.0
+    },
+    {
+      "cycle": 1994,
+      "chamber": "senate",
+      "source_year": 1992,
+      "delta_D": 0.0,
+      "delta_R": 0.0,
+      "pct_D": 0.0,
+      "pct_R": 0.0
+    },
+    {
+      "cycle": 2010,
+      "chamber": "house",
+      "source_year": 2008,
+      "delta_D": 0.0,
+      "delta_R": 0.0,
+      "pct_D": 0.0,
+      "pct_R": 0.0
+    },
+    {
+      "cycle": 2010,
+      "chamber": "senate",
+      "source_year": 2008,
+      "delta_D": 0.0,
+      "delta_R": 0.0,
+      "pct_D": 0.0,
+      "pct_R": 0.0
+    },
+    {
+      "cycle": 2014,
+      "chamber": "house",
+      "source_year": 2012,
+      "delta_D": -0.0,
+      "delta_R": 0.0,
+      "pct_D": -0.0,
+      "pct_R": 0.0
+    },
+    {
+      "cycle": 2014,
+      "chamber": "senate",
+      "source_year": 2012,
+      "delta_D": 0.0,
+      "delta_R": 0.0,
+      "pct_D": 0.0,
+      "pct_R": 0.0
+    },
+    {
+      "cycle": 2018,
+      "chamber": "house",
+      "source_year": 2016,
+      "delta_D": 0.0,
+      "delta_R": 0.0,
+      "pct_D": 0.0,
+      "pct_R": 0.0
+    },
+    {
+      "cycle": 2018,
+      "chamber": "senate",
+      "source_year": 2016,
+      "delta_D": 0.0,
+      "delta_R": -0.0,
+      "pct_D": 0.0,
+      "pct_R": -0.0
+    },
+    {
+      "cycle": 2022,
+      "chamber": "house",
+      "source_year": 2020,
+      "delta_D": 0.0,
+      "delta_R": 0.0,
+      "pct_D": 0.0,
+      "pct_R": 0.0
+    },
+    {
+      "cycle": 2022,
+      "chamber": "senate",
+      "source_year": 2020,
+      "delta_D": 0.0,
+      "delta_R": 0.0,
+      "pct_D": 0.0,
+      "pct_R": 0.0
+    },
+    {
+      "cycle": 1998,
+      "chamber": "house",
+      "source_year": 1996,
+      "delta_D": -6656.0,
+      "delta_R": -6431.0,
+      "pct_D": -1.062,
+      "pct_R": -0.886
+    },
+    {
+      "cycle": 1998,
+      "chamber": "senate",
+      "source_year": 1996,
+      "delta_D": 0.0,
+      "delta_R": 0.0,
+      "pct_D": 0.0,
+      "pct_R": 0.0
+    },
+    {
+      "cycle": 2002,
+      "chamber": "house",
+      "source_year": 2000,
+      "delta_D": -10381.0,
+      "delta_R": -17084.0,
+      "pct_D": -1.933,
+      "pct_R": -2.301
+    },
+    {
+      "cycle": 2002,
+      "chamber": "senate",
+      "source_year": 2000,
+      "delta_D": -10381.0,
+      "delta_R": -17084.0,
+      "pct_D": -1.933,
+      "pct_R": -2.301
+    },
+    {
+      "cycle": 2006,
+      "chamber": "house",
+      "source_year": 2004,
+      "delta_D": -98664.0,
+      "delta_R": -251174.0,
+      "pct_D": -15.871,
+      "pct_R": -19.516
+    },
+    {
+      "cycle": 2006,
+      "chamber": "senate",
+      "source_year": 2004,
+      "delta_D": -98664.0,
+      "delta_R": -251174.0,
+      "pct_D": -15.871,
+      "pct_R": -19.516
+    }
+  ],
+  "fallback_gt_10pct_office_rows": [
+    {
+      "cycle": 1998,
+      "chamber": "house",
+      "district": 18,
+      "office": "Attorney General",
+      "fallback_share": 0.7057,
+      "method": "county_population_fallback",
+      "in_universe": true
+    },
+    {
+      "cycle": 1998,
+      "chamber": "house",
+      "district": 18,
+      "office": "Governor",
+      "fallback_share": 0.7072,
+      "method": "county_population_fallback",
+      "in_universe": true
+    },
+    {
+      "cycle": 1998,
+      "chamber": "house",
+      "district": 90,
+      "office": "Attorney General",
+      "fallback_share": 0.3925,
+      "method": "county_population_fallback",
+      "in_universe": false
+    },
+    {
+      "cycle": 1998,
+      "chamber": "house",
+      "district": 90,
+      "office": "Governor",
+      "fallback_share": 0.3892,
+      "method": "county_population_fallback",
+      "in_universe": false
+    },
+    {
+      "cycle": 2006,
+      "chamber": "house",
+      "district": 86,
+      "office": "Attorney General",
+      "fallback_share": 1.0,
+      "method": "county_population_fallback",
+      "in_universe": false
+    },
+    {
+      "cycle": 2006,
+      "chamber": "house",
+      "district": 86,
+      "office": "Governor",
+      "fallback_share": 1.0,
+      "method": "county_population_fallback",
+      "in_universe": false
+    }
+  ],
+  "substitution_checks": [
+    {
+      "check": "ticket election year equals cycle",
+      "result": "PASS",
+      "evidence": "observations[year==cycle]; allocate_cycle filters source[year==cycle]"
+    },
+    {
+      "check": "prior presidential immediately preceding",
+      "result": "PASS",
+      "evidence": "1992/1996/2000/2004/2008/2012/2016/2020"
+    },
+    {
+      "check": "district plan matches election plan",
+      "result": "PASS_WITH_LABEL_CONFLICT",
+      "evidence": "1994/1998=1992-2000; 2002/2006=2002-2010; 2010=2002 plan via 2010 Census SLD; 2014=2012 enacted; 2018=2017 remedial (MAP_VINTAGE; display al_sldl_2017_to_2021) conflicts with task expectation '2012 plan for 2014/2018'; 2022=2021 enacted"
+    }
+  ],
+  "not_established": [
+    "2018 allocation block-assignment vintage not decoded",
+    "exact county attribution of 1998 state-ticket and 2002 prior-pres residuals",
+    "2014 OpenElections-vs-SOS ~232k Governor provenance gap",
+    "2014 US Senate omission not verified from raw ballot rows",
+    "published race universe 509 vs 510 in export",
+    "2002 HD26/HD27 and 2014 party labels (warehouse-05) out of scope"
+  ],
+  "out_of_scope_findings": [
+    "2006 legislative returns cover only ~48/67 counties (18 absent; 349,838 source votes)",
+    "1998 Senate district 90 phantom baseline row",
+    "509 vs 510 race-universe documentation mismatch",
+    "2014 OpenElections vs SOS executive totals differ ~16%"
+  ]
+}

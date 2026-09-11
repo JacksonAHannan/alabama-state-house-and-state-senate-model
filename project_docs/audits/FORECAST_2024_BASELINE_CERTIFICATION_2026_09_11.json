@@ -1,0 +1,122 @@
+{
+  "task_id": "FORECAST-2024-BASELINE-CERTIFICATION-20260911",
+  "checklist_item": "forecast-03",
+  "title": "Certify the 2024 baseline on the 2026 plans",
+  "generated_at_utc": "2026-09-11T21:53:52Z",
+  "mode": "read_only_audit",
+  "lineage_pins": {
+    "head_commit": "d93dd8c63f9866cb9c93a74d11883d3fd3acc043",
+    "forecast_build_id": "b76d607f2d81e54697a3",
+    "forecast_manifest_git_commit": "55b7734bb118c08f153b745a448375acca1ec018",
+    "alabama_historical_run": "AL-HIST-WAR-V1-44F191EB8D939EF062CC",
+    "southern_v3_run": "WAR-POST2016-V3-530FBD4238CC483E557C",
+    "warehouse_run": "RUN-DFB1D093D7594AB68A264292050E924D"
+  },
+  "baseline_chain": [
+    "data/raw/rdh/al_2024_gen_prec.zip (2024 general precinct votes+geometry, RDH)",
+    "data/raw/census/tl_2020_01_tabblock20.zip + data/raw/census/al2020.pl.zip (2020 blocks + population)",
+    "data/raw/alabama_elections_and_geography/tl_2025_01_sld{l,u} (2026 plan geometry)",
+    "scripts/build_2026_geographic_features.py",
+    "data/processed/presidential/2026_district_presidential_features.csv",
+    "scripts/build_2026_poll_adjusted_baseline.py",
+    "data/processed/war/2026_poll_adjusted_baseline.csv",
+    "scripts/run_alabama_war_generic_forecast.py",
+    "data/processed/forecast_calibration/alabama_war_forecast_v1_2026_scenarios.csv"
+  ],
+  "lineage_files": [
+    {"path": "data/raw/alabama_elections_and_geography/al_2024_gen_prec/al_2024_gen_all_prec/al_2024_gen_all_prec.shp", "role": "2024 precinct geometry+votes", "producer": "external: Redistricting Data Hub al_2024_gen_prec.zip (member sha matches)", "mtime_utc": "2026-08-12T23:22:57Z", "sha256": "3376d310897e007aee63887706167d04f72ec09a3fda45daafbfecaa0db0d665", "rows": 1947, "registered_in_warehouse_source_file": false},
+    {"path": "data/raw/alabama_elections_and_geography/al_2024_gen_prec/al_2024_gen_all_prec/al_2024_gen_all_prec.dbf", "role": "2024 precinct vote attributes", "producer": "same", "mtime_utc": "2026-08-12T23:22:57Z", "sha256": "000ab3f181f9a9a6657ce5b566ffd5063409b989ac40c97b2ac7d93dfe6e137c", "rows": 1947, "registered_in_warehouse_source_file": false},
+    {"path": "data/raw/census/tl_2020_01_tabblock20.zip", "role": "2020 tabulation blocks", "producer": "external: U.S. Census Bureau", "mtime_utc": "2026-08-14T23:46:02Z", "sha256": "86e554ba9b86cc8057399f08807f506503bb7ceeae323d61f77314e16572186c", "registered_in_warehouse_source_file": true, "source_file_id": "CENSUS-2020-AL-TABBLOCK20"},
+    {"path": "data/raw/census/al2020.pl.zip", "role": "2020 PL 94-171 block population", "producer": "external: U.S. Census Bureau", "mtime_utc": "2026-08-14T21:00:55Z", "sha256": "bd3fbbf22615b166869f9119aa12017b9a7b82baf0f22a9170e92a88a397cd77", "registered_in_warehouse_source_file": true, "source_file_id": "SRC-58F03B523F0C2DAD7D7D"},
+    {"path": "data/raw/alabama_elections_and_geography/tl_2025_01_sldl/tl_2025_01_sldl.shp", "role": "2026 House plan", "producer": "external: TIGER/Line 2025 SLD", "mtime_utc": "2026-08-14T23:44:06Z", "sha256": "f2840e15bca51803af064448c05fd719cc6565e36475729dfc1c92da73238333", "rows": 105, "registered_in_warehouse_source_file": false},
+    {"path": "data/raw/alabama_elections_and_geography/tl_2025_01_sldl/tl_2025_01_sldl.dbf", "role": "2026 House plan attributes (LSY=2024)", "producer": "same", "mtime_utc": "2026-08-14T23:44:06Z", "sha256": "d1b77402334cb1a1f0faa30240085ffce4213fbeed2b1096e9d9b127b6c10b65", "rows": 105},
+    {"path": "data/raw/alabama_elections_and_geography/tl_2025_01_sldu/tl_2025_01_sldu.shp", "role": "2026 Senate plan", "producer": "external: TIGER/Line 2025 SLD", "mtime_utc": "2026-08-14T23:44:14Z", "sha256": "fbc4422076d5a119d51d5e1846d56d4e5b95d91d451cf5b54299a6a6093012b8", "rows": 35, "registered_in_warehouse_source_file": false},
+    {"path": "data/raw/alabama_elections_and_geography/tl_2025_01_sldu/tl_2025_01_sldu.dbf", "role": "2026 Senate plan attributes (LSY=2024)", "producer": "same", "mtime_utc": "2026-08-14T23:44:14Z", "sha256": "1fab9ba4d9b77d45aae7ba4520e6509559c28a4abb1052f000ab145cf4ea534d", "rows": 35},
+    {"path": "scripts/build_2026_geographic_features.py", "role": "producer", "sha256": "84a43b234e95ff6b97033f9067c29514e046567c7685f2eac8c3fb2c4688d351", "mtime_utc": "2026-08-16T15:15:26Z"},
+    {"path": "data/processed/war/2026_geographic_precinct_district_weights.csv", "role": "precinct->district allocation weights", "producer": "scripts/build_2026_geographic_features.py", "mtime_utc": "2026-08-14T23:54:21Z", "sha256": "da7ff150ede1f4bc4903fb70dc270783f420c779b76ec2873f632f18c8132070", "rows": 4546},
+    {"path": "data/processed/war/2026_geographic_crosswalk_qa.csv", "role": "crosswalk QA", "producer": "same", "mtime_utc": "2026-08-14T23:54:21Z", "sha256": "95b73464c3693e75d07d02cf3da0d4d1f25ca05a756cc7dda552469b4d451697", "rows": 2},
+    {"path": "data/processed/war/2026_geography_source_manifest.csv", "role": "local plan source manifest", "producer": "same", "mtime_utc": "2026-08-16T15:21:38Z", "sha256": "87674816c916860a4fca1492c22b2b3834ba8cc46c5f7c723db119da2e060893", "rows": 14},
+    {"path": "data/processed/presidential/2026_district_presidential_features.csv", "role": "district-level 2024 presidential baseline", "producer": "scripts/build_2026_geographic_features.py", "mtime_utc": "2026-08-14T23:54:21Z", "sha256": "4e7fc2862f3a21c0373986dcb6da664454ae18213ddb97f8ee69c24c3f932a83", "rows": 140},
+    {"path": "scripts/build_2026_poll_adjusted_baseline.py", "role": "producer", "sha256": "9867f5ce88517071313d9f31774604c8ba9ddcd0430db9f6bd471ce1f0168c2c", "mtime_utc": "2026-08-15T07:36:32Z"},
+    {"path": "data/processed/war/2026_poll_adjusted_baseline.csv", "role": "poll-adjusted baseline", "producer": "scripts/build_2026_poll_adjusted_baseline.py", "mtime_utc": "2026-08-19T04:57:29Z", "sha256": "eb730a46c6ea2ef02ccc26fc03bc833fb2747c076196d6ac477fc06b88837b9f", "rows": 140},
+    {"path": "scripts/run_alabama_war_generic_forecast.py", "role": "producer of published scenarios", "sha256": "19e6cf0df8d32adf042520f169b03720a11679f76f7cc9e5af06500d544e0e98", "mtime_utc": "2026-09-11T17:13:14Z"},
+    {"path": "data/processed/forecast_calibration/alabama_war_forecast_v1_2026_scenarios.csv", "role": "published scenarios export", "producer": "scripts/run_alabama_war_generic_forecast.py", "mtime_utc": "2026-09-11T21:08:27Z", "sha256": "c0e33afcc26ff7de4c7acadb7456d2618e0318dc2aec79a0b6aa5d7146b5abb1", "rows": 144},
+    {"path": "data/processed/forecast_calibration/alabama_war_forecast_v1_manifest.json", "role": "published forecast manifest", "producer": "same", "mtime_utc": "2026-09-11T21:08:27Z", "sha256": "6760a36d24fa851956d0c9eea4f5d3e7b365bc6f728a6bc9f48ba5359a54536c"},
+    {"path": "data/processed/forecast_calibration/robust_forecast_v1_error_components.csv", "role": "chamber simulation error components", "producer": "scripts/run_robust_forecast_pipeline.py", "mtime_utc": "2026-08-23T01:54:33Z", "sha256": "4085d289d65d17b847bad2d314356d70d0ffd5ab3bc72633e1b07aa69eef5d68", "rows": 1}
+  ],
+  "registered_raw_sources": [
+    {"source_file_id": "CENSUS-2020-AL-TABBLOCK20", "local_path": "data/raw/census/tl_2020_01_tabblock20.zip", "original_url": "https://www2.census.gov/geo/tiger/TIGER2020PL/STATE/01_ALABAMA/01/tl_2020_01_tabblock20.zip", "retrieved_at_utc": "2026-08-14T23:46:02.055959+00:00", "sha256": "86e554ba9b86cc8057399f08807f506503bb7ceeae323d61f77314e16572186c", "license": "U.S. Census Bureau public data; TIGER/Line attribution required", "authoritative_scope": "statewide TIGER/Line 2020 Census block polygons"},
+    {"source_file_id": "SRC-58F03B523F0C2DAD7D7D", "local_path": "data/raw/census/al2020.pl.zip", "original_url": "https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/Alabama/al2020.pl.zip", "retrieved_at_utc": null, "sha256": "bd3fbbf22615b166869f9119aa12017b9a7b82baf0f22a9170e92a88a397cd77", "license": null, "authoritative_scope": "2020 PL 94-171 block population"},
+    {"source_file_id": "SRC-E603613A507B7FFA6C25", "local_path": "data/raw/alabama_elections_and_geography/2024-General Precinct Level Results.zip", "original_url": null, "retrieved_at_utc": "2026-08-16T19:15:03.566159+00:00", "sha256": "4ecca55fc235018aeb2385debd375e6fa7aaa553c5bd67786add08d850efcc96", "license": null, "authoritative_scope": "official_vote_counts", "note": "registered but NOT the shapefile consumed by the baseline build (no shp/dbf members)"}
+  ],
+  "unregistered_raw_inputs": [
+    {"path": "data/raw/rdh/al_2024_gen_prec.zip", "role": "actual 2024 precinct votes+geometry consumed", "registered": false, "readme_terms": "RDH retrieval 04/21/25; sources Alabama Secretary of State and county GIS/records; counties not individually listed use the 2022 precinct file (which draws on the 2020 file); county-level/Jefferson Judicial Division votes allocated to precincts by election-day vote share", "member_shp_sha256": "3376d310897e007aee63887706167d04f72ec09a3fda45daafbfecaa0db0d665"},
+    {"path": "data/raw/alabama_elections_and_geography/tl_2025_01_sldl", "role": "2026 House plan", "registered": false, "local_manifest": "2026_geography_source_manifest.csv", "selection_basis": "user_supplied_reinstated_original_2021_plan", "legislative_session_year": 2024, "applicable_cycle": 2026},
+    {"path": "data/raw/alabama_elections_and_geography/tl_2025_01_sldu", "role": "2026 Senate plan", "registered": false, "local_manifest": "2026_geography_source_manifest.csv", "selection_basis": "user_supplied_reinstated_original_2021_plan", "legislative_session_year": 2024, "applicable_cycle": 2026}
+  ],
+  "conservation": {
+    "statewide_source": {"source": "RDH al_2024_gen_all_prec.shp", "dem_votes": 772412, "rep_votes": 1462616, "two_party_votes": 2235028, "dem_margin_pct": -30.88122385938789, "precincts": 1947, "counties": 67},
+    "chambers": {
+      "house": {"districts": 105, "dem_allocated": 772412.0, "rep_allocated": 1462616.0, "dem_diff": 0.0, "rep_diff": 0.0},
+      "senate": {"districts": 35, "dem_allocated": 772412.0, "rep_allocated": 1462616.0, "dem_diff": 0.0, "rep_diff": 0.0}
+    },
+    "max_weight_sum_error": 3.3306690738754696e-16,
+    "precincts_dropped": 0
+  },
+  "allocation": {
+    "method_label": "2020_block_population_to_2025_tiger_sld",
+    "weights_rows": 4546,
+    "precincts_per_chamber": 1947,
+    "seats_total": 140,
+    "seats_with_any_split_precinct": 133,
+    "seats_by_chamber": {"house": 105, "senate": 35},
+    "seats_with_split_by_chamber": {"house": 100, "senate": 33},
+    "whole_precinct_only_seats": [{"chamber": "house", "district": 31}, {"chamber": "house", "district": 42}, {"chamber": "house", "district": 67}, {"chamber": "house", "district": 74}, {"chamber": "house", "district": 92}, {"chamber": "senate", "district": 4}, {"chamber": "senate", "district": 23}],
+    "fallback_share_gt_zero_seats": 0,
+    "fallback_share_is_hardcoded": true,
+    "source_complete_flag_hardcoded": true,
+    "split_vote_share": {"house": {"mean": 0.210525, "max": 0.846792, "max_seat": {"district": 79}}, "senate": {"mean": 0.096364, "max": 0.287445, "max_seat": {"district": 15}}},
+    "unique_split_precincts_any_chamber": 461,
+    "split_precincts_by_chamber": {"house": 405, "senate": 169},
+    "zero_weight_rows": 303
+  },
+  "plan": {
+    "files": {"house": "data/raw/alabama_elections_and_geography/tl_2025_01_sldl/tl_2025_01_sldl.shp", "senate": "data/raw/alabama_elections_and_geography/tl_2025_01_sldu/tl_2025_01_sldu.shp"},
+    "source": "TIGER/Line 2025 SLD",
+    "lsy": "2024",
+    "districts": {"house": 105, "senate": 35},
+    "all_140_seats_on_plan": true,
+    "feature_district_sets_match_plan": true,
+    "dashboard_uses_same_files": true,
+    "local_manifest_selection_basis": "user_supplied_reinstated_original_2021_plan",
+    "no_2020_or_2022_plan_value_substituted": true
+  },
+  "uncertainty": {
+    "allocation_carries": ["split-precinct population-weighted shares up to 84.7% of a seat's allocated votes", "nested RDH county-to-precinct allocation and mixed 2022/2020/2024 precinct boundary vintage", "unmeasured snap fallback (mask computed, not exported)"],
+    "forecast_propagates_allocation_uncertainty": false,
+    "propagated_components": {"source": "data/processed/forecast_calibration/robust_forecast_v1_error_components.csv", "national_sd": 2.2038495277753904, "state_sd": 2.007251917599354, "chamber_sd": 1.0250611195349373, "district_sd": 5.905697688068906, "total_residual_sd": 6.251567248923569, "district_component_definition": "row_error minus state minus chamber on the historical Southern WAR panel", "is_allocation_uncertainty": false, "applied_as": "i.i.d. per-seat draw in the 50,000-draw chamber simulation"}
+  },
+  "modeled_reconciliation": {
+    "modeled_races": 48,
+    "by_chamber": {"house": 33, "senate": 15},
+    "scenario_rows": 144,
+    "scenarios_baseline_vs_features_max_abs_diff": 0.0,
+    "prior_pres_margin_vs_features_max_abs_diff": 0.0,
+    "poll_baseline_vs_features_max_abs_diff": 3.552713678800501e-15,
+    "exact_match_races": 48
+  },
+  "not_established": [
+    "actual block snap-fallback count/share (mask computed then discarded; feature column hardcoded 0.0)",
+    "the exact script revision that produced the published features file (outputs predate current builder mtime; no warehouse_build_run row for the crosswalk)",
+    "consistency of the RDH mixed 2022/2020/2024 precinct boundary vintages with attributed votes",
+    "RDH county-to-precinct allocation fractions (not re-derived)",
+    "legal identity of tl_2025 LSY 2024 plan with the plan in force for the 2024 votes / 2026 election (separate plan-cert task)",
+    "any propagation of allocation uncertainty (none exists) and reconciliation of the 77 D / 1,024 R gap to the NYT registered 2024 source"
+  ],
+  "out_of_scope_findings": [
+    "build_2026_geographic_features.py computes precinct_snap_fallback then discards it and hardcodes pres_2024_fallback_share=0.0 / pres_2024_source_complete=True",
+    "cross-county block representative-point filter silently drops blocks",
+    "published forecast manifest does not declare the baseline chain below 2026_poll_adjusted_baseline.csv",
+    "2026_poll_adjusted_baseline.csv.status is catalist_yougov_demographic_transfer_selected while the published forecast uses the uniform environment and drops legacy demographic columns"
+  ]
+}

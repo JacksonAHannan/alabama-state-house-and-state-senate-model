@@ -91,3 +91,23 @@ Open: `warehouse-05` broad collision census; `warehouse-04` Arkansas geometries
 and 1994/2002 allocation reconciliation card; `forecast-02/03/10/11/12`;
 `alabama-04/05/06`; `ideology-08..13`; Phase 7 release items. External:
 polling refresh terms (`forecast-04`).
+
+### Checkpoint 5 (2026-09-11 22:03Z)
+
+Wave 4 accepted: roster/universe (contract now states seat treatment), 2024
+baseline certification (exact conservation), Alabama plan certification, scale
+comparability (page block + source attribution), source terms and hygiene;
+dead story-page publisher code removed. Checklist 48/82; `forecast-03/10`,
+`ideology-08` accepted. Page candidates (ideology attribution and scale block)
+await the next publication.
+
+Escalated to owner: (1) `alabama-04` — the compat builder substitutes the
+legacy OpenElections-derived `district_baseline_office.csv` for its own
+SOS-conserving 2014 state-ticket allocation (AG 49/67 counties; Governor 17%
+short); 26 backcast races affected by mean −0.04 / max 2.6 pp; fix = drop the
+2014 override (keep 2018/2022, which conserve) and rebuild the compat chain,
+historical export and pages. (2) `release-08` — terms completion: register
+Catalist workbook and Vote Smart with terms; resolve NYT precinct and SOS
+canvass redistribution status; 2,153 registrations lack a license string (the
+Alabama Legislature, DOJ Section 5 and ADAH archive families account for
+2,091); decide whether the 14 tracked raw files stay in git.

@@ -197,6 +197,10 @@ def test_page_language_and_measurements_are_explicit() -> None:
     assert "const OUTCOME_LABELS={candidate_cycle_war:'Race-residual WAR'" in html
     assert "No pooled individual effect, fundraising term, or ideology term enters WAR" in html
     assert "post-2016 Southern races" in html
+    assert "Scale comparability" in html
+    assert "one standard deviation is a national scale unit" in html
+    assert "their magnitudes are not comparable across issues" in html
+    assert "The chamber-relative roll-call score used in the research layer is not displayed on this page" in html
     for stale in (
         "candidate_cmo", "candidate_quality_residual", "candidate_quality_index",
         "two blocs", "binary comparison",

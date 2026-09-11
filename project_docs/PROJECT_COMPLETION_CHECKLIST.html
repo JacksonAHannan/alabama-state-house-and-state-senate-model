@@ -65,7 +65,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
 <script id="checklist-data" type="application/json">
 {
   "schemaVersion": 1,
-  "revision": "2026-09-11T21:13:15Z",
+  "revision": "2026-09-11T22:02:42Z",
   "title": "Four-product completion checklist",
   "baselineDate": "2026-09-05",
   "baselineCode": "88878b9 (existing dirty worktree)",
@@ -275,7 +275,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "text": "Certify each presidential baseline and target district plan",
           "detail": "Record source election, allocation method, target plan, geography vintage, county fallback and conservation checks. No later plan or election may substitute silently.",
           "done": false,
-          "evidence": ""
+          "evidence": "2026-09-11 (audits/ALABAMA_BASELINE_PLAN_CERTIFICATION_2026_09_11.md): per cycle/chamber source election, prior-presidential election, plan and geography vintage certified with no year/plan substitution (2018 on the 2017 remedial plan). Conservation exact for 2002/2006/2010/2018/2022 state tickets; 1994 and 1998-house lose 0.1-0.3% to unmatched precincts; 1998 HD18 relies 71% on county fallback. FLAG: for 2014 the compat builder replaces its own SOS allocation with the legacy OpenElections-derived district_baseline_office.csv (AG covers 49/67 counties; Governor 17% short) — a source substitution affecting the 26 races on the 2014 state-ticket fallback by mean -0.04 / max 2.6 pp versus an SOS-conserving allocation. Owner decision pending; not accepted."
         },
         {
           "id": "alabama-05",
@@ -488,8 +488,8 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "id": "ideology-08",
           "text": "Explain incompatible ideology scales",
           "detail": "Document absolute Shor–McCarty anchoring versus chamber/biennium behavioral scales, orientation and comparison limits. Do not plot unlike scales as if interchangeable.",
-          "done": false,
-          "evidence": ""
+          "done": true,
+          "evidence": "2026-09-11 (audits/IDEOLOGY_SCALE_COMPARABILITY_2026_09_11.md, 12 tests): 16 measures inventoried, 6 on the page, 16 chart units, 0 charts mixing unlike scales or orientations; absolute_conservatism_z verified as a national Shor-McCarty z (24,716 rows); chamber/biennium behavioral scale has no public surface. A 'Scale comparability' block now states each scale's anchoring, orientation and limits on the page candidate."
         },
         {
           "id": "ideology-09",
@@ -547,14 +547,14 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "text": "Certify the dated candidate roster and election universe",
           "detail": "Verify authoritative nominees, withdrawals/replacements, identities, district plans, incumbency and election stages. Reconcile modeled, single-major-party, independent-only and unresolved seats with all chamber seats.",
           "done": false,
-          "evidence": ""
+          "evidence": "2026-09-11 (audits/FORECAST_ROSTER_UNIVERSE_2026_09_11.md, 8 tests): 140 seats partitioned 48 modeled / 26 D-only / 66 R-only / 0 independent-only / 0 unresolved, equal to the published 48 races; 189 roster rows from the two official party-certification PDFs plus 21 reviewed overrides, all general-election nominees on the 2026 plan; withdrawals/replacements enumerated (SD26 D replaced; SD25 post-map-reversion special primary; SD10 duplicate resolved). Open: no roster source manifest (URL/issuance/retrieval/terms); 77 of 189 rows without a prior-cycle identity."
         },
         {
           "id": "forecast-03",
           "text": "Certify the 2024 baseline on the 2026 plans",
           "detail": "Verify source totals, allocation vintage, target district plan and uncertainty for every baseline. Keep observed election data distinct from modeled district allocations.",
-          "done": false,
-          "evidence": ""
+          "done": true,
+          "evidence": "2026-09-11 (audits/FORECAST_2024_BASELINE_CERTIFICATION_2026_09_11.md): 2024 presidential D/R totals conserve exactly across each chamber's 2026-plan districts (772,412 / 1,462,616; difference 0); all 140 seats on the LSY-2024 plan files the dashboard renders; 133 seats include split precincts, 0 county fallback; the 48 modeled baselines equal the features file exactly. Allocation uncertainty is not propagated and the source_complete/fallback flags are hardcoded; the published manifest omits the baseline lineage. Accepted as certified with those stated limits."
         },
         {
           "id": "forecast-04",
@@ -602,8 +602,8 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "id": "forecast-10",
           "text": "Clarify independent and single-major-party seat treatment",
           "detail": "Explain when chamber summaries fix a seat despite an independent candidate and test that this policy matches the published contract. Keep unresolved seats visible, not silently assigned.",
-          "done": false,
-          "evidence": ""
+          "done": true,
+          "evidence": "2026-09-11 accepted: policy (single-major-party seats fixed regardless of independents; independent-only and unresolved seats unmodeled and visible) documented in the field contract's new 'Seat treatment and chamber summaries' section; page, JS and payload agree; fixed offsets (House 20, Senate 6) equal roster-derived counts; SD10 (R + independent) shown fixed R with the independent visible."
         },
         {
           "id": "forecast-11",
@@ -633,7 +633,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "text": "Remove proven-unused code and duplicate outputs",
           "detail": "Trace imports, commands, links and catalog lineage first. Delete dead wrappers/configuration and redundant calculations; retain raw sources and required replay artifacts. Prefer deletion, then simplification, then measured optimization.",
           "done": false,
-          "evidence": "2026-09-11 inventory (audits/DOCS_DATA_INVENTORY_2026_09_11.md/.csv): 61 docs/data files = 24 active, 8 unlinked-current, 29 superseded (cmo_v4/v5/v6, diagnostics, legacy model cards; 15 byte-stale vs upstream); 30-file removal list proposed; catalog rows to update identified. Removal is a publication action awaiting owner authorization. Script-level dead code (build_war_story_page.py legacy publisher block) also identified. 2026-09-11 owner-authorized: 30 superseded docs/data downloads removed at publish (story-page and forecast publishers unlink them); 31 files remain, all from live producers; catalog updated (published_cmo_v4_data retired, published_historical_war_data and alabama_historical_war_release added). Dead code removal (legacy `if False` publisher block, superseded scripts) still open."
+          "evidence": "2026-09-11 inventory (audits/DOCS_DATA_INVENTORY_2026_09_11.md/.csv): 61 docs/data files = 24 active, 8 unlinked-current, 29 superseded (cmo_v4/v5/v6, diagnostics, legacy model cards; 15 byte-stale vs upstream); 30-file removal list proposed; catalog rows to update identified. Removal is a publication action awaiting owner authorization. Script-level dead code (build_war_story_page.py legacy publisher block) also identified. 2026-09-11 owner-authorized: 30 superseded docs/data downloads removed at publish (story-page and forecast publishers unlink them); 31 files remain, all from live producers; catalog updated (published_cmo_v4_data retired, published_historical_war_data and alabama_historical_war_release added). Dead code removal (legacy `if False` publisher block, superseded scripts) still open. 2026-09-11: dead legacy publisher code removed from build_war_story_page.py (1,014 -> 514 lines); rendered page byte-identical after theming; 11 tests pass."
         },
         {
           "id": "release-02",
@@ -682,7 +682,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "text": "Check source terms and repository hygiene",
           "detail": "Exclude credentials, restricted raw data, machine-specific paths, transient databases and unrelated scratch artifacts from publication. Preserve recovery backups according to the documented retention policy.",
           "done": false,
-          "evidence": ""
+          "evidence": "2026-09-11 (audits/SOURCE_TERMS_AND_HYGIENE_2026_09_11.md): hygiene script PASS; 0 files >50 MB tracked, 0 credential matches, .env ignored. Terms: 59 families, 2,153 registrations without a license string; publications carry derived aggregates only. Gaps: Catalist workbook and Vote Smart unregistered; NYT precinct files and SOS certified canvass carry 'redistribution license not established'; 14 raw files tracked (5 OpenElections CSVs, 8 Wikipedia pages, 1 Split Ticket HTML). Attribution for LegiScan/Vote Smart/Shor-McCarty added to the ideology page candidate. Not accepted until the terms-completion list is worked."
         },
         {
           "id": "release-09",
@@ -906,6 +906,12 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
       "done": 45,
       "total": 82,
       "event": "Owner decisions: probability scale from holdout residuals (option 1), remove 30 superseded downloads, keep git history. Forecast rebuilt and republished (scale 8.0, coverage 85%); docs/data cleaned; catalog updated. forecast-08/09 accepted."
+    },
+    {
+      "at": "2026-09-11T22:02:42Z",
+      "done": 48,
+      "total": 82,
+      "event": "Wave 4: forecast-03/10 and ideology-08 accepted; roster, 2024 baseline, Alabama plan, scale comparability and source-terms audits recorded; seat-treatment contract section and source attribution added; dead story-page code removed. Escalated: 2014 state-ticket baseline source substitution (alabama-04) and source-terms completion (release-08)."
     }
   ]
 }
