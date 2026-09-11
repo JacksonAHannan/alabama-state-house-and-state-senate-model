@@ -52,7 +52,7 @@ approved Southern residual source is `WAR-POST2016-V3-530FBD4238CC483E557C`
 (warehouse `RUN-504CE4C4DF904D88A5A40D268F3FCEAB`); its manifest declares the
 warehouse by training-frame content digest (`training_frame`, verified live by
 the gate) rather than whole-file hash, so unrelated warehouse writes no longer
-trip the release gate. All four pages were republished on this lineage:
+trip the release gate. All four pages were republished on this lineage (commit `f407b9d0`):
 `WAR-SOUTH-HIST-V1-6D84680E7B757B057AF1`, `AL-WAR-V1-C00FF05BC2BE58E16087`,
 `AL-HIST-WAR-V1-76814789B2F7641E4255`, forecast build `368bb272a990ff436e56`.
 Superseded runs `4AF79A70…` and `A937708D…` are archived byte for byte.

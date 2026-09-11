@@ -2,9 +2,12 @@
 
 Owner authorization (2026-09-11): publish the four pages and commit the
 accepted work. Executed under `coordination/CHECKLIST-EXECUTION-20260910.md`
-after the structural fix to the v3 manifest contract. The publication commit
-recorded in git is the rollback reference; the prior published state is commit
-`720c350`.
+after the structural fix to the v3 manifest contract. Publication commit `f407b9d0` pushed to `origin/master` (GitHub Pages serves
+`docs/`); the prior published state is commit `720c350`, the rollback reference.
+Not committed: SQLite warehouse and backups (ignored), two >100 MB replay
+proposals under `artifacts/warehouse/legacy_source_lineage_20260908/`, the three
+`precinct_identity_stage_*` copies, `data/processed/precinct_history/*.gpkg`,
+scratch directories; all remain on disk with hashes recorded in their audits.
 
 ## Lineage published
 

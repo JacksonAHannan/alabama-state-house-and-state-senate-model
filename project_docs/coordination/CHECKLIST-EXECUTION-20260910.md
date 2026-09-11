@@ -136,3 +136,13 @@ all still reflect the superseded lineage. Before publication the Alabama
 validation card (`alabama-11`) must carry the 2014 HD52/HD56 and 2002 HD26
 baseline-driven changes, and the forecast public-contract edits E1–E9 should be
 applied. The Southern map builder runs only at publication time.
+
+### Checkpoint 4 (2026-09-11 14:50Z) — released
+
+Structural fix implemented (training-frame digest; run
+`WAR-POST2016-V3-530FBD4238CC483E557C`, outputs byte-identical, contract review
+APPROVED). Forecast edits E2–E8 applied; Alabama release card published; all
+four products republished and browser-checked (`audits/SITE_RELEASE_2026_09_11.md`).
+Commit `f407b9d0` pushed to `origin/master`; rollback reference `720c350`.
+Checklist 32/82. Umbrella closed; next work items are listed in the release
+record's limitations and the checklist.
