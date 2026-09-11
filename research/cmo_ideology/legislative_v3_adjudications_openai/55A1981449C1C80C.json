@@ -1,0 +1,10 @@
+{
+  "id": "55A1981449C1C80C",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Reducing the pistol-permit fee for people over age 65 lowers a barrier to lawful gun access.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "3AB823E766BF987B",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "The title identifies only a budget recommendation and provides insufficient detail to determine a specific policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

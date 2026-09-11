@@ -1,0 +1,10 @@
+{
+  "id": "A60D0A9E323DB9F3",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "Restricting insurers from requiring eye-care providers to purchase certain supplies concerns provider contracting and operational terms, not a clearly specified allowed healthcare policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

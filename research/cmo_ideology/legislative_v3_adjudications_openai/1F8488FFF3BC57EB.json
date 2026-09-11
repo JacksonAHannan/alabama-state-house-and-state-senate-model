@@ -1,0 +1,10 @@
+{
+  "id": "1F8488FFF3BC57EB",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Requires nurse identification badges, making it a technical and administrative healthcare regulation rather than a material policy change on an allowed axis.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

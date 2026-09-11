@@ -1,0 +1,11 @@
+{
+  "policy_key": "decrease_aid_pakistan",
+  "dimension": "labor_position",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks whether to decrease financial support for Pakistan. This is a specific foreign policy question regarding international aid allocation rather than a broad ideological stance on labor or economic regulation that would clearly align with conservative (pro-business/reduction of government spending) or progressive (support for development/aid) frameworks in this context.",
+  "evidence_quote": "l) Should the United States decrease financial support for Pakistan?",
+  "needs_human_review": true,
+  "review_reason": "The question is a specific foreign policy query about aid to one nation. It does not inherently reflect a stable left/right economic ideology (like tax rates or union rights). Reducing aid could be seen as conservative (less government spending) but also progressive if the recipient country has poor human rights records, making it context-dependent and non-scoring."
+}

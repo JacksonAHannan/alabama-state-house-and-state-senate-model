@@ -1,0 +1,11 @@
+{
+  "policy_key": "legislative_priorities_open",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "",
+  "evidence_quote": "Please explain in a total of 100 words or less, your top two or three priorities if elected. If they require additional funding for implementation, please explain how you would obtain this funding.",
+  "needs_human_review": true,
+  "review_reason": ""
+}

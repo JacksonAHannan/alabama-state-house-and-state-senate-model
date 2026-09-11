@@ -1,0 +1,17 @@
+﻿election_year,election_date,election_stage,race_index_downloaded,legislative_contest_files,failed_downloads,status
+1995,19951021,first_round,1,111,0,complete
+1995,19951118,runoff,1,33,0,complete
+1999,19991023,first_round,1,80,0,complete
+1999,19991120,runoff,1,16,0,complete
+2003,20031004,first_round,1,87,0,complete
+2003,20031115,runoff,1,20,0,complete
+2007,20071020,first_round,1,109,0,complete
+2007,20071117,runoff,1,46,0,complete
+2011,20111022,first_round,1,81,0,complete
+2011,20111119,runoff,1,25,0,complete
+2015,20151024,first_round,1,70,0,complete
+2015,20151121,runoff,1,18,0,complete
+2019,20191012,first_round,1,92,0,complete
+2019,20191116,runoff,1,29,0,complete
+2023,20231014,first_round,1,76,0,complete
+2023,20231118,runoff,1,20,0,complete

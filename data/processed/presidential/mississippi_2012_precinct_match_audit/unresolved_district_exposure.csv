@@ -1,0 +1,626 @@
+chamber,district,county_key,result_observation_id,precinct_name_original,unresolved_rows,unresolved_two_party_votes,plausible_district_count,allocation_status,contested_race
+lower,10,PANOLA,PRES-9B30080FDFCD573FDEB0B2DD,Cole's Point,1,326.0,2,ambiguous_plausible_set,True
+lower,10,PANOLA,PRES-6A1816F4F6A0B65B3F0421EA,East Batesville,1,1107.0,1,exact_single_district_plausible_set,True
+lower,100,LAWRENCE,PRES-53F889CF96556CD8033744B1,Oakvale-91,1,20.0,4,ambiguous_plausible_set,False
+lower,100,LAWRENCE,PRES-C07BA038CF49B109B4CEBF18,Precinct 53,1,148.0,4,ambiguous_plausible_set,False
+lower,100,LAWRENCE,PRES-B9DAA70DD64E39C77302C347,West Monticello - 53,1,32.0,4,ambiguous_plausible_set,False
+lower,102,FORREST,PRES-700FFDD0D9285BE8915FB8C2,Bar Mac,1,1955.0,4,ambiguous_plausible_set,True
+lower,102,FORREST,PRES-685527ED937A3A756CF402C0,Camp,1,384.0,2,ambiguous_plausible_set,True
+lower,102,FORREST,PRES-870462609698FDBE2310C752,Thames,1,1883.0,2,ambiguous_plausible_set,True
+lower,103,FORREST,PRES-700FFDD0D9285BE8915FB8C2,Bar Mac,1,1955.0,4,ambiguous_plausible_set,False
+lower,103,FORREST,PRES-870462609698FDBE2310C752,Thames,1,1883.0,2,ambiguous_plausible_set,False
+lower,104,FORREST,PRES-700FFDD0D9285BE8915FB8C2,Bar Mac,1,1955.0,4,ambiguous_plausible_set,False
+lower,105,PERRY,PRES-B04ECD3F873A3F16C0A82726,Beaumont Senior Citizens 5120,1,185.0,1,exact_single_district_plausible_set,True
+lower,105,PERRY,PRES-31D0139C324F0EBCFA26AE75,Courthouse 5110,1,294.0,2,ambiguous_plausible_set,True
+lower,106,PEARL RIVER,PRES-D72D702264A96DED518E01CC,Ceasar Beat 3,1,436.0,3,ambiguous_plausible_set,False
+lower,106,PEARL RIVER,PRES-E8BDEC306EAC0458729ADF69,Mcneill Beat 3,1,625.0,1,exact_single_district_plausible_set,False
+lower,106,PEARL RIVER,PRES-DE4541B8AB814E522EF40A8B,Picayune Beat 2,1,1092.0,2,ambiguous_plausible_set,False
+lower,106,PEARL RIVER,PRES-3C567245FF4697A172254F86,Picayune Beat 4 East,1,460.0,3,ambiguous_plausible_set,False
+lower,106,PEARL RIVER,PRES-F3DEB2AE994811AFB09131A6,Picayune Beat 5,1,1168.0,2,ambiguous_plausible_set,False
+lower,106,PEARL RIVER,PRES-644A58247147D54E49D07962,Poplarville Beat 1,1,590.0,1,exact_single_district_plausible_set,False
+lower,106,PEARL RIVER,PRES-2AB1FF8FC242F772D32227E3,Poplarville Beat 2,1,539.0,1,exact_single_district_plausible_set,False
+lower,106,PEARL RIVER,PRES-16F42D567E423CD287D2EFBE,Poplarville Beat 3,1,728.0,1,exact_single_district_plausible_set,False
+lower,106,PEARL RIVER,PRES-86702DA83E171A817089DDAD,Whitesand Beat 2,1,191.0,1,exact_single_district_plausible_set,False
+lower,107,GEORGE,PRES-90BEDA47EA0B01008E61823A,Basin,1,879.0,1,exact_single_district_plausible_set,False
+lower,108,PEARL RIVER,PRES-D72D702264A96DED518E01CC,Ceasar Beat 3,1,436.0,3,ambiguous_plausible_set,False
+lower,108,PEARL RIVER,PRES-3949A7336EBCAFC137EEFF6F,Picayune Beat 1 Southside,1,1441.0,1,exact_single_district_plausible_set,False
+lower,108,PEARL RIVER,PRES-DE4541B8AB814E522EF40A8B,Picayune Beat 2,1,1092.0,2,ambiguous_plausible_set,False
+lower,108,PEARL RIVER,PRES-3C567245FF4697A172254F86,Picayune Beat 4 East,1,460.0,3,ambiguous_plausible_set,False
+lower,108,PEARL RIVER,PRES-F3DEB2AE994811AFB09131A6,Picayune Beat 5,1,1168.0,2,ambiguous_plausible_set,False
+lower,11,PANOLA,PRES-9B30080FDFCD573FDEB0B2DD,Cole's Point,1,326.0,2,ambiguous_plausible_set,False
+lower,114,HARRISON,PRES-76AFAC16DA891B011B9A6B77,Biloxi #10,1,1489.0,9,ambiguous_plausible_set,False
+lower,114,HARRISON,PRES-A8ED5E173E1B31240CAA47FA,Biloxi #2,1,250.0,9,ambiguous_plausible_set,False
+lower,114,HARRISON,PRES-40E4DBFF51E5C9962B2CC37D,Biloxi #3,1,295.0,9,ambiguous_plausible_set,False
+lower,114,HARRISON,PRES-CF58BC8646115CA820EAEE0E,Biloxi #4,1,608.0,9,ambiguous_plausible_set,False
+lower,114,HARRISON,PRES-5FDCE7E5AC7CE5EA0B1B71F0,Biloxi #5,1,213.0,9,ambiguous_plausible_set,False
+lower,114,HARRISON,PRES-7B4EF32CDC028DF9427FD035,Biloxi #6,1,204.0,9,ambiguous_plausible_set,False
+lower,114,HARRISON,PRES-3EA27605824A2A100810F731,Biloxi #7,1,334.0,9,ambiguous_plausible_set,False
+lower,114,HARRISON,PRES-33104F24CDABBA2A0D01AF92,Gulfport #12,1,1054.0,9,ambiguous_plausible_set,False
+lower,114,HARRISON,PRES-FDB38B929570461B66108E72,Gulfport #13,1,971.0,9,ambiguous_plausible_set,False
+lower,114,HARRISON,PRES-895060AFDE07F2019F5BC9C7,Gulfport #15,1,389.0,9,ambiguous_plausible_set,False
+lower,114,HARRISON,PRES-856C8934C8A1325B381BAFEC,New Popps Ferry,1,1636.0,9,ambiguous_plausible_set,False
+lower,114,HARRISON,PRES-30AB652CC27C0A7555D82469,Vidalla,1,390.0,9,ambiguous_plausible_set,False
+lower,114,HARRISON,PRES-FC5A18EC629431A4604A6816,West Miss City,1,317.0,9,ambiguous_plausible_set,False
+lower,115,HARRISON,PRES-99406D89D528805B079178B6,Biloxi #1,1,108.0,2,ambiguous_plausible_set,True
+lower,115,HARRISON,PRES-76AFAC16DA891B011B9A6B77,Biloxi #10,1,1489.0,9,ambiguous_plausible_set,True
+lower,115,HARRISON,PRES-A8ED5E173E1B31240CAA47FA,Biloxi #2,1,250.0,9,ambiguous_plausible_set,True
+lower,115,HARRISON,PRES-40E4DBFF51E5C9962B2CC37D,Biloxi #3,1,295.0,9,ambiguous_plausible_set,True
+lower,115,HARRISON,PRES-CF58BC8646115CA820EAEE0E,Biloxi #4,1,608.0,9,ambiguous_plausible_set,True
+lower,115,HARRISON,PRES-5FDCE7E5AC7CE5EA0B1B71F0,Biloxi #5,1,213.0,9,ambiguous_plausible_set,True
+lower,115,HARRISON,PRES-7B4EF32CDC028DF9427FD035,Biloxi #6,1,204.0,9,ambiguous_plausible_set,True
+lower,115,HARRISON,PRES-3EA27605824A2A100810F731,Biloxi #7,1,334.0,9,ambiguous_plausible_set,True
+lower,115,HARRISON,PRES-33104F24CDABBA2A0D01AF92,Gulfport #12,1,1054.0,9,ambiguous_plausible_set,True
+lower,115,HARRISON,PRES-FDB38B929570461B66108E72,Gulfport #13,1,971.0,9,ambiguous_plausible_set,True
+lower,115,HARRISON,PRES-895060AFDE07F2019F5BC9C7,Gulfport #15,1,389.0,9,ambiguous_plausible_set,True
+lower,115,HARRISON,PRES-856C8934C8A1325B381BAFEC,New Popps Ferry,1,1636.0,9,ambiguous_plausible_set,True
+lower,115,HARRISON,PRES-30AB652CC27C0A7555D82469,Vidalla,1,390.0,9,ambiguous_plausible_set,True
+lower,115,HARRISON,PRES-FC5A18EC629431A4604A6816,West Miss City,1,317.0,9,ambiguous_plausible_set,True
+lower,116,HARRISON,PRES-76AFAC16DA891B011B9A6B77,Biloxi #10,1,1489.0,9,ambiguous_plausible_set,False
+lower,116,HARRISON,PRES-A8ED5E173E1B31240CAA47FA,Biloxi #2,1,250.0,9,ambiguous_plausible_set,False
+lower,116,HARRISON,PRES-40E4DBFF51E5C9962B2CC37D,Biloxi #3,1,295.0,9,ambiguous_plausible_set,False
+lower,116,HARRISON,PRES-CF58BC8646115CA820EAEE0E,Biloxi #4,1,608.0,9,ambiguous_plausible_set,False
+lower,116,HARRISON,PRES-5FDCE7E5AC7CE5EA0B1B71F0,Biloxi #5,1,213.0,9,ambiguous_plausible_set,False
+lower,116,HARRISON,PRES-7B4EF32CDC028DF9427FD035,Biloxi #6,1,204.0,9,ambiguous_plausible_set,False
+lower,116,HARRISON,PRES-3EA27605824A2A100810F731,Biloxi #7,1,334.0,9,ambiguous_plausible_set,False
+lower,116,HARRISON,PRES-670FBBE6B11B0D3D333DC3CB,East Lizana,1,888.0,7,ambiguous_plausible_set,False
+lower,116,HARRISON,PRES-01424DA1921611F8E2A4ABDC,East Miss City,1,1899.0,4,ambiguous_plausible_set,False
+lower,116,HARRISON,PRES-33104F24CDABBA2A0D01AF92,Gulfport #12,1,1054.0,9,ambiguous_plausible_set,False
+lower,116,HARRISON,PRES-FDB38B929570461B66108E72,Gulfport #13,1,971.0,9,ambiguous_plausible_set,False
+lower,116,HARRISON,PRES-895060AFDE07F2019F5BC9C7,Gulfport #15,1,389.0,9,ambiguous_plausible_set,False
+lower,116,HARRISON,PRES-856C8934C8A1325B381BAFEC,New Popps Ferry,1,1636.0,9,ambiguous_plausible_set,False
+lower,116,HARRISON,PRES-30AB652CC27C0A7555D82469,Vidalla,1,390.0,9,ambiguous_plausible_set,False
+lower,116,HARRISON,PRES-FC5A18EC629431A4604A6816,West Miss City,1,317.0,9,ambiguous_plausible_set,False
+lower,117,HARRISON,PRES-99406D89D528805B079178B6,Biloxi #1,1,108.0,2,ambiguous_plausible_set,True
+lower,117,HARRISON,PRES-76AFAC16DA891B011B9A6B77,Biloxi #10,1,1489.0,9,ambiguous_plausible_set,True
+lower,117,HARRISON,PRES-A8ED5E173E1B31240CAA47FA,Biloxi #2,1,250.0,9,ambiguous_plausible_set,True
+lower,117,HARRISON,PRES-40E4DBFF51E5C9962B2CC37D,Biloxi #3,1,295.0,9,ambiguous_plausible_set,True
+lower,117,HARRISON,PRES-CF58BC8646115CA820EAEE0E,Biloxi #4,1,608.0,9,ambiguous_plausible_set,True
+lower,117,HARRISON,PRES-5FDCE7E5AC7CE5EA0B1B71F0,Biloxi #5,1,213.0,9,ambiguous_plausible_set,True
+lower,117,HARRISON,PRES-7B4EF32CDC028DF9427FD035,Biloxi #6,1,204.0,9,ambiguous_plausible_set,True
+lower,117,HARRISON,PRES-3EA27605824A2A100810F731,Biloxi #7,1,334.0,9,ambiguous_plausible_set,True
+lower,117,HARRISON,PRES-670FBBE6B11B0D3D333DC3CB,East Lizana,1,888.0,7,ambiguous_plausible_set,True
+lower,117,HARRISON,PRES-01424DA1921611F8E2A4ABDC,East Miss City,1,1899.0,4,ambiguous_plausible_set,True
+lower,117,HARRISON,PRES-33104F24CDABBA2A0D01AF92,Gulfport #12,1,1054.0,9,ambiguous_plausible_set,True
+lower,117,HARRISON,PRES-FDB38B929570461B66108E72,Gulfport #13,1,971.0,9,ambiguous_plausible_set,True
+lower,117,HARRISON,PRES-895060AFDE07F2019F5BC9C7,Gulfport #15,1,389.0,9,ambiguous_plausible_set,True
+lower,117,HARRISON,PRES-DCBA55BC5F259653A4F5C1D9,Gulfport #9,1,141.0,4,ambiguous_plausible_set,True
+lower,117,HARRISON,PRES-856C8934C8A1325B381BAFEC,New Popps Ferry,1,1636.0,9,ambiguous_plausible_set,True
+lower,117,HARRISON,PRES-30AB652CC27C0A7555D82469,Vidalla,1,390.0,9,ambiguous_plausible_set,True
+lower,117,HARRISON,PRES-FC5A18EC629431A4604A6816,West Miss City,1,317.0,9,ambiguous_plausible_set,True
+lower,118,HARRISON,PRES-76AFAC16DA891B011B9A6B77,Biloxi #10,1,1489.0,9,ambiguous_plausible_set,False
+lower,118,HARRISON,PRES-A8ED5E173E1B31240CAA47FA,Biloxi #2,1,250.0,9,ambiguous_plausible_set,False
+lower,118,HARRISON,PRES-40E4DBFF51E5C9962B2CC37D,Biloxi #3,1,295.0,9,ambiguous_plausible_set,False
+lower,118,HARRISON,PRES-CF58BC8646115CA820EAEE0E,Biloxi #4,1,608.0,9,ambiguous_plausible_set,False
+lower,118,HARRISON,PRES-5FDCE7E5AC7CE5EA0B1B71F0,Biloxi #5,1,213.0,9,ambiguous_plausible_set,False
+lower,118,HARRISON,PRES-7B4EF32CDC028DF9427FD035,Biloxi #6,1,204.0,9,ambiguous_plausible_set,False
+lower,118,HARRISON,PRES-3EA27605824A2A100810F731,Biloxi #7,1,334.0,9,ambiguous_plausible_set,False
+lower,118,HARRISON,PRES-670FBBE6B11B0D3D333DC3CB,East Lizana,1,888.0,7,ambiguous_plausible_set,False
+lower,118,HARRISON,PRES-01424DA1921611F8E2A4ABDC,East Miss City,1,1899.0,4,ambiguous_plausible_set,False
+lower,118,HARRISON,PRES-33104F24CDABBA2A0D01AF92,Gulfport #12,1,1054.0,9,ambiguous_plausible_set,False
+lower,118,HARRISON,PRES-FDB38B929570461B66108E72,Gulfport #13,1,971.0,9,ambiguous_plausible_set,False
+lower,118,HARRISON,PRES-895060AFDE07F2019F5BC9C7,Gulfport #15,1,389.0,9,ambiguous_plausible_set,False
+lower,118,HARRISON,PRES-DCBA55BC5F259653A4F5C1D9,Gulfport #9,1,141.0,4,ambiguous_plausible_set,False
+lower,118,HARRISON,PRES-856C8934C8A1325B381BAFEC,New Popps Ferry,1,1636.0,9,ambiguous_plausible_set,False
+lower,118,HARRISON,PRES-30AB652CC27C0A7555D82469,Vidalla,1,390.0,9,ambiguous_plausible_set,False
+lower,118,HARRISON,PRES-FC5A18EC629431A4604A6816,West Miss City,1,317.0,9,ambiguous_plausible_set,False
+lower,119,HARRISON,PRES-76AFAC16DA891B011B9A6B77,Biloxi #10,1,1489.0,9,ambiguous_plausible_set,False
+lower,119,HARRISON,PRES-A8ED5E173E1B31240CAA47FA,Biloxi #2,1,250.0,9,ambiguous_plausible_set,False
+lower,119,HARRISON,PRES-40E4DBFF51E5C9962B2CC37D,Biloxi #3,1,295.0,9,ambiguous_plausible_set,False
+lower,119,HARRISON,PRES-CF58BC8646115CA820EAEE0E,Biloxi #4,1,608.0,9,ambiguous_plausible_set,False
+lower,119,HARRISON,PRES-5FDCE7E5AC7CE5EA0B1B71F0,Biloxi #5,1,213.0,9,ambiguous_plausible_set,False
+lower,119,HARRISON,PRES-7B4EF32CDC028DF9427FD035,Biloxi #6,1,204.0,9,ambiguous_plausible_set,False
+lower,119,HARRISON,PRES-3EA27605824A2A100810F731,Biloxi #7,1,334.0,9,ambiguous_plausible_set,False
+lower,119,HARRISON,PRES-670FBBE6B11B0D3D333DC3CB,East Lizana,1,888.0,7,ambiguous_plausible_set,False
+lower,119,HARRISON,PRES-01424DA1921611F8E2A4ABDC,East Miss City,1,1899.0,4,ambiguous_plausible_set,False
+lower,119,HARRISON,PRES-33104F24CDABBA2A0D01AF92,Gulfport #12,1,1054.0,9,ambiguous_plausible_set,False
+lower,119,HARRISON,PRES-FDB38B929570461B66108E72,Gulfport #13,1,971.0,9,ambiguous_plausible_set,False
+lower,119,HARRISON,PRES-895060AFDE07F2019F5BC9C7,Gulfport #15,1,389.0,9,ambiguous_plausible_set,False
+lower,119,HARRISON,PRES-DCBA55BC5F259653A4F5C1D9,Gulfport #9,1,141.0,4,ambiguous_plausible_set,False
+lower,119,HARRISON,PRES-856C8934C8A1325B381BAFEC,New Popps Ferry,1,1636.0,9,ambiguous_plausible_set,False
+lower,119,HARRISON,PRES-30AB652CC27C0A7555D82469,Vidalla,1,390.0,9,ambiguous_plausible_set,False
+lower,119,HARRISON,PRES-FC5A18EC629431A4604A6816,West Miss City,1,317.0,9,ambiguous_plausible_set,False
+lower,120,HARRISON,PRES-76AFAC16DA891B011B9A6B77,Biloxi #10,1,1489.0,9,ambiguous_plausible_set,False
+lower,120,HARRISON,PRES-A8ED5E173E1B31240CAA47FA,Biloxi #2,1,250.0,9,ambiguous_plausible_set,False
+lower,120,HARRISON,PRES-40E4DBFF51E5C9962B2CC37D,Biloxi #3,1,295.0,9,ambiguous_plausible_set,False
+lower,120,HARRISON,PRES-CF58BC8646115CA820EAEE0E,Biloxi #4,1,608.0,9,ambiguous_plausible_set,False
+lower,120,HARRISON,PRES-5FDCE7E5AC7CE5EA0B1B71F0,Biloxi #5,1,213.0,9,ambiguous_plausible_set,False
+lower,120,HARRISON,PRES-7B4EF32CDC028DF9427FD035,Biloxi #6,1,204.0,9,ambiguous_plausible_set,False
+lower,120,HARRISON,PRES-3EA27605824A2A100810F731,Biloxi #7,1,334.0,9,ambiguous_plausible_set,False
+lower,120,HARRISON,PRES-670FBBE6B11B0D3D333DC3CB,East Lizana,1,888.0,7,ambiguous_plausible_set,False
+lower,120,HARRISON,PRES-33104F24CDABBA2A0D01AF92,Gulfport #12,1,1054.0,9,ambiguous_plausible_set,False
+lower,120,HARRISON,PRES-FDB38B929570461B66108E72,Gulfport #13,1,971.0,9,ambiguous_plausible_set,False
+lower,120,HARRISON,PRES-895060AFDE07F2019F5BC9C7,Gulfport #15,1,389.0,9,ambiguous_plausible_set,False
+lower,120,HARRISON,PRES-DCBA55BC5F259653A4F5C1D9,Gulfport #9,1,141.0,4,ambiguous_plausible_set,False
+lower,120,HARRISON,PRES-856C8934C8A1325B381BAFEC,New Popps Ferry,1,1636.0,9,ambiguous_plausible_set,False
+lower,120,HARRISON,PRES-30AB652CC27C0A7555D82469,Vidalla,1,390.0,9,ambiguous_plausible_set,False
+lower,120,HARRISON,PRES-FC5A18EC629431A4604A6816,West Miss City,1,317.0,9,ambiguous_plausible_set,False
+lower,121,HARRISON,PRES-76AFAC16DA891B011B9A6B77,Biloxi #10,1,1489.0,9,ambiguous_plausible_set,False
+lower,121,HARRISON,PRES-A8ED5E173E1B31240CAA47FA,Biloxi #2,1,250.0,9,ambiguous_plausible_set,False
+lower,121,HARRISON,PRES-40E4DBFF51E5C9962B2CC37D,Biloxi #3,1,295.0,9,ambiguous_plausible_set,False
+lower,121,HARRISON,PRES-CF58BC8646115CA820EAEE0E,Biloxi #4,1,608.0,9,ambiguous_plausible_set,False
+lower,121,HARRISON,PRES-5FDCE7E5AC7CE5EA0B1B71F0,Biloxi #5,1,213.0,9,ambiguous_plausible_set,False
+lower,121,HARRISON,PRES-7B4EF32CDC028DF9427FD035,Biloxi #6,1,204.0,9,ambiguous_plausible_set,False
+lower,121,HARRISON,PRES-3EA27605824A2A100810F731,Biloxi #7,1,334.0,9,ambiguous_plausible_set,False
+lower,121,HARRISON,PRES-670FBBE6B11B0D3D333DC3CB,East Lizana,1,888.0,7,ambiguous_plausible_set,False
+lower,121,HARRISON,PRES-33104F24CDABBA2A0D01AF92,Gulfport #12,1,1054.0,9,ambiguous_plausible_set,False
+lower,121,HARRISON,PRES-FDB38B929570461B66108E72,Gulfport #13,1,971.0,9,ambiguous_plausible_set,False
+lower,121,HARRISON,PRES-895060AFDE07F2019F5BC9C7,Gulfport #15,1,389.0,9,ambiguous_plausible_set,False
+lower,121,HARRISON,PRES-856C8934C8A1325B381BAFEC,New Popps Ferry,1,1636.0,9,ambiguous_plausible_set,False
+lower,121,HARRISON,PRES-30AB652CC27C0A7555D82469,Vidalla,1,390.0,9,ambiguous_plausible_set,False
+lower,121,HARRISON,PRES-FC5A18EC629431A4604A6816,West Miss City,1,317.0,9,ambiguous_plausible_set,False
+lower,122,HANCOCK,PRES-13729CD751A2BC5512072B28,Garden Isle,1,466.0,3,ambiguous_plausible_set,True
+lower,13,LAFAYETTE,PRES-76B14E48FC3F0B83CD6BFAC1,Denmark-Laf Springs-Pine Bluff,1,429.0,1,exact_single_district_plausible_set,True
+lower,13,UNION,PRES-E71BF1C19038C4A842DE9CB3,King's Chapel,1,347.0,3,ambiguous_plausible_set,True
+lower,14,UNION,PRES-E71BF1C19038C4A842DE9CB3,King's Chapel,1,347.0,3,ambiguous_plausible_set,False
+lower,14,UNION,PRES-7C33A1EA08FFB7F3062E29C2,NE Community College,1,1178.0,1,exact_single_district_plausible_set,False
+lower,15,PONTOTOC,PRES-F1EF3412CD823F5E89888603,Beckham Bec,1,424.0,2,ambiguous_plausible_set,True
+lower,15,PONTOTOC,PRES-BCF8D0A2336C6FC9C0B5ACBE,Robbs Ro,1,190.0,1,exact_single_district_plausible_set,True
+lower,15,PONTOTOC,PRES-4C75A583E6E30B36B9727F5F,Troy Tr,1,460.0,2,ambiguous_plausible_set,True
+lower,18,UNION,PRES-E71BF1C19038C4A842DE9CB3,King's Chapel,1,347.0,3,ambiguous_plausible_set,False
+lower,22,CHICKASAW,PRES-DB5C7B652EEB43DD0F994CD1,South Houika 011,1,468.0,1,exact_single_district_plausible_set,True
+lower,22,CHICKASAW,PRES-33075CFE636300C5D3DCA001,Woodland 015,1,286.0,1,exact_single_district_plausible_set,True
+lower,22,PONTOTOC,PRES-F1EF3412CD823F5E89888603,Beckham Bec,1,424.0,2,ambiguous_plausible_set,True
+lower,22,PONTOTOC,PRES-4C75A583E6E30B36B9727F5F,Troy Tr,1,460.0,2,ambiguous_plausible_set,True
+lower,23,CALHOUN,PRES-0B630FACB59CDDBA66F8D1BA,Northeast Calhoun,1,745.0,1,exact_single_district_plausible_set,False
+lower,23,GRENADA,PRES-5E0264756CBC1895DD19130A,Box 1,1,709.0,2,ambiguous_plausible_set,False
+lower,24,DESOTO,PRES-64BF942A7FB0B9F308216AAB,Cumberland,1,1549.0,9,ambiguous_plausible_set,False
+lower,25,DESOTO,PRES-64BF942A7FB0B9F308216AAB,Cumberland,1,1549.0,9,ambiguous_plausible_set,False
+lower,26,COAHOMA,PRES-3E18CA334139F0E77FF5960C,Friars Point,1,618.0,2,ambiguous_plausible_set,False
+lower,27,HOLMES,PRES-F4B3050520FA48A7154F3BF5,Beat 2 Sub Durant,1,498.0,4,ambiguous_plausible_set,False
+lower,27,MADISON,PRES-9AB29A9AF4A4515E64E85EAF,Colonial Heights,1,1219.0,3,ambiguous_plausible_set,False
+lower,27,MADISON,PRES-176857FC5B476431FFA481E9,Farmhaven,1,767.0,4,ambiguous_plausible_set,False
+lower,27,MADISON,PRES-BA904616009D3591F4B5C6B5,Fearns Chapel Freewill Baptist,1,1211.0,8,ambiguous_plausible_set,False
+lower,27,MADISON,PRES-ACF4A5ABD5EA38D52925E7CC,First Presbyterian Madison,1,1627.0,4,ambiguous_plausible_set,False
+lower,27,MADISON,PRES-263A7C699803945AEEA15B00,Greater Mt. Levi Full Gospel,1,782.0,8,ambiguous_plausible_set,False
+lower,27,MADISON,PRES-A3316F713E996D465F250A6E,Madison Community Center,1,2058.0,3,ambiguous_plausible_set,False
+lower,28,DESOTO,PRES-64BF942A7FB0B9F308216AAB,Cumberland,1,1549.0,9,ambiguous_plausible_set,True
+lower,3,PRENTISS,PRES-060A25218F9AB5E70878CD53,North Booneville/Sunflower,1,690.0,1,exact_single_district_plausible_set,True
+lower,31,HUMPHREYS,PRES-42CB6476EC4297D36D7B0EEA,Belzoni North - 1bnh34 1021,1,71.0,2,ambiguous_plausible_set,False
+lower,31,HUMPHREYS,PRES-EEEB357B09EA4FA1259BEB66,Belzoni North - 1bnh51 1020,1,836.0,2,ambiguous_plausible_set,False
+lower,31,HUMPHREYS,PRES-DE66BCB5216D998C794A7143,Belzoni North - 2bn 2020,1,312.0,2,ambiguous_plausible_set,False
+lower,31,HUMPHREYS,PRES-3319091C557E96D97B9500D9,Belzoni North - 4 bn 4010,1,616.0,2,ambiguous_plausible_set,False
+lower,31,HUMPHREYS,PRES-E8B83208F0B252F072FEAC9E,Belzoni South - 3bs 3010,1,412.0,2,ambiguous_plausible_set,False
+lower,31,HUMPHREYS,PRES-E7ED9E1917B7BBD3BC7714F4,Belzoni South - 4bs 4020,1,425.0,2,ambiguous_plausible_set,False
+lower,31,HUMPHREYS,PRES-5B484C24DC48BD2E6BEC2C05,Belzoni South - 5bs 5010,1,348.0,2,ambiguous_plausible_set,False
+lower,31,HUMPHREYS,PRES-91DC0703623401D8C41C9D14,Fourmile North - 1fm 1010,1,40.0,2,ambiguous_plausible_set,False
+lower,32,LEFLORE,PRES-C938DD45BD4FC563E9000F81,Ne Gwd,1,921.0,1,exact_single_district_plausible_set,False
+lower,32,LEFLORE,PRES-F928AC73B0678192CE11760B,Swiftown,1,42.0,3,ambiguous_plausible_set,False
+lower,33,YALOBUSHA,PRES-0B3B360510D403E3C46FA584,Five Coffeeville,1,610.0,1,exact_single_district_plausible_set,False
+lower,33,YALOBUSHA,PRES-8B7DA24A5A007F41D02B2C02,Five Scuna - Vann's Mill,1,143.0,1,exact_single_district_plausible_set,False
+lower,33,YALOBUSHA,PRES-48BA9286F304E54FB4643CCC,Four Coffeeville,1,514.0,1,exact_single_district_plausible_set,False
+lower,34,GRENADA,PRES-5E0264756CBC1895DD19130A,Box 1,1,709.0,2,ambiguous_plausible_set,False
+lower,34,HOLMES,PRES-F4B3050520FA48A7154F3BF5,Beat 2 Sub Durant,1,498.0,4,ambiguous_plausible_set,False
+lower,34,LEFLORE,PRES-AE6F49202481C2E1B98FB439,Morgan City,1,200.0,2,ambiguous_plausible_set,False
+lower,34,LEFLORE,PRES-F928AC73B0678192CE11760B,Swiftown,1,42.0,3,ambiguous_plausible_set,False
+lower,35,CHOCTAW,PRES-1ACFA34587B850429E9E7366,Southwest Ackerman,1,324.0,1,exact_single_district_plausible_set,False
+lower,37,LOWNDES,PRES-5EEEF74C69A6651095E95FDC,Immanuel School,1,719.0,2,ambiguous_plausible_set,False
+lower,37,LOWNDES,PRES-786926DF5DAAF9D72CED067F,Sale,1,424.0,2,ambiguous_plausible_set,False
+lower,37,OKTIBBEHA,PRES-C33533898D1A0C8352734C7A,Center Grove/North Adaton,1,554.0,2,ambiguous_plausible_set,False
+lower,37,OKTIBBEHA,PRES-D82219C14F8BCDDBC072A59E,Self Creek/Double Springs,1,424.0,1,exact_single_district_plausible_set,False
+lower,38,OKTIBBEHA,PRES-489738525C192C0B5F2913E8,Gillespie,1,1028.0,2,ambiguous_plausible_set,False
+lower,39,LOWNDES,PRES-319DF9129F8789E31BA3F492,Columbus High School,1,1570.0,2,ambiguous_plausible_set,False
+lower,40,DESOTO,PRES-64BF942A7FB0B9F308216AAB,Cumberland,1,1549.0,9,ambiguous_plausible_set,True
+lower,41,LOWNDES,PRES-319DF9129F8789E31BA3F492,Columbus High School,1,1570.0,2,ambiguous_plausible_set,False
+lower,41,LOWNDES,PRES-5EEEF74C69A6651095E95FDC,Immanuel School,1,719.0,2,ambiguous_plausible_set,False
+lower,41,LOWNDES,PRES-786926DF5DAAF9D72CED067F,Sale,1,424.0,2,ambiguous_plausible_set,False
+lower,43,OKTIBBEHA,PRES-C33533898D1A0C8352734C7A,Center Grove/North Adaton,1,554.0,2,ambiguous_plausible_set,False
+lower,43,OKTIBBEHA,PRES-489738525C192C0B5F2913E8,Gillespie,1,1028.0,2,ambiguous_plausible_set,False
+lower,45,KEMPER,PRES-720EA0330AB73635BA04DEBB,Scooba A-L,1,379.0,1,exact_single_district_plausible_set,False
+lower,45,KEMPER,PRES-FD9F86BD317A90B48AF1DAF0,Scooba M-Z,1,362.0,1,exact_single_district_plausible_set,False
+lower,45,LAUDERDALE,PRES-DA430E4C381BEFB38FFB3A92,519 - Nineteen,1,344.0,3,ambiguous_plausible_set,False
+lower,46,CARROLL,PRES-28448CE29C2AA988B7F108A4,Rays Shop,1,854.0,1,exact_single_district_plausible_set,False
+lower,46,LEFLORE,PRES-AE6F49202481C2E1B98FB439,Morgan City,1,200.0,2,ambiguous_plausible_set,False
+lower,46,LEFLORE,PRES-F928AC73B0678192CE11760B,Swiftown,1,42.0,3,ambiguous_plausible_set,False
+lower,47,HOLMES,PRES-48E4A1A6BBAAEBAC683E4698,Beat 2 Durant,1,577.0,2,ambiguous_plausible_set,False
+lower,47,HOLMES,PRES-F4B3050520FA48A7154F3BF5,Beat 2 Sub Durant,1,498.0,4,ambiguous_plausible_set,False
+lower,48,HOLMES,PRES-48E4A1A6BBAAEBAC683E4698,Beat 2 Durant,1,577.0,2,ambiguous_plausible_set,False
+lower,48,HOLMES,PRES-F4B3050520FA48A7154F3BF5,Beat 2 Sub Durant,1,498.0,4,ambiguous_plausible_set,False
+lower,49,WASHINGTON,PRES-745C60308DE9E79D7DB0AE86,Greenville Daycare Center,1,681.0,1,exact_single_district_plausible_set,False
+lower,5,MARSHALL,PRES-7BB65E3B75BFBEEEC54D871B,1 North Holly Springs,1,1378.0,2,ambiguous_plausible_set,False
+lower,5,MARSHALL,PRES-235BF7DEFD72482C8D8F79A4,2 North Holly Springs,1,727.0,2,ambiguous_plausible_set,False
+lower,51,HUMPHREYS,PRES-42CB6476EC4297D36D7B0EEA,Belzoni North - 1bnh34 1021,1,71.0,2,ambiguous_plausible_set,False
+lower,51,HUMPHREYS,PRES-EEEB357B09EA4FA1259BEB66,Belzoni North - 1bnh51 1020,1,836.0,2,ambiguous_plausible_set,False
+lower,51,HUMPHREYS,PRES-DE66BCB5216D998C794A7143,Belzoni North - 2bn 2020,1,312.0,2,ambiguous_plausible_set,False
+lower,51,HUMPHREYS,PRES-3319091C557E96D97B9500D9,Belzoni North - 4 bn 4010,1,616.0,2,ambiguous_plausible_set,False
+lower,51,HUMPHREYS,PRES-E8B83208F0B252F072FEAC9E,Belzoni South - 3bs 3010,1,412.0,2,ambiguous_plausible_set,False
+lower,51,HUMPHREYS,PRES-E7ED9E1917B7BBD3BC7714F4,Belzoni South - 4bs 4020,1,425.0,2,ambiguous_plausible_set,False
+lower,51,HUMPHREYS,PRES-5B484C24DC48BD2E6BEC2C05,Belzoni South - 5bs 5010,1,348.0,2,ambiguous_plausible_set,False
+lower,51,HUMPHREYS,PRES-91DC0703623401D8C41C9D14,Fourmile North - 1fm 1010,1,40.0,2,ambiguous_plausible_set,False
+lower,52,DESOTO,PRES-64BF942A7FB0B9F308216AAB,Cumberland,1,1549.0,9,ambiguous_plausible_set,False
+lower,52,MARSHALL,PRES-7BB65E3B75BFBEEEC54D871B,1 North Holly Springs,1,1378.0,2,ambiguous_plausible_set,False
+lower,52,MARSHALL,PRES-235BF7DEFD72482C8D8F79A4,2 North Holly Springs,1,727.0,2,ambiguous_plausible_set,False
+lower,53,FRANKLIN,PRES-83E0591421354FEAE4AB4819,Mccall,1,321.0,1,exact_single_district_plausible_set,True
+lower,53,JEFFERSON DAVIS,PRES-10975DC53672C72B781296A3,Bassfield 26,1,356.0,3,ambiguous_plausible_set,True
+lower,53,JEFFERSON DAVIS,PRES-FCAB72839E6BD8DEB9F47752,Bassfield 31,1,579.0,3,ambiguous_plausible_set,True
+lower,53,JEFFERSON DAVIS,PRES-11EB30B0BA93C3952C9AB207,Bassfield 32,1,555.0,3,ambiguous_plausible_set,True
+lower,53,JEFFERSON DAVIS,PRES-5885534B988287A919711B42,Bournham 21,1,0.0,3,ambiguous_plausible_set,True
+lower,53,JEFFERSON DAVIS,PRES-46A438483DB6C33D49571FA9,City of Prentiss,1,0.0,3,ambiguous_plausible_set,True
+lower,53,LAWRENCE,PRES-A5F0C20F2A3FF87C9C365A6C,Coopers Creek,1,464.0,2,ambiguous_plausible_set,True
+lower,53,LAWRENCE,PRES-53F889CF96556CD8033744B1,Oakvale-91,1,20.0,4,ambiguous_plausible_set,True
+lower,53,LAWRENCE,PRES-C07BA038CF49B109B4CEBF18,Precinct 53,1,148.0,4,ambiguous_plausible_set,True
+lower,53,LAWRENCE,PRES-B9DAA70DD64E39C77302C347,West Monticello - 53,1,32.0,4,ambiguous_plausible_set,True
+lower,54,MADISON,PRES-BA904616009D3591F4B5C6B5,Fearns Chapel Freewill Baptist,1,1211.0,8,ambiguous_plausible_set,False
+lower,54,MADISON,PRES-263A7C699803945AEEA15B00,Greater Mt. Levi Full Gospel,1,782.0,8,ambiguous_plausible_set,False
+lower,56,MADISON,PRES-176857FC5B476431FFA481E9,Farmhaven,1,767.0,4,ambiguous_plausible_set,True
+lower,56,MADISON,PRES-F4CE6C667D4341672414E7F3,FBC Madison Campus,1,1813.0,3,ambiguous_plausible_set,True
+lower,56,MADISON,PRES-BA904616009D3591F4B5C6B5,Fearns Chapel Freewill Baptist,1,1211.0,8,ambiguous_plausible_set,True
+lower,56,MADISON,PRES-263A7C699803945AEEA15B00,Greater Mt. Levi Full Gospel,1,782.0,8,ambiguous_plausible_set,True
+lower,56,MADISON,PRES-BD035E974D96D6BA43FEBB9B,New Life,1,1246.0,4,ambiguous_plausible_set,True
+lower,57,MADISON,PRES-176857FC5B476431FFA481E9,Farmhaven,1,767.0,4,ambiguous_plausible_set,False
+lower,57,MADISON,PRES-F4CE6C667D4341672414E7F3,FBC Madison Campus,1,1813.0,3,ambiguous_plausible_set,False
+lower,57,MADISON,PRES-BA904616009D3591F4B5C6B5,Fearns Chapel Freewill Baptist,1,1211.0,8,ambiguous_plausible_set,False
+lower,57,MADISON,PRES-ACF4A5ABD5EA38D52925E7CC,First Presbyterian Madison,1,1627.0,4,ambiguous_plausible_set,False
+lower,57,MADISON,PRES-263A7C699803945AEEA15B00,Greater Mt. Levi Full Gospel,1,782.0,8,ambiguous_plausible_set,False
+lower,57,MADISON,PRES-A3316F713E996D465F250A6E,Madison Community Center,1,2058.0,3,ambiguous_plausible_set,False
+lower,57,MADISON,PRES-BD035E974D96D6BA43FEBB9B,New Life,1,1246.0,4,ambiguous_plausible_set,False
+lower,58,MADISON,PRES-9AB29A9AF4A4515E64E85EAF,Colonial Heights,1,1219.0,3,ambiguous_plausible_set,False
+lower,58,MADISON,PRES-BA904616009D3591F4B5C6B5,Fearns Chapel Freewill Baptist,1,1211.0,8,ambiguous_plausible_set,False
+lower,58,MADISON,PRES-ACF4A5ABD5EA38D52925E7CC,First Presbyterian Madison,1,1627.0,4,ambiguous_plausible_set,False
+lower,58,MADISON,PRES-263A7C699803945AEEA15B00,Greater Mt. Levi Full Gospel,1,782.0,8,ambiguous_plausible_set,False
+lower,58,MADISON,PRES-A3316F713E996D465F250A6E,Madison Community Center,1,2058.0,3,ambiguous_plausible_set,False
+lower,58,MADISON,PRES-CC7D0B7EEA799F7FAB5B4D39,Madison Methodist,1,2495.0,1,exact_single_district_plausible_set,False
+lower,58,MADISON,PRES-BD035E974D96D6BA43FEBB9B,New Life,1,1246.0,4,ambiguous_plausible_set,False
+lower,6,DESOTO,PRES-64BF942A7FB0B9F308216AAB,Cumberland,1,1549.0,9,ambiguous_plausible_set,False
+lower,64,MADISON,PRES-176857FC5B476431FFA481E9,Farmhaven,1,767.0,4,ambiguous_plausible_set,True
+lower,64,MADISON,PRES-BA904616009D3591F4B5C6B5,Fearns Chapel Freewill Baptist,1,1211.0,8,ambiguous_plausible_set,True
+lower,64,MADISON,PRES-263A7C699803945AEEA15B00,Greater Mt. Levi Full Gospel,1,782.0,8,ambiguous_plausible_set,True
+lower,64,MADISON,PRES-F15A457F48D6E30F2BB8ACA9,Ridgeland Recreation Center,1,2018.0,2,ambiguous_plausible_set,True
+lower,7,DESOTO,PRES-64BF942A7FB0B9F308216AAB,Cumberland,1,1549.0,9,ambiguous_plausible_set,True
+lower,72,MADISON,PRES-9AB29A9AF4A4515E64E85EAF,Colonial Heights,1,1219.0,3,ambiguous_plausible_set,False
+lower,72,MADISON,PRES-BA904616009D3591F4B5C6B5,Fearns Chapel Freewill Baptist,1,1211.0,8,ambiguous_plausible_set,False
+lower,72,MADISON,PRES-ACF4A5ABD5EA38D52925E7CC,First Presbyterian Madison,1,1627.0,4,ambiguous_plausible_set,False
+lower,72,MADISON,PRES-263A7C699803945AEEA15B00,Greater Mt. Levi Full Gospel,1,782.0,8,ambiguous_plausible_set,False
+lower,72,MADISON,PRES-F15A457F48D6E30F2BB8ACA9,Ridgeland Recreation Center,1,2018.0,2,ambiguous_plausible_set,False
+lower,73,MADISON,PRES-F4CE6C667D4341672414E7F3,FBC Madison Campus,1,1813.0,3,ambiguous_plausible_set,True
+lower,73,MADISON,PRES-BA904616009D3591F4B5C6B5,Fearns Chapel Freewill Baptist,1,1211.0,8,ambiguous_plausible_set,True
+lower,73,MADISON,PRES-263A7C699803945AEEA15B00,Greater Mt. Levi Full Gospel,1,782.0,8,ambiguous_plausible_set,True
+lower,73,MADISON,PRES-BD035E974D96D6BA43FEBB9B,New Life,1,1246.0,4,ambiguous_plausible_set,True
+lower,75,SCOTT,PRES-22181F00B49D1ECF071B9D00,Beat 2/High Hill,1,312.0,2,ambiguous_plausible_set,True
+lower,75,SCOTT,PRES-27254D15E113640D3D09B485,Beat 2/Homewood,1,252.0,2,ambiguous_plausible_set,True
+lower,75,SCOTT,PRES-08429BEFA1A5380FB25B1EF0,Beat 3/Eastwest Morton,1,1045.0,2,ambiguous_plausible_set,True
+lower,75,SCOTT,PRES-9763C489AC7BE01236C7BBEA,Beat 3/Pulaski,1,250.0,2,ambiguous_plausible_set,True
+lower,75,SCOTT,PRES-03A41C3DBF7720B295430962,Beat 4/Clifton,1,84.0,2,ambiguous_plausible_set,True
+lower,75,SCOTT,PRES-EDC593F059103F8E93F86777,Beat 4/Contrell,1,261.0,2,ambiguous_plausible_set,True
+lower,78,SCOTT,PRES-22181F00B49D1ECF071B9D00,Beat 2/High Hill,1,312.0,2,ambiguous_plausible_set,True
+lower,78,SCOTT,PRES-27254D15E113640D3D09B485,Beat 2/Homewood,1,252.0,2,ambiguous_plausible_set,True
+lower,78,SCOTT,PRES-08429BEFA1A5380FB25B1EF0,Beat 3/Eastwest Morton,1,1045.0,2,ambiguous_plausible_set,True
+lower,78,SCOTT,PRES-9763C489AC7BE01236C7BBEA,Beat 3/Pulaski,1,250.0,2,ambiguous_plausible_set,True
+lower,78,SCOTT,PRES-03A41C3DBF7720B295430962,Beat 4/Clifton,1,84.0,2,ambiguous_plausible_set,True
+lower,78,SCOTT,PRES-EDC593F059103F8E93F86777,Beat 4/Contrell,1,261.0,2,ambiguous_plausible_set,True
+lower,78,SCOTT,PRES-8584F5D9C85B5147615D1E67,Beat 5/Langs Mill,1,566.0,1,exact_single_district_plausible_set,True
+lower,78,SCOTT,PRES-2CDC89366C9DEFE4561F1CBE,Beat 5/Sebastopol,1,334.0,1,exact_single_district_plausible_set,True
+lower,79,JASPER,PRES-B058DB8B490F69862C6A577C,Beat 1 Holders-Waldrup 1,1,194.0,2,ambiguous_plausible_set,False
+lower,79,JASPER,PRES-13229186C248F5B8E0ED9698,Beat 1 Holders-Waldrup 2,1,467.0,2,ambiguous_plausible_set,False
+lower,79,JASPER,PRES-8050235DB2F17A3F1552089B,Moss First,1,37.0,1,exact_single_district_plausible_set,False
+lower,79,JASPER,PRES-77DB07365FD1813C7310C7A0,Moss Second,1,710.0,4,ambiguous_plausible_set,False
+lower,8,DESOTO,PRES-64BF942A7FB0B9F308216AAB,Cumberland,1,1549.0,9,ambiguous_plausible_set,False
+lower,80,CLARKE,PRES-5D9C31CEB97C7ADF53DD492B,Harmony Dist. 1,1,126.0,3,ambiguous_plausible_set,False
+lower,80,CLARKE,PRES-1A258DCDF11201425E599EDF,Harmony Dist. 2,1,279.0,3,ambiguous_plausible_set,False
+lower,80,JASPER,PRES-77DB07365FD1813C7310C7A0,Moss Second,1,710.0,4,ambiguous_plausible_set,False
+lower,80,JONES,PRES-4DA346DB219828E7847AD1AD,Glade,1,868.0,2,ambiguous_plausible_set,False
+lower,81,CLARKE,PRES-5D9C31CEB97C7ADF53DD492B,Harmony Dist. 1,1,126.0,3,ambiguous_plausible_set,False
+lower,81,CLARKE,PRES-1A258DCDF11201425E599EDF,Harmony Dist. 2,1,279.0,3,ambiguous_plausible_set,False
+lower,81,LAUDERDALE,PRES-23ADC29ED055BEE9A102F6D6,101 - One,1,1657.0,3,ambiguous_plausible_set,False
+lower,82,LAUDERDALE,PRES-23ADC29ED055BEE9A102F6D6,101 - One,1,1657.0,3,ambiguous_plausible_set,False
+lower,82,LAUDERDALE,PRES-DA430E4C381BEFB38FFB3A92,519 - Nineteen,1,344.0,3,ambiguous_plausible_set,False
+lower,83,LAUDERDALE,PRES-23ADC29ED055BEE9A102F6D6,101 - One,1,1657.0,3,ambiguous_plausible_set,False
+lower,83,LAUDERDALE,PRES-DA430E4C381BEFB38FFB3A92,519 - Nineteen,1,344.0,3,ambiguous_plausible_set,False
+lower,84,CLARKE,PRES-5D9C31CEB97C7ADF53DD492B,Harmony Dist. 1,1,126.0,3,ambiguous_plausible_set,False
+lower,84,CLARKE,PRES-1A258DCDF11201425E599EDF,Harmony Dist. 2,1,279.0,3,ambiguous_plausible_set,False
+lower,84,JASPER,PRES-B058DB8B490F69862C6A577C,Beat 1 Holders-Waldrup 1,1,194.0,2,ambiguous_plausible_set,False
+lower,84,JASPER,PRES-13229186C248F5B8E0ED9698,Beat 1 Holders-Waldrup 2,1,467.0,2,ambiguous_plausible_set,False
+lower,84,JASPER,PRES-77DB07365FD1813C7310C7A0,Moss Second,1,710.0,4,ambiguous_plausible_set,False
+lower,85,JEFFERSON,PRES-970B9BCFBC2548E5BAD307C0,City Hall 3020,1,374.0,2,ambiguous_plausible_set,False
+lower,85,JEFFERSON,PRES-75023A620388EB420F8918F9,Fayette Manor 5020,1,366.0,2,ambiguous_plausible_set,False
+lower,85,JEFFERSON,PRES-9DD26180C31CAB89985C43B8,Harriston 1020,1,204.0,1,exact_single_district_plausible_set,False
+lower,85,JEFFERSON,PRES-EFF9238EAB2A80739741DB58,Highway 33 2040,1,130.0,1,exact_single_district_plausible_set,False
+lower,85,JEFFERSON,PRES-E3AD034E7FD406182B9CCD75,Rose Hill #1 Church,1,201.0,2,ambiguous_plausible_set,False
+lower,85,JEFFERSON,PRES-E521916AF50D8C5FFAFC7EE4,Superintendent Office 2020,1,307.0,2,ambiguous_plausible_set,False
+lower,86,PERRY,PRES-31D0139C324F0EBCFA26AE75,Courthouse 5110,1,294.0,2,ambiguous_plausible_set,False
+lower,86,WAYNE,PRES-5D8DAF4EE5FFE6DC1F884D44,Chapparal,1,152.0,1,exact_single_district_plausible_set,False
+lower,86,WAYNE,PRES-71EBC5E5DCBFE8BFD4DD5781,Coyt,1,68.0,1,exact_single_district_plausible_set,False
+lower,87,FORREST,PRES-700FFDD0D9285BE8915FB8C2,Bar Mac,1,1955.0,4,ambiguous_plausible_set,False
+lower,87,FORREST,PRES-685527ED937A3A756CF402C0,Camp,1,384.0,2,ambiguous_plausible_set,False
+lower,88,JASPER,PRES-77DB07365FD1813C7310C7A0,Moss Second,1,710.0,4,ambiguous_plausible_set,False
+lower,88,JONES,PRES-4DA346DB219828E7847AD1AD,Glade,1,868.0,2,ambiguous_plausible_set,False
+lower,9,COAHOMA,PRES-3E18CA334139F0E77FF5960C,Friars Point,1,618.0,2,ambiguous_plausible_set,False
+lower,9,DESOTO,PRES-64BF942A7FB0B9F308216AAB,Cumberland,1,1549.0,9,ambiguous_plausible_set,False
+lower,90,JEFFERSON DAVIS,PRES-10975DC53672C72B781296A3,Bassfield 26,1,356.0,3,ambiguous_plausible_set,False
+lower,90,JEFFERSON DAVIS,PRES-FCAB72839E6BD8DEB9F47752,Bassfield 31,1,579.0,3,ambiguous_plausible_set,False
+lower,90,JEFFERSON DAVIS,PRES-11EB30B0BA93C3952C9AB207,Bassfield 32,1,555.0,3,ambiguous_plausible_set,False
+lower,90,JEFFERSON DAVIS,PRES-5885534B988287A919711B42,Bournham 21,1,0.0,3,ambiguous_plausible_set,False
+lower,90,JEFFERSON DAVIS,PRES-46A438483DB6C33D49571FA9,City of Prentiss,1,0.0,3,ambiguous_plausible_set,False
+lower,90,JEFFERSON DAVIS,PRES-5785473BD9363AA6B2C072FA,Melba 34,1,62.0,2,ambiguous_plausible_set,False
+lower,91,JEFFERSON DAVIS,PRES-10975DC53672C72B781296A3,Bassfield 26,1,356.0,3,ambiguous_plausible_set,False
+lower,91,JEFFERSON DAVIS,PRES-FCAB72839E6BD8DEB9F47752,Bassfield 31,1,579.0,3,ambiguous_plausible_set,False
+lower,91,JEFFERSON DAVIS,PRES-11EB30B0BA93C3952C9AB207,Bassfield 32,1,555.0,3,ambiguous_plausible_set,False
+lower,91,JEFFERSON DAVIS,PRES-5885534B988287A919711B42,Bournham 21,1,0.0,3,ambiguous_plausible_set,False
+lower,91,JEFFERSON DAVIS,PRES-46A438483DB6C33D49571FA9,City of Prentiss,1,0.0,3,ambiguous_plausible_set,False
+lower,91,JEFFERSON DAVIS,PRES-5785473BD9363AA6B2C072FA,Melba 34,1,62.0,2,ambiguous_plausible_set,False
+lower,91,JEFFERSON DAVIS,PRES-EB0D0CDFAAAFB2732FCBC1BC,Son's Academy 25,1,249.0,1,exact_single_district_plausible_set,False
+lower,91,LAWRENCE,PRES-A5F0C20F2A3FF87C9C365A6C,Coopers Creek,1,464.0,2,ambiguous_plausible_set,False
+lower,91,LAWRENCE,PRES-53F889CF96556CD8033744B1,Oakvale-91,1,20.0,4,ambiguous_plausible_set,False
+lower,91,LAWRENCE,PRES-C07BA038CF49B109B4CEBF18,Precinct 53,1,148.0,4,ambiguous_plausible_set,False
+lower,91,LAWRENCE,PRES-B9DAA70DD64E39C77302C347,West Monticello - 53,1,32.0,4,ambiguous_plausible_set,False
+lower,92,LAWRENCE,PRES-53F889CF96556CD8033744B1,Oakvale-91,1,20.0,4,ambiguous_plausible_set,False
+lower,92,LAWRENCE,PRES-C07BA038CF49B109B4CEBF18,Precinct 53,1,148.0,4,ambiguous_plausible_set,False
+lower,92,LAWRENCE,PRES-B9DAA70DD64E39C77302C347,West Monticello - 53,1,32.0,4,ambiguous_plausible_set,False
+lower,93,HANCOCK,PRES-427BDDE40324D630F255DA07,Diamondhead East,1,2967.0,2,ambiguous_plausible_set,False
+lower,93,HANCOCK,PRES-13729CD751A2BC5512072B28,Garden Isle,1,466.0,3,ambiguous_plausible_set,False
+lower,93,PEARL RIVER,PRES-D72D702264A96DED518E01CC,Ceasar Beat 3,1,436.0,3,ambiguous_plausible_set,False
+lower,93,PEARL RIVER,PRES-3C567245FF4697A172254F86,Picayune Beat 4 East,1,460.0,3,ambiguous_plausible_set,False
+lower,94,ADAMS,PRES-97F39C88F1DCDE03C095F129,"Dist. 1, By-Pass Fire",1,907.0,3,ambiguous_plausible_set,False
+lower,94,ADAMS,PRES-BA8E81635017EB5218C97647,"Dist. 4, Northside",1,791.0,1,exact_single_district_plausible_set,False
+lower,94,JEFFERSON,PRES-970B9BCFBC2548E5BAD307C0,City Hall 3020,1,374.0,2,ambiguous_plausible_set,False
+lower,94,JEFFERSON,PRES-75023A620388EB420F8918F9,Fayette Manor 5020,1,366.0,2,ambiguous_plausible_set,False
+lower,94,JEFFERSON,PRES-E3AD034E7FD406182B9CCD75,Rose Hill #1 Church,1,201.0,2,ambiguous_plausible_set,False
+lower,94,JEFFERSON,PRES-E521916AF50D8C5FFAFC7EE4,Superintendent Office 2020,1,307.0,2,ambiguous_plausible_set,False
+lower,95,HANCOCK,PRES-427BDDE40324D630F255DA07,Diamondhead East,1,2967.0,2,ambiguous_plausible_set,False
+lower,95,HANCOCK,PRES-13729CD751A2BC5512072B28,Garden Isle,1,466.0,3,ambiguous_plausible_set,False
+lower,95,HARRISON,PRES-76AFAC16DA891B011B9A6B77,Biloxi #10,1,1489.0,9,ambiguous_plausible_set,False
+lower,95,HARRISON,PRES-A8ED5E173E1B31240CAA47FA,Biloxi #2,1,250.0,9,ambiguous_plausible_set,False
+lower,95,HARRISON,PRES-40E4DBFF51E5C9962B2CC37D,Biloxi #3,1,295.0,9,ambiguous_plausible_set,False
+lower,95,HARRISON,PRES-CF58BC8646115CA820EAEE0E,Biloxi #4,1,608.0,9,ambiguous_plausible_set,False
+lower,95,HARRISON,PRES-5FDCE7E5AC7CE5EA0B1B71F0,Biloxi #5,1,213.0,9,ambiguous_plausible_set,False
+lower,95,HARRISON,PRES-7B4EF32CDC028DF9427FD035,Biloxi #6,1,204.0,9,ambiguous_plausible_set,False
+lower,95,HARRISON,PRES-3EA27605824A2A100810F731,Biloxi #7,1,334.0,9,ambiguous_plausible_set,False
+lower,95,HARRISON,PRES-670FBBE6B11B0D3D333DC3CB,East Lizana,1,888.0,7,ambiguous_plausible_set,False
+lower,95,HARRISON,PRES-33104F24CDABBA2A0D01AF92,Gulfport #12,1,1054.0,9,ambiguous_plausible_set,False
+lower,95,HARRISON,PRES-FDB38B929570461B66108E72,Gulfport #13,1,971.0,9,ambiguous_plausible_set,False
+lower,95,HARRISON,PRES-895060AFDE07F2019F5BC9C7,Gulfport #15,1,389.0,9,ambiguous_plausible_set,False
+lower,95,HARRISON,PRES-856C8934C8A1325B381BAFEC,New Popps Ferry,1,1636.0,9,ambiguous_plausible_set,False
+lower,95,HARRISON,PRES-30AB652CC27C0A7555D82469,Vidalla,1,390.0,9,ambiguous_plausible_set,False
+lower,95,HARRISON,PRES-FC5A18EC629431A4604A6816,West Miss City,1,317.0,9,ambiguous_plausible_set,False
+lower,96,ADAMS,PRES-97F39C88F1DCDE03C095F129,"Dist. 1, By-Pass Fire",1,907.0,3,ambiguous_plausible_set,False
+lower,96,WILKINSON,PRES-D44051D95A5F6261A3CA6E48,Centreville 1st 1020,1,566.0,1,exact_single_district_plausible_set,False
+lower,96,WILKINSON,PRES-D505C14DA3CFE0949A969A0B,Centreville 3rd 3010,1,882.0,1,exact_single_district_plausible_set,False
+lower,96,WILKINSON,PRES-51B0B78042933CD5902E5CBC,Woodville 1010,1,475.0,1,exact_single_district_plausible_set,False
+lower,97,ADAMS,PRES-97F39C88F1DCDE03C095F129,"Dist. 1, By-Pass Fire",1,907.0,3,ambiguous_plausible_set,True
+lower,99,WALTHALL,PRES-A9D2108F4927934280D69F11,3rd District Tylertown,1,322.0,1,exact_single_district_plausible_set,False
+lower,99,WALTHALL,PRES-12D054446F030EE60BD72751,4th District Tylertown,1,458.0,1,exact_single_district_plausible_set,False
+lower,99,WALTHALL,PRES-EF8F458A444B3F19C12C453B,4th District West,1,320.0,1,exact_single_district_plausible_set,False
+upper,1,DESOTO,PRES-64BF942A7FB0B9F308216AAB,Cumberland,1,1549.0,5,ambiguous_plausible_set,False
+upper,10,DESOTO,PRES-64BF942A7FB0B9F308216AAB,Cumberland,1,1549.0,5,ambiguous_plausible_set,True
+upper,10,MARSHALL,PRES-7BB65E3B75BFBEEEC54D871B,1 North Holly Springs,1,1378.0,1,exact_single_district_plausible_set,True
+upper,10,MARSHALL,PRES-235BF7DEFD72482C8D8F79A4,2 North Holly Springs,1,727.0,1,exact_single_district_plausible_set,True
+upper,11,COAHOMA,PRES-3E18CA334139F0E77FF5960C,Friars Point,1,618.0,2,ambiguous_plausible_set,False
+upper,11,DESOTO,PRES-64BF942A7FB0B9F308216AAB,Cumberland,1,1549.0,5,ambiguous_plausible_set,False
+upper,11,PANOLA,PRES-9B30080FDFCD573FDEB0B2DD,Cole's Point,1,326.0,3,ambiguous_plausible_set,False
+upper,12,COAHOMA,PRES-3E18CA334139F0E77FF5960C,Friars Point,1,618.0,2,ambiguous_plausible_set,False
+upper,12,WASHINGTON,PRES-745C60308DE9E79D7DB0AE86,Greenville Daycare Center,1,681.0,1,exact_single_district_plausible_set,False
+upper,14,CARROLL,PRES-28448CE29C2AA988B7F108A4,Rays Shop,1,854.0,1,exact_single_district_plausible_set,False
+upper,14,GRENADA,PRES-5E0264756CBC1895DD19130A,Box 1,1,709.0,1,exact_single_district_plausible_set,False
+upper,14,LEFLORE,PRES-AE6F49202481C2E1B98FB439,Morgan City,1,200.0,2,ambiguous_plausible_set,False
+upper,14,LEFLORE,PRES-F928AC73B0678192CE11760B,Swiftown,1,42.0,2,ambiguous_plausible_set,False
+upper,14,PANOLA,PRES-9B30080FDFCD573FDEB0B2DD,Cole's Point,1,326.0,3,ambiguous_plausible_set,False
+upper,14,YALOBUSHA,PRES-0B3B360510D403E3C46FA584,Five Coffeeville,1,610.0,2,ambiguous_plausible_set,False
+upper,14,YALOBUSHA,PRES-8B7DA24A5A007F41D02B2C02,Five Scuna - Vann's Mill,1,143.0,2,ambiguous_plausible_set,False
+upper,14,YALOBUSHA,PRES-48BA9286F304E54FB4643CCC,Four Coffeeville,1,514.0,2,ambiguous_plausible_set,False
+upper,15,CHOCTAW,PRES-1ACFA34587B850429E9E7366,Southwest Ackerman,1,324.0,1,exact_single_district_plausible_set,False
+upper,15,OKTIBBEHA,PRES-489738525C192C0B5F2913E8,Gillespie,1,1028.0,2,ambiguous_plausible_set,False
+upper,15,OKTIBBEHA,PRES-D82219C14F8BCDDBC072A59E,Self Creek/Double Springs,1,424.0,1,exact_single_district_plausible_set,False
+upper,16,LOWNDES,PRES-5EEEF74C69A6651095E95FDC,Immanuel School,1,719.0,2,ambiguous_plausible_set,False
+upper,16,OKTIBBEHA,PRES-C33533898D1A0C8352734C7A,Center Grove/North Adaton,1,554.0,1,exact_single_district_plausible_set,False
+upper,16,OKTIBBEHA,PRES-489738525C192C0B5F2913E8,Gillespie,1,1028.0,2,ambiguous_plausible_set,False
+upper,17,LOWNDES,PRES-319DF9129F8789E31BA3F492,Columbus High School,1,1570.0,1,exact_single_district_plausible_set,True
+upper,17,LOWNDES,PRES-5EEEF74C69A6651095E95FDC,Immanuel School,1,719.0,2,ambiguous_plausible_set,True
+upper,17,LOWNDES,PRES-786926DF5DAAF9D72CED067F,Sale,1,424.0,1,exact_single_district_plausible_set,True
+upper,19,DESOTO,PRES-64BF942A7FB0B9F308216AAB,Cumberland,1,1549.0,5,ambiguous_plausible_set,True
+upper,2,DESOTO,PRES-64BF942A7FB0B9F308216AAB,Cumberland,1,1549.0,5,ambiguous_plausible_set,True
+upper,21,HOLMES,PRES-48E4A1A6BBAAEBAC683E4698,Beat 2 Durant,1,577.0,2,ambiguous_plausible_set,False
+upper,21,HOLMES,PRES-F4B3050520FA48A7154F3BF5,Beat 2 Sub Durant,1,498.0,2,ambiguous_plausible_set,False
+upper,21,MADISON,PRES-9AB29A9AF4A4515E64E85EAF,Colonial Heights,1,1219.0,3,ambiguous_plausible_set,False
+upper,21,MADISON,PRES-176857FC5B476431FFA481E9,Farmhaven,1,767.0,3,ambiguous_plausible_set,False
+upper,21,MADISON,PRES-BA904616009D3591F4B5C6B5,Fearns Chapel Freewill Baptist,1,1211.0,4,ambiguous_plausible_set,False
+upper,21,MADISON,PRES-ACF4A5ABD5EA38D52925E7CC,First Presbyterian Madison,1,1627.0,3,ambiguous_plausible_set,False
+upper,21,MADISON,PRES-263A7C699803945AEEA15B00,Greater Mt. Levi Full Gospel,1,782.0,4,ambiguous_plausible_set,False
+upper,21,MADISON,PRES-A3316F713E996D465F250A6E,Madison Community Center,1,2058.0,2,ambiguous_plausible_set,False
+upper,21,MADISON,PRES-BD035E974D96D6BA43FEBB9B,New Life,1,1246.0,3,ambiguous_plausible_set,False
+upper,22,HUMPHREYS,PRES-42CB6476EC4297D36D7B0EEA,Belzoni North - 1bnh34 1021,1,71.0,2,ambiguous_plausible_set,True
+upper,22,HUMPHREYS,PRES-EEEB357B09EA4FA1259BEB66,Belzoni North - 1bnh51 1020,1,836.0,2,ambiguous_plausible_set,True
+upper,22,HUMPHREYS,PRES-DE66BCB5216D998C794A7143,Belzoni North - 2bn 2020,1,312.0,2,ambiguous_plausible_set,True
+upper,22,HUMPHREYS,PRES-3319091C557E96D97B9500D9,Belzoni North - 4 bn 4010,1,616.0,2,ambiguous_plausible_set,True
+upper,22,HUMPHREYS,PRES-E8B83208F0B252F072FEAC9E,Belzoni South - 3bs 3010,1,412.0,2,ambiguous_plausible_set,True
+upper,22,HUMPHREYS,PRES-E7ED9E1917B7BBD3BC7714F4,Belzoni South - 4bs 4020,1,425.0,2,ambiguous_plausible_set,True
+upper,22,HUMPHREYS,PRES-5B484C24DC48BD2E6BEC2C05,Belzoni South - 5bs 5010,1,348.0,2,ambiguous_plausible_set,True
+upper,22,HUMPHREYS,PRES-91DC0703623401D8C41C9D14,Fourmile North - 1fm 1010,1,40.0,2,ambiguous_plausible_set,True
+upper,22,MADISON,PRES-176857FC5B476431FFA481E9,Farmhaven,1,767.0,3,ambiguous_plausible_set,True
+upper,22,MADISON,PRES-F4CE6C667D4341672414E7F3,FBC Madison Campus,1,1813.0,2,ambiguous_plausible_set,True
+upper,22,MADISON,PRES-BA904616009D3591F4B5C6B5,Fearns Chapel Freewill Baptist,1,1211.0,4,ambiguous_plausible_set,True
+upper,22,MADISON,PRES-263A7C699803945AEEA15B00,Greater Mt. Levi Full Gospel,1,782.0,4,ambiguous_plausible_set,True
+upper,22,MADISON,PRES-BD035E974D96D6BA43FEBB9B,New Life,1,1246.0,3,ambiguous_plausible_set,True
+upper,24,HOLMES,PRES-48E4A1A6BBAAEBAC683E4698,Beat 2 Durant,1,577.0,2,ambiguous_plausible_set,False
+upper,24,HOLMES,PRES-F4B3050520FA48A7154F3BF5,Beat 2 Sub Durant,1,498.0,2,ambiguous_plausible_set,False
+upper,24,HUMPHREYS,PRES-42CB6476EC4297D36D7B0EEA,Belzoni North - 1bnh34 1021,1,71.0,2,ambiguous_plausible_set,False
+upper,24,HUMPHREYS,PRES-EEEB357B09EA4FA1259BEB66,Belzoni North - 1bnh51 1020,1,836.0,2,ambiguous_plausible_set,False
+upper,24,HUMPHREYS,PRES-DE66BCB5216D998C794A7143,Belzoni North - 2bn 2020,1,312.0,2,ambiguous_plausible_set,False
+upper,24,HUMPHREYS,PRES-3319091C557E96D97B9500D9,Belzoni North - 4 bn 4010,1,616.0,2,ambiguous_plausible_set,False
+upper,24,HUMPHREYS,PRES-E8B83208F0B252F072FEAC9E,Belzoni South - 3bs 3010,1,412.0,2,ambiguous_plausible_set,False
+upper,24,HUMPHREYS,PRES-E7ED9E1917B7BBD3BC7714F4,Belzoni South - 4bs 4020,1,425.0,2,ambiguous_plausible_set,False
+upper,24,HUMPHREYS,PRES-5B484C24DC48BD2E6BEC2C05,Belzoni South - 5bs 5010,1,348.0,2,ambiguous_plausible_set,False
+upper,24,HUMPHREYS,PRES-91DC0703623401D8C41C9D14,Fourmile North - 1fm 1010,1,40.0,2,ambiguous_plausible_set,False
+upper,24,LEFLORE,PRES-AE6F49202481C2E1B98FB439,Morgan City,1,200.0,2,ambiguous_plausible_set,False
+upper,24,LEFLORE,PRES-C938DD45BD4FC563E9000F81,Ne Gwd,1,921.0,1,exact_single_district_plausible_set,False
+upper,24,LEFLORE,PRES-F928AC73B0678192CE11760B,Swiftown,1,42.0,2,ambiguous_plausible_set,False
+upper,25,MADISON,PRES-9AB29A9AF4A4515E64E85EAF,Colonial Heights,1,1219.0,3,ambiguous_plausible_set,True
+upper,25,MADISON,PRES-176857FC5B476431FFA481E9,Farmhaven,1,767.0,3,ambiguous_plausible_set,True
+upper,25,MADISON,PRES-F4CE6C667D4341672414E7F3,FBC Madison Campus,1,1813.0,2,ambiguous_plausible_set,True
+upper,25,MADISON,PRES-BA904616009D3591F4B5C6B5,Fearns Chapel Freewill Baptist,1,1211.0,4,ambiguous_plausible_set,True
+upper,25,MADISON,PRES-ACF4A5ABD5EA38D52925E7CC,First Presbyterian Madison,1,1627.0,3,ambiguous_plausible_set,True
+upper,25,MADISON,PRES-263A7C699803945AEEA15B00,Greater Mt. Levi Full Gospel,1,782.0,4,ambiguous_plausible_set,True
+upper,25,MADISON,PRES-A3316F713E996D465F250A6E,Madison Community Center,1,2058.0,2,ambiguous_plausible_set,True
+upper,25,MADISON,PRES-CC7D0B7EEA799F7FAB5B4D39,Madison Methodist,1,2495.0,1,exact_single_district_plausible_set,True
+upper,25,MADISON,PRES-BD035E974D96D6BA43FEBB9B,New Life,1,1246.0,3,ambiguous_plausible_set,True
+upper,25,MADISON,PRES-F15A457F48D6E30F2BB8ACA9,Ridgeland Recreation Center,1,2018.0,2,ambiguous_plausible_set,True
+upper,26,MADISON,PRES-9AB29A9AF4A4515E64E85EAF,Colonial Heights,1,1219.0,3,ambiguous_plausible_set,False
+upper,26,MADISON,PRES-BA904616009D3591F4B5C6B5,Fearns Chapel Freewill Baptist,1,1211.0,4,ambiguous_plausible_set,False
+upper,26,MADISON,PRES-ACF4A5ABD5EA38D52925E7CC,First Presbyterian Madison,1,1627.0,3,ambiguous_plausible_set,False
+upper,26,MADISON,PRES-263A7C699803945AEEA15B00,Greater Mt. Levi Full Gospel,1,782.0,4,ambiguous_plausible_set,False
+upper,26,MADISON,PRES-F15A457F48D6E30F2BB8ACA9,Ridgeland Recreation Center,1,2018.0,2,ambiguous_plausible_set,False
+upper,3,PONTOTOC,PRES-F1EF3412CD823F5E89888603,Beckham Bec,1,424.0,2,ambiguous_plausible_set,True
+upper,3,UNION,PRES-E71BF1C19038C4A842DE9CB3,King's Chapel,1,347.0,1,exact_single_district_plausible_set,True
+upper,3,UNION,PRES-7C33A1EA08FFB7F3062E29C2,NE Community College,1,1178.0,1,exact_single_district_plausible_set,True
+upper,31,SCOTT,PRES-22181F00B49D1ECF071B9D00,Beat 2/High Hill,1,312.0,1,exact_single_district_plausible_set,True
+upper,31,SCOTT,PRES-27254D15E113640D3D09B485,Beat 2/Homewood,1,252.0,1,exact_single_district_plausible_set,True
+upper,31,SCOTT,PRES-08429BEFA1A5380FB25B1EF0,Beat 3/Eastwest Morton,1,1045.0,1,exact_single_district_plausible_set,True
+upper,31,SCOTT,PRES-9763C489AC7BE01236C7BBEA,Beat 3/Pulaski,1,250.0,1,exact_single_district_plausible_set,True
+upper,31,SCOTT,PRES-03A41C3DBF7720B295430962,Beat 4/Clifton,1,84.0,1,exact_single_district_plausible_set,True
+upper,31,SCOTT,PRES-EDC593F059103F8E93F86777,Beat 4/Contrell,1,261.0,1,exact_single_district_plausible_set,True
+upper,31,SCOTT,PRES-8584F5D9C85B5147615D1E67,Beat 5/Langs Mill,1,566.0,1,exact_single_district_plausible_set,True
+upper,31,SCOTT,PRES-2CDC89366C9DEFE4561F1CBE,Beat 5/Sebastopol,1,334.0,1,exact_single_district_plausible_set,True
+upper,32,KEMPER,PRES-720EA0330AB73635BA04DEBB,Scooba A-L,1,379.0,1,exact_single_district_plausible_set,False
+upper,32,KEMPER,PRES-FD9F86BD317A90B48AF1DAF0,Scooba M-Z,1,362.0,1,exact_single_district_plausible_set,False
+upper,32,LAUDERDALE,PRES-23ADC29ED055BEE9A102F6D6,101 - One,1,1657.0,2,ambiguous_plausible_set,False
+upper,32,LAUDERDALE,PRES-DA430E4C381BEFB38FFB3A92,519 - Nineteen,1,344.0,2,ambiguous_plausible_set,False
+upper,33,CLARKE,PRES-5D9C31CEB97C7ADF53DD492B,Harmony Dist. 1,1,126.0,1,exact_single_district_plausible_set,False
+upper,33,CLARKE,PRES-1A258DCDF11201425E599EDF,Harmony Dist. 2,1,279.0,1,exact_single_district_plausible_set,False
+upper,33,LAUDERDALE,PRES-23ADC29ED055BEE9A102F6D6,101 - One,1,1657.0,2,ambiguous_plausible_set,False
+upper,33,LAUDERDALE,PRES-DA430E4C381BEFB38FFB3A92,519 - Nineteen,1,344.0,2,ambiguous_plausible_set,False
+upper,34,FORREST,PRES-700FFDD0D9285BE8915FB8C2,Bar Mac,1,1955.0,5,ambiguous_plausible_set,True
+upper,34,FORREST,PRES-870462609698FDBE2310C752,Thames,1,1883.0,2,ambiguous_plausible_set,True
+upper,34,JASPER,PRES-B058DB8B490F69862C6A577C,Beat 1 Holders-Waldrup 1,1,194.0,1,exact_single_district_plausible_set,True
+upper,34,JASPER,PRES-13229186C248F5B8E0ED9698,Beat 1 Holders-Waldrup 2,1,467.0,1,exact_single_district_plausible_set,True
+upper,34,JASPER,PRES-8050235DB2F17A3F1552089B,Moss First,1,37.0,1,exact_single_district_plausible_set,True
+upper,34,JASPER,PRES-77DB07365FD1813C7310C7A0,Moss Second,1,710.0,1,exact_single_district_plausible_set,True
+upper,36,JEFFERSON,PRES-970B9BCFBC2548E5BAD307C0,City Hall 3020,1,374.0,1,exact_single_district_plausible_set,False
+upper,36,JEFFERSON,PRES-75023A620388EB420F8918F9,Fayette Manor 5020,1,366.0,1,exact_single_district_plausible_set,False
+upper,36,JEFFERSON,PRES-9DD26180C31CAB89985C43B8,Harriston 1020,1,204.0,1,exact_single_district_plausible_set,False
+upper,36,JEFFERSON,PRES-EFF9238EAB2A80739741DB58,Highway 33 2040,1,130.0,1,exact_single_district_plausible_set,False
+upper,36,JEFFERSON,PRES-E3AD034E7FD406182B9CCD75,Rose Hill #1 Church,1,201.0,1,exact_single_district_plausible_set,False
+upper,36,JEFFERSON,PRES-E521916AF50D8C5FFAFC7EE4,Superintendent Office 2020,1,307.0,1,exact_single_district_plausible_set,False
+upper,37,ADAMS,PRES-97F39C88F1DCDE03C095F129,"Dist. 1, By-Pass Fire",1,907.0,2,ambiguous_plausible_set,True
+upper,37,ADAMS,PRES-BA8E81635017EB5218C97647,"Dist. 4, Northside",1,791.0,2,ambiguous_plausible_set,True
+upper,37,FRANKLIN,PRES-83E0591421354FEAE4AB4819,Mccall,1,321.0,1,exact_single_district_plausible_set,True
+upper,38,ADAMS,PRES-97F39C88F1DCDE03C095F129,"Dist. 1, By-Pass Fire",1,907.0,2,ambiguous_plausible_set,False
+upper,38,ADAMS,PRES-BA8E81635017EB5218C97647,"Dist. 4, Northside",1,791.0,2,ambiguous_plausible_set,False
+upper,38,WALTHALL,PRES-A9D2108F4927934280D69F11,3rd District Tylertown,1,322.0,2,ambiguous_plausible_set,False
+upper,38,WALTHALL,PRES-12D054446F030EE60BD72751,4th District Tylertown,1,458.0,2,ambiguous_plausible_set,False
+upper,38,WALTHALL,PRES-EF8F458A444B3F19C12C453B,4th District West,1,320.0,2,ambiguous_plausible_set,False
+upper,38,WILKINSON,PRES-D44051D95A5F6261A3CA6E48,Centreville 1st 1020,1,566.0,1,exact_single_district_plausible_set,False
+upper,38,WILKINSON,PRES-D505C14DA3CFE0949A969A0B,Centreville 3rd 3010,1,882.0,1,exact_single_district_plausible_set,False
+upper,38,WILKINSON,PRES-51B0B78042933CD5902E5CBC,Woodville 1010,1,475.0,1,exact_single_district_plausible_set,False
+upper,39,LAWRENCE,PRES-A5F0C20F2A3FF87C9C365A6C,Coopers Creek,1,464.0,1,exact_single_district_plausible_set,False
+upper,39,LAWRENCE,PRES-53F889CF96556CD8033744B1,Oakvale-91,1,20.0,2,ambiguous_plausible_set,False
+upper,39,LAWRENCE,PRES-C07BA038CF49B109B4CEBF18,Precinct 53,1,148.0,2,ambiguous_plausible_set,False
+upper,39,LAWRENCE,PRES-B9DAA70DD64E39C77302C347,West Monticello - 53,1,32.0,2,ambiguous_plausible_set,False
+upper,39,WALTHALL,PRES-A9D2108F4927934280D69F11,3rd District Tylertown,1,322.0,2,ambiguous_plausible_set,False
+upper,39,WALTHALL,PRES-12D054446F030EE60BD72751,4th District Tylertown,1,458.0,2,ambiguous_plausible_set,False
+upper,39,WALTHALL,PRES-EF8F458A444B3F19C12C453B,4th District West,1,320.0,2,ambiguous_plausible_set,False
+upper,40,LAWRENCE,PRES-53F889CF96556CD8033744B1,Oakvale-91,1,20.0,2,ambiguous_plausible_set,True
+upper,40,LAWRENCE,PRES-C07BA038CF49B109B4CEBF18,Precinct 53,1,148.0,2,ambiguous_plausible_set,True
+upper,40,LAWRENCE,PRES-B9DAA70DD64E39C77302C347,West Monticello - 53,1,32.0,2,ambiguous_plausible_set,True
+upper,40,PEARL RIVER,PRES-D72D702264A96DED518E01CC,Ceasar Beat 3,1,436.0,3,ambiguous_plausible_set,True
+upper,40,PEARL RIVER,PRES-E8BDEC306EAC0458729ADF69,Mcneill Beat 3,1,625.0,2,ambiguous_plausible_set,True
+upper,40,PEARL RIVER,PRES-3949A7336EBCAFC137EEFF6F,Picayune Beat 1 Southside,1,1441.0,2,ambiguous_plausible_set,True
+upper,40,PEARL RIVER,PRES-DE4541B8AB814E522EF40A8B,Picayune Beat 2,1,1092.0,1,exact_single_district_plausible_set,True
+upper,40,PEARL RIVER,PRES-3C567245FF4697A172254F86,Picayune Beat 4 East,1,460.0,2,ambiguous_plausible_set,True
+upper,40,PEARL RIVER,PRES-F3DEB2AE994811AFB09131A6,Picayune Beat 5,1,1168.0,1,exact_single_district_plausible_set,True
+upper,41,FORREST,PRES-700FFDD0D9285BE8915FB8C2,Bar Mac,1,1955.0,5,ambiguous_plausible_set,False
+upper,41,JEFFERSON DAVIS,PRES-10975DC53672C72B781296A3,Bassfield 26,1,356.0,1,exact_single_district_plausible_set,False
+upper,41,JEFFERSON DAVIS,PRES-FCAB72839E6BD8DEB9F47752,Bassfield 31,1,579.0,1,exact_single_district_plausible_set,False
+upper,41,JEFFERSON DAVIS,PRES-11EB30B0BA93C3952C9AB207,Bassfield 32,1,555.0,1,exact_single_district_plausible_set,False
+upper,41,JEFFERSON DAVIS,PRES-5885534B988287A919711B42,Bournham 21,1,0.0,1,exact_single_district_plausible_set,False
+upper,41,JEFFERSON DAVIS,PRES-46A438483DB6C33D49571FA9,City of Prentiss,1,0.0,1,exact_single_district_plausible_set,False
+upper,41,JEFFERSON DAVIS,PRES-5785473BD9363AA6B2C072FA,Melba 34,1,62.0,1,exact_single_district_plausible_set,False
+upper,41,JEFFERSON DAVIS,PRES-EB0D0CDFAAAFB2732FCBC1BC,Son's Academy 25,1,249.0,1,exact_single_district_plausible_set,False
+upper,42,FORREST,PRES-700FFDD0D9285BE8915FB8C2,Bar Mac,1,1955.0,5,ambiguous_plausible_set,False
+upper,42,JONES,PRES-4DA346DB219828E7847AD1AD,Glade,1,868.0,1,exact_single_district_plausible_set,False
+upper,43,GEORGE,PRES-90BEDA47EA0B01008E61823A,Basin,1,879.0,1,exact_single_district_plausible_set,False
+upper,43,WAYNE,PRES-5D8DAF4EE5FFE6DC1F884D44,Chapparal,1,152.0,1,exact_single_district_plausible_set,False
+upper,43,WAYNE,PRES-71EBC5E5DCBFE8BFD4DD5781,Coyt,1,68.0,1,exact_single_district_plausible_set,False
+upper,44,FORREST,PRES-700FFDD0D9285BE8915FB8C2,Bar Mac,1,1955.0,5,ambiguous_plausible_set,False
+upper,44,PEARL RIVER,PRES-D72D702264A96DED518E01CC,Ceasar Beat 3,1,436.0,3,ambiguous_plausible_set,False
+upper,44,PEARL RIVER,PRES-644A58247147D54E49D07962,Poplarville Beat 1,1,590.0,2,ambiguous_plausible_set,False
+upper,44,PEARL RIVER,PRES-2AB1FF8FC242F772D32227E3,Poplarville Beat 2,1,539.0,2,ambiguous_plausible_set,False
+upper,44,PEARL RIVER,PRES-16F42D567E423CD287D2EFBE,Poplarville Beat 3,1,728.0,2,ambiguous_plausible_set,False
+upper,45,FORREST,PRES-700FFDD0D9285BE8915FB8C2,Bar Mac,1,1955.0,5,ambiguous_plausible_set,False
+upper,45,FORREST,PRES-685527ED937A3A756CF402C0,Camp,1,384.0,1,exact_single_district_plausible_set,False
+upper,45,FORREST,PRES-870462609698FDBE2310C752,Thames,1,1883.0,2,ambiguous_plausible_set,False
+upper,45,PERRY,PRES-B04ECD3F873A3F16C0A82726,Beaumont Senior Citizens 5120,1,185.0,1,exact_single_district_plausible_set,False
+upper,45,PERRY,PRES-31D0139C324F0EBCFA26AE75,Courthouse 5110,1,294.0,1,exact_single_district_plausible_set,False
+upper,46,HANCOCK,PRES-427BDDE40324D630F255DA07,Diamondhead East,1,2967.0,1,exact_single_district_plausible_set,False
+upper,46,HANCOCK,PRES-13729CD751A2BC5512072B28,Garden Isle,1,466.0,1,exact_single_district_plausible_set,False
+upper,46,HARRISON,PRES-76AFAC16DA891B011B9A6B77,Biloxi #10,1,1489.0,4,ambiguous_plausible_set,False
+upper,46,HARRISON,PRES-A8ED5E173E1B31240CAA47FA,Biloxi #2,1,250.0,4,ambiguous_plausible_set,False
+upper,46,HARRISON,PRES-40E4DBFF51E5C9962B2CC37D,Biloxi #3,1,295.0,4,ambiguous_plausible_set,False
+upper,46,HARRISON,PRES-CF58BC8646115CA820EAEE0E,Biloxi #4,1,608.0,4,ambiguous_plausible_set,False
+upper,46,HARRISON,PRES-5FDCE7E5AC7CE5EA0B1B71F0,Biloxi #5,1,213.0,4,ambiguous_plausible_set,False
+upper,46,HARRISON,PRES-7B4EF32CDC028DF9427FD035,Biloxi #6,1,204.0,4,ambiguous_plausible_set,False
+upper,46,HARRISON,PRES-3EA27605824A2A100810F731,Biloxi #7,1,334.0,4,ambiguous_plausible_set,False
+upper,46,HARRISON,PRES-670FBBE6B11B0D3D333DC3CB,East Lizana,1,888.0,4,ambiguous_plausible_set,False
+upper,46,HARRISON,PRES-33104F24CDABBA2A0D01AF92,Gulfport #12,1,1054.0,4,ambiguous_plausible_set,False
+upper,46,HARRISON,PRES-FDB38B929570461B66108E72,Gulfport #13,1,971.0,4,ambiguous_plausible_set,False
+upper,46,HARRISON,PRES-895060AFDE07F2019F5BC9C7,Gulfport #15,1,389.0,4,ambiguous_plausible_set,False
+upper,46,HARRISON,PRES-856C8934C8A1325B381BAFEC,New Popps Ferry,1,1636.0,4,ambiguous_plausible_set,False
+upper,46,HARRISON,PRES-30AB652CC27C0A7555D82469,Vidalla,1,390.0,4,ambiguous_plausible_set,False
+upper,46,HARRISON,PRES-FC5A18EC629431A4604A6816,West Miss City,1,317.0,4,ambiguous_plausible_set,False
+upper,47,PEARL RIVER,PRES-D72D702264A96DED518E01CC,Ceasar Beat 3,1,436.0,3,ambiguous_plausible_set,False
+upper,47,PEARL RIVER,PRES-E8BDEC306EAC0458729ADF69,Mcneill Beat 3,1,625.0,2,ambiguous_plausible_set,False
+upper,47,PEARL RIVER,PRES-3949A7336EBCAFC137EEFF6F,Picayune Beat 1 Southside,1,1441.0,2,ambiguous_plausible_set,False
+upper,47,PEARL RIVER,PRES-3C567245FF4697A172254F86,Picayune Beat 4 East,1,460.0,2,ambiguous_plausible_set,False
+upper,47,PEARL RIVER,PRES-644A58247147D54E49D07962,Poplarville Beat 1,1,590.0,2,ambiguous_plausible_set,False
+upper,47,PEARL RIVER,PRES-2AB1FF8FC242F772D32227E3,Poplarville Beat 2,1,539.0,2,ambiguous_plausible_set,False
+upper,47,PEARL RIVER,PRES-16F42D567E423CD287D2EFBE,Poplarville Beat 3,1,728.0,2,ambiguous_plausible_set,False
+upper,47,PEARL RIVER,PRES-86702DA83E171A817089DDAD,Whitesand Beat 2,1,191.0,1,exact_single_district_plausible_set,False
+upper,48,HARRISON,PRES-76AFAC16DA891B011B9A6B77,Biloxi #10,1,1489.0,4,ambiguous_plausible_set,True
+upper,48,HARRISON,PRES-A8ED5E173E1B31240CAA47FA,Biloxi #2,1,250.0,4,ambiguous_plausible_set,True
+upper,48,HARRISON,PRES-40E4DBFF51E5C9962B2CC37D,Biloxi #3,1,295.0,4,ambiguous_plausible_set,True
+upper,48,HARRISON,PRES-CF58BC8646115CA820EAEE0E,Biloxi #4,1,608.0,4,ambiguous_plausible_set,True
+upper,48,HARRISON,PRES-5FDCE7E5AC7CE5EA0B1B71F0,Biloxi #5,1,213.0,4,ambiguous_plausible_set,True
+upper,48,HARRISON,PRES-7B4EF32CDC028DF9427FD035,Biloxi #6,1,204.0,4,ambiguous_plausible_set,True
+upper,48,HARRISON,PRES-3EA27605824A2A100810F731,Biloxi #7,1,334.0,4,ambiguous_plausible_set,True
+upper,48,HARRISON,PRES-670FBBE6B11B0D3D333DC3CB,East Lizana,1,888.0,4,ambiguous_plausible_set,True
+upper,48,HARRISON,PRES-01424DA1921611F8E2A4ABDC,East Miss City,1,1899.0,3,ambiguous_plausible_set,True
+upper,48,HARRISON,PRES-33104F24CDABBA2A0D01AF92,Gulfport #12,1,1054.0,4,ambiguous_plausible_set,True
+upper,48,HARRISON,PRES-FDB38B929570461B66108E72,Gulfport #13,1,971.0,4,ambiguous_plausible_set,True
+upper,48,HARRISON,PRES-895060AFDE07F2019F5BC9C7,Gulfport #15,1,389.0,4,ambiguous_plausible_set,True
+upper,48,HARRISON,PRES-DCBA55BC5F259653A4F5C1D9,Gulfport #9,1,141.0,2,ambiguous_plausible_set,True
+upper,48,HARRISON,PRES-856C8934C8A1325B381BAFEC,New Popps Ferry,1,1636.0,4,ambiguous_plausible_set,True
+upper,48,HARRISON,PRES-30AB652CC27C0A7555D82469,Vidalla,1,390.0,4,ambiguous_plausible_set,True
+upper,48,HARRISON,PRES-FC5A18EC629431A4604A6816,West Miss City,1,317.0,4,ambiguous_plausible_set,True
+upper,49,HARRISON,PRES-99406D89D528805B079178B6,Biloxi #1,1,108.0,2,ambiguous_plausible_set,False
+upper,49,HARRISON,PRES-76AFAC16DA891B011B9A6B77,Biloxi #10,1,1489.0,4,ambiguous_plausible_set,False
+upper,49,HARRISON,PRES-A8ED5E173E1B31240CAA47FA,Biloxi #2,1,250.0,4,ambiguous_plausible_set,False
+upper,49,HARRISON,PRES-40E4DBFF51E5C9962B2CC37D,Biloxi #3,1,295.0,4,ambiguous_plausible_set,False
+upper,49,HARRISON,PRES-CF58BC8646115CA820EAEE0E,Biloxi #4,1,608.0,4,ambiguous_plausible_set,False
+upper,49,HARRISON,PRES-5FDCE7E5AC7CE5EA0B1B71F0,Biloxi #5,1,213.0,4,ambiguous_plausible_set,False
+upper,49,HARRISON,PRES-7B4EF32CDC028DF9427FD035,Biloxi #6,1,204.0,4,ambiguous_plausible_set,False
+upper,49,HARRISON,PRES-3EA27605824A2A100810F731,Biloxi #7,1,334.0,4,ambiguous_plausible_set,False
+upper,49,HARRISON,PRES-670FBBE6B11B0D3D333DC3CB,East Lizana,1,888.0,4,ambiguous_plausible_set,False
+upper,49,HARRISON,PRES-01424DA1921611F8E2A4ABDC,East Miss City,1,1899.0,3,ambiguous_plausible_set,False
+upper,49,HARRISON,PRES-33104F24CDABBA2A0D01AF92,Gulfport #12,1,1054.0,4,ambiguous_plausible_set,False
+upper,49,HARRISON,PRES-FDB38B929570461B66108E72,Gulfport #13,1,971.0,4,ambiguous_plausible_set,False
+upper,49,HARRISON,PRES-895060AFDE07F2019F5BC9C7,Gulfport #15,1,389.0,4,ambiguous_plausible_set,False
+upper,49,HARRISON,PRES-DCBA55BC5F259653A4F5C1D9,Gulfport #9,1,141.0,2,ambiguous_plausible_set,False
+upper,49,HARRISON,PRES-856C8934C8A1325B381BAFEC,New Popps Ferry,1,1636.0,4,ambiguous_plausible_set,False
+upper,49,HARRISON,PRES-30AB652CC27C0A7555D82469,Vidalla,1,390.0,4,ambiguous_plausible_set,False
+upper,49,HARRISON,PRES-FC5A18EC629431A4604A6816,West Miss City,1,317.0,4,ambiguous_plausible_set,False
+upper,5,PRENTISS,PRES-060A25218F9AB5E70878CD53,North Booneville/Sunflower,1,690.0,1,exact_single_district_plausible_set,True
+upper,50,HARRISON,PRES-99406D89D528805B079178B6,Biloxi #1,1,108.0,2,ambiguous_plausible_set,False
+upper,50,HARRISON,PRES-76AFAC16DA891B011B9A6B77,Biloxi #10,1,1489.0,4,ambiguous_plausible_set,False
+upper,50,HARRISON,PRES-A8ED5E173E1B31240CAA47FA,Biloxi #2,1,250.0,4,ambiguous_plausible_set,False
+upper,50,HARRISON,PRES-40E4DBFF51E5C9962B2CC37D,Biloxi #3,1,295.0,4,ambiguous_plausible_set,False
+upper,50,HARRISON,PRES-CF58BC8646115CA820EAEE0E,Biloxi #4,1,608.0,4,ambiguous_plausible_set,False
+upper,50,HARRISON,PRES-5FDCE7E5AC7CE5EA0B1B71F0,Biloxi #5,1,213.0,4,ambiguous_plausible_set,False
+upper,50,HARRISON,PRES-7B4EF32CDC028DF9427FD035,Biloxi #6,1,204.0,4,ambiguous_plausible_set,False
+upper,50,HARRISON,PRES-3EA27605824A2A100810F731,Biloxi #7,1,334.0,4,ambiguous_plausible_set,False
+upper,50,HARRISON,PRES-670FBBE6B11B0D3D333DC3CB,East Lizana,1,888.0,4,ambiguous_plausible_set,False
+upper,50,HARRISON,PRES-01424DA1921611F8E2A4ABDC,East Miss City,1,1899.0,3,ambiguous_plausible_set,False
+upper,50,HARRISON,PRES-33104F24CDABBA2A0D01AF92,Gulfport #12,1,1054.0,4,ambiguous_plausible_set,False
+upper,50,HARRISON,PRES-FDB38B929570461B66108E72,Gulfport #13,1,971.0,4,ambiguous_plausible_set,False
+upper,50,HARRISON,PRES-895060AFDE07F2019F5BC9C7,Gulfport #15,1,389.0,4,ambiguous_plausible_set,False
+upper,50,HARRISON,PRES-856C8934C8A1325B381BAFEC,New Popps Ferry,1,1636.0,4,ambiguous_plausible_set,False
+upper,50,HARRISON,PRES-30AB652CC27C0A7555D82469,Vidalla,1,390.0,4,ambiguous_plausible_set,False
+upper,50,HARRISON,PRES-FC5A18EC629431A4604A6816,West Miss City,1,317.0,4,ambiguous_plausible_set,False
+upper,8,CALHOUN,PRES-0B630FACB59CDDBA66F8D1BA,Northeast Calhoun,1,745.0,1,exact_single_district_plausible_set,True
+upper,8,CHICKASAW,PRES-DB5C7B652EEB43DD0F994CD1,South Houika 011,1,468.0,1,exact_single_district_plausible_set,True
+upper,8,CHICKASAW,PRES-33075CFE636300C5D3DCA001,Woodland 015,1,286.0,1,exact_single_district_plausible_set,True
+upper,8,PONTOTOC,PRES-F1EF3412CD823F5E89888603,Beckham Bec,1,424.0,2,ambiguous_plausible_set,True
+upper,8,PONTOTOC,PRES-BCF8D0A2336C6FC9C0B5ACBE,Robbs Ro,1,190.0,1,exact_single_district_plausible_set,True
+upper,8,PONTOTOC,PRES-4C75A583E6E30B36B9727F5F,Troy Tr,1,460.0,1,exact_single_district_plausible_set,True
+upper,8,YALOBUSHA,PRES-0B3B360510D403E3C46FA584,Five Coffeeville,1,610.0,2,ambiguous_plausible_set,True
+upper,8,YALOBUSHA,PRES-8B7DA24A5A007F41D02B2C02,Five Scuna - Vann's Mill,1,143.0,2,ambiguous_plausible_set,True
+upper,8,YALOBUSHA,PRES-48BA9286F304E54FB4643CCC,Four Coffeeville,1,514.0,2,ambiguous_plausible_set,True
+upper,9,LAFAYETTE,PRES-76B14E48FC3F0B83CD6BFAC1,Denmark-Laf Springs-Pine Bluff,1,429.0,1,exact_single_district_plausible_set,True
+upper,9,PANOLA,PRES-9B30080FDFCD573FDEB0B2DD,Cole's Point,1,326.0,3,ambiguous_plausible_set,True
+upper,9,PANOLA,PRES-6A1816F4F6A0B65B3F0421EA,East Batesville,1,1107.0,1,exact_single_district_plausible_set,True

@@ -1,0 +1,36 @@
+{
+  "primary_domain": "healthcare",
+  "policy_key": "healthcare_access",
+  "plain_english_policy": "Mandatory private insurance purchase with no explicit public alternative stated.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "Penalties for non-compliance (likely fines or taxes) disproportionately burden low-income individuals who cannot afford insurance, even if premium subsidies exist. No explicit progressive tax structure is mentioned."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "private_provision",
+      "strength": "primary",
+      "rationale": "Explicitly focuses on *requiring* private insurance purchase, with no mention of public programs or government-run healthcare."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Imposes a financial obligation (via penalties) on individuals who might otherwise opt out of insurance, effectively restricting their autonomy to forgo private coverage."
+    },
+    {
+      "axis": "labor_capital_alignment",
+      "pole": "capital_management",
+      "strength": "secondary",
+      "rationale": "Aligns with employer-provided or capital-driven healthcare systems (e.g., penalties may incentivize employers to offer insurance as a benefit)."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"requiring individuals to purchase health care insurance\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

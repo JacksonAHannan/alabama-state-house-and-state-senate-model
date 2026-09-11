@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-09-11T03:52:51+00:00",
+  "purpose": "Evidence for one accepted input revision on the approved Southern v3 release decision: the central warehouse file changed bytes after approval through metadata-only provenance runs; the approved run's analytical outputs are unchanged.",
+  "approved_model_run_id": "WAR-POST2016-V3-4AF79A70EAA8F39EBD49",
+  "approved_manifest_generated_at_utc": "2026-09-08T13:19:42.054201+00:00",
+  "declared_input": {
+    "path": "data/processed/elections/alabama_elections.sqlite",
+    "declared_sha256": "8cb49945d657b0d928dee1bfdaa33d4729c5c8fbda5c51217d1cc55492ba03b5",
+    "current_sha256": "77379bb50124ddbba150581c537765f79ffd48e804a596f6243aef8a0c9e4432",
+    "current_size_bytes": 5819056128
+  },
+  "warehouse_build_runs_after_declared_state": [
+    {
+      "build_run_id": "RUN-55E4997B16DA4330BF6E2EE7A1E5FD36",
+      "target": "shor_manifest_registry_metadata",
+      "started_at_utc": "2026-09-08T15:37:24.479919+00:00",
+      "completed_at_utc": "2026-09-08T15:37:24.496680+00:00",
+      "status": "validated",
+      "code_commit": "720c3507b147bc0a7c048c4c84ab0262920802c1"
+    },
+    {
+      "build_run_id": "RUN-91B2A0C3435548A1B6932613B3073995",
+      "target": "sos_legacy_source_cell_lineage",
+      "started_at_utc": "2026-09-08T15:22:48.115964+00:00",
+      "completed_at_utc": "2026-09-08T15:24:32.777294+00:00",
+      "status": "validated",
+      "code_commit": "720c3507b147bc0a7c048c4c84ab0262920802c1"
+    },
+    {
+      "build_run_id": "RUN-92AB8DE353AC47D6AECE3D7767C29FCD",
+      "target": "southern_war_preparation_no_finance",
+      "started_at_utc": "2026-09-08T13:16:44.055393+00:00",
+      "completed_at_utc": "2026-09-08T13:18:11.053705+00:00",
+      "status": "validated",
+      "code_commit": "88878b973fdac3cee95a8d8648da321e38e0021c"
+    }
+  ],
+  "run_notes": {
+    "RUN-91B2A0C3435548A1B6932613B3073995": "sos_legacy_source_cell_lineage: 228,882 unique legacy rows received five physical source-provenance fields only; all substantive source values, labels and ingest IDs unchanged (project_docs/audits/WAREHOUSE_COMPLETION_REPAIRS_2026_09_08.md).",
+    "RUN-55E4997B16DA4330BF6E2EE7A1E5FD36": "shor_manifest_registry_metadata: one registry row (SRC-3F0ED360408C5AD273F6) received access_url and license; no source contents changed."
+  },
+  "backup_file_hashes_2026_09_08": {
+    "data/processed/elections/backups/pre-legacy-source-locators-2026-09-08.sqlite": "7dc4def8fd96995a7e6c1584f0a5aa7ba97f612663d3a227a549845722a1d0e1",
+    "data/processed/elections/backups/pre-legacy-source-locators-integer-2026-09-08.sqlite": "7dc4def8fd96995a7e6c1584f0a5aa7ba97f612663d3a227a549845722a1d0e1",
+    "data/processed/elections/backups/pre-shor-registry-metadata-2026-09-08.sqlite": "5ab59f3ad577417ffcdc5e5bbff20564ef1d5acdc33cef770d7c3ddb4fed7087"
+  },
+  "byte_lineage_limitation": "No backup file reproduces the declared digest 8cb49945\u2026, and none can: every 2026-09-08 backup was written through sqlite3 Connection.backup(), which emits a fresh page image with schema_version cookie 1 (live file cookie 589; sqlite_master content hash identical, 302 objects), so backup bytes differ from the live file even for identical content (project_docs/audits/WAREHOUSE_RECOVERY_VERIFICATION_2026_09_10.md, finding 1, with a reproduced control experiment). The declared digest is therefore comparable only to the live file at fit time. The warehouse_build_run ledger records no build between RUN-92AB8DE353AC47D6AECE3D7767C29FCD (completed 13:18:11Z, immediately before the v3 fit at 13:19:42Z) and RUN-91B2A0C3435548A1B6932613B3073995 (15:22:48Z); the live file's later bytes are accounted for by those two metadata-only runs. Logical equivalence for the approved run is established by the replay below.",
+  "scratch_replay": {
+    "driver": "artifacts/war/alabama_dependency_rebuild_20260910/v3_scratch_replay.py",
+    "comparison": "artifacts/war/alabama_dependency_rebuild_20260910/v3_scratch/comparison.json",
+    "scratch_model_run_id": "WAR-POST2016-V3-142199F69DF8300F1E20",
+    "warehouse_build_run_id": "RUN-92AB8DE353AC47D6AECE3D7767C29FCD",
+    "input_hash_differences": [
+      "data/processed/elections/alabama_elections.sqlite"
+    ],
+    "code_hash_differences": [],
+    "diagnostics_equal": true,
+    "configuration_equal": true,
+    "all_outputs_identical_without_run_id": true,
+    "outputs": [
+      {
+        "output": "race_war.csv",
+        "approved_rows": 3660,
+        "scratch_rows": 3660,
+        "identical_without_run_id": true,
+        "approved_digest": "6b1460bbc1550bb1a0f87ca2e32e56babf262298e7f612991bd686eb6d8505a7",
+        "scratch_digest": "6b1460bbc1550bb1a0f87ca2e32e56babf262298e7f612991bd686eb6d8505a7"
+      },
+      {
+        "output": "candidate_cycle_war.csv",
+        "approved_rows": 7320,
+        "scratch_rows": 7320,
+        "identical_without_run_id": true,
+        "approved_digest": "edc14ee87e2ec92f2c651b8ff09372323f31ffd72f124526b31015bb17e75d21",
+        "scratch_digest": "edc14ee87e2ec92f2c651b8ff09372323f31ffd72f124526b31015bb17e75d21"
+      },
+      {
+        "output": "structural_forward_predictions.csv",
+        "approved_rows": 31620,
+        "scratch_rows": 31620,
+        "identical_without_run_id": true,
+        "approved_digest": "f596009ed36179eb6e3238303b769b5ababb10baa6b4d86d7447ff1ca32f2303",
+        "scratch_digest": "f596009ed36179eb6e3238303b769b5ababb10baa6b4d86d7447ff1ca32f2303"
+      },
+      {
+        "output": "structural_forward_metrics.csv",
+        "approved_rows": 120,
+        "scratch_rows": 120,
+        "identical_without_run_id": true,
+        "approved_digest": "2bbd498e873b95dcb79f38de2f046f18d45efab0490bf23f9d9c93601ddf6ddc",
+        "scratch_digest": "2bbd498e873b95dcb79f38de2f046f18d45efab0490bf23f9d9c93601ddf6ddc"
+      },
+      {
+        "output": "validation_cross_fitted_predictions.csv",
+        "approved_rows": 3660,
+        "scratch_rows": 3660,
+        "identical_without_run_id": true,
+        "approved_digest": "135bcc03d7d345ceb3069ee521fa7aa3ac73b5172687701d7508d8ef120a3732",
+        "scratch_digest": "135bcc03d7d345ceb3069ee521fa7aa3ac73b5172687701d7508d8ef120a3732"
+      },
+      {
+        "output": "structural_coefficients_by_cycle.csv",
+        "approved_rows": 204,
+        "scratch_rows": 204,
+        "identical_without_run_id": true,
+        "approved_digest": "2a60ebc8fe190c34b801d581e8e4cffde58186fb9ef328bba0a99e13e8696b88",
+        "scratch_digest": "2a60ebc8fe190c34b801d581e8e4cffde58186fb9ef328bba0a99e13e8696b88"
+      },
+      {
+        "output": "lag_diagnostics_by_cycle.csv",
+        "approved_rows": 6,
+        "scratch_rows": 6,
+        "identical_without_run_id": true,
+        "approved_digest": "08d40d6cdbf25edb3a134c4e17f97300272a2fa9f287156c76ffd87d95a491f3",
+        "scratch_digest": "08d40d6cdbf25edb3a134c4e17f97300272a2fa9f287156c76ffd87d95a491f3"
+      },
+      {
+        "output": "v2_correction_comparison.csv",
+        "approved_rows": 3660,
+        "scratch_rows": 3660,
+        "identical_without_run_id": true,
+        "approved_digest": "5aa4685bc417454787438a553a1d4f31e39c4db952bc01c1b57240b0ee83ffe0",
+        "scratch_digest": "5aa4685bc417454787438a553a1d4f31e39c4db952bc01c1b57240b0ee83ffe0"
+      },
+      {
+        "output": "coverage.csv",
+        "approved_rows": 94,
+        "scratch_rows": 94,
+        "identical_without_run_id": true,
+        "approved_digest": "7947f502d3c230b6f65c1fd01712cc59489299d2c24d2717128aa5bd44fe0c72",
+        "scratch_digest": "7947f502d3c230b6f65c1fd01712cc59489299d2c24d2717128aa5bd44fe0c72"
+      },
+      {
+        "output": "finance_forward_predictions.csv",
+        "approved_rows": 29003,
+        "scratch_rows": 29003,
+        "identical_without_run_id": true,
+        "approved_digest": "c18177500aa74027527e64529ad8194868fa183dccbe7d02c63b36b0f6cdee71",
+        "scratch_digest": "c18177500aa74027527e64529ad8194868fa183dccbe7d02c63b36b0f6cdee71"
+      },
+      {
+        "output": "finance_forward_metrics.csv",
+        "approved_rows": 78,
+        "scratch_rows": 78,
+        "identical_without_run_id": true,
+        "approved_digest": "e0900fcb946be3afa3899f0e9f25c10949e5103af440f9c5250b0bfcaba39fac",
+        "scratch_digest": "e0900fcb946be3afa3899f0e9f25c10949e5103af440f9c5250b0bfcaba39fac"
+      },
+      {
+        "output": "finance_nested_predictions.csv",
+        "approved_rows": 2754,
+        "scratch_rows": 2754,
+        "identical_without_run_id": true,
+        "approved_digest": "892b19e8a346563c05cbf8d4a4e01a27b1b98ac5086bacb7865bd4faf45c91bb",
+        "scratch_digest": "892b19e8a346563c05cbf8d4a4e01a27b1b98ac5086bacb7865bd4faf45c91bb"
+      },
+      {
+        "output": "finance_nested_metrics.csv",
+        "approved_rows": 8,
+        "scratch_rows": 8,
+        "identical_without_run_id": true,
+        "approved_digest": "ff23436f1dc813a9e84df33bf67ebb7084df6203b5867423aacab0d3dbe74af6",
+        "scratch_digest": "ff23436f1dc813a9e84df33bf67ebb7084df6203b5867423aacab0d3dbe74af6"
+      }
+    ],
+    "elapsed_seconds": 120.3,
+    "method": "Imported scripts/retrain_post2016_southern_war_v3.py with OUT/METHOD_REPORT/AUDIT_REPORT redirected to the scratch directory; ran main() against the live warehouse; hashed each CSV after removing the model_run_id column (first column) and compared with the approved bundle.",
+    "elapsed_seconds_note": "120.3 s on the primary's run; the independent reviewer's permitted re-run rewrote comparison.json with 22.6 s and identical digests/run id."
+  },
+  "gate_change": "scripts/southern_war_release_gate.py gains reviewed_input_revisions(); require_declared_files() accepts a drifted declared file only when the decision lists an entry with the exact declared and current digests and a matching review record hash. Tests: scripts/tests/test_southern_war_release_gate.py (reviewed_input_revision*, input_revision*).",
+  "authorization": "Owner instruction 2026-09-10: the rebuilt Southern WAR run is satisfactory and remains the run to use; downstream products are to catch up to it without discarding progress. Publication of docs/ remains a separate authorization.",
+  "not_established": [
+    "publication approval",
+    "downstream Alabama/forecast/ideology product validity (requires rebuild and their own gates)",
+    "row-level equality of the live warehouse with the pre-metadata state beyond the recorded transactional checks (recovery audit compared table counts and the one registry row; the 2026-09-08 application recorded full source-table expected-after digests)"
+  ],
+  "recovery_verification": "project_docs/audits/WAREHOUSE_RECOVERY_VERIFICATION_2026_09_10.md: restored backup pre-shor-registry-metadata-2026-09-08 quick_check/integrity_check ok, foreign_key_check 0; 120 tables compared, 118 identical, warehouse_build_run +1 and qa_warehouse_source_repair +1; registry row SRC-3F0ED360408C5AD273F6 differs only in original_url and license.",
+  "independent_review": {
+    "path": "project_docs/audits/SOUTHERN_V3_INPUT_REVISION_REVIEW_2026_09_10.md",
+    "sha256": "451ffaf512975ed1e42e63ff599da13b54c2984c675f802162dedcaf5449ef54",
+    "verdict": "PASS"
+  },
+  "second_revision": {
+    "declared_input": {
+      "path": "data/processed/elections/alabama_elections.sqlite",
+      "from_sha256": "77379bb50124ddbba150581c537765f79ffd48e804a596f6243aef8a0c9e4432",
+      "to_sha256": "e2dbdb9d414041bf61eec83bca8e3c9439eae35b03822dddec9ac3f41bfe72bd"
+    },
+    "warehouse_build_runs_between": [
+      {
+        "build_run_id": "RUN-55E4997B16DA4330BF6E2EE7A1E5FD36",
+        "target": "shor_manifest_registry_metadata",
+        "started_at_utc": "2026-09-08T15:37:24.479919+00:00",
+        "completed_at_utc": "2026-09-08T15:37:24.496680+00:00",
+        "status": "validated"
+      },
+      {
+        "build_run_id": "RUN-C0A15A7AB6A6403991BB5FE5143BACFF",
+        "target": "morgan_1994_fractional_cell_adjudication",
+        "started_at_utc": "2026-09-11T04:35:09.965158+00:00",
+        "completed_at_utc": "2026-09-11T04:36:30.671252+00:00",
+        "status": "validated"
+      },
+      {
+        "build_run_id": "RUN-22C8E3AE51C34579A6BCD9A49EF8C700",
+        "target": "historical_1994_cmo_baseline",
+        "started_at_utc": "2026-09-11T04:42:54.045707+00:00",
+        "completed_at_utc": "2026-09-11T04:42:54.189592+00:00",
+        "status": "validated"
+      },
+      {
+        "build_run_id": "RUN-70A750C82BEC43D686E5F4B1FE13461C",
+        "target": "historical_federal_district_baseline",
+        "started_at_utc": "2026-09-11T04:44:47.716478+00:00",
+        "completed_at_utc": "2026-09-11T04:44:47.756843+00:00",
+        "status": "validated"
+      }
+    ],
+    "change_scope": "RUN-C0A15A7AB6A6403991BB5FE5143BACFF: owner-adjudicated single 1994 Alabama Attorney General precinct cell 144.4 -> 144 (ADJ-1994-MORGAN-26001-AG2-K48; audits/MORGAN_1994_ADJUDICATION_REVIEW_2026_09_10.md PASS); historical_1994_cmo_baseline and historical_federal_district_baseline mart rebuilds (Alabama 1994-2022 statewide/federal allocation marts). None of these tables or the 1994 cycle are inputs of the post-2016 Southern legislative training frame consumed by the approved run.",
+    "scratch_replay": {
+      "scratch_model_run_id": "WAR-POST2016-V3-58FF952DE4FACDAF75BD",
+      "warehouse_build_run_id": "RUN-92AB8DE353AC47D6AECE3D7767C29FCD",
+      "input_hash_differences": [
+        "data/processed/elections/alabama_elections.sqlite"
+      ],
+      "code_hash_differences": [],
+      "diagnostics_equal": true,
+      "configuration_equal": true,
+      "all_outputs_identical_without_run_id": true,
+      "outputs": [
+        {
+          "output": "race_war.csv",
+          "approved_rows": 3660,
+          "scratch_rows": 3660,
+          "identical_without_run_id": true,
+          "approved_digest": "6b1460bbc1550bb1a0f87ca2e32e56babf262298e7f612991bd686eb6d8505a7",
+          "scratch_digest": "6b1460bbc1550bb1a0f87ca2e32e56babf262298e7f612991bd686eb6d8505a7"
+        },
+        {
+          "output": "candidate_cycle_war.csv",
+          "approved_rows": 7320,
+          "scratch_rows": 7320,
+          "identical_without_run_id": true,
+          "approved_digest": "edc14ee87e2ec92f2c651b8ff09372323f31ffd72f124526b31015bb17e75d21",
+          "scratch_digest": "edc14ee87e2ec92f2c651b8ff09372323f31ffd72f124526b31015bb17e75d21"
+        },
+        {
+          "output": "structural_forward_predictions.csv",
+          "approved_rows": 31620,
+          "scratch_rows": 31620,
+          "identical_without_run_id": true,
+          "approved_digest": "f596009ed36179eb6e3238303b769b5ababb10baa6b4d86d7447ff1ca32f2303",
+          "scratch_digest": "f596009ed36179eb6e3238303b769b5ababb10baa6b4d86d7447ff1ca32f2303"
+        },
+        {
+          "output": "structural_forward_metrics.csv",
+          "approved_rows": 120,
+          "scratch_rows": 120,
+          "identical_without_run_id": true,
+          "approved_digest": "2bbd498e873b95dcb79f38de2f046f18d45efab0490bf23f9d9c93601ddf6ddc",
+          "scratch_digest": "2bbd498e873b95dcb79f38de2f046f18d45efab0490bf23f9d9c93601ddf6ddc"
+        },
+        {
+          "output": "validation_cross_fitted_predictions.csv",
+          "approved_rows": 3660,
+          "scratch_rows": 3660,
+          "identical_without_run_id": true,
+          "approved_digest": "135bcc03d7d345ceb3069ee521fa7aa3ac73b5172687701d7508d8ef120a3732",
+          "scratch_digest": "135bcc03d7d345ceb3069ee521fa7aa3ac73b5172687701d7508d8ef120a3732"
+        },
+        {
+          "output": "structural_coefficients_by_cycle.csv",
+          "approved_rows": 204,
+          "scratch_rows": 204,
+          "identical_without_run_id": true,
+          "approved_digest": "2a60ebc8fe190c34b801d581e8e4cffde58186fb9ef328bba0a99e13e8696b88",
+          "scratch_digest": "2a60ebc8fe190c34b801d581e8e4cffde58186fb9ef328bba0a99e13e8696b88"
+        },
+        {
+          "output": "lag_diagnostics_by_cycle.csv",
+          "approved_rows": 6,
+          "scratch_rows": 6,
+          "identical_without_run_id": true,
+          "approved_digest": "08d40d6cdbf25edb3a134c4e17f97300272a2fa9f287156c76ffd87d95a491f3",
+          "scratch_digest": "08d40d6cdbf25edb3a134c4e17f97300272a2fa9f287156c76ffd87d95a491f3"
+        },
+        {
+          "output": "v2_correction_comparison.csv",
+          "approved_rows": 3660,
+          "scratch_rows": 3660,
+          "identical_without_run_id": true,
+          "approved_digest": "5aa4685bc417454787438a553a1d4f31e39c4db952bc01c1b57240b0ee83ffe0",
+          "scratch_digest": "5aa4685bc417454787438a553a1d4f31e39c4db952bc01c1b57240b0ee83ffe0"
+        },
+        {
+          "output": "coverage.csv",
+          "approved_rows": 94,
+          "scratch_rows": 94,
+          "identical_without_run_id": true,
+          "approved_digest": "7947f502d3c230b6f65c1fd01712cc59489299d2c24d2717128aa5bd44fe0c72",
+          "scratch_digest": "7947f502d3c230b6f65c1fd01712cc59489299d2c24d2717128aa5bd44fe0c72"
+        },
+        {
+          "output": "finance_forward_predictions.csv",
+          "approved_rows": 29003,
+          "scratch_rows": 29003,
+          "identical_without_run_id": true,
+          "approved_digest": "c18177500aa74027527e64529ad8194868fa183dccbe7d02c63b36b0f6cdee71",
+          "scratch_digest": "c18177500aa74027527e64529ad8194868fa183dccbe7d02c63b36b0f6cdee71"
+        },
+        {
+          "output": "finance_forward_metrics.csv",
+          "approved_rows": 78,
+          "scratch_rows": 78,
+          "identical_without_run_id": true,
+          "approved_digest": "e0900fcb946be3afa3899f0e9f25c10949e5103af440f9c5250b0bfcaba39fac",
+          "scratch_digest": "e0900fcb946be3afa3899f0e9f25c10949e5103af440f9c5250b0bfcaba39fac"
+        },
+        {
+          "output": "finance_nested_predictions.csv",
+          "approved_rows": 2754,
+          "scratch_rows": 2754,
+          "identical_without_run_id": true,
+          "approved_digest": "892b19e8a346563c05cbf8d4a4e01a27b1b98ac5086bacb7865bd4faf45c91bb",
+          "scratch_digest": "892b19e8a346563c05cbf8d4a4e01a27b1b98ac5086bacb7865bd4faf45c91bb"
+        },
+        {
+          "output": "finance_nested_metrics.csv",
+          "approved_rows": 8,
+          "scratch_rows": 8,
+          "identical_without_run_id": true,
+          "approved_digest": "ff23436f1dc813a9e84df33bf67ebb7084df6203b5867423aacab0d3dbe74af6",
+          "scratch_digest": "ff23436f1dc813a9e84df33bf67ebb7084df6203b5867423aacab0d3dbe74af6"
+        }
+      ],
+      "comparison": "artifacts/war/alabama_dependency_rebuild_20260910/v3_scratch/comparison.json (first revision's comparison preserved as comparison.rev1.json)",
+      "driver_note": "driver now monkeypatches v3.sha256 with a streaming equivalent (identical digests) to avoid a MemoryError reading the 5.8 GB file; the approved script's bytes are unchanged (code_hash_differences empty)"
+    },
+    "backup_before_mart_rebuilds": "data/processed/elections/backups/pre-1994-federal-mart-rebuild-2026-09-10.sqlite (quick_check ok; latest run RUN-C0A15A7AB6A6403991BB5FE5143BACFF)",
+    "independent_review": {
+      "path": "project_docs/audits/SOUTHERN_V3_INPUT_REVISION_2_REVIEW_2026_09_10.md",
+      "sha256": "c39c73e2be2812108c9ee2e2738903bae1898c353d2d5f2d50e90e9b7280517b",
+      "verdict": "PASS"
+    }
+  }
+}

@@ -71,6 +71,9 @@ def main() -> None:
     legislative = IDEOLOGY / "candidate_legislative_position_evidence_v3.csv"
     if legislative.exists():
         sources.append(legislative)
+    sponsorship = IDEOLOGY / "candidate_legislative_sponsorship_evidence_v3.csv"
+    if sponsorship.exists():
+        sources.append(sponsorship)
     sources = list(dict.fromkeys(sources))
     if not sources:
         raise FileNotFoundError("no ontology-v3 evidence sources found")

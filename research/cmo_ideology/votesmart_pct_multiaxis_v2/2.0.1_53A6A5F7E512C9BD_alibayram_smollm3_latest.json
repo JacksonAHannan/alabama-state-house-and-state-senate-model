@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "welfare_policy",
+  "plain_english_policy": "support_government_efforts_to_close_pay_gap_between_men_and_women",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "Supporting efforts to close the pay gap between men and women is a welfare policy expansion."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I believe that closing the pay gap requires proactive measures by government, including equal pay legislation and enforcement mechanisms.\" - Candidate's statement on social issues in 2018.",
+  "needs_human_review": true,
+  "review_reason": "The policy is described as supporting greater efforts by state government to close the pay gap between men and women."
+}

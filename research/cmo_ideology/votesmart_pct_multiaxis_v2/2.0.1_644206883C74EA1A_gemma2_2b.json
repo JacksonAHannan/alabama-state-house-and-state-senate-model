@@ -1,0 +1,30 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "restriction",
+  "plain_english_policy": "Restricting police practices based on race.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "labor_capital_alignment",
+      "pole": "labor",
+      "strength": "secondary",
+      "rationale": "This policy directly impacts labor relations by limiting police practices that could be seen as discriminatory or unfair to certain groups."
+    },
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "This policy directly impacts market governance by limiting police practices that could be seen as discriminatory or unfair to certain groups."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "secondary",
+      "rationale": "This policy directly impacts public provision by limiting police practices that could be seen as discriminatory or unfair to certain groups."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "l) Ban the use of racial profiling by law enforcement officers.",
+  "needs_human_review": false,
+  "review_reason": "This policy directly impacts labor relations by limiting police practices that could be seen as discriminatory or unfair to certain groups."
+}

@@ -1,0 +1,36 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "public_private_provision",
+  "plain_english_policy": "Redirecting government welfare funds from public entities to private (faith-based/community-based) organizations for delivery.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "public_private_provision",
+      "pole": "private_provision",
+      "strength": "primary",
+      "rationale": "The option explicitly directs welfare funding away from public entities toward private organizations."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "While not a direct restriction on eligibility or benefits, redirecting funds to private actors may reduce the scope of government-administered welfare programs (e.g., fewer public caseworkers, centralized services)."
+    },
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "Faith-based/community organizations may serve populations with lower administrative costs but could disproportionately benefit middle/upper-income areas or exclude certain groups (e.g., non-religious families)."
+    },
+    {
+      "axis": "childcare_support",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "If childcare is part of welfare funding, redirecting it to private actors could reduce public oversight of quality/accessibility (e.g., fewer subsidies or employer mandates)."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Redirect welfare funding to faith-based and community-based private organizations\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,5 +1,7 @@
 # Vote Smart candidate ideology in the CMO analysis
 
+> **Documentation status — 2026-09-05:** Compatibility integration snapshot. This describes an older augmented CMO interface and its sample counts, not the complete current public ideology page. Follow [current product routes](../CANONICAL_PIPELINES.md) for the accepted consumer. Do not replace a current outcome or evidence contract solely to match these legacy filenames.
+
 Vote Smart ideology is integrated after the canonical CMO baseline is built.
 This ordering is intentional: candidate ideology is an explanatory variable for
 overperformance and must not be included in the baseline that defines the

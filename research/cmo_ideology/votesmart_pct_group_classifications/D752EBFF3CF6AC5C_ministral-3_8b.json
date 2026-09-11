@@ -1,0 +1,11 @@
+{
+  "policy_key": "abortion_first_trimester_only",
+  "dimension": "abortion_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Abortions should be legal only during the first trimester of pregnancy.",
+  "evidence_quote": "Abortions should be legal in all circumstances as long as the procedure is completed within the first trimester of pregnancy.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

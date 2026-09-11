@@ -1,0 +1,10 @@
+{
+  "id": "DEF28E3E95382B2F",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "The bill mandates a brief daily 'quiet reflection' period, which is symbolic/ceremonial and lacks clear policy implications on the allowed axes (e.g., no funding, curriculum, or access changes).",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

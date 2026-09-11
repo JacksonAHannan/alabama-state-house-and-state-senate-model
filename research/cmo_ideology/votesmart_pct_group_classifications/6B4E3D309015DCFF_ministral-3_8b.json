@@ -1,0 +1,11 @@
+{
+  "policy_key": "white_collar_penalties",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase punishment for financial/non-violent corporate or professional crimes (e.g., fraud, insider trading).",
+  "evidence_quote": "Impose stricter penalties for those convicted of white-collar crimes.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

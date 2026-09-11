@@ -1,0 +1,11 @@
+{
+  "policy_key": "teacher_salary_increase_alabama",
+  "dimension": "education_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting higher compensation for teachers (salaries/benefits) in Alabama.",
+  "evidence_quote": "(No direct quote provided, but the option itself is a clear progressive policy stance.)",
+  "needs_human_review": false,
+  "review_reason": "The question lacks context or candidate-specific phrasing, so no explicit evidence quote can be copied. The policy direction is unambiguous."
+}

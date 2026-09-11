@@ -1,0 +1,11 @@
+{
+  "policy_key": "defense_funding_level",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Federal funding for defense (military, national security).",
+  "evidence_quote": "(No specific quote provided in the prompt; this is a generic example of how an Alabama candidate might respond. For actual scoring, you would need to see their selected number from the options\u2014e.g., '1' [low], '2', '3', or '4' [high]\u2014and cross-reference it with their stated rationale.)",
+  "needs_human_review": true,
+  "review_reason": "The prompt lacks a candidate\u2019s explicit choice/rationale for defense funding. A full answer would require: (1) the selected number and (2) any accompanying text justifying it (e.g., 'I support $X billion to maintain a strong military' or 'Defense spending should be cut by Y%')."
+}

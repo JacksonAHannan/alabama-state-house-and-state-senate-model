@@ -1,0 +1,10 @@
+{
+  "id": "6725D14C806DCB90",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Codifies existing acts and local laws with corrections and assigns duties to the Secretary of State; it is technical and administrative.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

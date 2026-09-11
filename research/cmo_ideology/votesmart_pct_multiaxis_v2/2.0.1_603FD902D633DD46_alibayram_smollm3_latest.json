@@ -1,0 +1,24 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "resource_development",
+  "plain_english_policy": "support_state_funding_for_traditional_domestic_energy_sources",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "State funding for traditional domestic energy sources may be seen as a restriction on the expansion of renewable or alternative energy sources."
+    },
+    {
+      "axis": "environmental_protection",
+      "pole": "weaken",
+      "strength": "primary",
+      "rationale": "Supporting state funding for coal, natural gas, and oil could weaken environmental protection efforts by prioritizing these traditional domestic energy sources over more environmentally friendly alternatives."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I believe that we should continue to explore all forms of energy production, including those currently available from fossil fuels. However, I also recognize the importance of transitioning towards renewable and sustainable energy sources.\"",
+  "needs_human_review": true,
+  "review_reason": "The policy's primary domain is environment, with a focus on resource development through state funding for traditional domestic energy sources."
+}

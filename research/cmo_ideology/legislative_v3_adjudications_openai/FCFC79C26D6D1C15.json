@@ -1,0 +1,10 @@
+{
+  "id": "FCFC79C26D6D1C15",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The measure combines expanded absentee-voting eligibility with elimination of on-site absentee voting, creating mixed-direction effects on voting access.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

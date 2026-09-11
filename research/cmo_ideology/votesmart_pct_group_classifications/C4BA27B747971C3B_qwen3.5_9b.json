@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_internet_regulation",
+  "dimension": "labor_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The candidate opposes federal regulation of the internet.",
+  "evidence_quote": "Regulating the Internet is not a responsibility of the federal government.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "C5C39958FA2B8327",
+  "decision": "map",
+  "primitive_axis": "police_authority",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Prohibits specified protest activity and authorizes criminal penalties and local enforcement regulations.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

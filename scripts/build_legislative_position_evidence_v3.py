@@ -9,13 +9,13 @@ from __future__ import annotations
 
 import hashlib
 import re
-import sqlite3
 import calendar
 from datetime import date
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
+from legiscan_eligibility import checked_standalone
 
 from ideology_ontology_v3 import ONTOLOGY_VERSION, family_loading, validate_primitive
 
@@ -126,7 +126,7 @@ def main() -> None:
     candidates = pd.read_csv(IDEOLOGY / "candidate_ideology_full_universe.csv", dtype=str).fillna("")
     candidates = candidates[candidates.member_source_id.ne("") & candidates.year.astype(int).isin(WINDOWS)].copy()
     candidates["year"] = candidates.year.astype(int)
-    with sqlite3.connect(DB) as con:
+    with checked_standalone(DB) as con:
         votes = pd.read_sql("SELECT * FROM member_vote WHERE vote IN ('Yea','Nay')", con)
     joined = votes.merge(accepted, on=["canonical_rollcall_id", "session_year", "chamber"], how="inner", suffixes=("_member", ""))
     joined["vote_date_parsed"] = pd.to_datetime(joined.vote_date, errors="coerce").dt.date

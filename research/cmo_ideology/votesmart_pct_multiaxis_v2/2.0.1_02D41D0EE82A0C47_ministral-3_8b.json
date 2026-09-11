@@ -1,0 +1,24 @@
+{
+  "primary_domain": "government_reform",
+  "policy_key": "redistricting_mechanism",
+  "plain_english_policy": "Use of a neutral or cross-partisan body to draw legislative district boundaries",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "institutional_populism",
+      "pole": "popular_control",
+      "strength": "secondary",
+      "rationale": "Removing partisan control of redistricting aligns with public oversight, though not explicitly framed as direct citizen empowerment."
+    },
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "primary",
+      "rationale": "Redistricting is a government intervention in electoral processes to ensure fair representation. An independent commission represents a structured form of intervention."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"independent AND/OR bipartisan commission\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

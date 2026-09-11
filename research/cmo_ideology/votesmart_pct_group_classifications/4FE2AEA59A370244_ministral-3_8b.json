@@ -1,0 +1,11 @@
+{
+  "policy_key": "defense_spending_increase",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increasing defense spending to higher levels than current budget allocations.",
+  "evidence_quote": "*[Verbatim placeholder\u2014no specific Alabama candidate-questionnaire text provided. In practice, this would be a direct quote from the option text, e.g.:] 'Yes, I support raising defense budgets by X% annually to maintain national security.'*",
+  "needs_human_review": true,
+  "review_reason": "No actual candidate response was provided; this is a template for how you would classify it if given text."
+}

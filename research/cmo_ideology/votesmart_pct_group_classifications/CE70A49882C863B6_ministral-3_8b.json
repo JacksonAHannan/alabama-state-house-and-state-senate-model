@@ -1,0 +1,11 @@
+{
+  "policy_key": "medical_marijuana_prescription",
+  "dimension": "healthcare_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting physician-prescribed medical marijuana aligns with conservative-leaning positions that prioritize limited government intervention in healthcare while allowing individual autonomy and market-based solutions.",
+  "evidence_quote": "Allow doctors to prescribe marijuana to their patients for medicinal purposes.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

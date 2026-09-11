@@ -1,0 +1,11 @@
+{
+  "policy_key": "budget_fee_increases",
+  "dimension": "government_reform_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Use fee increases (e.g., tolls, permits) to reduce budget deficits instead of raising taxes or cutting services.",
+  "evidence_quote": "n) Should fee increases be used to balance the state budget?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

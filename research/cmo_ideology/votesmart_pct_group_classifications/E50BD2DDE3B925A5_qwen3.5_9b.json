@@ -1,0 +1,11 @@
+{
+  "policy_key": "trade_barriers",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting removal of trade barriers aligns with free-market principles and global integration.",
+  "evidence_quote": "Do you generally support removing barriers to international trade (for example: tariffs, quotas, etc.)?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

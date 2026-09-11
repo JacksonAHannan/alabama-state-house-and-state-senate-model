@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_head_start_state_control",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting state control over federal Head Start programs is conventionally viewed as a progressive stance because it emphasizes local autonomy and community-based decision-making in early childhood education.",
+  "evidence_quote": "h) Support granting states limited control over Head Start programs.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

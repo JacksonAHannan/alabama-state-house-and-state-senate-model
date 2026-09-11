@@ -1,0 +1,10 @@
+{
+  "id": "82AD3E892A7D6816",
+  "decision": "map",
+  "primitive_axis": "gun_purchase_regulation",
+  "policy_pole": "strengthen",
+  "confidence": "medium",
+  "rationale": "Increasing the fee for pistol permits makes the permitting requirement more restrictive and strengthens regulation of lawful handgun acquisition.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

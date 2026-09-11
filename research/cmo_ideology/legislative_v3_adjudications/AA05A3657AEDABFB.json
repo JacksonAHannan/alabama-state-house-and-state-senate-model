@@ -1,0 +1,10 @@
+{
+  "id": "AA05A3657AEDABFB",
+  "decision": "map",
+  "primitive_axis": "gun_purchase_regulation",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "The bill explicitly creates a new crime for discharging a firearm, which strengthens regulation of gun use beyond existing laws.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

@@ -1,0 +1,24 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "environmental_protection",
+  "plain_english_policy": "Enact environmental regulations even if they are stricter than federal law.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "primary",
+      "rationale": "Enacting environmental regulations implies government intervention in the market to enforce compliance with stricter standards."
+    },
+    {
+      "axis": "environmental_protection",
+      "pole": "strengthen",
+      "strength": "primary",
+      "rationale": "The policy aims to strengthen environmental protection by enacting more stringent regulations than federal law."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Enact environmental regulations even if they are stricter than federal law.\" - Source: Year: 2006, Section: Environment & Energy Issues, Question: Indicate which principles you support (if any) regarding the environment and energy. Option: f)",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_third_party_ad_restrictions",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Restricts third-party ads mentioning candidates during election periods (60 days pre-primary, 30 days pre-general).",
+  "evidence_quote": "Support prohibiting ads containing candidates' name that are paid for by third parties from airing 60 days before a primary and 30 days before a general federal election.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "unemployment_reg_deregulation",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Remove government rules on businesses to boost investment and job growth.",
+  "evidence_quote": "Eliminate government regulations of the private sector in order to encourage investment and economic expansion.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

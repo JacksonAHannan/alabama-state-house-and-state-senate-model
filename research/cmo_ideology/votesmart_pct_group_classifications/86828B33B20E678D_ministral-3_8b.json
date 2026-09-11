@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_block_grants",
+  "dimension": "education_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Shift federal education funding to state control via block grants, reducing direct federal oversight.",
+  "evidence_quote": "Promote education flexibility by giving federal funds, in the form of **block grants**, to the states to spend it as they see fit.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "sanctions_north_korea",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Whether to impose additional economic and diplomatic sanctions on North Korea for violating its nuclear program agreements.",
+  "evidence_quote": "Should the United States apply greater economic and diplomatic sanctions against North Korea if it fails to abide by its agreement to suspend its nuclear program?",
+  "needs_human_review": true,
+  "review_reason": "The option is a direct question without explicit policy framing, so its ideological leaning depends on the candidate's interpretation of 'greater sanctions' and their stance on North Korea. Conservative candidates might support sanctions as a deterrent, while progressive candidates could oppose them due to humanitarian concerns or alternative diplomatic approaches."
+}

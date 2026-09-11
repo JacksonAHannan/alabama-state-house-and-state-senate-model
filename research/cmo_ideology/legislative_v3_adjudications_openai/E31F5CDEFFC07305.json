@@ -1,0 +1,10 @@
+{
+  "id": "E31F5CDEFFC07305",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Authorizes county-level disposition of abandoned or unclaimed firearms with notice and recordkeeping rules; this is a property-administration measure, not a clear gun-access or purchase-regulation policy.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

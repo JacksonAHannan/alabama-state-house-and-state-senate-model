@@ -1,0 +1,11 @@
+{
+  "policy_key": "trade_human_rights_link",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Whether a country's human rights record should influence whether the U.S. grants it trade benefits like 'most favored nation' status.",
+  "evidence_quote": "Should a nation's human rights record affect its normal trade relations (most favored nation status) with the United States?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

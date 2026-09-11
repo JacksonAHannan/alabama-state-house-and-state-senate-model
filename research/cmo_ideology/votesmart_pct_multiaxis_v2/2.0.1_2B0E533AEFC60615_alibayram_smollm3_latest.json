@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "childhood_savings",
+  "plain_english_policy": "Allow welfare recipients to remain eligible for benefits while saving money for education, starting a business, or buying a home.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "Allowing recipients to save money while receiving benefits expands the scope of welfare support."
+    },
+    {
+      "axis": "childcare_delivery",
+      "pole": "employer_incentive",
+      "strength": "secondary",
+      "rationale": "Support for saving money for education, business starting, or home buying implies an incentive to employers who provide childcare services."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Allow welfare recipients to remain eligible for benefits while saving money for education, starting a business, or buying a home.\" - Source: Questionnaire on Welfare Principles (1998).",
+  "needs_human_review": false,
+  "review_reason": ""
+}

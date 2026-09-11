@@ -1,0 +1,11 @@
+{
+  "policy_key": "congo_violence_us_involvement",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Whether the U.S. should intervene militarily or diplomatically to end violence in the DRC.",
+  "evidence_quote": "Should the United States be involved in bringing an end to the violence in the Democratic Republic of Congo?",
+  "needs_human_review": true,
+  "review_reason": "The option is a direct question, not a policy statement. The candidate\u2019s answer would determine the classification."
+}

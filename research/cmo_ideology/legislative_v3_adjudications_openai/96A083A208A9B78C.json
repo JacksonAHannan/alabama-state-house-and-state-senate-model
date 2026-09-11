@@ -1,0 +1,10 @@
+{
+  "id": "96A083A208A9B78C",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns warrant service procedures for inmates; the description is procedural and insufficient to establish a clear punishment, due-process, or police-authority direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

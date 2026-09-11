@@ -1,0 +1,10 @@
+{
+  "id": "93280A1CA054A6FC",
+  "decision": "map",
+  "primitive_axis": "education_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Directs the state to provide electronic textbooks and instructional materials to public-school students, expanding access to educational materials.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "right_to_strike",
+  "dimension": "labor_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Protects workers' ability to strike without employer retaliation (e.g., permanent replacement).",
+  "evidence_quote": "Support the right of workers to strike without fear of being permanently replaced.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

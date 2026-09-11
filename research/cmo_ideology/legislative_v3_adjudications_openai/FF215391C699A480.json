@@ -1,0 +1,10 @@
+{
+  "id": "FF215391C699A480",
+  "decision": "map",
+  "primitive_axis": "police_authority",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Authorizes community corrections officers to exercise law enforcement powers, directly expanding official policing authority.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

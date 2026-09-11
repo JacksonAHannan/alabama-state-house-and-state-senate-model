@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "childcare_delivery=employer_incentive",
+  "plain_english_policy": "Tax credit for employers that provide childcare",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "The policy expands access to childcare services for working poor families."
+    },
+    {
+      "axis": "business_scale_alignment",
+      "pole": "small_business",
+      "strength": "secondary",
+      "rationale": "The policy incentivizes employers to provide childcare, potentially benefiting small businesses."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Use federal TANF (Temporary Assistance to Needy Families) funds to extend health and child care subsidies to the working poor.",
+  "needs_human_review": false,
+  "review_reason": "The policy directly supports childcare access for working families. This is a welfare-related policy that expands access to services."
+}

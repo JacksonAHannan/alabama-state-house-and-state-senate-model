@@ -1,0 +1,10 @@
+{
+  "id": "1DC5585D890EA365",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Creates a broad security-officer licensing and regulatory framework with firearm provisions; the description is primarily administrative and does not clearly establish a single gun-access or gun-purchase-regulation pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

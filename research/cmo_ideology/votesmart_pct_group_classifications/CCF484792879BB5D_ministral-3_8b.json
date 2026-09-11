@@ -1,0 +1,11 @@
+{
+  "policy_key": "mandatory_health_insurance_purchase",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Would you back a law forcing people to buy health insurance?",
+  "evidence_quote": "(No direct quote provided in the option, but this is a classic progressive/libertarian-leaning position\u2014often opposed by conservatives who prioritize individual freedom over mandates.)",
+  "needs_human_review": true,
+  "review_reason": "This is a procedural context-dependent question (no candidate text provided)."
+}

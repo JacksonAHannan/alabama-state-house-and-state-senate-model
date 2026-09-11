@@ -1,0 +1,10 @@
+{
+  "id": "04B465D6F5BCAD40",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Deletes a submission and approval deadline for voluntary sentencing guidelines without clearly changing punishment, incarceration, or due-process policy.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

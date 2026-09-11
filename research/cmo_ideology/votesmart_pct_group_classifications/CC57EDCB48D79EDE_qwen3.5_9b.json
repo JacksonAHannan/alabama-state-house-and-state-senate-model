@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_internet_content_regulation",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting government regulation of internet content is conventionally associated with progressive positions that favor increased oversight and potential restrictions on online speech.",
+  "evidence_quote": "Implement regulation of Internet content.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

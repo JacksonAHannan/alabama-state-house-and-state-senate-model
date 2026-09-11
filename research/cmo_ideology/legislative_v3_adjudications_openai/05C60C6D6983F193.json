@@ -1,0 +1,10 @@
+{
+  "id": "05C60C6D6983F193",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Makes narrow wording changes to a broad infrastructure and recreation measure without a clear single policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "law_enforcement_state_funding",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option 'Law enforcement (State)' refers to state-level law enforcement funding rather than federal spending or tax levels. Since the question specifically asks for positions on *federal* funding and taxes, this response is procedurally irrelevant to the specific policy dimensions of budgetary priorities, defense spending, taxation categories listed in the prompt.",
+  "evidence_quote": "j) Law enforcement (State)",
+  "needs_human_review": false,
+  "review_reason": ""
+}

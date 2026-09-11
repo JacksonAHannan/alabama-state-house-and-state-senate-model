@@ -1,0 +1,10 @@
+{
+  "id": "D57B225FD2EAA0EA",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The measure makes technical trust-law and federal-compliance changes without clearly establishing one of the allowed healthcare policy poles.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

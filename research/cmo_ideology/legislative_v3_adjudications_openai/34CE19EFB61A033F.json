@@ -1,0 +1,10 @@
+{
+  "id": "34CE19EFB61A033F",
+  "decision": "map",
+  "primitive_axis": "incarceration",
+  "policy_pole": "reduce",
+  "confidence": "high",
+  "rationale": "Creates eligibility for discretionary medical and geriatric release of certain inmates, reducing incarceration for those granted release.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

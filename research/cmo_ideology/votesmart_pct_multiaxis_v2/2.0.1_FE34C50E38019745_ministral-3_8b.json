@@ -1,0 +1,24 @@
+{
+  "primary_domain": "education",
+  "policy_key": "education_governance",
+  "plain_english_policy": "Alignment with federal education standards",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "public_private_provision",
+      "pole": "private_provision",
+      "strength": "secondary",
+      "rationale": "Adoption of federal standards implies alignment with a framework that includes private entities (e.g., charter schools, voucher programs) and standardized curricula, which often involve private sector involvement in education delivery."
+    },
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "primary",
+      "rationale": "Federal standards represent a form of centralized intervention in state-level education governance, reducing autonomy for Alabama\u2019s local or state systems."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"adopting federal education standards\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "physician_assisted_suicide_alabama",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting the legalization of physician-assisted suicide (PAS) is conventionally a progressive stance, as it aligns with arguments for patient autonomy, end-of-life dignity, and reducing suffering in terminally ill individuals. Conservative opposition often frames PAS as morally equivalent to euthanasia or a slippery slope toward devaluing life.",
+  "evidence_quote": "(No explicit quote provided in the option; this is a direct question format.) *If this candidate answered 'Yes' to supporting legalization, the implied position would be: 'I support allowing terminally ill patients with physician supervision to end their lives humanely under strict medical guidelines.'*",
+  "needs_human_review": false,
+  "review_reason": ""
+}

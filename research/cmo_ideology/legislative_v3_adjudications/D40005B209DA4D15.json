@@ -1,0 +1,10 @@
+{
+  "id": "D40005B209DA4D15",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Authorizes school security personnel to carry firearms under certain conditions, expanding access to concealed/carry permits for this group.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

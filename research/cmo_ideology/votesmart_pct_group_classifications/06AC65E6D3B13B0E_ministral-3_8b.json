@@ -1,0 +1,11 @@
+{
+  "policy_key": "economic_aid_russia_nuclear_cond",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Conditional continuation of economic aid to Russia/former Soviet republics, contingent on no nuclear weapons proliferation.",
+  "evidence_quote": "Economic aid to Russia and the former republics should be continued unless Russia exports nuclear weapons or related technology.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

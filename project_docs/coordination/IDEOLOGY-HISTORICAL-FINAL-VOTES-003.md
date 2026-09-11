@@ -1,0 +1,14 @@
+# Task contract: IDEOLOGY-HISTORICAL-FINAL-VOTES-003
+
+- Accountable role: `legislative_ideology`
+- Owner: `/root`
+- Status: `complete`
+- Objective: Give every normalized historical journal roll call an explicit classification disposition and propagate measure-level synopsis/ideology only to final-passage and conference-report votes on the same measure.
+- Acceptance checks: Classification covers all 60,704 normalized roll calls; every historical row has a terminal ontology disposition; amendments, substitutes, budget-isolation votes, and ambiguous motions never inherit final-bill direction; same-measure final votes in both chambers can receive the same reviewed pole; tests pass and coverage deltas are documented.
+- Read scope: Historical House/Senate journal roll calls, recovered synopses, acts links, current comprehensive classifications, roll-call research SQLite, ontology-v3 rules and reviewed frontier bill evidence.
+- Write scope: `scripts/build_comprehensive_rollcall_classifications.py`; `scripts/build_historical_frontier_rollcall_ontology.py`; `scripts/build_frontier_rollcall_ontology.py`; `scripts/tests/test_comprehensive_rollcall_classifications.py`; `scripts/tests/test_historical_frontier_rollcall_ontology.py`; `scripts/tests/test_frontier_rollcall_ontology.py`; `data/processed/legislative/comprehensive_rollcall_classifications.csv`; `data/processed/legislative/comprehensive_bill_classifications.csv`; `data/processed/legislative/comprehensive_rollcall_direction_review_queue.csv`; `data/processed/legislative/historical_frontier_rollcall_ontology_v3.csv`; `data/processed/legislative/frontier_rollcall_ontology_v3.csv`; `data/processed/legislative/frontier_rollcall_ontology_v3_summary.csv`; `data/processed/legislative/rollcall_issue_classification` derived SQLite table; `data/processed/legislative/bill_issue_classification` derived SQLite table; `project_docs/audits/HISTORICAL_FINAL_VOTE_IDEOLOGY_COVERAGE.md`; this contract; `project_docs/coordination/active_tasks.csv`.
+- Upstream inputs: `IDEOLOGY-IDENTITY-SCORE-REPAIR-002`; current recovered historical measure synopsis ledger and normalized roll-call warehouse.
+- Expected outputs: Complete roll-call disposition ledger, safely expanded historical final-vote ontology, terminal-status summary, and before/after audit.
+- Warehouse mode: Requires the existing derived roll-call research warehouse writer for classification tables only; no canonical election warehouse schema or canonical identity table changes.
+- Handoff recipient: `legislative_ideology` downstream evidence rebuild, then `validation_release`.
+- Known risks: Amendments may reverse bill meaning; measure numbers repeat across sessions; OCR can misidentify a nearby bill; classification propagation must key on corrected session and measure identity and fail closed when inconsistent.

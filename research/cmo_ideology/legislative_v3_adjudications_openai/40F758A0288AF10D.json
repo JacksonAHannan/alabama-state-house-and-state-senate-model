@@ -1,0 +1,10 @@
+{
+  "id": "40F758A0288AF10D",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Updates references and industry classification codes without establishing a substantive market-governance policy direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

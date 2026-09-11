@@ -1,0 +1,30 @@
+{
+  "primary_domain": "criminal_justice",
+  "policy_key": "punitive",
+  "plain_english_policy": "increase penalties for illegal cockfighting",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "labor_capital_alignment",
+      "pole": "labor",
+      "strength": "secondary",
+      "rationale": "This policy directly impacts labor by increasing penalties for illegal activities that may affect the workforce."
+    },
+    {
+      "axis": "business_scale_alignment",
+      "pole": "small_business",
+      "strength": "secondary",
+      "rationale": "The impact of this policy on small businesses is secondary. This policy primarily affects illegal activities, which may have a broader impact on the economy."
+    },
+    {
+      "axis": "environmental_protection",
+      "pole": "weaken",
+      "strength": "secondary",
+      "rationale": "This policy does not directly address environmental protection or resource management. It focuses on criminal justice and public safety issues."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Do you support increasing penalties for illegal cockfighting?",
+  "needs_human_review": false,
+  "review_reason": "This question is about criminal justice and public safety. It does not directly address environmental protection or resource management."
+}

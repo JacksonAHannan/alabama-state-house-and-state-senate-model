@@ -1,0 +1,11 @@
+{
+  "policy_key": "trade_barriers_alabama_candidate",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "medium",
+  "plain_english_policy": "Supporting the elimination of trade restrictions like tariffs and quotas to increase global commerce.",
+  "evidence_quote": "Do you generally support removing barriers to international trade (for example: tariffs, quotas, etc.)?",
+  "needs_human_review": true,
+  "review_reason": "This is a direct question without explicit context from an Alabama candidate; scoring depends on their response or platform alignment."
+}

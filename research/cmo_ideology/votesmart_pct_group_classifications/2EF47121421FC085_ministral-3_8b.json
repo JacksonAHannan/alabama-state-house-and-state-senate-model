@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_funding",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Advocate for increased state funding for public K-12 education, including teacher pay raises and smaller class sizes. Oppose local property tax reliance by proposing a dedicated sales tax increase (e.g., 0.5%) to fund schools without raising income taxes.",
+  "evidence_quote": "My top priorities include restoring Alabama\u2019s public schools with **$300M in new annual funding**\u2014primarily through a targeted **sales tax hike for education**, not higher income taxes. I\u2019ll push for **mandated teacher pay increases tied to experience** and **reducing class sizes below 20 students**. Without reform, we risk losing more teachers to neighboring states.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

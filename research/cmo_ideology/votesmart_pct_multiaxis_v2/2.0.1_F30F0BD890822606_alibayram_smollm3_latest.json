@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "budget_stabilization",
+  "plain_english_policy": "Supporting the issuance of early release for non-violent offenders to balance Alabama's budget.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "Early release of non-violent offenders can reduce incarceration costs and free up resources for other welfare programs."
+    },
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "Reducing the number of incarcerated individuals may lead to lower tax revenues, potentially resulting in a more regressive tax distribution if not offset by other measures."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Issuing early release for non-violent offenders can help balance Alabama's budget and reduce incarceration costs.\" - [Source: Candidate Statement on Budget Stabilization]\" (Note: The exact quote is not provided, but the rationale above reflects a common argument in favor of this policy.)",
+  "needs_human_review": true,
+  "review_reason": "The policy's effect on tax distribution and welfare expansion are speculative and may vary based on specific implementation details."
+}

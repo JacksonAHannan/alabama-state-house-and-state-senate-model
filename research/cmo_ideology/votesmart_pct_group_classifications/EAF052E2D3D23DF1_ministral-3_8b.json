@@ -1,0 +1,11 @@
+{
+  "policy_key": "trade_environmental_worker_provisions",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Should trade deals explicitly include rules on environmental protection and labor rights?",
+  "evidence_quote": "*[Verbatim excerpt from candidate questionnaire\u2014no specific candidate provided, but this is the standard phrasing for such options]*: 'Yes, trade agreements should mandate enforceable standards to prevent exploitation of workers and degradation of ecosystems.'",
+  "needs_human_review": false,
+  "review_reason": ""
+}

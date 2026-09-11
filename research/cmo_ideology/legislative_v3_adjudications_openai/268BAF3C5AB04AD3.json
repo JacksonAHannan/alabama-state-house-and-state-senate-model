@@ -1,0 +1,10 @@
+{
+  "id": "268BAF3C5AB04AD3",
+  "decision": "map",
+  "primitive_axis": "education_curriculum_traditionalism",
+  "policy_pole": "traditional",
+  "confidence": "medium",
+  "rationale": "Authorizes display of the Ten Commandments at public schools, advancing traditional religious content in public education settings.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

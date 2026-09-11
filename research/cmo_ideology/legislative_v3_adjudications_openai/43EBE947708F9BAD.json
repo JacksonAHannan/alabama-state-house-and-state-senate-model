@@ -1,0 +1,10 @@
+{
+  "id": "43EBE947708F9BAD",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Extending a hospital assessment and Medicaid funding program for a fiscal year is primarily an administrative and funding measure, not a clear change on an allowed healthcare axis.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

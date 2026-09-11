@@ -1,0 +1,11 @@
+{
+  "policy_key": "healthcare_managed_competition",
+  "dimension": "healthcare_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Advocates a market-based approach to healthcare reform without government mandates or direct cost controls.",
+  "evidence_quote": "Support a 'managed competition' health care plan to contain costs and improve access that does not include mandated health alliances, government cost control powers, or employer/employee mandates.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

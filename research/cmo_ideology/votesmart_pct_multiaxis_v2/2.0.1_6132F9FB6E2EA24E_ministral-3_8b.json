@@ -1,0 +1,24 @@
+{
+  "primary_domain": "criminal_justice",
+  "policy_key": "prison_governance",
+  "plain_english_policy": "Outsource prison construction/management to private companies",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "public_private_provision",
+      "pole": "private_provision",
+      "strength": "primary",
+      "rationale": "Explicitly shifts prison operations from public to private sector."
+    },
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "Government contracts with private firms, implying regulatory oversight of market actors."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"contracting with private sector firms\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

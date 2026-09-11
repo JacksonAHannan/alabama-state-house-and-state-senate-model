@@ -1,0 +1,11 @@
+{
+  "policy_key": "international_policy_other_principles",
+  "dimension": "other",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option 'Other or expanded principles' is non-specific and does not indicate a clear conservative or progressive stance on international policy.",
+  "evidence_quote": "8) Other or expanded principles",
+  "needs_human_review": true,
+  "review_reason": "Option text provides no substantive detail to determine ideological direction."
+}

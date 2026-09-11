@@ -1,0 +1,11 @@
+{
+  "policy_key": "legislative_priorities_open",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks candidates to state their own priorities without providing a specific policy stance.",
+  "evidence_quote": "Please explain what your top two or three priorities will be if elected. Please explain how you would obtain any additional government funding needed to implement these priorities.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

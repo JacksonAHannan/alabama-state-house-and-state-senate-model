@@ -1,0 +1,11 @@
+{
+  "policy_key": "cleaner_burning_fuels_requirement",
+  "dimension": "environment_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Mandate cleaner-burning fuels to reduce pollution.",
+  "evidence_quote": "Require the use of cleaner burning fuels in order to prevent pollution.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

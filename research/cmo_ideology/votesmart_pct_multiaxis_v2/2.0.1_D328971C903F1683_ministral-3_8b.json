@@ -1,0 +1,24 @@
+{
+  "primary_domain": "energy",
+  "policy_key": "market_governance=intervention",
+  "plain_english_policy": "The option advocates for reducing state or regulatory control over electricity provision by introducing competition among utility companies, allowing consumers to select their power supplier. This implies a shift from monopolistic or heavily regulated utilities toward a more market-driven system.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "market_autonomy",
+      "strength": "primary",
+      "rationale": "The option explicitly calls for restructuring to allow consumer choice, which directly increases market autonomy by reducing regulatory or state intervention in utility operations."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "private_provision",
+      "strength": "secondary",
+      "rationale": "By enabling competition among private companies (rather than a single public or regulated entity), the option implicitly favors private provision of electricity services."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"allow consumers to choose their power company\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

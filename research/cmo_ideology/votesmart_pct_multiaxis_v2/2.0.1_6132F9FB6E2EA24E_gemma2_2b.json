@@ -1,0 +1,24 @@
+{
+  "primary_domain": "business",
+  "policy_key": "business_scale_alignment",
+  "plain_english_policy": "small_business",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "The policy directly involves private sector firms in the management of state prisons."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "This option restricts government involvement in prison construction and management, potentially leading to a reduction in public provision of this service."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "Support contracting with private sector firms to build and/or manage state prisons.",
+  "needs_human_review": false,
+  "review_reason": "This option directly involves the private sector in prison management. This is a clear example of market-based solutions being proposed for public services."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "A6E165CE75E093E0",
+  "decision": "map",
+  "primitive_axis": "due_process",
+  "policy_pole": "strengthen",
+  "confidence": "medium",
+  "rationale": "Authorizing remote inmate participation at parole hearings expands the inmate\u2019s opportunity to participate in a consequential proceeding.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "charity_tax_deduction",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Expand tax breaks for donations to poverty/homelessness charities.",
+  "evidence_quote": "Increase the income tax deduction on individual contributions made to charities that help the poor and homeless.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

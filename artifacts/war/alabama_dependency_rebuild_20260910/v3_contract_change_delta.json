@@ -1,0 +1,20 @@
+{
+  "final_run": "WAR-POST2016-V3-530FBD4238CC483E557C",
+  "predecessor_reviewed": "WAR-POST2016-V3-A937708D4E0A5232D3F5",
+  "prior_13_outputs_identical_without_run_id": true,
+  "new_output": "training_frame.csv",
+  "diagnostics_equal": true,
+  "configuration_equal": true,
+  "training_frame": {
+    "loader": "scripts/southern_war_training_frame.py",
+    "rows": 3660,
+    "sha256": "cc9204796781b99a9d2945bf1a2caf9bcd1cba8c3f90d100622c5b162025874b",
+    "source": "mart_southern_war_training_with_finance WHERE cycle > 2016 AND training_status = strict_war_ready_no_finance"
+  },
+  "changes": [
+    "scripts/retrain_post2016_southern_war_v3.py: warehouse declared by training-frame digest instead of whole-file hash; training_frame.csv output",
+    "scripts/southern_war_training_frame.py (new)",
+    "scripts/southern_war_release_gate.py: require_declared_training_frame",
+    "project_docs/model/POST2016_SOUTHERN_WAR_V3_FIELD_CONTRACT.md: Manifest input declarations section"
+  ]
+}

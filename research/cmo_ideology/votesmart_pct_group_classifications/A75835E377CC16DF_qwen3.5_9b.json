@@ -1,0 +1,11 @@
+{
+  "policy_key": "welfare_to_work_requirements",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option supports maintaining existing welfare-to-work requirements as a condition for receiving federal block grants.",
+  "evidence_quote": "d) Maintain current welfare-to-work requirements in order for states to qualify for block grants.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

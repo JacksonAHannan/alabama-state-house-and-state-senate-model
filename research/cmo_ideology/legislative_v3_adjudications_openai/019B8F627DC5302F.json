@@ -1,0 +1,10 @@
+{
+  "id": "019B8F627DC5302F",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Merely designates an existing act with an honorary name and has no substantive policy effect.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

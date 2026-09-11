@@ -1,0 +1,30 @@
+{
+  "primary_domain": "criminal_justice",
+  "policy_key": "hate_crime_legislation",
+  "plain_english_policy": "Support for legislation that treats crimes motivated by bias against protected groups (race, ethnicity, religion, sex, age, disability, sexual orientation) as hate crimes.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "This policy would likely expand the scope of criminal justice and potentially increase the number of crimes prosecuted."
+    },
+    {
+      "axis": "business_scale_alignment",
+      "pole": "small_business",
+      "strength": "secondary",
+      "rationale": "This policy would likely impact small businesses, as they may be more susceptible to hate crimes."
+    },
+    {
+      "axis": "labor_capital_alignment",
+      "pole": "labor",
+      "strength": "secondary",
+      "rationale": "This policy could potentially affect labor relations and employer-employee dynamics, as it may impact the way businesses handle discrimination."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Require that crimes based on race, ethnic background, religious belief, sex, age, disability, or sexual orientation be prosecuted as hate crimes.",
+  "needs_human_review": false,
+  "review_reason": "This option is about supporting legislation to prosecute crimes motivated by bias against protected groups. This policy would likely expand the scope of criminal justice and potentially increase the number of crimes prosecuted."
+}

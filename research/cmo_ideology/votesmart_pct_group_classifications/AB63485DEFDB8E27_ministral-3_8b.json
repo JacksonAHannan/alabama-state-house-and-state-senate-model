@@ -1,0 +1,11 @@
+{
+  "policy_key": "merit_based_vs_family_based_visas",
+  "dimension": "immigration_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Preferring visas awarded based on skills/work value over those granted primarily to family members of U.S. citizens/residents.",
+  "evidence_quote": "Support merit-based visas over family-based visas.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

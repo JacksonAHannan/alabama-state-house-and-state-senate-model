@@ -1,0 +1,11 @@
+{
+  "policy_key": "increase_penalties_illegal_guns",
+  "dimension": "guns_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increasing penalties for illegal gun possession is generally viewed as a progressive stance on public safety and criminal justice reform.",
+  "evidence_quote": "Increase penalties for the possession of any illegal guns.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

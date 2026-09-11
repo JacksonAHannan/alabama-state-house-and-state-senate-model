@@ -1,0 +1,18 @@
+{
+  "primary_domain": "business",
+  "policy_key": "market_governance",
+  "plain_english_policy": "restriction",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "market_autonomy",
+      "strength": "secondary",
+      "rationale": "This option restricts the ability of Political Action Committees to contribute to candidates. This is a form of market intervention, as it limits the freedom of action for businesses in political contributions."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "2) Political Action Committee",
+  "needs_human_review": false,
+  "review_reason": "This option restricts the ability of Political Action Committees to contribute to candidates. This is a form of market intervention, as it limits the freedom of action for businesses in political contributions."
+}

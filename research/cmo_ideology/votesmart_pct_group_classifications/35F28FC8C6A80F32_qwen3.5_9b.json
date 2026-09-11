@@ -1,0 +1,11 @@
+{
+  "policy_key": "foreign_aid_restriction",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The candidate supports restricting foreign aid to only emergency humanitarian situations involving civilian lives.",
+  "evidence_quote": "Foreign aid should only be given when extraordinary circumstances and disaster threaten the lives of civilian populations.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

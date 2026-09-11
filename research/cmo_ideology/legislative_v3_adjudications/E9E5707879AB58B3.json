@@ -1,0 +1,10 @@
+{
+  "id": "E9E5707879AB58B3",
+  "decision": "map",
+  "primitive_axis": "drug_criminalization",
+  "policy_pole": "criminalize",
+  "confidence": "high",
+  "rationale": "The bill prohibits smoking or vaping marijuana in a motor vehicle when a child is present, introduces criminal penalties, and mandates reporting to the Department of Human Resources. This clearly expands criminalization of drug-related behavior.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

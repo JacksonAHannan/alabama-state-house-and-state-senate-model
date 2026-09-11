@@ -1,0 +1,10 @@
+{
+  "id": "99B5FEC3BB3807DD",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Temporary event-specific licensure exemption combined with consent provisions; administrative and mixed-direction rather than a durable, single healthcare policy position.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

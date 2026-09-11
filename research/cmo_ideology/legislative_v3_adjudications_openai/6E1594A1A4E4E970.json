@@ -1,0 +1,10 @@
+{
+  "id": "6E1594A1A4E4E970",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The measure primarily clarifies statutory definitions and treatment of ectopic pregnancies; it is definitional and does not clearly establish a general abortion-access or funding direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

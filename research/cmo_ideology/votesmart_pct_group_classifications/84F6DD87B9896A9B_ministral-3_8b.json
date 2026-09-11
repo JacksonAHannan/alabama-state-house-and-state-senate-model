@@ -1,0 +1,11 @@
+{
+  "policy_key": "african_aids_abstinence_education",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Promoting abstinence-only education as part of AIDS prevention funding in African nations.",
+  "evidence_quote": "Should aid to African nations for AIDS prevention fund abstinence education?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

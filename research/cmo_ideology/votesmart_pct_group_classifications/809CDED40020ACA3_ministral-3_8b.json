@@ -1,0 +1,11 @@
+{
+  "policy_key": "state_autonomy_on_immigration",
+  "dimension": "immigration_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Allowing Alabama to set its own immigration rules without federal interference.",
+  "evidence_quote": "Increase state autonomy in handling immigration issues.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

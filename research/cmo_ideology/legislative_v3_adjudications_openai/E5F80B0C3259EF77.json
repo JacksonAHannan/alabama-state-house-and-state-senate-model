@@ -1,0 +1,10 @@
+{
+  "id": "E5F80B0C3259EF77",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Authorizing and auditing a county jail commissary is an administrative correctional-finance measure, not a clear change in punishment, incarceration, due process, police authority, or drug policy.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

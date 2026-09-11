@@ -1,0 +1,10 @@
+{
+  "id": "75E931AA36F660A9",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The revised shotgun definition is not described sufficiently to determine whether it expands or restricts gun access or changes purchase regulation.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

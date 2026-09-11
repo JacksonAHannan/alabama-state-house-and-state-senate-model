@@ -1,0 +1,181 @@
+{
+  "build_run_id": "RUN-0FB41102683B421BBCDB98FAD04D1462",
+  "validation": {
+    "states": 14,
+    "input_features": 46065,
+    "normalized_precincts": 45990,
+    "repaired_input_geometries": 15,
+    "result_geometry_links": 45990,
+    "review_states": 0,
+    "state_audits": [
+      {
+        "state_code": "AL",
+        "input_features": 2000,
+        "normalized_precincts": 2000,
+        "repaired_input_geometries": 0,
+        "dem_votes": 729607.0,
+        "rep_votes": 1318629.0,
+        "other_votes": 75588.0,
+        "result_geometry_links": 2000,
+        "reconciliation_status": "exact",
+        "note": "Repeated zero-vote geometry fragments dissolved; vote fields required to agree"
+      },
+      {
+        "state_code": "AR",
+        "input_features": 2525,
+        "normalized_precincts": 2525,
+        "repaired_input_geometries": 3,
+        "dem_votes": 380494.0,
+        "rep_votes": 684872.0,
+        "other_votes": 65310.0,
+        "result_geometry_links": 2525,
+        "reconciliation_status": "exact",
+        "note": "Repeated zero-vote geometry fragments dissolved; vote fields required to agree"
+      },
+      {
+        "state_code": "FL",
+        "input_features": 6115,
+        "normalized_precincts": 6041,
+        "repaired_input_geometries": 0,
+        "dem_votes": 4504975.0,
+        "rep_votes": 4617886.0,
+        "other_votes": 374556.0,
+        "result_geometry_links": 6041,
+        "reconciliation_status": "exact",
+        "note": "Repeated zero-vote geometry fragments dissolved; vote fields required to agree"
+      },
+      {
+        "state_code": "GA",
+        "input_features": 2700,
+        "normalized_precincts": 2700,
+        "repaired_input_geometries": 1,
+        "dem_votes": 1877963.0,
+        "rep_votes": 2089104.0,
+        "other_votes": 125306.0,
+        "result_geometry_links": 2700,
+        "reconciliation_status": "exact",
+        "note": "Repeated zero-vote geometry fragments dissolved; vote fields required to agree"
+      },
+      {
+        "state_code": "KY",
+        "input_features": 3733,
+        "normalized_precincts": 3733,
+        "repaired_input_geometries": 0,
+        "dem_votes": 628847.0,
+        "rep_votes": 1202957.0,
+        "other_votes": 91571.0,
+        "result_geometry_links": 3733,
+        "reconciliation_status": "exact",
+        "note": "Repeated zero-vote geometry fragments dissolved; vote fields required to agree"
+      },
+      {
+        "state_code": "LA",
+        "input_features": 3704,
+        "normalized_precincts": 3704,
+        "repaired_input_geometries": 0,
+        "dem_votes": 780154.0,
+        "rep_votes": 1178638.0,
+        "other_votes": 70240.0,
+        "result_geometry_links": 3704,
+        "reconciliation_status": "exact",
+        "note": "Repeated zero-vote geometry fragments dissolved; vote fields required to agree"
+      },
+      {
+        "state_code": "MO",
+        "input_features": 3324,
+        "normalized_precincts": 3323,
+        "repaired_input_geometries": 0,
+        "dem_votes": 1071068.0,
+        "rep_votes": 1594511.0,
+        "other_votes": 135870.0,
+        "result_geometry_links": 3323,
+        "reconciliation_status": "exact",
+        "note": "Repeated zero-vote geometry fragments dissolved; vote fields required to agree"
+      },
+      {
+        "state_code": "MS",
+        "input_features": 1797,
+        "normalized_precincts": 1797,
+        "repaired_input_geometries": 0,
+        "dem_votes": 485131.0,
+        "rep_votes": 700714.0,
+        "other_votes": 23512.0,
+        "result_geometry_links": 1797,
+        "reconciliation_status": "exact",
+        "note": "Repeated zero-vote geometry fragments dissolved; vote fields required to agree"
+      },
+      {
+        "state_code": "NC",
+        "input_features": 2704,
+        "normalized_precincts": 2704,
+        "repaired_input_geometries": 6,
+        "dem_votes": 2189316.0,
+        "rep_votes": 2362631.0,
+        "other_votes": 189617.0,
+        "result_geometry_links": 2704,
+        "reconciliation_status": "exact",
+        "note": "Repeated zero-vote geometry fragments dissolved; vote fields required to agree"
+      },
+      {
+        "state_code": "OK",
+        "input_features": 1956,
+        "normalized_precincts": 1956,
+        "repaired_input_geometries": 1,
+        "dem_votes": 420375.0,
+        "rep_votes": 949136.0,
+        "other_votes": 83481.0,
+        "result_geometry_links": 1956,
+        "reconciliation_status": "exact",
+        "note": "Repeated zero-vote geometry fragments dissolved; vote fields required to agree"
+      },
+      {
+        "state_code": "SC",
+        "input_features": 2234,
+        "normalized_precincts": 2234,
+        "repaired_input_geometries": 0,
+        "dem_votes": 855373.0,
+        "rep_votes": 1155389.0,
+        "other_votes": 92265.0,
+        "result_geometry_links": 2234,
+        "reconciliation_status": "exact",
+        "note": "Repeated zero-vote geometry fragments dissolved; vote fields required to agree"
+      },
+      {
+        "state_code": "TN",
+        "input_features": 1985,
+        "normalized_precincts": 1985,
+        "repaired_input_geometries": 0,
+        "dem_votes": 870695.0,
+        "rep_votes": 1522925.0,
+        "other_votes": 114407.0,
+        "result_geometry_links": 1985,
+        "reconciliation_status": "exact",
+        "note": "Repeated zero-vote geometry fragments dissolved; vote fields required to agree"
+      },
+      {
+        "state_code": "TX",
+        "input_features": 8832,
+        "normalized_precincts": 8832,
+        "repaired_input_geometries": 4,
+        "dem_votes": 3877865.0,
+        "rep_votes": 4684856.0,
+        "other_votes": 420687.0,
+        "result_geometry_links": 8832,
+        "reconciliation_status": "exact",
+        "note": "Repeated zero-vote geometry fragments dissolved; vote fields required to agree"
+      },
+      {
+        "state_code": "VA",
+        "input_features": 2456,
+        "normalized_precincts": 2456,
+        "repaired_input_geometries": 0,
+        "dem_votes": 1981473.0,
+        "rep_votes": 1769443.0,
+        "other_votes": 231836.0,
+        "result_geometry_links": 2456,
+        "reconciliation_status": "exact",
+        "note": "Repeated zero-vote geometry fragments dissolved; vote fields required to agree"
+      }
+    ]
+  }
+}

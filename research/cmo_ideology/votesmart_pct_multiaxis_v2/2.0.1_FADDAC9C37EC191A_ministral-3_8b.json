@@ -1,0 +1,30 @@
+{
+  "primary_domain": "criminal_justice",
+  "policy_key": "labor_rights",
+  "plain_english_policy": "Treatment of minors in criminal proceedings",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "civil_social_liberty",
+      "pole": "restrict",
+      "strength": "secondary",
+      "rationale": "Prosecuting minors as adults removes protections afforded to juveniles under juvenile justice systems, which are designed to prioritize rehabilitation and developmental considerations."
+    },
+    {
+      "axis": "criminal_punishment",
+      "pole": "punitive",
+      "strength": "primary",
+      "rationale": "Adult prosecution typically involves harsher penalties (e.g., incarceration in adult facilities) compared to juvenile systems, which often emphasize rehabilitation."
+    },
+    {
+      "axis": "labor_rights",
+      "pole": "restrict",
+      "strength": "secondary",
+      "rationale": "Juvenile justice systems are designed to balance accountability with the rights of minors (e.g., education access, family ties). Adult prosecution removes these safeguards."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Should a minor accused of a violent crime be prosecuted as an adult?\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -64,7 +64,8 @@ def load_observations()->pd.DataFrame:
 
 def historical_weights(cycle:int,chamber:str)->pd.DataFrame:
     if cycle==1994:
-        path=ELECT/'1994_precinct_district_ballot_weights.csv';weights=pd.read_csv(path)
+        path=ELECT/'1994_precinct_district_ballot_weights.csv'
+        weights=pd.read_csv(path,dtype={'county_key':str,'precinct_key':str})
         return weights[weights.chamber.eq(chamber)][['county_key','precinct_key','district','allocation_weight']]
     return legislative_weights(cycle).query('chamber == @chamber')[
         ['county_key','precinct_key','district','allocation_weight']]

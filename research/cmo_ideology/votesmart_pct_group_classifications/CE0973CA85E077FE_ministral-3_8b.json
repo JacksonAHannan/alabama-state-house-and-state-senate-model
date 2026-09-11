@@ -1,0 +1,11 @@
+{
+  "policy_key": "poverty_homeless_shelters_funding",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase public spending on homeless shelters and affordable housing for low-income individuals.",
+  "evidence_quote": "Increase funding of homeless shelters and low income housing projects.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

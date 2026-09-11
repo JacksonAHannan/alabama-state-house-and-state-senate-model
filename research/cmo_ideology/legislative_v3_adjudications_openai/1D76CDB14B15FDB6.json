@@ -1,0 +1,10 @@
+{
+  "id": "1D76CDB14B15FDB6",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Codifies statutes and local laws and makes code corrections, without substantive policy changes on the allowed criminal-justice axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

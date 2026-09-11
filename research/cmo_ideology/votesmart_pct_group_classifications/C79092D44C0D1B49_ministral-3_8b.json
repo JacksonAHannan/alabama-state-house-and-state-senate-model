@@ -1,0 +1,11 @@
+{
+  "policy_key": "official_language",
+  "dimension": "immigration_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Make English the official language of the U.S. (e.g., federal documents, government communications).",
+  "evidence_quote": "Establish **English as the official national language** and require its use in all federal government operations.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

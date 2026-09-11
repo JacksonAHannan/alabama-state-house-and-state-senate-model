@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_missile_defense_funding",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option text does not specify a funding level or stance on the National Missile Defense Program; it is merely an item in a questionnaire asking for candidate preference.",
+  "evidence_quote": "g) National Missile Defense Program",
+  "needs_human_review": false,
+  "review_reason": ""
+}

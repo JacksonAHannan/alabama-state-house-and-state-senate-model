@@ -1,0 +1,24 @@
+{
+  "primary_domain": "government_reform",
+  "policy_key": "term_limits",
+  "plain_english_policy": "Imposing fixed maximum service durations for elected state legislators",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "institutional_populism",
+      "pole": "popular_control",
+      "strength": "secondary",
+      "rationale": "Term limits could be framed as reducing entrenched elites' power, aligning with popular sovereignty. However, the wording does not explicitly prioritize direct citizen control mechanisms (e.g., ballot initiatives)."
+    },
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "primary",
+      "rationale": "Term limits constitute a direct restriction on legislative autonomy, akin to regulatory intervention in market behavior."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"limits on the number of terms\"",
+  "needs_human_review": true,
+  "review_reason": "The option is context-free; its populist intent (if any) depends on broader campaign messaging not provided. Also, no explicit distinction between *how* limits are enforced (e.g., constitutional amendment vs. legislative rule)."
+}

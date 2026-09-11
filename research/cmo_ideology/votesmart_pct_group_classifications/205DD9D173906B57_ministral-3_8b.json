@@ -1,0 +1,11 @@
+{
+  "policy_key": "legislative_priorities_unspecified",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Open-ended response with no clear ideological leaning.",
+  "evidence_quote": "*[Candidate\u2019s text here\u2014if provided, e.g.,] \u2018I prioritize expanding broadband access in rural Alabama and investing in STEM education to grow our workforce.\u2019*",
+  "needs_human_review": true,
+  "review_reason": "No explicit conservative/progressive framing; context-dependent."
+}

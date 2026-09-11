@@ -1,0 +1,11 @@
+{
+  "policy_key": "drug_importation",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Allowing foreign prescription drugs to be imported into the U.S. (e.g., from Canada or other countries with lower prices).",
+  "evidence_quote": "*[No direct quote provided in your input, but this option is conventionally associated with progressive/liberal healthcare reform\u2014often framed as a cost-saving measure to reduce prescription drug prices for consumers.]*",
+  "needs_human_review": false,
+  "review_reason": "The policy\u2019s ideological leaning is widely documented in U.S. political discourse, though specific candidate phrasing would require direct evidence."
+}

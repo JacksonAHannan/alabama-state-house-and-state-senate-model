@@ -1,0 +1,10 @@
+{
+  "id": "C1C4E3A8F840770E",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "rehabilitative",
+  "confidence": "high",
+  "rationale": "Requires a women's residential transition center within the parole system, supporting structured reentry rather than additional punishment.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,36 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "public_private_provision",
+  "plain_english_policy": "Directly reduce public-sector employment via forced leave or termination to cut costs.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "The mechanism of furloughs/layoffs is a direct state intervention in employment decisions, but it does not alter market rules (e.g., hiring/firing laws) or labor-capital dynamics."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "primary",
+      "rationale": "Reducing state employee compensation/headcount directly restricts public-sector welfare (services, jobs, benefits)."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "private_provision",
+      "strength": "secondary",
+      "rationale": "While not explicitly shifting to private provision, the reduction of public-sector capacity implicitly prioritizes private alternatives (e.g., outsourcing)."
+    },
+    {
+      "axis": "labor_capital_alignment",
+      "pole": "capital_management",
+      "strength": "secondary",
+      "rationale": "Furloughs/layoffs align with capital\u2019s cost-cutting priorities, though the mechanism is state-directed."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Instituting mandatory furloughs AND/OR layoffs\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

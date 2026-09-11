@@ -1,0 +1,10 @@
+{
+  "id": "09C94ABE47C562EF",
+  "decision": "map",
+  "primitive_axis": "land_use_property_rights",
+  "policy_pole": "regulation",
+  "confidence": "high",
+  "rationale": "The bill prohibits condemnation for private commercial/residential development, effectively restricting property rights by limiting government's ability to acquire land for non-public uses.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

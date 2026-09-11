@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_env_cleanup_responsibility",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option assigns primary responsibility for environmental cleanup to the federal government. In U.S. political discourse, expanding federal authority over domestic policy areas like environment is conventionally associated with progressive or liberal positions that favor centralized regulation and national standards.",
+  "evidence_quote": "4) Environmental cleanup",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "lower_social_security_cola",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option proposes reducing the annual cost-of-living adjustments (COLA) for Social Security benefits. In conventional U.S. political discourse, limiting or cutting government benefit increases is viewed as a fiscally conservative measure aimed at controlling federal spending and slowing program growth.",
+  "evidence_quote": "Lower Social Security's annual cost-of-living increases.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

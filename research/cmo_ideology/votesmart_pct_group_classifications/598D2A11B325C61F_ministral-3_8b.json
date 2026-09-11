@@ -1,0 +1,11 @@
+{
+  "policy_key": "term_limits_alabama_governors",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Term limits are generally a progressive reform to prevent incumbency power consolidation and reduce corruption risks by forcing periodic turnover in leadership.",
+  "evidence_quote": "(No direct quote provided for this option, but the question itself\u2014'Do you support limits on the number of terms for Alabama governors?'\u2014implies a progressive stance if affirmed, as term limits are conventionally framed as a check against entrenched power and corruption.)",
+  "needs_human_review": false,
+  "review_reason": "The option is procedurally clear: affirming it aligns with progressive governance reform goals (e.g., reducing oligarchy risks)."
+}

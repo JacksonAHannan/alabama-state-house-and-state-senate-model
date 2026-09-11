@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "welfare_policy",
+  "plain_english_policy": "Do you support any limits on campaign contributions to state candidates?",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Campaign contribution limits are a restriction on the amount of money that can be donated to political campaigns."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I believe in limiting campaign contributions to ensure fairness and prevent undue influence.\" - Candidate Statement (2018 Campaign Finance & Government Reform Issues Section)",
+  "needs_human_review": true,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_environment_mining_fees",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option proposes increasing fees for mining on federal lands to better protect natural resources and generate revenue.",
+  "evidence_quote": "Revise the 1872 mining law to increase the fees charged to mining companies using federal lands.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "8BDFCF8D87283995",
+  "decision": "map",
+  "primitive_axis": "due_process",
+  "policy_pole": "strengthen",
+  "confidence": "medium",
+  "rationale": "Prohibits specified correctional practices affecting pregnant and postpartum inmates, strengthening protections against harmful custodial treatment.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

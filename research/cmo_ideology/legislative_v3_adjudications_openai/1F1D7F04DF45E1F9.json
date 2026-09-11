@@ -1,0 +1,10 @@
+{
+  "id": "1F1D7F04DF45E1F9",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Extends a reporting deadline and governs agency access to offender information; it is administrative and does not establish a clear permitted policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

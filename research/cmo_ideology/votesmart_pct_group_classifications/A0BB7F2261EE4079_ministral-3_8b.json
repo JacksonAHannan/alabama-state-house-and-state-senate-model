@@ -1,0 +1,11 @@
+{
+  "policy_key": "parent_directed_education_funding",
+  "dimension": "education_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Parents can use tax-free savings accounts to pay for any participating school (public, private, or religious).",
+  "evidence_quote": "Allow parents to use tax-free savings accounts to send their children to any participating school: public, private or religious.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

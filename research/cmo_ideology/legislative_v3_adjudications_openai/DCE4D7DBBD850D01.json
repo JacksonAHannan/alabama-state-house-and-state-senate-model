@@ -1,0 +1,10 @@
+{
+  "id": "DCE4D7DBBD850D01",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Changes the qualifications and employment status of a parole board member but does not clearly alter punishment, incarceration, due process, police authority, or drug policy.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

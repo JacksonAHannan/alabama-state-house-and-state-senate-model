@@ -1,0 +1,11 @@
+{
+  "policy_key": "foreign_policy_aid_to_russia",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option supports continuing economic aid to Russia and former Soviet republics with a specific condition: it should stop only if Russia exports nuclear weapons or related technology. This is primarily an administrative safety clause rather than a broad ideological stance on foreign interventionism.",
+  "evidence_quote": "Economic aid to Russia and the former republics should be continued unless Russia exports nuclear weapons or related technology.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

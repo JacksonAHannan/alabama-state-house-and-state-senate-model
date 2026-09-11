@@ -1,0 +1,5 @@
+comparison,n,difference,p_value
+first_entry_winner_vs_loser_raw,410,30.078870055037854,6.099688958324668e-45
+first_entry_winner_vs_loser_residual_cmo,377,14.512238388832703,1.0936391497311769e-14
+within_person_raw_change_after_incumbency_contested_only,22,-12.013625310540084,0.05869007110595703
+within_person_residual_cmo_change_after_incumbency_contested_only,22,-11.828250777600447,0.005928516387939453

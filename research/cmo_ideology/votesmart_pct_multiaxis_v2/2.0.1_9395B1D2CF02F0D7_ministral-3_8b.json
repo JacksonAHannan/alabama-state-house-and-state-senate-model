@@ -1,0 +1,24 @@
+{
+  "primary_domain": "civil_social",
+  "policy_key": "gun_access",
+  "plain_english_policy": "Decriminalization of small-amount marijuana possession (effectively expanding personal liberty for this specific conduct).",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "civil_social_liberty",
+      "pole": "expand",
+      "strength": "primary",
+      "rationale": "Removal of criminal penalties for a specific act (possession) constitutes an expansion of civil liberty in this domain."
+    },
+    {
+      "axis": "criminal_punishment",
+      "pole": "rehabilitative",
+      "strength": "secondary",
+      "rationale": "Decriminalization implies a shift from punitive to non-punitive treatment for minor offenses, aligning with rehabilitative goals."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Should the possession of small amounts of marijuana be decriminalized?\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

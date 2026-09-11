@@ -1,0 +1,10 @@
+{
+  "id": "B7F5751AE1FF9197",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "This appears to be a technical/regulatory update (HVAC contractor licensing requirements) with no clear policy direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_budget_job_training_block_grants",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option supports block grants for job training programs rather than direct federal spending.",
+  "evidence_quote": "Do you support the use of block grants given to states, rather than federal spending, in the following areas? Option: f) Job training programs",
+  "needs_human_review": true,
+  "review_reason": "This is a procedural question about funding mechanisms (block grants vs. direct spending). While decentralization often aligns with conservative principles and job training can be progressive or neutral depending on implementation details, this specific option lacks sufficient context to determine the candidate's ideological direction without knowing their stance on federalism versus social welfare."
+}

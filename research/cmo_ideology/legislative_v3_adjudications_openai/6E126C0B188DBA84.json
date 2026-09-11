@@ -1,0 +1,10 @@
+{
+  "id": "6E126C0B188DBA84",
+  "decision": "map",
+  "primitive_axis": "education_curriculum_traditionalism",
+  "policy_pole": "pluralist",
+  "confidence": "high",
+  "rationale": "Recognizes American Sign Language as a foreign language for curriculum requirements and extends that recognition to all students.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

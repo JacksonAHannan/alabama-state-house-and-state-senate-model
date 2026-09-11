@@ -1,0 +1,24 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "business_scale_alignment",
+  "plain_english_policy": "Allowing consumers to choose their power company",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "market_autonomy",
+      "strength": "secondary",
+      "rationale": "This policy allows for market-based competition in the electric utility industry."
+    },
+    {
+      "axis": "business_scale_alignment",
+      "pole": "small_business",
+      "strength": "primary",
+      "rationale": "The policy directly impacts small businesses by allowing them to compete with larger companies."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Restructure the electric utility industry to allow consumers to choose their power company.",
+  "needs_human_review": false,
+  "review_reason": "This policy promotes market competition in the electric utility industry. It allows consumers to choose their power provider."
+}

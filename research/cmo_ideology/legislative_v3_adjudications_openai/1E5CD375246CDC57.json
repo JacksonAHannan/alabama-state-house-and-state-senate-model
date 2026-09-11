@@ -1,0 +1,10 @@
+{
+  "id": "1E5CD375246CDC57",
+  "decision": "map",
+  "primitive_axis": "incarceration",
+  "policy_pole": "reduce",
+  "confidence": "medium",
+  "rationale": "Creates and expands alternative-sentencing and pre-adjudication-release programs, providing alternatives to incarceration.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

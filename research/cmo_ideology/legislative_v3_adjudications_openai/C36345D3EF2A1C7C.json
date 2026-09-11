@@ -1,0 +1,10 @@
+{
+  "id": "C36345D3EF2A1C7C",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns a supervision-fee schedule and repeal; it does not clearly establish an allowed punishment, incarceration, due-process, police-authority, or drug-policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

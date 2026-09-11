@@ -17,6 +17,15 @@ def main() -> None:
         raise ValueError("Bill identifiers must be unique")
     if set(manual.bill_id) - set(bills.bill_id):
         raise ValueError("Manual decisions reference unknown archive bills")
+    # Bills that actually carry a recorded individual roll call, read from the
+    # roll-call universe itself. Manual-file membership is NOT a proxy for this:
+    # the frontier bill layer now adjudicates every archived bill (including the
+    # ~19.7k that never received a floor vote), so roll-call presence must be
+    # taken from the roll-call records, not from "is this bill reviewed".
+    rollcall_bill_ids = set(pd.to_numeric(
+        pd.read_csv(LEG / "comprehensive_rollcall_classifications.csv",
+                    usecols=["bill_id"], low_memory=False)["bill_id"],
+        errors="coerce").dropna().astype(int))
 
     text_summary = (texts.groupby("bill_id", as_index=False)
                     .agg(text_version_count=("doc_id", "nunique"),
@@ -24,9 +33,13 @@ def main() -> None:
                          text_document_types=("document_type", lambda s: ";".join(sorted(set(s.dropna().astype(str))))),
                          text_hashes=("text_hash", lambda s: ";".join(sorted(set(s.dropna().astype(str)))))))
     ledger = bills.merge(text_summary, on="bill_id", how="left", validate="one_to_one")
-    ledger = ledger.merge(manual, on=["bill_id", "session_year", "bill_number"], how="left",
-                          validate="one_to_one", suffixes=("", "_review"), indicator=True)
-    has_vote = ledger._merge.eq("both")
+    # Join on the unique bill_id only. A few archived bills disagree with the
+    # bill-classification metadata on session_year/bill_number, so a composite
+    # key would drop their adjudication; bill_id is unique on both sides.
+    ledger = ledger.merge(manual.drop(columns=["session_year", "bill_number"]),
+                          on="bill_id", how="left", validate="one_to_one",
+                          suffixes=("", "_review"))
+    has_vote = ledger.bill_id.isin(rollcall_bill_ids)
     ledger["recorded_individual_rollcall"] = has_vote
     ledger["archive_disposition"] = ledger["decision"]
     ledger.loc[~has_vote, "archive_disposition"] = "no_recorded_individual_rollcall"
@@ -44,7 +57,6 @@ def main() -> None:
     ledger["terminal_disposition"] = True
     ledger["text_version_count"] = ledger.text_version_count.fillna(0).astype(int)
     ledger["text_available"] = ledger.text_available.fillna(False).astype(bool)
-    ledger = ledger.drop(columns="_merge")
     if len(ledger) != len(bills) or not ledger.bill_id.is_unique:
         raise AssertionError("Archive ledger failed completeness invariants")
     ledger.to_csv(LEG / "frontier_archive_bill_ledger.csv", index=False)

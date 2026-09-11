@@ -1,0 +1,10 @@
+{
+  "id": "2DFCB91090A6D5CF",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Anonymous infant surrender through baby boxes does not clearly correspond to any of the permitted healthcare axes and poles.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

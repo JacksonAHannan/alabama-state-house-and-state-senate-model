@@ -1,0 +1,11 @@
+{
+  "policy_key": "nafta_support",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Position on NAFTA (North American Free Trade Agreement) as a trade policy framework.",
+  "evidence_quote": "*[No direct quote provided in the question, but conventionally, support for NAFTA is associated with free-market principles and reduced government intervention in trade\u2014typically conservative/libertarian. Opposition often aligns with progressive critiques of corporate globalization or labor protections.]",
+  "needs_human_review": true,
+  "review_reason": "This classification relies on conventional ideological framing; actual candidate responses would require explicit text for precise scoring."
+}

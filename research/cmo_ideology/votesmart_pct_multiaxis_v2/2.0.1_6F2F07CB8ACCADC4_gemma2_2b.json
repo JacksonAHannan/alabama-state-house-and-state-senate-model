@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "expansion",
+  "plain_english_policy": "Increase funding for emergency agencies",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "business_scale_alignment",
+      "pole": "small_business",
+      "strength": "secondary",
+      "rationale": "The text does not specify a business scale. It is unclear if the policy would impact small or large businesses."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "This option aims to increase funding for emergency agencies, which suggests an expansion of welfare services."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Increase state funding for state and local emergency agencies to prevent or respond to terrorism.",
+  "needs_human_review": false,
+  "review_reason": "The policy is about increasing funding for emergency agencies. This suggests an expansion of welfare services."
+}

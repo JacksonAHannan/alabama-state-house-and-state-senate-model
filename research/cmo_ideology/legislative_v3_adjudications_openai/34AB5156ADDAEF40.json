@@ -1,0 +1,10 @@
+{
+  "id": "34AB5156ADDAEF40",
+  "decision": "map",
+  "primitive_axis": "environmental_protection",
+  "policy_pole": "weaken",
+  "confidence": "high",
+  "rationale": "Exempts specified fuel storage tanks from environmental covenant requirements.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

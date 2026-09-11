@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "welfare_policy",
+  "plain_english_policy": "Supports limits on political party contributions to state candidates.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "The policy restricts the amount of money that can be contributed by political parties to state candidates."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I believe we need to limit the influence of special interest groups and big money in our politics. That means limiting campaign contributions from corporations, unions, and wealthy individuals.\" - Candidate's statement on campaign finance reform.",
+  "needs_human_review": true,
+  "review_reason": "The policy is described as supporting limits on political party contributions to state candidates, which falls under the welfare_policy category of restriction. The rationale provided explains that this action restricts the influence of special interest groups and big money in politics."
+}

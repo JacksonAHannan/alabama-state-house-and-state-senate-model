@@ -1,0 +1,18 @@
+{
+  "primary_domain": "education",
+  "policy_key": "childcare_delivery",
+  "plain_english_policy": "Support sex education programs which stress safe sexual practices.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "Sex education is a form of educational support that expands access to information and resources for individuals regarding sexual health."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Support sex education programs which stress safe sexual practices.\" - Candidate's response in the questionnaire.",
+  "needs_human_review": true,
+  "review_reason": ""
+}

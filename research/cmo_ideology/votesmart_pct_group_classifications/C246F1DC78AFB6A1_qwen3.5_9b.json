@@ -1,0 +1,11 @@
+{
+  "policy_key": "line_item_veto",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting a line-item veto is conventionally viewed as progressive because it limits executive spending power and reduces the size of government.",
+  "evidence_quote": "Support giving the President the power of the line item veto for items concerning appropriations.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

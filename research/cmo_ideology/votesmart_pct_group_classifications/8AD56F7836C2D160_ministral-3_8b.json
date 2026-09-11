@@ -1,0 +1,11 @@
+{
+  "policy_key": "corporate_taxes_alabama",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Whether to reduce or maintain corporate income tax rates.",
+  "evidence_quote": "*[No explicit quote provided in the prompt, but conventionally:]",
+  "needs_human_review": true,
+  "review_reason": "The option 'j) Corporate income taxes' lacks a specific text citation. A conservative stance would typically favor *lowering* corporate tax rates (e.g., 'I support reducing corporate income taxes to boost competitiveness'). A progressive stance might argue for *maintaining or increasing* them (e.g., 'Corporate taxes should be raised to fund public services'). Without the candidate\u2019s exact wording, this cannot be scored programmatically."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "6902ABA405003EF0",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The measure is a mixed local-law package involving service, jail telephone, and permit-fee provisions, with no clear gun-policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

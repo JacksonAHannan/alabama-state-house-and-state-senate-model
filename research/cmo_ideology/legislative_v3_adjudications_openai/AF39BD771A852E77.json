@@ -1,0 +1,10 @@
+{
+  "id": "AF39BD771A852E77",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Recognizes qualifying out-of-state handgun-carry licenses, expanding reciprocal access to carry handguns in Alabama.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

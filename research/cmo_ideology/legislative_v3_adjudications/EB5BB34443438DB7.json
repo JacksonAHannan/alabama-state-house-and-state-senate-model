@@ -1,0 +1,10 @@
+{
+  "id": "EB5BB34443438DB7",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "A temporary (time-limited) Medicaid surcharge is a technical/definitional adjustment with no substantive policy impact on healthcare access or structure.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

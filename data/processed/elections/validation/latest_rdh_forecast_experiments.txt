@@ -1,0 +1,36 @@
+﻿                    model                          scenario  races  mean_margin_change  mean_absolute_change  max_absolute_change  winner_changes
+ensemble_ramp_ridge_80_20     current_2022_total_population     47            0.000000              0.000000             0.000000               0
+ensemble_ramp_ridge_80_20                     rdh_2024_cvap     47           -0.002795              0.002951             0.009341               0
+ensemble_ramp_ridge_80_20     rdh_2024_cvap_education_delta     47           -0.040078              0.050015             0.162917               0
+ensemble_ramp_ridge_80_20            rdh_l2_2024_registered     47           -0.001725              0.002538             0.009113               0
+ensemble_ramp_ridge_80_20                rdh_l2_2024_voters     47           -0.006106              0.006141             0.015933               0
+ensemble_ramp_ridge_80_20            rdh_projected_2026_vap     47           -0.000248              0.001041             0.003261               0
+ensemble_ramp_ridge_80_20 rdh_projected_vap_education_delta     47           -0.037531              0.048497             0.161990               0
+            post2016_ramp     current_2022_total_population     47            0.000000              0.000000             0.000000               0
+            post2016_ramp                     rdh_2024_cvap     47            0.000000              0.000000             0.000000               0
+            post2016_ramp     rdh_2024_cvap_education_delta     47            0.000000              0.000000             0.000000               0
+            post2016_ramp            rdh_l2_2024_registered     47            0.000000              0.000000             0.000000               0
+            post2016_ramp                rdh_l2_2024_voters     47            0.000000              0.000000             0.000000               0
+            post2016_ramp            rdh_projected_2026_vap     47            0.000000              0.000000             0.000000               0
+            post2016_ramp rdh_projected_vap_education_delta     47            0.000000              0.000000             0.000000               0
+     ramp_all_extra_trees     current_2022_total_population     47            0.000000              0.000000             0.000000               0
+     ramp_all_extra_trees                     rdh_2024_cvap     47            0.021145              0.134994             0.928277               0
+     ramp_all_extra_trees     rdh_2024_cvap_education_delta     47           -0.113923              0.219575             1.033248               0
+     ramp_all_extra_trees            rdh_l2_2024_registered     47            0.053133              0.108948             0.610854               0
+     ramp_all_extra_trees                rdh_l2_2024_voters     47            0.109061              0.297213             2.071149               0
+     ramp_all_extra_trees            rdh_projected_2026_vap     47           -0.034378              0.048234             0.773629               0
+     ramp_all_extra_trees rdh_projected_vap_education_delta     47           -0.172034              0.202780             0.922282               0
+    ramp_all_spline_ridge     current_2022_total_population     47            0.000000              0.000000             0.000000               0
+    ramp_all_spline_ridge                     rdh_2024_cvap     47           -0.098067              0.104388             0.452266               0
+    ramp_all_spline_ridge     rdh_2024_cvap_education_delta     47           -0.335028              0.355991             1.082427               0
+    ramp_all_spline_ridge            rdh_l2_2024_registered     47           -0.011854              0.076060             0.449758               0
+    ramp_all_spline_ridge                rdh_l2_2024_voters     47           -0.146251              0.174438             0.874051               0
+    ramp_all_spline_ridge            rdh_projected_2026_vap     47           -0.030021              0.045165             0.233201               0
+    ramp_all_spline_ridge rdh_projected_vap_education_delta     47           -0.266982              0.316520             1.034965               0
+ramp_demographic_response     current_2022_total_population     47            0.000000              0.000000             0.000000               0
+ramp_demographic_response                     rdh_2024_cvap     47           -0.187778              0.198276             0.627523               0
+ramp_demographic_response     rdh_2024_cvap_education_delta     47           -0.416554              0.438091             1.122082               0
+ramp_demographic_response            rdh_l2_2024_registered     47           -0.115883              0.170523             0.612245               0
+ramp_demographic_response                rdh_l2_2024_voters     47           -0.410248              0.412578             1.070409               0
+ramp_demographic_response            rdh_projected_2026_vap     47           -0.016658              0.069942             0.219094               1
+ramp_demographic_response rdh_projected_vap_education_delta     47           -0.245434              0.295908             1.059827               0

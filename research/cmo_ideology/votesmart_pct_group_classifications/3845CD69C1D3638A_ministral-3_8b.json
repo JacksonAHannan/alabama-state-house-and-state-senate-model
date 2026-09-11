@@ -1,0 +1,11 @@
+{
+  "policy_key": "abolish_federal_welfare",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "End all federal welfare programs entirely.",
+  "evidence_quote": "Abolish all federal welfare programs.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

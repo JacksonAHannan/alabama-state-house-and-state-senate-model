@@ -1,0 +1,10 @@
+{
+  "id": "67FFABB82C5857FE",
+  "decision": "map",
+  "primitive_axis": "due_process",
+  "policy_pole": "strengthen",
+  "confidence": "medium",
+  "rationale": "Requires confirmation testing when a parolee or probationer disputes a positive result, adding a procedural safeguard against revocation based on an unverified test.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "314755A634F6FF53",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "Authorizes an identification-card program for parolees, an administrative reentry measure that does not directly establish one of the listed criminal-justice poles.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

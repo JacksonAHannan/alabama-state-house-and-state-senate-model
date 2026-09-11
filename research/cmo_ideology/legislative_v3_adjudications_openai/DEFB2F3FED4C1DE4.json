@@ -1,0 +1,10 @@
+{
+  "id": "DEFB2F3FED4C1DE4",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Further providing for local pistol-permit fees is a technical fee measure without a sufficiently clear direction on gun access or purchase regulation.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

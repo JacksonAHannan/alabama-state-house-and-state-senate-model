@@ -1,0 +1,18 @@
+{
+  "primary_domain": "abortion",
+  "policy_key": "abolition_access",
+  "plain_english_policy": "restriction",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "abortion_access",
+      "pole": "restrict",
+      "strength": "secondary",
+      "rationale": "no"
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "Should marriage only be between one man and one woman?",
+  "needs_human_review": false,
+  "review_reason": "This question asks about the restriction of marriage to a specific definition. This is a policy that would restrict access to marriage for individuals who do not fit this definition."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "DFB6CB1A898D14A3",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Continuation of Sunset Law review is administrative and does not establish a concrete policy direction on the listed environmental or resource axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

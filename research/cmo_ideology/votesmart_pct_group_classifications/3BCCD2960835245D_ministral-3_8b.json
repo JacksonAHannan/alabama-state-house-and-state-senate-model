@@ -1,0 +1,11 @@
+{
+  "policy_key": "mining_law_revision",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase fees on mining companies using federal lands to reduce reliance on public resources and incentivize sustainable practices.",
+  "evidence_quote": "Revise the 1872 mining law to increase the fees charged to mining companies using federal lands.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

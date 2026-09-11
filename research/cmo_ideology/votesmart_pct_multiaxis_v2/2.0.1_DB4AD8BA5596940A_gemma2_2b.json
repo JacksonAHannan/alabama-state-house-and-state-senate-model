@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "business_scale_alignment",
+  "plain_english_policy": "Redirect welfare funding to faith-based and community-based private organizations.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "secondary"
+    },
+    {
+      "axis": "business_scale_alignment",
+      "pole": "small_business",
+      "strength": "secondary",
+      "rationale": "secondary"
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Redirect welfare funding to faith-based and community-based private organizations.",
+  "needs_human_review": false,
+  "review_reason": "This option suggests a shift in how welfare funds are allocated. This is likely to have implications for the size of government programs and the role of private organizations."
+}

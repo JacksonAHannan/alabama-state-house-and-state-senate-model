@@ -1,0 +1,10 @@
+{
+  "id": "D7552A90EC1E4EA9",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns permitting, financial assurance, and fee administration for centralized waste facilities; it is technical and does not establish a sufficiently clear allowed environmental policy direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "law_enforcement_federalism",
+  "dimension": "government_reform_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Assign primary responsibility for law enforcement to the federal government rather than state/local governments.",
+  "evidence_quote": "Primary responsibility for law enforcement should rest with the **Federal Government** (e.g., FBI, DEA, ATF).",
+  "needs_human_review": false,
+  "review_reason": ""
+}

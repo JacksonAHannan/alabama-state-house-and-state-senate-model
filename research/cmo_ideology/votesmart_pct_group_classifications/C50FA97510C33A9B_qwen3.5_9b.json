@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_indirect_contributions",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks for a position on regulating indirect campaign contributions from corporations and unions. In the US political context, supporting such regulation is generally viewed as progressive (favoring limits on corporate influence), while opposing it is conservative.",
+  "evidence_quote": "Do you support the regulation of indirect campaign contributions from corporations, unions, and individuals?",
+  "needs_human_review": true,
+  "review_reason": "The question itself does not state a position; it asks for one. Therefore, no candidate stance can be inferred without an answer."
+}

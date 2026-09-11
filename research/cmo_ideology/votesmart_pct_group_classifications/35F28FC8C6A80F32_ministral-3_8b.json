@@ -1,0 +1,11 @@
+{
+  "policy_key": "foreign_aid_conditional",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Foreign aid should only be provided under extreme humanitarian crises (e.g., famine, war-induced starvation) rather than as a general development or strategic tool.",
+  "evidence_quote": "**a** Foreign aid should only be given when extraordinary circumstances and disaster threaten the lives of civilian populations.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

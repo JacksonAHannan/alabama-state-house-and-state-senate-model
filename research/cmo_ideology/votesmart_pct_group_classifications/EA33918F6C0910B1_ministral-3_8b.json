@@ -1,0 +1,11 @@
+{
+  "policy_key": "nuclear_proliferation_prevention",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "medium",
+  "plain_english_policy": "Use military force to prevent hostile governments from acquiring nuclear weapons.",
+  "evidence_quote": "*'Yes, the United States should use military force when necessary to prevent regimes that threaten our national security\u2014including those seeking nuclear weapons\u2014from obtaining such capabilities.'*",
+  "needs_human_review": true,
+  "review_reason": "This option is conventionally progressive/liberal in framing (prioritizing diplomacy and non-proliferation over preemptive strikes), but the *specific wording* ('use military force') leans toward interventionism. Context matters: Is this a blanket endorsement of strikes, or conditional on UN approval? Without explicit constraints, it risks scoring as -1."
+}

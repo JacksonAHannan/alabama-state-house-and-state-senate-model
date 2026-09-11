@@ -1,0 +1,10 @@
+{
+  "id": "BB95B407FFD02BA2",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Technical applicability measure concerning prescription-drug information cards for health plans and HMOs; it does not clearly establish an allowed healthcare policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

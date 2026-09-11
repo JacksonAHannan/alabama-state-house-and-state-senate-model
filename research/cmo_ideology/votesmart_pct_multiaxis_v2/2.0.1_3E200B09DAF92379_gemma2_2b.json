@@ -1,0 +1,24 @@
+{
+  "primary_domain": "labor",
+  "policy_key": "labor_capital_alignment",
+  "plain_english_policy": "Layoffs and Furloughs",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "The policy is a form of labor restriction."
+    },
+    {
+      "axis": "business_scale_alignment",
+      "pole": "large_business",
+      "strength": "secondary",
+      "rationale": "Layoffs and furloughs are more likely to impact large businesses than small businesses."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Instituting mandatory furloughs AND/OR layoffs for state employees",
+  "needs_human_review": false,
+  "review_reason": "The policy is a form of labor restriction."
+}

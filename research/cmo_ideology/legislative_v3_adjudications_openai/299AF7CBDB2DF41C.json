@@ -1,0 +1,10 @@
+{
+  "id": "299AF7CBDB2DF41C",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Infant surrender and safe-haven procedures do not clearly correspond to any allowed healthcare or bioethics pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

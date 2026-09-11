@@ -1,0 +1,10 @@
+{
+  "id": "13DC8954904865CE",
+  "decision": "map",
+  "primitive_axis": "due_process",
+  "policy_pole": "weaken",
+  "confidence": "medium",
+  "rationale": "Prohibiting unauthorized alteration of vessel identification numbers and imposing criminal penalties could be interpreted as reducing due process protections for property owners.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

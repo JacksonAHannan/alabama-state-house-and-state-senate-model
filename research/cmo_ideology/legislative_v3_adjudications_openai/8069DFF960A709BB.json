@@ -1,0 +1,10 @@
+{
+  "id": "8069DFF960A709BB",
+  "decision": "map",
+  "primitive_axis": "incarceration",
+  "policy_pole": "reduce",
+  "confidence": "high",
+  "rationale": "Delays truth-in-sentencing implementation and classifies specified corrections programs as intermediate punishment, supporting alternatives to incarceration.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

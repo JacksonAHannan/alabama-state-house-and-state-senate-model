@@ -1,0 +1,11 @@
+{
+  "policy_key": "merit_pay_for_teachers",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Paying teachers based on performance metrics (e.g., student test scores, evaluations) rather than seniority or tenure.",
+  "evidence_quote": "*[No direct quote provided in the prompt\u2014this is a standard policy description. If this option appeared verbatim in an Alabama candidate\u2019s questionnaire, it would typically be framed as:] 'I support linking teacher compensation to measurable performance outcomes.'*",
+  "needs_human_review": false,
+  "review_reason": "The merit-pay question is conventionally progressive (-1) because it aligns with market-based reform (often associated with reducing tenure protections and tying pay to accountability). However, *context matters*: Some conservatives support it if framed as 'efficiency,' while others oppose it due to equity concerns. Without the candidate\u2019s exact wording or additional context, this is a baseline classification."
+}

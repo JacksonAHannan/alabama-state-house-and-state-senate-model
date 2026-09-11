@@ -1,0 +1,11 @@
+{
+  "policy_key": "unemployment_regulation",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option calls for eliminating government regulations to encourage private sector investment and economic expansion.",
+  "evidence_quote": "d) Eliminate government regulations of the private sector in order to encourage investment and economic expansion.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

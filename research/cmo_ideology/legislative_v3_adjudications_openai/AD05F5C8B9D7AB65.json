@@ -1,0 +1,10 @@
+{
+  "id": "AD05F5C8B9D7AB65",
+  "decision": "map",
+  "primitive_axis": "police_authority",
+  "policy_pole": "expand",
+  "confidence": "medium",
+  "rationale": "Imposes Board of Pardons and Paroles pretrial supervision as a bond condition, expanding government supervision authority over covered pretrial defendants.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

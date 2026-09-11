@@ -1,0 +1,11 @@
+{
+  "policy_key": "public_lands_transfer",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Returning federal lands (e.g., forests, rangelands) to state/local control.",
+  "evidence_quote": "*[No direct quote provided in the option text\u2014this is a standard policy description.]*",
+  "needs_human_review": true,
+  "review_reason": "The option lacks explicit candidate wording; conventional framing of this issue leans progressive (-1) due to concerns about environmental oversight, but context (e.g., candidate\u2019s intent) could shift the score."
+}

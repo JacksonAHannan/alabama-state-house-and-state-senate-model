@@ -1,0 +1,10 @@
+{
+  "id": "ACDD2E0C449A5FF3",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Creates irrevocable trusts to administer post-employment health benefits; it is an administrative financing mechanism without a clear allowed healthcare policy direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

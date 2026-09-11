@@ -1,0 +1,10 @@
+{
+  "id": "1D9C3F6D771E0A4E",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "A codification and technical correction measure with no substantive criminal-justice policy change.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

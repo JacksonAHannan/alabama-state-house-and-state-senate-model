@@ -1,0 +1,10 @@
+{
+  "id": "C5108DE2F904F137",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "punitive",
+  "confidence": "high",
+  "rationale": "Enhanced sentencing for violent crimes (murder, manslaughter, assault) and defining machine guns as criminal offenses are explicitly punitive measures.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

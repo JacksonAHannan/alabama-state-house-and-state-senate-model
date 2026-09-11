@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_charter_funding",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Supports federal funding for charter or magnet schools established by teachers and professionals.",
+  "evidence_quote": "d) Allow teachers and professionals to receive federal funding to establish charter or magnet schools.",
+  "needs_human_review": true,
+  "review_reason": "Charter school expansion is politically polarized; some conservatives support it for market competition while progressives oppose privatization of public education. This option lacks a stable directional signal without additional context on the candidate's broader stance."
+}

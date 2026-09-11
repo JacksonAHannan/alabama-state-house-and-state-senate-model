@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_mandatory_drug_jail",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Mandating jail time for drug sales is a punitive approach that aligns with conservative law-and-order principles.",
+  "evidence_quote": "Impose mandatory jail sentences for selling illegal drugs.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

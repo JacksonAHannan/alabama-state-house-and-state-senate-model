@@ -1,0 +1,11 @@
+{
+  "policy_key": "firearm_possession_penalties",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Support stricter legal consequences for simply owning illegal guns.",
+  "evidence_quote": "Increase penalties for the possession of any illegal firearms.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

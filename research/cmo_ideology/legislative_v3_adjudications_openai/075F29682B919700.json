@@ -1,0 +1,10 @@
+{
+  "id": "075F29682B919700",
+  "decision": "map",
+  "primitive_axis": "institutional_populism",
+  "policy_pole": "institutional_control",
+  "confidence": "high",
+  "rationale": "Excluding specified higher-education boards from serial-meeting requirements reduces public-meeting constraints and favors institutional control over popular oversight.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

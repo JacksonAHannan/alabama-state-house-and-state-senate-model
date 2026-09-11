@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "healthcare_access",
+  "plain_english_policy": "Do not support eliminating religious exemptions for vaccinations.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Eliminating religious exemptions would restrict the ability of individuals to make personal choices regarding vaccinations based on their beliefs."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I do not support eliminating religious exemptions for vaccinations.\" - Candidate statement in 2018 health issues section.",
+  "needs_human_review": true,
+  "review_reason": "The policy is context-dependent and may have varying effects depending on the specific circumstances."
+}

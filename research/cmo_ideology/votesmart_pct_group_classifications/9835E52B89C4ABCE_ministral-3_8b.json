@@ -1,0 +1,11 @@
+{
+  "policy_key": "social_security_payroll_tax_increase",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Raise the payroll tax to fund Social Security without changing its structure.",
+  "evidence_quote": "Increase the payroll tax to better finance Social Security in its current form.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

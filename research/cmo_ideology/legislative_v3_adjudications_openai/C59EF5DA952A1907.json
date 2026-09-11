@@ -1,0 +1,10 @@
+{
+  "id": "C59EF5DA952A1907",
+  "decision": "map",
+  "primitive_axis": "environmental_protection",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Creates a revolving loan program to support voluntary remediation and redevelopment of contaminated property, directly advancing environmental cleanup.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

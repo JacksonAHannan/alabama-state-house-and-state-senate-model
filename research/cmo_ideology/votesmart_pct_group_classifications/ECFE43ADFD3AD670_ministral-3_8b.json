@@ -1,0 +1,11 @@
+{
+  "policy_key": "reduce_private_sector_regulations",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Cutting back on rules and oversight for businesses to give them more freedom to operate.",
+  "evidence_quote": "Reduce government regulation of the private sector.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

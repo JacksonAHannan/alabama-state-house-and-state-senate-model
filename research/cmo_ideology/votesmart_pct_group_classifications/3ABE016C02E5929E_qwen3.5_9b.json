@@ -1,0 +1,11 @@
+{
+  "policy_key": "abortion_partial_birth_ban",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option supports a specific ban on the dilation and extraction (partial birth) abortion procedure.",
+  "evidence_quote": "h) Prohibit the dilation and extraction procedure, also known as \"partial birth\" abortion.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

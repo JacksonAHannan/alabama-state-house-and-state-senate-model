@@ -1,0 +1,10 @@
+{
+  "id": "C84DD44C59245661",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "punitive",
+  "confidence": "high",
+  "rationale": "The bill increases criminal penalties for obstructing human trafficking enforcement, which is a clear punitive measure aimed at deterrence and stricter consequences.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

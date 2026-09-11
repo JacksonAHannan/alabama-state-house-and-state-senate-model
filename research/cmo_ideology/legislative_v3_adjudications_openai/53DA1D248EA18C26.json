@@ -1,0 +1,10 @@
+{
+  "id": "53DA1D248EA18C26",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Creates a notification requirement for voting-rights restoration; this is administrative and does not clearly map to an allowed criminal-justice pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "abortion_other_principles",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option 'Other or expanded principles' is too vague to determine a specific conservative or progressive stance without further context.",
+  "evidence_quote": "h) Other or expanded principles.",
+  "needs_human_review": true,
+  "review_reason": "Vague response prevents reliable ideological classification; requires additional clarification from the candidate."
+}

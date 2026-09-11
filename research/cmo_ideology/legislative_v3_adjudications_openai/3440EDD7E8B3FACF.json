@@ -1,0 +1,10 @@
+{
+  "id": "3440EDD7E8B3FACF",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns electronic participation in open meetings and does not fit any listed ethics-government axis; it is primarily administrative and procedural.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

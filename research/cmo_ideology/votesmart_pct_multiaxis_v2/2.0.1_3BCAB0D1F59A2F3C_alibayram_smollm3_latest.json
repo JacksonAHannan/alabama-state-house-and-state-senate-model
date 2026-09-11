@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "healthcare_access",
+  "plain_english_policy": "Support for Interstate Health Insurance Compacts",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "Interstate health insurance compacts aim to expand access to healthcare by allowing individuals to purchase policies across state lines."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I believe that interstate health care exchanges would allow consumers the ability to choose their own plan, rather than being forced into a single-payer system.\" - Candidate",
+  "needs_human_review": true,
+  "review_reason": ""
+}

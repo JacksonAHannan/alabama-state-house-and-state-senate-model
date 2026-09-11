@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_prayer_amendment",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks about amending the US Constitution to allow voluntary prayer in public schools. This is a procedural question asking for support of an amendment rather than expressing a substantive policy preference on education funding or curriculum.",
+  "evidence_quote": "Do you support amending the United States Constitution to allow voluntary prayer and/or moment of silence in public schools?",
+  "needs_human_review": true,
+  "review_reason": "The question is procedural (asking about an amendment) rather than substantive. The direction depends on whether one supports constitutional amendments for religious expression or views them as unconstitutional under the Establishment Clause."
+}

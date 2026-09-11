@@ -1,0 +1,24 @@
+{
+  "primary_domain": "healthcare",
+  "policy_key": "public_provision",
+  "plain_english_policy": "Public provision of healthcare",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "Expansion of public health services is a common policy goal."
+    },
+    {
+      "axis": "business_scale_alignment",
+      "pole": "small_business",
+      "strength": "secondary",
+      "rationale": "This option could be seen as favoring small businesses by increasing the capacity of public health services to respond to potential threats."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Increase state funding for training health workers to recognize and respond to the release of biological agents.",
+  "needs_human_review": false,
+  "review_reason": "This option is a direct request for increased public funding for healthcare services. This suggests that the policy mechanism is likely to be public provision of healthcare."
+}

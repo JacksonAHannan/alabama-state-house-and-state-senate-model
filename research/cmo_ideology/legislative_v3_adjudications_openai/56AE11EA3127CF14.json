@@ -1,0 +1,10 @@
+{
+  "id": "56AE11EA3127CF14",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns a brownfield remediation program, while the supplied allowed axes are limited to criminal-justice issues; the description does not support a criminal-justice policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

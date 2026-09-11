@@ -1,0 +1,11 @@
+{
+  "policy_key": "empowerment_zones",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Targeted economic development in distressed areas with a focus on job creation and community revitalization, often including minority/low-income populations.",
+  "evidence_quote": "Establish empowerment zones in areas with large numbers of unemployed people.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

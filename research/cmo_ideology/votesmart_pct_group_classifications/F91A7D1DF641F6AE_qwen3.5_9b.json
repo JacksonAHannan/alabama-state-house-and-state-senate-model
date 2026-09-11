@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_regulate_internet_gambling",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting federal regulation of internet gambling is conventionally more progressive as it aligns with broader regulatory oversight and consumer protection stances often associated with the left.",
+  "evidence_quote": "g) Should the federal government regulate internet gambling?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

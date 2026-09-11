@@ -1,0 +1,10 @@
+{
+  "id": "C83A5906A73A8A2E",
+  "decision": "map",
+  "primitive_axis": "abortion_access",
+  "policy_pole": "restrict",
+  "confidence": "high",
+  "rationale": "Increasing the mandatory waiting period for abortions from 24 to 48 hours imposes a direct restriction on abortion access by delaying the procedure.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

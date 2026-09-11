@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_federal_responsibility",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option asserts that education is not a federal responsibility.",
+  "evidence_quote": "j) Providing education is not a responsibility of the federal government.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

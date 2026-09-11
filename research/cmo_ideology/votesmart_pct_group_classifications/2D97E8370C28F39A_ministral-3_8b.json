@@ -1,0 +1,11 @@
+{
+  "policy_key": "embryonic_stem_cell_research_funding",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Federal funding for research using existing embryonic stem cell lines (which typically involves human embryos destroyed in the process).",
+  "evidence_quote": "Do you support federal funding for research on existing embryonic stem cell lines?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "welfare_policy",
+  "plain_english_policy": "Transfer more existing Medicaid recipients into managed care programs.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "primary",
+      "rationale": "Managed care programs typically involve restrictions on the types of services that can be provided and may limit access to certain providers or treatments."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Transfer more existing Medicaid recipients into managed care programs.\" - Source: 1998, Section: Health Issues, Question: Indicate which principles you support (if any) regarding health issues. Option: d)",
+  "needs_human_review": true,
+  "review_reason": "The policy is described as a restriction on the types of services that can be provided to Medicaid recipients in managed care programs."
+}

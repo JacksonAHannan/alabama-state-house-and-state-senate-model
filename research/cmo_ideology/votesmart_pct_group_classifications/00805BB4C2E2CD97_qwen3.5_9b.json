@@ -1,0 +1,11 @@
+{
+  "policy_key": "gun_ballistic_database",
+  "dimension": "guns_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting a national database of ballistic fingerprints is conventionally viewed as more progressive because it aligns with public safety and gun control measures.",
+  "evidence_quote": "Establish a national database of ballistic \"fingerprints\" to track guns used in criminal activities.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

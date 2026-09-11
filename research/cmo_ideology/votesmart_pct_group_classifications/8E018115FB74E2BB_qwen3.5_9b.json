@@ -1,0 +1,11 @@
+{
+  "policy_key": "housing_funding_block_grants",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Supporting block grants for housing projects shifts funding control to states rather than the federal government.",
+  "evidence_quote": "Do you support the use of block grants given to states, rather than federal spending, in the following areas? Option: e) Housing projects",
+  "needs_human_review": true,
+  "review_reason": "The option text describes a procedural mechanism (block grants vs. direct funding) without stating whether it supports or opposes this specific change for housing."
+}

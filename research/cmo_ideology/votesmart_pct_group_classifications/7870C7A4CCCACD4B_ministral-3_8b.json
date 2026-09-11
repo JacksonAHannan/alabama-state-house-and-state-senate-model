@@ -1,0 +1,11 @@
+{
+  "policy_key": "voluntary_spending_limits",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Would you like to see candidates for state office voluntarily cap their campaign spending?",
+  "evidence_quote": "Should candidates for state office be encouraged to meet voluntary spending limits?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

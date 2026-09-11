@@ -1,0 +1,10 @@
+{
+  "id": "7FE842D26CA2C71C",
+  "decision": "map",
+  "primitive_axis": "police_authority",
+  "policy_pole": "restrict",
+  "confidence": "high",
+  "rationale": "Limits law-enforcement use of automated license-plate recognition systems and requires confidentiality and destruction of collected information.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_aids_funding",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Federal funding for AIDS programs (e.g., Ryan White CARE Act, CDC HIV prevention grants).",
+  "evidence_quote": "*[No explicit quote provided in the prompt\u2014this is a generic classification based on historical Alabama candidates' tendencies.]*",
+  "needs_human_review": true,
+  "review_reason": "The option lacks direct text, but historically, Alabama candidates have often opposed expanded federal funding for AIDS programs (conservative stance). If you provide the exact verbatim wording from a candidate\u2019s questionnaire, I can classify it precisely."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "unilateral_military_action_iraq",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option suggests the U.S. should take unilateral military action against Iraq if it fails to comply with all UN resolutions, which is a departure from multilateral cooperation and could be seen as an aggressive stance toward international diplomacy.",
+  "evidence_quote": "The U.S. should take unilateral military action if Iraq does not comply with all accepted United Nations resolutions.",
+  "needs_human_review": true,
+  "review_reason": "This option is context-dependent and lacks a stable left/right direction due to its historical context (likely referencing the 1990s Gulf War era) and ambiguity in whether it implies a broader stance on UN relations or just Iraq-specific unilateralism."
+}

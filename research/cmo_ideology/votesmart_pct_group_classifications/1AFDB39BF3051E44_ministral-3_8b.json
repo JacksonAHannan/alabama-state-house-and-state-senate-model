@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_inflation_intervention",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Federal government intervention in monetary policy beyond the Federal Reserve's authority to combat inflation.",
+  "evidence_quote": "Do you support the federal government taking action, beyond those of the Federal Reserve, to alleviate inflation?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "economic_intervention_international_conflicts",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Support for using economic measures (e.g., sanctions, trade restrictions) to address or resolve international disputes.",
+  "evidence_quote": "*[No specific Alabama candidate-questionnaire option provided in your prompt. This classification requires a direct quote from an actual candidate's response on this topic.]*",
+  "needs_human_review": true,
+  "review_reason": "Missing concrete text to classify."
+}

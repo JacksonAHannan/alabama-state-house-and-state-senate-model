@@ -1,0 +1,24 @@
+{
+  "primary_domain": "education",
+  "policy_key": "sex_education_content",
+  "plain_english_policy": "Promote school-based sex education that emphasizes safe-sex practices (e.g., condom use, disease prevention) as part of the curriculum.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "civil_social_liberty",
+      "pole": "expand",
+      "strength": "secondary",
+      "rationale": "Advocates for explicit discussion of sexual health, which may be perceived as expanding access to information on bodily autonomy and reproductive rights."
+    },
+    {
+      "axis": "healthcare_access",
+      "pole": "expand",
+      "strength": "primary",
+      "rationale": "Directly expands access to medically vetted sexual health education, including preventive care (e.g., STI prevention)."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"safe sexual practices\"",
+  "needs_human_review": true,
+  "review_reason": "The option does not explicitly address *who* delivers the education (public/private), *how* it is funded, or whether parental consent/opt-out mechanisms are implied. The 'liberty' effect assumes no restrictions on content beyond safe-sex focus, which may not align with all interpretations of civil liberty expansion."
+}

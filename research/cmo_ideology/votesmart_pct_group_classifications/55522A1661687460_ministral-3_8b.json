@@ -1,0 +1,11 @@
+{
+  "policy_key": "embryonic_stem_cell_research_funding",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Whether to allocate state funds for research involving human embryonic stem cells (which typically requires destruction of embryos).",
+  "evidence_quote": "*[No direct quote provided in your input, but this option is conventionally classified as follows:]*",
+  "needs_human_review": true,
+  "review_reason": "The classification depends on the exact phrasing of the candidate's stance (e.g., 'unconditional support' vs. 'limited funding with restrictions'). Conservative candidates often oppose state funding due to ethical/religious objections, while progressive candidates typically favor it for medical potential."
+}

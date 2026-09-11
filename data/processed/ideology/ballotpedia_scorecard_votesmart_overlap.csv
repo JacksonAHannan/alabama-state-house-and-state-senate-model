@@ -1,0 +1,4 @@
+organization,parsed_rating_rows,canonical_matches,unique_canonical_candidates,exact_votesmart_name_org_year_overlap,integration_decision
+American Conservative Union (ACU),535,174,90,0,exclude_broad_unmapped_scorecard
+National Federation of Independent Business - Alabama,134,68,68,113,exclude_duplicate_votesmart_source
+The Club for Growth,308,179,62,0,integrate_explicit_market_governance_mapping

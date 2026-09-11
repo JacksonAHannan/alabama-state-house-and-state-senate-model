@@ -1,0 +1,11 @@
+{
+  "policy_key": "internet_crime_penalties",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Favors harsh legal consequences for cybercrimes like hacking and online violence.",
+  "evidence_quote": "Support strict penalties for Internet crimes such as hacking and Internet violence.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

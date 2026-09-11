@@ -1,0 +1,18 @@
+{
+  "primary_domain": "business",
+  "policy_key": "business_scale_alignment",
+  "plain_english_policy": "Support small business scale alignment in transportation and infrastructure funding.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "market_autonomy",
+      "strength": "secondary",
+      "rationale": "Funding for small businesses aligns with market autonomy by prioritizing local and smaller enterprises."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I believe that funding should be allocated to support the growth of small businesses in Alabama, as they are often the backbone of our economy.\" - Candidate's statement on transportation/infrastructure spending.",
+  "needs_human_review": true,
+  "review_reason": "The policy is described but lacks specific details about how it would be implemented or what metrics would measure its success."
+}

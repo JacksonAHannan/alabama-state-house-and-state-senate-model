@@ -39,6 +39,18 @@ SEED = 20260831
 ALPHA = 100.0
 WAR_SPECIFICATION = "decaying_lag"
 SIMULATION_DRAWS = 50_000
+SCENARIO_STATUS = "uniform_generic_ballot_environment_selected"
+# Legacy Catalist/YouGov-transfer and elasticity columns are not part of the
+# uniform generic-ballot environment contract and are removed from the export.
+LEGACY_SCENARIO_COLUMNS = [
+    "geographic_elasticity",
+    "demographic_swing_2024_2026",
+    "demographic_poll_adjusted_margin",
+    "low_elasticity_075_margin",
+    "high_elasticity_125_margin",
+    "votehub_2026_dem_margin",
+    "fundraising_adjustment",
+]
 FEATURES = [
     "environment_baseline_margin",
     "baseline_margin_squared",
@@ -269,6 +281,8 @@ def predict_scenarios(
         scenario_frame["incumbency_balance"] = scenario_frame.incumbency_balance.astype(int)
         rows.append(scenario_frame)
     scenarios = pd.concat(rows, ignore_index=True)
+    scenarios["status"] = SCENARIO_STATUS
+    scenarios = scenarios.drop(columns=LEGACY_SCENARIO_COLUMNS)
 
     headline = scenarios[scenarios.scenario.eq("headline")].copy().reset_index(drop=True)
     rng = np.random.default_rng(SEED)
@@ -419,7 +433,9 @@ def main() -> None:
         "The forecast evaluates a generic Democrat against a generic Republican. Candidate identity, prior WAR/CMO, "
         "repeat-candidate performance, ideology, and fundraising are absent; prospective candidate-specific WAR is "
         "exactly zero. Incumbency remains a symmetric race condition in the WAR structure.\n\n"
-        "The baseline is each district's prior presidential margin shifted by the national generic ballot. The published "
+        "The baseline is each district's prior presidential margin shifted by the national generic ballot. That uniform "
+        "national-to-Alabama generic-ballot transfer is an owner-selected model assumption; its Alabama-specific validity "
+        "is not established beyond the single 2022 forward holdout. The published "
         "post-2016 Southern WAR `decaying_lag` ridge design predicts the ordinary legislative-minus-baseline gap using "
         "ticket partisanship, time, state, chamber, ticket family, prior presidential context, ticket change, and "
         "incumbency balance. The 2022 diagnostic fits eligible Southern races before 2022; the prospective fit uses all "
@@ -441,6 +457,7 @@ def main() -> None:
         f"- Selected specification: `{selected_specification}` by owner-required model definition; forward validation is advisory.\n"
         f"- Prospective coverage: {int(scenarios.groupby('scenario').size().min())} D-R races in each scenario.\n"
         "- Candidate-specific WAR is zero, incumbency is included structurally, candidate history is false, finance is false, and the forecast identity reconciles within floating-point tolerance.\n"
+        "- Owner-selected model assumption: the uniform national-to-Alabama generic-ballot transfer's Alabama-specific validity is not established beyond the single 2022 forward holdout.\n"
         f"- Holdout assessment: the selected structural specification {holdout_assessment} on the sole Alabama 2022 holdout.\n"
         "- Limitation: Alabama supplies only one direct forward cycle, so calibration and structural estimates remain sample-limited.\n",
         encoding="utf-8",

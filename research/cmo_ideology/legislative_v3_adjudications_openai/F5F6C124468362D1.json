@@ -1,0 +1,10 @@
+{
+  "id": "F5F6C124468362D1",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "The fragment lacks sufficient context to determine the underlying policy change or its effect on an allowed criminal-justice axis.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "97DDA19C117A2B83",
+  "decision": "map",
+  "primitive_axis": "voting_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "The bill expands voting access by allowing qualified visually impaired voters to cast absentee ballots under certain conditions.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

@@ -11,6 +11,7 @@ from rapidfuzz import fuzz
 from audit_historical_precinct_geography import (DB, OUT, county_match_key,
                                                    donor_vtds, normalize_split_base)
 from oe_normalize import normalize_for_match
+from source_vote_quality import require_reported_vote_quality
 
 YEARS = (1994, 1998, 2002, 2004, 2006, 2008, 2010)
 PAIRS = tuple(zip(YEARS[:-1], YEARS[1:]))
@@ -19,6 +20,7 @@ AUDIT = OUT / "historical_precinct_geometry_audit.csv"
 
 def nodes_and_turnout() -> pd.DataFrame:
     with sqlite3.connect(DB) as connection:
+        require_reported_vote_quality(connection, "source='alabama_sos' AND year IN (1994,1998,2002,2004,2006,2008,2010)")
         nodes = pd.read_sql_query("""SELECT node_id,year,county_key,precinct_key,precinct_code,
           county_level_ballot FROM precinct_nodes WHERE source='alabama_sos'
           AND year IN (1994,1998,2002,2004,2006,2008,2010)""", connection)

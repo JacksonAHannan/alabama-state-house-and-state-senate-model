@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_drug_testing",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Requiring drug testing for federal employees in sensitive positions is a progressive policy option that expands government regulation and surveillance over the workforce.",
+  "evidence_quote": "Require drug testing for federal employees in sensitive positions (Air Traffic Control, National Park Police, Secret Service, etc).",
+  "needs_human_review": false,
+  "review_reason": ""
+}

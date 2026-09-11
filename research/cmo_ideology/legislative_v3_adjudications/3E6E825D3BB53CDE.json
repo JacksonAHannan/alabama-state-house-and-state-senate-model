@@ -1,0 +1,10 @@
+{
+  "id": "3E6E825D3BB53CDE",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Posthumous pardons for historical convictions are symbolic/remedial and lack a clear policy pole on the allowed axes (e.g., criminal punishment, incarceration).",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

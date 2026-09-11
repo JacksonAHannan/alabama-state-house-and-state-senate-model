@@ -1,0 +1,24 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "resource_development",
+  "plain_english_policy": "financial_incentives_for_biofuel_crops",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "Financial incentives can expand the production of biofuel crops, potentially benefiting farmers and promoting renewable energy."
+    },
+    {
+      "axis": "environmental_protection",
+      "pole": "weaken",
+      "strength": "primary",
+      "rationale": "Biofuel crop production may lead to land use changes that weaken environmental protection through habitat destruction or increased water usage."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I believe biofuels can be a part of our energy mix, but we need to ensure their development does not come at the expense of other important environmental goals.\" - [Source: Candidate's statement on biofuel production in 2010]\"",
+  "needs_human_review": true,
+  "review_reason": "The policy may have conflicting effects depending on how it is implemented and balanced with other priorities."
+}

@@ -1,0 +1,11 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "childcare_delivery",
+  "plain_english_policy": "Decriminalization of small marijuana possession",
+  "substantive": false,
+  "effects": [],
+  "confidence": "low",
+  "evidence_quote": "\"Decriminalize the possession of small amounts of marijuana.\" - Candidate's statement on crime issues in 2006.",
+  "needs_human_review": true,
+  "review_reason": "The policy is related to welfare and involves regulation, but its primary focus seems to be personal freedom rather than childcare.; invalid pole 'regulation_quality' for market_governance; invalid pole 'childcare_delivery' for welfare_policy"
+}

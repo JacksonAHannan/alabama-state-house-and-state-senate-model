@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_pac_limits",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting limits on PAC contributions to state candidates is conventionally progressive, as it aligns with reducing corporate influence in politics.",
+  "evidence_quote": "Do you support limits on contributions from Political Action Committees (PACs) to candidates for state government?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

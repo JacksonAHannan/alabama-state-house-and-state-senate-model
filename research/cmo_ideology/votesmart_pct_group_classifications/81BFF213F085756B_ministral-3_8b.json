@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_education_standards",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting federal education standards typically implies alignment with nationalized or centralized educational frameworks, which is often associated with progressive policies that prioritize equity and consistency across states.",
+  "evidence_quote": "*[No direct quote provided in the option text\u2014this is a general policy stance.]*",
+  "needs_human_review": true,
+  "review_reason": "The question lacks a candidate's explicit wording, so this classification relies on conventional interpretation of federal standards as progressive (e.g., Common Core). For precise scoring, the candidate\u2019s exact phrasing would be required."
+}

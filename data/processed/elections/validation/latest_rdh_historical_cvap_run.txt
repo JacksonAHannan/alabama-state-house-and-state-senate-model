@@ -1,0 +1,26 @@
+﻿specification  public_all_cvap_80_20  public_all_hybrid_cvap_80_20  public_all_total_80_20       ramp  ramp_cvap_components  ramp_cvap_components_80_20  ramp_cvap_demographics  ramp_cvap_demographics_80_20  ramp_cvap_interaction_80_20  ramp_cvap_interaction_only  ramp_cvap_nonwhite  ramp_cvap_nonwhite_80_20  ramp_cvap_nonwhite_heavy_shrink  ramp_total_demographics  ramp_total_demographics_80_20  ramp_total_interaction_only  ramp_total_nonwhite  ramp_total_nonwhite_80_20
+test_cycle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+2014                       21.811010                     21.745074               21.734662  23.583294             21.539086                   22.073681               21.170134                     21.932576                    22.021175                   22.002611           21.960634                 22.093477                        22.038579                21.198480                      21.833152                    22.002611            22.068013                  21.992345
+2018                       12.043797                     12.025888               12.032072  12.477850             23.387357                   12.656978               23.268947                     12.496598                    12.682454                   25.782040           25.800863                 12.693637                        12.685264                23.246402                      12.481812                    25.782040            25.794262                  12.674814
+2022                        9.608905                      9.520433                9.577443   9.775972             41.639501                   12.617130               26.826902                     10.506438                    10.956906                   30.983935           31.097711                 10.952189                        10.688839                27.950082                      10.631311                    31.935974            32.345400                  11.099916
+
+Summary
+                  specification  mean_mae  post2016_mean_mae  latest_mae
+   public_all_hybrid_cvap_80_20 14.430465          10.773160    9.520433
+         public_all_total_80_20 14.448059          10.804757    9.577443
+          public_all_cvap_80_20 14.487904          10.826351    9.608905
+   ramp_cvap_demographics_80_20 14.978537          11.501518   10.506438
+  ramp_total_demographics_80_20 14.982092          11.556562   10.631311
+ramp_cvap_nonwhite_heavy_shrink 15.137561          11.687052   10.688839
+    ramp_cvap_interaction_80_20 15.220178          11.819680   10.956906
+       ramp_cvap_nonwhite_80_20 15.246434          11.822913   10.952189
+      ramp_total_nonwhite_80_20 15.255692          11.887365   11.099916
+                           ramp 15.279039          11.126911    9.775972
+     ramp_cvap_components_80_20 15.782596          12.637054   12.617130
+         ramp_cvap_demographics 23.755328          25.047925   26.826902
+        ramp_total_demographics 24.131654          25.598242   27.950082
+     ramp_cvap_interaction_only 26.256195          28.382988   30.983935
+             ramp_cvap_nonwhite 26.286403          28.449287   31.097711
+    ramp_total_interaction_only 26.573542          28.859007   31.935974
+            ramp_total_nonwhite 26.735892          29.069831   32.345400
+           ramp_cvap_components 28.855315          32.513429   41.639501

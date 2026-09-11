@@ -1,0 +1,11 @@
+{
+  "policy_key": "medicare_early_enrollment",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Expanding Medicare eligibility to younger workers (55-65) before traditional retirement age.",
+  "evidence_quote": "Allow 55-65 year-olds to buy into Medicare.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,19 @@
+{
+  "status": "accepted_metadata_only",
+  "build_run_id": "RUN-3723F54646824B1682D8543BE39C7EC5",
+  "previous_run": "RUN-986CDF1CB3CE44468E5C8218E7DB555D",
+  "qa_issue_id": "SOSCELL-3171F6960B9DE8E7B24000D4",
+  "backup": "data/processed/elections/backups/pre-sos-cell-lineage-2026-09-07.sqlite",
+  "backup_bytes": 5780967424,
+  "changed_rows": 4083,
+  "unresolved_rows": 6,
+  "source_rows": 2184861,
+  "allowed_fields": ["source_file", "source_sheet", "source_row", "source_column", "source_file_id"],
+  "before_sha256": "901c8c8e1ca45b81c39dc1e453170602489dfb11f916dcecb88746e8cc0c02cc",
+  "after_sha256": "4445e6f9137a9bebc4d2fee74f7089edbe9604d393a3851109b6be8fda822feb",
+  "code_sha256": "71d4485a82ebbac18798e83dc311ebb3b1120cb2f7925d54162105bbc2ff8ae7",
+  "verification": ["21 isolated fixtures passed", "read-only full cohort multiset parity", "independent pre-application review PASS", "backup quick_check and before-image parity", "full source expected-after parity", "foreign-key check", "prior control and registry preservation"],
+  "evidence_owner": "qa_warehouse_source_repair.evidence_json for the recorded QA issue contains complete before/after records and unresolved candidate cells",
+  "post_commit_review": "PASS: all 4083 QA before/after rows match backup/live; six unresolved unchanged; all non-locator fields and ingest IDs preserved; all 119 table counts unchanged except QA 50 to 51 and builds 118 to 119; identical schema; both foreign-key checks empty; run validated.",
+  "limitations": "Metadata only. No source adjudication, ingest-run reconstruction, numerical changes, analytical execution or publication. Cached provenance consumers require scoped review."
+}

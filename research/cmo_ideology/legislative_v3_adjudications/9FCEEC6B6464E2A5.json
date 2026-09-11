@@ -1,0 +1,10 @@
+{
+  "id": "9FCEEC6B6464E2A5",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "The bill clarifies campaign finance reporting requirements, which is administrative and lacks clear policy direction on the allowed axes (e.g., no voting access or election integrity substantive changes).",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

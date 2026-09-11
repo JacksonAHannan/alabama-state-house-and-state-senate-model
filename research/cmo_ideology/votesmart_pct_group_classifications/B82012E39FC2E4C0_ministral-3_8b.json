@@ -1,0 +1,11 @@
+{
+  "policy_key": "medical_research_funding",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Federal funding for medical research (e.g., NIH, cancer/heart disease grants).",
+  "evidence_quote": "*[Candidate's selected number]*, e.g. 'I support **$50 billion** in federal funding for medical research to advance cures and treatments.'",
+  "needs_human_review": true,
+  "review_reason": "The actual score depends on the chosen dollar amount (higher = more progressive; lower = more conservative)."
+}

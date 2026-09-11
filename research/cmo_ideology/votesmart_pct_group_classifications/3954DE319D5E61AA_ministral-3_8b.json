@@ -1,0 +1,11 @@
+{
+  "policy_key": "medicaid_for_legal_immigrants",
+  "dimension": "healthcare_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Expand Medicaid eligibility to include legal immigrants using state funds.",
+  "evidence_quote": "Use state funds to continue some Medicaid coverage for legal immigrants.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

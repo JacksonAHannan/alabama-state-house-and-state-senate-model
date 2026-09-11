@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "welfare_policy",
+  "plain_english_policy": "Reducing State Employee Salaries and Pensions",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "primary",
+      "rationale": "The policy aims to reduce state employee salaries and pensions."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Reducing state employee salaries AND/OR pensions\" is a proposal that seeks to balance the budget by decreasing costs associated with state employees.",
+  "needs_human_review": true,
+  "review_reason": "The policy's effectiveness in balancing Alabama's budget and its impact on state employees require further evaluation."
+}

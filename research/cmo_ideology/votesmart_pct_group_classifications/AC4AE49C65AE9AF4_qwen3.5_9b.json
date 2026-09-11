@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_drug_war_funding",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option calls for ending federal funding related to the 'war on drugs', which aligns with progressive views that oppose punitive drug enforcement and seek harm reduction approaches.",
+  "evidence_quote": "f) Eliminate federal funding for programs associated with the \"war on drugs.\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

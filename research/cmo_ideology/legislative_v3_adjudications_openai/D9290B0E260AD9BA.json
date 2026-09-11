@@ -1,0 +1,10 @@
+{
+  "id": "D9290B0E260AD9BA",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "The description is truncated and appears to concern local election administration; it does not provide enough text to identify a concrete allowed voting-policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

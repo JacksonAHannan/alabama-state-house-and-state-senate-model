@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_voluntary_spending_limits",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting voluntary campaign spending limits and subsidized media access for candidates who adhere to them is conventionally progressive, as it reduces the influence of big money in politics and promotes more equitable competition.",
+  "evidence_quote": "Provide free or low-cost television advertising to candidates who agree to voluntary campaign spending limits.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

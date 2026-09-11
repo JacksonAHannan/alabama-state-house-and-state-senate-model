@@ -1,0 +1,24 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "conservation_preservation",
+  "plain_english_policy": "Support a three-year moratorium on both new hog farms and all expansions of farms to over 500 hogs.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "environmental_protection",
+      "pole": "weaken",
+      "strength": "primary",
+      "rationale": "A moratorium on new hog farms and expansions to over 500 hogs would likely weaken environmental protections by limiting the ability of farmers to expand or start operations."
+    },
+    {
+      "axis": "conservation_preservation",
+      "pole": "preserve",
+      "strength": "secondary",
+      "rationale": "The moratorium could be seen as a preservation measure if it is intended to protect existing environmental conditions and prevent further degradation due to increased hog farming operations."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Support a three-year moratorium on both new hog farms and all expansions of farms to over 500 hogs.\" - Questionnaire Option for Environment & Energy, Year: 1998.",
+  "needs_human_review": true,
+  "review_reason": "The policy's effect is ambiguous due to the potential dual nature as a preservation measure versus weakening environmental protections."
+}

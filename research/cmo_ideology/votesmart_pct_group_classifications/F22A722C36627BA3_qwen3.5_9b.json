@@ -1,0 +1,11 @@
+{
+  "policy_key": "health_care_malpractice_limits",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Limiting medical malpractice damages is generally viewed as a conservative policy aimed at reducing liability costs and encouraging more aggressive treatment by physicians.",
+  "evidence_quote": "g) Establish limits on the amount of damages awarded in medical malpractice lawsuits.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

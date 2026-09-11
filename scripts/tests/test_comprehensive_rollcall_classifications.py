@@ -1,6 +1,7 @@
 from scripts.build_comprehensive_rollcall_classifications import (
     classify_text, extract_historical_synopsis, infer_historical_measure, motion_disposition,
 )
+import pandas as pd
 
 
 def test_topic_does_not_force_direction():
@@ -44,3 +45,36 @@ def test_historical_synopsis_rejects_missing_target():
 def test_formal_measure_marker_beats_prior_act_citation():
     context = "B.I.R., SB291, adopted. THE BILL: SB291 amending Act No. 99-519, SB 430, 1999 Regular Session"
     assert infer_historical_measure(context, "SB", 430)[:2] == ("SB", 291)
+
+
+def test_generated_classification_covers_the_normalized_rollcall_universe():
+    calls = pd.read_csv(
+        "data/processed/legislative/comprehensive_rollcall_classifications.csv",
+        low_memory=False,
+    )
+    assert len(calls) == 60704
+    assert calls.canonical_rollcall_id.is_unique
+
+
+def test_historical_nonfinal_motions_never_inherit_bill_direction():
+    calls = pd.read_csv(
+        "data/processed/legislative/comprehensive_rollcall_classifications.csv",
+        low_memory=False,
+    )
+    historical = calls[calls.bill_id.isna()]
+    nonfinal = historical[~historical.vote_description.isin(["final_passage", "conference_report"])]
+    assert nonfinal.motion_disposition.ne("bill_direction_applies").all()
+    assert nonfinal.yea_direction.isna().all()
+
+
+def test_same_historical_measure_uses_one_bill_level_synopsis():
+    calls = pd.read_csv(
+        "data/processed/legislative/comprehensive_rollcall_classifications.csv",
+        low_memory=False,
+    )
+    final = calls[
+        calls.bill_id.isna()
+        & calls.vote_description.isin(["final_passage", "conference_report"])
+    ].copy()
+    final["measure_key"] = final.session_year.astype(str) + "|" + final.bill_number.astype(str)
+    assert not final.groupby("measure_key").description.nunique().gt(1).any()

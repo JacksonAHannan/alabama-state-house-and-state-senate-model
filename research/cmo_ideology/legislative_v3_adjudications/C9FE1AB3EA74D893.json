@@ -1,0 +1,10 @@
+{
+  "id": "C9FE1AB3EA74D893",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "Staffing authorization for sheriff\u2019s office (Jefferson County) is administrative, not policy-directed.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

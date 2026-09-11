@@ -1,0 +1,11 @@
+{
+  "policy_key": "universal_healthcare",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "A policy advocating for a government-run healthcare system covering all citizens, funded by taxes or other means, regardless of income.",
+  "evidence_quote": "Implement a universal healthcare program to guarantee coverage to all Americans, regardless of income.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

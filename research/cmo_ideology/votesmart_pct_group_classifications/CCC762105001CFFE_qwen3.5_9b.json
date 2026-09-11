@@ -1,0 +1,11 @@
+{
+  "policy_key": "pac_contribution_prohibition",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "This option calls for banning Political Action Committees (PACs) from contributing to federal candidates. PACs are typically funded by corporations and unions seeking specific policy outcomes; restricting their influence is generally viewed as a progressive measure aimed at reducing corporate power in politics.",
+  "evidence_quote": "c) Prohibit Political Action Committee (PAC) contributions to candidates for federal office.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

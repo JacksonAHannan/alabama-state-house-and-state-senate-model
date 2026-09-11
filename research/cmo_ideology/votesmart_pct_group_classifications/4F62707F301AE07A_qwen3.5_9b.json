@@ -1,0 +1,11 @@
+{
+  "policy_key": "health_prevention_natural_medicine",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option advocates for prevention-focused healthcare strategies and natural medicines.",
+  "evidence_quote": "Support health care strategies focused on prevention, including health education, and natural medicines and remedies.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

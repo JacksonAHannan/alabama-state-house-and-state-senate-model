@@ -1,0 +1,10 @@
+{
+  "id": "D187D8AD9A971930",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "expand",
+  "confidence": "medium",
+  "rationale": "Authorizes the sheriff to sell otherwise abandoned, unclaimed, or stolen firearms, facilitating access to firearms rather than requiring their retention or destruction.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

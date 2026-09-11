@@ -1,0 +1,10 @@
+{
+  "id": "C6B21FF7E9B50B0F",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Sets travel allowances and incidental bonuses for officials and employees; this is administrative and does not fit the allowed business-regulation axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

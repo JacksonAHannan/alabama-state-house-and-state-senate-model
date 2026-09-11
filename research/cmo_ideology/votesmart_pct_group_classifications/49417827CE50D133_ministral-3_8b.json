@@ -1,0 +1,11 @@
+{
+  "policy_key": "homeland_security_funding",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Federal funding for homeland security programs (e.g., DHS, border protection, counterterrorism).",
+  "evidence_quote": "*[Candidate's selected number]*, e.g. 'I support **$85 billion** in federal funding for Homeland Security to ensure robust border security and counterterrorism efforts.'",
+  "needs_human_review": true,
+  "review_reason": "The numeric value (if provided) must be cross-referenced with historical Alabama candidates' positions, as homeland security funding levels can vary in ideological framing (e.g., 'conservative' emphasis on border enforcement vs. 'progressive' critiques of militarization)."
+}

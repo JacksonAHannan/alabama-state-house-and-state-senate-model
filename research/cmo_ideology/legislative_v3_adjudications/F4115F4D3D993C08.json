@@ -1,0 +1,10 @@
+{
+  "id": "F4115F4D3D993C08",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Displaying the Ten Commandments is a symbolic/constitutional amendment without clear policy implications on the allowed axes (e.g., curriculum, funding).",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

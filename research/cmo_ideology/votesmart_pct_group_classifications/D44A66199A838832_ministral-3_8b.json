@@ -1,0 +1,11 @@
+{
+  "policy_key": "state_funding_energy_infrastructure",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "medium",
+  "plain_english_policy": "Support for state funding to upgrade Alabama's energy systems (e.g., grid upgrades, renewable integration) is conventionally progressive due to its alignment with climate action and modernizing infrastructure.",
+  "evidence_quote": "*[No direct quote provided in the option text\u2014this is a procedural/neutral question format.]*",
+  "needs_human_review": true,
+  "review_reason": "The question lacks specific policy language to assign a clear +1/-1 score; context (e.g., focus on fossil fuels vs. renewables) would be required."
+}

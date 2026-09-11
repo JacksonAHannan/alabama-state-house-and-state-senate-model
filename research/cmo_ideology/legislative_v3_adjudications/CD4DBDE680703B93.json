@@ -1,0 +1,10 @@
+{
+  "id": "CD4DBDE680703B93",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "punitive",
+  "confidence": "high",
+  "rationale": "Establishes human trafficking as a crime with criminal penalties, expanding punitive measures against coercion/deception.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

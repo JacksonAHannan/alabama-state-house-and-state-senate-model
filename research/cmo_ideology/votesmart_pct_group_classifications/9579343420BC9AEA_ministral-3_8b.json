@@ -1,0 +1,11 @@
+{
+  "policy_key": "defense_pay_active_duty",
+  "dimension": "social_ideology",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Funding for salaries and benefits of currently serving military personnel (e.g., active-duty pay, housing allowances, medical care).",
+  "evidence_quote": "*[No clear left/right ideological signal]*\n\n**Verbatim Option Text:**\n'f) Pay for active duty personnel: [Candidate\u2019s stance not specified\u2014typically includes base salaries, bonuses, and benefits like BAH (Basic Allowance for Housing), BHA (Basic Allowance for Housing), and TRICARE healthcare.]'\n*(Note: This is a mandatory expenditure under federal law; no partisan debate exists on its necessity.)*",
+  "needs_human_review": true,
+  "review_reason": "Lacks explicit candidate position\u2014default to procedural (0). Requires context from questionnaire or candidate\u2019s own words."
+}

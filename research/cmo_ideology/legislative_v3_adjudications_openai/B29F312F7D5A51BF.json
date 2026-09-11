@@ -1,0 +1,10 @@
+{
+  "id": "B29F312F7D5A51BF",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Authorizes disposition of unclaimed prisoner funds or property into a commissary fund, an administrative custody-fund measure without a clear permitted criminal-justice policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

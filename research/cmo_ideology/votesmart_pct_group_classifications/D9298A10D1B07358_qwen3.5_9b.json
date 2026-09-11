@@ -1,0 +1,11 @@
+{
+  "policy_key": "defense_spending_other",
+  "dimension": "other",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option 'Other' is non-specific and does not indicate a conservative or progressive stance on defense spending.",
+  "evidence_quote": "9) Other",
+  "needs_human_review": true,
+  "review_reason": "Non-committal response ('Other') lacks directional policy signal."
+}

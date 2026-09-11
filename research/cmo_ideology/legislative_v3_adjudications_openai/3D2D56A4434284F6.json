@@ -1,0 +1,10 @@
+{
+  "id": "3D2D56A4434284F6",
+  "decision": "map",
+  "primitive_axis": "due_process",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Requires confirmation testing of disputed positive parole, probation, or supervision tests before use in revocation hearings.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

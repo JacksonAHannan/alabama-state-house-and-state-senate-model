@@ -1,0 +1,11 @@
+{
+  "policy_key": "income_tax_bracket_under_25k",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Tax reduction for households earning less than $25,000 annually.",
+  "evidence_quote": "b) Family income less than $25,000",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "FA42F6ED3EA71659",
+  "decision": "map",
+  "primitive_axis": "police_authority",
+  "policy_pole": "expand",
+  "confidence": "medium",
+  "rationale": "Authorizes additional pretrial supervision by a community punishment and corrections program as a bond condition, expanding government supervision authority over covered defendants.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,1034 @@
+{
+  "captured_at_utc": "2026-09-06T16:54:51.705918+00:00",
+  "method": "SQLite mode=ro/query_only; streamed SHA256 of manifest-declared inputs/code/outputs/reports. File stat stability is not a domain checksum. No builders.",
+  "manifests": [
+    {
+      "path": "data/processed/war/post2016_southern_war_v3/manifest.json",
+      "manifest_sha256": "0ea558730b9e953d95853d552960886c855b8bb3f9fb9cb2ee0a3c44a47c7638",
+      "identifiers": {
+        "generated_at_utc": "2026-09-02T03:28:08.820222+00:00",
+        "model_run_id": "WAR-POST2016-V3-8BB52074EC806C5BF6BF",
+        "warehouse_build_run_id": "RUN-85A4692E481448B6BB1380D76E07742B"
+      },
+      "checks": [
+        {
+          "kind": "input_hashes",
+          "path": "data/processed/elections/alabama_elections.sqlite",
+          "expected": "7b899909723f3e390ad075c24b9f7000753f178ea0d076b943175378c6540a2a",
+          "actual": "2dfcdcb81079605b9ac36f5670d30957500f8cec74ddafa1da18b3eccd613377",
+          "matches": false
+        },
+        {
+          "kind": "input_hashes",
+          "path": "data/processed/forecast_calibration/southern_legislative_probability_panel.csv",
+          "expected": "09154b4ecd80e513acef147a73c9bdf3bb5ba95687ce1b58c6608fe9230315ed",
+          "actual": "09154b4ecd80e513acef147a73c9bdf3bb5ba95687ce1b58c6608fe9230315ed",
+          "matches": true
+        },
+        {
+          "kind": "input_hashes",
+          "path": "data/processed/presidential/2018_district_presidential_features.csv",
+          "expected": "53ac22998689c1a1a69d93cb9e6388ab4d4b1bb01895c70859cff6a6c43b2694",
+          "actual": "064c89b51842a26fa108da0b1ad7278f464b9a1c5faaa01aa44e8fffb5dc2d90",
+          "matches": false
+        },
+        {
+          "kind": "input_hashes",
+          "path": "data/processed/presidential/2022_district_presidential_features.csv",
+          "expected": "b5243cebb2c7e8b22b2a1fee4598914920fca844f74ca80d17fd548d728b5bd3",
+          "actual": "b5243cebb2c7e8b22b2a1fee4598914920fca844f74ca80d17fd548d728b5bd3",
+          "matches": true
+        },
+        {
+          "kind": "input_hashes",
+          "path": "data/processed/war/post2016_southern_war_v2/manifest.json",
+          "expected": "062c9e201d660052180ea629ccbbb0fd386c308de39fda031546d599020652f5",
+          "actual": "062c9e201d660052180ea629ccbbb0fd386c308de39fda031546d599020652f5",
+          "matches": true
+        },
+        {
+          "kind": "input_hashes",
+          "path": "project_docs/model/POST2016_SOUTHERN_WAR_V3_FIELD_CONTRACT.md",
+          "expected": "272c60027414654d37ef6d5851cc6224cb432ea12bdf6df05cf53a48b0c7ae32",
+          "actual": "272c60027414654d37ef6d5851cc6224cb432ea12bdf6df05cf53a48b0c7ae32",
+          "matches": true
+        },
+        {
+          "kind": "code_hashes",
+          "path": "scripts/retrain_post2016_southern_war.py",
+          "expected": "ead76fb849c93043d380cff7d2a14eb2a7bca31944134af207acf7002d2e075d",
+          "actual": "ead76fb849c93043d380cff7d2a14eb2a7bca31944134af207acf7002d2e075d",
+          "matches": true
+        },
+        {
+          "kind": "code_hashes",
+          "path": "scripts/retrain_post2016_southern_war_v2.py",
+          "expected": "9a52de7cd3043f8d8a57d07a39e5914d257af2ffc3ebe2da8f17b2c9e8f0a730",
+          "actual": "9a52de7cd3043f8d8a57d07a39e5914d257af2ffc3ebe2da8f17b2c9e8f0a730",
+          "matches": true
+        },
+        {
+          "kind": "code_hashes",
+          "path": "scripts/retrain_post2016_southern_war_v3.py",
+          "expected": "29d4f7b3b323b6146d82350b21dc1770a82a557059c9f2a88c1d3b346ad94997",
+          "actual": "29d4f7b3b323b6146d82350b21dc1770a82a557059c9f2a88c1d3b346ad94997",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/war/post2016_southern_war_v3/race_war.csv",
+          "expected": "18939202c25cb3e737d1d76764f10005665d2f48d6b6e62f9a2fd17ac7b3ed64",
+          "actual": "18939202c25cb3e737d1d76764f10005665d2f48d6b6e62f9a2fd17ac7b3ed64",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/war/post2016_southern_war_v3/candidate_cycle_war.csv",
+          "expected": "10cb0472b16fef633b7785174cc832c267de85817f41e59ef07917df44372909",
+          "actual": "10cb0472b16fef633b7785174cc832c267de85817f41e59ef07917df44372909",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/war/post2016_southern_war_v3/structural_forward_predictions.csv",
+          "expected": "802bc0d1cb7f8245ec62207e268b5480c3b24fe45a5ba7aaa0db6c59c24ddda7",
+          "actual": "802bc0d1cb7f8245ec62207e268b5480c3b24fe45a5ba7aaa0db6c59c24ddda7",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/war/post2016_southern_war_v3/structural_forward_metrics.csv",
+          "expected": "6e2798def55988241b4703536fa3efa06ca071a5ed3e1ea8a03687da6e62253d",
+          "actual": "6e2798def55988241b4703536fa3efa06ca071a5ed3e1ea8a03687da6e62253d",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/war/post2016_southern_war_v3/validation_cross_fitted_predictions.csv",
+          "expected": "0733504e60f6b4cd3d3fc92fda8f9793bd9759fd16e825d72e5d4b33ee51d2d0",
+          "actual": "0733504e60f6b4cd3d3fc92fda8f9793bd9759fd16e825d72e5d4b33ee51d2d0",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/war/post2016_southern_war_v3/structural_coefficients_by_cycle.csv",
+          "expected": "e5faec30016fd92f84a2dcc4b9e6223b2239d8936febdfb209eb1f5d46fb0658",
+          "actual": "e5faec30016fd92f84a2dcc4b9e6223b2239d8936febdfb209eb1f5d46fb0658",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/war/post2016_southern_war_v3/lag_diagnostics_by_cycle.csv",
+          "expected": "c0471a467cd94a07a4d61a68426f8fdd1a9275c61575adc189f1c8f637b5e516",
+          "actual": "c0471a467cd94a07a4d61a68426f8fdd1a9275c61575adc189f1c8f637b5e516",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/war/post2016_southern_war_v3/v2_correction_comparison.csv",
+          "expected": "854a37d18b3adcbaeaeba2cfe4320517c2afc640dfa3d4b5f9be4aeb2d5387c3",
+          "actual": "854a37d18b3adcbaeaeba2cfe4320517c2afc640dfa3d4b5f9be4aeb2d5387c3",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/war/post2016_southern_war_v3/coverage.csv",
+          "expected": "76af90fb692ce6761023b9c796d2ced3cb1c531a7bb751d26d0de3dba495b4a1",
+          "actual": "76af90fb692ce6761023b9c796d2ced3cb1c531a7bb751d26d0de3dba495b4a1",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/war/post2016_southern_war_v3/finance_forward_predictions.csv",
+          "expected": "8578db4a21233078372393de86228d4044a94e1b74d53b71333d26d7218e5d8f",
+          "actual": "8578db4a21233078372393de86228d4044a94e1b74d53b71333d26d7218e5d8f",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/war/post2016_southern_war_v3/finance_forward_metrics.csv",
+          "expected": "1f0d4bbfc792bb6e51b065d2dee7a3ab7a46c1db4bce865ab2c9218b9d0b5883",
+          "actual": "1f0d4bbfc792bb6e51b065d2dee7a3ab7a46c1db4bce865ab2c9218b9d0b5883",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/war/post2016_southern_war_v3/finance_nested_predictions.csv",
+          "expected": "9c06498febb0f1fd72fafc9628c4d76cb881c4114295f1c7010e01b5035541c4",
+          "actual": "9c06498febb0f1fd72fafc9628c4d76cb881c4114295f1c7010e01b5035541c4",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/war/post2016_southern_war_v3/finance_nested_metrics.csv",
+          "expected": "80526b921a642f55fcc5b8c67b8c03186bd45a5f21cba38dece1676a25d6ffa6",
+          "actual": "80526b921a642f55fcc5b8c67b8c03186bd45a5f21cba38dece1676a25d6ffa6",
+          "matches": true
+        },
+        {
+          "kind": "reports",
+          "path": "project_docs/model/POST2016_SOUTHERN_WAR_V3.md",
+          "expected": "7d2f74d8aec3c73ee18d2fd606c327fa3d9ea014c968426c7a9a4259cb5f71ce",
+          "actual": "7d2f74d8aec3c73ee18d2fd606c327fa3d9ea014c968426c7a9a4259cb5f71ce",
+          "matches": true
+        },
+        {
+          "kind": "reports",
+          "path": "project_docs/model/POST2016_SOUTHERN_WAR_V3_FIELD_CONTRACT.md",
+          "expected": "272c60027414654d37ef6d5851cc6224cb432ea12bdf6df05cf53a48b0c7ae32",
+          "actual": "272c60027414654d37ef6d5851cc6224cb432ea12bdf6df05cf53a48b0c7ae32",
+          "matches": true
+        },
+        {
+          "kind": "reports",
+          "path": "project_docs/audits/POST2016_SOUTHERN_WAR_V3_VALIDATION.md",
+          "expected": "ac940e9d71ceae6f64e4f34d0a1ada5d1f7f824f5534db7ba9e6b33bd7912fb5",
+          "actual": "ac940e9d71ceae6f64e4f34d0a1ada5d1f7f824f5534db7ba9e6b33bd7912fb5",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "path": "data/processed/war/alabama_war_v1/manifest.json",
+      "manifest_sha256": "50f6a92abd98fcb7b2ca21bae18eae6dab7ae17273ec29e88b78a6c9e06bf884",
+      "identifiers": {
+        "alabama_war_run_id": "AL-WAR-V1-688D1D476170C330841D",
+        "generated_at_utc": "2026-09-02T03:28:12.949057+00:00",
+        "source_model_run_id": "WAR-POST2016-V3-8BB52074EC806C5BF6BF"
+      },
+      "checks": [
+        {
+          "kind": "input_hashes",
+          "path": "data/processed/war/post2016_southern_war_v3/candidate_cycle_war.csv",
+          "expected": "10cb0472b16fef633b7785174cc832c267de85817f41e59ef07917df44372909",
+          "actual": "10cb0472b16fef633b7785174cc832c267de85817f41e59ef07917df44372909",
+          "matches": true
+        },
+        {
+          "kind": "input_hashes",
+          "path": "data/processed/war/post2016_southern_war_v3/race_war.csv",
+          "expected": "18939202c25cb3e737d1d76764f10005665d2f48d6b6e62f9a2fd17ac7b3ed64",
+          "actual": "18939202c25cb3e737d1d76764f10005665d2f48d6b6e62f9a2fd17ac7b3ed64",
+          "matches": true
+        },
+        {
+          "kind": "input_hashes",
+          "path": "project_docs/model/ALABAMA_WAR_FORECAST_FIELD_CONTRACT.md",
+          "expected": "7a63f4c8b27e9830724b8b2856c4d8af2e1fb9d12e08a3ec73ce809352f3dad8",
+          "actual": "7a63f4c8b27e9830724b8b2856c4d8af2e1fb9d12e08a3ec73ce809352f3dad8",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/war/alabama_war_v1/race_war.csv",
+          "expected": "a971d5e886a4af53f753a12bb0c69a1c004331f0b7d5fe53ebfa9ad3927aa59e",
+          "actual": "a971d5e886a4af53f753a12bb0c69a1c004331f0b7d5fe53ebfa9ad3927aa59e",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/war/alabama_war_v1/candidate_cycle_war.csv",
+          "expected": "c7ef528047b4199df4815e3655bec8446994241e171ad8a583b14600f0ef9efa",
+          "actual": "c7ef528047b4199df4815e3655bec8446994241e171ad8a583b14600f0ef9efa",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/war/alabama_war_v1/coverage.csv",
+          "expected": "4acbe4f19dd03c616a62b9309c5ba6256d6c2570d39c6e1b8e2db86c5e2bca0f",
+          "actual": "4acbe4f19dd03c616a62b9309c5ba6256d6c2570d39c6e1b8e2db86c5e2bca0f",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "path": "data/processed/war/alabama_historical_war_v1/manifest.json",
+      "manifest_sha256": "c0a7160ab29d8c52a5f7e6fd21a21eeb14c01c48f25703b123338d7467262f26",
+      "identifiers": {
+        "historical_war_run_id": "AL-HIST-WAR-V1-EA0E2C252439D4584227",
+        "generated_at_utc": "2026-09-02T03:28:23.797749+00:00",
+        "warehouse_build_run_id": "RUN-85A4692E481448B6BB1380D76E07742B",
+        "source_southern_war_run_id": "WAR-POST2016-V3-8BB52074EC806C5BF6BF",
+        "source_alabama_war_run_id": "AL-WAR-V1-688D1D476170C330841D"
+      },
+      "checks": [
+        {
+          "kind": "input_hashes",
+          "path": "data/processed/war/cmo_v5_races.csv",
+          "expected": "a8745953791aae048aa83cf013668165cd6e7968ef712c0d9a21d82429504024",
+          "actual": "a8745953791aae048aa83cf013668165cd6e7968ef712c0d9a21d82429504024",
+          "matches": true
+        },
+        {
+          "kind": "input_hashes",
+          "path": "data/processed/war/cmo_v5_candidates.csv",
+          "expected": "be5ce11349ba84bcb1a54e04c40e9520f6ecfdf9e9803c82eff5863f14be500c",
+          "actual": "be5ce11349ba84bcb1a54e04c40e9520f6ecfdf9e9803c82eff5863f14be500c",
+          "matches": true
+        },
+        {
+          "kind": "input_hashes",
+          "path": "data/processed/elections/canonical_cmo_features.csv",
+          "expected": "b72934f50e22a74bafa9b2f9648cdf8faf3a787f0ac6b18e758131bbbc2856d0",
+          "actual": "b72934f50e22a74bafa9b2f9648cdf8faf3a787f0ac6b18e758131bbbc2856d0",
+          "matches": true
+        },
+        {
+          "kind": "input_hashes",
+          "path": "data/processed/war/alabama_war_v1/race_war.csv",
+          "expected": "a971d5e886a4af53f753a12bb0c69a1c004331f0b7d5fe53ebfa9ad3927aa59e",
+          "actual": "a971d5e886a4af53f753a12bb0c69a1c004331f0b7d5fe53ebfa9ad3927aa59e",
+          "matches": true
+        },
+        {
+          "kind": "input_hashes",
+          "path": "data/processed/war/post2016_southern_war_v3/manifest.json",
+          "expected": "0ea558730b9e953d95853d552960886c855b8bb3f9fb9cb2ee0a3c44a47c7638",
+          "actual": "0ea558730b9e953d95853d552960886c855b8bb3f9fb9cb2ee0a3c44a47c7638",
+          "matches": true
+        },
+        {
+          "kind": "input_hashes",
+          "path": "project_docs/model/ALABAMA_HISTORICAL_WAR_V1_FIELD_CONTRACT.md",
+          "expected": "9d699affdf33bf25852bcf344c266714f5830114d7bf3e9918f6967d22721d1f",
+          "actual": "9d699affdf33bf25852bcf344c266714f5830114d7bf3e9918f6967d22721d1f",
+          "matches": true
+        },
+        {
+          "kind": "input_hashes",
+          "path": "data/manual/ideology/candidate_research_aliases.csv",
+          "expected": "a764a270a9955670e08038b0a3352903adebcdb2bf6e38915dc3af03ef79ea51",
+          "actual": "a764a270a9955670e08038b0a3352903adebcdb2bf6e38915dc3af03ef79ea51",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/war/alabama_historical_war_v1/race_war.csv",
+          "expected": "1e06cbf5057795fe59ee7c6da1e691a4413f7c8e2beb41fb6e66a53e5068519c",
+          "actual": "1e06cbf5057795fe59ee7c6da1e691a4413f7c8e2beb41fb6e66a53e5068519c",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/war/alabama_historical_war_v1/candidate_cycle_war.csv",
+          "expected": "5d8cbbba523d77db56a76b3d76ebee004250554d5201436435354adc305d83ef",
+          "actual": "5d8cbbba523d77db56a76b3d76ebee004250554d5201436435354adc305d83ef",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/war/alabama_historical_war_v1/structural_coefficients.csv",
+          "expected": "627c0183165639b7925cba3342fe581c2b7fe061fd332faf1083bcf3ef6cd006",
+          "actual": "627c0183165639b7925cba3342fe581c2b7fe061fd332faf1083bcf3ef6cd006",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/war/alabama_historical_war_v1/coverage.csv",
+          "expected": "86d62334554259060fb23d29216659819153f22ff17a06e04285bc5a24d32fcd",
+          "actual": "86d62334554259060fb23d29216659819153f22ff17a06e04285bc5a24d32fcd",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "path": "data/processed/war/southern_historical_war_v1/manifest.json",
+      "manifest_sha256": "c2cbee45fa8437f089d2f874dfbd149f966ebd5be5e4626ad4c2ca9a5879d096",
+      "identifiers": {
+        "generated_at_utc": "2026-09-05T22:15:37.955132+00:00",
+        "historical_war_run_id": "WAR-SOUTH-HIST-V1-D3EC2AC2CC508300EA1C",
+        "warehouse_build_run_id": "RUN-85A4692E481448B6BB1380D76E07742B"
+      },
+      "checks": [
+        {
+          "kind": "inputs",
+          "path": "data/processed/elections/alabama_elections.sqlite",
+          "expected": "2dfcdcb81079605b9ac36f5670d30957500f8cec74ddafa1da18b3eccd613377",
+          "actual": "2dfcdcb81079605b9ac36f5670d30957500f8cec74ddafa1da18b3eccd613377",
+          "matches": true
+        },
+        {
+          "kind": "inputs",
+          "path": "data/processed/war/2022_wikipedia_vote_validation.csv",
+          "expected": "9140169b2c80ca177f002848cf606641c3deb18fea9336e6ee2a448360739c70",
+          "actual": "9140169b2c80ca177f002848cf606641c3deb18fea9336e6ee2a448360739c70",
+          "matches": true
+        },
+        {
+          "kind": "inputs",
+          "path": "data/processed/war/alabama_historical_war_v1/candidate_cycle_war.csv",
+          "expected": "5d8cbbba523d77db56a76b3d76ebee004250554d5201436435354adc305d83ef",
+          "actual": "5d8cbbba523d77db56a76b3d76ebee004250554d5201436435354adc305d83ef",
+          "matches": true
+        },
+        {
+          "kind": "inputs",
+          "path": "data/processed/war/post2016_southern_war_v3/manifest.json",
+          "expected": "0ea558730b9e953d95853d552960886c855b8bb3f9fb9cb2ee0a3c44a47c7638",
+          "actual": "0ea558730b9e953d95853d552960886c855b8bb3f9fb9cb2ee0a3c44a47c7638",
+          "matches": true
+        },
+        {
+          "kind": "inputs",
+          "path": "data/processed/war/post2016_southern_war_v3/race_war.csv",
+          "expected": "18939202c25cb3e737d1d76764f10005665d2f48d6b6e62f9a2fd17ac7b3ed64",
+          "actual": "18939202c25cb3e737d1d76764f10005665d2f48d6b6e62f9a2fd17ac7b3ed64",
+          "matches": true
+        },
+        {
+          "kind": "inputs",
+          "path": "data/processed/war/wikipedia_legislative_candidates.csv",
+          "expected": "93fa2d64c43e763fd57a4f11d7094c2c0bac5cd904a84917d451779386fe9b63",
+          "actual": "93fa2d64c43e763fd57a4f11d7094c2c0bac5cd904a84917d451779386fe9b63",
+          "matches": true
+        },
+        {
+          "kind": "inputs",
+          "path": "project_docs/model/SOUTHERN_HISTORICAL_WAR_MAP_FIELD_CONTRACT.md",
+          "expected": "29d9c12a4fa313175900b5e7169754d6ba4e69a257e959c166d9263672c7c159",
+          "actual": "29d9c12a4fa313175900b5e7169754d6ba4e69a257e959c166d9263672c7c159",
+          "matches": true
+        },
+        {
+          "kind": "inputs",
+          "path": "scripts/build_southern_historical_war_v1.py",
+          "expected": "8c0aa1063a937bf9182905aa650560baa600132abc0c99dee7823e32dcf236a7",
+          "actual": "8c0aa1063a937bf9182905aa650560baa600132abc0c99dee7823e32dcf236a7",
+          "matches": true
+        },
+        {
+          "kind": "inputs",
+          "path": "scripts/retrain_post2016_southern_war.py",
+          "expected": "ead76fb849c93043d380cff7d2a14eb2a7bca31944134af207acf7002d2e075d",
+          "actual": "ead76fb849c93043d380cff7d2a14eb2a7bca31944134af207acf7002d2e075d",
+          "matches": true
+        },
+        {
+          "kind": "inputs",
+          "path": "scripts/retrain_post2016_southern_war_v2.py",
+          "expected": "9a52de7cd3043f8d8a57d07a39e5914d257af2ffc3ebe2da8f17b2c9e8f0a730",
+          "actual": "9a52de7cd3043f8d8a57d07a39e5914d257af2ffc3ebe2da8f17b2c9e8f0a730",
+          "matches": true
+        },
+        {
+          "kind": "inputs",
+          "path": "scripts/southern_war_map_contract.py",
+          "expected": "916e188d70070558051ebdad27cea48a3b7e3dbcf6cddd4e134acf37aaeb89ec",
+          "actual": "916e188d70070558051ebdad27cea48a3b7e3dbcf6cddd4e134acf37aaeb89ec",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/war/southern_historical_war_v1/race_war.csv",
+          "expected": "d1e5675bc0fb8939cac32cd4f33df0f66f5043fa5d14c57a6ae8395ce73ebec2",
+          "actual": "d1e5675bc0fb8939cac32cd4f33df0f66f5043fa5d14c57a6ae8395ce73ebec2",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/war/southern_historical_war_v1/candidate_cycle_war.csv",
+          "expected": "5ddc857f6484215377e5809f1385508e7293d9e3fe48963a1f1894069a4846a5",
+          "actual": "5ddc857f6484215377e5809f1385508e7293d9e3fe48963a1f1894069a4846a5",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/war/southern_historical_war_v1/structural_coefficients.csv",
+          "expected": "af165f116856224825cd9e7b9c2a80c8511f9678c5d8b56dbe20e2280fcde0a9",
+          "actual": "af165f116856224825cd9e7b9c2a80c8511f9678c5d8b56dbe20e2280fcde0a9",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/war/southern_historical_war_v1/coverage.csv",
+          "expected": "af2e1660f309a5d14020d337a1a964feaacb44e4f6c1e0e8e2b38189b657fed8",
+          "actual": "af2e1660f309a5d14020d337a1a964feaacb44e4f6c1e0e8e2b38189b657fed8",
+          "matches": true
+        },
+        {
+          "kind": "reports",
+          "path": "project_docs/model/SOUTHERN_HISTORICAL_WAR_MAP_FIELD_CONTRACT.md",
+          "expected": "29d9c12a4fa313175900b5e7169754d6ba4e69a257e959c166d9263672c7c159",
+          "actual": "29d9c12a4fa313175900b5e7169754d6ba4e69a257e959c166d9263672c7c159",
+          "matches": true
+        },
+        {
+          "kind": "reports",
+          "path": "project_docs/model/SOUTHERN_HISTORICAL_WAR_V1.md",
+          "expected": "a0ca1abc812d29089da6509121027337be2f45b5ca7c8036adaa5bdac8b92373",
+          "actual": "a0ca1abc812d29089da6509121027337be2f45b5ca7c8036adaa5bdac8b92373",
+          "matches": true
+        },
+        {
+          "kind": "reports",
+          "path": "project_docs/audits/SOUTHERN_HISTORICAL_WAR_V1_VALIDATION.md",
+          "expected": "cc2b1400e66ffcc7565c65d3791650d3ea51f673c81fd3330bf729b36aa2d7ae",
+          "actual": "cc2b1400e66ffcc7565c65d3791650d3ea51f673c81fd3330bf729b36aa2d7ae",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_manifest.json",
+      "manifest_sha256": "ab8e0ebfe03240783b87be7368bb54569a1aedc68a5ca1945a30fdf531b0de50",
+      "identifiers": {
+        "build_id": "b5ae4b8054e027862fbe",
+        "generated_at_utc": "2026-09-02T03:28:24.831126+00:00"
+      },
+      "checks": [
+        {
+          "kind": "inputs",
+          "path": "data/processed/war/alabama_war_v1/race_war.csv",
+          "expected": "a971d5e886a4af53f753a12bb0c69a1c004331f0b7d5fe53ebfa9ad3927aa59e",
+          "actual": "a971d5e886a4af53f753a12bb0c69a1c004331f0b7d5fe53ebfa9ad3927aa59e",
+          "matches": true
+        },
+        {
+          "kind": "inputs",
+          "path": "data/processed/war/alabama_war_v1/manifest.json",
+          "expected": "50f6a92abd98fcb7b2ca21bae18eae6dab7ae17273ec29e88b78a6c9e06bf884",
+          "actual": "50f6a92abd98fcb7b2ca21bae18eae6dab7ae17273ec29e88b78a6c9e06bf884",
+          "matches": true
+        },
+        {
+          "kind": "inputs",
+          "path": "data/processed/war/post2016_southern_war_v3/manifest.json",
+          "expected": "0ea558730b9e953d95853d552960886c855b8bb3f9fb9cb2ee0a3c44a47c7638",
+          "actual": "0ea558730b9e953d95853d552960886c855b8bb3f9fb9cb2ee0a3c44a47c7638",
+          "matches": true
+        },
+        {
+          "kind": "inputs",
+          "path": "data/processed/polling/historical_silver_a_generic_ballot_cycles.csv",
+          "expected": "52e4ab48342c5550b4ecb1d146914a4120c777d4b888f4cbae88d32684817010",
+          "actual": "52e4ab48342c5550b4ecb1d146914a4120c777d4b888f4cbae88d32684817010",
+          "matches": true
+        },
+        {
+          "kind": "inputs",
+          "path": "data/processed/war/2026_final_candidate_roster.csv",
+          "expected": "d9ee34c1b7b37096503d5eebbea07cfc24cc2df0f9da3ffde9ef41def710388c",
+          "actual": "d9ee34c1b7b37096503d5eebbea07cfc24cc2df0f9da3ffde9ef41def710388c",
+          "matches": true
+        },
+        {
+          "kind": "inputs",
+          "path": "data/processed/war/2026_candidate_incumbency.csv",
+          "expected": "9aae05a0e0ae8998754dc1ecbcdbae7da925f560f375f9eb32337d1c95cbc3c9",
+          "actual": "9aae05a0e0ae8998754dc1ecbcdbae7da925f560f375f9eb32337d1c95cbc3c9",
+          "matches": true
+        },
+        {
+          "kind": "inputs",
+          "path": "data/processed/war/2026_poll_adjusted_baseline.csv",
+          "expected": "eb730a46c6ea2ef02ccc26fc03bc833fb2747c076196d6ac477fc06b88837b9f",
+          "actual": "eb730a46c6ea2ef02ccc26fc03bc833fb2747c076196d6ac477fc06b88837b9f",
+          "matches": true
+        },
+        {
+          "kind": "inputs",
+          "path": "data/processed/forecast_calibration/robust_forecast_v1_error_components.csv",
+          "expected": "4085d289d65d17b847bad2d314356d70d0ffd5ab3bc72633e1b07aa69eef5d68",
+          "actual": "4085d289d65d17b847bad2d314356d70d0ffd5ab3bc72633e1b07aa69eef5d68",
+          "matches": true
+        },
+        {
+          "kind": "inputs",
+          "path": "project_docs/model/ALABAMA_WAR_FORECAST_FIELD_CONTRACT.md",
+          "expected": "7a63f4c8b27e9830724b8b2856c4d8af2e1fb9d12e08a3ec73ce809352f3dad8",
+          "actual": "7a63f4c8b27e9830724b8b2856c4d8af2e1fb9d12e08a3ec73ce809352f3dad8",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_historical_panel.csv",
+          "expected": "08e768a84bee1bde9dc68af284c5bd02ee2ca1a3ddbefaa73791efa0bd39d425",
+          "actual": "08e768a84bee1bde9dc68af284c5bd02ee2ca1a3ddbefaa73791efa0bd39d425",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_forward_predictions.csv",
+          "expected": "2e3465cb9169474df5f20c1f7a5d58710df8cb48392227c75b7294eaf112a4e9",
+          "actual": "2e3465cb9169474df5f20c1f7a5d58710df8cb48392227c75b7294eaf112a4e9",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_forward_metrics.csv",
+          "expected": "d68c30bc059b06637bfc6802773031b5090284667725bc6d7662fb3b45d624c3",
+          "actual": "d68c30bc059b06637bfc6802773031b5090284667725bc6d7662fb3b45d624c3",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_probability_families.csv",
+          "expected": "e1a20414aec69551b10cf9fef94ebbfb9f8a0b00a9cecaec09085e4f74d49e53",
+          "actual": "e1a20414aec69551b10cf9fef94ebbfb9f8a0b00a9cecaec09085e4f74d49e53",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_2026_scenarios.csv",
+          "expected": "4d7bb8559d1bdbad32e574020b95d9ec0014baecb6ec24db2df3b92966c439dd",
+          "actual": "4d7bb8559d1bdbad32e574020b95d9ec0014baecb6ec24db2df3b92966c439dd",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_2026_full_uncertainty.csv",
+          "expected": "141e5dc1ef1b017ba260cc12380700668e42c78611fa33e89d6c0c63f8ea3b91",
+          "actual": "141e5dc1ef1b017ba260cc12380700668e42c78611fa33e89d6c0c63f8ea3b91",
+          "matches": true
+        },
+        {
+          "kind": "outputs",
+          "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_2026_modeled_seats.csv",
+          "expected": "966f4949fd4737390c03a96e24cce96649fa3a5765728c20075f7e00f521659d",
+          "actual": "966f4949fd4737390c03a96e24cce96649fa3a5765728c20075f7e00f521659d",
+          "matches": true
+        }
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "issue_id": "WQA-01-02",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "vote_observations",
+      "scope": "Jefferson 2014; Marshall 2002",
+      "status": "repaired",
+      "evidence_json": "{\"before_images\": \"C:\\\\Users\\\\User\\\\Documents\\\\GitHub\\\\alabama-state-house-and-state-senate-model\\\\data\\\\processed\\\\elections\\\\backups\\\\pre-source-repair-2026-09-05.sqlite\", \"new_scoped_rows\": 164762, \"old_scoped_rows\": 165946, \"reconciliation\": [{\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 23808.0, \"reported\": 23808.0, \"source_row\": 4, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 10426.0, \"reported\": 10426.0, \"source_row\": 5, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 546.0, \"reported\": 546.0, \"source_row\": 6, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 12508.0, \"reported\": 12508.0, \"source_row\": 7, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 11062.0, \"reported\": 11062.0, \"source_row\": 9, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 473.0, \"reported\": 473.0, \"source_row\": 10, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 11432.0, \"reported\": 11432.0, \"source_row\": 11, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 7018.0, \"reported\": 7018.0, \"source_row\": 13, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 532.0, \"reported\": 532.0, \"source_row\": 14, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 15802.0, \"reported\": 15802.0, \"source_row\": 15, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 7060.0, \"reported\": 7060.0, \"source_row\": 17, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 614.0, \"reported\": 614.0, \"source_row\": 18, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 14903.0, \"reported\": 14903.0, \"source_row\": 19, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 8455.0, \"reported\": 8455.0, \"source_row\": 21, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 606.0, \"reported\": 606.0, \"source_row\": 22, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 13459.0, \"reported\": 13459.0, \"source_row\": 23, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 7738.0, \"reported\": 7738.0, \"source_row\": 25, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 13522.0, \"reported\": 13522.0, \"source_row\": 26, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 7212.0, \"reported\": 7212.0, \"source_row\": 28, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 1463.0, \"reported\": 1463.0, \"source_row\": 29, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 12239.0, \"reported\": 12239.0, \"source_row\": 30, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 9021.0, \"reported\": 9021.0, \"source_row\": 32, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 11414.0, \"reported\": 11414.0, \"source_row\": 33, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 10101.0, \"reported\": 10101.0, \"source_row\": 35, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 572.0, \"reported\": 572.0, \"source_row\": 36, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 11160.0, \"reported\": 11160.0, \"source_row\": 37, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 9865.0, \"reported\": 9865.0, \"source_row\": 39, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 675.0, \"reported\": 675.0, \"source_row\": 40, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 11462.0, \"reported\": 11462.0, \"source_row\": 41, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 8571.0, \"reported\": 8571.0, \"source_row\": 43, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 1270.0, \"reported\": 1270.0, \"source_row\": 44, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 11463.0, \"reported\": 11463.0, \"source_row\": 45, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 10906.0, \"reported\": 10906.0, \"source_row\": 47, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 647.0, \"reported\": 647.0, \"source_row\": 48, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 10009.0, \"reported\": 10009.0, \"source_row\": 49, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 10305.0, \"reported\": 10305.0, \"source_row\": 51, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 786.0, \"reported\": 786.0, \"source_row\": 52, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 10613.0, \"reported\": 10613.0, \"source_row\": 53, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 7592.0, \"reported\": 7592.0, \"source_row\": 55, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 830.0, \"reported\": 830.0, \"source_row\": 56, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 13473.0, \"reported\": 13473.0, \"source_row\": 57, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 2824.0, \"reported\": 2824.0, \"source_row\": 59, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 17639.0, \"reported\": 17639.0, \"source_row\": 60, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 4944.0, \"reported\": 4944.0, \"source_row\": 62, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 13320.0, \"reported\": 13320.0, \"source_row\": 63, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 15689.0, \"reported\": 15689.0, \"source_row\": 65, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 7557.0, \"reported\": 7557.0, \"source_row\": 66, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 5967.0, \"reported\": 5967.0, \"source_row\": 68, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 3861.0, \"reported\": 3861.0, \"source_row\": 69, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 7724.0, \"reported\": 7724.0, \"source_row\": 71, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 662.0, \"reported\": 662.0, \"source_row\": 72, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 4789.0, \"reported\": 4789.0, \"source_row\": 73, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 17197.0, \"reported\": 17197.0, \"source_row\": 75, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 15937.0, \"reported\": 15937.0, \"source_row\": 77, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 3643.0, \"reported\": 3643.0, \"source_row\": 78, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 8560.0, \"reported\": 8560.0, \"source_row\": 79, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 9480.0, \"reported\": 9480.0, \"source_row\": 80, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 11303.0, \"reported\": 11303.0, \"source_row\": 81, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"MARSHALL\", \"precinct_cells\": 50, \"precinct_sum\": 6327.0, \"reported\": 6327.0, \"source_row\": 82, \"summary_column\": 7, \"year\": 2002}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 42119.0, \"reported\": 42119.0, \"source_row\": 2, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 91799.0, \"reported\": 91799.0, \"source_row\": 3, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 68931.0, \"reported\": 68931.0, \"source_row\": 6, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 63343.0, \"reported\": 63343.0, \"source_row\": 7, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 50597.0, \"reported\": 50597.0, \"source_row\": 10, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 88963.0, \"reported\": 88963.0, \"source_row\": 11, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 66958.0, \"reported\": 66958.0, \"source_row\": 14, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 64672.0, \"reported\": 64672.0, \"source_row\": 15, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 38740.0, \"reported\": 38740.0, \"source_row\": 18, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 97915.0, \"reported\": 97915.0, \"source_row\": 19, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 79437.0, \"reported\": 79437.0, \"source_row\": 22, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 85908.0, \"reported\": 85908.0, \"source_row\": 24, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 167371.0, \"reported\": 167371.0, \"source_row\": 27, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 80251.0, \"reported\": 80251.0, \"source_row\": 28, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 83979.0, \"reported\": 83979.0, \"source_row\": 30, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 82036.0, \"reported\": 82036.0, \"source_row\": 33, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 81187.0, \"reported\": 81187.0, \"source_row\": 35, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 82898.0, \"reported\": 82898.0, \"source_row\": 38, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 79492.0, \"reported\": 79492.0, \"source_row\": 40, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 88226.0, \"reported\": 88226.0, \"source_row\": 43, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 87940.0, \"reported\": 87940.0, \"source_row\": 47, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 87949.0, \"reported\": 87949.0, \"source_row\": 51, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 87854.0, \"reported\": 87854.0, \"source_row\": 55, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 77385.0, \"reported\": 77385.0, \"source_row\": 59, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 86276.0, \"reported\": 86276.0, \"source_row\": 61, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 79646.0, \"reported\": 79646.0, \"source_row\": 64, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 83091.0, \"reported\": 83091.0, \"source_row\": 66, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 83147.0, \"reported\": 83147.0, \"source_row\": 69, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 82865.0, \"reported\": 82865.0, \"source_row\": 71, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 53, \"precinct_sum\": 4754.0, \"reported\": 4754.0, \"source_row\": 75, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 53, \"precinct_sum\": 23905.0, \"reported\": 23905.0, \"source_row\": 76, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 53, \"precinct_sum\": 20108.0, \"reported\": 20108.0, \"source_row\": 79, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 53, \"precinct_sum\": 1117.0, \"reported\": 1117.0, \"source_row\": 81, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 53, \"precinct_sum\": 20882.0, \"reported\": 20882.0, \"source_row\": 82, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 106, \"precinct_sum\": 39121.0, \"reported\": 39121.0, \"source_row\": 85, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 43, \"precinct_sum\": 27327.0, \"reported\": 27327.0, \"source_row\": 90, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 48, \"precinct_sum\": 1752.0, \"reported\": 1752.0, \"source_row\": 94, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 48, \"precinct_sum\": 26540.0, \"reported\": 26540.0, \"source_row\": 95, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 36, \"precinct_sum\": 24344.0, \"reported\": 24344.0, \"source_row\": 98, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 36, \"precinct_sum\": 2079.0, \"reported\": 2079.0, \"source_row\": 100, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 36, \"precinct_sum\": 10008.0, \"reported\": 10008.0, \"source_row\": 101, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 27, \"precinct_sum\": 22743.0, \"reported\": 22743.0, \"source_row\": 104, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 27, \"precinct_sum\": 2985.0, \"reported\": 2985.0, \"source_row\": 106, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 33, \"precinct_sum\": 25871.0, \"reported\": 25871.0, \"source_row\": 109, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 33, \"precinct_sum\": 4158.0, \"reported\": 4158.0, \"source_row\": 111, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 90579.0, \"reported\": 90579.0, \"source_row\": 114, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 4705.0, \"reported\": 4705.0, \"source_row\": 116, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 70256.0, \"reported\": 70256.0, \"source_row\": 117, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 76616.0, \"reported\": 76616.0, \"source_row\": 120, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 5681.0, \"reported\": 5681.0, \"source_row\": 122, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 81711.0, \"reported\": 81711.0, \"source_row\": 123, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 70217.0, \"reported\": 70217.0, \"source_row\": 126, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 6451.0, \"reported\": 6451.0, \"source_row\": 128, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 87192.0, \"reported\": 87192.0, \"source_row\": 129, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 82612.0, \"reported\": 82612.0, \"source_row\": 132, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 82695.0, \"reported\": 82695.0, \"source_row\": 134, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 87179.0, \"reported\": 87179.0, \"source_row\": 137, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 87288.0, \"reported\": 87288.0, \"source_row\": 141, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 409114.0, \"reported\": 409114.0, \"source_row\": 145, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 82841.0, \"reported\": 82841.0, \"source_row\": 146, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 80024.0, \"reported\": 80024.0, \"source_row\": 148, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 80962.0, \"reported\": 80962.0, \"source_row\": 151, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 82003.0, \"reported\": 82003.0, \"source_row\": 153, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 119, \"precinct_sum\": 68089.0, \"reported\": 68089.0, \"source_row\": 157, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 3, \"precinct_sum\": 1217.0, \"reported\": 1217.0, \"source_row\": 160, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 13, \"precinct_sum\": 8885.0, \"reported\": 8885.0, \"source_row\": 164, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 10, \"precinct_sum\": 2676.0, \"reported\": 2676.0, \"source_row\": 168, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 10, \"precinct_sum\": 271.0, \"reported\": 271.0, \"source_row\": 170, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 3, \"precinct_sum\": 84.0, \"reported\": 84.0, \"source_row\": 173, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 12, \"precinct_sum\": 10360.0, \"reported\": 10360.0, \"source_row\": 177, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 11, \"precinct_sum\": 3786.0, \"reported\": 3786.0, \"source_row\": 181, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 15, \"precinct_sum\": 10778.0, \"reported\": 10778.0, \"source_row\": 185, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 12, \"precinct_sum\": 7073.0, \"reported\": 7073.0, \"source_row\": 189, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 12, \"precinct_sum\": 2642.0, \"reported\": 2642.0, \"source_row\": 191, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 10, \"precinct_sum\": 9919.0, \"reported\": 9919.0, \"source_row\": 194, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 13, \"precinct_sum\": 10746.0, \"reported\": 10746.0, \"source_row\": 198, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 21, \"precinct_sum\": 2207.0, \"reported\": 2207.0, \"source_row\": 202, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 21, \"precinct_sum\": 7305.0, \"reported\": 7305.0, \"source_row\": 204, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 21, \"precinct_sum\": 7601.0, \"reported\": 7601.0, \"source_row\": 208, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 22, \"precinct_sum\": 8453.0, \"reported\": 8453.0, \"source_row\": 212, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 21, \"precinct_sum\": 3680.0, \"reported\": 3680.0, \"source_row\": 215, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 21, \"precinct_sum\": 406.0, \"reported\": 406.0, \"source_row\": 217, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 21, \"precinct_sum\": 7960.0, \"reported\": 7960.0, \"source_row\": 218, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 23, \"precinct_sum\": 10184.0, \"reported\": 10184.0, \"source_row\": 222, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 14, \"precinct_sum\": 8287.0, \"reported\": 8287.0, \"source_row\": 226, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 19, \"precinct_sum\": 7949.0, \"reported\": 7949.0, \"source_row\": 230, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 21, \"precinct_sum\": 9584.0, \"reported\": 9584.0, \"source_row\": 234, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 3, \"precinct_sum\": 2236.0, \"reported\": 2236.0, \"source_row\": 237, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 17, \"precinct_sum\": 13175.0, \"reported\": 13175.0, \"source_row\": 241, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 22, \"precinct_sum\": 18114.0, \"reported\": 18114.0, \"source_row\": 245, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 22, \"precinct_sum\": 5897.0, \"reported\": 5897.0, \"source_row\": 247, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 22, \"precinct_sum\": 18941.0, \"reported\": 18941.0, \"source_row\": 250, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 52, \"precinct_sum\": 23195.0, \"reported\": 23195.0, \"source_row\": 255, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 48, \"precinct_sum\": 27143.0, \"reported\": 27143.0, \"source_row\": 259, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 45, \"precinct_sum\": 23368.0, \"reported\": 23368.0, \"source_row\": 263, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 11, \"precinct_sum\": 4380.0, \"reported\": 4380.0, \"source_row\": 266, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 88565.0, \"reported\": 88565.0, \"source_row\": 270, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 51498.0, \"reported\": 51498.0, \"source_row\": 274, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 368.0, \"reported\": 368.0, \"source_row\": 275, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 61678.0, \"reported\": 61678.0, \"source_row\": 276, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 88901.0, \"reported\": 88901.0, \"source_row\": 279, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 90, \"precinct_sum\": 68671.0, \"reported\": 68671.0, \"source_row\": 283, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 90, \"precinct_sum\": 26116.0, \"reported\": 26116.0, \"source_row\": 285, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 103, \"precinct_sum\": 60608.0, \"reported\": 60608.0, \"source_row\": 289, \"summary_column\": 4, \"year\": 2014}, {\"county\": \"JEFFERSON\", \"precinct_cells\": 176, \"precinct_sum\": 91243.0, \"reported\": 91243.0, \"source_row\": 292, \"summary_column\": 4, \"year\": 2014}]}",
+      "recorded_at_utc": "2026-09-05T21:25:56.111111+00:00"
+    },
+    {
+      "issue_id": "WQA-03-04",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "vote_observations",
+      "scope": "Alabama 1994",
+      "status": "repaired_with_review",
+      "evidence_json": "{\"party_encoding\": \"AG1=D; AG2=R\", \"precinct_key\": \"provider precinct number; display name retained\", \"rows\": 150753, \"source_cells_preserved\": true, \"unresolved\": \"Remaining key collisions and source fractional vote retained in qa_vote_observation_quality\"}",
+      "recorded_at_utc": "2026-09-05T21:25:56.112111+00:00"
+    },
+    {
+      "issue_id": "WQA-04-fractional-evidence",
+      "build_run_id": "RUN-C7DE0A0267EC4445938D1CA0CB5C4BD3",
+      "warehouse_object": "vote_observations",
+      "scope": "1994/MORGAN/26001/AG2",
+      "status": "source_review",
+      "evidence_json": "{\"calculated_county_total\": 21571.4, \"calculated_county_total_cell\": \"K53\", \"decision\": \"Retain original fractional observation; reported/calculated discrepancy is evidence, not independent precinct adjudication.\", \"fractional_cell\": \"K48\", \"reported_county_total\": 21571, \"reported_county_total_cell\": \"K52\", \"source_file_id\": \"SRC-E64FFC4299ED54CB2D3A\", \"source_member\": \"94g-prec/MORGAN.XLS\"}",
+      "recorded_at_utc": "2026-09-05T21:35:27.638360+00:00"
+    },
+    {
+      "issue_id": "WQA-05-GEOUNIT-0EAB80ED2EB925955AD4F0C5",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "dim_southern_geography_unit",
+      "scope": "GEOUNIT-0EAB80ED2EB925955AD4F0C5",
+      "status": "repaired",
+      "evidence_json": "{\"area_delta_square_degrees\": 3.469446951953614e-18, \"method\": \"source reload; make_valid after WGS84 reprojection; retain polygonal area\", \"new_geometry_sha256\": \"5e2a44abff40aa781eed6b1b334c7b8ed217d3e5858e53f808adf2b6adfaf596\", \"old_geometry_sha256\": \"b5a869a7935beb6c8119acc630b28201e4f86960fb3caa818e5632cd286cd0a5\", \"source_file_id\": \"VEST-2016-AR-PRECINCT\", \"source_results_unchanged\": true, \"source_sha256\": \"d4b7af9dc6b2c3fe273d26d2f09e851f814549072add9f67fb7f208d74b7a9d4\"}",
+      "recorded_at_utc": "2026-09-05T21:25:56.130111+00:00"
+    },
+    {
+      "issue_id": "WQA-05-GEOUNIT-14261028F3F8864F59FDC78A",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "dim_southern_geography_unit",
+      "scope": "GEOUNIT-14261028F3F8864F59FDC78A",
+      "status": "repaired",
+      "evidence_json": "{\"area_delta_square_degrees\": 1.5178830414797062e-18, \"method\": \"source reload; make_valid after WGS84 reprojection; retain polygonal area\", \"new_geometry_sha256\": \"9a18f8ea29b8a90953d42f9b61cbdd2a937092a895f0d0d39f84be17118ad6ba\", \"old_geometry_sha256\": \"e1b46e0edf3247547f34c2f155332008e1acffeafb08bce46b5063b03d269f7a\", \"source_file_id\": \"VEST-2016-AR-PRECINCT\", \"source_results_unchanged\": true, \"source_sha256\": \"d4b7af9dc6b2c3fe273d26d2f09e851f814549072add9f67fb7f208d74b7a9d4\"}",
+      "recorded_at_utc": "2026-09-05T21:25:56.127111+00:00"
+    },
+    {
+      "issue_id": "WQA-05-GEOUNIT-4BB7E1079874E93CB66064FB",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "dim_southern_geography_unit",
+      "scope": "GEOUNIT-4BB7E1079874E93CB66064FB",
+      "status": "repaired",
+      "evidence_json": "{\"area_delta_square_degrees\": 2.168404344971009e-19, \"method\": \"source reload; make_valid after WGS84 reprojection; retain polygonal area\", \"new_geometry_sha256\": \"a098d2a56e68d697c1dbf9824b3f8bd1a6065c4ed46c038be46927c52c2a55b4\", \"old_geometry_sha256\": \"edf93f6eca2649d26d83450528ca3f80504112978fb98fb539f6cbab5fde261d\", \"source_file_id\": \"VEST-2016-AR-PRECINCT\", \"source_results_unchanged\": true, \"source_sha256\": \"d4b7af9dc6b2c3fe273d26d2f09e851f814549072add9f67fb7f208d74b7a9d4\"}",
+      "recorded_at_utc": "2026-09-05T21:25:56.118110+00:00"
+    },
+    {
+      "issue_id": "WQA-05-GEOUNIT-876D9FFDB1516453BBCA6D68",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "dim_southern_geography_unit",
+      "scope": "GEOUNIT-876D9FFDB1516453BBCA6D68",
+      "status": "repaired",
+      "evidence_json": "{\"area_delta_square_degrees\": 8.673617379884035e-19, \"method\": \"source reload; make_valid after WGS84 reprojection; retain polygonal area\", \"new_geometry_sha256\": \"b8a6c1429df6d262f35cdc9a834c909db5080c267e3c6ef4985a24980baf3b9e\", \"old_geometry_sha256\": \"ed56983e46c91ce7ccf99324665f46ef21629b04064cd2f8e59662e0d6a95680\", \"source_file_id\": \"VEST-2016-AR-PRECINCT\", \"source_results_unchanged\": true, \"source_sha256\": \"d4b7af9dc6b2c3fe273d26d2f09e851f814549072add9f67fb7f208d74b7a9d4\"}",
+      "recorded_at_utc": "2026-09-05T21:25:56.128111+00:00"
+    },
+    {
+      "issue_id": "WQA-05-GEOUNIT-AA174F910D3FDCB7A097396B",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "dim_southern_geography_unit",
+      "scope": "GEOUNIT-AA174F910D3FDCB7A097396B",
+      "status": "repaired",
+      "evidence_json": "{\"area_delta_square_degrees\": 0.0, \"method\": \"source reload; make_valid after WGS84 reprojection; retain polygonal area\", \"new_geometry_sha256\": \"8421083edae3457de5e6827bc487eccfb3c54d91a6c59bdf79ee7360e72bbf66\", \"old_geometry_sha256\": \"d441c294194cb62080f0bf41df7d362d1ecbed598352b011492187d9b818e71d\", \"source_file_id\": \"VEST-2016-AR-PRECINCT\", \"source_results_unchanged\": true, \"source_sha256\": \"d4b7af9dc6b2c3fe273d26d2f09e851f814549072add9f67fb7f208d74b7a9d4\"}",
+      "recorded_at_utc": "2026-09-05T21:25:56.124110+00:00"
+    },
+    {
+      "issue_id": "WQA-05-GEOUNIT-B74B209FF1E3A9C8C2CDB0EC",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "dim_southern_geography_unit",
+      "scope": "GEOUNIT-B74B209FF1E3A9C8C2CDB0EC",
+      "status": "repaired",
+      "evidence_json": "{\"area_delta_square_degrees\": 7.589415207398531e-19, \"method\": \"source reload; make_valid after WGS84 reprojection; retain polygonal area\", \"new_geometry_sha256\": \"a698cf679a32c92f1f4855358065503181f663757f3caec244c4383a7b8d7bcc\", \"old_geometry_sha256\": \"13286aa99822215eb60e6b29b16a68969745f991b1ba6f7972bff9f0eae24cfd\", \"source_file_id\": \"VEST-2016-AR-PRECINCT\", \"source_results_unchanged\": true, \"source_sha256\": \"d4b7af9dc6b2c3fe273d26d2f09e851f814549072add9f67fb7f208d74b7a9d4\"}",
+      "recorded_at_utc": "2026-09-05T21:25:56.119112+00:00"
+    },
+    {
+      "issue_id": "WQA-05-GEOUNIT-D1A7A85F058E1A9B2891F5BB",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "dim_southern_geography_unit",
+      "scope": "GEOUNIT-D1A7A85F058E1A9B2891F5BB",
+      "status": "repaired",
+      "evidence_json": "{\"area_delta_square_degrees\": 9.75781955236954e-19, \"method\": \"source reload; make_valid after WGS84 reprojection; retain polygonal area\", \"new_geometry_sha256\": \"13c4935f8218de06bd80ab1e09f8d7893b875b749b07fefb9bb1c373db320db1\", \"old_geometry_sha256\": \"583f8387b53fb273c6adee32dda2ce989d0453fe1e3c9e7f2665e6a6b812bab8\", \"source_file_id\": \"VEST-2016-AR-PRECINCT\", \"source_results_unchanged\": true, \"source_sha256\": \"d4b7af9dc6b2c3fe273d26d2f09e851f814549072add9f67fb7f208d74b7a9d4\"}",
+      "recorded_at_utc": "2026-09-05T21:25:56.125111+00:00"
+    },
+    {
+      "issue_id": "WQA-05-GEOUNIT-D2AB495E957DB31AA5FFBE6F",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "dim_southern_geography_unit",
+      "scope": "GEOUNIT-D2AB495E957DB31AA5FFBE6F",
+      "status": "repaired",
+      "evidence_json": "{\"area_delta_square_degrees\": 2.501297780010958e-14, \"method\": \"source reload; make_valid after WGS84 reprojection; retain polygonal area\", \"new_geometry_sha256\": \"12d2a02580b40b33c75c9643fc873d36e2f49752344d53abe905d97e77f05960\", \"old_geometry_sha256\": \"1c3337070afe0b6625cfde0aff972b9aaa179cb5bc39ea04e80443f1127a4beb\", \"source_file_id\": \"VEST-2016-AR-PRECINCT\", \"source_results_unchanged\": true, \"source_sha256\": \"d4b7af9dc6b2c3fe273d26d2f09e851f814549072add9f67fb7f208d74b7a9d4\"}",
+      "recorded_at_utc": "2026-09-05T21:25:56.115112+00:00"
+    },
+    {
+      "issue_id": "WQA-05-GEOUNIT-E64696D68BBE2ECAE4D386A8",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "dim_southern_geography_unit",
+      "scope": "GEOUNIT-E64696D68BBE2ECAE4D386A8",
+      "status": "repaired",
+      "evidence_json": "{\"area_delta_square_degrees\": 3.469446951953614e-17, \"method\": \"source reload; make_valid after WGS84 reprojection; retain polygonal area\", \"new_geometry_sha256\": \"01219cec9dbb993499b5608ea1e2cc72570bde1f0bc38ced0b999fd8418834da\", \"old_geometry_sha256\": \"d5294607d9c7a3557ca7f0215b375bdf7103b4a0be7b1bdf1845ba7f6c46d23d\", \"source_file_id\": \"VEST-2016-AR-PRECINCT\", \"source_results_unchanged\": true, \"source_sha256\": \"d4b7af9dc6b2c3fe273d26d2f09e851f814549072add9f67fb7f208d74b7a9d4\"}",
+      "recorded_at_utc": "2026-09-05T21:25:56.120111+00:00"
+    },
+    {
+      "issue_id": "WQA-06-1025051",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "source_legiscan_roll_call",
+      "scope": "1025051",
+      "status": "source_review",
+      "evidence_json": "{\"raw_member_array_matches\": true, \"recorded_absent\": 33, \"recorded_nay\": 0, \"recorded_not_voting\": 16, \"recorded_total\": 103, \"recorded_yea\": 54, \"reported_absent\": 94, \"reported_nay\": 0, \"reported_not_voting\": 24, \"reported_total\": 206, \"reported_yea\": 88, \"roll_call_id\": 1025051, \"source_file_id\": \"SRC-9541505C28E68B3A6AFD\", \"source_member\": \"AL/2021-2021_Regular_Session/vote/1025051.json\", \"source_path\": \"data/raw/legiscan/alabama/AL_2021-2021_Regular_Session_JSON_20210517_9dbae3295ccffea07cbd134e93992ed4.zip\", \"validation_status\": \"review\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.529856+00:00"
+    },
+    {
+      "issue_id": "WQA-06-1124583",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "source_legiscan_roll_call",
+      "scope": "1124583",
+      "status": "source_review",
+      "evidence_json": "{\"raw_member_array_matches\": true, \"recorded_absent\": 3, \"recorded_nay\": 16, \"recorded_not_voting\": 13, \"recorded_total\": 103, \"recorded_yea\": 71, \"reported_absent\": 6, \"reported_nay\": 33, \"reported_not_voting\": 26, \"reported_total\": 206, \"reported_yea\": 141, \"roll_call_id\": 1124583, \"source_file_id\": \"SRC-1EC971D644FE88559245\", \"source_member\": \"AL/2022-2022_Regular_Session/vote/1124583.json\", \"source_path\": \"data/raw/legiscan/alabama/AL_2022-2022_Regular_Session_JSON_20220407_7dc12ea62a642080f5e7d5407a5ef9ca.zip\", \"validation_status\": \"review\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.545856+00:00"
+    },
+    {
+      "issue_id": "WQA-06-1185411",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "source_legiscan_roll_call",
+      "scope": "1185411",
+      "status": "source_review",
+      "evidence_json": "{\"raw_member_array_matches\": true, \"recorded_absent\": 6, \"recorded_nay\": 0, \"recorded_not_voting\": 0, \"recorded_total\": 35, \"recorded_yea\": 29, \"reported_absent\": 18, \"reported_nay\": 0, \"reported_not_voting\": 0, \"reported_total\": 105, \"reported_yea\": 87, \"roll_call_id\": 1185411, \"source_file_id\": \"SRC-1EC971D644FE88559245\", \"source_member\": \"AL/2022-2022_Regular_Session/vote/1185411.json\", \"source_path\": \"data/raw/legiscan/alabama/AL_2022-2022_Regular_Session_JSON_20220407_7dc12ea62a642080f5e7d5407a5ef9ca.zip\", \"validation_status\": \"review\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.559857+00:00"
+    },
+    {
+      "issue_id": "WQA-06-309294",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "source_legiscan_roll_call",
+      "scope": "309294",
+      "status": "source_review",
+      "evidence_json": "{\"raw_member_array_matches\": true, \"recorded_absent\": 55, \"recorded_nay\": 2, \"recorded_not_voting\": 15, \"recorded_total\": 102, \"recorded_yea\": 30, \"reported_absent\": 118, \"reported_nay\": 5, \"reported_not_voting\": 29, \"reported_total\": 204, \"reported_yea\": 52, \"roll_call_id\": 309294, \"source_file_id\": \"SRC-9491F34F37BB01976172\", \"source_member\": \"AL/2014-2014_Regular_Session/vote/309294.json\", \"source_path\": \"data/raw/legiscan/alabama/AL_2014-2014_Regular_Session_JSON_20140403_94bd66952f6c18ffaf97a535455b46b9.zip\", \"validation_status\": \"review\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.136174+00:00"
+    },
+    {
+      "issue_id": "WQA-06-316278",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "source_legiscan_roll_call",
+      "scope": "316278",
+      "status": "source_review",
+      "evidence_json": "{\"raw_member_array_matches\": true, \"recorded_absent\": 52, \"recorded_nay\": 0, \"recorded_not_voting\": 0, \"recorded_total\": 104, \"recorded_yea\": 52, \"reported_absent\": 113, \"reported_nay\": 0, \"reported_not_voting\": 0, \"reported_total\": 208, \"reported_yea\": 95, \"roll_call_id\": 316278, \"source_file_id\": \"SRC-9491F34F37BB01976172\", \"source_member\": \"AL/2014-2014_Regular_Session/vote/316278.json\", \"source_path\": \"data/raw/legiscan/alabama/AL_2014-2014_Regular_Session_JSON_20140403_94bd66952f6c18ffaf97a535455b46b9.zip\", \"validation_status\": \"review\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.155177+00:00"
+    },
+    {
+      "issue_id": "WQA-06-316285",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "source_legiscan_roll_call",
+      "scope": "316285",
+      "status": "source_review",
+      "evidence_json": "{\"raw_member_array_matches\": true, \"recorded_absent\": 54, \"recorded_nay\": 0, \"recorded_not_voting\": 0, \"recorded_total\": 104, \"recorded_yea\": 50, \"reported_absent\": 116, \"reported_nay\": 0, \"reported_not_voting\": 0, \"reported_total\": 208, \"reported_yea\": 92, \"roll_call_id\": 316285, \"source_file_id\": \"SRC-9491F34F37BB01976172\", \"source_member\": \"AL/2014-2014_Regular_Session/vote/316285.json\", \"source_path\": \"data/raw/legiscan/alabama/AL_2014-2014_Regular_Session_JSON_20140403_94bd66952f6c18ffaf97a535455b46b9.zip\", \"validation_status\": \"review\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.175176+00:00"
+    },
+    {
+      "issue_id": "WQA-06-316451",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "source_legiscan_roll_call",
+      "scope": "316451",
+      "status": "source_review",
+      "evidence_json": "{\"raw_member_array_matches\": true, \"recorded_absent\": 50, \"recorded_nay\": 0, \"recorded_not_voting\": 0, \"recorded_total\": 104, \"recorded_yea\": 54, \"reported_absent\": 110, \"reported_nay\": 0, \"reported_not_voting\": 0, \"reported_total\": 208, \"reported_yea\": 98, \"roll_call_id\": 316451, \"source_file_id\": \"SRC-9491F34F37BB01976172\", \"source_member\": \"AL/2014-2014_Regular_Session/vote/316451.json\", \"source_path\": \"data/raw/legiscan/alabama/AL_2014-2014_Regular_Session_JSON_20140403_94bd66952f6c18ffaf97a535455b46b9.zip\", \"validation_status\": \"review\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.223177+00:00"
+    },
+    {
+      "issue_id": "WQA-06-316481",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "source_legiscan_roll_call",
+      "scope": "316481",
+      "status": "source_review",
+      "evidence_json": "{\"raw_member_array_matches\": true, \"recorded_absent\": 64, \"recorded_nay\": 0, \"recorded_not_voting\": 24, \"recorded_total\": 104, \"recorded_yea\": 16, \"reported_absent\": 132, \"reported_nay\": 0, \"reported_not_voting\": 40, \"reported_total\": 208, \"reported_yea\": 36, \"roll_call_id\": 316481, \"source_file_id\": \"SRC-9491F34F37BB01976172\", \"source_member\": \"AL/2014-2014_Regular_Session/vote/316481.json\", \"source_path\": \"data/raw/legiscan/alabama/AL_2014-2014_Regular_Session_JSON_20140403_94bd66952f6c18ffaf97a535455b46b9.zip\", \"validation_status\": \"review\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.241177+00:00"
+    },
+    {
+      "issue_id": "WQA-06-316729",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "source_legiscan_roll_call",
+      "scope": "316729",
+      "status": "source_review",
+      "evidence_json": "{\"raw_member_array_matches\": true, \"recorded_absent\": 67, \"recorded_nay\": 0, \"recorded_not_voting\": 16, \"recorded_total\": 104, \"recorded_yea\": 21, \"reported_absent\": 126, \"reported_nay\": 0, \"reported_not_voting\": 38, \"reported_total\": 208, \"reported_yea\": 44, \"roll_call_id\": 316729, \"source_file_id\": \"SRC-9491F34F37BB01976172\", \"source_member\": \"AL/2014-2014_Regular_Session/vote/316729.json\", \"source_path\": \"data/raw/legiscan/alabama/AL_2014-2014_Regular_Session_JSON_20140403_94bd66952f6c18ffaf97a535455b46b9.zip\", \"validation_status\": \"review\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.262176+00:00"
+    },
+    {
+      "issue_id": "WQA-06-445297",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "source_legiscan_roll_call",
+      "scope": "445297",
+      "status": "source_review",
+      "evidence_json": "{\"raw_member_array_matches\": true, \"recorded_absent\": 3, \"recorded_nay\": 0, \"recorded_not_voting\": 0, \"recorded_total\": 12, \"recorded_yea\": 9, \"reported_absent\": 8, \"reported_nay\": 0, \"reported_not_voting\": 0, \"reported_total\": 35, \"reported_yea\": 27, \"roll_call_id\": 445297, \"source_file_id\": \"SRC-257911D9705847331A9D\", \"source_member\": \"AL/2015-2015_Regular_Session/vote/445297.json\", \"source_path\": \"data/raw/legiscan/alabama/AL_2015-2015_Regular_Session_JSON_20150604_3e60f84eb6c02669a3d22d98c47f1394.zip\", \"validation_status\": \"review\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.285176+00:00"
+    },
+    {
+      "issue_id": "WQA-06-453250",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "source_legiscan_roll_call",
+      "scope": "453250",
+      "status": "source_review",
+      "evidence_json": "{\"raw_member_array_matches\": true, \"recorded_absent\": 26, \"recorded_nay\": 0, \"recorded_not_voting\": 0, \"recorded_total\": 53, \"recorded_yea\": 27, \"reported_absent\": 56, \"reported_nay\": 0, \"reported_not_voting\": 0, \"reported_total\": 105, \"reported_yea\": 49, \"roll_call_id\": 453250, \"source_file_id\": \"SRC-257911D9705847331A9D\", \"source_member\": \"AL/2015-2015_Regular_Session/vote/453250.json\", \"source_path\": \"data/raw/legiscan/alabama/AL_2015-2015_Regular_Session_JSON_20150604_3e60f84eb6c02669a3d22d98c47f1394.zip\", \"validation_status\": \"review\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.306177+00:00"
+    },
+    {
+      "issue_id": "WQA-06-476681",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "source_legiscan_roll_call",
+      "scope": "476681",
+      "status": "source_review",
+      "evidence_json": "{\"raw_member_array_matches\": true, \"recorded_absent\": 1, \"recorded_nay\": 5, \"recorded_not_voting\": 0, \"recorded_total\": 18, \"recorded_yea\": 12, \"reported_absent\": 3, \"reported_nay\": 10, \"reported_not_voting\": 0, \"reported_total\": 35, \"reported_yea\": 22, \"roll_call_id\": 476681, \"source_file_id\": \"SRC-5219AFB2A74A81005B78\", \"source_member\": \"AL/2015-2015_2nd_Special_Session/vote/476681.json\", \"source_path\": \"data/raw/legiscan/alabama/AL_2015-2015_2nd_Special_Session_JSON_20150916_145d567701464c66f621f853f06fee9b.zip\", \"validation_status\": \"review\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.309176+00:00"
+    },
+    {
+      "issue_id": "WQA-06-559991",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "source_legiscan_roll_call",
+      "scope": "559991",
+      "status": "source_review",
+      "evidence_json": "{\"raw_member_array_matches\": true, \"recorded_absent\": 67, \"recorded_nay\": 0, \"recorded_not_voting\": 1, \"recorded_total\": 103, \"recorded_yea\": 35, \"reported_absent\": 210, \"reported_nay\": 0, \"reported_not_voting\": 1, \"reported_total\": 308, \"reported_yea\": 97, \"roll_call_id\": 559991, \"source_file_id\": \"SRC-A1EFA58518BFB0C4043B\", \"source_member\": \"AL/2016-2016_1st_Special_Session/vote/559991.json\", \"source_path\": \"data/raw/legiscan/alabama/AL_2016-2016_1st_Special_Session_JSON_20160907_29dfb7c54d2345633e29b79ff48ff66e.zip\", \"validation_status\": \"review\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.313177+00:00"
+    },
+    {
+      "issue_id": "WQA-06-560064",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "source_legiscan_roll_call",
+      "scope": "560064",
+      "status": "source_review",
+      "evidence_json": "{\"raw_member_array_matches\": true, \"recorded_absent\": 49, \"recorded_nay\": 6, \"recorded_not_voting\": 15, \"recorded_total\": 103, \"recorded_yea\": 33, \"reported_absent\": 99, \"reported_nay\": 11, \"reported_not_voting\": 29, \"reported_total\": 206, \"reported_yea\": 67, \"roll_call_id\": 560064, \"source_file_id\": \"SRC-A1EFA58518BFB0C4043B\", \"source_member\": \"AL/2016-2016_1st_Special_Session/vote/560064.json\", \"source_path\": \"data/raw/legiscan/alabama/AL_2016-2016_1st_Special_Session_JSON_20160907_29dfb7c54d2345633e29b79ff48ff66e.zip\", \"validation_status\": \"review\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.315176+00:00"
+    },
+    {
+      "issue_id": "WQA-06-606375",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "source_legiscan_roll_call",
+      "scope": "606375",
+      "status": "source_review",
+      "evidence_json": "{\"raw_member_array_matches\": true, \"recorded_absent\": 2, \"recorded_nay\": 0, \"recorded_not_voting\": 2, \"recorded_total\": 104, \"recorded_yea\": 100, \"reported_absent\": 2, \"reported_nay\": 0, \"reported_not_voting\": 2, \"reported_total\": 105, \"reported_yea\": 101, \"roll_call_id\": 606375, \"source_file_id\": \"SRC-1C01EB891C252271FEC3\", \"source_member\": \"AL/2017-2017_Regular_Session/vote/606375.json\", \"source_path\": \"data/raw/legiscan/alabama/AL_2017-2017_Regular_Session_JSON_20170519_a6e8167b88b79bd5122564de30d42fb2.zip\", \"validation_status\": \"review\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.367853+00:00"
+    },
+    {
+      "issue_id": "WQA-06-625553",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "source_legiscan_roll_call",
+      "scope": "625553",
+      "status": "source_review",
+      "evidence_json": "{\"raw_member_array_matches\": true, \"recorded_absent\": 9, \"recorded_nay\": 7, \"recorded_not_voting\": 4, \"recorded_total\": 104, \"recorded_yea\": 84, \"reported_absent\": 9, \"reported_nay\": 7, \"reported_not_voting\": 4, \"reported_total\": 105, \"reported_yea\": 85, \"roll_call_id\": 625553, \"source_file_id\": \"SRC-1C01EB891C252271FEC3\", \"source_member\": \"AL/2017-2017_Regular_Session/vote/625553.json\", \"source_path\": \"data/raw/legiscan/alabama/AL_2017-2017_Regular_Session_JSON_20170519_a6e8167b88b79bd5122564de30d42fb2.zip\", \"validation_status\": \"review\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.383856+00:00"
+    },
+    {
+      "issue_id": "WQA-06-627171",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "source_legiscan_roll_call",
+      "scope": "627171",
+      "status": "source_review",
+      "evidence_json": "{\"raw_member_array_matches\": true, \"recorded_absent\": 2, \"recorded_nay\": 0, \"recorded_not_voting\": 1, \"recorded_total\": 104, \"recorded_yea\": 101, \"reported_absent\": 2, \"reported_nay\": 0, \"reported_not_voting\": 1, \"reported_total\": 105, \"reported_yea\": 102, \"roll_call_id\": 627171, \"source_file_id\": \"SRC-1C01EB891C252271FEC3\", \"source_member\": \"AL/2017-2017_Regular_Session/vote/627171.json\", \"source_path\": \"data/raw/legiscan/alabama/AL_2017-2017_Regular_Session_JSON_20170519_a6e8167b88b79bd5122564de30d42fb2.zip\", \"validation_status\": \"review\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.409858+00:00"
+    },
+    {
+      "issue_id": "WQA-06-640962",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "source_legiscan_roll_call",
+      "scope": "640962",
+      "status": "source_review",
+      "evidence_json": "{\"raw_member_array_matches\": true, \"recorded_absent\": 2, \"recorded_nay\": 0, \"recorded_not_voting\": 1, \"recorded_total\": 104, \"recorded_yea\": 101, \"reported_absent\": 2, \"reported_nay\": 0, \"reported_not_voting\": 1, \"reported_total\": 105, \"reported_yea\": 102, \"roll_call_id\": 640962, \"source_file_id\": \"SRC-1C01EB891C252271FEC3\", \"source_member\": \"AL/2017-2017_Regular_Session/vote/640962.json\", \"source_path\": \"data/raw/legiscan/alabama/AL_2017-2017_Regular_Session_JSON_20170519_a6e8167b88b79bd5122564de30d42fb2.zip\", \"validation_status\": \"review\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.431857+00:00"
+    },
+    {
+      "issue_id": "WQA-06-817248",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "source_legiscan_roll_call",
+      "scope": "817248",
+      "status": "source_review",
+      "evidence_json": "{\"raw_member_array_matches\": true, \"recorded_absent\": 30, \"recorded_nay\": 7, \"recorded_not_voting\": 0, \"recorded_total\": 105, \"recorded_yea\": 68, \"reported_absent\": 63, \"reported_nay\": 14, \"reported_not_voting\": 0, \"reported_total\": 210, \"reported_yea\": 133, \"roll_call_id\": 817248, \"source_file_id\": \"SRC-411FC60AF8ACA4219235\", \"source_member\": \"AL/2019-2019_1st_Special_Session/vote/817248.json\", \"source_path\": \"data/raw/legiscan/alabama/AL_2019-2019_1st_Special_Session_JSON_20190312_2aa665960dd5a3450c9662ca9d8bce17.zip\", \"validation_status\": \"review\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.442856+00:00"
+    },
+    {
+      "issue_id": "WQA-06-818200",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "source_legiscan_roll_call",
+      "scope": "818200",
+      "status": "source_review",
+      "evidence_json": "{\"raw_member_array_matches\": true, \"recorded_absent\": 8, \"recorded_nay\": 8, \"recorded_not_voting\": 6, \"recorded_total\": 105, \"recorded_yea\": 83, \"reported_absent\": 24, \"reported_nay\": 24, \"reported_not_voting\": 18, \"reported_total\": 315, \"reported_yea\": 249, \"roll_call_id\": 818200, \"source_file_id\": \"SRC-411FC60AF8ACA4219235\", \"source_member\": \"AL/2019-2019_1st_Special_Session/vote/818200.json\", \"source_path\": \"data/raw/legiscan/alabama/AL_2019-2019_1st_Special_Session_JSON_20190312_2aa665960dd5a3450c9662ca9d8bce17.zip\", \"validation_status\": \"review\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.444854+00:00"
+    },
+    {
+      "issue_id": "WQA-06-818201",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "source_legiscan_roll_call",
+      "scope": "818201",
+      "status": "source_review",
+      "evidence_json": "{\"raw_member_array_matches\": true, \"recorded_absent\": 3, \"recorded_nay\": 0, \"recorded_not_voting\": 0, \"recorded_total\": 105, \"recorded_yea\": 102, \"reported_absent\": 9, \"reported_nay\": 0, \"reported_not_voting\": 0, \"reported_total\": 315, \"reported_yea\": 306, \"roll_call_id\": 818201, \"source_file_id\": \"SRC-411FC60AF8ACA4219235\", \"source_member\": \"AL/2019-2019_1st_Special_Session/vote/818201.json\", \"source_path\": \"data/raw/legiscan/alabama/AL_2019-2019_1st_Special_Session_JSON_20190312_2aa665960dd5a3450c9662ca9d8bce17.zip\", \"validation_status\": \"review\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.445854+00:00"
+    },
+    {
+      "issue_id": "WQA-06-826544",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "source_legiscan_roll_call",
+      "scope": "826544",
+      "status": "source_review",
+      "evidence_json": "{\"raw_member_array_matches\": true, \"recorded_absent\": 41, \"recorded_nay\": 4, \"recorded_not_voting\": 35, \"recorded_total\": 105, \"recorded_yea\": 25, \"reported_absent\": 84, \"reported_nay\": 11, \"reported_not_voting\": 64, \"reported_total\": 210, \"reported_yea\": 51, \"roll_call_id\": 826544, \"source_file_id\": \"SRC-729E0B7C40D13CB08131\", \"source_member\": \"AL/2019-2019_Regular_Session/vote/826544.json\", \"source_path\": \"data/raw/legiscan/alabama/AL_2019-2019_Regular_Session_JSON_20190531_9b74165d24c2ec12859de227180a7c75.zip\", \"validation_status\": \"review\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.461857+00:00"
+    },
+    {
+      "issue_id": "WQA-06-996001",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "source_legiscan_roll_call",
+      "scope": "996001",
+      "status": "source_review",
+      "evidence_json": "{\"raw_member_array_matches\": true, \"recorded_absent\": 52, \"recorded_nay\": 0, \"recorded_not_voting\": 0, \"recorded_total\": 104, \"recorded_yea\": 52, \"reported_absent\": 102, \"reported_nay\": 0, \"reported_not_voting\": 0, \"reported_total\": 208, \"reported_yea\": 106, \"roll_call_id\": 996001, \"source_file_id\": \"SRC-9541505C28E68B3A6AFD\", \"source_member\": \"AL/2021-2021_Regular_Session/vote/996001.json\", \"source_path\": \"data/raw/legiscan/alabama/AL_2021-2021_Regular_Session_JSON_20210517_9dbae3295ccffea07cbd134e93992ed4.zip\", \"validation_status\": \"review\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.487855+00:00"
+    },
+    {
+      "issue_id": "WQA-06-996025",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "source_legiscan_roll_call",
+      "scope": "996025",
+      "status": "source_review",
+      "evidence_json": "{\"raw_member_array_matches\": true, \"recorded_absent\": 54, \"recorded_nay\": 3, \"recorded_not_voting\": 1, \"recorded_total\": 104, \"recorded_yea\": 46, \"reported_absent\": 106, \"reported_nay\": 4, \"reported_not_voting\": 2, \"reported_total\": 208, \"reported_yea\": 96, \"roll_call_id\": 996025, \"source_file_id\": \"SRC-9541505C28E68B3A6AFD\", \"source_member\": \"AL/2021-2021_Regular_Session/vote/996025.json\", \"source_path\": \"data/raw/legiscan/alabama/AL_2021-2021_Regular_Session_JSON_20210517_9dbae3295ccffea07cbd134e93992ed4.zip\", \"validation_status\": \"review\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.504856+00:00"
+    },
+    {
+      "issue_id": "WQA-07",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "mart_southern_war_training_with_finance",
+      "scope": "incomplete finance inputs",
+      "status": "repaired",
+      "evidence_json": "{\"method\": \"Mask amounts and ratio when finance_complete != 1; preserve all source/race-mart amounts\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.560858+00:00"
+    },
+    {
+      "issue_id": "WQA-08-DIME",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "warehouse_source_file",
+      "scope": "DIME",
+      "status": "repaired",
+      "evidence_json": "{\"evidence\": \"data/processed/war/dime_finance_build_manifest.json\", \"retrieval_time\": \"unknown; not registration time\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.562857+00:00"
+    },
+    {
+      "issue_id": "WQA-08-URL-SRC-9E0F7297AEB976F98688",
+      "build_run_id": "RUN-C7DE0A0267EC4445938D1CA0CB5C4BD3",
+      "warehouse_object": "warehouse_source_file",
+      "scope": "SRC-9E0F7297AEB976F98688",
+      "status": "repaired",
+      "evidence_json": "{\"before_url\": null, \"landing_page\": \"https://www.sos.alabama.gov/alabama-votes/voter/election-data\", \"remote_sha256\": \"9400cfa16da62d303fac0115707ad3f71fc9d29a36f157ac17e0792d2a5ed45e\", \"source_url\": \"https://www.sos.alabama.gov/sites/default/files/election-data/2017-06/2002-GeneralElection-PrecinctLevel_0.xls\", \"verified_at_utc\": \"2026-09-05T21:35:27.637363+00:00\"}",
+      "recorded_at_utc": "2026-09-05T21:35:27.637363+00:00"
+    },
+    {
+      "issue_id": "WQA-08-URL-SRC-E64FFC4299ED54CB2D3A",
+      "build_run_id": "RUN-C7DE0A0267EC4445938D1CA0CB5C4BD3",
+      "warehouse_object": "warehouse_source_file",
+      "scope": "SRC-E64FFC4299ED54CB2D3A",
+      "status": "repaired",
+      "evidence_json": "{\"before_url\": null, \"landing_page\": \"https://www.sos.alabama.gov/alabama-votes/voter/election-data\", \"remote_sha256\": \"94512391c389c45d2899f06686484790adaf4c99fa638b217e31f54652c55097\", \"source_url\": \"https://www.sos.alabama.gov/sites/default/files/election-data/2023-06/94g-prec.zip\", \"verified_at_utc\": \"2026-09-05T21:35:27.637363+00:00\"}",
+      "recorded_at_utc": "2026-09-05T21:35:27.637363+00:00"
+    },
+    {
+      "issue_id": "WQA-08-URL-SRC-EB647D3AA2049AD37AD6",
+      "build_run_id": "RUN-C7DE0A0267EC4445938D1CA0CB5C4BD3",
+      "warehouse_object": "warehouse_source_file",
+      "scope": "SRC-EB647D3AA2049AD37AD6",
+      "status": "repaired",
+      "evidence_json": "{\"before_url\": null, \"landing_page\": \"https://www.sos.alabama.gov/alabama-votes/voter/election-data\", \"remote_sha256\": \"a4facea99c554d855eabe098305df4f2b73431ec57b64c1c46080abecb725e67\", \"source_url\": \"https://www.sos.alabama.gov/sites/default/files/election-data/2017-06/2014General-precinctLevel.zip\", \"verified_at_utc\": \"2026-09-05T21:35:27.637363+00:00\"}",
+      "recorded_at_utc": "2026-09-05T21:35:27.637363+00:00"
+    },
+    {
+      "issue_id": "WQA-08-remaining",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "warehouse_source_file",
+      "scope": "legacy provenance",
+      "status": "review",
+      "evidence_json": "{\"unresolved\": [\"Missing source terms/scope require original acquisition evidence\", \"Legacy Alabama canonical build lineage cannot be inferred from a later registration\", \"Older running jobs require liveness/recovery evidence; statuses unchanged\"]}",
+      "recorded_at_utc": "2026-09-05T21:26:01.562857+00:00"
+    },
+    {
+      "issue_id": "WQA-dependencies",
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "warehouse_object": "warehouse_asset_lineage",
+      "scope": "affected materializations and compatibility files",
+      "status": "stale_review",
+      "evidence_json": "{\"not_rebuilt\": [\"precinct_nodes\", \"precinct_vote_fingerprints\", \"precinct_source_links\", \"precinct_match_candidates\", \"historical precinct/district weights and baselines for 1994/2002\", \"geometry-based Arkansas allocations\", \"dependent model and publication files\"], \"note\": \"Do not certify existing materializations from this source repair. No models or published scores rebuilt.\", \"source_scope\": \"source='alabama_sos' AND (year=1994 OR (year=2002 AND county_key='MARSHALL') OR (year=2014 AND county_key='JEFFERSON'))\"}",
+      "recorded_at_utc": "2026-09-05T21:26:01.562857+00:00"
+    }
+  ],
+  "latest_builds": [
+    {
+      "build_run_id": "RUN-C7DE0A0267EC4445938D1CA0CB5C4BD3",
+      "target": "source_quality_provenance_2026_09_05",
+      "started_at_utc": "2026-09-05T21:35:27.632355+00:00",
+      "completed_at_utc": "2026-09-05T21:35:27.638360+00:00",
+      "status": "validated"
+    },
+    {
+      "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B",
+      "target": "source_quality_repair_2026_09_05",
+      "started_at_utc": "2026-09-05T21:25:47.645303+00:00",
+      "completed_at_utc": "2026-09-05T21:34:14.194451+00:00",
+      "status": "validated"
+    },
+    {
+      "build_run_id": "RUN-E2FDFA0669F34C03955335EA54632137",
+      "target": "finance",
+      "started_at_utc": "2026-09-04T22:11:31.436692+00:00",
+      "completed_at_utc": "2026-09-04T22:11:31.642596+00:00",
+      "status": "validated"
+    },
+    {
+      "build_run_id": "RUN-3F5EF338C7074234A93E4C944ABE1426",
+      "target": "finance",
+      "started_at_utc": "2026-09-04T22:08:47.060482+00:00",
+      "completed_at_utc": "2026-09-04T22:08:47.266153+00:00",
+      "status": "validated"
+    },
+    {
+      "build_run_id": "RUN-DD8EEB16462542E194E44214CF6856BC",
+      "target": "mississippi_2012_presidential_party_correction",
+      "started_at_utc": "2026-09-04T22:04:15.989115+00:00",
+      "completed_at_utc": "2026-09-04T22:04:16.002115+00:00",
+      "status": "validated"
+    }
+  ],
+  "catalog_counts": {
+    "warehouse_asset": 103,
+    "warehouse_asset_lineage": 99
+  },
+  "precinct_catalog_assets": [],
+  "database_stat_before": [
+    5768613888,
+    1788646516254118400
+  ],
+  "database_stat_after": [
+    5768613888,
+    1788646516254118400
+  ],
+  "database_stat_unchanged": true
+}

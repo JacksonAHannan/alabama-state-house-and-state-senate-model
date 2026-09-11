@@ -1,0 +1,24 @@
+{
+  "primary_domain": "education",
+  "policy_key": "education_governance",
+  "plain_english_policy": "support_increase_funding_state_education_budget",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "Increasing funding for the state education budget could be seen as an intervention in market-driven educational systems."
+    },
+    {
+      "axis": "education_governance",
+      "pole": "public_system",
+      "strength": "primary",
+      "rationale": "Supporting increased funding aligns with a public system of education, where the government plays a central role in providing education services to citizens."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I believe that increasing state funding for education is crucial to ensure all students have access to quality educational opportunities.\" - Candidate's statement on education policy.",
+  "needs_human_review": true,
+  "review_reason": "The candidate's stance on increasing the state education budget could be interpreted as a move towards intervention in market-driven systems, but also aligning with public system governance."
+}

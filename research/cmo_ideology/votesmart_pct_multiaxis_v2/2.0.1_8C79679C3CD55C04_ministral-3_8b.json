@@ -1,0 +1,24 @@
+{
+  "primary_domain": "healthcare",
+  "policy_key": "healthcare_access",
+  "plain_english_policy": "Medicaid eligibility expansion via state healthcare programs",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "Directly expands access to Medicaid, a welfare program."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "primary",
+      "rationale": "Relies on state-run healthcare programs (Medicaid) rather than private alternatives."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Medicaid expansion through Alabama's health care programs\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

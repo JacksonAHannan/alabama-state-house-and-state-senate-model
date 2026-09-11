@@ -1,0 +1,11 @@
+{
+  "policy_key": "drug_decriminalization",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Decriminalizing marijuana possession and private use is a progressive policy option that aligns with social liberalism by reducing criminal penalties for non-violent drug offenses.",
+  "evidence_quote": "g) Decriminalize the possession and private use of marijuana.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

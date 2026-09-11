@@ -1,0 +1,10 @@
+{
+  "id": "9FCEEC6B6464E2A5",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Clarifying campaign-reporting requirements is a technical compliance measure without sufficient evidence of a substantive election-integrity policy shift.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

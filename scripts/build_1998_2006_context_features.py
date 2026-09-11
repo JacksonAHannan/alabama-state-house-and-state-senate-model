@@ -17,6 +17,7 @@ from build_candidate_finance_features import canonical_person
 from build_presidential_district_features import _prepare_weights, allocate_to_districts
 from sos_precinct import _workbook_sheets
 from oe_normalize import normalize_name
+from source_vote_quality import require_reported_vote_quality
 from warehouse import ROOT, begin_run, connect, finish_run, initialize, register_source_file, register_table
 
 ELECT=ROOT/'data'/'processed'/'elections'; PRES=ROOT/'data'/'processed'/'presidential'
@@ -161,6 +162,10 @@ def allocate_demographics(tracts:gpd.GeoDataFrame,cycle:int,vintage:int)->pd.Dat
 
 def legislative_weights(cycle:int)->pd.DataFrame:
     with sqlite3.connect(DB) as c:
+        require_reported_vote_quality(
+            c, """source='alabama_sos' and year=?
+            and office in ('State House','State Senate') and district is not null""",
+            (cycle,))
         d=pd.read_sql_query("""select year as cycle,county_key,precinct_key,office,district,sum(votes) activity
           from vote_observations where source='alabama_sos' and year=? and office in ('State House','State Senate')
           and district is not null group by year,county_key,precinct_key,office,district""",c,params=(cycle,))
@@ -214,6 +219,9 @@ def _pres2000()->pd.DataFrame:
 
 def _pres2004()->pd.DataFrame:
     with sqlite3.connect(DB) as c:
+        require_reported_vote_quality(
+            c, """source='alabama_sos' and year=2004 and office='President'
+            and party_norm in ('D','R')""")
         d=pd.read_sql_query("""select county_key,precinct_key,party_norm,sum(votes) votes from vote_observations
           where source='alabama_sos' and year=2004 and office='President' and party_norm in ('D','R')
           group by county_key,precinct_key,party_norm""",c)

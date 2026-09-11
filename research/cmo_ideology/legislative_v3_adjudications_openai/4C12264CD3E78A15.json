@@ -1,0 +1,10 @@
+{
+  "id": "4C12264CD3E78A15",
+  "decision": "map",
+  "primitive_axis": "election_integrity_controls",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "The measure tightens campaign-contribution limitations, disclosure requirements, political-action-committee rules, and solicitation restrictions.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "4C849DD037561BA0",
+  "decision": "map",
+  "primitive_axis": "drug_criminalization",
+  "policy_pole": "criminalize",
+  "confidence": "high",
+  "rationale": "Prohibits deceptively obtaining controlled substances from multiple practitioners and establishes criminal penalties.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

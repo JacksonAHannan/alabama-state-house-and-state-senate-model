@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_foreign_donations",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "This option restricts foreign nationals from donating soft money to U.S. political parties.",
+  "evidence_quote": "f) Prohibit non-U.S. citizens from making soft money contributions to national parties or party committees.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

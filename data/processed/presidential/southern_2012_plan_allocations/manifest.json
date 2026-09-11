@@ -1,0 +1,13 @@
+{
+  "contract_version": 1,
+  "build_run_id": "RUN-2EFD501D5FCA4AB0A60611AE766DB2A8",
+  "pipeline": "scripts/build_southern_2012_plan_allocations.py",
+  "validation": {
+    "states": 4,
+    "plan_cells": 14,
+    "district_result_rows": 1272,
+    "prepared_precincts": 14436,
+    "weight_rows": 54537,
+    "review_cells": []
+  }
+}

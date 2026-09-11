@@ -1,0 +1,10 @@
+{
+  "id": "F5D8EA37848B544F",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns procedures for voluntary sentencing worksheets and is primarily technical or administrative.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

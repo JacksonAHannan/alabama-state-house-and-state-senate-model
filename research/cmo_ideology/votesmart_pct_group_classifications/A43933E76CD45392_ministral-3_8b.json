@@ -1,0 +1,11 @@
+{
+  "policy_key": "fbi_terrorism_investigations",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Ease FBI restrictions on investigating groups suspected of terrorism if there's any credible evidence.",
+  "evidence_quote": "Relax current guidelines that forbid the Federal Bureau of Investigation (FBI) from investigating terrorist groups when there is a 'reasonable indication' of terrorist activities.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

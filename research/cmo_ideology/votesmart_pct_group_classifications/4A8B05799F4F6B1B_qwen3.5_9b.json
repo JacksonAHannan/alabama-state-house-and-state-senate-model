@@ -1,0 +1,11 @@
+{
+  "policy_key": "repeal_firearm_restrictions",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option calls for repealing all bans and restrictions on law-abiding citizens owning legally-obtained firearms.",
+  "evidence_quote": "Repeal all bans and measures that restrict law-abiding citizens from owning legally-obtained firearms",
+  "needs_human_review": false,
+  "review_reason": ""
+}

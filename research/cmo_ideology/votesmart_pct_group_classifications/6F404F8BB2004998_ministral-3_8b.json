@@ -1,0 +1,11 @@
+{
+  "policy_key": "head_start_skills_focus",
+  "dimension": "education_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Shift Head Start\u2019s core goal from broad early childhood development to prioritizing math and reading skills for disadvantaged children.",
+  "evidence_quote": "Support changing the mission of Head Start to emphasize improving the math and reading skills of disadvantaged children.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

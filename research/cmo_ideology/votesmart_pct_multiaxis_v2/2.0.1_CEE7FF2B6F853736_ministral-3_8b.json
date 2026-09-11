@@ -1,0 +1,24 @@
+{
+  "primary_domain": "healthcare",
+  "policy_key": "vaccination_exemptions_religious",
+  "plain_english_policy": "Remove all religious-based exemptions from vaccination requirements",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "secondary",
+      "rationale": "Implicitly strengthens state authority to mandate health measures, which may reduce private autonomy in healthcare decisions."
+    },
+    {
+      "axis": "civil_social_liberty",
+      "pole": "restrict",
+      "strength": "primary",
+      "rationale": "Directly restricts the liberty of individuals to opt out of vaccinations on religious grounds."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"eliminating religious exemptions\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

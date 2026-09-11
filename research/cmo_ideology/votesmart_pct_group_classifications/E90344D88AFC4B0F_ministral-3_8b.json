@@ -1,0 +1,11 @@
+{
+  "policy_key": "crime_alternative_sentencing_boot_camps",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Use military-style boot camps as a punishment alternative for first-time adult felons.",
+  "evidence_quote": "Support the use of 'boot camps' as alternative sentencing for adult first-time felons.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

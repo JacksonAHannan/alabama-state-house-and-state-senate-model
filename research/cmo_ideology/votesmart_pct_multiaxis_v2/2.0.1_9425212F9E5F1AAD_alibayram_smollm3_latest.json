@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "welfare_policy",
+  "plain_english_policy": "financial_incentives_for_job_creation",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "Financial incentives to the private sector for job creation could be seen as expanding welfare by providing support that encourages employment."
+    },
+    {
+      "axis": "market_governance",
+      "pole": "market_autonomy",
+      "strength": "primary",
+      "rationale": "Providing financial incentives to the private sector is a form of market autonomy, allowing businesses more freedom in their operations and decision-making processes."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I believe that providing financial incentives to the private sector for job creation can be an effective way to stimulate economic growth.\" - Candidate Statement on Economic Issues (2010)",
+  "needs_human_review": true,
+  "review_reason": "The policy is described as supporting financial incentives, but it does not specify whether these incentives are targeted towards small or large businesses."
+}

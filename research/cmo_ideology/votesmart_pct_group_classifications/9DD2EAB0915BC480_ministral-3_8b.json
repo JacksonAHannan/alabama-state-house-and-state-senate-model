@@ -1,0 +1,11 @@
+{
+  "policy_key": "tax_internet_transactions",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Imposing a tax on commercial internet transactions (e.g., sales, services) to generate revenue.",
+  "evidence_quote": "Collect taxes on commercial Internet transactions.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

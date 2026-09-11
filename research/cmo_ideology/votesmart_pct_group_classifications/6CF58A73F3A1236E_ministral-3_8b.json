@@ -1,0 +1,11 @@
+{
+  "policy_key": "medicaid_managed_care_transfer",
+  "dimension": "healthcare_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Shifting Medicaid recipients from traditional fee-for-service to managed care systems (e.g., HMOs) is a conventional conservative/Republican priority, as it aims to reduce costs and streamline delivery\u2014often framed as \u2018efficiency\u2019 or \u2018accountability.\u2019",
+  "evidence_quote": "**d) Transfer more existing Medicaid recipients into managed care programs.**",
+  "needs_human_review": false,
+  "review_reason": ""
+}

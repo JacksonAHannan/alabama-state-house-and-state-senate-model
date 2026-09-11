@@ -1,0 +1,24 @@
+{
+  "primary_domain": "criminal_justice",
+  "policy_key": "restriction",
+  "plain_english_policy": "Restricting the employment of undocumented immigrants.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "labor_capital_alignment",
+      "pole": "labor",
+      "strength": "secondary",
+      "rationale": "This policy directly impacts labor market dynamics."
+    },
+    {
+      "axis": "business_scale_alignment",
+      "pole": "small_business",
+      "strength": "primary",
+      "rationale": "The impact of this policy is likely to be more significant on small businesses that rely on undocumented workers."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "n) Criminalize the employment of an undocumented immigrant in Alabama.",
+  "needs_human_review": false,
+  "review_reason": "This policy directly targets undocumented immigrants' ability to work. This is a restriction on labor access."
+}

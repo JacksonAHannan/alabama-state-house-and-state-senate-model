@@ -1,0 +1,11 @@
+{
+  "policy_key": "foreign_policy_un_membership",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option advocates for the complete withdrawal of the United States from the United Nations.",
+  "evidence_quote": "The US should withdraw from the UN completely.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -13,6 +13,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+from legiscan_eligibility import checked_standalone, read_roll_calls
 
 ROOT = Path(__file__).resolve().parents[1]
 LEG = ROOT / "data" / "processed" / "legislative"
@@ -157,7 +158,7 @@ def main() -> None:
     anchors = anchors.sort_values(["roll_call_id", "human_issue_code"])
     anchor_labels = anchors.groupby("roll_call_id").human_issue_code.agg(lambda x: "|".join(dict.fromkeys(x))).to_dict()
     anchor_map = anchors.drop_duplicates("roll_call_id").set_index("roll_call_id").to_dict("index")
-    rolls = pd.read_csv(LEG / "legiscan_alabama_rollcalls.csv", low_memory=False).merge(
+    rolls = read_roll_calls().merge(
         bills[["bill_id", "bill_number", "title", "description", "issue_code", "issue_codes",
                "yea_direction", "classification_reason", "classification_status"]], on="bill_id", how="left", validate="many_to_one")
     rolls["motion_disposition"] = rolls.vote_description.map(motion_disposition)
@@ -179,28 +180,122 @@ def main() -> None:
         rolls.at[idx, "human_review_status"] = a["review_status"]
         rolls.at[idx, "classification_reason"] = a["policy_direction_of_yea"]
 
-    # Add the pre-LegiScan journal archive. It currently lacks reliable bill
-    # synopsis linkage, so each row is processed but not silently inferred from
-    # nearby OCR context. Existing human codes can still override when present.
-    hist = pd.read_csv(LEG / "historical_rollcall_issue_classification_queue.csv", low_memory=False)
-    resolved = [infer_historical_measure(r.context, r.bill_type, r.bill_number) for r in hist.itertuples()]
+    # The historical review queue contains one representative vote per
+    # measure. Recover its synopsis, then propagate that text only as measure
+    # metadata to every recorded journal vote on the exact corrected
+    # session/type/number. Motion disposition below still prevents amendments
+    # and procedural votes from inheriting final-bill direction.
+    representatives = pd.read_csv(
+        LEG / "historical_rollcall_issue_classification_queue.csv", low_memory=False
+    )
+    resolved = [infer_historical_measure(r.context, r.bill_type, r.bill_number)
+                for r in representatives.itertuples()]
+    representatives["original_bill_type"] = representatives.bill_type
+    representatives["original_bill_number"] = representatives.bill_number
+    representatives["bill_type"] = [x[0] for x in resolved]
+    representatives["bill_number"] = [x[1] for x in resolved]
+    representatives["measure_identity_status"] = [x[2] for x in resolved]
+    representatives["extracted_synopsis"] = [
+        extract_historical_synopsis(r.context, r.bill_type, r.bill_number)
+        for r in representatives.itertuples()
+    ]
+    recovery_path = LEG / "historical_rollcall_synopsis_recovery.csv"
+    if recovery_path.exists():
+        recovery = pd.read_csv(recovery_path, usecols=["rollcall_id", "best_synopsis", "synopsis_source"])
+        representatives = representatives.merge(
+            recovery, on="rollcall_id", how="left", validate="one_to_one"
+        )
+        recovered = (representatives.extracted_synopsis.eq("")
+                     & representatives.best_synopsis.fillna("").ne(""))
+        representatives.loc[recovered, "extracted_synopsis"] = representatives.loc[
+            recovered, "best_synopsis"
+        ]
+    else:
+        representatives["synopsis_source"] = np.where(
+            representatives.extracted_synopsis.ne(""), "context_window", "unavailable"
+        )
+
+    def measure_key(frame: pd.DataFrame) -> pd.Series:
+        number = pd.to_numeric(frame.bill_number, errors="coerce")
+        return (frame.session_year.astype(int).astype(str) + "|"
+                + frame.bill_type.fillna("").astype(str).str.upper() + "|"
+                + number.map(lambda value: str(int(value)) if pd.notna(value) else ""))
+
+    representatives["measure_key"] = measure_key(representatives)
+    representatives["synopsis_length"] = representatives.extracted_synopsis.fillna("").str.len()
+    measure_metadata = (representatives.sort_values(
+        ["measure_key", "synopsis_length"], ascending=[True, False]
+    ).drop_duplicates("measure_key")[[
+        "measure_key", "extracted_synopsis", "synopsis_source", "title",
+        "coding_status", "measure_identity_status",
+    ]].rename(columns={
+        "extracted_synopsis": "measure_synopsis",
+        "synopsis_source": "measure_synopsis_source",
+        "title": "measure_title",
+        "coding_status": "measure_coding_status",
+        "measure_identity_status": "representative_measure_identity_status",
+    }))
+
+    historical_frames = []
+    for chamber in ("house", "senate"):
+        frame = pd.read_csv(LEG / f"historical_{chamber}_journal_rollcalls.csv", low_memory=False)
+        historical_frames.append(frame[frame.count_valid].copy())
+    hist = pd.concat(historical_frames, ignore_index=True)
+    resolved = [infer_historical_measure(r.context, r.bill_type, r.bill_number)
+                for r in hist.itertuples()]
     hist["original_bill_type"] = hist.bill_type
     hist["original_bill_number"] = hist.bill_number
     hist["bill_type"] = [x[0] for x in resolved]
     hist["bill_number"] = [x[1] for x in resolved]
     hist["measure_identity_status"] = [x[2] for x in resolved]
-    hist["extracted_synopsis"] = [extract_historical_synopsis(r.context, r.bill_type, r.bill_number)
-                                    for r in hist.itertuples()]
-    recovery_path = LEG / "historical_rollcall_synopsis_recovery.csv"
-    if recovery_path.exists():
-        recovery = pd.read_csv(recovery_path, usecols=["rollcall_id", "best_synopsis", "synopsis_source"])
-        hist = hist.merge(recovery, on="rollcall_id", how="left", validate="one_to_one")
-        recovered = hist.extracted_synopsis.eq("") & hist.best_synopsis.fillna("").ne("")
-        hist.loc[recovered, "extracted_synopsis"] = hist.loc[recovered, "best_synopsis"]
-    else:
-        hist["synopsis_source"] = np.where(hist.extracted_synopsis.ne(""), "context_window", "unavailable")
+    hist["measure_key"] = measure_key(hist)
+    hist["extracted_synopsis"] = [
+        extract_historical_synopsis(r.context, r.bill_type, r.bill_number)
+        for r in hist.itertuples()
+    ]
+    hist = hist.merge(measure_metadata, on="measure_key", how="left", validate="many_to_one")
+    # Select one bill-level synopsis for every measure so the two chambers do
+    # not receive contradictory descriptions. Formal synopsis text outranks an
+    # amendment fragment even when the fragment is longer.
+    direct_candidates = hist[["measure_key", "extracted_synopsis"]].copy()
+    direct_candidates["candidate_source"] = "journal_context_measure_synopsis"
+    representative_candidates = measure_metadata[[
+        "measure_key", "measure_synopsis", "measure_synopsis_source"
+    ]].rename(columns={"measure_synopsis": "extracted_synopsis",
+                       "measure_synopsis_source": "candidate_source"})
+    synopsis_candidates = pd.concat(
+        [direct_candidates, representative_candidates], ignore_index=True
+    )
+    synopsis_candidates["extracted_synopsis"] = synopsis_candidates.extracted_synopsis.fillna("")
+    synopsis_candidates = synopsis_candidates[synopsis_candidates.extracted_synopsis.ne("")].copy()
+    synopsis_candidates["formal_synopsis"] = synopsis_candidates.extracted_synopsis.str.match(
+        r"^(?:To|Relating|Providing|Making|Proposing)\b", case=False, na=False
+    )
+    synopsis_candidates["amendment_fragment"] = synopsis_candidates.extracted_synopsis.str.slice(
+        0, 160
+    ).str.contains(r"\bAMENDMENT TO\b|\bas amended,?\s+to wit\b", case=False, regex=True, na=False)
+    synopsis_candidates["synopsis_length"] = synopsis_candidates.extracted_synopsis.str.len()
+    best_synopsis = (synopsis_candidates.sort_values(
+        ["measure_key", "formal_synopsis", "amendment_fragment", "synopsis_length"],
+        ascending=[True, False, True, False],
+    ).drop_duplicates("measure_key")[[
+        "measure_key", "extracted_synopsis", "candidate_source"
+    ]].rename(columns={"extracted_synopsis": "best_measure_synopsis",
+                       "candidate_source": "best_measure_synopsis_source"}))
+    hist = hist.merge(best_synopsis, on="measure_key", how="left", validate="many_to_one")
+    hist["extracted_synopsis"] = hist.best_measure_synopsis.fillna(hist.extracted_synopsis).fillna("")
+    hist["synopsis_source"] = hist.best_measure_synopsis_source.fillna("unavailable")
+    hist["title"] = hist.measure_title.fillna("")
+    hist["coding_status"] = hist.measure_coding_status.fillna("unreviewed")
+
     hist_rules = pd.DataFrame([classify_text(r.title, r.extracted_synopsis) for r in hist.itertuples()])
-    hist_motion = hist.motion_type.map(motion_disposition)
+    hist_motion = pd.Series(np.select(
+        [hist.motion_type.isin(["final_passage", "conference_report"]),
+         hist.motion_type.isin(["amendment_or_concurrence", "substitute", "motion_to_table",
+                               "budget_isolation_resolution", "carry_over", "adjournment"])],
+        ["bill_direction_applies", "procedural_or_amendment"],
+        default="motion_ambiguous",
+    ), index=hist.index)
     hist_direction = hist_rules.yea_direction.where(hist_motion.eq("bill_direction_applies"))
     hist_status = hist_rules.classification_status.copy()
     hist_status = hist_status.mask(hist.extracted_synopsis.eq(""), "synopsis_extraction_failed")
@@ -216,6 +311,7 @@ def main() -> None:
         "canonical_rollcall_id": hist.rollcall_id,
         "roll_call_id": np.nan, "bill_id": np.nan, "session_year": hist.session_year,
         "chamber": hist.chamber, "bill_number": hist.bill_type.fillna("") + hist.bill_number.fillna("").astype(str),
+        "vote_date": "", "url": "",
         "vote_description": hist.motion_type, "title": hist.title, "description": hist.extracted_synopsis,
         "issue_code": hist_rules.issue_code, "issue_codes": hist_rules.issue_codes,
         "yea_direction": hist_direction,
@@ -225,14 +321,28 @@ def main() -> None:
             "historical_journal_" + hist.synopsis_source.fillna("unknown").astype(str) + "_rule", "none"),
         "human_review_status": hist.coding_status.fillna("unreviewed"),
         "motion_disposition": hist_motion,
-        "yea": np.nan, "nay": np.nan,
+        "yea": hist.yea_total, "nay": hist.nay_total,
         "original_bill_type": hist.original_bill_type,
         "original_bill_number": hist.original_bill_number,
         "measure_identity_status": hist.measure_identity_status,
     })
     rolls["canonical_rollcall_id"] = "LS-" + rolls.roll_call_id.astype(str)
-    common = [c for c in hist_out if c in rolls.columns]
+    with checked_standalone(DB) as con:
+        warehouse_ids = set(pd.read_sql(
+            "SELECT canonical_rollcall_id FROM rollcall", con
+        ).canonical_rollcall_id.astype(str))
+    # The raw LegiScan roll-call table includes a small number of records that
+    # failed the reported-total eligibility gate and therefore are not in the
+    # normalized research warehouse. Classification must share the warehouse
+    # universe exactly.
+    rolls = rolls[rolls.canonical_rollcall_id.astype(str).isin(warehouse_ids)].copy()
     all_rolls = pd.concat([rolls, hist_out.reindex(columns=rolls.columns)], ignore_index=True)
+    emitted_ids = set(all_rolls.canonical_rollcall_id.astype(str))
+    if warehouse_ids != emitted_ids:
+        raise AssertionError(
+            f"classification coverage mismatch: missing={len(warehouse_ids-emitted_ids)} "
+            f"extra={len(emitted_ids-warehouse_ids)}"
+        )
     all_rolls.to_csv(LEG / "comprehensive_rollcall_classifications.csv", index=False)
     bills.to_csv(LEG / "comprehensive_bill_classifications.csv", index=False)
 

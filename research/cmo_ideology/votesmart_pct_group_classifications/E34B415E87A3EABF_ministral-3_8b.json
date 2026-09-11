@@ -1,0 +1,11 @@
+{
+  "policy_key": "us_troop_withdrawal_iraq",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "This option is a direct call for troop withdrawal from Iraq, which has historically been framed as a progressive stance (e.g., opposing prolonged military engagements abroad). However, the context-dependent nature of this policy\u2014such as whether it assumes unilateral action or conditions tied to security guarantees\u2014means its ideological alignment isn\u2019t universally conservative/progressive. The phrasing itself lacks explicit principles beyond withdrawal.",
+  "evidence_quote": "**c) Should the United States withdraw its troops from Iraq?**",
+  "needs_human_review": true,
+  "review_reason": "The option\u2019s left/right framing depends on broader assumptions about U.S. foreign policy goals (e.g., humanitarian vs. strategic interests)."
+}

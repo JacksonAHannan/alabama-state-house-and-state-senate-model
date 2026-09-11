@@ -1,0 +1,18 @@
+{
+  "primary_domain": "criminal_justice",
+  "policy_key": "abortion_access",
+  "plain_english_policy": "Should minors sending sexually explicit or nude photos via cell phones be charged with a crime?",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "criminal_punishment",
+      "pole": "punitive",
+      "strength": "primary",
+      "rationale": "The policy suggests that minors who send sexually explicit or nude photos should face criminal charges, indicating a punitive approach to addressing such behavior."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Should minors sending sexually-explicit or nude photos via cell phone face criminal charges?\" This question implies a stance on whether the government should impose legal consequences for this type of activity by minors, suggesting a punitive approach to addressing such behavior.",
+  "needs_human_review": true,
+  "review_reason": "The policy is framed in terms of criminal charges and punishment, indicating a focus on deterrence through enforcement."
+}

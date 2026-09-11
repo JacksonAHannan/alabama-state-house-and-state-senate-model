@@ -1,0 +1,10 @@
+{
+  "id": "AF9D3DC291BC38E4",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "Addresses part-time contracting and compensation rules for certain teachers, but the available text is incomplete and the measure is primarily technical employment administration rather than a clear education-policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

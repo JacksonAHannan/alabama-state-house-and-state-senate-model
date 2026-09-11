@@ -1,0 +1,10 @@
+sample,our_measure,n,spearman_rho,p_value
+all_matches,our_issue_conservatism,24,0.5114257652353805,0.01063921098315821
+all_matches,ideal_point,35,0.7468124521336675,2.5744241043140814e-07
+all_matches,cross_party_voting_rate,35,0.5488455010830374,0.0006400002171377748
+pre_election_service,our_issue_conservatism,24,0.5114257652353805,0.01063921098315821
+pre_election_service,ideal_point,35,0.7468124521336675,2.5744241043140814e-07
+pre_election_service,cross_party_voting_rate,35,0.5488455010830374,0.0006400002171377748
+post_election_or_no_prior,our_issue_conservatism,0,,
+post_election_or_no_prior,ideal_point,0,,
+post_election_or_no_prior,cross_party_voting_rate,0,,

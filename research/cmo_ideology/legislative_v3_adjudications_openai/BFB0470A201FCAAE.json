@@ -1,0 +1,10 @@
+{
+  "id": "BFB0470A201FCAAE",
+  "decision": "map",
+  "primitive_axis": "healthcare_regulation_patient_rights",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Requires hospitals to bill available health insurance before pursuing compensation from an injured patient, strengthening patient financial protections.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

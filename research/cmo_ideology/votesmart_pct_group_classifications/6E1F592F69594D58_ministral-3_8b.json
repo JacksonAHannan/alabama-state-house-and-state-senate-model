@@ -1,0 +1,11 @@
+{
+  "policy_key": "government_jobs_for_unemployed",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Create public-sector employment for people who struggle to find work in the private market.",
+  "evidence_quote": "Provide government jobs for those who wish to work and cannot find a job in the private sector.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

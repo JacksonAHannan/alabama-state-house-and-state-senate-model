@@ -1,0 +1,10 @@
+{
+  "id": "C9FE1AB3EA74D893",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Creates and compensates county sheriff's office employees, including a pistol permit investigator; this is an administrative personnel measure rather than a concrete change to gun access or purchase regulation.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

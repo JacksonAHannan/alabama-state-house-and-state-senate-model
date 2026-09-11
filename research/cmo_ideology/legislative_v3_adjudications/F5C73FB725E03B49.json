@@ -1,0 +1,10 @@
+{
+  "id": "F5C73FB725E03B49",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "The bill explicitly removes the fee requirement for pistol permits for active military and honorably discharged veterans, directly expanding access to firearms.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

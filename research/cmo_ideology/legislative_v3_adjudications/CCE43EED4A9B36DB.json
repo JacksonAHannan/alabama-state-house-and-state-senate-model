@@ -1,0 +1,10 @@
+{
+  "id": "CCE43EED4A9B36DB",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "This is a symbolic/constitutional amendment (Ten Commandments display) with no direct policy impact on allowed axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "social_issues_other_expanded_principles",
+  "dimension": "social_ideology",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Open-ended category for candidates to propose alternative or additional social policies not covered by the standard options.",
+  "evidence_quote": "(No specific policy stance implied; purely procedural/neutral phrasing.)",
+  "needs_human_review": true,
+  "review_reason": "Lacks clear left/right ideological signal\u2014could include anything from progressive (e.g., LGBTQ+ rights expansions) to conservative (e.g., faith-based social policies)."
+}

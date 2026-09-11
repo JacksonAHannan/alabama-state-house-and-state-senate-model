@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "tax_distribution",
+  "plain_english_policy": "Provide tax incentives to small businesses that provide health care to their employees.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "tax_distribution",
+      "pole": "progressive",
+      "strength": "secondary",
+      "rationale": "Tax incentives for providing healthcare could be seen as a progressive policy if the goal is to encourage small businesses to provide health care benefits to their employees, potentially reducing disparities in access to healthcare."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Provide tax incentives to small businesses that provide health care to their employees.\" - Source: Year: 1998, Section: Health Issues, Question:",
+  "needs_human_review": true,
+  "review_reason": ""
+}

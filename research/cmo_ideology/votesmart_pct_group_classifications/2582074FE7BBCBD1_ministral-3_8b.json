@@ -1,0 +1,11 @@
+{
+  "policy_key": "immigration_state_reimbursement",
+  "dimension": "immigration_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting financial compensation to states for services provided to undocumented immigrants.",
+  "evidence_quote": "Reimburse states for providing services to illegal aliens.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

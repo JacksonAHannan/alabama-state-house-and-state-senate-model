@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "welfare_policy",
+  "plain_english_policy": "Support marriage promotion programs for welfare recipients.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "Expansion of marriage promotion programs for welfare recipients."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Support marriage promotion programs for welfare recipients.",
+  "needs_human_review": false,
+  "review_reason": "This option indicates support for policies that promote marriage among welfare recipients. This aligns with the expansion of welfare policy as it seeks to improve social conditions and family stability."
+}

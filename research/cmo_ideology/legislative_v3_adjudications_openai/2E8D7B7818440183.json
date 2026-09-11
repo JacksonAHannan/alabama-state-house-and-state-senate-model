@@ -1,0 +1,10 @@
+{
+  "id": "2E8D7B7818440183",
+  "decision": "map",
+  "primitive_axis": "drug_criminalization",
+  "policy_pole": "criminalize",
+  "confidence": "high",
+  "rationale": "Requires controlled-substance prescribing or dispensing to be for a medical purpose and attaches criminal penalties, increasing criminal regulation of conduct.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "10F79B8C6392FB93",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Creates enhanced criminal penalties for shooting at school buses or buildings, but does not address either allowed gun-access or gun-purchase-regulation poles.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

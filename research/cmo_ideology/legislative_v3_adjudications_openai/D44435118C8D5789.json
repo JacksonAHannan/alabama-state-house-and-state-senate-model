@@ -1,0 +1,10 @@
+{
+  "id": "D44435118C8D5789",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns Ethics Commission funding structure but does not clearly map to any allowed campaign-finance, constitutional-reform, or institutional-control pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

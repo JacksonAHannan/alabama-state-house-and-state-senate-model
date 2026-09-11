@@ -1,0 +1,10 @@
+{
+  "id": "3EF827D1C1D35D6C",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The measure requires publication of economic-development incentive information, a transparency and administrative requirement that does not clearly map to the listed market-governance poles.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

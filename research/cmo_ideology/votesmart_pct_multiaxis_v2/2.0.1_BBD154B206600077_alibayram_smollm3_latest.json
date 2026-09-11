@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "crime_issues",
+  "plain_english_policy": "Support the lower 0.08 blood-alcohol-content limit defining drunk driving.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "primary",
+      "rationale": "Setting a legal blood-alcohol limit is an intervention in the market of driving behavior."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "primary",
+      "rationale": "Restricting drunk driving through lower BAC limits aims to reduce harm and promote public safety, which can be seen as a restriction on individual freedom in the context of welfare policy."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Support the lower .08 blood-alcohol-content limit defining drunk driving.\" - Questionnaire response from Year: 2002 Section: Crime Issues Option i) [Source not provided]\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

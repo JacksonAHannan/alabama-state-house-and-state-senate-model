@@ -1,0 +1,10 @@
+{
+  "id": "66EDB44D313780E2",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Creates a comprehensive anatomical-gift framework containing administrative, medical, civil, and criminal provisions; it does not clearly support a single allowed criminal-justice pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

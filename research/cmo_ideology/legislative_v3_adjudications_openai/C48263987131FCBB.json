@@ -1,0 +1,10 @@
+{
+  "id": "C48263987131FCBB",
+  "decision": "map",
+  "primitive_axis": "education_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Delegating insulin procedures and training school personnel directly expands students' access to necessary health support in school.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "AFCAF935483EE3C8",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Combines economic incentives, development bonds, confidentiality, and lobbying-definition provisions, producing mixed and insufficiently focused policy direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

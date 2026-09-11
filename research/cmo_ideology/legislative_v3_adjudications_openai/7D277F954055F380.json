@@ -1,0 +1,10 @@
+{
+  "id": "7D277F954055F380",
+  "decision": "map",
+  "primitive_axis": "market_governance",
+  "policy_pole": "intervention",
+  "confidence": "high",
+  "rationale": "Authorizing county agriculture authorities to promote businesses, develop commercial facilities, and use revenues for that mission expands public economic intervention.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

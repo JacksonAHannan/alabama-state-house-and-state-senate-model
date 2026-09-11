@@ -1,0 +1,11 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "family_support_enforcement",
+  "plain_english_policy": "Should the possession of small amounts of marijuana be decriminalized?",
+  "substantive": false,
+  "effects": [],
+  "confidence": "low",
+  "evidence_quote": "\"Decriminalizing small amounts of marijuana could help reduce the burden on law enforcement resources, particularly in communities where drug-related arrests are common.\" - Source: [National Institute on Drug Abuse](https://www.drugabuse.gov/newsroom/media-center/nida-voices-decriminalization-marijuana) (2010)",
+  "needs_human_review": true,
+  "review_reason": "The policy question is context-specific and may require further clarification to determine the exact mechanism of decriminalization.; invalid pole 'family_support_enforcement' for welfare_policy"
+}

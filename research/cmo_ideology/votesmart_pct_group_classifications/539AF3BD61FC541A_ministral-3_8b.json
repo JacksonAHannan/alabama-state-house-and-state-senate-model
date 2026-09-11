@@ -1,0 +1,11 @@
+{
+  "policy_key": "temporary_worker_program",
+  "dimension": "immigration_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Advocates for a system allowing foreign workers to enter the U.S. temporarily for labor needs, often with restrictions on permanent residency.",
+  "evidence_quote": "Support a temporary worker program.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "criminalize_undocumented_immigrant_employment",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Make it a crime for businesses to hire people who are in the U.S. illegally.",
+  "evidence_quote": "Criminalize the employment of an undocumented immigrant in Alabama.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

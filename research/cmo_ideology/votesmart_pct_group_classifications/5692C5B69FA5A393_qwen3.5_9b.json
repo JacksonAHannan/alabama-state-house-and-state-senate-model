@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_budget_surplus_social_security",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Allocating federal budget surplus to Social Security is conventionally a progressive policy option as it expands or protects social welfare programs.",
+  "evidence_quote": "Option: e) Social Security",
+  "needs_human_review": false,
+  "review_reason": ""
+}

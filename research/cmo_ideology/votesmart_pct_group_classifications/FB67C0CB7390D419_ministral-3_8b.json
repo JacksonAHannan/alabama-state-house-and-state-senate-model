@@ -1,0 +1,11 @@
+{
+  "policy_key": "iraq_reconstruction_funding",
+  "dimension": "indeterminate",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option does not explicitly state a policy position but instead requests proposals and funding sources for Iraq reconstruction, which is context-dependent.",
+  "evidence_quote": "Discuss your proposals for the reconstruction of Iraq. What funding sources would you use to implement these proposals? (75 words or less.)",
+  "needs_human_review": true,
+  "review_reason": "The question is procedural and lacks a clear ideological stance."
+}

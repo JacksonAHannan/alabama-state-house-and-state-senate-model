@@ -1,0 +1,10 @@
+{
+  "id": "59B748879082DDC3",
+  "decision": "map",
+  "primitive_axis": "education_teacher_labor",
+  "policy_pole": "support",
+  "confidence": "high",
+  "rationale": "Authorizes certified public-school teachers to work less than full-time at an hourly rate tied to the statutory salary schedule.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

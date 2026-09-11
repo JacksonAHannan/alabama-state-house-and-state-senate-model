@@ -1,0 +1,24 @@
+{
+  "primary_domain": "criminal_justice",
+  "policy_key": "hate_crime_prosecution_enforcement",
+  "plain_english_policy": "Enforces criminal penalties for bias-motivated offenses (hate crimes) based on protected categories like race, religion, or sexual orientation.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "civil_social_liberty",
+      "pole": "restrict",
+      "strength": "secondary",
+      "rationale": "Expands prosecutorial discretion to target speech/conduct tied to protected classes, which may limit expressive freedoms where bias-motivated intent is inferred."
+    },
+    {
+      "axis": "criminal_punishment",
+      "pole": "punitive",
+      "strength": "primary",
+      "rationale": "Increases penalties for offenses already criminalized by adding aggravating factors (e.g., 'hate' enhancement)."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "'crimes based on race, ethnic background, religious belief, sex, age, disability, or sexual orientation'",
+  "needs_human_review": false,
+  "review_reason": ""
+}

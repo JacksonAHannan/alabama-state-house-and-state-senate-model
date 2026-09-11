@@ -1,0 +1,11 @@
+{
+  "policy_key": "universal_pre_k_funding",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Federal funding for universal pre-kindergarten programs (free public education for children aged 3-5).",
+  "evidence_quote": "Support the federal government funding universal pre-K programs.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

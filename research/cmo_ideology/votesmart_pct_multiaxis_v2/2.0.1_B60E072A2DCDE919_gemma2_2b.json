@@ -1,0 +1,18 @@
+{
+  "primary_domain": "healthcare",
+  "policy_key": "expansion",
+  "plain_english_policy": "Expand healthcare access",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "The question asks for support of expanding healthcare access through commercial health insurance reform."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Do you support expanding access to health care through commercial health insurance reform?",
+  "needs_human_review": false,
+  "review_reason": "The question asks for support of expanding healthcare access. This is a policy that would likely be considered expansion of welfare policy."
+}

@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "healthcare_access",
+  "plain_english_policy": "Do you support requiring individuals to purchase health care insurance?",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "primary",
+      "rationale": "The policy requires individuals to purchase health care insurance."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"I believe that everyone should have access to affordable healthcare, but I do not support mandating that every individual must purchase health care insurance.\"",
+  "needs_human_review": true,
+  "review_reason": ""
+}

@@ -1,0 +1,32 @@
+{
+  "status": "committed",
+  "build_run_id": "RUN-DA2442D0AD664F5681DE08E573D79A15",
+  "configuration": {
+    "manifest_sha256": "371abd6a0d77a04d0863bd38e6128a1da58b98f5903afb9d069f1f42aaafc14c",
+    "audit_sha256": "263a02e45aa6780f86ffa1ced3058a030fc78bf02412d73963efbd6e10373475",
+    "source_sha256": "2f924587c91a72f161913a110612125bbc17b78151e20963a0003774666091ed",
+    "backup": "data\\processed\\elections\\backups\\pre-canvass-registration-2026-09-07.sqlite",
+    "application_code_sha256": "b5163ca095885faa817e5b008af8afdd2fa0384d9988faf50914c44f7634362b",
+    "helper_code_sha256": {
+      "warehouse.py": "dd9df42bbb3760a51443027f53f166d7f943e8d3e8ba9ce4461ac403b72234e0",
+      "sync_warehouse_source_registry.py": "8dfbb96f24fa33d12d082c9d8715ced47f345cddec923e18cc9b3aa8d166ee5b"
+    },
+    "before_snapshot": {
+      "warehouse_source_file": "02db2845aacd29d48c236c19a6f515785bf59a7e98d46e9adea97498786ab234",
+      "warehouse_build_run": "affdbe687665d3d2b73d9f8a847eea932048835ed90aeafe50caedf0a40b773c",
+      "qa_warehouse_source_repair": "3d0d91247f97102e672510292e774ea0862a5b0d008f0463641d2d5b93dc1734"
+    },
+    "source_file_id": "SRC-DD940F20743C33261CC2",
+    "scope": "append one source registry row; no election result or model changes"
+  },
+  "validation": {
+    "registered_rows": 1,
+    "source_file_id": "SRC-DD940F20743C33261CC2",
+    "result_rows_changed": 0,
+    "limitations": [
+      "No canonical result repair or producer integration",
+      "Unknown precinct values unchanged",
+      "Redistribution terms remain review"
+    ]
+  }
+}

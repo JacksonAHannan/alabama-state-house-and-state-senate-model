@@ -1,5 +1,11 @@
 # Repository cleanup validation
 
+Historical validation snapshot, not current release approval. The September 7
+dispatcher safety change removes the former `cmo` shortcut and requires explicit
+`--publish` for the remaining renderer targets. Current commands are maintained
+in [Canonical pipelines](../CANONICAL_PIPELINES.md); the evidence below describes
+the August 21 implementation only.
+
 **Task:** `VALIDATE-REPO-CLEANUP-001`  
 **Validated:** 2026-08-21  
 **Verdict:** **PASS**

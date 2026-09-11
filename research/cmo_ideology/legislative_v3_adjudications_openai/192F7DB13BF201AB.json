@@ -1,0 +1,10 @@
+{
+  "id": "192F7DB13BF201AB",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Further licensing and regulation of preneed funeral services with penalties concerns commercial regulation rather than a listed criminal-justice policy axis.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "91429DA952DBABB6",
+  "decision": "map",
+  "primitive_axis": "environmental_protection",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Requires pollutant testing, public fish-consumption advisories, warning signage, and notice to license purchasers, strengthening environmental health protections.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

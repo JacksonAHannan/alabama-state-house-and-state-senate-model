@@ -1,5 +1,7 @@
 # Generic-ballot environment adjustment
 
+> **Documentation status — 2026-09-05:** Historical environment-pipeline snapshot. The source feed, cutoffs, transformations and selected-release statements below refer to that implementation, not necessarily the current forecast consumer. Use [current product routes](../CANONICAL_PIPELINES.md); do not change current inputs by following an older command sequence without reviewing dependencies.
+
 The headline prospective baseline remains each district's projected 2024 presidential two-party margin. The selected national-environment adjustment now uses Catalist's national demographic history, VoteHub-linked polls graded B+ or better in the supplied Nate Silver ratings, Alabama ecological-inference offsets, and 2024 ACS district composition. The current topline pools eight eligible pollsters; White, Black, and Hispanic relative shapes pool Marist, PPP, and TIPP; and the compatible education split comes from A- rated Marist. YouGov's historical tracker remains the 2024 comparison because the public VoteHub era begins after that election.
 
 `download_votehub_generic_ballot.py` preserves the raw API response, normalizes Democratic and Republican responses to a two-party margin, excludes internal and partisan polls, keeps the latest release per pollster/sponsor within each window, and combines 7-, 14-, and 21-day averages with 30/50/20 weights. Likely-voter polls receive weight 1, registered-voter polls 0.75, and adult samples 0.5. VoteHub is attributed under CC BY 4.0.

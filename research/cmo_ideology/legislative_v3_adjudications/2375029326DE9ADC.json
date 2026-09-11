@@ -1,0 +1,10 @@
+{
+  "id": "2375029326DE9ADC",
+  "decision": "map",
+  "primitive_axis": "education_public_funding",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Authorizes a **$50M bond issue** for school renovations, directly expanding public funding for K-12 education.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_irv",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Instant run-off voting (IRV) is generally viewed as a progressive reform aimed at reducing the influence of extreme partisan blocs and encouraging broader coalition building.",
+  "evidence_quote": "f) Support instant run-off voting (IRV).",
+  "needs_human_review": false,
+  "review_reason": ""
+}

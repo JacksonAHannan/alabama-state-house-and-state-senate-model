@@ -1,0 +1,10 @@
+{
+  "id": "CF0A26EF1F292A2B",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Prohibiting sheriffs from imposing time constraints on taking possession of a permitted pistol removes a barrier to lawful firearm access.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

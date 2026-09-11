@@ -1,0 +1,30 @@
+{
+  "primary_domain": "education",
+  "policy_key": "education_governance",
+  "plain_english_policy": "The option critiques the current teacher **tenure system** in public schools, framing it as a mechanism for evaluating teacher effectiveness rather than assuming its inherent value or flaw.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "education_governance",
+      "pole": "public_system",
+      "strength": "secondary",
+      "rationale": "The question implicitly questions the **existing governance structure** of public schools by targeting tenure\u2014a core feature of teacher employment in public systems\u2014as a potential failure point. It does not propose reform but signals dissatisfaction with current processes."
+    },
+    {
+      "axis": "labor_rights",
+      "pole": "restrict",
+      "strength": "secondary",
+      "rationale": "Tenure is often associated with **job security for teachers**, which could be interpreted as a restriction on administrative or managerial authority to dismiss underperforming educators. The question implies this system may not align with effectiveness goals."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "secondary",
+      "rationale": "The focus is on **public school tenure**, distinguishing it from private-sector employment models. The critique could indirectly suggest a preference for alternative governance (e.g., merit-based systems) over the current public system\u2019s rigidity."
+    }
+  ],
+  "confidence": "medium",
+  "evidence_quote": "\"Is the tenure process... producing effective teachers?\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

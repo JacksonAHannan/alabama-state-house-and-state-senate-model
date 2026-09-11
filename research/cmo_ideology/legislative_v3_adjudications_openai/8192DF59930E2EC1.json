@@ -1,0 +1,10 @@
+{
+  "id": "8192DF59930E2EC1",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The measure primarily regulates animal tethering and confinement; its criminal penalties do not provide a sufficiently direct human criminal-justice policy signal on the allowed axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

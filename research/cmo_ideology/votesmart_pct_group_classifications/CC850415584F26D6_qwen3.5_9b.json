@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_race_gender_contracting",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supports federal government considering race and gender in contracting.",
+  "evidence_quote": "The federal government should consider race and gender in government contracting decisions.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

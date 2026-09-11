@@ -1,0 +1,11 @@
+{
+  "policy_key": "concealed_carry_registration",
+  "dimension": "guns_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Support for allowing concealed carry of legally owned and registered firearms by law-abiding citizens.",
+  "evidence_quote": "Allow law-abiding citizens to carry concealed firearms that are legally owned and registered.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

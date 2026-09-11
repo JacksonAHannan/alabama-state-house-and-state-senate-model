@@ -1,0 +1,10 @@
+{
+  "id": "498DF36DA3A63C59",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Provides governmental immunity for work-release-related conduct; the allowed axes do not include governmental liability, and the measure does not clearly establish another permitted criminal-justice pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

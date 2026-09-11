@@ -1,0 +1,10 @@
+{
+  "id": "BD769EA9276F12DF",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "punitive",
+  "confidence": "high",
+  "rationale": "Expands the penal consequences of nolo contendere pleas from other states, treats them as convictions for habitual-offender purposes, and bars such pleas in Alabama.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

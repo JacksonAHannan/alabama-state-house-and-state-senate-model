@@ -1,0 +1,11 @@
+{
+  "policy_key": "clean_water_act_enforcement",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase federal oversight and penalties for violations of water quality standards.",
+  "evidence_quote": "Strengthen the regulation and enforcement of the Clean Water Act.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

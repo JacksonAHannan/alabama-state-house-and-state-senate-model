@@ -1,0 +1,11 @@
+{
+  "policy_key": "universal_public_healthcare",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "A government-run health insurance plan available to all citizens, funded and administered by the public sector.",
+  "evidence_quote": "*[No direct quote provided in your input; this is a generic example of how such an option would be classified.]*",
+  "needs_human_review": true,
+  "review_reason": "Your question did not include a candidate's *verbatim* text for the policy option, so I cannot extract an exact quote. To proceed, please provide either: (1) the full text of the questionnaire option or (2) a direct citation from the candidate\u2019s materials."
+}

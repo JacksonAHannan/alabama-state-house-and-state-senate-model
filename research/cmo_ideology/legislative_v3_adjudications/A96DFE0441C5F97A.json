@@ -1,0 +1,10 @@
+{
+  "id": "A96DFE0441C5F97A",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "Sale of a county hospital and distribution of indigent care funds are administrative/structural changes without clear policy implications for healthcare access or regulation.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

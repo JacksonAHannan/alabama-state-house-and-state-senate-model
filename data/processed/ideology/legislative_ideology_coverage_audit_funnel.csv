@@ -1,0 +1,15 @@
+metric,count
+expected_session_chambers_1998_2026,58
+present_session_chambers,57
+normalized_rollcalls,60704
+normalized_member_votes,3994500
+identified_member_votes,3953481
+rollcalls_mapped,987
+rollcalls_other_excluded,59717
+candidate_cycles,1564
+candidate_legiscan_identity_resolved,768
+candidate_pre_election_identity_resolved,848
+candidate_behavioral_score_available,550
+candidate_issue_evidence_available,550
+expected_officeholder_identity_unresolved,24
+high_confidence_identity_recoveries,0

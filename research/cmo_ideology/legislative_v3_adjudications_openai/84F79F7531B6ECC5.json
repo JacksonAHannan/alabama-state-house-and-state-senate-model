@@ -1,0 +1,10 @@
+{
+  "id": "84F79F7531B6ECC5",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "This concerns a technical corporate reorganization of a nonprofit health care service corporation, not a concrete allowed healthcare policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

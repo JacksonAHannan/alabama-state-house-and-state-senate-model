@@ -1,0 +1,11 @@
+{
+  "policy_key": "social_security_lockbox",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Support a lock box measure to prevent Congress from using Social Security and Medicare surpluses for other programs until solvency is guaranteed.",
+  "evidence_quote": "Support a lock box measure, limiting Congress's ability to spend Social Security and Medicare surpluses on any other federal programs except Social Security and Medicare, until each program's long-term solvency is guaranteed.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

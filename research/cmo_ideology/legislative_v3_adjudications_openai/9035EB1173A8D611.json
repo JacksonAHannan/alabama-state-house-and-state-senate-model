@@ -1,0 +1,10 @@
+{
+  "id": "9035EB1173A8D611",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "Expands access to juvenile and youthful-offender records for sentencing-related personnel, but the description does not establish a sufficiently clear allowed due-process or punishment direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

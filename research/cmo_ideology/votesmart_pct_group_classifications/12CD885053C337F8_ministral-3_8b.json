@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_income_tax_mid_income",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Tax burden on mid-income earners via income taxes",
+  "evidence_quote": "#4 (Reduce or eliminate)",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,24 @@
+{
+  "primary_domain": "business",
+  "policy_key": "resource_development",
+  "plain_english_policy": "support for state funding to develop traditional domestic energy sources like coal, natural gas, and oil.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "business_scale_alignment",
+      "pole": "large_business",
+      "strength": "primary",
+      "rationale": "The policy directly supports the development of energy sources that are typically large-scale and often involve significant capital investment."
+    },
+    {
+      "axis": "resource_development",
+      "pole": "expand",
+      "strength": "primary",
+      "rationale": "The policy explicitly aims to expand the development of traditional domestic energy sources, which are typically associated with resource extraction and production."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Do you support state funding for the development of traditional domestic energy sources (e.g. coal, natural gas, oil)?",
+  "needs_human_review": false,
+  "review_reason": "The question directly asks about supporting state funding for the development of traditional domestic energy sources."
+}

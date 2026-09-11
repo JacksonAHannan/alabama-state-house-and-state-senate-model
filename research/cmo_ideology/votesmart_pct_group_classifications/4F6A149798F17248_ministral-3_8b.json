@@ -1,0 +1,11 @@
+{
+  "policy_key": "prohibit_non_us_citizens_soft_money",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Restrict campaign donations to U.S. citizens only for soft money contributions to national parties.",
+  "evidence_quote": "Prohibit non-U.S. citizens from making soft money contributions to national parties or party committees.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

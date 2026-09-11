@@ -1,0 +1,10 @@
+{
+  "id": "D272275210048047",
+  "decision": "map",
+  "primitive_axis": "gun_purchase_regulation",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Establishing crimes for soliciting illegal firearm transfers and providing false information to dealers strengthens gun purchase regulation by creating penalties for deceptive practices.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

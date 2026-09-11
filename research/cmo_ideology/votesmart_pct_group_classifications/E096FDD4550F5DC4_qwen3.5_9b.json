@@ -1,0 +1,11 @@
+{
+  "policy_key": "increase_penalties_drugs",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increasing penalties for selling illegal drugs is a punitive approach to drug policy.",
+  "evidence_quote": "a) Increase penalties for selling illegal drugs.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

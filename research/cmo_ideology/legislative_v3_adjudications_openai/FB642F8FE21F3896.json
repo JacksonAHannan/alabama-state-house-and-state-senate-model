@@ -1,0 +1,10 @@
+{
+  "id": "FB642F8FE21F3896",
+  "decision": "map",
+  "primitive_axis": "incarceration",
+  "policy_pole": "reduce",
+  "confidence": "high",
+  "rationale": "Authorizes a pretrial diversion program, providing an alternative to ordinary pretrial processing and potential detention.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

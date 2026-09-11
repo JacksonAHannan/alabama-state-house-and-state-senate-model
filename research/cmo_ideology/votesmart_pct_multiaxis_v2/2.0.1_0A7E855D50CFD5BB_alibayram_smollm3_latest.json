@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "welfare_policy",
+  "plain_english_policy": "Do you support limits on the number of terms for Alabama state legislators?",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "The policy is about restricting the number of terms for state legislators, which could be seen as a restriction on their ability to hold office."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I believe that term limits are necessary to ensure fresh perspectives and prevent corruption.\" - Candidate's statement in 2010 campaign finance discussion.",
+  "needs_human_review": true,
+  "review_reason": "The policy is about restricting the number of terms for state legislators, which could be seen as a restriction on their ability to hold office."
+}

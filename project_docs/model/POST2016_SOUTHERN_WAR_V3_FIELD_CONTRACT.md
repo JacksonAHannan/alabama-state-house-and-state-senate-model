@@ -64,6 +64,24 @@ The repository-specific contract follows
   estimand and requires its own temporal/calibration checks. Neither a residual
   nor its association with ideology isolates a causal individual effect.
 
+## Manifest input declarations
+
+The run manifest declares its inputs at the grain the model consumes. File
+inputs (probability context, Alabama presidential context, the v2 manifest and
+this contract) are declared by byte hash in `input_hashes`. The warehouse is not
+declared by whole-file hash: the model reads exactly one query over
+`mart_southern_war_training_with_finance` (`cycle > 2016`,
+`training_status = strict_war_ready_no_finance`), and the manifest declares that
+frame under `training_frame` as a content digest (`sha256`, computed by
+`scripts/southern_war_training_frame.py` over a deterministic CSV serialization
+excluding `build_run_id`), its `source`, `loader` and `rows`, alongside the
+`warehouse_build_run_id` that produced it. The consumed frame is also written as
+the declared output `training_frame.csv` (one row per race, `model_run_id`
+first). The release gate recomputes the live digest and refuses when the
+warehouse no longer yields the declared frame; unrelated warehouse changes do
+not affect the gate, and a content-identical preparation rerun is not a changed
+dependency.
+
 This documentation reconciliation does not rerun or recertify existing models.
 Previously hashed manifests retain their historical contract hash until a
 separately validated run records the revised document.

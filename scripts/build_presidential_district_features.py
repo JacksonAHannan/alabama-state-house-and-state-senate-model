@@ -22,6 +22,7 @@ from rapidfuzz import fuzz, process
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from oe_normalize import is_county_level_ballot, normalize_for_match, normalize_name  # noqa: E402
+from source_vote_quality import require_reported_vote_quality  # noqa: E402
 
 TARGET_SOURCES: dict[int, list[int]] = {
     2010: [2008], 2014: [2012], 2018: [2012, 2016], 2022: [2016, 2020]
@@ -86,6 +87,10 @@ def load_target_weights(weights_path: Path, target_cycle: int) -> pd.DataFrame:
 def load_legislative_activity_weights(database: Path, cycle: int) -> pd.DataFrame:
     """Recover same-plan precinct aliases from official legislative returns."""
     with sqlite3.connect(database) as connection:
+        require_reported_vote_quality(
+            connection, """source='alabama_sos' AND year=?
+            AND office IN ('State House','State Senate') AND district IS NOT NULL""",
+            (cycle,))
         raw = pd.read_sql_query(
             """SELECT year AS cycle, county_key, precinct_key, office, district,
                       SUM(votes) AS district_activity
@@ -235,6 +240,8 @@ def allocate_to_districts(
     # pipeline did with them, and it is the only defensible treatment for a
     # batch of votes with no geography finer than the county.
     votes["is_county_level"] = votes["precinct_key"].map(is_county_level_ballot)
+    if "geography_type" in votes:
+        votes["is_county_level"] |= votes["geography_type"].eq("county")
     votes["source_row_id"] = range(1, len(votes) + 1)
 
     matches = _match_precincts(
@@ -461,7 +468,12 @@ def main() -> None:
             print(f"2010: combined target contains {weights.target_match_norm.nunique()} precinct aliases")
         combined: pd.DataFrame | None = None
         for source_year in source_years:
-            votes = pd.read_csv(pres_dir / f"{source_year}_president_precinct.csv")
+            source_path = pres_dir / f"{source_year}_president_precinct.csv"
+            if source_year == 2012:
+                canonical = pres_dir / "2012_president_precinct_canonical.csv"
+                if canonical.exists():
+                    source_path = canonical
+            votes = pd.read_csv(source_path)
             district, matches = allocate_to_districts(votes, weights, source_year)
             matches.to_csv(pres_dir / f"{source_year}_to_{target_cycle}_precinct_match.csv", index=False)
             print(f"{source_year}->{target_cycle}: {matches.match_method.value_counts().to_dict()}")

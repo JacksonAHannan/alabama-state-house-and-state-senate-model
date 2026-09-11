@@ -1,0 +1,11 @@
+{
+  "policy_key": "fuel_efficiency_standards",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase fuel efficiency requirements for all gasoline/diesel vehicles (cars, trucks, SUVs).",
+  "evidence_quote": "Strengthen fuel efficiency standards on all gasoline and diesel-powered engines, including cars, trucks, and sport utility vehicles.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

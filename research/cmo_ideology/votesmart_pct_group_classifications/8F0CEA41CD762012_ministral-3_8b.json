@@ -1,0 +1,11 @@
+{
+  "policy_key": "sanctions_on_china",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option does not explicitly state a clear conservative or progressive stance on international aid, policy, or trade. It is framed as a binary question about sanctions without additional context (e.g., purpose, scope, or principles).",
+  "evidence_quote": "**a) Do you support the United States imposing economic sanctions on China?**",
+  "needs_human_review": true,
+  "review_reason": "The phrasing is neutral and lacks ideological framing. Sanctions can be justified by either conservative (e.g., 'national security' or 'free markets') or progressive (e.g., 'human rights' or 'anti-corruption') principles depending on context."
+}

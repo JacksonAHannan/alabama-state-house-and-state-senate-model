@@ -1,0 +1,24 @@
+{
+  "primary_domain": "criminal_justice",
+  "policy_key": "family_support_enforcement",
+  "plain_english_policy": "strict_enforcement",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "labor_capital_alignment",
+      "pole": "labor",
+      "strength": "secondary",
+      "rationale": "none"
+    },
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "none"
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Should a minor who sends sexually-explicit or nude photos by cell phone face criminal charges?",
+  "needs_human_review": false,
+  "review_reason": "This question asks about the legal consequences of minors sending explicit images. This is a matter of family law and child protection."
+}

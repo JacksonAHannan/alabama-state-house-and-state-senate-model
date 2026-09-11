@@ -1,0 +1,18 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "environmental_protection",
+  "plain_english_policy": "Restricting the expansion of hog farms",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "environmental_protection",
+      "pole": "weaken",
+      "strength": "secondary",
+      "rationale": "The policy restricts the growth of a specific industry. This is likely to weaken environmental protection in the long term."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "Support a three-year moratorium on both new hog farms and all expansions of farms to over 500 hogs.",
+  "needs_human_review": false,
+  "review_reason": "The policy directly restricts the growth of a specific industry. This is likely to weaken environmental protection in the long term."
+}

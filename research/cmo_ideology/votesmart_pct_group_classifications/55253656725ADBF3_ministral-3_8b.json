@@ -1,0 +1,11 @@
+{
+  "policy_key": "crime_youth_funding",
+  "dimension": "social_ideology",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Increase funding for community-based youth programs (e.g., Boys & Girls Clubs) to reduce crime by addressing root causes in at-risk neighborhoods.",
+  "evidence_quote": "*[No explicit ideological lean evident; focuses on procedural/administrative support for non-governmental youth services.]*",
+  "needs_human_review": true,
+  "review_reason": "Option lacks clear left/right framing\u2014could be interpreted as progressive (investment in community) or neutral (administrative funding)."
+}

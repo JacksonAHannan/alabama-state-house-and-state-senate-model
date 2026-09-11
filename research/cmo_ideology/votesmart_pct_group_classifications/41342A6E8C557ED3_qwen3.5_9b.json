@@ -1,0 +1,11 @@
+{
+  "policy_key": "free_tv_ads_spending_limits",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option supports providing free or low-cost television advertising to candidates who agree to voluntary campaign spending limits.",
+  "evidence_quote": "Provide free or low-cost television advertising to candidates who agree to voluntary campaign spending limits.",
+  "needs_human_review": true,
+  "review_reason": "This option combines two distinct concepts: public subsidies for media access (often associated with progressive views on equality of opportunity) and voluntary spending caps (a hallmark of conservative small-d government ideology). The net ideological direction is mixed or context-dependent."
+}

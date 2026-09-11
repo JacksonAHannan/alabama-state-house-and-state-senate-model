@@ -1,0 +1,18 @@
+bundle_id,bundle_label,era,n,within_bundle_share
+1,high social traditionalism + low material redistribution,2008_2014,6,0.2727272727272727
+1,high social traditionalism + low material redistribution,post_2016,2,0.09090909090909091
+1,high social traditionalism + low material redistribution,pre_2008,14,0.6363636363636364
+2,high gun rights + high market and development autonomy,2008_2014,5,0.15625
+2,high gun rights + high market and development autonomy,post_2016,2,0.0625
+2,high gun rights + high market and development autonomy,pre_2008,25,0.78125
+3,low racial and political equality + high social traditionalism,post_2016,5,0.13157894736842105
+3,low racial and political equality + high social traditionalism,pre_2008,33,0.868421052631579
+4,low punitive law and order + high material redistribution,2008_2014,2,0.10526315789473684
+4,low punitive law and order + high material redistribution,post_2016,13,0.6842105263157895
+4,low punitive law and order + high material redistribution,pre_2008,4,0.21052631578947367
+5,high material redistribution + low market and development autonomy,2008_2014,7,0.4117647058823529
+5,high material redistribution + low market and development autonomy,post_2016,9,0.5294117647058824
+5,high material redistribution + low market and development autonomy,pre_2008,1,0.058823529411764705
+6,low social traditionalism + high racial and political equality,2008_2014,35,0.5645161290322581
+6,low social traditionalism + high racial and political equality,post_2016,4,0.06451612903225806
+6,low social traditionalism + high racial and political equality,pre_2008,23,0.3709677419354839

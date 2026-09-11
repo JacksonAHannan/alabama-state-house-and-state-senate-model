@@ -1,0 +1,10 @@
+{
+  "id": "79CEF1443E63266D",
+  "decision": "map",
+  "primitive_axis": "environmental_protection",
+  "policy_pole": "weaken",
+  "confidence": "medium",
+  "rationale": "Regulating horizontal wells in oil/gas reservoirs and offshore gas wells generally expands industry operations, which weakens environmental protections.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "welfare_teen_mother_residency",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Mandate that unmarried teenage mothers reside with a parent/guardian (if feasible) and attend school to qualify for welfare benefits.",
+  "evidence_quote": "Require that unwed teenage mothers live with a parent or guardian (if possible) and attend school to receive benefits.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

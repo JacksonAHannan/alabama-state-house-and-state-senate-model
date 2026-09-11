@@ -1,0 +1,10 @@
+{
+  "id": "ABFDD72C9D452C54",
+  "decision": "map",
+  "primitive_axis": "environmental_protection",
+  "policy_pole": "weaken",
+  "confidence": "high",
+  "rationale": "Excluding qualifying aboveground storage tank work from environmental response projects narrows environmental covenant requirements.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

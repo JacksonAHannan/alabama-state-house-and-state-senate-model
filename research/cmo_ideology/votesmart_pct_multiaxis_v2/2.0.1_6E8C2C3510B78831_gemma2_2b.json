@@ -1,0 +1,18 @@
+{
+  "primary_domain": "healthcare",
+  "policy_key": "legal_reforms",
+  "plain_english_policy": "Limit the amount of punitive damages that can be awarded in medical malpractice lawsuits.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "The policy reduces the amount of money that can be awarded to plaintiffs in medical malpractice lawsuits."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Limit the amount of punitive damages that can be awarded in medical malpractice lawsuits.",
+  "needs_human_review": false,
+  "review_reason": "The policy reduces the amount of money that can be awarded to plaintiffs in medical malpractice lawsuits."
+}

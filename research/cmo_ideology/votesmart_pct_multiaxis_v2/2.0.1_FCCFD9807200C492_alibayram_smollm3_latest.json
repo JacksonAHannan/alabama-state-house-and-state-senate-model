@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "crime_issues",
+  "plain_english_policy": "Support the prosecution of crimes based on race, ethnic background, religious belief, sex, age, disability, or sexual orientation as hate crimes.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "This policy aims to expand protections for marginalized groups by addressing hate crimes."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Require that crimes based on race, ethnic background, religious belief, sex, age, disability, or sexual orientation be prosecuted as hate crimes.\" - Source: [2006 Crime Issues Questionnaire] Section: Crime Issues Option i)",
+  "needs_human_review": false,
+  "review_reason": ""
+}

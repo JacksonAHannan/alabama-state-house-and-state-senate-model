@@ -1,0 +1,11 @@
+{
+  "policy_key": "logging_restrictions_federal_lands",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase regulations to limit commercial logging on public lands.",
+  "evidence_quote": "Strengthen logging restrictions on federal lands.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

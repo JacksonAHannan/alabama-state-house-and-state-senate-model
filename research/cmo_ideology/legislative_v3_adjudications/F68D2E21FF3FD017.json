@@ -1,0 +1,10 @@
+{
+  "id": "F68D2E21FF3FD017",
+  "decision": "map",
+  "primitive_axis": "due_process",
+  "policy_pole": "weaken",
+  "confidence": "high",
+  "rationale": "Removing the requirement for a unanimous affirmative vote to grant parole weakens due process protections by lowering the standard for parole approval, making it easier to grant parole without full consensus.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

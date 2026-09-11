@@ -1,0 +1,10 @@
+{
+  "id": "7D6D00762F40B7AB",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The measure changes the governmental level responsible for healthcare regulation, an axis not included in the allowed healthcare poles.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

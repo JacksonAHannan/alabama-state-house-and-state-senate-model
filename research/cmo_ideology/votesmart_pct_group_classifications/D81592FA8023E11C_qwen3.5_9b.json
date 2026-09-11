@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_medicare_age_eligibility",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Allowing older adults to purchase Medicare eligibility earlier than the standard age is generally considered a progressive policy aimed at expanding access and reducing out-of-pocket costs for seniors.",
+  "evidence_quote": "k) Allow 55-65 year-olds to buy into Medicare.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

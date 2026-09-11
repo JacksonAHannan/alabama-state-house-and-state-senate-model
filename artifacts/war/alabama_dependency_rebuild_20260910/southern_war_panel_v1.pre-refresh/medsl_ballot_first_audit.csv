@@ -1,0 +1,52 @@
+state,year,status,source_path,selected_office,legislative_districts,baseline_districts,strict_baselines
+KY,2016,processed,data/raw/historical_statewide_elections/medsl_github/2016/2016-ky-precinct.zip,US PRESIDENT,25.0,119.0,119.0
+KY,2022,processed,data/raw/historical_statewide_elections/medsl_github/2022/2022-ky-local-precinct-general.zip,US SENATE,54.0,119.0,119.0
+MO,2022,processed,data/raw/historical_statewide_elections/medsl_github/2022/2022-mo-local-precinct-general.zip,US SENATE,80.0,180.0,180.0
+OK,2022,processed,data/raw/historical_statewide_elections/medsl_github/2022/2022-ok-local-precinct-general.zip,US SENATE,36.0,38.0,38.0
+SC,2022,processed,data/raw/historical_statewide_elections/medsl_github/2022/2022-sc-local-precinct-general.zip,US SENATE,50.0,124.0,124.0
+AR,2024,processed,data/raw/historical_statewide_elections/medsl_github/2024/ar24.zip,US PRESIDENT,54.0,118.0,118.0
+KY,2024,processed,data/raw/historical_statewide_elections/medsl_github/2024/ky24.zip,US PRESIDENT,51.0,119.0,119.0
+OK,2024,processed,data/raw/historical_statewide_elections/medsl_github/2024/ok24.zip,US PRESIDENT,34.0,43.0,43.0
+SC,2024,processed,data/raw/historical_statewide_elections/medsl_github/2024/sc24.zip,US PRESIDENT,69.0,170.0,170.0
+TN,2024,processed,data/raw/historical_statewide_elections/medsl_github/2024/tn24.zip,US PRESIDENT,70.0,115.0,115.0
+AL,2018,processed,data/raw/historical_statewide_elections/dataverse_files (3).zip,GOVERNOR,64.0,140.0,140.0
+AR,2018,processed,data/raw/historical_statewide_elections/dataverse_files (3).zip,GOVERNOR,47.0,55.0,55.0
+FL,2018,processed,data/raw/historical_statewide_elections/dataverse_files (3).zip,US SENATE,91.0,102.0,102.0
+GA,2018,processed,data/raw/historical_statewide_elections/dataverse_files (3).zip,GOVERNOR,91.0,234.0,234.0
+KY,2018,processed,data/raw/historical_statewide_elections/dataverse_files (3).zip,US HOUSE,100.0,119.0,119.0
+LA,2018,no_legislative_rows,data/raw/historical_statewide_elections/dataverse_files (3).zip,,,,
+MS,2018,no_legislative_rows,data/raw/historical_statewide_elections/dataverse_files (3).zip,,,,
+MO,2018,processed,data/raw/historical_statewide_elections/dataverse_files (3).zip,US SENATE,130.0,176.0,176.0
+NC,2018,processed,data/raw/historical_statewide_elections/dataverse_files (3).zip,US HOUSE,167.0,170.0,170.0
+OK,2018,processed,data/raw/historical_statewide_elections/dataverse_files (3).zip,GOVERNOR,91.0,92.0,92.0
+SC,2018,processed,data/raw/historical_statewide_elections/dataverse_files (3).zip,GOVERNOR,45.0,123.0,123.0
+TN,2018,processed,data/raw/historical_statewide_elections/dataverse_files (3).zip,US SENATE,85.0,116.0,116.0
+TX,2018,processed,data/raw/historical_statewide_elections/dataverse_files (3).zip,US SENATE,107.0,165.0,165.0
+VA,2018,no_legislative_rows,data/raw/historical_statewide_elections/dataverse_files (3).zip,,,,
+AL,2020,no_legislative_rows,data/raw/historical_statewide_elections/dataverse_files (2).zip,,,,
+AR,2020,processed,data/raw/historical_statewide_elections/dataverse_files (2).zip,US PRESIDENT,46.0,114.0,114.0
+FL,2020,processed,data/raw/historical_statewide_elections/dataverse_files (2).zip,US PRESIDENT,113.0,116.0,116.0
+GA,2020,processed,data/raw/historical_statewide_elections/dataverse_files (2).zip,US PRESIDENT,114.0,235.0,235.0
+KY,2020,processed,data/raw/historical_statewide_elections/dataverse_files (2).zip,US PRESIDENT,68.0,119.0,119.0
+LA,2020,no_legislative_rows,data/raw/historical_statewide_elections/dataverse_files (2).zip,,,,
+MS,2020,no_legislative_rows,data/raw/historical_statewide_elections/dataverse_files (2).zip,,,,
+MO,2020,processed,data/raw/historical_statewide_elections/dataverse_files (2).zip,US PRESIDENT,90.0,180.0,180.0
+NC,2020,processed,data/raw/historical_statewide_elections/dataverse_files (2).zip,US PRESIDENT,156.0,170.0,170.0
+OK,2020,processed,data/raw/historical_statewide_elections/dataverse_files (2).zip,US PRESIDENT,48.0,50.0,50.0
+SC,2020,processed,data/raw/historical_statewide_elections/dataverse_files (2).zip,US PRESIDENT,80.0,169.0,169.0
+TN,2020,processed,data/raw/historical_statewide_elections/dataverse_files (2).zip,US PRESIDENT,47.0,115.0,115.0
+TX,2020,processed,data/raw/historical_statewide_elections/dataverse_files (2).zip,US PRESIDENT,106.0,165.0,147.0
+VA,2020,no_legislative_rows,data/raw/historical_statewide_elections/dataverse_files (2).zip,,,,
+AL,2024,no_legislative_rows,data/raw/historical_statewide_elections/dataverse_files (1).zip,,,,
+AR,2024,no_two_party_ticket_context,data/raw/historical_statewide_elections/dataverse_files (1).zip,,,,
+FL,2024,no_two_party_ticket_context,data/raw/historical_statewide_elections/dataverse_files (1).zip,,,,
+GA,2024,no_two_party_ticket_context,data/raw/historical_statewide_elections/dataverse_files (1).zip,,,,
+KY,2024,no_two_party_ticket_context,data/raw/historical_statewide_elections/dataverse_files (1).zip,,,,
+LA,2024,no_legislative_rows,data/raw/historical_statewide_elections/dataverse_files (1).zip,,,,
+MO,2024,processed,data/raw/historical_statewide_elections/dataverse_files (1).zip,GOVERNOR,124.0,180.0,180.0
+MS,2024,no_legislative_rows,data/raw/historical_statewide_elections/dataverse_files (1).zip,,,,
+NC,2024,processed,data/raw/historical_statewide_elections/dataverse_files (1).zip,GOVERNOR,132.0,170.0,170.0
+OK,2024,no_two_party_ticket_context,data/raw/historical_statewide_elections/dataverse_files (1).zip,,,,
+SC,2024,no_two_party_ticket_context,data/raw/historical_statewide_elections/dataverse_files (1).zip,,,,
+TN,2024,no_two_party_ticket_context,data/raw/historical_statewide_elections/dataverse_files (1).zip,,,,
+TX,2024,no_two_party_ticket_context,data/raw/historical_statewide_elections/dataverse_files (1).zip,,,,

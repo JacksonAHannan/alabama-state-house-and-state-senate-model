@@ -1,0 +1,10 @@
+{
+  "id": "8FEB312CFDBA1E92",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Adding podiatrists and podiatric entities to statutory provider definitions is a definitional and technical change; its effect on malpractice liability is not sufficiently specified.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

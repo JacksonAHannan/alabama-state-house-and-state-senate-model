@@ -1,0 +1,11 @@
+{
+  "policy_key": "state_law_enforcement_funding",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Federal funding for state-level law enforcement (e.g., grants, equipment, training).",
+  "evidence_quote": "(No explicit federal funding level provided in the given option. This is a *state* category, not a federal one.)",
+  "needs_human_review": true,
+  "review_reason": "The question asks for federal funding levels (1\u20136), but this option refers to state-level law enforcement. If the candidate had selected a number here, it would require contextual interpretation: higher numbers (e.g., 5/6) might imply *more* federal support for state LE (often conservative-leaning in practice due to local control priorities), while lower numbers could signal caution or skepticism (progressive-leaning). However, the absence of a number means no scorable data exists."
+}

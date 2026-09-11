@@ -1,0 +1,10 @@
+{
+  "id": "398D26D18B430257",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Provides a narrow post-service health-insurance benefit for county commissioners, which is a local personnel benefit rather than a general healthcare policy.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

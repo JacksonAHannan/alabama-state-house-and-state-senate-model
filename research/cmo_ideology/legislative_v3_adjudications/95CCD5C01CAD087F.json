@@ -1,0 +1,10 @@
+{
+  "id": "95CCD5C01CAD087F",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "This is a technical/administrative measure focused on emergency response planning for sudden cardiac arrest, lacking clear policy direction on the allowed axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

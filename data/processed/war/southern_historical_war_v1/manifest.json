@@ -8,7 +8,7 @@
     "strict_training_status": "strict_war_ready_no_finance",
     "structural_alpha": 100.0,
     "structural_specification": "decaying_lag",
-    "upstream_model_run_id": "WAR-POST2016-V3-4AF79A70EAA8F39EBD49",
+    "upstream_model_run_id": "WAR-POST2016-V3-530FBD4238CC483E557C",
     "upstream_release_decision": "approved_for_descriptive_historical_use"
   },
   "diagnostics": {
@@ -28,7 +28,7 @@
     "excluded_incumbency_experimental": 151,
     "excluded_research_outcomes": 302,
     "finance_complete_races": 3635,
-    "formula_max_error": 1.4210854715202004e-14,
+    "formula_max_error": 1.0658141036401503e-14,
     "orientation_max_error": 0.0,
     "published_post2016_races": 3660,
     "scheduled_slices": 116,
@@ -108,49 +108,49 @@
       "scored_races": 142
     }
   },
-  "generated_at_utc": "2026-09-08T13:40:53.081460+00:00",
-  "historical_war_run_id": "WAR-SOUTH-HIST-V1-45EC0B380AAEA007C2DF",
+  "generated_at_utc": "2026-09-11T14:28:19.512278+00:00",
+  "historical_war_run_id": "WAR-SOUTH-HIST-V1-6D84680E7B757B057AF1",
   "inputs": {
-    "data/processed/elections/alabama_elections.sqlite": "8cb49945d657b0d928dee1bfdaa33d4729c5c8fbda5c51217d1cc55492ba03b5",
+    "data/processed/elections/alabama_elections.sqlite": "5d61aff3cb3f1fcbb459df61721f8366fe150b0058e5d037b20f2a441c1400a5",
     "data/processed/war/2022_wikipedia_vote_validation.csv": "9140169b2c80ca177f002848cf606641c3deb18fea9336e6ee2a448360739c70",
-    "data/processed/war/alabama_historical_war_v1/candidate_cycle_war.csv": "5d8cbbba523d77db56a76b3d76ebee004250554d5201436435354adc305d83ef",
-    "data/processed/war/post2016_southern_war_v3/manifest.json": "c6c09e19335965380e068c40484437bf460db81add232dc8d7cf78d135a905a6",
-    "data/processed/war/post2016_southern_war_v3/race_war.csv": "afe25d61789bc41c9d989615547291a706eae121540cd2569de1493a2190ccec",
+    "data/processed/war/alabama_historical_war_v1/candidate_cycle_war.csv": "aedb20e3f5f9c7d0de4c08527c357f14df2b96f872013b1177b13fad37302b4d",
+    "data/processed/war/post2016_southern_war_v3/manifest.json": "c879265a3e09af1fe1dd9793d3da816d6357e26336801a4267063cdbb8596d63",
+    "data/processed/war/post2016_southern_war_v3/race_war.csv": "cd0095ad902bc297c7b21cdef13e432f32ab27ccab9e29a08d002d9b374e3692",
     "data/processed/war/wikipedia_legislative_candidates.csv": "93fa2d64c43e763fd57a4f11d7094c2c0bac5cd904a84917d451779386fe9b63",
-    "project_docs/audits/SOUTHERN_V3_RELEASE_DECISION.json": "1b6a5c62cd92987c8004bdf26518c5edb4c5acb73f709207db9b5cd56c331263",
+    "project_docs/audits/SOUTHERN_V3_RELEASE_DECISION.json": "e5982bfb6ce7c7c4b490559c4aec800a197ebced192d3d5b336196691d6ba982",
     "project_docs/model/SOUTHERN_HISTORICAL_WAR_MAP_FIELD_CONTRACT.md": "29d9c12a4fa313175900b5e7169754d6ba4e69a257e959c166d9263672c7c159",
     "scripts/build_southern_historical_war_v1.py": "7ea809ba21a799fee65aab1571755915fd922bac03427f3ee5cc5ab63d00be4d",
     "scripts/retrain_post2016_southern_war.py": "ead76fb849c93043d380cff7d2a14eb2a7bca31944134af207acf7002d2e075d",
     "scripts/retrain_post2016_southern_war_v2.py": "9a52de7cd3043f8d8a57d07a39e5914d257af2ffc3ebe2da8f17b2c9e8f0a730",
     "scripts/southern_war_map_contract.py": "916e188d70070558051ebdad27cea48a3b7e3dbcf6cddd4e134acf37aaeb89ec",
-    "scripts/southern_war_release_gate.py": "7a3a0d79d22ccc86536b741fa0ddb104a89ba0ac73a833e17456f118ea2bb521"
+    "scripts/southern_war_release_gate.py": "865fb736375ba9bffd2078738fa12c59194d4fa641f442ae687847b4e79fc103"
   },
   "methodology_version": "southern_historical_war_v1",
   "outputs": [
     {
       "path": "data/processed/war/southern_historical_war_v1/race_war.csv",
       "rows": 4280,
-      "sha256": "1dbe273bb68c57132432963098648abca2bb0c42dbbc7bcc1737c8798c943ed9"
+      "sha256": "93c5cca65b943506d5adcce9df4171cd5c12138ba5078d081f0dd2cbf502716f"
     },
     {
       "path": "data/processed/war/southern_historical_war_v1/candidate_cycle_war.csv",
       "rows": 8560,
-      "sha256": "4158a1e310e114542baacd18c43273ea8e7b0dececd0ebfd0a2dd5ea7b6e9347"
+      "sha256": "d7860f42d4d06d0f614fdded0a980f9357a2d368a2897de8024f850119bbd333"
     },
     {
       "path": "data/processed/war/southern_historical_war_v1/structural_coefficients.csv",
       "rows": 35,
-      "sha256": "110133d1353af75cffea5bd2cfc948570e6db05ae248c0073bd5303a2e46ac88"
+      "sha256": "ec13dbb2b8a1f76746e39020ef2cadaec4bbb83398ce9513abfe54e5d2953a46"
     },
     {
       "path": "data/processed/war/southern_historical_war_v1/coverage.csv",
       "rows": 116,
-      "sha256": "b3f997f0ec9d5342d4a1896779994b2a13c4d7e57494c69666b80f5b4295fe00"
+      "sha256": "b7dc4b6c2cb1c0b6650ed418c3431dd4e070eacd54ec550fe82439e4c524ddcf"
     },
     {
       "path": "data/processed/war/southern_historical_war_v1/state_release_coverage.csv",
       "rows": 14,
-      "sha256": "460b62664bbe23c0877037f5cacfe8a4142116f4ca43c18a9a8f1add11746a88"
+      "sha256": "3dde61d953e4438d63d60cf7b48aefa1756bab8431970d35defb6a2260e091da"
     }
   ],
   "reports": [
@@ -160,15 +160,15 @@
     },
     {
       "path": "project_docs/model/SOUTHERN_HISTORICAL_WAR_V1.md",
-      "sha256": "00926c9c09dc3229b5d59b2f593e428757326a590407e3e1084273436a340f47"
+      "sha256": "46b28338a580e23f0fd51c4546d3844d5f75e16f4ed4a3cd3d9d6efe5bb5ee6f"
     },
     {
       "path": "project_docs/audits/SOUTHERN_HISTORICAL_WAR_V1_VALIDATION.md",
-      "sha256": "587eea7b5e2d26d1eeae87fd5b16ef4c7fb702bddfb8296ca00697a8a5b5db6b"
+      "sha256": "1f397229e1c8182bc1763d18483af6d920199508e94e35c3a1e9a4352c65183c"
     }
   ],
   "schema_version": 1,
-  "source_commit": "88878b973fdac3cee95a8d8648da321e38e0021c",
+  "source_commit": "720c3507b147bc0a7c048c4c84ab0262920802c1",
   "status": "validated_descriptive_historical_release",
-  "warehouse_build_run_id": "RUN-92AB8DE353AC47D6AECE3D7767C29FCD"
+  "warehouse_build_run_id": "RUN-504CE4C4DF904D88A5A40D268F3FCEAB"
 }

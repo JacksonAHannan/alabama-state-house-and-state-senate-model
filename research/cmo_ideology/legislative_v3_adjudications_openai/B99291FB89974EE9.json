@@ -1,0 +1,10 @@
+{
+  "id": "B99291FB89974EE9",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The description only states that industrial development board powers are amended, without enough detail to identify a permitted policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

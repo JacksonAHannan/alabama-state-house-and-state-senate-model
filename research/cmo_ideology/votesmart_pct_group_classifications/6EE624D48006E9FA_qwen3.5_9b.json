@@ -1,0 +1,11 @@
+{
+  "policy_key": "affirmative_action_private_sector_prosecution",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option calls for federal prosecution of discrimination in the private sector rather than implementing affirmative action preferences.",
+  "evidence_quote": "c) The federal government should prosecute cases of discrimination in the private sector.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

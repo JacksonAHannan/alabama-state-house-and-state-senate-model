@@ -1,0 +1,10 @@
+{
+  "id": "0AB1D66F7DA2E728",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Authorizing a county jail commissary and prescribing financial procedures is an administrative correctional measure without a clear permitted punishment or incarceration pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

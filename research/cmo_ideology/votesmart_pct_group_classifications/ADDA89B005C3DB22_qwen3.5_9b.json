@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_income_tax_bracket",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option specifies a tax bracket range without indicating support for raising or lowering rates within that band.",
+  "evidence_quote": "$25,000 - $75,000",
+  "needs_human_review": false,
+  "review_reason": ""
+}

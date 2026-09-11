@@ -1,0 +1,24 @@
+{
+  "primary_domain": "education",
+  "policy_key": "education_governance",
+  "plain_english_policy": "support_common_core_state_standards",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "The Common Core State Standards initiative is a policy mechanism that involves the national government influencing education standards, which can be seen as an intervention in market governance."
+    },
+    {
+      "axis": "education_governance",
+      "pole": "public_system",
+      "strength": "primary",
+      "rationale": "The Common Core State Standards initiative is implemented through a public system of education standards, indicating that the policy mechanism prioritizes public provision over market choice."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I support the national Common Core State Standards initiative because it provides consistent educational standards across states and prepares students for college and careers.\" - [Source: Candidate's Statement on Education Issues, 2014]",
+  "needs_human_review": false,
+  "review_reason": ""
+}

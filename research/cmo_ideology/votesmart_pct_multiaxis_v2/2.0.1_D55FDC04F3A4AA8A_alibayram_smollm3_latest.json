@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "family_support_enforcement",
+  "plain_english_policy": "Support marriage promotion programs for welfare recipients.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Marriage promotion programs may restrict access to certain benefits or services for unmarried individuals."
+    },
+    {
+      "axis": "family_support_enforcement",
+      "pole": "strict_enforcement",
+      "strength": "primary",
+      "rationale": "Supporting marriage promotion could lead to stricter enforcement of family support policies, particularly those related to child custody and visitation rights."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I believe that promoting stable marriages can help reduce poverty among families.\" - [Source: Candidate's Statement on Welfare Policy]\" (verbatim substring of the source text).",
+  "needs_human_review": true,
+  "review_reason": ""
+}

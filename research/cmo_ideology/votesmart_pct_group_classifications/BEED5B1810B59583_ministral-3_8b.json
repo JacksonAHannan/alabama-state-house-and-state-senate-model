@@ -1,0 +1,11 @@
+{
+  "policy_key": "unemployment_job_training_funding",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase government spending on national job-training programs to improve workforce skills and employment opportunities.",
+  "evidence_quote": "Increase funding for national job-training programs.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

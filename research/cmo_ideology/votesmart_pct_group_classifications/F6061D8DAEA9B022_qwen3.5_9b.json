@@ -1,0 +1,11 @@
+{
+  "policy_key": "us_military_force_north_korea",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks whether the US should use military force against North Korea's nuclear program. This is a specific foreign policy action question rather than an ideological principle.",
+  "evidence_quote": "Should the United States use military force to destroy the North Korean nuclear weapons program?",
+  "needs_human_review": true,
+  "review_reason": "This option presents a binary choice on a specific military intervention. While such interventions are often associated with conservative foreign policy (interventionism), they can also be framed as progressive humanitarian or non-proliferation actions depending on the candidate's stated rationale and context. Without additional text explaining their reasoning, assigning a stable ideological direction is speculative."
+}

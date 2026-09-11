@@ -1,0 +1,11 @@
+{
+  "policy_key": "legislative_priorities_question",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "",
+  "evidence_quote": "In the following area, please explain in a total of 100 words or less, your top legislative priority and how you plan to fund it.",
+  "needs_human_review": true,
+  "review_reason": "The text is an open-ended prompt asking for candidate input rather than stating a specific policy position. It contains no ideological content itself."
+}

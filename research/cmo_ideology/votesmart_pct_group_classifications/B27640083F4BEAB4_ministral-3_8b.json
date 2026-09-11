@@ -1,0 +1,11 @@
+{
+  "policy_key": "earned_income_tax_credit",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Expansion of refundable tax credits for low-income workers (EITC).",
+  "evidence_quote": "c) Earned income tax credit",
+  "needs_human_review": false,
+  "review_reason": ""
+}

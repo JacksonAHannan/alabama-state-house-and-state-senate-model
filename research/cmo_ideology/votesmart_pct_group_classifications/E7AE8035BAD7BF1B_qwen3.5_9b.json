@@ -1,0 +1,11 @@
+{
+  "policy_key": "spending_space_exploration",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Supports federal spending on space exploration.",
+  "evidence_quote": "j) Space exploration",
+  "needs_human_review": true,
+  "review_reason": "Generic option label without specific tax/spending level selection or ideological framing."
+}

@@ -1,0 +1,30 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "energy_infrastructure_funding",
+  "plain_english_policy": "State government should allocate public funds to upgrade or expand Alabama\u2019s energy systems (e.g., power grids, transmission lines, renewable/non-renewable facilities).",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "resource_development",
+      "pole": "expand",
+      "strength": "secondary",
+      "rationale": "Funding infrastructure implicitly supports energy production (e.g., fossil fuel plants, renewables) by enabling scale and reliability. No explicit distinction between sources is made."
+    },
+    {
+      "axis": "resource_management",
+      "pole": "active_management",
+      "strength": "primary",
+      "rationale": "Infrastructure upgrades require coordinated oversight (e.g., grid modernization, permitting) to integrate new resources or maintain existing ones. Directly implies state intervention in energy systems."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "primary",
+      "rationale": "Explicit mention of *state funding* for infrastructure delivery, not private investment or market mechanisms."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Do you support **state funding** for improvements to Alabama's energy infrastructure?\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

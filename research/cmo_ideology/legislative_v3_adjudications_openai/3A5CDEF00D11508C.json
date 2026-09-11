@@ -1,0 +1,10 @@
+{
+  "id": "3A5CDEF00D11508C",
+  "decision": "map",
+  "primitive_axis": "incarceration",
+  "policy_pole": "reduce",
+  "confidence": "high",
+  "rationale": "Permits resentencing of individuals sentenced under the habitual felony offender law, directly creating a mechanism to reduce existing incarceration consequences.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

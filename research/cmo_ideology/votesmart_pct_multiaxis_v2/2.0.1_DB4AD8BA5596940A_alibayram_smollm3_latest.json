@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "redirect_welfare_funding",
+  "plain_english_policy": "Redirecting welfare funding to faith-based and community-based private organizations.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Restricting the direct government provision of welfare by redirecting funds to private organizations."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "private_provision",
+      "strength": "primary",
+      "rationale": "Shifting funding from public to private entities for welfare services."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Redirecting welfare funding to faith-based and community-based private organizations.\" - Source: [2002 Alabama Candidate Questionnaire, Section: Welfare and Poverty Issues]",
+  "needs_human_review": true,
+  "review_reason": "The policy is described as redirecting funds from public to private entities for welfare services."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "9B8E77A226FB79F5",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns Ethics Commission appointments, investigations, subpoenas, referrals, and penalties, which do not map clearly to the allowed axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

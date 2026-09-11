@@ -1,0 +1,18 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "conservation_preservation",
+  "plain_english_policy": "Support funding for open space preservation.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "conservation_preservation",
+      "pole": "preserve",
+      "strength": "primary",
+      "rationale": "Supporting funding for open space preservation aligns with the principle of preserving natural spaces and ecosystems."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Support funding for open space preservation.\" - Source: Year: 2006, Section: Environment & Energy Issues, Question: Indicate which principles you support (if any) regarding the environment and energy. Option: e)",
+  "needs_human_review": true,
+  "review_reason": "The policy is described as supporting funding for open space preservation, but it does not specify how this would be implemented or what specific areas of conservation are prioritized.; invalid pole 'preserve' for environmental_protection"
+}

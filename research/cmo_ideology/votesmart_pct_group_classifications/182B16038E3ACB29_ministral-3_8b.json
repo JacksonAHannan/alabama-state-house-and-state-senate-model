@@ -1,0 +1,11 @@
+{
+  "policy_key": "online_voter_registration",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Expanding access to voting via digital means (e.g., online registration).",
+  "evidence_quote": "*[No direct quote provided in the option text, but this is a standard progressive policy\u2014typically associated with increasing voter participation and accessibility.]*",
+  "needs_human_review": false,
+  "review_reason": "The policy\u2019s ideological leaning is widely documented (see: League of Women Voters, NCSL reports)."
+}

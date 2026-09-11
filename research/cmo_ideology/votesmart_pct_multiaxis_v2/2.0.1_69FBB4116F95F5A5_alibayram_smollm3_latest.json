@@ -1,0 +1,18 @@
+{
+  "primary_domain": "criminal_justice",
+  "policy_key": "abortion_access",
+  "plain_english_policy": "Decriminalization of marijuana for medical purposes.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "The decriminalization of marijuana for medicinal purposes could be seen as an expansion in the scope of acceptable medical practices."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I support decriminalization of marijuana for medicinal purposes.\" - Candidate statement in the questionnaire.",
+  "needs_human_review": true,
+  "review_reason": "The policy is described as a form of criminal justice reform, but its primary domain and key are classified under abortion_access due to potential overlap with broader social policies.; invalid pole 'restrictive' for criminal_punishment"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "immigration_terrorist_screening",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Expands federal power to block entry for individuals suspected of terrorism-related ties.",
+  "evidence_quote": "Grant broader authority to the US Immigration and Naturalization Service to deny entrance visas to terrorist suspects.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

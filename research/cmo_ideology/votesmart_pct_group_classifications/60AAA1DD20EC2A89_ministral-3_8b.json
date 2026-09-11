@@ -1,0 +1,11 @@
+{
+  "policy_key": "abortion_access",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "medium",
+  "plain_english_policy": "Oppose federal funding for abortion and advocate for stricter state-level restrictions, including bans in most cases.",
+  "evidence_quote": "**I will work to protect life by ensuring that no federal funds are used for abortions and that Congress supports policies that reduce abortion rates through adoption support, crisis pregnancy centers, and education about alternatives.**",
+  "needs_human_review": true,
+  "review_reason": "This option aligns with a conventional progressive stance on reproductive rights (e.g., supporting access to abortion) only if the candidate\u2019s broader platform includes protections for abortion rights. However, the quoted language here explicitly ties to restricting federal funding and promoting anti-abortion policies\u2014classic conservative framing."
+}

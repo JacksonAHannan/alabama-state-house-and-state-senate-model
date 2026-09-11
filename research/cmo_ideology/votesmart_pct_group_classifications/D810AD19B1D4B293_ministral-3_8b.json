@@ -1,0 +1,11 @@
+{
+  "policy_key": "yugoslavia_troop_deployment",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Deployment of US troops to the former Yugoslavia (e.g., during the 1990s Balkan Wars).",
+  "evidence_quote": "Do you support the deployment of US troops to the former Yugoslavia?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

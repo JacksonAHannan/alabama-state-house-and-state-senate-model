@@ -1,0 +1,10 @@
+{
+  "id": "3DA3938A55027BA1",
+  "decision": "map",
+  "primitive_axis": "election_integrity_controls",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Prohibiting campaign contributions between certain committees strengthens controls on election financing, aligning with 'strengthen' on integrity.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

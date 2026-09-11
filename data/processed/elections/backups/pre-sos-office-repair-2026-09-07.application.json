@@ -1,0 +1,9 @@
+{
+  "warehouse_status": "committed",
+  "build_run_id": "RUN-38DC9E26D9E24097A415038621E293EE",
+  "qa_issue_id": "SOSOFFICE-668570F62509C603C27FD2F7",
+  "changed_rows": 292,
+  "ambiguous_rows_unchanged": 22,
+  "audit": "project_docs/audits/SOS_OFFICE_REPAIR_2026_09_07.json",
+  "recovery": "Preserve this before-image. Do not blindly reapply or overwrite the live warehouse. Inspect the committed run and QA evidence first."
+}

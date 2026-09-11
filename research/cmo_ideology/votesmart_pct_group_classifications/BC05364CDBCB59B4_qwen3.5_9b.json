@@ -1,0 +1,11 @@
+{
+  "policy_key": "medicare_prescription_drug_coverage",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting expanded Medicare prescription drug coverage is a progressive policy position.",
+  "evidence_quote": "l) Support legislation to provide prescription drug coverage under Medicare.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,43 @@
+{
+  "contract_version": 2,
+  "build_run_id": "RUN-971118910F5E4DF68E316573C3AAABB2",
+  "pipeline": "scripts/build_mississippi_2012_partial_plan_allocations.py",
+  "alias_source_file_id": "RDH-VEST-2019-MS-PRECINCT",
+  "validation": {
+    "result_rows": 1867,
+    "matched_rows": 1733,
+    "unresolved_rows": 134,
+    "district_rows": 174,
+    "passed_districts": 68,
+    "review_districts": 106,
+    "alias_source_file_id": "RDH-VEST-2019-MS-PRECINCT",
+    "cells": [
+      {
+        "chamber": "lower",
+        "districts": 122,
+        "passed_districts": 49,
+        "review_districts": 73,
+        "unallocated_two_party_votes": 59892.0,
+        "ambiguous_plan_blocks_resolved": 0,
+        "intersection_plan_blocks_resolved": 0,
+        "unmatched_plan_positive_vap": 0.0,
+        "total_positive_vap": 2246927.0,
+        "max_donor_weight_error": 1.1102230246251565e-16,
+        "fallback_donors": 4
+      },
+      {
+        "chamber": "upper",
+        "districts": 52,
+        "passed_districts": 19,
+        "review_districts": 33,
+        "unallocated_two_party_votes": 41519.0,
+        "ambiguous_plan_blocks_resolved": 0,
+        "intersection_plan_blocks_resolved": 0,
+        "unmatched_plan_positive_vap": 0.0,
+        "total_positive_vap": 2246927.0,
+        "max_donor_weight_error": 0.0,
+        "fallback_donors": 4
+      }
+    ]
+  }
+}

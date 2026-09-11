@@ -1,0 +1,10 @@
+{
+  "id": "8C249B869542D780",
+  "decision": "map",
+  "primitive_axis": "healthcare_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Requiring Medicaid coverage for breast reconstruction surgery explicitly expands access to a specific healthcare service, aligning with the 'expand' pole on healthcare access.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

@@ -41,6 +41,15 @@ def main() -> None:
             break
     contradictions = (mapped.groupby(["canonical_rollcall_id", "primitive_axis"])
                       .policy_pole.nunique().gt(1).sum())
+    # An "insufficient_text" bill must be retained as an explicit non-scoring
+    # disposition: it carries no axis or pole. The count is not fixed (the full
+    # Luna bill-corpus pass yields far more than the two the earlier hand-curated
+    # file happened to contain), so this checks the structural invariant, not a
+    # pinned total.
+    insufficient = manual[manual.decision.eq("insufficient_text")]
+    insufficient_scoring_leak = int(
+        (insufficient.primitive_axes.fillna("").astype(str).str.strip().ne("")
+         | insufficient.policy_poles.fillna("").astype(str).str.strip().ne("")).sum())
     results = [
         check("every_archive_bill_has_one_terminal_disposition",
               archive.bill_id.is_unique and set(archive.bill_id) == set(bills.bill_id)
@@ -76,8 +85,8 @@ def main() -> None:
               not candidate.duplicated(["canonical_candidate_id", "election_cycle", "primitive_axis"]).any(),
               f"profiles={len(candidate)}"),
         check("explicit_insufficient_text_retained",
-              manual.decision.eq("insufficient_text").sum() == 2,
-              f"bill_unknowns={manual.decision.eq('insufficient_text').sum()}"),
+              insufficient_scoring_leak == 0,
+              f"insufficient_text_bills={len(insufficient)} scoring_leak={insufficient_scoring_leak}"),
     ]
     result = pd.DataFrame(results)
     OUT.parent.mkdir(parents=True, exist_ok=True)

@@ -1,0 +1,10 @@
+{
+  "id": "F43335EACDF47045",
+  "decision": "map",
+  "primitive_axis": "education_curriculum_traditionalism",
+  "policy_pole": "pluralist",
+  "confidence": "high",
+  "rationale": "The bill explicitly designates American Sign Language (ASL) as a foreign language for curriculum requirements, expanding access to non-traditional linguistic education. This aligns with a pluralist curriculum stance by including marginalized or minority languages in public school offerings.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

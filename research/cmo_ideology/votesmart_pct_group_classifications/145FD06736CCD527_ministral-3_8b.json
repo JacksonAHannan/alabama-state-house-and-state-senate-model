@@ -1,0 +1,11 @@
+{
+  "policy_key": "logging_restrictions_federal_lands",
+  "dimension": "environment_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Ease or remove restrictions on timber harvesting in national forests and other federal lands.",
+  "evidence_quote": "Relax logging restrictions on federal lands.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

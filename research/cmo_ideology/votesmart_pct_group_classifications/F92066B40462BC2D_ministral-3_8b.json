@@ -1,0 +1,11 @@
+{
+  "policy_key": "critical_infrastructure_security",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase state funding to enhance security at critical infrastructure (e.g., power grids, water systems) against terrorist threats.",
+  "evidence_quote": "n) Increase state funding for additional security of critical infrastructure against terrorist attacks.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

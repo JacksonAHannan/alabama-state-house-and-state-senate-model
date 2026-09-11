@@ -1,0 +1,11 @@
+{
+  "policy_key": "charitable_deductions",
+  "dimension": "indeterminate",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Whether to allow or expand tax deductions for charitable donations.",
+  "evidence_quote": "(No clear left/right leaning implied in the raw option; context-dependent.)\n\n'Charitable deductions' (Option h) \u2014 *No explicit ideological signal*",
+  "needs_human_review": true,
+  "review_reason": "Tax deduction policies often reflect mixed or context-specific stances (e.g., progressive support for social welfare via deductions, conservative support for reducing tax burdens)."
+}

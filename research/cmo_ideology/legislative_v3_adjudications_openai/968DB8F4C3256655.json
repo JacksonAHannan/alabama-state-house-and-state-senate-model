@@ -1,0 +1,10 @@
+{
+  "id": "968DB8F4C3256655",
+  "decision": "map",
+  "primitive_axis": "due_process",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Expands required notice of parole hearings to victims, families, prosecutors, judges, and certain police chiefs.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "foreign_policy_military_force",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option restricts military force to defense of borders or citizens.",
+  "evidence_quote": "Option: c) The US should use military force only when the US border or territories are attacked or American citizens are in danger.",
+  "needs_human_review": true,
+  "review_reason": "This is a procedural/defensive stance common across both conservative and progressive frameworks; it lacks specific ideological direction regarding foreign aid principles listed in other options (8-10). It does not support or oppose the specific questionnaire items about Russia/Soviet republics aid but sets a general constraint on force."
+}

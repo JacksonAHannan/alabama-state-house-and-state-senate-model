@@ -1,0 +1,11 @@
+{
+  "policy_key": "gatt_support",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Support for the General Agreement on Tariffs and Trade (GATT) generally aligns with free trade principles, which are conventionally progressive in economic policy discourse.",
+  "evidence_quote": "Do you support the General Agreement on Tariffs and Trade (GATT)?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

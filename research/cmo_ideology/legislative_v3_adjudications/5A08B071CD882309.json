@@ -1,0 +1,10 @@
+{
+  "id": "5A08B071CD882309",
+  "decision": "map",
+  "primitive_axis": "incarceration",
+  "policy_pole": "reduce",
+  "confidence": "high",
+  "rationale": "The bill shortens probation/parole periods for nonviolent offenses, provides alternative punishments upon revocation (e.g., home detention/work release without time credit), and eliminates half-credit for time served on home detention. These changes collectively reduce incarceration duration or reliance.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "AC7A9F2E5DA12BBA",
+  "decision": "map",
+  "primitive_axis": "voting_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Allows emergency authorization of absentee voting for first responders.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

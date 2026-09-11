@@ -1,0 +1,11 @@
+{
+  "policy_key": "us_un_debt_payment",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option calls for the U.S. to pay its existing debt obligations to the United Nations.",
+  "evidence_quote": "d) The U.S. should pay its debt to the United Nations.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "4A3FE5AB5F10A7CC",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Modifies public employee retirement benefits and contributions, which is administrative and does not map to an allowed criminal-justice policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

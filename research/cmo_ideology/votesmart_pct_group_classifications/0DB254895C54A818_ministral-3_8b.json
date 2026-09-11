@@ -1,0 +1,11 @@
+{
+  "policy_key": "fema_funding",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Federal funding for FEMA (Federal Emergency Management Agency) disaster relief and recovery programs.",
+  "evidence_quote": "FEMA: **6** (Highest level)",
+  "needs_human_review": false,
+  "review_reason": ""
+}

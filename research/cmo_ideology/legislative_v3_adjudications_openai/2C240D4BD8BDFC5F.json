@@ -1,0 +1,10 @@
+{
+  "id": "2C240D4BD8BDFC5F",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Regulates solid-waste disposal and includes incidental enforcement penalties; it is not a concrete measure on the allowed criminal-justice axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

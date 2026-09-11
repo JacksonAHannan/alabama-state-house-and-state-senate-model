@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "expansion",
+  "plain_english_policy": "Medicaid Expansion",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "The question asks for support of Medicaid expansion."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Do you support Medicaid expansion through Alabama's health care programs?",
+  "needs_human_review": false,
+  "review_reason": "The question asks for support of Medicaid expansion."
+}

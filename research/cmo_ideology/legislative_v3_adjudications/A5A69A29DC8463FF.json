@@ -1,0 +1,10 @@
+{
+  "id": "A5A69A29DC8463FF",
+  "decision": "map",
+  "primitive_axis": "healthcare_public_responsibility",
+  "policy_pole": "public_responsibility",
+  "confidence": "high",
+  "rationale": "The measure establishes treble damages and civil penalties for fraudulent Medicaid claims, mandates Attorney General-led investigations, and prohibits employer retaliation\u2014all of which increase state oversight and enforcement in healthcare fraud. This aligns with a **public_responsibility** stance under *healthcare_public_responsibility*.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

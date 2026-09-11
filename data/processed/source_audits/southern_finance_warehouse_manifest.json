@@ -1,0 +1,43 @@
+{
+  "contract_version": 1,
+  "pipeline": "scripts/load_southern_finance_warehouse.py",
+  "build_run_id": "RUN-133197C8B7B94F21A2939B438EDAF692",
+  "generated_at_utc": "2026-09-02T03:26:29.435374+00:00",
+  "code_sha256": "bf387e4e340192032c81500b48fa9552f6bdfa8677b21113eef78381708b2ece",
+  "configuration": {
+    "cycle_window": "2016-2024",
+    "smoothing_dollars": 1000.0,
+    "incumbency_role": "positive_identity_evidence_only",
+    "finance_identity_adjudications": "data/manual/finance/southern_finance_identity_adjudications.csv"
+  },
+  "validation": {
+    "manifest_source_files": 20083,
+    "supplemental_upstream_files": 2,
+    "source_candidate_rows": 12559,
+    "observed_source_candidates": 10841,
+    "accepted_identity_matches": 12532,
+    "review_identity_matches": 24,
+    "unmatched_identity_rows": 3,
+    "candidate_mart_rows": 12532,
+    "observed_candidate_mart_rows": 10820,
+    "race_mart_rows": 7976,
+    "finance_complete_races": 3908,
+    "incumbency_evidence_rows": 9536,
+    "workbook_incumbency_evidence_rows": 140,
+    "warehouse_historical_incumbency_evidence_rows": 5356,
+    "generated_incumbency_evidence_rows": 4040,
+    "incumbency_evidence_2016_2024": 9396,
+    "incumbency_supported_matches": 5693,
+    "unresolved_provider_lineage_paths": 206,
+    "scope_mismatch_rows": 0,
+    "observed_rows_missing_total": 0,
+    "complete_races_missing_required_values": 0,
+    "foreign_key_violations": 0
+  },
+  "outputs": [
+    "data/processed/finance/southern_warehouse_candidate_finance.csv",
+    "data/processed/finance/southern_warehouse_race_finance.csv",
+    "data/processed/source_audits/southern_finance_warehouse_coverage.csv",
+    "data/processed/source_audits/southern_finance_warehouse_identity_review.csv"
+  ]
+}

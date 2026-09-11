@@ -1,0 +1,10 @@
+{
+  "id": "97BB4639712F0B7A",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "punitive",
+  "confidence": "high",
+  "rationale": "Creates a new assault-related criminal offense for intentionally exposing corrections officers or prison employees to human excrement.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

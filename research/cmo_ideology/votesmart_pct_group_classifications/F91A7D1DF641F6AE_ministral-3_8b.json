@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_internet_gambling_regulation",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Whether the federal government should have authority to control or restrict online gambling activities.",
+  "evidence_quote": "*[No direct quote provided in your input, but conventionally this position is associated with progressive/liberal stances that favor stronger public oversight of industries perceived as harmful (e.g., gambling) for consumer protection and social welfare.*]",
+  "needs_human_review": true,
+  "review_reason": "The option lacks a candidate\u2019s explicit wording, so the classification relies on conventional alignment with progressive policy trends."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "A7C55482F8728149",
+  "decision": "map",
+  "primitive_axis": "abortion_access",
+  "policy_pole": "restrict",
+  "confidence": "high",
+  "rationale": "Opting out of authorizing abortion coverage by exchange participating health plans restricts access to abortion services.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

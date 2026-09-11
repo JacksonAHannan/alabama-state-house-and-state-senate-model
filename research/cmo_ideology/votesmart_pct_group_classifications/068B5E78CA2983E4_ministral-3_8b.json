@@ -1,0 +1,11 @@
+{
+  "policy_key": "abortion_buffer_zones",
+  "dimension": "abortion_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Protects access to abortion clinics by restricting protester encroachment.",
+  "evidence_quote": "Support 'buffer zones' by requiring demonstrators to stay at least 15 feet away from abortion clinic doorways and driveways.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

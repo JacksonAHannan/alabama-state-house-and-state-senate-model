@@ -1,0 +1,11 @@
+{
+  "policy_key": "un_peacekeeping_vital_interests",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The candidate opposes unconditional U.S. participation in UN peacekeeping missions unless they directly serve vital American national interests.",
+  "evidence_quote": "a) The U.S. should participate in United Nations peacekeeping missions only when vital U.S. interests are involved.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

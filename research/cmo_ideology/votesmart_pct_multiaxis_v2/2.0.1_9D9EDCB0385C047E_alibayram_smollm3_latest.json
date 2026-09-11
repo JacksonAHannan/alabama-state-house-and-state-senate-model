@@ -1,0 +1,24 @@
+{
+  "primary_domain": "education",
+  "policy_key": "childcare_delivery",
+  "plain_english_policy": "Support state-funded merit scholarships for Alabama students to attend college in Alabama.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "Merit scholarships are an expansion of educational opportunities for students."
+    },
+    {
+      "axis": "business_scale_alignment",
+      "pole": "small_business",
+      "strength": "primary",
+      "rationale": "Supporting state-funded merit scholarships is likely to benefit small businesses in Alabama by providing a more educated workforce."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I support state-funded merit scholarships for Alabama students to attend college in Alabama.\" - Candidate's statement on education policy.",
+  "needs_human_review": true,
+  "review_reason": "The quote is a verbatim substring of the source and directly states the candidate's position."
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "build_id": "fd2eb9662a0190c1c7a0",
+  "code_commit": "ce5978cc83d4d145606b4268838ac6d656a1f34a",
+  "pipeline": "scripts/build_heda_historical_precinct_staging.py",
+  "source_cutoff": "2012",
+  "sources": [
+    {
+      "provider": "Harvard Election Data Archive",
+      "title": "Precinct-Level Election Data, Version 1.0",
+      "documentation_date": "2014-01-20",
+      "landing_url": "http://projects.iq.harvard.edu/eda/",
+      "local_path": "data/raw/historical_statewide_elections/dataverse_files (4).zip",
+      "sha256": "49fbe39c7e2d3a2ba07cdd42d2092a297a9f8892a95f6f5fb45748b6e4079bdc",
+      "local_file_mtime_utc": "2026-08-22T06:35:32.036939+00:00",
+      "retrieval_timestamp_status": "local_file_mtime_only",
+      "license": "not_identified_in_embedded_documentation",
+      "geographic_vintage": "state-year fields documented in embedded heda_docs.pdf"
+    },
+    {
+      "provider": "Klarner State Legislative Election Returns",
+      "title": "SLER contest archive through 2022",
+      "local_path": "data/raw/historical_statewide_elections/dataverse_files.zip",
+      "sha256": "b4c0913fa7bfb0aff4da2dbf67a22da696e9f07b45615f30e78127edd794a3e1",
+      "local_file_mtime_utc": "2026-08-19T06:46:35.693224+00:00",
+      "retrieval_timestamp_status": "local_file_mtime_only",
+      "license": "not_recorded_by_this_pipeline"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "data/processed/precinct_history/heda/florida_2010_legislative_district_totals.csv",
+      "bytes": 10668,
+      "sha256": "7da25a27c617ea9eafd7f96caf23c06b4349672b3743992a7d65306898ef9670"
+    },
+    {
+      "path": "data/processed/precinct_history/heda/florida_2010_legislative_precinct_fragments.csv",
+      "bytes": 2429842,
+      "sha256": "814f62f51981cfff5c29586cc2767bde33c2276403c383a3a2f5b66cbac93bda"
+    },
+    {
+      "path": "data/processed/precinct_history/heda/heda_klarner_district_reconciliation.csv",
+      "bytes": 505005,
+      "sha256": "71e595dbf872f4e67d4702d179fa6966b96282b166b43ee0f0e3fe02b46bb61f"
+    },
+    {
+      "path": "data/processed/precinct_history/heda/heda_legislative_district_totals.csv",
+      "bytes": 301724,
+      "sha256": "3b37f8d428c2ad399d40eb8ca90a8444567c99dff7187f37bf6f555ecc1bbc08"
+    },
+    {
+      "path": "data/processed/precinct_history/heda/heda_legislative_precinct_fragments.csv.gz",
+      "bytes": 3319758,
+      "sha256": "14b5545c19a771f270f28750101a5b3751b95a6b5276f7a619f1ae334ebda7c8"
+    },
+    {
+      "path": "data/processed/precinct_history/heda/heda_precinct_context.csv.gz",
+      "bytes": 25674008,
+      "sha256": "36a9274b3ba9953b58b397ffc37f0b92b2cd1d5268c5f9fe908e3d1864b65764"
+    },
+    {
+      "path": "data/processed/precinct_history/heda/heda_state_year_coverage.csv",
+      "bytes": 7935,
+      "sha256": "e266740fe9896c4a9ea17147c85f4403f343932c6dff1bfd53bf8df70d897806"
+    }
+  ],
+  "row_counts": {
+    "coverage": 85,
+    "legislative_fragments": 240160,
+    "context": 1777718,
+    "districts": 4867,
+    "reconciliation": 4867,
+    "florida_2010_fragments": 13640
+  },
+  "authority_policy": "HEDA and Klarner remain conflicting secondary observations; official returns outrank both.",
+  "missing_value_policy": "Missing source observations remain missing and are never silently converted to zero."
+}

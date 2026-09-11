@@ -1,0 +1,10 @@
+{
+  "id": "408A68966BD77453",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Amends sheriff authority to sell firearms to licensed dealers, expanding access to lawful gun purchasers.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

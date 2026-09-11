@@ -1,0 +1,10 @@
+{
+  "id": "26994C43F8F31701",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "This extensive corrections package contains numerous changes to penalties, release, supervision, treatment, and sanctions, creating an omnibus and mixed-direction measure.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,18 @@
+{
+  "primary_domain": "business",
+  "policy_key": "market_governance",
+  "plain_english_policy": "Support for independent and/or bipartisan commissions for redistricting.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "primary",
+      "rationale": "The policy directly supports a market-based solution to redistricting by advocating for an independent commission."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Do you support the use of an independent AND/OR bipartisan commission for redistricting?",
+  "needs_human_review": false,
+  "review_reason": "The policy directly supports a market-based solution to redistricting by advocating for an independent commission."
+}

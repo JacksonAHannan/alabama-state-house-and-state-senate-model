@@ -1,0 +1,10 @@
+{
+  "id": "175BBB723E50BFA8",
+  "decision": "map",
+  "primitive_axis": "medicaid_structure",
+  "policy_pole": "managed_care",
+  "confidence": "high",
+  "rationale": "The measure expressly authorizes delivery of Medicaid services through regional care organizations, a managed-care structure.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

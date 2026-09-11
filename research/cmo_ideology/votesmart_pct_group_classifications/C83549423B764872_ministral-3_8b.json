@@ -1,0 +1,11 @@
+{
+  "policy_key": "terrorism_authority_limits",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Reduce federal power to investigate terrorism suspects.",
+  "evidence_quote": "Maintain limits on the authority of federal agencies investigating suspected terrorists.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

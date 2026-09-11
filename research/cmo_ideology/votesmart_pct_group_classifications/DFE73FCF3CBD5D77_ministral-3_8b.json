@@ -1,0 +1,11 @@
+{
+  "policy_key": "firearms_liability_immunity",
+  "dimension": "guns_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Protect gun industry from being sued by crime victims.",
+  "evidence_quote": "Support legislation that would protect manufacturers, distributors, dealers, and importers of firearms from civil lawsuits by crime victims.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

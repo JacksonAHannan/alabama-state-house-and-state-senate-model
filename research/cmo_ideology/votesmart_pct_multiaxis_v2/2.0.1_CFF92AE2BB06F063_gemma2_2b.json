@@ -1,0 +1,24 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "resource_management",
+  "plain_english_policy": "Use state funds to clean up former industrial and commercial sites that are contaminated, unused or abandoned.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "environmental_protection",
+      "pole": "strengthen",
+      "strength": "secondary",
+      "rationale": "The policy directly addresses environmental contamination and cleanup."
+    },
+    {
+      "axis": "conservation_preservation",
+      "pole": "preserve",
+      "strength": "primary",
+      "rationale": "The policy aims to prevent further environmental damage by cleaning up abandoned sites."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Use state funds to clean up former industrial and commercial sites that are contaminated, unused or abandoned.",
+  "needs_human_review": false,
+  "review_reason": "The policy directly addresses environmental cleanup."
+}

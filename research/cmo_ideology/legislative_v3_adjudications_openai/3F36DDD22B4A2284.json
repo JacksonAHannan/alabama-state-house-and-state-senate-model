@@ -1,0 +1,10 @@
+{
+  "id": "3F36DDD22B4A2284",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Reorganizes legislative committees and advisory bodies, making it an administrative institutional measure rather than a concrete healthcare-policy change.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

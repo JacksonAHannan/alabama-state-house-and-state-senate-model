@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_law_enforcement_corrections_spending",
+  "dimension": "government_reform_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Funding level for law enforcement and corrections (likely conservative-leaning due to emphasis on public safety).",
+  "evidence_quote": "#4: Maintain current funding levels with minor adjustments based on inflation or efficiency gains.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

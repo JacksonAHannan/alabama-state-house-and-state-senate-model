@@ -1,0 +1,10 @@
+{
+  "id": "00DA54D1B1DE6C08",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Authorizes a county office to establish a mailing fee for business licenses; this is a local administrative and fee-setting measure, not a clear allowed policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

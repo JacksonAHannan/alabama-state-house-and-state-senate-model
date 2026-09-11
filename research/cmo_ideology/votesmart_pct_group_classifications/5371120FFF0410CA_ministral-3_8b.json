@@ -1,0 +1,11 @@
+{
+  "policy_key": "student_visa_restrictions",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "This option is procedural/administrative\u2014it does not inherently align with a stable left/right ideological stance but reflects a policy adjustment rather than a partisan principle.",
+  "evidence_quote": "**b) Should the United States adopt stricter rules for student visa applications from nations known to sponsor terrorism?**",
+  "needs_human_review": true,
+  "review_reason": "Context-dependent (e.g., depends on how 'stricter' is defined, enforcement mechanisms, and whether it targets specific countries or broader categories)."
+}

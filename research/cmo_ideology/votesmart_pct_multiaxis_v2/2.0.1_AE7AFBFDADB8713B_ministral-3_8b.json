@@ -1,0 +1,36 @@
+{
+  "primary_domain": "taxation",
+  "policy_key": "budget_balance_mechanism",
+  "plain_english_policy": "Use of **fee increases** (non-tax revenue adjustments) as a primary method to balance the state budget, without specifying tax levels or other fiscal tools.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "Fees are a form of **user-paid intervention** in market activities (e.g., permits, services) to offset budget shortfalls. This implies limited direct price controls but targeted revenue extraction from specific sectors."
+    },
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "primary",
+      "rationale": "Fees often disproportionately burden **consumers of regulated goods/services** (e.g., hunting licenses, business permits) rather than progressive income-based taxation. The option does not specify exemptions or caps."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "private_provision",
+      "strength": "secondary",
+      "rationale": "Fees typically fund **public services delivered via private actors** (e.g., contractors, third-party providers) rather than direct public provision. Implies reliance on market entities for service delivery."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Balancing budgets via fees may reduce **public welfare spending** (e.g., education, healthcare) if fees displace general revenue. Context-free but implied by budget constraint."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Should fee increases be used to balance the state budget?\"",
+  "needs_human_review": true,
+  "review_reason": "Vague priorities: The option does not clarify which fees (e.g., user fees vs. business taxes), whether fees replace tax cuts, or how this interacts with other revenue sources (e.g., corporate taxes). Context-free labels like 'regressive' require judgment on fee distribution across income groups."
+}

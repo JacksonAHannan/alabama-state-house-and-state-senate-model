@@ -1,0 +1,11 @@
+{
+  "policy_key": "juvenile_crime_block_grants",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting federal block grants for state juvenile crime programs is conventionally viewed as a progressive approach that emphasizes funding and programmatic solutions over punitive measures.",
+  "evidence_quote": "Provide block grants to states for implementation of programs to combat juvenile crime.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

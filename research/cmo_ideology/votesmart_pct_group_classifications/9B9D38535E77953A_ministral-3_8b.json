@@ -1,0 +1,11 @@
+{
+  "policy_key": "opioid_treatment_funding",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase state funding for opioid treatment facilities to address the crisis.",
+  "evidence_quote": "(No explicit quote provided in your input, but this option aligns with progressive/expansionary healthcare policies.)",
+  "needs_human_review": false,
+  "review_reason": "The policy is unambiguously left-leaning (progressive) on healthcare funding."
+}

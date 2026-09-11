@@ -1,0 +1,10 @@
+{
+  "id": "F4AD25A991F30163",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The measure concerns education rainy-day-account financing and transfers, a fiscal and constitutional mechanism without a clear effect on the listed education policy poles.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

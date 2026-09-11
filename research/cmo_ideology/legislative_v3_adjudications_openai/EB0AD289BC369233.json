@@ -1,0 +1,10 @@
+{
+  "id": "EB0AD289BC369233",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "A prohibition on executive-branch contracts with lobbyists concerns lobbying administration and does not clearly match an allowed axis.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

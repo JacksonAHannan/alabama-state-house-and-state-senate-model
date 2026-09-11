@@ -1,0 +1,10 @@
+{
+  "id": "0D7D1BD1A6C3F156",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns county appointment authority for a healthcare board and is an administrative governance measure rather than a clear healthcare policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

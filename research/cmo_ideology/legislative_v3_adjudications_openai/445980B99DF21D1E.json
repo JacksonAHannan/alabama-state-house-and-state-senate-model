@@ -1,0 +1,10 @@
+{
+  "id": "445980B99DF21D1E",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Combines environmental protection, agency review deadlines, and administrative restructuring, creating mixed and largely institutional effects.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

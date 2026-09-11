@@ -1,0 +1,11 @@
+{
+  "policy_key": "foreign_aid_human_rights",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The policy links foreign aid to human rights records. While this is a common bipartisan principle in US history (e.g., Jackson-Vanik Amendment), the specific framing of 'eliminating' all such aid can be seen as progressive/interventionist or conservative/non-interventionist depending on context, making it procedurally mixed.",
+  "evidence_quote": "c) Foreign aid should be eliminated from any nation with documented human rights abuses.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

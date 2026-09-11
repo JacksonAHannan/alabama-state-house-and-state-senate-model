@@ -1,0 +1,10 @@
+{
+  "id": "B07070B6394F05C6",
+  "decision": "map",
+  "primitive_axis": "climate_energy",
+  "policy_pole": "fossil_expansion",
+  "confidence": "high",
+  "rationale": "The amendment clarifies that unrealized capital gains from oil and gas are excluded from the Alabama Trust Fund calculation, while establishing a method for calculating realized gains from public exchange-traded equity assets sold within the same fiscal year. This explicitly prioritizes fossil fuel-related financial contributions over broader investment diversification, reinforcing support for continued reliance on fossil energy resources.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

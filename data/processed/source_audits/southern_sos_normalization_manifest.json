@@ -1,0 +1,22 @@
+{
+  "contract_version": 1,
+  "pipeline": "scripts/load_southern_election_warehouse.py",
+  "build_run_id": "RUN-35590D9B96854406956CCF248F60CB6A",
+  "validation": {
+    "candidate_results": 15834,
+    "exact_source_reconciliations": 1196,
+    "nonexact_source_reconciliations": 0,
+    "parsed_source_files": 1196,
+    "rejected_source_files": 0,
+    "review_candidate_results": 0,
+    "source_files": 4013,
+    "states_with_results": 9,
+    "validated_candidate_results": 15834
+  },
+  "outputs": [
+    "data/processed/elections/southern_state_candidate_results.csv.gz",
+    "data/processed/source_audits/southern_sos_normalization_coverage.csv",
+    "data/processed/source_audits/southern_sos_normalization_reconciliation.csv"
+  ],
+  "code_version": "569b019fecb7786a1c824fcc81490202e39cc4bc"
+}

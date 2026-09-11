@@ -1,0 +1,10 @@
+{
+  "id": "774044F3A1173C8A",
+  "decision": "map",
+  "primitive_axis": "market_governance",
+  "policy_pole": "intervention",
+  "confidence": "high",
+  "rationale": "The creation of an Office of Occupational and Professional Licensing within the Department of Labor represents a clear intervention in market autonomy by adding oversight to professional licensing boards.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

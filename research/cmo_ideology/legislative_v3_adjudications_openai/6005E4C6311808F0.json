@@ -1,0 +1,10 @@
+{
+  "id": "6005E4C6311808F0",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "rehabilitative",
+  "confidence": "high",
+  "rationale": "Authorizes implementation and expansion of alternative sentencing, education, treatment, and intervention programs rather than relying solely on incarceration.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "welfare_policy",
+  "plain_english_policy": "State Spending: Using the key, indicate what state funding levels (#1-6) you support for the following general categories.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "The option focuses on state funding levels for a category related to welfare policy."
+    }
+  ],
+  "confidence": "medium",
+  "evidence_quote": "",
+  "needs_human_review": true,
+  "review_reason": ""
+}

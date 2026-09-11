@@ -32,6 +32,21 @@ def test_exact_name_precedes_surname_matching():
     assert match.normalized_name=='JOHN SMITH'
 
 
+def test_prior_officeholder_can_use_unique_district_party_window():
+    scores = pd.DataFrame([{
+        'cycle': 1998, 'chamber': 'house', 'normalized_name': 'WILLIAM FULLER JR',
+        'surname': 'FULLER', 'party': 'D', 'district': 38, 'member_source_id': 'M38',
+    }])
+    candidate = pd.Series({
+        'year': 1998, 'chamber': 'house', 'canonical_name': 'Bill Fuller',
+        'resolved_name': 'Bill Fuller', 'canonical_party': 'D', 'incumbent': False,
+        'expected_prior_officeholder': True, 'district_candidate': 38,
+    })
+    match, method = match_candidate(candidate, scores)
+    assert method == 'incumbent_district_party_window'
+    assert match.member_source_id == 'M38'
+
+
 def test_surname_only_match_requires_district_when_available():
     scores=pd.DataFrame([{
         'cycle':1998,'chamber':'house','normalized_name':'JOHN THOMAS','surname':'THOMAS',

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "pipeline": "scripts/build_arkansas_pre2000_precinct_staging.py",
+  "sources": [
+    {
+      "year": 1994,
+      "path": "data/raw/southern_sos_elections/AR/1994/94general_election_results.xls",
+      "sha256": "828b187f3ad35ce31e6c7af5d974a1449f08cce844f569b3d29b833bf62d32f2"
+    },
+    {
+      "year": 1996,
+      "path": "data/raw/southern_sos_elections/AR/1996/precinct.xls",
+      "sha256": "cc34766d89d119ba44356013401bebf75d5ec561599a37503fc6bb4243bda2f7"
+    },
+    {
+      "year": 1998,
+      "path": "data/raw/southern_sos_elections/AR/1998/Gen98Ver5.zip",
+      "sha256": "042122238b735e15e2e202daa8c35d548841e7126ab0983208c9679640156248"
+    }
+  ],
+  "row_counts": {
+    "observations": 66239,
+    "district_candidates": 441,
+    "coverage": 14,
+    "reconciliation": 351,
+    "model_eligible": 119
+  },
+  "outputs": [
+    {
+      "name": "observations",
+      "path": "data/processed/precinct_history/arkansas_pre2000/arkansas_pre2000_precinct_observations.csv",
+      "rows": 66239,
+      "bytes": 8963589,
+      "sha256": "efbcd9f76dd088158f525052ef1d0bd27d50b3d667072947f31b3c66148a50e0"
+    },
+    {
+      "name": "districts",
+      "path": "data/processed/precinct_history/arkansas_pre2000/arkansas_pre2000_district_candidates.csv",
+      "rows": 441,
+      "bytes": 21849,
+      "sha256": "033c16a359922910d32311408356c1e178b4982de60061e6c7c42c0fcb9a6fea"
+    },
+    {
+      "name": "coverage",
+      "path": "data/processed/precinct_history/arkansas_pre2000/arkansas_pre2000_coverage.csv",
+      "rows": 14,
+      "bytes": 494,
+      "sha256": "eeb8f76110486dabc971e3034a49e55ba1b288d972a530e684d3c753dfd6f26b"
+    },
+    {
+      "name": "reconciliation",
+      "path": "data/processed/precinct_history/arkansas_pre2000/arkansas_pre2000_legislative_reconciliation.csv",
+      "rows": 351,
+      "bytes": 43824,
+      "sha256": "021302b93d8571ba0459ceca1ef9e57226d931c410c3f92860ab4ce1b386f4d2"
+    }
+  ],
+  "build_id": "815ec5c897de1669fcbc"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "medicaid_managed_care_transfer",
+  "dimension": "healthcare_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Shifting Medicaid recipients to private managed care systems (rather than traditional fee-for-service) is conventionally conservative, as it often aligns with market-based healthcare reform goals.",
+  "evidence_quote": "**b) Transfer current Medicaid recipients into managed care programs.**",
+  "needs_human_review": false,
+  "review_reason": ""
+}

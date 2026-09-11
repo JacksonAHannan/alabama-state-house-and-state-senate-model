@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "pipeline": "scripts/build_tennessee_extended_historical_southern_panel.py",
+  "code_commit": "ce5978cc83d4d145606b4268838ac6d656a1f34a",
+  "inputs": [
+    {
+      "path": "data/processed/forecast_calibration/historical_southern_extended_panel.csv",
+      "sha256": "6fcc43c63224af67ed73168daaeb2f8a6dc027c5e76ff6594a9eca678ebb6493"
+    },
+    {
+      "path": "data/processed/forecast_calibration/historical_southern_extended_manifest.json",
+      "sha256": "b33b9175358d18b13299e3da05eabbef5c0aa775b9d1f6315723941e39777eb4"
+    },
+    {
+      "path": "data/processed/precinct_history/tennessee_1998/tennessee_1998_legislative_precinct_turnout.csv",
+      "sha256": "367e2bb62f3ba9e6a20df4166b0fbd73f36bab410247cce34286bc149f870f07"
+    },
+    {
+      "path": "data/processed/precinct_history/tennessee_1998/tennessee_1998_governor_precinct.csv",
+      "sha256": "a3d7b3455806d0407f2faa8a2038678c7ba563cf9fd59acd33ebae15b7c3fbd6"
+    },
+    {
+      "path": "data/processed/precinct_history/tennessee_1998/tennessee_1998_legislative_reconciliation.csv",
+      "sha256": "69b75e17197e5edb3b79c8a6c03b4c0fe4b9adf75a046b349e0a51b657755057"
+    },
+    {
+      "path": "data/processed/precinct_history/tennessee_1998/tennessee_1998_manifest.json",
+      "sha256": "f024c816de0fb6eef624fda4f21ce3ccdb6a492bb83187fb69835715bccb533e"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/dataverse_files.zip",
+      "sha256": "b4c0913fa7bfb0aff4da2dbf67a22da696e9f07b45615f30e78127edd794a3e1"
+    }
+  ],
+  "configuration": {
+    "minimum_legislative_turnout_join_coverage": 0.95,
+    "baseline_office": "GOV",
+    "existing_panel_precedence": true,
+    "precinct_join": "canonical county + alphanumeric OCR label"
+  },
+  "row_counts": {
+    "panel_input": 2383,
+    "tennessee_reconciled": 79,
+    "tennessee_strict": 19,
+    "extended": 2402
+  },
+  "outputs": [
+    {
+      "name": "tennessee_candidates",
+      "path": "data/processed/forecast_calibration/historical_southern_extended_tn_candidates.csv",
+      "bytes": 36419,
+      "sha256": "bf00eef3d73b0aaf9c62b7670ee38a89954450ad5f87fa982a4a4b9713fbf972"
+    },
+    {
+      "name": "tennessee_coverage",
+      "path": "data/processed/forecast_calibration/historical_southern_extended_tn_coverage.csv",
+      "bytes": 5118,
+      "sha256": "c0c6db15cded54d591e8364689025ce1cdf241937e34bd0a6cdc10fee3fac62f"
+    },
+    {
+      "name": "tennessee_allocation_audit",
+      "path": "data/processed/forecast_calibration/historical_southern_extended_tn_allocation_audit.csv",
+      "bytes": 383452,
+      "sha256": "8d89c4c2dd17fe0977e76d9e6c1a81fc9bc1c3ceb966af8cf3fca516430996ff"
+    },
+    {
+      "name": "panel",
+      "path": "data/processed/forecast_calibration/historical_southern_extended_v2_panel.csv",
+      "bytes": 1098766,
+      "sha256": "c3b9eb0b97cc758ab81f6b72fcc2f263b8bc877772909b73cdd9a20e18daf975"
+    }
+  ],
+  "build_id": "fe47269907ad7c4e0b60"
+}

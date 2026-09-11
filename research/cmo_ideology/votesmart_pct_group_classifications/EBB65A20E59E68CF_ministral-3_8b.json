@@ -1,0 +1,11 @@
+{
+  "policy_key": "defense_troop_retention",
+  "dimension": "social_ideology",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Funding initiatives aimed at reducing military personnel turnover (e.g., housing assistance, mental health support, career counseling).",
+  "evidence_quote": "*'Invest in programs that address the root causes of high troop attrition\u2014such as improved housing allowances, expanded mental health services, and better reintegration support for veterans.*'",
+  "needs_human_review": true,
+  "review_reason": "This option is *procedural* (focused on administrative execution) with *context-dependent* effects (could be framed as either pro-military stability or social welfare, depending on implementation). No clear ideological lean in isolation."
+}

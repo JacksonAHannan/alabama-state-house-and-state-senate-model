@@ -1,0 +1,11 @@
+{
+  "policy_key": "student_loan_tax_credit",
+  "dimension": "indeterminate",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Support for tax credits to offset student loan repayments (e.g., deductions or direct subsidies).",
+  "evidence_quote": "*[No explicit left/right alignment in this standalone option; context-dependent.]*\n\n*(Note: Student loan policies are often framed as progressive due to targeting lower/middle-income borrowers, but implementation details (e.g., income thresholds) can shift the balance.)*",
+  "needs_human_review": true,
+  "review_reason": "Requires candidate\u2019s specific proposal text or campaign platform for scoring."
+}

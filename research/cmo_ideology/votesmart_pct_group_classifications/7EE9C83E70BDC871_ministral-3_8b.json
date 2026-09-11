@@ -1,0 +1,11 @@
+{
+  "policy_key": "tax_incentives_small_business_healthcare",
+  "dimension": "healthcare_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Encourage private-sector healthcare coverage via tax breaks for small employers.",
+  "evidence_quote": "Provide **tax incentives** for small businesses to help provide health care to their employees.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

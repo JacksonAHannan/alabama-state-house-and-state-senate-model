@@ -1,0 +1,10 @@
+{
+  "id": "11E6D71E4A958840",
+  "decision": "map",
+  "primitive_axis": "environmental_protection",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "The bill establishes statewide solid-waste regulation, controls unauthorized dumping, and funds investigation, cleanup, and closure of unauthorized dumps.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

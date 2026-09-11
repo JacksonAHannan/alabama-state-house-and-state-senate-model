@@ -1,0 +1,11 @@
+{
+  "policy_key": "job_training_funding",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase public investment in workforce development programs to address skill gaps and labor displacement.",
+  "evidence_quote": "Increase funding for national job-training programs that re-train displaced workers or teach skills needed in today's job market.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

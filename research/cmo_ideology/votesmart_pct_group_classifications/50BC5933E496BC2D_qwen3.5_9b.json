@@ -1,0 +1,11 @@
+{
+  "policy_key": "usa_un_peacekeeping_missions",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks whether the US should commit troops to UN peacekeeping missions. This is a procedural question about military engagement in international organizations rather than a substantive ideological stance on foreign policy principles like interventionism or isolationism.",
+  "evidence_quote": "c) Should the United States commit troops to United Nations peacekeeping missions?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

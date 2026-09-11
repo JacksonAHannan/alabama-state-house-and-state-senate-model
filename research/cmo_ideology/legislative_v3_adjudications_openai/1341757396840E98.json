@@ -1,0 +1,10 @@
+{
+  "id": "1341757396840E98",
+  "decision": "map",
+  "primitive_axis": "police_authority",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Imposes new vessel-operation restrictions and criminal penalties, expanding enforceable regulatory authority.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

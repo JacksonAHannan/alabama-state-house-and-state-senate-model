@@ -1,0 +1,11 @@
+{
+  "policy_key": "environment_alternative_fuels",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supports alternative fuels and electric cars to reduce pollution.",
+  "evidence_quote": "Encourage development of alternative fuels and electric cars to reduce pollution.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "F1CA27F3F28013FB",
+  "decision": "map",
+  "primitive_axis": "malpractice_liability",
+  "policy_pole": "limit_damages",
+  "confidence": "medium",
+  "rationale": "Providing civil immunity to uncompensated health-care transportation providers limits potential civil liability.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

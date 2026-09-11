@@ -1,0 +1,10 @@
+{
+  "id": "74D8FA7B0DAB4BB1",
+  "decision": "map",
+  "primitive_axis": "market_governance",
+  "policy_pole": "market_autonomy",
+  "confidence": "high",
+  "rationale": "Exempting certain traveling businesses from municipal licensing reduces local regulatory requirements and increases market autonomy.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

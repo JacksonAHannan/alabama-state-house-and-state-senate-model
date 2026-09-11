@@ -1,0 +1,10 @@
+{
+  "id": "89BFDE56FDDB7869",
+  "decision": "map",
+  "primitive_axis": "healthcare_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "The bill mandates insurance coverage for colorectal cancer screenings, explicitly expanding healthcare access by requiring private insurers to include these services.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

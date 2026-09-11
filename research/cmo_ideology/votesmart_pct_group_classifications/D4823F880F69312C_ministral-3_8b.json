@@ -1,0 +1,11 @@
+{
+  "policy_key": "state_spending_expanded_categories",
+  "dimension": "social_ideology",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Support for adding new spending categories or expanding existing ones without specifying funding levels.",
+  "evidence_quote": "h) Other or expanded categories: _______ (write-in)",
+  "needs_human_review": true,
+  "review_reason": "The option is a blank write-in field; no inherent conservative/progressive signal exists. Requires candidate's explicit response to classify."
+}

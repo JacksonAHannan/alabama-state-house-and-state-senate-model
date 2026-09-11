@@ -1,0 +1,10 @@
+{
+  "id": "FE685600025719CE",
+  "decision": "map",
+  "primitive_axis": "civil_social_liberty",
+  "policy_pole": "expand",
+  "confidence": "medium",
+  "rationale": "Establishes a state lottery, expanding legally permitted access to gambling.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

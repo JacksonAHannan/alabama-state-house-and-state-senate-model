@@ -1,0 +1,11 @@
+{
+  "policy_key": "national_security_wmd_preemption",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option asks whether the U.S. should use military force to prevent hostile governments from possessing weapons of mass destruction (WMDs). This is a procedural or context-dependent question about national security policy rather than an inherently conservative or progressive stance, as both sides can argue for different thresholds based on threat assessment and legal frameworks.",
+  "evidence_quote": "Should the United States use military force to prevent governments hostile to the U.S. from possessing a weapon of mass destruction (for example: nuclear, biological, chemical)?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

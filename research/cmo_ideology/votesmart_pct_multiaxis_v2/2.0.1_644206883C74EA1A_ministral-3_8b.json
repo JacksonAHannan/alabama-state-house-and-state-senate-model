@@ -1,0 +1,24 @@
+{
+  "primary_domain": "civil_social",
+  "policy_key": "civil_social_liberty=expand",
+  "plain_english_policy": "Prohibits law enforcement from using race as a factor in policing decisions, expanding individual protections against discriminatory practices.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "civil_social_liberty",
+      "pole": "expand",
+      "strength": "primary",
+      "rationale": "Directly restricts law enforcement discretion to target individuals based on race, thereby expanding individual liberty from discriminatory policing."
+    },
+    {
+      "axis": "institutional_populism",
+      "pole": "popular_control",
+      "strength": "secondary",
+      "rationale": "Implies a check on police authority by public standards (racial profiling as unconstitutional), aligning with popular oversight of law enforcement."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Ban the use of racial profiling\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

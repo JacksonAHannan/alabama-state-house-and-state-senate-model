@@ -1,0 +1,24 @@
+{
+  "primary_domain": "government_reform",
+  "policy_key": "institutional_populism",
+  "plain_english_policy": "Restricts post-election employment opportunities for state officials to reduce conflicts of interest.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "institutional_populism",
+      "pole": "popular_control",
+      "strength": "secondary",
+      "rationale": "Prohibiting additional state jobs for officials signals accountability to voters rather than institutional elites, aligning with populist demands for direct public oversight."
+    },
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "primary",
+      "rationale": "Directly restricts a market-like behavior (job-seeking by officials) via regulatory prohibition, not market autonomy."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Should current elected officials be prohibited from holding additional state jobs?\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

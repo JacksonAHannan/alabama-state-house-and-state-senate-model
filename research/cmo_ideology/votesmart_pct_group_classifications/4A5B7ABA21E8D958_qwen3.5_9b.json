@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_goals_2000",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting 'Goals 2000' aligns with progressive educational reform movements of the late 20th century that emphasized national standards and accountability.",
+  "evidence_quote": "a) Maintain the national standards and goals set forth in \"Goals 2000\".",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "643E341D091B137E",
+  "decision": "map",
+  "primitive_axis": "campaign_finance_disclosure",
+  "policy_pole": "weaken",
+  "confidence": "high",
+  "rationale": "Required redaction of candidates' and officials' residential addresses reduces the information disclosed in campaign-finance statements.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

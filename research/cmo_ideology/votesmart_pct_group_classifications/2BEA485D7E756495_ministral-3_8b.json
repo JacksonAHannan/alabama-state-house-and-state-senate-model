@@ -1,0 +1,11 @@
+{
+  "policy_key": "wage_gap_efforts",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "State government should actively address wage disparities based on gender, race, and other protected classes.",
+  "evidence_quote": "Do you support greater efforts by Alabama's state government in closing gender, racial and other wage gaps?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

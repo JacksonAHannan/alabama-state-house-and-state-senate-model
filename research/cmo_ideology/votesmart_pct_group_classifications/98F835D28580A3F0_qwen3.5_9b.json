@@ -1,0 +1,11 @@
+{
+  "policy_key": "immigration_limit_numbers",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Limiting immigration numbers is conventionally a progressive stance in the context of U.S. political discourse on open borders vs restriction.",
+  "evidence_quote": "Further limit the number of immigrants allowed into the country.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

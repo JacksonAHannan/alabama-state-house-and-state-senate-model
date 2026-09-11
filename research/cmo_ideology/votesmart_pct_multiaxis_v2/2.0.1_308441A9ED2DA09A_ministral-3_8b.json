@@ -1,0 +1,30 @@
+{
+  "primary_domain": "healthcare",
+  "policy_key": "healthcare_access",
+  "plain_english_policy": "Mandatory private insurance purchase with no explicit public alternative stated.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "Penalizes uninsured individuals (likely lower-income or self-employed) without direct subsidies, shifting costs to taxpayers via enforcement mechanisms."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "private_provision",
+      "strength": "primary",
+      "rationale": "Explicitly focuses on private insurance markets; no mention of public programs or government-run healthcare."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Restricts individual autonomy to opt out of insurance coverage, framing it as a mandatory obligation rather than a voluntary welfare benefit."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"requiring individuals to purchase health care insurance\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

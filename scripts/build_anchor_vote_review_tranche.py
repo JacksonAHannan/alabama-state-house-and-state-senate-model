@@ -7,6 +7,7 @@ from pathlib import Path
 import re
 
 import pandas as pd
+from legiscan_eligibility import read_member_votes, read_roll_calls
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -23,10 +24,11 @@ def main() -> None:
     parser.add_argument("--per-issue", type=int, default=5)
     args = parser.parse_args()
     queue = pd.read_csv(RESEARCH / "legislative_issue_bill_review_queue.csv")
+    queue = queue[queue.roll_call_id.isin(read_roll_calls().roll_call_id)].copy()
     bills = pd.read_csv(DATA / "legiscan_alabama_bills.csv")
     subjects = pd.read_csv(DATA / "legiscan_bill_subjects.csv")
     sponsors = pd.read_csv(DATA / "legiscan_bill_sponsors.csv")
-    votes = pd.read_csv(DATA / "legiscan_alabama_individual_votes.csv")
+    votes = read_member_votes()
     crosswalk = pd.read_csv(RESEARCH / "focal_legislator_identity_crosswalk.csv")
 
     queue = queue[queue.vote_description.fillna("").str.match(FINAL_PASSAGE)].copy()

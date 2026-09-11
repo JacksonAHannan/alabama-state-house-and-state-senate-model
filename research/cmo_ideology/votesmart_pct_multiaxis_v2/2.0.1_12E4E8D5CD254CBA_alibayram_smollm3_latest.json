@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "restriction",
+  "plain_english_policy": "Do not support limits on the number of terms for Alabama governors.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "The policy opposes term limits, which is a restriction on the number of terms for Alabama governors."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I do not support limits on the number of terms for Alabama governors.\" - Candidate's statement in 2010 campaign finance and government reform issues section.",
+  "needs_human_review": true,
+  "review_reason": "The policy is a welfare restriction as it opposes term limits, which would restrict the ability of individuals to serve multiple terms."
+}

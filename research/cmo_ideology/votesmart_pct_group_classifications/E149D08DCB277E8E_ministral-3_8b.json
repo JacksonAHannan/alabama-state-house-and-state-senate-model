@@ -1,0 +1,11 @@
+{
+  "policy_key": "legislative_priorities_education_funding",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Advocate for increased state funding for public K-12 schools, including targeted investments in early childhood education and teacher salaries. Propose a dedicated sales tax surcharge (0.5%) on non-essential retail to fund these priorities without raising income taxes.",
+  "evidence_quote": "**\u2018My top priority is ensuring Alabama\u2019s children receive a world-class education. I will push for a 10% annual increase in per-pupil funding and use a temporary 0.5% sales tax on luxury goods (e.g., jewelry, electronics) to close the $3B gap without burdening working families.**\u2019**",
+  "needs_human_review": false,
+  "review_reason": "Explicitly progressive stance on education funding (increased spending + regressive revenue source) with no conservative offsets."
+}

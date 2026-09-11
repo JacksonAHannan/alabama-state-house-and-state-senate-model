@@ -1,0 +1,30 @@
+{
+  "primary_domain": "hunting_recreation",
+  "policy_key": "increase_state_funding_for_additional_security_of_critical_infrastructure_against_terrorist_attacks",
+  "plain_english_policy": "Allocate state funds to enhance security measures at critical infrastructure sites (e.g., power plants, bridges) to counter terrorism.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "Direct state funding for security infrastructure constitutes government intervention in economic operations to mitigate perceived threats."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "primary",
+      "rationale": "State funding implies public provision of security services, bypassing private sector reliance."
+    },
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "General state funding (without targeted exemptions) likely falls on broad tax bases, disproportionately affecting middle/low-income earners."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Increase state funding for additional security of critical infrastructure\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

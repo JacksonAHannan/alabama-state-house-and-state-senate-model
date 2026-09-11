@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_cut_taxes_surplus",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks if a candidate would cut taxes upon an operating surplus without specifying the magnitude or conditions of such cuts. This is a standard fiscal question that can be answered by candidates from any ideological spectrum depending on their specific views on debt reduction versus investment.",
+  "evidence_quote": "4) Would you cut taxes if there were an operating surplus?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

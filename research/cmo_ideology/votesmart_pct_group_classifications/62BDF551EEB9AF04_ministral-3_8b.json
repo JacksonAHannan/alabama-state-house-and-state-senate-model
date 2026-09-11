@@ -1,0 +1,11 @@
+{
+  "policy_key": "job_training_block_grants",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Replace federal job training programs with block grants to states.",
+  "evidence_quote": "Select one number only: **2** (Support block grants for job training).",
+  "needs_human_review": false,
+  "review_reason": ""
+}

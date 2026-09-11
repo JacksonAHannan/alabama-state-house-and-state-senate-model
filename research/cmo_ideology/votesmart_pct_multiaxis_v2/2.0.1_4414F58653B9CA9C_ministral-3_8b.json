@@ -1,0 +1,36 @@
+{
+  "primary_domain": "taxation",
+  "policy_key": "budget_stabilization",
+  "plain_english_policy": "Revenue generation via regulation and taxation of gambling (e.g., casinos, lotteries) to balance the state budget.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "Gambling taxes disproportionately burden lower-income households (who spend a higher % of income on entertainment) and may not offset regressive consumption taxes. No explicit progressive mechanism is stated."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "private_provision",
+      "strength": "primary",
+      "rationale": "Gaming proceeds are generated from private operators (e.g., casinos, tribal gaming), not public entities. The option explicitly references 'regulating and taxing' private-sector gambling."
+    },
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "primary",
+      "rationale": "The state would intervene to impose regulations (e.g., licensing, revenue-sharing) on a market (gambling) that is otherwise private. This includes taxing private activity."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "While not directly welfare-focused, gambling taxes could reduce funds available for social programs (e.g., education, healthcare) if used to offset spending cuts. Implicit fiscal constraint."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Regulating and taxing gaming proceeds\"",
+  "needs_human_review": true,
+  "review_reason": "Vague priorities: The option does not specify how proceeds would be allocated (e.g., whether they replace cuts to welfare programs or are used for other purposes). Context-free labels like 'budget stabilization' lack clarity on trade-offs with other policy domains."
+}

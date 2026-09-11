@@ -1,0 +1,11 @@
+{
+  "policy_key": "cuba_travel_ban",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Lifting the travel ban to Cuba is generally considered a progressive foreign policy move aimed at normalization and engagement.",
+  "evidence_quote": "Should the United States lift the travel ban to Cuba?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "DE60551615E8FE6A",
+  "decision": "map",
+  "primitive_axis": "market_governance",
+  "policy_pole": "intervention",
+  "confidence": "medium",
+  "rationale": "The measure directs tobacco-settlement bond proceeds to a specified county industrial development authority, reflecting targeted government intervention in economic activity.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

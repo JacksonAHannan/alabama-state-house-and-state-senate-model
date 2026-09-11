@@ -1,0 +1,11 @@
+{
+  "policy_key": "environmental_site_cleanup_funding",
+  "dimension": "environment_position",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Allocate state funds to remediate contaminated, abandoned industrial/commercial sites.",
+  "evidence_quote": "Use state funds to clean up former industrial and commercial sites that are contaminated, unused or abandoned.",
+  "needs_human_review": true,
+  "review_reason": "This option is procedurally neutral\u2014it does not inherently lean conservative (+1) or progressive (-1). It is a funding mechanism for environmental cleanup, which can be supported across the political spectrum depending on implementation details (e.g., scope, prioritization, or source of funds)."
+}

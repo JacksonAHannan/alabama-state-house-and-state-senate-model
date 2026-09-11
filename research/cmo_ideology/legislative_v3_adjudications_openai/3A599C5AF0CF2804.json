@@ -1,0 +1,10 @@
+{
+  "id": "3A599C5AF0CF2804",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Changes retirement-service credit eligibility and purchasing rules, which are administrative employment-benefit provisions rather than an allowed criminal-justice policy.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

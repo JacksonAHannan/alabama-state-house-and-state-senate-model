@@ -1,0 +1,10 @@
+{
+  "id": "5C2155E4BB084343",
+  "decision": "map",
+  "primitive_axis": "land_use_property_rights",
+  "policy_pole": "regulation",
+  "confidence": "high",
+  "rationale": "Creates enforceable environmental covenants with land-use restrictions, priority rules, and civil remedies, supporting regulation of property use.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

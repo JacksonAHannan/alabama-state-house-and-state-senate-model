@@ -1,0 +1,15 @@
+state,target_candidates,observed_candidates,candidate_coverage,unobserved_candidates,zero_coverage_cycles,gap_class,next_action,zero_fill_allowed
+AL,377,377,1.0,0,,residual_source_or_identity_gap,review the ten unresolved FCPA candidate rows,0
+AR,764,756,0.9895287958115183,8,,legacy_report_gap,extract official legacy reports for 2016-2022; retain 2024 API totals,0
+FL,1211,1189,0.9818331957060281,22,,residual_transaction_reconciliation_gap,"review 2018 legacy detail mismatches, duplicate special/general summaries, invalid contribution codes, and net-negative refunds",0
+GA,1528,1506,0.9856020942408377,22,,residual_candidate_transaction_identity,review candidates not resolved to the complete 2015-2024 legacy and refreshed Record Search transaction identities,0
+KY,871,849,0.9747416762342136,22,,residual_candidate_match_gap,review unmatched KREF registrations; do not infer zero,0
+LA,100,96,0.96,4,,residual_candidate_match_gap,review unmatched filer identities against official bulk files,0
+MO,1346,0,0.0,1346,2016|2018|2020|2022|2024,official_report_access_block,obtain reports through an authorized non-reCAPTCHA bulk path and recover the legacy 2016-2018 index,0
+MS,263,19,0.07224334600760456,244,,paper_filing_ocr_and_portal_identity_gap,adjudicate candidates absent from the electronic index and unreadable paper filings using cached page-level OCR evidence,0
+NC,1475,1475,1.0,0,,residual_committee_identity,review unresolved candidate committees after the complete 2015-2024 transaction acquisition,0
+OK,830,816,0.983132530120482,14,,residual_candidate_match_gap,review unmatched Guardian committee identities,0
+SC,941,925,0.9829968119022316,16,,identity_or_report_period_review,resolve ambiguous filer identities and overlapping or boundary-spanning report periods,0
+TN,834,833,0.9988009592326139,1,,residual_report_layout_or_candidate_identity,review the small set of unmatched candidates and report pages without a parseable receipt summary,0
+TX,1244,1233,0.9911575562700965,11,,residual_filer_or_report_period_review,review unresolved filer links and positive boundary-spanning or overlapping report periods,0
+VA,775,767,0.9896774193548387,8,,residual_xml_or_candidate_match,review unresolved committee identities and report-period gaps after the versioned 2023 refresh,0

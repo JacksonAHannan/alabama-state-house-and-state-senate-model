@@ -1,0 +1,10 @@
+{
+  "id": "6EF10320C1D732C4",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "The bill is merely definitional and procedural (arrest warrant procedures for school employees), lacking substantive policy content.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

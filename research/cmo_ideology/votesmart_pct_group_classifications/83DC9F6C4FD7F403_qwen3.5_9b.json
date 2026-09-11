@@ -1,0 +1,11 @@
+{
+  "policy_key": "gun_federal_registration",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting the maintenance of all federal registration procedures and restrictions on possessing firearms is conventionally aligned with progressive positions that favor stricter gun control measures.",
+  "evidence_quote": "c) Maintain all federal registration procedures and restrictions on possessing firearms.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

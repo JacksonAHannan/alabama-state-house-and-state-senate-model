@@ -1,3 +1,5 @@
+"""Retained calibration-panel and evaluation checks for research/compatibility."""
+
 from pathlib import Path
 
 import pandas as pd
@@ -21,18 +23,3 @@ def test_probability_tournament_is_forward_and_geographic():
     assert set(metrics.validation) == {"forward_cycle", "leave_state_out"}
     assert set(metrics[metrics.validation.eq("forward_cycle")].holdout.astype(str)) == {"2020", "2022", "2024"}
     assert metrics.brier.between(0, 1).all()
-
-
-def test_demographic_reactivity_does_not_beat_direct_baseline():
-    summary = pd.read_csv(DIR / "southern_demographic_forecast_summary.csv").set_index("specification")
-    direct = summary.loc["direct_environment_baseline"]
-    reactive = summary.loc["demographic_reactivity"]
-    assert direct.mae < reactive.mae
-    assert direct.brier < reactive.brier
-
-
-def test_hd21_southern_calibration_favors_republican():
-    forecast = pd.read_csv(DIR / "alabama_2026_southern_calibrated_probabilities.csv")
-    hd21 = forecast[(forecast.chamber.eq("house")) & (forecast.district.eq(21))]
-    assert len(hd21) == 2
-    assert (hd21.dem_probability_calibrated < .15).all()

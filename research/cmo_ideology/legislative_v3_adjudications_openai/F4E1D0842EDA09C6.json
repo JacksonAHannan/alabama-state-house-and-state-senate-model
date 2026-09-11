@@ -1,0 +1,10 @@
+{
+  "id": "F4E1D0842EDA09C6",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The measure extends educational benefits for specified dependents but is coded to criminal justice, whose permitted axes do not cover this policy.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

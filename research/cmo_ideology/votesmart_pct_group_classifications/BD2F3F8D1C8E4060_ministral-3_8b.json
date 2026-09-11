@@ -1,0 +1,11 @@
+{
+  "policy_key": "confederate_monuments",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Removing Confederate monuments from public spaces is typically framed as a progressive stance to address historical injustices and promote racial reconciliation.",
+  "evidence_quote": "(No explicit quote provided in the option, but this position aligns with statements like: 'I support removing Confederate symbols from public property to honor all Alabamians equally.'\u2014a common phrasing for candidates taking this view.)",
+  "needs_human_review": false,
+  "review_reason": ""
+}

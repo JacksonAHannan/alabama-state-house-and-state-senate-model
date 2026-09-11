@@ -1,0 +1,10 @@
+{
+  "id": "D370E9DC9EAAE454",
+  "decision": "map",
+  "primitive_axis": "healthcare_access",
+  "policy_pole": "expand",
+  "confidence": "medium",
+  "rationale": "Establishing a state health insurance exchange creates an enrollment and coverage mechanism intended to expand access to health insurance.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

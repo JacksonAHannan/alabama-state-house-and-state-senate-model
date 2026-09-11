@@ -1,0 +1,18 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "conservation_preservation",
+  "plain_english_policy": "Support funding for open space preservation.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "conservation_preservation",
+      "pole": "preserve",
+      "strength": "secondary",
+      "rationale": "The policy explicitly supports preserving existing open spaces."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Support funding for open space preservation.",
+  "needs_human_review": false,
+  "review_reason": "The policy explicitly supports preserving existing open spaces."
+}

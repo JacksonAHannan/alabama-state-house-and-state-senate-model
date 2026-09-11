@@ -1,0 +1,11 @@
+{
+  "policy_key": "defense_r_and_d",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase funding for military research and development of new weapons systems.",
+  "evidence_quote": "We must invest in cutting-edge defense technology to ensure our national security remains unmatched. This includes advanced weaponry, cyber defenses, and next-generation platforms that will deter adversaries and protect American interests worldwide.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "1EFEB2D5A102C723",
+  "decision": "map",
+  "primitive_axis": "abortion_access",
+  "policy_pole": "restrict",
+  "confidence": "high",
+  "rationale": "Opting out of authorizing abortion coverage by exchange-participating health plans restricts access to abortion coverage.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

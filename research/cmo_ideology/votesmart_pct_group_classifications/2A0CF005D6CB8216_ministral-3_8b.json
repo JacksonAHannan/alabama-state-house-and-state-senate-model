@@ -1,0 +1,11 @@
+{
+  "policy_key": "cyber_crime_penalties",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Higher penalties for cybercrimes like hacking, identity theft, and malware distribution.",
+  "evidence_quote": "Support strict penalties for Internet crimes (e.g. hacking, identity theft, worms/viruses).",
+  "needs_human_review": false,
+  "review_reason": ""
+}

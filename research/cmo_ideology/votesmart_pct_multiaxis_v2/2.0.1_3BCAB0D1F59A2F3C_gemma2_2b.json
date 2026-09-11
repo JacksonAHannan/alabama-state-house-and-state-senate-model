@@ -1,0 +1,18 @@
+{
+  "primary_domain": "healthcare",
+  "policy_key": "interstate_health_insurance_compacts",
+  "plain_english_policy": "Support for interstate health insurance compacts.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "The policy is a support for interstate health insurance compacts. This implies that the policy supports the expansion of healthcare access and coverage."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Do you support interstate health insurance compacts?",
+  "needs_human_review": false,
+  "review_reason": "The policy is a support for interstate health insurance compacts. This implies that the policy supports the expansion of healthcare access and coverage."
+}

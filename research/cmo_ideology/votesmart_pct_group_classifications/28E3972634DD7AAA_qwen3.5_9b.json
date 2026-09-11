@@ -1,0 +1,11 @@
+{
+  "policy_key": "student_loan_funding",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option 'k) Student loan programs' is a category selection within a questionnaire asking about federal funding levels and block grants. It does not specify whether the candidate supports increasing or decreasing funding, nor does it inherently lean conservative (block grant preference) or progressive (federal spending). Without additional text indicating support for expansion vs reduction, this option lacks stable left/right direction.",
+  "evidence_quote": "k) Student loan programs",
+  "needs_human_review": true,
+  "review_reason": "The provided text is merely a label ('Student loan programs') selected as an answer choice. It contains no affirmative stance on the level of funding (increase/decrease/maintain) or preference for block grants versus direct spending within that specific category context."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "social_security_invest_stocks_bonds",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option advocates for moving Social Security funds from safe government bonds into the stock market. This is generally viewed as a progressive policy because it aims to increase benefits through higher investment returns and reduce reliance on federal debt.",
+  "evidence_quote": "c) Invest a portion of Social Security assets collectively in stocks and bonds instead of United States Treasury securities.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

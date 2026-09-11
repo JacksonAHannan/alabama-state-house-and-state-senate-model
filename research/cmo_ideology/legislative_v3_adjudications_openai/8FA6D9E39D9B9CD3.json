@@ -1,0 +1,10 @@
+{
+  "id": "8FA6D9E39D9B9CD3",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Enhances criminal treatment of receiving stolen firearms but does not directly regulate gun access or gun purchasing under the allowed axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

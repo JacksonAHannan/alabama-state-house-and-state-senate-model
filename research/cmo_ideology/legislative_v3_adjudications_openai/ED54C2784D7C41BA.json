@@ -1,0 +1,10 @@
+{
+  "id": "ED54C2784D7C41BA",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns licensing-board meeting procedures and electronic meetings, making it administrative and technical.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

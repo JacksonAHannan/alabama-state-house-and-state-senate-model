@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "status": "research_candidate",
+  "code_commit": "ce5978cc83d4d145606b4268838ac6d656a1f34a",
+  "selected_model": "baseline_only",
+  "selection_years": [
+    2020,
+    2022,
+    2024
+  ],
+  "models": {
+    "baseline_only": {
+      "kind": "zero",
+      "training": "all"
+    },
+    "pooled_recent": {
+      "kind": "mean",
+      "training": "recent"
+    },
+    "ridge_all_era": {
+      "kind": "ridge",
+      "training": "all",
+      "half_life": null
+    },
+    "ridge_half_life_8": {
+      "kind": "ridge",
+      "training": "all",
+      "half_life": 8.0
+    },
+    "ridge_half_life_4": {
+      "kind": "ridge",
+      "training": "all",
+      "half_life": 4.0
+    },
+    "ridge_recent_only": {
+      "kind": "ridge",
+      "training": "recent",
+      "half_life": null
+    }
+  },
+  "inputs": [
+    {
+      "path": "data/processed/forecast_calibration/historical_southern_extended_v2_panel.csv",
+      "sha256": "c3b9eb0b97cc758ab81f6b72fcc2f263b8bc877772909b73cdd9a20e18daf975"
+    },
+    {
+      "path": "data/processed/forecast_calibration/southern_legislative_probability_panel.csv",
+      "sha256": "09154b4ecd80e513acef147a73c9bdf3bb5ba95687ce1b58c6608fe9230315ed"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "data/processed/war/forecast_regime_v1_panel.csv",
+      "rows": 3590,
+      "sha256": "57e5acf35d5e190c72f5bc7efd59340220122e6382898bd1fdc0df61be68f7f8"
+    },
+    {
+      "path": "data/processed/war/forecast_regime_v1_predictions.csv",
+      "rows": 6562,
+      "sha256": "745a98a1357c69cf8995d03d4131ac3d87d3a9c4793e6f4bc8eaff11042bd468"
+    },
+    {
+      "path": "data/processed/war/forecast_regime_v1_metrics.csv",
+      "rows": 18,
+      "sha256": "8b69a67bc1a7288ff2995384b4513f792deef31796255b95306ee442b558f78d"
+    },
+    {
+      "path": "data/processed/war/forecast_regime_v1_ranking.csv",
+      "rows": 6,
+      "sha256": "73d68fbf38ea260e10b67a7b6daedd10e5b22600bf3c0c8ff6e0ddb907108159"
+    },
+    {
+      "path": "data/processed/war/forecast_regime_v1_2026.csv",
+      "rows": 96,
+      "sha256": "b9bab471154e3fc7a09ee5152d6e7a78f878b6abc9a446e5cef5dc2d005b9851"
+    }
+  ],
+  "build_id": "d7202b9dee4b95641bff"
+}

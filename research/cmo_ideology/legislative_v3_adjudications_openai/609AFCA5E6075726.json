@@ -1,0 +1,10 @@
+{
+  "id": "609AFCA5E6075726",
+  "decision": "map",
+  "primitive_axis": "bioethics_end_of_life",
+  "policy_pole": "permissive",
+  "confidence": "high",
+  "rationale": "Removing notarization for surrogate certification reduces a formal barrier to surrogate end-of-life healthcare decisions.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

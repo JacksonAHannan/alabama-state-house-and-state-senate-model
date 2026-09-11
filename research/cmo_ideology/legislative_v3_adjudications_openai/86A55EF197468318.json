@@ -1,0 +1,10 @@
+{
+  "id": "86A55EF197468318",
+  "decision": "map",
+  "primitive_axis": "education_public_funding",
+  "policy_pole": "reduce",
+  "confidence": "medium",
+  "rationale": "Repealing the proration-prevention law removes a statutory safeguard for public education funding during revenue shortfalls.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

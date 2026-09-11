@@ -1,0 +1,11 @@
+{
+  "policy_key": "welfare_employer_incentives",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting employer incentives to hire welfare recipients is generally viewed as a progressive policy aimed at expanding employment opportunities for low-income individuals and reducing reliance on traditional welfare programs.",
+  "evidence_quote": "j) Support programs that give incentives for employers to hire and train welfare recipients.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "medicare_block_grants",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Replace federal Medicare funding with block grants to states, reducing direct federal control over healthcare spending and potentially shifting costs to state budgets.",
+  "evidence_quote": "i) Medicare",
+  "needs_human_review": false,
+  "review_reason": ""
+}

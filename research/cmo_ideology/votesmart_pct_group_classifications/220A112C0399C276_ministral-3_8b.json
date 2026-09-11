@@ -1,0 +1,11 @@
+{
+  "policy_key": "ukraine_military_aid",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "This question does not inherently align with a stable left/right ideological spectrum due to its focus on foreign aid and military support, which can be debated based on strategic, humanitarian, or geopolitical considerations rather than partisan ideology.",
+  "evidence_quote": "(No clear conservative/progressive framing provided in the option itself; context-dependent.)",
+  "needs_human_review": true,
+  "review_reason": "The position on Ukraine military aid is often framed as a bipartisan issue with overlapping support from both parties, though debates may emerge based on specific conditions or long-term implications."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "legislative_priorities_question",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "",
+  "evidence_quote": "In a total of seventy-five (75) words or less, please explain what your two main legislative priorities will be if elected. Please explain how you would obtain any additional government funding needed to implement these priorities.",
+  "needs_human_review": true,
+  "review_reason": "The option is an open-ended prompt asking for candidate input rather than a specific policy stance; it lacks inherent ideological direction and cannot be scored without the actual response text."
+}

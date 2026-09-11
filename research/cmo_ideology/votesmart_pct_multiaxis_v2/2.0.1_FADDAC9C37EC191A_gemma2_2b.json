@@ -1,0 +1,18 @@
+{
+  "primary_domain": "criminal_justice",
+  "policy_key": "family_support_enforcement",
+  "plain_english_policy": "strict_enforcement",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "The policy is about restricting the enforcement of family support."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Should a minor accused of a violent crime be prosecuted as an adult?",
+  "needs_human_review": false,
+  "review_reason": "The question asks about the enforcement of family support. This is a policy that restricts the enforcement of family support."
+}

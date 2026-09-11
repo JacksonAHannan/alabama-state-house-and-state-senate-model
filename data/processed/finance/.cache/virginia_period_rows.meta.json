@@ -1,0 +1,9 @@
+{
+  "cache_key": "ef7d0286344133afd30106574cce42d21c1c66d14dfdebfa79f93ee0080c00e2",
+  "code_version": "4a80b160ee6e0bf76ca10097724171f7987fc0f78e0d734e7a027bdb6da92b0c",
+  "committee_index": "data/raw/finance/southern_summaries/VA/matched_candidate_committee_report_indexes_v18.jsonl",
+  "configuration": "virginia-period-parser-v2",
+  "generated_at": "2026-09-01T04:23:15.199966+00:00",
+  "match_audit": "data/processed/source_audits/southern_finance_summary_candidate_matches.csv",
+  "row_count": 10218
+}

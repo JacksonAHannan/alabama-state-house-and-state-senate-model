@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_corporate_tax",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option text does not specify a direction for corporate income tax changes.",
+  "evidence_quote": "j) Corporate income taxes",
+  "needs_human_review": true,
+  "review_reason": "Option is an incomplete list item without stated policy position."
+}

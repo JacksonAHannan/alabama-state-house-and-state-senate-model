@@ -1,0 +1,24 @@
+{
+  "primary_domain": "taxation",
+  "policy_key": "regressive",
+  "plain_english_policy": "Advocates for **no income tax** on mid-income families, implying a preference for lower or zero taxation in this bracket.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "primary",
+      "rationale": "Explicitly targets mid-income families with a tax reduction or elimination, which disproportionately benefits higher earners relative to lower earners (as mid-income brackets are often the least reliant on progressive taxation)."
+    },
+    {
+      "axis": "market_governance",
+      "pole": "market_autonomy",
+      "strength": "secondary",
+      "rationale": "Reducing or eliminating income taxes aligns with minimizing state intervention in economic transactions, favoring market autonomy."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Income taxes (mid-income families)\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

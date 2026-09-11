@@ -1,0 +1,477 @@
+cycle,chamber,district,candidate,canonical_candidate_id,person_id,incumbent,winner,match_status,match_method,similarity,suggested_source_name,shor_u_id,shor_np_score,shor_democratic_caucus_percentile,reference_year,reference_caucus_n,first_observed_service_year,pre_election_service_years,pre_election_same_chamber_years,served_by_election,temporal_status
+1994,house,1,Starkey,AL-1994-house-1-D-STARKEY,ALPERSON-STARKEY,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Starkey, Nelson Jr.",AL1996L101,-0.053,62.857142857142854,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,3,Black,AL-1994-house-3-D-BLACK,ALPERSON-BLACK,0,1,matched,later_1996_roster_name,90.0,"Black, Marcel",AL1996L028,-0.223,42.857142857142854,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,4,Smith,AL-1994-house-4-D-SMITH,ALPERSON-SMITH,0,0,matched,normalized_exact,100.0,Smith,AL1996L005,0.149,84.28571428571429,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,6,Schmitz,AL-1994-house-6-D-SCHMITZ,ALPERSON-SCHMITZ,0,0,matched,normalized_exact,100.0,Schmitz,AL1999L024,-0.187,45.714285714285715,1996.0,70.0,1999.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,7,Letson,AL-1994-house-7-D-LETSON,ALPERSON-LETSON,0,1,matched,later_1996_exact_roster,100.0,Letson,AL1996L003,-0.089,57.14285714285714,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,8,Dukes,AL-1994-house-8-D-DUKES,ALPERSON-DUKES,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Dukes, Bill",AL1996L041,0.059,75.71428571428571,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,12,Morrison,AL-1994-house-12-D-MORRISON,ALPERSON-MORRISON,0,1,matched,normalized_exact,100.0,Morrison,AL1996L020,0.254,88.57142857142857,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,15,Sharp,AL-1994-house-15-D-SHARP,ALPERSON-SHARP,0,0,fuzzy_review,none,72.0,"Harper, Alan",,,,,,,,,,
+1994,house,17,Millican,AL-1994-house-17-D-MILLICAN,ALPERSON-MILLICAN,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Millican, Michael",AL1996L074,0.125,81.42857142857143,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,19,Hall,AL-1994-house-19-D-HALL,ALPERSON-HALL,0,1,matched,later_1996_roster_name,90.0,"Hall, Laura",AL1996L023,-0.611,12.857142857142856,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,26,Mcdaniel,AL-1994-house-26-D-MCDANIEL,ALPERSON-MCDANIEL,0,1,matched,winner_or_incumbent_unique_surname,95.0,"McDaniel, W.",AL1996L049,0.341,94.28571428571428,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,27,Murphree,AL-1994-house-27-D-MURPHREE,ALPERSON-MURPHREE,0,1,matched,normalized_exact,100.0,Murphee,AL1996L026,0.298,90.0,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,28,Ford,AL-1994-house-28-D-FORD,ALPERSON-FORD,0,1,matched,later_1996_roster_name,90.0,"Ford, Joe",AL1996L040,-0.164,48.57142857142857,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,29,Page,AL-1994-house-29-D-PAGE,ALPERSON-PAGE,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Page, John III",AL1996L030,-0.308,37.142857142857146,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,30,Galliher,AL-1994-house-30-D-GALLIHER,ALPERSON-GALLIHER,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Galliher, Blaine",AL1996L052,0.238,87.14285714285714,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,32,Boyd,AL-1994-house-32-D-BOYD,ALPERSON-BOYD,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Boyd, Barbara",AL1996L072,-0.504,25.71428571428571,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,33,Johnson,AL-1994-house-33-D-JOHNSON,ALPERSON-JOHNSON,0,1,matched,later_1996_roster_name,90.0,"Johnson, Ronald",AL1996L019,0.363,97.14285714285714,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,35,Shaddix,AL-1994-house-35-D-SHADDIX,ALPERSON-SHADDIX,0,0,fuzzy_review,none,54.0,"McClammy, Thad",,,,,,,,,,
+1994,house,36,Campbell,AL-1994-house-36-D-CAMPBELL,ALPERSON-CAMPBELL,0,0,fuzzy_review,none,90.0,"McCampbell, Artis",,,,,,,,,,
+1994,house,40,Martin,AL-1994-house-40-D-MARTIN,ALPERSON-MARTIN,0,0,fuzzy_review,none,90.0,"Martin, James",,,,,,,,,,
+1994,house,42,Smith,AL-1994-house-42-D-SMITH,ALPERSON-SMITH,0,1,matched,normalized_exact,100.0,Smith,AL1996L005,0.149,84.28571428571429,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,43,Romei,AL-1994-house-43-D-ROMEI,ALPERSON-ROMEI,0,0,fuzzy_review,none,60.00000000000001,"Scott, Roderick",,,,,,,,,,
+1994,house,46,Jones,AL-1994-house-46-D-JONES,ALPERSON-JONES,0,0,fuzzy_review,none,90.0,"Jones, Patrick",,,,,,,,,,
+1994,house,48,Gulas,AL-1994-house-48-D-GULAS,ALPERSON-GULAS,0,0,fuzzy_review,none,54.0,"Layson, Allen",,,,,,,,,,
+1994,house,49,Holladay,AL-1994-house-49-D-HOLLADAY,ALPERSON-HOLLADAY,0,0,fuzzy_review,none,64.28571428571429,"Hollis, Rolanda",,,,,,,,,,
+1994,house,50,Smith,AL-1994-house-50-D-SMITH,ALPERSON-SMITH,0,0,matched,normalized_exact,100.0,Smith,AL1996L005,0.149,84.28571428571429,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,53,Newton,AL-1994-house-53-D-NEWTON,ALPERSON-NEWTON,0,1,matched,later_1996_roster_name,90.0,"Newton, Demetrius Sr.",AL1996L069,-0.725,4.285714285714286,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,54,Perdue,AL-1994-house-54-D-PERDUE,ALPERSON-PERDUE,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Perdue, George",AL1996L106,-0.66,8.571428571428571,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,55,Minnifield,AL-1994-house-55-D-MINNIFIELD,ALPERSON-MINNIFIELD,0,1,matched,normalized_exact,100.0,Minnifield,AL1996L059,-0.383,31.428571428571427,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,58,Johnson,AL-1994-house-58-D-JOHNSON,ALPERSON-JOHNSON,0,1,matched,later_1996_roster_name,95.0,"Johnson, E",AL1996L057,-0.348,35.714285714285715,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,60,Hillard,AL-1994-house-60-D-HILLARD,ALPERSON-HILLARD,0,1,fuzzy_review,none,77.14285714285715,"Hilliard, Earl Jr.",,,,,,,,,,
+1994,house,62,Allen,AL-1994-house-62-D-ALLEN,ALPERSON-ALLEN,0,1,fuzzy_review,none,90.0,"Layson, Allen",,,,,,,,,,
+1994,house,64,Warren,AL-1994-house-64-D-WARREN,ALPERSON-WARREN,0,1,matched,later_1996_roster_name,90.0,"Warren, James",AL1996L038,-0.063,61.42857142857143,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,65,Dolbare,AL-1994-house-65-D-DOLBARE,ALPERSON-DOLBARE,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Dolbare, Jeff",AL1996L092,-0.017,65.71428571428571,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,66,White,AL-1994-house-66-D-WHITE,ALPERSON-WHITE,0,1,matched,later_1996_roster_name,90.0,"White, Frank Paul",AL1996L103,-0.043,64.28571428571429,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,67,Maull,AL-1994-house-67-D-MAULL,ALPERSON-MAULL,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Maull, Edward",AL1996L076,-0.146,51.42857142857142,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,69,Thomas,AL-1994-house-69-D-THOMAS,ALPERSON-THOMAS,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Thomas, James",AL1996L089,-0.592,18.571428571428573,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,72,Hayden,AL-1994-house-72-D-HAYDEN,ALPERSON-HAYDEN,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Hayden, Andrew",AL1996L037,-0.558,24.285714285714285,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,73,Vaughan,AL-1994-house-73-D-VAUGHAN,ALPERSON-VAUGHAN,0,0,fuzzy_review,none,64.28571428571429,"McLaughlin, Jeffrey",,,,,,,,,,
+1994,house,75,Holley,AL-1994-house-75-D-HOLLEY,ALPERSON-HOLLEY,0,0,fuzzy_review,none,90.0,"Holley, Jimmy",,,,,,,,,,
+1994,house,76,McClammy,AL-1994-house-76-D-MCCLAMMY,ALPERSON-MCCLAMMY,0,1,matched,winner_or_incumbent_unique_surname,90.0,"McClammy, Thad",AL1996L045,-0.728,2.857142857142857,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,79,Turnham,AL-1994-house-79-D-TURNHAM,ALPERSON-TURNHAM,0,1,matched,normalized_exact,100.0,Turnham,AL1996L018,0.059,75.71428571428571,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,80,Vance,AL-1994-house-80-D-VANCE,ALPERSON-VANCE,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Vance, Lesley",AL1996L099,0.047,72.85714285714285,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,85,Baker,AL-1994-house-85-D-BAKER,ALPERSON-BAKER,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Baker, Locy",AL1996L048,-0.301,38.57142857142858,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,86,Carothers,AL-1994-house-86-D-CAROTHERS,ALPERSON-CAROTHERS,0,1,matched,winner_or_incumbent_unique_surname,95.0,"Carothers, Joe Jr.",AL1996L065,0.11,78.57142857142857,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,87,Mathis,AL-1994-house-87-D-MATHIS,ALPERSON-MATHIS,0,0,fuzzy_review,none,65.45454545454547,"McCampbell, Artis",,,,,,,,,,
+1994,house,88,Gipson,AL-1994-house-88-D-GIPSON,ALPERSON-GIPSON,0,1,fuzzy_review,none,72.0,"Coleman-Madison, Linda",,,,,,,,,,
+1994,house,93,Williams,AL-1994-house-93-D-WILLIAMS,ALPERSON-WILLIAMS,0,0,fuzzy_review,none,84.0,"Beasley, William",,,,,,,,,,
+1994,house,95,Mcnair,AL-1994-house-95-D-MCNAIR,ALPERSON-MCNAIR,0,0,fuzzy_review,none,61.53846153846154,McClain,,,,,,,,,,
+1994,house,96,Box,AL-1994-house-96-D-BOX,ALPERSON-BOX,0,1,matched,normalized_exact,100.0,Box,AL1996L073,-0.234,41.42857142857143,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,97,Kennedy,AL-1994-house-97-D-KENNEDY,ALPERSON-KENNEDY,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Kennedy, Yvonne",AL1996L047,-0.663,7.142857142857142,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,103,Mitchell,AL-1994-house-103-D-MITCHELL,ALPERSON-MITCHELL,0,1,matched,later_1996_roster_name,90.0,"Mitchell, Joseph",AL1996L027,-0.367,34.285714285714285,1996.0,70.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,house,104,Rockhold,AL-1994-house-104-D-ROCKHOLD,ALPERSON-ROCKHOLD,0,0,fuzzy_review,none,51.42857142857142,"Grantland, Ronald",,,,,,,,,,
+1994,house,105,Harper,AL-1994-house-105-D-HARPER,ALPERSON-HARPER,0,0,fuzzy_review,none,90.0,"Harper, Alan",,,,,,,,,,
+1994,senate,2,Butler,AL-1994-senate-2-D-BUTLER,ALPERSON-BUTLER,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Butler, Tom",AL1996U014,0.399,91.30434782608695,1996.0,23.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,senate,3,Roberts,AL-1994-senate-3-D-ROBERTS,ALPERSON-ROBERTS,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Roberts, Tommy Ed",AL1996U019,0.436,95.65217391304348,1996.0,23.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,senate,4,Farrar,AL-1994-senate-4-D-FARRAR,ALPERSON-FARRAR,0,0,fuzzy_review,none,60.00000000000001,"Boyd, Barbara",,,,,,,,,,
+1994,senate,5,Wilson,AL-1994-senate-5-D-WILSON,ALPERSON-WILSON,0,0,fuzzy_review,none,72.0,"Coleman-Madison, Linda",,,,,,,,,,
+1994,senate,7,Freeman,AL-1994-senate-7-D-FREEMAN,ALPERSON-FREEMAN,0,1,matched,normalized_exact,100.0,Freeman,AL1996U033,-0.79,30.434782608695656,1996.0,23.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,senate,9,Mitchem,AL-1994-senate-9-D-MITCHEM,ALPERSON-MITCHEM,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Mitchem, Hinton",AL1996U018,-0.109,65.21739130434783,1996.0,23.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,senate,10,Floyd,AL-1994-senate-10-D-FLOYD,ALPERSON-FLOYD,0,0,fuzzy_review,none,67.5,"Boyd, Barbara",,,,,,,,,,
+1994,senate,12,Ghee,AL-1994-senate-12-D-GHEE,ALPERSON-GHEE,0,1,matched,normalized_exact,100.0,Ghee,AL1996U007,-0.349,43.47826086956522,1996.0,23.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,senate,14,Owens,AL-1994-senate-14-D-OWENS,ALPERSON-OWENS,0,0,fuzzy_review,none,60.00000000000001,"Means, Larry",,,,,,,,,,
+1994,senate,18,Smitherman,AL-1994-senate-18-D-SMITHERMAN,ALPERSON-SMITHERMAN,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Smitherman, Rodger",AL1996U027,-0.866,26.08695652173913,1996.0,23.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,senate,22,Lindsey,AL-1994-senate-22-D-LINDSEY,ALPERSON-LINDSEY,0,1,matched,normalized_exact,100.0,Lindsey,AL1996U017,-0.711,34.78260869565217,1996.0,23.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,senate,23,Sanders,AL-1994-senate-23-D-SANDERS,ALPERSON-SANDERS,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Sanders, Henry",AL1996U025,-1.329,4.3478260869565215,1996.0,23.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,senate,25,Anderson,AL-1994-senate-25-D-ANDERSON,ALPERSON-ANDERSON,0,1,fuzzy_review,none,77.14285714285715,"Sanders, Henry",,,,,,,,,,
+1994,senate,27,Little,AL-1994-senate-27-D-LITTLE,ALPERSON-LITTLE,0,1,matched,later_1996_roster_name,90.0,"Little, T.D.",AL1996U008,-0.098,73.91304347826086,1996.0,23.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,senate,28,Clay,AL-1994-senate-28-D-CLAY,ALPERSON-CLAY,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Clay, George",AL1996U029,0.057,82.6086956521739,1996.0,23.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1994,senate,32,Koontz,AL-1994-senate-32-D-KOONTZ,ALPERSON-KOONTZ,0,0,fuzzy_review,none,60.00000000000001,"Jackson, Thomas Jr.",,,,,,,,,,
+1994,senate,34,Sullivan,AL-1994-senate-34-D-SULLIVAN,ALPERSON-SULLIVAN,0,0,fuzzy_review,none,64.28571428571429,"Millican, Michael",,,,,,,,,,
+1994,senate,35,Windom,AL-1994-senate-35-D-WINDOM,ALPERSON-WINDOM,0,1,matched,normalized_exact,100.0,Windom,AL1996U021,0.184,86.95652173913044,1996.0,23.0,1996.0,0.0,0.0,False,1994_later_observed_sensitivity
+1998,house,1,Starkey,AL-1998-house-1-D-STARKEY,ALPERSON-STARKEY,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Starkey, Nelson Jr.",AL1996L101,-0.053,62.857142857142854,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,2,Hamilton,AL-1998-house-2-D-HAMILTON,ALPERSON-HAMILTON,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Hamilton, James",AL1996L058,0.36,95.71428571428572,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,3,Black,AL-1998-house-3-D-BLACK,ALPERSON-BLACK,0,1,matched,election_year_roster_name,90.0,"Black, Marcel",AL1996L028,-0.223,42.857142857142854,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,4,Mancuso,AL-1998-house-4-D-MANCUSO,ALPERSON-MANCUSO,0,1,matched,normalized_exact,100.0,Mancuso,AL1999L086,-0.16,48.57142857142857,1998.0,70.0,1999.0,0.0,0.0,False,later_observed_service_only
+1998,house,5,Carter,AL-1998-house-5-D-CARTER,ALPERSON-CARTER,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Carter, Tommy",AL1996L035,0.092,77.14285714285715,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,6,Schmitz,AL-1998-house-6-D-SCHMITZ,ALPERSON-SCHMITZ,0,1,matched,normalized_exact,100.0,Schmitz,AL1999L024,-0.187,45.714285714285715,1998.0,70.0,1999.0,0.0,0.0,False,later_observed_service_only
+1998,house,8,Dukes,AL-1998-house-8-D-DUKES,ALPERSON-DUKES,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Dukes, Bill",AL1996L041,0.059,75.71428571428571,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,9,Grantland,AL-1998-house-9-D-GRANTLAND,ALPERSON-GRANTLAND,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Grantland, Ronald",AL1999L105,-0.075,57.14285714285714,1998.0,70.0,1999.0,0.0,0.0,False,later_observed_service_only
+1998,house,10,Smith,AL-1998-house-10-D-SMITH,ALPERSON-SMITH,0,0,matched,normalized_exact,100.0,Smith,AL1996L005,0.149,84.28571428571429,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,11,White,AL-1998-house-11-D-WHITE,ALPERSON-WHITE,0,0,fuzzy_review,none,90.0,"White, Henry",,,,,,,,,,
+1998,house,12,Morrison,AL-1998-house-12-D-MORRISON,ALPERSON-MORRISON,0,1,matched,normalized_exact,100.0,Morrison,AL1996L020,0.254,88.57142857142857,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,13,Hogan,AL-1998-house-13-D-HOGAN,ALPERSON-HOGAN,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Hogan, Thomas",AL1996L024,0.007,70.0,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,14,Guin,AL-1998-house-14-D-GUIN,ALPERSON-GUIN,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Guin, James Jr.",AL1996L007,-0.071,58.57142857142858,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,16,Thigpen,AL-1998-house-16-D-THIGPEN,ALPERSON-THIGPEN,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Thigpen, William Sr.",AL1999L079,0.048,72.85714285714285,1998.0,70.0,1999.0,0.0,0.0,False,later_observed_service_only
+1998,house,17,Millican,AL-1998-house-17-D-MILLICAN,ALPERSON-MILLICAN,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Millican, Michael",AL1996L074,0.125,81.42857142857143,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,18,Morrow,AL-1998-house-18-D-MORROW,ALPERSON-MORROW,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Morrow, Johnny",AL1996L034,0.002,67.14285714285714,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,20,Wilburn,AL-1998-house-20-D-WILBURN,ALPERSON-WILBURN,0,0,fuzzy_review,none,55.38461538461539,"Burdine, Greg",,,,,,,,,,
+1998,house,21,Jones,AL-1998-house-21-D-JONES,ALPERSON-JONES,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Jones, Patrick",AL1999L006,-0.197,45.714285714285715,1998.0,70.0,1999.0,0.0,0.0,False,later_observed_service_only
+1998,house,22,Hall,AL-1998-house-22-D-HALL,ALPERSON-HALL,0,1,matched,election_year_roster_name,90.0,"Hall, Albert",AL1996L064,-0.066,60.0,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,23,Robinson,AL-1998-house-23-D-ROBINSON,ALPERSON-ROBINSON,0,1,matched,election_year_roster_name,90.0,"Robinson, John",AL1996L001,-0.169,47.14285714285714,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,24,Burke,AL-1998-house-24-D-BURKE,ALPERSON-BURKE,0,0,matched,normalized_exact,100.0,Burke,AL1996L015,0.012,71.42857142857143,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,25,Hawk,AL-1998-house-25-D-HAWK,ALPERSON-HAWK,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Hawk, Howard",AL1996L013,-0.213,44.285714285714285,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,26,McDaniel,AL-1998-house-26-D-MCDANIEL,ALPERSON-MCDANIEL,0,1,matched,winner_or_incumbent_unique_surname,95.0,"McDaniel, W.",AL1996L049,0.341,94.28571428571428,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,27,Murphree,AL-1998-house-27-D-MURPHREE,ALPERSON-MURPHREE,0,0,matched,normalized_exact,100.0,Murphee,AL1996L026,0.298,90.0,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,28,Ford,AL-1998-house-28-D-FORD,ALPERSON-FORD,0,1,matched,election_year_roster_name,90.0,"Ford, Joe",AL1996L040,-0.164,48.57142857142857,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,29,Page,AL-1998-house-29-D-PAGE,ALPERSON-PAGE,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Page, John III",AL1996L030,-0.308,37.142857142857146,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,30,Galliher,AL-1998-house-30-D-GALLIHER,ALPERSON-GALLIHER,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Galliher, Blaine",AL1996L052,0.238,87.14285714285714,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,31,Venable,AL-1998-house-31-D-VENABLE,ALPERSON-VENABLE,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Venable, Jack",AL1996L053,0.126,82.85714285714286,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,32,Boyd,AL-1998-house-32-D-BOYD,ALPERSON-BOYD,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Boyd, Barbara",AL1996L072,-0.504,25.71428571428571,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,35,Hurst,AL-1998-house-35-D-HURST,ALPERSON-HURST,0,0,fuzzy_review,none,90.0,"Hurst, Steve",,,,,,,,,,
+1998,house,38,Fuller,AL-1998-house-38-D-FULLER,ALPERSON-FULLER,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Fuller, William Jr.",AL1996L102,-0.098,55.714285714285715,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,42,Martin,AL-1998-house-42-D-MARTIN,ALPERSON-MARTIN,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Martin, James",AL1999L007,0.007,70.0,1998.0,70.0,1999.0,0.0,0.0,False,later_observed_service_only
+1998,house,49,Blair,AL-1998-house-49-D-BLAIR,ALPERSON-BLAIR,0,0,fuzzy_review,none,80.0,"Galliher, Blaine",,,,,,,,,,
+1998,house,51,Mullins,AL-1998-house-51-D-MULLINS,ALPERSON-MULLINS,0,0,fuzzy_review,none,71.42857142857143,Collins,,,,,,,,,,
+1998,house,54,Perdue,AL-1998-house-54-D-PERDUE,ALPERSON-PERDUE,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Perdue, George",AL1996L106,-0.66,8.571428571428571,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,55,Major,AL-1998-house-55-D-MAJOR,ALPERSON-MAJOR,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Major, Eric",AL1999L078,-0.62,11.428571428571429,1998.0,70.0,1999.0,0.0,0.0,False,later_observed_service_only
+1998,house,60,Hilliard,AL-1998-house-60-D-HILLIARD,ALPERSON-HILLIARD,0,1,matched,election_year_roster_name,90.0,"Hilliard, John",AL1996L032,-0.646,10.0,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,62,Tingle,AL-1998-house-62-D-TINGLE,ALPERSON-TINGLE,0,0,fuzzy_review,none,75.00000000000001,"Singleton, Bobby",,,,,,,,,,
+1998,house,63,Stanley,AL-1998-house-63-D-STANLEY,ALPERSON-STANLEY,0,0,fuzzy_review,none,65.45454545454547,"Grimsley, Dexter",,,,,,,,,,
+1998,house,64,Warren,AL-1998-house-64-D-WARREN,ALPERSON-WARREN,0,1,matched,election_year_roster_name,90.0,"Warren, James",AL1996L038,-0.063,61.42857142857143,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,65,Dolbare,AL-1998-house-65-D-DOLBARE,ALPERSON-DOLBARE,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Dolbare, Jeff",AL1996L092,-0.017,65.71428571428571,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,66,White,AL-1998-house-66-D-WHITE,ALPERSON-WHITE,0,1,matched,election_year_roster_name,90.0,"White, Frank Paul",AL1996L103,-0.043,64.28571428571429,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,67,Maull,AL-1998-house-67-D-MAULL,ALPERSON-MAULL,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Maull, Edward",AL1996L076,-0.146,51.42857142857142,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,72,Hayden,AL-1998-house-72-D-HAYDEN,ALPERSON-HAYDEN,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Hayden, Andrew",AL1996L037,-0.558,24.285714285714285,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,79,Dempsey,AL-1998-house-79-D-DEMPSEY,ALPERSON-DEMPSEY,0,0,fuzzy_review,none,65.45454545454547,"Newton, Demetrius Sr.",,,,,,,,,,
+1998,house,80,Vance,AL-1998-house-80-D-VANCE,ALPERSON-VANCE,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Vance, Lesley",AL1996L099,0.047,72.85714285714285,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,81,Graham,AL-1998-house-81-D-GRAHAM,ALPERSON-GRAHAM,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Graham, Betty",AL1996L043,-0.209,45.714285714285715,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,84,Beasley,AL-1998-house-84-D-BEASLEY,ALPERSON-BEASLEY,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Beasley, William",AL1999L001,-0.217,42.857142857142854,1998.0,70.0,1999.0,0.0,0.0,False,later_observed_service_only
+1998,house,86,Carothers,AL-1998-house-86-D-CAROTHERS,ALPERSON-CAROTHERS,0,1,matched,winner_or_incumbent_unique_surname,95.0,"Carothers, Joe Jr.",AL1996L065,0.11,78.57142857142857,1998.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,house,87,Mathis,AL-1998-house-87-D-MATHIS,ALPERSON-MATHIS,0,0,fuzzy_review,none,65.45454545454547,"McCampbell, Artis",,,,,,,,,,
+1998,house,89,Boothe,AL-1998-house-89-D-BOOTHE,ALPERSON-BOOTHE,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Boothe, Alan",AL1999L097,0.013,71.42857142857143,1998.0,70.0,1999.0,0.0,0.0,False,later_observed_service_only
+1998,house,91,Spicer,AL-1998-house-91-D-SPICER,ALPERSON-SPICER,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Spicer, Terry",AL1999L066,-0.128,52.85714285714286,1998.0,70.0,1999.0,0.0,0.0,False,later_observed_service_only
+1998,house,95,Pfeifer,AL-1998-house-95-D-PFEIFER,ALPERSON-PFEIFER,0,0,fuzzy_review,none,55.38461538461539,"Spicer, Terry",,,,,,,,,,
+1998,house,96,Eason,AL-1998-house-96-D-EASON,ALPERSON-EASON,0,0,fuzzy_review,none,72.72727272727273,Letson,,,,,,,,,,
+1998,house,102,Pace,AL-1998-house-102-D-PACE,ALPERSON-PACE,0,0,fuzzy_review,none,67.5,"Black, Marcel",,,,,,,,,,
+1998,house,104,Rockhold,AL-1998-house-104-D-ROCKHOLD,ALPERSON-ROCKHOLD,0,0,fuzzy_review,none,51.42857142857142,"Grantland, Ronald",,,,,,,,,,
+1998,house,105,Straub,AL-1998-house-105-D-STRAUB,ALPERSON-STRAUB,0,0,fuzzy_review,none,50.0,Spratt,,,,,,,,,,
+1998,senate,1,Denton,AL-1998-senate-1-D-DENTON,ALPERSON-DENTON,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Denton, Bobby",AL1996U023,-0.311,54.54545454545454,1998.0,22.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,senate,2,Butler,AL-1998-senate-2-D-BUTLER,ALPERSON-BUTLER,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Butler, Tom",AL1996U014,0.399,90.9090909090909,1998.0,22.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,senate,3,Roberts,AL-1998-senate-3-D-ROBERTS,ALPERSON-ROBERTS,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Roberts, Tommy Ed",AL1996U019,0.436,95.45454545454545,1998.0,22.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,senate,4,Little,AL-1998-senate-4-D-LITTLE,ALPERSON-LITTLE,0,1,fuzzy_review,none,90.0,"Little, Zebulon Sr.",,,,,,,,,,
+1998,senate,5,Bishop,AL-1998-senate-5-D-BISHOP,ALPERSON-BISHOP,0,0,fuzzy_review,none,60.00000000000001,"Robinson, Oliver",,,,,,,,,,
+1998,senate,6,Bedford,AL-1998-senate-6-D-BEDFORD,ALPERSON-BEDFORD,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Bedford, Roger Jr.",AL1996U022,-0.396,40.909090909090914,1998.0,22.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,senate,7,Batts,AL-1998-senate-7-D-BATTS,ALPERSON-BATTS,0,0,fuzzy_review,none,60.00000000000001,"Beasley, William",,,,,,,,,,
+1998,senate,8,Barron,AL-1998-senate-8-D-BARRON,ALPERSON-BARRON,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Barron, Lowell",AL1996U020,-0.345,50.0,1998.0,22.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,senate,9,Mitchem,AL-1998-senate-9-D-MITCHEM,ALPERSON-MITCHEM,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Mitchem, Hinton",AL1996U018,-0.109,68.18181818181817,1998.0,22.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,senate,10,Means,AL-1998-senate-10-D-MEANS,ALPERSON-MEANS,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Means, Larry",AL1999U030,0.143,86.36363636363636,1998.0,22.0,1999.0,0.0,0.0,False,later_observed_service_only
+1998,senate,11,Preuitt,AL-1998-senate-11-D-PREUITT,ALPERSON-PREUITT,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Preuitt, Jim",AL1999U005,0.205,86.36363636363636,1998.0,22.0,1999.0,0.0,0.0,False,later_observed_service_only
+1998,senate,12,Thomas,AL-1998-senate-12-D-THOMAS,ALPERSON-THOMAS,0,0,fuzzy_review,none,90.0,"Sherer, Thomas",,,,,,,,,,
+1998,senate,13,Dial,AL-1998-senate-13-D-DIAL,ALPERSON-DIAL,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Dial, Gerald",AL1996U024,0.575,100.0,1998.0,22.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,senate,14,Robinson,AL-1998-senate-14-D-ROBINSON,ALPERSON-ROBINSON,0,0,fuzzy_review,none,90.0,"Robinson, Oliver",,,,,,,,,,
+1998,senate,16,Johns,AL-1998-senate-16-D-JOHNS,ALPERSON-JOHNS,0,0,fuzzy_review,none,90.0,"Johnson, Anthony",,,,,,,,,,
+1998,senate,18,Morrow,AL-1998-senate-18-D-MORROW,ALPERSON-MORROW,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Morrow, Johnny",AL1996L034,0.002,77.27272727272727,1998.0,22.0,1996.0,3.0,0.0,True,pre_election_service_available
+1998,senate,20,Escott,AL-1998-senate-20-D-ESCOTT,ALPERSON-ESCOTT,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Escott, Sundra",AL1996U010,-0.946,18.181818181818183,1998.0,22.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,senate,21,Poole,AL-1998-senate-21-D-POOLE,ALPERSON-POOLE,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Poole, Phil",AL1996U005,-0.161,59.09090909090909,1998.0,22.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,senate,22,Lindsey,AL-1998-senate-22-D-LINDSEY,ALPERSON-LINDSEY,0,1,matched,normalized_exact,100.0,Lindsey,AL1996U017,-0.711,36.36363636363637,1998.0,22.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,senate,24,Steele,AL-1998-senate-24-D-STEELE,ALPERSON-STEELE,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Steele, Charles Jr.",AL1996U003,-1.214,13.636363636363635,1998.0,22.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,senate,25,Chappell,AL-1998-senate-25-D-CHAPPELL,ALPERSON-CHAPPELL,0,0,fuzzy_review,none,69.23076923076923,"Mitchell, Joseph",,,,,,,,,,
+1998,senate,26,Langford,AL-1998-senate-26-D-LANGFORD,ALPERSON-LANGFORD,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Langford, Charles",AL1996U026,-1.22,9.090909090909092,1998.0,22.0,1996.0,3.0,3.0,True,pre_election_service_available
+1998,senate,27,Little,AL-1998-senate-27-D-LITTLE,ALPERSON-LITTLE,0,1,fuzzy_review,none,90.0,"Little, Zebulon Sr.",,,,,,,,,,
+1998,senate,29,Palmer,AL-1998-senate-29-D-PALMER,ALPERSON-PALMER,0,0,fuzzy_review,none,65.45454545454547,"Hall, Albert",,,,,,,,,,
+1998,senate,30,Mitchell,AL-1998-senate-30-D-MITCHELL,ALPERSON-MITCHELL,0,1,fuzzy_review,none,90.0,"Mitchell, Wendell",,,,,,,,,,
+1998,senate,31,Holley,AL-1998-senate-31-D-HOLLEY,ALPERSON-HOLLEY,0,0,fuzzy_review,none,90.0,"Holley, Jimmy",,,,,,,,,,
+1998,senate,32,Jensen,AL-1998-senate-32-D-JENSEN,ALPERSON-JENSEN,0,0,fuzzy_review,none,60.00000000000001,"Penn, Myron",,,,,,,,,,
+1998,senate,35,Staten,AL-1998-senate-35-D-STATEN,ALPERSON-STATEN,0,0,fuzzy_review,none,60.00000000000001,"Hurst, Steve",,,,,,,,,,
+2002,house,1,"Starkey, Nelson",AL-2002-house-1-D-STARKEY-NELSON,ALPERSON-STARKEY-NELSON,0,1,matched,normalized_exact,100.0,"Starkey, Nelson Jr.",AL1996L101,-0.053,62.857142857142854,2002.0,70.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,house,2,"Pettus, Mary",AL-2002-house-2-D-PETTUS-MARY,ALPERSON-PETTUS-MARY,0,0,fuzzy_review,none,57.14285714285714,"Moore, Mary",,,,,,,,,,
+2002,house,3,"Black, Marcel",AL-2002-house-3-D-BLACK-MARCEL,ALPERSON-BLACK-MARCEL,0,1,matched,normalized_exact,100.0,"Black, Marcel",AL1996L028,-0.223,40.0,2002.0,70.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,house,4,"Hansberry, Cathy",AL-2002-house-4-D-HANSBERRY-CATHY,ALPERSON-HANSBERRY-CATHY,0,0,fuzzy_review,none,53.84615384615385,"Tanner, Gary",,,,,,,,,,
+2002,house,5,"Carter, Tommy",AL-2002-house-5-D-CARTER-TOMMY,ALPERSON-CARTER-TOMMY,0,1,matched,normalized_exact,100.0,"Carter, Tommy",AL1996L035,0.092,80.0,2002.0,70.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,house,6,"Schmitz, Sue",AL-2002-house-6-D-SCHMITZ-SUE,ALPERSON-SCHMITZ-SUE,0,1,matched,winner_or_incumbent_unique_surname,90.0,Schmitz,AL1999L024,-0.187,45.714285714285715,2002.0,70.0,1999.0,4.0,4.0,True,pre_election_service_available
+2002,house,7,"Letson, John (Jody)",AL-2002-house-7-D-LETSON-JOHN-JODY,ALPERSON-LETSON-JOHN-JODY,0,1,matched,election_year_roster_name,90.0,Letson,AL1999L003,-0.13,54.285714285714285,2002.0,70.0,1999.0,4.0,4.0,True,pre_election_service_available
+2002,house,8,"Dukes, Bill J.",AL-2002-house-8-D-DUKES-BILL-J,ALPERSON-DUKES-BILL-J,0,1,matched,winner_or_incumbent_unique_surname,95.0,"Dukes, Bill",AL1996L041,0.059,78.57142857142857,2002.0,70.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,house,9,"Grantland, Ronald",AL-2002-house-9-D-GRANTLAND-RONALD,ALPERSON-GRANTLAND-RONALD,0,1,matched,normalized_exact,100.0,"Grantland, Ronald",AL1999L105,-0.075,57.14285714285714,2002.0,70.0,1999.0,4.0,4.0,True,pre_election_service_available
+2002,house,10,"Smith, Pam",AL-2002-house-10-D-SMITH-PAM,ALPERSON-SMITH-PAM,0,0,fuzzy_review,none,90.0,Smith,,,,,,,,,,
+2002,house,11,"Maze, Dennis E.",AL-2002-house-11-D-MAZE-DENNIS-E,ALPERSON-MAZE-DENNIS-E,0,0,fuzzy_review,none,51.42857142857142,Drake,,,,,,,,,,
+2002,house,12,"Morrison, Neal",AL-2002-house-12-D-MORRISON-NEAL,ALPERSON-MORRISON-NEAL,0,1,matched,winner_or_incumbent_unique_surname,90.0,Morrison,AL1996L020,0.254,91.42857142857143,2002.0,70.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,house,13,"Sherer, Tommy",AL-2002-house-13-D-SHERER-TOMMY,ALPERSON-SHERER-TOMMY,0,1,matched,winner_or_incumbent_unique_surname,80.0,"Sherer, Thomas",AL2003L082,-0.043,64.28571428571429,2002.0,70.0,2003.0,0.0,0.0,False,later_observed_service_only
+2002,house,14,"Guin, Ken",AL-2002-house-14-D-GUIN-KEN,ALPERSON-GUIN-KEN,0,1,matched,normalized_exact,100.0,"Guin, James Jr.",AL1996L007,-0.071,58.57142857142858,2002.0,70.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,house,16,"Thigpen, Williams E.",AL-2002-house-16-D-THIGPEN-WILLIAMS-E,ALPERSON-THIGPEN-WILLIAMS-E,0,1,matched,winner_or_incumbent_unique_surname,90.9090909090909,"Thigpen, William Sr.",AL1999L079,0.048,77.14285714285715,2002.0,70.0,1999.0,4.0,4.0,True,pre_election_service_available
+2002,house,17,"Millican, Mike",AL-2002-house-17-D-MILLICAN-MIKE,ALPERSON-MILLICAN-MIKE,0,1,matched,winner_or_incumbent_unique_surname,82.75862068965517,"Millican, Michael",AL1996L074,0.125,85.71428571428571,2002.0,70.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,house,20,"Miller, Jeff",AL-2002-house-20-D-MILLER-JEFF,ALPERSON-MILLER-JEFF,0,0,fuzzy_review,none,63.33333333333332,"Enfinger, Jeff",,,,,,,,,,
+2002,house,21,"Hinshaw, Randy",AL-2002-house-21-D-HINSHAW-RANDY,ALPERSON-HINSHAW-RANDY,0,1,matched,normalized_exact,100.0,"Hinshaw, Randy",AL1996L056,-0.113,55.714285714285715,2002.0,70.0,1996.0,3.0,3.0,True,pre_election_service_available
+2002,house,22,"Hall, Albert",AL-2002-house-22-D-HALL-ALBERT,ALPERSON-HALL-ALBERT,0,1,matched,normalized_exact,100.0,"Hall, Albert",AL1996L064,-0.066,60.0,2002.0,70.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,house,24,"Hendrix, J. Luther",AL-2002-house-24-D-HENDRIX-J-LUTHER,ALPERSON-HENDRIX-J-LUTHER,0,0,fuzzy_review,none,60.00000000000001,Ghee,,,,,,,,,,
+2002,house,25,"Miles, Pam",AL-2002-house-25-D-MILES-PAM,ALPERSON-MILES-PAM,0,0,fuzzy_review,none,57.14285714285714,"Fields, James Jr.",,,,,,,,,,
+2002,house,26,"McDaniel, Frank",AL-2002-house-26-D-MCDANIEL-FRANK,ALPERSON-MCDANIEL-FRANK,0,1,matched,winner_or_incumbent_unique_surname,84.44444444444444,"McDaniel, W.",AL1996L049,0.341,94.28571428571428,2002.0,70.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,house,28,"Ford, Craig",AL-2002-house-28-D-FORD-CRAIG,ALPERSON-FORD-CRAIG,0,1,matched,normalized_exact,100.0,"Ford, Craig",AL2001L039,-0.152,50.0,2002.0,70.0,2001.0,2.0,2.0,True,pre_election_service_available
+2002,house,29,"Page, Jack",AL-2002-house-29-D-PAGE-JACK,ALPERSON-PAGE-JACK,0,1,matched,normalized_exact,100.0,"Page, John III",AL1996L030,-0.308,37.142857142857146,2002.0,70.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,house,31,"Venable, Jack B.",AL-2002-house-31-D-VENABLE-JACK-B,ALPERSON-VENABLE-JACK-B,0,1,matched,winner_or_incumbent_unique_surname,95.0,"Venable, Jack",AL1996L053,0.126,87.14285714285714,2002.0,70.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,house,32,"Boyd, Barbara Bigsby",AL-2002-house-32-D-BOYD-BARBARA-BIGSBY,ALPERSON-BOYD-BARBARA-BIGSBY,0,1,matched,winner_or_incumbent_unique_surname,85.5,"Boyd, Barbara",AL1996L072,-0.504,27.142857142857142,2002.0,70.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,house,33,"Curtis, Clara",AL-2002-house-33-D-CURTIS-CLARA,ALPERSON-CURTIS-CLARA,0,0,fuzzy_review,none,67.05882352941177,"Curtis, Mike",,,,,,,,,,
+2002,house,35,"Hurst, Steve",AL-2002-house-35-D-HURST-STEVE,ALPERSON-HURST-STEVE,0,1,matched,normalized_exact,100.0,"Hurst, Steve",AL1999L048,0.093,81.42857142857143,2002.0,70.0,1999.0,4.0,4.0,True,pre_election_service_available
+2002,house,36,"Chandler, Wayne",AL-2002-house-36-D-CHANDLER-WAYNE,ALPERSON-CHANDLER-WAYNE,0,0,fuzzy_review,none,59.25925925925925,"Hayden, Andrew",,,,,,,,,,
+2002,house,37,"Laird, Richard",AL-2002-house-37-D-LAIRD-RICHARD,ALPERSON-LAIRD-RICHARD,0,1,matched,normalized_exact,100.0,"Laird, Richard Sr.",AL1996L091,0.414,100.0,2002.0,70.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,house,38,"Patterson, Arthur Frank, Jr.",AL-2002-house-38-D-PATTERSON-ARTHUR-FRANK-JR,ALPERSON-PATTERSON-ARTHUR-FRANK-JR,0,0,fuzzy_review,none,65.45454545454547,Letson,,,,,,,,,,
+2002,house,40,"Fite, Lea",AL-2002-house-40-D-FITE-LEA,ALPERSON-FITE-LEA,0,1,matched,normalized_exact,100.0,"Fite, Lea",AL2003L075,0.105,81.42857142857143,2002.0,70.0,2003.0,0.0,0.0,False,later_observed_service_only
+2002,house,41,"McKinzie, Mack",AL-2002-house-41-D-MCKINZIE-MACK,ALPERSON-MCKINZIE-MACK,0,0,fuzzy_review,none,56.00000000000001,"Black, Marcel",,,,,,,,,,
+2002,house,42,"Martin, James M. ""Jimmy""",AL-2002-house-42-D-MARTIN-JAMES-M-JIMMY,ALPERSON-MARTIN-JAMES-M-JIMMY,0,1,matched,winner_or_incumbent_unique_surname,85.5,"Martin, James",AL1999L007,0.007,72.85714285714285,2002.0,70.0,1999.0,4.0,4.0,True,pre_election_service_available
+2002,house,50,"Quarles, Marilyn",AL-2002-house-50-D-QUARLES-MARILYN,ALPERSON-QUARLES-MARILYN,0,0,fuzzy_review,none,60.00000000000001,Bailey,,,,,,,,,,
+2002,house,59,"Moore, Mary",AL-2002-house-59-D-MOORE-MARY,ALPERSON-MOORE-MARY,0,1,matched,normalized_exact,100.0,"Moore, Mary",AL2003L022,-0.802,0.0,2002.0,70.0,2003.0,0.0,0.0,False,later_observed_service_only
+2002,house,62,"Merrill, John H.",AL-2002-house-62-D-MERRILL-JOHN-H,ALPERSON-MERRILL-JOHN-H,0,0,fuzzy_review,none,85.5,"Page, John III",,,,,,,,,,
+2002,house,63,"VanderMeer, Jeanette",AL-2002-house-63-D-VANDERMEER-JEANETTE,ALPERSON-VANDERMEER-JEANETTE,0,0,fuzzy_review,none,67.5,Reed,,,,,,,,,,
+2002,house,64,"Warren, J.E. ""Jimmy""",AL-2002-house-64-D-WARREN-J-E-JIMMY,ALPERSON-WARREN-J-E-JIMMY,0,0,fuzzy_review,none,85.5,"Johnson, E",,,,,,,,,,
+2002,house,65,"Dolbare, Jeff",AL-2002-house-65-D-DOLBARE-JEFF,ALPERSON-DOLBARE-JEFF,0,1,matched,normalized_exact,100.0,"Dolbare, Jeff",AL1996L092,-0.017,65.71428571428571,2002.0,70.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,house,67,"Salaam, Y.",AL-2002-house-67-D-SALAAM-Y,ALPERSON-SALAAM-Y,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Salaam, Yusuf",AL2003L087,-0.421,32.857142857142854,2002.0,70.0,2003.0,0.0,0.0,False,later_observed_service_only
+2002,house,70,"Melton, Bryant",AL-2002-house-70-D-MELTON-BRYANT,ALPERSON-MELTON-BRYANT,0,1,matched,normalized_exact,100.0,"Melton, Bryant Jr.",AL1996L071,-0.581,24.285714285714285,2002.0,70.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,house,74,"Ott, Ruth Mitchell",AL-2002-house-74-D-OTT-RUTH-MITCHELL,ALPERSON-OTT-RUTH-MITCHELL,0,0,fuzzy_review,none,72.0,Smith,,,,,,,,,,
+2002,house,76,"McClammy, Thad",AL-2002-house-76-D-MCCLAMMY-THAD,ALPERSON-MCCLAMMY-THAD,0,1,matched,normalized_exact,100.0,"McClammy, Thad",AL1996L045,-0.728,2.857142857142857,2002.0,70.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,house,81,"Graham, Betty Carol",AL-2002-house-81-D-GRAHAM-BETTY-CAROL,ALPERSON-GRAHAM-BETTY-CAROL,0,1,matched,winner_or_incumbent_unique_surname,85.5,"Graham, Betty",AL1996L043,-0.209,42.857142857142854,2002.0,70.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,house,85,"Baker, Locy ""Sunny""",AL-2002-house-85-D-BAKER-LOCY-SUNNY,ALPERSON-BAKER-LOCY-SUNNY,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Baker, Locy",AL1996L048,-0.301,38.57142857142858,2002.0,70.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,house,87,"Hutto, Mickey A.",AL-2002-house-87-D-HUTTO-MICKEY-A,ALPERSON-HUTTO-MICKEY-A,0,0,fuzzy_review,none,57.14285714285714,"Houston, Tommie",,,,,,,,,,
+2002,house,91,"Spicer, Terry",AL-2002-house-91-D-SPICER-TERRY,ALPERSON-SPICER-TERRY,0,1,matched,normalized_exact,100.0,"Spicer, Terry",AL1999L066,-0.128,55.714285714285715,2002.0,70.0,1999.0,4.0,4.0,True,pre_election_service_available
+2002,house,92,"Hammett, Seth",AL-2002-house-92-D-HAMMETT-SETH,ALPERSON-HAMMETT-SETH,0,1,matched,normalized_exact,100.0,"Hammett, Seth",AL1996L078,0.004,70.0,2002.0,70.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,house,102,"Johnson, Gary",AL-2002-house-102-D-JOHNSON-GARY,ALPERSON-JOHNSON-GARY,0,0,fuzzy_review,none,83.125,"Johnson, E",,,,,,,,,,
+2002,house,104,"Webster, Daniel J.",AL-2002-house-104-D-WEBSTER-DANIEL-J,ALPERSON-WEBSTER-DANIEL-J,0,0,fuzzy_review,none,74.11764705882352,"McDaniel, W.",,,,,,,,,,
+2002,senate,1,"Denton, Bobby",AL-2002-senate-1-D-DENTON-BOBBY,ALPERSON-DENTON-BOBBY,0,1,matched,normalized_exact,100.0,"Denton, Bobby",AL1996U023,-0.311,45.83333333333333,2002.0,24.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,senate,2,"Butler, Tom",AL-2002-senate-2-D-BUTLER-TOM,ALPERSON-BUTLER-TOM,0,1,matched,normalized_exact,100.0,"Butler, Tom",AL1996U014,0.399,87.5,2002.0,24.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,senate,3,"Roberts, Tommy Ed",AL-2002-senate-3-D-ROBERTS-TOMMY-ED,ALPERSON-ROBERTS-TOMMY-ED,0,1,matched,normalized_exact,100.0,"Roberts, Tommy Ed",AL1996U019,0.436,91.66666666666666,2002.0,24.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,senate,4,"Little, Zeb",AL-2002-senate-4-D-LITTLE-ZEB,ALPERSON-LITTLE-ZEB,0,1,matched,election_year_roster_name,83.33333333333334,"Little, Zebulon Sr.",AL1999U019,-0.594,33.33333333333333,2002.0,24.0,1999.0,4.0,4.0,True,pre_election_service_available
+2002,senate,5,"Dutton, John Randall",AL-2002-senate-5-D-DUTTON-JOHN-RANDALL,ALPERSON-DUTTON-JOHN-RANDALL,0,0,fuzzy_review,none,85.5,"Rogers, John Jr.",,,,,,,,,,
+2002,senate,6,"Bedford, Roger",AL-2002-senate-6-D-BEDFORD-ROGER,ALPERSON-BEDFORD-ROGER,0,1,matched,normalized_exact,100.0,"Bedford, Roger Jr.",AL1996U022,-0.396,37.5,2002.0,24.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,senate,7,"Enfinger, Jeff",AL-2002-senate-7-D-ENFINGER-JEFF,ALPERSON-ENFINGER-JEFF,0,1,matched,normalized_exact,100.0,"Enfinger, Jeff",AL1999U035,-0.022,70.83333333333334,2002.0,24.0,2000.0,3.0,3.0,True,pre_election_service_available
+2002,senate,8,"Barron, Lowell",AL-2002-senate-8-D-BARRON-LOWELL,ALPERSON-BARRON-LOWELL,0,1,matched,normalized_exact,100.0,"Barron, Lowell",AL1996U020,-0.345,41.66666666666667,2002.0,24.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,senate,9,"Mitchem, Hinton",AL-2002-senate-9-D-MITCHEM-HINTON,ALPERSON-MITCHEM-HINTON,0,0,matched,normalized_exact,100.0,"Mitchem, Hinton",AL1996U018,-0.109,58.333333333333336,2002.0,24.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,senate,10,"Means, Larry",AL-2002-senate-10-D-MEANS-LARRY,ALPERSON-MEANS-LARRY,0,1,matched,normalized_exact,100.0,"Means, Larry",AL1999U030,0.143,79.16666666666666,2002.0,24.0,1999.0,4.0,4.0,True,pre_election_service_available
+2002,senate,11,"Preiutt, Jim",AL-2002-senate-11-D-PREIUTT-JIM,ALPERSON-PREIUTT-JIM,0,1,matched,election_year_roster_name,90.9090909090909,"Preuitt, Jim",AL1999U005,0.205,83.33333333333334,2002.0,24.0,1999.0,4.0,4.0,True,pre_election_service_available
+2002,senate,12,"Gray, Preston R., Jr.",AL-2002-senate-12-D-GRAY-PRESTON-R-JR,ALPERSON-GRAY-PRESTON-R-JR,0,0,fuzzy_review,none,60.00000000000001,Letson,,,,,,,,,,
+2002,senate,15,"Turner, John",AL-2002-senate-15-D-TURNER-JOHN,ALPERSON-TURNER-JOHN,0,0,fuzzy_review,none,72.72727272727273,"Rogers, John Jr.",,,,,,,,,,
+2002,senate,17,"Moore, Caroline B.",AL-2002-senate-17-D-MOORE-CAROLINE-B,ALPERSON-MOORE-CAROLINE-B,0,0,fuzzy_review,none,85.5,"Moore, Mary",,,,,,,,,,
+2002,senate,19,"McClain, E.B.",AL-2002-senate-19-D-MCCLAIN-E-B,ALPERSON-MCCLAIN-E-B,0,1,matched,winner_or_incumbent_unique_surname,90.0,McClain,AL1996U009,-0.106,62.5,2002.0,24.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,senate,21,"Poole, Phil",AL-2002-senate-21-D-POOLE-PHIL,ALPERSON-POOLE-PHIL,0,1,matched,normalized_exact,100.0,"Poole, Phil",AL1996U005,-0.161,50.0,2002.0,24.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,senate,22,"Lindsey, Pat",AL-2002-senate-22-D-LINDSEY-PAT,ALPERSON-LINDSEY-PAT,0,1,matched,election_year_roster_name,90.0,Lindsey,AL1996U017,-0.711,29.166666666666668,2002.0,24.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,senate,23,"Sanders, Hank",AL-2002-senate-23-D-SANDERS-HANK,ALPERSON-SANDERS-HANK,0,1,matched,winner_or_incumbent_unique_surname,80.0,"Sanders, Henry",AL1996U025,-1.329,4.166666666666666,2002.0,24.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,senate,25,"Cox, Hobson",AL-2002-senate-25-D-COX-HOBSON,ALPERSON-COX-HOBSON,0,0,fuzzy_review,none,60.86956521739131,"Robinson, John",,,,,,,,,,
+2002,senate,26,"Ross, Quinton T.",AL-2002-senate-26-D-ROSS-QUINTON-T,ALPERSON-ROSS-QUINTON-T,0,1,matched,winner_or_incumbent_unique_surname,95.0,"Ross, Quinton Jr.",AL2003U023,-1.109,12.5,2002.0,24.0,2003.0,0.0,0.0,False,later_observed_service_only
+2002,senate,27,"Little, T.D. (Ted)",AL-2002-senate-27-D-LITTLE-T-D-TED,ALPERSON-LITTLE-T-D-TED,0,1,matched,normalized_exact,100.0,"Little, T.D.",AL1996U008,-0.098,66.66666666666666,2002.0,24.0,1996.0,7.0,7.0,True,pre_election_service_available
+2002,senate,31,"Holley, Jimmy W.",AL-2002-senate-31-D-HOLLEY-JIMMY-W,ALPERSON-HOLLEY-JIMMY-W,0,1,matched,winner_or_incumbent_unique_surname,95.0,"Holley, Jimmy",AL1999U029,0.516,95.83333333333334,2002.0,24.0,1999.0,4.0,4.0,True,pre_election_service_available
+2002,senate,35,"Tanner, Gary",AL-2002-senate-35-D-TANNER-GARY,ALPERSON-TANNER-GARY,0,1,matched,normalized_exact,100.0,"Tanner, Gary",AL2003U029,-0.455,33.33333333333333,2002.0,24.0,2003.0,0.0,0.0,False,later_observed_service_only
+2006,house,4,SUE MITCHELL,AL-2006-house-4-D-SUE-MITCHELL,ALPERSON-SUE-MITCHELL,0,0,fuzzy_review,none,77.4074074074074,"Mitchell, Joseph",,,,,,,,,,
+2006,house,6,SUE SCHMITZ,AL-2006-house-6-D-SUE-SCHMITZ,ALPERSON-SUE-SCHMITZ,0,1,matched,winner_or_incumbent_unique_surname,90.0,Schmitz,AL1999L024,-0.187,51.66666666666667,2006.0,60.0,1999.0,8.0,8.0,True,pre_election_service_available
+2006,house,7,"JOHN ""JODY"" LETSON",AL-2006-house-7-D-JOHN-JODY-LETSON,ALPERSON-JOHN-JODY-LETSON,0,1,fuzzy_review,none,90.0,Letson,,,,,,,,,,
+2006,house,9,RONALD GRANTLAND,AL-2006-house-9-D-RONALD-GRANTLAND,ALPERSON-RONALD-GRANTLAND,0,1,matched,normalized_exact,100.0,"Grantland, Ronald",AL1999L105,-0.075,63.33333333333333,2006.0,60.0,1999.0,8.0,8.0,True,pre_election_service_available
+2006,house,11,JIM BOYD,AL-2006-house-11-D-JIM-BOYD,ALPERSON-JIM-BOYD,0,0,fuzzy_review,none,85.5,"Boyd, Barbara",,,,,,,,,,
+2006,house,12,NEAL MORRISON,AL-2006-house-12-D-NEAL-MORRISON,ALPERSON-NEAL-MORRISON,0,1,matched,winner_or_incumbent_unique_surname,90.0,Morrison,AL1996L020,0.254,95.0,2006.0,60.0,1996.0,11.0,11.0,True,pre_election_service_available
+2006,house,13,TOMMY SHERER,AL-2006-house-13-D-TOMMY-SHERER,ALPERSON-TOMMY-SHERER,0,1,matched,winner_or_incumbent_unique_surname,80.0,"Sherer, Thomas",AL2003L082,-0.043,70.0,2006.0,60.0,2003.0,4.0,4.0,True,pre_election_service_available
+2006,house,17,MIKE MILLICAN,AL-2006-house-17-D-MIKE-MILLICAN,ALPERSON-MIKE-MILLICAN,0,1,matched,winner_or_incumbent_unique_surname,82.75862068965517,"Millican, Michael",AL1996L074,0.125,91.66666666666666,2006.0,60.0,1996.0,11.0,11.0,True,pre_election_service_available
+2006,house,21,RANDY HINSHAW,AL-2006-house-21-D-RANDY-HINSHAW,ALPERSON-RANDY-HINSHAW,0,1,matched,normalized_exact,100.0,"Hinshaw, Randy",AL1996L056,-0.113,61.66666666666667,2006.0,60.0,1996.0,7.0,7.0,True,pre_election_service_available
+2006,house,26,FRANK MCDANIEL,AL-2006-house-26-D-FRANK-MCDANIEL,ALPERSON-FRANK-MCDANIEL,0,1,matched,winner_or_incumbent_unique_surname,84.44444444444444,"McDaniel, W.",AL1996L049,0.341,96.66666666666667,2006.0,60.0,1996.0,11.0,11.0,True,pre_election_service_available
+2006,house,28,CRAIG FORD,AL-2006-house-28-D-CRAIG-FORD,ALPERSON-CRAIG-FORD,0,1,matched,normalized_exact,100.0,"Ford, Craig",AL2001L039,-0.152,55.00000000000001,2006.0,60.0,2001.0,6.0,6.0,True,pre_election_service_available
+2006,house,29,"JOHN G. ""JACK"" PAGE, III",AL-2006-house-29-D-JOHN-G-JACK-PAGE-III,ALPERSON-JOHN-G-JACK-PAGE-III,0,1,matched,winner_or_incumbent_unique_surname,90.0,"Page, John III",AL1996L030,-0.308,43.333333333333336,2006.0,60.0,1996.0,11.0,11.0,True,pre_election_service_available
+2006,house,32,BARBARA BIGSBY BOYD,AL-2006-house-32-D-BARBARA-BIGSBY-BOYD,ALPERSON-BARBARA-BIGSBY-BOYD,0,1,matched,winner_or_incumbent_unique_surname,85.5,"Boyd, Barbara",AL1996L072,-0.504,33.33333333333333,2006.0,60.0,1996.0,11.0,11.0,True,pre_election_service_available
+2006,house,33,CLARA L. CURTIS,AL-2006-house-33-D-CLARA-L-CURTIS,ALPERSON-CLARA-L-CURTIS,0,0,fuzzy_review,none,67.05882352941177,"Curtis, Mike",,,,,,,,,,
+2006,house,34,JEREMY P. SHERER,AL-2006-house-34-D-JEREMY-P-SHERER,ALPERSON-JEREMY-P-SHERER,0,0,fuzzy_review,none,85.5,"Parker, P",,,,,,,,,,
+2006,house,35,STEVE HURST,AL-2006-house-35-D-STEVE-HURST,ALPERSON-STEVE-HURST,0,1,matched,normalized_exact,100.0,"Hurst, Steve",AL1999L048,0.093,86.66666666666667,2006.0,60.0,1999.0,8.0,8.0,True,pre_election_service_available
+2006,house,37,RICHARD LAIRD,AL-2006-house-37-D-RICHARD-LAIRD,ALPERSON-RICHARD-LAIRD,0,1,matched,normalized_exact,100.0,"Laird, Richard Sr.",AL1996L091,0.414,100.0,2006.0,60.0,1996.0,11.0,11.0,True,pre_election_service_available
+2006,house,38,MARK CARLTON,AL-2006-house-38-D-MARK-CARLTON,ALPERSON-MARK-CARLTON,0,0,fuzzy_review,none,60.00000000000001,Letson,,,,,,,,,,
+2006,house,40,LEA FITE,AL-2006-house-40-D-LEA-FITE,ALPERSON-LEA-FITE,0,1,matched,normalized_exact,100.0,"Fite, Lea",AL2003L075,0.105,88.33333333333333,2006.0,60.0,2003.0,4.0,4.0,True,pre_election_service_available
+2006,house,42,JAMES M. (JIMMY) MARTIN,AL-2006-house-42-D-JAMES-M-JIMMY-MARTIN,ALPERSON-JAMES-M-JIMMY-MARTIN,0,1,matched,winner_or_incumbent_unique_surname,95.0,"Martin, James",AL1999L007,0.007,76.66666666666667,2006.0,60.0,1999.0,8.0,8.0,True,pre_election_service_available
+2006,house,44,JONATHAN BARBEE,AL-2006-house-44-D-JONATHAN-BARBEE,ALPERSON-JONATHAN-BARBEE,0,0,fuzzy_review,none,67.5,Reed,,,,,,,,,,
+2006,house,45,PAT SEWELL,AL-2006-house-45-D-PAT-SEWELL,ALPERSON-PAT-SEWELL,0,0,fuzzy_review,none,60.00000000000001,Spratt,,,,,,,,,,
+2006,house,58,OLIVER ROBINSON,AL-2006-house-58-D-OLIVER-ROBINSON,ALPERSON-OLIVER-ROBINSON,0,1,matched,normalized_exact,100.0,"Robinson, Oliver",AL1999L028,-0.466,36.666666666666664,2006.0,60.0,1999.0,8.0,8.0,True,pre_election_service_available
+2006,house,61,ALAN HARPER,AL-2006-house-61-D-ALAN-HARPER,ALPERSON-ALAN-HARPER,0,1,matched,normalized_exact,100.0,"Harper, Alan",AL2007L102,-0.105,61.66666666666667,2006.0,60.0,2007.0,0.0,0.0,False,later_observed_service_only
+2006,house,62,ANN SKELTON,AL-2006-house-62-D-ANN-SKELTON,ALPERSON-ANN-SKELTON,0,0,fuzzy_review,none,72.0,Letson,,,,,,,,,,
+2006,house,64,"ELLIOT D. ""DICK"" WEAVER",AL-2006-house-64-D-ELLIOT-D-DICK-WEAVER,ALPERSON-ELLIOT-D-DICK-WEAVER,0,0,fuzzy_review,none,85.5,"Little, T.D.",,,,,,,,,,
+2006,house,65,GEORGE M. (MARC) KEAHEY,AL-2006-house-65-D-GEORGE-M-MARC-KEAHEY,ALPERSON-GEORGE-M-MARC-KEAHEY,0,1,matched,winner_or_incumbent_unique_surname,95.0,"Keahey, George",AL2007L005,-0.307,43.333333333333336,2006.0,60.0,2007.0,0.0,0.0,False,later_observed_service_only
+2006,house,66,"F. P. ""SKIPPY"" WHITE",AL-2006-house-66-D-F-P-SKIPPY-WHITE,ALPERSON-F-P-SKIPPY-WHITE,0,0,fuzzy_review,none,85.5,"Parker, P",,,,,,,,,,
+2006,house,73,LARRY A. GREWELLE,AL-2006-house-73-D-LARRY-A-GREWELLE,ALPERSON-LARRY-A-GREWELLE,0,0,fuzzy_review,none,67.5,Reed,,,,,,,,,,
+2006,house,79,CAROLYN ELLIS,AL-2006-house-79-D-CAROLYN-ELLIS,ALPERSON-CAROLYN-ELLIS,0,0,fuzzy_review,none,65.45454545454547,Collins,,,,,,,,,,
+2006,house,80,LESLEY VANCE,AL-2006-house-80-D-LESLEY-VANCE,ALPERSON-LESLEY-VANCE,0,1,matched,normalized_exact,100.0,"Vance, Lesley",AL1996L099,0.047,80.0,2006.0,60.0,1996.0,11.0,11.0,True,pre_election_service_available
+2006,house,85,BAKER,AL-2006-house-85-D-BAKER,ALPERSON-BAKER,0,0,fuzzy_review,none,90.0,"Baker, Locy",,,,,,,,,,
+2006,house,88,"M. BENJAMIN ABERNATHY, I",AL-2006-house-88-D-M-BENJAMIN-ABERNATHY-I,ALPERSON-M-BENJAMIN-ABERNATHY-I,0,0,fuzzy_review,none,56.84210526315789,"Hall, Albert",,,,,,,,,,
+2006,house,91,TERRY SPICER,AL-2006-house-91-D-TERRY-SPICER,ALPERSON-TERRY-SPICER,0,1,matched,normalized_exact,100.0,"Spicer, Terry",AL1999L066,-0.128,60.0,2006.0,60.0,1999.0,8.0,8.0,True,pre_election_service_available
+2006,house,92,SETH HAMMETT,AL-2006-house-92-D-SETH-HAMMETT,ALPERSON-SETH-HAMMETT,0,1,matched,normalized_exact,100.0,"Hammett, Seth",AL1996L078,0.004,75.0,2006.0,60.0,1996.0,11.0,11.0,True,pre_election_service_available
+2006,house,93,JOHN WILLIAMS,AL-2006-house-93-D-JOHN-WILLIAMS,ALPERSON-JOHN-WILLIAMS,0,0,fuzzy_review,none,73.07692307692307,"Hilliard, John",,,,,,,,,,
+2006,house,94,GENE PONDER,AL-2006-house-94-D-GENE-PONDER,ALPERSON-GENE-PONDER,0,0,fuzzy_review,none,67.5,Ghee,,,,,,,,,,
+2006,house,95,FRANK CAMP,AL-2006-house-95-D-FRANK-CAMP,ALPERSON-FRANK-CAMP,0,0,fuzzy_review,none,85.5,"White, Frank Paul",,,,,,,,,,
+2006,house,101,AMY BECKERLE SMITH,AL-2006-house-101-D-AMY-BECKERLE-SMITH,ALPERSON-AMY-BECKERLE-SMITH,0,0,fuzzy_review,none,90.0,Smith,,,,,,,,,,
+2006,house,102,GARY JOHNSON,AL-2006-house-102-D-GARY-JOHNSON,ALPERSON-GARY-JOHNSON,0,0,fuzzy_review,none,83.125,"Johnson, E",,,,,,,,,,
+2006,senate,2,TOM BUTLER,AL-2006-senate-2-D-TOM-BUTLER,ALPERSON-TOM-BUTLER,0,1,matched,normalized_exact,100.0,"Butler, Tom",AL1996U014,0.399,88.0,2006.0,25.0,1996.0,11.0,11.0,True,pre_election_service_available
+2006,senate,3,BOBBY DAY,AL-2006-senate-3-D-BOBBY-DAY,ALPERSON-BOBBY-DAY,0,0,fuzzy_review,none,85.5,"Singleton, Bobby",,,,,,,,,,
+2006,senate,4,ZEB LITTLE,AL-2006-senate-4-D-ZEB-LITTLE,ALPERSON-ZEB-LITTLE,0,1,matched,election_year_roster_name,83.33333333333334,"Little, Zebulon Sr.",AL1999U019,-0.594,36.0,2006.0,25.0,1999.0,8.0,8.0,True,pre_election_service_available
+2006,senate,5,LARRY B. CAGLE,AL-2006-senate-5-D-LARRY-B-CAGLE,ALPERSON-LARRY-B-CAGLE,0,0,fuzzy_review,none,59.375,"Means, Larry",,,,,,,,,,
+2006,senate,7,PARKER GRIFFITH,AL-2006-senate-7-D-PARKER-GRIFFITH,ALPERSON-PARKER-GRIFFITH,0,1,matched,winner_or_incumbent_unique_surname,90.0,Griffith,AL2007U019,-0.61,32.0,2006.0,25.0,2007.0,0.0,0.0,False,later_observed_service_only
+2006,senate,8,LOWELL R. BARRON,AL-2006-senate-8-D-LOWELL-R-BARRON,ALPERSON-LOWELL-R-BARRON,0,1,matched,winner_or_incumbent_unique_surname,95.0,"Barron, Lowell",AL1996U020,-0.345,48.0,2006.0,25.0,1996.0,11.0,11.0,True,pre_election_service_available
+2006,senate,9,HINTON HITCHEM,AL-2006-senate-9-D-HINTON-HITCHEM,ALPERSON-HINTON-HITCHEM,0,1,matched,election_year_roster_name,92.85714285714286,"Mitchem, Hinton",AL1996U018,-0.109,64.0,2006.0,25.0,1996.0,11.0,11.0,True,pre_election_service_available
+2006,senate,11,JIM PREUITT,AL-2006-senate-11-D-JIM-PREUITT,ALPERSON-JIM-PREUITT,0,1,matched,normalized_exact,100.0,"Preuitt, Jim",AL1999U005,0.205,84.0,2006.0,25.0,1999.0,8.0,8.0,True,pre_election_service_available
+2006,senate,13,KIM S. BENEFIELD,AL-2006-senate-13-D-KIM-S-BENEFIELD,ALPERSON-KIM-S-BENEFIELD,0,1,matched,winner_or_incumbent_unique_surname,95.0,"Benefield, Kim",AL2007U035,-0.586,36.0,2006.0,25.0,2007.0,0.0,0.0,False,later_observed_service_only
+2006,senate,16,RUSS PARKER,AL-2006-senate-16-D-RUSS-PARKER,ALPERSON-RUSS-PARKER,0,0,fuzzy_review,none,81.42857142857142,"Parker, P",,,,,,,,,,
+2006,senate,18,RODGER M. SMITHERMAN,AL-2006-senate-18-D-RODGER-M-SMITHERMAN,ALPERSON-RODGER-M-SMITHERMAN,0,1,matched,winner_or_incumbent_unique_surname,95.0,"Smitherman, Rodger",AL1996U027,-0.866,28.000000000000004,2006.0,25.0,1996.0,11.0,11.0,True,pre_election_service_available
+2006,senate,20,LINDA COLEMAN,AL-2006-senate-20-D-LINDA-COLEMAN,ALPERSON-LINDA-COLEMAN,0,1,fuzzy_review,none,90.0,"Coleman-Madison, Linda",,,,,,,,,,
+2006,senate,21,PHIL POOLE,AL-2006-senate-21-D-PHIL-POOLE,ALPERSON-PHIL-POOLE,0,1,matched,normalized_exact,100.0,"Poole, Phil",AL1996U005,-0.161,56.00000000000001,2006.0,25.0,1996.0,11.0,11.0,True,pre_election_service_available
+2006,senate,22,PAT LINDSEY,AL-2006-senate-22-D-PAT-LINDSEY,ALPERSON-PAT-LINDSEY,0,0,fuzzy_review,none,90.0,Lindsey,,,,,,,,,,
+2006,senate,23,HANK SANDERS,AL-2006-senate-23-D-HANK-SANDERS,ALPERSON-HANK-SANDERS,0,1,matched,winner_or_incumbent_unique_surname,80.0,"Sanders, Henry",AL1996U025,-1.329,4.0,2006.0,25.0,1996.0,11.0,11.0,True,pre_election_service_available
+2006,senate,25,MIKE CHAPPELL,AL-2006-senate-25-D-MIKE-CHAPPELL,ALPERSON-MIKE-CHAPPELL,0,0,fuzzy_review,none,55.172413793103445,"Millican, Michael",,,,,,,,,,
+2006,senate,27,T. D. (TED) LITTLE,AL-2006-senate-27-D-T-D-TED-LITTLE,ALPERSON-T-D-TED-LITTLE,0,1,matched,normalized_exact,100.0,"Little, T.D.",AL1996U008,-0.098,72.0,2006.0,25.0,1996.0,11.0,11.0,True,pre_election_service_available
+2006,senate,29,RONNIE HELMS,AL-2006-senate-29-D-RONNIE-HELMS,ALPERSON-RONNIE-HELMS,0,0,fuzzy_review,none,60.00000000000001,Ghee,,,,,,,,,,
+2006,senate,30,"""WALKING"" WENDELL MITCHELL",AL-2006-senate-30-D-WALKING-WENDELL-MITCHELL,ALPERSON-WALKING-WENDELL-MITCHELL,0,1,matched,election_year_roster_name,85.5,"Mitchell, Wendell",AL1996U013,-0.109,64.0,2006.0,25.0,1996.0,11.0,11.0,True,pre_election_service_available
+2006,senate,31,JIMMY W. HOLLEY,AL-2006-senate-31-D-JIMMY-W-HOLLEY,ALPERSON-JIMMY-W-HOLLEY,0,1,matched,winner_or_incumbent_unique_surname,95.0,"Holley, Jimmy",AL1999U029,0.516,96.0,2006.0,25.0,1999.0,8.0,8.0,True,pre_election_service_available
+2006,senate,33,VIVIAN DAVIS FIGURES,AL-2006-senate-33-D-VIVIAN-DAVIS-FIGURES,ALPERSON-VIVIAN-DAVIS-FIGURES,0,1,matched,normalized_exact,100.0,"Figures, Vivian",AL1998U033,-0.881,24.0,2006.0,25.0,1998.0,9.0,9.0,True,pre_election_service_available
+2006,senate,35,GARY TANNER,AL-2006-senate-35-D-GARY-TANNER,ALPERSON-GARY-TANNER,0,0,matched,normalized_exact,100.0,"Tanner, Gary",AL2003U029,-0.455,40.0,2006.0,25.0,2003.0,4.0,4.0,True,pre_election_service_available
+2010,house,1,GREG BURDINE,AL-2010-house-1-D-GREG-BURDINE,ALPERSON-GREG-BURDINE,0,1,matched,normalized_exact,100.0,"Burdine, Greg",AL2011L001,-0.304,47.45762711864407,2010.0,59.0,2011.0,0.0,0.0,False,later_observed_service_only
+2010,house,2,MIKE CURTIS,AL-2010-house-2-D-MIKE-CURTIS,ALPERSON-MIKE-CURTIS,1,0,matched,normalized_exact,100.0,"Curtis, Mike",AL2007L064,-0.146,62.71186440677966,2010.0,59.0,2007.0,4.0,4.0,True,pre_election_service_available
+2010,house,4,VAUGHN GOODWIN,AL-2010-house-4-D-VAUGHN-GOODWIN,ALPERSON-VAUGHN-GOODWIN,0,0,fuzzy_review,none,51.42857142857142,Ghee,,,,,,,,,,
+2010,house,5,HENRY A. WHITE,AL-2010-house-5-D-HENRY-A-WHITE,ALPERSON-HENRY-A-WHITE,1,0,matched,high_confidence_name,95.0,"White, Henry",AL2007L104,-0.23,52.54237288135594,2010.0,59.0,2007.0,4.0,4.0,True,pre_election_service_available
+2010,house,7,JOHN 'Jody' LETSON,AL-2010-house-7-D-JOHN-JODY-LETSON,ALPERSON-JOHN-JODY-LETSON,1,0,fuzzy_review,none,90.0,Letson,,,,,,,,,,
+2010,house,8,DRAMA BRELAND,AL-2010-house-8-D-DRAMA-BRELAND,ALPERSON-DRAMA-BRELAND,0,0,fuzzy_review,none,67.5,Burke,,,,,,,,,,
+2010,house,9,KATHY WHITE GOODWIN,AL-2010-house-9-D-KATHY-WHITE-GOODWIN,ALPERSON-KATHY-WHITE-GOODWIN,0,0,fuzzy_review,none,85.5,"White, Henry",,,,,,,,,,
+2010,house,12,"JAMES C. FIELDS, JR.",AL-2010-house-12-D-JAMES-C-FIELDS-JR,ALPERSON-JAMES-C-FIELDS-JR,1,0,matched,winner_or_incumbent_unique_surname,95.0,"Fields, James Jr.",AL2008L061,-0.131,64.40677966101694,2010.0,59.0,2008.0,3.0,3.0,True,pre_election_service_available
+2010,house,13,TOMMY SHERER,AL-2010-house-13-D-TOMMY-SHERER,ALPERSON-TOMMY-SHERER,1,0,matched,winner_or_incumbent_unique_surname,80.0,"Sherer, Thomas",AL2003L082,-0.043,76.27118644067797,2010.0,59.0,2003.0,8.0,8.0,True,pre_election_service_available
+2010,house,14,KEN GUIN,AL-2010-house-14-D-KEN-GUIN,ALPERSON-KEN-GUIN,1,0,matched,normalized_exact,100.0,"Guin, James Jr.",AL1996L007,-0.071,74.57627118644068,2010.0,59.0,1996.0,15.0,15.0,True,pre_election_service_available
+2010,house,16,"WILLIAM E. THIGPEN, SR.",AL-2010-house-16-D-WILLIAM-E-THIGPEN-SR,ALPERSON-WILLIAM-E-THIGPEN-SR,1,0,matched,winner_or_incumbent_unique_surname,95.0,"Thigpen, William Sr.",AL1999L079,0.048,88.13559322033898,2010.0,59.0,1999.0,12.0,12.0,True,pre_election_service_available
+2010,house,21,RANDY HINSHAW,AL-2010-house-21-D-RANDY-HINSHAW,ALPERSON-RANDY-HINSHAW,1,0,matched,normalized_exact,100.0,"Hinshaw, Randy",AL1996L056,-0.113,69.49152542372882,2010.0,59.0,1996.0,11.0,11.0,True,pre_election_service_available
+2010,house,22,BUTCH TAYLOR,AL-2010-house-22-D-BUTCH-TAYLOR,ALPERSON-BUTCH-TAYLOR,0,0,matched,normalized_exact,100.0,"Taylor, Butch",AL2007L097,-0.257,50.847457627118644,2010.0,59.0,2007.0,4.0,4.0,True,pre_election_service_available
+2010,house,24,NATHANIEL LEDBETTER,AL-2010-house-24-D-NATHANIEL-LEDBETTER,ALPERSON-NATHANIEL-LEDBETTER,0,0,fuzzy_review,none,60.00000000000001,"Graham, Betty",,,,,,,,,,
+2010,house,26,RANDALL WHITE,AL-2010-house-26-D-RANDALL-WHITE,ALPERSON-RANDALL-WHITE,0,0,fuzzy_review,none,75.86206896551724,"White, Frank Paul",,,,,,,,,,
+2010,house,27,JEFF McLAUGHLIN,AL-2010-house-27-D-JEFF-MCLAUGHLIN,ALPERSON-JEFF-MCLAUGHLIN,1,0,matched,winner_or_incumbent_unique_surname,90.9090909090909,"McLaughlin, Jeffrey",AL2001L047,-0.016,77.96610169491525,2010.0,59.0,2001.0,10.0,10.0,True,pre_election_service_available
+2010,house,29,JOHN G. 'Jack' PAGE III,AL-2010-house-29-D-JOHN-G-JACK-PAGE-III,ALPERSON-JOHN-G-JACK-PAGE-III,1,0,matched,winner_or_incumbent_unique_surname,90.0,"Page, John III",AL1996L030,-0.308,47.45762711864407,2010.0,59.0,1996.0,15.0,15.0,True,pre_election_service_available
+2010,house,30,WALLY BURNS,AL-2010-house-30-D-WALLY-BURNS,ALPERSON-WALLY-BURNS,0,0,fuzzy_review,none,67.5,Burke,,,,,,,,,,
+2010,house,32,BARBARA BIGSBY BOYD,AL-2010-house-32-D-BARBARA-BIGSBY-BOYD,ALPERSON-BARBARA-BIGSBY-BOYD,1,1,matched,winner_or_incumbent_unique_surname,85.5,"Boyd, Barbara",AL1996L072,-0.504,32.20338983050847,2010.0,59.0,1996.0,15.0,15.0,True,pre_election_service_available
+2010,house,35,STEVE HURST,AL-2010-house-35-D-STEVE-HURST,ALPERSON-STEVE-HURST,1,1,matched,normalized_exact,100.0,"Hurst, Steve",AL1999L048,0.093,93.22033898305084,2010.0,59.0,1999.0,12.0,12.0,True,pre_election_service_available
+2010,house,36,GARRY BEARDEN,AL-2010-house-36-D-GARRY-BEARDEN,ALPERSON-GARRY-BEARDEN,0,0,fuzzy_review,none,56.00000000000001,"Burdine, Greg",,,,,,,,,,
+2010,house,37,RICHARD LAIRD,AL-2010-house-37-D-RICHARD-LAIRD,ALPERSON-RICHARD-LAIRD,1,1,matched,normalized_exact,100.0,"Laird, Richard Sr.",AL1996L091,0.414,100.0,2010.0,59.0,1996.0,15.0,15.0,True,pre_election_service_available
+2010,house,38,HUEY P. LONG,AL-2010-house-38-D-HUEY-P-LONG,ALPERSON-HUEY-P-LONG,0,0,fuzzy_review,none,51.42857142857142,Ghee,,,,,,,,,,
+2010,house,39,RICHARD LINDSEY,AL-2010-house-39-D-RICHARD-LINDSEY,ALPERSON-RICHARD-LINDSEY,1,1,matched,normalized_exact,100.0,"Lindsey, Richard",AL1996L042,-0.13,66.10169491525424,2010.0,59.0,1996.0,15.0,15.0,True,pre_election_service_available
+2010,house,40,RICKY WHALEY,AL-2010-house-40-D-RICKY-WHALEY,ALPERSON-RICKY-WHALEY,0,0,fuzzy_review,none,72.0,Bailey,,,,,,,,,,
+2010,house,42,JAMES M. 'Jimmy' MARTIN,AL-2010-house-42-D-JAMES-M-JIMMY-MARTIN,ALPERSON-JAMES-M-JIMMY-MARTIN,1,0,matched,winner_or_incumbent_unique_surname,85.5,"Martin, James",AL1999L007,0.007,83.05084745762711,2010.0,59.0,1999.0,12.0,12.0,True,pre_election_service_available
+2010,house,43,VIRGINIA SWEET,AL-2010-house-43-D-VIRGINIA-SWEET,ALPERSON-VIRGINIA-SWEET,0,0,fuzzy_review,none,45.0,Ghee,,,,,,,,,,
+2010,house,45,CHARLENE CANNON,AL-2010-house-45-D-CHARLENE-CANNON,ALPERSON-CHARLENE-CANNON,0,0,fuzzy_review,none,55.172413793103445,"Newton, Charles",,,,,,,,,,
+2010,house,61,ALAN HARPER,AL-2010-house-61-D-ALAN-HARPER,ALPERSON-ALAN-HARPER,1,1,matched,normalized_exact,100.0,"Harper, Alan",AL2007L102,-0.105,71.1864406779661,2010.0,59.0,2007.0,4.0,4.0,True,pre_election_service_available
+2010,house,63,SUSAN PACE HAMILL,AL-2010-house-63-D-SUSAN-PACE-HAMILL,ALPERSON-SUSAN-PACE-HAMILL,0,0,fuzzy_review,none,59.25925925925925,"Hall, Laura",,,,,,,,,,
+2010,house,73,JOSEPH LISTER 'Joe' HUBBARD,AL-2010-house-73-D-JOSEPH-LISTER-JOE-HUBBARD,ALPERSON-JOSEPH-LISTER-JOE-HUBBARD,0,1,matched,winner_or_incumbent_unique_surname,85.5,"Hubbard, Joseph",AL2011L073,-0.187,57.6271186440678,2010.0,59.0,2011.0,0.0,0.0,False,later_observed_service_only
+2010,house,75,GLENN L. ALLEN,AL-2010-house-75-D-GLENN-L-ALLEN,ALPERSON-GLENN-L-ALLEN,0,0,fuzzy_review,none,64.0,"Layson, Allen",,,,,,,,,,
+2010,house,80,LESLEY VANCE,AL-2010-house-80-D-LESLEY-VANCE,ALPERSON-LESLEY-VANCE,1,1,matched,normalized_exact,100.0,"Vance, Lesley",AL1996L099,0.047,86.4406779661017,2010.0,59.0,1996.0,15.0,15.0,True,pre_election_service_available
+2010,house,81,BETTY CAROL GRAHAM,AL-2010-house-81-D-BETTY-CAROL-GRAHAM,ALPERSON-BETTY-CAROL-GRAHAM,1,0,matched,winner_or_incumbent_unique_surname,85.5,"Graham, Betty",AL1996L043,-0.209,57.6271186440678,2010.0,59.0,1996.0,15.0,15.0,True,pre_election_service_available
+2010,house,84,BERRY FORTE,AL-2010-house-84-D-BERRY-FORTE,ALPERSON-BERRY-FORTE,0,1,matched,normalized_exact,100.0,"Forte, Berry",AL2011L084,-0.31,45.76271186440678,2010.0,59.0,2011.0,0.0,0.0,False,later_observed_service_only
+2010,house,85,DEXTER GRIMSLEY,AL-2010-house-85-D-DEXTER-GRIMSLEY,ALPERSON-DEXTER-GRIMSLEY,0,1,matched,normalized_exact,100.0,"Grimsley, Dexter",AL2011L085,-0.567,27.11864406779661,2010.0,59.0,2011.0,0.0,0.0,False,later_observed_service_only
+2010,house,86,MERRITT CAROTHERS,AL-2010-house-86-D-MERRITT-CAROTHERS,ALPERSON-MERRITT-CAROTHERS,0,0,fuzzy_review,none,77.72727272727272,"Carothers, Joe Jr.",,,,,,,,,,
+2010,house,90,CHARLES NEWTON,AL-2010-house-90-D-CHARLES-NEWTON,ALPERSON-CHARLES-NEWTON,1,1,matched,normalized_exact,100.0,"Newton, Charles",AL1996L063,0.195,96.61016949152543,2010.0,59.0,1996.0,15.0,15.0,True,pre_election_service_available
+2010,house,91,TERRY SPICER,AL-2010-house-91-D-TERRY-SPICER,ALPERSON-TERRY-SPICER,1,0,matched,normalized_exact,100.0,"Spicer, Terry",AL1999L066,-0.128,67.79661016949152,2010.0,59.0,1999.0,12.0,12.0,True,pre_election_service_available
+2010,house,92,DAVID S. DARBY,AL-2010-house-92-D-DAVID-S-DARBY,ALPERSON-DAVID-S-DARBY,0,0,fuzzy_review,none,52.77777777777778,"Colston, David",,,,,,,,,,
+2010,house,93,RONNIE HELMS,AL-2010-house-93-D-RONNIE-HELMS,ALPERSON-RONNIE-HELMS,0,0,fuzzy_review,none,60.00000000000001,Ghee,,,,,,,,,,
+2010,house,98,"NAPOLEON BRACY, JR.",AL-2010-house-98-D-NAPOLEON-BRACY-JR,ALPERSON-NAPOLEON-BRACY-JR,0,1,matched,normalized_exact,100.0,"Bracy, Napoleon Jr.",AL2011L098,-0.633,11.864406779661017,2010.0,59.0,2011.0,0.0,0.0,False,later_observed_service_only
+2010,senate,1,TAMMY L. IRONS,AL-2010-senate-1-D-TAMMY-L-IRONS,ALPERSON-TAMMY-L-IRONS,0,1,matched,winner_or_incumbent_unique_surname,95.0,"Irons, Tammy",AL2006L201,-0.437,45.45454545454545,2010.0,22.0,2007.0,4.0,0.0,True,pre_election_service_available
+2010,senate,2,TOM BUTLER,AL-2010-senate-2-D-TOM-BUTLER,ALPERSON-TOM-BUTLER,1,0,matched,normalized_exact,100.0,"Butler, Tom",AL1996U014,0.399,95.45454545454545,2010.0,22.0,1996.0,15.0,15.0,True,pre_election_service_available
+2010,senate,4,ZEB LITTLE,AL-2010-senate-4-D-ZEB-LITTLE,ALPERSON-ZEB-LITTLE,1,0,fuzzy_review,none,83.33333333333334,"Little, Zebulon Sr.",,,,,,,,,,
+2010,senate,5,BRETT WADSWORTH,AL-2010-senate-5-D-BRETT-WADSWORTH,ALPERSON-BRETT-WADSWORTH,0,0,fuzzy_review,none,67.5,Burke,,,,,,,,,,
+2010,senate,6,"ROGER BEDFORD, JR.",AL-2010-senate-6-D-ROGER-BEDFORD-JR,ALPERSON-ROGER-BEDFORD-JR,1,1,matched,normalized_exact,100.0,"Bedford, Roger Jr.",AL1996U022,-0.396,50.0,2010.0,22.0,1996.0,15.0,15.0,True,pre_election_service_available
+2010,senate,7,JEFF ENFINGER,AL-2010-senate-7-D-JEFF-ENFINGER,ALPERSON-JEFF-ENFINGER,0,0,matched,normalized_exact,100.0,"Enfinger, Jeff",AL1999U035,-0.022,81.81818181818183,2010.0,22.0,2000.0,7.0,7.0,True,pre_election_service_available
+2010,senate,8,LOWELL BARRON,AL-2010-senate-8-D-LOWELL-BARRON,ALPERSON-LOWELL-BARRON,1,0,matched,normalized_exact,100.0,"Barron, Lowell",AL1996U020,-0.345,54.54545454545454,2010.0,22.0,1996.0,15.0,15.0,True,pre_election_service_available
+2010,senate,9,TIM MITCHELL,AL-2010-senate-9-D-TIM-MITCHELL,ALPERSON-TIM-MITCHELL,0,0,fuzzy_review,none,76.0,"Mitchell, Wendell",,,,,,,,,,
+2010,senate,10,LARRY MEANS,AL-2010-senate-10-D-LARRY-MEANS,ALPERSON-LARRY-MEANS,1,0,matched,normalized_exact,100.0,"Means, Larry",AL1999U030,0.143,86.36363636363636,2010.0,22.0,1999.0,12.0,12.0,True,pre_election_service_available
+2010,senate,11,JERRY L. FIELDING,AL-2010-senate-11-D-JERRY-L-FIELDING,ALPERSON-JERRY-L-FIELDING,0,1,matched,winner_or_incumbent_unique_surname,95.0,"Fielding, Jerry",AL2011U011,-0.295,63.63636363636363,2010.0,22.0,2011.0,0.0,0.0,False,later_observed_service_only
+2010,senate,12,"WALLACE WYATT, JR.",AL-2010-senate-12-D-WALLACE-WYATT-JR,ALPERSON-WALLACE-WYATT-JR,0,0,fuzzy_review,none,60.00000000000001,Spratt,,,,,,,,,,
+2010,senate,13,GREG VARNER,AL-2010-senate-13-D-GREG-VARNER,ALPERSON-GREG-VARNER,0,0,fuzzy_review,none,66.08695652173913,"Burdine, Greg",,,,,,,,,,
+2010,senate,17,T. E. 'Tommy' HUDSON,AL-2010-senate-17-D-T-E-TOMMY-HUDSON,ALPERSON-T-E-TOMMY-HUDSON,0,0,fuzzy_review,none,85.5,"Johnson, E",,,,,,,,,,
+2010,senate,21,PHIL POOLE,AL-2010-senate-21-D-PHIL-POOLE,ALPERSON-PHIL-POOLE,1,0,matched,normalized_exact,100.0,"Poole, Phil",AL1996U005,-0.161,68.18181818181817,2010.0,22.0,1996.0,15.0,15.0,True,pre_election_service_available
+2010,senate,22,MARC KEAHEY,AL-2010-senate-22-D-MARC-KEAHEY,ALPERSON-MARC-KEAHEY,0,1,matched,normalized_exact,100.0,"Keahey, George",AL2007L005,-0.307,63.63636363636363,2010.0,22.0,2007.0,4.0,1.0,True,pre_election_service_available
+2010,senate,25,DOUG 'Smitty' SMITH,AL-2010-senate-25-D-DOUG-SMITTY-SMITH,ALPERSON-DOUG-SMITTY-SMITH,0,0,fuzzy_review,none,90.0,Smith,,,,,,,,,,
+2010,senate,27,T. D. (Ted) LITTLE,AL-2010-senate-27-D-T-D-TED-LITTLE,ALPERSON-T-D-TED-LITTLE,1,0,matched,normalized_exact,100.0,"Little, T.D.",AL1996U008,-0.098,81.81818181818183,2010.0,22.0,1996.0,15.0,15.0,True,pre_election_service_available
+2010,senate,28,BILLY BEASLEY,AL-2010-senate-28-D-BILLY-BEASLEY,ALPERSON-BILLY-BEASLEY,0,1,matched,normalized_exact,100.0,"Beasley, William",AL1999L001,-0.217,63.63636363636363,2010.0,22.0,1999.0,12.0,0.0,True,pre_election_service_available
+2010,senate,30,'Walking' WENDELL MITCHELL,AL-2010-senate-30-D-WALKING-WENDELL-MITCHELL,ALPERSON-WALKING-WENDELL-MITCHELL,1,0,fuzzy_review,none,85.5,"Mitchell, Wendell",,,,,,,,,,
+2010,senate,33,VIVIAN DAVIS FIGURES,AL-2010-senate-33-D-VIVIAN-DAVIS-FIGURES,ALPERSON-VIVIAN-DAVIS-FIGURES,1,1,matched,normalized_exact,100.0,"Figures, Vivian",AL1998U033,-0.881,22.727272727272727,2010.0,22.0,1998.0,13.0,13.0,True,pre_election_service_available
+2010,senate,35,SCOTT A BUZBEE,AL-2010-senate-35-D-SCOTT-A-BUZBEE,ALPERSON-SCOTT-A-BUZBEE,0,0,fuzzy_review,none,54.0,Burke,,,,,,,,,,
+2014,house,1,Greg Burdine,AL-2014-house-1-D-GREG-BURDINE,ALPERSON-GREG-BURDINE,1,0,matched,normalized_exact,100.0,"Burdine, Greg",AL2011L001,-0.304,76.31578947368422,2014.0,38.0,2011.0,4.0,4.0,True,pre_election_service_available
+2014,house,2,"Andrew ""Andy"" Betterton",AL-2014-house-2-D-ANDREW-ANDY-BETTERTON,ALPERSON-ANDREW-ANDY-BETTERTON,0,0,fuzzy_review,none,85.5,"Hayden, Andrew",,,,,,,,,,
+2014,house,3,Marcel Black,AL-2014-house-3-D-MARCEL-BLACK,ALPERSON-MARCEL-BLACK,1,1,matched,normalized_exact,100.0,"Black, Marcel",AL1996L028,-0.223,81.57894736842105,2014.0,38.0,1996.0,19.0,19.0,True,pre_election_service_available
+2014,house,5,Henry A. White,AL-2014-house-5-D-HENRY-A-WHITE,ALPERSON-HENRY-A-WHITE,0,0,matched,high_confidence_name,95.0,"White, Henry",AL2007L104,-0.23,78.94736842105263,2014.0,38.0,2007.0,4.0,4.0,True,pre_election_service_available
+2014,house,7,John (Jody) Letson,AL-2014-house-7-D-JOHN-JODY-LETSON,ALPERSON-JOHN-JODY-LETSON,0,0,fuzzy_review,none,90.0,Letson,,,,,,,,,,
+2014,house,8,Rex Cheatham,AL-2014-house-8-D-REX-CHEATHAM,ALPERSON-REX-CHEATHAM,0,0,fuzzy_review,none,51.85185185185186,"Chestnut, Prince",,,,,,,,,,
+2014,house,10,Means,AL-2014-house-10-D-MEANS,ALPERSON-MEANS,0,0,fuzzy_review,none,90.0,"Means, Larry",,,,,,,,,,
+2014,house,16,Daniel H. Boman,AL-2014-house-16-D-DANIEL-H-BOMAN,ALPERSON-DANIEL-H-BOMAN,1,0,matched,winner_or_incumbent_unique_surname,95.0,"Boman, Daniel",AL2011L016,-0.291,78.94736842105263,2014.0,38.0,2011.0,4.0,4.0,True,pre_election_service_available
+2014,house,17,Don Barnwell,AL-2014-house-17-D-DON-BARNWELL,ALPERSON-DON-BARNWELL,0,0,fuzzy_review,none,64.0,"Barron, Lowell",,,,,,,,,,
+2014,house,18,Johnny MacK Morrow,AL-2014-house-18-D-JOHNNY-MACK-MORROW,ALPERSON-JOHNNY-MACK-MORROW,1,1,matched,normalized_exact,100.0,"Morrow, Johnny",AL1996L034,0.002,94.73684210526315,2014.0,38.0,1996.0,19.0,19.0,True,pre_election_service_available
+2014,house,21,C. Terry Jones,AL-2014-house-21-D-C-TERRY-JONES,ALPERSON-C-TERRY-JONES,0,0,fuzzy_review,none,64.0,"Spicer, Terry",,,,,,,,,,
+2014,house,22,Dennis W. Stephens,AL-2014-house-22-D-DENNIS-W-STEPHENS,ALPERSON-DENNIS-W-STEPHENS,0,0,fuzzy_review,none,85.5,"McDaniel, W.",,,,,,,,,,
+2014,house,23,John Robinson,AL-2014-house-23-D-JOHN-ROBINSON,ALPERSON-JOHN-ROBINSON,1,0,matched,normalized_exact,100.0,"Robinson, John",AL1996L001,-0.169,86.8421052631579,2014.0,38.0,1996.0,19.0,19.0,True,pre_election_service_available
+2014,house,24,Beddingfield,AL-2014-house-24-D-BEDDINGFIELD,ALPERSON-BEDDINGFIELD,0,0,fuzzy_review,none,64.0,"Benefield, Kim",,,,,,,,,,
+2014,house,27,Jeff McLaughlin,AL-2014-house-27-D-JEFF-MCLAUGHLIN,ALPERSON-JEFF-MCLAUGHLIN,0,0,fuzzy_review,none,90.9090909090909,"McLaughlin, Jeffrey",,,,,,,,,,
+2014,house,28,Craig Ford,AL-2014-house-28-D-CRAIG-FORD,ALPERSON-CRAIG-FORD,1,1,matched,normalized_exact,100.0,"Ford, Craig",AL2001L039,-0.152,89.47368421052632,2014.0,38.0,2001.0,14.0,14.0,True,pre_election_service_available
+2014,house,29,Michael J. Gladden,AL-2014-house-29-D-MICHAEL-J-GLADDEN,ALPERSON-MICHAEL-J-GLADDEN,1,0,fuzzy_review,none,63.33333333333332,"Millican, Michael",,,,,,,,,,
+2014,house,33,Anthony Zachero,AL-2014-house-33-D-ANTHONY-ZACHERO,ALPERSON-ANTHONY-ZACHERO,0,0,fuzzy_review,none,66.66666666666667,"Daniels, Anthony",,,,,,,,,,
+2014,house,37,Josh Burns,AL-2014-house-37-D-JOSH-BURNS,ALPERSON-JOSH-BURNS,0,0,fuzzy_review,none,67.5,Burke,,,,,,,,,,
+2014,house,39,Richard Lindsey,AL-2014-house-39-D-RICHARD-LINDSEY,ALPERSON-RICHARD-LINDSEY,1,1,matched,normalized_exact,100.0,"Lindsey, Richard",AL1996L042,-0.13,92.10526315789474,2014.0,38.0,1996.0,19.0,19.0,True,pre_election_service_available
+2014,house,40,Copeland,AL-2014-house-40-D-COPELAND,ALPERSON-COPELAND,0,0,fuzzy_review,none,64.28571428571429,"Hollis, Rolanda",,,,,,,,,,
+2014,house,47,Salvatore Bambinelli,AL-2014-house-47-D-SALVATORE-BAMBINELLI,ALPERSON-SALVATORE-BAMBINELLI,0,0,fuzzy_review,none,60.00000000000001,Reed,,,,,,,,,,
+2014,house,52,John W. Rogers  Jr.,AL-2014-house-52-D-JOHN-W-ROGERS-JR,ALPERSON-JOHN-W-ROGERS-JR,1,1,matched,winner_or_incumbent_unique_surname,95.0,"Rogers, John Jr.",AL1996L093,-0.596,34.21052631578947,2014.0,38.0,1996.0,19.0,19.0,True,pre_election_service_available
+2014,house,53,Anthony Daniels,AL-2014-house-53-D-ANTHONY-DANIELS,ALPERSON-ANTHONY-DANIELS,0,1,matched,normalized_exact,100.0,"Daniels, Anthony",AL2015L053,-0.36,68.42105263157895,2014.0,38.0,2015.0,0.0,0.0,False,later_observed_service_only
+2014,house,56,Louise Alexander,AL-2014-house-56-D-LOUISE-ALEXANDER,ALPERSON-LOUISE-ALEXANDER,0,1,matched,normalized_exact,100.0,"Alexander, Louise",AL2015L056,-0.479,52.63157894736842,2014.0,38.0,2015.0,0.0,0.0,False,later_observed_service_only
+2014,house,69,Kelvin J. Lawrence,AL-2014-house-69-D-KELVIN-J-LAWRENCE,ALPERSON-KELVIN-J-LAWRENCE,0,1,matched,winner_or_incumbent_unique_surname,95.0,"Lawrence, Kelvin",AL2015L069,-0.447,63.1578947368421,2014.0,38.0,2015.0,0.0,0.0,False,later_observed_service_only
+2014,house,74,Zack Buckner,AL-2014-house-74-D-ZACK-BUCKNER,ALPERSON-ZACK-BUCKNER,0,0,fuzzy_review,none,60.00000000000001,Burke,,,,,,,,,,
+2014,house,77,John Knight,AL-2014-house-77-D-JOHN-KNIGHT,ALPERSON-JOHN-KNIGHT,1,1,matched,normalized_exact,100.0,"Knight, John Jr.",AL1996L004,-0.714,15.789473684210526,2014.0,38.0,1996.0,19.0,19.0,True,pre_election_service_available
+2014,house,78,Alvin Holmes,AL-2014-house-78-D-ALVIN-HOLMES,ALPERSON-ALVIN-HOLMES,1,1,matched,normalized_exact,100.0,"Holmes, Alvin",AL1996L016,-0.593,36.84210526315789,2014.0,38.0,1996.0,19.0,19.0,True,pre_election_service_available
+2014,house,79,Shirley Scott-Harris,AL-2014-house-79-D-SHIRLEY-SCOTT-HARRIS,ALPERSON-SHIRLEY-SCOTT-HARRIS,0,0,fuzzy_review,none,65.45454545454547,Bailey,,,,,,,,,,
+2014,house,80,Tillman Pugh,AL-2014-house-80-D-TILLMAN-PUGH,ALPERSON-TILLMAN-PUGH,0,0,fuzzy_review,none,54.0,McClain,,,,,,,,,,
+2014,house,81,Dylan V. Oliver,AL-2014-house-81-D-DYLAN-V-OLIVER,ALPERSON-DYLAN-V-OLIVER,0,0,fuzzy_review,none,57.0,"Robinson, Oliver",,,,,,,,,,
+2014,house,83,"George ""Tootie"" Bandy",AL-2014-house-83-D-GEORGE-TOOTIE-BANDY,ALPERSON-GEORGE-TOOTIE-BANDY,1,1,matched,winner_or_incumbent_unique_surname,90.0,"Bandy, George",AL1996L029,-0.73,7.894736842105263,2014.0,38.0,1996.0,19.0,19.0,True,pre_election_service_available
+2014,house,84,Berry Forte,AL-2014-house-84-D-BERRY-FORTE,ALPERSON-BERRY-FORTE,1,1,matched,normalized_exact,100.0,"Forte, Berry",AL2011L084,-0.31,73.68421052631578,2014.0,38.0,2011.0,4.0,4.0,True,pre_election_service_available
+2014,house,85,Dexter Grimsley,AL-2014-house-85-D-DEXTER-GRIMSLEY,ALPERSON-DEXTER-GRIMSLEY,1,1,matched,normalized_exact,100.0,"Grimsley, Dexter",AL2011L085,-0.567,42.10526315789473,2014.0,38.0,2011.0,4.0,4.0,True,pre_election_service_available
+2014,house,89,Joel Lee Williams,AL-2014-house-89-D-JOEL-LEE-WILLIAMS,ALPERSON-JOEL-LEE-WILLIAMS,0,0,fuzzy_review,none,70.96774193548387,"Fuller, William Jr.",,,,,,,,,,
+2014,house,90,Walton Hickman,AL-2014-house-90-D-WALTON-HICKMAN,ALPERSON-WALTON-HICKMAN,0,0,fuzzy_review,none,72.0,Letson,,,,,,,,,,
+2014,house,93,Jennifer Marsden,AL-2014-house-93-D-JENNIFER-MARSDEN,ALPERSON-JENNIFER-MARSDEN,0,0,fuzzy_review,none,54.0,"Major, Eric",,,,,,,,,,
+2014,house,98,"Napoleon Bracy, Jr.",AL-2014-house-98-D-NAPOLEON-BRACY-JR,ALPERSON-NAPOLEON-BRACY-JR,1,1,matched,normalized_exact,100.0,"Bracy, Napoleon Jr.",AL2011L098,-0.633,23.684210526315788,2014.0,38.0,2011.0,4.0,4.0,True,pre_election_service_available
+2014,house,103,Barbara A. Drummond,AL-2014-house-103-D-BARBARA-A-DRUMMOND,ALPERSON-BARBARA-A-DRUMMOND,0,1,matched,winner_or_incumbent_unique_surname,95.0,"Drummond, Barbara",AL2015L103,-0.61,28.947368421052634,2014.0,38.0,2015.0,0.0,0.0,False,later_observed_service_only
+2014,senate,1,Mike Curtis,AL-2014-senate-1-D-MIKE-CURTIS,ALPERSON-MIKE-CURTIS,0,0,matched,normalized_exact,100.0,"Curtis, Mike",AL2007L064,-0.146,100.0,2014.0,11.0,2007.0,4.0,0.0,True,pre_election_service_available
+2014,senate,4,"Angelo ""Doc"" Mancuso",AL-2014-senate-4-D-ANGELO-DOC-MANCUSO,ALPERSON-ANGELO-DOC-MANCUSO,0,0,fuzzy_review,none,90.0,Mancuso,,,,,,,,,,
+2014,senate,6,"Roger Bedford, Jr.",AL-2014-senate-6-D-ROGER-BEDFORD-JR,ALPERSON-ROGER-BEDFORD-JR,1,0,matched,normalized_exact,100.0,"Bedford, Roger Jr.",AL1996U022,-0.396,81.81818181818183,2014.0,11.0,1996.0,19.0,19.0,True,pre_election_service_available
+2014,senate,7,Bryan Bennett,AL-2014-senate-7-D-BRYAN-BENNETT,ALPERSON-BRYAN-BENNETT,0,0,fuzzy_review,none,56.00000000000001,"Graham, Betty",,,,,,,,,,
+2014,senate,8,Horace Clemmons,AL-2014-senate-8-D-HORACE-CLEMMONS,ALPERSON-HORACE-CLEMMONS,0,0,fuzzy_review,none,60.00000000000001,Letson,,,,,,,,,,
+2014,senate,10,Larry Means,AL-2014-senate-10-D-LARRY-MEANS,ALPERSON-LARRY-MEANS,0,0,matched,normalized_exact,100.0,"Means, Larry",AL1999U030,0.143,100.0,2014.0,11.0,1999.0,12.0,12.0,True,pre_election_service_available
+2014,senate,11,Ron Crumpton,AL-2014-senate-11-D-RON-CRUMPTON,ALPERSON-RON-CRUMPTON,0,0,fuzzy_review,none,58.33333333333333,"Ross, Quinton Jr.",,,,,,,,,,
+2014,senate,12,Taylor Stewart,AL-2014-senate-12-D-TAYLOR-STEWART,ALPERSON-TAYLOR-STEWART,0,0,fuzzy_review,none,63.33333333333332,"Taylor, Butch",,,,,,,,,,
+2014,senate,13,Darrell Turner,AL-2014-senate-13-D-DARRELL-TURNER,ALPERSON-DARRELL-TURNER,0,0,fuzzy_review,none,59.25925925925925,"Melton, Darrio",,,,,,,,,,
+2014,senate,16,Cindy Bell,AL-2014-senate-16-D-CINDY-BELL,ALPERSON-CINDY-BELL,0,0,fuzzy_review,none,58.82352941176471,Lindsey,,,,,,,,,,
+2014,senate,21,Phil Poole,AL-2014-senate-21-D-PHIL-POOLE,ALPERSON-PHIL-POOLE,0,0,matched,normalized_exact,100.0,"Poole, Phil",AL1996U005,-0.161,100.0,2014.0,11.0,1996.0,15.0,15.0,True,pre_election_service_available
+2014,senate,22,Susan Smith,AL-2014-senate-22-D-SUSAN-SMITH,ALPERSON-SUSAN-SMITH,0,0,fuzzy_review,none,90.0,Smith,,,,,,,,,,
+2014,senate,27,Haylee Moss,AL-2014-senate-27-D-HAYLEE-MOSS,ALPERSON-HAYLEE-MOSS,0,0,fuzzy_review,none,51.85185185185186,"Alexander, Louise",,,,,,,,,,
+2014,senate,28,Billy Beasley,AL-2014-senate-28-D-BILLY-BEASLEY,ALPERSON-BILLY-BEASLEY,1,1,matched,normalized_exact,100.0,"Beasley, William",AL1999L001,-0.217,100.0,2014.0,11.0,1999.0,16.0,4.0,True,pre_election_service_available
+2014,senate,31,Larry Greenwood,AL-2014-senate-31-D-LARRY-GREENWOOD,ALPERSON-LARRY-GREENWOOD,0,0,fuzzy_review,none,67.5,Ghee,,,,,,,,,,
+2014,senate,35,Beau Doolittle,AL-2014-senate-35-D-BEAU-DOOLITTLE,ALPERSON-BEAU-DOOLITTLE,0,0,fuzzy_review,none,58.33333333333333,"Little, T.D.",,,,,,,,,,
+2018,house,2,Lora Kay Morrow,AL-2018-house-2-D-LORA-KAY-MORROW,ALPERSON-LORA-KAY-MORROW,0,0,fuzzy_review,none,64.28571428571429,Morrison,,,,,,,,,,
+2018,house,3,Chad Young,AL-2018-house-3-D-CHAD-YOUNG,ALPERSON-CHAD-YOUNG,0,0,fuzzy_review,none,52.17391304347826,"Hilliard, John",,,,,,,,,,
+2018,house,4,Jo Ann Cummings,AL-2018-house-4-D-JO-ANN-CUMMINGS,ALPERSON-JO-ANN-CUMMINGS,0,0,fuzzy_review,none,55.38461538461539,Mancuso,,,,,,,,,,
+2018,house,5,Brian D Williams,AL-2018-house-5-D-BRIAN-D-WILLIAMS,ALPERSON-BRIAN-D-WILLIAMS,0,0,fuzzy_review,none,85.5,"Little, T.D.",,,,,,,,,,
+2018,house,7,Kenneth A. Brackins,AL-2018-house-7-D-KENNETH-A-BRACKINS,ALPERSON-KENNETH-A-BRACKINS,0,0,fuzzy_review,none,54.0,Burke,,,,,,,,,,
+2018,house,8,Billy Jackson,AL-2018-house-8-D-BILLY-JACKSON,ALPERSON-BILLY-JACKSON,0,0,fuzzy_review,none,66.5,"Jackson, Thomas Jr.",,,,,,,,,,
+2018,house,10,J.B. King,AL-2018-house-10-D-J-B-KING,ALPERSON-J-B-KING,0,0,fuzzy_review,none,56.25,"Singleton, Bobby",,,,,,,,,,
+2018,house,15,Suzanna Coleman,AL-2018-house-15-D-SUZANNA-COLEMAN,ALPERSON-SUZANNA-COLEMAN,0,0,fuzzy_review,none,62.857142857142854,"Coleman-Evans, Merika",,,,,,,,,,
+2018,house,18,Eddie Britton,AL-2018-house-18-D-EDDIE-BRITTON,ALPERSON-EDDIE-BRITTON,0,0,fuzzy_review,none,56.00000000000001,"Boman, Daniel",,,,,,,,,,
+2018,house,20,Linda Meigs,AL-2018-house-20-D-LINDA-MEIGS,ALPERSON-LINDA-MEIGS,0,0,fuzzy_review,none,85.5,"Coleman-Madison, Linda",,,,,,,,,,
+2018,house,21,Terry Jones,AL-2018-house-21-D-TERRY-JONES,ALPERSON-TERRY-JONES,0,0,fuzzy_review,none,66.66666666666667,"Jones, Patrick",,,,,,,,,,
+2018,house,27,Bill Jones,AL-2018-house-27-D-BILL-JONES,ALPERSON-BILL-JONES,0,0,fuzzy_review,none,70.0,"Dukes, Bill",,,,,,,,,,
+2018,house,28,Kyle Pierce,AL-2018-house-28-D-KYLE-PIERCE,ALPERSON-KYLE-PIERCE,0,0,fuzzy_review,none,51.42857142857142,Reed,,,,,,,,,,
+2018,house,29,Jared Millican,AL-2018-house-29-D-JARED-MILLICAN,ALPERSON-JARED-MILLICAN,0,0,fuzzy_review,none,73.33333333333334,"Millican, Michael",,,,,,,,,,
+2018,house,30,Jared Vaughn,AL-2018-house-30-D-JARED-VAUGHN,ALPERSON-JARED-VAUGHN,0,0,fuzzy_review,none,67.5,Reed,,,,,,,,,,
+2018,house,32,Barbara Bigsby Boyd,AL-2018-house-32-D-BARBARA-BIGSBY-BOYD,ALPERSON-BARBARA-BIGSBY-BOYD,1,1,matched,winner_or_incumbent_unique_surname,85.5,"Boyd, Barbara",AL1996L072,-0.504,48.484848484848484,2018.0,33.0,1996.0,23.0,23.0,True,pre_election_service_available
+2018,house,33,Scott Brewer,AL-2018-house-33-D-SCOTT-BREWER,ALPERSON-SCOTT-BREWER,0,0,fuzzy_review,none,69.23076923076923,"Scott, Roderick",,,,,,,,,,
+2018,house,36,Nicki Arnold-Swindle,AL-2018-house-36-D-NICKI-ARNOLD-SWINDLE,ALPERSON-NICKI-ARNOLD-SWINDLE,0,0,fuzzy_review,none,60.00000000000001,Lindsey,,,,,,,,,,
+2018,house,37,Charlotte A. Clark-Frieson,AL-2018-house-37-D-CHARLOTTE-A-CLARK-FRIESON,ALPERSON-CHARLOTTE-A-CLARK-FRIESON,0,0,fuzzy_review,none,85.5,"Clark, William",,,,,,,,,,
+2018,house,38,Brian McGee,AL-2018-house-38-D-BRIAN-MCGEE,ALPERSON-BRIAN-MCGEE,0,0,fuzzy_review,none,77.14285714285715,Ghee,,,,,,,,,,
+2018,house,40,Pamela Jean Howard,AL-2018-house-40-D-PAMELA-JEAN-HOWARD,ALPERSON-PAMELA-JEAN-HOWARD,0,0,fuzzy_review,none,85.5,"Howard, Ralph",,,,,,,,,,
+2018,house,41,Emily Anne Marcum,AL-2018-house-41-D-EMILY-ANNE-MARCUM,ALPERSON-EMILY-ANNE-MARCUM,0,0,fuzzy_review,none,55.38461538461539,Mancuso,,,,,,,,,,
+2018,house,43,Carin Mayo,AL-2018-house-43-D-CARIN-MAYO,ALPERSON-CARIN-MAYO,0,0,fuzzy_review,none,60.0,"Major, Eric",,,,,,,,,,
+2018,house,45,Jenn Gray,AL-2018-house-45-D-JENN-GRAY,ALPERSON-JENN-GRAY,0,0,fuzzy_review,none,60.0,"Tanner, Gary",,,,,,,,,,
+2018,house,46,Felicia Stewart,AL-2018-house-46-D-FELICIA-STEWART,ALPERSON-FELICIA-STEWART,0,0,fuzzy_review,none,49.090909090909086,"Fite, Lea",,,,,,,,,,
+2018,house,47,Jim Toomey,AL-2018-house-47-D-JIM-TOOMEY,ALPERSON-JIM-TOOMEY,0,0,fuzzy_review,none,56.25,"Roberts, Tommy Ed",,,,,,,,,,
+2018,house,48,Alli Summerford,AL-2018-house-48-D-ALLI-SUMMERFORD,ALPERSON-ALLI-SUMMERFORD,0,0,fuzzy_review,none,60.00000000000001,Reed,,,,,,,,,,
+2018,house,51,Veronica R. Johnson,AL-2018-house-51-D-VERONICA-R-JOHNSON,ALPERSON-VERONICA-R-JOHNSON,0,0,fuzzy_review,none,85.5,"Johnson, E",,,,,,,,,,
+2018,house,61,"Thomas ""Tommy"" Hyche",AL-2018-house-61-D-THOMAS-TOMMY-HYCHE,ALPERSON-THOMAS-TOMMY-HYCHE,0,0,fuzzy_review,none,85.5,"Carter, Tommy",,,,,,,,,,
+2018,house,62,Will Benton,AL-2018-house-62-D-WILL-BENTON,ALPERSON-WILL-BENTON,0,0,fuzzy_review,none,60.00000000000001,Letson,,,,,,,,,,
+2018,house,64,Amber Selman-Lynn,AL-2018-house-64-D-AMBER-SELMAN-LYNN,ALPERSON-AMBER-SELMAN-LYNN,0,0,fuzzy_review,none,60.00000000000001,"Baker, Locy",,,,,,,,,,
+2018,house,65,Elaine Beech,AL-2018-house-65-D-ELAINE-BEECH,ALPERSON-ELAINE-BEECH,1,0,matched,normalized_exact,100.0,"Beech, Elaine",AL2011L065,0.091,100.0,2018.0,33.0,2010.0,9.0,9.0,True,pre_election_service_available
+2018,house,66,Susan E. Smith,AL-2018-house-66-D-SUSAN-E-SMITH,ALPERSON-SUSAN-E-SMITH,0,0,fuzzy_review,none,90.0,Smith,,,,,,,,,,
+2018,house,73,Jack Jacobs,AL-2018-house-73-D-JACK-JACOBS,ALPERSON-JACK-JACOBS,0,0,fuzzy_review,none,60.86956521739131,"Venable, Jack",,,,,,,,,,
+2018,house,74,Rayford Mack,AL-2018-house-74-D-RAYFORD-MACK,ALPERSON-RAYFORD-MACK,0,0,fuzzy_review,none,63.63636363636363,"Ford, Craig",,,,,,,,,,
+2018,house,79,Mary Wynne Kling,AL-2018-house-79-D-MARY-WYNNE-KLING,ALPERSON-MARY-WYNNE-KLING,0,0,fuzzy_review,none,85.5,"Moore, Mary",,,,,,,,,,
+2018,house,80,"Christopher F. ""Apostle"" Davis",AL-2018-house-80-D-CHRISTOPHER-F-APOSTLE-DAVIS,ALPERSON-CHRISTOPHER-F-APOSTLE-DAVIS,0,0,fuzzy_review,none,69.66666666666666,"England, Christopher",,,,,,,,,,
+2018,house,81,"Jeremy ""J.J."" Jeffcoat",AL-2018-house-81-D-JEREMY-J-J-JEFFCOAT,ALPERSON-JEREMY-J-J-JEFFCOAT,0,0,fuzzy_review,none,56.25,"Ford, Joe",,,,,,,,,,
+2018,house,83,"Jeremy ""Mr. Eyg"" Gray",AL-2018-house-83-D-JEREMY-MR-EYG-GRAY,ALPERSON-JEREMY-MR-EYG-GRAY,0,1,fuzzy_review,none,60.00000000000001,"Moore, Mary",,,,,,,,,,
+2018,house,85,Dexter Grimsley,AL-2018-house-85-D-DEXTER-GRIMSLEY,ALPERSON-DEXTER-GRIMSLEY,1,1,matched,normalized_exact,100.0,"Grimsley, Dexter",AL2011L085,-0.567,39.39393939393939,2018.0,33.0,2011.0,8.0,8.0,True,pre_election_service_available
+2018,house,86,Kristy M. Kirkland,AL-2018-house-86-D-KRISTY-M-KIRKLAND,ALPERSON-KRISTY-M-KIRKLAND,0,0,fuzzy_review,none,50.0,"Curtis, Mike",,,,,,,,,,
+2018,house,88,Cory Creel,AL-2018-house-88-D-CORY-CREEL,ALPERSON-CORY-CREEL,0,0,fuzzy_review,none,67.5,Reed,,,,,,,,,,
+2018,house,89,Joel Lee Williams,AL-2018-house-89-D-JOEL-LEE-WILLIAMS,ALPERSON-JOEL-LEE-WILLIAMS,0,0,fuzzy_review,none,70.96774193548387,"Fuller, William Jr.",,,,,,,,,,
+2018,house,90,Joanne Whetstone,AL-2018-house-90-D-JOANNE-WHETSTONE,ALPERSON-JOANNE-WHETSTONE,0,0,fuzzy_review,none,75.00000000000001,Letson,,,,,,,,,,
+2018,house,94,Danielle Mashburn-Myrick,AL-2018-house-94-D-DANIELLE-MASHBURN-MYRICK,ALPERSON-DANIELLE-MASHBURN-MYRICK,0,0,fuzzy_review,none,67.5,"McDaniel, W.",,,,,,,,,,
+2018,house,96,Maurice Horsey,AL-2018-house-96-D-MAURICE-HORSEY,ALPERSON-MAURICE-HORSEY,0,0,fuzzy_review,none,55.172413793103445,"Mitchell, Joseph",,,,,,,,,,
+2018,house,97,Adline C. Clarke,AL-2018-house-97-D-ADLINE-C-CLARKE,ALPERSON-ADLINE-C-CLARKE,1,1,matched,winner_or_incumbent_unique_surname,95.0,"Clarke, Adline",AL2014L197,-0.348,81.81818181818183,2018.0,33.0,2014.0,5.0,5.0,True,pre_election_service_available
+2018,house,99,Sam Jones,AL-2018-house-99-D-SAM-JONES,ALPERSON-SAM-JONES,0,1,fuzzy_review,none,67.85714285714286,"Jones, Patrick",,,,,,,,,,
+2018,house,104,Arlene Cunningham Easley,AL-2018-house-104-D-ARLENE-CUNNINGHAM-EASLEY,ALPERSON-ARLENE-CUNNINGHAM-EASLEY,0,0,fuzzy_review,none,65.45454545454547,Bailey,,,,,,,,,,
+2018,senate,1,Caroline Self,AL-2018-senate-1-D-CAROLINE-SELF,ALPERSON-CAROLINE-SELF,0,0,fuzzy_review,none,66.66666666666667,"Steele, Charles Jr.",,,,,,,,,,
+2018,senate,2,Amy Wasyluka,AL-2018-senate-2-D-AMY-WASYLUKA,ALPERSON-AMY-WASYLUKA,0,0,fuzzy_review,none,45.45454545454546,"Hall, Laura",,,,,,,,,,
+2018,senate,6,Johnny Mack Morrow,AL-2018-senate-6-D-JOHNNY-MACK-MORROW,ALPERSON-JOHNNY-MACK-MORROW,0,0,matched,normalized_exact,100.0,"Morrow, Johnny",AL1996L034,0.002,100.0,2018.0,7.0,1996.0,23.0,0.0,True,pre_election_service_available
+2018,senate,7,Deborah Barros,AL-2018-senate-7-D-DEBORAH-BARROS,ALPERSON-DEBORAH-BARROS,0,0,fuzzy_review,none,60.00000000000001,Box,,,,,,,,,,
+2018,senate,11,Carl Carter,AL-2018-senate-11-D-CARL-CARTER,ALPERSON-CARL-CARTER,0,0,fuzzy_review,none,67.05882352941177,"Carter, Tommy",,,,,,,,,,
+2018,senate,12,Jim Williams,AL-2018-senate-12-D-JIM-WILLIAMS,ALPERSON-JIM-WILLIAMS,0,0,fuzzy_review,none,66.66666666666667,"Thigpen, William Sr.",,,,,,,,,,
+2018,senate,13,Darrell Turner,AL-2018-senate-13-D-DARRELL-TURNER,ALPERSON-DARRELL-TURNER,0,0,fuzzy_review,none,59.25925925925925,"Melton, Darrio",,,,,,,,,,
+2018,senate,14,Jerry McDonald,AL-2018-senate-14-D-JERRY-MCDONALD,ALPERSON-JERRY-MCDONALD,0,0,fuzzy_review,none,56.25,"McLaughlin, Jeffrey",,,,,,,,,,
+2018,senate,16,Lindsey Deckard,AL-2018-senate-16-D-LINDSEY-DECKARD,ALPERSON-LINDSEY-DECKARD,0,0,fuzzy_review,none,90.0,Lindsey,,,,,,,,,,
+2018,senate,21,Rick Burnham,AL-2018-senate-21-D-RICK-BURNHAM,ALPERSON-RICK-BURNHAM,0,0,fuzzy_review,none,77.14285714285715,Turnham,,,,,,,,,,
+2018,senate,25,David A. Sadler,AL-2018-senate-25-D-DAVID-A-SADLER,ALPERSON-DAVID-A-SADLER,0,0,fuzzy_review,none,52.77777777777778,"Colston, David",,,,,,,,,,
+2018,senate,26,"David ""Coach"" Burkette",AL-2018-senate-26-D-DAVID-COACH-BURKETTE,ALPERSON-DAVID-COACH-BURKETTE,1,1,fuzzy_review,none,90.0,Burke,,,,,,,,,,
+2018,senate,27,Nancy Carlton Bendinger,AL-2018-senate-27-D-NANCY-CARLTON-BENDINGER,ALPERSON-NANCY-CARLTON-BENDINGER,0,0,fuzzy_review,none,62.608695652173914,"Enfinger, Jeff",,,,,,,,,,
+2018,senate,32,Jason Fisher,AL-2018-senate-32-D-JASON-FISHER,ALPERSON-JASON-FISHER,0,0,fuzzy_review,none,60.00000000000001,Letson,,,,,,,,,,
+2018,senate,35,Tom Holmes,AL-2018-senate-35-D-TOM-HOLMES,ALPERSON-TOM-HOLMES,0,0,fuzzy_review,none,71.25,"Holmes, Alvin",,,,,,,,,,

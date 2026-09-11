@@ -1,0 +1,11 @@
+{
+  "policy_key": "increase_military_support_afghanistan",
+  "dimension": "indeterminate",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option asks whether the US should increase military support to Afghanistan. This is a procedural or context-dependent question about foreign policy action rather than an ideological stance on domestic issues like taxes or regulation.",
+  "evidence_quote": "Should the United States increase military support to Afghanistan?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

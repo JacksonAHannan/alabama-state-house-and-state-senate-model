@@ -1,0 +1,24 @@
+{
+  "primary_domain": "business",
+  "policy_key": "transportation/infrastructure",
+  "plain_english_policy": "State funding levels for transportation/infrastructure",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "The candidate supports increased state funding for transportation/infrastructure."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "The candidate supports increased state funding for transportation/infrastructure."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "State funding levels (#1-6) you support for the following general categories. Select one level per category; you may use a number more than once.",
+  "needs_human_review": false,
+  "review_reason": "The candidate supports increased state funding for transportation/infrastructure."
+}

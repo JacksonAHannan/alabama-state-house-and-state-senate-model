@@ -1,0 +1,11 @@
+{
+  "policy_key": "welfare_time_limit",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Cap welfare benefits to two years for able-bodied recipients.",
+  "evidence_quote": "Impose a **two-year limit** on welfare benefits for recipients who are able to work.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

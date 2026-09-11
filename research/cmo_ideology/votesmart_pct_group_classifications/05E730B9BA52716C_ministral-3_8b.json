@@ -1,0 +1,11 @@
+{
+  "policy_key": "un_withdrawal",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option suggests a radical reduction in U.S. global engagement by exiting the UN, which is conventionally progressive on foreign policy (anti-interventionist/anti-multilateralism) but often aligns with libertarian or isolationist factions rather than a strict left-right binary.",
+  "evidence_quote": "**c) The U.S. should withdraw completely from the United Nations.**",
+  "needs_human_review": true,
+  "review_reason": "The position is context-dependent: While it may reflect progressive skepticism of UN influence, it also overlaps with conservative/libertarian critiques of global governance."
+}

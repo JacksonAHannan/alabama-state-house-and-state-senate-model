@@ -1,0 +1,11 @@
+{
+  "policy_key": "military_intervention_middle_east",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Opposition to U.S. military intervention in Middle Eastern conflicts (e.g., Iraq, Syria, Yemen) without UN authorization or clear national security justification.",
+  "evidence_quote": "*'I oppose unnecessary wars and troop deployments abroad. The U.S. should prioritize diplomacy, economic sanctions, and regional alliances over boots on the ground in Middle East conflicts unless directly threatened.'*",
+  "needs_human_review": false,
+  "review_reason": ""
+}

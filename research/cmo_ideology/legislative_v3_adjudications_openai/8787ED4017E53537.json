@@ -1,0 +1,10 @@
+{
+  "id": "8787ED4017E53537",
+  "decision": "map",
+  "primitive_axis": "market_governance",
+  "policy_pole": "intervention",
+  "confidence": "high",
+  "rationale": "Authorizing municipalities to require business licenses for specified building-trade businesses imposes an additional regulatory condition on market activity.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

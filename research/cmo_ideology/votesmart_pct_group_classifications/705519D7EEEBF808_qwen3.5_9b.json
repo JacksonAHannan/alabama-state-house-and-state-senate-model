@@ -1,0 +1,11 @@
+{
+  "policy_key": "terrorism_firearm_restrictions",
+  "dimension": "guns_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting tighter restrictions on firearm sales to hinder terrorist groups.",
+  "evidence_quote": "d) Implement tighter restrictions on firearm sales in an effort to hinder terrorist groups from stockpiling weapon arsenals.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

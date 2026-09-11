@@ -1,0 +1,11 @@
+{
+  "policy_key": "gender_identity_in_federal_anti_discrimination",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Expand federal protections to explicitly ban discrimination based on gender identity.",
+  "evidence_quote": "Include gender identity in federal anti-discrimination laws.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

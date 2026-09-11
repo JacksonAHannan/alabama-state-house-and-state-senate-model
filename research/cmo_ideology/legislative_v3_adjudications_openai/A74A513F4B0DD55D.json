@@ -1,0 +1,10 @@
+{
+  "id": "A74A513F4B0DD55D",
+  "decision": "map",
+  "primitive_axis": "education_public_funding",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Authorizes an annual motor-vehicle tag fee whose proceeds fund public schools and education.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

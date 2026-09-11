@@ -1,0 +1,10 @@
+{
+  "id": "DC2C534848A8C3D6",
+  "decision": "map",
+  "primitive_axis": "abortion_access",
+  "policy_pole": "restrict",
+  "confidence": "high",
+  "rationale": "The measure explicitly prohibits clinic licensing near schools, a direct restriction on abortion provider locations. This aligns with **restrict** under *abortion_access*.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

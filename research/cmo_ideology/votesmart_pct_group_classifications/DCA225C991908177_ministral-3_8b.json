@@ -1,0 +1,11 @@
+{
+  "policy_key": "medical_marijuana",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting medical marijuana legalization for doctors to prescribe to patients.",
+  "evidence_quote": "(No direct quote provided in the option, but this position is conventionally progressive.)",
+  "needs_human_review": false,
+  "review_reason": "The question lacks a verbatim quote from a candidate's questionnaire. The classification relies on conventional policy alignment."
+}

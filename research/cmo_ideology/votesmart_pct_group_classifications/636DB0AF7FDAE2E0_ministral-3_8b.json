@@ -1,0 +1,11 @@
+{
+  "policy_key": "legislative_priorities_funding",
+  "dimension": "social_ideology",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Candidate\u2019s top priorities and funding approach are procedural (no clear left/right stance).",
+  "evidence_quote": "**\u2018My top two priorities would be modernizing Alabama\u2019s K-12 education infrastructure to reduce overcrowding in rural districts, and expanding vocational training partnerships with local businesses. To fund these, I propose redirecting unused state surplus funds from the previous fiscal year (estimated $45M) toward a dedicated infrastructure bond referendum, while also seeking federal Workforce Innovation grants for the vocational programs.\u2019**",
+  "needs_human_review": true,
+  "review_reason": "Context-dependent phrasing (\u2018redirecting surplus\u2019 could imply fiscal conservatism or pragmatic use of existing funds; \u2018federal grants\u2019 may align with bipartisan priorities)."
+}

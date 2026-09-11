@@ -1,0 +1,10 @@
+{
+  "id": "F21E3CC771021A32",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "restrict",
+  "confidence": "high",
+  "rationale": "Increasing the fee for pistol permits effectively restricts access to firearms by raising a financial barrier.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

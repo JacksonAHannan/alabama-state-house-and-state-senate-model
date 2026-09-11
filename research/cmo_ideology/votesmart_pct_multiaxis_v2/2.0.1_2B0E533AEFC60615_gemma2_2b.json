@@ -1,0 +1,30 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "childcare_delivery",
+  "plain_english_policy": "Allow welfare recipients to remain eligible for benefits while saving money for education, starting a business, or buying a home.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "business_scale_alignment",
+      "pole": "small_business",
+      "strength": "primary",
+      "rationale": "The policy explicitly mentions saving money for business or education, which suggests a focus on small businesses and individuals."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "The policy aims to allow welfare recipients to continue receiving benefits while pursuing personal goals, which aligns with expanding the scope of welfare programs."
+    },
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "The policy could potentially benefit those with lower incomes more than higher-income individuals, as they may have greater needs for education or business opportunities."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Allow welfare recipients to remain eligible for benefits while saving money for education, starting a business, or buying a home.",
+  "needs_human_review": false,
+  "review_reason": "The policy directly addresses the potential of welfare recipients to use their benefits for personal development. This suggests a focus on empowering individuals and promoting self-sufficiency."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "enforce_1997_budget_limits",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks for support of a specific historical budget agreement without stating the candidate's stance.",
+  "evidence_quote": "Would you support enforcing the spending limits agreed to in 1997 by the President and Congress to balance the budget?",
+  "needs_human_review": true,
+  "review_reason": "The option is a neutral question asking for voter preference rather than stating a policy position; it cannot be classified as conservative or progressive without knowing the respondent's answer."
+}

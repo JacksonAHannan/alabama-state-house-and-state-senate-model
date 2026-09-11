@@ -1,0 +1,10 @@
+{
+  "id": "FB905A89F20843A4",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Extends Medicaid fiscal-intermediary contracts, a contract-administration measure that does not clearly change healthcare access, delivery, or Medicaid structure in an allowed direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

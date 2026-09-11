@@ -1,0 +1,10 @@
+{
+  "id": "9CAFE9707A1782B6",
+  "decision": "map",
+  "primitive_axis": "market_governance",
+  "policy_pole": "market_autonomy",
+  "confidence": "medium",
+  "rationale": "Revises requirements for municipal and county borrowing and transfers of public property for private economic development, reducing procedural constraints on local economic activity.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

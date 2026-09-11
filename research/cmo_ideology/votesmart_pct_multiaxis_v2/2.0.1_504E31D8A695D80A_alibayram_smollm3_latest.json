@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "healthcare_access",
+  "plain_english_policy": "Do you support requiring individuals to purchase health care insurance?",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "The policy restricts individual choice by mandating health insurance purchase."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I believe that individuals should have the freedom to choose their healthcare options, and a mandate would be an overreach of government power.\" - Candidate Statement on Healthcare Policy (2018)",
+  "needs_human_review": true,
+  "review_reason": ""
+}

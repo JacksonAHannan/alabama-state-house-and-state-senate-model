@@ -1,0 +1,10 @@
+{
+  "id": "2B80A9BBCF732C75",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The measure extends an existing nursing-facility assessment and Medicaid surcharge, constituting an administrative continuation rather than a distinct policy-direction change.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -20,6 +20,11 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 import retrain_post2016_southern_war as v1  # noqa: E402
 import retrain_post2016_southern_war_v2 as v2  # noqa: E402
+from southern_war_release_gate import (  # noqa: E402
+    ReleaseGateError,
+    require_approved_release,
+    require_declared_files,
+)
 
 
 WAR = ROOT / "data/processed/war"
@@ -28,6 +33,7 @@ HISTORICAL_CANDIDATES = WAR / "cmo_v5_candidates.csv"
 HISTORICAL_CONTEXT = ROOT / "data/processed/elections/canonical_cmo_features.csv"
 PUBLISHED_ALABAMA = WAR / "alabama_war_v1"
 SOUTHERN_MANIFEST = WAR / "post2016_southern_war_v3/manifest.json"
+DECISION = ROOT / "project_docs/audits/SOUTHERN_V3_RELEASE_DECISION.json"
 FIELD_CONTRACT = ROOT / "project_docs/model/ALABAMA_HISTORICAL_WAR_V1_FIELD_CONTRACT.md"
 DISPLAY_NAME_ALIASES = ROOT / "data/manual/ideology/candidate_research_aliases.csv"
 METHOD_REPORT = ROOT / "project_docs/model/ALABAMA_HISTORICAL_WAR_V1.md"
@@ -56,6 +62,22 @@ def git_commit() -> str:
         ).strip()
     except (OSError, subprocess.CalledProcessError):
         return "unknown"
+
+
+def require_fresh_inputs() -> tuple[dict, dict, dict]:
+    """Refuse a backcast built from unreviewed Southern or drifted Alabama v1 inputs."""
+    approved, decision = require_approved_release(SOUTHERN_MANIFEST, DECISION)
+    published = json.loads(
+        (PUBLISHED_ALABAMA / "manifest.json").read_text(encoding="utf-8")
+    )
+    published_run = published.get("source_model_run_id")
+    approved_run = approved["model_run_id"]
+    if published_run != approved_run:
+        raise ReleaseGateError(
+            f"Alabama WAR v1 derives from {published_run}, not approved {approved_run}"
+        )
+    require_declared_files(published, ROOT)
+    return approved, published, decision
 
 
 def prepare_historical_races() -> pd.DataFrame:
@@ -280,6 +302,7 @@ def output_columns(races: pd.DataFrame, candidates: pd.DataFrame) -> tuple[pd.Da
 
 
 def main() -> None:
+    source_manifest, alabama_manifest, _decision = require_fresh_inputs()
     OUT.mkdir(parents=True, exist_ok=True)
     historical = prepare_historical_races()
     races, coefficients, warehouse_run_id = fit_modern_backcast(historical)
@@ -298,10 +321,6 @@ def main() -> None:
     if formula_error > 1e-9 or orientation_error > 1e-9:
         raise ValueError("Historical WAR arithmetic failed")
 
-    source_manifest = json.loads(SOUTHERN_MANIFEST.read_text(encoding="utf-8"))
-    alabama_manifest = json.loads(
-        (PUBLISHED_ALABAMA / "manifest.json").read_text(encoding="utf-8")
-    )
     run_material = "".join([
         sha256(HISTORICAL_RACES), sha256(HISTORICAL_CANDIDATES),
         sha256(HISTORICAL_CONTEXT), sha256(PUBLISHED_ALABAMA / "race_war.csv"),

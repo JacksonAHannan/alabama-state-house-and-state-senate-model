@@ -1,0 +1,11 @@
+{
+  "policy_key": "agricultural_funding",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Support for federal funding in agriculture, including subsidies, research, and infrastructure.",
+  "evidence_quote": "I support maintaining robust federal funding for Alabama\u2019s agricultural sector to ensure our farmers remain competitive nationally and globally. This includes continued investment in research, infrastructure like irrigation systems, and programs that protect against market volatility.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

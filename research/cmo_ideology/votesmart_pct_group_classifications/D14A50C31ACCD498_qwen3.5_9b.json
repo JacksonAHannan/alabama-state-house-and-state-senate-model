@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_spam_regulations",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Regulating spam emails is generally considered a consumer protection and privacy issue rather than a core conservative or progressive ideological stance. While some libertarians might oppose regulation as government overreach (conservative lean), others support it to protect citizens from harassment and scams (progressive/centrist). The policy itself lacks a stable left/right direction in this context.",
+  "evidence_quote": "h) Impose regulations on \"spam\" emails.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

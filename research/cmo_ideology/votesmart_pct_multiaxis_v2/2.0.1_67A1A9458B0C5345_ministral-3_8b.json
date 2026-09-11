@@ -1,0 +1,36 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "employer_incentive",
+  "plain_english_policy": "Encouraging private-sector hiring of welfare recipients through financial rewards for employers",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Reduces reliance on public welfare by incentivizing private employment, though it does not eliminate welfare eligibility."
+    },
+    {
+      "axis": "labor_capital_alignment",
+      "pole": "capital_management",
+      "strength": "primary",
+      "rationale": "Directly benefits employers (capital) by lowering labor costs for a specific subset of workers."
+    },
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "Tax incentives disproportionately benefit businesses, which may not be progressive in their impact on low-income individuals."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "private_provision",
+      "strength": "primary",
+      "rationale": "Shifts responsibility for welfare-related employment from government to private entities."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Provide tax incentives to businesses that hire welfare recipients\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

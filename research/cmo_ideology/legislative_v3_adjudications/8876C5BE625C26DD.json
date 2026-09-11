@@ -1,0 +1,10 @@
+{
+  "id": "8876C5BE625C26DD",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "The bill explicitly authorizes security personnel to carry firearms under certain conditions, expanding gun access in a specific setting.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

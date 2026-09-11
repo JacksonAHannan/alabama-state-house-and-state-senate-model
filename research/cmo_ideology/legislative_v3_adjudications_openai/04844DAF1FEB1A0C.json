@@ -1,0 +1,10 @@
+{
+  "id": "04844DAF1FEB1A0C",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Exempting a public employees' health plan from a prescription-program statute is administrative and too text-insufficient to map to an allowed healthcare pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

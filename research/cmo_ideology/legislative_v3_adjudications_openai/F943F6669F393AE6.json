@@ -1,0 +1,10 @@
+{
+  "id": "F943F6669F393AE6",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns voter identification and ballot procedures, but none of the allowed criminal-justice axes captures voting-access policy.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

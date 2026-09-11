@@ -1,0 +1,11 @@
+{
+  "policy_key": "estate_taxes",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Taxation of inherited wealth (estate taxes).",
+  "evidence_quote": "*[No explicit quote provided in the option text\u2014this is a placeholder for the candidate\u2019s selection number. If the candidate chose to **reduce or eliminate estate taxes**, this would conventionally align with +1 (conservative); if they chose to **increase or retain estate taxes**, it would align with -1 (progressive).*]",
+  "needs_human_review": true,
+  "review_reason": "The option is a numeric selection without text, so the candidate\u2019s intent must be inferred from their choice. A full questionnaire would clarify their stance."
+}

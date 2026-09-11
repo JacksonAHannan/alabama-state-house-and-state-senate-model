@@ -1,0 +1,10 @@
+{
+  "id": "46751E36B06DF9C6",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Addresses sex-offender restrictions near schools rather than a permitted public-education policy axis.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "environment_federal_reimbursement",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option proposes that the federal government must pay private landowners when environmental rules restrict how they can use their property. This is generally viewed as a progressive stance because it prioritizes strict environmental protection and places the financial burden of regulation on taxpayers rather than limiting regulatory scope or shifting costs to individuals.",
+  "evidence_quote": "Require the federal government to reimburse citizens when environmental regulations limit use of privately owned lands.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

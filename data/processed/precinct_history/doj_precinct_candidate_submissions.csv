@@ -1,0 +1,435 @@
+submission_number,state,county,subjurisdiction,first_activity_date,last_activity_date,first_notice_date,last_notice_date,descriptions,activities,notice_count,entry_count,withdrawn,objected,precinct_candidate,precinct_terms,classification_status
+1994-1665,ALABAMA,JACKSON,HYTOP,2000-08-16,2000-10-12,2000-08-25,2000-11-03,Method of election (At large); Form of government; Concurrent terms; Polling place (Changed); Special election procedures (City council) | Method of election (At large); Form of government; Polling place (Changed); Voting method (Machine); Special election procedures (City council),Additional information received | Submission received,3,3,0,0,1,polling place,keyword_candidate
+1994-4618,ALABAMA,BARBOUR,County: BARBOUR,2005-11-15,2005-11-15,2005-11-18,2005-11-18,Precinct (Realignment),Resubmission received,1,1,0,0,1,precinct | realignment,keyword_candidate
+1997-1695,ALABAMA,JEFFERSON,BESSEMER SCHOOL DISTRICT,1999-11-01,2000-01-10,1999-11-12,2000-02-04,Districting plan; Special election procedures (Constitutional amendment) | Method of election (Single-member districts); Districting plan; Method of selection (Appointive/elective to elective); Method of selection (Chairperson); Term of office (Four years); Implementation schedule; Candidate qualification procedures (Fees); Candidate qualifications to serve in office; Candidate qualifications to serve in office (Age requirement); Candidate qualifications to serve in office (Residency requirement); Special election procedures (Constitutional amendment); Procedures for filling vacancies; Compensation | Method of election (Single-member districts); Districting plan; Method of selection (Appointive/elective to elective); Method of selection (Chairperson); Term of office (Four years); Implementation schedule; Polling place (Location established); Candidate qualification procedures (Fees); Candidate qualifications to serve in office; Candidate qualifications to serve in office (Age requirement); Candidate qualifications to serve in office (Residency requirement); Special election procedures (Constitutional amendment); Procedures for filling vacancies; Compensation | Method of election (Single-member districts); Method of selection (Appointive/elective to elective); Method of selection (Chairperson); Term of office (Four years); Implementation schedule; Candidate qualification procedures (Fees); Candidate qualifications to serve in office; Candidate qualifications to serve in office (Age requirement); Candidate qualifications to serve in office (Residency requirement); Procedures for filling vacancies; Compensation,Additional information received | Resubmission received | Resubmission received; Expedited Consideration Requested | Submission received,3,4,0,0,1,polling place,keyword_candidate
+1999-2006,ALABAMA,PERRY,,1999-09-21,1999-09-21,1999-09-24,1999-09-24,Precinct (Deconsolidation); Polling place (Location established),Additional information received,1,1,0,0,1,deconsolidation | polling place | precinct,keyword_candidate
+1999-2443,ALABAMA,BALDWIN,,1999-09-27,1999-09-30,1999-10-01,1999-10-08,Redistricting plan (Commission); Precinct (Realignment) | Redistricting plan; Precinct (Realignment),Additional information received,2,4,0,0,1,precinct | realignment,keyword_candidate
+1999-2553,ALABAMA,DALLAS,,1999-10-07,1999-10-13,1999-10-15,1999-10-15,Polling place (Changed); Absentee Voting (Location established),Additional information received,1,2,0,0,1,polling place,keyword_candidate
+1999-3042,ALABAMA,BARBOUR,,1999-09-29,1999-09-29,1999-10-01,1999-10-01,Polling place (Added); Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+1999-3134,ALABAMA,LAWRENCE,,1999-10-07,1999-10-07,1999-10-15,1999-10-15,Precinct (Realignment),Submission received,1,1,0,0,1,precinct | realignment,keyword_candidate
+1999-3155,ALABAMA,COVINGTON,RED LEVEL,1999-10-08,1999-10-08,1999-10-15,1999-10-15,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+1999-3179,ALABAMA,WILCOX,,1999-10-13,1999-10-13,1999-10-15,1999-10-15,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+1999-3286,ALABAMA,CONECUH,,1999-10-19,1999-10-19,1999-10-22,1999-10-22,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+1999-3559,ALABAMA,BULLOCK,,1999-11-15,1999-11-15,1999-11-19,1999-11-19,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+1999-3622,ALABAMA,HALE,,1999-11-22,1999-11-22,1999-11-26,1999-11-26,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+1999-3745,ALABAMA,SHELBY,ALABASTER,1999-12-07,1999-12-07,1999-12-10,1999-12-10,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+1999-3802,ALABAMA,LAUDERDALE,,1999-12-13,2000-02-09,1999-12-17,2000-02-11,Precinct (Consolidation); Polling place (Consolidation),Additional information received | Notice of withdrawal | Submission received,2,3,1,0,1,consolidation | polling place | precinct,keyword_candidate
+1999-3821,ALABAMA,LAUDERDALE,,1999-12-15,1999-12-15,1999-12-23,1999-12-23,Precinct (Consolidation); Polling place (Consolidation),Submission received,1,1,0,0,1,consolidation | polling place | precinct,keyword_candidate
+1999-3862,ALABAMA,ESCAMBIA,,1999-12-20,2000-02-04,1999-12-23,2000-02-11,Precinct (Realignment); Polling place (Changed),Additional information received | Submission received,2,2,0,0,1,polling place | precinct | realignment,keyword_candidate
+1999-3883,ALABAMA,COLBERT,,1999-12-20,1999-12-20,1999-12-23,1999-12-23,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-0009,ALABAMA,TALLAPOOSA,,2000-01-03,2000-01-03,2000-01-07,2000-01-07,Polling place (Added); Absentee Voting (Additional location),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-0122,ALABAMA,SUMTER,,2000-01-12,2000-01-12,2000-01-14,2000-01-14,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-0156,ALABAMA,DALE,,2000-01-14,2000-03-08,2000-01-21,2000-03-10,Precinct (Realignment),Additional information received | Submission received,2,2,0,0,1,precinct | realignment,keyword_candidate
+2000-0219,ALABAMA,MOBILE,CITRONELLE,2000-01-18,2000-01-18,2000-01-21,2000-01-21,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-0265,ALABAMA,LAUDERDALE,FLORENCE,2000-01-24,2000-01-24,2000-01-28,2000-01-28,Precinct (Consolidation); Polling place (Consolidation),Submission received,1,1,0,0,1,consolidation | polling place | precinct,keyword_candidate
+2000-0314,ALABAMA,ESCAMBIA,BREWTON,2000-01-24,2000-01-24,2000-02-04,2000-02-04,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-0330,ALABAMA,LEE,,2000-01-27,2000-02-03,2000-02-04,2000-02-04,Polling place (Changed),Additional information received | Submission received,1,2,0,0,1,polling place,keyword_candidate
+2000-0332,ALABAMA,"JEFFERSON, SHELBY",HOOVER,2000-01-28,2000-01-28,2000-02-04,2000-02-04,Polling place (Added); Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-0455,ALABAMA,ETOWAH,,2000-02-07,2000-02-07,2000-02-11,2000-02-11,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-0463,ALABAMA,COOSA,,2000-02-07,2000-02-07,2000-02-11,2000-02-11,Polling place (Changed),Submission received; Expedited Consideration Requested,1,1,0,0,1,polling place,keyword_candidate
+2000-0481,ALABAMA,JEFFERSON,,2000-02-08,2000-02-08,2000-02-11,2000-02-11,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-0532,ALABAMA,WALKER,,2000-02-11,2000-02-11,2000-02-18,2000-02-18,Election administration (Polling place procedures),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-0663,ALABAMA,HALE,,2000-02-18,2000-02-18,2000-02-25,2000-02-25,Election administration (Polling place procedures),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-0666,ALABAMA,BULLOCK,,2000-02-18,2000-02-18,2000-02-25,2000-02-25,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-0745,ALABAMA,MONTGOMERY,,2000-02-23,2000-02-23,2000-02-25,2000-02-25,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-0787,ALABAMA,LEE,AUBURN,2000-02-24,2000-02-24,2000-03-03,2000-03-03,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-0899,ALABAMA,MORGAN,DECATUR,2000-03-01,2000-05-01,2000-03-03,2000-05-05,Polling place (Changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2000-0936,ALABAMA,SHELBY,,2000-03-02,2000-03-02,2000-03-03,2000-03-03,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-0988,ALABAMA,CALHOUN,PIEDMONT,2000-03-06,2000-03-06,2000-03-10,2000-03-10,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-1032,ALABAMA,ELMORE,MILLBROOK,2000-03-06,2000-03-06,2000-03-10,2000-03-10,Redistricting plan; Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-1048,ALABAMA,PIKE,,2000-03-07,2000-03-07,2000-03-10,2000-03-10,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-1056,ALABAMA,JEFFERSON,VESTAVIA HILLS,2000-03-08,2000-03-08,2000-03-10,2000-03-10,Polling place,Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-1158,ALABAMA,CALHOUN,,2000-03-15,2000-03-15,2000-03-17,2000-03-17,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-1359,ALABAMA,MONTGOMERY,,2000-03-27,2000-03-27,2000-03-31,2000-03-31,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-1384,ALABAMA,SHELBY,,2000-03-27,2000-03-27,2000-03-31,2000-03-31,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-1406,ALABAMA,GENEVA,,2000-03-27,2000-05-23,2000-03-31,2000-05-26,Implementation schedule; Precinct (Deleted); Polling place (Changed) | Precinct (Consolidation); Polling place (Changed); Polling place (Consolidation),Additional information received | Submission received,2,2,0,0,1,consolidation | polling place | precinct,keyword_candidate
+2000-1464,ALABAMA,BIBB,NORTH BIBB,2000-03-31,2000-03-31,2000-04-07,2000-04-07,Polling place,Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-1585,ALABAMA,BALDWIN,,2000-04-11,2000-04-11,2000-04-14,2000-04-14,Polling place (Changed),Submission received; Expedited Consideration Requested,1,1,0,0,1,polling place,keyword_candidate
+2000-1588,ALABAMA,SUMTER,LIVINGSTON,2000-04-11,2000-04-11,2000-04-14,2000-04-14,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-1595,ALABAMA,AUTAUGA,,2000-04-11,2000-04-11,2000-04-14,2000-04-14,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-1609,ALABAMA,CHAMBERS,,2000-04-11,2000-04-11,2000-04-14,2000-04-14,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-1671,ALABAMA,CHAMBERS,VALLEY,2000-04-18,2000-04-18,2000-04-21,2000-04-21,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-1674,ALABAMA,ST. CLAIR,,2000-04-18,2000-04-18,2000-04-21,2000-04-21,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-1708,ALABAMA,BARBOUR,EUFAULA,2000-04-20,2000-04-20,2000-04-21,2000-04-21,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-1850,ALABAMA,COFFEE,,2000-05-02,2000-05-02,2000-05-05,2000-05-05,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-1944,ALABAMA,FRANKLIN,PHIL CAMPBELL,2000-05-09,2000-05-09,2000-05-12,2000-05-12,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-2017,ALABAMA,LAMAR,,2000-05-15,2000-05-15,2000-05-19,2000-05-19,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-2023,ALABAMA,PICKENS,GORDO,2000-05-16,2000-05-16,2000-05-19,2000-05-19,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-2112,ALABAMA,PIKE,,2000-05-22,2000-05-22,2000-05-26,2000-05-26,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-2119,ALABAMA,PICKENS,,2000-05-23,2000-05-23,2000-05-26,2000-05-26,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-2169,ALABAMA,LAMAR,MILLPORT,2000-05-25,2000-05-25,2000-05-26,2000-05-26,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-2195,ALABAMA,MARSHALL,ALBERTVILLE,2000-05-30,2000-07-18,2000-06-05,2000-07-21,Polling place (Changed); Absentee Voting (Additional location) | Precinct (Consolidation); Polling place (Consolidation); Absentee Voting (Additional location),Additional information received | Submission received,2,2,0,0,1,consolidation | polling place | precinct,keyword_candidate
+2000-2212,ALABAMA,JACKSON,STEVENSON,2000-05-31,2000-05-31,2000-06-05,2000-06-05,Annexation; Polling place,Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-2250,ALABAMA,MARSHALL,,2000-06-02,2000-06-02,2000-06-16,2000-06-16,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-2253,ALABAMA,MONROE,FRISCO CITY,2000-06-05,2000-06-16,2000-06-16,2000-06-23,Polling place (Changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2000-2264,ALABAMA,PIKE,TROY,2000-06-05,2000-06-05,2000-06-16,2000-06-16,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-2266,ALABAMA,JEFFERSON,ADAMSVILLE,2000-06-05,2000-06-05,2000-06-16,2000-06-16,Precinct (Consolidation); Polling place (Consolidation),Submission received,1,1,0,0,1,consolidation | polling place | precinct,keyword_candidate
+2000-2342,ALABAMA,BALDWIN,BAY MINETTE,2000-06-09,2000-06-09,2000-06-16,2000-06-16,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-2409,ALABAMA,BALDWIN,SPANISH FORT,2000-06-14,2000-06-14,2000-06-16,2000-06-16,Numbered positions adopted; Absentee Voting (Location established); Election administration (Polling place procedures); Candidate qualification procedures (Fees),Submission received; Expedited Consideration Requested,1,1,0,0,1,polling place,keyword_candidate
+2000-2477,ALABAMA,ST. CLAIR,,2000-06-19,2000-06-19,2000-06-23,2000-06-23,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-2514,ALABAMA,WINSTON,,2000-06-20,2000-06-20,2000-06-23,2000-06-23,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-2680,ALABAMA,MOBILE,DAUPHIN ISLAND,2000-07-03,2000-07-03,2000-07-07,2000-07-07,Polling place (Added),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-2702,ALABAMA,ESCAMBIA,FLOMATON,2000-07-02,2000-07-02,2000-07-07,2000-07-07,Polling place,Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-2747,ALABAMA,CULLMAN,CULLMAN,2000-07-06,2000-07-06,2000-07-14,2000-07-14,Polling place (Added); Polling place (Changed); Absentee Voting (Location established); Special election procedures,Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-2754,ALABAMA,CHAMBERS,,2000-07-05,2000-07-05,2000-07-14,2000-07-14,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-2793,ALABAMA,MARSHALL,BOAZ,2000-07-11,2000-07-11,2000-07-14,2000-07-14,Precinct (Consolidation); Polling place (Consolidation); Voting method (Optical scan ballots),Submission received,1,1,0,0,1,consolidation | polling place | precinct,keyword_candidate
+2000-2838,ALABAMA,FRANKLIN,VINA,2000-07-14,2000-07-14,2000-07-21,2000-07-21,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-2844,ALABAMA,ELMORE,DEATSVILLE,2000-07-13,2000-07-21,2000-07-21,2000-07-28,Numbered positions adopted; Absentee Voting (Hours); Absentee Voting (Location established); Election administration (Polling place procedures); Candidate qualification procedures (Fees),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2000-2905,ALABAMA,SHELBY,,2000-07-17,2000-07-17,2000-07-21,2000-07-21,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-2912,ALABAMA,"JEFFERSON, SHELBY",HOOVER,2000-07-17,2000-07-17,2000-07-21,2000-07-21,Polling place (Added); Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-2928,ALABAMA,JEFFERSON,,2000-07-18,2000-08-21,2000-07-21,2000-08-25,Polling place (Changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2000-2947,ALABAMA,MORGAN,FALKVILLE,2000-07-19,2000-07-19,2000-07-21,2000-07-21,Absentee Voting (Location established); Election administration (Polling place procedures),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-3007,ALABAMA,MARSHALL,,2000-07-24,2000-07-24,2000-07-28,2000-07-28,Election administration (Polling place procedures),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-3042,ALABAMA,MONROE,,2000-07-25,2000-08-22,2000-07-28,2000-08-25,Polling place (Changed),Additional information received | Submission received,3,3,0,0,1,polling place,keyword_candidate
+2000-3055,ALABAMA,ELMORE,ELMORE,2000-07-27,2000-07-27,2000-07-28,2000-07-28,Polling place (Location established); Absentee Voting (Location established),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-3058,ALABAMA,WILCOX,,2000-07-28,2000-07-28,2000-07-28,2000-07-28,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-3060,ALABAMA,JEFFERSON,,2000-07-28,2000-07-28,2000-07-28,2000-07-28,Polling place (Changed),Submission received; Expedited Consideration Requested,1,1,0,0,1,polling place,keyword_candidate
+2000-3076,ALABAMA,MONROE,VREDENBURGH,2000-07-25,2000-08-09,2000-08-04,2000-08-14,Polling place (Changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2000-3087,ALABAMA,LOWNDES,,2000-07-31,2000-07-31,2000-08-04,2000-08-04,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-3092,ALABAMA,FRANKLIN,,2000-07-14,2000-07-14,2000-08-04,2000-08-04,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-3108,ALABAMA,JEFFERSON,,2000-08-01,2000-08-01,2000-08-04,2000-08-04,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-3144,ALABAMA,BLOUNT,ONEONTA,2000-08-03,2000-08-03,2000-08-04,2000-08-04,Polling place (Location established); Election administration (Polling place procedures); Voting method (Optical scan ballots),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-3154,ALABAMA,BALDWIN,,2000-08-04,2000-08-04,2000-08-14,2000-08-14,Boundary changes,Submission received,1,1,0,0,1,boundary,keyword_candidate
+2000-3175,ALABAMA,COLBERT,,2000-08-08,2000-08-08,2000-08-14,2000-08-14,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-3202,ALABAMA,BALDWIN,,2000-08-08,2000-08-08,2000-08-14,2000-08-14,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-3224,ALABAMA,WILCOX,,2000-08-09,2000-08-09,2000-08-14,2000-08-14,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-3279,ALABAMA,ETOWAH,ALTOONA,2000-08-11,2000-08-11,2000-08-18,2000-08-18,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-3291,ALABAMA,WALKER,,2000-08-15,2000-08-15,2000-08-18,2000-08-18,Election administration (Polling place procedures),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-3413,ALABAMA,SHELBY,ALABASTER,2000-08-21,2000-08-21,2000-08-25,2000-08-25,Polling place,Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-3481,ALABAMA,MOBILE,SARALAND,2000-08-28,2000-10-17,2000-09-01,2000-10-20,Polling place (Changed),Notice of withdrawal | Submission received,2,2,1,0,1,polling place,keyword_candidate
+2000-3498,ALABAMA,ESCAMBIA,,2000-08-30,2000-08-30,2000-09-01,2000-09-01,Precinct (Consolidation); Polling place (Consolidation),Submission received,1,1,0,0,1,consolidation | polling place | precinct,keyword_candidate
+2000-3501,ALABAMA,SHELBY,,2000-08-30,2000-08-30,2000-09-01,2000-09-01,Precinct (Consolidation); Polling place (Consolidation),Submission received,1,1,0,0,1,consolidation | polling place | precinct,keyword_candidate
+2000-3517,ALABAMA,DE KALB,,2000-08-31,2000-08-31,2000-09-01,2000-09-01,Precinct (Consolidation); Polling place (Consolidation),Submission received; Expedited Consideration Requested,1,1,0,0,1,consolidation | polling place | precinct,keyword_candidate
+2000-3598,ALABAMA,TALLAPOOSA,,2000-09-01,2000-09-01,2000-09-08,2000-09-08,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-3742,ALABAMA,TUSCALOOSA,COALING,2000-11-14,2001-01-19,2000-11-17,2001-01-25,Incorporation; Method of election (At large); Form of government (Mayor-council); Majority vote requirement; Numbered positions adopted; Polling place (Location established); Absentee Voting (Location established); Special election procedures (Referendum) | Incorporation; Method of election; Form of government; Polling place (Location established); Special election procedures,Resubmission received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2000-3965,ALABAMA,JEFFERSON,,2000-10-10,2000-10-10,2000-10-13,2000-11-03,Polling place (Changed),Submission received; Expedited Consideration Requested,2,2,0,0,1,polling place,keyword_candidate
+2000-4001,ALABAMA,WILCOX,,2000-10-11,2000-10-11,2000-10-13,2000-11-03,Polling place (Changed),Submission received,2,2,0,0,1,polling place,keyword_candidate
+2000-4026,ALABAMA,JACKSON,HYTOP,2000-10-16,2000-10-16,2000-10-20,2000-10-20,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2000-4355,ALABAMA,TALLADEGA,OAK GROVE,2000-11-22,2001-05-14,2000-12-01,2001-05-18,Incorporation | Incorporation; Form of government (Mayor-council); Polling place (Location established); Special election procedures; Special election procedures (Referendum),Additional information received | Submission received,6,7,0,0,1,polling place,keyword_candidate
+2001-0204,ALABAMA,JEFFERSON,,2001-01-22,2001-01-22,2001-01-25,2001-01-25,Precinct (Consolidation); Polling place (Consolidation),Submission received,1,1,0,0,1,consolidation | polling place | precinct,keyword_candidate
+2001-0456,ALABAMA,RUSSELL,,2001-02-12,2001-02-12,2001-02-16,2001-02-16,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2001-0553,ALABAMA,MONROE,,2001-02-21,2001-02-21,2001-02-23,2001-02-23,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2001-0556,ALABAMA,COLBERT,LITTLEVILLE,2001-02-21,2001-02-21,2001-02-23,2001-02-23,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2001-0913,ALABAMA,MOBILE,MOBILE,2001-03-22,2001-03-22,2001-03-23,2001-03-23,Designation of annexed area to election district; Precinct (Realignment); Polling place (Changed),Submission received,1,1,0,0,1,polling place | precinct | realignment,keyword_candidate
+2001-0921,ALABAMA,ELMORE,,2001-03-23,2001-05-15,2001-03-30,2001-05-18,Polling place (Changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2001-0950,ALABAMA,CHOCTAW,,2001-03-27,2001-05-21,2001-03-30,2001-05-25,Polling place (Changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2001-0954,ALABAMA,JEFFERSON,,2001-03-27,2001-03-27,2001-03-30,2001-03-30,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2001-1067,ALABAMA,BULLOCK,,2001-04-06,2001-05-24,2001-04-13,2001-05-25,Precinct (Name change),Notice of withdrawal | Submission received,2,2,1,0,1,precinct,keyword_candidate
+2001-1254,ALABAMA,WALKER,,2001-04-27,2001-04-27,2001-05-04,2001-05-04,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2001-1315,ALABAMA,SHELBY,,2001-05-02,2001-05-02,2001-05-04,2001-05-04,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2001-1323,ALABAMA,DALE,LEVEL PLAINS,2001-05-11,2001-05-11,2001-05-11,2001-05-11,Incorporation; Method of election; Form of government; Polling place (Location established),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2001-1632,ALABAMA,PICKENS,,2001-06-08,2001-06-08,2001-06-08,2001-06-08,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2001-1843,ALABAMA,TUSCALOOSA,TUSCALOOSA,2001-06-29,2001-06-29,2001-07-06,2001-07-06,Polling place (Changed),Submission received; Expedited Consideration Requested,1,1,0,0,1,polling place,keyword_candidate
+2005-1140,ALABAMA,JEFFERSON,County: JEFFERSON,2005-03-24,2005-03-24,2005-04-01,2005-04-01,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2005-1448,ALABAMA,JACKSON,SECTION,2005-04-21,2005-04-21,2005-04-22,2005-04-22,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2005-3028,ALABAMA,"JEFFERSON, SHELBY",BIRMINGHAM,2005-09-26,2005-09-26,2005-10-03,2005-10-03,Polling place (Name change),Additional information received,1,1,0,0,1,polling place,keyword_candidate
+2005-3523,ALABAMA,CALHOUN,County: CALHOUN,2005-09-20,2005-09-20,2005-10-03,2005-10-03,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2005-3897,ALABAMA,BARBOUR,County: BARBOUR,2005-11-15,2005-11-15,2005-11-18,2005-11-18,Precinct,Resubmission received,1,1,0,0,1,precinct,keyword_candidate
+2005-4165,ALABAMA,"JEFFERSON, SHELBY, ST. CLAIR",LEEDS SCHOOL DISTRICT,2005-11-16,2005-11-16,2005-11-18,2005-11-18,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2006-0280,ALABAMA,SHELBY,County: SHELBY,2006-01-17,2006-01-17,2006-01-23,2006-01-23,Precinct (Added),Submission received,1,1,0,0,1,precinct,keyword_candidate
+2006-0320,ALABAMA,BIBB,County: BIBB,2006-01-20,2006-01-20,2006-01-23,2006-01-23,Precinct (Consolidation).,Submission received,1,1,0,0,1,consolidation | precinct,keyword_candidate
+2006-2687,ALABAMA,MARION,County: MARION,2006-03-14,2006-03-14,2006-03-27,2006-03-27,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2006-2850,ALABAMA,JEFFERSON,County: JEFFERSON,2006-03-16,2006-03-16,2006-03-27,2006-03-27,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2006-3008,ALABAMA,JACKSON,PAINT ROCK,2006-03-14,2006-03-14,2006-04-03,2006-04-03,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2006-3125,ALABAMA,WILCOX,County: WILCOX,2006-03-17,2006-03-17,2006-04-03,2006-04-03,Polling place,Submission received,1,1,0,0,1,polling place,keyword_candidate
+2006-3133,ALABAMA,COOSA,County: COOSA,2006-03-20,2006-03-20,2006-04-03,2006-04-03,Polling place,Submission received,1,1,0,0,1,polling place,keyword_candidate
+2006-3268,ALABAMA,MARSHALL,County: MARSHALL,2006-03-28,2006-03-28,2006-04-03,2006-04-03,Polling place,Submission received,1,1,0,0,1,polling place,keyword_candidate
+2006-3349,ALABAMA,CONECUH,County: CONECUH,2006-05-25,2006-05-25,2006-06-05,2006-06-05,Polling place (Changed),Additional information received,1,1,0,0,1,polling place,keyword_candidate
+2006-3415,ALABAMA,DE KALB,County: DE KALB,2006-05-17,2006-05-17,2006-05-22,2006-05-22,Precinct (Consolidation),Additional information received,1,1,0,0,1,consolidation | precinct,keyword_candidate
+2006-3964,ALABAMA,CONECUH,County: CONECUH,2006-05-25,2006-05-25,2006-06-05,2006-06-05,Polling place (Changed),Additional information received,1,1,0,0,1,polling place,keyword_candidate
+2006-4396,ALABAMA,MOBILE,County: MOBILE,2006-05-12,2006-05-12,2006-05-22,2006-05-22,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2006-4455,ALABAMA,ESCAMBIA,County: ESCAMBIA,2006-05-17,2006-05-17,2006-05-22,2006-05-22,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2006-4477,ALABAMA,JACKSON,SCOTTSBORO,2006-05-18,2006-05-18,2006-05-22,2006-05-22,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2006-6019,ALABAMA,MONROE,County: MONROE,2006-10-10,2006-10-10,2006-10-16,2006-10-16,Polling place (Changed),Additional information received,1,1,0,0,1,polling place,keyword_candidate
+2006-6072,ALABAMA,DE KALB,County: DE KALB,2006-10-18,2006-10-18,2006-10-23,2006-10-23,Polling place (Changed),Additional information received,1,1,0,0,1,polling place,keyword_candidate
+2006-6384,ALABAMA,ETOWAH,County: ETOWAH,2006-10-05,2006-10-05,2006-10-16,2006-10-16,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2006-6430,ALABAMA,MORGAN,CONSOLIDATED SCHOOL DISTRICT A | County: MORGAN,2006-10-11,2006-11-27,2006-10-16,2006-12-04,Consolidation of jurisdictions | Special election procedures (Tax),Additional information received | Submission received,2,2,0,0,1,consolidation,keyword_candidate
+2007-0071,ALABAMA,JEFFERSON,County: JEFFERSON,2007-01-09,2007-01-09,2007-01-16,2007-01-16,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2007-1981,ALABAMA,PIKE,County: PIKE,2007-08-31,2007-09-07,2007-09-10,2007-09-10,Precinct (Added),Additional information received,1,2,0,0,1,precinct,keyword_candidate
+2007-2112,ALABAMA,"DALE, HENRY, HOUSTON",DOTHAN,2007-04-03,2007-04-03,2007-04-16,2007-04-16,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2007-2722,ALABAMA,WALKER,County: WALKER,2007-05-09,2007-05-09,2007-05-14,2007-05-14,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2007-3663,ALABAMA,WALKER,County: WALKER,2007-07-26,2007-07-26,2007-08-06,2007-08-06,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2007-3941,ALABAMA,BARBOUR,County: BARBOUR,2007-10-04,2007-10-04,2007-10-09,2007-10-09,Precinct (Realignment),Additional information received,1,1,0,0,1,precinct | realignment,keyword_candidate
+2007-3959,ALABAMA,MOBILE,MOBILE,2007-09-06,2007-09-06,2007-09-10,2007-09-10,Polling place (Designation),Additional information received,1,1,0,0,1,polling place,keyword_candidate
+2007-4397,ALABAMA,Action Date: 01/25/2008 | Action Date: 09/12/2007 | Action Date: 10/04/2007 | Action date: 11/02/2007,ALABAMA STATE BOARD OF EDUCATION,2007-09-12,2008-01-25,2007-09-17,2008-01-28,Election administration | Polling place,Additional information received,4,4,0,0,1,polling place,keyword_candidate
+2007-4515,ALABAMA,LAWRENCE,County: LAWRENCE,2007-09-07,2007-09-07,2007-09-17,2007-09-17,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2007-4742,ALABAMA,BLOUNT,County: BLOUNT,2007-10-26,2007-10-26,2007-10-29,2007-10-29,Polling place (Changed),Additional information received,1,1,0,0,1,polling place,keyword_candidate
+2007-4865,ALABAMA,MONROE,County: MONROE,2007-09-25,2007-09-25,2007-10-01,2007-10-01,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2007-4882,ALABAMA,ETOWAH,County: ETOWAH,2007-09-25,2007-12-06,2007-10-01,2007-12-10,Polling place (Changed),Notice of withdrawal | Submission received,2,2,1,0,1,polling place,keyword_candidate
+2007-4973,ALABAMA,MOBILE,County: MOBILE,2007-10-01,2007-10-01,2007-10-09,2007-10-09,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2007-5368,ALABAMA,SHELBY,CALERA,2007-10-22,2007-10-22,2007-10-29,2007-10-29,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2007-5377,ALABAMA,CALHOUN,County: CALHOUN,2007-10-19,2007-10-19,2007-10-29,2007-10-29,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2007-5398,ALABAMA,BALDWIN,County: BALDWIN,2007-10-22,2007-10-22,2007-10-29,2007-10-29,Precinct (Consolidation),Submission received,1,1,0,0,1,consolidation | precinct,keyword_candidate
+2007-5403,ALABAMA,COLBERT,MUSCLE SHOALS,2007-10-24,2007-10-24,2007-10-29,2007-10-29,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2007-5485,ALABAMA,LIMESTONE,ATHENS,2007-10-29,2007-10-29,2007-11-05,2007-11-05,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2007-5588,ALABAMA,COLBERT,County: COLBERT,2007-11-05,2007-11-05,2007-11-13,2007-11-13,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2007-5605,ALABAMA,TALLADEGA,LINCOLN,2007-11-05,2007-11-20,2007-11-13,2007-11-26,Polling place (Changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2007-5647,ALABAMA,MONROE,County: MONROE,2007-11-07,2007-11-07,2007-11-13,2007-11-13,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2007-5650,ALABAMA,WILCOX,County: WILCOX,2007-11-07,2007-11-07,2007-11-13,2007-11-13,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2007-5786,ALABAMA,MOBILE,County: MOBILE,2007-11-20,2007-11-20,2007-11-26,2007-11-26,Precinct (Realignment),Submission received,1,1,0,0,1,precinct | realignment,keyword_candidate
+2007-5792,ALABAMA,TALLADEGA,County: TALLADEGA | TALLADEGA,2007-11-20,2007-12-10,2007-11-26,2007-12-17,Polling place (Changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2007-5950,ALABAMA,CLARKE,County: CLARKE,2007-12-06,2007-12-06,2007-12-10,2007-12-10,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2007-5975,ALABAMA,ELMORE,ELMORE,2007-12-10,2007-12-10,2007-12-17,2007-12-17,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2007-5987,ALABAMA,WALKER,County: WALKER,2007-12-11,2007-12-11,2007-12-17,2007-12-17,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2008-0009,ALABAMA,ESCAMBIA,County: ESCAMBIA,2008-01-02,2008-01-02,2008-01-07,2008-01-07,Precinct (Consolidation),Submission received,1,1,0,0,1,consolidation | precinct,keyword_candidate
+2008-0101,ALABAMA,JEFFERSON,County: JEFFERSON,2008-01-10,2008-01-10,2008-01-14,2008-01-14,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2008-0229,ALABAMA,ETOWAH,GADSDEN,2008-01-18,2008-02-20,2008-01-28,2008-02-25,Method of election | Polling place (Changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2008-0265,ALABAMA,MARSHALL,County: MARSHALL,2008-01-23,2008-01-23,2008-01-28,2008-01-28,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2008-0279,ALABAMA,CLARKE,County: CLARKE,2008-01-24,2008-01-24,2008-01-28,2008-01-28,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2008-0285,ALABAMA,JEFFERSON,County: JEFFERSON,2008-01-23,2008-01-23,2008-01-28,2008-01-28,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2008-0305,ALABAMA,CONECUH,County: CONECUH,2008-01-25,2008-01-25,2008-01-28,2008-01-28,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2008-0322,ALABAMA,GENEVA,GENEVA,2008-01-25,2008-01-25,2008-02-04,2008-02-04,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2008-0384,ALABAMA,LOWNDES,County: LOWNDES,2008-02-01,2008-02-01,2008-02-04,2008-02-04,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2008-0603,ALABAMA,ST. CLAIR,County: ST. CLAIR,2008-02-19,2008-02-19,2008-02-25,2008-02-25,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2008-0604,ALABAMA,ST. CLAIR,SPRINGVILLE,2008-02-19,2008-02-19,2008-02-25,2008-02-25,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2008-1032,ALABAMA,TALLADEGA,County: TALLADEGA,2008-03-04,2008-03-04,2008-03-10,2008-03-10,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2008-1071,ALABAMA,SHELBY,CALERA,2008-03-04,2008-03-04,2008-03-10,2008-03-10,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2008-1073,ALABAMA,JEFFERSON,County: JEFFERSON,2008-03-04,2008-03-04,2008-03-10,2008-03-10,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2008-1172,ALABAMA,CHAMBERS,LANETT,2008-03-06,2008-03-06,2008-03-17,2008-03-17,Polling place (Chang~d),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2008-1205,ALABAMA,MONTGOMERY,County: MONTGOMERY | MONTGOMERY,2008-03-07,2008-04-08,2008-03-17,2008-04-21,Polling place (Changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2008-1269,ALABAMA,TALLADEGA,County: TALLADEGA,2008-03-07,2008-03-07,2008-03-17,2008-03-17,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2008-1636,ALABAMA,LIMESTONE,County: LIMESTONE,2008-04-11,2008-04-11,2008-04-21,2008-04-21,Polling place (Changed),Additional information received,1,1,0,0,1,polling place,keyword_candidate
+2008-1960,ALABAMA,COLBERT,MUSCLE SHOALS,2008-04-29,2008-04-29,2008-05-05,2008-05-05,Polling place,Additional information received,1,1,0,0,1,polling place,keyword_candidate
+2008-2241,ALABAMA,TUSCALOOSA,County: TUSCALOOSA,2008-04-04,2008-04-04,2008-04-21,2008-04-21,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2008-2245,ALABAMA,COLBERT,County: COLBERT,2008-04-04,2008-04-04,2008-04-21,2008-04-21,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2008-2307,ALABAMA,BALDWIN,DAPHNE,2008-04-13,2008-06-17,2008-04-21,2008-06-23,Limited redistricting | Polling place (Location established),Resubmission received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2008-2776,ALABAMA,LAWRENCE,MOULTON,2008-05-15,2008-05-15,2008-05-19,2008-05-19,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2008-2805,ALABAMA,ETOWAH,ATTALLA,2008-05-15,2008-05-15,2008-05-27,2008-05-27,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2008-2871,ALABAMA,MOBILE,MOUNT VERNON,2008-05-20,2008-05-20,2008-05-27,2008-05-27,Polling place (Added),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2008-3098,ALABAMA,JEFFERSON,SYLVAN SPRINGS,2008-06-11,2008-06-11,2008-06-16,2008-06-16,Polling place (Location deleted),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2008-3147,ALABAMA,JEFFERSON,County: JEFFERSON,2008-06-16,2008-07-01,2008-06-23,2008-07-07,Polling place (Changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2008-3235,ALABAMA,"DALE, HENRY, HOUSTON",DOTHAN,2008-06-16,2008-06-16,2008-06-23,2008-06-23,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2008-3287,ALABAMA,TALLAPOOSA,DADEVILLE,2008-06-18,2008-06-18,2008-06-30,2008-06-30,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2008-3303,ALABAMA,GENEVA,SAMSON,2008-06-23,2008-06-23,2008-06-30,2008-06-30,Polling place (Changed),Additional information received | Submission received,1,2,0,0,1,polling place,keyword_candidate
+2008-3304,ALABAMA,CULLMAN,GARDEN CITY,2008-06-20,2008-06-20,2008-06-30,2008-06-30,Polling place (Location established),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2008-3383,ALABAMA,CRENSHAW,LUVERNE,,,2008-06-30,2008-06-30,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2008-3396,ALABAMA,DE KALB,FORT PAYNE,2008-06-19,2008-06-19,2008-06-30,2008-06-30,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2008-3566,ALABAMA,MOBILE,County: MOBILE,2008-07-01,2008-07-01,2008-07-07,2008-07-07,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2010-3750,ALABAMA,Monroe,,2010-09-27,2010-09-27,2010-10-04,2010-10-04,Polling place (Location changed),Additional information received,1,1,0,0,1,polling place,keyword_candidate
+2010-3794,ALABAMA,Mobile,Submission Number: 2010-3794,2010-09-30,2010-09-30,2010-10-04,2010-10-25,Polling place (Location changed),Additional information received,2,2,0,0,1,polling place,keyword_candidate
+2010-3815,ALABAMA,Montgomery,,2010-09-20,2010-09-29,2010-09-27,2010-10-04,Polling place (Location changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2010-3933,ALABAMA,Macon,,2010-09-27,2010-11-15,2010-10-04,2010-11-16,Polling place (Location changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2010-3942,ALABAMA,Geneva,Slocomb,2010-09-29,2010-09-29,2010-10-04,2010-10-04,Polling place (Name change) | Special election procedures (Referendum),Submission received,1,2,0,0,1,polling place,keyword_candidate
+2010-4013,ALABAMA,Houston,,2010-10-04,2010-10-04,2010-10-12,2010-10-12,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2010-4052,ALABAMA,Geneva,Slocomb,2010-10-07,2010-10-07,2010-10-12,2010-10-12,Polling place (Name change) | Special election procedures (Referendum),Submission received,1,2,0,0,1,polling place,keyword_candidate
+2010-4058,ALABAMA,De Kalb,Submission Number: 2010-4058,2010-11-16,2010-11-16,2010-10-18,2010-11-16,Polling place (Location changed),Additional information received,2,2,0,0,1,polling place,keyword_candidate
+2010-4239,ALABAMA,Tallapoosa,,2010-10-26,2010-10-26,2010-11-01,2010-11-01,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2010-4246,ALABAMA,Pickens,,2010-10-27,2010-10-27,2010-11-01,2010-11-01,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2010-4423,ALABAMA,Montgomery,Montgomery,2010-12-01,2010-12-01,2010-12-06,2010-12-06,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2010-4432,ALABAMA,Randolph,,2010-12-03,2010-12-03,2010-12-06,2010-12-06,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2010-4561,ALABAMA,Mobile,,2010-12-29,2010-12-29,2011-01-10,2011-01-10,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-1095,ALABAMA,De Kalb,Fort Payne,2011-03-28,2011-04-26,2011-04-04,2011-05-02,Boundary changes,Notice of withdrawal | Submission received,2,2,1,0,1,boundary,keyword_candidate
+2011-1101,ALABAMA,Monroe,,2011-03-30,2011-03-30,2011-04-04,2011-04-04,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-1332,ALABAMA,Colbert,Sheffield,2011-04-28,2011-04-28,2011-04-18,2011-05-02,Polling place (Location changed),Additional information received,2,2,0,0,1,polling place,keyword_candidate
+2011-1781,ALABAMA,Jefferson,,2011-05-04,2011-05-04,2011-05-16,2011-05-16,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-1911,ALABAMA,Butler,,2011-05-18,2011-07-06,2011-05-23,2011-07-11,Polling place (Location changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2011-1915,ALABAMA,Jefferson,,2011-05-16,2011-05-16,2011-05-23,2011-05-23,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-1959,ALABAMA,Jefferson,,2011-05-16,2011-05-16,2011-05-31,2011-05-31,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-2028,ALABAMA,Montgomery,Montgomery,2011-05-25,2011-05-25,2011-05-31,2011-05-31,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-2394,ALABAMA,Marshall,,2011-06-20,2011-07-29,2011-06-27,2011-08-08,Polling place (Location changed),Additional information received | Submission received,3,3,0,0,1,polling place,keyword_candidate
+2011-2400,ALABAMA,Jefferson,,2011-06-21,2011-06-21,2011-06-27,2011-06-27,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-2437,ALABAMA,Walker,,2011-06-22,2011-07-15,2011-07-05,2011-07-25,Polling place (Location changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2011-2469,ALABAMA,Walker,,2011-06-27,2011-06-27,2011-07-05,2011-07-05,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-2498,ALABAMA,Sumter,,2011-07-01,2011-07-14,2011-07-05,2011-07-18,Polling place (Location changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2011-2839,ALABAMA,Jackson,,2011-07-25,2011-08-16,2011-08-08,2011-08-22,Polling place (Location changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2011-2939,ALABAMA,Tuscaloosa,,2011-08-03,2011-08-22,2011-08-08,2011-08-29,Polling place (Consolidation) | Polling place (Location changed) | Precinct (Consolidation),Additional information received | Submission received,2,3,0,0,1,consolidation | polling place | precinct,keyword_candidate
+2011-2950,ALABAMA,Talladega,Talladega,2011-08-05,2011-08-05,2011-08-08,2011-08-08,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-3317,ALABAMA,Autauga,,2011-08-29,2011-08-29,2011-09-06,2011-09-06,Polling place (Location changed) | Polling place (Location established) | Precinct (Additional location) | Redistricting plan | Voting method (Optical scan ballots),Submission received,1,5,0,0,1,polling place | precinct,keyword_candidate
+2011-3329,ALABAMA,St. Clair,Steele,2011-08-22,2011-08-22,2011-09-06,2011-09-06,Polling place,Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-3349,ALABAMA,Montgomery,Montgomery,2011-08-30,2011-08-30,2011-09-06,2011-09-06,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-3431,ALABAMA,Choctaw,,2011-08-29,2011-10-20,2011-09-06,2011-10-24,Polling place (Location changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2011-347,ALABAMA,Lauderdale,,2011-02-14,2011-02-14,2011-02-22,2011-02-22,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-3493,ALABAMA,Jefferson,,2011-08-29,2011-08-29,2011-09-12,2011-09-12,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-3520,ALABAMA,St. Clair,,2011-08-30,2011-08-30,2011-09-12,2011-09-12,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-3551,ALABAMA,Jefferson,,2011-08-30,2011-09-26,2011-09-12,2011-10-03,Polling place (Name change),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2011-379,ALABAMA,Jefferson,,2011-02-14,2011-02-14,2011-02-22,2011-02-22,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-3832,ALABAMA,Talladega,Submission Number: 2011-3832,2011-09-29,2011-09-29,2011-09-19,2011-10-03,Polling place (Location changed) | Special election procedures (Tax),Additional information received,3,4,0,0,1,polling place,keyword_candidate
+2011-3904,ALABAMA,"Jefferson, Shelby",Vestavia Hills,2011-09-19,2011-09-19,2011-10-03,2011-10-03,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-4184,ALABAMA,Jefferson,,2011-10-04,2011-10-04,2011-10-17,2011-10-17,Polling place (Name change),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-4236,ALABAMA,De Kalb,,2011-10-06,2011-10-06,2011-10-17,2011-10-17,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-4237,ALABAMA,De Kalb,,2011-10-07,2011-10-07,2011-10-17,2011-10-17,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-4252,ALABAMA,Montgomery,,2011-10-13,2011-12-21,2011-10-17,2011-12-27,Polling place (Additional location) | Polling place (Consolidation) | Polling place (Location changed) | Polling place (Location deleted) | Precinct (Consolidation) | Precinct (Deleted) | Precinct (Realignment) | Precinct (Renumbering) | Redistricting plan,Additional information received | Response to Requested Information | Submission received,3,28,0,0,1,consolidation | polling place | precinct | realignment | renumbering,keyword_candidate
+2011-4260,ALABAMA,Walker,,2011-10-11,2011-10-11,2011-10-17,2011-10-17,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-4264,ALABAMA,Lowndes,Hayneville,2011-10-11,2011-10-11,2011-10-24,2011-10-24,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-4265,ALABAMA,De Kalb,Rainsville,2011-10-11,2011-10-11,2011-10-24,2011-10-24,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-4274,ALABAMA,Morgan,,2011-10-12,2011-11-29,2011-10-24,2011-12-05,Polling place (Location changed) | Voting method (Optical scan ballots),Additional information received | Submission received,2,4,0,0,1,polling place,keyword_candidate
+2011-4299,ALABAMA,Walker,,2011-10-13,2011-10-13,2011-10-24,2011-10-24,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-4311,ALABAMA,Dallas,,2011-10-14,2011-10-14,2011-10-24,2011-10-24,Polling place (Location changed) | Precinct (Realignment),Submission received,1,2,0,0,1,polling place | precinct | realignment,keyword_candidate
+2011-4321,ALABAMA,Elmore,,2011-10-18,2011-11-16,2011-10-24,2011-11-21,Polling place (Location changed) | Precinct (Realignment) | Redistricting plan,Additional information received | Submission received,2,9,0,0,1,polling place | precinct | realignment,keyword_candidate
+2011-4324,ALABAMA,Winston,Haleyville,2011-10-14,2011-10-14,2011-10-24,2011-10-24,Polling place (Consolidation) | Precinct (Consolidation) | Precinct (Realignment),Submission received,1,3,0,0,1,consolidation | polling place | precinct | realignment,keyword_candidate
+2011-4336,ALABAMA,Jefferson,,2011-10-17,2011-10-17,2011-10-24,2011-10-24,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-4351,ALABAMA,Baldwin,,2011-10-19,2011-10-19,2011-10-24,2011-10-24,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-4357,ALABAMA,Jefferson,,2011-10-17,2011-10-17,2011-10-24,2011-10-24,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-4375,ALABAMA,Morgan,Decatur,2011-10-20,2012-02-14,2011-10-24,2012-02-21,Form of government (Council-manager) | Method of election | Number of officials | Polling place (Location changed) | Precinct (Realignment) | Redistricting plan,Additional information received | Notice of withdrawal | Response to Requested Information | Submission received,6,27,1,0,1,polling place | precinct | realignment,keyword_candidate
+2011-4408,ALABAMA,Shelby,,2011-10-20,2011-11-29,2011-10-31,2011-12-05,Polling place (Location changed) | Precinct (Realignment),Additional information received | Submission received,2,4,0,0,1,polling place | precinct | realignment,keyword_candidate
+2011-4478,ALABAMA,Marion,Hamilton,2011-10-24,2011-10-24,2011-10-31,2011-10-31,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-4593,ALABAMA,Jefferson,,2011-10-31,2011-10-31,2011-11-07,2011-11-07,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-4690,ALABAMA,"Limestone, Morgan",Decatur City School District,2011-10-20,2012-02-14,2011-11-14,2012-02-21,Form of government (Council-manager) | Method of election | Polling place | Precinct | Redistricting plan,Additional information received | Notice of withdrawal | Response to Requested Information | Submission received,5,17,1,0,1,polling place | precinct,keyword_candidate
+2011-4718,ALABAMA,Houston,,2011-11-07,2011-12-01,2011-11-14,2011-12-05,Polling place (Location changed) | Polling place (Location deleted) | Precinct (Deleted) | Precinct (Realignment),Additional information received | Submission received,2,12,0,0,1,polling place | precinct | realignment,keyword_candidate
+2011-4808,ALABAMA,Cherokee,,2011-11-10,2011-11-10,2011-11-21,2011-11-21,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-4862,ALABAMA,Etowah,,2011-11-15,2011-11-15,2011-11-28,2011-11-28,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-4941,ALABAMA,Marengo,,2011-11-18,2012-01-11,2011-12-05,2012-01-17,Polling place (Location changed) | Polling place (Location deleted) | Precinct (Realignment) | Redistricting plan | Redistricting plan (Commission),Additional information received | Submission received,4,8,0,0,1,polling place | precinct | realignment,keyword_candidate
+2011-4954,ALABAMA,Wilcox,,2011-11-21,2011-11-21,2011-12-05,2011-12-05,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-5051,ALABAMA,Escambia,Brewton,2011-12-01,2011-12-01,2011-12-05,2011-12-05,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-5078,ALABAMA,Coffee,,2011-11-28,2012-01-11,2011-12-12,2012-01-17,Polling place | Precinct,Additional information received | Submission received,2,6,0,0,1,polling place | precinct,keyword_candidate
+2011-5117,ALABAMA,"Limestone, Madison",Madison,2011-12-06,2011-12-06,2011-12-12,2011-12-12,Polling place (Location established) | Precinct (Additional location) | Redistricting plan,Submission received,1,3,0,0,1,polling place | precinct,keyword_candidate
+2011-5199,ALABAMA,Choctaw,Silas,2011-12-12,2012-01-26,2011-12-19,2012-01-30,Polling place (Location deleted),Additional information received | Submission received,3,3,0,0,1,polling place,keyword_candidate
+2011-5200,ALABAMA,Barbour,,2011-12-09,2011-12-09,2011-12-19,2011-12-19,Polling place (Location established) | Precinct (Additional location),Submission received,1,2,0,0,1,polling place | precinct,keyword_candidate
+2011-5217,ALABAMA,Madison,,2011-12-12,2011-12-12,2011-12-19,2011-12-19,Polling place (Location changed) | Polling place (Location established) | Precinct (Additional location) | Precinct (Realignment),Submission received,1,4,0,0,1,polling place | precinct | realignment,keyword_candidate
+2011-5286,ALABAMA,Walker,,2011-12-13,2011-12-13,2011-12-19,2011-12-19,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-5297,ALABAMA,Mobile,,2011-12-14,2011-12-14,2011-12-19,2011-12-19,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-5307,ALABAMA,Lawrence,,2011-12-14,2011-12-14,2011-12-19,2011-12-19,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-5436,ALABAMA,Talladega,,2011-12-20,2011-12-20,2012-01-03,2012-01-03,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-5442,ALABAMA,Crenshaw,Crenshaw County School District,2011-12-23,2011-12-23,2012-01-03,2012-01-03,Precinct (Realignment) | Redistricting plan,Submission received,1,2,0,0,1,precinct | realignment,keyword_candidate
+2011-5551,ALABAMA,Mobile,,2011-12-29,2011-12-29,2012-01-09,2012-01-09,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2011-5580,ALABAMA,Marengo,Marengo County School District,2012-01-17,2012-01-17,2012-01-23,2012-01-23,Implementation schedule | Polling place (Location changed) | Polling place (Location deleted) | Precinct (Realignment) | Redistricting plan | Term of office (Six years),Additional information received,1,6,0,0,1,polling place | precinct | realignment,keyword_candidate
+2012-1000,ALABAMA,Walker,Jasper,2012-02-29,2012-03-27,2012-03-05,2012-04-03,Annexation | Designation of annexed area to election district | Polling place (Location changed) | Redistricting plan,Additional information received | Submission received,2,7,0,0,1,polling place,keyword_candidate
+2012-1027,ALABAMA,"Dale, Henry, Houston",Dothan,2012-02-27,2012-03-16,2012-03-05,2012-03-19,Polling place (Location changed) | Redistricting plan,Additional information received | Submission received,2,8,0,0,1,polling place,keyword_candidate
+2012-1146,ALABAMA,Baldwin,Magnolia Springs,2012-03-01,2012-03-01,2012-03-12,2012-03-12,Absentee Voting (Procedures) | Numbered positions adopted | Polling place (Location established) | Precinct (Additional location),Submission received,1,4,0,0,1,polling place | precinct,keyword_candidate
+2012-1225,ALABAMA,Chilton,,2012-03-05,2012-06-07,2012-03-12,2012-06-11,Polling place | Precinct (Name change),Resubmission received | Submission received,2,3,0,0,1,polling place | precinct,keyword_candidate
+2012-144,ALABAMA,Marengo,,2012-01-06,2012-01-06,2012-01-17,2012-01-17,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-1670,ALABAMA,Clarke,,2012-03-20,2012-03-20,2012-04-03,2012-04-03,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-1672,ALABAMA,Clarke,Jackson,2012-03-20,2012-03-20,2012-04-03,2012-04-03,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-1784,ALABAMA,Jefferson,Adamsville,2012-03-26,2012-04-12,2012-04-03,2012-04-16,Polling place (Consolidation) | Precinct (Consolidation),Additional information received | Submission received,2,4,0,0,1,consolidation | polling place | precinct,keyword_candidate
+2012-1799,ALABAMA,Jefferson,Sylvan Springs,2012-03-27,2012-03-27,2012-04-03,2012-04-03,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-193,ALABAMA,Pike,,2012-01-12,2012-02-03,2012-01-17,2012-02-06,Polling place (Additional location) | Polling place (Location changed) | Polling place (Location deleted) | Precinct (Additional location) | Precinct (Deleted) | Precinct (Realignment),Additional information received | Submission received,2,12,0,0,1,polling place | precinct | realignment,keyword_candidate
+2012-2077,ALABAMA,Mobile,Semmes,2012-04-04,2012-04-04,2012-04-16,2012-04-16,Election administration (Poll workers) | Numbered positions adopted | Polling place (Location established) | Voting method (Electronic),Submission received,1,4,0,0,1,polling place,keyword_candidate
+2012-2253,ALABAMA,De Kalb,,2012-04-09,2012-04-09,2012-04-16,2012-04-16,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-2274,ALABAMA,"Elmore, Tallapoosa",Tallassee,2012-04-11,2012-04-11,2012-04-16,2012-04-16,Polling place (Location changed) | Redistricting plan,Submission received,1,2,0,0,1,polling place,keyword_candidate
+2012-2396,ALABAMA,Baldwin,Perdido Beach,2012-04-16,2012-04-16,2012-04-23,2012-04-23,Polling place | Voting method,Submission received,1,2,0,0,1,polling place,keyword_candidate
+2012-2448,ALABAMA,Jefferson,,2012-04-17,2012-04-17,2012-04-23,2012-04-23,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-2465,ALABAMA,Elmore,Millbrook,2012-04-18,2012-06-07,2012-04-23,2012-06-18,Polling place (Location changed) | Polling place (Name change) | Redistricting plan,Additional information received | Submission received,2,6,0,0,1,polling place,keyword_candidate
+2012-2629,ALABAMA,Butler,Georgiana,2012-04-26,2012-04-26,2012-05-01,2012-05-01,Precinct (Realignment) | Redistricting plan (Council),Submission received,1,2,0,0,1,precinct | realignment,keyword_candidate
+2012-2647,ALABAMA,Mobile,Prichard,2012-04-30,2012-04-30,2012-05-08,2012-05-08,Polling place (Location changed) | Polling place (Location deleted) | Precinct (Deleted) | Precinct (Realignment) | Precinct (Renumbering) | Redistricting plan,Submission received,1,6,0,0,1,polling place | precinct | realignment | renumbering,keyword_candidate
+2012-2772,ALABAMA,Butler,Greenville,2012-04-30,2012-04-30,2012-05-08,2012-05-08,Polling place (Location changed) | Redistricting plan,Submission received,1,2,0,0,1,polling place,keyword_candidate
+2012-2799,ALABAMA,Madison,,2012-05-03,2012-05-10,2012-05-08,2012-05-14,Polling place (Location changed) | Precinct (Realignment),Additional information received | Submission received,2,4,0,0,1,polling place | precinct | realignment,keyword_candidate
+2012-2942,ALABAMA,Shelby,Wilton,2012-05-09,2012-05-09,2012-05-14,2012-05-14,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-3007,ALABAMA,Clarke,Coffeeville,2012-05-14,2012-05-31,2012-05-21,2012-06-04,Polling place (Location changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2012-3025,ALABAMA,"Jefferson, Shelby",Vestavia Hills,2012-05-07,2012-05-07,2012-05-21,2012-05-21,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-3051,ALABAMA,Shelby,,2012-05-16,2012-05-16,2012-05-21,2012-05-21,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-3062,ALABAMA,"Calhoun, Talladega",Oxford,2012-05-16,2012-05-16,2012-05-21,2012-05-21,Polling place (Name change),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-3083,ALABAMA,Clarke,,2012-05-17,2012-05-17,2012-05-30,2012-05-30,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-311,ALABAMA,Jefferson,Mountain Brook,2012-01-19,2012-04-04,2012-01-30,2012-04-23,Polling place (Location changed),Additional information received | Resubmission received | Submission received,4,4,0,0,1,polling place,keyword_candidate
+2012-3127,ALABAMA,"Autauga, Elmore",Prattville,2012-05-23,2012-05-23,2012-05-30,2012-05-30,Polling place (Name change),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-3136,ALABAMA,Blount,,2012-05-21,2012-05-21,2012-05-30,2012-05-30,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-3160,ALABAMA,Randolph,Roanoke,2012-05-29,2012-06-05,2012-05-30,2012-06-11,Polling place (Consolidation) | Precinct (Consolidation),Additional information received | Submission received,2,4,0,0,1,consolidation | polling place | precinct,keyword_candidate
+2012-3197,ALABAMA,Wilcox,Camden,2012-05-25,2012-05-25,2012-06-04,2012-06-04,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-320,ALABAMA,"Jefferson, Shelby, St. Clair",Leeds,2012-01-20,2012-01-20,2012-01-30,2012-01-30,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-3207,ALABAMA,De Kalb,Fyffe,2012-05-31,2012-06-20,2012-06-04,2012-06-25,Polling place (Location changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2012-322,ALABAMA,Shelby,,2012-01-24,2012-01-24,2012-01-30,2012-01-30,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-3245,ALABAMA,Calhoun,,2012-05-31,2012-05-31,2012-06-04,2012-06-04,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-3256,ALABAMA,Dallas,Selma,2012-05-30,2012-06-08,2012-06-11,2012-06-18,Polling place (Location changed) | Precinct (Realignment) | Redistricting plan,Additional information received | Submission received,2,6,0,0,1,polling place | precinct | realignment,keyword_candidate
+2012-3331,ALABAMA,Clarke,Fulton,2012-06-07,2012-06-07,2012-06-11,2012-06-11,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-3345,ALABAMA,Monroe,Monroeville,2012-06-07,2012-06-07,2012-06-11,2012-06-11,Polling place (Location changed) | Redistricting plan (Council),Submission received,1,2,0,0,1,polling place,keyword_candidate
+2012-3417,ALABAMA,Calhoun,Anniston,2012-06-13,2012-07-24,2012-06-18,2012-07-30,Annexation | Designation of annexed area to election district | Polling place (Location changed) | Precinct (Realignment) | Redistricting plan,Additional information received | Submission received,2,10,0,0,1,polling place | precinct | realignment,keyword_candidate
+2012-3474,ALABAMA,Morgan,,2012-06-14,2012-06-29,2012-06-18,2012-07-05,Precinct (Realignment) | Redistricting plan,Additional information received | Submission received,2,4,0,0,1,precinct | realignment,keyword_candidate
+2012-350,ALABAMA,Bibb,,2012-01-25,2012-02-28,2012-01-30,2012-03-12,Polling place (Location changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2012-3615,ALABAMA,Pike,,2012-06-22,2012-08-16,2012-06-25,2012-08-21,Polling place (Additional location) | Precinct (Additional location) | Precinct (Realignment),Additional information received | Submission received,2,4,0,0,1,polling place | precinct | realignment,keyword_candidate
+2012-3634,ALABAMA,Tuscaloosa,,2012-06-21,2012-06-21,2012-07-05,2012-07-05,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-3742,ALABAMA,Autauga,,2012-07-02,2012-07-02,2012-07-05,2012-07-05,Polling place (Name change),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-3744,ALABAMA,Mobile,,2012-06-28,2012-06-28,2012-07-05,2012-07-05,Polling place (Designation) | Polling place (Location changed) | Voting method,Submission received,1,3,0,0,1,polling place,keyword_candidate
+2012-3748,ALABAMA,Mobile,,2012-06-29,2012-06-29,2012-07-05,2012-07-05,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-382,ALABAMA,Winston,Haleyville,2012-01-25,2012-02-28,2012-01-30,2012-03-05,Polling place (Consolidation) | Precinct (Consolidation),Additional information received | Submission received,2,4,0,0,1,consolidation | polling place | precinct,keyword_candidate
+2012-3899,ALABAMA,Baldwin,,2012-07-11,2012-07-11,2012-07-16,2012-07-16,Polling place (Location changed) | Polling place (Location established) | Precinct (Additional location),Submission received,1,3,0,0,1,polling place | precinct,keyword_candidate
+2012-4287,ALABAMA,Jefferson,,2012-08-07,2012-08-07,2012-08-13,2012-08-13,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-4336,ALABAMA,Fayette,,2012-08-09,2012-08-09,2012-08-13,2012-08-13,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-4457,ALABAMA,Winston,,2012-08-17,2012-08-17,2012-08-21,2012-08-21,Precinct (Realignment),Submission received,1,1,0,0,1,precinct | realignment,keyword_candidate
+2012-4675,ALABAMA,Greene,,2012-08-30,2012-08-30,2012-09-04,2012-09-04,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-4705,ALABAMA,Sumter,York,2012-08-29,2012-08-29,2012-09-04,2012-09-04,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-4943,ALABAMA,Lee,,2012-09-06,2012-09-06,2012-09-17,2012-09-17,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-5066,ALABAMA,"Jefferson, Shelby",Birmingham,2012-09-12,2012-09-21,2012-09-24,2012-09-24,Polling place (Location changed),Additional information received | Submission received,1,3,0,0,1,polling place,keyword_candidate
+2012-5070,ALABAMA,Barbour,,2012-09-19,2012-11-09,2012-09-24,2012-11-13,Polling place (Location deleted) | Polling place (Location established),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2012-5184,ALABAMA,Sumter,,2012-09-24,2012-10-01,2012-10-01,2012-10-10,Polling place (Location changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2012-5712,ALABAMA,Choctaw,,2012-11-27,2012-12-11,2012-12-03,2012-12-17,Polling place (Location changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2012-5788,ALABAMA,Jefferson,,2012-12-11,2012-12-11,2012-12-17,2012-12-17,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-678,ALABAMA,Lawrence,Town Creek,2012-02-13,2012-02-13,2012-02-21,2012-02-21,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-759,ALABAMA,Geneva,,2012-02-16,2012-02-16,2012-02-21,2012-02-21,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-775,ALABAMA,Geneva,Geneva,2012-02-17,2012-02-17,2012-02-27,2012-02-27,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-818,ALABAMA,Jefferson,Homewood,2012-02-22,2012-02-22,2012-02-27,2012-02-27,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-846,ALABAMA,Tuscaloosa,Coaling,2012-02-23,2012-02-23,2012-03-05,2012-03-05,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-926,ALABAMA,Winston,,2012-02-22,2012-02-22,2012-03-05,2012-03-05,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2012-999,ALABAMA,Elmore,Wetumpka,2012-02-28,2012-04-24,2012-03-05,2012-05-01,Polling place (Location changed) | Redistricting plan,Additional information received | Submission received,4,12,0,0,1,polling place,keyword_candidate
+2013-1249,ALABAMA,Tuscaloosa,Submission Number: 2013-1249 | Tuscaloosa,2013-05-09,2013-05-09,2013-04-15,2013-05-13,Polling place (Location changed),Additional information received,2,2,0,0,1,polling place,keyword_candidate
+2013-143,ALABAMA,Mobile,,2013-01-17,2013-01-17,2013-01-22,2013-01-22,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2013-1529,ALABAMA,"Calhoun, Etowah",Southside,2013-05-06,2013-05-06,2013-05-13,2013-05-13,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2013-1626,ALABAMA,Marengo,,2013-05-13,2013-05-22,2013-05-20,2013-05-28,Polling place (Location changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2013-1658,ALABAMA,Tuscaloosa,,2013-05-16,2013-06-03,2013-05-20,2013-06-03,Polling place (Location changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+2013-1750,ALABAMA,Mobile,Citronelle,2013-05-24,2013-05-24,2013-05-28,2013-05-28,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2013-1827,ALABAMA,Montgomery,,2013-06-03,2013-06-03,2013-06-10,2013-06-10,Precinct (Additional location),Submission received,1,1,0,0,1,precinct,keyword_candidate
+2013-1842,ALABAMA,Tuscaloosa,Tuscaloosa,2013-06-06,2013-06-06,2013-06-10,2013-06-10,Boundary changes,Submission received,1,1,0,0,1,boundary,keyword_candidate
+2013-1873,ALABAMA,Mobile,Bayou La Batre,2013-06-10,2013-06-10,2013-06-17,2013-06-17,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2013-1885,ALABAMA,Mobile,Mobile,2013-06-12,2013-06-12,2013-06-17,2013-06-17,Polling place (Additional location) | Precinct (Additional location) | Precinct (Realignment),Submission received,1,3,0,0,1,polling place | precinct | realignment,keyword_candidate
+2013-400,ALABAMA,"Dale, Henry, Houston",Dothan,2013-02-15,2013-02-15,2013-02-19,2013-02-19,Polling place (Location changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+2013-648,ALABAMA,Jefferson,,2013-03-04,2013-04-05,2013-03-11,2013-04-08,Precinct (Realignment) | Redistricting plan,Additional information received | Submission received,3,12,0,0,1,precinct | realignment,keyword_candidate
+90-1692,ALABAMA,DALLAS,,1998-10-28,1998-10-30,1998-10-30,1998-11-06,Polling place,Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+98-0654,ALABAMA,ETOWAH,,1998-04-13,1998-04-13,1998-04-14,1998-04-14,Polling place (changed),Additional information received,1,1,0,0,1,polling place,keyword_candidate
+98-0911,ALABAMA,PERRY,,1998-04-10,1998-04-28,1998-04-14,1998-04-29,Polling place (changed),Additional information received; Expedited Consideration Requested,2,2,0,0,1,polling place,keyword_candidate
+98-1488,ALABAMA,HOUSTON,,1998-04-13,1998-06-11,1998-04-14,1998-06-19,Precinct (realignment); Polling place (changed),Additional information received | Submission received,3,3,0,0,1,polling place | precinct | realignment,keyword_candidate
+98-1490,ALABAMA,TALLADEGA,,1998-04-10,1998-04-10,1998-04-14,1998-04-14,Precinct (consolidation); Polling place (consolidation),Submission received,1,1,0,0,1,consolidation | polling place | precinct,keyword_candidate
+98-1537,ALABAMA,LAMAR,,1998-06-09,1998-06-09,1998-06-10,1998-06-10,Redistricting plan; Precinct (realignment),Additional information received,1,1,0,0,1,precinct | realignment,keyword_candidate
+98-1558,ALABAMA,MOBILE,PRICHARD,1998-06-17,1998-06-19,1998-06-19,1998-06-19,Precinct (consolidation); Polling place (consolidation),Additional information received,1,2,0,0,1,consolidation | polling place | precinct,keyword_candidate
+98-1572,ALABAMA,JEFFERSON,,1998-04-30,1998-04-30,1998-05-06,1998-05-06,Polling place (changed),Additional information received,1,1,0,0,1,polling place,keyword_candidate
+98-1616,ALABAMA,LEE,,1998-04-24,1998-04-24,1998-04-29,1998-04-29,Polling place (changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+98-1678,ALABAMA,TALLAPOOSA,,1998-04-30,1998-04-30,1998-05-06,1998-05-06,Precinct (realignment); Polling place (changed),Submission received,1,1,0,0,1,polling place | precinct | realignment,keyword_candidate
+98-1719,ALABAMA,DALLAS,,1998-05-04,1998-05-04,1998-05-06,1998-05-06,Polling place (changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+98-1793,ALABAMA,MONROE,,1998-06-24,1998-06-24,1998-06-26,1998-06-26,Polling place (changed),Additional information received,1,1,0,0,1,polling place,keyword_candidate
+98-1857,ALABAMA,MONROE,,1998-05-19,1998-05-19,1998-05-22,1998-05-22,Polling place (changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+98-2004,ALABAMA,MOBILE,,1998-06-02,1998-06-02,1998-06-03,1998-06-03,Polling place (changed),Submission received; Expedited Consideration Requested,1,1,0,0,1,polling place,keyword_candidate
+98-2161,ALABAMA,JEFFERSON,,1998-06-17,1998-06-17,1998-06-19,1998-06-19,Polling place (changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+98-2302,ALABAMA,COVINGTON,RED LEVEL,1998-07-02,1998-08-20,1998-07-10,1998-08-28,Polling place (changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+98-2385,ALABAMA,BALDWIN,,1998-07-14,1998-07-14,1998-07-17,1998-07-17,Precinct (realignment),Submission received,1,1,0,0,1,precinct | realignment,keyword_candidate
+98-2499,ALABAMA,COLBERT,,1998-07-24,1998-07-24,1998-07-31,1998-07-31,Polling place (changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+98-2512,ALABAMA,PIKE,,1998-07-27,1998-07-27,1998-07-31,1998-07-31,Polling place (changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+98-2696,ALABAMA,FRANKLIN,,1998-08-10,1998-08-10,1998-08-14,1998-08-14,Polling place (changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+98-2697,ALABAMA,FRANKLIN,RED BAY,1998-08-10,1998-08-10,1998-08-14,1998-08-14,Polling place (changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+98-2753,ALABAMA,WALKER,,1998-08-17,1998-09-15,1998-08-20,1998-09-18,Polling place (changed),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+98-2806,ALABAMA,WILCOX,,1998-08-19,1998-10-07,1998-08-28,1998-10-09,Precinct (renumbering),Additional information received | Submission received,2,2,0,0,1,precinct | renumbering,keyword_candidate
+98-2824,ALABAMA,GREENE,,1998-08-24,1998-08-24,1998-08-28,1998-08-28,Polling place (changed),Submission received; Expedited Consideration Requested,1,1,0,0,1,polling place,keyword_candidate
+98-2830,ALABAMA,CLEBURNE,,1998-08-24,1998-08-24,1998-08-28,1998-08-28,Polling place; Voting method (optical scan ballots),Submission received,1,1,0,0,1,polling place,keyword_candidate
+98-2885,ALABAMA,BLOUNT,,1998-08-25,1998-08-25,1998-09-04,1998-09-04,Polling place (changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+98-2938,ALABAMA,TUSCALOOSA,TUSCALOOSA CITY SCHOOL DISTRICT,1998-08-31,1998-08-31,1998-09-04,1998-09-04,Election administration (polling place procedures); Special election procedures (referendum),Submission received,1,1,0,0,1,polling place,keyword_candidate
+98-2980,ALABAMA,LAWRENCE,,1998-09-01,1998-09-01,1998-09-04,1998-09-04,Polling place (changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+98-3149,ALABAMA,COVINGTON,RED LEVEL,1998-09-15,1998-09-15,1998-09-18,1998-09-18,Polling place (changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+98-3228,ALABAMA,MONTGOMERY,PIKE ROAD,1998-09-28,1998-09-28,1998-10-02,1998-10-02,Incorporation; Annexation; Polling place (location established); Special election procedures (confirmation),Related submission received,1,1,0,0,1,polling place,keyword_candidate
+98-3327,ALABAMA,COVINGTON,,1998-09-29,1998-09-29,1998-10-02,1998-10-02,Polling place (changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+98-3422,ALABAMA,DALLAS,,1998-10-08,1998-10-30,1998-10-09,1998-11-06,Polling place (changed),Additional information received | Submission received,3,3,0,0,1,polling place,keyword_candidate
+98-3466,ALABAMA,CULLMAN,,1998-10-15,1998-10-15,1998-10-16,1998-10-16,Polling place (changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+98-3638,ALABAMA,MOBILE,,1998-11-03,1998-11-03,1998-11-06,1998-11-06,Polling place (changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+99-0081,ALABAMA,"DALE, HENRY, HOUSTON",DOTHAN,1999-01-14,1999-01-14,1999-01-15,1999-01-15,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+99-0083,ALABAMA,MONTGOMERY,MONTGOMERY,1999-01-14,1999-01-14,1999-01-15,1999-01-15,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+99-0112,ALABAMA,TALLAPOOSA,DADEVILLE,1999-01-19,1999-01-19,1999-01-22,1999-01-22,Precinct (Consolidation); Polling place (Consolidation),Submission received,1,1,0,0,1,consolidation | polling place | precinct,keyword_candidate
+99-0221,ALABAMA,JEFFERSON,,1999-02-02,1999-02-02,1999-02-05,1999-02-05,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+99-0233,ALABAMA,WINSTON,,1999-02-02,1999-02-02,1999-02-05,1999-02-05,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+99-0771,ALABAMA,ETOWAH,,1999-03-22,1999-03-22,1999-03-26,1999-03-26,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+99-0979,ALABAMA,JEFFERSON,,1999-04-12,1999-04-12,1999-04-16,1999-04-16,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+99-1071,ALABAMA,JEFFERSON,,1999-04-19,1999-04-19,1998-04-22,1999-04-22,Polling place (Changed),Submission received,2,2,0,0,1,polling place,keyword_candidate
+99-1112,ALABAMA,BLOUNT,,1999-04-19,1999-04-19,1998-04-22,1999-04-22,Polling place (Changed),Submission received,2,2,0,0,1,polling place,keyword_candidate
+99-1144,ALABAMA,MARION,,1999-04-26,1999-04-26,1999-04-30,1999-04-30,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+99-1212,ALABAMA,MORGAN,,1999-04-28,1999-04-28,1999-05-07,1999-05-07,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+99-1219,ALABAMA,LAWRENCE,,1999-05-03,1999-05-03,1999-05-07,1999-05-07,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+99-1261,ALABAMA,LIMESTONE,,1999-05-05,1999-05-05,1999-05-07,1999-05-07,Precinct (Consolidation); Polling place (Changed),Submission received,1,1,0,0,1,consolidation | polling place | precinct,keyword_candidate
+99-1617,ALABAMA,MARENGO,,1999-06-16,1999-06-16,1999-06-18,1999-06-18,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+99-1666,ALABAMA,ESCAMBIA,,1999-06-22,1999-08-16,1999-06-25,1999-08-20,Precinct (Realignment); Polling place (Changed),Additional information received | Submission received,2,2,0,0,1,polling place | precinct | realignment,keyword_candidate
+99-1729,ALABAMA,GREENE,,1999-06-29,1999-07-23,1999-07-01,1999-07-28,Polling place (Changed); Voting method (Electronic),Additional information received | Submission received,2,2,0,0,1,polling place,keyword_candidate
+99-1799,ALABAMA,BUTLER,,1999-07-07,1999-07-07,1999-07-09,1999-07-09,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+99-1874,ALABAMA,MONTGOMERY,,1999-07-13,1999-07-13,1999-07-16,1999-07-16,Polling place; Absentee Voting (Procedures); Election administration (Polling place procedures),Submission received; Expedited Consideration Requested,1,1,0,0,1,polling place,keyword_candidate
+99-1882,ALABAMA,CALHOUN,,1999-07-14,1999-07-14,1999-07-16,1999-07-16,Polling place (Added); Polling place (Changed); Absentee Voting (Procedures),Submission received,1,1,0,0,1,polling place,keyword_candidate
+99-1945,ALABAMA,WILCOX,,1999-07-19,1999-07-19,1999-07-28,1999-07-28,Polling place (Added),Submission received,1,1,0,0,1,polling place,keyword_candidate
+99-1963,ALABAMA,BALDWIN,,1999-07-21,1999-07-21,1999-07-28,1999-07-28,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+99-1989,ALABAMA,RANDOLPH,WOODLAND,1999-07-21,1999-07-21,1999-07-28,1999-07-28,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+99-2006,ALABAMA,PERRY,,1999-07-26,1999-08-03,1999-07-28,1999-08-09,Precinct (Deconsolidation),Additional information received | Submission received,2,2,0,0,1,deconsolidation | precinct,keyword_candidate
+99-2028,ALABAMA,TALLADEGA,,1999-07-27,1999-07-27,1999-07-28,1999-07-28,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+99-2097,ALABAMA,CONECUH,,1999-07-30,1999-07-30,1999-08-09,1999-08-09,Boundary changes; Precinct (Consolidation),Submission received,1,1,0,0,1,boundary | consolidation | precinct,keyword_candidate
+99-2123,ALABAMA,COLBERT,,1999-08-03,1999-08-03,1999-08-09,1999-08-09,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+99-2149,ALABAMA,CONECUH,,1999-08-02,1999-08-02,1999-08-09,1999-08-09,Precinct (Realignment),Submission received,1,1,0,0,1,precinct | realignment,keyword_candidate
+99-2308,ALABAMA,SHELBY,,1999-08-13,1999-08-13,1999-08-20,1999-08-20,Polling place (Added); Polling place (Changed); Absentee Voting (Additional location),Submission received,1,1,0,0,1,polling place,keyword_candidate
+99-2342,ALABAMA,WALKER,,1999-08-16,1999-08-16,1999-08-20,1999-08-20,Polling place (Changed); Absentee Voting (Procedures); Special election procedures (Constitutional amendment),Submission received,1,1,0,0,1,polling place,keyword_candidate
+99-2394,ALABAMA,MOBILE,,1999-08-18,1999-08-18,1999-08-20,1999-08-20,Polling place (Changed); Polling place (Name change); Special election procedures (Tax),Submission received; Expedited Consideration Requested,1,1,0,0,1,polling place,keyword_candidate
+99-2443,ALABAMA,BALDWIN,,1999-08-23,1999-08-23,1999-08-27,1999-08-27,Redistricting plan; Precinct (Realignment),Submission received,1,1,0,0,1,precinct | realignment,keyword_candidate
+99-2444,ALABAMA,JEFFERSON,,1999-08-23,1999-08-23,1999-08-27,1999-08-27,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+99-2457,ALABAMA,FRANKLIN,PHIL CAMPBELL,1999-08-23,1999-08-23,1999-08-27,1999-08-27,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+99-2508,ALABAMA,WINSTON,,1999-08-27,1999-08-27,1999-09-03,1999-09-03,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+99-2542,ALABAMA,COLBERT,,1999-08-30,1999-08-30,1999-09-03,1999-09-03,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate
+99-2543,ALABAMA,DE KALB,,1999-08-30,1999-08-30,1999-09-03,1999-09-03,Polling place (Changed),Submission received; Expedited Consideration Requested,1,1,0,0,1,polling place,keyword_candidate
+99-2553,ALABAMA,DALLAS,,1999-08-31,1999-08-31,1999-09-03,1999-09-03,Redistricting plan; Polling place (Changed); Absentee Voting (Location established),Submission received,1,1,0,0,1,polling place,keyword_candidate
+99-2731,ALABAMA,CALHOUN,,1999-09-08,1999-09-08,1999-09-09,1999-09-09,Polling place (Changed),Submission received,1,1,0,0,1,polling place,keyword_candidate

@@ -1,0 +1,10 @@
+{
+  "id": "E1C7C8DCDA6E89F0",
+  "decision": "map",
+  "primitive_axis": "labor_rights",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Provides collective bargaining and arbitration rights for specified public employees.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "B5AF2742EF25D928",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Creates a sentencing commission and assigns governmental duties, an administrative institutional measure without a clearly specified punishment or incarceration effect.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

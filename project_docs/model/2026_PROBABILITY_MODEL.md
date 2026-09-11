@@ -1,5 +1,7 @@
 # 2026 district probability model
 
+> **Documentation status — 2026-09-05:** Historical research candidate, not the current public probability contract. The proposal and diagnostics below are retained for comparison; their presence does not authorize promotion. Use [current product routes](../CANONICAL_PIPELINES.md) to locate the selected release and its own validation limits.
+
 ## Decision
 
 The research candidate converts each forecast margin to a district win

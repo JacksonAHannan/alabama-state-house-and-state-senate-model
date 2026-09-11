@@ -1,0 +1,11 @@
+{
+  "policy_key": "sanctions_on_china",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting economic sanctions against China is conventionally viewed as a progressive stance in this context.",
+  "evidence_quote": "Do you support the United States imposing economic sanctions on China?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "constitutional_prayer_in_schools",
+  "dimension": "education_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Proposal to amend the U.S. Constitution to permit voluntary prayer or moments of silence in public schools.",
+  "evidence_quote": "Do you support amending the United States Constitution to allow voluntary prayer and/or moment of silence in public schools?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

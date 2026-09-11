@@ -1,0 +1,30 @@
+{
+  "primary_domain": "criminal_justice",
+  "policy_key": "juvenile_prosecution_adult_status",
+  "plain_english_policy": "Determines whether minors charged with violent crimes are tried in adult criminal court rather than juvenile court.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "criminal_punishment",
+      "pole": "punitive",
+      "strength": "primary",
+      "rationale": "Prosecuting minors as adults typically results in more severe penalties, including adult sentencing and incarceration."
+    },
+    {
+      "axis": "labor_rights",
+      "pole": "restrict",
+      "strength": "secondary",
+      "rationale": "Juvenile labor protections (e.g., restrictions on employment for minors) may be weakened if minors are treated as adults in legal contexts, though this is an indirect effect."
+    },
+    {
+      "axis": "civil_social_liberty",
+      "pole": "restrict",
+      "strength": "secondary",
+      "rationale": "Adult prosecution removes protections under juvenile justice systems (e.g., confidentiality, rehabilitation-focused proceedings)."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Should a minor accused of a violent crime be prosecuted as an adult?\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

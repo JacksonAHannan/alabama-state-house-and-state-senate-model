@@ -1,0 +1,10 @@
+{
+  "id": "63F62FBC2C44D584",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Combines municipal preemption, pistol possession, permits, gun-show taxation, and use-of-force provisions, creating mixed directions rather than one concrete pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

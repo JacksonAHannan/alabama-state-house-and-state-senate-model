@@ -1,0 +1,11 @@
+{
+  "policy_key": "medical_malpractice_damage_caps",
+  "dimension": "healthcare_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Capping the financial penalties doctors/health providers can face in malpractice lawsuits.",
+  "evidence_quote": "Establish limits on the amount of damages awarded in medical malpractice lawsuits.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

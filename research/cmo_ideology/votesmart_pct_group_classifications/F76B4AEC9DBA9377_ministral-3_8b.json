@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_lands_recreation_standards",
+  "dimension": "environment_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Weaken environmental protections on federal lands to prioritize expanded recreational activities (e.g., logging, drilling, or off-road vehicle use).",
+  "evidence_quote": "*Relax standards on federal lands to allow increased recreational usage.*",
+  "needs_human_review": false,
+  "review_reason": ""
+}

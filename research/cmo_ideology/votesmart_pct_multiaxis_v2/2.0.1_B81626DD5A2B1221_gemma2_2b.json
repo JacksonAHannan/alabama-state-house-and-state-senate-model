@@ -1,0 +1,18 @@
+{
+  "primary_domain": "business",
+  "policy_key": "market_governance",
+  "plain_english_policy": "candidates should be encouraged to meet voluntary spending limits",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "This policy restricts the amount of money candidates can spend on their campaigns."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "candidates should be encouraged to meet voluntary spending limits",
+  "needs_human_review": false,
+  "review_reason": "This policy is about limiting campaign spending. It does not explicitly mention any specific mechanism for achieving this limit."
+}

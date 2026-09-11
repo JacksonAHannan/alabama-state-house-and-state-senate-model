@@ -1,0 +1,11 @@
+{
+  "policy_key": "trade_human_rights_mfn",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Should the U.S. grant preferential trade status (e.g., 'most favored nation' tariffs) to countries with poor human rights records?",
+  "evidence_quote": "*[Verbatim excerpt from Alabama candidate questionnaire\u2014if available, e.g.]*'Yes, we should tie trade benefits to democratic values and human rights compliance.'*",
+  "needs_human_review": true,
+  "review_reason": "No direct quote provided; this is a placeholder for how an affirmative answer would be coded. Actual scoring requires the candidate\u2019s exact wording."
+}

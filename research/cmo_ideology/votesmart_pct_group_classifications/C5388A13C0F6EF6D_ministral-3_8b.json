@@ -1,0 +1,11 @@
+{
+  "policy_key": "un_withdrawal",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option explicitly calls for the United States to withdraw from the United Nations, which is conventionally a **progressive** stance (or at least a non-traditional conservative position) due to its skepticism of multilateral institutions and preference for unilateral action.",
+  "evidence_quote": "**e) The US should withdraw from the UN completely.**",
+  "needs_human_review": false,
+  "review_reason": ""
+}

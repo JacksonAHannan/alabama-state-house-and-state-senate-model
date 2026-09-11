@@ -1,0 +1,11 @@
+{
+  "policy_key": "concealed_carry_permission",
+  "dimension": "guns_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Whether Alabama should permit citizens to openly or covertly carry firearms in public.",
+  "evidence_quote": "*[No direct quote provided in your input, but conventionally this position is classified as follows:]*",
+  "needs_human_review": true,
+  "review_reason": "The question lacks a specific option text to extract verbatim evidence. The classification (+1/-1/0) depends on the exact wording of the candidate\u2019s stance (e.g., 'yes, with restrictions' vs. 'no')."
+}

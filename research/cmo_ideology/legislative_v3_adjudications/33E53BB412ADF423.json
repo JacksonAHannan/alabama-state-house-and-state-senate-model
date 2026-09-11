@@ -1,0 +1,10 @@
+{
+  "id": "33E53BB412ADF423",
+  "decision": "map",
+  "primitive_axis": "education_access",
+  "policy_pole": "restrict",
+  "confidence": "high",
+  "rationale": "The bill restricts access to public schools by prohibiting sex offenders convicted of crimes with minors from being within 500 feet of K-12 school property during instructional hours. This is a clear restriction on access for a specific vulnerable group.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "public_private_provision",
+  "plain_english_policy": "Reduction of public-sector employment via mandatory furloughs/layoffs to balance the budget.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Mandatory furloughs/layoffs reduce public-sector wages and benefits, effectively restricting welfare-like services (e.g., government employment as a social safety net)."
+    },
+    {
+      "axis": "labor_capital_alignment",
+      "pole": "capital_management",
+      "strength": "primary",
+      "rationale": "Prioritizes cost-cutting over labor protections, aligning with capital interests."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "mandatory furloughs and layoffs for state employees",
+  "needs_human_review": false,
+  "review_reason": ""
+}

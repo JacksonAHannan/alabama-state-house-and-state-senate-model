@@ -1,0 +1,11 @@
+{
+  "policy_key": "clean_water_act_strengthening",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase federal enforcement and protections under the Clean Water Act to reduce pollution in rivers, lakes, and wetlands.",
+  "evidence_quote": "Strengthen the Clean Water Act.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

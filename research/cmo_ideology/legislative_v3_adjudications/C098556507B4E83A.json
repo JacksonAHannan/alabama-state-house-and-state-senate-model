@@ -1,0 +1,10 @@
+{
+  "id": "C098556507B4E83A",
+  "decision": "map",
+  "primitive_axis": "healthcare_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Requiring Medicaid coverage for breast reconstruction post-mastectomy explicitly expands access to medically necessary services.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

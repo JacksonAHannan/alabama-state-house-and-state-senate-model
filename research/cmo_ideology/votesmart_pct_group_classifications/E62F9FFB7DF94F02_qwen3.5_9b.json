@@ -1,0 +1,11 @@
+{
+  "policy_key": "ins_separation",
+  "dimension": "immigration_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option proposes splitting the Immigration and Naturalization Service (INS) into separate bureaus for naturalization and border patrol. This is conventionally viewed as a progressive reform aimed at reducing corruption and improving efficiency within immigration enforcement, aligning with modern administrative reforms rather than restrictive or nativist policies.",
+  "evidence_quote": "i) Support the separation of the INS into two bureaus: one administering naturalization and one administering border patrol.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

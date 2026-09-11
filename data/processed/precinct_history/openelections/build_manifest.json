@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "build_id": "db15d56eecac21da4f05",
+  "code_commit": "ce5978cc83d4d145606b4268838ac6d656a1f34a",
+  "pipeline": "scripts/build_openelections_historical_staging.py",
+  "inputs": [
+    {
+      "path": "data/processed/source_audits/openelections_historical_gap_manifest.csv",
+      "sha256": "d84805d9bcab171b1bd424c6942a9365f23cdb2f985146b65aca35ab330beabd"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/dataverse_files.zip",
+      "sha256": "b4c0913fa7bfb0aff4da2dbf67a22da696e9f07b45615f30e78127edd794a3e1"
+    }
+  ],
+  "configuration": {
+    "offices": [
+      "GOV",
+      "USP",
+      "USS",
+      "house",
+      "senate"
+    ],
+    "party_resolution": [
+      "source",
+      "cross_file_candidate",
+      "klarner_candidate_key",
+      "unknown"
+    ],
+    "authority": "secondary_validation_source"
+  },
+  "row_counts": {
+    "observations": 728340,
+    "legislative": 126683,
+    "context": 454592,
+    "districts": 2353,
+    "state_cycles": 14
+  },
+  "outputs": [
+    {
+      "path": "data/processed/precinct_history/openelections/openelections_contest_coverage.csv",
+      "bytes": 2432,
+      "sha256": "181e65ee937e6e532dbe0483b2d805d6e9ac1b96393f25adf3c5358d54651714"
+    },
+    {
+      "path": "data/processed/precinct_history/openelections/openelections_context_precinct_candidate.csv.gz",
+      "bytes": 4821123,
+      "sha256": "3f353ae8b6388c3e4a13e9c16b529146741d62aca0bf4aea1c040d5418cbb5bc"
+    },
+    {
+      "path": "data/processed/precinct_history/openelections/openelections_klarner_reconciliation.csv",
+      "bytes": 151242,
+      "sha256": "5796056252fc8864645a855b29e5d0ecac2c9b7b94a36d24509c2690a4994cfa"
+    },
+    {
+      "path": "data/processed/precinct_history/openelections/openelections_legislative_district_party_totals.csv",
+      "bytes": 91951,
+      "sha256": "13a5926035da483036153b4b92063b6be7ff48b2cb7a643a357952c2506f1142"
+    },
+    {
+      "path": "data/processed/precinct_history/openelections/openelections_legislative_precinct_candidate.csv.gz",
+      "bytes": 1746720,
+      "sha256": "7e9af05bef72b9db80e1aafbae9efe7dc32bd75dff08e6b3fb63de15a5f7ae8a"
+    },
+    {
+      "path": "data/processed/precinct_history/openelections/openelections_party_resolution_audit.csv",
+      "bytes": 3532,
+      "sha256": "ba3ff15af8b7e818ba5f94186077fdb78f2570900684992c5331458db87d61e4"
+    },
+    {
+      "path": "data/processed/precinct_history/openelections/openelections_relevant_precinct_candidate.csv.gz",
+      "bytes": 8166099,
+      "sha256": "32b6ad689dbdfa3d1023aaa36c06080b9f790e490c78cc9189658d0d8b13028a"
+    }
+  ]
+}

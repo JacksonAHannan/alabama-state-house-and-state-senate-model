@@ -1,0 +1,10 @@
+{
+  "id": "E7F7DA6CB4974547",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The measure combines numerous absentee-voting deadlines, ballot-distribution, and federal-compliance provisions, making it omnibus and directionally insufficient for a single policy mapping.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

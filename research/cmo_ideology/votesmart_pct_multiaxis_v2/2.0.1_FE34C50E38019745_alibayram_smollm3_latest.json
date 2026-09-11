@@ -1,0 +1,24 @@
+{
+  "primary_domain": "education",
+  "policy_key": "education_governance",
+  "plain_english_policy": "support_federal_standards_in_alabama",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Adopting federal education standards would likely be seen as a restriction on state control over educational policies."
+    },
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "primary",
+      "rationale": "Support for adopting federal education standards implies some level of intervention in the market, potentially to ensure consistency across states and improve student outcomes."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I believe that adopting federal education standards would help ensure a consistent quality of education across Alabama and other states.\" - Candidate's statement on education policy.",
+  "needs_human_review": true,
+  "review_reason": ""
+}

@@ -1,5 +1,5 @@
 {
-  "build_id": "00509565ea4fb62b4e10",
+  "build_id": "368bb272a990ff436e56",
   "configuration": {
     "candidate_history_used": false,
     "candidate_war_adjustment": 0.0,
@@ -51,32 +51,32 @@
     "structural_selection_policy": "owner_selected; forward validation retained as advisory",
     "war_structural_specification": "decaying_lag",
     "war_training_cutoff_rule": "cycle > 2016; prospective fit through 2024",
-    "war_training_warehouse_run_id": "RUN-A4718C009110424B872392120C7F7E9F"
+    "war_training_warehouse_run_id": "RUN-504CE4C4DF904D88A5A40D268F3FCEAB"
   },
   "diagnostics": {
-    "baseline_forward_mae": 7.073410990280289,
-    "candidate_structural_forward_mae": 9.558900865178801,
+    "baseline_forward_mae": 7.071811484465457,
+    "candidate_structural_forward_mae": 7.65135405693177,
     "forward_test_rows": 33,
     "historical_rows": 97,
-    "max_forecast_identity_error": 6.217248937900877e-15,
+    "max_forecast_identity_error": 6.8833827526759706e-15,
     "prospective_rows_per_scenario": 48,
-    "selected_forward_mae": 9.558900865178801,
+    "selected_forward_mae": 7.65135405693177,
     "structural_improves_baseline_on_holdout": false
   },
-  "generated_at_utc": "2026-09-02T00:44:48.885584+00:00",
-  "git_commit": "94fad6e7a8e0fd90f076aa4530d4e96328bd3215",
+  "generated_at_utc": "2026-09-11T14:27:39.495787+00:00",
+  "git_commit": "720c3507b147bc0a7c048c4c84ab0262920802c1",
   "inputs": [
     {
       "path": "data/processed/war/alabama_war_v1/race_war.csv",
-      "sha256": "1115eeeebf2de65ace7be05b71aca24f750db277797c8ae36f52ce3b7f4325cd"
+      "sha256": "34f1b1188344df99e8ced890e1a43e7ae5de87e373b437c120de816ba97c19e3"
     },
     {
       "path": "data/processed/war/alabama_war_v1/manifest.json",
-      "sha256": "af5e2a07cefec49713e648c6fc21ea1dc50cdfd46160807f1e477e47ce456da6"
+      "sha256": "edb8f2c13dfc483739ae7e7e670e773a55851c00b7972a0e49165ca653ec6280"
     },
     {
       "path": "data/processed/war/post2016_southern_war_v3/manifest.json",
-      "sha256": "ca792a694a77cd582e09d98c85d483fed6b90e1638f43e03fcd5cf0448a9800b"
+      "sha256": "c879265a3e09af1fe1dd9793d3da816d6357e26336801a4267063cdbb8596d63"
     },
     {
       "path": "data/processed/polling/historical_silver_a_generic_ballot_cycles.csv",
@@ -100,7 +100,7 @@
     },
     {
       "path": "project_docs/model/ALABAMA_WAR_FORECAST_FIELD_CONTRACT.md",
-      "sha256": "7a63f4c8b27e9830724b8b2856c4d8af2e1fb9d12e08a3ec73ce809352f3dad8"
+      "sha256": "38d579652238a5daebf80fd0f9a2f6bf9ff60d77155b93e587113efc633b948d"
     }
   ],
   "methodology_version": "alabama_war_environment_forecast_v2",
@@ -108,43 +108,43 @@
     {
       "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_historical_panel.csv",
       "rows": 97,
-      "sha256": "a6965500f1b67e17907e9b518d6fafa22fd59a234c514d6c612264415858e535"
+      "sha256": "a273b17f354b8401fb8406fb1974c9eadd9135905aa14785200ade77b41d7306"
     },
     {
       "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_forward_predictions.csv",
       "rows": 33,
-      "sha256": "f9c619e2b0fc38eef1a8b32cba872a90b4e4e499b4730243b49e9046f477fdef"
+      "sha256": "956e1fbae9b8291c016118c38d7042b6eae74bd3dbeebc34e0370b97ff946b3e"
     },
     {
       "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_forward_metrics.csv",
       "rows": 2,
-      "sha256": "65b90266ebbaa9193e4021b80e9734bb0f2380c96fb74107afb1f282112bc503"
+      "sha256": "05a1ad8d7bb19deb9c978751c6252eb5c7fee60fb1b0738b8f3560511aa2498d"
     },
     {
       "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_probability_families.csv",
       "rows": 53,
-      "sha256": "4499bf990238f17ced9d541519884916412dae0b99c78973819b4cf1d8c2551a"
+      "sha256": "ec3267f4602e10e04ed46d53dcd642e5b296f10052b5eca568d23520d2d5f9cf"
     },
     {
       "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_2026_scenarios.csv",
       "rows": 144,
-      "sha256": "e5197a967df5f602d5b9da29660183df1603c3b6692c134d6cdb0ae240ed2eac"
+      "sha256": "1e4964400c0abbda4d4f62ada443690da4f69cd0e3280df1268014b7ea603fad"
     },
     {
       "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_2026_full_uncertainty.csv",
       "rows": 48,
-      "sha256": "c964e817ec9b567a8c894a340240b981d08ced00bafb634441812fa3d058bdb8"
+      "sha256": "075330478718e45b94bfef51cbcac68c0e2eaeba425c739c61233ad1a400f443"
     },
     {
       "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_2026_modeled_seats.csv",
       "rows": 15,
-      "sha256": "c7b79bbb95f8c086774e5c171998e0231cebb717e1c3fbce7b3b9a72926fd520"
+      "sha256": "03268141964abda597629c09af0501d0d975648adaa46e0201a3c89ce9581302"
     }
   ],
   "probability": {
     "df": 5.0,
     "family": "student_t",
-    "scale": 8.25
+    "scale": 2.0
   },
   "schema_version": 2,
   "selected_specification": "generic_war_structural",

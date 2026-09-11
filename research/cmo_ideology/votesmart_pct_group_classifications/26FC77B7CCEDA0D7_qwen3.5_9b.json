@@ -1,0 +1,11 @@
+{
+  "policy_key": "missile_defense_expansion",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks whether to expand the U.S. missile defense shield but does not specify a stance (support or oppose), making it procedural rather than ideological.",
+  "evidence_quote": "h) Should the United States expand its missile defense shield?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

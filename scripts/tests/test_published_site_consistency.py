@@ -127,27 +127,20 @@ def test_public_cmo_and_forecast_row_counts() -> None:
     assert forecasts.groupby("scenario").size().eq(48).all()
 
 
-def test_public_war_page_uses_candidate_cycle_residuals() -> None:
-    page = (DOCS / "cmo.html").read_text(encoding="utf-8")
-    payload = json.loads(re.search(r"const DATA=(\{.*?\});\s*let active=", page, re.S).group(1))
-    rows = [
-        dict(row, cycle=section["cycle"], chamber=section["chamber"])
-        for section in payload.values() for row in section["candidates"]
-    ]
-    candidates = pd.read_csv(DOCS / "data" / "alabama_war_v1_candidate_cycle_war.csv")
-    grimsley = next(
-        row for row in rows
-        if row["candidate"] == "Dexter Grimsley" and row["cycle"] == 2018
-    )
-    source = candidates[candidates.candidate_name.eq("Dexter Grimsley")].squeeze()
-    assert abs(grimsley["war"] - source.candidate_cycle_war) < 1e-10
-
-
 def test_grimsley_public_war_is_corrected_race_residual() -> None:
+    races = pd.read_csv(DOCS / "data" / "alabama_war_v1_race_war.csv")
     candidates = pd.read_csv(DOCS / "data" / "alabama_war_v1_candidate_cycle_war.csv")
-    grimsley = candidates[candidates.candidate_name.eq("Dexter Grimsley")].squeeze()
-    assert abs(grimsley.candidate_cycle_war - 13.295433950839808) < 1e-10
-    assert grimsley.score_identification == "race_differential_party_orientation"
+    grimsley_2018 = candidates[candidates.candidate_name.eq("Dexter Grimsley")].squeeze()
+    race_2018 = races[
+        races.cycle.eq(2018) & races.chamber.eq("lower") & races.district.eq(85)
+    ].squeeze()
+    race_2022 = races[
+        races.cycle.eq(2022) & races.chamber.eq("lower") & races.district.eq(85)
+    ].squeeze()
+    assert abs(grimsley_2018.candidate_cycle_war - race_2018.war) < 1e-10
+    assert grimsley_2018.score_identification == "race_differential_party_orientation"
+    assert (race_2022.dem_incumbent, race_2022.rep_incumbent) == (1, 0)
+    assert 18 < race_2022.war < 21
 
 
 def test_public_ideology_and_caucus_routes_are_merged() -> None:

@@ -1,0 +1,11 @@
+{
+  "policy_key": "national_guard_overseas",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option asks for a preference on using National Guard troops overseas to supplement the armed forces. This is an administrative or procedural question about military deployment strategy rather than a clear ideological stance.",
+  "evidence_quote": "Do you support long-term use of National Guard troops to supplement the armed forces in assignments overseas?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

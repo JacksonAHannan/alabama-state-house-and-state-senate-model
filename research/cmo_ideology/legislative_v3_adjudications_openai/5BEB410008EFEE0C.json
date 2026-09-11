@@ -1,0 +1,10 @@
+{
+  "id": "5BEB410008EFEE0C",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Changes the effective date for board-member terms and is a technical administrative amendment without a clear allowed criminal-justice policy direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

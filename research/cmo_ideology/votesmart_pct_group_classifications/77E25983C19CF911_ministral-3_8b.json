@@ -1,0 +1,11 @@
+{
+  "policy_key": "defense_spending",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Highest federal defense spending allocation ($350,001+).",
+  "evidence_quote": "**$350,001 and above** (for Defense Spending)",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "F15EE9074881E2E7",
+  "decision": "map",
+  "primitive_axis": "due_process",
+  "policy_pole": "weaken",
+  "confidence": "high",
+  "rationale": "The bill expands access to juvenile records for certain officials (judges, prosecutors) without broader due process safeguards. This weakens protections around record confidentiality and rehabilitation-focused policies.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

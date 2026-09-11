@@ -1,0 +1,10 @@
+{
+  "id": "F7C28E1FF955E47E",
+  "decision": "map",
+  "primitive_axis": "market_governance",
+  "policy_pole": "intervention",
+  "confidence": "medium",
+  "rationale": "Authorizes the county commission to set business-license requirements, expanding governmental regulation of business activity.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

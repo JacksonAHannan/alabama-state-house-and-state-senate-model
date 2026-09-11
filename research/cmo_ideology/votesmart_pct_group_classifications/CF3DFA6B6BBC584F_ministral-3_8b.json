@@ -1,0 +1,11 @@
+{
+  "policy_key": "us_troop_levels_iraq",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Whether the U.S. should keep troops in Iraq is a complex, context-dependent issue with no clear left/right ideological alignment (e.g., some conservatives supported withdrawal post-2011, while others favored counterterrorism presence; progressives often opposed long-term occupation but debated targeted interventions).",
+  "evidence_quote": "*[No direct quote provided in the option text\u2014this is a standalone question without candidate responses.]*",
+  "needs_human_review": true,
+  "review_reason": "The option lacks explicit policy language to assign a +1/-1 score; it\u2019s a procedural/operational question (e.g., \u2018maintain\u2019 vs. \u2018withdraw\u2019) with no stated principles."
+}

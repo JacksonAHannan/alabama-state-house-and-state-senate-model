@@ -1,0 +1,10 @@
+{
+  "id": "F62A45E633ACC513",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "restrict",
+  "confidence": "high",
+  "rationale": "The bill increases the fee for a pistol permit, which is a form of gun access regulation. While not explicitly prohibiting access, it imposes a financial barrier that effectively restricts access to firearms.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "missile_defense",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase funding and prioritize development of national missile defense systems to protect against ballistic missile threats.",
+  "evidence_quote": "We must invest in a robust **national missile defense** capability to ensure the security of Alabama and our nation from emerging threats. This includes advanced interceptors, radar networks, and research into next-generation defenses.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

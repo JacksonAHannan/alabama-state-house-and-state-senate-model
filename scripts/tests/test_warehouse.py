@@ -35,6 +35,49 @@ def test_atomic_database_preserves_working_copy_on_failure(tmp_path):
         assert connection.execute("select value from marker").fetchone()[0]=="working"
 
 
+def test_atomic_database_publishes_complete_database(tmp_path):
+    target = tmp_path / "warehouse.sqlite"
+    with atomic_database(target) as building:
+        with closing(sqlite3.connect(building)) as connection:
+            connection.execute("create table marker(value text)")
+            connection.execute("insert into marker values ('validated')")
+            connection.commit()
+        assert not target.exists()
+    with closing(sqlite3.connect(target)) as connection:
+        assert connection.execute("select value from marker").fetchone()[0] == "validated"
+        assert connection.execute("pragma integrity_check").fetchone()[0] == "ok"
+    assert not building.exists()
+
+
+@pytest.mark.parametrize("created_during_build", [False, True])
+def test_atomic_database_never_overwrites_existing_target(tmp_path, created_during_build):
+    target = tmp_path / "warehouse.sqlite"
+    original = b"existing warehouse must survive"
+    if not created_during_build:
+        target.write_bytes(original)
+    with pytest.raises(FileExistsError):
+        with atomic_database(target) as building:
+            with closing(sqlite3.connect(building)) as connection:
+                connection.execute("create table replacement(value text)")
+                connection.commit()
+            if created_during_build:
+                target.write_bytes(original)
+    assert target.read_bytes() == original
+    assert not list(tmp_path.glob("*.building"))
+
+
+def test_election_build_rejects_existing_warehouse_before_loading_sources(tmp_path, monkeypatch):
+    database = tmp_path / "data" / "processed" / "elections" / "alabama_elections.sqlite"
+    database.parent.mkdir(parents=True)
+    database.write_bytes(b"existing warehouse")
+    def unexpected_load(*args):
+        pytest.fail("Existing warehouse must be rejected before loading sources")
+    monkeypatch.setattr(build_election_database, "load_sos_year", unexpected_load)
+    with pytest.raises(FileExistsError, match="new.*output"):
+        build_election_database.build(tmp_path, [1994])
+    assert database.read_bytes() == b"existing warehouse"
+
+
 def test_identity_contract_rejects_duplicate_candidate_election(tmp_path):
     path=tmp_path/"warehouse.sqlite"
     with closing(connect(path)) as connection:
@@ -62,7 +105,8 @@ def test_identity_contract_rejects_duplicate_candidate_election(tmp_path):
         assert connection.execute("select count(*) from dim_person").fetchone()[0]==1
 
 
-def test_election_build_installs_control_plane_and_source_registry(tmp_path, monkeypatch):
+@pytest.mark.parametrize("explicit_output", [False, True])
+def test_election_build_installs_control_plane_and_source_registry(tmp_path, monkeypatch, explicit_output):
     root=tmp_path
     raw=root/"data"/"raw"/"alabama_elections_and_geography"
     raw.mkdir(parents=True)
@@ -74,12 +118,16 @@ def test_election_build_installs_control_plane_and_source_registry(tmp_path, mon
     }])
     monkeypatch.setitem(build_election_database.YEAR_SOURCES,1994,"fake")
     monkeypatch.setattr(build_election_database,"load_sos_year",lambda _root,_year:frame.copy())
-    database=build_election_database.build(root,[1994])
+    output = tmp_path / "separate" / "bootstrap.sqlite" if explicit_output else None
+    database=build_election_database.build(root,[1994],output)
+    assert database == (output or root / "data" / "processed" / "elections" / "alabama_elections.sqlite")
     with closing(sqlite3.connect(database)) as connection:
         assert connection.execute("select count(*) from vote_observations").fetchone()[0]==1
         assert connection.execute("select max(version) from warehouse_schema_version").fetchone()[0]==1
         source=connection.execute("select provider,extraction_status from warehouse_source_file").fetchone()
         assert source==("alabama_sos","normalized")
+        assert connection.execute("select sha256 from source_manifest").fetchone() == (
+            connection.execute("select sha256 from warehouse_source_file").fetchone())
         assert connection.execute("pragma integrity_check").fetchone()[0]=="ok"
 
 

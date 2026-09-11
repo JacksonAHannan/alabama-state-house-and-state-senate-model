@@ -1,0 +1,11 @@
+{
+  "policy_key": "immigration_return_before_citizenship",
+  "dimension": "immigration_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This policy requires immigrants to return home before becoming citizens.",
+  "evidence_quote": "Do you support requiring immigrants to return to their country of origin before they are eligible for citizenship, regardless of their immigration status?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

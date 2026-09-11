@@ -1,0 +1,11 @@
+{
+  "policy_key": "affordable_care_act_repeal",
+  "dimension": "healthcare_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Repealing the Affordable Care Act (ACA) would eliminate key provisions like individual mandates, subsidies for marketplace plans, Medicaid expansions, and protections for pre-existing conditions.",
+  "evidence_quote": "Do you support repealing the 2010 Affordable Care Act ('Obamacare')?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

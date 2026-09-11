@@ -1,0 +1,11 @@
+{
+  "policy_key": "international_trade_nuclear_fuel_india",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting nuclear fuel trade with India is generally viewed as a progressive or liberal foreign policy stance that prioritizes non-proliferation cooperation and energy access for developing nations over strict isolationist restrictions.",
+  "evidence_quote": "k) Should the United States trade nuclear fuel to India for civilian purposes?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "F5F6C124468362D1",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "Adding 'public school teacher' to a list of protected roles is administrative/technical and lacks substantive policy direction on criminal justice or punishment.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "foreign_policy_un_debt",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The candidate supports the US paying its financial obligations to international organizations like the UN.",
+  "evidence_quote": "d) The US should pay the money it owes to the United Nations.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

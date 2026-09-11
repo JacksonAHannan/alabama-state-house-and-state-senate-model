@@ -1,0 +1,18 @@
+{
+  "primary_domain": "business",
+  "policy_key": "market_governance",
+  "plain_english_policy": "Intervention in campaign finance",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "The policy restricts the power of the Alabama Ethics Commission to subpoena. This is a form of intervention in campaign finance."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Should the Alabama Ethics Commission have the power of subpoena?",
+  "needs_human_review": false,
+  "review_reason": "The policy directly restricts the power of the Alabama Ethics Commission. This is a form of intervention in campaign finance."
+}

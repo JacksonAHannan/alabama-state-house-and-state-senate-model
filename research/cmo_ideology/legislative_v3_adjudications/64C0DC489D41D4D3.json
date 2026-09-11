@@ -1,0 +1,10 @@
+{
+  "id": "64C0DC489D41D4D3",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "The bill removes restrictions on carrying pistols in vehicles without permits and eliminates sheriff discretion in concealed pistol licensing, clearly expanding access to firearms.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

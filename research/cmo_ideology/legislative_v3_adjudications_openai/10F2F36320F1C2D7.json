@@ -1,0 +1,10 @@
+{
+  "id": "10F2F36320F1C2D7",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Authorizing a municipal warrant-recall fee and directing its distribution is an administrative and fiscal measure without a clear allowed criminal-justice pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

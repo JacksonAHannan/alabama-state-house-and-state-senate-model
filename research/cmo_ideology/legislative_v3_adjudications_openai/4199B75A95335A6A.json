@@ -1,0 +1,10 @@
+{
+  "id": "4199B75A95335A6A",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Authorizes identification applications for people being released from incarceration; this is an administrative reentry provision rather than a clear change in punishment, incarceration, or due process.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

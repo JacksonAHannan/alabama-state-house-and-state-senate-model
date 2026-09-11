@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_health_medicare_55_to_65",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Allowing citizens aged 55-65 to purchase Medicare coverage is a progressive policy option that expands access to healthcare for older adults who are not yet eligible for traditional Medicare.",
+  "evidence_quote": "k) Provide citizens age 55-65 the option of purchasing Medicare health coverage.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

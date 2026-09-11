@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_estate_tax",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option simply lists 'Estate taxes' as a category for potential tax level changes without specifying support or opposition.",
+  "evidence_quote": "l) Estate taxes",
+  "needs_human_review": true,
+  "review_reason": "This is an incomplete list item that does not express a policy position."
+}

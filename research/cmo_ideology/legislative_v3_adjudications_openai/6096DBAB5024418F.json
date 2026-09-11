@@ -1,0 +1,10 @@
+{
+  "id": "6096DBAB5024418F",
+  "decision": "map",
+  "primitive_axis": "family_support_enforcement",
+  "policy_pole": "strict_enforcement",
+  "confidence": "high",
+  "rationale": "Creates or strengthens criminal penalties for public-assistance fraud and removes a knowledge requirement.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_climate_change_causation",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Belief that human activity causes climate change is conventionally progressive.",
+  "evidence_quote": "Do you believe that human activity is contributing to climate change?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "6073A5852FED7908",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "This broad anti-boycott and Attorney General enforcement measure combines environmental, corporate-governance, and ideological provisions rather than presenting one focused environmental policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "restriction",
+  "plain_english_policy": "Restricting government-funded welfare programs",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "The policy is a restriction on government-funded welfare programs."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Eliminate government-funded welfare programs.",
+  "needs_human_review": false,
+  "review_reason": "The candidate supports restricting government-funded welfare programs."
+}

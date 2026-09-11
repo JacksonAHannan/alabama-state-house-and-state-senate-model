@@ -1,0 +1,10 @@
+{
+  "id": "52715CF97DA068A6",
+  "decision": "map",
+  "primitive_axis": "incarceration",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Authorizes additional bonds to acquire a prison facility and add bedspace, directly expanding incarceration capacity.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

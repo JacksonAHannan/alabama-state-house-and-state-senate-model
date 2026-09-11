@@ -6,6 +6,7 @@ import os
 import sqlite3
 
 import pandas as pd
+from legiscan_eligibility import checked_standalone, source_snapshot
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -37,8 +38,11 @@ def main() -> None:
         ]])
     historical_rollcalls = pd.concat(historical_rollcalls, ignore_index=True)
 
-    eligibility = pd.read_csv(DATA / "legiscan_rollcall_analysis_eligibility.csv")
-    eligibility = eligibility[eligibility.reported_total_matches.eq(1)].copy()
+    with source_snapshot() as source:
+        eligibility = pd.read_sql_query("""SELECT r.*,b.bill_number
+            FROM canonical_legiscan_roll_call r
+            JOIN source_legiscan_bill b USING(bill_id)""", source)
+    eligibility['bill_type'] = eligibility.bill_number.str.extract(r'^\s*([A-Za-z]+)')[0].str.upper()
     eligibility["canonical_rollcall_id"] = "LS-" + eligibility.roll_call_id.astype(str)
     eligibility["source_system"] = "legiscan"
     eligibility["motion_type"] = "legiscan_recorded_vote"
@@ -71,19 +75,18 @@ def main() -> None:
     legislators = pd.read_csv(DATA / "legiscan_alabama_legislators.csv")
     people = (legislators.sort_values("session_year").drop_duplicates("people_id", keep="last")
               [["people_id", "name", "party", "district"]])
-    first = True
-    for chunk in pd.read_csv(DATA / "legiscan_alabama_individual_votes.csv", chunksize=200000):
-        chunk = chunk[chunk.roll_call_id.isin(eligible_ids)].merge(people, on="people_id", how="left", validate="many_to_one")
-        chunk["canonical_rollcall_id"] = "LS-" + chunk.roll_call_id.astype(str)
-        chunk["source_system"] = "legiscan"
-        chunk["member_source_id"] = "LEGISCAN-" + chunk.people_id.astype(str)
-        chunk["member_display_name"] = chunk.name
-        chunk["identity_status"] = "legiscan_people_id"
-        chunk[[
-            "canonical_rollcall_id", "source_system", "session_year", "chamber", "member_source_id",
-            "member_display_name", "identity_status", "party", "district", "vote",
-        ]].to_sql("member_vote", connection, index=False, if_exists="append", chunksize=50000)
-        first = False
+    with source_snapshot() as source:
+        for chunk in pd.read_sql_query('SELECT * FROM canonical_legiscan_member_vote', source, chunksize=200000):
+            chunk = chunk[chunk.roll_call_id.isin(eligible_ids)].merge(people, on="people_id", how="left", validate="many_to_one")
+            chunk["canonical_rollcall_id"] = "LS-" + chunk.roll_call_id.astype(str)
+            chunk["source_system"] = "legiscan"
+            chunk["member_source_id"] = "LEGISCAN-" + chunk.people_id.astype(str)
+            chunk["member_display_name"] = chunk.name
+            chunk["identity_status"] = "legiscan_people_id"
+            chunk[[
+                "canonical_rollcall_id", "source_system", "session_year", "chamber", "member_source_id",
+                "member_display_name", "identity_status", "party", "district", "vote",
+            ]].to_sql("member_vote", connection, index=False, if_exists="append", chunksize=50000)
 
     connection.executescript("""
     CREATE UNIQUE INDEX rollcall_pk ON rollcall(canonical_rollcall_id);
@@ -105,6 +108,8 @@ def main() -> None:
     coverage.to_csv(DATA / "unified_legislative_rollcall_coverage.csv", index=False)
     connection.commit()
     connection.close()
+    with checked_standalone(temp):
+        pass  # Do not replace the old snapshot if source observations changed mid-build.
     os.replace(temp, DB)
     print(coverage.to_string(index=False))
 

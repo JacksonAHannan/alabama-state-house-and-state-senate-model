@@ -1,0 +1,11 @@
+{
+  "policy_key": "social_security_colas",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Reduce annual Social Security cost-of-living adjustments to limit benefits growth.",
+  "evidence_quote": "Lower the annual cost-of-living increases.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

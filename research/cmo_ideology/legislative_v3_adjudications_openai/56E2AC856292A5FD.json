@@ -1,0 +1,10 @@
+{
+  "id": "56E2AC856292A5FD",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Requires provision of hygiene products to inmates but does not clearly change punishment, incarceration, due process, police authority, or drug policy.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

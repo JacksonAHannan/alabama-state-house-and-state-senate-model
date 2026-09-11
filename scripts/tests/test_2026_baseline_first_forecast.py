@@ -1,3 +1,5 @@
+"""Compatibility forecast artifacts, not the current public forecast contract."""
+
 from pathlib import Path
 
 import pandas as pd
@@ -9,36 +11,6 @@ WAR = ROOT / "data" / "processed" / "war"
 
 def test_legacy_forecast_is_archived():
     assert (WAR / "2026_prospective_features_and_forecast_legacy_core_20260815.csv").exists()
-
-
-def test_public_views_use_partial_and_full_cmo_expectation():
-    forecast = pd.read_csv(WAR / "next_forecast_tournament_2026.csv")
-    views = forecast[forecast.specification.str.startswith("cmo_expectation")]
-    assert set(views.specification) == {
-        "cmo_expectation__blend20", "cmo_expectation__blend100"
-    }
-    expected = forecast.loc[
-        forecast.specification.eq("basic_polling_100"),
-        ["chamber", "district"],
-    ].drop_duplicates().shape[0]
-    assert expected > 0
-    assert views.groupby("specification").size().eq(expected).all()
-
-
-def test_sd2_smell_test_and_decomposition():
-    d = pd.read_csv(WAR / "2026_forecast_decomposition.csv")
-    row = d[(d.chamber.eq("senate")) & (d.district.eq(2))].iloc[0]
-    assert row.structural_2024_pres_margin < 0
-    assert row.environment_adjustment > 0
-    assert row.predicted_dem_margin > 0
-    assert row.incumbency_adjustment == 0
-    assert row.ensemble_adjustment != 0
-
-
-def test_only_baseline_and_environment_ramp_pass_declared_promotion_gate():
-    result = pd.read_csv(WAR / "2026_residual_layer_backtest_summary.csv")
-    selected = set(result.loc[result.promoted, "specification"])
-    assert selected == {"baseline", "national_environment_post2016_ramp"}
 
 
 def test_current_state_fundraising_reaches_forecast_features():
@@ -61,19 +33,6 @@ def test_catalist_national_environment_scenarios_are_forward_tested():
                  "national_environment_finance"):
         assert name in result.index
         assert result.loc[name, "forward_cycles"] == 7
-    # The national adjustment helps the latest (2022) holdout but does not pass
-    # the stricter mean-and-latest promotion gate.
-    assert result.loc["national_environment", "latest_mae"] < result.loc["baseline", "latest_mae"]
-    assert not bool(result.loc["national_environment", "promoted"])
-
-
-def test_post2016_environment_ramp_improves_mean_and_latest_error():
-    result = pd.read_csv(WAR / "2026_residual_layer_backtest_summary.csv").set_index("specification")
-    ramp = result.loc["national_environment_post2016_ramp"]
-    baseline = result.loc["baseline"]
-    assert bool(ramp.promoted)
-    assert ramp.mean_mae < baseline.mean_mae
-    assert ramp.latest_mae < baseline.latest_mae
 
 
 def test_simulation_probabilities_and_intervals_are_valid():

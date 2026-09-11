@@ -1,0 +1,11 @@
+{
+  "policy_key": "unemployment_tax_credits_for_job_relocation",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Incentivize private-sector job creation in distressed areas via tax breaks for firms that relocate or expand there.",
+  "evidence_quote": "Provide **tax credits** for companies that move **job-creating industries into areas with high unemployment**.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

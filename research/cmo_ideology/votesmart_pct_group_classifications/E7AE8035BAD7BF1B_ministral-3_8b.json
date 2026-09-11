@@ -1,0 +1,11 @@
+{
+  "policy_key": "space_exploration_spending",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Federal funding for space exploration (e.g., NASA, research, technology).",
+  "evidence_quote": "*[Candidate's selected number]*/6* (e.g., '3' = moderate spending)",
+  "needs_human_review": true,
+  "review_reason": "The scoring depends on the specific number chosen by the candidate (1=lowest, 6=highest). Conservative candidates typically favor lower numbers; progressive candidates often support higher levels for space exploration."
+}

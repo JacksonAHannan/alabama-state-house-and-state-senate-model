@@ -1,0 +1,10 @@
+{
+  "id": "16C69EEB0430F0F7",
+  "decision": "map",
+  "primitive_axis": "education_curriculum_traditionalism",
+  "policy_pole": "traditional",
+  "confidence": "high",
+  "rationale": "Permits quiet reflection or student-initiated prayer at school athletic events and graduation ceremonies, supporting a traditional religious-expression approach.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

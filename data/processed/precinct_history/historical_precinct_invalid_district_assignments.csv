@@ -1,0 +1,20 @@
+cycle,chamber,county_key,precinct_key,district,allocation_weight,allocation_method,audit_issue
+1998,senate,CRENSHAW,0010 PANOLA COMMUNITY CENTER,90.0,0.4222222222222222,official_legislative_ballot_activity,district_not_present_in_cycle_plan
+1998,senate,CRENSHAW,0020 DANIELVILLE SCHOOL HOUSE,90.0,0.42105263157894735,official_legislative_ballot_activity,district_not_present_in_cycle_plan
+1998,senate,CRENSHAW,0030 PETREY COMMUNITY CENTER,90.0,0.4632352941176471,official_legislative_ballot_activity,district_not_present_in_cycle_plan
+1998,senate,CRENSHAW,0050 HONORAVILLE SCHOOL,90.0,0.4190283400809717,official_legislative_ballot_activity,district_not_present_in_cycle_plan
+1998,senate,CRENSHAW,0070 PATSBURG DEPOT BUILDING,90.0,0.4074074074074074,official_legislative_ballot_activity,district_not_present_in_cycle_plan
+1998,senate,CRENSHAW,0080 RUTLEDGE COMMUNITY CENTER,90.0,0.43320610687022904,official_legislative_ballot_activity,district_not_present_in_cycle_plan
+1998,senate,CRENSHAW,0100 VIDETTE COMMUNITY CENTER,90.0,0.398876404494382,official_legislative_ballot_activity,district_not_present_in_cycle_plan
+1998,senate,CRENSHAW,0110 BUSHS GROCERY - BRANTLEY,90.0,0.42290748898678415,official_legislative_ballot_activity,district_not_present_in_cycle_plan
+1998,senate,CRENSHAW,0120 BRANTLEY COMMUNITY CENTER,90.0,0.4484356894553882,official_legislative_ballot_activity,district_not_present_in_cycle_plan
+1998,senate,CRENSHAW,0140 GLENWOOD CITY HALL,90.0,0.39892183288409705,official_legislative_ballot_activity,district_not_present_in_cycle_plan
+1998,senate,CRENSHAW,0150 WEEDS STORE BRANTLEY,90.0,0.3598326359832636,official_legislative_ballot_activity,district_not_present_in_cycle_plan
+1998,senate,CRENSHAW,0160 PLEASANT HOME SCHOOL - RUTLEDGE,90.0,0.46153846153846156,official_legislative_ballot_activity,district_not_present_in_cycle_plan
+1998,senate,CRENSHAW,0170 TO -NEW FIRE DEPARTMENT,90.0,0.3825944170771757,official_legislative_ballot_activity,district_not_present_in_cycle_plan
+1998,senate,CRENSHAW,0190 COUNTY COURTHOUSE,90.0,0.4233226837060703,official_legislative_ballot_activity,district_not_present_in_cycle_plan
+1998,senate,CRENSHAW,0220 DOZIER CITY HALL,90.0,0.4658119658119658,official_legislative_ballot_activity,district_not_present_in_cycle_plan
+1998,senate,CRENSHAW,0230 HARBIN FARM-LUVERNE,90.0,0.47597597597597596,official_legislative_ballot_activity,district_not_present_in_cycle_plan
+1998,senate,CRENSHAW,0250 LILLERS STORE - BRANTLEY,90.0,0.423728813559322,official_legislative_ballot_activity,district_not_present_in_cycle_plan
+1998,senate,CRENSHAW,0260 CHAPEL HILL COMMUNITY CENTER,90.0,0.4212962962962963,official_legislative_ballot_activity,district_not_present_in_cycle_plan
+1998,senate,CRENSHAW,9001 ABSENTEE VOTERS,90.0,0.4645161290322581,official_legislative_ballot_activity,district_not_present_in_cycle_plan

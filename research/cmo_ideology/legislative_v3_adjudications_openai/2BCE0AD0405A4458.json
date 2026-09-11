@@ -1,0 +1,10 @@
+{
+  "id": "2BCE0AD0405A4458",
+  "decision": "map",
+  "primitive_axis": "healthcare_regulation_patient_rights",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Requires providers to inform parents and offer written health information, strengthening patient-information requirements.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

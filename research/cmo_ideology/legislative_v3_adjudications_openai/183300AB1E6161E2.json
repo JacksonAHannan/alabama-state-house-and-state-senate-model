@@ -1,0 +1,10 @@
+{
+  "id": "183300AB1E6161E2",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Annual reporting on grants is an administrative transparency requirement and does not establish a concrete market-governance policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

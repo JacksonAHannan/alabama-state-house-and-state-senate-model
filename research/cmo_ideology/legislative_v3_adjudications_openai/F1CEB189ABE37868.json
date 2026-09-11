@@ -1,0 +1,10 @@
+{
+  "id": "F1CEB189ABE37868",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "The measure combines fee-free permits for a defined group with further permit-revocation provisions, creating mixed-direction effects rather than one concrete gun-access pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "5DACACCE66ED2778",
+  "decision": "map",
+  "primitive_axis": "incarceration",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Raises the authorized prisoner capacity from 1,500 to 1,800 and permits additional housing arrangements, directly expanding incarceration capacity.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "F92798D4B7D72878",
+  "decision": "map",
+  "primitive_axis": "due_process",
+  "policy_pole": "weaken",
+  "confidence": "high",
+  "rationale": "Assigning exclusive jurisdiction over prisoner actions to one circuit court and imposing specialized litigation guidelines restricts prisoners' access to ordinary judicial processes.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

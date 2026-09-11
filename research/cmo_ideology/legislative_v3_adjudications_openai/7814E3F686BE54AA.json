@@ -1,0 +1,10 @@
+{
+  "id": "7814E3F686BE54AA",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "punitive",
+  "confidence": "high",
+  "rationale": "Increases penalties for violations involving unsecured metal coils and provides criminal penalties.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

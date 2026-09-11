@@ -1,0 +1,10 @@
+{
+  "id": "35025BCCC71F2F12",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Requires symbolic displays in public schools rather than establishing a substantive curriculum policy.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

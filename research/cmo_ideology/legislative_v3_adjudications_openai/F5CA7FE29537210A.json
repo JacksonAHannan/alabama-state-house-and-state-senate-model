@@ -1,0 +1,10 @@
+{
+  "id": "F5CA7FE29537210A",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Establishes statewide hospital discharge-data collection and an advisory council, an administrative data-governance measure not captured by the allowed healthcare poles.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

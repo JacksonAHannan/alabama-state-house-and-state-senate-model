@@ -264,7 +264,8 @@ def main() -> None:
                 if col in write:write[col]=write[col].fillna(False).astype(int)
             write.to_sql(table,connection,if_exists="append",index=False)
             register_table(connection,table,"source" if table.startswith("source_") else "mart",
-              "scripts/build_1994_context_features.py","cycle/chamber/district",
+              "scripts/build_1994_context_features.py",
+              "cycle/county_key/precinct_key" if table == "source_historical_presidential_precinct" else "cycle/chamber/district",
               "1990 Census SF3; 1992 official precinct returns; 1990 prior winners; DIME coverage contract",
               "replace",f"Auditable 1994 context: {table}")
         finish_run(connection,run,{"demographic_districts":len(demographics),"presidential_districts":len(president),

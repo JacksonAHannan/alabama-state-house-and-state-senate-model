@@ -1,0 +1,11 @@
+{
+  "policy_key": "immigration_illegal_return_citizenship",
+  "dimension": "immigration_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option requires illegal immigrants to return home before applying for citizenship.",
+  "evidence_quote": "f) Illegal immigrants should have to return to their countries of origin before being considered for citizenship.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

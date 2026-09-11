@@ -1,5 +1,5 @@
 {
-  "alabama_war_run_id": "AL-WAR-V1-E1F8E11BF2853322239F",
+  "alabama_war_run_id": "AL-WAR-V1-C00FF05BC2BE58E16087",
   "configuration": {
     "candidate_pooling": false,
     "cutoff_rule": "cycle > 2016",
@@ -17,30 +17,30 @@
     "max_war_formula_error": 3.552713678800501e-15,
     "race_rows": 97
   },
-  "generated_at_utc": "2026-09-01T02:43:04.238208+00:00",
-  "git_commit": "569b019fecb7786a1c824fcc81490202e39cc4bc",
+  "generated_at_utc": "2026-09-11T14:27:35.225278+00:00",
+  "git_commit": "720c3507b147bc0a7c048c4c84ab0262920802c1",
   "input_hashes": {
-    "data/processed/war/post2016_southern_war_v3/candidate_cycle_war.csv": "7e18780eaeff5f962b03dd55ddfd41baab43ac665e90798d333a95fb6a7dff44",
-    "data/processed/war/post2016_southern_war_v3/race_war.csv": "3f3e5943afa388916c18562c6aea15ad966289fa0368e73b5cd4a5baf42222f5",
-    "project_docs/model/ALABAMA_WAR_FORECAST_FIELD_CONTRACT.md": "1b04f220aaf3bec7736080aee368baa286cc9725d83b2b89cbfb32c35bb43c59"
+    "data/processed/war/post2016_southern_war_v3/candidate_cycle_war.csv": "7efe49b467070c840e6c4f8803b2516e2e1d7e1f930e1201ef7ed5af9e1c3176",
+    "data/processed/war/post2016_southern_war_v3/race_war.csv": "cd0095ad902bc297c7b21cdef13e432f32ab27ccab9e29a08d002d9b374e3692",
+    "project_docs/model/ALABAMA_WAR_FORECAST_FIELD_CONTRACT.md": "38d579652238a5daebf80fd0f9a2f6bf9ff60d77155b93e587113efc633b948d"
   },
   "methodology_version": "alabama_war_v1_race_residual",
   "outputs": [
     {
       "path": "data/processed/war/alabama_war_v1/race_war.csv",
       "rows": 97,
-      "sha256": "1115eeeebf2de65ace7be05b71aca24f750db277797c8ae36f52ce3b7f4325cd"
+      "sha256": "34f1b1188344df99e8ced890e1a43e7ae5de87e373b437c120de816ba97c19e3"
     },
     {
       "path": "data/processed/war/alabama_war_v1/candidate_cycle_war.csv",
       "rows": 194,
-      "sha256": "e437a000be6593bc292497f39868ec45f15ddd5e83109c6c812e5a785dcecace"
+      "sha256": "4c47388b0069aef8149714497eb6a9252bde54964f5c0e076c34382a74961b99"
     },
     {
       "path": "data/processed/war/alabama_war_v1/coverage.csv",
       "rows": 4,
-      "sha256": "abd013ed848e0830aea5bc326f8e67c1c02421db0bd09ca0faf22a95ab1173a9"
+      "sha256": "d85c2ae8c8d73ae0a51adcfe1cb83ada948997792fc5e84bad390d3e4e9ad8db"
     }
   ],
-  "source_model_run_id": "WAR-POST2016-V3-D9C7EE17BD14B8C7D23A"
+  "source_model_run_id": "WAR-POST2016-V3-530FBD4238CC483E557C"
 }

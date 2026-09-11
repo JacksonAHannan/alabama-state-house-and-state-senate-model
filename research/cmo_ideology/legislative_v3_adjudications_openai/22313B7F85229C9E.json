@@ -1,0 +1,10 @@
+{
+  "id": "22313B7F85229C9E",
+  "decision": "map",
+  "primitive_axis": "market_governance",
+  "policy_pole": "intervention",
+  "confidence": "high",
+  "rationale": "Conditions eligibility for economic development incentives on specified labor practices and provides oversight.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

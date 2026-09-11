@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "restriction",
+  "plain_english_policy": "Should current elected officials be prohibited from holding additional state jobs?",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "The policy restricts the ability of current elected officials to hold additional state jobs."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Should current elected officials be prohibited from holding additional state jobs?\" - This option suggests a restriction on the employment opportunities for currently serving elected officials in other state positions.",
+  "needs_human_review": true,
+  "review_reason": "The policy is described as restricting the ability of current elected officials to hold additional state jobs, which could be seen as a welfare policy measure."
+}

@@ -1,0 +1,18 @@
+{
+  "primary_domain": "taxation",
+  "policy_key": "state_taxes",
+  "plain_english_policy": "Regulating and taxing gaming proceeds",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "regulating and taxing gaming proceeds is a form of restriction on the industry."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Regulating and taxing gaming proceeds",
+  "needs_human_review": false,
+  "review_reason": "The question asks for the level of support for regulating and taxing gaming proceeds. This is a form of restriction on the industry."
+}

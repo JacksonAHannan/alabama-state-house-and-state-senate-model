@@ -1,0 +1,36 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "budget_stabilization",
+  "plain_english_policy": "Cutting state employee compensation (salaries/pensions) to balance the budget",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Reducing state employee compensation directly restricts public-sector welfare by reducing government capacity to deliver services. The cut targets wages and pensions, which are core components of public-sector compensation packages."
+    },
+    {
+      "axis": "labor_capital_alignment",
+      "pole": "capital_management",
+      "strength": "primary",
+      "rationale": "The policy explicitly prioritizes capital (government financial stability) over labor (state employees' wages/pensions). This is a direct mechanism of labor-capital alignment."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "private_provision",
+      "strength": "secondary",
+      "rationale": "By reducing state employee compensation, the policy implicitly shifts some public-sector responsibilities to private-sector alternatives (e.g., lower wages may discourage hiring or force reliance on private sector for services)."
+    },
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "State employees are disproportionately represented by public-sector workers (often with lower incomes than private-sector counterparts), so cuts to their compensation disproportionately affect lower-to-middle income earners. This is a regressive tax-like effect on labor."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Reducing state employee salaries AND/OR pensions",
+  "needs_human_review": false,
+  "review_reason": ""
+}

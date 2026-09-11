@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "budget_stabilization",
+  "plain_english_policy": "Instituting mandatory furloughs and layoffs for state employees",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "Mandatory furloughs and layoffs are a form of government intervention in the workforce, reducing employee availability to perform their duties."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "primary",
+      "rationale": "Furloughs and layoffs restrict state employees' ability to work, impacting their welfare by limiting job opportunities and income."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Mandatory furloughs and layoffs for state employees are a form of government intervention in the workforce, reducing employee availability to perform their duties.\" - [Source: Questionnaire on Budget, Spending, and Tax Issues (2010)]",
+  "needs_human_review": true,
+  "review_reason": ""
+}

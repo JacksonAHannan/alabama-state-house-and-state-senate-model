@@ -1,0 +1,199 @@
+{
+  "generated_at_utc": "2026-09-11T05:14:43+00:00",
+  "finding": "The approved Southern v3 run's Alabama same-cycle ticket baseline (baseline_dem_margin for AL 2018/2022) equals the federal_index_margin of the 2026-08-21 historical_federal_district_baseline build (96/97 races exact; the 97th uses the state-ticket fallback). Regenerating that baseline from the current warehouse with unchanged code and byte-identical modern precinct weights changes most districts.",
+  "v3_baseline_vs_federal": {
+    "old_08_21": {
+      "n": 97,
+      "equal": 96,
+      "max_abs_diff": 32.9389
+    },
+    "new_2026_09_11": {
+      "n": 97,
+      "equal": 7,
+      "max_abs_diff": 33.126
+    }
+  },
+  "federal_index_margin_changes": {
+    "2010": {
+      "changed": 111,
+      "n": 140,
+      "median_abs": 0.0404,
+      "max_abs": 10.4264
+    },
+    "2014": {
+      "changed": 97,
+      "n": 106,
+      "median_abs": 0.5015,
+      "max_abs": 129.6081
+    },
+    "2018": {
+      "changed": 131,
+      "n": 139,
+      "median_abs": 0.1857,
+      "max_abs": 13.3504
+    },
+    "2022": {
+      "changed": 128,
+      "n": 140,
+      "median_abs": 0.0523,
+      "max_abs": 8.7725
+    }
+  },
+  "component_moved": "us_house/us_senate allocated two-party vote totals per district (e.g. 2018 HD98 14,378.9 -> 12,450.0); federal_components unchanged; contested coverage changes <= 0.026",
+  "not_caused_by": {
+    "modern_weights": "canonical_precinct_district_weights.csv regenerated today equals HEAD (08-26) for 2010/2018/2022: 0 weight changes, identical node sets (2014: 26 rows dropped)",
+    "federal_source_rows_since_09_07": "vote_observations federal-office rows for 2018/2022 identical between pre-sos-office-repair-2026-09-07 backup and live (136,385 / 148,119 rows; 2,240 / 2,074 precinct keys = node counts)",
+    "builder_code": "build_historical_federal_baselines.py differs from HEAD only by the 1994 precinct_key dtype read"
+  },
+  "attributed_to": "[INFERENCE] observation-to-node matching state of the warehouse at 2026-08-21 versus the accepted September precinct-identity/source repairs (warehouse-03, 09-05..07); no 2026-08-21 warehouse image survives to prove the mechanism byte-for-byte",
+  "consequence": "alabama_war_v1 (copied from v3) and every consumer carry raw gaps computed against the superseded baseline; the regenerated compat chain (cmo_v5_races.csv direct_cmo) now uses the current baseline, so build_alabama_historical_war_v1 refuses (89/97 mismatches, max 8.77 pp). The published Southern historical WAR's Alabama slice rests on the same superseded baseline.",
+  "top_changes_2018": [
+    {
+      "cycle": 2018,
+      "chamber": "house",
+      "district": 98.0,
+      "federal_index_margin_o": 24.528,
+      "federal_index_margin_n": 37.878
+    },
+    {
+      "cycle": 2018,
+      "chamber": "house",
+      "district": 72.0,
+      "federal_index_margin_o": -29.562,
+      "federal_index_margin_n": -17.794
+    },
+    {
+      "cycle": 2018,
+      "chamber": "house",
+      "district": 71.0,
+      "federal_index_margin_o": 30.261,
+      "federal_index_margin_n": 19.068
+    },
+    {
+      "cycle": 2018,
+      "chamber": "house",
+      "district": 82.0,
+      "federal_index_margin_o": 24.234,
+      "federal_index_margin_n": 30.004
+    },
+    {
+      "cycle": 2018,
+      "chamber": "senate",
+      "district": 24.0,
+      "federal_index_margin_o": -3.655,
+      "federal_index_margin_n": -8.418
+    },
+    {
+      "cycle": 2018,
+      "chamber": "house",
+      "district": 47.0,
+      "federal_index_margin_o": -15.899,
+      "federal_index_margin_n": -11.198
+    },
+    {
+      "cycle": 2018,
+      "chamber": "house",
+      "district": 101.0,
+      "federal_index_margin_o": -25.478,
+      "federal_index_margin_n": -29.752
+    },
+    {
+      "cycle": 2018,
+      "chamber": "house",
+      "district": 69.0,
+      "federal_index_margin_o": 3.386,
+      "federal_index_margin_n": 7.405
+    },
+    {
+      "cycle": 2018,
+      "chamber": "house",
+      "district": 19.0,
+      "federal_index_margin_o": 40.376,
+      "federal_index_margin_n": 43.435
+    },
+    {
+      "cycle": 2018,
+      "chamber": "house",
+      "district": 49.0,
+      "federal_index_margin_o": -45.352,
+      "federal_index_margin_n": -47.982
+    }
+  ],
+  "top_changes_2022": [
+    {
+      "cycle": 2022,
+      "chamber": "house",
+      "district": 82.0,
+      "federal_index_margin_o": 17.123,
+      "federal_index_margin_n": 25.896
+    },
+    {
+      "cycle": 2022,
+      "chamber": "house",
+      "district": 83.0,
+      "federal_index_margin_o": -4.576,
+      "federal_index_margin_n": 1.212
+    },
+    {
+      "cycle": 2022,
+      "chamber": "house",
+      "district": 101.0,
+      "federal_index_margin_o": -43.31,
+      "federal_index_margin_n": -46.286
+    },
+    {
+      "cycle": 2022,
+      "chamber": "house",
+      "district": 19.0,
+      "federal_index_margin_o": 24.177,
+      "federal_index_margin_n": 26.909
+    },
+    {
+      "cycle": 2022,
+      "chamber": "house",
+      "district": 98.0,
+      "federal_index_margin_o": 3.585,
+      "federal_index_margin_n": 5.808
+    },
+    {
+      "cycle": 2022,
+      "chamber": "house",
+      "district": 103.0,
+      "federal_index_margin_o": 15.128,
+      "federal_index_margin_n": 16.904
+    },
+    {
+      "cycle": 2022,
+      "chamber": "house",
+      "district": 97.0,
+      "federal_index_margin_o": 20.227,
+      "federal_index_margin_n": 18.691
+    },
+    {
+      "cycle": 2022,
+      "chamber": "house",
+      "district": 79.0,
+      "federal_index_margin_o": -26.321,
+      "federal_index_margin_n": -27.714
+    },
+    {
+      "cycle": 2022,
+      "chamber": "house",
+      "district": 104.0,
+      "federal_index_margin_o": -34.851,
+      "federal_index_margin_n": -36.086
+    },
+    {
+      "cycle": 2022,
+      "chamber": "house",
+      "district": 99.0,
+      "federal_index_margin_o": 24.076,
+      "federal_index_margin_n": 22.852
+    }
+  ],
+  "raw_gap_mismatch_compat_vs_v3": {
+    "mismatched": 89,
+    "of": 97,
+    "max_abs_pp": 8.7725
+  }
+}

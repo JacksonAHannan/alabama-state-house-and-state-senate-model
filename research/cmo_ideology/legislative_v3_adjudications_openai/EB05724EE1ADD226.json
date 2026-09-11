@@ -1,0 +1,10 @@
+{
+  "id": "EB05724EE1ADD226",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "rehabilitative",
+  "confidence": "high",
+  "rationale": "Provides sentence deductions for completing qualifying educational programs, using rehabilitation incentives to reduce punishment.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

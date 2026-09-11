@@ -1,0 +1,11 @@
+{
+  "policy_key": "waive_env_review_grazing",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option supports removing federal or state environmental review requirements specifically for grazing permits. By waiving these reviews, the policy reduces regulatory oversight on land use and emissions associated with livestock operations.",
+  "evidence_quote": "Waive environmental review requirements for grazing permits",
+  "needs_human_review": false,
+  "review_reason": ""
+}

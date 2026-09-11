@@ -1,0 +1,10 @@
+{
+  "id": "3B62A6F073998C3E",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Decreasing the pistol permit fee lowers a financial barrier to lawful handgun permitting.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

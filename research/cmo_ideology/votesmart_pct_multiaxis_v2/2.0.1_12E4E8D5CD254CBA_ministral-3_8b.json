@@ -1,0 +1,30 @@
+{
+  "primary_domain": "government_reform",
+  "policy_key": "term_limits",
+  "plain_english_policy": "Imposing fixed maximum durations on elected executive officeholders (e.g., governors).",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "institutional_populism",
+      "pole": "popular_control",
+      "strength": "secondary",
+      "rationale": "Term limits reduce long-term incumbency, which can be framed as empowering voters over entrenched elites. The option does not explicitly tie this to direct citizen control mechanisms (e.g., referendums), but the intent aligns with populist critiques of institutional power."
+    },
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "primary",
+      "rationale": "Term limits constitute a direct restriction on market-like political competition (e.g., incumbents\u2019 ability to retain office via fundraising/name recognition)."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Term limits reduce the duration of elected officials\u2019 policy influence, which could be interpreted as limiting government\u2019s ability to expand welfare programs (though this is an indirect effect)."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Do you support limits on the number of terms for Alabama governors?\"",
+  "needs_human_review": true,
+  "review_reason": "The option is context-free (no mention of replacement mechanisms, e.g., term limits for other offices or sunset clauses). The populist framing is implied but not explicit in the source."
+}

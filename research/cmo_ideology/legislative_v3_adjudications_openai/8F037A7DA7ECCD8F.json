@@ -1,0 +1,10 @@
+{
+  "id": "8F037A7DA7ECCD8F",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Combines restrictions on protest near abortion clinics with licensing restrictions near schools, producing mixed access effects.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

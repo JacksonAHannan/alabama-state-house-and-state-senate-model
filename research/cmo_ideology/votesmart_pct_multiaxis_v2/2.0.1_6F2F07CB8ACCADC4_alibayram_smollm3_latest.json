@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "welfare_policy",
+  "plain_english_policy": "Increase state funding for state and local emergency agencies to prevent or respond to terrorism.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "The policy aims to increase funding for emergency agencies, which is a form of expanding welfare in the context of public safety and security."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Increase state funding for state and local emergency agencies to prevent or respond to terrorism.\" - [Source: Crime Issues section of candidate questionnaire, Year: 2006]\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

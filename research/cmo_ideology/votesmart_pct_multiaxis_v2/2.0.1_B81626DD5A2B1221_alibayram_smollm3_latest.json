@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "expansion",
+  "plain_english_policy": "Should candidates for state office be encouraged to meet voluntary spending limits?",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "Encouraging candidates to adhere to voluntary spending limits could expand access and fairness in state elections by reducing the influence of large donors."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I believe that encouraging candidates to meet voluntary spending limits would help ensure a more level playing field for all candidates, regardless of their financial resources.\" - Candidate Statement (2014 Campaign Finance & Government Reform Issues Section)",
+  "needs_human_review": true,
+  "review_reason": "The policy is described as secondary in the welfare domain and focuses on expanding access to state office by reducing influence from large donors through voluntary spending limits."
+}

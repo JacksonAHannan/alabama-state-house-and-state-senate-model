@@ -1,0 +1,24 @@
+{
+  "primary_domain": "taxation",
+  "policy_key": "d)",
+  "plain_english_policy": "Gas/Oil taxes",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "The text does not explicitly state the effect of this policy on welfare. It only mentions a restriction on gas/oil taxes."
+    },
+    {
+      "axis": "business_scale_alignment",
+      "pole": "large_business",
+      "strength": "primary",
+      "rationale": "The text does not explicitly state the effect of this policy on small or large businesses. It only mentions a restriction on gas/oil taxes."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "Gas/Oil taxes",
+  "needs_human_review": false,
+  "review_reason": "The text does not explicitly state the effect of this policy on welfare. It only mentions a restriction on gas/oil taxes."
+}

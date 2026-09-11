@@ -1,0 +1,11 @@
+{
+  "policy_key": "us_nuclear_fuel_to_india",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Whether the U.S. should supply nuclear fuel to India for civilian use, with no clear left/right alignment in Alabama\u2019s historical context.",
+  "evidence_quote": "*[No explicit quote provided in the option text\u2014this is a procedural question format without candidate responses.]*",
+  "needs_human_review": true,
+  "review_reason": "The option is a *question* (not a policy statement) and lacks candidate-specific language to assign a +1/-1/+0 score. Requires cross-referencing with Alabama candidates\u2019 actual responses."
+}

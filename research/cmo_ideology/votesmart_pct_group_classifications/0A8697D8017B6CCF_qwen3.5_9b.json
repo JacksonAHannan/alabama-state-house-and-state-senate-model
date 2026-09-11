@@ -1,0 +1,11 @@
+{
+  "policy_key": "welfare_unwed_mother_residency",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option restricts welfare benefits for unwed teenage mothers unless they live with a parent or guardian and attend school.",
+  "evidence_quote": "Require that unwed teenage mothers live with a parent or guardian (if possible) and attend school to receive benefits.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

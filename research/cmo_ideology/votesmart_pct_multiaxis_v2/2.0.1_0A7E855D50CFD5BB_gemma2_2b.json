@@ -1,0 +1,18 @@
+{
+  "primary_domain": "business",
+  "policy_key": "market_governance",
+  "plain_english_policy": "limits on the number of terms for Alabama state legislators",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "This policy directly limits the number of terms for state legislators. This is a restriction on the amount of time that individuals can hold office."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "",
+  "needs_human_review": false,
+  "review_reason": "This policy directly limits the number of terms for state legislators. This is a restriction on the amount of time that individuals can hold office."
+}

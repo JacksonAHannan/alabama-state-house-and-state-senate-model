@@ -1,0 +1,11 @@
+{
+  "policy_key": "wmd_prevention_force",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "medium",
+  "plain_english_policy": "Use military force to stop hostile governments from getting weapons of mass destruction (WMD).",
+  "evidence_quote": "*'Yes, the United States should take preemptive military action to prevent regimes that threaten our national security\u2014such as those developing nuclear or chemical weapons\u2014from acquiring such capabilities. Our first priority must be deterring aggression and protecting American lives.'*",
+  "needs_human_review": true,
+  "review_reason": "This is a direct affirmative stance on military intervention to prevent WMD proliferation, which aligns with progressive/liberal internationalist positions (e.g., humanitarian intervention or preemptive action for global stability). However, the exact framing could vary by candidate\u2014some may emphasize diplomacy first. The quote\u2019s tone leans toward interventionism but lacks explicit cost-benefit analysis."
+}

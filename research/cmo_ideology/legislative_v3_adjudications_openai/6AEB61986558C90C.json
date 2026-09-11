@@ -1,0 +1,10 @@
+{
+  "id": "6AEB61986558C90C",
+  "decision": "map",
+  "primitive_axis": "education_market_choice",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Further provides operational and categorical funding for public charter schools, expanding the charter-school choice sector.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

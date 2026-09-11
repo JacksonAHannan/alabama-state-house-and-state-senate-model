@@ -1,0 +1,11 @@
+{
+  "policy_key": "college_financial_aid_alabama",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "State-funded financial aid for college students (e.g., grants, scholarships, or tuition assistance).",
+  "evidence_quote": "(No explicit quote provided in the option; this is a standard policy classification.)",
+  "needs_human_review": false,
+  "review_reason": "The question lacks context for Alabama-specific phrasing or candidate wording. The classification assumes conventional U.S. left-right framing where state-funded aid aligns with progressive priorities."
+}

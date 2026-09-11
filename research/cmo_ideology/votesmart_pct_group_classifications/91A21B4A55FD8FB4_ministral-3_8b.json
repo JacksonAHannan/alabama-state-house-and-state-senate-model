@@ -1,0 +1,11 @@
+{
+  "policy_key": "raise_retirement_age",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase the age at which individuals can claim full Social Security benefits without penalty.",
+  "evidence_quote": "Raise the retirement age for individual eligibility to receive full Social Security benefits.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

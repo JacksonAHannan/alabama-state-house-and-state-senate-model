@@ -10,12 +10,15 @@ from pathlib import Path
 
 import pandas as pd
 
+from southern_war_release_gate import require_approved_release
+
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data/processed/war/post2016_southern_war_v3"
 OUT = ROOT / "data/processed/war/alabama_war_v1"
 CONTRACT = ROOT / "project_docs/model/ALABAMA_WAR_FORECAST_FIELD_CONTRACT.md"
 METHOD = ROOT / "project_docs/model/ALABAMA_WAR_V1.md"
+DECISION = ROOT / "project_docs/audits/SOUTHERN_V3_RELEASE_DECISION.json"
 
 
 def sha256(path: Path) -> str:
@@ -35,9 +38,14 @@ def git_commit() -> str:
         return "unknown"
 
 
+def require_fresh_inputs() -> tuple[dict, dict]:
+    """Verify the approved Southern v3 decision before reusing its residuals."""
+    return require_approved_release(SOURCE / "manifest.json", DECISION)
+
+
 def main() -> None:
+    source_manifest, _decision = require_fresh_inputs()
     OUT.mkdir(parents=True, exist_ok=True)
-    source_manifest = json.loads((SOURCE / "manifest.json").read_text(encoding="utf-8"))
     races = pd.read_csv(SOURCE / "race_war.csv", low_memory=False)
     candidates = pd.read_csv(SOURCE / "candidate_cycle_war.csv", low_memory=False)
     races = races[races.state_code.eq("AL")].sort_values(["cycle", "chamber", "district"]).reset_index(drop=True)

@@ -1,0 +1,10 @@
+{
+  "id": "11C17F98EE811EC9",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "This is a symbolic/renaming and administrative measure with no substantive policy implications on the allowed axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

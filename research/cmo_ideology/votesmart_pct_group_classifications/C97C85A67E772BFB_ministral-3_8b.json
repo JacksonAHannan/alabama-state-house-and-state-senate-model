@@ -1,0 +1,11 @@
+{
+  "policy_key": "farm_subsidies_block_grants",
+  "dimension": "government_reform_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Replace federal farm subsidies with block grants to states for agricultural programs.",
+  "evidence_quote": "c) Farm subsidies",
+  "needs_human_review": false,
+  "review_reason": ""
+}

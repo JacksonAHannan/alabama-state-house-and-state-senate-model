@@ -1,0 +1,10 @@
+{
+  "id": "208EA0EBE9CCB33A",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "restrict",
+  "confidence": "high",
+  "rationale": "The bill strengthens confidentiality protections for pistol permit licensees, indirectly restricting public access to this data (a form of gun-related regulation).",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

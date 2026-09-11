@@ -1,0 +1,10 @@
+{
+  "id": "AAE62018AB2B0422",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "The amendment is text-insufficient and primarily procedural, clarifying employer health insurance coverage rules without a clear policy direction on healthcare_access or other axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "foreign_policy_radio_marti_funding",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option asks whether the US should continue funding Radio Marti and TV Marti, which are broadcasting services aimed at Cuba. This is a procedural/administrative question about continuing an existing program rather than expressing a substantive ideological stance on foreign policy principles.",
+  "evidence_quote": "5) Should the US continue funding for Radio Marti and TV Marti?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

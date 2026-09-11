@@ -1,0 +1,11 @@
+{
+  "policy_key": "social_security_cost_of_living",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting proportional increases of Social Security benefits based on the cost of living index is a progressive policy aimed at protecting retirees from inflation.",
+  "evidence_quote": "d) Support proportional increases of Social Security benefits based on the cost of living index.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

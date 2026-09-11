@@ -1,0 +1,11 @@
+{
+  "policy_key": "import_prescription_drugs",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Allowing importation of prescription drugs is conventionally progressive as it aims to lower drug costs through increased competition.",
+  "evidence_quote": "Allow the importation of prescription drugs into the United States.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

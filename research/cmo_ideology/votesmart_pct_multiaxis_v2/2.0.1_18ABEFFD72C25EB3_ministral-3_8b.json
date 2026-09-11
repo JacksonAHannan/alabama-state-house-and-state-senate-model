@@ -1,0 +1,30 @@
+{
+  "primary_domain": "healthcare",
+  "policy_key": "interstate_health_insurance_compacts",
+  "plain_english_policy": "Supporting agreements between states to allow residents of one state to purchase health insurance plans from another state\u2019s marketplace, potentially expanding options and competition across borders.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "market_autonomy",
+      "strength": "secondary",
+      "rationale": "Promotes cross-state competition in health insurance markets, reducing regulatory barriers to private-sector participation."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "private_provision",
+      "strength": "primary",
+      "rationale": "Explicitly focuses on private insurers operating across state lines without direct government involvement in plan selection or provision."
+    },
+    {
+      "axis": "healthcare_access",
+      "pole": "expand",
+      "strength": "secondary",
+      "rationale": "May increase consumer choice and availability of insurance options, though actual access depends on implementation (e.g., affordability, pre-existing conditions coverage)."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Do you support interstate health insurance compacts?\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

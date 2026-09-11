@@ -1,0 +1,11 @@
+{
+  "policy_key": "raise_social_security_retirement_age",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Raising the retirement age is a policy option that reduces government spending on Social Security and shifts financial responsibility to individuals later in life. This approach aligns with conservative principles of limited government intervention, fiscal restraint, and individual accountability.",
+  "evidence_quote": "f) Raise the retirement age for when individuals are eligible to receive full Social Security benefits.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

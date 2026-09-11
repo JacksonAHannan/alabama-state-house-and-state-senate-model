@@ -1,0 +1,10 @@
+{
+  "id": "CB008BE5440BEADD",
+  "decision": "map",
+  "primitive_axis": "land_use_property_rights",
+  "policy_pole": "regulation",
+  "confidence": "high",
+  "rationale": "The bill requires local governing body approval for new solid waste facilities, increasing regulatory oversight and restricting property rights.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

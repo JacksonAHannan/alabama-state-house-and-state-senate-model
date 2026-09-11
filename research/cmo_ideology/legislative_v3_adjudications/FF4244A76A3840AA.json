@@ -1,0 +1,10 @@
+{
+  "id": "FF4244A76A3840AA",
+  "decision": "map",
+  "primitive_axis": "environmental_protection",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Establishing a statewide solid waste management program with regulations, penalties for violations, and funding mechanisms strengthens environmental protection.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

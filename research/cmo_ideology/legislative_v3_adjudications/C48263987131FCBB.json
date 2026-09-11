@@ -1,0 +1,10 @@
+{
+  "id": "C48263987131FCBB",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "The bill is primarily administrative (liability limitations and training delegation) with no clear policy direction on the allowed axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

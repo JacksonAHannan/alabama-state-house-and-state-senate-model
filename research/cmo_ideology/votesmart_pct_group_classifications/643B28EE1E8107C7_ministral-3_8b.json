@@ -1,0 +1,11 @@
+{
+  "policy_key": "immigration_pathway_to_citizenship",
+  "dimension": "immigration_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Support for providing a legal route to permanent residency/citizenship for undocumented immigrants.",
+  "evidence_quote": "Illegal immigrants should be given a pathway to citizenship.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

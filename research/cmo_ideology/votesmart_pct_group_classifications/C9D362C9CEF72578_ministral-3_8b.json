@@ -1,0 +1,11 @@
+{
+  "policy_key": "lower_corporate_taxes",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Reduce the tax burden on businesses to encourage investment and job creation.",
+  "evidence_quote": "*'I believe that lowering corporate taxes will stimulate business expansion, attract new industries to Alabama, and create more jobs for our citizens.'*",
+  "needs_human_review": false,
+  "review_reason": ""
+}

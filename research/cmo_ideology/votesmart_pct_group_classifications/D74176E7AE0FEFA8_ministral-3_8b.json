@@ -1,0 +1,11 @@
+{
+  "policy_key": "illegal_immigrant_instate_tuition",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Whether Alabama should grant in-state tuition to illegal immigrants who graduate from its high schools.",
+  "evidence_quote": "(No direct quote provided, but the policy itself is conventionally classified as follows:)",
+  "needs_human_review": false,
+  "review_reason": ""
+}

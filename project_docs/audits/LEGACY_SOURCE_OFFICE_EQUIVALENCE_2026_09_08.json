@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "adjudication_id": "SOS-LEGACY-OFFICE-SPELLING-20260908",
+  "status": "approved_metadata_matching_only",
+  "reviewer": "/root/collision_review (independent raw-header and full-cohort comparison); /root (acceptance)",
+  "evidence": "All 14 substantive fields reconcile across 87 county cohorts after only the two listed office spellings are equated in comparison copies. Every 1998 raw member prints US Senator at Sheet1!H1. Each of the 20 eligible 2004 members prints US Senate in row 1 of Statewide Offices, columns H through N. No stored label, district, source count, candidate identity, or ingest ID may be changed. Matching still requires unique physical source cells; equal-valued alternatives remain unresolved.",
+  "sources": [
+    {
+      "year": 1998,
+      "source_file_id": "SRC-86111261726C1D0E0DD8",
+      "path": "data/raw/alabama_elections_and_geography/98g-prec.zip",
+      "sha256": "b56854564be80e2049e15b0a853b9cbd55585b07e8d0bd88e278a60ca6b771f2"
+    },
+    {
+      "year": 2004,
+      "source_file_id": "SRC-5C2C2B5688995BD60545",
+      "path": "data/raw/alabama_elections_and_geography/2004-GeneralElection-PrecinctLevel.zip",
+      "sha256": "532be79fcf95fd9adc155fa41f435ff63dd64a289d36a01f8d1ff12ae0320459"
+    }
+  ],
+  "equivalences": [
+    {"stored": "US Senator", "parsed": "U.S. Senate", "year": 1998, "affected_rows": 5430},
+    {"stored": "US Senate", "parsed": "U.S. Senate", "year": 2004, "affected_rows": 1834}
+  ],
+  "expected_reconciled_cohorts": 87,
+  "expected_reconciled_records": 232434,
+  "eligible_2004_counties": ["BARBOUR - GEN04", "BIBB - GEN04", "BUTLER - GEN04", "CHAMBERS - GEN04", "CHOCTAW - GEN04", "CLAY - GEN04", "COLBERT - GEN04", "DEKALB - GEN04", "GREENE - GEN04", "HALE - GEN04", "JACKSON - GEN04", "LAMAR - GEN04", "MONROE - GEN04", "MONTGOMERY - GEN04", "PICKENS - GEN04", "RANDOLPH - GEN04", "SUMTER - GEN04", "TUSCALOOSA - GEN04", "WALKER - GEN04", "WILCOX - GEN04"],
+  "excluded_scopes": "The remaining 47 counties in 2004 must still fail the cohort comparison. Forty-six retain non-equivalent office labels; Russell retains 154 candidate/candidate_key representation differences. Do not extend these spelling equivalences to those defects.",
+  "rationale": "This records source-backed spelling equivalence solely to locate an original source cell. It does not adjudicate reporting-unit collisions, repair incorrect office assignments, infer historical ingestion, validate a model, or authorize publication."
+}

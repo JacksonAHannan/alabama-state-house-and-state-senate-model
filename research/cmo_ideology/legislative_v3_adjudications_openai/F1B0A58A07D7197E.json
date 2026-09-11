@@ -1,0 +1,10 @@
+{
+  "id": "F1B0A58A07D7197E",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "Primarily modifies a county solid-waste planning and permitting process; the description is administrative and does not establish a sufficiently clear, general environmental policy direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

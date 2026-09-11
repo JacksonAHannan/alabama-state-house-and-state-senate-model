@@ -1,0 +1,11 @@
+{
+  "policy_key": "adult_prosecution_youths",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supports prosecuting youths as adults for felonies.",
+  "evidence_quote": "k) Prosecute as adults, youths accused of a felony.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

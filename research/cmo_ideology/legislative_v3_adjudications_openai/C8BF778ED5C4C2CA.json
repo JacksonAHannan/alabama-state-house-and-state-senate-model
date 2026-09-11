@@ -1,0 +1,10 @@
+{
+  "id": "C8BF778ED5C4C2CA",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "punitive",
+  "confidence": "high",
+  "rationale": "Establishes criminal penalties for commercial cutting of aquatic plants, increasing punitive enforcement.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

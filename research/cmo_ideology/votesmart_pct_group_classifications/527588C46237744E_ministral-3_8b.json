@@ -1,0 +1,11 @@
+{
+  "policy_key": "defense_retention_funding",
+  "dimension": "social_ideology",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Funding for programs aimed at keeping military personnel from leaving the armed forces.",
+  "evidence_quote": "*[No clear left/right ideological leaning in this specific option; retention funding is typically procedural/administrative, though it may have secondary implications depending on broader defense budget priorities.]*",
+  "needs_human_review": true,
+  "review_reason": "Context-dependent: Could be framed as conservative (prioritizing military strength) or progressive (addressing veteran well-being), but the option itself is neutral."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "FC1A68613DCFC945",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Creates an assault offense protecting healthcare workers, but the allowed healthcare axes do not cover criminal penalties or workplace safety.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

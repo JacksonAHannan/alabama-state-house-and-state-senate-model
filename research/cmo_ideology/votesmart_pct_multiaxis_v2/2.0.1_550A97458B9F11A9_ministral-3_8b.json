@@ -1,0 +1,30 @@
+{
+  "primary_domain": "education",
+  "policy_key": "public_provision=expansion",
+  "plain_english_policy": "Increase government spending on K-12 public schools",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "primary",
+      "rationale": "Explicitly calls for *increasing* state education funding, which implies direct government provision of K-12 services."
+    },
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "Public school funding is typically funded by general tax revenue (sales/property taxes), which disproportionately burden lower/middle-income households. No progressive mechanism (e.g., income-based subsidies) is stated."
+    },
+    {
+      "axis": "education_governance",
+      "pole": "public_system",
+      "strength": "primary",
+      "rationale": "Directly advocates for expanded state education budget, reinforcing the public school system's role."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"increasing funding for the state education budget\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

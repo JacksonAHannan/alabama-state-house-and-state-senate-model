@@ -1,0 +1,11 @@
+{
+ "data/processed/war/alabama_war_v1/candidate_cycle_war.csv": "c7ef528047b4199df4815e3655bec8446994241e171ad8a583b14600f0ef9efa",
+ "data/processed/war/alabama_war_v1/coverage.csv": "4acbe4f19dd03c616a62b9309c5ba6256d6c2570d39c6e1b8e2db86c5e2bca0f",
+ "data/processed/war/alabama_war_v1/manifest.json": "50f6a92abd98fcb7b2ca21bae18eae6dab7ae17273ec29e88b78a6c9e06bf884",
+ "data/processed/war/alabama_war_v1/race_war.csv": "a971d5e886a4af53f753a12bb0c69a1c004331f0b7d5fe53ebfa9ad3927aa59e",
+ "data/processed/war/alabama_historical_war_v1/candidate_cycle_war.csv": "5d8cbbba523d77db56a76b3d76ebee004250554d5201436435354adc305d83ef",
+ "data/processed/war/alabama_historical_war_v1/coverage.csv": "86d62334554259060fb23d29216659819153f22ff17a06e04285bc5a24d32fcd",
+ "data/processed/war/alabama_historical_war_v1/manifest.json": "c0a7160ab29d8c52a5f7e6fd21a21eeb14c01c48f25703b123338d7467262f26",
+ "data/processed/war/alabama_historical_war_v1/race_war.csv": "1e06cbf5057795fe59ee7c6da1e691a4413f7c8e2beb41fb6e66a53e5068519c",
+ "data/processed/war/alabama_historical_war_v1/structural_coefficients.csv": "627c0183165639b7925cba3342fe581c2b7fe061fd332faf1083bcf3ef6cd006"
+}

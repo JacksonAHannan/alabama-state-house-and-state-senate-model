@@ -1,0 +1,11 @@
+{
+  "policy_key": "foreign_policy_vietnam_relations",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks about diplomatic relations with Vietnam but does not specify a stance on economic aid to Russia or Soviet republics as requested in the section header.",
+  "evidence_quote": "Option: 2) Should the US have diplomatic relations with the government of Vietnam?",
+  "needs_human_review": true,
+  "review_reason": "The option text addresses a different country (Vietnam) than those listed in the Section question prompts (Russia/Soviet republics/UN), making it procedurally mismatched rather than ideologically positioned."
+}

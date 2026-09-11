@@ -1,0 +1,10 @@
+{
+  "id": "F8DE18B16B4DD5EF",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Extending the jurisdiction of a local industrial-development district is a localized administrative or economic-development measure, not a clear allowed policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

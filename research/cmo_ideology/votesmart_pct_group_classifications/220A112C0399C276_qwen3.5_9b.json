@@ -1,0 +1,11 @@
+{
+  "policy_key": "ukraine_offensive_aid",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The question asks about military aid to Ukraine but does not specify the candidate's stance or policy position.",
+  "evidence_quote": "Do you support the US providing increased offensive military aid to Ukraine?",
+  "needs_human_review": true,
+  "review_reason": "Question lacks a clear conservative/progressive framing; answer depends on specific candidate response which is missing."
+}

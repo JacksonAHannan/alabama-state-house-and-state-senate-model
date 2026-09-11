@@ -1,0 +1,11 @@
+{
+  "policy_key": "flexible_work_schedules",
+  "dimension": "labor_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Promotes family-friendly work policies (flex-time, comp-time, unpaid leave) without explicit racial/ethnic quotas.",
+  "evidence_quote": "Encourage employers to offer flex-time scheduling, comp-time, and unpaid leave for family emergencies.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_charter_funding",
+  "dimension": "education_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Federal funding for charter/magnet schools (teacher-driven).",
+  "evidence_quote": "Allow teachers and professionals to receive federal funding to establish charter or magnet schools.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

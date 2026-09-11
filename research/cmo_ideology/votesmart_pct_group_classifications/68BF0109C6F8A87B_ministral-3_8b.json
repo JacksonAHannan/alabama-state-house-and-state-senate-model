@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_education_funding",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Federal funding for education (K-12 and higher education).",
+  "evidence_quote": "(No specific funding level provided in the option; only a category label.)",
+  "needs_human_review": true,
+  "review_reason": "The option is purely categorical ('Education') without a quantifiable or ideologically anchored choice (e.g., 'increase', 'maintain', or 'cut'). This lacks clear left/right signal."
+}

@@ -245,7 +245,7 @@ def _legacy_1998(rows: list[list[object]], county: str) -> pd.DataFrame:
         if len(named)>=2: party_at[named[0]]="D"; party_at[named[1]]="R"
     records=[]
     only_summary = len([r for r in padded[2:] if any(str(v).strip() for v in r)]) == 1
-    for row in padded[2:]:
+    for row_number, row in enumerate(padded[2:], start=3):
         precinct=str(row[0]).strip()
         if not precinct or (re.search(r"\bTOTALS?\b",precinct,re.I) and not only_summary):continue
         if only_summary and re.search(r"\bTOTALS?\b",precinct,re.I): precinct="COUNTY REPORTING TOTAL"
@@ -255,6 +255,8 @@ def _legacy_1998(rows: list[list[object]], county: str) -> pd.DataFrame:
             office,district=_office(office_at[col])
             records.append({"county":county,"precinct":precinct,"office":office,"district":district,
                             "party":party_at.get(col,""),"candidate":candidate,"votes":float(number),
+                            "source_row":row_number,"source_column":col+1,
+                            "printed_precinct":str(row[0]),"printed_candidate":str(candidates[col]),
                             "party_method":"ballot_order" if col in party_at else "unresolved"})
     return pd.DataFrame(records)
 
@@ -309,15 +311,17 @@ def _legacy_2004(rows: list[list[object]], county: str) -> pd.DataFrame:
     header=padded[0]; records=[]
     president_party={"GEORGE W BUSH":"R","JOHN F KERRY":"D"}
     from oe_normalize import normalize_name
-    for row in padded[1:]:
+    for row_number, row in enumerate(padded[1:], start=2):
         title,candidate=row[:2]
         if not str(title).strip() or is_pseudocandidate(candidate):continue
         office,district=_office(title); party=president_party.get(normalize_name(candidate),"")
-        for precinct,votes in zip(header[3:],row[3:]):
+        for column, (precinct,votes) in enumerate(zip(header[3:],row[3:]), start=4):
             number=pd.to_numeric(votes,errors="coerce")
             if not str(precinct).strip() or pd.isna(number):continue
             records.append({"county":county,"precinct":str(precinct).strip(),"office":office,
                             "district":district,"party":party,"candidate":candidate,"votes":float(number),
+                            "source_row":row_number,"source_column":column,
+                            "printed_precinct":str(precinct),"printed_candidate":str(candidate),
                             "party_method":"candidate_dictionary" if party else "unresolved"})
     return pd.DataFrame(records)
 
@@ -325,7 +329,7 @@ def _legacy_2004(rows: list[list[object]], county: str) -> pd.DataFrame:
 def _legacy_candidate_header_matrix(sheets: dict[str,list[list[object]]],county: str) -> pd.DataFrame:
     """Read county-designed sheets whose header embeds ``Name - D/R``."""
     records=[]
-    for rows in sheets.values():
+    for sheet_name, rows in sheets.items():
         if len(rows)<3:continue
         width=max(map(len,rows)); padded=[r+[""]*(width-len(r)) for r in rows]
         header_row=next((i for i,r in enumerate(padded[:10]) if any(str(v).strip().upper()=="PRECINCT" for v in r)),None)
@@ -336,7 +340,7 @@ def _legacy_candidate_header_matrix(sheets: dict[str,list[list[object]]],county:
         for value in offices:
             if str(value).strip():carried=str(value).strip()
             office_at.append(carried)
-        for row in padded[header_row+1:]:
+        for row_number, row in enumerate(padded[header_row+1:], start=header_row+2):
             precinct=str(row[precinct_col]).strip()
             # Some county sheets append both calculated and reported contest
             # totals after the precinct rows.  They duplicate the precinct
@@ -351,6 +355,8 @@ def _legacy_candidate_header_matrix(sheets: dict[str,list[list[object]]],county:
                 office,district=_office(office_at[col]); candidate=re.sub(r"\s+-\s+[A-Z]+\s*$","",label,flags=re.I)
                 records.append({"county":county,"precinct":precinct,"office":office,"district":district,
                                 "party":match.group(1) if match else "","candidate":candidate,"votes":float(number),
+                                "source_sheet":sheet_name,"source_row":row_number,"source_column":col+1,
+                                "printed_precinct":str(row[precinct_col]),"printed_candidate":str(candidates[col]),
                                 "party_method":"printed" if match else "unresolved"})
     return pd.DataFrame(records)
 
@@ -431,11 +437,13 @@ def normalize_workbook(content: bytes, county: str, year: int) -> pd.DataFrame:
         data = pd.concat([_legacy_1994(rows, county).assign(source_sheet=name)
                           for name, rows in sheets.items()], ignore_index=True)
     elif year == 1998:
-        data = pd.concat([_legacy_1998(rows, county) for rows in sheets.values()], ignore_index=True)
+        data = pd.concat([_legacy_1998(rows, county).assign(source_sheet=name)
+                          for name, rows in sheets.items()], ignore_index=True)
     elif year == 2002:
         data = pd.concat([_legacy_2002(rows, county) for rows in sheets.values()], ignore_index=True)
     elif year == 2004:
-        data = pd.concat([_legacy_2004(rows, county) for rows in sheets.values()], ignore_index=True)
+        data = pd.concat([_legacy_2004(rows, county).assign(source_sheet=name)
+                          for name, rows in sheets.items()], ignore_index=True)
         if data.empty: data = _legacy_candidate_header_matrix(sheets, county)
     elif year == 2008:
         data = _legacy_2008(sheets, county)

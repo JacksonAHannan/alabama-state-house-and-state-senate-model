@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_crime_firearm_penalties",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increasing penalties for illegal firearm possession is a progressive stance that emphasizes rehabilitation and reducing incarceration rates over punitive measures.",
+  "evidence_quote": "Increase penalties for the possession of any illegal firearms.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

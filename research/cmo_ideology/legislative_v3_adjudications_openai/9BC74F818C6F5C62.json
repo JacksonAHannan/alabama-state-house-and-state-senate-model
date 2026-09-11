@@ -1,0 +1,10 @@
+{
+  "id": "9BC74F818C6F5C62",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "punitive",
+  "confidence": "high",
+  "rationale": "Prohibits specified wireless-device use while driving and adds criminal penalties for violations.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

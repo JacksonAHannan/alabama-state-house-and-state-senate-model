@@ -1,0 +1,32 @@
+{
+  "contract_version": 1,
+  "build_run_id": "RUN-3F9B3CEA244646B796CF86E962A919FE",
+  "pipeline": "scripts/build_southern_context_allocations.py",
+  "validation": {
+    "assignment_sources": 2,
+    "block_assignment_rows": 6324382,
+    "district_result_rows": 4532,
+    "geometry_linked_district_results": 1762,
+    "allocation_audits": 56,
+    "review_audits": 0,
+    "minimum_two_party_vote_coverage": 0.9999999999999728,
+    "assignment_stats": [
+      {
+        "plan_cycle": 2022,
+        "national_input_rows": 8126956,
+        "southern_rows": 3162191,
+        "states": 14
+      },
+      {
+        "plan_cycle": 2024,
+        "national_input_rows": 8126956,
+        "southern_rows": 3162191,
+        "states": 14
+      }
+    ]
+  },
+  "outputs": [
+    "data/processed/presidential/southern_context_allocations/presidential_district_results.csv",
+    "data/processed/presidential/southern_context_allocations/allocation_reconciliation.csv"
+  ]
+}

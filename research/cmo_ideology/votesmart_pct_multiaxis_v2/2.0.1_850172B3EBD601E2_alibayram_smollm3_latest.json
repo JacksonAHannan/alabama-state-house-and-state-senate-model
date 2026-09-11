@@ -1,0 +1,24 @@
+{
+  "primary_domain": "business",
+  "policy_key": "business_scale_alignment",
+  "plain_english_policy": "e) Provide increased funding for agricultural and forestry research.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "Increased funding could lead to regulatory or interventionist policies in the agricultural and forestry sectors."
+    },
+    {
+      "axis": "business_scale_alignment",
+      "pole": "small_business",
+      "strength": "primary",
+      "rationale": "Agricultural and forestry research may benefit small businesses more directly than large ones, depending on the nature of the funding and its focus."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Provide increased funding for agricultural and forestry research.\" - Candidate's response to Question e in Section: Economy and Employment (1998). Source: [Candidate Name]\u2019s campaign questionnaire, Year: 1998, Section: Economy and Employment.",
+  "needs_human_review": true,
+  "review_reason": "The policy is described as providing increased funding for agricultural and forestry research. The primary domain of this policy is business scale alignment with a focus on small businesses."
+}

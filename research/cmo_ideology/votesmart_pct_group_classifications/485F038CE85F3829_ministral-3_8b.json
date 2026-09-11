@@ -1,0 +1,11 @@
+{
+  "policy_key": "content_moderation_government_mandate",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Government should require broadcasters to restrict violent/sexual content on TV.",
+  "evidence_quote": "Support government mandates to curtail violent and sexual content on television.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

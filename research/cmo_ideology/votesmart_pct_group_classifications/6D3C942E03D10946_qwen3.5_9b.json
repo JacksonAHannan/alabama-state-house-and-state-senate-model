@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_affirmative_action",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Support for federal affirmative action programs is conventionally associated with progressive social ideology.",
+  "evidence_quote": "f) Should the federal government continue affirmative action programs?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

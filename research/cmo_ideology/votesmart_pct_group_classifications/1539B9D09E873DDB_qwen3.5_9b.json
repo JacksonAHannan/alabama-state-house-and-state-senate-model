@@ -1,0 +1,11 @@
+{
+  "policy_key": "decrease_un_financial_support",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option suggests reducing U.S. funding for the United Nations.",
+  "evidence_quote": "Should the United States decrease its financial support of the United Nations?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

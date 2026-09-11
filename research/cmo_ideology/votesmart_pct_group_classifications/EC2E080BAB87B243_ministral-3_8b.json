@@ -1,0 +1,11 @@
+{
+  "policy_key": "trade_expansion_nafta",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Expanding NAFTA to include more countries (e.g., USMCA or further regional agreements).",
+  "evidence_quote": "*'Do you support broadening NAFTA to include other countries?*' (No direct quote provided, but this position aligns with free-trade expansionism, conventionally conservative on trade policy.)",
+  "needs_human_review": false,
+  "review_reason": ""
+}

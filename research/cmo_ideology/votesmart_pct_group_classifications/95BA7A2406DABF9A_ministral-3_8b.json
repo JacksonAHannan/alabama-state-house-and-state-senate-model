@@ -1,0 +1,11 @@
+{
+  "policy_key": "juvenile_boot_camps",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Alternative sentencing for juvenile offenders using boot camps (militarized rehabilitation programs).",
+  "evidence_quote": "Support the use of 'boot camps' as alternative sentencing for juvenile offenders.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

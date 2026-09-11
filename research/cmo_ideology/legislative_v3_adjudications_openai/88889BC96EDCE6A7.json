@@ -1,0 +1,10 @@
+{
+  "id": "88889BC96EDCE6A7",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Primarily reporting and personnel-administration provisions; no sufficiently clear change along an allowed criminal-justice policy axis.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

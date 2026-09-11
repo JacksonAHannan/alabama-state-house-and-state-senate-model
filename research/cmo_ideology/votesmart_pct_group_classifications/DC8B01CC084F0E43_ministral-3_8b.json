@@ -1,0 +1,11 @@
+{
+  "policy_key": "immigration_social_program_eligibility",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Expanding access to social welfare programs (e.g., public housing, food stamps) for legal immigrants.",
+  "evidence_quote": "Increase the eligibility of legal immigrants for certain social programs (e.g. public housing, food stamps).",
+  "needs_human_review": false,
+  "review_reason": ""
+}

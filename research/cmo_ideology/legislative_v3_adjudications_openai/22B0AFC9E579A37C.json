@@ -1,0 +1,10 @@
+{
+  "id": "22B0AFC9E579A37C",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Adopting initial sentencing standards and extending the deadline for further standards is procedural and does not clearly establish a single punishment, incarceration, or due-process pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

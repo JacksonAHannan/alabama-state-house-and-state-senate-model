@@ -1,0 +1,10 @@
+{
+  "id": "BC1108FE554D64BC",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Technical and administrative changes to certificate-of-need review do not clearly map to one of the allowed healthcare policy poles.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

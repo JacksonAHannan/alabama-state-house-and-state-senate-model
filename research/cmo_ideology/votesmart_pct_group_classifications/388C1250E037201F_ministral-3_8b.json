@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_funding_increase",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increasing state education funding is typically associated with progressive policy priorities, such as expanding resources for public schools, teacher salaries, and educational programs.",
+  "evidence_quote": "(No specific quote provided in the option; this is a standard policy question.)",
+  "needs_human_review": false,
+  "review_reason": ""
+}

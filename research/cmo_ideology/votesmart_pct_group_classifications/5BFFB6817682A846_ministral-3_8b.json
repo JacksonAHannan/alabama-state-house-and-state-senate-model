@@ -1,0 +1,11 @@
+{
+  "policy_key": "un_debt_payment",
+  "dimension": "indeterminate",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option is procedural/administrative, as it does not inherently reflect a left/right ideological stance but rather addresses a specific financial obligation.",
+  "evidence_quote": "The U.S. should pay its debt to the United Nations.",
+  "needs_human_review": true,
+  "review_reason": "Context-dependent: The policy's political implications depend on broader views of UN legitimacy, fiscal responsibility, or international cooperation."
+}

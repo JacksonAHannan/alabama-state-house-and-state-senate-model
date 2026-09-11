@@ -1,0 +1,11 @@
+{
+  "policy_key": "un_peacekeeping_troops",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The U.S. should avoid deploying troops to UN peacekeeping missions.",
+  "evidence_quote": "**b) The U.S. should not commit military troops to United Nations peacekeeping missions.**",
+  "needs_human_review": true,
+  "review_reason": "This option is procedurally framed (avoidance of troop deployment) but carries a clear implication of reduced UN engagement, which could be interpreted as either a progressive stance on military intervention or a conservative stance on avoiding multilateral commitments. Context-dependent."
+}

@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "restriction",
+  "plain_english_policy": "Restricting alcohol consumption to a lower blood-alcohol content limit for driving.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "secondary"
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Support the lower .08 blood-alcohol-content limit defining drunk driving.",
+  "needs_human_review": false,
+  "review_reason": "This option is a restriction on alcohol consumption for driving. It aims to reduce drunk driving incidents."
+}

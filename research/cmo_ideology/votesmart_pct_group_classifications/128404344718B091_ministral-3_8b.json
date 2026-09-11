@@ -1,0 +1,11 @@
+{
+  "policy_key": "social_security_payroll_tax_increase",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Raise the percentage of workers' earnings taxed for Social Security to keep the program solvent.",
+  "evidence_quote": "Ensure the viability of Social Security by increasing the payroll tax.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

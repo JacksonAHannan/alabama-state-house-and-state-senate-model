@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "restriction",
+  "plain_english_policy": "Do you support limits on the following types of contributions to candidates for state government?",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "The question is about campaign finance regulations, which fall under market governance."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "primary",
+      "rationale": "The policy in option f) relates to the restriction of contributions to candidates for state government."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Should the Alabama Ethics Commission have the power of subpoena?\" - This question is related to campaign finance regulations, which are a part of welfare policy and involve restrictions on contributions.",
+  "needs_human_review": true,
+  "review_reason": "The policy in option f) pertains to the restriction of contributions to candidates for state government. The primary domain is welfare policy because it deals with regulating campaign finance."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "F3670ACA8A579335",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "Mixed municipal-election procedural measure combining ballot administration, absentee voting, polling-place rules, staffing, and recount procedures without a single clear policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "enterprise_zones_unemployment",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "medium",
+  "plain_english_policy": "Establishing enterprise zones is generally considered a progressive economic policy aimed at stimulating job creation in distressed areas through targeted government intervention.",
+  "evidence_quote": "e) Establish enterprise zones in areas with large numbers of unemployed people.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

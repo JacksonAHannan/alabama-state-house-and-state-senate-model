@@ -1,0 +1,11 @@
+{
+  "policy_key": "affirmative_action_government_contracting",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option explicitly endorses race- and sex-conscious criteria in federal contracting, which is a hallmark of progressive affirmative action policies.",
+  "evidence_quote": "The federal government should consider race and sex in making government contracting decisions.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

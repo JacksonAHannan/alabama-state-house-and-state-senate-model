@@ -1,0 +1,10 @@
+{
+  "id": "945E6D95946244D7",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Requires insurers to provide coverage information to Medicaid as a business condition, primarily an administrative reporting requirement without a clear allowed healthcare pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

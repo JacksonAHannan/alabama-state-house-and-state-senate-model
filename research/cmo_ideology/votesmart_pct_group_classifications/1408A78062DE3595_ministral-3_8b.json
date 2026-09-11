@@ -1,0 +1,11 @@
+{
+  "policy_key": "excise_taxes_alcohol",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Excise taxes on alcohol (e.g., liquor, beer, wine) are typically lower under progressive policies to reduce costs for consumers and small businesses, or higher under conservative policies to discourage consumption. However, in this questionnaire format, **selecting a higher number (#4-6) conventionally signals support for *higher* excise taxes**, which aligns with more progressive economic priorities (e.g., funding social programs via regressive but targeted taxation).",
+  "evidence_quote": "*d) Excise taxes (alcohol)*",
+  "needs_human_review": false,
+  "review_reason": ""
+}

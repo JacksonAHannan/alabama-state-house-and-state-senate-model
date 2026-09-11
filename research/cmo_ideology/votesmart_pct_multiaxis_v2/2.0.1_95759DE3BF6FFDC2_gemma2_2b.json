@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "public_provision",
+  "plain_english_policy": "Public provision of healthcare",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "secondary"
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Do you support a universally-accessible, publicly-administered health insurance option?",
+  "needs_human_review": true,
+  "review_reason": "This is a direct question about the provision of healthcare by government. It's not about how it's delivered or who pays for it."
+}

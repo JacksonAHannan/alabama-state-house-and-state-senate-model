@@ -1,0 +1,24 @@
+{
+  "primary_domain": "economy",
+  "policy_key": "infrastructure_spending",
+  "plain_english_policy": "support increased spending on infrastructure projects to create jobs",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "economic growth"
+    },
+    {
+      "axis": "business_scale_alignment",
+      "pole": "large_business",
+      "strength": "primary",
+      "rationale": "job creation"
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Do you support increased spending on infrastructure projects for the purpose of job creation?",
+  "needs_human_review": false,
+  "review_reason": "This question asks about supporting government spending to create jobs. This is a classic economic policy issue that often involves trade-offs between short-term and long-term benefits."
+}

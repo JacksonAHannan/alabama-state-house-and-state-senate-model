@@ -1,0 +1,10 @@
+{
+  "id": "7A5B46CCBC689FEF",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Retroactively alters qualifying project capital costs for state development grants; this is a technical, program-specific adjustment rather than a clear allowed policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

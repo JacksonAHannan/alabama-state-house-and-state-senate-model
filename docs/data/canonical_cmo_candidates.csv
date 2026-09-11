@@ -1261,7 +1261,7 @@ year,chamber,district,canonical_party,canonical_votes,canonical_name,canonical_s
 2018,house,47,R,9170.0,David Wheeler,official_consolidated_candidate_results,ALPERSON-DAVID-WHEELER,AL-2018-house-47-R-DAVID-WHEELER,0,1
 2018,house,48,D,7832.0,Alli Summerford,official_consolidated_candidate_results,ALPERSON-ALLI-SUMMERFORD,AL-2018-house-48-D-ALLI-SUMMERFORD,0,0
 2018,house,48,R,14789.0,Jim Carns,official_consolidated_candidate_results,ALPERSON-JIM-CARNS,AL-2018-house-48-R-JIM-CARNS,1,1
-2018,house,49,R,10794.0,April Weaver,official_consolidated_candidate_results,ALPERSON-APRIL-WEAVER,AL-2018-house-49-R-APRIL-WEAVER,1,1
+2018,house,49,R,10795.0,April Weaver,official_consolidated_candidate_results,ALPERSON-APRIL-WEAVER,AL-2018-house-49-R-APRIL-WEAVER,1,1
 2018,house,50,R,14412.0,Jim Hill,official_consolidated_candidate_results,ALPERSON-JIM-HILL,AL-2018-house-50-R-JIM-HILL,1,1
 2018,house,51,D,3174.0,Veronica R. Johnson,official_consolidated_candidate_results,ALPERSON-VERONICA-R-JOHNSON,AL-2018-house-51-D-VERONICA-R-JOHNSON,0,0
 2018,house,51,R,15390.0,Allen Treadaway,official_consolidated_candidate_results,ALPERSON-ALLEN-TREADAWAY,AL-2018-house-51-R-ALLEN-TREADAWAY,1,1
@@ -1285,7 +1285,7 @@ year,chamber,district,canonical_party,canonical_votes,canonical_name,canonical_s
 2018,house,65,R,10095.0,Brett Easterbrook,official_consolidated_candidate_results,ALPERSON-BRETT-EASTERBROOK,AL-2018-house-65-R-BRETT-EASTERBROOK,0,1
 2018,house,66,D,4008.0,Susan E. Smith,official_consolidated_candidate_results,ALPERSON-SUSAN-E-SMITH,AL-2018-house-66-D-SUSAN-E-SMITH,0,0
 2018,house,66,R,10431.0,Alan Baker,official_consolidated_candidate_results,ALPERSON-ALAN-BAKER,AL-2018-house-66-R-ALAN-BAKER,1,1
-2018,house,67,D,11239.0,Prince Chestnut,official_consolidated_candidate_results,ALPERSON-PRINCE-CHESTNUT,AL-2018-house-67-D-PRINCE-CHESTNUT,1,1
+2018,house,67,D,11635.0,Prince Chestnut,official_consolidated_candidate_results,ALPERSON-PRINCE-CHESTNUT,AL-2018-house-67-D-PRINCE-CHESTNUT,1,1
 2018,house,68,D,10382.0,"Thomas E. ""Action"" Jackson",official_consolidated_candidate_results,ALPERSON-THOMAS-E-ACTION-JACKSON,AL-2018-house-68-D-THOMAS-E-ACTION-JACKSON,1,1
 2018,house,69,D,12867.0,Kelvin Jamichael Lawrence,official_consolidated_candidate_results,ALPERSON-KELVIN-JAMICHAEL-LAWRENCE,AL-2018-house-69-D-KELVIN-JAMICHAEL-LAWRENCE,0,1
 2018,house,70,D,11541.0,Christopher John England,official_consolidated_candidate_results,ALPERSON-CHRISTOPHER-JOHN-ENGLAND,AL-2018-house-70-D-CHRISTOPHER-JOHN-ENGLAND,1,1
@@ -1303,11 +1303,11 @@ year,chamber,district,canonical_party,canonical_votes,canonical_name,canonical_s
 2018,house,79,R,9717.0,Joe Lovvorn,official_consolidated_candidate_results,ALPERSON-JOE-LOVVORN,AL-2018-house-79-R-JOE-LOVVORN,1,1
 2018,house,80,D,3407.0,"Christopher F. ""Apostle"" Davis",official_consolidated_candidate_results,ALPERSON-CHRISTOPHER-F-APOSTLE-DAVIS,AL-2018-house-80-D-CHRISTOPHER-F-APOSTLE-DAVIS,0,0
 2018,house,80,R,8506.0,Chris E. Blackshear,official_consolidated_candidate_results,ALPERSON-CHRIS-E-BLACKSHEAR,AL-2018-house-80-R-CHRIS-E-BLACKSHEAR,1,1
-2018,house,81,D,4696.0,"Jeremy ""J.J."" Jeffcoat",official_consolidated_candidate_results,ALPERSON-JEREMY-J-J-JEFFCOAT,AL-2018-house-81-D-JEREMY-J-J-JEFFCOAT,0,0
+2018,house,81,D,4697.0,"Jeremy ""J.J."" Jeffcoat",official_consolidated_candidate_results,ALPERSON-JEREMY-J-J-JEFFCOAT,AL-2018-house-81-D-JEREMY-J-J-JEFFCOAT,0,0
 2018,house,81,R,12823.0,Ed Oliver,official_consolidated_candidate_results,ALPERSON-ED-OLIVER,AL-2018-house-81-R-ED-OLIVER,0,1
 2018,house,82,D,11411.0,Pebblin Walker Warren,official_consolidated_candidate_results,ALPERSON-PEBBLIN-WALKER-WARREN,AL-2018-house-82-D-PEBBLIN-WALKER-WARREN,1,1
-2018,house,83,D,8940.0,"Jeremy ""Mr. Eyg"" Gray",official_consolidated_candidate_results,ALPERSON-JEREMY-MR-EYG-GRAY,AL-2018-house-83-D-JEREMY-MR-EYG-GRAY,0,1
-2018,house,83,R,5142.0,Michael J Holden II,official_consolidated_candidate_results,ALPERSON-MICHAEL-J-HOLDEN-II,AL-2018-house-83-R-MICHAEL-J-HOLDEN-II,0,0
+2018,house,83,D,8943.0,"Jeremy ""Mr. Eyg"" Gray",official_consolidated_candidate_results,ALPERSON-JEREMY-MR-EYG-GRAY,AL-2018-house-83-D-JEREMY-MR-EYG-GRAY,0,1
+2018,house,83,R,5143.0,Michael J Holden II,official_consolidated_candidate_results,ALPERSON-MICHAEL-J-HOLDEN-II,AL-2018-house-83-R-MICHAEL-J-HOLDEN-II,0,0
 2018,house,84,D,9962.0,Berry Forte,official_consolidated_candidate_results,ALPERSON-BERRY-FORTE,AL-2018-house-84-D-BERRY-FORTE,1,1
 2018,house,85,D,7315.0,Dexter Grimsley,official_consolidated_candidate_results,ALPERSON-DEXTER-GRIMSLEY,AL-2018-house-85-D-DEXTER-GRIMSLEY,1,1
 2018,house,85,R,6266.0,J. Ron Wilson,official_consolidated_candidate_results,ALPERSON-J-RON-WILSON,AL-2018-house-85-R-J-RON-WILSON,0,0
@@ -1360,8 +1360,8 @@ year,chamber,district,canonical_party,canonical_votes,canonical_name,canonical_s
 2018,senate,12,R,27416.0,Del Marsh,official_consolidated_candidate_results,ALPERSON-DEL-MARSH,AL-2018-senate-12-R-DEL-MARSH,1,1
 2018,senate,13,D,12839.0,Darrell Turner,official_consolidated_candidate_results,ALPERSON-DARRELL-TURNER,AL-2018-senate-13-D-DARRELL-TURNER,0,0
 2018,senate,13,R,31614.0,Randy Price,official_consolidated_candidate_results,ALPERSON-RANDY-PRICE,AL-2018-senate-13-R-RANDY-PRICE,0,1
-2018,senate,14,D,13171.0,Jerry McDonald,official_consolidated_candidate_results,ALPERSON-JERRY-MCDONALD,AL-2018-senate-14-D-JERRY-MCDONALD,0,0
-2018,senate,14,R,34953.0,Cam Ward,official_consolidated_candidate_results,ALPERSON-CAM-WARD,AL-2018-senate-14-R-CAM-WARD,1,1
+2018,senate,14,D,13173.0,Jerry McDonald,official_consolidated_candidate_results,ALPERSON-JERRY-MCDONALD,AL-2018-senate-14-D-JERRY-MCDONALD,0,0
+2018,senate,14,R,34957.0,Cam Ward,official_consolidated_candidate_results,ALPERSON-CAM-WARD,AL-2018-senate-14-R-CAM-WARD,1,1
 2018,senate,15,R,44792.0,Dan Roberts,official_consolidated_candidate_results,ALPERSON-DAN-ROBERTS,AL-2018-senate-15-R-DAN-ROBERTS,0,1
 2018,senate,16,D,21851.0,Lindsey Deckard,official_consolidated_candidate_results,ALPERSON-LINDSEY-DECKARD,AL-2018-senate-16-D-LINDSEY-DECKARD,0,0
 2018,senate,16,R,37068.0,"J.T. ""Jabo"" Waggoner",official_consolidated_candidate_results,ALPERSON-J-T-JABO-WAGGONER,AL-2018-senate-16-R-J-T-JABO-WAGGONER,1,1
@@ -1372,17 +1372,17 @@ year,chamber,district,canonical_party,canonical_votes,canonical_name,canonical_s
 2018,senate,21,D,16005.0,Rick Burnham,official_consolidated_candidate_results,ALPERSON-RICK-BURNHAM,AL-2018-senate-21-D-RICK-BURNHAM,0,0
 2018,senate,21,R,33368.0,Gerald Allen,official_consolidated_candidate_results,ALPERSON-GERALD-ALLEN,AL-2018-senate-21-R-GERALD-ALLEN,1,1
 2018,senate,22,R,34507.0,Greg Albritton,official_consolidated_candidate_results,ALPERSON-GREG-ALBRITTON,AL-2018-senate-22-R-GREG-ALBRITTON,1,1
-2018,senate,23,D,29920.0,Malika Sanders-Fortier,official_consolidated_candidate_results,ALPERSON-MALIKA-SANDERS-FORTIER,AL-2018-senate-23-D-MALIKA-SANDERS-FORTIER,0,1
+2018,senate,23,D,30193.0,Malika Sanders-Fortier,official_consolidated_candidate_results,ALPERSON-MALIKA-SANDERS-FORTIER,AL-2018-senate-23-D-MALIKA-SANDERS-FORTIER,0,1
 2018,senate,24,D,37394.0,Bobby Singleton,official_consolidated_candidate_results,ALPERSON-BOBBY-SINGLETON,AL-2018-senate-24-D-BOBBY-SINGLETON,1,1
 2018,senate,25,D,20866.0,David A. Sadler,official_consolidated_candidate_results,ALPERSON-DAVID-A-SADLER,AL-2018-senate-25-D-DAVID-A-SADLER,0,0
 2018,senate,25,R,33029.0,Will Barfoot,official_consolidated_candidate_results,ALPERSON-WILL-BARFOOT,AL-2018-senate-25-R-WILL-BARFOOT,0,1
 2018,senate,26,D,31973.0,"David ""Coach"" Burkette",official_consolidated_candidate_results,ALPERSON-DAVID-COACH-BURKETTE,AL-2018-senate-26-D-DAVID-COACH-BURKETTE,1,1
 2018,senate,26,R,7863.0,D. J. Johnson,official_consolidated_candidate_results,ALPERSON-D-J-JOHNSON,AL-2018-senate-26-R-D-J-JOHNSON,0,0
-2018,senate,27,D,20586.0,Nancy Carlton Bendinger,official_consolidated_candidate_results,ALPERSON-NANCY-CARLTON-BENDINGER,AL-2018-senate-27-D-NANCY-CARLTON-BENDINGER,0,0
+2018,senate,27,D,20587.0,Nancy Carlton Bendinger,official_consolidated_candidate_results,ALPERSON-NANCY-CARLTON-BENDINGER,AL-2018-senate-27-D-NANCY-CARLTON-BENDINGER,0,0
 2018,senate,27,R,29741.0,Tom Whatley,official_consolidated_candidate_results,ALPERSON-TOM-WHATLEY,AL-2018-senate-27-R-TOM-WHATLEY,1,1
-2018,senate,28,D,28442.0,Billy Beasley,official_consolidated_candidate_results,ALPERSON-BILLY-BEASLEY,AL-2018-senate-28-D-BILLY-BEASLEY,1,1
+2018,senate,28,D,28445.0,Billy Beasley,official_consolidated_candidate_results,ALPERSON-BILLY-BEASLEY,AL-2018-senate-28-D-BILLY-BEASLEY,1,1
 2018,senate,29,R,34273.0,Donnie Chesteen,official_consolidated_candidate_results,ALPERSON-DONNIE-CHESTEEN,AL-2018-senate-29-R-DONNIE-CHESTEEN,0,1
-2018,senate,30,R,35256.0,"Clyde Chambliss, Jr.",official_consolidated_candidate_results,ALPERSON-CLYDE-CHAMBLISS-JR,AL-2018-senate-30-R-CLYDE-CHAMBLISS-JR,1,1
+2018,senate,30,R,35259.0,"Clyde Chambliss, Jr.",official_consolidated_candidate_results,ALPERSON-CLYDE-CHAMBLISS-JR,AL-2018-senate-30-R-CLYDE-CHAMBLISS-JR,1,1
 2018,senate,31,R,33137.0,Jimmy W. Holley,official_consolidated_candidate_results,ALPERSON-JIMMY-W-HOLLEY,AL-2018-senate-31-R-JIMMY-W-HOLLEY,1,1
 2018,senate,32,D,15193.0,Jason Fisher,official_consolidated_candidate_results,ALPERSON-JASON-FISHER,AL-2018-senate-32-D-JASON-FISHER,0,0
 2018,senate,32,R,45726.0,Chris Elliott,official_consolidated_candidate_results,ALPERSON-CHRIS-ELLIOTT,AL-2018-senate-32-R-CHRIS-ELLIOTT,0,1
@@ -1390,176 +1390,176 @@ year,chamber,district,canonical_party,canonical_votes,canonical_name,canonical_s
 2018,senate,34,R,35093.0,Jack Williams,official_consolidated_candidate_results,ALPERSON-JACK-WILLIAMS,AL-2018-senate-34-R-JACK-WILLIAMS,0,1
 2018,senate,35,D,13896.0,Tom Holmes,official_consolidated_candidate_results,ALPERSON-TOM-HOLMES,AL-2018-senate-35-D-TOM-HOLMES,0,0
 2018,senate,35,R,29046.0,David Sessions,official_consolidated_candidate_results,ALPERSON-DAVID-SESSIONS,AL-2018-senate-35-R-DAVID-SESSIONS,0,1
-2022,house,1,R,10360.0,GSL001RPET,official_consolidated_candidate_results,ALPERSON-GSL001RPET,AL-2022-house-1-R-GSL001RPET,0,1
+2022,house,1,R,10360.0,GSL001RPET,official_consolidated_candidate_results,ALPERSON-GSL001RPET,AL-2022-house-1-R-GSL001RPET,1,1
 2022,house,2,R,11233.0,GSL002RHAR,official_consolidated_candidate_results,ALPERSON-GSL002RHAR,AL-2022-house-2-R-GSL002RHAR,0,1
 2022,house,3,D,4241.0,GSL003DTHO,official_consolidated_candidate_results,ALPERSON-GSL003DTHO,AL-2022-house-3-D-GSL003DTHO,0,0
 2022,house,3,R,8023.0,GSL003RUND,official_consolidated_candidate_results,ALPERSON-GSL003RUND,AL-2022-house-3-R-GSL003RUND,0,1
-2022,house,4,R,11236.0,GSL004RMOO,official_consolidated_candidate_results,ALPERSON-GSL004RMOO,AL-2022-house-4-R-GSL004RMOO,0,1
-2022,house,5,R,12332.0,GSL005RCRA,official_consolidated_candidate_results,ALPERSON-GSL005RCRA,AL-2022-house-5-R-GSL005RCRA,0,1
-2022,house,6,R,11052.0,GSL006RWHI,official_consolidated_candidate_results,ALPERSON-GSL006RWHI,AL-2022-house-6-R-GSL006RWHI,0,1
+2022,house,4,R,11236.0,GSL004RMOO,official_consolidated_candidate_results,ALPERSON-GSL004RMOO,AL-2022-house-4-R-GSL004RMOO,1,1
+2022,house,5,R,12332.0,GSL005RCRA,official_consolidated_candidate_results,ALPERSON-GSL005RCRA,AL-2022-house-5-R-GSL005RCRA,1,1
+2022,house,6,R,11052.0,GSL006RWHI,official_consolidated_candidate_results,ALPERSON-GSL006RWHI,AL-2022-house-6-R-GSL006RWHI,1,1
 2022,house,7,D,3133.0,GSL007DJON,official_consolidated_candidate_results,ALPERSON-GSL007DJON,AL-2022-house-7-D-GSL007DJON,0,0
 2022,house,7,R,11225.0,GSL007RYAR,official_consolidated_candidate_results,ALPERSON-GSL007RYAR,AL-2022-house-7-R-GSL007RYAR,0,1
-2022,house,8,R,7234.0,GSL008RCOL,official_consolidated_candidate_results,ALPERSON-GSL008RCOL,AL-2022-house-8-R-GSL008RCOL,0,1
-2022,house,9,R,11041.0,GSL009RSTA,official_consolidated_candidate_results,ALPERSON-GSL009RSTA,AL-2022-house-9-R-GSL009RSTA,0,1
+2022,house,8,R,7234.0,GSL008RCOL,official_consolidated_candidate_results,ALPERSON-GSL008RCOL,AL-2022-house-8-R-GSL008RCOL,1,1
+2022,house,9,R,11041.0,GSL009RSTA,official_consolidated_candidate_results,ALPERSON-GSL009RSTA,AL-2022-house-9-R-GSL009RSTA,1,1
 2022,house,10,D,6608.0,GSL010DLAN,official_consolidated_candidate_results,ALPERSON-GSL010DLAN,AL-2022-house-10-D-GSL010DLAN,0,0
 2022,house,10,R,7581.0,GSL010RCOL,official_consolidated_candidate_results,ALPERSON-GSL010RCOL,AL-2022-house-10-R-GSL010RCOL,0,1
-2022,house,11,R,12552.0,GSL011RSHE,official_consolidated_candidate_results,ALPERSON-GSL011RSHE,AL-2022-house-11-R-GSL011RSHE,0,1
+2022,house,11,R,12552.0,GSL011RSHE,official_consolidated_candidate_results,ALPERSON-GSL011RSHE,AL-2022-house-11-R-GSL011RSHE,1,1
 2022,house,12,D,2030.0,GSL012DFIE,official_consolidated_candidate_results,ALPERSON-GSL012DFIE,AL-2022-house-12-D-GSL012DFIE,0,0
-2022,house,12,R,11958.0,GSL012RHAR,official_consolidated_candidate_results,ALPERSON-GSL012RHAR,AL-2022-house-12-R-GSL012RHAR,0,1
+2022,house,12,R,11958.0,GSL012RHAR,official_consolidated_candidate_results,ALPERSON-GSL012RHAR,AL-2022-house-12-R-GSL012RHAR,1,1
 2022,house,13,R,11422.0,GSL013RWOO,official_consolidated_candidate_results,ALPERSON-GSL013RWOO,AL-2022-house-13-R-GSL013RWOO,0,1
-2022,house,14,R,13396.0,GSL014RWAD,official_consolidated_candidate_results,ALPERSON-GSL014RWAD,AL-2022-house-14-R-GSL014RWAD,0,1
+2022,house,14,R,13396.0,GSL014RWAD,official_consolidated_candidate_results,ALPERSON-GSL014RWAD,AL-2022-house-14-R-GSL014RWAD,1,1
 2022,house,15,D,6166.0,GSL015DROU,official_consolidated_candidate_results,ALPERSON-GSL015DROU,AL-2022-house-15-D-GSL015DROU,0,0
 2022,house,15,R,10818.0,GSL015RHUL,official_consolidated_candidate_results,ALPERSON-GSL015RHUL,AL-2022-house-15-R-GSL015RHUL,0,1
-2022,house,16,R,13174.0,GSL016RSOU,official_consolidated_candidate_results,ALPERSON-GSL016RSOU,AL-2022-house-16-R-GSL016RSOU,0,1
-2022,house,17,R,12850.0,GSL017REST,official_consolidated_candidate_results,ALPERSON-GSL017REST,AL-2022-house-17-R-GSL017REST,0,1
-2022,house,18,R,10783.0,GSL018RKIE,official_consolidated_candidate_results,ALPERSON-GSL018RKIE,AL-2022-house-18-R-GSL018RKIE,0,1
-2022,house,19,D,8721.0,GSL019DHAL,official_consolidated_candidate_results,ALPERSON-GSL019DHAL,AL-2022-house-19-D-GSL019DHAL,0,1
+2022,house,16,R,13177.0,GSL016RSOU,official_consolidated_candidate_results,ALPERSON-GSL016RSOU,AL-2022-house-16-R-GSL016RSOU,1,1
+2022,house,17,R,12850.0,GSL017REST,official_consolidated_candidate_results,ALPERSON-GSL017REST,AL-2022-house-17-R-GSL017REST,1,1
+2022,house,18,R,10783.0,GSL018RKIE,official_consolidated_candidate_results,ALPERSON-GSL018RKIE,AL-2022-house-18-R-GSL018RKIE,1,1
+2022,house,19,D,8721.0,GSL019DHAL,official_consolidated_candidate_results,ALPERSON-GSL019DHAL,AL-2022-house-19-D-GSL019DHAL,1,1
 2022,house,20,R,14816.0,GSL020RLOM,official_consolidated_candidate_results,ALPERSON-GSL020RLOM,AL-2022-house-20-R-GSL020RLOM,0,1
-2022,house,21,R,12386.0,GSL021RREY,official_consolidated_candidate_results,ALPERSON-GSL021RREY,AL-2022-house-21-R-GSL021RREY,0,1
-2022,house,22,R,12984.0,GSL022RWHO,official_consolidated_candidate_results,ALPERSON-GSL022RWHO,AL-2022-house-22-R-GSL022RWHO,0,1
+2022,house,21,R,12386.0,GSL021RREY,official_consolidated_candidate_results,ALPERSON-GSL021RREY,AL-2022-house-21-R-GSL021RREY,1,1
+2022,house,22,R,12984.0,GSL022RWHO,official_consolidated_candidate_results,ALPERSON-GSL022RWHO,AL-2022-house-22-R-GSL022RWHO,1,1
 2022,house,23,R,10980.0,GSL023RKIR,official_consolidated_candidate_results,ALPERSON-GSL023RKIR,AL-2022-house-23-R-GSL023RKIR,0,1
-2022,house,24,R,11285.0,GSL024RLED,official_consolidated_candidate_results,ALPERSON-GSL024RLED,AL-2022-house-24-R-GSL024RLED,0,1
+2022,house,24,R,11285.0,GSL024RLED,official_consolidated_candidate_results,ALPERSON-GSL024RLED,AL-2022-house-24-R-GSL024RLED,1,1
 2022,house,25,D,7837.0,GSL025DHAG,official_consolidated_candidate_results,ALPERSON-GSL025DHAG,AL-2022-house-25-D-GSL025DHAG,0,0
 2022,house,25,R,10813.0,GSL025RRIG,official_consolidated_candidate_results,ALPERSON-GSL025RRIG,AL-2022-house-25-R-GSL025RRIG,0,1
 2022,house,26,D,1078.0,GSL026DALF,official_consolidated_candidate_results,ALPERSON-GSL026DALF,AL-2022-house-26-D-GSL026DALF,0,0
 2022,house,26,R,8258.0,GSL026RCOL,official_consolidated_candidate_results,ALPERSON-GSL026RCOL,AL-2022-house-26-R-GSL026RCOL,0,1
 2022,house,27,D,1583.0,GSL027DNEU,official_consolidated_candidate_results,ALPERSON-GSL027DNEU,AL-2022-house-27-D-GSL027DNEU,0,0
-2022,house,27,R,13150.0,GSL027RKIT,official_consolidated_candidate_results,ALPERSON-GSL027RKIT,AL-2022-house-27-R-GSL027RKIT,0,1
+2022,house,27,R,13150.0,GSL027RKIT,official_consolidated_candidate_results,ALPERSON-GSL027RKIT,AL-2022-house-27-R-GSL027RKIT,1,1
 2022,house,28,R,6566.0,GSL028RBUT,official_consolidated_candidate_results,ALPERSON-GSL028RBUT,AL-2022-house-28-R-GSL028RBUT,0,1
 2022,house,29,R,12612.0,GSL029RGID,official_consolidated_candidate_results,ALPERSON-GSL029RGID,AL-2022-house-29-R-GSL029RGID,0,1
-2022,house,30,R,12325.0,GSL030RLIP,official_consolidated_candidate_results,ALPERSON-GSL030RLIP,AL-2022-house-30-R-GSL030RLIP,0,1
+2022,house,30,R,12325.0,GSL030RLIP,official_consolidated_candidate_results,ALPERSON-GSL030RLIP,AL-2022-house-30-R-GSL030RLIP,1,1
 2022,house,31,R,11418.0,GSL031RSTU,official_consolidated_candidate_results,ALPERSON-GSL031RSTU,AL-2022-house-31-R-GSL031RSTU,0,1
-2022,house,32,D,5519.0,GSL032DBOY,official_consolidated_candidate_results,ALPERSON-GSL032DBOY,AL-2022-house-32-D-GSL032DBOY,0,1
-2022,house,32,R,4389.0,GSL032RJAC,official_consolidated_candidate_results,ALPERSON-GSL032RJAC,AL-2022-house-32-R-GSL032RJAC,0,0
+2022,house,32,D,5522.0,GSL032DBOY,official_consolidated_candidate_results,ALPERSON-GSL032DBOY,AL-2022-house-32-D-GSL032DBOY,1,1
+2022,house,32,R,4390.0,GSL032RJAC,official_consolidated_candidate_results,ALPERSON-GSL032RJAC,AL-2022-house-32-R-GSL032RJAC,0,0
 2022,house,33,D,3571.0,GSL033DCRU,official_consolidated_candidate_results,ALPERSON-GSL033DCRU,AL-2022-house-33-D-GSL033DCRU,0,0
-2022,house,33,R,9534.0,GSL033RROB,official_consolidated_candidate_results,ALPERSON-GSL033RROB,AL-2022-house-33-R-GSL033RROB,0,1
-2022,house,34,R,12222.0,GSL034RSTA,official_consolidated_candidate_results,ALPERSON-GSL034RSTA,AL-2022-house-34-R-GSL034RSTA,0,1
-2022,house,35,R,10880.0,GSL035RHUR,official_consolidated_candidate_results,ALPERSON-GSL035RHUR,AL-2022-house-35-R-GSL035RHUR,0,1
-2022,house,36,R,12449.0,GSL036RWOO,official_consolidated_candidate_results,ALPERSON-GSL036RWOO,AL-2022-house-36-R-GSL036RWOO,0,1
-2022,house,37,R,11937.0,GSL037RFIN,official_consolidated_candidate_results,ALPERSON-GSL037RFIN,AL-2022-house-37-R-GSL037RFIN,0,1
-2022,house,38,R,9162.0,GSL038RWOO,official_consolidated_candidate_results,ALPERSON-GSL038RWOO,AL-2022-house-38-R-GSL038RWOO,0,1
-2022,house,39,R,11224.0,GSL039RSHA,official_consolidated_candidate_results,ALPERSON-GSL039RSHA,AL-2022-house-39-R-GSL039RSHA,0,1
+2022,house,33,R,9534.0,GSL033RROB,official_consolidated_candidate_results,ALPERSON-GSL033RROB,AL-2022-house-33-R-GSL033RROB,1,1
+2022,house,34,R,12222.0,GSL034RSTA,official_consolidated_candidate_results,ALPERSON-GSL034RSTA,AL-2022-house-34-R-GSL034RSTA,1,1
+2022,house,35,R,10880.0,GSL035RHUR,official_consolidated_candidate_results,ALPERSON-GSL035RHUR,AL-2022-house-35-R-GSL035RHUR,1,1
+2022,house,36,R,12449.0,GSL036RWOO,official_consolidated_candidate_results,ALPERSON-GSL036RWOO,AL-2022-house-36-R-GSL036RWOO,1,1
+2022,house,37,R,11937.0,GSL037RFIN,official_consolidated_candidate_results,ALPERSON-GSL037RFIN,AL-2022-house-37-R-GSL037RFIN,1,1
+2022,house,38,R,9162.0,GSL038RWOO,official_consolidated_candidate_results,ALPERSON-GSL038RWOO,AL-2022-house-38-R-GSL038RWOO,1,1
+2022,house,39,R,11224.0,GSL039RSHA,official_consolidated_candidate_results,ALPERSON-GSL039RSHA,AL-2022-house-39-R-GSL039RSHA,1,1
 2022,house,40,D,2221.0,GSL040DHOW,official_consolidated_candidate_results,ALPERSON-GSL040DHOW,AL-2022-house-40-D-GSL040DHOW,0,0
 2022,house,40,R,10772.0,GSL040RROB,official_consolidated_candidate_results,ALPERSON-GSL040RROB,AL-2022-house-40-R-GSL040RROB,0,1
 2022,house,41,D,3203.0,GSL041DNEL,official_consolidated_candidate_results,ALPERSON-GSL041DNEL,AL-2022-house-41-D-GSL041DNEL,0,0
-2022,house,41,R,10897.0,GSL041RELL,official_consolidated_candidate_results,ALPERSON-GSL041RELL,AL-2022-house-41-R-GSL041RELL,0,1
+2022,house,41,R,10897.0,GSL041RELL,official_consolidated_candidate_results,ALPERSON-GSL041RELL,AL-2022-house-41-R-GSL041RELL,1,1
 2022,house,42,R,12336.0,GSL042RSMI,official_consolidated_candidate_results,ALPERSON-GSL042RSMI,AL-2022-house-42-R-GSL042RSMI,0,1
 2022,house,43,D,3760.0,GSL043DCLE,official_consolidated_candidate_results,ALPERSON-GSL043DCLE,AL-2022-house-43-D-GSL043DCLE,0,0
-2022,house,43,R,12751.0,GSL043RMOO,official_consolidated_candidate_results,ALPERSON-GSL043RMOO,AL-2022-house-43-R-GSL043RMOO,0,1
-2022,house,44,R,11396.0,GSL044RGAR,official_consolidated_candidate_results,ALPERSON-GSL044RGAR,AL-2022-house-44-R-GSL044RGAR,0,1
+2022,house,43,R,12751.0,GSL043RMOO,official_consolidated_candidate_results,ALPERSON-GSL043RMOO,AL-2022-house-43-R-GSL043RMOO,1,1
+2022,house,44,R,11396.0,GSL044RGAR,official_consolidated_candidate_results,ALPERSON-GSL044RGAR,AL-2022-house-44-R-GSL044RGAR,1,1
 2022,house,45,R,12060.0,GSL045RDUB,official_consolidated_candidate_results,ALPERSON-GSL045RDUB,AL-2022-house-45-R-GSL045RDUB,0,1
-2022,house,46,R,12656.0,GSL046RFAU,official_consolidated_candidate_results,ALPERSON-GSL046RFAU,AL-2022-house-46-R-GSL046RFAU,0,1
+2022,house,46,R,12656.0,GSL046RFAU,official_consolidated_candidate_results,ALPERSON-GSL046RFAU,AL-2022-house-46-R-GSL046RFAU,1,1
 2022,house,47,D,4816.0,GSL047DCOL,official_consolidated_candidate_results,ALPERSON-GSL047DCOL,AL-2022-house-47-D-GSL047DCOL,0,0
 2022,house,47,R,8590.0,GSL047RSHA,official_consolidated_candidate_results,ALPERSON-GSL047RSHA,AL-2022-house-47-R-GSL047RSHA,0,1
-2022,house,48,R,12518.0,GSL048RCAR,official_consolidated_candidate_results,ALPERSON-GSL048RCAR,AL-2022-house-48-R-GSL048RCAR,0,1
-2022,house,49,R,10604.0,GSL049RBED,official_consolidated_candidate_results,ALPERSON-GSL049RBED,AL-2022-house-49-R-GSL049RBED,0,1
-2022,house,50,R,12720.0,GSL050RHIL,official_consolidated_candidate_results,ALPERSON-GSL050RHIL,AL-2022-house-50-R-GSL050RHIL,0,1
-2022,house,51,R,14025.0,GSL051RTRE,official_consolidated_candidate_results,ALPERSON-GSL051RTRE,AL-2022-house-51-R-GSL051RTRE,0,1
-2022,house,52,D,10229.0,GSL052DROG,official_consolidated_candidate_results,ALPERSON-GSL052DROG,AL-2022-house-52-D-GSL052DROG,0,1
-2022,house,53,D,5748.0,GSL053DDAN,official_consolidated_candidate_results,ALPERSON-GSL053DDAN,AL-2022-house-53-D-GSL053DDAN,0,1
-2022,house,54,D,9798.0,GSL054DRAF,official_consolidated_candidate_results,ALPERSON-GSL054DRAF,AL-2022-house-54-D-GSL054DRAF,0,1
+2022,house,48,R,12518.0,GSL048RCAR,official_consolidated_candidate_results,ALPERSON-GSL048RCAR,AL-2022-house-48-R-GSL048RCAR,1,1
+2022,house,49,R,10604.0,GSL049RBED,official_consolidated_candidate_results,ALPERSON-GSL049RBED,AL-2022-house-49-R-GSL049RBED,1,1
+2022,house,50,R,12720.0,GSL050RHIL,official_consolidated_candidate_results,ALPERSON-GSL050RHIL,AL-2022-house-50-R-GSL050RHIL,1,1
+2022,house,51,R,14025.0,GSL051RTRE,official_consolidated_candidate_results,ALPERSON-GSL051RTRE,AL-2022-house-51-R-GSL051RTRE,1,1
+2022,house,52,D,10229.0,GSL052DROG,official_consolidated_candidate_results,ALPERSON-GSL052DROG,AL-2022-house-52-D-GSL052DROG,1,1
+2022,house,53,D,5748.0,GSL053DDAN,official_consolidated_candidate_results,ALPERSON-GSL053DDAN,AL-2022-house-53-D-GSL053DDAN,1,1
+2022,house,54,D,9798.0,GSL054DRAF,official_consolidated_candidate_results,ALPERSON-GSL054DRAF,AL-2022-house-54-D-GSL054DRAF,1,1
 2022,house,55,D,10018.0,GSL055DPLU,official_consolidated_candidate_results,ALPERSON-GSL055DPLU,AL-2022-house-55-D-GSL055DPLU,0,1
-2022,house,56,D,8986.0,GSL056DTIL,official_consolidated_candidate_results,ALPERSON-GSL056DTIL,AL-2022-house-56-D-GSL056DTIL,0,1
+2022,house,56,D,9008.0,GSL056DTIL,official_consolidated_candidate_results,ALPERSON-GSL056DTIL,AL-2022-house-56-D-GSL056DTIL,0,1
 2022,house,57,D,9221.0,GSL057DSEL,official_consolidated_candidate_results,ALPERSON-GSL057DSEL,AL-2022-house-57-D-GSL057DSEL,0,1
 2022,house,57,R,4752.0,GSL057RBAU,official_consolidated_candidate_results,ALPERSON-GSL057RBAU,AL-2022-house-57-R-GSL057RBAU,0,0
-2022,house,58,D,8385.0,GSL058DHOL,official_consolidated_candidate_results,ALPERSON-GSL058DHOL,AL-2022-house-58-D-GSL058DHOL,0,1
-2022,house,59,D,8859.0,GSL059DMOO,official_consolidated_candidate_results,ALPERSON-GSL059DMOO,AL-2022-house-59-D-GSL059DMOO,0,1
-2022,house,60,D,9872.0,GSL060DGIV,official_consolidated_candidate_results,ALPERSON-GSL060DGIV,AL-2022-house-60-D-GSL060DGIV,0,1
+2022,house,58,D,8385.0,GSL058DHOL,official_consolidated_candidate_results,ALPERSON-GSL058DHOL,AL-2022-house-58-D-GSL058DHOL,1,1
+2022,house,59,D,8859.0,GSL059DMOO,official_consolidated_candidate_results,ALPERSON-GSL059DMOO,AL-2022-house-59-D-GSL059DMOO,1,1
+2022,house,60,D,9872.0,GSL060DGIV,official_consolidated_candidate_results,ALPERSON-GSL060DGIV,AL-2022-house-60-D-GSL060DGIV,1,1
 2022,house,61,R,10546.0,GSL061RBOL,official_consolidated_candidate_results,ALPERSON-GSL061RBOL,AL-2022-house-61-R-GSL061RBOL,0,1
 2022,house,62,D,3094.0,GSL062DCEP,official_consolidated_candidate_results,ALPERSON-GSL062DCEP,AL-2022-house-62-D-GSL062DCEP,0,0
 2022,house,62,R,8803.0,GSL062RLAM,official_consolidated_candidate_results,ALPERSON-GSL062RLAM,AL-2022-house-62-R-GSL062RLAM,0,1
 2022,house,63,D,2827.0,GSL063DADA,official_consolidated_candidate_results,ALPERSON-GSL063DADA,AL-2022-house-63-D-GSL063DADA,0,0
-2022,house,63,R,5541.0,GSL063RALM,official_consolidated_candidate_results,ALPERSON-GSL063RALM,AL-2022-house-63-R-GSL063RALM,0,1
+2022,house,63,R,5541.0,GSL063RALM,official_consolidated_candidate_results,ALPERSON-GSL063RALM,AL-2022-house-63-R-GSL063RALM,1,1
 2022,house,64,R,11041.0,GSL064RGIV,official_consolidated_candidate_results,ALPERSON-GSL064RGIV,AL-2022-house-64-R-GSL064RGIV,0,1
 2022,house,65,D,4759.0,GSL065DCAS,official_consolidated_candidate_results,ALPERSON-GSL065DCAS,AL-2022-house-65-D-GSL065DCAS,0,0
-2022,house,65,R,12693.0,GSL065REAS,official_consolidated_candidate_results,ALPERSON-GSL065REAS,AL-2022-house-65-R-GSL065REAS,0,1
-2022,house,66,R,12042.0,GSL066RBAK,official_consolidated_candidate_results,ALPERSON-GSL066RBAK,AL-2022-house-66-R-GSL066RBAK,0,1
-2022,house,67,D,10335.0,GSL067DCHE,official_consolidated_candidate_results,ALPERSON-GSL067DCHE,AL-2022-house-67-D-GSL067DCHE,0,1
-2022,house,68,D,9517.0,GSL068DJAC,official_consolidated_candidate_results,ALPERSON-GSL068DJAC,AL-2022-house-68-D-GSL068DJAC,0,1
-2022,house,68,R,8948.0,GSL068RKEL,official_consolidated_candidate_results,ALPERSON-GSL068RKEL,AL-2022-house-68-R-GSL068RKEL,0,0
-2022,house,69,D,8769.0,GSL069DLAW,official_consolidated_candidate_results,ALPERSON-GSL069DLAW,AL-2022-house-69-D-GSL069DLAW,0,1
+2022,house,65,R,12693.0,GSL065REAS,official_consolidated_candidate_results,ALPERSON-GSL065REAS,AL-2022-house-65-R-GSL065REAS,1,1
+2022,house,66,R,12042.0,GSL066RBAK,official_consolidated_candidate_results,ALPERSON-GSL066RBAK,AL-2022-house-66-R-GSL066RBAK,1,1
+2022,house,67,D,10335.0,GSL067DCHE,official_consolidated_candidate_results,ALPERSON-GSL067DCHE,AL-2022-house-67-D-GSL067DCHE,1,1
+2022,house,68,D,9537.0,GSL068DJAC,official_consolidated_candidate_results,ALPERSON-GSL068DJAC,AL-2022-house-68-D-GSL068DJAC,1,1
+2022,house,68,R,8981.0,GSL068RKEL,official_consolidated_candidate_results,ALPERSON-GSL068RKEL,AL-2022-house-68-R-GSL068RKEL,0,0
+2022,house,69,D,8769.0,GSL069DLAW,official_consolidated_candidate_results,ALPERSON-GSL069DLAW,AL-2022-house-69-D-GSL069DLAW,1,1
 2022,house,69,R,7103.0,GSL069RMAD,official_consolidated_candidate_results,ALPERSON-GSL069RMAD,AL-2022-house-69-R-GSL069RMAD,0,0
-2022,house,70,D,6245.0,GSL070DENG,official_consolidated_candidate_results,ALPERSON-GSL070DENG,AL-2022-house-70-D-GSL070DENG,0,1
-2022,house,71,D,9126.0,GSL071DMCC,official_consolidated_candidate_results,ALPERSON-GSL071DMCC,AL-2022-house-71-D-GSL071DMCC,0,1
+2022,house,70,D,6245.0,GSL070DENG,official_consolidated_candidate_results,ALPERSON-GSL070DENG,AL-2022-house-70-D-GSL070DENG,1,1
+2022,house,71,D,9126.0,GSL071DMCC,official_consolidated_candidate_results,ALPERSON-GSL071DMCC,AL-2022-house-71-D-GSL071DMCC,1,1
 2022,house,72,D,8128.0,GSL072DTRA,official_consolidated_candidate_results,ALPERSON-GSL072DTRA,AL-2022-house-72-D-GSL072DTRA,0,1
-2022,house,73,R,10343.0,GSL073RPAS,official_consolidated_candidate_results,ALPERSON-GSL073RPAS,AL-2022-house-73-R-GSL073RPAS,0,1
+2022,house,73,R,10404.0,GSL073RPAS,official_consolidated_candidate_results,ALPERSON-GSL073RPAS,AL-2022-house-73-R-GSL073RPAS,0,1
 2022,house,74,D,7538.0,GSL074DENS,official_consolidated_candidate_results,ALPERSON-GSL074DENS,AL-2022-house-74-D-GSL074DENS,0,1
 2022,house,74,R,4986.0,GSL074RMEA,official_consolidated_candidate_results,ALPERSON-GSL074RMEA,AL-2022-house-74-R-GSL074RMEA,0,0
-2022,house,75,R,11688.0,GSL075RING,official_consolidated_candidate_results,ALPERSON-GSL075RING,AL-2022-house-75-R-GSL075RING,0,1
-2022,house,76,D,8312.0,GSL076DMCC,official_consolidated_candidate_results,ALPERSON-GSL076DMCC,AL-2022-house-76-D-GSL076DMCC,0,1
-2022,house,77,D,7062.0,GSL077DMOR,official_consolidated_candidate_results,ALPERSON-GSL077DMOR,AL-2022-house-77-D-GSL077DMOR,0,1
+2022,house,75,R,11690.0,GSL075RING,official_consolidated_candidate_results,ALPERSON-GSL075RING,AL-2022-house-75-R-GSL075RING,1,1
+2022,house,76,D,8312.0,GSL076DMCC,official_consolidated_candidate_results,ALPERSON-GSL076DMCC,AL-2022-house-76-D-GSL076DMCC,1,1
+2022,house,77,D,7062.0,GSL077DMOR,official_consolidated_candidate_results,ALPERSON-GSL077DMOR,AL-2022-house-77-D-GSL077DMOR,1,1
 2022,house,78,D,6991.0,GSL078DHAS,official_consolidated_candidate_results,ALPERSON-GSL078DHAS,AL-2022-house-78-D-GSL078DHAS,0,1
-2022,house,79,R,7690.0,GSL079RLOV,official_consolidated_candidate_results,ALPERSON-GSL079RLOV,AL-2022-house-79-R-GSL079RLOV,0,1
-2022,house,80,R,8113.0,GSL080RBLA,official_consolidated_candidate_results,ALPERSON-GSL080RBLA,AL-2022-house-80-R-GSL080RBLA,0,1
-2022,house,81,R,12116.0,GSL081ROLI,official_consolidated_candidate_results,ALPERSON-GSL081ROLI,AL-2022-house-81-R-GSL081ROLI,0,1
-2022,house,82,D,6257.0,GSL082DWAR,official_consolidated_candidate_results,ALPERSON-GSL082DWAR,AL-2022-house-82-D-GSL082DWAR,0,1
+2022,house,79,R,7690.0,GSL079RLOV,official_consolidated_candidate_results,ALPERSON-GSL079RLOV,AL-2022-house-79-R-GSL079RLOV,1,1
+2022,house,80,R,8113.0,GSL080RBLA,official_consolidated_candidate_results,ALPERSON-GSL080RBLA,AL-2022-house-80-R-GSL080RBLA,1,1
+2022,house,81,R,12116.0,GSL081ROLI,official_consolidated_candidate_results,ALPERSON-GSL081ROLI,AL-2022-house-81-R-GSL081ROLI,1,1
+2022,house,82,D,6257.0,GSL082DWAR,official_consolidated_candidate_results,ALPERSON-GSL082DWAR,AL-2022-house-82-D-GSL082DWAR,1,1
 2022,house,82,R,2526.0,GSL082RPIE,official_consolidated_candidate_results,ALPERSON-GSL082RPIE,AL-2022-house-82-R-GSL082RPIE,0,0
-2022,house,83,D,6540.0,GSL083DGRA,official_consolidated_candidate_results,ALPERSON-GSL083DGRA,AL-2022-house-83-D-GSL083DGRA,0,1
-2022,house,84,D,7463.0,GSL084DFOR,official_consolidated_candidate_results,ALPERSON-GSL084DFOR,AL-2022-house-84-D-GSL084DFOR,0,1
-2022,house,85,D,5668.0,GSL085DGRI,official_consolidated_candidate_results,ALPERSON-GSL085DGRI,AL-2022-house-85-D-GSL085DGRI,0,0
+2022,house,83,D,6540.0,GSL083DGRA,official_consolidated_candidate_results,ALPERSON-GSL083DGRA,AL-2022-house-83-D-GSL083DGRA,1,1
+2022,house,84,D,7463.0,GSL084DFOR,official_consolidated_candidate_results,ALPERSON-GSL084DFOR,AL-2022-house-84-D-GSL084DFOR,1,1
+2022,house,85,D,5668.0,GSL085DGRI,official_consolidated_candidate_results,ALPERSON-GSL085DGRI,AL-2022-house-85-D-GSL085DGRI,1,0
 2022,house,85,R,6665.0,GSL085RREH,official_consolidated_candidate_results,ALPERSON-GSL085RREH,AL-2022-house-85-R-GSL085RREH,0,1
-2022,house,86,R,10697.0,GSL086RLEE,official_consolidated_candidate_results,ALPERSON-GSL086RLEE,AL-2022-house-86-R-GSL086RLEE,0,1
-2022,house,87,R,12957.0,GSL087RSOR,official_consolidated_candidate_results,ALPERSON-GSL087RSOR,AL-2022-house-87-R-GSL087RSOR,0,1
+2022,house,86,R,10697.0,GSL086RLEE,official_consolidated_candidate_results,ALPERSON-GSL086RLEE,AL-2022-house-86-R-GSL086RLEE,1,1
+2022,house,87,R,12957.0,GSL087RSOR,official_consolidated_candidate_results,ALPERSON-GSL087RSOR,AL-2022-house-87-R-GSL087RSOR,1,1
 2022,house,88,R,10020.0,GSL088RSTA,official_consolidated_candidate_results,ALPERSON-GSL088RSTA,AL-2022-house-88-R-GSL088RSTA,0,1
 2022,house,89,R,7855.0,GSL089RPAR,official_consolidated_candidate_results,ALPERSON-GSL089RPAR,AL-2022-house-89-R-GSL089RPAR,0,1
-2022,house,90,R,11567.0,GSL090RSEL,official_consolidated_candidate_results,ALPERSON-GSL090RSEL,AL-2022-house-90-R-GSL090RSEL,0,1
-2022,house,91,R,9794.0,GSL091RMAR,official_consolidated_candidate_results,ALPERSON-GSL091RMAR,AL-2022-house-91-R-GSL091RMAR,0,1
-2022,house,92,D,1789.0,GSL092DHUB,official_consolidated_candidate_results,ALPERSON-GSL092DHUB,AL-2022-house-92-D-GSL092DHUB,0,0
-2022,house,92,R,11778.0,GSL092RHAM,official_consolidated_candidate_results,ALPERSON-GSL092RHAM,AL-2022-house-92-R-GSL092RHAM,0,1
-2022,house,93,R,10333.0,GSL093RCLO,official_consolidated_candidate_results,ALPERSON-GSL093RCLO,AL-2022-house-93-R-GSL093RCLO,0,1
+2022,house,90,R,11567.0,GSL090RSEL,official_consolidated_candidate_results,ALPERSON-GSL090RSEL,AL-2022-house-90-R-GSL090RSEL,1,1
+2022,house,91,R,9794.0,GSL091RMAR,official_consolidated_candidate_results,ALPERSON-GSL091RMAR,AL-2022-house-91-R-GSL091RMAR,1,1
+2022,house,92,D,1795.0,GSL092DHUB,official_consolidated_candidate_results,ALPERSON-GSL092DHUB,AL-2022-house-92-D-GSL092DHUB,0,0
+2022,house,92,R,11812.0,GSL092RHAM,official_consolidated_candidate_results,ALPERSON-GSL092RHAM,AL-2022-house-92-R-GSL092RHAM,0,1
+2022,house,93,R,10333.0,GSL093RCLO,official_consolidated_candidate_results,ALPERSON-GSL093RCLO,AL-2022-house-93-R-GSL093RCLO,1,1
 2022,house,94,R,14207.0,GSL094RFID,official_consolidated_candidate_results,ALPERSON-GSL094RFID,AL-2022-house-94-R-GSL094RFID,0,1
 2022,house,95,D,2465.0,GSL095DBRA,official_consolidated_candidate_results,ALPERSON-GSL095DBRA,AL-2022-house-95-D-GSL095DBRA,0,0
 2022,house,95,R,14242.0,GSL095RHOL,official_consolidated_candidate_results,ALPERSON-GSL095RHOL,AL-2022-house-95-R-GSL095RHOL,0,1
-2022,house,96,R,11990.0,GSL096RSIM,official_consolidated_candidate_results,ALPERSON-GSL096RSIM,AL-2022-house-96-R-GSL096RSIM,0,1
-2022,house,97,D,7337.0,GSL097DCLA,official_consolidated_candidate_results,ALPERSON-GSL097DCLA,AL-2022-house-97-D-GSL097DCLA,0,1
-2022,house,98,D,7655.0,GSL098DBRA,official_consolidated_candidate_results,ALPERSON-GSL098DBRA,AL-2022-house-98-D-GSL098DBRA,0,1
-2022,house,99,D,8252.0,GSL099DJON,official_consolidated_candidate_results,ALPERSON-GSL099DJON,AL-2022-house-99-D-GSL099DJON,0,1
+2022,house,96,R,11990.0,GSL096RSIM,official_consolidated_candidate_results,ALPERSON-GSL096RSIM,AL-2022-house-96-R-GSL096RSIM,1,1
+2022,house,97,D,7337.0,GSL097DCLA,official_consolidated_candidate_results,ALPERSON-GSL097DCLA,AL-2022-house-97-D-GSL097DCLA,1,1
+2022,house,98,D,7655.0,GSL098DBRA,official_consolidated_candidate_results,ALPERSON-GSL098DBRA,AL-2022-house-98-D-GSL098DBRA,1,1
+2022,house,99,D,8252.0,GSL099DJON,official_consolidated_candidate_results,ALPERSON-GSL099DJON,AL-2022-house-99-D-GSL099DJON,1,1
 2022,house,100,R,9781.0,GSL100RSHI,official_consolidated_candidate_results,ALPERSON-GSL100RSHI,AL-2022-house-100-R-GSL100RSHI,0,1
-2022,house,101,R,8968.0,GSL101RPRI,official_consolidated_candidate_results,ALPERSON-GSL101RPRI,AL-2022-house-101-R-GSL101RPRI,0,1
-2022,house,102,R,10472.0,GSL102RSTR,official_consolidated_candidate_results,ALPERSON-GSL102RSTR,AL-2022-house-102-R-GSL102RSTR,0,1
-2022,house,103,D,6015.0,GSL103DDRU,official_consolidated_candidate_results,ALPERSON-GSL103DDRU,AL-2022-house-103-D-GSL103DDRU,0,1
-2022,house,104,R,8871.0,GSL104RWIL,official_consolidated_candidate_results,ALPERSON-GSL104RWIL,AL-2022-house-104-R-GSL104RWIL,0,1
-2022,house,105,R,10554.0,GSL105RBRO,official_consolidated_candidate_results,ALPERSON-GSL105RBRO,AL-2022-house-105-R-GSL105RBRO,0,1
-2022,senate,1,R,35480.0,GSU01RMEL,official_consolidated_candidate_results,ALPERSON-GSU01RMEL,AL-2022-senate-1-R-GSU01RMEL,0,1
+2022,house,101,R,8968.0,GSL101RPRI,official_consolidated_candidate_results,ALPERSON-GSL101RPRI,AL-2022-house-101-R-GSL101RPRI,1,1
+2022,house,102,R,10472.0,GSL102RSTR,official_consolidated_candidate_results,ALPERSON-GSL102RSTR,AL-2022-house-102-R-GSL102RSTR,1,1
+2022,house,103,D,6015.0,GSL103DDRU,official_consolidated_candidate_results,ALPERSON-GSL103DDRU,AL-2022-house-103-D-GSL103DDRU,1,1
+2022,house,104,R,8871.0,GSL104RWIL,official_consolidated_candidate_results,ALPERSON-GSL104RWIL,AL-2022-house-104-R-GSL104RWIL,1,1
+2022,house,105,R,10554.0,GSL105RBRO,official_consolidated_candidate_results,ALPERSON-GSL105RBRO,AL-2022-house-105-R-GSL105RBRO,1,1
+2022,senate,1,R,35480.0,GSU01RMEL,official_consolidated_candidate_results,ALPERSON-GSU01RMEL,AL-2022-senate-1-R-GSU01RMEL,1,1
 2022,senate,2,D,20749.0,GSU02DLEW,official_consolidated_candidate_results,ALPERSON-GSU02DLEW,AL-2022-senate-2-D-GSU02DLEW,0,0
-2022,senate,2,R,25951.0,GSU02RBUT,official_consolidated_candidate_results,ALPERSON-GSU02RBUT,AL-2022-senate-2-R-GSU02RBUT,0,1
-2022,senate,3,R,30578.0,GSU03RORR,official_consolidated_candidate_results,ALPERSON-GSU03RORR,AL-2022-senate-3-R-GSU03RORR,0,1
-2022,senate,4,R,38265.0,GSU04RGUD,official_consolidated_candidate_results,ALPERSON-GSU04RGUD,AL-2022-senate-4-R-GSU04RGUD,0,1
-2022,senate,5,R,36159.0,GSU05RREE,official_consolidated_candidate_results,ALPERSON-GSU05RREE,AL-2022-senate-5-R-GSU05RREE,0,1
-2022,senate,6,R,30883.0,GSU06RSTU,official_consolidated_candidate_results,ALPERSON-GSU06RSTU,AL-2022-senate-6-R-GSU06RSTU,0,1
+2022,senate,2,R,25951.0,GSU02RBUT,official_consolidated_candidate_results,ALPERSON-GSU02RBUT,AL-2022-senate-2-R-GSU02RBUT,1,1
+2022,senate,3,R,30578.0,GSU03RORR,official_consolidated_candidate_results,ALPERSON-GSU03RORR,AL-2022-senate-3-R-GSU03RORR,1,1
+2022,senate,4,R,38265.0,GSU04RGUD,official_consolidated_candidate_results,ALPERSON-GSU04RGUD,AL-2022-senate-4-R-GSU04RGUD,1,1
+2022,senate,5,R,36159.0,GSU05RREE,official_consolidated_candidate_results,ALPERSON-GSU05RREE,AL-2022-senate-5-R-GSU05RREE,1,1
+2022,senate,6,R,30883.0,GSU06RSTU,official_consolidated_candidate_results,ALPERSON-GSU06RSTU,AL-2022-senate-6-R-GSU06RSTU,1,1
 2022,senate,7,D,17295.0,GSU07DWIL,official_consolidated_candidate_results,ALPERSON-GSU07DWIL,AL-2022-senate-7-D-GSU07DWIL,0,0
-2022,senate,7,R,29095.0,GSU07RGIV,official_consolidated_candidate_results,ALPERSON-GSU07RGIV,AL-2022-senate-7-R-GSU07RGIV,0,1
-2022,senate,8,R,33758.0,GSU08RLIV,official_consolidated_candidate_results,ALPERSON-GSU08RLIV,AL-2022-senate-8-R-GSU08RLIV,0,1
-2022,senate,9,R,32709.0,GSU09RSCO,official_consolidated_candidate_results,ALPERSON-GSU09RSCO,AL-2022-senate-9-R-GSU09RSCO,0,1
-2022,senate,10,R,32153.0,GSU10RJON,official_consolidated_candidate_results,ALPERSON-GSU10RJON,AL-2022-senate-10-R-GSU10RJON,0,1
+2022,senate,7,R,29095.0,GSU07RGIV,official_consolidated_candidate_results,ALPERSON-GSU07RGIV,AL-2022-senate-7-R-GSU07RGIV,1,1
+2022,senate,8,R,33758.0,GSU08RLIV,official_consolidated_candidate_results,ALPERSON-GSU08RLIV,AL-2022-senate-8-R-GSU08RLIV,1,1
+2022,senate,9,R,32709.0,GSU09RSCO,official_consolidated_candidate_results,ALPERSON-GSU09RSCO,AL-2022-senate-9-R-GSU09RSCO,1,1
+2022,senate,10,R,32153.0,GSU10RJON,official_consolidated_candidate_results,ALPERSON-GSU10RJON,AL-2022-senate-10-R-GSU10RJON,1,1
 2022,senate,11,R,33505.0,GSU11RBEL,official_consolidated_candidate_results,ALPERSON-GSU11RBEL,AL-2022-senate-11-R-GSU11RBEL,0,1
 2022,senate,12,D,10271.0,GSU12DMCC,official_consolidated_candidate_results,ALPERSON-GSU12DMCC,AL-2022-senate-12-D-GSU12DMCC,0,0
 2022,senate,12,R,28786.0,GSU12RKEL,official_consolidated_candidate_results,ALPERSON-GSU12RKEL,AL-2022-senate-12-R-GSU12RKEL,0,1
-2022,senate,13,R,31759.0,GSU13RPRI,official_consolidated_candidate_results,ALPERSON-GSU13RPRI,AL-2022-senate-13-R-GSU13RPRI,0,1
-2022,senate,14,R,31917.0,GSU14RWEA,official_consolidated_candidate_results,ALPERSON-GSU14RWEA,AL-2022-senate-14-R-GSU14RWEA,0,1
-2022,senate,15,R,35704.0,GSU15RROB,official_consolidated_candidate_results,ALPERSON-GSU15RROB,AL-2022-senate-15-R-GSU15RROB,0,1
-2022,senate,16,R,33719.0,GSU16RWAG,official_consolidated_candidate_results,ALPERSON-GSU16RWAG,AL-2022-senate-16-R-GSU16RWAG,0,1
-2022,senate,17,R,38137.0,GSU17RSHE,official_consolidated_candidate_results,ALPERSON-GSU17RSHE,AL-2022-senate-17-R-GSU17RSHE,0,1
-2022,senate,18,D,28642.0,GSU18DSMI,official_consolidated_candidate_results,ALPERSON-GSU18DSMI,AL-2022-senate-18-D-GSU18DSMI,0,1
+2022,senate,13,R,31759.0,GSU13RPRI,official_consolidated_candidate_results,ALPERSON-GSU13RPRI,AL-2022-senate-13-R-GSU13RPRI,1,1
+2022,senate,14,R,31917.0,GSU14RWEA,official_consolidated_candidate_results,ALPERSON-GSU14RWEA,AL-2022-senate-14-R-GSU14RWEA,1,1
+2022,senate,15,R,35704.0,GSU15RROB,official_consolidated_candidate_results,ALPERSON-GSU15RROB,AL-2022-senate-15-R-GSU15RROB,1,1
+2022,senate,16,R,33719.0,GSU16RWAG,official_consolidated_candidate_results,ALPERSON-GSU16RWAG,AL-2022-senate-16-R-GSU16RWAG,1,1
+2022,senate,17,R,38137.0,GSU17RSHE,official_consolidated_candidate_results,ALPERSON-GSU17RSHE,AL-2022-senate-17-R-GSU17RSHE,1,1
+2022,senate,18,D,28642.0,GSU18DSMI,official_consolidated_candidate_results,ALPERSON-GSU18DSMI,AL-2022-senate-18-D-GSU18DSMI,1,1
 2022,senate,19,D,26369.0,GSU19DCOL,official_consolidated_candidate_results,ALPERSON-GSU19DCOL,AL-2022-senate-19-D-GSU19DCOL,0,1
-2022,senate,20,D,27567.0,GSU20DCOL,official_consolidated_candidate_results,ALPERSON-GSU20DCOL,AL-2022-senate-20-D-GSU20DCOL,0,1
+2022,senate,20,D,27567.0,GSU20DCOL,official_consolidated_candidate_results,ALPERSON-GSU20DCOL,AL-2022-senate-20-D-GSU20DCOL,1,1
 2022,senate,21,D,11198.0,GSU21DWAR,official_consolidated_candidate_results,ALPERSON-GSU21DWAR,AL-2022-senate-21-D-GSU21DWAR,0,0
-2022,senate,21,R,21962.0,GSU21RALL,official_consolidated_candidate_results,ALPERSON-GSU21RALL,AL-2022-senate-21-R-GSU21RALL,0,1
-2022,senate,22,R,32880.0,GSU22RALB,official_consolidated_candidate_results,ALPERSON-GSU22RALB,AL-2022-senate-22-R-GSU22RALB,0,1
+2022,senate,21,R,21962.0,GSU21RALL,official_consolidated_candidate_results,ALPERSON-GSU21RALL,AL-2022-senate-21-R-GSU21RALL,1,1
+2022,senate,22,R,32880.0,GSU22RALB,official_consolidated_candidate_results,ALPERSON-GSU22RALB,AL-2022-senate-22-R-GSU22RALB,1,1
 2022,senate,23,D,25953.0,GSU23DSTE,official_consolidated_candidate_results,ALPERSON-GSU23DSTE,AL-2022-senate-23-D-GSU23DSTE,0,1
 2022,senate,23,R,21682.0,GSU23RNIM,official_consolidated_candidate_results,ALPERSON-GSU23RNIM,AL-2022-senate-23-R-GSU23RNIM,0,0
-2022,senate,24,D,25440.0,GSU24DSIN,official_consolidated_candidate_results,ALPERSON-GSU24DSIN,AL-2022-senate-24-D-GSU24DSIN,0,1
-2022,senate,25,R,32640.0,GSU25RBAR,official_consolidated_candidate_results,ALPERSON-GSU25RBAR,AL-2022-senate-25-R-GSU25RBAR,0,1
-2022,senate,26,D,25901.0,GSU26DHAT,official_consolidated_candidate_results,ALPERSON-GSU26DHAT,AL-2022-senate-26-D-GSU26DHAT,0,1
+2022,senate,24,D,25440.0,GSU24DSIN,official_consolidated_candidate_results,ALPERSON-GSU24DSIN,AL-2022-senate-24-D-GSU24DSIN,1,1
+2022,senate,25,R,32640.0,GSU25RBAR,official_consolidated_candidate_results,ALPERSON-GSU25RBAR,AL-2022-senate-25-R-GSU25RBAR,1,1
+2022,senate,26,D,25901.0,GSU26DHAT,official_consolidated_candidate_results,ALPERSON-GSU26DHAT,AL-2022-senate-26-D-GSU26DHAT,1,1
 2022,senate,27,D,10996.0,GSU27DREE,official_consolidated_candidate_results,ALPERSON-GSU27DREE,AL-2022-senate-27-D-GSU27DREE,0,0
 2022,senate,27,R,26014.0,GSU27RHOV,official_consolidated_candidate_results,ALPERSON-GSU27RHOV,AL-2022-senate-27-R-GSU27RHOV,0,1
-2022,senate,28,D,21252.0,GSU28DBEA,official_consolidated_candidate_results,ALPERSON-GSU28DBEA,AL-2022-senate-28-D-GSU28DBEA,0,1
+2022,senate,28,D,21252.0,GSU28DBEA,official_consolidated_candidate_results,ALPERSON-GSU28DBEA,AL-2022-senate-28-D-GSU28DBEA,1,1
 2022,senate,29,D,6476.0,GSU29DMAT,official_consolidated_candidate_results,ALPERSON-GSU29DMAT,AL-2022-senate-29-D-GSU29DMAT,0,0
-2022,senate,29,R,31576.0,GSU29RCHE,official_consolidated_candidate_results,ALPERSON-GSU29RCHE,AL-2022-senate-29-R-GSU29RCHE,0,1
-2022,senate,30,R,29225.0,GSU30RCHA,official_consolidated_candidate_results,ALPERSON-GSU30RCHA,AL-2022-senate-30-R-GSU30RCHA,0,1
+2022,senate,29,R,31576.0,GSU29RCHE,official_consolidated_candidate_results,ALPERSON-GSU29RCHE,AL-2022-senate-29-R-GSU29RCHE,1,1
+2022,senate,30,R,29225.0,GSU30RCHA,official_consolidated_candidate_results,ALPERSON-GSU30RCHA,AL-2022-senate-30-R-GSU30RCHA,1,1
 2022,senate,31,R,30618.0,GSU31RCAR,official_consolidated_candidate_results,ALPERSON-GSU31RCAR,AL-2022-senate-31-R-GSU31RCAR,0,1
-2022,senate,32,R,41073.0,GSU32RELL,official_consolidated_candidate_results,ALPERSON-GSU32RELL,AL-2022-senate-32-R-GSU32RELL,0,1
-2022,senate,33,D,23203.0,GSU33DFIG,official_consolidated_candidate_results,ALPERSON-GSU33DFIG,AL-2022-senate-33-D-GSU33DFIG,0,1
+2022,senate,32,R,41073.0,GSU32RELL,official_consolidated_candidate_results,ALPERSON-GSU32RELL,AL-2022-senate-32-R-GSU32RELL,1,1
+2022,senate,33,D,23203.0,GSU33DFIG,official_consolidated_candidate_results,ALPERSON-GSU33DFIG,AL-2022-senate-33-D-GSU33DFIG,1,1
 2022,senate,33,R,11401.0,GSU33RRIE,official_consolidated_candidate_results,ALPERSON-GSU33RRIE,AL-2022-senate-33-R-GSU33RRIE,0,0
-2022,senate,34,R,27043.0,GSU34RWIL,official_consolidated_candidate_results,ALPERSON-GSU34RWIL,AL-2022-senate-34-R-GSU34RWIL,0,1
-2022,senate,35,R,27133.0,GSU35RSES,official_consolidated_candidate_results,ALPERSON-GSU35RSES,AL-2022-senate-35-R-GSU35RSES,0,1
+2022,senate,34,R,27043.0,GSU34RWIL,official_consolidated_candidate_results,ALPERSON-GSU34RWIL,AL-2022-senate-34-R-GSU34RWIL,1,1
+2022,senate,35,R,27133.0,GSU35RSES,official_consolidated_candidate_results,ALPERSON-GSU35RSES,AL-2022-senate-35-R-GSU35RSES,1,1

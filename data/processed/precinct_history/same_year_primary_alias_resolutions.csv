@@ -1,0 +1,3 @@
+cycle,county_key,precinct_key,primary_precinct_name,donor_vtd_id,donor_name,match_method,confidence,anchor_accuracy,verification_status
+2002,FAYETTE,FAYETTE YOUTH CENTER,FORDS VOTING CENTER FORDS MT_,VTD2000-057-19,Fords,validated_same_year_primary_position,medium,1.0,validated_against_resolved_positional_anchors
+2002,GREENE,MANTUA FIRE DEPARTMENT,LEWISTON COMMUNITY CENTER,VTD2000-063-1-3-4,Lewiston Comm. Center,validated_same_year_primary_position,medium,1.0,validated_against_resolved_positional_anchors

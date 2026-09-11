@@ -1,0 +1,11 @@
+{
+  "policy_key": "social_security_private_investments",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Allow Social Security to invest part of its trust fund in stocks/bonds (not just U.S. Treasuries).",
+  "evidence_quote": "Invest a portion of Social Security's assets collectively in stocks and bonds instead of U.S. Treasury securities.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

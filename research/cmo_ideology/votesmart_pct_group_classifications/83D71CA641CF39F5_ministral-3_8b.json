@@ -1,0 +1,11 @@
+{
+  "policy_key": "national_guard_overseas_use",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "This option does not clearly align with a stable left/right ideological spectrum. It is context-dependent, as the use of National Guard troops overseas depends on specific circumstances (e.g., deployment necessity, political priorities, or military strategy).",
+  "evidence_quote": "Do you support long-term use of National Guard troops to supplement the armed forces in assignments overseas?",
+  "needs_human_review": true,
+  "review_reason": "The ideological leaning would require contextual knowledge of the candidate's broader stance on military policy, defense spending, or foreign engagements."
+}

@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "mandatory_furloughs_and_layoffs_for_state_employees",
+  "plain_english_policy": "Imposing unpaid leave or job cuts on public-sector workers to reduce state spending.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Directly reduces public-sector wages and benefits, constraining welfare delivery capacity."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "private_provision",
+      "strength": "secondary",
+      "rationale": "Indirectly shifts burden of service provision to private (or non-employed) actors by reducing public workforce."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"mandatory furloughs AND/OR layoffs\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "15DAEC62C0852BA5",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Combines a communications privilege with criminal penalties, creating mixed-direction effects rather than one clear allowed criminal-justice pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

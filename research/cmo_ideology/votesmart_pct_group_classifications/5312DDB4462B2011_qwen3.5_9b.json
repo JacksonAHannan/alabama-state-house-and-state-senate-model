@@ -1,0 +1,11 @@
+{
+  "policy_key": "estate_tax_repeal",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supports permanent repeal of the federal estate tax.",
+  "evidence_quote": "Do you support the permanent repeal of the federal estate tax?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

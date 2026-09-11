@@ -1,0 +1,10 @@
+{
+  "id": "B6B6E085465EF44E",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The measure primarily regulates and preserves underwater cultural resources; its incidental criminal penalties do not provide a suitable criminal-justice policy-position signal.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

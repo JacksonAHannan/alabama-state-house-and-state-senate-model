@@ -1,0 +1,10 @@
+{
+  "id": "566FF8D89DEB19DB",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "Establishes an offender-supervision program intended to reduce probation violations, but the description does not clearly identify a single allowed punitive, rehabilitative, or incarceration direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

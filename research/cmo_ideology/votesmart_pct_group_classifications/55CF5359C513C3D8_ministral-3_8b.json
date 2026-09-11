@@ -1,0 +1,11 @@
+{
+  "policy_key": "defense_intelligence_ops",
+  "dimension": "labor_position",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Funding for intelligence operations (e.g., CIA, NSA, DIA) including covert actions, surveillance programs, and foreign intelligence gathering.",
+  "evidence_quote": "*[No clear left/right ideological leaning in this standalone option; funding levels and priorities can vary by administration without a stable partisan bias.]*",
+  "needs_human_review": true,
+  "review_reason": "Intelligence budgets are often framed as nonpartisan or context-dependent (e.g., bipartisan support for counterterrorism after 9/11)."
+}

@@ -1,0 +1,36 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "marriage_promotion_for_welfare_recipients",
+  "plain_english_policy": "Advocate for government-funded or facilitated programs that encourage or incentivize marriage among individuals receiving welfare benefits, with the stated goal of reducing dependency and improving outcomes (e.g., economic stability, child well-being).",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Indirectly restricts welfare access or duration by tying benefits to marital status, which may discourage single-parent households from relying on welfare. The mechanism is not direct eligibility removal but conditional eligibility."
+    },
+    {
+      "axis": "family_support_enforcement",
+      "pole": "lenient_enforcement",
+      "strength": "primary",
+      "rationale": "Promotes marriage as a voluntary pathway to support, implying leniency toward compliance (e.g., no penalties for non-compliance) but with moral/ideological emphasis on marital norms."
+    },
+    {
+      "axis": "childcare_support",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "If marriage programs include childcare components, they may restrict access to subsidies or services for single parents unless they marry. No explicit childcare mechanism is stated here, but implied."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "primary",
+      "rationale": "Government directly funds or administers marriage promotion programs (e.g., counseling, vouchers)."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Support **marriage promotion** programs for welfare recipients\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

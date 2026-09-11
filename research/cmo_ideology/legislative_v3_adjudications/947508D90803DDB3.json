@@ -1,0 +1,10 @@
+{
+  "id": "947508D90803DDB3",
+  "decision": "map",
+  "primitive_axis": "campaign_finance_disclosure",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Requiring persons compensating legislators for consulting services to notify the Ethics Commission strengthens transparency and disclosure in campaign finance.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

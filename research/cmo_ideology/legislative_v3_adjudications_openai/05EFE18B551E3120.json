@@ -1,0 +1,10 @@
+{
+  "id": "05EFE18B551E3120",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Retroactively changes qualifying-project capital-cost amounts for industrial-development grants, making it a technical and administrative measure.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

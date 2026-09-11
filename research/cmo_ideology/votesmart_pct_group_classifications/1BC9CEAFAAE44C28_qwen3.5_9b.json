@@ -1,0 +1,11 @@
+{
+  "policy_key": "edu_university_officer_stock_ban",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option restricts financial conflicts of interest for university officials by banning stock ownership and gifts from student loan lenders.",
+  "evidence_quote": "Ban university financial aid officers from owning stock in or accepting gifts from student loan lenders.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

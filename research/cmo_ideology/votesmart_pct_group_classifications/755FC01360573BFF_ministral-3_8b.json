@@ -1,0 +1,11 @@
+{
+  "policy_key": "increase_pell_grant_funding",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase financial aid for low-income students via Pell Grants.",
+  "evidence_quote": "Increase funding for the Pell Grant program.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

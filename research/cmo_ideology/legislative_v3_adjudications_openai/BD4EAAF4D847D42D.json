@@ -1,0 +1,10 @@
+{
+  "id": "BD4EAAF4D847D42D",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Changes the composition of an industrial development authority without establishing a clear market-governance policy direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "tax_charitable_deductions",
+  "dimension": "indeterminate",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Whether to allow or expand tax deductions for charitable contributions (e.g., itemized write-offs).",
+  "evidence_quote": "*[No explicit position provided in the given option text]*",
+  "needs_human_review": true,
+  "review_reason": "The option only lists 'charitable contributions' as a category without specifying whether to *increase*, *maintain*, or *reduce* deductions/credits for it. This is purely procedural (e.g., 'Do you support this tax line item?') and lacks a clear left/right stance."
+}

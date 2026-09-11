@@ -1,0 +1,11 @@
+{
+  "policy_key": "palestinian_state_support",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Whether the U.S. should endorse a Palestinian state as part of Middle East policy.",
+  "evidence_quote": "(No explicit position provided in this option; it is a standalone question without candidate responses.)",
+  "needs_human_review": true,
+  "review_reason": "The given 'option' is actually a *question* (not a candidate's stated policy). To classify, I would need the candidate\u2019s explicit response to this question. For example: If they wrote \u2018Yes\u2019 or \u2018I support it,\u2019 that would conventionally align with progressive (-1) views; if they wrote \u2018No\u2019 or \u2018Conditional,\u2019 that might lean conservative (+1) or mixed (0)."
+}

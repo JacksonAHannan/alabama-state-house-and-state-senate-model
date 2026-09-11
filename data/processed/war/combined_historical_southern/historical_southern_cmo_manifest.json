@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "build_id": "105a8ed0bd6caffac3e2",
+  "code_commit": "ce5978cc83d4d145606b4268838ac6d656a1f34a",
+  "pipeline": "scripts/run_historical_southern_cmo_tournament.py",
+  "input": {
+    "path": "data/processed/forecast_calibration/historical_southern_combined_panel.csv",
+    "sha256": "e990194ed7c633e3a30331f8efe9530076bd8bfbba42fbbbe0d1654aa70f0084",
+    "manifest_path": "data/processed/forecast_calibration/historical_southern_combined_manifest.json",
+    "manifest_sha256": "0ed7e569f03fc97fb815f2a253c6d60605012c214ca0651be4fc43928b9efcdf"
+  },
+  "configuration": {
+    "models": {
+      "baseline_only": {
+        "kind": "baseline"
+      },
+      "pooled_lag": {
+        "kind": "mean"
+      },
+      "symmetric_incumbency": {
+        "numeric": [
+          "incumbency_balance"
+        ],
+        "categorical": [],
+        "alpha": 1.0
+      },
+      "state_chamber_lag": {
+        "numeric": [],
+        "categorical": [
+          "state",
+          "chamber"
+        ],
+        "alpha": 10.0
+      },
+      "state_chamber_incumbency": {
+        "numeric": [
+          "incumbency_balance"
+        ],
+        "categorical": [
+          "state",
+          "chamber"
+        ],
+        "alpha": 10.0
+      },
+      "portable_temporal": {
+        "numeric": [
+          "incumbency_balance",
+          "year_center",
+          "baseline_dem_margin",
+          "baseline_year_interaction",
+          "inc_year_interaction"
+        ],
+        "categorical": [
+          "chamber",
+          "office"
+        ],
+        "alpha": 10.0
+      },
+      "full_temporal": {
+        "numeric": [
+          "incumbency_balance",
+          "year_center",
+          "baseline_dem_margin",
+          "baseline_year_interaction",
+          "inc_year_interaction"
+        ],
+        "categorical": [
+          "state",
+          "chamber",
+          "office"
+        ],
+        "alpha": 10.0
+      }
+    },
+    "strict_model_eligible_only": true,
+    "forward_minimum_prior_cycles": 2,
+    "selection": "lowest leave-state-out RMSE among models within 1 point of best forward RMSE; whole-precinct LOSO and simplicity break ties"
+  },
+  "selected_model": "full_temporal",
+  "row_counts": {
+    "input": 2273,
+    "predictions": 28770,
+    "candidate_residuals": 4546
+  },
+  "outputs": [
+    {
+      "name": "predictions",
+      "path": "data/processed/war/combined_historical_southern/historical_southern_cmo_predictions.csv",
+      "bytes": 6432171,
+      "sha256": "f757ebf224b0aac0f744d5cd26b100f99bd81369ff52a56b3f03bc2d5759f5af"
+    },
+    {
+      "name": "metrics",
+      "path": "data/processed/war/combined_historical_southern/historical_southern_cmo_metrics.csv",
+      "bytes": 14966,
+      "sha256": "49fda7d5d2cc8fde759207e1c968ba539a096bf360b7e1fe8000cda25455f4a0"
+    },
+    {
+      "name": "summary",
+      "path": "data/processed/war/combined_historical_southern/historical_southern_cmo_summary.csv",
+      "bytes": 1986,
+      "sha256": "155ddc50091008fcac58e67ea5bb4c4a3ab4eb4bc02a585b37ff50a352e74fac"
+    },
+    {
+      "name": "ranking",
+      "path": "data/processed/war/combined_historical_southern/historical_southern_cmo_ranking.csv",
+      "bytes": 953,
+      "sha256": "6351e140efd58f6cb29b82a6a718f43be48e05253fbefe3a6f95213de746f2c9"
+    },
+    {
+      "name": "candidates",
+      "path": "data/processed/war/combined_historical_southern/historical_southern_cmo_candidate_residuals.csv",
+      "bytes": 723528,
+      "sha256": "2e874acaf4ba71dab993e6b2eb2b9fea3a42e1a66236563aea397e4233528f10"
+    },
+    {
+      "name": "effects",
+      "path": "data/processed/war/combined_historical_southern/historical_southern_cmo_selected_effects.csv",
+      "bytes": 197,
+      "sha256": "735eca0c259d81f7ad2e43ad1cc8144c7a65f3f6b8f88e8785f05d53949d42e8"
+    }
+  ]
+}

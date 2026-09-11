@@ -1,0 +1,11 @@
+{
+  "policy_key": "aids_abstinence_funding",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option proposes restricting AIDS prevention aid to abstinence-only education. This is generally viewed as a conservative policy stance regarding social issues and public health funding.",
+  "evidence_quote": "7) Should aid to African nations for AIDS prevention fund abstinence education?",
+  "needs_human_review": true,
+  "review_reason": "The question frames the issue around 'abstinence education' in international aid. While restricting such funds is often a conservative position (progressive views typically support comprehensive sex ed), this specific context involves foreign policy and public health ethics where positions can be mixed or procedural depending on definitions of effectiveness vs. moral principles."
+}

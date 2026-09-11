@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_tax_levels",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option specifies a high income threshold for tax considerations without indicating whether it supports raising or lowering taxes at that level.",
+  "evidence_quote": "$350,001 and above",
+  "needs_human_review": true,
+  "review_reason": "Option text is an incomplete fragment lacking the core policy stance (increase/decrease) required for ideological classification."
+}

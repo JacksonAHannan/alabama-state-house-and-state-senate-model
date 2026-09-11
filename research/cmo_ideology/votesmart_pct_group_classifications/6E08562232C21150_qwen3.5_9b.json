@@ -1,0 +1,11 @@
+{
+  "policy_key": "legislative_priorities_open",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks for a candidate's priorities without specifying any policy content.",
+  "evidence_quote": "Please explain what your two main legislative priorities will be if elected. Please explain how you would obtain any additional government funding needed to implement these priorities.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

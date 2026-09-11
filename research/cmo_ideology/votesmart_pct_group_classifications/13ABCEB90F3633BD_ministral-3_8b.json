@@ -1,0 +1,11 @@
+{
+  "policy_key": "vaccine_religious_exemptions",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Removing exemptions from vaccination requirements based on religious beliefs.",
+  "evidence_quote": "(No explicit quote provided in the option, but the policy itself is a clear progressive stance.)",
+  "needs_human_review": false,
+  "review_reason": "The question lacks context or candidate-specific phrasing, so this classification relies on conventional framing of vaccine exemption policies."
+}

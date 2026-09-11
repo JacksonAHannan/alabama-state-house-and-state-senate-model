@@ -1,0 +1,10 @@
+{
+  "id": "D5A5CA8DD1A219F4",
+  "decision": "map",
+  "primitive_axis": "environmental_protection",
+  "policy_pole": "weaken",
+  "confidence": "high",
+  "rationale": "Eliminates a further regulatory-adoption requirement and validates existing solid-waste permits, reducing environmental regulatory constraints.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

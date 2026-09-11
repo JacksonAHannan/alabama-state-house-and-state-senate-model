@@ -21,14 +21,18 @@ try:
 except ModuleNotFoundError:
     from build_caucus_analysis_page import payload as cluster_payload
     from build_ideology_thesis_page import payload as ideology_payload
+try:
+    from scripts.southern_war_release_gate import require_alabama_historical_release
+except ModuleNotFoundError:
+    from southern_war_release_gate import require_alabama_historical_release
 
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "artifacts" / "site" / "ideology-performance.html"
-HISTORICAL_WAR = (
-    ROOT / "data" / "processed" / "war" / "alabama_historical_war_v1"
-    / "candidate_cycle_war.csv"
-)
+HISTORICAL_WAR_DIR = ROOT / "data" / "processed" / "war" / "alabama_historical_war_v1"
+HISTORICAL_WAR = HISTORICAL_WAR_DIR / "candidate_cycle_war.csv"
+PUBLISHED_ALABAMA_MANIFEST = ROOT / "data" / "processed" / "war" / "alabama_war_v1" / "manifest.json"
+DECISION = ROOT / "project_docs" / "audits" / "SOUTHERN_V3_RELEASE_DECISION.json"
 EVIDENCE = ROOT / "data" / "processed" / "ideology" / "candidate_position_evidence_v3_all_sources.csv"
 DISPLAY_NAME_ALIASES = ROOT / "data" / "manual" / "ideology" / "candidate_research_aliases.csv"
 SOURCE_ID_PATTERN = re.compile(r"^[A-Z]{3}\d{3}[A-Z]{4,}$")
@@ -300,8 +304,16 @@ def absolute_era_war(members: pd.DataFrame, ideology: dict) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
+def require_fresh_inputs() -> dict:
+    """Refuse to join a historical WAR export that is not bound to approved runs."""
+    return require_alabama_historical_release(
+        HISTORICAL_WAR_DIR / "manifest.json", PUBLISHED_ALABAMA_MANIFEST, DECISION
+    )
+
+
 @lru_cache(maxsize=1)
 def payload() -> dict:
+    require_fresh_inputs()
     ideology = ideology_payload()
     clusters = cluster_payload()
     members = pd.DataFrame(clusters["members"])
@@ -434,7 +446,7 @@ def build() -> str:
 
 <section id="continuous"><div class="section-head"><div class="kicker">Separate continuous measurement</div><h2>WAR and absolute Shor–McCarty ideology by era</h2><p>This is not a cluster comparison. Each row estimates the WAR change associated with a one-standard-deviation move toward the conservative end of the nationally comparable Shor–McCarty scale.</p></div><div class="panel"><div id="eraEvidence" class="era-list"></div></div></section>
 
-<section id="methods"><div class="section-head"><div class="kicker">Coverage and interpretation</div><h2>Data and method</h2></div><div id="sourceGrid" class="source-grid"></div><div class="method"><h3>WAR definition</h3><p>The residual framing follows <a href="https://split-ticket.org/2025/08/15/deconstructing-war/">Split Ticket's WAR methodology</a>; this Alabama implementation and its estimates are independent. Race WAR = actual legislative-minus-ticket gap minus the fitted structural expected gap. Democratic WAR is the race residual and Republican WAR is its exact negative. The 1998–2014 observations shown here use a backward application of the model trained only on post-2016 Southern races; 2018 and 2022 retain the published same-cycle Alabama residuals. No pooled individual effect, fundraising term, or ideology term enters WAR.</p></div><div class="method"><h3>Group construction</h3><p id="clusterMethod"></p></div><div class="method"><h3>Performance attachment</h3><p>Election performance was not used to create the groups. WAR, incumbency, fundraising, demographics, district partisanship, and era are attached only after group assignment. Adjusted comparisons use cycle-and-chamber fixed effects and person-clustered uncertainty.</p></div><div class="method"><h3>Limits</h3><p>A race residual cannot uniquely distinguish candidate strength from opponent weakness or omitted local conditions. Historical backcasts extrapolate a modern relationship. Evidence is more available for officeholders and is not missing at random; the analysis is descriptive and does not prove that an issue caused electoral performance.</p></div></section></main><div id="tip" class="tip"></div><footer>Research and model by Jackson Hannan · <a href="cmo.html">Alabama WAR</a> · <a href="cmo-methodology.html">Methodology</a></footer>
+<section id="methods"><div class="section-head"><div class="kicker">Coverage and interpretation</div><h2>Data and method</h2></div><h3>Full research evidence inventory</h3><p id="sourceScope">These counts cover the full research evidence file, including both parties and records outside the displayed Democratic 1998–2022 sample. They are not counts of eligible evidence used in the displayed analysis.</p><div id="sourceGrid" class="source-grid" aria-describedby="sourceScope"></div><div class="method"><h3>WAR definition</h3><p>The residual framing follows <a href="https://split-ticket.org/2025/08/15/deconstructing-war/">Split Ticket's WAR methodology</a>; this Alabama implementation and its estimates are independent. Race WAR = actual legislative-minus-ticket gap minus the fitted structural expected gap. Democratic WAR is the race residual and Republican WAR is its exact negative. The 1998–2014 observations shown here use a backward application of the model trained only on post-2016 Southern races; 2018 and 2022 retain the published same-cycle Alabama residuals. No pooled individual effect, fundraising term, or ideology term enters WAR.</p></div><div class="method"><h3>Group construction</h3><p id="clusterMethod"></p></div><div class="method"><h3>Performance attachment</h3><p>Election performance was not used to create the groups. WAR, incumbency, fundraising, demographics, district partisanship, and era are attached only after group assignment. Adjusted comparisons use cycle-and-chamber fixed effects and person-clustered uncertainty.</p></div><div class="method"><h3>Limits</h3><p>A race residual cannot uniquely distinguish candidate strength from opponent weakness or omitted local conditions. Historical backcasts extrapolate a modern relationship. Evidence is more available for officeholders and is not missing at random; the analysis is descriptive and does not prove that an issue caused electoral performance.</p></div></section></main><div id="tip" class="tip"></div><footer>Research and model by Jackson Hannan · <a href="cmo.html">Alabama WAR</a> · <a href="cmo-methodology.html">Methodology</a></footer>
 
 <script>const DATA=__DATA__;
 const TRAD='Traditionalist-populist Democrats',BRIDGE='Bridge-coalition Democrats',PROG='Progressive-modern Democrats',GROUPS=[TRAD,BRIDGE,PROG];

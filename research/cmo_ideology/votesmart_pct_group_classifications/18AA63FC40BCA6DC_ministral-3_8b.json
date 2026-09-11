@@ -1,0 +1,11 @@
+{
+  "policy_key": "paid_family_and_medical_leave_expansion",
+  "dimension": "healthcare_position",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Expanding government or employer-provided paid leave for family/medical reasons (e.g., childbirth, illness, caregiving).",
+  "evidence_quote": "*[No direct quote provided in the option text\u2014this is a procedural/administrative policy question without a candidate\u2019s explicit stance.]*",
+  "needs_human_review": true,
+  "review_reason": "The option lacks a candidate\u2019s affirmative/negative phrasing (e.g., 'I support' or 'I oppose')."
+}

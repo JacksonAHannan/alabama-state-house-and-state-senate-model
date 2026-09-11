@@ -1,0 +1,10 @@
+{
+  "id": "4F06107BE93FD2AF",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "punitive",
+  "confidence": "high",
+  "rationale": "Creates new retail-theft offenses and imposes criminal penalties, directly increasing punitive consequences for covered conduct.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

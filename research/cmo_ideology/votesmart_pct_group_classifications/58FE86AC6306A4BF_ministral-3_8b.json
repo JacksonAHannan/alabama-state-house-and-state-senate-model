@@ -1,0 +1,11 @@
+{
+  "policy_key": "internet_tax_moratorium",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Oppose new taxes on internet services or digital transactions, favoring minimal government intervention in tech markets.",
+  "evidence_quote": "Continue the moratorium on Internet taxation.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "immigration_temporary_workers",
+  "dimension": "immigration_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting temporary worker programs is generally viewed as a progressive stance on immigration by expanding legal pathways for labor.",
+  "evidence_quote": "c) Support a temporary worker program.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

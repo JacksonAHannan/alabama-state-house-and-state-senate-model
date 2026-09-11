@@ -1,0 +1,11 @@
+{
+  "policy_key": "public_health_funding",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Federal funding for public health services (e.g., CDC, NIH, Medicare/Medicaid expansions, disease prevention programs).",
+  "evidence_quote": "*[No specific option value provided in the prompt\u2014only a category label.]*",
+  "needs_human_review": true,
+  "review_reason": "The question asks for a *specific* funding level (e.g., '1'\u2013'5') but only lists the category. Without the candidate\u2019s chosen number, no \u00b11/-1 classification is possible."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_defense_covert_ops",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Support for covert intelligence operations is generally viewed as a matter of national security procedure rather than an ideological stance on left/right economics or social issues.",
+  "evidence_quote": "b) Covert intelligence operations",
+  "needs_human_review": false,
+  "review_reason": ""
+}

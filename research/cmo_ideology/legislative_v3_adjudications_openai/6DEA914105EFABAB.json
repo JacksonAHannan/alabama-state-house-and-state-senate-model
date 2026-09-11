@@ -1,0 +1,10 @@
+{
+  "id": "6DEA914105EFABAB",
+  "decision": "map",
+  "primitive_axis": "civil_social_liberty",
+  "policy_pole": "restrict",
+  "confidence": "high",
+  "rationale": "Defining sex by birth classification and establishing policy limiting recognition of gender identity restricts civil and social liberty.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

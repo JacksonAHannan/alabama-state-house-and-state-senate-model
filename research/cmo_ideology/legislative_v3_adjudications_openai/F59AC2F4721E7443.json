@@ -1,0 +1,10 @@
+{
+  "id": "F59AC2F4721E7443",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The measure combines electronic disclosure with expanded redaction of identifying information, producing mixed effects on disclosure and insufficient evidence for one pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

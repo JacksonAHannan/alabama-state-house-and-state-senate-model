@@ -1,0 +1,11 @@
+{
+  "policy_key": "fema_funding",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option 'FEMA' does not specify a funding level or tax stance; it is an incomplete response to the question asking for numerical selections on budget priorities, defense spending, taxes, family income taxes, other taxes, and deductions/credits.",
+  "evidence_quote": "f) FEMA",
+  "needs_human_review": true,
+  "review_reason": "The option text 'f) FEMA' is a fragment that fails to answer the specific question regarding federal funding levels (#1-6). It lacks any directional policy signal (conservative or progressive), making it impossible to assign a dime value. The response appears to be an error in data collection rather than a substantive political position."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "welfare_devolution",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Shift federal welfare funding to non-profit groups (often with religious/community ties) rather than direct government distribution.",
+  "evidence_quote": "Direct federal poverty aid through **religious, community-based or other non-profit organizations**.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

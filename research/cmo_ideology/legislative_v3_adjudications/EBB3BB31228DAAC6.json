@@ -1,0 +1,10 @@
+{
+  "id": "EBB3BB31228DAAC6",
+  "decision": "map",
+  "primitive_axis": "abortion_access",
+  "policy_pole": "restrict",
+  "confidence": "high",
+  "rationale": "The bill imposes strict procedural and medical requirements (e.g., hospital settings, admitting privileges) that significantly restrict abortion access.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

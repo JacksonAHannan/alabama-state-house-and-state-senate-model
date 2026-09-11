@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_home_state",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "This option proposes a geographic restriction on campaign fundraising sources.",
+  "evidence_quote": "Require Congressional candidates to raise over half of their campaign money from their home state.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "1A6ACCA4EF17AD89",
+  "decision": "map",
+  "primitive_axis": "education_public_funding",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "The measure authorizes bonds and creates funding for public schools and colleges, directly expanding public education funding.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

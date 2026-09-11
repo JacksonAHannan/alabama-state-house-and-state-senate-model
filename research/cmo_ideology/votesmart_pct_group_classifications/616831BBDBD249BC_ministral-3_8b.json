@@ -1,0 +1,11 @@
+{
+  "policy_key": "tax_free_medical_savings_accounts",
+  "dimension": "healthcare_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Promote tax-free medical savings accounts (MSAs) with penalties for non-medical use.",
+  "evidence_quote": "Encourage **tax-free** medical savings accounts, which would be **taxed if used for any purpose other than medical costs.**",
+  "needs_human_review": false,
+  "review_reason": ""
+}

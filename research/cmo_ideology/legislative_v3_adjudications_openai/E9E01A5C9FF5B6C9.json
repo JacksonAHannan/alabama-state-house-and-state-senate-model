@@ -1,0 +1,10 @@
+{
+  "id": "E9E01A5C9FF5B6C9",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Repeals a local authorization concerning disposition of abandoned or unclaimed firearms; it is an administrative property-disposition measure and does not clearly establish a general gun-access or purchase-regulation position.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

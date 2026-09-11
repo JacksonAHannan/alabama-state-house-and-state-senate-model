@@ -1,0 +1,18 @@
+{
+  "primary_domain": "criminal_justice",
+  "policy_key": "crime_reduction",
+  "plain_english_policy": "Decriminalization of Marijuana for Medicinal Purposes",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "none"
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "Decriminalize the use of marijuana for medicinal purposes.",
+  "needs_human_review": false,
+  "review_reason": "This option is a policy proposal that would change the legal status of marijuana. It does not explicitly state any specific policy mechanism or effect on crime reduction."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "us_cuba_diplomatic_relations",
+  "dimension": "indeterminate",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Whether the U.S. should establish or maintain full diplomatic relations with Cuba.",
+  "evidence_quote": "Should the U.S. have full diplomatic relations with Cuba?",
+  "needs_human_review": true,
+  "review_reason": "This is a standalone question without context on the candidate's stance, and it does not explicitly link to broader Middle East or UN policy principles."
+}

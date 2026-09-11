@@ -1,0 +1,11 @@
+{
+  "policy_key": "environment_emission_controls",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supports stricter emission controls on gasoline and diesel engines.",
+  "evidence_quote": "Strengthen emission controls on all gasoline or diesel powered engines, including cars and trucks.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

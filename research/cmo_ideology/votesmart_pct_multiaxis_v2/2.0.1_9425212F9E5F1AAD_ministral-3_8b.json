@@ -1,0 +1,30 @@
+{
+  "primary_domain": "labor",
+  "policy_key": "employer_incentive",
+  "plain_english_policy": "Use tax credits or subsidies to encourage businesses to hire more workers, with no explicit scale distinction (small vs. large).",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "Incentives are a form of targeted market intervention to steer private behavior toward job creation."
+    },
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "primary",
+      "rationale": "Financial incentives (e.g., tax credits) typically benefit businesses, which may disproportionately pass costs onto workers or consumers rather than directly reducing inequality. No explicit progressive mechanism is stated."
+    },
+    {
+      "axis": "labor_capital_alignment",
+      "pole": "capital_management",
+      "strength": "primary",
+      "rationale": "The policy explicitly aligns with capital (businesses) by granting them incentives to hire, rather than labor rights or protections."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"providing financial incentives to the private sector for the purpose of job creation\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

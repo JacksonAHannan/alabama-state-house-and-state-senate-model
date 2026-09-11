@@ -1,0 +1,18 @@
+{
+  "primary_domain": "government_reform",
+  "policy_key": "state_budget",
+  "plain_english_policy": "Funding levels for emergency preparedness.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "emergency preparedness is a public service that should be funded by the government."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "State Taxes: Indicate the tax levels (#1-6) you will support. Select one level per tax.",
+  "needs_human_review": false,
+  "review_reason": "The question asks for funding levels for emergency preparedness, which is a public service that should be funded by the government."
+}

@@ -1,0 +1,30 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "hog_farm_moratorium",
+  "plain_english_policy": "Temporary halt (3 years) on new large-scale hog farms (>500 hogs) and expansions of existing ones.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "resource_development",
+      "pole": "restrict",
+      "strength": "secondary",
+      "rationale": "Directly limits the expansion of hog farms, which is a form of agricultural resource development."
+    },
+    {
+      "axis": "environmental_protection",
+      "pole": "strengthen",
+      "strength": "primary",
+      "rationale": "Moratorium likely reduces pollution (e.g., runoff, odor) and environmental degradation from concentrated animal feeding operations (CAFOs)."
+    },
+    {
+      "axis": "conservation_preservation",
+      "pole": "preserve",
+      "strength": "secondary",
+      "rationale": "Indirectly preserves rural land use patterns by preventing industrial-scale hog farming."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Support a three-year moratorium on both new hog farms and all expansions of farms to over 500 hogs.\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

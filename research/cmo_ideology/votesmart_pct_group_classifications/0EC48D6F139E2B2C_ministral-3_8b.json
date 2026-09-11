@@ -1,0 +1,11 @@
+{
+  "policy_key": "health_right_to_appeal",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Protects patients' ability to challenge insurance/insurer denials via independent review, reducing corporate gatekeeping.",
+  "evidence_quote": "Support a Patient's Bill of Rights which includes the right to appeal to an administrative board of specialists when services are denied.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

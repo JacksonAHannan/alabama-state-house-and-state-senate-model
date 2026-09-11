@@ -1,0 +1,11 @@
+{
+  "policy_key": "marijuana_decriminalization",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Remove criminal penalties for personal marijuana use and possession.",
+  "evidence_quote": "Decriminalize the possession and private use of marijuana.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

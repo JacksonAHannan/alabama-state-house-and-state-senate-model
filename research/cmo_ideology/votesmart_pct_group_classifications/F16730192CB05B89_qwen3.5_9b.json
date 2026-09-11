@@ -1,0 +1,11 @@
+{
+  "policy_key": "welfare_time_limit",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Imposing a time limit on welfare benefits for able-bodied recipients is conventionally associated with progressive or centrist reform agendas aimed at promoting self-sufficiency and reducing dependency.",
+  "evidence_quote": "b) Impose a two-year limit on welfare benefits for recipients who are able to work.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

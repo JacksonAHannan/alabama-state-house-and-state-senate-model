@@ -1,0 +1,24 @@
+{
+  "primary_domain": "criminal_justice",
+  "policy_key": "budget_stabilization_mechanism",
+  "plain_english_policy": "Use budget savings from releasing some non-violent prisoners early to balance the state budget.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "criminal_punishment",
+      "pole": "punitive",
+      "strength": "secondary",
+      "rationale": "Releasing non-violent offenders reduces incarceration, which is a punitive measure. However, the primary stated mechanism is budget stabilization rather than punishment reduction."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "private_provision",
+      "strength": "secondary",
+      "rationale": "The policy does not explicitly involve public or private provision of services beyond its indirect effect on prison operations (which are publicly managed)."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Issuing the early release of certain non-violent offenders\"",
+  "needs_human_review": true,
+  "review_reason": "The policy is framed as a budget stabilization measure, but its broader implications for criminal justice (e.g., public safety, rehabilitation) are not explicitly addressed in the source. The 'punitive' effect is inferred from the nature of early release, though the stated intent is fiscal."
+}

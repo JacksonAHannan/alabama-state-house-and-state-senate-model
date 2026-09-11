@@ -1,0 +1,11 @@
+{
+  "policy_key": "spending_excise_tax_alcohol",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option is a specific line item within a broader spending/taxes questionnaire and does not express an independent ideological stance.",
+  "evidence_quote": "d) Excise taxes (alcohol)",
+  "needs_human_review": true,
+  "review_reason": "This is a single response choice from a multi-part question asking for numeric ratings on various tax categories. It lacks standalone context to determine if the candidate supports higher or lower excise taxes generally."
+}

@@ -1,0 +1,24 @@
+{
+  "primary_domain": "business",
+  "policy_key": "business_scale_alignment",
+  "plain_english_policy": "small_business",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "The text implies a preference for private sector involvement in prison management."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "The text suggests a restriction on government's role in prison management."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Support contracting with private sector firms to build and/or manage state prisons.",
+  "needs_human_review": false,
+  "review_reason": "The text describes a preference for private sector involvement in prison management."
+}

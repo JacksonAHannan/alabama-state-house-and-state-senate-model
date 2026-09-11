@@ -1,0 +1,10 @@
+{
+  "id": "DCAF159E795E245F",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "The apprenticeship and age provisions primarily modify occupational-licensing eligibility and are insufficiently clear as a single market-governance pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "348136BE5065194A",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Reallocates personnel authority within a county sheriff's office and is administrative rather than a policy position on an allowed criminal-justice axis.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

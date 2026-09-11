@@ -1,0 +1,10 @@
+{
+  "id": "91D6CC68000FFE6C",
+  "decision": "map",
+  "primitive_axis": "incarceration",
+  "policy_pole": "reduce",
+  "confidence": "high",
+  "rationale": "Creating a medical-parole docket for eligible prisoners with chronic life-threatening illnesses supports release from incarceration.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

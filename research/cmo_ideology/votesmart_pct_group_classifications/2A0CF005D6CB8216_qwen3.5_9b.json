@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_strict_internet_crime_penalties",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting strict penalties for internet crimes like hacking and identity theft is conventionally viewed as a progressive stance on civil liberties and digital rights.",
+  "evidence_quote": "e) Support strict penalties for Internet crimes (e.g. hacking, identity theft, worms/viruses).",
+  "needs_human_review": false,
+  "review_reason": ""
+}

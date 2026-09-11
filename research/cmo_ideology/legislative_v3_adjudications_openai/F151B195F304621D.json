@@ -1,0 +1,10 @@
+{
+  "id": "F151B195F304621D",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Combines firearm preemption, which may expand gun access, with dealer regulation and prohibited-person record checks, producing mixed-direction effects.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

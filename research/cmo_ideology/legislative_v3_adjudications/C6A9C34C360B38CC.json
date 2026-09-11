@@ -1,0 +1,10 @@
+{
+  "id": "C6A9C34C360B38CC",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "The bill creates a privilege for EHS audits, which is primarily procedural/technical and lacks clear policy implications on the allowed axes (e.g., no explicit weakening of environmental protection or expansion of fossil fuels).",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

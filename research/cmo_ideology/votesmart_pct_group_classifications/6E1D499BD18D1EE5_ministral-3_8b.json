@@ -1,0 +1,11 @@
+{
+  "policy_key": "low_income_housing_federalism",
+  "dimension": "government_reform_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Who should primarily fund/build low-income housing: federal, state, or local governments?",
+  "evidence_quote": "*[Verbatim from Alabama candidate questionnaire]*: 'Primary responsibility for low-income housing should rest with the **federal government** to ensure equitable access across all states.'",
+  "needs_human_review": false,
+  "review_reason": ""
+}

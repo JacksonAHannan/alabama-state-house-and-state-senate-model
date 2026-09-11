@@ -1,0 +1,11 @@
+{
+  "policy_key": "limit_signing_statements",
+  "dimension": "indeterminate",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option calls for restricting presidential signing statements to prevent alternative bill interpretations.",
+  "evidence_quote": "Support limiting the President's use of signing statements in order to prevent an alternative interpretation of the bill.",
+  "needs_human_review": true,
+  "review_reason": "This issue involves executive branch procedure and separation of powers rather than a clear left/right ideological stance; it is context-dependent on constitutional theory regarding presidential power vs. legislative intent."
+}

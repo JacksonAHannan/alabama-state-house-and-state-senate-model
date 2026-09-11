@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import json
 import re
 import sqlite3
 from contextlib import closing
@@ -13,14 +14,16 @@ import pandas as pd
 from rapidfuzz import fuzz
 
 from build_candidate_finance_features import canonical_person
-from warehouse import (ROOT, begin_run, connect, finish_run, initialize, register_source_file,
-                       register_table)
+from warehouse import (ROOT, begin_run, connect, file_sha256, finish_run, git_commit, initialize,
+                       register_source_file, register_table, utcnow)
 
 WAR=ROOT/"data"/"processed"/"war"
 RAW=ROOT/"data"/"raw"/"finance"/"dime_recipients_1979_2024.csv"
 SCHEMA=Path(__file__).with_name("warehouse_finance_schema.sql")
 PARTY={"100":"D","200":"R"}
 SMOOTHING_CONSTANT=500.0
+SOURCE_URL="https://data.stanford.edu/dime"
+LICENSE="ODC-BY 1.0"
 
 
 def source_path() -> Path:
@@ -176,12 +179,13 @@ def race_features(candidate: pd.DataFrame) -> pd.DataFrame:
 
 
 def load_warehouse(dime: pd.DataFrame,matches: pd.DataFrame,candidate: pd.DataFrame,races: pd.DataFrame,
-                   path: Path) -> None:
+                   path: Path) -> tuple[str,str]:
     with closing(connect()) as connection:
         initialize(connection); connection.executescript(SCHEMA.read_text(encoding="utf-8"))
         run=begin_run(connection,"finance",{"dime_path":str(path.relative_to(ROOT))})
-        source_id=register_source_file(connection,provider="DIME",path=path,media_type="text/csv",
-            extraction_status="normalized",authoritative_scope="historical_candidate_receipts_and_identity")
+        source_id=register_source_file(connection,provider="DIME",path=path,original_url=SOURCE_URL,
+            media_type="text/csv",license_name=LICENSE,extraction_status="normalized",
+            authoritative_scope="historical_candidate_receipts_and_identity")
         normalized=dime.rename(columns={"cycle":"cycle","bonica.rid":"bonica_recipient_id",
             "bonica.cid":"bonica_candidate_id","name":"recipient_name","party":"party_code",
             "party_letter":"party","district_num":"district","total.receipts":"total_receipts",
@@ -216,6 +220,7 @@ def load_warehouse(dime: pd.DataFrame,matches: pd.DataFrame,candidate: pd.DataFr
         finish_run(connection,run,{"dime_rows":len(dime),"accepted_matches":len(accepted),
                                    "candidate_rows":len(candidate),"complete_races":int(races.finance_complete.sum())})
         connection.commit()
+    return run,source_id
 
 
 def main(skip_warehouse: bool=False) -> None:
@@ -233,7 +238,24 @@ def main(skip_warehouse: bool=False) -> None:
               .groupby(["cycle","source_name"],dropna=False).agg(candidates=("candidate","size"),
                    observed=("observed","sum"),resources=("total_resources_raised","sum")).reset_index())
     coverage.to_csv(WAR/"harmonized_finance_coverage.csv",index=False)
-    if not skip_warehouse: load_warehouse(dime,matches,candidate,races,path)
+    run_id=source_id=None
+    if not skip_warehouse: run_id,source_id=load_warehouse(dime,matches,candidate,races,path)
+    outputs=[WAR/name for name in ["dime_alabama_legislative_recipients.csv",
+        "dime_candidate_finance_matches.csv","dime_candidate_finance_review.csv",
+        "candidate_resource_harmonized.csv","race_resource_features_harmonized.csv",
+        "harmonized_finance_coverage.csv"]]
+    manifest={"contract_version":1,"generated_at_utc":utcnow(),"build_run_id":run_id,
+        "code_commit":git_commit(),"configuration":{"skip_warehouse":skip_warehouse,
+        "smoothing_constant":SMOOTHING_CONSTANT},"source":{"source_file_id":source_id,
+        "provider":"DIME","source_url":SOURCE_URL,"retrieved_at":None,
+        "retrieval_time_status":"unknown_existing_local_artifact","sha256":file_sha256(path),
+        "media_type":"text/csv","license_or_terms":LICENSE,"state_code":"AL",
+        "cycle":"1979-2024","geography_vintage":"not_applicable",
+        "authoritative_scope":"historical_candidate_receipts_and_identity",
+        "ingest_status":"parsed"},"outputs":{
+            str(output.relative_to(ROOT)).replace("\\","/"):file_sha256(output) for output in outputs}}
+    (WAR/"dime_finance_build_manifest.json").write_text(
+        json.dumps(manifest,indent=2,sort_keys=True)+"\n",encoding="utf-8")
     print(coverage.to_string(index=False)); print(f"DIME review rows: {(matches.review_status=='review').sum()}")
 
 

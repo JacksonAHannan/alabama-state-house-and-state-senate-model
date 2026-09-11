@@ -1,0 +1,11 @@
+{
+  "policy_key": "national_parks_funding",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "medium",
+  "plain_english_policy": "Federal funding for national parks (e.g., maintenance, conservation, visitor services).",
+  "evidence_quote": "*[No specific option text provided in your prompt\u2014this is a general question format.]*",
+  "needs_human_review": true,
+  "review_reason": "To classify this as +1/-1/0, I would need the *actual numeric choice* (e.g., '1' for low funding, '5' for high funding) from the candidate\u2019s questionnaire. For example: If they selected **\u20183\u2019** and historically Alabama candidates with \u20183\u2019 lean conservative on parks funding \u2192 **+1**; if they selected **\u20185\u2019** and aligns with progressive priorities \u2192 **-1**."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "134497022D7A23A0",
+  "decision": "map",
+  "primitive_axis": "incarceration",
+  "policy_pole": "reduce",
+  "confidence": "high",
+  "rationale": "Creates alternative sentencing, drug-court, and pre-adjudication release programs, providing mechanisms to reduce reliance on incarceration.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

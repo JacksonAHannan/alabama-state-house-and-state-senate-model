@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_handgun_ban",
+  "dimension": "guns_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Prohibits private citizens from owning handguns, allowing only law enforcement/government possession.",
+  "evidence_quote": "**b) Ban the sale, ownership or possession of handguns except by law enforcement and other government officials.**",
+  "needs_human_review": false,
+  "review_reason": ""
+}

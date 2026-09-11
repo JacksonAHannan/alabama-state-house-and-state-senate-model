@@ -1,0 +1,15 @@
+decision,terminal_status,rollcalls
+exclude,excluded_frontier_insufficient_text,149
+exclude,excluded_frontier_local_non_generalizable,977
+exclude,excluded_frontier_mixed_no_scalar_direction,136
+exclude,excluded_frontier_procedural,1446
+exclude,excluded_frontier_symbolic,66
+exclude,excluded_historical_budget_baseline,534
+exclude,excluded_historical_conflicting_poles,10
+exclude,excluded_historical_insufficient_text,114
+exclude,excluded_historical_local,1572
+exclude,excluded_historical_non_scalar,4349
+exclude,excluded_historical_symbolic,24
+exclude,excluded_procedural_or_ambiguous_motion,49305
+map,mapped_frontier_policy_pole,1766
+map,mapped_historical_frontier_policy_pole,256

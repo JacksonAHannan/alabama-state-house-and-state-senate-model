@@ -1,0 +1,11 @@
+{
+  "policy_key": "medical_expense_deductions",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Allowing taxpayers to deduct medical expenses from taxable income.",
+  "evidence_quote": "m) Medical expense deductions (e.g., allow or expand deductions for unreimbursed medical costs).",
+  "needs_human_review": false,
+  "review_reason": ""
+}

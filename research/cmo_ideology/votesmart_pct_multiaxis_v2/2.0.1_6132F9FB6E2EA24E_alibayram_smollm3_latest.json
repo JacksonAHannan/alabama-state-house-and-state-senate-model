@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "labor_capital_alignment",
+  "plain_english_policy": "Support contracting with private sector firms to build and/or manage state prisons.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Contracting with private sector firms may lead to reduced labor costs and increased efficiency, potentially reducing the financial burden on taxpayers."
+    },
+    {
+      "axis": "labor_capital_alignment",
+      "pole": "capital_management",
+      "strength": "primary",
+      "rationale": "Private sector firms are often more capital-efficient than public entities, which could lead to cost savings and improved prison management."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Support contracting with private sector firms to build and/or manage state prisons.\" - Candidate's statement on crime policy in 1998.",
+  "needs_human_review": true,
+  "review_reason": "The candidate's support for privatizing prison management is a welfare_policy restriction, as it may reduce the financial burden on taxpayers by increasing efficiency. However, this could also be seen as labor_capital_alignment capital_management."
+}

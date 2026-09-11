@@ -1,0 +1,10 @@
+{
+  "id": "70CFE48C18EB36DA",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Authorizes a local public corporation to fund cost-of-living increases for retirees and beneficiaries; this is an administrative retirement-benefit measure, not a healthcare policy.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

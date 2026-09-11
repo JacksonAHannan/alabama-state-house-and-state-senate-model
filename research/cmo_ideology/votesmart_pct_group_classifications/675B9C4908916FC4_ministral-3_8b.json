@@ -1,0 +1,11 @@
+{
+  "policy_key": "us_security_interests_aid",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Aid should be granted only when it directly serves U.S. security interests, not for humanitarian or developmental purposes.",
+  "evidence_quote": "**b) Support the United States granting aid to countries when it is in the security interests of the United States.**",
+  "needs_human_review": true,
+  "review_reason": "The phrasing leans toward a narrow, strategic (conservative/realist) justification for aid but does not explicitly exclude humanitarian or developmental aid. Context-dependent\u2014could be interpreted as either restrictive (if implying aid is only for security) or permissive (if allowing other justifications under 'security interests')."
+}

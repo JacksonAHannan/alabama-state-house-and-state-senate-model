@@ -1,0 +1,11 @@
+{
+  "policy_key": "defense_sdi",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Funding for the Strategic Defense Initiative (SDI), also known as 'Star Wars,' a controversial Reagan-era proposal to develop a missile defense system in space.",
+  "evidence_quote": "7) Strategic Defense Initiative (SDI)",
+  "needs_human_review": false,
+  "review_reason": ""
+}

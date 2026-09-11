@@ -1,0 +1,11 @@
+{
+  "policy_key": "welfare_poverty_nonprofit_aid",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supports using non-profit and religious organizations to deliver federal poverty aid.",
+  "evidence_quote": "d) Direct federal poverty aid through religious, community-based, or other non-profit organizations.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "trade_sanctions_venezuela",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Trade sanctions on Venezuela are a contentious issue with mixed ideological framing depending on context (e.g., human rights vs. economic impact).",
+  "evidence_quote": "**b) Do you support the United States imposing trade sanctions on Venezuela?** *(No explicit scoring\u2014position depends on justification: e.g., human rights enforcement could align with progressive foreign policy critiques of authoritarianism, while economic isolation might appeal to conservative anti-interventionist or pro-capitalist factions.)**",
+  "needs_human_review": true,
+  "review_reason": "Sanctions are often framed as either a *progressive* tool for accountability (e.g., targeting corrupt regimes) or a *conservative* measure to protect U.S. interests, but the option lacks clear ideological anchors."
+}

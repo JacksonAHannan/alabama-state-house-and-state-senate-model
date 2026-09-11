@@ -1,0 +1,10 @@
+{
+  "id": "A6F090EA375E819B",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Combines a reduced environmental-response fund balance with altered intergovernmental involvement, producing mixed and partly administrative effects.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

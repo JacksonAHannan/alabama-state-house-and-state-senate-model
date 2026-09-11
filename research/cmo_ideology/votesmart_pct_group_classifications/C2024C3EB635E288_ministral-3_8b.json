@@ -1,0 +1,11 @@
+{
+  "policy_key": "alternatives_to_incarceration_non_violent_offenders",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Replacing jail time with counseling or treatment for non-violent offenders (e.g., drug possession, minor theft)",
+  "evidence_quote": "*'I support evidence-based alternatives to incarceration for non-violent offenders, including mandatory counseling and substance abuse treatment programs, as a way to reduce recidivism and address root causes of crime.'*",
+  "needs_human_review": false,
+  "review_reason": ""
+}

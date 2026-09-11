@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_official_civil_liability",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "This option asks about shielding government officials from civil lawsuits for alleged misconduct. Protecting officials from liability is generally considered a conservative stance on limiting accountability.",
+  "evidence_quote": "Do you support protecting government officials, including law enforcement officers, from personal liability in civil lawsuits concerning alleged misconduct?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

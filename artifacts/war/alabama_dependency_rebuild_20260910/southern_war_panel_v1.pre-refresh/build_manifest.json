@@ -1,0 +1,1455 @@
+{
+  "schema_version": 1,
+  "build_id": "b2ee552d3489675e1805",
+  "code_commit": "88878b973fdac3cee95a8d8648da321e38e0021c",
+  "pipeline": "scripts/build_southern_war_panel_v1.py",
+  "states": [
+    "AL",
+    "AR",
+    "FL",
+    "GA",
+    "KY",
+    "LA",
+    "MS",
+    "MO",
+    "NC",
+    "OK",
+    "SC",
+    "TN",
+    "TX",
+    "VA"
+  ],
+  "years": [
+    1994,
+    2024
+  ],
+  "baseline_policy": [
+    "canonical Alabama observed ticket",
+    "Texas official observed ballot-first ticket",
+    "Louisiana stage-matched observed statewide ticket",
+    "MEDSL observed same-cycle ballot-first ticket",
+    "validated historical HEDA/OpenElections/SOS ticket",
+    "Virginia same-year governor ticket with cross-election membership (research only)",
+    "election-day national generic-ballot polling average when no same-year ticket exists",
+    "partial HEDA context (research only)",
+    "prior presidential plus realized national swing (research only)"
+  ],
+  "inputs": [
+    {
+      "path": "data/raw/historical_statewide_elections/dataverse_files.zip",
+      "sha256": "b4c0913fa7bfb0aff4da2dbf67a22da696e9f07b45615f30e78127edd794a3e1"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/dataverse_files (1).zip",
+      "sha256": "b08cd3d051b9d57806045e486f3eee13745d0389b585125bc6d78a8a4655ad02"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/dataverse_files (2).zip",
+      "sha256": "4f66ee178e76a238bf4192d9d74d738c82623cf268cfa7b4bf65df6f534e680e"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/dataverse_files (3).zip",
+      "sha256": "2ebfc6a2030180b1eecc4da0579869ed84fc54e541a0f75850b05b57ddb6c893"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/medsl_github/manifest.csv",
+      "sha256": "19a01c930baa50bc39abe9971f253a9697ac2fb5990b7ec941fe5218212344d3"
+    },
+    {
+      "path": "data/processed/source_audits/openelections_historical_gap_manifest.csv",
+      "sha256": "faa107ce19bfe6b480ed219f9c5e3cea4d8254f6b5813656b1c1705a6c17c4df"
+    },
+    {
+      "path": "data/processed/forecast_calibration/historical_southern_extended_v2_panel.csv",
+      "sha256": "c3b9eb0b97cc758ab81f6b72fcc2f263b8bc877772909b73cdd9a20e18daf975"
+    },
+    {
+      "path": "data/processed/forecast_calibration/historical_southern_heda_panel.csv",
+      "sha256": "0c4c028df369c561eb837746686517f5e9aa2a643c932522b2a1707d3d142e0d"
+    },
+    {
+      "path": "data/processed/forecast_calibration/southern_legislative_probability_panel.csv",
+      "sha256": "09154b4ecd80e513acef147a73c9bdf3bb5ba95687ce1b58c6608fe9230315ed"
+    },
+    {
+      "path": "data/processed/forecast_calibration/southern_2024_incumbency_races.csv",
+      "sha256": "4e9933494f71800edd192ffd81a3c6a5cc2ae8b910733ece708223a57c924a33"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/ms_gen_19_prec.zip",
+      "sha256": "b43a1ba41c75e584a2e22fb9f34597b9e2929d373a61d975719088c9d569acc9"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/ms_gen_2023_prec.zip",
+      "sha256": "977228835bccf1009b99815242e56bf8aa792154ac5a0dbb406a1c936fde3a2f"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/precinctlevelelectionresults2018gen.zip",
+      "sha256": "97bc1b83bf7fdf80f0051058376ffd50d10cd8a5bd89b672d2d980625500df89"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/2022-gen-outputofficial.zip",
+      "sha256": "43452e30b5fe4780807039a35f7bf292dcd5c3947951d149ec3a147dc475c320"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/2024-gen-outputofficial1.zip",
+      "sha256": "1a954b8bf9e261e2eb11443b016f55c87a52f69a1778ba1d5e7d229cddd79856"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/results_pct_20221108.zip",
+      "sha256": "2024bf67243ef173f54e625c3bace4c8b6f80947fa7d67df26796c2c85d3e9f1"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/ga_2022_gen_prec.zip",
+      "sha256": "19ebe55529b05c529bd5d67bdf05426aecffc9bfa0faa0f9a631cc12fab57a56"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/ga_2024_gen_prec_csv.zip",
+      "sha256": "f7303fbed5afc7505b14ccf32ad671edc9d7271d6ae11a4e2431d6be1af86e28"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/tn_2022_gen_prec.zip",
+      "sha256": "01fdbc1b99546dca2dd429570176c8991177dbfdb997756f5e8027050715b4a2"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/la_vest_19.zip",
+      "sha256": "2314735457db98e1d57be95fc7efd73c4d896228eee4ba3179f55f8873089e53"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/la_2023_gen_prim_pber.zip",
+      "sha256": "127123466544510658e6d0712398541b43ee81b3bf4dbdf4e23d55a6e3aece85"
+    },
+    {
+      "path": "data/processed/source_audits/louisiana_legislative_results_manifest.csv",
+      "sha256": "f26e0230abcb96793fc77d1b0666620387069d79d60b5cee3f1e2be24ef17c25"
+    },
+    {
+      "path": "data/processed/incumbency/southern_incumbency_race_roster_2016_2024.csv",
+      "sha256": "8e225c7bebe0d5640a3439c0c42c6270d358cd90168622b9f3e7c6e609ad7c0a"
+    },
+    {
+      "path": "data/processed/polling/virginia_generic_ballot_environment.csv",
+      "sha256": "db746e2fc14d68eae8396063ec79eae81c0f0fb8910847976fb806802c9e376a"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/VA/2005/2005_November_General.csv",
+      "sha256": "981c8146b4f575a2715b9858559b083b9206b3ddb36514239890c656d9cd0808"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/VA/2009/2009_November_General.csv",
+      "sha256": "983688d53e1e7f32fdd5a64548cb749ec73847f3293cc0e38c7096531a815009"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/VA/2013/2013_November_General.csv",
+      "sha256": "ba8006f00c81bdb6c0b1c3aa49ddab69a9b43342eefc4d3b582efdd5215b36c7"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/VA/Election Results_2023.csv",
+      "sha256": "f4c1963cad6adbdd9b7d2e9d328ea791b88b7e385a3e00ab8727a11ca0acc18f"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/VA/va_vest_17.zip",
+      "sha256": "5fe3d68b2199bb0b21d9b1bf9b99c8fbe5e4e2ee737f7ddc1925c5b31ff3a15f"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/VA/va_vest_19_statehouse.zip",
+      "sha256": "5f3f637688a7dc19cbe5f0d3a7c00bc839a099a506c831a5ce51ac888f3ad05a"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/VA/va_vest_19_statesenate.zip",
+      "sha256": "ff96e75396fa355e6e547154d5ab992d60851ea7b3c0073239d69523f1c7a312"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/VA/va_vest_21.zip",
+      "sha256": "873f7bc64f88cf98f855afc7dcbe3ec31cf685b81071848f7c6dff59c60d1045"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/FL/2016/precinctlevelelectionresults2016gen.zip",
+      "sha256": "0d9b6ee46f9c5b4399b8909a3df91d8cc270c0b8daaf0589e515c69160d35657"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/NC/2016/results_pct_20161108.zip",
+      "sha256": "b6e9e002e03e8173e339154cea943a062936090a17337985bc555ca48018406a"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/OK/2016/20161108_PrecinctResults_csv_2d9b372099d6.zip",
+      "sha256": "2d9b372099d6a48ded2b399df3c7d9d17a0101db2a811384ccf7f12bba811920"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/TN/2016/StateGeneralbyPrecinctNov2016.xlsx",
+      "sha256": "8be0d2eb7bce65e620b365111a5a4ac1bb91ea2131b22abdd72c8c2367a74316"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/AR/2016/2016_FullDataFile.json",
+      "sha256": "1d484ad328f68f1c55217180d2d9e9133a6e4367b26ad78fc22fddf6a34cf3fb"
+    },
+    {
+      "path": "data/processed/war/cmo_v5_races.csv",
+      "sha256": "a8745953791aae048aa83cf013668165cd6e7968ef712c0d9a21d82429504024"
+    },
+    {
+      "path": "data/processed/war/cmo_v5_candidates.csv",
+      "sha256": "be5ce11349ba84bcb1a54e04c40e9520f6ecfdf9e9803c82eff5863f14be500c"
+    },
+    {
+      "path": "external://texas-state-house-and-state-senate-model/data/processed/models/full_history_cmo_candidates.csv",
+      "sha256": "9d94454858304d788d48e857f3a14de703ec2ae1d0f577a22262aa44f9fb10dc"
+    },
+    {
+      "path": "external://texas-state-house-and-state-senate-model/data/processed/features/historical_cmo_features.csv",
+      "sha256": "e98d9c209cec41faa39a7210f4dc3a0e2ebe2fd1fc27f862f57d4d383bed27be"
+    },
+    {
+      "path": "external://texas-state-house-and-state-senate-model/data/processed/elections/sos_canonical_candidate_totals_1992_2018.csv",
+      "sha256": "db684d47f66e88f41e2849300f43a85f46afbeb5b69f8a57eb553393e6be7373"
+    },
+    {
+      "path": "external://texas-state-house-and-state-senate-model/data/processed/elections/sos_official_candidate_totals_2020_2024.csv",
+      "sha256": "e8475a405c50c83630ef4221923ce2cba44c262debd9a3447a8d3486440ac870"
+    },
+    {
+      "path": "external://texas-state-house-and-state-senate-model/data/raw/tx_sos/OneDrive_2026-08-17.zip",
+      "sha256": "671c6d092a1c0fac700cc07fe2026018be08c89391b5b25fce1948160161ebf0"
+    },
+    {
+      "path": "external://texas-state-house-and-state-senate-model/data/raw/tx_sos/Texas_Precincts_2012_2020_Downloader/Texas_Precincts_2012_2020/2012/2012_vtd_results/FTP_Election_Data_12G/1998_General_Election_Returns.csv",
+      "sha256": "21684277a807e677ea5fb70798e4ca46b39dfc062c702293947db8db7a7d0fe7"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/medsl_github/2016/2016-ky-precinct.zip",
+      "sha256": "3589caab54bee885809e8f6d178c68e5bcc965b58563904baad3c152de2d6c6a"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/medsl_github/2022/2022-ky-local-precinct-general.zip",
+      "sha256": "af2e2ad9ee83268f3ccd22f6d3ad4e93db297dc80324750df66bd268d085a36d"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/medsl_github/2022/2022-mo-local-precinct-general.zip",
+      "sha256": "f44de8fd7d2a11bfc0eed71b13ea7359bededd15174d71d48e85819c60f281e0"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/medsl_github/2022/2022-ok-local-precinct-general.zip",
+      "sha256": "9526b85ec712c66e50ce039564166a0f34c39933f563cb20d949bba1d44ce7d9"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/medsl_github/2022/2022-sc-local-precinct-general.zip",
+      "sha256": "3f0ca616aa8768cd1126d8f372bab13161973c8c2af0eb466380d40175687a19"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/medsl_github/2024/ar24.zip",
+      "sha256": "22b54a19a514588c6f8b23f4975464baf659d6a22d469ba3b6b369461b9dce06"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/medsl_github/2024/ky24.zip",
+      "sha256": "6d23baa797cb794aa05e842558fc2b78314f4fef39ab9aafd9822833f73cefa9"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/medsl_github/2024/ok24.zip",
+      "sha256": "8ff2595d40fc86748ab4e8f908276c0dc12adc06f58e9ad261859998e7c7588b"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/medsl_github/2024/sc24.zip",
+      "sha256": "0a55d286d4a1034b801e27e7ca120c67cd98aa93b31510878da58a00866af599"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/medsl_github/2024/tn24.zip",
+      "sha256": "363f8de018de7afa39843c4e09ad3f661966323a7286911f3852dc1a2706e2ca"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Abbeville_detailtxt.zip",
+      "sha256": "fbdcb3b0bbfee8c56dd9fbab623f87bdbf8d76f319df1551b68012ca431f6d6b"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Aiken_detailtxt.zip",
+      "sha256": "acf02158a86a4c630b55706476feccb97c70e6d3fc38d192e733059558e7b80d"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Allendale_detailtxt.zip",
+      "sha256": "4b619465969335877e082848f262a19deebfc77ebd5e0d49e2b187b6101c58d1"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Anderson_detailtxt.zip",
+      "sha256": "96315f5eac40b2767d68be2ab905a4f05bd618d3ac267159d72b329fa66f48e2"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Bamberg_detailtxt.zip",
+      "sha256": "7c1dbcb6bfe47343cc416843f5959f961524f5d69c91108b90127f6b504928ea"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Barnwell_detailtxt.zip",
+      "sha256": "759c2d80ec99700cf1569b3c27dad7c9fab79c7036e3cd0ccb59d470485731b0"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Beaufort_detailtxt.zip",
+      "sha256": "ef4f0e3ff6b86e3af474a1a8b580c2359c3992e67b65a526e1076ca799b5d6cd"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Berkeley_detailtxt.zip",
+      "sha256": "8ae75f3d1fe1483bfe8219091111362baaccc185013ec202de54096ca0423005"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Calhoun_detailtxt.zip",
+      "sha256": "a222605697a60fd82e115a995455e55d5a51d1bc72d29dc04bd252b4df2662bc"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Charleston_detailtxt.zip",
+      "sha256": "e891f42f1eadc85b059b534f214713e894da01f8e6404d4725744de82883c7cf"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Cherokee_detailtxt.zip",
+      "sha256": "1ea00ca1d8f2ab8cf739bfbff499ac78f323f51636f18a5dbbe39256a0fb0295"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Chester_detailtxt.zip",
+      "sha256": "221196c55b515f01e7a34863185affb6217341f9f43b0d42656c21b0d46d20f7"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Chesterfield_detailtxt.zip",
+      "sha256": "9aedcbe902c5d8a34a73bb28f7e8a7dfa110d4cea388d560f67c9bbe7e154de1"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Clarendon_detailtxt.zip",
+      "sha256": "ab4acb040d54f382420254d08104e577e4cfdb07f305d6c3424a46f153201b62"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Colleton_detailtxt.zip",
+      "sha256": "00a728e891e2cc33c25de97caa2c5ee4b73999894dd9234a066246fcef3b2afe"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Darlington_detailtxt.zip",
+      "sha256": "6719432214a24066de309cce8e7c3f44e536e529d587cca643c0f9e4d0404380"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Dillon_detailtxt.zip",
+      "sha256": "5ae3f6c7d12384f3cfa1913d1b56350158e733db590ca9a53eeb08228d01a8cf"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Dorchester_detailtxt.zip",
+      "sha256": "09bcd06e399b0fc155ee217c675b89c12c07337b6a576da01d5638296f5f2628"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Edgefield_detailtxt.zip",
+      "sha256": "f439f6ebe148167dfb16b278b25614e3241424428773a92cdd64c93a939b7377"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Fairfield_detailtxt.zip",
+      "sha256": "9b4f3ca0ac3099354218111cce3022877fa3a828efb7538aeb2f27bc55106356"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Florence_detailtxt.zip",
+      "sha256": "e07b8600cafaf972e97c663fb222c5e8476842824fd46d839b92bced54497005"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Georgetown_detailtxt.zip",
+      "sha256": "1924daa692579c45864a1ebe56c02aa801b7ec971e60a54130f55f6494d75ba6"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Greenville_detailtxt.zip",
+      "sha256": "1eeb57f661209aa25711e2d2ec7504f6b2da11f5ffdfbed2655fa7c713302225"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Greenwood_detailtxt.zip",
+      "sha256": "3402c5df058b741f8147cee11f3abda6040bda6b2a4dd38bb5bd73f4fc0c04ee"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Hampton_detailtxt.zip",
+      "sha256": "3745c09c301774f5c4431ede81f03c0d9fb87d686bcbd642188db5b63127588c"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Horry_detailtxt.zip",
+      "sha256": "fce87dc904633ef8aaa2b68cfd4a399e1cfba6ef38cf98f9fbd9c4cd42ce7832"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Jasper_detailtxt.zip",
+      "sha256": "29ebc49370a7a5dbdccdb24a45e86fc113faf917ad169eb87064a7b729d3df73"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Kershaw_detailtxt.zip",
+      "sha256": "75907f5af409180d90423221309fa5e2c35a35939b829560168eb634eb94ec05"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Lancaster_detailtxt.zip",
+      "sha256": "d5fe6adeccd68f25b48ed5f4836bea48a1960db8e03bc2cd5543df5525ac723d"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Laurens_detailtxt.zip",
+      "sha256": "bd3b4e74429f62fb9c02ebf6ecc46d1e646d33a0ee2f488bba16c232673f4ab7"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Lee_detailtxt.zip",
+      "sha256": "aa4379a8690549091ee27126837f97346ef44490d39d4e1f8c412e89c657a407"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Lexington_detailtxt.zip",
+      "sha256": "6046ba1d028281cb894b967cb6c5d4b78b4f89e74d30b19caae41b066f2aeff1"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Marion_detailtxt.zip",
+      "sha256": "d6f02ce1d7a0d52f578ec2d74ccff5cadaa06c8c0183a6ffb184449eb130ac88"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Marlboro_detailtxt.zip",
+      "sha256": "799a29c0b05cf4acb2a4c2047d12580730bc4c2675adf2e655f78730b635d668"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/McCormick_detailtxt.zip",
+      "sha256": "207f0e5c953b2602736e3aeb5c80d02dea511f211bfe4e28f54a55a3fa078b2a"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Newberry_detailtxt.zip",
+      "sha256": "c0a20b455f7f608d6df1475293eea36d32b2288b9af770dae197e54d78688416"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Oconee_detailtxt.zip",
+      "sha256": "17b11052dff975f8b279260bdc0c35cc3cba082417e97b114c63a7ceb93d840a"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Orangeburg_detailtxt.zip",
+      "sha256": "5038575a35aa9bbd2cc5d09ef5fd16ddcd47fe8b0780434f6f3b915b0c2ae252"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Pickens_detailtxt.zip",
+      "sha256": "80d84e9233986ad8cd6e582a2285003310f94d6e52d88189ab4718bdbfbb175c"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Richland_detailtxt.zip",
+      "sha256": "2f50db22e49cfa39098bd545ace05bce0efb002348bc9f935e3aaf684a857651"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Saluda_detailtxt.zip",
+      "sha256": "22386590c6f16d53a615a7f980380b6d6bd7ef25d293ec13e20029eaadf6035c"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Spartanburg_detailtxt.zip",
+      "sha256": "2c6007706f5a41687e511518306a539843497e069a578583bd9c89ff6ec253e7"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Sumter_detailtxt.zip",
+      "sha256": "878088002c5f6f1f2d8cf011c6391ae23ff311e2ea279af387ff8256f32ebd4c"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Union_detailtxt.zip",
+      "sha256": "7832b4f8c6bd000a810fa69e8f474ebacd604182eda61f8eb4de2f6cce4ee9da"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/Williamsburg_detailtxt.zip",
+      "sha256": "368a6ca6a351c633d3fb9008db2bc6f86e939a4e93391142bd6d89630949d179"
+    },
+    {
+      "path": "data/raw/southern_sos_elections/SC/2016/York_detailtxt.zip",
+      "sha256": "43f41d48a135fb39db2f4bafce3635dfef6b476b212da435043ea59f0babebf5"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__appling__precinct.csv",
+      "sha256": "d1ffb6e8104c3c33d2188c1c7a9f99a3524bcc12e9ce6ff04ae6bfb3aa97a5a3"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__atkinson__precinct.csv",
+      "sha256": "3a0f7802c594b3b91114322370bec7408c83d34883141fe24cea10c5e5c80874"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__bacon__precinct.csv",
+      "sha256": "0a5f0f85d19b84f295c4aeb5b05e8ed4c1034339f0e23a94ad75a8999784c679"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__baker__precinct.csv",
+      "sha256": "9a5978b0f3f74e2e131a6ae6aedc1e13069bb492643d19616ac30b5ebdd8e9c3"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__baldwin__precinct.csv",
+      "sha256": "17c9fb5df1d9f2392eb28f84799bb608fe978cdf754988a096f4cfb1adebe96d"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__banks__precinct.csv",
+      "sha256": "54ec677fdfe99acf65463a00204a4bf6db5ae1bd2cfdaa0f1366a562051e42e4"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__barrow__precinct.csv",
+      "sha256": "7b732ef14fd0bb8c823267e476172f8c2b40786bb16c1abcd09cf3b83f9427ce"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__bartow__precinct.csv",
+      "sha256": "cbd40ad83d620fc7abe03b40bc98c757922d8cd57742dc1a2fba3b442635b219"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__ben_hill__precinct.csv",
+      "sha256": "6b70a843b0d05395386fd7aabed1953d1b12ed63a839e489cff1d50b97c99645"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__berrien__precinct.csv",
+      "sha256": "39d99f7493bb491d8c23751fee5e80375427fba011a8ae3584bde293e26c8908"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__bibb__precinct.csv",
+      "sha256": "ef2b584ca896e75c48f585b765e6de896aa5a46f3c406f8accde9088e0757c27"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__bleckley__precinct.csv",
+      "sha256": "36770bd52c0de85278fa870657ef35077f2b05eb780126ecee22a6f4a67b3071"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__brantley__precinct.csv",
+      "sha256": "d6074452ff7ab7ae69aeca7410396bd87d552413638b7330efe45cc2534145bf"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__brooks__precinct.csv",
+      "sha256": "75d9c033e77422afb58644870d7f739fe05565fbcc169939349e4e813060adbb"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__bryan__precinct.csv",
+      "sha256": "c94635a529f8fb2eb1442260b80dbbb790f2737ab55e71af9165d07fbd1541cc"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__bulloch__precinct.csv",
+      "sha256": "7d9c5067ec96d85a20ec4027004bb743405bd3923ca546e7fd8ce135c878db76"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__burke__precinct.csv",
+      "sha256": "8606fc89a47dafaceab8c46378631b5d5f51c1dea6057aa40e0644bee4fc66ab"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__butts__precinct.csv",
+      "sha256": "beacd238653956b86caab370ee665c2745874f34179a1c282390ab0b7c8ee7c1"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__calhoun__precinct.csv",
+      "sha256": "3d61823b7ca0776ec47571070ba3b68b1a142e62c807d928745bc4cc01c53c3a"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__camden__precinct.csv",
+      "sha256": "4b69dc0d4e3f9fe24e50e3794fb332751dcf9e599a37004689f8b009177bcfb3"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__candler__precinct.csv",
+      "sha256": "7cd39c1ac1bdf5eccfb120ce657e41093d7039c597ba0920ab60f09e6f1ba794"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__carroll__precinct.csv",
+      "sha256": "e3268017a3eec56bda1e7f0a948a2550fecfee0d5d32b3a8350d07618008c386"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__catoosa__precinct.csv",
+      "sha256": "a984ffc60a0e017f503cb32f7f56a837012305e20022940358e5e4a916d5948f"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__charlton__precinct.csv",
+      "sha256": "54749c9dd1b5a0dbc0aa671dab8df8291338525abb097e97096d2adf1eef173c"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__chatham__precinct.csv",
+      "sha256": "ded3d19e6429392bfe5374fe58f749e20034850a65872422ec1b36c74d1dd035"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__chattahoochee__precinct.csv",
+      "sha256": "48c9257b991e8dddd73ac7880401f8cded602c7a08f6f815fbeed02b68acb92d"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__chattooga__precinct.csv",
+      "sha256": "94a6f85a64ee1da0e76c2b232060fb91788cbb19856d9353240a544cb14683a9"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__cherokee__precinct.csv",
+      "sha256": "3e49b2bdd16af31cf4dac9fb062dae49347e8167d93e6263e908e72c3e4151b5"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__clarke__precinct.csv",
+      "sha256": "91c8b9fc5de0576102f528047bd8d2f67c25c859cf18b8936cd44a49f714168f"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__clay__precinct.csv",
+      "sha256": "edee88d44111ab6f8c7986986842f85e2438756a84d5ade82da203fe143a5920"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__clayton__precinct.csv",
+      "sha256": "4bca3b6100526320874d8798d2d67751037830227b73eec0f7a33d37caba9cb6"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__clinch__precinct.csv",
+      "sha256": "644eab6c87292454207dabbcb0806945d92206c3eca5fbe1a4afe65eb73b1273"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__cobb__precinct.csv",
+      "sha256": "2dc5454c4c0667c511e113ad8477eea53063e67f5b94825b2b77be0e4ec14780"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__coffee__precinct.csv",
+      "sha256": "7deb22f8630b1f435474814568c304d4ae0054480f3966bec45f13e4fa9b4351"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__colquitt__precinct.csv",
+      "sha256": "af52ccc0dafe407fc5943b4a084ab0db4e08edb2a522d0227bc04e46b067cc2c"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__columbia__precinct.csv",
+      "sha256": "88478280e6319226acfe168ad43e31409a969ea20504277e00ee4c28127185ab"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__cook__precinct.csv",
+      "sha256": "373c1b940a791318967d3e903edd2de79977a1684d503e3bd5bd49bface71953"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__coweta__precinct.csv",
+      "sha256": "808334f7f56e77af4cccd94eb0ef848cf64d9b5232dfbc8f16dd98fb52d0d784"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__crawford__precinct.csv",
+      "sha256": "8ae0c598ab9972bb7cd1838a2520bbc55e12fb22aad92fae017955afc58e1a1c"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__crisp__precinct.csv",
+      "sha256": "01643c9ef2ec037525b68a8e64d9089fc0027f72749c9efbb831208d4b5524fa"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__dade__precinct.csv",
+      "sha256": "71424857b54c16853d85ff438b78175a88126e8f528dc4e10619e2a79100610f"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__dawson__precinct.csv",
+      "sha256": "ba00788a82b7b2700e534a31a393089c4c17701e5ee6d128750a08ccf9cd64cb"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__decatur__precinct.csv",
+      "sha256": "4ce7b4729f73eb8f022c0406ce2655f7364f2755015342dc5d0f799eb85ee967"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__dekalb__precinct.csv",
+      "sha256": "9e621639bb96b482433bc049234ece467951a3d2487dd57e0db468d7ad935ca7"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__dodge__precinct.csv",
+      "sha256": "07bf3705971b0bbb7e2258f0a4e4ec84a4c9b6a750d5acd2dcf9165d47c81ffa"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__dooly__precinct.csv",
+      "sha256": "dbc9c1ed8972d2dc0979d174f3b7d4d56c5462a67f46332f5823a099d3229000"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__dougherty__precinct.csv",
+      "sha256": "8a392c4bf9fe5d8d9cd095db84de6c74a02644b6b6a9f593570fc38442c06457"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__douglas__precinct.csv",
+      "sha256": "d1a72a1eaea6800f0cd77c19784a6257631d46c9d3c1a12fc7d5ed5cc934253e"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__early__precinct.csv",
+      "sha256": "87cb2a3c286865265d080f4156b14d1b89abab5c1ecd763d99bc406b37e05852"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__echols__precinct.csv",
+      "sha256": "1dc4469a374d261d95e0f8985333ac963f2f46b613a48f54045425819926f83e"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__effingham__precinct.csv",
+      "sha256": "b0642bf832de6674d8471c3eafaccca8cf3b83eb1a0cad64aa47b113eecc5ddd"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__elbert__precinct.csv",
+      "sha256": "e41d6b8de13827c513c8a4559a7569102923c8936cf98bef6b06b219ce870865"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__emanuel__precinct.csv",
+      "sha256": "0dc801781f39c2a5ed55e15bb5cb07ba0ae245d787a6ccdc63d0af3c0a44d3cd"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__evans__precinct.csv",
+      "sha256": "2b3991aa400ad39e04b474707aacb1ba960f3fd6e8a67326734e1e2bd6d49c01"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__fannin__precinct.csv",
+      "sha256": "7518e7d1e112609dbff6410f52b5d8b67d68c5c6fe0c5dcc25099197c9d0cd79"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__fayette__precinct.csv",
+      "sha256": "294f46a7a8df04f726a3fdf659dfd78e46975baef7aa2cf949b60b2005a0ca18"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__floyd__precinct.csv",
+      "sha256": "be83780663d0d4eceafbfea246d97d9c578a60735863115c9bee43be72225a10"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__forsyth__precinct.csv",
+      "sha256": "5f3decf7dcc9a56fb28e32d2b721e71c08367b14719478c63613d144ba8e5aaf"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__franklin__precinct.csv",
+      "sha256": "c9ce87e1d47adfa017c69d65190546c4b46285bf0d5e2f6589d6e80ad4a61934"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__fulton__precinct.csv",
+      "sha256": "f8766d57fd4f1cbef8a53bdcb1fd70fe2b7004a4d3718cbbe890b7dfbcc43465"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__gilmer__precinct.csv",
+      "sha256": "b99412665bb3857c0ec4a5623f160e0c47c433fc377459f976e9155c72766f46"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__glascock__precinct.csv",
+      "sha256": "9c5b6a5740a26d80f05d3ad693145bd34bc4a57cb0792c16d1eca2bb7e19fee6"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__glynn__precinct.csv",
+      "sha256": "67617a752995f384d2fe1de364e4b9c5d6ca023e4b3255989d1f8659cc0a3304"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__gordon__precinct.csv",
+      "sha256": "7ff1901fec5aace2f516d01bbabfb41bf241ae2ed60618fe29ff6890edc6e7e2"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__grady__precinct.csv",
+      "sha256": "3639b667e24e03bb93544c798a86f54d6231198fe1604cbae4d0c2d4cc05994d"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__greene__precinct.csv",
+      "sha256": "1912f1075f1a2e7175b3a8f2c612a734e9690b5d6c1133048141da941d067f9e"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__gwinnett__precinct.csv",
+      "sha256": "fce9796e339ce8b4f96c581ee15e3ad160ccdc2f1617a1bd627831c2c38f537f"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__habersham__precinct.csv",
+      "sha256": "97e12ec2b265d8baa9502769979db4588ccb2eb6eece2d35da36ad9363d0e334"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__hall__precinct.csv",
+      "sha256": "c0b0a7b94f1d557db8b4acd0201eb0e68172c2a9d43a77faa4c3ecad64991874"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__hancock__precinct.csv",
+      "sha256": "2f08eb6460dcb7ec40c1744a63baf2dc7e2e0c5b8932d97a08b4358a8df6814a"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__haralson__precinct.csv",
+      "sha256": "92d61ae0f77f72edee25ad750031875a912e99251dc9ec70f1d1b11b33de5058"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__harris__precinct.csv",
+      "sha256": "60edf88b83a90a1a90f847811d1ea80251cdac0f79991c9df0e5dde752fca590"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__hart__precinct.csv",
+      "sha256": "c93ce12e4a5ca148a98e48d9581fce20da72489bff41d7c1f162205b1405a4ed"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__heard__precinct.csv",
+      "sha256": "b1b033b202993a3b90518e0315e04b383ba09296f949b8a49b02f937cf8ed7e7"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__henry__precinct.csv",
+      "sha256": "5693eac73630deb7f7691d58aef6718e74eb7345d12d62122dd1a9668ccbe9c7"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__houston__precinct.csv",
+      "sha256": "2bbf2c12300645261753288ab707365eb0a9103eaacb26ab51166fdfc576380f"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__irwin__precinct.csv",
+      "sha256": "8ec065951a5cf1112035e8f8dc6785a4f29b76a18593bbe7eabccc972cd41aff"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__jackson__precinct.csv",
+      "sha256": "3c9d45a18644868e991adbfb17c408845eba1f2ad27c56db0e1913a6bf6397f0"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__jasper__precinct.csv",
+      "sha256": "686c8000f4134c864a158336acef57e3a7fc1ae808dcad59f769bb2c328e7f3c"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__jeff_davis__precinct.csv",
+      "sha256": "b57b969ef6824eb071f37ff74578757b0838036c3019e2f27f9c686d32aa357e"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__jefferson__precinct.csv",
+      "sha256": "fd2bf82dfc1a849908cd1670d777afcd9e4f3a823ccbe0340370e5cd6176aeb1"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__jenkins__precinct.csv",
+      "sha256": "2cde956ab335be7bb25e74ffc828a8cc31e90eab12b073cf2803944c0af8bbcc"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__johnson__precinct.csv",
+      "sha256": "eec5b0563010eb510194d529aa2245c991573a74524b8a4f70087de99fb4c717"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__jones__precinct.csv",
+      "sha256": "a520cf0c5925d0d7be2d69119224d0e27b4bba1dcae8eae03240546ae207ec51"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__lamar__precinct.csv",
+      "sha256": "3fbd8896c639cf3460bc6a6db4983d6f2155e3a00f131435dc4e31b3db64aa4d"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__lanier__precinct.csv",
+      "sha256": "14c1367d4c92be82cf5be9b02babb09a7ec416d7c9881944399abe564a66328f"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__laurens__precinct.csv",
+      "sha256": "cbc4ef9d4d6e15f522d501df10a65e5dbb22e59a2360cf99a59e46107350da2a"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__lee__precinct.csv",
+      "sha256": "8e2ac4ffb75735208d9b4746a94e275d2fc04f0351da390eb6161f2582236e1f"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__liberty__precinct.csv",
+      "sha256": "cc580a250212ff63578bb14cc2d7df6af44b575b638e376ed033d26c78e82d4b"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__lincoln__precinct.csv",
+      "sha256": "500458d148f305f3f7ea6b3e4b3af9ab1fcb17e440a53b52767d03c139d476be"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__long__precinct.csv",
+      "sha256": "1b0536f703a0046aba32e2446c87d5d3cc3475dcea23d5990fed31bc8db31745"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__lowndes__precinct.csv",
+      "sha256": "ec065d3c1cfc28139d77bf923aef32bc3b665da41b66880eb15c78a25d224a62"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__lumpkin__precinct.csv",
+      "sha256": "a0fbec0a340d6e42ff15ea408b4ac1a17f8b458b3a5f2c3b06bd3e62a45e4a37"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__macon__precinct.csv",
+      "sha256": "bb4adf0b875b61e8cbb508cf6049e70633d3744ed4b281db1ea75e8563cdacc5"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__madison__precinct.csv",
+      "sha256": "89c187eafbe4c3c120a4b3c3a3d8abdbdb5d5339d0aa7646930ee904eb3c834b"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__marion__precinct.csv",
+      "sha256": "b613822b7afc30232a665e5c21e1eee1f42616407da5ef95e31ef0dd460e1355"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__mcduffie__precinct.csv",
+      "sha256": "3cdbc7e75c593ade519099234c0ffe60406012198ef619dfcd0f451a1c608c8e"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__mcintosh__precinct.csv",
+      "sha256": "dda5e500f1655162a4602d2f2ea68f64e9f5100807f6813b73f3a7c603c2f4f7"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__meriwether__precinct.csv",
+      "sha256": "0c58805c2a650eab64147da4a87d724db6dc5f4afb4c28639312511f6dfbbf1f"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__miller__precinct.csv",
+      "sha256": "a0b69cc5eb50b6f5a1a121a94d80df2812e200ffbda2d6e1d4e3268bedad4d20"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__mitchell__precinct.csv",
+      "sha256": "453fbfdfe64acb29728eb1e6634cf10dcff8c0320917295a8d3ff6bec26aee26"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__monroe__precinct.csv",
+      "sha256": "32cb78fabc8d77682c05c66df513e263200c8094d99ecf74c988694affbcb9d8"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__montgomery__precinct.csv",
+      "sha256": "6de4ee2e783320ca58c0731246f43dea0ce3c9946cb4bcfc447c61452cc9c74c"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__morgan__precinct.csv",
+      "sha256": "2e41308e85d36cbe92e697cb2014e28af47bb5ddbca1bcda128e44148bc39880"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__murray__precinct.csv",
+      "sha256": "aa56f4ea29be946d8777b0954f2e2a02edfee87485e58319c21522dfe1c5b36e"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__muscogee__precinct.csv",
+      "sha256": "723d841846d347e7b18053199e0cf4d7243f5e84a5d7d233a8e6432843fc1d1b"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__newton__precinct.csv",
+      "sha256": "e50b00611486c35be6957f72c10c9b0026f3cc38b3f8021a80befd1419883f06"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__oconee__precinct.csv",
+      "sha256": "3b03c12b7dff437d07d0aa8b9ab011fc61d98653228873981cb3277c441d19c2"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__oglethorpe__precinct.csv",
+      "sha256": "aef8b072c96ee6583168164e09bcf8ada5dcd8c24285d02c55e21c5930da9f24"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__paulding__precinct.csv",
+      "sha256": "0516bdd0cb44c5094b4ac6b6a92e603c1a114795babcc93dba12cd9f061896b4"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__peach__precinct.csv",
+      "sha256": "7791ab35bad3af9ef250149c0de6d5f79da168f5727539ee312fbea04c38a70d"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__pickens__precinct.csv",
+      "sha256": "226b5f90e43502381f2d11e9083c1e116cdfaec223c88be986facd673c478b29"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__pierce__precinct.csv",
+      "sha256": "28f2b18cd5b9194e0ecf57504cebed05e4995453e47bf85f126f31ffb8bcd781"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__pike__precinct.csv",
+      "sha256": "464c0296c18fab7761dcbeb29af23c0b452f59ce8f8bf11db0a68750bf8ef9de"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__polk__precinct.csv",
+      "sha256": "f22952292569c6bb56bd989127080649c2bb1ba02c8957cfe0b395ba688f3eda"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__pulaski__precinct.csv",
+      "sha256": "4442804b31cb1339c1018034d9ef9393f01f73c88f13c10949b441c830cc1ee2"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__putnam__precinct.csv",
+      "sha256": "c299b896d4853086862c4f268c42ff9461a1333c3161e47e4f3ded32310fcc54"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__quitman__precinct.csv",
+      "sha256": "d76a14d3236c2791232b28e76388faf4be925c895a01e0dd8d68dc1c50fd311e"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__rabun__precinct.csv",
+      "sha256": "8c4c7e6df2a042ecce95d8864c65ea768dda07c1297398fe251233eedbe1d75e"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__randolph__precinct.csv",
+      "sha256": "45c4380d4cfda7b3d3898808ab76be8ac38e40b1d30aa1730345f4ada7e6ed98"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__richmond__precinct.csv",
+      "sha256": "80e15e0359157349413c3f6948d0ff268f58faddb0bc9233283262aecbc93f6c"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__rockdale__precinct.csv",
+      "sha256": "04cfad32dcfc78aefe173c07a816108e8440568ba0847caf96c99a4694c0dd3e"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__schley__precinct.csv",
+      "sha256": "bde26599aedb2e8214dedaab82bc3bcbe7619f200960db148d9a1cadfb9d74f3"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__screven__precinct.csv",
+      "sha256": "80cf6db129c07b1385866eeb7113825c03b7b3720aa59cc18b927cc622b3e24c"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__seminole__precinct.csv",
+      "sha256": "c328855e2838f23cf2485aa9d4eebee877fe61937212f32344182aa7ec69b104"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__spalding__precinct.csv",
+      "sha256": "c325d22aa5b3d58585b9865dbdbb32d8d6b8447df2658845ce10132ec210f53e"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__stephens__precinct.csv",
+      "sha256": "a4460f7ed2f3c8d83566911cfb2ccd8f7279c9c645c70aa1b8aeb7739ed07775"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__stewart__precinct.csv",
+      "sha256": "e6296986a5587e5efae11b9e9c08b4bbe9e00de58e97c2ba0477821af73b2021"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__sumter__precinct.csv",
+      "sha256": "694983db3924e9b5b6cd684fef089ce39c532c4bf6d93c92a9a2df50c50f817c"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__talbot__precinct.csv",
+      "sha256": "f4d0aea80d319e92de88961d16c1411d1301faf56df2466b73b263a6650261eb"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__taliaferro__precinct.csv",
+      "sha256": "c2cf3af17662cb285761cba83b8dac3a07cb14288f3fea0d6b54429f878147d0"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__tattnall__precinct.csv",
+      "sha256": "71e1fa1d185afc124e835ba61f6e51121c5092c7e67cc3b175d00105da9254f3"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__taylor__precinct.csv",
+      "sha256": "53bc0ff781426f4ad92ef4069d9e127453aef7b85f5d0302acc2882567575f78"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__telfair__precinct.csv",
+      "sha256": "81185c836e61ccd9854b0675263e1cc560807cd228316f17cf3316b4e5e0a8c6"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__terrell__precinct.csv",
+      "sha256": "c633225db21d9761a07481f96addc8fc88fdbf2876558e60075e8270e335fb9f"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__thomas__precinct.csv",
+      "sha256": "6e59fbefbc8b078c99470884c45464753a89e0f8ba47c2fadc69bb426cba37fe"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__tift__precinct.csv",
+      "sha256": "15743229651a3551710dd7ac9dbc2647092175cf526d09bd320db8904e195179"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__toombs__precinct.csv",
+      "sha256": "523e3c574cba31cb9c87c8baf51ff9bc6dd719cb077b0540a3f040a5c1d6f52d"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__towns__precinct.csv",
+      "sha256": "4e8a34b925c564a899742a83514a7166575dc54b23020904cc111b4dda61c5c7"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__treutlen__precinct.csv",
+      "sha256": "8a943898fc40b2f3ad874b55917c0ca61de4c36de7afff9c8eeaf9242a1dab3f"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__troup__precinct.csv",
+      "sha256": "191c0ad3d76706fc54206c31df4ece7aec1fee88a3dd87896d20eb4ecd864b01"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__turner__precinct.csv",
+      "sha256": "ee2af47f0227a2c8c98909a17cdc5c388c0ba2e09505dc82be6f2c304e74af33"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__twiggs__precinct.csv",
+      "sha256": "45e6fb2cb668a8149b19f696992d30a6ea3b4c6800a467890b3d0ef6d5294e5f"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__union__precinct.csv",
+      "sha256": "32f8215a28d26ec042606f9bc8503f82ac7e06fbdfbeffe373425382b5d8ab45"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__upson__precinct.csv",
+      "sha256": "c4fd6431b9da3ed48280f45c2195743ffa70d6ff3f2fd768fce4603c848069a7"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__walker__precinct.csv",
+      "sha256": "d475eb48880e7a242708c3ccb1f36377c76b5933a9a81b1cd14736afbc84f8e7"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__walton__precinct.csv",
+      "sha256": "c67e978a4c32c13b45c90a613d10c57e0e5e02710f7df722a8588eac3122ad23"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__ware__precinct.csv",
+      "sha256": "3ef9ec8a12602b1f7f514562bf26abff63d7d7debd2a2337a3d3e327c5b45dd5"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__warren__precinct.csv",
+      "sha256": "68063c688c277d11e4f610f8b16d271ed04fb870b70d306f44e4947349a32404"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__washington__precinct.csv",
+      "sha256": "bd0b2bf40569409920109a5e0b7c03f250f070d3f1070c5d318fe958b5cbd023"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__wayne__precinct.csv",
+      "sha256": "810e693892c6c4aedefa245ac1fe0fdb70aa0359cc878b89a2d18e0742af92c7"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__webster__precinct.csv",
+      "sha256": "f473ce06ff685e836945412d5a9b24b2c10b2b18ae1673a45362a14e7ad937d3"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__wheeler__precinct.csv",
+      "sha256": "246128ee991f03d54f09fbeaaa06e019eb1a7796f0bfbf0addbb322fdc07577f"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__white__precinct.csv",
+      "sha256": "3402ce6870d90dfdd42c061f7386ce174f25bedde80d51a269e32ffec47fa3c7"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__whitfield__precinct.csv",
+      "sha256": "52f9c2514c079a06ce810c8b2e7a5d193a2fa306a279c08cb09da221dec6e620"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__wilcox__precinct.csv",
+      "sha256": "1f2518c91c2f1954717998b89d6112a55e60b854dfaa5021f791f8e9774f69ac"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__wilkes__precinct.csv",
+      "sha256": "e77e66d88725170a6b8b52f4c7e2a2d9b7a2992d869bbc0952833422b99dda23"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__wilkinson__precinct.csv",
+      "sha256": "221241937d5ee66e304c161140221ccddd5a5e7845073dc6007534a46796feb9"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/GA/2016/20161108__ga__general__worth__precinct.csv",
+      "sha256": "7307eccc4fd0c919a8e64198b4b50d557b28c6f3eab1acf1b04525f9a096d6fa"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/MO/2018/20181106__mo__general__precinct.csv",
+      "sha256": "7b6e35d1d42245bfcf60da5d8cf9e61a2a3831c2e6e86661d7b5cab085063031"
+    },
+    {
+      "path": "data/raw/openelections_historical_gaps/SC/2020/20201103__sc__general__precinct.csv",
+      "sha256": "b11e6c4a37a054a45845ab0f480364c00ef3a77eea31ae997e9ff73235de72db"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__arkansas__precinct.csv",
+      "sha256": "ca4a4d28b18cc16189351d10d97f9ca138176790515df153942e373fcaa9116f"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__ashley__precinct.csv",
+      "sha256": "539e662b816b0affcc91b3a98c32e052ae6a67c2cfcc00ca0d43addec774178d"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__baxter__precinct.csv",
+      "sha256": "89c8e57526ccb09ffefe758d3ee678fd75347e62991e1683c406f2799916e132"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__benton__precinct.csv",
+      "sha256": "bf3ce8092b29d8205cc91b3a2fc38ca7725cb859826e7fe0f71a930fd31d2113"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__boone__precinct.csv",
+      "sha256": "36a9a5169cfeed025bbc27193577d42f5841dce2c1652a3fe644a0c034f8316a"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__bradley__precinct.csv",
+      "sha256": "96d862db37ed6823ee7d2ee397d59ceeebe447d95ca706fb2ff1700a73675379"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__calhoun__precinct.csv",
+      "sha256": "ea7c9caa5f5dec9039a4943daffccb137fae2fc45e7fe8b4721dfd74ae586a6f"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__carroll__precinct.csv",
+      "sha256": "780fa41a2f8f22a000dfa8e3b0df1d5149d5f8ddda78918dd9425a8473ab18f1"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__chicot__precinct.csv",
+      "sha256": "28fdd6a9871e55b0ceaba434e37f034d72c25a014bf4b7e8d07a4c740bdfd9a8"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__clark__precinct.csv",
+      "sha256": "00c4ccb28895c10d532674c87d2c19f4a4b19d3a1c451eaf8457b630ea8f63d0"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__clay__precinct.csv",
+      "sha256": "79a12cc3ae97fda0d6e4f34f7ba95e161495e613807086c465d23df1fffd124d"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__cleburne__precinct.csv",
+      "sha256": "b133e125fdd8f66c6134ec12c2348fc220ba2d26fa8d893d6e43be22030acffc"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__cleveland__precinct.csv",
+      "sha256": "041c08cc075ad23a863f3d0e11178a7e6badc81ba7002a3eaafd97b528d046bb"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__columbia__precinct.csv",
+      "sha256": "71f86205e2ba1c30b956450e463955a9851e5778e8d2209340c70b9866544660"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__conway__precinct.csv",
+      "sha256": "a687d9e8b83eb079fa0a8208e55e02702db972ed3eb44b4d3a56247a335f5d5a"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__craighead__precinct.csv",
+      "sha256": "9a716d07d4e35f1b43be8eeb892fdc28dadd16593c30a15234324c05e7f23004"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__crawford__precinct.csv",
+      "sha256": "64588511a94bce7a6fe4308d6e9f8a5e83510cef4e4add9d02f1108048d22509"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__crittenden__precinct.csv",
+      "sha256": "55c8956cb45710b2bdd4938a503ae70d003d9811b2e7b2770f9687a089a1abf3"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__cross__precinct.csv",
+      "sha256": "cad2c40f578ce66142077d4158de1763f56926689889d27dea3bb93eaf29f1a6"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__dallas__precinct.csv",
+      "sha256": "5d8986ae0b6e00ffa3f87ddc5ba47e240ad03e73c1a7621a82a50551aa36ab5a"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__desha__precinct.csv",
+      "sha256": "44c246c248dc75b02d38440854f34d9756b13233c2e7c30c2b2f869d2bc74db9"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__drew__precinct.csv",
+      "sha256": "66b2630dc3152d1f087b26f862b513dbb46c5140cdacafb027fc48b87f66ae33"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__faulkner__precinct.csv",
+      "sha256": "1b2085aebccde8567be9178429ed98da1c1afd697547f939f7eb409980de589c"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__franklin__precinct.csv",
+      "sha256": "603aefdec4bf85d5db004c25e8f9d5f76f87a57590c8e82e0399aecd64ddcad8"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__fulton__precinct.csv",
+      "sha256": "b024bcf8b31f6ea602eb31af97c3a2eafa75fd5443d4188cbac3739378b5b731"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__garland__precinct.csv",
+      "sha256": "a097258ce12f87776a77b8c566dd06587e55fce8b53645b4a77fa926fe6ff89a"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__grant__precinct.csv",
+      "sha256": "6d644e2134816cbf89a0997c92e59c36a7847dc6be2e55ced2bc6626a53b22a2"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__greene__precinct.csv",
+      "sha256": "218d04e87f2f35458819839507593327ad65ae8986fe3c08917022eb455ce64c"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__hempstead__precinct.csv",
+      "sha256": "888226e15c89c69e2aa193096fdaafdc7a88965065d22f49ecce4eb32c12a179"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__hot_spring__precinct.csv",
+      "sha256": "2fffa7d19e01f68c28e2cf96aef80194725d6b04a0e36f8b1320c72420d6d6df"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__howard__precinct.csv",
+      "sha256": "c48186ec0429d6b4d92bdbfce84425c4ef2b722085582e6685670feb3bcf6ae2"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__independence__precinct.csv",
+      "sha256": "76250b0d74c22075c6ef3cc7e29975ca819f5eb8bd011c3bcd3596e39dc93997"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__izard__precinct.csv",
+      "sha256": "a905e4e820cc87c9ab46fcfa96eedfb3494fb647107f48c2000698a3ac1b000f"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__jackson__precinct.csv",
+      "sha256": "bb711c6acf6dadaacb93b5eb0a7c50856a39c903a6b1320a5761813247af0a41"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__jefferson__precinct.csv",
+      "sha256": "01676bc2f47cc52761bd60823cf69372918f752a036164d6f19a3fce77e722fe"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__johnson__precinct.csv",
+      "sha256": "e87f2750e2228352538e10b8a88ba7dd0998c00975b9addba82ee280bcc89649"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__lafayette__precinct.csv",
+      "sha256": "ba09aa78ac2d3efa8d86b18c0832956c0e8137c482e51ac1b586dc1a295ff376"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__lawrence__precinct.csv",
+      "sha256": "9cb22137f5547f8c12c5c8fc7744190a47b2f0a5ac27d7d4eaa687f3f2d474b1"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__lee__precinct.csv",
+      "sha256": "8d3f50b41850d6edf639ab75f4999f9b94459c2696e40df0eec230d898321ddf"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__lincoln__precinct.csv",
+      "sha256": "4caf93881c3b695d3b072d47a99091c34ff03a1b35bf5f0f39f1a49a05aca1fd"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__little_river__precinct.csv",
+      "sha256": "4dd7a9beb9dc40799e33d074da7babe8023c0e59b5780e97b39b17b0859660f8"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__logan__precinct.csv",
+      "sha256": "5cf2c9f49d9c52438ecec23aeff4ad1a1768e81e9c62c38fd924dd068aa813a7"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__lonoke__precinct.csv",
+      "sha256": "3984e69782aa90f24c6457ef32da2f75e3e422e49e4fb4b885a15409ebd56159"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__madison__precinct.csv",
+      "sha256": "5ac9f846632fdcbccd23347db509afd5b6b8733ae75c5230de6d4d02c3af8227"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__marion__precinct.csv",
+      "sha256": "cd71fbe7045c03b3b62f7dc02fc601758507f7ada46426b75ccc87e51af096d5"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__miller__precinct.csv",
+      "sha256": "32c2d46f9131d3915f3d55a4e7e584bb502e07e4a18ff1a2a78a6494f8225699"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__mississippi__precinct.csv",
+      "sha256": "f7ab2856dd7e28a81253df5367c9910153af5353c81e16b0f8f45aa8c81be012"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__monroe__precinct.csv",
+      "sha256": "4b34556a52349f243fd71a4c16c3bf4b7545e837d0509fa7f3c69a5e2a3e41a8"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__montgomery__precinct.csv",
+      "sha256": "ba40e4655a0652a0948c48f2e623693b53a8d321699108517e026bd4fe5b13b6"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__nevada__precinct.csv",
+      "sha256": "8468d81d440ce30042c97d3622b385d1f600c16eb229124f9d7d2def03f02ae2"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__newton__precinct.csv",
+      "sha256": "4577b2ccf9ece3d58ddad52f46aed26e209463d0de5527eda0278838b394945c"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__ouachita__precinct.csv",
+      "sha256": "571c47269a33b1c5cbc60b81b69b904315681ab84c8c135875a63416f840884b"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__perry__precinct.csv",
+      "sha256": "10ecd72d82aab25ed03f41a40251b8a8399bd396a3069a68cf82e2a7c6cea993"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__pike__precinct.csv",
+      "sha256": "145da7a3d032f2e7a8f34c33c46e85318bb048910bca619cd14628944516d973"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__poinsett__precinct.csv",
+      "sha256": "dc180a5ec0575faacb7cf34877bc1730455eaecad500a29d3cd8493ed7ceab41"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__polk__precinct.csv",
+      "sha256": "12464341d9f7417ea327e9303b570ae91721f84d32c4b50e545f90ed0ba48c1f"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__pope__precinct.csv",
+      "sha256": "0f8260957ea0a0da07bca7e155047e89c67d7e5ac2d30285666d2e237b5d3a18"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__prairie__precinct.csv",
+      "sha256": "134be75620b2e829d3db1bced53040dae6a244a36403504045270c3d3d16a25a"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__pulaski__precinct.csv",
+      "sha256": "b9395097b3cc35a619148df1e7eb7e5d419e6c8bd8c2859c10b7e07832503bdd"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__randolph__precinct.csv",
+      "sha256": "71762904e61aee94e2d4ae869ccc8f101f23b4692720218921300a768451fa52"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__saline__precinct.csv",
+      "sha256": "6ff8c7b63c371146810bb5a6c47ebc4ae6a2eb9125c59e61d6589a56177e815c"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__scott__precinct.csv",
+      "sha256": "14a6907d02126abf939a715a236c1fde1adda75ac601b65a826d3bbb29f63e01"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__searcy__precinct.csv",
+      "sha256": "93e122333cf3c5089a351a3ef47de08ac813b290a9a941ca74327421ce6284c1"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__sebastian__precinct.csv",
+      "sha256": "80fe5e66bd29630a9d5a6d8156eea06887acb0267e1b5f9c557445f4bb25fbee"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__sevier__precinct.csv",
+      "sha256": "5ffd9fc8e675a78adbb1d168530b45e529a6fd8b26527b12104b9edca694fd79"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__sharp__precinct.csv",
+      "sha256": "615ce9756cf16faabb0d717f8dbe5e4bb4442a08dad6700890eea7e0c8e38ad2"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__st_francis__precinct.csv",
+      "sha256": "4d500380820664b58eca953f31302e1f836415d3a7f2aed1f7f04aacc88edb2e"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__stone__precinct.csv",
+      "sha256": "4bbb50bbe07ca69f90f96a32b3ae0e21049137ef01a544573b6f13cff52a03e2"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__union__precinct.csv",
+      "sha256": "f97ba33cff8025a9eabec063936cb75ef6c0108ddc0e9e44e51c5e695459a6ed"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__van_buren__precinct.csv",
+      "sha256": "459c6e90919c7a7d605fcf4dd830a034c5294950495665153fb8ed02d9f5273b"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__washington__precinct.csv",
+      "sha256": "516af503e04c4dacef572ed133f8cb4a5effc28523abf0a5324234bb13e601bd"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__white__precinct.csv",
+      "sha256": "ed4c6a2ab54519f8145c45b5900afd5f6722963255791eed0076ce0f0598365c"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__woodruff__precinct.csv",
+      "sha256": "e71573c20b09bcf57d8069953d548616b3bfaf63f792cc91884838fb743487f0"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/arkansas_2022_openelections/counties/20221108__ar__general__yell__precinct.csv",
+      "sha256": "aad63dc71ac2ad7bb94dba0cf0fb8bbe1a720e0efb212bedd1953d839dc6013d"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "data/processed/war/southern_war_panel_v1/baseline_observations.csv",
+      "rows": 14279,
+      "sha256": "3f53f12925fcce34f1becb9b973cf9edb78f3f254c33a2ccd011fe7c24004b36"
+    },
+    {
+      "path": "data/processed/war/southern_war_panel_v1/louisiana_legislative_stage_candidates.csv",
+      "rows": 2453,
+      "sha256": "22c44683ab828bce4a6d16e3ed21573b058ee2c171a6deb0302b0d37169ba034"
+    },
+    {
+      "path": "data/processed/war/southern_war_panel_v1/louisiana_legislative_stage_contests.csv",
+      "rows": 909,
+      "sha256": "03593afe6e1b980f81ce4f0295f2bbe38742211a0cb5453a3f56ffc91d80eff3"
+    },
+    {
+      "path": "data/processed/war/southern_war_panel_v1/louisiana_modern_baseline_audit.csv",
+      "rows": 8,
+      "sha256": "04232596ba1e6922e18c2cf4b90e58d771e32e2d06fbc8b01068b93a4f1b4c1c"
+    },
+    {
+      "path": "data/processed/war/southern_war_panel_v1/medsl_ballot_first_audit.csv",
+      "rows": 51,
+      "sha256": "6dec957e71881f642acb262890a9faa0f0ff604b99993d9ba89a855409a24854"
+    },
+    {
+      "path": "data/processed/war/southern_war_panel_v1/race_outcome_observation_audit.csv",
+      "rows": 32132,
+      "sha256": "251962c26d8ac04ece12c08f4c6d459b31bb7c7ccb5ddf1090e487430bd7b61c"
+    },
+    {
+      "path": "data/processed/war/southern_war_panel_v1/repository_election_source_files.csv",
+      "rows": 5377,
+      "sha256": "02c4691e1e3e7894b385d930bb9cabf7056cc729751c85e0165d812feb47a55d"
+    },
+    {
+      "path": "data/processed/war/southern_war_panel_v1/repository_raw_source_families.csv",
+      "rows": 23,
+      "sha256": "1c3026595d7133562b2b75c3afced1175788497aafb1a4f3f398d6d3efe7fc75"
+    },
+    {
+      "path": "data/processed/war/southern_war_panel_v1/southern_war_exclusions.csv",
+      "rows": 20959,
+      "sha256": "99b9b3f86830aebb64596ed6e776ea28bb4b31f5727e1986122624184b47d145"
+    },
+    {
+      "path": "data/processed/war/southern_war_panel_v1/southern_war_panel.csv",
+      "rows": 28307,
+      "sha256": "8cfbdfef67e73546d46186fe741ee7bb06b580fefc3476a4dc5b8a7e7f28cb50"
+    },
+    {
+      "path": "data/processed/war/southern_war_panel_v1/southern_war_panel_coverage.csv",
+      "rows": 384,
+      "sha256": "376fee4a7b40c2d8168be024df5c931ba0a3e0e0b0ef27b0fed8db5567f9d2a6"
+    },
+    {
+      "path": "data/processed/war/southern_war_panel_v1/texas_upstream_reconciliation.csv",
+      "rows": 2643,
+      "sha256": "64d49fa94eae3b8e096e65f06d4881a4450461133324ce934f22971244cdb6b2"
+    }
+  ],
+  "row_counts": {
+    "panel": 28307,
+    "contested_outcomes": 13213,
+    "strict_war_ready": 7348,
+    "research_war_ready": 7854,
+    "states_with_strict_rows": 14,
+    "state_years_with_strict_rows": 105
+  },
+  "missing_value_policy": "Missing source observations remain missing and are never converted to zero.",
+  "publication_status": "experimental research mart; not canonical or public"
+}

@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "welfare_policy",
+  "plain_english_policy": "Income tax reform to benefit mid-income families",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "The policy aims to expand welfare support for mid-income families through income tax reform."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"I believe that a fairer distribution of wealth is essential, and adjusting the income tax structure can help achieve this goal.\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

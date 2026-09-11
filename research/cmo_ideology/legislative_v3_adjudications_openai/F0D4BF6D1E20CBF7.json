@@ -1,0 +1,10 @@
+{
+  "id": "F0D4BF6D1E20CBF7",
+  "decision": "map",
+  "primitive_axis": "education_teacher_labor",
+  "policy_pole": "support",
+  "confidence": "high",
+  "rationale": "Increases the average salary under public school and college authorities, directly supporting education-sector teacher and employee compensation.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

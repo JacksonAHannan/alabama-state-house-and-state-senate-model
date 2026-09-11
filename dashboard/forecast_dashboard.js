@@ -27,25 +27,6 @@
   const competitive = r => r.status === "modeled" && r.demProbability >= .35 && r.demProbability <= .65;
   const intervalCrosses = r => r.low80 != null && r.low80 <= 0 && r.high80 >= 0;
   const leader = r => r.demProbability == null ? null : r.demProbability >= .5 ? "D" : "R";
-  const variableLabels = {
-    model_intercept_and_chamber:"Model intercept and chamber context",dem_incumbent_i:"Democratic incumbent",
-    rep_incumbent_i:"Republican incumbent",finance_ratio_capped:"Fundraising ratio (capped)",
-    ftm_finance_complete:"Both parties have matched finance records",open_seat:"Open seat",
-    finance_x_open:"Fundraising × open seat",finance_x_dem_inc:"Fundraising × Democratic incumbent",
-    finance_x_rep_inc:"Fundraising × Republican incumbent",nonwhite_share:"Nonwhite population share",
-    white_college_share:"White college-graduate share",ramp_x_nonwhite:"Environment × nonwhite share",
-    ramp_x_white_college:"Environment × white college share",prior_pres_swing_filled:"Previous presidential swing",
-    trend_available:"Previous swing available",post2008:"After the 2008 realignment",
-    post2016:"After the 2016 realignment",years_since_2008:"Years since 2008",years_since_2016:"Years since 2016"
-  };
-  const variableGroups={
-    model_intercept_and_chamber:"Model context",dem_incumbent_i:"Incumbency",rep_incumbent_i:"Incumbency",
-    finance_ratio_capped:"Fundraising",ftm_finance_complete:"Fundraising",open_seat:"Incumbency",
-    finance_x_open:"Fundraising",finance_x_dem_inc:"Fundraising",finance_x_rep_inc:"Fundraising",
-    nonwhite_share:"Demographics",white_college_share:"Demographics",ramp_x_nonwhite:"Demographics",
-    ramp_x_white_college:"Demographics",prior_pres_swing_filled:"Presidential trend",trend_available:"Presidential trend",
-    post2008:"Realignment and time",post2016:"Realignment and time",years_since_2008:"Realignment and time",years_since_2016:"Realignment and time"
-  };
   const fmtEffect=v=>Math.abs(v)<.005?"<0.01":`${v>=0?"D+":"R+"}${Math.abs(v).toFixed(2)}`;
   function fmtValue(name,value){
     if(value==null) return "Missing; historical median used";

@@ -14,6 +14,7 @@ STEPS = [
     "build_frontier_rollcall_ontology.py",
     "build_full_candidate_legislative_ideology.py",
     "build_legislative_position_evidence_v3.py",
+    "build_legislative_sponsorship_evidence_v3.py",
     "build_candidate_position_evidence_v3.py",
     "build_candidate_issue_valence_v3.py",
     "adjudicate_candidate_issue_conflicts_v3.py",

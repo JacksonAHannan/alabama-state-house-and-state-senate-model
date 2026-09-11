@@ -1,0 +1,11 @@
+{
+  "policy_key": "affirmative_action",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supports ending or restricting federal affirmative action programs.",
+  "evidence_quote": "*No.* The federal government should not continue affirmative action programs, as they create unnecessary divisions and favor certain groups over others based on race or gender. Equal opportunity should be achieved through merit-based systems without government intervention in hiring or admissions decisions.",
+  "needs_human_review": false,
+  "review_reason": "The option explicitly rejects affirmative action, aligning with conservative opposition to racial/ethnic preferences in policy."
+}

@@ -1,0 +1,36 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "immigration_access",
+  "plain_english_policy": "Providing limited welfare benefits (Medicaid) to legal immigrants using state funds",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "immigration_access",
+      "pole": "restrict",
+      "strength": "secondary",
+      "rationale": "Limits access to welfare benefits for immigrants, even legal ones, by excluding them from full Medicaid eligibility. The restriction is indirect but clear in intent."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "primary",
+      "rationale": "Explicitly restricts welfare benefits to a subset of the population (legal immigrants) by using state funds only for 'some' coverage, implying exclusion or reduced access."
+    },
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "Targeted funding for a specific group (legal immigrants) rather than universal welfare expansion could disproportionately burden taxpayers who may not benefit directly, though this is inferred from the wording."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "primary",
+      "rationale": "Uses state funds to provide Medicaid coverage, indicating a role for government in welfare delivery."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Use state funds to continue some Medicaid coverage for legal immigrants",
+  "needs_human_review": false,
+  "review_reason": ""
+}

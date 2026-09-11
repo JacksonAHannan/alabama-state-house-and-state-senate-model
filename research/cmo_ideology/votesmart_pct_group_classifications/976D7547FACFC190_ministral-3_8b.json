@@ -1,0 +1,11 @@
+{
+  "policy_key": "prescription_drug_coverage_managed_care",
+  "dimension": "healthcare_position",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Expanding prescription drug coverage through private managed care plans (e.g., allowing Medicare/Medicaid to negotiate with private insurers for drug benefits).",
+  "evidence_quote": "**h) Support expanding prescription drug coverage under private managed care plans.**",
+  "needs_human_review": true,
+  "review_reason": "This option is procedurally neutral\u2014it does not inherently lean conservative (+1) or progressive (-1). It could be implemented in either direction depending on how the program is designed (e.g., cost controls vs. expanded access, private vs. public oversight)."
+}

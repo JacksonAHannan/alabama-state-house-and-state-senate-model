@@ -1,0 +1,11 @@
+{
+  "policy_key": "terrorism_chemical_tracing",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Require that chemical tracing agents be added to commercially-sold products that can be used to produce explosives.",
+  "evidence_quote": "Require that chemical tracing agents be added to commercially-sold products that can be used to produce explosives.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

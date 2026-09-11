@@ -1,0 +1,11 @@
+{
+  "policy_key": "welfare_single_mother_child_limit",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Restrict welfare benefits for single mothers who have more children while already receiving aid.",
+  "evidence_quote": "Limit the benefits given to single women if they have additional children while receiving welfare benefits.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

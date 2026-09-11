@@ -1,0 +1,10 @@
+{
+  "id": "67229D2A284BBD40",
+  "decision": "map",
+  "primitive_axis": "market_governance",
+  "policy_pole": "intervention",
+  "confidence": "high",
+  "rationale": "Requires licenses, fees, and penalties for door-to-door commercial sales, directly increasing government regulation of market activity.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

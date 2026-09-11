@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "pipeline": "scripts/build_tennessee_1998_precinct_staging.py",
+  "code_commit": "ce5978cc83d4d145606b4268838ac6d656a1f34a",
+  "configuration": {
+    "ocr_engine": "rapidocr_onnxruntime",
+    "zoom": 2.0,
+    "minimum_numeric_confidence": 0.45,
+    "reconciliation_tolerance": "max(10 votes, 1 percent)"
+  },
+  "sources": [
+    {
+      "report": "house",
+      "path": "data/raw/southern_sos_elections/TN/1998/house-p.pdf",
+      "bytes": 8610369,
+      "sha256": "10c5f8bff7ef50d1b85f70d0d44727b7aa70a204f4456120dca0cf275763ab02",
+      "pages": 65
+    },
+    {
+      "report": "senate",
+      "path": "data/raw/southern_sos_elections/TN/1998/senate-p.pdf",
+      "bytes": 2689525,
+      "sha256": "ba3b1886104d5abc61f5be918915891fab7f773f1567be47681bee610f806559",
+      "pages": 29
+    },
+    {
+      "report": "governor",
+      "path": "data/raw/southern_sos_elections/TN/1998/gov-p.pdf",
+      "bytes": 4873630,
+      "sha256": "9b5465c51b4ce706e278715e82d5f6301a1c391b52d99a4b9d0ad969970a83db",
+      "pages": 48
+    }
+  ],
+  "klarner_sha256": "b4c0913fa7bfb0aff4da2dbf67a22da696e9f07b45615f30e78127edd794a3e1",
+  "row_counts": {
+    "ocr_tokens": 47212,
+    "legislative": 4008,
+    "governor": 2518,
+    "governor_review": 50,
+    "reconciliation": 117,
+    "governor_county_totals": 88,
+    "district_headers": 117,
+    "model_eligible": 79
+  },
+  "outputs": [
+    {
+      "name": "tokens",
+      "path": "data/processed/precinct_history/tennessee_1998/tennessee_1998_ocr_tokens.csv.gz",
+      "bytes": 1339226,
+      "sha256": "897c3f60ee450835ed3a5c40b25cef8d3c25f44ad4ef9b035f88fad90fdc34f0"
+    },
+    {
+      "name": "legislative",
+      "path": "data/processed/precinct_history/tennessee_1998/tennessee_1998_legislative_precinct_turnout.csv",
+      "bytes": 420707,
+      "sha256": "367e2bb62f3ba9e6a20df4166b0fbd73f36bab410247cce34286bc149f870f07"
+    },
+    {
+      "name": "governor",
+      "path": "data/processed/precinct_history/tennessee_1998/tennessee_1998_governor_precinct.csv",
+      "bytes": 265439,
+      "sha256": "a3d7b3455806d0407f2faa8a2038678c7ba563cf9fd59acd33ebae15b7c3fbd6"
+    },
+    {
+      "name": "governor_review",
+      "path": "data/processed/precinct_history/tennessee_1998/tennessee_1998_governor_review.csv",
+      "bytes": 4638,
+      "sha256": "620f0109333ba3deac6627ab764018e69c472115d57c1dbb8f2f22bd3f11b931"
+    },
+    {
+      "name": "governor_coverage",
+      "path": "data/processed/precinct_history/tennessee_1998/tennessee_1998_governor_coverage.csv",
+      "bytes": 6739,
+      "sha256": "090a4106aabd8e2ad4f814c775c03d08c06778ac03298c227b8929101995f731"
+    },
+    {
+      "name": "ocr_district_totals",
+      "path": "data/processed/precinct_history/tennessee_1998/tennessee_1998_ocr_district_totals.csv",
+      "bytes": 3131,
+      "sha256": "7441d7228d6ecf3f889a28b15bf4f9f5b355adedd48663e90f7de020a3cf5f80"
+    },
+    {
+      "name": "district_headers",
+      "path": "data/processed/precinct_history/tennessee_1998/tennessee_1998_district_header_audit.csv",
+      "bytes": 4536,
+      "sha256": "cc49c7d23fb60ea99e0a2f435742d2452f30d3973fc59595e759b38a15eae6e5"
+    },
+    {
+      "name": "reconciliation",
+      "path": "data/processed/precinct_history/tennessee_1998/tennessee_1998_legislative_reconciliation.csv",
+      "bytes": 11802,
+      "sha256": "69b75e17197e5edb3b79c8a6c03b4c0fe4b9adf75a046b349e0a51b657755057"
+    }
+  ],
+  "build_id": "b94bf629de0d40f3157c"
+}

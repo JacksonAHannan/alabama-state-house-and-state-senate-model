@@ -1,0 +1,36 @@
+{
+  "primary_domain": "guns",
+  "policy_key": "decriminalization",
+  "plain_english_policy": "Remove criminal penalties for personal possession of small quantities of marijuana.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "civil_social_liberty",
+      "pole": "expand",
+      "strength": "primary",
+      "rationale": "Removing criminal penalties for personal possession expands individual liberty by reducing state intervention in private conduct."
+    },
+    {
+      "axis": "criminal_punishment",
+      "pole": "rehabilitative",
+      "strength": "secondary",
+      "rationale": "Decriminalization implies a shift away from punitive measures toward non-punitive (or lower-stakes) responses, aligning with rehabilitative or harm-reduction approaches."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "private_provision",
+      "strength": "secondary",
+      "rationale": "By removing criminal penalties, the state no longer enforces prohibition as a public policy, effectively deferring to private (or market) norms."
+    },
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "Decriminalization may reduce enforcement costs (e.g., policing, courts), but it could also lead to regressive tax burdens if marijuana use is taxed as a private good (e.g., excise taxes on sales)."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Decriminalize the possession of small amounts of marijuana\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

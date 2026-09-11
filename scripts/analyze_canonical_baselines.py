@@ -9,6 +9,7 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 from build_geographic_crosswalks import block_assignments
 from oe_normalize import normalize_name
+from source_vote_quality import require_reported_vote_quality
 
 ROOT=Path(__file__).resolve().parents[1]; DB=ROOT/"data"/"processed"/"elections"/"alabama_elections.sqlite"
 OUT=ROOT/"data"/"processed"/"elections"; CYCLES=(2010,2014,2018,2022)
@@ -22,6 +23,9 @@ def clean_vtd(value):
     return text.zfill(6)
 
 def source_votes(connection):
+    require_reported_vote_quality(connection, """office IN
+      ('Governor','Lieutenant Governor','Attorney General','Secretary of State',
+       'State Auditor','State Treasurer','Commissioner of Agriculture and Industries')""")
     votes=pd.read_sql("""select year,source,county_key,precinct_key,office,candidate_key,party_norm,votes
       from vote_observations where office in ('Governor','Lieutenant Governor','Attorney General','Secretary of State','State Auditor','State Treasurer','Commissioner of Agriculture and Industries')""",connection)
     votes.loc[votes.year.eq(2010),"party_norm"]=votes.loc[votes.year.eq(2010),"candidate_key"].map(PARTY_2010).fillna("O")

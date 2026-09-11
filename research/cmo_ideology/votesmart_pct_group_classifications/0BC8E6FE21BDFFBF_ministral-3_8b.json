@@ -1,0 +1,11 @@
+{
+  "policy_key": "healthcare_patients_bill_of_rights",
+  "dimension": "healthcare_position",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Protecting patients' rights to appeal denied insurance claims.",
+  "evidence_quote": "Support a Patient's Bill of Rights which includes **appeal mechanisms when claims are denied**.",
+  "needs_human_review": true,
+  "review_reason": "Appeal mechanisms for denied claims can be framed as either procedural safeguards (0) or progressive protections against insurer overreach (+1/-1 depending on context)."
+}

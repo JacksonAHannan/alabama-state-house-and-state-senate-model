@@ -1,0 +1,10 @@
+{
+  "id": "7A5D2B3D79D1E716",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Establishes a complex, time-limited hospital financing and Medicaid-matching mechanism involving public and private providers, without a single unambiguous allowed policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "CCAF13AB30CEBA6D",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The measure primarily changes the statutory definition of covered health care providers; its policy effect on malpractice claims is not sufficiently specified.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

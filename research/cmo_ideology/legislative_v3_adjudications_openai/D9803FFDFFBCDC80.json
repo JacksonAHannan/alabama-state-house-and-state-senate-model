@@ -1,0 +1,10 @@
+{
+  "id": "D9803FFDFFBCDC80",
+  "decision": "map",
+  "primitive_axis": "healthcare_public_responsibility",
+  "policy_pole": "public_responsibility",
+  "confidence": "high",
+  "rationale": "Requires state universities to pay the cost of health insurance for participating retired employees, assigning responsibility for coverage costs to a public institution.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

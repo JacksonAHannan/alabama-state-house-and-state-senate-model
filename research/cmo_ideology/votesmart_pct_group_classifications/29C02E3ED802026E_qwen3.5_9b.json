@@ -1,0 +1,11 @@
+{
+  "policy_key": "edu_uni_lender_disclosure",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option calls for increased transparency in university lending practices.",
+  "evidence_quote": "Require universities to disclose financial relationships with lenders.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

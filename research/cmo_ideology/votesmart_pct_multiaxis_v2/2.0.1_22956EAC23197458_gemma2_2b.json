@@ -1,0 +1,18 @@
+{
+  "primary_domain": "education",
+  "policy_key": "market_governance",
+  "plain_english_policy": "intervention",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "The question is about the support of national education standards. This implies a restriction on local control over education policy."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Do you support national education standards?",
+  "needs_human_review": false,
+  "review_reason": "The question asks for a stance on national education standards. This implies a policy that would restrict local control over education policy."
+}

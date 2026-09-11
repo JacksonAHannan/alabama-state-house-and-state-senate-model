@@ -1,0 +1,18 @@
+{
+  "primary_domain": "business",
+  "policy_key": "market_governance",
+  "plain_english_policy": "regulation",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "The policy is about regulating market behavior."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Do you support the regulation of indirect campaign contributions from corporations and unions?",
+  "needs_human_review": false,
+  "review_reason": "The question asks for a policy position on regulating indirect campaign contributions. This is a market-governance issue."
+}

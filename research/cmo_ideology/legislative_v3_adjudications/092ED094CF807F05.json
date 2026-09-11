@@ -1,0 +1,10 @@
+{
+  "id": "092ED094CF807F05",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Authorizes the sale of abandoned or stolen firearms to the highest bidder, effectively expanding access to firearms under certain conditions.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

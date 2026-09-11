@@ -1,0 +1,10 @@
+{
+  "id": "5EE3D01DFD09C174",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Addresses a county sheriff's salary and restricted use of funds for feeding prisoners, an administrative and fiscal matter.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "9B4DECCF4FFAB0A7",
+  "decision": "map",
+  "primitive_axis": "abortion_access",
+  "policy_pole": "restrict",
+  "confidence": "high",
+  "rationale": "Requires physician admitting privileges, standard treatment protocols, minor reporting to law enforcement, and criminal penalties\u2014all restrictive measures on abortion access.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

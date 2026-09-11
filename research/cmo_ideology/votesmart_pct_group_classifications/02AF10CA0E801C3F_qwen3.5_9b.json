@@ -1,0 +1,11 @@
+{
+  "policy_key": "military_intervention_middle_east",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Reducing military intervention in the Middle East is generally considered a progressive stance on foreign policy.",
+  "evidence_quote": "Do you support reducing military intervention in Middle East conflicts?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

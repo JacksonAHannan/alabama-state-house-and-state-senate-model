@@ -1,0 +1,11 @@
+{
+  "policy_key": "defense_spending_cut",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Cutting military expenditures to reduce budget deficits.",
+  "evidence_quote": "In order to balance the budget, do you support reducing defense spending?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

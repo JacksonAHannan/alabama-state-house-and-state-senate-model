@@ -1,0 +1,10 @@
+{
+  "id": "E94D177D04211B8B",
+  "decision": "map",
+  "primitive_axis": "market_governance",
+  "policy_pole": "intervention",
+  "confidence": "medium",
+  "rationale": "Expanding eligibility for a publicly structured economic-development program increases governmental intervention in market development.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

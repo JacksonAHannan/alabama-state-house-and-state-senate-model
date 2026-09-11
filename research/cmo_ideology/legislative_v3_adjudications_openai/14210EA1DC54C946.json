@@ -1,0 +1,10 @@
+{
+  "id": "14210EA1DC54C946",
+  "decision": "map",
+  "primitive_axis": "medicaid_structure",
+  "policy_pole": "managed_care",
+  "confidence": "high",
+  "rationale": "The measure expressly provides Medicaid long-term-care services through a managed-care basis and establishes an integrated care network.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

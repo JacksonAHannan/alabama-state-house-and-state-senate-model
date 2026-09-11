@@ -1,0 +1,10 @@
+{
+  "id": "ABA188CAD4856E92",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Governs a sheriff's disposition of abandoned or unclaimed property and firearms, an administrative property measure that does not clearly alter general gun access or purchase regulation.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

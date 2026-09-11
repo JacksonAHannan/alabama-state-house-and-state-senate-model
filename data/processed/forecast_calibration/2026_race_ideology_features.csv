@@ -1,0 +1,141 @@
+chamber,district,dem_candidate,dem_ideology_available,dem_ideology_features_observed,dem_behavioral_ideology,dem_ideology_v3_environment_resources,dem_ideology_v3_institutional_reform,dem_ideology_v3_labor_capital,dem_ideology_v3_market_government_direction,dem_ideology_v3_material_support,dem_ideology_v3_order_justice,dem_ideology_v3_social_liberty_equality,rep_candidate,rep_ideology_available,rep_ideology_features_observed,rep_behavioral_ideology,rep_ideology_v3_environment_resources,rep_ideology_v3_institutional_reform,rep_ideology_v3_labor_capital,rep_ideology_v3_market_government_direction,rep_ideology_v3_material_support,rep_ideology_v3_order_justice,rep_ideology_v3_social_liberty_equality,both_candidates_ideology_available,ideology_gap_d_minus_r_behavioral_ideology,ideology_gap_d_minus_r_ideology_v3_environment_resources,ideology_gap_d_minus_r_ideology_v3_institutional_reform,ideology_gap_d_minus_r_ideology_v3_labor_capital,ideology_gap_d_minus_r_ideology_v3_market_government_direction,ideology_gap_d_minus_r_ideology_v3_material_support,ideology_gap_d_minus_r_ideology_v3_order_justice,ideology_gap_d_minus_r_ideology_v3_social_liberty_equality,forecast_use_status
+house,1,,False,0,,,,,,,,,Maurice McCaney,False,0,,,,,,,,,False,,,,,,,,,missing_both_explicit_not_zero
+house,2,Rick Pressnell,False,0,,,,,,,,,Ben Harrison,True,13,0.2776779996274431,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,3,,False,0,,,,,,,,,Kerry Bubba Underwood,False,0,,,,,,,,,False,,,,,,,,,missing_both_explicit_not_zero
+house,4,Hanu Karlapalem,False,0,,,,,,,,,Parker Duncan Moore,True,12,0.1426970769551178,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,5,Jessie Barcala,False,0,,,,,,,,,Danny F. Crawford,True,15,0.8017998784037771,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,6,,False,0,,,,,,,,,Andy Whitt,True,12,0.3873878825209513,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,7,,False,0,,,,,,,,,Ernie Yarbrough,True,14,0.2916018902053487,,,,,,,-0.5,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,8,Bruce Sparkman,False,0,,,,,,,,,Patrick Johnson,False,0,,,,,,,,,False,,,,,,,,,missing_both_explicit_not_zero
+house,9,,False,0,,,,,,,,,Scott Stadthagen,True,13,0.5891469812671518,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,10,Marilyn Lands,True,12,-0.5380241266223366,,,,,,,,Aaron Thomas,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,11,,False,0,,,,,,,,,Heath Allbright,True,6,0.0790834282472566,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,12,,False,0,,,,,,,,,Cindy Myrex,True,6,0.0809732077741546,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,13,,False,0,,,,,,,,,Mike Elliott,False,0,,,,,,,,,False,,,,,,,,,missing_both_explicit_not_zero
+house,14,,False,0,,,,,,,,,Tim R.Wadsworth,True,15,0.4999936705721493,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,15,Nell Brown,False,0,,,,,,,,,Leigh Hulsey,True,12,0.2074159746232888,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,16,Christian Martin,False,0,,,,,,,,,Bryan Brinyark,True,13,0.1902318389920937,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,17,,False,0,,,,,,,,,Phil Segraves,False,0,,,,,,,,,False,,,,,,,,,missing_both_explicit_not_zero
+house,18,,False,0,,,,,,,,,Jamie Kiel,True,13,0.7193913201100139,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,19,Laura Hall,True,17,-3.800326408145162,,,,,,,,Donald Barnes,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,20,JamesLinderholm,False,0,,,,,,,,,James Lomax,True,13,0.2031156765488254,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,21,Forrest Satterfield,False,0,,,,,,,,,Rex Reynolds,True,12,0.4310972570786169,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,22,,False,0,,,,,,,,,Ritchie Whorton,True,16,0.9960962920654732,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,23,,False,0,,,,,,,,,Mike Kirkland,True,13,0.2204760609670993,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,24,,False,0,,,,,,,,,Nathaniel Ledbetter,True,16,1.015763826437073,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,25,Allison T Montgomery,False,0,,,,,,,,,Phillip K. Rigsby,True,13,0.1762394393972348,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,26,,False,0,,,,,,,,,Brock Colvin,True,13,0.2624571797854208,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,27,,False,0,,,,,,,,,Jeana Ross,True,9,0.1252739775332886,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,28,Robert Louis Hunter,False,0,,,,,,,,,Mack N Butler,True,16,1.1821423287165342,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,29,,False,0,,,,,,,,,Mark A. Gidley,True,13,0.2618591331139522,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,30,,False,0,,,,,,,,,Craig Lipscomb,True,13,0.5204434206485224,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,31,,False,0,,,,,,,,,Troy B.Stubbs,True,13,0.2510346330692212,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,32,Debra D Foster,False,0,,,,,,,,,Joey Callahan,False,0,,,,,,,,,False,,,,,,,,,missing_both_explicit_not_zero
+house,33,,False,0,,,,,,,,,Ben Robbins,True,13,0.3779764985394974,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,34,,False,0,,,,,,,,,David Standridge,True,15,1.3403053036184138,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,35,,False,0,,,,,,,,,Steve Hurst,True,18,1.0648051472938258,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,36,,False,0,,,,,,,,,Randy Wood,True,17,1.850212030639865,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,37,Michelle French,False,0,,,,,,,,,Jeff Monroe,False,0,,,,,,,,,False,,,,,,,,,missing_both_explicit_not_zero
+house,38,Hazel Floyd,False,0,,,,,,,,,Kristin Nelson,True,3,0.0433905203626724,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,39,,False,0,,,,,,,,,Ginny Shaver,True,13,0.4543599818163092,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,40,Pam Howard,False,0,,,,,,,,,ChadRobertson,True,13,0.2155247129601416,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,41,David J. A. Morgan,False,0,,,,,,,,,Corley Ellis,True,14,0.5834622197686663,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,42,,False,0,,,,,,,,,Van Smith,True,13,0.414735997754139,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,43,TaylorCook,False,0,,,,,,,,,Arnold Mooney,True,17,1.1842159857002683,,,,,,0.9879768786127168,-1.0,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,44,,False,0,,,,,,,,,Danny Garrett,True,16,0.9129246329547024,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,45,Toni Kornegay Vaughn,False,0,,,,,,,,,Susan DuBose,True,12,0.2605729414475429,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,46,,False,0,,,,,,,,,David L. Faulkner,True,16,0.8723070917116862,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,47,Jim Toomey,True,1,,,,,,,,1.0,MikeShaw,True,13,0.2114756464276688,,,,,,,,True,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,48,,False,0,,,,,,,,,Lloyd Peeples,False,0,,,,,,,,,False,,,,,,,,,missing_both_explicit_not_zero
+house,49,,False,0,,,,,,,,,Russell Bedsole,True,13,0.4302516069775595,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,50,Alan Thomas,False,0,,,,,,,,,Bill Morris,False,0,,,,,,,,,False,,,,,,,,,missing_both_explicit_not_zero
+house,51,,False,0,,,,,,,,,Allen Treadaway,True,18,1.7113188579862535,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,52,GiGi Hayes,False,0,,,,,,,,,,False,0,,,,,,,,,False,,,,,,,,,missing_both_explicit_not_zero
+house,53,Anthony Daniels,True,15,-1.9089805692233357,,,,,,,,,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,54,Neil Rafferty,True,14,-1.361169779296021,,,,,,0.4248554913294797,,,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,55,Travis Hendrix,True,12,-0.4808635795478186,,,,,,,,,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,56,Ontario J Tillman,True,13,-0.5964221493122347,,,,,,,,,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,57,Patrick Sellers,True,13,-0.5708921350959799,,,,,,,,,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,58,Rolanda Hollis,True,14,-1.579119676757152,,,,,,,,,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,59,Mary Moore,True,16,-4.268130867521152,,,,,,,,,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,60,Alicia Escott Lumpkin,False,0,,,,,,,,,,False,0,,,,,,,,,False,,,,,,,,,missing_both_explicit_not_zero
+house,61,,False,0,,,,,,,,,Ron Bolton,True,13,0.2034798814433743,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,62,,False,0,,,,,,,,,Bill Lamb,True,13,0.2568506844591394,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,63,JudithTaylor,False,0,,,,,,,,,Norman Crow,True,6,0.0558823832370711,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,64,,False,0,,,,,,,,,Donna Givens,True,13,0.2005105338243253,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,65,,False,0,,,,,,,,,John Knapp,False,0,,,,,,,,,False,,,,,,,,,missing_both_explicit_not_zero
+house,66,,False,0,,,,,,,,,Alan Baker,True,18,1.5268647882165325,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,67,Prince Chestnut,True,14,-1.3598922023743825,,,,,,,,,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,68,Thomas E. Action Jackson,True,18,-3.650973516665205,,,,,,,-0.3333333333333333,Fred Kelley,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,69,Kelvin J Lawrence,True,15,-2.1945060656131505,,,,,,,,Josh Pendergrass,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,70,Christopher John England,True,18,-4.367046473538829,,,,,,,,Ian M. Chwatuk,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,71,"Artis ""A.J."" McCampbell ",True,18,-3.396311107864449,,,,,,,,,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,72,Curtis L Travis,True,13,-0.5730043376795196,,,,,,,,,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,73,,False,0,,,,,,,,,Kenneth Paschal,True,13,0.3772828431969255,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,74,Jasmyne Crimiel,False,0,,,,,,,,,Alva Lambert,False,0,,,,,,,,,False,,,,,,,,,missing_both_explicit_not_zero
+house,75,Tisha Dickson Nickson,False,0,,,,,,,,,Reed Ingram,True,15,1.0475037376575933,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,76,Patrice Penni McClammy,False,0,,,,,,,,,,False,0,,,,,,,,,False,,,,,,,,,missing_both_explicit_not_zero
+house,77,TaShinaMorris,True,13,-1.4229673760135455,,,,,,,,,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,78,Kenyatte Hassell,True,11,-0.8572113535506104,,,,,,,,,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,79,,False,0,,,,,,,,,Joe Lovvorn,True,14,0.5853255082691793,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,80,Manfred Malone,False,0,,,,,,,,,Chris Blackshear,True,15,0.7417249081340068,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,81,,False,0,,,,,,,,,Ed Oliver,True,13,0.4146041669153049,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,82,Pebblin W. Warren,True,18,-3.393837557021666,,,,,,,,Kinsley Hammons,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,83,Jeremy A. Gray,True,13,-1.3055621505684645,,,,,,,,,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,84,Berry Forte,True,17,-3.223608233883085,,,,,,,,,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,85,Aristotle Onassis Kirkland,False,0,,,,,,,,,Rick Rehm,True,13,0.2443537624622048,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,86,,False,0,,,,,,,,,Paul Lee,True,18,1.9132989258441209,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,87,,False,0,,,,,,,,,Jeff Sorrells,True,13,0.5191431005741267,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,88,,False,0,,,,,,,,,Jerry Starnes,True,13,0.2098223269397667,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,89,,False,0,,,,,,,,,MarcusB.Paramore,True,13,0.202931570709542,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,90,,False,0,,,,,,,,,Chris Sells,True,15,0.747748933429224,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,91,,False,0,,,,,,,,,Jody Linton,False,0,,,,,,,,,False,,,,,,,,,missing_both_explicit_not_zero
+house,92,,False,0,,,,,,,,,MatthewHammett,True,12,0.212694476654465,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,93,,False,0,,,,,,,,,Steve Clouse,True,18,1.777251973341312,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,94,,False,0,,,,,,,,,Jennifer Fidler,True,12,0.2036518685099591,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,95,,False,0,,,,,,,,,Frances Holk-Jones,True,13,0.196882769774271,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,96,TerriOsborne,False,0,,,,,,,,,Danielle Duggar,False,0,,,,,,,,,False,,,,,,,,,missing_both_explicit_not_zero
+house,97,Adline C. Clarke,True,15,-2.4176503652464367,,,,,,,,,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,98,"Napoleon Bracy, Jr.",True,18,-4.3466526464147,,,,,,,,,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,99,Sam Jones,True,13,-1.2411263338357534,,,,,,,,Charlie Watts,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,100,,False,0,,,,,,,,,MarkShirey,True,13,0.2274565229656051,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,101,Joan Friedlander,False,0,,,,,,,,,Chris Pringle,True,16,0.8372125630941938,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,102,,False,0,,,,,,,,,Shane Stringer,True,13,0.5288603937518547,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,103,Barbara Drummond,True,16,-2.462510821538304,,,,,,,,,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,104,,False,0,,,,,,,,,Margie Wilcox,True,16,0.927095943796502,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+house,105,,False,0,,,,,,,,,Chip Brown,True,13,0.4865550659694465,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+senate,1,,False,0,,,,,,,,,Tim Melson,True,16,0.4427297023642258,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+senate,2,Rudolph Valentino Drake,False,0,,,,,,,,,John Roberts,False,0,,,,,,,,,False,,,,,,,,,missing_both_explicit_not_zero
+senate,3,John Dickey,False,0,,,,,,,,,Arthur Orr,True,19,1.41585046670859,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+senate,4,,False,0,,,,,,,,,Garlan Gudger,True,16,0.1616084960153396,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+senate,5,,False,0,,,,,,,,,Matt Woods,True,5,0.037262918525627,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+senate,6,Bobby Martin,False,0,,,,,,,,,Larry Stutts,True,16,0.5149345327302635,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+senate,7,Jared Sluss,False,0,,,,,,,,,Sam Givhan,True,17,0.232431761539954,,,,,,0.666015037593985,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+senate,8,Katie Kramer,False,0,,,,,,,,,Steve Livingston,True,16,0.4273052817729131,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+senate,9,,False,0,,,,,,,,,WesKitchens,False,0,,,,,,,,,False,,,,,,,,,missing_both_explicit_not_zero
+senate,10,,False,0,,,,,,,,,Andrew Jones,True,17,0.1395876101506135,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+senate,11,Donald J. Mottern,False,0,,,,,,,,,Lance Bell,True,15,0.1220627836915666,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+senate,12,,False,0,,,,,,,,,Keith Kelley,True,13,0.1262933317375684,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+senate,13,Jamie Forsyth,False,0,,,,,,,,,Randy Price,True,17,0.1904893241532664,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+senate,14,Mandie Ledkins,False,0,,,,,,,,,April Weaver,True,15,0.1868317733336316,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+senate,15,,False,0,,,,,,,,,Scott Ortis,False,0,,,,,,,,,False,,,,,,,,,missing_both_explicit_not_zero
+senate,16,Spencer Stone,False,0,,,,,,,,,"J.T.""Jabo""Waggoner",False,0,,,,,,,,,False,,,,,,,,,missing_both_explicit_not_zero
+senate,17,,False,0,,,,,,,,,Shay Shelnutt,True,16,0.4766513983746207,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+senate,18,Rodger M. Smitherman ,False,0,,,,,,,,,,False,0,,,,,,,,,False,,,,,,,,,missing_both_explicit_not_zero
+senate,19,Merika Coleman,False,0,,,,,,,,,,False,0,,,,,,,,,False,,,,,,,,,missing_both_explicit_not_zero
+senate,20,Linda Coleman-Madison,True,19,-3.603762592960869,,,,,,,,,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+senate,21,,False,0,,,,,,,,,Gerald Allen,True,18,1.7232350915617662,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+senate,22,Ashley Sharpe,False,0,,,,,,,,,Terry L. Waters,False,0,,,,,,,,,False,,,,,,,,,missing_both_explicit_not_zero
+senate,23,Robert Stewart,True,17,-0.4478520348140142,,,,,,,,Thayer Bear Havard Spencer,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+senate,24,Bobby Singleton,True,18,-4.033413793540221,,,,,,,,,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+senate,25,Phadra Carson Foster,False,0,,,,,,,,,Will Barfoot,True,14,0.1903411207860917,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+senate,26,Kirk Hatcher,True,15,-0.6241887315314265,,,,,,,,,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+senate,27,,False,0,,,,,,,,,Jay Hovey,True,17,0.1033961990396419,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+senate,28,Billy Beasley,False,0,,,,,,,,,Brent Comer,False,0,,,,,,,,,False,,,,,,,,,missing_both_explicit_not_zero
+senate,29,JimmyMcCray,False,0,,,,,,,,,Donnie Chesteen,True,17,0.1744461467417578,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+senate,30,,False,0,,,,,,,,,"Clyde Chambliss, Jr.",True,15,0.3712776582765835,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+senate,31,,False,0,,,,,,,,,Josh Carnley,False,0,,,,,,,,,False,,,,,,,,,missing_both_explicit_not_zero
+senate,32,Janet Appleby,False,0,,,,,,,,,Chris Elliott,True,16,0.2014123930659685,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+senate,33,Vivian Davis Figures,True,18,-3.5222648985218483,,,,,,,,,False,0,,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+senate,34,,False,0,,,,,,,,,Rusty Glover,True,12,1.343173831557568,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased
+senate,35,,False,0,,,,,,,,,David Sessions,True,15,0.1437161352631437,,,,,,,,False,,,,,,,,,descriptive_only_not_headline_selection_biased

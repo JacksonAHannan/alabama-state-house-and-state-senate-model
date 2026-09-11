@@ -1,0 +1,2 @@
+bill_id,session_year,bill_number,reviewed_document_type,confidence,rationale,reviewer,review_date,supersedes_authority,decision,primitive_axes,policy_poles,review_reason
+1327222,2020,SB79,official_synopsis,high,Allowing longer enrollment periods expands the availability of childcare for families needing extended care.,gpt-5.6-luna,2026-09-08,frontier_manual_review,mixed_no_scalar_direction,,,invalid_axis_pole:unknown primitive axis: childcare_access

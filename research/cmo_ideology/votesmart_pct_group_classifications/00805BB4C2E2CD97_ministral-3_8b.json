@@ -1,0 +1,11 @@
+{
+  "policy_key": "national_ballistics_database",
+  "dimension": "guns_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Create a nationwide system to record and match bullet markings from crimes to identify illegal firearms.",
+  "evidence_quote": "Establish a national database of ballistic 'fingerprints' to track guns used in criminal activities.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

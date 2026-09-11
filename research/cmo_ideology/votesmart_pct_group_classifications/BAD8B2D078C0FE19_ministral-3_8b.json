@@ -1,0 +1,11 @@
+{
+  "policy_key": "abortion_state_waiting_periods",
+  "dimension": "abortion_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supports state-level restrictions like mandatory waiting periods and parental notification for abortions.",
+  "evidence_quote": "Abortions should be limited by **waiting periods** and **notification requirements as decided by each state government**.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

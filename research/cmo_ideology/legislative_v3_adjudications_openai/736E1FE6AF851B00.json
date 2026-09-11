@@ -1,0 +1,10 @@
+{
+  "id": "736E1FE6AF851B00",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Alters the distribution of hazardous-waste disposal fees, a technical administrative provision without a clear environmental-policy direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

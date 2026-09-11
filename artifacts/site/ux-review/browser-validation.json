@@ -1,0 +1,245 @@
+{
+  "pages": [
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "identityRect": {
+        "height": 48,
+        "left": 97,
+        "top": 21.5,
+        "width": 227.84375
+      },
+      "innerHeight": 846,
+      "innerWidth": 1418,
+      "scrollHeight": 4566,
+      "scrollWidth": 1418,
+      "scrollX": 0,
+      "scrollY": 0,
+      "horizontalOverflow": false,
+      "unnamedFocusable": [],
+      "consoleErrors": [],
+      "screenshot": "artifacts/site/ux-review/index-desktop.png"
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "identityRect": {
+        "height": 42,
+        "left": 18,
+        "top": 15,
+        "width": 208.65625
+      },
+      "innerHeight": 690,
+      "innerWidth": 512,
+      "scrollHeight": 6986,
+      "scrollWidth": 512,
+      "scrollX": 0,
+      "scrollY": 0,
+      "horizontalOverflow": false,
+      "unnamedFocusable": [],
+      "consoleErrors": [],
+      "screenshot": "artifacts/site/ux-review/index-mobile.png"
+    },
+    {
+      "page": "cmo.html",
+      "viewport": "desktop",
+      "identityRect": {
+        "height": 48,
+        "left": 97,
+        "top": 21.5,
+        "width": 227.84375
+      },
+      "innerHeight": 846,
+      "innerWidth": 1418,
+      "scrollHeight": 5184,
+      "scrollWidth": 1418,
+      "scrollX": 0,
+      "scrollY": 0,
+      "horizontalOverflow": false,
+      "unnamedFocusable": [],
+      "consoleErrors": [],
+      "screenshot": "artifacts/site/ux-review/cmo-desktop.png"
+    },
+    {
+      "page": "cmo.html",
+      "viewport": "mobile",
+      "identityRect": {
+        "height": 42,
+        "left": 18,
+        "top": 15,
+        "width": 208.65625
+      },
+      "innerHeight": 690,
+      "innerWidth": 512,
+      "scrollHeight": 9554,
+      "scrollWidth": 512,
+      "scrollX": 0,
+      "scrollY": 0,
+      "horizontalOverflow": false,
+      "unnamedFocusable": [],
+      "consoleErrors": [],
+      "screenshot": "artifacts/site/ux-review/cmo-mobile.png"
+    },
+    {
+      "page": "ideology-performance.html",
+      "viewport": "desktop",
+      "identityRect": {
+        "height": 48,
+        "left": 97,
+        "top": 21.5,
+        "width": 227.84375
+      },
+      "innerHeight": 846,
+      "innerWidth": 1418,
+      "scrollHeight": 7662,
+      "scrollWidth": 1418,
+      "scrollX": 0,
+      "scrollY": 0,
+      "horizontalOverflow": false,
+      "unnamedFocusable": [],
+      "consoleErrors": [],
+      "screenshot": "artifacts/site/ux-review/ideology-performance-desktop.png"
+    },
+    {
+      "page": "ideology-performance.html",
+      "viewport": "mobile",
+      "identityRect": {
+        "height": 42,
+        "left": 18,
+        "top": 15,
+        "width": 208.65625
+      },
+      "innerHeight": 690,
+      "innerWidth": 512,
+      "scrollHeight": 10569,
+      "scrollWidth": 512,
+      "scrollX": 0,
+      "scrollY": 0,
+      "horizontalOverflow": false,
+      "unnamedFocusable": [],
+      "consoleErrors": [],
+      "screenshot": "artifacts/site/ux-review/ideology-performance-mobile.png"
+    },
+    {
+      "page": "methods.html",
+      "viewport": "desktop",
+      "identityRect": {
+        "height": 48,
+        "left": 97,
+        "top": 21.5,
+        "width": 227.84375
+      },
+      "innerHeight": 846,
+      "innerWidth": 1418,
+      "scrollHeight": 1025,
+      "scrollWidth": 1418,
+      "scrollX": 0,
+      "scrollY": 0,
+      "horizontalOverflow": false,
+      "unnamedFocusable": [],
+      "consoleErrors": [],
+      "screenshot": "artifacts/site/ux-review/methods-desktop.png"
+    },
+    {
+      "page": "methods.html",
+      "viewport": "mobile",
+      "identityRect": {
+        "height": 42,
+        "left": 18,
+        "top": 15,
+        "width": 208.65625
+      },
+      "innerHeight": 690,
+      "innerWidth": 512,
+      "scrollHeight": 1467,
+      "scrollWidth": 512,
+      "scrollX": 0,
+      "scrollY": 0,
+      "horizontalOverflow": false,
+      "unnamedFocusable": [],
+      "consoleErrors": [],
+      "screenshot": "artifacts/site/ux-review/methods-mobile.png"
+    },
+    {
+      "page": "methodology.html",
+      "viewport": "desktop",
+      "identityRect": {
+        "height": 48,
+        "left": 97,
+        "top": 21.5,
+        "width": 227.84375
+      },
+      "innerHeight": 846,
+      "innerWidth": 1418,
+      "scrollHeight": 3036,
+      "scrollWidth": 1418,
+      "scrollX": 0,
+      "scrollY": 0,
+      "horizontalOverflow": false,
+      "unnamedFocusable": [],
+      "consoleErrors": [],
+      "screenshot": "artifacts/site/ux-review/methodology-desktop.png"
+    },
+    {
+      "page": "methodology.html",
+      "viewport": "mobile",
+      "identityRect": {
+        "height": 42,
+        "left": 18,
+        "top": 15,
+        "width": 208.65625
+      },
+      "innerHeight": 690,
+      "innerWidth": 512,
+      "scrollHeight": 3656,
+      "scrollWidth": 512,
+      "scrollX": 0,
+      "scrollY": 0,
+      "horizontalOverflow": false,
+      "unnamedFocusable": [],
+      "consoleErrors": [],
+      "screenshot": "artifacts/site/ux-review/methodology-mobile.png"
+    },
+    {
+      "page": "cmo-methodology.html",
+      "viewport": "desktop",
+      "identityRect": {
+        "height": 48,
+        "left": 97,
+        "top": 21.5,
+        "width": 227.84375
+      },
+      "innerHeight": 846,
+      "innerWidth": 1418,
+      "scrollHeight": 4202,
+      "scrollWidth": 1418,
+      "scrollX": 0,
+      "scrollY": 0,
+      "horizontalOverflow": false,
+      "unnamedFocusable": [],
+      "consoleErrors": [],
+      "screenshot": "artifacts/site/ux-review/cmo-methodology-desktop.png"
+    },
+    {
+      "page": "cmo-methodology.html",
+      "viewport": "mobile",
+      "identityRect": {
+        "height": 42,
+        "left": 18,
+        "top": 15,
+        "width": 208.65625
+      },
+      "innerHeight": 690,
+      "innerWidth": 512,
+      "scrollHeight": 5480,
+      "scrollWidth": 512,
+      "scrollX": 0,
+      "scrollY": 0,
+      "horizontalOverflow": false,
+      "unnamedFocusable": [],
+      "consoleErrors": [],
+      "screenshot": "artifacts/site/ux-review/cmo-methodology-mobile.png"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,10 @@
+{
+  "id": "9FBC4004E47E1691",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "restrict",
+  "confidence": "high",
+  "rationale": "The bill criminalizes discharging firearms into school buses/buildings, with escalating penalties for occupied vs. unoccupied settings. This directly restricts access to firearms in sensitive areas.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

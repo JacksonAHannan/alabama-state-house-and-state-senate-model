@@ -1,0 +1,10 @@
+{
+  "id": "F4115F4D3D993C08",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Authorizing display of the Ten Commandments is primarily symbolic and does not provide sufficient evidence for an allowed education pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

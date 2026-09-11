@@ -1,0 +1,10 @@
+{
+  "id": "C4988933CB5F918F",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Creates a county industrial development council with unspecified powers and duties, making the policy direction text-insufficient and primarily administrative.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "build_id": "e249019058aa1177bca1",
+  "code_commit": "ce5978cc83d4d145606b4268838ac6d656a1f34a",
+  "pipeline": "scripts/build_historical_southern_legislative_panel.py",
+  "configuration": {
+    "years": [
+      1994,
+      2016
+    ],
+    "baseline_priority": {
+      "USP": 1,
+      "USS": 2,
+      "GOV": 3
+    },
+    "strict_eligibility_rejects_partial_allocation": true
+  },
+  "inputs": [
+    {
+      "path": "data/processed/precinct_history/heda/build_manifest.json",
+      "sha256": "f7b54092fd479d42f1a216d39303b1d4da1970284dd62fc7b2388d32f3a0bbab"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/dataverse_files.zip",
+      "sha256": "b4c0913fa7bfb0aff4da2dbf67a22da696e9f07b45615f30e78127edd794a3e1"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "data/processed/forecast_calibration/historical_southern_heda_panel.csv",
+      "bytes": 1844052,
+      "sha256": "0c4c028df369c561eb837746686517f5e9aa2a643c932522b2a1707d3d142e0d"
+    },
+    {
+      "path": "data/processed/forecast_calibration/historical_southern_heda_coverage.csv",
+      "bytes": 2683,
+      "sha256": "1b1fc113ef4a918428864335e2b2ba7dd8ff0c7ca8259573f1b7f87393a711ed"
+    },
+    {
+      "path": "data/processed/forecast_calibration/historical_southern_heda_allocation_audit.csv",
+      "bytes": 12193,
+      "sha256": "d8f07212959faf71b5aea1d95d7ef5820c2b5dfa6025829968e48aa1ddf93cc8"
+    }
+  ],
+  "row_counts": {
+    "panel": 4867,
+    "coverage": 69,
+    "model_eligible": 1805,
+    "permissive_eligible": 2141
+  }
+}

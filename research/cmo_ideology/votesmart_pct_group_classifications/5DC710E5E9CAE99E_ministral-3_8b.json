@@ -1,0 +1,11 @@
+{
+  "policy_key": "us_troops_kosovo",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Whether the U.S. should maintain ground troops in Kosovo (a NATO-led mission at the time, post-1999 intervention).",
+  "evidence_quote": "**6) Should the US maintain ground troops in Kosovo?** *(No explicit stance provided in this snippet; the question is posed as a standalone option without candidate response.)*",
+  "needs_human_review": true,
+  "review_reason": "The option lacks a clear affirmative/negative answer from a candidate, so no +1/-1 can be assigned. Context-dependent (e.g., depends on whether the candidate supports NATO missions or unilateralism)."
+}

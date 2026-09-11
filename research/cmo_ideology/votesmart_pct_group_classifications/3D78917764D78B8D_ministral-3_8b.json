@@ -1,0 +1,11 @@
+{
+  "policy_key": "funding_source",
+  "dimension": "government_reform_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Candidate\u2019s stance on whether they would seek new taxes, fees, or budget cuts to secure additional government funding.",
+  "evidence_quote": "*\u2018I oppose raising taxes on individuals or businesses. If more funding is needed, I will advocate for targeted cost-saving measures in wasteful spending and redirecting existing funds from overlapping programs.\u2019*",
+  "needs_human_review": false,
+  "review_reason": ""
+}

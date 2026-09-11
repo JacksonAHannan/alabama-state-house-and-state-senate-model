@@ -1001,33 +1001,6 @@ cycle,chamber,node_id,county_key,precinct_key,vtd,district,allocation_weight,all
 2010,house,16964,FRANKLIN,NEWBURG,20,18.0,1.0,canonical_reported_single_district
 2010,house,16965,FRANKLIN,ABSENTEE,,18.0,1.0,canonical_county_level_ballot
 2010,house,16966,FRANKLIN,PROVISIONAL,,18.0,1.0,canonical_county_level_ballot
-2010,house,16967,GENEVA,MALVERN COMMUNITY,,87.0,1.0,canonical_reported_single_district
-2010,house,16968,GENEVA,HUGHES VOTING HOUSE,3,87.0,1.0,canonical_reported_single_district
-2010,house,16969,GENEVA,FADETTE,4,87.0,1.0,canonical_reported_single_district
-2010,house,16970,GENEVA,SLOCOMB NATIONAL GUARD,,87.0,1.0,canonical_reported_single_district
-2010,house,16971,GENEVA,TATE SCHOOL,,87.0,1.0,canonical_reported_single_district
-2010,house,16972,GENEVA,HUGHES COMMUNITY CENTER,,87.0,1.0,canonical_reported_single_district
-2010,house,16973,GENEVA,BLACK,8,87.0,1.0,canonical_reported_single_district
-2010,house,16974,GENEVA,BELLWOOD VOTING HOUSE,,87.0,1.0,canonical_reported_single_district
-2010,house,16975,GENEVA,CHANCELLOR VOTING HOUSE,,87.0,1.0,canonical_reported_single_district
-2010,house,16976,GENEVA,GENEVA COUNTY COURTHOUSE,,87.0,1.0,canonical_reported_single_district
-2010,house,16977,GENEVA,FARM CENTER,,87.0,1.0,canonical_reported_single_district
-2010,house,16978,GENEVA,GENEVA NATIONAL GUARD,,87.0,1.0,canonical_reported_single_district
-2010,house,16979,GENEVA,GENEVA COMMUNITY CENTER,,87.0,1.0,canonical_reported_single_district
-2010,house,16980,GENEVA,GENEVA CITY HALL,,87.0,1.0,canonical_reported_single_district
-2010,house,16981,GENEVA,COFFEE SPRINGS,11,87.0,1.0,canonical_reported_single_district
-2010,house,16982,GENEVA,LYTLE,12,87.0,1.0,canonical_reported_single_district
-2010,house,16983,GENEVA,PINEY GROVE,13,87.0,1.0,canonical_reported_single_district
-2010,house,16984,GENEVA,SAMSON MASONIC,,87.0,1.0,canonical_reported_single_district
-2010,house,16985,GENEVA,SAMSON COMMUNITY CENTER,13,87.0,1.0,canonical_reported_single_district
-2010,house,16986,GENEVA,GILMORE,14,87.0,1.0,canonical_reported_single_district
-2010,house,16987,GENEVA,LOWERY,15,87.0,1.0,canonical_reported_single_district
-2010,house,16988,GENEVA,REVELS GROCERY,,87.0,1.0,canonical_reported_single_district
-2010,house,16989,GENEVA,HACODA,16,87.0,1.0,canonical_reported_single_district
-2010,house,16990,GENEVA,FLAT CREEK,16,87.0,1.0,canonical_reported_single_district
-2010,house,16991,GENEVA,DEVCO VOTING HOUSE,17,87.0,1.0,canonical_reported_single_district
-2010,house,16992,GENEVA,ABSENTEE,,87.0,1.0,canonical_county_level_ballot
-2010,house,16993,GENEVA,PROVISIONAL,,87.0,1.0,canonical_county_level_ballot
 2010,house,16994,GREENE,MCKINLEY BRANCH,,71.0,1.0,canonical_reported_single_district
 2010,house,16995,GREENE,MANTUA FIRE DEPARTMENT,,71.0,1.0,canonical_reported_single_district
 2010,house,16996,GREENE,JENA CLUB HOUSE,1-5,71.0,1.0,canonical_reported_single_district
@@ -2768,6 +2741,33 @@ cycle,chamber,node_id,county_key,precinct_key,vtd,district,allocation_weight,all
 2010,house,18311,WINSTON,PROVISIONAL,,7.0,0.27025812775690244,canonical_county_level_ballot
 2010,house,18311,WINSTON,PROVISIONAL,,14.0,0.24701846103577846,canonical_county_level_ballot
 2010,house,18311,WINSTON,PROVISIONAL,,17.0,0.48272341120731904,canonical_county_level_ballot
+2010,house,16992,GENEVA,ABSENTEE,,87.0,1.0,canonical_county_level_ballot
+2010,house,16974,GENEVA,BELLWOOD VOTING HOUSE,,87.0,1.0,canonical_reported_single_district
+2010,house,16973,GENEVA,BLACK,8,87.0,1.0,canonical_reported_single_district
+2010,house,16975,GENEVA,CHANCELLOR VOTING HOUSE,,87.0,1.0,canonical_reported_single_district
+2010,house,16981,GENEVA,COFFEE SPRINGS,11,87.0,1.0,canonical_reported_single_district
+2010,house,16991,GENEVA,DEVCO VOTING HOUSE,17,87.0,1.0,canonical_reported_single_district
+2010,house,16969,GENEVA,FADETTE,4,87.0,1.0,canonical_reported_single_district
+2010,house,16977,GENEVA,FARM CENTER,,87.0,1.0,canonical_reported_single_district
+2010,house,16990,GENEVA,FLAT CREEK,16,87.0,1.0,canonical_reported_single_district
+2010,house,16980,GENEVA,GENEVA CITY HALL,,87.0,1.0,canonical_reported_single_district
+2010,house,16979,GENEVA,GENEVA COMMUNITY CENTER,,87.0,1.0,canonical_reported_single_district
+2010,house,16976,GENEVA,GENEVA COUNTY COURTHOUSE,,87.0,1.0,canonical_reported_single_district
+2010,house,16978,GENEVA,GENEVA NATIONAL GUARD,,87.0,1.0,canonical_reported_single_district
+2010,house,16986,GENEVA,GILMORE,14,87.0,1.0,canonical_reported_single_district
+2010,house,16989,GENEVA,HACODA,16,87.0,1.0,canonical_reported_single_district
+2010,house,16972,GENEVA,HUGHES COMMUNITY CENTER,,87.0,1.0,canonical_reported_single_district
+2010,house,16968,GENEVA,HUGHES VOTING HOUSE,3,87.0,1.0,canonical_reported_single_district
+2010,house,16987,GENEVA,LOWERY,15,87.0,1.0,canonical_reported_single_district
+2010,house,16982,GENEVA,LYTLE,12,87.0,1.0,canonical_reported_single_district
+2010,house,16967,GENEVA,MALVERN COMMUNITY,,87.0,1.0,canonical_reported_single_district
+2010,house,16983,GENEVA,PINEY GROVE,13,87.0,1.0,canonical_reported_single_district
+2010,house,16993,GENEVA,PROVISIONAL,,87.0,1.0,canonical_county_level_ballot
+2010,house,16988,GENEVA,REVELS GROCERY,,87.0,1.0,canonical_reported_single_district
+2010,house,16985,GENEVA,SAMSON COMMUNITY CENTER,13,87.0,1.0,canonical_reported_single_district
+2010,house,16984,GENEVA,SAMSON MASONIC,,87.0,1.0,canonical_reported_single_district
+2010,house,16970,GENEVA,SLOCOMB NATIONAL GUARD,,87.0,1.0,canonical_reported_single_district
+2010,house,16971,GENEVA,TATE SCHOOL,,87.0,1.0,canonical_reported_single_district
 2010,senate,16110,AUTAUGA,CHURCH OF LIVING WATER,0020,30.0,1.0,canonical_reported_single_district
 2010,senate,16111,AUTAUGA,TRINITY METHODIST,0100,30.0,1.0,canonical_reported_single_district
 2010,senate,16112,AUTAUGA,CAMELLIA BAPTIST CH,0170,30.0,1.0,canonical_reported_single_district
@@ -3690,33 +3690,6 @@ cycle,chamber,node_id,county_key,precinct_key,vtd,district,allocation_weight,all
 2010,senate,16964,FRANKLIN,NEWBURG,20,6.0,1.0,canonical_reported_single_district
 2010,senate,16965,FRANKLIN,ABSENTEE,,6.0,1.0,canonical_county_level_ballot
 2010,senate,16966,FRANKLIN,PROVISIONAL,,6.0,1.0,canonical_county_level_ballot
-2010,senate,16967,GENEVA,MALVERN COMMUNITY,,29.0,1.0,canonical_reported_single_district
-2010,senate,16968,GENEVA,HUGHES VOTING HOUSE,3,29.0,1.0,canonical_reported_single_district
-2010,senate,16969,GENEVA,FADETTE,4,29.0,1.0,canonical_reported_single_district
-2010,senate,16970,GENEVA,SLOCOMB NATIONAL GUARD,,29.0,1.0,canonical_reported_single_district
-2010,senate,16971,GENEVA,TATE SCHOOL,,29.0,1.0,canonical_reported_single_district
-2010,senate,16972,GENEVA,HUGHES COMMUNITY CENTER,,29.0,1.0,canonical_reported_single_district
-2010,senate,16973,GENEVA,BLACK,8,29.0,1.0,canonical_reported_single_district
-2010,senate,16974,GENEVA,BELLWOOD VOTING HOUSE,,29.0,1.0,canonical_reported_single_district
-2010,senate,16975,GENEVA,CHANCELLOR VOTING HOUSE,,29.0,1.0,canonical_reported_single_district
-2010,senate,16976,GENEVA,GENEVA COUNTY COURTHOUSE,,29.0,1.0,canonical_reported_single_district
-2010,senate,16977,GENEVA,FARM CENTER,,29.0,1.0,canonical_reported_single_district
-2010,senate,16978,GENEVA,GENEVA NATIONAL GUARD,,29.0,1.0,canonical_reported_single_district
-2010,senate,16979,GENEVA,GENEVA COMMUNITY CENTER,,29.0,1.0,canonical_reported_single_district
-2010,senate,16980,GENEVA,GENEVA CITY HALL,,29.0,1.0,canonical_reported_single_district
-2010,senate,16981,GENEVA,COFFEE SPRINGS,11,29.0,1.0,canonical_reported_single_district
-2010,senate,16982,GENEVA,LYTLE,12,29.0,1.0,canonical_reported_single_district
-2010,senate,16983,GENEVA,PINEY GROVE,13,29.0,1.0,canonical_reported_single_district
-2010,senate,16984,GENEVA,SAMSON MASONIC,,29.0,1.0,canonical_reported_single_district
-2010,senate,16985,GENEVA,SAMSON COMMUNITY CENTER,13,29.0,1.0,canonical_reported_single_district
-2010,senate,16986,GENEVA,GILMORE,14,29.0,1.0,canonical_reported_single_district
-2010,senate,16987,GENEVA,LOWERY,15,29.0,1.0,canonical_reported_single_district
-2010,senate,16988,GENEVA,REVELS GROCERY,,29.0,1.0,canonical_reported_single_district
-2010,senate,16989,GENEVA,HACODA,16,29.0,1.0,canonical_reported_single_district
-2010,senate,16990,GENEVA,FLAT CREEK,16,29.0,1.0,canonical_reported_single_district
-2010,senate,16991,GENEVA,DEVCO VOTING HOUSE,17,29.0,1.0,canonical_reported_single_district
-2010,senate,16992,GENEVA,ABSENTEE,,29.0,1.0,canonical_county_level_ballot
-2010,senate,16993,GENEVA,PROVISIONAL,,29.0,1.0,canonical_county_level_ballot
 2010,senate,16994,GREENE,MCKINLEY BRANCH,,24.0,1.0,canonical_reported_single_district
 2010,senate,16995,GREENE,MANTUA FIRE DEPARTMENT,,24.0,1.0,canonical_reported_single_district
 2010,senate,16996,GREENE,JENA CLUB HOUSE,1-5,24.0,1.0,canonical_reported_single_district
@@ -5239,6 +5212,33 @@ cycle,chamber,node_id,county_key,precinct_key,vtd,district,allocation_weight,all
 2010,senate,18311,WINSTON,PROVISIONAL,,4.0,0.42562489789250124,canonical_county_level_ballot
 2010,senate,18311,WINSTON,PROVISIONAL,,5.0,0.2147524914229701,canonical_county_level_ballot
 2010,senate,18311,WINSTON,PROVISIONAL,,6.0,0.35962261068452867,canonical_county_level_ballot
+2010,senate,16992,GENEVA,ABSENTEE,,29.0,1.0,canonical_county_level_ballot
+2010,senate,16974,GENEVA,BELLWOOD VOTING HOUSE,,29.0,1.0,canonical_reported_single_district
+2010,senate,16973,GENEVA,BLACK,8,29.0,1.0,canonical_reported_single_district
+2010,senate,16975,GENEVA,CHANCELLOR VOTING HOUSE,,29.0,1.0,canonical_reported_single_district
+2010,senate,16981,GENEVA,COFFEE SPRINGS,11,29.0,1.0,canonical_reported_single_district
+2010,senate,16991,GENEVA,DEVCO VOTING HOUSE,17,29.0,1.0,canonical_reported_single_district
+2010,senate,16969,GENEVA,FADETTE,4,29.0,1.0,canonical_reported_single_district
+2010,senate,16977,GENEVA,FARM CENTER,,29.0,1.0,canonical_reported_single_district
+2010,senate,16990,GENEVA,FLAT CREEK,16,29.0,1.0,canonical_reported_single_district
+2010,senate,16980,GENEVA,GENEVA CITY HALL,,29.0,1.0,canonical_reported_single_district
+2010,senate,16979,GENEVA,GENEVA COMMUNITY CENTER,,29.0,1.0,canonical_reported_single_district
+2010,senate,16976,GENEVA,GENEVA COUNTY COURTHOUSE,,29.0,1.0,canonical_reported_single_district
+2010,senate,16978,GENEVA,GENEVA NATIONAL GUARD,,29.0,1.0,canonical_reported_single_district
+2010,senate,16986,GENEVA,GILMORE,14,29.0,1.0,canonical_reported_single_district
+2010,senate,16989,GENEVA,HACODA,16,29.0,1.0,canonical_reported_single_district
+2010,senate,16972,GENEVA,HUGHES COMMUNITY CENTER,,29.0,1.0,canonical_reported_single_district
+2010,senate,16968,GENEVA,HUGHES VOTING HOUSE,3,29.0,1.0,canonical_reported_single_district
+2010,senate,16987,GENEVA,LOWERY,15,29.0,1.0,canonical_reported_single_district
+2010,senate,16982,GENEVA,LYTLE,12,29.0,1.0,canonical_reported_single_district
+2010,senate,16967,GENEVA,MALVERN COMMUNITY,,29.0,1.0,canonical_reported_single_district
+2010,senate,16983,GENEVA,PINEY GROVE,13,29.0,1.0,canonical_reported_single_district
+2010,senate,16993,GENEVA,PROVISIONAL,,29.0,1.0,canonical_county_level_ballot
+2010,senate,16988,GENEVA,REVELS GROCERY,,29.0,1.0,canonical_reported_single_district
+2010,senate,16985,GENEVA,SAMSON COMMUNITY CENTER,13,29.0,1.0,canonical_reported_single_district
+2010,senate,16984,GENEVA,SAMSON MASONIC,,29.0,1.0,canonical_reported_single_district
+2010,senate,16970,GENEVA,SLOCOMB NATIONAL GUARD,,29.0,1.0,canonical_reported_single_district
+2010,senate,16971,GENEVA,TATE SCHOOL,,29.0,1.0,canonical_reported_single_district
 2014,house,22507,AUTAUGA,0040 E_MEMORIAL CHRISTIAN,,88.0,1.0,canonical_reported_single_district
 2014,house,22508,AUTAUGA,10 JONES COMMUNITY CENTER,0010,69.0,1.0,canonical_reported_single_district
 2014,house,22509,AUTAUGA,100 TRINITY METHODIST,0100,88.0,1.0,canonical_reported_single_district
@@ -8100,24 +8100,192 @@ cycle,chamber,node_id,county_key,precinct_key,vtd,district,allocation_weight,all
 2014,house,24474,GREENE,PROVISIONAL,,61.0,0.0013266998341625207,canonical_county_level_ballot
 2014,house,24474,GREENE,PROVISIONAL,,71.0,0.45981205085682697,canonical_county_level_ballot
 2014,house,24474,GREENE,PROVISIONAL,,72.0,0.5388612493090105,canonical_county_level_ballot
-2014,house,24475,JEFFERSON,TOTAL OF REGISTERED VOTERS,,14.0,0.008567224909012834,canonical_split_legislative_activity_fallback
-2014,house,24475,JEFFERSON,TOTAL OF REGISTERED VOTERS,,15.0,0.06254707749924324,canonical_split_legislative_activity_fallback
-2014,house,24475,JEFFERSON,TOTAL OF REGISTERED VOTERS,,16.0,0.020745777984273475,canonical_split_legislative_activity_fallback
-2014,house,24475,JEFFERSON,TOTAL OF REGISTERED VOTERS,,43.0,0.0005913285886253722,canonical_split_legislative_activity_fallback
-2014,house,24475,JEFFERSON,TOTAL OF REGISTERED VOTERS,,44.0,0.07293052593046258,canonical_split_legislative_activity_fallback
-2014,house,24475,JEFFERSON,TOTAL OF REGISTERED VOTERS,,45.0,0.026652024244472133,canonical_split_legislative_activity_fallback
-2014,house,24475,JEFFERSON,TOTAL OF REGISTERED VOTERS,,46.0,0.0758730896214793,canonical_split_legislative_activity_fallback
-2014,house,24475,JEFFERSON,TOTAL OF REGISTERED VOTERS,,47.0,0.06838996712494633,canonical_split_legislative_activity_fallback
-2014,house,24475,JEFFERSON,TOTAL OF REGISTERED VOTERS,,48.0,0.06982605084017937,canonical_split_legislative_activity_fallback
-2014,house,24475,JEFFERSON,TOTAL OF REGISTERED VOTERS,,51.0,0.07564782158771725,canonical_split_legislative_activity_fallback
-2014,house,24475,JEFFERSON,TOTAL OF REGISTERED VOTERS,,52.0,0.06696092303576834,canonical_split_legislative_activity_fallback
-2014,house,24475,JEFFERSON,TOTAL OF REGISTERED VOTERS,,54.0,0.05350819764454112,canonical_split_legislative_activity_fallback
-2014,house,24475,JEFFERSON,TOTAL OF REGISTERED VOTERS,,55.0,0.05950595904345561,canonical_split_legislative_activity_fallback
-2014,house,24475,JEFFERSON,TOTAL OF REGISTERED VOTERS,,56.0,0.0847993354593004,canonical_split_legislative_activity_fallback
-2014,house,24475,JEFFERSON,TOTAL OF REGISTERED VOTERS,,57.0,0.07169155174477132,canonical_split_legislative_activity_fallback
-2014,house,24475,JEFFERSON,TOTAL OF REGISTERED VOTERS,,58.0,0.058337381118315,canonical_split_legislative_activity_fallback
-2014,house,24475,JEFFERSON,TOTAL OF REGISTERED VOTERS,,59.0,0.05595798751170338,canonical_split_legislative_activity_fallback
-2014,house,24475,JEFFERSON,TOTAL OF REGISTERED VOTERS,,60.0,0.06746777611173295,canonical_split_legislative_activity_fallback
+2014,house,24652,LAMAR,VERNON ARMORY WEST,,17.0,1.0,canonical_reported_single_district
+2014,house,24653,LAMAR,VERNON ARMORY EAST,,17.0,1.0,canonical_reported_single_district
+2014,house,24654,LAMAR,CROSSVILLE LAWR.,,17.0,1.0,canonical_reported_single_district
+2014,house,24655,LAMAR,FAIRVIEW SIZEMORE,3,17.0,1.0,canonical_reported_single_district
+2014,house,24656,LAMAR,BEAVERTON CITY HALL NORTH,4N,17.0,1.0,canonical_reported_single_district
+2014,house,24657,LAMAR,BEAVERTON CITY HALL SOUTH,,17.0,1.0,canonical_reported_single_district
+2014,house,24658,LAMAR,CREWS METHODIST CHURCH,5,17.0,1.0,canonical_reported_single_district
+2014,house,24659,LAMAR,HENSON SPRINGS FIRE STAT,6,17.0,1.0,canonical_reported_single_district
+2014,house,24660,LAMAR,DETROIT CITY HALL,,17.0,1.0,canonical_reported_single_district
+2014,house,24661,LAMAR,PINE SPRINGS,8,17.0,1.0,canonical_reported_single_district
+2014,house,24662,LAMAR,SULLIGENT CITY HALL NORTH,,16.0,1.0,canonical_reported_single_district
+2014,house,24663,LAMAR,SULLIGENT CITY HALL SOUTH,,16.0,1.0,canonical_reported_single_district
+2014,house,24664,LAMAR,BEDFORD MILITARY,10,16.0,1.0,canonical_reported_single_district
+2014,house,24665,LAMAR,MOLLOY BETTS,11,16.0,1.0,canonical_reported_single_district
+2014,house,24666,LAMAR,TRULL,12,16.0,1.0,canonical_reported_single_district
+2014,house,24667,LAMAR,VAILS,13,16.0,1.0,canonical_reported_single_district
+2014,house,24668,LAMAR,MILLPORT LIBRARY,14,16.0,1.0,canonical_reported_single_district
+2014,house,24669,LAMAR,KENNEDY COMMUNITY CENTER,,16.0,1.0,canonical_reported_single_district
+2014,house,24670,LAMAR,STRICKLAND KINGVILLE,16,16.0,0.6502732240437158,canonical_split_legislative_activity_fallback
+2014,house,24670,LAMAR,STRICKLAND KINGVILLE,16,17.0,0.34972677595628415,canonical_split_legislative_activity_fallback
+2014,house,24672,LAMAR,HIGHTOGY RIDGE,18,17.0,1.0,canonical_reported_single_district
+2014,house,24673,LAMAR,MT. PLEASANT CURRY,20,16.0,1.0,canonical_reported_single_district
+2014,house,24674,LAMAR,GUIN MT OLIVE,21,17.0,1.0,canonical_reported_single_district
+2014,house,24675,LAMAR,BLOOMING GROVE,22,17.0,1.0,canonical_reported_single_district
+2014,house,24676,LAMAR,STAR. COMMUNITY CENTER,23,17.0,1.0,canonical_reported_single_district
+2014,house,24677,LAMAR,ABSENTEE,,16.0,0.4743889041472123,canonical_county_level_ballot
+2014,house,24677,LAMAR,ABSENTEE,,17.0,0.5256110958527876,canonical_county_level_ballot
+2014,house,24678,LAMAR,PROVISIONAL,,16.0,0.4743889041472123,canonical_county_level_ballot
+2014,house,24678,LAMAR,PROVISIONAL,,17.0,0.5256110958527876,canonical_county_level_ballot
+2014,house,24679,MACON,NATIONAL GUARD ARMORY,0101,82.0,1.0,canonical_reported_single_district
+2014,house,24680,MACON,CHISHOLM COMM CENTR,,82.0,1.0,canonical_reported_single_district
+2014,house,24681,MACON,MARGARET MURRAY WASH HALL,,82.0,1.0,canonical_reported_single_district
+2014,house,24682,MACON,BROWNVILLE VFD,0103,82.0,1.0,canonical_reported_single_district
+2014,house,24683,MACON,WARRIOR DIST.2 REC. CTR.,,82.0,1.0,canonical_reported_single_district
+2014,house,24684,MACON,COTTON VALLEY REC CENTR,,82.0,1.0,canonical_reported_single_district
+2014,house,24685,MACON,TUSKEGEE MUNICIPAL COMPLX,0211,82.0,1.0,canonical_reported_single_district
+2014,house,24686,MACON,VOLUNTEER FIRE STATION,0306,82.0,1.0,canonical_reported_single_district
+2014,house,24687,MACON,OLD PRAIRIE FARM SCHOOL,,82.0,1.0,canonical_reported_single_district
+2014,house,24688,MACON,SOJOURNER COMM CENTR,,82.0,1.0,canonical_reported_single_district
+2014,house,24689,MACON,FRANKLIN TOWN HALL,0408,82.0,1.0,canonical_reported_single_district
+2014,house,24690,MACON,DISTR 4 COMM CENTR,,82.0,1.0,canonical_reported_single_district
+2014,house,24691,MACON,NOTASULGA TOWN HALL,0410,82.0,1.0,canonical_reported_single_district
+2014,house,24692,MACON,DISTR 4 RECREATION,,82.0,1.0,canonical_reported_single_district
+2014,house,24693,MACON,ABSENTEE,,82.0,1.0,canonical_county_level_ballot
+2014,house,24694,MACON,PROVISIONAL,,82.0,1.0,canonical_county_level_ballot
+2014,house,24695,PICKENS,LIBERTY,1100,61.0,1.0,canonical_reported_single_district
+2014,house,24696,PICKENS,BETHLEHEM,1200,61.0,1.0,canonical_reported_single_district
+2014,house,24697,PICKENS,FORREST,,61.0,1.0,canonical_reported_single_district
+2014,house,24698,PICKENS,MCSHAN,1400,61.0,1.0,canonical_reported_single_district
+2014,house,24699,PICKENS,REFORM,,61.0,1.0,canonical_reported_single_district
+2014,house,24700,PICKENS,PINE GROVE,,61.0,1.0,canonical_reported_single_district
+2014,house,24701,PICKENS,ETHELSVILLE,1800,61.0,1.0,canonical_reported_single_district
+2014,house,24702,PICKENS,COCHRANE/DANCY,2100,71.0,1.0,canonical_reported_single_district
+2014,house,24703,PICKENS,ALICEVILLE,,61.0,0.29606299212598425,canonical_split_legislative_activity_fallback
+2014,house,24703,PICKENS,ALICEVILLE,,71.0,0.7039370078740157,canonical_split_legislative_activity_fallback
+2014,house,24704,PICKENS,PALMETTO,3100,61.0,1.0,canonical_reported_single_district
+2014,house,24705,PICKENS,FAIRVIEW/ZION,3200,61.0,1.0,canonical_reported_single_district
+2014,house,24706,PICKENS,GORDO,,61.0,1.0,canonical_reported_single_district
+2014,house,24707,PICKENS,MACEDONIA,4100,61.0,1.0,canonical_reported_single_district
+2014,house,24708,PICKENS,CARROLLTON /SPEEDS MILL,5200,61.0,0.6708333333333333,canonical_split_legislative_activity_fallback
+2014,house,24708,PICKENS,CARROLLTON /SPEEDS MILL,5200,71.0,0.32916666666666666,canonical_split_legislative_activity_fallback
+2014,house,24709,PICKENS,SPRING HILL,4400,71.0,1.0,canonical_reported_single_district
+2014,house,24710,PICKENS,PICKENSVILLE,4500,71.0,1.0,canonical_reported_single_district
+2014,house,24711,PICKENS,SAPPS,4600,71.0,1.0,canonical_reported_single_district
+2014,house,24712,PICKENS,KIRK,5300,61.0,1.0,canonical_reported_single_district
+2014,house,24713,PICKENS,BENEVOLA,5400,61.0,1.0,canonical_reported_single_district
+2014,house,24714,PICKENS,ABSENTEE,,61.0,0.7694722981869746,canonical_county_level_ballot
+2014,house,24714,PICKENS,ABSENTEE,,71.0,0.23052770181302543,canonical_county_level_ballot
+2014,house,24715,PICKENS,PROVISIONAL,,61.0,0.7694722981869746,canonical_county_level_ballot
+2014,house,24715,PICKENS,PROVISIONAL,,71.0,0.23052770181302543,canonical_county_level_ballot
+2014,house,24716,WALKER,JASPER MALL,1,13.0,1.0,canonical_reported_single_district
+2014,house,24717,WALKER,FARMSTEAD BAPTIST,,13.0,1.0,canonical_reported_single_district
+2014,house,24718,WALKER,BETHEL ASSEMBLY OF GOD CH,,14.0,1.0,canonical_reported_single_district
+2014,house,24719,WALKER,MEADOW/SMITH LIBRARY,4,13.0,1.0,canonical_reported_single_district
+2014,house,24720,WALKER,CARBON HILL COMM. CTR.,5,14.0,1.0,canonical_reported_single_district
+2014,house,24721,WALKER,TOWNLEY ODD FELLOWS,6,14.0,1.0,canonical_reported_single_district
+2014,house,24722,WALKER,MEMORIAL PARK NATATORIUM,7,13.0,1.0,canonical_reported_single_district
+2014,house,24723,WALKER,WESTSIDE BAPTIST,8,13.0,1.0,canonical_reported_single_district
+2014,house,24724,WALKER,OAKMAN SR CITIZENS,,14.0,1.0,canonical_reported_single_district
+2014,house,24725,WALKER,TUTWILER FIRE DEPT,10,14.0,1.0,canonical_reported_single_district
+2014,house,24726,WALKER,UNION HALL GOODSPRINGS,11,14.0,1.0,canonical_reported_single_district
+2014,house,24727,WALKER,CORDOVA VFW BLDG,12,14.0,1.0,canonical_reported_single_district
+2014,house,24728,WALKER,DORA CIVIC CENTER,13,13.0,1.0,canonical_reported_single_district
+2014,house,24729,WALKER,VALLEY JR. HIGH,14,13.0,1.0,canonical_reported_single_district
+2014,house,24730,WALKER,SIPSEY SCHOOL,15,13.0,1.0,canonical_reported_single_district
+2014,house,24731,WALKER,EMPIRE UNION BLDG.,16,13.0,1.0,canonical_reported_single_district
+2014,house,24732,WALKER,CURRY-COMM. CTR.,,13.0,1.0,canonical_reported_single_district
+2014,house,24733,WALKER,CORONA BAPTIST CHURCH,18,14.0,1.0,canonical_reported_single_district
+2014,house,24734,WALKER,COPELAND FERRY FD,19,14.0,1.0,canonical_reported_single_district
+2014,house,24735,WALKER,LIBERTY HILL CHURCH,20,14.0,1.0,canonical_reported_single_district
+2014,house,24736,WALKER,TWILLEY TOWN CHURCH,21,14.0,1.0,canonical_reported_single_district
+2014,house,24737,WALKER,PARRISH ELEM. SCH. GYM,,14.0,1.0,canonical_reported_single_district
+2014,house,24738,WALKER,SARAGOSSA COMM. CTR,23,14.0,1.0,canonical_reported_single_district
+2014,house,24739,WALKER,POCAHONAS METH. CH,,14.0,1.0,canonical_reported_single_district
+2014,house,24740,WALKER,ELDRIDGE CITY HALL,25,14.0,1.0,canonical_reported_single_district
+2014,house,24741,WALKER,KANSAS CITY HALL,26,14.0,1.0,canonical_reported_single_district
+2014,house,24742,WALKER,RICES CHAPEL CH,27,13.0,1.0,canonical_reported_single_district
+2014,house,24743,WALKER,BOLDO COMM. CTR.,,13.0,1.0,canonical_reported_single_district
+2014,house,24744,WALKER,TOWNLEY VOL FIRE DEPT #2,,13.0,1.0,canonical_reported_single_district
+2014,house,24745,WALKER,ABUNDANT LIFE CH,30,13.0,1.0,canonical_reported_single_district
+2014,house,24746,WALKER,THACH SCHOOL,31,14.0,1.0,canonical_reported_single_district
+2014,house,24747,WALKER,PROSPECT METH. CHURCH,,14.0,1.0,canonical_reported_single_district
+2014,house,24748,WALKER,CROSSROADDS CHURCH CHRIST,,14.0,1.0,canonical_reported_single_district
+2014,house,24749,WALKER,NAUVOO CITY HALL,34,14.0,1.0,canonical_reported_single_district
+2014,house,24750,WALKER,NEW BETHANY CH GOD,35,14.0,1.0,canonical_reported_single_district
+2014,house,24751,WALKER,MCCOLLUM NATL GUARD,,14.0,1.0,canonical_reported_single_district
+2014,house,24752,WALKER,BEVILL STATE TECH.,,13.0,0.8847682119205298,canonical_split_legislative_activity_fallback
+2014,house,24752,WALKER,BEVILL STATE TECH.,,14.0,0.1152317880794702,canonical_split_legislative_activity_fallback
+2014,house,24753,WALKER,DILLWORTH COMM. BLDG.,38,13.0,1.0,canonical_reported_single_district
+2014,house,24754,WALKER,NEW HOPE MISSIONARY,39,14.0,1.0,canonical_reported_single_district
+2014,house,24755,WALKER,WALKER COUNTY EMA BLDG.,,13.0,0.34177215189873417,canonical_split_legislative_activity_fallback
+2014,house,24755,WALKER,WALKER COUNTY EMA BLDG.,,14.0,0.6582278481012658,canonical_split_legislative_activity_fallback
+2014,house,24756,WALKER,PLEASANTFIELD BAPT.,,14.0,1.0,canonical_reported_single_district
+2014,house,24757,WALKER,ARGO FIRE DEPT.,42,13.0,1.0,canonical_reported_single_district
+2014,house,24758,WALKER,PINEYWOODS FIRE DEPT.,43,13.0,1.0,canonical_reported_single_district
+2014,house,24759,WALKER,MANCHESTER COMM. BLDG,44,13.0,1.0,canonical_reported_single_district
+2014,house,24760,WALKER,OLD HERMAN CHURCH,45,13.0,1.0,canonical_reported_single_district
+2014,house,24761,WALKER,ABSENTEE,,13.0,0.5961087984721662,canonical_county_level_ballot
+2014,house,24761,WALKER,ABSENTEE,,14.0,0.40389120152783375,canonical_county_level_ballot
+2014,house,24762,WALKER,PROVISIONAL,,13.0,0.5961087984721662,canonical_county_level_ballot
+2014,house,24762,WALKER,PROVISIONAL,,14.0,0.40389120152783375,canonical_county_level_ballot
+2014,house,24763,WILCOX,NATL GUARD ARMORY CAMDEN,,69.0,1.0,canonical_reported_single_district
+2014,house,24764,WILCOX,PINE APPLE/AWIN FIRE STN DIST 1,1006,69.0,1.0,canonical_reported_single_district
+2014,house,24765,WILCOX,PINE APPLE/AWIN FIRE STN DIST 2,1006,69.0,1.0,canonical_reported_single_district
+2014,house,24766,WILCOX,FURMAN TATES CHAPEL CHURC DIST 1,2002,69.0,1.0,canonical_reported_single_district
+2014,house,24767,WILCOX,FURMAN TATES CHAPEL CHURC DIST 2,2002,69.0,1.0,canonical_reported_single_district
+2014,house,24768,WILCOX,BRIDGEPORT NATIONAL GUARD,2007,69.0,1.0,canonical_reported_single_district
+2014,house,24769,WILCOX,HWY 10/28 DIST 1,,69.0,1.0,canonical_reported_single_district
+2014,house,24770,WILCOX,HWY 10/28 DIST 2,,69.0,1.0,canonical_reported_single_district
+2014,house,24771,WILCOX,ST PAUL AME CHURCH DIST 1,,69.0,1.0,canonical_reported_single_district
+2014,house,24772,WILCOX,ST PAUL AME CHURCH DIST 2,,69.0,1.0,canonical_reported_single_district
+2014,house,24773,WILCOX,PORTABLE BLDG.,,69.0,1.0,canonical_reported_single_district
+2014,house,24774,WILCOX,SE CAMDEN CRTHOUSE DIST 2,,69.0,1.0,canonical_reported_single_district
+2014,house,24775,WILCOX,SE CAMDEN CRTHOUSE DIST 3,,69.0,1.0,canonical_reported_single_district
+2014,house,24776,WILCOX,COY PUBLIC SCH. HOUSE,,69.0,1.0,canonical_reported_single_district
+2014,house,24777,WILCOX,SEDAN PORT. BLDG HWY 41,3004,69.0,1.0,canonical_reported_single_district
+2014,house,24778,WILCOX,WHISKEY RUN DIST 3,5006,69.0,1.0,canonical_reported_single_district
+2014,house,24779,WILCOX,WHISKEY RUN DIST 5,5006,69.0,1.0,canonical_reported_single_district
+2014,house,24780,WILCOX,GEE'S BEND FERRY TERMINAL,,69.0,1.0,canonical_reported_single_district
+2014,house,24781,WILCOX,FAITH FELLOWSHIP,,69.0,1.0,canonical_reported_single_district
+2014,house,24782,WILCOX,PRAIRIE BLUFF CATHERINE,4003,69.0,1.0,canonical_reported_single_district
+2014,house,24783,WILCOX,MILLER FERRY RIVERVIEW CH,,69.0,1.0,canonical_reported_single_district
+2014,house,24784,WILCOX,CLIFTON VOC. BLDG,,69.0,1.0,canonical_reported_single_district
+2014,house,24785,WILCOX,VOC. BLDG ANNIEMANIE,,69.0,1.0,canonical_reported_single_district
+2014,house,24786,WILCOX,PINE HILL MIDDLE SCHOOL,5002,69.0,1.0,canonical_reported_single_district
+2014,house,24787,WILCOX,YELLOW BLUFF CITY HALL,5003B,69.0,1.0,canonical_reported_single_district
+2014,house,24788,WILCOX,GROCERY STORE,,69.0,1.0,canonical_reported_single_district
+2014,house,24789,WILCOX,LOWER PEACHTREE DIST 5,5005,69.0,1.0,canonical_reported_single_district
+2014,house,24790,WILCOX,LOWER PEACHTREE DIST 6,5005,69.0,1.0,canonical_reported_single_district
+2014,house,24791,WILCOX,ARLINGTON COMM CTR,,69.0,1.0,canonical_reported_single_district
+2014,house,24792,WILCOX,PINE HILL CITY HALL,5002,69.0,1.0,canonical_reported_single_district
+2014,house,24793,WILCOX,SUNNY SOUTH VOT BOOTH,6005,69.0,1.0,canonical_reported_single_district
+2014,house,24794,WILCOX,YE OLDE SHOPPE DIST 1,,69.0,1.0,canonical_reported_single_district
+2014,house,24795,WILCOX,YE OLDE SHOPPE DIST 2,,69.0,1.0,canonical_reported_single_district
+2014,house,24796,WILCOX,ABSENTEE,,69.0,1.0,canonical_county_level_ballot
+2014,house,24797,WILCOX,PROVISIONAL,,69.0,1.0,canonical_county_level_ballot
+2014,house,24798,WILCOX,E.M.JONES STORE,1004,69.0,1.0,canonical_reported_single_district
+2014,house,24799,WINSTON,NEIGHBORHOOD FCLTY,,7.0,0.20544554455445543,canonical_split_legislative_activity_fallback
+2014,house,24799,WINSTON,NEIGHBORHOOD FCLTY,,17.0,0.7945544554455446,canonical_split_legislative_activity_fallback
+2014,house,24800,WINSTON,DELMAR FIRE DEPARTMENT,,17.0,1.0,canonical_reported_single_district
+2014,house,24801,WINSTON,NATURAL BRIDGE CITY HALL,,14.0,0.08333333333333333,canonical_split_legislative_activity_fallback
+2014,house,24801,WINSTON,NATURAL BRIDGE CITY HALL,,17.0,0.9166666666666666,canonical_split_legislative_activity_fallback
+2014,house,24802,WINSTON,LYNN CITY HALL,,14.0,1.0,canonical_reported_single_district
+2014,house,24803,WINSTON,PEBBLE FIRE HOUSE,,7.0,1.0,canonical_reported_single_district
+2014,house,24804,WINSTON,HOME ZONE NEEDMORE,,7.0,0.3861788617886179,canonical_split_legislative_activity_fallback
+2014,house,24804,WINSTON,HOME ZONE NEEDMORE,,14.0,0.008130081300813009,canonical_split_legislative_activity_fallback
+2014,house,24804,WINSTON,HOME ZONE NEEDMORE,,17.0,0.6056910569105691,canonical_split_legislative_activity_fallback
+2014,house,24805,WINSTON,ASHRIDGE FIRE DEPARTMENT,11,14.0,0.9798850574712644,canonical_split_legislative_activity_fallback
+2014,house,24805,WINSTON,ASHRIDGE FIRE DEPARTMENT,11,17.0,0.020114942528735632,canonical_split_legislative_activity_fallback
+2014,house,24806,WINSTON,DOUBLE SPRINGS MUN. BLDG.,,17.0,1.0,canonical_reported_single_district
+2014,house,24807,WINSTON,OLD UNION CHURCH,,14.0,1.0,canonical_reported_single_district
+2014,house,24808,WINSTON,MORELAND FIRE DEPARTMENT,,14.0,1.0,canonical_reported_single_district
+2014,house,24809,WINSTON,HOUSTON FIRE DEPARTMENT,6,14.0,1.0,canonical_reported_single_district
+2014,house,24810,WINSTON,BLACK POND FIRE DEPARTMENT,,14.0,1.0,canonical_reported_single_district
+2014,house,24811,WINSTON,UPSHAW FIRE DEPARTMENT,,14.0,1.0,canonical_reported_single_district
+2014,house,24812,WINSTON,ADDISON COMMUNITY CENTER,7,14.0,1.0,canonical_reported_single_district
+2014,house,24813,WINSTON,NESMITH COMM. CENTER,,14.0,1.0,canonical_reported_single_district
+2014,house,24814,WINSTON,HELICON FIRE DEPARTMENT,,14.0,1.0,canonical_reported_single_district
+2014,house,24815,WINSTON,ARLEY FIRE DEPARTMENT,5,14.0,1.0,canonical_reported_single_district
+2014,house,24816,WINSTON,ABSENTEE,,7.0,0.21107662146708053,canonical_county_level_ballot
+2014,house,24816,WINSTON,ABSENTEE,,14.0,0.5172765887926809,canonical_county_level_ballot
+2014,house,24816,WINSTON,ABSENTEE,,17.0,0.27164678974023854,canonical_county_level_ballot
+2014,house,24817,WINSTON,PROVISIONAL,,7.0,0.21107662146708053,canonical_county_level_ballot
+2014,house,24817,WINSTON,PROVISIONAL,,14.0,0.5172765887926809,canonical_county_level_ballot
+2014,house,24817,WINSTON,PROVISIONAL,,17.0,0.27164678974023854,canonical_county_level_ballot
+2014,house,24818,WINSTON,21ST STREET GYM,,7.0,1.0,canonical_reported_single_district
 2014,house,24476,JEFFERSON,1010 - OUR LADY OF LOURD,5810,54.0,0.4550359712230216,canonical_split_legislative_activity_fallback
 2014,house,24476,JEFFERSON,1010 - OUR LADY OF LOURD,5810,58.0,0.5449640287769785,canonical_split_legislative_activity_fallback
 2014,house,24477,JEFFERSON,1020 - TOM BRADFORD PARK,,54.0,1.0,canonical_reported_single_district
@@ -8394,192 +8562,6 @@ cycle,chamber,node_id,county_key,precinct_key,vtd,district,allocation_weight,all
 2014,house,24651,JEFFERSON,PROVISIONAL,,58.0,0.06847430239374547,canonical_county_level_ballot
 2014,house,24651,JEFFERSON,PROVISIONAL,,59.0,0.06867173096257058,canonical_county_level_ballot
 2014,house,24651,JEFFERSON,PROVISIONAL,,60.0,0.06846822766855085,canonical_county_level_ballot
-2014,house,24652,LAMAR,VERNON ARMORY WEST,,17.0,1.0,canonical_reported_single_district
-2014,house,24653,LAMAR,VERNON ARMORY EAST,,17.0,1.0,canonical_reported_single_district
-2014,house,24654,LAMAR,CROSSVILLE LAWR.,,17.0,1.0,canonical_reported_single_district
-2014,house,24655,LAMAR,FAIRVIEW SIZEMORE,3,17.0,1.0,canonical_reported_single_district
-2014,house,24656,LAMAR,BEAVERTON CITY HALL NORTH,4N,17.0,1.0,canonical_reported_single_district
-2014,house,24657,LAMAR,BEAVERTON CITY HALL SOUTH,,17.0,1.0,canonical_reported_single_district
-2014,house,24658,LAMAR,CREWS METHODIST CHURCH,5,17.0,1.0,canonical_reported_single_district
-2014,house,24659,LAMAR,HENSON SPRINGS FIRE STAT,6,17.0,1.0,canonical_reported_single_district
-2014,house,24660,LAMAR,DETROIT CITY HALL,,17.0,1.0,canonical_reported_single_district
-2014,house,24661,LAMAR,PINE SPRINGS,8,17.0,1.0,canonical_reported_single_district
-2014,house,24662,LAMAR,SULLIGENT CITY HALL NORTH,,16.0,1.0,canonical_reported_single_district
-2014,house,24663,LAMAR,SULLIGENT CITY HALL SOUTH,,16.0,1.0,canonical_reported_single_district
-2014,house,24664,LAMAR,BEDFORD MILITARY,10,16.0,1.0,canonical_reported_single_district
-2014,house,24665,LAMAR,MOLLOY BETTS,11,16.0,1.0,canonical_reported_single_district
-2014,house,24666,LAMAR,TRULL,12,16.0,1.0,canonical_reported_single_district
-2014,house,24667,LAMAR,VAILS,13,16.0,1.0,canonical_reported_single_district
-2014,house,24668,LAMAR,MILLPORT LIBRARY,14,16.0,1.0,canonical_reported_single_district
-2014,house,24669,LAMAR,KENNEDY COMMUNITY CENTER,,16.0,1.0,canonical_reported_single_district
-2014,house,24670,LAMAR,STRICKLAND KINGVILLE,16,16.0,0.6502732240437158,canonical_split_legislative_activity_fallback
-2014,house,24670,LAMAR,STRICKLAND KINGVILLE,16,17.0,0.34972677595628415,canonical_split_legislative_activity_fallback
-2014,house,24672,LAMAR,HIGHTOGY RIDGE,18,17.0,1.0,canonical_reported_single_district
-2014,house,24673,LAMAR,MT. PLEASANT CURRY,20,16.0,1.0,canonical_reported_single_district
-2014,house,24674,LAMAR,GUIN MT OLIVE,21,17.0,1.0,canonical_reported_single_district
-2014,house,24675,LAMAR,BLOOMING GROVE,22,17.0,1.0,canonical_reported_single_district
-2014,house,24676,LAMAR,STAR. COMMUNITY CENTER,23,17.0,1.0,canonical_reported_single_district
-2014,house,24677,LAMAR,ABSENTEE,,16.0,0.4743889041472123,canonical_county_level_ballot
-2014,house,24677,LAMAR,ABSENTEE,,17.0,0.5256110958527876,canonical_county_level_ballot
-2014,house,24678,LAMAR,PROVISIONAL,,16.0,0.4743889041472123,canonical_county_level_ballot
-2014,house,24678,LAMAR,PROVISIONAL,,17.0,0.5256110958527876,canonical_county_level_ballot
-2014,house,24679,MACON,NATIONAL GUARD ARMORY,0101,82.0,1.0,canonical_reported_single_district
-2014,house,24680,MACON,CHISHOLM COMM CENTR,,82.0,1.0,canonical_reported_single_district
-2014,house,24681,MACON,MARGARET MURRAY WASH HALL,,82.0,1.0,canonical_reported_single_district
-2014,house,24682,MACON,BROWNVILLE VFD,0103,82.0,1.0,canonical_reported_single_district
-2014,house,24683,MACON,WARRIOR DIST.2 REC. CTR.,,82.0,1.0,canonical_reported_single_district
-2014,house,24684,MACON,COTTON VALLEY REC CENTR,,82.0,1.0,canonical_reported_single_district
-2014,house,24685,MACON,TUSKEGEE MUNICIPAL COMPLX,0211,82.0,1.0,canonical_reported_single_district
-2014,house,24686,MACON,VOLUNTEER FIRE STATION,0306,82.0,1.0,canonical_reported_single_district
-2014,house,24687,MACON,OLD PRAIRIE FARM SCHOOL,,82.0,1.0,canonical_reported_single_district
-2014,house,24688,MACON,SOJOURNER COMM CENTR,,82.0,1.0,canonical_reported_single_district
-2014,house,24689,MACON,FRANKLIN TOWN HALL,0408,82.0,1.0,canonical_reported_single_district
-2014,house,24690,MACON,DISTR 4 COMM CENTR,,82.0,1.0,canonical_reported_single_district
-2014,house,24691,MACON,NOTASULGA TOWN HALL,0410,82.0,1.0,canonical_reported_single_district
-2014,house,24692,MACON,DISTR 4 RECREATION,,82.0,1.0,canonical_reported_single_district
-2014,house,24693,MACON,ABSENTEE,,82.0,1.0,canonical_county_level_ballot
-2014,house,24694,MACON,PROVISIONAL,,82.0,1.0,canonical_county_level_ballot
-2014,house,24695,PICKENS,LIBERTY,1100,61.0,1.0,canonical_reported_single_district
-2014,house,24696,PICKENS,BETHLEHEM,1200,61.0,1.0,canonical_reported_single_district
-2014,house,24697,PICKENS,FORREST,,61.0,1.0,canonical_reported_single_district
-2014,house,24698,PICKENS,MCSHAN,1400,61.0,1.0,canonical_reported_single_district
-2014,house,24699,PICKENS,REFORM,,61.0,1.0,canonical_reported_single_district
-2014,house,24700,PICKENS,PINE GROVE,,61.0,1.0,canonical_reported_single_district
-2014,house,24701,PICKENS,ETHELSVILLE,1800,61.0,1.0,canonical_reported_single_district
-2014,house,24702,PICKENS,COCHRANE/DANCY,2100,71.0,1.0,canonical_reported_single_district
-2014,house,24703,PICKENS,ALICEVILLE,,61.0,0.29606299212598425,canonical_split_legislative_activity_fallback
-2014,house,24703,PICKENS,ALICEVILLE,,71.0,0.7039370078740157,canonical_split_legislative_activity_fallback
-2014,house,24704,PICKENS,PALMETTO,3100,61.0,1.0,canonical_reported_single_district
-2014,house,24705,PICKENS,FAIRVIEW/ZION,3200,61.0,1.0,canonical_reported_single_district
-2014,house,24706,PICKENS,GORDO,,61.0,1.0,canonical_reported_single_district
-2014,house,24707,PICKENS,MACEDONIA,4100,61.0,1.0,canonical_reported_single_district
-2014,house,24708,PICKENS,CARROLLTON /SPEEDS MILL,5200,61.0,0.6708333333333333,canonical_split_legislative_activity_fallback
-2014,house,24708,PICKENS,CARROLLTON /SPEEDS MILL,5200,71.0,0.32916666666666666,canonical_split_legislative_activity_fallback
-2014,house,24709,PICKENS,SPRING HILL,4400,71.0,1.0,canonical_reported_single_district
-2014,house,24710,PICKENS,PICKENSVILLE,4500,71.0,1.0,canonical_reported_single_district
-2014,house,24711,PICKENS,SAPPS,4600,71.0,1.0,canonical_reported_single_district
-2014,house,24712,PICKENS,KIRK,5300,61.0,1.0,canonical_reported_single_district
-2014,house,24713,PICKENS,BENEVOLA,5400,61.0,1.0,canonical_reported_single_district
-2014,house,24714,PICKENS,ABSENTEE,,61.0,0.7694722981869746,canonical_county_level_ballot
-2014,house,24714,PICKENS,ABSENTEE,,71.0,0.23052770181302543,canonical_county_level_ballot
-2014,house,24715,PICKENS,PROVISIONAL,,61.0,0.7694722981869746,canonical_county_level_ballot
-2014,house,24715,PICKENS,PROVISIONAL,,71.0,0.23052770181302543,canonical_county_level_ballot
-2014,house,24716,WALKER,JASPER MALL,1,13.0,1.0,canonical_reported_single_district
-2014,house,24717,WALKER,FARMSTEAD BAPTIST,,13.0,1.0,canonical_reported_single_district
-2014,house,24718,WALKER,BETHEL ASSEMBLY OF GOD CH,,14.0,1.0,canonical_reported_single_district
-2014,house,24719,WALKER,MEADOW/SMITH LIBRARY,4,13.0,1.0,canonical_reported_single_district
-2014,house,24720,WALKER,CARBON HILL COMM. CTR.,5,14.0,1.0,canonical_reported_single_district
-2014,house,24721,WALKER,TOWNLEY ODD FELLOWS,6,14.0,1.0,canonical_reported_single_district
-2014,house,24722,WALKER,MEMORIAL PARK NATATORIUM,7,13.0,1.0,canonical_reported_single_district
-2014,house,24723,WALKER,WESTSIDE BAPTIST,8,13.0,1.0,canonical_reported_single_district
-2014,house,24724,WALKER,OAKMAN SR CITIZENS,,14.0,1.0,canonical_reported_single_district
-2014,house,24725,WALKER,TUTWILER FIRE DEPT,10,14.0,1.0,canonical_reported_single_district
-2014,house,24726,WALKER,UNION HALL GOODSPRINGS,11,14.0,1.0,canonical_reported_single_district
-2014,house,24727,WALKER,CORDOVA VFW BLDG,12,14.0,1.0,canonical_reported_single_district
-2014,house,24728,WALKER,DORA CIVIC CENTER,13,13.0,1.0,canonical_reported_single_district
-2014,house,24729,WALKER,VALLEY JR. HIGH,14,13.0,1.0,canonical_reported_single_district
-2014,house,24730,WALKER,SIPSEY SCHOOL,15,13.0,1.0,canonical_reported_single_district
-2014,house,24731,WALKER,EMPIRE UNION BLDG.,16,13.0,1.0,canonical_reported_single_district
-2014,house,24732,WALKER,CURRY-COMM. CTR.,,13.0,1.0,canonical_reported_single_district
-2014,house,24733,WALKER,CORONA BAPTIST CHURCH,18,14.0,1.0,canonical_reported_single_district
-2014,house,24734,WALKER,COPELAND FERRY FD,19,14.0,1.0,canonical_reported_single_district
-2014,house,24735,WALKER,LIBERTY HILL CHURCH,20,14.0,1.0,canonical_reported_single_district
-2014,house,24736,WALKER,TWILLEY TOWN CHURCH,21,14.0,1.0,canonical_reported_single_district
-2014,house,24737,WALKER,PARRISH ELEM. SCH. GYM,,14.0,1.0,canonical_reported_single_district
-2014,house,24738,WALKER,SARAGOSSA COMM. CTR,23,14.0,1.0,canonical_reported_single_district
-2014,house,24739,WALKER,POCAHONAS METH. CH,,14.0,1.0,canonical_reported_single_district
-2014,house,24740,WALKER,ELDRIDGE CITY HALL,25,14.0,1.0,canonical_reported_single_district
-2014,house,24741,WALKER,KANSAS CITY HALL,26,14.0,1.0,canonical_reported_single_district
-2014,house,24742,WALKER,RICES CHAPEL CH,27,13.0,1.0,canonical_reported_single_district
-2014,house,24743,WALKER,BOLDO COMM. CTR.,,13.0,1.0,canonical_reported_single_district
-2014,house,24744,WALKER,TOWNLEY VOL FIRE DEPT #2,,13.0,1.0,canonical_reported_single_district
-2014,house,24745,WALKER,ABUNDANT LIFE CH,30,13.0,1.0,canonical_reported_single_district
-2014,house,24746,WALKER,THACH SCHOOL,31,14.0,1.0,canonical_reported_single_district
-2014,house,24747,WALKER,PROSPECT METH. CHURCH,,14.0,1.0,canonical_reported_single_district
-2014,house,24748,WALKER,CROSSROADDS CHURCH CHRIST,,14.0,1.0,canonical_reported_single_district
-2014,house,24749,WALKER,NAUVOO CITY HALL,34,14.0,1.0,canonical_reported_single_district
-2014,house,24750,WALKER,NEW BETHANY CH GOD,35,14.0,1.0,canonical_reported_single_district
-2014,house,24751,WALKER,MCCOLLUM NATL GUARD,,14.0,1.0,canonical_reported_single_district
-2014,house,24752,WALKER,BEVILL STATE TECH.,,13.0,0.8847682119205298,canonical_split_legislative_activity_fallback
-2014,house,24752,WALKER,BEVILL STATE TECH.,,14.0,0.1152317880794702,canonical_split_legislative_activity_fallback
-2014,house,24753,WALKER,DILLWORTH COMM. BLDG.,38,13.0,1.0,canonical_reported_single_district
-2014,house,24754,WALKER,NEW HOPE MISSIONARY,39,14.0,1.0,canonical_reported_single_district
-2014,house,24755,WALKER,WALKER COUNTY EMA BLDG.,,13.0,0.34177215189873417,canonical_split_legislative_activity_fallback
-2014,house,24755,WALKER,WALKER COUNTY EMA BLDG.,,14.0,0.6582278481012658,canonical_split_legislative_activity_fallback
-2014,house,24756,WALKER,PLEASANTFIELD BAPT.,,14.0,1.0,canonical_reported_single_district
-2014,house,24757,WALKER,ARGO FIRE DEPT.,42,13.0,1.0,canonical_reported_single_district
-2014,house,24758,WALKER,PINEYWOODS FIRE DEPT.,43,13.0,1.0,canonical_reported_single_district
-2014,house,24759,WALKER,MANCHESTER COMM. BLDG,44,13.0,1.0,canonical_reported_single_district
-2014,house,24760,WALKER,OLD HERMAN CHURCH,45,13.0,1.0,canonical_reported_single_district
-2014,house,24761,WALKER,ABSENTEE,,13.0,0.5961087984721662,canonical_county_level_ballot
-2014,house,24761,WALKER,ABSENTEE,,14.0,0.40389120152783375,canonical_county_level_ballot
-2014,house,24762,WALKER,PROVISIONAL,,13.0,0.5961087984721662,canonical_county_level_ballot
-2014,house,24762,WALKER,PROVISIONAL,,14.0,0.40389120152783375,canonical_county_level_ballot
-2014,house,24763,WILCOX,NATL GUARD ARMORY CAMDEN,,69.0,1.0,canonical_reported_single_district
-2014,house,24764,WILCOX,PINE APPLE/AWIN FIRE STN DIST 1,1006,69.0,1.0,canonical_reported_single_district
-2014,house,24765,WILCOX,PINE APPLE/AWIN FIRE STN DIST 2,1006,69.0,1.0,canonical_reported_single_district
-2014,house,24766,WILCOX,FURMAN TATES CHAPEL CHURC DIST 1,2002,69.0,1.0,canonical_reported_single_district
-2014,house,24767,WILCOX,FURMAN TATES CHAPEL CHURC DIST 2,2002,69.0,1.0,canonical_reported_single_district
-2014,house,24768,WILCOX,BRIDGEPORT NATIONAL GUARD,2007,69.0,1.0,canonical_reported_single_district
-2014,house,24769,WILCOX,HWY 10/28 DIST 1,,69.0,1.0,canonical_reported_single_district
-2014,house,24770,WILCOX,HWY 10/28 DIST 2,,69.0,1.0,canonical_reported_single_district
-2014,house,24771,WILCOX,ST PAUL AME CHURCH DIST 1,,69.0,1.0,canonical_reported_single_district
-2014,house,24772,WILCOX,ST PAUL AME CHURCH DIST 2,,69.0,1.0,canonical_reported_single_district
-2014,house,24773,WILCOX,PORTABLE BLDG.,,69.0,1.0,canonical_reported_single_district
-2014,house,24774,WILCOX,SE CAMDEN CRTHOUSE DIST 2,,69.0,1.0,canonical_reported_single_district
-2014,house,24775,WILCOX,SE CAMDEN CRTHOUSE DIST 3,,69.0,1.0,canonical_reported_single_district
-2014,house,24776,WILCOX,COY PUBLIC SCH. HOUSE,,69.0,1.0,canonical_reported_single_district
-2014,house,24777,WILCOX,SEDAN PORT. BLDG HWY 41,3004,69.0,1.0,canonical_reported_single_district
-2014,house,24778,WILCOX,WHISKEY RUN DIST 3,5006,69.0,1.0,canonical_reported_single_district
-2014,house,24779,WILCOX,WHISKEY RUN DIST 5,5006,69.0,1.0,canonical_reported_single_district
-2014,house,24780,WILCOX,GEE'S BEND FERRY TERMINAL,,69.0,1.0,canonical_reported_single_district
-2014,house,24781,WILCOX,FAITH FELLOWSHIP,,69.0,1.0,canonical_reported_single_district
-2014,house,24782,WILCOX,PRAIRIE BLUFF CATHERINE,4003,69.0,1.0,canonical_reported_single_district
-2014,house,24783,WILCOX,MILLER FERRY RIVERVIEW CH,,69.0,1.0,canonical_reported_single_district
-2014,house,24784,WILCOX,CLIFTON VOC. BLDG,,69.0,1.0,canonical_reported_single_district
-2014,house,24785,WILCOX,VOC. BLDG ANNIEMANIE,,69.0,1.0,canonical_reported_single_district
-2014,house,24786,WILCOX,PINE HILL MIDDLE SCHOOL,5002,69.0,1.0,canonical_reported_single_district
-2014,house,24787,WILCOX,YELLOW BLUFF CITY HALL,5003B,69.0,1.0,canonical_reported_single_district
-2014,house,24788,WILCOX,GROCERY STORE,,69.0,1.0,canonical_reported_single_district
-2014,house,24789,WILCOX,LOWER PEACHTREE DIST 5,5005,69.0,1.0,canonical_reported_single_district
-2014,house,24790,WILCOX,LOWER PEACHTREE DIST 6,5005,69.0,1.0,canonical_reported_single_district
-2014,house,24791,WILCOX,ARLINGTON COMM CTR,,69.0,1.0,canonical_reported_single_district
-2014,house,24792,WILCOX,PINE HILL CITY HALL,5002,69.0,1.0,canonical_reported_single_district
-2014,house,24793,WILCOX,SUNNY SOUTH VOT BOOTH,6005,69.0,1.0,canonical_reported_single_district
-2014,house,24794,WILCOX,YE OLDE SHOPPE DIST 1,,69.0,1.0,canonical_reported_single_district
-2014,house,24795,WILCOX,YE OLDE SHOPPE DIST 2,,69.0,1.0,canonical_reported_single_district
-2014,house,24796,WILCOX,ABSENTEE,,69.0,1.0,canonical_county_level_ballot
-2014,house,24797,WILCOX,PROVISIONAL,,69.0,1.0,canonical_county_level_ballot
-2014,house,24798,WILCOX,E.M.JONES STORE,1004,69.0,1.0,canonical_reported_single_district
-2014,house,24799,WINSTON,NEIGHBORHOOD FCLTY,,7.0,0.20544554455445543,canonical_split_legislative_activity_fallback
-2014,house,24799,WINSTON,NEIGHBORHOOD FCLTY,,17.0,0.7945544554455446,canonical_split_legislative_activity_fallback
-2014,house,24800,WINSTON,DELMAR FIRE DEPARTMENT,,17.0,1.0,canonical_reported_single_district
-2014,house,24801,WINSTON,NATURAL BRIDGE CITY HALL,,14.0,0.08333333333333333,canonical_split_legislative_activity_fallback
-2014,house,24801,WINSTON,NATURAL BRIDGE CITY HALL,,17.0,0.9166666666666666,canonical_split_legislative_activity_fallback
-2014,house,24802,WINSTON,LYNN CITY HALL,,14.0,1.0,canonical_reported_single_district
-2014,house,24803,WINSTON,PEBBLE FIRE HOUSE,,7.0,1.0,canonical_reported_single_district
-2014,house,24804,WINSTON,HOME ZONE NEEDMORE,,7.0,0.3861788617886179,canonical_split_legislative_activity_fallback
-2014,house,24804,WINSTON,HOME ZONE NEEDMORE,,14.0,0.008130081300813009,canonical_split_legislative_activity_fallback
-2014,house,24804,WINSTON,HOME ZONE NEEDMORE,,17.0,0.6056910569105691,canonical_split_legislative_activity_fallback
-2014,house,24805,WINSTON,ASHRIDGE FIRE DEPARTMENT,11,14.0,0.9798850574712644,canonical_split_legislative_activity_fallback
-2014,house,24805,WINSTON,ASHRIDGE FIRE DEPARTMENT,11,17.0,0.020114942528735632,canonical_split_legislative_activity_fallback
-2014,house,24806,WINSTON,DOUBLE SPRINGS MUN. BLDG.,,17.0,1.0,canonical_reported_single_district
-2014,house,24807,WINSTON,OLD UNION CHURCH,,14.0,1.0,canonical_reported_single_district
-2014,house,24808,WINSTON,MORELAND FIRE DEPARTMENT,,14.0,1.0,canonical_reported_single_district
-2014,house,24809,WINSTON,HOUSTON FIRE DEPARTMENT,6,14.0,1.0,canonical_reported_single_district
-2014,house,24810,WINSTON,BLACK POND FIRE DEPARTMENT,,14.0,1.0,canonical_reported_single_district
-2014,house,24811,WINSTON,UPSHAW FIRE DEPARTMENT,,14.0,1.0,canonical_reported_single_district
-2014,house,24812,WINSTON,ADDISON COMMUNITY CENTER,7,14.0,1.0,canonical_reported_single_district
-2014,house,24813,WINSTON,NESMITH COMM. CENTER,,14.0,1.0,canonical_reported_single_district
-2014,house,24814,WINSTON,HELICON FIRE DEPARTMENT,,14.0,1.0,canonical_reported_single_district
-2014,house,24815,WINSTON,ARLEY FIRE DEPARTMENT,5,14.0,1.0,canonical_reported_single_district
-2014,house,24816,WINSTON,ABSENTEE,,7.0,0.21107662146708053,canonical_county_level_ballot
-2014,house,24816,WINSTON,ABSENTEE,,14.0,0.5172765887926809,canonical_county_level_ballot
-2014,house,24816,WINSTON,ABSENTEE,,17.0,0.27164678974023854,canonical_county_level_ballot
-2014,house,24817,WINSTON,PROVISIONAL,,7.0,0.21107662146708053,canonical_county_level_ballot
-2014,house,24817,WINSTON,PROVISIONAL,,14.0,0.5172765887926809,canonical_county_level_ballot
-2014,house,24817,WINSTON,PROVISIONAL,,17.0,0.27164678974023854,canonical_county_level_ballot
-2014,house,24818,WINSTON,21ST STREET GYM,,7.0,1.0,canonical_reported_single_district
 2014,house,22605,BLOUNT,BLOUNT SPRINGS,3,34.0,1.0,canonical_spatial_no_legislative_result
 2014,house,22606,BLOUNT,HAYDEN,4,34.0,1.0,canonical_spatial_no_legislative_result
 2014,house,22607,BLOUNT,SUGAR CREEK BANGOR,5,34.0,1.0,canonical_spatial_no_legislative_result
@@ -10904,14 +10886,182 @@ cycle,chamber,node_id,county_key,precinct_key,vtd,district,allocation_weight,all
 2014,senate,24472,GREENE,CLINTON COMMUNITY CENTER,,24.0,1.0,canonical_reported_single_district
 2014,senate,24473,GREENE,ABSENTEE,,24.0,1.0,canonical_county_level_ballot
 2014,senate,24474,GREENE,PROVISIONAL,,24.0,1.0,canonical_county_level_ballot
-2014,senate,24475,JEFFERSON,TOTAL OF REGISTERED VOTERS,,5.0,0.03209990545918255,canonical_split_legislative_activity_fallback
-2014,senate,24475,JEFFERSON,TOTAL OF REGISTERED VOTERS,,14.0,0.016387075024368078,canonical_split_legislative_activity_fallback
-2014,senate,24475,JEFFERSON,TOTAL OF REGISTERED VOTERS,,15.0,0.09655622247139957,canonical_split_legislative_activity_fallback
-2014,senate,24475,JEFFERSON,TOTAL OF REGISTERED VOTERS,,16.0,0.17597050912795256,canonical_split_legislative_activity_fallback
-2014,senate,24475,JEFFERSON,TOTAL OF REGISTERED VOTERS,,17.0,0.13881376924711797,canonical_split_legislative_activity_fallback
-2014,senate,24475,JEFFERSON,TOTAL OF REGISTERED VOTERS,,18.0,0.16999025276843363,canonical_split_legislative_activity_fallback
-2014,senate,24475,JEFFERSON,TOTAL OF REGISTERED VOTERS,,19.0,0.19892414015492968,canonical_split_legislative_activity_fallback
-2014,senate,24475,JEFFERSON,TOTAL OF REGISTERED VOTERS,,20.0,0.17125812574661595,canonical_split_legislative_activity_fallback
+2014,senate,24652,LAMAR,VERNON ARMORY WEST,,21.0,1.0,canonical_reported_single_district
+2014,senate,24653,LAMAR,VERNON ARMORY EAST,,21.0,1.0,canonical_reported_single_district
+2014,senate,24654,LAMAR,CROSSVILLE LAWR.,,21.0,1.0,canonical_reported_single_district
+2014,senate,24655,LAMAR,FAIRVIEW SIZEMORE,3,21.0,1.0,canonical_reported_single_district
+2014,senate,24656,LAMAR,BEAVERTON CITY HALL NORTH,4N,21.0,1.0,canonical_reported_single_district
+2014,senate,24657,LAMAR,BEAVERTON CITY HALL SOUTH,,21.0,1.0,canonical_reported_single_district
+2014,senate,24658,LAMAR,CREWS METHODIST CHURCH,5,21.0,1.0,canonical_reported_single_district
+2014,senate,24659,LAMAR,HENSON SPRINGS FIRE STAT,6,21.0,1.0,canonical_reported_single_district
+2014,senate,24660,LAMAR,DETROIT CITY HALL,,21.0,1.0,canonical_reported_single_district
+2014,senate,24661,LAMAR,PINE SPRINGS,8,21.0,1.0,canonical_reported_single_district
+2014,senate,24662,LAMAR,SULLIGENT CITY HALL NORTH,,21.0,1.0,canonical_reported_single_district
+2014,senate,24663,LAMAR,SULLIGENT CITY HALL SOUTH,,21.0,1.0,canonical_reported_single_district
+2014,senate,24664,LAMAR,BEDFORD MILITARY,10,21.0,1.0,canonical_reported_single_district
+2014,senate,24665,LAMAR,MOLLOY BETTS,11,21.0,1.0,canonical_reported_single_district
+2014,senate,24666,LAMAR,TRULL,12,21.0,1.0,canonical_reported_single_district
+2014,senate,24667,LAMAR,VAILS,13,21.0,1.0,canonical_reported_single_district
+2014,senate,24668,LAMAR,MILLPORT LIBRARY,14,21.0,1.0,canonical_reported_single_district
+2014,senate,24669,LAMAR,KENNEDY COMMUNITY CENTER,,21.0,1.0,canonical_reported_single_district
+2014,senate,24670,LAMAR,STRICKLAND KINGVILLE,16,21.0,1.0,canonical_reported_single_district
+2014,senate,24671,LAMAR,FERNBANK COMMUNITY CENTER,,21.0,1.0,canonical_reported_single_district
+2014,senate,24672,LAMAR,HIGHTOGY RIDGE,18,21.0,1.0,canonical_reported_single_district
+2014,senate,24673,LAMAR,MT. PLEASANT CURRY,20,21.0,1.0,canonical_reported_single_district
+2014,senate,24674,LAMAR,GUIN MT OLIVE,21,21.0,1.0,canonical_reported_single_district
+2014,senate,24675,LAMAR,BLOOMING GROVE,22,21.0,1.0,canonical_reported_single_district
+2014,senate,24676,LAMAR,STAR. COMMUNITY CENTER,23,21.0,1.0,canonical_reported_single_district
+2014,senate,24677,LAMAR,ABSENTEE,,21.0,1.0,canonical_county_level_ballot
+2014,senate,24678,LAMAR,PROVISIONAL,,21.0,1.0,canonical_county_level_ballot
+2014,senate,24679,MACON,NATIONAL GUARD ARMORY,0101,28.0,1.0,canonical_reported_single_district
+2014,senate,24680,MACON,CHISHOLM COMM CENTR,,28.0,1.0,canonical_reported_single_district
+2014,senate,24681,MACON,MARGARET MURRAY WASH HALL,,28.0,1.0,canonical_reported_single_district
+2014,senate,24682,MACON,BROWNVILLE VFD,0103,28.0,1.0,canonical_reported_single_district
+2014,senate,24683,MACON,WARRIOR DIST.2 REC. CTR.,,28.0,1.0,canonical_reported_single_district
+2014,senate,24684,MACON,COTTON VALLEY REC CENTR,,28.0,1.0,canonical_reported_single_district
+2014,senate,24685,MACON,TUSKEGEE MUNICIPAL COMPLX,0211,28.0,1.0,canonical_reported_single_district
+2014,senate,24686,MACON,VOLUNTEER FIRE STATION,0306,28.0,1.0,canonical_reported_single_district
+2014,senate,24687,MACON,OLD PRAIRIE FARM SCHOOL,,28.0,1.0,canonical_reported_single_district
+2014,senate,24688,MACON,SOJOURNER COMM CENTR,,28.0,1.0,canonical_reported_single_district
+2014,senate,24689,MACON,FRANKLIN TOWN HALL,0408,28.0,1.0,canonical_reported_single_district
+2014,senate,24690,MACON,DISTR 4 COMM CENTR,,28.0,1.0,canonical_reported_single_district
+2014,senate,24691,MACON,NOTASULGA TOWN HALL,0410,28.0,1.0,canonical_reported_single_district
+2014,senate,24692,MACON,DISTR 4 RECREATION,,28.0,1.0,canonical_reported_single_district
+2014,senate,24693,MACON,ABSENTEE,,28.0,1.0,canonical_county_level_ballot
+2014,senate,24694,MACON,PROVISIONAL,,28.0,1.0,canonical_county_level_ballot
+2014,senate,24695,PICKENS,LIBERTY,1100,21.0,1.0,canonical_reported_single_district
+2014,senate,24696,PICKENS,BETHLEHEM,1200,21.0,1.0,canonical_reported_single_district
+2014,senate,24697,PICKENS,FORREST,,21.0,1.0,canonical_reported_single_district
+2014,senate,24698,PICKENS,MCSHAN,1400,21.0,1.0,canonical_reported_single_district
+2014,senate,24699,PICKENS,REFORM,,21.0,1.0,canonical_reported_single_district
+2014,senate,24700,PICKENS,PINE GROVE,,21.0,0.39344262295081966,canonical_split_legislative_activity_fallback
+2014,senate,24700,PICKENS,PINE GROVE,,24.0,0.6065573770491803,canonical_split_legislative_activity_fallback
+2014,senate,24701,PICKENS,ETHELSVILLE,1800,21.0,1.0,canonical_reported_single_district
+2014,senate,24702,PICKENS,COCHRANE/DANCY,2100,24.0,1.0,canonical_reported_single_district
+2014,senate,24703,PICKENS,ALICEVILLE,,24.0,1.0,canonical_reported_single_district
+2014,senate,24704,PICKENS,PALMETTO,3100,21.0,1.0,canonical_reported_single_district
+2014,senate,24705,PICKENS,FAIRVIEW/ZION,3200,21.0,1.0,canonical_reported_single_district
+2014,senate,24706,PICKENS,GORDO,,21.0,1.0,canonical_reported_single_district
+2014,senate,24707,PICKENS,MACEDONIA,4100,24.0,1.0,canonical_reported_single_district
+2014,senate,24708,PICKENS,CARROLLTON /SPEEDS MILL,5200,21.0,0.911353032659409,canonical_split_legislative_activity_fallback
+2014,senate,24708,PICKENS,CARROLLTON /SPEEDS MILL,5200,24.0,0.08864696734059098,canonical_split_legislative_activity_fallback
+2014,senate,24709,PICKENS,SPRING HILL,4400,24.0,1.0,canonical_reported_single_district
+2014,senate,24710,PICKENS,PICKENSVILLE,4500,24.0,1.0,canonical_reported_single_district
+2014,senate,24711,PICKENS,SAPPS,4600,24.0,1.0,canonical_reported_single_district
+2014,senate,24712,PICKENS,KIRK,5300,21.0,1.0,canonical_reported_single_district
+2014,senate,24713,PICKENS,BENEVOLA,5400,21.0,1.0,canonical_reported_single_district
+2014,senate,24714,PICKENS,ABSENTEE,,21.0,0.6301529423680745,canonical_county_level_ballot
+2014,senate,24714,PICKENS,ABSENTEE,,24.0,0.36984705763192544,canonical_county_level_ballot
+2014,senate,24715,PICKENS,PROVISIONAL,,21.0,0.6301529423680745,canonical_county_level_ballot
+2014,senate,24715,PICKENS,PROVISIONAL,,24.0,0.36984705763192544,canonical_county_level_ballot
+2014,senate,24716,WALKER,JASPER MALL,1,5.0,1.0,canonical_reported_single_district
+2014,senate,24717,WALKER,FARMSTEAD BAPTIST,,5.0,1.0,canonical_reported_single_district
+2014,senate,24718,WALKER,BETHEL ASSEMBLY OF GOD CH,,5.0,1.0,canonical_reported_single_district
+2014,senate,24719,WALKER,MEADOW/SMITH LIBRARY,4,5.0,1.0,canonical_reported_single_district
+2014,senate,24720,WALKER,CARBON HILL COMM. CTR.,5,5.0,1.0,canonical_reported_single_district
+2014,senate,24721,WALKER,TOWNLEY ODD FELLOWS,6,5.0,1.0,canonical_reported_single_district
+2014,senate,24722,WALKER,MEMORIAL PARK NATATORIUM,7,5.0,1.0,canonical_reported_single_district
+2014,senate,24723,WALKER,WESTSIDE BAPTIST,8,5.0,1.0,canonical_reported_single_district
+2014,senate,24724,WALKER,OAKMAN SR CITIZENS,,5.0,1.0,canonical_reported_single_district
+2014,senate,24725,WALKER,TUTWILER FIRE DEPT,10,5.0,1.0,canonical_reported_single_district
+2014,senate,24726,WALKER,UNION HALL GOODSPRINGS,11,5.0,1.0,canonical_reported_single_district
+2014,senate,24727,WALKER,CORDOVA VFW BLDG,12,5.0,1.0,canonical_reported_single_district
+2014,senate,24728,WALKER,DORA CIVIC CENTER,13,5.0,1.0,canonical_reported_single_district
+2014,senate,24729,WALKER,VALLEY JR. HIGH,14,5.0,1.0,canonical_reported_single_district
+2014,senate,24730,WALKER,SIPSEY SCHOOL,15,5.0,1.0,canonical_reported_single_district
+2014,senate,24731,WALKER,EMPIRE UNION BLDG.,16,5.0,1.0,canonical_reported_single_district
+2014,senate,24732,WALKER,CURRY-COMM. CTR.,,5.0,1.0,canonical_reported_single_district
+2014,senate,24733,WALKER,CORONA BAPTIST CHURCH,18,5.0,1.0,canonical_reported_single_district
+2014,senate,24734,WALKER,COPELAND FERRY FD,19,5.0,1.0,canonical_reported_single_district
+2014,senate,24735,WALKER,LIBERTY HILL CHURCH,20,5.0,1.0,canonical_reported_single_district
+2014,senate,24736,WALKER,TWILLEY TOWN CHURCH,21,5.0,1.0,canonical_reported_single_district
+2014,senate,24737,WALKER,PARRISH ELEM. SCH. GYM,,5.0,1.0,canonical_reported_single_district
+2014,senate,24738,WALKER,SARAGOSSA COMM. CTR,23,5.0,1.0,canonical_reported_single_district
+2014,senate,24739,WALKER,POCAHONAS METH. CH,,5.0,1.0,canonical_reported_single_district
+2014,senate,24740,WALKER,ELDRIDGE CITY HALL,25,5.0,1.0,canonical_reported_single_district
+2014,senate,24741,WALKER,KANSAS CITY HALL,26,5.0,1.0,canonical_reported_single_district
+2014,senate,24742,WALKER,RICES CHAPEL CH,27,5.0,1.0,canonical_reported_single_district
+2014,senate,24743,WALKER,BOLDO COMM. CTR.,,5.0,1.0,canonical_reported_single_district
+2014,senate,24744,WALKER,TOWNLEY VOL FIRE DEPT #2,,5.0,1.0,canonical_reported_single_district
+2014,senate,24745,WALKER,ABUNDANT LIFE CH,30,5.0,1.0,canonical_reported_single_district
+2014,senate,24746,WALKER,THACH SCHOOL,31,5.0,1.0,canonical_reported_single_district
+2014,senate,24747,WALKER,PROSPECT METH. CHURCH,,5.0,1.0,canonical_reported_single_district
+2014,senate,24748,WALKER,CROSSROADDS CHURCH CHRIST,,5.0,1.0,canonical_reported_single_district
+2014,senate,24749,WALKER,NAUVOO CITY HALL,34,5.0,1.0,canonical_reported_single_district
+2014,senate,24750,WALKER,NEW BETHANY CH GOD,35,5.0,1.0,canonical_reported_single_district
+2014,senate,24751,WALKER,MCCOLLUM NATL GUARD,,5.0,1.0,canonical_reported_single_district
+2014,senate,24752,WALKER,BEVILL STATE TECH.,,5.0,1.0,canonical_reported_single_district
+2014,senate,24753,WALKER,DILLWORTH COMM. BLDG.,38,5.0,1.0,canonical_reported_single_district
+2014,senate,24754,WALKER,NEW HOPE MISSIONARY,39,5.0,1.0,canonical_reported_single_district
+2014,senate,24755,WALKER,WALKER COUNTY EMA BLDG.,,5.0,1.0,canonical_reported_single_district
+2014,senate,24756,WALKER,PLEASANTFIELD BAPT.,,5.0,1.0,canonical_reported_single_district
+2014,senate,24757,WALKER,ARGO FIRE DEPT.,42,5.0,1.0,canonical_reported_single_district
+2014,senate,24758,WALKER,PINEYWOODS FIRE DEPT.,43,5.0,1.0,canonical_reported_single_district
+2014,senate,24759,WALKER,MANCHESTER COMM. BLDG,44,5.0,1.0,canonical_reported_single_district
+2014,senate,24760,WALKER,OLD HERMAN CHURCH,45,5.0,1.0,canonical_reported_single_district
+2014,senate,24761,WALKER,ABSENTEE,,5.0,1.0,canonical_county_level_ballot
+2014,senate,24762,WALKER,PROVISIONAL,,5.0,1.0,canonical_county_level_ballot
+2014,senate,24763,WILCOX,NATL GUARD ARMORY CAMDEN,,23.0,1.0,canonical_reported_single_district
+2014,senate,24764,WILCOX,PINE APPLE/AWIN FIRE STN DIST 1,1006,23.0,1.0,canonical_reported_single_district
+2014,senate,24765,WILCOX,PINE APPLE/AWIN FIRE STN DIST 2,1006,23.0,1.0,canonical_reported_single_district
+2014,senate,24766,WILCOX,FURMAN TATES CHAPEL CHURC DIST 1,2002,23.0,1.0,canonical_reported_single_district
+2014,senate,24767,WILCOX,FURMAN TATES CHAPEL CHURC DIST 2,2002,23.0,1.0,canonical_reported_single_district
+2014,senate,24768,WILCOX,BRIDGEPORT NATIONAL GUARD,2007,23.0,1.0,canonical_reported_single_district
+2014,senate,24769,WILCOX,HWY 10/28 DIST 1,,23.0,1.0,canonical_reported_single_district
+2014,senate,24770,WILCOX,HWY 10/28 DIST 2,,23.0,1.0,canonical_reported_single_district
+2014,senate,24771,WILCOX,ST PAUL AME CHURCH DIST 1,,23.0,1.0,canonical_reported_single_district
+2014,senate,24772,WILCOX,ST PAUL AME CHURCH DIST 2,,23.0,1.0,canonical_reported_single_district
+2014,senate,24773,WILCOX,PORTABLE BLDG.,,23.0,1.0,canonical_reported_single_district
+2014,senate,24774,WILCOX,SE CAMDEN CRTHOUSE DIST 2,,23.0,1.0,canonical_reported_single_district
+2014,senate,24775,WILCOX,SE CAMDEN CRTHOUSE DIST 3,,23.0,1.0,canonical_reported_single_district
+2014,senate,24776,WILCOX,COY PUBLIC SCH. HOUSE,,23.0,1.0,canonical_reported_single_district
+2014,senate,24777,WILCOX,SEDAN PORT. BLDG HWY 41,3004,23.0,1.0,canonical_reported_single_district
+2014,senate,24778,WILCOX,WHISKEY RUN DIST 3,5006,23.0,1.0,canonical_reported_single_district
+2014,senate,24779,WILCOX,WHISKEY RUN DIST 5,5006,23.0,1.0,canonical_reported_single_district
+2014,senate,24780,WILCOX,GEE'S BEND FERRY TERMINAL,,23.0,1.0,canonical_reported_single_district
+2014,senate,24781,WILCOX,FAITH FELLOWSHIP,,23.0,1.0,canonical_reported_single_district
+2014,senate,24782,WILCOX,PRAIRIE BLUFF CATHERINE,4003,23.0,1.0,canonical_reported_single_district
+2014,senate,24783,WILCOX,MILLER FERRY RIVERVIEW CH,,23.0,1.0,canonical_reported_single_district
+2014,senate,24784,WILCOX,CLIFTON VOC. BLDG,,23.0,1.0,canonical_reported_single_district
+2014,senate,24785,WILCOX,VOC. BLDG ANNIEMANIE,,23.0,1.0,canonical_reported_single_district
+2014,senate,24786,WILCOX,PINE HILL MIDDLE SCHOOL,5002,23.0,1.0,canonical_reported_single_district
+2014,senate,24787,WILCOX,YELLOW BLUFF CITY HALL,5003B,23.0,1.0,canonical_reported_single_district
+2014,senate,24788,WILCOX,GROCERY STORE,,23.0,1.0,canonical_reported_single_district
+2014,senate,24789,WILCOX,LOWER PEACHTREE DIST 5,5005,23.0,1.0,canonical_reported_single_district
+2014,senate,24790,WILCOX,LOWER PEACHTREE DIST 6,5005,23.0,1.0,canonical_reported_single_district
+2014,senate,24791,WILCOX,ARLINGTON COMM CTR,,23.0,1.0,canonical_reported_single_district
+2014,senate,24792,WILCOX,PINE HILL CITY HALL,5002,23.0,1.0,canonical_reported_single_district
+2014,senate,24793,WILCOX,SUNNY SOUTH VOT BOOTH,6005,23.0,1.0,canonical_reported_single_district
+2014,senate,24794,WILCOX,YE OLDE SHOPPE DIST 1,,23.0,1.0,canonical_reported_single_district
+2014,senate,24795,WILCOX,YE OLDE SHOPPE DIST 2,,23.0,1.0,canonical_reported_single_district
+2014,senate,24796,WILCOX,ABSENTEE,,23.0,1.0,canonical_county_level_ballot
+2014,senate,24797,WILCOX,PROVISIONAL,,23.0,1.0,canonical_county_level_ballot
+2014,senate,24798,WILCOX,E.M.JONES STORE,1004,23.0,1.0,canonical_reported_single_district
+2014,senate,24799,WINSTON,NEIGHBORHOOD FCLTY,,4.0,1.0,canonical_reported_single_district
+2014,senate,24800,WINSTON,DELMAR FIRE DEPARTMENT,,5.0,1.0,canonical_reported_single_district
+2014,senate,24801,WINSTON,NATURAL BRIDGE CITY HALL,,5.0,1.0,canonical_reported_single_district
+2014,senate,24802,WINSTON,LYNN CITY HALL,,5.0,1.0,canonical_reported_single_district
+2014,senate,24803,WINSTON,PEBBLE FIRE HOUSE,,4.0,1.0,canonical_reported_single_district
+2014,senate,24804,WINSTON,HOME ZONE NEEDMORE,,4.0,1.0,canonical_split_legislative_activity_fallback
+2014,senate,24804,WINSTON,HOME ZONE NEEDMORE,,5.0,0.0,canonical_split_legislative_activity_fallback
+2014,senate,24805,WINSTON,ASHRIDGE FIRE DEPARTMENT,11,4.0,1.0,canonical_reported_single_district
+2014,senate,24806,WINSTON,DOUBLE SPRINGS MUN. BLDG.,,4.0,0.0,canonical_split_legislative_activity_fallback
+2014,senate,24806,WINSTON,DOUBLE SPRINGS MUN. BLDG.,,5.0,1.0,canonical_split_legislative_activity_fallback
+2014,senate,24807,WINSTON,OLD UNION CHURCH,,5.0,1.0,canonical_reported_single_district
+2014,senate,24808,WINSTON,MORELAND FIRE DEPARTMENT,,4.0,1.0,canonical_reported_single_district
+2014,senate,24809,WINSTON,HOUSTON FIRE DEPARTMENT,6,5.0,1.0,canonical_reported_single_district
+2014,senate,24810,WINSTON,BLACK POND FIRE DEPARTMENT,,5.0,1.0,canonical_reported_single_district
+2014,senate,24811,WINSTON,UPSHAW FIRE DEPARTMENT,,4.0,1.0,canonical_reported_single_district
+2014,senate,24812,WINSTON,ADDISON COMMUNITY CENTER,7,4.0,1.0,canonical_reported_single_district
+2014,senate,24813,WINSTON,NESMITH COMM. CENTER,,5.0,1.0,canonical_reported_single_district
+2014,senate,24814,WINSTON,HELICON FIRE DEPARTMENT,,5.0,1.0,canonical_reported_single_district
+2014,senate,24815,WINSTON,ARLEY FIRE DEPARTMENT,5,4.0,0.051490514905149054,canonical_split_legislative_activity_fallback
+2014,senate,24815,WINSTON,ARLEY FIRE DEPARTMENT,5,5.0,0.948509485094851,canonical_split_legislative_activity_fallback
+2014,senate,24816,WINSTON,ABSENTEE,,4.0,0.5094347328867832,canonical_county_level_ballot
+2014,senate,24816,WINSTON,ABSENTEE,,5.0,0.4905652671132168,canonical_county_level_ballot
+2014,senate,24817,WINSTON,PROVISIONAL,,4.0,0.5094347328867832,canonical_county_level_ballot
+2014,senate,24817,WINSTON,PROVISIONAL,,5.0,0.4905652671132168,canonical_county_level_ballot
+2014,senate,24818,WINSTON,21ST STREET GYM,,4.0,1.0,canonical_reported_single_district
 2014,senate,24476,JEFFERSON,1010 - OUR LADY OF LOURD,5810,20.0,1.0,canonical_reported_single_district
 2014,senate,24477,JEFFERSON,1020 - TOM BRADFORD PARK,,20.0,1.0,canonical_reported_single_district
 2014,senate,24478,JEFFERSON,1030 - L_M_ SMITH MIDDLE,5809,20.0,1.0,canonical_reported_single_district
@@ -11136,182 +11286,6 @@ cycle,chamber,node_id,county_key,precinct_key,vtd,district,allocation_weight,all
 2014,senate,24651,JEFFERSON,PROVISIONAL,,18.0,0.20541379509344446,canonical_county_level_ballot
 2014,senate,24651,JEFFERSON,PROVISIONAL,,19.0,0.20535304784149827,canonical_county_level_ballot
 2014,senate,24651,JEFFERSON,PROVISIONAL,,20.0,0.2053424170724077,canonical_county_level_ballot
-2014,senate,24652,LAMAR,VERNON ARMORY WEST,,21.0,1.0,canonical_reported_single_district
-2014,senate,24653,LAMAR,VERNON ARMORY EAST,,21.0,1.0,canonical_reported_single_district
-2014,senate,24654,LAMAR,CROSSVILLE LAWR.,,21.0,1.0,canonical_reported_single_district
-2014,senate,24655,LAMAR,FAIRVIEW SIZEMORE,3,21.0,1.0,canonical_reported_single_district
-2014,senate,24656,LAMAR,BEAVERTON CITY HALL NORTH,4N,21.0,1.0,canonical_reported_single_district
-2014,senate,24657,LAMAR,BEAVERTON CITY HALL SOUTH,,21.0,1.0,canonical_reported_single_district
-2014,senate,24658,LAMAR,CREWS METHODIST CHURCH,5,21.0,1.0,canonical_reported_single_district
-2014,senate,24659,LAMAR,HENSON SPRINGS FIRE STAT,6,21.0,1.0,canonical_reported_single_district
-2014,senate,24660,LAMAR,DETROIT CITY HALL,,21.0,1.0,canonical_reported_single_district
-2014,senate,24661,LAMAR,PINE SPRINGS,8,21.0,1.0,canonical_reported_single_district
-2014,senate,24662,LAMAR,SULLIGENT CITY HALL NORTH,,21.0,1.0,canonical_reported_single_district
-2014,senate,24663,LAMAR,SULLIGENT CITY HALL SOUTH,,21.0,1.0,canonical_reported_single_district
-2014,senate,24664,LAMAR,BEDFORD MILITARY,10,21.0,1.0,canonical_reported_single_district
-2014,senate,24665,LAMAR,MOLLOY BETTS,11,21.0,1.0,canonical_reported_single_district
-2014,senate,24666,LAMAR,TRULL,12,21.0,1.0,canonical_reported_single_district
-2014,senate,24667,LAMAR,VAILS,13,21.0,1.0,canonical_reported_single_district
-2014,senate,24668,LAMAR,MILLPORT LIBRARY,14,21.0,1.0,canonical_reported_single_district
-2014,senate,24669,LAMAR,KENNEDY COMMUNITY CENTER,,21.0,1.0,canonical_reported_single_district
-2014,senate,24670,LAMAR,STRICKLAND KINGVILLE,16,21.0,1.0,canonical_reported_single_district
-2014,senate,24671,LAMAR,FERNBANK COMMUNITY CENTER,,21.0,1.0,canonical_reported_single_district
-2014,senate,24672,LAMAR,HIGHTOGY RIDGE,18,21.0,1.0,canonical_reported_single_district
-2014,senate,24673,LAMAR,MT. PLEASANT CURRY,20,21.0,1.0,canonical_reported_single_district
-2014,senate,24674,LAMAR,GUIN MT OLIVE,21,21.0,1.0,canonical_reported_single_district
-2014,senate,24675,LAMAR,BLOOMING GROVE,22,21.0,1.0,canonical_reported_single_district
-2014,senate,24676,LAMAR,STAR. COMMUNITY CENTER,23,21.0,1.0,canonical_reported_single_district
-2014,senate,24677,LAMAR,ABSENTEE,,21.0,1.0,canonical_county_level_ballot
-2014,senate,24678,LAMAR,PROVISIONAL,,21.0,1.0,canonical_county_level_ballot
-2014,senate,24679,MACON,NATIONAL GUARD ARMORY,0101,28.0,1.0,canonical_reported_single_district
-2014,senate,24680,MACON,CHISHOLM COMM CENTR,,28.0,1.0,canonical_reported_single_district
-2014,senate,24681,MACON,MARGARET MURRAY WASH HALL,,28.0,1.0,canonical_reported_single_district
-2014,senate,24682,MACON,BROWNVILLE VFD,0103,28.0,1.0,canonical_reported_single_district
-2014,senate,24683,MACON,WARRIOR DIST.2 REC. CTR.,,28.0,1.0,canonical_reported_single_district
-2014,senate,24684,MACON,COTTON VALLEY REC CENTR,,28.0,1.0,canonical_reported_single_district
-2014,senate,24685,MACON,TUSKEGEE MUNICIPAL COMPLX,0211,28.0,1.0,canonical_reported_single_district
-2014,senate,24686,MACON,VOLUNTEER FIRE STATION,0306,28.0,1.0,canonical_reported_single_district
-2014,senate,24687,MACON,OLD PRAIRIE FARM SCHOOL,,28.0,1.0,canonical_reported_single_district
-2014,senate,24688,MACON,SOJOURNER COMM CENTR,,28.0,1.0,canonical_reported_single_district
-2014,senate,24689,MACON,FRANKLIN TOWN HALL,0408,28.0,1.0,canonical_reported_single_district
-2014,senate,24690,MACON,DISTR 4 COMM CENTR,,28.0,1.0,canonical_reported_single_district
-2014,senate,24691,MACON,NOTASULGA TOWN HALL,0410,28.0,1.0,canonical_reported_single_district
-2014,senate,24692,MACON,DISTR 4 RECREATION,,28.0,1.0,canonical_reported_single_district
-2014,senate,24693,MACON,ABSENTEE,,28.0,1.0,canonical_county_level_ballot
-2014,senate,24694,MACON,PROVISIONAL,,28.0,1.0,canonical_county_level_ballot
-2014,senate,24695,PICKENS,LIBERTY,1100,21.0,1.0,canonical_reported_single_district
-2014,senate,24696,PICKENS,BETHLEHEM,1200,21.0,1.0,canonical_reported_single_district
-2014,senate,24697,PICKENS,FORREST,,21.0,1.0,canonical_reported_single_district
-2014,senate,24698,PICKENS,MCSHAN,1400,21.0,1.0,canonical_reported_single_district
-2014,senate,24699,PICKENS,REFORM,,21.0,1.0,canonical_reported_single_district
-2014,senate,24700,PICKENS,PINE GROVE,,21.0,0.39344262295081966,canonical_split_legislative_activity_fallback
-2014,senate,24700,PICKENS,PINE GROVE,,24.0,0.6065573770491803,canonical_split_legislative_activity_fallback
-2014,senate,24701,PICKENS,ETHELSVILLE,1800,21.0,1.0,canonical_reported_single_district
-2014,senate,24702,PICKENS,COCHRANE/DANCY,2100,24.0,1.0,canonical_reported_single_district
-2014,senate,24703,PICKENS,ALICEVILLE,,24.0,1.0,canonical_reported_single_district
-2014,senate,24704,PICKENS,PALMETTO,3100,21.0,1.0,canonical_reported_single_district
-2014,senate,24705,PICKENS,FAIRVIEW/ZION,3200,21.0,1.0,canonical_reported_single_district
-2014,senate,24706,PICKENS,GORDO,,21.0,1.0,canonical_reported_single_district
-2014,senate,24707,PICKENS,MACEDONIA,4100,24.0,1.0,canonical_reported_single_district
-2014,senate,24708,PICKENS,CARROLLTON /SPEEDS MILL,5200,21.0,0.911353032659409,canonical_split_legislative_activity_fallback
-2014,senate,24708,PICKENS,CARROLLTON /SPEEDS MILL,5200,24.0,0.08864696734059098,canonical_split_legislative_activity_fallback
-2014,senate,24709,PICKENS,SPRING HILL,4400,24.0,1.0,canonical_reported_single_district
-2014,senate,24710,PICKENS,PICKENSVILLE,4500,24.0,1.0,canonical_reported_single_district
-2014,senate,24711,PICKENS,SAPPS,4600,24.0,1.0,canonical_reported_single_district
-2014,senate,24712,PICKENS,KIRK,5300,21.0,1.0,canonical_reported_single_district
-2014,senate,24713,PICKENS,BENEVOLA,5400,21.0,1.0,canonical_reported_single_district
-2014,senate,24714,PICKENS,ABSENTEE,,21.0,0.6301529423680745,canonical_county_level_ballot
-2014,senate,24714,PICKENS,ABSENTEE,,24.0,0.36984705763192544,canonical_county_level_ballot
-2014,senate,24715,PICKENS,PROVISIONAL,,21.0,0.6301529423680745,canonical_county_level_ballot
-2014,senate,24715,PICKENS,PROVISIONAL,,24.0,0.36984705763192544,canonical_county_level_ballot
-2014,senate,24716,WALKER,JASPER MALL,1,5.0,1.0,canonical_reported_single_district
-2014,senate,24717,WALKER,FARMSTEAD BAPTIST,,5.0,1.0,canonical_reported_single_district
-2014,senate,24718,WALKER,BETHEL ASSEMBLY OF GOD CH,,5.0,1.0,canonical_reported_single_district
-2014,senate,24719,WALKER,MEADOW/SMITH LIBRARY,4,5.0,1.0,canonical_reported_single_district
-2014,senate,24720,WALKER,CARBON HILL COMM. CTR.,5,5.0,1.0,canonical_reported_single_district
-2014,senate,24721,WALKER,TOWNLEY ODD FELLOWS,6,5.0,1.0,canonical_reported_single_district
-2014,senate,24722,WALKER,MEMORIAL PARK NATATORIUM,7,5.0,1.0,canonical_reported_single_district
-2014,senate,24723,WALKER,WESTSIDE BAPTIST,8,5.0,1.0,canonical_reported_single_district
-2014,senate,24724,WALKER,OAKMAN SR CITIZENS,,5.0,1.0,canonical_reported_single_district
-2014,senate,24725,WALKER,TUTWILER FIRE DEPT,10,5.0,1.0,canonical_reported_single_district
-2014,senate,24726,WALKER,UNION HALL GOODSPRINGS,11,5.0,1.0,canonical_reported_single_district
-2014,senate,24727,WALKER,CORDOVA VFW BLDG,12,5.0,1.0,canonical_reported_single_district
-2014,senate,24728,WALKER,DORA CIVIC CENTER,13,5.0,1.0,canonical_reported_single_district
-2014,senate,24729,WALKER,VALLEY JR. HIGH,14,5.0,1.0,canonical_reported_single_district
-2014,senate,24730,WALKER,SIPSEY SCHOOL,15,5.0,1.0,canonical_reported_single_district
-2014,senate,24731,WALKER,EMPIRE UNION BLDG.,16,5.0,1.0,canonical_reported_single_district
-2014,senate,24732,WALKER,CURRY-COMM. CTR.,,5.0,1.0,canonical_reported_single_district
-2014,senate,24733,WALKER,CORONA BAPTIST CHURCH,18,5.0,1.0,canonical_reported_single_district
-2014,senate,24734,WALKER,COPELAND FERRY FD,19,5.0,1.0,canonical_reported_single_district
-2014,senate,24735,WALKER,LIBERTY HILL CHURCH,20,5.0,1.0,canonical_reported_single_district
-2014,senate,24736,WALKER,TWILLEY TOWN CHURCH,21,5.0,1.0,canonical_reported_single_district
-2014,senate,24737,WALKER,PARRISH ELEM. SCH. GYM,,5.0,1.0,canonical_reported_single_district
-2014,senate,24738,WALKER,SARAGOSSA COMM. CTR,23,5.0,1.0,canonical_reported_single_district
-2014,senate,24739,WALKER,POCAHONAS METH. CH,,5.0,1.0,canonical_reported_single_district
-2014,senate,24740,WALKER,ELDRIDGE CITY HALL,25,5.0,1.0,canonical_reported_single_district
-2014,senate,24741,WALKER,KANSAS CITY HALL,26,5.0,1.0,canonical_reported_single_district
-2014,senate,24742,WALKER,RICES CHAPEL CH,27,5.0,1.0,canonical_reported_single_district
-2014,senate,24743,WALKER,BOLDO COMM. CTR.,,5.0,1.0,canonical_reported_single_district
-2014,senate,24744,WALKER,TOWNLEY VOL FIRE DEPT #2,,5.0,1.0,canonical_reported_single_district
-2014,senate,24745,WALKER,ABUNDANT LIFE CH,30,5.0,1.0,canonical_reported_single_district
-2014,senate,24746,WALKER,THACH SCHOOL,31,5.0,1.0,canonical_reported_single_district
-2014,senate,24747,WALKER,PROSPECT METH. CHURCH,,5.0,1.0,canonical_reported_single_district
-2014,senate,24748,WALKER,CROSSROADDS CHURCH CHRIST,,5.0,1.0,canonical_reported_single_district
-2014,senate,24749,WALKER,NAUVOO CITY HALL,34,5.0,1.0,canonical_reported_single_district
-2014,senate,24750,WALKER,NEW BETHANY CH GOD,35,5.0,1.0,canonical_reported_single_district
-2014,senate,24751,WALKER,MCCOLLUM NATL GUARD,,5.0,1.0,canonical_reported_single_district
-2014,senate,24752,WALKER,BEVILL STATE TECH.,,5.0,1.0,canonical_reported_single_district
-2014,senate,24753,WALKER,DILLWORTH COMM. BLDG.,38,5.0,1.0,canonical_reported_single_district
-2014,senate,24754,WALKER,NEW HOPE MISSIONARY,39,5.0,1.0,canonical_reported_single_district
-2014,senate,24755,WALKER,WALKER COUNTY EMA BLDG.,,5.0,1.0,canonical_reported_single_district
-2014,senate,24756,WALKER,PLEASANTFIELD BAPT.,,5.0,1.0,canonical_reported_single_district
-2014,senate,24757,WALKER,ARGO FIRE DEPT.,42,5.0,1.0,canonical_reported_single_district
-2014,senate,24758,WALKER,PINEYWOODS FIRE DEPT.,43,5.0,1.0,canonical_reported_single_district
-2014,senate,24759,WALKER,MANCHESTER COMM. BLDG,44,5.0,1.0,canonical_reported_single_district
-2014,senate,24760,WALKER,OLD HERMAN CHURCH,45,5.0,1.0,canonical_reported_single_district
-2014,senate,24761,WALKER,ABSENTEE,,5.0,1.0,canonical_county_level_ballot
-2014,senate,24762,WALKER,PROVISIONAL,,5.0,1.0,canonical_county_level_ballot
-2014,senate,24763,WILCOX,NATL GUARD ARMORY CAMDEN,,23.0,1.0,canonical_reported_single_district
-2014,senate,24764,WILCOX,PINE APPLE/AWIN FIRE STN DIST 1,1006,23.0,1.0,canonical_reported_single_district
-2014,senate,24765,WILCOX,PINE APPLE/AWIN FIRE STN DIST 2,1006,23.0,1.0,canonical_reported_single_district
-2014,senate,24766,WILCOX,FURMAN TATES CHAPEL CHURC DIST 1,2002,23.0,1.0,canonical_reported_single_district
-2014,senate,24767,WILCOX,FURMAN TATES CHAPEL CHURC DIST 2,2002,23.0,1.0,canonical_reported_single_district
-2014,senate,24768,WILCOX,BRIDGEPORT NATIONAL GUARD,2007,23.0,1.0,canonical_reported_single_district
-2014,senate,24769,WILCOX,HWY 10/28 DIST 1,,23.0,1.0,canonical_reported_single_district
-2014,senate,24770,WILCOX,HWY 10/28 DIST 2,,23.0,1.0,canonical_reported_single_district
-2014,senate,24771,WILCOX,ST PAUL AME CHURCH DIST 1,,23.0,1.0,canonical_reported_single_district
-2014,senate,24772,WILCOX,ST PAUL AME CHURCH DIST 2,,23.0,1.0,canonical_reported_single_district
-2014,senate,24773,WILCOX,PORTABLE BLDG.,,23.0,1.0,canonical_reported_single_district
-2014,senate,24774,WILCOX,SE CAMDEN CRTHOUSE DIST 2,,23.0,1.0,canonical_reported_single_district
-2014,senate,24775,WILCOX,SE CAMDEN CRTHOUSE DIST 3,,23.0,1.0,canonical_reported_single_district
-2014,senate,24776,WILCOX,COY PUBLIC SCH. HOUSE,,23.0,1.0,canonical_reported_single_district
-2014,senate,24777,WILCOX,SEDAN PORT. BLDG HWY 41,3004,23.0,1.0,canonical_reported_single_district
-2014,senate,24778,WILCOX,WHISKEY RUN DIST 3,5006,23.0,1.0,canonical_reported_single_district
-2014,senate,24779,WILCOX,WHISKEY RUN DIST 5,5006,23.0,1.0,canonical_reported_single_district
-2014,senate,24780,WILCOX,GEE'S BEND FERRY TERMINAL,,23.0,1.0,canonical_reported_single_district
-2014,senate,24781,WILCOX,FAITH FELLOWSHIP,,23.0,1.0,canonical_reported_single_district
-2014,senate,24782,WILCOX,PRAIRIE BLUFF CATHERINE,4003,23.0,1.0,canonical_reported_single_district
-2014,senate,24783,WILCOX,MILLER FERRY RIVERVIEW CH,,23.0,1.0,canonical_reported_single_district
-2014,senate,24784,WILCOX,CLIFTON VOC. BLDG,,23.0,1.0,canonical_reported_single_district
-2014,senate,24785,WILCOX,VOC. BLDG ANNIEMANIE,,23.0,1.0,canonical_reported_single_district
-2014,senate,24786,WILCOX,PINE HILL MIDDLE SCHOOL,5002,23.0,1.0,canonical_reported_single_district
-2014,senate,24787,WILCOX,YELLOW BLUFF CITY HALL,5003B,23.0,1.0,canonical_reported_single_district
-2014,senate,24788,WILCOX,GROCERY STORE,,23.0,1.0,canonical_reported_single_district
-2014,senate,24789,WILCOX,LOWER PEACHTREE DIST 5,5005,23.0,1.0,canonical_reported_single_district
-2014,senate,24790,WILCOX,LOWER PEACHTREE DIST 6,5005,23.0,1.0,canonical_reported_single_district
-2014,senate,24791,WILCOX,ARLINGTON COMM CTR,,23.0,1.0,canonical_reported_single_district
-2014,senate,24792,WILCOX,PINE HILL CITY HALL,5002,23.0,1.0,canonical_reported_single_district
-2014,senate,24793,WILCOX,SUNNY SOUTH VOT BOOTH,6005,23.0,1.0,canonical_reported_single_district
-2014,senate,24794,WILCOX,YE OLDE SHOPPE DIST 1,,23.0,1.0,canonical_reported_single_district
-2014,senate,24795,WILCOX,YE OLDE SHOPPE DIST 2,,23.0,1.0,canonical_reported_single_district
-2014,senate,24796,WILCOX,ABSENTEE,,23.0,1.0,canonical_county_level_ballot
-2014,senate,24797,WILCOX,PROVISIONAL,,23.0,1.0,canonical_county_level_ballot
-2014,senate,24798,WILCOX,E.M.JONES STORE,1004,23.0,1.0,canonical_reported_single_district
-2014,senate,24799,WINSTON,NEIGHBORHOOD FCLTY,,4.0,1.0,canonical_reported_single_district
-2014,senate,24800,WINSTON,DELMAR FIRE DEPARTMENT,,5.0,1.0,canonical_reported_single_district
-2014,senate,24801,WINSTON,NATURAL BRIDGE CITY HALL,,5.0,1.0,canonical_reported_single_district
-2014,senate,24802,WINSTON,LYNN CITY HALL,,5.0,1.0,canonical_reported_single_district
-2014,senate,24803,WINSTON,PEBBLE FIRE HOUSE,,4.0,1.0,canonical_reported_single_district
-2014,senate,24804,WINSTON,HOME ZONE NEEDMORE,,4.0,1.0,canonical_split_legislative_activity_fallback
-2014,senate,24804,WINSTON,HOME ZONE NEEDMORE,,5.0,0.0,canonical_split_legislative_activity_fallback
-2014,senate,24805,WINSTON,ASHRIDGE FIRE DEPARTMENT,11,4.0,1.0,canonical_reported_single_district
-2014,senate,24806,WINSTON,DOUBLE SPRINGS MUN. BLDG.,,4.0,0.0,canonical_split_legislative_activity_fallback
-2014,senate,24806,WINSTON,DOUBLE SPRINGS MUN. BLDG.,,5.0,1.0,canonical_split_legislative_activity_fallback
-2014,senate,24807,WINSTON,OLD UNION CHURCH,,5.0,1.0,canonical_reported_single_district
-2014,senate,24808,WINSTON,MORELAND FIRE DEPARTMENT,,4.0,1.0,canonical_reported_single_district
-2014,senate,24809,WINSTON,HOUSTON FIRE DEPARTMENT,6,5.0,1.0,canonical_reported_single_district
-2014,senate,24810,WINSTON,BLACK POND FIRE DEPARTMENT,,5.0,1.0,canonical_reported_single_district
-2014,senate,24811,WINSTON,UPSHAW FIRE DEPARTMENT,,4.0,1.0,canonical_reported_single_district
-2014,senate,24812,WINSTON,ADDISON COMMUNITY CENTER,7,4.0,1.0,canonical_reported_single_district
-2014,senate,24813,WINSTON,NESMITH COMM. CENTER,,5.0,1.0,canonical_reported_single_district
-2014,senate,24814,WINSTON,HELICON FIRE DEPARTMENT,,5.0,1.0,canonical_reported_single_district
-2014,senate,24815,WINSTON,ARLEY FIRE DEPARTMENT,5,4.0,0.051490514905149054,canonical_split_legislative_activity_fallback
-2014,senate,24815,WINSTON,ARLEY FIRE DEPARTMENT,5,5.0,0.948509485094851,canonical_split_legislative_activity_fallback
-2014,senate,24816,WINSTON,ABSENTEE,,4.0,0.5094347328867832,canonical_county_level_ballot
-2014,senate,24816,WINSTON,ABSENTEE,,5.0,0.4905652671132168,canonical_county_level_ballot
-2014,senate,24817,WINSTON,PROVISIONAL,,4.0,0.5094347328867832,canonical_county_level_ballot
-2014,senate,24817,WINSTON,PROVISIONAL,,5.0,0.4905652671132168,canonical_county_level_ballot
-2014,senate,24818,WINSTON,21ST STREET GYM,,4.0,1.0,canonical_reported_single_district
 2014,senate,24329,DEKALB,RODENTOWN COMM CTR,,8.0,0.7231433433180048,county_population_fallback
 2014,senate,24329,DEKALB,RODENTOWN COMM CTR,,9.0,0.18128506940049782,county_population_fallback
 2014,senate,24329,DEKALB,RODENTOWN COMM CTR,,10.0,0.09557158728149742,county_population_fallback

@@ -1,0 +1,11 @@
+{
+  "policy_key": "foreign_policy_taiwan_recognition",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option asks about recognizing Taiwan as a sovereign nation. This is generally considered progressive in the context of US foreign policy debates where some conservatives prioritize anti-communist alignment with Beijing over human rights or democratic values associated with Taiwan.",
+  "evidence_quote": "Should the US recognize and extend full diplomatic relations to Taiwan?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

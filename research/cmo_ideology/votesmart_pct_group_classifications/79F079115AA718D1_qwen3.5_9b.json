@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_budget_fed_env_block_grants",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting block grants for environmental programs is conventionally more progressive as it emphasizes state/local control over federal spending.",
+  "evidence_quote": "d) Environmental programs",
+  "needs_human_review": false,
+  "review_reason": ""
+}

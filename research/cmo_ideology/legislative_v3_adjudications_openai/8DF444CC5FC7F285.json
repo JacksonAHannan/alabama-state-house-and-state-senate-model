@@ -1,0 +1,10 @@
+{
+  "id": "8DF444CC5FC7F285",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Establishes a specialized absentee-ballot election procedure; it is technical and does not clearly map to an allowed voting policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

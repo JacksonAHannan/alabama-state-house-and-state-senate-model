@@ -1,0 +1,11 @@
+{
+  "policy_key": "arts_funding_block_grants",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option to support block grants for arts funding is procedurally neutral as it shifts authority from federal to state levels without an inherent ideological direction.",
+  "evidence_quote": "Do you support the use of block grants given to states, rather than federal spending, in the following areas? ... b) Arts funding",
+  "needs_human_review": false,
+  "review_reason": ""
+}

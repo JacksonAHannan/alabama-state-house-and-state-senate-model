@@ -1,0 +1,10 @@
+{
+  "id": "495217C42DC06176",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "The bill is administrative (selling abandoned/abandoned property and firearms) with no clear policy direction on *gun_access* or *gun_purchase_regulation*.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

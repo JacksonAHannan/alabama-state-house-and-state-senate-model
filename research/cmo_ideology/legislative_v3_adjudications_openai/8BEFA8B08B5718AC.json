@@ -1,0 +1,10 @@
+{
+  "id": "8BEFA8B08B5718AC",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns ethics and lobbying regulation, reporting, and definitions, but the allowed axes do not clearly cover these measures; it also includes a reporting component.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

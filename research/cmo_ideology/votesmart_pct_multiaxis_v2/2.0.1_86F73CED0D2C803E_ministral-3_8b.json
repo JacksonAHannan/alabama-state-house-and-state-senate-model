@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "emergency_preparedness_funding",
+  "plain_english_policy": "Support for state funding of emergency preparedness initiatives (e.g., disaster response, public safety infrastructure).",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "Funding emergency preparedness is a direct expansion of public welfare capacity to address crises, including health emergencies, natural disasters, and civil contingencies."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "primary",
+      "rationale": "The option explicitly refers to *state* funding, implying government-led provision rather than private sector reliance."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Emergency preparedness\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

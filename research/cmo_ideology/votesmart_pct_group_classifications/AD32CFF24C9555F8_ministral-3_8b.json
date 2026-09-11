@@ -1,0 +1,11 @@
+{
+  "policy_key": "welfare_childcare_support",
+  "dimension": "social_ideology",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Offer subsidized child care to welfare recipients who are employed or enrolled in education/training programs.",
+  "evidence_quote": "*Provide child care services to welfare recipients who work or attend school.*",
+  "needs_human_review": false,
+  "review_reason": "This option is procedurally neutral\u2014it does not inherently favor conservative (e.g., limited government spending) or progressive (e.g., expanded social safety nets) goals. It is a *conditional* service provision that could be implemented by either party, depending on funding and implementation details."
+}

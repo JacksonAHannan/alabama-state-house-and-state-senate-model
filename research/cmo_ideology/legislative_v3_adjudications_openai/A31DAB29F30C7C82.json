@@ -1,0 +1,10 @@
+{
+  "id": "A31DAB29F30C7C82",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Expands eligibility for obtaining a pistol permit by allowing a sheriff to issue one to a resident of another county.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "environment_cost_benefit_analysis",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option favors using economic cost-benefit analysis to evaluate environmental laws. This approach is conventionally associated with conservative or libertarian policy positions that prioritize market mechanisms and fiscal restraint over precautionary regulatory principles.",
+  "evidence_quote": "Utilize cost-benefit analysis to determine economic impacts of proposed environmental protection and cleanup legislation.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

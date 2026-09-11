@@ -1,0 +1,11 @@
+{
+  "policy_key": "immigration_ins_separation",
+  "dimension": "immigration_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Splitting the Immigration and Naturalization Service (INS) into two distinct bureaus\u2014one focused on naturalization (legal immigration/permanent residency) and another handling border patrol/enforcement\u2014is conventionally framed as a conservative priority to strengthen enforcement while streamlining citizenship processes.",
+  "evidence_quote": "Support the separation of the INS into two bureaus: one administering naturalization and one administering border patrol.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

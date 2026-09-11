@@ -1,0 +1,10 @@
+{
+  "id": "2B32D4146D9BB617",
+  "decision": "map",
+  "primitive_axis": "election_integrity_controls",
+  "policy_pole": "strengthen",
+  "confidence": "medium",
+  "rationale": "Prohibiting transfers of campaign contributions between political committees adds a campaign-finance control that supports election integrity.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

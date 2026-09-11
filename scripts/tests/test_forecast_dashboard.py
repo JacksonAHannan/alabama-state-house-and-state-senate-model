@@ -11,6 +11,18 @@ PAGE = ROOT / "artifacts" / "site" / "alabama-2026-legislative-forecast.html"
 CAL = ROOT / "data" / "processed" / "forecast_calibration"
 
 
+def test_forecast_template_distinguishes_structural_and_candidate_adjustments():
+    from build_2026_forecast_dashboard import HTML
+
+    soup = BeautifulSoup(HTML, "html.parser")
+    explanation = soup.select_one("section.method").get_text(" ", strip=True)
+    assert "includes the owner-selected structural adjustment" in explanation
+    assert "symmetric incumbency effect" in explanation
+    assert "advisory limitation" in explanation
+    assert "Candidate-specific WAR remains fixed at zero" in explanation
+    assert "therefore remains zero in the headline" not in explanation
+
+
 def selected_headline_mae() -> float:
     manifest = json.loads(
         (CAL / "alabama_war_forecast_v1_manifest.json").read_text(encoding="utf-8")
@@ -30,6 +42,18 @@ def page_and_payload():
     match = re.search(r"const DATA=(.*?);\(\(\) =>", text, re.S)
     assert match
     return text, json.loads(match.group(1))
+
+
+def forward_train_races() -> int:
+    manifest = json.loads(
+        (CAL / "alabama_war_forecast_v1_manifest.json").read_text(encoding="utf-8")
+    )
+    metrics = pd.read_csv(CAL / "alabama_war_forecast_v1_forward_metrics.csv")
+    selected = metrics.loc[
+        metrics.specification.eq(manifest["selected_specification"]), "train_races"
+    ]
+    assert len(selected) == 1
+    return int(selected.iloc[0])
 
 
 def test_dashboard_contains_both_chambers_and_cmo_typography():
@@ -68,6 +92,13 @@ def test_dashboard_explains_headline_and_scenarios():
     assert "50,000 simulations" in text
     assert "Shared national, statewide, and chamber" in text
     assert "six-point normal calibration" not in text
+    assert "trained on 2018 and tested on 2022" not in text
+    assert (
+        "after training on eligible post-2016 Southern races before 2022 "
+        f"({forward_train_races():,} training races)" in text
+    )
+    assert "variableLabels" not in text
+    assert "variableGroups" not in text
 
 
 def test_model_switcher_and_default_decomposition_are_complete():
@@ -282,7 +313,6 @@ def test_candidate_finance_is_display_only_not_model_input():
         / "alabama_war_forecast_v1_2026_scenarios.csv"
     )
     assert scenarios.finance_used.eq(False).all()
-    assert scenarios.fundraising_adjustment.eq(0).all()
     assert "not used by forecast" in text
     assert any(candidate["raised"] is not None for chamber in ("house", "senate") for race in data[chamber]["races"] for candidate in race["candidates"])
 

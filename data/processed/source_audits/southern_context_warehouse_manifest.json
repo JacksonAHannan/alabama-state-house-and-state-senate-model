@@ -1,0 +1,20 @@
+{
+  "contract_version": 1,
+  "build_run_id": "RUN-B60F18E1B9CD4DAE89BBBF4F59338A99",
+  "pipeline": "scripts/load_southern_context_warehouse.py",
+  "validation": {
+    "presidential_result_rows": 3224020,
+    "validated_presidential_result_rows": 3221297,
+    "review_presidential_result_rows": 2723,
+    "geography_layers": 90,
+    "geography_units": 7520,
+    "normalized_result_sources": 7,
+    "registered_unparsed_geometry_sources": 1,
+    "result_geography_links": 0,
+    "join_status": "not_built; raw result and district geometry grains are centralized separately"
+  },
+  "outputs": [
+    "data/processed/source_audits/southern_context_warehouse_coverage.csv",
+    "data/processed/source_audits/southern_context_warehouse_ingest.csv"
+  ]
+}

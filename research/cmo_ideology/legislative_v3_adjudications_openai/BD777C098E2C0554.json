@@ -1,0 +1,10 @@
+{
+  "id": "BD777C098E2C0554",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Requires a county hospital to retain its generated funds but does not clearly establish an allowed healthcare access, delivery, or public-responsibility pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

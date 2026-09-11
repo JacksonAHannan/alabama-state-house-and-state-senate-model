@@ -1,0 +1,11 @@
+{
+  "policy_key": "iran_sanctions",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Whether the U.S. should impose additional sanctions on Iran for violating UN resolutions.",
+  "evidence_quote": "Should the United States impose greater international sanctions on Iran if it continues to defy United Nations mandates?",
+  "needs_human_review": true,
+  "review_reason": "The question is phrased as a binary choice without explicit ideological framing, and its implications depend heavily on context (e.g., whether the candidate views sanctions as a tool for diplomacy or coercion)."
+}

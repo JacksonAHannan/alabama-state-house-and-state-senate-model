@@ -1,0 +1,11 @@
+{
+  "policy_key": "social_media_regulations",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increased regulations on social media platforms (e.g., TikTok, Facebook) to address content moderation, user privacy, or platform accountability.",
+  "evidence_quote": "*[Verbatim placeholder\u2014no specific candidate text provided; this is a generic policy framing. In practice, you would paste the exact wording from the questionnaire option here.]*",
+  "needs_human_review": true,
+  "review_reason": "No candidate-specific text was supplied to classify. Requires direct quote from Alabama candidate\u2019s questionnaire."
+}

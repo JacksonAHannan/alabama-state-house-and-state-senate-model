@@ -1,0 +1,10 @@
+{
+  "id": "3C67C0BBFF5A6B5D",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Establishes an interstate supervision compact and related administrative structures without clearly taking a position on an allowed criminal-justice pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

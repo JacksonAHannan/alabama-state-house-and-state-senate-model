@@ -1,0 +1,11 @@
+{
+  "policy_key": "transfer_public_lands_to_state",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option advocates for transferring federal public lands to state control. In the U.S., this is a hallmark of conservative environmental policy that favors localism and reduced federal regulation over progressive approaches emphasizing federal conservation.",
+  "evidence_quote": "Transfer public lands, such as federal forests and range lands, to the jurisdiction of state and local governments.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

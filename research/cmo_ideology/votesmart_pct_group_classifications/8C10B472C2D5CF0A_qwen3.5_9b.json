@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_budget_defense_cuts",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option advocates for reducing defense spending to balance the budget.",
+  "evidence_quote": "In order to balance the budget, do you support reducing defense spending?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

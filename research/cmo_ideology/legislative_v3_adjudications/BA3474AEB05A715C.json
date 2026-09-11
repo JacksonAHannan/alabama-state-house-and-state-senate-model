@@ -1,0 +1,10 @@
+{
+  "id": "BA3474AEB05A715C",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "punitive",
+  "confidence": "high",
+  "rationale": "Enhances criminal penalties for consumer protection violations under emergency conditions, strengthening punitive measures.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

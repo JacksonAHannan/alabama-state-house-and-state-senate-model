@@ -1,0 +1,11 @@
+{
+  "policy_key": "citizenship_process_speed",
+  "dimension": "immigration_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Faster citizenship processing (6-month cap on time from application to oath).",
+  "evidence_quote": "Require the Immigration and Naturalization Service (INS) to reduce the time between applying for citizenship and taking the oath of allegiance to six months.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,157 @@
+{
+  "approved_run": "WAR-POST2016-V3-4AF79A70EAA8F39EBD49",
+  "new_run": "WAR-POST2016-V3-A937708D4E0A5232D3F5",
+  "warehouse_run": "RUN-504CE4C4DF904D88A5A40D268F3FCEAB",
+  "configuration_differences": {
+    "structural_selection.mae_improvement_vs_no_lag": {
+      "approved": 0.3051273953175908,
+      "new": 0.3039871625628283
+    },
+    "finance_sensitivity.latest_mae": {
+      "approved": 5.185924638937819,
+      "new": 5.187047489893588
+    },
+    "finance_sensitivity.coefficient": {
+      "approved": 3.0740005534091264,
+      "new": 3.069591371145095
+    },
+    "finance_sensitivity.nested_forward_mae": {
+      "approved": 5.64552771825993,
+      "new": 5.6393766764200794
+    },
+    "finance_sensitivity.nested_no_finance_mae": {
+      "approved": 5.625089389201357,
+      "new": 5.6190943394785595
+    },
+    "finance_sensitivity.no_finance_latest_mae": {
+      "approved": 5.1254461654898575,
+      "new": 5.126443318699879
+    },
+    "finance_sensitivity.retrospective_best_aggregate_mae": {
+      "approved": 5.9764305178639585,
+      "new": 5.97239265862732
+    },
+    "finance_sensitivity.nested_no_finance_latest_mae": {
+      "approved": 5.1254461654898575,
+      "new": 5.126443318699879
+    },
+    "finance_sensitivity.nested_latest_mae": {
+      "approved": 5.185924638937819,
+      "new": 5.187047489893588
+    },
+    "finance_sensitivity.intercept": {
+      "approved": 0.049785578240970435,
+      "new": 0.05137864378246393
+    },
+    "finance_sensitivity.aggregate_mae": {
+      "approved": 6.042517585480973,
+      "new": 6.03887094016181
+    },
+    "structural_selection.best_no_lag_forward_mae": {
+      "approved": 5.110486158550975,
+      "new": 5.099786859931029
+    },
+    "finance_sensitivity.no_finance_aggregate_mae": {
+      "approved": 6.019331857870977,
+      "new": 6.015956326091314
+    },
+    "structural_selection.selected_forward_mae": {
+      "approved": 4.805358763233384,
+      "new": 4.795799697368201
+    }
+  },
+  "race_deltas": {
+    "raw_gap_changed": 89,
+    "raw_gap_changed_states": [
+      "AL"
+    ],
+    "raw_gap_max_abs_pp": 8.7725,
+    "fitted_structural_expected_gap_changed": 1786,
+    "nonAL_max_abs_pp": 0.451,
+    "AL_max_abs_pp": 3.7158,
+    "war_changed": 1786,
+    "war_nonAL_max_abs_pp": 0.451,
+    "war_AL_max_abs_pp": 5.0567
+  },
+  "input_hash_differences": [
+    "data/processed/elections/alabama_elections.sqlite"
+  ],
+  "code_hash_differences": [
+    "scripts/retrain_post2016_southern_war_v3.py (sha256 helper now streams; no numerical change)"
+  ],
+  "war_party_label_changes": [
+    {
+      "state_code": "AL",
+      "cycle": 2018,
+      "chamber": "lower",
+      "district": 47,
+      "war_o": 3.7487,
+      "war_n": -0.0006,
+      "baseline_dem_margin_o": -15.8988,
+      "baseline_dem_margin_n": -11.1978,
+      "p_o": "D",
+      "p_n": "R"
+    },
+    {
+      "state_code": "AL",
+      "cycle": 2018,
+      "chamber": "lower",
+      "district": 66,
+      "war_o": 0.0165,
+      "war_n": -0.0632,
+      "baseline_dem_margin_o": -46.1111,
+      "baseline_dem_margin_n": -45.962,
+      "p_o": "D",
+      "p_n": "R"
+    },
+    {
+      "state_code": "AL",
+      "cycle": 2018,
+      "chamber": "lower",
+      "district": 99,
+      "war_o": -0.332,
+      "war_n": 0.5888,
+      "baseline_dem_margin_o": 44.465,
+      "baseline_dem_margin_n": 43.5296,
+      "p_o": "R",
+      "p_n": "D"
+    },
+    {
+      "state_code": "AL",
+      "cycle": 2022,
+      "chamber": "lower",
+      "district": 26,
+      "war_o": -0.0749,
+      "war_n": 0.0678,
+      "baseline_dem_margin_o": -80.5039,
+      "baseline_dem_margin_n": -80.5008,
+      "p_o": "R",
+      "p_n": "D"
+    },
+    {
+      "state_code": "GA",
+      "cycle": 2018,
+      "chamber": "lower",
+      "district": 147,
+      "war_o": 0.0028,
+      "war_n": -0.0081,
+      "baseline_dem_margin_o": 0.2086,
+      "baseline_dem_margin_n": 0.2086,
+      "p_o": "D",
+      "p_n": "R"
+    },
+    {
+      "state_code": "TX",
+      "cycle": 2018,
+      "chamber": "upper",
+      "district": 14,
+      "war_o": 0.0275,
+      "war_n": -0.0066,
+      "baseline_dem_margin_o": 36.499,
+      "baseline_dem_margin_n": 36.499,
+      "p_o": "D",
+      "p_n": "R"
+    }
+  ],
+  "war_party_label_changes_count": 6
+}

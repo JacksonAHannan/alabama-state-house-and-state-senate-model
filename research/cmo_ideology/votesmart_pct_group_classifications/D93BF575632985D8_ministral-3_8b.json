@@ -1,0 +1,11 @@
+{
+  "policy_key": "paid_family_medical_leave_expansion",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Expanding government-provided paid leave for family or medical reasons (e.g., maternity leave).",
+  "evidence_quote": "*[Verbatim placeholder\u2014no specific candidate text provided; this is a standard policy question.]*",
+  "needs_human_review": true,
+  "review_reason": "No candidate-specific quote was supplied in the prompt. A real-world example might read: 'I support Alabama implementing paid family leave to ensure workers can care for newborns or sick relatives without financial hardship.'"
+}

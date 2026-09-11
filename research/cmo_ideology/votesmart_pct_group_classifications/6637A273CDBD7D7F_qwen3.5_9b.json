@@ -1,0 +1,11 @@
+{
+  "policy_key": "wto_support",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Support for the WTO is a procedural or administrative stance rather than one with an inherent conservative/progressive direction.",
+  "evidence_quote": "Do you support the World Trade Organization (WTO)?",
+  "needs_human_review": true,
+  "review_reason": "The question asks about institutional membership which lacks stable left/right ideological content."
+}

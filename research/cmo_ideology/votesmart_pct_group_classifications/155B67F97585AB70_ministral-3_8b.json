@@ -1,0 +1,11 @@
+{
+  "policy_key": "radio_free_europe_funding",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Support for US government funding of Radio Free Europe/Radio Liberty (RFE/RL) as a tool to promote democratic values and counter authoritarianism in Russia/Eurasia.",
+  "evidence_quote": "Should the US continue funding for **Radio Free Europe** and **Radio Liberty**?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

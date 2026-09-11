@@ -1,0 +1,24 @@
+{
+  "primary_domain": "taxation",
+  "policy_key": "gas/oil taxes",
+  "plain_english_policy": "Supporting a tax increase on gas and oil to generate state revenue",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "Gas and oil taxes disproportionately burden lower-income households who spend a larger share of their income on transportation and energy costs."
+    },
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "primary",
+      "rationale": "Taxation is an explicit form of government intervention in market activity, specifically targeting the production/consumption of fossil fuels."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Gas/Oil taxes\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

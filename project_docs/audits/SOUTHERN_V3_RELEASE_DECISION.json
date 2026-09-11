@@ -1,24 +1,95 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-09-08T14:05:00Z",
-  "model_run_id": "WAR-POST2016-V3-4AF79A70EAA8F39EBD49",
+  "generated_at_utc": "2026-09-11T14:27:29Z",
+  "model_run_id": "WAR-POST2016-V3-530FBD4238CC483E557C",
   "manifest_path": "data/processed/war/post2016_southern_war_v3/manifest.json",
-  "manifest_sha256": "c6c09e19335965380e068c40484437bf460db81add232dc8d7cf78d135a905a6",
+  "manifest_sha256": "c879265a3e09af1fe1dd9793d3da816d6357e26336801a4267063cdbb8596d63",
   "decision": "approved_for_descriptive_historical_use",
-  "review_record_path": "project_docs/audits/SOUTHERN_V3_INDEPENDENT_REVIEW_2026_09_08.md",
-  "review_record_sha256": "cd0847259e84592e528d5b1d9784e6db77b1caf52fe5ace8e708bf4f0c0ff9d0",
-  "warehouse_build_run_id": "RUN-92AB8DE353AC47D6AECE3D7767C29FCD",
+  "review_record_path": "project_docs/audits/SOUTHERN_V3_INDEPENDENT_REVIEW_2026_09_11_CONTRACT.md",
+  "review_record_sha256": "9a16747059fe501a11ec02f23740dcc4b2666ae2a9532d732e4dbd7e8d854a49",
+  "inherited_scientific_review": {
+    "path": "project_docs/audits/SOUTHERN_V3_INDEPENDENT_REVIEW_2026_09_11.md",
+    "sha256": "5e4459f981e6c2565c1d7e1e4212f40c1cbe0c35422d94d0c297b92ead384b14",
+    "applies_because": "model outputs byte-identical to WAR-POST2016-V3-A937708D4E0A5232D3F5; this run changes only the manifest input contract (training-frame digest) and adds training_frame.csv"
+  },
+  "warehouse_build_run_id": "RUN-504CE4C4DF904D88A5A40D268F3FCEAB",
+  "training_frame": {
+    "loader": "scripts/southern_war_training_frame.py",
+    "rows": 3660,
+    "sha256": "cc9204796781b99a9d2945bf1a2caf9bcd1cba8c3f90d100622c5b162025874b",
+    "source": "mart_southern_war_training_with_finance WHERE cycle > 2016 AND training_status = strict_war_ready_no_finance"
+  },
   "supersedes": {
-    "model_run_id": "WAR-POST2016-V3-8BB52074EC806C5BF6BF",
-    "manifest_sha256": "0ea558730b9e953d95853d552960886c855b8bb3f9fb9cb2ee0a3c44a47c7638",
-    "decision": "blocked_insufficient_evidence",
-    "review_record_path": "project_docs/audits/SOUTHERN_V3_INDEPENDENT_REVIEW_2026_09_07.md",
-    "archive_path": "data/processed/war/post2016_southern_war_v3_archive/WAR-POST2016-V3-8BB52074EC806C5BF6BF/"
+    "model_run_id": "WAR-POST2016-V3-A937708D4E0A5232D3F5",
+    "manifest_sha256": "714958e7725b6d04454b05b59ecb82bb8cdc5f29976502bd6ffa1a5958831218",
+    "decision": "approved_for_descriptive_historical_use",
+    "review_record_path": "project_docs/audits/SOUTHERN_V3_INDEPENDENT_REVIEW_2026_09_11.md",
+    "archive_path": "artifacts/war/alabama_dependency_rebuild_20260910/v3_A937708D.pre-contract-change/",
+    "superseded_decision_record": "project_docs/audits/SOUTHERN_V3_RELEASE_DECISION.A937708D.superseded.json",
+    "reason": "owner-authorized structural fix: warehouse declared by training-frame content digest instead of whole-file hash; outputs unchanged",
+    "earlier": {
+      "model_run_id": "WAR-POST2016-V3-4AF79A70EAA8F39EBD49",
+      "manifest_sha256": "c6c09e19335965380e068c40484437bf460db81add232dc8d7cf78d135a905a6",
+      "decision": "approved_for_descriptive_historical_use",
+      "review_record_path": "project_docs/audits/SOUTHERN_V3_INDEPENDENT_REVIEW_2026_09_08.md",
+      "archive_path": "data/processed/war/post2016_southern_war_v3_archive/WAR-POST2016-V3-4AF79A70EAA8F39EBD49/",
+      "superseded_decision_record": "project_docs/audits/SOUTHERN_V3_RELEASE_DECISION.4AF79A70.superseded.json",
+      "accepted_input_revisions_at_supersession": [
+        {
+          "path": "data/processed/elections/alabama_elections.sqlite",
+          "declared_sha256": "8cb49945d657b0d928dee1bfdaa33d4729c5c8fbda5c51217d1cc55492ba03b5",
+          "accepted_sha256": "e2dbdb9d414041bf61eec83bca8e3c9439eae35b03822dddec9ac3f41bfe72bd",
+          "warehouse_build_run_ids": [
+            "RUN-91B2A0C3435548A1B6932613B3073995",
+            "RUN-55E4997B16DA4330BF6E2EE7A1E5FD36",
+            "RUN-C0A15A7AB6A6403991BB5FE5143BACFF",
+            "RUN-22C8E3AE51C34579A6BCD9A49EF8C700",
+            "RUN-70A750C82BEC43D686E5F4B1FE13461C"
+          ],
+          "change_scope": "cumulative since approval: metadata-only provenance/registry fills (2026-09-08); owner-adjudicated single 1994 Alabama Attorney General precinct cell 144.4 -> 144 (ADJ-1994-MORGAN-26001-AG2-K48); historical 1994 CMO baseline and federal district baseline mart rebuilds. The approved run reads only mart_southern_war_training_with_finance (cycle > 2016, strict_war_ready_no_finance), whose materialized inputs are content-identical to the pre-change backup.",
+          "evidence_path": "project_docs/audits/SOUTHERN_V3_INPUT_REVISION_2026_09_10.json (keys: top level = first revision; second_revision)",
+          "replay_model_run_id": "WAR-POST2016-V3-58FF952DE4FACDAF75BD",
+          "replay_result": "all 13 approved outputs byte-identical without the model_run_id column; diagnostics, configuration and code hashes equal (second replay, 2026-09-11)",
+          "review_record_path": "project_docs/audits/SOUTHERN_V3_INPUT_REVISION_2_REVIEW_2026_09_10.md",
+          "review_record_sha256": "c39c73e2be2812108c9ee2e2738903bae1898c353d2d5f2d50e90e9b7280517b",
+          "review_verdict": "pass",
+          "authorized_by": "owner instruction 2026-09-10: approved run remains the run of record; consumers catch up without discarding progress",
+          "accepted_at_utc": "2026-09-11T05:10:02+00:00",
+          "limits": "Accepts exactly this byte state of the warehouse file for the approved run. Any further change to the file, or any other declared file, refuses again. Not publication approval.",
+          "superseded_accepted": [
+            {
+              "accepted_sha256": "77379bb50124ddbba150581c537765f79ffd48e804a596f6243aef8a0c9e4432",
+              "warehouse_build_run_ids": [
+                "RUN-91B2A0C3435548A1B6932613B3073995",
+                "RUN-55E4997B16DA4330BF6E2EE7A1E5FD36"
+              ],
+              "change_scope": "metadata-only: five physical source-provenance fields on 228,882 legacy rows and one registry URL/license row; no source values, outcomes or context consumed by the approved run changed",
+              "replay_model_run_id": "WAR-POST2016-V3-142199F69DF8300F1E20",
+              "replay_result": "all 13 approved outputs byte-identical without the model_run_id column; diagnostics and configuration equal",
+              "review_record_path": "project_docs/audits/SOUTHERN_V3_INPUT_REVISION_REVIEW_2026_09_10.md",
+              "review_record_sha256": "451ffaf512975ed1e42e63ff599da13b54c2984c675f802162dedcaf5449ef54",
+              "review_verdict": "pass",
+              "accepted_at_utc": "2026-09-11T04:05:28+00:00"
+            }
+          ]
+        }
+      ],
+      "reason": "Alabama same-cycle ticket baseline predated the accepted September precinct-identity repairs (audits/ALABAMA_TICKET_BASELINE_STALENESS_2026_09_11.json); owner authorized retrain on refreshed context 2026-09-11",
+      "earlier": {
+        "model_run_id": "WAR-POST2016-V3-8BB52074EC806C5BF6BF",
+        "manifest_sha256": "0ea558730b9e953d95853d552960886c855b8bb3f9fb9cb2ee0a3c44a47c7638",
+        "decision": "blocked_insufficient_evidence",
+        "review_record_path": "project_docs/audits/SOUTHERN_V3_INDEPENDENT_REVIEW_2026_09_07.md",
+        "archive_path": "data/processed/war/post2016_southern_war_v3_archive/WAR-POST2016-V3-8BB52074EC806C5BF6BF/"
+      }
+    }
   },
   "resolved_blockers": [
-    "97 Alabama outcomes now carry certified canvass source files through the reviewed canonical/certified bridge (377 approved rows; repair run RUN-4C2EF8D12CC442D99A516E0D393DE157; source append RUN-DD7FF8C9ACBE4EAAA026AD1046693CA9)",
-    "Alabama 2018 and 2022 canonical totals corrected to the certified canvass (21 rows with before-images); no remaining canonical/certified disagreement",
-    "missing-context sensitivity and bootstrap uncertainty recorded in project_docs/audits/SOUTHERN_V3_CONTEXT_SENSITIVITY.md and independently reproduced"
+    "Alabama 2018/2022 same-cycle federal ticket baseline rebuilt from the repaired warehouse (RUN-70A750C82BEC43D686E5F4B1FE13461C) and propagated through the Southern panel and preparation target RUN-504CE4C4DF904D88A5A40D268F3FCEAB; 89 Alabama raw gaps changed (max 8.77 pp), no non-Alabama outcome or baseline changed",
+    "Morgan 1994 fractional source cell adjudicated by the owner (ADJ-1994-MORGAN-26001-AG2-K48, RUN-C0A15A7AB6A6403991BB5FE5143BACFF), unblocking the compatibility chain",
+    "independent review reproduced manifest/archive integrity, 3,660-row deltas, training-frame provenance, baseline correctness, specification selection and sensitivity parity (audits/SOUTHERN_V3_INDEPENDENT_REVIEW_2026_09_11.md)",
+    "whole-warehouse byte hash no longer gates the run; accepted_input_revisions for the warehouse file are no longer needed (history retained under supersedes)"
   ],
-  "limits": "Approval covers the exact run above as a descriptive same-cycle race residual for the Southern historical WAR product. It is not predictive validation, external-reference certification, or publication approval; canvass redistribution terms remain review; downstream builders must still pass their own gates."
+  "known_changes_versus_superseded": "none in model outputs; manifest gains training_frame and training_frame.csv",
+  "limits": "Approval covers the exact run above as a descriptive same-cycle race residual for the Southern historical WAR product. It is not predictive validation, external-reference certification, or publication approval; canvass redistribution terms remain review; downstream builders must still pass their own gates; the published docs/southern-war.html still reflects the superseded run until republication is separately authorized."
 }

@@ -1,0 +1,11 @@
+{
+  "policy_key": "immigration_agricultural_visas",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting increased visas for agricultural workers is generally considered a progressive stance as it aligns with expanding access to legal immigration pathways and addressing labor needs through humanitarian or economic inclusion frameworks.",
+  "evidence_quote": "Increase the number of visas issued for agricultural workers.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

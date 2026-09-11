@@ -1,0 +1,10 @@
+{
+  "id": "75D972458B621F3D",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Allowing EMS drug and fluid purchases from additional sources is a procurement and delivery technical change without a sufficiently clear allowed policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

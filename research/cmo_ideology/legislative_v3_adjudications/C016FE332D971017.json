@@ -1,0 +1,10 @@
+{
+  "id": "C016FE332D971017",
+  "decision": "map",
+  "primitive_axis": "education_public_funding",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Issues bonds for school construction/renovation with a dollar-for-dollar local match requirement, expanding public funding for education infrastructure.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

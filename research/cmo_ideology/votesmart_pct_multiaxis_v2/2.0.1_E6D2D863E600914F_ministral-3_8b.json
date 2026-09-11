@@ -1,0 +1,18 @@
+{
+  "primary_domain": "abortion",
+  "policy_key": "restrict_civil_social_liberty",
+  "plain_english_policy": "Defines marriage as exclusively heterosexual, thereby restricting the legal recognition of same-sex unions.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "civil_social_liberty",
+      "pole": "restrict",
+      "strength": "primary",
+      "rationale": "The option explicitly restricts the legal recognition of marriage to heterosexual couples, directly limiting civil rights for same-sex relationships."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Should marriage only be between one man and one woman?\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

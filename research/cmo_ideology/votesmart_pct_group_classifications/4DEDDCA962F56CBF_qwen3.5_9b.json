@@ -1,0 +1,11 @@
+{
+  "policy_key": "foreign_policy_radio_free_asia",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks about funding Radio Free Asia without providing a specific policy stance or ideological direction.",
+  "evidence_quote": "6) Should the US continue funding for Radio Free Asia?",
+  "needs_human_review": true,
+  "review_reason": "This is an administrative question lacking inherent left/right political content."
+}

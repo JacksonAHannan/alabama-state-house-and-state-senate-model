@@ -1,0 +1,800 @@
+{
+  "generated_at_utc": "2026-09-11T03:51:45Z",
+  "checklist_item": "warehouse-06",
+  "method": "sqlite3 mode=ro + PRAGMA query_only=ON with bounded SELECT/COUNT; in-memory zipfile+xlrd read of 94g-prec/MORGAN.XLS; grep trace over scripts/**; os.stat + streamed SHA256 for artifacts; focused pytest. No warehouse write, no rebuild, no data/raw modification. The database file was not hashed.",
+  "raw_source": {
+    "source_file_id": "SRC-E64FFC4299ED54CB2D3A",
+    "provider": "alabama_sos",
+    "authoritative_scope": "official_vote_counts",
+    "path": "data/raw/alabama_elections_and_geography/94g-prec.zip",
+    "sha256": "94512391c389c45d2899f06686484790adaf4c99fa638b217e31f54652c55097",
+    "retrieved_at_utc": "2026-08-16T19:15:03.411009+00:00",
+    "member": "94g-prec/MORGAN.XLS",
+    "member_bytes": 40960,
+    "member_sha256": "e00a9c487b38490a9e6d97c2e85b8f2d3dd07d6e5a2cd3d4eb102d70c30a7b39",
+    "sheet": "Morgan",
+    "sheet_rows": 53,
+    "sheet_columns": 63,
+    "printed_cell": {
+      "row": 48,
+      "column": 11,
+      "column_letter": "K",
+      "value": 144.4,
+      "precinct_number_cell": {
+        "row": 48,
+        "column": 3,
+        "value": 26001
+      },
+      "column_header": "Sessions",
+      "printed_ballot_code": "AG2"
+    },
+    "data_rows": {
+      "first": 6,
+      "last": 51,
+      "count": 46
+    },
+    "column_k_integer_cells": 45,
+    "column_k_integer_sum": 21427.0,
+    "fractional_cells_in_sheet_data_block": 1,
+    "totals": {
+      "reported": {
+        "cell": "K52",
+        "value": 21571.0
+      },
+      "calculated": {
+        "cell": "K53",
+        "value": 21571.4
+      },
+      "difference": 0.4,
+      "integer_reading_sum": 21571.0,
+      "literal_reading_sum": 21571.4
+    }
+  },
+  "stored_observation": {
+    "rowid_as_observed": 2424457,
+    "rowid_stable": false,
+    "source": "alabama_sos",
+    "year": 1994,
+    "county_key": "MORGAN",
+    "precinct_key": "26001",
+    "precinct_code": "26001",
+    "office": "Attorney General",
+    "district": null,
+    "candidate_key": "SESSIONS",
+    "party_norm": "R",
+    "ballot_code": "AG2",
+    "party_method": "ballot_order_with_export_code",
+    "votes": 144.4,
+    "authority_rank": 1,
+    "source_file": "94g-prec/MORGAN.XLS",
+    "source_sheet": "Morgan",
+    "source_row": 48,
+    "source_column": 11,
+    "source_file_id": "SRC-E64FFC4299ED54CB2D3A",
+    "build_run_id": "RUN-40A033B9854141F6B05A76173E66D17B"
+  },
+  "warehouse": {
+    "path": "data/processed/elections/alabama_elections.sqlite",
+    "bytes": 5819056128,
+    "mtime_utc": "2026-09-08T15:38:30.839534Z",
+    "sha256_computed": false,
+    "vote_observations_rows": 2184861,
+    "fractional_observations": 1,
+    "providers_1994": [
+      {
+        "source": "alabama_sos",
+        "rows": 150753,
+        "counties": 67
+      }
+    ],
+    "county_ag_rep_total": 21571.4,
+    "statewide_ag_rep_total": 660998.4,
+    "statewide_ag_rep_integer_rows_total": 660854.0,
+    "integer_reading_statewide_total": 660998.0,
+    "qa_view_fractional_rows": 1,
+    "qa_view_issue": "fractional_source_vote",
+    "canonical_view_retains_cell": true,
+    "views_excluding_cell": [],
+    "max_single_district_margin_effect_pp": {
+      "house": 0.006413626,
+      "senate": 0.001786061,
+      "basis": "0.4 votes / smallest recorded AG district two-party total (6,236.72199379276 house, 22,395.65003983679 senate); upper bound if the whole 0.4 landed in one district"
+    }
+  },
+  "qa_records": [
+    {
+      "issue_id": "WQA-04-fractional-evidence",
+      "warehouse_object": "vote_observations",
+      "scope": "1994/MORGAN/26001/AG2",
+      "status": "source_review",
+      "recorded_at_utc": "2026-09-05T21:35:27.638360+00:00",
+      "build_run_id": "RUN-C7DE0A0267EC4445938D1CA0CB5C4BD3",
+      "evidence": {
+        "fractional_cell": "K48",
+        "reported_county_total": 21571,
+        "reported_county_total_cell": "K52",
+        "calculated_county_total": 21571.4,
+        "calculated_county_total_cell": "K53",
+        "source_file_id": "SRC-E64FFC4299ED54CB2D3A",
+        "source_member": "94g-prec/MORGAN.XLS",
+        "decision": "Retain original fractional observation; reported/calculated discrepancy is evidence, not independent precinct adjudication."
+      }
+    },
+    {
+      "issue_id": "WQA-03-04",
+      "warehouse_object": "vote_observations",
+      "scope": "Alabama 1994",
+      "status": "repaired_with_review",
+      "evidence": {
+        "rows": 150753,
+        "source_cells_preserved": true,
+        "unresolved": "Remaining key collisions and source fractional vote retained in qa_vote_observation_quality"
+      }
+    },
+    {
+      "issue_id": "WQA-dependencies",
+      "warehouse_object": "warehouse_asset_lineage",
+      "status": "stale_review",
+      "evidence": {
+        "not_rebuilt": [
+          "...",
+          "historical precinct/district weights and baselines for 1994/2002",
+          "dependent model and publication files"
+        ]
+      }
+    }
+  ],
+  "consumers": [
+    {
+      "script": "build_1994_cmo_baseline.py",
+      "boundary": "load_returns (L44)",
+      "consumed_slice": "source='alabama_sos' AND year=1994 AND (legislative OR statewide Governor/AG D/R)",
+      "guard_status": "refuses",
+      "raw_read_includes_cell": true,
+      "value_reaches_output": false,
+      "note": "Guard present in working tree; predicate covers the cell exactly; comment cites WQA-04-fractional-evidence."
+    },
+    {
+      "script": "build_canonical_cmo_features.py",
+      "boundary": "main (L25)",
+      "consumed_slice": "source='alabama_sos' AND (Governor/AG OR legislative)",
+      "guard_status": "refuses",
+      "raw_read_includes_cell": true,
+      "value_reaches_output": true,
+      "note": "Guarded 2026-09-08; the cell enters the 1994 core-index allocation it publishes."
+    },
+    {
+      "script": "analyze_canonical_baselines.py",
+      "boundary": "source_votes (L26)",
+      "consumed_slice": "7 statewide offices, all cycles",
+      "guard_status": "refuses",
+      "raw_read_includes_cell": true,
+      "value_reaches_output": true,
+      "note": "Guarded 2026-09-08."
+    },
+    {
+      "script": "build_adjacent_precinct_alias_graph.py",
+      "boundary": "nodes_and_turnout (L23)",
+      "consumed_slice": "source='alabama_sos' AND year IN (1994,...,2010)",
+      "guard_status": "refuses",
+      "raw_read_includes_cell": true,
+      "value_reaches_output": true,
+      "note": "Guarded."
+    },
+    {
+      "script": "build_historical_precinct_adjudication_queue.py",
+      "boundary": "activity (L57)",
+      "consumed_slice": "source='alabama_sos' AND year IN (1994,1998,2002,2006)",
+      "guard_status": "refuses",
+      "raw_read_includes_cell": true,
+      "value_reaches_output": true,
+      "note": "Guarded."
+    },
+    {
+      "script": "build_precinct_identity.py",
+      "boundary": "build_nodes caller (L137)",
+      "consumed_slice": "whole vote_observations",
+      "guard_status": "refuses",
+      "raw_read_includes_cell": true,
+      "value_reaches_output": true,
+      "note": "Guarded; refuses the whole table."
+    },
+    {
+      "script": "stage_precinct_identity_repair.py",
+      "boundary": "stage (L164)",
+      "consumed_slice": "DEFAULT_PROFILE: source='alabama_sos' AND (year=1994 OR ...)",
+      "guard_status": "refuses",
+      "raw_read_includes_cell": true,
+      "value_reaches_output": true,
+      "note": "Guarded; default repair profile contains 1994 wholesale."
+    },
+    {
+      "script": "apply_precinct_identity_repair.py",
+      "boundary": "verified_stage (L71)",
+      "consumed_slice": "staging profile (same as stage)",
+      "guard_status": "refuses",
+      "raw_read_includes_cell": true,
+      "value_reaches_output": true,
+      "note": "Re-verifies the guard before applying a staged repair."
+    },
+    {
+      "script": "build_war_story_page.py",
+      "boundary": "load_data (L148-L152; was L119 when the trace began)",
+      "consumed_slice": "authority_rank=1 AND party_norm IN ('D','R'), all years/offices",
+      "guard_status": "unguarded",
+      "raw_read_includes_cell": true,
+      "value_reaches_output": false,
+      "note": "SQL SUM reads the cell (1994 AG R = 660,998.4). The aggregate only selects a display name per (year,office,party); no vote total from it is published, so the 0.4 can affect only tie-breaking. Outside this unit's write scope; reported, not changed."
+    },
+    {
+      "script": "build_historical_federal_baselines.py",
+      "boundary": "load_observations (L41)",
+      "consumed_slice": "source='alabama_sos' AND year IN (1994,...,2022), all offices",
+      "guard_status": "not_reached",
+      "raw_read_includes_cell": true,
+      "value_reaches_output": false,
+      "note": "SELECT is broader than the consumed slice: the cell is fetched unguarded, then dropped because federal_office('Attorney General', None) == (None, None)."
+    },
+    {
+      "script": "build_1994_context_features.py",
+      "boundary": "candidates (L172)",
+      "consumed_slice": "canonical_candidates (legislative rows) + legislative weights CSV",
+      "guard_status": "not_reached",
+      "raw_read_includes_cell": false,
+      "value_reaches_output": false,
+      "note": "Reads no raw 1994 vote row."
+    },
+    {
+      "script": "build_candidate_identity.py",
+      "boundary": "main (L135)",
+      "consumed_slice": "State House/Senate, all cycles",
+      "guard_status": "not_reached",
+      "raw_read_includes_cell": false,
+      "value_reaches_output": false,
+      "note": "Guard present; AG outside the slice."
+    },
+    {
+      "script": "build_canonical_geographic_weights.py",
+      "boundary": "main (L30)",
+      "consumed_slice": "State House/Senate, 2010-2022",
+      "guard_status": "not_reached",
+      "raw_read_includes_cell": false,
+      "value_reaches_output": false,
+      "note": "Guard present; outside the slice."
+    },
+    {
+      "script": "build_presidential_district_features.py",
+      "boundary": "load_legislative_activity_weights (L90)",
+      "consumed_slice": "State House/Senate, 2010-2022",
+      "guard_status": "not_reached",
+      "raw_read_includes_cell": false,
+      "value_reaches_output": false,
+      "note": "Guard present; outside the slice."
+    },
+    {
+      "script": "build_1998_2006_context_features.py",
+      "boundary": "legislative_weights (L165) and _pres2004 (L222)",
+      "consumed_slice": "1998/2002/2006 legislative; President 2004",
+      "guard_status": "not_reached",
+      "raw_read_includes_cell": false,
+      "value_reaches_output": false,
+      "note": "Guards present; 1994 and AG outside the slices."
+    },
+    {
+      "script": "audit_historical_precinct_geography.py",
+      "boundary": "legislative_assignments (L112)",
+      "consumed_slice": "source='alabama_sos' AND cycle param, State House/Senate",
+      "guard_status": "not_reached",
+      "raw_read_includes_cell": false,
+      "value_reaches_output": false,
+      "note": "Cycles include 1994; office filter excludes the cell."
+    },
+    {
+      "script": "validate_1998_2006_model_readiness.py",
+      "boundary": "main source read (L17)",
+      "consumed_slice": "1998/2002/2006 Governor/AG",
+      "guard_status": "not_reached",
+      "raw_read_includes_cell": false,
+      "value_reaches_output": false,
+      "note": "Outside the cycle slice."
+    },
+    {
+      "script": "build_same_year_primary_precinct_aliases.py",
+      "boundary": "main (L113)",
+      "consumed_slice": "1998/2002",
+      "guard_status": "not_reached",
+      "raw_read_includes_cell": false,
+      "value_reaches_output": false,
+      "note": "Outside the cycle slice."
+    },
+    {
+      "script": "build_alabama_race_ei.py",
+      "boundary": "main (L79)",
+      "consumed_slice": "2010-2022 Governor",
+      "guard_status": "not_reached",
+      "raw_read_includes_cell": false,
+      "value_reaches_output": false,
+      "note": "Outside the slice."
+    },
+    {
+      "script": "run_top_ticket_experiments.py",
+      "boundary": "main (L89)",
+      "consumed_slice": "2020 President/Senate",
+      "guard_status": "not_reached",
+      "raw_read_includes_cell": false,
+      "value_reaches_output": false,
+      "note": "Outside the slice."
+    },
+    {
+      "script": "repair_warehouse_source_defects.py",
+      "boundary": "validate/reconcile (L92, L209, L290)",
+      "consumed_slice": "1994 all offices (QC/preservation)",
+      "guard_status": "not_reached",
+      "raw_read_includes_cell": true,
+      "value_reaches_output": false,
+      "note": "Integrity/QC path: asserts 1994 vote preservation, emits the fractional_source_vote QA issue, checks the repaired AG2 party encoding. Refusal would be wrong; it must keep recording the printed value."
+    },
+    {
+      "script": "stage_legacy_source_lineage.py",
+      "boundary": "stage (L153, L186)",
+      "consumed_slice": "1998/2004",
+      "guard_status": "not_reached",
+      "raw_read_includes_cell": false,
+      "value_reaches_output": false,
+      "note": "Outside the slice."
+    },
+    {
+      "script": "repair_sos_cell_lineage.py",
+      "boundary": "main (L264)",
+      "consumed_slice": "1998/2004",
+      "guard_status": "not_reached",
+      "raw_read_includes_cell": false,
+      "value_reaches_output": false,
+      "note": "Outside the slice."
+    },
+    {
+      "script": "build_election_database.py",
+      "boundary": "ingest (L68)",
+      "consumed_slice": "vote_observations producer",
+      "guard_status": "not_reached",
+      "raw_read_includes_cell": true,
+      "value_reaches_output": false,
+      "note": "Ingest must record the printed value; refusal is not applicable."
+    },
+    {
+      "script": "build_data_catalog.py",
+      "boundary": "catalog (L21)",
+      "consumed_slice": "metadata only",
+      "guard_status": "not_reached",
+      "raw_read_includes_cell": false,
+      "value_reaches_output": false,
+      "note": "No row read."
+    }
+  ],
+  "consumer_counts": {
+    "refuses": 8,
+    "unguarded": 1,
+    "view_excludes": 0,
+    "not_reached": 16
+  },
+  "derived_consumers": {
+    "note": "Read no raw 1994 row; consume cell-carrying artifacts produced before the refusals, so the raw quarantine does not stop them.",
+    "cycle_scope_verified": [
+      "build_alabama_historical_war_v1.py (backcasts 1994-2014)",
+      "build_war_story_page.py (reads canonical_cmo_features.csv and canonical_cmo_district_office_baselines.csv)"
+    ],
+    "cycle_excludes_1994_verified": [
+      "compare_historical_cmo_performance.py (1998-2006)",
+      "run_fcpa_fundraising_experiments.py (2014+)"
+    ],
+    "not_exhaustively_audited": [
+      "build_southern_war_panel_v1.py",
+      "rebuild_cmo_southern_prior_v6.py",
+      "rebuild_cmo_methodology_v2.py",
+      "rebuild_cmo_direct_estimand.py",
+      "rebuild_cmo_war_analogue.py",
+      "fit_preliminary_war_model.py",
+      "validate_war_outputs.py",
+      "review_historical_fallback_movements.py",
+      "analyze_black_candidate_turnout.py",
+      "analyze_cmo_ideology_research.py",
+      "analyze_incumbency_survivorship.py",
+      "analyze_social_moderation_cmo.py",
+      "build_cmo_geography_sensitivity.py",
+      "calibrate_forward_cmo_uncertainty.py",
+      "compare_2026_prospective_models.py",
+      "compare_expanded_cycle_cmo_models.py",
+      "compare_federal_cmo_baselines.py",
+      "fit_2026_prospective_model.py",
+      "integrate_votesmart_pct_cmo_features.py",
+      "analyze_absolute_ideology_rebuild.py"
+    ]
+  },
+  "cached_artifacts": [
+    {
+      "path": "data/processed/elections/1994_baseline_allocation_qa.csv",
+      "bytes": 659,
+      "mtime_utc": "2026-08-16T19:08:30.027656Z",
+      "sha256": "feccd19dc00c4f3afda188f52898e9850896fd311f86c1079f9ffec8f340f6c0",
+      "producer": "build_1994_cmo_baseline.main",
+      "carries_cell": true,
+      "reason": "AG R source_votes = 660,998.4",
+      "producer_refuses_now": true,
+      "predates_refusal": true
+    },
+    {
+      "path": "data/processed/elections/1994_district_baseline_office.csv",
+      "bytes": 39530,
+      "mtime_utc": "2026-08-16T19:08:30.024656Z",
+      "sha256": "b2c09d97e3d69becf1450bb550d6231b3441b3faec77e2f254367b026fd72f6b",
+      "producer": "build_1994_cmo_baseline.main",
+      "carries_cell": true,
+      "reason": "AG R allocated sums 659,715.4 (house) / 660,399.4 (senate)",
+      "producer_refuses_now": true,
+      "predates_refusal": true
+    },
+    {
+      "path": "data/processed/elections/1994_cmo_race_features.csv",
+      "bytes": 24839,
+      "mtime_utc": "2026-08-16T19:08:30.026656Z",
+      "sha256": "38c2afbcdded1a23f7964502e2cf5a8891a833887b0307e1232f9f4739da5825",
+      "producer": "build_1994_cmo_baseline.main",
+      "carries_cell": true,
+      "reason": "core_index_margin from the AG/Governor allocation",
+      "producer_refuses_now": true,
+      "predates_refusal": true
+    },
+    {
+      "path": "data/processed/elections/1994_precinct_district_ballot_weights.csv",
+      "bytes": 602939,
+      "mtime_utc": "2026-08-16T19:08:30.021656Z",
+      "sha256": "b2eeca170a8aad16d7dc64c296d7f8f53f065aaacca4d89f6794d4351997f1c3",
+      "producer": "build_1994_cmo_baseline.main",
+      "carries_cell": false,
+      "reason": "legislative activity only",
+      "producer_refuses_now": false,
+      "predates_refusal": true
+    },
+    {
+      "path": "data/processed/elections/1994_unmatched_precinct_review.csv",
+      "bytes": 3536,
+      "mtime_utc": "2026-08-16T19:08:30.028655Z",
+      "sha256": "b84ec5a15deea9daf6a46636397c9ede8c3ffe673f89bf56a99b002738c15a66",
+      "producer": "build_1994_cmo_baseline.main",
+      "carries_cell": false,
+      "reason": "precinct 26001 has legislative weights; other Morgan AG rows present",
+      "producer_refuses_now": false,
+      "predates_refusal": true
+    },
+    {
+      "path": "data/processed/elections/1994_cmo_context_features.csv",
+      "bytes": 24470,
+      "mtime_utc": "2026-08-16T19:08:41.118255Z",
+      "sha256": "a4ff09bf51489fee3ef9170a437c7eaf37267bb30d25220885c8fad1d90b5273",
+      "producer": "build_1994_context_features.main",
+      "carries_cell": false,
+      "reason": "no vote columns",
+      "producer_refuses_now": false,
+      "predates_refusal": true
+    },
+    {
+      "path": "data/processed/elections/1994_candidate_incumbency.csv",
+      "bytes": 27138,
+      "mtime_utc": "2026-08-16T19:08:41.114258Z",
+      "sha256": "d22b6e66b0f9cc1ba23d03bac2c8354403b9c763257924eb3409cdf24e64bf35",
+      "producer": "build_1994_context_features.main",
+      "carries_cell": false,
+      "reason": "legislative candidates only",
+      "producer_refuses_now": false,
+      "predates_refusal": true
+    },
+    {
+      "path": "data/processed/demographics/1994_district_demographics.csv",
+      "bytes": 35911,
+      "mtime_utc": "2026-08-16T19:08:41.098992Z",
+      "sha256": "0ffcde7fd77ec5b8308368f6349916e5b2232573fd7b55187c75d6153d4b6071",
+      "producer": "build_1994_context_features.main",
+      "carries_cell": false,
+      "reason": "census shares only",
+      "producer_refuses_now": false,
+      "predates_refusal": true
+    },
+    {
+      "path": "data/processed/presidential/1994_district_presidential_features.csv",
+      "bytes": 22487,
+      "mtime_utc": "2026-08-16T19:08:41.113137Z",
+      "sha256": "19fc3d993c476cad7ad24b4df400c76720e343afeb4ed94b494bd6927135f617",
+      "producer": "build_1994_context_features.main",
+      "carries_cell": false,
+      "reason": "1992 presidential returns",
+      "producer_refuses_now": false,
+      "predates_refusal": true
+    },
+    {
+      "path": "data/processed/war/1994_candidate_finance_coverage.csv",
+      "bytes": 39788,
+      "mtime_utc": "2026-08-16T19:08:41.116255Z",
+      "sha256": "9b4a546c1bdb6b91f96d3f61922862f7e38f084d94a179315ac4cce86c6b5d04",
+      "producer": "build_1994_context_features.main",
+      "carries_cell": false,
+      "reason": "finance coverage contract only",
+      "producer_refuses_now": false,
+      "predates_refusal": true
+    },
+    {
+      "path": "data/processed/elections/historical_federal_district_baselines.csv",
+      "bytes": 170019,
+      "mtime_utc": "2026-08-21T15:21:36.413564Z",
+      "sha256": "06b4d0d943762144540daa69e66c47969b11b2fa2d35c9fc83297bb4c452584c",
+      "producer": "build_historical_federal_baselines.main",
+      "carries_cell": false,
+      "reason": "1994 federal offices only",
+      "producer_refuses_now": false,
+      "predates_refusal": true
+    },
+    {
+      "path": "data/processed/war/preliminary_cmo_races.csv",
+      "bytes": 1229476,
+      "mtime_utc": "2026-08-21T15:29:25.748759Z",
+      "sha256": "be6528a8f057939be1e6fef804779ea1654597fcba13b67e769f0b31a81d63fd",
+      "producer": "fit_preliminary_war_model.py",
+      "carries_cell": true,
+      "reason": "72 rows for cycle 1994 with core_index_margin",
+      "producer_refuses_now": false,
+      "predates_refusal": true
+    },
+    {
+      "path": "data/processed/elections/canonical_cmo_features.csv",
+      "bytes": 481267,
+      "mtime_utc": "2026-08-26T13:51:58.318918Z",
+      "sha256": "b72934f50e22a74bafa9b2f9648cdf8faf3a787f0ac6b18e758131bbbc2856d0",
+      "producer": "build_canonical_cmo_features.main",
+      "carries_cell": true,
+      "reason": "cycle-1994 core_index_margin",
+      "producer_refuses_now": true,
+      "predates_refusal": true
+    },
+    {
+      "path": "data/processed/elections/canonical_cmo_district_office_baselines.csv",
+      "bytes": 352452,
+      "mtime_utc": "2026-08-26T13:51:58.043699Z",
+      "sha256": "f7c6fbe8f0036154a1d3b003b88ccde27dd98663351e8d1072136f8aa33e8222",
+      "producer": "build_canonical_cmo_features.main",
+      "carries_cell": true,
+      "reason": "AG 1994 D/R sums 497,446.0 / 659,715.4 / 497,833.0 / 660,399.4",
+      "producer_refuses_now": true,
+      "predates_refusal": true
+    },
+    {
+      "path": "data/processed/elections/historical_cmo_extension.csv",
+      "bytes": 141787,
+      "mtime_utc": "2026-08-26T13:51:58.339917Z",
+      "sha256": "6424f3ade998a7ba5c3710e1f692735553439a99b67aa3078813e9b8e995aa51",
+      "producer": "build_canonical_cmo_features.main",
+      "carries_cell": true,
+      "reason": "144 rows for 1994",
+      "producer_refuses_now": true,
+      "predates_refusal": true
+    },
+    {
+      "path": "data/processed/war/cmo_v5_races.csv",
+      "bytes": 184253,
+      "mtime_utc": "2026-08-26T13:53:25.054184Z",
+      "sha256": "a8745953791aae048aa83cf013668165cd6e7968ef712c0d9a21d82429504024",
+      "producer": "rebuild_cmo_candidate_quality_v5.py",
+      "carries_cell": true,
+      "reason": "72 rows for 1994",
+      "producer_refuses_now": false,
+      "predates_refusal": true
+    },
+    {
+      "path": "data/processed/war/cmo_v5_candidates.csv",
+      "bytes": 816307,
+      "mtime_utc": "2026-08-26T13:53:25.092186Z",
+      "sha256": "be5ce11349ba84bcb1a54e04c40e9520f6ecfdf9e9803c82eff5863f14be500c",
+      "producer": "rebuild_cmo_candidate_quality_v5.py",
+      "carries_cell": true,
+      "reason": "144 rows for 1994",
+      "producer_refuses_now": false,
+      "predates_refusal": true
+    }
+  ],
+  "cached_artifacts_carrying_cell": 9,
+  "cached_artifacts_predating_refusal": 9,
+  "warehouse_tables_carrying_cell": [
+    {
+      "table": "mart_historical_district_office_baseline",
+      "cycle": 1994,
+      "build_run_id": "RUN-ADA16D76E1BB4520ABA370CED9922828",
+      "built_utc": "2026-08-16T19:08:30.062692+00:00",
+      "code_commit": "de9e5e59d757b4bb5d77f56c7921e2cc38bdc0b9",
+      "carries_cell": true
+    },
+    {
+      "table": "mart_historical_cmo_race_feature",
+      "cycle": 1994,
+      "build_run_id": "RUN-ADA16D76E1BB4520ABA370CED9922828",
+      "built_utc": "2026-08-16T19:08:30.062692+00:00",
+      "code_commit": "de9e5e59d757b4bb5d77f56c7921e2cc38bdc0b9",
+      "carries_cell": true
+    },
+    {
+      "table": "qa_historical_baseline_allocation",
+      "cycle": 1994,
+      "build_run_id": "RUN-ADA16D76E1BB4520ABA370CED9922828",
+      "built_utc": "2026-08-16T19:08:30.062692+00:00",
+      "code_commit": "de9e5e59d757b4bb5d77f56c7921e2cc38bdc0b9",
+      "carries_cell": true
+    },
+    {
+      "table": "mart_historical_precinct_district_weight",
+      "cycle": 1994,
+      "build_run_id": "RUN-ADA16D76E1BB4520ABA370CED9922828",
+      "built_utc": "2026-08-16T19:08:30.062692+00:00",
+      "code_commit": "de9e5e59d757b4bb5d77f56c7921e2cc38bdc0b9",
+      "carries_cell": false
+    },
+    {
+      "table": "mart_historical_cmo_context_feature",
+      "cycle": 1994,
+      "build_run_id": "RUN-2541D303D6A44F3B81075C41CBDE65B2",
+      "built_utc": "2026-08-16T19:08:41.169714+00:00",
+      "code_commit": "de9e5e59d757b4bb5d77f56c7921e2cc38bdc0b9",
+      "carries_cell": false
+    }
+  ],
+  "later_1994_build_runs": [],
+  "code_hashes": [
+    {
+      "path": "scripts/source_vote_quality.py",
+      "bytes": 1974,
+      "mtime_utc": "2026-09-07T22:01:31.805088Z",
+      "sha256": "9a3b4755459a63ca6da7368f32232f4c6e5ce5733312d1673e4fa95077633547"
+    },
+    {
+      "path": "scripts/build_1994_cmo_baseline.py",
+      "bytes": 12341,
+      "mtime_utc": "2026-09-11T03:48:45.772441Z",
+      "sha256": "22524301075e176d604557a26f90b198aaf88981884fb646c8e1704041cf1a15"
+    },
+    {
+      "path": "scripts/build_1994_context_features.py",
+      "bytes": 18342,
+      "mtime_utc": "2026-09-05T21:22:01.534182Z",
+      "sha256": "46a527c407cf4bc242f2506f1fe5c35e74ae8dd6ab442101eec61bff8123eaa9"
+    },
+    {
+      "path": "scripts/tests/test_1994_cmo_baseline.py",
+      "bytes": 5138,
+      "mtime_utc": "2026-09-11T03:48:33.621149Z",
+      "sha256": "234186df78651ed29ad4bc767bce62dcb2cfdaeda2dceb03994b06bd8da2528f"
+    },
+    {
+      "path": "scripts/tests/test_1994_context_features.py",
+      "bytes": 2484,
+      "mtime_utc": "2026-08-16T19:13:56.499559Z",
+      "sha256": "8f3d3077f8f870b092e3d4a2d7d410e0dc7bfa5ad3a1abbd03e8932419c5962d"
+    },
+    {
+      "path": "scripts/tests/test_source_vote_quality.py",
+      "bytes": 6373,
+      "mtime_utc": "2026-09-07T22:02:02.752132Z",
+      "sha256": "8e2d2760ae57a38ea8b07c2dc6732c8c0c0e7c193c6a0a60ea225a0f0f3808f1"
+    },
+    {
+      "path": "scripts/tests/test_morgan_1994_quarantine.py",
+      "bytes": 5916,
+      "mtime_utc": "2026-09-11T03:49:31.561419Z",
+      "sha256": "873d0a02069b1384b746062571d8a229ced2eac51f04540613d2ba494ace78d8"
+    }
+  ],
+  "code_changes": [
+    {
+      "path": "scripts/build_1994_cmo_baseline.py",
+      "change": "comment naming WQA-04-fractional-evidence on the existing refusal; no behaviour change"
+    },
+    {
+      "path": "scripts/build_1994_context_features.py",
+      "change": "none (reads no raw 1994 vote row)"
+    },
+    {
+      "path": "scripts/tests/test_1994_cmo_baseline.py",
+      "change": "rewritten onto deterministic fixtures; live source assertions removed because the slice is refused (3 failed -> passing)"
+    },
+    {
+      "path": "scripts/tests/test_morgan_1994_quarantine.py",
+      "change": "new quarantine evidence module"
+    }
+  ],
+  "verification": {
+    "command": ".venv/Scripts/python.exe -m pytest --testmon --testmon-noselect -p no:cacheprovider scripts/tests/test_1994_cmo_baseline.py scripts/tests/test_1994_context_features.py scripts/tests/test_source_vote_quality.py scripts/tests/test_morgan_1994_quarantine.py -q",
+    "after": {
+      "passed": 30,
+      "failed": 0,
+      "skipped": 0,
+      "warnings": 2,
+      "seconds": 24.05
+    },
+    "not_run": [
+      "formatters",
+      "linters",
+      "project-wide suite",
+      "any rebuild or publication"
+    ],
+    "before_over_the_two_pre_existing_1994_modules": {
+      "passed": 4,
+      "failed": 3,
+      "failure": "ValueError: Unusable reported votes: 1 source observations (votes 144.4, issue fractional_source_vote) in test_1994_cmo_baseline.py"
+    }
+  },
+  "quarantine_status": {
+    "verdict": "partially established",
+    "established": [
+      "the exact cell and its physical locator are recorded",
+      "the K48/K52/K53 conflict and its 0.4 magnitude are quantified",
+      "8 consumers of the 1994 slice refuse before aggregation",
+      "no stored view excludes the cell; the QA view only flags it",
+      "the refusal precedes any pandas read and does not modify the source"
+    ],
+    "gaps": [
+      "9 files + 4 warehouse tables already carry the fraction and are not marked stale for this reason",
+      "1 unguarded read (build_war_story_page.py load_data) consumes the cell into a display-name aggregate",
+      "the 1994 baseline/CMO artifacts cannot be regenerated while the cell stands; no documented note records it",
+      "per-district propagation into published WAR backcasts was not quantified (no rebuild performed)",
+      "derived consumers' cycle filters were not exhaustively audited",
+      "alabama_war_v1 / alabama_historical_war_v1 contents not inspected (primary-session rebuild)"
+    ]
+  },
+  "not_established": [
+    "intended reading of K48 (144 vs 144.4)",
+    "true precinct-26001 AG count",
+    "whether K52 is independent or a recomputation",
+    "per-district propagation of the 0.4",
+    "freshness of alabama_war_v1 / alabama_historical_war_v1",
+    "cycle filters of all derived consumers",
+    "whether the same provider defect exists for other cells, cycles, counties or states"
+  ],
+  "out_of_scope_findings": [
+    "build_war_story_page.py load_data: unguarded SUM(votes) over authority_rank=1 D/R rows including the cell",
+    "build_historical_federal_baselines.py load_observations: SELECT covers 1994 all offices while only federal offices are consumed",
+    "stage/apply precinct-identity repair default profile contains year=1994 wholesale, so those repair paths are also fail-closed",
+    "qa_vote_observation_quality is advisory only; no producer consults it",
+    "warehouse_build_run holds two unfinished 'running' runs (RUN-38499B743007490291D8841A8A3FF91B, RUN-D1633D6ECDE54F9DBD9A75F644C8619B) unrelated to this cell"
+  ],
+  "disposition_options": [
+    {
+      "id": "A",
+      "name": "retained as reported, refused at consumption, no correction",
+      "requires": [
+        "mark the 13 cell-carrying artifacts stale for this reason",
+        "decide on build_war_story_page.py's unguarded read",
+        "record that 1994 cannot be rebuilt while the cell stands"
+      ]
+    },
+    {
+      "id": "B",
+      "name": "establish an authoritative correction",
+      "requires": [
+        "a named authoritative source (SOS or Morgan County re-issue/errata) giving the precinct 26001 AG2 count",
+        "source change plus dependent rebuilds"
+      ]
+    },
+    {
+      "id": "C",
+      "name": "declare the cell unknowable and record an explicit precinct-level exclusion",
+      "requires": [
+        "an authorized repair changing stored output; the aggregate would equal neither K52 nor K53"
+      ]
+    }
+  ],
+  "disposition_decided": false,
+  "report_evidence": "project_docs/audits/MORGAN_1994_FRACTIONAL_CELL_QUARANTINE_2026_09_10.md",
+  "field_notes": {
+    "consumer.guard_status": "refuses = a refusal covers the consumed slice; unguarded = the cell is read without refusal; view_excludes = a stored view already excludes/flags it for that consumer; not_reached = the cell is outside the consumed value path.",
+    "consumer.raw_read_includes_cell": "true where the script's SQL fetches the cell even though it may be filtered before aggregation (see build_historical_federal_baselines.py).",
+    "cached_artifacts.producer_refuses_now": "Raw-source refusal only, for producers that read vote_observations directly. Producers that read derived CSVs (fit_preliminary_war_model.py, rebuild_cmo_candidate_quality_v5.py) report false and are blocked only once their input-producing stage is repaired.",
+    "cached_artifacts.predates_refusal": "Computed against 2026-09-08T00:00:00Z, the date the five guarded boundaries in WAREHOUSE_COMPLETION_REPAIRS_2026_09_08.md were added; the 1994 baseline guard is an uncommitted working-tree change observed 2026-09-10.",
+    "warehouse.sha256_computed": "The 5.8 GB database file was not hashed; it was opened read-only with PRAGMA query_only=ON for every query.",
+    "stored_observation.rowid_stable": "rowid is not a durable identifier; it can be reassigned by a source-layer rewrite."
+  }
+}

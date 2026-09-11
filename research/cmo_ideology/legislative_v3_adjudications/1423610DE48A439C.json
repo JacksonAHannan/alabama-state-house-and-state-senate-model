@@ -1,0 +1,10 @@
+{
+  "id": "1423610DE48A439C",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Adding Hepatitis C to definitions of infected healthcare workers is a definitional/technical update with no clear policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

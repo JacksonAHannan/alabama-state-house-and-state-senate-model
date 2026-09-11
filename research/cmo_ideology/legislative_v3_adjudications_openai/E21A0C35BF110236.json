@@ -1,0 +1,10 @@
+{
+  "id": "E21A0C35BF110236",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The measure authorizes a county administrative fee for renewal services and does not establish a position on any listed business-regulation axis.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "social_security_invest_stocks_bonds",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option proposes shifting Social Security investments from safe U.S. Treasury bonds to riskier stocks and bonds.",
+  "evidence_quote": "c) Invest a portion of Social Security's assets collectively in stocks and bonds instead of U.S. Treasury securities.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

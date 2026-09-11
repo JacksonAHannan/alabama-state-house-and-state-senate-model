@@ -1,0 +1,10 @@
+{
+  "id": "BE26438218D1C1CB",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Omnibus election measure covering provisional voting, voter information, absentee voting, canvassing, polling hours, and repeals; its provisions are too broad and directionally mixed.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

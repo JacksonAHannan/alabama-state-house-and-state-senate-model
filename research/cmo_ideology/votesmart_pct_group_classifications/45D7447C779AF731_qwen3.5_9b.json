@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_border_security",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "This option assigns primary responsibility for border security to the federal government rather than state or local levels. In American political discourse, strong federal control over immigration and borders is a conventional conservative position; however, this specific question format (selecting one level) without additional context on funding mechanisms or enforcement methods makes it procedurally neutral regarding ideology.",
+  "evidence_quote": "1) Border security",
+  "needs_human_review": false,
+  "review_reason": ""
+}

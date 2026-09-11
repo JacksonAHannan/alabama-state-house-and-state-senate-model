@@ -1,0 +1,59 @@
+{
+  "status": "accepted_scoped_identity_repair_not_project_completion",
+  "build_run_id": "RUN-986CDF1CB3CE44468E5C8218E7DB555D",
+  "previous_run": "RUN-38DC9E26D9E24097A415038621E293EE",
+  "profile": "sos-office-labels",
+  "stage": "data/processed/elections/precinct_identity_stage_sos_offices_20260907",
+  "stage_manifest_sha256": "e08a156ba3afd00dabd8d7664b54956dc17da775d0a3abe093e189c6d8c0ba3b",
+  "stage_code_sha256": "a7987c7b460785176b873c62b61a5d136b2b8f9a6cd5311f1d2e197426cc4baf",
+  "apply_code_sha256": "f4c66829dca61a9da2641e07047adaba97e221257d1a3f3c2a1b351fa1ca1945",
+  "changed_fingerprint_node_ids": 72,
+  "all_node_records_preserved": 45132,
+  "new_or_retired_ids": 0,
+  "affected_suggestions_unaccepted": 43,
+  "affected_nodes_without_suggestion": 29,
+  "geography_tables_unchanged": 5,
+  "accepted_direct_geography_links_preserved": 5,
+  "source_transfers_revoked": 0,
+  "backup": "data/processed/elections/backups/pre-sos-office-identity-2026-09-07.sqlite",
+  "backup_bytes": 5780963328,
+  "backup_validation": "quick_check ok; owned-table and source snapshot parity before commit",
+  "application_report": "data/processed/elections/backups/pre-sos-office-identity-2026-09-07.sqlite.application.json",
+  "application_report_sha256": "d7b80df6e757ea4453e5a16c8e24c0174cc11d75b22ba5f560bb081600764713",
+  "exports_status": "complete",
+  "exports": {
+    "precinct_link_review.csv": {"rows": 10297, "sha256": "cfae40f7e83dc57a025e11808ef8ded7beac4655d71a7a390afa8f949fb32128"},
+    "precinct_geography_review.csv": {"rows": 8228, "sha256": "ffd23b33b8a63bf02f3008b2db929770d1f074f04dd88d93776f69f68e751fb1"}
+  },
+  "post_commit_tables_checked": 119,
+  "changed_counts": {
+    "precinct_vote_fingerprints": [1076230, 1076275],
+    "qa_warehouse_source_repair": [49, 50],
+    "warehouse_build_run": [117, 118]
+  },
+  "schema_unchanged": true,
+  "old_control_rows_preserved": true,
+  "foreign_key_violations": 0,
+  "source_rows_unchanged": 2184861,
+  "source_sha256": "901c8c8e1ca45b81c39dc1e453170602489dfb11f916dcecb88746e8cc0c02cc",
+  "source_digest_contract": "SHA256 compact UTF-8 JSON arrays of rowid plus all SQLite columns, ensure_ascii=false; ORDER BY rowid; newline per row",
+  "protected_tables_matched_backup": [
+    "warehouse_source_file", "canonical_candidates", "candidate_aliases",
+    "candidate_alias_match_candidates", "candidate_party_affiliations",
+    "canonical_southern_legislative_candidate_election", "mart_southern_war_outcome",
+    "bridge_southern_finance_candidate_identity"
+  ],
+  "tests": {
+    "command": ".venv/Scripts/python.exe -m pytest --testmon --testmon-noselect scripts/tests/test_sos_office_identity_profile.py scripts/tests/test_apply_precinct_identity_repair.py scripts/tests/test_precinct_identity.py -q",
+    "TESTMON_DATAFILE": "%TEMP%/sos-office-identity-profile-worker.testmon.sqlite",
+    "passed": 32, "seconds": 9.17, "warnings": 0, "skips": 0, "deselections": 0
+  },
+  "independent_reviews": {"code": "PASS", "actual_stage": "PASS", "post_commit": "PASS"},
+  "not_certified": [
+    "Unresolved source identity suggestions and source-cell collisions",
+    "Fractional Morgan source observation",
+    "Historical allocations, baselines and unrelated 2008 reconstruction",
+    "Analytical outputs and publication",
+    "Full repository suite or browser verification"
+  ]
+}

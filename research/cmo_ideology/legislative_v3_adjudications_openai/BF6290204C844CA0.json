@@ -1,0 +1,10 @@
+{
+  "id": "BF6290204C844CA0",
+  "decision": "map",
+  "primitive_axis": "education_access",
+  "policy_pole": "expand",
+  "confidence": "medium",
+  "rationale": "Requires tutoring programs for public-school students performing below average, expanding access to additional educational support.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

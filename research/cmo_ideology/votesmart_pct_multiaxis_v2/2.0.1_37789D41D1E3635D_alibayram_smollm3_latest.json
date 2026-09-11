@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "welfare_policy",
+  "plain_english_policy": "Supports limits on political action committee (PAC) contributions for state candidates.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Limits PAC contributions to reduce the influence of special interest groups on state politics."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I believe that we need to limit the amount of money that can be contributed by political action committees and other special interests in order to ensure that our elected officials are truly representing the people they were elected to serve.\" - Candidate's statement on campaign finance reform.",
+  "needs_human_review": true,
+  "review_reason": "The policy is described as supporting limits on PAC contributions, which aligns with a restriction of welfare policy."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "abortion_viability_criminalization",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Abortions should be banned once the fetus can survive outside the womb, regardless of medical circumstances.",
+  "evidence_quote": "Abortions should be illegal when the fetus is viable, with or without life support.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -8,6 +8,7 @@ from __future__ import annotations
 
 from pathlib import Path
 import pandas as pd
+from legiscan_eligibility import read_member_votes, read_roll_calls
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -17,6 +18,7 @@ DATA = ROOT / "data" / "processed" / "legislative"
 
 def main() -> None:
     queue = pd.read_csv(RESEARCH / "legislative_issue_bill_review_queue.csv", keep_default_na=False)
+    queue = queue[queue.roll_call_id.isin(read_roll_calls().roll_call_id)].copy()
     bills = pd.read_csv(DATA / "legiscan_alabama_bills.csv", keep_default_na=False)
     queue = queue.merge(
         bills[["bill_id", "url", "state_link"]].rename(
@@ -35,7 +37,7 @@ def main() -> None:
             codes, on="roll_call_id", how="left"
         ).fillna("")
     crosswalk = pd.read_csv(RESEARCH / "focal_legislator_identity_crosswalk.csv", keep_default_na=False)
-    votes = pd.read_csv(DATA / "legiscan_alabama_individual_votes.csv")
+    votes = read_member_votes()
     approved = queue[
         queue.substantive_vote.astype(str).str.lower().isin(["true", "yes", "1"])
         & queue.human_issue_code.ne("") & queue.review_status.eq("reviewed")

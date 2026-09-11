@@ -1,0 +1,14 @@
+recorded_individual_rollcall,archive_disposition,text_available,bills
+False,no_recorded_individual_rollcall,False,178
+False,no_recorded_individual_rollcall,True,19544
+True,insufficient_text,False,8
+True,insufficient_text,True,212
+True,local_non_generalizable,True,2461
+True,map,False,1
+True,map,True,2566
+True,mixed_no_scalar_direction,True,268
+True,multi_axis,True,338
+True,procedural,False,94
+True,procedural,True,2976
+True,symbolic,False,4
+True,symbolic,True,183

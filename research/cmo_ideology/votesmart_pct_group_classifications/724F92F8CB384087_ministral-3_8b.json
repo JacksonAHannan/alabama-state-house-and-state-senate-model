@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_nasa_funding",
+  "dimension": "government_reform_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase or maintain federal funding for NASA programs, including research, exploration, and aerospace technology.",
+  "evidence_quote": "I support **maintaining or increasing** federal funding for NASA to ensure continued leadership in space exploration and technological innovation. Block grants are not appropriate here due to the national security and scientific priorities involved.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

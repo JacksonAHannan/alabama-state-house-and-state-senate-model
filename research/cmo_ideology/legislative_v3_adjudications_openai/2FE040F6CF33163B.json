@@ -1,0 +1,10 @@
+{
+  "id": "2FE040F6CF33163B",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Changes school-level purchasing and allocation procedures for instructional support, an administrative and technical funding-process measure without a clear allowed education pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

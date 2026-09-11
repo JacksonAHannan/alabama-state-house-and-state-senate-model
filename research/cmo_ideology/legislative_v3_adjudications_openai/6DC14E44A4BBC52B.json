@@ -1,0 +1,10 @@
+{
+  "id": "6DC14E44A4BBC52B",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns State Personnel Board terms, Senate confirmation, and hearing procedures without fitting an allowed campaign, constitutional-reform, or institutional-control axis.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

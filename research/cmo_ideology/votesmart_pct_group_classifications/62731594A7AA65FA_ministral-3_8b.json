@@ -1,0 +1,11 @@
+{
+  "policy_key": "strengthen_emission_controls",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase regulations on vehicle emissions to reduce pollution from cars, trucks, and SUVs.",
+  "evidence_quote": "Strengthen emission controls on all gasoline or diesel-powered engines, including cars, trucks, and sport utility vehicles.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

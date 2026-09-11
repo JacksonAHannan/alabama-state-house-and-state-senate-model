@@ -1,0 +1,18 @@
+{
+  "primary_domain": "business",
+  "policy_key": "market_governance",
+  "plain_english_policy": "intervention",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "secundary"
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "n) Increase state funding for additional security of critical infrastructure against terrorist attacks.",
+  "needs_human_review": true,
+  "review_reason": "The policy option is about increasing government spending on security measures. This suggests a focus on market intervention to address crime."
+}

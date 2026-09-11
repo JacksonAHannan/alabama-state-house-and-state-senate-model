@@ -1,0 +1,10 @@
+{
+  "id": "4849CB961FC73BC2",
+  "decision": "map",
+  "primitive_axis": "education_curriculum_traditionalism",
+  "policy_pole": "traditional",
+  "confidence": "high",
+  "rationale": "Requires biological-sex-based facilities and limits classroom instruction concerning sexual orientation or gender identity.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

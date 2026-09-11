@@ -1,0 +1,11 @@
+{
+  "policy_key": "income_tax_bracket_cap",
+  "dimension": "indeterminate",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Limiting tax bracket thresholds to $25K\u2013$75K (no explicit rate change)",
+  "evidence_quote": "**b) $25,000 \u2013 $75,000**",
+  "needs_human_review": true,
+  "review_reason": "Neither progressive nor conservative without knowing the proposed tax *rates* or whether this is a bracket *expansion* (progressive) or *reduction* (conservative)."
+}

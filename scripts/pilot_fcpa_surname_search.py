@@ -29,11 +29,25 @@ def surname(name: object) -> str:
     return tokens[-1] if tokens else ""
 
 
-def search(last_name: str) -> tuple[list[dict],str]:
+def search(last_name: str, first_name: str | None = None) -> tuple[list[dict],str]:
+    """Search FCPA principal committees, optionally narrowing a capped surname query.
+
+    The public endpoint returns at most 100 rows in this workflow.  Common
+    surnames can therefore omit an otherwise exact candidate.  Supplying a
+    first name adds an official search criterion without changing existing
+    surname-only callers.
+    """
     criteria=[
       {"field_key":"candidateLastName","comparison_type":"like","comparison_value_1":last_name},
-      {"field_key":"committeeType","comparison_type":"equalTo","comparison_value_1":"1"},
     ]
+    if first_name:
+        criteria.append({
+            "field_key":"candidateFirstName", "comparison_type":"like",
+            "comparison_value_1":first_name,
+        })
+    criteria.append(
+      {"field_key":"committeeType","comparison_type":"equalTo","comparison_value_1":"1"}
+    )
     params={"page":"com.acf.common.page.committeesearchresults","pageNumber":1,"pageSize":100,
             "sortDirection":"ASC","sortBy":"candidateLastName",
             "criteria":json.dumps(criteria,separators=(",",":"))}
@@ -42,7 +56,8 @@ def search(last_name: str) -> tuple[list[dict],str]:
                                                 "Accept":"application/json","Referer":REFERER})
     with urllib.request.urlopen(request,timeout=60) as response:
         payload=json.load(response)
-    if not payload.get("success"):raise RuntimeError(f"FCPA search failed for {last_name}")
+    if not payload.get("success"):
+        raise RuntimeError(f"FCPA search failed for {first_name or ''} {last_name}".strip())
     return payload["data"]["list"],url
 
 

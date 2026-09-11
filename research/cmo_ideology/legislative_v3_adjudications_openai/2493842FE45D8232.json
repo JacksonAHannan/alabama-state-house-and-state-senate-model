@@ -1,0 +1,10 @@
+{
+  "id": "2493842FE45D8232",
+  "decision": "map",
+  "primitive_axis": "education_accountability",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Requiring cameras in certain special-education classrooms creates a concrete monitoring and oversight requirement for schools.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

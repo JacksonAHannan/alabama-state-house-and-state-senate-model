@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_ranching_fees",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option proposes increasing fees for cattle grazing on federal lands. This is conventionally viewed as a progressive environmental policy because it seeks to reduce commercial exploitation of public resources and often aligns with conservationist goals that favor stricter regulation or cost-shifting onto extractive industries over traditional ranching interests.",
+  "evidence_quote": "f) Increase fees charged to ranchers who graze cattle on federal lands.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_medical_malpractice_limits",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Limiting punitive damages in medical malpractice cases is generally considered a pro-business and conservative policy stance that aims to reduce liability costs for healthcare providers.",
+  "evidence_quote": "f) Establish limits on the amount of punitive damages awarded in medical malpractice lawsuits.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

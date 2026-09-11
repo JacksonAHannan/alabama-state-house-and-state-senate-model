@@ -28,6 +28,36 @@ NOT APPROVED) is preserved byte for byte under
 `data/processed/war/post2016_southern_war_v3_archive/`. Approval is descriptive
 historical use only; publication of `docs/` remains a separate authorized action.
 
+Since 2026-09-10 every publication-writing route above checks its declared
+inputs before reading model rows (`scripts/southern_war_release_gate.py`):
+`build_alabama_war_v1.py` and `build_alabama_historical_war_v1.py` require the
+approved v3 decision and an Alabama v1 export derived from that run;
+`build_war_story_page.py` and `build_democratic_transition_page_v2.py` call
+`require_alabama_historical_release`, which requires the historical export's
+declared files to be unchanged and its Southern and Alabama sources to be the
+approved and published runs; `build_2026_forecast_dashboard.py` requires every
+declared forecast input to match disk. Refusals name the file or run ids
+(`Declared manifest file changed: <path>`, `… derives from <run>, not approved
+<run>`). The gate also honors `accepted_input_revisions` in the decision file:
+an explicit, independently reviewed statement that one declared input changed
+bytes after approval without changing what the run consumed, matched only on
+the exact old and new digests and the review record's hash. The first such
+entry (2026-09-10) covers the warehouse file after the metadata-only runs
+`RUN-91B2A0C3…`/`RUN-55E4997B…`, supported by a byte-identical scratch replay
+and `audits/SOUTHERN_V3_INPUT_REVISION_REVIEW_2026_09_10.md`. File existence,
+a newer version, or an environment flag never satisfy a gate.
+
+Current route status (2026-09-11, `audits/SITE_RELEASE_2026_09_11.md`): the
+approved Southern residual source is `WAR-POST2016-V3-530FBD4238CC483E557C`
+(warehouse `RUN-504CE4C4DF904D88A5A40D268F3FCEAB`); its manifest declares the
+warehouse by training-frame content digest (`training_frame`, verified live by
+the gate) rather than whole-file hash, so unrelated warehouse writes no longer
+trip the release gate. All four pages were republished on this lineage:
+`WAR-SOUTH-HIST-V1-6D84680E7B757B057AF1`, `AL-WAR-V1-C00FF05BC2BE58E16087`,
+`AL-HIST-WAR-V1-76814789B2F7641E4255`, forecast build `368bb272a990ff436e56`.
+Superseded runs `4AF79A70…` and `A937708D…` are archived byte for byte.
+`build_war_story_page.py --artifact-only` renders without writing `docs/`.
+
 The Alabama certified-canvass integration that unblocked the route is recorded in
 `coordination/SOUTHERN-WAR-COMPLETION-20260908.md` and
 `audits/ALABAMA_CERTIFIED_CANONICAL_REPAIR_2026_09_08.md`: the 2018 certified

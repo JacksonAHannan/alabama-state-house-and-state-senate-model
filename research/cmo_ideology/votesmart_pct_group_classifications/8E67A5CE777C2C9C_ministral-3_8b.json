@@ -1,0 +1,11 @@
+{
+  "policy_key": "alternative_energy_funding",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "State investment in renewable energy sources like solar, wind, or other alternatives to fossil fuels.",
+  "evidence_quote": "*[No direct quote provided in the prompt\u2014this is a generic example of how such an option would be classified. In practice, you would copy verbatim from the candidate\u2019s questionnaire.]*",
+  "needs_human_review": true,
+  "review_reason": "The question lacks context (e.g., specific energy sources or funding mechanisms), but *supporting* this position conventionally aligns with progressive environmental priorities. If the option included qualifiers (e.g., \u2018only if cost-neutral\u2019), it might be scored as 0."
+}

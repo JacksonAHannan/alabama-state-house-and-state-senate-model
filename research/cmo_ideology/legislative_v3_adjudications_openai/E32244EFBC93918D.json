@@ -1,0 +1,10 @@
+{
+  "id": "E32244EFBC93918D",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Allowing jointly managed hospitals to operate under a single license is a technical licensing and administrative change without a clear allowed healthcare policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

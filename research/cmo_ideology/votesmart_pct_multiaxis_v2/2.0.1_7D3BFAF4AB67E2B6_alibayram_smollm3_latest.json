@@ -1,0 +1,18 @@
+{
+  "primary_domain": "criminal_justice",
+  "policy_key": "family_support_enforcement",
+  "plain_english_policy": "strict_enforcement",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Enforcing federal immigration laws by state and local police is a restriction on the rights of immigrants, which falls under welfare policy."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I support the enforcement of federal immigration laws by state and local police.\" - Candidate's statement in 2014 crime & public safety issues questionnaire.",
+  "needs_human_review": true,
+  "review_reason": "The policy is described as strict enforcement, which implies a restriction on certain rights."
+}

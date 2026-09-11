@@ -1,0 +1,10 @@
+{
+  "id": "5B0C0036916F996B",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "restrict",
+  "confidence": "high",
+  "rationale": "Requiring sheriffs to check criminal-history databases before determining whether firearm possession is lawful supports restricting access for persons prohibited from possessing firearms.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

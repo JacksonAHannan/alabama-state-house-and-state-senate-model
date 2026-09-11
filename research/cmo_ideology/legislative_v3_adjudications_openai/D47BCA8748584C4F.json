@@ -1,0 +1,10 @@
+{
+  "id": "D47BCA8748584C4F",
+  "decision": "map",
+  "primitive_axis": "environmental_protection",
+  "policy_pole": "weaken",
+  "confidence": "high",
+  "rationale": "Exempts sport-shooting ranges from nuisance actions, criminal prosecution, and applicable noise and lead-pollution ordinances, reducing environmental protections.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

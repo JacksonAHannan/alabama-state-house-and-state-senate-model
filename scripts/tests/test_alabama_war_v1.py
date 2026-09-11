@@ -27,12 +27,23 @@ def test_alabama_war_is_complete_residual_filter():
 
 
 def test_grimsley_is_unpooled_race_residual():
+    races = pd.read_csv(OUT / "race_war.csv")
     candidates = pd.read_csv(OUT / "candidate_cycle_war.csv")
-    grimsley = candidates[
+    grimsley_2018 = candidates[
         candidates.candidate_name.eq("Dexter Grimsley") & candidates.canonical_party.eq("D")
     ].squeeze()
-    assert abs(grimsley.candidate_cycle_war - 13.295433950839808) < 1e-10
-    assert grimsley.score_identification == "race_differential_party_orientation"
+    race_2018 = races[
+        races.cycle.eq(2018) & races.chamber.eq("lower") & races.district.eq(85)
+    ].squeeze()
+    race_2022 = races[
+        races.cycle.eq(2022) & races.chamber.eq("lower") & races.district.eq(85)
+    ].squeeze()
+    assert abs(grimsley_2018.candidate_cycle_war - race_2018.war) < 1e-10
+    assert grimsley_2018.score_identification == "race_differential_party_orientation"
+    assert race_2022.dem_incumbent == 1
+    assert race_2022.rep_incumbent == 0
+    assert abs(race_2022.war - (race_2022.raw_gap - race_2022.fitted_structural_expected_gap)) < 1e-10
+    assert 18 < race_2022.war < 21
 
 
 def test_alabama_war_manifest_hashes_outputs():

@@ -69,6 +69,25 @@ def test_prior_winner_roster_overlays_missing_incumbent_annotation():
     assert bool(result.loc[result.canonical_party.eq("D"),"incumbent"].iloc[0])
     assert not bool(result.loc[result.canonical_party.eq("R"),"incumbent"].iloc[0])
 
+def test_exact_race_party_roster_resolves_opaque_2022_ballot_code():
+    canonical=pd.DataFrame([
+        {"year":2022,"chamber":"house","district":85,"canonical_party":"D",
+         "canonical_name":"GSL085DGRI",
+         "canonical_candidate_id":"AL-2022-house-85-D-GSL085DGRI","incumbent":False},
+        {"year":2022,"chamber":"house","district":85,"canonical_party":"R",
+         "canonical_name":"GSL085RREH",
+         "canonical_candidate_id":"AL-2022-house-85-R-GSL085RREH","incumbent":False},
+    ])
+    roster=pd.DataFrame([
+        {"cycle":2022,"chamber":"house","district":85,
+         "incumbent_candidate":"Dexter Grimsley","incumbent_party":"D"}
+    ])
+
+    result=apply_incumbency_roster(canonical,roster)
+
+    assert bool(result.loc[result.canonical_party.eq("D"),"incumbent"].iloc[0])
+    assert not bool(result.loc[result.canonical_party.eq("R"),"incumbent"].iloc[0])
+
 def test_validated_transition_accepts_middle_name_expansion_not_shared_first_name():
     canonical=pd.DataFrame([
         {"year":2022,"chamber":"house","district":32,"canonical_party":"D",
@@ -88,3 +107,19 @@ def test_validated_transition_accepts_middle_name_expansion_not_shared_first_nam
 
     assert bool(result.loc[result.canonical_name.eq("Barbara Bigsby Boyd"),"incumbent"].iloc[0])
     assert not bool(result.loc[result.canonical_name.eq("Barbara Smith"),"incumbent"].iloc[0])
+
+def test_validated_transition_decodes_opaque_2022_candidate_label():
+    canonical=pd.DataFrame([
+        {"year":2022,"chamber":"house","district":32,"canonical_party":"D",
+         "canonical_name":"GSL032DBOY",
+         "canonical_candidate_id":"AL-2022-house-32-D-GSL032DBOY","incumbent":False},
+    ])
+    transitions=pd.DataFrame([
+        {"cycle":2022,"chamber":"house","prior_party":"D",
+         "current_incumbent_match":"Barbara Boyd",
+         "transition_status":"continuing_incumbent"}
+    ])
+
+    result=apply_validated_incumbency_transitions(canonical,transitions)
+
+    assert bool(result.iloc[0].incumbent)

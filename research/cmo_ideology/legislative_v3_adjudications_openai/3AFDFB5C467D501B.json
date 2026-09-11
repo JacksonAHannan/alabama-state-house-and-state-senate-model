@@ -1,0 +1,10 @@
+{
+  "id": "3AFDFB5C467D501B",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The measure creates an enhanced assault offense for harm involving healthcare workers, which is criminal-justice policy rather than a concrete policy under the permitted healthcare axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

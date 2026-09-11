@@ -1,0 +1,826 @@
+state,chamber,district_2022,prior_year,prior_party,prior_candidate,normalized_name,normalized_surname,uncont,exper,candid
+TX,upper,31.0,2022,R,"sparks, kevin",KEVIN SPARKS,SPARKS,1,none,419072
+TX,upper,30.0,2022,R,"springer, drew",DREW SPRINGER,SPRINGER,1,other,225762
+TX,upper,29.0,2022,D,"blanco, cesar j",CESAR J BLANCO,BLANCO,0,inc,333684
+TX,upper,13.0,2022,D,"miles, borris l",BORRIS L MILES,MILES,1,inc,280440
+TX,upper,12.0,2022,R,"parker, tan",TAN PARKER,PARKER,0,other,280265
+TX,upper,11.0,2022,R,"middleton, mayes",MAYES MIDDLETON,MIDDLETON,1,other,389586
+TX,upper,10.0,2022,R,"king, phil",PHIL KING,KING,1,other,225626
+TX,upper,9.0,2022,R,"hancock, kelly",KELLY HANCOCK,HANCOCK,0,inc,280316
+TX,upper,8.0,2022,R,"paxton, angela",ANGELA PAXTON,PAXTON,0,inc,389827
+TX,upper,7.0,2022,R,"bettencourt, paul",PAUL BETTENCOURT,BETTENCOURT,1,inc,333511
+TX,upper,6.0,2022,D,"alvarado, carol",CAROL ALVARADO,ALVARADO,1,inc,292244
+TX,upper,5.0,2022,R,"schwertner, charles",CHARLES SCHWERTNER,SCHWERTNER,1,inc,305694
+TX,upper,4.0,2022,R,"creighton, c brandon",C BRANDON CREIGHTON,CREIGHTON,0,inc,280173
+TX,upper,3.0,2022,R,"nichols, robert",ROBERT NICHOLS,NICHOLS,0,inc,280112
+TX,upper,2.0,2022,R,"hall, bob",BOB HALL,HALL,0,inc,333503
+TX,upper,1.0,2022,R,"hughes, bryan",BRYAN HUGHES,HUGHES,1,inc,224846
+TX,lower,150.0,2022,R,"swanson, valoree",VALOREE SWANSON,SWANSON,0,inc,376207
+TX,lower,149.0,2022,D,"vo, hubert",HUBERT VO,VO,0,inc,268813
+TX,lower,148.0,2022,D,"moralesshaw, penny",PENNY MORALESSHAW,MORALESSHAW,0,inc,403785
+TX,lower,147.0,2022,D,"jones, jolanda",JOLANDA JONES,JONES,1,none,419009
+TX,lower,146.0,2022,D,"thierry, shawn n",SHAWN N THIERRY,THIERRY,1,inc,376199
+TX,lower,145.0,2022,D,"morales, christina",CHRISTINA MORALES,MORALES,0,inc,403779
+TX,lower,144.0,2022,D,"perez, mary a",MARY A PEREZ,PEREZ,1,inc,319861
+TX,lower,143.0,2022,D,"hernandez, ana l",ANA L HERNANDEZ,HERNANDEZ,1,inc,280432
+TX,lower,142.0,2022,D,"dutton, harold v, jr",HAROLD V DUTTON,DUTTON,1,inc,222302
+TX,lower,141.0,2022,D,"thompson, senfronia 1",SENFRONIA 1 THOMPSON,THOMPSON,1,inc,222286
+TX,lower,140.0,2022,D,"luciowalle, armando l",ARMANDO L LUCIOWALLE,WALLE,1,inc,292234
+TX,lower,139.0,2022,D,"johnson, jarvis d",JARVIS D JOHNSON,JOHNSON,1,inc,376190
+TX,lower,138.0,2022,R,"hull, lacey",LACEY HULL,HULL,0,inc,403769
+TX,lower,137.0,2022,D,"wu, gene",GENE WU,WU,1,inc,319848
+TX,lower,136.0,2022,D,"bucy, john h, iii",JOHN H BUCY,BUCY,0,inc,333811
+TX,lower,135.0,2022,D,"rosenthal, jon e",JON E ROSENTHAL,ROSENTHAL,0,inc,389787
+TX,lower,134.0,2022,D,"johnson, ann",ANN JOHNSON,JOHNSON,0,inc,319840
+TX,lower,133.0,2022,R,"deayala, mano",MANO DEAYALA,DEAYALA,0,none,418986
+TX,lower,132.0,2022,R,"schofield, mike",MIKE SCHOFIELD,SCHOFIELD,0,inc,333801
+TX,lower,131.0,2022,D,"allen, alma a",ALMA A ALLEN,ALLEN,0,inc,268785
+TX,lower,130.0,2022,R,"oliverson, tom",TOM OLIVERSON,OLIVERSON,1,inc,376174
+TX,lower,129.0,2022,R,"paul, dennis",DENNIS PAUL,PAUL,0,inc,333790
+TX,lower,128.0,2022,R,"cain, briscoe",BRISCOE CAIN,CAIN,0,inc,333786
+TX,lower,127.0,2022,R,"cunningham, charles",CHARLES CUNNINGHAM,CUNNINGHAM,1,none,418975
+TX,lower,126.0,2022,R,"harless, e sam",E SAM HARLESS,HARLESS,1,inc,389765
+TX,lower,125.0,2022,D,"lopez, ray",RAY LOPEZ,LOPEZ,0,inc,403739
+TX,lower,124.0,2022,D,"garcia, josey",JOSEY GARCIA,GARCIA,0,none,418971
+TX,lower,123.0,2022,D,"bernanl, diego",DIEGO BERNANL,BERNAL,0,inc,376162
+TX,lower,122.0,2022,R,"dorazio, mark",MARK DORAZIO,DORAZIO,0,none,418966
+TX,lower,121.0,2022,R,"allison, steve",STEVE ALLISON,ALLISON,0,inc,389755
+TX,lower,120.0,2022,D,"gervinhawkins, barbara",BARBARA GERVINHAWKINS,GERVINHAWKINS,0,inc,376158
+TX,lower,119.0,2022,D,"campos, elizabeth (liz)",ELIZABETH LIZ CAMPOS,CAMPOS,1,inc,403726
+TX,lower,118.0,2022,R,"lujan, john",JOHN LUJAN,LUJAN,0,none,376155
+TX,lower,117.0,2022,D,"cortez, philip",PHILIP CORTEZ,CORTEZ,0,inc,319809
+TX,lower,116.0,2022,D,"martinezfischer, trey",TREY MARTINEZFISCHER,MARTINEZFISCHER,1,inc,221489
+TX,lower,115.0,2022,D,"johnson, julie",JULIE JOHNSON,JOHNSON,0,inc,389744
+TX,lower,114.0,2022,D,"bryant, john",JOHN BRYANT,BRYANT,0,pastinc,227715
+TX,lower,113.0,2022,D,"andrewsbowers, rhetta",RHETTA ANDREWSBOWERS,BOWERS,1,inc,376144
+TX,lower,112.0,2022,R,"chenbutton, angie c",ANGIE C CHENBUTTON,CHENBUTTON,0,inc,292180
+TX,lower,111.0,2022,D,"davis, yvonne",YVONNE DAVIS,DAVIS,0,inc,221375
+TX,lower,110.0,2022,D,"rose, toni",TONI ROSE,ROSE,1,inc,319797
+TX,lower,109.0,2022,D,"sherman, carl",CARL SHERMAN,SHERMAN,1,inc,389735
+TX,lower,108.0,2022,R,"meyer, morgan",MORGAN MEYER,MEYER,0,inc,333751
+TX,lower,107.0,2022,D,"neave, victoria",VICTORIA NEAVE,NEAVECRIADO,1,inc,376133
+TX,lower,106.0,2022,R,"patterson, jared",JARED PATTERSON,PATTERSON,1,inc,333761
+TX,lower,105.0,2022,D,"meza, thresa (terry)",THRESA TERRY MEZA,MEZA,0,inc,333738
+TX,lower,104.0,2022,D,"gonzalez, jessica",JESSICA GONZALEZ,GONZALEZ,1,inc,389725
+TX,lower,103.0,2022,D,"anchia, rafael m",RAFAEL M ANCHIA,ANCHIA,1,inc,268743
+TX,lower,102.0,2022,D,"ramos, anamaria",ANAMARIA RAMOS,RAMOS,0,inc,389722
+TX,lower,101.0,2022,D,"turner, chris",CHRIS TURNER,TURNER,1,inc,292143
+TX,lower,100.0,2022,D,"jones, venton c",VENTON C JONES,JONES,1,none,418929
+TX,lower,99.0,2022,R,"geren, charlie",CHARLIE GEREN,GEREN,0,inc,227249
+TX,lower,98.0,2022,R,"capriglione, giovanni",GIOVANNI CAPRIGLIONE,CAPRIGLIONE,0,inc,319775
+TX,lower,97.0,2022,R,"goldman, craig",CRAIG GOLDMAN,GOLDMAN,0,inc,319773
+TX,lower,96.0,2022,R,"cook, david",DAVID COOK,COOK,1,inc,403681
+TX,lower,95.0,2022,D,"collier, nicole",NICOLE COLLIER,COLLIER,0,inc,319768
+TX,lower,94.0,2022,R,"tinderholt, tony",TONY TINDERHOLT,TINDERHOLT,0,inc,333720
+TX,lower,93.0,2022,R,"schatzline, nate",NATE SCHATZLINE,SCHATZLINE,0,none,418916
+TX,lower,92.0,2022,D,"bhojani, salman",SALMAN BHOJANI,BHOJANI,0,none,418914
+TX,lower,91.0,2022,R,"klick, stephanie",STEPHANIE KLICK,KLICK,1,inc,319759
+TX,lower,90.0,2022,D,"romero, ramon, jr",RAMON ROMERO,ROMERO,1,inc,333711
+TX,lower,89.0,2022,R,"noble, candy",CANDY NOBLE,NOBLE,1,inc,389692
+TX,lower,88.0,2022,R,"king, ken",KEN KING,KING,1,inc,319756
+TX,lower,87.0,2022,R,"price, four",FOUR PRICE,PRICE,1,inc,305806
+TX,lower,86.0,2022,R,"smithee, john",JOHN SMITHEE,SMITHEE,1,inc,225957
+TX,lower,85.0,2022,R,"kitzman, stan",STAN KITZMAN,KITZMAN,0,none,418905
+TX,lower,84.0,2022,R,"tepper, carl",CARL TEPPER,TEPPER,1,none,418902
+TX,lower,83.0,2022,R,"burrows, dustin",DUSTIN BURROWS,BURROWS,1,inc,354028
+TX,lower,82.0,2022,R,"craddick, tom",TOM CRADDICK,CRADDICK,1,inc,226038
+TX,lower,81.0,2022,R,"landgraf, brooks",BROOKS LANDGRAF,LANDGRAF,1,inc,333696
+TX,lower,80.0,2022,D,"king, tracy o",TRACY O KING,KING,1,inc,224457
+TX,lower,79.0,2022,D,"ordazperez, claudia",CLAUDIA ORDAZPEREZ,ORDAZPEREZ,1,inc,403645
+TX,lower,78.0,2022,D,"moody, joseph e 2",JOSEPH E 2 MOODY,MOODY,1,inc,292109
+TX,lower,77.0,2022,D,"ortega, evelina (lina)",EVELINA LINA ORTEGA,ORTEGA,1,inc,376083
+TX,lower,76.0,2022,D,"lalani, suleman",SULEMAN LALANI,LALANI,0,none,418894
+TX,lower,75.0,2022,D,"gonzalez, mary e",MARY E GONZALEZ,GONZALEZ,1,inc,319739
+TX,lower,74.0,2022,D,"morales, eddie",EDDIE MORALES,MORALES,0,inc,403642
+TX,lower,73.0,2022,R,"isaac, carrie",CARRIE ISAAC,ISAAC,0,none,403587
+TX,lower,72.0,2022,R,"darby, drew",DREW DARBY,DARBY,1,inc,280283
+TX,lower,71.0,2022,R,"lambert, stan",STAN LAMBERT,LAMBERT,0,inc,376076
+TX,lower,70.0,2022,D,"plesa, mihaela e",MIHAELA E PLESA,PLESA,0,none,418883
+TX,lower,69.0,2022,R,"frank, james b",JAMES B FRANK,FRANK,0,inc,319731
+TX,lower,68.0,2022,R,"spiller, david",DAVID SPILLER,SPILLER,1,none,418878
+TX,lower,67.0,2022,R,"leach, jeff",JEFF LEACH,LEACH,0,inc,319728
+TX,lower,66.0,2022,R,"shaheen, matt",MATT SHAHEEN,SHAHEEN,0,inc,333669
+TX,lower,65.0,2022,R,"thimesch, kronda",KRONDA THIMESCH,THIMESCH,0,none,403626
+TX,lower,64.0,2022,R,"stucky, lynn",LYNN STUCKY,STUCKY,1,inc,376061
+TX,lower,63.0,2022,R,"bumgarner, ben",BEN BUMGARNER,BUMGARNER,0,none,418869
+TX,lower,62.0,2022,R,"smith, reggie",REGGIE SMITH,SMITH,1,inc,389647
+TX,lower,61.0,2022,R,"frazier, frederick",FREDERICK FRAZIER,FRAZIER,0,none,418866
+TX,lower,60.0,2022,R,"rogers, glenn",GLENN ROGERS,ROGERS,1,inc,403615
+TX,lower,59.0,2022,R,"slawson, shelby",SHELBY SLAWSON,SLAWSON,1,inc,403614
+TX,lower,58.0,2022,R,"burns, dewayne",DEWAYNE BURNS,BURNS,1,inc,333646
+TX,lower,57.0,2022,R,"hayes, richard",RICHARD HAYES,HAYES,1,none,418862
+TX,lower,56.0,2022,R,"anderson, charles (doc)",CHARLES DOC ANDERSON,ANDERSON,0,inc,268673
+TX,lower,55.0,2022,R,"shine, hugh d",HUGH D SHINE,SHINE,0,inc,220442
+TX,lower,54.0,2022,R,"buckley, brad",BRAD BUCKLEY,BUCKLEY,0,inc,389635
+TX,lower,53.0,2022,R,"murr, andrew s",ANDREW S MURR,MURR,0,inc,333635
+TX,lower,52.0,2022,R,"harris, caroline",CAROLINE HARRIS,HARRIS,0,none,418851
+TX,lower,51.0,2022,D,"flores, maria l (lulu)",MARIA L LULU FLORES,FLORES,0,none,418849
+TX,lower,50.0,2022,D,"talarico, james",JAMES TALARICO,TALARICO,0,inc,389632
+TX,lower,49.0,2022,D,"hinojosa, gina",GINA HINOJOSA,HINOJOSA,0,inc,376037
+TX,lower,48.0,2022,D,"howard, donna",DONNA HOWARD,HOWARD,1,inc,280231
+TX,lower,47.0,2022,D,"goodwin, vikki",VIKKI GOODWIN,GOODWIN,0,inc,389624
+TX,lower,46.0,2022,D,"cole, sheryl",SHERYL COLE,COLE,0,inc,389621
+TX,lower,45.0,2022,D,"zwiener, erin",ERIN ZWIENER,ZWIENER,0,inc,389620
+TX,lower,44.0,2022,R,"kuempel, john",JOHN KUEMPEL,KUEMPEL,0,inc,319685
+TX,lower,43.0,2022,R,"lozano, jm m 1",JM M 1 LOZANO,LOZANO,1,inc,305725
+TX,lower,42.0,2022,D,"penaraymond, richard p",RICHARD P PENARAYMOND,RAYMOND,0,inc,224372
+TX,lower,41.0,2022,D,"guerra, robert (bobby)",ROBERT BOBBY GUERRA,GUERRA,0,inc,319681
+TX,lower,40.0,2022,D,"canales, terry 2",TERRY 2 CANALES,CANALES,1,inc,319679
+TX,lower,39.0,2022,D,"martinez, armando m (mando)",ARMANDO M MANDO MARTINEZ,MARTINEZ,0,inc,268648
+TX,lower,38.0,2022,D,"gamez, erin e",ERIN E GAMEZ,GAMEZ,1,none,418823
+TX,lower,37.0,2022,R,"lopez, janie",JANIE LOPEZ,LOPEZ,0,none,418821
+TX,lower,36.0,2022,D,"munoz, sergio, jr 2",SERGIO 2 MUNOZ,MUNOZ,1,inc,308487
+TX,lower,35.0,2022,D,"longoria, oscar",OSCAR LONGORIA,LONGORIA,0,inc,319671
+TX,lower,34.0,2022,D,"herrero, abel",ABEL HERRERO,HERRERO,0,inc,268642
+TX,lower,33.0,2022,R,"holland, justin m",JUSTIN M HOLLAND,HOLLAND,0,inc,354159
+TX,lower,32.0,2022,R,"hunter, todd a",TODD A HUNTER,HUNTER,1,inc,223624
+TX,lower,31.0,2022,R,"guillen, ryan",RYAN GUILLEN,GUILLEN,0,inc,223550
+TX,lower,30.0,2022,R,"morrison, geanie w",GEANIE W MORRISON,MORRISON,1,inc,223504
+TX,lower,29.0,2022,R,"thompson, ed",ED THOMPSON,THOMPSON,1,inc,319661
+TX,lower,28.0,2022,R,"gates, gary",GARY GATES,GATES,0,inc,403561
+TX,lower,27.0,2022,D,"reynolds, ronald (ron)",RONALD RON REYNOLDS,REYNOLDS,0,inc,305706
+TX,lower,26.0,2022,R,"jetton, jacey",JACEY JETTON,JETTON,0,inc,403557
+TX,lower,25.0,2022,R,"vasut, cody t",CODY T VASUT,VASUT,1,inc,403555
+TX,lower,24.0,2022,R,"bonnen, greg",GREG BONNEN,BONNEN,0,inc,319652
+TX,lower,23.0,2022,R,"leowilson, terri",TERRI LEOWILSON,LEOWILSON,0,none,418798
+TX,lower,22.0,2022,D,"hayes, christian (manuel)",CHRISTIAN MANUEL HAYES,HAYES,0,none,418795
+TX,lower,21.0,2022,R,"phelan, dade",DADE PHELAN,PHELAN,1,inc,333591
+TX,lower,20.0,2022,R,"wilson, terry m",TERRY M WILSON,WILSON,0,inc,375992
+TX,lower,19.0,2022,R,"troxclair, ellen",ELLEN TROXCLAIR,TROXCLAIR,0,none,418790
+TX,lower,18.0,2022,R,"bailes, ernest",ERNEST BAILES,BAILES,1,inc,375989
+TX,lower,17.0,2022,R,"gerdes, stan",STAN GERDES,GERDES,0,none,418788
+TX,lower,16.0,2022,R,"metcalf, will",WILL METCALF,METCALF,1,inc,333576
+TX,lower,15.0,2022,R,"toth, steve",STEVE TOTH,TOTH,0,inc,319640
+TX,lower,14.0,2022,R,"raney, john",JOHN RANEY,RANEY,1,inc,319638
+TX,lower,13.0,2022,R,"orr, angelia",ANGELIA ORR,ORR,0,none,418779
+TX,lower,12.0,2022,R,"kacal, kyle j",KYLE J KACAL,KACAL,1,inc,319634
+TX,lower,11.0,2022,R,"clardy, travis",TRAVIS CLARDY,CLARDY,1,inc,319632
+TX,lower,10.0,2022,R,"harrison, brian m",BRIAN M HARRISON,HARRISON,1,none,376201
+TX,lower,9.0,2022,R,"ashby, trent",TRENT ASHBY,ASHBY,0,inc,319710
+TX,lower,8.0,2022,R,"harris, cody",CODY HARRIS,HARRIS,1,inc,389556
+TX,lower,7.0,2022,R,"dean, jay",JAY DEAN,DEAN,1,inc,375975
+TX,lower,6.0,2022,R,"schaefer, matt",MATT SCHAEFER,SCHAEFER,0,inc,319625
+TX,lower,5.0,2022,R,"hefner, cole",COLE HEFNER,HEFNER,1,inc,375973
+TX,lower,4.0,2022,R,"bell, keith",KEITH BELL,BELL,1,inc,389549
+TX,lower,3.0,2022,R,"bell, cecil, jr",CECIL BELL,BELL,1,inc,319621
+TX,lower,2.0,2022,R,"slaton, bryan",BRYAN SLATON,SLATON,1,inc,403516
+TX,lower,1.0,2022,R,"vandeaver, gary",GARY VANDEAVER,VANDEAVER,1,inc,333545
+TN,upper,33.0,2022,D,"lamar, london p",LONDON P LAMAR,LAMAR,0,other,389496
+TN,upper,31.0,2022,R,"taylor, brent",BRENT TAYLOR,TAYLOR,0,none,418758
+TN,upper,29.0,2022,D,"akbari, raumesh a",RAUMESH A AKBARI,AKBARI,1,inc,333485
+TN,upper,27.0,2022,R,"johnson, jack",JACK JOHNSON,JOHNSON,1,inc,279943
+TN,upper,25.0,2022,R,"jackson, ed",ED JACKSON,JACKSON,1,inc,333313
+TN,upper,23.0,2022,R,"roberts, kerry",KERRY ROBERTS,ROBERTS,1,inc,333308
+TN,upper,21.0,2022,D,"yarbro, jeff",JEFF YARBRO,YARBRO,1,inc,333301
+TN,upper,19.0,2022,D,"oliver, charlane",CHARLANE OLIVER,OLIVER,0,none,418749
+TN,upper,17.0,2022,R,"pody, mark a",MARK A PODY,PODY,1,inc,305527
+TN,upper,15.0,2022,R,"bailey, paul",PAUL BAILEY,BAILEY,1,inc,212965
+TN,upper,13.0,2022,R,"white, dawn",DAWN WHITE,WHITE,0,inc,319459
+TN,upper,11.0,2022,R,"watson, bo",BO WATSON,WATSON,1,inc,268465
+TN,upper,9.0,2022,R,"southerland, steve",STEVE SOUTHERLAND,SOUTHERLAND,0,inc,212755
+TN,upper,7.0,2022,R,"briggs, richard",RICHARD BRIGGS,BRIGGS,0,inc,333286
+TN,upper,5.0,2022,R,"mcnally, james r (randy)",JAMES R RANDY MCNALLY,MCNALLY,1,inc,213782
+TN,upper,3.0,2022,R,"crowe, rusty",RUSTY CROWE,CROWE,0,inc,305420
+TN,upper,1.0,2022,R,"lowe, j adam",J ADAM LOWE,LOWE,0,none,333358
+TN,lower,99.0,2022,R,"leatherwood, tom",TOM LEATHERWOOD,LEATHERWOOD,1,inc,213666
+TN,lower,98.0,2022,D,"parkinson, antonio",ANTONIO PARKINSON,PARKINSON,1,inc,319556
+TN,lower,97.0,2022,R,"gillespie, john",JOHN GILLESPIE,GILLESPIE,0,inc,403481
+TN,lower,96.0,2022,D,"thompson, dwayne",DWAYNE THOMPSON,THOMPSON,1,inc,333497
+TN,lower,95.0,2022,R,"vaughan, kevin",KEVIN VAUGHAN,VAUGHAN,0,inc,389503
+TN,lower,94.0,2022,R,"gant, ron m",RON M GANT,GANT,1,inc,375930
+TN,lower,93.0,2022,D,"hardaway, goffrey a, sr",GOFFREY A HARDAWAY,HARDAWAY,1,inc,291908
+TN,lower,92.0,2022,R,"warner, todd",TODD WARNER,WARNER,0,inc,403472
+TN,lower,91.0,2022,D,"harris, torrey c",TORREY C HARRIS,HARRIS,1,inc,403469
+TN,lower,90.0,2022,D,"johnson, gloria",GLORIA JOHNSON,JOHNSON,0,inc,319416
+TN,lower,89.0,2022,R,"lafferty, justin",JUSTIN LAFFERTY,LAFFERTY,0,inc,389493
+TN,lower,88.0,2022,D,"miller, larry j",LARRY J MILLER,MILLER,1,inc,218984
+TN,lower,87.0,2022,D,"camper, karen d",KAREN D CAMPER,CAMPER,1,inc,291901
+TN,lower,86.0,2022,D,"cooper, barbara",BARBARA COOPER,COOPER,1,inc,218874
+TN,lower,85.0,2022,D,"chism, jesse",JESSE CHISM,CHISM,1,inc,389489
+TN,lower,84.0,2022,D,"towns, joe, jr",JOE TOWNS,TOWNS,1,inc,218743
+TN,lower,83.0,2022,R,"white, mark",MARK WHITE,WHITE,1,inc,305602
+TN,lower,82.0,2022,R,"hurt, chris",CHRIS HURT,HURT,1,inc,389485
+TN,lower,81.0,2022,R,"moody, debra f",DEBRA F MOODY,MOODY,1,inc,319535
+TN,lower,80.0,2022,D,"shaw, johnny w",JOHNNY W SHAW,SHAW,1,inc,218534
+TN,lower,79.0,2022,R,"martin, brock",BROCK MARTIN,MARTIN,0,none,418705
+TN,lower,78.0,2022,R,"littleton, mary",MARY LITTLETON,LITTLETON,0,inc,319530
+TN,lower,77.0,2022,R,"grills, rusty",RUSTY GRILLS,GRILLS,1,inc,403449
+TN,lower,76.0,2022,R,"darby, tandy",TANDY DARBY,DARBY,1,inc,403448
+TN,lower,75.0,2022,R,"burkhart, jeff",JEFF BURKHART,BURKHART,1,none,418698
+TN,lower,74.0,2022,R,"reedy, jay d",JAY D REEDY,REEDY,1,inc,333458
+TN,lower,73.0,2022,R,"todd, chris",CHRIS TODD,TODD,0,inc,389469
+TN,lower,72.0,2022,R,"haston, kirk",KIRK HASTON,HASTON,1,inc,389466
+TN,lower,71.0,2022,R,"capley, kip",KIP CAPLEY,CAPLEY,0,none,418693
+TN,lower,70.0,2022,R,"doggett, clay",CLAY DOGGETT,DOGGETT,1,inc,389461
+TN,lower,69.0,2022,R,"barrett, jody",JODY BARRETT,BARRETT,0,none,418689
+TN,lower,68.0,2022,R,"johnson, curtis g",CURTIS G JOHNSON,JOHNSON,1,inc,268521
+TN,lower,67.0,2022,D,"glynn, ronnie l",RONNIE L GLYNN,GLYNN,0,none,403502
+TN,lower,66.0,2022,R,"kumar, sabi (doc)",SABI DOC KUMAR,KUMAR,1,inc,333445
+TN,lower,65.0,2022,R,"whitson, sam",SAM WHITSON,WHITSON,1,inc,375833
+TN,lower,64.0,2022,R,"cepicky, scott e",SCOTT E CEPICKY,CEPICKY,0,inc,389446
+TN,lower,63.0,2022,R,"mccalmon, jake",JAKE MCCALMON,MCCALMON,0,none,418678
+TN,lower,62.0,2022,R,"marsh, pat",PAT MARSH,MARSH,1,inc,305561
+TN,lower,61.0,2022,R,"bulso, gino",GINO BULSO,BULSO,0,none,418675
+TN,lower,60.0,2022,D,"jernigan, darren",DARREN JERNIGAN,JERNIGAN,0,inc,319498
+TN,lower,59.0,2022,D,"hemmer, caleb",CALEB HEMMER,HEMMER,0,none,418671
+TN,lower,58.0,2022,D,"love, harold m, jr 2",HAROLD M 2 LOVE,LOVE,1,inc,319494
+TN,lower,57.0,2022,R,"lynn, susan m",SUSAN M LYNN,LYNN,1,inc,217019
+TN,lower,56.0,2022,D,"freeman, bob",BOB FREEMAN,FREEMAN,1,inc,389432
+TN,lower,55.0,2022,D,"rayclemmons, john r",JOHN R RAYCLEMMONS,RAYCLEMMONS,1,inc,333423
+TN,lower,54.0,2022,D,"dixie, vincent",VINCENT DIXIE,DIXIE,1,inc,389429
+TN,lower,53.0,2022,D,"powell, jason",JASON POWELL,POWELL,0,inc,319488
+TN,lower,52.0,2022,D,"jones, justin",JUSTIN JONES,JONES,1,none,418663
+TN,lower,51.0,2022,D,"beck, bill",BILL BECK,BECK,1,inc,333414
+TN,lower,50.0,2022,D,"mitchell, bo",BO MITCHELL,MITCHELL,1,inc,319483
+TN,lower,49.0,2022,R,"sparks, mike",MIKE SPARKS,SPARKS,0,inc,305533
+TN,lower,48.0,2022,R,"terry, bryan",BRYAN TERRY,TERRY,0,inc,333408
+TN,lower,47.0,2022,R,"bricken, rush",RUSH BRICKEN,BRICKEN,1,inc,389415
+TN,lower,46.0,2022,R,"boyd, clark",CLARK BOYD,BOYD,1,inc,333296
+TN,lower,45.0,2022,R,"garrett, johnny c",JOHNNY C GARRETT,GARRETT,1,inc,389412
+TN,lower,44.0,2022,R,"lamberth, william g",WILLIAM G LAMBERTH,LAMBERTH,0,inc,319473
+TN,lower,43.0,2022,R,"sherrell, paul",PAUL SHERRELL,SHERRELL,0,inc,375785
+TN,lower,42.0,2022,R,"williams, ryan d",RYAN D WILLIAMS,WILLIAMS,1,inc,305519
+TN,lower,41.0,2022,R,"butler, ed",ED BUTLER,BUTLER,1,none,375772
+TN,lower,40.0,2022,R,"hale, michael",MICHAEL HALE,HALE,0,none,418644
+TN,lower,39.0,2022,R,"rudder, iris",IRIS RUDDER,RUDDER,0,inc,389401
+TN,lower,38.0,2022,R,"keisling, kelly t",KELLY T KEISLING,KEISLING,1,inc,305509
+TN,lower,37.0,2022,R,"baum, charlie",CHARLIE BAUM,BAUM,0,inc,389396
+TN,lower,36.0,2022,R,"powers, dennis h",DENNIS H POWERS,POWERS,1,inc,215715
+TN,lower,35.0,2022,R,"slater, william",WILLIAM SLATER,SLATER,1,none,418637
+TN,lower,34.0,2022,R,"rudd, tim",TIM RUDD,RUDD,0,inc,375736
+TN,lower,33.0,2022,R,"ragan, john d",JOHN D RAGAN,RAGAN,0,inc,305502
+TN,lower,32.0,2022,R,"fritts, monty",MONTY FRITTS,FRITTS,0,none,418632
+TN,lower,31.0,2022,R,"travis, ron",RON TRAVIS,TRAVIS,0,inc,319447
+TN,lower,30.0,2022,R,"helton, esther",ESTHER HELTON,HELTON,1,inc,389382
+TN,lower,29.0,2022,R,"vital, greg",GREG VITAL,VITAL,1,none,418627
+TN,lower,28.0,2022,D,"hakeem, yusuf a",YUSUF A HAKEEM,HAKEEM,1,inc,389378
+TN,lower,27.0,2022,R,"hazlewood, patsy",PATSY HAZLEWOOD,HAZLEWOOD,1,inc,333366
+TN,lower,26.0,2022,R,"martin, greg",GREG MARTIN,MARTIN,0,none,418623
+TN,lower,25.0,2022,R,"sexton, cameron",CAMERON SEXTON,SEXTON,0,inc,305491
+TN,lower,24.0,2022,R,"raper, kevin d",KEVIN D RAPER,RAPER,1,none,418619
+TN,lower,23.0,2022,R,"cochran, mark",MARK COCHRAN,COCHRAN,1,inc,389368
+TN,lower,22.0,2022,R,"howell, dan",DAN HOWELL,HOWELL,1,inc,333357
+TN,lower,21.0,2022,R,"russell, lowell",LOWELL RUSSELL,RUSSELL,1,inc,389366
+TN,lower,20.0,2022,R,"richey, bryan",BRYAN RICHEY,RICHEY,1,none,418615
+TN,lower,19.0,2022,R,"wright, dave",DAVE WRIGHT,WRIGHT,0,inc,389362
+TN,lower,18.0,2022,R,"davis, elaine",ELAINE DAVIS,DAVIS,0,none,403351
+TN,lower,17.0,2022,R,"ellisfarmer, andrew e",ANDREW E ELLISFARMER,ELLISFARMER,1,inc,319424
+TN,lower,16.0,2022,R,"carringer, michele",MICHELE CARRINGER,CARRINGER,1,inc,403357
+TN,lower,15.0,2022,D,"mckenzie, sam",SAM MCKENZIE,MCKENZIE,0,inc,403354
+TN,lower,14.0,2022,R,"zachary, jason",JASON ZACHARY,ZACHARY,0,inc,375679
+TN,lower,13.0,2022,R,"stevens, robert",ROBERT STEVENS,STEVENS,0,none,333411
+TN,lower,12.0,2022,R,"carr, dale",DALE CARR,CARR,1,inc,319413
+TN,lower,11.0,2022,R,"faison, jeremy",JEREMY FAISON,FAISON,1,inc,305471
+TN,lower,10.0,2022,R,"eldridge, rick",RICK ELDRIDGE,ELDRIDGE,1,inc,389341
+TN,lower,9.0,2022,R,"hicks, gary w, jr",GARY W HICKS,HICKS,1,inc,375663
+TN,lower,8.0,2022,R,"moon, jerome",JEROME MOON,MOON,0,inc,389338
+TN,lower,7.0,2022,R,"alexander, rebecca k",REBECCA K ALEXANDER,ALEXANDER,1,inc,403342
+TN,lower,6.0,2022,R,"hicks, tim",TIM HICKS,HICKS,1,inc,403341
+TN,lower,5.0,2022,R,"hawk, david b",DAVID B HAWK,HAWK,1,inc,216519
+TN,lower,4.0,2022,R,"holsclaw, john b, jr",JOHN B HOLSCLAW,HOLSCLAW,1,inc,333328
+TN,lower,3.0,2022,R,"campbell, scotty",SCOTTY CAMPBELL,CAMPBELL,1,inc,305455
+TN,lower,2.0,2022,R,"hulsey, bud",BUD HULSEY,HULSEY,1,inc,333323
+TN,lower,1.0,2022,R,"crawford, john",JOHN CRAWFORD,CRAWFORD,1,inc,375646
+GA,upper,56.0,2022,R,"albers, john e",JOHN E ALBERS,ALBERS,0,inc,296941
+GA,upper,55.0,2022,D,"butler, gloria s",GLORIA S BUTLER,BUTLER,1,inc,38498
+GA,upper,54.0,2022,R,"payne, chuck",CHUCK PAYNE,PAYNE,1,inc,381556
+GA,upper,53.0,2022,R,"moore, colton",COLTON MOORE,MOORE,1,pastother,381235
+GA,upper,52.0,2022,R,"hufstetler, chuck e (chuck)",CHUCK E CHUCK HUFSTETLER,HUFSTETLER,1,inc,310380
+GA,upper,51.0,2022,R,"gooch, stephen w (steve)",STEPHEN W STEVE GOOCH,GOOCH,1,inc,296934
+GA,upper,50.0,2022,R,"hatchett, bo",BO HATCHETT,HATCHETT,0,inc,394697
+GA,upper,49.0,2022,R,"echols, shelly",SHELLY ECHOLS,ECHOLS,0,none,408616
+GA,upper,48.0,2022,R,"still, shawn",SHAWN STILL,STILL,0,none,408613
+GA,upper,47.0,2022,R,"ginn, franklin j (frank)",FRANKLIN J FRANK GINN,GINN,0,inc,296929
+GA,upper,46.0,2022,R,"cowsert, bill s (bill)",BILL S BILL COWSERT,COWSERT,0,inc,261110
+GA,upper,45.0,2022,R,"dixon, clint",CLINT DIXON,DIXON,0,inc,394688
+GA,upper,44.0,2022,D,"davenport, gail p",GAIL P DAVENPORT,DAVENPORT,1,inc,272269
+GA,upper,43.0,2022,D,"anderson, tonya p",TONYA P ANDERSON,ANDERSON,0,inc,310497
+GA,upper,42.0,2022,D,"parent, elena c",ELENA C PARENT,PARENT,1,inc,297052
+GA,upper,41.0,2022,D,"jackson, kim",KIM JACKSON,JACKSON,0,inc,394680
+GA,upper,40.0,2022,D,"harrell, sally",SALLY HARRELL,HARRELL,0,inc,44356
+GA,upper,39.0,2022,D,"halpern, sonya",SONYA HALPERN,HALPERN,1,pastinc,405436
+GA,upper,38.0,2022,D,"tate, horacena e",HORACENA E TATE,TATE,1,inc,37513
+GA,upper,37.0,2022,R,"setzler, l edwin (ed)",L EDWIN ED SETZLER,SETZLER,0,other,260996
+GA,upper,36.0,2022,D,"orrock, nancy g (nan)",NANCY G NAN ORROCK,ORROCK,1,inc,42822
+GA,upper,35.0,2022,D,"james, donzella j (donna)",DONZELLA J DONNA JAMES,JAMES,1,inc,37342
+GA,upper,34.0,2022,D,"seay, valencia m",VALENCIA M SEAY,SEAY,0,inc,37290
+GA,upper,33.0,2022,D,"rhett, michael a",MICHAEL A RHETT,RHETT,1,inc,323586
+GA,upper,32.0,2022,R,"kirkpatrick, kay",KAY KIRKPATRICK,KIRKPATRICK,0,inc,381523
+GA,upper,31.0,2022,R,"anavitarte, jason",JASON ANAVITARTE,ANAVITARTE,1,inc,394668
+GA,upper,30.0,2022,R,"dugan, michael b (mike)",MICHAEL B MIKE DUGAN,DUGAN,1,inc,310356
+GA,upper,29.0,2022,R,"robertson, randy",RANDY ROBERTSON,ROBERTSON,0,inc,381520
+GA,upper,28.0,2022,R,"brass, matt",MATT BRASS,BRASS,1,inc,363452
+GA,upper,27.0,2022,R,"dolezal, greg",GREG DOLEZAL,DOLEZAL,0,inc,381516
+GA,upper,26.0,2022,D,"lucas, david e, sr",DAVID E LUCAS,LUCAS,1,inc,38985
+GA,upper,25.0,2022,R,"williams, r kyle",R KYLE WILLIAMS,WILLIAMS,0,other,38453
+GA,upper,24.0,2022,R,"anderson, lee",LEE ANDERSON,ANDERSON,1,inc,284640
+GA,upper,23.0,2022,R,"burns, max",MAX BURNS,BURNS,1,inc,394656
+GA,upper,22.0,2022,D,"jones, harold v, ii",HAROLD V JONES,JONES,0,inc,323561
+GA,upper,21.0,2022,R,"beach, brandon l",BRANDON L BEACH,BEACH,1,inc,323558
+GA,upper,20.0,2022,R,"walker, larry 2",LARRY 2 WALKER,WALKER,1,inc,363442
+GA,upper,19.0,2022,R,"tillery, blake",BLAKE TILLERY,TILLERY,0,inc,363441
+GA,upper,18.0,2022,R,"kennedy, john f 2",JOHN F 2 KENNEDY,KENNEDY,0,inc,323553
+GA,upper,17.0,2022,R,"strickland, r brian",R BRIAN STRICKLAND,STRICKLAND,0,inc,310522
+GA,upper,16.0,2022,R,"harbin, marty h (marty)",MARTY H MARTY HARBIN,HARBIN,0,inc,323545
+GA,upper,15.0,2022,D,"harbison, eddie (ed)",EDDIE ED HARBISON,HARBISON,1,inc,36239
+GA,upper,14.0,2022,D,"mclaurin, josh",JOSH MCLAURIN,MCLAURIN,0,other,381313
+GA,upper,13.0,2022,R,"summers, carden",CARDEN SUMMERS,SUMMERS,1,inc,36148
+GA,upper,12.0,2022,D,"powellsims, freddie p",FREDDIE P POWELLSIMS,POWELLSIMS,1,inc,261161
+GA,upper,11.0,2022,R,"burke, k dean",K DEAN BURKE,BURKE,1,inc,36095
+GA,upper,10.0,2022,D,"jones, emanuel d",EMANUEL D JONES,JONES,1,inc,260875
+GA,upper,9.0,2022,D,"merritt, nikki",NIKKI MERRITT,MERRITT,1,inc,394634
+GA,upper,8.0,2022,R,"goodman, russ",RUSS GOODMAN,GOODMAN,1,inc,394633
+GA,upper,7.0,2022,D,"islam, nabilah",NABILAH ISLAM,ISLAM,0,none,408512
+GA,upper,6.0,2022,D,"esteves, jason",JASON ESTEVES,ESTEVES,0,none,408509
+GA,upper,5.0,2022,D,"rahman, sheikh m (chad)",SHEIKH M CHAD RAHMAN,RAHMAN,1,inc,310569
+GA,upper,4.0,2022,R,"hickman, billy",BILLY HICKMAN,HICKMAN,1,inc,394627
+GA,upper,3.0,2022,R,"hodges, mike",MIKE HODGES,HODGES,1,none,408502
+GA,upper,2.0,2022,D,"mallow, derek j",DEREK J MALLOW,MALLOW,0,other,394599
+GA,upper,1.0,2022,R,"watson, ben l (ben)",BEN L BEN WATSON,WATSON,0,inc,297158
+GA,lower,180.0,2022,R,"sainz, steven",STEVEN SAINZ,SAINZ,1,inc,381481
+GA,lower,179.0,2022,R,"townsend, rick",RICK TOWNSEND,TOWNSEND,1,none,408492
+GA,lower,178.0,2022,R,"meeks, steven",STEVEN MEEKS,MEEKS,1,inc,381477
+GA,lower,177.0,2022,D,"sharper, dexter l",DEXTER L SHARPER,SHARPER,1,inc,310604
+GA,lower,176.0,2022,R,"burchett, james",JAMES BURCHETT,BURCHETT,1,inc,394618
+GA,lower,175.0,2022,R,"lahood, john",JOHN LAHOOD,LAHOOD,1,inc,381474
+GA,lower,174.0,2022,R,"corbett, john l",JOHN L CORBETT,CORBETT,1,inc,323893
+GA,lower,173.0,2022,R,"taylor, darlene k",DARLENE K TAYLOR,TAYLOR,0,inc,297172
+GA,lower,172.0,2022,R,"watson, samuel l (sam)",SAMUEL L SAM WATSON,WATSON,1,inc,310595
+GA,lower,171.0,2022,R,"campbell, joe",JOE CAMPBELL,CAMPBELL,1,inc,394611
+GA,lower,170.0,2022,R,"houston, lillian p (penny)",LILLIAN P PENNY HOUSTON,HOUSTON,1,inc,40852
+GA,lower,169.0,2022,R,"pirkle, clay",CLAY PIRKLE,PIRKLE,0,inc,363671
+GA,lower,168.0,2022,D,"williams, al",AL WILLIAMS,WILLIAMS,1,inc,40327
+GA,lower,167.0,2022,R,"deloach, buddy",BUDDY DELOACH,DELOACH,1,inc,40293
+GA,lower,166.0,2022,R,"petrea, jesse l",JESSE L PETREA,PETREA,1,inc,323878
+GA,lower,165.0,2022,D,"jackson, edna",EDNA JACKSON,JACKSON,1,none,408462
+GA,lower,164.0,2022,R,"stephens, ron r (ron) 1",RON R RON 1 STEPHENS,STEPHENS,0,inc,40130
+GA,lower,163.0,2022,D,"allenwestbrook, anne",ANNE ALLENWESTBROOK,ALLENWESTBROOK,1,none,408456
+GA,lower,162.0,2022,D,"gilliard, carl w",CARL W GILLIARD,GILLIARD,1,inc,363679
+GA,lower,161.0,2022,R,"hitchens, bill w (bill)",BILL W BILL HITCHENS,HITCHENS,0,inc,310582
+GA,lower,160.0,2022,R,"franklin, lehman",LEHMAN FRANKLIN,FRANKLIN,1,none,408450
+GA,lower,159.0,2022,R,"burns, jon g",JON G BURNS,BURNS,1,inc,261170
+GA,lower,158.0,2022,R,"parrish, larry j (butch)",LARRY J BUTCH PARRISH,PARRISH,0,inc,38988
+GA,lower,157.0,2022,R,"werkheiser, william a (bill)",WILLIAM A BILL WERKHEISER,WERKHEISER,1,inc,323869
+GA,lower,156.0,2022,R,"hagan, leesa",LEESA HAGAN,HAGAN,0,none,408440
+GA,lower,155.0,2022,R,"hatchett, matt m (matt)",MATT M MATT HATCHETT,HATCHETT,1,inc,297130
+GA,lower,154.0,2022,R,"greene, gerald e",GERALD E GREENE,GREENE,0,inc,39607
+GA,lower,153.0,2022,D,"sampson, david",DAVID SAMPSON,SAMPSON,0,none,408432
+GA,lower,152.0,2022,R,"yearta, bill",BILL YEARTA,YEARTA,1,inc,394586
+GA,lower,151.0,2022,R,"cheokas, michael a (mike)",MICHAEL A MIKE CHEOKAS,CHEOKAS,0,inc,261136
+GA,lower,150.0,2022,D,"bentley, patty j",PATTY J BENTLEY,BENTLEY,1,inc,310556
+GA,lower,149.0,2022,R,"mathis, danny",DANNY MATHIS,MATHIS,1,inc,381432
+GA,lower,148.0,2022,R,"williams, noel, jr",NOEL WILLIAMS,WILLIAMS,1,inc,381439
+GA,lower,147.0,2022,R,"ballard, bethany",BETHANY BALLARD,BALLARD,0,none,408419
+GA,lower,146.0,2022,R,"blackmon, shaw",SHAW BLACKMON,BLACKMON,0,inc,363661
+GA,lower,145.0,2022,R,"dickey, robert l",ROBERT L DICKEY,DICKEY,1,inc,310557
+GA,lower,144.0,2022,R,"washburn, dale",DALE WASHBURN,WASHBURN,0,inc,260902
+GA,lower,143.0,2022,D,"beverly, james t",JAMES T BEVERLY,BEVERLY,1,inc,310560
+GA,lower,142.0,2022,D,"paris, miriam l",MIRIAM L PARIS,PARIS,1,inc,323570
+GA,lower,141.0,2022,D,"hugley, carolyn f",CAROLYN F HUGLEY,HUGLEY,1,inc,39598
+GA,lower,140.0,2022,D,"reese, tremaine t",TREMAINE T REESE,REESE,1,none,408402
+GA,lower,139.0,2022,R,"smith, richard h",RICHARD H SMITH,SMITH,1,inc,261133
+GA,lower,138.0,2022,R,"smith, vance c, jr",VANCE C SMITH,SMITH,1,inc,38987
+GA,lower,137.0,2022,D,"buckner, debbie g",DEBBIE G BUCKNER,BUCKNER,0,inc,39322
+GA,lower,136.0,2022,R,"jenkins, david",DAVID JENKINS,JENKINS,1,inc,394559
+GA,lower,135.0,2022,R,"camp, beth",BETH CAMP,CAMP,1,inc,394557
+GA,lower,134.0,2022,R,"knight, david w",DAVID W KNIGHT,KNIGHT,0,inc,261127
+GA,lower,133.0,2022,R,"vance, kenneth",KENNETH VANCE,VANCE,0,none,408386
+GA,lower,132.0,2022,D,"prince, brian l",BRIAN L PRINCE,PRINCE,1,inc,323820
+GA,lower,131.0,2022,R,"lott, jodi",JODI LOTT,LOTT,1,inc,363633
+GA,lower,130.0,2022,D,"gladney, lynn",LYNN GLADNEY,GLADNEY,0,none,408379
+GA,lower,129.0,2022,D,"howard, henry d (wayne) 2",HENRY D WAYNE 2 HOWARD,HOWARD,1,inc,272440
+GA,lower,128.0,2022,D,"jackson, w mack",W MACK JACKSON,JACKSON,1,inc,284670
+GA,lower,127.0,2022,R,"newton, mark",MARK NEWTON,NEWTON,1,inc,363634
+GA,lower,126.0,2022,D,"frazier, gloria j",GLORIA J FRAZIER,FRAZIER,0,inc,272443
+GA,lower,125.0,2022,R,"fleming, barry a",BARRY A FLEMING,FLEMING,1,inc,46377
+GA,lower,124.0,2022,R,"rhodes, trey",TREY RHODES,RHODES,0,inc,363631
+GA,lower,123.0,2022,R,"leverett, rob",ROB LEVERETT,LEVERETT,1,inc,394410
+GA,lower,122.0,2022,D,"frye, spencer r",SPENCER R FRYE,FRYE,1,inc,310530
+GA,lower,121.0,2022,R,"wiedower, marcus a",MARCUS A WIEDOWER,WIEDOWER,0,inc,381400
+GA,lower,120.0,2022,R,"gaines, houston",HOUSTON GAINES,GAINES,0,inc,381396
+GA,lower,119.0,2022,R,"rampey, danny",DANNY RAMPEY,RAMPEY,1,none,408352
+GA,lower,118.0,2022,R,"crowe, clint",CLINT CROWE,CROWE,0,inc,394528
+GA,lower,117.0,2022,R,"daniel, lauren",LAUREN DANIEL,DANIEL,0,none,408347
+GA,lower,116.0,2022,D,"holly, elmahdi",ELMAHDI HOLLY,HOLLY,0,inc,381390
+GA,lower,115.0,2022,D,"lewisward, regina",REGINA LEWISWARD,LEWISWARD,1,inc,381386
+GA,lower,114.0,2022,R,"fleming, tim",TIM FLEMING,FLEMING,0,none,408339
+GA,lower,113.0,2022,D,"henderson, sharon",SHARON HENDERSON,HENDERSON,1,inc,394531
+GA,lower,112.0,2022,R,"williamson, bruce b (bruce), iii",BRUCE B BRUCE WILLIAMSON,WILLIAMSON,0,inc,297092
+GA,lower,111.0,2022,R,"martinez, reynaldo (rey)",REYNALDO REY MARTINEZ,MARTINEZ,0,none,408330
+GA,lower,110.0,2022,D,"adeyina, segun",SEGUN ADEYINA,ADEYINA,1,none,408328
+GA,lower,109.0,2022,D,"mcclain, dewey l",DEWEY L MCCLAIN,MCCLAIN,1,inc,323781
+GA,lower,108.0,2022,D,"clark, jasmine",JASMINE CLARK,CLARK,0,inc,381384
+GA,lower,107.0,2022,D,"park, samuel",SAMUEL PARK,PARK,0,inc,363607
+GA,lower,106.0,2022,D,"hutchinson, shelly",SHELLY HUTCHINSON,HUTCHINSON,0,inc,381382
+GA,lower,105.0,2022,D,"mughal, farooq",FAROOQ MUGHAL,MUGHAL,0,none,408314
+GA,lower,104.0,2022,R,"efstration, chuck p (chuck)",CHUCK P CHUCK EFSTRATION,EFSTRATION,0,inc,323785
+GA,lower,103.0,2022,R,"hong, soo",SOO HONG,HONG,0,none,394512
+GA,lower,102.0,2022,D,"okoye, gabe",GABE OKOYE,OKOYE,0,none,408305
+GA,lower,101.0,2022,D,"kennard, gregg",GREGG KENNARD,KENNARD,0,inc,381375
+GA,lower,100.0,2022,R,"clark, david t",DAVID T CLARK,CLARK,0,inc,339090
+GA,lower,99.0,2022,R,"reeves, matt",MATT REEVES,REEVES,0,none,381548
+GA,lower,98.0,2022,D,"lim, marvin",MARVIN LIM,LIM,1,inc,394507
+GA,lower,97.0,2022,D,"romman, ruwa",RUWA ROMMAN,ROMMAN,0,none,408292
+GA,lower,96.0,2022,D,"marin, pedro r (pete)",PEDRO R PETE MARIN,MARIN,0,inc,45351
+GA,lower,95.0,2022,D,"kendrick, darshun n",DARSHUN N KENDRICK,KENDRICK,0,inc,297067
+GA,lower,94.0,2022,D,"bennett, karen l",KAREN L BENNETT,BENNETT,1,inc,310500
+GA,lower,93.0,2022,D,"carter, doreen",DOREEN CARTER,CARTER,1,inc,363596
+GA,lower,92.0,2022,D,"taylor, rhonda s",RHONDA S TAYLOR,TAYLOR,1,inc,394495
+GA,lower,91.0,2022,D,"moore, angela",ANGELA MOORE,MOORE,1,none,408276
+GA,lower,90.0,2022,D,"draper, saira",SAIRA DRAPER,DRAPER,0,none,408275
+GA,lower,89.0,2022,D,"evans, becky",BECKY EVANS,EVANS,0,inc,381351
+GA,lower,88.0,2022,D,"mitchell, william w (billy)",WILLIAM W BILLY MITCHELL,MITCHELL,0,inc,45042
+GA,lower,87.0,2022,D,"davis, viola",VIOLA DAVIS,DAVIS,1,inc,44412
+GA,lower,86.0,2022,D,"barnes, imani",IMANI BARNES,BARNES,0,none,408263
+GA,lower,85.0,2022,D,"drenner, karla l",KARLA L DRENNER,DRENNER,1,inc,44589
+GA,lower,84.0,2022,D,"crawford, omari",OMARI CRAWFORD,CRAWFORD,1,none,408259
+GA,lower,83.0,2022,D,"lupton, karen",KAREN LUPTON,LUPTON,0,none,408257
+GA,lower,82.0,2022,D,"oliver, mary m",MARY M OLIVER,OLIVER,0,inc,37746
+GA,lower,81.0,2022,D,"holcomb, m scott",M SCOTT HOLCOMB,HOLCOMB,0,inc,297053
+GA,lower,80.0,2022,D,"tran, long",LONG TRAN,TRAN,0,none,408248
+GA,lower,79.0,2022,D,"neal, yasmin m",YASMIN M NEAL,NEAL,1,inc,297041
+GA,lower,78.0,2022,D,"douglas, demetrius m",DEMETRIUS M DOUGLAS,DOUGLAS,1,inc,310481
+GA,lower,77.0,2022,D,"burnough, rhonda",RHONDA BURNOUGH,BURNOUGH,1,inc,363578
+GA,lower,76.0,2022,D,"givensscott, sandra g",SANDRA G GIVENSSCOTT,GIVENSSCOTT,1,inc,297043
+GA,lower,75.0,2022,D,"glanton, mike e (mike)",MIKE E MIKE GLANTON,GLANTON,0,inc,272384
+GA,lower,74.0,2022,R,"mathiak, karen",KAREN MATHIAK,MATHIAK,0,inc,363573
+GA,lower,73.0,2022,R,"bonner, josh",JOSH BONNER,BONNER,1,inc,363572
+GA,lower,72.0,2022,R,"huddleston, david",DAVID HUDDLESTON,HUDDLESTON,1,none,408229
+GA,lower,71.0,2022,R,"collins, j",J COLLINS,COLLINS,0,inc,363567
+GA,lower,70.0,2022,R,"smith, lynn r (lynn)",LYNN R LYNN SMITH,SMITH,0,inc,39082
+GA,lower,69.0,2022,D,"bazemore, debra",DEBRA BAZEMORE,BAZEMORE,1,inc,363560
+GA,lower,68.0,2022,D,"naghise, tish",TISH NAGHISE,NAGHISE,0,none,408219
+GA,lower,67.0,2022,D,"glaize, lydia",LYDIA GLAIZE,GLAIZE,0,none,408215
+GA,lower,66.0,2022,D,"alexander, kimberly a",KIMBERLY A ALEXANDER,ALEXANDER,1,inc,297031
+GA,lower,65.0,2022,D,"thomas, mandisha a",MANDISHA A THOMAS,THOMAS,0,inc,394461
+GA,lower,64.0,2022,R,"new, kimberly r",KIMBERLY R NEW,NEW,0,none,408207
+GA,lower,63.0,2022,D,"schofield, kim",KIM SCHOFIELD,SCHOFIELD,1,inc,381324
+GA,lower,62.0,2022,D,"miller, tanya f",TANYA F MILLER,MILLER,1,none,408203
+GA,lower,61.0,2022,D,"bruce, roger b",ROGER B BRUCE,BRUCE,1,inc,43137
+GA,lower,60.0,2022,D,"jones, sheila",SHEILA JONES,JONES,1,inc,261010
+GA,lower,59.0,2022,D,"olaleye, phil",PHIL OLALEYE,OLALEYE,1,none,408197
+GA,lower,58.0,2022,D,"cannon, park",PARK CANNON,CANNON,1,inc,363554
+GA,lower,57.0,2022,D,"evans, stacey g",STACEY G EVANS,EVANS,1,inc,297000
+GA,lower,56.0,2022,D,"mainor, mesha",MESHA MAINOR,MAINOR,1,inc,394451
+GA,lower,55.0,2022,D,"willis, inga",INGA WILLIS,WILLIS,0,none,408188
+GA,lower,54.0,2022,D,"holland, betsy",BETSY HOLLAND,HOLLAND,0,inc,381318
+GA,lower,53.0,2022,R,"silcox, deborah",DEBORAH SILCOX,SILCOX,0,pastinc,363547
+GA,lower,52.0,2022,D,"roberts, shea",SHEA ROBERTS,ROBERTS,0,inc,381314
+GA,lower,51.0,2022,D,"panitch, esther",ESTHER PANITCH,PANITCH,0,none,408176
+GA,lower,50.0,2022,D,"au, michelle",MICHELLE AU,AU,0,other,394693
+GA,lower,49.0,2022,R,"martin, charles e (chuck), jr 1",CHARLES E CHUCK 1 MARTIN,MARTIN,0,inc,43198
+GA,lower,48.0,2022,R,"hilton, scott",SCOTT HILTON,HILTON,0,pastinc,363599
+GA,lower,47.0,2022,R,"jones, jan s",JAN S JONES,JONES,1,inc,43249
+GA,lower,46.0,2022,R,"carson, john k",JOHN K CARSON,CARSON,0,inc,310444
+GA,lower,45.0,2022,R,"cooper, sharon m",SHARON M COOPER,COOPER,0,inc,42824
+GA,lower,44.0,2022,R,"parsons, donald l (don)",DONALD L DON PARSONS,PARSONS,0,inc,42713
+GA,lower,43.0,2022,D,"adesanya, solomon",SOLOMON ADESANYA,ADESANYA,0,none,408154
+GA,lower,42.0,2022,D,"anulewicz, teri",TERI ANULEWICZ,ANULEWICZ,1,inc,381295
+GA,lower,41.0,2022,D,"smith, michael a",MICHAEL A SMITH,SMITH,0,inc,310438
+GA,lower,40.0,2022,D,"stoner, doug",DOUG STONER,STONER,0,pastboth,42773
+GA,lower,39.0,2022,D,"cummings, terry",TERRY CUMMINGS,CUMMINGS,0,none,408143
+GA,lower,38.0,2022,D,"wilkerson, david l",DAVID L WILKERSON,WILKERSON,1,inc,296988
+GA,lower,37.0,2022,D,"williams, mary f",MARY F WILLIAMS,WILLIAMS,0,inc,381287
+GA,lower,36.0,2022,R,"ehrhart, ginny",GINNY EHRHART,EHRHART,0,inc,381284
+GA,lower,35.0,2022,D,"campbell, lisa",LISA CAMPBELL,CAMPBELL,0,none,408131
+GA,lower,34.0,2022,R,"seabaugh, devan",DEVAN SEABAUGH,SEABAUGH,0,none,408128
+GA,lower,33.0,2022,R,"powell, alan t",ALAN T POWELL,POWELL,1,inc,40565
+GA,lower,32.0,2022,R,"erwin, chris",CHRIS ERWIN,ERWIN,1,inc,391437
+GA,lower,31.0,2022,R,"dunahoo, emory w, jr",EMORY W DUNAHOO,DUNAHOO,1,inc,310423
+GA,lower,30.0,2022,R,"mccollum, derrick",DERRICK MCCOLLUM,MCCOLLUM,0,none,408119
+GA,lower,29.0,2022,R,"dubnik, matt",MATT DUBNIK,DUBNIK,0,inc,363519
+GA,lower,28.0,2022,R,"cox, brent",BRENT COX,COX,0,none,408113
+GA,lower,27.0,2022,R,"hawkins, b lee 2",B LEE 2 HAWKINS,HAWKINS,1,inc,272277
+GA,lower,26.0,2022,R,"mcdonald, lauren, iii 2",LAUREN 2 MCDONALD,MCDONALD,0,inc,323571
+GA,lower,25.0,2022,R,"jones, todd",TODD JONES,JONES,0,inc,363515
+GA,lower,24.0,2022,R,"barrett, carter",CARTER BARRETT,BARRETT,0,none,408102
+GA,lower,23.0,2022,R,"ballinger, mandi l",MANDI L BALLINGER,BALLINGER,1,inc,310416
+GA,lower,22.0,2022,R,"ridley, jordan",JORDAN RIDLEY,RIDLEY,0,none,408097
+GA,lower,21.0,2022,R,"thomas, brad",BRAD THOMAS,THOMAS,1,inc,394389
+GA,lower,20.0,2022,R,"byrd, charlice",CHARLICE BYRD,BYRD,1,inc,260976
+GA,lower,19.0,2022,R,"gullett, joseph",JOSEPH GULLETT,GULLETT,0,inc,381259
+GA,lower,18.0,2022,R,"smith, tyler p",TYLER P SMITH,SMITH,0,inc,394383
+GA,lower,17.0,2022,R,"momtahan, martin",MARTIN MOMTAHAN,MOMTAHAN,0,inc,381255
+GA,lower,16.0,2022,R,"kelley, trey d (trey)",TREY D TREY KELLEY,KELLEY,1,inc,310407
+GA,lower,15.0,2022,R,"gambill, matthew",MATTHEW GAMBILL,GAMBILL,1,inc,381252
+GA,lower,14.0,2022,R,"scoggins, mitchell",MITCHELL SCOGGINS,SCOGGINS,1,inc,391435
+GA,lower,13.0,2022,R,"dempsey, katie m",KATIE M DEMPSEY,DEMPSEY,1,inc,272303
+GA,lower,12.0,2022,R,"lumsden, eddie e (eddie)",EDDIE E EDDIE LUMSDEN,LUMSDEN,1,inc,260962
+GA,lower,11.0,2022,R,"jasperse, rick c (rick)",RICK C RICK JASPERSE,JASPERSE,0,inc,296955
+GA,lower,10.0,2022,R,"anderson, victor e",VICTOR E ANDERSON,ANDERSON,1,inc,394370
+GA,lower,9.0,2022,R,"wade, will",WILL WADE,WADE,1,inc,394368
+GA,lower,8.0,2022,R,"gunter, stan",STAN GUNTER,GUNTER,0,inc,394366
+GA,lower,7.0,2022,R,"ralston, david e",DAVID E RALSTON,RALSTON,1,inc,38284
+GA,lower,6.0,2022,R,"ridley, jason t",JASON T RIDLEY,RIDLEY,1,inc,363493
+GA,lower,5.0,2022,R,"barton, matt",MATT BARTON,BARTON,1,inc,394361
+GA,lower,4.0,2022,R,"carpenter, kasey",KASEY CARPENTER,CARPENTER,1,inc,381238
+GA,lower,3.0,2022,R,"horner, mitchell",MITCHELL HORNER,HORNER,1,none,408054
+GA,lower,2.0,2022,R,"tarvin, thomas s (steve)",THOMAS S STEVE TARVIN,TARVIN,1,inc,323633
+GA,lower,1.0,2022,R,"cameron, mike",MIKE CAMERON,CAMERON,1,inc,394357
+AR,upper,35.0,2022,R,"dees, tyler",TYLER DEES,DEES,1,none,406781
+AR,upper,34.0,2022,R,"dotson, jim",JIM DOTSON,DOTSON,1,other,309015
+AR,upper,33.0,2022,R,"hester, bart",BART HESTER,HESTER,1,inc,308814
+AR,upper,32.0,2022,R,"bryant, joshua",JOSHUA BRYANT,BRYANT,1,none,393007
+AR,upper,31.0,2022,R,"penzo, clint",CLINT PENZO,PENZO,0,other,361753
+AR,upper,30.0,2022,D,"leding, greg",GREG LEDING,LEDING,1,inc,295634
+AR,upper,29.0,2022,R,"petty, jim",JIM PETTY,PETTY,1,none,406766
+AR,upper,28.0,2022,R,"king, bryan b",BRYAN B KING,KING,0,pastboth,271076
+AR,upper,27.0,2022,R,"boyd, justin",JUSTIN BOYD,BOYD,0,other,322162
+AR,upper,26.0,2022,R,"stubblefield, gary",GARY STUBBLEFIELD,STUBBLEFIELD,1,inc,295598
+AR,upper,25.0,2022,R,"davis, breanne",BREANNE DAVIS,DAVIS,1,inc,393024
+AR,upper,24.0,2022,R,"irvin, missy t",MISSY T IRVIN,THOMASIRVIN,1,inc,295481
+AR,upper,23.0,2022,R,"flippo, scott",SCOTT FLIPPO,FLIPPO,0,inc,322019
+AR,upper,22.0,2022,R,"payton, john",JOHN PAYTON,PAYTON,1,other,308968
+AR,upper,21.0,2022,R,"johnson, blake",BLAKE JOHNSON,JOHNSON,1,inc,308843
+AR,upper,20.0,2022,R,"sullivan, dan",DAN SULLIVAN,SULLIVAN,0,inc,322121
+AR,upper,19.0,2022,R,"wallace, dave",DAVE WALLACE,WALLACE,1,inc,322123
+AR,upper,18.0,2022,R,"dismang, jonathan",JONATHAN DISMANG,DISMANG,0,inc,283219
+AR,upper,17.0,2022,R,"johnson, mark",MARK JOHNSON,JOHNSON,0,inc,391317
+AR,upper,16.0,2022,R,"hammer, kim d",KIM D HAMMER,HAMMER,1,inc,270994
+AR,upper,15.0,2022,D,"love, fredrick (fred)",FREDRICK FRED LOVE,LOVE,1,other,295552
+AR,upper,14.0,2022,D,"tucker, clarke",CLARKE TUCKER,TUCKER,0,inc,322090
+AR,upper,13.0,2022,R,"english, jane",JANE ENGLISH,ENGLISH,0,inc,283208
+AR,upper,12.0,2022,D,"chesterfield, linda p",LINDA P CHESTERFIELD,CHESTERFIELD,1,inc,259077
+AR,upper,11.0,2022,R,"hill, ricky",RICKY HILL,HILL,1,inc,393034
+AR,upper,10.0,2022,R,"caldwell, ronald",RONALD CALDWELL,CALDWELL,0,inc,308848
+AR,upper,9.0,2022,D,"murdock, reginald",REGINALD MURDOCK,MURDOCK,0,other,295575
+AR,upper,8.0,2022,D,"flowers, stephanie",STEPHANIE FLOWERS,FLOWERS,1,inc,259632
+AR,upper,7.0,2022,R,"clark, alan",ALAN CLARK,CLARK,1,inc,308832
+AR,upper,6.0,2022,R,"mckee, matt",MATT MCKEE,MCKEE,0,none,406703
+AR,upper,5.0,2022,R,"rice, terry",TERRY RICE,RICE,1,inc,283236
+AR,upper,4.0,2022,R,"hickey, jimmy, jr",JIMMY HICKEY,HICKEY,1,inc,308828
+AR,upper,3.0,2022,R,"crowell, steve",STEVE CROWELL,CROWELL,1,none,406695
+AR,upper,2.0,2022,R,"stone, matt",MATT STONE,STONE,0,none,406693
+AR,upper,1.0,2022,R,"gilmore, ben",BEN GILMORE,GILMORE,1,inc,393030
+AR,lower,100.0,2022,R,"dalby, carol",CAROL DALBY,DALBY,1,inc,361634
+AR,lower,99.0,2022,R,"jean, lane",LANE JEAN,JEAN,1,inc,295506
+AR,lower,98.0,2022,R,"andrews, wade",WADE ANDREWS,ANDREWS,0,none,379853
+AR,lower,97.0,2022,R,"shepherd, matthew j",MATTHEW J SHEPHERD,SHEPHERD,1,inc,295510
+AR,lower,96.0,2022,R,"eubanksbarker, sonia",SONIA EUBANKSBARKER,BARKER,1,inc,361643
+AR,lower,95.0,2022,R,"beaty, howard",HOWARD BEATY,BEATY,1,inc,392882
+AR,lower,94.0,2022,R,"wardlaw, jeffrey r",JEFFREY R WARDLAW,WARDLAW,0,inc,295513
+AR,lower,93.0,2022,R,"holcomb, judge m",JUDGE M HOLCOMB,HOLCOMB,1,inc,308883
+AR,lower,92.0,2022,R,"mayberry, julie",JULIE MAYBERRY,MAYBERRY,1,inc,322078
+AR,lower,91.0,2022,R,"cozart, bruce",BRUCE COZART,COZART,0,inc,308902
+AR,lower,90.0,2022,R,"womack, richard",RICHARD WOMACK,WOMACK,1,inc,308894
+AR,lower,89.0,2022,R,"gonzales, justin",JUSTIN GONZALES,GONZALES,1,inc,322066
+AR,lower,88.0,2022,R,"watson, danny",DANNY WATSON,WATSON,1,inc,361638
+AR,lower,87.0,2022,R,"vaught, deann",DEANN VAUGHT,VAUGHT,0,inc,322039
+AR,lower,86.0,2022,R,"maddox, john",JOHN MADDOX,MADDOX,1,inc,361662
+AR,lower,85.0,2022,R,"mcgrew, richard",RICHARD MCGREW,MCGREW,1,inc,392900
+AR,lower,84.0,2022,R,"warren, les a",LES A WARREN,WARREN,0,inc,361669
+AR,lower,83.0,2022,R,"fite, lanny",LANNY FITE,FITE,1,inc,322073
+AR,lower,82.0,2022,R,"furman, tony",TONY FURMAN,FURMAN,1,inc,392907
+AR,lower,81.0,2022,R,"hawk, r j",R J HAWK,HAWK,0,none,406637
+AR,lower,80.0,2022,D,"ennett, denise",DENISE ENNETT,ENNETT,1,inc,392918
+AR,lower,79.0,2022,D,"shephard, tara",TARA SHEPHARD,SHEPHARD,1,none,406632
+AR,lower,78.0,2022,R,"brooks, keith",KEITH BROOKS,BROOKS,1,inc,392911
+AR,lower,77.0,2022,D,"allen, fred",FRED ALLEN,ALLEN,1,inc,271000
+AR,lower,76.0,2022,D,"springer, joy c",JOY C SPRINGER,SPRINGER,1,inc,392915
+AR,lower,75.0,2022,D,"hudson, ashley",ASHLEY HUDSON,HUDSON,0,inc,392912
+AR,lower,74.0,2022,D,"mccullough, tippi",TIPPI MCCULLOUGH,MCCULLOUGH,1,inc,391278
+AR,lower,73.0,2022,D,"collins, andrew",ANDREW COLLINS,COLLINS,0,inc,379884
+AR,lower,72.0,2022,D,"scott, jamie",JAMIE SCOTT,SCOTT,1,inc,391281
+AR,lower,71.0,2022,R,"achor, brandon",BRANDON ACHOR,ACHOR,0,none,406610
+AR,lower,70.0,2022,R,"wing, carlton",CARLTON WING,WING,0,inc,361687
+AR,lower,69.0,2022,R,"ray, david",DAVID RAY,RAY,0,inc,392924
+AR,lower,68.0,2022,R,"evans, brian",BRIAN EVANS,EVANS,1,inc,391283
+AR,lower,67.0,2022,R,"brown, karilyn",KARILYN BROWN,BROWN,0,inc,322101
+AR,lower,66.0,2022,D,"perry, mark w",MARK W PERRY,PERRY,1,inc,283213
+AR,lower,65.0,2022,D,"flowers, vivian",VIVIAN FLOWERS,FLOWERS,1,inc,322061
+AR,lower,64.0,2022,D,"ferguson, kenneth b",KENNETH B FERGUSON,FERGUSON,1,inc,322057
+AR,lower,63.0,2022,D,"ferguson, deborah",DEBORAH FERGUSON,FERGUSON,1,inc,308945
+AR,lower,62.0,2022,R,"mcelroy, mark d",MARK D MCELROY,MCELROY,0,inc,308884
+AR,lower,61.0,2022,R,"moore, jeremiah",JEREMIAH MOORE,MOORE,0,none,406582
+AR,lower,60.0,2022,R,"lynch, roger d",ROGER D LYNCH,LYNCH,1,inc,361654
+AR,lower,59.0,2022,R,"wooten, jim",JIM WOOTEN,WOOTEN,0,inc,391285
+AR,lower,58.0,2022,R,"eaves, les",LES EAVES,EAVES,0,inc,322108
+AR,lower,57.0,2022,R,"cooper, cameron",CAMERON COOPER,COOPER,1,inc,391284
+AR,lower,56.0,2022,D,"magie, steve",STEVE MAGIE,MAGIE,0,inc,295564
+AR,lower,55.0,2022,R,"brown, matt",MATT BROWN,BROWN,0,none,406562
+AR,lower,54.0,2022,R,"bentley, mary",MARY BENTLEY,BENTLEY,1,inc,308983
+AR,lower,53.0,2022,R,"duffield, matt",MATT DUFFIELD,DUFFIELD,1,none,406557
+AR,lower,52.0,2022,R,"richmond, marcus e",MARCUS E RICHMOND,RICHMOND,1,inc,322070
+AR,lower,51.0,2022,R,"crawford, cindy",CINDY CRAWFORD,CRAWFORD,1,inc,391303
+AR,lower,50.0,2022,R,"gramlich, zack",ZACK GRAMLICH,GRAMLICH,0,none,406550
+AR,lower,49.0,2022,D,"richardson, jay",JAY RICHARDSON,RICHARDSON,0,inc,391304
+AR,lower,48.0,2022,R,"rose, ryan a",RYAN A ROSE,ROSE,1,none,406543
+AR,lower,47.0,2022,R,"johnson, lee",LEE JOHNSON,JOHNSON,1,inc,391302
+AR,lower,46.0,2022,R,"eubanks, jon s",JON S EUBANKS,EUBANKS,1,inc,295621
+AR,lower,45.0,2022,R,"pilkington, aaron",AARON PILKINGTON,PILKINGTON,1,inc,361729
+AR,lower,44.0,2022,R,"berry, stan",STAN BERRY,BERRY,1,inc,9312
+AR,lower,43.0,2022,R,"beck, rick",RICK BECK,BECK,1,inc,322143
+AR,lower,42.0,2022,R,"meeks, stephen",STEPHEN MEEKS,MEEKS,1,inc,295567
+AR,lower,41.0,2022,R,"miller, josh",JOSH MILLER,MILLER,1,inc,308972
+AR,lower,40.0,2022,R,"pearce, shad",SHAD PEARCE,PEARCE,1,none,406526
+AR,lower,39.0,2022,R,"long, wayne",WAYNE LONG,LONG,1,none,9328
+AR,lower,38.0,2022,R,"tosh, dwight",DWIGHT TOSH,TOSH,1,inc,322119
+AR,lower,37.0,2022,R,"hollowell, steve",STEVE HOLLOWELL,HOLLOWELL,0,inc,361701
+AR,lower,36.0,2022,R,"rye, johnny 2",JOHNNY 2 RYE,RYE,1,inc,361707
+AR,lower,35.0,2022,D,"nicks, milton, jr",MILTON NICKS,NICKS,1,inc,322113
+AR,lower,34.0,2022,R,"carr, joey",JOEY CARR,CARR,0,none,406510
+AR,lower,33.0,2022,R,"milligan, mayor j",MAYOR J MILLIGAN,MILLIGAN,1,inc,392941
+AR,lower,32.0,2022,R,"ladyman, jack",JACK LADYMAN,LADYMAN,1,inc,322131
+AR,lower,31.0,2022,R,"gazaway, jimmy",JIMMY GAZAWAY,GAZAWAY,1,inc,361711
+AR,lower,30.0,2022,R,"cavenaugh, frances",FRANCES CAVENAUGH,CAVENAUGH,1,inc,361716
+AR,lower,29.0,2022,R,"mcclure, rick",RICK MCCLURE,MCCLURE,0,inc,392905
+AR,lower,28.0,2022,R,"schulz, bart",BART SCHULZ,SCHULZ,1,none,406495
+AR,lower,27.0,2022,R,"walker, steven",STEVEN WALKER,WALKER,1,none,406493
+AR,lower,10.0,2022,R,"mcalindon, mindy",MINDY MCALINDON,MCALINDON,0,none,406449
+AR,lower,9.0,2022,R,"hodges, deanna",DEANNA HODGES,HODGES,0,none,406444
+AR,lower,8.0,2022,R,"mccollum, austin",AUSTIN MCCOLLUM,MCCOLLUM,1,inc,361763
+AR,lower,7.0,2022,R,"mckenzie, brit",BRIT MCKENZIE,MCKENZIE,1,none,406440
+AR,lower,6.0,2022,R,"breaux, harlan",HARLAN BREAUX,BREAUX,0,inc,379946
+AR,lower,5.0,2022,R,"mcnair, ron",RON MCNAIR,MCNAIR,1,inc,322200
+AR,lower,4.0,2022,R,"fortner, jack",JACK FORTNER,FORTNER,1,inc,361768
+AR,lower,3.0,2022,R,"painter, stetson",STETSON PAINTER,PAINTER,1,none,406428
+AR,lower,2.0,2022,R,"steimel, trey",TREY STEIMEL,STEIMEL,1,none,406426
+AR,lower,1.0,2022,R,"wooldridge, jeremy",JEREMY WOOLDRIDGE,WOOLDRIDGE,0,none,406422
+AR,lower,26.0,2022,R,"berry, mark h",MARK H BERRY,BERRY,1,inc,392982
+AR,lower,25.0,2022,R,"puryear, chad",CHAD PURYEAR,PURYEAR,0,none,406489
+AR,lower,24.0,2022,R,"fite, charlene",CHARLENE FITE,FITE,1,inc,308995
+AR,lower,23.0,2022,R,"moore, kendra",KENDRA MOORE,MOORE,1,none,406483
+AR,lower,22.0,2022,D,"whitaker, david",DAVID WHITAKER,WHITAKER,0,inc,309004
+AR,lower,21.0,2022,D,"clowney, nicole",NICOLE CLOWNEY,CLOWNEY,1,inc,391309
+AR,lower,20.0,2022,D,"garner, denise",DENISE GARNER,GARNER,1,inc,379929
+AR,lower,19.0,2022,R,"unger, steve",STEVE UNGER,UNGER,0,none,406474
+AR,lower,18.0,2022,R,"lundstrum, robin",ROBIN LUNDSTRUM,LUNDSTRUM,0,inc,322174
+AR,lower,17.0,2022,R,"haak, delia",DELIA HAAK,HAAK,1,inc,392998
+AR,lower,16.0,2022,R,"underwood, kendon",KENDON UNDERWOOD,UNDERWOOD,1,inc,392996
+AR,lower,15.0,2022,R,"carr, john p",JOHN P CARR,CARR,0,inc,393003
+AR,lower,14.0,2022,R,"hodges, grant",GRANT HODGES,HODGES,0,pastinc,322195
+AR,lower,13.0,2022,R,"scottrichardson, r",R SCOTTRICHARDSON,SCOTTRICHARDSON,0,none,406458
+AR,lower,12.0,2022,R,"hendrenduke, hope",HOPE HENDRENDUKE,HENDRENDUKE,1,none,406455
+AR,lower,11.0,2022,R,"burkes, rebecca",REBECCA BURKES,BURKES,0,none,406451
+TX,upper,28.0,2022,R,"perry, charles",CHARLES PERRY,PERRY,1,inc,305798
+TX,upper,27.0,2022,D,"lamantia, morgan",MORGAN LAMANTIA,LAMANTIA,0,none,419067
+TX,upper,26.0,2022,D,"menendez, jose",JOSE MENENDEZ,MENENDEZ,0,inc,221741
+TX,upper,25.0,2022,R,"campbell, donna",DONNA CAMPBELL,CAMPBELL,0,inc,319605
+TX,upper,24.0,2022,R,"flores, peter p",PETER P FLORES,FLORES,0,none,375953
+TX,upper,23.0,2022,D,"west, royce",ROYCE WEST,WEST,1,inc,220383
+TX,upper,22.0,2022,R,"birdwell, brian",BRIAN BIRDWELL,BIRDWELL,1,inc,305654
+TX,upper,21.0,2022,D,"zaffirini, judith",JUDITH ZAFFIRINI,ZAFFIRINI,0,inc,220307
+TX,upper,20.0,2022,D,"hinojosa, juan (chuy)",JUAN CHUY HINOJOSA,HINOJOSA,0,inc,220269
+TX,upper,19.0,2022,D,"gutierrez, rolando",ROLANDO GUTIERREZ,GUTIERREZ,0,inc,292195
+TX,upper,18.0,2022,R,"kolkhorst, lois w",LOIS W KOLKHORST,KOLKHORST,0,inc,221890
+TX,upper,17.0,2022,R,"huffman, joan",JOAN HUFFMAN,HUFFMAN,0,inc,305647
+TX,upper,16.0,2022,D,"johnson, nathan",NATHAN JOHNSON,JOHNSON,0,inc,389840
+TX,upper,15.0,2022,D,"whitmire, john",JOHN WHITMIRE,WHITMIRE,0,inc,220035
+TX,upper,14.0,2022,D,"eckhardt, sarah",SARAH ECKHARDT,ECKHARDT,1,none,419040
+AR,lower,5.0,2020,D,"fielding, david",DAVID FIELDING,FIELDING,0,inc,295508
+AR,lower,48.0,2020,D,"murdock, reginald",REGINALD MURDOCK,MURDOCK,1,inc,295575
+AR,lower,47.0,2020,R,"christiansen, craig",CRAIG CHRISTIANSEN,CHRISTIANSEN,1,inc,379896
+AR,lower,39.0,2020,R,"lowery, mark",MARK LOWERY,LOWERY,0,inc,9033
+TX,upper,12.0,2020,R,"nelson, jane",JANE NELSON,NELSON,0,inc,219924
+TX,upper,11.0,2020,R,"taylor, larry",LARRY TAYLOR,TAYLOR,0,inc,223121
+TX,lower,147.0,2020,D,"coleman, garnet f",GARNET F COLEMAN,COLEMAN,1,inc,222425
+TX,lower,114.0,2020,D,"turner, john",JOHN TURNER,TURNER,0,inc,280351
+TX,lower,133.0,2020,R,"murphy, jim",JIM MURPHY,MURPHY,0,inc,280413
+TX,lower,127.0,2020,R,"huberty, dan",DAN HUBERTY,HUBERTY,1,inc,305875
+TX,lower,124.0,2020,D,"minjarez, ina",INA MINJAREZ,MINJAREZ,1,inc,376163
+TX,lower,122.0,2020,R,"larson, lyle",LYLE LARSON,LARSON,0,inc,305867
+TX,lower,118.0,2020,D,"pacheco, leo",LEO PACHECO,PACHECO,0,inc,389751
+TX,lower,100.0,2020,D,"crockett, jasmine f",JASMINE F CROCKETT,CROCKETT,1,none,403688
+TX,lower,65.0,2020,D,"beckley, michelle",MICHELLE BECKLEY,BECKLEY,0,inc,389653
+TX,lower,93.0,2020,R,"krause, matt",MATT KRAUSE,KRAUSE,0,inc,319764
+TX,lower,92.0,2020,R,"cason, jeff",JEFF CASON,CASON,0,none,403672
+TX,lower,85.0,2020,R,"stephenson, phil",PHIL STEPHENSON,STEPHENSON,0,inc,223396
+TX,lower,84.0,2020,R,"frullo, john",JOHN FRULLO,FRULLO,0,inc,305799
+TX,lower,50.0,2020,D,"israel, celia",CELIA ISRAEL,ISRAEL,0,inc,333628
+TX,lower,79.0,2020,D,"fierro, art",ART FIERRO,FIERRO,1,none,403649
+TX,lower,73.0,2020,R,"biedermann, kyle",KYLE BIEDERMANN,BIEDERMANN,0,inc,376079
+TX,lower,70.0,2020,R,"sanford, scott",SCOTT SANFORD,SANFORD,0,inc,319732
+TX,lower,68.0,2020,R,"springer, drew",DREW SPRINGER,SPRINGER,0,inc,225762
+TX,lower,63.0,2020,R,"parker, tan",TAN PARKER,PARKER,0,inc,280265
+TX,lower,61.0,2020,R,"king, phil",PHIL KING,KING,0,inc,225626
+TX,lower,51.0,2020,D,"rodriguez, eddie",EDDIE RODRIGUEZ,RODRIGUEZ,0,inc,224958
+TX,lower,17.0,2020,R,"cyrier, john p",JOHN P CYRIER,CYRIER,0,inc,375988
+TX,lower,38.0,2020,D,"lucio, eddie, iii 2",EDDIE 2 LUCIO,LUCIO,1,inc,280214
+TX,lower,37.0,2020,D,"dominguez, alex",ALEX DOMINGUEZ,DOMINGUEZ,1,inc,389607
+TX,lower,23.0,2020,R,"middleton, mayes",MAYES MIDDLETON,MIDDLETON,0,inc,389586
+TX,lower,22.0,2020,D,"deshotel, joseph (joe)",JOSEPH JOE DESHOTEL,DESHOTEL,0,inc,222970
+TX,lower,19.0,2020,R,"white, james e",JAMES E WHITE,WHITE,1,inc,305681
+TN,upper,4.0,2020,R,"lundberg, jon c",JON C LUNDBERG,LUNDBERG,0,inc,279955
+TN,upper,2.0,2020,R,"swann, art",ART SWANN,SWANN,1,inc,305467
+TX,lower,13.0,2020,R,"leman, ben",BEN LEMAN,LEMAN,1,inc,389566
+TX,lower,10.0,2020,R,"ellzey, jake",JAKE ELLZEY,ELLZEY,1,none,333559
+TX,lower,9.0,2020,R,"paddie, chris",CHRIS PADDIE,PADDIE,1,inc,319630
+TN,upper,32.0,2020,R,"rose, paul w",PAUL W ROSE,ROSE,0,none,403513
+TN,upper,30.0,2020,D,"kyle, sara p",SARA P KYLE,KYLE,1,inc,353190
+TN,upper,28.0,2020,R,"hensley, joey",JOEY HENSLEY,HENSLEY,1,inc,217931
+TN,upper,26.0,2020,R,"walley, page",PAGE WALLEY,WALLEY,0,pastother,218527
+TN,upper,24.0,2020,R,"stevens, john d",JOHN D STEVENS,STEVENS,1,inc,319387
+TN,upper,22.0,2020,R,"powers, bill",BILL POWERS,POWERS,0,none,403503
+TN,upper,20.0,2020,D,"campbell, heidi",HEIDI CAMPBELL,CAMPBELL,0,none,403500
+TN,upper,18.0,2020,R,"haile, ferrell",FERRELL HAILE,HAILE,1,inc,213068
+TN,upper,16.0,2020,R,"bowling, janice",JANICE BOWLING,BOWLING,0,inc,319379
+TN,upper,14.0,2020,R,"reeves, shane",SHANE REEVES,REEVES,0,none,403495
+TN,upper,12.0,2020,R,"yager, ken",KEN YAGER,YAGER,1,inc,291752
+TN,upper,10.0,2020,R,"gardenhire, todd",TODD GARDENHIRE,GARDENHIRE,0,inc,319375
+TN,upper,8.0,2020,R,"niceley, frank s",FRANK S NICELEY,NICELEY,1,inc,213748
+TN,upper,6.0,2020,R,"duncanmassey, becky d",BECKY D DUNCANMASSEY,MASSEY,0,inc,319372
+TN,lower,69.0,2020,R,"curcio, michael g",MICHAEL G CURCIO,CURCIO,0,inc,333450
+TN,lower,91.0,2020,D,"lamar, london p",LONDON P LAMAR,LAMAR,1,inc,389496
+TN,lower,52.0,2020,D,"stewart, michael",MICHAEL STEWART,STEWART,0,inc,291848
+TN,lower,79.0,2020,R,"halford, curtis",CURTIS HALFORD,HALFORD,1,inc,291890
+TN,lower,75.0,2020,R,"griffey, bruce i",BRUCE I GRIFFEY,GRIFFEY,1,inc,389473
+TN,lower,71.0,2020,R,"byrd, david (coach)",DAVID COACH BYRD,BYRD,1,inc,333452
+TN,lower,67.0,2020,D,"hodges, jason",JASON HODGES,HODGES,0,inc,389455
+TN,lower,63.0,2020,R,"casada, glen",GLEN CASADA,CASADA,0,inc,217444
+TN,lower,61.0,2020,R,"ogles, brandon",BRANDON OGLES,OGLES,0,inc,389440
+TN,lower,59.0,2020,D,"potts, jason",JASON POTTS,POTTS,1,inc,389438
+TN,lower,20.0,2020,R,"ramsey, bob",BOB RAMSEY,RAMSEY,0,inc,291799
+TN,lower,41.0,2020,D,"windle, john m",JOHN M WINDLE,WINDLE,1,inc,216031
+TN,lower,40.0,2020,R,"weaver, terri l",TERRI L WEAVER,WEAVER,1,inc,280017
+TN,lower,35.0,2020,R,"sexton, jerry",JERRY SEXTON,SEXTON,1,inc,333380
+TN,lower,32.0,2020,R,"calfee, kent d",KENT D CALFEE,CALFEE,1,inc,319450
+TN,lower,29.0,2020,R,"carter, mike",MIKE CARTER,CARTER,1,inc,319444
+TN,lower,26.0,2020,R,"smith, robin",ROBIN SMITH,SMITH,0,inc,389375
+TN,lower,24.0,2020,R,"hall, mark",MARK HALL,HALL,0,inc,389370
+TN,lower,18.0,2020,R,"mannis, eddie",EDDIE MANNIS,MANNIS,0,none,403361
+GA,upper,53.0,2020,R,"mullis, jeff e",JEFF E MULLIS,MULLIS,1,inc,38395
+GA,upper,49.0,2020,R,"miller, cecil t (butch)",CECIL T BUTCH MILLER,MILLER,1,inc,296932
+GA,upper,48.0,2020,D,"au, michelle",MICHELLE AU,AU,0,none,394693
+GA,upper,37.0,2020,R,"tippins, lindsey a",LINDSEY A TIPPINS,TIPPINS,0,inc,296914
+GA,upper,25.0,2020,R,"jones, burt b (burt) 3",BURT B BURT 3 JONES,JONES,0,inc,310349
+GA,upper,14.0,2020,R,"thompson, bruce a",BRUCE A THOMPSON,THOMPSON,0,inc,323541
+GA,lower,160.0,2020,R,"tankersley, jan b",JAN B TANKERSLEY,TANKERSLEY,1,inc,297150
+GA,upper,7.0,2020,R,"harper, tyler j",TYLER J HARPER,HARPER,1,inc,310325
+GA,upper,6.0,2020,D,"jordan, jen",JEN JORDAN,JORDAN,0,inc,381490
+GA,upper,3.0,2020,R,"mcneill, sheila",SHEILA MCNEILL,MCNEILL,1,none,394626
+GA,upper,2.0,2020,D,"jackson, lester g, iii",LESTER G JACKSON,JACKSON,1,inc,40205
+GA,lower,179.0,2020,R,"hogan, don",DON HOGAN,HOGAN,0,inc,363698
+GA,lower,169.0,2020,R,"lariccia, dominic f",DOMINIC F LARICCIA,LARICCIA,0,inc,323885
+GA,lower,165.0,2020,D,"stephens, mickey v (ron) 2",MICKEY V RON 2 STEPHENS,STEPHENS,1,inc,284693
+GA,lower,163.0,2020,D,"mallow, derek j",DEREK J MALLOW,MALLOW,1,none,394599
+GA,lower,156.0,2020,R,"morris, gregory (greg)",GREGORY GREG MORRIS,MORRIS,1,inc,39999
+GA,lower,154.0,2020,D,"dukes, winfred j",WINFRED J DUKES,DUKES,1,inc,40734
+GA,lower,153.0,2020,D,"whitakerhopson, camia",CAMIA WHITAKERHOPSON,WHITAKERHOPSON,1,inc,381447
+GA,lower,149.0,2020,R,"pruitt, robert",ROBERT PRUITT,PRUITT,1,none,394582
+GA,lower,147.0,2020,R,"clark, heath n",HEATH N CLARK,CLARK,0,inc,323848
+GA,lower,145.0,2020,R,"williams, r kyle",R KYLE WILLIAMS,WILLIAMS,0,inc,38453
+GA,lower,112.0,2020,R,"belton, dave c (dave)",DAVE C DAVE BELTON,BELTON,1,inc,323798
+GA,lower,135.0,2020,D,"smyre, calvin",CALVIN SMYRE,SMYRE,1,inc,39496
+GA,lower,129.0,2020,R,"holmes, susan d",SUSAN D HOLMES,HOLMES,0,inc,297109
+GA,lower,95.0,2020,D,"moore, beth",BETH MOORE,MOORE,0,inc,381365
+GA,lower,125.0,2020,D,"clarknelson, sheila",SHEILA CLARKNELSON,NELSON,1,inc,363636
+GA,lower,116.0,2020,R,"england, terry l",TERRY L ENGLAND,ENGLAND,1,inc,261098
+GA,lower,114.0,2020,R,"kirby, l thomas (tom)",L THOMAS TOM KIRBY,KIRBY,1,inc,310525
+GA,lower,80.0,2020,D,"wilson, matthew",MATTHEW WILSON,WILSON,0,inc,381347
+GA,lower,79.0,2020,D,"wilensky, michael s",MICHAEL S WILENSKY,WILENSKY,0,inc,381344
+GA,lower,106.0,2020,D,"mitchell, rebecca",REBECCA MITCHELL,MITCHELL,0,none,394519
+GA,lower,105.0,2020,D,"mcleod, donna",DONNA MCLEOD,MCLEOD,0,inc,363613
+GA,lower,103.0,2020,R,"barr, timothy l",TIMOTHY L BARR,BARR,0,inc,310512
+GA,lower,97.0,2020,R,"rich, bonnie",BONNIE RICH,RICH,0,inc,381367
+GA,lower,64.0,2020,D,"jackson, derrick l",DERRICK L JACKSON,JACKSON,1,inc,363561
+GA,lower,90.0,2020,D,"stephenson, pamela s (pam)",PAMELA S PAM STEPHENSON,STEPHENSON,1,inc,44912
+GA,lower,89.0,2020,D,"nguyen, bee",BEE NGUYEN,NGUYEN,1,inc,381357
+GA,lower,86.0,2020,D,"lopez, zulma",ZULMA LOPEZ,LOPEZ,1,none,394490
+GA,lower,84.0,2020,D,"shannon, renitta",RENITTA SHANNON,SHANNON,1,inc,363587
+GA,lower,48.0,2020,D,"robichaux, mary",MARY ROBICHAUX,ROBICHAUX,0,inc,381307
+GA,lower,71.0,2020,R,"singleton, philip",PHILIP SINGLETON,SINGLETON,0,none,394471
+GA,lower,69.0,2020,R,"nix, randall o (randy)",RANDALL O RANDY NIX,NIX,0,inc,272376
+GA,lower,67.0,2020,R,"gravley, micah t (micah)",MICAH T MICAH GRAVLEY,GRAVLEY,0,inc,310469
+GA,lower,31.0,2020,R,"benton, thomas h (tommy)",THOMAS H TOMMY BENTON,BENTON,0,inc,260990
+GA,lower,62.0,2020,D,"boddie, william k, jr",WILLIAM K BODDIE,BODDIE,1,inc,363559
+GA,lower,59.0,2020,D,"dreyer, david",DAVID DREYER,DREYER,1,inc,363555
+GA,lower,55.0,2020,D,"metze, marie r",MARIE R METZE,METZE,1,inc,363551
+GA,lower,51.0,2020,D,"mclaurin, josh",JOSH MCLAURIN,MCLAURIN,0,inc,381313
+GA,lower,50.0,2020,D,"kausche, angelika",ANGELIKA KAUSCHE,KAUSCHE,0,inc,381310
+GA,lower,45.0,2020,R,"dollar, matthew k (matt)",MATTHEW K MATT DOLLAR,DOLLAR,0,inc,42898
+GA,lower,40.0,2020,D,"allen, erick e",ERICK E ALLEN,ALLEN,0,inc,323693
+GA,lower,39.0,2020,D,"thomas, erica r",ERICA R THOMAS,THOMAS,0,inc,323691
+GA,lower,35.0,2020,R,"setzler, l edwin (ed)",L EDWIN ED SETZLER,SETZLER,0,inc,260996
+GA,lower,34.0,2020,R,"reeves, albert t (bert)",ALBERT T BERT REEVES,REEVES,0,inc,323683
+GA,lower,24.0,2020,R,"smallwoodgilligan, sheri",SHERI SMALLWOODGILLIGAN,SMALLWOODGILLIGAN,0,inc,323669
+GA,lower,22.0,2020,R,"cantrell, wesley e (wes)",WESLEY E WES CANTRELL,CANTRELL,0,inc,323664
+AR,lower,100.0,2020,R,"speaks, nelda",NELDA SPEAKS,SPEAKS,1,inc,322203
+GA,lower,3.0,2020,R,"hill, dewayne",DEWAYNE HILL,HILL,1,inc,363490
+AR,upper,27.0,2020,R,"garner, trent",TRENT GARNER,GARNER,0,inc,361626
+AR,upper,12.0,2020,R,"beckham, charles",CHARLES BECKHAM,BECKHAM,0,none,393021
+AR,upper,7.0,2020,R,"eads, lance",LANCE EADS,EADS,1,inc,322177
+AR,upper,2.0,2020,R,"hendren, jim",JIM HENDREN,HENDREN,0,inc,6890
+AR,lower,96.0,2020,R,"bryant, jill",JILL BRYANT,BRYANT,0,none,393006
+AR,lower,93.0,2020,R,"dotson, jim",JIM DOTSON,DOTSON,0,inc,309015
+AR,lower,92.0,2020,R,"hendrenmckenzie, gayla",GAYLA HENDRENMCKENZIE,HENDRENMCKENZIE,1,inc,379937
+AR,lower,89.0,2020,D,"godfrey, megan",MEGAN GODFREY,GODFREY,0,inc,379932
+AR,lower,88.0,2020,R,"penzo, clint",CLINT PENZO,PENZO,0,inc,361753
+AR,lower,83.0,2020,R,"slape, keith",KEITH SLAPE,SLAPE,1,inc,391307
+AR,lower,81.0,2020,R,"coleman, bruce",BRUCE COLEMAN,COLEMAN,1,inc,361744
+AR,lower,79.0,2020,R,"deffenbaugh, gary",GARY DEFFENBAUGH,DEFFENBAUGH,1,inc,295595
+AR,lower,77.0,2020,R,"boyd, justin",JUSTIN BOYD,BOYD,1,inc,322162
+AR,lower,71.0,2020,R,"cloud, joe",JOE CLOUD,CLOUD,1,inc,379916
+AR,lower,70.0,2020,R,"hawks, spencer",SPENCER HAWKS,HAWKS,1,inc,379915
+AR,lower,64.0,2020,R,"payton, john",JOHN PAYTON,PAYTON,1,inc,308968
+AR,lower,63.0,2020,R,"smith, stu",STU SMITH,SMITH,1,inc,391296
+AR,lower,62.0,2020,R,"gray, michelle",MICHELLE GRAY,GRAY,1,inc,322137
+AR,lower,61.0,2020,R,"davis, marsh",MARSH DAVIS,DAVIS,1,inc,361719
+AR,lower,58.0,2020,R,"smith, brandt",BRANDT SMITH,SMITH,0,inc,322129
+AR,lower,56.0,2020,R,"jett, joe",JOE JETT,JETT,1,inc,308951
+AR,lower,55.0,2020,D,"hodges, monte",MONTE HODGES,HODGES,0,inc,308950
+AR,lower,12.0,2020,R,"tollett, david",DAVID TOLLETT,TOLLETT,1,none,392886
+AR,lower,29.0,2020,D,"love, fredrick (fred)",FREDRICK FRED LOVE,LOVE,1,inc,295552
+TX,upper,27.0,2020,D,"lucio, eddie, jr 1",EDDIE 1 LUCIO,LUCIO,0,inc,220519
+TX,upper,24.0,2020,R,"buckingham, dawn",DAWN BUCKINGHAM,BUCKINGHAM,0,inc,375961
+AR,lower,15.0,2020,R,"bragg, ken",KEN BRAGG,BRAGG,1,inc,308890
+AR,lower,13.0,2020,R,"hillman, david",DAVID HILLMAN,HILLMAN,1,inc,308887

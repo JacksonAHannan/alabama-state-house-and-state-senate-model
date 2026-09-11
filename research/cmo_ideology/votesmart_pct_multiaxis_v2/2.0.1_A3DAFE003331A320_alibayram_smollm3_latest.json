@@ -1,0 +1,18 @@
+{
+  "primary_domain": "education",
+  "policy_key": "education_governance",
+  "plain_english_policy": "Tenure Process Reform",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "primary",
+      "rationale": "The tenure process is being reformed to restrict the length of time teachers can remain in their positions without demonstrating improvement or meeting certain performance criteria."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Tenure should be a privilege, not an entitlement,\" said Rep. Bill Hightower, D-Montgomery, who has introduced legislation to limit the number of years teachers can remain in their jobs without demonstrating improvement or meeting certain performance criteria.\"",
+  "needs_human_review": true,
+  "review_reason": ""
+}

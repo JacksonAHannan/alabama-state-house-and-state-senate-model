@@ -1,0 +1,11 @@
+{
+  "policy_key": "voter_id_requirement",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Mandating government-issued photo ID for in-person voting.",
+  "evidence_quote": "*'I believe every eligible voter should be able to cast their ballot without unnecessary barriers. Requiring a government-issued ID could disenfranchise low-income voters, seniors, and minorities who may not have easy access to such identification.'*",
+  "needs_human_review": false,
+  "review_reason": ""
+}

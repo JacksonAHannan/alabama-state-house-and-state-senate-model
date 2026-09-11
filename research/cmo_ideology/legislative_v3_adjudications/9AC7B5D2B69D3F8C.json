@@ -1,0 +1,10 @@
+{
+  "id": "9AC7B5D2B69D3F8C",
+  "decision": "map",
+  "primitive_axis": "drug_criminalization",
+  "policy_pole": "criminalize",
+  "confidence": "high",
+  "rationale": "The bill expands criminal penalties for Medicaid fraud and strengthens enforcement mechanisms, directly targeting drug-related fraud as a crime.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

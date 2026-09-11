@@ -1,0 +1,11 @@
+{
+  "policy_key": "healthcare_tax_free_medical_savings_accounts",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting tax-free medical savings accounts that are taxed if used for non-medical purposes is a policy option often associated with conservative principles advocating for individual responsibility and limited government intervention in healthcare financing.",
+  "evidence_quote": "Encourage tax-free medical savings accounts, which would be taxed if used for any purpose other than medical costs.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

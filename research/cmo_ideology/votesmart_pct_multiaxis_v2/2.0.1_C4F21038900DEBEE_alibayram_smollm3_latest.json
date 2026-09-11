@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "welfare_policy",
+  "plain_english_policy": "Transfer more existing Medicaid recipients into managed care programs.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Managed care programs often have restrictions on the types of services that can be provided and may require patients to choose from a limited set of providers."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Transfer more existing Medicaid recipients into managed care programs.\" - 2002 Health Issues Questionnaire Option b.",
+  "needs_human_review": true,
+  "review_reason": "The policy is described as a transfer to managed care programs which may have restrictions on services and provider choices."
+}

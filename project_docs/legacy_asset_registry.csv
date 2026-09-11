@@ -1,10 +1,13 @@
 asset_pattern,status,replacement,reason
-data/processed/war/cmo_v2_*,historical,data/processed/war/cmo_v4_*,Superseded context-model experiment
-data/processed/war/cmo_v3_*,historical,data/processed/war/cmo_v4_*,Superseded direct-ticket estimand
-data/processed/war/preliminary_cmo_*,historical,data/processed/war/cmo_v4_*,Superseded preliminary model
-scripts/rebuild_cmo_methodology_v2.py,historical,scripts/rebuild_cmo_war_analogue.py,Retained for reproducibility only
-scripts/rebuild_cmo_direct_estimand.py,historical,scripts/rebuild_cmo_war_analogue.py,Retained for reproducibility only
-scripts/fit_preliminary_war_model.py,historical,scripts/rebuild_cmo_war_analogue.py,Retained for reproducibility and forecast scenario audit
-docs/data/cmo_v2_*,removed,docs/data/cmo_v4_*,Publication output must expose current model only
-docs/data/cmo_v3_*,removed,docs/data/cmo_v4_*,Publication output must expose current model only
-docs/data/preliminary_cmo_*,removed,docs/data/cmo_v4_*,Publication output must expose current model only
+data/processed/war/cmo_v2_*,historical,project_docs/CANONICAL_PIPELINES.md,Superseded experiment; retain required replay inputs; replacement is a routing document not a schema-compatible CSV
+data/processed/war/cmo_v3_*,historical,project_docs/CANONICAL_PIPELINES.md,Superseded experiment; trace consumers before removal
+data/processed/war/preliminary_cmo_*,historical,project_docs/CANONICAL_PIPELINES.md,Superseded preliminary product; not a current public default
+scripts/rebuild_cmo_methodology_v2.py,historical,project_docs/CANONICAL_PIPELINES.md,Retained for reproducibility; not the default historical WAR refresh
+scripts/rebuild_cmo_direct_estimand.py,historical,project_docs/CANONICAL_PIPELINES.md,Retained for reproducibility; no automatic replacement invocation
+scripts/fit_preliminary_war_model.py,historical,project_docs/CANONICAL_PIPELINES.md,Retained for reproducibility and historical diagnostics
+docs/data/cmo_v2_*,removed,project_docs/CANONICAL_PIPELINES.md,Records earlier cleanup disposition; not certification of current public contents
+docs/data/cmo_v3_*,removed,project_docs/CANONICAL_PIPELINES.md,Records earlier cleanup disposition; not certification of current public contents
+docs/data/preliminary_cmo_*,removed,project_docs/CANONICAL_PIPELINES.md,Records earlier cleanup disposition; not certification of current public contents
+data/processed/war/cmo_v4_*,historical,project_docs/CANONICAL_PIPELINES.md,No longer the public default; compatibility or research consumers may still require these files
+data/processed/war/cmo_v5_*,historical,project_docs/CANONICAL_PIPELINES.md,Historical WAR builders still consume some v5 inputs; do not delete or directly substitute schemas
+data/processed/war/cmo_v6_*,historical,project_docs/CANONICAL_PIPELINES.md,Superseded public decomposition; retain replay and compatibility evidence

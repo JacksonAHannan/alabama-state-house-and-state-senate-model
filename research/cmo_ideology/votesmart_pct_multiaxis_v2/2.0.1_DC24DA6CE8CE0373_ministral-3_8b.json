@@ -1,0 +1,30 @@
+{
+  "primary_domain": "childcare",
+  "policy_key": "family_support_enforcement",
+  "plain_english_policy": "Enforce court-ordered child support through denial or suspension of state-issued permits and licenses for delinquent parents.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "The policy restricts access to state benefits (permits/licenses) for non-compliance with child support obligations, effectively reducing welfare-like entitlements."
+    },
+    {
+      "axis": "childcare_support",
+      "pole": "restriction",
+      "strength": "primary",
+      "rationale": "The policy directly restricts parental access to resources (permits/licenses) that could indirectly support childcare responsibilities, though it does not explicitly address childcare provision."
+    },
+    {
+      "axis": "family_support_enforcement",
+      "pole": "strict_enforcement",
+      "strength": "primary",
+      "rationale": "The policy explicitly states a mechanism for strict enforcement of court-ordered child support via administrative penalties (denial/suspension)."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Deny or suspend state-issued permits and licenses to parents who are delinquent in paying court-ordered child support.\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

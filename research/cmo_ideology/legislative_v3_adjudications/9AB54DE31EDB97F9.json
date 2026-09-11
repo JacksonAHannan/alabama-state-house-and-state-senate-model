@@ -1,0 +1,10 @@
+{
+  "id": "9AB54DE31EDB97F9",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "The measure provides **lifetime, no-cost pistol permits** to retired military personnel, directly expanding access. The revocation power is secondary and does not offset the primary expansion.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

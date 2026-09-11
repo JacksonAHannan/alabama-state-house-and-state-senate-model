@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_taxpayer_funding",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Public funding of campaigns via taxpayer dollars for candidates who meet spending limits.",
+  "evidence_quote": "Support public taxpayer funding for federal candidates who comply with campaign spending limits.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

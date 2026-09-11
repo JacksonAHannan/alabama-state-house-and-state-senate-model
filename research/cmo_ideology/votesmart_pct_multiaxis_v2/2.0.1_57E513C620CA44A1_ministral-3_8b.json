@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "welfare_policy=restriction",
+  "plain_english_policy": "Remove all state-provided welfare funding and services.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "The option explicitly calls for the elimination of welfare programs, which is a maximal restriction."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "private_provision",
+      "strength": "primary",
+      "rationale": "Eliminating government-funded welfare implies shifting all provision to private or non-governmental means."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Eliminate government-funded welfare programs.\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "mexican_border_wall",
+  "dimension": "immigration_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Explicitly advocate for a physical barrier (wall) to restrict unauthorized crossings from Mexico into the U.S.",
+  "evidence_quote": "*Do you support the construction of a wall along the Mexican border?*",
+  "needs_human_review": false,
+  "review_reason": ""
+}

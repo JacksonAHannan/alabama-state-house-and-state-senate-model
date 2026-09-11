@@ -1,0 +1,24 @@
+{
+  "primary_domain": "government_reform",
+  "policy_key": "redistricting",
+  "plain_english_policy": "Support for independent and/or bipartisan commissions for redistricting.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "secondary"
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "secondary"
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Do you support the use of an independent AND/OR bipartisan commission for redistricting?",
+  "needs_human_review": false,
+  "review_reason": "This question asks about a policy mechanism related to redistricting. It is not a direct statement of opinion on the effects of that policy."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "C7F5127EF0D4574E",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Authorizing school resource officer contracts for nonpublic schools concerns school safety, which is not represented by the allowed education axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

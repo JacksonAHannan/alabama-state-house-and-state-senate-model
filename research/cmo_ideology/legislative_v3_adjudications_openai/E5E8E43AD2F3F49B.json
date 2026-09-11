@@ -1,0 +1,10 @@
+{
+  "id": "E5E8E43AD2F3F49B",
+  "decision": "map",
+  "primitive_axis": "education_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Allows students to self-administer asthma medication with parental and medical authorization, expanding access to necessary medication in school settings.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

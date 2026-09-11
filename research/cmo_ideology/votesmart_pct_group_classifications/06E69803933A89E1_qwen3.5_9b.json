@@ -1,0 +1,11 @@
+{
+  "policy_key": "international_trade_fast_track",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting fast-track authority for the President in trade negotiations is conventionally more progressive as it aligns with free-trade principles and reduces bureaucratic hurdles.",
+  "evidence_quote": "Do you support granting the President \"fast-track\" authority in trade negotiations?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

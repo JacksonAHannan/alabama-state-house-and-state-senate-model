@@ -13,6 +13,7 @@ from build_geographic_crosswalks import (
     spatial_precinct_weights,
 )
 from oe_normalize import normalize_name
+from source_vote_quality import require_reported_vote_quality
 
 ROOT=Path(__file__).resolve().parents[1]
 DB=ROOT/"data"/"processed"/"elections"/"alabama_elections.sqlite"
@@ -26,6 +27,10 @@ def clean_vtd(value):
 
 def main():
     with sqlite3.connect(DB) as c:
+        require_reported_vote_quality(
+            c, """source='alabama_sos'
+            and office in ('State House','State Senate') and district is not null
+            and year in (2010,2014,2018,2022)""")
         nodes=pd.read_sql("select node_id,year,county_key,precinct_key,county_level_ballot from precinct_nodes where source='alabama_sos' and year in (2010,2014,2018,2022)",c)
         links=pd.read_sql("select * from canonical_precinct_geography_links",c)
         legislative=pd.read_sql("""select year,county_key,precinct_key,office,district,votes

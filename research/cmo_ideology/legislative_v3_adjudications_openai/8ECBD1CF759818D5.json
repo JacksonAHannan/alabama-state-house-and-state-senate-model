@@ -1,0 +1,10 @@
+{
+  "id": "8ECBD1CF759818D5",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The amendment changes wording in a synopsis without providing enough substantive text to identify a policy direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

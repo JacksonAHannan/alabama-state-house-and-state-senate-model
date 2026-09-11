@@ -1,0 +1,10 @@
+{
+  "id": "930394F3E109F0A1",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Creates a Medicaid trust fund and investment governance structure without clearly changing access, delivery, or program responsibility.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

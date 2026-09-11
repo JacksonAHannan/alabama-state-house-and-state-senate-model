@@ -1,0 +1,11 @@
+{
+  "policy_key": "excise_taxes_cigarettes",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase excise taxes on cigarettes to reduce consumption and generate revenue.",
+  "evidence_quote": "5 (Highest level of federal spending/taxing)",
+  "needs_human_review": false,
+  "review_reason": ""
+}

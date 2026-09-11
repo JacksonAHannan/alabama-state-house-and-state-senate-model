@@ -1,0 +1,194 @@
+cycle,county_key,precinct_key,decoder_method,decoded_code,candidate_count,unique_donor,donor_vtd_id,donor_name
+1998,LEE,06/BOX 4,lee_beat_box_code,60,1,True,VTD2000-081-0060,Auburn
+1998,MOBILE,34-102-09,mobile_senate_house_box_code,102-9,1,True,VTD2000-097-102-9,ABBA Temple Shrine Auditorium
+1998,LEE,06/BOX 3,lee_beat_box_code,60,1,True,VTD2000-081-0060,Auburn
+1998,MOBILE,33-099-04,mobile_senate_house_box_code,99-4,1,True,VTD2000-097-99-4,Ariel Holloway School
+1998,MORGAN,15-001,morgan_segmented_code,15-1,1,True,VTD2000-103-15-1,John J Sparkman Civic Center
+2002,LEE,"BEAT 2, BOX 5",lee_beat_box_code,20,1,True,VTD2000-081-0020,Opelika
+1998,MOBILE,34-102-06,mobile_senate_house_box_code,102-6,1,True,VTD2000-097-102-6,Mary Montgomery School
+1994,LEE,BEAT 06/BOX 3,lee_beat_box_code,60,1,True,VTD2000-081-0060,Auburn
+1998,MOBILE,35-104-01,mobile_senate_house_box_code,104-1,1,True,VTD2000-097-104-1,Tillman's Corner
+1998,MOBILE,34-100-05,mobile_senate_house_box_code,100-5,1,True,VTD2000-097-100-5,Our Savior Catholic Church
+1998,MOBILE,34-100-04,mobile_senate_house_box_code,100-4,1,True,VTD2000-097-100-4,Hillcrest Baptist Church
+2002,LEE,"BEAT 6, BOX 4",lee_beat_box_code,60,1,True,VTD2000-081-0060,Auburn
+1994,LEE,BEAT 06/BOX 4,lee_beat_box_code,60,1,True,VTD2000-081-0060,Auburn
+1998,MOBILE,35-104-08,mobile_senate_house_box_code,104-8,1,True,VTD2000-097-104-8,Dodge School
+1998,MOBILE,34-101-03,mobile_senate_house_box_code,101-3,1,True,VTD2000-097-101-3,E R Dickson School
+1998,MOBILE,35-104-09,mobile_senate_house_box_code,104-9,1,True,VTD2000-097-104-9,Cranford H Burns Middle School
+1998,MOBILE,32-096-01,mobile_senate_house_box_code,96-1,1,True,VTD2000-097-96-1,TWUA Union Hall
+1998,MOBILE,34-100-06,mobile_senate_house_box_code,100-6,1,True,VTD2000-097-100-6,Creekwood Church Of Christ
+1998,MOBILE,32-096-12,mobile_senate_house_box_code,96-12,1,True,VTD2000-097-96-12,Chickasaw Auditorium
+1998,LEE,02/BOX 5,lee_beat_box_code,20,1,True,VTD2000-081-0020,Opelika
+1998,MOBILE,35-105-07,mobile_senate_house_box_code,105-7,1,True,VTD2000-097-105-7,Grande Bay Middle School
+1998,LEE,14/BOX 0,lee_beat_box_code,140,1,True,VTD2000-081-0140,Smiths High School
+1998,MORGAN,4-003,morgan_segmented_code,4-3,1,True,VTD2000-103-4-3,Eastwood Elem School
+1998,MOBILE,35-103-07,mobile_senate_house_box_code,103-7,1,True,VTD2000-097-103-7,Rickarby Park
+1998,MOBILE,33-097-07,mobile_senate_house_box_code,97-7,1,True,VTD2000-097-97-7,Rock Of Faith Baptist Church
+1998,LEE,06/BOX 1,lee_beat_box_code,60,1,True,VTD2000-081-0060,Auburn
+1998,MOBILE,32-096-10,mobile_senate_house_box_code,96-10,1,True,VTD2000-097-96-10,Saraland Woman's Club
+1998,MOBILE,33-098-03,mobile_senate_house_box_code,98-3,1,True,VTD2000-097-98-3,Blount High School
+1998,LEE,02/BOX 4,lee_beat_box_code,20,1,True,VTD2000-081-0020,Opelika
+2002,LEE,"BEAT 6, BOX 1",lee_beat_box_code,60,1,True,VTD2000-081-0060,Auburn
+1998,MOBILE,35-105-01,mobile_senate_house_box_code,105-1,1,True,VTD2000-097-105-1,Knights Of Columbus Hall
+1998,MOBILE,34-102-07,mobile_senate_house_box_code,102-7,1,True,VTD2000-097-102-7,Jon Archer Agricultural Center
+1998,MOBILE,35-103-09,mobile_senate_house_box_code,103-9,1,True,VTD2000-097-103-9,Morningside School
+1998,MORGAN,5-001,morgan_segmented_code,5-1,1,True,VTD2000-103-5-1,Priceville Fire Station
+1998,LEE,02/BOX 3,lee_beat_box_code,20,1,True,VTD2000-081-0020,Opelika
+1994,LEE,BEAT 02/BOX 5,lee_beat_box_code,20,1,True,VTD2000-081-0020,Opelika
+1998,LEE,06/BOX 2,lee_beat_box_code,60,1,True,VTD2000-081-0060,Auburn
+1994,LEE,BEAT 02/BOX 3,lee_beat_box_code,20,1,True,VTD2000-081-0020,Opelika
+2002,LEE,"BEAT 2, BOX 3",lee_beat_box_code,20,1,True,VTD2000-081-0020,Opelika
+1998,MOBILE,33-099-09,mobile_senate_house_box_code,99-9,1,True,VTD2000-097-99-9,Orchard School
+1998,MOBILE,35-105-05,mobile_senate_house_box_code,105-5,1,True,VTD2000-097-105-5,Meadowlake Elementary School
+1998,MOBILE,35-103-10,mobile_senate_house_box_code,103-10,1,True,VTD2000-097-103-10,Mae Eanes School
+1998,MOBILE,32-096-11,mobile_senate_house_box_code,96-11,1,True,VTD2000-097-96-11,Saraland Civic Center
+1998,MORGAN,3-006,morgan_segmented_code,3-6,1,True,VTD2000-103-3-6,Woodmeade Elem School
+1994,LEE,BEAT 06/BOX 1,lee_beat_box_code,60,1,True,VTD2000-081-0060,Auburn
+1998,MOBILE,34-102-01,mobile_senate_house_box_code,102-1,1,True,VTD2000-097-102-1,Citronelle Natl Guard Armory
+1994,LEE,BEAT 02/BOX 4,lee_beat_box_code,20,1,True,VTD2000-081-0020,Opelika
+2002,LEE,"BEAT 2, BOX 1",lee_beat_box_code,20,1,True,VTD2000-081-0020,Opelika
+1998,MOBILE,34-101-07,mobile_senate_house_box_code,101-7,1,True,VTD2000-097-101-7,First Independent Methodist Church
+1998,MOBILE,35-105-04,mobile_senate_house_box_code,105-4,1,True,VTD2000-097-105-4,St Elmo Elementary School
+1994,LEE,BEAT 14/BOX 0,lee_beat_box_code,140,1,True,VTD2000-081-0140,Smiths High School
+1998,MOBILE,35-104-10,mobile_senate_house_box_code,104-10,1,True,VTD2000-097-104-10,Travis Road Baptist Church
+1998,MOBILE,33-098-02,mobile_senate_house_box_code,98-2,1,True,VTD2000-097-98-2,Vigor High School
+2002,LEE,"BEAT6 2, BOX 2",lee_beat_box_code,20,1,True,VTD2000-081-0020,Opelika
+1994,LEE,BEAT 06/BOX 2,lee_beat_box_code,60,1,True,VTD2000-081-0060,Auburn
+1998,MOBILE,34-100-01,mobile_senate_house_box_code,100-1,1,True,VTD2000-097-100-1,Mobile Botanical Gardens
+1998,LEE,02/BOX 1,lee_beat_box_code,20,1,True,VTD2000-081-0020,Opelika
+1998,MOBILE,33-098-05,mobile_senate_house_box_code,98-5,1,True,VTD2000-097-98-5,Eight Mile School
+1998,MOBILE,34-101-06,mobile_senate_house_box_code,101-6,1,True,VTD2000-097-101-6,Kate Shepard School
+1998,MOBILE,34-101-04,mobile_senate_house_box_code,101-4,1,True,VTD2000-097-101-4,Azalea Road Middle School
+1998,MORGAN,9-001,morgan_segmented_code,9-1,1,True,VTD2000-103-9-1,Union Hill Jr High School
+1998,MORGAN,18-001,morgan_segmented_code,18-1,1,True,VTD2000-103-18-1,Neel Fire Dept
+1998,MORGAN,3-011,morgan_segmented_code,3-11,1,True,VTD2000-103-3-11,Benjamin Davis Elem School
+1998,MORGAN,3-007,morgan_segmented_code,3-7,1,True,VTD2000-103-3-7,Aquadome Recreation Center
+1998,MORGAN,4-001,morgan_segmented_code,4-1,1,True,VTD2000-103-4-1,Decature Fire & Rescue Station
+1998,MOBILE,33-098-04,mobile_senate_house_box_code,98-4,1,True,VTD2000-097-98-4,Prichard Fire Station
+1998,MOBILE,35-104-05,mobile_senate_house_box_code,104-5,1,True,VTD2000-097-104-5,St Andrews Episcopal Church
+2002,LEE,"BEAT 2, BOX 4",lee_beat_box_code,20,1,True,VTD2000-081-0020,Opelika
+1998,LEE,02/BOX 2,lee_beat_box_code,20,1,True,VTD2000-081-0020,Opelika
+1998,MORGAN,3-008,morgan_segmented_code,3-8,1,True,VTD2000-103-3-8,Austinville Elem School
+1998,MOBILE,34-101-02,mobile_senate_house_box_code,101-2,1,True,VTD2000-097-101-2,St Ignatious Church
+1998,MORGAN,3-005,morgan_segmented_code,3-5,1,True,VTD2000-103-3-5,Somerville Rd Elem School
+1998,MOBILE,35-105-08,mobile_senate_house_box_code,105-8,1,True,VTD2000-097-105-8,Odd Fellows Lodge
+1998,MOBILE,35-104-03,mobile_senate_house_box_code,104-3,1,True,VTD2000-097-104-3,St Philip Church
+1998,MOBILE,33-099-03,mobile_senate_house_box_code,99-3,1,True,VTD2000-097-99-3,Leflore High School
+1998,MOBILE,34-100-02,mobile_senate_house_box_code,100-2,1,True,VTD2000-097-100-2,St John United Methodist Church
+1998,MORGAN,14-001,morgan_segmented_code,14-1,1,True,VTD2000-103-14-1,Sparkman Elem School
+1998,MOBILE,32-096-09,mobile_senate_house_box_code,96-9,1,True,VTD2000-097-96-9,Kali-Oka Civic Club
+2002,LEE,"BEAT 6, BOX 0",lee_beat_box_code,60,1,True,VTD2000-081-0060,Auburn
+1998,MORGAN,16-001,morgan_segmented_code,16-1,1,True,VTD2000-103-16-1,Trinity Municipal Building
+1998,MOBILE,33-097-05,mobile_senate_house_box_code,97-5,1,True,VTD2000-097-97-5,St Joan Of Arc Church
+1998,MOBILE,32-096-02,mobile_senate_house_box_code,96-2,1,True,VTD2000-097-96-2,Creola City Hall
+1998,MORGAN,8-001,morgan_segmented_code,8-1,1,True,VTD2000-103-8-1,Lacey's Spring Comm Center
+1998,MOBILE,34-101-08,mobile_senate_house_box_code,101-8,1,True,VTD2000-097-101-8,Sage Ave Baptist Church
+1998,MORGAN,3-004,morgan_segmented_code,3-4,1,True,VTD2000-103-3-4,Decatur High School
+1998,MOBILE,35-103-03,mobile_senate_house_box_code,103-3,1,True,VTD2000-097-103-3,St Francis Xavier Church
+1994,LEE,BEAT 02/BOX 1,lee_beat_box_code,20,1,True,VTD2000-081-0020,Opelika
+1994,LEE,BEAT 02/BOX 2,lee_beat_box_code,20,1,True,VTD2000-081-0020,Opelika
+1998,MOBILE,33-099-08,mobile_senate_house_box_code,99-8,1,True,VTD2000-097-99-8,Gulf Hills Baptist
+1998,MORGAN,13-001,morgan_segmented_code,13-1,1,True,VTD2000-103-13-1,Somerville Town Hall
+1998,MOBILE,33-097-02,mobile_senate_house_box_code,97-2,1,True,VTD2000-097-97-2,Bishop St Community college
+1998,MOBILE,33-097-08,mobile_senate_house_box_code,97-8,1,True,VTD2000-097-97-8,Elks Lodge #108
+1998,MOBILE,32-096-06,mobile_senate_house_box_code,96-6,1,True,VTD2000-097-96-6,Turnerville Community Center
+1998,MOBILE,34-101-05,mobile_senate_house_box_code,101-5,0,False,,
+1998,MOBILE,34-102-05,mobile_senate_house_box_code,102-5,1,True,VTD2000-097-102-5,First Baptist Church Of Wilmer
+1998,MOBILE,35-104-02,mobile_senate_house_box_code,104-2,1,True,VTD2000-097-104-2,Hollingers Island School
+1998,MOBILE,32-096-03,mobile_senate_house_box_code,96-3,1,True,VTD2000-097-96-3,Mt Vernon Civic Center
+1998,MOBILE,34-101-09,mobile_senate_house_box_code,101-9,1,True,VTD2000-097-101-9,Pleasant Valley Methodist Church
+1998,MOBILE,34-102-04,mobile_senate_house_box_code,102-4,1,True,VTD2000-097-102-4,Georgetown Baptist Church
+1998,MORGAN,4-002,morgan_segmented_code,4-2,1,True,VTD2000-103-4-2,Walter Jackson Elem School
+1998,MOBILE,35-105-02,mobile_senate_house_box_code,105-2,1,True,VTD2000-097-105-2,Alabama Port Fire Station
+1998,MOBILE,33-097-04,mobile_senate_house_box_code,97-4,1,True,VTD2000-097-97-4,Springhill Ave Recreation Center
+1998,MOBILE,35-105-10,mobile_senate_house_box_code,105-10,1,True,VTD2000-097-105-10,Dauphin Island City Hall
+1998,MOBILE,35-105-06,mobile_senate_house_box_code,105-6,1,True,VTD2000-097-105-6,Grande Bay Fire Station
+1998,MOBILE,33-097-06,mobile_senate_house_box_code,97-6,1,True,VTD2000-097-97-6,Mobile Civic Center
+1998,MORGAN,2-001,morgan_segmented_code,2-1,1,True,VTD2000-103-2-1,Flint Elementary School
+1998,MOBILE,34-100-03,mobile_senate_house_box_code,100-3,1,True,VTD2000-097-100-3,University Church Of Christ
+1998,MOBILE,34-101-01,mobile_senate_house_box_code,101-1,1,True,VTD2000-097-101-1,Augusta Evans School
+1998,MORGAN,21-001,morgan_segmented_code,21-1,1,True,VTD2000-103-21-1,Falkville Municipal Building
+1998,LEE,06/BOX 0,lee_beat_box_code,60,1,True,VTD2000-081-0060,Auburn
+1998,MOBILE,35-103-02,mobile_senate_house_box_code,103-2,1,True,VTD2000-097-103-2,Plateau Community Center
+1998,MOBILE,35-103-06,mobile_senate_house_box_code,103-6,1,True,VTD2000-097-103-6,Providence Baptist Church
+1998,LEE,07/BOX 0,lee_beat_box_code,70,1,True,VTD2000-081-0070,Beuaregard School
+1998,MOBILE,33-099-05,mobile_senate_house_box_code,99-5,1,True,VTD2000-097-99-5,Boys Club Of Mobile
+1998,MOBILE,33-097-01,mobile_senate_house_box_code,97-1,1,True,VTD2000-097-97-1,Mary Abbie Berg
+1998,MORGAN,30-001,morgan_segmented_code,30-1,0,False,,
+1998,MORGAN,3-015,morgan_segmented_code,3-15,1,True,VTD2000-103-3-15,Frances Nungester Elem School
+1998,MOBILE,34-102-08,mobile_senate_house_box_code,102-8,1,True,VTD2000-097-102-8,Tanner Williams School
+1998,MORGAN,17-001,morgan_segmented_code,17-1,1,True,VTD2000-103-17-1,Pleasant Hill Baptist Church
+1998,MORGAN,25-001,morgan_segmented_code,25-1,1,True,VTD2000-103-25-1,New Era Town Hall
+1998,LEE,11/BOX 0,lee_beat_box_code,110,1,True,VTD2000-081-0110,Courthouse Grill
+1998,MOBILE,35-104-04,mobile_senate_house_box_code,104-4,1,True,VTD2000-097-104-4,Trimmier Park
+1998,MORGAN,3-013,morgan_segmented_code,3-13,1,True,VTD2000-103-3-13,Morgan Co Dept Of Human Resources
+1998,MOBILE,35-103-04,mobile_senate_house_box_code,103-4,1,True,VTD2000-097-103-4,Mobile Fed Of Women's Club
+1998,MOBILE,33-099-07,mobile_senate_house_box_code,99-7,1,True,VTD2000-097-99-7,Elizabeth S Chastang School
+1998,LEE,05/BOX 0,lee_beat_box_code,50,1,True,VTD2000-081-0050,Loachapoka
+1998,MOBILE,33-098-08,mobile_senate_house_box_code,98-8,1,True,VTD2000-097-98-8,College Park Baptist Church
+1998,LEE,13/BOX 0,lee_beat_box_code,130,1,True,VTD2000-081-0130,Beulah Shoppette
+1998,MOBILE,33-099-10,mobile_senate_house_box_code,99-10,1,True,VTD2000-097-99-10,Hillsdale Community Center
+1998,MORGAN,3-001,morgan_segmented_code,3-1,1,True,VTD2000-103-3-1,Morgan Co Courthouse
+1998,MOBILE,35-103-01,mobile_senate_house_box_code,103-1,1,True,VTD2000-097-103-1,Whitley School
+1994,LEE,BEAT 07/BOX 0,lee_beat_box_code,70,1,True,VTD2000-081-0070,Beuaregard School
+1998,MORGAN,26-001,morgan_segmented_code,26-1,1,True,VTD2000-103-26-1,Ebenezer Volunteer Fire Dept
+1998,LEE,12/BOX 0,lee_beat_box_code,120,1,True,VTD2000-081-0120,Thomas' Old Store
+1998,MORGAN,28-001,morgan_segmented_code,28-1,1,True,VTD2000-103-28-1,Lebanon Baptist Church
+1998,MOBILE,35-105-03,mobile_senate_house_box_code,105-3,1,True,VTD2000-097-105-3,Bayou La Batre Civic Center
+1998,MOBILE,33-097-09,mobile_senate_house_box_code,97-9,1,True,VTD2000-097-97-9,VFW Post #49
+1994,LEE,BEAT 05/BOX 0,lee_beat_box_code,50,1,True,VTD2000-081-0050,Loachapoka
+1998,MOBILE,35-105-09,mobile_senate_house_box_code,105-9,1,True,VTD2000-097-105-9,Coden Community House
+1994,LEE,BEAT 06/BOX 0,lee_beat_box_code,60,1,True,VTD2000-081-0060,Auburn
+1998,MOBILE,33-099-01,mobile_senate_house_box_code,99-1,1,True,VTD2000-097-99-1,Prichard City Hall
+1998,MOBILE,33-098-01,mobile_senate_house_box_code,98-1,1,True,VTD2000-097-98-1,Masonic Lodge #145
+1998,MORGAN,3-002,morgan_segmented_code,3-2,1,True,VTD2000-103-3-2,West Decatur Elem School
+1998,MORGAN,20-001,morgan_segmented_code,20-1,1,True,VTD2000-103-20-1,Massey Club House
+1998,MORGAN,6-001,morgan_segmented_code,6-1,1,True,VTD2000-103-6-1,Center Springs Methodist Church
+1998,MOBILE,33-097-03,mobile_senate_house_box_code,97-3,1,True,VTD2000-097-97-3,Murphy High School Library
+1998,MORGAN,10-001,morgan_segmented_code,10-1,1,True,VTD2000-103-10-1,Tri-County Volunteer Fire Dept
+1998,LEE,01/BOX 0,lee_beat_box_code,10,1,True,VTD2000-081-0010,Beulah School
+1998,MORGAN,23-001,morgan_segmented_code,23-1,1,True,VTD2000-103-23-1,Oden Ridge Volunteer Fire Dept
+1998,MORGAN,12-001,morgan_segmented_code,12-1,1,True,VTD2000-103-12-1,Union Church Of Christ
+1998,MOBILE,33-098-10,mobile_senate_house_box_code,98-10,1,True,VTD2000-097-98-10,Trinity Lutheran Church
+1998,MOBILE,35-103-05,mobile_senate_house_box_code,103-5,1,True,VTD2000-097-103-5,Old Shell Road School
+1998,MORGAN,3-012,morgan_segmented_code,3-12,1,True,VTD2000-103-3-12,Cashin Homes Comm Center
+1998,MORGAN,19-001,morgan_segmented_code,19-1,1,True,VTD2000-103-19-1,Danville Volunteer Fire Station
+1998,MOBILE,34-102-03,mobile_senate_house_box_code,102-3,1,True,VTD2000-097-102-3,Fellowship Baptist Church
+1998,MOBILE,33-098-06,mobile_senate_house_box_code,98-6,1,True,VTD2000-097-98-6,Azalea City Church Of Christ
+1998,MOBILE,32-096-04,mobile_senate_house_box_code,96-4,1,True,VTD2000-097-96-4,Old Belsaw School
+1998,MOBILE,35-104-06,mobile_senate_house_box_code,104-6,1,True,VTD2000-097-104-6,Navco Baptist Church
+1998,MORGAN,22-001,morgan_segmented_code,22-1,1,True,VTD2000-103-22-1,Dist No 3 Shop Building
+1998,LEE,09/BOX 0,lee_beat_box_code,90,1,True,VTD2000-081-0090,Tom's Foods
+1994,LEE,BEAT 12/BOX 0,lee_beat_box_code,120,1,True,VTD2000-081-0120,Thomas' Old Store
+1998,MOBILE,35-104-07,mobile_senate_house_box_code,104-7,1,True,VTD2000-097-104-7,Mobile County Law Enforcement Lodge
+1998,MORGAN,11-001,morgan_segmented_code,11-1,1,True,VTD2000-103-11-1,Morgan Co Dist 4 Shop Bldg
+1994,LEE,BEAT 09/BOX 0,lee_beat_box_code,90,1,True,VTD2000-081-0090,Tom's Foods
+1998,MORGAN,3-003,morgan_segmented_code,3-3,1,True,VTD2000-103-3-3,Decatur Utilities Auditorium
+1998,MOBILE,33-099-06,mobile_senate_house_box_code,99-6,1,True,VTD2000-097-99-6,Phillips Prep School
+1998,MOBILE,33-098-07,mobile_senate_house_box_code,98-7,1,True,VTD2000-097-98-7,Indian Springs Baptist Ed Bldg
+1994,LEE,BEAT 13/BOX 0,lee_beat_box_code,130,1,True,VTD2000-081-0130,Beulah Shoppette
+1998,MOBILE,32-096-05,mobile_senate_house_box_code,96-5,1,True,VTD2000-097-96-5,Turnerville Association
+1998,MOBILE,32-096-08,mobile_senate_house_box_code,96-8,1,True,VTD2000-097-96-8,Chunchula Baptist Church
+1998,MORGAN,7-001,morgan_segmented_code,7-1,1,True,VTD2000-103-7-1,Outreach Ministries Of Ala
+1994,LEE,BEAT 11/BOX 0,lee_beat_box_code,110,1,True,VTD2000-081-0110,Courthouse Grill
+1998,MOBILE,33-099-11,mobile_senate_house_box_code,99-11,1,True,VTD2000-097-99-11,Friendship Baptist Church
+1998,MORGAN,1-001,morgan_segmented_code,1-1,1,True,VTD2000-103-1-1,McCurry Tackle Shop
+1998,MOBILE,32-096-07,mobile_senate_house_box_code,96-7,1,True,VTD2000-097-96-7,Havenwood Baptist Church
+1998,MORGAN,27-001,morgan_segmented_code,27-1,1,True,VTD2000-103-27-1,Gum Pond Fire Station
+1994,LEE,BEAT 01/BOX 0,lee_beat_box_code,10,1,True,VTD2000-081-0010,Beulah School
+1998,MORGAN,24-001,morgan_segmented_code,24-1,1,True,VTD2000-103-24-1,Brewer High School
+1994,LEE,BEAT 03/BOX 0,lee_beat_box_code,30,1,True,VTD2000-081-0030,Farmville
+1998,LEE,15/BOX 0,lee_beat_box_code,150,1,True,VTD2000-081-0150,H&H Paint & Body Center
+1998,MOBILE,35-103-08,mobile_senate_house_box_code,103-8,1,True,VTD2000-097-103-8,U Store-It
+1998,MOBILE,34-102-02,mobile_senate_house_box_code,102-2,1,True,VTD2000-097-102-2,Davis General Store
+1994,LEE,BEAT 10/BOX 0,lee_beat_box_code,100,1,True,VTD2000-081-0100,Marvyn
+1998,MOBILE,33-099-02,mobile_senate_house_box_code,99-2,1,True,VTD2000-097-99-2,Crichton School
+1994,LEE,BEAT 15/BOX 0,lee_beat_box_code,150,1,True,VTD2000-081-0150,H&H Paint & Body Center
+1998,LEE,03/BOX 0,lee_beat_box_code,30,1,True,VTD2000-081-0030,Farmville
+1998,LEE,10/BOX 0,lee_beat_box_code,100,1,True,VTD2000-081-0100,Marvyn
+1998,MOBILE,33-098-09,mobile_senate_house_box_code,98-9,1,True,VTD2000-097-98-9,Lott Road Florist
+1998,LEE,08/BOX 0,lee_beat_box_code,80,1,True,VTD2000-081-0080,Old Salem School
+1994,LEE,BEAT 08/BOX 0,lee_beat_box_code,80,1,True,VTD2000-081-0080,Old Salem School
+1998,LEE,04/BOX 0,lee_beat_box_code,40,1,True,VTD2000-081-0040,Waverly
+1998,MOBILE,33-097-10,mobile_senate_house_box_code,97-10,1,True,VTD2000-097-97-10,MJ's Express
+1994,LEE,BEAT 04/BOX 0,lee_beat_box_code,40,1,True,VTD2000-081-0040,Waverly

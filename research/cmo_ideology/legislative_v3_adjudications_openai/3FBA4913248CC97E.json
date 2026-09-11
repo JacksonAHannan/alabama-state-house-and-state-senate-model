@@ -1,0 +1,10 @@
+{
+  "id": "3FBA4913248CC97E",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Eliminates an ethics notification requirement but does not clearly concern an allowed campaign-finance axis; the measure is primarily administrative.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

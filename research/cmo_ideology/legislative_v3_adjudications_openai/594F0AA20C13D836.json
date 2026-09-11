@@ -1,0 +1,10 @@
+{
+  "id": "594F0AA20C13D836",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Authorizes qualified school security personnel and resource officers to carry firearms while on duty.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

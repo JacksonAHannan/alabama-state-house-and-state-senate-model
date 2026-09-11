@@ -1,0 +1,11 @@
+{
+  "policy_key": "trade_human_rights_tie",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "This option asks whether human rights records should influence trade relations. The question itself is procedural and does not inherently express a conservative or progressive stance; the answer would determine that direction.",
+  "evidence_quote": "6) Should a nation's human rights record affect its normal trade relations (most favored nation status) with the United States?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

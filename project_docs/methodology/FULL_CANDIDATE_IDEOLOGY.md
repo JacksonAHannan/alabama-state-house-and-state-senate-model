@@ -1,5 +1,7 @@
 # Full-candidate ideology layer
 
+> **Documentation status — 2026-09-05:** Component methodology with an earlier coverage snapshot, not certification of the complete current ideology/caucus product. Check the [post-repair evidence audit](../audits/LEGISLATIVE_IDEOLOGY_POST_REPAIR_COVERAGE.md) and [current product routes](../CANONICAL_PIPELINES.md) before using counts, identities or rerun instructions below. Universal inventory coverage is not universal usable evidence.
+
 ## Comprehensive legislative processing
 
 `python scripts/run_legislative_ideology_pipeline.py` runs archive-wide

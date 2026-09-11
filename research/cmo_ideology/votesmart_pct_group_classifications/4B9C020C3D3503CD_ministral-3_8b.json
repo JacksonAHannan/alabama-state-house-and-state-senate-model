@@ -1,0 +1,11 @@
+{
+  "policy_key": "eliminate_federal_education_standards",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Remove all federal K-12 education standards and standardized testing (e.g., No Child Left Behind).",
+  "evidence_quote": "Eliminate all federal education standards and testing requirements for K\u201312 students (No Child Left Behind).",
+  "needs_human_review": false,
+  "review_reason": ""
+}

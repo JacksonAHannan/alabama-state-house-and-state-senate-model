@@ -1,0 +1,10 @@
+{
+  "id": "6CB0504C232EE132",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Requires school safety plans and procedures but does not clearly map to any allowed education policy axis; the expenditure language is incidental.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

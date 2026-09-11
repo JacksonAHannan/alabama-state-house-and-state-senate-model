@@ -1,5 +1,7 @@
 # Alabama Democratic CMO and ideology research loop
 
+> **Documentation status — 2026-09-05:** Historical research protocol and findings snapshot, not an instruction to restart exhaustive acquisition. Consult [current product routes](../../project_docs/CANONICAL_PIPELINES.md) and the [candidate-research closure audit](../../project_docs/audits/CANDIDATE_ISSUE_RESEARCH_CLOSURE.md). Preserve prior evidence and negative searches; reopen only a specific, source-backed recoverable gap within the requested scope.
+
 ## Research question
 
 Which candidate attributes have historically helped Alabama Democrats outperform a district-specific electoral expectation since 2010, and how much of that pattern is plausibly associated with ideological congruence rather than incumbency, local roots, opponent quality, money, or data error?

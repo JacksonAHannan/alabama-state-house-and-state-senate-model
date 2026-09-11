@@ -1,0 +1,10 @@
+{
+  "id": "E76A6C99FAF81478",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The description concerns further distribution procedures for an existing children's health insurance fund but does not establish a sufficiently clear change in access, responsibility, delivery, or patient rights.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

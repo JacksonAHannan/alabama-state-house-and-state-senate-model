@@ -39,6 +39,14 @@ def test_forecast_combines_generic_ballot_with_war_structure():
     assert scenarios.generic_structural_adjustment.abs().gt(1e-8).any()
     assert scenarios.incumbency_adjustment.abs().gt(1e-8).any()
     assert scenarios.model_used.eq("generic_war_environment_adjusted").all()
+    assert scenarios.status.eq("uniform_generic_ballot_environment_selected").all()
+    legacy_columns = {
+        "geographic_elasticity", "demographic_swing_2024_2026",
+        "demographic_poll_adjusted_margin", "low_elasticity_075_margin",
+        "high_elasticity_125_margin", "votehub_2026_dem_margin",
+        "fundraising_adjustment",
+    }
+    assert not legacy_columns & set(scenarios.columns)
 
 
 def test_structural_war_is_selected_with_validation_warning():

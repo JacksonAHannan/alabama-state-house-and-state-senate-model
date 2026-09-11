@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "public_private_provision",
+  "plain_english_policy": "Increase state funding for emergency agencies (terrorism prevention/response).",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "Directly allocates state funds to emergency agencies, expanding public welfare capacity."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "primary",
+      "rationale": "Funding is explicitly for *state* agencies (not private actors)."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Increase state funding for state and local emergency agencies\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

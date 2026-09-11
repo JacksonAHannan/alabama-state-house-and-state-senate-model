@@ -1,0 +1,10 @@
+{
+  "id": "4884D36E5189C617",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Addresses voter identification and election administration, but the allowed axes supplied are criminal-justice axes and do not support a valid mapping.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

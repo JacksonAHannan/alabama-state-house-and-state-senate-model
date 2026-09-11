@@ -1,0 +1,11 @@
+{
+  "policy_key": "international_aid_scaling_back",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Reduce or end U.S. foreign aid over time.",
+  "evidence_quote": "Aid granted by the United States should be scaled back and eventually eliminated.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

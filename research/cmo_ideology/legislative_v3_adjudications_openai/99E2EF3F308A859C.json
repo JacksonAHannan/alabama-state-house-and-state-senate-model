@@ -1,0 +1,10 @@
+{
+  "id": "99E2EF3F308A859C",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Accounting and penalty requirements for indigent-care proceeds are administrative accountability provisions, not a concrete allowed healthcare policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

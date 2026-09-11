@@ -1,0 +1,11 @@
+{
+  "policy_key": "drug_education_treatment_funding",
+  "dimension": "social_ideology",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Increase federal funding for drug education and treatment programs.",
+  "evidence_quote": "Increase funding of federally-sponsored drug education and drug treatment programs.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

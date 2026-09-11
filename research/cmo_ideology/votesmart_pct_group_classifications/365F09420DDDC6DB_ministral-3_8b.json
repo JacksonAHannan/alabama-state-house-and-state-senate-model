@@ -1,0 +1,11 @@
+{
+  "policy_key": "increase_penalties_for_illegal_guns",
+  "dimension": "guns_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Higher criminal penalties for possessing guns obtained illegally (e.g., stolen, unregistered, or acquired through prohibited means).",
+  "evidence_quote": "**g) Increase penalties for the possession of any illegal guns.**",
+  "needs_human_review": false,
+  "review_reason": ""
+}

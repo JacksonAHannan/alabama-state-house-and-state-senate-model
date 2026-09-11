@@ -1,0 +1,11 @@
+{
+  "policy_key": "immigration_enforcement_financial_punishments",
+  "dimension": "immigration_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase penalties for employers who hire undocumented workers, with stricter financial consequences.",
+  "evidence_quote": "Support harsher financial punishments for those who knowingly employ illegal immigrants.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

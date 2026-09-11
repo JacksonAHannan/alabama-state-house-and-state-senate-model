@@ -1,0 +1,10 @@
+{
+  "id": "13C603B8229ECF8D",
+  "decision": "map",
+  "primitive_axis": "malpractice_liability",
+  "policy_pole": "limit_damages",
+  "confidence": "high",
+  "rationale": "The bill explicitly extends malpractice liability protections to podiatrists and their corporations, effectively limiting damages for healthcare providers. This aligns with the 'limit_damages' pole under malpractice liability.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

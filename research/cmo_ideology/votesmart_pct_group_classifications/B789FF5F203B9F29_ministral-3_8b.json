@@ -1,0 +1,11 @@
+{
+  "policy_key": "ethanol_alternative_fuel",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Promoting ethanol as a renewable fuel source, which is often framed as environmentally friendly compared to fossil fuels.",
+  "evidence_quote": "Support the use of ethanol as an alternative fuel.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "tax_distribution",
+  "plain_english_policy": "Provide tax incentives to small businesses that provide health care to their employees.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "Tax incentives are a form of government intervention in the market by providing financial support for businesses that provide health care to their employees."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "Providing tax incentives is an expansionary policy as it increases access to healthcare through employer-provided insurance, which can be seen as expanding the welfare system by ensuring that more individuals have health coverage."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Provide tax incentives to small businesses that provide health care to their employees.\" - Questionnaire Option for Health Issues in Alabama, Year: 1998",
+  "needs_human_review": true,
+  "review_reason": ""
+}

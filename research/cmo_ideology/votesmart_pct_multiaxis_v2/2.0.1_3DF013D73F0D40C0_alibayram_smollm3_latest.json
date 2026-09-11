@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "labor_capital_alignment",
+  "plain_english_policy": "Support contracting with private sector firms to build and/or manage state prisons.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Contracting with private sector firms may lead to reduced labor costs and increased efficiency, potentially reducing the financial burden on taxpayers."
+    },
+    {
+      "axis": "labor_capital_alignment",
+      "pole": "capital_management",
+      "strength": "primary",
+      "rationale": "Private sector firms are often more capital-efficient than government-run prisons. This could lead to reduced costs and improved resource allocation for other welfare programs."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Support contracting with private sector firms to build and/or manage state prisons.\" - Source: Year: 2002, Section: Crime Issues, Question: Indicate which principles you support (if any) to address crime. Option: b)",
+  "needs_human_review": true,
+  "review_reason": "The policy statement is specific but the effects on labor and capital are speculative."
+}

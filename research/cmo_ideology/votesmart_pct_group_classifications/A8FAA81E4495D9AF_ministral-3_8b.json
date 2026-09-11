@@ -1,0 +1,11 @@
+{
+  "policy_key": "medicare_drug_coverage_expansion",
+  "dimension": "healthcare_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase Medicare's prescription drug coverage to include more medications or lower costs for beneficiaries.",
+  "evidence_quote": "Support expanding prescription drug coverage under Medicare.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,30 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "infrastructure_jobs",
+  "plain_english_policy": "Direct government funding to build roads, bridges, utilities, etc., primarily to stimulate employment during economic downturns or stagnation.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "Explicitly advocates for government-directed spending to create jobs, which directly alters market outcomes."
+    },
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "primary",
+      "rationale": "Infrastructure projects typically rely on general tax revenue (e.g., income/property taxes) or borrowing, which disproportionately burdens lower- and middle-income earners. No explicit regressive mechanism is stated, but this is a standard feature of such spending."
+    },
+    {
+      "axis": "labor_capital_alignment",
+      "pole": "labor",
+      "strength": "primary",
+      "rationale": "The primary stated goal is job creation for workers, with no explicit mention of capital incentives or business benefits beyond indirect economic stimulation."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"increased spending on infrastructure projects for the purpose of **job creation**\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

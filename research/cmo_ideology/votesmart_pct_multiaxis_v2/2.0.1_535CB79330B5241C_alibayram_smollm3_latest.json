@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "tax_distribution",
+  "plain_english_policy": "Use state funds to continue some Medicaid coverage for legal immigrants.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "Expanding Medicaid coverage to include more legal immigrants is an expansion of welfare policy."
+    },
+    {
+      "axis": "tax_distribution",
+      "pole": "progressive",
+      "strength": "primary",
+      "rationale": "Using state funds for this purpose implies a progressive approach, as it distributes resources based on need rather than ability to pay taxes."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Use state funds to continue some Medicaid coverage for legal immigrants.\" - Questionnaire response from Year: 1998, Section: Health Issues.",
+  "needs_human_review": true,
+  "review_reason": "The policy statement is clear but the effect on welfare and tax distribution requires contextual understanding of how Medicaid expansion impacts these domains."
+}

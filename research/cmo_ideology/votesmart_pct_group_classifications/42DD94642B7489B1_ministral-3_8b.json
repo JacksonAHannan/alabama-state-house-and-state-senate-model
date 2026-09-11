@@ -1,0 +1,11 @@
+{
+  "policy_key": "small_business_taxes",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Tax burden on small businesses",
+  "evidence_quote": "3: Reduce taxes for small businesses (lower tax rates, simplified compliance)",
+  "needs_human_review": false,
+  "review_reason": ""
+}

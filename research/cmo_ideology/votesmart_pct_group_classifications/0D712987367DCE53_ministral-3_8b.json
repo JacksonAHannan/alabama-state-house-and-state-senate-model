@@ -1,0 +1,11 @@
+{
+  "policy_key": "scientific_research_funding",
+  "dimension": "labor_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Federal funding for scientific research (e.g., NIH, NSF, DARPA).",
+  "evidence_quote": "*[No explicit quote provided in the question\u2014this is a generic policy category.]*",
+  "needs_human_review": true,
+  "review_reason": "Alabama candidates' positions on scientific research funding are context-dependent (e.g., some may support medical research but oppose 'big government' science). A specific questionnaire answer would be required for a definitive \u00b11/-1 classification."
+}

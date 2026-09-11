@@ -1,0 +1,11 @@
+{
+  "policy_key": "radio_free_asia_funding",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Support for continued US funding of Radio Free Asia (RFA) is conventionally associated with progressive/liberal foreign policy stances, as it aligns with democratic promotion and media freedom initiatives abroad.",
+  "evidence_quote": "Should the US continue funding for **Radio Free Asia**?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "issue_advocacy_commercials",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Allowing corporations and unions to run issue ads near elections is generally viewed as a progressive reform aimed at increasing public discourse.",
+  "evidence_quote": "f) Allow issue advocacy commercials by corporations, labor unions, and non-profit groups which appear within 60 days of a general election and within 30 days of a primary election.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

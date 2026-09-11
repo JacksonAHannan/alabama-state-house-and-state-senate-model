@@ -1,0 +1,10 @@
+{
+  "id": "B1C4CE98BD69A101",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "punitive",
+  "confidence": "high",
+  "rationale": "Mandates medroxyprogesterone treatment and enhanced mandatory sentencing for certain repeat sex-offense convictions, directly increasing punitive consequences.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

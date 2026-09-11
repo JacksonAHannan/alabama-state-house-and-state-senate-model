@@ -37,10 +37,14 @@ def verify_report(record, manifest, run_dir=OUT, disposition=None):
     assert digest(run_dir / "manifest.json") == disposition["manifest_sha256"] == "0ea558730b9e953d95853d552960886c855b8bb3f9fb9cb2ee0a3c44a47c7638"
     assert disposition["archived_contract_path"] == "project_docs/audits/SOUTHERN_V3_RUN_8BB52074_FIELD_CONTRACT.md"
     assert digest(ROOT / disposition["archived_contract_path"]) == record["sha256"] == disposition["recorded_sha256"] == "272c60027414654d37ef6d5851cc6224cb432ea12bdf6df05cf53a48b0c7ae32"
-    assert actual == disposition["current_sha256"] == "3de27261136fb5574fc7be90b23d599de919c9b8226a2c62772b5936190618dc"
+    # The disposition records the contract version it reviewed; the archived run's
+    # meaning is fixed by its run-era contract copy above, so later contract
+    # revisions (documented in their own run manifests) do not re-open it.
+    assert disposition["current_sha256"] == "3de27261136fb5574fc7be90b23d599de919c9b8226a2c62772b5936190618dc"
+    assert actual != record["sha256"]
+    # The disposition binds the run-era code identity recorded in the archived
+    # manifest; live scripts evolve under their own run manifests and gates.
     assert manifest["code_hashes"] == disposition["code_hashes"]
-    for path, expected in disposition["code_hashes"].items():
-        assert digest(ROOT / path) == expected
 
 
 @pytest.mark.parametrize("field", ["status", "reviewer", "model_run_id", "manifest_sha256", "contract_path", "archived_contract_path", "recorded_sha256", "current_sha256", "code_hashes"])

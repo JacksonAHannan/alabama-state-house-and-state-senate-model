@@ -1,0 +1,10 @@
+{
+  "id": "ADC4D80447F13B4E",
+  "decision": "map",
+  "primitive_axis": "healthcare_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Requires covered eye-care services to include optometrists and provides patients direct access to eye-care providers, expanding access.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

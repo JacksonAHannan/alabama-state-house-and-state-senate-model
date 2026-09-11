@@ -1,0 +1,45 @@
+{
+  "contract_version": 1,
+  "pipeline": "scripts/build_southern_incumbents.py",
+  "generated_at_utc": "2026-09-02T02:53:16.068365+00:00",
+  "states": [
+    "AL",
+    "AR",
+    "FL",
+    "GA",
+    "KY",
+    "LA",
+    "MO",
+    "MS",
+    "NC",
+    "OK",
+    "SC",
+    "TN",
+    "TX",
+    "VA"
+  ],
+  "cycles": [
+    2016,
+    2024
+  ],
+  "source_manifest": "data/raw/candidates/incumbency_web/manifests/acquisition_20260831T023146623978Z.csv",
+  "source_manifest_sha256": "7d0bdc9e4cc778ba3fab8b93bc8d3446cd25b65ae0af7cde9a67e340b740bad7",
+  "manual_adjudications": "data/manual/incumbency/southern_incumbency_adjudications_2016_2024.csv",
+  "manual_adjudications_sha256": "a9a9a33faec1ff7b63b582c8fdf3a54e0f2c13f8fb2244b12967c567ecf43348",
+  "database": "data/processed/elections/alabama_elections.sqlite",
+  "database_sha256": "cae7c55a8edad131ef21e6223e55e77a1a3e7f2b3511de387cbd3bfd6c68e448",
+  "alabama_incumbency_roster": "data/processed/war/incumbency_roster.csv",
+  "alabama_incumbency_roster_sha256": "9a61eeb3e74eea7e7019af175047f6e8a8a4c1dbab1556d7b83f03ea6b8c4271",
+  "alabama_2022_candidate_code_source": "data/raw/alabama_elections_and_geography/al_gen_22_prec/README.txt",
+  "alabama_2022_candidate_code_source_sha256": "0b14fc47913f37087f25206656dc4630643f6ac4d76720e251259cc41e7510e7",
+  "race_rows": 4582,
+  "strict_ready": 3991,
+  "review_rows": 591,
+  "evidence_rows": 4040,
+  "missing_value_policy": "Absence is unknown, never open and never zero.",
+  "outputs": {
+    "data/processed/incumbency/southern_incumbency_evidence_2016_2024.csv": "05226c2c7eda11bf0a49540808fe401291d33886d272e078bb6c941043121388",
+    "data/processed/incumbency/southern_incumbency_race_roster_2016_2024.csv": "8e225c7bebe0d5640a3439c0c42c6270d358cd90168622b9f3e7c6e609ad7c0a",
+    "data/processed/incumbency/southern_incumbency_review_queue_2016_2024.csv": "1d817604a7e0ed516cd0b6f558bf2eaa7b4f73c0c49d2d05b2592ca80ba779c7"
+  }
+}

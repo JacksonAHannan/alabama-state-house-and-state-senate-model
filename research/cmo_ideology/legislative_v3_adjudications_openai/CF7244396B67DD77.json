@@ -1,0 +1,10 @@
+{
+  "id": "CF7244396B67DD77",
+  "decision": "map",
+  "primitive_axis": "medicaid_structure",
+  "policy_pole": "managed_care",
+  "confidence": "high",
+  "rationale": "Directs Medicaid medical-service delivery through regional care organizations, expressly establishing a managed-care structure.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

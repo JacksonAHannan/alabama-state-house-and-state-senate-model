@@ -1,0 +1,10 @@
+{
+  "id": "ADC432B69BEFC9A8",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "A broad occupational-licensing and board-administration measure containing numerous technical, regulatory, and procedural provisions.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

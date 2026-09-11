@@ -1,0 +1,11 @@
+{
+  "policy_key": "ban_lender_ties_in_education_finance",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Prohibits university financial aid staff from having direct financial ties to student loan lenders, reducing conflicts of interest in lending decisions.",
+  "evidence_quote": "Ban university financial aid officers from owning stock in or accepting gifts from student loan lenders.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

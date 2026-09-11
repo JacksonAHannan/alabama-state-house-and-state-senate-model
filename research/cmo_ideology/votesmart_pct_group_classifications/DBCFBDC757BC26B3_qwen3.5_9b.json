@@ -1,0 +1,11 @@
+{
+  "policy_key": "budget_surplus_tax_cuts",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The candidate supports using federal budget surplus funds to reduce taxes.",
+  "evidence_quote": "f) Tax cuts",
+  "needs_human_review": false,
+  "review_reason": ""
+}

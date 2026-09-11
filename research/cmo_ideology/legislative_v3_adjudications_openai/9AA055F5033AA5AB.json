@@ -1,0 +1,10 @@
+{
+  "id": "9AA055F5033AA5AB",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Establishes and regulates a jail commissary and its accounting, an administrative incarceration matter without a clear allowed policy direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

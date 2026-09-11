@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "childcare_delivery",
+  "plain_english_policy": "Support alternatives to incarceration for certain non-violent offenders, such as mandatory counseling or substance abuse treatment.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "Supporting alternatives to incarceration for non-violent offenders is a welfare policy expansion."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Do you support alternatives to incarceration for certain non-violent offenders, such as mandatory counseling or substance abuse treatment?\" - Question from the 2010 Alabama candidate questionnaire on Crime and Public Safety Issues.",
+  "needs_human_review": true,
+  "review_reason": "The policy is described in a general way without specifying which welfare domain it falls under. The primary domain was inferred based on the context of supporting alternatives to incarceration."
+}

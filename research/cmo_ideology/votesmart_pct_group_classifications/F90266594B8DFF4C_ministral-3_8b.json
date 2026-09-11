@@ -1,0 +1,11 @@
+{
+  "policy_key": "medical_expense_deduction",
+  "dimension": "indeterminate",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Allowing taxpayers to deduct unreimbursed medical expenses from taxable income.",
+  "evidence_quote": "d) Medical expense deduction",
+  "needs_human_review": true,
+  "review_reason": "This option is a procedural/tax-administration choice rather than a clear left-right policy stance. It may shift with income thresholds, inflation adjustments, or other parameters."
+}

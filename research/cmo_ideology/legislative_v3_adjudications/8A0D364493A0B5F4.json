@@ -1,0 +1,10 @@
+{
+  "id": "8A0D364493A0B5F4",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "Increases threshold for economic interest filings\u2014technical adjustment, not substantive reform.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

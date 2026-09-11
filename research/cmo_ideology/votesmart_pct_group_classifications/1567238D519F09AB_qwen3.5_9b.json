@@ -1,0 +1,11 @@
+{
+  "policy_key": "international_aid_security_interests",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "This option ties aid to U.S. security interests rather than humanitarian principles or democratic values.",
+  "evidence_quote": "Aid should be granted to countries when it is in the security interests of the U. S.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

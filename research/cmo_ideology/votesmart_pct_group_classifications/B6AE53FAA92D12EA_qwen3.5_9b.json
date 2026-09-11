@@ -1,0 +1,11 @@
+{
+  "policy_key": "school_lunch_funding",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option 'h) School lunches' in the context of federal funding levels and block grants is a procedural selection within a questionnaire. It does not inherently express a conservative or progressive stance on its own; it merely identifies an area for policy discussion regarding how funds are allocated (federal vs. state). The ideological direction depends entirely on whether one supports increased, decreased, or maintained funding via federal programs versus block grants.",
+  "evidence_quote": "h) School lunches",
+  "needs_human_review": false,
+  "review_reason": ""
+}

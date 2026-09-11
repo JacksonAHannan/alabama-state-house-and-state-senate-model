@@ -1,0 +1,11 @@
+{
+  "policy_key": "fbi_authority_restriction",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Reduce the FBI and other agencies' power to investigate potential terrorism cases.",
+  "evidence_quote": "Restrict the investigative authority of the FBI and other governmental agencies.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

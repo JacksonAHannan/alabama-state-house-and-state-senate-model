@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_signing_statements",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Limiting the President's ability to issue signing statements that override or reinterpret laws (a progressive reform to curb executive overreach).",
+  "evidence_quote": "Support limiting the President's use of signing statements in order to prevent an alternative interpretation of the bill.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,18 @@
+{
+  "primary_domain": "business",
+  "policy_key": "market_governance",
+  "plain_english_policy": "Encourage voluntary spending limits on candidate contributions.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "This policy restricts the amount of money candidates can spend on their campaigns."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "Should candidates for state office be encouraged to meet voluntary spending limits?",
+  "needs_human_review": false,
+  "review_reason": "This is a policy question about campaign finance reform. It does not explicitly mention any specific policy mechanism or effect."
+}

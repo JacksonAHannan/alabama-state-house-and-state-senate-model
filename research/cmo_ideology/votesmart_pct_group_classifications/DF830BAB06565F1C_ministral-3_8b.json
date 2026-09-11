@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_no_limits",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Eliminate all caps on political donations but mandate full, real-time online disclosure of contributions.",
+  "evidence_quote": "Remove all contribution limits on federal candidates and parties, but require complete and immediate disclosure via the Internet.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

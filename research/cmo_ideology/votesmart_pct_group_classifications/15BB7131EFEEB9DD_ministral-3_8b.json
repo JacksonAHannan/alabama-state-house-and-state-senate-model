@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_state_funding_requirement",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Mandates that a majority of campaign funds for congressional candidates must come from their home state, limiting reliance on out-of-state donors.",
+  "evidence_quote": "Require Congressional candidates to raise over half of their campaign money from their home state.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

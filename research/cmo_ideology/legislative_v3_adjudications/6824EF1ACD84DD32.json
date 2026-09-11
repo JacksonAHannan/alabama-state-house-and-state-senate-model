@@ -1,0 +1,10 @@
+{
+  "id": "6824EF1ACD84DD32",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Amends law to **authorize** school security personnel/resource officers to carry firearms, expanding gun access in schools.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

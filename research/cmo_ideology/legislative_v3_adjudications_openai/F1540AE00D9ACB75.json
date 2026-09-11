@@ -1,0 +1,10 @@
+{
+  "id": "F1540AE00D9ACB75",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "The disciplinary process provisions do not clearly map to one allowed education axis and pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

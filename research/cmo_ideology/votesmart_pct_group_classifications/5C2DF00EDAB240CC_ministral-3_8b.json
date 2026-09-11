@@ -1,0 +1,11 @@
+{
+  "policy_key": "un_funding",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option does not address federal funding levels for budgetary, spending, or tax issues. Instead, it references the United Nations (UN), which is unrelated to the specific categories of budget priorities, defense spending, taxes, family income taxes, other taxes, deductions/credits.",
+  "evidence_quote": "",
+  "needs_human_review": true,
+  "review_reason": "The option provided ('United Nations') does not contain any explicit policy stance on federal funding levels or tax issues. It is unclear how this relates to the question asked."
+}

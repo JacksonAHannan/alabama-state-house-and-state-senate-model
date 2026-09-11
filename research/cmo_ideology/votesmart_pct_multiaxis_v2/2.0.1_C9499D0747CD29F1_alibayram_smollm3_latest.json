@@ -1,0 +1,24 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "environmental_protection",
+  "plain_english_policy": "Require the use of cleaner burning fuels in order to prevent pollution.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "primary",
+      "rationale": "The policy requires a specific action (using cleaner burning fuels) which is an intervention in the market."
+    },
+    {
+      "axis": "environmental_protection",
+      "pole": "strengthen",
+      "strength": "primary",
+      "rationale": "This policy aims to prevent pollution, indicating a strengthening of environmental protection measures."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Require the use of cleaner burning fuels in order to prevent pollution.\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

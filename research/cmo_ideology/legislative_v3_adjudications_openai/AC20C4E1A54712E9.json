@@ -1,0 +1,10 @@
+{
+  "id": "AC20C4E1A54712E9",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Primarily a professional-licensing and board-administration measure; the criminal-penalty description lacks enough detail to establish a specific criminal-justice pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

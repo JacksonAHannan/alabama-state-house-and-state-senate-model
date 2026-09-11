@@ -1,0 +1,10 @@
+{
+  "id": "8C0AA4332E73FA3D",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The description only identifies an amendment concerning the Environmental Management Commission and provides no substantive policy change.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

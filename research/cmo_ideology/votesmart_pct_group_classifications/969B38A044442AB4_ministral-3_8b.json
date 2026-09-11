@@ -1,0 +1,11 @@
+{
+  "policy_key": "somalia_support",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Providing economic and military support to the Transitional Government of Somalia is a complex issue with potential for both humanitarian benefits and geopolitical risks. The option does not explicitly state whether this support should be conditional, limited in scope, or tied to specific reforms (e.g., governance, anti-corruption). It also lacks clarity on whether such aid aligns with broader U.S. strategic interests (e.g., counterterrorism, regional stability) versus purely humanitarian goals.",
+  "evidence_quote": "**p) Should the United States provide economic and military support to the Transitional Government of Somalia?**",
+  "needs_human_review": true,
+  "review_reason": "The option is a blunt yes/no question without context on scope, conditions, or intent. Conservative/liberal framing depends entirely on unstated assumptions (e.g., whether aid is framed as 'burden-sharing' vs. 'nation-building')."
+}

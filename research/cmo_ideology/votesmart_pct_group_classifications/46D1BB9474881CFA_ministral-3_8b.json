@@ -1,0 +1,11 @@
+{
+  "policy_key": "kosovo_independence_support",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Supporting Kosovo's independence is a progressive stance on international policy, as it aligns with promoting self-determination and sovereignty for oppressed or marginalized groups. However, the option itself does not explicitly state whether this support includes financial aid or military backing, which could introduce ambiguity.",
+  "evidence_quote": "Should the United States support the creation of an independent nation of Kosovo?",
+  "needs_human_review": true,
+  "review_reason": "The option is a question rather than a policy statement. The candidate's response would be required to determine if it aligns with conservative, progressive, or mixed principles."
+}

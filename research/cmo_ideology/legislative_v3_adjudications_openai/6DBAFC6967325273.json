@@ -1,0 +1,10 @@
+{
+  "id": "6DBAFC6967325273",
+  "decision": "map",
+  "primitive_axis": "incarceration",
+  "policy_pole": "reduce",
+  "confidence": "high",
+  "rationale": "Shortens probation and parole periods for qualifying nonviolent offenses and provides alternative sanctions upon revocation, reducing reliance on incarceration and confinement.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

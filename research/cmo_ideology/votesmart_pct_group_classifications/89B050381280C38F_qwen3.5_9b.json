@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_trade_vietnam",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks for a position on normalizing trade with Vietnam without specifying the candidate's stance or ideological direction.",
+  "evidence_quote": "Do you support normal trade relations (most favored nation status) with Vietnam?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -10,6 +10,142 @@ checklist or orchestration framework.
 
 ## Ordered work
 
+### Warehouse completion request (2026-09-08)
+
+Resumed on the user's "Finish the work" instruction. Live latest warehouse run
+still matches RUN-92AB8DE353AC47D6AECE3D7767C29FCD. Full raw 1998/2004 archive
+hashes match their registry rows; complete year replays retain 196769/127069
+rows but reveal 5430/10987 unmatched substantive records, respectively. No
+updates applied. A read-only helper is isolating county/field drift while the
+primary stages exact metadata-only matches. Never coerce these mismatches into
+equivalence to fill source locators. Existing source and publication WIP persists.
+
+- Owner/accountable role: primary session, warehouse_integrator; status: active.
+- Objective: complete the remaining Phase 2 warehouse repairs and safeguards,
+  reconciling checklist evidence against the September 8 live state.
+- Scope: warehouse-04/05/06/08/09/10/11/12/13; preserve the already accepted
+  source repairs, raw artifacts, stable identities and unrelated working changes.
+- Non-goals: candidate scoring, model estimation, election predictions, public
+  publication, commits or replacement of the populated warehouse.
+- Snapshot: latest documented warehouse run RUN-92AB8DE353AC47D6AECE3D7767C29FCD;
+  verify the live run before any application. Extensive existing WIP is present.
+- Sequence: establish current unresolved source/dependency evidence; implement
+  source and stale-input refusal at actual consumers; reconcile supported data
+  dependencies; run integrity/replay checks; refresh existing catalog and record
+  acceptance or concrete evidence blockers in the internal checklist.
+- Acceptance: source preservation, explicit unknown/review states, tested join
+  and source-quality refusal, scoped downstream freshness checks, recovery and
+  independent review of consequential changes. A blocked source cannot become
+  a complete allocation or accepted output through exclusion without its contract.
+- Read-only helper /root/collision_review investigates warehouse-05 and legacy
+  lineage/run evidence, using query-only connections; no files or databases may
+  be written. Primary inspects source-consumer guards and stale-input boundaries.
+- Warehouse mode initially read-only. Any live application requires verified
+  separate backup and an exact staged transaction; no bulk loaders are scheduled.
+- Handoff: primary owns checklist acceptance and execution evidence here.
+
+Checkpoint: three neutral infrastructure units accepted (source-count guards,
+declared dependency hash enforcement, legacy parser locators), with independent
+read-only code reviews and 109 consolidated plus 14 parser tests passing. Live
+full integrity/source-pattern/geometry checks passed on the unchanged latest
+warehouse run in 202.61s. Detailed findings and limitations:
+`../audits/WAREHOUSE_COMPLETION_REPAIRS_2026_09_08.md`. Internal checklist revision
+`2026-09-08T14:47:16Z` remains 23/82; both viewport/browser persistence checks
+passed. No additional Phase 2 task accepted in full; overall request incomplete.
+No source values, canonical rows, analytical results or public files changed.
+No live writer or partially committed transaction to recover. Existing source
+repair replay commands retain their historical parser pins and must not be
+silently repinned to the new metadata adapter. Next safe work is a registered-
+source, full-cohort locator stage for 1998/2004; only unique exact pairs qualify
+for a later guarded load. Source-grain adjudication, Morgan quarantine of cached
+consumers, historical ingest/terms evidence, allocation replay, complete joins,
+other publication routes and catalog reconciliation remain outstanding.
+
+Resumed source-lineage unit, pre-application checkpoint:
+
+- Initial strict proposal `artifacts/warehouse/legacy_source_lineage_20260908/proposal.json`
+  (SHA256 `6754528ecc8953ff58391f188c63b4ef71d3ca24f4a52873e9f79691ce5c0725`)
+  correctly proposed no updates because all counties had representation drift.
+- Independent complete-cohort comparison and original-header inspection support
+  only the two office spellings recorded in
+  `../audits/LEGACY_SOURCE_OFFICE_EQUIVALENCE_2026_09_08.json`. Matching now records
+  these explicit equivalences while retaining the original stored office field;
+  all other substantive fields, including party, must match exactly. Forty-seven
+  2004 counties remain refused. This is a documented source-evidence refinement,
+  not removal of the office field from the matching key.
+- An initial reviewed-stage attempt failed on abbreviated county keys in the
+  review record. Corrected those to the literal warehouse keys with ` - GEN04`;
+  no output or database mutation occurred in that failed attempt.
+- Exact reviewed proposal:
+  `artifacts/warehouse/legacy_source_lineage_20260908/reviewed-proposal.json`,
+  SHA256 `171d2853604e6c8dddad336b8218e1b68c14364784931e2599f4f610d9d3e026`.
+  87 fully reconciled cohorts contain 232434 records; 228882 unique metadata
+  fills are proposed. Preserve 3552 ambiguous rows (1322 alternative groups)
+  and all 91404 rows in refused cohorts. Proposal size: 136393589 bytes.
+- New staging and application code use exact source/code/schema/run hashes,
+  all substantive before-images, a verified new separate backup, transactional
+  metadata-only authorizer, and full expected-after source digest. Original
+  schema, source values, labels, ingest IDs and unrelated domains are protected.
+- Focused consolidated tests: 70 passed in 3.92s with testmon deselection disabled.
+  Independent exact-proposal review pending; live database remains unchanged.
+- Planned sole-writer application uses `repair_sos_cell_lineage.py --apply
+  --legacy-proposal <above> --proposal-sha256 <above> --backup
+  data/processed/elections/backups/pre-legacy-source-locators-2026-09-08.sqlite`.
+  On interruption, check the live build/QA and backup before retrying; never
+  overwrite a backup or blindly replay a committed proposal.
+
+Application checkpoint: the exact reviewed proposal failed its final source
+digest check and rolled back. Independent full live/backup source, schema,
+registry, build and QA digests match; latest run remains unchanged. Cause:
+pandas staged integral row/column coordinates as floats, whereas SQLite INTEGER
+affinity stores them as integers. Regression reproduced (1 failed, 25 deselected);
+stage now emits integer coordinates. Consolidated verification: 71 passed in
+4.20s without deselections. Preserve the failed proposal and verified backup.
+Fresh `reviewed-integer-proposal.json` is being regenerated from raw sources;
+it requires a new exact review and a new backup path before any retry.
+
+Corrected proposal SHA256
+`1ff5f7d6d9de09b51588670c97bd7491eda411ee4849435534720ef0ded35ee1`
+passed independent delta review: same 228882 targets and evidence; only integer
+coordinate representation, generation time and staging-code hash differ. Retry
+started with new backup
+`data/processed/elections/backups/pre-legacy-source-locators-integer-2026-09-08.sqlite`.
+Inspect live build/QA before retrying after interruption. Registry URL/license
+recovery code is independently reviewed with 38 passing new/existing tests;
+its dry run remains unchanged and live application waits for source transaction
+acceptance. Manifest SHA256 and exact source evidence are in the repair audit.
+
+Retry committed successfully: `RUN-91B2A0C3435548A1B6932613B3073995`, QA
+`SOSLEGACYCELL-BC8883A71B89FFC0267F04CE`; 228882 metadata fills and 2184861
+full-source rows verified against the expected after-image. Do not retry.
+Independent post-commit integrity/preservation verification is in progress;
+registry application remains held until acceptance. No analytical rerun or
+publication acceptance is implied by the source repair.
+
+Source metadata unit accepted after independent full post-commit comparison,
+all 120 table counts/schema/prior controls, full SQLite integrity and foreign
+keys passed. Registry two-field application started against exact latest run
+`RUN-91B2A0C3435548A1B6932613B3073995` with new backup
+`data/processed/elections/backups/pre-shor-registry-metadata-2026-09-08.sqlite`.
+No other live writer. Inspect build/QA before retrying after any interruption.
+
+Registry committed as `RUN-55E4997B16DA4330BF6E2EE7A1E5FD36`; no active writer
+or partial transaction remains. Do not retry either committed repair. Two
+literal metadata fields filled; retrieval/scope/source contents unchanged.
+Independent bounded postcheck pending. Parent registry verification: 38 tests
+passed, no deselections. Checklist browser checks passed in desktop/mobile
+contexts; test edits restored and browser closed. Current checklist remains
+23/82; nine Phase 2 tasks remain open, with concrete source/dependency limitations
+in the existing audit. No analytical or publication acceptance was added.
+
+Final scoped registry postcheck accepted: exactly two intended fields changed,
+full source digest unchanged, all prior controls/schema and table counts intact
+except the one expected new build and QA row. Application backup quick_check
+passed; no repeated full integrity scan required after this registry-only write.
+Final checklist revision `2026-09-08T15:39:47Z` passed both browser viewports.
+Overall warehouse completion remains unestablished; remaining factual source
+adjudications and consumer revalidation are not waived by metadata recovery.
+
 ### Southern completion checkpoint (2026-09-08)
 
 The Southern finish line was executed under

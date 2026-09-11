@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_funding",
+  "dimension": "education_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Advocate for increased state funding to restore Alabama\u2019s public schools by reducing corporate tax loopholes and redirecting unused federal education grants. Prioritize teacher pay raises, smaller class sizes, and vocational training programs. Oppose local property tax hikes as a funding source.",
+  "evidence_quote": "My top priority is restoring Alabama\u2019s public education system by closing corporate tax exemptions to generate $200M annually for schools. I\u2019ll push for federal grant repurposing and veto any bills increasing property taxes on homeowners.",
+  "needs_human_review": false,
+  "review_reason": "Explicitly targets corporate tax reductions (conservative) while opposing progressive funding mechanisms like local property tax hikes."
+}

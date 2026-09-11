@@ -1,0 +1,11 @@
+{
+  "policy_key": "immigration_border_security",
+  "dimension": "immigration_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting increased security along the southern US border is conventionally associated with progressive immigration reform agendas that prioritize humanitarian concerns and comprehensive pathways to citizenship over strict enforcement measures.",
+  "evidence_quote": "Do you support increasing security along the southern US border?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

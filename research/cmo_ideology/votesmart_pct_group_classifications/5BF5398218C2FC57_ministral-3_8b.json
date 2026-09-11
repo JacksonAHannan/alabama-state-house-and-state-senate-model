@@ -1,0 +1,11 @@
+{
+  "policy_key": "defense_hardware",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase funding for military hardware (e.g., tanks, aircraft carriers, missiles, drones) and related procurement programs.",
+  "evidence_quote": "\u201cI support robust investment in cutting-edge military hardware to ensure our nation\u2019s security and maintain a strong deterrent against global threats. This includes modernizing the fleet with advanced aircraft carriers, upgrading fighter jets like the F-35, expanding drone capabilities, and securing next-generation missile systems.\u201d",
+  "needs_human_review": false,
+  "review_reason": ""
+}

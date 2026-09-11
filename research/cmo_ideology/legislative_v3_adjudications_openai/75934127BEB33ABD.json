@@ -1,0 +1,10 @@
+{
+  "id": "75934127BEB33ABD",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Increasing membership on a legislative committee evaluating prisons is a study and oversight measure, not a direct change in an allowed criminal-justice policy.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

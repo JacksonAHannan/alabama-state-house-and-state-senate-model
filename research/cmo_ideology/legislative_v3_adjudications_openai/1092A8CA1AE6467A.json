@@ -1,0 +1,10 @@
+{
+  "id": "1092A8CA1AE6467A",
+  "decision": "map",
+  "primitive_axis": "incarceration",
+  "policy_pole": "reduce",
+  "confidence": "high",
+  "rationale": "Allows certain life-without-parole sentences to be commuted and makes the affected individuals eligible for parole consideration.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

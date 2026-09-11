@@ -1,0 +1,11 @@
+{
+  "policy_key": "remove_federal_contribution_limits",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "This option advocates for eliminating legal caps on how much money individuals or groups can donate to federal political campaigns and parties.",
+  "evidence_quote": "d) Remove all contribution limits on federal campaigns and parties.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

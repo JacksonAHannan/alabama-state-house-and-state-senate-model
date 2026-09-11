@@ -1,0 +1,30 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "gender_pay_gap_intervention",
+  "plain_english_policy": "State government should actively reduce wage disparities between male and female workers.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "Closing the pay gap may require redistributive measures (e.g., wage subsidies, tax adjustments) that could disproportionately affect higher-income earners or employers."
+    },
+    {
+      "axis": "labor_capital_alignment",
+      "pole": "labor",
+      "strength": "primary",
+      "rationale": "Directly favors labor by addressing wage disparities without explicit employer penalties."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "Represents an expansion of state welfare-like interventions to correct market inequities."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"greater efforts by Alabama state government in closing the pay gap\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

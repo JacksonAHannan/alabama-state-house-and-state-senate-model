@@ -1,0 +1,18 @@
+{
+  "primary_domain": "labor",
+  "policy_key": "labor_capital_alignment",
+  "plain_english_policy": "restriction",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "labor_capital_alignment",
+      "pole": "labor",
+      "strength": "secondary",
+      "rationale": "The policy directly impacts labor by reducing the workforce through mandatory furloughs and layoffs."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "e) Instituting mandatory furloughs and layoffs for state employees",
+  "needs_human_review": false,
+  "review_reason": "The policy directly impacts labor by reducing the workforce through mandatory furloughs and layoffs."
+}

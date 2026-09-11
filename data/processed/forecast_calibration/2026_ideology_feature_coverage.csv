@@ -1,0 +1,12 @@
+level,chamber,party,incumbent,records,ideology_available,coverage_rate,both_candidates_ideology_available
+candidate,house,D,False,28,1,0.03571428571428571,
+candidate,house,D,True,25,24,0.96,
+candidate,house,R,False,19,0,0.0,
+candidate,house,R,True,66,65,0.9848484848484849,
+candidate,senate,D,False,13,0,0.0,
+candidate,senate,D,True,8,5,0.625,
+candidate,senate,I,False,1,0,0.0,
+candidate,senate,R,False,7,1,0.14285714285714285,
+candidate,senate,R,True,22,20,0.9090909090909091,
+candidate_total,all,all,,189,116,0.6137566137566137,
+contested_race,all,both,,48,38,0.7916666666666666,1.0

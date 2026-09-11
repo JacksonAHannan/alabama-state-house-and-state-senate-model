@@ -1,0 +1,11 @@
+{
+  "policy_key": "social_security_private_accounts",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option supports replacing or supplementing the traditional Social Security system with privately managed investment accounts funded by payroll taxes. This is a core tenet of conservative economic policy in Alabama and nationally.",
+  "evidence_quote": "Allow workers to invest a portion of their payroll tax in private accounts that they manage themselves.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

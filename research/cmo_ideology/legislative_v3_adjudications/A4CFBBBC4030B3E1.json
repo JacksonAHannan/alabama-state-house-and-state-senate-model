@@ -1,0 +1,10 @@
+{
+  "id": "A4CFBBBC4030B3E1",
+  "decision": "map",
+  "primitive_axis": "campaign_finance_restrictions",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Granting subpoena power to the Ethics Commission strengthens campaign finance restrictions by enhancing oversight and enforcement capabilities.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

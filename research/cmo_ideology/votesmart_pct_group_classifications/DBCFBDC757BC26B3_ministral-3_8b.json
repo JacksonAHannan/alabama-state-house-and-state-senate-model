@@ -1,0 +1,11 @@
+{
+  "policy_key": "budget_surplus_tax_cuts",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Reduce taxes using any federal budget surplus funds.",
+  "evidence_quote": "Tax cuts",
+  "needs_human_review": false,
+  "review_reason": ""
+}

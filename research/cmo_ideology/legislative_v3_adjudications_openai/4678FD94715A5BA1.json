@@ -1,0 +1,10 @@
+{
+  "id": "4678FD94715A5BA1",
+  "decision": "map",
+  "primitive_axis": "gun_purchase_regulation",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Requires sheriffs to check criminal-history databases before determining whether firearm possession is lawful, strengthening firearm eligibility screening.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

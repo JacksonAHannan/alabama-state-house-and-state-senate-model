@@ -1,0 +1,11 @@
+{
+  "policy_key": "immigration_legal_immigrant_social_program_eligibility",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option proposes restricting access to federal social safety net programs for legal immigrants.",
+  "evidence_quote": "Restrict the eligibility of legal immigrants for certain social programs (i.e. AFDC, HUD housing, food stamps, etc).",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "3596F34501075E4B",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "punitive",
+  "confidence": "high",
+  "rationale": "Mandating convicted persons pay incarceration costs as a condition of probation/sentence is explicitly punitive, expanding financial penalties beyond standard restitution.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

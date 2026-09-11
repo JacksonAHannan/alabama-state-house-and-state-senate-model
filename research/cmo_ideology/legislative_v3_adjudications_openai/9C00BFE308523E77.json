@@ -1,0 +1,10 @@
+{
+  "id": "9C00BFE308523E77",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Primarily clarifies and administers Education Trust Fund reserve practices and transfer dates; it is administrative and does not take a clear position on an allowed education axis.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

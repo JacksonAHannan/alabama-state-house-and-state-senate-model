@@ -1,0 +1,11 @@
+{
+  "policy_key": "marital_tax_equity",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Tax treatment should not differentiate between married and unmarried couples filing taxes, implying a progressive stance on individual autonomy and reduced government interference in personal relationships.",
+  "evidence_quote": "(No explicit quote provided in the prompt; however, this option aligns with progressive arguments against tax incentives for marriage (e.g., 'Married couples should pay taxes as individuals to eliminate discrimination based on marital status'). If a candidate supported this position, they would conventionally lean -1.)",
+  "needs_human_review": true,
+  "review_reason": "The prompt lacks direct text from the questionnaire. A human must verify if the candidate\u2019s *actual* wording aligns with progressive framing (e.g., 'abolish marriage penalty' vs. procedural justifications)."
+}

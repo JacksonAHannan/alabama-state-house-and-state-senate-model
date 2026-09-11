@@ -1,0 +1,24 @@
+{
+  "primary_domain": "guns",
+  "policy_key": "abortion_access",
+  "plain_english_policy": "Decriminalization of medical marijuana use",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "civil_social_liberty",
+      "pole": "expand",
+      "strength": "secondary",
+      "rationale": "Removes criminal penalties for a specific substance use, expanding personal autonomy in medical contexts."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "private_provision",
+      "strength": "primary",
+      "rationale": "Relies on private (e.g., patient-physician) relationships rather than state enforcement for regulation of use."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Decriminalize the use of marijuana for medicinal purposes\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

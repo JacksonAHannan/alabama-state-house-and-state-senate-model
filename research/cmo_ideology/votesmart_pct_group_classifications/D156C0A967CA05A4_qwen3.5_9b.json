@@ -1,0 +1,11 @@
+{
+  "policy_key": "welfare_status_quo",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Maintaining the current welfare system without substantial changes is a procedural or status-quo position that does not inherently align with either conservative or progressive ideology.",
+  "evidence_quote": "h) Make no substantial changes at this time.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

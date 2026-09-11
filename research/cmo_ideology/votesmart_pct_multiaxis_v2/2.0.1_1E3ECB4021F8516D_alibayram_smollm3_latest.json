@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "healthcare_access",
+  "plain_english_policy": "Increase state funding for training health workers to recognize and respond to the release of biological agents.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "The policy aims to expand access to trained health workers who can respond effectively in the event of a biological agent release."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Increase state funding for training health workers to recognize and respond to the release of biological agents.\" - Source: Questionnaire, Section: Health Issues, Year: 2002, Option: h) Increase state funding for training health workers to recognize and respond to the release of biological agents.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

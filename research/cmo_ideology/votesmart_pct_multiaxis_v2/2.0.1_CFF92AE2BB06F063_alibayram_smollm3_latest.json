@@ -1,0 +1,24 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "conservation_preservation",
+  "plain_english_policy": "Use state funds to clean up former industrial and commercial sites that are contaminated, unused or abandoned.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "environmental_protection",
+      "pole": "strengthen",
+      "strength": "primary",
+      "rationale": "Cleaning up contaminated sites is an environmental protection measure."
+    },
+    {
+      "axis": "conservation_preservation",
+      "pole": "preserve",
+      "strength": "primary",
+      "rationale": "Preserving abandoned or unused industrial and commercial sites by cleaning them up aligns with conservation preservation principles."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Use state funds to clean up former industrial and commercial sites that are contaminated, unused or abandoned.\" - Question on Environmental and Energy Issues in the Candidate's questionnaire for Year: 2002 Section: Environmental and Energy Issues Option b)\".",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "healthcare_tax_incentives_small_business",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option proposes using tax breaks to encourage small businesses to offer health insurance. In the U.S., opposing government intervention in healthcare markets and favoring private-sector solutions are generally considered conservative positions; however, expanding access via incentives can be seen as a moderate or progressive goal depending on context.",
+  "evidence_quote": "Provide tax incentives for small businesses to help provide health care to their employees.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

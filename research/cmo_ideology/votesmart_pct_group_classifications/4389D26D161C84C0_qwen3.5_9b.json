@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_local_control",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "medium",
+  "plain_english_policy": "Eliminate the Department of Education to increase state and local control over education.",
+  "evidence_quote": "eliminate the department of education thereby giving state and local government greater control over educational issues",
+  "needs_human_review": false,
+  "review_reason": ""
+}

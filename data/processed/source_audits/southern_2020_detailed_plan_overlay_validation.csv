@@ -1,0 +1,7 @@
+state_code,chamber,common_disagreements,disagreement_vap,cart_only_blocks,cart_only_vap,detail_only_blocks,detail_only_vap,cart_unmatched_vap,detail_unmatched_vap
+FL,lower,237,367.0,0,0.0,2287,875.0,875.0,0.0
+FL,upper,146,307.0,0,0.0,2287,875.0,875.0,0.0
+NC,lower,356,502.0,0,0.0,830,25.0,25.0,0.0
+NC,upper,222,207.0,0,0.0,830,25.0,25.0,0.0
+TX,lower,492,1690.0,0,0.0,744,10.0,10.0,0.0
+TX,upper,178,1594.0,0,0.0,744,10.0,10.0,0.0

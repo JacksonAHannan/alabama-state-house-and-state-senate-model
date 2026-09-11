@@ -1,0 +1,10 @@
+{
+  "id": "4EF3A78BBBACA42B",
+  "decision": "map",
+  "primitive_axis": "institutional_populism",
+  "policy_pole": "popular_control",
+  "confidence": "medium",
+  "rationale": "Prohibiting serial meetings, applying open-meeting requirements to legislative bodies, and adding penalties strengthens public oversight of governmental deliberation.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

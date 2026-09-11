@@ -1,0 +1,24 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "environmental_protection",
+  "plain_english_policy": "Enforce state-level environmental standards that exceed federal requirements.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "environmental_protection",
+      "pole": "strengthen",
+      "strength": "primary",
+      "rationale": "Explicitly calls for regulations stricter than federal law, indicating a clear intent to enhance environmental safeguards."
+    },
+    {
+      "axis": "resource_management",
+      "pole": "active_management",
+      "strength": "secondary",
+      "rationale": "Stricter regulations imply proactive oversight and enforcement of resource use, aligning with active management."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Enact environmental regulations even if they are stricter than federal law.\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

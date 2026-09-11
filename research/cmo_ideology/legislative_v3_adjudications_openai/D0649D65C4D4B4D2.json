@@ -1,0 +1,10 @@
+{
+  "id": "D0649D65C4D4B4D2",
+  "decision": "map",
+  "primitive_axis": "healthcare_regulation_patient_rights",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Raises penalties for operating or referring patients to unlicensed hospitals, strengthening healthcare licensing enforcement.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

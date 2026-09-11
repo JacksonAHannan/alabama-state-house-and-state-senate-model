@@ -1,0 +1,10 @@
+{
+  "id": "7D7F5D955D9A67F8",
+  "decision": "map",
+  "primitive_axis": "healthcare_regulation_patient_rights",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Requires hospitals to bill available health insurance before pursuing other compensation, limiting hospital liens and protecting injured patients.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

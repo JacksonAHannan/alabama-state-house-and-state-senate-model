@@ -1,0 +1,18 @@
+{
+  "primary_domain": "education",
+  "policy_key": "childcare_delivery",
+  "plain_english_policy": "Increase state funding to expand Head Start programs.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "Head Start is a program aimed at providing early childhood education and care to low-income families, which falls under the domain of childcare."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Increase state funding to expand Head Start programs.\" - Source: Year 2002, Section: Educational Issues, Question: Indicate which principles you support (if any) regarding education. Option: j)",
+  "needs_human_review": true,
+  "review_reason": "The policy is described as increasing state funding to expand Head Start programs."
+}

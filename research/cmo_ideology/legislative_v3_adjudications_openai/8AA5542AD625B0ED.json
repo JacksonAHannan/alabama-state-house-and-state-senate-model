@@ -1,0 +1,10 @@
+{
+  "id": "8AA5542AD625B0ED",
+  "decision": "map",
+  "primitive_axis": "market_governance",
+  "policy_pole": "market_autonomy",
+  "confidence": "high",
+  "rationale": "Creates a temporary waiver allowing licensed entities to continue operating after the death of a designated qualifying representative, reducing an occupational-licensing barrier.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

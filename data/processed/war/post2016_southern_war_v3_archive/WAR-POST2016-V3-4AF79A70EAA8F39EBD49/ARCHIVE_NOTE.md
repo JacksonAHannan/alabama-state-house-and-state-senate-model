@@ -1,0 +1,1 @@
+Byte-for-byte archive of approved run WAR-POST2016-V3-4AF79A70EAA8F39EBD49 taken 2026-09-11 before the owner-authorized retrain on refreshed Alabama context (SOUTHERN-V3-RETRAIN-REFRESHED-CONTEXT-20260911). Decision at approval: project_docs/audits/SOUTHERN_V3_RELEASE_DECISION.json (manifest sha256 c6c09e19335965380e068c40484437bf460db81add232dc8d7cf78d135a905a6).

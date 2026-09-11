@@ -1,0 +1,11 @@
+{
+  "policy_key": "homeland_security_funding",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "This option is procedural/administrative\u2014it does not inherently align with a stable left/right ideological stance but rather reflects a pragmatic allocation of resources.",
+  "evidence_quote": "Should the federal government increase funding to states and cities for homeland security?",
+  "needs_human_review": true,
+  "review_reason": "Context-dependent factors (e.g., fiscal priorities, local governance capacity) would determine whether this aligns with conservative or progressive goals."
+}

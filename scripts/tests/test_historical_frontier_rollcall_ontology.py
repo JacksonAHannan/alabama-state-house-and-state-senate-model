@@ -30,3 +30,31 @@ def test_historical_output_covers_every_unlinked_rollcall():
     mapped = output[output.decision.eq("map")]
     assert mapped.primitive_axis.notna().all()
     assert mapped.policy_pole.notna().all()
+
+
+def test_only_final_policy_support_is_mapped():
+    output = pd.read_csv(
+        "data/processed/legislative/historical_frontier_rollcall_ontology_v3.csv",
+        low_memory=False,
+    )
+    mapped = output[output.decision.eq("map")]
+    assert set(mapped.vote_description) <= {"final_passage", "conference_report"}
+    assert mapped.canonical_rollcall_id.nunique() >= 250
+
+
+def test_same_measure_mapping_reaches_both_chambers():
+    calls = pd.read_csv(
+        "data/processed/legislative/comprehensive_rollcall_classifications.csv",
+        low_memory=False,
+    )
+    output = pd.read_csv(
+        "data/processed/legislative/historical_frontier_rollcall_ontology_v3.csv",
+        low_memory=False,
+    )
+    mapped = calls.merge(
+        output[output.decision.eq("map")][["canonical_rollcall_id"]].drop_duplicates(),
+        on="canonical_rollcall_id",
+        how="inner",
+    )
+    mapped["measure_key"] = mapped.session_year.astype(str) + "|" + mapped.bill_number.astype(str)
+    assert mapped.groupby("measure_key").chamber.nunique().gt(1).any()

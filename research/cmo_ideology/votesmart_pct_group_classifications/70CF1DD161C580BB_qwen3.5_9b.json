@@ -1,0 +1,11 @@
+{
+  "policy_key": "balanced_federal_budget",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option calls for an annual balanced federal budget.",
+  "evidence_quote": "Do you support requiring the federal budget to be balanced each year?",
+  "needs_human_review": true,
+  "review_reason": "Budget balancing is a mixed procedural goal; fiscal conservatives often favor it via spending cuts while progressives may oppose it due to deficit concerns or prefer progressive taxation instead."
+}

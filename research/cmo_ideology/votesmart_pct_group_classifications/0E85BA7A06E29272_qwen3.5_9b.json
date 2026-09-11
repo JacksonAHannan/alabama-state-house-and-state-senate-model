@@ -1,0 +1,11 @@
+{
+  "policy_key": "welfare_homeless_vouchers",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option supports providing financial assistance in the form of housing vouchers to homeless families.",
+  "evidence_quote": "Provide homeless families with apartment vouchers they can use to supplement the cost of an apartment.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

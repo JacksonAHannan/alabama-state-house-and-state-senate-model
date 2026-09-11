@@ -1,0 +1,11 @@
+{
+  "policy_key": "health_prevention_natural_remedies",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Emphasizes prevention (education, natural remedies) over traditional medical interventions.",
+  "evidence_quote": "Support health care strategies focused on **prevention**, including health education, and **natural medicines and remedies**.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "enterprise_zones_high_unemployment",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Create tax breaks and incentives for businesses to invest in areas with high unemployment, aiming to spur job creation.",
+  "evidence_quote": "Implement enterprise zones in communities with high unemployment.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

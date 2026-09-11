@@ -1,0 +1,10 @@
+{
+  "id": "CEF2145F2D07E184",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "The description is incomplete and does not identify the required healthcare policy or its direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

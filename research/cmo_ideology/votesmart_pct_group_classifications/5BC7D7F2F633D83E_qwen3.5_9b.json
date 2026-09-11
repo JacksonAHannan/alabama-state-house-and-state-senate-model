@@ -1,0 +1,11 @@
+{
+  "policy_key": "environment_fuel_tax",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option proposes increasing federal taxes on gasoline and diesel fuels to promote conservation and alternative fuel development.",
+  "evidence_quote": "Increase federal taxes on gasoline and diesel fuels to promote conservation and alternative fuel development.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

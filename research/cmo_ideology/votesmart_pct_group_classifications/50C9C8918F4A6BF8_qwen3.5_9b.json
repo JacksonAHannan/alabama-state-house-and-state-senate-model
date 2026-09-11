@@ -1,0 +1,11 @@
+{
+  "policy_key": "international_trade_free_agreements",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks for a position on free trade agreements without specifying the stance (support or oppose), making it procedural rather than ideological.",
+  "evidence_quote": "Do you support the United States involvement in free trade agreements?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

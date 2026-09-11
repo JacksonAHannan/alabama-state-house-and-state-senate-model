@@ -1,0 +1,10 @@
+{
+  "id": "D4CDD12F00486D89",
+  "decision": "map",
+  "primitive_axis": "environmental_protection",
+  "policy_pole": "weaken",
+  "confidence": "high",
+  "rationale": "Removing certain minimum civil penalties for environmental violations weakens enforcement and thus environmental protection.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

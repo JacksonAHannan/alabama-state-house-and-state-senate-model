@@ -4,6 +4,8 @@ import json
 import re
 from pathlib import Path
 
+import pandas as pd
+
 
 ROOT = Path(__file__).resolve().parents[2]
 PAGE = ROOT / "docs" / "cmo.html"
@@ -56,5 +58,14 @@ def test_grimsley_2018_is_exact_published_race_residual() -> None:
     _, payload = page_payload()
     section = payload["2018-house"]
     row = next(item for item in section["candidates"] if item["candidate"] == "Dexter Grimsley")
-    assert abs(row["war"] - 13.295433950839808) < 0.01
+    published = pd.read_csv(
+        ROOT / "data/processed/war/alabama_war_v1/candidate_cycle_war.csv"
+    )
+    source = published[
+        published.cycle.eq(2018)
+        & published.chamber.eq("lower")
+        & published.district.eq(85)
+        & published.canonical_party.eq("D")
+    ].squeeze()
+    assert abs(row["war"] - source.candidate_cycle_war) < 1e-10
     assert row["scoringScope"] == "published_same_cycle_residual"

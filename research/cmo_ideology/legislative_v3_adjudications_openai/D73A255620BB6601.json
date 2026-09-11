@@ -1,0 +1,10 @@
+{
+  "id": "D73A255620BB6601",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Governs local disposition of abandoned, stolen, or unclaimed firearms and is an administrative property-disposal measure, not a clear gun-access or purchase-regulation policy.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_indirect_contributions",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Regulating indirect campaign contributions (e.g., corporate/union spending on lobbying, PACs, or advocacy groups) to limit their influence on elections.",
+  "evidence_quote": "*[Verbatim text from the option would be required here\u2014since no specific questionnaire is provided, this is a placeholder. In practice, if an Alabama candidate\u2019s response included language like \u2018Yes, corporations and unions should face stricter limits on indirect contributions to prevent undue influence\u2019 or \u2018I support transparency laws capping dark money in politics,\u2019 it would align with progressive framing.]*",
+  "needs_human_review": true,
+  "review_reason": "No direct text provided; inferred from conventional framing of indirect contribution regulation."
+}

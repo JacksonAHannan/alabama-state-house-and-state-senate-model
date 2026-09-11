@@ -1,0 +1,10 @@
+{
+  "id": "415824F9E666E58C",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Authorizes coverage for a specific county personnel group through a local insurance arrangement; it is administrative and narrowly local rather than a general healthcare policy measure.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

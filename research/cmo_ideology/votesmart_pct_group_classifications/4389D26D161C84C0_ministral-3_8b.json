@@ -1,0 +1,11 @@
+{
+  "policy_key": "abolish_department_of_education",
+  "dimension": "education_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Roll back federal education oversight and shift authority to states/local governments.",
+  "evidence_quote": "Eliminate the Department of Education, thereby giving state and local government greater control over educational issues.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

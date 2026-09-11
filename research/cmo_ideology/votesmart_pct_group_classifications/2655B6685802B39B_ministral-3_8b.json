@@ -1,0 +1,11 @@
+{
+  "policy_key": "defense_plant_conversion",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "medium",
+  "plain_english_policy": "Supporting the conversion of defense plants to civilian use (e.g., retooling for commercial industries).",
+  "evidence_quote": "*[No clear left/right bias in isolation\u2014this is a procedural/administrative policy with mixed ideological implications. Defense plant conversions can be framed as either economic stimulus (progressive) or job preservation (conservative), depending on context.*]",
+  "needs_human_review": true,
+  "review_reason": "Context-dependent: Could align with Keynesian demand-side policies (+1 progressive) *or* defense-industrial base maintenance (-1 conservative)."
+}

@@ -16,6 +16,7 @@ import numpy as np
 import pandas as pd
 
 from warehouse import ROOT, begin_run, connect, finish_run, initialize, register_source_file, register_table
+from source_vote_quality import require_reported_vote_quality
 
 CYCLE = 1994
 CORE = ("Governor", "Attorney General")
@@ -36,6 +37,13 @@ PLAN_FILES = {
 
 def load_returns() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     with sqlite3.connect(ELECTION_DB) as connection:
+        # warehouse-06: the unresolved 144.4 Morgan Attorney General cell
+        # (qa_warehouse_source_repair WQA-04-fractional-evidence) must refuse this
+        # slice instead of entering a sum. Disposition:
+        # project_docs/audits/MORGAN_1994_FRACTIONAL_CELL_QUARANTINE_2026_09_10.md
+        require_reported_vote_quality(connection, """source='alabama_sos' AND year=? AND (
+            (office IN ('State House','State Senate') AND district IS NOT NULL)
+            OR (office IN (?,?) AND party_norm IN ('D','R')))""", (CYCLE, *CORE))
         legislative = pd.read_sql_query(
             """SELECT county_key,precinct_key,office,district,votes
                FROM vote_observations
@@ -175,7 +183,10 @@ def main() -> None:
                 frame = frame.copy(); frame["core_index_complete"] = frame.core_index_complete.astype(int); frame["contested_two_party"] = frame.contested_two_party.astype(int)
             frame.to_sql(table, connection, if_exists="append", index=False)
             register_table(connection, table, "mart" if not table.startswith("qa_") else "qa",
-                "scripts/build_1994_cmo_baseline.py", "cycle/chamber/district",
+                "scripts/build_1994_cmo_baseline.py", {
+                    "mart_historical_precinct_district_weight": "cycle/chamber/county_key/precinct_key/district",
+                    "mart_historical_district_office_baseline": "cycle/chamber/district/office",
+                }.get(table, "cycle/chamber/district"),
                 "Official SOS returns; split precincts remain explicitly provisional", "replace", "1994 historical CMO baseline audit")
         finish_run(connection, run, {"weight_rows": len(weights), "race_rows": len(races),
             "contested_two_party_races": int(races.contested_two_party.sum()),

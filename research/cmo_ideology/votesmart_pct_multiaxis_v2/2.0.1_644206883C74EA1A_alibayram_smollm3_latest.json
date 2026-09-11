@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "crime_issues",
+  "plain_english_policy": "Ban the use of racial profiling by law enforcement officers.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "Racial profiling is a practice that can be seen as an intervention in the market of justice and fairness."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "primary",
+      "rationale": "Restricting racial profiling aligns with restricting practices that may unfairly target certain groups, thus promoting welfare for those affected by such targeting."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Ban the use of racial profiling by law enforcement officers.\" - Source: Crime Issues section in candidate questionnaire from Year 2002.",
+  "needs_human_review": true,
+  "review_reason": ""
+}

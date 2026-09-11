@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_tax_levels",
+  "dimension": "indeterminate",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option specifies a tax bracket range for federal funding or taxation but does not indicate the candidate's stance on raising or lowering taxes within that category.",
+  "evidence_quote": "$40,001-$100,000",
+  "needs_human_review": false,
+  "review_reason": ""
+}

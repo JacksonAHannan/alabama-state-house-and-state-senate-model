@@ -1,0 +1,10 @@
+{
+  "id": "4F3AB412F9478E92",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "Earmarks assets and income of retiree health trusts for benefits, but is a narrow constitutional trust-management measure rather than a clearly applicable general healthcare policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

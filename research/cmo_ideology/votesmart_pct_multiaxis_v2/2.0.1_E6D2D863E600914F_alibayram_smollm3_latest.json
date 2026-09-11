@@ -1,0 +1,24 @@
+{
+  "primary_domain": "labor",
+  "policy_key": "abortion_access",
+  "plain_english_policy": "Should marriage only be between one man and one woman?",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "This question pertains to the legal definition of marriage, which is a social policy issue."
+    },
+    {
+      "axis": "labor_rights",
+      "pole": "restrict",
+      "strength": "primary",
+      "rationale": "Restricting same-sex marriages could be seen as restricting labor rights for LGBTQ+ individuals in certain contexts."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Should marriage only be between one man and one woman?\" This question is a classic example of social policy that intersects with labor rights, particularly regarding the recognition of same-sex unions.",
+  "needs_human_review": true,
+  "review_reason": "This classification requires human review due to potential ambiguity in how this policy affects labor rights."
+}

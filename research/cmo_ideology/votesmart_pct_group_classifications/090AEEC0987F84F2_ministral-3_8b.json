@@ -1,0 +1,11 @@
+{
+  "policy_key": "healthcare_patients_bill_of_rights_sue",
+  "dimension": "healthcare_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Allow patients to sue insurers when their claims are wrongfully denied.",
+  "evidence_quote": "Support a Patient's Bill of Rights which includes the right to sue when claims are denied.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

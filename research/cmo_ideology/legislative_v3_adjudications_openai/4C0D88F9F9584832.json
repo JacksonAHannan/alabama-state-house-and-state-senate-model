@@ -1,0 +1,10 @@
+{
+  "id": "4C0D88F9F9584832",
+  "decision": "map",
+  "primitive_axis": "resource_development",
+  "policy_pole": "expand",
+  "confidence": "medium",
+  "rationale": "Creates a revolving loan program to support remediation and redevelopment of contaminated property.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

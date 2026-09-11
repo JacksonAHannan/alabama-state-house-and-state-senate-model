@@ -1,0 +1,18 @@
+{
+  "primary_domain": "criminal_justice",
+  "policy_key": "criminal_punishment",
+  "plain_english_policy": "Prosecute minors accused of violent crimes as adults.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "criminal_punishment",
+      "pole": "punitive",
+      "strength": "secondary",
+      "rationale": "The policy suggests a punitive approach to criminal punishment for minors accused of violent crimes."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Prosecute minors accused of violent crimes as adults.\" - Candidate's stance on crime and public safety issues in 2014.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

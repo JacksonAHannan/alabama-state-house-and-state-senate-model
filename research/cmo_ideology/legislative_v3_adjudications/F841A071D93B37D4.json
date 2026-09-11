@@ -1,0 +1,10 @@
+{
+  "id": "F841A071D93B37D4",
+  "decision": "map",
+  "primitive_axis": "education_public_funding",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "The bill explicitly extends the 'hold harmless' provision for K-12 public school funding, ensuring continued financial stability and protection of existing funding levels beyond four years. This directly supports expanded public education funding.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

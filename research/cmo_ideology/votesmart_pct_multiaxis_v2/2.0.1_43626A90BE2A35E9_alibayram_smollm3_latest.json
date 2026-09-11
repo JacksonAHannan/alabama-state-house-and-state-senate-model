@@ -1,0 +1,24 @@
+{
+  "primary_domain": "criminal_justice",
+  "policy_key": "crimes_against_animals",
+  "plain_english_policy": "Supports increasing penalties for illegal cockfighting.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Increasing penalties implies a restriction on the practice."
+    },
+    {
+      "axis": "criminal_punishment",
+      "pole": "punitive",
+      "strength": "primary",
+      "rationale": "Supporting increased penalties suggests a punitive approach to crime."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I support increasing the penalties for illegal cockfighting.\" - Candidate statement on criminal justice reform in 2010.",
+  "needs_human_review": true,
+  "review_reason": "The policy is described as supporting increased penalties, which implies a restriction and punitive approach to crimes against animals."
+}

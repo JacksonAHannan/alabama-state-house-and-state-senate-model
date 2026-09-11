@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_education_standards_alabama",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting federal education standards in Alabama would likely mean adopting nationally recognized frameworks (e.g., Common Core) that emphasize core academic skills and cross-state consistency. This is conventionally viewed as a progressive stance, as it prioritizes equity and alignment with broader educational goals over state-level autonomy.",
+  "evidence_quote": "Do you support adopting federal education standards in Alabama?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

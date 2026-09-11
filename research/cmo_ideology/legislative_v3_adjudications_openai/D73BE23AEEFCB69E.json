@@ -1,0 +1,10 @@
+{
+  "id": "D73BE23AEEFCB69E",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns regulatory-board authority, licensing, fees, and training requirements; it is administrative and does not fit an allowed education axis.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

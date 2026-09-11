@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_income_tax_cut_for_budget",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "This option proposes cutting income taxes to balance the budget. While tax cuts are often associated with conservative fiscal policy (reducing government revenue), using them specifically as a mechanism for 'balancing' can be seen by progressives as prioritizing deficit reduction through regressive means or, conversely, conservatives might view any spending cut implied necessary to offset such losses differently. However, the core action is tax reduction.",
+  "evidence_quote": "Do you support a decrease in income taxes in order to balance the budget?",
+  "needs_human_review": true,
+  "review_reason": "The question asks about decreasing income taxes for budget balancing; this can be interpreted as conservative (tax cuts) but the 'balance' goal is often progressive or mixed depending on spending side not shown. The prompt says use -1 only when conventionally more progressive, +1 only when conservatively supported. Tax cuts are generally conservative (+1), so if we must choose a direction despite ambiguity, it leans conservative due to tax cut focus."
+}

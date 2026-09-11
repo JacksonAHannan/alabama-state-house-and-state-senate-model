@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_soft_money_bans",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Prohibits large, unregulated donations to political parties (soft money) that often bypass contribution limits.",
+  "evidence_quote": "Ban unregulated soft money campaign contributions to political parties or committees.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

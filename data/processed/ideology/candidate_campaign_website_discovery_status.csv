@@ -1,0 +1,4 @@
+votesmart_candidate_id,profile_url,http_status,campaign_links_found,error,retrieved_at_utc
+15904,https://j.futurefacts.votesmart.io/candidate/15904,0,0,ReadTimeout,2026-08-17T03:14:27.883306+00:00
+5639,https://j.futurefacts.votesmart.io/candidate/5639,0,0,ReadTimeout,2026-08-17T03:14:27.883306+00:00
+15876,https://j.futurefacts.votesmart.io/candidate/15876,0,0,ReadTimeout,2026-08-17T03:14:27.883306+00:00

@@ -1,0 +1,18 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "environmental_protection",
+  "plain_english_policy": "Enacting stricter environmental regulations than federal law",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "environmental_protection",
+      "pole": "strengthen",
+      "strength": "secondary",
+      "rationale": "The policy explicitly supports stricter environmental regulations."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Enact environmental regulations even if they are stricter than federal law.",
+  "needs_human_review": false,
+  "review_reason": "The policy explicitly supports stricter environmental regulations."
+}

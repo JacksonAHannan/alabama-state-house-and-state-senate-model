@@ -1,0 +1,11 @@
+{
+  "policy_key": "moral_decline_assessment",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option implies a belief that moral and ethical standards have worsened significantly over time, which is often associated with progressive or reformist perspectives on societal values, social justice, and systemic change.",
+  "evidence_quote": "(No explicit quote provided in the option text\u2014this is a standalone question format. However, if this were part of a questionnaire where candidates answered affirmatively, an example response might read: 'Yes, I believe there has been a decline in moral and ethical standards due to factors like corporate greed, political polarization, and erosion of community values.' This would conventionally align with progressive framing.)",
+  "needs_human_review": true,
+  "review_reason": "The question lacks candidate-specific text; scoring requires inference from context. Use the provided example as a template for real responses."
+}

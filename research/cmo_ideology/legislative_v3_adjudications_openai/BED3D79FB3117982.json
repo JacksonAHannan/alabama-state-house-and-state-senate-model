@@ -1,0 +1,10 @@
+{
+  "id": "BED3D79FB3117982",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The amendment creates exceptions for delirious or medicated patients and home-health workers in private residences, but the underlying legal obligation and applicable healthcare policy axis are not identified.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

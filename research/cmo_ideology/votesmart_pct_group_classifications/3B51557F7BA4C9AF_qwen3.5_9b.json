@@ -1,0 +1,11 @@
+{
+  "policy_key": "tech_internet_sales_tax_moratorium",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting a moratorium on Internet sales taxes is generally considered more progressive as it favors lower prices for consumers and supports digital commerce over traditional brick-and-mortar businesses.",
+  "evidence_quote": "a) Continuing the moratorium on Internet sales taxes.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

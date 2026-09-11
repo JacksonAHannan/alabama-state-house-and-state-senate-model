@@ -1,0 +1,10 @@
+{
+  "id": "602E46322D007F9A",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "punitive",
+  "confidence": "high",
+  "rationale": "Creates a criminal offense and penalty for disarming law enforcement or corrections officers.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

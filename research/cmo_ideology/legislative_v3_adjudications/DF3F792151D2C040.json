@@ -1,0 +1,10 @@
+{
+  "id": "DF3F792151D2C040",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "Primarily procedural (due process for State Personnel Board hearings) with no clear policy direction on allowed axes. Ineligible persons are defined but lacks substantive reform or restriction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

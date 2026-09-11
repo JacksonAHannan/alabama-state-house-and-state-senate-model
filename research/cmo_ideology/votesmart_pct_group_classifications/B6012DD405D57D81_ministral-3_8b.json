@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_contribution_regulation",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Regulating money in politics (e.g., limits on corporate/union/donor contributions).",
+  "evidence_quote": "*[No direct quote provided in your input, but this option conventionally aligns with progressive advocacy for transparency/citizen control over political spending.]*",
+  "needs_human_review": true,
+  "review_reason": "The question lacks a specific candidate's verbatim text; the classification is based on conventional framing of campaign finance regulation as a left-leaning issue."
+}

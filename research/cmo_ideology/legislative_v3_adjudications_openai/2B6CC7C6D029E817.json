@@ -1,0 +1,10 @@
+{
+  "id": "2B6CC7C6D029E817",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "expand",
+  "confidence": "medium",
+  "rationale": "Authorizes the sheriff to sell firearms to qualifying licensed dealers, expanding the legally permitted channel for firearm distribution.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

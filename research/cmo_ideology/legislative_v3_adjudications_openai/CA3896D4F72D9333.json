@@ -1,0 +1,10 @@
+{
+  "id": "CA3896D4F72D9333",
+  "decision": "map",
+  "primitive_axis": "land_use_property_rights",
+  "policy_pole": "regulation",
+  "confidence": "high",
+  "rationale": "Authorizes a municipality to disapprove specified industrial development projects within its limits, increasing local land-use control.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

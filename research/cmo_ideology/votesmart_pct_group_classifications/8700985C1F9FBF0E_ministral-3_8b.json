@@ -1,0 +1,11 @@
+{
+  "policy_key": "us_vietnam_diplomatic_relations",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Whether the U.S. should maintain or establish diplomatic relations with Vietnam (post-war normalization).",
+  "evidence_quote": "*[No direct quote provided in your input, but this option aligns with post-1975 U.S.-Vietnam policy shifts.]*",
+  "needs_human_review": true,
+  "review_reason": "The question is phrased as a standalone option (not tied to the original questionnaire's economic aid/UN sections), but its ideological framing would conventionally lean progressive (-1) due to historical context: normalization with Vietnam was opposed by some conservatives (e.g., citing human rights concerns or Cold War legacy) and supported by progressives (e.g., as a step toward reconciliation)."
+}

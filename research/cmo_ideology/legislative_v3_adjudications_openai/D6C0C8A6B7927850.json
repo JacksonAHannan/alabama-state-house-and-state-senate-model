@@ -1,0 +1,10 @@
+{
+  "id": "D6C0C8A6B7927850",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "Concerns occupational licensing, employability certificates, and employer immunity, which do not clearly fit an allowed axis and may combine multiple policy effects.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

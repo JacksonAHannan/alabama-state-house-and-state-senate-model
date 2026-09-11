@@ -1,0 +1,10 @@
+{
+  "id": "E67215A91FCA49AB",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "The bill is a technical amendment clarifying when campaign contributions are considered received, with no substantive policy impact.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

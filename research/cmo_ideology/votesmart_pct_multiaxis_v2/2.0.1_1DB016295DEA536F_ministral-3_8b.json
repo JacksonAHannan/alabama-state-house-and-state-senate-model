@@ -1,0 +1,24 @@
+{
+  "primary_domain": "healthcare",
+  "policy_key": "healthcare_access",
+  "plain_english_policy": "A government-run or subsidized healthcare plan available to all citizens, with public administration of enrollment and service delivery.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "healthcare_access",
+      "pole": "expand",
+      "strength": "primary",
+      "rationale": "The option explicitly proposes a system that increases access to healthcare services for all citizens, regardless of income or employment status."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "primary",
+      "rationale": "The option specifies 'publicly-administered' as the mechanism for delivery and administration."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "'universally-accessible, publicly-administered health insurance option'",
+  "needs_human_review": false,
+  "review_reason": ""
+}

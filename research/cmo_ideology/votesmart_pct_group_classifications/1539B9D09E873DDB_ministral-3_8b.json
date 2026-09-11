@@ -1,0 +1,11 @@
+{
+  "policy_key": "un_financial_support",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Would the candidate reduce U.S. funding to the UN?",
+  "evidence_quote": "Should the United States decrease its financial support of the United Nations?",
+  "needs_human_review": true,
+  "review_reason": "The option is a direct policy question without explicit ideological framing, but conventionally, calls for reducing U.S. UN funding align with conservative critiques of multilateralism (e.g., skepticism toward global governance). However, some progressives also oppose certain UN programs or bureaucratic inefficiencies, making this context-dependent."
+}

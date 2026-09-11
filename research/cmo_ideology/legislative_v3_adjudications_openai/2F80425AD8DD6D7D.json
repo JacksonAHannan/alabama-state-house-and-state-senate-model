@@ -1,0 +1,10 @@
+{
+  "id": "2F80425AD8DD6D7D",
+  "decision": "map",
+  "primitive_axis": "healthcare_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "The measure requires health benefit plans to cover a minimum postpartum hospital stay and specified maternal and newborn testing.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

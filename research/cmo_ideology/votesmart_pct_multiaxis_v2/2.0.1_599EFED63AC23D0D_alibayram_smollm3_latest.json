@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "welfare_policy",
+  "plain_english_policy": "Supports voluntary spending limits on candidates for state government.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Voluntary spending limits are a restriction on the amount of money candidates can spend in their campaigns."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I support voluntary spending limits to ensure that all candidates have an equal opportunity to run for office.\" - Candidate Statement, Year: 2010, Section: Campaign Finance and Government Reform Issues, Question: c) Do you support limits on the following types of contributions to candidates for state government? Option: d) Should candidates for state office be encouraged to meet voluntary spending limits?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

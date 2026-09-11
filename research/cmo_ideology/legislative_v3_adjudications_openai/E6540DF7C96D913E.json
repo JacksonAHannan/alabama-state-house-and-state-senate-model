@@ -1,0 +1,10 @@
+{
+  "id": "E6540DF7C96D913E",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Primarily changes Pardons and Paroles Board composition, leadership selection, and procedures; these are administrative and governance provisions rather than a clear allowed policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

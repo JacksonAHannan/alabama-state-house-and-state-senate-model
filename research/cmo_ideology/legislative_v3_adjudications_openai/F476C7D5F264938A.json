@@ -1,0 +1,10 @@
+{
+  "id": "F476C7D5F264938A",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Extending Medicaid regional-care-organization certification periods is a technical administrative measure and does not clearly establish an allowed healthcare policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

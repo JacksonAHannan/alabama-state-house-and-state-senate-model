@@ -1,0 +1,11 @@
+{
+  "policy_key": "health_care_tax_deduction",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Allowing tax deductions for health care costs reduces the financial burden on lower-income families and expands access to care through a progressive fiscal mechanism.",
+  "evidence_quote": "f) Allow middle and low income families to deduct yearly health care costs from their taxable income.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "FA11AEB6B49000FB",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Provides a county coroner expense allowance and health insurance benefit; this is a local administrative compensation measure, not a general healthcare policy.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

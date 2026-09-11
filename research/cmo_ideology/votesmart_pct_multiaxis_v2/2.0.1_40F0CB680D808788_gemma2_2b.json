@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "expansion",
+  "plain_english_policy": "Expand access to healthcare",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "primary",
+      "rationale": "The question asks for support of expanding access to healthcare through commercial health insurance reform. This implies a government-funded or regulated system, not private provision."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Do you support expanding access to health care through commercial health insurance reform?",
+  "needs_human_review": false,
+  "review_reason": "The question asks for support of expanding access to healthcare. This implies a government-funded or regulated system, not private provision."
+}

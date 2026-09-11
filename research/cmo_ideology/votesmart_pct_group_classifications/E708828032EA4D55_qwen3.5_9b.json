@@ -1,0 +1,11 @@
+{
+  "policy_key": "national_security_discretion",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "This option proposes expanding government surveillance and search powers without specifying a particular ideological stance; it is primarily procedural or administrative in nature.",
+  "evidence_quote": "c) Should the United States grant law enforcement agencies greater discretion to read mail and email, tap phones, and conduct random searches to prevent future terrorist attacks?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

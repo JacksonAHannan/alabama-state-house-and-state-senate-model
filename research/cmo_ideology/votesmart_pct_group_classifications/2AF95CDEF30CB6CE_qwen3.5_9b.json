@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_retiree_income_tax",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "This option proposes taxing retiree income above a threshold of $40,000. In the context of US politics and Alabama specifically, increasing taxes on fixed-income seniors is conventionally viewed as progressive (favoring redistribution), whereas protecting such income or lowering it would be conservative.",
+  "evidence_quote": "a) Retiree income over $40,000",
+  "needs_human_review": false,
+  "review_reason": ""
+}

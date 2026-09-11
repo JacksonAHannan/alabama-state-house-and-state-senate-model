@@ -10,6 +10,7 @@ from pathlib import Path
 import re
 
 import pandas as pd
+from legiscan_eligibility import read_member_votes, read_roll_calls
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -43,7 +44,9 @@ def issue_hits(text: object) -> list[str]:
 
 def main() -> None:
     rolls = pd.read_csv(DATA / "legiscan_rollcall_analysis_eligibility.csv")
-    votes = pd.read_csv(DATA / "legiscan_alabama_individual_votes.csv")
+    # Cached analytical eligibility cannot override current source reconciliation.
+    rolls = rolls[rolls.roll_call_id.isin(read_roll_calls().roll_call_id)].copy()
+    votes = read_member_votes()
     people = pd.read_csv(DATA / "legiscan_alabama_legislators.csv")
     people = people.drop_duplicates(["session_year", "people_id"], keep="last")
     votes = votes[votes.vote.isin(["Yea", "Nay"])].merge(

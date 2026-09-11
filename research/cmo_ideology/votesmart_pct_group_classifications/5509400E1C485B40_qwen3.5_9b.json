@@ -1,0 +1,11 @@
+{
+  "policy_key": "cia_appropriations",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option to select 'CIA appropriations' is a procedural choice within a budget questionnaire and does not inherently indicate conservative or progressive ideology.",
+  "evidence_quote": "Select one number only.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,24 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "resource_development",
+  "plain_english_policy": "support_state_funding_for_improvements_to_Alabama's_energy_infrastructure",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "State funding for energy infrastructure improvements is a policy that expands the availability and accessibility of clean or sustainable energy sources, which can contribute to environmental welfare."
+    },
+    {
+      "axis": "environmental_protection",
+      "pole": "weaken",
+      "strength": "secondary",
+      "rationale": "While supporting state funding for infrastructure improvements may lead to increased efficiency in the use of resources and reduced emissions, it could also potentially weaken environmental protection if not accompanied by stringent regulations."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I believe that investing in our energy infrastructure is crucial for Alabama's economic growth and sustainability. By supporting state funding for improvements to our energy systems, we can ensure a cleaner environment while maintaining reliable access to power.\" - Candidate statement on the topic of energy infrastructure investment.",
+  "needs_human_review": true,
+  "review_reason": "The policy is described as supportive of state funding for energy infrastructure improvements. However, there are potential trade-offs between economic growth and environmental protection that need further clarification."
+}

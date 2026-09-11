@@ -1,5 +1,15 @@
 # Caucus reclustering validation
 
+> Historical validation only: this report certifies the August 21 snapshot
+> named below, not the current public product. Its CMO v4 attachment and
+> two-Democratic-group findings have been superseded by the current
+> historical-WAR attachment and three-group Democratic renderer. Retain the
+> original results as replay evidence; do not reinterpret this PASS as current
+> source, cluster, sensitivity or publication acceptance. See
+> [the canonical pipeline and scope](../CANONICAL_PIPELINES.md) and the open
+> ideology validation tasks in the internal checklist. No analysis was rerun
+> when this status clarification was added on September 7, 2026.
+
 **Task:** `VALIDATE-CAUCUS-RECLUSTER-001`
 **Validated:** 2026-08-21
 **Verdict:** **PASS**

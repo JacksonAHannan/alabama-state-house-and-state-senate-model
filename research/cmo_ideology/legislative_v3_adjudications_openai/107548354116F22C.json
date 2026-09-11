@@ -1,0 +1,10 @@
+{
+  "id": "107548354116F22C",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The description concerns a substitute that was laid on the table and does not provide evidence of final passage.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

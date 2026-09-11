@@ -1,0 +1,10 @@
+{
+  "id": "ACE56B87276AE267",
+  "decision": "map",
+  "primitive_axis": "incarceration",
+  "policy_pole": "reduce",
+  "confidence": "high",
+  "rationale": "The bill introduces mandatory supervised release for certain inmates, reducing the likelihood of prolonged incarceration.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

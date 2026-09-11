@@ -1,0 +1,11 @@
+{
+  "policy_key": "poverty_recovery_funding",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase funding for programs that help alcoholics and drug addicts recover and find steady work.",
+  "evidence_quote": "Increase funding of programs that help alcoholics and drug addicts recover and find steady work.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

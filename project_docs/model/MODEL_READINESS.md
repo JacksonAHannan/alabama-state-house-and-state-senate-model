@@ -1,5 +1,7 @@
 # Alabama legislative Candidate Margin Overperformance: readiness status
 
+> **Documentation status — 2026-09-05:** Historical readiness snapshot. This describes an earlier CMO release, not the current historical WAR or forecast release. Preserve its measurements as dated evidence; its old acquisition gaps and rebuild sequence are not today's to-do list. Use [current product routes](../CANONICAL_PIPELINES.md) and the [internal checklist](../PROJECT_COMPLETION_CHECKLIST.html).
+
 > **August 2026 model change:** The public product is now Candidate Margin
 > Overperformance (CMO), not Wins Above Replacement. CMO is a retrospective,
 > zero-sum margin residual for contested D/R races; it does not estimate wins,

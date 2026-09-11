@@ -1,0 +1,10 @@
+{
+  "id": "778730A54B029711",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "punitive",
+  "confidence": "high",
+  "rationale": "The bill expands capital offenses to include certain sex crimes against children and mandates life imprisonment without parole, indicating a punitive approach to criminal punishment.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

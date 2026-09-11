@@ -1,0 +1,11 @@
+{
+  "policy_key": "expand_community_policing_funding",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Expanding funding for community policing programs is generally considered a progressive approach to crime prevention.",
+  "evidence_quote": "Expand funding for community policing programs.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

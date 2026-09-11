@@ -1,0 +1,10 @@
+{
+  "id": "ED2A88FEA0BB5042",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "The measure explicitly authorizes the sale of abandoned, unclaimed, or stolen firearms by the Cherokee County sheriff. This directly expands access to firearms by allowing law enforcement to sell confiscated guns rather than retaining them.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

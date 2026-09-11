@@ -1,0 +1,10 @@
+{
+  "id": "FB86B22552FA3955",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "A broad amusement-ride regulatory scheme with mixed safety, licensing, liability, civil, and criminal provisions; it is also mismatched to the criminal-justice issue axis.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

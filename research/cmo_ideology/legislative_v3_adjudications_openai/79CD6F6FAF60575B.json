@@ -1,0 +1,10 @@
+{
+  "id": "79CD6F6FAF60575B",
+  "decision": "map",
+  "primitive_axis": "labor_rights",
+  "policy_pole": "restrict",
+  "confidence": "high",
+  "rationale": "Prohibiting public agencies from conditioning construction contracts or awards on collective bargaining agreements directly restricts labor-related contracting rights.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "automatic_voter_registration",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Expanding voter access by streamlining registration processes (e.g., automatic enrollment at DMV or state agencies).",
+  "evidence_quote": "*[Verbatim text from the option would be required here\u2014since no specific questionnaire text was provided, this is a generic example of how it might appear:] 'Yes, I support automatic voter registration to increase civic participation by removing bureaucratic barriers.'*",
+  "needs_human_review": true,
+  "review_reason": "No direct candidate response was provided; this classification assumes the option itself aligns with progressive voting rights advocacy."
+}

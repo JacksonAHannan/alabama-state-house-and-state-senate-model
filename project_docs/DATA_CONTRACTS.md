@@ -65,6 +65,34 @@ through observation normalization. Distinct physical columns with the same
 candidate label and distinct rows whose labels differ only by whitespace remain
 separate source observations. These locators explain source grain; they do not
 adjudicate duplicate reporting units, relabel a printed answer or alter votes.
+The legacy 1998 and 2004 matrix adapters likewise retain sheet, one-based
+row/column and exact printed precinct/candidate labels. Locator additions must
+preserve every previously emitted substantive field and observation, including
+ambiguous or incomplete office labels. A parser improvement alone does not fill
+existing warehouse rows: a separate full-cohort reconciliation and uniquely
+evidenced source match are required before canonical provenance is updated.
+`stage_legacy_source_lineage.py` stages the 1998/2004 comparison read-only by
+complete county cohort at all original substantive source fields. A cohort
+with any substantive mismatch or conflicting populated locator gets no proposed
+updates. Every proposed count-cell pointer is checked against the immutable
+archive member. Equal-valued ambiguous observations retain all alternatives;
+only unique matches may propose filling null provenance. Original ingest IDs,
+source values, source labels and provider-grain ambiguity remain unchanged.
+Its versioned proposal is evidence for review, not an application or approval.
+An independently reviewed source-header spelling equivalence may be declared in
+an explicit, hashed review record solely for this matching step. The original
+stored office label remains in the substantive before-image and is never
+updated by a locator repair. The reviewed 1998/2004 record is
+`audits/LEGACY_SOURCE_OFFICE_EQUIVALENCE_2026_09_08.json`; it admits only the two
+documented Senate spellings, not the other office or candidate representation
+discrepancies. Complete county parity and unique physical pairing still apply.
+Application through `repair_sos_cell_lineage.py --legacy-proposal` requires the
+exact proposal hash, current source/schema/code/registry hashes and latest run,
+a verified new separate backup, a transaction and metadata-only SQLite write
+authorization. Preserve original source values/labels, ingest IDs, unrelated
+tables, prior controls and all ambiguous alternatives. A successful application
+invalidates byte-level snapshot claims until separately reviewed; it does not
+rebuild or recertify analytical consumers.
 
 A historical office-only correction may update `office` and `district` on an
 existing source row only after a unique match at the unchanged source/year/
@@ -143,7 +171,29 @@ An independently recorded retrieval time must not be erased merely because a
 manifest lacks that field. Neither correction nor registration establishes reuse
 terms or changes the source's authoritative scope.
 
+Existing registry URL and license omissions may be filled from an explicit local
+source manifest only when its exact artifact path, provider and content hash
+match the registered bytes. Retain the manifest hash and before-image in repair
+evidence; do not infer terms from a provider name or erase conflicting populated
+metadata. The Shor manifest's explicit `access_url` and `license` are eligible
+for this narrow recovery. Retrieval time, source scope and analytical contents
+remain unchanged. Live application requires an exact snapshot, separate verified
+backup, scoped transaction and preservation checks; a metadata repair does not
+recertify existing analytical outputs.
+
 ## Join contracts
+
+### Reviewed dependency file integrity
+
+The existing Southern release gate verifies the manifest's declared
+`input_hashes`, `code_hashes`, `outputs` and `reports` against current bytes
+before returning an approved bundle. A missing file, malformed declaration or
+hash disagreement fails with the affected path, even when the review decision
+and manifest still agree. Files are hashed in bounded blocks, including the
+central SQLite file; no database mutation or analytical computation occurs.
+This enforces the already declared snapshot, not a new approval or evidence for
+undeclared transitive dependencies. A database hash change requires dependency
+review; it does not by itself prove that every domain's numerical values changed.
 
 ### Alabama 2022 contest totals versus allocation inputs
 

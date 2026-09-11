@@ -1,0 +1,10 @@
+{
+  "id": "D3F97279CF12BF56",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "Authorizing an identification-card program for parolees is administrative and does not clearly establish an allowed criminal-justice policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

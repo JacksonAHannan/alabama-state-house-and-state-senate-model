@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_crime_nonviolent_sentence_reduction",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting reduced prison sentences for non-violent offenders is conventionally associated with progressive penal reform.",
+  "evidence_quote": "f) Reduce prison sentences for those who commit non-violent crimes.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

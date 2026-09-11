@@ -1,0 +1,24 @@
+{
+  "primary_domain": "healthcare",
+  "policy_key": "vaccination_exemptions",
+  "plain_english_policy": "Eliminating religious exemptions for vaccinations",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "The policy is a change in the existing system of healthcare provision."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "secondary",
+      "rationale": "This option implies a shift from private to public provision of healthcare services."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "The policy is a change in the existing system of healthcare provision.",
+  "needs_human_review": false,
+  "review_reason": "This option implies a shift from private to public provision of healthcare services."
+}

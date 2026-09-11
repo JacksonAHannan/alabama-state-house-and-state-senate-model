@@ -1,0 +1,24 @@
+{
+  "primary_domain": "childcare",
+  "policy_key": "childcare_support",
+  "plain_english_policy": "Provide tax credits for businesses that provide childcare for their employees.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "primary",
+      "rationale": "The policy directly supports public provision of childcare services."
+    },
+    {
+      "axis": "childcare_delivery",
+      "pole": "public_provision",
+      "strength": "primary",
+      "rationale": "The policy directly supports public provision of childcare services."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Provide tax credits for businesses that provide child care for their employees.",
+  "needs_human_review": false,
+  "review_reason": "The policy directly supports public provision of childcare services."
+}

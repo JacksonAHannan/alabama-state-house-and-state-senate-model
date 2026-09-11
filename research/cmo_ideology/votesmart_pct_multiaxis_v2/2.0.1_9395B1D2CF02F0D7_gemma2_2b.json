@@ -1,0 +1,24 @@
+{
+  "primary_domain": "criminal_justice",
+  "policy_key": "decriminalization",
+  "plain_english_policy": "Decriminalize possession of small amounts of marijuana.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "The policy is a restriction on the use of marijuana."
+    },
+    {
+      "axis": "business_scale_alignment",
+      "pole": "small_business",
+      "strength": "secondary",
+      "rationale": "This option would likely impact small businesses that sell or distribute marijuana products."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Should the possession of small amounts of marijuana be decriminalized?",
+  "needs_human_review": false,
+  "review_reason": "This is a policy question about whether to decriminalize the possession of small amounts of marijuana. This option would likely impact businesses that sell or distribute marijuana products."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "iraq_reconstruction_funding",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks for specific proposals on Iraq reconstruction funding without providing a conservative or progressive framework to evaluate the answer.",
+  "evidence_quote": "Discuss your proposals for the reconstruction of Iraq. What funding sources would you use to implement these proposals?",
+  "needs_human_review": true,
+  "review_reason": "The text is an open-ended prompt requesting policy ideas rather than stating a position; therefore it lacks inherent left/right direction."
+}

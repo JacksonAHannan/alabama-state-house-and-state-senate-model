@@ -1,0 +1,11 @@
+{
+  "policy_key": "relax_fbi_terrorism_investigation",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "This option proposes removing restrictions on FBI investigations of terrorist groups based solely on reasonable indications. While often framed as enhancing security (a conservative goal), the specific mechanism involves deregulating federal investigative authority and expanding surveillance capabilities, which is conventionally viewed by progressive frameworks as a civil liberties issue requiring strict procedural safeguards rather than relaxed guidelines.",
+  "evidence_quote": "Relax current guidelines that forbid the Federal Bureau of Investigation (FBI) from investigating terrorist groups when there is a \"reasonable indication\" of terrorist activities.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

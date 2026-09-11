@@ -1,0 +1,9 @@
+year,election_stage,chamber,districts,strict_districts,matched_legislative_turnout,total_legislative_turnout,match_rate,source_path
+2023,first_round,house,39,39,,,1.0,data/raw/historical_statewide_elections/la_2023_gen_prim_pber.zip
+2023,first_round,senate,17,17,,,1.0,data/raw/historical_statewide_elections/la_2023_gen_prim_pber.zip
+2023,runoff,house,18,18,,,1.0,data/raw/historical_statewide_elections/la_2023_gen_prim_pber.zip
+2023,runoff,senate,2,2,,,1.0,data/raw/historical_statewide_elections/la_2023_gen_prim_pber.zip
+2019,first_round,house,41,41,359998.0,359998.0,1.0,data/raw/historical_statewide_elections/la_vest_19.zip
+2019,first_round,senate,22,22,501007.0,501007.0,1.0,data/raw/historical_statewide_elections/la_vest_19.zip
+2019,runoff,house,24,24,225397.0,225397.0,1.0,data/raw/historical_statewide_elections/la_vest_19.zip
+2019,runoff,senate,5,5,126755.0,126755.0,1.0,data/raw/historical_statewide_elections/la_vest_19.zip

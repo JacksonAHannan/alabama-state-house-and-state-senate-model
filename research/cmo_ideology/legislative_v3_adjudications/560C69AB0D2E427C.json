@@ -1,0 +1,10 @@
+{
+  "id": "560C69AB0D2E427C",
+  "decision": "map",
+  "primitive_axis": "education_market_choice",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Prohibiting online school withdrawals from being counted as dropouts explicitly supports market-based education choices.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

@@ -1,0 +1,24 @@
+{
+  "primary_domain": "healthcare",
+  "policy_key": "employer_incentive",
+  "plain_english_policy": "Tax credit for employers that provide healthcare to their employees.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "secondary"
+    },
+    {
+      "axis": "business_scale_alignment",
+      "pole": "small_business",
+      "strength": "primary",
+      "rationale": "primary"
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Provide tax incentives to small businesses that provide health care to their employees.",
+  "needs_human_review": false,
+  "review_reason": "Tax credits for employers who offer healthcare benefits are a common policy tool. This option suggests the government should incentivize this behavior."
+}

@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "welfare_policy",
+  "plain_english_policy": "Support limits on contributions to state candidates.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Supporting limits on contributions implies a restriction of the amount or type of money that can be given to state candidates."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I support limits on campaign finance, believing it is necessary for fair and transparent elections.\" - Candidate statement from 2014 campaign finance & government reform issues section.",
+  "needs_human_review": true,
+  "review_reason": "The policy mechanism stated by the candidate involves supporting limits on contributions to state candidates. This implies a restriction of the amount or type of money that can be given to these candidates."
+}

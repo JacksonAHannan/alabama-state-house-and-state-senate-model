@@ -1,0 +1,30 @@
+{
+  "primary_domain": "guns",
+  "policy_key": "abortion_access",
+  "plain_english_policy": "Decriminalization of medical marijuana use",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "civil_social_liberty",
+      "pole": "expand",
+      "strength": "primary",
+      "rationale": "Removes criminal penalties for a specific activity, expanding individual autonomy over personal health choices."
+    },
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "Decriminalization may reduce enforcement costs (e.g., policing, courts) but does not explicitly redistribute tax burdens; potential regressive impact if enforcement savings are not reinvested in progressive programs."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "private_provision",
+      "strength": "secondary",
+      "rationale": "Shifts regulatory burden from public enforcement to private markets (e.g., legalized sales via private entities)."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Decriminalize the use of marijuana for medicinal purposes",
+  "needs_human_review": false,
+  "review_reason": ""
+}

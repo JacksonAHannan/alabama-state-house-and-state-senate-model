@@ -1,0 +1,10 @@
+{
+  "id": "28FBBC65A05E4BE2",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The description does not indicate whether the pistol-permit amendment expands or restricts access or regulation.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

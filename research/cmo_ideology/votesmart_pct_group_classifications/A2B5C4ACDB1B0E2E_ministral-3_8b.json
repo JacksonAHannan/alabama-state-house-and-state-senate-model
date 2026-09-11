@@ -1,0 +1,11 @@
+{
+  "policy_key": "family_leave_childcare_support",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Promotes employer-provided family support (childcare, flexible work arrangements, unpaid leave).",
+  "evidence_quote": "Encourage employers to offer child care services, flex-time scheduling, comp-time, and unpaid leave for family emergencies.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -10,6 +10,7 @@ from __future__ import annotations
 import re
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 
 from ideology_ontology_v3 import validate_primitive
@@ -100,9 +101,11 @@ def classify_synopsis(value: object) -> dict[str, str]:
 def main() -> None:
     calls = pd.read_csv(LEG / "comprehensive_rollcall_classifications.csv", low_memory=False)
     calls = calls[calls.bill_id.isna()].copy()
-    recovery = pd.read_csv(LEG / "historical_rollcall_synopsis_recovery.csv", low_memory=False)
-    recovery = recovery[["rollcall_id", "best_synopsis", "synopsis_source", "recovery_status"]]
-    calls = calls.merge(recovery, left_on="canonical_rollcall_id", right_on="rollcall_id", how="left", validate="one_to_one")
+    calls["best_synopsis"] = calls.description.fillna("")
+    calls["synopsis_source"] = np.where(
+        calls.best_synopsis.ne(""), calls.classification_source.fillna("historical_measure_synopsis"),
+        "unavailable",
+    )
     rows: list[dict[str, object]] = []
     for row in calls.itertuples(index=False):
         base = {"canonical_rollcall_id": row.canonical_rollcall_id, "bill_id": "",

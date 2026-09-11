@@ -1,0 +1,10 @@
+{
+  "id": "CF77EEB0987835A3",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Extends and modifies a complex hospital assessment and Medicaid funding program, creating a mixed and administratively technical measure without a single clear allowed pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

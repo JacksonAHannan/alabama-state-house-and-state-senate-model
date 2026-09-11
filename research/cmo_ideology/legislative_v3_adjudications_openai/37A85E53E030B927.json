@@ -1,0 +1,10 @@
+{
+  "id": "37A85E53E030B927",
+  "decision": "map",
+  "primitive_axis": "election_integrity_controls",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Imposes penalties for failing to file required campaign finance reports, strengthening enforcement of disclosure requirements.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

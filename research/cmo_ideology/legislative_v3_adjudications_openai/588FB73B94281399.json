@@ -1,0 +1,10 @@
+{
+  "id": "588FB73B94281399",
+  "decision": "map",
+  "primitive_axis": "healthcare_regulation_patient_rights",
+  "policy_pole": "strengthen",
+  "confidence": "medium",
+  "rationale": "Adds transparency requirements for health-insurer payment transactions and prevents contracts from restricting payment to credit cards, providing additional protections in health-care transactions.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

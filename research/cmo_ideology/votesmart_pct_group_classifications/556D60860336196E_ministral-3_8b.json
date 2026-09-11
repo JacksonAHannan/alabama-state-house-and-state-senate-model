@@ -1,0 +1,11 @@
+{
+  "policy_key": "iraq_aid_policy",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option does not explicitly state a clear policy stance on international aid or trade but instead requests proposals for Iraq, which could include military, humanitarian, or economic components. Without explicit language on aid/trade principles (e.g., reduction vs. expansion), this is context-dependent.",
+  "evidence_quote": "**g) Discuss your proposals for Iraq.**",
+  "needs_human_review": true,
+  "review_reason": "The phrasing is procedural; it does not inherently align with conservative (+1) or progressive (-1) frameworks without additional context."
+}

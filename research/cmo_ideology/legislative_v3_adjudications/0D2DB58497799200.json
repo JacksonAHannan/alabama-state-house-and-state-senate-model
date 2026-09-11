@@ -1,0 +1,10 @@
+{
+  "id": "0D2DB58497799200",
+  "decision": "map",
+  "primitive_axis": "due_process",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Allowing virtual participation in parole hearings strengthens due process by ensuring inmates have access to hearings regardless of physical location, reducing barriers.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

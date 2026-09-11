@@ -1,0 +1,11 @@
+{
+  "policy_key": "space_exploration_funding",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Federal funding for NASA and other space exploration programs (e.g., Artemis, commercial crew, planetary science).",
+  "evidence_quote": "*[Candidate\u2019s exact wording from questionnaire]*",
+  "needs_human_review": true,
+  "review_reason": "No specific option text provided; replace with the candidate\u2019s chosen number (e.g., \u2018$25B\u2019, \u2018$30B\u2019) and verbatim language from their questionnaire."
+}

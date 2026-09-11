@@ -1,0 +1,11 @@
+{
+  "policy_key": "mortgage_deductions",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Whether to maintain or reduce the federal deduction for mortgage interest payments.",
+  "evidence_quote": "*[No direct quote provided in your input, but conventionally:]",
+  "needs_human_review": true,
+  "review_reason": "The option 'n) Mortgage deductions' is typically framed as a *progressive* policy (scorable=-1) because reducing or eliminating mortgage interest deductions tends to favor tax simplification and wealth redistribution by affecting higher-value homes disproportionately. However, the exact position depends on whether the candidate supports *expanding* (conservative +1) or *limiting* (progressive -1) deductions. Since your input lacks a specific stance (e.g., 'keep as is', 'expand', or 'phase out'), I cannot assign a definitive score without further context."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "D450498D2B35A0D8",
+  "decision": "map",
+  "primitive_axis": "education_access",
+  "policy_pole": "restrict",
+  "confidence": "medium",
+  "rationale": "Makes successful completion of kindergarten a prerequisite for admission to first grade, adding an enrollment barrier.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

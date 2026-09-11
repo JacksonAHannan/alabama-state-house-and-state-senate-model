@@ -1,0 +1,24 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "resource_development",
+  "plain_english_policy": "Expand resource development",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "business_scale_alignment",
+      "pole": "large_business",
+      "strength": "secondary",
+      "rationale": "The text does not specify whether the policy would be applied to small or large businesses."
+    },
+    {
+      "axis": "resource_development",
+      "pole": "expand",
+      "strength": "primary",
+      "rationale": "The question asks for support of state funding for improvements to Alabama's energy infrastructure, which implies a policy that would increase the development of this sector."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Do you support state funding for improvements to Alabama's energy infrastructure?",
+  "needs_human_review": false,
+  "review_reason": "The question asks about supporting state funding for energy infrastructure. This suggests a policy that would increase the development of this sector."
+}

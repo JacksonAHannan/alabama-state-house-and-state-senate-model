@@ -1,0 +1,10 @@
+{
+  "id": "9279686B855C3D83",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns continuation, renaming, funding, and technical revisions for an existing pistol-permit revenue-loss fund; it does not directly regulate gun access or purchases.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

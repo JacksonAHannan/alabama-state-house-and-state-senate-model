@@ -1,0 +1,10 @@
+{
+  "id": "57BB83C13465B1C2",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "A broad licensing, inspection, fee, penalty, advisory-board, and administrative-procedure measure; it is omnibus and administrative rather than a single healthcare policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

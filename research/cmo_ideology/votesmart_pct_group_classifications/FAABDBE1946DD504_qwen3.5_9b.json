@@ -1,0 +1,11 @@
+{
+  "policy_key": "international_aid_afghanistan",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option asks whether the US should increase financial support for Afghanistan without specifying a partisan or ideological framework.",
+  "evidence_quote": "i) Should the United States increase financial support for Afghanistan?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

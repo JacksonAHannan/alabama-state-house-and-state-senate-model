@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_education_standards",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting federal education standards and testing requirements like No Child Left Behind is conventionally associated with progressive or centrist policy positions that emphasize standardized accountability.",
+  "evidence_quote": "j) Support federal education standards and testing requirements for K-12 students (No Child Left Behind).",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "D04D4321C84E7FF6",
+  "decision": "map",
+  "primitive_axis": "healthcare_regulation_patient_rights",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Expands exploitation penalties and regulatory protections for protected persons placed in or receiving care through unlicensed facilities.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

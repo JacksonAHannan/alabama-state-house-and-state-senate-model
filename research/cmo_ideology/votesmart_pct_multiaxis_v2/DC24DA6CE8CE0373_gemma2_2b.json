@@ -1,0 +1,18 @@
+{
+  "primary_domain": "childcare",
+  "policy_key": "childcare_support",
+  "plain_english_policy": "restriction",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "childcare_delivery",
+      "pole": "public_provision",
+      "strength": "secondary",
+      "rationale": "The option directly restricts access to childcare by penalizing parents who are delinquent in child support payments. This implies a restriction on public provision of childcare services."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Deny or suspend state-issued permits and licenses to parents who are delinquent in paying court-ordered child support.",
+  "needs_human_review": false,
+  "review_reason": "This option directly restricts access to childcare by penalizing parents who are delinquent in child support payments. This implies a restriction on public provision of childcare services."
+}

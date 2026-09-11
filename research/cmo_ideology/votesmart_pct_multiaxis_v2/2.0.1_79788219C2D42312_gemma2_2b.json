@@ -1,0 +1,11 @@
+{
+  "primary_domain": "guns",
+  "policy_key": "gun_access",
+  "plain_english_policy": "Should citizens be allowed to carry concealed guns?",
+  "substantive": false,
+  "effects": [],
+  "confidence": "low",
+  "evidence_quote": "Should citizens be allowed to carry concealed guns?",
+  "needs_human_review": true,
+  "review_reason": "The question asks whether citizens should be allowed to carry concealed guns. This implies a preference for increased access to concealed weapons.; invalid pole 'expand_access' for gun_access"
+}

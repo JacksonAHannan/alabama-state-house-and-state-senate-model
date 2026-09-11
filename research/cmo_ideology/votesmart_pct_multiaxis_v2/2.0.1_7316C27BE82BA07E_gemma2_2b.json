@@ -1,0 +1,30 @@
+{
+  "primary_domain": "criminal_justice",
+  "policy_key": "hate_crime_legislation",
+  "plain_english_policy": "Prosecute crimes motivated by bias against gender, sexual orientation, or disability as hate crimes.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "This policy restricts the scope of criminal justice by adding a new category of crime."
+    },
+    {
+      "axis": "business_scale_alignment",
+      "pole": "small_business",
+      "strength": "primary",
+      "rationale": "The impact on small businesses is unclear, but it could potentially increase costs for businesses that are targeted by hate crimes."
+    },
+    {
+      "axis": "labor_capital_alignment",
+      "pole": "labor",
+      "strength": "secondary",
+      "rationale": "This policy may impact labor relations as employers and employees may have different perspectives on the issue of hate crime legislation."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Require that crimes based on gender, sexual orientation or disability be prosecuted as hate crimes.",
+  "needs_human_review": false,
+  "review_reason": "This policy is a direct intervention in the criminal justice system and its implementation will likely have significant consequences for both individuals and businesses."
+}

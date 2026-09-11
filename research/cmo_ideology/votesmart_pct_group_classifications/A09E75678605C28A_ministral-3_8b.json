@@ -1,0 +1,11 @@
+{
+  "policy_key": "income_tax_cap_40k",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Capping income tax deductions or credits for families earning over $40,000 (or similar thresholds) is typically progressive in intent but often framed procedurally/administratively. It may reduce benefits for higher earners while maintaining them for lower/middle-income groups.",
+  "evidence_quote": "*[No explicit quote provided\u2014this option lacks a direct text excerpt from the questionnaire.]*",
+  "needs_human_review": true,
+  "review_reason": "The $40k threshold alone does not indicate left/right alignment without context (e.g., whether it\u2019s a *cap* on deductions or a *floor* for eligibility)."
+}

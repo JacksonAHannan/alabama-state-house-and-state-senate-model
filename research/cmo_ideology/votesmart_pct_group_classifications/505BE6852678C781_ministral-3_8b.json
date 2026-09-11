@@ -1,0 +1,11 @@
+{
+  "policy_key": "north_korean_regime_change",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "This option explicitly calls for the removal of North Korea's government, which is a highly contentious and militarized interventionist stance. While such proposals are often associated with progressive critiques of U.S. foreign policy (e.g., questioning regime-change interventions), they can also be framed as hawkish or destabilizing by conservatives\u2014depending on context (e.g., whether tied to human rights, nuclear threats, or broader geopolitical strategy).",
+  "evidence_quote": "**c) Should the United States remove the North Korean government from power?** *(No explicit candidate response provided in this snippet; this is a standalone option for classification.)*",
+  "needs_human_review": true,
+  "review_reason": "The policy\u2019s ideological valence depends on framing (e.g., humanitarian vs. strategic). Conservative hawks might support it, while progressives often oppose unilateral regime-change proposals."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "EA45B46E74677E72",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "A retroactive technical correction concerning public-project bidding is unrelated to the listed criminal-justice axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

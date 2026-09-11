@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_retiree_tax_raise",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Taxing retirees' income above $40,000 (if selected) would be a progressive policy move.",
+  "evidence_quote": "(No explicit option text provided\u2014this is inferred from the question structure. If this were an actual questionnaire, the option would likely read something like: 'Increase taxes on retiree income over $40,000'.)",
+  "needs_human_review": true,
+  "review_reason": "The question format does not include a clear policy text; this is a placeholder for how the option would be classified if it were: **+1 (conservative) to lower/eliminate such taxes, -1 (progressive) to raise them.**"
+}

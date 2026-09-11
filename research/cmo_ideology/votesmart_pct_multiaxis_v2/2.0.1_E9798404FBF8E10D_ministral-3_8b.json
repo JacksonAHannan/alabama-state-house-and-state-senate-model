@@ -1,0 +1,30 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "campaign_finance_restriction",
+  "plain_english_policy": "Imposing contribution limits on political parties to state candidates",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "Limiting contributions from political parties directly constrains market dynamics in electoral funding, as it reduces the autonomy of financial flows between parties and candidates."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "secondary",
+      "rationale": "While not explicitly about public provision of services, contribution limits can be seen as a form of state intervention in the private (party) sector\u2019s role in governance."
+    },
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "Contribution limits may disproportionately affect smaller donors or parties with limited resources, though this is indirect and context-dependent."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"limits on the following types of contributions for state candidates\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

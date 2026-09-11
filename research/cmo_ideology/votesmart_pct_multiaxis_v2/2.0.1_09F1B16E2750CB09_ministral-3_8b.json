@@ -1,0 +1,24 @@
+{
+  "primary_domain": "civil_social",
+  "policy_key": "hunting_rural_recreation",
+  "plain_english_policy": "Regulation of demonstrator proximity to abortion clinics (buffer zones).",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "civil_social_liberty",
+      "pole": "restrict",
+      "strength": "secondary",
+      "rationale": "Buffer zones limit demonstrators' ability to approach clinic entrances, restricting their freedom of assembly near the site."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "private_provision",
+      "strength": "secondary",
+      "rationale": "Applies to private clinics (not government-run facilities), though it indirectly affects access to abortion services by restricting protest activity around them."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"buffer zones\" by requiring demonstrators to stay at least 15 feet away from abortion clinic doorways and driveways.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

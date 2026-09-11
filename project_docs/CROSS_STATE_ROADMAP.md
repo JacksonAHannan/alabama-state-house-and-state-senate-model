@@ -1,42 +1,15 @@
-# Cross-state implementation roadmap
+# Cross-state roadmap — retired entry point
 
-## Phase 0 — scaffold
+The scaffold-era phase list has been retired in favor of the
+[internal four-product checklist](PROJECT_COMPLETION_CHECKLIST.html).
+Maintain phases, acceptance criteria, evidence and progress history there;
+do not keep a competing to-do list in this file.
 
-- common repository topology and agent instructions
-- state identity configuration
-- architecture, data-contract, and adapter documentation
+For architecture, use [the architecture entry point](ARCHITECTURE.md).
+For current build stages and their side effects, use
+[Canonical pipelines](CANONICAL_PIPELINES.md). Optional finance or research
+extensions are not universal release prerequisites.
 
-## Phase 1 — authoritative election backbone
-
-- official candidate and district results
-- election, contest, candidate, party, and incumbency identities
-- district-plan registry and geography validation
-- completeness and vote-total reconciliation
-
-## Phase 2 — comparable context
-
-- federal/statewide baseline elections
-- Census/ACS district demographics by correct vintage
-- campaign-finance coverage and missingness policy
-- political-environment features with explicit as-of dates
-
-## Phase 3 — legislative evidence
-
-- legislators, bills, sponsorships, roll calls, and member votes
-- candidate-to-legislator identity crosswalks
-- ideology and issue-position models with review queues
-
-## Phase 4 — modeling
-
-- common baseline specifications
-- state-specific deviations documented as configuration
-- time-forward validation, calibration, ablation, and sensitivity analysis
-- versioned House and Senate simulations
-
-## Phase 5 — publication and federation
-
-- model cards and audit summaries
-- accessible state dashboards
-- contract-versioned cross-state exports
-- portfolio-level comparison without erasing state-specific uncertainty
+This small pointer preserves existing links. The removed generic phase list
+remains recoverable through Git history.
 

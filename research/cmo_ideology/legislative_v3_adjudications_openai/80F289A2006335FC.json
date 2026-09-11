@@ -1,0 +1,10 @@
+{
+  "id": "80F289A2006335FC",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Revises appointment procedures for a local economic development authority board, an administrative measure without a clear market-governance policy direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,24 @@
+{
+  "primary_domain": "immigration",
+  "policy_key": "criminal_punishment",
+  "plain_english_policy": "Criminalizing employers who hire undocumented immigrants, with no explicit mention of enforcement mechanisms or penalties beyond the act itself.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "immigration_access",
+      "pole": "restrict",
+      "strength": "secondary",
+      "rationale": "Criminalizing employment of undocumented immigrants directly restricts their ability to work legally, effectively reducing immigration access."
+    },
+    {
+      "axis": "labor_rights",
+      "pole": "restrict",
+      "strength": "secondary",
+      "rationale": "By criminalizing hiring practices, the policy indirectly limits labor rights for undocumented workers by making employment illegal."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Criminalize the employment of an undocumented immigrant",
+  "needs_human_review": false,
+  "review_reason": ""
+}

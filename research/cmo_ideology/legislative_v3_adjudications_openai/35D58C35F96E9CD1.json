@@ -1,0 +1,10 @@
+{
+  "id": "35D58C35F96E9CD1",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "This is a localized sheriff compensation and prisoner-food administration measure and does not clearly establish an allowed criminal-justice pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-09-01T04:56:41+00:00",
+  "pipeline": "scripts/export_southern_finance_model_features.py",
+  "pipeline_sha256": "e760a87f1670c4e70253124500181d57ce6e8781501f39a2bf1ec20114603c4a",
+  "database": "data/processed/elections/alabama_elections.sqlite",
+  "warehouse_run_ids": [
+    "RUN-47B0C9AD3F2E497795F1267A1DF06B43"
+  ],
+  "output": "data/processed/finance/southern_race_finance_model_features.csv",
+  "output_sha256": "d977ca3cfa205c3bf07bff43ec76d90311d4f1a95d47fb230e1d00cc6140bd78",
+  "rows": 7976,
+  "complete_races": 3908,
+  "feature_contract": "same-cycle two-calendar-year D/R finance; null unless both sides are observed and identity-accepted"
+}

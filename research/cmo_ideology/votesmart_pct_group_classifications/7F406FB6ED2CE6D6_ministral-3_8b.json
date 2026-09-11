@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_id_card",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "A system requiring all citizens/residents to carry a government-issued ID for activities like voting, banking, or travel.",
+  "evidence_quote": "**Do you support the creation of a federal identification card system?**",
+  "needs_human_review": false,
+  "review_reason": ""
+}

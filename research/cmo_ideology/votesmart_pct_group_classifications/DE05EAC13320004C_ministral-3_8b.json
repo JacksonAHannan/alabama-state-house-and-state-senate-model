@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_budget_priorities",
+  "dimension": "social_ideology",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Budget priorities funding level selection (unspecified category).",
+  "evidence_quote": "$100,001-$180,000",
+  "needs_human_review": true,
+  "review_reason": "The provided option is a numeric range for federal funding levels but lacks explicit policy context (e.g., whether it refers to defense spending, family income taxes, or another category). Without additional text clarifying the *specific* category or intent, this cannot be reliably scored as +1/-1. The range itself is neutral data."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "143F348D0470BC50",
+  "decision": "map",
+  "primitive_axis": "renewable_energy_support",
+  "policy_pole": "expand",
+  "confidence": "medium",
+  "rationale": "Expands eligibility for state incentives to renewable electricity, natural gas from renewable resources, and biofuel producers, while increasing qualifying wage requirements.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

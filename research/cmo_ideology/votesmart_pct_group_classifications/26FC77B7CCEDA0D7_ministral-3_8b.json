@@ -1,0 +1,11 @@
+{
+  "policy_key": "missile_defense_shield_expansion",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "This option is procedural/administrative\u2014it does not inherently align with a stable left/right ideological direction. Missile defense expansion can be debated on technical, strategic, or geopolitical grounds rather than purely partisan ones.",
+  "evidence_quote": "Should the United States expand its missile defense shield?",
+  "needs_human_review": true,
+  "review_reason": "The policy\u2019s ideological leaning depends heavily on framing (e.g., whether framed as a *conservative* deterrence priority or a *progressive* waste of resources)."
+}

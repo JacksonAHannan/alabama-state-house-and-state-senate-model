@@ -1,0 +1,11 @@
+{
+  "policy_key": "venezuela_sanctions",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks for a position on sanctions against Venezuela but provides no specific policy text to analyze. Without the candidate's actual answer or supporting rationale in this snippet, it is impossible to determine if their stance aligns with conservative (typically supportive of regime change/sanctions) or progressive (often critical of economic punishment affecting civilians) principles.",
+  "evidence_quote": "Do you support the United States imposing trade sanctions on Venezuela?",
+  "needs_human_review": true,
+  "review_reason": "The input is a question from a questionnaire rather than a candidate's response. No policy position or reasoning can be extracted to classify as conservative (+1), progressive (-1), or mixed (0)."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "social_media_regulations",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Supporting increased regulations on social media companies is conventionally more progressive.",
+  "evidence_quote": "Do you generally support increased regulations on social media companies (e.g. Tik Tok, Facebook, etc.)?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

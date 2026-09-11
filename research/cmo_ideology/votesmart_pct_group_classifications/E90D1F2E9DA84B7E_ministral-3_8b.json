@@ -1,0 +1,11 @@
+{
+  "policy_key": "colombia_drug_war_funding",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Increase U.S. financial aid to Colombia for drug eradication efforts.",
+  "evidence_quote": "Should the United States increase its financial support to Colombia to combat 'the war on drugs'?",
+  "needs_human_review": true,
+  "review_reason": "The question is phrased as a standalone option without explicit policy principles or context, making it difficult to definitively classify as conservative (+1) or progressive (-1). It could be interpreted in multiple ways depending on framing (e.g., whether the focus is on military aid vs. humanitarian development)."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "excise_taxes_alabama_candidate",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Excise taxes on transportation fuel (e.g., gas, diesel) are typically lower than income or sales taxes and disproportionately burden lower-income households. Progressive candidates often advocate for reducing or reforming excise taxes to ease financial burdens on working families.",
+  "evidence_quote": "(No explicit number provided in the option, but excise taxes generally fall under progressive policy frameworks when reduced or reformed to target regressive impacts.)",
+  "needs_human_review": false,
+  "review_reason": ""
+}

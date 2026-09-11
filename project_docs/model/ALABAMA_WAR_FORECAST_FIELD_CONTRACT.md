@@ -12,7 +12,7 @@
 
 The 2026 forecast estimates the margin for a generic Democratic candidate against a generic Republican candidate, conditional on district and election environment. Generic means candidate identity and all historical candidate-performance measures are absent. Prior WAR, prior CMO, repeat-candidate strength, ideology, and fundraising are neither model features nor post-model adjustments.
 
-The national environment is the quality-gated national generic-ballot Democratic two-party margin. Historical validation reconstructs 2018 and 2022 district baselines as prior presidential district margin plus the contemporaneous generic-ballot swing from the prior national presidential margin. The 2026 baseline uses the published uniform generic-ballot adjustment to each district's 2024 presidential margin.
+The national environment is the quality-gated national generic-ballot Democratic two-party margin. Historical validation reconstructs 2018 and 2022 district baselines as prior presidential district margin plus the contemporaneous generic-ballot swing from the prior national presidential margin. The 2026 baseline uses the published uniform generic-ballot adjustment to each district's 2024 presidential margin. That uniform national-to-Alabama generic-ballot transfer is an owner-selected model assumption; its Alabama-specific validity is not established beyond the single 2022 forward holdout.
 
 The headline forecast applies the candidate-independent structural expected gap learned by the selected post-2016 Southern WAR `decaying_lag` ridge specification to that generic-ballot-adjusted baseline. Prospective Alabama rows enter the same design with the generic-ballot-adjusted district margin as `baseline_dem_margin`, the 2024 presidential district margin as `prior_pres_margin`, and the national generic-ballot swing as `lag_current_ticket_change`. Incumbency remains a symmetric race condition and contributes exactly through the fitted WAR structural model. Generic means that candidate-specific prior performance is excluded; it does not mean that incumbency is neutralized. Candidate-specific residual WAR is fixed to zero in every prospective row.
 
@@ -21,6 +21,8 @@ The 2018-to-2022 Alabama forward test is an advisory validation diagnostic, not 
 ## Required fields and exclusions
 
 Every scenario row must contain `generic_ballot_environment_margin`, `environment_baseline_margin`, `war_structural_expected_gap`, `generic_structural_adjustment`, `generic_downballot_lag`, `incumbency_adjustment`, `predicted_dem_margin`, `dem_win_probability`, `candidate_war_adjustment=0`, `candidate_history_used=false`, `finance_used=false`, and `generic_candidate_assumption=true`. `generic_downballot_lag + incumbency_adjustment` must equal `war_structural_expected_gap` within floating-point tolerance.
+
+`alabama_war_forecast_v1_2026_scenarios.csv` carries `status=uniform_generic_ballot_environment_selected` on every row, recording the uniform generic-ballot environment that the forecast uses. The legacy Catalist/YouGov demographic-transfer status value and the legacy `geographic_elasticity`, `demographic_swing_2024_2026`, `demographic_poll_adjusted_margin`, `low_elasticity_075_margin`, `high_elasticity_125_margin`, `votehub_2026_dem_margin`, and `fundraising_adjustment` columns are not part of the active contract and must not appear in the export.
 
 The prospective identity is:
 

@@ -1,0 +1,10 @@
+{
+  "id": "C2BBB372FCEE1D2B",
+  "decision": "map",
+  "primitive_axis": "education_teacher_labor",
+  "policy_pole": "support",
+  "confidence": "high",
+  "rationale": "Creates loan-repayment awards to support recruitment and retention of public school math and science teachers in underserved areas.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "FB8FF6AD96FFC932",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Establishes a local industrial development authority and is administrative/local-development legislation, not a sufficiently concrete policy pole on the allowed axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

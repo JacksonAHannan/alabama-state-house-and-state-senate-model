@@ -1,0 +1,11 @@
+{
+  "policy_key": "abortion_family_planning_funding",
+  "dimension": "abortion_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Support public funding for family planning programs to reduce abortions by promoting contraception and pregnancy prevention.",
+  "evidence_quote": "Provide funding for family planning programs as a means to decrease the number of abortions.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

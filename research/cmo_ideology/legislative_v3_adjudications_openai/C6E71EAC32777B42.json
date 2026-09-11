@@ -1,0 +1,10 @@
+{
+  "id": "C6E71EAC32777B42",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Mixed-direction sentencing measure combining expanded presumptive-guideline coverage and penalty changes with increased judicial discretion; the description does not establish one policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

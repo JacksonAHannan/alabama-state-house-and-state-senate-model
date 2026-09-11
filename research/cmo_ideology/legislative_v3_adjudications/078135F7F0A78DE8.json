@@ -1,0 +1,10 @@
+{
+  "id": "078135F7F0A78DE8",
+  "decision": "map",
+  "primitive_axis": "incarceration",
+  "policy_pole": "expand",
+  "confidence": "medium",
+  "rationale": "Authorizing a prisoner transport fee for misdemeanor defendants indirectly supports incarceration by enabling continued detention and processing of individuals in custody.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

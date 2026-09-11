@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_funding_flexibility",
+  "dimension": "education_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase local control over education funding by removing federal restrictions, allowing schools/districts to allocate funds as they see fit.",
+  "evidence_quote": "Eliminate restrictions on federal education funding, giving educators or local school districts more flexibility to design and implement their programs.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

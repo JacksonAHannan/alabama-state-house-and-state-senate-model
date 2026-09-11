@@ -1,0 +1,10 @@
+{
+  "id": "C5627A8916652ED6",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Creates a procurement exemption for health-professional task forces, boards, and committees without a concrete healthcare-policy direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

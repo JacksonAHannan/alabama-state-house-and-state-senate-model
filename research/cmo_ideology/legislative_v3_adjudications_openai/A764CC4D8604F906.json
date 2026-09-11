@@ -1,0 +1,10 @@
+{
+  "id": "A764CC4D8604F906",
+  "decision": "map",
+  "primitive_axis": "immigration_enforcement",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "The bill prohibits municipalities from adopting policies that protect undocumented immigrants from deportation, increasing local support for deportation enforcement.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

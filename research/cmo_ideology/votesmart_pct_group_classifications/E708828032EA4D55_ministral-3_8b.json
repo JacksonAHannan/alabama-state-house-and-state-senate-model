@@ -1,0 +1,11 @@
+{
+  "policy_key": "surveillance_discretion",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increased government surveillance powers (mail/email, phone taps, random searches) without clear legal safeguards.",
+  "evidence_quote": "Should the United States grant law enforcement agencies greater discretion to read mail and email, tap phones, and conduct random searches to prevent future terrorist attacks?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

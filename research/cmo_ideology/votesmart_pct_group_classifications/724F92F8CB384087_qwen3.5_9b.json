@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_funding_nasa",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option 'j) NASA' is a specific selection within a list of federal funding categories. Selecting it indicates support for maintaining or increasing direct federal appropriations to the National Aeronautics and Space Administration rather than converting those funds into block grants for states.",
+  "evidence_quote": "Option: j) NASA",
+  "needs_human_review": false,
+  "review_reason": ""
+}

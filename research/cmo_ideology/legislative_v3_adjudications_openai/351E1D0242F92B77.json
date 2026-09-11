@@ -1,0 +1,10 @@
+{
+  "id": "351E1D0242F92B77",
+  "decision": "map",
+  "primitive_axis": "education_access",
+  "policy_pole": "expand",
+  "confidence": "medium",
+  "rationale": "Expanding authorized single-dose epinephrine forms available to public schools and related entities increases access to emergency medication in schools.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

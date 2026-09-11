@@ -1,0 +1,10 @@
+{
+  "id": "5DF6B3CF877D7375",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Changes the statutory definition of an open-meetings gathering, but none of the allowed ethics axes directly captures government-meeting transparency.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

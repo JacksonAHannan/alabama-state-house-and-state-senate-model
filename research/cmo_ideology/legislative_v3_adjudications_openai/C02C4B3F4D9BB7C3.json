@@ -1,0 +1,10 @@
+{
+  "id": "C02C4B3F4D9BB7C3",
+  "decision": "map",
+  "primitive_axis": "market_governance",
+  "policy_pole": "intervention",
+  "confidence": "medium",
+  "rationale": "Directs economic-development funds to a county development authority, reflecting governmental intervention in economic activity.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

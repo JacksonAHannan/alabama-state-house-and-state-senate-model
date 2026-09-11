@@ -1,0 +1,11 @@
+{
+  "policy_key": "foreign_aid_human_rights_abuses",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Conditional elimination of U.S. economic aid to nations with documented human rights abuses.",
+  "evidence_quote": "**c) Foreign aid should be eliminated from any nation with documented human rights abuses.**",
+  "needs_human_review": false,
+  "review_reason": ""
+}

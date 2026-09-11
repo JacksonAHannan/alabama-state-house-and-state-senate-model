@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "campaign_finance_restriction",
+  "plain_english_policy": "Imposing contribution limits on political action committees (PACs) to state candidates.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "Limiting PAC contributions directly restricts market autonomy in political funding by introducing regulatory intervention."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"limits on the following types of contributions for state candidates\"",
+  "needs_human_review": true,
+  "review_reason": "invalid pole 'regulation_quality' for public_private_provision"
+}

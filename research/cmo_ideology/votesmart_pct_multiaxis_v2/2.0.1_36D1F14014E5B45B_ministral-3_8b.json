@@ -1,0 +1,30 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "resource_development",
+  "plain_english_policy": "Incentivizing agricultural production of biofuel crops via financial subsidies",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "resource_development",
+      "pole": "expand",
+      "strength": "secondary",
+      "rationale": "Directly promotes agricultural output for biofuel production, expanding resource use."
+    },
+    {
+      "axis": "environmental_protection",
+      "pole": "weaken",
+      "strength": "primary",
+      "rationale": "Financial incentives to grow biofuel crops may encourage land conversion (e.g., forests/grasslands) or increased agricultural runoff, weakening environmental protections."
+    },
+    {
+      "axis": "conservation_preservation",
+      "pole": "develop",
+      "strength": "secondary",
+      "rationale": "Biofuel production aligns with resource development over preservation of natural ecosystems."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "providing financial incentives to farms that produce biofuel crops",
+  "needs_human_review": false,
+  "review_reason": ""
+}

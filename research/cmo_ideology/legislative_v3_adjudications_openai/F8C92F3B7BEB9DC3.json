@@ -1,0 +1,10 @@
+{
+  "id": "F8C92F3B7BEB9DC3",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Regulates the technical method and contractual language for health-care payments through ACH transfers; it is primarily administrative and does not clearly establish an allowed healthcare policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

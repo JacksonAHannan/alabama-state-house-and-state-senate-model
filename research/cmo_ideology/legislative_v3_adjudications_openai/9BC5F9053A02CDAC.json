@@ -1,0 +1,10 @@
+{
+  "id": "9BC5F9053A02CDAC",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns meeting technology and public observation procedures, which do not fit the listed ethics and government axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

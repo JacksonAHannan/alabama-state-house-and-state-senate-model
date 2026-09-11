@@ -1,0 +1,10 @@
+{
+  "id": "B3E8A99D59CEBA10",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Prohibiting firearm confiscation during emergencies and limiting when officers may disarm individuals protects access to and possession of firearms by lawful possessors.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

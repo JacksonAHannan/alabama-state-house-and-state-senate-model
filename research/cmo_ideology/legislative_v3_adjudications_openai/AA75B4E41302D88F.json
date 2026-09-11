@@ -1,0 +1,10 @@
+{
+  "id": "AA75B4E41302D88F",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The measure combines increased penalties with parole-discretion and totality-of-circumstances provisions, creating mixed-direction effects.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

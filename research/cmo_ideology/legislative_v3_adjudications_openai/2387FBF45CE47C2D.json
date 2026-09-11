@@ -1,0 +1,10 @@
+{
+  "id": "2387FBF45CE47C2D",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Continues the State Oil and Gas Board under the Sunset Law and is primarily an administrative reauthorization without a clear substantive environmental or resource-policy direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

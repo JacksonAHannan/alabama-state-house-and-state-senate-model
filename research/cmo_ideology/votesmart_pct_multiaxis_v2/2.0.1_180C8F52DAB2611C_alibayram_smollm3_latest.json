@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "welfare_policy",
+  "plain_english_policy": "Increase state funding for additional security of critical infrastructure against terrorist attacks.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "primary",
+      "rationale": "The policy involves the state providing funding for security measures, indicating a level of intervention in the market."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "By increasing funding for critical infrastructure security against terrorist attacks, the policy aims to expand welfare by ensuring public safety and stability."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Increase state funding for additional security of critical infrastructure against terrorist attacks.\" - Source: [Year: 2002, Section: Crime Issues, Question: Indicate which principles you support (if any) to address crime. Option: n)]",
+  "needs_human_review": false,
+  "review_reason": ""
+}

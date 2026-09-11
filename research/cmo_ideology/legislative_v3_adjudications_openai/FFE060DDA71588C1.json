@@ -1,0 +1,10 @@
+{
+  "id": "FFE060DDA71588C1",
+  "decision": "map",
+  "primitive_axis": "business_subsidy",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Authorizes additional tax abatements for qualifying data-processing, warehousing, and storage facilities.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

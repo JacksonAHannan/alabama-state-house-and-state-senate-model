@@ -1,0 +1,11 @@
+{
+  "policy_key": "un_peacekeeping_funding",
+  "dimension": "indeterminate",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Support for increased US financial and military contributions to UN peacekeeping missions (no clear left/right alignment).",
+  "evidence_quote": "**a) The US should contribute more funding and troops to United Nations peacekeeping missions.**",
+  "needs_human_review": true,
+  "review_reason": "This option is procedurally neutral\u2014it does not inherently align with conservative or progressive economic/foreign policy traditions. UN peacekeeping funding can be supported by both sides depending on context (e.g., humanitarian vs. geopolitical motives)."
+}

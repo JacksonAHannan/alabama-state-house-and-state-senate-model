@@ -1,0 +1,11 @@
+{
+  "policy_key": "health_single_payer",
+  "dimension": "healthcare_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Advocacy for a government-run healthcare system (single-payer) like Medicare-for-All.",
+  "evidence_quote": "Do you support a government-run (single-payer) healthcare program such as Medicare-for All?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "legislative_priorities_education_funding",
+  "dimension": "education_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Advocate for increased state funding for public K-12 schools, prioritizing teacher salaries and classroom resources. Propose a property tax cap exemption for school districts to reduce local budget strain. Fund via targeted sales tax increases on non-essential goods (e.g., tobacco, alcohol) and redirecting unused federal education grants.",
+  "evidence_quote": "My top priorities would be **1)** securing $50 million annually in state funding for teacher stipends and **2)** allocating $30 million to modernize aging school infrastructure. To fund this, I support a temporary 2% sales tax hike on luxury items while ensuring no new property taxes burden homeowners.",
+  "needs_human_review": false,
+  "review_reason": "Explicitly ties funding increases to state resources and regressive tax shifts (sales tax), aligning with conservative fiscal priorities."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "electric_utility_deregulation",
+  "dimension": "environment_position",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Allowing consumers to select their electricity provider by restructuring the utility industry.",
+  "evidence_quote": "Restructure the electric utility industry to allow consumers to choose their power company.",
+  "needs_human_review": true,
+  "review_reason": "This option is procedurally neutral in terms of left-right ideology but has significant economic and environmental implications depending on implementation (e.g., could enable renewable energy competition or maintain reliance on fossil fuels)."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "EAFB13D90DB143C4",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The required safe-place construction feature concerns building safety and does not fit any listed education policy axis.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "02D1404F2A63097C",
+  "decision": "map",
+  "primitive_axis": "marriage_equality",
+  "policy_pole": "restrict",
+  "confidence": "high",
+  "rationale": "The constitutional amendment explicitly prohibits same-sex marriage licenses and state recognition of out-of-state same-sex marriages, directly restricting marriage equality.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

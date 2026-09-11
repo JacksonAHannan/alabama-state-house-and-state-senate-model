@@ -1,0 +1,10 @@
+{
+  "id": "797077BB6244EE92",
+  "decision": "map",
+  "primitive_axis": "voting_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Automatically provides absentee ballots to permanently disabled voters, expanding ballot access.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

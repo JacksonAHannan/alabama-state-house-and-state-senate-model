@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_irv",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Instant-runoff voting (IRV) is a ranked-choice voting system that allows voters to rank candidates in order of preference. It eliminates the need for primary elections and can reduce negative campaigning by encouraging broader appeal among candidates.",
+  "evidence_quote": "(No direct quote provided, but IRV is conventionally classified as progressive due to its association with reducing two-party dominance, increasing voter choice, and promoting more inclusive political representation.)",
+  "needs_human_review": false,
+  "review_reason": ""
+}

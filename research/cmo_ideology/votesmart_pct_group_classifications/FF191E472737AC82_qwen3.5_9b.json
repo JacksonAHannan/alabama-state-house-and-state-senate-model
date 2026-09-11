@@ -1,0 +1,11 @@
+{
+  "policy_key": "endangered_species_act_habitat_limits",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option proposes reducing the scope of federal protection for endangered species by limiting which habitats can be designated as critical. This is conventionally viewed as a progressive stance because it seeks to expand regulatory authority and protections under the Endangered Species Act, aligning with environmental conservation goals.",
+  "evidence_quote": "d) Change the Endangered Species Act of 1973 to limit the number of habitats eligible to be designated as endangered.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

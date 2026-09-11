@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_income_tax_brackets",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "This option proposes increasing income taxes for high earners (over $150k), which is a progressive fiscal policy.",
+  "evidence_quote": "Family income over $150,000",
+  "needs_human_review": false,
+  "review_reason": ""
+}

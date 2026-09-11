@@ -1,0 +1,21 @@
+{
+  "build_run_id": "ALPRES2012-2E1AA0164CAEEF0EA441",
+  "contract_version": 1,
+  "generated_at": "2026-09-04T05:27:51.126500+00:00",
+  "code_version": "88878b973fdac3cee95a8d8648da321e38e0021c",
+  "pipeline": "scripts/build_alabama_2012_presidential_source.py",
+  "inputs": {
+    "data/raw/openelections/20121106__al__general__precinct.csv": "bef5840e05743cbc4c806db2dfa243541125999cf9b2e905fff5bf614acad584",
+    "data/raw/alabama_elections_and_geography/2012General-PrecinctLevel.zip": "e17626e084615306fbc37f6e2d1957dde2a8a23249d439f0156b6cb0e71fc3a8",
+    "data/raw/alabama_elections_and_geography/eapresidentgeneral1976-2012_0.xls": "6dc6916e12abbc587495b00f20c7cb77f69a02f33eea4351dc0071826a5bd41a"
+  },
+  "output": "data/processed/presidential/2012_president_precinct_canonical.csv",
+  "validation": {
+    "counties": 67,
+    "geography_rows": 2157,
+    "county_level_rows": 4,
+    "dem_votes": 795696.0,
+    "rep_votes": 1255925.0,
+    "duplicate_keys": 0
+  }
+}

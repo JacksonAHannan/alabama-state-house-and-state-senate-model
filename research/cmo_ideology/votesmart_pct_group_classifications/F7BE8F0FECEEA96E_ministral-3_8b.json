@@ -1,0 +1,11 @@
+{
+  "policy_key": "tax_cuts_on_surplus",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Would you reduce taxes even when the state has extra money (operating surplus)?",
+  "evidence_quote": "Would you cut taxes if there were an operating surplus?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

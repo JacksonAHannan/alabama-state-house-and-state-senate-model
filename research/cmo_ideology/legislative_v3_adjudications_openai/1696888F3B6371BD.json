@@ -1,0 +1,10 @@
+{
+  "id": "1696888F3B6371BD",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "punitive",
+  "confidence": "medium",
+  "rationale": "Imposes a prisoner transport fee on people detained on outstanding misdemeanor warrants, adding a punitive financial consequence.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

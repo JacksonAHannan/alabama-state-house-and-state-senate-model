@@ -1,0 +1,30 @@
+{
+  "primary_domain": "healthcare",
+  "policy_key": "healthcare_access_expansion",
+  "plain_english_policy": "Use private-sector commercial health insurance mechanisms (e.g., regulated markets, subsidies) to increase coverage rather than government-run programs.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "public_private_provision",
+      "pole": "private_provision",
+      "strength": "primary",
+      "rationale": "The option explicitly frames expansion via commercial insurance, not public systems."
+    },
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "Commercial reform often relies on employer-based or individual market mechanisms that may disproportionately burden lower-income households (e.g., premiums, deductibles)."
+    },
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "Regulated commercial markets imply government oversight of private insurance (e.g., mandates, subsidies) rather than laissez-faire."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"commercial health insurance reform\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

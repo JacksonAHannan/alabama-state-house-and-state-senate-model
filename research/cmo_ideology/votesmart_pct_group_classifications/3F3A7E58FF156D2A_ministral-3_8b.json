@@ -1,0 +1,11 @@
+{
+  "policy_key": "needle_exchange_funding",
+  "dimension": "healthcare_position",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Whether federal funds can be used by states/localities for needle-exchange programs to reduce HIV transmission.",
+  "evidence_quote": "Allow states and local communities to use federal funds for needle-exchange programs to combat the spread of HIV.",
+  "needs_human_review": false,
+  "review_reason": "This is a mixed/neutral policy (0) because it involves administrative/procedural allocation of existing funds rather than an ideological stance on harm reduction itself. Needle exchanges are widely supported by public health experts but may be framed as progressive by some and pragmatic by others."
+}

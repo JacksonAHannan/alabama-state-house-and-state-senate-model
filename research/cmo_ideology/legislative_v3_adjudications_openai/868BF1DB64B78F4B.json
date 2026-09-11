@@ -1,0 +1,10 @@
+{
+  "id": "868BF1DB64B78F4B",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Authorizing electronic filing is primarily an administrative and technical procedure, not a clear issue-specific policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_national_security_student_visa",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option asks whether the US should adopt stricter rules for student visas from nations known to sponsor terrorism. This is a procedural/administrative question about visa policy rather than an ideological stance on national security principles.",
+  "evidence_quote": "b) Should the United States adopt stricter rules for student visa applications from nations known to sponsor terrorism?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

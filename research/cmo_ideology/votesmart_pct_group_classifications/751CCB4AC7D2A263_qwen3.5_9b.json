@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_consumption_tax",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option proposes replacing the current income tax system with a broad-based consumption tax (such as a national sales or VAT). This is conventionally considered more progressive because it shifts taxation away from earned income toward spending.",
+  "evidence_quote": "Do you support replacing the US income tax structure with a broad-based consumption tax?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

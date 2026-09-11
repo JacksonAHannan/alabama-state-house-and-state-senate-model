@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_income_tax_bracket_1986",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "This option is a specific tax bracket selection for middle-income families ($25k-$75k) within the context of Alabama's historical income tax reform debates. It does not inherently signal conservative or progressive ideology without knowing if this represents an increase, decrease, or maintenance of rates relative to other options.",
+  "evidence_quote": "c) Family income $25-75,000",
+  "needs_human_review": true,
+  "review_reason": "The option text is a data point (a bracket range) rather than a policy stance. The ideological direction depends entirely on the missing context of whether this specific selection implies raising taxes to fund services or lowering them for relief."
+}

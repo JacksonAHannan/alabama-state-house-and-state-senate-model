@@ -1,0 +1,10 @@
+{
+  "id": "29B09BCBDD5AAD80",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Changes to appointments, parole-board administration, and review procedures do not clearly map to one allowed criminal-justice pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

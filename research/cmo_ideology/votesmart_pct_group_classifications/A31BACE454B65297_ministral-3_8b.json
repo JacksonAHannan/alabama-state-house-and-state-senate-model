@@ -1,0 +1,11 @@
+{
+  "policy_key": "stem_cell_research_funding",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Whether Alabama should allocate public funds to research involving human embryonic stem cells.",
+  "evidence_quote": "*[No direct quote provided in the option text, but conventionally this position is scored as follows:]*",
+  "needs_human_review": true,
+  "review_reason": "The question lacks a verbatim candidate response. A typical conservative stance opposes state funding for embryonic stem cell research due to ethical/religious objections (score: +1). A progressive stance supports it for medical potential (score: -1). Without explicit text, this is inferred from policy context."
+}

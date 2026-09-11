@@ -1,0 +1,10 @@
+{
+  "id": "A93B77E361D920B1",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "This is a technical/definitional amendment related to bond issuance under federal programs and does not meaningfully address any substantive policy axis (e.g., funding, curriculum, or access).",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

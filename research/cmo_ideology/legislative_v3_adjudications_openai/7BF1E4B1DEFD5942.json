@@ -1,0 +1,10 @@
+{
+  "id": "7BF1E4B1DEFD5942",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "Primarily regulates motor-vehicle financial responsibility and claims administration; the incidental penalty provision does not clearly establish a standalone criminal-justice policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

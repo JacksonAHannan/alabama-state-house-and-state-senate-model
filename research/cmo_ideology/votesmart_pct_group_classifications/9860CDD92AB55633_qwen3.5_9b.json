@@ -1,0 +1,11 @@
+{
+  "policy_key": "china_wto_membership",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks for a position on China joining the WTO. This is generally viewed as an economic liberalization and globalization issue.",
+  "evidence_quote": "4) Do you support China becoming a member of the World Trade Organization?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

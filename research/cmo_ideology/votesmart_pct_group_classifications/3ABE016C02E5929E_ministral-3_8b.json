@@ -1,0 +1,11 @@
+{
+  "policy_key": "abortion_dilation_and_extraction_prohibition",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Ban the dilation and extraction abortion procedure (often called 'partial-birth' abortion).",
+  "evidence_quote": "Prohibit the dilation and extraction procedure, also known as 'partial birth' abortion.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

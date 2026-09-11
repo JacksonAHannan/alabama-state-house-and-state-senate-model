@@ -1,0 +1,11 @@
+{
+  "policy_key": "common_core_support",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Support for Common Core State Standards is conventionally associated with progressive education reform efforts, which emphasize standardized curriculum alignment and data-driven instruction to reduce disparities in educational outcomes.",
+  "evidence_quote": "*[No direct quote provided in the prompt\u2014this is a hypothetical example of how you would respond if an option were included. In reality, you\u2019d need the candidate\u2019s exact wording from their questionnaire.]*",
+  "needs_human_review": true,
+  "review_reason": "Common Core is often framed as progressive due to its federal alignment and equity goals, but interpretations vary by context (e.g., local control debates)."
+}

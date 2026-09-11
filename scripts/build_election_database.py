@@ -6,8 +6,6 @@ never silently overwrite an SOS vote value.
 """
 from __future__ import annotations
 
-import hashlib
-import sqlite3
 from contextlib import closing
 from pathlib import Path
 
@@ -15,7 +13,7 @@ import pandas as pd
 
 from oe_normalize import load_oe, normalize_name
 from sos_precinct import YEAR_SOURCES, load_sos_year
-from warehouse import (atomic_database, begin_run, connect, finish_run, initialize,
+from warehouse import (atomic_database, begin_run, connect, file_sha256, finish_run, initialize,
                        register_source_file, register_table)
 
 OE_FILES = {
@@ -24,23 +22,21 @@ OE_FILES = {
     2020: "20201103__al__general__precinct.csv",
 }
 
-def _hash(path: Path) -> str:
-    digest = hashlib.sha256()
-    with path.open("rb") as stream:
-        for block in iter(lambda: stream.read(1024 * 1024), b""): digest.update(block)
-    return digest.hexdigest()
-
 def _observations(data: pd.DataFrame, source: str, authority: int) -> pd.DataFrame:
     out = data.copy()
     out["source"] = source; out["authority_rank"] = authority
     out["candidate_key"] = out.candidate.map(normalize_name)
     cols = ["year", "county", "county_key", "precinct", "precinct_key", "office", "district",
-            "candidate", "candidate_key", "party", "party_norm", "votes", "source", "authority_rank"]
+            "candidate", "candidate_key", "party", "party_norm", "votes", "source", "authority_rank",
+            "source_file", "source_sheet", "source_row", "source_column", "precinct_code",
+            "ballot_code", "party_method", "printed_precinct", "printed_candidate"]
     return out.reindex(columns=cols)
 
-def build(root: Path, years: list[int]) -> Path:
-    output = root / "data" / "processed" / "elections"; output.mkdir(parents=True, exist_ok=True)
-    database = output / "alabama_elections.sqlite"
+def build(root: Path, years: list[int], output: Path | None = None) -> Path:
+    database = output if output is not None else root / "data" / "processed" / "elections" / "alabama_elections.sqlite"
+    if database.exists():
+        raise FileExistsError(f"Refusing to replace existing warehouse {database}; choose a new --output path.")
+    database.parent.mkdir(parents=True, exist_ok=True)
     manifests, observations, availability = [], [], []
     for year in years:
         sos = load_sos_year(root, year)
@@ -53,14 +49,14 @@ def build(root: Path, years: list[int]) -> Path:
         archive = root / "data" / "raw" / "alabama_elections_and_geography" / (
             source_name if source_name.lower().endswith((".xls", ".xlsx", ".zip")) else f"{source_name}.zip")
         manifests.append({"source_id": f"sos_{year}", "year": year, "source": "alabama_sos",
-                          "path": str(archive.relative_to(root)), "sha256": _hash(archive),
+                          "path": str(archive.relative_to(root)), "sha256": file_sha256(archive),
                           "authoritative_votes": 1})
         if year in OE_FILES:
             path = root / "data" / "raw" / "openelections" / OE_FILES[year]
             oe = load_oe(path); oe["year"] = year
             observations.append(_observations(oe, "openelections", 2))
             manifests.append({"source_id": f"oe_{year}", "year": year, "source": "openelections",
-                              "path": str(path.relative_to(root)), "sha256": _hash(path),
+                              "path": str(path.relative_to(root)), "sha256": file_sha256(path),
                               "authoritative_votes": 0})
     frame = pd.concat(observations, ignore_index=True)
     with atomic_database(database) as building:
@@ -101,5 +97,6 @@ def build(root: Path, years: list[int]) -> Path:
 if __name__ == "__main__":
     import argparse
     parser=argparse.ArgumentParser(); parser.add_argument("--years", nargs="+", type=int, default=sorted(YEAR_SOURCES))
+    parser.add_argument("--output", type=Path, help="New election-only database path; existing files are never replaced")
     args=parser.parse_args(); root=Path(__file__).resolve().parents[1]
-    print(build(root,args.years))
+    print(build(root,args.years,args.output))

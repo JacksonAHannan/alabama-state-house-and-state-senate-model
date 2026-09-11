@@ -1,0 +1,11 @@
+{
+  "policy_key": "medicaid_expansion_alabama",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Would you approve Alabama's participation in the federal Medicaid expansion program to extend health coverage to more low-income residents?",
+  "evidence_quote": "(No direct quote provided, but this position is conventionally classified as progressive under the Affordable Care Act framework.)",
+  "needs_human_review": false,
+  "review_reason": ""
+}

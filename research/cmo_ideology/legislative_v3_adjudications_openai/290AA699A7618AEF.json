@@ -1,0 +1,10 @@
+{
+  "id": "290AA699A7618AEF",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Primarily a symbolic religious-display constitutional amendment, not a concrete education policy measure on an allowed axis.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "6902ABA405003EF0",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "This is a local administrative measure (Cleburne County-specific) with no clear policy implications on the allowed axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

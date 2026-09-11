@@ -1,0 +1,10 @@
+{
+  "id": "4D3B585FA5260B20",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Restricting ranked-choice voting does not clearly correspond to any offered voting-access, election-integrity, redistricting, or direct-democracy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

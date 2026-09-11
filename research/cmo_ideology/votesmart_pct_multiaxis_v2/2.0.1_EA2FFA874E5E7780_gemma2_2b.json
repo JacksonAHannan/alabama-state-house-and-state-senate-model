@@ -1,0 +1,18 @@
+{
+  "primary_domain": "government_reform",
+  "policy_key": "campaign_finance",
+  "plain_english_policy": "limits on campaign contributions to state candidates",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "The policy is a restriction on campaign contributions."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Do you support any limits on campaign contributions to state candidates?",
+  "needs_human_review": false,
+  "review_reason": "The question asks for a policy position on limiting campaign contributions. This is a restriction of political spending."
+}

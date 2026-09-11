@@ -1,0 +1,10 @@
+{
+  "id": "7C1CDD7B921B1141",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "The description says absentee-ballot timeframes and procedures are revised but does not specify whether the changes expand access or strengthen controls.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

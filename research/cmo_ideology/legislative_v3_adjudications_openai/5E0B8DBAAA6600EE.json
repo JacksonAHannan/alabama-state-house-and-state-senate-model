@@ -1,0 +1,10 @@
+{
+  "id": "5E0B8DBAAA6600EE",
+  "decision": "map",
+  "primitive_axis": "market_governance",
+  "policy_pole": "intervention",
+  "confidence": "medium",
+  "rationale": "Authorizing an economic development fund to support workforce training and university economic development programs supports active public intervention in economic activity.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

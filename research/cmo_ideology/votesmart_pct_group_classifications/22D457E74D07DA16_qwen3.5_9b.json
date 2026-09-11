@@ -1,0 +1,11 @@
+{
+  "policy_key": "decrease_legal_immigrants",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option advocates for reducing legal immigration limits.",
+  "evidence_quote": "Decrease the number of legal immigrants allowed into the country.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

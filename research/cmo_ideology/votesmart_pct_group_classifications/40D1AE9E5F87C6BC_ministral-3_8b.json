@@ -1,0 +1,11 @@
+{
+  "policy_key": "raise_handgun_age",
+  "dimension": "guns_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase the minimum age for purchasing handguns from 18 to 21 years old.",
+  "evidence_quote": "Raise the minimum age for ownership of handguns from 18 to 21.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

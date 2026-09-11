@@ -1,0 +1,11 @@
+{
+  "policy_key": "universal_healthcare_coverage",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Expand government-provided healthcare to all citizens, funded by public resources.",
+  "evidence_quote": "**b) Implement a universal health care program to guarantee coverage to all Americans regardless of income.**",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_crime_school_grounds_penalties",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increasing penalties for crimes on school grounds is a progressive stance that prioritizes student safety and harsher punishment.",
+  "evidence_quote": "Increase penalties for crimes committed on school grounds.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

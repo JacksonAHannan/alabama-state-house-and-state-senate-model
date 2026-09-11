@@ -1,0 +1,10 @@
+{
+  "id": "E1C6F04096F98706",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "punitive",
+  "confidence": "medium",
+  "rationale": "Establishes or expands criminal penalties for misrepresentation, denial, or interference involving service animals.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

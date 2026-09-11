@@ -1,0 +1,10 @@
+{
+  "id": "932AD94608831B9E",
+  "decision": "map",
+  "primitive_axis": "police_authority",
+  "policy_pole": "expand",
+  "confidence": "medium",
+  "rationale": "Authorizes sharing electronic-monitoring data in specified circumstances, expanding information-sharing and surveillance authority in parole administration.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

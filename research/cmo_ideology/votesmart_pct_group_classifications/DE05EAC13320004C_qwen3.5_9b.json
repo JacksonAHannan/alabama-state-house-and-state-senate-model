@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_budget_funding_levels",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option provides a specific dollar range for federal funding levels without indicating the policy's ideological direction.",
+  "evidence_quote": "$100,001-$180,000",
+  "needs_human_review": false,
+  "review_reason": ""
+}

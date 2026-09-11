@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "healthcare_access",
+  "plain_english_policy": "Should individuals be required to purchase health care insurance?",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "The policy restricts individuals' ability to choose whether or not to purchase health care insurance."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Should individuals be required to purchase health care insurance?\" This question is a classic debate in the realm of healthcare access, focusing on individual responsibility versus government intervention.",
+  "needs_human_review": true,
+  "review_reason": "The policy's effect as stated by the source is that it restricts individuals' ability to choose whether or not to purchase health care insurance."
+}

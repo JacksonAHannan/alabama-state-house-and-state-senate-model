@@ -1,0 +1,10 @@
+{
+  "id": "C3EBCB7CF3C95B90",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "A code-codification and publication measure with no substantive criminal-justice policy change.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

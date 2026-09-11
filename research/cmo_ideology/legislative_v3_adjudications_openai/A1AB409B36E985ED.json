@@ -1,0 +1,10 @@
+{
+  "id": "A1AB409B36E985ED",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "Establishes or expands fraud penalties and removes a knowledge requirement, but the allowed axes do not clearly capture this criminal-enforcement change.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "social_security_cola_reduction",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option proposes reducing the annual cost-of-living adjustments to Social Security benefits.",
+  "evidence_quote": "Lower the annual cost-of-living increases.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "middle_east_united_nations_cooperation",
+  "dimension": "indeterminate",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The U.S. should only use military force against Iraq if it is part of a broader international coalition.",
+  "evidence_quote": "The U.S. should take military action against Iraq only as part of an **international effort**.",
+  "needs_human_review": true,
+  "review_reason": "This option emphasizes multilateralism but does not clearly align with a stable left/right ideological spectrum due to its procedural framing (conditioning military action on coalition-building)."
+}

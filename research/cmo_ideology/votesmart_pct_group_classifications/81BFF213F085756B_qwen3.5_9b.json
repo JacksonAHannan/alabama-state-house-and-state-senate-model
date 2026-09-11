@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_education_standards",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting federal education standards is conventionally progressive as it aligns with national uniformity and often reflects a preference for centralized oversight over state autonomy.",
+  "evidence_quote": "Do you support requiring states to adopt federal education standards?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,24 @@
+{
+  "primary_domain": "government_reform",
+  "policy_key": "institutional_populism",
+  "plain_english_policy": "The option explicitly grants expanded authority to a state commission (Alabama Ethics Commission) to compel testimony or documents via subpoenas, shifting power from private actors (e.g., donors/candidates) to the commission itself. This is framed as an enforcement mechanism for campaign finance rules rather than direct policy content on other domains.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "institutional_populism",
+      "pole": "popular_control",
+      "strength": "secondary",
+      "rationale": "The subpoena power is a tool to enforce transparency and accountability, which could be interpreted as increasing public oversight over private financial transactions in politics. However, the mechanism itself does not directly alter policy outcomes\u2014it only empowers an institution to gather information for potential enforcement."
+    },
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "The subpoena power is a form of state intervention into private financial dealings (e.g., campaign contributions) to regulate or restrict market autonomy in political funding."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Should the Alabama Ethics Commission have the power of subpoena?\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

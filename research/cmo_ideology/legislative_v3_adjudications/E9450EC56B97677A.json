@@ -1,0 +1,10 @@
+{
+  "id": "E9450EC56B97677A",
+  "decision": "map",
+  "primitive_axis": "healthcare_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Requiring Medicaid coverage for colorectal cancer screening tests based on USPSTF recommendations expands healthcare access by mandating evidence-based preventive care.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

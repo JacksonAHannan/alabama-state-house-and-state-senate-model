@@ -1,0 +1,24 @@
+{
+  "primary_domain": "business",
+  "policy_key": "market_governance",
+  "plain_english_policy": "limits on the number of terms for state government officials",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "limits on the number of terms for state government officials could be seen as a restriction on the amount of time that individuals can hold office."
+    },
+    {
+      "axis": "business_scale_alignment",
+      "pole": "small_business",
+      "strength": "primary",
+      "rationale": "limits on the number of terms for state government officials could be seen as a restriction on the amount of time that individuals can hold office."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Do you support limits on the following types of contributions to candidates for state government?",
+  "needs_human_review": false,
+  "review_reason": "This question is about campaign finance and government reform. It asks if a candidate supports limits on the number of terms for Alabama governors."
+}

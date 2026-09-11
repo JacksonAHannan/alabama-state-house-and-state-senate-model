@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_civil_rights_enforcement",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "This option assigns primary responsibility for civil rights enforcement to the federal government rather than state or local levels.",
+  "evidence_quote": "2) Civil rights enforcement",
+  "needs_human_review": false,
+  "review_reason": ""
+}

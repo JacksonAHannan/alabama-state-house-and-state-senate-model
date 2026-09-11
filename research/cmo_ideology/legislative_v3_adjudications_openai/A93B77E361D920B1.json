@@ -1,0 +1,10 @@
+{
+  "id": "A93B77E361D920B1",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns bond and debt financing for public education authorities and is primarily technical or administrative rather than a clear allowed education-policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

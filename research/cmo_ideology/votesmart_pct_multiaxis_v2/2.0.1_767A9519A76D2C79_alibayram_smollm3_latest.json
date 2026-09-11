@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "tax_distribution",
+  "plain_english_policy": "Do not support Medicaid expansion under the Affordable Care Act.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "The policy opposes expanding Medicaid, which is a welfare program."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I do not support the expansion of Medicaid under the Affordable Care Act.\" - Candidate statement in 2014 health issues section.",
+  "needs_human_review": true,
+  "review_reason": ""
+}

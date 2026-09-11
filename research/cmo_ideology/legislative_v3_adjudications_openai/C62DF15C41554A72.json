@@ -1,0 +1,10 @@
+{
+  "id": "C62DF15C41554A72",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "Combines expanded absentee voting access with new ballot-integrity and privacy controls, creating mixed-direction effects.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

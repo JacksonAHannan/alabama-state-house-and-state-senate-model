@@ -1,0 +1,10 @@
+{
+  "id": "B5AF2742EF25D928",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "Creating a sentencing commission is symbolic/administrative; lacks clear policy direction on punishment, incarceration, or rehabilitation.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

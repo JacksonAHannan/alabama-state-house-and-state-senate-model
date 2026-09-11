@@ -1,0 +1,10 @@
+{
+  "id": "762814C0697DD904",
+  "decision": "map",
+  "primitive_axis": "police_authority",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Repeals a restriction on penalties for harassing/interfering with police animals, thereby **expanding** the authority of law enforcement to enforce compliance. Clear directional effect.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

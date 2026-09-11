@@ -1,0 +1,11 @@
+{
+  "policy_key": "income_tax_bracket",
+  "dimension": "indeterminate",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option does not specify a clear tax *policy* stance (e.g., cut/raise/flat) but merely defines a *bracket threshold*. Without explicit language on rates or progressive/regressive intent, it is context-dependent.",
+  "evidence_quote": "**c) $75,000\u2013$150,000**",
+  "needs_human_review": true,
+  "review_reason": "Tax bracket ranges alone cannot be scored without knowing whether the candidate supports *lowering* this threshold (conservative), *raising* it (progressive), or leaving rates unchanged."
+}

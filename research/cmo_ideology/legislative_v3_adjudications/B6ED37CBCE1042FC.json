@@ -1,0 +1,10 @@
+{
+  "id": "B6ED37CBCE1042FC",
+  "decision": "map",
+  "primitive_axis": "abortion_access",
+  "policy_pole": "restrict",
+  "confidence": "high",
+  "rationale": "Requiring written parental consent for minors and mandating that abortions be performed by physicians are clear restrictions on abortion access.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

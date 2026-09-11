@@ -1,0 +1,11 @@
+{
+  "policy_key": "employment_stock_diversification",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Expands individual financial autonomy by enabling employees to diversify retirement assets beyond company stock, reducing reliance on employer-specific investments.",
+  "evidence_quote": "Allow workers to sell company stock and to diversify their company retirement funds into other investment options.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

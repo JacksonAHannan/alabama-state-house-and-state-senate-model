@@ -1,0 +1,10 @@
+{
+  "id": "1C01B11F899E75D8",
+  "decision": "map",
+  "primitive_axis": "education_teacher_labor",
+  "policy_pole": "support",
+  "confidence": "high",
+  "rationale": "Authorizes certified public-school teachers to work part-time under defined compensation and retirement-benefit rules, supporting expanded employment flexibility for teachers.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

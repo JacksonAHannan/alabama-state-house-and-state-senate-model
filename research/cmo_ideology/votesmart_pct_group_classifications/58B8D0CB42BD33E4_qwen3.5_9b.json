@@ -1,0 +1,11 @@
+{
+  "policy_key": "ease_firearm_registration",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option advocates for reducing bureaucratic hurdles and removing registration requirements for firearm purchases. In the context of U.S. gun policy debates, supporting deregulation and opposing mandatory registration is conventionally associated with progressive positions that prioritize public safety through administrative oversight.",
+  "evidence_quote": "Ease procedures on the purchase and registration of firearms.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

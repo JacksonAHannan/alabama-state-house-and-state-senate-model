@@ -1,0 +1,11 @@
+{
+  "policy_key": "aid_to_ally_countries",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Providing aid primarily to U.S. allies, even if they don\u2019t meet other criteria like poverty or humanitarian need.",
+  "evidence_quote": "Aid should be granted to countries that are close allies of the U. S. and in need of financial/military assistance.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

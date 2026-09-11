@@ -1,0 +1,10 @@
+{
+  "id": "AA9413EE3BA24D0A",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "punitive",
+  "confidence": "high",
+  "rationale": "Regulates lending of money with criminal penalties, indicating a punitive approach to enforcement.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

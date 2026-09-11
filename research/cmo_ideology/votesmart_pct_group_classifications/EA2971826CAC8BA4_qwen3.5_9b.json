@@ -1,0 +1,11 @@
+{
+  "policy_key": "student_loan_tax_credit",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option proposes a tax credit specifically for student loan payments.",
+  "evidence_quote": "f) Student loan tax credit",
+  "needs_human_review": true,
+  "review_reason": "Tax credits are generally progressive tools but this specific one targets education debt which can appeal to both sides depending on the voter's background."
+}

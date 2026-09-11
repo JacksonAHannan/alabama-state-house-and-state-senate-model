@@ -1,0 +1,11 @@
+{
+  "policy_key": "north_korea_nuclear_pressure",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Use diplomatic and economic pressure to push North Korea toward abandoning its nuclear weapons program.",
+  "evidence_quote": "Should the United States use **diplomatic and economic pressure** to encourage North Korea to abandon its nuclear weapons program?",
+  "needs_human_review": true,
+  "review_reason": "The question is phrased as a standalone option without explicit candidate endorsement, so it lacks clear left/right framing. The policy itself leans progressive (pro-multilateral engagement, sanctions) but could be interpreted contextually."
+}

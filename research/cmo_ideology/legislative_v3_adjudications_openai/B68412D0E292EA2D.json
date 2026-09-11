@@ -1,0 +1,10 @@
+{
+  "id": "B68412D0E292EA2D",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "punitive",
+  "confidence": "high",
+  "rationale": "Reduces correctional incentive time, delays advancement in prisoner classification, and expands forfeiture circumstances, directly increasing the punitive character of incarceration.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

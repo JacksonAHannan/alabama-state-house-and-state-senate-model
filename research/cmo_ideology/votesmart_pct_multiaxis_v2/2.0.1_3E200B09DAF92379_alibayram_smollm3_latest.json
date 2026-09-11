@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "welfare_policy",
+  "plain_english_policy": "Budget Stabilization",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Mandatory furloughs and layoffs are measures to reduce state spending in order to balance the budget."
+    }
+  ],
+  "confidence": "medium",
+  "evidence_quote": "\"We need to make tough decisions to ensure Alabama's financial stability. Mandatory furloughs or layoffs for state employees may be necessary steps.\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

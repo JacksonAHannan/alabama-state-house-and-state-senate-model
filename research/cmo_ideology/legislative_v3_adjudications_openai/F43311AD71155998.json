@@ -1,0 +1,10 @@
+{
+  "id": "F43311AD71155998",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Defines lobbying under the State Ethics Law, but the allowed axes do not provide a sufficiently direct fit for this procurement-related ethics provision.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

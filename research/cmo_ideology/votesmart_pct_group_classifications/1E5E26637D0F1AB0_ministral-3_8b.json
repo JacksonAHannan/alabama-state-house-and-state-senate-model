@@ -1,0 +1,11 @@
+{
+  "policy_key": "african_aids_contraceptive_funding",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Whether federal aid for African AIDS prevention should include funding for contraceptive distribution.",
+  "evidence_quote": "*[No direct quote provided in the option text, but this is a classic progressive/liberal position on global health and reproductive rights.]*",
+  "needs_human_review": true,
+  "review_reason": "The question is phrased as an open-ended policy option without explicit candidate language. A conservative alternative would likely emphasize abstinence-only or cultural objections to contraceptives, while progressive stances typically support comprehensive health programs including contraception."
+}

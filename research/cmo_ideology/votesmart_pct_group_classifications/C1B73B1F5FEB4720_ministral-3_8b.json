@@ -1,0 +1,11 @@
+{
+  "policy_key": "payroll_taxes",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The candidate's position on payroll taxes is conventionally progressive, as they likely support lower payroll tax levels (e.g., #1-3) to reduce worker/employer burdens.",
+  "evidence_quote": "(No explicit number provided in the prompt, but if the candidate selected **#1**\u2014'reduce significantly'\u2014this would align with a progressive stance on reducing payroll taxes.)",
+  "needs_human_review": false,
+  "review_reason": "The question lacks a specific choice here; however, conventional left-leaning candidates typically favor lower payroll tax burdens (e.g., #1-3) to benefit workers and small businesses."
+}

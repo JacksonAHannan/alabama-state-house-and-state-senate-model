@@ -1,0 +1,11 @@
+{
+  "policy_key": "state_spending_transportation",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Level of state funding for transportation/infrastructure projects.",
+  "evidence_quote": "#4: Maintain current levels with targeted efficiency improvements (e.g., prioritize maintenance over new construction).",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "48A19841AF997E94",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "punitive",
+  "confidence": "medium",
+  "rationale": "The measure defines procurement conflicts of interest and attaches criminal penalties to violations, increasing punishment for covered conduct.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

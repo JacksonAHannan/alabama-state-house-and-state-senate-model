@@ -1,0 +1,10 @@
+{
+  "id": "7A3395C9E14F47AB",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "The description does not identify what the safe harbor protects or which healthcare policy direction it advances.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

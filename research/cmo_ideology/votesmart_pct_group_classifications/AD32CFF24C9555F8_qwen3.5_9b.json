@@ -1,0 +1,11 @@
+{
+  "policy_key": "welfare_child_care_services",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Providing childcare to welfare recipients who work or attend school is a progressive policy option.",
+  "evidence_quote": "f) Provide child care services to welfare recipients who work or attend school.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

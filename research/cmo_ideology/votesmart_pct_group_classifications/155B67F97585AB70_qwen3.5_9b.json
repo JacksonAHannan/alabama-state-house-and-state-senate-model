@@ -1,0 +1,11 @@
+{
+  "policy_key": "foreign_policy_radio_free_europe",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks whether the US should continue funding Radio Free Europe and Radio Liberty without specifying a partisan stance.",
+  "evidence_quote": "4) Should the US continue funding for Radio Free Europe and Radio Liberty?",
+  "needs_human_review": true,
+  "review_reason": "This is a procedural question about continuing an existing program rather than proposing new ideological policy."
+}

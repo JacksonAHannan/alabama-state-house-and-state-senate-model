@@ -1,0 +1,10 @@
+{
+  "id": "00897CB7CFC2F10D",
+  "decision": "map",
+  "primitive_axis": "market_governance",
+  "policy_pole": "intervention",
+  "confidence": "high",
+  "rationale": "Requiring door-to-door sales licenses and imposing civil penalties directly increases government regulation of market activity.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

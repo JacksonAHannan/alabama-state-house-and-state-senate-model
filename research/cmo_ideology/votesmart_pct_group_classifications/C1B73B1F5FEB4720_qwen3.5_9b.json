@@ -1,0 +1,11 @@
+{
+  "policy_key": "spending_taxes_payroll",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option 'k) Payroll taxes' is a procedural selection within a questionnaire asking respondents to rate their preference for federal spending and tax levels on a scale. It does not inherently express a conservative or progressive stance; the direction depends entirely on which numerical level (1-6) associated with this category the candidate selects.",
+  "evidence_quote": "k) Payroll taxes",
+  "needs_human_review": false,
+  "review_reason": ""
+}

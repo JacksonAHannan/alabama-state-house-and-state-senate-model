@@ -1,0 +1,10 @@
+{
+  "id": "6474410CD01D4024",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Changes retirement purchasing rules for public employees and does not address an allowed criminal-justice axis.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

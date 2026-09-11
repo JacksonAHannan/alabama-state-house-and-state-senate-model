@@ -1,0 +1,10 @@
+{
+  "id": "B31513E083DBAE64",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "punitive",
+  "confidence": "high",
+  "rationale": "Requiring surgical castration for sex offenders over 21 convicted of offenses against children under 12 is a clear punitive measure, increasing the severity of post-release consequences beyond standard incarceration or rehabilitation.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

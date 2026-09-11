@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_disclosure_advocacy",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option calls for transparency in political advertising by mandating that groups spending money on issue advocacy ads must reveal who is funding them if the ad runs close to an election.",
+  "evidence_quote": "Require full disclosure of funding sources of issue advocacy commercials which appear within 60 days of an election",
+  "needs_human_review": false,
+  "review_reason": ""
+}

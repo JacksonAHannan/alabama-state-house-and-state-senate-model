@@ -1,0 +1,11 @@
+{
+  "policy_key": "emergency_preparedness_funding",
+  "dimension": "government_reform_position",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Funding level for emergency preparedness (no clear left/right bias; typically procedural/administrative).",
+  "evidence_quote": "c) Emergency preparedness",
+  "needs_human_review": true,
+  "review_reason": "No explicit ideological signal in the question phrasing or category label."
+}

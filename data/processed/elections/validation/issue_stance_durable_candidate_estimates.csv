@@ -1,0 +1,15 @@
+outcome,family,specification,n,people,status,coefficient,hc3_se,ci_low,ci_high,p_value,effect_per_stance_sd,r_squared,cluster_people,cluster_se,cluster_p_value
+presidential_overperformance,environment_resources,repeat_candidate_mean,3,3,underpowered,,,,,,,,,,
+presidential_overperformance,institutional_reform,repeat_candidate_mean,0,0,underpowered,,,,,,,,,,
+presidential_overperformance,labor_capital,repeat_candidate_mean,2,2,underpowered,,,,,,,,,,
+presidential_overperformance,market_government_direction,repeat_candidate_mean,6,6,underpowered,,,,,,,,,,
+presidential_overperformance,material_support,repeat_candidate_mean,20,20,estimated,-23.136050831733193,19.148746444424756,-63.36607427981088,17.093972616344494,0.24259423799879679,-8.017379252115894,0.15094974831117058,20.0,12.320889576507104,0.07584738893635765
+presidential_overperformance,order_justice,repeat_candidate_mean,9,9,underpowered,,,,,,,,,,
+presidential_overperformance,social_liberty_equality,repeat_candidate_mean,25,25,estimated,-9.517409833647143,7.883682343228707,-25.826049311093424,6.791229643799138,0.239613136925063,-4.54222706897581,0.05278389655936555,25.0,7.110038168314423,0.19324814645108623
+federal_index_overperformance,environment_resources,repeat_candidate_mean,3,3,underpowered,,,,,,,,,,
+federal_index_overperformance,institutional_reform,repeat_candidate_mean,0,0,underpowered,,,,,,,,,,
+federal_index_overperformance,labor_capital,repeat_candidate_mean,2,2,underpowered,,,,,,,,,,
+federal_index_overperformance,market_government_direction,repeat_candidate_mean,6,6,underpowered,,,,,,,,,,
+federal_index_overperformance,material_support,repeat_candidate_mean,20,20,estimated,-13.394657760403119,15.635806487106786,-46.244268226108346,19.454952705302105,0.4028910067013334,-4.641675971343991,0.05986463284331889,20.0,10.693336451594392,0.22554378250539608
+federal_index_overperformance,order_justice,repeat_candidate_mean,9,9,underpowered,,,,,,,,,,
+federal_index_overperformance,social_liberty_equality,repeat_candidate_mean,25,25,estimated,-6.273778046495707,9.657834012527294,-26.252529876674153,13.704973783682739,0.5223827002092047,-2.9941890667346356,0.029322292191798716,25.0,8.186352996885516,0.4509287109232051

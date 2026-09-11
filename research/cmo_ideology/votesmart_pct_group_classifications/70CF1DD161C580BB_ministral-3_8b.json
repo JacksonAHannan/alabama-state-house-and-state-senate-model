@@ -1,0 +1,11 @@
+{
+  "policy_key": "balanced_budget_requirement",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Mandating an annual balanced federal budget (no deficit spending).",
+  "evidence_quote": "**5) Do you support requiring the federal budget to be balanced each year?**",
+  "needs_human_review": false,
+  "review_reason": ""
+}

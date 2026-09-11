@@ -1,0 +1,11 @@
+{
+  "policy_key": "military_tribunals_for_terrorists",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Using military tribunals instead of civilian courts for suspected terrorists.",
+  "evidence_quote": "Do you support using military tribunals to try suspected terrorists when ordinary civilian courts are deemed inappropriate or impractical?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

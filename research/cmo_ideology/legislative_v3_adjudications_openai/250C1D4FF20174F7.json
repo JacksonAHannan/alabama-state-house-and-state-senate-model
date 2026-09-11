@@ -1,0 +1,10 @@
+{
+  "id": "250C1D4FF20174F7",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "rehabilitative",
+  "confidence": "high",
+  "rationale": "Expands alternative sentencing, educational, treatment, intervention, work-release, and pretrial-release programs.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

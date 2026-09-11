@@ -1,0 +1,11 @@
+{
+  "policy_key": "welfare_child_support_enforcement",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Strengthening child support collection and penalizing non-payment is conventionally viewed as a progressive measure aimed at protecting vulnerable families.",
+  "evidence_quote": "a) Strengthen child support collection procedures and increase penalties for parents who do not pay child support.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "85B52BE185E685B8",
+  "decision": "map",
+  "primitive_axis": "education_teacher_labor",
+  "policy_pole": "support",
+  "confidence": "high",
+  "rationale": "Requires or supports training public school educators in mental health first aid, directly supporting educator training.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

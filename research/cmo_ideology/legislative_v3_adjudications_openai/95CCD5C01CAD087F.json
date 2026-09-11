@@ -1,0 +1,10 @@
+{
+  "id": "95CCD5C01CAD087F",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Mandated cardiac emergency planning is a health and safety requirement not captured by the allowed education axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

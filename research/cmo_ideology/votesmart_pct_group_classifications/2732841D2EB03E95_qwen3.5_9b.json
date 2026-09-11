@@ -1,0 +1,11 @@
+{
+  "policy_key": "international_aid_lebanon",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Supporting a specific foreign government against insurgents is an administrative or context-dependent decision rather than a clear ideological stance.",
+  "evidence_quote": "d) Should the United States support the Lebanese government against insurgent forces?",
+  "needs_human_review": true,
+  "review_reason": "This option presents a specific foreign policy scenario that does not inherently align with conservative or progressive ideologies without additional context on U.S. intervention principles."
+}

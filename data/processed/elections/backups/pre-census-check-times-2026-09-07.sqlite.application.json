@@ -1,0 +1,77 @@
+{
+  "warehouse_status": "committed",
+  "build_run_id": "RUN-FB3931B5261247C094477492E72AC7DB",
+  "configuration": {
+    "manifest": "C:\\Users\\User\\Documents\\GitHub\\alabama-state-house-and-state-senate-model\\data\\raw\\census\\source_manifest.csv",
+    "manifest_sha256": "2e4eff90ca53f1104300750a019f9dcf502a69f6bfab9bf006cd211dccdfc5e1",
+    "source_files": {
+      "SRC-5BDCB472CCFA895B0D68": {
+        "local_path": "data/raw/census/BlockAssign2010_ST01_AL.zip",
+        "sha256": "b3a19dbba224ea18fd00a363259ac25998438cafab4db14c7f6fc3c2c49ad257",
+        "checked_utc": "2026-08-14T22:24:06.701187+00:00"
+      },
+      "SRC-91380129EBD5D355DF9B": {
+        "local_path": "data/raw/census/BlockAssign_ST01_AL.zip",
+        "sha256": "4031d99d9acc6b0d40fb72123ed2029dc1e66525c6fd1d87ef01228ada18411d",
+        "checked_utc": "2026-08-14T22:24:06.705591+00:00"
+      },
+      "SRC-324C707197A789F0F99A": {
+        "local_path": "data/raw/census/al2010.pl.zip",
+        "sha256": "250ce93243f9935e93d7fefd7bc8ec4997f7c3faafc8c05bbd1565ba68673fa0",
+        "checked_utc": "2026-08-14T22:24:06.724724+00:00"
+      },
+      "SRC-58F03B523F0C2DAD7D7D": {
+        "local_path": "data/raw/census/al2020.pl.zip",
+        "sha256": "bd3fbbf22615b166869f9119aa12017b9a7b82baf0f22a9170e92a88a397cd77",
+        "checked_utc": "2026-08-14T22:24:06.744282+00:00"
+      },
+      "SRC-3A69C31DEEDF63BCDCC6": {
+        "local_path": "data/raw/census/sldl_2022.zip",
+        "sha256": "531f7843f9d34d744f989ead86d7589f96ea8fa672f416a895f5a7283f5de36f",
+        "checked_utc": "2026-08-14T22:24:06.762528+00:00"
+      },
+      "SRC-E98A02679262E9798687": {
+        "local_path": "data/raw/census/sldu_2022.zip",
+        "sha256": "3e1138aed2428f4766017c84bfa264295a520a2d0d4c6c94a768dd0b73f2c125",
+        "checked_utc": "2026-08-14T22:24:06.789635+00:00"
+      },
+      "SRC-199B0BC8F73366FA0954": {
+        "local_path": "data/raw/census/sldu_post2010.zip",
+        "sha256": "667fc816ba64a4cfed527c6801493789d61334d591a6e548d456265c9a17e698",
+        "checked_utc": "2026-08-14T22:24:08.743599+00:00"
+      },
+      "SRC-09269779B39EEDBE1D13": {
+        "local_path": "data/raw/census/sldl_post2010.zip",
+        "sha256": "b48d6926159854c46407378dd9caf8d80443a01b41cbce50afc38121b5bcfd54",
+        "checked_utc": "2026-08-14T22:24:14.036990+00:00"
+      }
+    },
+    "backup": "C:\\Users\\User\\Documents\\GitHub\\alabama-state-house-and-state-senate-model\\data\\processed\\elections\\backups\\pre-census-check-times-2026-09-07.sqlite",
+    "before_snapshot": {
+      "warehouse_source_file": "b700d148018b5d9b776a4ed9f0a7c66e41e40febc30864273f58d8b1f19e0265",
+      "warehouse_build_run": "f8b0a8d0a10adf2b365cc0f5af18beba633fc382f837d671182db8cfb8b8aee0",
+      "qa_warehouse_source_repair": "3482969fc5a83676c1d81082a1dda3738f1be5e29aaa1d05804a04bc4af767f3"
+    },
+    "application_code_sha256": "8dfbb96f24fa33d12d082c9d8715ced47f345cddec923e18cc9b3aa8d166ee5b",
+    "contract": "checked_utc is not acquisition time; exact copied values become unknown"
+  },
+  "validation": {
+    "repaired_rows": 8,
+    "before_retrieved_at_utc": {
+      "SRC-5BDCB472CCFA895B0D68": "2026-08-14T22:24:06.701187+00:00",
+      "SRC-91380129EBD5D355DF9B": "2026-08-14T22:24:06.705591+00:00",
+      "SRC-324C707197A789F0F99A": "2026-08-14T22:24:06.724724+00:00",
+      "SRC-58F03B523F0C2DAD7D7D": "2026-08-14T22:24:06.744282+00:00",
+      "SRC-3A69C31DEEDF63BCDCC6": "2026-08-14T22:24:06.762528+00:00",
+      "SRC-E98A02679262E9798687": "2026-08-14T22:24:06.789635+00:00",
+      "SRC-199B0BC8F73366FA0954": "2026-08-14T22:24:08.743599+00:00",
+      "SRC-09269779B39EEDBE1D13": "2026-08-14T22:24:14.036990+00:00"
+    },
+    "after_registry_sha256": "02db2845aacd29d48c236c19a6f515785bf59a7e98d46e9adea97498786ab234",
+    "backup": "C:\\Users\\User\\Documents\\GitHub\\alabama-state-house-and-state-senate-model\\data\\processed\\elections\\backups\\pre-census-check-times-2026-09-07.sqlite",
+    "not_rebuilt": [
+      "downstream provenance exports and as-of eligibility audits"
+    ],
+    "report_status": "database commit evidence authoritative; report written after commit"
+  }
+}

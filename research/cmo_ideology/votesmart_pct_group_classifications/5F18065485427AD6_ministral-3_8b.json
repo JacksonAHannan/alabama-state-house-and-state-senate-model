@@ -1,0 +1,11 @@
+{
+  "policy_key": "welfare_nonprofit_redirection",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Shift federal welfare funding to religious/community nonprofits instead of direct government aid.",
+  "evidence_quote": "*Direct federal poverty aid through religious, community-based, or other non-profit organizations.*",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "8E08B43D5CCB8CAA",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Provides for premium cost sharing across public-sector insurance plans without a sufficiently specified, issue-specific access or responsibility pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

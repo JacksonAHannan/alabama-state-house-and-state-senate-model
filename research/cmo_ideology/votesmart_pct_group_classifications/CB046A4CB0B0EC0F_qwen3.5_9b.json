@@ -1,0 +1,11 @@
+{
+  "policy_key": "legislative_priorities_open",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option is a neutral prompt asking candidates to state their own priorities without prescribing any specific policy direction.",
+  "evidence_quote": "In the following area, please explain in a total of 100 words or less, your top two or three priorities if elected. If they require additional funding for implementation, please explain how you would obtain this funding.",
+  "needs_human_review": false,
+  "review_reason": "The text is an open-ended question template and does not contain a specific policy stance to classify as conservative or progressive."
+}

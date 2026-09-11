@@ -1,0 +1,11 @@
+{
+  "policy_key": "environmental_funding",
+  "dimension": "environment_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Level of federal funding for environmental programs (e.g., EPA, conservation, pollution control).",
+  "evidence_quote": "*[No specific quote provided in the prompt\u2014this is a generic example of how an Alabama candidate might respond. For actual scoring, you would need to copy verbatim their exact wording from their questionnaire.]*",
+  "needs_human_review": true,
+  "review_reason": "To ensure alignment with the candidate's *exact* phrasing (e.g., 'increase', 'maintain', or 'reduce' funding) and context."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "charity_tax_deduction",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increasing tax deductions for charitable contributions to organizations helping the poor and homeless is a progressive policy option.",
+  "evidence_quote": "Increase the income tax deduction on individual contributions made to charities that help the poor and homeless.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

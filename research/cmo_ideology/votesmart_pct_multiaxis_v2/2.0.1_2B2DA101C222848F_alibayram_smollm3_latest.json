@@ -1,0 +1,18 @@
+{
+  "primary_domain": "criminal_justice",
+  "policy_key": "crime_control",
+  "plain_english_policy": "Criminalizing the employment of an undocumented immigrant in Alabama.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "criminal_punishment",
+      "pole": "punitive",
+      "strength": "primary",
+      "rationale": "The primary effect is to impose criminal penalties on employers who hire undocumented immigrants, indicating a punitive approach towards crime control."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Criminalize the employment of an undocumented immigrant in Alabama.\" - Source: [Alabama Candidate Questionnaire, Year: 2006, Section: Crime Issues]",
+  "needs_human_review": true,
+  "review_reason": "This policy is a specific criminal justice measure that could have broader implications for labor markets and immigration policies.; invalid pole 'regulation_quality' for market_governance"
+}

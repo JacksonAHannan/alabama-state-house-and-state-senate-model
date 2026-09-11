@@ -1,0 +1,10 @@
+{
+  "id": "BEFA8B2F92CC10EA",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Administrative/technical measure regarding unused prescription medication redispensing; no clear policy stance on punishment, rehabilitation, or due process.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

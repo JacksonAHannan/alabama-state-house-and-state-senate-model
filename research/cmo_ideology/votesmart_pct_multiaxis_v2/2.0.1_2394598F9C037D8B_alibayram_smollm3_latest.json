@@ -1,0 +1,24 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "environmental_protection",
+  "plain_english_policy": "Use state funds to clean up former industrial and commercial sites that are contaminated, unused, or abandoned.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "primary",
+      "rationale": "The policy involves state funds and direct action to clean up sites, indicating a high level of government intervention."
+    },
+    {
+      "axis": "environmental_protection",
+      "pole": "strengthen",
+      "strength": "primary",
+      "rationale": "Cleaning contaminated sites is an environmental protection measure that strengthens the environment by reducing pollution and improving health conditions."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Use state funds to clean up former industrial and commercial sites that are contaminated, unused, or abandoned.\" - Option c in Section: Environment & Energy Issues of Year: 2006 Source: [Insert source here]\".",
+  "needs_human_review": false,
+  "review_reason": ""
+}

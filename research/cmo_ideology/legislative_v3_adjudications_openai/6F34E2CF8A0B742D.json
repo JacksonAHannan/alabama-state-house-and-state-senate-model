@@ -1,0 +1,10 @@
+{
+  "id": "6F34E2CF8A0B742D",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The description only identifies an amendment concerning school nurse employment and does not provide enough substantive detail to classify a permitted education policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

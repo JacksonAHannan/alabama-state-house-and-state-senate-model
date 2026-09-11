@@ -1,0 +1,11 @@
+{
+  "policy_key": "school_capital_funding",
+  "dimension": "education_position",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Increase funding for school buildings and infrastructure (e.g. repairs, upgrades).",
+  "evidence_quote": "*No clear left/right bias*\u2014This is a procedural/administrative issue with bipartisan support in Alabama\u2019s context (e.g., maintenance backlogs, aging facilities).",
+  "needs_human_review": true,
+  "review_reason": "Funding for capital improvements often overlaps with budgetary priorities but lacks ideological polarization unless tied to broader tax/equity debates."
+}

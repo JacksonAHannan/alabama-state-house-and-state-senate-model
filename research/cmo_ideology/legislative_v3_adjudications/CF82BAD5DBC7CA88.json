@@ -1,0 +1,10 @@
+{
+  "id": "CF82BAD5DBC7CA88",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "This appears to be a technical/administrative measure (contracting authority for license plates) with no clear policy direction on the allowed axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

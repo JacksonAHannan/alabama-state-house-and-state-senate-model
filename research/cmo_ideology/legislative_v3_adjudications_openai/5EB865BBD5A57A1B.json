@@ -1,0 +1,10 @@
+{
+  "id": "5EB865BBD5A57A1B",
+  "decision": "map",
+  "primitive_axis": "environmental_protection",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Strengthens regulation of water-well drillers through licensing changes, fees, and continuing-education requirements.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

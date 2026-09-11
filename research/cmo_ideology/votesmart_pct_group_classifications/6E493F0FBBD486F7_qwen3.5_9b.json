@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_trade_cuba_embargo",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting the lifting of a trade embargo is conventionally more progressive.",
+  "evidence_quote": "Do you support lifting the trade embargo imposed against Cuba?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

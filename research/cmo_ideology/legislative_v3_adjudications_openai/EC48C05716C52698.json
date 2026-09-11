@@ -1,0 +1,10 @@
+{
+  "id": "EC48C05716C52698",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Changes the composition of an industrial development authority and is administrative rather than a concrete market-policy position.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

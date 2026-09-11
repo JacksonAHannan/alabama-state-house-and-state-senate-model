@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_social_issues_other",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option 'Other or expanded principles' is too vague to determine a conservative or progressive stance.",
+  "evidence_quote": "Option: e) Other or expanded principles:",
+  "needs_human_review": true,
+  "review_reason": "Vague text prevents ideological classification."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "defense_spending",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supports federal defense spending in the range of $180,001\u2013$350,000 (likely per category or total budget allocation).",
+  "evidence_quote": "$180,001\u2013$350,000",
+  "needs_human_review": false,
+  "review_reason": ""
+}

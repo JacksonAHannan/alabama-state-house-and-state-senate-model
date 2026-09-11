@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_poverty_substance_recovery_funding",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option advocates for increased government funding to support recovery programs and employment initiatives specifically targeted at individuals struggling with alcoholism or drug addiction.",
+  "evidence_quote": "Increase funding of programs that help alcoholics and drug addicts recover and find steady work.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,24 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "resource_development",
+  "plain_english_policy": "support_state_funding_for_traditional_domestic_energy_sources",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "State funding for traditional domestic energy sources may be seen as restricting the development of alternative, cleaner energy sources."
+    },
+    {
+      "axis": "environmental_protection",
+      "pole": "weaken",
+      "strength": "primary",
+      "rationale": "Supporting state funding for coal, natural gas, and oil could weaken environmental protection efforts by prioritizing these traditional energy sources over more sustainable alternatives."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I believe that we should prioritize the development of renewable energy sources to ensure a cleaner environment. However, I understand the importance of domestic energy production and support state funding for coal, natural gas, and oil as part of our overall energy strategy.\" - Candidate's statement on environmental issues in 2010",
+  "needs_human_review": false,
+  "review_reason": ""
+}

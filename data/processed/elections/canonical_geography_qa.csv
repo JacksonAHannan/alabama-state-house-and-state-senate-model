@@ -9,12 +9,12 @@ cycle,chamber,allocation_method,size
 2014,house,canonical_reported_single_district,1561
 2014,house,canonical_spatial_no_legislative_result,11
 2014,house,canonical_split_county_population_fallback,2
-2014,house,canonical_split_legislative_activity_fallback,601
+2014,house,canonical_split_legislative_activity_fallback,600
 2014,house,county_population_fallback,3
 2014,senate,canonical_county_level_ballot,134
 2014,senate,canonical_reported_single_district,1895
 2014,senate,canonical_split_county_population_fallback,1
-2014,senate,canonical_split_legislative_activity_fallback,270
+2014,senate,canonical_split_legislative_activity_fallback,269
 2014,senate,county_population_fallback,12
 2018,house,canonical_county_level_ballot,135
 2018,house,canonical_reported_single_district,1552

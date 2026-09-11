@@ -1,0 +1,10 @@
+{
+  "id": "4AE88DE0C701573F",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "This is an administrative/structural measure (renaming roles, adding employees) with no clear policy implications on the allowed axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

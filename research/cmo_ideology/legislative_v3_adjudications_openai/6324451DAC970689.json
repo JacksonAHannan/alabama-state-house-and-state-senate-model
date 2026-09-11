@@ -1,0 +1,10 @@
+{
+  "id": "6324451DAC970689",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns a county pistol-permit fee and disposition of proceeds; the policy effect on gun access or purchase regulation is insufficiently clear.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "k_independent_nation",
+  "dimension": "other",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks about supporting Kosovo's independence as a foreign policy stance.",
+  "evidence_quote": "r) Should the United States support the creation of an independent nation of Kosovo?",
+  "needs_human_review": true,
+  "review_reason": "This is a specific geopolitical question rather than a general principle; its ideological direction depends on context (humanitarian intervention vs. non-interference)."
+}

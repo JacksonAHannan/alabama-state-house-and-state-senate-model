@@ -1,0 +1,10 @@
+{
+  "id": "E5EAEB883914264C",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Authorizing a county commission to manage absentee ballots changes election administration but does not clearly expand or restrict voting access or establish a specified integrity-control direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

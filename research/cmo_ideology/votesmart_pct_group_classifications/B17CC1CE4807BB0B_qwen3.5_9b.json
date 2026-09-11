@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_public_funding",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option supports using taxpayer money to fund candidates who agree to spending limits.",
+  "evidence_quote": "Support public taxpayer funding for Congressional candidates who comply with campaign spending limits.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

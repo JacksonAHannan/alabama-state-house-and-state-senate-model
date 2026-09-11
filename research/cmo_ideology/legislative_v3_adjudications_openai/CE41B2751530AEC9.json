@@ -1,0 +1,10 @@
+{
+  "id": "CE41B2751530AEC9",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Repeals a county-specific deposit procedure and is administrative and technical, with no clear allowed healthcare policy effect.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

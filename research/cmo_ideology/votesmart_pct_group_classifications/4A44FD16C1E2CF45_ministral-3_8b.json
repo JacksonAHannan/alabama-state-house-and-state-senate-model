@@ -1,0 +1,11 @@
+{
+  "policy_key": "accountability_for_terrorist_sponsors",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "This option is a procedural/evidentiary question about whether the U.S. should pursue legal or diplomatic accountability against foreign governments hosting terrorist groups, rather than an explicit ideological stance.",
+  "evidence_quote": "Should the United States hold foreign states accountable for terrorists who operate in their country?",
+  "needs_human_review": true,
+  "review_reason": "The option is a yes/no prompt without inherent left/right framing; context (e.g., how accountability is enforced) would determine ideological implications."
+}

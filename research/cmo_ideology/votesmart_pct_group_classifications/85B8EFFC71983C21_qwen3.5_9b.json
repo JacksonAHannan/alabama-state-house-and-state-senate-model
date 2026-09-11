@@ -1,0 +1,11 @@
+{
+  "policy_key": "legislative_priorities_question",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks candidates to state their top legislative priorities and funding sources without providing a specific policy stance.",
+  "evidence_quote": "Please explain in a total of 75 words or less, your top two or three priorities if elected. If they require additional funding for implementation, please explain how you would obtain this funding.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

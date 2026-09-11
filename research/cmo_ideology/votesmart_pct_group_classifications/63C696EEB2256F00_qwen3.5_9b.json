@@ -1,0 +1,11 @@
+{
+  "policy_key": "child_care_tax_credit",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Offering tax credits for child care is generally seen as a progressive measure to support working families and reduce inequality.",
+  "evidence_quote": "Provide tax credits or grants to businesses that offer child care services to employees.",
+  "needs_human_review": true,
+  "review_reason": "This policy targets economic equity for low-income workers (progressive), but the mechanism is a business subsidy which can be viewed as fiscally conservative. The net ideological direction is mixed or context-dependent depending on funding source and eligibility criteria."
+}

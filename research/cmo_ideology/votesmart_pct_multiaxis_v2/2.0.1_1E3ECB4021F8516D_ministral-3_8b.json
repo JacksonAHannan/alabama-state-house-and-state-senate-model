@@ -1,0 +1,30 @@
+{
+  "primary_domain": "healthcare",
+  "policy_key": "health_worker_training_funding",
+  "plain_english_policy": "Allocate state funds specifically to train healthcare professionals in identifying and responding to biological agent threats.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "primary",
+      "rationale": "Funding is explicitly state-directed, not private-sector driven."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "Increases public investment in healthcare capacity (training)."
+    },
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "State funding directly shapes market behavior by subsidizing a specific service."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Increase state funding for training health workers to recognize and respond to the release of biological agents\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

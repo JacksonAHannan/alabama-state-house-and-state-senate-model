@@ -1,0 +1,11 @@
+{
+  "policy_key": "minimum_wage_increase",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Raise the federal minimum wage to higher levels than currently set.",
+  "evidence_quote": "(No direct quote provided in the option, but this is a standard progressive economic policy.)",
+  "needs_human_review": false,
+  "review_reason": "The option is unambiguously progressive on economic policy."
+}

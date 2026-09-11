@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "campaign_finance_reform",
+  "plain_english_policy": "Whether to impose restrictions on monetary donations to state-level political campaigns.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "Limiting campaign contributions directly restricts the free flow of market transactions (donations) in political discourse, which is a form of state intervention."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "secondary",
+      "rationale": "Campaign finance rules are enforced by government bodies, thus representing public governance over private transactions (donations)."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Do you support any limits on campaign contributions\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

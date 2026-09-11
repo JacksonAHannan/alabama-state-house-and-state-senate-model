@@ -1,0 +1,10 @@
+{
+  "id": "071812404A0677EA",
+  "decision": "map",
+  "primitive_axis": "environmental_protection",
+  "policy_pole": "weaken",
+  "confidence": "high",
+  "rationale": "The repeal of Sec. 22-30B-19 abolishes the use of hazardous waste fees for environmental research and education, redirecting funds to the Public Health Dept., thereby weakening environmental protection efforts.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

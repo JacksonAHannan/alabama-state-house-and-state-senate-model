@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_poverty_gov_jobs",
+  "dimension": "indeterminate",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option proposes government employment for unemployed individuals unable to find private sector work.",
+  "evidence_quote": "f) Provide government jobs for those who wish to work and cannot find a job in the private sector.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

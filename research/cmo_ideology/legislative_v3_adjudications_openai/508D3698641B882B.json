@@ -1,0 +1,10 @@
+{
+  "id": "508D3698641B882B",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The measure regulates disclosure of nonprofit-related personal information and imposes penalties, but it does not present a clear, issue-specific position on the listed criminal-justice axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

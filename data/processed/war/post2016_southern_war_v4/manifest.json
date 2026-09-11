@@ -1,0 +1,113 @@
+{
+  "model_run_id": "WAR-SOUTH-V4-20B574D955B9BF08B704",
+  "model_version": "post2016_southern_war_v4_finance_free",
+  "generated_at": "2026-09-04T06:49:59.841727+00:00",
+  "code_version": "88878b973fdac3cee95a8d8648da321e38e0021c",
+  "training_window": "cycle > 2016 and cycle <= 2022",
+  "headline_definition": "WAR = (legislative margin - environment-adjusted presidential margin) - fitted structural gap",
+  "features": [
+    "recent_pres_margin",
+    "lag_swing_from_older",
+    "lag_swing_from_recent",
+    "incumbency_balance",
+    "nonwhite_share",
+    "white_college_share",
+    "state_code",
+    "chamber"
+  ],
+  "finance_included": false,
+  "candidate_history_included": false,
+  "context_allocation_run_id": "RUN-3F9B3CEA244646B796CF86E962A919FE",
+  "vest_context_allocation_run_id": "RUN-F1AF08B0478A4B34BA87DE80E91F1CAF",
+  "historical_context_allocation_run_id": "RUN-ECFBAD9189AB4074A042DEEEECB33D3E",
+  "precinct_2012_context_allocation_run_id": "RUN-2EFD501D5FCA4AB0A60611AE766DB2A8",
+  "mississippi_2012_context_allocation_run_id": "RUN-971118910F5E4DF68E316573C3AAABB2",
+  "missingness_policy": "unscored unless presidential context, ACS demographics, and incumbency are all observed",
+  "diagnostics": {
+    "strict_input_races": 2800,
+    "presidential_context_complete": 2769,
+    "demographics_complete": 2800,
+    "headline_scored_races": 2769,
+    "max_war_reconciliation_error": 0.0
+  },
+  "sources": [
+    {
+      "path": "data/processed/war/finance_free_southern_war/southern_war_training_no_finance.csv",
+      "sha256": "74137a9d7a05f562b891c40a17bb13f371d665e43d5e262ae3a6c1d6bdbe3cad"
+    },
+    {
+      "path": "data/processed/war/post2016_southern_war_v4/acs_demographics.csv",
+      "sha256": "c6540fc9e47ae90c3807d5e12513391b7eb04d39301a92997638b0f86aa135f3"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/Daily Kos Elections Statewide Results by LD (public).xlsx",
+      "sha256": "0252669f3490a28f4988f571651ea5c753e92043afe74111dc27fd083d5d907b"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/national_2022_elections_st_leg_boundaries.zip",
+      "sha256": "36a263fc2696b8c3685d360f61bac07eaceaf07c702bcd7527178563538fcd23"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/national_block_2020_pres_results.zip",
+      "sha256": "90b656329c0ae7d914c9be0deeb1cc799e562620687bc4f53ba94e9aef50805b"
+    },
+    {
+      "path": "data/processed/presidential/southern_vest_2016_allocations/manifest.json",
+      "sha256": "013ae7df89f849b987b25f77bedd86db35846beadc4cdd5998aaf4e47030d341"
+    },
+    {
+      "path": "data/processed/presidential/southern_historical_plan_allocations/manifest.json",
+      "sha256": "67627de277361b360be92df3953ffa0c9bbf10437abe83707adbaa3935afe1fc"
+    },
+    {
+      "path": "data/processed/presidential/southern_2012_plan_allocations/manifest.json",
+      "sha256": "12339a2f17b4d5e0825fa5c65ef18843a4d3769b660e88f66af2864077c76a15"
+    },
+    {
+      "path": "data/processed/presidential/mississippi_2012_partial_plan_allocations/manifest.json",
+      "sha256": "c615942c925d067dc235159bd369577bc50cd17d78a3060743926fad373593ff"
+    },
+    {
+      "path": "data/processed/source_audits/southern_2020_census_block_manifest.csv",
+      "sha256": "b501ec50e1100e153d35ab81c84d20b3743e6148279381c746da64a15b822caa"
+    },
+    {
+      "path": "data/processed/presidential/2018_district_presidential_features.csv",
+      "sha256": "064c89b51842a26fa108da0b1ad7278f464b9a1c5faaa01aa44e8fffb5dc2d90"
+    },
+    {
+      "path": "data/processed/presidential/2022_district_presidential_features.csv",
+      "sha256": "b5243cebb2c7e8b22b2a1fee4598914920fca844f74ca80d17fd548d728b5bd3"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "data/processed/war/post2016_southern_war_v4/race_war.csv",
+      "sha256": "40aad0cb86f0ce392317d0cdc7a7c2bb2c71a5e7f97656256883389bc590b2fa"
+    },
+    {
+      "path": "data/processed/war/post2016_southern_war_v4/candidate_cycle_war.csv",
+      "sha256": "ac69e862953ce6e2d0a5dc1466d2279ca47b138f584ea3e54795564998008f18"
+    },
+    {
+      "path": "data/processed/war/post2016_southern_war_v4/coverage.csv",
+      "sha256": "96af2218bd2c4df4f5bce1b61afb02fcd74e21b44833bbdb43c60a7c71b32891"
+    },
+    {
+      "path": "data/processed/war/post2016_southern_war_v4/presidential_context.csv",
+      "sha256": "26ad46edc66a8a1721b16f43a3fb53d4cf10cf74b9b977aeb8815510ca94ec8b"
+    },
+    {
+      "path": "data/processed/war/post2016_southern_war_v4/presidential_margin_inventory.csv",
+      "sha256": "e5a25b566414158253016074138839dee4d9a3e23c3c403d9bbec0c629709911"
+    },
+    {
+      "path": "data/processed/war/post2016_southern_war_v4/forward_predictions.csv",
+      "sha256": "a9395a8af77e2662bbfb145e78610336904ee87cc12ff568db0fc95b3255397e"
+    },
+    {
+      "path": "data/processed/war/post2016_southern_war_v4/forward_metrics.csv",
+      "sha256": "72396c906deaf8a47996cf32c9dcb0f8c1cf1e2df3342dd4955fb443706ca577"
+    }
+  ]
+}

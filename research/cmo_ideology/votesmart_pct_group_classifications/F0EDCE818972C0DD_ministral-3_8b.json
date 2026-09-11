@@ -1,0 +1,11 @@
+{
+  "policy_key": "hate_crime_prosecution",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Expand hate crime laws to explicitly include crimes motivated by gender, sexual orientation, or disability.",
+  "evidence_quote": "Require that crimes based on **gender, sexual orientation** or **disability** be prosecuted as hate crimes.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

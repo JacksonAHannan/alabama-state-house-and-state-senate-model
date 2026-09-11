@@ -1,0 +1,30 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "campaign_finance_restriction",
+  "plain_english_policy": "Imposing contribution limits on political parties' financial support to state candidates",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "Limiting party contributions directly restricts the free flow of funds in political markets, which is a form of state intervention."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "primary",
+      "rationale": "The state (via campaign finance rules) is directly shaping the terms under which private actors (parties) can influence elections, effectively substituting public regulation for unregulated market dynamics."
+    },
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "Contribution limits may disproportionately burden smaller donors or parties with limited resources, though this is indirect and context-dependent. The primary effect is on market access rather than tax incidence."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"limits on the following types of contributions\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

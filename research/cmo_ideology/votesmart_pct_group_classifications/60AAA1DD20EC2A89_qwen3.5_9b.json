@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_congressional_response",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option is a procedural prompt requesting an explanation rather than stating a specific policy position.",
+  "evidence_quote": "If Yes, please explain what you would do as a member of Congress to address this concern.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

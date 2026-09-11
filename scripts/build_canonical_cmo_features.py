@@ -5,6 +5,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 from build_1998_2006_context_features import county_population_district_weights
+from source_vote_quality import require_reported_vote_quality
 
 ROOT=Path(__file__).resolve().parents[1]; DB=ROOT/"data"/"processed"/"elections"/"alabama_elections.sqlite"
 ELECT=ROOT/"data"/"processed"/"elections"; WAR=ROOT/"data"/"processed"/"war"
@@ -21,6 +22,9 @@ def nullable_bool(series: pd.Series) -> pd.Series:
 
 def main():
     with sqlite3.connect(DB) as c:
+        require_reported_vote_quality(c, """source='alabama_sos' AND (
+          office IN ('Governor','Attorney General') OR
+          (office IN ('State House','State Senate') AND district IS NOT NULL))""")
         candidates=pd.read_sql("select * from canonical_candidates",c)
         observations=pd.read_sql("""select year,county_key,precinct_key,office,candidate_key,party_norm,votes
           from vote_observations where source='alabama_sos' and office in ('Governor','Attorney General')""",c)

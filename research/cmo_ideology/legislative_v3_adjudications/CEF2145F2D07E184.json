@@ -1,0 +1,10 @@
+{
+  "id": "CEF2145F2D07E184",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "The description is incomplete (truncated) and lacks specific policy language on healthcare regulation or access.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

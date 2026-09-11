@@ -1,0 +1,30 @@
+{
+  "primary_domain": "childcare",
+  "policy_key": "childcare_support=expansion",
+  "plain_english_policy": "Increase public financial support for early childhood education programs (Head Start).",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "primary",
+      "rationale": "Direct state funding implies government delivery or subsidy of childcare services."
+    },
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "Head Start targets low-income families, but the tax burden may fall unevenly (e.g., sales taxes on goods/services used by all households)."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "Explicit call to increase funding for a welfare-linked program."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Increase state funding to expand Head Start programs.\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

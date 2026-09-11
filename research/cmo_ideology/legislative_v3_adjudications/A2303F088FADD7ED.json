@@ -1,0 +1,10 @@
+{
+  "id": "A2303F088FADD7ED",
+  "decision": "map",
+  "primitive_axis": "institutional_populism",
+  "policy_pole": "popular_control",
+  "confidence": "medium",
+  "rationale": "Prohibits certain public officials from serving as lobbyists for a two-year period, which strengthens popular control over institutional power.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

@@ -1,0 +1,30 @@
+{
+  "contract_version": 2,
+  "pipeline": "scripts/load_southern_legislative_history_warehouse.py",
+  "build_run_id": "RUN-F8FBA87A48244C2B83960ACE5EAFFBBD",
+  "code_version": "569b019fecb7786a1c824fcc81490202e39cc4bc",
+  "validation": {
+    "canonical_candidate_results": 79812,
+    "canonical_duplicate_keys": 0,
+    "canonical_states": 14,
+    "duplicate_final_contests": 0,
+    "first_year": 1968,
+    "foreign_key_violations": 0,
+    "last_year": 2024,
+    "louisiana_runoff_without_first_round": 0,
+    "reconciliation_review": 0,
+    "scheduled_2018_2024_missing": 0,
+    "scheduled_2018_2024_state_cycle_chambers": 95,
+    "source_candidate_results": 82361,
+    "source_duplicate_keys": 0,
+    "source_files": 15,
+    "source_observation_sets": 52231
+  },
+  "outputs": [
+    "data/processed/elections/southern_legislative_candidate_history.csv.gz",
+    "data/processed/elections/southern_legislative_final_candidate_history.csv.gz",
+    "data/processed/source_audits/southern_legislative_history_coverage.csv",
+    "data/processed/source_audits/southern_legislative_final_competition_coverage.csv",
+    "data/processed/source_audits/southern_legislative_history_reconciliation.csv"
+  ]
+}

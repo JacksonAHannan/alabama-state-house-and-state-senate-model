@@ -1,0 +1,11 @@
+{
+  "policy_key": "international_aid_darfur",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks whether the US should intervene in Sudan's Darfur conflict; supporting intervention is generally viewed as a progressive foreign policy stance favoring humanitarian engagement.",
+  "evidence_quote": "Should the United States be involved in bringing an end to the violence in Darfur, Sudan?",
+  "needs_human_review": true,
+  "review_reason": "The question frames intervention on human rights grounds; supporting it aligns with progressive values while opposing may reflect isolationist or realist conservatism."
+}

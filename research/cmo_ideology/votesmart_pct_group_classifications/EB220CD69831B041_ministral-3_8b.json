@@ -1,0 +1,11 @@
+{
+  "policy_key": "hate_crime_prosecution",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Explicitly criminalize and prioritize prosecution of crimes motivated by bias against protected groups (race, ethnicity, religion, sex, etc.) as hate crimes.",
+  "evidence_quote": "**i) Require that crimes based on race, ethnic background, religious belief, sex, age, disability, or sexual orientation be prosecuted as hate crimes.**",
+  "needs_human_review": false,
+  "review_reason": ""
+}

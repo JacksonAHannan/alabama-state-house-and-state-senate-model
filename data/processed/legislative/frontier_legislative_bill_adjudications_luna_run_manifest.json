@@ -1,0 +1,24 @@
+{
+  "model": "gpt-5.6-luna",
+  "generated": "2026-09-08T20:54:54",
+  "bills": 28833,
+  "scoring_bills": 8653,
+  "review_queue": 1,
+  "decision_distribution": {
+    "symbolic": 8806,
+    "map": 7637,
+    "procedural": 6571,
+    "local_non_generalizable": 3469,
+    "multi_axis": 1016,
+    "mixed_no_scalar_direction": 770,
+    "insufficient_text": 564
+  },
+  "usage": {
+    "api_requests": 5,
+    "prompt_tokens": 11649,
+    "completion_tokens": 5697,
+    "total_tokens": 17346
+  },
+  "output": "data\\manual\\ideology\\frontier_legislative_bill_adjudications_luna.csv",
+  "smoke": false
+}

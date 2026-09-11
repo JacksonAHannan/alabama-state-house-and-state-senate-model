@@ -1,0 +1,11 @@
+{
+  "policy_key": "aids_program_funding",
+  "dimension": "healthcare_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase government funding for programs addressing HIV/AIDS.",
+  "evidence_quote": "m) Increase funding for AIDS programs.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

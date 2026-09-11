@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "state_spending_levels",
+  "plain_english_policy": "The candidate\u2019s stated preference for state funding levels in **transportation and infrastructure** (coded as a numeric choice from #1 to #6, though the exact numerical values are unspecified).",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "State funding for transportation/infrastructure inherently involves government intervention in economic infrastructure, though the degree of intervention depends on the specific numeric choice (e.g., #1 = minimal vs. #6 = maximal)."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "primary",
+      "rationale": "The option explicitly references *state funding*, which implies public provision of transportation/infrastructure services."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Transportation/infrastructure\" (explicit reference to state-funded category)",
+  "needs_human_review": false,
+  "review_reason": ""
+}

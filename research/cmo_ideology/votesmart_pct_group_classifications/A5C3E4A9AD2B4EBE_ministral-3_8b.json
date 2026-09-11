@@ -1,0 +1,11 @@
+{
+  "policy_key": "tax_credits_for_on_site_childcare",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Encourages businesses to provide child care services (often seen as supporting working parents, especially women) with tax incentives.",
+  "evidence_quote": "*Provide tax credits for businesses that offer on-site child care.*",
+  "needs_human_review": false,
+  "review_reason": ""
+}

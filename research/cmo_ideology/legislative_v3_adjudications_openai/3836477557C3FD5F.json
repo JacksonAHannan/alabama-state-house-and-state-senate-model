@@ -1,0 +1,10 @@
+{
+  "id": "3836477557C3FD5F",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "expand",
+  "confidence": "medium",
+  "rationale": "Further provisions for pistol permits indicate expanded access to the permitting pathway for lawful handgun possession or carry.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

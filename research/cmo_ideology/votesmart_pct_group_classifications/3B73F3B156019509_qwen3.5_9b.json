@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_federal_aid_drug_offenders",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option proposes cutting federal student aid for people with drug convictions.",
+  "evidence_quote": "n) Eliminate federal financial aid for individuals convicted of drug offenses.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

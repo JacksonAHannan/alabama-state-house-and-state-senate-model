@@ -1,0 +1,10 @@
+{
+  "id": "79D6C0ACC261EA12",
+  "decision": "map",
+  "primitive_axis": "campaign_finance_disclosure",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Requiring preservation of campaign records strengthens campaign-finance recordkeeping and disclosure accountability.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

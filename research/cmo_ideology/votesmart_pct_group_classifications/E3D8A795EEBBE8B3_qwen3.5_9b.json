@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_funding_aids_programs",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks for a selection on federal funding levels and block grants specifically for AIDS programs without stating the candidate's position.",
+  "evidence_quote": "Do you support the use of block grants given to states, rather than federal spending, in the following areas? Option: a) AIDS Programs",
+  "needs_human_review": true,
+  "review_reason": "The text is purely procedural and does not express an ideological stance."
+}

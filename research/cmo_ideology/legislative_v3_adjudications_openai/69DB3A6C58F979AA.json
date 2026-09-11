@@ -1,0 +1,10 @@
+{
+  "id": "69DB3A6C58F979AA",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The measure creates payroll and group-purchasing mechanisms for various benefits, but does not clearly establish a concrete allowed healthcare policy direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

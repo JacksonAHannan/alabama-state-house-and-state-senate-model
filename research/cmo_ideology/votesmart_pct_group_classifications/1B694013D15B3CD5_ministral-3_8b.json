@@ -1,0 +1,11 @@
+{
+  "policy_key": "social_security_coli_cuts",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Reduce annual cost-of-living adjustments for Social Security recipients.",
+  "evidence_quote": "Lower Social Security's annual cost-of-living increases.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

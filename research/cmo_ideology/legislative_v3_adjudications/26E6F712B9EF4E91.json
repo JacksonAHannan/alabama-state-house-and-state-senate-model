@@ -1,0 +1,10 @@
+{
+  "id": "26E6F712B9EF4E91",
+  "decision": "map",
+  "primitive_axis": "healthcare_regulation_patient_rights",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "The bill mandates medical evaluation and clearance protocols for youth athletes with concussions, requiring written clearance from healthcare providers to return to play. This strengthens patient rights by imposing stricter regulations on medical oversight and safety standards.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

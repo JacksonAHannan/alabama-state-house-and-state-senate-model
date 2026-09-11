@@ -1,0 +1,15 @@
+{
+  "generated_at_utc": "2026-09-08T16:54:05.234413+00:00",
+  "backend": "openai",
+  "model": "gpt-5.6-luna",
+  "endpoint": "https://api.openai.com/v1/chat/completions",
+  "model_units_pending_this_run": 1043,
+  "review_queue_rows": 10,
+  "usage": {
+    "api_requests": 105,
+    "prompt_tokens": 240911,
+    "completion_tokens": 102536,
+    "total_tokens": 343447
+  },
+  "limit": null
+}

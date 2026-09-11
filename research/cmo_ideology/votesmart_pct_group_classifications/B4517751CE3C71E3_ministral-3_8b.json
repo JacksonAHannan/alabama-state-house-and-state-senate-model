@@ -1,0 +1,11 @@
+{
+  "policy_key": "sanctions_zimbabwe_human_rights",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Use of sanctions to pressure Zimbabwe's government on human rights violations.",
+  "evidence_quote": "Should the United States use sanctions to encourage the government of Zimbabwe to end its human rights abuses?",
+  "needs_human_review": true,
+  "review_reason": "The option is a direct question without explicit policy framing, and its conservative/progressive implications depend on broader assumptions about sanctions effectiveness, collateral harm, or diplomatic alternatives. Context (e.g., candidate\u2019s stance on multilateralism vs. unilateralism) would be required for scoring."
+}

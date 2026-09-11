@@ -1,0 +1,11 @@
+{
+  "policy_key": "us_ground_troops_kosovo",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option asks about maintaining US ground troops in Kosovo. This is a procedural or administrative question regarding military deployment rather than an ideological stance on international aid or trade principles.",
+  "evidence_quote": "6) Should the US maintain ground troops in Kosovo?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

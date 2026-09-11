@@ -1,0 +1,11 @@
+{
+  "policy_key": "crime_community_policing_funding",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increasing funding for community policing programs is generally considered a progressive policy option as it emphasizes collaboration between law enforcement and communities to address root causes of crime rather than solely relying on punitive measures.",
+  "evidence_quote": "Increase funding for community policing programs.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

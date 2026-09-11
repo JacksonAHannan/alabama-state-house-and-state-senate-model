@@ -1,0 +1,10 @@
+{
+  "id": "A2F5EEE2756BF774",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "A code-adoption and correction measure that is technical and administrative, with no concrete policy change on the allowed criminal-justice axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

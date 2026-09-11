@@ -1,0 +1,10 @@
+{
+  "id": "A64347942BF407A3",
+  "decision": "map",
+  "primitive_axis": "police_authority",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Authorizes county regulation of conduct and enforcement through criminal penalties, expanding local police and enforcement authority.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

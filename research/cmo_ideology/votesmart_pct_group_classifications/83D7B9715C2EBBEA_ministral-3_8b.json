@@ -1,0 +1,11 @@
+{
+  "policy_key": "infrastructure_jobs",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increased public spending on infrastructure to stimulate employment.",
+  "evidence_quote": "*[Verbatim text from the questionnaire option would go here\u2014e.g.,] 'Yes, I support allocating federal funds for roads, bridges, and utilities to create jobs and modernize Alabama\u2019s economy.'*",
+  "needs_human_review": false,
+  "review_reason": ""
+}

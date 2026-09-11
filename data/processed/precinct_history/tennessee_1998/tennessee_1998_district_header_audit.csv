@@ -1,0 +1,118 @@
+report,source_page,header_index,assigned_district,ocr_district,ocr_header,sequence_override
+house,1,1,1,1.0,DISTRICT 1,False
+house,1,2,2,2.0,DISTRICT 2,False
+house,2,3,3,3.0,DISTRICT 3,False
+house,2,4,4,4.0,DISTRICT 4,False
+house,3,5,5,5.0,DISTRICT 5,False
+house,4,6,6,,DISTRICT,True
+house,4,7,7,7.0,DISTRICT 7,False
+house,5,8,8,,DISTRICT,True
+house,5,9,9,,DISTRICT,True
+house,6,10,10,10.0,DISTRICT 10,False
+house,7,11,11,11.0,DISTRICT 1 1,False
+house,8,12,12,12.0,DISTRICT 12,False
+house,8,13,13,13.0,DISTRICT 13,False
+house,9,14,14,14.0,DISTRICT 1. 4,False
+house,9,15,15,15.0,DISTRICT 15,False
+house,10,16,16,16.0,DISTRICT 16,False
+house,10,17,17,17.0,DISTRICT 17,False
+house,11,18,18,18.0,DISTRICT 18,False
+house,11,19,19,19.0,DISTRICT 19,False
+house,11,20,20,20.0,DISTRICT 20,False
+house,12,21,21,21.0,DISTRICT 21,False
+house,13,22,22,22.0,DISTRICT 22,False
+house,14,23,23,23.0,DISTRICT 23,False
+house,14,24,24,24.0,DISTRICT 24,False
+house,15,25,25,25.0,DISTRICT 2 5,False
+house,16,26,26,26.0,DISTRICT 26,False
+house,16,27,27,27.0,DISTRICT 27,False
+house,17,28,28,28.0,DISTRICT 28,False
+house,17,29,29,29.0,DISTRICT 29,False
+house,18,30,30,,DISTRICT,True
+house,18,31,31,,DISTRICT.,True
+house,19,32,32,,DISTRICT. 32,True
+house,19,33,33,33.0,DISTRICT 33,False
+house,20,34,34,34.0,DISTRICT 34,False
+house,21,35,35,35.0,DISTRICT 35,False
+house,21,36,36,36.0,DISTRICT 36,False
+house,22,37,37,37.0,DISTRICT 37,False
+house,24,38,38,38.0,DISTRICT 38,False
+house,25,39,39,39.0,DISTRICT 39,False
+house,26,40,40,40.0,DISTRICT 40,False
+house,27,41,41,41.0,DISTRICT 41,False
+house,28,42,42,42.0,DISTRICT 42,False
+house,29,43,43,43.0,DISTRICT 43,False
+house,30,44,44,44.0,DISTRICT 4 4,False
+house,30,45,45,45.0,DISTRICT 45,False
+house,31,46,46,46.0,DISTRICT 46,False
+house,32,47,47,47.0,DISTRICT 4 7,False
+house,32,48,48,48.0,DISTRICT 48,False
+house,33,49,49,49.0,DISTRICT 49,False
+house,33,50,50,50.0,DISTRICT 50,False
+house,34,51,51,51.0,DISTRICT 51,False
+house,34,52,52,52.0,DISTRICT 52,False
+house,35,53,53,,DISTRICT. 53,True
+house,35,54,54,54.0,DISTRICT 54,False
+house,36,55,55,55.0,DISTRICT 55,False
+house,36,56,56,56.0,DISTRICT 56,False
+house,37,57,57,57.0,DISTRICT 57,False
+house,37,58,58,58.0,DISTRICT 58,False
+house,38,59,59,59.0,DISTRICT 59,False
+house,38,60,60,60.0,DISTRICT 60,False
+house,39,61,61,61.0,DISTRICT 61,False
+house,39,62,62,62.0,DISTRICT 62,False
+house,40,63,63,9.0,DISTRICT 9,True
+house,41,64,64,64.0,DISTRICT 64,False
+house,41,65,65,65.0,DISTRICT 65,False
+house,42,66,66,99.0,DISTRICT 99,True
+house,43,67,67,67.0,DISTRICT 67,False
+house,43,68,68,68.0,DISTRICT 68,False
+house,44,69,69,69.0,DISTRICT 69,False
+house,45,70,70,70.0,DISTRICT 70,False
+house,46,71,71,71.0,DISTRICT 71,False
+house,47,72,72,72.0,DISTRICT 72,False
+house,48,73,73,73.0,DISTRICT 73,False
+house,48,74,74,74.0,DISTRICT 74,False
+house,49,75,75,75.0,DISTRICT 75,False
+house,50,76,76,76.0,DISTRICT 76,False
+house,51,77,77,77.0,DISTRICT 77,False
+house,52,78,78,78.0,DISTRICT 78,False
+house,53,79,79,79.0,DISTRICT 79,False
+house,54,80,80,80.0,DISTRICT 80,False
+house,55,81,81,81.0,DISTRICT 81,False
+house,55,82,82,82.0,DISTRICT 82,False
+house,56,83,83,,DISTRICT,True
+house,57,84,84,84.0,DISTRICT 84,False
+house,57,85,85,85.0,DISTRICT 85,False
+house,58,86,86,86.0,DISTRICT 86,False
+house,58,87,87,87.0,DISTRICT 87,False
+house,59,88,88,88.0,DISTRICT 88,False
+house,59,89,89,89.0,DISTRICT 89,False
+house,60,90,90,90.0,DISTRICT 90,False
+house,60,91,91,91.0,DISTRICT 91,False
+house,61,92,92,92.0,DISTRICT 92,False
+house,61,93,93,93.0,DISTRICT 93,False
+house,62,94,94,94.0,DISTRICT 94,False
+house,62,95,95,95.0,DISTRICT 95,False
+house,63,96,96,96.0,DISTRICT 96,False
+house,63,97,97,97.0,DISTRICT 97,False
+house,64,98,98,98.0,DISTRICT 98,False
+house,64,99,99,99.0,DISTRICT 99,False
+senate,1,1,1,1.0,DISTRICT 1,False
+senate,2,2,3,3.0,DISTRICT 3,False
+senate,4,3,5,5.0,DISTRICT 5,False
+senate,5,4,7,7.0,DISTRICT 7,False
+senate,6,5,8,,DISTRICT,True
+senate,7,6,9,6.0,DISTRICT 6,True
+senate,9,7,11,11.0,DISTRICT 11,False
+senate,10,8,13,13.0,DISTRICT 1.3,False
+senate,13,9,15,15.0,DISTRICT 15,False
+senate,16,10,17,17.0,DISTRICT 17,False
+senate,18,11,19,19.0,DISTRICT 19,False
+senate,19,12,21,21.0,DISTRICT 21,False
+senate,20,13,23,23.0,DISTRICT 23,False
+senate,21,14,25,25.0,DISTRICT 25,False
+senate,24,15,27,27.0,DISTRICT 27,False
+senate,26,16,29,29.0,DISTRICT 29,False
+senate,27,17,31,31.0,DISTRICT 31,False
+senate,28,18,33,33.0,DISTRICT 33,False

@@ -1,0 +1,11 @@
+{
+  "policy_key": "health_tax_credits",
+  "dimension": "healthcare_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Provide financial incentives (tax credits) to lower the cost of health insurance for individuals and small businesses.",
+  "evidence_quote": "Offer tax credits to individuals and small businesses to offset the cost of insurance coverage.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

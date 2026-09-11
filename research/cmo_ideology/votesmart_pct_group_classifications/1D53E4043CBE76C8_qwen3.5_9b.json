@@ -1,0 +1,11 @@
+{
+  "policy_key": "international_trade_ig_o",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The question asks about support for US involvement in intergovernmental trade organizations. This is a procedural or administrative inquiry rather than an ideological stance on free markets vs protectionism.",
+  "evidence_quote": "Do you support the United States involvement in intergovernmental organizations dedicated to trade?",
+  "needs_human_review": true,
+  "review_reason": "The question itself does not contain policy content; it is a neutral inquiry about candidate preference for international engagement."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_tax_low_income_exemption",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "This option proposes exempting low-income families (under $25k) from income taxes. While tax relief for the poor is often progressive in intent, this specific phrasing appears to be a procedural selection within a questionnaire rather than a standalone ideological platform point.",
+  "evidence_quote": "b) Family income less than $25,000",
+  "needs_human_review": false,
+  "review_reason": ""
+}

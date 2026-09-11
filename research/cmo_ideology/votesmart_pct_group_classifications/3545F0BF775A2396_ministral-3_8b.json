@@ -1,0 +1,11 @@
+{
+  "policy_key": "trade_human_rights_link",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Whether a country's trade privileges should be tied to its human rights record.",
+  "evidence_quote": "Should a nation's human rights record affect its normal trade relations (most favored nation) status with the United States?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

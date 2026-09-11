@@ -1,5 +1,7 @@
 # 2026 prospective CMO readiness
 
+> **Documentation status — 2026-09-05:** Superseded readiness snapshot. Roster counts, finance requirements and model decisions below belong to the earlier release described here. They do not define current readiness. Use [current product routes](../CANONICAL_PIPELINES.md) and the linked current forecast contract and validation record.
+
 > **August 15 methodology revision:** The release-candidate forecast is now
 > baseline-first. The selected headline margin is the poll-adjusted direct
 > presidential baseline because every fitted residual layer failed the declared

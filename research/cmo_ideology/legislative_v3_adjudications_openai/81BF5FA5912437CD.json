@@ -1,0 +1,10 @@
+{
+  "id": "81BF5FA5912437CD",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Creates and governs a Medicaid reserve fund, an administrative and fiscal measure that does not clearly establish an allowed healthcare policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

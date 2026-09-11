@@ -1,0 +1,10 @@
+{
+  "id": "175BBB723E50BFA8",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "This is a **technical/definitional** measure (authorizing Medicaid delivery structures) with no clear policy pole on allowed axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

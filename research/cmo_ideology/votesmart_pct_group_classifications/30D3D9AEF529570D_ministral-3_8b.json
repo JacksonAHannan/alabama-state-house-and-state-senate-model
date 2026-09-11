@@ -1,0 +1,11 @@
+{
+  "policy_key": "afghanistan_financial_support",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "This option is explicitly progressive on international aid, but lacks clear conservative counterpoints in the provided text.",
+  "evidence_quote": "(No explicit quote provided; this is a standalone question without candidate response. If a candidate selected 'd' and added text, it would be needed for scoring.)",
+  "needs_human_review": true,
+  "review_reason": "The option itself is a policy proposal (increase aid), but no candidate's specific wording or context is provided to assign a definitive +1/-1 score."
+}

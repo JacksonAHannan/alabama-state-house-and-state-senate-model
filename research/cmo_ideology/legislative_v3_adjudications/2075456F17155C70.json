@@ -1,0 +1,10 @@
+{
+  "id": "2075456F17155C70",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Authorizes security personnel in Birmingham schools to carry firearms under certain conditions, expanding firearm access.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

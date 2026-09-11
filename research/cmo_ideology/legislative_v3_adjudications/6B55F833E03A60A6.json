@@ -1,0 +1,10 @@
+{
+  "id": "6B55F833E03A60A6",
+  "decision": "map",
+  "primitive_axis": "healthcare_access",
+  "policy_pole": "restrict",
+  "confidence": "high",
+  "rationale": "Prohibiting mandatory participation in any healthcare system explicitly restricts access to regulated or publicly supported healthcare options.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

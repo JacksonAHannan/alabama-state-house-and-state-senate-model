@@ -1,0 +1,10 @@
+{
+  "id": "DDEEE2D7CD6BBFF1",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The referral and scope-of-practice changes are technical healthcare-delivery provisions, and the description does not establish a clear allowed policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

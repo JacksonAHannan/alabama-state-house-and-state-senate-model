@@ -1,0 +1,10 @@
+{
+  "id": "6147D968B2D5B28C",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The measure increases criminal penalties for assaults involving healthcare workers, but none of the permitted healthcare axes captures that criminal-justice policy.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

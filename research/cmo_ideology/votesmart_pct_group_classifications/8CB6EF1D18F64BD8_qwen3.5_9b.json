@@ -1,0 +1,11 @@
+{
+  "policy_key": "federalism_law_enforcement",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "This option asks the respondent to choose between state and federal levels for law enforcement responsibility without specifying a particular stance.",
+  "evidence_quote": "Indicate which level of government should have primary responsibility for the following services. Select one level only.\nOption: 6) Law enforcement",
+  "needs_human_review": false,
+  "review_reason": ""
+}

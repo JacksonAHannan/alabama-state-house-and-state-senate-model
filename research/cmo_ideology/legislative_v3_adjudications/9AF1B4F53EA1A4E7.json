@@ -1,0 +1,10 @@
+{
+  "id": "9AF1B4F53EA1A4E7",
+  "decision": "map",
+  "primitive_axis": "due_process",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "The bill eliminates the requirement to pay all fines, court costs, and fees as a condition for voting rights restoration, strengthening due process protections.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

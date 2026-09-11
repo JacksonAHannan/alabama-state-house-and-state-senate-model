@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "expansion",
+  "plain_english_policy": "Supports expanding access to childcare through employer incentives.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "childcare_delivery",
+      "pole": "employer_incentive",
+      "strength": "secondary",
+      "rationale": "The policy option suggests supporting the use of an independent and/or bipartisan commission for redistricting. However, this does not directly relate to childcare delivery mechanisms."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "This question is about campaign finance reform, which falls under welfare policy domain (specifically expansion of access and opportunity). The option suggests supporting the use of an independent or bipartisan commission for redistricting as part of government reform."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Supports expanding access to childcare through employer incentives.\" - [Source]",
+  "needs_human_review": false,
+  "review_reason": ""
+}

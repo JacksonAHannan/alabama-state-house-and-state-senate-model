@@ -1,0 +1,18 @@
+{
+  "primary_domain": "criminal_justice",
+  "policy_key": "family_support_enforcement",
+  "plain_english_policy": "strict_enforcement",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "The policy mechanism is a restriction on the discretion of judges to decide whether or not to prosecute minors as adults."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "This option would allow for more severe penalties for juveniles accused of violent crimes. This could lead to harsher punishments and a greater likelihood of incarceration, which may be seen as a deterrent to juvenile crime.",
+  "needs_human_review": false,
+  "review_reason": "The policy mechanism is a restriction on the discretion of judges to decide whether or not to prosecute minors as adults. This option would allow for more severe penalties for juveniles accused of violent crimes. This could lead to harsher punishments and a greater likelihood of incarceration, which may be seen as a deterrent to juvenile crime."
+}

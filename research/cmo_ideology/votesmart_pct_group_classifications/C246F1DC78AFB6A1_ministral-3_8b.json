@@ -1,0 +1,11 @@
+{
+  "policy_key": "line_item_veto_for_appropriations",
+  "dimension": "government_reform_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Allowing the President to veto specific spending items in appropriations bills without rejecting the entire bill.",
+  "evidence_quote": "Support giving the President the power of the line item veto for items concerning appropriations.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

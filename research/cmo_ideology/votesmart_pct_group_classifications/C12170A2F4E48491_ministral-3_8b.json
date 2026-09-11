@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_education_standards",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting federal education standards for states implies a move toward centralized control over curriculum, which is typically associated with progressive policy goals (e.g., equity-focused national benchmarks). Conservative positions often favor local/state autonomy in education.",
+  "evidence_quote": "*[No direct quote provided in the option text\u2014this is a general question format.]*",
+  "needs_human_review": true,
+  "review_reason": "The option lacks explicit candidate language; requires cross-referencing with their full questionnaire or campaign materials for context."
+}

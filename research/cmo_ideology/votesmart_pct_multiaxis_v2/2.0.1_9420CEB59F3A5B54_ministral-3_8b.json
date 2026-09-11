@@ -1,0 +1,30 @@
+{
+  "primary_domain": "childcare",
+  "policy_key": "childcare_delivery",
+  "plain_english_policy": "Tax incentives for employers to offer childcare services",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "childcare_delivery",
+      "pole": "employer_incentive",
+      "strength": "primary",
+      "rationale": "The option explicitly proposes tax credits for businesses providing childcare, which aligns with employer incentives rather than public provision or subsidies."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "private_provision",
+      "strength": "secondary",
+      "rationale": "Tax credits shift responsibility to private employers rather than direct government involvement in childcare delivery."
+    },
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "Tax credits for businesses may disproportionately benefit larger or wealthier employers, though this depends on implementation specifics not stated here."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Provide tax credits for businesses that provide child care\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

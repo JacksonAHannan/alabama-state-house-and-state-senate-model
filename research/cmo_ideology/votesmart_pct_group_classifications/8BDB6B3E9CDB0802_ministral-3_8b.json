@@ -1,0 +1,11 @@
+{
+  "policy_key": "income_tax_bracket_cap",
+  "dimension": "indeterminate",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Capping the highest income tax bracket at $75,000\u2013$150,000 (likely a progressive tax structure but lacks explicit left/right framing).",
+  "evidence_quote": "**c) $75,000 \u2013 $150,000** [no additional context provided in the snippet]",
+  "needs_human_review": true,
+  "review_reason": "The option is a bracket threshold without explicit policy intent (progressive? regressive? procedural?)."
+}

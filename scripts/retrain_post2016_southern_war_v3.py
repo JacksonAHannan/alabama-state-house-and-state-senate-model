@@ -20,6 +20,7 @@ import pandas as pd
 
 import retrain_post2016_southern_war as v1
 import retrain_post2016_southern_war_v2 as v2
+from southern_war_training_frame import training_frame_digest
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -34,7 +35,11 @@ RACE_KEYS = ["state_code", "cycle", "chamber", "district"]
 
 
 def sha256(path: Path) -> str:
-    return hashlib.sha256(path.read_bytes()).hexdigest()
+    digest = hashlib.sha256()
+    with path.open("rb") as stream:
+        for block in iter(lambda: stream.read(1024 * 1024), b""):
+            digest.update(block)
+    return digest.hexdigest()
 
 
 def git_commit() -> str:
@@ -308,6 +313,7 @@ def write_reports(
 
 def main() -> None:
     raw, warehouse_run = v2.load_training()
+    training_frame_sha256 = training_frame_digest(raw)
     races = v2.add_finance_features(v2.attach_lag_context(raw))
     designs, forward_predictions, forward_metrics, specification, alpha, selection = (
         select_structural_model(races)
@@ -344,6 +350,7 @@ def main() -> None:
         "lag_diagnostics_by_cycle.csv": lag,
         "v2_correction_comparison.csv": comparison,
         "coverage.csv": coverage,
+        "training_frame.csv": raw.drop(columns=["build_run_id"]),
         **finance_outputs,
     }
     diagnostics = {
@@ -365,14 +372,23 @@ def main() -> None:
             - candidates.canonical_party.map({"D": 1.0, "R": -1.0}) * candidates.war
         ))),
     }
+    # The warehouse file is not declared by byte hash: the run consumes one query
+    # over the training mart, declared below by content digest and warehouse run.
     input_paths = [
-        v2.DATABASE, v2.PROBABILITY_CONTEXT, v2.ALABAMA_CONTEXT_2018,
+        v2.PROBABILITY_CONTEXT, v2.ALABAMA_CONTEXT_2018,
         v2.ALABAMA_CONTEXT_2022, V2_OUT / "manifest.json", FIELD_CONTRACT,
     ]
-    code_paths = [Path(__file__).resolve(), Path(v2.__file__).resolve(), Path(v1.__file__).resolve()]
+    code_paths = [Path(__file__).resolve(), Path(v2.__file__).resolve(), Path(v1.__file__).resolve(),
+                  Path(__file__).with_name("southern_war_training_frame.py")]
     run_basis = {
         "methodology_version": "post2016_southern_war_v3_residual",
         "warehouse_build_run_id": raw.build_run_id.iloc[0],
+        "training_frame": {
+            "sha256": training_frame_sha256,
+            "source": "mart_southern_war_training_with_finance WHERE cycle > 2016 AND training_status = strict_war_ready_no_finance",
+            "loader": "scripts/southern_war_training_frame.py",
+            "rows": int(len(raw)),
+        },
         "input_hashes": {
             str(path.relative_to(ROOT)).replace("\\", "/"): sha256(path) for path in input_paths
         },

@@ -1,0 +1,11 @@
+{
+  "policy_key": "interstate_health_compacts",
+  "dimension": "healthcare_position",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Agreements between states to allow health insurance plans to operate across state lines.",
+  "evidence_quote": "(No clear ideological leaning in the provided option; compacts can be framed as either administrative efficiency or a means of expanding/limiting market-based healthcare solutions.)",
+  "needs_human_review": true,
+  "review_reason": "Position lacks explicit left-right framing; context-dependent."
+}

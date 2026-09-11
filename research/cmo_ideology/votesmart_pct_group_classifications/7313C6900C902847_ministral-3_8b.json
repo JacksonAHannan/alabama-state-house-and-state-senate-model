@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_power_infrastructure_funding",
+  "dimension": "environment_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase funding for Alabama's power generation and transmission upgrades.",
+  "evidence_quote": "Increase funding for improvements to Alabama's power generating and transmission facilities.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

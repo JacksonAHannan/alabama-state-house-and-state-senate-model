@@ -1,0 +1,10 @@
+{
+  "id": "58BC9CF48F17B501",
+  "decision": "map",
+  "primitive_axis": "market_governance",
+  "policy_pole": "intervention",
+  "confidence": "high",
+  "rationale": "The bill provides targeted economic incentives (loans, tax breaks) and state intervention in job creation through the Alabama Jobs Act, clearly an example of market governance intervention.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

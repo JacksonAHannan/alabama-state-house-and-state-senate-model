@@ -1,0 +1,10 @@
+{
+  "id": "64E28B23156C208C",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Codification and correction of enacted laws is technical and does not establish a concrete permitted criminal-justice position.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

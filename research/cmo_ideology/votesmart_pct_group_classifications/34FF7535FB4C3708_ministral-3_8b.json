@@ -1,0 +1,11 @@
+{
+  "policy_key": "abortion_other_expanded_principles",
+  "dimension": "abortion_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supports abortion rights beyond traditional liberal frameworks (e.g., no restrictions, late-term access, or global reproductive healthcare).",
+  "evidence_quote": "*[No direct quote provided in the option text\u2014this is a placeholder for the candidate\u2019s written response under 'h) Other or expanded principles.'*",
+  "needs_human_review": true,
+  "review_reason": "The actual scoring depends on the specific content of the candidate's expanded/other principles (e.g., pro-choice absolutism vs. nuanced but progressive reforms)."
+}

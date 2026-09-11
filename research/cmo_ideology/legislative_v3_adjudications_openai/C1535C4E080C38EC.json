@@ -1,0 +1,10 @@
+{
+  "id": "C1535C4E080C38EC",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The description says only that parole criteria are revised and does not specify whether the change favors release or continued punishment.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

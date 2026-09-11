@@ -1,0 +1,11 @@
+{
+  "policy_key": "spending_excise_taxes_cigarettes",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Supports excise taxes on cigarettes.",
+  "evidence_quote": "Excise taxes (cigarette)",
+  "needs_human_review": true,
+  "review_reason": "The option is a single line item within a multi-scale spending/taxes questionnaire; without the selected scale value (#1-6), ideological direction cannot be determined."
+}

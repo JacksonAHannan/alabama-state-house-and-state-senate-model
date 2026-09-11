@@ -1,0 +1,10 @@
+{
+  "id": "2B984F3B3F91BFD0",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Open-meetings transparency and serial-meeting rules do not fit any allowed ethics axis.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

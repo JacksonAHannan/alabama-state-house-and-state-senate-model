@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_gun_concealed_carry",
+  "dimension": "guns_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Allowing law-abiding citizens to carry concealed firearms is a policy option that aligns with progressive stances on gun control and public safety.",
+  "evidence_quote": "f) Allow law-abiding citizens to carry concealed firearms that are legally owned and registered.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

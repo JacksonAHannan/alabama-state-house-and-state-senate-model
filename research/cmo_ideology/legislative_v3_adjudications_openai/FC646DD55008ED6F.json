@@ -1,0 +1,10 @@
+{
+  "id": "FC646DD55008ED6F",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns restoration of voting rights and eligibility procedures, an issue not represented by the allowed criminal-justice axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

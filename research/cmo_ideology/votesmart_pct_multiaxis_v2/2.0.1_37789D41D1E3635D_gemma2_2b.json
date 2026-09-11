@@ -1,0 +1,18 @@
+{
+  "primary_domain": "business",
+  "policy_key": "market_governance",
+  "plain_english_policy": "restriction",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "The candidate's position on campaign finance limits is a matter of public policy and should be addressed by the government."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "Political Action Committees (PACs) are often used to raise large sums of money for candidates. Limits on PAC contributions could help reduce the influence of wealthy donors and special interests in state politics.",
+  "needs_human_review": false,
+  "review_reason": "The candidate's position on campaign finance limits is a matter of public policy and should be addressed by the government."
+}

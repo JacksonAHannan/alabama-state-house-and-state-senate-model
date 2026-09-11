@@ -1,0 +1,11 @@
+{
+  "policy_key": "prescription_drug_costs",
+  "dimension": "healthcare_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Lowering the cost of prescription drugs (e.g., via price controls, importation, or Medicare negotiation).",
+  "evidence_quote": "*[Verbatim placeholder\u2014no specific quote provided in your input. If this option were from a real questionnaire, it would typically include text like:] 'Yes, I support allowing Medicare to negotiate drug prices with pharmaceutical companies.'*",
+  "needs_human_review": true,
+  "review_reason": "No explicit candidate wording provided; inferred intent based on policy content."
+}

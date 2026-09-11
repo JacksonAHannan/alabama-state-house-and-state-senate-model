@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "tax_distribution",
+  "plain_english_policy": "State Taxes",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "market_autonomy",
+      "strength": "primary",
+      "rationale": "This option focuses on emergency preparedness, which may involve market autonomy in terms of resource allocation and decision-making during crises. However, this is not a direct policy mechanism stated here."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "",
+  "needs_human_review": true,
+  "review_reason": "This option is about emergency preparedness and does not directly address state budget categories or tax levels in a way that clearly falls under one of the primary domains.; invalid pole 'tax_distribution' for welfare_policy; invalid pole 'tax_distribution' for welfare_policy"
+}

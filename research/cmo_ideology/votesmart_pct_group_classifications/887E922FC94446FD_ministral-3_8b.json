@@ -1,0 +1,11 @@
+{
+  "policy_key": "social_security_cap_income_tax",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Raise the income cap on Social Security payroll taxes (currently $68,400) to include higher earnings.",
+  "evidence_quote": "Require individuals to pay the Social Security tax on incomes above $68,400 (which is currently exempt).",
+  "needs_human_review": false,
+  "review_reason": ""
+}

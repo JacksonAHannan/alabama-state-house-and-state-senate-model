@@ -1,0 +1,11 @@
+{
+  "policy_key": "internet_sales_tax_moratorium",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Opposition to taxing online sales, which is often framed as a pro-business stance favoring lower costs for consumers and businesses.",
+  "evidence_quote": "Continuing the moratorium on Internet sales taxes.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

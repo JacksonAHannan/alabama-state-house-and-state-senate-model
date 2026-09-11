@@ -1,0 +1,10 @@
+{
+  "id": "BB3A1A22C116B0EB",
+  "decision": "map",
+  "primitive_axis": "education_curriculum_traditionalism",
+  "policy_pole": "traditional",
+  "confidence": "high",
+  "rationale": "The bill explicitly authorizes public schools to hire or accept campus chaplains as volunteers, which aligns with a traditional curriculum emphasis by promoting religious or faith-based presence in public education. The requirement for local boards to vote on such measures further suggests an intent to institutionalize traditional values.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

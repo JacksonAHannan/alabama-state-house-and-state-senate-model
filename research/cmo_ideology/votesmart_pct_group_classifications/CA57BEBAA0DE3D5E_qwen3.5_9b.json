@@ -1,0 +1,11 @@
+{
+  "policy_key": "end_iraq_embargo",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Ending economic embargoes is generally a procedural or administrative action rather than an inherently conservative or progressive stance.",
+  "evidence_quote": "d) The U.S. should end the economic embargo against Iraq.",
+  "needs_human_review": true,
+  "review_reason": "The option represents a specific policy reversal (ending an embargo). While ending embargoes can be seen as progressive by some and conservative by others depending on context (e.g., national security vs. humanitarian aid), the core action is administrative/procedural without a stable ideological direction in this isolated statement."
+}

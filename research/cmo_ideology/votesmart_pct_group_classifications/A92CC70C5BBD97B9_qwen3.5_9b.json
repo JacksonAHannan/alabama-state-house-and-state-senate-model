@@ -1,0 +1,11 @@
+{
+  "policy_key": "welfare_block_grant_return",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option calls for returning unused federal welfare funds to the central government rather than allowing states or localities to retain them.",
+  "evidence_quote": "Require states to return any unused welfare block grant funding to the federal government.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

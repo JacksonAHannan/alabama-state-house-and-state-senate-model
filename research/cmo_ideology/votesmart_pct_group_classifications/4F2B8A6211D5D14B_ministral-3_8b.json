@@ -1,0 +1,11 @@
+{
+  "policy_key": "us_security_interests_aid",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Aid is justified only if it directly serves U.S. national security goals.",
+  "evidence_quote": "Aid should be granted to countries when it is in the **security interests of the United States**.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

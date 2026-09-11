@@ -1,0 +1,24 @@
+{
+  "primary_domain": "education",
+  "policy_key": "education_governance",
+  "plain_english_policy": "support a constitutional amendment for community control of local school funding and standards",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "local communities have more direct influence over education which can lead to better tailored educational policies and outcomes."
+    },
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "A constitutional amendment may require intervention in the market by altering existing governance structures, potentially leading to a shift from market-driven decisions to more community-led ones."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Support a constitutional amendment giving communities control over local school funding and standards.\" - Question on educational issues for Alabama candidate questionnaire in 2002.",
+  "needs_human_review": true,
+  "review_reason": ""
+}

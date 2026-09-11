@@ -1,0 +1,10 @@
+{
+  "id": "F1C14D92FD068CC2",
+  "decision": "map",
+  "primitive_axis": "campaign_finance_disclosure",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Requires lobbyists to disclose principals who stand to benefit from their activities.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

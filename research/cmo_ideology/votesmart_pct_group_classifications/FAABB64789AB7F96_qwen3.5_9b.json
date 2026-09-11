@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_income_tax_bracket",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option specifies a family income range for tax consideration without stating the proposed change (increase or decrease) to tax levels.",
+  "evidence_quote": "d) Family income $75-150,000",
+  "needs_human_review": false,
+  "review_reason": ""
+}

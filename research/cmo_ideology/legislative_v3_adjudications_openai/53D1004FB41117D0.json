@@ -1,0 +1,10 @@
+{
+  "id": "53D1004FB41117D0",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Licensing and recordkeeping requirements for precious-metal businesses, with incidental criminal penalties, do not provide issue-specific criminal-justice evidence.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

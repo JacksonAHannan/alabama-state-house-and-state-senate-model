@@ -1,0 +1,11 @@
+{
+  "policy_key": "us_china_diplomatic_relations",
+  "dimension": "indeterminate",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "This option does not explicitly state a clear left/right stance on U.S.-China relations. It is procedural (asking whether full diplomatic relations *should* exist) rather than prescriptive about policy principles or ideological priorities.",
+  "evidence_quote": "*Should the U.S. have full diplomatic relations with China?*",
+  "needs_human_review": true,
+  "review_reason": "The phrasing is neutral and does not align with a stable conservative/progressive framing (e.g., it could be interpreted as either pro-engagement or anti-interventionist depending on context)."
+}

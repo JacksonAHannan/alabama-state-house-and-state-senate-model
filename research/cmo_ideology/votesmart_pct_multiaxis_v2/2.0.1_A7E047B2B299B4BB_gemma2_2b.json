@@ -1,0 +1,18 @@
+{
+  "primary_domain": "immigration",
+  "policy_key": "immigration_access",
+  "plain_english_policy": "support for enforcing federal immigration laws by state and local police",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "immigration_access",
+      "pole": "expand",
+      "strength": "secondary",
+      "rationale": "support for enforcing federal immigration laws by state and local police"
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Do you support the enforcement of federal immigration laws by state and local police?",
+  "needs_human_review": false,
+  "review_reason": "This question asks for a stance on enforcing federal immigration laws by state and local police. This is a policy that impacts immigration access."
+}

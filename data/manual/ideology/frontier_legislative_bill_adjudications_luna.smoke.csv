@@ -1,0 +1,11 @@
+bill_id,session_year,bill_number,reviewed_document_type,decision,primitive_axes,policy_poles,confidence,rationale,reviewer,review_date,supersedes_authority
+1003366,2017,SB345,official_synopsis,procedural,,,medium,The measure authorizes county agricultural authorities and sets their powers and loan authority without a clear statewide ideological policy direction.,gpt-5.6-luna,2026-09-08,frontier_manual_review
+1003369,2017,HB458,official_synopsis,local_non_generalizable,,,high,The bill concerns compensation for court reporters in Blount County’s Forty-first Judicial Circuit.,gpt-5.6-luna,2026-09-08,frontier_manual_review
+1003372,2017,SB342,official_synopsis,procedural,,,medium,The measure establishes legal procedures and conditions for cultural institutions to claim abandoned property.,gpt-5.6-luna,2026-09-08,frontier_manual_review
+1003375,2017,HB447,official_synopsis,local_non_generalizable,,,high,The bill changes sales-tax distribution specifically for Randolph County.,gpt-5.6-luna,2026-09-08,frontier_manual_review
+1003376,2017,HB440,official_synopsis,map,market_governance,intervention,high,"The bill requires state regulation and licensing of youth residential facilities, including private faith-based providers.",gpt-5.6-luna,2026-09-08,frontier_manual_review
+1003379,2017,HB461,official_synopsis,local_non_generalizable,,,high,The measure alters the corporate limits of Gulf Shores.,gpt-5.6-luna,2026-09-08,frontier_manual_review
+1003384,2017,HB451,official_synopsis,local_non_generalizable,,,high,The bill concerns court costs and shelter funding specifically in Jackson County.,gpt-5.6-luna,2026-09-08,frontier_manual_review
+1003385,2017,SB354,official_synopsis,multi_axis,public_employee_compensation;labor_rights,reduce;restrict,medium,Removing paid administrative leave and discipline requirements for school employees charged with specified crimes reduces employment protections and related compensation.,gpt-5.6-luna,2026-09-08,frontier_manual_review
+1003389,2017,HB449,official_synopsis,local_non_generalizable,,,high,The measure alters the corporate limits of Phenix City.,gpt-5.6-luna,2026-09-08,frontier_manual_review
+1003392,2017,SB350,official_synopsis,local_non_generalizable,,,high,The measure alters the corporate limits of Epes.,gpt-5.6-luna,2026-09-08,frontier_manual_review

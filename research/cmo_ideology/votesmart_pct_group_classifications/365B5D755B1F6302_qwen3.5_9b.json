@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_crime_youth_adult_prosecution",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting the prosecution of youths accused of murder as adults is conventionally associated with progressive penal reform movements that emphasize rehabilitation over punitive adult sentencing for minors.",
+  "evidence_quote": "Prosecute youths accused of murder as adults.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

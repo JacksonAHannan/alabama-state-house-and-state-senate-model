@@ -1,0 +1,11 @@
+{
+  "policy_key": "ban_handguns_except_law_enforcement",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option calls for a complete ban on private handgun ownership while allowing law enforcement to possess them.",
+  "evidence_quote": "Ban the sale, ownership or possession of handguns except by law enforcement and other government officials.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

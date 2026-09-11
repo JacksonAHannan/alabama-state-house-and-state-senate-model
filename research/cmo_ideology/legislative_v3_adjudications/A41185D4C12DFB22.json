@@ -1,0 +1,10 @@
+{
+  "id": "A41185D4C12DFB22",
+  "decision": "map",
+  "primitive_axis": "incarceration",
+  "policy_pole": "reduce",
+  "confidence": "high",
+  "rationale": "Extending the time frame for parole court hearings likely reduces incarceration by facilitating earlier review of inmate eligibility for release, aligning with a rehabilitative approach.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

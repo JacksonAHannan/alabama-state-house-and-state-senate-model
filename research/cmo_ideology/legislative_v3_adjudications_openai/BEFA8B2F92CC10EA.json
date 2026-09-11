@@ -1,0 +1,10 @@
+{
+  "id": "BEFA8B2F92CC10EA",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "Authorizes redispensing unused prescription medication within the Corrections Department, but the measure is administrative and does not clearly establish an allowed criminal-justice policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

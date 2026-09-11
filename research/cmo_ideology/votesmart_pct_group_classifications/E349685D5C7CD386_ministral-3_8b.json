@@ -1,0 +1,11 @@
+{
+  "policy_key": "soft_money_campaign_ads",
+  "dimension": "government_reform_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Allowing unlimited corporate/non-federal funds to directly fund attack ads for federal candidates.",
+  "evidence_quote": "Allow ads paid for by soft money that support or attack a candidate for federal office.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

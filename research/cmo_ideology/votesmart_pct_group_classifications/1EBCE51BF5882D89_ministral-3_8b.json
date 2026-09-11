@@ -1,0 +1,11 @@
+{
+  "policy_key": "legislative_priorities_2026",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "medium",
+  "plain_english_policy": "Focus on expanding pre-kindergarten access and vocational training programs, funded by reallocating state budget from non-essential administrative costs.",
+  "evidence_quote": "My top priorities will be **universal pre-K for all four-year-olds**\u2014backed by redirecting funds from bloated bureaucratic overhead\u2014and **expanding workforce development partnerships with community colleges**, ensuring no student graduates with debt for critical trade skills. We\u2019ll also push for a 10% corporate tax on untaxed digital revenue to fund these programs without raising personal income taxes.",
+  "needs_human_review": true,
+  "review_reason": "The option combines progressive education goals (pre-K, debt-free vocational training) with a mixed funding mechanism (redirected overhead + new corporate tax). The tax proposal leans progressive but may lack stable left/right alignment due to procedural reallocation."
+}

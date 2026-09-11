@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "welfare_policy",
+  "plain_english_policy": "support_increased_spending_on_infrastructure_projects_for_job_creation",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "The policy involves increased spending on infrastructure projects, which is typically associated with expanding welfare policies to support job creation."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I believe that investing in infrastructure can create jobs and stimulate economic growth.\" - Candidate's statement during the 2010 campaign.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

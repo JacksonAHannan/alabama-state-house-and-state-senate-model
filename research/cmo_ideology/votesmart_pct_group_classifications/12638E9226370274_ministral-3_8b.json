@@ -1,0 +1,11 @@
+{
+  "policy_key": "income_tax_bracket",
+  "dimension": "indeterminate",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The candidate's position on income tax brackets is ambiguous because the option provided ($25,000\u2013$75,000) is a *bracket range* (not a specific tax rate or policy stance). It could imply support for progressive taxation (if paired with lower rates below $25K and higher above $75K), but without additional context (e.g., proposed rates or comparisons to existing brackets), it lacks clear conservative/progressive direction.",
+  "evidence_quote": "*$25,000\u2013$75,000*",
+  "needs_human_review": true,
+  "review_reason": "Insufficient standalone evidence for +1/-1 classification."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "EB5BB34443438DB7",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Temporary Medicaid nursing-facility surcharge is a financing and technical measure; the title does not establish a clear allowed policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

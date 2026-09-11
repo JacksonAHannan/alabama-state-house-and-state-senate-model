@@ -105,6 +105,7 @@ def load() -> dict[str,int]:
               for name,frame in {**frames,"source_legiscan_member_vote":pd.DataFrame()}.items()}
     with closing(connect()) as connection:
         initialize(connection); connection.executescript(SCHEMA.read_text(encoding="utf-8"))
+        connection.executescript(SCHEMA.with_name("warehouse_legislative_quality.sql").read_text(encoding="utf-8"))
         archive_ids=archive_registry(connection)
         run_id=begin_run(connection,"legislative_source_and_identity",{"compatibility_files":FILES})
         connection.commit()

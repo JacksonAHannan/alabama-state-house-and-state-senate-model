@@ -1,0 +1,10 @@
+{
+  "id": "662502181E5EF5B9",
+  "decision": "map",
+  "primitive_axis": "police_authority",
+  "policy_pole": "restrict",
+  "confidence": "high",
+  "rationale": "Repealing criminal penalties for time-restricted animal sales reduces police authority to enforce arbitrary regulations.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

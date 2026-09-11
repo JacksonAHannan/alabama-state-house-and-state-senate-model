@@ -1,0 +1,11 @@
+{
+  "policy_key": "child_tax_credit",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Expansion of the federal Child Tax Credit (CTC) to provide direct cash assistance to families with children.",
+  "evidence_quote": "*[No explicit tax-level choice provided in this option; it only names a policy instrument.]*",
+  "needs_human_review": true,
+  "review_reason": "The option does not specify whether the candidate supports *raising*, *maintaining*, or *reducing* the CTC (or its parameters like eligibility/amount). It is purely procedural in naming a tool rather than a tax level."
+}

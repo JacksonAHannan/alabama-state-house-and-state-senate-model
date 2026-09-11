@@ -1,0 +1,10 @@
+{
+  "id": "B17094A31ACE3FAE",
+  "decision": "map",
+  "primitive_axis": "incarceration",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Prohibits early release of an adult criminal sex offender who lacks a compliant release address.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

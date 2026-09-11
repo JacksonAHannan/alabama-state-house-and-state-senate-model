@@ -1,0 +1,10 @@
+{
+  "id": "A3D9B35C9B11F539",
+  "decision": "map",
+  "primitive_axis": "due_process",
+  "policy_pole": "weaken",
+  "confidence": "high",
+  "rationale": "The Prisoner Litigation Reform Act requires administrative exhaustion of claims and imposes procedural barriers, directly weakening due process for prisoners.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

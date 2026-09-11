@@ -1,0 +1,11 @@
+{
+  "policy_key": "cost_benefit_analysis",
+  "dimension": "environment_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Evaluate environmental laws by weighing their economic costs against benefits (likely favoring market-driven or deregulatory approaches).",
+  "evidence_quote": "Utilize cost-benefit analysis to determine economic impacts of proposed environmental protection and cleanup legislation.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

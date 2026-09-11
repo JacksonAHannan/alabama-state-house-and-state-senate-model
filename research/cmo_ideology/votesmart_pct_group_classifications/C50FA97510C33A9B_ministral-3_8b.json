@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_indirect_contributions",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Regulating indirect campaign contributions (e.g., corporate/union spending, dark money) to limit outside influence on elections.",
+  "evidence_quote": "*'I support strict regulation of indirect campaign contributions from corporations, unions, and wealthy individuals to ensure fairer elections and reduce the undue influence of special interests.'*",
+  "needs_human_review": false,
+  "review_reason": ""
+}

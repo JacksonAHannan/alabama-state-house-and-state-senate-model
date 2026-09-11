@@ -1,0 +1,10 @@
+{
+  "id": "13CB2867CC02D3C1",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Restricts disclosure of pistol-permit records but does not clearly expand or restrict gun access or regulate gun purchasing.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

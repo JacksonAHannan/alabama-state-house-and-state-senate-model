@@ -1,0 +1,11 @@
+{
+  "policy_key": "free_trade_agreements",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "This option is a direct question about free trade agreements, which are typically associated with progressive economic policies (e.g., globalization, reduced tariffs) but can also be debated from conservative perspectives (e.g., pro-business, deregulation). Without explicit wording on the candidate's stance, this cannot be scored as +1 or -1. The phrasing is neutral and procedural.",
+  "evidence_quote": "Do you support the United States involvement in free trade agreements?",
+  "needs_human_review": true,
+  "review_reason": "The option lacks explicit ideological framing (e.g., 'reduce tariffs to boost exports' vs. 'oppose corporate influence')."
+}

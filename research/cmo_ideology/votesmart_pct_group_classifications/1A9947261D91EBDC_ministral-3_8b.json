@@ -1,0 +1,11 @@
+{
+  "policy_key": "voluntary_emission_targets",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Voluntary emission targets are non-binding commitments to reduce greenhouse gas emissions, often seen as less stringent than legally enforceable agreements. They typically align with progressive climate action goals but lack the coercive mechanisms of binding treaties (e.g., Paris Agreement).",
+  "evidence_quote": "Support international voluntary emission targets to limit global warming.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

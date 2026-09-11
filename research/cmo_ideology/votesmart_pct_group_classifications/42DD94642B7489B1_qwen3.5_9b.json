@@ -1,0 +1,11 @@
+{
+  "policy_key": "spending_taxes_small_business",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option text itself is a label for a spending/tax category rather than a substantive policy position; without the selected numeric level (#1-6), no ideological direction can be inferred.",
+  "evidence_quote": "c) Small business taxes",
+  "needs_human_review": false,
+  "review_reason": ""
+}

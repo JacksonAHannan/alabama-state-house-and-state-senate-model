@@ -1,0 +1,11 @@
+{
+  "policy_key": "covid_business_relief",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Providing financial aid to businesses/corporations hit by COVID-19 emergency measures.",
+  "evidence_quote": "*Do you support providing financial relief to businesses AND/OR corporations negatively impacted by the state of national emergency for COVID-19?*",
+  "needs_human_review": true,
+  "review_reason": "This option is procedurally neutral\u2014it does not inherently favor conservative (e.g., tax cuts, deregulation) or progressive (e.g., targeted aid, public investment) priorities. The answer would depend on the specifics of the relief package (e.g., size, conditions, sector focus)."
+}

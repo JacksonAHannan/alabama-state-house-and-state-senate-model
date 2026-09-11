@@ -1,0 +1,11 @@
+{
+  "policy_key": "confederate_monuments_alabama",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Position on removing Confederate monuments in Alabama public spaces.",
+  "evidence_quote": "(No explicit quote provided, but the question itself implies a progressive stance if answered affirmatively.)",
+  "needs_human_review": true,
+  "review_reason": "This is a binary yes/no question without candidate text. The scoring assumes that *supporting* removal aligns with conventional progressive values (e.g., racial justice, historical reckoning)."
+}

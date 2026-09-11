@@ -1,0 +1,10 @@
+{
+  "id": "2A82B265BE97856B",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Broadly revises the scrap-tire environmental regulatory program, including administration, funding, enforcement, and criminal penalties; it is omnibus and mixed-direction rather than a clear criminal-justice measure.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

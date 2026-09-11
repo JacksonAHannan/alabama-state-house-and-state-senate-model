@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_funding_universal_pre_k",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting federal funding for universal pre-K is conventionally a progressive policy position.",
+  "evidence_quote": "a) Support the federal government funding universal pre-K programs.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

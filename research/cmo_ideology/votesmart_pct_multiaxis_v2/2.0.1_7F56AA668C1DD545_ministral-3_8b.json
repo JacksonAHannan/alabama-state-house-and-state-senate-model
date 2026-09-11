@@ -1,0 +1,30 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "state_spending_levels",
+  "plain_english_policy": "Funding levels for law enforcement and corrections (1=eliminate funding, 6=significantly increase funding).",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Funding levels for law enforcement and corrections are explicitly tied to welfare policy, as these areas often involve social control and resource allocation that can impact vulnerable populations. A higher funding level (6) would imply more resources for punitive measures, which could be interpreted as a restriction on welfare by diverting funds away from direct social services."
+    },
+    {
+      "axis": "criminal_punishment",
+      "pole": "punitive",
+      "strength": "primary",
+      "rationale": "Law enforcement and corrections are directly tied to criminal punishment. Higher funding levels (e.g., 6) would likely correlate with increased resources for punitive measures, such as incarceration or law enforcement expansion."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "primary",
+      "rationale": "The question explicitly refers to *state* funding levels, indicating a preference for public provision of these services rather than private alternatives."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Law enforcement/corrections",
+  "needs_human_review": false,
+  "review_reason": ""
+}

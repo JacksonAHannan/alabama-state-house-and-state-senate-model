@@ -1,0 +1,11 @@
+{
+  "policy_key": "disaster_aid_conditional",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Aid only for humanitarian crises (e.g., natural disasters) rather than general development or strategic goals.",
+  "evidence_quote": "Aid should be granted to countries when extraordinary circumstances cause disaster and threaten civilian lives.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

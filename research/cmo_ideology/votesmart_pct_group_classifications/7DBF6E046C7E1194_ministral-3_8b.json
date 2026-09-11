@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_ethics_commission_subpoena_power",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Whether the Alabama Ethics Commission should have subpoena authority to enforce campaign finance and ethics laws.",
+  "evidence_quote": "Should the Alabama Ethics Commission have the power of subpoena?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

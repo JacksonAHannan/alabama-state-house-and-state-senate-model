@@ -1,0 +1,10 @@
+{
+  "id": "C0B51E4FFB13C111",
+  "decision": "map",
+  "primitive_axis": "healthcare_access",
+  "policy_pole": "expand",
+  "confidence": "medium",
+  "rationale": "Allows additional categories of public authorities and cooperatives to obtain State Employees' Insurance Board coverage, expanding access to health insurance.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

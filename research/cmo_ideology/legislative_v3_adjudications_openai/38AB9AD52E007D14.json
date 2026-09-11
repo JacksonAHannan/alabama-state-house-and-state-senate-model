@@ -1,0 +1,10 @@
+{
+  "id": "38AB9AD52E007D14",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Local authorization and procedures for a sheriff's sale of firearms are administrative and do not clearly establish a broad gun-access or purchase-regulation policy.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

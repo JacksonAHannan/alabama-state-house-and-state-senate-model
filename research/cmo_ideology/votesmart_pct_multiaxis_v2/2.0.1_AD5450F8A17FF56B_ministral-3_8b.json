@@ -1,0 +1,30 @@
+{
+  "primary_domain": "criminal_justice",
+  "policy_key": "alternatives_to_incarceration",
+  "plain_english_policy": "Replace imprisonment with mandatory counseling/substance abuse treatment for non-violent offenders",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "criminal_punishment",
+      "pole": "rehabilitative",
+      "strength": "primary",
+      "rationale": "Explicitly shifts from punitive incarceration to rehabilitative treatment (e.g., 'mandatory counseling'/'substance abuse treatment')."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "private_provision",
+      "strength": "primary",
+      "rationale": "Relies on private-sector providers (counseling/treatment) rather than state-run programs."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Limits incarceration as a welfare expenditure by redirecting resources to alternatives, but does not expand social services broadly."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "'mandatory counseling or substance abuse treatment'",
+  "needs_human_review": false,
+  "review_reason": ""
+}

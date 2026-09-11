@@ -1,0 +1,11 @@
+{
+  "policy_key": "abm_treaty_modification",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks about modifying the ABM Treaty to deploy a National Missile Defense System. This is classified as non-ideological because it pertains to international arms control and defense strategy rather than domestic social or economic policy.",
+  "evidence_quote": "Do you support modifying the 1972 Anti-Ballistic Missile (ABM) Treaty in order to deploy the National Missile Defense System?",
+  "needs_human_review": true,
+  "review_reason": "The question is about international arms control and defense policy. It does not inherently align with a specific domestic left/right ideological spectrum."
+}

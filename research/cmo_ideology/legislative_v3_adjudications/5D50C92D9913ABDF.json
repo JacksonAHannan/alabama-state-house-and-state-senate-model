@@ -1,0 +1,10 @@
+{
+  "id": "5D50C92D9913ABDF",
+  "decision": "map",
+  "primitive_axis": "election_integrity_controls",
+  "policy_pole": "weaken",
+  "confidence": "high",
+  "rationale": "Repealing a rebuttable presumption for judicial recusals based on campaign contributions reduces transparency controls, weakening election integrity.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

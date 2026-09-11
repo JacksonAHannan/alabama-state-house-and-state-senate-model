@@ -1,0 +1,10 @@
+{
+  "id": "82DC4CF10BD066DD",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "A local warrant-recall fee and fund deposit are administrative and do not clearly map to an allowed criminal-justice policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_stafford_loan_interest",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Lowering interest rates on federal student loans is generally viewed as a progressive economic policy aimed at reducing debt burdens for lower-income borrowers.",
+  "evidence_quote": "f) Decrease interest rates of Stafford Loans.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

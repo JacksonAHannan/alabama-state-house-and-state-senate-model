@@ -1,0 +1,11 @@
+{
+  "policy_key": "keystone_xl_pipeline",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting the Keystone XL pipeline is conventionally viewed as a progressive stance due to its association with climate change mitigation and renewable energy transition.",
+  "evidence_quote": "Do you support building the Keystone XL pipeline?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "budget_spending_limits_1997",
+  "dimension": "government_reform_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Would you support enforcing the federal spending caps agreed to in 1997 by President and Congress as a means to balance the budget?",
+  "evidence_quote": "Would you support **enforcing the spending limits agreed to in 1997** by the President and Congress to balance the budget?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

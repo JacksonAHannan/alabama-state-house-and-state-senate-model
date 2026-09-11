@@ -1,0 +1,24 @@
+{
+  "primary_domain": "energy",
+  "policy_key": "climate_energy",
+  "plain_english_policy": "Promote fossil fuel-based energy sources via state funding",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "climate_energy",
+      "pole": "fossil_expansion",
+      "strength": "secondary",
+      "rationale": "Explicit focus on coal, natural gas, and oil as traditional domestic energy sources."
+    },
+    {
+      "axis": "resource_development",
+      "pole": "expand",
+      "strength": "primary",
+      "rationale": "State funding explicitly targets development of these resources."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"state funding for the development of traditional domestic energy sources (e.g. coal, natural gas, oil)\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

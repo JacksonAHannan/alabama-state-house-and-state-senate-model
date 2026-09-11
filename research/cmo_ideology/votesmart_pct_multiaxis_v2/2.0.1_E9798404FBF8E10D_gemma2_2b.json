@@ -1,0 +1,18 @@
+{
+  "primary_domain": "business",
+  "policy_key": "market_governance",
+  "plain_english_policy": "restriction",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "The question asks for limits on contributions to political parties. This suggests a restriction on market-based influence in the political process."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "4) Political Party",
+  "needs_human_review": false,
+  "review_reason": "The question asks for limits on contributions to political parties. This suggests a restriction on market-based influence in the political process."
+}

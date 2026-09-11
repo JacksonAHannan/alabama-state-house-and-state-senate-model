@@ -1,0 +1,24 @@
+{
+  "primary_domain": "childcare",
+  "policy_key": "family_support_enforcement",
+  "plain_english_policy": "Deny or suspend state-issued permits and licenses to parents who are delinquent in paying court-ordered child support.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Denying permits and licenses to parents who are delinquent in child support is a restriction on their ability to engage in certain activities."
+    },
+    {
+      "axis": "family_support_enforcement",
+      "pole": "strict_enforcement",
+      "strength": "primary",
+      "rationale": "The policy involves suspending permits and licenses as an enforcement mechanism for unpaid child support, indicating a strict approach to enforcing family responsibilities."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Deny or suspend state-issued permits and licenses to parents who are delinquent in paying court-ordered child support.\" - Source: Questionnaire on Social Issues, Year: 1998, Section: Social Issues, Option d)\"",
+  "needs_human_review": true,
+  "review_reason": ""
+}

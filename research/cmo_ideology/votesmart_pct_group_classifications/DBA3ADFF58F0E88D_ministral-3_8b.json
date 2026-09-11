@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_legislator_term_limits",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Term limits for state legislators are typically progressive in the U.S. context, as they aim to reduce career politicians and increase turnover.",
+  "evidence_quote": "(No direct quote provided in your input; this is a standard policy classification based on conventional framing.)",
+  "needs_human_review": true,
+  "review_reason": "The question asks for an evidence quote from the candidate's questionnaire, but none was provided. This classification is inferred from the policy type (term limits) rather than direct text."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_federal_tax_bracket",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option specifies a high federal tax bracket range ($180k-$350k), which is generally associated with progressive fiscal policy by raising taxes on higher incomes.",
+  "evidence_quote": "$180,001-$350,000",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_nuclear_research",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting nuclear research is conventionally viewed as a progressive stance on energy policy in Alabama due to its alignment with climate goals and opposition to fossil fuels.",
+  "evidence_quote": "i) Support research and development of nuclear reactors as an alternative energy source.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

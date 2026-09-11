@@ -1,5 +1,7 @@
 # 2026 Alabama legislative forecast methodology
 
+> **Documentation status — 2026-09-05:** Superseded release methodology. This document describes the earlier robust/baseline-first release. It is retained as historical evidence, not as the current headline definition. Use [current product routes](../CANONICAL_PIPELINES.md) for the active contract, manifest and validation record. Do not rewrite the old diagnostic values into a new release approval.
+
 ## Headline model
 
 The headline is the poll-adjusted 2024 presidential margin allocated into the

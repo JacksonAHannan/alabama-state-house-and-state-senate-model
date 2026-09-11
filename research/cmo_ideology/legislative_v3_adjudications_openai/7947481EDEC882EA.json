@@ -1,0 +1,10 @@
+{
+  "id": "7947481EDEC882EA",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Establishes a prisoner transport fee for a local detention facility, an administrative funding provision not clearly captured by the listed policy poles.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

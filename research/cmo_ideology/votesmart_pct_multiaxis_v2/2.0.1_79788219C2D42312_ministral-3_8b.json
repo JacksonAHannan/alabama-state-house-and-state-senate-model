@@ -1,0 +1,18 @@
+{
+  "primary_domain": "guns",
+  "policy_key": "gun_access_expand",
+  "plain_english_policy": "Advocates for the legalization of carrying concealed firearms by citizens.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "civil_social_liberty",
+      "pole": "expand",
+      "strength": "primary",
+      "rationale": "Directly expands individual liberty to bear arms in public without explicit restrictions."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Should citizens be allowed to carry concealed guns?\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "C22F1331454A2A1E",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns registrar compensation, employment, insurance, and technical code revisions rather than an allowed healthcare policy axis.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

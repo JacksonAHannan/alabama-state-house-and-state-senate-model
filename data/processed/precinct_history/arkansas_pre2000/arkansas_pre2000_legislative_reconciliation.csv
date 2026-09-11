@@ -1,0 +1,352 @@
+state,year,chamber,district,klarner_dem_votes,klarner_rep_votes,dinc,rinc,dswitch,rswitch,uncont,dontuse,bigthird,dem_candidate,rep_candidate,sos_dem_votes,sos_rep_votes,_merge,dem_vote_delta,rep_vote_delta,total_absolute_delta,klarner_major_votes,reconciliation_status,model_eligible
+AR,1994,house,1.0,3925.0,4216.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"steele, railey a","hendren, jim",3925.0,4216.0,both,0.0,0.0,0.0,8141.0,exact,True
+AR,1994,house,2.0,,,0.0,1.0,0.0,0.0,1.0,0.0,0.0,,"vongremp, jim",,,left_only,,,,,missing_one_source,False
+AR,1994,house,3.0,,,0.0,1.0,0.0,0.0,1.0,0.0,0.0,,"bisbee, david a",,,left_only,,,,,missing_one_source,False
+AR,1994,house,4.0,,,0.0,1.0,0.0,0.0,1.0,0.0,0.0,,"bryant, randy",,,left_only,,,,,missing_one_source,False
+AR,1994,house,5.0,,,0.0,1.0,0.0,0.0,1.0,0.0,0.0,,"hinshaw, jerry",,,left_only,,,,,missing_one_source,False
+AR,1994,house,6.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"mcjunkin, louis m",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,7.0,4387.0,2152.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"stewart, charles w","myers, bill",4389.0,2152.0,both,2.0,0.0,2.0,6539.0,within_one_percent,True
+AR,1994,house,8.0,4457.0,3650.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"madison, sue","holloway, jerry",4457.0,3650.0,both,0.0,0.0,0.0,8107.0,exact,True
+AR,1994,house,9.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"hunton, jerry",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,10.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"hall, john",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,11.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"thicksten, edward f",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,12.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"blair, ralph w (buddy)","delay, gunner",,,left_only,,,,,missing_one_source,False
+AR,1994,house,14.0,,,,,,,,,,,,8605.0,9714.0,right_only,,,,,missing_one_source,False
+AR,1994,house,15.0,4665.0,3941.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,"wilkinson, ed","king, jerry d",4665.0,3941.0,both,0.0,0.0,0.0,8606.0,exact,True
+AR,1994,house,16.0,4987.0,3623.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"ammons, evelyn","campbell, lonnie d",4987.0,3623.0,both,0.0,0.0,0.0,8610.0,exact,True
+AR,1994,house,17.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"maddox, ode",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,18.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"hendrix, gerald",,26.0,0.0,both,,,,,missing_one_source,False
+AR,1994,house,19.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"hill, jim",,375.0,0.0,both,,,,,missing_one_source,False
+AR,1994,house,20.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"horn, barbara",,1533.0,0.0,both,,,,,missing_one_source,False
+AR,1994,house,21.0,2946.0,1629.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,"young, dennis r","ruggles, don c",2946.0,1629.0,both,0.0,0.0,0.0,4575.0,exact,True
+AR,1994,house,22.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"beatty, david l",,4536.0,0.0,both,,,,,missing_one_source,False
+AR,1994,house,23.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"laverty, randy",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,24.0,5574.0,3812.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"whorton, charles, jr","love, tim",5574.0,3812.0,both,0.0,0.0,0.0,9386.0,exact,True
+AR,1994,house,25.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"curran, armil o",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,26.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"willems, frank j",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,27.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"george, r lloyd",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,28.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"wood, keith n 2",,3733.0,0.0,both,,,,,missing_one_source,False
+AR,1994,house,29.0,3798.0,5142.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,"morton, rob","watts, bob",3798.0,5142.0,both,0.0,0.0,0.0,8940.0,exact,True
+AR,1994,house,30.0,4014.0,3712.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"bryan, l l (doc)","montgomery, john",4014.0,3712.0,both,0.0,0.0,0.0,7726.0,exact,True
+AR,1994,house,31.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"johnson, bob",,3323.0,0.0,both,,,,,missing_one_source,False
+AR,1994,house,32.0,,,0.0,1.0,0.0,0.0,1.0,0.0,0.0,,"mullenix, ted",,,left_only,,,,,missing_one_source,False
+AR,1994,house,33.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"smith, terry","wilkins, tom",,,left_only,,,,,missing_one_source,False
+AR,1994,house,34.0,,,,,,,,,,,,8296.0,6823.0,right_only,,,,,missing_one_source,False
+AR,1994,house,35.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"wallis, buddy",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,36.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"malone, percy",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,37.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"smith, judy s",,2628.0,0.0,both,,,,,missing_one_source,False
+AR,1994,house,38.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"dawson, john h",,2628.0,0.0,both,,,,,missing_one_source,False
+AR,1994,house,39.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"purdom, billy j",,3270.0,0.0,both,,,,,missing_one_source,False
+AR,1994,house,40.0,4508.0,6014.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"flippo, pat","hudson, joe",4508.0,6014.0,both,0.0,0.0,0.0,10522.0,exact,True
+AR,1994,house,41.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"rorie, roger l",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,42.0,5380.0,3873.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"lynn, becky","mcgahhey, mindy",5380.0,3873.0,both,0.0,0.0,0.0,9253.0,exact,True
+AR,1994,house,43.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"simon, stephen",,1883.0,0.0,both,,,,,missing_one_source,False
+AR,1994,house,44.0,4450.0,4149.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"wren, greg","parks, marvin",4450.0,4149.0,both,0.0,0.0,0.0,8599.0,exact,True
+AR,1994,house,45.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"courtway, tom",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,46.0,3818.0,3501.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"mitchell, larry","curtis, j lance",3818.0,3501.0,both,0.0,0.0,0.0,7319.0,exact,True
+AR,1994,house,47.0,6020.0,2836.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"kidd, douglas","hunnicutt, gary f",6020.0,2836.0,both,0.0,0.0,0.0,8856.0,exact,True
+AR,1994,house,48.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"lancaster, jim",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,49.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"newman, bobby g",,2628.0,0.0,both,,,,,missing_one_source,False
+AR,1994,house,50.0,3688.0,2639.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"sheppard, courtney","mathis, tom",3802.0,2752.0,both,114.0,113.0,227.0,6327.0,material_mismatch,False
+AR,1994,house,51.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"stalnaker, e ray",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,52.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"wyrick, phill",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,53.0,3905.0,4074.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"moreland, debbie","thomas, ted",3732.0,3930.0,both,-173.0,-144.0,317.0,7979.0,material_mismatch,False
+AR,1994,house,54.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"jones, myra",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,55.0,5070.0,3398.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"argue, jim, jr","lamb, kevin",5070.0,3398.0,both,0.0,0.0,0.0,8468.0,exact,True
+AR,1994,house,56.0,3651.0,1233.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"booker, michael d","alale, clare m",3651.0,1233.0,both,0.0,0.0,0.0,4884.0,exact,True
+AR,1994,house,57.0,6178.0,2721.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"ferrell, lisa","phillips, gary l",6178.0,2721.0,both,0.0,0.0,0.0,8899.0,exact,True
+AR,1994,house,58.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"brown, irma h",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,59.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"bennett, m dee",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,60.0,3963.0,3576.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"vess, stuart","powers, buddy",3963.0,3576.0,both,0.0,0.0,0.0,7539.0,exact,True
+AR,1994,house,61.0,5560.0,3140.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"dietz, james g","boyd, valtaree",5560.0,3140.0,both,0.0,0.0,0.0,8700.0,exact,True
+AR,1994,house,62.0,2340.0,1572.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"molinaro, joe","gullahorn, tom l, jr",2340.0,1572.0,both,0.0,0.0,0.0,3912.0,exact,True
+AR,1994,house,63.0,3526.0,3411.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"wood, doug","rackley, david l",3526.0,3411.0,both,0.0,0.0,0.0,6937.0,exact,True
+AR,1994,house,64.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"wilson, michael (mike)",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,65.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"townsend, william h",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,66.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"goodwin, larry",,1090.0,0.0,both,,,,,missing_one_source,False
+AR,1994,house,67.0,5832.0,3085.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"miller, john e","hutchins, donald",5832.0,3085.0,both,0.0,0.0,0.0,8917.0,exact,True
+AR,1994,house,68.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"capps, john p",,4913.0,0.0,both,,,,,missing_one_source,False
+AR,1994,house,69.0,5724.0,2684.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"choate, david","bush, jim",5624.0,2684.0,both,-100.0,0.0,100.0,8408.0,material_mismatch,False
+AR,1994,house,70.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"flechter, billi",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,71.0,3614.0,3144.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"pappas, pat","francis, betsy",3614.0,3144.0,both,0.0,0.0,0.0,6758.0,exact,True
+AR,1994,house,72.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"wilkins, josetta e",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,73.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"roberts, jacqueline",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,74.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"schexnayder, charlotte",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,75.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"mckissack, jimmie d",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,76.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"owensingram, marian d",,2777.0,0.0,both,,,,,missing_one_source,False
+AR,1994,house,77.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"davis, michael",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,78.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"baker, thomas g (tom)",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,79.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"ray, donald l",,5423.0,0.0,both,,,,,missing_one_source,False
+AR,1994,house,80.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"calhoun, v o (butch) 2",,2307.0,0.0,both,,,,,missing_one_source,False
+AR,1994,house,81.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"northcutt, wanda",,5674.0,0.0,both,,,,,missing_one_source,False
+AR,1994,house,82.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"jordon, james t",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,83.0,3767.0,2703.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"murphy, nap b","dintelman, jim l",3767.0,2703.0,both,0.0,0.0,0.0,6470.0,exact,True
+AR,1994,house,84.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"simmons, richard",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,85.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"wooldridge, tim",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,86.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"wood, bobby g",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,88.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"cash, claud v",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,89.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"critcher, jack l",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,90.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"luker, james c",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,91.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"flanagin, pat",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,92.0,3758.0,2309.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"wagner, wayne","benson, nelson",3690.0,2240.0,both,-68.0,-69.0,137.0,6067.0,material_mismatch,False
+AR,1994,house,93.0,2338.0,2882.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"goodman, jack","bush, ann h",2338.0,2882.0,both,0.0,0.0,0.0,5220.0,exact,True
+AR,1994,house,94.0,2330.0,2211.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,"harris, joe, jr","brownlee, christene",2330.0,2211.0,both,0.0,0.0,0.0,4541.0,exact,True
+AR,1994,house,95.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"mcgee, ben",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,96.0,3766.0,2231.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"ferguson, scott","baker, joe e",3766.0,2231.0,both,0.0,0.0,0.0,5997.0,exact,True
+AR,1994,house,97.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"mcginnis, bob",,,,left_only,,,,,missing_one_source,False
+AR,1994,house,98.0,5151.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,"cunningham, ernest",,5056.0,739.0,both,-95.0,739.0,834.0,5151.0,material_mismatch,False
+AR,1994,house,99.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"wilson, jimmie l",,8586.0,0.0,both,,,,,missing_one_source,False
+AR,1994,house,100.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"angel, sam e (sammy), ii",,,,left_only,,,,,missing_one_source,False
+AR,1994,senate,2.0,12673.0,6978.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"mahony, joseph k (joe), ii","hall, pat",12802.0,7063.0,both,129.0,85.0,214.0,19651.0,material_mismatch,False
+AR,1994,senate,7.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"smith, kevin a",,5674.0,0.0,both,,,,,missing_one_source,False
+AR,1994,senate,11.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,"jeffries, peggy",,,left_only,,,,,missing_one_source,False
+AR,1994,senate,14.0,8980.0,12867.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"roberson, del","webb, doyle",8920.0,12772.0,both,-60.0,-95.0,155.0,21847.0,within_one_percent,True
+AR,1994,senate,16.0,,,1.0,0.0,0.0,0.0,1.0,1.0,0.0,"snyder, victor f",,,,left_only,,,,,missing_one_source,False
+AR,1994,senate,17.0,8964.0,2469.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"walker, william l (bill), jr","jackson, antimoore h",8964.0,2469.0,both,0.0,0.0,0.0,11433.0,exact,True
+AR,1994,senate,18.0,10683.0,8730.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"hoofman, clifton (cliff)","freeland, jim",10683.0,8730.0,both,0.0,0.0,0.0,19413.0,exact,True
+AR,1994,senate,19.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"gwatney, bill a",,,,left_only,,,,,missing_one_source,False
+AR,1994,senate,21.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"beebe, mike",,8855.0,0.0,both,,,,,missing_one_source,False
+AR,1994,senate,23.0,10427.0,9393.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"everett, mike","brawley, stan",10432.0,9393.0,both,5.0,0.0,5.0,19820.0,within_one_percent,True
+AR,1994,senate,24.0,15422.0,5375.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"bell, steve","biggers, lonnie d",15419.0,5373.0,both,-3.0,-2.0,5.0,20797.0,within_one_percent,True
+AR,1994,senate,26.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"fitch, jon",,2436.0,0.0,both,,,,,missing_one_source,False
+AR,1994,senate,30.0,13082.0,7040.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"todd, mike","williams, kay",13156.0,7020.0,both,74.0,-20.0,94.0,20122.0,within_one_percent,True
+AR,1994,senate,31.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"wilson, nick",,,,left_only,,,,,missing_one_source,False
+AR,1994,senate,32.0,12271.0,13172.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"sheid, richard","hunter, gary d",12271.0,13172.0,both,0.0,0.0,0.0,25443.0,exact,True
+AR,1994,senate,33.0,8758.0,12434.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"holman, reid","boozman, fay w, iii",8689.0,5369.0,both,-69.0,-7065.0,7134.0,21192.0,material_mismatch,False
+AR,1994,senate,34.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,"brown, john e",,,left_only,,,,,missing_one_source,False
+AR,1994,senate,35.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"malone, david r",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,1.0,,,0.0,1.0,0.0,0.0,1.0,0.0,0.0,,"hendren, jim",,,left_only,,,,,missing_one_source,False
+AR,1996,house,2.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,"hausam, david c",,,left_only,,,,,missing_one_source,False
+AR,1996,house,3.0,0.0,4283.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,,"bisbee, david a",0.0,4283.0,both,0.0,0.0,0.0,4283.0,exact,True
+AR,1996,house,4.0,,,0.0,1.0,0.0,0.0,1.0,0.0,0.0,,"bryant, randy",,,left_only,,,,,missing_one_source,False
+AR,1996,house,5.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,"fuqua, charlie",,,left_only,,,,,missing_one_source,False
+AR,1996,house,6.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"mcjunkin, louis m",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,7.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"stewart, charles w",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,8.0,5895.0,5666.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"madison, sue","pritchard, bill",5895.0,5666.0,both,0.0,0.0,0.0,11561.0,exact,True
+AR,1996,house,9.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"hunton, jerry",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,10.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"hall, john",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,11.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"thicksten, edward f",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,12.0,10489.0,11690.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,"mcgehee, w k (mac), jr","pollan, carolyn",10489.0,0.0,both,0.0,-11690.0,11690.0,22179.0,material_mismatch,False
+AR,1996,house,13.0,,,,,,,,,,,,0.0,16456.0,right_only,,,,,missing_one_source,False
+AR,1996,house,14.0,,,,,,,,,,,,11997.0,10320.0,right_only,,,,,missing_one_source,False
+AR,1996,house,15.0,6070.0,4177.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"wilkinson, ed","king, jerry d",6070.0,4177.0,both,0.0,0.0,0.0,10247.0,exact,True
+AR,1996,house,16.0,5592.0,4128.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"ammons, evelyn","campbell, bruce",5592.0,4128.0,both,0.0,0.0,0.0,9720.0,exact,True
+AR,1996,house,17.0,5719.0,4288.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"maddox, ode","whisenhunt, audry t",5719.0,4288.0,both,0.0,0.0,0.0,10007.0,exact,True
+AR,1996,house,18.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"faris, steve",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,19.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"teague, larry r",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,20.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"horn, barbara",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,21.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"young, dennis r",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,22.0,4560.0,3805.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"beatty, david l","bennett, russ",4560.0,3805.0,both,0.0,0.0,0.0,8365.0,exact,True
+AR,1996,house,23.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"laverty, randy",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,24.0,6095.0,4749.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"whorton, charles, jr","mcdougall, doug",6095.0,4749.0,both,0.0,0.0,0.0,10844.0,exact,True
+AR,1996,house,25.0,6660.0,3539.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"curran, armil o","heffley, luke",6660.0,3539.0,both,0.0,0.0,0.0,10199.0,exact,True
+AR,1996,house,26.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"willems, frank j",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,27.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"george, r lloyd",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,28.0,5709.0,2382.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"rodgers, sandra r","cornelius, tim",5709.0,2382.0,both,0.0,0.0,0.0,8091.0,exact,True
+AR,1996,house,29.0,4204.0,6129.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"shelton, sam l","milum, jim",4204.0,6129.0,both,0.0,0.0,0.0,10333.0,exact,True
+AR,1996,house,30.0,5063.0,4801.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"cook, m olin","lovell, richard k",5063.0,4801.0,both,0.0,0.0,0.0,9864.0,exact,True
+AR,1996,house,31.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"johnson, bob",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,32.0,,,0.0,1.0,0.0,0.0,1.0,0.0,0.0,,"mullenix, ted",,,left_only,,,,,missing_one_source,False
+AR,1996,house,33.0,12941.0,7786.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"smith, terry","wilkins, tom",12941.0,7786.0,both,0.0,0.0,0.0,20727.0,exact,True
+AR,1996,house,34.0,,,,,,,,,,,,13897.0,6249.0,right_only,,,,,missing_one_source,False
+AR,1996,house,35.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"wallis, buddy",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,36.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"malone, percy",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,37.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"smith, judy s",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,38.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"dawson, john h",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,39.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"purdom, billy j",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,40.0,,,0.0,1.0,0.0,0.0,1.0,0.0,0.0,,"hudson, joe",,,left_only,,,,,missing_one_source,False
+AR,1996,house,41.0,5414.0,5259.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"rorie, roger l","taylor, chaney, jr",5414.0,5259.0,both,0.0,0.0,0.0,10673.0,exact,True
+AR,1996,house,42.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"lynn, becky",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,43.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"simon, stephen",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,44.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"wren, greg",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,45.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"courtway, tom",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,46.0,4904.0,4555.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"broadway, shane","burks, lois a",4904.0,4555.0,both,0.0,0.0,0.0,9459.0,exact,True
+AR,1996,house,47.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"kidd, douglas",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,48.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"lancaster, jim",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,49.0,4677.0,2339.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"newman, bobby g","hall, ronnie",4677.0,2339.0,both,0.0,0.0,0.0,7016.0,exact,True
+AR,1996,house,50.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"sheppard, courtney",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,51.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"stalnaker, e ray",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,52.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"wyrick, phill",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,53.0,5025.0,6570.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,"travis, tom","thomas, ted",5025.0,6570.0,both,0.0,0.0,0.0,11595.0,exact,True
+AR,1996,house,54.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"jones, myra",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,55.0,4695.0,5438.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"osterloh, henry (o)","magnus, jim",4695.0,5438.0,both,0.0,0.0,0.0,10133.0,exact,True
+AR,1996,house,56.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"booker, michael d",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,57.0,7656.0,2825.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"ferrell, lisa","dunlap, joseph",,,left_only,,,,10481.0,missing_one_source,False
+AR,1996,house,58.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"brown, irma h",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,59.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"bennett, m dee",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,60.0,5493.0,4302.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"vess, stuart","prince, tom",5493.0,4302.0,both,0.0,0.0,0.0,9795.0,exact,True
+AR,1996,house,61.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"dietz, james g",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,62.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"molinaro, joe",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,63.0,5167.0,3937.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"hudson, dianne","rogers, ryan r",5167.0,3937.0,both,0.0,0.0,0.0,9104.0,exact,True
+AR,1996,house,64.0,3950.0,2984.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"bond, pat","stewart, otis",3950.0,2984.0,both,0.0,0.0,0.0,6934.0,exact,True
+AR,1996,house,65.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"walker, wilma",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,66.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"goodwin, larry",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,67.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"miller, john e",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,68.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"capps, john p",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,69.0,5614.0,4741.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"choate, david","minton, randy",5614.0,4741.0,both,0.0,0.0,0.0,10355.0,exact,True
+AR,1996,house,70.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"flechter, billi",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,71.0,4352.0,3779.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"pappas, pat","francis, betsy",4352.0,3779.0,both,0.0,0.0,0.0,8131.0,exact,True
+AR,1996,house,72.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"wilkins, josetta e",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,73.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"roberts, jacqueline",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,74.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"schexnayder, charlotte",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,75.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"mckissack, jimmie d",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,76.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"owensingram, marian d",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,77.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"davis, michael",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,78.0,5966.0,1933.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"baker, thomas g (tom)","allen, john",5966.0,1933.0,both,0.0,0.0,0.0,7899.0,exact,True
+AR,1996,house,79.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"shoffner, martha a",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,80.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"wood, jim",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,81.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"northcutt, wanda",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,82.0,4142.0,3128.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"french, george r","lemons, william b (buddy)",4142.0,3128.0,both,0.0,0.0,0.0,7270.0,exact,True
+AR,1996,house,83.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"jeffress, jimmy l",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,84.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"simmons, richard",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,85.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"wooldridge, tim",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,86.0,9427.0,6751.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"hogue, bobby l","farley, jim",9427.0,6751.0,both,0.0,0.0,0.0,16178.0,exact,True
+AR,1996,house,87.0,,,,,,,,,,,,11184.0,5250.0,right_only,,,,,missing_one_source,False
+AR,1996,house,88.0,5027.0,2009.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"trammell, bobby l","doty, garry r",5027.0,1724.0,both,0.0,-285.0,285.0,7036.0,material_mismatch,False
+AR,1996,house,89.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"critcher, jack l",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,90.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"luker, james c",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,91.0,5139.0,2269.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"flanagin, pat","spears, paul",5139.0,2269.0,both,0.0,0.0,0.0,7408.0,exact,True
+AR,1996,house,92.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"wagner, wayne",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,93.0,,,0.0,1.0,0.0,0.0,1.0,0.0,0.0,,"bush, ann h",,,left_only,,,,,missing_one_source,False
+AR,1996,house,94.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"harris, joe, jr",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,95.0,3664.0,2076.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"mcgee, ben","griffee, john f",3664.0,2076.0,both,0.0,0.0,0.0,5740.0,exact,True
+AR,1996,house,96.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"ferguson, scott",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,97.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"mcginnis, bob",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,98.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"cunningham, ernest",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,99.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"wilson, jimmie l",,,,left_only,,,,,missing_one_source,False
+AR,1996,house,100.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"angel, sam e (sammy), ii",,,,left_only,,,,,missing_one_source,False
+AR,1996,senate,1.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"scott, james c (jim)",,,,left_only,,,,,missing_one_source,False
+AR,1996,senate,3.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"ross, mike",,,,left_only,,,,,missing_one_source,False
+AR,1996,senate,4.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"dowd, wayne",,,,left_only,,,,,missing_one_source,False
+AR,1996,senate,5.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"hill, jim",,,,left_only,,,,,missing_one_source,False
+AR,1996,senate,6.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"hopkins, george",,,,left_only,,,,,missing_one_source,False
+AR,1996,senate,8.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"edwards, jean c",,,,left_only,,,,,missing_one_source,False
+AR,1996,senate,9.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"bradford, jay",,,,left_only,,,,,missing_one_source,False
+AR,1996,senate,10.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"walters, bill",,,,left_only,,,,,missing_one_source,False
+AR,1996,senate,12.0,13976.0,13031.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"kennedy, tom","trusty, sharon k",13976.0,13031.0,both,0.0,0.0,0.0,27007.0,exact,True
+AR,1996,senate,13.0,15908.0,14403.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"canada, eugene (bud)","harvey, mary l",15908.0,14403.0,both,0.0,0.0,0.0,30311.0,exact,True
+AR,1996,senate,15.0,18435.0,12778.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"argue, jim, jr","wallace, scott",18435.0,12778.0,both,0.0,0.0,0.0,31213.0,exact,True
+AR,1996,senate,20.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"russ, stanley",,,,left_only,,,,,missing_one_source,False
+AR,1996,senate,22.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"lewellen, bill",,,,left_only,,,,,missing_one_source,False
+AR,1996,senate,25.0,17728.0,11119.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"gordon, allen","rhoda, johnny k",17728.0,11119.0,both,0.0,0.0,0.0,28847.0,exact,True
+AR,1996,senate,27.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"harriman, morril",,,,left_only,,,,,missing_one_source,False
+AR,1996,senate,28.0,10245.0,6847.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"bearden, mike","moore, janet",10245.0,6847.0,both,0.0,0.0,0.0,17092.0,exact,True
+AR,1996,senate,29.0,13447.0,8855.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"roebuck, gene","turner, john e",13447.0,8855.0,both,0.0,0.0,0.0,22302.0,exact,True
+AR,1998,house,1.0,,,0.0,1.0,0.0,0.0,1.0,0.0,0.0,,"hendren, jim",0.0,27820.0,both,,,,,missing_one_source,False
+AR,1998,house,2.0,,,0.0,1.0,0.0,0.0,1.0,0.0,0.0,,"hausam, david c",,,left_only,,,,,missing_one_source,False
+AR,1998,house,3.0,0.0,6502.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,"bledsoe, cecile",0.0,6502.0,both,0.0,0.0,0.0,6502.0,exact,True
+AR,1998,house,4.0,4662.0,6791.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"critelli, anthony","buchanan, geoff",4662.0,6791.0,both,0.0,0.0,0.0,11453.0,exact,True
+AR,1998,house,5.0,3173.0,4382.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"rutherford, claud f","morris, andrew",3173.0,4382.0,both,0.0,0.0,0.0,7555.0,exact,True
+AR,1998,house,6.0,3304.0,4211.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"mcfetridge, kathy","duggar, jim b",3304.0,4211.0,both,0.0,0.0,0.0,7515.0,exact,True
+AR,1998,house,7.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"judy, jan a",,,,left_only,,,,,missing_one_source,False
+AR,1998,house,8.0,5253.0,4450.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"madison, sue","pritchard, bill",5253.0,4450.0,both,0.0,0.0,0.0,9703.0,exact,True
+AR,1998,house,9.0,3661.0,4682.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"norton, jack w 1","agee, sarah s",3661.0,4682.0,both,0.0,0.0,0.0,8343.0,exact,True
+AR,1998,house,10.0,4075.0,3678.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"prater, larry","jenkins, don",4075.0,3678.0,both,0.0,0.0,0.0,7753.0,exact,True
+AR,1998,house,11.0,2929.0,3176.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"brown, lyn","green, mary b",2929.0,3176.0,both,0.0,0.0,0.0,6105.0,exact,True
+AR,1998,house,12.0,8188.0,9434.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"mcgehee, w k (mac), jr","files, jake c",6490.0,7775.0,both,-1698.0,-1659.0,3357.0,17622.0,material_mismatch,False
+AR,1998,house,13.0,,,,,,,,,,,,7540.0,6807.0,right_only,,,,,missing_one_source,False
+AR,1998,house,14.0,,,,,,,,,,,,8640.0,5698.0,right_only,,,,,missing_one_source,False
+AR,1998,house,15.0,6665.0,2345.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"wilkinson, ed","conrad, phillip (troy)",6315.0,2198.0,both,-350.0,-147.0,497.0,9010.0,material_mismatch,False
+AR,1998,house,16.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"ammons, evelyn",,4043.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,17.0,4528.0,3466.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"oglesby, steve","whisenhunt, audry t",4528.0,3466.0,both,0.0,0.0,0.0,7994.0,exact,True
+AR,1998,house,18.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"faris, steve",,18892.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,19.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"teague, larry r",,396.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,20.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"horn, barbara",,1738.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,21.0,2737.0,2866.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"hudson, haze","haak, david m",2737.0,2866.0,both,0.0,0.0,0.0,5603.0,exact,True
+AR,1998,house,22.0,3158.0,3475.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"martin, rebecca v","bennett, russ",3158.0,3475.0,both,0.0,0.0,0.0,6633.0,exact,True
+AR,1998,house,23.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"laverty, randy",,,,left_only,,,,,missing_one_source,False
+AR,1998,house,24.0,5889.0,4456.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"hathorn, mike","mcdougall, doug",5889.0,4456.0,both,0.0,0.0,0.0,10345.0,exact,True
+AR,1998,house,25.0,4191.0,3616.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"jacobs, phillip t","glover, virginia",4191.0,3616.0,both,0.0,0.0,0.0,7807.0,exact,True
+AR,1998,house,26.0,5160.0,2868.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"cleveland, herschel w","bullock, howard",5160.0,2868.0,both,0.0,0.0,0.0,8028.0,exact,True
+AR,1998,house,27.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"gillespie, jeff",,,,left_only,,,,,missing_one_source,False
+AR,1998,house,28.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"rodgers, sandra r",,5408.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,29.0,,,0.0,1.0,0.0,0.0,1.0,0.0,0.0,,"milum, jim",,,left_only,,,,,missing_one_source,False
+AR,1998,house,30.0,4170.0,2892.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"cook, m olin","carruth, phil",4170.0,2892.0,both,0.0,0.0,0.0,7062.0,exact,True
+AR,1998,house,31.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"johnson, bob",,,,left_only,,,,,missing_one_source,False
+AR,1998,house,32.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,"smith, roger",0.0,15149.0,both,,,,,missing_one_source,False
+AR,1998,house,33.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"moore, thomas",,15015.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,34.0,,,,,,,,,,,,15015.0,0.0,right_only,,,,,missing_one_source,False
+AR,1998,house,35.0,3765.0,3670.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"scrimshire, bill","williams, steve",3765.0,3670.0,both,0.0,0.0,0.0,7435.0,exact,True
+AR,1998,house,36.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"malone, percy",,5943.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,37.0,3361.0,2168.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"white, robert j","rankin, toni",3361.0,2168.0,both,0.0,0.0,0.0,5529.0,exact,True
+AR,1998,house,38.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"jeffress, gene",,2491.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,39.0,5260.0,3902.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"milligan, jimmy (red)","mandella, ron",5260.0,3902.0,both,0.0,0.0,0.0,9162.0,exact,True
+AR,1998,house,40.0,4333.0,5424.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"magness, benny","womack, shawn a",4333.0,5424.0,both,0.0,0.0,0.0,9757.0,exact,True
+AR,1998,house,41.0,3973.0,4601.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"phillips, nancy","taylor, chaney, jr",3973.0,4601.0,both,0.0,0.0,0.0,8574.0,exact,True
+AR,1998,house,42.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"lynn, becky",,1689.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,43.0,4913.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,"simon, stephen",,4913.0,0.0,both,0.0,0.0,0.0,4913.0,exact,True
+AR,1998,house,44.0,4366.0,4839.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"wills, robbie","parks, marvin",4366.0,4839.0,both,0.0,0.0,0.0,9205.0,exact,True
+AR,1998,house,45.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"courtway, tom",,9412.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,46.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"broadway, shane",,,,left_only,,,,,missing_one_source,False
+AR,1998,house,47.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"kidd, douglas",,,,left_only,,,,,missing_one_source,False
+AR,1998,house,48.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"lancaster, jim",,4489.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,49.0,2618.0,3127.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"henley, ed","smith, mark a",2618.0,3127.0,both,0.0,0.0,0.0,5745.0,exact,True
+AR,1998,house,50.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"sheppard, courtney",,2016.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,51.0,3656.0,1453.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"creekmore, mike","roberts, rodney",3636.0,1473.0,both,-20.0,20.0,40.0,5109.0,within_one_percent,True
+AR,1998,house,52.0,2844.0,2493.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"lendall, jim","keltner, bob",2844.0,2493.0,both,0.0,0.0,0.0,5337.0,exact,True
+AR,1998,house,53.0,3893.0,5648.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,"montgomery, keith","thomas, ted",3893.0,5648.0,both,0.0,0.0,0.0,9541.0,exact,True
+AR,1998,house,54.0,5306.0,3856.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"napper, steve","sharp, jeff c",5306.0,3856.0,both,0.0,0.0,0.0,9162.0,exact,True
+AR,1998,house,55.0,3170.0,4568.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,"lessmeister, james j","magnus, jim",3170.0,4568.0,both,0.0,0.0,0.0,7738.0,exact,True
+AR,1998,house,56.0,3506.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,"booker, michael d",,3506.0,0.0,both,0.0,0.0,0.0,3506.0,exact,True
+AR,1998,house,57.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"ferrell, lisa",,,,left_only,,,,,missing_one_source,False
+AR,1998,house,58.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"lewellen, john",,38448.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,59.0,3131.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"steele, tracy",,3131.0,0.0,both,0.0,0.0,0.0,3131.0,exact,True
+AR,1998,house,60.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"vess, stuart",,38448.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,61.0,4701.0,3005.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"salmon, mary a","odaniel, sharon h",4701.0,3005.0,both,0.0,0.0,0.0,7706.0,exact,True
+AR,1998,house,62.0,2975.0,3312.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"brown, don","elliott, dean",2975.0,3312.0,both,0.0,0.0,0.0,6287.0,exact,True
+AR,1998,house,63.0,2732.0,2769.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"hudson, dianne","rackley, david l",2732.0,2769.0,both,0.0,0.0,0.0,5501.0,exact,True
+AR,1998,house,64.0,3411.0,1977.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"bond, pat","harris, loyd",3411.0,1977.0,both,0.0,0.0,0.0,5388.0,exact,True
+AR,1998,house,65.0,3023.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"walker, wilma",,3023.0,0.0,both,0.0,0.0,0.0,3023.0,exact,True
+AR,1998,house,66.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"hickinbotham, boyd",,2720.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,67.0,5196.0,3083.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"weaver, paul","hutchins, donald",5196.0,3083.0,both,0.0,0.0,0.0,8279.0,exact,True
+AR,1998,house,68.0,3676.0,3928.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"thomas, j r","hunt, russ",3676.0,3928.0,both,0.0,0.0,0.0,7604.0,exact,True
+AR,1998,house,69.0,4105.0,4848.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"hart, todd c","minton, randy",4105.0,4848.0,both,0.0,0.0,0.0,8953.0,exact,True
+AR,1998,house,70.0,4708.0,2377.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"bevis, bill","bonifant, steve",4708.0,2377.0,both,0.0,0.0,0.0,7085.0,exact,True
+AR,1998,house,71.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"pappas, pat",,,,left_only,,,,,missing_one_source,False
+AR,1998,house,72.0,3282.0,882.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"johnson, calvin","mazique, dana l",3282.0,882.0,both,0.0,0.0,0.0,4164.0,exact,True
+AR,1998,house,73.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"wilkins, henry (hank), iv 1",,2567.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,74.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"thomas, lindbergh",,4427.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,75.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"gullett, brenda b",,4172.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,76.0,4454.0,2014.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"dees, joyce","temple, clyde",4454.0,2014.0,both,0.0,0.0,0.0,6468.0,exact,True
+AR,1998,house,77.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"seawel, harmon r",,1875.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,78.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"house, don r",,124.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,79.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"shoffner, martha a",,2785.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,80.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"wood, jim",,4365.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,81.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"glover, bobby l",,9301.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,82.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"french, george r",,5922.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,83.0,5174.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,"jeffress, jimmy l",,5174.0,0.0,both,0.0,0.0,0.0,5174.0,exact,True
+AR,1998,house,84.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"simmons, richard",,1875.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,85.0,4288.0,2626.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"biggs, gary","williams, kay",4288.0,2626.0,both,0.0,0.0,0.0,6914.0,exact,True
+AR,1998,house,86.0,9453.0,3434.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"allison, jerry","dupwe, warren e",,,left_only,,,,12887.0,missing_one_source,False
+AR,1998,house,87.0,,,,,,,,,,,,7040.0,6115.0,right_only,,,,,missing_one_source,False
+AR,1998,house,88.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"trammell, bobby l",,,,left_only,,,,,missing_one_source,False
+AR,1998,house,89.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"davis, keith",,,,left_only,,,,,missing_one_source,False
+AR,1998,house,90.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"luker, james c",,1260.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,91.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"ferguson, danny",,3015.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,92.0,4144.0,1241.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"gipson, billy o","truelove, john",4144.0,1241.0,both,0.0,0.0,0.0,5385.0,exact,True
+AR,1998,house,93.0,,,0.0,1.0,0.0,0.0,1.0,0.0,0.0,,"bush, ann h",0.0,6007.0,both,,,,,missing_one_source,False
+AR,1998,house,94.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"harris, joe, jr",,6007.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,95.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"jones, steven b",,,,left_only,,,,,missing_one_source,False
+AR,1998,house,96.0,3238.0,2374.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"steele, marvin","baker, joe e",3238.0,2374.0,both,0.0,0.0,0.0,5612.0,exact,True
+AR,1998,house,97.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"eason, john a",,1755.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,98.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"king, barbara",,10342.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,99.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"willis, arnell",,10425.0,0.0,both,,,,,missing_one_source,False
+AR,1998,house,100.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"angel, sam e (sammy), ii",,1860.0,0.0,both,,,,,missing_one_source,False
+AR,1998,senate,2.0,10321.0,6414.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"mahony, joseph k (joe), ii","moore, mark",10321.0,6414.0,both,0.0,0.0,0.0,16735.0,exact,True
+AR,1998,senate,7.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"smith, kevin a",,19638.0,0.0,both,,,,,missing_one_source,False
+AR,1998,senate,11.0,9488.0,9721.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"sanders, sandy","delay, gunner",7459.0,0.0,both,-2029.0,-9721.0,11750.0,19209.0,material_mismatch,False
+AR,1998,senate,14.0,0.0,14034.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,,"webb, doyle",0.0,14034.0,both,0.0,0.0,0.0,14034.0,exact,True
+AR,1998,senate,16.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"riggs, john",,38448.0,0.0,both,,,,,missing_one_source,False
+AR,1998,senate,17.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"walker, william l (bill), jr",,38448.0,0.0,both,,,,,missing_one_source,False
+AR,1998,senate,18.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"hoofman, clifton (cliff)",,38448.0,0.0,both,,,,,missing_one_source,False
+AR,1998,senate,19.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"gwatney, bill a",,38448.0,0.0,both,,,,,missing_one_source,False
+AR,1998,senate,21.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"beebe, mike",,12802.0,0.0,both,,,,,missing_one_source,False
+AR,1998,senate,23.0,10960.0,6454.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"everett, mike","ashcraft, a s (al)",10960.0,6454.0,both,0.0,0.0,0.0,17414.0,exact,True
+AR,1998,senate,24.0,12291.0,6870.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"critcher, jack l","isaac, tim",12291.0,6870.0,both,0.0,0.0,0.0,19161.0,exact,True
+AR,1998,senate,26.0,13666.0,11931.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"fitch, jon","bryant, randy",13666.0,11931.0,both,0.0,0.0,0.0,25597.0,exact,True
+AR,1998,senate,30.0,,,0.0,0.0,0.0,0.0,1.0,0.0,0.0,"wooldridge, tim",,,,left_only,,,,,missing_one_source,False
+AR,1998,senate,31.0,,,1.0,0.0,0.0,0.0,1.0,0.0,0.0,"wilson, nick",,5521.0,0.0,both,,,,,missing_one_source,False
+AR,1998,senate,32.0,,,0.0,1.0,0.0,0.0,1.0,0.0,0.0,,"hunter, gary d",0.0,9048.0,both,,,,,missing_one_source,False
+AR,1998,senate,33.0,7994.0,14049.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"white, tyler e","bisbee, david a",7994.0,14049.0,both,0.0,0.0,0.0,22043.0,exact,True
+AR,1998,senate,34.0,,,0.0,1.0,0.0,0.0,1.0,0.0,0.0,,"brown, john e",0.0,27820.0,both,,,,,missing_one_source,False
+AR,1998,senate,35.0,13979.0,8543.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,"malone, david r","ralston, brett k",13979.0,8543.0,both,0.0,0.0,0.0,22522.0,exact,True

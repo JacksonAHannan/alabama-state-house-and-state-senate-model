@@ -1,0 +1,11 @@
+{
+  "policy_key": "teacher_gun_permission",
+  "dimension": "guns_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Whether teachers should be allowed to carry firearms in schools.",
+  "evidence_quote": "(No direct quote provided, but the question itself\u2014'Should teachers be allowed to bring guns into classrooms?'\u2014is a classic progressive-conservative divide: **conservatives typically support arming educators as a security measure (+1), while progressives oppose it due to safety risks and gun control priorities (-1).)",
+  "needs_human_review": false,
+  "review_reason": "The question is a standard ideological litmus test with no contextual modifiers."
+}

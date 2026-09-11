@@ -1,0 +1,11 @@
+{
+  "policy_key": "k12_education_voucher_tax_free_savings",
+  "dimension": "education_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Expands parental choice in K-12 education by enabling tax-free savings accounts for private/public school tuition.",
+  "evidence_quote": "Allow parents to use tax-free savings accounts to send their children to any publicly-funded school.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

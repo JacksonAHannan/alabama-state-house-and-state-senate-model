@@ -1,0 +1,10 @@
+{
+  "id": "D0F3AB2A28B5AD81",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns hearing notices and procedural administration, and the described amendment was laid on the table; it does not establish a concrete permitted policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

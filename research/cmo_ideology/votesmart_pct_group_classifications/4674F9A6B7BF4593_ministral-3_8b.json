@@ -1,0 +1,11 @@
+{
+  "policy_key": "welfare_faith_based_redirection",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Shift public welfare dollars to private, faith-based/community groups instead of government agencies.",
+  "evidence_quote": "*Redirect welfare funding to faith-based and community-based private organizations.*",
+  "needs_human_review": false,
+  "review_reason": ""
+}

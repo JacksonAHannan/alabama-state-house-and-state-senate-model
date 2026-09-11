@@ -1,0 +1,11 @@
+{
+  "policy_key": "ban_racial_profiling",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Explicitly prohibits law enforcement from using race/ethnicity as a factor in stops/searches, regardless of context.",
+  "evidence_quote": "**l) Ban the use of racial profiling by law enforcement officers.**",
+  "needs_human_review": false,
+  "review_reason": ""
+}

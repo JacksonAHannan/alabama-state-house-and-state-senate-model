@@ -12,6 +12,7 @@ from rapidfuzz import fuzz
 
 from audit_historical_precinct_geography import county_match_key, normalize_split_base
 from warehouse import ROOT
+from source_vote_quality import require_reported_vote_quality
 
 PROCESSED = ROOT / "data/processed/precinct_history"
 DB = ROOT / "data/processed/elections/alabama_elections.sqlite"
@@ -53,6 +54,7 @@ def activity() -> pd.DataFrame:
       FROM contests GROUP BY cycle,county_key,precinct_key
     """
     with sqlite3.connect(DB) as connection:
+        require_reported_vote_quality(connection, "source='alabama_sos' AND year IN (1994,1998,2002,2006)")
         return pd.read_sql_query(query, connection)
 
 

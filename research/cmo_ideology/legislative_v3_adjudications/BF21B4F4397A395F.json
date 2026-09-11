@@ -1,0 +1,10 @@
+{
+  "id": "BF21B4F4397A395F",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Removes fee requirements for pistol permits for active/discharged military personnel, directly expanding access to firearms.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

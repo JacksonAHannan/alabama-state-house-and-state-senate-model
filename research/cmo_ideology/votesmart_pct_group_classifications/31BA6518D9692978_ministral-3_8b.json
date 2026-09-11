@@ -1,0 +1,11 @@
+{
+  "policy_key": "teacher_tenure_effectiveness",
+  "dimension": "education_position",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "This option is a diagnostic question about the current state of teacher tenure systems rather than a policy proposal. It does not inherently lean conservative or progressive.",
+  "evidence_quote": "**c) Is the tenure process for public school teachers producing effective teachers?**",
+  "needs_human_review": true,
+  "review_reason": "This is a neutral framing question; its political valence depends entirely on how the candidate answers it (e.g., 'yes' with reform proposals could be +1, 'no' with critiques of tenure could be -1)."
+}

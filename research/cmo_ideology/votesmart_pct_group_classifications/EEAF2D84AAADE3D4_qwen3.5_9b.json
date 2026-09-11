@@ -1,0 +1,11 @@
+{
+  "policy_key": "health_care_vouchers_working_poor",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option proposes using government vouchers to subsidize private health insurance for low-income workers. In the context of US political discourse, voucher-based systems are generally associated with conservative or libertarian principles that favor market mechanisms and reduced direct government provision over single-payer or expanded public programs.",
+  "evidence_quote": "b) Provide vouchers to the working poor so they can buy into a private health care plan.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "D09EED18D14D8F8B",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "restrict",
+  "confidence": "high",
+  "rationale": "The bill prohibits unauthorized dog use in deer hunting, increases penalties for violations, and restricts firearm discharge near public roads\u2014all measures that restrict gun-related activities.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

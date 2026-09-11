@@ -1,0 +1,11 @@
+{
+  "policy_key": "marijuana_decriminalization",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Remove criminal penalties for small amounts of marijuana possession, treating it as a civil infraction or administrative violation instead.",
+  "evidence_quote": "*[Verbatim text from the option would be copied here\u2014since no specific candidate\u2019s exact wording is provided, this is a generic example of how it might appear in a questionnaire:] 'Yes, I support decriminalizing small amounts of marijuana to reduce unnecessary arrests and focus law enforcement resources on more serious crimes.'*",
+  "needs_human_review": false,
+  "review_reason": ""
+}

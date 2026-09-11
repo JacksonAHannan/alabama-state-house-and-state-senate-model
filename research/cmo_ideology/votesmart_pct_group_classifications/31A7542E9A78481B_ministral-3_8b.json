@@ -1,0 +1,11 @@
+{
+  "policy_key": "cuba_travel_ban",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "medium",
+  "plain_english_policy": "Lifting the U.S. travel ban on Cuba would likely be framed as a progressive or liberal policy, often associated with easing restrictions and fostering diplomatic engagement over sanctions.",
+  "evidence_quote": "(No explicit quote provided in the option; this is a standalone question without candidate responses.)",
+  "needs_human_review": true,
+  "review_reason": "The question itself does not include a candidate's stance, so classification requires external context (e.g., historical Alabama candidate statements or party alignment)."
+}

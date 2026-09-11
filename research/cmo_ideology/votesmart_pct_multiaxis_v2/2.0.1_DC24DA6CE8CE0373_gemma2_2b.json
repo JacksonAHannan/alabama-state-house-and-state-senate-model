@@ -1,0 +1,24 @@
+{
+  "primary_domain": "childcare",
+  "policy_key": "family_support_enforcement",
+  "plain_english_policy": "Family Support Enforcement",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "This policy restricts the ability of parents to obtain licenses and permits. This is a restriction on access to resources."
+    },
+    {
+      "axis": "business_scale_alignment",
+      "pole": "small_business",
+      "strength": "secondary",
+      "rationale": "This policy could impact small businesses that rely on state-issued permits and licenses. This is a restriction on access to resources."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Deny or suspend state-issued permits and licenses to parents who are delinquent in paying court-ordered child support.",
+  "needs_human_review": false,
+  "review_reason": "This policy directly restricts access to resources for parents who fail to pay child support. This is a restriction on access to resources."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "birthright_citizenship_restriction",
+  "dimension": "immigration_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Restrict birthright citizenship to children of legal immigrants only.",
+  "evidence_quote": "Grant U.S. citizenship to children born in the US **only if their parents immigrated legally**.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "tax_distribution",
+  "plain_english_policy": "Do you support limits on the following types of contributions to candidates for state government?",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "Limits on political action committees could be seen as a form of market intervention to regulate campaign finance."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I believe that we need to have campaign finance reform. I think it's important for us to make sure that our elections are not bought by special interests.\" - Candidate Quote (2010)",
+  "needs_human_review": true,
+  "review_reason": "invalid pole 'tax_distribution' for welfare_policy"
+}

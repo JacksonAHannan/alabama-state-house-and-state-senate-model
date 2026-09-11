@@ -1,0 +1,24 @@
+{
+  "primary_domain": "healthcare",
+  "policy_key": "tax_incentives",
+  "plain_english_policy": "tax_incentives",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "business_scale_alignment",
+      "pole": "small_business",
+      "strength": "primary",
+      "rationale": "The option explicitly mentions tax incentives for small businesses."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "The option aims to incentivize healthcare provision by businesses, which is a form of welfare policy expansion."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Provide tax incentives to small businesses that provide health care to their employees.",
+  "needs_human_review": false,
+  "review_reason": "The option directly proposes a policy aimed at expanding healthcare access for employees through tax incentives."
+}

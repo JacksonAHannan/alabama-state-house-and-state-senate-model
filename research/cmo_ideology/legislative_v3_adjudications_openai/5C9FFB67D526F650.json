@@ -1,0 +1,10 @@
+{
+  "id": "5C9FFB67D526F650",
+  "decision": "map",
+  "primitive_axis": "healthcare_regulation_patient_rights",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Requires hospitals to disclose available financial assistance policies, strengthening patients' access to information about assistance.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

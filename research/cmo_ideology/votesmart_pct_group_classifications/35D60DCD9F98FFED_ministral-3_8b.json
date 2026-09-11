@@ -1,0 +1,11 @@
+{
+  "policy_key": "state_employee_compensation_cuts",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Cutting state employee salaries and/or pensions to balance the budget.",
+  "evidence_quote": "In order to balance the budget, do you support reducing **state employee salaries AND/OR pensions**?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

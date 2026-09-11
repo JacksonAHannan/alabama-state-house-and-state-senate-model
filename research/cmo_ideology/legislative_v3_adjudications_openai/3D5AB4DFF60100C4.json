@@ -1,0 +1,10 @@
+{
+  "id": "3D5AB4DFF60100C4",
+  "decision": "map",
+  "primitive_axis": "education_teacher_labor",
+  "policy_pole": "support",
+  "confidence": "high",
+  "rationale": "Crediting paraprofessional and teacher-aide experience on the salary schedule provides a concrete employment and compensation benefit to public school teachers.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -2,28 +2,29 @@
   "code_hashes": {
     "scripts/retrain_post2016_southern_war.py": "ead76fb849c93043d380cff7d2a14eb2a7bca31944134af207acf7002d2e075d",
     "scripts/retrain_post2016_southern_war_v2.py": "9a52de7cd3043f8d8a57d07a39e5914d257af2ffc3ebe2da8f17b2c9e8f0a730",
-    "scripts/retrain_post2016_southern_war_v3.py": "29d4f7b3b323b6146d82350b21dc1770a82a557059c9f2a88c1d3b346ad94997"
+    "scripts/retrain_post2016_southern_war_v3.py": "5cb2cc77953a6ab5b72ef6a9c5f6d021bc6303ea1b737c28cccdd86605048809",
+    "scripts/southern_war_training_frame.py": "9f7d15695959e45f8018fd7dfa5e7b702781eb60dadcd91fa1b91414c5bca2a7"
   },
   "configuration": {
     "candidate_pooling_in_headline_war": false,
     "cutoff_rule": "cycle > 2016",
     "finance_headline_included": false,
     "finance_sensitivity": {
-      "aggregate_mae": 6.042517585480973,
-      "coefficient": 3.0740005534091264,
-      "intercept": 0.049785578240970435,
+      "aggregate_mae": 6.03887094016181,
+      "coefficient": 3.069591371145095,
+      "intercept": 0.05137864378246393,
       "latest_cycle": 2024,
-      "latest_mae": 5.185924638937819,
-      "nested_forward_mae": 5.64552771825993,
+      "latest_mae": 5.187047489893588,
+      "nested_forward_mae": 5.6393766764200794,
       "nested_latest_cycle": 2024,
-      "nested_latest_mae": 5.185924638937819,
-      "nested_no_finance_latest_mae": 5.1254461654898575,
-      "nested_no_finance_mae": 5.625089389201357,
-      "no_finance_aggregate_mae": 6.019331857870977,
-      "no_finance_latest_mae": 5.1254461654898575,
+      "nested_latest_mae": 5.187047489893588,
+      "nested_no_finance_latest_mae": 5.126443318699879,
+      "nested_no_finance_mae": 5.6190943394785595,
+      "no_finance_aggregate_mae": 6.015956326091314,
+      "no_finance_latest_mae": 5.126443318699879,
       "predictive_gate_status": "fails_nested_forward_gate",
       "promotion_status": "rejected_not_comparable_total_spending_and_endogenous",
-      "retrospective_best_aggregate_mae": 5.9764305178639585,
+      "retrospective_best_aggregate_mae": 5.97239265862732,
       "retrospective_best_sensitivity": "viability_gated_10k",
       "selected_feature": "finance_viability_gated_log_ratio_250k",
       "selected_sensitivity": "viability_gated_250k",
@@ -47,10 +48,10 @@
     "selected_structural_alpha": 100.0,
     "selected_structural_specification": "decaying_lag",
     "structural_selection": {
-      "best_no_lag_forward_mae": 5.110486158550975,
+      "best_no_lag_forward_mae": 5.099786859931029,
       "lag_added_value_status": "passes_lag_added_value_gate",
-      "mae_improvement_vs_no_lag": 0.3051273953175908,
-      "selected_forward_mae": 4.805358763233384
+      "mae_improvement_vs_no_lag": 0.3039871625628283,
+      "selected_forward_mae": 4.795799697368201
     },
     "training_status": "strict_war_ready_no_finance"
   },
@@ -73,100 +74,104 @@
     "states": 14,
     "training_rows": 3660
   },
-  "generated_at_utc": "2026-09-08T13:19:42.054201+00:00",
+  "generated_at_utc": "2026-09-11T14:09:02.577810+00:00",
   "input_hashes": {
-    "data/processed/elections/alabama_elections.sqlite": "8cb49945d657b0d928dee1bfdaa33d4729c5c8fbda5c51217d1cc55492ba03b5",
     "data/processed/forecast_calibration/southern_legislative_probability_panel.csv": "09154b4ecd80e513acef147a73c9bdf3bb5ba95687ce1b58c6608fe9230315ed",
     "data/processed/presidential/2018_district_presidential_features.csv": "064c89b51842a26fa108da0b1ad7278f464b9a1c5faaa01aa44e8fffb5dc2d90",
     "data/processed/presidential/2022_district_presidential_features.csv": "b5243cebb2c7e8b22b2a1fee4598914920fca844f74ca80d17fd548d728b5bd3",
     "data/processed/war/post2016_southern_war_v2/manifest.json": "062c9e201d660052180ea629ccbbb0fd386c308de39fda031546d599020652f5",
-    "project_docs/model/POST2016_SOUTHERN_WAR_V3_FIELD_CONTRACT.md": "3de27261136fb5574fc7be90b23d599de919c9b8226a2c62772b5936190618dc"
+    "project_docs/model/POST2016_SOUTHERN_WAR_V3_FIELD_CONTRACT.md": "ef02716dda09bdfe38258da5047521d46cbb91e057ee103b0c837da0ca35f4d5"
   },
   "methodology_version": "post2016_southern_war_v3_residual",
-  "model_run_id": "WAR-POST2016-V3-4AF79A70EAA8F39EBD49",
+  "model_run_id": "WAR-POST2016-V3-530FBD4238CC483E557C",
   "outputs": [
     {
       "path": "data/processed/war/post2016_southern_war_v3/race_war.csv",
       "rows": 3660,
-      "sha256": "afe25d61789bc41c9d989615547291a706eae121540cd2569de1493a2190ccec"
+      "sha256": "cd0095ad902bc297c7b21cdef13e432f32ab27ccab9e29a08d002d9b374e3692"
     },
     {
       "path": "data/processed/war/post2016_southern_war_v3/candidate_cycle_war.csv",
       "rows": 7320,
-      "sha256": "f2bceaecbbf48639c586400069d353e496e436dccfed540d9e0918ffe327feaa"
+      "sha256": "7efe49b467070c840e6c4f8803b2516e2e1d7e1f930e1201ef7ed5af9e1c3176"
     },
     {
       "path": "data/processed/war/post2016_southern_war_v3/structural_forward_predictions.csv",
       "rows": 31620,
-      "sha256": "902aef644878cb15708b2b9bbf377cfb97a3b3dbec9455d5f7191954924eefef"
+      "sha256": "f3ad576406b24b601b3af09a6a719daf69326af96239c763e4a6fb6da71629f8"
     },
     {
       "path": "data/processed/war/post2016_southern_war_v3/structural_forward_metrics.csv",
       "rows": 120,
-      "sha256": "dc78b57e13e825ef24ea0c8b0bd69a5b196bf868a2fc4c79f182fd1a69f80568"
+      "sha256": "36c47fe60d03fcb910a0117448baae030cd668ff7ba458528a3f2d441a059bd6"
     },
     {
       "path": "data/processed/war/post2016_southern_war_v3/validation_cross_fitted_predictions.csv",
       "rows": 3660,
-      "sha256": "b89e9b7d7af693d4c5c31a7aa6658258bbd8ef58bd6d20f37b5608e0885059cb"
+      "sha256": "87415fbdc033646937f8bb3e8bfd19b6efaf7fdcdbad1d060824c238d4b4d621"
     },
     {
       "path": "data/processed/war/post2016_southern_war_v3/structural_coefficients_by_cycle.csv",
       "rows": 204,
-      "sha256": "23b302b16dc394af979975ef46363963bc68ba4d9b98d57c76afa49bfcb08969"
+      "sha256": "69062ae47fd8b9a4c48ca06fa1dc4bff6eff870c74487257ce1a4e93c925c7c1"
     },
     {
       "path": "data/processed/war/post2016_southern_war_v3/lag_diagnostics_by_cycle.csv",
       "rows": 6,
-      "sha256": "f98384cdb3d9110b7ab0bb12b95fb1294355263ed6c1010e26f74f945a237b11"
+      "sha256": "2c8dfe677a466cd29836b18cf357ff43c47ac1075ab928f3861337c57f13ac2d"
     },
     {
       "path": "data/processed/war/post2016_southern_war_v3/v2_correction_comparison.csv",
       "rows": 3660,
-      "sha256": "36da63330c7f83bccface9542a6f8b9c09eacfa1c2ab1d313f0d1d1683d681e9"
+      "sha256": "ced6d2aa8f190978f7b7f6bac2016851b0bad96a7919066bde9517e33306ae03"
     },
     {
       "path": "data/processed/war/post2016_southern_war_v3/coverage.csv",
       "rows": 94,
-      "sha256": "16c3dd3a61dd847e53bca4987b4dd95dc807b6dd81ba0dc40ef33c1b48bb79e5"
+      "sha256": "97b58ec44cb173d022795484d4086f52dad93d9ab6c9c6b4cf8c7eb615557c5d"
+    },
+    {
+      "path": "data/processed/war/post2016_southern_war_v3/training_frame.csv",
+      "rows": 3660,
+      "sha256": "c76a1f0b9147f18d562bbf81743b38e31abf733fc9a3eb24d3e34b03728dc842"
     },
     {
       "path": "data/processed/war/post2016_southern_war_v3/finance_forward_predictions.csv",
       "rows": 29003,
-      "sha256": "1092c2aac92ea1565539eb69527ceb47fcccc32a1b210d48e55bee6ec49c500a"
+      "sha256": "2074515f3fe03790d6b330593a4f3204158ccdfa4edaa79fa4965ecc27da9414"
     },
     {
       "path": "data/processed/war/post2016_southern_war_v3/finance_forward_metrics.csv",
       "rows": 78,
-      "sha256": "b56aac672bd1f9ff25b705ab479aa4c376be75c5cdbe6b0710764737fc493195"
+      "sha256": "8f7354fc6e6b827f02bc2b39fcb14a52312b8334fb8f2609f115b7d85770f053"
     },
     {
       "path": "data/processed/war/post2016_southern_war_v3/finance_nested_predictions.csv",
       "rows": 2754,
-      "sha256": "651b2586910ee46a159e34416c25066e669262432c4cb07c0740403cf319d02c"
+      "sha256": "80245344c04a0274c99ab7718207eb09d767f7ea4c72c3ccb55599146b8aa2bc"
     },
     {
       "path": "data/processed/war/post2016_southern_war_v3/finance_nested_metrics.csv",
       "rows": 8,
-      "sha256": "e7b08a63517e6c186d06546526b0df7cab210a27b80efd3868873faf9e1b77c1"
+      "sha256": "d8e475c57302b7a61ca00e4f593d883497712c4d62a2cfa90fec9e9569afa02c"
     }
   ],
   "reports": [
     {
       "path": "project_docs/model/POST2016_SOUTHERN_WAR_V3.md",
-      "sha256": "f1db2255b5467fe5e2959163343cfed02db788aac22f11b73b3450c95ec07774"
+      "sha256": "d082092462595fc5c62bd7f4436d856e85e6b1a33e302ec707a4d27979aaf152"
     },
     {
       "path": "project_docs/model/POST2016_SOUTHERN_WAR_V3_FIELD_CONTRACT.md",
-      "sha256": "3de27261136fb5574fc7be90b23d599de919c9b8226a2c62772b5936190618dc"
+      "sha256": "ef02716dda09bdfe38258da5047521d46cbb91e057ee103b0c837da0ca35f4d5"
     },
     {
       "path": "project_docs/audits/POST2016_SOUTHERN_WAR_V3_VALIDATION.md",
-      "sha256": "ea2b95d5f1b0877fe43824ac38b2e0d8aad2e254ee852d3c690db23f2bf254a3"
+      "sha256": "67e6ea9d544d37354229fd3ded8d1041e255c7eeb3cc8020b0ae458d20a60f2a"
     }
   ],
   "schema_version": 1,
-  "source_commit": "88878b973fdac3cee95a8d8648da321e38e0021c",
+  "source_commit": "720c3507b147bc0a7c048c4c84ab0262920802c1",
   "split_ticket_methodology": {
     "database_url": "https://split-ticket.org/full-wins-above-replacement-war-database/",
     "implemented_definition": "actual legislative-versus-ticket gap minus fitted structural gap",
@@ -174,6 +179,12 @@
     "portability_limit": "state model lacks complete comparable demographics and candidate-plus-outside spending"
   },
   "status": "research_candidate_pending_independent_validation",
-  "warehouse_build_run_id": "RUN-92AB8DE353AC47D6AECE3D7767C29FCD",
-  "warehouse_code_commit": "88878b973fdac3cee95a8d8648da321e38e0021c"
+  "training_frame": {
+    "loader": "scripts/southern_war_training_frame.py",
+    "rows": 3660,
+    "sha256": "cc9204796781b99a9d2945bf1a2caf9bcd1cba8c3f90d100622c5b162025874b",
+    "source": "mart_southern_war_training_with_finance WHERE cycle > 2016 AND training_status = strict_war_ready_no_finance"
+  },
+  "warehouse_build_run_id": "RUN-504CE4C4DF904D88A5A40D268F3FCEAB",
+  "warehouse_code_commit": "720c3507b147bc0a7c048c4c84ab0262920802c1"
 }

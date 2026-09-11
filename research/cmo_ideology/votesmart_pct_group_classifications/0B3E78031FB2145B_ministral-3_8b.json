@@ -1,0 +1,11 @@
+{
+  "policy_key": "pre_emptive_strikes",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option does not inherently align with a stable left/right ideological spectrum due to its procedural nature (i.e., it asks for support of a specific military action framework rather than a policy philosophy). Pre-emptive strikes are often debated on pragmatic grounds (e.g., deterrence, urgency) rather than strict partisan lines.",
+  "evidence_quote": "Do you support pre-emptive military strikes against countries deemed to be a threat to United States national security?",
+  "needs_human_review": true,
+  "review_reason": "The answer depends on the candidate's justification (e.g., 'only in extreme cases' vs. 'proactive aggression')."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "euthanasia_right_to_die",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting voluntary euthanasia (physician-assisted dying) for terminally ill patients with informed consent.",
+  "evidence_quote": "*Do you support legislation that grants citizens the right to choose to die through euthanasia?*",
+  "needs_human_review": false,
+  "review_reason": ""
+}

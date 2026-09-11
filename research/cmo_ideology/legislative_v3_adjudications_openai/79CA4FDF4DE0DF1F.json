@@ -1,0 +1,10 @@
+{
+  "id": "79CA4FDF4DE0DF1F",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The measure governs a sheriff's administrative disposition of abandoned or unclaimed property and firearms rather than establishing a clear general gun-access or purchase-regulation policy.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "4E493B9A8A6FC874",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "County-specific restructuring and operating provisions for an economic development authority are administrative and do not establish a clear allowed policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

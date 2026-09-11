@@ -1,0 +1,10 @@
+{
+  "id": "59375DAC1A8CFE4F",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Creates a sheriff's personnel appeals board; the reference to pistol permit fees is funding-related and does not establish a gun-access or gun-purchase-regulation policy.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

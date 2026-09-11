@@ -1,0 +1,10 @@
+{
+  "id": "C204F4226FEBCB05",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "punitive",
+  "confidence": "high",
+  "rationale": "The Alabama Stolen Valor Act creates a new crime with criminal penalties, clearly a punitive measure.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

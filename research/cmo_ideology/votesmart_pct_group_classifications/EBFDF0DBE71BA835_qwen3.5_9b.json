@@ -1,0 +1,11 @@
+{
+  "policy_key": "job_training_funding",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase funding for national job-training programs that retrain displaced workers or teach skills needed in today's job market.",
+  "evidence_quote": "a) Increase funding for national job-training programs that retrain displaced workers or teach skills needed in today\u0092s job market.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

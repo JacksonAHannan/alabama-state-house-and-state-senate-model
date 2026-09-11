@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_budget_funding_low",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option suggests a very low level of federal funding (less than $12,000), which is an administrative selection within the questionnaire rather than a substantive policy stance on spending priorities.",
+  "evidence_quote": "a) Less than $12,000",
+  "needs_human_review": false,
+  "review_reason": ""
+}

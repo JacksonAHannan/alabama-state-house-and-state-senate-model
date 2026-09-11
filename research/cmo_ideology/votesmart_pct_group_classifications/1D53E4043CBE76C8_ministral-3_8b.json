@@ -1,0 +1,11 @@
+{
+  "policy_key": "us_intergov_trade_orgs",
+  "dimension": "indeterminate",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Neutral/non-committal on U.S. participation in intergovernmental trade organizations (e.g., WTO, regional blocs).",
+  "evidence_quote": "*No explicit stance provided.*\n\n*(Note: The option is a yes/no question without an attached policy statement; the candidate\u2019s answer would determine classification.)*",
+  "needs_human_review": true,
+  "review_reason": "The questionnaire item lacks a verifiable position\u2014only the candidate\u2019s response could yield +1 (support), \u20131 (oppose), or 0 (mixed)."
+}

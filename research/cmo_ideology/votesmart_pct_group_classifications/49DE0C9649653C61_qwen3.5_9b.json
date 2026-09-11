@@ -1,0 +1,11 @@
+{
+  "policy_key": "international_aid_allies",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supports restricting international aid to countries that are close allies of the U.S. and in need.",
+  "evidence_quote": "Aid should be granted to countries that are close allies of the U. S. and in need of financial/military assistance.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

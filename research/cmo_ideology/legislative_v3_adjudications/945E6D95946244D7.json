@@ -1,0 +1,10 @@
+{
+  "id": "945E6D95946244D7",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "Definitional/technical amendment (redefining 'health insurers') with no clear policy impact on allowed axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

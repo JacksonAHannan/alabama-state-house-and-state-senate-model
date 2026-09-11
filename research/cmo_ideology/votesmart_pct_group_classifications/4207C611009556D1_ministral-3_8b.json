@@ -1,0 +1,11 @@
+{
+  "policy_key": "gender_pay_gap_alabama",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Closing the gender pay gap via state government intervention.",
+  "evidence_quote": "*[Verbatim text from the option would be required here\u2014since no specific candidate\u2019s exact wording is provided, this cannot be scored. Please provide a direct quote from the questionnaire or platform for classification.]",
+  "needs_human_review": true,
+  "review_reason": "No concrete candidate language provided; scoring requires explicit text."
+}

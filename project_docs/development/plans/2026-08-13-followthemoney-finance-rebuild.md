@@ -1,5 +1,7 @@
 # Candidate Finance Rebuild on FollowTheMoney Implementation Plan
 
+> **Historical proposal — not an active execution plan.** Retained as a dated design/implementation record. Do not execute its embedded instructions or treat unchecked steps as the current backlog. Use [current product routes](../../CANONICAL_PIPELINES.md) and the [internal phased checklist](../../PROJECT_COMPLETION_CHECKLIST.html); source authority, warehouse lifecycle and acceptance gates may have changed since this proposal.
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Replace `build_candidate_finance_features.py`'s FCPA-extract +

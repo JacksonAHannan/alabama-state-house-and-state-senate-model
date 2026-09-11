@@ -1,0 +1,10 @@
+{
+  "id": "6EF10320C1D732C4",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The description concerns arrest-warrant procedures for school employees and does not provide enough substantive detail to identify a single allowed education policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

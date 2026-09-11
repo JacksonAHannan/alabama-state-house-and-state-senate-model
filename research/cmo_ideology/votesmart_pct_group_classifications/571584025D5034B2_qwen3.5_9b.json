@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_environment_emission_controls",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Strengthening emission controls and fuel efficiency standards is a progressive environmental policy aimed at reducing pollution.",
+  "evidence_quote": "g) Strengthen emission controls and fuel efficiency standards on all gasoline and diesel-powered engines, including cars, trucks, and sport utility vehicles.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

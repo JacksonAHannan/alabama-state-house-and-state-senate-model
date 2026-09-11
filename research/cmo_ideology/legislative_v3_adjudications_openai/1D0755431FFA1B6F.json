@@ -1,0 +1,10 @@
+{
+  "id": "1D0755431FFA1B6F",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "Adopts voluntary sentencing standards, but the description does not establish whether the standards expand or reduce punishment or incarceration.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

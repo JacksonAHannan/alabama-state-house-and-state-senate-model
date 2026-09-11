@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "healthcare_access",
+  "plain_english_policy": "Do you support interstate health insurance compacts?",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Interstate health insurance compacts would restrict the ability of states to implement their own healthcare policies, potentially limiting consumer choice and state-level solutions."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I do not support interstate health insurance compacts because they could undermine the authority of individual states to regulate their own healthcare systems.\" - Candidate statement from 2010 campaign materials.",
+  "needs_human_review": true,
+  "review_reason": "The policy is classified as a restriction on welfare_policy:healthcare_access, with secondary strength due to potential undermining of state-level solutions."
+}

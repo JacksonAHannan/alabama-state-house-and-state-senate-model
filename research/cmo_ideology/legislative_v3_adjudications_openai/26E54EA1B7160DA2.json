@@ -1,0 +1,10 @@
+{
+  "id": "26E54EA1B7160DA2",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Reduces pistol-permit fees for older applicants, making lawful handgun access less burdensome.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

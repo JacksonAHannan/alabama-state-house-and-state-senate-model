@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_job_training_responsibility",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Job training is a service where responsibility can vary by state and federal context; it often involves shared jurisdiction rather than exclusive control.",
+  "evidence_quote": "5) Job training",
+  "needs_human_review": false,
+  "review_reason": ""
+}

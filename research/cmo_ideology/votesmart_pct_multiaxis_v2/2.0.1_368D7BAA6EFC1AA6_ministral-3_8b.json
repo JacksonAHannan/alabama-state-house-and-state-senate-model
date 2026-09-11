@@ -1,0 +1,30 @@
+{
+  "primary_domain": "education",
+  "policy_key": "local_control_over_funding_and_standards",
+  "plain_english_policy": "Advocates for transferring authority to local communities to determine how public school funding is allocated and what educational standards are enforced.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "education_governance",
+      "pole": "public_system",
+      "strength": "secondary",
+      "rationale": "The option implies a shift in governance within the public system by decentralizing decision-making to local levels, rather than advocating for market-based alternatives."
+    },
+    {
+      "axis": "institutional_populism",
+      "pole": "popular_control",
+      "strength": "primary",
+      "rationale": "The explicit mention of 'communities' and 'local control' aligns with populist principles of empowering ordinary citizens over centralized institutions."
+    },
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "While not explicitly market-oriented, the option implies a form of governance intervention (decentralization) to shape public policy outcomes."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"communities control over local school funding and standards\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_income_tax_threshold",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "This option sets a specific income threshold for tax treatment but lacks the broader policy context needed to determine its ideological direction.",
+  "evidence_quote": "f) Over $40, 000",
+  "needs_human_review": true,
+  "review_reason": "The text fragment 'Over $40, 000' is an incomplete sentence or list item that does not specify the policy action (e.g., exemption vs. surcharge) required to assign a political dimension."
+}

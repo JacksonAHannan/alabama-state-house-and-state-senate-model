@@ -1,0 +1,10 @@
+{
+  "id": "D88999DCFEC15133",
+  "decision": "map",
+  "primitive_axis": "environmental_protection",
+  "policy_pole": "weaken",
+  "confidence": "high",
+  "rationale": "The bill imposes a 24-month moratorium on issuing permits for certain solid waste landfills, effectively restricting environmental oversight and weakening protections.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

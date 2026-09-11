@@ -1,0 +1,10 @@
+{
+  "id": "51F639EA0C6671FC",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "expand",
+  "confidence": "medium",
+  "rationale": "Authorizing the sheriff to sell abandoned or stolen firearms to the highest bidder facilitates lawful access to firearms, although the provision is limited to a county and specified weapons.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

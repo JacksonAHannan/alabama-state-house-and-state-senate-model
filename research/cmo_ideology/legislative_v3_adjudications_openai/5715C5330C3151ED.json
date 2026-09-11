@@ -1,0 +1,10 @@
+{
+  "id": "5715C5330C3151ED",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "Limiting criminal penalties to intentional violations narrows liability but does not clearly correspond to either the punitive or rehabilitative pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

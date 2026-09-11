@@ -12,7 +12,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from southern_war_map_contract import STATE_FIPS, scheduled_keys_2016_2022
+from southern_war_map_contract import STATE_FIPS, scheduled_keys_2016_2024
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -31,7 +31,7 @@ def sha256(path: Path) -> str:
 
 def requested_assets() -> list[dict[str, object]]:
     rows: list[dict[str, object]] = []
-    for state, cycle, chamber in sorted(scheduled_keys_2016_2022()):
+    for state, cycle, chamber in sorted(scheduled_keys_2016_2024()):
         layer = "sldl" if chamber == "lower" else "sldu"
         filename = f"cb_{cycle}_{STATE_FIPS[state]}_{layer}_500k.zip"
         rows.append({
@@ -105,8 +105,8 @@ def main() -> None:
             "ingest_status": "acquired",
         })
     frame = pd.DataFrame(output)
-    if frame.duplicated(["state_code", "cycle", "chamber"]).any() or len(frame) != 90:
-        raise ValueError("Election-year Southern geometry schedule must contain 90 unique slices")
+    if frame.duplicated(["state_code", "cycle", "chamber"]).any() or len(frame) != 116:
+        raise ValueError("Election-year Southern geometry schedule must contain 116 unique slices")
     columns = [
         "source_file_id", "provider", "source_url", "retrieved_at", "sha256",
         "media_type", "license_or_terms", "state_code", "cycle", "chamber",

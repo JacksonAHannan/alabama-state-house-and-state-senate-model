@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "tax_distribution",
+  "plain_english_policy": "Do you support limits on the following types of contributions to candidates for state government?",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "Limits on campaign finance could be seen as an intervention in the market of political contributions."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I believe that there should be reasonable limits on the types of contributions to state government campaigns.\" - Candidate's statement during campaign finance debate.",
+  "needs_human_review": true,
+  "review_reason": "invalid pole 'tax_distribution' for welfare_policy"
+}

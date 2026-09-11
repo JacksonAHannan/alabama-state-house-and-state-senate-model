@@ -1,0 +1,10 @@
+{
+  "id": "E7909EAB8DAF6959",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Adds and allocates county court costs but does not clearly establish a permitted criminal-justice policy direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

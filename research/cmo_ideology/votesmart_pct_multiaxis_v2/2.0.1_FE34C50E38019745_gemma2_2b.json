@@ -1,0 +1,24 @@
+{
+  "primary_domain": "education",
+  "policy_key": "market_governance",
+  "plain_english_policy": "intervention",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "none"
+    },
+    {
+      "axis": "business_scale_alignment",
+      "pole": "small_business",
+      "strength": "secondary",
+      "rationale": "none"
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "Do you support adopting federal education standards in Alabama?",
+  "needs_human_review": false,
+  "review_reason": "This question asks for a stance on the adoption of federal education standards. This is a policy that would impact the market and how businesses operate."
+}

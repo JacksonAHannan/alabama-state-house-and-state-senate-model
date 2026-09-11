@@ -1,0 +1,11 @@
+{
+  "policy_key": "open_space_funding",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Advocating for public funds to protect undeveloped land (e.g., parks, conservation areas) typically aligns with progressive environmental priorities.",
+  "evidence_quote": "Support funding for open space preservation.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

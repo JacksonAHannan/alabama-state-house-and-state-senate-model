@@ -1,0 +1,11 @@
+{
+  "policy_key": "eliminate_federal_student_aid_for_drug_convictions",
+  "dimension": "education_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Remove federal financial aid eligibility for students with drug-related convictions.",
+  "evidence_quote": "Eliminate federal financial aid for individuals convicted of drug offenses.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

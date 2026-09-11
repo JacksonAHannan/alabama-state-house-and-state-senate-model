@@ -33,3 +33,9 @@ __pycache__/
 # Generated execution logs.
 *.log
 *.err.log
+
+# 2026-09-11: scratch and oversized replay material kept locally, not committed
+/.validation_tmp/
+/tmp/
+/.omp/
+/artifacts/warehouse/legacy_source_lineage_20260908/

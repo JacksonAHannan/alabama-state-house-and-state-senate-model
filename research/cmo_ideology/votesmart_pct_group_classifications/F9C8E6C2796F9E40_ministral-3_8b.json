@@ -1,0 +1,11 @@
+{
+  "policy_key": "marriage_definition_amendment",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Would you vote for a federal amendment to legally restrict marriage to opposite-sex couples?",
+  "evidence_quote": "Do you support a federal constitutional amendment defining marriage as between a man and a woman?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

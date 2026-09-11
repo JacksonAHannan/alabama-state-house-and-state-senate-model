@@ -1,0 +1,11 @@
+{
+  "policy_key": "reduce_federal_env_regs",
+  "dimension": "environment_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Cutting back on federal rules that protect the environment (e.g., EPA oversight, pollution limits).",
+  "evidence_quote": "Reduce current federal regulations on the environment.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

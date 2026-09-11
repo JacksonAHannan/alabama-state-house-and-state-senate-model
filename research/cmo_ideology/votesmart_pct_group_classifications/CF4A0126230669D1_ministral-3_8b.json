@@ -1,0 +1,11 @@
+{
+  "policy_key": "social_security_means_testing",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Reduce Social Security benefits for wealthy recipients by capping or adjusting payouts based on their other income/wealth.",
+  "evidence_quote": "Limit Social Security benefits based on recipients' other income and assets.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "childcare_delivery",
+  "plain_english_policy": "Provide tax credits for businesses that provide child care for their employees.",
+  "substantive": false,
+  "effects": [],
+  "confidence": "low",
+  "evidence_quote": "\"Provide tax credits for businesses that provide child care for their employees.\" - Question on Employment and Affirmative Action Issues, Section: Employment and Affirmative Action Issues, Year: 2002",
+  "needs_human_review": true,
+  "review_reason": "The policy is described as providing tax credits to employers who offer childcare services. This could be seen as a market-based incentive for businesses to provide these services.; invalid pole 'business_scale_alignment' for market_governance; invalid pole 'childcare_delivery' for welfare_policy"
+}

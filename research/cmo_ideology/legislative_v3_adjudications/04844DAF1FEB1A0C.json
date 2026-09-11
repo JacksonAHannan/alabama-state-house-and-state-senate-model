@@ -1,0 +1,10 @@
+{
+  "id": "04844DAF1FEB1A0C",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "Exclusion of a specific employee group from a prescription program is a narrow, administrative exclusion with no clear policy direction on healthcare access or regulation.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

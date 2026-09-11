@@ -1,0 +1,11 @@
+{
+  "policy_key": "unregulated_soft_money_contributions",
+  "dimension": "government_reform_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Allowing unlimited, unregulated campaign donations to political parties or committees without donor disclosure requirements.",
+  "evidence_quote": "Allow unregulated soft money campaign contributions to political parties or committees.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

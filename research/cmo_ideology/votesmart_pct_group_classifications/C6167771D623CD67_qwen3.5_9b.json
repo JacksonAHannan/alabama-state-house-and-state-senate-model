@@ -1,0 +1,11 @@
+{
+  "policy_key": "wealth_tax",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "A wealth tax is generally considered a progressive policy aimed at reducing economic inequality by taxing the assets of high-net-worth individuals to fund public programs.",
+  "evidence_quote": "Do you support a wealth tax in order to pay for public programs?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

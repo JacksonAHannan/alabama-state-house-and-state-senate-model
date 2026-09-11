@@ -1,0 +1,11 @@
+{
+  "policy_key": "job_training_funding",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase public spending on programs that help workers adapt to new job requirements or recover from layoffs.",
+  "evidence_quote": "Increase funding for national job-training programs that retrain displaced workers or teach skills needed in today\u2019s job market.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,30 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "family_support_enforcement",
+  "plain_english_policy": "Early Release of Offenders",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "labor_capital_alignment",
+      "pole": "labor",
+      "strength": "secondary",
+      "rationale": "This policy may impact labor markets by affecting the availability of workers and potentially impacting wages."
+    },
+    {
+      "axis": "business_scale_alignment",
+      "pole": "small_business",
+      "strength": "primary",
+      "rationale": "Early release of offenders could affect small businesses in terms of labor costs, competition, and potential safety concerns."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "This policy may be seen as a restriction on the criminal justice system's ability to address crime and public safety."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "Issuing the early release of certain non-violent offenders",
+  "needs_human_review": false,
+  "review_reason": "This policy is a criminal justice reform measure that may impact labor markets and business operations."
+}

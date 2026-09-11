@@ -1,0 +1,10 @@
+{
+  "id": "31A67D6A657E3F4D",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "Authorizes unspecified economic-development actions in Etowah County and municipalities, leaving the operative policy direction too unclear to map.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

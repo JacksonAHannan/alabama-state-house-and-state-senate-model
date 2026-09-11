@@ -1,0 +1,10 @@
+{
+  "id": "5A7067DE229248FB",
+  "decision": "map",
+  "primitive_axis": "police_authority",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "The measure grants arrest powers to the director and employees of a county punishment and corrections authority.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "increase_us_financial_support_afghanistan",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks whether the US should increase financial support to Afghanistan without specifying a partisan or ideological stance.",
+  "evidence_quote": "d) Should the United States increase financial support to Afghanistan?",
+  "needs_human_review": true,
+  "review_reason": "This is a binary policy question (Yes/No) regarding foreign aid. The direction of this specific option cannot be classified as conservative or progressive without knowing if 'increasing' implies more interventionism vs. humanitarian necessity; it lacks inherent ideological valence in isolation."
+}

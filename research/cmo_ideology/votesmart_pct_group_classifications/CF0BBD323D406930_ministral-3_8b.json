@@ -1,0 +1,11 @@
+{
+  "policy_key": "darfur_intervention",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Whether the U.S. should intervene militarily or diplomatically to stop violence in Darfur, Sudan.",
+  "evidence_quote": "Should the United States be involved in bringing an end to the violence in Darfur, Sudan?",
+  "needs_human_review": true,
+  "review_reason": "The option is a direct question without explicit policy language or ideological framing. The answer would require inferring intent from candidate responses (not provided here)."
+}

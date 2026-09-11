@@ -1,0 +1,10 @@
+{
+  "id": "EE1E66E2D65DBE66",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "No validated mapping after structured review: KeyError",
+  "terminal_status": "excluded_text_or_model_output_insufficient",
+  "authority": "codex_fail_closed_validation"
+}

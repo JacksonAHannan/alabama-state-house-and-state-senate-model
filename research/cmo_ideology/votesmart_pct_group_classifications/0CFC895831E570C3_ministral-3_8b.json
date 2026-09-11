@@ -1,0 +1,11 @@
+{
+  "policy_key": "un_peacekeeping_participation",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The US should only join UN peacekeeping missions if they directly threaten core American interests.",
+  "evidence_quote": "The US should participate in UN peacekeeping missions **only when vital US interests are directly threatened**.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

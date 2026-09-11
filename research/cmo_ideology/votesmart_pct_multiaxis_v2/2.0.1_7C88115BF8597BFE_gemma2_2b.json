@@ -1,0 +1,18 @@
+{
+  "primary_domain": "taxation",
+  "policy_key": "tax_distribution",
+  "plain_english_policy": "restriction",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "secondary"
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "Income taxes (mid-income families)",
+  "needs_human_review": false,
+  "review_reason": "The candidate supports restricting income taxes for mid-income families. This suggests a regressive tax policy."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "income_tax_75k_to_150k",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Tax rate adjustments for family incomes between $75,000 and $150,000 (typically progressive leaning)",
+  "evidence_quote": "d) Family income $75-150,000",
+  "needs_human_review": false,
+  "review_reason": ""
+}

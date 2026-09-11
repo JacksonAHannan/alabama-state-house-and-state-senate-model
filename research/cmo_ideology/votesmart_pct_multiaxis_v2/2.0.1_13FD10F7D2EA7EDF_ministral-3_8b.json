@@ -1,0 +1,36 @@
+{
+  "primary_domain": "conservation",
+  "policy_key": "open_space_preservation_funding",
+  "plain_english_policy": "Directly fund public or nonprofit acquisition/protection of undeveloped land to maintain natural areas, agricultural buffers, or scenic corridors.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "conservation_preservation",
+      "pole": "preserve",
+      "strength": "primary",
+      "rationale": "Explicitly targets preservation of undeveloped land, not resource extraction or development."
+    },
+    {
+      "axis": "resource_development",
+      "pole": "restrict",
+      "strength": "secondary",
+      "rationale": "Preservation inherently limits future development on preserved lands."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "primary",
+      "rationale": "Funding is directed to government or nonprofit entities, not private actors."
+    },
+    {
+      "axis": "resource_management",
+      "pole": "active_management",
+      "strength": "secondary",
+      "rationale": "Preservation requires ongoing stewardship (e.g., land acquisition, zoning enforcement)."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Support funding for open space preservation\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

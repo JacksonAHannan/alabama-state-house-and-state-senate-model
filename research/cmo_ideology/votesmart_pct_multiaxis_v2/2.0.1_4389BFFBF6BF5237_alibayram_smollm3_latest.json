@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "affirmative_action",
+  "plain_english_policy": "Support for State Affirmative Action Programs",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "Affirmative action programs are typically seen as expanding opportunities for marginalized groups."
+    },
+    {
+      "axis": "civil_social_liberty",
+      "pole": "expand",
+      "strength": "primary",
+      "rationale": "Supporting affirmative action is often framed in terms of promoting civil liberties and equality, which can be considered an expansion of these rights."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I believe that the state should use affirmative action to ensure equal opportunities for all citizens.\" - Candidate's statement on social issues in 2010.",
+  "needs_human_review": true,
+  "review_reason": "The policy is described as supporting affirmative action, which can be seen as expanding welfare and civil liberties."
+}

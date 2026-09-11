@@ -1,0 +1,11 @@
+{
+  "policy_key": "abortion_waiting_periods",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option supports state-level waiting periods and notification requirements for abortions.",
+  "evidence_quote": "Abortions should be limited by waiting periods and notification requirements as decided by each state government.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

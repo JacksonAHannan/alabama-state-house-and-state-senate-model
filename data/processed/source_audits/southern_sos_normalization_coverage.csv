@@ -1,0 +1,136 @@
+state_code,cycle,acquisition_status,normalization_status,source_files,candidate_results,limitation,build_run_id
+AL,,external_or_missing,existing_canonical,0,0,Alabama remains in fact_candidate_election and was not reacquired,RUN-35590D9B96854406956CCF248F60CB6A
+AR,1994.0,downloaded,parsed,1,161,,RUN-35590D9B96854406956CCF248F60CB6A
+AR,1996.0,downloaded,parsed,3,105,,RUN-35590D9B96854406956CCF248F60CB6A
+AR,1998.0,downloaded,parsed,4,175,,RUN-35590D9B96854406956CCF248F60CB6A
+AR,2000.0,downloaded,parsed,6,96,,RUN-35590D9B96854406956CCF248F60CB6A
+AR,2002.0,downloaded,registered_unparsed,2,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+AR,2004.0,downloaded,registered_unparsed,1,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+AR,2006.0,downloaded,registered_unparsed,2,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+AR,2008.0,downloaded,registered_unparsed,2,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+AR,2010.0,downloaded,parsed,1,23,,RUN-35590D9B96854406956CCF248F60CB6A
+AR,2012.0,downloaded,parsed,1,167,,RUN-35590D9B96854406956CCF248F60CB6A
+AR,2014.0,downloaded,parsed,1,109,,RUN-35590D9B96854406956CCF248F60CB6A
+AR,2016.0,downloaded,parsed,1,106,,RUN-35590D9B96854406956CCF248F60CB6A
+FL,1994.0,not_found_on_archive,registered_unparsed,0,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+FL,1996.0,not_found_on_archive,registered_unparsed,0,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+FL,1998.0,not_found_on_archive,registered_unparsed,0,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+FL,2000.0,not_found_on_archive,registered_unparsed,0,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+FL,2002.0,not_found_on_archive,registered_unparsed,0,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+FL,2004.0,not_found_on_archive,registered_unparsed,0,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+FL,2006.0,not_found_on_archive,registered_unparsed,0,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+FL,2008.0,not_found_on_archive,registered_unparsed,0,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+FL,2010.0,not_found_on_archive,registered_unparsed,0,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+FL,2012.0,downloaded,parsed,2,592,,RUN-35590D9B96854406956CCF248F60CB6A
+FL,2014.0,downloaded,parsed,2,465,,RUN-35590D9B96854406956CCF248F60CB6A
+FL,2016.0,downloaded,parsed,3,580,,RUN-35590D9B96854406956CCF248F60CB6A
+GA,1994.0,not_found_on_archive,not_acquired,0,0,Official bulk results were unavailable to automated acquisition,RUN-35590D9B96854406956CCF248F60CB6A
+GA,1996.0,not_found_on_archive,not_acquired,0,0,Official bulk results were unavailable to automated acquisition,RUN-35590D9B96854406956CCF248F60CB6A
+GA,1998.0,not_found_on_archive,not_acquired,0,0,Official bulk results were unavailable to automated acquisition,RUN-35590D9B96854406956CCF248F60CB6A
+GA,2000.0,not_found_on_archive,not_acquired,0,0,Official bulk results were unavailable to automated acquisition,RUN-35590D9B96854406956CCF248F60CB6A
+GA,2002.0,not_found_on_archive,not_acquired,0,0,Official bulk results were unavailable to automated acquisition,RUN-35590D9B96854406956CCF248F60CB6A
+GA,2004.0,not_found_on_archive,not_acquired,0,0,Official bulk results were unavailable to automated acquisition,RUN-35590D9B96854406956CCF248F60CB6A
+GA,2006.0,not_found_on_archive,not_acquired,0,0,Official bulk results were unavailable to automated acquisition,RUN-35590D9B96854406956CCF248F60CB6A
+GA,2008.0,not_found_on_archive,not_acquired,0,0,Official bulk results were unavailable to automated acquisition,RUN-35590D9B96854406956CCF248F60CB6A
+GA,2010.0,not_found_on_archive,not_acquired,0,0,Official bulk results were unavailable to automated acquisition,RUN-35590D9B96854406956CCF248F60CB6A
+GA,2012.0,not_found_on_archive,not_acquired,0,0,Official bulk results were unavailable to automated acquisition,RUN-35590D9B96854406956CCF248F60CB6A
+GA,2014.0,not_found_on_archive,not_acquired,0,0,Official bulk results were unavailable to automated acquisition,RUN-35590D9B96854406956CCF248F60CB6A
+GA,2016.0,not_found_on_archive,not_acquired,0,0,Official bulk results were unavailable to automated acquisition,RUN-35590D9B96854406956CCF248F60CB6A
+KY,1994.0,downloaded,registered_unparsed,8,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+KY,1996.0,downloaded,registered_unparsed,12,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+KY,1998.0,downloaded,registered_unparsed,8,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+KY,2000.0,downloaded,parsed,518,194,,RUN-35590D9B96854406956CCF248F60CB6A
+KY,2002.0,downloaded,parsed,247,181,,RUN-35590D9B96854406956CCF248F60CB6A
+KY,2004.0,downloaded,parsed,247,203,,RUN-35590D9B96854406956CCF248F60CB6A
+KY,2006.0,downloaded,parsed,247,188,,RUN-35590D9B96854406956CCF248F60CB6A
+KY,2008.0,downloaded,parsed,248,179,,RUN-35590D9B96854406956CCF248F60CB6A
+KY,2010.0,downloaded,registered_unparsed,149,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+KY,2012.0,downloaded,registered_unparsed,126,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+KY,2014.0,downloaded,registered_unparsed,124,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+KY,2016.0,downloaded,registered_unparsed,118,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+LA,1995.0,downloaded,parsed,146,403,,RUN-35590D9B96854406956CCF248F60CB6A
+LA,1999.0,downloaded,parsed,98,245,,RUN-35590D9B96854406956CCF248F60CB6A
+LA,2003.0,downloaded,parsed,109,297,,RUN-35590D9B96854406956CCF248F60CB6A
+LA,2007.0,downloaded,parsed,158,440,,RUN-35590D9B96854406956CCF248F60CB6A
+LA,2011.0,downloaded,parsed,108,271,,RUN-35590D9B96854406956CCF248F60CB6A
+LA,2015.0,downloaded,parsed,90,230,,RUN-35590D9B96854406956CCF248F60CB6A
+LA,2019.0,downloaded,parsed,123,326,,RUN-35590D9B96854406956CCF248F60CB6A
+LA,2023.0,downloaded,parsed,98,246,,RUN-35590D9B96854406956CCF248F60CB6A
+MO,1994.0,not_found_on_archive,not_acquired,0,0,Official bulk results were unavailable to automated acquisition,RUN-35590D9B96854406956CCF248F60CB6A
+MO,1996.0,downloaded,not_acquired,1,0,Official bulk results were unavailable to automated acquisition,RUN-35590D9B96854406956CCF248F60CB6A
+MO,1998.0,not_found_on_archive,not_acquired,0,0,Official bulk results were unavailable to automated acquisition,RUN-35590D9B96854406956CCF248F60CB6A
+MO,2000.0,downloaded,not_acquired,1,0,Official bulk results were unavailable to automated acquisition,RUN-35590D9B96854406956CCF248F60CB6A
+MO,2002.0,downloaded,not_acquired,1,0,Official bulk results were unavailable to automated acquisition,RUN-35590D9B96854406956CCF248F60CB6A
+MO,2004.0,downloaded,not_acquired,1,0,Official bulk results were unavailable to automated acquisition,RUN-35590D9B96854406956CCF248F60CB6A
+MO,2006.0,downloaded,not_acquired,1,0,Official bulk results were unavailable to automated acquisition,RUN-35590D9B96854406956CCF248F60CB6A
+MO,2008.0,downloaded,not_acquired,1,0,Official bulk results were unavailable to automated acquisition,RUN-35590D9B96854406956CCF248F60CB6A
+MO,2010.0,downloaded,not_acquired,1,0,Official bulk results were unavailable to automated acquisition,RUN-35590D9B96854406956CCF248F60CB6A
+MO,2012.0,downloaded,not_acquired,1,0,Official bulk results were unavailable to automated acquisition,RUN-35590D9B96854406956CCF248F60CB6A
+MO,2014.0,downloaded,not_acquired,1,0,Official bulk results were unavailable to automated acquisition,RUN-35590D9B96854406956CCF248F60CB6A
+MO,2016.0,downloaded,not_acquired,1,0,Official bulk results were unavailable to automated acquisition,RUN-35590D9B96854406956CCF248F60CB6A
+MS,1995.0,not_found_on_archive,review_queue,0,0,Downloaded county recaps are PDF-only and require a validated extraction adapter,RUN-35590D9B96854406956CCF248F60CB6A
+MS,1999.0,not_found_on_archive,review_queue,0,0,Downloaded county recaps are PDF-only and require a validated extraction adapter,RUN-35590D9B96854406956CCF248F60CB6A
+MS,2003.0,downloaded,review_queue,83,0,Downloaded county recaps are PDF-only and require a validated extraction adapter,RUN-35590D9B96854406956CCF248F60CB6A
+MS,2007.0,downloaded,review_queue,83,0,Downloaded county recaps are PDF-only and require a validated extraction adapter,RUN-35590D9B96854406956CCF248F60CB6A
+MS,2011.0,downloaded,review_queue,83,0,Downloaded county recaps are PDF-only and require a validated extraction adapter,RUN-35590D9B96854406956CCF248F60CB6A
+MS,2015.0,downloaded,review_queue,83,0,Downloaded county recaps are PDF-only and require a validated extraction adapter,RUN-35590D9B96854406956CCF248F60CB6A
+NC,1994.0,not_found_on_archive,registered_unparsed,0,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+NC,1996.0,not_found_on_archive,registered_unparsed,0,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+NC,1998.0,not_found_on_archive,registered_unparsed,0,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+NC,2000.0,downloaded,parsed,1,45,,RUN-35590D9B96854406956CCF248F60CB6A
+NC,2002.0,downloaded,parsed,2,671,,RUN-35590D9B96854406956CCF248F60CB6A
+NC,2004.0,downloaded,parsed,3,574,,RUN-35590D9B96854406956CCF248F60CB6A
+NC,2006.0,downloaded,parsed,4,418,,RUN-35590D9B96854406956CCF248F60CB6A
+NC,2008.0,downloaded,parsed,3,324,,RUN-35590D9B96854406956CCF248F60CB6A
+NC,2010.0,downloaded,parsed,3,589,,RUN-35590D9B96854406956CCF248F60CB6A
+NC,2012.0,downloaded,parsed,3,635,,RUN-35590D9B96854406956CCF248F60CB6A
+NC,2014.0,downloaded,parsed,3,501,,RUN-35590D9B96854406956CCF248F60CB6A
+NC,2016.0,downloaded,parsed,4,551,,RUN-35590D9B96854406956CCF248F60CB6A
+OK,1994.0,downloaded,registered_unparsed,1,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+OK,1996.0,downloaded,registered_unparsed,1,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+OK,1998.0,downloaded,registered_unparsed,1,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+OK,2000.0,downloaded,registered_unparsed,1,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+OK,2002.0,downloaded,registered_unparsed,1,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+OK,2004.0,downloaded,registered_unparsed,1,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+OK,2006.0,downloaded,registered_unparsed,1,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+OK,2008.0,downloaded,registered_unparsed,1,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+OK,2010.0,downloaded,registered_unparsed,2,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+OK,2012.0,downloaded,parsed,2,95,,RUN-35590D9B96854406956CCF248F60CB6A
+OK,2014.0,downloaded,parsed,2,111,,RUN-35590D9B96854406956CCF248F60CB6A
+OK,2016.0,downloaded,parsed,2,210,,RUN-35590D9B96854406956CCF248F60CB6A
+SC,1994.0,downloaded,registered_unparsed,1,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+SC,1996.0,downloaded,registered_unparsed,1,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+SC,1998.0,downloaded,registered_unparsed,1,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+SC,2000.0,downloaded,registered_unparsed,1,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+SC,2002.0,downloaded,registered_unparsed,1,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+SC,2004.0,downloaded,registered_unparsed,1,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+SC,2006.0,downloaded,registered_unparsed,2,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+SC,2008.0,downloaded,parsed,49,429,,RUN-35590D9B96854406956CCF248F60CB6A
+SC,2010.0,downloaded,parsed,49,341,,RUN-35590D9B96854406956CCF248F60CB6A
+SC,2012.0,downloaded,parsed,50,446,,RUN-35590D9B96854406956CCF248F60CB6A
+SC,2014.0,downloaded,parsed,49,316,,RUN-35590D9B96854406956CCF248F60CB6A
+SC,2016.0,downloaded,parsed,49,429,,RUN-35590D9B96854406956CCF248F60CB6A
+TN,1994.0,not_found_on_archive,registered_unparsed,0,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+TN,1996.0,downloaded,registered_unparsed,1,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+TN,1998.0,downloaded,registered_unparsed,25,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+TN,2000.0,downloaded,registered_unparsed,42,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+TN,2002.0,downloaded,registered_unparsed,47,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+TN,2004.0,downloaded,registered_unparsed,38,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+TN,2006.0,downloaded,registered_unparsed,65,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+TN,2008.0,downloaded,parsed,51,230,,RUN-35590D9B96854406956CCF248F60CB6A
+TN,2010.0,downloaded,parsed,40,282,,RUN-35590D9B96854406956CCF248F60CB6A
+TN,2012.0,downloaded,parsed,30,267,,RUN-35590D9B96854406956CCF248F60CB6A
+TN,2014.0,downloaded,parsed,3,240,,RUN-35590D9B96854406956CCF248F60CB6A
+TN,2016.0,downloaded,parsed,3,608,,RUN-35590D9B96854406956CCF248F60CB6A
+TX,,external_or_missing,external_repository,0,0,Texas results remain in the companion Texas repository,RUN-35590D9B96854406956CCF248F60CB6A
+VA,1995.0,not_found_on_archive,registered_unparsed,0,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+VA,1997.0,not_found_on_archive,registered_unparsed,0,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+VA,1999.0,not_found_on_archive,registered_unparsed,0,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+VA,2001.0,not_found_on_archive,registered_unparsed,0,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+VA,2003.0,not_found_on_archive,registered_unparsed,0,0,No validated adapter for the acquired artifact format,RUN-35590D9B96854406956CCF248F60CB6A
+VA,2005.0,downloaded,parsed,1,261,,RUN-35590D9B96854406956CCF248F60CB6A
+VA,2007.0,downloaded,parsed,1,245,,RUN-35590D9B96854406956CCF248F60CB6A
+VA,2009.0,downloaded,parsed,1,284,,RUN-35590D9B96854406956CCF248F60CB6A
+VA,2011.0,downloaded,parsed,1,241,,RUN-35590D9B96854406956CCF248F60CB6A
+VA,2013.0,downloaded,parsed,1,266,,RUN-35590D9B96854406956CCF248F60CB6A
+VA,2015.0,downloaded,parsed,1,243,,RUN-35590D9B96854406956CCF248F60CB6A

@@ -1,0 +1,10 @@
+{
+  "id": "B7753F6D5A3F4B1A",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Revises Medicaid nursing-facility reimbursement ceilings, with direction and policy implications insufficiently specified; the measure is also described as including technical revisions.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

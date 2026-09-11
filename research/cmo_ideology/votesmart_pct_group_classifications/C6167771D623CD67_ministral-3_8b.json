@@ -1,0 +1,11 @@
+{
+  "policy_key": "wealth_tax_support",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "A tax specifically targeting high-net-worth individuals to fund public services.",
+  "evidence_quote": "*[No direct quote provided in the prompt, but conventionally this position is classified as follows:]*",
+  "needs_human_review": true,
+  "review_reason": "The option lacks a verbatim candidate statement. A human would need to verify if the candidate explicitly endorsed a wealth tax (e.g., 'I support a wealth tax') or framed it ambiguously (e.g., 'We must explore progressive revenue sources')."
+}

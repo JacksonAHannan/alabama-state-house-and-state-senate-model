@@ -1,0 +1,10 @@
+{
+  "id": "81E864D534CECE00",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "Requires a particular public-school employer to employ a nurse, but the description does not establish a clear position on the allowed education funding, choice, accountability, labor, access, or curriculum poles.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

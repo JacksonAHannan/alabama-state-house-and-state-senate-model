@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "restriction",
+  "plain_english_policy": "Restrict government-funded welfare programs.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "1"
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "i) Eliminate government-funded welfare programs.",
+  "needs_human_review": false,
+  "review_reason": "This option explicitly advocates for the elimination of government-funded welfare programs. This suggests a policy that restricts or eliminates such programs."
+}

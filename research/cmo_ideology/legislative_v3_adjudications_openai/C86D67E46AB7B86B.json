@@ -1,0 +1,10 @@
+{
+  "id": "C86D67E46AB7B86B",
+  "decision": "map",
+  "primitive_axis": "market_governance",
+  "policy_pole": "market_autonomy",
+  "confidence": "medium",
+  "rationale": "Creates a pathway for people with qualifying criminal records to obtain occupational licenses, reducing an employment-entry restriction.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

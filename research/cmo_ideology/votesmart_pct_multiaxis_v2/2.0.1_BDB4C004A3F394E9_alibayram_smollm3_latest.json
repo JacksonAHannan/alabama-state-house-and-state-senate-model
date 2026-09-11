@@ -1,0 +1,24 @@
+{
+  "primary_domain": "taxation",
+  "policy_key": "tax_distribution",
+  "plain_english_policy": "Gas and Oil Taxes",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "The imposition of taxes on gas and oil production is a form of market intervention to regulate the industry."
+    },
+    {
+      "axis": "tax_distribution",
+      "pole": "progressive",
+      "strength": "primary",
+      "rationale": "A progressive tax distribution means that higher income individuals or corporations pay a larger share of their income in taxes. This could be applied to gas and oil companies, ensuring they contribute more to the state's revenue."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I believe we should implement a progressive tax on gas and oil production to ensure that these industries pay their fair share of taxes.\" - Candidate",
+  "needs_human_review": true,
+  "review_reason": ""
+}

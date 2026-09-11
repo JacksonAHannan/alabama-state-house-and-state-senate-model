@@ -1,0 +1,11 @@
+{
+  "policy_key": "tax_increase_for_growth",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting tax increases (even for growth) is conventionally progressive.",
+  "evidence_quote": "*[No direct quote provided in the option text\u2014this is a generic question format.]*",
+  "needs_human_review": true,
+  "review_reason": "The option lacks candidate-specific language; scoring requires reading their *actual* response to this question."
+}

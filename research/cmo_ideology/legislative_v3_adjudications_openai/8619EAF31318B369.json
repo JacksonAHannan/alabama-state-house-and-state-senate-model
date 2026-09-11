@@ -1,0 +1,10 @@
+{
+  "id": "8619EAF31318B369",
+  "decision": "map",
+  "primitive_axis": "election_integrity_controls",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Prohibiting PAC-to-PAC contribution transfers imposes a concrete campaign finance control.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

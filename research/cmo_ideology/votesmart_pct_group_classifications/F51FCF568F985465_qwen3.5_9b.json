@@ -1,0 +1,11 @@
+{
+  "policy_key": "eliminate_federal_unemployment_programs",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option calls for the elimination of federal programs designed to reduce unemployment.",
+  "evidence_quote": "Eliminate any federal programs designed to reduce unemployment.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

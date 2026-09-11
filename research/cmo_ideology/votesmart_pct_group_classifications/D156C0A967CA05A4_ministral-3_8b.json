@@ -1,0 +1,11 @@
+{
+  "policy_key": "welfare_no_substantial_changes",
+  "dimension": "social_ideology",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Neutral stance on welfare reform; no explicit ideological lean toward expansion or contraction.",
+  "evidence_quote": "Make no substantial changes at this time.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

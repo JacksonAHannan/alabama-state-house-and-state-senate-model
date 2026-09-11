@@ -1,0 +1,11 @@
+{
+  "policy_key": "estate_tax_repeal_permanent",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Ending the federal tax on inherited wealth permanently.",
+  "evidence_quote": "*'I support making the repeal of the estate tax permanent to reduce the burden on families and encourage economic growth by keeping more wealth within family businesses and farms.'*",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "D6CA40E70B681313",
+  "decision": "map",
+  "primitive_axis": "market_governance",
+  "policy_pole": "intervention",
+  "confidence": "high",
+  "rationale": "Authorizing public innovation districts and the use of public funds for public or private participants increases government involvement in economic development.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "immigration_federal_aid_to_states",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase federal funding to states with larger immigrant populations to cover healthcare and social services costs.",
+  "evidence_quote": "Provide extra federal aid to states with higher numbers of immigrants for necessary medical and social services.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

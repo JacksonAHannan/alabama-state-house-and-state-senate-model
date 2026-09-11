@@ -1,0 +1,10 @@
+{
+  "id": "9EBA6BAC9357346A",
+  "decision": "map",
+  "primitive_axis": "healthcare_delivery",
+  "policy_pole": "public_delivery",
+  "confidence": "medium",
+  "rationale": "Authorizes public universities with medical schools to create authorities that own and operate health-care facilities, expanding a public-institution delivery role.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "budget_surplus_debt_reduction",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option to use a federal budget surplus for debt reduction is conventionally viewed as fiscally conservative or progressive depending on the broader economic context; however, in standard policy classification regarding spending priorities, prioritizing debt repayment over new social programs often aligns with fiscal conservatism. Conversely, some frameworks view reducing national debt as universally prudent and non-partisan (0). Given the instruction to use -1 only when conventionally more progressive and +1 for conservative: Reducing federal debt is typically associated with fiscal restraint/conservatism (+1) in many contexts, but can also be seen as a neutral administrative goal. However, if we consider 'spending priorities' where choosing debt reduction means *not* spending on new programs (which are often progressive), this leans conservative. If the alternative options were social safety nets, then debt reduction is +1 (conservative). Without seeing other options, standard US political economy classifies 'pay down debt first' as fiscally conservative.",
+  "evidence_quote": "c) Federal debt reduction",
+  "needs_human_review": false,
+  "review_reason": ""
+}

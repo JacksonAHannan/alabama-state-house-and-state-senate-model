@@ -4,7 +4,12 @@ import re, sqlite3
 from pathlib import Path
 import pandas as pd
 from rapidfuzz.fuzz import WRatio
+try:
+    from build_incumbency_features import read_candidate_code_names
+except ModuleNotFoundError:  # Imported as scripts.build_candidate_identity.
+    from scripts.build_incumbency_features import read_candidate_code_names
 from oe_normalize import is_pseudocandidate, normalize_name
+from source_vote_quality import require_reported_vote_quality
 from warehouse import (begin_run, finish_run, initialize, install_identity_contracts,
                        register_table)
 
@@ -23,6 +28,10 @@ def best_name(name,pool):
     scored=sorted([(name_score(name,r.candidate),r) for r in pool.itertuples(index=False)],reverse=True,key=lambda x:x[0])
     if not scored:return None,0,0
     return scored[0][1],scored[0][0],scored[0][0]-(scored[1][0] if len(scored)>1 else 0)
+
+def incumbency_match_name(value):
+    """Decode Alabama's opaque 2022 ballot label for identity matching only."""
+    return read_candidate_code_names().get(str(value).strip(), str(value))
 
 def opposing_party_alias(name, party, pool):
     """Return a strong same-race name match carried under the other party."""
@@ -84,10 +93,22 @@ def apply_incumbency_roster(canonical, roster):
                     (result.district.eq(int(row.district)))&
                     (result.canonical_party.eq(row.incumbent_party))]
         if pool.empty: continue
-        named=pool.rename(columns={"canonical_name":"candidate"})
+        named=pool.copy()
+        named["candidate"]=named.canonical_name.map(incumbency_match_name)
         found,score,margin=best_name(row.incumbent_candidate,named)
         if found is not None and score>=90 and margin>=5:
             result.loc[result.canonical_candidate_id.eq(found.canonical_candidate_id),"incumbent"]=True
+        elif len(pool)==1 and re.fullmatch(
+                r"G(?:SL\d{3}|SU\d{2})[DR][A-Z]{3}",
+                str(pool.iloc[0].canonical_name).strip().upper()):
+            # Alabama's consolidated 2022 return exposes opaque ballot codes
+            # in place of names. The dedicated roster has already resolved the
+            # person against the same official race and party, so the exact
+            # race-party scope identifies the sole canonical candidate.
+            result.loc[
+                result.canonical_candidate_id.eq(pool.iloc[0].canonical_candidate_id),
+                "incumbent",
+            ]=True
     return result
 
 def apply_validated_incumbency_transitions(canonical, transitions):
@@ -103,7 +124,7 @@ def apply_validated_incumbency_transitions(canonical, transitions):
                     (result.canonical_party.eq(row.prior_party))]
         candidates=[]
         for candidate in pool.itertuples(index=False):
-            target_tokens=set(normalize_name(candidate.canonical_name).split())
+            target_tokens=set(normalize_name(incumbency_match_name(candidate.canonical_name)).split())
             if source_tokens.issubset(target_tokens): candidates.append(candidate)
         if len(candidates)==1:
             result.loc[result.canonical_candidate_id.eq(candidates[0].canonical_candidate_id),"incumbent"]=True
@@ -111,6 +132,8 @@ def apply_validated_incumbency_transitions(canonical, transitions):
 
 def main():
     with sqlite3.connect(DB) as c:
+        require_reported_vote_quality(
+            c, "office in ('State House','State Senate') and district is not null")
         votes=pd.read_sql("""select year,source,office,district,candidate,candidate_key,party_norm,votes
           from vote_observations where office in ('State House','State Senate') and district is not null""",c)
     votes["chamber"]=votes.office.map(chamber_for); votes["district"]=votes.district.astype(int)

@@ -1,0 +1,11 @@
+{
+  "policy_key": "healthcare_tax_deductions",
+  "dimension": "healthcare_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Allowing middle and low-income families to deduct annual healthcare costs from their taxable income.",
+  "evidence_quote": "Allow middle and low income families to deduct yearly health care costs from their taxable income.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

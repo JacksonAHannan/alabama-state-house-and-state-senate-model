@@ -1,0 +1,10 @@
+{
+  "id": "70F51CE5C729887C",
+  "decision": "map",
+  "primitive_axis": "land_use_property_rights",
+  "policy_pole": "property_rights",
+  "confidence": "medium",
+  "rationale": "Prohibiting governmental environmental and development policies alleged to infringe citizens' due process limits regulatory authority in favor of property rights.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

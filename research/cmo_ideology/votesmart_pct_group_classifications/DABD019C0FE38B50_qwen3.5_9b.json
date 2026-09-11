@@ -1,0 +1,11 @@
+{
+  "policy_key": "taiwan_diplomacy",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting full diplomatic relations with Taiwan is conventionally more progressive.",
+  "evidence_quote": "Should the U.S. recognize and extend full diplomatic relations to Taiwan?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

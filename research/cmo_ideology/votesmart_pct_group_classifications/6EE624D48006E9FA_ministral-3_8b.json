@@ -1,0 +1,11 @@
+{
+  "policy_key": "affirmative_action_prosecute_private_sector_discrimination",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The federal government should actively prosecute discrimination in private-sector employment, education, or contracting\u2014typically interpreted as a progressive stance on enforcing anti-discrimination laws beyond voluntary affirmative action.",
+  "evidence_quote": "*The federal government should prosecute cases of discrimination in the private sector.*",
+  "needs_human_review": false,
+  "review_reason": ""
+}

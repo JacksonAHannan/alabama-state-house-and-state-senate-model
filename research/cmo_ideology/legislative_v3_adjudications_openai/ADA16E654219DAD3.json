@@ -1,0 +1,10 @@
+{
+  "id": "ADA16E654219DAD3",
+  "decision": "map",
+  "primitive_axis": "market_governance",
+  "policy_pole": "intervention",
+  "confidence": "medium",
+  "rationale": "Revises governmental authority to incur debt and transfer public property for private economic development, retaining or expanding public intervention in economic activity.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

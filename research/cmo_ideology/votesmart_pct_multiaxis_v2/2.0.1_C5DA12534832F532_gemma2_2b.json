@@ -1,0 +1,24 @@
+{
+  "primary_domain": "education",
+  "policy_key": "childcare_delivery",
+  "plain_english_policy": "Increase state funding to expand Head Start programs.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "The policy is a form of expansion."
+    },
+    {
+      "axis": "business_scale_alignment",
+      "pole": "small_business",
+      "strength": "secondary",
+      "rationale": "Head Start programs are often run by non-profits and small businesses."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Increase state funding to expand Head Start programs.",
+  "needs_human_review": false,
+  "review_reason": "This option indicates support for expanding public provision of childcare services through Head Start programs. This is a form of expansion in the context of education."
+}

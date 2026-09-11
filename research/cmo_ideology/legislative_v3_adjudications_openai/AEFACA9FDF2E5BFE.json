@@ -1,0 +1,10 @@
+{
+  "id": "AEFACA9FDF2E5BFE",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "rehabilitative",
+  "confidence": "high",
+  "rationale": "Expands community-based punishment and corrections programs for eligible felony offenders.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

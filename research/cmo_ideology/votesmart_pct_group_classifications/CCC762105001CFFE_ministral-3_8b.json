@@ -1,0 +1,11 @@
+{
+  "policy_key": "pac_contribution_prohibition",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Ban PACs from donating to federal candidates.",
+  "evidence_quote": "Prohibit Political Action Committee (PAC) contributions to candidates for federal office.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

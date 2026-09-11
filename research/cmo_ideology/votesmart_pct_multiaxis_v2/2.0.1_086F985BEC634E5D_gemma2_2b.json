@@ -1,0 +1,24 @@
+{
+  "primary_domain": "business",
+  "policy_key": "employer_incentive",
+  "plain_english_policy": "Tax credits for businesses that provide childcare for their employees.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "business_scale_alignment",
+      "pole": "small_business",
+      "strength": "primary",
+      "rationale": "The policy explicitly mentions tax credits for businesses of all sizes."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "The policy aims to expand access to childcare services, which is a form of welfare support."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Should race, ethnicity or gender be taken into account in state agencies' decisions on: d) Provide tax credits for businesses that provide child care for their employees.",
+  "needs_human_review": false,
+  "review_reason": "The policy directly addresses the provision of childcare services to employees. This is a clear indication of support for expanding access to childcare."
+}

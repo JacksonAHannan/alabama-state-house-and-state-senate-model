@@ -1,0 +1,11 @@
+{
+  "policy_key": "defense_covert_operations",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "medium",
+  "plain_english_policy": "Funding for covert intelligence operations (e.g., CIA activities, espionage, or clandestine missions).",
+  "evidence_quote": "*[No direct quote provided in the prompt\u2014this is a generic example of how such an option might be classified. In practice, you would need to copy verbatim from the candidate\u2019s questionnaire.]*",
+  "needs_human_review": true,
+  "review_reason": "To ensure alignment with the candidate's *exact* wording and intent (e.g., if they specify 'no cuts' vs. 'increase')."
+}

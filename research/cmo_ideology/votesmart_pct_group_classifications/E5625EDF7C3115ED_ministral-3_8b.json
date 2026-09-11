@@ -1,0 +1,11 @@
+{
+  "policy_key": "tax_deductions_charitable",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Support for maintaining or expanding the federal deduction for charitable contributions (e.g., itemized deductions for donations to religious, educational, or nonprofit organizations).",
+  "evidence_quote": "a) Charitable contribution deduction",
+  "needs_human_review": false,
+  "review_reason": ""
+}

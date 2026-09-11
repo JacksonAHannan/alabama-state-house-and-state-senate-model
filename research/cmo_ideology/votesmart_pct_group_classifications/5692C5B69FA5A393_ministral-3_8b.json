@@ -1,0 +1,11 @@
+{
+  "policy_key": "social_security_surplus_prioritization",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Prioritizing Social Security surplus funds for direct benefit increases or expansion of eligibility aligns with conservative fiscal priorities, as it avoids discretionary spending and targets a core entitlement program.",
+  "evidence_quote": "e) Social Security",
+  "needs_human_review": false,
+  "review_reason": ""
+}

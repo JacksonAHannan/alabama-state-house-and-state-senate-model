@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "childcare_support",
+  "plain_english_policy": "Expansion of childcare support",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "This is a policy that expands the availability of childcare support."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Do you support alternatives to incarceration for certain non-violent offenders, such as mandatory counseling or substance abuse treatment?",
+  "needs_human_review": false,
+  "review_reason": "This is a policy that expands the availability of childcare support."
+}

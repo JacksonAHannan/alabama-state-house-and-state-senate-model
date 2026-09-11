@@ -1,6 +1,6 @@
 # Post-2016 Southern WAR v3 validation
 
-Research run `WAR-POST2016-V3-4AF79A70EAA8F39EBD49` uses warehouse build `RUN-92AB8DE353AC47D6AECE3D7767C29FCD`.
+Research run `WAR-POST2016-V3-530FBD4238CC483E557C` uses warehouse build `RUN-504CE4C4DF904D88A5A40D268F3FCEAB`.
 
 ## Enforced gates
 

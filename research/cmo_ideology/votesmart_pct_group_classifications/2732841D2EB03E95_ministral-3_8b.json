@@ -1,0 +1,11 @@
+{
+  "policy_key": "lebanon_military_support",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Military intervention in Lebanon to support a government against insurgents is typically framed as an international policy issue with mixed ideological implications. It often involves geopolitical considerations (e.g., regional alliances, counterterrorism) rather than a clear left-right divide.",
+  "evidence_quote": "**d) Should the United States support the Lebanese government against insurgent forces?**",
+  "needs_human_review": true,
+  "review_reason": "This option lacks explicit ideological framing (conservative/progressive). It depends on context: e.g., whether the insurgents are labeled 'terrorists' or 'freedom fighters,' or if it aligns with broader U.S. strategic interests (e.g., Israel, Iran proxy conflicts)."
+}

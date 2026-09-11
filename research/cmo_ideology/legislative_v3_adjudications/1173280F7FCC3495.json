@@ -1,0 +1,10 @@
+{
+  "id": "1173280F7FCC3495",
+  "decision": "map",
+  "primitive_axis": "healthcare_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Establishing a Local Government Health Insurance Program expands access to healthcare for local government employees.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

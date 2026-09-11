@@ -1,0 +1,11 @@
+{
+  "policy_key": "immigration_amnesty",
+  "dimension": "immigration_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Favors granting legal status or relief from deportation to unauthorized immigrants currently in the U.S.",
+  "evidence_quote": "Support amnesty for certain illegal immigrants who already reside in the United States.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

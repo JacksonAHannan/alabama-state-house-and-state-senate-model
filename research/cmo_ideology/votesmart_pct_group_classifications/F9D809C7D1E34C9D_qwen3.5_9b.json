@@ -1,0 +1,11 @@
+{
+  "policy_key": "enterprise_zones_poverty",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The policy proposes creating enterprise zones in high-unemployment areas to stimulate economic growth and reduce poverty.",
+  "evidence_quote": "h) Implement enterprise zones in communities with high unemployment.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

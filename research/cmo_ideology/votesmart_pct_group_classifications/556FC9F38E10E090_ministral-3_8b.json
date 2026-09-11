@@ -1,0 +1,11 @@
+{
+  "policy_key": "tanf_block_grants",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Shift welfare program authority from federal to state/local governments via block grants (TANF).",
+  "evidence_quote": "Continue to give states and local governments responsibility for welfare programs through TANF block grants.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "CA93B0B0C38C04F4",
+  "decision": "map",
+  "primitive_axis": "healthcare_public_responsibility",
+  "policy_pole": "public_responsibility",
+  "confidence": "high",
+  "rationale": "Extends a Medicaid financing mechanism for nursing facilities, supporting continued public program responsibility for coverage.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

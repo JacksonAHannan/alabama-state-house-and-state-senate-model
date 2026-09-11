@@ -1,0 +1,30 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "environmental_protection",
+  "plain_english_policy": "Use public funds for remediation of contaminated industrial/commercial properties",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "environmental_protection",
+      "pole": "strengthen",
+      "strength": "primary",
+      "rationale": "Explicitly directs state funds toward cleanup of contaminated sites, which directly strengthens environmental protection standards."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "primary",
+      "rationale": "State funds imply direct government involvement in remediation efforts rather than private or market-driven solutions."
+    },
+    {
+      "axis": "resource_management",
+      "pole": "active_management",
+      "strength": "secondary",
+      "rationale": "Cleanup of abandoned sites requires proactive state intervention to address environmental degradation, aligning with active management."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Use state funds to clean up former industrial and commercial sites that are contaminated, unused or abandoned.\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "C89CEFC0D1DE1449",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "A comprehensive parentage and assisted-reproduction procedure measure that does not establish a clear allowed criminal-justice policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

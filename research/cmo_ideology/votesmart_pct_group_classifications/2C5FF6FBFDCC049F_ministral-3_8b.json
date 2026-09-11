@@ -1,0 +1,11 @@
+{
+  "policy_key": "trade_embargo_cuba",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting a trade embargo against Cuba is conventionally associated with progressive or left-leaning positions, often due to human rights concerns and opposition to authoritarian regimes.",
+  "evidence_quote": "Do you support the trade embargo against Cuba?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

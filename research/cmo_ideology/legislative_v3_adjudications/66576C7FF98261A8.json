@@ -1,0 +1,10 @@
+{
+  "id": "66576C7FF98261A8",
+  "decision": "map",
+  "primitive_axis": "incarceration",
+  "policy_pole": "reduce",
+  "confidence": "high",
+  "rationale": "The bill authorizes the Board of Pardons and Paroles to commute life-without-parole sentences to life imprisonment, effectively reducing incarceration duration for certain habitual offenders.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

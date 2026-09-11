@@ -1,0 +1,10 @@
+{
+  "id": "68EBB23051C91496",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The description is incomplete and concerns operation of a jail store, an administrative matter that does not establish a listed criminal-justice policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

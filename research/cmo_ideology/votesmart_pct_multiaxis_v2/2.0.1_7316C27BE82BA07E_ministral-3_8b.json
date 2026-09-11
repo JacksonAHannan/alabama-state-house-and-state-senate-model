@@ -1,0 +1,30 @@
+{
+  "primary_domain": "criminal_justice",
+  "policy_key": "hate_crime_prosecution_enforcement",
+  "plain_english_policy": "Enforce stricter penalties for crimes motivated by gender, sexual orientation, or disability as hate crimes.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "civil_social_liberty",
+      "pole": "restrict",
+      "strength": "secondary",
+      "rationale": "Criminalizing hate speech or bias-motivated crimes can be interpreted as restricting certain forms of expression or association, depending on the scope of enforcement."
+    },
+    {
+      "axis": "criminal_punishment",
+      "pole": "punitive",
+      "strength": "primary",
+      "rationale": "Explicitly requires prosecution as hate crimes, which typically carries enhanced penalties compared to standard offenses. **Evidence quote:** *hate crimes*"
+    },
+    {
+      "axis": "institutional_populism",
+      "pole": "popular_control",
+      "strength": "secondary",
+      "rationale": "Empowers community or public sentiment (e.g., victim groups) in defining and enforcing penalties for certain offenses, aligning with populist demands."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "*hate crimes*",
+  "needs_human_review": false,
+  "review_reason": ""
+}

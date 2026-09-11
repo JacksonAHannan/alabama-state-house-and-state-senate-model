@@ -1,0 +1,11 @@
+{
+  "policy_key": "strengthen_non_controlled_substance_laws",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase penalties or enforcement for substances not classified as controlled drugs (e.g., inhalants, over-the-counter pills) under current law.",
+  "evidence_quote": "Strengthen current laws dealing with non-controlled substances, including inhalants and commercially available pills.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

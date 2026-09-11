@@ -1,0 +1,11 @@
+{
+  "policy_key": "gun_rights_expansion",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Remove all restrictions on firearm ownership for law-abiding citizens.",
+  "evidence_quote": "Repeal all bans and measures that restrict law-abiding citizens from owning legally-obtained firearms.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

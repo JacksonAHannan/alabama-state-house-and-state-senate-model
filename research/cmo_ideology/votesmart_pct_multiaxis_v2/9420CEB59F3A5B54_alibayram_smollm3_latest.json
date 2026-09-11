@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "childcare_support",
+  "plain_english_policy": "support providing tax credits to businesses that offer childcare services for their employees.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "The policy aims at expanding access to affordable child care through tax credits for businesses that provide such services."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Provide tax credits for businesses that provide child care for their employees.\" - [1998 Social Issues Question]",
+  "needs_human_review": false,
+  "review_reason": ""
+}

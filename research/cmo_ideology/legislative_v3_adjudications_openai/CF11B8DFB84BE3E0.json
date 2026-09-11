@@ -1,0 +1,10 @@
+{
+  "id": "CF11B8DFB84BE3E0",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Primarily regulates telephone assistance programs and includes an incomplete amendment reference; its criminal penalties are incidental and not sufficient evidence for a criminal-justice position.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

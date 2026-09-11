@@ -1,0 +1,10 @@
+{
+  "id": "DA6CF8DC86B7E149",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The bill is primarily utility damage-prevention and notification regulation, with civil and criminal penalties, and does not present a clear standalone policy direction on the listed criminal-justice axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

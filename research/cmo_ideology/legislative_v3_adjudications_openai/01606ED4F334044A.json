@@ -1,0 +1,10 @@
+{
+  "id": "01606ED4F334044A",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Adds a technical reference requiring department approval under existing environmental law and rules, without a sufficiently clear substantive policy direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

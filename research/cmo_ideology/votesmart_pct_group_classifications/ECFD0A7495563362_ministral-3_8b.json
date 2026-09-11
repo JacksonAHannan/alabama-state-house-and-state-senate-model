@@ -1,0 +1,11 @@
+{
+  "policy_key": "mortgage_deduction",
+  "dimension": "indeterminate",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Preservation of the federal mortgage interest deduction for homeowners.",
+  "evidence_quote": "Mortgage deduction",
+  "needs_human_review": true,
+  "review_reason": "The option is a procedural/neutral tax policy (deduction) without explicit left-right framing. Context (e.g., candidate\u2019s broader platform, economic philosophy) would be required to assign +1/-1."
+}

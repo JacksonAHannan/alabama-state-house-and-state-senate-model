@@ -1,0 +1,10 @@
+{
+  "id": "E57EA16B1D9FF953",
+  "decision": "map",
+  "primitive_axis": "incarceration",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "The bill prohibits inmates from possessing mobile telephones and wireless communication devices, expands search and confiscation powers of corrections officials, and imposes penalties for violations. These measures collectively increase restrictions on inmate behavior and expand the scope of incarceratory control.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

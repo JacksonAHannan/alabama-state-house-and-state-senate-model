@@ -1,0 +1,24 @@
+{
+  "primary_domain": "business",
+  "policy_key": "employer_incentive",
+  "plain_english_policy": "Tax credit for employers that provide childcare",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "The policy is designed to encourage job creation by providing financial incentives to employers who offer childcare benefits."
+    },
+    {
+      "axis": "business_scale_alignment",
+      "pole": "small_business",
+      "strength": "primary",
+      "rationale": "This option specifically targets the private sector, including small businesses, as a means to stimulate job creation."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Do you support providing financial incentives to the private sector for the purpose of job creation?",
+  "needs_human_review": false,
+  "review_reason": "This option is a policy proposal that aims to incentivize businesses to create jobs. It's not about directly providing childcare services but rather encouraging employers to offer such benefits as part of their compensation packages."
+}

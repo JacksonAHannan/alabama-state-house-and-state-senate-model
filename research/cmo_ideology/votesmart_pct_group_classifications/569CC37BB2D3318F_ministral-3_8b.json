@@ -1,0 +1,11 @@
+{
+  "policy_key": "unemployment_public_works_funding",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase government spending on infrastructure projects to create jobs.",
+  "evidence_quote": "Increase funding for public works projects such as the repair of roads and bridges.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

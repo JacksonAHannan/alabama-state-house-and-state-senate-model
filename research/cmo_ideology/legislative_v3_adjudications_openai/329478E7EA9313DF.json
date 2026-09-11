@@ -1,0 +1,10 @@
+{
+  "id": "329478E7EA9313DF",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns prison-industry sales and private business joint ventures, which do not clearly implicate an allowed criminal-justice policy axis.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

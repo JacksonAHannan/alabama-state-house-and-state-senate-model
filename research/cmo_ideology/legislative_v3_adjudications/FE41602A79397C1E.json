@@ -1,0 +1,10 @@
+{
+  "id": "FE41602A79397C1E",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "While Certificates of Need (CON) regulations may impact healthcare access, this amendment lacks clear direction on expansion/restriction due to ambiguity in transfer-of-ownership specifics.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

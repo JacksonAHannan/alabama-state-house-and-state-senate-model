@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "tax_distribution",
+  "plain_english_policy": "Supports regulating and taxing gaming proceeds to balance the budget.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "Regulating and taxing gaming proceeds involves government intervention in the market, which can be seen as a form of regulation."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "primary",
+      "rationale": "Taxing gaming proceeds is a restriction on spending, as it limits how much money can be allocated to certain areas or programs."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I support regulating and taxing gaming proceeds to balance the budget.\" - [Source: Candidate's Budget Proposal, Year: 2010]\"",
+  "needs_human_review": true,
+  "review_reason": "The policy involves both market governance intervention and welfare restriction."
+}

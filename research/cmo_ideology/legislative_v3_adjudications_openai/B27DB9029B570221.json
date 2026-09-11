@@ -1,0 +1,10 @@
+{
+  "id": "B27DB9029B570221",
+  "decision": "map",
+  "primitive_axis": "market_governance",
+  "policy_pole": "intervention",
+  "confidence": "medium",
+  "rationale": "Continues and regulates state economic-development incentives, including employment conditions and incentive caps.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

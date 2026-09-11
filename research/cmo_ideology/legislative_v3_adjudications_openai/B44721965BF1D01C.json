@@ -1,0 +1,10 @@
+{
+  "id": "B44721965BF1D01C",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "Creates health care authorities at public colleges and universities but does not clearly establish an allowed access, delivery, responsibility, or patient-rights policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_ranch_fees",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase fees for cattle grazing on federal lands (e.g., national forests, BLM land) to reduce livestock impact on public lands and promote conservation.",
+  "evidence_quote": "*[Verbatim excerpt from questionnaire option]* 'f) Increase fees charged to ranchers who graze cattle on federal lands.'",
+  "needs_human_review": false,
+  "review_reason": ""
+}

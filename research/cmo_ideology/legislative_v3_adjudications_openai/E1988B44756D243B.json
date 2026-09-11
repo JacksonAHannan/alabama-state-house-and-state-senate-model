@@ -1,0 +1,10 @@
+{
+  "id": "E1988B44756D243B",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Increases penalties and revises limitations for Medicaid fraud but does not clearly map to an allowed healthcare policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

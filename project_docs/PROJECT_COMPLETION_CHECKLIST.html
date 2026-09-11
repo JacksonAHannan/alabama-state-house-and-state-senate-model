@@ -65,7 +65,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
 <script id="checklist-data" type="application/json">
 {
   "schemaVersion": 1,
-  "revision": "2026-09-08T13:45:12Z",
+  "revision": "2026-09-11T14:34:32Z",
   "title": "Four-product completion checklist",
   "baselineDate": "2026-09-05",
   "baselineCode": "88878b9 (existing dirty worktree)",
@@ -175,21 +175,21 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "text": "Rebuild affected historical allocations and baselines",
           "detail": "Use correct plan/year/chamber weights for repaired Alabama sources and Arkansas geometries. Reconcile source totals and quantify district changes before replacing accepted outputs.",
           "done": false,
-          "evidence": ""
+          "evidence": "2026-09-11 partial: after the Morgan adjudication the Alabama allocation chain was regenerated from the repaired warehouse (canonical_precinct_district_weights.csv, 1994 baseline marts, historical_federal_district_baseline mart RUN-70A750C82BEC43D686E5F4B1FE13461C, canonical_cmo_features.csv, cmo_v5). Quantified: 1994 precincts now code-keyed (7,384 vs 6,441 weight rows; baselines median 0.06 / max 4.4 pp); 2022 incumbency corrected on 101 rows; 2002 HD26 baseline -4.3 -> -24.2 (fallback 0 -> 5.1%) pending the Marshall County collision adjudication. Finding: the approved Southern v3 run's Alabama same-cycle ticket baseline equals the 2026-08-21 federal build and differs from the regenerated baseline in 131/139 (2018) and 128/140 (2022) districts, max 13.4 / 8.8 pp (audits/ALABAMA_TICKET_BASELINE_STALENESS_2026_09_11.json). Arkansas geometries and source-total reconciliation of the rebuilt allocations remain open. 2026-09-11: Alabama allocation chain accepted through the retrained v3 (independent review confirmed equal statewide allocated totals and the accepted identity state). Arkansas geometries and a source-total reconciliation card for the rebuilt 1994/2002 allocations (2002 HD26) remain open."
         },
         {
           "id": "warehouse-05",
           "text": "Adjudicate remaining natural-key collisions",
           "detail": "The repair audit records 5,354 collision groups and 15,035 excess rows at a proposed grain. Distinguish duplicate records, distinct source cells, competing versions and an incorrectly specified key. Never blanket-deduplicate.",
           "done": false,
-          "evidence": "Prior census and office repair remain historical evidence. RUN-3723F54646824B1682D8543BE39C7EC5 now fills 4083 uniquely matched physical source locators/source IDs across the corrected cohorts; six ambiguous matches remain unresolved. All substantive fields and original ingest IDs preserved, verified backup, 21 fixtures and independent pre/post reviews PASS. No deduplication or provider-grain adjudication. See audits/SOS_CELL_LINEAGE_REPAIR_2026_09_07.json; broader collision census remains open."
+          "evidence": "Prior census and office repair remain historical evidence. RUN-3723F54646824B1682D8543BE39C7EC5 filled 4083 uniquely matched physical source locators/source IDs; six ambiguous matches remain unresolved. September 8 census has 5354 groups/15035 excess rows at the proposed grain. Resumed RUN-91B2A0C3435548A1B6932613B3073995 filled five source-provenance fields for 228882 unique legacy rows after full-cohort reconciliation and exact raw-cell review. All source values and labels remain unchanged. 3552 ambiguous rows and 47 refused cohorts remain untouched; no deduplication or canonical adoption. 71 focused tests and independent post-commit source/schema/control/integrity checks passed. See audits/WAREHOUSE_COMPLETION_REPAIRS_2026_09_08.md; provider-grain adjudication remains open."
         },
         {
           "id": "warehouse-06",
           "text": "Resolve or explicitly quarantine the fractional 1994 source cell",
           "detail": "Review the Morgan workbook inconsistency with original cells and totals. Retain the reported value and evidence if no authoritative correction can be established.",
-          "done": false,
-          "evidence": "Original Morgan K48 value and conflicting source totals remain documented in project_docs/audits/WAREHOUSE_CHECKLIST_REPAIRS_2026_09_06.md. No authoritative correction or fully enforced downstream quarantine; remains open."
+          "done": true,
+          "evidence": "Original Morgan K48 value and conflicting source totals remain documented in project_docs/audits/WAREHOUSE_CHECKLIST_REPAIRS_2026_09_06.md. No authoritative correction or fully enforced downstream quarantine; remains open. 2026-09-10 (audits/MORGAN_1994_FRACTIONAL_CELL_QUARANTINE_2026_09_10.md): cell is 94g-prec/MORGAN.XLS sheet Morgan K48 = 144.4 (precinct 26001, Attorney General, Sessions R); K52 reported 21,571 vs K53 computed 21,571.4; the only fractional cell in the sheet; statewide effect 0.4 votes, at most 0.0064 pp in any House district. 25 consumers traced: 8 refuse via require_reported_vote_quality (including build_canonical_cmo_features and build_1994_cmo_baseline), 1 unguarded display-name aggregate in build_war_story_page, 16 not reached; 9 processed files and 3 marts still carry the 0.4 from pre-guard builds. Quarantine partially established; 6 new tests. Consequence: the refusal in build_canonical_cmo_features blocks regenerating the historical WAR compatibility inputs (see alabama-03). Owner disposition required: A retain-as-reported with stale flags, B reviewed adjudication to the provider's reported total (144), or C explicit exclusion. 2026-09-11: owner disposition A. ADJ-1994-MORGAN-26001-AG2-K48 (approved) applied as RUN-C0A15A7AB6A6403991BB5FE5143BACFF via scripts/repair_morgan_1994_fractional_cell.py: one vote_observations row 144.4 -> 144 with before-image, raw hashes and prior review preserved; independent pre-application review PASS (audits/MORGAN_1994_ADJUDICATION_REVIEW_2026_09_10.md); post-commit against the separate backup: only the cell and +1/+1/+1 control rows differ, quick_check ok, FK 0, zero fractional observations remain. Cell-carrying artifacts regenerated: 1994 baseline marts (RUN-22C8E3AE51C34579A6BCD9A49EF8C700), canonical_cmo_features/candidates, cmo_v5 exports; 4 fixture tests. The unguarded story-page name aggregate remains as reported."
         },
         {
           "id": "warehouse-07",
@@ -203,7 +203,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "text": "Close recoverable lineage gaps",
           "detail": "Recover source-file links for 469 eligible legacy Southern rows where evidence supports it; review legacy Alabama regional build tokens, unknown retrieval dates, terms/scope and orphaned running statuses. Never invent provenance.",
           "done": false,
-          "evidence": "Prior repairs restored 377 source links and withdrew eight unsupported Census acquisition dates. Full certified 2022 reconciliation now passes for 211 named candidates and 140 write-in totals, preserving 22018 unknown precinct cells in those categories. RUN-DA2442D0AD664F5681DE08E573D79A15 registered the certified canvass with verified backup and independent pre/post review; no vote or model output changed. The remaining 97 Alabama records still lack approved historical transformation lineage. Canonical numerical repair, complete source selection, downstream reconciliation, terms/scope and legacy run states remain open. See project_docs/audits/ALABAMA_2022_CERTIFIED_SOURCE_RECONCILIATION.json and WAREHOUSE_CHECKLIST_REPAIRS_2026_09_06.md."
+          "evidence": "Earlier repairs restored 377 source links and withdrew eight unsupported Census acquisition dates. Current scalar linkage gaps were superseded by certified integration, but historical ingestion remains unresolved for 1564 regional canonical rows using legacy-alabama-canonical. RUN-91B2A0C3435548A1B6932613B3073995 recovered 228882 exact legacy source-cell links without changing source facts. RUN-55E4997B16DA4330BF6E2EE7A1E5FD36 recovered one manifest-backed registry URL/license pair; current omissions are 32 URLs, 9 retrieval dates, 2153 terms and 1351 scopes. Thirteen old running records lack demonstrated terminal states. Do not fabricate provenance or timestamps. See audits/WAREHOUSE_COMPLETION_REPAIRS_2026_09_08.md for exact proposals, backups, tests and independent verification. Broad task remains open."
         },
         {
           "id": "warehouse-09",
@@ -217,21 +217,21 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "text": "Enforce shared data contracts at joins",
           "detail": "Test primary keys, cardinality, party/candidate identities, election stage, districts/chambers, plan vintage, missingness and vote conservation. Preserve third-party and uncontested distinctions.",
           "done": false,
-          "evidence": ""
+          "evidence": "September 8 added exact-slice reported-count guards at five SQL boundaries in candidate identity, canonical geography and historical source consumers. Missing/fractional/negative/nonnumeric/nonfinite counts fail before pandas; valid zero and out-of-scope cases covered. 73 helper/boundary fixtures passed and independent code review found no scoped defects. Broader join-contract acceptance remains open. See audits/WAREHOUSE_COMPLETION_REPAIRS_2026_09_08.md."
         },
         {
           "id": "warehouse-11",
           "text": "Make stale inputs a publication failure",
           "detail": "Extend existing build checks to reject unreviewed dependency runs and incompatible manifests. Allow explicit documented exclusions, not file-existence fallback.",
-          "done": false,
-          "evidence": ""
+          "done": true,
+          "evidence": "September 8 repaired the existing Southern release gate: an unchanged approved manifest can no longer mask missing/changed declared inputs, code, outputs or reports. Eight regressions failed before the fix; all 13 gate tests passed afterward, with independent read-only code review. This verifies declared file integrity only; undeclared transitive dependencies and other product routes remain open. See audits/WAREHOUSE_COMPLETION_REPAIRS_2026_09_08.md. 2026-09-10: every publication-writing route now refuses stale or unreviewed inputs before reading model rows: build_alabama_war_v1 and build_alabama_historical_war_v1 require the approved v3 decision and an Alabama v1 export derived from that run; build_war_story_page and build_democratic_transition_page_v2 share require_alabama_historical_release (declared files unchanged, Southern source approved, Alabama source published); build_2026_forecast_dashboard requires every declared forecast input to match disk. Explicit documented exclusions exist as accepted_input_revisions on the decision file, matched only on exact old/new digests plus a bound review-record hash; no file-existence fallback. 40 gate tests pass; live smoke shows all four routes refusing on the current stale exports. Independent review of the gate module change: audits/SOUTHERN_V3_INPUT_REVISION_REVIEW_2026_09_10.md (PASS). Undeclared transitive dependencies remain outside any hash gate. See audits/ALABAMA_WAR_DEPENDENCY_REBUILD_2026_09_10.md and CANONICAL_PIPELINES.md."
         },
         {
           "id": "warehouse-12",
           "text": "Run warehouse integrity and repair replay checks",
           "detail": "Run SQLite integrity/foreign-key checks, source fixture tests, geometry validity and aggregate reconciliation. Record exact commands, results and run IDs; verify backup recovery to a separate path.",
           "done": false,
-          "evidence": "September 6 precinct application passed full post-commit SQLite integrity_check, foreign_key_check, schema/stage/source/export parity and separate backup verification. Targeted repair and parser fixtures passed. Broader allocation/geometry replay and downstream validation remain open; see project_docs/audits/WAREHOUSE_CHECKLIST_REPAIRS_2026_09_06.md."
+          "evidence": "September 6 recovery evidence retained. Fresh September 8 query-only snapshot at RUN-92AB8DE353AC47D6AECE3D7767C29FCD passed full integrity_check, quick_check, foreign keys, all view preparation, repaired source patterns, finance missingness and stored geometry validity (202.61s). Consolidated infrastructure checks: 109 passed, one existing pandas warning, no deselections. Full allocation/geometry replay, recovery verification and downstream validation remain open. See audits/WAREHOUSE_COMPLETION_REPAIRS_2026_09_08.md. 2026-09-10 recovery verification (audits/WAREHOUSE_RECOVERY_VERIFICATION_2026_09_10.md): backup pre-shor-registry-metadata-2026-09-08 restored to a scratch path; quick_check ok (395.8s), integrity_check ok (226.0s), foreign_key_check 0; 120 tables compared to live, 118 identical, warehouse_build_run +1 and qa_warehouse_source_repair +1 as documented; registry row SRC-3F0ED360408C5AD273F6 differs only in original_url and license; scratch deleted, live and backup untouched. Finding: backups are Connection.backup() images (schema cookie 1 vs live 589), so backup bytes never match live-file digests. Allocation/geometry replay and downstream acceptance still open."
         },
         {
           "id": "warehouse-13",
@@ -261,14 +261,14 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "text": "Reconcile the historical race universe",
           "detail": "Verify the documented 509 races and 1,018 candidate orientations across 1994–2022 against current repaired sources; document every exclusion and any resulting count change.",
           "done": false,
-          "evidence": ""
+          "evidence": "2026-09-10 (audits/ALABAMA_HISTORICAL_RACE_UNIVERSE_2026_09_10.md, read-only): recomputed exactly 509 races / 1,018 orientations (412 backcast, 97 modern, 21 lag-context-missing) with zero set difference per cycle/chamber against canonical_candidates strict D-and-R races and the Southern candidate-election view; exclusion ledger 546 races (266 unopposed D, 280 unopposed R, 0 no-major-party). Open before acceptance: 2002 House 27 appears as a contested D-R race in the registered SOS source (MARSHALL sheet) but has no canonical_candidates row and is absent from the universe; unadjudicated. Independent cross-check dispatched. Cross-check reproduced 509/1,018, the per-cell table, the 546 exclusions and the warehouse derivation exactly (pass for reconciliation). Held open only for the 2002 House 27 source-coverage gap (SOS MARSHALL sheet: McLaughlin D 7,724, Hawkins R 4,789, Driggers 662; no canonical_candidates row), which needs adjudication as intended omission or canonical defect (warehouse-04/05)."
         },
         {
           "id": "alabama-03",
           "text": "Revalidate source outcomes after warehouse repair",
           "detail": "Check candidate/party identities, incumbency, stages, D/R/other vote totals, margins and source-cell lineage for affected years. Rebuild only invalidated downstream products.",
-          "done": false,
-          "evidence": ""
+          "done": true,
+          "evidence": "2026-09-10: the compatibility inputs cmo_v5_races.csv / canonical_cmo_features.csv predate the certified repair: 7 in-universe 2018/2022 races (2018 HD81, HD83, SD14, SD27; 2022 HD32, HD68, HD92) carry pre-certified totals and 17 2022 races carry stale incumbency; names/party/winner/person identity match 1,018/1,018; compat files carry no source-cell lineage. The historical builder now refuses on the 7 raw-gap disagreements (max 0.079 pp) after alabama_war_v1 was rebuilt from the approved run. Regeneration of the compat chain is blocked by the Morgan 1994 refusal (warehouse-06). See audits/ALABAMA_WAR_DEPENDENCY_REBUILD_2026_09_10.md. 2026-09-11: compat inputs regenerated; legislative margins now agree with the certified alabama_war_v1 97/97. The rebuild is blocked instead on the approved v3 run's stale Alabama ticket baseline (89/97 raw gaps differ, max 8.77 pp); owner decision on retraining v3 with refreshed context required. 2026-09-11 accepted: identities (name/party/winner/person) matched 1,018/1,018 and independently reproduced; 21 certified vote corrections and 101 incumbency corrections carried into regenerated canonical_cmo_features/cmo_v5 (RUN-70A750C8…, RUN-22C8E3AE…); Alabama legislative totals equal canonical_candidates 97/97 in the retrained v3 run (independent review). Only invalidated products were rebuilt (Southern panel, preparation, v3, alabama_war_v1, historical WAR, forecast, Southern historical). Limitation retained: compat files carry provenance labels, not source-cell lineage; 1994-2014 stages have no stage column."
         },
         {
           "id": "alabama-04",
@@ -296,7 +296,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "text": "Label and test cross-era backcasts",
           "detail": "412 pre-2016 races are backcasts of a later Southern model, not contemporary fits. Assess era sensitivity and transportability; preserve an explicit backcast flag.",
           "done": false,
-          "evidence": ""
+          "evidence": "2026-09-11: backcast flag and extrapolation years present in the rebuilt export (412 rows scoring_scope=post2016_southern_model_backcast); era sensitivity/transportability assessment still open; baseline-driven outliers 2014 HD52/HD56 and 2002 HD26 must be assessed."
         },
         {
           "id": "alabama-08",
@@ -309,22 +309,22 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "id": "alabama-09",
           "text": "Verify modern residual parity and WAR identities",
           "detail": "Reconcile the 97 modern Alabama races with the approved Southern residual source; test candidate orientation, sign, decomposition and no double counting.",
-          "done": false,
-          "evidence": ""
+          "done": true,
+          "evidence": "2026-09-10: alabama_war_v1 rebuilt as AL-WAR-V1-E08D6FCD1A8A49BA6DAD from approved WAR-POST2016-V3-4AF79A70EAA8F39EBD49 (gate passed; formula and orientation identities asserted at 1e-9). The historical export's modern rows still derive from the archived run (Grimsley 2018 residual differs by 0.00031) and cannot be reconciled until the historical rebuild is unblocked. 2026-09-11: parity cannot be established while the approved v3 Alabama baseline predates the accepted identity repairs (see alabama-03 and audits/ALABAMA_TICKET_BASELINE_STALENESS_2026_09_11.json). 2026-09-11 accepted: alabama_war_v1 AL-WAR-V1-495AE74F46366F17B414 copies the 97 approved WAR-POST2016-V3-A937708D4E0A5232D3F5 rows (gate passed); historical export AL-HIST-WAR-V1-E1C4794EB7A3EF8149E4 asserts raw-gap parity 97/97 at 1e-9, WAR formula error 8.9e-15, orientation error 0, and separates published_same_cycle_residual (97) from post2016_southern_model_backcast (412) so no race is scored twice; independent review reproduced the run's orientation and formula identities."
         },
         {
           "id": "alabama-10",
           "text": "Check all Alabama map interactions and downloads",
           "detail": "Verify selected-race wikibox, outcomes, correct vote denominators, unscored states, legend, keyboard operation, mobile layout and public/download parity.",
           "done": false,
-          "evidence": ""
+          "evidence": "2026-09-11 publication browser checks (served, 1258/390 px): cmo.html renders 189 district paths, 0 console/page errors, 0 failed requests, no horizontal overflow on the map page; downloads byte-identical to upstream exports. Pre-existing overflow at 390 px on the methodology shell (shared header nav) logged for release-05. Wikibox interaction and denominator checks not separately scripted for this page; keep open pending a dedicated harness like the Southern one."
         },
         {
           "id": "alabama-11",
           "text": "Publish an Alabama-specific validation and limitations card",
           "detail": "Include run IDs/hashes, repaired-input status, coverage/exclusions, backcast policy, geography uncertainty and reproducible commands. Do not describe reconstructed precincts as certified boundaries.",
-          "done": false,
-          "evidence": ""
+          "done": true,
+          "evidence": "2026-09-11: audits/ALABAMA_HISTORICAL_WAR_RELEASE_CARD_2026_09_11.md published with the downloads (docs/data/alabama_historical_war_release_card.md): run identifiers via manifests, repaired-input status, 509/546 coverage and exclusions, backcast policy, baseline-sensitive districts (2014 HD52/HD56, 2002 HD26), geography uncertainty (provisional pre-2010 allocation; display outlines are not certified boundaries), reproducible command chain. Public methodology limitations extended accordingly. Era sensitivity still open (alabama-07)."
         }
       ]
     },
@@ -340,7 +340,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "text": "Include the 2023 and 2024 elections in the historical release",
           "detail": "Delivered release: 4,280 strict races, including 90 from 2023 and 770 from 2024, with 116 scheduled state/year/chamber map slices.",
           "done": true,
-          "evidence": "Recorded in the linked phase audit; checked at checklist initialization, not a claimed completion timestamp."
+          "evidence": "Recorded in the linked phase audit; checked at checklist initialization, not a claimed completion timestamp. 2026-09-11 republished on WAR-SOUTH-HIST-V1-6D84680E7B757B057AF1 with identical slice accounting."
         },
         {
           "id": "southern-02",
@@ -382,7 +382,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "text": "Revalidate WAR source parity after upstream repairs",
           "detail": "Recheck modern residuals against the approved v3 source, 2016 backcast labels, D/R vote totals and source manifest hashes after any Phase 2 rebuild.",
           "done": true,
-          "evidence": "v3 retrained on the repaired warehouse as WAR-POST2016-V3-4AF79A70EAA8F39EBD49 (manifest SHA256 c6c09e19335965380e068c40484437bf460db81add232dc8d7cf78d135a905a6): all output, report, input and code hashes verified; historical run WAR-SOUTH-HIST-V1-45EC0B380AAEA007C2DF reproduces post-2016 residuals exactly and labels 620 strict 2016 races as backcasts; D/R vote totals and margins reconcile with the certified Alabama canvass (max WAR change 0.076 points vs the archived NOT APPROVED run WAR-POST2016-V3-8BB52074EC806C5BF6BF, all in Alabama, no sign changes). Sensitivity/uncertainty audit audits/SOUTHERN_V3_CONTEXT_SENSITIVITY.md passed its parity gate. Release decision audits/SOUTHERN_V3_RELEASE_DECISION.json approved_for_descriptive_historical_use bound to the exact manifest and review record."
+          "evidence": "v3 retrained on the repaired warehouse as WAR-POST2016-V3-4AF79A70EAA8F39EBD49 (manifest SHA256 c6c09e19335965380e068c40484437bf460db81add232dc8d7cf78d135a905a6): all output, report, input and code hashes verified; historical run WAR-SOUTH-HIST-V1-45EC0B380AAEA007C2DF reproduces post-2016 residuals exactly and labels 620 strict 2016 races as backcasts; D/R vote totals and margins reconcile with the certified Alabama canvass (max WAR change 0.076 points vs the archived NOT APPROVED run WAR-POST2016-V3-8BB52074EC806C5BF6BF, all in Alabama, no sign changes). Sensitivity/uncertainty audit audits/SOUTHERN_V3_CONTEXT_SENSITIVITY.md passed its parity gate. Release decision audits/SOUTHERN_V3_RELEASE_DECISION.json approved_for_descriptive_historical_use bound to the exact manifest and review record. 2026-09-11 limitation surfaced after acceptance: the Alabama slice of WAR-POST2016-V3-4AF79A70EAA8F39EBD49 uses the 2026-08-21 federal ticket baseline, which the regenerated baseline from the repaired warehouse changes in most districts (max 13.4 pp). Recorded in audits/ALABAMA_TICKET_BASELINE_STALENESS_2026_09_11.json; acceptance not withdrawn here, disposition awaits the owner. 2026-09-11 resolved: v3 retrained on the refreshed Alabama baseline as WAR-POST2016-V3-A937708D4E0A5232D3F5 and independently APPROVED FOR DESCRIPTIVE HISTORICAL USE (audits/SOUTHERN_V3_INDEPENDENT_REVIEW_2026_09_11.md); Southern historical run WAR-SOUTH-HIST-V1-E9D974108A87C957FE52 rebuilt with identical accounting; docs/southern-war.html remains on the superseded run until republication."
         },
         {
           "id": "southern-08",
@@ -417,7 +417,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "text": "Run full regional regression checks for the final data run",
           "detail": "Recheck all 116 slices, two empty slices, keyboard/filter/selection behavior, third-party denominators, map scale, mobile details and download parity after final reconciliation.",
           "done": true,
-          "evidence": "Final data run WAR-SOUTH-HIST-V1-45EC0B380AAEA007C2DF: map payload covers all 116 slices, 4,280 races, two explicit empty slices (VA 2017/2021 lower); join audit shows 0 unmatched races, 0 duplicate keys, 0 invalid geometries and D/R vote conservation; downloads copied and hash-checked against the manifest; Alabama third-party denominators now come from the certified canvass. Browser harness scripts/run_southern_war_browser_checks.mjs passed at 1258x900 and 390x844 (in-page checks over all 116 slices, keyboard order state/cycle/chamber/district, empty-slice explanation, no horizontal overflow, no console/page/request errors). 11 map tests and 7 historical tests pass."
+          "evidence": "Final data run WAR-SOUTH-HIST-V1-45EC0B380AAEA007C2DF: map payload covers all 116 slices, 4,280 races, two explicit empty slices (VA 2017/2021 lower); join audit shows 0 unmatched races, 0 duplicate keys, 0 invalid geometries and D/R vote conservation; downloads copied and hash-checked against the manifest; Alabama third-party denominators now come from the certified canvass. Browser harness scripts/run_southern_war_browser_checks.mjs passed at 1258x900 and 390x844 (in-page checks over all 116 slices, keyboard order state/cycle/chamber/district, empty-slice explanation, no horizontal overflow, no console/page/request errors). 11 map tests and 7 historical tests pass. 2026-09-11: regression checks re-run on the new data run: 15 v3, 9 preparation, 21 gate, 50 Southern historical/map/parity/bridge tests pass; sensitivity audit parity 6.5e-14, bootstrap medians unchanged."
         },
         {
           "id": "southern-13",
@@ -439,8 +439,8 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "id": "ideology-01",
           "text": "Reconcile the current evidence coverage funnel",
           "detail": "Start from the documented 58 expected session-chambers, 57 present, 60,704 roll calls, 987 issue-mapped votes and 550 candidate-cycles with legislative scores. Recompute current counts, distinguishing disposition from substantive evidence.",
-          "done": false,
-          "evidence": ""
+          "done": true,
+          "evidence": "2026-09-10 (audits/LEGISLATIVE_IDEOLOGY_COVERAGE_FUNNEL_2026_09_10.md): funnel recomputed from current local outputs: 58 expected / 57 present session-chambers (2000 Senate absent); 60,704 roll calls all with terminal dispositions; 2,022 roll calls with Luna-admitted canonical poles (documented 987 reproduced by rerunning the ontology builder on the retained human backup); 35,619 vote-evidence records over 550 candidate-cycles; 16,181 sponsorship records over 420; 1,124 of 1,564 candidate-cycles with any v3 profile, 1,104 with a scoreable profile. Disposition vs substantive evidence separated (3.3% of roll calls mapped). Provenance flag: comprehensive_rollcall_classifications.csv is modified vs HEAD (+60,704/-42,391; IDEOLOGY-HISTORICAL-FINAL-VOTES-003) and feeds all v3 scores. ABSOLUTE_IDEOLOGY_REBUILD.md gained a dated evidence-layer section for the Luna and sponsorship changes. Independent cross-check dispatched before acceptance. Independent cross-check (researcher-crosscheck, read-only) reproduced every figure with its own streaming code: 60,704 roll calls, 57/58 cells (2000 Senate absent), 35,619/550/782 vote evidence, 16,181 sponsorship rows all weight 1.2 over 420 cycles, Luna decision mix 7,637/1,016/8,806/6,571/3,469/770/564 = 28,833, and the +60,704/-42,391 classification-file diff. validate_frontier_ideology_integration.py: 12/12 passed, exit 0 (primary run; the read-only checker could not write its CSV). Defect found and fixed: the model doc is regenerated by analyze_absolute_ideology_rebuild.py, so the generator now emits a durable Evidence-layer pointer to the coordination records and funnel audits. Accepted as evidence for the current funnel; ideology-04..11 remain open."
         },
         {
           "id": "ideology-02",
@@ -539,8 +539,8 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "id": "forecast-01",
           "text": "Fix the public structural-adjustment contradiction",
           "detail": "docs/index.html says the adjustment remains zero, while the manifest has structural_applied=true and owner-selected inclusion. Reconcile the builder, visible copy, methodology and manifest to the approved actual behavior.",
-          "done": false,
-          "evidence": "Template corrected to owner-selected structure with advisory holdout limitation and candidate-specific WAR zero. Focused test: 1 passed, 21 deselected; independent review PASS. Public output not regenerated/recertified, so full task remains open."
+          "done": true,
+          "evidence": "Template corrected to owner-selected structure with advisory holdout limitation and candidate-specific WAR zero. Focused test: 1 passed, 21 deselected; independent review PASS. Public output not regenerated/recertified, so full task remains open. 2026-09-10 (audits/FORECAST_PUBLIC_CONTRACT_RECONCILIATION_2026_09_10.md): contradiction persists in published docs/index.html:144 and the committed builder; the working-tree builder, its test and docs/methodology.html already carry the corrected owner-selected wording, but the page was not regenerated. 9 contradictions and 7 ambiguities recorded in a 44-row table with exact edits E1-E9; several published downloads carry legacy finance/CMO columns. Fixing the public page requires re-rendering docs/index.html (publication authority) and should follow the forecast rebuild on the approved WAR lineage; the current bundle derives from pre-repair RUN-85A4692E481448B6BB1380D76E07742B. 2026-09-11 resolved by publication: docs/index.html regenerated from the corrected builder; the 'remains zero' sentence is gone from every public surface (grep on rendered pages); manifest structural_applied=true, owner-selected policy stated on page and methodology."
         },
         {
           "id": "forecast-02",
@@ -567,15 +567,15 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "id": "forecast-05",
           "text": "Document the national-to-Alabama transfer assumption",
           "detail": "Explain uniform generic-ballot transfer and sparse state evidence. Distinguish an owner-selected assumption from demonstrated predictive validity.",
-          "done": false,
-          "evidence": ""
+          "done": true,
+          "evidence": "2026-09-10: the uniform national-to-Alabama transfer is stated in docs/methodology.html:139, docs/index.html, the field contract and model doc but is not labeled an owner-selected assumption; the only Alabama forward test (33 races, 2022) does not demonstrate transfer validity. Exact edit E8 recorded in audits/FORECAST_PUBLIC_CONTRACT_RECONCILIATION_2026_09_10.md; apply with the forecast rebuild. 2026-09-11: uniform national-to-Alabama transfer labeled an owner-selected assumption whose Alabama validity is not established beyond the single 2022 holdout, in the methodology page (build_methodology_v3), field contract, and the generated model doc and validation audit."
         },
         {
           "id": "forecast-06",
           "text": "Reconcile active and excluded model components",
           "detail": "Current manifest excludes finance, candidate history and ideology and fixes candidate-specific WAR at zero. Keep public descriptions, contribution tables and downloads aligned; adding predictors is not required for completion.",
-          "done": false,
-          "evidence": ""
+          "done": true,
+          "evidence": "2026-09-10: manifest active/excluded components agree with the hero, quick-method, payload description and district component table; downloads do not: 2026_model_comparison.csv, 2026_model_variable_contributions.csv, 2026_forecast_decomposition.csv, production_probability_model_card.json and the scenarios CSV carry legacy models/columns (edits E3-E7, E9). Full reconciliation needs the rebuilt bundle. 2026-09-11: forecast bundle rebuilt on the approved lineage (build 828f6df6a19a5e7a39bf, RUN-504CE4C4…); manifest components unchanged (structural applied, owner-selected; finance/candidate history/ideology excluded); local page candidate rendered; download reconciliation edits E3-E7/E9 still to apply before publication. 2026-09-11: active/excluded components agree across page, methodology, downloads and manifest (build 368bb272a990ff436e56); 24 legacy forecast downloads removed from docs/data; scenarios CSV schema reduced to active-bundle columns with status uniform_generic_ballot_environment_selected; dead builder/JS templates deleted. Independent review of the rendered forecast page not separately performed (page tests + browser checks only)."
         },
         {
           "id": "forecast-07",
@@ -661,14 +661,14 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "text": "Review all four pages in a browser",
           "detail": "Test desktop and narrow mobile widths, keyboard focus, labels/contrast, empty/error/loading states, table/chart alternatives, selection behavior and valid navigation/download links.",
           "done": false,
-          "evidence": ""
+          "evidence": "2026-09-11: all ten public pages browser-checked at 1258 and 390 px over HTTP after publication: 0 console/page errors, 0 failed requests, maps render; Southern harness passed all 116 slices. Open: pre-existing 390 px horizontal overflow on methodology.html, cmo-methodology.html, southern-war-methodology.html (shared header nav / mobile TOC; table.limitations). Not accepted until fixed."
         },
         {
           "id": "release-06",
           "text": "Reconcile all public claims with data manifests",
           "detail": "Check page prose, tooltips, chart labels, model versions, as-of dates, counts and methods against generated data. No scaffold, stale artifact or research-only result may be labeled validated.",
           "done": false,
-          "evidence": ""
+          "evidence": "2026-09-11: download/manifest parity verified for the Alabama historical/modern WAR exports, Southern historical manifest, forecast bundle and release card (byte-identical); page payload version equals the forecast manifest build id; run ids on the Southern methodology page equal manifests. See audits/SITE_RELEASE_2026_09_11.md."
         },
         {
           "id": "release-07",
@@ -834,6 +834,54 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
       "done": 23,
       "total": 82,
       "event": "Southern phase closed: Alabama certified-canvass integration (RUN-DD7FF8C9ACBE4EAAA026AD1046693CA9, RUN-4C2EF8D12CC442D99A516E0D393DE157, RUN-92AB8DE353AC47D6AECE3D7767C29FCD) resolved all 97 source-lineage gaps; v3 retrained as WAR-POST2016-V3-4AF79A70EAA8F39EBD49 and independently APPROVED FOR DESCRIPTIVE HISTORICAL USE; historical run WAR-SOUTH-HIST-V1-45EC0B380AAEA007C2DF and local map rebuilt with state-level limitations; browser checks passed at 1258px and 390px. southern-04, -06, -07, -12 and -13 accepted. Publication not performed."
+    },
+    {
+      "at": "2026-09-08T14:47:16Z",
+      "done": 23,
+      "total": 82,
+      "event": "Warehouse safeguards and evidence advanced: five source-count boundaries, declared dependency hash enforcement, and legacy physical-locator preservation accepted with fixtures and independent code review. Fresh live storage/source-pattern checks passed. Corrected superseded outcome-lineage evidence; source-grain ambiguities and broader dependency acceptance remain open. No warehouse mutation, analytical rebuild, publication or additional completed task."
+    },
+    {
+      "at": "2026-09-08T15:34:19Z",
+      "done": 23,
+      "total": 82,
+      "event": "Accepted 228882 exact legacy source-provenance fills under RUN-91B2A0C3435548A1B6932613B3073995. First attempt safely rolled back on integer-affinity hash mismatch; regression fixed and fresh reviewed retry passed full source preservation and independent integrity/foreign-key checks. Ambiguous/refused source cohorts and broader warehouse acceptance remain open; no additional task marked complete."
+    },
+    {
+      "at": "2026-09-08T15:39:47Z",
+      "done": 23,
+      "total": 82,
+      "event": "Manifest-backed registry URL/license repair committed as RUN-55E4997B16DA4330BF6E2EE7A1E5FD36 with separate verified backup and 38 passing focused tests. Recorded exact metadata progress; broad warehouse tasks remain unchecked and independent registry postcheck is recorded in the repair audit."
+    },
+    {
+      "at": "2026-09-11T04:13:29Z",
+      "done": 24,
+      "total": 82,
+      "event": "warehouse-11 accepted: stale-input gates on all four product routes plus reviewed accepted_input_revisions; approved v3 decision gained one reviewed revision for the metadata-only warehouse runs (replay byte-identical; independent review PASS). alabama_war_v1 rebuilt from the approved run; historical rebuild refused on 7 superseded compat totals, blocked behind the Morgan 1994 disposition (warehouse-06). Evidence added for warehouse-06/12, alabama-02/03/09, ideology-01, forecast-01/05/06; no publication."
+    },
+    {
+      "at": "2026-09-11T04:18:56Z",
+      "done": 25,
+      "total": 82,
+      "event": "ideology-01 accepted after independent cross-check reproduced the recomputed funnel and the integration validator passed 12/12; generated model doc given a durable evidence-layer pointer. alabama-02 reconciliation reproduced but held on the unadjudicated 2002 House 27 source gap. Historical Alabama rebuild remains blocked on the warehouse-06 disposition."
+    },
+    {
+      "at": "2026-09-11T05:15:39Z",
+      "done": 26,
+      "total": 82,
+      "event": "warehouse-06 accepted: owner adjudicated the Morgan 1994 cell to the provider's reported total (RUN-C0A15A7AB6A6403991BB5FE5143BACFF, independent review PASS). Alabama allocation/compat chain regenerated (warehouse-04 partial). Historical Alabama rebuild now refuses because the approved v3 run's Alabama ticket baseline equals the 2026-08-21 federal build; retrain decision escalated to the owner. Second reviewed input revision on the v3 decision."
+    },
+    {
+      "at": "2026-09-11T05:55:16Z",
+      "done": 28,
+      "total": 82,
+      "event": "Owner authorized retraining Southern v3 on the refreshed Alabama ticket baseline: WAR-POST2016-V3-A937708D4E0A5232D3F5 independently APPROVED; decision re-bound; alabama_war_v1, historical Alabama WAR, forecast bundle and Southern historical run rebuilt on the new lineage with local page candidates. alabama-03 and alabama-09 accepted. No publication."
+    },
+    {
+      "at": "2026-09-11T14:34:32Z",
+      "done": 32,
+      "total": 82,
+      "event": "Owner authorized publication and commit. Structural fix: v3 manifest declares the training frame by content digest (run WAR-POST2016-V3-530FBD4238CC483E557C, outputs byte-identical, contract review APPROVED). All four pages republished on the new lineage with browser checks and download parity; alabama-11, forecast-01/05/06 accepted. Pre-existing methodology-shell mobile overflow logged under release-05."
     }
   ]
 }

@@ -1,0 +1,136 @@
+{
+  "approved_run_id": "WAR-POST2016-V3-4AF79A70EAA8F39EBD49",
+  "scratch_run_id": "WAR-POST2016-V3-58FF952DE4FACDAF75BD",
+  "approved_warehouse_run": "RUN-92AB8DE353AC47D6AECE3D7767C29FCD",
+  "scratch_warehouse_run": "RUN-92AB8DE353AC47D6AECE3D7767C29FCD",
+  "approved_input_hashes": {
+    "data/processed/elections/alabama_elections.sqlite": "8cb49945d657b0d928dee1bfdaa33d4729c5c8fbda5c51217d1cc55492ba03b5",
+    "data/processed/forecast_calibration/southern_legislative_probability_panel.csv": "09154b4ecd80e513acef147a73c9bdf3bb5ba95687ce1b58c6608fe9230315ed",
+    "data/processed/presidential/2018_district_presidential_features.csv": "064c89b51842a26fa108da0b1ad7278f464b9a1c5faaa01aa44e8fffb5dc2d90",
+    "data/processed/presidential/2022_district_presidential_features.csv": "b5243cebb2c7e8b22b2a1fee4598914920fca844f74ca80d17fd548d728b5bd3",
+    "data/processed/war/post2016_southern_war_v2/manifest.json": "062c9e201d660052180ea629ccbbb0fd386c308de39fda031546d599020652f5",
+    "project_docs/model/POST2016_SOUTHERN_WAR_V3_FIELD_CONTRACT.md": "3de27261136fb5574fc7be90b23d599de919c9b8226a2c62772b5936190618dc"
+  },
+  "scratch_input_hashes": {
+    "data/processed/elections/alabama_elections.sqlite": "e2dbdb9d414041bf61eec83bca8e3c9439eae35b03822dddec9ac3f41bfe72bd",
+    "data/processed/forecast_calibration/southern_legislative_probability_panel.csv": "09154b4ecd80e513acef147a73c9bdf3bb5ba95687ce1b58c6608fe9230315ed",
+    "data/processed/presidential/2018_district_presidential_features.csv": "064c89b51842a26fa108da0b1ad7278f464b9a1c5faaa01aa44e8fffb5dc2d90",
+    "data/processed/presidential/2022_district_presidential_features.csv": "b5243cebb2c7e8b22b2a1fee4598914920fca844f74ca80d17fd548d728b5bd3",
+    "data/processed/war/post2016_southern_war_v2/manifest.json": "062c9e201d660052180ea629ccbbb0fd386c308de39fda031546d599020652f5",
+    "project_docs/model/POST2016_SOUTHERN_WAR_V3_FIELD_CONTRACT.md": "3de27261136fb5574fc7be90b23d599de919c9b8226a2c62772b5936190618dc"
+  },
+  "input_hash_differences": [
+    "data/processed/elections/alabama_elections.sqlite"
+  ],
+  "code_hash_differences": [],
+  "diagnostics_equal": true,
+  "configuration_equal": true,
+  "outputs": [
+    {
+      "output": "race_war.csv",
+      "approved_rows": 3660,
+      "scratch_rows": 3660,
+      "identical_without_run_id": true,
+      "approved_digest": "6b1460bbc1550bb1a0f87ca2e32e56babf262298e7f612991bd686eb6d8505a7",
+      "scratch_digest": "6b1460bbc1550bb1a0f87ca2e32e56babf262298e7f612991bd686eb6d8505a7"
+    },
+    {
+      "output": "candidate_cycle_war.csv",
+      "approved_rows": 7320,
+      "scratch_rows": 7320,
+      "identical_without_run_id": true,
+      "approved_digest": "edc14ee87e2ec92f2c651b8ff09372323f31ffd72f124526b31015bb17e75d21",
+      "scratch_digest": "edc14ee87e2ec92f2c651b8ff09372323f31ffd72f124526b31015bb17e75d21"
+    },
+    {
+      "output": "structural_forward_predictions.csv",
+      "approved_rows": 31620,
+      "scratch_rows": 31620,
+      "identical_without_run_id": true,
+      "approved_digest": "f596009ed36179eb6e3238303b769b5ababb10baa6b4d86d7447ff1ca32f2303",
+      "scratch_digest": "f596009ed36179eb6e3238303b769b5ababb10baa6b4d86d7447ff1ca32f2303"
+    },
+    {
+      "output": "structural_forward_metrics.csv",
+      "approved_rows": 120,
+      "scratch_rows": 120,
+      "identical_without_run_id": true,
+      "approved_digest": "2bbd498e873b95dcb79f38de2f046f18d45efab0490bf23f9d9c93601ddf6ddc",
+      "scratch_digest": "2bbd498e873b95dcb79f38de2f046f18d45efab0490bf23f9d9c93601ddf6ddc"
+    },
+    {
+      "output": "validation_cross_fitted_predictions.csv",
+      "approved_rows": 3660,
+      "scratch_rows": 3660,
+      "identical_without_run_id": true,
+      "approved_digest": "135bcc03d7d345ceb3069ee521fa7aa3ac73b5172687701d7508d8ef120a3732",
+      "scratch_digest": "135bcc03d7d345ceb3069ee521fa7aa3ac73b5172687701d7508d8ef120a3732"
+    },
+    {
+      "output": "structural_coefficients_by_cycle.csv",
+      "approved_rows": 204,
+      "scratch_rows": 204,
+      "identical_without_run_id": true,
+      "approved_digest": "2a60ebc8fe190c34b801d581e8e4cffde58186fb9ef328bba0a99e13e8696b88",
+      "scratch_digest": "2a60ebc8fe190c34b801d581e8e4cffde58186fb9ef328bba0a99e13e8696b88"
+    },
+    {
+      "output": "lag_diagnostics_by_cycle.csv",
+      "approved_rows": 6,
+      "scratch_rows": 6,
+      "identical_without_run_id": true,
+      "approved_digest": "08d40d6cdbf25edb3a134c4e17f97300272a2fa9f287156c76ffd87d95a491f3",
+      "scratch_digest": "08d40d6cdbf25edb3a134c4e17f97300272a2fa9f287156c76ffd87d95a491f3"
+    },
+    {
+      "output": "v2_correction_comparison.csv",
+      "approved_rows": 3660,
+      "scratch_rows": 3660,
+      "identical_without_run_id": true,
+      "approved_digest": "5aa4685bc417454787438a553a1d4f31e39c4db952bc01c1b57240b0ee83ffe0",
+      "scratch_digest": "5aa4685bc417454787438a553a1d4f31e39c4db952bc01c1b57240b0ee83ffe0"
+    },
+    {
+      "output": "coverage.csv",
+      "approved_rows": 94,
+      "scratch_rows": 94,
+      "identical_without_run_id": true,
+      "approved_digest": "7947f502d3c230b6f65c1fd01712cc59489299d2c24d2717128aa5bd44fe0c72",
+      "scratch_digest": "7947f502d3c230b6f65c1fd01712cc59489299d2c24d2717128aa5bd44fe0c72"
+    },
+    {
+      "output": "finance_forward_predictions.csv",
+      "approved_rows": 29003,
+      "scratch_rows": 29003,
+      "identical_without_run_id": true,
+      "approved_digest": "c18177500aa74027527e64529ad8194868fa183dccbe7d02c63b36b0f6cdee71",
+      "scratch_digest": "c18177500aa74027527e64529ad8194868fa183dccbe7d02c63b36b0f6cdee71"
+    },
+    {
+      "output": "finance_forward_metrics.csv",
+      "approved_rows": 78,
+      "scratch_rows": 78,
+      "identical_without_run_id": true,
+      "approved_digest": "e0900fcb946be3afa3899f0e9f25c10949e5103af440f9c5250b0bfcaba39fac",
+      "scratch_digest": "e0900fcb946be3afa3899f0e9f25c10949e5103af440f9c5250b0bfcaba39fac"
+    },
+    {
+      "output": "finance_nested_predictions.csv",
+      "approved_rows": 2754,
+      "scratch_rows": 2754,
+      "identical_without_run_id": true,
+      "approved_digest": "892b19e8a346563c05cbf8d4a4e01a27b1b98ac5086bacb7865bd4faf45c91bb",
+      "scratch_digest": "892b19e8a346563c05cbf8d4a4e01a27b1b98ac5086bacb7865bd4faf45c91bb"
+    },
+    {
+      "output": "finance_nested_metrics.csv",
+      "approved_rows": 8,
+      "scratch_rows": 8,
+      "identical_without_run_id": true,
+      "approved_digest": "ff23436f1dc813a9e84df33bf67ebb7084df6203b5867423aacab0d3dbe74af6",
+      "scratch_digest": "ff23436f1dc813a9e84df33bf67ebb7084df6203b5867423aacab0d3dbe74af6"
+    }
+  ],
+  "all_outputs_identical_without_run_id": true,
+  "elapsed_seconds": 10.8
+}

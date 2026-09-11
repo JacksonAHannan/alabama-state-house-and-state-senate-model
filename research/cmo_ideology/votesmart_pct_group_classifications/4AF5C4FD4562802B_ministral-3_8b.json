@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_tax_incentives_college_savings",
+  "dimension": "education_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Tax breaks for families to fund college expenses at the federal level.",
+  "evidence_quote": "Support federal tax incentives to help families save for college.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

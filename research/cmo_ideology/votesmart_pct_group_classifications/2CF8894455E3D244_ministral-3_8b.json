@@ -1,0 +1,11 @@
+{
+  "policy_key": "us_pakistan_aid_cut",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Whether to reduce U.S. financial aid to Pakistan is often framed as a conservative vs. progressive debate, but the evidence here is context-dependent: it depends on *why* the candidate supports or opposes cuts (e.g., security concerns vs. moral/ideological objections).",
+  "evidence_quote": "**l) Should the United States decrease financial support for Pakistan?** *(No explicit position provided in this snippet, but if a candidate endorsed this option verbatim without further explanation, it would typically reflect a stance on reducing aid\u2014often tied to conservative critiques of foreign assistance or progressive skepticism toward military/political alliances.)**",
+  "needs_human_review": true,
+  "review_reason": "This is a *procedural* question (no candidate response provided), so it cannot be scored. A full questionnaire would require the candidate\u2019s explicit justification to classify as +1, -1, or 0."
+}

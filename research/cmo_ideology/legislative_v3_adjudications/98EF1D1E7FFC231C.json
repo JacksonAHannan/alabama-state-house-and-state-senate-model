@@ -1,0 +1,10 @@
+{
+  "id": "98EF1D1E7FFC231C",
+  "decision": "map",
+  "primitive_axis": "healthcare_public_responsibility",
+  "policy_pole": "private_responsibility",
+  "confidence": "high",
+  "rationale": "The act exempts Health Care Sharing Ministries from state insurance regulations, shifting healthcare responsibility to private entities rather than the public sector.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

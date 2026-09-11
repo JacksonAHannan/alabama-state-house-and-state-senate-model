@@ -1,0 +1,10 @@
+{
+  "id": "0DC55AA0C325C958",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Creates and regulates a private-investigator licensing board; this is administrative and licensing policy rather than one of the allowed criminal-justice poles.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

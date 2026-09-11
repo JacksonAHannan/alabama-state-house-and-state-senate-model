@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "childcare_delivery",
+  "plain_english_policy": "Employer incentive to provide childcare",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "business_scale_alignment",
+      "pole": "small_business",
+      "strength": "primary",
+      "rationale": "The policy explicitly mentions tax credits for businesses that provide childcare. This suggests a focus on small businesses, as they are more likely to be impacted by the cost of childcare."
+    },
+    {
+      "axis": "labor_capital_alignment",
+      "pole": "labor",
+      "strength": "primary",
+      "rationale": "The policy aims to incentivize employers to provide childcare, which benefits employees and potentially reduces labor turnover. This aligns with the labor side of the alignment."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Provide tax credits for businesses that provide child care for their employees.",
+  "needs_human_review": false,
+  "review_reason": "The policy directly incentivizes employers to offer childcare benefits. This is a clear indication of the policy's focus on labor and its potential impact on employee well-being."
+}

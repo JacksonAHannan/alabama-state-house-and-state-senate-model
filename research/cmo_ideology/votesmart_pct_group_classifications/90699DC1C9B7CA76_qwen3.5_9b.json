@@ -1,0 +1,11 @@
+{
+  "policy_key": "death_row_appeals_limit",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "limiting death row appeals is conventionally more progressive as it reduces state power and potential for wrongful execution.",
+  "evidence_quote": "Limit the number of appeals allowed to inmates on death row.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

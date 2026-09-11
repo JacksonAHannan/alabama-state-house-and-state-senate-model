@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_budget_food_stamps",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "This option is a procedural selection within a federal funding questionnaire and does not inherently express a conservative or progressive stance.",
+  "evidence_quote": "d) Food stamps",
+  "needs_human_review": true,
+  "review_reason": "The text 'd) Food stamps' is merely an item label in a multiple-choice list; it lacks the candidate's specific support language required to determine ideological direction."
+}

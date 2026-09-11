@@ -1,0 +1,11 @@
+{
+  "policy_key": "foreign_policy_troop_deployment",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option asks about troop deployment to a specific conflict zone (former Yugoslavia) rather than expressing support for or opposition to the general principle of foreign aid. This is a procedural question asking for a position on an unrelated topic within the same questionnaire section.",
+  "evidence_quote": "Do you support the deployment of US troops to the former Yugoslavia?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

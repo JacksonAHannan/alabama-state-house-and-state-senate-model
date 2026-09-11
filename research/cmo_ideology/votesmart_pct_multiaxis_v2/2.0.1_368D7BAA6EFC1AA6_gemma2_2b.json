@@ -1,0 +1,18 @@
+{
+  "primary_domain": "education",
+  "policy_key": "public_private_provision",
+  "plain_english_policy": "local school funding and standards",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "The text implies a preference for increased control over local school funding and standards."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Support a constitutional amendment giving communities control over local school funding and standards.",
+  "needs_human_review": false,
+  "review_reason": "The text explicitly states support for increased community control over local school funding and standards. This suggests a preference for greater autonomy in education policy."
+}

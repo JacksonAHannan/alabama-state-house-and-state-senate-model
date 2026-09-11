@@ -1,0 +1,10 @@
+{
+  "id": "2FC4626F7F72124C",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Further provision for county pistol permits does not provide enough detail to determine whether gun access or purchase regulation is expanded or restricted.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

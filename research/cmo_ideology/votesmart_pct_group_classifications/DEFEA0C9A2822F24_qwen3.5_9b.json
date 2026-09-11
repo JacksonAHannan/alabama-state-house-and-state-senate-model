@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_environment_international_emission_targets",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting mandatory international emission targets is conventionally a progressive policy position.",
+  "evidence_quote": "k) Support international mandatory emission targets to limit global warming.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

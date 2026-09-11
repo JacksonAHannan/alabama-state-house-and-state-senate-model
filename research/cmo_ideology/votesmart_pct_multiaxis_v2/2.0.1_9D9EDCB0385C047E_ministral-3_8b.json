@@ -1,0 +1,30 @@
+{
+  "primary_domain": "education",
+  "policy_key": "merit_scholarships_state_funded",
+  "plain_english_policy": "Provide financial aid to high-achieving Alabama students to pursue higher education within the state, funded by state resources.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "Scholarships are typically tied to income thresholds or merit criteria that may disproportionately benefit higher-income families (e.g., students with resources to prepare for standardized tests)."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "primary",
+      "rationale": "The funding source is explicitly state-funded, and the scholarships are delivered via public institutions (Alabama colleges/universities)."
+    },
+    {
+      "axis": "education_governance",
+      "pole": "public_system",
+      "strength": "primary",
+      "rationale": "Scholarships are tied to state-operated educational institutions, reinforcing the role of the public education system."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Support **state-funded** merit scholarships for Alabama students\"",
+  "needs_human_review": true,
+  "review_reason": "The regressive tax distribution effect is inferred from common patterns in merit-based aid (e.g., income-based eligibility criteria or test-prep disparities), but the exact mechanism isn't specified in the source. Context on how 'merit' is defined (e.g., academic, financial need) would clarify."
+}

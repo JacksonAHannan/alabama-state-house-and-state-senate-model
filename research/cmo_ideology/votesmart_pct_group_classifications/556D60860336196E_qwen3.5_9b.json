@@ -1,0 +1,11 @@
+{
+  "policy_key": "international_aid",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks for specific proposals regarding Iraq rather than stating a principle on international aid.",
+  "evidence_quote": "Discuss your proposals for Iraq.",
+  "needs_human_review": true,
+  "review_reason": "This is an open-ended question asking for policy ideas about a specific country (Iraq) under the 'International Aid' section. It does not state a conservative or progressive principle itself; it merely invites any proposal. Therefore, no stable left/right direction can be inferred from this text alone."
+}

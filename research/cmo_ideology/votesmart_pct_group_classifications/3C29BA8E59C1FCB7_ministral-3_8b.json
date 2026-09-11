@@ -1,0 +1,11 @@
+{
+  "policy_key": "block_grants_k12_funding",
+  "dimension": "education_position",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Increase federal funding allocated as block grants to states for K-12 education, specifically to support hiring more teachers.",
+  "evidence_quote": "Increase funding for block grants to states to help them hire additional teachers.",
+  "needs_human_review": true,
+  "review_reason": "The policy is procedurally neutral in terms of left/right framing, as it focuses on administrative implementation (block grants) rather than ideological priorities. Context matters: progressive candidates may emphasize equity-driven hiring, while conservatives might frame it as local control or tax relief."
+}

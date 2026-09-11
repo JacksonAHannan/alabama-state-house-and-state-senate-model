@@ -1,0 +1,11 @@
+{
+  "policy_key": "environment_pollution_trading",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Allowing energy producers to trade pollution credits is a market-based environmental policy that relies on economic incentives rather than strict command-and-control regulations. While it can reduce overall emissions cost-effectively, critics often view such mechanisms as favoring corporate interests and potentially allowing higher polluters to buy their way out of responsibility, which aligns with more conservative or libertarian preferences for deregulation.",
+  "evidence_quote": "k) Allow energy producers to trade pollution credits.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

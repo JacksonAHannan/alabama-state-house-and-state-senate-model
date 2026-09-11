@@ -1,0 +1,18 @@
+{
+  "primary_domain": "labor",
+  "policy_key": "labor_capital_alignment",
+  "plain_english_policy": "Reducing state employee salaries AND/OR pensions",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "The policy is a reduction in the wages of state employees. This will likely result in a decrease in the standard of living for these workers."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "a) Reducing state employee salaries AND/OR pensions?",
+  "needs_human_review": false,
+  "review_reason": "The policy is a reduction in the wages of state employees. This will likely result in a decrease in the standard of living for these workers."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0FC0EA32A23E4E16",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "The description does not specify whether licensing requirements are expanded or relaxed, so it is insufficient to assign a clear market-governance pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

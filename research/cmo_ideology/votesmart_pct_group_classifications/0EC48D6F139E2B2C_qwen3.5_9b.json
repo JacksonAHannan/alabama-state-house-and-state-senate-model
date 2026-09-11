@@ -1,0 +1,11 @@
+{
+  "policy_key": "patient_rights_admin_appeal",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting a Patient's Bill of Rights with administrative appeal processes for denied services is conventionally viewed as progressive.",
+  "evidence_quote": "f) Support a Patient's Bill of Rights which includes the right to appeal to an administrative board of specialists when services are denied.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "welfare_employer_incentives",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Encouraging employers to hire and train welfare recipients by offering incentives (e.g., tax breaks, subsidies) to reduce dependency on government aid.",
+  "evidence_quote": "*[Verbatim excerpt from candidate questionnaire\u2014no specific quote provided; inferred intent based on policy framing. If available, a direct quote would be preferred.]",
+  "needs_human_review": true,
+  "review_reason": "Policy phrasing leans conservative (pro-work incentives) but may include nuance (e.g., training components). Requires context to confirm if progressive elements exist."
+}

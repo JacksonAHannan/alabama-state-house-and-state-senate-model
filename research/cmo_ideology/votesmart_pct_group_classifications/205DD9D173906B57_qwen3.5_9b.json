@@ -1,0 +1,11 @@
+{
+  "policy_key": "legislative_priorities_open",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option is a neutral prompt asking for additional priorities without specifying any policy content.",
+  "evidence_quote": "In the following area, please explain in a total of 100 words or less, any additional priorities of your campaign that have not been covered in these questions.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

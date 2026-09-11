@@ -1,0 +1,11 @@
+{
+  "policy_key": "child_healthcare_expansion",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase access to healthcare services for children through government-funded programs.",
+  "evidence_quote": "Support expanding child healthcare programs.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

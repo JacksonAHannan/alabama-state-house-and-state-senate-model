@@ -1,0 +1,10 @@
+{
+  "id": "D4E8DA1C7F8D6B2B",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Fragmentary amendment text concerning an expenditure authorization is insufficient to establish a concrete criminal-justice policy position.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

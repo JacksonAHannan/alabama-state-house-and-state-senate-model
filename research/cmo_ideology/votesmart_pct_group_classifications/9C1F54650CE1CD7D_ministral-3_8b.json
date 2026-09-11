@@ -1,0 +1,11 @@
+{
+  "policy_key": "military_support_afghanistan",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Increase U.S. military aid to Afghanistan (context-dependent, often tied to geopolitical or humanitarian conditions rather than a stable ideological stance).",
+  "evidence_quote": "*[No explicit quote provided in the option text\u2014this is a standalone question without candidate responses.]*",
+  "needs_human_review": true,
+  "review_reason": "The option lacks candidate-specific language to classify as +1 (conservative) or -1 (progressive). Military aid questions often reflect mixed motives (security vs. humanitarian), but this is a procedural prompt without stated principles."
+}

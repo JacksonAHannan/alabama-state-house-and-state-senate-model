@@ -1,0 +1,18 @@
+{
+  "primary_domain": "education",
+  "policy_key": "teacher_tenure",
+  "plain_english_policy": "Teacher Tenure",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "The question asks if the tenure process is producing effective teachers. This implies a restriction on teacher tenure, which would likely lead to fewer teachers being able to stay in their positions and potentially impact the quality of education."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "The question asks if the tenure process is producing effective teachers. This implies a restriction on teacher tenure, which would likely lead to fewer teachers being able to stay in their positions and potentially impact the quality of education.",
+  "needs_human_review": false,
+  "review_reason": "The question asks if the tenure process is producing effective teachers. This implies a restriction on teacher tenure, which would likely lead to fewer teachers being able to stay in their positions and potentially impact the quality of education."
+}

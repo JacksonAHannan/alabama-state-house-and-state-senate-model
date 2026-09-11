@@ -1,0 +1,18 @@
+{
+  "primary_domain": "childcare",
+  "policy_key": "childcare_delivery=employer_incentive",
+  "plain_english_policy": "Provide tax credits for businesses that provide child care for their employees.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "Tax credits incentivize businesses to provide childcare, which can expand access for employees."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Provide tax credits for businesses that provide child care for their employees.\" - [Source: Questionnaire from Year 1998 on Social Issues]",
+  "needs_human_review": true,
+  "review_reason": "invalid pole 'small_business' for market_governance"
+}

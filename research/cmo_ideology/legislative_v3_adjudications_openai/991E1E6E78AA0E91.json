@@ -1,0 +1,10 @@
+{
+  "id": "991E1E6E78AA0E91",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Alters retiree premium cost sharing and supplemental coverage while depending on enactment of other bills; it is contingent and not a single clear policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

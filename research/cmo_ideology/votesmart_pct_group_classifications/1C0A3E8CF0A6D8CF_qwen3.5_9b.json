@@ -1,0 +1,11 @@
+{
+  "policy_key": "strengthen_logging_restrictions_federal_lands",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting stricter logging restrictions on federal lands is conventionally a progressive environmental policy aimed at conservation and limiting industrial extraction.",
+  "evidence_quote": "i) Strengthen logging restrictions on federal lands.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

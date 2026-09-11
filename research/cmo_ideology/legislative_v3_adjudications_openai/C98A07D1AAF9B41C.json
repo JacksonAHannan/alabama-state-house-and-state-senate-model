@@ -1,0 +1,10 @@
+{
+  "id": "C98A07D1AAF9B41C",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns certificate-of-need ownership transfers and facility regulation, which do not clearly map to an allowed healthcare axis or pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

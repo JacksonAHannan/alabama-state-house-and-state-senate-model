@@ -1,0 +1,11 @@
+{
+  "policy_key": "social_security_private_accounts",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option supports replacing or supplementing the traditional Social Security system with privately managed investment accounts funded by payroll taxes. This is a progressive policy position because it advocates for individual control over retirement savings and market-based solutions rather than government-managed programs.",
+  "evidence_quote": "a) Allow workers to invest a portion of their payroll tax in private accounts which they manage themselves.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

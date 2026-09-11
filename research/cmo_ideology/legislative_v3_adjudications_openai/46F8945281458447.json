@@ -1,0 +1,10 @@
+{
+  "id": "46F8945281458447",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Creates an administrative commission without enough substantive policy detail to identify a permitted healthcare pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "gun_show_background_checks",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting mandatory background checks for gun buyers at gun shows is a progressive policy position.",
+  "evidence_quote": "Require background checks of gun buyers at gun shows.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

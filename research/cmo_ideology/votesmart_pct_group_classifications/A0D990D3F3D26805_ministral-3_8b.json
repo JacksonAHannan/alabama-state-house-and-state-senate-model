@@ -1,0 +1,11 @@
+{
+  "policy_key": "budget_stabilization_cuts",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Cutting state employee salaries and/or pensions to balance the budget.",
+  "evidence_quote": "Reducing state employee salaries AND/OR pensions?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

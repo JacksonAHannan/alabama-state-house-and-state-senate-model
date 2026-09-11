@@ -1,0 +1,10 @@
+{
+  "id": "DB98A1787027B670",
+  "decision": "map",
+  "primitive_axis": "healthcare_public_responsibility",
+  "policy_pole": "public_responsibility",
+  "confidence": "medium",
+  "rationale": "Removing the sunset preserves an assessment and Medicaid funding program that supports ongoing public financing of healthcare.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

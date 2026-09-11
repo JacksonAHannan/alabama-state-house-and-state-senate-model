@@ -1,0 +1,10 @@
+{
+  "id": "D722F801288317EA",
+  "decision": "map",
+  "primitive_axis": "election_integrity_controls",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Prohibits specified campaign-fund transfers and imposes related limits and penalties, strengthening campaign-finance controls.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

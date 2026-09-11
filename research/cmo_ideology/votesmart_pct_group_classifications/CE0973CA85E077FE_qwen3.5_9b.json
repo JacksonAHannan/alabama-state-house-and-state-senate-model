@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_homeless_shelter_funding",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option advocates for increased government spending on social welfare programs specifically targeting homelessness and low-income housing.",
+  "evidence_quote": "Increase funding of homeless shelters and low income housing projects.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

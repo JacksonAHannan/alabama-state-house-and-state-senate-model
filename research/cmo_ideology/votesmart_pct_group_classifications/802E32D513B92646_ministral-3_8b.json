@@ -1,0 +1,11 @@
+{
+  "policy_key": "gaming_taxes",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Taxing gambling revenue to fund state programs.",
+  "evidence_quote": "Regulating and taxing gaming proceeds",
+  "needs_human_review": false,
+  "review_reason": ""
+}

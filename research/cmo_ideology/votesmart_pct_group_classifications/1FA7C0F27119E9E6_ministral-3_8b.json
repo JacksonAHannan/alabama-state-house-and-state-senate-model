@@ -1,0 +1,11 @@
+{
+  "policy_key": "military_support_afghanistan",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Increase U.S. military aid to Afghanistan (context-dependent, often tied to geopolitical or humanitarian goals).",
+  "evidence_quote": "*[No explicit quote provided in the option text\u2014this is a standalone question without candidate response.]*",
+  "needs_human_review": true,
+  "review_reason": "The option itself does not include a candidate\u2019s stance; it only frames the policy as a binary choice. A full classification would require the candidate\u2019s verbatim answer (e.g., 'Yes, to counter terrorism' or 'No, we should focus on diplomacy')."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "medicare_drug_coverage",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Expands federal Medicare to include prescription drug benefits, typically associated with progressive healthcare reform.",
+  "evidence_quote": "Support legislation to provide prescription drug coverage under Medicare.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

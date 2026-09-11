@@ -1,0 +1,11 @@
+{
+  "policy_key": "un_peacekeeping_troops",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Whether the U.S. should deploy troops to UN peacekeeping missions (neutral/nonpartisan by design, but often debated on cost/benefit grounds).",
+  "evidence_quote": "*[No explicit ideological lean in the question itself\u2014UN peacekeeping is a procedural/administrative matter with mixed historical support from both parties.]*",
+  "needs_human_review": true,
+  "review_reason": "The option lacks clear partisan framing; context (e.g., candidate\u2019s broader stance on military intervention) would be required to assign +1/-1."
+}

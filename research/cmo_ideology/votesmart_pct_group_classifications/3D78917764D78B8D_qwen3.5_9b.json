@@ -1,0 +1,11 @@
+{
+  "policy_key": "legislative_priorities_funding_source",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "This option asks for a funding source explanation rather than stating a policy position.",
+  "evidence_quote": "2) Should your priorities require additional government funding, please explain how you intend to obtain the additional funding.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

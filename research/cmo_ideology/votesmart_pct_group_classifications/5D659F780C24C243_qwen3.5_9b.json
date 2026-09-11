@@ -1,0 +1,11 @@
+{
+  "policy_key": "increase_child_care_funding",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase government spending to subsidize or provide child care services.",
+  "evidence_quote": "b) Increase funding for child care programs.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

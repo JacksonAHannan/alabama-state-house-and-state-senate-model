@@ -1,10 +1,10 @@
 # Alabama WAR v1
 
-Run: `AL-WAR-V1-E1F8E11BF2853322239F`
+Run: `AL-WAR-V1-C00FF05BC2BE58E16087`
 
-Source Southern run: `WAR-POST2016-V3-D9C7EE17BD14B8C7D23A`
+Source Southern run: `WAR-POST2016-V3-530FBD4238CC483E557C`
 
-Generated: `2026-09-01T02:43:04.238208+00:00`
+Generated: `2026-09-11T14:27:35.225278+00:00`
 
 Alabama WAR is the race-level residual from the post-2016 Southern structural model. For every contested Democratic-versus-Republican Alabama general election after 2016:
 

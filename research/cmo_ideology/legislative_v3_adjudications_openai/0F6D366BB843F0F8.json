@@ -1,0 +1,10 @@
+{
+  "id": "0F6D366BB843F0F8",
+  "decision": "map",
+  "primitive_axis": "education_public_funding",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Requires each public school system to impose a minimum local millage rate, increasing required public-school funding.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

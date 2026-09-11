@@ -1,0 +1,11 @@
+{
+  "policy_key": "terrorism_federal_agency_limits",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Limiting federal agency authority in terrorism investigations is generally viewed as a civil liberties or progressive stance.",
+  "evidence_quote": "f) Maintain limits on the authority of federal agencies investigating suspected terrorists.",
+  "needs_human_review": true,
+  "review_reason": "While limiting government power often aligns with conservative principles regarding states' rights and limited government, in the specific context of national security and terrorism, this position is frequently associated with progressive advocacy for civil liberties. The direction can be mixed depending on whether 'limits' are framed as protecting individual rights (progressive) or restricting federal overreach into state matters (conservative), making a stable directional score difficult without more candidate-specific data."
+}

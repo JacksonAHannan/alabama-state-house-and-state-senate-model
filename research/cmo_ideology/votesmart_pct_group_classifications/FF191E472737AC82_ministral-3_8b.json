@@ -1,0 +1,11 @@
+{
+  "policy_key": "endangered_species_act_reform",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Reduce protections for endangered species by restricting which habitats can be designated as endangered.",
+  "evidence_quote": "Change the Endangered Species Act of 1973 to limit the number of habitats eligible to be designated as endangered.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

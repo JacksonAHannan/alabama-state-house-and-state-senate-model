@@ -1,0 +1,797 @@
+canonical_candidate_id,year,chamber,district,party,candidate_name,canonical_incumbent,inferred_prior_winner,expected_prior_officeholder,proposed_people_id,proposed_member_name,proposed_member_chamber,recovery_method,recovery_confidence
+AL-2002-house-28-R-ABEL-DAVID-C,2002,house,28,R,David C. Abel,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-16-R-ACKER-JOE-D,2002,house,16,R,Joe D. Acker,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-31-D-ADAMS,1994,senate,31,D,Adams,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-31-R-ADAMS,1998,senate,31,R,Dwight Adams,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2006-house-21-R-AL-WIGGINS,2006,house,21,R,AL WIGGINS,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-22-D-ALBERT-HALL,2006,house,22,D,ALBERT HALL,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-62-D-ALLEN,1994,house,62,D,Gerald Harrison Allen,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-42-R-ALLEN-CATON,2006,house,42,R,ALLEN CATON,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-62-R-ALLEN-GERALD,2002,house,62,R,"Allen, Gerald",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-48-D-ALLI-SUMMERFORD,2018,house,48,D,Alli Summerford,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-15-D-AMARI,1994,senate,15,D,Amari,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-64-D-AMBER-SELMAN-LYNN,2018,house,64,D,Amber Selman-Lynn,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-101-D-AMY-BECKERLE-SMITH,2006,house,101,D,AMY BECKERLE SMITH,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-senate-2-D-AMY-WASYLUKA,2018,senate,2,D,Amy Wasyluka,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-19-R-ANDERSON,1994,house,19,R,Anderson,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-25-D-ANDERSON,1994,senate,25,D,James Anderson,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-2-D-ANDREW-ANDY-BETTERTON,2014,house,2,D,"Andrew ""Andy"" Betterton",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-5-R-ANDREWS,1998,house,5,R,Andrews,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-2-R-ANDREWS-STEVE,2002,senate,2,R,"Andrews, Steve",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-senate-4-D-ANGELO-DOC-MANCUSO,2014,senate,4,D,"Angelo ""Doc"" Mancuso",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-62-D-ANN-SKELTON,2006,house,62,D,ANN SKELTON,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-33-D-ANTHONY-ZACHERO,2014,house,33,D,Anthony Zachero,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-104-D-ARLENE-CUNNINGHAM-EASLEY,2018,house,104,D,Arlene Cunningham Easley,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-14-R-ARMISTEAD,1994,senate,14,R,Armistead,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-14-R-ARMISTEAD,1998,senate,14,R,Bill Armistead,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-1998-house-66-R-AUST,1998,house,66,R,Aust,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-30-R-B-CRAIG-LIPSCOMB,2018,house,30,R,Brandon Craig Lipscomb,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-29-D-BAILEY,1994,senate,29,D,Bailey,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-9-R-BALL,1998,house,9,R,Ball,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-10-R-BALL-MIKE,2002,house,10,R,"Ball, Mike",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-83-D-BANDY,1994,house,83,D,Bandy,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-83-D-BANDY-GEORGE-TOOTIE,2002,house,83,D,"Bandy, George (Tootie)",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-3-R-BARNES-STEVEN-C,2002,house,3,R,Steven C. Barnes,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-8-D-BARRON,1994,senate,8,D,Barron,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-104-R-BARTON-JIM,2002,house,104,R,"Barton, Jim",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-7-D-BATTS,1998,senate,7,D,Batts,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-97-R-BAUMHAUER,1994,house,97,R,Baumhauer,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-84-D-BEASLEY,1998,house,84,D,Beasley,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-84-D-BEASLEY-BILLY,2002,house,84,D,"Beasley, Billy",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-51-R-BEASON-SCOTT,2002,house,51,R,"Beason, Scott",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-senate-35-D-BEAU-DOOLITTLE,2014,senate,35,D,Beau Doolittle,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-87-R-BECK-WARREN-HARRIS,2002,house,87,R,"Beck, Warren Harris",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-24-D-BEDDINGFIELD,2014,house,24,D,David Beddingfield,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-6-D-BEDFORD,1994,senate,6,D,Bedford,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-1-R-BEER,1998,house,1,R,Greg Beer,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-32-R-BEN-LITTLE,2006,house,32,R,Benjamin L. Little,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-21-R-BENTLEY,1998,senate,21,R,Robert J. Bentley,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-12-R-BESHEARS-MITCHELL,2002,house,12,R,"BeShears, Mitchell",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-42-R-BIALAS,1994,house,42,R,Howard Bialas,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-17-D-BIDDLE,1994,senate,17,D,Biddle,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-17-R-BIDDLE-JACK-III,2002,senate,17,R,"Biddle, Jack, III",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-9-R-BILL-INGRAM,2006,senate,9,R,BILL INGRAM,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-27-D-BILL-JONES,2018,house,27,D,Bill Jones,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-17-R-BILLY-DIXON,2006,house,17,R,BILLY DIXON,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-8-D-BILLY-JACKSON,2018,house,8,D,Billy Jackson,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-5-D-BISHOP,1998,senate,5,D,Bishop,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-71-D-BLACK,1994,house,71,D,Black,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-71-D-BLACK-LUCIUS,2002,house,71,D,"Black, Lucius",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-49-D-BLAIR,1998,house,49,D,Sara Beth Blair,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-53-R-BLAKE,1994,house,53,R,Blake,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-23-R-BOB-DUKE,2006,senate,23,R,BOB DUKE,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-3-D-BOBBY-DAY,2006,senate,3,D,BOBBY DAY,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-85-R-BOBBY-LEWIS,2014,house,85,R,Bobby Lewis,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-20-R-BONHAM,1998,senate,20,R,Ken Hugh Bonham,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-89-D-BOOTHE-ALAN,2002,house,89,D,"Boothe, Alan",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-64-R-BOWEN,1994,house,64,R,Bowen,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-31-R-BOWEN,1998,house,31,R,David Bowen,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-12-R-BOWLING,1994,house,12,R,Bowling,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-96-D-BOX,1994,house,96,D,Mike Box,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-32-D-BOYD-BARBARA-BIGSBY,2002,house,32,D,"Boyd, Barbara Bigsby",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-senate-33-R-BRAD-MOSER,2010,senate,33,R,BRAD MOSER,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-32-R-BRADFORD,1998,house,32,R,Ralph Bradford Sr.,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-11-R-BRADFORD-RALPH-SR,2002,senate,11,R,"Bradford, Ralph, Sr.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-32-R-BRADLEY-BYRNE,2006,senate,32,R,BRADLEY BYRNE,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-13-R-BRANCH,1998,house,13,R,Branch,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-13-R-BRANCH,1998,senate,13,R,Branch,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-senate-5-D-BRETT-WADSWORTH,2010,senate,5,D,BRETT WADSWORTH,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-75-R-BREWBAKER-DICK-L,2002,house,75,R,"Brewbaker, Dick L.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-5-D-BRIAN-D-WILLIAMS,2018,house,5,D,Brian D Williams,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-38-D-BRIAN-MCGEE,2018,house,38,D,Brian McGee,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-38-R-BRIDGES-DUWAYNE,2002,house,38,R,"Bridges, DuWayne",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-18-R-BRITNELL,1998,house,18,R,Britnell,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-18-R-BRITNELL,1998,senate,18,R,Britnell,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-69-R-BROOKS,1994,house,69,R,Brooks,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-40-R-BROOKS-PETE,2002,house,40,R,"Brooks, Pete",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-92-R-BROXTON-ROGER,2002,house,92,R,"Broxton, Roger",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-senate-7-D-BRYAN-BENNETT,2014,senate,7,D,Bryan Bennett,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-3-R-BUCHANAN,1998,senate,3,R,Jack Buchanan,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-24-D-BURKE,1994,house,24,D,Burke,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-24-D-BURKE,1998,house,24,D,Ralph Burke,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-1994-house-99-D-BUSKEY,1994,house,99,D,Buskey,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-99-D-BUSKEY-JAMES-E,2002,house,99,D,"Buskey, James E.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-2-D-BUTLER-TOM,2002,senate,2,D,"Butler, Tom",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-32-R-BYRNE-BRADLEY,2002,senate,32,R,"Byrne, Bradley",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-21-D-C-TERRY-JONES,2014,house,21,D,C. Terry Jones,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-35-R-CALLAHAN,1998,senate,35,R,Callahan,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-35-R-CALLAHAN-GEORGE-M,2002,senate,35,R,George M. Callahan,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-49-R-CAM-WARD,2006,house,49,R,CAM WARD,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-36-D-CAMPBELL,1994,house,36,D,Campbell,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-43-D-CARIN-MAYO,2018,house,43,D,Carin Mayo,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-senate-11-D-CARL-CARTER,2018,senate,11,D,Carl Carter,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-48-R-CARNS-JIM,2002,house,48,R,"Carns, Jim",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-senate-1-D-CAROLINE-SELF,2018,senate,1,D,Caroline Self,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-79-D-CAROLYN-ELLIS,2006,house,79,D,Carolyn Ellis,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-86-D-CAROTHERS,1994,house,86,D,Joe R. Carothers Jr.,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-86-D-CAROTHERS,1998,house,86,D,Carothers,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2002-house-86-D-CAROTHERS-JOE,2002,house,86,D,"Carothers, Joe",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-5-D-CARTER,1994,house,5,D,Carter,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-5-D-CARTER,1998,house,5,D,Tommy Carter,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2002-house-5-D-CARTER-TOMMY,2002,house,5,D,"Carter, Tommy",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-42-R-CATON-ALLEN,2002,house,42,R,"Caton, Allen",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-3-D-CHAD-YOUNG,2018,house,3,D,Chad Young,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-36-D-CHANDLER-WAYNE,2002,house,36,D,"Chandler, Wayne",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-25-D-CHAPPELL,1998,senate,25,D,Michael Chappell,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-house-45-D-CHARLENE-CANNON,2010,house,45,D,CHARLENE CANNON,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-99-R-CHARLES-W-TALBERT,2018,house,99,R,Charles W. Talbert,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-37-D-CHARLOTTE-A-CLARK-FRIESON,2018,house,37,D,Charlotte A. Clark-Frieson,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-7-R-CHERYL-BASWELL-GUTHRIE,2006,senate,7,R,CHERYL BASWELL-GUTHRIE,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-80-D-CHRISTOPHER-F-APOSTLE-DAVIS,2018,house,80,D,"Christopher F. ""Apostle"" Davis",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-53-R-CHRISTOPHER-HORN,2014,house,53,R,Christopher Horn,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-28-R-CHRISTOPHER-P-WORD,2006,house,28,R,CHRISTOPHER P. WORD,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-senate-16-D-CINDY-BELL,2014,senate,16,D,Cindy Bell,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-80-R-CINDY-DUNN-IRVIN,2006,house,80,R,CINDY DUNN IRVIN,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-33-D-CLARA-L-CURTIS,2006,house,33,D,CLARA L. CURTIS,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-84-D-CLARK,1994,house,84,D,Clark,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-98-D-CLARK,1994,house,98,D,Clark,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-98-D-CLARK-BILL,2002,house,98,D,"Clark, Bill",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-28-D-CLAY,1994,senate,28,D,George Clay,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-21-R-CLEMONS,1998,house,21,R,Adam Clemons,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-93-R-CLOUSE-STEVE,2002,house,93,R,"Clouse, Steve",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-29-R-CODY-ROBINSON,2006,house,29,R,Cody Robinson,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-5-R-COFFMAN-RONNIE-G,2002,house,5,R,"Coffman, Ronnie G.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-60-D-COLEMAN-LINDA,2002,house,60,D,"Coleman, Linda",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-57-D-COLEMAN-MERIKA,2002,house,57,D,"Coleman, Merika",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-9-R-COLEY-ROY,2002,house,9,R,"Coley, Roy",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-105-R-COLLIER-JACK-SPENCER,2002,house,105,R,"Collier, ""Jack"" Spencer",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-16-D-COLLINS,1994,house,16,D,Collins,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-13-R-COMBS-TOMMY,2002,house,13,R,"Combs, Tommy",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-62-R-COPELAND,1994,house,62,R,Copeland,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-40-D-COPELAND,2014,house,40,D,Copeland,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-88-D-CORY-CREEL,2018,house,88,D,Cory Creel,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-25-D-COX-HOBSON,2002,senate,25,D,"Cox, Hobson",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-37-R-CREED-WAYNE-J,2002,house,37,R,"Creed, Wayne J.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-105-R-CRIGLER,1994,house,105,R,"Richard P. """"Phil"""" Crigler Jr.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-105-R-CRIGLER,1998,house,105,R,Crigler,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-8-R-CULPEPPER,1998,senate,8,R,Culpepper,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-23-R-CURL,1994,senate,23,R,Curl,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-15-R-CURRY,1994,house,15,R,Johnny Curry,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-33-D-CURTIS-CLARA,2002,house,33,D,"Curtis, Clara",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-senate-26-R-D-J-JOHNSON,2018,senate,26,R,D. J. Johnson,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-94-D-DANIELLE-MASHBURN-MYRICK,2018,house,94,D,Danielle Mashburn-Myrick,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-senate-22-R-DANNY-B-JOYNER,2010,senate,22,R,Danny B. Joyner,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-56-R-DARIUS-FOSTER,2014,house,56,R,Darius Foster,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-senate-13-D-DARRELL-TURNER,2014,senate,13,D,Darrell Turner,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-senate-13-D-DARRELL-TURNER,2018,senate,13,D,Darrell Turner,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-senate-25-D-DAVID-A-SADLER,2018,senate,25,D,David A. Sadler,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-house-92-D-DAVID-S-DARBY,2010,house,92,D,DAVID S. DARBY,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-5-R-DAVIDSON,1994,senate,5,R,Charles Davidson,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-96-R-DAVIS-RANDY,2002,house,96,R,"Davis, Randy",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-22-R-DAY-SHELDON-A,2002,senate,22,R,Sheldon A. Day,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-104-R-DEAN,1994,house,104,R,Mike Dean,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-104-R-DEAN,1998,house,104,R,Mike Dean,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2018-senate-7-D-DEBORAH-BARROS,2018,senate,7,D,Deborah Barros,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-79-D-DEMPSEY,1998,house,79,D,Jan Miles Dempsey,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-22-D-DENNIS-W-STEPHENS,2014,house,22,D,Dennis W. Stephens,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-1-D-DENTON,1994,senate,1,D,Denton,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-1-D-DENTON,1998,senate,1,D,Denton,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-1-D-DENTON-BOBBY,2002,senate,1,D,"Denton, Bobby",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-13-D-DIAL,1994,senate,13,D,Dial,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-13-D-DIAL-GERALD,2002,senate,13,D,"Dial, Gerald",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-25-R-DIXON-LARRY,2002,senate,25,R,"Dixon, Larry",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-67-R-DOBYNES,1998,house,67,R,Aaron Dobynes,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-65-D-DOLBARE,1994,house,65,D,Jeff Dolbare,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-65-D-DOLBARE,1998,house,65,D,Jeff Dolbare,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2002-house-65-D-DOLBARE-JEFF,2002,house,65,D,Jeff Dolbare,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-17-D-DON-BARNWELL,2014,house,17,D,Don Barnwell,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-8-R-DON-STOUT,2006,senate,8,R,DON STOUT,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-28-R-DOUG-SHERROD,2014,house,28,R,Doug Sherrod,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-senate-25-D-DOUG-SMITTY-SMITH,2010,senate,25,D,DOUG 'Smitty' SMITH,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-11-D-DRAKE,1994,house,11,D,Drake,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-house-8-D-DRAMA-BRELAND,2010,house,8,D,DRAMA BRELAND,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-21-R-DUGAN-JERRY,2002,house,21,R,"Dugan, Jerry",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-8-D-DUKES-BILL-J,2002,house,8,D,"Dukes, Bill J.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-80-R-DUNN,1998,house,80,R,Cindy Dunn Irvin,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-56-D-DUNN-PRICILLA,2002,house,56,D,"Dunn, Pricilla",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-5-D-DUTTON-JOHN-RANDALL,2002,senate,5,D,"Dutton, John Randall",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-38-R-DUWAYNE-BRIDGES,2006,house,38,R,DuWayne Bridges,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-31-R-DWIGHT-ADAMS,2006,senate,31,R,DWIGHT ADAMS,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-81-D-DYLAN-V-OLIVER,2014,house,81,D,Dylan V. Oliver,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-19-D-E-B-MCCLAIN,2006,senate,19,D,E.B. MCCLAIN,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-96-D-EASON,1998,house,96,D,Tonia Cherry Eason,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-18-D-EDDIE-BRITTON,2018,house,18,D,Eddie Britton,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-9-R-EDMONDS-DORIS,2002,senate,9,R,"Edmonds, Doris",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-64-D-ELLIOT-D-DICK-WEAVER,2006,house,64,D,"ELLIOT D. ""DICK"" WEAVER",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-41-D-EMILY-ANNE-MARCUM,2018,house,41,D,Emily Anne Marcum,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-7-R-ENFINGER,1998,senate,7,R,Jeffrey Wade Enfinger,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-7-D-ENFINGER-JEFF,2002,senate,7,D,"Enfinger, Jeff",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-14-R-ERWIN-HENRY-E-HANK-JR,2002,senate,14,R,"Erwin, Henry E. ""Hank"", Jr.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-20-D-ESCOTT,1998,senate,20,D,Escott,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-20-D-ESCOTT-RUSSELL,1994,senate,20,D,Escott-Russell,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-20-D-ESCOTT-SUNDRA,2002,senate,20,D,"Escott, Sundra",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-29-R-ESTES,1994,house,29,R,Estes,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-55-R-EVANS,1994,house,55,R,Evans,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-66-D-F-P-SKIPPY-WHITE,2006,house,66,D,"F. P. ""SKIPPY"" WHITE",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-6-R-FARGERSON-SHAWN,2002,house,6,R,Shawn Fargerson,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-4-D-FARRAR,1994,senate,4,D,Farrar,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-94-R-FAUST-JOE-SR,2002,house,94,R,"Faust, Joe, Sr.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-46-D-FELICIA-STEWART,2018,house,46,D,Felicia Stewart,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-33-D-FIGURES,1994,senate,33,D,Figures,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-33-D-FIGURES-VIVIAN-DAVIS,2002,senate,33,D,"Figures, Vivian Davis",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-25-R-FINLEY,1998,house,25,R,Finley,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-89-D-FLOWERS,1994,house,89,D,Flowers,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-10-D-FLOYD,1994,senate,10,D,Jack Floyd,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-28-D-FORD,1994,house,28,D,Joe Ford,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-28-D-FORD,1998,house,28,D,Joe Ford,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2002-house-82-D-FORD-JOHNNY,2002,house,82,D,"Ford, Johnny",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-95-D-FRANK-CAMP,2006,house,95,D,FRANK CAMP,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-61-R-FRANK-CHANDLER,2006,house,61,R,"Frank Chandler, Jr.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-house-61-R-FRANK-CHANDLER,2010,house,61,R,FRANK CHANDLER,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-6-R-FRAZIER-BETTY,2002,senate,6,R,"Frazier, Betty",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-14-R-FRAZIER-ED,2002,house,14,R,"Frazier, Ed",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-3-R-FRED-JOLY,2014,house,3,R,Fred Joly,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-7-D-FREEMAN,1994,senate,7,D,Charles Dewayne Freeman,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-15-R-FRENCH-STEVE,2002,senate,15,R,"French, Steve",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-38-D-FULLER,1994,house,38,D,Fuller,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-38-D-FULLER,1998,house,38,D,Bill Fuller,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-1994-house-47-D-GAINES,1994,house,47,D,Gaines,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-46-R-GAINES-MARK,2002,house,46,R,"Gaines, Mark",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-30-R-GALLIHER-BLAINE,2002,house,30,R,"Galliher, Blaine",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-103-R-GARDNER,1994,house,103,R,Gardner,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-25-R-GARNER-RAY,2002,house,25,R,Ray Garner,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-house-36-D-GARRY-BEARDEN,2010,house,36,D,Garry A. Bearden,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-83-R-GARY-HEAD,2014,house,83,R,Gary Head,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-102-D-GARY-JOHNSON,2006,house,102,D,GARY JOHNSON,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-35-D-GARY-TANNER,2006,senate,35,D,GARY TANNER,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-100-D-GASTON,1994,house,100,D,Gaston,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-100-R-GASTON-VICTOR,2002,house,100,R,"Gaston, Victor",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-94-D-GENE-PONDER,2006,house,94,D,GENE PONDER,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-3-R-GENTRY,1994,senate,3,R,Gentry,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-senate-29-R-GEORGE-FLOWERS,2010,senate,29,R,GEORGE FLOWERS,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-65-D-GEORGE-M-MARC-KEAHEY,2006,house,65,D,GEORGE M. (MARC) KEAHEY,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-18-R-GERRY-WALLACE,2014,house,18,R,Gerry Wallace,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-12-D-GHEE,1994,senate,12,D,Marshall Douglas Ghee,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-88-D-GIPSON,1994,house,88,D,Gipson,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-88-R-GIPSON-H-MAC,2002,house,88,R,"Gipson, H. Mac",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-house-75-D-GLENN-L-ALLEN,2010,house,75,D,GLENN L. ALLEN,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-9-R-GOOD,1994,senate,9,R,Good,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-81-D-GRAHAM,1994,house,81,D,Graham,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-81-D-GRAHAM,1998,house,81,D,Graham,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2002-house-81-D-GRAHAM-BETTY-CAROL,2002,house,81,D,"Graham, Betty Carol",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-76-R-GRANT-TANNER,2002,house,76,R,Tanner Grant,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-12-D-GRAY-PRESTON-R-JR,2002,senate,12,D,"Preston Randall Gray, Jr.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-96-R-GREENE,1998,house,96,R,Jeanette A. Greene,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-2-R-GREER-LYNN,2002,house,2,R,Bayless Lynn Greer,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-24-R-GREESON-TODD,2002,house,24,R,"Greeson, Todd",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-senate-13-D-GREG-VARNER,2010,senate,13,D,Greg Varner,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-73-R-GRIMES-DAVID,2002,house,73,R,"Grimes, David",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-house-3-D-GSL003DTHO,2022,house,3,D,Wesley Thompson,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-house-7-D-GSL007DJON,2022,house,7,D,"Mose Jones, Jr.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-house-15-D-GSL015DROU,2022,house,15,D,Richard Rouco,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-house-25-D-GSL025DHAG,2022,house,25,D,Mallory Hagan,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-house-26-D-GSL026DALF,2022,house,26,D,Ben Alford,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-house-27-D-GSL027DNEU,2022,house,27,D,Herb Neu,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-house-32-R-GSL032RJAC,2022,house,32,R,Evan Jackson,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-house-33-D-GSL033DCRU,2022,house,33,D,Fred Crum,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-house-40-D-GSL040DHOW,2022,house,40,D,Pam Howard,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-house-41-D-GSL041DNEL,2022,house,41,D,Chris Nelson,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-house-43-D-GSL043DCLE,2022,house,43,D,Prince Cleveland,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-house-47-D-GSL047DCOL,2022,house,47,D,Christian Coleman,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-house-57-R-GSL057RBAU,2022,house,57,R,Delor Baumann,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-house-62-D-GSL062DCEP,2022,house,62,D,Brenda Cephus,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-house-63-D-GSL063DADA,2022,house,63,D,Samuel Adams,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-house-65-D-GSL065DCAS,2022,house,65,D,Marcus Caster,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-house-68-R-GSL068RKEL,2022,house,68,R,Fred Kelley,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-house-69-R-GSL069RMAD,2022,house,69,R,Karla Knight Maddox,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-house-82-R-GSL082RPIE,2022,house,82,R,"Lennora ""Tia"" Pierrot",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-house-92-D-GSL092DHUB,2022,house,92,D,Steve Hubbard,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-house-95-D-GSL095DBRA,2022,house,95,D,"Richard Brackner, Jr.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-1-R-GSU01RMEL,2022,senate,1,R,GSU01RMEL,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-2-D-GSU02DLEW,2022,senate,2,D,Kimberly Caudle Lewis,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-2-R-GSU02RBUT,2022,senate,2,R,GSU02RBUT,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-3-R-GSU03RORR,2022,senate,3,R,GSU03RORR,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-4-R-GSU04RGUD,2022,senate,4,R,GSU04RGUD,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-5-R-GSU05RREE,2022,senate,5,R,GSU05RREE,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-6-R-GSU06RSTU,2022,senate,6,R,GSU06RSTU,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-7-D-GSU07DWIL,2022,senate,7,D,Korey Wilson,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-8-R-GSU08RLIV,2022,senate,8,R,GSU08RLIV,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-9-R-GSU09RSCO,2022,senate,9,R,GSU09RSCO,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-10-R-GSU10RJON,2022,senate,10,R,GSU10RJON,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-11-R-GSU11RBEL,2022,senate,11,R,GSU11RBEL,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-12-D-GSU12DMCC,2022,senate,12,D,Danny McCullars,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-13-R-GSU13RPRI,2022,senate,13,R,GSU13RPRI,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-14-R-GSU14RWEA,2022,senate,14,R,GSU14RWEA,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-15-R-GSU15RROB,2022,senate,15,R,GSU15RROB,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-16-R-GSU16RWAG,2022,senate,16,R,GSU16RWAG,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-17-R-GSU17RSHE,2022,senate,17,R,GSU17RSHE,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-18-D-GSU18DSMI,2022,senate,18,D,GSU18DSMI,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-19-D-GSU19DCOL,2022,senate,19,D,GSU19DCOL,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-20-D-GSU20DCOL,2022,senate,20,D,GSU20DCOL,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-21-D-GSU21DWAR,2022,senate,21,D,Lisa Ward,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-22-R-GSU22RALB,2022,senate,22,R,GSU22RALB,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-23-R-GSU23RNIM,2022,senate,23,R,Michael Nimmer,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-24-D-GSU24DSIN,2022,senate,24,D,GSU24DSIN,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-25-R-GSU25RBAR,2022,senate,25,R,GSU25RBAR,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-26-D-GSU26DHAT,2022,senate,26,D,GSU26DHAT,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-27-D-GSU27DREE,2022,senate,27,D,Sherri Reese,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-28-D-GSU28DBEA,2022,senate,28,D,GSU28DBEA,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-29-D-GSU29DMAT,2022,senate,29,D,"Nathan ""Nate"" Mathis",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-30-R-GSU30RCHA,2022,senate,30,R,GSU30RCHA,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-31-R-GSU31RCAR,2022,senate,31,R,GSU31RCAR,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-32-R-GSU32RELL,2022,senate,32,R,GSU32RELL,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-33-R-GSU33RRIE,2022,senate,33,R,Pete Riehm,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-34-R-GSU34RWIL,2022,senate,34,R,GSU34RWIL,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2022-senate-35-R-GSU35RSES,2022,senate,35,R,GSU35RSES,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-14-D-GUIN,1994,house,14,D,Guin,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-14-D-GUIN,1998,house,14,D,James Kenneth Ken Guin Jr.,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2002-house-14-D-GUIN-KEN,2002,house,14,D,"James Kenneth """"Ken"""" Guin Jr.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-48-D-GULAS,1994,house,48,D,Ike Gulas,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-4-R-HALE,1994,senate,4,R,Don Hale,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-4-R-HALE,1998,senate,4,R,Hale,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-1994-house-22-D-HALL,1994,house,22,D,Hall,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-22-D-HALL,1998,house,22,D,Albert Hall,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2002-house-22-D-HALL-ALBERT,2002,house,22,D,"Hall, Albert",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-19-D-HALL-LAURA,2002,house,19,D,"Hall, Laura",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-2-D-HAMILTON,1994,house,2,D,Hamilton,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-2-D-HAMILTON,1998,house,2,D,James H. Hamilton,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2002-house-92-D-HAMMETT-SETH,2002,house,92,D,"Hammett, Seth",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-4-R-HAMMON-MICKY,2002,house,4,R,"Hammon, Micky",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-8-R-HAMMONDS-DAVID,2002,senate,8,R,"Hammonds, David",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-10-D-HANEY,1994,house,10,D,Haney,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-10-R-HANEY,1998,house,10,R,James Haney,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2002-house-4-D-HANSBERRY-CATHY,2002,house,4,D,Cathy Hansberry,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-1-R-HANSON-QUINTON,2002,senate,1,R,"Hanson, Quinton",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-6-R-HARDY,1998,senate,6,R,Hardy,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-1-R-HARGETT,1998,senate,1,R,Hargett,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-4-R-HAROLD-SACHS,2006,senate,4,R,HAROLD SACHS,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-17-R-HARPER,1994,house,17,R,Ray Harper,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-105-D-HARPER,1994,house,105,D,Taylor Harper,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-12-R-HASTIMGS,1998,house,12,R,Hastimgs,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-33-R-HATTAWAY,1994,house,33,R,Hattaway,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-25-D-HAWK,1994,house,25,D,Hawk,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-25-D-HAWK,1998,house,25,D,Howard Hawk,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-1994-house-48-R-HAWKINS,1994,house,48,R,John H. Hawkins Jr.,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-47-R-HAWKINS-JOHN-H,2002,house,47,R,"Hawkins, John H.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-72-D-HAYDEN,1994,house,72,D,Hayden,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-72-D-HAYDEN,1998,house,72,D,Hayden,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2014-senate-27-D-HAYLEE-MOSS,2014,senate,27,D,Haylee Moss,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-39-R-HEATH-JONES,2014,house,39,R,Heath Jones,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-35-R-HEBERT,1994,senate,35,R,Hebert,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-24-D-HENDRIX-J-LUTHER,2002,house,24,D,"Hendrix, J. Luther",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-41-D-HILL,1994,house,41,D,Hill,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-11-R-HILL,1998,senate,11,R,Odell Hill Jr.,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2002-house-41-R-HILL-MIKE,2002,house,41,R,"Hill, Mike",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-70-R-HILL-STEPHEN,2002,house,70,R,"Hill, Stephen",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-60-D-HILLARD,1994,house,60,D,John Hilliard,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-60-D-HILLIARD,1998,house,60,D,Hilliard,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-30-R-HODGES,1994,house,30,R,Phillip Hodges,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-13-D-HOGAN,1994,house,13,D,Hogan,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-13-D-HOGAN,1998,house,13,D,Hogan,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-1994-house-26-R-HOLCOMB,1994,house,26,R,Annette E. Holcomb,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-49-D-HOLLADAY,1994,house,49,D,Holladay,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-30-R-HOLLAND,1998,house,30,R,Holland,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-30-R-HOLLAND,1998,senate,30,R,Patrick F. Owens,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-75-D-HOLLEY,1994,house,75,D,Holley,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-31-D-HOLLEY-JIMMY-W,2002,senate,31,D,"Holley, Jimmy W.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-22-R-HOLLINGSWORTH,1998,house,22,R,Randy Hollingsworth,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-78-D-HOLMES,1994,house,78,D,Holmes,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-78-D-HOLMES-ALVIN,2002,house,78,D,"Holmes, Alvin",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-73-R-HOOPER,1994,house,73,R,Perry O. Hooper Jr.,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-senate-8-D-HORACE-CLEMMONS,2014,senate,8,D,Horace Clemmons,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-18-R-HORN,1994,senate,18,R,Fred Horn,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-84-R-HORNE,1998,house,84,R,Horne,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-57-D-HOUSTON,1994,house,57,D,Houston,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-91-R-HOWELL-WES,2002,house,91,R,Wess Howell,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-79-R-HUBBARD-MIKE,2002,house,79,R,"Hubbard, Mike",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-house-38-D-HUEY-P-LONG,2010,house,38,D,HUEY P. LONG,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-22-R-HUGHES,1994,senate,22,R,Barry Hughes,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-51-R-HUMPHRYES,1998,house,51,R,Bobby Humphryes,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-15-R-HUMPHYRES-BOBBY,2002,house,15,R,"Humphyres, Bobby",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-4-R-HUNT-GUY,2002,senate,4,R,H. Guy Hunt,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-35-D-HURST-STEVE,2002,house,35,D,"Hurst, Steve",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-87-D-HUTTO-MICKEY-A,2002,house,87,D,"Hutto, Mickey A.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-38-R-INGRAM,1998,house,38,R,Ingram,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-101-R-ISON-JAMIE,2002,house,101,R,"Ison, Jamie",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-10-D-J-B-KING,2018,house,10,D,JB King,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-48-R-J-GREGORY-GREG-CANFIELD,2006,house,48,R,"J. GREGORY ""GREG"" CANFIELD",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-85-R-J-RON-WILSON,2018,house,85,R,J. Ron Wilson,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-73-D-JACK-JACOBS,2018,house,73,D,Jack Jacobs,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-102-R-JACK-WILLIAMS,2014,house,102,R,Jack Williams,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-68-D-JACKSON,1994,house,68,D,Jackson,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-68-D-JACKSON-THOMAS-E,2002,house,68,D,"Jackson, Thomas E.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-12-R-JAMES,1994,senate,12,R,Mike James,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-32-R-JAMES-ALLEN-LLOYD,2018,house,32,R,James Allen Lloyd,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-13-R-JAMES-BROOKS,2006,house,13,R,JAMES BROOKS,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-29-D-JARED-MILLICAN,2018,house,29,D,Jared Millican,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-30-D-JARED-VAUGHN,2018,house,30,D,Jared Vaughn,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-senate-32-D-JASON-FISHER,2018,senate,32,D,Jason Fisher,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-senate-7-D-JEFF-ENFINGER,2010,senate,7,D,Jeff Enfinger,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-26-R-JEFF-STONE,2006,house,26,R,JEFF STONE,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-86-R-JEFFERS,1998,house,86,R,Ruth Jeffers,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-33-R-JEFFERY-JONES,2006,senate,33,R,JEFFERY JONES,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-45-D-JENN-GRAY,2018,house,45,D,Jenn Gray,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-93-D-JENNIFER-MARSDEN,2014,house,93,D,Jennifer Marsden,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-32-D-JENSEN,1998,senate,32,D,Jensen,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-81-D-JEREMY-J-J-JEFFCOAT,2018,house,81,D,"Jeremy ""J.J."" Jeffcoat",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-34-D-JEREMY-P-SHERER,2006,house,34,D,JEREMY P. SHERER,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-84-R-JERRY-A-MCGILVRAY,2014,house,84,R,Jerry A. McGilvray,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-senate-1-R-JERRY-FREEMAN,2010,senate,1,R,JERRY FREEMAN,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-house-90-R-JERRY-HARTIN,2010,house,90,R,JERRY HARTIN,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-senate-14-D-JERRY-MCDONALD,2018,senate,14,D,Jerry McDonald,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-senate-6-R-JIM-BONNER,2010,senate,6,R,JIM BONNER,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-11-D-JIM-BOYD,2006,house,11,D,Jim Boyd,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-2-R-JIM-BURDEN,2006,senate,2,R,JIM BURDEN,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-13-R-JIM-C-INGRAM,2006,senate,13,R,Jim C. Ingram,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-11-R-JIM-HETHCOX,2006,senate,11,R,JIM HETHCOX,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-47-D-JIM-TOOMEY,2018,house,47,D,Jim Toomey,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-senate-12-D-JIM-WILLIAMS,2018,senate,12,D,Jim Williams,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-4-D-JO-ANN-CUMMINGS,2018,house,4,D,Jo Ann Cummings,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-30-R-JOAN-REYNOLDS,2006,senate,30,R,JOAN REYNOLDS,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-90-D-JOANNE-WHETSTONE,2018,house,90,D,Joanne Whetstone,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-house-85-R-JODY-SINGLETON,2010,house,85,R,Jody Singleton,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-21-R-JOE-NATHAN-SAXTON-SR,2006,senate,21,R,"JOE NATHAN SAXTON, SR.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-89-D-JOEL-LEE-WILLIAMS,2014,house,89,D,Joel Lee Williams,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-89-D-JOEL-LEE-WILLIAMS,2018,house,89,D,Joel Lee Williams,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-22-R-JOHN-MCMILLAN,2006,senate,22,R,JOHN MCMILLAN,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-senate-28-R-JOHN-SAVAGE,2014,senate,28,R,John Savage,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-6-R-JOHN-TONY-STILES,2006,house,6,R,"JOHN ""TONY"" STILES",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-93-D-JOHN-WILLIAMS,2006,house,93,D,JOHN WILLIAMS,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-16-D-JOHNS,1998,senate,16,D,Johns,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-58-D-JOHNSON,1994,house,58,D,Earnest Johnson,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-17-R-JOHNSON,1998,house,17,R,Van Johnson,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2002-house-102-D-JOHNSON-GARY,2002,house,102,D,"Johnson, Gary",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-21-D-JOHNSTON,1994,house,21,D,Johnston,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-26-R-JOHNSTON,1998,house,26,R,Micah Johnston,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2006-house-44-D-JONATHAN-BARBEE,2006,house,44,D,JONATHAN BARBEE,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-46-D-JONES,1994,house,46,D,"Richard L. ""Rick"" Jones",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-21-D-JONES,1998,house,21,D,Patrick Jones,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-6-R-JORGENSEN,1994,house,6,R,Jorgensen,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-6-R-JORGENSEN,1998,house,6,R,Lee Jorgensen,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2014-house-37-D-JOSH-BURNS,2014,house,37,D,Josh Burns,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-house-84-R-JOYCE-L-PERRIN,2010,house,84,R,JOYCE L. PERRIN,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-22-R-JOYNER,1998,senate,22,R,Danny B. Joyner,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-house-9-D-KATHY-WHITE-GOODWIN,2010,house,9,D,KATHY WHITE GOODWIN,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-97-D-KENNEDY-YVONNE,2002,house,97,D,"Kennedy, Yvonne",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-7-D-KENNETH-A-BRACKINS,2018,house,7,D,Kenneth A. Brackins,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-8-R-KEY,1998,house,8,R,Key,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-senate-28-R-KIM-WEST,2010,senate,28,R,KIM WEST,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-9-R-KING,1998,senate,9,R,King,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-40-R-KNIGHT,1994,house,40,R,Knight,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-77-D-KNIGHT,1994,house,77,D,Knight,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-81-R-KNIGHT,1998,house,81,R,Knight,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2002-house-77-D-KNIGHT-JOHN,2002,house,77,D,"Knight, John",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-32-D-KOONTZ,1994,senate,32,D,Koontz,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-86-D-KRISTY-M-KIRKLAND,2018,house,86,D,Kristy M. Kirkland,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-28-D-KYLE-PIERCE,2018,house,28,D,Kyle Pierce,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-37-D-LAIRD,1994,house,37,D,Laird,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-37-D-LAIRD-RICHARD,2002,house,37,D,"Laird, Richard",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-26-D-LANGFORD,1994,senate,26,D,Langford,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-26-D-LANGFORD,1998,senate,26,D,Charles D. Langford,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2006-house-73-D-LARRY-A-GREWELLE,2006,house,73,D,LARRY A. GREWELLE,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-5-D-LARRY-B-CAGLE,2006,senate,5,D,LARRY B. CAGLE,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-senate-31-D-LARRY-GREENWOOD,2014,senate,31,D,Larry Greenwood,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-54-R-LATIMORE,1998,house,54,R,Mary L. Latimore,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-61-D-LAYSON,1994,house,61,D,Layson,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-61-D-LAYSON-ALLEN,2002,house,61,D,"Layson, Allen",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-5-R-LEE,1998,senate,5,R,Curt Lee,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-5-R-LEE-CURT,2002,senate,5,R,"Lee, Curt",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-58-R-LELAND,1994,house,58,R,Leland,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-7-D-LETSON-JOHN-JODY,2002,house,7,D,"Letson, John (Jody)",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-20-D-LINDA-COLEMAN,2006,senate,20,D,LINDA COLEMAN,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-20-D-LINDA-MEIGS,2018,house,20,D,Linda Meigs,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-39-D-LINDSEY,1994,house,39,D,Lindsey,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-22-D-LINDSEY,1994,senate,22,D,WH Lindsey,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-22-D-LINDSEY,1998,senate,22,D,Wallace Henry Pat Lindsey III,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2018-senate-16-D-LINDSEY-DECKARD,2018,senate,16,D,Lindsey Deckard,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-22-D-LINDSEY-PAT,2002,senate,22,D,Wallace Henry Pat Lindsey III,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-39-D-LINDSEY-RICHARD-J,2002,house,39,D,"Lindsey, Richard J.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-32-R-LIPSCOMB,1998,senate,32,R,Albert Lipscomb,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-32-R-LIPSOCOMB,1994,senate,32,R,Albert Lipscomb,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-32-R-LITTLE-BENJAMIN-L,2002,house,32,R,Benjamin L. Little,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-27-D-LITTLE-T-D-TED,2002,senate,27,D,"Little, T.D. (Ted)",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-4-D-LITTLE-ZEB,2002,senate,4,D,"Little, Zeb",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-96-R-LONG,1994,house,96,R,Long,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-35-R-LONNIE-C-ROBINSON,2006,house,35,R,LONNIE C. ROBINSON,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-2-D-LORA-KAY-MORROW,2018,house,2,D,Lora Kay Morrow,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-69-R-LORETTA-G-GRANT,2014,house,69,R,Loretta G. Grant,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-26-R-LOVE-BEVERLY-RAY,2002,senate,26,R,"Love, Beverly Ray",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-74-R-LOVE-JAY-JR,2002,house,74,R,"Love, Jay, Jr.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-88-D-M-BENJAMIN-ABERNATHY-I,2006,house,88,D,"M. BENJAMIN ABERNATHY, I",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-55-D-MAJOR,1998,house,55,D,Major,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-55-D-MAJOR-ERIC,2002,house,55,D,"Major, Eric",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-29-R-MALONE,1998,house,29,R,Malone,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-4-D-MANCUSO,1998,house,4,D,"Angelo ""Doc"" Mancuso",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-2-R-MANLEY,1994,senate,2,R,Manley,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-38-D-MARK-CARLTON,2006,house,38,D,Mark H. Carlton,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-12-R-MARSH-DEL,2002,senate,12,R,"Marsh, Del",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-27-R-MARTIN,1994,house,27,R,Dennis Dink Martin,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-40-D-MARTIN,1994,house,40,D,John C. Chuck Martin,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-42-D-MARTIN-JAMES-M-JIMMY,2002,house,42,D,"Martin, James M. ""Jimmy""",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-79-D-MARY-WYNNE-KLING,2018,house,79,D,Mary Wynne Kling,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-87-D-MATHIS,1994,house,87,D,William Nathan Mathis,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-87-D-MATHIS,1998,house,87,D,Mathis,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-67-D-MAULL,1994,house,67,D,Maull,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-67-D-MAULL,1998,house,67,D,Maull,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2018-house-96-D-MAURICE-HORSEY,2018,house,96,D,Maurice Horsey,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-11-D-MAZE-DENNIS-E,2002,house,11,D,"Maze, Dennis E.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-56-D-MCADORY,1994,house,56,D,Mcadory,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-19-D-MCCLAIN,1994,senate,19,D,Mcclain,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-19-D-MCCLAIN-E-B,2002,senate,19,D,"McClain, E.B.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-76-D-MCCLAMMY-THAD,2002,house,76,D,"McClammy, Thad",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-50-R-MCCLENDON-JIM,2002,house,50,R,"McClendon, Jim",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-43-R-MCCLURKIN-MARY-SUE,2002,house,43,R,"McClurkin, Mary Sue",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-80-R-MCCRAINE,1994,house,80,R,Ray McCraine,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-26-D-MCDANIEL,1994,house,26,D,W. Frank McDaniel,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-2-R-MCINNISH,1998,senate,2,R,Hugh McInnish,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-74-D-MCKEE,1994,house,74,D,Mckee,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-41-D-MCKINZIE-MACK,2002,house,41,D,"McKinzie, Mack",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-95-R-MCMILLAN-STEVE,2002,house,95,R,"McMillan, Steve",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-95-D-MCNAIR,1994,house,95,D,Rita Hadley McNair,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-1-R-MCNATT-WILLIAM-DALE,2002,house,1,R,"McNatt, William Dale",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-10-D-MEANS,2014,house,10,D,Means,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-1998-house-89-R-MEEKS,1998,house,89,R,Larry Meeks,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-20-R-MEL-GLENN,2006,senate,20,R,MEL GLENN,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-senate-29-R-MELINDA-MCCLENDON,2014,senate,29,R,Melinda McClendon,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-70-D-MELTON,1994,house,70,D,Melton,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-70-D-MELTON-BRYANT,2002,house,70,D,Bryant Melton,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-57-D-MERIKA-COLEMAN,2006,house,57,D,MERIKA COLEMAN,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-76-R-MERREN,1994,house,76,R,R. Todd Merren,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-house-86-D-MERRITT-CAROTHERS,2010,house,86,D,MERRITT CAROTHERS,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-house-80-R-MERVIN-DUDLEY,2010,house,80,R,Mervin Dudley,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-29-D-MICHAEL-J-GLADDEN,2014,house,29,D,Michael J. Gladden,1,False,True,,,,no_unique_deterministic_recovery,none
+AL-2018-house-83-R-MICHAEL-J-HOLDEN-II,2018,house,83,R,Michael J Holden II,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-7-R-MICHAEL-ROBINSON,2006,house,7,R,MICHAEL ROBINSON,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-25-D-MIKE-CHAPPELL,2006,senate,25,D,MIKE CHAPPELL,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-25-D-MILES-PAM,2002,house,25,D,Pam Miles,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-20-D-MILLER-JEFF,2002,house,20,D,"Miller, Jeff",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-17-D-MILLICAN-MIKE,2002,house,17,D,"Millican, Mike",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-55-D-MINNIFIELD,1994,house,55,D,Warren Minnifield,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-30-D-MITCHELL,1994,senate,30,D,Mitchell,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-103-D-MITCHELL-JOSEPH-C,2002,house,103,D,"Mitchell, Joseph C.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-30-D-MITCHELL-WALKING-WENDELL,2002,senate,30,D,"Mitchell, ""Walking"" Wendell",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-9-D-MITCHEM-HINTON,2002,senate,9,D,"Mitchem, Hinton",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-32-R-MONTGOMERY,1994,house,32,R,Montgomery,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-91-R-MOORE,1998,house,91,R,W. Garreth Moore,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-17-D-MOORE-CAROLINE-B,2002,senate,17,D,"Moore, Caroline B.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-59-D-MOORE-MARY,2002,house,59,D,"Moore, Mary",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-12-D-MORRISON,1994,house,12,D,Neal Morrison,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-12-D-MORRISON,1998,house,12,D,Neal Morrison,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2002-house-12-D-MORRISON-NEAL,2002,house,12,D,"Morrison, Neal",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-18-D-MORROW,1994,house,18,D,Morrow,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-18-D-MORROW,1998,senate,18,D,Morrow,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-18-D-MORROW-JOHNNY-MACK,2002,house,18,D,"Morrow, Johnny Mack",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-45-D-MORTON,1994,house,45,D,Morton,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-55-R-MORTON,1998,house,55,R,Morton,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2002-house-45-R-MORTON-ALBERT,2002,house,45,R,"Morton, Albert",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-23-R-MOTES-RICHARD,2002,senate,23,R,"Motes, Richard",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-51-D-MULLINS,1998,house,51,D,Mullins,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-27-D-MURPHREE,1994,house,27,D,Jim Murphree,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-27-D-MURPHREE,1998,house,27,D,Jim Murphree,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-34-R-MYERS,1994,senate,34,R,Myers,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-34-R-MYERS-HAP,2002,senate,34,R,"Myers, Hap",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-senate-27-D-NANCY-CARLTON-BENDINGER,2018,senate,27,D,Nancy Bendinger,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-12-D-NEAL-MORRISON,2006,house,12,D,NEAL MORRISON,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-8-R-NEW,1994,house,8,R,New,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-8-R-NEW-CLAY-H,2002,house,8,R,Clay H. New,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-90-D-NEWTON,1994,house,90,D,Newton,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-90-D-NEWTON-CHARLES,2002,house,90,D,"Newton, Charles",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-53-D-NEWTON-DEMETRIUS-C,2002,house,53,D,"Newton, Demetrius C.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-65-R-NICK-WILLIAMS,2006,house,65,R,NICK WILLIAMS,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-36-D-NICKI-ARNOLD-SWINDLE,2018,house,36,D,Nicki Arnold-Swindle,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-28-R-O-BARR,1994,house,28,R,"Billy ""Bill"" O'Barr",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-11-R-ODEN-JEREMY-H,2002,house,11,R,"Oden, Jeremy H.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-74-D-OTT-RUTH-MITCHELL,2002,house,74,D,"Ott, Ruth Mitchell",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-65-R-OVERTON,1998,house,65,R,Overton,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-45-R-OWEN-DRAKE,2006,house,45,R,Owen Drake,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-14-D-OWENS,1994,senate,14,D,Owens,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-102-D-PACE,1998,house,102,D,Sandra Pace,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-29-D-PALMER,1998,senate,29,D,Mac Palmer,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-40-D-PAMELA-JEAN-HOWARD,2018,house,40,D,Pamela Jean Howard,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-4-R-PAPUCCI,1994,house,4,R,Nelson Papucci,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-4-R-PAPUCCI,1998,house,4,R,Nelson Papucci,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-1994-house-9-D-PARKER,1994,house,9,D,Parker,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-63-D-PARKER,1994,house,63,D,Parker,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-63-R-PARKER,1998,house,63,R,Tim Parker,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-7-D-PARKER-GRIFFITH,2006,senate,7,D,PARKER GRIFFITH,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-42-R-PARNELL,1998,house,42,R,James Parnell,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-22-D-PAT-LINDSEY,2006,senate,22,D,PAT LINDSEY,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-45-D-PAT-SEWELL,2006,house,45,D,PAT SEWELL,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-38-D-PATTERSON-ARTHUR-FRANK-JR,2002,house,38,D,"Patterson, Arthur Frank, Jr.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-81-R-PATTERSON-BENJIE,2002,house,81,R,"Patterson, Benjie",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-26-R-PATTERSON-JEFFREY,2002,house,26,R,"Patterson, Jeffrey",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-44-D-PAYNE,1994,house,44,D,Payne,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-44-R-PAYNE-ARTHUR,2002,house,44,R,"Payne, Arthur",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-54-R-PEARSON,1994,house,54,R,Pearson,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-27-R-PEGGY-MARTIN,2006,senate,27,R,PEGGY MARTIN,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-28-D-PENN-MYRON-C,2002,senate,28,D,"Penn, Myron C.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-94-D-PENRY,1994,house,94,D,Penry,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-54-D-PERDUE,1994,house,54,D,George Perdue,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-54-D-PERDUE,1998,house,54,D,George Perdue,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2002-house-54-D-PERDUE-GEORGE,2002,house,54,D,"Perdue, George",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-37-R-PETE-WARD,2006,house,37,R,PETE WARD,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-51-D-PETELOS,1994,house,51,D,Petelos,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-7-R-PETERS-ELBERT,2002,senate,7,R,"Peters, Elbert",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-2-D-PETTUS-MARY,2002,house,2,D,"Pettus, Mary",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-95-D-PFEIFER,1998,house,95,D,"William Pfeifer, Jr.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-52-R-PHILLIP-BAHAKEL,2014,house,52,R,Phillip Bahakel,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-1-R-PHILLIPS,1994,house,1,R,Duane Phillips,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-79-R-PIERCE,1994,house,79,R,Betty Pierce,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-23-D-POBINSON,1994,house,23,D,Pobinson,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-27-R-PONDER,1994,senate,27,R,Ponder,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-21-D-POOLE-PHIL,2002,senate,21,D,"Poole, Phil",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-11-D-PREIUTT-JIM,2002,senate,11,D,"Preiutt, Jim",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-101-D-PRINGLE,1994,house,101,D,Pringle,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-50-D-QUARLES-MARILYN,2002,house,50,D,"Quarles, Marilyn",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-house-1-R-QUINTON-HANSON,2010,house,1,R,QUINTON HANSON,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-85-R-RALEY,1994,house,85,R,Harold Raley,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-85-R-RALEY,2006,house,85,R,Harold Raley,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-103-R-RALPH-CARMICHAEL,2014,house,103,R,Ralph Carmichael,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-house-26-D-RANDALL-WHITE,2010,house,26,D,RANDALL WHITE,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-7-R-RANDOLPH,1994,house,7,R,Byron L. Randolph,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-senate-11-R-RAY-ROBBINS,2010,senate,11,R,RAY ROBBINS,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-74-D-RAYFORD-MACK,2018,house,74,D,Rayford Mack,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-82-D-REED,1994,house,82,D,Reed,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-8-D-REX-CHEATHAM,2014,house,8,D,Rex Cheatham,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-12-R-RHONDA-D-BRUNER,2006,house,12,R,RHONDA D. BRUNER,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-58-R-RICHARD-RUTLEDGE,2006,house,58,R,RICHARD RUTLEDGE,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-senate-21-D-RICK-BURNHAM,2018,senate,21,D,Rick Burnham,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-91-R-RICKY-E-SNELLGROVE,2006,house,91,R,RICKY E. SNELLGROVE,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-house-40-D-RICKY-WHALEY,2010,house,40,D,RICKY WHALEY,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-7-R-RIDDLE-YOLANDA-YOYO,2002,house,7,R,"Riddle, Yolanda (Yoyo)",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-3-D-ROBERTS,1994,senate,3,D,Tommy Ed Roberts,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-3-D-ROBERTS,1998,senate,3,D,Tommy Ed Roberts,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-3-D-ROBERTS-TOMMY-ED,2002,senate,3,D,"Roberts, Tommy Ed",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-14-D-ROBINSON,1998,senate,14,D,Robinson,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-23-D-ROBINSON,2006,house,23,D,ROBINSON,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-23-D-ROBINSON-JOHN,2002,house,23,D,"Robinson, John",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-58-D-ROBINSON-OLIVER,2002,house,58,D,"Robinson, Oliver",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-104-D-ROCKHOLD,1994,house,104,D,Lois M. Rockhold,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-104-D-ROCKHOLD,1998,house,104,D,Rockhold,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-52-D-ROGER-JOHN-W-JR,2002,house,52,D,"Roger, John W., Jr.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-36-R-ROGERS,1994,house,36,R,Mike Rogers,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-52-D-ROGERS,1994,house,52,D,Rogers,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-43-D-ROMEI,1994,house,43,D,David Romei,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-senate-11-D-RON-CRUMPTON,2014,senate,11,D,Ron Crumpton,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-house-32-R-RON-STRUZIK,2010,house,32,R,RON STRUZIK,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-29-D-RONNIE-HELMS,2006,senate,29,D,RONNIE HELMS,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-house-93-D-RONNIE-HELMS,2010,house,93,D,RONNIE HELMS,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-26-D-ROSS-QUINTON-T,2002,senate,26,D,"Ross, Quinton T.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-13-R-ROWE,2014,house,13,R,Rowe,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-16-D-RUSS-PARKER,2006,senate,16,D,RUSS PARKER,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-60-R-RUSSELL,1998,house,60,R,David Russell,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-47-D-SALVATORE-BAMBINELLI,2014,house,47,D,Salvatore Bambinelli,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-20-D-SANDERFORD,1994,house,20,D,Sanderford,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-20-R-SANDERFORD-HOWARD,2002,house,20,R,James Howard Sanderford,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-26-R-SANDERS,1998,senate,26,R,Sanders,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-1994-house-43-R-SANDERSON,1994,house,43,R,Allen Sanderson,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-6-D-SCHMITZ,1994,house,6,D,Sue Schmitz,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-6-D-SCHMITZ,1998,house,6,D,Sue Schmitz,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-6-D-SCHMITZ-SUE,2002,house,6,D,Sue Schmitz,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-senate-35-D-SCOTT-A-BUZBEE,2010,senate,35,D,SCOTT A BUZBEE,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-33-D-SCOTT-BREWER,2018,house,33,D,Scott Brewer,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-9-R-SCOTT-STONE,2006,house,9,R,SCOTT STONE,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-87-R-SEIBENHENER,1994,house,87,R,Riley Seibenhener,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-87-R-SEIBENHENER,1998,house,87,R,Riley Seibenhener,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-28-R-SETTLER,1994,senate,28,R,Settler,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-35-D-SHADDIX,1994,house,35,D,Pat Wayne Shaddix,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-house-98-R-SHARON-L-POWE,2010,house,98,R,SHARON L. POWE,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-15-D-SHARP,1994,house,15,D,Philip L. Sharp,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-31-R-SHAW-MICKEY-B,2002,house,31,R,"Shaw, Mickey B.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-23-R-SHELTON,1998,house,23,R,Delbert Shelton,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-13-D-SHERER-TOMMY,2002,house,13,D,"Sherer, Tommy",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-79-D-SHIRLEY-SCOTT-HARRIS,2014,house,79,D,Shirley Scott-Harris,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-86-R-SHUEMAKE,1994,house,86,R,Shuemake,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-35-R-SIMS,1994,house,35,R,Larry P. Sims,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-35-R-SIMS,1998,house,35,R,Larry Paul Sims,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2002-house-35-R-SIMS-LARRY-P,2002,house,35,R,"Sims, Larry P.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-72-D-SINGLETON-BOBBY,2002,house,72,D,"Singleton, Bobby",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-3-R-SMALLWOOD,1994,house,3,R,John Smallwood,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-3-R-SMALLWOOD,1998,house,3,R,John Smallwood,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-4-D-SMITH,1994,house,4,D,Ross Smith,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-42-D-SMITH,1994,house,42,D,Curtis Smith,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-50-D-SMITH,1994,house,50,D,Smith,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-10-R-SMITH,1994,senate,10,R,Smith,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-10-D-SMITH,1998,house,10,D,Pamela Smith,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-10-R-SMITH,1998,senate,10,R,Roy Smith,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-85-R-SMITH-GARY-L,2002,house,85,R,Gary L. Smith,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-29-R-SMITH-HARRI-ANNE,2002,senate,29,R,"Smith, Harri Anne",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-10-D-SMITH-PAM,2002,house,10,D,"Smith, Pam",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-3-R-SMITH-TERRY,2002,senate,3,R,"Smith, Terry",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-18-D-SMITHERMAN-RODGER-M,2002,senate,18,D,"Smitherman, Rodger M.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-105-R-SPENCER-COLLIER,2006,house,105,R,SPENCER COLLIER,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-91-D-SPICER,1994,house,91,D,Spicer,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-91-D-SPICER-TERRY,2002,house,91,D,"Spicer, Terry",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-59-D-SPRATT,1994,house,59,D,Spratt,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-11-D-SPRAYBERRY,1994,senate,11,D,Sprayberry,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-22-R-STAMM-DAVID-L,2002,house,22,R,"Stamm, David L.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-63-D-STANLEY,1998,house,63,D,Andrea Stanley,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-senate-18-R-STANLEY-NANCE,2006,senate,18,R,Stanley Nance,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-1-D-STARKEY,1994,house,1,D,Nelson R. Starkey Jr.,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-1-D-STARKEY,1998,house,1,D,Nelson R. Starkey Jr.,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2002-house-1-D-STARKEY-NELSON,2002,house,1,D,"Starkey, Nelson",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-35-D-STATEN,1998,senate,35,D,Charlie Staten,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-24-D-STEELE,1994,senate,24,D,Steele,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-24-D-STEELE,1998,senate,24,D,Charles Steele Jr.,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-24-D-STEELE-CHARLES-JR,2002,senate,24,D,"Steele, Charles, Jr.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-97-R-STEPHEN-MCNAIR,2018,house,97,R,Stephen McNair,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-28-R-STEPHENS,1998,house,28,R,Stephens,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-house-35-R-STEVEN-M-DEAN,2010,house,35,R,STEVEN M. DEAN,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-67-R-STORY-MARK-A,2002,house,67,R,Mark A. Story,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-105-D-STRAUB,1998,house,105,D,Lynda Straub,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-4-D-SUE-MITCHELL,2006,house,4,D,SUE MITCHELL,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-6-D-SUE-SCHMITZ,2006,house,6,D,SUE SCHMITZ,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-34-D-SULLIVAN,1994,senate,34,D,Sullivan,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-66-D-SUSAN-E-SMITH,2018,house,66,D,Susan E. Smith,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-house-63-D-SUSAN-PACE-HAMILL,2010,house,63,D,SUSAN PACE HAMILL,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-senate-22-D-SUSAN-SMITH,2014,senate,22,D,Susan Smith,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-72-R-SUTTON,1998,house,72,R,Goodloe Sutton,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-15-D-SUZANNA-COLEMAN,2018,house,15,D,Suzanna Coleman,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-senate-17-D-T-E-TOMMY-HUDSON,2010,senate,17,D,T. E. 'Tommy' HUDSON,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-35-D-TANNER-GARY,2002,senate,35,D,Gary Tanner,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-2-R-TATUM,1998,house,2,R,Tex Tatum,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-senate-12-D-TAYLOR-STEWART,2014,senate,12,D,Taylor Stewart,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-27-R-TEEL,1998,senate,27,R,Teel,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-88-R-TEMPLENTON,1994,house,88,R,Templenton,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-21-D-TERRY-JONES,2018,house,21,D,C. Terry Jones,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-49-R-THOMAS,1994,house,49,R,Dave Thomas,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-27-R-THOMAS,1998,house,27,R,Thomas,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-1998-house-49-R-THOMAS,1998,house,49,R,Dave Thomas,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-12-D-THOMAS,1998,senate,12,D,"Cleophus Thomas, Jr.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-34-R-THOMAS-ELWYN,2002,house,34,R,"Thomas, Elwyn",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-69-D-THOMAS-JAMES-L,2002,house,69,D,"Thomas, James L.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-61-D-THOMAS-TOMMY-HYCHE,2018,house,61,D,"Thomas ""Tommy"" Hyche",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-66-R-THOMSON,1994,house,66,R,Michael H. Thomson,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-78-R-TIJUANNA-ADETUNJI,2014,house,78,R,Tijuanna Adetunji,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-80-D-TILLMAN-PUGH,2014,house,80,D,Tillman Pugh,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-senate-9-D-TIM-MITCHELL,2010,senate,9,D,TIM MITCHELL,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-house-39-R-TIM-SPRAYBERRY,2010,house,39,R,TIM SPRAYBERRY,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-62-D-TINGLE,1998,house,62,D,Jerry Michael Tingle,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-21-R-TINGLE-JERRY,2002,senate,21,R,"Tingle, Jerry",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-senate-35-D-TOM-HOLMES,2018,senate,35,D,Tom Holmes,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-40-R-TOM-SHELTON,2006,house,40,R,TOM SHELTON,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-7-R-TONDERA,1994,senate,7,R,Tondera,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-50-R-TOWNSEND,1994,house,50,R,Jim Townsend,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-102-D-TURNER,1994,house,102,D,Turner,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-102-R-TURNER,1998,house,102,R,Turner,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2002-house-102-R-TURNER-J-E,2002,house,102,R,"Turner, J.E.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-15-D-TURNER-JOHN,2002,senate,15,D,"Turner, John",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-79-D-TURNHAM,1994,house,79,D,Pete Turnham,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-80-D-VANCE-LESLEY,2002,house,80,D,"Vance, Lesley",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-63-D-VANDERMEER-JEANETTE,2002,house,63,D,"VanderMeer, Jeanette",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-73-D-VAUGHAN,1994,house,73,D,Vaughan,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-house-4-D-VAUGHN-GOODWIN,2010,house,4,D,VAUGHN GOODWIN,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-31-D-VENABLE,1994,house,31,D,Venable,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-31-D-VENABLE,1998,house,31,D,Jack B. Venable,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2002-house-31-D-VENABLE-JACK-B,2002,house,31,D,"Venable, Jack B.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-51-D-VERONICA-R-JOHNSON,2018,house,51,D,Veronica R. Johnson,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-house-43-D-VIRGINIA-SWEET,2010,house,43,D,Virginia Sweet,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-16-D-WAGGONER,1994,senate,16,D,Waggoner,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-16-R-WAGGONER-J-T-JABO,2002,senate,16,R,"Waggoner, J.T. ""Jabo""",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-16-R-WALDON,1998,house,16,R,Jackie C. Waldon,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-67-R-WALKER,1994,house,67,R,Walker,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-19-R-WALKER-CLIFF,2002,senate,19,R,"Walker, Cliff",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-14-R-WALLACE,1998,house,14,R,Donald Wallace,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-senate-12-D-WALLACE-WYATT-JR,2010,senate,12,D,William Wallace Wyatt Jr.,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2010-house-30-D-WALLY-BURNS,2010,house,30,D,Walter Wally Burns Jr.,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-90-D-WALTON-HICKMAN,2014,house,90,D,Walton Hickman,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-49-R-WARD-CAM,2002,house,49,R,"Ward, Cam",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-27-R-WARD-KEITH-J,2002,senate,27,R,"Ward, Keith J.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-64-D-WARREN,1994,house,64,D,Warren,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-64-D-WARREN,1998,house,64,D,J. E. (Jimmy) Warren,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-2002-house-64-D-WARREN-J-E-JIMMY,2002,house,64,D,"Warren, J.E. ""Jimmy""",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-59-R-WASHINGTON-WILLIAM,2002,house,59,R,"Washington, William",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-98-R-WAYNE-E-BIGGS,2014,house,98,R,Wayne E. Biggs,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-104-D-WEBSTER-DANIEL-J,2002,house,104,D,"Webster, Daniel J.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-17-R-WESTBROOKS-MIKE,2002,house,17,R,Mike Westbrooks,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-66-D-WHITE,1994,house,66,D,White,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-11-D-WHITE,1998,house,11,D,White,0,True,True,,,,no_unique_deterministic_recovery,none
+AL-1998-house-66-D-WHITE,1998,house,66,D,F. P. Skippy White,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-66-D-WHITE-F-P-SKIPPY,2002,house,66,D,"White, F.P. ""Skippy""",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-31-R-WHITE-GREGORY-B,2002,senate,31,R,"White, Gregory B.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-house-20-D-WILBURN,1998,house,20,D,Don Wilburn,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-65-R-WILKINS,1994,house,65,R,James K. Wilkins,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2018-house-62-D-WILL-BENTON,2018,house,62,D,Will Benton,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-92-R-WILLIAM-E-BLOCKER,2006,house,92,R,WILLIAM E. BLOCKER,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2006-house-84-D-WILLIAM-M-BILLY-BEASLEY,2006,house,84,D,"WILLIAM M. ""Billy"" BEASLEY",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-72-R-WILLIAMS,1994,house,72,R,Williams,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-93-D-WILLIAMS,1994,house,93,D,Williams,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1998-senate-24-R-WILLIAMS,1998,senate,24,R,Williams,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-senate-10-R-WILLIAMS-DAVID-L,2002,senate,10,R,"Williams, David L.",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-65-R-WILLIAMS-NICK,2002,house,65,R,Nick Williams,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-34-D-WILLIS,1994,house,34,D,Willis,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-5-D-WILSON,1994,senate,5,D,Robert T. Wilson Jr.,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-senate-35-D-WINDOM,1994,senate,35,D,Steve Windom,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2002-house-36-R-WOOD-RANDY,2002,house,36,R,"Wood, Randy",0,False,False,,,,no_unique_deterministic_recovery,none
+AL-1994-house-60-R-WRIGHT,1994,house,60,R,Wright,0,False,False,,,,no_unique_deterministic_recovery,none
+AL-2014-house-74-D-ZACK-BUCKNER,2014,house,74,D,Zack Buckner,0,False,False,,,,no_unique_deterministic_recovery,none

@@ -1,0 +1,24 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "conservation_preservation",
+  "plain_english_policy": "Restructure the electric utility industry to allow consumers to choose their power company.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "environmental_protection",
+      "pole": "weaken",
+      "strength": "primary",
+      "rationale": "Restructuring the electric utility industry to allow consumers to choose their power company may lead to a decrease in environmental protection regulations, as utilities might prioritize profit over conservation efforts."
+    },
+    {
+      "axis": "conservation_preservation",
+      "pole": "develop",
+      "strength": "secondary",
+      "rationale": "Allowing consumers to choose their power company could potentially increase the development of renewable energy sources and more efficient use of resources, which aligns with conservation preservation principles."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Restructure the electric utility industry to allow consumers to choose their power company.\" - Source: Year: 1998, Section: Environment & Energy, Question: Indicate which principles you support (if any) regarding the environment and energy. Option: h)",
+  "needs_human_review": true,
+  "review_reason": "The policy statement is vague on its environmental impact, as it does not specify whether this restructuring would lead to increased or decreased conservation preservation efforts."
+}

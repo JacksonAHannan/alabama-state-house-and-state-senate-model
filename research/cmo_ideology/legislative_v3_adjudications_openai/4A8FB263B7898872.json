@@ -1,0 +1,10 @@
+{
+  "id": "4A8FB263B7898872",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Changes the allocation of sentencing authority in capital cases, but its direction under the allowed due-process and punishment poles is not unambiguous.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

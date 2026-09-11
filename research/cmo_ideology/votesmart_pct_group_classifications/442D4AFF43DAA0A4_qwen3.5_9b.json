@@ -1,0 +1,11 @@
+{
+  "policy_key": "immigration_english_language",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Establishing English as the official language is conventionally viewed by progressive metrics as a restriction on immigrant rights and linguistic diversity.",
+  "evidence_quote": "d) Establish English as the official and recognized language of the United States.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

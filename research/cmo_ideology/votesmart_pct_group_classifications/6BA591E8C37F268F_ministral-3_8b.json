@@ -1,0 +1,11 @@
+{
+  "policy_key": "welfare_asset_accumulation",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Welfare recipients can keep benefits while saving for education, entrepreneurship, or homeownership.",
+  "evidence_quote": "Allow welfare recipients to remain eligible for benefits while saving money for education, starting a business, or buying a home.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

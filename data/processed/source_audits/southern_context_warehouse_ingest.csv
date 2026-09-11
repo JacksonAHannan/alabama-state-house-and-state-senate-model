@@ -1,0 +1,100 @@
+source_file_id,build_run_id,asset_role,input_rows,output_rows,input_votes,output_votes,vote_delta,reconciliation_status,note
+CENSUS-CB-2016-AR-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,100.0,100,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2016-AR-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,35.0,35,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2016-FL-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,120.0,120,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2016-FL-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,40.0,40,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2016-GA-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,180.0,180,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2016-GA-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,56.0,56,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2016-KY-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,100.0,100,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2016-KY-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,38.0,38,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2016-MO-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,163.0,163,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2016-MO-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,34.0,34,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2016-NC-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,120.0,120,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2016-NC-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,50.0,50,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2016-OK-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,101.0,101,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2016-OK-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,48.0,48,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2016-SC-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,124.0,124,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2016-SC-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,46.0,46,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2016-TN-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,99.0,99,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2016-TN-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,33.0,33,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2016-TX-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,150.0,150,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2016-TX-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,31.0,31,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2017-VA-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,100.0,100,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2018-AL-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,105.0,105,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2018-AL-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,35.0,35,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2018-AR-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,100.0,100,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2018-AR-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,35.0,35,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2018-FL-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,120.0,120,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2018-FL-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,40.0,40,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2018-GA-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,180.0,180,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2018-GA-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,56.0,56,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2018-KY-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,100.0,100,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2018-KY-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,38.0,38,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2018-MO-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,163.0,163,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2018-MO-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,34.0,34,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2018-NC-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,120.0,120,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2018-NC-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,50.0,50,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2018-OK-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,101.0,101,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2018-OK-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,48.0,48,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2018-SC-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,124.0,124,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2018-TN-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,99.0,99,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2018-TN-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,33.0,33,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2018-TX-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,150.0,150,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2018-TX-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,31.0,31,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2019-LA-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,106.0,106,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2019-LA-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,40.0,40,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2019-MS-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,122.0,122,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2019-MS-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,52.0,52,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2019-VA-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,100.0,100,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2019-VA-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,40.0,40,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2020-AR-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,100.0,100,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2020-AR-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,35.0,35,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2020-FL-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,120.0,120,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2020-FL-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,40.0,40,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2020-GA-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,180.0,180,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2020-GA-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,56.0,56,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2020-KY-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,100.0,100,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2020-KY-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,38.0,38,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2020-MO-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,163.0,163,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2020-MO-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,34.0,34,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2020-NC-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,120.0,120,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2020-NC-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,50.0,50,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2020-OK-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,101.0,101,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2020-OK-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,48.0,48,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2020-SC-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,124.0,124,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2020-SC-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,46.0,46,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2020-TN-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,99.0,99,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2020-TN-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,33.0,33,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2020-TX-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,150.0,150,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2020-TX-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,31.0,31,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2021-VA-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,100.0,100,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2022-AL-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,105.0,105,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2022-AL-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,35.0,35,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2022-AR-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,100.0,100,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2022-AR-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,35.0,35,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2022-FL-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,120.0,120,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2022-FL-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,40.0,40,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2022-GA-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,180.0,180,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2022-GA-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,56.0,56,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2022-KY-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,100.0,100,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2022-KY-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,38.0,38,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2022-MO-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,163.0,163,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2022-MO-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,34.0,34,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2022-NC-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,120.0,120,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2022-NC-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,50.0,50,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2022-OK-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,101.0,101,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2022-OK-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,48.0,48,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2022-SC-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,124.0,124,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2022-TN-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,99.0,99,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2022-TN-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,33.0,33,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2022-TX-SLDL-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,150.0,150,,,,not_applicable,One valid unique lower district geometry per Census feature; stored in EPSG:4326
+CENSUS-CB-2022-TX-SLDU-500K,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,31.0,31,,,,not_applicable,One valid unique upper district geometry per Census feature; stored in EPSG:4326
+NYT-NATIONAL-2024-PRES-PRECINCT-GEOMETRY,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,geometry,,0,,,,not_applicable,Registered without normalization
+DAILYKOS-SLD-PRESIDENTIAL-INDEX-2021,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,index,,0,,,,not_applicable,Registered without normalization
+NYT-NATIONAL-2024-PRES-PRECINCT-RESULTS,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,result,45047.0,45047,56147453.0,56147453.0,0.0,exact,NYT standardized presidential precinct rows; boundary provenance retained in allocation_method
+OPENELECTIONS-2012-GA-PRECINCT,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,result,8457.0,2819,3897839.0,3897839.0,0.0,exact,Presidential candidate rows aggregated once to provider-reported precinct grain
+OPENELECTIONS-2012-MS-PRECINCT,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,result,11202.0,1867,1285584.0,1285584.0,0.0,exact,Presidential candidate rows aggregated once to provider-reported precinct grain
+RDH-NATIONAL-2020-PRES-BLOCKS,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,result,3162191.0,3162191,56412357.819997475,56412357.819997475,0.0,within_rounding,Southern-state subset of RDH national VAP-disaggregated 2020 Census blocks
+SRC-4C920D6DEB6AA57266C8,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,result,15270.0,3054,4505372.0,4505372.0,0.0,exact,Presidential candidate rows aggregated once to provider-reported precinct grain
+SRC-82BC5844F398D51050C3,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,result,64077.0,6319,8486746.0,8486746.0,0.0,exact,Presidential candidate rows aggregated once to provider-reported precinct grain
+VAELECTIONS-2012-VA-PRESIDENT-PRECINCT,RUN-B60F18E1B9CD4DAE89BBBF4F59338A99,result,16338.0,2723,3858043.0,3864880.0,6837.0,review,Presidential candidate rows aggregated once to provider-reported precinct grain

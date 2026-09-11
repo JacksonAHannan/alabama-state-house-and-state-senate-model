@@ -1,0 +1,30 @@
+{
+  "primary_domain": "government_reform",
+  "policy_key": "redistricting_mechanism",
+  "plain_english_policy": "Use of an independent or bipartisan commission to oversee the process of drawing electoral district boundaries.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "institutional_populism",
+      "pole": "popular_control",
+      "strength": "secondary",
+      "rationale": "Removing partisan control of redistricting implies greater public or non-partisan oversight, aligning with popular sovereignty."
+    },
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "primary",
+      "rationale": "The proposal explicitly introduces a third-party (commission) to intervene in the redistricting process, which is traditionally controlled by legislative bodies."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "secondary",
+      "rationale": "The commission would be a public entity (state-level) rather than a private one, though it could include bipartisan members."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"independent AND/OR bipartisan commission\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

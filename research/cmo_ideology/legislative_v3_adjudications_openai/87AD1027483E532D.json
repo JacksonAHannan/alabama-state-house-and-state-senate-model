@@ -1,0 +1,10 @@
+{
+  "id": "87AD1027483E532D",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Consolidates state pharmaceutical purchasing and negotiates rebates, an administrative procurement measure not directly captured by the allowed healthcare axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

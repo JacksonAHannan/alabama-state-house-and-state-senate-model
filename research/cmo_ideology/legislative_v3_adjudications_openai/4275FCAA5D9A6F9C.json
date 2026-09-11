@@ -1,0 +1,10 @@
+{
+  "id": "4275FCAA5D9A6F9C",
+  "decision": "map",
+  "primitive_axis": "police_authority",
+  "policy_pole": "expand",
+  "confidence": "medium",
+  "rationale": "Authorizes blood and saliva testing of offenders following disease exposure to protect first responders, expanding investigative and enforcement authority.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

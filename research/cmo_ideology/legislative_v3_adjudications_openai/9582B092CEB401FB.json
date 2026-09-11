@@ -1,0 +1,10 @@
+{
+  "id": "9582B092CEB401FB",
+  "decision": "map",
+  "primitive_axis": "market_governance",
+  "policy_pole": "market_autonomy",
+  "confidence": "high",
+  "rationale": "Removes duplicative municipal business-license requirements for rental and leasing services.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

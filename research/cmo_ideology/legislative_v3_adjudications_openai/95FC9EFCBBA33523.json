@@ -1,0 +1,10 @@
+{
+  "id": "95FC9EFCBBA33523",
+  "decision": "map",
+  "primitive_axis": "medicaid_structure",
+  "policy_pole": "managed_care",
+  "confidence": "medium",
+  "rationale": "Authorizes Medicaid to use a preferred drug plan and manufacturer rebates, supporting managed formulary-based administration of the program.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

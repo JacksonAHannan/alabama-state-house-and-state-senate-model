@@ -1,0 +1,11 @@
+{
+  "policy_key": "public_funding_campaign_spending_limits",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option supports public taxpayer funding for federal candidates who comply with campaign spending limits.",
+  "evidence_quote": "Support public taxpayer funding for federal candidates who comply with campaign spending limits.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

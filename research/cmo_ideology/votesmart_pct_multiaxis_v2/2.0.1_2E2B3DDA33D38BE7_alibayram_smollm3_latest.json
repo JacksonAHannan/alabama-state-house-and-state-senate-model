@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "tax_distribution",
+  "plain_english_policy": "Reducing State Employee Salaries and/or Pensions",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "market_autonomy",
+      "strength": "secondary",
+      "rationale": "Market autonomy is not directly affected by reducing salaries or pensions."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I support proposals that reduce the burden of state employee salaries and pensions. This would help balance our budget while ensuring fiscal responsibility.\" - Candidate's Statement, 2018 Budget Debate",
+  "needs_human_review": true,
+  "review_reason": "invalid pole 'tax_distribution' for welfare_policy"
+}

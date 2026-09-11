@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "healthcare_access",
+  "plain_english_policy": "support for a universally accessible and publicly administered healthcare system",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "Supporting universal access to public-administered healthcare aligns with expansion of welfare policy."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I support a universally-accessible, publicly-administered health insurance option.\" - [Source: 2010 Section: Health Issues Option: a)\"",
+  "needs_human_review": true,
+  "review_reason": ""
+}

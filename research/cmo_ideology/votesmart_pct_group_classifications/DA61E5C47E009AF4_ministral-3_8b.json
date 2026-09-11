@@ -1,0 +1,11 @@
+{
+  "policy_key": "nuclear_threat_reduction_russia",
+  "dimension": "indeterminate",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Support for U.S.-Russia cooperation to curb nuclear proliferation (e.g., via bilateral agreements like START or nonproliferation programs).",
+  "evidence_quote": "*Do you support the cooperative threat reduction programs with Russia to prevent the spread of nuclear weapons to unfriendly nations?*",
+  "needs_human_review": true,
+  "review_reason": "This question is a direct yes/no prompt without ideological framing. The answer would require contextualizing the candidate\u2019s stance on U.S.-Russia relations (e.g., skepticism vs. pragmatism) or specific programs (e.g., START follow-ons)."
+}

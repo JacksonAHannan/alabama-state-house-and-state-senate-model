@@ -1,0 +1,11 @@
+{
+  "policy_key": "food_stamps_block_grants",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Replace federal food stamp funding with block grants to states.",
+  "evidence_quote": "d) Food stamps",
+  "needs_human_review": false,
+  "review_reason": ""
+}

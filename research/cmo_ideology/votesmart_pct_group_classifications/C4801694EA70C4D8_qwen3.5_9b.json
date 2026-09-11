@@ -1,0 +1,11 @@
+{
+  "policy_key": "aid_elimination",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option advocates for significantly reducing and ultimately ending U.S. international aid programs.",
+  "evidence_quote": "Aid programs should be scaled back and eventually eliminated except for extraordinary circumstances.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

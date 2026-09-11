@@ -1,0 +1,11 @@
+{
+  "policy_key": "terrorism_ais_authority",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option supports expanding federal immigration authority to exclude suspected terrorists.",
+  "evidence_quote": "Grant broader authority to the US Immigration and Naturalization Service to deny entrance visas to terrorist suspects.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

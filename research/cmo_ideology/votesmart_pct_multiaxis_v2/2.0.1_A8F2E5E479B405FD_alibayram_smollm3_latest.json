@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "childcare_delivery=employer_incentive",
+  "plain_english_policy": "Use federal TANF funds to extend health and child care subsidies to the working poor.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "The policy aims to expand access to healthcare and childcare subsidies for the working poor."
+    },
+    {
+      "axis": "childcare_delivery",
+      "pole": "employer_incentive",
+      "strength": "primary",
+      "rationale": "The policy uses federal TANF funds to incentivize employers to provide child care subsidies, which is a form of employer incentive under the childcare delivery axis."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Use federal TANF (Temporary Assistance to Needy Families) funds to extend health and child care subsidies to the working poor.\" - Option e from Question on Welfare and Poverty Issues, Year: 2006.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "mandatory_health_insurance",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Requiring individuals to buy health insurance (often called 'individual mandate') is a policy that typically aligns with progressive/left-leaning perspectives, as it aims to expand coverage and reduce uninsured rates through government intervention in the market.",
+  "evidence_quote": "Should individuals be required to purchase health care insurance?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

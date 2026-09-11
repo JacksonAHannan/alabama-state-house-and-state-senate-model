@@ -1,0 +1,10 @@
+{
+  "id": "A5959881BE138EF2",
+  "decision": "map",
+  "primitive_axis": "incarceration",
+  "policy_pole": "expand",
+  "confidence": "medium",
+  "rationale": "Authorizes the issuance of additional bonds for corrections, which likely supports expanded incarceration capacity.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

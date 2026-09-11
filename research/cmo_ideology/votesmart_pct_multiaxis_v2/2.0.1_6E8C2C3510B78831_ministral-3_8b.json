@@ -1,0 +1,24 @@
+{
+  "primary_domain": "healthcare",
+  "policy_key": "criminal_punishment",
+  "plain_english_policy": "Restrict financial penalties for medical professionals in malpractice cases",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "criminal_punishment",
+      "pole": "punitive",
+      "strength": "secondary",
+      "rationale": "Limiting punitive damages reduces the severity of financial penalties for malpractice, effectively reducing punitive consequences for medical professionals."
+    },
+    {
+      "axis": "healthcare_access",
+      "pole": "restrict",
+      "strength": "primary",
+      "rationale": "By capping punitive damages, this option may discourage frivolous lawsuits and reduce legal barriers to healthcare providers, but it also limits compensation for victims of malpractice, indirectly restricting access to justice."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Limit the amount of punitive damages\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "78F6C576A8711F88",
+  "decision": "map",
+  "primitive_axis": "civil_social_liberty",
+  "policy_pole": "expand",
+  "confidence": "medium",
+  "rationale": "Further authorizing simulcast racing and pari-mutuel wagering expands access to the specified gambling activity.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

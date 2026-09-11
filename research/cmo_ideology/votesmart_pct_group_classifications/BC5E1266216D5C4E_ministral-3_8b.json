@@ -1,0 +1,11 @@
+{
+  "policy_key": "welfare_child_support_enforcement",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Tougher enforcement of child support obligations, including stricter penalties for non-payment.",
+  "evidence_quote": "Strengthen child support collection procedures and increase penalties for parents who do not pay child support.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

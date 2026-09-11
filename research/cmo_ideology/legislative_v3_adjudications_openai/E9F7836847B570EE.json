@@ -1,0 +1,10 @@
+{
+  "id": "E9F7836847B570EE",
+  "decision": "map",
+  "primitive_axis": "gun_purchase_regulation",
+  "policy_pole": "weaken",
+  "confidence": "medium",
+  "rationale": "Further state preemption of local firearms regulation reduces the ability of local governments to impose purchase-related firearms rules.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

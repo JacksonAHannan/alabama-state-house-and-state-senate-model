@@ -1,0 +1,11 @@
+{
+  "policy_key": "education_capital_improvements",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Increasing funding for school buildings and infrastructure is generally viewed as a progressive or non-partisan administrative issue rather than a core ideological stance.",
+  "evidence_quote": "Increase funding for school capital improvements (e.g. buildings and infrastructure).",
+  "needs_human_review": false,
+  "review_reason": ""
+}

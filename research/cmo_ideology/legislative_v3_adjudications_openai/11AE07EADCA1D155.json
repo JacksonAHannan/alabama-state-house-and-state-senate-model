@@ -1,0 +1,10 @@
+{
+  "id": "11AE07EADCA1D155",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Adds appointed members to a local industrial development board without a clear market-regulation or property-rights direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

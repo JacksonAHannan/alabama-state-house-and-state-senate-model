@@ -1,0 +1,10 @@
+{
+  "id": "86DE37533A108CFB",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "The bill is a technical amendment regarding absentee ballots, voting machines, and tie votes\u2014no clear policy direction on allowed axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

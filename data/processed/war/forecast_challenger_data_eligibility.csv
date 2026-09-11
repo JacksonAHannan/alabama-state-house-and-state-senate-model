@@ -1,0 +1,4 @@
+data_family,forecast_eligible,historical_cycles,prospective_2026,decision
+cycle_matched_cvap,True,2010;2014;2018;2022,True,included_in_challenger_library
+reviewed_fcpa_fundraising,True,2014;2018;2022,True,full_zero_policy_panel_available_short_history
+votesmart_candidate_ideology,False,1994;1998;2002;2006;2010;2014;2018;2022,False,excluded_no_2022_or_2026_candidate_coverage

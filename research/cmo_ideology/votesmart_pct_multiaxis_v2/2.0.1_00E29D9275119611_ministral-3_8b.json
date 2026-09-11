@@ -1,0 +1,24 @@
+{
+  "primary_domain": "education",
+  "policy_key": "education_governance",
+  "plain_english_policy": "Support for standardized state-level education standards aligned with federal guidelines (Common Core).",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "education_governance",
+      "pole": "public_system",
+      "strength": "secondary",
+      "rationale": "Common Core represents a federally-aligned curriculum framework for public schools, reinforcing centralized control over educational content and assessment."
+    },
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "primary",
+      "rationale": "The initiative mandates uniform standards across states, effectively restricting local autonomy in curriculum design (evidence: *Common Core State Standards*)."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "*Common Core State Standards*",
+  "needs_human_review": false,
+  "review_reason": ""
+}

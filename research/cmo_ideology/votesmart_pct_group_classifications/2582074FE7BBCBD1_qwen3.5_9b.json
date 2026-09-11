@@ -1,0 +1,11 @@
+{
+  "policy_key": "immigration_state_reimbursement",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting state reimbursement for services to undocumented immigrants is generally viewed as a progressive policy that emphasizes compassion and shared responsibility.",
+  "evidence_quote": "Reimburse states for providing services to illegal aliens.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

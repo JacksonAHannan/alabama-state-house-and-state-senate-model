@@ -14,6 +14,7 @@ import numpy as np
 import pandas as pd
 from sklearn.decomposition import PCA
 from warehouse import connect
+from legiscan_eligibility import source_snapshot
 
 try:
     from scripts.import_legiscan_alabama_rollcalls import normalize_name
@@ -40,15 +41,13 @@ def bill_type(number: object) -> str:
 
 
 def prepare_votes() -> tuple[pd.DataFrame, pd.DataFrame]:
-    with closing(connect(readonly=True)) as connection:
-        votes = pd.read_sql("SELECT * FROM source_legiscan_member_vote", connection)
+    with source_snapshot() as connection:
+        votes = pd.read_sql("SELECT * FROM canonical_legiscan_member_vote", connection)
         rolls = pd.read_sql("SELECT * FROM source_legiscan_roll_call", connection)
         bills = pd.read_sql("SELECT * FROM source_legiscan_bill", connection)
         people = pd.read_sql("SELECT * FROM source_legiscan_legislator_session", connection)
-        qa = pd.read_sql("""SELECT r.roll_call_id,
-          CASE WHEN r.total=count(v.people_id) THEN 1 ELSE 0 END AS reported_total_matches
-          FROM source_legiscan_roll_call r LEFT JOIN source_legiscan_member_vote v
-          USING(roll_call_id) GROUP BY r.roll_call_id,r.total""", connection)
+        qa = pd.read_sql("SELECT *, reported_total=recorded_total AS reported_total_matches "
+                         "FROM qa_legiscan_roll_call_reconciliation", connection)
 
     bills["bill_type"] = bills.bill_number.map(bill_type)
     roll_meta = rolls.merge(
@@ -68,11 +67,11 @@ def prepare_votes() -> tuple[pd.DataFrame, pd.DataFrame]:
         & roll_meta.minority_share.ge(MINORITY_SHARE_MIN)
     )
     roll_meta = roll_meta.merge(
-        qa[["roll_call_id", "reported_total_matches"]],
+        qa.drop(columns=["source_file_id", "source_member"]),
         on="roll_call_id", how="left", validate="one_to_one",
     )
-    # Quarantine aggregate/individual tally conflicts pending ALISON review.
-    roll_meta["eligible_ideal_point"] &= roll_meta.reported_total_matches.fillna(False)
+    # Preserve every QA row; eligibility requires every category and total.
+    roll_meta["eligible_ideal_point"] &= roll_meta.validation_status.eq("passed")
 
     people["cycle"] = election_cycle(people.session_year)
     people = people.sort_values("session_year").drop_duplicates(

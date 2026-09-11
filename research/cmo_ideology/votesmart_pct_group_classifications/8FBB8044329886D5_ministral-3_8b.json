@@ -1,0 +1,11 @@
+{
+  "policy_key": "truth_in_sentencing_violent_criminals",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Mandate that violent offenders serve the full length of their sentences without parole eligibility.",
+  "evidence_quote": "Impose 'truth in sentencing' for violent criminals so they serve full sentences with no chance of parole.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

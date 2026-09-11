@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "pipeline": "scripts/build_extended_historical_southern_panel.py",
+  "code_commit": "ce5978cc83d4d145606b4268838ac6d656a1f34a",
+  "inputs": [
+    {
+      "path": "data/processed/forecast_calibration/historical_southern_combined_manifest.json",
+      "sha256": "0ed7e569f03fc97fb815f2a253c6d60605012c214ca0651be4fc43928b9efcdf"
+    },
+    {
+      "path": "data/processed/precinct_history/arkansas_pre2000/arkansas_pre2000_manifest.json",
+      "sha256": "df55c938e40117e904c6a9b867ad8968129bdc78999a2dbb95ca31399fca8229"
+    },
+    {
+      "path": "data/raw/historical_statewide_elections/dataverse_files.zip",
+      "sha256": "b4c0913fa7bfb0aff4da2dbf67a22da696e9f07b45615f30e78127edd794a3e1"
+    }
+  ],
+  "configuration": {
+    "minimum_legislative_turnout_join_coverage": 0.95,
+    "context_priority_by_year": {
+      "1994": "GOV",
+      "1996": "USP",
+      "1998": "USS"
+    },
+    "existing_panel_precedence": true
+  },
+  "row_counts": {
+    "combined_input": 2273,
+    "arkansas_reconciled": 119,
+    "arkansas_strict": 110,
+    "extended": 2383
+  },
+  "outputs": [
+    {
+      "name": "arkansas_candidates",
+      "path": "data/processed/forecast_calibration/historical_southern_extended_arkansas_candidates.csv",
+      "bytes": 98759,
+      "sha256": "bc76a75f29cff76b6f025751a71d969dd2fb8b963bd58811048f321d17c9797f"
+    },
+    {
+      "name": "arkansas_coverage",
+      "path": "data/processed/forecast_calibration/historical_southern_extended_arkansas_coverage.csv",
+      "bytes": 676,
+      "sha256": "603fc53fa20f3430c8558ad17dd688eb4ce4115726b22fa450be6755d655a670"
+    },
+    {
+      "name": "panel",
+      "path": "data/processed/forecast_calibration/historical_southern_extended_panel.csv",
+      "bytes": 1089656,
+      "sha256": "6fcc43c63224af67ed73168daaeb2f8a6dc027c5e76ff6594a9eca678ebb6493"
+    }
+  ],
+  "build_id": "ec3eca6a58834c1365d3"
+}

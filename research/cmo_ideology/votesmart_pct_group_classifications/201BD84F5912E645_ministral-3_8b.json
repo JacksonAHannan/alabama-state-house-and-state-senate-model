@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_employee_drug_testing",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Mandate drug testing for federal employees in high-security roles (e.g., air traffic controllers, national park police).",
+  "evidence_quote": "Require drug testing for federal employees in sensitive positions (Air Traffic Control, National Park Police, Secret Service, etc.).",
+  "needs_human_review": false,
+  "review_reason": ""
+}

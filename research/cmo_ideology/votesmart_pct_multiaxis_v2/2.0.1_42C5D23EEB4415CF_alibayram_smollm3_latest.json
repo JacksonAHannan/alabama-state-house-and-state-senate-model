@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "elimination_of_welfare_programs",
+  "plain_english_policy": "Eliminate government-funded welfare programs.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "The policy aims to reduce the scope of government involvement in providing welfare programs."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Eliminate government-funded welfare programs.\" - Source: [Year: 2006, Section: Welfare and Poverty Issues, Question: Indicate which principles you support (if any) regarding welfare. Option: g]\".",
+  "needs_human_review": true,
+  "review_reason": "The policy is vague on the specifics of how to eliminate these programs."
+}

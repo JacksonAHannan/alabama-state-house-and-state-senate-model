@@ -1,0 +1,10 @@
+{
+  "id": "0A329E0C3BC2673B",
+  "decision": "map",
+  "primitive_axis": "education_teacher_labor",
+  "policy_pole": "support",
+  "confidence": "high",
+  "rationale": "Creates a state-funded loan repayment program for nursing education instructors, directly supporting teacher recruitment and retention.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "1B5C7361E65C3135",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns Corrections Department employee compensation and leave benefits, not a substantive criminal-justice policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

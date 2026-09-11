@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_law_enforcement_funding",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Federal funding for law enforcement (e.g., FBI, DEA, ATF).",
+  "evidence_quote": "(No explicit number provided in the snippet\u2014this is a *category* label from the questionnaire. To classify, we\u2019d need the candidate\u2019s selected #1\u20136 choice for this line item.)",
+  "needs_human_review": true,
+  "review_reason": "The question asks to select a number (1\u20136) for each category, but no specific option is provided here. A full classification would require the candidate\u2019s chosen funding level (e.g., \u2018#3\u2019 = moderate increase vs. baseline)."
+}

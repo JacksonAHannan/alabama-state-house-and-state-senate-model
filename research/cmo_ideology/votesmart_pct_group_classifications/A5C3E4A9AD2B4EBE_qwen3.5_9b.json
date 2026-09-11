@@ -1,0 +1,11 @@
+{
+  "policy_key": "child_care_tax_credit",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Offering tax credits for businesses providing on-site child care is a progressive policy aimed at supporting working families and reducing childcare burdens.",
+  "evidence_quote": "h) Provide tax credits for businesses that offer on-site child care.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

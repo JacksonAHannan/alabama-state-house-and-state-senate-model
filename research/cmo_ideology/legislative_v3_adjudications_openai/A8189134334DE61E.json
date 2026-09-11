@@ -1,0 +1,10 @@
+{
+  "id": "A8189134334DE61E",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "Reallocates hazardous-waste fee revenues and abolishes a research trust; the funding and administrative change does not clearly establish an allowed environmental policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

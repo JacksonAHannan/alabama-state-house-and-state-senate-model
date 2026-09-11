@@ -1,0 +1,11 @@
+{
+  "policy_key": "social_security_private_accounts",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Allowing workers to redirect part of their Social Security payroll taxes into private investment accounts (e.g., Roth IRAs or similar) instead of the traditional trust fund.",
+  "evidence_quote": "*'I support giving Americans the option to divert a portion of their Social Security taxes into personal retirement accounts, so they can grow wealth through private investments while still maintaining a basic safety net for older citizens.'*",
+  "needs_human_review": false,
+  "review_reason": ""
+}

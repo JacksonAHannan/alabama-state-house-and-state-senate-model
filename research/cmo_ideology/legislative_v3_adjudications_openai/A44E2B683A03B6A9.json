@@ -1,0 +1,10 @@
+{
+  "id": "A44E2B683A03B6A9",
+  "decision": "map",
+  "primitive_axis": "education_accountability",
+  "policy_pole": "weaken",
+  "confidence": "medium",
+  "rationale": "Excludes certain transfer students from assessments used to determine school or district grades, reducing the scope of accountability measures.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,33 @@
+{
+  "build_run_id": "RUN-E2FDFA0669F34C03955335EA54632137",
+  "code_commit": "88878b973fdac3cee95a8d8648da321e38e0021c",
+  "configuration": {
+    "skip_warehouse": false,
+    "smoothing_constant": 500.0
+  },
+  "contract_version": 1,
+  "generated_at_utc": "2026-09-04T22:11:31.647596+00:00",
+  "outputs": {
+    "data/processed/war/candidate_resource_harmonized.csv": "54043ef1861037c18e6bec56f23270c0412843033bf8c25a54e8ebc6255c5232",
+    "data/processed/war/dime_alabama_legislative_recipients.csv": "be995a41c148997b99156e4ab5d56c9923488747179185b33f638281f6b6e558",
+    "data/processed/war/dime_candidate_finance_matches.csv": "ee905c36bf58d6b92f22b28cb21c20a8276a2c15c08393d1361050fbb37c230e",
+    "data/processed/war/dime_candidate_finance_review.csv": "6ece165f4f980c49f904f72844554d51618d0c24601db0850b1d2a04099d7402",
+    "data/processed/war/harmonized_finance_coverage.csv": "103a29a3c379ebd88e71ef211a27127f60561af70f34efd134a7d2cc6b159ea1",
+    "data/processed/war/race_resource_features_harmonized.csv": "9ae02cfde17b29483e4eb540570516aa322c04b7a6874c32e6d1a1333af495a0"
+  },
+  "source": {
+    "authoritative_scope": "historical_candidate_receipts_and_identity",
+    "cycle": "1979-2024",
+    "geography_vintage": "not_applicable",
+    "ingest_status": "parsed",
+    "license_or_terms": "ODC-BY 1.0",
+    "media_type": "text/csv",
+    "provider": "DIME",
+    "retrieval_time_status": "unknown_existing_local_artifact",
+    "retrieved_at": null,
+    "sha256": "adc8e06da2b30a6b4e3dd6cd8b3f6e4d09ecf9b5b9294d67ad88f0aae770219e",
+    "source_file_id": "SRC-A6562333E7C7DEB400D1",
+    "source_url": "https://data.stanford.edu/dime",
+    "state_code": "AL"
+  }
+}

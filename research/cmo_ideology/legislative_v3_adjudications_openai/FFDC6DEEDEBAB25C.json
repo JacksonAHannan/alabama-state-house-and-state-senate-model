@@ -1,0 +1,10 @@
+{
+  "id": "FFDC6DEEDEBAB25C",
+  "decision": "map",
+  "primitive_axis": "welfare_conditionality",
+  "policy_pole": "strengthen_conditions",
+  "confidence": "high",
+  "rationale": "Prevents the state from seeking a waiver of federal work requirements for food-assistance recipients.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

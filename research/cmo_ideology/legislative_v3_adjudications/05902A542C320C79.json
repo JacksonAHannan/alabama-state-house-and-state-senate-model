@@ -1,0 +1,10 @@
+{
+  "id": "05902A542C320C79",
+  "decision": "map",
+  "primitive_axis": "incarceration",
+  "policy_pole": "reduce",
+  "confidence": "high",
+  "rationale": "The bill reduces the confinement period for parole violations by crediting time served in holding, effectively lowering incarceration duration.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

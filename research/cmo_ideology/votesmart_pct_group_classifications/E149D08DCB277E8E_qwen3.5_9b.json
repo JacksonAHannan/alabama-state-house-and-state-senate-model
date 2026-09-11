@@ -1,0 +1,11 @@
+{
+  "policy_key": "legislative_priorities_open",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks candidates to state their own priorities without providing a specific policy choice.",
+  "evidence_quote": "On an attached page, disk, or via email, please explain in a total of 75 words or less, your top two or three priorities if elected. If they require additional funding for implementation, please explain how you would obtain this funding.",
+  "needs_human_review": true,
+  "review_reason": "This is an open-ended prompt asking candidates to define their own agenda rather than selecting a predefined policy option with a known ideological direction."
+}

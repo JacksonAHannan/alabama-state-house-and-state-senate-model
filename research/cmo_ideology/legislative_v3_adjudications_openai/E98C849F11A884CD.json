@@ -1,0 +1,10 @@
+{
+  "id": "E98C849F11A884CD",
+  "decision": "map",
+  "primitive_axis": "gun_purchase_regulation",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Increasing the fee for a pistol permit directly strengthens a purchase-related regulatory requirement, regardless of the separate fund-distribution provision.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

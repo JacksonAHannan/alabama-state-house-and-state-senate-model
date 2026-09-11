@@ -1,0 +1,11 @@
+{
+  "policy_key": "defense_troop_readiness",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Maintaining the operational readiness of troops and equipment (e.g., training, maintenance, repairs).",
+  "evidence_quote": "*'Ensure that our military personnel are fully trained and equipped to meet current and emerging threats by prioritizing troop readiness and modernizing defense infrastructure.*'",
+  "needs_human_review": true,
+  "review_reason": "Readiness policies often involve both progressive (equity in veteran care) and conservative (national security priorities) elements, but this option is procedurally neutral. Context matters: e.g., funding cuts could be framed as fiscal conservatism or budgetary austerity."
+}

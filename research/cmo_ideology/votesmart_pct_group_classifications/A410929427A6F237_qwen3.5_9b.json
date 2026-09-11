@@ -1,0 +1,11 @@
+{
+  "policy_key": "ban_unregulated_soft_money",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option calls for banning unregulated soft money contributions to political parties or committees. In the context of U.S. campaign finance reform, restricting 'soft money' (unfederal funds used for party-building activities) is generally viewed as a progressive measure aimed at reducing corporate influence and increasing transparency in elections.",
+  "evidence_quote": "Ban unregulated soft money campaign contributions to political parties or committees.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

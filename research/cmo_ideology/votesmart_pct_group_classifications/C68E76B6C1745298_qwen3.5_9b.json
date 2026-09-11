@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_increase_individual_limits",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Supporting higher limits on individual campaign contributions is generally viewed as a progressive stance that favors greater donor participation over strict spending caps.",
+  "evidence_quote": "c) Support legislation that would increase the federal limits on individual contributions.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "A4626D02A0D445D9",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Codification and corrections measure; technical and not substantive policy evidence.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

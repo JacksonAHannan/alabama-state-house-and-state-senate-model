@@ -1,0 +1,11 @@
+{
+  "policy_key": "cuba_diplomatic_relations",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks whether the U.S. should have full diplomatic relations with Cuba.",
+  "evidence_quote": "Should the U.S. have full diplomatic relations with Cuba?",
+  "needs_human_review": true,
+  "review_reason": "This is a procedural question about restoring normal diplomatic ties rather than an ideological stance on trade or aid principles."
+}

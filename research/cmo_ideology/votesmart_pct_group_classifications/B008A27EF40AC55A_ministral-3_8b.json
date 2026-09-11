@@ -1,0 +1,11 @@
+{
+  "policy_key": "economic_aid_russia",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase economic aid to Russia and former Soviet republics to promote democracy and market reforms.",
+  "evidence_quote": "Economic aid to Russia and the former republics should be increased to facilitate democracy and market reforms.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

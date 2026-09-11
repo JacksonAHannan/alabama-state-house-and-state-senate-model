@@ -1,0 +1,30 @@
+{
+  "primary_domain": "childcare",
+  "policy_key": "childcare_support=expansion",
+  "plain_english_policy": "Increase eligibility for federal welfare funds (TANF) to cover health and childcare benefits for low-income workers, not just the unemployed or non-working poor.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "Directly extends welfare benefits to a broader group (working poor) beyond traditional TANF eligibility."
+    },
+    {
+      "axis": "childcare_delivery",
+      "pole": "family_subsidy",
+      "strength": "primary",
+      "rationale": "Uses subsidies tied to federal funds, not employer mandates or public provision. The wording implies conditional support for families based on income."
+    },
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "Subsidies are targeted at low-income workers but do not explicitly redistribute wealth; they rely on existing welfare funds without progressive tax mechanisms."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"extend health and child care subsidies to the working poor\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

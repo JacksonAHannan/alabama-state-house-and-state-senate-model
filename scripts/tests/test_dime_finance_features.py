@@ -1,7 +1,14 @@
+import hashlib
+import json
+from pathlib import Path
+
 import numpy as np
 import pandas as pd
 
 from build_dime_finance_features import match_candidates, race_features
+
+
+ROOT = Path(__file__).resolve().parents[2]
 
 
 def test_dime_match_uses_district_party_and_surname_for_name_variants():
@@ -28,3 +35,11 @@ def test_unobserved_finance_is_not_converted_to_zero_or_complete():
     assert np.isnan(result.rep_resources)
     assert np.isnan(result.log_resource_ratio_d_to_r)
 
+
+def test_dime_build_manifest_identifies_and_hashes_every_output():
+    manifest=json.loads((ROOT/"data/processed/war/dime_finance_build_manifest.json").read_text())
+    assert manifest["build_run_id"] and manifest["code_commit"]
+    assert manifest["source"]["license_or_terms"]=="ODC-BY 1.0"
+    assert manifest["source"]["retrieval_time_status"]=="unknown_existing_local_artifact"
+    for relative,digest in manifest["outputs"].items():
+        assert hashlib.sha256((ROOT/relative).read_bytes()).hexdigest()==digest

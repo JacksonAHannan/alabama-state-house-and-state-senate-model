@@ -1,0 +1,11 @@
+{
+  "policy_key": "drug_education_treatment_expansion",
+  "dimension": "social_ideology",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Increase federal funding for drug education and treatment programs.",
+  "evidence_quote": "Expand federally sponsored drug education and drug treatment programs.",
+  "needs_human_review": true,
+  "review_reason": "This option is procedurally neutral\u2014it does not inherently lean conservative or progressive, as it focuses on expanding existing systems rather than advocating for specific ideological outcomes (e.g., legalization vs. prohibition). Context matters: Conservative candidates might frame this as a 'tough-on-crime' investment in rehabilitation, while progressives may emphasize harm reduction and access to care."
+}

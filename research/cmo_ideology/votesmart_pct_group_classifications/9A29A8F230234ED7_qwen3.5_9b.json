@@ -1,0 +1,11 @@
+{
+  "policy_key": "defense_sdi_funding",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The Strategic Defense Initiative (SDI) was a proposed missile defense system introduced by President Ronald Reagan in the early 1980s. While often associated with conservative foreign policy goals like nuclear deterrence and technological superiority, its funding implications were highly contentious within both parties at the time.",
+  "evidence_quote": "7) Strategic Defense Initiative (SDI)",
+  "needs_human_review": true,
+  "review_reason": "The SDI option represents a specific historical policy proposal from the Reagan era. Its ideological classification is complex: while it aligned with conservative desires for military strength and technological advancement in defense, it was also criticized by some conservatives as economically wasteful or strategically destabilizing (arms race escalation), and supported by progressives who viewed missile defenses as potentially stabilizing against nuclear blackmail but opposed on other grounds like cost."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "A1DB8EA5D6FDEEF9",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "Regulates technical oil-and-gas well matters, but the description does not establish a clear permitted resource or environmental policy direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

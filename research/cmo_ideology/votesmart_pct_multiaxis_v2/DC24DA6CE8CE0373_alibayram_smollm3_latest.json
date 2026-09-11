@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "child_support",
+  "plain_english_policy": "Child Support Enforcement",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "The policy restricts the ability of parents to obtain state-issued permits and licenses if they are delinquent in paying court-ordered child support."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Deny or suspend state-issued permits and licenses to parents who are delinquent in paying court-ordered child support.\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

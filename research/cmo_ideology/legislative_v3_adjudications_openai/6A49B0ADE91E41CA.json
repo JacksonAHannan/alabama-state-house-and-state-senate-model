@@ -1,0 +1,10 @@
+{
+  "id": "6A49B0ADE91E41CA",
+  "decision": "map",
+  "primitive_axis": "education_teacher_labor",
+  "policy_pole": "support",
+  "confidence": "high",
+  "rationale": "Requiring public schools and colleges to give all professional educators' associations equal access supports teacher-labor organizing and association access.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

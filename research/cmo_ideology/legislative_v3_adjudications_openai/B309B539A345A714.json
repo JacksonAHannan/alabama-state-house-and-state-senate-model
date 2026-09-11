@@ -1,0 +1,10 @@
+{
+  "id": "B309B539A345A714",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "expand",
+  "confidence": "medium",
+  "rationale": "Authorizing a sheriff to sell firearms from abandoned, unclaimed, or stolen property can increase lawful access to firearms, although the measure is limited to surplus-property disposition.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

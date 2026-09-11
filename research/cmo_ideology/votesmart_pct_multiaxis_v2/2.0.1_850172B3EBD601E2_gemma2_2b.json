@@ -1,0 +1,18 @@
+{
+  "primary_domain": "economy",
+  "policy_key": "business_scale_alignment",
+  "plain_english_policy": "Provide increased funding for agricultural and forestry research.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "research is a key factor in economic growth and development."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "increased funding for agricultural and forestry research.",
+  "needs_human_review": false,
+  "review_reason": "This option suggests a policy that would increase investment in research. This is likely to have positive effects on the economy as it could lead to new technologies and innovations."
+}

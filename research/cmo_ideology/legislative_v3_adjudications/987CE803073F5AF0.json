@@ -1,0 +1,10 @@
+{
+  "id": "987CE803073F5AF0",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "Local fee adjustment for pistol permits (DeKalb County) is administrative/technical, not substantive policy.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

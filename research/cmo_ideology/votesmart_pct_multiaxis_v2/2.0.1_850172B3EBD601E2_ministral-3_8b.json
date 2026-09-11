@@ -1,0 +1,36 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "agricultural_and_forestry_research_funding",
+  "plain_english_policy": "Directly increase public investment in scientific study of farming and timber industries, with no explicit constraints on outcomes or private sector involvement.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "resource_development",
+      "pole": "expand",
+      "strength": "secondary",
+      "rationale": "Funding research to improve yields, efficiency, or productivity in farming and forestry inherently supports resource development."
+    },
+    {
+      "axis": "conservation_preservation",
+      "pole": "develop",
+      "strength": "secondary",
+      "rationale": "Research may include techniques for sustainable use rather than strict preservation, but the option does not prioritize protection over productivity."
+    },
+    {
+      "axis": "resource_management",
+      "pole": "active_management",
+      "strength": "primary",
+      "rationale": "Explicit call for research implies proactive intervention in resource systems (e.g., pest control, soil science, timber harvesting methods)."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "primary",
+      "rationale": "Funding is explicitly state-directed; no mention of private partnerships or market-led research."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Provide increased funding for agricultural and forestry research\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

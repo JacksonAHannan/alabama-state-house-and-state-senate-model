@@ -1,0 +1,18 @@
+{
+  "primary_domain": "education",
+  "policy_key": "funding",
+  "plain_english_policy": "increase funding for state education budget",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "expansion of public services"
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Do you support increasing funding for the state education budget?",
+  "needs_human_review": false,
+  "review_reason": "This is a question about whether to increase funding for the state's education budget. This is a policy that would likely have positive effects on public services and education."
+}

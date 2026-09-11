@@ -1,0 +1,36 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "welfare_eligibility_for_savings",
+  "plain_english_policy": "Permit welfare recipients to keep benefits while saving funds for education, entrepreneurship, or homeownership.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "The policy explicitly allows welfare recipients to engage in market-based activities (education, business, homeownership) without penalty, implying a conditional intervention to enable economic mobility."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "The option expands welfare eligibility criteria by permitting recipients to retain benefits while pursuing self-sufficiency pathways (e.g., education, business)."
+    },
+    {
+      "axis": "labor_capital_alignment",
+      "pole": "labor",
+      "strength": "secondary",
+      "rationale": "Empowers labor (recipients) to transition toward capital-creating activities (business ownership, homeownership) without welfare penalties."
+    },
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "Vague but implies a potential regressive effect if savings are taxed or if recipients lack financial literacy to leverage benefits effectively. No explicit redistribution mechanism is stated."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Allow welfare recipients to remain eligible for benefits while saving money for education, starting a business, or buying a home.\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

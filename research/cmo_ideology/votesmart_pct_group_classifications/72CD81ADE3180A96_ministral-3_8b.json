@@ -1,0 +1,11 @@
+{
+  "policy_key": "healthcare_commercial_reform",
+  "dimension": "healthcare_position",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Supporting healthcare expansion via commercial insurance reform (e.g., market-based or private-sector solutions) rather than single-payer or government-run systems.",
+  "evidence_quote": "*[No explicit quote provided in the option text\u2014this is a procedural/neutral framing question without candidate-specific language.]*",
+  "needs_human_review": true,
+  "review_reason": "The option lacks a clear left/right signal; context (e.g., candidate\u2019s past statements) would be required to assign +1/-1."
+}

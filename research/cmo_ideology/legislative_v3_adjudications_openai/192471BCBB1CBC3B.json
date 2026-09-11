@@ -1,0 +1,10 @@
+{
+  "id": "192471BCBB1CBC3B",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Omnibus corrections-capital legislation combines prison construction, renovation, closure, funding, and a required study, producing mixed and insufficiently singular policy direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

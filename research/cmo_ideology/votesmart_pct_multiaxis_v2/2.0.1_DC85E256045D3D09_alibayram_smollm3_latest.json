@@ -1,0 +1,24 @@
+{
+  "primary_domain": "criminal_justice",
+  "policy_key": "family_support_enforcement",
+  "plain_english_policy": "Do you support the enforcement of federal immigration laws by state and local police?",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "criminal_punishment",
+      "pole": "punitive",
+      "strength": "primary",
+      "rationale": "Supporting the enforcement of federal immigration laws by state and local police implies a punitive approach to enforcing these laws."
+    },
+    {
+      "axis": "family_support_enforcement",
+      "pole": "strict_enforcement",
+      "strength": "secondary",
+      "rationale": "Enforcing federal immigration laws would likely involve strict enforcement measures, such as detaining individuals or deporting them."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I support the enforcement of federal immigration laws by state and local police.\" - Candidate's statement on crime & public safety issues in 2018.",
+  "needs_human_review": true,
+  "review_reason": "The policy is described as supporting strict enforcement, which could be seen as punitive."
+}

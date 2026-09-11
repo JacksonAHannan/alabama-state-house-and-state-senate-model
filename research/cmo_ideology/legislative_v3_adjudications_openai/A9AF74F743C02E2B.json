@@ -1,0 +1,10 @@
+{
+  "id": "A9AF74F743C02E2B",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Primarily establishes vehicle titling, lien, recordkeeping, and enforcement systems; the incidental penalties do not provide a sufficiently focused criminal-justice measure.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "54C003623036F929",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The measure primarily revises planning references and creates procurement and contract-review exemptions for a state training institute, making it administrative and text-insufficient for the listed substantive axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

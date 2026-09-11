@@ -1,0 +1,10 @@
+{
+  "id": "0D858D6A1771D155",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The measure combines a restriction on emergency firearm seizure with provisions authorizing disarmament under specified conditions, making its overall direction mixed.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_tech_internet_tax_moratorium",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option calls for maintaining a ban on state taxes applied to internet sales or services.",
+  "evidence_quote": "b) Continue the moratorium on Internet taxation.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

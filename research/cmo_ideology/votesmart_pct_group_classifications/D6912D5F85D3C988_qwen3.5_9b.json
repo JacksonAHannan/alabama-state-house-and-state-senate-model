@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_flat_income_tax",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supports replacing the current progressive US income tax structure with a flat rate system.",
+  "evidence_quote": "Do you support replacing the US income tax structure with a flat income tax?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

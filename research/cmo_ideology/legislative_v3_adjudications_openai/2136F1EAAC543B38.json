@@ -1,0 +1,10 @@
+{
+  "id": "2136F1EAAC543B38",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "A county pistol-permit fee and fund-allocation measure is administrative and does not clearly change gun access or purchase regulation.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

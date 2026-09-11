@@ -1,0 +1,10 @@
+{
+  "id": "FAC44FE2E4516C43",
+  "decision": "map",
+  "primitive_axis": "education_market_choice",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "The Virtual Public Schools Act explicitly expands market choice by allowing local school boards to provide online education alternatives.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "7538E54A27F0AC0D",
+  "decision": "map",
+  "primitive_axis": "education_public_funding",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Establishes an education lottery dedicated to funding scholarships, pre-kindergarten, public-school technology, and the Education Trust Fund.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

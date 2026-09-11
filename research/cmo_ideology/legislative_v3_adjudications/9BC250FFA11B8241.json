@@ -1,0 +1,10 @@
+{
+  "id": "9BC250FFA11B8241",
+  "decision": "map",
+  "primitive_axis": "healthcare_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Preventing conditioning of professional licensing on participation in health insurance plans removes barriers to healthcare providers, indirectly expanding access.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

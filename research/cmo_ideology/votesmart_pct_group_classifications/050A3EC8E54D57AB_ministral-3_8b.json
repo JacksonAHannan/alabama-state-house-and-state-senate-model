@@ -1,0 +1,11 @@
+{
+  "policy_key": "student_debt_forgiveness",
+  "dimension": "education_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Advocacy for canceling or reducing federal student loan debt owed by borrowers.",
+  "evidence_quote": "*[No direct quote provided in the option text, but this position is conventionally classified as follows:]*",
+  "needs_human_review": true,
+  "review_reason": "The question lacks a candidate's explicit statement. A real-world example might read: 'I support canceling up to $10K of federal student debt for low-income borrowers.'"
+}

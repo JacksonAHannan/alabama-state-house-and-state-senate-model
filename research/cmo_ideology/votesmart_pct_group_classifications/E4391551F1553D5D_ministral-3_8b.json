@@ -1,0 +1,11 @@
+{
+  "policy_key": "energy_fracking_regulations",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increased regulations on fracking (hydraulic fracturing) typically imply stricter environmental oversight, reduced industry autonomy, and potential limits on drilling/extraction practices.",
+  "evidence_quote": "(No direct quote provided in the prompt; this is a standard interpretation of the policy option.)",
+  "needs_human_review": true,
+  "review_reason": "The question lacks a candidate's explicit text, so the classification relies on conventional framing. For precise scoring, the exact wording from the questionnaire would be required."
+}

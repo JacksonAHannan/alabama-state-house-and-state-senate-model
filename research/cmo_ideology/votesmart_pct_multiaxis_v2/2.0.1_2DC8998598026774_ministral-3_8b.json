@@ -1,0 +1,24 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "resource_development",
+  "plain_english_policy": "Expand resource development in energy infrastructure (power generation/transmission).",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "resource_development",
+      "pole": "expand",
+      "strength": "primary",
+      "rationale": "Explicitly targets *improvements* to power generation/transmission facilities, implying active expansion of energy infrastructure."
+    },
+    {
+      "axis": "conservation_preservation",
+      "pole": "develop",
+      "strength": "secondary",
+      "rationale": "Development of transmission/generation facilities inherently conflicts with preservationist goals (e.g., land use, ecosystem impact)."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Increase funding for improvements to Alabama's power generating and transmission facilities\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

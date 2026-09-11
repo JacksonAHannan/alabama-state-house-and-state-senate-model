@@ -1,0 +1,11 @@
+{
+  "policy_key": "al_immigration_state_autonomy",
+  "dimension": "immigration_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "medium",
+  "plain_english_policy": "Supporting increased state autonomy in immigration is conventionally associated with progressive or libertarian views that favor local control over federal mandates.",
+  "evidence_quote": "Increase state autonomy in handling immigration issues.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

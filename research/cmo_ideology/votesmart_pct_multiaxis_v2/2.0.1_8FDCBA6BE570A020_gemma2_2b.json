@@ -1,0 +1,18 @@
+{
+  "primary_domain": "business",
+  "policy_key": "market_governance",
+  "plain_english_policy": "limits on the types of contributions to candidates for state government",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "This option restricts the ability of officials to hold additional state jobs. This is a form of market governance intervention."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "Should current elected officials be prohibited from holding additional state jobs?",
+  "needs_human_review": false,
+  "review_reason": "This option is a restriction on the ability of officials to hold additional state jobs. This is a form of market governance intervention."
+}

@@ -21,6 +21,7 @@ ROOT = Path(__file__).resolve().parents[1]
 IDEOLOGY = ROOT / "data" / "processed" / "ideology"
 MANUAL = ROOT / "data" / "manual" / "ideology"
 LEGISLATIVE_EVIDENCE = IDEOLOGY / "candidate_legislative_position_evidence_v3.csv"
+SPONSORSHIP_EVIDENCE = IDEOLOGY / "candidate_legislative_sponsorship_evidence_v3.csv"
 TARGETED_RESEARCH = MANUAL / "candidate_issue_research_findings.csv"
 BALLOTPEDIA_ADJUDICATIONS = MANUAL / "ballotpedia_candidate_position_adjudications.csv"
 BALLOTPEDIA_SCORECARDS = IDEOLOGY / "ballotpedia_candidate_scorecard_ratings.csv"
@@ -127,7 +128,7 @@ def targeted_research_evidence() -> pd.DataFrame:
     records = []
     source_types = {"candidate_public_statement": "public_statement",
                     "legislative_sponsorship": "bill_sponsorship"}
-    weights = {"public_statement": .9, "bill_sponsorship": .85}
+    weights = {"public_statement": .9, "bill_sponsorship": 1.2}
     for row in findings.itertuples(index=False):
         validate_primitive(row.primitive_axis, row.policy_pole)
         family, direction = family_loading(row.primitive_axis, row.policy_pole)
@@ -340,6 +341,8 @@ def main() -> None:
         layers.append(targeted)
     if LEGISLATIVE_EVIDENCE.exists():
         layers.append(pd.read_csv(LEGISLATIVE_EVIDENCE, low_memory=False))
+    if SPONSORSHIP_EVIDENCE.exists():
+        layers.append(pd.read_csv(SPONSORSHIP_EVIDENCE, low_memory=False))
     combined = pd.concat(layers, ignore_index=True, sort=False)
     combined = combined.drop_duplicates("evidence_id", keep="last")
     combined = canonicalize_evidence_identities(combined)

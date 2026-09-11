@@ -1,0 +1,11 @@
+{
+  "policy_key": "affirmative_action_federal_support",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Federal affirmative action programs should be maintained.",
+  "evidence_quote": "The federal government **should continue** affirmative action programs.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

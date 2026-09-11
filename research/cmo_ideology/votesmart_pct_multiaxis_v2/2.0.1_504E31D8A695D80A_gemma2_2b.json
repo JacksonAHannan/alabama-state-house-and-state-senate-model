@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "expansion",
+  "plain_english_policy": "Expansion of welfare policy",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "The question asks if the candidate supports requiring individuals to purchase health care insurance. This implies a policy that expands access to healthcare, which is a welfare policy."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Do you support requiring individuals to purchase health care insurance?",
+  "needs_human_review": false,
+  "review_reason": "The question asks if the candidate supports requiring individuals to purchase health care insurance. This implies a policy that expands access to healthcare, which is a welfare policy."
+}

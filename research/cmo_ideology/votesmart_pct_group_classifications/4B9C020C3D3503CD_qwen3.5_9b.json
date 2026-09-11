@@ -1,0 +1,11 @@
+{
+  "policy_key": "eliminate_fed_ed_standards",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option calls for removing federal oversight of K-12 education standards and testing.",
+  "evidence_quote": "k) Eliminate all federal education standards and testing requirements for K-12 students (No Child Left Behind).",
+  "needs_human_review": false,
+  "review_reason": ""
+}

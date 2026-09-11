@@ -1,0 +1,11 @@
+{
+  "policy_key": "expand_assault_weapon_ban",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option calls for expanding federal restrictions on firearms by including all semi-automatic weapons in an assault weapon ban.",
+  "evidence_quote": "Expand the nationwide ban on the sale or transfer of assault weapons to include all forms of semi-automatic weapons.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

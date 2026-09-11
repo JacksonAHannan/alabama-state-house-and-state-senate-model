@@ -1,0 +1,10 @@
+{
+  "id": "9CE7BE5EE50B96EB",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Specifies a right for nonfelons to possess firearms in motor vehicles, expanding lawful firearm access.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

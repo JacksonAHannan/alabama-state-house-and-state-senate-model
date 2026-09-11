@@ -1,0 +1,18 @@
+{
+  "primary_domain": "government_reform",
+  "policy_key": "budget_stabilization",
+  "plain_english_policy": "Law enforcement/corrections",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "The text does not explicitly state the policy mechanism. It only mentions a preference for budget stabilization, which could be achieved through various means such as reducing spending or raising taxes."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "Law enforcement/corrections",
+  "needs_human_review": false,
+  "review_reason": "The text does not explicitly state the policy mechanism. It only mentions a preference for budget stabilization, which could be achieved through various means such as reducing spending or raising taxes."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "A74211BADAE0AE0A",
+  "decision": "map",
+  "primitive_axis": "police_authority",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "The bill prohibits picketing/protesting in certain circumstances and imposes criminal penalties, expanding police authority to restrict dissent.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

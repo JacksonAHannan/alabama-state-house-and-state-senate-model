@@ -1,0 +1,10 @@
+{
+  "id": "42E0DFC77EA2E26C",
+  "decision": "map",
+  "primitive_axis": "drug_treatment",
+  "policy_pole": "expand",
+  "confidence": "medium",
+  "rationale": "Authorizing the redispensing of unused prescription medication in corrections could indirectly support drug treatment by improving access to medications, though this is not explicitly a direct policy on treatment expansion.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

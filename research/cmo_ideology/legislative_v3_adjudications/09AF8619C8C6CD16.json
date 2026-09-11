@@ -1,0 +1,10 @@
+{
+  "id": "09AF8619C8C6CD16",
+  "decision": "map",
+  "primitive_axis": "environmental_protection",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "The bill requires notice to the State Oil and Gas Supervisor and a fee prior to fracturing (likely hydraulic fracturing), which imposes additional regulatory requirements on oil/gas operations. This clearly strengthens environmental protection by adding procedural safeguards.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

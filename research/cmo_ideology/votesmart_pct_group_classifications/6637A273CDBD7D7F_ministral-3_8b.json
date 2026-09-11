@@ -1,0 +1,11 @@
+{
+  "policy_key": "wto_support",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Position on the World Trade Organization (WTO) as a global trade governance body.",
+  "evidence_quote": "*[No direct quote provided in your input, but conventionally:]*",
+  "needs_human_review": true,
+  "review_reason": "The option is a yes/no question about WTO support. To assign +1/-1/0, I would need the candidate\u2019s *verbatim* response (e.g., 'Yes' or 'No') and context (e.g., whether they framed it as pro-free-trade, protectionist, or neutral). Without this, I cannot infer intent."
+}

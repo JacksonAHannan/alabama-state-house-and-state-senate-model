@@ -1,0 +1,24 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "resource_development",
+  "plain_english_policy": "State Funding for Energy Infrastructure Improvements",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "primary",
+      "rationale": "The policy involves state funding which implies some level of government intervention in the energy sector."
+    },
+    {
+      "axis": "resource_development",
+      "pole": "expand",
+      "strength": "primary",
+      "rationale": "State funding for infrastructure improvements is likely to lead to expansion and modernization of Alabama's energy resources, enhancing their efficiency and sustainability."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"I believe that investing in our state's energy infrastructure will not only create jobs but also ensure a reliable and sustainable energy future for Alabama.\" - Candidate statement on the topic.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

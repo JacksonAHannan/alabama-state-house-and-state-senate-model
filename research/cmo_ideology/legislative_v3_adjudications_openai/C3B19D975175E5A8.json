@@ -1,0 +1,10 @@
+{
+  "id": "C3B19D975175E5A8",
+  "decision": "map",
+  "primitive_axis": "police_authority",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Authorizes community-corrections personnel to exercise peace-officer powers and make arrests, directly expanding arrest and law-enforcement authority.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "4717C20BD30A01FE",
+  "decision": "map",
+  "primitive_axis": "healthcare_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "The bill establishes a PACE program for Class 2 municipalities (Mobile) and uses assessments for the Alabama Health Care Trust Fund to fund Medicaid, which expands access to healthcare services for elderly populations through inclusive care models.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

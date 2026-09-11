@@ -1,0 +1,11 @@
+{
+  "policy_key": "pollution_credits_international",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The option supports international pollution credit trading to reduce emissions.",
+  "evidence_quote": "Promote the selling of pollution credits between nations to encourage industries to decrease pollution levels.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "north_korean_nuclear_weapons",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Use of military force to destroy North Korea's nuclear weapons program.",
+  "evidence_quote": "Should the United States use military force to destroy the North Korean nuclear weapons program?",
+  "needs_human_review": true,
+  "review_reason": "This is a standalone question without context on whether the candidate supports or opposes it. It could be interpreted as either a direct endorsement of military action (conservative-leaning) or a rhetorical prompt to discuss alternatives (progressive-leaning)."
+}

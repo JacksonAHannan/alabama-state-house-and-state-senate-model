@@ -1,0 +1,11 @@
+{
+  "policy_key": "defense_spending_other",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Vague or unspecified defense spending category (no clear left/right leaning).",
+  "evidence_quote": "*9) Other* [No specific funding change described\u2014blank or placeholder for custom entry.]",
+  "needs_human_review": true,
+  "review_reason": "Lacks concrete policy text to classify; context-dependent."
+}

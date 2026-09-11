@@ -1,0 +1,10 @@
+{
+  "id": "79EC9F520D154F36",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Creates an advisory process to study and develop possible electronic overseas voting rather than establishing a definite voting-access or integrity policy.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

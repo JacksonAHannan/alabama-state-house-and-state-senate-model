@@ -1,0 +1,11 @@
+{
+  "policy_key": "arts_funding",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Federal funding for arts programs (e.g., National Endowment for the Arts).",
+  "evidence_quote": "(No explicit scoreable position provided in this standalone option; it is a procedural selection prompt.)",
+  "needs_human_review": true,
+  "review_reason": "The question asks for a *selection* of funding levels (not a stated policy stance), and arts funding is often context-dependent (e.g., bipartisan support in some eras, symbolic cuts in others)."
+}

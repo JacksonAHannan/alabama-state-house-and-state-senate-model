@@ -1,0 +1,11 @@
+{
+  "policy_key": "social_security_tax_cut",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Use Social Security trust fund surpluses to offset tax cuts, implying a commitment to reducing taxes while preserving short-term revenue from existing payroll contributions.",
+  "evidence_quote": "Would you cut taxes and use Social Security surpluses to supplement the difference?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

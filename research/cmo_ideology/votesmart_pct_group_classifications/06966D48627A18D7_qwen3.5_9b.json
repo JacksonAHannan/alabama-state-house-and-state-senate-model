@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_environment_domestic_oil_exploration",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting domestic oil exploration in restricted areas is conventionally associated with progressive environmental policy positions that prioritize energy independence and economic growth over strict conservation.",
+  "evidence_quote": "f) Support domestic oil exploration in areas that are currently restricted.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

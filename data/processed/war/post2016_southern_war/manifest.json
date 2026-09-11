@@ -1,0 +1,114 @@
+{
+  "code_sha256": "ead76fb849c93043d380cff7d2a14eb2a7bca31944134af207acf7002d2e075d",
+  "configuration": {
+    "cutoff_rule": "cycle > 2016",
+    "finance_included": false,
+    "generic_incumbency_margin": 3.0,
+    "minimum_replacement_group": 3,
+    "quality_penalties": [
+      1.0,
+      3.0,
+      10.0,
+      30.0,
+      100.0
+    ],
+    "selected_penalty": 1.0,
+    "training_status": "strict_war_ready_no_finance"
+  },
+  "diagnostics": {
+    "candidate_effects": 5869,
+    "candidate_rows": 7316,
+    "cycles": [
+      2018,
+      2019,
+      2020,
+      2022,
+      2023,
+      2024
+    ],
+    "intrinsic_residual_sigma": 5.419063213567707,
+    "repeat_candidates": 1078,
+    "residual_sigma": 5.605413174166315,
+    "selected_penalty": 1.0,
+    "states": 14,
+    "training_rows": 3658
+  },
+  "generated_at_utc": "2026-09-01T00:38:47.722544+00:00",
+  "input_database": {
+    "bytes": 1471197184,
+    "path": "data/processed/elections/alabama_elections.sqlite",
+    "sha256": "5e961a5681ce9dc190f1b28ce977f1c35e679e9b1829d1876ce06adcb7825b01"
+  },
+  "methodology_version": "post2016_southern_war_v1",
+  "model_run_id": "WAR-POST2016-3E87657081BBBCB16754",
+  "outputs": [
+    {
+      "path": "data/processed/war/post2016_southern_war/races.csv",
+      "rows": 3658,
+      "sha256": "cedf51cf460a204a5ce79641b34172bf922d0cad588ec92335601cc02f93fe45"
+    },
+    {
+      "path": "data/processed/war/post2016_southern_war/candidate_cycles.csv",
+      "rows": 7316,
+      "sha256": "62401cd16bd0a8d5f62b489e03f46cdd9e782ea5f402f647183e168fa215629c"
+    },
+    {
+      "path": "data/processed/war/post2016_southern_war/candidate_effects.csv",
+      "rows": 5869,
+      "sha256": "adc766d7a17f115cc097c3a0bc748407e10b547b6420c719176cc89649f31a69"
+    },
+    {
+      "path": "data/processed/war/post2016_southern_war/forward_predictions.csv",
+      "rows": 13165,
+      "sha256": "d6c888b01ceedbe14f9daa3553d00d21e79252c824465dd928388ab8085ab609"
+    },
+    {
+      "path": "data/processed/war/post2016_southern_war/forward_metrics.csv",
+      "rows": 55,
+      "sha256": "b131b0743a857e5a3b33ecfe4c7fd07c5189496987833451a0f6b584c6d02d50"
+    },
+    {
+      "path": "data/processed/war/post2016_southern_war/coverage.csv",
+      "rows": 94,
+      "sha256": "a2b6fe7be7904ba899ab066eebd74731eb716ddd77df4899ba32482c61f278dc"
+    }
+  ],
+  "reports": [
+    {
+      "path": "project_docs/model/POST2016_SOUTHERN_WAR.md",
+      "sha256": "f89bab6d045657c6d9ccc5da5b67af2a44fb98cab63292ca4fe5878cc5191013"
+    },
+    {
+      "path": "project_docs/audits/POST2016_SOUTHERN_WAR_VALIDATION.md",
+      "sha256": "781dbf53b4df25861d200445cdb6f9861aff83ce09a966a8cd2a3bfb8c7a752b"
+    }
+  ],
+  "schema_version": 1,
+  "source_commit": "569b019fecb7786a1c824fcc81490202e39cc4bc",
+  "status": "validated_research_candidate",
+  "warehouse_build_run_id": "RUN-7EACF4A3805E4328A3DE0A361051AF35",
+  "warehouse_code_commit": "569b019fecb7786a1c824fcc81490202e39cc4bc",
+  "warehouse_sha256": "5e961a5681ce9dc190f1b28ce977f1c35e679e9b1829d1876ce06adcb7825b01",
+  "warehouse_validation": {
+    "alabama_2026_incumbency_rows": 140,
+    "alabama_2026_incumbents_running": 122,
+    "alabama_2026_open_seats": 18,
+    "alabama_2026_workbook_supported_corrections": 1,
+    "context_feature_rows": 8085,
+    "finance_included": true,
+    "foreign_key_violations": 0,
+    "missing_baseline": 0,
+    "missing_context": 0,
+    "missing_incumbency": 0,
+    "missing_scheduled_state_cycle_chambers": [],
+    "model_valid_outcomes": 4582,
+    "research_ready_no_finance": 304,
+    "research_ready_with_finance": 227,
+    "scheduled_state_cycle_chambers_expected": 116,
+    "scheduled_state_cycle_chambers_observed": 116,
+    "strict_ready_no_finance": 4278,
+    "strict_ready_with_finance": 3208,
+    "unscheduled_model_outcome_slices": [],
+    "war_ready_finance_unobserved": 1147
+  }
+}

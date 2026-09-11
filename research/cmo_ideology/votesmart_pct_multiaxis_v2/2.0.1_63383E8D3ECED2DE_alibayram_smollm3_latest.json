@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "childcare_delivery",
+  "plain_english_policy": "Provide tax incentives to businesses that hire welfare recipients.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "By incentivizing businesses to hire welfare recipients, the policy aims to expand employment opportunities and reduce reliance on government assistance."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Provide tax incentives to businesses that hire welfare recipients.\" - Source: Year: 1998, Section: Welfare, Question: Indicate which principles you support (if any) regarding welfare. Option: d)",
+  "needs_human_review": true,
+  "review_reason": "invalid pole 'small_business' for market_governance"
+}

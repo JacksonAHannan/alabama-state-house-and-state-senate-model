@@ -1,0 +1,10 @@
+{
+  "id": "3F9B6DB9C4F25645",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Regulates HVAC contractors through testing, licensing, fees, training, and renewal provisions; it is technical and unrelated to the allowed education policy axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "immigration_social_program_access",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Allowing legal immigrants to access social programs like food stamps and public housing is a progressive policy stance.",
+  "evidence_quote": "Relax restrictions barring legal immigrants from using social programs (e.g. public housing, food stamps).",
+  "needs_human_review": false,
+  "review_reason": ""
+}

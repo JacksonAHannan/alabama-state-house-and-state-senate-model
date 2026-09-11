@@ -1,0 +1,18 @@
+{
+  "primary_domain": "taxation",
+  "policy_key": "tax_distribution",
+  "plain_english_policy": "State Taxes: Indicate the tax levels (#1-6) you will support.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "Fee increases are a regressive form of taxation as they disproportionately affect lower-income individuals and families."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Fee increases should be used to balance the state budget.\" - Candidate's statement on tax policy.",
+  "needs_human_review": true,
+  "review_reason": "The candidate's stance is not clearly defined in terms of specific tax levels or types."
+}

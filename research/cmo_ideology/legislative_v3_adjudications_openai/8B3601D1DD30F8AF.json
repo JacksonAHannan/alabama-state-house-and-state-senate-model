@@ -1,0 +1,10 @@
+{
+  "id": "8B3601D1DD30F8AF",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The amendment concerns liability protection for counties, community corrections agencies, and employees, but the provided text does not clearly map to one allowed criminal-justice axis and pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

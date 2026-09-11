@@ -1,0 +1,11 @@
+{
+  "policy_key": "line_item_veto",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Allowing the president to veto specific parts of a bill (line-item veto) is generally viewed as an expansion of executive power over Congress's spending authority. In conventional American political discourse, limiting presidential power and strengthening congressional control over appropriations are associated with progressive or liberal positions that favor checks on executive overreach.",
+  "evidence_quote": "Should the President be allowed to veto certain items of legislation while signing spending or tax bills into law?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

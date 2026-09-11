@@ -1,0 +1,10 @@
+{
+  "id": "D1C907B4ABE8AE80",
+  "decision": "map",
+  "primitive_axis": "healthcare_regulation_patient_rights",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Prohibiting enforcement of contractual limits on sharing healthcare cost information strengthens patients' access to information.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

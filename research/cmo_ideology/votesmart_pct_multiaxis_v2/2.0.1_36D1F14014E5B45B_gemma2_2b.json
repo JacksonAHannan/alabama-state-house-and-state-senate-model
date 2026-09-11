@@ -1,0 +1,24 @@
+{
+  "primary_domain": "business",
+  "policy_key": "resource_development",
+  "plain_english_policy": "Support for incentivizing the production of biofuels from agricultural crops.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "business_scale_alignment",
+      "pole": "small_business",
+      "strength": "primary",
+      "rationale": "The policy directly incentivizes small-scale farms to engage in biofuel production."
+    },
+    {
+      "axis": "resource_development",
+      "pole": "expand",
+      "strength": "primary",
+      "rationale": "The policy aims to expand the production of biofuels, which is a form of resource development."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Do you support providing financial incentives to farms that produce biofuel crops?",
+  "needs_human_review": false,
+  "review_reason": "The policy directly incentivizes the production of biofuels from agricultural crops."
+}

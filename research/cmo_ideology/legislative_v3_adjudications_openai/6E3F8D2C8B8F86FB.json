@@ -1,0 +1,10 @@
+{
+  "id": "6E3F8D2C8B8F86FB",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns municipal rehiring procedures and ethics-law administration, not any allowed ethics-government policy axis.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

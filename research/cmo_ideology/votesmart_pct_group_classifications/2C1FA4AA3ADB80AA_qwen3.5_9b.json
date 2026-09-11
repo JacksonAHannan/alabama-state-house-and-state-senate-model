@@ -1,0 +1,11 @@
+{
+  "policy_key": "third_party_ads_prohibition",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "This option proposes a procedural restriction on third-party advertising near election dates. Such regulations are often viewed as mixed or context-dependent because they can be seen by some conservatives as protecting free speech and the integrity of elections, while others view them as progressive measures to limit outside influence; however, the core mechanism is administrative rather than ideologically driven.",
+  "evidence_quote": "Support prohibiting ads containing candidates' name that are paid for by third parties from airing 60 days before a primary and 30 days before a general federal election.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

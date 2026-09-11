@@ -1,0 +1,11 @@
+{
+  "policy_key": "youth_murder_prosecution",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Treat minors accused of murder as adults in the legal system.",
+  "evidence_quote": "Prosecute youths accused of murder as adults.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

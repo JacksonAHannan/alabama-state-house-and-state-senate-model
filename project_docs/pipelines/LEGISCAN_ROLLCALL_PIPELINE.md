@@ -1,5 +1,10 @@
 # Alabama roll-call and ideology pipeline
 
+This is component documentation, not a complete product rebuild or a new model
+proposal. Use the [current product routes](../CANONICAL_PIPELINES.md) and
+[post-repair coverage audit](../audits/LEGISLATIVE_IDEOLOGY_POST_REPAIR_COVERAGE.md)
+to identify the accepted consumers, evidence windows and outstanding gaps.
+
 ## Source policy
 
 LegiScan API JSON session archives are the structured ingestion source. ALISON,
@@ -34,8 +39,8 @@ identifier after reconciliation.
 
 ## Building ideological measures
 
-The first model should estimate chamber-specific latent ideal points from
-substantive, contested Yea/Nay votes. Exclude attendance states, voice votes,
+The accepted component's eligibility contract governs which substantive,
+contested Yea/Nay votes enter analysis. Exclude attendance states, voice votes,
 purely ceremonial measures, and near-unanimous votes that provide negligible
 ideological information. Keep the exclusion rules and sensitivity thresholds
 versioned rather than hand-selecting bills based on outcomes.
@@ -59,9 +64,9 @@ The implemented first-pass ideal point is a descriptive one-dimensional PCA of
 centered votes within each chamber and two-year election cycle. It includes only
 HB/SB roll calls with at least two members and 2.5% of recorded Yea/Nay votes on
 the minority side, and requires 20 observed votes per legislator. This is a
-useful exploratory ordering, but it should be called a chamber-cycle voting
-score—not DW-NOMINATE—until a probabilistic item-response model, uncertainty,
-session linking, and stability validation are complete.
+useful exploratory ordering and must be called a chamber-cycle voting score,
+not DW-NOMINATE. Document uncertainty, comparison limits and stability; a new
+probabilistic estimator is not automatically required to complete this project.
 
 Roll calls whose reported aggregate total does not equal the parsed individual
 vote count are quarantined from scoring pending ALISON review.
@@ -69,8 +74,9 @@ vote count are quarantined from scoring pending ALISON review.
 For electoral modeling, join only measures observed before that election's
 cutoff date. First-term challengers have no legislative score and require an
 explicit missingness indicator; they must not be assigned a caucus-average
-score silently. Test these features out of sample against candidate margin
-overperformance, retaining them only if forward-cycle validation improves.
+score silently. Descriptive evidence eligibility is not decided by whether it
+improves an election forecast. Any proposed forecast-feature use is separate
+work requiring explicit scope and the forecast's forward-validation gates.
 
 ## Issue-position matrix integration
 

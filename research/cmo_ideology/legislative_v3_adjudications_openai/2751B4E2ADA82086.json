@@ -1,0 +1,10 @@
+{
+  "id": "2751B4E2ADA82086",
+  "decision": "map",
+  "primitive_axis": "education_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Delegating medical procedures and training school personnel for student medical needs expands access to care during the school day.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

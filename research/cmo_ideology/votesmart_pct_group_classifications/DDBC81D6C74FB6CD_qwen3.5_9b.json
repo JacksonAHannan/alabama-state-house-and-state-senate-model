@@ -1,0 +1,11 @@
+{
+  "policy_key": "social_security_private_accounts",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option proposes shifting Social Security funding from a government-managed system to private investment accounts. This is conventionally associated with progressive economic reform agendas that seek to increase individual choice and market-based solutions within the social safety net.",
+  "evidence_quote": "b) Allow workers to invest a portion of their payroll tax in private accounts managed by private firms contracted by the government.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "un_payment_obligation",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "The U.S. should fulfill its financial obligations to the United Nations.",
+  "evidence_quote": "The US should pay the money it owes to the United Nations.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

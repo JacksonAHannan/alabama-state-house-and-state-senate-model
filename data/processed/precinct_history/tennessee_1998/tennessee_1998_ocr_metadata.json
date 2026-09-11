@@ -1,0 +1,15 @@
+{
+  "source_hashes": {
+    "house": "10c5f8bff7ef50d1b85f70d0d44727b7aa70a204f4456120dca0cf275763ab02",
+    "senate": "ba3b1886104d5abc61f5be918915891fab7f773f1567be47681bee610f806559",
+    "governor": "9b5465c51b4ce706e278715e82d5f6301a1c391b52d99a4b9d0ad969970a83db"
+  },
+  "zoom": 2.0,
+  "workers": 3,
+  "pages": {
+    "house": 65,
+    "senate": 29,
+    "governor": 48
+  },
+  "tokens": 47212
+}

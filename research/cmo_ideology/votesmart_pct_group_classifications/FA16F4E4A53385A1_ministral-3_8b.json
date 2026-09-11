@@ -1,0 +1,11 @@
+{
+  "policy_key": "foreign_aid_security_interests_only",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Foreign aid should be tied exclusively to U.S. security interests, with no other conditions or principles applied.",
+  "evidence_quote": "Foreign aid should be given to countries only when it is in the **security interests of the United States**.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

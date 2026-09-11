@@ -1,0 +1,11 @@
+{
+  "policy_key": "redistricting_commission",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting an independent or bipartisan commission for redistricting is conventionally progressive, as it aims to reduce partisan gerrymandering and increase fairness in electoral representation.",
+  "evidence_quote": "Do you support the use of an independent AND/OR bipartisan commission for redistricting?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

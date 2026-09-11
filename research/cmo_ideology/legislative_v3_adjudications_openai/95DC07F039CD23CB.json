@@ -1,0 +1,10 @@
+{
+  "id": "95DC07F039CD23CB",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "A payment grace period for inmate fines is an administrative adjustment and does not clearly correspond to an allowed criminal-justice pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

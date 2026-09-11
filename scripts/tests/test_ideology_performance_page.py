@@ -16,6 +16,19 @@ PROGRESSIVE = "Progressive-modern Democrats"
 GROUPS = {TRADITIONALIST, BRIDGE, PROGRESSIVE}
 
 
+def test_inventory_cards_do_not_claim_displayed_sample_coverage(monkeypatch):
+    from bs4 import BeautifulSoup
+    from scripts import build_democratic_transition_page_v2 as renderer
+
+    monkeypatch.setattr(renderer, "payload", lambda: {})
+    soup = BeautifulSoup(renderer.build(), "html.parser")
+    assert soup.select_one("#sourceGrid")["aria-describedby"] == "sourceScope"
+    explanation = soup.select_one("#sourceScope").get_text(" ", strip=True)
+    assert "including both parties" in explanation
+    assert "outside the displayed Democratic 1998–2022 sample" in explanation
+    assert "not counts of eligible evidence" in explanation
+
+
 def test_payload_uses_current_three_group_contract() -> None:
     data = payload()
     current = pd.read_csv(

@@ -1,0 +1,10 @@
+{
+  "id": "54D57A14E019D632",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Authorizes Department of Corrections expenditures for its mission without specifying a concrete change in punishment, incarceration, due process, or treatment policy.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

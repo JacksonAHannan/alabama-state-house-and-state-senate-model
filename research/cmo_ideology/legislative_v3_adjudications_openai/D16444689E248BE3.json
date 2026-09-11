@@ -1,0 +1,10 @@
+{
+  "id": "D16444689E248BE3",
+  "decision": "map",
+  "primitive_axis": "environmental_protection",
+  "policy_pole": "weaken",
+  "confidence": "medium",
+  "rationale": "Exempts certain local solid-waste approvals from consideration of specified geological, environmental, design, scientific, or engineering standards and limits state-level disapproval effects.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

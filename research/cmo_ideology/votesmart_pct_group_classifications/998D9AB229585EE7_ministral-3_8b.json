@@ -1,0 +1,11 @@
+{
+  "policy_key": "foreign_aid_levels",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Neutral stance on foreign aid funding levels, without explicit ideological lean.",
+  "evidence_quote": "Foreign aid should be maintained at current levels.",
+  "needs_human_review": true,
+  "review_reason": "Lacks clear left/right framing; could reflect procedural pragmatism or mixed views."
+}

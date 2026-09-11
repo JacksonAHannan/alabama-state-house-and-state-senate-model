@@ -1,0 +1,24 @@
+{
+  "primary_domain": "education",
+  "policy_key": "education_governance",
+  "plain_english_policy": "support_national_education_standards",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "National education standards imply some level of government intervention in the educational system."
+    },
+    {
+      "axis": "education_governance",
+      "pole": "public_system",
+      "strength": "primary",
+      "rationale": "Supporting national education standards suggests a preference for public governance over market choice in education."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I support the idea of national education standards to ensure that all students across the country receive an equal and high-quality education.\" - [Source: Candidate's Statement on Education Issues, Year: 2010]",
+  "needs_human_review": true,
+  "review_reason": "The policy is described as supporting national education standards which implies a level of government intervention in educational governance."
+}

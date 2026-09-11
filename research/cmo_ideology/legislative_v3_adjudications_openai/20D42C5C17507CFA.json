@@ -1,0 +1,10 @@
+{
+  "id": "20D42C5C17507CFA",
+  "decision": "map",
+  "primitive_axis": "market_governance",
+  "policy_pole": "market_autonomy",
+  "confidence": "high",
+  "rationale": "Exempts rental and leasing services from obtaining a separate business license in every municipality where equipment is rented or leased, reducing local regulatory barriers.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

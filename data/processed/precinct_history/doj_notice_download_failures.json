@@ -1,0 +1,100 @@
+[
+  {
+    "notice_date": "2010-05-10",
+    "source_url": "https://www.justice.gov/crt/about/vot/notices/vnote051010.php",
+    "source_format": "html",
+    "notice_id": "DOJNOTICE-476D7300AAFA628FBC14",
+    "error": "HTTPError('404 Client Error: Not Found for url: https://www.justice.gov/crt/about/vot/notices/vnote051010.php')"
+  },
+  {
+    "notice_date": "2010-05-03",
+    "source_url": "https://www.justice.gov/crt/about/vot/notices/vnote050310.php",
+    "source_format": "html",
+    "notice_id": "DOJNOTICE-E1232757514D44413248",
+    "error": "HTTPError('404 Client Error: Not Found for url: https://www.justice.gov/crt/about/vot/notices/vnote050310.php')"
+  },
+  {
+    "notice_date": "2010-04-19",
+    "source_url": "https://www.justice.gov/crt/about/vot/notices/vnote041910.php",
+    "source_format": "html",
+    "notice_id": "DOJNOTICE-3E8E939A473FA08C5350",
+    "error": "HTTPError('404 Client Error: Not Found for url: https://www.justice.gov/crt/about/vot/notices/vnote041910.php')"
+  },
+  {
+    "notice_date": "2010-04-05",
+    "source_url": "https://www.justice.gov/crt/about/vot/notices/vnote040510.php",
+    "source_format": "html",
+    "notice_id": "DOJNOTICE-5CC427FEF5262892433E",
+    "error": "HTTPError('404 Client Error: Not Found for url: https://www.justice.gov/crt/about/vot/notices/vnote040510.php')"
+  },
+  {
+    "notice_date": "2010-02-01",
+    "source_url": "https://www.justice.gov/crt/about/vot/notices/vnote020110.pdf",
+    "source_format": "html",
+    "notice_id": "DOJNOTICE-5EA6E55BDA1C4DA47A4F",
+    "error": "HTTPError('404 Client Error: Not Found for url: https://www.justice.gov/crt/about/vot/notices/vnote020110.pdf')"
+  },
+  {
+    "notice_date": "2009-12-28",
+    "source_url": "https://www.justice.gov/crt/about/vot/notices/vnote122809.php",
+    "source_format": "html",
+    "notice_id": "DOJNOTICE-0FDD1D8F158D2DEA15DE",
+    "error": "HTTPError('404 Client Error: Not Found for url: https://www.justice.gov/crt/about/vot/notices/vnote122809.php')"
+  },
+  {
+    "notice_date": "2009-08-24",
+    "source_url": "https://www.justice.gov/crt/about/vot/notices/vnote082409.php",
+    "source_format": "html",
+    "notice_id": "DOJNOTICE-034A50D012566A1261C6",
+    "error": "HTTPError('404 Client Error: Not Found for url: https://www.justice.gov/crt/about/vot/notices/vnote082409.php')"
+  },
+  {
+    "notice_date": "2009-07-07",
+    "source_url": "https://www.justice.gov/crt/about/vot/notices/vnote070709.php",
+    "source_format": "html",
+    "notice_id": "DOJNOTICE-D3E260738A138D9394E1",
+    "error": "HTTPError('404 Client Error: Not Found for url: https://www.justice.gov/crt/about/vot/notices/vnote070709.php')"
+  },
+  {
+    "notice_date": "2009-04-06",
+    "source_url": "https://www.justice.gov/crt/about/vot/notices/vnote040609.php",
+    "source_format": "html",
+    "notice_id": "DOJNOTICE-8CD9CDCC31A8E63016A5",
+    "error": "HTTPError('404 Client Error: Not Found for url: https://www.justice.gov/crt/about/vot/notices/vnote040609.php')"
+  },
+  {
+    "notice_date": "2009-03-09",
+    "source_url": "https://www.justice.gov/crt/about/vot/notices/vnote030909.php",
+    "source_format": "html",
+    "notice_id": "DOJNOTICE-F4D7827067DC742F004E",
+    "error": "HTTPError('404 Client Error: Not Found for url: https://www.justice.gov/crt/about/vot/notices/vnote030909.php')"
+  },
+  {
+    "notice_date": "2007-08-21",
+    "source_url": "https://www.justice.gov/crt/about/vot/notices/vnote082107.php",
+    "source_format": "html",
+    "notice_id": "DOJNOTICE-25E5BBE05EDF2ACE6F28",
+    "error": "HTTPError('404 Client Error: Not Found for url: https://www.justice.gov/crt/about/vot/notices/vnote082107.php')"
+  },
+  {
+    "notice_date": "2001-11-02",
+    "source_url": "https://www.justice.gov/crt/about/vot/notices/vnote110201.php",
+    "source_format": "html",
+    "notice_id": "DOJNOTICE-E17BBF9826740BA09761",
+    "error": "HTTPError('404 Client Error: Not Found for url: https://www.justice.gov/crt/about/vot/notices/vnote110201.php')"
+  },
+  {
+    "notice_date": "2001-08-17",
+    "source_url": "https://www.justice.gov/crt/about/vot/notices/vnote081601.php",
+    "source_format": "html",
+    "notice_id": "DOJNOTICE-C841C93DFA5CD0A31932",
+    "error": "HTTPError('404 Client Error: Not Found for url: https://www.justice.gov/crt/about/vot/notices/vnote081601.php')"
+  },
+  {
+    "notice_date": "1999-03-05",
+    "source_url": "https://www.justice.gov/crt/about/vot/notices/vnote0305.php",
+    "source_format": "html",
+    "notice_id": "DOJNOTICE-CB9DCBA53671B4CD9AB1",
+    "error": "HTTPError('404 Client Error: Not Found for url: https://www.justice.gov/crt/about/vot/notices/vnote0305.php')"
+  }
+]

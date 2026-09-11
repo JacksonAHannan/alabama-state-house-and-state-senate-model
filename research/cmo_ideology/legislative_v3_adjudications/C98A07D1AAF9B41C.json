@@ -1,0 +1,10 @@
+{
+  "id": "C98A07D1AAF9B41C",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Duplicate of FE41602A79397C1E; lacks clear policy direction on healthcare access/restriction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

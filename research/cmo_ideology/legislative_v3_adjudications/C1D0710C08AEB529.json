@@ -1,0 +1,10 @@
+{
+  "id": "C1D0710C08AEB529",
+  "decision": "map",
+  "primitive_axis": "campaign_finance_disclosure",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Increasing the frequency of campaign finance disclosure reports and requiring electronic filing strengthens transparency in campaign finance.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

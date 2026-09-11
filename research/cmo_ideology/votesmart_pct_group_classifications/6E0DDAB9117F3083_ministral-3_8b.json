@@ -1,0 +1,11 @@
+{
+  "policy_key": "corporate_issue_advocacy_pre_election",
+  "dimension": "government_reform_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Permits corporations, unions, and nonprofits to run election-year ads on policy issues (not direct candidate support) during the final 60 days before a general election or 30 days before a primary.",
+  "evidence_quote": "Allow issue advocacy commercials by corporations, labor unions, and non-profit groups which appear within 60 days of a general election and within 30 days of a primary election.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

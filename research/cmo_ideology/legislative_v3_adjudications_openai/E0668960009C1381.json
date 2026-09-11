@@ -1,0 +1,10 @@
+{
+  "id": "E0668960009C1381",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Changes reimbursement obligations for public-safety employee training and uniforms, without addressing an allowed criminal-justice policy axis.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,14 @@
+{
+  "backup": "data/processed/elections/backups/pre-southern-outcome-rebuild-2026-09-08.sqlite",
+  "size_bytes": 5799325696,
+  "quick_check": [
+    "ok"
+  ],
+  "latest_run": "RUN-4C2EF8D12CC442D99A516E0D393DE157",
+  "backup_latest_run": "RUN-4C2EF8D12CC442D99A516E0D393DE157",
+  "mart_counts_before": {
+    "mart_southern_war_outcome": 4582,
+    "mart_southern_war_context_feature": 8085,
+    "mart_alabama_2026_incumbency_roster": 140
+  }
+}

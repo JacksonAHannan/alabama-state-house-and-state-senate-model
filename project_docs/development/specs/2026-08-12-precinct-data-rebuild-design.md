@@ -1,5 +1,7 @@
 # Precinct data rebuild: OpenElections as the canonical vote source
 
+> **Historical proposal — not an active execution plan.** Retained as a dated design/implementation record. Do not execute its embedded instructions or treat unchecked steps as the current backlog. Use [current product routes](../../CANONICAL_PIPELINES.md) and the [internal phased checklist](../../PROJECT_COMPLETION_CHECKLIST.html); source authority, warehouse lifecycle and acceptance gates may have changed since this proposal.
+
 ## Problem
 
 The WAR model's precinct-level vote data is currently assembled from a

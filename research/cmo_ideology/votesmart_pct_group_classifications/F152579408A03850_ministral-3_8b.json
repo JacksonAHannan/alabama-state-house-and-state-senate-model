@@ -1,0 +1,11 @@
+{
+  "policy_key": "immigration_citizenship_requirements",
+  "dimension": "immigration_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Reduce barriers to naturalization for immigrants.",
+  "evidence_quote": "Ease citizenship requirements in order to make it easier for immigrants to become United States citizens.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

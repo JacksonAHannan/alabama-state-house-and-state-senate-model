@@ -1,0 +1,11 @@
+{
+  "policy_key": "iraq_un_resolutions",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option advocates for unilateral U.S. military intervention in Iraq contingent on non-compliance with UN resolutions.",
+  "evidence_quote": "b) The U.S. should take unilateral military action if Iraq does not comply with all accepted United Nations resolutions.",
+  "needs_human_review": true,
+  "review_reason": "The option reflects a specific historical stance from the Bush administration era regarding Iraq; while 'unilateralism' can be associated with conservative foreign policy preferences of that time, the direct endorsement of military action makes ideological classification ambiguous without broader context. The prompt requires avoiding inference of candidate position based on such options."
+}

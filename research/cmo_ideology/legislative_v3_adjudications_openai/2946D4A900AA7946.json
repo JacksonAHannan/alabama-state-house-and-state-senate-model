@@ -1,0 +1,10 @@
+{
+  "id": "2946D4A900AA7946",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The description says penalties are revised but does not specify whether they become more or less punitive.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

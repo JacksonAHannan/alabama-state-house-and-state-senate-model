@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "healthcare_access",
+  "plain_english_policy": "support for universal healthcare access",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "The policy supports the expansion of healthcare access to all citizens."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"I believe that a universally-accessible, publicly-administered health insurance option is essential for ensuring that every individual in our state has access to quality healthcare.\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "8DBF1922FC4B173E",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Civil immunity for uncompensated transportation providers is not clearly malpractice liability and does not establish a sufficiently direct healthcare policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

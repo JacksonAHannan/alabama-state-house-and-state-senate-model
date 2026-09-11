@@ -1,0 +1,11 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "childcare_delivery",
+  "plain_english_policy": "Support 'buffer zones' by requiring demonstrators to stay at least 15 feet away from abortion clinic doorways and driveways.",
+  "substantive": false,
+  "effects": [],
+  "confidence": "low",
+  "evidence_quote": "\"Support 'buffer zones' by requiring demonstrators to stay at least 15 feet away from abortion clinic doorways and driveways.\" - Source: Questionnaire on Abortion in Alabama, Year: 1998.",
+  "needs_human_review": true,
+  "review_reason": "The policy is related to market governance but focuses more specifically on the quality of regulation rather than a direct intervention into the market.; invalid pole 'regulation_quality' for market_governance"
+}

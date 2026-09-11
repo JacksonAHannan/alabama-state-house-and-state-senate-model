@@ -1,0 +1,10 @@
+{
+  "id": "2CA12941343D7C3F",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "punitive",
+  "confidence": "medium",
+  "rationale": "The amendment awards correctional officers additional hazardous duty credit for retirement, which could be interpreted as reinforcing the punitive nature of incarceration by incentivizing longer service in a system focused on punishment rather than rehabilitation.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

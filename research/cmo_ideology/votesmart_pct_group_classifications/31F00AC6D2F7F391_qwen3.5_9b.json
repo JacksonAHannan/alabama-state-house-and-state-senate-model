@@ -1,0 +1,11 @@
+{
+  "policy_key": "health_prescription_drug_regulation",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting government regulation of prescription drug costs is conventionally associated with progressive economic ideology.",
+  "evidence_quote": "Should the government be able to regulate the cost of prescription drugs?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

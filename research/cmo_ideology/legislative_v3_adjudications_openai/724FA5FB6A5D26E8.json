@@ -1,0 +1,10 @@
+{
+  "id": "724FA5FB6A5D26E8",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "This is a comprehensive anatomical-gift regulatory framework with criminal penalties and administrative procedures, not a clear single policy direction on the permitted criminal-justice axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

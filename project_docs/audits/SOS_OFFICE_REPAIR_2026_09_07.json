@@ -1,0 +1,39 @@
+{
+  "status": "accepted_source_labels_only",
+  "build_run_id": "RUN-38DC9E26D9E24097A415038621E293EE",
+  "previous_run": "RUN-F135A5EC686C410CAF58BC5639804FA7",
+  "qa_issue_id": "SOSOFFICE-668570F62509C603C27FD2F7",
+  "changed_rows": 292,
+  "changed_columns": ["office", "district"],
+  "ambiguous_rows_unchanged": 22,
+  "source_rows": 2184861,
+  "backup": "data/processed/elections/backups/pre-sos-office-repair-2026-09-07.sqlite",
+  "backup_bytes": 5780525056,
+  "backup_quick_check": "ok",
+  "source_audit": "project_docs/audits/SOS_CONTEST_CELL_LINEAGE_2026_09_07.json",
+  "source_audit_sha256": "73283ffa8f17fae24799420adf4c6a1684123d50a2e71b1680be1dceb21781ad",
+  "repair_code_sha256": "0de89a5e56243b154987da4c82273cb318892ed8df1fe1905ad0a96d59cdacfb",
+  "tests_sha256": "861e9f8ad08ebba1275fa459e233f7fd9b15a6f742d8ae8a1d797e7e918a1952",
+  "before_sha256": "f7783812c3078e1d668446cf28208f71b08401e16ec8c09d4a43bfc1a3962419",
+  "after_sha256": "901c8c8e1ca45b81c39dc1e453170602489dfb11f916dcecb88746e8cc0c02cc",
+  "digest_contract": "SHA256 UTF-8 compact sorted-key JSON arrays of rowid plus every SQLite column, ORDER BY rowid; newline after each row",
+  "full_source_table_expected_after_digest_matched": true,
+  "table_counts_checked": 119,
+  "changed_table_counts": {
+    "qa_warehouse_source_repair": [48, 49],
+    "warehouse_build_run": [116, 117]
+  },
+  "schema_unchanged": true,
+  "foreign_key_violations": 0,
+  "focused_tests": {"passed": 24, "seconds": 4.40, "deselections": 0, "warnings": 0},
+  "independent_pre_application_review": "PASS",
+  "independent_post_application_review": "PASS: every QA before/after row matched backup/live; 22 ambiguous rows unchanged",
+  "post_application_read_only_replay": "unchanged: zero pending corrections",
+  "evidence_location": "Full source locators, all before/after rows and unchanged ambiguity evidence are retained in qa_warehouse_source_repair.evidence_json at qa_issue_id; application hashes/configuration are retained in warehouse_build_run.",
+  "remaining": [
+    "Affected precinct fingerprints, linkage evidence and geography consumers require separate revalidation; warehouse-03 reopened.",
+    "No identity, allocation, analytical or publication rebuild performed.",
+    "No blanket deduplication; 22 ambiguous records retained.",
+    "No full test suite or browser checks run for this source-only change."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "restriction",
+  "plain_english_policy": "Restricting access to healthcare.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "The policy is a restriction on access to healthcare."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Do you support requiring individuals to purchase health care insurance?",
+  "needs_human_review": false,
+  "review_reason": "The question asks for a policy stance on mandatory health insurance. This is a restriction of access to healthcare."
+}

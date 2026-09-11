@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "healthcare_access",
+  "plain_english_policy": "support_medicaid_expansion_through_alabama_s_health_care_programs",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "Medicaid expansion is a policy that increases access to healthcare services for low-income individuals."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"I believe Medicaid expansion will provide more people with the health care they need.\" - Candidate's statement in 2018 campaign materials.",
+  "needs_human_review": true,
+  "review_reason": "The policy is described as supporting Medicaid expansion, which falls under healthcare access and welfare policy."
+}

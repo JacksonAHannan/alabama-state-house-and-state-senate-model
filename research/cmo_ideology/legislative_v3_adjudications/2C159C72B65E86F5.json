@@ -1,0 +1,10 @@
+{
+  "id": "2C159C72B65E86F5",
+  "decision": "map",
+  "primitive_axis": "environmental_protection",
+  "policy_pole": "weaken",
+  "confidence": "high",
+  "rationale": "The extension of the prohibition on new solid waste landfill permits (effectively delaying environmental regulations) weakens environmental protection by allowing continued reliance on landfills, a less sustainable disposal method.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "campaign_finance_reform",
+  "plain_english_policy": "Encouraging voluntary campaign spending caps by state candidates",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "Voluntary limits on spending are a form of indirect market intervention in political competition, as they seek to curb the influence of financial resources in elections."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "private_provision",
+      "strength": "primary",
+      "rationale": "The policy relies on private actors (candidates) to self-regulate spending, rather than government-imposed rules or public funding."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Should candidates for state office be encouraged to meet voluntary spending limits?\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

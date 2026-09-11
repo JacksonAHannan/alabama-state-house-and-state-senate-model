@@ -1,0 +1,11 @@
+{
+  "policy_key": "diplomatic_relations_china",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option asks whether the U.S. should maintain full diplomatic relations with China.",
+  "evidence_quote": "Should the U.S. have full diplomatic relations with China?",
+  "needs_human_review": true,
+  "review_reason": "This is a procedural question about maintaining existing status quo rather than proposing new policy direction."
+}

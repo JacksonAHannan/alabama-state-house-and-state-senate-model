@@ -1,0 +1,11 @@
+{
+  "policy_key": "official_job_prohibition",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Prohibiting state officials from holding additional paid positions is typically associated with progressive reform efforts to reduce conflicts of interest and perceived corruption, as it curtails potential private-sector influence over public decision-making.",
+  "evidence_quote": "Should current elected officials be prohibited from holding additional state jobs?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

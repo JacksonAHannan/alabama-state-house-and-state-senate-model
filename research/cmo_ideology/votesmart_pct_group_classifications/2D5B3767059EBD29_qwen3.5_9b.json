@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_cut_taxes_social_security_surplus",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option proposes cutting taxes and using Social Security surpluses to cover the shortfall.",
+  "evidence_quote": "Would you cut taxes and use Social Security surpluses to supplement the difference?",
+  "needs_human_review": true,
+  "review_reason": "This is a hypothetical question asking for candidate preference rather than stating an established policy position; it mixes fiscal conservatism (tax cuts) with reliance on specific surplus mechanisms without clear ideological alignment."
+}

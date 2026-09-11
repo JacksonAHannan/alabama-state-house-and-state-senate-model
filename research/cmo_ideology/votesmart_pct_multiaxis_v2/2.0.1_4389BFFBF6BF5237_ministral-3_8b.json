@@ -1,0 +1,24 @@
+{
+  "primary_domain": "labor",
+  "policy_key": "affirmative_action_support",
+  "plain_english_policy": "State government should consider race, gender, or other protected categories in public employment, education admissions, or contracting to address historical inequities.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "labor_capital_alignment",
+      "pole": "labor",
+      "strength": "secondary",
+      "rationale": "Affirmative action typically favors historically marginalized groups in hiring, admissions, or contracts, which can shift power dynamics toward labor (e.g., workers of color) over capital (employers)."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "Affirmative action is a form of targeted welfare expansion for disadvantaged groups, even if not framed as direct financial aid."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Do you support the state's use of affirmative action?\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

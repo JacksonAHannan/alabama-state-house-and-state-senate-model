@@ -1,0 +1,10 @@
+{
+  "id": "F9AD98F84D46556E",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "The description establishes resentencing procedures but does not specify whether the final policy expands or reduces punishment or incarceration.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

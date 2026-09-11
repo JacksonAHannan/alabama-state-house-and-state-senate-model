@@ -1,0 +1,13 @@
+test_cycle,model,scope,mae,votes
+2020,demographics_only,statewide,0.06891657393310935,2290775.0
+2020,demographics_only,named_regions,0.08391647942828273,728095.0
+2020,demographics_plus_regions,statewide,0.06478840851330149,2290775.0
+2020,demographics_plus_regions,named_regions,0.06954744942201904,728095.0
+2022,demographics_only,statewide,0.06874891074158927,1359826.0
+2022,demographics_only,named_regions,0.08295691166169601,428058.0
+2022,demographics_plus_regions,statewide,0.06298932293601912,1359826.0
+2022,demographics_plus_regions,named_regions,0.06982760696663386,428058.0
+2024,demographics_only,statewide,0.06011783271671006,2234998.0
+2024,demographics_only,named_regions,0.07540629007060225,694072.0
+2024,demographics_plus_regions,statewide,0.05561529419435766,2234998.0
+2024,demographics_plus_regions,named_regions,0.062436799332293035,694072.0

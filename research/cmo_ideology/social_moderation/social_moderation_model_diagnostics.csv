@@ -1,0 +1,10 @@
+model,formula,n,r_squared,adjusted_r_squared,covariance
+linear_unadjusted,cmo ~ social_progressivism,99,0.182368134310807,0.17393893981916586,HC3
+linear_cycle_chamber,cmo ~ social_progressivism + C(year) + C(chamber),99,0.31968063202777175,0.2592077993191293,HC3
+nonlinear_cycle_chamber,cmo ~ social_progressivism + social_progressivism_sq + C(year) + C(chamber),99,0.3232321245056281,0.2547949236129389,HC3
+linear_context,cmo ~ social_progressivism + prior_pres_dem_margin + nonwhite_share + white_college_share + C(era) + C(chamber),65,0.2774179455682172,0.21618217824348984,HC3
+nonlinear_context,cmo ~ social_progressivism + social_progressivism_sq + prior_pres_dem_margin + nonwhite_share + white_college_share + C(era) + C(chamber),65,0.3167157035214688,0.24603112112713799,HC3
+district_congruence,cmo ~ social_progressivism + prior_pres_dem_margin + social_x_prior_pres + nonwhite_share + white_college_share + C(era) + C(chamber),65,0.2821166142684326,0.20785281574447734,HC3
+measurement_sensitivity,cmo ~ social_progressivism + prior_pres_dem_margin + nonwhite_share + white_college_share + log_evidence_records + ideology_v3_max_conflict_ratio + C(era) + C(chamber),65,0.2862581732099314,0.19860566816553704,HC3
+material_support_sensitivity,cmo ~ social_progressivism + ideology_v3_material_support + prior_pres_dem_margin + nonwhite_share + white_college_share + C(era) + C(chamber),47,0.28862975014011616,0.18192421266113357,HC3
+moderate_vs_strong_progressive,cmo ~ strong_progressive + C(era) + C(chamber),50,0.2953748128246009,0.2327414628534542,HC3

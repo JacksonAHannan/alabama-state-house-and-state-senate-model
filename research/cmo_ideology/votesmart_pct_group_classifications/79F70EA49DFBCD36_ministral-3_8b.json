@@ -1,0 +1,11 @@
+{
+  "policy_key": "medicaid_transition_support",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Extend Medicaid coverage to individuals who transition from welfare to employment.",
+  "evidence_quote": "Provide continued Medicaid benefits for those welfare recipients who have moved from welfare to work.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

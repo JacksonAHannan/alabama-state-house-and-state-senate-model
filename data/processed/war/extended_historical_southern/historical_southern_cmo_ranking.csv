@@ -1,0 +1,8 @@
+model,forward_rmse,leave_state_out_rmse,leave_state_out_whole_precinct_rmse,forward_rmse_rank,leave_state_out_rmse_rank,leave_state_out_whole_precinct_rmse_rank,rank_sum,complexity_order,forward_guardrail_pass,selected
+portable_temporal,14.27767136371867,15.084043174075829,14.0639346421332,2.0,1.0,1.0,4.0,5,True,True
+full_temporal,13.876469550947295,16.588901806204213,14.594644794572947,1.0,2.0,2.0,5.0,6,True,False
+state_chamber_incumbency,14.757278006167926,18.84797821010678,17.532959925302467,3.0,4.0,3.0,10.0,4,True,False
+symmetric_incumbency,15.060648815410923,18.79123846163804,18.144786530891917,4.0,3.0,4.0,11.0,2,False,False
+state_chamber_lag,16.361764611947685,20.444138284798044,20.505283944596965,5.0,5.0,5.0,15.0,3,False,False
+pooled_lag,17.017356265191204,20.5034108872052,21.305099176831735,6.0,6.0,6.0,18.0,1,False,False
+baseline_only,17.852470687165944,22.73668561672933,24.338844010309327,7.0,7.0,7.0,21.0,0,False,False

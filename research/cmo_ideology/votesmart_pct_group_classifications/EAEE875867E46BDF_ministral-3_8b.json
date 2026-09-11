@@ -1,0 +1,11 @@
+{
+  "policy_key": "middle_east_principles",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Open-ended category for additional or unspecified Middle East policy principles.",
+  "evidence_quote": "8) Other or expanded principles",
+  "needs_human_review": true,
+  "review_reason": "No specific conservative/progressive stance can be inferred from this placeholder option."
+}

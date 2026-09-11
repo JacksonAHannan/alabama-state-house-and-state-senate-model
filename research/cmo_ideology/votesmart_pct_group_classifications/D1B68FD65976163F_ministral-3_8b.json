@@ -1,0 +1,11 @@
+{
+  "policy_key": "head_start_state_control",
+  "dimension": "education_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Shifting federal Head Start programs to state-level management (reducing federal oversight).",
+  "evidence_quote": "Support granting states limited control over Head Start programs.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

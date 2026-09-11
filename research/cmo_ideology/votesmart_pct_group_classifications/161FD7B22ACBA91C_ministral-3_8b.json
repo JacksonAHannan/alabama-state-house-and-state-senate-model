@@ -1,0 +1,11 @@
+{
+  "policy_key": "immigration_it_workers_quota",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase legal immigration caps for high-skilled tech workers (e.g., computer scientists, IT professionals).",
+  "evidence_quote": "*[Verbatim excerpt from questionnaire option]* 'g) Increase the immigration quota for computer scientists and other information technology workers.'",
+  "needs_human_review": false,
+  "review_reason": ""
+}

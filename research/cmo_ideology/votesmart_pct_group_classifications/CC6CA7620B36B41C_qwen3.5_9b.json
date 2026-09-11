@@ -1,0 +1,11 @@
+{
+  "policy_key": "national_security_economic_intervention",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "Economic intervention in international conflicts is generally viewed as a progressive tool for peacebuilding and humanitarian aid rather than conservative military engagement.",
+  "evidence_quote": "Do you support economic intervention as a means of resolving international conflicts?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

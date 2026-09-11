@@ -1,0 +1,11 @@
+{
+  "policy_key": "military_space_shuttle_missions",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase or maintain funding for military space shuttle missions (e.g., classified payloads, satellite deployment, or research with defense applications).",
+  "evidence_quote": "*[No direct quote provided in the question\u2014this is a generic option from a hypothetical questionnaire.]*",
+  "needs_human_review": true,
+  "review_reason": "The option lacks candidate-specific text; scoring requires inferring intent from context (e.g., military space programs often align with conservative priorities)."
+}

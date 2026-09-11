@@ -1,0 +1,11 @@
+{
+  "policy_key": "state_immigration_human_services_prohibition",
+  "dimension": "immigration_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Prevents states from restricting access to public services (e.g., healthcare, education) for undocumented immigrants or their children.",
+  "evidence_quote": "Prohibit states from passing laws that deny human services (medical care, education) to illegal immigrants or their children.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

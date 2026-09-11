@@ -1,0 +1,10 @@
+{
+  "id": "68EE82DFBF44A767",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns public employee retirement benefits and is not a concrete policy on any allowed criminal-justice axis.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

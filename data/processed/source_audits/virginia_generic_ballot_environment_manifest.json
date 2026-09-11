@@ -1,0 +1,40 @@
+{
+  "contract_version": 1,
+  "pipeline": "scripts/acquire_generic_ballot_environment.py",
+  "generated_at_utc": "2026-08-31T02:26:36.215316+00:00",
+  "baseline_policy": "Use a same-year observed ticket baseline when one exists; otherwise use the election-day national generic congressional ballot polling average.",
+  "inputs": [
+    {
+      "source_id": "fivethirtyeight_old_model",
+      "url": "https://raw.githubusercontent.com/fivethirtyeight/data/master/polls/old_model/generic_ballot_averages_old_model.csv",
+      "provider": "FiveThirtyEight",
+      "terms": "https://github.com/fivethirtyeight/data/blob/master/LICENSE",
+      "scope": "FiveThirtyEight generic-ballot polling averages through the 2022 cycle",
+      "retrieved_at_utc": "2026-08-31T02:26:35.423501+00:00",
+      "sha256": "caae521c49a1ec9387a84a1a40f8f5a4555215513334cb667474d4f2ff130840",
+      "local_path": "data/raw/polling/generic_ballot_environment/fivethirtyeight_old_model_caae521c49a1ec93.csv",
+      "media_type": "text/plain; charset=utf-8",
+      "geographic_vintage": "national polling environment",
+      "election_cycle": "2018-2024",
+      "authoritative_scope": "FiveThirtyEight generic-ballot polling averages through the 2022 cycle"
+    },
+    {
+      "source_id": "fivethirtyeight_2023_archived_snapshot",
+      "url": "https://raw.githubusercontent.com/kr0710/Data607/0c5c987e9715020c9f0d88d0ca1bc067358ac55e/generic_ballot_averages.csv",
+      "provider": "FiveThirtyEight data, commit-pinned third-party archive",
+      "terms": "https://github.com/fivethirtyeight/data/blob/master/LICENSE",
+      "scope": "Archived copy of FiveThirtyEight generic-ballot averages including 2023",
+      "retrieved_at_utc": "2026-08-31T02:26:35.423501+00:00",
+      "sha256": "3881963f2c2db423b7c521af0c915e092b7ec93115f72dc6d19a7927bb8ac7a9",
+      "local_path": "data/raw/polling/generic_ballot_environment/fivethirtyeight_2023_archived_snapshot_3881963f2c2db423.csv",
+      "media_type": "text/plain; charset=utf-8",
+      "geographic_vintage": "national polling environment",
+      "election_cycle": "2018-2024",
+      "authoritative_scope": "Archived copy of FiveThirtyEight generic-ballot averages including 2023"
+    }
+  ],
+  "output": "data/processed/polling/virginia_generic_ballot_environment.csv",
+  "output_sha256": "db746e2fc14d68eae8396063ec79eae81c0f0fb8910847976fb806802c9e376a",
+  "rows": 2,
+  "missing_value_policy": "No interpolation and no zero fill."
+}

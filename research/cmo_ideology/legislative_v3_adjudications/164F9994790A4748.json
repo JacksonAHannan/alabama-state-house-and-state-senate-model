@@ -1,0 +1,10 @@
+{
+  "id": "164F9994790A4748",
+  "decision": "map",
+  "primitive_axis": "campaign_finance_disclosure",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Requiring public disclosure of names and compensation for public officials and their spouses strengthens campaign finance transparency.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

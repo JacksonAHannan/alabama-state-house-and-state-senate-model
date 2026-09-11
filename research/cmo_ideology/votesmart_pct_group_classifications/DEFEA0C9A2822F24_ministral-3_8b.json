@@ -1,0 +1,11 @@
+{
+  "policy_key": "mandatory_emission_targets",
+  "dimension": "environment_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Advocates for legally binding global agreements to cap greenhouse gas emissions and combat climate change.",
+  "evidence_quote": "Support international mandatory emission targets to limit global warming.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "cap_and_trade_energy",
+  "dimension": "environment_position",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Allowing energy producers to buy/sell pollution permits under a 'cap and trade' system (e.g., setting an emissions ceiling, then letting companies trade allowances).",
+  "evidence_quote": "*[No direct quote provided in the option text\u2014this is a procedural/administrative mechanism with mixed ideological implications depending on implementation.]*",
+  "needs_human_review": true,
+  "review_reason": "Cap-and-trade can be framed as progressive (market-based regulation) or conservative (limited government intervention), but its *specific* design (e.g., cap levels, auction vs. free allocation) determines left/right alignment."
+}

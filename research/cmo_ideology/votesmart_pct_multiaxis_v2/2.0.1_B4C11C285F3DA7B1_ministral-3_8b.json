@@ -1,0 +1,36 @@
+{
+  "primary_domain": "healthcare",
+  "policy_key": "healthcare_access",
+  "plain_english_policy": "Tax incentives for small businesses to offer employee healthcare",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "Tax incentives disproportionately benefit businesses with taxable income, which are often larger or more profitable entities. Small businesses may also benefit but the incentive structure typically favors those with higher margins."
+    },
+    {
+      "axis": "business_scale_alignment",
+      "pole": "small_business",
+      "strength": "primary",
+      "rationale": "The option explicitly targets small businesses, excluding larger enterprises."
+    },
+    {
+      "axis": "healthcare_access",
+      "pole": "restrict",
+      "strength": "secondary",
+      "rationale": "Indirectly restricts access by relying on private-sector provision rather than direct public or subsidized programs. Access depends on employer participation, which may not be universal."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "private_provision",
+      "strength": "primary",
+      "rationale": "Healthcare delivery is delegated to private employers rather than government or public systems."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Provide tax incentives to small businesses that provide health care to their employees.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

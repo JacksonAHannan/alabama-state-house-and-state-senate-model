@@ -1,0 +1,720 @@
+{
+  "warehouse_status": "committed",
+  "latest_run": "RUN-DA2442D0AD664F5681DE08E573D79A15",
+  "source_files": {
+    "SRC-DD940F20743C33261CC2": {
+      "local_path": "data/raw/alabama_elections_and_geography/2022_general_certified_canvass.pdf",
+      "sha256": "2f924587c91a72f161913a110612125bbc17b78151e20963a0003774666091ed"
+    },
+    "SRC-389A837246D397F4E074": {
+      "local_path": "data/raw/alabama_elections_and_geography/2022 General Precinct Level Results.zip",
+      "sha256": "4ea186b9e9eefa7786b3708b8ffd2da5755a9ba5c018b4ff9d47a2ceec46983a"
+    }
+  },
+  "evidence": {
+    "audit_sha256": "263a02e45aa6780f86ffa1ced3058a030fc78bf02412d73963efbd6e10373475",
+    "manifest_sha256": "371abd6a0d77a04d0863bd38e6128a1da58b98f5903afb9d069f1f42aaafc14c",
+    "adapter_code_sha256": {
+      "scripts/alabama_2022_official_results.py": "96f853959fff04d80b478c23116987b39af5a8780d51c5181dbacf3c32e990d3",
+      "scripts/sos_precinct.py": "a87f1a4713e8a164a2614136e34222bce7d45b8432f4ef22231eaa6870d710cf",
+      "scripts/oe_normalize.py": "e1b306249cbc1bc3dd5b23ae038ee94df9d89ec3183ec061a4f8f878a63e1dff"
+    },
+    "precinct_source": {
+      "source_path": "data/raw/alabama_elections_and_geography/2022 General Precinct Level Results.zip",
+      "sha256": "4ea186b9e9eefa7786b3708b8ffd2da5755a9ba5c018b4ff9d47a2ceec46983a",
+      "cycle": 2022,
+      "state_code": "AL",
+      "stage": "general",
+      "county_count": 67,
+      "members": [
+        {
+          "member": "2022-General-Autauga.xls",
+          "sha256": "99534a03ea4a0cd6d315fcd0f015b04d88d33993aaeaeadb568fc991ef00ab40"
+        },
+        {
+          "member": "2022-General-Baldwin.xls",
+          "sha256": "5f790b09b821ad612542b138b8566bf73c7236a4c66585af39ad67b45af2c340"
+        },
+        {
+          "member": "2022-General-Barbour.xls",
+          "sha256": "4c203f83e9745d25cfdb215374cd83cd95306c10466afddedb982005602924f9"
+        },
+        {
+          "member": "2022-General-Bibb.xls",
+          "sha256": "1035b5d306b0ce2b841f677504f41d889eccd9d2a39c51f9270294ea91716499"
+        },
+        {
+          "member": "2022-General-Blount.xls",
+          "sha256": "6963843fc0e6799fd25716fcb291d575bf464e560e3f841afd0bbd6684d1567f"
+        },
+        {
+          "member": "2022-General-Bullock.xls",
+          "sha256": "b2730894648c9a7459ad16c50e37f936907689ab4f2c71336c479f0724c55897"
+        },
+        {
+          "member": "2022-General-Butler.xls",
+          "sha256": "2c2fe66e1e0e6dadc7a1e600b5eff2022a5e7bc507ee3e00eb610bf529e831b7"
+        },
+        {
+          "member": "2022-General-Calhoun.xls",
+          "sha256": "3bd5d2cbf773816bd6871ae049cee1afd636a4c1a00536194bf4520cacef5bd5"
+        },
+        {
+          "member": "2022-General-Chambers.xls",
+          "sha256": "946c44bd374e3273e4f40f8c1666c9dd88e5104d215d1c084aad60db7a2c5099"
+        },
+        {
+          "member": "2022-General-Cherokee.xls",
+          "sha256": "f057416a1e698abbe81129f5a39cdbef3fe8c3a4d8310debc1a2fb94c8773536"
+        },
+        {
+          "member": "2022-General-Chilton.xls",
+          "sha256": "cccf4ed7aa2a5897bab749107abe106056ea941bd397d269ccb65a56eb37479e"
+        },
+        {
+          "member": "2022-General-Choctaw.xls",
+          "sha256": "34aaa96b2174c77167bc4d96f3f450ea795c4ab967930635fc1d912999c231e6"
+        },
+        {
+          "member": "2022-General-Clarke.xls",
+          "sha256": "77f0e28637b5e4be6ff18f8bd2073e8a0779d3fb173db70a546e3d2450fa1b61"
+        },
+        {
+          "member": "2022-General-Clay.xls",
+          "sha256": "49ce8408b47b0ca84a90c4abdea1dcb36db9258221acf898ed105d65127d0a0f"
+        },
+        {
+          "member": "2022-General-Cleburne.xls",
+          "sha256": "0d8364b81fb6f86b886087dbb2a8c0e9eda17460ae37fe52f9692a0cdbd25fdd"
+        },
+        {
+          "member": "2022-General-Coffee.xls",
+          "sha256": "b94344d4c6611cb97c1b986be5813f5518fd9a4b1ccf0bb0b47d33df8157110b"
+        },
+        {
+          "member": "2022-General-Colbert.xls",
+          "sha256": "8a0ad064d0ca1844d65416a2b95e8b87268fcdc8dc2a1cd67e622bb9774b75e9"
+        },
+        {
+          "member": "2022-General-Conecuh.xls",
+          "sha256": "14e13296021dea1ea46f3f84177294f0b5c7a1ab71daf87ecfa306a5c6afb80a"
+        },
+        {
+          "member": "2022-General-Coosa.xls",
+          "sha256": "2951104601b725aa883015fefe46d74cea54445d868e88ac41a6f7917d273811"
+        },
+        {
+          "member": "2022-General-Covington.xls",
+          "sha256": "56bc99cf3778ee2c3f50a589863a7d2c52531f7efba27254e757a7129f9fe8a7"
+        },
+        {
+          "member": "2022-General-Crenshaw.xls",
+          "sha256": "6706a00bc29ec99f8701a66a0ffedc46f7f617c1a450f77589ac1bda4436cb3e"
+        },
+        {
+          "member": "2022-General-Cullman.xls",
+          "sha256": "0bfb3c3dbb4b764daca161be45b9ed92845e76b46d40f4f97fe5805b4666a475"
+        },
+        {
+          "member": "2022-General-Dale.xls",
+          "sha256": "c1aebd2cebf936f36a54b2e8760af44dd8ca9c96ced6213032efd3c6e880d0b4"
+        },
+        {
+          "member": "2022-General-Dallas.xls",
+          "sha256": "43dd0a6ac77d013aba58b96d2b6c005501a303017ce7faf754e2bca8130b981d"
+        },
+        {
+          "member": "2022-General-DeKalb.xls",
+          "sha256": "84be2d3b7c0992f3681bd43686e539312b6d75b76e8857ca7919d5e8381fb65a"
+        },
+        {
+          "member": "2022-General-Elmore.xls",
+          "sha256": "9a143bf35dbcd129d8750fb57aef69fc7f4cd3f3cc8965725ad1df29ce417c45"
+        },
+        {
+          "member": "2022-General-Escambia.xls",
+          "sha256": "4644af51860156a68a84508b9eccb739b392435d3c11ce418ff8d01df5694738"
+        },
+        {
+          "member": "2022-General-Etowah.xls",
+          "sha256": "21081d6d8d7e53855bc78531b376d08e9b805c1bd31d09db0d3f3b4c290b6c32"
+        },
+        {
+          "member": "2022-General-Fayette.xls",
+          "sha256": "3dcacc2d8a23098be74eb7617a35809b6c2bf3edda743b347402d9fa1cb74656"
+        },
+        {
+          "member": "2022-General-Franklin.xls",
+          "sha256": "f7294912c420c200fbf9bce8dfc0924049b9612a593e814abeee40245dc5b820"
+        },
+        {
+          "member": "2022-General-Geneva.xls",
+          "sha256": "96ee2847f76c9766f0b0b1f1f36b358418fb6ee912240e7b1dff27afb06f9eb7"
+        },
+        {
+          "member": "2022-General-Greene.xls",
+          "sha256": "3d15883205eefde1ebb09d3cc60cdb8b690ad9748e90946a8979ad37372ef6db"
+        },
+        {
+          "member": "2022-General-Hale.xls",
+          "sha256": "79f6ae70a816b4d8846ba5ff917456d61e26e0c8502eef3722e115fe390b9dba"
+        },
+        {
+          "member": "2022-General-Henry.xls",
+          "sha256": "f3a12f07dd8ec65be5d8b5c8b317e4f04805eeb01a2270225d26501db27fd054"
+        },
+        {
+          "member": "2022-General-Houston.xls",
+          "sha256": "a145787caa1a4462db5083282e4a447759780f5b0d8140b94b3353cc68bd0207"
+        },
+        {
+          "member": "2022-General-Jackson.xls",
+          "sha256": "0ba8f03ee4c02a8695cef28ff4204b2d0ba9786b186909e0bf6be7f83d2a2a2a"
+        },
+        {
+          "member": "2022-General-Jefferson.xls",
+          "sha256": "0420c24ae447c0bd0d65a9a8376fbba311ab0e7bdbfa761fed1f3f10211daee3"
+        },
+        {
+          "member": "2022-General-Lamar.xls",
+          "sha256": "a25b4a261317b0752b6fc1beacb39330c7329c2dbf479f23d291332d2a5b79b6"
+        },
+        {
+          "member": "2022-General-Lauderdale.xls",
+          "sha256": "fcd96dbce6fe321d0376e92beba849c762733dcd47d82579fa7179a6af6e9d52"
+        },
+        {
+          "member": "2022-General-Lawrence.xls",
+          "sha256": "586bd3916bf268ff55862993e507f8aa83d5f0beb343b0873e6b8c5b093b0630"
+        },
+        {
+          "member": "2022-General-Lee.xls",
+          "sha256": "63e844753bdf092673a0fc9cdad80fedd686848273a56a44007c87908329fcb9"
+        },
+        {
+          "member": "2022-General-Limestone.xls",
+          "sha256": "c4fa15d57be2e9c71160282a5e52a20485b0626bca98437291018427d1825021"
+        },
+        {
+          "member": "2022-General-Lowndes.xls",
+          "sha256": "e0eb21b21000eaef4732253957473f66c3e402880282f8ef6894afff27e7d62e"
+        },
+        {
+          "member": "2022-General-Macon.xls",
+          "sha256": "287f874b3d5e9be6a57d6829b24a24819377468b2a1a465fe14e50908e056e18"
+        },
+        {
+          "member": "2022-General-Madison.xls",
+          "sha256": "95a1de9acddb1ceaa4e7ff8dff929dafad5fdba828646da80ece2957cadb456e"
+        },
+        {
+          "member": "2022-General-Marengo.xls",
+          "sha256": "4fde9a12b51b95830dc1e039684c6b01f182d6a876d8827b033c3df626127a18"
+        },
+        {
+          "member": "2022-General-Marion.xls",
+          "sha256": "3d753044aab7a589c914bc5b95406c28246409b4256bea2bfb19f86265b271ac"
+        },
+        {
+          "member": "2022-General-Marshall.xls",
+          "sha256": "1a6eff807b6032ed4b33d98e4f15dda083aeb1eece525b31dd4fd1f7ebf77a80"
+        },
+        {
+          "member": "2022-General-Mobile.xls",
+          "sha256": "0e57714e96c23ccb6c9c4d725eebf2aef431ee347b2de69ca836e2770fb193bf"
+        },
+        {
+          "member": "2022-General-Monroe.xls",
+          "sha256": "f0cfd409ba05ff782d04d78333de135a92b8d793fa14cbc855e985b37fcd023e"
+        },
+        {
+          "member": "2022-General-Montgomery.xls",
+          "sha256": "4b6a698cb70e944549710e6d938ff6c62874b0790eb064206bcc841cc318631a"
+        },
+        {
+          "member": "2022-General-Morgan.xls",
+          "sha256": "caa478e21ce0ad22ec7d8524728a1f2d15e2b5d6f81bd78203eb01518739233d"
+        },
+        {
+          "member": "2022-General-Perry.xls",
+          "sha256": "3f917677e3926d7d23481b91c7309bc4612bc0ca9ba4f3efc88ce7d5e9e48909"
+        },
+        {
+          "member": "2022-General-Pickens.xls",
+          "sha256": "78a0c7ab6772168ce6b3795ca429adeecf14c2b144b5ead3ec87393995eda1b0"
+        },
+        {
+          "member": "2022-General-Pike.xls",
+          "sha256": "00d89e462864b5548f2239fc480ae0b1861bb5b1ebf9f4384e2c1a18f94671f3"
+        },
+        {
+          "member": "2022-General-Randolph.xls",
+          "sha256": "399b63a5c49d04b46c1c64425c185eea04ddb715d9d3d0c43fcf351dd5b549b8"
+        },
+        {
+          "member": "2022-General-Russell.xls",
+          "sha256": "a0b1fe5d50053c3bf9c5f5069eca406e2e43f5698ffcf67e3a799ec25a7b9212"
+        },
+        {
+          "member": "2022-General-Shelby.xls",
+          "sha256": "67c9f6856687b0a4c372c86dcfa764a50f6adb795761606e7722007f32661e74"
+        },
+        {
+          "member": "2022-General-StClair.xls",
+          "sha256": "9d9c2ac6b22e0695c299afab11426eec94fe82911efc28a8eb19870c81ae45d8"
+        },
+        {
+          "member": "2022-General-Sumter.xls",
+          "sha256": "aa4de3fc97e05a5655024e36c8b05e937dca82406439a1495bb4db9da29d5ded"
+        },
+        {
+          "member": "2022-General-Talladega.xls",
+          "sha256": "ed5e2168cddfaaffa30d959f3759857262d5d3cc8641836b826eaf918bae88c5"
+        },
+        {
+          "member": "2022-General-Tallapoosa.xls",
+          "sha256": "4564ec4ac7129db49e6e759b79bb69e51d6e56ece028ea83019e8e050959db7d"
+        },
+        {
+          "member": "2022-General-Tuscaloosa.xls",
+          "sha256": "b1f39f941d4a28c3c8c9621142ef8c1c24bea560e5f37606553d172e9d4f9c6e"
+        },
+        {
+          "member": "2022-General-Walker.xls",
+          "sha256": "cd3f029ce77298600ee3c2137f2f997f5a8772740e0a44f1f6f3f3936b3a04dd"
+        },
+        {
+          "member": "2022-General-Washington.xls",
+          "sha256": "ba8613a4bc4f60ddca0a5694139082fa91205e607cc0b553503758bc709d57ae"
+        },
+        {
+          "member": "2022-General-Wilcox.xls",
+          "sha256": "2949f65f65708139f454cf2fd6b4b52f62986812f40319165f767ae1d866bf37"
+        },
+        {
+          "member": "2022-General-Winston.xls",
+          "sha256": "ddddef2fd496b7344f76e5467568ef774a72e4b56aec932532109c2503eba7eb"
+        }
+      ],
+      "unknown_cells": 38778
+    },
+    "canvass_source": {
+      "source_file_id": "SRC-DD940F20743C33261CC2",
+      "provider": "alabama_sos",
+      "local_path": "data/raw/alabama_elections_and_geography/2022_general_certified_canvass.pdf",
+      "source_url": "https://www.sos.alabama.gov/sites/default/files/election-data/2022-11/Final%20Canvass%20of%20Results%20%28canvassed%20by%20state%20canvassing%20board%2011-28-2022%29.pdf",
+      "source_index_url": "https://www.sos.alabama.gov/alabama-votes/voter/election-information/2022",
+      "retrieved_at": "2026-09-07T14:38:08.4443842Z",
+      "sha256": "2f924587c91a72f161913a110612125bbc17b78151e20963a0003774666091ed",
+      "size_bytes": 7706312,
+      "media_type": "application/pdf",
+      "license_or_terms": "review: public official election record; explicit redistribution license not established",
+      "state_code": "AL",
+      "cycle": 2022,
+      "election_date": "2022-11-08",
+      "election_stage": "general",
+      "certified_date": "2022-11-28",
+      "geography_vintage": "reported 2022 election districts; no boundary certification implied",
+      "authoritative_scope": "certified general-election candidate and write-in contest totals",
+      "ingest_status": "acquired",
+      "warehouse_registration_status": "pending; manifest identifier uses warehouse source-file ID convention",
+      "acquisition_method": "official SOS election-page link; HTTPS download to previously absent path; hash matched independent in-memory retrieval"
+    },
+    "summary": {
+      "contests": 140,
+      "named_candidates": 211,
+      "write_in_totals": 140,
+      "named_votes": 2426083,
+      "write_in_votes": 30426,
+      "unknown_cells_retained": 22018,
+      "review_rows": 0
+    }
+  },
+  "staged_counts": {
+    "source_southern_legislative_observation_set": 140,
+    "source_southern_legislative_candidate_result": 351,
+    "qa_southern_legislative_source_reconciliation": 1
+  },
+  "build_run_id": "RUN-F135A5EC686C410CAF58BC5639804FA7",
+  "configuration": {
+    "backup": "C:\\Users\\User\\Documents\\GitHub\\alabama-state-house-and-state-senate-model\\data\\processed\\elections\\backups\\pre-al2022-source-load-2026-09-07.sqlite",
+    "expected_run": "RUN-DA2442D0AD664F5681DE08E573D79A15",
+    "before_snapshot": {
+      "qa_southern_legislative_source_reconciliation": "b9758dfb7f6424045a4afbeac300e8645858851a2d798cfe42dd71a69cf25c04",
+      "qa_warehouse_source_repair": "b5492068a615e25333a7036e0e9978ee38c22113c53bf920f9603ab5e784afb7",
+      "source_southern_legislative_candidate_result": "85163be615af0a30d5f773bdeff4839b8c6ddce35ef6a85519c36096aed430cc",
+      "source_southern_legislative_observation_set": "4cd3376bd5ba5cc4c3c273220f0dce6a73dcfc88f53aabd5da23ad8bd4b69fa8",
+      "warehouse_build_run": "ca075d5cd8b4b7f0f4d7af8e8311c96a32f1ccfe2e153288174fdbf2a8a35414",
+      "warehouse_source_file": "898056423670d1041e0480c0934295dd45a02b451b78ac355683492a13be51fe",
+      "schema": "750251132ca9584f88d745af465518e716e6128e60b44c0ca1f0b07cc779ebc5"
+    },
+    "before_counts": {
+      "qa_southern_legislative_source_reconciliation": 50,
+      "qa_warehouse_source_repair": 47,
+      "source_southern_legislative_candidate_result": 82361,
+      "source_southern_legislative_observation_set": 52231,
+      "warehouse_build_run": 115,
+      "warehouse_source_file": 26693
+    },
+    "source_files": {
+      "SRC-DD940F20743C33261CC2": {
+        "local_path": "data/raw/alabama_elections_and_geography/2022_general_certified_canvass.pdf",
+        "sha256": "2f924587c91a72f161913a110612125bbc17b78151e20963a0003774666091ed"
+      },
+      "SRC-389A837246D397F4E074": {
+        "local_path": "data/raw/alabama_elections_and_geography/2022 General Precinct Level Results.zip",
+        "sha256": "4ea186b9e9eefa7786b3708b8ffd2da5755a9ba5c018b4ff9d47a2ceec46983a"
+      }
+    },
+    "evidence": {
+      "audit_sha256": "263a02e45aa6780f86ffa1ced3058a030fc78bf02412d73963efbd6e10373475",
+      "manifest_sha256": "371abd6a0d77a04d0863bd38e6128a1da58b98f5903afb9d069f1f42aaafc14c",
+      "adapter_code_sha256": {
+        "scripts/alabama_2022_official_results.py": "96f853959fff04d80b478c23116987b39af5a8780d51c5181dbacf3c32e990d3",
+        "scripts/sos_precinct.py": "a87f1a4713e8a164a2614136e34222bce7d45b8432f4ef22231eaa6870d710cf",
+        "scripts/oe_normalize.py": "e1b306249cbc1bc3dd5b23ae038ee94df9d89ec3183ec061a4f8f878a63e1dff"
+      },
+      "precinct_source": {
+        "source_path": "data/raw/alabama_elections_and_geography/2022 General Precinct Level Results.zip",
+        "sha256": "4ea186b9e9eefa7786b3708b8ffd2da5755a9ba5c018b4ff9d47a2ceec46983a",
+        "cycle": 2022,
+        "state_code": "AL",
+        "stage": "general",
+        "county_count": 67,
+        "members": [
+          {
+            "member": "2022-General-Autauga.xls",
+            "sha256": "99534a03ea4a0cd6d315fcd0f015b04d88d33993aaeaeadb568fc991ef00ab40"
+          },
+          {
+            "member": "2022-General-Baldwin.xls",
+            "sha256": "5f790b09b821ad612542b138b8566bf73c7236a4c66585af39ad67b45af2c340"
+          },
+          {
+            "member": "2022-General-Barbour.xls",
+            "sha256": "4c203f83e9745d25cfdb215374cd83cd95306c10466afddedb982005602924f9"
+          },
+          {
+            "member": "2022-General-Bibb.xls",
+            "sha256": "1035b5d306b0ce2b841f677504f41d889eccd9d2a39c51f9270294ea91716499"
+          },
+          {
+            "member": "2022-General-Blount.xls",
+            "sha256": "6963843fc0e6799fd25716fcb291d575bf464e560e3f841afd0bbd6684d1567f"
+          },
+          {
+            "member": "2022-General-Bullock.xls",
+            "sha256": "b2730894648c9a7459ad16c50e37f936907689ab4f2c71336c479f0724c55897"
+          },
+          {
+            "member": "2022-General-Butler.xls",
+            "sha256": "2c2fe66e1e0e6dadc7a1e600b5eff2022a5e7bc507ee3e00eb610bf529e831b7"
+          },
+          {
+            "member": "2022-General-Calhoun.xls",
+            "sha256": "3bd5d2cbf773816bd6871ae049cee1afd636a4c1a00536194bf4520cacef5bd5"
+          },
+          {
+            "member": "2022-General-Chambers.xls",
+            "sha256": "946c44bd374e3273e4f40f8c1666c9dd88e5104d215d1c084aad60db7a2c5099"
+          },
+          {
+            "member": "2022-General-Cherokee.xls",
+            "sha256": "f057416a1e698abbe81129f5a39cdbef3fe8c3a4d8310debc1a2fb94c8773536"
+          },
+          {
+            "member": "2022-General-Chilton.xls",
+            "sha256": "cccf4ed7aa2a5897bab749107abe106056ea941bd397d269ccb65a56eb37479e"
+          },
+          {
+            "member": "2022-General-Choctaw.xls",
+            "sha256": "34aaa96b2174c77167bc4d96f3f450ea795c4ab967930635fc1d912999c231e6"
+          },
+          {
+            "member": "2022-General-Clarke.xls",
+            "sha256": "77f0e28637b5e4be6ff18f8bd2073e8a0779d3fb173db70a546e3d2450fa1b61"
+          },
+          {
+            "member": "2022-General-Clay.xls",
+            "sha256": "49ce8408b47b0ca84a90c4abdea1dcb36db9258221acf898ed105d65127d0a0f"
+          },
+          {
+            "member": "2022-General-Cleburne.xls",
+            "sha256": "0d8364b81fb6f86b886087dbb2a8c0e9eda17460ae37fe52f9692a0cdbd25fdd"
+          },
+          {
+            "member": "2022-General-Coffee.xls",
+            "sha256": "b94344d4c6611cb97c1b986be5813f5518fd9a4b1ccf0bb0b47d33df8157110b"
+          },
+          {
+            "member": "2022-General-Colbert.xls",
+            "sha256": "8a0ad064d0ca1844d65416a2b95e8b87268fcdc8dc2a1cd67e622bb9774b75e9"
+          },
+          {
+            "member": "2022-General-Conecuh.xls",
+            "sha256": "14e13296021dea1ea46f3f84177294f0b5c7a1ab71daf87ecfa306a5c6afb80a"
+          },
+          {
+            "member": "2022-General-Coosa.xls",
+            "sha256": "2951104601b725aa883015fefe46d74cea54445d868e88ac41a6f7917d273811"
+          },
+          {
+            "member": "2022-General-Covington.xls",
+            "sha256": "56bc99cf3778ee2c3f50a589863a7d2c52531f7efba27254e757a7129f9fe8a7"
+          },
+          {
+            "member": "2022-General-Crenshaw.xls",
+            "sha256": "6706a00bc29ec99f8701a66a0ffedc46f7f617c1a450f77589ac1bda4436cb3e"
+          },
+          {
+            "member": "2022-General-Cullman.xls",
+            "sha256": "0bfb3c3dbb4b764daca161be45b9ed92845e76b46d40f4f97fe5805b4666a475"
+          },
+          {
+            "member": "2022-General-Dale.xls",
+            "sha256": "c1aebd2cebf936f36a54b2e8760af44dd8ca9c96ced6213032efd3c6e880d0b4"
+          },
+          {
+            "member": "2022-General-Dallas.xls",
+            "sha256": "43dd0a6ac77d013aba58b96d2b6c005501a303017ce7faf754e2bca8130b981d"
+          },
+          {
+            "member": "2022-General-DeKalb.xls",
+            "sha256": "84be2d3b7c0992f3681bd43686e539312b6d75b76e8857ca7919d5e8381fb65a"
+          },
+          {
+            "member": "2022-General-Elmore.xls",
+            "sha256": "9a143bf35dbcd129d8750fb57aef69fc7f4cd3f3cc8965725ad1df29ce417c45"
+          },
+          {
+            "member": "2022-General-Escambia.xls",
+            "sha256": "4644af51860156a68a84508b9eccb739b392435d3c11ce418ff8d01df5694738"
+          },
+          {
+            "member": "2022-General-Etowah.xls",
+            "sha256": "21081d6d8d7e53855bc78531b376d08e9b805c1bd31d09db0d3f3b4c290b6c32"
+          },
+          {
+            "member": "2022-General-Fayette.xls",
+            "sha256": "3dcacc2d8a23098be74eb7617a35809b6c2bf3edda743b347402d9fa1cb74656"
+          },
+          {
+            "member": "2022-General-Franklin.xls",
+            "sha256": "f7294912c420c200fbf9bce8dfc0924049b9612a593e814abeee40245dc5b820"
+          },
+          {
+            "member": "2022-General-Geneva.xls",
+            "sha256": "96ee2847f76c9766f0b0b1f1f36b358418fb6ee912240e7b1dff27afb06f9eb7"
+          },
+          {
+            "member": "2022-General-Greene.xls",
+            "sha256": "3d15883205eefde1ebb09d3cc60cdb8b690ad9748e90946a8979ad37372ef6db"
+          },
+          {
+            "member": "2022-General-Hale.xls",
+            "sha256": "79f6ae70a816b4d8846ba5ff917456d61e26e0c8502eef3722e115fe390b9dba"
+          },
+          {
+            "member": "2022-General-Henry.xls",
+            "sha256": "f3a12f07dd8ec65be5d8b5c8b317e4f04805eeb01a2270225d26501db27fd054"
+          },
+          {
+            "member": "2022-General-Houston.xls",
+            "sha256": "a145787caa1a4462db5083282e4a447759780f5b0d8140b94b3353cc68bd0207"
+          },
+          {
+            "member": "2022-General-Jackson.xls",
+            "sha256": "0ba8f03ee4c02a8695cef28ff4204b2d0ba9786b186909e0bf6be7f83d2a2a2a"
+          },
+          {
+            "member": "2022-General-Jefferson.xls",
+            "sha256": "0420c24ae447c0bd0d65a9a8376fbba311ab0e7bdbfa761fed1f3f10211daee3"
+          },
+          {
+            "member": "2022-General-Lamar.xls",
+            "sha256": "a25b4a261317b0752b6fc1beacb39330c7329c2dbf479f23d291332d2a5b79b6"
+          },
+          {
+            "member": "2022-General-Lauderdale.xls",
+            "sha256": "fcd96dbce6fe321d0376e92beba849c762733dcd47d82579fa7179a6af6e9d52"
+          },
+          {
+            "member": "2022-General-Lawrence.xls",
+            "sha256": "586bd3916bf268ff55862993e507f8aa83d5f0beb343b0873e6b8c5b093b0630"
+          },
+          {
+            "member": "2022-General-Lee.xls",
+            "sha256": "63e844753bdf092673a0fc9cdad80fedd686848273a56a44007c87908329fcb9"
+          },
+          {
+            "member": "2022-General-Limestone.xls",
+            "sha256": "c4fa15d57be2e9c71160282a5e52a20485b0626bca98437291018427d1825021"
+          },
+          {
+            "member": "2022-General-Lowndes.xls",
+            "sha256": "e0eb21b21000eaef4732253957473f66c3e402880282f8ef6894afff27e7d62e"
+          },
+          {
+            "member": "2022-General-Macon.xls",
+            "sha256": "287f874b3d5e9be6a57d6829b24a24819377468b2a1a465fe14e50908e056e18"
+          },
+          {
+            "member": "2022-General-Madison.xls",
+            "sha256": "95a1de9acddb1ceaa4e7ff8dff929dafad5fdba828646da80ece2957cadb456e"
+          },
+          {
+            "member": "2022-General-Marengo.xls",
+            "sha256": "4fde9a12b51b95830dc1e039684c6b01f182d6a876d8827b033c3df626127a18"
+          },
+          {
+            "member": "2022-General-Marion.xls",
+            "sha256": "3d753044aab7a589c914bc5b95406c28246409b4256bea2bfb19f86265b271ac"
+          },
+          {
+            "member": "2022-General-Marshall.xls",
+            "sha256": "1a6eff807b6032ed4b33d98e4f15dda083aeb1eece525b31dd4fd1f7ebf77a80"
+          },
+          {
+            "member": "2022-General-Mobile.xls",
+            "sha256": "0e57714e96c23ccb6c9c4d725eebf2aef431ee347b2de69ca836e2770fb193bf"
+          },
+          {
+            "member": "2022-General-Monroe.xls",
+            "sha256": "f0cfd409ba05ff782d04d78333de135a92b8d793fa14cbc855e985b37fcd023e"
+          },
+          {
+            "member": "2022-General-Montgomery.xls",
+            "sha256": "4b6a698cb70e944549710e6d938ff6c62874b0790eb064206bcc841cc318631a"
+          },
+          {
+            "member": "2022-General-Morgan.xls",
+            "sha256": "caa478e21ce0ad22ec7d8524728a1f2d15e2b5d6f81bd78203eb01518739233d"
+          },
+          {
+            "member": "2022-General-Perry.xls",
+            "sha256": "3f917677e3926d7d23481b91c7309bc4612bc0ca9ba4f3efc88ce7d5e9e48909"
+          },
+          {
+            "member": "2022-General-Pickens.xls",
+            "sha256": "78a0c7ab6772168ce6b3795ca429adeecf14c2b144b5ead3ec87393995eda1b0"
+          },
+          {
+            "member": "2022-General-Pike.xls",
+            "sha256": "00d89e462864b5548f2239fc480ae0b1861bb5b1ebf9f4384e2c1a18f94671f3"
+          },
+          {
+            "member": "2022-General-Randolph.xls",
+            "sha256": "399b63a5c49d04b46c1c64425c185eea04ddb715d9d3d0c43fcf351dd5b549b8"
+          },
+          {
+            "member": "2022-General-Russell.xls",
+            "sha256": "a0b1fe5d50053c3bf9c5f5069eca406e2e43f5698ffcf67e3a799ec25a7b9212"
+          },
+          {
+            "member": "2022-General-Shelby.xls",
+            "sha256": "67c9f6856687b0a4c372c86dcfa764a50f6adb795761606e7722007f32661e74"
+          },
+          {
+            "member": "2022-General-StClair.xls",
+            "sha256": "9d9c2ac6b22e0695c299afab11426eec94fe82911efc28a8eb19870c81ae45d8"
+          },
+          {
+            "member": "2022-General-Sumter.xls",
+            "sha256": "aa4de3fc97e05a5655024e36c8b05e937dca82406439a1495bb4db9da29d5ded"
+          },
+          {
+            "member": "2022-General-Talladega.xls",
+            "sha256": "ed5e2168cddfaaffa30d959f3759857262d5d3cc8641836b826eaf918bae88c5"
+          },
+          {
+            "member": "2022-General-Tallapoosa.xls",
+            "sha256": "4564ec4ac7129db49e6e759b79bb69e51d6e56ece028ea83019e8e050959db7d"
+          },
+          {
+            "member": "2022-General-Tuscaloosa.xls",
+            "sha256": "b1f39f941d4a28c3c8c9621142ef8c1c24bea560e5f37606553d172e9d4f9c6e"
+          },
+          {
+            "member": "2022-General-Walker.xls",
+            "sha256": "cd3f029ce77298600ee3c2137f2f997f5a8772740e0a44f1f6f3f3936b3a04dd"
+          },
+          {
+            "member": "2022-General-Washington.xls",
+            "sha256": "ba8613a4bc4f60ddca0a5694139082fa91205e607cc0b553503758bc709d57ae"
+          },
+          {
+            "member": "2022-General-Wilcox.xls",
+            "sha256": "2949f65f65708139f454cf2fd6b4b52f62986812f40319165f767ae1d866bf37"
+          },
+          {
+            "member": "2022-General-Winston.xls",
+            "sha256": "ddddef2fd496b7344f76e5467568ef774a72e4b56aec932532109c2503eba7eb"
+          }
+        ],
+        "unknown_cells": 38778
+      },
+      "canvass_source": {
+        "source_file_id": "SRC-DD940F20743C33261CC2",
+        "provider": "alabama_sos",
+        "local_path": "data/raw/alabama_elections_and_geography/2022_general_certified_canvass.pdf",
+        "source_url": "https://www.sos.alabama.gov/sites/default/files/election-data/2022-11/Final%20Canvass%20of%20Results%20%28canvassed%20by%20state%20canvassing%20board%2011-28-2022%29.pdf",
+        "source_index_url": "https://www.sos.alabama.gov/alabama-votes/voter/election-information/2022",
+        "retrieved_at": "2026-09-07T14:38:08.4443842Z",
+        "sha256": "2f924587c91a72f161913a110612125bbc17b78151e20963a0003774666091ed",
+        "size_bytes": 7706312,
+        "media_type": "application/pdf",
+        "license_or_terms": "review: public official election record; explicit redistribution license not established",
+        "state_code": "AL",
+        "cycle": 2022,
+        "election_date": "2022-11-08",
+        "election_stage": "general",
+        "certified_date": "2022-11-28",
+        "geography_vintage": "reported 2022 election districts; no boundary certification implied",
+        "authoritative_scope": "certified general-election candidate and write-in contest totals",
+        "ingest_status": "acquired",
+        "warehouse_registration_status": "pending; manifest identifier uses warehouse source-file ID convention",
+        "acquisition_method": "official SOS election-page link; HTTPS download to previously absent path; hash matched independent in-memory retrieval"
+      },
+      "summary": {
+        "contests": 140,
+        "named_candidates": 211,
+        "write_in_totals": 140,
+        "named_votes": 2426083,
+        "write_in_votes": 30426,
+        "unknown_cells_retained": 22018,
+        "review_rows": 0
+      }
+    },
+    "application_code_sha256": {
+      "C:\\Users\\User\\Documents\\GitHub\\alabama-state-house-and-state-senate-model\\scripts\\load_alabama_2022_certified_source.py": "87da270cacc572a3a3143978423d8bd6b5fa4aceb757400d3ec4464ed8f73442",
+      "C:\\Users\\User\\Documents\\GitHub\\alabama-state-house-and-state-senate-model\\scripts\\warehouse.py": "dd9df42bbb3760a51443027f53f166d7f943e8d3e8ba9ce4461ac403b72234e0",
+      "C:\\Users\\User\\Documents\\GitHub\\alabama-state-house-and-state-senate-model\\scripts\\load_southern_legislative_history_warehouse.py": "37372b2bce5332c9c97b5ee2b5f2445718e79126cb0992da246c0d25e3530c4f"
+    }
+  },
+  "validation": {
+    "source_counts": {
+      "source_southern_legislative_observation_set": 140,
+      "source_southern_legislative_candidate_result": 351,
+      "qa_southern_legislative_source_reconciliation": 1
+    },
+    "source_reconciliation": {
+      "contests": 140,
+      "named_candidates": 211,
+      "write_in_totals": 140,
+      "named_votes": 2426083,
+      "write_in_votes": 30426,
+      "unknown_cells_retained": 22018,
+      "review_rows": 0
+    },
+    "canonical_adoption": "pending",
+    "source_set_status": "review",
+    "unchanged": [
+      "canonical identities/results",
+      "outcomes",
+      "allocations",
+      "model outputs",
+      "publications"
+    ],
+    "backup": "C:\\Users\\User\\Documents\\GitHub\\alabama-state-house-and-state-senate-model\\data\\processed\\elections\\backups\\pre-al2022-source-load-2026-09-07.sqlite"
+  }
+}

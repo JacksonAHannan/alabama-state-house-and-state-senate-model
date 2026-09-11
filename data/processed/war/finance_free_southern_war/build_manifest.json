@@ -1,8 +1,8 @@
 {
   "contract_version": 1,
   "pipeline": "scripts/load_southern_war_preparation_warehouse.py",
-  "build_run_id": "RUN-92AB8DE353AC47D6AECE3D7767C29FCD",
-  "code_version": "88878b973fdac3cee95a8d8648da321e38e0021c",
+  "build_run_id": "RUN-504CE4C4DF904D88A5A40D268F3FCEAB",
+  "code_version": "720c3507b147bc0a7c048c4c84ab0262920802c1",
   "finance_included": true,
   "finance_missingness_policy": "Finance remains null unless both candidate observations and identities are complete; the finance-free interface remains available for sensitivity analysis.",
   "validation": {
@@ -30,11 +30,11 @@
   "inputs": [
     {
       "path": "data/processed/war/southern_war_panel_v1/southern_war_panel.csv",
-      "sha256": "8cfbdfef67e73546d46186fe741ee7bb06b580fefc3476a4dc5b8a7e7f28cb50"
+      "sha256": "2cb76655de26b628a1fffcf472c6f8385be485e43ccf49227d5fae8c4a18c945"
     },
     {
       "path": "data/processed/war/southern_war_panel_v1/build_manifest.json",
-      "sha256": "a023b90b81235cfa8fdf1ba8bea5d746514ca8043790a411ee105a6129ce1c54"
+      "sha256": "9603102eba68c1587819396a54191f9b405ec7aed31a7e7bc42b59172414f451"
     },
     {
       "path": "data/raw/candidates/southern_state_legislative_incumbents_2016_2026.xlsx",

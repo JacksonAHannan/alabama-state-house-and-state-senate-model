@@ -1,0 +1,11 @@
+{
+  "policy_key": "gun_registration_restrictions",
+  "dimension": "guns_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Support for federal gun registration and restrictions on firearm ownership.",
+  "evidence_quote": "Maintain all federal registration procedures and restrictions on possessing firearms.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

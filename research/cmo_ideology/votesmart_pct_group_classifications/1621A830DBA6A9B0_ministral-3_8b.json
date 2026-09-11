@@ -1,0 +1,11 @@
+{
+  "policy_key": "single_payer_alabama",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option explicitly endorses a government-run healthcare system (single-payer), which is conventionally progressive.",
+  "evidence_quote": "(No direct Alabama candidate quote provided, but the question itself\u2014if answered affirmatively\u2014would align with single-payer advocacy.)",
+  "needs_human_review": true,
+  "review_reason": "This classification relies on the *question* framing rather than a specific candidate\u2019s response. A real questionnaire would require verbatim text from an Alabama candidate."
+}

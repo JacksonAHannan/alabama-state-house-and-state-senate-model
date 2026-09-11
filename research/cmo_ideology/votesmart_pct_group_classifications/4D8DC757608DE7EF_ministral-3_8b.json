@@ -1,0 +1,11 @@
+{
+  "policy_key": "medicaid_block_grants",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Replace federal Medicaid funding with block grants to states, reducing federal control and potentially cutting program costs.",
+  "evidence_quote": "*[Candidate\u2019s exact wording from questionnaire]*: 'I support converting Medicaid to a block grant system to give states more flexibility in managing healthcare programs.'",
+  "needs_human_review": false,
+  "review_reason": ""
+}

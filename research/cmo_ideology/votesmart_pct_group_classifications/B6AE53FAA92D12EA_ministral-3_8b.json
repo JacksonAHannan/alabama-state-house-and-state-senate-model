@@ -1,0 +1,11 @@
+{
+  "policy_key": "school_lunches_block_grants",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Replace federal school lunch programs with state-administered block grants.",
+  "evidence_quote": "Support the use of **block grants** for **school lunches** (instead of direct federal funding).",
+  "needs_human_review": false,
+  "review_reason": ""
+}

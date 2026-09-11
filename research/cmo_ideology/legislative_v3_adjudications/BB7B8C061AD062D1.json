@@ -1,0 +1,10 @@
+{
+  "id": "BB7B8C061AD062D1",
+  "decision": "map",
+  "primitive_axis": "education_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "The bill decreases the minimum mandatory age of attendance in public schools from seven to six, expanding access to education for younger children.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_funding_block_grants_agriculture",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option to select 'Farm subsidies' as a category for block grants rather than direct federal spending is primarily an administrative choice regarding the mechanism of funding distribution. While reducing direct federal programs can sometimes align with conservative fiscal principles (smaller government), shifting specific agricultural support into state-level block grants does not inherently signal a strong ideological stance on issues like food security, rural development, or environmental regulation without further context.",
+  "evidence_quote": "Do you support the use of block grants given to states, rather than federal spending, in the following areas? ... c) Farm subsidies",
+  "needs_human_review": true,
+  "review_reason": "The question asks for a selection among categories (federal funding levels vs. block grants). The specific option 'c) Farm subsidies' is merely one item within that list; selecting it indicates support for applying the proposed policy mechanism to agriculture but does not inherently reveal whether the candidate favors cutting federal spending, expanding state power, or maintaining current subsidy structures without additional context on their stance toward farm subsidies specifically."
+}

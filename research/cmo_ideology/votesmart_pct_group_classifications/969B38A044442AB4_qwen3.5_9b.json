@@ -1,0 +1,11 @@
+{
+  "policy_key": "somalia_aid",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks whether the US should provide aid to Somalia without specifying a partisan stance.",
+  "evidence_quote": "Should the United States provide economic and military support to the Transitional Government of Somalia?",
+  "needs_human_review": true,
+  "review_reason": "This is a specific foreign policy question that does not inherently align with conservative or progressive ideology; it depends on strategic context rather than left/right values."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "35927FBA70CED013",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Amendments to absentee ballot procedures and voting machines are administrative/technical updates without clear policy direction.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

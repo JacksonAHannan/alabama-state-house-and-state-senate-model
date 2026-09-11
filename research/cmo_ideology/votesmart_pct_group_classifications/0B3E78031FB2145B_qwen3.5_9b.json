@@ -1,0 +1,11 @@
+{
+  "policy_key": "national_security_preemption",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks about pre-emptive military strikes. This is a specific policy question on the use of force rather than an ideological stance like 'small government' or 'pro-life'. While some conservatives support it and some progressives oppose it, the position itself depends heavily on context (e.g., intelligence certainty) and legal interpretation.",
+  "evidence_quote": "Do you support pre-emptive military strikes against countries deemed to be a threat to United States national security?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

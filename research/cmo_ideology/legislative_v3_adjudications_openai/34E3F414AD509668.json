@@ -1,0 +1,10 @@
+{
+  "id": "34E3F414AD509668",
+  "decision": "map",
+  "primitive_axis": "police_authority",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "The measure authorizes warrantless arrests of parolees or probationers in specified circumstances and expands law-enforcement access to supervision conditions.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

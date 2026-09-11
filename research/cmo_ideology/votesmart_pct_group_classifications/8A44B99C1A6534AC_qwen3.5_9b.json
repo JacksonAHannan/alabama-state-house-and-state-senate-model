@@ -1,0 +1,11 @@
+{
+  "policy_key": "employment_gender_identity_federal_law",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting the inclusion of gender identity in federal anti-discrimination laws is conventionally considered a progressive policy position.",
+  "evidence_quote": "Include gender identity in federal anti-discrimination laws.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

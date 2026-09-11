@@ -1,0 +1,10 @@
+{
+  "id": "3E42A52FCA45FA78",
+  "decision": "map",
+  "primitive_axis": "police_authority",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Expands the public-safety deployment authority of Department of Corrections law enforcement officers to assist other agencies.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

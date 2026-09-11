@@ -1,0 +1,30 @@
+{
+  "primary_domain": "criminal_justice",
+  "policy_key": "punitive_vs_rehabilitative",
+  "plain_english_policy": "Advocates for punitive treatment of minors who share sexually explicit or nude photos via cell phone by subjecting them to criminal charges.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "criminal_punishment",
+      "pole": "punitive",
+      "strength": "primary",
+      "rationale": "The option explicitly calls for criminal charges against minors, which is a punitive measure."
+    },
+    {
+      "axis": "childcare_support",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "While not directly about childcare, the issue involves minors and could indirectly restrict their autonomy or privacy in ways that might impact broader social welfare perceptions."
+    },
+    {
+      "axis": "civil_social_liberty",
+      "pole": "restrict",
+      "strength": "secondary",
+      "rationale": "Criminalizing behavior (even for minors) inherently restricts civil liberties related to privacy and freedom of expression."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Should a minor who sends sexually-explicit or nude photos by cell phone face criminal charges?\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

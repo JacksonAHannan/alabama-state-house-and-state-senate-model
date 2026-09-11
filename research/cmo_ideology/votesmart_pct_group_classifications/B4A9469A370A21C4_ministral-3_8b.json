@@ -1,0 +1,11 @@
+{
+  "policy_key": "arctic_oil_exploration",
+  "dimension": "environment_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Support drilling for oil in a portion of the Arctic National Wildlife Refuge (ANWR).",
+  "evidence_quote": "Support opening a select portion of the **Arctic National Wildlife Refuge** for oil exploration.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

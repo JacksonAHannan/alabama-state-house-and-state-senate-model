@@ -1,0 +1,11 @@
+{
+  "policy_key": "crime_job_training_at_risk_youth",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Invest in job training and employment support for young people at risk of criminal involvement.",
+  "evidence_quote": "Support programs that provide job training and placement services for at-risk youth.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

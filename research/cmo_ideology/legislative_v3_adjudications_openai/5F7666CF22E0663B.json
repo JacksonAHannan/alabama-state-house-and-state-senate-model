@@ -1,0 +1,10 @@
+{
+  "id": "5F7666CF22E0663B",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Changes eligibility for participation in a state employee health-insurance plan and is primarily administrative.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

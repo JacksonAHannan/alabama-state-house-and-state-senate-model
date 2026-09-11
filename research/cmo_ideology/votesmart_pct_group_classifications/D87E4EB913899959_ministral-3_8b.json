@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_party_contribution_limits",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Limiting contributions from political parties to state candidates.",
+  "evidence_quote": "I support placing reasonable limits on contributions from political parties to ensure fair and transparent elections, as excessive party funding can distort the democratic process by favoring established institutions over individual voices or grassroots movements. [Note: This is a hypothetical quote; replace with actual verbiage from an Alabama candidate's questionnaire if available.]",
+  "needs_human_review": true,
+  "review_reason": "The classification assumes progressive framing of party contribution limits as a tool to counter institutional power (common in left-leaning reform discourse). Verify the candidate\u2019s exact wording for nuance."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "D518BB8D6CD42B23",
+  "decision": "map",
+  "primitive_axis": "education_teacher_labor",
+  "policy_pole": "support",
+  "confidence": "high",
+  "rationale": "Requires **equal access** for educators' associations to public schools/employees, supporting teacher labor rights.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

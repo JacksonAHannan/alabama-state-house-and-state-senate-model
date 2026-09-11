@@ -1,0 +1,24 @@
+{
+  "primary_domain": "education",
+  "policy_key": "merit_scholarships",
+  "plain_english_policy": "Support state-funded merit scholarships for Alabama students to attend college in Alabama.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "secondary"
+    },
+    {
+      "axis": "business_scale_alignment",
+      "pole": "small_business",
+      "strength": "secondary",
+      "rationale": "secondary"
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Support state-funded merit scholarships for Alabama students to attend college in Alabama.",
+  "needs_human_review": false,
+  "review_reason": "This option supports the expansion of a program that provides financial assistance to students. This is likely to have positive effects on both business and welfare policy."
+}

@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "childcare_delivery",
+  "plain_english_policy": "Support alternatives to incarceration for certain non-violent offenders, such as mandatory counseling or substance abuse treatment.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "Supporting alternatives to incarceration for non-violent offenders is a welfare policy expansion."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Do you support alternatives to incarceration for certain non-violent offenders, such as mandatory counseling or substance abuse treatment?\" - 2014 Crime & Public Safety Issues questionnaire option b.",
+  "needs_human_review": true,
+  "review_reason": ""
+}

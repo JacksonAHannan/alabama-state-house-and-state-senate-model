@@ -1,0 +1,24 @@
+{
+  "primary_domain": "criminal_justice",
+  "policy_key": "criminal_punishment",
+  "plain_english_policy": "Prosecute minors accused of violent crimes as adults.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Restricting the ability to prosecute minors in certain cases may be seen as a restriction on their rights."
+    },
+    {
+      "axis": "criminal_punishment",
+      "pole": "punitive",
+      "strength": "primary",
+      "rationale": "Prosecuting minors accused of violent crimes as adults would likely involve punitive measures, such as harsher penalties or incarceration."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Should a minor accused of a violent crime be prosecuted as an adult?\" This question highlights the debate over when minors should face adult-level criminal charges for serious offenses.",
+  "needs_human_review": true,
+  "review_reason": "The policy mechanism is to prosecute minors accused of violent crimes as adults, which could have significant effects on their treatment and potential outcomes in the justice system."
+}

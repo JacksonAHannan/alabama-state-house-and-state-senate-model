@@ -1,0 +1,11 @@
+{
+  "policy_key": "campaign_finance_contribution_increase",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increasing the legal limit on how much individuals can donate to federal campaigns.",
+  "evidence_quote": "Support increasing the amount individuals are permitted to contribute to federal campaigns.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

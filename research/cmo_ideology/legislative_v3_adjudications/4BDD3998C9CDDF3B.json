@@ -1,0 +1,10 @@
+{
+  "id": "4BDD3998C9CDDF3B",
+  "decision": "map",
+  "primitive_axis": "gun_purchase_regulation",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "The bill explicitly criminalizes discharging a firearm into a school bus, with escalating penalties for occupied vs. unoccupied buses. This strengthens gun safety regulations and restricts reckless behavior.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

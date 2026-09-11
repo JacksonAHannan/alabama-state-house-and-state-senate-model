@@ -1,0 +1,11 @@
+{
+  "policy_key": "us_aid_colombia_drugs",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks whether the US should increase financial support to Colombia for drug interdiction. This is a procedural or administrative question about foreign aid allocation rather than an ideological stance on domestic social issues.",
+  "evidence_quote": "5) Should the United States increase its financial support to Colombia to combat \"the war on drugs\"?",
+  "needs_human_review": true,
+  "review_reason": "The option is a binary policy question about foreign aid that does not inherently map onto a domestic left-right spectrum without additional context regarding the candidate's broader views on interventionism or drug policy."
+}

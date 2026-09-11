@@ -1,0 +1,10 @@
+{
+  "id": "94D83A0A4069A270",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The measure concerns application and notification procedures for voting-rights restoration and is primarily administrative rather than a concrete allowed criminal-justice pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

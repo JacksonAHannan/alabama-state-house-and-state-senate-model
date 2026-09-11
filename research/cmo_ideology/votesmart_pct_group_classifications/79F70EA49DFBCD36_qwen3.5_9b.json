@@ -1,0 +1,11 @@
+{
+  "policy_key": "alabama_welfare_medicaid_continuity",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supports maintaining Medicaid for former welfare recipients who have entered the workforce.",
+  "evidence_quote": "Provide continued Medicaid benefits for those welfare recipients who have moved from welfare to work.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

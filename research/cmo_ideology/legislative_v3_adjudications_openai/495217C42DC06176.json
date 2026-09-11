@@ -1,0 +1,10 @@
+{
+  "id": "495217C42DC06176",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns a sheriff's disposition of abandoned or stolen property and allocation of law-enforcement funds; it does not clearly establish a policy on gun access or gun-purchase regulation.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

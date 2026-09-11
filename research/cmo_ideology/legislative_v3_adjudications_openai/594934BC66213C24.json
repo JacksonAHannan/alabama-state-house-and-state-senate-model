@@ -1,0 +1,10 @@
+{
+  "id": "594934BC66213C24",
+  "decision": "map",
+  "primitive_axis": "education_access",
+  "policy_pole": "expand",
+  "confidence": "medium",
+  "rationale": "Creates approved learning opportunities outside the typical public K-12 classroom for credit, expanding available educational access pathways.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

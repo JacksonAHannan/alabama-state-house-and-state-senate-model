@@ -1,0 +1,11 @@
+{
+  "policy_key": "line_item_veto",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Whether the executive branch should have the power to veto specific line items in spending or tax bills without rejecting the entire bill.",
+  "evidence_quote": "*'I oppose the line-item veto because it would give the President too much power to unilaterally alter laws passed by Congress, undermining democratic checks and balances.'*",
+  "needs_human_review": false,
+  "review_reason": ""
+}

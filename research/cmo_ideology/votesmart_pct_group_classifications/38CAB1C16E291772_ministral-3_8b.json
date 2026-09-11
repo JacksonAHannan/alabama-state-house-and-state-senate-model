@@ -1,0 +1,11 @@
+{
+  "policy_key": "border_security",
+  "dimension": "immigration_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increase border security measures along the southern US border to reduce unauthorized crossings and improve enforcement.",
+  "evidence_quote": "Do you support increasing security along the southern US border?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "FE050E7A0B72ABA9",
+  "decision": "map",
+  "primitive_axis": "gun_access",
+  "policy_pole": "expand",
+  "confidence": "high",
+  "rationale": "Requiring timely issuance or reinstatement of a pistol permit after a successful appeal facilitates access to lawful carrying.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

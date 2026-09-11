@@ -1,0 +1,11 @@
+{
+  "policy_key": "trade_relations_with_vietnam",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting normal trade relations (most favored nation status) with Vietnam typically aligns with progressive economic policies, as it often involves reducing trade barriers and promoting global economic integration.",
+  "evidence_quote": "(No direct quote provided in the prompt; this is a conventional interpretation of MFN policy positions.)",
+  "needs_human_review": true,
+  "review_reason": "This classification relies on general economic ideology trends, not candidate-specific text. A real questionnaire would require verbatim evidence from the candidate's response to Option 7."
+}

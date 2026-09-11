@@ -1,0 +1,10 @@
+{
+  "id": "92E6A1EBCF1DA5DF",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Primarily concerns technical administration of a special-needs trust, Social Security compliance, and Medicaid reimbursement rather than an allowed healthcare policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

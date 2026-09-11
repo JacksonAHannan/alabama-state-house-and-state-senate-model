@@ -1,0 +1,11 @@
+{
+  "policy_key": "legislative_priorities_education_voucher_expansion",
+  "dimension": "education_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Expand school choice via education vouchers for low-income families, with private-sector partnerships to fund implementation.",
+  "evidence_quote": "**\u2018My top priority is expanding Alabama\u2019s Opportunity Scholarship Program to serve 100% of qualifying students by redirecting state education funds toward private and charter schools. To fund this, I\u2019ll partner with corporate sponsors (e.g., tech firms) for matching grants and seek federal waivers under the Every Student Succeeds Act.\u2019**",
+  "needs_human_review": false,
+  "review_reason": "Explicitly ties to voucher expansion (conservative education policy) with private funding mechanisms."
+}

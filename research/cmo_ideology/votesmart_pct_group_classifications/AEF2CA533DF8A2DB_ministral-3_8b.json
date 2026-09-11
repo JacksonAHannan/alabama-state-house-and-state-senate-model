@@ -1,0 +1,11 @@
+{
+  "policy_key": "student_loan_tax_credit",
+  "dimension": "indeterminate",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Support for a federal tax credit specifically for student loan repayments.",
+  "evidence_quote": "*[No clear left/right ideological leaning; procedural/administrative policy]*",
+  "needs_human_review": true,
+  "review_reason": "Tax credits are often debated on both sides depending on scope (e.g., progressive for targeted relief, conservative if seen as welfare). This option lacks explicit partisan framing."
+}

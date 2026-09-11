@@ -1,0 +1,18 @@
+{
+  "primary_domain": "criminal_justice",
+  "policy_key": "abortion_access",
+  "plain_english_policy": "Decriminalize the use of marijuana for medicinal purposes.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "The policy aims to expand access to medical cannabis."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Decriminalize the use of marijuana for medicinal purposes.\" - Candidate's statement on crime issues in 2002.",
+  "needs_human_review": true,
+  "review_reason": "invalid pole 'restrictive_enforcement' for criminal_punishment"
+}

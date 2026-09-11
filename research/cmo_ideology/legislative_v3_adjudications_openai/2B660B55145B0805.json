@@ -1,0 +1,10 @@
+{
+  "id": "2B660B55145B0805",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Revolving-door and transitional employment ethics provisions do not clearly fit any allowed campaign-finance, constitutional-reform, or institutional-populism axis.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

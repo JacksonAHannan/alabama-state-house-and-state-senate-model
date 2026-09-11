@@ -1,0 +1,10 @@
+{
+  "id": "11C17F98EE811EC9",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Renaming a division and adding canine classifications are administrative and technical changes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "CF82BAD5DBC7CA88",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Contracting for production and delivery of vehicle tags and directing funds to the Department of Corrections are administrative and fiscal provisions, not a listed criminal-justice policy.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

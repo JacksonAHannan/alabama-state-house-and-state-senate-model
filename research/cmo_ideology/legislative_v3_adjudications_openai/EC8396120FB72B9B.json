@@ -1,0 +1,10 @@
+{
+  "id": "EC8396120FB72B9B",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "The description does not state whether the reporting deadline is moved earlier or later, so the direction of campaign-finance disclosure change is text-insufficient.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

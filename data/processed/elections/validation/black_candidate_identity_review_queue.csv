@@ -1,0 +1,424 @@
+canonical_candidate_id,person_id,year,chamber,district,canonical_party,canonical_name,incumbent,winner,race_ethnicity,black_candidate,evidence_url,evidence_quote,evidence_date,review_status,reviewer,notes
+AL-2014-house-1-R-PHILLIP-PETTUS,ALPERSON-PHILLIP-PETTUS,2014,house,1,R,Phillip Pettus,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-2-D-ANDREW-ANDY-BETTERTON,ALPERSON-ANDREW-ANDY-BETTERTON,2014,house,2,D,"Andrew ""Andy"" Betterton",0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-3-R-FRED-JOLY,ALPERSON-FRED-JOLY,2014,house,3,R,Fred Joly,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-7-D-JOHN-JODY-LETSON,ALPERSON-JOHN-JODY-LETSON,2014,house,7,D,John (Jody) Letson,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-10-D-MEANS,ALPERSON-MEANS,2014,house,10,D,Means,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-12-R-COREY-HARBISON,ALPERSON-COREY-HARBISON,2014,house,12,R,Corey Harbison,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-13-R-ROWE,ALPERSON-ROWE,2014,house,13,R,Rowe,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-16-R-KYLE-SOUTH,ALPERSON-KYLE-SOUTH,2014,house,16,R,Kyle South,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-18-R-GERRY-WALLACE,ALPERSON-GERRY-WALLACE,2014,house,18,R,Gerry Wallace,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-21-D-C-TERRY-JONES,ALPERSON-C-TERRY-JONES,2014,house,21,D,C. Terry Jones,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-22-D-DENNIS-W-STEPHENS,ALPERSON-DENNIS-W-STEPHENS,2014,house,22,D,Dennis W. Stephens,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-23-R-JAMES-T-TOMMY-HANES-JR,ALPERSON-JAMES-T-TOMMY-HANES-JR,2014,house,23,R,"James T. ""Tommy"" Hanes Jr.",0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-24-D-BEDDINGFIELD,ALPERSON-BEDDINGFIELD,2014,house,24,D,Beddingfield,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-24-R-LEDBETTER,ALPERSON-LEDBETTER,2014,house,24,R,Ledbetter,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-28-R-DOUG-SHERROD,ALPERSON-DOUG-SHERROD,2014,house,28,R,Doug Sherrod,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-33-D-ANTHONY-ZACHERO,ALPERSON-ANTHONY-ZACHERO,2014,house,33,D,Anthony Zachero,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-33-R-RON-JOHNSON,ALPERSON-RON-JOHNSON,2014,house,33,R,Ron Johnson,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-37-R-BOB-FINCHER,ALPERSON-BOB-FINCHER,2014,house,37,R,Bob Fincher,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-38-R-ISAAC-WHORTON,ALPERSON-ISAAC-WHORTON,2014,house,38,R,Isaac Whorton,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-39-R-HEATH-JONES,ALPERSON-HEATH-JONES,2014,house,39,R,Heath Jones,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-40-D-COPELAND,ALPERSON-COPELAND,2014,house,40,D,Copeland,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-40-R-BROWN,ALPERSON-BROWN,2014,house,40,R,Brown,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-43-R-ARNOLD-MOONEY,ALPERSON-ARNOLD-MOONEY,2014,house,43,R,Arnold Mooney,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-44-R-DANNY-GARRETT,ALPERSON-DANNY-GARRETT,2014,house,44,R,Danny Garrett,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-46-R-DAVID-FAULKNER,ALPERSON-DAVID-FAULKNER,2014,house,46,R,David Faulkner,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-47-D-SALVATORE-BAMBINELLI,ALPERSON-SALVATORE-BAMBINELLI,2014,house,47,D,Salvatore Bambinelli,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-52-R-PHILLIP-BAHAKEL,ALPERSON-PHILLIP-BAHAKEL,2014,house,52,R,Phillip Bahakel,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-53-R-CHRISTOPHER-HORN,ALPERSON-CHRISTOPHER-HORN,2014,house,53,R,Christopher Horn,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-61-R-ALAN-HARPER,ALPERSON-ALAN-HARPER,2014,house,61,R,Alan Harper,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-69-R-LORETTA-G-GRANT,ALPERSON-LORETTA-G-GRANT,2014,house,69,R,Loretta G. Grant,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-74-D-ZACK-BUCKNER,ALPERSON-ZACK-BUCKNER,2014,house,74,D,Zack Buckner,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-77-R-DAVID-GRIMES,ALPERSON-DAVID-GRIMES,2014,house,77,R,David Grimes,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-78-R-TIJUANNA-ADETUNJI,ALPERSON-TIJUANNA-ADETUNJI,2014,house,78,R,Tijuanna Adetunji,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-80-D-TILLMAN-PUGH,ALPERSON-TILLMAN-PUGH,2014,house,80,D,Tillman Pugh,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-89-R-ALAN-C-BOOTHE,ALPERSON-ALAN-C-BOOTHE,2014,house,89,R,Alan C. Boothe,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-90-D-WALTON-HICKMAN,ALPERSON-WALTON-HICKMAN,2014,house,90,D,Walton Hickman,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-house-93-D-JENNIFER-MARSDEN,ALPERSON-JENNIFER-MARSDEN,2014,house,93,D,Jennifer Marsden,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-senate-1-D-MIKE-CURTIS,ALPERSON-MIKE-CURTIS,2014,senate,1,D,Mike Curtis,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-senate-1-R-TIM-MELSON,ALPERSON-TIM-MELSON,2014,senate,1,R,Tim Melson,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-senate-4-D-ANGELO-DOC-MANCUSO,ALPERSON-ANGELO-DOC-MANCUSO,2014,senate,4,D,"Angelo ""Doc"" Mancuso",0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-senate-8-D-HORACE-CLEMMONS,ALPERSON-HORACE-CLEMMONS,2014,senate,8,D,Horace Clemmons,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-senate-8-R-STEVE-LIVINGSTON,ALPERSON-STEVE-LIVINGSTON,2014,senate,8,R,Steve Livingston,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-senate-13-D-DARRELL-TURNER,ALPERSON-DARRELL-TURNER,2014,senate,13,D,Darrell Turner,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-senate-18-D-RODGER-M-SMITHERMAN,ALPERSON-RODGER-M-SMITHERMAN,2014,senate,18,D,Rodger M. Smitherman,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-senate-21-D-PHIL-POOLE,ALPERSON-PHIL-POOLE,2014,senate,21,D,Phil Poole,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2014-senate-35-D-BEAU-DOOLITTLE,ALPERSON-BEAU-DOOLITTLE,2014,senate,35,D,Beau Doolittle,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-1-R-PHILLIP-PETTUS,ALPERSON-PHILLIP-PETTUS,2018,house,1,R,Phillip Pettus,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-2-D-LORA-KAY-MORROW,ALPERSON-LORA-KAY-MORROW,2018,house,2,D,Lora Kay Morrow,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-2-R-LYNN-GREER,ALPERSON-LYNN-GREER,2018,house,2,R,Lynn Greer,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-3-D-CHAD-YOUNG,ALPERSON-CHAD-YOUNG,2018,house,3,D,Chad Young,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-3-R-ANDREW-SORRELL,ALPERSON-ANDREW-SORRELL,2018,house,3,R,Andrew Sorrell,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-4-D-JO-ANN-CUMMINGS,ALPERSON-JO-ANN-CUMMINGS,2018,house,4,D,Jo Ann Cummings,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-4-R-PARKER-DUNCAN-MOORE,ALPERSON-PARKER-DUNCAN-MOORE,2018,house,4,R,Parker Duncan Moore,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-5-D-BRIAN-D-WILLIAMS,ALPERSON-BRIAN-D-WILLIAMS,2018,house,5,D,Brian D Williams,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-5-R-DANNY-F-CRAWFORD,ALPERSON-DANNY-F-CRAWFORD,2018,house,5,R,Danny F. Crawford,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-6-R-ANDY-WHITT,ALPERSON-ANDY-WHITT,2018,house,6,R,Andy Whitt,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-7-D-KENNETH-A-BRACKINS,ALPERSON-KENNETH-A-BRACKINS,2018,house,7,D,Kenneth A. Brackins,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-7-R-PRONCEY-ROBERTSON,ALPERSON-PRONCEY-ROBERTSON,2018,house,7,R,Proncey Robertson,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-8-D-BILLY-JACKSON,ALPERSON-BILLY-JACKSON,2018,house,8,D,Billy Jackson,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-8-R-TERRI-COLLINS,ALPERSON-TERRI-COLLINS,2018,house,8,R,Terri Collins,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-9-R-SCOTT-STADTHAGEN,ALPERSON-SCOTT-STADTHAGEN,2018,house,9,R,Scott Stadthagen,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-10-D-J-B-KING,ALPERSON-J-B-KING,2018,house,10,D,J.B. King,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-10-R-MIKE-BALL,ALPERSON-MIKE-BALL,2018,house,10,R,Mike Ball,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-11-R-RANDALL-SHEDD,ALPERSON-RANDALL-SHEDD,2018,house,11,R,Randall Shedd,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-12-R-COREY-HARBISON,ALPERSON-COREY-HARBISON,2018,house,12,R,Corey Harbison,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-13-R-CONNIE-COONER-ROWE,ALPERSON-CONNIE-COONER-ROWE,2018,house,13,R,Connie Cooner Rowe,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-14-R-TIM-WADSWORTH,ALPERSON-TIM-WADSWORTH,2018,house,14,R,Tim Wadsworth,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-15-D-SUZANNA-COLEMAN,ALPERSON-SUZANNA-COLEMAN,2018,house,15,D,Suzanna Coleman,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-15-R-ALLEN-FARLEY,ALPERSON-ALLEN-FARLEY,2018,house,15,R,Allen Farley,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-16-R-KYLE-SOUTH,ALPERSON-KYLE-SOUTH,2018,house,16,R,Kyle South,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-17-R-TRACY-ESTES,ALPERSON-TRACY-ESTES,2018,house,17,R,Tracy Estes,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-18-D-EDDIE-BRITTON,ALPERSON-EDDIE-BRITTON,2018,house,18,D,Eddie Britton,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-18-R-JAMIE-KIEL,ALPERSON-JAMIE-KIEL,2018,house,18,R,Jamie Kiel,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-19-D-LAURA-HALL,ALPERSON-LAURA-HALL,2018,house,19,D,Laura Hall,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-20-D-LINDA-MEIGS,ALPERSON-LINDA-MEIGS,2018,house,20,D,Linda Meigs,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-20-R-HOWARD-SANDERFORD,ALPERSON-HOWARD-SANDERFORD,2018,house,20,R,Howard Sanderford,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-21-D-TERRY-JONES,ALPERSON-TERRY-JONES,2018,house,21,D,Terry Jones,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-21-R-REX-REYNOLDS,ALPERSON-REX-REYNOLDS,2018,house,21,R,Rex Reynolds,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-22-R-RITCHIE-WHORTON,ALPERSON-RITCHIE-WHORTON,2018,house,22,R,Ritchie Whorton,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-23-R-TOMMY-HANES,ALPERSON-TOMMY-HANES,2018,house,23,R,Tommy Hanes,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-24-R-NATHANIEL-LEDBETTER,ALPERSON-NATHANIEL-LEDBETTER,2018,house,24,R,Nathaniel Ledbetter,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-25-R-MAC-MCCUTCHEON,ALPERSON-MAC-MCCUTCHEON,2018,house,25,R,Mac McCutcheon,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-26-R-KERRY-RICH,ALPERSON-KERRY-RICH,2018,house,26,R,Kerry Rich,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-27-D-BILL-JONES,ALPERSON-BILL-JONES,2018,house,27,D,Bill Jones,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-27-R-WES-KITCHENS,ALPERSON-WES-KITCHENS,2018,house,27,R,Wes Kitchens,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-28-D-KYLE-PIERCE,ALPERSON-KYLE-PIERCE,2018,house,28,D,Kyle Pierce,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-28-R-GIL-F-ISBELL,ALPERSON-GIL-F-ISBELL,2018,house,28,R,Gil F. Isbell,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-29-D-JARED-MILLICAN,ALPERSON-JARED-MILLICAN,2018,house,29,D,Jared Millican,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-29-R-BECKY-NORDGREN,ALPERSON-BECKY-NORDGREN,2018,house,29,R,Becky Nordgren,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-30-D-JARED-VAUGHN,ALPERSON-JARED-VAUGHN,2018,house,30,D,Jared Vaughn,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-30-R-B-CRAIG-LIPSCOMB,ALPERSON-B-CRAIG-LIPSCOMB,2018,house,30,R,B. Craig Lipscomb,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-31-R-MIKE-HOLMES,ALPERSON-MIKE-HOLMES,2018,house,31,R,Mike Holmes,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-32-D-BARBARA-BIGSBY-BOYD,ALPERSON-BARBARA-BIGSBY-BOYD,2018,house,32,D,Barbara Bigsby Boyd,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-32-R-JAMES-ALLEN-LLOYD,ALPERSON-JAMES-ALLEN-LLOYD,2018,house,32,R,James Allen Lloyd,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-33-D-SCOTT-BREWER,ALPERSON-SCOTT-BREWER,2018,house,33,D,Scott Brewer,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-33-R-RON-JOHNSON,ALPERSON-RON-JOHNSON,2018,house,33,R,Ron Johnson,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-34-R-DAVID-STANDRIDGE,ALPERSON-DAVID-STANDRIDGE,2018,house,34,R,David Standridge,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-35-R-STEVE-HURST,ALPERSON-STEVE-HURST,2018,house,35,R,Steve Hurst,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-36-D-NICKI-ARNOLD-SWINDLE,ALPERSON-NICKI-ARNOLD-SWINDLE,2018,house,36,D,Nicki Arnold-Swindle,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-36-R-RANDY-WOOD,ALPERSON-RANDY-WOOD,2018,house,36,R,Randy Wood,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-37-D-CHARLOTTE-A-CLARK-FRIESON,ALPERSON-CHARLOTTE-A-CLARK-FRIESON,2018,house,37,D,Charlotte A. Clark-Frieson,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-37-R-BOB-FINCHER,ALPERSON-BOB-FINCHER,2018,house,37,R,Bob Fincher,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-38-D-BRIAN-MCGEE,ALPERSON-BRIAN-MCGEE,2018,house,38,D,Brian McGee,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-38-R-DEBBIE-HAMBY-WOOD,ALPERSON-DEBBIE-HAMBY-WOOD,2018,house,38,R,Debbie Hamby Wood,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-39-R-GINNY-SHAVER,ALPERSON-GINNY-SHAVER,2018,house,39,R,Ginny Shaver,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-40-D-PAMELA-JEAN-HOWARD,ALPERSON-PAMELA-JEAN-HOWARD,2018,house,40,D,Pamela Jean Howard,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-40-R-KOVEN-K-L-BROWN,ALPERSON-KOVEN-K-L-BROWN,2018,house,40,R,"Koven ""K.L."" Brown",1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-41-D-EMILY-ANNE-MARCUM,ALPERSON-EMILY-ANNE-MARCUM,2018,house,41,D,Emily Anne Marcum,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-41-R-CORLEY-ELLIS,ALPERSON-CORLEY-ELLIS,2018,house,41,R,Corley Ellis,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-42-R-JAMES-M-JIMMY-MARTIN,ALPERSON-JAMES-M-JIMMY-MARTIN,2018,house,42,R,"James M. ""Jimmy"" Martin",1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-43-D-CARIN-MAYO,ALPERSON-CARIN-MAYO,2018,house,43,D,Carin Mayo,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-43-R-ARNOLD-G-MOONEY-II,ALPERSON-ARNOLD-G-MOONEY-II,2018,house,43,R,Arnold G. Mooney II,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-44-R-DANNY-GARRETT,ALPERSON-DANNY-GARRETT,2018,house,44,R,Danny Garrett,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-45-D-JENN-GRAY,ALPERSON-JENN-GRAY,2018,house,45,D,Jenn Gray,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-45-R-DICKIE-DRAKE,ALPERSON-DICKIE-DRAKE,2018,house,45,R,Dickie Drake,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-46-D-FELICIA-STEWART,ALPERSON-FELICIA-STEWART,2018,house,46,D,Felicia Stewart,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-46-R-DAVID-FAULKNER,ALPERSON-DAVID-FAULKNER,2018,house,46,R,David Faulkner,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-47-D-JIM-TOOMEY,ALPERSON-JIM-TOOMEY,2018,house,47,D,Jim Toomey,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-47-R-DAVID-WHEELER,ALPERSON-DAVID-WHEELER,2018,house,47,R,David Wheeler,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-48-D-ALLI-SUMMERFORD,ALPERSON-ALLI-SUMMERFORD,2018,house,48,D,Alli Summerford,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-48-R-JIM-CARNS,ALPERSON-JIM-CARNS,2018,house,48,R,Jim Carns,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-49-R-APRIL-WEAVER,ALPERSON-APRIL-WEAVER,2018,house,49,R,April Weaver,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-50-R-JIM-HILL,ALPERSON-JIM-HILL,2018,house,50,R,Jim Hill,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-51-D-VERONICA-R-JOHNSON,ALPERSON-VERONICA-R-JOHNSON,2018,house,51,D,Veronica R. Johnson,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-51-R-ALLEN-TREADAWAY,ALPERSON-ALLEN-TREADAWAY,2018,house,51,R,Allen Treadaway,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-52-D-JOHN-W-ROGERS-JR,ALPERSON-JOHN-W-ROGERS-JR,2018,house,52,D,"John W. Rogers, Jr.",1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-53-D-ANTHONY-DANIELS,ALPERSON-ANTHONY-DANIELS,2018,house,53,D,Anthony Daniels,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-54-D-NEIL-RAFFERTY,ALPERSON-NEIL-RAFFERTY,2018,house,54,D,Neil Rafferty,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-55-D-RODERICK-ROD-HAMPTON-SCOTT,ALPERSON-RODERICK-ROD-HAMPTON-SCOTT,2018,house,55,D,"Roderick ""Rod"" Hampton Scott",1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-56-D-LOUISE-LULU-ALEXANDER,ALPERSON-LOUISE-LULU-ALEXANDER,2018,house,56,D,"Louise ""Lulu"" Alexander",1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-57-D-MERIKA-COLEMAN,ALPERSON-MERIKA-COLEMAN,2018,house,57,D,Merika Coleman,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-58-D-ROLANDA-HOLLIS,ALPERSON-ROLANDA-HOLLIS,2018,house,58,D,Rolanda Hollis,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-59-D-MARY-MOORE,ALPERSON-MARY-MOORE,2018,house,59,D,Mary Moore,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-60-D-JUANDALYNN-GIVAN,ALPERSON-JUANDALYNN-GIVAN,2018,house,60,D,Juandalynn Givan,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-61-D-THOMAS-TOMMY-HYCHE,ALPERSON-THOMAS-TOMMY-HYCHE,2018,house,61,D,"Thomas ""Tommy"" Hyche",0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-61-R-RODNEY-SULLIVAN,ALPERSON-RODNEY-SULLIVAN,2018,house,61,R,Rodney Sullivan,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-62-D-WILL-BENTON,ALPERSON-WILL-BENTON,2018,house,62,D,Will Benton,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-62-R-RICH-WINGO,ALPERSON-RICH-WINGO,2018,house,62,R,Rich Wingo,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-63-R-BILL-POOLE,ALPERSON-BILL-POOLE,2018,house,63,R,Bill Poole,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-64-D-AMBER-SELMAN-LYNN,ALPERSON-AMBER-SELMAN-LYNN,2018,house,64,D,Amber Selman-Lynn,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-64-R-HARRY-SHIVER,ALPERSON-HARRY-SHIVER,2018,house,64,R,Harry Shiver,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-65-D-ELAINE-BEECH,ALPERSON-ELAINE-BEECH,2018,house,65,D,Elaine Beech,1,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-65-R-BRETT-EASTERBROOK,ALPERSON-BRETT-EASTERBROOK,2018,house,65,R,Brett Easterbrook,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-66-D-SUSAN-E-SMITH,ALPERSON-SUSAN-E-SMITH,2018,house,66,D,Susan E. Smith,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-66-R-ALAN-BAKER,ALPERSON-ALAN-BAKER,2018,house,66,R,Alan Baker,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-67-D-PRINCE-CHESTNUT,ALPERSON-PRINCE-CHESTNUT,2018,house,67,D,Prince Chestnut,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-68-D-THOMAS-E-ACTION-JACKSON,ALPERSON-THOMAS-E-ACTION-JACKSON,2018,house,68,D,"Thomas E. ""Action"" Jackson",1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-69-D-KELVIN-JAMICHAEL-LAWRENCE,ALPERSON-KELVIN-JAMICHAEL-LAWRENCE,2018,house,69,D,Kelvin Jamichael Lawrence,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-70-D-CHRISTOPHER-JOHN-ENGLAND,ALPERSON-CHRISTOPHER-JOHN-ENGLAND,2018,house,70,D,Christopher John England,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-71-D-ARTIS-A-J-MCCAMPBELL,ALPERSON-ARTIS-A-J-MCCAMPBELL,2018,house,71,D,"Artis ""A.J."" McCampbell",1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-72-D-RALPH-A-HOWARD,ALPERSON-RALPH-A-HOWARD,2018,house,72,D,Ralph A. Howard,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-73-D-JACK-JACOBS,ALPERSON-JACK-JACOBS,2018,house,73,D,Jack Jacobs,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-73-R-MATT-FRIDY,ALPERSON-MATT-FRIDY,2018,house,73,R,Matt Fridy,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-74-D-RAYFORD-MACK,ALPERSON-RAYFORD-MACK,2018,house,74,D,Rayford Mack,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-74-R-DIMITRI-POLIZOS,ALPERSON-DIMITRI-POLIZOS,2018,house,74,R,Dimitri Polizos,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-75-R-REED-INGRAM,ALPERSON-REED-INGRAM,2018,house,75,R,Reed Ingram,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-76-D-THAD-MCCLAMMY,ALPERSON-THAD-MCCLAMMY,2018,house,76,D,Thad McClammy,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-77-D-TASHINA-MORRIS,ALPERSON-TASHINA-MORRIS,2018,house,77,D,Tashina Morris,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-78-D-KIRK-HATCHER,ALPERSON-KIRK-HATCHER,2018,house,78,D,Kirk Hatcher,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-79-D-MARY-WYNNE-KLING,ALPERSON-MARY-WYNNE-KLING,2018,house,79,D,Mary Wynne Kling,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-79-R-JOE-LOVVORN,ALPERSON-JOE-LOVVORN,2018,house,79,R,Joe Lovvorn,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-80-D-CHRISTOPHER-F-APOSTLE-DAVIS,ALPERSON-CHRISTOPHER-F-APOSTLE-DAVIS,2018,house,80,D,"Christopher F. ""Apostle"" Davis",0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-80-R-CHRIS-E-BLACKSHEAR,ALPERSON-CHRIS-E-BLACKSHEAR,2018,house,80,R,Chris E. Blackshear,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-81-D-JEREMY-J-J-JEFFCOAT,ALPERSON-JEREMY-J-J-JEFFCOAT,2018,house,81,D,"Jeremy ""J.J."" Jeffcoat",0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-81-R-ED-OLIVER,ALPERSON-ED-OLIVER,2018,house,81,R,Ed Oliver,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-82-D-PEBBLIN-WALKER-WARREN,ALPERSON-PEBBLIN-WALKER-WARREN,2018,house,82,D,Pebblin Walker Warren,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-83-D-JEREMY-MR-EYG-GRAY,ALPERSON-JEREMY-MR-EYG-GRAY,2018,house,83,D,"Jeremy ""Mr. Eyg"" Gray",0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-83-R-MICHAEL-J-HOLDEN-II,ALPERSON-MICHAEL-J-HOLDEN-II,2018,house,83,R,Michael J Holden II,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-84-D-BERRY-FORTE,ALPERSON-BERRY-FORTE,2018,house,84,D,Berry Forte,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-85-D-DEXTER-GRIMSLEY,ALPERSON-DEXTER-GRIMSLEY,2018,house,85,D,Dexter Grimsley,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-85-R-J-RON-WILSON,ALPERSON-J-RON-WILSON,2018,house,85,R,J. Ron Wilson,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-86-D-KRISTY-M-KIRKLAND,ALPERSON-KRISTY-M-KIRKLAND,2018,house,86,D,Kristy M. Kirkland,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-86-R-PAUL-W-LEE,ALPERSON-PAUL-W-LEE,2018,house,86,R,Paul W. Lee,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-87-R-JEFF-SORRELLS,ALPERSON-JEFF-SORRELLS,2018,house,87,R,Jeff Sorrells,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-88-D-CORY-CREEL,ALPERSON-CORY-CREEL,2018,house,88,D,Cory Creel,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-88-R-WILL-DISMUKES,ALPERSON-WILL-DISMUKES,2018,house,88,R,Will Dismukes,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-89-D-JOEL-LEE-WILLIAMS,ALPERSON-JOEL-LEE-WILLIAMS,2018,house,89,D,Joel Lee Williams,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-89-R-WES-ALLEN,ALPERSON-WES-ALLEN,2018,house,89,R,Wes Allen,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-90-D-JOANNE-WHETSTONE,ALPERSON-JOANNE-WHETSTONE,2018,house,90,D,Joanne Whetstone,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-90-R-CHRIS-SELLS,ALPERSON-CHRIS-SELLS,2018,house,90,R,Chris Sells,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-91-R-RHETT-MARQUES,ALPERSON-RHETT-MARQUES,2018,house,91,R,Rhett Marques,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-92-R-MIKE-JONES-JR,ALPERSON-MIKE-JONES-JR,2018,house,92,R,"Mike Jones, Jr.",1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-93-R-STEVE-CLOUSE,ALPERSON-STEVE-CLOUSE,2018,house,93,R,Steve Clouse,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-94-D-DANIELLE-MASHBURN-MYRICK,ALPERSON-DANIELLE-MASHBURN-MYRICK,2018,house,94,D,Danielle Mashburn-Myrick,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-94-R-JOE-FAUST,ALPERSON-JOE-FAUST,2018,house,94,R,Joe Faust,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-95-R-STEVE-MCMILLAN,ALPERSON-STEVE-MCMILLAN,2018,house,95,R,Steve McMillan,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-96-D-MAURICE-HORSEY,ALPERSON-MAURICE-HORSEY,2018,house,96,D,Maurice Horsey,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-96-R-MATT-SIMPSON,ALPERSON-MATT-SIMPSON,2018,house,96,R,Matt Simpson,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-97-D-ADLINE-C-CLARKE,ALPERSON-ADLINE-C-CLARKE,2018,house,97,D,Adline C. Clarke,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-97-R-STEPHEN-MCNAIR,ALPERSON-STEPHEN-MCNAIR,2018,house,97,R,Stephen McNair,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-98-D-NAPOLEON-BRACY-JR,ALPERSON-NAPOLEON-BRACY-JR,2018,house,98,D,"Napoleon Bracy, Jr.",1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-99-D-SAM-JONES,ALPERSON-SAM-JONES,2018,house,99,D,Sam Jones,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-99-R-CHARLES-W-TALBERT,ALPERSON-CHARLES-W-TALBERT,2018,house,99,R,Charles W. Talbert,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-100-R-VICTOR-GASTON,ALPERSON-VICTOR-GASTON,2018,house,100,R,Victor Gaston,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-101-R-CHRIS-PRINGLE,ALPERSON-CHRIS-PRINGLE,2018,house,101,R,Chris Pringle,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-102-R-SHANE-STRINGER,ALPERSON-SHANE-STRINGER,2018,house,102,R,Shane Stringer,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-103-D-BARBARA-DRUMMOND,ALPERSON-BARBARA-DRUMMOND,2018,house,103,D,Barbara Drummond,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-104-D-ARLENE-CUNNINGHAM-EASLEY,ALPERSON-ARLENE-CUNNINGHAM-EASLEY,2018,house,104,D,Arlene Cunningham Easley,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-104-R-MARGIE-WILCOX,ALPERSON-MARGIE-WILCOX,2018,house,104,R,Margie Wilcox,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-house-105-R-CHIP-BROWN,ALPERSON-CHIP-BROWN,2018,house,105,R,Chip Brown,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-1-D-CAROLINE-SELF,ALPERSON-CAROLINE-SELF,2018,senate,1,D,Caroline Self,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-1-R-TIM-MELSON,ALPERSON-TIM-MELSON,2018,senate,1,R,Tim Melson,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-2-D-AMY-WASYLUKA,ALPERSON-AMY-WASYLUKA,2018,senate,2,D,Amy Wasyluka,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-2-R-TOM-BUTLER,ALPERSON-TOM-BUTLER,2018,senate,2,R,Tom Butler,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-3-R-ARTHUR-ORR,ALPERSON-ARTHUR-ORR,2018,senate,3,R,Arthur Orr,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-4-R-GARLAN-GUDGER,ALPERSON-GARLAN-GUDGER,2018,senate,4,R,Garlan Gudger,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-5-R-GREG-J-REED,ALPERSON-GREG-J-REED,2018,senate,5,R,Greg J. Reed,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-6-D-JOHNNY-MACK-MORROW,ALPERSON-JOHNNY-MACK-MORROW,2018,senate,6,D,Johnny Mack Morrow,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-6-R-LARRY-STUTTS,ALPERSON-LARRY-STUTTS,2018,senate,6,R,Larry Stutts,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-7-D-DEBORAH-BARROS,ALPERSON-DEBORAH-BARROS,2018,senate,7,D,Deborah Barros,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-7-R-SAM-GIVHAN,ALPERSON-SAM-GIVHAN,2018,senate,7,R,Sam Givhan,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-8-R-STEVE-LIVINGSTON,ALPERSON-STEVE-LIVINGSTON,2018,senate,8,R,Steve Livingston,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-9-R-CLAY-SCOFIELD,ALPERSON-CLAY-SCOFIELD,2018,senate,9,R,Clay Scofield,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-10-R-ANDREW-JONES,ALPERSON-ANDREW-JONES,2018,senate,10,R,Andrew Jones,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-11-D-CARL-CARTER,ALPERSON-CARL-CARTER,2018,senate,11,D,Carl Carter,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-11-R-JIM-MCCLENDON,ALPERSON-JIM-MCCLENDON,2018,senate,11,R,Jim McClendon,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-12-D-JIM-WILLIAMS,ALPERSON-JIM-WILLIAMS,2018,senate,12,D,Jim Williams,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-12-R-DEL-MARSH,ALPERSON-DEL-MARSH,2018,senate,12,R,Del Marsh,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-13-D-DARRELL-TURNER,ALPERSON-DARRELL-TURNER,2018,senate,13,D,Darrell Turner,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-13-R-RANDY-PRICE,ALPERSON-RANDY-PRICE,2018,senate,13,R,Randy Price,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-14-D-JERRY-MCDONALD,ALPERSON-JERRY-MCDONALD,2018,senate,14,D,Jerry McDonald,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-14-R-CAM-WARD,ALPERSON-CAM-WARD,2018,senate,14,R,Cam Ward,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-15-R-DAN-ROBERTS,ALPERSON-DAN-ROBERTS,2018,senate,15,R,Dan Roberts,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-16-D-LINDSEY-DECKARD,ALPERSON-LINDSEY-DECKARD,2018,senate,16,D,Lindsey Deckard,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-16-R-J-T-JABO-WAGGONER,ALPERSON-J-T-JABO-WAGGONER,2018,senate,16,R,"J.T. ""Jabo"" Waggoner",1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-17-R-SHAY-SHELNUTT,ALPERSON-SHAY-SHELNUTT,2018,senate,17,R,Shay Shelnutt,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-18-D-RODGER-M-SMITHERMAN,ALPERSON-RODGER-M-SMITHERMAN,2018,senate,18,D,Rodger M. Smitherman,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-19-D-PRISCILLA-DUNN,ALPERSON-PRISCILLA-DUNN,2018,senate,19,D,Priscilla Dunn,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-20-D-LINDA-COLEMAN-MADISON,ALPERSON-LINDA-COLEMAN-MADISON,2018,senate,20,D,Linda Coleman-Madison,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-21-D-RICK-BURNHAM,ALPERSON-RICK-BURNHAM,2018,senate,21,D,Rick Burnham,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-21-R-GERALD-ALLEN,ALPERSON-GERALD-ALLEN,2018,senate,21,R,Gerald Allen,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-22-R-GREG-ALBRITTON,ALPERSON-GREG-ALBRITTON,2018,senate,22,R,Greg Albritton,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-23-D-MALIKA-SANDERS-FORTIER,ALPERSON-MALIKA-SANDERS-FORTIER,2018,senate,23,D,Malika Sanders-Fortier,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-24-D-BOBBY-SINGLETON,ALPERSON-BOBBY-SINGLETON,2018,senate,24,D,Bobby Singleton,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-25-D-DAVID-A-SADLER,ALPERSON-DAVID-A-SADLER,2018,senate,25,D,David A. Sadler,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-25-R-WILL-BARFOOT,ALPERSON-WILL-BARFOOT,2018,senate,25,R,Will Barfoot,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-26-D-DAVID-COACH-BURKETTE,ALPERSON-DAVID-COACH-BURKETTE,2018,senate,26,D,"David ""Coach"" Burkette",1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-26-R-D-J-JOHNSON,ALPERSON-D-J-JOHNSON,2018,senate,26,R,D. J. Johnson,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-27-D-NANCY-CARLTON-BENDINGER,ALPERSON-NANCY-CARLTON-BENDINGER,2018,senate,27,D,Nancy Carlton Bendinger,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-27-R-TOM-WHATLEY,ALPERSON-TOM-WHATLEY,2018,senate,27,R,Tom Whatley,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-28-D-BILLY-BEASLEY,ALPERSON-BILLY-BEASLEY,2018,senate,28,D,Billy Beasley,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-29-R-DONNIE-CHESTEEN,ALPERSON-DONNIE-CHESTEEN,2018,senate,29,R,Donnie Chesteen,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-30-R-CLYDE-CHAMBLISS-JR,ALPERSON-CLYDE-CHAMBLISS-JR,2018,senate,30,R,"Clyde Chambliss, Jr.",1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-31-R-JIMMY-W-HOLLEY,ALPERSON-JIMMY-W-HOLLEY,2018,senate,31,R,Jimmy W. Holley,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-32-D-JASON-FISHER,ALPERSON-JASON-FISHER,2018,senate,32,D,Jason Fisher,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-32-R-CHRIS-ELLIOTT,ALPERSON-CHRIS-ELLIOTT,2018,senate,32,R,Chris Elliott,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-33-D-VIVIAN-DAVIS-FIGURES,ALPERSON-VIVIAN-DAVIS-FIGURES,2018,senate,33,D,Vivian Davis Figures,1,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-34-R-JACK-WILLIAMS,ALPERSON-JACK-WILLIAMS,2018,senate,34,R,Jack Williams,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-35-D-TOM-HOLMES,ALPERSON-TOM-HOLMES,2018,senate,35,D,Tom Holmes,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2018-senate-35-R-DAVID-SESSIONS,ALPERSON-DAVID-SESSIONS,2018,senate,35,R,David Sessions,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-1-R-GSL001RPET,ALPERSON-GSL001RPET,2022,house,1,R,GSL001RPET,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-2-R-GSL002RHAR,ALPERSON-GSL002RHAR,2022,house,2,R,GSL002RHAR,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-3-D-GSL003DTHO,ALPERSON-GSL003DTHO,2022,house,3,D,GSL003DTHO,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-3-R-GSL003RUND,ALPERSON-GSL003RUND,2022,house,3,R,GSL003RUND,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-4-R-GSL004RMOO,ALPERSON-GSL004RMOO,2022,house,4,R,GSL004RMOO,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-5-R-GSL005RCRA,ALPERSON-GSL005RCRA,2022,house,5,R,GSL005RCRA,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-6-R-GSL006RWHI,ALPERSON-GSL006RWHI,2022,house,6,R,GSL006RWHI,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-7-D-GSL007DJON,ALPERSON-GSL007DJON,2022,house,7,D,GSL007DJON,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-7-R-GSL007RYAR,ALPERSON-GSL007RYAR,2022,house,7,R,GSL007RYAR,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-8-R-GSL008RCOL,ALPERSON-GSL008RCOL,2022,house,8,R,GSL008RCOL,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-9-R-GSL009RSTA,ALPERSON-GSL009RSTA,2022,house,9,R,GSL009RSTA,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-10-D-GSL010DLAN,ALPERSON-GSL010DLAN,2022,house,10,D,GSL010DLAN,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-10-R-GSL010RCOL,ALPERSON-GSL010RCOL,2022,house,10,R,GSL010RCOL,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-11-R-GSL011RSHE,ALPERSON-GSL011RSHE,2022,house,11,R,GSL011RSHE,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-12-D-GSL012DFIE,ALPERSON-GSL012DFIE,2022,house,12,D,GSL012DFIE,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-12-R-GSL012RHAR,ALPERSON-GSL012RHAR,2022,house,12,R,GSL012RHAR,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-13-R-GSL013RWOO,ALPERSON-GSL013RWOO,2022,house,13,R,GSL013RWOO,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-14-R-GSL014RWAD,ALPERSON-GSL014RWAD,2022,house,14,R,GSL014RWAD,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-15-D-GSL015DROU,ALPERSON-GSL015DROU,2022,house,15,D,GSL015DROU,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-15-R-GSL015RHUL,ALPERSON-GSL015RHUL,2022,house,15,R,GSL015RHUL,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-16-R-GSL016RSOU,ALPERSON-GSL016RSOU,2022,house,16,R,GSL016RSOU,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-17-R-GSL017REST,ALPERSON-GSL017REST,2022,house,17,R,GSL017REST,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-18-R-GSL018RKIE,ALPERSON-GSL018RKIE,2022,house,18,R,GSL018RKIE,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-19-D-GSL019DHAL,ALPERSON-GSL019DHAL,2022,house,19,D,GSL019DHAL,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-20-R-GSL020RLOM,ALPERSON-GSL020RLOM,2022,house,20,R,GSL020RLOM,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-21-R-GSL021RREY,ALPERSON-GSL021RREY,2022,house,21,R,GSL021RREY,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-22-R-GSL022RWHO,ALPERSON-GSL022RWHO,2022,house,22,R,GSL022RWHO,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-23-R-GSL023RKIR,ALPERSON-GSL023RKIR,2022,house,23,R,GSL023RKIR,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-24-R-GSL024RLED,ALPERSON-GSL024RLED,2022,house,24,R,GSL024RLED,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-25-D-GSL025DHAG,ALPERSON-GSL025DHAG,2022,house,25,D,GSL025DHAG,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-25-R-GSL025RRIG,ALPERSON-GSL025RRIG,2022,house,25,R,GSL025RRIG,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-26-D-GSL026DALF,ALPERSON-GSL026DALF,2022,house,26,D,GSL026DALF,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-26-R-GSL026RCOL,ALPERSON-GSL026RCOL,2022,house,26,R,GSL026RCOL,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-27-D-GSL027DNEU,ALPERSON-GSL027DNEU,2022,house,27,D,GSL027DNEU,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-27-R-GSL027RKIT,ALPERSON-GSL027RKIT,2022,house,27,R,GSL027RKIT,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-28-R-GSL028RBUT,ALPERSON-GSL028RBUT,2022,house,28,R,GSL028RBUT,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-29-R-GSL029RGID,ALPERSON-GSL029RGID,2022,house,29,R,GSL029RGID,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-30-R-GSL030RLIP,ALPERSON-GSL030RLIP,2022,house,30,R,GSL030RLIP,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-31-R-GSL031RSTU,ALPERSON-GSL031RSTU,2022,house,31,R,GSL031RSTU,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-32-D-GSL032DBOY,ALPERSON-GSL032DBOY,2022,house,32,D,GSL032DBOY,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-32-R-GSL032RJAC,ALPERSON-GSL032RJAC,2022,house,32,R,GSL032RJAC,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-33-D-GSL033DCRU,ALPERSON-GSL033DCRU,2022,house,33,D,GSL033DCRU,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-33-R-GSL033RROB,ALPERSON-GSL033RROB,2022,house,33,R,GSL033RROB,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-34-R-GSL034RSTA,ALPERSON-GSL034RSTA,2022,house,34,R,GSL034RSTA,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-35-R-GSL035RHUR,ALPERSON-GSL035RHUR,2022,house,35,R,GSL035RHUR,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-36-R-GSL036RWOO,ALPERSON-GSL036RWOO,2022,house,36,R,GSL036RWOO,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-37-R-GSL037RFIN,ALPERSON-GSL037RFIN,2022,house,37,R,GSL037RFIN,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-38-R-GSL038RWOO,ALPERSON-GSL038RWOO,2022,house,38,R,GSL038RWOO,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-39-R-GSL039RSHA,ALPERSON-GSL039RSHA,2022,house,39,R,GSL039RSHA,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-40-D-GSL040DHOW,ALPERSON-GSL040DHOW,2022,house,40,D,GSL040DHOW,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-40-R-GSL040RROB,ALPERSON-GSL040RROB,2022,house,40,R,GSL040RROB,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-41-D-GSL041DNEL,ALPERSON-GSL041DNEL,2022,house,41,D,GSL041DNEL,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-41-R-GSL041RELL,ALPERSON-GSL041RELL,2022,house,41,R,GSL041RELL,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-42-R-GSL042RSMI,ALPERSON-GSL042RSMI,2022,house,42,R,GSL042RSMI,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-43-D-GSL043DCLE,ALPERSON-GSL043DCLE,2022,house,43,D,GSL043DCLE,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-43-R-GSL043RMOO,ALPERSON-GSL043RMOO,2022,house,43,R,GSL043RMOO,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-44-R-GSL044RGAR,ALPERSON-GSL044RGAR,2022,house,44,R,GSL044RGAR,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-45-R-GSL045RDUB,ALPERSON-GSL045RDUB,2022,house,45,R,GSL045RDUB,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-46-R-GSL046RFAU,ALPERSON-GSL046RFAU,2022,house,46,R,GSL046RFAU,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-47-D-GSL047DCOL,ALPERSON-GSL047DCOL,2022,house,47,D,GSL047DCOL,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-47-R-GSL047RSHA,ALPERSON-GSL047RSHA,2022,house,47,R,GSL047RSHA,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-48-R-GSL048RCAR,ALPERSON-GSL048RCAR,2022,house,48,R,GSL048RCAR,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-49-R-GSL049RBED,ALPERSON-GSL049RBED,2022,house,49,R,GSL049RBED,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-50-R-GSL050RHIL,ALPERSON-GSL050RHIL,2022,house,50,R,GSL050RHIL,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-51-R-GSL051RTRE,ALPERSON-GSL051RTRE,2022,house,51,R,GSL051RTRE,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-52-D-GSL052DROG,ALPERSON-GSL052DROG,2022,house,52,D,GSL052DROG,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-53-D-GSL053DDAN,ALPERSON-GSL053DDAN,2022,house,53,D,GSL053DDAN,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-54-D-GSL054DRAF,ALPERSON-GSL054DRAF,2022,house,54,D,GSL054DRAF,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-55-D-GSL055DPLU,ALPERSON-GSL055DPLU,2022,house,55,D,GSL055DPLU,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-56-D-GSL056DTIL,ALPERSON-GSL056DTIL,2022,house,56,D,GSL056DTIL,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-57-D-GSL057DSEL,ALPERSON-GSL057DSEL,2022,house,57,D,GSL057DSEL,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-57-R-GSL057RBAU,ALPERSON-GSL057RBAU,2022,house,57,R,GSL057RBAU,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-58-D-GSL058DHOL,ALPERSON-GSL058DHOL,2022,house,58,D,GSL058DHOL,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-59-D-GSL059DMOO,ALPERSON-GSL059DMOO,2022,house,59,D,GSL059DMOO,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-60-D-GSL060DGIV,ALPERSON-GSL060DGIV,2022,house,60,D,GSL060DGIV,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-61-R-GSL061RBOL,ALPERSON-GSL061RBOL,2022,house,61,R,GSL061RBOL,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-62-D-GSL062DCEP,ALPERSON-GSL062DCEP,2022,house,62,D,GSL062DCEP,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-62-R-GSL062RLAM,ALPERSON-GSL062RLAM,2022,house,62,R,GSL062RLAM,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-63-D-GSL063DADA,ALPERSON-GSL063DADA,2022,house,63,D,GSL063DADA,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-63-R-GSL063RALM,ALPERSON-GSL063RALM,2022,house,63,R,GSL063RALM,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-64-R-GSL064RGIV,ALPERSON-GSL064RGIV,2022,house,64,R,GSL064RGIV,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-65-D-GSL065DCAS,ALPERSON-GSL065DCAS,2022,house,65,D,GSL065DCAS,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-65-R-GSL065REAS,ALPERSON-GSL065REAS,2022,house,65,R,GSL065REAS,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-66-R-GSL066RBAK,ALPERSON-GSL066RBAK,2022,house,66,R,GSL066RBAK,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-67-D-GSL067DCHE,ALPERSON-GSL067DCHE,2022,house,67,D,GSL067DCHE,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-68-D-GSL068DJAC,ALPERSON-GSL068DJAC,2022,house,68,D,GSL068DJAC,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-68-R-GSL068RKEL,ALPERSON-GSL068RKEL,2022,house,68,R,GSL068RKEL,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-69-D-GSL069DLAW,ALPERSON-GSL069DLAW,2022,house,69,D,GSL069DLAW,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-69-R-GSL069RMAD,ALPERSON-GSL069RMAD,2022,house,69,R,GSL069RMAD,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-70-D-GSL070DENG,ALPERSON-GSL070DENG,2022,house,70,D,GSL070DENG,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-71-D-GSL071DMCC,ALPERSON-GSL071DMCC,2022,house,71,D,GSL071DMCC,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-72-D-GSL072DTRA,ALPERSON-GSL072DTRA,2022,house,72,D,GSL072DTRA,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-73-R-GSL073RPAS,ALPERSON-GSL073RPAS,2022,house,73,R,GSL073RPAS,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-74-D-GSL074DENS,ALPERSON-GSL074DENS,2022,house,74,D,GSL074DENS,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-74-R-GSL074RMEA,ALPERSON-GSL074RMEA,2022,house,74,R,GSL074RMEA,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-75-R-GSL075RING,ALPERSON-GSL075RING,2022,house,75,R,GSL075RING,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-76-D-GSL076DMCC,ALPERSON-GSL076DMCC,2022,house,76,D,GSL076DMCC,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-77-D-GSL077DMOR,ALPERSON-GSL077DMOR,2022,house,77,D,GSL077DMOR,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-78-D-GSL078DHAS,ALPERSON-GSL078DHAS,2022,house,78,D,GSL078DHAS,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-79-R-GSL079RLOV,ALPERSON-GSL079RLOV,2022,house,79,R,GSL079RLOV,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-80-R-GSL080RBLA,ALPERSON-GSL080RBLA,2022,house,80,R,GSL080RBLA,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-81-R-GSL081ROLI,ALPERSON-GSL081ROLI,2022,house,81,R,GSL081ROLI,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-82-D-GSL082DWAR,ALPERSON-GSL082DWAR,2022,house,82,D,GSL082DWAR,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-82-R-GSL082RPIE,ALPERSON-GSL082RPIE,2022,house,82,R,GSL082RPIE,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-83-D-GSL083DGRA,ALPERSON-GSL083DGRA,2022,house,83,D,GSL083DGRA,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-84-D-GSL084DFOR,ALPERSON-GSL084DFOR,2022,house,84,D,GSL084DFOR,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-85-D-GSL085DGRI,ALPERSON-GSL085DGRI,2022,house,85,D,GSL085DGRI,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-85-R-GSL085RREH,ALPERSON-GSL085RREH,2022,house,85,R,GSL085RREH,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-86-R-GSL086RLEE,ALPERSON-GSL086RLEE,2022,house,86,R,GSL086RLEE,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-87-R-GSL087RSOR,ALPERSON-GSL087RSOR,2022,house,87,R,GSL087RSOR,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-88-R-GSL088RSTA,ALPERSON-GSL088RSTA,2022,house,88,R,GSL088RSTA,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-89-R-GSL089RPAR,ALPERSON-GSL089RPAR,2022,house,89,R,GSL089RPAR,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-90-R-GSL090RSEL,ALPERSON-GSL090RSEL,2022,house,90,R,GSL090RSEL,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-91-R-GSL091RMAR,ALPERSON-GSL091RMAR,2022,house,91,R,GSL091RMAR,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-92-D-GSL092DHUB,ALPERSON-GSL092DHUB,2022,house,92,D,GSL092DHUB,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-92-R-GSL092RHAM,ALPERSON-GSL092RHAM,2022,house,92,R,GSL092RHAM,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-93-R-GSL093RCLO,ALPERSON-GSL093RCLO,2022,house,93,R,GSL093RCLO,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-94-R-GSL094RFID,ALPERSON-GSL094RFID,2022,house,94,R,GSL094RFID,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-95-D-GSL095DBRA,ALPERSON-GSL095DBRA,2022,house,95,D,GSL095DBRA,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-95-R-GSL095RHOL,ALPERSON-GSL095RHOL,2022,house,95,R,GSL095RHOL,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-96-R-GSL096RSIM,ALPERSON-GSL096RSIM,2022,house,96,R,GSL096RSIM,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-97-D-GSL097DCLA,ALPERSON-GSL097DCLA,2022,house,97,D,GSL097DCLA,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-98-D-GSL098DBRA,ALPERSON-GSL098DBRA,2022,house,98,D,GSL098DBRA,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-99-D-GSL099DJON,ALPERSON-GSL099DJON,2022,house,99,D,GSL099DJON,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-100-R-GSL100RSHI,ALPERSON-GSL100RSHI,2022,house,100,R,GSL100RSHI,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-101-R-GSL101RPRI,ALPERSON-GSL101RPRI,2022,house,101,R,GSL101RPRI,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-102-R-GSL102RSTR,ALPERSON-GSL102RSTR,2022,house,102,R,GSL102RSTR,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-103-D-GSL103DDRU,ALPERSON-GSL103DDRU,2022,house,103,D,GSL103DDRU,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-104-R-GSL104RWIL,ALPERSON-GSL104RWIL,2022,house,104,R,GSL104RWIL,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-house-105-R-GSL105RBRO,ALPERSON-GSL105RBRO,2022,house,105,R,GSL105RBRO,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-1-R-GSU01RMEL,ALPERSON-GSU01RMEL,2022,senate,1,R,GSU01RMEL,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-2-D-GSU02DLEW,ALPERSON-GSU02DLEW,2022,senate,2,D,GSU02DLEW,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-2-R-GSU02RBUT,ALPERSON-GSU02RBUT,2022,senate,2,R,GSU02RBUT,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-3-R-GSU03RORR,ALPERSON-GSU03RORR,2022,senate,3,R,GSU03RORR,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-4-R-GSU04RGUD,ALPERSON-GSU04RGUD,2022,senate,4,R,GSU04RGUD,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-5-R-GSU05RREE,ALPERSON-GSU05RREE,2022,senate,5,R,GSU05RREE,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-6-R-GSU06RSTU,ALPERSON-GSU06RSTU,2022,senate,6,R,GSU06RSTU,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-7-D-GSU07DWIL,ALPERSON-GSU07DWIL,2022,senate,7,D,GSU07DWIL,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-7-R-GSU07RGIV,ALPERSON-GSU07RGIV,2022,senate,7,R,GSU07RGIV,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-8-R-GSU08RLIV,ALPERSON-GSU08RLIV,2022,senate,8,R,GSU08RLIV,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-9-R-GSU09RSCO,ALPERSON-GSU09RSCO,2022,senate,9,R,GSU09RSCO,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-10-R-GSU10RJON,ALPERSON-GSU10RJON,2022,senate,10,R,GSU10RJON,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-11-R-GSU11RBEL,ALPERSON-GSU11RBEL,2022,senate,11,R,GSU11RBEL,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-12-D-GSU12DMCC,ALPERSON-GSU12DMCC,2022,senate,12,D,GSU12DMCC,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-12-R-GSU12RKEL,ALPERSON-GSU12RKEL,2022,senate,12,R,GSU12RKEL,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-13-R-GSU13RPRI,ALPERSON-GSU13RPRI,2022,senate,13,R,GSU13RPRI,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-14-R-GSU14RWEA,ALPERSON-GSU14RWEA,2022,senate,14,R,GSU14RWEA,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-15-R-GSU15RROB,ALPERSON-GSU15RROB,2022,senate,15,R,GSU15RROB,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-16-R-GSU16RWAG,ALPERSON-GSU16RWAG,2022,senate,16,R,GSU16RWAG,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-17-R-GSU17RSHE,ALPERSON-GSU17RSHE,2022,senate,17,R,GSU17RSHE,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-18-D-GSU18DSMI,ALPERSON-GSU18DSMI,2022,senate,18,D,GSU18DSMI,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-19-D-GSU19DCOL,ALPERSON-GSU19DCOL,2022,senate,19,D,GSU19DCOL,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-20-D-GSU20DCOL,ALPERSON-GSU20DCOL,2022,senate,20,D,GSU20DCOL,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-21-D-GSU21DWAR,ALPERSON-GSU21DWAR,2022,senate,21,D,GSU21DWAR,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-21-R-GSU21RALL,ALPERSON-GSU21RALL,2022,senate,21,R,GSU21RALL,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-22-R-GSU22RALB,ALPERSON-GSU22RALB,2022,senate,22,R,GSU22RALB,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-23-D-GSU23DSTE,ALPERSON-GSU23DSTE,2022,senate,23,D,GSU23DSTE,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-23-R-GSU23RNIM,ALPERSON-GSU23RNIM,2022,senate,23,R,GSU23RNIM,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-24-D-GSU24DSIN,ALPERSON-GSU24DSIN,2022,senate,24,D,GSU24DSIN,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-25-R-GSU25RBAR,ALPERSON-GSU25RBAR,2022,senate,25,R,GSU25RBAR,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-26-D-GSU26DHAT,ALPERSON-GSU26DHAT,2022,senate,26,D,GSU26DHAT,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-27-D-GSU27DREE,ALPERSON-GSU27DREE,2022,senate,27,D,GSU27DREE,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-27-R-GSU27RHOV,ALPERSON-GSU27RHOV,2022,senate,27,R,GSU27RHOV,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-28-D-GSU28DBEA,ALPERSON-GSU28DBEA,2022,senate,28,D,GSU28DBEA,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-29-D-GSU29DMAT,ALPERSON-GSU29DMAT,2022,senate,29,D,GSU29DMAT,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-29-R-GSU29RCHE,ALPERSON-GSU29RCHE,2022,senate,29,R,GSU29RCHE,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-30-R-GSU30RCHA,ALPERSON-GSU30RCHA,2022,senate,30,R,GSU30RCHA,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-31-R-GSU31RCAR,ALPERSON-GSU31RCAR,2022,senate,31,R,GSU31RCAR,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-32-R-GSU32RELL,ALPERSON-GSU32RELL,2022,senate,32,R,GSU32RELL,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-33-D-GSU33DFIG,ALPERSON-GSU33DFIG,2022,senate,33,D,GSU33DFIG,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-33-R-GSU33RRIE,ALPERSON-GSU33RRIE,2022,senate,33,R,GSU33RRIE,0,0,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-34-R-GSU34RWIL,ALPERSON-GSU34RWIL,2022,senate,34,R,GSU34RWIL,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.
+AL-2022-senate-35-R-GSU35RSES,ALPERSON-GSU35RSES,2022,senate,35,R,GSU35RSES,0,1,,,,,,pending,,Do not infer from name or appearance; require reliable biographical evidence.

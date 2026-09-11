@@ -1,0 +1,10 @@
+{
+  "id": "5BA13B72B1697901",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "Creation of a healthcare authority is a structural/organizational measure with insufficient policy specificity to map.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

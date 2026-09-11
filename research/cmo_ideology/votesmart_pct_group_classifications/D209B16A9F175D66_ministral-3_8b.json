@@ -1,0 +1,11 @@
+{
+  "policy_key": "physician_assisted_suicide",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Allow doctors to prescribe lethal medications for terminally ill patients who request it.",
+  "evidence_quote": "Legalize physician assisted suicide in Alabama.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

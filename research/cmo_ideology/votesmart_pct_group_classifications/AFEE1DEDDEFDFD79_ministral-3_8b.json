@@ -1,0 +1,11 @@
+{
+  "policy_key": "internet_privacy_laws",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Advocating for laws that restrict how companies and governments can collect, use, or share personal data online.",
+  "evidence_quote": "Support strong Internet privacy laws.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

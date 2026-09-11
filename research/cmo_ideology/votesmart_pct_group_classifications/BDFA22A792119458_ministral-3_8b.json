@@ -1,0 +1,11 @@
+{
+  "policy_key": "cockfighting_penalties",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting stricter laws against cockfighting (a historically marginalized but illegal activity) is conventionally associated with a more punitive, conservative approach to crime enforcement.",
+  "evidence_quote": "Do you support increasing penalties for illegal cockfighting?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "crime_issues",
+  "plain_english_policy": "Require that crimes based on gender, sexual orientation or disability be prosecuted as hate crimes.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "primary",
+      "rationale": "This policy involves government intervention in the legal process to ensure that certain crimes are prosecuted as hate crimes."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "Expanding access to justice and protection for marginalized groups is a form of welfare expansion."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Require that crimes based on gender, sexual orientation or disability be prosecuted as hate crimes.\" - Source: [2002 Crime Issues Questionnaire Option k] (Year: 2002, Section: Crime Issues, Question: Indicate which principles you support (if any) to address crime.)",
+  "needs_human_review": false,
+  "review_reason": ""
+}

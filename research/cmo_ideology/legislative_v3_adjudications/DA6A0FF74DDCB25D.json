@@ -1,0 +1,10 @@
+{
+  "id": "DA6A0FF74DDCB25D",
+  "decision": "map",
+  "primitive_axis": "criminal_punishment",
+  "policy_pole": "punitive",
+  "confidence": "high",
+  "rationale": "Establishes female genital mutilation as a crime with criminal penalties, which aligns with increasing punitive measures for prohibited conduct.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

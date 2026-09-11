@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "healthcare_access",
+  "plain_english_policy": "support_expanding_health_care_through_commercial_insurance_reform",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "The policy aims to expand access to health care through commercial insurance reform."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"I support expanding access to health care through commercial health insurance reform.\" - Candidate statement in the 2010 Alabama healthcare questionnaire.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

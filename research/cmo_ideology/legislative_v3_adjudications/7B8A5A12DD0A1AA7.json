@@ -1,0 +1,10 @@
+{
+  "id": "7B8A5A12DD0A1AA7",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "The bill is administrative (funding transfers, claims payment) with no clear policy direction on the allowed axes. The amendment tabled further weakens its substantive impact.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

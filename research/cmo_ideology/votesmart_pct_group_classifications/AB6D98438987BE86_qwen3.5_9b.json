@@ -1,0 +1,11 @@
+{
+  "policy_key": "election_day_holiday",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting making Election Day a national holiday is generally viewed as a progressive measure aimed at increasing voter accessibility and participation.",
+  "evidence_quote": "g) Support designating Election Day as a national holiday.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

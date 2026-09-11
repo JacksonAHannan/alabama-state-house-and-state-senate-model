@@ -1,0 +1,10 @@
+{
+  "id": "53982FF4A4B7054C",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Deletes duplicated absentee-ballot language and repeals a provision without showing a substantive change in voting access or election controls.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

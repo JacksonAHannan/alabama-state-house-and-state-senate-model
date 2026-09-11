@@ -1,0 +1,11 @@
+{
+  "policy_key": "alternative_fuels_development",
+  "dimension": "environment_position",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Promoting research, production, and adoption of fuels like biofuels, hydrogen, or electric alternatives to reduce reliance on fossil fuels.",
+  "evidence_quote": "Encourage further development and use of alternative fuels.",
+  "needs_human_review": true,
+  "review_reason": "Neutral/ambiguous: Could align with progressive goals (climate action) or conservative ones (energy independence, innovation). Context matters."
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "sex_education_safe_practices",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Promote sex education that emphasizes safe sexual practices (e.g., STI prevention, contraception).",
+  "evidence_quote": "**f) Support sex education programs which stress safe sexual practices.**",
+  "needs_human_review": false,
+  "review_reason": ""
+}

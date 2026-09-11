@@ -1,0 +1,10 @@
+{
+  "id": "DF92F38F3708F4CC",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "low",
+  "rationale": "The bill is highly localized (Bibb County-specific) and administrative in nature, focusing on procedural/technical details for county-level health insurance provision. No clear policy direction aligns with the allowed axes.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

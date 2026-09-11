@@ -1,0 +1,10 @@
+{
+  "id": "1AFFFE42638D8CB0",
+  "decision": "map",
+  "primitive_axis": "education_access",
+  "policy_pole": "restrict",
+  "confidence": "medium",
+  "rationale": "Conditions admission to first grade on successful completion of kindergarten, restricting direct access to first grade for children who do not meet the prerequisite.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

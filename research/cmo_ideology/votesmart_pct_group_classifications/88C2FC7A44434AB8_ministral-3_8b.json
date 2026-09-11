@@ -1,0 +1,11 @@
+{
+  "policy_key": "tax_cuts_for_growth",
+  "dimension": "economic_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Tax reduction to stimulate economic growth by increasing disposable income and business investment.",
+  "evidence_quote": "Do you support lowering taxes as a means of promoting economic growth?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

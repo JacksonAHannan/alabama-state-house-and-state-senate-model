@@ -1,0 +1,11 @@
+{
+  "policy_key": "immigration_amnesty",
+  "dimension": "government_reform_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting amnesty for undocumented immigrants is conventionally associated with progressive positions on immigration.",
+  "evidence_quote": "e) Support amnesty for illegal immigrants already working in the United States.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

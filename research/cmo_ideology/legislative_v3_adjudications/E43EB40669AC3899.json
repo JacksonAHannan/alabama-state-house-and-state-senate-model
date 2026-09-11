@@ -1,0 +1,10 @@
+{
+  "id": "E43EB40669AC3899",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "This is a **technical/administrative** measure (authorizing a fee for warrant recall) with no substantive policy impact on criminal justice outcomes. It lacks clear directional effect on any allowed axis.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "ministral_structured_then_schema_validated"
+}

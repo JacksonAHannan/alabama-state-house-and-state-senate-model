@@ -1,0 +1,10 @@
+{
+  "id": "09F211D2B009159E",
+  "decision": "map",
+  "primitive_axis": "land_use_property_rights",
+  "policy_pole": "property_rights",
+  "confidence": "high",
+  "rationale": "Removing the requirement for fair market value in land transfers strengthens property rights by reducing government interference.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

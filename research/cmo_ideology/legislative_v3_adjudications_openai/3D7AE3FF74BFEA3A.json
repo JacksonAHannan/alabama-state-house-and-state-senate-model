@@ -1,0 +1,10 @@
+{
+  "id": "3D7AE3FF74BFEA3A",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Concerns appointment of a local health-care authority board and is administrative governance rather than a clear healthcare-policy pole.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

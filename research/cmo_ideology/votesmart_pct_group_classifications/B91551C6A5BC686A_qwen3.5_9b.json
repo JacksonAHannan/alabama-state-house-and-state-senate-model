@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_prison_expansion",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting increased federal prison spending is conventionally associated with progressive penal reform agendas that prioritize rehabilitation and reducing incarceration costs over punitive expansion.",
+  "evidence_quote": "b) Increase spending to build more federal prisons.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

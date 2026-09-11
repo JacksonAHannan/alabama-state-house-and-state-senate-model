@@ -1,0 +1,10 @@
+{
+  "id": "B3837CCB883A107B",
+  "decision": "map",
+  "primitive_axis": "gun_purchase_regulation",
+  "policy_pole": "weaken",
+  "confidence": "high",
+  "rationale": "Increases pistol permit fees, which effectively restricts access (though framed as revenue generation). *Correction*: This actually **restricts** gun access via financial barrier. Reclassify as follows:",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

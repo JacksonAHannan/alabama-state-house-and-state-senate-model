@@ -4,6 +4,23 @@ Scope: extend the existing descriptive Southern v3 publication through 2024;
 reuse the Alabama historical map layout. No forecast or research-only v4 model
 was promoted, and no original election return was modified.
 
+## 2026-09-11 release: refreshed Alabama baseline and training-frame contract
+
+- Upstream v3 run `WAR-POST2016-V3-530FBD4238CC483E557C` (warehouse
+  `RUN-504CE4C4DF904D88A5A40D268F3FCEAB`), retrained on the owner's authorization
+  after the previous run's Alabama same-cycle ticket baseline was found to predate
+  the accepted precinct-identity repairs; independently approved
+  (`SOUTHERN_V3_INDEPENDENT_REVIEW_2026_09_11.md`, `…_CONTRACT.md`). The manifest
+  now declares the warehouse by training-frame content digest, not whole-file hash.
+- Historical data run `WAR-SOUTH-HIST-V1-6D84680E7B757B057AF1`: same accounting as
+  the 2026-09-08 release (116 slices, 4,280 strict, 8,560 orientations, 620
+  backcasts, 302 exclusions). Only Alabama raw gaps changed (89 races, max 8.77 pp);
+  non-Alabama WAR moved at most 0.451 pp through the pooled refit; six `war_party`
+  labels changed. Map payload SHA-256
+  `c9535d00bce8316dc0ea8d37ddc26b4690b0101a436a7c9d308172add9c327ab`.
+- Browser harness passed (116 slices, both viewports, no errors). Release record:
+  `SITE_RELEASE_2026_09_11.md`.
+
 ## 2026-09-08 release: certified Alabama lineage and independent approval
 
 - Upstream v3 run `WAR-POST2016-V3-4AF79A70EAA8F39EBD49`, independently approved for

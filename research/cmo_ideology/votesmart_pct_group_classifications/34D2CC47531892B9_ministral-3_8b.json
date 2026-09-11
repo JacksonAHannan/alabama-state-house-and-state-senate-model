@@ -1,0 +1,11 @@
+{
+  "policy_key": "state_budget_other_expanded_categories",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting funding for additional or unspecified categories in the state budget (e.g., new programs, expanded services) typically aligns with progressive priorities to increase public investment.",
+  "evidence_quote": "l) Other or expanded categories",
+  "needs_human_review": false,
+  "review_reason": ""
+}

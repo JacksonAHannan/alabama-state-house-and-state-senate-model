@@ -1,0 +1,11 @@
+{
+  "policy_key": "private_social_security_accounts",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Shift a portion of Social Security funding from the government-run payroll tax system to private investment accounts managed by private firms (with government oversight).",
+  "evidence_quote": "**b) Allow workers to invest a portion of their payroll tax in private accounts managed by private firms contracted by the government.**",
+  "needs_human_review": false,
+  "review_reason": ""
+}

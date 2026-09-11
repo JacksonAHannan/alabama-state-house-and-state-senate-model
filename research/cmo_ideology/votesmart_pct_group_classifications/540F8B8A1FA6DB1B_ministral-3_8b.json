@@ -1,0 +1,11 @@
+{
+  "policy_key": "law_enforcement_immunity",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Would you shield police and government officials from being sued for alleged misconduct?",
+  "evidence_quote": "Do you support protecting government officials, including law enforcement officers, from personal liability in civil lawsuits concerning alleged misconduct?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

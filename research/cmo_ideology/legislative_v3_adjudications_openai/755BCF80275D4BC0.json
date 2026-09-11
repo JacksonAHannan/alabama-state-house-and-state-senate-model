@@ -1,0 +1,10 @@
+{
+  "id": "755BCF80275D4BC0",
+  "decision": "map",
+  "primitive_axis": "education_curriculum_traditionalism",
+  "policy_pole": "traditional",
+  "confidence": "medium",
+  "rationale": "Authorizing Bible-study electives and related displays adds explicitly traditional religious content to the public-school curriculum.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

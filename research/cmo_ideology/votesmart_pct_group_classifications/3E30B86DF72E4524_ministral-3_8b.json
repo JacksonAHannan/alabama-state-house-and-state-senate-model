@@ -1,0 +1,11 @@
+{
+  "policy_key": "military_force_use",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Restrictive use of military force, favoring non-interventionist or defensive-only approaches.",
+  "evidence_quote": "The US should use **military force only when the US border or territories are attacked or American citizens are in danger.**",
+  "needs_human_review": false,
+  "review_reason": ""
+}

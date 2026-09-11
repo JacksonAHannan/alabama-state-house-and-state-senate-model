@@ -30,34 +30,34 @@ Positive family scores always mean the second pole shown below. Estimates are de
 
 | family | description | candidate_cycles | people | repeat_candidate_rows | prospective_persistence_people |
 |---|---|---|---|---|---|
-| environment_resources | preservation (+) vs extraction/property priority (-) | 20 | 20 | 2 | 1 |
-| institutional_reform | democratic reform (+) vs institutional control (-) | 4 | 4 | 0 | 0 |
-| labor_capital | labor (+) vs capital/management (-) | 17 | 17 | 0 | 0 |
-| market_government_direction | government direction (+) vs market autonomy (-) | 9 | 9 | 2 | 1 |
-| material_support | material generosity (+) vs restriction (-) | 70 | 69 | 18 | 7 |
-| order_justice | punitive enforcement (+) vs rehabilitation/due process (-) | 14 | 14 | 2 | 1 |
-| social_liberty_equality | liberty/equality (+) vs traditional restriction (-) | 99 | 98 | 24 | 11 |
+| environment_resources | preservation (+) vs extraction/property priority (-) | 34 | 34 | 3 | 3 |
+| institutional_reform | democratic reform (+) vs institutional control (-) | 5 | 5 | 0 | 0 |
+| labor_capital | labor (+) vs capital/management (-) | 22 | 22 | 2 | 1 |
+| market_government_direction | government direction (+) vs market autonomy (-) | 39 | 38 | 6 | 4 |
+| material_support | material generosity (+) vs restriction (-) | 83 | 80 | 20 | 8 |
+| order_justice | punitive enforcement (+) vs rehabilitation/due process (-) | 44 | 42 | 10 | 7 |
+| social_liberty_equality | liberty/equality (+) vs traditional restriction (-) | 134 | 129 | 28 | 14 |
 
 ## Primary estimates
 
 | outcome | family | n | coefficient | ci_low | ci_high | cluster_p_value | primary_bh_q_value | status |
 |---|---|---|---|---|---|---|---|---|
-| presidential_overperformance | environment_resources | 19 | -18.73988232245838 | -71.10025947364767 | 33.62049482873091 | 0.28866525660805403 | 0.519854248166442 | estimated |
-| presidential_overperformance | institutional_reform | 3 |  |  |  |  |  | underpowered |
-| presidential_overperformance | labor_capital | 17 |  |  |  |  |  | underpowered |
-| presidential_overperformance | market_government_direction | 9 |  |  |  |  |  | underpowered |
-| presidential_overperformance | material_support | 66 | 5.391792045382022 | -8.66290992847476 | 19.446494019238806 | 0.4334484712090596 | 0.5779312949454128 | estimated |
-| presidential_overperformance | order_justice | 13 | 13.781636326009478 | -18.51761745658031 | 46.08089010859926 | 0.32490890510402626 | 0.519854248166442 | estimated |
-| presidential_overperformance | social_liberty_equality | 93 | -19.455176683394356 | -26.906805144171006 | -12.003548222617706 | 8.409901479480226e-07 | 6.727921183584181e-06 | estimated |
-| federal_index_overperformance | environment_resources | 20 | -7.986056430617904 | -43.520943299906406 | 27.548830438670603 | 0.5204287772315265 | 0.5947757454074588 | estimated |
+| presidential_overperformance | environment_resources | 31 | -2.2466016599323213 | -46.64049246006523 | 42.147289140200584 | 0.8845118911509755 | 0.8845118911509755 | estimated |
+| presidential_overperformance | institutional_reform | 4 |  |  |  |  |  | underpowered |
+| presidential_overperformance | labor_capital | 22 | -14.249818206167715 | -44.46115286928636 | 15.961516456950926 | 0.232451165109461 | 0.5194644458996476 | estimated |
+| presidential_overperformance | market_government_direction | 37 | 5.205602811046234 | -12.471271161185367 | 22.882476783277834 | 0.5211664818403472 | 0.6948886424537962 | estimated |
+| presidential_overperformance | material_support | 79 | 10.07009478863101 | -3.7621364138612776 | 23.9023259911233 | 0.14317580205437783 | 0.5194644458996476 | estimated |
+| presidential_overperformance | order_justice | 43 | 10.108478886605784 | -8.683041123235935 | 28.899998896447503 | 0.2597322229498238 | 0.5194644458996476 | estimated |
+| presidential_overperformance | social_liberty_equality | 127 | -16.801781518918315 | -24.34234957413609 | -9.261213463700539 | 1.3270966967434126e-05 | 0.0001592516036092095 | estimated |
+| federal_index_overperformance | environment_resources | 29 | 4.677798325321607 | -24.402802031943136 | 33.758398682586346 | 0.6718071066417757 | 0.7328804799728462 | estimated |
 | federal_index_overperformance | institutional_reform | 4 |  |  |  |  |  | underpowered |
-| federal_index_overperformance | labor_capital | 17 |  |  |  |  |  | underpowered |
-| federal_index_overperformance | market_government_direction | 9 |  |  |  |  |  | underpowered |
-| federal_index_overperformance | material_support | 65 | 6.8149240113626215 | -7.413616555153523 | 21.043464577878765 | 0.31630975884853113 | 0.519854248166442 | estimated |
-| federal_index_overperformance | order_justice | 12 | 4.0071603523905885 | -35.69254267339363 | 43.706863378174816 | 0.8116177067364387 | 0.8116177067364387 | estimated |
-| federal_index_overperformance | social_liberty_equality | 89 | -11.487027650062103 | -19.91522522914846 | -3.0588300709757466 | 0.005999983145090157 | 0.02399993258036063 | estimated |
+| federal_index_overperformance | labor_capital | 22 | -5.317162881446129 | -21.60715252148332 | 10.972826758591061 | 0.4484565527201073 | 0.6948886424537962 | estimated |
+| federal_index_overperformance | market_government_direction | 33 | 5.6437193877443175 | -17.582707929888315 | 28.870146705376946 | 0.5994903877911412 | 0.7193884653493694 | estimated |
+| federal_index_overperformance | material_support | 77 | 8.731007525740576 | -5.97149234334093 | 23.433507394822083 | 0.22056679635213414 | 0.5194644458996476 | estimated |
+| federal_index_overperformance | order_justice | 41 | 4.92954704895603 | -11.297989354747118 | 21.15708345265918 | 0.5200672527981756 | 0.6948886424537962 | estimated |
+| federal_index_overperformance | social_liberty_equality | 118 | -13.827657146770612 | -21.36836767358706 | -6.286946619954165 | 0.00024264606881746142 | 0.0014558764129047686 | estimated |
 
-Repeat-candidate panel: 53 people. Prospective persistence panel: 13 people.
+Repeat-candidate panel: 53 people. Prospective persistence panel: 20 people.
 
 ## Interpretation rules
 

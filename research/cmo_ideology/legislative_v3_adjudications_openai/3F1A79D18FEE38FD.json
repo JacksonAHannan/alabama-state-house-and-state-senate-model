@@ -1,0 +1,10 @@
+{
+  "id": "3F1A79D18FEE38FD",
+  "decision": "map",
+  "primitive_axis": "election_integrity_controls",
+  "policy_pole": "strengthen",
+  "confidence": "high",
+  "rationale": "Prohibits specified campaign contributions made with credit cards billed to addresses outside the United States, strengthening contribution controls.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

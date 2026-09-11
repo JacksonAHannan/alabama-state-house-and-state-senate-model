@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_hate_crime_sexual_orientation",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "This option calls for federal prosecution of crimes motivated by sexual orientation as hate crimes. In the U.S., expanding hate crime protections to include sexual orientation is generally considered a progressive policy position aimed at protecting LGBTQ+ individuals from bias-motivated violence.",
+  "evidence_quote": "Require that crimes based on sexual orientation be prosecuted as federal hate crimes.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

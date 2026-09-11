@@ -1,0 +1,18 @@
+{
+  "primary_domain": "guns",
+  "policy_key": "gun_access",
+  "plain_english_policy": "Allowing citizens to carry concealed guns",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "gun_access",
+      "pole": "expand",
+      "strength": "secondary",
+      "rationale": "The policy allows more people the ability to carry concealed weapons."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Allowing citizens to carry concealed guns\" is a position that supports expanding access for law-abiding individuals.",
+  "needs_human_review": true,
+  "review_reason": "The policy's effect on gun-related outcomes, such as crime rates or public safety, requires further analysis."
+}

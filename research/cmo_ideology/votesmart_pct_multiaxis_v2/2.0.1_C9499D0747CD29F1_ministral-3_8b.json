@@ -1,0 +1,24 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "environmental_protection",
+  "plain_english_policy": "Regulate fuel standards to reduce emissions",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "environmental_protection",
+      "pole": "strengthen",
+      "strength": "primary",
+      "rationale": "Explicitly targets pollution reduction via cleaner fuels"
+    },
+    {
+      "axis": "resource_management",
+      "pole": "active_management",
+      "strength": "secondary",
+      "rationale": "Requires specific regulatory action (fuel standards) to achieve environmental goals"
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Require the use of cleaner burning fuels in order to prevent pollution\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

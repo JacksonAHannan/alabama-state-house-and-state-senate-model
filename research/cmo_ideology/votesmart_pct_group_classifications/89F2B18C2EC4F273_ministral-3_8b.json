@@ -1,0 +1,11 @@
+{
+  "policy_key": "euthanasia_right_to_die",
+  "dimension": "healthcare_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Whether Alabama should legally allow individuals to end their lives through assisted euthanasia or physician-assisted suicide.",
+  "evidence_quote": "*[No direct quote provided in the prompt, but conventionally this position is scored as follows:]*",
+  "needs_human_review": true,
+  "review_reason": "The question lacks a specific Alabama candidate's quoted stance. A real-world example might be: 'I believe individuals should have autonomy over their end-of-life decisions' (progressive) or 'Euthanasia undermines the sanctity of life and should not be legalized' (conservative)."
+}

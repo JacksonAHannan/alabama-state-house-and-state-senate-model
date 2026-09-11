@@ -1,0 +1,24 @@
+{
+  "primary_domain": "immigration",
+  "policy_key": "immigration_access",
+  "plain_english_policy": "Enforce federal immigration laws at the state/local level",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "immigration_access",
+      "pole": "restrict",
+      "strength": "primary",
+      "rationale": "Directly advocates for stricter enforcement of federal immigration laws by non-federal authorities, which would restrict access to residency/legal status."
+    },
+    {
+      "axis": "civil_social_liberty",
+      "pole": "restrict",
+      "strength": "secondary",
+      "rationale": "Enforcement actions may impact civil liberties of undocumented individuals or those perceived as non-compliant with immigration laws."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"enforcement of federal immigration laws by state and local police\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

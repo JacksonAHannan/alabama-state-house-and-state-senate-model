@@ -1,0 +1,10 @@
+{
+  "id": "BEF1EBF635C99781",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Primarily a technical extension and clarification of hospital assessments and Medicaid financing, not a clear structural healthcare-policy choice.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

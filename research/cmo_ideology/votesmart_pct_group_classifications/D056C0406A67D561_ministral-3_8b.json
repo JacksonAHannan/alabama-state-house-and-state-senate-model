@@ -1,0 +1,11 @@
+{
+  "policy_key": "union_rights",
+  "dimension": "labor_position",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting workers' right to unionize is a progressive stance on labor policy.",
+  "evidence_quote": "Support the right of workers to unionize.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

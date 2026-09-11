@@ -1,0 +1,11 @@
+{
+  "policy_key": "affirmative_action_alabama",
+  "dimension": "social_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Supporting state-level affirmative action programs (e.g., in hiring, education, or contracting) to address historical discrimination.",
+  "evidence_quote": "*[No direct quote provided in your input\u2014this is a generic example of how Alabama candidates might frame it.]*",
+  "needs_human_review": true,
+  "review_reason": "Your option lacks explicit text, so I cannot extract a verbatim quote. For classification, you\u2019d need to provide the *exact wording* from the candidate\u2019s questionnaire (e.g., \u2018I oppose state affirmative action\u2019 or \u2018We must enforce equal opportunity without quotas\u2019)."
+}

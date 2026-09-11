@@ -1,0 +1,15 @@
+state,scheduled_state_cycle_chambers,current_contested_races,strict_war_races,known_current_races_not_strict,core_war_ready,core_war_partial,core_war_research_only,core_war_not_ready,downloaded_complete_bundles_to_normalize,rows_needing_new_election_data,demographics_ready,finance_ready,basic_forecast_ready,full_forecast_ready,remaining_action_counts
+AL,4,97,97,0,4,0,0,0,0,0,4,4,4,4,
+AR,8,195,93,102,4,0,4,0,4,0,8,0,4,0,acquire_harmonized_candidate_finance:8|complete_incumbency_review:1|replace_synthetic_baseline_from_local_bundle:4
+FL,8,415,203,212,3,1,0,4,4,0,0,0,0,0,acquire_harmonized_candidate_finance:8|adjudicate_unmatched_ticket_districts:1|build_harmonized_district_demographics:8|normalize_local_ticket_context:4|review_incumbency:2
+GA,8,430,205,225,4,0,4,0,4,0,8,0,4,0,acquire_harmonized_candidate_finance:8|complete_incumbency_review:1|replace_synthetic_baseline_from_local_bundle:4
+KY,8,274,168,106,3,1,0,4,4,0,0,0,0,0,acquire_harmonized_candidate_finance:8|adjudicate_unmatched_ticket_districts:1|build_harmonized_district_demographics:8|normalize_local_ticket_context:4|review_incumbency:2
+LA,4,41,0,41,0,0,4,0,0,0,4,0,0,0,acquire_harmonized_candidate_finance:4|review_incumbency:4
+MO,8,427,220,207,3,1,2,2,2,0,0,0,0,0,acquire_harmonized_candidate_finance:8|adjudicate_unmatched_ticket_districts:1|build_harmonized_district_demographics:8|normalize_local_ticket_context:2|review_incumbency:2
+MS,4,40,39,1,1,1,0,2,2,0,4,0,1,0,acquire_harmonized_candidate_finance:4|adjudicate_unmatched_ticket_districts:1|build_incumbency:2|normalize_local_outcomes:2|normalize_local_ticket_context:2
+NC,8,571,323,248,4,0,2,2,2,0,0,0,0,0,acquire_harmonized_candidate_finance:8|build_harmonized_district_demographics:8|normalize_local_ticket_context:2|review_incumbency:2
+OK,8,209,139,70,4,0,0,4,4,0,0,0,0,0,acquire_harmonized_candidate_finance:8|build_harmonized_district_demographics:8|normalize_local_ticket_context:4|review_incumbency:2
+SC,6,245,125,120,2,1,0,3,3,0,0,0,0,0,acquire_harmonized_candidate_finance:6|adjudicate_unmatched_ticket_districts:1|build_harmonized_district_demographics:6|normalize_local_ticket_context:3|review_incumbency:2
+TN,8,246,132,114,4,0,4,0,4,0,8,0,4,0,acquire_harmonized_candidate_finance:8|replace_synthetic_baseline_from_local_bundle:4
+TX,8,411,411,0,8,0,0,0,0,0,8,0,8,0,integrate_candidate_finance:8
+VA,6,237,0,237,0,0,0,6,0,0,0,0,0,0,acquire_harmonized_candidate_finance:6|build_harmonized_district_demographics:6|build_incumbency:2|define_offyear_baseline_policy:4|normalize_local_outcomes:2|normalize_local_ticket_context:2

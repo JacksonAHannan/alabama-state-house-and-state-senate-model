@@ -1,0 +1,51 @@
+county,precinct,source_page,source_line,reason
+BLOUNT,05.BUNGALOW,2,05.BUNGALOW 371 2 3,missing_or_multiple_major_party_cells
+BLOUNT,38.UNION CO,3,38.UNION CO 63 4 0 3 2 1 0,missing_or_multiple_major_party_cells
+BLOUNT,42A.EARLY COURT,3,42A.EARLY COURT 0 0 0 0 0 0,missing_or_multiple_major_party_cells
+BRADLEY,304-2 SR CTR UH2,3,304-2 SR CTR UH2 0 。 0 。 0 0 0,missing_or_multiple_major_party_cells
+BRADLEY,605-2BLUESPGSUH2,3,605-2BLUESPGSUH2 0 0 0 。 0 0,missing_or_multiple_major_party_cells
+BRADLEY,ABSENTEE,3,ABSENTEE 0 0 。 0 0,missing_or_multiple_major_party_cells
+CARTER,01 MIDWAY,5,01 MIDWAY 123 0 1 1 0 1 0,missing_or_multiple_major_party_cells
+CARTER,08 HIGH SCHOOL,5,08 HIGH SCHOOL 318 1 3 8 0 1 2,missing_or_multiple_major_party_cells
+CLAIBORNE,ARTHUR,6,ARTHUR 108 5 0 0 1 0 1,missing_or_multiple_major_party_cells
+DAVIDSON,33-5 GLENDALE,11,33-5 Glendale 125 3 3 2 1 4 0,missing_or_multiple_major_party_cells
+DAVIDSON,ABSENTEE,11,ABSENTEE 0 0 0 0 0 0 0,missing_or_multiple_major_party_cells
+DAVIDSON,ABSENTEE,11,ABSENTEE 。 0 0 0 0 0,missing_or_multiple_major_party_cells
+GIBSON,ABSENTEE,14,ABSENTEE 0 0 0 0 0 0,missing_or_multiple_major_party_cells
+GREENE,MOSHEIM CORP,15,MOSHEIM CORP 0 0 0 0 0 0,missing_or_multiple_major_party_cells
+HAMBLEN,03 EAST HIGH SCH,16,03 EAST HIGH SCH 127 1 3 0 0 0,missing_or_multiple_major_party_cells
+HAMILTON,077 RED BANK 2,18,077 RED BANK 2 113 2 2 3 0 2 4,missing_or_multiple_major_party_cells
+HAMILTON,103 PLEASANT GROVE 2,18,103 PLEASANT GROVE 2 187 2 1 1 0 0,missing_or_multiple_major_party_cells
+HAMILTON,"ABSENTEE TS 11,TH 26",18,"ABSENTEE TS 11,TH 26 0 0 0 0 0 0 0",missing_or_multiple_major_party_cells
+HAWKINS,03ARMORY OUTSIDE,19,03ARMORY OUTSIDE 0 0 0 0 0,missing_or_multiple_major_party_cells
+HAWKINS,OS BULLS GAP OUTSIDE,19,OS BULLS GAP OUTSIDE G. 0 0,missing_or_multiple_major_party_cells
+HAWKINS,08B CHURCH CENTER,19,08B CHURCH CENTER C 0 0 0 0 0,missing_or_multiple_major_party_cells
+HAWKINS,08C CHURCH WEST,19,08C CHURCH WEST 0 0,missing_or_multiple_major_party_cells
+HAYWOOD,ABSENTEE,20,ABSENTEE 0 0 0 0 。 0 0,missing_or_multiple_major_party_cells
+HENDERSON,SCOTTS HILL,20,SCOTTS HILL 138 0 0 E 0 0 0,missing_or_multiple_major_party_cells
+HENRY,4.,21,4. Irwin W. Gibbs,missing_or_multiple_major_party_cells
+HICKMAN,09-1 MT. PLEASANT,21,09-1 MT. PLEASANT 70 2 0 0 1 0,missing_or_multiple_major_party_cells
+KNOX,04 7-W3 9B,23,04 7-W3 9B 133 1 m 2 2 。 0,missing_or_multiple_major_party_cells
+KNOX,"ABSENTEE TS 07,TH 19",24,"ABSENTEE TS 07,TH 19 0",missing_or_multiple_major_party_cells
+LOUDON,07.HIGHLAND PARK 20,26,07.HIGHLAND PARK 20 148 0 1 2 1 1 0,missing_or_multiple_major_party_cells
+MADISON,04 WEST JACKSON,27,04 WEST JACKSON 125 2 1 5 1 1 0,missing_or_multiple_major_party_cells
+MARION,04 ORME,28,04 ORME 0 0 。 0 0 0,missing_or_multiple_major_party_cells
+MARION,06 BATTLE CREEK,28,06 BATTLE CREEK 0 0 0 0 0 0 0,missing_or_multiple_major_party_cells
+MARSHALL,ABSENTEE THD 65,29,ABSENTEE THD 65 0 0 0 0 0 0,missing_or_multiple_major_party_cells
+MAURY,011S SPRING HILL,29,011S SPRING HILL 123 1 0 3 0 2 1,missing_or_multiple_major_party_cells
+MAURY,025 HAMPSHIRE (TH 70,29,025 HAMPSHIRE (TH 70 0 0 0 0 0 0 0,missing_or_multiple_major_party_cells
+MAURY,026 ST.CATHERINE (70,29,026 ST.CATHERINE (70 0 。 0 。 0 0 0,missing_or_multiple_major_party_cells
+MCNAIRY,2-1 ADAMSVILLE,30,2-1 ADAMSVILLE 101 0 0 3 1 0 0,missing_or_multiple_major_party_cells
+MCNAIRY,ABSENTEE,30,ABSENTEE 0 0 0 0 0 0 0,missing_or_multiple_major_party_cells
+MONTGOMERY,05A,31,05A 80 1 0 2 1 1 0，,missing_or_multiple_major_party_cells
+MONTGOMERY,60,31,60 150 1 4 7 1 1 0,missing_or_multiple_major_party_cells
+PICKETT,01.BARNES,32,01.BARNES 6 0 0 0 0 0 0,missing_or_multiple_major_party_cells
+RHEA,9-2 GRAYSVILLE,34,9-2 GRAYSVILLE 86 0 0 0 0 0 0,missing_or_multiple_major_party_cells
+ROANE,10. OLIVER SPGS.,34,10. OLIVER SPGS. 57 1 2 0 0 0,missing_or_multiple_major_party_cells
+ROANE,13. PAW PAW,34,13. PAW PAW 135 0 0 3 1 0 0,missing_or_multiple_major_party_cells
+ROBERTSON,05-01 GREENBRIER UH7,35,05-01 GREENBRIER UH7 0 0 0 0 0 0 0,missing_or_multiple_major_party_cells
+RUTHERFORD,ABSENTEE,36,ABSENTEE 。 。 0 。 0,missing_or_multiple_major_party_cells
+SCOTT,5-2 PINE HILL,36,5-2 PINE HILL 62 1 0 2 0 1,missing_or_multiple_major_party_cells
+SULLIVAN,02-HV HOLSTON TH 3,42,02-HV HOLSTON TH 3 127 2 0 5 1 2 0,missing_or_multiple_major_party_cells
+SULLIVAN,06 CENTRAL HEIGHTS S,42,06 CENTRAL HEIGHTS S 141 1 0 6 1 1 0,missing_or_multiple_major_party_cells
+SULLIVAN,ABSENTEE,43,ABSENTEE 0 0 0 0 0 0,missing_or_multiple_major_party_cells

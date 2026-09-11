@@ -1,0 +1,11 @@
+{
+  "policy_key": "income_tax_above_40k",
+  "dimension": "economic_ideology",
+  "affirmative_direction": -1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Tax rate preference for annual income exceeding $40,000 (progressive vs. flat)",
+  "evidence_quote": "Over $40,000: [Candidate\u2019s choice\u2014if marked with a lower tax bracket or progressive tiering]",
+  "needs_human_review": true,
+  "review_reason": "This option is only scorable if the candidate explicitly selected a *lower* tax rate (e.g., \u201815%\u2019 vs. \u201830%\u2019) or a progressive structure for incomes above $40k. Without the exact bracket, we cannot assign +1/-1/0."
+}

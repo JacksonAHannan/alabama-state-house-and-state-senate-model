@@ -1,0 +1,11 @@
+{
+  "policy_key": "international_sanctions_iran",
+  "dimension": "nonideological",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option asks about imposing sanctions on Iran in response to UN mandates. This is a procedural or administrative question regarding compliance with international law rather than an ideological stance on trade liberalization vs protectionism.",
+  "evidence_quote": "c) Should the United States impose greater international sanctions on Iran if it continues to defy United Nations mandates?",
+  "needs_human_review": true,
+  "review_reason": "The option is a binary policy question about foreign relations compliance. It does not inherently represent a conservative or progressive economic ideology; both parties could support increased sanctions for national security reasons regardless of their domestic trade stance."
+}

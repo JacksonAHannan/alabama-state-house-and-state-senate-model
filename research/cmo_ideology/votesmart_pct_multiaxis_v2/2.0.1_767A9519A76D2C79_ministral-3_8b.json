@@ -1,0 +1,30 @@
+{
+  "primary_domain": "healthcare",
+  "policy_key": "healthcare_access",
+  "plain_english_policy": "Expansion of Medicaid eligibility to cover more low-income individuals under the Affordable Care Act.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "healthcare_access",
+      "pole": "expand",
+      "strength": "primary",
+      "rationale": "The option explicitly advocates for expanding Medicaid eligibility, which directly increases access to healthcare services for a broader population."
+    },
+    {
+      "axis": "tax_distribution",
+      "pole": "regressive",
+      "strength": "secondary",
+      "rationale": "Medicaid expansion under the ACA primarily benefits lower-income individuals and families, shifting tax burden toward higher-income earners (who pay more in federal taxes) to subsidize healthcare for those with limited means."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "secondary",
+      "rationale": "Medicaid is a government-funded program, relying on public provision of healthcare services (though administered in partnership with private providers)."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Do you support Medicaid expansion under the Affordable Care Act?",
+  "needs_human_review": false,
+  "review_reason": ""
+}

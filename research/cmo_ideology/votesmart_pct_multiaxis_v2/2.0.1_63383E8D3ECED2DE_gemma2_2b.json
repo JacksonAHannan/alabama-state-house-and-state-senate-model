@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "business_scale_alignment",
+  "plain_english_policy": "Provide tax incentives to businesses that hire welfare recipients.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "business_scale_alignment"
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "secondary",
+      "rationale": "business_scale_alignment"
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Provide tax incentives to businesses that hire welfare recipients.",
+  "needs_human_review": false,
+  "review_reason": "This option suggests a policy aimed at incentivizing businesses to hire individuals receiving welfare. This aligns with the concept of market-based solutions for social welfare programs."
+}

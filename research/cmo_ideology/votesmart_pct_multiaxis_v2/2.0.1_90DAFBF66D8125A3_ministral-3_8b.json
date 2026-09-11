@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "campaign_finance_reform",
+  "plain_english_policy": "Regulating corporate/union indirect financial influence on elections",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "Regulating indirect contributions implies state intervention in market-based political financing."
+    },
+    {
+      "axis": "public_private_provision",
+      "pole": "public_provision",
+      "strength": "secondary",
+      "rationale": "Government regulation of private entities' financial activities (corporations/ unions) is a form of public oversight."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"regulation of indirect campaign contributions\"",
+  "needs_human_review": false,
+  "review_reason": ""
+}

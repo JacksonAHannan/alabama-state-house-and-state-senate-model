@@ -1,0 +1,11 @@
+{
+  "policy_key": "federal_race_sex_contracting",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The option supports federal government consideration of race and sex in contracting decisions.",
+  "evidence_quote": "The federal government should consider race and sex in making government contracting decisions.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

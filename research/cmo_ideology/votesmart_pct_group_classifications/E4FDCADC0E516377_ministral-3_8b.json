@@ -1,0 +1,11 @@
+{
+  "policy_key": "school_crime_penalties",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Higher penalties for crimes in school zones (e.g., stricter sentencing, longer incarceration).",
+  "evidence_quote": "**f) Increase penalties for crimes committed on school grounds.**",
+  "needs_human_review": false,
+  "review_reason": ""
+}

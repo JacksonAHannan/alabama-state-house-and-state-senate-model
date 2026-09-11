@@ -1,0 +1,24 @@
+{
+  "primary_domain": "environment",
+  "policy_key": "resource_development",
+  "plain_english_policy": "Increase funding for improvements to Alabama's power generating and transmission facilities.",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "primary",
+      "rationale": "Increasing funding for improvements to power generating and transmission facilities indicates a government intervention in the market, as it is providing financial support to enhance infrastructure."
+    },
+    {
+      "axis": "resource_development",
+      "pole": "expand",
+      "strength": "primary",
+      "rationale": "Improvements to Alabama's power generating and transmission facilities are expected to expand resource development by increasing energy production capacity, efficiency, and reliability."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "\"Increase funding for improvements to Alabama's power generating and transmission facilities.\" - Source: Year: 2006, Section: Environment & Energy Issues, Question: Indicate which principles you support (if any) regarding the environment and energy. Option: d)",
+  "needs_human_review": false,
+  "review_reason": ""
+}

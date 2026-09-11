@@ -1,0 +1,11 @@
+{
+  "policy_key": "crime_terrorism_funding",
+  "dimension": "criminal_justice_position",
+  "affirmative_direction": 0,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Increase state funding for emergency agencies to prevent or respond to terrorism.",
+  "evidence_quote": "Increase state funding for state and local emergency agencies to prevent or respond to terrorism.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

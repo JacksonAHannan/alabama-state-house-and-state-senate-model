@@ -1,0 +1,10 @@
+{
+  "id": "A58A0BB7F819925F",
+  "decision": "map",
+  "primitive_axis": "healthcare_public_responsibility",
+  "policy_pole": "public_responsibility",
+  "confidence": "high",
+  "rationale": "Extends a Medicaid funding program financed through a private-hospital assessment, maintaining public responsibility for healthcare financing.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

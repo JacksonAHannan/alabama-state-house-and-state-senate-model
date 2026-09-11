@@ -1,0 +1,10 @@
+{
+  "id": "BAE55A778E8AB611",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "Changes the sheriff's authority over the maximum pistol-permit fee but does not specify the fee level or clearly establish whether gun access expands or is restricted.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

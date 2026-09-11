@@ -1,0 +1,10 @@
+{
+  "id": "E7E6D11B5412EDAC",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "high",
+  "rationale": "Primarily codifies prior acts and makes corrections, making it administrative and technical.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

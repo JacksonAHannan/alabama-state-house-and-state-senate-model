@@ -1,0 +1,18 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "healthcare_access",
+  "plain_english_policy": "Transfer current Medicaid recipients into managed care programs.",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "primary",
+      "rationale": "Managed care programs typically involve restrictions on the types of healthcare services that can be provided and may limit access to certain providers or treatments."
+    }
+  ],
+  "confidence": "low",
+  "evidence_quote": "\"Transfer current Medicaid recipients into managed care programs.\" - Question text from 2006 Section: Health Issues.",
+  "needs_human_review": true,
+  "review_reason": "The policy's effects on healthcare access are not clearly specified in the question."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "AAC119D07E745DA5",
+  "decision": "map",
+  "primitive_axis": "drug_treatment",
+  "policy_pole": "expand",
+  "confidence": "medium",
+  "rationale": "Inclusion of alcohol or drug abuse court referral and treatment programs in community corrections for custodial sexual misconduct expands rehabilitative treatment opportunities.",
+  "terminal_status": "mapped_v3_policy_pole",
+  "authority": "ministral_structured_then_schema_validated"
+}

@@ -1,0 +1,11 @@
+{
+  "policy_key": "withdraw_from_un",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "The candidate supports a complete U.S. withdrawal from the United Nations.",
+  "evidence_quote": "The U.S. should withdraw completely from the United Nations.",
+  "needs_human_review": false,
+  "review_reason": ""
+}

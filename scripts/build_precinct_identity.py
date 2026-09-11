@@ -17,6 +17,7 @@ from rapidfuzz import process
 from rapidfuzz.fuzz import WRatio
 
 from oe_normalize import is_county_level_ballot, normalize_for_match
+from source_vote_quality import require_reported_vote_quality
 
 ROOT = Path(__file__).resolve().parents[1]
 DB = ROOT / "data" / "processed" / "elections" / "alabama_elections.sqlite"
@@ -28,13 +29,27 @@ def precinct_code(value: object) -> str:
     return str(int(match.group(1))) if match else ""
 
 
-def build_nodes(votes: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
+def build_nodes(votes: pd.DataFrame, existing: pd.DataFrame | None = None) -> tuple[pd.DataFrame, pd.DataFrame]:
     keys = ["year", "source", "county_key", "precinct_key"]
     nodes = votes[keys].drop_duplicates().copy()
     nodes["name_norm"] = nodes.precinct_key.map(normalize_for_match)
     nodes["precinct_code"] = nodes.precinct_key.map(precinct_code)
     nodes["county_level_ballot"] = nodes.precinct_key.map(is_county_level_ballot).astype(int)
-    nodes["node_id"] = np.arange(1, len(nodes) + 1)
+    if existing is None:
+        nodes["node_id"] = np.arange(1, len(nodes) + 1)
+    else:
+        if existing[keys + ["node_id"]].isna().any().any():
+            raise ValueError("Existing precinct identities contain null keys or IDs")
+        if existing.duplicated(keys).any() or existing.node_id.duplicated().any():
+            raise ValueError("Existing precinct identities contain duplicate keys or IDs")
+        ids = pd.to_numeric(existing.node_id, errors="raise")
+        if not np.isfinite(ids).all() or not ((ids > 0) & (ids % 1 == 0)).all():
+            raise ValueError("Existing precinct IDs must be positive integers")
+        nodes = nodes.merge(existing[keys + ["node_id"]], on=keys, how="left", validate="one_to_one")
+        new = nodes[nodes.node_id.isna()].sort_values(keys)
+        first = int(ids.max()) + 1 if len(ids) else 1
+        nodes.loc[new.index, "node_id"] = np.arange(first, first + len(new))
+        nodes["node_id"] = nodes.node_id.astype("int64")
     totals = (votes.groupby(keys + ["office"], as_index=False).votes.sum()
               .merge(nodes[keys + ["node_id"]], on=keys, validate="many_to_one"))
     return nodes, totals[["node_id", "office", "votes"]]
@@ -119,6 +134,7 @@ def match_sources(nodes: pd.DataFrame, totals: pd.DataFrame, left_source: str,
 
 def main() -> None:
     with sqlite3.connect(DB) as connection:
+        require_reported_vote_quality(connection)
         votes = pd.read_sql("SELECT year,source,county_key,precinct_key,office,votes FROM vote_observations", connection)
         nodes, totals = build_nodes(votes)
         candidates, links = match_sources(nodes, totals, "alabama_sos", "openelections")

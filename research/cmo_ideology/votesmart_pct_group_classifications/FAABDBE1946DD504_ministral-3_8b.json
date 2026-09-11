@@ -1,0 +1,11 @@
+{
+  "policy_key": "afghanistan_aid_increase",
+  "dimension": "indeterminate",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "high",
+  "plain_english_policy": "Whether the U.S. should increase financial aid to Afghanistan (e.g., reconstruction, humanitarian relief, or security cooperation).",
+  "evidence_quote": "*No direct quote provided in this option.*\n*(This is a standalone question without an explicit policy statement; responses would require candidate-specific answers.)*",
+  "needs_human_review": true,
+  "review_reason": "The option lacks a verifiable position\u2014it only asks for principles, not a concrete stance. A candidate\u2019s answer (if given) would determine the score."
+}

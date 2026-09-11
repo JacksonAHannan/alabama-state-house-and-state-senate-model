@@ -1,0 +1,10 @@
+{
+  "id": "A96DFE0441C5F97A",
+  "decision": "exclude",
+  "primitive_axis": "",
+  "policy_pole": "",
+  "confidence": "medium",
+  "rationale": "The hospital sale and indigent-care fund provisions do not identify whether delivery would become public or private, so no allowed pole is clear.",
+  "terminal_status": "excluded_after_substantive_text_review",
+  "authority": "openai_gpt-5.6-luna_structured_then_schema_validated"
+}

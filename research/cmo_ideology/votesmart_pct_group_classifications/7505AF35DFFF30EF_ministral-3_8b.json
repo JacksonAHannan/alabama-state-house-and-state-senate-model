@@ -1,0 +1,11 @@
+{
+  "policy_key": "defense_modernization",
+  "dimension": "social_ideology",
+  "affirmative_direction": 1,
+  "scorable": true,
+  "confidence": "high",
+  "plain_english_policy": "Increasing funding for upgrading military hardware (e.g., aircraft, missiles, ships) to maintain technological superiority.",
+  "evidence_quote": "*'We must prioritize the modernization of our weaponry and equipment to ensure Alabama\u2019s armed forces remain at the cutting edge of global defense capabilities.'*",
+  "needs_human_review": false,
+  "review_reason": ""
+}

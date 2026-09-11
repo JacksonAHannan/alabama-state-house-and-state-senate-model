@@ -1,0 +1,30 @@
+{
+  "primary_domain": "healthcare",
+  "policy_key": "healthcare_access",
+  "plain_english_policy": "Shifting Medicaid beneficiaries from traditional fee-for-service to managed care systems",
+  "substantive": true,
+  "effects": [
+    {
+      "axis": "public_private_provision",
+      "pole": "private_provision",
+      "strength": "primary",
+      "rationale": "Managed care is a private-sector delivery mechanism for Medicaid services."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "restriction",
+      "strength": "secondary",
+      "rationale": "Reducing traditional Medicaid benefits (e.g., fee-for-service) to accommodate managed care may constrain access or eligibility in practice, even if not explicitly stated."
+    },
+    {
+      "axis": "healthcare_access",
+      "pole": "restrict",
+      "strength": "secondary",
+      "rationale": "Managed care often includes cost controls (e.g., prior authorization) that could limit service availability compared to fee-for-service."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "managed care programs",
+  "needs_human_review": false,
+  "review_reason": ""
+}

@@ -1,0 +1,24 @@
+{
+  "primary_domain": "welfare",
+  "policy_key": "expansion",
+  "plain_english_policy": "support for affirmative action",
+  "substantive": false,
+  "effects": [
+    {
+      "axis": "market_governance",
+      "pole": "intervention",
+      "strength": "secondary",
+      "rationale": "affirmative action is a form of government intervention in the labor market."
+    },
+    {
+      "axis": "welfare_policy",
+      "pole": "expansion",
+      "strength": "primary",
+      "rationale": "affirmative action expands opportunities for historically disadvantaged groups."
+    }
+  ],
+  "confidence": "high",
+  "evidence_quote": "Affirmative action is a policy that seeks to level the playing field by giving special consideration to members of certain groups who have been historically disadvantaged. ",
+  "needs_human_review": false,
+  "review_reason": "affirmative action is a form of government intervention in the labor market."
+}

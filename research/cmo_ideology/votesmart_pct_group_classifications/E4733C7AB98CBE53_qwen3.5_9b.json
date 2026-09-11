@@ -1,0 +1,11 @@
+{
+  "policy_key": "affirmative_action_federal_prosecution",
+  "dimension": "nonideological",
+  "affirmative_direction": -1,
+  "scorable": false,
+  "confidence": "low",
+  "plain_english_policy": "The option calls for federal prosecution of discrimination in the public sector rather than mandating specific hiring quotas or preferences.",
+  "evidence_quote": "b) The federal government should prosecute cases of discrimination in the public sector.",
+  "needs_human_review": true,
+  "review_reason": "This is a procedural/administrative stance focused on enforcement mechanisms (prosecution) rather than supporting or opposing affirmative action preferences directly. It lacks a stable left/right direction as it applies to 'discrimination' generally without specifying race-based preference mandates."
+}
