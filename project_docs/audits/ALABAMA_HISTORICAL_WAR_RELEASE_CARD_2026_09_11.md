@@ -52,20 +52,23 @@ Marshall segment (D 24,603 / R 16,995; the recorded winner was inverted before).
 Madison County's Senate 9 precinct cells sum 160 / 247 votes above the sheet's
 printed totals; the precinct-cell sum is retained and the discrepancy recorded.
 
-## Backcast policy
+## Fixed reference-model policy
 
-413 races (1994–2014) are backcasts: the modern fitted relationship applied to
-historical ticket, incumbency, chamber and prior-presidential context
-(`scoring_scope = post2016_southern_model_backcast`, `backcast_extrapolation_years`
-per row). They are not same-cycle fits and carry no cross-fitted validation.
+One reference model scores every cycle. 413 races (1994–2014) are scored against
+the fixed 2018–24 fit applied to historical ticket, incumbency, chamber and
+prior-presidential context (schema fields `scoring_scope =
+post2016_southern_model_backcast` and `backcast_extrapolation_years` are retained
+for contract stability; reader-facing copy states the fixed-reference framing).
+They are not same-cycle fits and carry no cross-fitted validation. Pre-2016
+levels are relative to modern partisan expectations, so early-era Democrats show
+large positive WAR by construction.
 Era sensitivity (`audits/ALABAMA_BACKCAST_SENSITIVITY_2026_09_11.md`, parity
 passed on this run): the backcast preserves rank order against a descriptive
 same-era fit on 1994–2014 Alabama (Pearson 0.91–0.96 per cycle) but not level:
 same-era residuals are lower by a mean of 20.5 points (5th–95th percentile
 −31 to −7), sign agreement 0.66, and the incumbency coefficient halves between
-the modern fit (6.2) and 1994–2006 (13.6). Read backcast WAR as a within-cycle
-ranking and a modern-relationship extrapolation, not as a level comparable to
-2018/2022. Within-cycle bootstrap SE of the expected gap: median 4.7 (1994),
+the modern fit (6.2) and 1994–2006 (13.6). Read pre-2016 WAR as a within-cycle ranking against the fixed modern
+reference, not as a level comparable to 2018/2022. Within-cycle bootstrap SE of the expected gap: median 4.7 (1994),
 4.9 (1998), 2.4 (2002), 2.3 (2006), 1.5 (2010), 1.7 (2014). 19 races lack lag
 context and are scored with the explicit missing-context encoding (`alabama-08`);
 a no-lag specification moves them by +2.0 to +5.9 points with one sign change
