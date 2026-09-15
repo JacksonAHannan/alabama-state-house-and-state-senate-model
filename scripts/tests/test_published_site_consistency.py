@@ -87,10 +87,11 @@ def test_public_pages_describe_current_runs() -> None:
     assert "eligible Southern races after 2016 and before 2022" in forecast_method
     assert "WAR model's incumbency term" in forecast_method
     assert (
-        f"records {headline_mae:.2f} points of MAE"
+        f"records {headline_mae:.2f} points"
         in forecast_method
     )
-    assert "candidate_history_used=false" in forecast_method
+    assert "finance_used=false" in forecast_method
+    assert "carries 0" in forecast_method  # the published persistence coefficient
     assert "50,000 correlated simulations" in forecast_method
     for stale in (
         "Basic and Fundamentals+", "six-point normal", "20% of the CMO",
@@ -101,7 +102,8 @@ def test_public_pages_describe_current_runs() -> None:
     assert "Alabama WAR" in cmo
     assert "No pooled candidate effect" in cmo
     assert "1994" in cmo and "2022" in cmo
-    assert "Modern-model backcast" in cmo
+    assert "One fixed reference model" in cmo
+    assert "Modern-model backcast" not in cmo
     assert "Fundamentals+" not in cmo
     assert "actual legislative-minus-ticket gap" in cmo
     assert "1994" in cmo_method and "2022" in cmo_method
@@ -125,7 +127,9 @@ def test_public_cmo_and_forecast_row_counts() -> None:
     assert len(races) == 97
     assert candidates.candidate_cycle_war.notna().all()
     assert set(races.cycle) == {2018, 2022}
-    assert set(forecasts.scenario) == {"headline", "environment_dem_favorable", "environment_rep_favorable"}
+    assert set(forecasts.scenario) == {"headline", "environment_dem_favorable",
+                                       "environment_rep_favorable",
+                                       "fundamentals_only_no_candidate_history"}
     assert forecasts.groupby("scenario").size().eq(48).all()
 
 
@@ -145,7 +149,6 @@ def test_grimsley_public_war_is_corrected_race_residual() -> None:
     assert 18 < race_2022.war < 21
 
 
-@pytest.mark.xfail(strict=True, reason="merged five-group caucus page awaits the single republish; remove this marker when docs/ is republished")
 def test_public_ideology_and_caucus_routes_are_merged() -> None:
     ideology = (DOCS / "ideology-performance.html").read_text(encoding="utf-8")
     caucus = (DOCS / "caucuses.html").read_text(encoding="utf-8")
@@ -165,19 +168,16 @@ def test_public_ideology_and_caucus_routes_are_merged() -> None:
         "Rural labor Democrats", "Old-guard conservative Democrats",
     }
     assert "not formal caucus membership" in ideology
-    assert payload["groups"] == [
-        "Traditionalist-populist Democrats",
-        "Bridge-coalition Democrats",
-        "Progressive-modern Democrats",
-    ]
-    assert all(row["candidate_cycle_war"] is not None for row in payload["members"])
-    assert all(row["war_scoring_scope"] in {
-        "post2016_southern_model_backcast", "published_same_cycle_residual"
-    } for row in payload["members"])
-    assert all("candidate_cmo" not in row for row in payload["members"])
-    assert all("candidate_quality_residual" not in row for row in payload["members"])
+    members = payload["members"]
+    assert members and all(row["cluster_rank"] in {1, 2, 3, 4, 5} for row in members)
+    assert all(row["name"] and not row["name"].startswith("ALPERSON") for row in members)
+    # Unscored people keep a missing career WAR rather than a fabricated zero.
+    assert any(row["career_war"] is None for row in members)
+    assert all(row["candidate_cycle_war"] is not None for row in payload["warCycles"])
+    assert all("candidate_cmo" not in row for row in members)
+    assert all("candidate_quality_residual" not in row for row in members)
     assert "WAR is the candidate-oriented race residual" in ideology
-    assert "Split Ticket's WAR methodology" in ideology
+    assert "Split Ticket&rsquo;s WAR methodology" in ideology
     assert "https://split-ticket.org/2025/08/15/deconstructing-war/" in ideology
     assert "Candidate Quality Index" not in ideology
     assert "CQI" not in ideology
@@ -185,14 +185,13 @@ def test_public_ideology_and_caucus_routes_are_merged() -> None:
     assert "No pooled individual effect, fundraising term, or ideology term enters WAR" in ideology
     assert "Candidate Atlas" not in ideology
     assert "legislators.html" not in ideology
-    assert "Alabama Democratic groupings, 1998–2022" in ideology
-    assert 'id="transitionChart"' in ideology
-    assert 'id="candidate-explorer"' in ideology
+    assert "Five Democratic groupings, 1994&ndash;2022" in ideology
+    assert 'id="compositionChart"' in ideology
+    assert 'id="members"' in ideology
     assert "render3D" not in ideology
     assert 'id="threeD"' not in ideology
     assert "three-d-wrap" not in ideology
-    assert 'ideology-performance.html#candidate-explorer' in caucus
-    assert "location.replace" in caucus
+    assert 'ideology-performance.html#groups' in caucus
 
 
 def test_public_pages_avoid_internal_release_vocabulary() -> None:

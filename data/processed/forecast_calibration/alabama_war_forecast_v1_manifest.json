@@ -1,5 +1,5 @@
 {
-  "build_id": "5c29c71e4ffacc6fa2b5",
+  "build_id": "08feb2c9669842846d3f",
   "configuration": {
     "candidate_history_carry_limit_years": 8,
     "candidate_history_decay_applied": false,
@@ -71,8 +71,8 @@
     "selected_forward_mae": 7.459961105438734,
     "structural_improves_baseline_on_holdout": false
   },
-  "generated_at_utc": "2026-09-15T02:36:55.582912+00:00",
-  "git_commit": "5c9014c4591f3f0a5be3622c0b1c77fd6ddf260c",
+  "generated_at_utc": "2026-09-15T02:51:47.621227+00:00",
+  "git_commit": "3493a54bcc37bd256bfe638f5c8ea59b74b6a244",
   "inputs": [
     {
       "path": "data/processed/war/alabama_war_v1/race_war.csv",
@@ -108,7 +108,7 @@
     },
     {
       "path": "project_docs/model/ALABAMA_WAR_FORECAST_FIELD_CONTRACT.md",
-      "sha256": "b373374ecd21893c8ad1e6d7e7a42ca7eded5413b8d1ad415c64db314ccfdbbc"
+      "sha256": "bc2817c3eed14663a77e18ad965e96ee47e8c89de739177a4900196007c6963a"
     }
   ],
   "methodology_version": "alabama_war_environment_forecast_v2",

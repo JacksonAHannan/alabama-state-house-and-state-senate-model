@@ -322,14 +322,12 @@ def test_candidate_finance_is_display_only_not_model_input():
     assert any(candidate["raised"] is not None for chamber in ("house", "senate") for race in data[chamber]["races"] for candidate in race["candidates"])
 
 
-@pytest.mark.xfail(strict=True, reason="candidate-history methodology awaits the single republish; "
-                                       "remove this marker when docs/ is republished")
 def test_methodology_has_no_legacy_forecast_claims():
     text = (ROOT / "docs" / "methodology.html").read_text(encoding="utf-8")
     headline_mae = selected_headline_mae()
     assert "eligible Southern races after 2016 and before 2022" in text
     assert "WAR model's incumbency term" in text
-    assert f"records {headline_mae:.2f} points of MAE" in text
+    assert f"records {headline_mae:.2f} points" in text
     assert "carried-forward candidate WAR" in text
     assert "Student-t" in text
     assert "50,000 correlated simulations" in text

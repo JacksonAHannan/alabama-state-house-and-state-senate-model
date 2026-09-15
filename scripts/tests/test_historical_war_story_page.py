@@ -31,7 +31,7 @@ def test_historical_map_restores_every_cycle_and_chamber() -> None:
     assert "function renderMap" in html
 
 
-def test_historical_map_uses_residual_war_and_labels_backcasts() -> None:
+def test_historical_map_uses_residual_war_and_labels_its_scoring_scope() -> None:
     html, payload = page_payload()
     rows = [row for section in payload.values() for row in section["candidates"]]
     assert {row["scoringScope"] for row in rows} == {
@@ -40,7 +40,10 @@ def test_historical_map_uses_residual_war_and_labels_backcasts() -> None:
     assert all(row["war"] is not None for row in rows)
     assert all(row["rawGap"] is not None for row in rows)
     assert all(row["predictedStructuralGap"] is not None for row in rows)
-    assert "Historical backcasts and published modern residuals are labeled separately" in html
+    assert "Pre-2016 cycles scored against the fixed reference model and published modern residuals are labeled separately" in html
+    assert "One fixed reference model" in html
+    # The schema keeps the backcast enum; reader-facing copy must not reuse the retired framing.
+    assert "Modern-model backcast" not in html
     assert "No pooled candidate effect" in html
     assert "default view maps CMO" not in html
     assert "Direct CMO" not in html

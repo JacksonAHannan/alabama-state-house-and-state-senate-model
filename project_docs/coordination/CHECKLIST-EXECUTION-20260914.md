@@ -79,3 +79,37 @@ is marked `xfail(strict=True)` until the single republish, so it will fail loudl
 the moment `docs/` is refreshed and the marker is not removed.
 
 Open in this phase: nothing. Next: forecast WAR carry-forward.
+
+## Checkpoint 2 (2026-09-15 03:30Z) — forecast, historical semantics and the single republish
+
+Accepted: `forecast-04`, `forecast-02`, `forecast-11`, `ideology-11`,
+`ideology-12`, `alabama-10`, `warehouse-12`, `release-01`, `release-02`,
+`release-04`, `release-06`. Sixteen items retired with explicit portfolio-scope
+dispositions and a Phase 8 roadmap added. Checklist 79/86.
+
+**Forecast.** Q16(a) could not be implemented as written: v3's decaying lag is
+the prior-presidential district lag, and the model has no candidate-history
+term. On the owner's decision, persistence of a candidate's own WAR was
+estimated on the Southern panel's repeat candidates (0.432, SE 0.076, t 5.70,
+1,576 pairs) and applied to the 2026 roster. The years-elapsed interaction is
+insignificant and is not applied. 23 of 48 modeled races carry an adjustment.
+Holdout MAE: 7.07 generic-ballot baseline, 7.65 structural, 7.46 published.
+Two silent joins that had been returning a zero adjustment were found and fixed
+(2022 stub person ids; `lower`/`upper` versus `house`/`senate`). Generic-ballot
+snapshot refreshed to 2026-09-08 (+10.02).
+
+**Historical semantics.** Career cumulative WAR published as its own run
+(`alabama_career_war_v1`, 849 careers, 138 multi-cycle) with a page section and
+download. Reader-facing copy now states the fixed 2018–24 reference framing; the
+`scoring_scope` and `backcast_extrapolation_years` schema fields are unchanged so
+the contract chain keeps working.
+
+**Release.** Warehouse `quick_check ok`, 0 foreign-key violations, 120 tables.
+The release gate refused the first publish attempt because the forecast field
+contract had changed after its manifest hashed it — rebuilt, then published all
+ten pages. Full suite: 1,313 passed, 12 failed; eleven were reproduced on a
+clean tree with this session's work stashed, and the twelfth was a retired copy
+assertion that is now retargeted. `release-03` stays open to adjudicate those
+pre-existing warehouse and candidate-universe contract failures.
+
+Open: `warehouse-04`, `warehouse-10`, `release-03`, and the four roadmap items.
