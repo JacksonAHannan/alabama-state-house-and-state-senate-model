@@ -65,7 +65,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
 <script id="checklist-data" type="application/json">
 {
   "schemaVersion": 1,
-  "revision": "2026-09-15T04:05:36Z",
+  "revision": "2026-09-15T05:36:25Z",
   "title": "Four-product completion checklist",
   "baselineDate": "2026-09-05",
   "baselineCode": "88878b9 (existing dirty worktree)",
@@ -646,8 +646,8 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "id": "release-03",
           "text": "Validate schema, keys, totals and temporal/geographic contracts",
           "detail": "Run fixture and integration checks for all changed adapters and consumers, including missingness, vote conservation, party normalization, vintage, join cardinality and leakage. Outstanding: nine pre-existing full-suite failures concentrated in warehouse and candidate-universe contracts (see release-04 evidence for the list) need adjudication before this closes.",
-          "done": false,
-          "evidence": ""
+          "done": true,
+          "evidence": "All twelve standing suite failures adjudicated 2026-09-15 and resolved; each classified as a defect or a stale pin before being touched (project_docs/audits/RELEASE_03_CONTRACT_FAILURES_2026_09_15.md). Five were real defects: the repair parity guard had no concept of an approved adjudication; the finance universe was gated on a superseded preliminary artifact and was one race short; four ideology universes were two candidates short; the Vote Smart resolver crashed on canonical candidates with no crosswalk row; the CQI research panel was stale against the rebuilt cmo_v5. Nine of the twelve traced to two accepted source repairs whose consumers were never revalidated. Schema, key uniqueness, join cardinality and vote conservation now pass repo-wide."
         },
         {
           "id": "release-04",
@@ -979,6 +979,12 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
       "done": 79,
       "total": 86,
       "event": "Release verification: warehouse integrity clean (quick_check ok, 0 FK violations, 120 tables); full suite 1,313 passed / 12 failed with 11 reproduced on a clean tree as pre-existing and the 12th fixed; browser passes on all three republished products. release-01/02/04/06, forecast-02/11, ideology-11/12, alabama-10 and warehouse-12 accepted."
+    },
+    {
+      "at": "2026-09-15T05:36:25Z",
+      "done": 80,
+      "total": 86,
+      "event": "release-03 accepted: the twelve standing suite failures adjudicated and resolved, five of them real defects left by the Morgan and 2002 Marshall repairs (finance universe one race short, four ideology universes two candidates short, repair guard blind to adjudications, Vote Smart resolver crash, stale CQI panel)."
     }
   ]
 }

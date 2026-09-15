@@ -4,13 +4,13 @@
  "scope": "row-level pin of the accepted Alabama 2018 certified canvass/precinct reconciliation for the source-only warehouse append; no canonical promotion or analytical certification",
  "reconciliation_audit": {
   "path": "project_docs/audits/ALABAMA_2018_CERTIFIED_SOURCE_RECONCILIATION.json",
-  "sha256": "8c1b0bb6037ba3a944bba771028592f8db0b62417d453070a5df709dc53dbdd1",
+  "sha256": "1d77853dacc8eb9fa0d23a739ac0b74c710fdc96f75d3aec218c14167dc03007",
   "status": "review_required_precinct_subtotals_below_certified_canvass"
  },
  "code_sha256": {
   "scripts/alabama_2018_official_results.py": "7b8022ada88f92478567f686bc479ef3fe0dbce65c18d79ac25798b32996a5fe",
   "scripts/alabama_2022_official_results.py": "96f853959fff04d80b478c23116987b39af5a8780d51c5181dbacf3c32e990d3",
-  "scripts/sos_precinct.py": "a87f1a4713e8a164a2614136e34222bce7d45b8432f4ef22231eaa6870d710cf",
+  "scripts/sos_precinct.py": "ad1251628c2b3cad061010c4bc81d16a5c7edeb84c519e2d232b7a1afadb47f3",
   "scripts/oe_normalize.py": "e1b306249cbc1bc3dd5b23ae038ee94df9d89ec3183ec061a4f8f878a63e1dff"
  },
  "canvass_source": {
@@ -17666,5 +17666,15 @@
   "Thirty precinct subtotals below the certified total remain review rows.",
   "Certified totals do not certify geographic allocations or canonical identity.",
   "Explicit redistribution terms remain review."
+ ],
+ "code_revalidations": [
+  {
+   "at": "2026-09-15T04:58:47Z",
+   "path": "scripts/sos_precinct.py",
+   "previous_sha256": "a87f1a4713e8a164a2614136e34222bce7d45b8432f4ef22231eaa6870d710cf",
+   "current_sha256": "ad1251628c2b3cad061010c4bc81d16a5c7edeb84c519e2d232b7a1afadb47f3",
+   "reason": "Commit f407b9d0 added source_row/source_column and printed-value provenance columns to the legacy 1998 and 2004 parsers only. The 2018 path is untouched.",
+   "revalidation": "reconcile_sources replayed under the current code reproduces all 352 pinned evidence rows byte-for-byte against ALABAMA_2018_CERTIFIED_SOURCE_ROWS.json; coverage, candidate alignment and reconciliation counts are unchanged."
+  }
  ]
 }

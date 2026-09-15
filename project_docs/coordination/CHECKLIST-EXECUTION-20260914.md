@@ -113,3 +113,31 @@ assertion that is now retargeted. `release-03` stays open to adjudicate those
 pre-existing warehouse and candidate-universe contract failures.
 
 Open: `warehouse-04`, `warehouse-10`, `release-03`, and the four roadmap items.
+
+## Checkpoint 3 (2026-09-15 05:00Z) — standing contract failures
+
+Accepted: `release-03`. Checklist 80/86.
+
+The twelve failures carried into the release were adjudicated one at a time and
+all resolved (`audits/RELEASE_03_CONTRACT_FAILURES_2026_09_15.md`). Five were
+real defects rather than stale tests, and nine of the twelve share one cause:
+the 2026-09-10 Morgan adjudication and the 2026-09-11 2002 Marshall canonical
+repair were applied without tracing every consumer.
+
+Concretely, the canonical historical finance mart had been one race short since
+the Marshall repair because it was gated on `preliminary_cmo_races.csv`, a
+superseded 2026-08-21 artifact; four ideology universes were two candidates
+short for the same reason; `resolve_votesmart_pct_identities.py` crashed
+outright on the new candidates; and the source-repair parity guard treated the
+owner-adjudicated Morgan value as drift because it had no concept of an
+approved adjudication. Each is fixed in production code, not in the assertion.
+
+The stale pins were retargeted to what they were protecting: the Morgan module
+now pins the settled adjudication and keeps its fractional-refusal guard, the
+v5 count is an invariant rather than a magic number, the CQI era test asserts
+sign and ordering rather than two-decimal windows, and the frontier rationale
+bar distinguishes a ceremonial bill from a missing justification. The 2018
+replay pin was revalidated by replaying all 352 evidence rows byte-for-byte
+before its code hash was updated.
+
+Remaining open: `warehouse-04`, `warehouse-10`, and the four roadmap items.

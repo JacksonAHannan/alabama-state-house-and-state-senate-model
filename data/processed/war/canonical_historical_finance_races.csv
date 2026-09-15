@@ -178,6 +178,7 @@ cycle,chamber,district,dem_fundraising,rep_fundraising,dem_finance_status,rep_fi
 2002,house,24,43480.0,128408.0,observed_positive,observed_positive,DIME/FollowTheMoney recipient totals,DIME/FollowTheMoney recipient totals,1,-1.0753639865078657,500.0
 2002,house,25,30943.0,,observed_positive,unknown_unmatched,DIME/FollowTheMoney recipient totals,none,0,,500.0
 2002,house,26,84448.0,6100.0,observed_positive,observed_positive,DIME/FollowTheMoney recipient totals,DIME/FollowTheMoney recipient totals,1,2.554969655547673,500.0
+2002,house,27,,,unknown_unmatched,unknown_unmatched,none,none,0,,500.0
 2002,house,28,153313.0,,observed_positive,unknown_unmatched,DIME/FollowTheMoney recipient totals,none,0,,500.0
 2002,house,29,,20308.0,unknown_unmatched,observed_positive,none,DIME/FollowTheMoney recipient totals,0,,500.0
 2002,house,31,13525.0,5610.0,observed_positive,observed_positive,DIME/FollowTheMoney recipient totals,DIME/FollowTheMoney recipient totals,1,0.830914678225256,500.0
@@ -261,7 +262,7 @@ cycle,chamber,district,dem_fundraising,rep_fundraising,dem_finance_status,rep_fi
 2006,house,73,29640.0,125052.0,observed_positive,observed_positive,DIME/FollowTheMoney recipient totals,DIME/FollowTheMoney recipient totals,1,-1.426866822186768,500.0
 2006,house,79,517195.0,748446.0,observed_positive,observed_positive,DIME/FollowTheMoney recipient totals,DIME/FollowTheMoney recipient totals,1,-0.36928061903193043,500.0
 2006,house,80,182967.0,13419.0,observed_positive,observed_positive,DIME/FollowTheMoney recipient totals,DIME/FollowTheMoney recipient totals,1,2.578780001564575,500.0
-2006,house,85,,,unknown_unmatched,unknown_unmatched,none,none,0,,500.0
+2006,house,85,104736.0,33507.0,observed_positive,observed_positive,DIME/FollowTheMoney recipient totals,DIME/FollowTheMoney recipient totals,1,1.129639061309677,500.0
 2006,house,88,,106450.0,unknown_unmatched,observed_positive,none,DIME/FollowTheMoney recipient totals,0,,500.0
 2006,house,91,238572.0,201116.0,observed_positive,observed_positive,DIME/FollowTheMoney recipient totals,DIME/FollowTheMoney recipient totals,1,0.1703998636660534,500.0
 2006,house,92,1130671.0,15548.0,observed_positive,observed_positive,DIME/FollowTheMoney recipient totals,DIME/FollowTheMoney recipient totals,1,4.255424427101888,500.0
@@ -394,7 +395,7 @@ cycle,chamber,district,dem_fundraising,rep_fundraising,dem_finance_status,rep_fi
 2014,house,90,31050.0,302527.52,observed_positive,observed_positive,Alabama FCPA principal campaign committee summaries,Alabama FCPA principal campaign committee summaries,1,-2.262250037480307,500.0
 2014,house,93,38023.42,257055.0,observed_positive,observed_positive,Alabama FCPA principal campaign committee summaries,Alabama FCPA principal campaign committee summaries,1,-1.8999669214937323,500.0
 2014,house,98,145200.0,28627.43,observed_positive,observed_positive,Alabama FCPA principal campaign committee summaries,Alabama FCPA principal campaign committee summaries,1,1.6098693713192787,500.0
-2014,house,103,83571.33,0.0,observed_positive,observed_zero,Alabama FCPA principal campaign committee summaries,Alabama FCPA principal campaign committee summaries,1,5.124812785731889,500.0
+2014,house,103,83571.33,,observed_positive,unknown_unmatched,Alabama FCPA principal campaign committee summaries,none,0,,500.0
 2014,senate,1,53600.0,587796.67,observed_positive,observed_positive,Alabama FCPA principal campaign committee summaries,Alabama FCPA principal campaign committee summaries,1,-2.3863971756245963,500.0
 2014,senate,4,129986.86,490948.32,observed_positive,observed_positive,Alabama FCPA principal campaign committee summaries,Alabama FCPA principal campaign committee summaries,1,-1.3260842545131728,500.0
 2014,senate,6,0.0,464529.52,observed_zero,observed_positive,Alabama FCPA principal campaign committee summaries,Alabama FCPA principal campaign committee summaries,1,-6.835248068003254,500.0
@@ -404,7 +405,7 @@ cycle,chamber,district,dem_fundraising,rep_fundraising,dem_finance_status,rep_fi
 2014,senate,11,0.0,0.0,observed_zero,observed_zero,Alabama FCPA principal campaign committee summaries,Alabama FCPA principal campaign committee summaries,1,0.0,500.0
 2014,senate,12,0.0,1536909.25,observed_zero,observed_positive,Alabama FCPA principal campaign committee summaries,Alabama FCPA principal campaign committee summaries,1,-8.031001154108367,500.0
 2014,senate,13,190643.94,884876.0,observed_positive,observed_positive,Alabama FCPA principal campaign committee summaries,Alabama FCPA principal campaign committee summaries,1,-1.5329856567493532,500.0
-2014,senate,16,,388519.89,unknown_unmatched,observed_positive,none,Alabama FCPA principal campaign committee summaries,0,,500.0
+2014,senate,16,37866.33,388519.89,observed_positive,observed_positive,Alabama FCPA principal campaign committee summaries,Alabama FCPA principal campaign committee summaries,1,-2.316450221373747,500.0
 2014,senate,21,224585.0,541428.3,observed_positive,observed_positive,Alabama FCPA principal campaign committee summaries,Alabama FCPA principal campaign committee summaries,1,-0.8786555962238225,500.0
 2014,senate,22,158435.0,334424.05,observed_positive,observed_positive,Alabama FCPA principal campaign committee summaries,Alabama FCPA principal campaign committee summaries,1,-0.745408476097876,500.0
 2014,senate,27,,739055.2200000001,unknown_unmatched,observed_positive,none,Alabama FCPA principal campaign committee summaries,0,,500.0
@@ -471,7 +472,7 @@ cycle,chamber,district,dem_fundraising,rep_fundraising,dem_finance_status,rep_fi
 2018,senate,16,0.0,409725.0,observed_zero,observed_positive,Alabama FCPA principal campaign committee summaries,Alabama FCPA principal campaign committee summaries,1,-6.709852970221159,500.0
 2018,senate,21,18930.1,338268.47,observed_positive,observed_positive,Alabama FCPA principal campaign committee summaries,Alabama FCPA principal campaign committee summaries,1,-2.858493484636276,500.0
 2018,senate,25,12235.0,509228.0500000001,observed_positive,observed_positive,Alabama FCPA principal campaign committee summaries,Alabama FCPA principal campaign committee summaries,1,-3.689523239772334,500.0
-2018,senate,26,,0.0,unknown_unmatched,observed_zero,none,Alabama FCPA principal campaign committee summaries,0,,500.0
+2018,senate,26,210599.18,0.0,observed_positive,observed_zero,Alabama FCPA principal campaign committee summaries,Alabama FCPA principal campaign committee summaries,1,6.045475250991706,500.0
 2018,senate,27,42329.7,1068459.95,observed_positive,observed_positive,Alabama FCPA principal campaign committee summaries,Alabama FCPA principal campaign committee summaries,1,-3.2172096582361256,500.0
 2018,senate,32,44298.85,710546.57,observed_positive,observed_positive,Alabama FCPA principal campaign committee summaries,Alabama FCPA principal campaign committee summaries,1,-2.7645554575064093,500.0
 2018,senate,35,22903.02,381011.07,observed_positive,observed_positive,Alabama FCPA principal campaign committee summaries,Alabama FCPA principal campaign committee summaries,1,-2.791274793476321,500.0

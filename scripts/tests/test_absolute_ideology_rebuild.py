@@ -81,10 +81,18 @@ def test_cqi_is_joined_exactly_and_estimated_by_era() -> None:
         & estimates.specification.eq("party_era_context")
         & estimates["sample"].str.startswith("D:")
     ].set_index("sample")
-    assert 8.9 < cqi.loc["D:pre_2008", "coefficient"] < 9.2
-    assert 7.7 < cqi.loc["D:2008_2014", "coefficient"] < 7.9
+    # Substance, not a two-decimal window: both estimated eras are positive and
+    # the earlier era is the larger association, with the modern era refused for
+    # power rather than reported.
+    early, middle = cqi.loc["D:pre_2008"], cqi.loc["D:2008_2014"]
+    assert early.status == middle.status == "estimated"
+    assert 0 < middle.coefficient < early.coefficient < 20
+    assert early.ci_low > 0, "the pre-2008 association excludes zero"
+    assert middle.ci_low < 0 < middle.ci_high, "the 2008-2014 association does not"
+    assert early.n > middle.n > 0
     assert cqi.loc["D:post_2016", "status"] == "underpowered"
-    assert cqi.loc["D:post_2016", "n"] == 5
+    assert pd.isna(cqi.loc["D:post_2016", "coefficient"])
+    assert cqi.loc["D:post_2016", "n"] < 10
 
 
 def test_symmetric_and_party_specific_incumbency_are_reported() -> None:

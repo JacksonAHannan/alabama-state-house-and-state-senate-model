@@ -48,6 +48,10 @@ def main() -> None:
                            *race_key]].merge(
         crosswalk[race_key + signal_columns], on=race_key, how="left",
         validate="one_to_one")
+    # A canonical candidate added after the crosswalk was last built (for example
+    # the reinstated 2002 House 27 pair) simply carries no Vote Smart signal; it
+    # is unaccepted, not unknown-shaped.
+    crosswalk["accepted"] = crosswalk.accepted.fillna(False).astype(bool)
     forms = pct[["election_year", "votesmart_candidate_id", "candidate", "source_url"]].drop_duplicates()
     forms = forms[forms.election_year.isin(range(1998, 2023, 4))].copy()
     roster_key = roster.sort_values("election_year").drop_duplicates(

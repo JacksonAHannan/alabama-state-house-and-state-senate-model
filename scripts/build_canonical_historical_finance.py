@@ -22,13 +22,22 @@ KEY = ["cycle", "chamber", "district", "party"]
 
 
 def candidate_universe() -> pd.DataFrame:
+    """Democratic and Republican candidates in WAR-eligible races.
+
+    Eligibility follows the canonical feature mart, not the superseded
+    `preliminary_cmo_races.csv`: that legacy artifact predates the 2002 Marshall
+    canonical repair and silently dropped the reinstated House 27 race.
+    """
     candidates = pd.read_csv(ELECTIONS / "canonical_cmo_candidates.csv").rename(
         columns={"year": "cycle", "canonical_party": "party", "canonical_name": "candidate"}
     )
-    races = pd.read_csv(WAR / "preliminary_cmo_races.csv", usecols=["cycle", "chamber", "district", "war_eligible"])
+    races = pd.read_csv(ELECTIONS / "canonical_cmo_features.csv",
+                        usecols=["cycle", "chamber", "district", "war_eligible"])
+    eligible = races[races.war_eligible.astype(bool)].drop(columns="war_eligible")
+    if eligible.duplicated(["cycle", "chamber", "district"]).any():
+        raise ValueError("Canonical WAR-eligible races are not unique")
     candidates = candidates.merge(
-        races[races.war_eligible.astype(bool)].drop(columns="war_eligible"),
-        on=["cycle", "chamber", "district"], how="inner", validate="many_to_one"
+        eligible, on=["cycle", "chamber", "district"], how="inner", validate="many_to_one"
     )
     return candidates[candidates.party.isin(["D", "R"])].copy()
 

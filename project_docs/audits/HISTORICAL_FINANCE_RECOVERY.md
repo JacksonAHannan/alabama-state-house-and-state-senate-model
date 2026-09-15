@@ -8,13 +8,13 @@ Fundraising ratios use a $500 additive constant on both sides.
 |---:|---:|---:|---:|
 | 1994 | 0 | 72 | 0.0% |
 | 1998 | 64 | 85 | 75.3% |
-| 2002 | 43 | 74 | 58.1% |
-| 2006 | 51 | 62 | 82.3% |
+| 2002 | 43 | 75 | 57.3% |
+| 2006 | 52 | 62 | 83.9% |
 | 2010 | 56 | 63 | 88.9% |
 | 2014 | 48 | 56 | 85.7% |
-| 2018 | 59 | 64 | 92.2% |
+| 2018 | 60 | 64 | 93.8% |
 | 2022 | 31 | 33 | 93.9% |
 
-Candidate observations recovered: 785/1018 (77.1%).
+Candidate observations recovered: 788/1020 (77.3%).
 
 The unresolved queue is written to `canonical_historical_finance_review.csv`. The 1994 cases are also written to a separate archival-request manifest; public historical records are the remaining avenue for that cycle.

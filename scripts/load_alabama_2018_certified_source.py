@@ -27,8 +27,8 @@ from warehouse import ROOT, begin_run, database_path, file_sha256, finish_run, s
 AUDIT = Path("project_docs/audits/ALABAMA_2018_CERTIFIED_SOURCE_RECONCILIATION.json")
 EVIDENCE = Path("project_docs/audits/ALABAMA_2018_CERTIFIED_SOURCE_ROWS.json")
 MANIFEST = Path("data/raw/alabama_elections_and_geography/2018_general_certified_canvass.manifest.json")
-AUDIT_SHA256 = "8c1b0bb6037ba3a944bba771028592f8db0b62417d453070a5df709dc53dbdd1"
-EVIDENCE_SHA256 = "14f62727cbe9658c42c6c6bd223c15e507a9d5cf9c6046e506b67bd53ab74664"
+AUDIT_SHA256 = "1d77853dacc8eb9fa0d23a739ac0b74c710fdc96f75d3aec218c14167dc03007"
+EVIDENCE_SHA256 = "97138fb4f719a0f68874c7481bdef1f934c3762213bb5ce4757fc867e4d9af98"
 AUDIT_STATUS = "review_required_precinct_subtotals_below_certified_canvass"
 FAMILY = "alabama_sos_certified_canvass"
 PARSER = "alabama_2018_official_results.certified_canvass"

@@ -23,7 +23,17 @@ def test_frontier_bill_adjudications_are_unique_and_well_formed():
         "insufficient_text",
     }
     assert rows.confidence.isin(["low", "medium", "high"]).all()
-    assert rows.rationale.fillna("").str.len().ge(40).all()
+    rationale = rows.rationale.fillna("").str.strip()
+    assert rationale.ne("").all(), "every adjudication states why"
+    # A ceremonial or procedural bill is fully explained in one short sentence;
+    # a substantive mapping needs more, and must name the axis it mapped to.
+    terse = rows[rationale.str.len().lt(40)]
+    assert terse.decision.isin(
+        ["symbolic", "procedural", "insufficient_text", "map", "local_non_generalizable"]).all()
+    assert rationale[rows.decision.eq("multi_axis")].str.len().ge(40).all()
+    assert rationale.str.len().ge(30).all()
+    mapped = rows[rows.decision.eq("map")]
+    assert mapped.primitive_axes.fillna("").str.strip().ne("").all()
 
 
 def test_scalar_frontier_decisions_have_aligned_axes_and_poles():

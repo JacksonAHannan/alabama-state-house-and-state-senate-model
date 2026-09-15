@@ -119,3 +119,39 @@ def test_source_repair_staging_reconciles_all_vote_cells():
     assert all(check['reported'] == check['precinct_sum'] for check in checks)
     assert len(sources) == 3
     assert staged[['source_file', 'source_sheet', 'source_row', 'source_column']].notna().all().all()
+
+
+def test_only_approved_source_adjudications_override_the_raw_workbook():
+    """A warehouse value may differ from its source only where an owner settled it."""
+    import sqlite3
+    from repair_warehouse_source_defects import adjudicated_1994_counts
+
+    connection = sqlite3.connect(":memory:")
+    connection.execute("""CREATE TABLE warehouse_manual_adjudication (
+        adjudication_id TEXT, domain TEXT, subject_type TEXT, subject_id TEXT,
+        decision TEXT, review_status TEXT)""")
+    connection.execute("""CREATE TABLE vote_observations (
+        year INTEGER, county_key TEXT, office TEXT, candidate_key TEXT,
+        source_file_id TEXT, source_sheet TEXT, source_row INTEGER, source_column INTEGER)""")
+    connection.execute("""INSERT INTO vote_observations VALUES
+        (1994,'MORGAN','Attorney General','SESSIONS','SRC-ABC','Morgan',48,11)""")
+    rows = [
+        ("ADJ-OK", "elections_source", "vote_observation_cell",
+         "SRC-ABC:94g-prec/MORGAN.XLS:Morgan:R48C11", "reported_count=144", "approved"),
+        ("ADJ-PENDING", "elections_source", "vote_observation_cell",
+         "SRC-ABC:94g-prec/MORGAN.XLS:Morgan:R48C11", "reported_count=999", "proposed"),
+        ("ADJ-OTHER-DOMAIN", "elections_canonical", "canonical_contest",
+         "AL-2002-house-26", "district_total=x", "approved"),
+    ]
+    connection.executemany("INSERT INTO warehouse_manual_adjudication VALUES (?,?,?,?,?,?)", rows)
+    decisions = adjudicated_1994_counts(connection)
+    assert decisions == {("MORGAN", "Attorney General", "SESSIONS"): 144.0}
+
+
+def test_the_live_morgan_adjudication_is_the_only_1994_override():
+    from contextlib import closing
+    from repair_warehouse_source_defects import adjudicated_1994_counts
+    from warehouse import connect
+    with closing(connect(readonly=True)) as connection:
+        decisions = adjudicated_1994_counts(connection)
+    assert decisions == {("MORGAN", "Attorney General", "SESSIONS"): 144.0}

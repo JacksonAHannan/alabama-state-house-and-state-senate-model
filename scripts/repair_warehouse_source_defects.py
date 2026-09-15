@@ -12,6 +12,7 @@ import sqlite3
 from contextlib import closing
 from pathlib import Path
 from zipfile import ZipFile
+import re
 
 import pandas as pd
 from shapely import from_wkb
@@ -64,6 +65,36 @@ def registered_source(connection, suffix):
     return identifier, path, digest
 
 
+ADJUDICATED_COUNT = re.compile(r"^reported_count=(-?\d+(?:\.\d+)?)$")
+CELL_LOCATOR = re.compile(r"^(?P<file_id>SRC-[0-9A-Fa-f]+):(?P<file>.+):(?P<sheet>[^:]+):R(?P<row>\d+)C(?P<column>\d+)$")
+
+
+def adjudicated_1994_counts(connection):
+    """Approved source-cell decisions for 1994, keyed by the observation they settle.
+
+    A reported count that an owner has adjudicated is authoritative over the raw
+    workbook value; every other difference from the source is drift.
+    """
+    decisions = {}
+    for subject_id, decision in connection.execute(
+            "SELECT subject_id, decision FROM warehouse_manual_adjudication "
+            "WHERE domain='elections_source' AND subject_type='vote_observation_cell' "
+            "AND review_status='approved'"):
+        value = ADJUDICATED_COUNT.match(str(decision))
+        locator = CELL_LOCATOR.match(str(subject_id))
+        if not value or not locator:
+            continue
+        row = connection.execute(
+            "SELECT county_key,office,candidate_key FROM vote_observations "
+            "WHERE year=1994 AND source_file_id=? AND source_sheet=? "
+            "AND source_row=? AND source_column=?",
+            (locator["file_id"], locator["sheet"], int(locator["row"]),
+             int(locator["column"]))).fetchone()
+        if row is not None:
+            decisions[tuple(row)] = float(value.group(1))
+    return decisions
+
+
 def stage_votes(connection):
     sources = {year: registered_source(connection, filename) for year, filename in {
         1994: '94g-prec.zip', 2002: '2002-GeneralElection-PrecinctLevel_0.xls',
@@ -88,12 +119,29 @@ def stage_votes(connection):
     staged['source_file_id'] = staged.year.map({year: source[0] for year, source in sources.items()})
     if staged.duplicated(['source_file_id', 'source_file', 'source_sheet', 'source_row', 'source_column']).any():
         raise ValueError('Repeated source cell in staged repairs')
-    # 1994 identity/party repair must not drop or alter a single vote value.
+    # The 1994 identity/party repair must not drop or alter a single vote value.
+    # A value may differ from the raw source only where an accepted adjudication
+    # records the decision; anything else is drift and refuses the repair.
     old = pd.read_sql_query("SELECT county_key,office,candidate_key,votes FROM vote_observations WHERE source='alabama_sos' AND year=1994", connection)
     new = staged[staged.year.eq(1994)][old.columns]
     columns = list(old.columns)
-    pd.testing.assert_frame_equal(old.sort_values(columns).reset_index(drop=True),
-                                  new.sort_values(columns).reset_index(drop=True), check_dtype=False)
+    old_sorted = old.sort_values(columns).reset_index(drop=True)
+    new_sorted = new.sort_values(columns).reset_index(drop=True)
+    if len(old_sorted) != len(new_sorted):
+        raise ValueError('1994 repair changed the observation count')
+    differing = old_sorted.votes.astype(float).ne(new_sorted.votes.astype(float))
+    if differing.any():
+        adjudicated = adjudicated_1994_counts(connection)
+        for position in differing[differing].index:
+            stored, reported = old_sorted.loc[position], new_sorted.loc[position]
+            key = (stored.county_key, stored.office, stored.candidate_key)
+            decision = adjudicated.get(key)
+            if decision is None or abs(float(stored.votes) - decision) > 1e-8:
+                raise ValueError(
+                    f'Unadjudicated 1994 vote difference at {key}: '
+                    f'warehouse {stored.votes} vs source {reported.votes}')
+    pd.testing.assert_frame_equal(old_sorted.drop(columns='votes'),
+                                  new_sorted.drop(columns='votes'), check_dtype=False)
     # Every repaired county result must reconcile to its own printed summary.
     checks = []
     for year, county, frame, raw, total_col in [

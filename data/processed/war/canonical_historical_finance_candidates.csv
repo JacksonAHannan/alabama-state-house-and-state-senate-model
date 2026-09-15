@@ -357,6 +357,8 @@ AL-2002-house-25-D-MILES-PAM,2002,house,25,D,"Miles, Pam",30943.0,observed_posit
 AL-2002-house-25-R-GARNER-RAY,2002,house,25,R,"Garner, Ray",,unknown_unmatched,none,unknown,unmatched,,
 AL-2002-house-26-D-MCDANIEL-FRANK,2002,house,26,D,"McDaniel, Frank",84448.0,observed_positive,DIME/FollowTheMoney recipient totals,total_receipts,accepted_candidate_match,100.0,100.0
 AL-2002-house-26-R-PATTERSON-JEFFREY,2002,house,26,R,"Patterson, Jeffrey",6100.0,observed_positive,DIME/FollowTheMoney recipient totals,total_receipts,accepted_candidate_match,94.11764705882352,94.11764705882352
+AL-2002-house-27-D-MCLAUGHLIN-JEFFREY,2002,house,27,D,"McLaughlin, Jeffrey",,unknown_unmatched,none,unknown,unmatched,,
+AL-2002-house-27-R-HAWKINS-GERALD-JERRY,2002,house,27,R,"Hawkins, Gerald (Jerry)",,unknown_unmatched,none,unknown,unmatched,,
 AL-2002-house-28-D-FORD-CRAIG,2002,house,28,D,"Ford, Craig",153313.0,observed_positive,DIME/FollowTheMoney recipient totals,total_receipts,accepted_candidate_match,100.0,100.0
 AL-2002-house-28-R-ABEL-DAVID-C,2002,house,28,R,"Abel, David C.",,unknown_unmatched,none,unknown,unmatched,,
 AL-2002-house-29-D-PAGE-JACK,2002,house,29,D,"Page, Jack",,unknown_unmatched,none,unknown,unmatched,,
@@ -523,8 +525,8 @@ AL-2006-house-79-D-CAROLYN-ELLIS,2006,house,79,D,CAROLYN ELLIS,517195.0,observed
 AL-2006-house-79-R-MIKE-HUBBARD,2006,house,79,R,MIKE HUBBARD,748446.0,observed_positive,DIME/FollowTheMoney recipient totals,total_receipts,accepted_candidate_match,81.4814814814815,59.25925925925928
 AL-2006-house-80-D-LESLEY-VANCE,2006,house,80,D,LESLEY VANCE,182967.0,observed_positive,DIME/FollowTheMoney recipient totals,total_receipts,accepted_candidate_match,100.0,100.0
 AL-2006-house-80-R-CINDY-DUNN-IRVIN,2006,house,80,R,CINDY DUNN IRVIN,13419.0,observed_positive,DIME/FollowTheMoney recipient totals,total_receipts,accepted_candidate_match,76.47058823529412,76.47058823529412
-AL-2006-house-85-D-BAKER,2006,house,85,D,BAKER,,unknown_unmatched,none,unknown,unmatched,,
-AL-2006-house-85-R-RALEY,2006,house,85,R,RALEY,,unknown_unmatched,none,unknown,unmatched,,
+AL-2006-house-85-D-BAKER,2006,house,85,D,BAKER,104736.0,observed_positive,DIME/FollowTheMoney recipient totals,total_receipts,accepted_candidate_match,47.61904761904761,47.61904761904761
+AL-2006-house-85-R-RALEY,2006,house,85,R,RALEY,33507.0,observed_positive,DIME/FollowTheMoney recipient totals,total_receipts,accepted_candidate_match,58.82352941176471,58.82352941176471
 AL-2006-house-88-D-M-BENJAMIN-ABERNATHY-I,2006,house,88,D,"M. BENJAMIN ABERNATHY, I",,unknown_unmatched,none,unknown,unmatched,,
 AL-2006-house-88-R-H-MAC-GIPSON,2006,house,88,R,H. MAC GIPSON,106450.0,observed_positive,DIME/FollowTheMoney recipient totals,total_receipts,accepted_candidate_match,100.0,65.21739130434783
 AL-2006-house-91-D-TERRY-SPICER,2006,house,91,D,TERRY SPICER,238572.0,observed_positive,DIME/FollowTheMoney recipient totals,total_receipts,accepted_candidate_match,100.0,100.0
@@ -790,7 +792,7 @@ AL-2014-house-93-R-STEVE-CLOUSE,2014,house,93,R,Steve Clouse,257055.0,observed_p
 AL-2014-house-98-D-NAPOLEON-BRACY-JR,2014,house,98,D,"Napoleon Bracy, Jr.",145200.0,observed_positive,Alabama FCPA principal campaign committee summaries,cash_contributions_plus_other_receipts,single_active_pcc_record,,
 AL-2014-house-98-R-WAYNE-E-BIGGS,2014,house,98,R,Wayne E. Biggs,28627.43,observed_positive,Alabama FCPA principal campaign committee summaries,cash_contributions_plus_other_receipts,single_active_pcc_record,,
 AL-2014-house-103-D-BARBARA-A-DRUMMOND,2014,house,103,D,Barbara A. Drummond,83571.33,observed_positive,Alabama FCPA principal campaign committee summaries,cash_contributions_plus_other_receipts,single_active_pcc_record,,
-AL-2014-house-103-R-RALPH-CARMICHAEL,2014,house,103,R,Ralph Carmichael,0.0,observed_zero,Alabama FCPA principal campaign committee summaries,cash_contributions_plus_other_receipts,committee_found_no_cycle_activity,,
+AL-2014-house-103-R-RALPH-CARMICHAEL,2014,house,103,R,Ralph Carmichael,,unknown_unmatched,none,unknown,unmatched,,
 AL-2014-senate-1-D-MIKE-CURTIS,2014,senate,1,D,Mike Curtis,53600.0,observed_positive,Alabama FCPA principal campaign committee summaries,cash_contributions_plus_other_receipts,single_active_pcc_record,,
 AL-2014-senate-1-R-TIM-MELSON,2014,senate,1,R,Tim Melson,587796.67,observed_positive,Alabama FCPA principal campaign committee summaries,cash_contributions_plus_other_receipts,single_active_pcc_record,,
 AL-2014-senate-4-D-ANGELO-DOC-MANCUSO,2014,senate,4,D,"Angelo ""Doc"" Mancuso",129986.86,observed_positive,Alabama FCPA principal campaign committee summaries,cash_contributions_plus_other_receipts,single_active_pcc_record,,
@@ -809,7 +811,7 @@ AL-2014-senate-12-D-TAYLOR-STEWART,2014,senate,12,D,Taylor Stewart,0.0,observed_
 AL-2014-senate-12-R-DEL-MARSH,2014,senate,12,R,Del Marsh,1536909.25,observed_positive,Alabama FCPA principal campaign committee summaries,cash_contributions_plus_other_receipts,single_active_pcc_record,,
 AL-2014-senate-13-D-DARRELL-TURNER,2014,senate,13,D,Darrell Turner,190643.94,observed_positive,Alabama FCPA principal campaign committee summaries,cash_contributions_plus_other_receipts,single_active_pcc_record,,
 AL-2014-senate-13-R-GERALD-DIAL,2014,senate,13,R,Gerald Dial,884876.0,observed_positive,Alabama FCPA principal campaign committee summaries,cash_contributions_plus_other_receipts,single_active_pcc_record,,
-AL-2014-senate-16-D-CINDY-BELL,2014,senate,16,D,Cindy Bell,,unknown_unmatched,none,unknown,unmatched,,
+AL-2014-senate-16-D-CINDY-BELL,2014,senate,16,D,Cindy Bell,37866.33,observed_positive,Alabama FCPA principal campaign committee summaries,cash_contributions_plus_other_receipts,single_active_pcc_record,,
 AL-2014-senate-16-R-J-T-JABO-WAGGONER,2014,senate,16,R,"J.T. ""Jabo"" Waggoner",388519.89,observed_positive,Alabama FCPA principal campaign committee summaries,cash_contributions_plus_other_receipts,single_active_pcc_record,,
 AL-2014-senate-21-D-PHIL-POOLE,2014,senate,21,D,Phil Poole,224585.0,observed_positive,Alabama FCPA principal campaign committee summaries,cash_contributions_plus_other_receipts,single_active_pcc_record,,
 AL-2014-senate-21-R-GERALD-ALLEN,2014,senate,21,R,Gerald Allen,541428.3,observed_positive,Alabama FCPA principal campaign committee summaries,cash_contributions_plus_other_receipts,single_active_pcc_record,,
@@ -943,7 +945,7 @@ AL-2018-senate-21-D-RICK-BURNHAM,2018,senate,21,D,Rick Burnham,18930.1,observed_
 AL-2018-senate-21-R-GERALD-ALLEN,2018,senate,21,R,Gerald Allen,338268.47,observed_positive,Alabama FCPA principal campaign committee summaries,cash_contributions_plus_other_receipts,single_active_pcc_record,,
 AL-2018-senate-25-D-DAVID-A-SADLER,2018,senate,25,D,David A. Sadler,12235.0,observed_positive,Alabama FCPA principal campaign committee summaries,cash_contributions_plus_other_receipts,single_active_pcc_record,,
 AL-2018-senate-25-R-WILL-BARFOOT,2018,senate,25,R,Will Barfoot,509228.0500000001,observed_positive,Alabama FCPA principal campaign committee summaries,cash_contributions_plus_other_receipts,single_active_pcc_record,,
-AL-2018-senate-26-D-DAVID-COACH-BURKETTE,2018,senate,26,D,"David ""Coach"" Burkette",,unknown_unmatched,none,unknown,unmatched,,
+AL-2018-senate-26-D-DAVID-COACH-BURKETTE,2018,senate,26,D,"David ""Coach"" Burkette",210599.18,observed_positive,Alabama FCPA principal campaign committee summaries,cash_contributions_plus_other_receipts,single_active_pcc_record,,
 AL-2018-senate-26-R-D-J-JOHNSON,2018,senate,26,R,D. J. Johnson,0.0,observed_zero,Alabama FCPA principal campaign committee summaries,cash_contributions_plus_other_receipts,committee_found_no_cycle_activity,,
 AL-2018-senate-27-D-NANCY-CARLTON-BENDINGER,2018,senate,27,D,Nancy Carlton Bendinger,42329.7,observed_positive,Alabama FCPA principal campaign committee summaries,cash_contributions_plus_other_receipts,single_active_pcc_record,,
 AL-2018-senate-27-R-TOM-WHATLEY,2018,senate,27,R,Tom Whatley,1068459.95,observed_positive,Alabama FCPA principal campaign committee summaries,cash_contributions_plus_other_receipts,single_active_pcc_record,,

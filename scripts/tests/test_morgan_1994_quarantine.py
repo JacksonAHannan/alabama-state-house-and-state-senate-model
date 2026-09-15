@@ -1,17 +1,18 @@
-"""Quarantine evidence for the unresolved fractional 1994 Morgan source cell.
+"""The adjudicated 1994 Morgan Attorney General cell, and the guard that found it.
 
-`warehouse-06` retains the reported 144.4 Attorney General value at row 48,
+`warehouse-06` quarantined a reported 144.4 Attorney General value at row 48,
 column 11 of the `Morgan` sheet in `94g-prec/MORGAN.XLS` (provider precinct
-`26001`, `SRC-E64FFC4299ED54CB2D3A`). The value is never rounded, nulled or
-substituted; the 1994 source slice refuses to aggregate it. This module pins,
-against the live read-only warehouse, that the cell is the only fractional
-observation, that the advisory quality view flags it and no view excludes it,
-and that the 1994 baseline boundary refuses it before any read or write. It
-also proves the quarantine is about the fraction only: an integer in the same
-slot is accepted.
+`26001`, `SRC-E64FFC4299ED54CB2D3A`). The owner adjudicated it on 2026-09-10 to
+the reported integer count 144, recorded as `ADJ-1994-MORGAN-26001-AG2-K48`.
 
-Evidence and disposition: `project_docs/audits/`
-`MORGAN_1994_FRACTIONAL_CELL_QUARANTINE_2026_09_10.md`.
+This module pins the settled state against the live read-only warehouse - the
+adjudicated value, its adjudication record, and that no fractional observation
+survives anywhere - and pins, against a synthetic source, that the 1994 boundary
+still refuses a fractional cell before reading or changing anything. The guard
+is what surfaced this defect; retiring it with the defect would be a regression.
+
+Evidence: `project_docs/audits/MORGAN_1994_FRACTIONAL_CELL_QUARANTINE_2026_09_10.md`,
+`MORGAN_1994_ADJUDICATION_2026_09_10.md`, `MORGAN_1994_ADJUDICATION_REVIEW_2026_09_10.md`.
 """
 import sqlite3
 
@@ -22,12 +23,13 @@ from warehouse import ROOT
 
 DATABASE = ROOT / "data" / "processed" / "elections" / "alabama_elections.sqlite"
 
-# The recorded observation, as stored. Rowid is deliberately not asserted: a
-# source-layer rewrite may reassign it while the observation itself persists.
+ADJUDICATION_ID = "ADJ-1994-MORGAN-26001-AG2-K48"
+REPORTED_VALUE = 144.4
+ADJUDICATED_VALUE = 144.0
 CELL = {
     "source": "alabama_sos", "year": 1994, "county_key": "MORGAN", "precinct_key": "26001",
     "office": "Attorney General", "candidate_key": "SESSIONS", "party_norm": "R",
-    "votes": 144.4, "source_file": "94g-prec/MORGAN.XLS", "source_sheet": "Morgan",
+    "votes": ADJUDICATED_VALUE, "source_file": "94g-prec/MORGAN.XLS", "source_sheet": "Morgan",
     "source_row": 48, "source_column": 11, "source_file_id": "SRC-E64FFC4299ED54CB2D3A",
 }
 COLUMNS = ["source", "year", "county_key", "precinct_key", "office", "candidate_key",
@@ -35,8 +37,6 @@ COLUMNS = ["source", "year", "county_key", "precinct_key", "office", "candidate_
            "source_column", "source_file_id"]
 WHERE = ("source='alabama_sos' AND year=1994 AND county_key='MORGAN' "
          "AND precinct_key='26001' AND office='Attorney General'")
-# The precinct reports both Attorney General candidates; the quarantined cell is
-# the Sessions (AG2/R) column at row 48.
 CELL_WHERE = f"{WHERE} AND candidate_key='SESSIONS' AND source_column=11"
 
 
@@ -55,7 +55,7 @@ def warehouse():
 
 @pytest.fixture
 def source_db(tmp_path):
-    """Minimal 1994 source database holding only the recorded cell."""
+    """Minimal 1994 source database holding only the cell, as originally reported."""
     path = tmp_path / "source.sqlite"
     with sqlite3.connect(path) as connection:
         connection.execute("""CREATE TABLE vote_observations (
@@ -66,35 +66,50 @@ def source_db(tmp_path):
             (source,year,county_key,precinct_key,office,candidate_key,party_norm,votes,
              source_file,source_sheet,source_row,source_column)
             VALUES ('alabama_sos',1994,'MORGAN','26001','Attorney General','SESSIONS','R',?,
-                    '94g-prec/MORGAN.XLS','Morgan',48,11)""", (CELL["votes"],))
+                    '94g-prec/MORGAN.XLS','Morgan',48,11)""", (REPORTED_VALUE,))
         connection.execute("""CREATE TABLE canonical_candidates
             (year INTEGER, chamber TEXT, district INTEGER, canonical_party TEXT,
              canonical_votes REAL)""")
     return path
 
 
-def test_one_fractional_observation_is_retained_with_its_physical_locator(warehouse):
-    fractional = _query(warehouse, f"SELECT {','.join(COLUMNS)} FROM vote_observations "
-                                   "WHERE votes <> CAST(votes AS INTEGER)")
-    assert fractional == [CELL]
-
-
-def test_quality_view_flags_the_cell_and_no_view_excludes_it(warehouse):
-    flagged = warehouse.execute(
-        "SELECT source,year,county_key,precinct_key,office,candidate_key,issue "
-        "FROM qa_vote_observation_quality WHERE issue='fractional_source_vote'").fetchall()
-    assert flagged == [(CELL["source"], CELL["year"], CELL["county_key"], CELL["precinct_key"],
-                        CELL["office"], CELL["candidate_key"], "fractional_source_vote")]
+def test_the_cell_holds_the_adjudicated_count_in_its_recorded_slot(warehouse):
+    stored = _query(warehouse, f"SELECT {','.join(COLUMNS)} FROM vote_observations "
+                               f"WHERE {CELL_WHERE}")
+    assert stored == [CELL]
     canonical = _query(warehouse, f"SELECT {','.join(COLUMNS)} FROM canonical_vote_observations "
                                   f"WHERE {CELL_WHERE}")
-    # The authoritative view retains the reported value rather than dropping it.
     assert canonical == [CELL]
 
 
-def test_live_1994_baseline_refuses_before_reading_or_changing_the_source(monkeypatch):
+def test_the_adjudication_is_recorded_with_evidence_and_review(warehouse):
+    row = warehouse.execute(
+        "SELECT decision, rationale, evidence_locator, review_status, subject_id "
+        "FROM warehouse_manual_adjudication WHERE adjudication_id=?",
+        (ADJUDICATION_ID,)).fetchone()
+    assert row is not None, "the correction must not exist without its adjudication record"
+    decision, rationale, evidence, review, subject = row
+    assert decision == "reported_count=144"
+    assert "SRC-E64FFC4299ED54CB2D3A" in subject and "R48C11" in subject
+    assert str(REPORTED_VALUE) in rationale
+    assert "MORGAN_1994_FRACTIONAL_CELL_QUARANTINE_2026_09_10" in evidence
+    assert review
+
+
+def test_no_fractional_vote_observation_survives(warehouse):
+    assert _query(warehouse, f"SELECT {','.join(COLUMNS)} FROM vote_observations "
+                             "WHERE votes <> CAST(votes AS INTEGER)") == []
+    assert warehouse.execute(
+        "SELECT count(*) FROM qa_vote_observation_quality "
+        "WHERE issue='fractional_source_vote'").fetchone() == (0,)
+
+
+def test_the_1994_boundary_still_refuses_a_fractional_cell(source_db, monkeypatch):
+    """The guard that surfaced this defect must survive its repair."""
     def forbidden(*args, **kwargs):
         pytest.fail("Downstream read reached before the 1994 source refusal")
 
+    monkeypatch.setattr(baseline, "ELECTION_DB", source_db)
     monkeypatch.setattr(baseline.pd, "read_sql_query", forbidden)
     with pytest.raises(ValueError, match="fractional_source_vote") as error:
         baseline.load_returns()
@@ -103,9 +118,12 @@ def test_live_1994_baseline_refuses_before_reading_or_changing_the_source(monkey
                      '"source_sheet": "Morgan"', '"source_row": 48', '"source_column": 11',
                      '"precinct_key": "26001"'):
         assert fragment in message
-    with sqlite3.connect(f"file:{DATABASE}?mode=ro", uri=True) as connection:
-        assert connection.execute(
-            f"SELECT votes FROM vote_observations WHERE {CELL_WHERE}").fetchall() == [(144.4,)]
+
+
+def test_the_live_1994_baseline_now_loads(monkeypatch):
+    legislative, statewide, candidates = baseline.load_returns()
+    assert not statewide.empty
+    assert (statewide.votes == statewide.votes.astype(int)).all()
 
 
 @pytest.mark.parametrize("votes", [144, 0])

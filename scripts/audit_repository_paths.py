@@ -23,6 +23,15 @@ REQUIRED = [
     ROOT / "docs" / "cmo.html",
     ROOT / "docs" / "legislators.html",
 ]
+# Files allowed to name a retired path because naming it *is* the record:
+# migration documentation, this rule, and provenance audits whose finding is
+# that an input's only traceable origin is that retired file.
+DOCUMENTS_RETIRED_PATHS = {
+    ROOT / "project_docs" / "REPOSITORY_LAYOUT.md",
+    ROOT / "scripts" / "audit_repository_paths.py",
+    ROOT / "project_docs" / "audits" / "FORECAST_POLLING_SNAPSHOT_POLICY_2026_09_11.md",
+    ROOT / "project_docs" / "audits" / "FORECAST_POLLING_SNAPSHOT_POLICY_2026_09_11.json",
+}
 
 
 def violations() -> list[str]:
@@ -31,11 +40,7 @@ def violations() -> list[str]:
         for path in base.rglob("*"):
             if not path.is_file() or path.suffix.lower() not in TEXT_SUFFIXES:
                 continue
-            # Historical migration documentation is allowed to name old paths.
-            if path in {
-                ROOT / "project_docs" / "REPOSITORY_LAYOUT.md",
-                ROOT / "scripts" / "audit_repository_paths.py",
-            }:
+            if path in DOCUMENTS_RETIRED_PATHS:
                 continue
             text = path.read_text(encoding="utf-8", errors="replace")
             for retired in RETIRED:
