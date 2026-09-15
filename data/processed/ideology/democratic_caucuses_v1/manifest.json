@@ -1,0 +1,203 @@
+{
+  "methodology_version": "democratic_caucuses_v1_person_career",
+  "caucus_run_id": "AL-DEM-CAUCUS-V1-675DE69CDA4A3D5513AF",
+  "generated_at_utc": "2026-09-15T01:03:30.778789+00:00",
+  "git_commit": "0d6c2a5bba6c702715174961621cafe328423c69",
+  "historical_war_run_id": "AL-HIST-WAR-V1-0E018273EBEDEEEFAD75",
+  "configuration": {
+    "unit": "person (career profile from all evidence dated through the latest available session)",
+    "feature_spec": "ontology_v3_issue_families",
+    "features": [
+      "market_government_direction",
+      "material_support",
+      "social_liberty_equality",
+      "order_justice",
+      "labor_capital",
+      "environment_resources",
+      "institutional_reform",
+      "immigration_inclusion"
+    ],
+    "feature_rule": {
+      "min_people": 30,
+      "min_pole_people": 5,
+      "pole": 0.15
+    },
+    "excluded_axis_features": [
+      "axis:gun_access",
+      "axis:education_public_funding",
+      "axis:tax_burden",
+      "axis:voting_access",
+      "axis:welfare_conditionality",
+      "axis:land_use_property_rights",
+      "axis:education_market_choice",
+      "axis:gun_purchase_regulation",
+      "axis:healthcare_regulation_patient_rights",
+      "axis:deficit_discipline",
+      "axis:economic_stimulus",
+      "axis:due_process",
+      "axis:education_teacher_labor",
+      "axis:incarceration",
+      "axis:gambling_policy",
+      "axis:bioethics_end_of_life",
+      "axis:immigration_enforcement",
+      "axis:immigrant_public_benefits",
+      "axis:confederate_commemoration",
+      "axis:resource_development",
+      "axis:term_limits",
+      "axis:education_curriculum_traditionalism"
+    ],
+    "person_rule": {
+      "min_observed_share": 0.3,
+      "min_features_observed": 3
+    },
+    "k_range": [
+      2,
+      5
+    ],
+    "selected_k": 5,
+    "bootstraps": 60,
+    "seed": 20260911,
+    "min_cluster_n": 12,
+    "min_cluster_share": 0.08,
+    "cycles": [
+      1994,
+      1998,
+      2002,
+      2006,
+      2010,
+      2014,
+      2018,
+      2022
+    ],
+    "party": "D",
+    "labels_source": "data\\manual\\ideology\\democratic_caucus_labels.csv"
+  },
+  "inputs": [
+    {
+      "path": "data/processed/elections/canonical_cmo_candidates.csv",
+      "sha256": "7695d26cbfdfeac2195f3107b7f3e725ef46115cef4b4d5e302b23b068c49988"
+    },
+    {
+      "path": "data/processed/ideology/candidate_position_evidence_v3_all_sources.csv",
+      "sha256": "5198371f527e7a8b94a647ee84dd582d60c90722ad95428d7e8343d3249151ff"
+    },
+    {
+      "path": "data/processed/war/alabama_historical_war_v1/candidate_cycle_war.csv",
+      "sha256": "24819478615f6cdd4dd4a86b1c97546c9075b1287ace904d16cbdfb991d9f672"
+    },
+    {
+      "path": "data/processed/war/alabama_historical_war_v1/manifest.json",
+      "sha256": "9505cd195b858a628dd1b13a01a61a5aed9391c7d4795b1e0d25d70e9bb26d0d"
+    },
+    {
+      "path": "data/manual/ideology/democratic_caucus_labels.csv",
+      "sha256": "e0018fbcfa50ba6909326a5a5f91e2e8a39c147da8492c01c5971e774b6af538"
+    }
+  ],
+  "code_hashes": {
+    "scripts/build_democratic_caucuses_v1.py": "b690cc04acd6b0c7bf50468f05107a65da69c035c8092b968915274874100ba2",
+    "scripts/ideology_ontology_v3.py": "2ee0d8b713ba19be78bccccfee4a0c8931285a20438e21c4ba965f3f6d98de79"
+  },
+  "outputs": [
+    {
+      "path": "data/processed/ideology/democratic_caucuses_v1/person_profiles.csv",
+      "rows": 262,
+      "sha256": "4c96c5e407fc4bf6da750469600d5332f55a9c9c105b62cbd758064d7c9d1380"
+    },
+    {
+      "path": "data/processed/ideology/democratic_caucuses_v1/person_membership.csv",
+      "rows": 262,
+      "sha256": "7a24c63b9529f75a9cee082a5a35b020022e2709ab708993438f411d45351769"
+    },
+    {
+      "path": "data/processed/ideology/democratic_caucuses_v1/member_cycles.csv",
+      "rows": 776,
+      "sha256": "00d13b02d0abb09439dac4127b6fa056673073c43f5c38ac542eba67cf8f8f47"
+    },
+    {
+      "path": "data/processed/ideology/democratic_caucuses_v1/person_career_war.csv",
+      "rows": 589,
+      "sha256": "a2726385e76f91b215743dafabbfbcdabca105bfeb28a2e802b95a53262114af"
+    },
+    {
+      "path": "data/processed/ideology/democratic_caucuses_v1/group_profiles.csv",
+      "rows": 5,
+      "sha256": "5a2eb20b9ee55cfcdcdaa7a1eb436d28a21bd7a59a5c4d518b047165ab43c49f"
+    },
+    {
+      "path": "data/processed/ideology/democratic_caucuses_v1/group_summary.csv",
+      "rows": 5,
+      "sha256": "016e89f915827392cce055009776c55aacc6c0f70331293deb5ab757b38fba0e"
+    },
+    {
+      "path": "data/processed/ideology/democratic_caucuses_v1/group_feature_coverage.csv",
+      "rows": 255,
+      "sha256": "8aa0d9e782133499714f352dd29440b3028b0957c9b0a72b7028f76415a61b80"
+    },
+    {
+      "path": "data/processed/ideology/democratic_caucuses_v1/feature_inventory.csv",
+      "rows": 65,
+      "sha256": "bfe798eb12092a3a396f71b08d4db438ade3caf419cfbc244d345fe473912679"
+    },
+    {
+      "path": "data/processed/ideology/democratic_caucuses_v1/person_feature_evidence.csv",
+      "rows": 5848,
+      "sha256": "094754aa3e852c482f507aa011d8f657dd0207b11eaab3a6e045f27a117d4a54"
+    },
+    {
+      "path": "data/processed/ideology/democratic_caucuses_v1/cluster_diagnostics.csv",
+      "rows": 4,
+      "sha256": "72238d7ad018832a169045c489ed9701162fb93a301584cfa6af3daff6132928"
+    },
+    {
+      "path": "data/processed/ideology/democratic_caucuses_v1/cluster_sensitivity.csv",
+      "rows": 1,
+      "sha256": "ed41b7322c24f5a474bb4c3b68a48be887718730f1c2fc5a57cc9bd1b0aed19e"
+    },
+    {
+      "path": "data/processed/ideology/democratic_caucuses_v1/unclustered_people.csv",
+      "rows": 327,
+      "sha256": "442ff6489f93413d0c783076f795cd0fa260a7a035654c5de9fe9e38fd85247e"
+    }
+  ],
+  "diagnostics": {
+    "democratic_people": 589,
+    "democratic_candidate_cycles": 776,
+    "people_with_evidence": 431,
+    "people_clustered": 262,
+    "people_unclustered": 327,
+    "evidence_rows_used": 24353,
+    "evidence_rows_legislative": 18635,
+    "evidence_rows_family_mapped": 10894,
+    "evidence_rows_axis_only": 13459,
+    "candidate_cycles_scored": 510,
+    "candidate_cycles_unscored": 266,
+    "selected_k": 5,
+    "silhouette": 0.29968544798700153,
+    "bootstrap_ari_mean": 0.8454248390162401,
+    "bootstrap_ari_p10": 0.7364565750210016,
+    "smallest_cluster": 27.0,
+    "smallest_cluster_share": 0.10305343511450382,
+    "people": 262.0,
+    "features": 8.0,
+    "minimum_features_observed": 3.0,
+    "median_features_observed": 6.0,
+    "knn_vs_median_ari": 0.4389837764724108,
+    "position_vs_missingness_ari": 0.08635719343309174,
+    "all_source_vs_legislative_only_ari": 0.19108608870262092,
+    "people_with_legislative_only_profile": 179.0,
+    "augmented_features": 30.0,
+    "augmented_people": 198.0,
+    "augmented_clusters": 4.0,
+    "augmented_silhouette": 0.20840849232579414,
+    "augmented_bootstrap_ari_mean": 0.8555322160727382,
+    "families_vs_augmented_ari": 0.26198241682577356,
+    "families_vs_augmented_people": 198.0,
+    "era_normalized_ari": 0.33401364750395457,
+    "threshold_min_features": 4.0,
+    "threshold_people": 247.0,
+    "threshold_ari": 0.7501662527632134,
+    "repeated_people_share": 0.3969465648854962
+  },
+  "status": "descriptive_groupings"
+}

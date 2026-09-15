@@ -65,7 +65,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
 <script id="checklist-data" type="application/json">
 {
   "schemaVersion": 1,
-  "revision": "2026-09-11T22:59:10Z",
+  "revision": "2026-09-15T01:14:57Z",
   "title": "Four-product completion checklist",
   "baselineDate": "2026-09-05",
   "baselineCode": "88878b9 (existing dirty worktree)",
@@ -495,15 +495,15 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "id": "ideology-09",
           "text": "Revalidate descriptive clusters and caucus labels",
           "detail": "Test sensitivity to evidence thresholds, imputation, era, issue selection and repeated people. Report low separation, membership stability and nonrandom missingness; labels are not proof of formal caucus membership.",
-          "done": false,
-          "evidence": ""
+          "done": true,
+          "evidence": "Person-level rebuild AL-DEM-CAUCUS-V1-675DE69CDA4A3D5513AF (k=5 by bootstrap stability, silhouette 0.300, bootstrap ARI 0.845). Sensitivity recorded for evidence threshold (ARI 0.750), imputation (0.439), missingness structure (0.086), evidence channel (0.191), era normalization (0.334) and issue selection (0.262); each person's era-normalized assignment is published alongside the primary one. Owner approved the five labels 2026-09-15 (data/manual/ideology/democratic_caucus_labels.csv). Evidence: project_docs/audits/CAUCUS_PERSON_LEVEL_VALIDATION_2026_09_14.md; scripts/tests/test_democratic_caucuses_v1.py."
         },
         {
           "id": "ideology-10",
           "text": "Check that grouping is independent of WAR outcomes",
           "detail": "Build issue-based groups without outcome leakage, then attach the accepted historical residual. Keep associations descriptive, with sample sizes and uncertainty rather than causal or candidate-quality claims.",
-          "done": false,
-          "evidence": ""
+          "done": true,
+          "evidence": "Clustering features are the eight ontology issue families only; attach_outcomes runs after assignment and is the sole reader of candidate_cycle_war.csv. The 262 grouped people include members with no scored race, and 266 of 776 candidate-cycles remain unscored rather than zero. Group-WAR association is published descriptively with standard errors and per-group unscored share. Pinned by test_democratic_caucuses_v1.py and test_democratic_caucus_page.py (18 passed)."
         },
         {
           "id": "ideology-11",
@@ -918,6 +918,12 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
       "done": 50,
       "total": 82,
       "event": "Fourth release: 2014 state-ticket source substitution repaired and republished (alabama-04 accepted); source-terms inventory accepted by owner disposition (release-08); ideology attribution and seat-treatment contract published."
+    },
+    {
+      "at": "2026-09-15T01:14:57Z",
+      "done": 52,
+      "total": 82,
+      "event": "Ideology rebuild: person-level Democratic caucus groupings (eight issue families per owner Q10a, k=5 by bootstrap stability) replace the stale 2026-08-24 three-group candidate-cycle clusters; owner-approved labels; one merged public page candidate with coverage funnel and sensitivity disclosure; caucuses.html retired to a redirect and the superseded CMO v4 renderers deleted. ideology-09 and ideology-10 accepted. Publication pending the single republish."
     }
   ]
 }

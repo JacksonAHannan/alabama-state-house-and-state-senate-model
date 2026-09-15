@@ -1,0 +1,328 @@
+person_id,display_name,cycles,chambers,first_cycle,last_cycle,candidate_cycles,general_wins,ever_incumbent,features_observed,reason
+ALPERSON-ADAMS,Adams,1994,senate,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-ALLI-SUMMERFORD,Alli Summerford,2018,house,2018,2018,1,0,0,2,below_minimum_features
+ALPERSON-AMARI,Amari,1994,senate,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-AMBER-SELMAN-LYNN,Amber Selman-Lynn,2018,house,2018,2018,1,0,0,1,below_minimum_features
+ALPERSON-ANDERSON,Anderson,1994,senate,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-ANDREW-ANDY-BETTERTON,"Andrew ""Andy"" Betterton",2014,house,2014,2014,1,0,0,0,no_ontology_evidence
+ALPERSON-ANGELO-DOC-MANCUSO,"Angelo ""Doc"" Mancuso",2014,senate,2014,2014,1,0,0,0,no_ontology_evidence
+ALPERSON-ANN-SKELTON,ANN SKELTON,2006,house,2006,2006,1,0,0,1,below_minimum_features
+ALPERSON-ANTHONY-ZACHERO,Anthony Zachero,2014,house,2014,2014,1,0,0,0,no_ontology_evidence
+ALPERSON-ARLENE-CUNNINGHAM-EASLEY,Arlene Cunningham Easley,2018,house,2018,2018,1,0,0,2,below_minimum_features
+ALPERSON-BAILEY,Bailey,1994,senate,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-BAKER,BAKER,1994/2006,house,1994,2006,2,1,0,1,below_minimum_features
+ALPERSON-BAKER-LOCY-SUNNY,"Baker, Locy ""Sunny""",2002,house,2002,2002,1,1,0,0,no_ontology_evidence
+ALPERSON-BANDY,Bandy,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-BANDY-GEORGE-TOOTIE,"Bandy, George (Tootie)",2002,house,2002,2002,1,1,0,0,no_ontology_evidence
+ALPERSON-BARBARA-A-DRUMMOND,Barbara A. Drummond,2014,house,2014,2014,1,1,0,0,no_ontology_evidence
+ALPERSON-BARRON,Barron,1994/1998,senate,1994,1998,2,2,0,1,below_minimum_features
+ALPERSON-BARRON-LOWELL,"Barron, Lowell",2002,senate,2002,2002,1,1,0,1,below_minimum_features
+ALPERSON-BATTS,Batts,1998,senate,1998,1998,1,0,0,0,no_ontology_evidence
+ALPERSON-BEASLEY,Beasley,1998,house,1998,1998,1,1,0,0,no_ontology_evidence
+ALPERSON-BEASLEY-BILLY,"Beasley, Billy",2002,house,2002,2002,1,1,0,0,no_ontology_evidence
+ALPERSON-BEDDINGFIELD,Beddingfield,2014,house,2014,2014,1,0,0,0,no_ontology_evidence
+ALPERSON-BIDDLE,Biddle,1994,senate,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-BILL-J-DUKES,BILL J. DUKES,2006,house,2006,2006,1,1,0,1,below_minimum_features
+ALPERSON-BILL-JONES,Bill Jones,2018,house,2018,2018,1,0,0,1,below_minimum_features
+ALPERSON-BILLY-JACKSON,Billy Jackson,2018,house,2018,2018,1,0,0,1,below_minimum_features
+ALPERSON-BISHOP,Bishop,1998,senate,1998,1998,1,0,0,0,no_ontology_evidence
+ALPERSON-BOBBY-D-SINGLETON,BOBBY D. SINGLETON,2006,senate,2006,2006,1,1,0,1,below_minimum_features
+ALPERSON-BOBBY-DAY,BOBBY DAY,2006,senate,2006,2006,1,0,0,0,no_ontology_evidence
+ALPERSON-BOX,Box,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-BOYD-BARBARA-BIGSBY,"Boyd, Barbara Bigsby",2002,house,2002,2002,1,1,0,0,no_ontology_evidence
+ALPERSON-BRIAN-D-WILLIAMS,Brian D Williams,2018,house,2018,2018,1,0,0,1,below_minimum_features
+ALPERSON-BRYAN-BENNETT,Bryan Bennett,2014,senate,2014,2014,1,0,0,0,no_ontology_evidence
+ALPERSON-BUSKEY,Buskey,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-BUSKEY-JAMES-E,"Buskey, James E.",2002,house,2002,2002,1,1,0,1,below_minimum_features
+ALPERSON-BUTLER,Butler,1994/1998,senate,1994,1998,2,2,0,2,below_minimum_features
+ALPERSON-C-TERRY-JONES,C. Terry Jones,2014,house,2014,2014,1,0,0,0,no_ontology_evidence
+ALPERSON-CAMPBELL,Campbell,1994,house,1994,1994,1,0,0,0,no_ontology_evidence
+ALPERSON-CARL-CARTER,Carl Carter,2018,senate,2018,2018,1,0,0,1,below_minimum_features
+ALPERSON-CAROLINE-SELF,Caroline Self,2018,senate,2018,2018,1,0,0,1,below_minimum_features
+ALPERSON-CAROLYN-ELLIS,CAROLYN ELLIS,2006,house,2006,2006,1,0,0,0,no_ontology_evidence
+ALPERSON-CAROTHERS-JOE,"Carothers, Joe",2002,house,2002,2002,1,1,0,1,below_minimum_features
+ALPERSON-CHAD-YOUNG,Chad Young,2018,house,2018,2018,1,0,0,2,below_minimum_features
+ALPERSON-CHANDLER-WAYNE,"Chandler, Wayne",2002,house,2002,2002,1,0,0,0,no_ontology_evidence
+ALPERSON-CHRISTOPHER-F-APOSTLE-DAVIS,"Christopher F. ""Apostle"" Davis",2018,house,2018,2018,1,0,0,0,no_ontology_evidence
+ALPERSON-CINDY-BELL,Cindy Bell,2014,senate,2014,2014,1,0,0,0,no_ontology_evidence
+ALPERSON-CLARA-L-CURTIS,CLARA L. CURTIS,2006,house,2006,2006,1,0,0,0,no_ontology_evidence
+ALPERSON-CLARK,Clark,1994,house,1994,1994,2,2,0,0,no_ontology_evidence
+ALPERSON-CLARK-BILL,"Clark, Bill",2002,house,2002,2002,1,1,0,0,no_ontology_evidence
+ALPERSON-CLAY,Clay,1994,senate,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-COLLINS,Collins,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-COPELAND,Copeland,2014,house,2014,2014,1,0,0,0,no_ontology_evidence
+ALPERSON-COX-HOBSON,"Cox, Hobson",2002,senate,2002,2002,1,0,0,0,no_ontology_evidence
+ALPERSON-DAVID-A-SADLER,David A. Sadler,2018,senate,2018,2018,1,0,0,2,below_minimum_features
+ALPERSON-DAVID-COACH-BURKETTE,"David ""Coach"" Burkette",2018,senate,2018,2018,1,1,1,1,below_minimum_features
+ALPERSON-DAVID-COLSTON,DAVID COLSTON,2010,house,2010,2010,1,1,0,0,no_ontology_evidence
+ALPERSON-DAVID-S-DARBY,DAVID S. DARBY,2010,house,2010,2010,1,0,0,1,below_minimum_features
+ALPERSON-DEBORAH-BARROS,Deborah Barros,2018,senate,2018,2018,1,0,0,1,below_minimum_features
+ALPERSON-DEMPSEY,Dempsey,1998,house,1998,1998,1,0,0,0,no_ontology_evidence
+ALPERSON-DENNIS-W-STEPHENS,Dennis W. Stephens,2014,house,2014,2014,1,0,0,0,no_ontology_evidence
+ALPERSON-DON-BARNWELL,Don Barnwell,2014,house,2014,2014,1,0,0,0,no_ontology_evidence
+ALPERSON-DOUG-SMITTY-SMITH,DOUG 'Smitty' SMITH,2010,senate,2010,2010,1,0,0,0,no_ontology_evidence
+ALPERSON-DRAKE,Drake,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-DRAMA-BRELAND,DRAMA BRELAND,2010,house,2010,2010,1,0,0,1,below_minimum_features
+ALPERSON-DUKES-BILL-J,"Dukes, Bill J.",2002,house,2002,2002,1,1,0,1,below_minimum_features
+ALPERSON-DUNN-PRICILLA,"Dunn, Pricilla",2002,house,2002,2002,1,1,0,0,no_ontology_evidence
+ALPERSON-DUTTON-JOHN-RANDALL,"Dutton, John Randall",2002,senate,2002,2002,1,0,0,0,no_ontology_evidence
+ALPERSON-DYLAN-V-OLIVER,Dylan V. Oliver,2014,house,2014,2014,1,0,0,0,no_ontology_evidence
+ALPERSON-E-B-MCCLAIN,E.B. MCCLAIN,2006,senate,2006,2006,1,1,0,0,no_ontology_evidence
+ALPERSON-EARL-F-HILLIARD-JR,"EARL F. HILLIARD, JR.",2006,house,2006,2006,1,1,0,0,no_ontology_evidence
+ALPERSON-EASON,Eason,1998,house,1998,1998,1,0,0,0,no_ontology_evidence
+ALPERSON-EDDIE-BRITTON,Eddie Britton,2018,house,2018,2018,1,0,0,2,below_minimum_features
+ALPERSON-ELLIOT-D-DICK-WEAVER,"ELLIOT D. ""DICK"" WEAVER",2006,house,2006,2006,1,0,0,0,no_ontology_evidence
+ALPERSON-ESCOTT,Escott,1998,senate,1998,1998,1,1,0,1,below_minimum_features
+ALPERSON-ESCOTT-RUSSELL,Escott-Russell,1994,senate,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-ESCOTT-SUNDRA,"Escott, Sundra",2002,senate,2002,2002,1,1,0,1,below_minimum_features
+ALPERSON-FARRAR,Farrar,1994,senate,1994,1994,1,0,0,0,no_ontology_evidence
+ALPERSON-FIGURES,Figures,1994,senate,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-FIGURES-VIVIAN-DAVIS,"Figures, Vivian Davis",2002,senate,2002,2002,1,1,0,0,no_ontology_evidence
+ALPERSON-FITE-LEA,"Fite, Lea",2002,house,2002,2002,1,1,0,0,no_ontology_evidence
+ALPERSON-FLOWERS,Flowers,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-FLOYD,Floyd,1994,senate,1994,1994,1,0,0,0,no_ontology_evidence
+ALPERSON-FORD,Ford,1994/1998,house,1994,1998,2,2,0,2,below_minimum_features
+ALPERSON-FORD-CRAIG,"Ford, Craig",2002,house,2002,2002,1,1,0,2,below_minimum_features
+ALPERSON-FORD-JOHNNY,"Ford, Johnny",2002,house,2002,2002,1,1,0,2,below_minimum_features
+ALPERSON-FRANK-MCDANIEL,FRANK MCDANIEL,2006,house,2006,2006,1,1,0,1,below_minimum_features
+ALPERSON-FREEMAN,Freeman,1994,senate,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-FULLER,Fuller,1994/1998,house,1994,1998,2,2,0,2,below_minimum_features
+ALPERSON-GAINES,Gaines,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-GARRY-BEARDEN,GARRY BEARDEN,2010,house,2010,2010,1,0,0,1,below_minimum_features
+ALPERSON-GASTON,Gaston,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-GEORGE-M-MARC-KEAHEY,GEORGE M. (MARC) KEAHEY,2006,house,2006,2006,1,1,0,0,no_ontology_evidence
+ALPERSON-GHEE,Ghee,1994,senate,1994,1994,1,1,0,1,below_minimum_features
+ALPERSON-GIPSON,Gipson,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-GLENN-L-ALLEN,GLENN L. ALLEN,2010,house,2010,2010,1,0,0,0,no_ontology_evidence
+ALPERSON-GRAHAM-BETTY-CAROL,"Graham, Betty Carol",2002,house,2002,2002,1,1,0,2,below_minimum_features
+ALPERSON-GRANTLAND,Grantland,1998,house,1998,1998,1,1,0,0,no_ontology_evidence
+ALPERSON-GRAY-PRESTON-R-JR,"Gray, Preston R., Jr.",2002,senate,2002,2002,1,0,0,0,no_ontology_evidence
+ALPERSON-GREG-VARNER,GREG VARNER,2010,senate,2010,2010,1,0,0,1,below_minimum_features
+ALPERSON-GSL003DTHO,GSL003DTHO,2022,house,2022,2022,1,0,0,2,below_minimum_features
+ALPERSON-GSL007DJON,GSL007DJON,2022,house,2022,2022,1,0,0,1,below_minimum_features
+ALPERSON-GSL010DLAN,GSL010DLAN,2022,house,2022,2022,1,0,0,2,below_minimum_features
+ALPERSON-GSL025DHAG,GSL025DHAG,2022,house,2022,2022,1,0,0,2,below_minimum_features
+ALPERSON-GSL026DALF,GSL026DALF,2022,house,2022,2022,1,0,0,1,below_minimum_features
+ALPERSON-GSL033DCRU,GSL033DCRU,2022,house,2022,2022,1,0,0,1,below_minimum_features
+ALPERSON-GSL040DHOW,GSL040DHOW,2022,house,2022,2022,1,0,0,0,no_ontology_evidence
+ALPERSON-GSL041DNEL,GSL041DNEL,2022,house,2022,2022,1,0,0,1,below_minimum_features
+ALPERSON-GSL055DPLU,GSL055DPLU,2022,house,2022,2022,1,1,0,1,below_minimum_features
+ALPERSON-GSL056DTIL,GSL056DTIL,2022,house,2022,2022,1,1,0,0,no_ontology_evidence
+ALPERSON-GSL057DSEL,GSL057DSEL,2022,house,2022,2022,1,1,0,0,no_ontology_evidence
+ALPERSON-GSL062DCEP,GSL062DCEP,2022,house,2022,2022,1,0,0,1,below_minimum_features
+ALPERSON-GSL065DCAS,GSL065DCAS,2022,house,2022,2022,1,0,0,1,below_minimum_features
+ALPERSON-GSL072DTRA,GSL072DTRA,2022,house,2022,2022,1,1,0,0,no_ontology_evidence
+ALPERSON-GSL074DENS,GSL074DENS,2022,house,2022,2022,1,1,0,0,no_ontology_evidence
+ALPERSON-GSL092DHUB,GSL092DHUB,2022,house,2022,2022,1,0,0,1,below_minimum_features
+ALPERSON-GSL095DBRA,GSL095DBRA,2022,house,2022,2022,1,0,0,2,below_minimum_features
+ALPERSON-GSU02DLEW,GSU02DLEW,2022,senate,2022,2022,1,0,0,1,below_minimum_features
+ALPERSON-GSU07DWIL,GSU07DWIL,2022,senate,2022,2022,1,0,0,2,below_minimum_features
+ALPERSON-GSU18DSMI,GSU18DSMI,2022,senate,2022,2022,1,1,1,1,below_minimum_features
+ALPERSON-GSU19DCOL,GSU19DCOL,2022,senate,2022,2022,1,1,0,1,below_minimum_features
+ALPERSON-GSU20DCOL,GSU20DCOL,2022,senate,2022,2022,1,1,1,1,below_minimum_features
+ALPERSON-GSU21DWAR,GSU21DWAR,2022,senate,2022,2022,1,0,0,1,below_minimum_features
+ALPERSON-GSU23DSTE,GSU23DSTE,2022,senate,2022,2022,1,1,0,1,below_minimum_features
+ALPERSON-GSU24DSIN,GSU24DSIN,2022,senate,2022,2022,1,1,1,1,below_minimum_features
+ALPERSON-GSU26DHAT,GSU26DHAT,2022,senate,2022,2022,1,1,1,0,no_ontology_evidence
+ALPERSON-GSU27DREE,GSU27DREE,2022,senate,2022,2022,1,0,0,1,below_minimum_features
+ALPERSON-GSU28DBEA,GSU28DBEA,2022,senate,2022,2022,1,1,1,2,below_minimum_features
+ALPERSON-GSU29DMAT,GSU29DMAT,2022,senate,2022,2022,1,0,0,1,below_minimum_features
+ALPERSON-GUIN,Guin,1994/1998,house,1994,1998,2,2,0,1,below_minimum_features
+ALPERSON-GUIN-KEN,"Guin, Ken",2002,house,2002,2002,1,1,0,1,below_minimum_features
+ALPERSON-GULAS,Gulas,1994,house,1994,1994,1,0,0,0,no_ontology_evidence
+ALPERSON-HAMMETT-SETH,"Hammett, Seth",2002,house,2002,2002,1,1,0,1,below_minimum_features
+ALPERSON-HANSBERRY-CATHY,"Hansberry, Cathy",2002,house,2002,2002,1,0,0,0,no_ontology_evidence
+ALPERSON-HARPER,Harper,1994,house,1994,1994,1,0,0,0,no_ontology_evidence
+ALPERSON-HAYLEE-MOSS,Haylee Moss,2014,senate,2014,2014,1,0,0,0,no_ontology_evidence
+ALPERSON-HENDRIX-J-LUTHER,"Hendrix, J. Luther",2002,house,2002,2002,1,0,0,0,no_ontology_evidence
+ALPERSON-HILL,Hill,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-HILLARD,Hillard,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-HINSHAW-RANDY,"Hinshaw, Randy",2002,house,2002,2002,1,1,0,0,no_ontology_evidence
+ALPERSON-HOLLADAY,Holladay,1994,house,1994,1994,1,0,0,0,no_ontology_evidence
+ALPERSON-HOLLEY-JIMMY-W,"Holley, Jimmy W.",2002,senate,2002,2002,1,1,0,0,no_ontology_evidence
+ALPERSON-HOLMES,Holmes,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-HORACE-CLEMMONS,Horace Clemmons,2014,senate,2014,2014,1,0,0,0,no_ontology_evidence
+ALPERSON-HOUSTON,Houston,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-HUEY-P-LONG,HUEY P. LONG,2010,house,2010,2010,1,0,0,1,below_minimum_features
+ALPERSON-HURST,Hurst,1998,house,1998,1998,1,0,0,0,no_ontology_evidence
+ALPERSON-JACK-JACOBS,Jack Jacobs,2018,house,2018,2018,1,0,0,1,below_minimum_features
+ALPERSON-JACKSON,Jackson,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-JACKSON-THOMAS-E,"Jackson, Thomas E.",2002,house,2002,2002,1,1,0,1,below_minimum_features
+ALPERSON-JAMES-LOUIS-THOMAS,JAMES LOUIS THOMAS,2006,house,2006,2006,1,1,0,0,no_ontology_evidence
+ALPERSON-JAMES-O-GORDON,JAMES O. GORDON,2006,house,2006,2006,1,1,0,0,no_ontology_evidence
+ALPERSON-JARED-MILLICAN,Jared Millican,2018,house,2018,2018,1,0,0,1,below_minimum_features
+ALPERSON-JARED-VAUGHN,Jared Vaughn,2018,house,2018,2018,1,0,0,1,below_minimum_features
+ALPERSON-JASON-FISHER,Jason Fisher,2018,senate,2018,2018,1,0,0,2,below_minimum_features
+ALPERSON-JEFF-ENFINGER,JEFF ENFINGER,2010,senate,2010,2010,1,0,0,2,below_minimum_features
+ALPERSON-JENNIFER-MARSDEN,Jennifer Marsden,2014,house,2014,2014,1,0,0,1,below_minimum_features
+ALPERSON-JENSEN,Jensen,1998,senate,1998,1998,1,0,0,0,no_ontology_evidence
+ALPERSON-JEREMY-J-J-JEFFCOAT,"Jeremy ""J.J."" Jeffcoat",2018,house,2018,2018,1,0,0,1,below_minimum_features
+ALPERSON-JEREMY-MR-EYG-GRAY,"Jeremy ""Mr. Eyg"" Gray",2018,house,2018,2018,1,1,0,0,no_ontology_evidence
+ALPERSON-JEREMY-P-SHERER,JEREMY P. SHERER,2006,house,2006,2006,1,0,0,0,no_ontology_evidence
+ALPERSON-JERRY-L-FIELDING,JERRY L. FIELDING,2010,senate,2010,2010,1,1,0,2,below_minimum_features
+ALPERSON-JIM-BOYD,JIM BOYD,2006,house,2006,2006,1,0,0,0,no_ontology_evidence
+ALPERSON-JIM-WILLIAMS,Jim Williams,2018,senate,2018,2018,1,0,0,1,below_minimum_features
+ALPERSON-JO-ANN-CUMMINGS,Jo Ann Cummings,2018,house,2018,2018,1,0,0,0,no_ontology_evidence
+ALPERSON-JOEL-LEE-WILLIAMS,Joel Lee Williams,2014/2018,house,2014,2018,2,0,0,2,below_minimum_features
+ALPERSON-JOHNSON-GARY,"Johnson, Gary",2002,house,2002,2002,1,0,0,0,no_ontology_evidence
+ALPERSON-JOSH-BURNS,Josh Burns,2014,house,2014,2014,1,0,0,0,no_ontology_evidence
+ALPERSON-JUANDALYNN-LEE-LEE-GIVAN,JUANDALYNN 'LEE LEE' GIVAN,2010,house,2010,2010,1,1,0,0,no_ontology_evidence
+ALPERSON-KATHY-WHITE-GOODWIN,KATHY WHITE GOODWIN,2010,house,2010,2010,1,0,0,1,below_minimum_features
+ALPERSON-KELVIN-J-LAWRENCE,Kelvin J. Lawrence,2014,house,2014,2014,1,1,0,0,no_ontology_evidence
+ALPERSON-KENNEDY,Kennedy,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-KENNETH-A-BRACKINS,Kenneth A. Brackins,2018,house,2018,2018,1,0,0,0,no_ontology_evidence
+ALPERSON-KIM-S-BENEFIELD,KIM S. BENEFIELD,2006,senate,2006,2006,1,1,0,0,no_ontology_evidence
+ALPERSON-KIRK-HATCHER,Kirk Hatcher,2018,house,2018,2018,1,1,0,0,no_ontology_evidence
+ALPERSON-KNIGHT,Knight,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-KNIGHT-JOHN,"Knight, John",2002,house,2002,2002,1,1,0,1,below_minimum_features
+ALPERSON-KOONTZ,Koontz,1994,senate,1994,1994,1,0,0,0,no_ontology_evidence
+ALPERSON-LAIRD,Laird,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-LAIRD-RICHARD,"Laird, Richard",2002,house,2002,2002,1,1,0,1,below_minimum_features
+ALPERSON-LANGFORD,Langford,1994/1998,senate,1994,1998,2,2,0,1,below_minimum_features
+ALPERSON-LARRY-B-CAGLE,LARRY B. CAGLE,2006,senate,2006,2006,1,0,0,0,no_ontology_evidence
+ALPERSON-LARRY-GREENWOOD,Larry Greenwood,2014,senate,2014,2014,1,0,0,0,no_ontology_evidence
+ALPERSON-LAYSON,Layson,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-LETSON,Letson,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-LETSON-JOHN-JODY,"Letson, John (Jody)",2002,house,2002,2002,1,1,0,0,no_ontology_evidence
+ALPERSON-LINDSEY-DECKARD,Lindsey Deckard,2018,senate,2018,2018,1,0,0,1,below_minimum_features
+ALPERSON-LINDSEY-PAT,"Lindsey, Pat",2002,senate,2002,2002,1,1,0,0,no_ontology_evidence
+ALPERSON-LINDSEY-RICHARD-J,"Lindsey, Richard J.",2002,house,2002,2002,1,1,0,1,below_minimum_features
+ALPERSON-LITTLE,Little,1994/1998,senate,1994,1998,3,3,0,1,below_minimum_features
+ALPERSON-LITTLE-T-D-TED,"Little, T.D. (Ted)",2002,senate,2002,2002,1,1,0,2,below_minimum_features
+ALPERSON-LITTLE-ZEB,"Little, Zeb",2002,senate,2002,2002,1,1,0,1,below_minimum_features
+ALPERSON-LORA-KAY-MORROW,Lora Kay Morrow,2018,house,2018,2018,1,0,0,1,below_minimum_features
+ALPERSON-LOUISE-ALEXANDER,Louise Alexander,2014,house,2014,2014,1,1,0,0,no_ontology_evidence
+ALPERSON-LOWELL-R-BARRON,LOWELL R. BARRON,2006,senate,2006,2006,1,1,0,1,below_minimum_features
+ALPERSON-M-BENJAMIN-ABERNATHY-I,"M. BENJAMIN ABERNATHY, I",2006,house,2006,2006,1,0,0,0,no_ontology_evidence
+ALPERSON-MAJOR,Major,1998,house,1998,1998,1,1,0,0,no_ontology_evidence
+ALPERSON-MALIKA-SANDERS-FORTIER,Malika Sanders-Fortier,2018,senate,2018,2018,1,1,0,0,no_ontology_evidence
+ALPERSON-MANCUSO,Mancuso,1998,house,1998,1998,1,1,0,0,no_ontology_evidence
+ALPERSON-MARK-CARLTON,MARK CARLTON,2006,house,2006,2006,1,0,0,0,no_ontology_evidence
+ALPERSON-MARTIN,Martin,1994/1998,house,1994,1998,2,1,0,0,no_ontology_evidence
+ALPERSON-MARTIN-JAMES-M-JIMMY,"Martin, James M. ""Jimmy""",2002,house,2002,2002,1,1,0,0,no_ontology_evidence
+ALPERSON-MARY-WYNNE-KLING,Mary Wynne Kling,2018,house,2018,2018,1,0,0,1,below_minimum_features
+ALPERSON-MAULL,Maull,1994/1998,house,1994,1998,2,2,0,1,below_minimum_features
+ALPERSON-MCADORY,Mcadory,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-MCCLAIN,Mcclain,1994,senate,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-MCCLAIN-E-B,"McClain, E.B.",2002,senate,2002,2002,1,1,0,0,no_ontology_evidence
+ALPERSON-MCCLAMMY,McClammy,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-MCKEE,Mckee,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-MCKINZIE-MACK,"McKinzie, Mack",2002,house,2002,2002,1,0,0,0,no_ontology_evidence
+ALPERSON-MCLAUGHLIN-JEFFREY,"McLaughlin, Jeffrey",2002,house,2002,2002,1,1,0,0,no_ontology_evidence
+ALPERSON-MCNAIR,Mcnair,1994,house,1994,1994,1,0,0,0,no_ontology_evidence
+ALPERSON-MEANS,Means,1998/2014,house/senate,1998,2014,2,1,0,0,no_ontology_evidence
+ALPERSON-MELTON,Melton,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-MELTON-BRYANT,"Melton, Bryant",2002,house,2002,2002,1,1,0,1,below_minimum_features
+ALPERSON-MERRILL-JOHN-H,"Merrill, John H.",2002,house,2002,2002,1,0,0,0,no_ontology_evidence
+ALPERSON-MERRITT-CAROTHERS,MERRITT CAROTHERS,2010,house,2010,2010,1,0,0,1,below_minimum_features
+ALPERSON-MICHAEL-J-GLADDEN,Michael J. Gladden,2014,house,2014,2014,1,0,1,0,no_ontology_evidence
+ALPERSON-MIKE-CHAPPELL,MIKE CHAPPELL,2006,senate,2006,2006,1,0,0,0,no_ontology_evidence
+ALPERSON-MILES-PAM,"Miles, Pam",2002,house,2002,2002,1,0,0,1,below_minimum_features
+ALPERSON-MILLER-JEFF,"Miller, Jeff",2002,house,2002,2002,1,0,0,0,no_ontology_evidence
+ALPERSON-MILLICAN-MIKE,"Millican, Mike",2002,house,2002,2002,1,1,0,0,no_ontology_evidence
+ALPERSON-MINNIFIELD,Minnifield,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-MITCHELL,Mitchell,1994/1998,house/senate,1994,1998,3,3,0,2,below_minimum_features
+ALPERSON-MITCHELL-JOSEPH-C,"Mitchell, Joseph C.",2002,house,2002,2002,1,1,0,1,below_minimum_features
+ALPERSON-MITCHELL-WALKING-WENDELL,"Mitchell, ""Walking"" Wendell",2002,senate,2002,2002,1,1,0,0,no_ontology_evidence
+ALPERSON-MITCHEM,Mitchem,1994/1998,senate,1994,1998,2,2,0,1,below_minimum_features
+ALPERSON-MORRISON-NEAL,"Morrison, Neal",2002,house,2002,2002,1,1,0,1,below_minimum_features
+ALPERSON-MORROW-JOHNNY-MACK,"Morrow, Johnny Mack",2002,house,2002,2002,1,1,0,1,below_minimum_features
+ALPERSON-MULLINS,Mullins,1998,house,1998,1998,1,0,0,0,no_ontology_evidence
+ALPERSON-MYRON-C-PENN,MYRON C. PENN,2006,senate,2006,2006,1,1,0,1,below_minimum_features
+ALPERSON-NEAL-MORRISON,NEAL MORRISON,2006,house,2006,2006,1,1,0,1,below_minimum_features
+ALPERSON-NEIL-RAFFERTY,Neil Rafferty,2018,house,2018,2018,1,1,0,0,no_ontology_evidence
+ALPERSON-NEWTON,Newton,1994,house,1994,1994,2,2,0,2,below_minimum_features
+ALPERSON-NICKI-ARNOLD-SWINDLE,Nicki Arnold-Swindle,2018,house,2018,2018,1,0,0,1,below_minimum_features
+ALPERSON-OWENS,Owens,1994,senate,1994,1994,1,0,0,0,no_ontology_evidence
+ALPERSON-PACE,Pace,1998,house,1998,1998,1,0,0,0,no_ontology_evidence
+ALPERSON-PAGE,Page,1994/1998,house,1994,1998,2,2,0,1,below_minimum_features
+ALPERSON-PAGE-JACK,"Page, Jack",2002,house,2002,2002,1,1,0,2,below_minimum_features
+ALPERSON-PALMER,Palmer,1998,senate,1998,1998,1,0,0,0,no_ontology_evidence
+ALPERSON-PAMELA-JEAN-HOWARD,Pamela Jean Howard,2018,house,2018,2018,1,0,0,1,below_minimum_features
+ALPERSON-PARKER,Parker,1994,house,1994,1994,2,2,0,1,below_minimum_features
+ALPERSON-PARKER-GRIFFITH,PARKER GRIFFITH,2006,senate,2006,2006,1,1,0,1,below_minimum_features
+ALPERSON-PAT-LINDSEY,PAT LINDSEY,2006,senate,2006,2006,1,0,0,0,no_ontology_evidence
+ALPERSON-PAT-SEWELL,PAT SEWELL,2006,house,2006,2006,1,0,0,0,no_ontology_evidence
+ALPERSON-PATTERSON-ARTHUR-FRANK-JR,"Patterson, Arthur Frank, Jr.",2002,house,2002,2002,1,0,0,0,no_ontology_evidence
+ALPERSON-PAYNE,Payne,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-PENN-MYRON-C,"Penn, Myron C.",2002,senate,2002,2002,1,1,0,0,no_ontology_evidence
+ALPERSON-PENRY,Penry,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-PERDUE,Perdue,1994/1998,house,1994,1998,2,2,0,1,below_minimum_features
+ALPERSON-PETELOS,Petelos,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-PETTUS-MARY,"Pettus, Mary",2002,house,2002,2002,1,0,0,0,no_ontology_evidence
+ALPERSON-POBINSON,Pobinson,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-POOLE,Poole,1994/1998,senate,1994,1998,2,2,0,1,below_minimum_features
+ALPERSON-PREIUTT-JIM,"Preiutt, Jim",2002,senate,2002,2002,1,1,0,1,below_minimum_features
+ALPERSON-PREUITT,Preuitt,1998,senate,1998,1998,1,1,0,0,no_ontology_evidence
+ALPERSON-PRINGLE,Pringle,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-QUARLES-MARILYN,"Quarles, Marilyn",2002,house,2002,2002,1,0,0,0,no_ontology_evidence
+ALPERSON-RANDALL-WHITE,RANDALL WHITE,2010,house,2010,2010,1,0,0,1,below_minimum_features
+ALPERSON-RAYFORD-MACK,Rayford Mack,2018,house,2018,2018,1,0,0,0,no_ontology_evidence
+ALPERSON-REED,Reed,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-REX-CHEATHAM,Rex Cheatham,2014,house,2014,2014,1,0,0,0,no_ontology_evidence
+ALPERSON-RICHARD-J-LINDSEY,RICHARD J. LINDSEY,2006,house,2006,2006,1,1,0,1,below_minimum_features
+ALPERSON-RICKY-WHALEY,RICKY WHALEY,2010,house,2010,2010,1,0,0,1,below_minimum_features
+ALPERSON-ROBERTS,Roberts,1994/1998,senate,1994,1998,2,2,0,1,below_minimum_features
+ALPERSON-ROCKHOLD,Rockhold,1994/1998,house,1994,1998,2,0,0,0,no_ontology_evidence
+ALPERSON-ROGER-JOHN-W-JR,"Roger, John W., Jr.",2002,house,2002,2002,1,1,0,0,no_ontology_evidence
+ALPERSON-ROGERS,Rogers,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-ROMEI,Romei,1994,house,1994,1994,1,0,0,0,no_ontology_evidence
+ALPERSON-RON-CRUMPTON,Ron Crumpton,2014,senate,2014,2014,1,0,0,2,below_minimum_features
+ALPERSON-RONNIE-HELMS,RONNIE HELMS,2006/2010,house/senate,2006,2010,2,0,0,1,below_minimum_features
+ALPERSON-ROSS-QUINTON-T,"Ross, Quinton T.",2002,senate,2002,2002,1,1,0,0,no_ontology_evidence
+ALPERSON-SALAAM-Y,"Salaam, Y.",2002,house,2002,2002,1,1,0,1,below_minimum_features
+ALPERSON-SALVATORE-BAMBINELLI,Salvatore Bambinelli,2014,house,2014,2014,1,0,0,0,no_ontology_evidence
+ALPERSON-SAM-JONES,Sam Jones,2018,house,2018,2018,1,1,0,0,no_ontology_evidence
+ALPERSON-SANDERS-HANK,"Sanders, Hank",2002,senate,2002,2002,1,1,0,1,below_minimum_features
+ALPERSON-SCHMITZ,Schmitz,1994/1998,house,1994,1998,2,1,0,0,no_ontology_evidence
+ALPERSON-SCHMITZ-SUE,"Schmitz, Sue",2002,house,2002,2002,1,1,0,0,no_ontology_evidence
+ALPERSON-SCOTT-A-BUZBEE,SCOTT A BUZBEE,2010,senate,2010,2010,1,0,0,1,below_minimum_features
+ALPERSON-SCOTT-BREWER,Scott Brewer,2018,house,2018,2018,1,0,0,0,no_ontology_evidence
+ALPERSON-SHADDIX,Shaddix,1994,house,1994,1994,1,0,0,0,no_ontology_evidence
+ALPERSON-SHARP,Sharp,1994,house,1994,1994,1,0,0,0,no_ontology_evidence
+ALPERSON-SHERER-TOMMY,"Sherer, Tommy",2002,house,2002,2002,1,1,0,0,no_ontology_evidence
+ALPERSON-SHIRLEY-SCOTT-HARRIS,Shirley Scott-Harris,2014,house,2014,2014,1,0,0,0,no_ontology_evidence
+ALPERSON-SINGLETON-BOBBY,"Singleton, Bobby",2002,house,2002,2002,1,1,0,0,no_ontology_evidence
+ALPERSON-SMITH-PAM,"Smith, Pam",2002,house,2002,2002,1,0,0,0,no_ontology_evidence
+ALPERSON-SMITHERMAN,Smitherman,1994,senate,1994,1994,1,1,0,1,below_minimum_features
+ALPERSON-SMITHERMAN-RODGER-M,"Smitherman, Rodger M.",2002,senate,2002,2002,1,1,0,1,below_minimum_features
+ALPERSON-SPICER,Spicer,1994/1998,house,1994,1998,2,2,0,0,no_ontology_evidence
+ALPERSON-SPRATT,Spratt,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-SPRAYBERRY,Sprayberry,1994,senate,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-STARKEY-NELSON,"Starkey, Nelson",2002,house,2002,2002,1,1,0,1,below_minimum_features
+ALPERSON-STATEN,Staten,1998,senate,1998,1998,1,0,0,0,no_ontology_evidence
+ALPERSON-STEELE,Steele,1994/1998,senate,1994,1998,2,2,0,1,below_minimum_features
+ALPERSON-SUE-SCHMITZ,SUE SCHMITZ,2006,house,2006,2006,1,1,0,2,below_minimum_features
+ALPERSON-SULLIVAN,Sullivan,1994,senate,1994,1994,1,0,0,0,no_ontology_evidence
+ALPERSON-SUSAN-PACE-HAMILL,SUSAN PACE HAMILL,2010,house,2010,2010,1,0,0,1,below_minimum_features
+ALPERSON-SUSAN-SMITH,Susan Smith,2014,senate,2014,2014,1,0,0,0,no_ontology_evidence
+ALPERSON-T-E-TOMMY-HUDSON,T. E. 'Tommy' HUDSON,2010,senate,2010,2010,1,0,0,0,no_ontology_evidence
+ALPERSON-TASHINA-MORRIS,Tashina Morris,2018,house,2018,2018,1,1,0,0,no_ontology_evidence
+ALPERSON-TAYLOR-STEWART,Taylor Stewart,2014,senate,2014,2014,1,0,0,0,no_ontology_evidence
+ALPERSON-TERRY-JONES,Terry Jones,2018,house,2018,2018,1,0,0,1,below_minimum_features
+ALPERSON-THIGPEN,Thigpen,1998,house,1998,1998,1,1,0,0,no_ontology_evidence
+ALPERSON-THIGPEN-WILLIAMS-E,"Thigpen, Williams E.",2002,house,2002,2002,1,1,0,0,no_ontology_evidence
+ALPERSON-THOMAS-E-JACKSON,THOMAS E. JACKSON,2006,house,2006,2006,1,1,0,1,below_minimum_features
+ALPERSON-THOMAS-JAMES-L,"Thomas, James L.",2002,house,2002,2002,1,1,0,1,below_minimum_features
+ALPERSON-TILLMAN-PUGH,Tillman Pugh,2014,house,2014,2014,1,0,0,0,no_ontology_evidence
+ALPERSON-TIM-MITCHELL,TIM MITCHELL,2010,senate,2010,2010,1,0,0,1,below_minimum_features
+ALPERSON-TURNER-JOHN,"Turner, John",2002,senate,2002,2002,1,0,0,0,no_ontology_evidence
+ALPERSON-TURNHAM,Turnham,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-VANDERMEER-JEANETTE,"VanderMeer, Jeanette",2002,house,2002,2002,1,0,0,0,no_ontology_evidence
+ALPERSON-VAUGHAN,Vaughan,1994,house,1994,1994,1,0,0,0,no_ontology_evidence
+ALPERSON-VAUGHN-GOODWIN,VAUGHN GOODWIN,2010,house,2010,2010,1,0,0,1,below_minimum_features
+ALPERSON-VENABLE-JACK-B,"Venable, Jack B.",2002,house,2002,2002,1,1,0,1,below_minimum_features
+ALPERSON-VERONICA-R-JOHNSON,Veronica R. Johnson,2018,house,2018,2018,1,0,0,2,below_minimum_features
+ALPERSON-VIRGINIA-SWEET,VIRGINIA SWEET,2010,house,2010,2010,1,0,0,1,below_minimum_features
+ALPERSON-WAGGONER,Waggoner,1994,senate,1994,1994,1,1,0,1,below_minimum_features
+ALPERSON-WALLACE-WYATT-JR,"WALLACE WYATT, JR.",2010,senate,2010,2010,1,0,0,0,no_ontology_evidence
+ALPERSON-WALTON-HICKMAN,Walton Hickman,2014,house,2014,2014,1,0,0,1,below_minimum_features
+ALPERSON-WARREN-J-E-JIMMY,"Warren, J.E. ""Jimmy""",2002,house,2002,2002,1,0,0,0,no_ontology_evidence
+ALPERSON-WHITE-F-P-SKIPPY,"White, F.P. ""Skippy""",2002,house,2002,2002,1,1,0,1,below_minimum_features
+ALPERSON-WILBURN,Wilburn,1998,house,1998,1998,1,0,0,0,no_ontology_evidence
+ALPERSON-WILL-BENTON,Will Benton,2018,house,2018,2018,1,0,0,1,below_minimum_features
+ALPERSON-WILLIAM-M-BILLY-BEASLEY,"WILLIAM M. ""Billy"" BEASLEY",2006,house,2006,2006,1,1,0,1,below_minimum_features
+ALPERSON-WILLIAMS,Williams,1994,house,1994,1994,1,0,0,0,no_ontology_evidence
+ALPERSON-WILLIS,Willis,1994,house,1994,1994,1,1,0,0,no_ontology_evidence
+ALPERSON-WILSON,Wilson,1994,senate,1994,1994,1,0,0,0,no_ontology_evidence
+ALPERSON-WINDOM,Windom,1994,senate,1994,1994,1,1,0,0,no_ontology_evidence

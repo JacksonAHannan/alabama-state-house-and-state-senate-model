@@ -12,7 +12,7 @@ Paths and commands below are relative to the repository root.
 |---|---|---|---|
 | 2026 Alabama forecast | `data/processed/forecast_calibration/alabama_war_forecast_v1_manifest.json` and its scenario/diagnostic exports | `python scripts/build_2026_forecast_dashboard.py --artifact-only` | Local candidate HTML in `artifacts/site/`; omitting `--artifact-only` also writes `docs/index.html`, methodology and downloads |
 | Historical Alabama WAR | `data/processed/war/alabama_historical_war_v1/manifest.json` and its race/candidate exports | `python scripts/build_war_story_page.py` | Writes local artifacts, `docs/cmo.html`, methodology and downloads; not preview-only |
-| Ideology and caucuses | Reviewed issue evidence and descriptive analysis consumed by `scripts/build_democratic_transition_page_v2.py`, joined to historical Alabama candidate-cycle WAR | `python scripts/build_democratic_transition_page.py` | Writes `artifacts/site/ideology-performance.html`; the site publisher copies it to `docs/ideology-performance.html` |
+| Ideology and caucuses | `data/processed/ideology/democratic_caucuses_v1/manifest.json` (person-level groupings built from ontology-v3 issue evidence) joined to historical Alabama candidate-cycle WAR | `python scripts/build_democratic_caucuses_v1.py` then `python scripts/build_democratic_caucus_page.py` | Writes `artifacts/site/ideology-performance.html`; the site publisher copies it to `docs/ideology-performance.html` and writes `docs/caucuses.html` as a redirect |
 | Southern WAR, 2016–2024 | `data/processed/war/southern_historical_war_v1/manifest.json` and its race/candidate exports | `python scripts/build_southern_war_map.py` | Writes `docs/southern-war.html`, methodology, payload, downloads, join audit and a local artifact; applies shared theme |
 
 Both the historical builder and the map builder require
@@ -32,7 +32,7 @@ Since 2026-09-10 every publication-writing route above checks its declared
 inputs before reading model rows (`scripts/southern_war_release_gate.py`):
 `build_alabama_war_v1.py` and `build_alabama_historical_war_v1.py` require the
 approved v3 decision and an Alabama v1 export derived from that run;
-`build_war_story_page.py` and `build_democratic_transition_page_v2.py` call
+`build_war_story_page.py` and `build_democratic_caucus_page.py` call
 `require_alabama_historical_release`, which requires the historical export's
 declared files to be unchanged and its Southern and Alabama sources to be the
 approved and published runs; `build_2026_forecast_dashboard.py` requires every
@@ -71,11 +71,16 @@ recorded by `scripts/audit_southern_v3_context_sensitivity.py`; per-state releas
 limitations are published by the historical builder's `state_release_coverage.csv`
 and the map methodology.
 
-The ideology entry point delegates to the v2 page implementation; that suffix
-does not select a WAR version. Its payload composes the existing caucus and
-ideology analysis helpers. The separate `scripts/build_caucus_analysis_page.py`
-renders `artifacts/site/caucuses.html`, also copied by the site publisher. Neither
-renderer is a complete legislative-evidence or cluster rebuild.
+The ideology route has one renderer. `scripts/build_democratic_caucuses_v1.py`
+builds the person-level groupings (eight ontology issue families, k chosen by
+bootstrap stability, labels approved in
+`data/manual/ideology/democratic_caucus_labels.csv`) and
+`scripts/build_democratic_caucus_page.py` renders the single public page from
+that run. The former `build_democratic_transition_page*.py`,
+`build_caucus_analysis_page.py`, `build_ideology_thesis_page.py` and
+`analyze_democratic_ideological_clusters.py` are retired; `caucuses.html` is now
+a redirect. The renderer refuses to publish a run whose labels are still pending
+owner approval, but it is not a rebuild of the upstream evidence layer.
 
 ## Analytical build stages and prerequisites
 
@@ -153,7 +158,7 @@ flag (publishes `docs/index.html`, methodology and downloads).
 **Ideology and caucuses** (after the historical Alabama export):
 `run_frontier_ideology_pipeline.py` (evidence ledger through valence) →
 `validate_frontier_ideology_integration.py` → cluster and thesis analyses →
-`build_democratic_transition_page.py`, `build_caucus_analysis_page.py`
+`build_democratic_caucuses_v1.py` → `build_democratic_caucus_page.py`
 (candidates under `artifacts/site/`; the site publisher copies them). There is
 still no single certified rebuild for the upstream evidence stages (roll-call
 warehouse, ontology, adjudication); trace `IDEOLOGY-ROLLCALL-OPENAI-CLASSIFY-20260908.md`

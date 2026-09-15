@@ -23,9 +23,9 @@ STEPS = [
     "analyze_issue_stance_durable_overperformance.py",
     "run_headline_ideology_tournament.py",
     "analyze_ideological_bundle_performance.py",
-    "analyze_democratic_ideological_clusters.py",
     "analyze_ideology_thesis.py",
-    "build_ideology_performance_page.py",
+    "build_democratic_caucuses_v1.py",
+    "build_democratic_caucus_page.py",
     "build_legislator_ideology_page.py",
     "validate_frontier_ideology_integration.py",
 ]
@@ -40,7 +40,8 @@ TESTS = [
     "scripts/tests/test_candidate_ideology_storage_invariants.py",
     "scripts/tests/test_issue_stance_tournament.py",
     "scripts/tests/test_issue_stance_durable_overperformance.py",
-    "scripts/tests/test_ideology_performance_page.py",
+    "scripts/tests/test_democratic_caucuses_v1.py",
+    "scripts/tests/test_democratic_caucus_page.py",
     "scripts/tests/test_ideological_bundle_performance.py",
 ]
 

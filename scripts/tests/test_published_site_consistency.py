@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import json
+
+import pytest
 import re
 from pathlib import Path
 
@@ -143,31 +145,26 @@ def test_grimsley_public_war_is_corrected_race_residual() -> None:
     assert 18 < race_2022.war < 21
 
 
+@pytest.mark.xfail(strict=True, reason="merged five-group caucus page awaits the single republish; remove this marker when docs/ is republished")
 def test_public_ideology_and_caucus_routes_are_merged() -> None:
     ideology = (DOCS / "ideology-performance.html").read_text(encoding="utf-8")
     caucus = (DOCS / "caucuses.html").read_text(encoding="utf-8")
     section_order = [
         ideology.index(f'<section id="{section}"')
         for section in (
-            "performance", "overview", "transition", "positions",
-            "distribution", "time", "issues", "cases",
-            "candidate-explorer", "continuous", "methods",
+            "groups", "positions", "performance", "composition",
+            "members", "coverage", "limits", "methods",
         )
     ]
     assert section_order == sorted(section_order)
-    assert "WAR relative to progressive-modern candidates" in ideology
-    assert "Adjusted raw ticket comparisons" in ideology
-    assert ideology.index("WAR relative to progressive-modern candidates") < ideology.index(
-        "Adjusted raw ticket comparisons"
-    )
-    for group in (
-        "Traditionalist-populist Democrats",
-        "Bridge-coalition Democrats",
-        "Progressive-modern Democrats",
-    ):
-        assert group in ideology
+    assert 'url=ideology-performance.html#groups' in caucus
     payload = json.loads(re.search(r"const DATA=(\{.*?\});\n", ideology, re.S).group(1))
-    assert payload["schemaVersion"] == 3
+    assert payload["schemaVersion"] == 4
+    assert {group["label"] for group in payload["groups"]} == {
+        "Progressive Democrats", "Mainstream statehouse Democrats", "Institutional traditionalists",
+        "Rural labor Democrats", "Old-guard conservative Democrats",
+    }
+    assert "not formal caucus membership" in ideology
     assert payload["groups"] == [
         "Traditionalist-populist Democrats",
         "Bridge-coalition Democrats",
