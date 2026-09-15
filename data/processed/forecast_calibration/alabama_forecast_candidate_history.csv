@@ -1,0 +1,190 @@
+cycle,chamber,district,party,candidate,match_method,person_id,prior_cycles,last_prior_cycle,years_elapsed,last_prior_war,mean_prior_war,history_available,carry_applied,history_status,expected_candidate_effect
+2026,house,1,R,Maurice McCaney,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,2,D,Rick Pressnell,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,2,R,Ben Harrison,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,3,R,Kerry Bubba Underwood,exact_unique_normalized_name,ALPERSON-GSL003RUND,1.0,2022.0,4.0,-2.6179833800036323,-2.6179833800036323,True,True,within_observed_gap,-1.1299574428149743
+2026,house,4,D,Hanu Karlapalem,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,4,R,Parker Duncan Moore,exact_unique_normalized_name,ALPERSON-PARKER-DUNCAN-MOORE,1.0,2018.0,8.0,8.04870966257071,8.04870966257071,True,True,extrapolated_one_cycle_beyond_observed_gap,3.473933202840255
+2026,house,5,D,Jessie Barcala,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,5,R,Danny F. Crawford,exact_unique_normalized_name,ALPERSON-DANNY-F-CRAWFORD,1.0,2018.0,8.0,2.6709950493822374,2.6709950493822374,True,True,extrapolated_one_cycle_beyond_observed_gap,1.1528380045587692
+2026,house,6,R,Andy Whitt,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,7,R,Ernie Yarbrough,verified_prior_winner_crosswalk,ALPERSON-GSL007RYAR,1.0,2022.0,4.0,-0.5364922577323967,-0.5364922577323967,True,True,within_observed_gap,-0.23155739805975778
+2026,house,8,D,Bruce Sparkman,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,8,R,Patrick Johnson,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,9,R,Scott Stadthagen,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,10,D,Marilyn Lands,exact_unique_normalized_name,ALPERSON-GSL010DLAN,1.0,2022.0,4.0,4.803939921551262,4.803939921551262,True,True,within_observed_gap,2.073446191696336
+2026,house,10,R,Aaron Thomas,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,11,R,Heath Allbright,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,12,R,Cindy Myrex,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,13,R,Mike Elliott,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,14,R,Tim R.Wadsworth,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,15,D,Nell Brown,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,15,R,Leigh Hulsey,verified_prior_winner_crosswalk,ALPERSON-GSL015RHUL,1.0,2022.0,4.0,9.211737148320791,9.211737148320791,True,True,within_observed_gap,3.9759117767912735
+2026,house,16,D,Christian Martin,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,16,R,Bryan Brinyark,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,17,R,Phil Segraves,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,18,R,Jamie Kiel,exact_unique_normalized_name,ALPERSON-JAMIE-KIEL,1.0,2018.0,8.0,-0.7727491312516293,-0.7727491312516293,True,True,extrapolated_one_cycle_beyond_observed_gap,-0.3335290968445233
+2026,house,19,D,Laura Hall,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,19,R,Donald Barnes,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,20,D,JamesLinderholm,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,20,R,James Lomax,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,21,D,Forrest Satterfield,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,21,R,Rex Reynolds,exact_unique_normalized_name,ALPERSON-REX-REYNOLDS,1.0,2018.0,8.0,4.300818926164102,4.300818926164102,True,True,extrapolated_one_cycle_beyond_observed_gap,1.856292287009053
+2026,house,22,R,Ritchie Whorton,exact_unique_normalized_name,ALPERSON-RITCHIE-WHORTON,1.0,2014.0,12.0,-0.6426799743769056,-0.6426799743769056,True,False,history_older_than_carry_limit_encoded_as_zero,0.0
+2026,house,23,R,Mike Kirkland,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,24,R,Nathaniel Ledbetter,exact_unique_normalized_name,ALPERSON-NATHANIEL-LEDBETTER,1.0,2010.0,16.0,42.18048547006937,42.18048547006937,True,False,history_older_than_carry_limit_encoded_as_zero,0.0
+2026,house,25,D,Allison T Montgomery,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,25,R,Phillip K. Rigsby,verified_prior_winner_crosswalk,ALPERSON-GSL025RRIG,1.0,2022.0,4.0,-0.6238338530892578,-0.6238338530892578,True,True,within_observed_gap,-0.2692552255152865
+2026,house,26,R,Brock Colvin,verified_prior_winner_crosswalk,ALPERSON-GSL026RCOL,1.0,2022.0,4.0,-0.0677835957837298,-0.0677835957837298,True,True,within_observed_gap,-0.029256327271443925
+2026,house,27,R,Jeana Ross,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,28,D,Robert Louis Hunter,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,28,R,Mack N Butler,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,29,R,Mark A. Gidley,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,30,R,Craig Lipscomb,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,31,R,Troy B.Stubbs,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,32,D,Debra D Foster,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,32,R,Joey Callahan,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,33,R,Ben Robbins,verified_prior_winner_crosswalk,ALPERSON-GSL033RROB,1.0,2022.0,4.0,4.0878456755375066,4.0878456755375066,True,True,within_observed_gap,1.7643701184024336
+2026,house,34,R,David Standridge,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,35,R,Steve Hurst,exact_unique_normalized_name,ALPERSON-STEVE-HURST,2.0,2010.0,16.0,41.29809040275613,53.06334160748813,True,False,history_older_than_carry_limit_encoded_as_zero,0.0
+2026,house,36,R,Randy Wood,exact_unique_normalized_name,ALPERSON-RANDY-WOOD,2.0,2018.0,8.0,3.239544871168023,2.041293077106995,True,True,extrapolated_one_cycle_beyond_observed_gap,1.3982318858358476
+2026,house,37,D,Michelle French,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,37,R,Jeff Monroe,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,38,D,Hazel Floyd,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,38,R,Kristin Nelson,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,39,R,Ginny Shaver,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,40,D,Pam Howard,exact_unique_normalized_name,ALPERSON-GSL040DHOW,1.0,2022.0,4.0,-0.6053000444030077,-0.6053000444030077,True,True,within_observed_gap,-0.26125578012969053
+2026,house,40,R,ChadRobertson,verified_prior_winner_crosswalk,ALPERSON-GSL040RROB,1.0,2022.0,4.0,0.6053000444030077,0.6053000444030077,True,True,within_observed_gap,0.26125578012969053
+2026,house,41,D,David J. A. Morgan,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,41,R,Corley Ellis,verified_prior_winner_crosswalk,ALPERSON-GSL041RELL,1.0,2022.0,4.0,1.775130223685334,1.775130223685334,True,True,within_observed_gap,0.7661704896752517
+2026,house,42,R,Van Smith,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,43,D,TaylorCook,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,43,R,Arnold Mooney,verified_prior_winner_crosswalk,ALPERSON-GSL043RMOO,1.0,2022.0,4.0,1.3979017278236414,1.3979017278236414,True,True,within_observed_gap,0.6033535100883813
+2026,house,44,R,Danny Garrett,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,45,D,Toni Kornegay Vaughn,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,45,R,Susan DuBose,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,46,R,David L. Faulkner,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,47,D,Jim Toomey,exact_unique_normalized_name,ALPERSON-JIM-TOOMEY,1.0,2018.0,8.0,-0.0005788951275627,-0.0005788951275627,True,True,extrapolated_one_cycle_beyond_observed_gap,-0.0002498590567820524
+2026,house,47,R,MikeShaw,verified_prior_winner_crosswalk,ALPERSON-GSL047RSHA,1.0,2022.0,4.0,38.12331940177657,38.12331940177657,True,True,within_observed_gap,16.454546209835062
+2026,house,48,R,Lloyd Peeples,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,49,R,Russell Bedsole,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,50,D,Alan Thomas,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,50,R,Bill Morris,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,51,R,Allen Treadaway,exact_unique_normalized_name,ALPERSON-ALLEN-TREADAWAY,1.0,2018.0,8.0,15.247706654197938,15.247706654197938,True,True,extrapolated_one_cycle_beyond_observed_gap,6.581118792185176
+2026,house,52,D,GiGi Hayes,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,53,D,Anthony Daniels,exact_unique_normalized_name,ALPERSON-ANTHONY-DANIELS,1.0,2014.0,12.0,28.111766772923787,28.111766772923787,True,False,history_older_than_carry_limit_encoded_as_zero,0.0
+2026,house,54,D,Neil Rafferty,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,55,D,Travis Hendrix,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,56,D,Ontario J Tillman,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,57,D,Patrick Sellers,verified_prior_winner_crosswalk,ALPERSON-GSL057DSEL,1.0,2022.0,4.0,6.510893469849419,6.510893469849419,True,True,within_observed_gap,2.8101906955656677
+2026,house,58,D,Rolanda Hollis,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,59,D,Mary Moore,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,60,D,Alicia Escott Lumpkin,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,61,R,Ron Bolton,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,62,R,Bill Lamb,verified_prior_winner_crosswalk,ALPERSON-GSL062RLAM,1.0,2022.0,4.0,6.862487271442731,6.862487271442731,True,True,within_observed_gap,2.9619433904041745
+2026,house,63,D,JudithTaylor,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,63,R,Norman Crow,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,64,R,Donna Givens,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,65,R,John Knapp,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,66,R,Alan Baker,exact_unique_normalized_name,ALPERSON-ALAN-BAKER,2.0,2018.0,8.0,0.0632000380265691,-7.357455306471983,True,True,extrapolated_one_cycle_beyond_observed_gap,0.02727800103689431
+2026,house,67,D,Prince Chestnut,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,68,D,Thomas E. Action Jackson,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,68,R,Fred Kelley,exact_unique_normalized_name,ALPERSON-GSL068RKEL,1.0,2022.0,4.0,4.3792903669118,4.3792903669118,True,True,within_observed_gap,1.8901616343847998
+2026,house,69,D,Kelvin J Lawrence,verified_prior_winner_crosswalk,ALPERSON-GSL069DLAW,1.0,2022.0,4.0,1.0636795044178866,1.0636795044178866,True,True,within_observed_gap,0.4590986260520366
+2026,house,69,R,Josh Pendergrass,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,70,D,Christopher John England,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,70,R,Ian M. Chwatuk,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,71,D,"Artis ""A.J."" McCampbell ",no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,72,D,Curtis L Travis,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,73,R,Kenneth Paschal,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,74,D,Jasmyne Crimiel,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,74,R,Alva Lambert,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,75,D,Tisha Dickson Nickson,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,75,R,Reed Ingram,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,76,D,Patrice Penni McClammy,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,77,D,TaShinaMorris,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,78,D,Kenyatte Hassell,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,79,R,Joe Lovvorn,exact_unique_normalized_name,ALPERSON-JOE-LOVVORN,1.0,2018.0,8.0,8.818061392909733,8.818061392909733,True,True,extrapolated_one_cycle_beyond_observed_gap,3.8059959349718673
+2026,house,80,D,Manfred Malone,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,80,R,Chris Blackshear,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,81,R,Ed Oliver,exact_unique_normalized_name,ALPERSON-ED-OLIVER,1.0,2018.0,8.0,5.504654486902686,5.504654486902686,True,True,extrapolated_one_cycle_beyond_observed_gap,2.3758841844106375
+2026,house,82,D,Pebblin W. Warren,verified_prior_winner_crosswalk,ALPERSON-GSL082DWAR,1.0,2022.0,4.0,11.887620026087864,11.887620026087864,True,True,within_observed_gap,5.130859434950151
+2026,house,82,R,Kinsley Hammons,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,83,D,Jeremy A. Gray,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,84,D,Berry Forte,exact_unique_normalized_name,ALPERSON-BERRY-FORTE,2.0,2014.0,12.0,3.0966156018151247,8.36795924940681,True,False,history_older_than_carry_limit_encoded_as_zero,0.0
+2026,house,85,D,Aristotle Onassis Kirkland,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,85,R,Rick Rehm,verified_prior_winner_crosswalk,ALPERSON-GSL085RREH,1.0,2022.0,4.0,-19.92441328108354,-19.92441328108354,True,True,within_observed_gap,-8.599649353255495
+2026,house,86,R,Paul Lee,exact_unique_normalized_name,ALPERSON-PAUL-LEE,1.0,2010.0,16.0,-16.418597886246552,-16.418597886246552,True,False,history_older_than_carry_limit_encoded_as_zero,0.0
+2026,house,87,R,Jeff Sorrells,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,88,R,Jerry Starnes,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,89,R,MarcusB.Paramore,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,90,R,Chris Sells,exact_unique_normalized_name,ALPERSON-CHRIS-SELLS,2.0,2018.0,8.0,6.08967257044139,-2.5630677246383833,True,True,extrapolated_one_cycle_beyond_observed_gap,2.628385992758632
+2026,house,91,R,Jody Linton,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,92,R,MatthewHammett,verified_prior_winner_crosswalk,ALPERSON-GSL092RHAM,1.0,2022.0,4.0,0.1327680912197979,0.1327680912197979,True,True,within_observed_gap,0.05730452453901367
+2026,house,93,R,Steve Clouse,exact_unique_normalized_name,ALPERSON-STEVE-CLOUSE,3.0,2014.0,12.0,2.813503752553429,1.321786041331155,True,False,history_older_than_carry_limit_encoded_as_zero,0.0
+2026,house,94,R,Jennifer Fidler,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,95,R,Frances Holk-Jones,verified_prior_winner_crosswalk,ALPERSON-GSL095RHOL,1.0,2022.0,4.0,2.1772534533304366,2.1772534533304366,True,True,within_observed_gap,0.9397323769419494
+2026,house,96,D,TerriOsborne,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,96,R,Danielle Duggar,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,97,D,Adline C. Clarke,exact_unique_normalized_name,ALPERSON-ADLINE-C-CLARKE,1.0,2018.0,8.0,-9.451732158117618,-9.451732158117618,True,True,extrapolated_one_cycle_beyond_observed_gap,-4.079496906333999
+2026,house,98,D,"Napoleon Bracy, Jr.",exact_unique_normalized_name,ALPERSON-NAPOLEON-BRACY-JR,2.0,2014.0,12.0,2.082316236962882,18.310226152499126,True,False,history_older_than_carry_limit_encoded_as_zero,0.0
+2026,house,99,D,Sam Jones,exact_unique_normalized_name,ALPERSON-SAM-JONES,1.0,2018.0,8.0,0.5888085947278943,0.5888085947278943,True,True,extrapolated_one_cycle_beyond_observed_gap,0.254137844834327
+2026,house,99,R,Charlie Watts,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,100,R,MarkShirey,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,101,D,Joan Friedlander,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,101,R,Chris Pringle,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,102,R,Shane Stringer,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,103,D,Barbara Drummond,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,house,104,R,Margie Wilcox,exact_unique_normalized_name,ALPERSON-MARGIE-WILCOX,1.0,2018.0,8.0,0.4542109583830334,0.4542109583830334,True,True,extrapolated_one_cycle_beyond_observed_gap,0.19604366358976621
+2026,house,105,R,Chip Brown,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,1,R,Tim Melson,exact_unique_normalized_name,ALPERSON-TIM-MELSON,2.0,2018.0,8.0,-2.6492078813448625,-6.549266440218525,True,True,extrapolated_one_cycle_beyond_observed_gap,-1.1434343647687952
+2026,senate,2,D,Rudolph Valentino Drake,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,2,R,John Roberts,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,3,D,John Dickey,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,3,R,Arthur Orr,exact_unique_normalized_name,ALPERSON-ARTHUR-ORR,1.0,2006.0,20.0,-4.39607034473376,-4.39607034473376,True,False,history_older_than_carry_limit_encoded_as_zero,0.0
+2026,senate,4,R,Garlan Gudger,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,5,R,Matt Woods,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,6,D,Bobby Martin,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,6,R,Larry Stutts,exact_unique_normalized_name,ALPERSON-LARRY-STUTTS,2.0,2018.0,8.0,-34.05460399370181,-24.75051586579983,True,True,extrapolated_one_cycle_beyond_observed_gap,-14.69843297658617
+2026,senate,7,D,Jared Sluss,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,7,R,Sam Givhan,verified_prior_winner_crosswalk,ALPERSON-GSU07RGIV,1.0,2022.0,4.0,1.610312566528612,1.610312566528612,True,True,within_observed_gap,0.6950329340154039
+2026,senate,8,D,Katie Kramer,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,8,R,Steve Livingston,exact_unique_normalized_name,ALPERSON-STEVE-LIVINGSTON,1.0,2014.0,12.0,-0.2053333426554384,-0.2053333426554384,True,False,history_older_than_carry_limit_encoded_as_zero,0.0
+2026,senate,9,R,WesKitchens,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,10,I,Jesse Battles,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,10,R,Andrew Jones,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,11,D,Donald J. Mottern,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,11,R,Lance Bell,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,12,R,Keith Kelley,verified_prior_winner_crosswalk,ALPERSON-GSU12RKEL,1.0,2022.0,4.0,0.7618042837000556,0.7618042837000556,True,True,within_observed_gap,0.3288051509074186
+2026,senate,13,D,Jamie Forsyth,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,13,R,Randy Price,exact_unique_normalized_name,ALPERSON-RANDY-PRICE,1.0,2018.0,8.0,5.599668629474935,5.599668629474935,True,True,extrapolated_one_cycle_beyond_observed_gap,2.4168935882106135
+2026,senate,14,D,Mandie Ledkins,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,14,R,April Weaver,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,15,R,Scott Ortis,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,16,D,Spencer Stone,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,16,R,"J.T.""Jabo""Waggoner",exact_unique_normalized_name,ALPERSON-J-T-JABO-WAGGONER,3.0,2018.0,8.0,-4.454500870380223,1.072966709367787,True,True,extrapolated_one_cycle_beyond_observed_gap,-1.922623516618708
+2026,senate,17,R,Shay Shelnutt,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,18,D,Rodger M. Smitherman ,exact_unique_normalized_name,ALPERSON-RODGER-M-SMITHERMAN,1.0,2006.0,20.0,12.191561579778387,12.191561579778387,True,False,history_older_than_carry_limit_encoded_as_zero,0.0
+2026,senate,19,D,Merika Coleman,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,20,D,Linda Coleman-Madison,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,21,R,Gerald Allen,verified_prior_winner_crosswalk,ALPERSON-GSU21RALL,1.0,2022.0,4.0,-2.6852077997046706,-2.6852077997046706,True,True,within_observed_gap,-1.1589724220391742
+2026,senate,22,D,Ashley Sharpe,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,22,R,Terry L. Waters,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,23,D,Robert Stewart,verified_prior_winner_crosswalk,ALPERSON-GSU23DSTE,1.0,2022.0,4.0,1.3657339402681328,1.3657339402681328,True,True,within_observed_gap,0.5894694528996044
+2026,senate,23,R,Thayer Bear Havard Spencer,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,24,D,Bobby Singleton,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,25,D,Phadra Carson Foster,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,25,R,Will Barfoot,exact_unique_normalized_name,ALPERSON-WILL-BARFOOT,1.0,2018.0,8.0,8.914605423384565,8.914605423384565,True,True,extrapolated_one_cycle_beyond_observed_gap,3.847665659320629
+2026,senate,26,D,Kirk Hatcher,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,27,R,Jay Hovey,verified_prior_winner_crosswalk,ALPERSON-GSU27RHOV,1.0,2022.0,4.0,5.955280972525262,5.955280972525262,True,True,within_observed_gap,2.5703807405186745
+2026,senate,28,D,Billy Beasley,exact_unique_normalized_name,ALPERSON-BILLY-BEASLEY,2.0,2014.0,12.0,22.42973944120547,23.391418398716997,True,False,history_older_than_carry_limit_encoded_as_zero,0.0
+2026,senate,28,R,Brent Comer,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,29,D,JimmyMcCray,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,29,R,Donnie Chesteen,verified_prior_winner_crosswalk,ALPERSON-GSU29RCHE,1.0,2022.0,4.0,0.1181143807705713,0.1181143807705713,True,True,within_observed_gap,0.05097978263521435
+2026,senate,30,R,"Clyde Chambliss, Jr.",no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,31,R,Josh Carnley,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,32,D,Janet Appleby,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,32,R,Chris Elliott,exact_unique_normalized_name,ALPERSON-CHRIS-ELLIOTT,1.0,2018.0,8.0,4.739348035236224,4.739348035236224,True,True,extrapolated_one_cycle_beyond_observed_gap,2.0455674498965943
+2026,senate,33,D,Vivian Davis Figures,verified_prior_winner_crosswalk,ALPERSON-GSU33DFIG,1.0,2022.0,4.0,9.32081631538746,9.32081631538746,True,True,within_observed_gap,4.022991837583283
+2026,senate,34,R,Rusty Glover,no_prior_alabama_race,,,,,,,False,False,missing_history_encoded_as_zero,0.0
+2026,senate,35,R,David Sessions,exact_unique_normalized_name,ALPERSON-DAVID-SESSIONS,1.0,2018.0,8.0,4.372531013293616,4.372531013293616,True,True,extrapolated_one_cycle_beyond_observed_gap,1.8872442048900893

@@ -1,0 +1,92 @@
+{
+  "generated_at_utc": "2026-09-15T02:36:43.857631+00:00",
+  "git_commit": "5c9014c4591f3f0a5be3622c0b1c77fd6ddf260c",
+  "estimand": "persistence of a candidate's own residual WAR into their next race",
+  "specification": "candidate_cycle_war ~ prior_candidate_cycle_war (+ interaction with years elapsed)",
+  "standard_errors": "clustered by candidate identity",
+  "fit": {
+    "intercept": -0.10797666874864362,
+    "persistence": 0.43161368076118445,
+    "decay_per_year": -0.008076951597055071,
+    "intercept_se": 0.13944836233641641,
+    "persistence_se": 0.07575765433892369,
+    "decay_se": 0.0428563017124146,
+    "persistence_t": 5.697294676393177,
+    "decay_t": -0.1884659028969675,
+    "decay_estimable": true,
+    "decay_supported": false,
+    "pairs": 1576,
+    "candidates": 1186,
+    "r_squared": 0.2663320793004974,
+    "observed_year_gaps": [
+      2,
+      4,
+      6
+    ]
+  },
+  "holdout_fit_trained_before_2022": {
+    "intercept": -0.23776145240462726,
+    "persistence": 0.3406143606933847,
+    "decay_per_year": null,
+    "intercept_se": 0.26198695521615,
+    "persistence_se": 0.05649653084836,
+    "decay_se": null,
+    "persistence_t": 6.028942938241882,
+    "decay_t": null,
+    "decay_estimable": false,
+    "decay_supported": false,
+    "pairs": 580,
+    "candidates": 580,
+    "r_squared": 0.19323304732103852,
+    "observed_year_gaps": [
+      2
+    ]
+  },
+  "decay_note": "The years-elapsed interaction is not statistically supported and is therefore not applied; persistence is treated as constant over the observed 2-6 year gaps.",
+  "identity_matching": {
+    "no_prior_alabama_race": 129,
+    "exact_unique_normalized_name": 37,
+    "verified_prior_winner_crosswalk": 23
+  },
+  "coverage": {
+    "roster_rows": 189,
+    "matched_with_history": 48,
+    "carry_applied": 48,
+    "carry_limit_years": 8,
+    "extrapolated_one_cycle_beyond_observed_gap": 21,
+    "history_older_than_carry_limit": 12,
+    "mean_abs_expected_effect": 2.421066375492912
+  },
+  "inputs": [
+    {
+      "path": "data/processed/war/post2016_southern_war_v3/candidate_cycle_war.csv",
+      "sha256": "7efe49b467070c840e6c4f8803b2516e2e1d7e1f930e1201ef7ed5af9e1c3176"
+    },
+    {
+      "path": "data/processed/war/alabama_historical_war_v1/candidate_cycle_war.csv",
+      "sha256": "24819478615f6cdd4dd4a86b1c97546c9075b1287ace904d16cbdfb991d9f672"
+    },
+    {
+      "path": "data/processed/war/2026_final_candidate_roster.csv",
+      "sha256": "d9ee34c1b7b37096503d5eebbea07cfc24cc2df0f9da3ffde9ef41def710388c"
+    },
+    {
+      "path": "data/processed/war/2026_candidate_incumbency.csv",
+      "sha256": "9aae05a0e0ae8998754dc1ecbcdbae7da925f560f375f9eb32337d1c95cbc3c9"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "data/processed/forecast_calibration/alabama_forecast_candidate_history.csv",
+      "rows": 189
+    },
+    {
+      "path": "data/processed/forecast_calibration/alabama_forecast_candidate_history_pairs.csv",
+      "rows": 1576
+    },
+    {
+      "path": "data/processed/forecast_calibration/alabama_forecast_candidate_history_race_adjustments.csv",
+      "rows": 58
+    }
+  ]
+}

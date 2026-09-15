@@ -25,6 +25,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import retrain_post2016_southern_war_v2 as war_model  # noqa: E402
+import build_forecast_candidate_history as candidate_history  # noqa: E402
 
 WAR = ROOT / "data/processed/war"
 AL_WAR = WAR / "alabama_war_v1"
@@ -174,11 +175,27 @@ def forward_test(panel: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, float
     )
     baseline_prediction = test.environment_baseline_margin.to_numpy(float)
     structural_prediction = baseline_prediction + predicted_adjustment
+    # Candidate history for the holdout is estimated and applied using only
+    # evidence that existed before the tested cycle.
+    holdout_fit = candidate_history.fit_persistence(
+        candidate_history.repeat_pairs(training_before=2022)
+    )
+    holdout_limit = max(holdout_fit["observed_year_gaps"]) + 2
+    holdout_adjustments = candidate_history.holdout_race_adjustments(2022, holdout_fit, holdout_limit)
+    # The forecast panel says lower/upper; the historical export says house/senate.
+    # Joining without this map silently matches nothing and still validates.
+    holdout_adjustments["chamber"] = holdout_adjustments.chamber.map(
+        {"house": "lower", "senate": "upper"}
+    ).fillna(holdout_adjustments.chamber)
+    test = test.merge(holdout_adjustments[["chamber", "district", "candidate_war_adjustment"]],
+                      on=["chamber", "district"], how="left", validate="one_to_one")
+    if not test.candidate_war_adjustment.notna().any():
+        raise RuntimeError("Holdout candidate-history join matched no races")
+    carry = test.candidate_war_adjustment.fillna(0.0).to_numpy(float)
+    candidate_prediction = structural_prediction + carry
     actual = test.legislative_dem_margin.to_numpy(float)
     outcomes = (actual > 0).astype(int)
-    baseline_mae = float(mean_absolute_error(actual, baseline_prediction))
-    structural_mae = float(mean_absolute_error(actual, structural_prediction))
-    selected_prediction = structural_prediction
+    selected_prediction = candidate_prediction
     scale, probability_table = probability_scale(selected_prediction, outcomes, actual - selected_prediction)
     probabilities = student_t.cdf(selected_prediction / scale, df=5.0)
 
@@ -191,16 +208,18 @@ def forward_test(panel: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, float
     predictions["predicted_dem_margin"] = selected_prediction
     predictions["error"] = actual - selected_prediction
     predictions["dem_win_probability"] = probabilities
-    predictions["candidate_war_adjustment"] = 0.0
-    predictions["candidate_history_used"] = False
+    predictions["candidate_war_adjustment"] = carry
+    predictions["candidate_history_used"] = carry != 0.0
     predictions["finance_used"] = False
-    predictions["generic_candidate_assumption"] = True
+    predictions["generic_candidate_assumption"] = carry == 0.0
 
     metric_rows = []
-    for name, prediction, probability in (
-        ("generic_ballot_baseline", baseline_prediction, student_t.cdf(baseline_prediction / scale, df=5.0)),
-        ("generic_war_structural", structural_prediction, student_t.cdf(structural_prediction / scale, df=5.0)),
+    for name, prediction in (
+        ("generic_ballot_baseline", baseline_prediction),
+        ("generic_war_structural", structural_prediction),
+        ("war_structural_plus_candidate_history", candidate_prediction),
     ):
+        probability = student_t.cdf(prediction / scale, df=5.0)
         metric_rows.append({
             "specification": name, "train_cycle": "post2016_before_2022", "test_cycle": 2022,
             "train_races": train_rows, "test_races": len(test),
@@ -212,6 +231,7 @@ def forward_test(panel: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, float
             "mae_improvement_vs_generic_ballot": float(
                 mean_absolute_error(actual, baseline_prediction) - mean_absolute_error(actual, prediction)
             ),
+            "races_with_candidate_history": int((carry != 0).sum()) if "candidate" in name else 0,
         })
     return predictions, pd.DataFrame(metric_rows), scale, probability_table
 
@@ -249,17 +269,29 @@ def predict_scenarios(
     scale: float,
 ) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, list[str], str]:
     current = prospective_features()
+    adjustments = pd.read_csv(OUT / "alabama_forecast_candidate_history_race_adjustments.csv")
     component = pd.read_csv(OUT / "robust_forecast_v1_error_components.csv").iloc[0]
     national_sd = float(component.national_sd)
     rows = []
-    for scenario, shift in (
-        ("headline", 0.0),
-        ("environment_dem_favorable", national_sd),
-        ("environment_rep_favorable", -national_sd),
+    for scenario, shift, use_history in (
+        ("headline", 0.0, True),
+        ("environment_dem_favorable", national_sd, True),
+        ("environment_rep_favorable", -national_sd, True),
+        ("fundamentals_only_no_candidate_history", 0.0, False),
     ):
         scenario_frame = current.copy()
         scenario_frame["environment_baseline_margin"] += shift
         scenario_frame["environment_ticket_change"] += shift
+        scenario_frame = scenario_frame.merge(
+            adjustments[["chamber", "district", "candidate_war_adjustment", "candidate_history_used"]],
+            on=["chamber", "district"], how="left", validate="one_to_one",
+        )
+        scenario_frame["candidate_war_adjustment"] = (
+            scenario_frame.candidate_war_adjustment.fillna(0.0) if use_history else 0.0
+        )
+        scenario_frame["candidate_history_used"] = (
+            scenario_frame.candidate_history_used.fillna(False).astype(bool) & use_history
+        )
         scenario_frame = feature_engineering(scenario_frame)
         full_adjustment, design_features, _, warehouse_run_id = war_structural_prediction(
             scenario_frame
@@ -279,18 +311,23 @@ def predict_scenarios(
         scenario_frame["incumbency_adjustment"] = full_adjustment - neutral_adjustment
         scenario_frame["fundraising_adjustment"] = 0.0
         scenario_frame["generic_structural_adjustment"] = full_adjustment
-        scenario_frame["candidate_war_adjustment"] = 0.0
-        scenario_frame["candidate_history_used"] = False
         scenario_frame["finance_used"] = False
-        scenario_frame["generic_candidate_assumption"] = True
+        scenario_frame["generic_candidate_assumption"] = ~scenario_frame.candidate_history_used
         scenario_frame["predicted_dem_margin"] = (
-            scenario_frame.environment_baseline_margin + scenario_frame.generic_structural_adjustment
+            scenario_frame.environment_baseline_margin
+            + scenario_frame.generic_structural_adjustment
+            + scenario_frame.candidate_war_adjustment
         )
         scenario_frame["dem_win_probability"] = student_t.cdf(
             scenario_frame.predicted_dem_margin / scale, df=5.0
         )
-        scenario_frame["model_used"] = "generic_war_environment_adjusted"
-        scenario_frame["selected_model"] = "alabama_war_generic_candidate"
+        scenario_frame["model_used"] = (
+            "war_environment_adjusted_with_candidate_history" if use_history
+            else "generic_war_environment_adjusted"
+        )
+        scenario_frame["selected_model"] = (
+            "alabama_war_candidate_history" if use_history else "alabama_war_generic_candidate"
+        )
         scenario_frame["current_national_poll_margin"] = scenario_frame.generic_ballot_environment_margin
         scenario_frame["poll_average_as_of"] = scenario_frame.poll_average_as_of.astype(str)
         scenario_frame["incumbency_balance"] = scenario_frame.incumbency_balance.astype(int)
@@ -364,8 +401,12 @@ def main() -> None:
     for key, path in paths.items():
         frames[key].to_csv(path, index=False)
 
-    selected_specification = "generic_war_structural"
+    selected_specification = "war_structural_plus_candidate_history"
     selected = metrics[metrics.specification.eq(selected_specification)].iloc[0]
+    history_manifest = json.loads(
+        (OUT / "alabama_forecast_candidate_history_manifest.json").read_text(encoding="utf-8")
+    )
+    headline_scenario = scenarios[scenarios.scenario.eq("headline")]
     generated = datetime.now(timezone.utc).isoformat()
     build_id = hashlib.sha256(
         (
@@ -385,17 +426,22 @@ def main() -> None:
         "generated_at_utc": generated,
         "git_commit": git_commit(),
         "selected_specification": selected_specification,
-        "selection_reason": "owner_required_war_structural_expectation_with_generic_ballot_environment",
+        "selection_reason": ("owner_selected_war_expectation_with_candidate_history; the generic-ballot "
+                             "baseline still has the lower holdout MAE and that comparison is published"),
         "probability": {"family": "student_t", "df": 5.0, "scale": scale, "selection_rule": "maximum_likelihood_on_holdout_margin_residuals", "holdout_coverage_80": float(probability_table.iloc[0].coverage_80), "holdout_brier": float(probability_table.iloc[0].brier)},
         "configuration": {
             "seed": SEED, "simulation_draws": SIMULATION_DRAWS, "ridge_alpha": ALPHA,
             "design_features": design_features,
             "generic_ballot_environment": True,
-            "candidate_war_adjustment": 0.0,
-            "candidate_history_used": False,
+            "candidate_history_used": True,
+            "candidate_history_persistence": history_manifest["fit"]["persistence"],
+            "candidate_history_persistence_se": history_manifest["fit"]["persistence_se"],
+            "candidate_history_source": "southern_v3_repeat_candidates",
+            "candidate_history_carry_limit_years": history_manifest["coverage"]["carry_limit_years"],
+            "candidate_history_decay_applied": history_manifest["fit"]["decay_supported"],
             "finance_used": False,
             "ideology_used": False,
-            "generic_candidate_assumption": True,
+            "generic_candidate_assumption": False,
             "incumbency_treatment": "included_as_symmetric_race_condition_in_war_structure",
             "structural_selection_policy": "owner_selected; forward validation retained as advisory",
             "structural_applied": True,
@@ -410,6 +456,19 @@ def main() -> None:
             "selected_forward_mae": float(selected.mae),
             "baseline_forward_mae": float(baseline_metric.mae),
             "candidate_structural_forward_mae": float(structural_metric.mae),
+            "candidate_history_forward_mae": float(
+                metrics[metrics.specification.eq("war_structural_plus_candidate_history")].iloc[0].mae
+            ),
+            "candidate_history_improves_structural_on_holdout": bool(
+                metrics[metrics.specification.eq("war_structural_plus_candidate_history")].iloc[0].mae
+                < structural_metric.mae
+            ),
+            "headline_races_with_candidate_history": int(
+                (headline_scenario.candidate_war_adjustment != 0).sum()
+            ),
+            "headline_mean_abs_candidate_adjustment": float(
+                headline_scenario.candidate_war_adjustment.abs().mean()
+            ),
             "structural_improves_baseline_on_holdout": bool(
                 structural_metric.mae < baseline_metric.mae
             ),

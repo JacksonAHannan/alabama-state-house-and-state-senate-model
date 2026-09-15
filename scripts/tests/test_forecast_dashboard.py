@@ -1,4 +1,6 @@
 import json
+
+import pytest
 import re
 from pathlib import Path
 
@@ -19,8 +21,10 @@ def test_forecast_template_distinguishes_structural_and_candidate_adjustments():
     assert "includes the owner-selected structural adjustment" in explanation
     assert "symmetric incumbency effect" in explanation
     assert "advisory limitation" in explanation
-    assert "Candidate-specific WAR remains fixed at zero" in explanation
-    assert "therefore remains zero in the headline" not in explanation
+    # Candidate history is now an input, and the page must say who it applies to.
+    assert "carry a share of their own WAR forward" in explanation
+    assert "everyone else is evaluated generically" in explanation
+    assert "fixed at zero" not in explanation
 
 
 def selected_headline_mae() -> float:
@@ -87,7 +91,8 @@ def test_dashboard_explains_headline_and_scenarios():
     assert "Headline" in text
     assert "Dem scenario" in text
     assert "Rep scenario" in text
-    assert "Candidate history and fundraising are not forecast inputs" in text
+    assert "each nominee\u2019s own demonstrated WAR where they have run before" in text
+    assert "Fundraising is not a forecast input" in text
     assert "Student-t" in text
     assert "50,000 simulations" in text
     assert "Shared national, statewide, and chamber" in text
@@ -317,16 +322,15 @@ def test_candidate_finance_is_display_only_not_model_input():
     assert any(candidate["raised"] is not None for chamber in ("house", "senate") for race in data[chamber]["races"] for candidate in race["candidates"])
 
 
+@pytest.mark.xfail(strict=True, reason="candidate-history methodology awaits the single republish; "
+                                       "remove this marker when docs/ is republished")
 def test_methodology_has_no_legacy_forecast_claims():
     text = (ROOT / "docs" / "methodology.html").read_text(encoding="utf-8")
     headline_mae = selected_headline_mae()
     assert "eligible Southern races after 2016 and before 2022" in text
     assert "WAR model's incumbency term" in text
-    assert (
-        f"records {headline_mae:.2f} points of MAE"
-        in text
-    )
-    assert "candidate_history_used=false" in text
+    assert f"records {headline_mae:.2f} points of MAE" in text
+    assert "carried-forward candidate WAR" in text
     assert "Student-t" in text
     assert "50,000 correlated simulations" in text
     for legacy in (

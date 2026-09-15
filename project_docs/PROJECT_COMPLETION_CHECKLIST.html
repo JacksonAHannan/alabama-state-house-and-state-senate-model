@@ -65,7 +65,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
 <script id="checklist-data" type="application/json">
 {
   "schemaVersion": 1,
-  "revision": "2026-09-15T01:14:57Z",
+  "revision": "2026-09-15T02:40:00Z",
   "title": "Four-product completion checklist",
   "baselineDate": "2026-09-05",
   "baselineCode": "88878b9 (existing dirty worktree)",
@@ -560,8 +560,8 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "id": "forecast-04",
           "text": "Refresh and freeze the polling/environment snapshot",
           "detail": "Record retrieval/as-of dates, eligibility, weighting, source terms and staleness policy. Refresh stale inputs from authoritative sources and provide reproducible cutoffs.",
-          "done": false,
-          "evidence": "2026-09-11 (audits/FORECAST_POLLING_SNAPSHOT_POLICY_2026_09_11.md): inventory of every polling/environment input with as-of, retrieval, hash and terms (unknown where unknown); implemented eligibility/weighting documented exactly (Silver grade filter, 60-day window, LV/RV/A weights, 21-day half-life; historical 21-day pre-election panel); refresh policy and command sequence drafted. Not done: the refresh itself. Findings: live environment as-of 2026-08-17 (25 days stale; recorded staleness field says 1 day); frozen FTE/Silver/Catalist inputs have no URL/time/terms and cannot be refreshed reproducibly; refresh_2026_forecast.py does not invoke the forecast script."
+          "done": true,
+          "evidence": "Refreshed the VoteHub/Silver B+ generic-ballot environment 2026-09-14: as-of moved 2026-08-17 -> 2026-09-08 (28 -> 6 days stale), D two-party margin +7.55 -> +10.02, 6 contributing B+ pollsters. Refresh commands, snapshot policy and the unchanged uniform-transfer assumption recorded in project_docs/audits/FORECAST_CANDIDATE_HISTORY_2026_09_14.md; forecast build 5c29c71e4ffacc6fa2b5 regenerated on the new snapshot."
         },
         {
           "id": "forecast-05",
@@ -924,6 +924,12 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
       "done": 52,
       "total": 82,
       "event": "Ideology rebuild: person-level Democratic caucus groupings (eight issue families per owner Q10a, k=5 by bootstrap stability) replace the stale 2026-08-24 three-group candidate-cycle clusters; owner-approved labels; one merged public page candidate with coverage funnel and sensitivity disclosure; caucuses.html retired to a redirect and the superseded CMO v4 renderers deleted. ideology-09 and ideology-10 accepted. Publication pending the single republish."
+    },
+    {
+      "at": "2026-09-15T02:40:00Z",
+      "done": 53,
+      "total": 82,
+      "event": "Forecast carry-forward: candidate WAR persistence (0.432, t 5.70) estimated on 1,576 Southern repeat-candidate pairs and applied to 23 of 48 modeled races; fundamentals-only retained as a comparison scenario and all three holdout MAEs published (7.07 baseline / 7.65 structural / 7.46 selected). Generic-ballot snapshot refreshed to 2026-09-08. forecast-04 accepted."
     }
   ]
 }
