@@ -1,0 +1,31 @@
+{
+  "series": "polling_replay_sensitivity",
+  "generated_at_utc": "2026-10-05T21:19:43.665014+00:00",
+  "git_commit": "178d6f4841855dbc4d5d85656421290343daaf8b",
+  "forecast_build_id": "ca64e43e988cc59c12bc",
+  "rule": "Silver Bulletin generic-ballot daily average (two-party margin) on each replay date",
+  "environment_series": "data/processed/polling/silver_bulletin_generic_ballot_series.csv",
+  "environment_series_sha256": "5a3b9522cd845c664a08bc17b19a9a9413ad225b8209d9aa5d112934e9c575cc",
+  "step_days": 7,
+  "earliest": "2026-01-01",
+  "dates": 40,
+  "first": "2026-01-05",
+  "last": "2026-10-05",
+  "held_constant": [
+    "roster",
+    "incumbency",
+    "candidate_history",
+    "structural_model",
+    "error_components",
+    "seed"
+  ],
+  "limitations": [
+    "Values are the tracker's daily average as shown in its current chart, which dates polls by fieldwork, not release date, and may be revised.",
+    "The roster is the current roster for every date."
+  ],
+  "output": {
+    "path": "data/processed/forecast_calibration/alabama_war_forecast_v1_polling_replay.csv",
+    "rows": 80,
+    "sha256": "e86f336b3a26be2889d8beab97c89b47c5f003e6282f43bdc670595124c6828e"
+  }
+}

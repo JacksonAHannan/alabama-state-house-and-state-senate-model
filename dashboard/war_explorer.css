@@ -1,24 +1,178 @@
+/* Shared by the Alabama and Southern WAR explorers. Tokens and the map component
+   come from site_components.css. WAR residuals use the purple–orange scale so they
+   never read as the forecast's partisan-lean colors. */
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;color:var(--ink);background:var(--paper);font:var(--fs-base)/1.55 var(--font-ui)}
+button,input,select{font:inherit}
+button:focus-visible,input:focus-visible,select:focus-visible,[tabindex]:focus-visible,a:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+header nav{display:flex;gap:16px;padding:14px 28px;background:var(--accent)}header nav a{color:#fff}
+main{width:min(1224px,calc(100% - 56px));margin:auto;padding:36px 0 80px}
+.story-head{max-width:900px}
+.story-head h1{margin:6px 0 14px;font:700 var(--fs-display)/1.03 var(--font-ui);letter-spacing:-1.5px}
+.kicker{color:var(--accent);font:700 var(--fs-2xs)/1.3 var(--font-mono);letter-spacing:.6px;text-transform:uppercase}
+.dek{max-width:820px;font:var(--fs-md)/1.6 var(--font-read);color:var(--ink-2)}
+.byline{margin-top:12px;color:var(--muted);font:var(--fs-2xs)/1.4 var(--font-mono);letter-spacing:.5px;text-transform:uppercase}
+.lede{max-width:820px;margin:16px 0 0;font:var(--fs-base)/1.6 var(--font-ui);color:var(--ink-2)}
+.lede strong{color:var(--ink)}
+details.how-to-read{max-width:820px;margin:12px 0 26px;border:1px solid var(--rule);background:var(--surface)}
+details.how-to-read summary{cursor:pointer;padding:10px 14px;font-weight:700;color:var(--ink)}
+details.how-to-read>div{padding:0 14px 6px;font:var(--fs-sm)/1.65 var(--font-read);color:var(--ink-2)}
+.note,.section-note{margin:4px 0 0;font:var(--fs-sm)/1.5 var(--font-ui);color:var(--muted)}
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Libre+Franklin:wght@500;600;700;800&display=swap');
-:root{--ink:#101828;--muted:#667085;--line:#e4e7ec;--soft:#f8fafc;--red:#c93f49;--blue:#2878b5;--navy:#14253d}
-*{box-sizing:border-box} body{margin:0;color:var(--ink);background:#fff;font-family:Inter,Arial,sans-serif;line-height:1.55}
-header{border-bottom:1px solid #263b57;background:var(--navy);color:#fff}.mast{max-width:1280px;margin:auto;padding:20px 28px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font:800 27px/1 'Libre Franklin',sans-serif;letter-spacing:-1px}.tag{font-size:10px;text-transform:uppercase;letter-spacing:1.5px;color:#b9c5d4;margin-top:7px}.nav{display:flex;gap:24px;font:600 12px 'Libre Franklin',sans-serif}.nav a{color:#cbd5e1;text-decoration:none}.nav a[aria-current="page"],.nav a:hover{color:#fff}
-main{max-width:1280px;margin:auto;padding:44px 28px 90px}.story-head{max-width:980px}.story-head h1{font:800 clamp(38px,5vw,66px)/1 'Libre Franklin',sans-serif;letter-spacing:-2.8px;margin:0 0 20px}.dek{font:400 19px/1.5 Georgia,serif;color:#475467;max-width:850px}.byline{margin-top:22px;font:600 11px 'Libre Franklin';text-transform:uppercase;letter-spacing:1.1px;color:var(--muted)}.byline b{color:var(--ink)}
-.model-status{display:grid;grid-template-columns:1.5fr repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin:34px 0 44px}.status-card{background:#fff;padding:20px}.status-card.feature{background:var(--navy);color:#fff}.status-card b{display:block;font:800 23px 'Libre Franklin';margin-bottom:3px}.status-card span{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.7px}.status-card.feature span{color:#b9c5d4}.status-card.feature p{font:13px/1.45 Inter;margin:8px 0 0;color:#e4eaf1}
-.intro{max-width:750px;margin:58px 0 54px;font:18px/1.75 Georgia,serif}.intro p{margin:0 0 18px}.intro strong{font-family:Inter,sans-serif;font-size:16px}
-.explorer{border-top:4px solid var(--ink);padding-top:22px}.explorer-top{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:20px}.explorer h2{font:800 30px 'Libre Franklin';margin:0}.note{font-size:12px;color:var(--muted)}
-.controls{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:18px 0 20px;max-width:900px}.cycle-group{padding:9px;background:var(--soft);border:1px solid var(--line)}.cycle-group-label{display:block;margin:0 5px 7px;font:700 9px 'Libre Franklin';color:var(--muted);text-transform:uppercase;letter-spacing:1px}.cycle-buttons{display:flex;gap:5px;flex-wrap:wrap}.controls button{border:0;background:transparent;border-radius:3px;padding:9px 11px;font:700 10px 'Libre Franklin';text-transform:uppercase;letter-spacing:.45px;cursor:pointer}.controls button:hover,.controls button:focus-visible{background:#e8edf3}.controls button.active{background:var(--navy);color:#fff;box-shadow:0 1px 3px #0002}
-.dashboard{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(330px,.85fr);border:1px solid var(--line);min-height:720px}.map-panel{padding:28px 30px;border-right:1px solid var(--line);position:relative}.map-title{font:700 20px 'Libre Franklin';margin:0}.map-sub{font-size:12px;color:var(--muted);margin:5px 0 4px}.map-wrap{max-width:610px;margin:12px auto 0}.map-wrap svg{width:100%;height:auto;display:block}.district{stroke:#fff;stroke-width:1.1;vector-effect:non-scaling-stroke;cursor:pointer;transition:filter .12s,stroke-width .12s}.district:hover,.district.selected{stroke:#17191c;stroke-width:2.3;filter:brightness(.96)}
-.legend{max-width:430px;margin:10px auto 0}.gradient{height:10px;background:linear-gradient(90deg,#d34b45 0%,#f2f1ed 50%,#3d77a8 100%)}.ticks{display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-top:5px}
-.map-modes{display:flex;flex-wrap:wrap;gap:4px;margin-top:12px}.map-modes button{border:1px solid var(--line);background:#fff;padding:7px 10px;font:700 10px 'Libre Franklin';text-transform:uppercase;cursor:pointer}.map-modes button.active{background:var(--ink);color:#fff}
-.detail{padding:30px 28px;display:flex;flex-direction:column}.detail-empty{margin:auto;color:var(--muted);font:16px Georgia,serif;text-align:center;max-width:260px}.detail h3{font:800 25px 'Libre Franklin';margin:0}.party{font:700 11px 'Libre Franklin';text-transform:uppercase;letter-spacing:1px;margin:6px 0 14px}.party.D{color:var(--blue)}.party.R{color:var(--red)}.badges{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:20px}.badge{background:#eef2f6;border-radius:20px;padding:4px 8px;font:700 9px 'Libre Franklin';letter-spacing:.4px;text-transform:uppercase}.badge.warn{background:#fff1d6;color:#7a4d00}.war-number{font:800 62px/.9 'Libre Franklin';letter-spacing:-3px}.war-number.unavailable{font-size:28px;letter-spacing:-1px}.war-label{font-size:11px;text-transform:uppercase;letter-spacing:1.1px;color:var(--muted);margin:9px 0 12px}.distribution{position:relative;height:8px;background:linear-gradient(90deg,var(--red),#eee 50%,var(--blue));margin:9px 8px 38px;border-radius:5px}.distribution>i{position:absolute;top:-5px;width:3px;height:18px;background:var(--ink);box-shadow:0 0 0 2px #fff;transform:translateX(-50%)}.distribution-label{position:absolute;top:17px;left:0;right:0;display:flex;justify-content:space-between;font-size:9px;line-height:1;color:var(--muted)}.distribution-label span:first-child{transform:translateX(-2px)}.distribution-label span:last-child{transform:translateX(2px)}.stat{display:flex;justify-content:space-between;border-top:1px solid var(--line);padding:10px 0;font-size:13px}.stat b{font-family:'Libre Franklin'}.decomp{margin-top:12px;border:1px solid var(--line);padding:12px 14px}.decomp-title{font:700 10px 'Libre Franklin';text-transform:uppercase;letter-spacing:.7px;margin-bottom:5px}.explain{background:var(--soft);padding:15px 16px;margin-top:16px;font:13px/1.55 Georgia,serif}
-.racebox{border:1px solid #aeb7c2;margin:20px 0 4px;background:#fff}.racebox-head{background:var(--navy);color:#fff;text-align:center;padding:9px 12px;font:700 13px 'Libre Franklin'}.racebox-sub{text-align:center;background:#edf1f5;border-bottom:1px solid #aeb7c2;padding:5px;font:600 10px 'Libre Franklin';text-transform:uppercase;letter-spacing:.5px}.racebox table{font-size:12px}.racebox th{cursor:default;background:#f8fafc;border-bottom:1px solid #cdd3da;padding:7px 8px;font-size:9px}.racebox td{padding:8px;border-bottom:1px solid #e4e7ec}.racebox tr:last-child td{border-bottom:0}.racebox .winner-row{font-weight:700}.racebox .party-cell{width:8px;padding:0}.racebox .party-cell.D{background:var(--blue)}.racebox .party-cell.R{background:var(--red)}.racebox-total{display:grid;grid-template-columns:1fr 1fr;background:#f8fafc;border-top:1px solid #cdd3da}.racebox-total div{padding:7px 9px;font-size:10px}.racebox-total div:last-child{text-align:right}.check{color:#157347;margin-left:4px}
-.detail>.racebox{margin:0 0 22px}.racebox .group-head{text-align:center;background:#e8edf3}.racebox .candidate-col{min-width:115px}.racebox .expected{background:#f7f9fb}.racebox-comparison{background:#f8fafc;border-top:1px solid #cdd3da;padding:7px 9px}.racebox-comparison div{display:flex;justify-content:space-between;gap:12px;font-size:10px;padding:2px 0}.racebox-comparison b{text-align:right}
-.baseline-context{border-top:3px solid var(--navy);margin-top:10px;padding:10px 9px;background:#fff}.baseline-title{font:700 10px 'Libre Franklin';text-transform:uppercase;letter-spacing:.6px;margin-bottom:7px}.baseline-tabs{display:flex;flex-wrap:wrap;gap:4px}.baseline-tabs button{border:1px solid #cdd3da;background:#f8fafc;padding:5px 7px;font:600 9px Inter;cursor:pointer}.baseline-tabs button.active{background:var(--navy);border-color:var(--navy);color:#fff}.baseline-wikibox{border:1px solid #aeb7c2;margin-top:9px}.baseline-wikibox-head{background:#dce5ee;text-align:center;padding:6px 8px;font:700 11px 'Libre Franklin'}.baseline-wikibox-sub{background:#f4f6f8;text-align:center;border-top:1px solid #cdd3da;border-bottom:1px solid #cdd3da;padding:3px 6px;font-size:9px;color:var(--muted)}.baseline-wikibox table{font-size:10px}.baseline-wikibox th{padding:5px 7px;font-size:8px;background:#f8fafc}.baseline-wikibox td{padding:6px 7px}.baseline-wikibox .leader{font-weight:700}.baseline-wikibox-foot{display:grid;grid-template-columns:1fr 1fr;background:#f8fafc;border-top:1px solid #cdd3da}.baseline-wikibox-foot div{padding:5px 7px;font-size:9px}.baseline-wikibox-foot div:last-child{text-align:right}.baseline-wikibox-note{border-top:1px solid #e4e7ec;padding:5px 7px;font-size:8px;color:var(--muted)}
-.summary{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-top:0}.summary div{padding:17px 20px;border-right:1px solid var(--line)}.summary div:last-child{border:0}.summary b{display:block;font:800 21px 'Libre Franklin'}.summary span{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.8px}
-.rankings{margin-top:62px}.rankings h2{font:800 30px 'Libre Franklin';margin:0 0 8px}.filters{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.filters input,.filters select{border:1px solid var(--line);background:#fff;padding:9px 11px;font:12px Inter}.filters input{min-width:230px}.table-wrap{overflow:auto;border-top:3px solid var(--ink);margin-top:12px;max-height:650px}table{width:100%;border-collapse:collapse;font-size:13px}thead{position:sticky;top:0;background:#fff;z-index:1}th{text-align:left;font:700 11px 'Libre Franklin';text-transform:uppercase;letter-spacing:.8px;border-bottom:1px solid var(--ink);padding:13px 10px;cursor:pointer}td{border-bottom:1px solid var(--line);padding:11px 10px}td.num{text-align:right;font-variant-numeric:tabular-nums}.cand{font-weight:700}.party-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px}.party-dot.D{background:var(--blue)}.party-dot.R{background:var(--red)}
-.rankings tbody tr{cursor:pointer}.rankings tbody tr:hover,.rankings tbody tr:focus{background:#f2f6fa;outline:2px solid var(--blue);outline-offset:-2px}.tier-badge{display:inline-block;margin-left:6px;padding:3px 5px;border:1px solid #aeb7c2;background:#f8fafc;font:700 8px 'Libre Franklin';text-transform:uppercase;letter-spacing:.4px}.tier-badge.sensitivity{background:#fff4dd;border-color:#e2b85b;color:#714b00}.quality-grid,.context-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);margin-top:12px}.quality-grid div,.context-grid div{background:#fff;padding:8px}.quality-grid span,.context-grid span{display:block;color:var(--muted);font-size:8px;text-transform:uppercase;letter-spacing:.5px}.quality-grid b,.context-grid b{display:block;margin-top:3px;font-size:10px}.validation,.attribution,.downloads{margin-top:62px;border-top:4px solid var(--ink);padding-top:20px}.validation h2,.attribution h2,.downloads h2{font:800 30px 'Libre Franklin';margin:0 0 7px}.section-head{display:flex;justify-content:space-between;gap:20px;align-items:start}.section-head p,.downloads p{color:var(--muted);font-size:12px;max-width:720px}.warning-chip{padding:7px 9px;background:#fff0f0;border:1px solid #e5aaaa;color:#8b1f1f;font:700 9px 'Libre Franklin';text-transform:uppercase}.validation-grid{display:grid;grid-template-columns:1.6fr .8fr;gap:24px;margin-top:20px}.validation h3{font:700 14px 'Libre Franklin'}.table-wrap.compact{max-height:none;margin-top:8px}.compact th,.compact td{padding:8px;font-size:10px}.risk-row{background:#fff0f0}.validation details{margin-top:20px}.validation summary{cursor:pointer;font-weight:700}.benchmark{max-width:430px}.validation-note{padding:12px 14px;border-left:4px solid #b42318;background:#fff7f6;font-size:12px}.source-ledger{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:20px}.source-ledger article{background:#fff;padding:16px}.source-ledger span{font:700 8px 'Libre Franklin';text-transform:uppercase;letter-spacing:.7px;color:var(--muted)}.source-ledger h3{font:700 13px/1.3 'Libre Franklin';margin:6px 0}.source-ledger h3 a{color:var(--ink)}.source-ledger p{font-size:10px;line-height:1.5;color:var(--muted);margin:0}.attribution-note{background:var(--soft);border-left:4px solid var(--blue);padding:12px 14px;font-size:11px;line-height:1.55}.source-credit{font-size:8px;color:var(--muted);line-height:1.4;margin-top:7px}.download-links{display:flex;flex-wrap:wrap;gap:7px}.download-links a{border:1px solid var(--line);padding:9px 11px;color:var(--ink);font:700 10px 'Libre Franklin';text-decoration:none;text-transform:uppercase}.download-links a:hover{background:var(--soft)}
-.method{max-width:760px;margin:72px 0 0}.method h2{font:800 30px 'Libre Franklin';border-top:4px solid var(--ink);padding-top:18px}.method p{font:17px/1.75 Georgia,serif}.source{font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:15px;margin-top:28px}
-.tooltip{position:fixed;z-index:5;pointer-events:none;background:#15181c;color:#fff;padding:9px 11px;font-size:11px;box-shadow:0 4px 16px #0003;display:none}
-@media(max-width:780px){.nav{display:none}.brand{font-size:27px}main{padding:44px 18px}.story-head h1{letter-spacing:-2px}.dashboard{grid-template-columns:1fr}.map-panel{border-right:0;border-bottom:1px solid var(--line);padding:22px 16px}.summary{grid-template-columns:1fr 1fr}.summary div:nth-child(2){border-right:0}.summary div:nth-child(-n+2){border-bottom:1px solid var(--line)}.explorer-top{display:block}.detail{min-height:390px}.controls{grid-template-columns:1fr}.controls button{flex:1 0 29%}.validation-grid,.quality-grid,.context-grid,.source-ledger{grid-template-columns:1fr}.section-head{display:block}}
-@media(max-width:480px){.dashboard,.dashboard>*,.map-panel,.detail{min-width:0;max-width:100%}.racebox,.baseline-context,.baseline-wikibox,.decomp{min-width:0;max-width:100%}.racebox>table{width:100%;table-layout:fixed}.racebox>table th,.racebox>table td{min-width:0;white-space:normal;overflow-wrap:anywhere}.racebox>table th:first-child,.racebox>table td:first-child{width:5%}.racebox>table th:nth-child(2),.racebox>table td:nth-child(2){width:34%}.racebox .candidate-col{min-width:0}.stat span,.stat b{min-width:0;overflow-wrap:anywhere}}
+/* Explorer shell */
+.explorer{border-top:3px solid var(--accent);padding-top:20px;margin-top:26px}
+.explorer-top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:12px;margin-bottom:12px}
+.explorer h2,.rankings h2,.career h2,.section h2{margin:0;font:700 var(--fs-2xl)/1.1 var(--font-ui);letter-spacing:-.8px}
+.controls-bar{display:grid;grid-template-columns:auto minmax(280px,1fr) auto;gap:14px 22px;align-items:start;margin:6px 0 16px}
+.timeline{min-width:0}
+.timeline-row{display:flex;align-items:center;gap:10px}
+.timeline input[type=range]{flex:1;min-width:0;accent-color:var(--ink);height:28px}
+.play{appearance:none;border:1px solid var(--ink);background:var(--surface-2);width:36px;height:34px;cursor:pointer;font-size:14px;color:var(--ink)}
+.play[aria-pressed=true]{background:var(--ink);color:#fff}
+.timeline-ticks{display:flex;justify-content:space-between;margin:2px 46px 0 0;color:var(--muted);font:var(--fs-2xs)/1 var(--font-ui)}
+.timeline-ticks b{color:var(--ink)}
+.drift{margin-top:2px}
+.drift-cols{display:flex;justify-content:space-between;margin-right:46px;border-top:0;position:relative}
+.drift-cols::before{content:"";position:absolute;left:0;right:0;top:50%;border-top:1px solid var(--rule)}
+.drift-col{appearance:none;position:relative;width:46px;height:84px;margin:0 -12px;border:0;background:transparent;cursor:pointer;padding:0}
+.drift-col i{position:absolute;left:12px;right:12px;display:block}
+.drift-col span{position:absolute;left:0;right:0;text-align:center;font:var(--fs-2xs)/1 var(--font-ui);color:var(--muted)}
+.drift-col.is-on i{outline:2px solid var(--ink);outline-offset:1px}
+.drift-col.is-on span{color:var(--ink);font-weight:700}
+.drift .note{margin-top:0;font-size:var(--fs-2xs)}
+.dashboard{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(320px,1fr);background:var(--surface-2);border:1px solid var(--rule)}
+.map-panel{padding:16px 18px 14px;border-right:1px solid var(--rule);min-width:0}
+.map-head{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 14px;align-items:flex-end}
+.map-title{margin:0;font:700 var(--fs-lg)/1.2 var(--font-ui)}
+.map-sub,.vintage{margin:2px 0 0;color:var(--muted);font:var(--fs-xs)/1.4 var(--font-ui)}
+.map-tools{display:flex;flex-wrap:wrap;gap:8px 14px;margin:10px 0 6px;align-items:flex-end}
+.map-tools select{border:1px solid var(--rule);background:var(--surface-2);color:var(--ink);padding:8px 9px;font:var(--fs-sm) var(--font-ui)}
+.presets{display:flex;flex-wrap:wrap;gap:4px;margin:0 0 6px}
+.presets button{appearance:none;border:1px solid var(--rule);background:var(--surface);color:var(--ink);padding:5px 8px;font:700 var(--fs-2xs)/1 var(--font-ui);cursor:pointer}
+.presets button[aria-pressed=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.map-host .sm-svg{animation:sm-in .35s var(--ease)}
+@keyframes sm-in{from{opacity:.25}to{opacity:1}}
+.war-legend{margin-top:8px}
+.war-legend .none{display:flex;align-items:center;gap:6px;margin-top:6px;color:var(--muted);font:var(--fs-2xs)/1.3 var(--font-ui)}
+.war-legend .none i{width:14px;height:10px;background:var(--war-none);border:1px solid #0002}
+.detail{padding:18px 20px;min-width:0;position:relative}
+.detail h3{margin:0;font:700 var(--fs-xl)/1.1 var(--font-ui);letter-spacing:-.4px}
+.detail h4{margin:20px 0 8px;font:700 var(--fs-2xs)/1.2 var(--font-mono);letter-spacing:.6px;text-transform:uppercase;color:var(--accent)}
+.panel-kicker{color:var(--accent);font:700 var(--fs-2xs)/1.3 var(--font-mono);letter-spacing:.6px;text-transform:uppercase}
+.close-detail{position:absolute;top:14px;right:14px;appearance:none;border:1px solid var(--rule);background:var(--surface-2);width:36px;height:36px;font-size:20px;line-height:1;cursor:pointer;color:var(--ink)}
+.overview-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:12px 0 4px}
+.overview-stats div{border-left:3px solid var(--rule);padding-left:8px}
+.overview-stats b{display:block;font:700 var(--fs-xl)/1.1 var(--font-ui)}
+.overview-stats span{color:var(--muted);font:var(--fs-2xs)/1.3 var(--font-ui)}
+.swarm svg{display:block;width:100%;height:auto;overflow:visible}
+.swarm circle{stroke:#fff;stroke-width:1;cursor:pointer}
+.swarm circle:hover,.swarm circle.is-hover,.swarm circle:focus-visible{stroke:var(--ink);stroke-width:2.5;outline:none}
+.party{margin:4px 0 10px;font:700 var(--fs-2xs)/1.3 var(--font-ui);letter-spacing:.5px;text-transform:uppercase}
+.party.D{color:var(--dem)}.party.R{color:var(--rep)}
+.war-number{font:700 52px/1 var(--font-ui);letter-spacing:-2px}
+.war-number.unavailable{font-size:26px}
+.war-label{margin:6px 0 10px;color:var(--muted);font:var(--fs-2xs)/1.3 var(--font-ui);text-transform:uppercase;letter-spacing:.5px}
+/* Candidate-oriented percentile: neutral, because a Republican's high score is not "Democrat ran ahead". */
+.distribution{position:relative;height:8px;margin:8px 4px 30px;background:linear-gradient(90deg,var(--rule-soft),var(--ink-2))}
+.distribution>i{position:absolute;top:-5px;width:3px;height:18px;background:var(--ink);box-shadow:0 0 0 2px #fff;transform:translateX(-50%)}
+.distribution-label{position:absolute;top:15px;left:0;right:0;display:flex;justify-content:space-between;font:var(--fs-2xs)/1 var(--font-ui);color:var(--muted)}
+.waterfall svg{display:block;width:100%;height:auto}
+.stat{display:flex;justify-content:space-between;gap:10px;border-top:1px solid var(--rule-soft);padding:8px 0;font-size:var(--fs-sm)}
+.stat b{text-align:right}
+.decomp{margin-top:12px;border:1px solid var(--rule-soft);padding:10px 12px}
+.decomp-title{margin-bottom:4px;font:700 var(--fs-2xs)/1.2 var(--font-mono);letter-spacing:.5px;text-transform:uppercase;color:var(--ink-2)}
+.quality-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.quality-grid span{display:block;color:var(--muted);font-size:var(--fs-2xs)}.quality-grid b{font-size:var(--fs-sm);overflow-wrap:anywhere}
+.explain{margin-top:14px;padding:12px 14px;background:var(--surface);border:1px solid var(--rule-soft);font:var(--fs-sm)/1.55 var(--font-read);color:var(--ink-2)}
+.warning{padding:12px 14px;border-left:4px solid var(--war-r2);background:#fff6e9;font-size:var(--fs-sm)}
+
+/* Race box */
+.racebox{border:1px solid var(--rule);margin:14px 0 4px;background:var(--surface-2)}
+.racebox-head{background:var(--ink);color:#fff;text-align:center;padding:8px 12px;font:700 var(--fs-sm)/1.3 var(--font-ui)}
+.racebox-sub{text-align:center;background:var(--panel);border-bottom:1px solid var(--rule);padding:4px;font:700 var(--fs-2xs)/1.3 var(--font-ui);letter-spacing:.4px;text-transform:uppercase;color:var(--ink-2)}
+.racebox table,.baseline-wikibox table{width:100%;border-collapse:collapse;font-size:var(--fs-xs)}
+.racebox th,.baseline-wikibox th{position:static;background:var(--surface);color:var(--ink-2);border-bottom:1px solid var(--rule-soft);padding:6px 7px;font:700 var(--fs-2xs)/1.2 var(--font-ui);text-transform:uppercase;letter-spacing:.3px;cursor:default}
+.racebox td,.baseline-wikibox td{padding:7px;border-bottom:1px solid var(--rule-soft)}
+.racebox tr:last-child td{border-bottom:0}
+.racebox .winner-row{font-weight:700}
+.party-cell{width:7px;padding:0!important}.party-cell.D{background:var(--dem)}.party-cell.R{background:var(--rep)}
+.racebox .group-head{text-align:center;background:var(--panel)}
+.racebox .candidate-col{min-width:112px}
+.racebox .expected{background:var(--surface)}
+.racebox-table{max-width:100%;overflow-x:auto}
+.racebox-comparison{background:var(--surface);border-top:1px solid var(--rule-soft);padding:6px 9px}
+.racebox-comparison div{display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px 12px;font-size:var(--fs-2xs);padding:2px 0}
+.racebox-comparison b{margin-left:auto;text-align:right}
+.check{color:#157347;margin-left:4px}
+.source-credit{padding:6px 9px;color:var(--muted);font-size:var(--fs-2xs);overflow-wrap:anywhere}
+.baseline-context{border-top:3px solid var(--ink);margin-top:10px;padding:10px 9px}
+.baseline-title{margin-bottom:6px;font:700 var(--fs-2xs)/1.2 var(--font-mono);letter-spacing:.5px;text-transform:uppercase}
+.baseline-tabs{display:flex;flex-wrap:wrap;gap:4px}
+.baseline-tabs button{appearance:none;border:1px solid var(--rule);background:var(--surface);padding:5px 7px;font:700 var(--fs-2xs)/1 var(--font-ui);cursor:pointer;color:var(--ink)}
+.baseline-tabs button.active{background:var(--ink);border-color:var(--ink);color:#fff}
+.baseline-wikibox{border:1px solid var(--rule);margin-top:8px}
+.baseline-wikibox-head{background:var(--panel);text-align:center;padding:6px 8px;font:700 var(--fs-xs)/1.3 var(--font-ui)}
+.baseline-wikibox-sub{background:var(--surface);text-align:center;border-top:1px solid var(--rule-soft);border-bottom:1px solid var(--rule-soft);padding:3px 6px;font-size:var(--fs-2xs);color:var(--muted)}
+.baseline-wikibox .leader{font-weight:700}
+.baseline-wikibox-foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;background:var(--surface);border-top:1px solid var(--rule-soft);padding:5px 7px;font-size:var(--fs-2xs)}
+.baseline-wikibox-note{padding:5px 7px;font-size:var(--fs-2xs);color:var(--muted)}
+
+/* Tables */
+.rankings,.career,.section{margin-top:48px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.filters input,.filters select{border:1px solid var(--rule);background:var(--surface-2);color:var(--ink);padding:8px 10px;font-size:var(--fs-sm)}
+.filters input{flex:1 1 240px}
+.table-wrap{overflow:auto;border:1px solid var(--rule);background:var(--surface-2);margin-top:10px;max-height:620px}
+table{width:100%;border-collapse:collapse;font-size:var(--fs-sm)}
+thead{position:sticky;top:0;z-index:1}
+th{background:var(--ink);color:#fff;text-align:left;font:700 var(--fs-2xs)/1.2 var(--font-ui);letter-spacing:.3px;text-transform:uppercase;padding:9px 10px;white-space:nowrap}
+th[data-sort]{cursor:pointer}
+td{border-top:1px solid var(--rule-soft);padding:7px 10px;vertical-align:middle}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+tbody tr[tabindex]{cursor:pointer}tbody tr:hover,tbody tr.is-hover{background:var(--panel)}
+.cand{font-weight:700}
+.party-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px}.party-dot.D{background:var(--dem)}.party-dot.R{background:var(--rep)}
+.war-cell{display:grid;grid-template-columns:52px 90px;gap:8px;align-items:center;justify-content:end}
+.war-cell svg{display:block;width:90px;height:12px}
+.row-link{appearance:none;border:0;background:transparent;color:inherit;font:inherit;font-weight:700;text-decoration:underline;cursor:pointer;padding:0}
+.table-scroll-hint{display:none;color:var(--muted);font-size:var(--fs-2xs);margin:4px 0}
+
+/* Career and context sections */
+.career-chart{background:var(--surface-2);border:1px solid var(--rule);padding:14px 16px;margin-top:12px}
+.career-chart{overflow-x:auto}
+.career-chart svg{display:block;width:100%;min-width:620px;max-width:760px;height:auto}
+.career-chart text{font-family:var(--font-ui)}
+.validation-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:12px}
+.validation-grid>div{background:var(--surface-2);border:1px solid var(--rule);padding:12px 14px}
+.validation-grid h3{margin:0 0 6px;font-size:var(--fs-md)}
+.validation-note{margin-top:12px;padding:10px 14px;border-left:4px solid var(--war-r2);background:#fff6e9;font-size:var(--fs-sm)}
+.warning-chip{display:inline-block;padding:3px 8px;border:1px solid var(--war-r2);color:var(--war-r3);font:700 var(--fs-2xs)/1.3 var(--font-ui);text-transform:uppercase}
+.section-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.download-links{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.download-links a{border:1px solid var(--rule);background:var(--surface-2);padding:6px 9px;text-decoration:none;color:var(--ink);font:700 var(--fs-2xs)/1 var(--font-ui)}
+.method p{max-width:820px;font:var(--fs-base)/1.65 var(--font-read);color:var(--ink-2)}
+.method a,.section a{color:var(--ink)}
+.source{color:var(--muted);font-size:var(--fs-xs)}
+
+/* Southern overview: one small map per state for the chosen election year */
+.state-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin-top:12px}
+.state-card{appearance:none;display:flex;flex-direction:column;gap:4px;border:1px solid var(--rule);background:var(--surface-2);padding:8px;cursor:pointer;text-align:left;color:var(--ink)}
+.state-card:hover,.state-card[aria-pressed=true]{border-color:var(--ink);box-shadow:inset 0 3px 0 var(--ink)}
+.state-card b{font-size:var(--fs-sm)}.state-card small{color:var(--muted);font-size:var(--fs-2xs)}
+.state-card svg{display:block;width:100%;height:110px}
+.state-card .empty{display:grid;place-items:center;height:110px;color:var(--muted);font-size:var(--fs-2xs);text-align:center}
+.picker-row{display:grid;grid-template-columns:repeat(3,minmax(0,220px));gap:10px;margin:12px 0}
+.picker-row label{display:grid;gap:4px;font:700 var(--fs-2xs)/1.2 var(--font-mono);letter-spacing:.5px;text-transform:uppercase;color:var(--muted)}
+.picker-row select{min-height:40px;border:1px solid var(--rule);background:var(--surface-2);color:var(--ink);padding:7px 9px;font:var(--fs-sm) var(--font-ui);text-transform:none;letter-spacing:0}
+
+@media(max-width:1000px){.dashboard{grid-template-columns:1fr}.map-panel{border-right:0;border-bottom:1px solid var(--rule)}.controls-bar{grid-template-columns:1fr}}
+@media(max-width:760px){
+  main{width:calc(100% - 32px);padding-top:26px}
+  .validation-grid,.quality-grid{grid-template-columns:1fr}
+  .picker-row{grid-template-columns:1fr}
+  .overview-stats b{font-size:var(--fs-lg)}
+  .table-scroll-hint{display:block}
+  .detail.is-open{position:fixed;left:0;right:0;bottom:0;z-index:40;max-height:78vh;overflow:auto;border-top:3px solid var(--ink);box-shadow:0 -12px 30px #0003;background:var(--surface-2)}
+  .war-number{font-size:40px}
+}
+@media(prefers-reduced-motion:reduce){.map-host .sm-svg{animation:none}html{scroll-behavior:auto}}

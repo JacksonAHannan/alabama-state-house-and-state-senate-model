@@ -102,6 +102,32 @@ Retain before/after labels and physical source locators in repair QA. Correcting
 labels changes dynamic source views; dependent materializations remain stale
 until separately reconciled. It does not authorize regenerating analyses.
 
+An inferred historical party label (a ballot-position or export-code inference
+recorded in `party_method`) may be relabelled on existing source rows only
+through an approved adjudication that has a stable ID, evidence locators and a
+rationale, applied at the exact source-file/column grain after a complete
+before-image match. The evidence is a registered official summary that prints
+the party label. Where the official label conflicts with other reviewed
+evidence (a contemporaneous roster, adjacent-cycle official labels, Klarner),
+the owner decides and the record says so. Relabelled rows take
+`party_method = adjudicated_official_summary` when the new label is the
+official summary's, and `adjudicated_reviewed_evidence` otherwise, including a
+party left unresolved for an unexplained source column. When the repository
+holds no official summary for the office, an owner-approved adjudication on
+reviewed evidence may relabel its rows as `adjudicated_reviewed_evidence`; the
+four 1994 statewide and federal relabels rest on an export-code convention
+checked against the official returns for other 1994 offices. Votes, rowids, ballot
+codes, candidate labels and ingestion run IDs stay unchanged, and before-images
+and adjudication IDs are kept in repair QA. A later serving roster is not
+evidence of a ballot party, and a parser change does not relabel stored rows.
+Canonical candidate IDs embed the party, so a relabel lists every re-keyed and
+retired ID in a supersession record. A manual record that still references a
+re-keyed ID blocks application until it is mapped. Dependent materializations
+remain stale until rebuilt. The 1994 Alabama instance is
+`scripts/repair_alabama_1994_party_labels.py` with
+`data/manual/elections/alabama_1994_party_label_adjudications.csv` and
+`alabama_1994_candidate_id_supersession.csv`.
+
 After source-supported office correction, physical provenance may be filled
 only through a unique match including the now-correct office and district and
 exact parity of all substantive source fields. The entire source cohort must

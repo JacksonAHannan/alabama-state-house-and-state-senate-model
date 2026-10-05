@@ -376,3 +376,54 @@ review, not a polling refresh.
 - `REPOSITORY_LAYOUT.md` records that `nate_silver_pollster_ratings.csv`
   originates from a loose file named `data-GiFps.csv`; that is the only
   in-repo provenance note and it names no URL or date.
+
+## 9. Owner decision 2026-10-05: Silver Bulletin average as the national environment
+
+- **Decision.** The owner directed that the 2026 forecast use the Silver Bulletin generic
+  congressional ballot tracker. A Split Ticket average was asked for first, but Split Ticket
+  publishes no 2026 generic-ballot number or series that could be located. It replaces the
+  VoteHub/Silver-grade B-or-better average of section 3.1 as the current environment. The
+  older averages stay in the pipeline only as fallbacks.
+- **Source.** The tracker's public daily-average chart on the Silver Bulletin generic-ballot
+  page. The chart is Datawrapper `rfiFi`; it gives daily `dem`/`rep` shares from 2025-01-17.
+  - `scripts/build_silver_bulletin_generic_ballot_environment.py --fetch` stores each
+    download as a new dated file under `data/raw/polling/silver_bulletin_generic_ballot/`.
+  - Each download is recorded in that folder's `manifest.csv` with page, chart and dataset
+    URLs, retrieval time, sha256, row count, date range and terms. A snapshot is never
+    overwritten.
+  - The tracker's poll-level spreadsheet is a subscriber download and is not used.
+  - The derived daily series `data/processed/polling/silver_bulletin_generic_ballot_series.csv` is
+    git-ignored for the same reason as its raw snapshot; the adapter reproduces it locally from the
+    registered snapshot. The current value and the weekly replay points shown on the forecast page
+    are published with attribution.
+  - Terms were not reviewed. `data/raw` is git-ignored, so the snapshot is not
+    redistributed.
+- **Conversion.** The environment is the two-party margin 100·(D−R)/(D+R), consistent with
+  the 2024 two-party anchor (R+1.48). On 2026-10-05 the tracker read D 50.06, R 41.20, a
+  raw margin of D+8.86 (the page shows D+8.9). The two-party margin is D+9.71.
+- **What the tracker does.** The page describes weighting by pollster rating, sample size,
+  recency and publication frequency, with a house-effects adjustment and a preference for
+  likely-voter versions. It also shows a separate likely-voter-adjusted figure (D+9.6 on
+  2026-10-05); that figure is not used.
+- **Baseline.** `build_2026_poll_adjusted_baseline.py` prefers
+  `silver_bulletin_generic_ballot_environment.csv` and writes `environment_source` on every
+  row. The column `votehub_2026_dem_margin` keeps its historical name and now holds the
+  Silver Bulletin margin.
+- **Rerun.** The forecast was rerun as build `ca64e43e988cc59c12bc` with environment D+9.71
+  as of 2026-10-05; the previous environment was D+10.02 as of 2026-09-08 on the
+  VoteHub/Silver-grade average. The toplines are unchanged: House median 29 (80% range
+  29–30), Senate 9.
+- **Polling replay.** The replay now takes the tracker's own daily average at each weekly
+  date, giving 40 dates from 2026-01-05 to 2026-10-05.
+- **VoteHub refresh, same day.** A VoteHub refresh ran the same day before the decision. Its
+  catalog snapshot is preserved under `data/raw/polling/votehub_catalog_snapshots/`, together
+  with the 2026-09-14 catalog it replaced.
+  - That refresh found only 10 VoteHub generic-ballot polls ending after 2026-07-16.
+  - None of the three newest polls passed the B-or-better gate.
+- **Known inconsistencies.**
+  - Historical validation still uses the 2018/2022 environments in
+    `historical_silver_a_generic_ballot_cycles.csv`, a Silver-lineage average.
+  - The shared `ALABAMA_WAR_FORECAST_FIELD_CONTRACT.md` still says "quality-gated national
+    generic-ballot". It was left unedited because it is a hash-declared input of the
+    published `alabama_war_v1` run. The wording should be updated when that run is next
+    rebuilt.

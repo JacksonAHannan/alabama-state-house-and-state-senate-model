@@ -536,7 +536,7 @@ source_row_id,target_match_norm,match_method,match_score,score_margin
 535,,unmatched,80.0,26.666666666666664
 536,HEATH,exact,100.0,100.0
 537,,unmatched,63.33333333333332,16.69696969696969
-538,LIBERTYVILLE,exact,100.0,100.0
+538,,unmatched,45.0,1.5217391304347814
 539,LOANGO,exact,100.0,100.0
 540,,unmatched,95.0,0.0
 541,,unmatched,85.5,32.88461538461539
@@ -544,7 +544,7 @@ source_row_id,target_match_norm,match_method,match_score,score_margin
 543,OAKEY RIDGE,exact,100.0,100.0
 544,,unmatched,90.0,0.0
 545,,unmatched,54.0,2.5714285714285765
-546,,unmatched,95.0,0.0
+546,RED LEVEL 2,fuzzy,95.0,39.44444444444444
 547,RIVER FALLS,exact,100.0,100.0
 548,,unmatched,65.45454545454547,13.28063241106721
 549,ROSE HILL,exact,100.0,100.0

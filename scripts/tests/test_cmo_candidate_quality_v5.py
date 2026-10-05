@@ -14,7 +14,7 @@ def load(name):
 
 def test_direct_cmo_reconciles_and_is_candidate_oriented():
     races, candidates = load("cmo_v5_races.csv"), load("cmo_v5_candidates.csv")
-    assert len(races) == 510
+    assert len(races) == 504  # 1994 party-label repair: 72 -> 66 1994 D-vs-R races
     # Every WAR-eligible race contributes exactly one oriented pair.
     assert len(candidates) == 2 * len(races)
     np.testing.assert_allclose(

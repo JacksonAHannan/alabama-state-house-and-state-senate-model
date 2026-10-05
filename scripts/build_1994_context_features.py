@@ -22,6 +22,7 @@ SF3=ROOT/"data"/"raw"/"census"/"1990_sf3_alabama"/"all"
 TRACTS=ROOT/"data"/"raw"/"census"/"1990_sf3_alabama"/"tracts"/"tr01_d90.shp"
 PRES_RAW=ROOT/"data"/"raw"/"alabama_elections_and_geography"/"92g-prec_0"/"92g-prec"
 SHOR=ROOT/"data"/"raw"/"ideology"/"shor_mccarty_individual_legislators_1993_2018.tsv"
+INCUMBENCY_ADJUDICATIONS=ROOT/"data"/"manual"/"elections"/"alabama_1994_incumbency_adjudications.csv"
 SCHEMA=Path(__file__).with_name("warehouse_1994_context_schema.sql")
 KNOWN_1992_PRESIDENTIAL_GAPS={"MONTGOMERY","TALLADEGA","WILCOX"}
 COUNTY_1994_ALIASES={"COVINGTN":"COVINGTON","JEFFERSN":"JEFFERSON","LADRDALE":"LAUDERDALE",
@@ -143,8 +144,29 @@ def presidential_precincts() -> pd.DataFrame:
     return result
 
 
+def printed_precinct_names() -> pd.DataFrame:
+    """The printed 1994 polling-place label for each county/export-code precinct.
+
+    Since the 2026-09 re-parse, 1994 precinct keys are export codes, while the
+    1992 presidential workbooks carry only polling-place names. Matching needs
+    the printed name. A code printed under more than one name keeps its code,
+    so it falls back to the county distribution instead of guessing.
+    """
+    with closing(sqlite3.connect(f"file:{(ELECT/'alabama_elections.sqlite').as_posix()}?mode=ro",uri=True)) as connection:
+        names=pd.read_sql_query("""SELECT DISTINCT county_key,precinct_key,precinct FROM vote_observations
+          WHERE source='alabama_sos' AND year=? AND office IN ('State House','State Senate')
+          AND precinct IS NOT NULL AND TRIM(precinct)<>''""",connection,params=(CYCLE,))
+    names["precinct_key"]=names.precinct_key.astype(str)
+    unique=names.groupby(["county_key","precinct_key"]).precinct.transform("nunique").eq(1)
+    return names[unique].rename(columns={"precinct":"printed_name"})
+
+
 def presidential_features(precincts: pd.DataFrame) -> tuple[pd.DataFrame,pd.DataFrame]:
     raw_weights=pd.read_csv(ELECT/"1994_precinct_district_ballot_weights.csv")
+    raw_weights["precinct_key"]=raw_weights.precinct_key.astype(str)
+    raw_weights=raw_weights.merge(printed_precinct_names(),on=["county_key","precinct_key"],how="left",validate="many_to_one")
+    raw_weights["precinct_key"]=raw_weights.printed_name.fillna(raw_weights.precinct_key).str.upper()
+    raw_weights=raw_weights.drop(columns="printed_name")
     raw_weights["county_key"]=raw_weights.county_key.replace(COUNTY_1994_ALIASES)
     # Several 1994 counties append the senate ballot split (for example
     # ``SD3-2``) to the polling-place label. It identifies the district slice,
@@ -175,34 +197,134 @@ def candidates() -> pd.DataFrame:
           WHERE year=1994 AND canonical_party IN ('D','R')""",connection)
 
 
-def incumbency(candidate: pd.DataFrame) -> pd.DataFrame:
-    prior=pd.read_csv(ELECT/"historical_candidate_results.csv")
+def _surname(names: pd.Series) -> pd.Series:
+    return names.map(canonical_person).str.split().str[-1]
+
+
+def require_1994_party_repair(connection: sqlite3.Connection) -> None:
+    """Refuse to build 1994 context from the pre-repair (ballot-order) party labels.
+
+    The party-label repair leaves correctly inferred 1994 rows on
+    ``ballot_order_with_export_code``, so that method alone cannot signal the
+    state. The check requires the validated repair run and its approved
+    adjudications, no surviving superseded canonical ID, no second-position
+    legislative code still read as Democratic, and no undistricted House row.
+    """
+    from repair_alabama_1994_party_labels import TARGET, adjudication_ids, supersession_rows
+    run=connection.execute("SELECT build_run_id FROM warehouse_build_run WHERE target=? AND status='validated'",
+                           (TARGET,)).fetchone()
+    if run is None:
+        raise ValueError("1994 party-label repair not applied: no validated alabama_1994_party_label_repair run")
+    present={r[0] for r in connection.execute(
+        "SELECT adjudication_id FROM warehouse_manual_adjudication WHERE adjudication_id LIKE 'ADJ-1994-AL-%' AND review_status='approved'")}
+    missing=sorted(set(adjudication_ids())-present)
+    if missing:
+        raise ValueError(f"1994 party-label adjudications missing from the warehouse: {missing[:5]}")
+    superseded=[r["old_canonical_candidate_id"] for r in supersession_rows()
+                if r["old_canonical_candidate_id"] and r["new_canonical_candidate_id"]!=r["old_canonical_candidate_id"]]
+    stale=connection.execute(f"SELECT canonical_candidate_id FROM canonical_candidates WHERE canonical_candidate_id IN "
+                             f"({','.join('?' for _ in superseded)})",superseded).fetchall()
+    if stale:
+        raise ValueError(f"Superseded 1994 canonical IDs are still present: {[r[0] for r in stale][:5]}")
+    second_position_d=connection.execute("""SELECT COUNT(*) FROM vote_observations WHERE year=? AND source='alabama_sos'
+        AND office IN ('State House','State Senate') AND ballot_code LIKE 'B%' AND party='D'""",(CYCLE,)).fetchone()[0]
+    undistricted=connection.execute("""SELECT COUNT(*) FROM vote_observations WHERE year=? AND source='alabama_sos'
+        AND office IN ('State House','State Senate') AND district IS NULL""",(CYCLE,)).fetchone()[0]
+    if second_position_d or undistricted:
+        raise ValueError(f"1994 legislative source rows are in the pre-repair state: {second_position_d} second-position "
+                         f"rows labelled D, {undistricted} rows without a district")
+
+
+def incumbency_adjudications(path: Path = INCUMBENCY_ADJUDICATIONS) -> pd.DataFrame:
+    """Owner-approved overrides of individual 1994 incumbency matches."""
+    records=pd.read_csv(path,dtype=str).fillna("")
+    required={"adjudication_id","canonical_candidate_id","matcher_prior_candidate","incumbent","reviewer_status"}
+    if required-set(records.columns):
+        raise ValueError(f"Incumbency adjudications lack columns: {sorted(required-set(records.columns))}")
+    if records.adjudication_id.duplicated().any() or records.canonical_candidate_id.duplicated().any():
+        raise ValueError("Incumbency adjudications are not unique")
+    if not (records.reviewer_status.str.startswith("owner-approved").all() and records.incumbent.isin(["0","1"]).all()):
+        raise ValueError("Incumbency adjudications must be owner-approved with incumbent 0 or 1")
+    return records
+
+
+def incumbency(candidate: pd.DataFrame, prior: pd.DataFrame | None = None,
+               adjudications: pd.DataFrame | None = None) -> pd.DataFrame:
+    """Match 1994 candidates to unique 1990 winners; party is the canonical 1994 label.
+
+    The canonical 1994 party is the adjudicated general-election ballot label
+    (ADJ-1994-AL-*, repair_alabama_1994_party_labels.py). It is not replaced by
+    a later serving roster: Shor-McCarty's 1996 roster records post-election
+    party switches (1994 House 89 Flowers ran as a Democrat), so it is only a
+    review diagnostic (shor_1996_party_disagreements).
+
+    The surname rule is unchanged. An owner-approved record in
+    ``alabama_1994_incumbency_adjudications.csv`` overrides one match only
+    when the matcher still pairs that candidate with the recorded 1990 winner;
+    otherwise the record is stale and the build stops.
+    """
+    result=_matched_incumbency(candidate,prior)
+    if adjudications is None:
+        adjudications=incumbency_adjudications()
+    for record in adjudications.itertuples(index=False):
+        hit=result.canonical_candidate_id.eq(record.canonical_candidate_id)
+        if not hit.any():
+            continue
+        matched=result.loc[hit,"prior_candidate_name"].iloc[0]
+        if (matched or "")!=record.matcher_prior_candidate:
+            raise ValueError(f"Stale incumbency adjudication {record.adjudication_id}: the matcher now finds {matched!r}")
+        result.loc[hit,"incumbent"]=int(record.incumbent)
+        if int(record.incumbent)==0:
+            result.loc[hit,["prior_candidate_name","prior_party"]]=None
+        result.loc[hit,"match_method"]=result.loc[hit,"match_method"]+"+owner_adjudication:"+record.adjudication_id
+        result.loc[hit,"match_confidence"]="adjudicated"
+        result.loc[hit,"review_status"]="owner_adjudicated"
+    return result
+
+
+def _matched_incumbency(candidate: pd.DataFrame, prior: pd.DataFrame | None = None) -> pd.DataFrame:
+    if prior is None:
+        prior=pd.read_csv(ELECT/"historical_candidate_results.csv")
     prior=prior[prior.year.eq(1990)&prior.winner.eq(1)].copy()
-    candidate=candidate.copy();candidate["surname"]=candidate.candidate.map(canonical_person).str.split().str[-1]
+    candidate=candidate.copy();candidate["surname"]=_surname(candidate.candidate)
     prior["surname"]=prior.normalized_name.str.split().str[-1]
-    shor=pd.read_csv(SHOR,sep="\t");shor=shor[shor.st.eq("AL")].copy()
-    shor["surname"]=shor.name.astype(str).str.split(",").str[0].map(canonical_person).str.split().str[-1]
     rows=[]
     for row in candidate.itertuples(index=False):
         pool=prior[(prior.chamber.eq(row.chamber))&(prior.surname.eq(row.surname))]
         current_same=candidate[(candidate.chamber.eq(row.chamber))&(candidate.surname.eq(row.surname))]
         accepted=len(pool)==1 and len(current_same)==1
         hit=pool.iloc[0] if accepted else None
-        current_party=row.party;party_method="1994_ballot_order"
-        # A lone 1994 candidate was mechanically assigned the first ballot
-        # position by the source parser. For an unopposed winner, validate the
-        # actual current party against Shor-McCarty's 1996 serving roster.
-        race_size=len(candidate[(candidate.chamber.eq(row.chamber))&(candidate.district.eq(row.district))])
-        chamber_flag="house1996" if row.chamber=="house" else "senate1996"
-        shor_pool=shor[shor[chamber_flag].notna()&shor.surname.eq(row.surname)]
-        if race_size==1 and len(shor_pool)==1:
-            current_party=shor_pool.iloc[0].party;party_method="shor_mccarty_1996_serving_roster"
         rows.append({"canonical_candidate_id":row.canonical_candidate_id,"cycle":CYCLE,"chamber":row.chamber,
-          "district":row.district,"party":current_party,"candidate":row.candidate,"incumbent":int(accepted),
+          "district":row.district,"party":row.party,"candidate":row.candidate,"incumbent":int(accepted),
           "prior_candidate_name":hit.candidate_name if accepted else None,"prior_party":hit.party if accepted else None,
-          "match_method":(("unique_chamber_surname_to_1990_winner" if accepted else "no_unique_prior_winner_match")+"+"+party_method),
+          "match_method":(("unique_chamber_surname_to_1990_winner" if accepted else "no_unique_prior_winner_match")
+                          +"+canonical_1994_ballot_label"),
           "match_confidence":"medium" if accepted else "low","review_status":"supported" if accepted else "unknown"})
     return pd.DataFrame(rows)
+
+
+def shor_1996_party_disagreements(candidate: pd.DataFrame, shor: pd.DataFrame | None = None) -> pd.DataFrame:
+    """Return lone 1994 candidates whose unique 1996 serving-roster party differs.
+
+    A review diagnostic only: a difference is evidence of a possible
+    post-election switch or a label error to adjudicate, never an override.
+    """
+    if shor is None:
+        shor=pd.read_csv(SHOR,sep="\t")
+    shor=shor[shor.st.eq("AL")].copy()
+    shor["surname"]=_surname(shor.name.astype(str).str.split(",").str[0])
+    candidate=candidate.copy();candidate["surname"]=_surname(candidate.candidate)
+    race_size=candidate.groupby(["chamber","district"]).canonical_candidate_id.transform("size")
+    rows=[]
+    for row in candidate[race_size.eq(1)].itertuples(index=False):
+        flag="house1996" if row.chamber=="house" else "senate1996"
+        pool=shor[shor[flag].notna()&shor.surname.eq(row.surname)]
+        if len(pool)==1 and pool.iloc[0].party!=row.party:
+            rows.append({"canonical_candidate_id":row.canonical_candidate_id,"chamber":row.chamber,
+                         "district":row.district,"candidate":row.candidate,"party_1994":row.party,
+                         "shor_1996_party":pool.iloc[0].party})
+    return pd.DataFrame(rows,columns=["canonical_candidate_id","chamber","district","candidate",
+                                      "party_1994","shor_1996_party"])
 
 
 def finance_coverage(candidate: pd.DataFrame) -> pd.DataFrame:
@@ -230,9 +352,15 @@ def combined_context(demographics: pd.DataFrame,president: pd.DataFrame,inc: pd.
 
 
 def main() -> None:
+    with closing(sqlite3.connect(f"file:{(ELECT/'alabama_elections.sqlite').as_posix()}?mode=ro",uri=True)) as connection:
+        require_1994_party_repair(connection)
     demographics=district_demographics();precincts=presidential_precincts()
     president,matches=presidential_features(precincts);candidate=candidates()
-    inc=incumbency(candidate);finance=finance_coverage(candidate)
+    adjudications=incumbency_adjudications()
+    unmatched=sorted(set(adjudications.canonical_candidate_id)-set(candidate.canonical_candidate_id))
+    if unmatched:
+        raise ValueError(f"Incumbency adjudications name absent 1994 candidates: {unmatched}")
+    inc=incumbency(candidate,adjudications=adjudications);finance=finance_coverage(candidate)
     context=combined_context(demographics,president,inc,finance)
     DEM.mkdir(parents=True,exist_ok=True);PRES.mkdir(parents=True,exist_ok=True)
     demographics.to_csv(DEM/"1994_district_demographics.csv",index=False)
@@ -275,6 +403,9 @@ def main() -> None:
     print(context.groupby("chamber").agg(districts=("district","size"),incumbents=("dem_incumbent","sum"),
       pres_complete=("pres_1992_source_complete","sum"),finance_complete=("finance_complete","sum")).to_string())
     print("Presidential precinct matching:",matches.match_method.value_counts().to_dict())
+    disagreements=shor_1996_party_disagreements(candidate)
+    print(f"Lone 1994 candidates whose 1996 serving-roster party differs (review only, not applied): {len(disagreements)}")
+    if not disagreements.empty:print(disagreements.to_string(index=False))
 
 
 if __name__=="__main__":main()

@@ -7,11 +7,11 @@ legislator who beat partisan gravity for five straight cycles shows one large
 WAR and several small ones. Career cumulative WAR is the quantity that expresses
 "defied gravity for longer than expected".
 
-Identity needs care: 2022 canonical rows carry source stubs
-(`ALPERSON-GSL003DTHO`) that do not link to earlier cycles, so a career keyed on
-`person_id` alone would silently split. Stubs are folded into an earlier person
-only when the normalized name matches exactly one of them; the method used is
-recorded per person and never guessed.
+Identity is resolved by `alabama_candidate_identity`: the 2022 canonical rows
+carry source stubs that do not link to earlier cycles, so a career keyed on
+`person_id` alone would silently split. Names come from verified adjudications
+and a stub is folded into an earlier person only on an exact unique name; the
+method used is recorded per person and never guessed.
 """
 from __future__ import annotations
 
@@ -25,13 +25,16 @@ from pathlib import Path
 
 import pandas as pd
 
+try:
+    from scripts import alabama_candidate_identity as identity
+except ImportError:  # pragma: no cover - direct script execution
+    import alabama_candidate_identity as identity
+
 ROOT = Path(__file__).resolve().parents[1]
 HISTORICAL = ROOT / "data" / "processed" / "war" / "alabama_historical_war_v1"
 SOURCE = HISTORICAL / "candidate_cycle_war.csv"
 SOURCE_MANIFEST = HISTORICAL / "manifest.json"
 OUT = ROOT / "data" / "processed" / "war" / "alabama_career_war_v1"
-STUB = re.compile(r"^ALPERSON-[A-Z]{3}\d{3}[A-Z]{4,}$")
-SUFFIXES = re.compile(r"\b(JR|SR|II|III|IV|DR|MR|MRS|MS)\b")
 
 
 def sha256(path: Path) -> str:
@@ -46,36 +49,14 @@ def git_commit() -> str:
         return "unknown"
 
 
-def normalize(name: str) -> str:
-    text = unicodedata.normalize("NFKD", str(name)).encode("ascii", "ignore").decode().upper()
-    text = re.sub(r"[^A-Z ]", " ", text)
-    return " ".join(SUFFIXES.sub(" ", text).split())
-
-
-def resolve_identity(frame: pd.DataFrame) -> pd.DataFrame:
-    """Fold stub identifiers into an earlier person only on an exact unique name."""
-    frame = frame.copy()
-    frame["match_name"] = frame.canonical_name.map(normalize)
-    stable = frame[~frame.person_id.astype(str).str.fullmatch(STUB, na=False)]
-    unique_names = (stable.groupby("match_name").person_id.nunique()
-                    .loc[lambda s: s.eq(1)].index)
-    lookup = (stable[stable.match_name.isin(unique_names)]
-              .drop_duplicates("match_name").set_index("match_name").person_id)
-    is_stub = frame.person_id.astype(str).str.fullmatch(STUB, na=False)
-    folded = frame.match_name.map(lookup)
-    frame["career_person_id"] = frame.person_id.where(~is_stub | folded.isna(), folded)
-    frame["career_identity_method"] = "canonical_person_id"
-    frame.loc[is_stub & folded.notna(), "career_identity_method"] = "stub_folded_by_exact_unique_name"
-    frame.loc[is_stub & folded.isna(), "career_identity_method"] = "unresolved_source_stub"
-    return frame
 
 
 def build() -> tuple[pd.DataFrame, pd.DataFrame]:
     candidates = pd.read_csv(SOURCE, low_memory=False)
     scored = candidates[candidates.candidate_cycle_war.notna()].copy()
-    resolved = resolve_identity(scored)
+    resolved = identity.career_identity(identity.resolve_names(scored))
     career = (resolved.sort_values("cycle").groupby("career_person_id")
-              .agg(display_name=("canonical_name", "last"),
+              .agg(display_name=("resolved_name", "last"),
                    canonical_party=("canonical_party", "last"),
                    cycles_scored=("cycle", "size"),
                    first_cycle=("cycle", "min"), last_cycle=("cycle", "max"),
@@ -84,7 +65,8 @@ def build() -> tuple[pd.DataFrame, pd.DataFrame]:
                    mean_cycle_war=("candidate_cycle_war", "mean"),
                    best_cycle_war=("candidate_cycle_war", "max"),
                    worst_cycle_war=("candidate_cycle_war", "min"),
-                   identity_methods=("career_identity_method", lambda s: "/".join(sorted(set(s)))))
+                   identity_methods=("career_identity_method", lambda s: "/".join(sorted(set(s)))),
+                   name_sources=("name_source", lambda s: "/".join(sorted(set(s)))))
               .reset_index())
     career["career_span_years"] = career.last_cycle - career.first_cycle
     career = career.sort_values("career_war", ascending=False).reset_index(drop=True)

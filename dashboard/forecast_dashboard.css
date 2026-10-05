@@ -1,40 +1,191 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Libre+Franklin:wght@500;600;700;800&display=swap');
-:root{--ink:#101828;--muted:#667085;--line:#e4e7ec;--soft:#f8fafc;--red:#c93f49;--red-light:#e8a19d;--blue:#2878b5;--blue-light:#9bbcd4;--navy:#14253d;--white:#fff;--focus:#111827}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;overflow-x:hidden;color:var(--ink);background:#fff;font-family:Inter,Arial,sans-serif;line-height:1.55}button,input,select{font:inherit}button,[role=button],tr[data-district]{cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
-.mast{background:var(--navy);color:#fff;border-bottom:1px solid #263b57}.mast-inner{max-width:1280px;margin:auto;padding:20px 28px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font:800 27px/1 'Libre Franklin',Arial,sans-serif;letter-spacing:-1px}.brand small{display:block;margin-top:7px;font:600 10px Inter,Arial,sans-serif;text-transform:uppercase;letter-spacing:1.5px;color:#b9c5d4}.social-nav{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:22px}.social-nav a{color:#cbd5e1;text-decoration:none;font:600 12px 'Libre Franklin',Arial,sans-serif}.social-nav a:hover,.social-nav a:focus-visible{color:#fff;text-decoration:underline}
-.hero{max-width:1280px;margin:0 auto;padding:44px 28px 0;text-align:left}.kicker{display:none}.hero h1{max-width:980px;margin:0 0 20px;font:800 clamp(38px,5vw,66px)/1 'Libre Franklin',Arial,sans-serif;letter-spacing:-2.8px}.dek{max-width:850px;font:400 19px/1.5 Georgia,serif;color:#475467}.status-row{display:flex;flex-wrap:wrap;gap:0;margin:26px 0 0;border:1px solid var(--line);width:max-content;max-width:100%}.status-chip{padding:10px 13px;border-right:1px solid var(--line);background:#fff;font:700 10px 'Libre Franklin',Arial,sans-serif;text-transform:uppercase;letter-spacing:.5px;color:var(--muted)}.status-chip:last-child{border:0}.status-chip b{color:var(--ink)}.status-chip.stale{background:#fff1d6;color:#7a4d00}.quick-method{max-width:850px;margin:20px 0 0;background:var(--soft);border:1px solid var(--line)}.quick-method summary{padding:11px 14px;font:700 11px 'Libre Franklin';text-transform:uppercase;letter-spacing:.5px;cursor:pointer}.quick-method ol{margin:0;padding:0 32px 14px 40px;font:14px/1.6 Georgia,serif;color:#475467}
-.shell{max-width:1280px;margin:auto;padding:34px 28px 90px}.overview-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);margin-bottom:44px}.overview-card{min-width:0;width:100%;border:0;background:#fff;padding:22px;text-align:left;color:inherit}.overview-card:hover{background:var(--soft)}.overview-card[aria-pressed=true]{background:var(--navy);color:#fff}.overview-title{display:flex;justify-content:space-between;align-items:start;gap:10px}.overview-title h2{margin:0;font:800 24px 'Libre Franklin';letter-spacing:-.6px}.overview-title span{font:700 9px 'Libre Franklin';text-transform:uppercase;letter-spacing:.8px;color:var(--muted)}.overview-card[aria-pressed=true] .overview-title span,.overview-card[aria-pressed=true] .overview-stat span,.overview-card[aria-pressed=true] .overview-foot{color:#b9c5d4}.overview-stats{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-top:17px}.overview-stat b{display:block;font:800 26px 'Libre Franklin';letter-spacing:-.8px}.overview-stat span{display:block;font-size:9px;line-height:1.3;text-transform:uppercase;letter-spacing:.45px;color:var(--muted)}.seatbar{height:10px;display:flex;position:relative;margin:16px 0 8px;background:#d0d5dd}.seatbar .d{background:var(--blue)}.seatbar .r{background:var(--red)}.seatbar .u{background:#98a2b3}.majority-mark{position:absolute;top:-4px;bottom:-4px;border-left:2px solid currentColor;z-index:2}.overview-foot{font-size:10px;color:var(--muted)}
-.workspace{border-top:4px solid var(--ink);padding-top:22px}.workspace-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:20px}.workspace-head h2{margin:0;font:800 30px 'Libre Franklin';letter-spacing:-.8px}.segmented,.mode-tabs{display:flex;gap:6px;flex-wrap:wrap;padding:5px;background:var(--soft);border:1px solid var(--line)}.segmented button,.mode-tabs button,.small-button{border:0;background:transparent;border-radius:3px;padding:9px 13px;font:700 10px 'Libre Franklin';text-transform:uppercase;letter-spacing:.5px;color:var(--ink)}.segmented button:hover,.mode-tabs button:hover,.small-button:hover{background:#e8edf3}.segmented button[aria-pressed=true],.mode-tabs button[aria-pressed=true]{background:var(--navy);color:#fff;box-shadow:0 1px 3px #0002}
-.chamber-strip{display:grid;grid-template-columns:1fr 1.5fr 1fr;border:1px solid var(--line);border-bottom:0}.strip-stat{min-width:0;padding:17px 20px;text-align:center;border-right:1px solid var(--line)}.strip-stat:last-child{border:0}.strip-stat b{display:block;font:800 23px 'Libre Franklin'}.strip-stat span{font-size:10px;text-transform:uppercase;letter-spacing:.7px;color:var(--muted)}.distribution{height:58px;display:flex;align-items:end;justify-content:center;gap:2px;margin-top:4px}.distribution i{min-width:3px;max-width:12px;flex:1;background:var(--blue);position:relative}.distribution i.mode{background:var(--navy)}.distribution-axis{display:flex;justify-content:space-between;margin-top:3px;font-size:8px;color:var(--muted)}
-.interactive{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(350px,.85fr);border:1px solid var(--line);min-height:720px}.map-panel{min-width:0;padding:28px 30px;border-right:1px solid var(--line)}.map-head{display:flex;align-items:end;justify-content:space-between;gap:18px}.map-head h3{margin:0;font:700 20px 'Libre Franklin'}.map-head p{margin:5px 0 0;font-size:12px;color:var(--muted)}.map-tools{display:grid;grid-template-columns:minmax(190px,1fr) auto;gap:10px;align-items:center;margin:14px 0 5px}.map-tools select{min-width:0;width:100%;padding:9px 11px;border:1px solid var(--line);background:#fff;font:12px Inter}.map-wrap{position:relative;max-width:610px;margin:12px auto 0;overflow:hidden;background:#edf0f2;border:1px solid var(--line)}#map{width:100%;height:610px;background:#edf0f2}.leaflet-container{font-family:Inter,Arial,sans-serif}.leaflet-control-zoom a{color:var(--navy)}.leaflet-control-attribution{font-size:9px}.forecast-map-tooltip{white-space:pre-line;background:#15181c;color:#fff;border:0;border-radius:0;box-shadow:0 4px 16px #0003;font-size:11px;line-height:1.45}.forecast-map-tooltip:before{border-top-color:#15181c}.leaflet-interactive{transition:fill-opacity .12s,stroke-width .12s}.leaflet-interactive:hover{fill-opacity:.62;stroke:#111827;stroke-width:2.5}.legend{max-width:570px;min-height:34px;margin:10px auto 0;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:5px 10px;font-size:10px;color:var(--muted)}.legend i{width:18px;height:10px;display:inline-block;border:1px solid #d0d5dd}
-.detail{position:relative;min-width:0;padding:30px 28px;display:flex;flex-direction:column}.detail-empty{margin:auto;color:var(--muted);font:16px Georgia,serif;text-align:center;max-width:260px}.close-detail{position:absolute;top:18px;right:18px;width:34px;height:34px;border:1px solid var(--line);border-radius:50%;background:#fff;color:var(--ink);font:400 24px/30px Arial,sans-serif;cursor:pointer}.close-detail:hover,.close-detail:focus-visible{background:var(--soft);border-color:var(--ink)}.race-kicker{font:700 10px 'Libre Franklin';text-transform:uppercase;letter-spacing:1px;color:var(--muted)}.race-title{margin:4px 42px 3px 0;font:800 25px 'Libre Franklin';letter-spacing:-.7px}.rating{align-self:flex-start;display:inline-block;margin:5px 0 14px;padding:4px 8px;border-radius:20px;color:#fff;font:700 9px 'Libre Franklin';text-transform:uppercase;letter-spacing:.4px}.headline-call{margin:4px 0 20px;padding:17px 15px;background:var(--soft);border:1px solid var(--line);text-align:center}.headline-call strong{display:block;font:800 48px/.95 'Libre Franklin';letter-spacing:-2px}.headline-call span{display:block;margin-top:8px;font-size:10px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted)}.candidate{display:grid;min-width:0;grid-template-columns:7px minmax(0,1fr) auto;gap:10px;padding:11px 0;border-top:1px solid var(--line)}.candidate .stripe.D{background:var(--blue)}.candidate .stripe.R{background:var(--red)}.candidate .stripe.I{background:#667085}.candidate b{display:block;font:700 13px 'Libre Franklin';overflow-wrap:anywhere}.candidate small{display:block;margin-top:2px;color:var(--muted);font-size:9px;line-height:1.4}.finance-values{text-align:right}.decomp{margin-top:16px;border:1px solid var(--line);padding:13px 15px}.decomp h4{margin:0 0 6px;font:700 10px 'Libre Franklin';text-transform:uppercase;letter-spacing:.7px}.metric{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-top:1px solid var(--line);font-size:12px}.metric b{font-family:'Libre Franklin';text-align:right}.scenario-box{margin-top:10px;background:var(--soft);padding:11px 12px}.scenario-box summary{font:700 10px 'Libre Franklin';text-transform:uppercase;letter-spacing:.4px;cursor:pointer}.scenario-box small{display:block;margin-top:8px;font:12px/1.5 Georgia,serif;color:var(--muted)}
-.uncertainty{margin-top:17px}.uncertainty-title{font:700 10px 'Libre Franklin';text-transform:uppercase;letter-spacing:.6px}.interval-chart{position:relative;height:48px;margin:8px 7px 0}.interval-axis{position:absolute;top:17px;left:0;right:0;height:8px;border-radius:5px;background:linear-gradient(90deg,var(--red),#eee 50%,var(--blue))}.interval-even{position:absolute;top:8px;bottom:8px;border-left:1px solid var(--ink)}.interval-band{position:absolute;top:14px;height:14px;border:2px solid var(--ink);background:#ffffffb8}.interval-dot{position:absolute;top:10px;width:4px;height:22px;background:var(--ink);box-shadow:0 0 0 2px #fff;transform:translateX(-50%)}.interval-end{position:absolute;top:32px;transform:translateX(-50%);font-size:8px;white-space:nowrap}.interval-caption{margin-top:2px;font:12px/1.5 Georgia,serif;color:var(--muted)}.race-nav{display:flex;justify-content:space-between;gap:8px;margin-top:15px}.race-nav .small-button{border:1px solid var(--line);background:#fff}
-.section{margin-top:62px}.section h2{margin:0 0 8px;font:800 30px 'Libre Franklin';letter-spacing:-.8px}.section-note{margin:0;font-size:12px;color:var(--muted)}.table-tools{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.table-tools input,.table-tools select{min-width:0;border:1px solid var(--line);background:#fff;padding:9px 11px;font:12px Inter}.table-tools input{min-width:230px;flex:1}.table-tools .small-button{border:1px solid var(--line)}.table-wrap{max-height:650px;overflow:auto;border-top:3px solid var(--ink);margin-top:12px;position:relative}table{width:100%;border-collapse:collapse;font-size:13px}th{position:sticky;top:0;z-index:2;background:#fff;text-align:left;border-bottom:1px solid var(--ink);padding:13px 10px}th button{width:100%;border:0;padding:0;background:transparent;text-align:left;font:700 11px 'Libre Franklin';text-transform:uppercase;letter-spacing:.8px}td{border-bottom:1px solid var(--line);padding:11px 10px;white-space:nowrap}tbody tr:hover,tbody tr.selected{background:var(--soft)}.party-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px}.table-hint{display:none;font-size:10px;color:var(--muted)}
-.method{max-width:900px;display:block;border-top:4px solid var(--ink);padding-top:18px}.method h2{margin:0 0 12px}.method p,.method li{font:17px/1.75 Georgia,serif}.caveat{margin-top:24px;background:var(--soft);border:1px solid var(--line);padding:15px 16px;font-size:12px}.caveat p{font:13px/1.6 Inter}.method-links{display:flex;flex-wrap:wrap;gap:7px;margin-top:16px}.method-links a{border:1px solid var(--line);color:var(--ink);padding:8px 10px;font:700 10px 'Libre Franklin';text-decoration:none;text-transform:uppercase;letter-spacing:.5px}.method-links a:hover{background:var(--soft)}.site-footer{background:var(--navy);color:#fff;padding:28px max(28px,calc((100vw - 1224px)/2));display:flex;justify-content:space-between;align-items:center;gap:24px}.site-footer b{display:block;font:700 15px 'Libre Franklin'}.site-footer span{display:block;margin-top:5px;color:#b9c5d4;font-size:10px;text-transform:uppercase;letter-spacing:.8px}.site-footer nav{display:flex;flex-wrap:wrap;gap:20px}.site-footer a{color:#cbd5e1;text-decoration:none;font:600 11px 'Libre Franklin'}.site-footer a:hover,.site-footer a:focus-visible{color:#fff;text-decoration:underline}.tooltip{position:fixed;z-index:8;display:none;max-width:250px;pointer-events:none;background:#15181c;color:#fff;padding:9px 11px;font-size:11px;line-height:1.45;box-shadow:0 4px 16px #0003}.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.error{max-width:760px;margin:40px auto;padding:20px;border:2px solid var(--red);background:#fff1f1}
-@media(max-width:850px){.update{display:none}.mast-inner{padding:20px 18px}.hero{padding:44px 18px 0}.hero h1{letter-spacing:-2px}.shell{padding:34px 18px 70px}.overview-grid,.interactive{grid-template-columns:1fr}.overview-card[aria-pressed=true]{background:#fff;color:var(--ink);box-shadow:inset 4px 0 var(--navy)}.overview-card[aria-pressed=true] .overview-title span,.overview-card[aria-pressed=true] .overview-stat span,.overview-card[aria-pressed=true] .overview-foot{color:var(--muted)}.workspace-head{display:block}.segmented{width:max-content;max-width:100%;margin-top:15px}.map-panel{border-right:0;border-bottom:1px solid var(--line);padding:22px 16px}.detail{min-height:390px}.chamber-strip{grid-template-columns:1fr 1fr}.distribution-cell{grid-column:1/-1;grid-row:2;border-top:1px solid var(--line)}.table-hint{display:block}.method{max-width:none}}
-@media(max-width:520px){.brand{font-size:25px}.hero h1{font-size:40px}.dek{font-size:17px}.status-row{width:100%}.status-chip{flex:1 1 48%;border-bottom:1px solid var(--line)}.overview-stats{grid-template-columns:1fr 1fr}.overview-stat.range{grid-column:1/-1}.workspace-head h2{font-size:27px}.segmented{display:grid;grid-template-columns:1fr 1fr;width:100%}.mode-tabs{display:grid;grid-template-columns:repeat(3,1fr);width:100%}.map-head{display:block}.mode-tabs{margin-top:13px}.map-tools{grid-template-columns:1fr}.candidate{grid-template-columns:6px minmax(0,1fr)}.finance-values{grid-column:2;text-align:left}.table-tools{display:grid;grid-template-columns:1fr}.table-tools input{min-width:0}.table-wrap{max-width:100%}th:first-child,td:first-child{position:sticky;left:0;z-index:1;background:#fff}th:first-child{z-index:3}tbody tr:hover td:first-child,tbody tr.selected td:first-child{background:var(--soft)}}
-@media(max-width:520px){#map{height:480px}}
-@media(max-width:850px){.social-nav{gap:13px}.site-footer{padding:24px 18px;align-items:flex-start;flex-direction:column}}
-@media(max-width:520px){.mast-inner{align-items:flex-start;flex-direction:column}.social-nav{justify-content:flex-start;gap:10px 16px}.social-nav a{font-size:11px}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
-.model-switcher{margin:0 0 22px;padding:20px;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow)}
-.model-switcher-head{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:20px;align-items:start}
-.model-switcher h2{margin:2px 0 4px}.model-tabs{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px}
-.model-tabs button{border:1px solid var(--navy);background:#fff;color:var(--navy);padding:9px 12px;font:700 13px 'Libre Franklin';cursor:pointer}
-.model-tabs button[aria-selected="true"]{background:var(--navy);color:#fff}.model-tabs small{display:block;font-size:9px;text-transform:uppercase;letter-spacing:.06em}
-.metric.contribution span,.metric.contribution b{display:flex;flex-direction:column}.metric.contribution small{font-weight:400;color:var(--muted);font-size:11px;margin-top:2px}
-.metric.total{border-top:2px solid var(--navy);font-size:16px}.metric.total b{color:var(--navy)}
-.model-scores{display:inline-grid;grid-template-columns:minmax(0,150px);gap:1px;background:var(--line);border:1px solid var(--line);width:max-content;max-width:100%}.model-scores span{display:flex;flex-direction:column;padding:8px 11px;background:#fff;font-size:10px;color:var(--muted)}.model-scores b{font:800 18px 'Libre Franklin';color:var(--ink)}.mae-note{margin:10px 0 0;font-size:11px;color:var(--muted)}
-.comparison-call{display:flex;justify-content:space-between;gap:10px;margin:8px 0;padding:10px;background:var(--soft);font-size:11px}.comparison-call.warning{background:#fff1d6}.comparison-call span{text-align:right}.data-badges{display:flex;flex-wrap:wrap;gap:5px;margin:8px 0}.data-badges span{padding:3px 6px;background:#eef2f6;font-size:9px;text-transform:uppercase;letter-spacing:.04em}.technical-terms{margin-top:10px;border-top:1px solid var(--line)}.technical-terms summary{padding:11px 0;font:700 10px 'Libre Franklin';text-transform:uppercase;cursor:pointer}.technical-terms>small{display:block;padding:9px 0;color:var(--muted);font-size:11px}.source-note{display:flex;flex-direction:column;margin-top:14px;padding:10px;background:var(--soft);font-size:11px}.share-link{float:right;border:1px solid var(--line)!important}.disagreement{display:block;color:#8a4b00;font-size:9px;margin-top:3px}.source-ledger{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:16px;background:var(--line);border:1px solid var(--line)}.source-ledger article{display:flex;flex-direction:column;padding:15px;background:#fff}.source-ledger span{font-size:12px;margin:5px 0}.source-ledger small{color:var(--muted)}.source-ledger a{margin-top:auto;padding-top:9px;font-size:11px;color:var(--blue)}
-@media(max-width:850px){
-  body{overflow-x:clip}.mast-inner,.hero,.shell{width:100%;max-width:100%}.mast-inner{align-items:flex-start}.social-nav{min-width:0;max-width:100%}.hero h1{font-size:clamp(34px,10vw,48px);letter-spacing:-1.8px;overflow-wrap:anywhere}.dek{overflow-wrap:anywhere}.status-row{width:100%;max-width:100%}.status-chip{min-width:0;overflow-wrap:anywhere}.model-switcher{min-width:0;padding:16px}.model-switcher-head{grid-template-columns:1fr}.model-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:100%}.model-tabs button{min-width:0;overflow-wrap:anywhere}.overview-card,.overview-stat,.strip-stat,.detail{min-width:0}.overview-stat span,.overview-foot{overflow-wrap:anywhere}.source-ledger{grid-template-columns:1fr 1fr}.comparison-call{flex-direction:column}.comparison-call span{text-align:left}
+/* 2026 forecast page. Tokens and shared components come from site_components.css. */
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;overflow-x:hidden;color:var(--ink);background:var(--paper);font:var(--fs-base)/1.55 var(--font-ui)}
+button,input,select{font:inherit}
+button:focus-visible,input:focus-visible,select:focus-visible,[tabindex]:focus-visible,a:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+a{color:var(--ink)}
+.mast{background:var(--accent);color:#fff}.mast-inner{max-width:1224px;margin:auto;padding:18px 28px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{font:700 22px/1 var(--font-ui)}.brand small{display:block;margin-top:6px;font:600 10px var(--font-mono);letter-spacing:1px;text-transform:uppercase;color:#f5e9e8}
+.social-nav{display:flex;flex-wrap:wrap;gap:16px}.social-nav a{color:#f5e9e8;text-decoration:none;font:600 12px var(--font-ui)}
+.hero,.shell{width:min(1224px,calc(100% - 56px));margin:auto}
+.hero{padding:44px 0 18px}
+.kicker,.panel-kicker{color:var(--accent);font:700 var(--fs-2xs)/1.3 var(--font-mono);letter-spacing:.6px;text-transform:uppercase}
+.hero h1{margin:8px 0 14px;font:700 var(--fs-display)/1.03 var(--font-ui);letter-spacing:-1.5px}
+.dek{max-width:840px;font:var(--fs-md)/1.6 var(--font-read);color:var(--ink-2)}
+.status-row{display:flex;flex-wrap:wrap;gap:6px;margin-top:16px}
+.status-chip{padding:5px 9px;border:1px solid var(--rule);background:var(--surface);font:var(--fs-2xs)/1.3 var(--font-mono);color:var(--ink-2)}
+.status-chip b{color:var(--ink)}.status-chip.stale{border-color:var(--accent);color:var(--accent)}
+.section-note{margin:4px 0 0;color:var(--muted);font:var(--fs-sm)/1.5 var(--font-ui)}
+
+/* Scenario tabs */
+.model-switcher{display:flex;flex-wrap:wrap;align-items:flex-end;gap:10px 18px;margin:18px 0 14px}
+.model-switcher h2{margin:0}
+.model-tabs{display:inline-flex;border:1px solid var(--rule);background:var(--surface-2)}
+.model-tabs button{appearance:none;border:0;border-right:1px solid var(--rule-soft);background:transparent;padding:8px 14px;cursor:pointer;color:var(--ink);font:700 var(--fs-sm)/1.2 var(--font-ui);text-align:left}
+.model-tabs button:last-child{border-right:0}
+.model-tabs button small{display:block;font:var(--fs-2xs)/1.3 var(--font-ui);color:var(--muted)}
+.model-tabs button[aria-selected=true]{background:var(--select);color:#fff}.model-tabs button[aria-selected=true] small{color:#dfe5e9}
+#modelDescription{flex:1 1 320px;margin:0;color:var(--ink-2);font:var(--fs-sm)/1.5 var(--font-ui)}
+
+/* Topline */
+.topline{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-bottom:34px}
+.chamber-card{background:var(--surface-2);border:1px solid var(--rule);border-top:4px solid var(--rule);padding:20px 22px 18px;display:flex;flex-direction:column;gap:12px}
+.chamber-card.is-active{border-top-color:var(--ink)}
+.chamber-card header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:4px 12px}
+.chamber-card h2{margin:0;font:700 var(--fs-xl)/1.1 var(--font-ui);letter-spacing:-.5px}
+.chamber-card header span{color:var(--muted);font:var(--fs-2xs) var(--font-mono);text-transform:uppercase;letter-spacing:.5px}
+.verdict{margin:0;font:var(--fs-md)/1.45 var(--font-read);color:var(--ink)}
+.verdict b{font-family:var(--font-ui)}
+.chamber-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:0}
+.chamber-stats div{display:flex;flex-direction:column-reverse;justify-content:flex-end;border-left:3px solid var(--rule);padding-left:9px}
+.chamber-stats dt{color:var(--muted);font:var(--fs-2xs)/1.3 var(--font-ui)}
+.chamber-stats dd{margin:0;font:700 30px/1.05 var(--font-ui);letter-spacing:-.5px}
+.chamber-stats .d{border-color:var(--dem)}.chamber-stats .d dd{color:var(--dem)}
+.chamber-stats .r{border-color:var(--rep)}.chamber-stats .r dd{color:var(--rep)}
+.strip-wrap{position:relative;padding:20px 0 26px}
+.seat-strip{display:flex;height:30px;gap:1px}
+.seat-strip button{flex:1 1 0;min-width:0;border:0;padding:0;cursor:pointer;background:var(--rating-none)}
+.seat-strip button.trails{background-image:repeating-linear-gradient(45deg,#ffffffcc 0 1.4px,transparent 1.4px 4.5px)}
+.seat-strip button:hover,.seat-strip button.is-hover,.seat-strip button:focus-visible{outline:2px solid var(--ink);outline-offset:1px;position:relative;z-index:1}
+.strip-mark{position:absolute;top:14px;bottom:20px;border-left:2px solid var(--ink);pointer-events:none}
+.strip-mark span{position:absolute;white-space:nowrap;font:700 var(--fs-2xs)/1 var(--font-ui);color:var(--ink)}
+.strip-mark.majority span{top:-14px;transform:translateX(-50%)}
+.strip-mark.median{border-left-style:dashed;border-left-color:var(--dem)}
+.strip-mark.median span{bottom:-16px;transform:translateX(-50%);color:var(--dem)}
+.strip-ends{display:flex;justify-content:space-between;color:var(--muted);font:var(--fs-2xs) var(--font-ui)}
+.rating-counts{display:flex;flex-wrap:wrap;gap:4px 10px;margin:0;padding:0;list-style:none;font:var(--fs-2xs)/1.3 var(--font-ui);color:var(--ink-2)}
+.rating-counts li{display:inline-flex;align-items:center;gap:5px}.rating-counts i{width:10px;height:10px;display:inline-block}
+.chamber-card .explore{align-self:flex-start;margin-top:auto;appearance:none;border:1px solid var(--ink);background:transparent;color:var(--ink);padding:7px 11px;font:700 var(--fs-xs)/1 var(--font-ui);cursor:pointer}
+.chamber-card .explore:hover,.chamber-card.is-active .explore{background:var(--ink);color:#fff}
+
+/* Explorer */
+.workspace{border-top:3px solid var(--accent);padding-top:22px;margin-bottom:40px}
+.workspace-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:12px;margin-bottom:16px}
+.workspace-head h2{margin:0;font:700 var(--fs-2xl)/1.08 var(--font-ui);letter-spacing:-.8px}
+.explorer{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(320px,1fr);gap:0;background:var(--surface-2);border:1px solid var(--rule)}
+.map-card{padding:18px 18px 14px;border-right:1px solid var(--rule);min-width:0}
+.map-toolbar{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:flex-end;margin-bottom:10px}
+.finder{position:relative;flex:1 1 220px;min-width:0}
+.highlight-select{padding:8px 9px;border:1px solid var(--rule);background:var(--surface-2);color:var(--ink);font-size:var(--fs-sm)}
+.finder input{width:100%;padding:9px 11px;border:1px solid var(--rule);background:var(--surface-2);color:var(--ink);font-size:var(--fs-sm)}
+.finder [role=listbox]{position:absolute;z-index:8;left:0;right:0;top:100%;margin:2px 0 0;padding:0;list-style:none;max-height:280px;overflow:auto;background:var(--surface-2);border:1px solid var(--ink);box-shadow:0 8px 20px #0002}
+.finder [role=option]{padding:7px 10px;cursor:pointer;font-size:var(--fs-sm);border-top:1px solid var(--rule-soft)}
+.finder [role=option] small{display:block;color:var(--muted);font-size:var(--fs-2xs)}
+.finder [role=option][aria-selected=true],.finder [role=option]:hover{background:var(--panel)}
+.presets{display:flex;flex-wrap:wrap;gap:4px;margin:0 0 6px}
+.presets button{appearance:none;border:1px solid var(--rule);background:var(--surface);color:var(--ink);padding:5px 8px;font:700 var(--fs-2xs)/1 var(--font-ui);cursor:pointer}
+.presets button[aria-pressed=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
+#map{margin:2px 0 8px}
+.map-caption{margin:0 0 8px;color:var(--muted);font:var(--fs-2xs)/1.45 var(--font-ui)}
+.detail{padding:20px 22px;min-width:0;position:relative}
+.detail h3{margin:0;font:700 var(--fs-xl)/1.1 var(--font-ui);letter-spacing:-.4px}
+.detail h4{margin:22px 0 8px;font:700 var(--fs-2xs)/1.2 var(--font-mono);letter-spacing:.6px;text-transform:uppercase;color:var(--accent)}
+.detail-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.close-detail{appearance:none;border:1px solid var(--rule);background:var(--surface-2);width:36px;height:36px;font-size:20px;line-height:1;cursor:pointer;color:var(--ink);flex:0 0 auto}
+.call{margin:12px 0 4px;font:var(--fs-md)/1.4 var(--font-read)}
+.call strong{display:block;font:700 40px/1 var(--font-ui);letter-spacing:-1px}
+.detail-actions{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.small-button{appearance:none;border:1px solid var(--rule);background:var(--surface);color:var(--ink);padding:6px 10px;font:700 var(--fs-2xs)/1 var(--font-ui);cursor:pointer}
+.small-button:hover{border-color:var(--ink)}
+.candidate{display:grid;grid-template-columns:4px minmax(0,1fr) auto;gap:10px;align-items:start;padding:9px 0;border-top:1px solid var(--rule-soft)}
+.candidate .stripe{align-self:stretch}.stripe.D{background:var(--dem)}.stripe.R{background:var(--rep)}.stripe.I,.stripe.L{background:var(--ind)}
+.candidate b{display:block}.candidate small{color:var(--muted);font-size:var(--fs-2xs)}
+.finance-values{text-align:right;color:var(--muted);font-size:var(--fs-2xs);line-height:1.4}
+.candidate-history{margin:0 0 6px 14px;font-size:var(--fs-xs)}
+.candidate-history summary{cursor:pointer;color:var(--ink-2)}
+.candidate-history p{color:var(--muted);font-size:var(--fs-2xs)}
+.career-row{display:grid;grid-template-columns:86px minmax(0,1fr) 54px;gap:8px;align-items:center;font-size:var(--fs-2xs)}
+.career-row small{display:block;color:var(--muted)}
+.career-scale{position:relative;height:10px;background:var(--panel)}
+.career-scale .zero{position:absolute;left:50%;top:-2px;bottom:-2px;border-left:1px solid var(--ink)}
+.career-bar{position:absolute;top:1px;bottom:1px}.career-bar.D{background:var(--war-d2)}.career-bar.R{background:var(--war-r2)}
+.profile-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--rule-soft);border:1px solid var(--rule-soft)}
+.profile-grid div{background:var(--surface-2);padding:8px 10px}
+.profile-grid .profile-wide,.profile-grid div:nth-last-child(2):nth-child(odd){grid-column:1/-1}
+.profile-grid span{display:block;color:var(--muted);font:var(--fs-2xs)/1.3 var(--font-ui)}
+.profile-grid b{font-size:var(--fs-sm)}.profile-grid small{display:block;color:var(--muted);font-size:var(--fs-2xs)}
+.profile-note,.panel-note{color:var(--muted);font:var(--fs-2xs)/1.5 var(--font-ui);margin:8px 0 0}
+.scenario-results{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin-top:10px}
+.scenario-result{border:1px solid var(--rule-soft);padding:7px 8px;font-size:var(--fs-2xs)}
+.scenario-result b{display:block;font-size:var(--fs-sm)}.scenario-result.selected{border-color:var(--ink);box-shadow:inset 0 3px 0 var(--ink)}
+.race-nav{display:flex;justify-content:space-between;gap:8px;margin-top:20px}
+.overview h3{font-size:var(--fs-lg)}
+.overview-block{margin-top:20px}
+.path-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.party-path{border:1px solid var(--rule-soft);border-left:4px solid var(--dem);padding:9px 10px;font-size:var(--fs-xs)}
+.party-path.R{border-left-color:var(--rep)}
+.party-path strong{float:right;font:700 var(--fs-lg)/1 var(--font-ui)}
+.party-path p{margin:6px 0;color:var(--ink-2)}
+.path-races,.watch-group{display:flex;flex-wrap:wrap;gap:4px}
+.path-races button,.watch-group button{appearance:none;border:1px solid var(--rule);background:var(--surface);padding:4px 7px;font:var(--fs-2xs)/1.2 var(--font-ui);cursor:pointer;color:var(--ink)}
+.path-races button.tipping{border-color:var(--ink);font-weight:700}
+.watch-grid{display:grid;gap:10px}
+.watch-group b{flex:1 0 100%;font:700 var(--fs-2xs)/1.2 var(--font-mono);text-transform:uppercase;letter-spacing:.5px;color:var(--muted)}
+.watch-group p{margin:0;color:var(--muted);font-size:var(--fs-2xs)}
+.watch-group button strong{margin-left:5px}
+
+/* Charts */
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.chart text{font-family:var(--font-ui)}
+.unit-hist .sq{shape-rendering:crispEdges}
+.wf-bar.D{fill:var(--dem)}.wf-bar.R{fill:var(--rep)}.wf-bar.base{fill:var(--ink-2)}
+.dot.D{fill:var(--dem)}.dot.R{fill:var(--rep)}
+.beeswarm circle{stroke:#fff;stroke-width:1;cursor:pointer}
+.beeswarm circle.trails{stroke:var(--ink);stroke-width:2}
+.beeswarm circle:hover,.beeswarm circle.is-hover,.beeswarm circle:focus-visible{stroke:var(--ink);stroke-width:2.5;outline:none}
+.band{fill:var(--panel)}
+
+/* Sections */
+.history-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.history-grid figcaption{font-size:var(--fs-sm);margin-bottom:4px}
+.section{margin:0 0 44px}
+.section>h2{margin:0;font:700 var(--fs-2xl)/1.1 var(--font-ui);letter-spacing:-.8px}
+.section-panel{background:var(--surface-2);border:1px solid var(--rule);padding:16px 18px;margin-top:14px}
+.table-tools{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 8px}
+.table-tools input,.table-tools select{padding:8px 10px;border:1px solid var(--rule);background:var(--surface-2);color:var(--ink);font-size:var(--fs-sm)}
+.table-tools input{flex:1 1 260px}
+.table-wrap{max-height:620px;overflow:auto;border:1px solid var(--rule);background:var(--surface-2)}
+table{width:100%;border-collapse:collapse;font-size:var(--fs-sm)}
+th{position:sticky;top:0;z-index:2;background:var(--ink);color:#fff;text-align:left;font:700 var(--fs-2xs)/1.2 var(--font-ui);letter-spacing:.3px;text-transform:uppercase;padding:9px 10px;white-space:nowrap}
+th button{appearance:none;border:0;background:transparent;color:inherit;font:inherit;text-transform:inherit;letter-spacing:inherit;padding:0;cursor:pointer}
+td{padding:7px 10px;border-top:1px solid var(--rule-soft);vertical-align:middle}
+tbody tr{cursor:pointer}tbody tr:hover,tbody tr.selected,tbody tr.is-hover{background:var(--panel)}
+td:first-child{font-weight:700;white-space:nowrap}
+.party-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px}
+.prob-cell{display:grid;grid-template-columns:minmax(60px,1fr) 38px;gap:8px;align-items:center}
+.prob-bar{height:8px;background:var(--rep);position:relative}
+.prob-bar i{position:absolute;left:0;top:0;bottom:0;background:var(--dem)}
+.prob-bar::after{content:"";position:absolute;left:50%;top:-3px;bottom:-3px;border-left:1px solid var(--ink)}
+.margin-cell{display:grid;grid-template-columns:minmax(110px,1fr) 52px;gap:8px;align-items:center}
+.margin-cell svg{display:block;width:100%;height:16px}
+.hide-delta .delta-col{display:none}
+.disagreement{display:block;color:var(--accent);font-size:var(--fs-2xs)}
+.table-hint{display:none;color:var(--muted);font-size:var(--fs-2xs);margin:0 0 6px}
+.source-ledger{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);margin-top:14px}
+.source-ledger article{background:var(--surface-2);padding:12px 14px;font-size:var(--fs-xs)}
+.source-ledger b{display:block;font-size:var(--fs-sm)}.source-ledger span{display:block;color:var(--ink-2)}.source-ledger small{display:block;color:var(--muted)}
+.method{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:24px;border-top:3px solid var(--accent);padding-top:20px}
+.method p{font:var(--fs-base)/1.65 var(--font-read);color:var(--ink-2)}
+.method-links{display:flex;flex-wrap:wrap;gap:6px}
+.method-links a{border:1px solid var(--rule);padding:6px 9px;text-decoration:none;font:700 var(--fs-2xs)/1 var(--font-ui);background:var(--surface)}
+.caveat{background:var(--surface);border:1px solid var(--rule);padding:14px 16px}
+.caveat p{font:var(--fs-sm)/1.55 var(--font-ui)}
+.site-footer{background:var(--accent);color:#fff;padding:24px 28px;margin-top:40px}
+.site-footer a{color:#f5e9e8}
+.error{max-width:720px;margin:60px auto;padding:0 20px}
+.shell small{font-size:var(--fs-2xs)}
+.rating-chip{border:1px solid var(--rule);background:var(--surface-2);font-size:var(--fs-xs)}
+
+@media(max-width:1000px){.explorer{grid-template-columns:1fr}.map-card{border-right:0;border-bottom:1px solid var(--rule)}.source-ledger{grid-template-columns:repeat(2,minmax(0,1fr))}.method{grid-template-columns:1fr}}
+@media(max-width:760px){
+  .hero,.shell{width:calc(100% - 32px)}
+  .topline{grid-template-columns:1fr}
+  .chamber-stats dd{font-size:24px}
+  .source-ledger{grid-template-columns:1fr}
+  .path-grid,.history-grid{grid-template-columns:1fr}
+  .table-hint{display:block}
+  .table-wrap{max-height:none}
+  th:nth-child(2),td:nth-child(2){min-width:170px}
+  .detail.is-open{position:fixed;left:0;right:0;bottom:0;z-index:40;max-height:78vh;overflow:auto;border-top:3px solid var(--ink);box-shadow:0 -12px 30px #0003;background:var(--surface-2)}
+  .call strong{font-size:32px}
 }
-@media(max-width:520px){
-  .mast-inner{padding:18px}.social-nav{width:100%;gap:8px 13px}.social-nav a{font-size:10px}.hero{padding:34px 18px 0}.hero h1{font-size:34px;line-height:1.05}.status-chip{flex:1 1 50%;padding:9px;font-size:9px}.model-scores{width:max-content;grid-template-columns:minmax(0,150px)}.model-scores span{padding:7px;font-size:8px}.model-scores b{font-size:15px}.model-tabs{grid-template-columns:1fr}.overview-card{padding:18px}.overview-stats{grid-template-columns:1fr 1fr}.overview-stat b{font-size:24px}.source-ledger{grid-template-columns:1fr}.metric{align-items:flex-start}.metric span{min-width:0;overflow-wrap:anywhere}.metric b{flex:0 0 auto}.table-wrap{overscroll-behavior-inline:contain}.detail.is-empty{display:none}
-}
-.effect-track{display:block;width:120px;max-width:100%;height:4px;margin-top:5px;background:#e4e7ec}.effect-track>i{display:block;height:100%}.effect-track .d{background:var(--blue)}.effect-track .r{background:var(--red)}
-.chamber-insights{display:grid;grid-template-columns:1.15fr .85fr;border:1px solid var(--line);border-bottom:0;background:var(--line);gap:1px}.chamber-insights>section{min-width:0;background:#fff;padding:22px}.panel-head{display:flex;align-items:start;justify-content:space-between;gap:15px;margin-bottom:14px}.panel-head h3{margin:2px 0 0;font:800 20px 'Libre Franklin';letter-spacing:-.4px}.panel-head>span{font:700 9px 'Libre Franklin';text-transform:uppercase;letter-spacing:.5px;color:var(--muted)}.panel-kicker{font:700 9px 'Libre Franklin';text-transform:uppercase;letter-spacing:.8px;color:var(--muted)}.path-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line)}.party-path{background:#fff;padding:14px}.party-path.D{box-shadow:inset 4px 0 var(--blue)}.party-path.R{box-shadow:inset 4px 0 var(--red)}.party-path>div:first-child{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 10px}.party-path>div:first-child b{font:700 11px 'Libre Franklin';text-transform:uppercase}.party-path>div:first-child strong{font:800 24px 'Libre Franklin'}.party-path>div:first-child span{grid-column:1/-1;font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px}.party-path p{margin:10px 0;font-size:11px;line-height:1.5;color:var(--muted)}.path-races{display:flex;flex-wrap:wrap;gap:4px}.path-races button{display:flex;gap:6px;border:1px solid var(--line);background:#fff;padding:5px 7px;font:700 9px 'Libre Franklin'}.path-races button:hover{background:var(--soft)}.path-races button.tipping{border-color:var(--navy);box-shadow:inset 0 -2px var(--navy)}.panel-note{margin:10px 0 0;font:11px/1.5 Georgia,serif;color:var(--muted)}.watch-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.watch-group>b{display:block;padding-bottom:7px;border-bottom:2px solid var(--ink);font:700 10px 'Libre Franklin';text-transform:uppercase;letter-spacing:.45px}.watch-group button{width:100%;display:flex;justify-content:space-between;align-items:center;gap:8px;border:0;border-bottom:1px solid var(--line);background:#fff;padding:8px 2px;text-align:left}.watch-group button:hover{background:var(--soft)}.watch-group span{font:700 10px 'Libre Franklin'}.watch-group small{display:block;font:400 8px Inter;color:var(--muted)}.watch-group strong{font:700 10px 'Libre Franklin';white-space:nowrap}.watch-group p{font-size:10px;color:var(--muted)}
-.district-profile,.component-comparison{margin-top:16px;border:1px solid var(--line);padding:14px}.district-profile h4,.component-comparison h4{margin:0 0 9px;font:700 10px 'Libre Franklin';text-transform:uppercase;letter-spacing:.7px}.profile-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line)}.profile-grid>div{min-width:0;display:flex;flex-direction:column;padding:9px;background:#fff}.profile-grid span{font-size:8px;text-transform:uppercase;letter-spacing:.45px;color:var(--muted)}.profile-grid b{font:700 11px/1.35 'Libre Franklin';overflow-wrap:anywhere}.profile-grid small{font-size:8px;color:var(--muted);overflow-wrap:anywhere}.profile-grid .profile-wide{grid-column:1/-1}.profile-note,.component-comparison>p{margin:9px 0 0;font:10px/1.5 Georgia,serif;color:var(--muted)}.candidate-history{border-top:1px solid var(--line);padding:8px 0}.candidate-history summary{cursor:pointer;font:700 9px 'Libre Franklin';text-transform:uppercase;letter-spacing:.35px}.candidate-history>p{margin:7px 0;font-size:9px;color:var(--muted)}.career-row{display:grid;grid-template-columns:67px minmax(80px,1fr) 58px;align-items:center;gap:8px;padding:5px 0;border-top:1px solid var(--line)}.career-row>span{font:700 10px 'Libre Franklin'}.career-row small{display:block;font:400 8px Inter;color:var(--muted)}.career-row>b{text-align:right;font:700 9px 'Libre Franklin'}.career-scale{position:relative;display:block;height:8px;background:var(--soft)}.career-scale .zero{position:absolute;left:50%;top:-2px;bottom:-2px;border-left:1px solid var(--ink)}.career-bar{position:absolute;top:2px;height:4px}.career-bar.D{background:var(--blue)}.career-bar.R{background:var(--red)}.component-rows{margin-top:11px}.component-row{display:grid;grid-template-columns:minmax(115px,1.15fr) minmax(70px,.85fr) 92px;gap:8px;align-items:center;padding:7px 0;border-top:1px solid var(--line);font-size:10px}.component-row>span{font-weight:600}.component-row>b{display:flex;flex-direction:column;text-align:right;font:700 9px 'Libre Franklin'}.component-row>b small{font:400 8px Inter;color:var(--muted)}.component-scale{display:flex;height:5px;background:#eef2f6}.component-scale>i{display:block;height:100%}.component-scale .D{background:var(--blue)}.component-scale .R{background:var(--red)}.scenario-results{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:12px;background:var(--line);border:1px solid var(--line)}.scenario-result{display:flex;flex-direction:column;padding:8px;background:#fff}.scenario-result.selected{background:var(--navy);color:#fff}.scenario-result span{font:700 8px 'Libre Franklin';text-transform:uppercase;letter-spacing:.4px}.scenario-result b{font:800 13px 'Libre Franklin'}.scenario-result small{font-size:8px;color:var(--muted)}.scenario-result.selected small{color:#d7e0ea}
-@media(max-width:1050px){.chamber-insights{grid-template-columns:1fr}.watch-grid{grid-template-columns:repeat(3,1fr)}}
-@media(max-width:700px){.path-grid,.watch-grid{grid-template-columns:1fr}.component-row{grid-template-columns:minmax(100px,1fr) 70px 78px}.chamber-insights>section{padding:17px}.profile-grid{grid-template-columns:1fr}.profile-grid .profile-wide{grid-column:auto}}
-@media(max-width:520px){table th:nth-child(4),table td:nth-child(4),table th:nth-child(6),table td:nth-child(6),table th:nth-child(7),table td:nth-child(7){display:none}table{font-size:11px}th,td{padding:9px 7px}.table-wrap{overflow-x:auto}.model-tabs{grid-template-columns:1fr}}

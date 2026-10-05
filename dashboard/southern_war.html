@@ -3,76 +3,101 @@
 <meta name="description" content="Historical Southern legislative WAR maps and race outcomes, 2016 through 2024">
 <title>Southern Historical WAR · Jackson Hannan</title>
 <style>__EXPLORER_CSS__</style>
-<style>
-.controls{grid-template-columns:repeat(3,minmax(0,1fr));max-width:900px}
-.controls label,.district-picker{display:grid;gap:6px;font-size:12px;font-weight:600}
-select{max-width:100%;min-height:44px;border:1px solid var(--line);background:#fff;color:var(--ink);padding:9px;font:inherit}
-.district-picker{margin-top:12px;max-width:280px}.missing-key{margin-top:9px;font-size:11px;color:var(--muted)}
-.missing-key i{display:inline-block;width:14px;height:10px;background:#d5dce0;margin-right:6px}
-.district:focus-visible{stroke:#17191c;stroke-width:3;outline:none}.detail{position:relative;min-width:0}
-.close-detail{align-self:flex-end;border:1px solid var(--line);background:#fff;min-width:44px;min-height:44px;cursor:pointer;font-size:22px}
-.detail .candidate-headline{margin-bottom:22px}.racebox thead{position:static}.source-credit{overflow-wrap:anywhere}
-.row-link{border:0;background:transparent;color:inherit;font:inherit;text-decoration:underline;min-height:44px;cursor:pointer}
-.warning{padding:14px;border-left:4px solid #a87928;background:#fff4d8;font-size:12px}
-.map-modes button:focus-visible,.row-link:focus-visible,select:focus-visible,.close-detail:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
-.racebox th.num{text-align:right}.racebox-comparison div{flex-wrap:wrap}.racebox-comparison b{margin-left:auto}
-.racebox-table{max-width:100%;overflow-x:auto}.racebox-table table{min-width:440px}.racebox-table th,.racebox-table td{white-space:nowrap}.racebox-table .candidate-col{white-space:normal}
-.racebox-table:focus-visible{outline:3px solid var(--blue);outline-offset:-3px}
-.stat{gap:10px}.stat b{flex-shrink:0;max-width:55%;text-align:right}.table-scroll-hint{display:none}
-@media(max-width:780px){.controls{grid-template-columns:1fr}.map-modes button{min-height:44px}.detail.is-empty{display:none}}
-@media(max-width:780px){.table-scroll-hint{display:block;padding:7px 9px;font-size:11px;color:var(--muted)}}
-@media(prefers-reduced-motion:reduce){.district{transition:none}html{scroll-behavior:auto}}
-</style></head><body>
+<style>@media(prefers-reduced-motion:reduce){.state-card{transition:none}}</style></head><body>
 <header><nav aria-label="Site navigation"><a href="index.html">Forecast</a><a href="cmo.html">Alabama WAR</a><a href="southern-war.html" aria-current="page">Southern WAR</a><a href="methods.html">Methods</a></nav></header>
 <main>
-<section class="story-head"><h1>Southern Historical WAR</h1><div class="dek">State legislative race residuals across 14 Southern states, 2016–2024. Select a state, election, and chamber, then choose a district to inspect its race.</div></section>
-<section class="intro"><p><strong>WAR = actual legislative-minus-ticket gap − fitted structural expected gap.</strong> The Democratic candidate receives the race residual; the Republican receives its exact negative. WAR is retrospective, not a win probability.</p></section>
-<section class="explorer"><div class="explorer-top"><div><h2>Explore the results</h2><div class="note">Colors are capped at ±30 margin points, matching the Alabama historical map. Details show uncapped values.</div></div><div class="note" id="vintage"></div></div>
-<div class="controls" aria-label="Map filters"><label>State<select id="state"></select></label><label>Election<select id="cycle"></select></label><label>Chamber<select id="chamber"></select></label></div>
-<div class="dashboard"><div class="map-panel"><h3 class="map-title" id="mapTitle">Loading map…</h3><div class="map-sub" id="mapSub"></div>
-<div class="map-modes" aria-label="Mapped measure"><button data-metric="war" class="active" aria-pressed="true">WAR</button><button data-metric="rawGap" aria-pressed="false">Raw ticket gap</button><button data-metric="structuralGap" aria-pressed="false">Structural expectation</button></div>
-<label class="district-picker">District<select id="district"><option value="">Select a district</option></select></label>
-<div class="map-wrap"><svg id="map" viewBox="0 0 640 700" role="group" aria-label="State legislative district map"></svg><div class="legend"><div class="gradient"></div><div class="ticks"><span>R +30</span><span>R +15</span><span>Even</span><span>D +15</span><span>D +30</span></div><div class="missing-key"><i></i>No eligible WAR score; missing is not zero</div></div></div></div>
-<aside class="detail is-empty" id="detail" aria-label="Selected district race" aria-live="polite"><div class="detail-empty">Select a district to inspect its race.</div></aside></div><div class="summary" id="summary"></div></section>
-<section class="rankings"><h2>Race outcomes and WAR</h2><div class="note">Select a row to open the same race wikibox beside the map. Shares in the wikibox use observed Democratic plus Republican votes.</div><div class="table-wrap"><table><thead><tr><th>District</th><th>Democrat</th><th>Republican</th><th>Result</th><th>Raw gap</th><th>Expected gap</th><th>WAR (D)</th></tr></thead><tbody id="rows"></tbody></table></div></section>
-<section class="method"><h2>Coverage and interpretation</h2><p>Post-2016 races retain the published Southern v3 same-cycle residuals, including 2023 and 2024. The 2016 races are labeled post-2016-model backcasts. Research-only context, non-D/R contests, and missing outcomes remain unscored; absence is not proof that a district was uncontested.</p><p>Fundraising is descriptive only and is shown where both major-party source observations and identities are complete. Missing amounts are unavailable, never zero. Census boundaries are display geometry and do not resolve an unknown provider plan vintage.</p><p><a href="southern-war-methodology.html">Methodology</a> · <a href="data/southern_historical_war_v1_race_war.csv">Race data</a> · <a href="data/southern_war_map_join_audit.csv">Map join audit</a> · <a href="data/southern_historical_war_v1_manifest.json">Model manifest</a></p><p class="source" id="provenance"></p></section>
-</main><script>
+<section class="story-head"><div class="kicker">Southern state legislatures</div><h1>Southern Historical WAR</h1><div class="dek">State legislative race residuals across 14 Southern states, 2016–2024. Compare every state at a glance, then open one to inspect its districts and races.</div>
+<p class="lede"><strong>WAR = actual legislative-minus-ticket gap − fitted structural expected gap.</strong> The Democratic candidate receives the race residual; the Republican receives its exact negative. WAR is retrospective, not a win probability. Purple means the Democrat ran ahead of expectation and orange means the Republican did; gray means no eligible score, and missing WAR is not zero.</p></section>
+<section class="section" id="overview" aria-labelledby="overviewTitle"><div class="section-head"><div><div class="kicker">Overview</div><h2 id="overviewTitle">The South at a glance</h2><p class="note" id="overviewNote"></p></div></div>
+<div class="picker-row"><label>Election year<select id="overviewYear"></select></label><div><span class="seg-label" id="overviewChamberLabel">Chamber</span><div class="seg" role="group" aria-labelledby="overviewChamberLabel"><button data-ochamber="lower" aria-pressed="true">House</button><button data-ochamber="upper" aria-pressed="false">Senate</button></div></div></div>
+<div class="state-grid" id="stateGrid"></div></section>
+<section class="explorer" id="explorer" aria-labelledby="explorerTitle"><div class="explorer-top"><div><div class="kicker">One state</div><h2 id="explorerTitle">Explore a state</h2><p class="note">Colors are capped at ±30 margin points, matching the Alabama historical map. Details show uncapped values.</p></div><div class="note" id="vintage"></div></div>
+<div class="picker-row" role="group" aria-label="Map filters"><label>State<select id="state"></select></label><label>Election<select id="cycle"></select></label><label>Chamber<select id="chamber"></select></label></div>
+<div class="dashboard"><div class="map-panel"><div class="map-head"><div><h3 class="map-title" id="mapTitle">Loading map…</h3><p class="map-sub" id="mapSub"></p></div></div>
+<div class="map-tools"><div><span class="seg-label" id="measureLabel">Measure</span><div class="seg" role="group" aria-labelledby="measureLabel"><button data-metric="war" aria-pressed="true">WAR</button><button data-metric="rawGap" aria-pressed="false">Raw ticket gap</button><button data-metric="structuralGap" aria-pressed="false">Structural expectation</button></div></div><div><span class="seg-label" id="viewLabel">View</span><div class="seg" role="group" aria-labelledby="viewLabel"><button data-view="map" aria-pressed="true">Map</button><button data-view="tiles" aria-pressed="false">Tiles</button></div></div>
+<label class="seg-label" style="display:grid;gap:4px">Highlight<select id="highlight"><option value="0">All races</option><option value="10">±10 points or more</option><option value="20">±20 points or more</option></select></label><label class="seg-label" style="display:grid;gap:4px">District<select id="district"><option value="">Select a district</option></select></label></div>
+<div class="map-host" id="map"></div><div class="war-legend" id="legend"></div></div>
+<aside class="detail" id="detail" aria-label="Selected district race" aria-live="polite"></aside></div></section>
+<section class="rankings" aria-labelledby="racesTitle"><h2 id="racesTitle">Race outcomes and WAR</h2><div class="note">Select a row to open the same race wikibox beside the map. Shares in the wikibox use observed Democratic plus Republican votes.</div><p class="table-scroll-hint">Swipe sideways for every column.</p><div class="table-wrap" tabindex="0" role="region" aria-label="Race outcomes table"><table><thead><tr><th>District</th><th>Democrat</th><th>Republican</th><th>Result</th><th class="num">Raw gap</th><th class="num">Expected gap</th><th class="num">WAR (D)</th></tr></thead><tbody id="rows"></tbody></table></div></section>
+<section class="section method"><h2>Coverage and interpretation</h2><p>Post-2016 races retain the published Southern v3 same-cycle residuals, including 2023 and 2024. The 2016 races are labeled post-2016-model backcasts. Research-only context, non-D/R contests, and missing outcomes remain unscored; absence is not proof that a district was uncontested.</p><p>Fundraising is descriptive only and is shown where both major-party source observations and identities are complete. Missing amounts are unavailable, never zero. Census boundaries are display geometry and do not resolve an unknown provider plan vintage. The Tiles view gives each district one equal square near its location so small city districts stay visible.</p><div class="download-links"><a href="southern-war-methodology.html">Methodology</a><a href="data/southern_historical_war_v1_race_war.csv">Race data</a><a href="data/southern_war_map_join_audit.csv">Map join audit</a><a href="data/southern_historical_war_v1_manifest.json">Model manifest</a></div><p class="source" id="provenance"></p></section>
+</main>
+<script>__MAPJS__</script>
+<script>
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt=v=>v==null?'Unavailable':`${v>=0?'+':''}${Number(v).toFixed(1)}`;
 const count=v=>Number(v).toLocaleString('en-US');
 const money=v=>v==null?'Unavailable':Number(v).toLocaleString('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0});
-const measures={war:'WAR, residual margin points',rawGap:'Raw legislative-minus-ticket gap',structuralGap:'Fitted structural expected gap'};
-let DATA,active,metric='war',selected=null;
+const css=getComputedStyle(document.documentElement),token=n=>css.getPropertyValue(n).trim();
+const reduceMotion=()=>matchMedia('(prefers-reduced-motion: reduce)').matches;
+const panelWidth=()=>Math.max(260,Math.min(560,($('#detail')?.clientWidth||480)-40));
+let origin=null;
+function noteOrigin(){const a=document.activeElement;origin=a?.closest?.('#rows')?'row':a?.closest?.('#map')?'map':a?.closest?.('.swarm')?'swarm':a?.closest?.('#district')?'picker':null}
+function restoreFocus(district){const target=origin==='row'?document.querySelector(`#rows .row-link[data-district="${district}"]`):origin==='swarm'?document.querySelector(`.swarm circle[data-district="${district}"]`):origin==='picker'?$('#district'):document.querySelector('#map [tabindex="0"]');target?.focus({preventScroll:origin!=='map'&&innerWidth<761})}
+const WAR_STOPS=[[-30,'--war-r3'],[-15,'--war-r2'],[-5,'--war-r1'],[0,'--war-0'],[5,'--war-d1'],[15,'--war-d2'],[30,'--war-d3']].map(([v,n])=>[v,token(n)]);
 function mix(a,b,t){const A=a.match(/\w\w/g).map(x=>parseInt(x,16)),B=b.match(/\w\w/g).map(x=>parseInt(x,16));return '#'+A.map((x,i)=>Math.round(x+(B[i]-x)*t).toString(16).padStart(2,'0')).join('')}
-function color(v){if(v==null)return '#d5dce0';const x=Math.max(-30,Math.min(30,v))/30;return x<0?mix('#d34b45','#f2f1ed',1+x):mix('#f2f1ed','#3d77a8',x)}
+function warColor(v){if(v==null||!Number.isFinite(Number(v)))return token('--war-none');const x=Math.max(-30,Math.min(30,Number(v)));for(let i=1;i<WAR_STOPS.length;i++){const[v1,c1]=WAR_STOPS[i-1],[v2,c2]=WAR_STOPS[i];if(x<=v2)return mix(c1,c2,(x-v1)/(v2-v1))}return WAR_STOPS.at(-1)[1]}
+function median(values){const v=values.filter(x=>x!=null).map(Number).sort((a,b)=>a-b);if(!v.length)return null;const m=Math.floor(v.length/2);return v.length%2?v[m]:(v[m-1]+v[m])/2}
+const measures={war:'WAR, residual margin points',rawGap:'Raw legislative-minus-ticket gap',structuralGap:'Fitted structural expected gap'};
+const chamberName=c=>c==='lower'?'House':'Senate';
+let highlight=0,DATA,active,metric='war',selected=null,view='map',siteMap=null,mapKey=null,overviewYear=null,overviewChamber='lower';
+
 function options(select,values,label,preferred){select.innerHTML=values.map(v=>`<option value="${esc(v)}">${esc(label(v))}</option>`).join('');if(values.map(String).includes(String(preferred)))select.value=String(preferred)}
-function syncControls(reset=false){
-  const state=$('#state').value,slices=Object.values(DATA.slices).filter(x=>x.state===state),oldCycle=Number($('#cycle').value),oldChamber=$('#chamber').value;
-  const cycles=[...new Set(slices.map(x=>x.cycle))].sort((a,b)=>a-b);
-  options($('#cycle'),cycles,String,!reset&&cycles.includes(oldCycle)?oldCycle:cycles.at(-1));
-  const cycle=Number($('#cycle').value),chambers=slices.filter(x=>x.cycle===cycle).map(x=>x.chamber).sort();
-  options($('#chamber'),chambers,x=>x==='lower'?'House':'Senate',oldChamber);
-  active=DATA.slices[`${state}-${cycle}-${$('#chamber').value}`];selected=null;
-  options($('#district'),['',...active.features.map(x=>x.district)],x=>x?`District ${x}${active.races[x]?'':' — unscored'}`:'Select a district','');
-  renderMap();renderDetail();renderTable();
-  const c=active.coverage;
-  $('#summary').innerHTML=`<div><b>${active.districts}</b><span>District outlines</span></div><div><b>${c.scored}</b><span>Strict D/R races</span></div><div><b>${c.financeComplete}</b><span>Finance-complete races</span></div><div><b>${c.lagContext}</b><span>Observed lag context</span></div>`;
-}
-function selectDistrict(district){
-  selected=district||null;$('#district').value=selected||'';
-  $$('#map .district').forEach(p=>{p.classList.toggle('selected',p.dataset.district===selected);p.setAttribute('aria-pressed',String(p.dataset.district===selected))});
-  renderDetail();
-}
-function renderMap(){
-  const label=`${active.cycle} ${active.stateName} ${active.chamber==='lower'?'House':'Senate'}`;
-  $('#mapTitle').textContent=label;$('#mapSub').textContent=measures[metric];$('#vintage').textContent=active.censusVintage;
-  $('#map').setAttribute('aria-label',`${label}: ${measures[metric]}`);
-  $('#map').innerHTML=active.features.map(f=>{
-    const r=active.races[f.district],v=r?r[metric]:null,description=`District ${f.district}, ${v==null?'no eligible WAR score':measures[metric]+' '+fmt(v)}`;
-    return `<path class="district${selected===f.district?' selected':''}" data-district="${f.district}" d="${f.path}" fill="${color(v)}" tabindex="0" role="button" aria-pressed="${selected===f.district}" aria-label="${esc(description)}"><title>${esc(description)}</title></path>`;
+function syncUrl(){const q=new URLSearchParams({state:active.state,cycle:active.cycle,chamber:active.chamber,measure:metric,view});if(selected)q.set('district',selected);history.replaceState(null,'',`${location.pathname}?${q}${location.hash}`)}
+
+/* Overview: one small map per state for the chosen election year */
+function renderOverview(){
+  const cycles=[...new Set(Object.values(DATA.slices).map(x=>x.cycle))].sort((a,b)=>a-b);
+  if(overviewYear==null)overviewYear=cycles.includes(2022)?2022:cycles.at(-1);
+  options($('#overviewYear'),cycles,String,overviewYear);
+  $$('[data-ochamber]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.ochamber===overviewChamber));
+  let shown=0,scored=0;
+  $('#stateGrid').innerHTML=Object.keys(DATA.states).map(code=>{
+    const s=DATA.slices[`${code}-${overviewYear}-${overviewChamber}`],name=DATA.states[code];
+    if(!s)return `<button class="state-card" data-state="${code}" disabled aria-disabled="true"><b>${esc(name)}</b><div class="empty">No ${chamberName(overviewChamber)} election in ${overviewYear}</div></button>`;
+    shown++;const races=Object.values(s.races),med=median(races.map(r=>r.war));scored+=races.length;
+    return `<button class="state-card" data-state="${code}" aria-pressed="${active&&active.state===code&&active.cycle===overviewYear&&active.chamber===overviewChamber}" aria-label="${esc(name)} ${overviewYear} ${chamberName(overviewChamber)}: ${races.length} scored races, median WAR ${fmt(med)}. Open this map."><b>${esc(name)}</b><svg viewBox="0 0 640 700" aria-hidden="true"><path d="${s.outline}" fill="${token('--war-none')}"/>${s.features.map(f=>`<path d="${f.path}" fill="${warColor(s.races[f.district]?.war)}" stroke="#fff" stroke-width="1.5" vector-effect="non-scaling-stroke"/>`).join('')}</svg><small>${races.length} scored races · median ${fmt(med)}</small></button>`;
   }).join('');
-  $$('#map .district').forEach(p=>{p.onclick=()=>selectDistrict(p.dataset.district);p.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();p.onclick()}}});
+  $('#overviewNote').textContent=`${shown} states held ${chamberName(overviewChamber)} elections in ${overviewYear}; ${count(scored)} contested D–R races carry a WAR score. Select a state to open its map below.`;
+  $$('.state-card:not([disabled])').forEach(b=>b.addEventListener('click',()=>{$('#state').value=b.dataset.state;syncControls(true,overviewYear,overviewChamber);$('#explorer').scrollIntoView({behavior:reduceMotion()?'auto':'smooth',block:'start'});$('#map [tabindex="0"]')?.focus({preventScroll:true})}));
+}
+
+/* State explorer */
+function syncControls(reset=false,wantCycle=null,wantChamber=null){
+  const state=$('#state').value,slices=Object.values(DATA.slices).filter(x=>x.state===state),oldCycle=wantCycle??Number($('#cycle').value),oldChamber=wantChamber??$('#chamber').value;
+  const cycles=[...new Set(slices.map(x=>x.cycle))].sort((a,b)=>a-b);
+  options($('#cycle'),cycles,String,cycles.includes(oldCycle)?oldCycle:cycles.at(-1));
+  const cycle=Number($('#cycle').value),chambers=slices.filter(x=>x.cycle===cycle).map(x=>x.chamber).sort();
+  options($('#chamber'),chambers,chamberName,oldChamber);
+  active=DATA.slices[`${state}-${cycle}-${$('#chamber').value}`];
+  if(reset||!active.races[selected])selected=null;
+  options($('#district'),['',...active.features.map(x=>x.district)],x=>x?`District ${x}${active.races[x]?'':' — unscored'}`:'Select a district','');
+  if(selected)$('#district').value=selected;
+  renderMap();renderDetail();renderTable();renderOverview();syncUrl();
+}
+function selectDistrict(district,scroll=false){
+  if(district)noteOrigin();
+  selected=district||null;$('#district').value=selected||'';
+  siteMap?.select(selected,{zoom:true});renderDetail();syncUrl();
+  if(scroll&&selected){if(innerWidth<761)$('#detail .close-detail')?.focus({preventScroll:true});else{$('#explorer').scrollIntoView({behavior:reduceMotion()?'auto':'smooth',block:'start'});if(origin!=='map')$('#detail .close-detail')?.focus({preventScroll:true})}}
+}
+function describe(district){const r=active.races[district],v=r?r[metric]:null;return v==null?`<b>District ${esc(district)}</b>No eligible WAR score; missing is not zero`:`<b>District ${esc(district)}</b>${esc(measures[metric])}: ${fmt(v)}<br>${esc(r.demCandidate)} (D) vs. ${esc(r.repCandidate)} (R)`}
+function renderMap(){
+  const label=`${active.cycle} ${active.stateName} ${chamberName(active.chamber)}`;
+  $('#mapTitle').textContent=label;$('#mapSub').textContent=measures[metric];$('#vintage').textContent=active.censusVintage;
+  const key=`${active.state}-${active.cycle}-${active.chamber}`;
+  if(mapKey!==key){
+    mapKey=key;
+    const geometry={viewBox:[0,0,640,700],outline:active.outline,tiles:active.tiles,tileSize:active.tileSize,districts:Object.fromEntries(active.features.map(f=>[f.district,{path:f.path,label:f.label}]))};
+    siteMap=SiteMap.create($('#map'),{geometry,context:{},label:`${label}: ${measures[metric]}`,
+      fill:d=>warColor(active.races[d]?.[metric]),name:d=>{const r=active.races[d];return `District ${d}, ${r?`${measures[metric]} ${fmt(r[metric])}`:'no eligible WAR score'}`},
+      muted:d=>{const v=active.races[d]?.[metric];return highlight>0&&(v==null||Math.abs(v)<highlight)},
+      describe,onSelect:d=>selectDistrict(d,true),onHover:d=>$$('#rows tr').forEach(tr=>tr.classList.toggle('is-hover',tr.dataset.district===d)),tileLabel:d=>d.replace(/^0+/,'')});
+    siteMap.setView(view);
+  }
+  siteMap.refresh();siteMap.select(selected,{zoom:true});
+  const ramp=WAR_STOPS.map(([,c])=>`<i style="background:${c}"></i>`).join('');
+  $('#legend').innerHTML=`<div class="legend-ends"><span>← Republican ran ahead</span><span>Democrat ran ahead →</span></div><div class="legend-ramp">${ramp}</div><div class="legend-ticks"><span>R+30</span><span>R+15</span><span>R+5</span><span>Even</span><span>D+5</span><span>D+15</span><span>D+30</span></div><div class="none"><i></i>No eligible WAR score; missing is not zero</div>`;
 }
 function marginLabel(m){return m===0?'Even':`${m>0?'Democratic':'Republican'} +${Math.abs(m).toFixed(1)} pts`}
 function raceBox(r){
@@ -80,33 +105,61 @@ function raceBox(r){
   const candidates=[{party:'D',name:r.demCandidate,votes:r.demVotes,inc:r.demIncumbent,share:expectedDem},{party:'R',name:r.repCandidate,votes:r.repVotes,inc:r.repIncumbent,share:100-expectedDem}].sort((a,b)=>b.votes-a.votes);
   const tied=r.demVotes===r.repVotes,maximum=Math.max(r.demVotes,r.repVotes);
   const rows=candidates.map(c=>`<tr class="${!tied&&c.votes===maximum?'winner-row':''}"><td class="party-cell ${c.party}"></td><td class="candidate-col">${esc(c.name)} ${c.party}${c.inc?' <small>(inc.)</small>':''}${!tied&&c.votes===maximum?' <span class="check" aria-label="Major-party winner">✓</span>':''}</td><td class="num">${count(c.votes)}</td><td class="num">${(100*c.votes/total).toFixed(1)}%</td><td class="num expected">${count(Math.round(total*c.share/100))}</td><td class="num expected">${c.share.toFixed(1)}%</td></tr>`).join('');
-  return `<div class="racebox"><div class="racebox-head">${active.cycle} ${esc(active.stateName)} ${active.chamber==='lower'?'House':'Senate'} District ${r.district}</div><div class="racebox-sub">${esc(r.electionDate)} · ${esc(r.electionStage.replaceAll('_',' '))} · two-party results</div><div class="racebox-table" role="region" aria-label="Race results; scroll horizontally for the ticket baseline" tabindex="0"><table aria-label="District race outcomes and ticket baseline"><thead><tr><th rowspan="2" aria-label="Party color"></th><th rowspan="2" scope="col">Candidate</th><th colspan="2" class="group-head" scope="colgroup">Actual</th><th colspan="2" class="group-head" scope="colgroup">Ticket baseline</th></tr><tr><th class="num" scope="col">Votes</th><th class="num" scope="col">Share</th><th class="num" scope="col">Votes</th><th class="num" scope="col">Share</th></tr></thead><tbody>${rows}</tbody></table></div><div class="table-scroll-hint">Scroll the table for shares and baseline figures.</div><div class="racebox-comparison"><div><span>Actual margin</span><b>${marginLabel(r.legislativeMargin)} · ${count(Math.abs(r.demVotes-r.repVotes))} votes</b></div><div><span>Ticket baseline margin</span><b>${marginLabel(r.ticketMargin)}</b></div><div><span>Two-party turnout</span><b>${count(total)} votes</b></div><div><span>Other-party votes (excluded above)</span><b>${r.thirdPartyVotes==null?'Unknown':count(r.thirdPartyVotes)}</b></div></div><div class="source-credit">Actual votes: ${esc(r.sourceProvider)} (${esc(r.sourceFamily)}). Source: ${esc(r.sourceFileId||'Legacy source-file linkage unresolved')}. Baseline votes are illustrative, normalized to observed two-party turnout; they are not observed ticket returns.</div></div>`;
+  return `<div class="racebox"><div class="racebox-head">${active.cycle} ${esc(active.stateName)} ${chamberName(active.chamber)} District ${r.district}</div><div class="racebox-sub">${esc(r.electionDate)} · ${esc(r.electionStage.replaceAll('_',' '))} · two-party results</div><div class="racebox-table" role="region" aria-label="Race results; scroll horizontally for the ticket baseline" tabindex="0"><table aria-label="District race outcomes and ticket baseline"><thead><tr><th rowspan="2" aria-label="Party color"></th><th rowspan="2" scope="col">Candidate</th><th colspan="2" class="group-head" scope="colgroup">Actual</th><th colspan="2" class="group-head" scope="colgroup">Ticket baseline</th></tr><tr><th class="num" scope="col">Votes</th><th class="num" scope="col">Share</th><th class="num" scope="col">Votes</th><th class="num" scope="col">Share</th></tr></thead><tbody>${rows}</tbody></table></div><div class="racebox-comparison"><div><span>Actual margin</span><b>${marginLabel(r.legislativeMargin)} · ${count(Math.abs(r.demVotes-r.repVotes))} votes</b></div><div><span>Ticket baseline margin</span><b>${marginLabel(r.ticketMargin)}</b></div><div><span>Two-party turnout</span><b>${count(total)} votes</b></div><div><span>Other-party votes (excluded above)</span><b>${r.thirdPartyVotes==null?'Unknown':count(r.thirdPartyVotes)}</b></div></div><div class="source-credit">Actual votes: ${esc(r.sourceProvider)} (${esc(r.sourceFamily)}). Source: ${esc(r.sourceFileId||'Legacy source-file linkage unresolved')}. Baseline votes are illustrative, normalized to observed two-party turnout; they are not observed ticket returns.</div></div>`;
+}
+/* Raw gap minus the structural expectation equals WAR (Democratic orientation). */
+function waterfall(r){
+  const steps=[['Raw legislative-minus-ticket gap',0,r.rawGap],['Minus the structural expectation',r.rawGap,r.rawGap-r.structuralGap],['WAR',0,r.war]];
+  const values=steps.flat().filter(v=>typeof v==='number'),lo=Math.min(0,...values),hi=Math.max(0,...values),pad=(hi-lo)*.1+1,a=lo-pad,b=hi+pad,W=panelWidth(),L=Math.min(200,W*.45),X=v=>L+(W-L-46)*(v-a)/(b-a);
+  return `<h4>How the score is built</h4><figure class="waterfall"><svg viewBox="0 0 ${W} ${steps.length*28+12}" role="img" aria-label="Raw gap ${fmt(r.rawGap)}, structural expectation ${fmt(r.structuralGap)}, WAR ${fmt(r.war)}"><line x1="${X(0)}" x2="${X(0)}" y1="0" y2="${steps.length*28+12}" stroke="var(--ink)" stroke-dasharray="2 2"/>${steps.map(([label,from,to],i)=>{const y=i*28+6;return `<text x="0" y="${y+14}" font-size="11" ${i===2?'font-weight="700"':''} fill="var(--ink)">${label}</text><rect x="${Math.min(X(from),X(to)).toFixed(1)}" y="${y+4}" width="${Math.max(1.5,Math.abs(X(to)-X(from))).toFixed(1)}" height="16" fill="${warColor(to-from>=0?18:-18)}"/><text x="${(Math.max(X(from),X(to))+4).toFixed(1)}" y="${y+16}" font-size="11" fill="var(--muted)">${i===1?fmt(-r.structuralGap):fmt(to)}</text>`}).join('')}</svg><figcaption class="note">Democratic-oriented margin points: purple bars help the Democrat, orange bars the Republican.</figcaption></figure>`;
+}
+function overviewPanel(){
+  const races=Object.values(active.races),med=median(races.map(r=>r.war)),W=panelWidth(),B=40,R=W<400?4.5:5.5,X=v=>20+(W-40)*(Math.max(-B,Math.min(B,v))+B)/(2*B),placed=[];
+  if(!races.length)return `<div class="panel-kicker">${active.cycle} ${esc(active.stateName)} ${chamberName(active.chamber)}</div><h3>No scored races</h3><div class="warning"><b>No strict WAR-eligible races.</b> This election and chamber have no contested D/R outcome with accepted context. Missing WAR is not zero.</div>`;
+  const dots=[...races].sort((a,b)=>Math.abs(a.war)-Math.abs(b.war)).map(r=>{const cx=X(r.war);let k=0,cy=0;for(;;k++){cy=(k%2?1:-1)*Math.ceil(k/2)*(2*R+.8);if(!placed.some(p=>Math.abs(p.cx-cx)<2*R+.8&&Math.abs(p.cy-cy)<2*R+.8))break}const p={r,cx,cy};placed.push(p);return p});
+  const span=Math.max(R,...placed.map(p=>Math.abs(p.cy)))+R+4,mid=span+22,H=2*span+48;
+  const ticks=[-40,-20,0,20,40].map(v=>`<line x1="${X(v)}" x2="${X(v)}" y1="18" y2="${H-22}" stroke="${v?'var(--rule-soft)':'var(--ink)'}"/><text x="${X(v)}" y="${H-8}" text-anchor="middle" font-size="11" fill="var(--muted)">${v===0?'Even':v<0?`R+${-v}`:`D+${v}`}${Math.abs(v)===B?'+':''}</text>`).join('');
+  const top=[...races].sort((a,b)=>Math.abs(b.war)-Math.abs(a.war))[0];
+  return `<div class="panel-kicker">${active.cycle} ${esc(active.stateName)} ${chamberName(active.chamber)}</div><h3>Select a district</h3><p class="note">Choose a district on the map, a dot below, the district list or a table row.</p><div class="overview-stats"><div><b>${races.length}</b><span>Scored D–R races of ${active.districts}</span></div><div><b>${fmt(med)}</b><span>Median WAR (D-oriented)</span></div><div><b>District ${esc(top.district)}</b><span>Largest residual, ${fmt(top.war)}</span></div></div><h4>Every scored race</h4><figure class="swarm"><svg viewBox="0 0 ${W} ${H}" role="group" aria-label="WAR for every scored race"><text x="0" y="11" font-size="11" font-weight="700" fill="var(--war-r3)">← ${W<400?'R':'Republican'} ran ahead</text><text x="${W}" y="11" text-anchor="end" font-size="11" font-weight="700" fill="var(--war-d3)">${W<400?'D':'Democrat'} ran ahead →</text>${ticks}${dots.map(p=>`<circle data-district="${esc(p.r.district)}" role="button" aria-label="District ${esc(p.r.district)}, WAR ${fmt(p.r.war)}" cx="${p.cx.toFixed(1)}" cy="${(mid+p.cy).toFixed(1)}" r="${R}" fill="${warColor(p.r.war)}"><title>District ${esc(p.r.district)}: ${fmt(p.r.war)}</title></circle>`).join('')}</svg></figure>`;
 }
 function renderDetail(){
-  const box=$('#detail');box.classList.toggle('is-empty',!selected);
-  if(!selected){box.innerHTML='<div class="detail-empty">Select a district to inspect its race.</div>';return}
+  const box=$('#detail');box.classList.toggle('is-open',Boolean(selected));
+  if(!selected){box.innerHTML=overviewPanel();const items=$$('.swarm circle');items.forEach((c,i)=>{c.tabIndex=i===0?0:-1;c.addEventListener('click',()=>{c.focus({preventScroll:true});selectDistrict(c.dataset.district,true)});c.addEventListener('keydown',e=>{const moves={ArrowRight:1,ArrowDown:1,ArrowLeft:-1,ArrowUp:-1};if(e.key in moves){e.preventDefault();const n=items[(i+moves[e.key]+items.length)%items.length];items.forEach(x=>x.tabIndex=-1);n.tabIndex=0;n.focus()}else if(e.key==='Enter'||e.key===' '){e.preventDefault();selectDistrict(c.dataset.district,true)}})});return}
   const r=active.races[selected],close='<button class="close-detail" aria-label="Close district details">×</button>';
-  if(!r){box.innerHTML=`${close}<h3>District ${selected}</h3><p>${esc(active.stateName)} ${active.cycle} ${active.chamber==='lower'?'House':'Senate'}</p><div class="warning"><b>No eligible WAR score.</b> This district lacks a strict observed D/R outcome with accepted context. Missing WAR is not zero, and does not establish an uncontested election.</div><p><a href="${esc(active.sourceUrl)}">Census display boundary source</a></p>`}
+  if(!r){box.innerHTML=`${close}<div class="panel-kicker">${esc(active.stateName)} ${active.cycle} ${chamberName(active.chamber)}</div><h3>District ${esc(selected)}</h3><div class="warning"><b>No eligible WAR score.</b> This district lacks a strict observed D/R outcome with accepted context. Missing WAR is not zero, and does not establish an uncontested election.</div><p><a href="${esc(active.sourceUrl)}">Census display boundary source</a></p>`}
   else{
     const demWinner=r.demVotes>r.repVotes,tied=r.demVotes===r.repVotes,war=demWinner||tied?r.war:-r.war;
     const headline=tied?`District ${r.district} — tied result`:demWinner?r.demCandidate:r.repCandidate;
     const scope=r.scope.includes('backcast')?'2016 post-2016-model backcast':'Published same-cycle residual';
-    box.innerHTML=`${close}<div class="candidate-headline"><h3>${esc(headline)}</h3><div class="party ${demWinner?'D':'R'}">${tied?'Tied major-party vote':demWinner?'Democratic major-party winner':'Republican major-party winner'} · District ${r.district}</div><div class="war-number">${fmt(war)}</div><div class="war-label">${tied?'Democratic':'Winner'} WAR · margin points</div></div>${raceBox(r)}<div class="decomp"><div class="decomp-title">Residual decomposition · Democratic orientation</div><div class="stat"><span>Raw legislative-minus-ticket gap</span><b>${fmt(r.rawGap)}</b></div><div class="stat"><span>Fitted structural expectation</span><b>${fmt(r.structuralGap)}</b></div><div class="stat"><span>WAR</span><b>${fmt(r.war)}</b></div><div class="stat"><span>Lag component</span><b>${fmt(r.lagComponent)}</b></div><div class="stat"><span>Scoring method</span><b>${scope}</b></div><div class="stat"><span>Lag context</span><b>${r.lagContextAvailable?'Observed':'Unavailable; zero-valued model encoding'}</b></div></div><div class="decomp"><div class="decomp-title">${r.financeComplete?'Fundraising overlay':'Fundraising unavailable'}</div>${r.financeComplete?`<div class="stat"><span>${esc(r.demCandidate)}</span><b>${money(r.demFundraising)}</b></div><div class="stat"><span>${esc(r.repCandidate)}</span><b>${money(r.repFundraising)}</b></div>`:'<p>Both candidate observations and identities are not complete. Missing is not zero.</p>'}<div class="note">Descriptive only; fundraising does not enter WAR.</div></div><div class="decomp"><div class="decomp-title">Source quality</div><div class="quality-grid"><div><span>Baseline office</span><b>${esc(r.baselineOffice)}</b></div><div><span>Warehouse plan</span><b>${esc(r.warehousePlan)}</b></div><div><span>Result geography</span><b>${esc(r.warehouseGeography)}</b></div><div><span>Display boundary</span><b><a href="${esc(active.sourceUrl)}">${esc(active.censusVintage)}</a></b></div></div></div><div class="explain">A race residual cannot separate candidate strength, opponent weakness, and omitted local conditions. ${r.scope.includes('backcast')?'This is a backward application of a model trained only on post-2016 races.':''}</div>`;
+    box.innerHTML=`${close}<div class="panel-kicker">${active.cycle} ${esc(active.stateName)} ${chamberName(active.chamber)} · District ${esc(r.district)}</div><h3>${esc(headline)}</h3><div class="party ${demWinner?'D':'R'}">${tied?'Tied major-party vote':demWinner?'Democratic major-party winner':'Republican major-party winner'}</div><div class="war-number" style="color:${warColor(r.war>=0?20:-20)}">${fmt(war)}</div><div class="war-label">${tied?'Democratic':'Winner'} WAR · margin points</div>${waterfall(r)}${raceBox(r)}<div class="decomp"><div class="decomp-title">Residual decomposition · Democratic orientation</div><div class="stat"><span>Raw legislative-minus-ticket gap</span><b>${fmt(r.rawGap)}</b></div><div class="stat"><span>Fitted structural expectation</span><b>${fmt(r.structuralGap)}</b></div><div class="stat"><span>WAR</span><b>${fmt(r.war)}</b></div><div class="stat"><span>Lag component</span><b>${fmt(r.lagComponent)}</b></div><div class="stat"><span>Scoring method</span><b>${scope}</b></div><div class="stat"><span>Lag context</span><b>${r.lagContextAvailable?'Observed':'Unavailable; zero-valued model encoding'}</b></div></div><div class="decomp"><div class="decomp-title">${r.financeComplete?'Fundraising overlay':'Fundraising unavailable'}</div>${r.financeComplete?`<div class="stat"><span>${esc(r.demCandidate)}</span><b>${money(r.demFundraising)}</b></div><div class="stat"><span>${esc(r.repCandidate)}</span><b>${money(r.repFundraising)}</b></div>`:'<p class="note">Both candidate observations and identities are not complete. Missing is not zero.</p>'}<p class="note">Descriptive only; fundraising does not enter WAR.</p></div><div class="decomp"><div class="decomp-title">Source quality</div><div class="quality-grid"><div><span>Baseline office</span><b>${esc(r.baselineOffice)}</b></div><div><span>Warehouse plan</span><b>${esc(r.warehousePlan)}</b></div><div><span>Result geography</span><b>${esc(r.warehouseGeography)}</b></div><div><span>Display boundary</span><b><a href="${esc(active.sourceUrl)}">${esc(active.censusVintage)}</a></b></div></div></div><div class="explain">A race residual cannot separate candidate strength, opponent weakness, and omitted local conditions. ${r.scope.includes('backcast')?'This is a backward application of a model trained only on post-2016 races.':''}</div>`;
   }
-  box.querySelector('.close-detail').onclick=()=>{selectDistrict(null);$('#district').focus()};
+  box.querySelector('.close-detail').onclick=()=>{const was=selected;selectDistrict(null);restoreFocus(was)};
 }
+function warBar(v){const B=40,X=t=>45+43*Math.max(-B,Math.min(B,t))/B;return `<svg viewBox="0 0 90 12" width="90" height="12" aria-hidden="true"><line x1="45" x2="45" y1="0" y2="12" stroke="var(--ink)"/><rect x="${Math.min(45,X(v)).toFixed(1)}" y="2" width="${Math.abs(X(v)-45).toFixed(1)}" height="8" fill="${warColor(v>=0?18:-18)}"/></svg>`}
 function renderTable(){
   const races=Object.values(active.races).sort((a,b)=>Number(a.district)-Number(b.district));
-  $('#rows').innerHTML=races.length?races.map(r=>`<tr><td><button class="row-link" data-district="${r.district}">${active.chamber==='lower'?'House':'Senate'} ${r.district}</button></td><td>${esc(r.demCandidate)}</td><td>${esc(r.repCandidate)}</td><td>${r.demVotes===r.repVotes?'Tie':r.demVotes>r.repVotes?'D won':'R won'}</td><td class="num">${fmt(r.rawGap)}</td><td class="num">${fmt(r.structuralGap)}</td><td class="num"><b>${fmt(r.war)}</b></td></tr>`).join(''):'<tr><td colspan="7">No strict WAR-eligible races in this election and chamber.</td></tr>';
-  $$('.row-link').forEach(b=>b.onclick=()=>{selectDistrict(b.dataset.district);$('#detail').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'nearest'})});
+  $('#rows').innerHTML=races.length?races.map(r=>`<tr data-district="${esc(r.district)}"><td><button class="row-link" data-district="${esc(r.district)}">${chamberName(active.chamber)} ${esc(r.district)}</button></td><td>${esc(r.demCandidate)}</td><td>${esc(r.repCandidate)}</td><td>${r.demVotes===r.repVotes?'Tie':r.demVotes>r.repVotes?'D won':'R won'}</td><td class="num">${fmt(r.rawGap)}</td><td class="num">${fmt(r.structuralGap)}</td><td class="num"><div class="war-cell"><b>${fmt(r.war)}</b>${warBar(r.war)}</div></td></tr>`).join(''):'<tr><td colspan="7">No strict WAR-eligible races in this election and chamber.</td></tr>';
+  $$('.row-link').forEach(b=>b.onclick=()=>selectDistrict(b.dataset.district,true));
 }
 async function init(){
   const response=await fetch('data/southern_war_map_payload.json');if(!response.ok)throw new Error(`Payload HTTP ${response.status}`);DATA=await response.json();
-  options($('#state'),Object.keys(DATA.states),x=>DATA.states[x],'AL');
+  const q=new URLSearchParams(location.search);
+  if(['war','rawGap','structuralGap'].includes(q.get('measure')))metric=q.get('measure');
+  view=q.get('view')==='tiles'?'tiles':'map';
+  options($('#state'),Object.keys(DATA.states),x=>DATA.states[x],DATA.states[q.get('state')]?q.get('state'):'AL');
   $('#state').onchange=()=>syncControls(true);$('#cycle').onchange=()=>syncControls();$('#chamber').onchange=()=>syncControls();$('#district').onchange=()=>selectDistrict($('#district').value);
-  $$('[data-metric]').forEach(b=>b.onclick=()=>{metric=b.dataset.metric;$$('[data-metric]').forEach(x=>{x.classList.toggle('active',x===b);x.setAttribute('aria-pressed',String(x===b))});renderMap()});
+  $('#highlight').onchange=e=>{highlight=Number(e.target.value);siteMap?.refresh()};
+  $('#overviewYear').onchange=e=>{overviewYear=Number(e.target.value);renderOverview()};
+  $$('[data-ochamber]').forEach(b=>b.onclick=()=>{overviewChamber=b.dataset.ochamber;renderOverview()});
+  $$('[data-metric]').forEach(b=>{b.setAttribute('aria-pressed',String(b.dataset.metric===metric));b.onclick=()=>{metric=b.dataset.metric;$$('[data-metric]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));renderMap();syncUrl()}});
+  $$('[data-view]').forEach(b=>{b.setAttribute('aria-pressed',String(b.dataset.view===view));b.onclick=()=>{view=b.dataset.view;$$('[data-view]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));siteMap.setView(view);syncUrl()}});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&selected){const was=selected;selectDistrict(null);restoreFocus(was)}});
+  let resizeTimer=null,lastWidth=innerWidth;
+  addEventListener('resize',()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(()=>{if(innerWidth===lastWidth||!active)return;lastWidth=innerWidth;renderDetail()},200)});
   $('#provenance').textContent=`Run ${DATA.runId} · Generated ${DATA.generatedAt} · ${DATA.diagnostics.scheduledSlices} scheduled election/chamber maps`;
-  syncControls(true);
+  const wantCycle=Number(q.get('cycle'))||null,wantChamber=q.get('chamber');
+  syncControls(true,wantCycle,wantChamber);
+  if(q.get('district')&&active.features.some(f=>f.district===q.get('district')))selectDistrict(q.get('district'));
 }
-init().catch(error=>{$('#mapTitle').textContent='Map failed to load';$('#detail').classList.remove('is-empty');$('#detail').textContent=error.message});
+init().catch(error=>{$('#mapTitle').textContent='Map failed to load';$('#detail').textContent=error.message});
 </script></body></html>

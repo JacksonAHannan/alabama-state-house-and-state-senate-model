@@ -65,7 +65,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
 <script id="checklist-data" type="application/json">
 {
   "schemaVersion": 1,
-  "revision": "2026-09-15T05:36:25Z",
+  "revision": "2026-10-05T22:07:49Z",
   "title": "Four-product completion checklist",
   "baselineDate": "2026-09-05",
   "baselineCode": "88878b9 (existing dirty worktree)",
@@ -741,6 +741,34 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
           "detail": "3,068 strict pre-2016 races in the panel are unused. The owner chose one fixed reference model; revisit only if the era-sensitivity disclosure proves too weak for a reader, and keep any second model clearly separate.",
           "done": false,
           "evidence": ""
+        },
+        {
+          "id": "roadmap-05",
+          "text": "Redesign the maps and graphics across the four products",
+          "detail": "Implement the 2026-10-03 visual audit as local candidates (WEB-VISUAL-REDESIGN-20261003): replace the CARTO basemap that now serves 'API KEY REQUIRED' tiles, shared SVG map with equal-area tiles and linked selection, forecast seat strip and table encodings, WAR timeline and non-party purple-orange fills, Southern overview, ideology chart fixes, methodology figures and one type scale. Owner decisions 2026-10-03: local build only; majority line only. Publication requires a separate authorization.",
+          "done": false,
+          "evidence": "2026-10-05 in review (WEB-VISUAL-REDESIGN-20261003). Local candidates for all four products and three methodology pages. First independent review: every finding fixed. Owner follow-ups 2026-10-04: the selection focus box is replaced by a halo outline with the rest of the map dimmed; map hatching that had never drawn is fixed; the '2022 result' map mode is added behind a plan-equivalence audit (140/140 districts have identical blocks; SD25/26 are conditional on the reinstated 2021 map); the polling-replay and environment-versus-seats charts are added; the ideology page renders the owner-approved two-group run. 29 focused test files pass, except the expected publication-consistency failure (docs/ lags the repaired historical WAR). Open: second independent pass; publication not authorized (audits/WEB_VISUAL_REDESIGN_VALIDATION_2026_10_03.md)."
+        },
+        {
+          "id": "roadmap-06",
+          "text": "Export the forecast summaries the new graphics need",
+          "detail": "FORECAST-VISUAL-EXPORTS-20261003: environment-by-seat joint distribution, a polling-replay series labelled as a sensitivity rather than an archived history, and an append-only run ledger, with every existing forecast value unchanged.",
+          "done": false,
+          "evidence": "2026-10-05 implemented and in review (FORECAST-VISUAL-EXPORTS-20261003). The owner approved the main() edit and the forecast rerun. Build 08feb2c9669842846d3f reproduces every pre-existing export byte for byte. The environment-seat joint reproduces the modeled-seat distribution exactly; the run ledger is append-only. The polling replay covers 9 weekly dates (2026-07-14 to 2026-09-08; the quality-gated catalog has 12 polls) and reproduces the current outlook exactly. Field rules are in project_docs/model/ALABAMA_WAR_FORECAST_GRAPHICS_EXPORTS.md; they were moved there because the shared field contract is a declared alabama_war_v1 input. Tests pass. Open: independent validation with the redesign pass. 2026-10-05 update: the national environment now comes from the Silver Bulletin generic-ballot tracker (owner decision; Split Ticket publishes no 2026 average). The public daily-average chart is registered as a dated raw snapshot. The two-party margin is D+9.71 as of 2026-10-05. Forecast build ca64e43e988cc59c12bc has unchanged toplines. The replay now uses the tracker's series (40 weeks of 2026). See FORECAST_POLLING_SNAPSHOT_POLICY section 9."
+        },
+        {
+          "id": "roadmap-07",
+          "text": "Build reconciled seats won by party, 1994-2022",
+          "detail": "ALABAMA-SEATS-BY-CYCLE-20261003: Alabama House and Senate seats won at each regular general election from the warehouse, reconciled against registered independent references, unknowns explicit, for the forecast page's historical context chart. Not chamber composition at session start.",
+          "done": true,
+          "evidence": "2026-10-03 ALABAMA-SEATS-BY-CYCLE-20261003: run AL-SEATS-V1-44C73422B2A2A12D733C, 1,120 district rows (1,095 observed, 25 unknown), totals sum to chamber size, 16 tests pass and parent re-verified; 2002, 2018 and 2022 plus 2010 and 2014 House totals match independent references, others queued (51 review items, 34 blocking). Consumed by the forecast page's \"Seats won since 1994\" chart with unknown seats hatched. Open source finding: 1994 canonical party labels are ballot-order inferences that conflict with Klarner in 19 districts (audits/ALABAMA_SEATS_BY_CYCLE_V1.md)."
+        },
+        {
+          "id": "roadmap-08",
+          "text": "Repair 1994 legislative party labels and the House 92 district",
+          "detail": "ALABAMA-1994-PARTY-LABELS-20261004. The 1994 precinct adapter read export ballot positions as parties and could not parse 'House 92'. The repair corrects the 1994 canonical candidates from the official SOS 1994 legislative workbook, Klarner and the pre-election roster, under owner decisions dated 2026-10-04 (HD41 R; HD19 Hall D vs Anderson I; SD25 Dixon R, not scored; HD1 1994 WAR withheld; SD31 Ellis not an incumbent), then rebuilds the dependent products. Publication requires separate authorization.",
+          "done": false,
+          "evidence": "2026-10-05 applied and in review. Independent review and delta review passed. Warehouse run RUN-9BDA412C4AD042C9A1F048C781525670, with a backup taken. 1994 seats reconcile to Klarner (House 74 D / 31 R, Senate 23 D / 12 R). Historical WAR AL-HIST-WAR-V1-F9D2E0FDE6D38F490402: 504 races, 503 scored, non-1994 WAR identical. A September regression in 1994 presidential precinct matching was found and fixed. Caucus run AL-DEM-CAUCUS-V1-50163B73E5B72BC8A0F9 has k=2 with approved labels. Open: independent review of the rebuilt 1994 WAR; republication (audits/ALABAMA_1994_PARTY_LABEL_REPAIR_2026_10_04.md). 2026-10-05 follow-up (ALABAMA-1994-INCUMBENCY-20261005): fixed the merge mask that dropped all 1994 incumbency from WAR, and the blank pre-2010 candidate incumbency labels. 1994 incumbents come from owner-directed Wikipedia research (25 adjudications, 73 -> 96 incumbents; HD10 left unknown in the review queue). Historical WAR AL-HIST-WAR-V1-F9DF2D2E6C12C696A705: non-1994 WAR identical; 42 of 66 1994 races now carry incumbency. Open: independent review (audits/ALABAMA_1994_INCUMBENCY_2026_10_05.md)."
         }
       ]
     }
@@ -985,6 +1013,24 @@ nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:20px 0}nav a{font-size:14px}
       "done": 80,
       "total": 86,
       "event": "release-03 accepted: the twelve standing suite failures adjudicated and resolved, five of them real defects left by the Morgan and 2002 Marshall repairs (finance universe one race short, four ideology universes two candidates short, repair guard blind to adjudications, Vote Smart resolver crash, stale CQI panel)."
+    },
+    {
+      "at": "2026-10-04T01:30:26Z",
+      "done": 80,
+      "total": 89,
+      "event": "Scope added: roadmap-05 (maps and graphics redesign), roadmap-06 (forecast exports for the new graphics) and roadmap-07 (reconciled seats won by party, 1994-2022) from the 2026-10-03 visual audit; owner chose a local build only, non-party WAR fills, majority line only, and building the missing data."
+    },
+    {
+      "at": "2026-10-04T02:46:40Z",
+      "done": 81,
+      "total": 89,
+      "event": "roadmap-07 accepted (reconciled seats won by party, 1994-2022, with a 1994 party-label source finding); roadmap-05 local candidates built and checked, pending independent review and owner decisions; roadmap-06 blocked on permission to edit the forecast run script."
+    },
+    {
+      "at": "2026-10-05T01:34:35Z",
+      "done": 81,
+      "total": 90,
+      "event": "Scope added: roadmap-08 (1994 party-label and House 92 repair; applied and dependents rebuilt, in review). roadmap-05 owner follow-ups done (selection display, hatching fix, 2022-result map mode, new forecast charts, ideology page on the approved run), in review; roadmap-06 implemented after owner approval, in review."
     }
   ]
 }

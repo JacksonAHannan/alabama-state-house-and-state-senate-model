@@ -1,0 +1,552 @@
+{
+  "product": "alabama_seats_by_cycle_v1",
+  "run_id": "AL-SEATS-V1-99F2D5EF80B48E69BF5B",
+  "generated_at_utc": "2026-10-05T01:27:16+00:00",
+  "status": "local build for review; not published",
+  "definition": "Seats won by party at the regular general election, counted as the final-stage general-election winner of each district. This is not chamber composition at session start. Uncontested seats count for the winner's party. A district whose winner cannot be determined from the warehouse, or whose warehouse winner is contradicted by other evidence, is 'unknown' and queued for review; no winner is inferred from a reference page or filled in silently.",
+  "excluded_from_definition": [
+    "special elections and special runoffs",
+    "appointments to vacancies",
+    "deaths, resignations and other vacancies after the general election",
+    "party switches after the general election",
+    "primary and primary-runoff results"
+  ],
+  "code": {
+    "git_head": "178d6f4841855dbc4d5d85656421290343daaf8b",
+    "script": "scripts/build_alabama_seats_by_cycle.py",
+    "script_sha256": "850845509a316d5257bfb2638430827fcb91626bede5bc6172e3aef6ce1d4849",
+    "script_git_status": "?? scripts/build_alabama_seats_by_cycle.py",
+    "command": "python scripts/build_alabama_seats_by_cycle.py"
+  },
+  "warehouse": {
+    "path": "data/processed/elections/alabama_elections.sqlite",
+    "bytes": 5819465728,
+    "mtime_utc": "2026-10-05T01:24:09+00:00",
+    "sha256": "d80a84f64e46c8ec121ef6f8d29212c79d4633e125be407b89eeb6b93afbc89f",
+    "sha256_note": "whole-file hash",
+    "connection": "sqlite3 URI mode=ro with PRAGMA query_only=ON; no writes",
+    "schema_version": {
+      "version": 27,
+      "applied_at_utc": "2026-09-08T13:08:35.657Z",
+      "description": "Alabama canonical candidate to certified canvass cell bridge with vote-agreement evidence"
+    },
+    "latest_validated_build_run": {
+      "build_run_id": "RUN-888AECE6AFFC4A3DB79A2F99520D9DD2",
+      "target": "historical_1994_context",
+      "completed_at_utc": "2026-10-05T01:24:09.396007+00:00",
+      "status": "validated",
+      "code_commit": "178d6f4841855dbc4d5d85656421290343daaf8b"
+    },
+    "selected_row_build_runs": [
+      {
+        "build_run_id": "RUN-9BDA412C4AD042C9A1F048C781525670",
+        "target": "alabama_1994_party_label_repair",
+        "completed_at_utc": "2026-10-05T01:14:25.849689+00:00",
+        "status": "validated",
+        "code_commit": "178d6f4841855dbc4d5d85656421290343daaf8b"
+      },
+      {
+        "build_run_id": "RUN-DFB1D093D7594AB68A264292050E924D",
+        "target": "alabama_2002_marshall_canonical_repair",
+        "completed_at_utc": "2026-09-11T15:44:38.937818+00:00",
+        "status": "validated",
+        "code_commit": "38c30819f3524c3d97cb7a1bfa4fb6ec00e8f249"
+      },
+      {
+        "build_run_id": "RUN-F8FBA87A48244C2B83960ACE5EAFFBBD",
+        "target": "southern_legislative_election_history",
+        "completed_at_utc": "2026-08-30T22:58:10.950990+00:00",
+        "status": "validated",
+        "code_commit": "569b019fecb7786a1c824fcc81490202e39cc4bc"
+      },
+      {
+        "build_run_id": "legacy-alabama-canonical",
+        "registered": false,
+        "note": "synthetic id emitted by the all-observations view"
+      }
+    ],
+    "consumed_content_sha256": {
+      "selected": "46396d9ece2d5a1389aa14e82af96ae4b8e7ae46f65925adc049489dabc22cb8",
+      "canonical": "13b8f70f17285830c1bec75a945844903062fdc7d0bcbce66f8a6c33e31d7737",
+      "observations": "c26fce18aae203097b64e5f3b49f2e32e3d09a33539fb5b879490e943888575f",
+      "bridge": "e489e2db4ebb0574ad1dca49b3b62e8678d43efec90da3d32a70a47a8947d217"
+    },
+    "objects_read": [
+      "fact_southern_legislative_final_candidate_election",
+      "canonical_candidates",
+      "source_southern_legislative_observation_set",
+      "source_southern_legislative_candidate_result",
+      "bridge_alabama_canonical_candidate_certified_result",
+      "canonical_southern_legislative_candidate_election",
+      "warehouse_build_run",
+      "warehouse_schema_version"
+    ],
+    "alabama_legislative_sets_by_stage_in_cycle_span": [
+      {
+        "warehouse_object": "canonical_southern_legislative_candidate_election",
+        "election_stage": "general",
+        "observation_sets": 1122
+      },
+      {
+        "warehouse_object": "source_southern_legislative_observation_set",
+        "election_stage": "general",
+        "observation_sets": 1540
+      }
+    ]
+  },
+  "scope": {
+    "state": "AL",
+    "cycles": [
+      1994,
+      1998,
+      2002,
+      2006,
+      2010,
+      2014,
+      2018,
+      2022
+    ],
+    "chamber_sizes": {
+      "house": 105,
+      "senate": 35
+    },
+    "plan_rule": "Each cycle's districts are those reported for that cycle (warehouse district_plan_id carried per row); districts are never relabelled across plans."
+  },
+  "rules": {
+    "selection": "fact_southern_legislative_final_candidate_election: one regular general-election observation set per cycle/chamber/district (Alabama canonical first; Klarner only where the canonical record omits the contest).",
+    "winner": "Recorded winner flag of the selected set (canonical_candidates.winner or Klarner winner_status); it must be unique and equal the plurality of the set's named candidates when all votes are present.",
+    "cross_check": "Every other general-election warehouse observation of the same contest (Klarner, certified SOS canvass, MEDSL) is reduced to its plurality winner's party; any disagreement makes the district unknown.",
+    "reference_check": "Saved Wikipedia district result tables (2010-2022) are compared by winner party only. A contradiction makes the district unknown only when an external seat total (Wikipedia infobox or Ballotpedia) for the same cycle and chamber is off from the warehouse-only count in the same direction; otherwise it is queued as a non-blocking item. References never supply or change a winner.",
+    "contest_status": "contested = two or more named ballot candidates in any observation; uncontested = exactly one named candidate in every full-ballot observation (write-in aggregates are not opponents); otherwise unknown. A D/R-only canonical set never establishes uncontested on its own, and a reference-backed winner conflict turns 'uncontested' into unknown.",
+    "party_buckets": "democratic, republican, other (independent and minor parties), unknown (winner_status unknown).",
+    "reconciliation_status": {
+      "match": "all reported party counts equal ours and neither side has unknowns",
+      "consistent_with_unknowns": "differences are fully explained by our unknown or the reference's undetermined seats",
+      "mismatch": "reported counts cannot be reached by resolving unknowns",
+      "mismatch_incomplete_reference": "reference does not account for every seat and its reported counts differ",
+      "reference_unavailable": "saved page has no seat totals for this cycle"
+    }
+  },
+  "inputs": {
+    "reference_files": [
+      {
+        "reference_path": "data/raw/alabama_elections_and_geography/2010 Alabama House of Representatives election - Wikipedia.html",
+        "reference_sha256": "7e893d2f4827a06f0a1db8c6455efd2449f9051890858c1700deb71231079e74",
+        "reference_registration": "local untracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "house",
+        "kind": "wikipedia",
+        "bytes": 1355405,
+        "provenance": "https://en.wikipedia.org/wiki/2010_Alabama_House_of_Representatives_election; This page was last edited on 24 July 2026, at 18:30 (UTC) ."
+      },
+      {
+        "reference_path": "data/raw/alabama_elections_and_geography/2014 Alabama Senate election - Wikipedia.html",
+        "reference_sha256": "423f347e7caa6f9521099924f62dc68cf217e134a76940b6cf1b58efc7f519c9",
+        "reference_registration": "local untracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "senate",
+        "kind": "wikipedia",
+        "bytes": 787218,
+        "provenance": "https://en.wikipedia.org/wiki/2014_Alabama_Senate_election; This page was last edited on 25 May 2026, at 15:57 (UTC) ."
+      },
+      {
+        "reference_path": "data/raw/alabama_elections_and_geography/2026 Alabama House of Representatives election - Wikipedia.html",
+        "reference_sha256": "497e035eac2f4386d3ae406fc5a82371f532702f6a8f2779dae1a9610e98ee02",
+        "reference_registration": "local untracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "house",
+        "kind": "wikipedia",
+        "bytes": 2622391,
+        "provenance": "https://en.wikipedia.org/wiki/2026_Alabama_House_of_Representatives_election; This page was last edited on 6 August 2026, at 20:56 (UTC) ."
+      },
+      {
+        "reference_path": "data/raw/alabama_elections_and_geography/2026 Alabama Senate election - Wikipedia.html",
+        "reference_sha256": "9190e967e2a740c22a2202615eb37edd6dd070150047e92e50d606ec9df80742",
+        "reference_registration": "local untracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "senate",
+        "kind": "wikipedia",
+        "bytes": 1438158,
+        "provenance": "https://en.wikipedia.org/wiki/2026_Alabama_Senate_election; This page was last edited on 10 August 2026, at 15:54 (UTC) ."
+      },
+      {
+        "reference_path": "data/raw/ballotpedia/election_indexes/1994_house.md",
+        "reference_sha256": "65d04509bb28047f978f908d28255b455eff976dd7a78181de7383f530e21e79",
+        "reference_registration": "local untracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "house",
+        "kind": "ballotpedia",
+        "bytes": 26754,
+        "provenance": "https://ballotpedia.org/Alabama_House_of_Representatives_elections,_1994"
+      },
+      {
+        "reference_path": "data/raw/ballotpedia/election_indexes/1994_senate.md",
+        "reference_sha256": "1509a58169ce628fc7f4c77d3d5643505be953c3d75f382ef572a532d9cb1c89",
+        "reference_registration": "local untracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "senate",
+        "kind": "ballotpedia",
+        "bytes": 26415,
+        "provenance": "https://ballotpedia.org/Alabama_State_Senate_elections,_1994; Published Time: Tue, 21 Mar 2023 05:02:13 GMT"
+      },
+      {
+        "reference_path": "data/raw/ballotpedia/election_indexes/1998_house.md",
+        "reference_sha256": "168228f7e926553950a16df4fdb503c7c5eb637e0316796ea1c20cce2d9349c1",
+        "reference_registration": "local untracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "house",
+        "kind": "ballotpedia",
+        "bytes": 26592,
+        "provenance": "https://ballotpedia.org/Alabama_House_of_Representatives_elections,_1998; Published Time: Mon, 13 Apr 2026 04:19:11 GMT"
+      },
+      {
+        "reference_path": "data/raw/ballotpedia/election_indexes/1998_senate.md",
+        "reference_sha256": "ee9195040149f0998293551f991546afd6f292121a85fa6c23b5f1fd39230580",
+        "reference_registration": "local untracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "senate",
+        "kind": "ballotpedia",
+        "bytes": 27946,
+        "provenance": "https://ballotpedia.org/Alabama_State_Senate_elections,_1998"
+      },
+      {
+        "reference_path": "data/raw/ballotpedia/election_indexes/2002_house.md",
+        "reference_sha256": "9892dd70b5226f400d05594acd3906cb8057256c88ae2e4a4123e23e5d16c887",
+        "reference_registration": "local untracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "house",
+        "kind": "ballotpedia",
+        "bytes": 66287,
+        "provenance": "https://ballotpedia.org/Alabama_House_of_Representatives_elections,_2002; Published Time: Tue, 21 Mar 2023 05:02:13 GMT"
+      },
+      {
+        "reference_path": "data/raw/ballotpedia/election_indexes/2002_senate.md",
+        "reference_sha256": "795175b45665a3f68bd51bbc8ff5f5c1a44de9588b62c24d75df54ec1c16cb6c",
+        "reference_registration": "local untracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "senate",
+        "kind": "ballotpedia",
+        "bytes": 61350,
+        "provenance": "https://ballotpedia.org/Alabama_State_Senate_elections,_2002; Published Time: Tue, 21 Mar 2023 05:02:13 GMT"
+      },
+      {
+        "reference_path": "data/raw/ballotpedia/election_indexes/2006_house.md",
+        "reference_sha256": "5037df82477bf1d4c4182358e2e8b49d96c4d7a075c8b15af22b49b5d3bd8f96",
+        "reference_registration": "local untracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "house",
+        "kind": "ballotpedia",
+        "bytes": 120,
+        "provenance": "https://ballotpedia.org/Alabama_House_of_Representatives_elections,_2006"
+      },
+      {
+        "reference_path": "data/raw/ballotpedia/election_indexes/2006_senate.md",
+        "reference_sha256": "f154be1730dbb5d7e15aaff603dc9bd98a296b05848d88d68fe6ed97640adad6",
+        "reference_registration": "local untracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "senate",
+        "kind": "ballotpedia",
+        "bytes": 61649,
+        "provenance": "https://ballotpedia.org/Alabama_State_Senate_elections,_2006; Published Time: Mon, 13 Apr 2026 04:19:11 GMT"
+      },
+      {
+        "reference_path": "data/raw/ballotpedia/election_indexes/2010_house.md",
+        "reference_sha256": "2d9f53d4d416a2efebcbf69fef9c2d8a1d71bc2e8386fb631a69dea9165e7e34",
+        "reference_registration": "local untracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "house",
+        "kind": "ballotpedia",
+        "bytes": 175546,
+        "provenance": "https://ballotpedia.org/Alabama_House_of_Representatives_elections,_2010; Published Time: Tue, 21 Mar 2023 05:02:13 GMT"
+      },
+      {
+        "reference_path": "data/raw/ballotpedia/election_indexes/2010_senate.md",
+        "reference_sha256": "4a7259b59b5bf1121743f78f4a80364fed7b4438919b15d7b551a74b56dc6b1b",
+        "reference_registration": "local untracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "senate",
+        "kind": "ballotpedia",
+        "bytes": 73334,
+        "provenance": "https://ballotpedia.org/Alabama_State_Senate_elections,_2010; Published Time: Tue, 21 Mar 2023 05:02:13 GMT"
+      },
+      {
+        "reference_path": "data/raw/ballotpedia/election_indexes/2014_house.md",
+        "reference_sha256": "131a44330a94a8a31c8aba532804d80385092ebf3abec0504d4f915ec1477fbd",
+        "reference_registration": "local untracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "house",
+        "kind": "ballotpedia",
+        "bytes": 195150,
+        "provenance": "https://ballotpedia.org/Alabama_House_of_Representatives_elections,_2014; Published Time: Mon, 22 Jan 2024 14:38:43 GMT"
+      },
+      {
+        "reference_path": "data/raw/ballotpedia/election_indexes/2014_senate.md",
+        "reference_sha256": "794fd21de3bdf7b865e7405dd897443b829695c08318b7db1abf2a7e7f8a5944",
+        "reference_registration": "local untracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "senate",
+        "kind": "ballotpedia",
+        "bytes": 85998,
+        "provenance": "https://ballotpedia.org/Alabama_State_Senate_elections,_2014; Published Time: Mon, 13 Apr 2026 04:19:11 GMT"
+      },
+      {
+        "reference_path": "data/raw/ballotpedia/election_indexes/2018_house.md",
+        "reference_sha256": "efad00328323bfda1e1bbe55d27cdc0d6fa64b7d2d433654715beada6bd53556",
+        "reference_registration": "local untracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "house",
+        "kind": "ballotpedia",
+        "bytes": 115414,
+        "provenance": "https://ballotpedia.org/Alabama_House_of_Representatives_elections,_2018"
+      },
+      {
+        "reference_path": "data/raw/ballotpedia/election_indexes/2018_senate.md",
+        "reference_sha256": "f69e863571d7c85c9d546b94f584288dfb1bcc0a2423d5a370aae6f559cf622d",
+        "reference_registration": "local untracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "senate",
+        "kind": "ballotpedia",
+        "bytes": 69844,
+        "provenance": "https://ballotpedia.org/Alabama_State_Senate_elections,_2018; Published Time: Tue, 21 Mar 2023 05:02:13 GMT"
+      },
+      {
+        "reference_path": "data/raw/ballotpedia/election_indexes/2022_house.md",
+        "reference_sha256": "894070951d8af30d2f731b647e37acc8ae2ed3f8e7b1c5c4896c15b534706f5f",
+        "reference_registration": "local untracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "house",
+        "kind": "ballotpedia",
+        "bytes": 229458,
+        "provenance": "https://ballotpedia.org/Alabama_House_of_Representatives_elections,_2022; Published Time: Tue, 21 Mar 2023 05:02:13 GMT"
+      },
+      {
+        "reference_path": "data/raw/ballotpedia/election_indexes/2022_senate.md",
+        "reference_sha256": "8abbeb7989c27811b017c336c4454f5095f0d4eaaeb7297a8c9e403bfcb801f7",
+        "reference_registration": "local untracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "senate",
+        "kind": "ballotpedia",
+        "bytes": 44117,
+        "provenance": "https://ballotpedia.org/Alabama_State_Senate_elections,_2022; Published Time: Thu, 16 Apr 2026 14:02:40 GMT"
+      },
+      {
+        "reference_path": "data/raw/wikipedia/2010_house.html",
+        "reference_sha256": "963a14a25a147abdc4bc5b9ad65920ad8cf40e60430c7b3420d3b97b0cdd860f",
+        "reference_registration": "git-tracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "house",
+        "kind": "wikipedia",
+        "bytes": 981507,
+        "provenance": "https://en.wikipedia.org/wiki/2010_Alabama_House_of_Representatives_election; This page was last edited on 24 July 2026, at 18:30 (UTC) ."
+      },
+      {
+        "reference_path": "data/raw/wikipedia/2010_senate.html",
+        "reference_sha256": "6d37b59a2dc24f91354d560e7159b882cd1cdff10dd498088d0d6d626b76cd67",
+        "reference_registration": "git-tracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "senate",
+        "kind": "wikipedia",
+        "bytes": 624600,
+        "provenance": "https://en.wikipedia.org/wiki/2010_Alabama_Senate_election; This page was last edited on 25 May 2026, at 15:57 (UTC) ."
+      },
+      {
+        "reference_path": "data/raw/wikipedia/2014_house.html",
+        "reference_sha256": "746a83f75871db97dc1ef94c10d3d0491d9c827906a418d9b2ea9032f02a801e",
+        "reference_registration": "git-tracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "house",
+        "kind": "wikipedia",
+        "bytes": 1015147,
+        "provenance": "https://en.wikipedia.org/wiki/2014_Alabama_House_of_Representatives_election; This page was last edited on 25 July 2026, at 09:38 (UTC) ."
+      },
+      {
+        "reference_path": "data/raw/wikipedia/2014_senate.html",
+        "reference_sha256": "fa16f72d4304d820c80a5a5942dae4d21410e828997e2533e95a3da40115092d",
+        "reference_registration": "git-tracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "senate",
+        "kind": "wikipedia",
+        "bytes": 505988,
+        "provenance": "https://en.wikipedia.org/wiki/2014_Alabama_Senate_election; This page was last edited on 25 May 2026, at 15:57 (UTC) ."
+      },
+      {
+        "reference_path": "data/raw/wikipedia/2018_house.html",
+        "reference_sha256": "2b7082b650ecc0c036a760c7bb226d463aaa272dda4a63ece2641211f7b2f6e1",
+        "reference_registration": "git-tracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "house",
+        "kind": "wikipedia",
+        "bytes": 963823,
+        "provenance": "https://en.wikipedia.org/wiki/2018_Alabama_House_of_Representatives_election; This page was last edited on 14 July 2026, at 02:07 (UTC) ."
+      },
+      {
+        "reference_path": "data/raw/wikipedia/2018_senate.html",
+        "reference_sha256": "b7ddebcb10b3a40875f42d0f4ca498835d681b3decdbaacf9664d3bc53b2add8",
+        "reference_registration": "git-tracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "senate",
+        "kind": "wikipedia",
+        "bytes": 718368,
+        "provenance": "https://en.wikipedia.org/wiki/2018_Alabama_Senate_election; This page was last edited on 9 June 2026, at 12:00 (UTC) ."
+      },
+      {
+        "reference_path": "data/raw/wikipedia/2022_house.html",
+        "reference_sha256": "b5a486d92f2f6194cdbe277a69ae7f66dc866bfe9a2d9be850e433fa7ea0bfac",
+        "reference_registration": "git-tracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "house",
+        "kind": "wikipedia",
+        "bytes": 2390730,
+        "provenance": "https://en.wikipedia.org/wiki/2022_Alabama_House_of_Representatives_election; This page was last edited on 14 July 2026, at 02:11 (UTC) ."
+      },
+      {
+        "reference_path": "data/raw/wikipedia/2022_senate.html",
+        "reference_sha256": "6d65f091d8301a93ed92f40227b1174ca59f3e1c6f0c97e8b595d2822fe8ccb3",
+        "reference_registration": "git-tracked raw page; no warehouse_source_file row; license not recorded",
+        "chamber": "senate",
+        "kind": "wikipedia",
+        "bytes": 1229597,
+        "provenance": "https://en.wikipedia.org/wiki/2022_Alabama_Senate_election; This page was last edited on 2 July 2026, at 02:32 (UTC) ."
+      }
+    ]
+  },
+  "row_counts": {
+    "district_winners": 1120,
+    "seats_by_cycle": 64,
+    "reconciliation": 70,
+    "review_queue": 32,
+    "review_blocking": 13,
+    "selected_candidate_rows": 1629,
+    "canonical_candidate_rows": 1561,
+    "warehouse_observation_rows": 3046
+  },
+  "summary": [
+    {
+      "cycle": 1994,
+      "chamber": "house",
+      "democratic": 74,
+      "republican": 31,
+      "other": 0,
+      "unknown": 0
+    },
+    {
+      "cycle": 1994,
+      "chamber": "senate",
+      "democratic": 23,
+      "republican": 12,
+      "other": 0,
+      "unknown": 0
+    },
+    {
+      "cycle": 1998,
+      "chamber": "house",
+      "democratic": 68,
+      "republican": 36,
+      "other": 0,
+      "unknown": 1
+    },
+    {
+      "cycle": 1998,
+      "chamber": "senate",
+      "democratic": 23,
+      "republican": 11,
+      "other": 0,
+      "unknown": 1
+    },
+    {
+      "cycle": 2002,
+      "chamber": "house",
+      "democratic": 64,
+      "republican": 41,
+      "other": 0,
+      "unknown": 0
+    },
+    {
+      "cycle": 2002,
+      "chamber": "senate",
+      "democratic": 25,
+      "republican": 10,
+      "other": 0,
+      "unknown": 0
+    },
+    {
+      "cycle": 2006,
+      "chamber": "house",
+      "democratic": 61,
+      "republican": 43,
+      "other": 0,
+      "unknown": 1
+    },
+    {
+      "cycle": 2006,
+      "chamber": "senate",
+      "democratic": 22,
+      "republican": 12,
+      "other": 0,
+      "unknown": 1
+    },
+    {
+      "cycle": 2010,
+      "chamber": "house",
+      "democratic": 43,
+      "republican": 62,
+      "other": 0,
+      "unknown": 0
+    },
+    {
+      "cycle": 2010,
+      "chamber": "senate",
+      "democratic": 12,
+      "republican": 22,
+      "other": 0,
+      "unknown": 1
+    },
+    {
+      "cycle": 2014,
+      "chamber": "house",
+      "democratic": 33,
+      "republican": 72,
+      "other": 0,
+      "unknown": 0
+    },
+    {
+      "cycle": 2014,
+      "chamber": "senate",
+      "democratic": 8,
+      "republican": 26,
+      "other": 0,
+      "unknown": 1
+    },
+    {
+      "cycle": 2018,
+      "chamber": "house",
+      "democratic": 28,
+      "republican": 77,
+      "other": 0,
+      "unknown": 0
+    },
+    {
+      "cycle": 2018,
+      "chamber": "senate",
+      "democratic": 8,
+      "republican": 27,
+      "other": 0,
+      "unknown": 0
+    },
+    {
+      "cycle": 2022,
+      "chamber": "house",
+      "democratic": 28,
+      "republican": 77,
+      "other": 0,
+      "unknown": 0
+    },
+    {
+      "cycle": 2022,
+      "chamber": "senate",
+      "democratic": 8,
+      "republican": 27,
+      "other": 0,
+      "unknown": 0
+    }
+  ],
+  "district_status_counts": {
+    "winner_status": {
+      "observed": 1114,
+      "unknown": 6
+    },
+    "contest_status": {
+      "contested": 580,
+      "uncontested": 539,
+      "unknown": 1
+    },
+    "corroboration": {
+      "corroborated_by_other_warehouse_source": 1051,
+      "single_source": 63,
+      "unresolved": 6
+    },
+    "selected_source_family": {
+      "alabama_canonical": 1057,
+      "klarner": 63
+    }
+  },
+  "outputs": {
+    "district_winners.csv": "2aea075829b9bf498de2dc680e39c968f3616299d4673d77496eecc57151cdc6",
+    "seats_by_cycle.csv": "e3ac147979658dd95a3d31779fb17951c52fc890d2615c07a7c69b056324d03b",
+    "reconciliation.csv": "1305523d36b7228c74c15e5ec2729b895ec583bb93f96967d0755dea64c938f0",
+    "review_queue.csv": "aedac28998ea8c5bb73afa5a5ddbb6baec1d992dd6416f0ec69a2d60c8232de8"
+  }
+}

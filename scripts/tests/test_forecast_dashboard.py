@@ -60,10 +60,11 @@ def forward_train_races() -> int:
     return int(selected.iloc[0])
 
 
-def test_dashboard_contains_both_chambers_and_cmo_typography():
+def test_dashboard_contains_both_chambers_and_shared_design_tokens():
     text, data = page_and_payload()
-    assert "Libre+Franklin" in text
-    assert "--navy:#14253d" in text
+    # One token system, no remote font or tile dependency.
+    assert "--rating-solid-d:" in text and "--war-d3:" in text
+    assert "fonts.googleapis.com" not in text
     assert len(data["house"]["races"]) == 105
     assert len(data["senate"]["races"]) == 35
     assert data["house"]["seatDistribution"]
@@ -73,11 +74,17 @@ def test_dashboard_contains_both_chambers_and_cmo_typography():
 def test_dashboard_has_accessible_controls_and_fallbacks():
     soup = BeautifulSoup(PAGE.read_text(encoding="utf-8"), "html.parser")
     assert soup.select_one("#detail[aria-live='polite']")
-    assert soup.select_one("#map[role='group']")
+    assert soup.select_one("#map")
     assert soup.select_one("button[data-chamber='house'][aria-pressed]")
     assert soup.select_one("button[data-mode='probability'][aria-pressed]")
-    assert soup.select_one("#districtSelect")
+    assert soup.select_one("button[data-view='tiles'][aria-pressed]")
+    finder = soup.select_one("#districtSearch[role='combobox'][aria-controls='districtOptions']")
+    assert finder and soup.select_one("label[for='districtSearch']")
+    assert soup.select_one("#districtOptions[role='listbox']")
     assert soup.select_one("#download")
+    text = PAGE.read_text(encoding="utf-8")
+    # The shared map renders one keyboard tab stop with arrow-key movement.
+    assert 'role: "group"' in text and 'role: "button"' in text and "ArrowRight" in text
 
 
 def test_scenario_tab_arrow_navigation_restores_focus_after_rerender():
@@ -171,7 +178,9 @@ def test_district_profiles_use_current_context_and_preserve_missingness():
 def test_component_rows_reconcile_and_scenarios_compare_like_for_like():
     text, data = page_and_payload()
     assert "componentComparisonHtml" in text
-    assert "The headline evaluates a generic Democrat against a generic Republican" in text
+    # The copy must match the model: candidate history is carried forward where matched.
+    assert "carried-forward candidate WAR applies only where a nominee has a matched prior Alabama race" in text
+    assert "Candidate WAR, history, ideology, and fundraising are not used" not in text
     for chamber in ("house", "senate"):
         for race in (row for row in data[chamber]["races"] if row["status"] == "modeled"):
             for model in data["models"]:
@@ -179,12 +188,13 @@ def test_component_rows_reconcile_and_scenarios_compare_like_for_like():
                 assert abs(values["steps"][-1][2] - values["margin"]) < 1e-8
 
 
-def test_candidate_war_timelines_are_display_only():
+def test_candidate_war_timelines_match_source_and_state_their_role():
     text, data = page_and_payload()
     candidates = [candidate for chamber in ("house", "senate") for race in data[chamber]["races"] for candidate in race["candidates"]]
     with_history = [candidate for candidate in candidates if candidate["warHistory"]]
     assert with_history
-    assert "does not use prior WAR" in text
+    assert "carries part of this nominee's most recent matched result forward" in text
+    assert "does not use prior WAR" not in text
     assert "Candidate Atlas" not in text
     source = pd.read_csv(ROOT / "data" / "processed" / "war" / "alabama_war_v1" / "candidate_cycle_war.csv")
     example = with_history[0]
@@ -212,8 +222,10 @@ def test_personal_branding_and_profile_links():
 
 
 def test_uncertainty_axis_has_correct_party_direction():
-    css = (ROOT / "dashboard" / "forecast_dashboard.css").read_text(encoding="utf-8")
-    assert "linear-gradient(90deg,var(--red),#eee 50%,var(--blue))" in css
+    text = PAGE.read_text(encoding="utf-8")
+    # Republican margins sit left of even and Democratic margins right, in every margin chart.
+    assert '← ${narrow?"R":"Republican"} favored' in text and '${narrow?"D":"Democratic"} favored →' in text
+    assert "x=v=>4+112*(Math.max(-B,Math.min(B,v))+B)/(2*B)" in text
 
 
 def test_live_probabilities_use_selected_generic_candidate_calibration():
@@ -243,12 +255,12 @@ def test_sd25_is_a_contested_modeled_senate_race():
 def test_map_starts_statewide_and_zooms_to_selected_district():
     text = PAGE.read_text(encoding="utf-8")
     assert 'if(state.selected&&!race(state.chamber,state.selected))state.selected=null' in text
-    assert 'state.chamber=c;state.selected=null;syncUrl()' in text
+    assert 'state.chamber=c;state.selected=null;' in text
     assert 'function updateMapViewport()' in text
-    assert 'forecastMap.fitBounds(statewideBounds' in text
-    assert 'forecastMap.fitBounds(selectedBounds' in text
-    assert 'Statewide view</option>' in text
-    assert 'else clearDistrict()' in text
+    assert 'siteMap.select(String(state.selected))' in text
+    assert 'siteMap.select(null,{zoom:!state.area})' in text
+    assert '["Statewide",...metros]' in text
+    assert 'clearDistrict(true)' in text
     assert 'Select a district' in text
 
 
@@ -256,8 +268,8 @@ def test_map_colors_follow_current_probability_and_rating_bands():
     text = PAGE.read_text(encoding="utf-8")
     assert 'const RATING_COLORS=' in text
     assert 'const probabilityColor=p=>RATING_COLORS[ratingForProbability(p)]' in text
-    assert 'if(state.mode==="rating") return RATING_COLORS[effectiveRating(r)]' in text
     assert 'if(state.mode==="probability") return probabilityColor(r.demProbability)' in text
+    assert 'return marginColor(r.margin)' in text
     assert 'r.demProbability*200-100' not in text
 
 
@@ -266,8 +278,10 @@ def test_rating_thresholds_match_published_probability_bands():
     assert 'q<.60?"Toss-up":q<.80?`Lean ${lead}`:q<.95?`Likely ${lead}`:q<.98?`Very likely ${lead}`:`Solid ${lead}`' in text
     assert "Very likely D" in text
     assert "Very likely R" in text
-    assert "D 40–60%" in text
-    assert "D 95–98%" in text
+    # The legend prints each band's cut-off with no gaps between bands.
+    assert '["Very likely D","95–98%"]' in text
+    assert '["Toss-up","under 60% for either party"]' in text
+    assert '["Solid D","98% or more"]' in text
     ratings = {r["rating"] for chamber in ("house", "senate") for r in data[chamber]["races"]}
     assert ratings <= {
         "Not modeled", "Toss-up", "Lean D", "Lean R", "Likely D", "Likely R",
@@ -275,23 +289,54 @@ def test_rating_thresholds_match_published_probability_bands():
     }
 
 
-def test_map_uses_leaflet_basemap_and_close_control():
+def test_map_is_self_hosted_svg_with_tiles_and_close_control():
     text, data = page_and_payload()
-    css = (ROOT / "dashboard" / "forecast_dashboard.css").read_text(encoding="utf-8")
-    for chamber in ("house", "senate"):
-        assert all(p["geometry"]["type"] in {"Polygon", "MultiPolygon"} for p in data[chamber]["paths"])
-    assert 'leaflet@1.9.4/dist/leaflet.css' in text
-    assert 'leaflet@1.9.4/dist/leaflet.js' in text
-    assert 'sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=' in text
-    assert 'sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=' in text
-    assert 'basemaps.cartocdn.com/light_all' in text
-    assert 'OpenStreetMap' in text and 'CARTO' in text
-    assert 'L.geoJSON(collection' in text
+    for remote in ("leaflet", "cartocdn", "unpkg.com", "fonts.googleapis.com"):
+        assert remote not in text
+    assert data["context"]["counties"].startswith("M")
+    assert {city["name"] for city in data["context"]["cities"]} >= {"Birmingham", "Huntsville", "Montgomery", "Mobile"}
+    for chamber, total in (("house", 105), ("senate", 35)):
+        geometry = data[chamber]["geometry"]
+        assert len(geometry["districts"]) == total
+        assert set(geometry["tiles"]) == set(geometry["districts"])
+        assert len({tuple(xy) for xy in geometry["tiles"].values()}) == total
+        assert all(d["path"].startswith("M") and len(d["label"]) == 2 for d in geometry["districts"].values())
+        assert {m["name"] for m in geometry["metroMembers"]} == {"Birmingham", "Huntsville", "Montgomery", "Mobile"}
     assert 'class="close-detail"' in text
     assert 'aria-label="Close district and return to statewide map"' in text
-    assert 'addEventListener("click",clearDistrict)' in text
-    assert "#map{width:100%;height:610px" in css
-    assert ".leaflet-interactive:hover" in css
+    assert 'addEventListener("click",()=>clearDistrict(true))' in text
+
+
+def test_outcome_dots_reproduce_the_published_interval_and_probability():
+    _, data = page_and_payload()
+    offsets = data["meta"]["outcomeOffsets"]
+    assert len(offsets) == 100 and offsets == sorted(offsets)
+    races = [r for c in ("house", "senate") for r in data[c]["races"] if r["status"] == "modeled"]
+    for race in races:
+        headline = race["models"]["headline"]
+        dots = [headline["margin"] + o for o in offsets]
+        # The 10th and 90th of 100 equally likely outcomes bracket the published 80% interval.
+        assert dots[9] <= headline["low80"] + 0.5 and dots[10] >= headline["low80"] - 0.5
+        assert dots[89] <= headline["high80"] + 0.5 and dots[90] >= headline["high80"] - 0.5
+        assert abs(sum(d > 0 for d in dots) / 100 - headline["demProbability"]) <= 0.011
+
+
+def test_seat_history_is_explicit_about_unknown_seats():
+    _, data = page_and_payload()
+    history = data["seatHistory"]
+    assert history["runId"].startswith("AL-SEATS-V1-")
+    for chamber, size in (("house", 105), ("senate", 35)):
+        rows = history["chambers"][chamber]
+        assert [r["cycle"] for r in rows] == [1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022]
+        for row in rows:
+            assert row["D"] + row["R"] + row["other"] + row["unknown"] == size == row["seats"]
+    # Unknown seats come only from the seats product's own `unknown` winner status, never imputed;
+    # the 1994 conflicts were resolved by the 2026-10-04 party-label repair, not by the page.
+    winners = pd.read_csv(ROOT / "data/processed/elections/alabama_seats_by_cycle_v1/district_winners.csv")
+    unknown = winners[winners.winner_status.eq("unknown")].groupby(["cycle", "chamber"]).size()
+    for chamber in ("house", "senate"):
+        for row in history["chambers"][chamber]:
+            assert row["unknown"] == int(unknown.get((row["cycle"], chamber), 0))
 
 
 def test_post2016_headline_contests_and_full_chamber_accounting_reconcile():

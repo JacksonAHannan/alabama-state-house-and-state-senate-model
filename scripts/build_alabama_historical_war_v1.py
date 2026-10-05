@@ -15,6 +15,11 @@ import numpy as np
 import pandas as pd
 
 
+try:
+    from scripts import alabama_candidate_identity as identity
+except ImportError:  # pragma: no cover - direct script execution
+    import alabama_candidate_identity as identity
+
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
@@ -36,6 +41,8 @@ SOUTHERN_MANIFEST = WAR / "post2016_southern_war_v3/manifest.json"
 DECISION = ROOT / "project_docs/audits/SOUTHERN_V3_RELEASE_DECISION.json"
 FIELD_CONTRACT = ROOT / "project_docs/model/ALABAMA_HISTORICAL_WAR_V1_FIELD_CONTRACT.md"
 DISPLAY_NAME_ALIASES = ROOT / "data/manual/ideology/candidate_research_aliases.csv"
+EXCLUSIONS = ROOT / "data/manual/elections/alabama_historical_war_exclusions.csv"
+EXCLUDED_SCOPE = "excluded_by_adjudication"
 METHOD_REPORT = ROOT / "project_docs/model/ALABAMA_HISTORICAL_WAR_V1.md"
 AUDIT_REPORT = ROOT / "project_docs/audits/ALABAMA_HISTORICAL_WAR_V1_VALIDATION.md"
 OUT = WAR / "alabama_historical_war_v1"
@@ -43,14 +50,13 @@ OUT = WAR / "alabama_historical_war_v1"
 RACE_KEYS = ["cycle", "chamber", "district"]
 # Contested D-versus-R general races 1994-2022 after the 2002 Marshall canonical
 # repair (RUN-DFB1D093D7594AB68A264292050E924D): 509 + House 27 (2002).
-EXPECTED_RACES = 510
+EXPECTED_RACES = 504  # 1994 party-label repair: 72 -> 66 1994 D-vs-R races (ALABAMA-1994-PARTY-LABELS-20261004)
 ALPHA = 100.0
 SPECIFICATION = "decaying_lag"
 COMMITTEE_PATTERN = re.compile(
     r"committee|campaign|friends of|\bfor (?:house|senate|representative)\b|\bpac\b",
     re.IGNORECASE,
 )
-SOURCE_ID_PATTERN = re.compile(r"^[A-Z]{3}\d{3}[A-Z]{4,}$")
 
 
 def sha256(path: Path) -> str:
@@ -215,6 +221,32 @@ def apply_published_modern_scores(races: pd.DataFrame) -> pd.DataFrame:
     return result
 
 
+def apply_exclusions(races: pd.DataFrame) -> pd.DataFrame:
+    """Withhold WAR for adjudicated contests; the contest stays an observed row.
+
+    Every exclusion needs a stable ID, a reason, evidence and an owner decision,
+    and must name a race in the universe. Excluded rows keep their raw gap and
+    fitted expectation as diagnostics but carry no WAR.
+    """
+    exclusions = pd.read_csv(EXCLUSIONS, low_memory=False)
+    required = ["exclusion_id", "cycle", "chamber", "district", "reason_code", "reason", "evidence",
+                "decided_by", "decided_at_utc"]
+    if list(exclusions.columns) != required or exclusions[required].isna().any().any():
+        raise ValueError("Historical WAR exclusions need every adjudication field")
+    if exclusions.exclusion_id.duplicated().any() or exclusions.duplicated(RACE_KEYS).any():
+        raise ValueError("Historical WAR exclusions are not unique")
+    keys = races[RACE_KEYS].merge(exclusions[RACE_KEYS], how="inner", validate="one_to_one")
+    if len(keys) != len(exclusions):
+        raise ValueError("A historical WAR exclusion names a race outside the universe")
+    result = races.merge(exclusions[RACE_KEYS + ["exclusion_id", "reason_code"]], on=RACE_KEYS,
+                         how="left", validate="one_to_one")
+    excluded = result.exclusion_id.notna()
+    result.loc[excluded, "scoring_scope"] = EXCLUDED_SCOPE
+    result.loc[excluded, ["war", "modern_backcast_war"]] = np.nan
+    result = result.rename(columns={"reason_code": "exclusion_reason_code"})
+    return result
+
+
 def build_candidate_rows(races: pd.DataFrame) -> pd.DataFrame:
     candidates = pd.read_csv(HISTORICAL_CANDIDATES, low_memory=False)
     if candidates.duplicated(RACE_KEYS + ["canonical_party"]).any() or len(candidates) != 2 * EXPECTED_RACES:
@@ -224,11 +256,22 @@ def build_candidate_rows(races: pd.DataFrame) -> pd.DataFrame:
         "fitted_structural_nonlag_expected_gap", "fitted_lag_component", "war",
         "scoring_scope", "lag_context_available", "backcast_extrapolation_years",
         "modern_backcast_structural_expected_gap", "modern_backcast_war",
+        "dem_incumbent", "rep_incumbent",
     ]]
     candidates = candidates.merge(race_fields, on=RACE_KEYS, how="left", validate="many_to_one")
     orientation = candidates.canonical_party.map({"D": 1.0, "R": -1.0})
     if orientation.isna().any():
         raise ValueError("Historical candidate output contains a non-major party")
+    # A candidate's incumbency is the race-level flag the backcast uses. The canonical
+    # candidate flag is only populated from 2010; before that, the cycle context files
+    # carry incumbency. Where both exist they must agree.
+    race_incumbent = pd.Series(np.where(candidates.canonical_party.eq("D"), candidates.dem_incumbent,
+                                        candidates.rep_incumbent), index=candidates.index).astype(bool)
+    source_incumbent = candidates.incumbent.astype(str).str.lower().isin(["true", "1"])
+    if (source_incumbent & ~race_incumbent).any():
+        raise ValueError("A canonical incumbent is not an incumbent in the race context the backcast uses")
+    candidates["incumbent"] = race_incumbent
+    candidates = candidates.drop(columns=["dem_incumbent", "rep_incumbent"])
     aliases = pd.read_csv(DISPLAY_NAME_ALIASES, low_memory=False)
     aliases = aliases[aliases.identity_status.astype(str).str.startswith("verified_")][
         ["canonical_candidate_id", "research_name"]
@@ -240,9 +283,7 @@ def build_candidate_rows(races: pd.DataFrame) -> pd.DataFrame:
         aliases.rename(columns={"research_name": "verified_research_name"}),
         on="canonical_candidate_id", how="left", validate="many_to_one",
     )
-    identifier_like = candidates.source_candidate_name.astype(str).str.fullmatch(
-        SOURCE_ID_PATTERN, na=False
-    )
+    identifier_like = candidates.source_candidate_name.map(identity.is_stub_name)
     unresolved = identifier_like & candidates.verified_research_name.isna()
     if unresolved.any():
         values = candidates.loc[
@@ -271,7 +312,7 @@ def build_candidate_rows(races: pd.DataFrame) -> pd.DataFrame:
     if committee_like.any():
         values = candidates.loc[committee_like, "candidate_name"].tolist()
         raise ValueError(f"Committee-like name entered historical WAR: {values[:5]}")
-    if candidates.candidate_name.astype(str).str.fullmatch(SOURCE_ID_PATTERN, na=False).any():
+    if candidates.candidate_name.map(identity.is_stub_name).any():
         raise ValueError("Identifier-shaped candidate name entered historical WAR")
     return candidates
 
@@ -283,7 +324,7 @@ def output_columns(races: pd.DataFrame, candidates: pd.DataFrame) -> tuple[pd.Da
         "raw_gap", "prior_presidential_margin", "incumbency_balance",
         "lag_context_available", "fitted_structural_nonlag_expected_gap",
         "fitted_lag_component", "fitted_structural_expected_gap", "war",
-        "scoring_scope", "backcast_extrapolation_years",
+        "scoring_scope", "exclusion_id", "exclusion_reason_code", "backcast_extrapolation_years",
         "modern_backcast_structural_expected_gap", "modern_backcast_war",
         "state_ticket_cmo", "federal_ticket_cmo", "presidential_ticket_cmo",
         "contest_tier", "model_tier", "baseline_fallback_share",
@@ -310,14 +351,18 @@ def main() -> None:
     historical = prepare_historical_races()
     races, coefficients, warehouse_run_id = fit_modern_backcast(historical)
     races = apply_published_modern_scores(races)
+    races = apply_exclusions(races)
     candidates = build_candidate_rows(races)
     race_output, candidate_output = output_columns(races, candidates)
 
+    scored = race_output.scoring_scope.ne(EXCLUDED_SCOPE)
+    if race_output.loc[scored, "war"].isna().any() or race_output.loc[~scored, "war"].notna().any():
+        raise ValueError("WAR must be present exactly on the non-excluded races")
     formula_error = float(np.max(np.abs(
-        race_output.war
-        - (race_output.raw_gap - race_output.fitted_structural_expected_gap)
+        race_output.loc[scored, "war"]
+        - (race_output.loc[scored, "raw_gap"] - race_output.loc[scored, "fitted_structural_expected_gap"])
     )))
-    paired = candidate_output.pivot(
+    paired = candidate_output[candidate_output.scoring_scope.ne(EXCLUDED_SCOPE)].pivot(
         index=RACE_KEYS, columns="canonical_party", values="candidate_cycle_war"
     )
     orientation_error = float(np.max(np.abs(paired.D + paired.R)))
@@ -328,6 +373,7 @@ def main() -> None:
         sha256(HISTORICAL_RACES), sha256(HISTORICAL_CANDIDATES),
         sha256(HISTORICAL_CONTEXT), sha256(PUBLISHED_ALABAMA / "race_war.csv"),
         sha256(SOUTHERN_MANIFEST), sha256(FIELD_CONTRACT), sha256(DISPLAY_NAME_ALIASES),
+        sha256(EXCLUSIONS),
     ])
     run_id = "AL-HIST-WAR-V1-" + hashlib.sha256(run_material.encode()).hexdigest()[:20].upper()
     generated = dt.datetime.now(dt.timezone.utc).isoformat()
@@ -376,6 +422,7 @@ def main() -> None:
             "backcast_races": int(race_output.cycle.le(2014).sum()),
             "published_modern_races": int(race_output.cycle.gt(2016).sum()),
             "lag_context_missing_races": int((~race_output.lag_context_available).sum()),
+            "excluded_races": int((~scored).sum()),
             "max_war_formula_error": formula_error,
             "max_candidate_orientation_error": orientation_error,
             "committee_like_candidate_names": 0,
@@ -389,7 +436,7 @@ def main() -> None:
             for path in (
                 HISTORICAL_RACES, HISTORICAL_CANDIDATES, HISTORICAL_CONTEXT,
                 PUBLISHED_ALABAMA / "race_war.csv", SOUTHERN_MANIFEST, FIELD_CONTRACT,
-                DISPLAY_NAME_ALIASES,
+                DISPLAY_NAME_ALIASES, EXCLUSIONS,
             )
         },
         "outputs": [],

@@ -72,3 +72,49 @@ def test_grimsley_2018_is_exact_published_race_residual() -> None:
     ].squeeze()
     assert abs(row["war"] - source.candidate_cycle_war) < 1e-10
     assert row["scoringScope"] == "published_same_cycle_residual"
+
+
+CANDIDATE = ROOT / "artifacts" / "site" / "alabama-legislative-cmo.html"
+
+
+def candidate_parts() -> tuple[str, dict, dict]:
+    import pytest
+
+    if not CANDIDATE.exists():
+        pytest.skip("local candidate not built")
+    html = CANDIDATE.read_text(encoding="utf-8")
+    payload = json.loads(re.search(r"const DATA=(\{.*?\});\s*let active=", html, re.S).group(1))
+    geometry = json.loads(re.search(r"const GEOMETRY=(\{.*?\});const CONTEXT=", html, re.S).group(1))
+    return html, payload, geometry
+
+
+def test_candidate_draws_every_cycle_on_its_own_enacted_plan() -> None:
+    html, payload, geometry = candidate_parts()
+    assert len(payload) == 16 and 'id="map"' in html and "function renderMap" in html
+    for key, section in payload.items():
+        plan = geometry[section["plan"]]
+        assert "paths" not in section
+        assert set(plan["tiles"]) == set(plan["districts"])
+        winners = {str(d) for d in section["winners"]}
+        assert winners <= set(plan["districts"]), key
+    assert payload["1994-house"]["plan"] == payload["1998-house"]["plan"] != payload["2002-house"]["plan"]
+
+
+def test_candidate_uses_the_war_scale_and_no_remote_dependencies() -> None:
+    html, _, _ = candidate_parts()
+    for retired in ("#3d77a8", "#d34b45", "fonts.googleapis.com", "Libre Franklin", "leaflet"):
+        assert retired not in html
+    assert "--war-d3:" in html and "warColor" in html
+    assert "Color shows which side ran ahead of expectation. It is not the district's partisan lean." in html
+    assert "One fixed reference model" in html and "No pooled candidate effect" in html
+    assert "Pre-2016 cycles scored against the fixed reference model and published modern residuals are labeled separately" in html
+    assert "The public forecast sets candidate-specific residual WAR to zero" not in (
+        CANDIDATE.parent / "cmo-methodology.html").read_text(encoding="utf-8")
+
+
+def test_candidate_career_chart_displays_title_case_names() -> None:
+    html, _, _ = candidate_parts()
+    career = html[html.index('<section class="career"'):html.index("</section>", html.index('<section class="career"'))]
+    names = re.findall(r'<text x="0" y="\d+" font-size="13" font-weight="700" fill="var\(--ink\)">([^<]+?) <tspan', career)
+    assert names and not [n for n in names if n.isupper() and len(n) > 3]
+    assert "<details" in career and "<table" in career

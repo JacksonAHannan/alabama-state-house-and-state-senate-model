@@ -310,3 +310,31 @@ def test_map_joins_preserve_votes_and_distinguish_unscored_districts():
             assert race["sourceProvider"]
             assert bool(race["sourceFileId"]) == (race["sourceFileStatus"] == "registered")
             assert race["electionDate"]
+
+
+def test_candidate_payload_adds_tiles_and_outlines_without_changing_races() -> None:
+    candidate = ROOT / "artifacts/site/data/southern_war_map_payload.json"
+    if not candidate.exists():
+        pytest.skip("local candidate not built")
+    payload = json.loads(candidate.read_text(encoding="utf-8"))
+    published = json.loads((DOCS / "data/southern_war_map_payload.json").read_text(encoding="utf-8"))
+    assert set(payload["slices"]) == set(published["slices"])
+    for key, section in payload["slices"].items():
+        assert section["races"] == published["slices"][key]["races"]
+        districts = {f["district"] for f in section["features"]}
+        assert districts == {f["district"] for f in published["slices"][key]["features"]}
+        assert set(section["tiles"]) == districts and section["outline"].startswith("M")
+        assert all(len(f["label"]) == 2 for f in section["features"])
+
+
+def test_candidate_page_offers_the_south_overview_and_shared_map() -> None:
+    page = (ROOT / "artifacts/site/southern-war.html")
+    if not page.exists():
+        pytest.skip("local candidate not built")
+    text = page.read_text(encoding="utf-8")
+    for required in ('id="stateGrid"', 'id="overviewYear"', "window.SiteMap", 'data-view="tiles"',
+                     "Missing WAR is not zero", "Fundraising unavailable", "post-2016-model backcast",
+                     'aria-label="District race outcomes and ticket baseline"', 'id="district"',
+                     "normalized to observed two-party turnout", 'aria-label="Map filters"'):
+        assert required in text
+    assert "#3d77a8" not in text and "#d34b45" not in text

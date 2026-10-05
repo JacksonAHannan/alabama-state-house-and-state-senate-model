@@ -13,7 +13,8 @@ def logit(x):
     x=np.clip(np.asarray(x,dtype=float),1e-6,1-1e-6);return np.log(x/(1-x))
 def expit(x): return 1/(1+np.exp(-np.asarray(x,dtype=float)))
 
-def main():
+def load_topline_catalog():
+    """Quality-gated generic-ballot polls with their Democratic two-party share."""
     catalog=pd.read_json(CATALOG)
     grades=pd.read_csv(POLLING/'votehub_crosstab_documents_with_silver_grades.csv')[
         ['pollster','silver_pollster','silver_grade','b_plus_or_better']].drop_duplicates('pollster')
@@ -37,15 +38,32 @@ def main():
         })
         catalog=pd.concat([catalog,extra],ignore_index=True,sort=False)
     catalog['end_date']=pd.to_datetime(catalog.end_date)
-    as_of=catalog.end_date.max();recent=catalog[catalog.end_date.ge(as_of-pd.Timedelta(days=59))].copy()
+    return catalog,grades
+
+def topline_as_of(catalog,as_of):
+    """The 60-day, latest-per-pollster, 21-day half-life average of polls fielded by `as_of`.
+
+    Polls are dated by field end date; the catalog has no release date, so a
+    replay at an earlier date can include a poll released a few days later.
+    """
+    as_of=pd.Timestamp(as_of)
+    recent=catalog[catalog.end_date.le(as_of)&catalog.end_date.ge(as_of-pd.Timedelta(days=59))].copy()
+    if recent.empty:
+        return None
     recent=recent.sort_values('end_date').drop_duplicates('silver_pollster',keep='last')
     recent['weight']=recent.population.str.lower().map(POP).fillna(.5)*np.power(.5,(as_of-recent.end_date).dt.days/21)
     overall=float(np.average(recent.share,weights=recent.weight))
-    pd.DataFrame([{'as_of':as_of.date().isoformat(),'dem_two_party_share':overall,
-                   'dem_two_party_margin':200*overall-100,'pollsters':recent.silver_pollster.nunique(),
-                   'pollster_list':' | '.join(sorted(recent.silver_pollster.unique())),
-                   'window_days':60,'minimum_silver_grade':'B'}]).to_csv(
-        POLLING/'votehub_silver_bplus_topline_environment.csv',index=False)
+    return {'as_of':as_of.date().isoformat(),'dem_two_party_share':overall,
+            'dem_two_party_margin':200*overall-100,'pollsters':recent.silver_pollster.nunique(),
+            'pollster_list':' | '.join(sorted(recent.silver_pollster.unique())),
+            'window_days':60,'minimum_silver_grade':'B'}
+
+def main():
+    catalog,grades=load_topline_catalog()
+    as_of=catalog.end_date.max()
+    topline=topline_as_of(catalog,as_of)
+    overall=topline['dem_two_party_share']
+    pd.DataFrame([topline]).to_csv(POLLING/'votehub_silver_bplus_topline_environment.csv',index=False)
 
     cells=pd.read_csv(POLLING/'votehub_demographic_crosstabs_long.csv')
     cells=cells[cells.b_plus_or_better.fillna(False)].copy()

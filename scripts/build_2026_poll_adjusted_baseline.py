@@ -16,17 +16,30 @@ NATIONAL_2024_DEM_MARGIN = -1.48
 def main() -> None:
     baseline = pd.read_csv(ROOT / "data" / "processed" / "presidential" /
                            "2026_district_presidential_features.csv")
+    # Owner decision 2026-10-05: the Silver Bulletin generic-ballot average is the national
+    # environment. The VoteHub/Silver-grade average and the VoteHub snapshot remain fallbacks.
+    # The `votehub_2026_dem_margin` column keeps its historical name; `environment_source`
+    # records which average supplied it.
+    silver_bulletin = POLLING / "silver_bulletin_generic_ballot_environment.csv"
     quality_environment = POLLING / "votehub_silver_bplus_topline_environment.csv"
-    if quality_environment.exists():
+    if silver_bulletin.exists():
+        selected = pd.read_csv(silver_bulletin).iloc[0]
+        poll_margin = float(selected.dem_two_party_margin)
+        poll_as_of = str(selected.as_of)
+        poll_staleness = (dt.date.today() - dt.date.fromisoformat(poll_as_of)).days
+        environment_source = "silver_bulletin_generic_ballot_average"
+    elif quality_environment.exists():
         selected = pd.read_csv(quality_environment).iloc[0]
         poll_margin = float(selected.dem_two_party_margin)
         poll_as_of = str(selected.as_of)
         poll_staleness = (dt.date.today() - dt.date.fromisoformat(poll_as_of)).days
+        environment_source = "votehub_silver_grade_b_average"
     else:
         selected = pd.read_csv(POLLING / "votehub_generic_ballot_snapshot.csv").iloc[0]
         poll_margin = float(selected.generic_ballot_dem_margin_two_party)
         poll_as_of = str(selected.poll_average_as_of)
         poll_staleness = int(selected.staleness_days)
+        environment_source = "votehub_generic_ballot_snapshot"
     national_swing = poll_margin - NATIONAL_2024_DEM_MARGIN
     baseline["baseline_2024_pres_dem_margin"] = baseline.pres_2024_dem_margin
     baseline["national_2024_dem_margin"] = NATIONAL_2024_DEM_MARGIN
@@ -38,6 +51,7 @@ def main() -> None:
     baseline["high_elasticity_125_margin"] = baseline.pres_2024_dem_margin + 1.25 * national_swing
     baseline["poll_average_as_of"] = poll_as_of
     baseline["poll_staleness_days_at_download"] = poll_staleness
+    baseline["environment_source"] = environment_source
     baseline["uniform_poll_adjusted_dem_margin"] = baseline["poll_adjusted_dem_margin"]
     demographic_path = OUT / "2026_demographic_poll_adjusted_baseline.csv"
     if demographic_path.exists():
@@ -57,7 +71,7 @@ def main() -> None:
                "poll_adjusted_dem_margin", "uniform_poll_adjusted_dem_margin",
                "demographic_swing_2024_2026", "demographic_poll_adjusted_margin", "low_elasticity_075_margin",
                "high_elasticity_125_margin", "poll_average_as_of",
-               "poll_staleness_days_at_download", "status"]
+               "poll_staleness_days_at_download", "status", "environment_source"]
     baseline[columns].to_csv(OUT / "2026_poll_adjusted_baseline.csv", index=False)
     print(baseline[columns].groupby("chamber").agg(
         districts=("district", "count"),

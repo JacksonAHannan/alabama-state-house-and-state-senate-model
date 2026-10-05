@@ -1,0 +1,86 @@
+# Task contract: ALABAMA-1994-PARTY-LABELS-20261004 1994 legislative party-label and district repair
+
+- Accountable role: `elections_geography` (code, evidence and dry runs); `warehouse_integrator` (scoped `--apply`, primary session only)
+- Owner: `/root` (primary); code and dry runs delegated to one implementation agent
+- Status: `review`
+- Objective: Correct the 1994 Alabama general-election party labels and the "House 92" district that the 1994 precinct adapter mis-parsed. Then rebuild the products that depend on 1994 canonical candidates.
+- Product/layer and checklist IDs: source/canonical election layer; historical Alabama WAR, career WAR, Democratic caucuses, seats by cycle. This is the 1994 source finding from `ALABAMA-SEATS-BY-CYCLE-20261003` (checklist `roadmap-07`).
+- Dependencies: the owner authorized the repair on 2026-10-04. Investigation evidence is summarized in the audit named under Outputs. It unblocks a corrected 1994 historical WAR and reconciles 1994 seats with Klarner.
+- Owner decisions (2026-10-04):
+  - Adopt the proposed adjudications for the three conflicting districts:
+    - HD41 Mike Hill = R. Klarner, the pre-election roster, and the 1990 and 1998 records outweigh the workbook's lone "D".
+    - HD19 = Laura Hall D vs Anderson I. The roster and later records outweigh the workbook's "R"; the race is not D-vs-R.
+    - SD25 = Larry Dixon R winner. The contest is not WAR-scored. Anderson is kept as an unexplained source observation.
+  - Include the HD92 restoration and remove the Covington precincts from HD1.
+  - Retire the Shor 1996 party override in the 1994 context features.
+  - Fix the same rule's mislabels on 1994 statewide and federal source rows (CD1, Chief Justice, PSC Place 1, CCA Place 1). Do not rebuild federal baselines.
+  - Canonical votes keep the precinct-sum rule (Marshall 2002 precedent). Each difference from the official county totals is recorded.
+  - Warehouse `--apply` steps run in the primary session with owner approval of each prompt.
+- Non-goals:
+  - No change outside 1994 rows.
+  - No rerun of `build_candidate_identity.py`, which would replace the table and revert the certified 2018/2022 corrections and the Marshall repair.
+  - No rerun of `build_historical_federal_baselines.py`.
+  - No change to Southern WAR, v3 training, `alabama_war_v1`, or the forecast model specification.
+  - No edits to `data/raw/`. That includes `data/raw/sos_normalized/1994_general_precinct.csv`: it is stale adapter output and stays as-is, with the staleness recorded.
+  - No rewrite of the finance archival-request file, which is claimed by `FINANCE-HISTORICAL-RECOVERY-001`; a supersession record covers it.
+  - No publication.
+- Upstream snapshot: warehouse latest build run `RUN-DFB1D093D7594AB68A264292050E924D` (Marshall repair). Working tree on 2026-10-04: HEAD `178d6f48` plus uncommitted work, preserved.
+- Read scope: the warehouse (read-only outside `--apply`); `data/raw/alabama_elections_and_geography/94g-prec.zip`, `eastateleg94.xls`; `data/raw/ideology/alabama_1994_archival_sources/`; Klarner warehouse tables; manual research files that reference 1994 candidate IDs.
+- Write scope:
+  - Adapter, repair script and tests:
+    - `scripts/sos_precinct.py`
+    - `scripts/tests/test_sos_precinct.py`
+    - `scripts/repair_alabama_1994_party_labels.py`
+    - `scripts/tests/test_repair_alabama_1994_party_labels.py`
+    - `scripts/build_1994_context_features.py` and its tests
+  - Manual records:
+    - `data/manual/elections/alabama_1994_party_label_adjudications.csv`
+    - `data/manual/elections/alabama_1994_candidate_id_supersession.csv`
+    - `candidate_research_*.csv` and `candidate_issue_research_*.csv` under `data/manual/ideology/`. These are rewritten at apply time only through the supersession record, preserving uncommitted edits.
+  - Documentation:
+    - `project_docs/DATA_CONTRACTS.md` (party-relabel clause)
+    - `project_docs/audits/ALABAMA_1994_PARTY_LABEL_REPAIR_2026_10_04.md`
+  - Rebuild phase, primary session only:
+    - `scripts/build_alabama_historical_war_v1.py` (`EXPECTED_RACES`) and the race-count tests
+    - the declared outputs of the rebuild chain, added to the ledger after a collision check
+- Warehouse mode: `integrator write` (scoped 1994 `--apply` with backup, before-images, `--expected-run` and `--authorized-by`). The tables are:
+  - `vote_observations`
+  - `canonical_candidates`
+  - `canonical_southern_legislative_candidate_election`
+  - `warehouse_manual_adjudication`
+  - `warehouse_source_file`
+  - `warehouse_build_run`
+  - `qa_warehouse_source_repair`
+- Inputs: the precinct ZIP (`SRC-E64FFC4299ED54CB2D3A`); the official 1994 legislative workbook (to be registered); Klarner (`SRC-C3ABE0AF40990D35F24C`); the 1994 pre-election roster PDF.
+- Outputs: corrected warehouse rows; the adjudication and supersession records; the repair audit; a rebuilt historical WAR, career WAR, caucus run, seats by cycle and WAR page candidate.
+- Acceptance checks:
+  - The dry run lists every changed row with before and after values.
+  - Rows outside 1994 are byte-identical in canonical and in the rebuilt features.
+  - 1994 seats by cycle equal Klarner: House 74 D / 31 R, Senate 23 D / 12 R.
+  - Historical WAR 1994 contains exactly the adjudicated D-vs-R universe.
+  - The focused tests pass: `test_sos_precinct`, the new repair test, `test_warehouse_data_repairs`, `test_source_vote_quality`, `test_morgan_1994_quarantine`, `test_repair_morgan_1994_fractional_cell`, `test_candidate_identity`, `test_alabama_seats_by_cycle`, `test_alabama_historical_war_v1`, `test_cmo_candidate_quality_v5`.
+- Review requirement: independent review of the dry-run diff and the rebuilt 1994 WAR before any publication request.
+- Publication authority: none. `docs/cmo.html` keeps the old 1994 rows until republication is authorized.
+- Recovery/replay: the repair refuses unless the warehouse's latest run equals `--expected-run`; it writes a SQLite backup first; it is idempotent through before-image checks. Rollback is to restore the backup.
+- Handoff recipient: `cmo_model` (historical WAR rebuild), `validation_release`.
+- Known risks:
+  - Re-keyed candidate IDs (the party letter is part of the ID) break unmapped references.
+  - The 1994 race count moves from 72 to about 66, which trips `EXPECTED_RACES` until it is updated.
+  - The release gate refuses dependent pages until historical WAR is rebuilt.
+  - The 1994 plan-vintage certification counts become stale.
+
+## Handoff state (2026-10-05 UTC)
+
+- **Review.** The independent review passed, and so did a delta review of the follow-up changes.
+- **Owner decisions after the review.** HD1 1994 is excluded from WAR scoring. SD31 Terry Ellis is recorded as a non-incumbent.
+- **Apply.** The repair was applied as warehouse run `RUN-9BDA412C4AD042C9A1F048C781525670`, with the backup at `data/processed/elections/backups/pre-1994-party-labels-2026-10-04.sqlite`. A rerun returns `unchanged`.
+- **Rebuild.** Dependents were rebuilt in order, as recorded in section 8 of the audit:
+  - historical WAR: `AL-HIST-WAR-V1-F9D2E0FDE6D38F490402`, 504 races with 503 scored;
+  - career WAR;
+  - caucuses: `AL-DEM-CAUCUS-V1-50163B73E5B72BC8A0F9`, k=2 with the approved labels;
+  - the WAR page and caucus page candidates;
+  - seats by cycle: 1994 now matches Klarner.
+- **Regression fixed.** The rebuild exposed a September regression in 1994 presidential precinct matching. It was fixed in `build_1994_context_features.presidential_features()`, and the result reproduces the HEAD values.
+- **Tests.** All the focused tests pass.
+  - `test_published_site_consistency::test_publication_exports_match_current_model_outputs` fails, as expected, until republication.
+- **Next safe action.** An independent review of the rebuilt 1994 WAR and caucus run is required before any publication request. Publication itself needs separate owner authorization.

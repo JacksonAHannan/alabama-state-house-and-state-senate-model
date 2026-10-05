@@ -2,9 +2,10 @@
 """Forecast 2026 Alabama races as generic D versus generic R candidates.
 
 The national generic ballot supplies the election environment. A structural
-WAR expectation trained on post-2016 Alabama races adjusts that baseline,
-including the model's incumbency effect. Candidate-specific WAR, candidate
-history, ideology, and campaign finance are absent by contract.
+WAR expectation trained on post-2016 Southern races adjusts that baseline,
+including the model's incumbency effect. Each nominee's demonstrated WAR is then
+carried forward where a prior Alabama race is matched; unmatched nominees stay
+generic. Ideology and campaign finance are absent by contract.
 """
 from __future__ import annotations
 
@@ -13,6 +14,7 @@ import json
 import subprocess
 import sys
 from datetime import datetime, timezone
+from functools import lru_cache
 from pathlib import Path
 
 import numpy as np
@@ -40,6 +42,8 @@ SEED = 20260831
 ALPHA = 100.0
 WAR_SPECIFICATION = "decaying_lag"
 SIMULATION_DRAWS = 50_000
+ENVIRONMENT_BIN_POINTS = 1.0
+CHAMBER_SEATS = {"house": 105, "senate": 35}
 SCENARIO_STATUS = "uniform_generic_ballot_environment_selected"
 # Legacy Catalist/YouGov-transfer and elasticity columns are not part of the
 # uniform generic-ballot environment contract and are removed from the export.
@@ -103,11 +107,18 @@ def prepare_war_environment_rows(frame: pd.DataFrame) -> pd.DataFrame:
     return result
 
 
+@lru_cache(maxsize=1)
+def _war_training() -> tuple[pd.DataFrame, dict]:
+    """Load the WAR training frame once per process; every fit copies it."""
+    training, warehouse_run = war_model.load_training()
+    return war_model.attach_lag_context(training), warehouse_run
+
+
 def war_structural_prediction(
     rows: pd.DataFrame, *, training_before: int | None = None
 ) -> tuple[np.ndarray, list[str], int, str]:
-    training, warehouse_run = war_model.load_training()
-    training = war_model.attach_lag_context(training)
+    training, warehouse_run = _war_training()
+    training = training.copy()
     if training_before is not None:
         training = training[training.cycle.lt(training_before)].copy()
     if training.empty or not training.cycle.gt(2016).all():
@@ -265,78 +276,73 @@ def prospective_features() -> pd.DataFrame:
     return result
 
 
-def predict_scenarios(
-    scale: float,
-) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, list[str], str]:
-    current = prospective_features()
-    adjustments = pd.read_csv(OUT / "alabama_forecast_candidate_history_race_adjustments.csv")
-    component = pd.read_csv(OUT / "robust_forecast_v1_error_components.csv").iloc[0]
-    national_sd = float(component.national_sd)
-    rows = []
-    for scenario, shift, use_history in (
-        ("headline", 0.0, True),
-        ("environment_dem_favorable", national_sd, True),
-        ("environment_rep_favorable", -national_sd, True),
-        ("fundamentals_only_no_candidate_history", 0.0, False),
-    ):
-        scenario_frame = current.copy()
-        scenario_frame["environment_baseline_margin"] += shift
-        scenario_frame["environment_ticket_change"] += shift
-        scenario_frame = scenario_frame.merge(
-            adjustments[["chamber", "district", "candidate_war_adjustment", "candidate_history_used"]],
-            on=["chamber", "district"], how="left", validate="one_to_one",
-        )
-        scenario_frame["candidate_war_adjustment"] = (
-            scenario_frame.candidate_war_adjustment.fillna(0.0) if use_history else 0.0
-        )
-        scenario_frame["candidate_history_used"] = (
-            scenario_frame.candidate_history_used.fillna(False).astype(bool) & use_history
-        )
-        scenario_frame = feature_engineering(scenario_frame)
-        full_adjustment, design_features, _, warehouse_run_id = war_structural_prediction(
-            scenario_frame
-        )
-        neutral = scenario_frame.copy()
-        neutral["incumbency_balance"] = 0.0
-        neutral_adjustment, neutral_features, _, neutral_run_id = war_structural_prediction(
-            neutral
-        )
-        if neutral_features != design_features or neutral_run_id != warehouse_run_id:
-            raise RuntimeError("WAR structural decomposition used inconsistent designs")
-        scenario_frame["scenario"] = scenario
-        scenario_frame["source_scenario"] = "uniform_generic_ballot_environment"
-        scenario_frame["polling_error_adjustment"] = shift
-        scenario_frame["war_structural_expected_gap"] = full_adjustment
-        scenario_frame["generic_downballot_lag"] = neutral_adjustment
-        scenario_frame["incumbency_adjustment"] = full_adjustment - neutral_adjustment
-        scenario_frame["fundraising_adjustment"] = 0.0
-        scenario_frame["generic_structural_adjustment"] = full_adjustment
-        scenario_frame["finance_used"] = False
-        scenario_frame["generic_candidate_assumption"] = ~scenario_frame.candidate_history_used
-        scenario_frame["predicted_dem_margin"] = (
-            scenario_frame.environment_baseline_margin
-            + scenario_frame.generic_structural_adjustment
-            + scenario_frame.candidate_war_adjustment
-        )
-        scenario_frame["dem_win_probability"] = student_t.cdf(
-            scenario_frame.predicted_dem_margin / scale, df=5.0
-        )
-        scenario_frame["model_used"] = (
-            "war_environment_adjusted_with_candidate_history" if use_history
-            else "generic_war_environment_adjusted"
-        )
-        scenario_frame["selected_model"] = (
-            "alabama_war_candidate_history" if use_history else "alabama_war_generic_candidate"
-        )
-        scenario_frame["current_national_poll_margin"] = scenario_frame.generic_ballot_environment_margin
-        scenario_frame["poll_average_as_of"] = scenario_frame.poll_average_as_of.astype(str)
-        scenario_frame["incumbency_balance"] = scenario_frame.incumbency_balance.astype(int)
-        rows.append(scenario_frame)
-    scenarios = pd.concat(rows, ignore_index=True)
-    scenarios["status"] = SCENARIO_STATUS
-    scenarios = scenarios.drop(columns=LEGACY_SCENARIO_COLUMNS)
+def scenario_frame_for(
+    current: pd.DataFrame, adjustments: pd.DataFrame, scale: float,
+    scenario: str, shift: float, use_history: bool,
+) -> tuple[pd.DataFrame, list[str], str]:
+    """One forecast scenario: the current rows with the environment moved by `shift` points."""
+    scenario_frame = current.copy()
+    scenario_frame["environment_baseline_margin"] += shift
+    scenario_frame["environment_ticket_change"] += shift
+    scenario_frame = scenario_frame.merge(
+        adjustments[["chamber", "district", "candidate_war_adjustment", "candidate_history_used"]],
+        on=["chamber", "district"], how="left", validate="one_to_one",
+    )
+    scenario_frame["candidate_war_adjustment"] = (
+        scenario_frame.candidate_war_adjustment.fillna(0.0) if use_history else 0.0
+    )
+    scenario_frame["candidate_history_used"] = (
+        scenario_frame.candidate_history_used.fillna(False).astype(bool) & use_history
+    )
+    scenario_frame = feature_engineering(scenario_frame)
+    full_adjustment, design_features, _, warehouse_run_id = war_structural_prediction(
+        scenario_frame
+    )
+    neutral = scenario_frame.copy()
+    neutral["incumbency_balance"] = 0.0
+    neutral_adjustment, neutral_features, _, neutral_run_id = war_structural_prediction(
+        neutral
+    )
+    if neutral_features != design_features or neutral_run_id != warehouse_run_id:
+        raise RuntimeError("WAR structural decomposition used inconsistent designs")
+    scenario_frame["scenario"] = scenario
+    scenario_frame["source_scenario"] = "uniform_generic_ballot_environment"
+    scenario_frame["polling_error_adjustment"] = shift
+    scenario_frame["war_structural_expected_gap"] = full_adjustment
+    scenario_frame["generic_downballot_lag"] = neutral_adjustment
+    scenario_frame["incumbency_adjustment"] = full_adjustment - neutral_adjustment
+    scenario_frame["fundraising_adjustment"] = 0.0
+    scenario_frame["generic_structural_adjustment"] = full_adjustment
+    scenario_frame["finance_used"] = False
+    scenario_frame["generic_candidate_assumption"] = ~scenario_frame.candidate_history_used
+    scenario_frame["predicted_dem_margin"] = (
+        scenario_frame.environment_baseline_margin
+        + scenario_frame.generic_structural_adjustment
+        + scenario_frame.candidate_war_adjustment
+    )
+    scenario_frame["dem_win_probability"] = student_t.cdf(
+        scenario_frame.predicted_dem_margin / scale, df=5.0
+    )
+    scenario_frame["model_used"] = (
+        "war_environment_adjusted_with_candidate_history" if use_history
+        else "generic_war_environment_adjusted"
+    )
+    scenario_frame["selected_model"] = (
+        "alabama_war_candidate_history" if use_history else "alabama_war_generic_candidate"
+    )
+    scenario_frame["current_national_poll_margin"] = scenario_frame.generic_ballot_environment_margin
+    scenario_frame["poll_average_as_of"] = scenario_frame.poll_average_as_of.astype(str)
+    scenario_frame["incumbency_balance"] = scenario_frame.incumbency_balance.astype(int)
+    return scenario_frame, design_features, warehouse_run_id
 
-    headline = scenarios[scenarios.scenario.eq("headline")].copy().reset_index(drop=True)
+
+def simulate_headline(headline: pd.DataFrame, component: pd.Series) -> tuple[np.ndarray, np.ndarray]:
+    """Simulated district margins and each draw's shared environment shift.
+
+    The environment shift is the national plus statewide error component, the
+    part of every draw that moves all Alabama districts together. The draw order
+    is fixed: changing it would change every published simulation.
+    """
     rng = np.random.default_rng(SEED)
     n = len(headline)
     national = rng.normal(0, float(component.national_sd), SIMULATION_DRAWS)
@@ -348,6 +354,91 @@ def predict_scenarios(
     district_errors = rng.normal(0, float(component.district_sd), (SIMULATION_DRAWS, n))
     simulated = headline.predicted_dem_margin.to_numpy()[None, :] + national[:, None] + state[:, None]
     simulated = simulated + np.column_stack([chamber_errors[ch] for ch in headline.chamber]) + district_errors
+    return simulated, national + state
+
+
+def modeled_seat_counts(headline: pd.DataFrame, simulated: np.ndarray) -> dict[str, np.ndarray]:
+    """Democratic wins among each chamber's modeled races, one count per draw."""
+    return {
+        chamber: (simulated[:, np.where(headline.chamber.eq(chamber))[0]] > 0).sum(axis=1)
+        for chamber in sorted(headline.chamber.unique())
+    }
+
+
+def environment_seat_joint(counts: dict[str, np.ndarray], environment: np.ndarray) -> pd.DataFrame:
+    """Joint distribution of the environment shift (1-point bins) and modeled Democratic seats."""
+    low = np.floor(environment / ENVIRONMENT_BIN_POINTS) * ENVIRONMENT_BIN_POINTS
+    frames = []
+    for chamber, chamber_counts in counts.items():
+        grouped = (
+            pd.DataFrame({"environment_shift_low": low, "dem_modeled_seats": chamber_counts})
+            .groupby(["environment_shift_low", "dem_modeled_seats"]).size().reset_index(name="draw_count")
+        )
+        grouped.insert(0, "chamber", chamber)
+        grouped["environment_shift_high"] = grouped.environment_shift_low + ENVIRONMENT_BIN_POINTS
+        grouped["probability"] = grouped.draw_count / SIMULATION_DRAWS
+        grouped["draws"] = SIMULATION_DRAWS
+        frames.append(grouped)
+    return pd.concat(frames, ignore_index=True)[[
+        "chamber", "environment_shift_low", "environment_shift_high", "dem_modeled_seats",
+        "draw_count", "probability", "draws",
+    ]]
+
+
+def fixed_seats(roster: pd.DataFrame) -> dict[str, dict[str, int]]:
+    """Seats with one major-party nominee, fixed for that party in chamber summaries."""
+    result = {}
+    for chamber in CHAMBER_SEATS:
+        part = roster[roster.chamber.eq(chamber)]
+        dem = set(part[part.party.eq("D")].district)
+        rep = set(part[part.party.eq("R")].district)
+        result[chamber] = {"D": len(dem - rep), "R": len(rep - dem)}
+    return result
+
+
+def seat_summary(counts: np.ndarray, chamber: str, fixed: dict[str, dict[str, int]]) -> dict:
+    """Chamber topline using the page's rule: the smallest total whose cumulative share reaches q."""
+    total = counts + fixed[chamber]["D"]
+    majority = CHAMBER_SEATS[chamber] // 2 + 1
+
+    def quantile(q: float) -> int:
+        return int(np.quantile(total, q, method="inverted_cdf"))
+
+    return {
+        "chamber": chamber, "chamber_seats": CHAMBER_SEATS[chamber], "majority_threshold": majority,
+        "fixed_dem_seats": fixed[chamber]["D"], "fixed_rep_seats": fixed[chamber]["R"],
+        "dem_seats_mean": float(total.mean()), "dem_seats_median": quantile(0.5),
+        "dem_seats_p10": quantile(0.1), "dem_seats_p90": quantile(0.9),
+        "prob_dem_majority": float(np.mean(total >= majority)), "draws": int(len(total)),
+    }
+
+
+def predict_scenarios(
+    scale: float,
+) -> tuple[
+    pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame, dict[str, np.ndarray], list[str], str
+]:
+    current = prospective_features()
+    adjustments = pd.read_csv(OUT / "alabama_forecast_candidate_history_race_adjustments.csv")
+    component = pd.read_csv(OUT / "robust_forecast_v1_error_components.csv").iloc[0]
+    national_sd = float(component.national_sd)
+    rows = []
+    for scenario, shift, use_history in (
+        ("headline", 0.0, True),
+        ("environment_dem_favorable", national_sd, True),
+        ("environment_rep_favorable", -national_sd, True),
+        ("fundamentals_only_no_candidate_history", 0.0, False),
+    ):
+        scenario_frame, design_features, warehouse_run_id = scenario_frame_for(
+            current, adjustments, scale, scenario, shift, use_history
+        )
+        rows.append(scenario_frame)
+    scenarios = pd.concat(rows, ignore_index=True)
+    scenarios["status"] = SCENARIO_STATUS
+    scenarios = scenarios.drop(columns=LEGACY_SCENARIO_COLUMNS)
+
+    headline = scenarios[scenarios.scenario.eq("headline")].copy().reset_index(drop=True)
+    simulated, environment = simulate_headline(headline, component)
     uncertainty_rows = []
     for idx, row in headline.iterrows():
         values = simulated[:, idx]
@@ -361,19 +452,33 @@ def predict_scenarios(
             "margin_95_high": float(np.quantile(values, 0.975)),
             "draws": SIMULATION_DRAWS,
         })
+    counts = modeled_seat_counts(headline, simulated)
     modeled_seat_rows = []
-    for chamber in sorted(headline.chamber.unique()):
-        selected = np.where(headline.chamber.eq(chamber))[0]
-        counts = (simulated[:, selected] > 0).sum(axis=1)
-        values, frequencies = np.unique(counts, return_counts=True)
+    for chamber, chamber_counts in counts.items():
+        values, frequencies = np.unique(chamber_counts, return_counts=True)
         modeled_seat_rows.extend({
             "chamber": chamber, "dem_modeled_seats": int(value),
             "probability": float(frequency / SIMULATION_DRAWS), "draws": SIMULATION_DRAWS,
         } for value, frequency in zip(values, frequencies))
+    joint = environment_seat_joint(counts, environment)
     return (
         scenarios, pd.DataFrame(uncertainty_rows), pd.DataFrame(modeled_seat_rows),
-        design_features, warehouse_run_id,
+        joint, counts, design_features, warehouse_run_id,
     )
+
+
+def append_run_ledger(path: Path, rows: list[dict]) -> pd.DataFrame:
+    """Append this run's chamber toplines, keeping one row per distinct result.
+
+    Reruns that reproduce an existing result keep that result's first timestamp.
+    """
+    ledger = pd.DataFrame(rows)
+    if path.exists():
+        ledger = pd.concat([pd.read_csv(path), ledger], ignore_index=True)
+    identity = [column for column in ledger.columns if column not in {"generated_at_utc", "git_commit"}]
+    ledger = ledger.drop_duplicates(subset=identity, keep="first").reset_index(drop=True)
+    ledger.to_csv(path, index=False)
+    return ledger
 
 
 def main() -> None:
@@ -382,7 +487,14 @@ def main() -> None:
     forward, metrics, scale, probability_table = forward_test(panel)
     baseline_metric = metrics[metrics.specification.eq("generic_ballot_baseline")].iloc[0]
     structural_metric = metrics[metrics.specification.eq("generic_war_structural")].iloc[0]
-    scenarios, uncertainty, modeled_seats, design_features, warehouse_run_id = predict_scenarios(scale)
+    scenarios, uncertainty, modeled_seats, joint, seat_counts, design_features, warehouse_run_id = (
+        predict_scenarios(scale)
+    )
+    joint_marginal = joint.groupby(["chamber", "dem_modeled_seats"]).draw_count.sum()
+    for chamber, counts in seat_counts.items():
+        values, frequencies = np.unique(counts, return_counts=True)
+        if not joint_marginal.loc[chamber].reindex(values).eq(frequencies).all():
+            raise RuntimeError(f"Environment-seat joint does not reproduce the {chamber} seat distribution")
 
     paths = {
         "historical_panel": OUT / f"{PREFIX}_historical_panel.csv",
@@ -392,11 +504,13 @@ def main() -> None:
         "2026_scenarios": OUT / f"{PREFIX}_2026_scenarios.csv",
         "2026_full_uncertainty": OUT / f"{PREFIX}_2026_full_uncertainty.csv",
         "2026_modeled_seats": OUT / f"{PREFIX}_2026_modeled_seats.csv",
+        "2026_environment_seat_joint": OUT / f"{PREFIX}_2026_environment_seat_joint.csv",
     }
     frames = {
         "historical_panel": panel, "forward_predictions": forward, "forward_metrics": metrics,
         "probability_families": probability_table, "2026_scenarios": scenarios,
         "2026_full_uncertainty": uncertainty, "2026_modeled_seats": modeled_seats,
+        "2026_environment_seat_joint": joint,
     }
     for key, path in paths.items():
         frames[key].to_csv(path, index=False)
@@ -418,6 +532,20 @@ def main() -> None:
             + ",".join(FEATURES)
         ).encode()
     ).hexdigest()[:20]
+    roster = pd.read_csv(WAR / "2026_final_candidate_roster.csv")
+    fixed = fixed_seats(roster)
+    ledger_path = OUT / f"{PREFIX}_run_ledger.csv"
+    frames["run_ledger"] = append_run_ledger(ledger_path, [
+        {
+            "build_id": build_id, "generated_at_utc": generated, "git_commit": git_commit(),
+            "selected_specification": selected_specification,
+            "poll_average_as_of": str(headline_scenario.poll_average_as_of.iloc[0]),
+            "generic_ballot_margin": float(headline_scenario.generic_ballot_environment_margin.iloc[0]),
+            **seat_summary(counts, chamber, fixed),
+        }
+        for chamber, counts in seat_counts.items()
+    ])
+    paths["run_ledger"] = ledger_path
     manifest = {
         "schema_version": 2,
         "status": "published_owner_selected_environment_adjusted_war_forecast_with_validation_warning",
@@ -504,9 +632,10 @@ def main() -> None:
 
     METHOD.write_text(
         f"# Alabama WAR generic-candidate forecast v1\n\nBuild: `{build_id}`\n\nGenerated: `{generated}`\n\n"
-        "The forecast evaluates a generic Democrat against a generic Republican. Candidate identity, prior WAR/CMO, "
-        "repeat-candidate performance, ideology, and fundraising are absent; prospective candidate-specific WAR is "
-        "exactly zero. Incumbency remains a symmetric race condition in the WAR structure.\n\n"
+        "The forecast starts from a generic Democrat against a generic Republican, then carries each nominee's own "
+        "demonstrated WAR forward where a prior Alabama race is matched, at the persistence estimated on Southern v3 "
+        f"repeat candidates ({history_manifest['fit']['persistence']:.3f}). Unmatched nominees stay generic; ideology "
+        "and fundraising are absent. Incumbency remains a symmetric race condition in the WAR structure.\n\n"
         "The baseline is each district's prior presidential margin shifted by the national generic ballot. That uniform "
         "national-to-Alabama generic-ballot transfer is an owner-selected model assumption; its Alabama-specific validity "
         "is not established beyond the single 2022 forward holdout. The published "
@@ -517,10 +646,18 @@ def main() -> None:
         f"The candidate-independent structural adjustment produced a {structural_metric.mae:.3f}-point 2022 MAE versus "
         f"{baseline_metric.mae:.3f} for the generic-ballot district baseline. The published specification applies that "
         f"structural expected gap at the project owner's direction. It {holdout_assessment} on the sole Alabama 2022 "
-        "holdout; that comparison remains explicit. Candidate-specific residual WAR remains zero. Probabilities use Student-t(5) with a "
+        f"holdout; that comparison remains explicit. Candidate history is added after the structural prediction in "
+        f"{int((headline_scenario.candidate_war_adjustment != 0).sum())} of {len(headline_scenario)} headline races. "
+        "Probabilities use Student-t(5) with a "
         f"{scale:.2f}-point scale, the maximum-likelihood scale of the {len(forward)} holdout margin residuals (nominal 80% interval "
         f"covers {probability_table.iloc[0].coverage_80:.0%} of them); a single 33-race holdout remains a material uncertainty for the probability layer. Chamber simulations add correlated national, "
-        "statewide, chamber, and district error components.\n",
+        "statewide, chamber, and district error components.\n\n"
+        "Graphics exports: `2026_environment_seat_joint` cross-tabulates each draw's shared environment shift "
+        "(national plus statewide error, 1-point bins) with modeled Democratic seats, and its margin over the "
+        "environment reproduces the modeled-seat distribution exactly. `run_ledger` keeps one row per chamber for each "
+        "distinct forecast result. The polling replay (`scripts/build_forecast_polling_replay.py`) re-applies the "
+        "polling-average rule as of earlier dates with candidates and every other input held at this run; it is a "
+        "sensitivity series, not an archived forecast history.\n",
         encoding="utf-8",
     )
     AUDIT.write_text(
@@ -530,7 +667,8 @@ def main() -> None:
         f"- Generic structural candidate MAE: {structural_metric.mae:.3f}; generic-ballot baseline MAE: {baseline_metric.mae:.3f}.\n"
         f"- Selected specification: `{selected_specification}` by owner-required model definition; forward validation is advisory.\n"
         f"- Prospective coverage: {int(scenarios.groupby('scenario').size().min())} D-R races in each scenario.\n"
-        "- Candidate-specific WAR is zero, incumbency is included structurally, candidate history is false, finance is false, and the forecast identity reconciles within floating-point tolerance.\n"
+        f"- Candidate history is carried forward in {int((headline_scenario.candidate_war_adjustment != 0).sum())} headline races; incumbency is included structurally; finance is false; and the forecast identity reconciles within floating-point tolerance.\n"
+        "- Graphics exports: the environment-seat joint's margin reproduces the modeled-seat distribution exactly (checked at build time).\n"
         "- Owner-selected model assumption: the uniform national-to-Alabama generic-ballot transfer's Alabama-specific validity is not established beyond the single 2022 forward holdout.\n"
         f"- Holdout assessment: the selected structural specification {holdout_assessment} on the sole Alabama 2022 holdout.\n"
         f"- Probability scale: Student-t(5) scale {scale:.2f} selected by maximum likelihood on the holdout margin residuals (80% interval coverage {probability_table.iloc[0].coverage_80:.0%}; Brier {probability_table.iloc[0].brier:.4f}); the scale is tuned and evaluated on the same 33 races, so no independent probability evaluation exists.\n"

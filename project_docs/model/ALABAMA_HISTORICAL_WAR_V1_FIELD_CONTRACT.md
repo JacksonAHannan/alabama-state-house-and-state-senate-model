@@ -22,6 +22,7 @@ The Democratic candidate receives `candidate_cycle_war = race_war`; the Republic
 
 - For 1994–2014, `scoring_scope = post2016_southern_model_backcast`. The selected Southern `decaying_lag` ridge specification with alpha 100 is fit once on strict Southern races with `cycle > 2016` and applied backward to historical Alabama race context.
 - For 2018 and 2022, `scoring_scope = published_same_cycle_residual`. Values must exactly equal Alabama WAR v1 and retain its same-cycle descriptive fitted expectation.
+- `scoring_scope = excluded_by_adjudication` marks a contest whose WAR is withheld by an owner-approved record in `data/manual/elections/alabama_historical_war_exclusions.csv`. Each record carries a stable `exclusion_id`, a reason, evidence and the decision. The race and its two candidate rows stay in the files with `exclusion_id` and `exclusion_reason_code`, and `war`, `modern_backcast_war` and `candidate_cycle_war` are empty. The raw gap and fitted expectation remain as diagnostics only. An excluded contest is observed but unscored: it is never a zero, and it must not enter career sums, group means or rankings.
 
 The backcast prediction is retained for 2018/2022 as a diagnostic but does not replace the published rating.
 

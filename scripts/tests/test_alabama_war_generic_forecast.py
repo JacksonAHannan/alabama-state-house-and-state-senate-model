@@ -97,3 +97,31 @@ def test_forecast_manifest_hashes_outputs():
     for record in manifest["outputs"]:
         path = ROOT / record["path"]
         assert hashlib.sha256(path.read_bytes()).hexdigest() == record["sha256"]
+
+
+def test_environment_seat_joint_reproduces_the_modeled_seat_distribution():
+    joint = pd.read_csv(OUT / f"{PREFIX}_2026_environment_seat_joint.csv")
+    seats = pd.read_csv(OUT / f"{PREFIX}_2026_modeled_seats.csv")
+    assert (joint.environment_shift_high - joint.environment_shift_low).eq(1.0).all()
+    assert not joint.duplicated(["chamber", "environment_shift_low", "dem_modeled_seats"]).any()
+    for chamber, part in joint.groupby("chamber"):
+        assert part.draw_count.sum() == part.draws.iloc[0]
+        marginal = part.groupby("dem_modeled_seats").draw_count.sum() / part.draws.iloc[0]
+        expected = seats[seats.chamber.eq(chamber)].set_index("dem_modeled_seats").probability
+        pd.testing.assert_series_equal(marginal, expected, check_names=False, rtol=0, atol=1e-12)
+
+
+def test_run_ledger_keeps_one_row_per_distinct_result():
+    import run_alabama_war_generic_forecast as forecast
+
+    ledger = pd.read_csv(OUT / f"{PREFIX}_run_ledger.csv")
+    manifest = json.loads((OUT / f"{PREFIX}_manifest.json").read_text(encoding="utf-8"))
+    current = ledger[ledger.build_id.eq(manifest["build_id"])]
+    assert set(current.chamber) == {"house", "senate"}
+    identity = [c for c in ledger.columns if c not in {"generated_at_utc", "git_commit"}]
+    assert not ledger.duplicated(identity).any()
+    assert current.dem_seats_p10.le(current.dem_seats_median).all() and current.dem_seats_median.le(current.dem_seats_p90).all()
+    # The page's quantile rule: the smallest total whose cumulative share reaches q.
+    total = np.array([3, 4, 4, 5, 9])
+    summary = forecast.seat_summary(total - 1, "senate", {"senate": {"D": 1, "R": 0}})
+    assert (summary["dem_seats_p10"], summary["dem_seats_median"], summary["dem_seats_p90"]) == (3, 4, 9)

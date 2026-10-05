@@ -15,7 +15,8 @@ import numpy as np
 
 from southern_war_map_contract import scheduled_keys_2016_2024
 from southern_war_release_gate import require_approved_release
-from site_brand import apply_theme
+import site_geography
+from site_brand import apply_theme, war_identity_figure
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -26,6 +27,7 @@ PAYLOAD = DOCS_DATA / "southern_war_map_payload.json"
 SITE = ROOT / "docs/southern-war.html"
 METHOD = ROOT / "docs/southern-war-methodology.html"
 ARTIFACT = ROOT / "artifacts/site/southern-war.html"
+ARTIFACT_DATA = ROOT / "artifacts/site/data"
 TEMPLATE = ROOT / "dashboard/southern_war.html"
 EXPLORER_STYLE = ROOT / "dashboard/war_explorer.css"
 V3_MANIFEST = ROOT / "data/processed/war/post2016_southern_war_v3/manifest.json"
@@ -115,27 +117,6 @@ def normalized_district(value: object) -> str:
     if text.isdigit():
         return str(int(text))
     return text
-
-
-def path_for_geometry(geom, bounds, width=640, height=700, pad=12) -> str:
-    minx, miny, maxx, maxy = bounds
-    scale = min((width - 2 * pad) / (maxx - minx), (height - 2 * pad) / (maxy - miny))
-    ox = (width - (maxx - minx) * scale) / 2
-    oy = (height - (maxy - miny) * scale) / 2
-
-    def ring(coords) -> str:
-        points = [
-            (ox + (x - minx) * scale, height - (oy + (y - miny) * scale))
-            for x, y in coords
-        ]
-        return "M" + "L".join(f"{x:.1f},{y:.1f}" for x, y in points) + "Z"
-
-    polygons = [geom] if geom.geom_type == "Polygon" else list(geom.geoms)
-    return "".join(
-        ring(polygon.exterior.coords)
-        + "".join(ring(interior.coords) for interior in polygon.interiors)
-        for polygon in polygons if polygon.geom_type == "Polygon"
-    )
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:
@@ -435,7 +416,10 @@ def build_payload() -> dict[str, object]:
         frame, retained = display_geometry(frame)
         if frame.geometry.is_empty.any() or not frame.geometry.is_valid.all():
             raise ValueError(f"Invalid simplified geometry for {state}/{cycle}/{chamber}")
-        bounds = frame.total_bounds
+        view = site_geography.frame_for(frame.total_bounds)
+        outline = frame.geometry.union_all()
+        layout = site_geography.tile_layout(
+            {row.district: row.geometry.representative_point() for row in frame.itertuples()}, outline, view)
         scored = {
             district: row for (s, c, h, district), row in race_index.items()
             if (s, c, h) == (state, cycle, chamber)
@@ -485,7 +469,8 @@ def build_payload() -> dict[str, object]:
                 "lagContextAvailable": str(row["lag_context_available"]).lower() in {"true", "1"},
             }
         features = [
-            {"district": row.district, "path": path_for_geometry(row.geometry, bounds)}
+            {"district": row.district, "path": site_geography.svg_path(row.geometry, view),
+             "label": site_geography.label_point(row.geometry, view)}
             for row in frame.sort_values("district", key=lambda values: values.astype(int)).itertuples()
         ]
         total_features += len(features)
@@ -514,6 +499,8 @@ def build_payload() -> dict[str, object]:
             "censusVintage": source["geography_vintage"], "sourceUrl": source["source_url"],
             "geometrySourceId": source["source_file_id"], "districts": len(features),
             "features": features, "races": public_races,
+            "outline": site_geography.svg_path(outline, view),
+            "tiles": layout["tiles"], "tileSize": layout["size"],
             "coverage": {
                 "scored": integer(cov["scored_races"]),
                 "financeComplete": integer(cov["finance_complete_races"]),
@@ -557,9 +544,10 @@ def build_payload() -> dict[str, object]:
 
 
 def page_html() -> str:
-    return TEMPLATE.read_text(encoding="utf-8").replace(
-        "__EXPLORER_CSS__", EXPLORER_STYLE.read_text(encoding="utf-8")
-    )
+    return (TEMPLATE.read_text(encoding="utf-8")
+            .replace("__EXPLORER_CSS__", (ROOT / "dashboard/site_components.css").read_text(encoding="utf-8")
+                     + EXPLORER_STYLE.read_text(encoding="utf-8"))
+            .replace("__MAPJS__", (ROOT / "dashboard/site_map.js").read_text(encoding="utf-8")))
 
 
 def methodology_html(
@@ -567,36 +555,46 @@ def methodology_html(
     limitations: dict[str, dict[str, object]],
     run_ids: dict[str, str],
 ) -> str:
-    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Southern WAR methodology</title><style>body{{margin:0;background:#f4f8fa;color:#222;font:16px/1.65 Arial,sans-serif}}header nav,main{{width:min(900px,calc(100% - 36px));margin:auto}}header{{background:#fff;border-bottom:1px solid #aab9c2}}header nav{{display:flex;gap:18px;padding:17px 0}}a{{color:#743b42;font-weight:700}}h1{{font-size:52px;line-height:1;margin:58px 0 18px}}section{{padding:8px 0 24px;border-bottom:1px solid #aab9c2}}.formula,.warning{{padding:15px 18px;border-left:4px solid #743b42;background:#e7eff3}}.warning{{border-color:#a87928;background:#fff4d8}}table{{border-collapse:collapse;width:100%}}th,td{{border-bottom:1px solid #aab9c2;padding:9px;text-align:left}}.table-scroll{{max-width:100%;overflow-x:auto;margin:14px 0}}.table-scroll:focus-visible{{outline:3px solid #3d77a8;outline-offset:2px}}table.limitations{{width:max-content;min-width:100%;font-size:14px}}table.limitations caption{{text-align:left;padding:0 0 8px;font-size:14px;color:#586772}}table.limitations th,table.limitations td{{white-space:nowrap;vertical-align:top}}table.limitations .num{{text-align:right;font-variant-numeric:tabular-nums}}table.limitations th:first-child{{position:sticky;left:0;z-index:1;background:#743b42;color:#fff;box-shadow:1px 0 0 #aab9c2}}table.limitations tfoot td,table.limitations tfoot th{{font-weight:700;border-top:2px solid #743b42}}code{{overflow-wrap:anywhere}}.run-ids{{display:grid;grid-template-columns:max-content 1fr;gap:6px 18px;margin:18px 0}}.run-ids dt{{font-weight:700}}.run-ids dd{{margin:0}}@media(max-width:600px){{.run-ids{{grid-template-columns:1fr}}}}</style></head><body><header><nav><a href="index.html">Forecast</a><a href="cmo.html">Alabama WAR</a><a href="southern-war.html" aria-current="page">Southern WAR</a><a href="methods.html">Methods</a></nav></header><main><h1>Southern WAR methodology</h1><p>Construction, coverage, geography, finance, and interpretation for the 2016–2024 Southern state-legislative WAR map.</p><section><h2>1. Estimand</h2><div class="formula">Raw gap = Democratic legislative margin − Democratic ticket margin<br>Race WAR = raw gap − fitted structural expected gap<br>Democratic WAR = race WAR; Republican WAR = −race WAR</div><p>The score is a race differential, not a pooled candidate-career effect. A residual cannot uniquely divide credit between candidate strength, opponent weakness, and omitted local conditions.</p></section><section><h2>2. Structural model</h2><p>The selected <code>decaying_lag</code> ridge specification (alpha 100) models the ordinary legislative-ticket gap using ticket margin and its square, state, chamber, baseline office family, election timing, symmetric incumbency, prior presidential margin, ticket change, and a ticket-change-by-years interaction. Specification selection used earlier-cycle forward validation.</p></section><section><h2>3. Historical scoring</h2><p>Races after 2016 preserve the published Southern WAR v3 same-cycle fitted residual. The strict 2016 races are a backward application of the selected model fitted only on strict races after 2016.</p><div class="warning"><b>2016 extrapolation.</b> Those scores compare 2016 results with a modern post-2016 structural relationship. No 2016 outcome enters model fitting, but the result is descriptive rather than a contemporaneous fit.</div></section><section><h2>4. Coverage and missing races</h2><p>The explorer contains all 116 scheduled state/cycle/chamber map slices and every district outline in the exact election-year Census cartographic-boundary file. Only strict observed D–R regular contests receive WAR. Uncontested races, non-D/R races, research-only context, and missing outcomes remain unscored; gray never means WAR zero.</p><p>Louisiana, Mississippi, and Virginia retain their actual odd-year election schedules. South Carolina’s staggered Senate schedule is also retained.</p></section><section><h2>5. Fundraising</h2><p>Fundraising is displayed only when both major-party observations and both candidate identities are complete. The model tested viability gates at every $10,000 from $10,000 through $100,000, plus $250,000. Finance failed the prespecified nested time-forward promotion gate, so it does not enter headline WAR.</p><p>Missouri has no usable finance in the warehouse run underlying this map, and Mississippi has very limited electronic coverage. Other states have residual race-level gaps. Missing finance is unavailable, not zero.</p></section><section><h2>6. Geography</h2><p>Each slice uses the U.S. Census Bureau’s cartographic boundary released for that election year and chamber. A scored race must match one unique district feature in the exact state/year/chamber file. Census geometry is display evidence; it does not overwrite the warehouse’s provider-reported plan-vintage label.</p></section>{limitations_section_html(limitations, run_ids)}<section><h2>8. Downloads</h2><p><a href="data/southern_historical_war_v1_race_war.csv">Race WAR</a> · <a href="data/southern_historical_war_v1_candidate_cycle_war.csv">Candidate orientations</a> · <a href="data/southern_historical_war_v1_coverage.csv">Coverage</a> · <a href="data/southern_historical_war_v1_state_release_coverage.csv">State release coverage</a> · <a href="data/southern_war_map_join_audit.csv">Map join audit</a> · <a href="data/southern_historical_war_v1_manifest.json">Run manifest</a> · <a href="data/southern_legislative_geography_manifest.csv">Geometry sources</a></p><p><small>Run {html.escape(run_id)}</small></p></section></main></body></html>'''
+    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Southern WAR methodology</title><style>body{{margin:0;background:#f4f8fa;color:#222;font:16px/1.65 Arial,sans-serif}}header nav,main{{width:min(900px,calc(100% - 36px));margin:auto}}header{{background:#fff;border-bottom:1px solid #aab9c2}}header nav{{display:flex;gap:18px;padding:17px 0}}a{{color:#743b42;font-weight:700}}h1{{font-size:52px;line-height:1;margin:58px 0 18px}}section{{padding:8px 0 24px;border-bottom:1px solid #aab9c2}}.formula,.warning{{padding:15px 18px;border-left:4px solid #743b42;background:#e7eff3}}.warning{{border-color:#a87928;background:#fff4d8}}table{{border-collapse:collapse;width:100%}}th,td{{border-bottom:1px solid #aab9c2;padding:9px;text-align:left}}.table-scroll{{max-width:100%;overflow-x:auto;margin:14px 0}}.table-scroll:focus-visible{{outline:3px solid #3d77a8;outline-offset:2px}}table.limitations{{width:max-content;min-width:100%;font-size:14px}}table.limitations caption{{text-align:left;padding:0 0 8px;font-size:14px;color:#586772}}table.limitations th,table.limitations td{{white-space:nowrap;vertical-align:top}}table.limitations .num{{text-align:right;font-variant-numeric:tabular-nums}}table.limitations th:first-child{{position:sticky;left:0;z-index:1;background:#743b42;color:#fff;box-shadow:1px 0 0 #aab9c2}}table.limitations tfoot td,table.limitations tfoot th{{font-weight:700;border-top:2px solid #743b42}}code{{overflow-wrap:anywhere}}.run-ids{{display:grid;grid-template-columns:max-content 1fr;gap:6px 18px;margin:18px 0}}.run-ids dt{{font-weight:700}}.run-ids dd{{margin:0}}@media(max-width:600px){{.run-ids{{grid-template-columns:1fr}}}}</style></head><body><header><nav><a href="index.html">Forecast</a><a href="cmo.html">Alabama WAR</a><a href="southern-war.html" aria-current="page">Southern WAR</a><a href="methods.html">Methods</a></nav></header><main><h1>Southern WAR methodology</h1><p>Construction, coverage, geography, finance, and interpretation for the 2016–2024 Southern state-legislative WAR map.</p><section><h2>1. Estimand</h2><div class="formula">Raw gap = Democratic legislative margin − Democratic ticket margin<br>Race WAR = raw gap − fitted structural expected gap<br>Democratic WAR = race WAR; Republican WAR = −race WAR</div>{war_identity_figure()}<p>The score is a race differential, not a pooled candidate-career effect. A residual cannot uniquely divide credit between candidate strength, opponent weakness, and omitted local conditions.</p></section><section><h2>2. Structural model</h2><p>The selected <code>decaying_lag</code> ridge specification (alpha 100) models the ordinary legislative-ticket gap using ticket margin and its square, state, chamber, baseline office family, election timing, symmetric incumbency, prior presidential margin, ticket change, and a ticket-change-by-years interaction. Specification selection used earlier-cycle forward validation.</p></section><section><h2>3. Historical scoring</h2><p>Races after 2016 preserve the published Southern WAR v3 same-cycle fitted residual. The strict 2016 races are a backward application of the selected model fitted only on strict races after 2016.</p><div class="warning"><b>2016 extrapolation.</b> Those scores compare 2016 results with a modern post-2016 structural relationship. No 2016 outcome enters model fitting, but the result is descriptive rather than a contemporaneous fit.</div></section><section><h2>4. Coverage and missing races</h2><p>The explorer contains all 116 scheduled state/cycle/chamber map slices and every district outline in the exact election-year Census cartographic-boundary file. Only strict observed D–R regular contests receive WAR. Uncontested races, non-D/R races, research-only context, and missing outcomes remain unscored; gray never means WAR zero.</p><p>Louisiana, Mississippi, and Virginia retain their actual odd-year election schedules. South Carolina’s staggered Senate schedule is also retained.</p></section><section><h2>5. Fundraising</h2><p>Fundraising is displayed only when both major-party observations and both candidate identities are complete. The model tested viability gates at every $10,000 from $10,000 through $100,000, plus $250,000. Finance failed the prespecified nested time-forward promotion gate, so it does not enter headline WAR.</p><p>Missouri has no usable finance in the warehouse run underlying this map, and Mississippi has very limited electronic coverage. Other states have residual race-level gaps. Missing finance is unavailable, not zero.</p></section><section><h2>6. Geography</h2><p>Each slice uses the U.S. Census Bureau’s cartographic boundary released for that election year and chamber. A scored race must match one unique district feature in the exact state/year/chamber file. Census geometry is display evidence; it does not overwrite the warehouse’s provider-reported plan-vintage label.</p></section>{limitations_section_html(limitations, run_ids)}<section><h2>8. Downloads</h2><p><a href="data/southern_historical_war_v1_race_war.csv">Race WAR</a> · <a href="data/southern_historical_war_v1_candidate_cycle_war.csv">Candidate orientations</a> · <a href="data/southern_historical_war_v1_coverage.csv">Coverage</a> · <a href="data/southern_historical_war_v1_state_release_coverage.csv">State release coverage</a> · <a href="data/southern_war_map_join_audit.csv">Map join audit</a> · <a href="data/southern_historical_war_v1_manifest.json">Run manifest</a> · <a href="data/southern_legislative_geography_manifest.csv">Geometry sources</a></p><p><small>Run {html.escape(run_id)}</small></p></section></main></body></html>'''
 
 
-def main() -> None:
+def main(*, publish: bool = True) -> None:
     payload = build_payload()
-    DOCS_DATA.mkdir(parents=True, exist_ok=True)
-    PAYLOAD.write_text(json.dumps(payload, separators=(",", ":")), encoding="utf-8")
-    with JOIN_AUDIT.open("w", encoding="utf-8", newline="") as stream:
+    data_dir = DOCS_DATA if publish else ARTIFACT_DATA
+    payload_path = data_dir / PAYLOAD.name
+    data_dir.mkdir(parents=True, exist_ok=True)
+    payload_path.write_text(json.dumps(payload, separators=(",", ":")), encoding="utf-8")
+    with (data_dir / JOIN_AUDIT.name).open("w", encoding="utf-8", newline="") as stream:
         writer = csv.DictWriter(stream, fieldnames=list(payload["joinAudit"][0]))
         writer.writeheader()
         writer.writerows(payload["joinAudit"])
-    copies = {
-        MODEL / "race_war.csv": DOCS_DATA / "southern_historical_war_v1_race_war.csv",
-        MODEL / "candidate_cycle_war.csv": DOCS_DATA / "southern_historical_war_v1_candidate_cycle_war.csv",
-        MODEL / "coverage.csv": DOCS_DATA / "southern_historical_war_v1_coverage.csv",
-        MODEL / "manifest.json": DOCS_DATA / "southern_historical_war_v1_manifest.json",
-        STATE_COVERAGE: STATE_COVERAGE_PUBLIC,
-        GEOGRAPHY: DOCS_DATA / "southern_legislative_geography_manifest.csv",
-    }
-    for source, target in copies.items():
-        shutil.copy2(source, target)
     page = apply_theme(page_html())
     method = apply_theme(methodology_html(str(payload["runId"]), payload["stateLimitations"], payload["runIds"]))
-    SITE.write_text(page, encoding="utf-8")
-    METHOD.write_text(method, encoding="utf-8")
     ARTIFACT.parent.mkdir(parents=True, exist_ok=True)
     ARTIFACT.write_text(page, encoding="utf-8")
-    digest = hashlib.sha256(PAYLOAD.read_bytes()).hexdigest()
-    print(f"Southern WAR map: slices={len(payload['slices'])} races={payload['diagnostics']['scoredRaces']:,} payload_sha256={digest}")
+    ARTIFACT.with_name(METHOD.name).write_text(method, encoding="utf-8")
+    if publish:
+        copies = {
+            MODEL / "race_war.csv": DOCS_DATA / "southern_historical_war_v1_race_war.csv",
+            MODEL / "candidate_cycle_war.csv": DOCS_DATA / "southern_historical_war_v1_candidate_cycle_war.csv",
+            MODEL / "coverage.csv": DOCS_DATA / "southern_historical_war_v1_coverage.csv",
+            MODEL / "manifest.json": DOCS_DATA / "southern_historical_war_v1_manifest.json",
+            STATE_COVERAGE: STATE_COVERAGE_PUBLIC,
+            GEOGRAPHY: DOCS_DATA / "southern_legislative_geography_manifest.csv",
+        }
+        for source, target in copies.items():
+            shutil.copy2(source, target)
+        SITE.write_text(page, encoding="utf-8")
+        METHOD.write_text(method, encoding="utf-8")
+    digest = hashlib.sha256(payload_path.read_bytes()).hexdigest()
+    print(f"Southern WAR map: slices={len(payload['slices'])} races={payload['diagnostics']['scoredRaces']:,} "
+          f"payload_sha256={digest}{'' if publish else ' (artifact only; docs/ untouched)'}")
 
 
 if __name__ == "__main__":
-    main()
+    import argparse
+
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--artifact-only", action="store_true",
+                        help="Write the candidate page, methodology and payload under artifacts/site/ without touching docs/.")
+    main(publish=not parser.parse_args().artifact_only)

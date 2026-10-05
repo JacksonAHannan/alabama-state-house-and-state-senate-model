@@ -1,6 +1,6 @@
 cycle,chamber,district,office,D,R,office_margin,baseline_allocation_method,baseline_fallback_share,baseline_source,activity_split_fallback_share
-1994,house,1.0,Attorney General,8408.104633820245,11914.562229944417,-17.253924495392827,legislative_activity_provisional,0.0,alabama_sos_canonical,
-1994,house,1.0,Governor,10117.368117988026,11138.161113145254,-4.8024821403273155,legislative_activity_provisional,0.0,alabama_sos_canonical,
+1994,house,1.0,Attorney General,5306.104633820244,6089.562229944417,-6.875048257293038,legislative_activity_provisional,0.0,alabama_sos_canonical,
+1994,house,1.0,Governor,6224.368117988025,5273.161113145255,8.273142739807694,legislative_activity_provisional,0.0,alabama_sos_canonical,
 1994,house,2.0,Attorney General,5262.895366179756,5171.437770055583,0.876506384548597,legislative_activity_provisional,0.0,alabama_sos_canonical,
 1994,house,2.0,Governor,5909.631882011975,4629.838886854745,12.142858244245998,legislative_activity_provisional,0.0,alabama_sos_canonical,
 1994,house,3.0,Attorney General,6132.089135313531,5447.3661782178215,5.91325704496278,legislative_activity_provisional,0.0,alabama_sos_canonical,
@@ -181,6 +181,8 @@ cycle,chamber,district,office,D,R,office_margin,baseline_allocation_method,basel
 1994,house,90.0,Governor,5400.391608391608,6830.580419580419,-11.693173755266493,legislative_activity_provisional,0.0,alabama_sos_canonical,
 1994,house,91.0,Attorney General,4603.0,6894.0,-19.926937461946594,legislative_activity_provisional,0.0,alabama_sos_canonical,
 1994,house,91.0,Governor,5380.0,6600.0,-10.18363939899833,legislative_activity_provisional,0.0,alabama_sos_canonical,
+1994,house,92.0,Attorney General,3290.0,6061.0,-29.6331943107689,legislative_activity_provisional,0.0,alabama_sos_canonical,
+1994,house,92.0,Governor,4124.0,6097.0,-19.303394971137852,legislative_activity_provisional,0.0,alabama_sos_canonical,
 1994,house,93.0,Attorney General,3234.327338736099,6615.03961275109,-34.32415799580425,legislative_activity_provisional,0.0,alabama_sos_canonical,
 1994,house,93.0,Governor,3507.6186950778647,6442.761259243858,-29.497793829382168,legislative_activity_provisional,0.0,alabama_sos_canonical,
 1994,house,94.0,Attorney General,3931.404661377679,11754.354898185018,-49.87294499256901,legislative_activity_provisional,0.0,alabama_sos_canonical,

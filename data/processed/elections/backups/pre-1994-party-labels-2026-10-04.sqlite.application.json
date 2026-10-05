@@ -1,0 +1,357 @@
+{
+  "warehouse_status": "committed",
+  "build_run_id": "RUN-9BDA412C4AD042C9A1F048C781525670",
+  "latest_run_before": "RUN-DFB1D093D7594AB68A264292050E924D",
+  "configuration": {
+    "task": "ALABAMA-1994-PARTY-LABELS-20261004",
+    "backup": "C:\\Users\\User\\Documents\\GitHub\\alabama-state-house-and-state-senate-model\\data\\processed\\elections\\backups\\pre-1994-party-labels-2026-10-04.sqlite",
+    "expected_run": "RUN-DFB1D093D7594AB68A264292050E924D",
+    "authorized_by": "owner decisions 2026-10-04 (ALABAMA-1994-PARTY-LABELS-20261004); independent review PASS 2026-10-04 and delta review PASS 2026-10-04; script sha256 ceab71fd8a88dc249c3b89c06936d1b13e20eb53eba09dc5aa76cb430d44d651",
+    "records": {
+      "data/manual/elections/alabama_1994_party_label_adjudications.csv": "d952e600d6ebe73feaafc26c46d0acbf49b0b9283a09c22d755d720b741ba606",
+      "data/manual/elections/alabama_1994_candidate_id_supersession.csv": "026a8fd10dd38996d7e64749252b9b1740657b7c5320f0bb52c18d9092d90997"
+    },
+    "audit": "project_docs/audits/ALABAMA_1994_PARTY_LABEL_REPAIR_2026_10_04.md",
+    "precinct_source_file_id": "SRC-E64FFC4299ED54CB2D3A",
+    "klarner_source_file_id": "SRC-C3ABE0AF40990D35F24C",
+    "evidence_files": [
+      {
+        "provider": "alabama_sos",
+        "path": "data/raw/alabama_elections_and_geography/eastateleg94.xls",
+        "sha256": "76a5b08dc298a62865a4fc34f30c4e3a9d3a153b903f6d5a04a915147a718a80",
+        "original_url": "https://www.sos.alabama.gov/sites/default/files/election-data/2017-06/eastateleg94.xls",
+        "media_type": "application/vnd.ms-excel",
+        "authoritative_scope": "official_historical_legislative_county_totals; 1994 printed party labels used as repair evidence",
+        "source_file_id": "SRC-91576AED8E98D0FB5F05"
+      },
+      {
+        "provider": "alabama_forestry_commission",
+        "path": "data/raw/ideology/alabama_1994_archival_sources/alabama_treasured_forests_fall_1994.pdf",
+        "sha256": "adff09d18afef4f6ca62f10121f142879413ded484a08554fa62797ee0f92248",
+        "original_url": "https://www.forestry.alabama.gov/Pages/Informational/Treasured_Forests/Magazine/1994_Fall.pdf",
+        "media_type": "application/pdf",
+        "authoritative_scope": "contemporaneous pre-election 1994 legislative candidate roster; repair evidence only",
+        "source_file_id": "SRC-EB7A463A0FFFA1CD89AB"
+      }
+    ],
+    "application_code_sha256": {
+      "repair_alabama_1994_party_labels.py": "ceab71fd8a88dc249c3b89c06936d1b13e20eb53eba09dc5aa76cb430d44d651",
+      "warehouse.py": "dd9df42bbb3760a51443027f53f166d7f943e8d3e8ba9ce4461ac403b72234e0",
+      "oe_normalize.py": "e1b306249cbc1bc3dd5b23ae038ee94df9d89ec3183ec061a4f8f878a63e1dff"
+    },
+    "before_counts": {
+      "vote_observations": 2184861,
+      "canonical_candidates": 1566,
+      "canonical_southern_legislative_candidate_election": 79814,
+      "warehouse_build_run": 129,
+      "qa_warehouse_source_repair": 57,
+      "warehouse_manual_adjudication": 4,
+      "warehouse_source_file": 26694
+    },
+    "canonical_digest_outside_contests": "7856b96945449c3b4df9798b39926bf574ea8b4c7570207b542dc1689877f514",
+    "materialized_digest_outside_sets": "a6ea5720284f4971bb39d0de040074bce91fe3c0c0a1deddf60310ed6e78f628",
+    "votes_digest_outside_targets": "57bf77e7b1bdf962d3d16cf75baad2ccd1b49fa1ccf4d7c280a5a1fb3ba18e9c",
+    "summary": {
+      "source_targets": 45,
+      "source_columns": 267,
+      "source_rows": 11259,
+      "contests": 38,
+      "canonical_rows_before": 54,
+      "canonical_rows_after": 49,
+      "supersession_actions": {
+        "votes_corrected_same_id": 5,
+        "retired": 16,
+        "rekeyed_party_relabel": 13,
+        "new_row": 11,
+        "rekeyed_party_relabel_votes_corrected": 4
+      },
+      "adjudications": 42,
+      "seats_current": {
+        "house": {
+          "D": 86,
+          "R": 18
+        },
+        "senate": {
+          "D": 29,
+          "R": 6
+        }
+      },
+      "seats_after": {
+        "house": {
+          "D": 74,
+          "R": 31
+        },
+        "senate": {
+          "D": 23,
+          "R": 12
+        }
+      },
+      "dr_contests_current": 72,
+      "dr_contests_after": 66,
+      "war_universe_enter": [
+        "house-101",
+        "house-11",
+        "house-21",
+        "house-51",
+        "house-91",
+        "house-92",
+        "senate-11",
+        "senate-31"
+      ],
+      "war_universe_leave": [
+        "house-103",
+        "house-19",
+        "house-29",
+        "house-53",
+        "house-58",
+        "house-67",
+        "house-69",
+        "house-72",
+        "house-8",
+        "house-86",
+        "house-97",
+        "senate-18",
+        "senate-23",
+        "senate-25"
+      ],
+      "new_people": 11,
+      "person_id_qualifications": [
+        {
+          "canonical_candidate_id": "AL-1994-house-51-D-ROGERS",
+          "person_id": "ALPERSON-ROGERS--1994-HOUSE-51",
+          "name_person_id": "ALPERSON-ROGERS",
+          "name_person_id_held_by": [
+            "house-36",
+            "house-52"
+          ]
+        },
+        {
+          "canonical_candidate_id": "AL-1994-house-92-R-MARTIN",
+          "person_id": "ALPERSON-MARTIN--1994-HOUSE-92",
+          "name_person_id": "ALPERSON-MARTIN",
+          "name_person_id_held_by": [
+            "house-27",
+            "house-40"
+          ]
+        },
+        {
+          "canonical_candidate_id": "AL-1994-senate-11-R-HILL",
+          "person_id": "ALPERSON-HILL--1994-SENATE-11",
+          "name_person_id": "ALPERSON-HILL",
+          "name_person_id_held_by": [
+            "house-41"
+          ]
+        }
+      ],
+      "manual_references": {
+        "rekeyed_references": {},
+        "retired_references": {
+          "data/manual/finance/historical_finance_archival_requests.csv": [
+            "AL-1994-house-103-R-GARDNER",
+            "AL-1994-house-12-R-BOWLING",
+            "AL-1994-house-19-R-ANDERSON",
+            "AL-1994-house-29-R-ESTES",
+            "AL-1994-house-32-R-MONTGOMERY",
+            "AL-1994-house-53-R-BLAKE",
+            "AL-1994-house-58-R-LELAND",
+            "AL-1994-house-67-R-WALKER",
+            "AL-1994-house-69-R-BROOKS",
+            "AL-1994-house-72-R-WILLIAMS",
+            "AL-1994-house-8-R-NEW",
+            "AL-1994-house-86-R-SHUEMAKE",
+            "AL-1994-house-97-R-BAUMHAUER",
+            "AL-1994-senate-18-R-HORN",
+            "AL-1994-senate-23-R-CURL",
+            "AL-1994-senate-25-D-ANDERSON"
+          ],
+          "data/manual/ideology/candidate_issue_research_attempts.csv": [
+            "AL-1994-house-103-R-GARDNER",
+            "AL-1994-house-12-R-BOWLING",
+            "AL-1994-house-19-R-ANDERSON",
+            "AL-1994-house-29-R-ESTES",
+            "AL-1994-house-53-R-BLAKE",
+            "AL-1994-house-58-R-LELAND",
+            "AL-1994-house-67-R-WALKER",
+            "AL-1994-house-69-R-BROOKS",
+            "AL-1994-house-72-R-WILLIAMS",
+            "AL-1994-house-86-R-SHUEMAKE",
+            "AL-1994-house-97-R-BAUMHAUER",
+            "AL-1994-senate-18-R-HORN",
+            "AL-1994-senate-23-R-CURL",
+            "AL-1994-senate-25-D-ANDERSON"
+          ],
+          "data/manual/ideology/candidate_issue_research_findings.csv": [
+            "AL-1994-senate-18-R-HORN"
+          ],
+          "data/manual/ideology/candidate_research_aliases.csv": [
+            "AL-1994-senate-18-R-HORN",
+            "AL-1994-senate-25-D-ANDERSON"
+          ],
+          "data/manual/ideology/candidate_research_exclusions.csv": [
+            "AL-1994-house-103-R-GARDNER",
+            "AL-1994-house-12-R-BOWLING",
+            "AL-1994-house-19-R-ANDERSON",
+            "AL-1994-house-32-R-MONTGOMERY",
+            "AL-1994-house-58-R-LELAND",
+            "AL-1994-house-8-R-NEW",
+            "AL-1994-house-97-R-BAUMHAUER"
+          ],
+          "data/manual/ideology/candidate_research_quality_flags.csv": [
+            "AL-1994-senate-25-D-ANDERSON"
+          ]
+        }
+      }
+    }
+  },
+  "summary": {
+    "source_targets": 45,
+    "source_columns": 267,
+    "source_rows": 11259,
+    "contests": 38,
+    "canonical_rows_before": 54,
+    "canonical_rows_after": 49,
+    "supersession_actions": {
+      "votes_corrected_same_id": 5,
+      "retired": 16,
+      "rekeyed_party_relabel": 13,
+      "new_row": 11,
+      "rekeyed_party_relabel_votes_corrected": 4
+    },
+    "adjudications": 42,
+    "seats_current": {
+      "house": {
+        "D": 86,
+        "R": 18
+      },
+      "senate": {
+        "D": 29,
+        "R": 6
+      }
+    },
+    "seats_after": {
+      "house": {
+        "D": 74,
+        "R": 31
+      },
+      "senate": {
+        "D": 23,
+        "R": 12
+      }
+    },
+    "dr_contests_current": 72,
+    "dr_contests_after": 66,
+    "war_universe_enter": [
+      "house-101",
+      "house-11",
+      "house-21",
+      "house-51",
+      "house-91",
+      "house-92",
+      "senate-11",
+      "senate-31"
+    ],
+    "war_universe_leave": [
+      "house-103",
+      "house-19",
+      "house-29",
+      "house-53",
+      "house-58",
+      "house-67",
+      "house-69",
+      "house-72",
+      "house-8",
+      "house-86",
+      "house-97",
+      "senate-18",
+      "senate-23",
+      "senate-25"
+    ],
+    "new_people": 11,
+    "person_id_qualifications": [
+      {
+        "canonical_candidate_id": "AL-1994-house-51-D-ROGERS",
+        "person_id": "ALPERSON-ROGERS--1994-HOUSE-51",
+        "name_person_id": "ALPERSON-ROGERS",
+        "name_person_id_held_by": [
+          "house-36",
+          "house-52"
+        ]
+      },
+      {
+        "canonical_candidate_id": "AL-1994-house-92-R-MARTIN",
+        "person_id": "ALPERSON-MARTIN--1994-HOUSE-92",
+        "name_person_id": "ALPERSON-MARTIN",
+        "name_person_id_held_by": [
+          "house-27",
+          "house-40"
+        ]
+      },
+      {
+        "canonical_candidate_id": "AL-1994-senate-11-R-HILL",
+        "person_id": "ALPERSON-HILL--1994-SENATE-11",
+        "name_person_id": "ALPERSON-HILL",
+        "name_person_id_held_by": [
+          "house-41"
+        ]
+      }
+    ],
+    "manual_references": {
+      "rekeyed_references": {},
+      "retired_references": {
+        "data/manual/finance/historical_finance_archival_requests.csv": [
+          "AL-1994-house-103-R-GARDNER",
+          "AL-1994-house-12-R-BOWLING",
+          "AL-1994-house-19-R-ANDERSON",
+          "AL-1994-house-29-R-ESTES",
+          "AL-1994-house-32-R-MONTGOMERY",
+          "AL-1994-house-53-R-BLAKE",
+          "AL-1994-house-58-R-LELAND",
+          "AL-1994-house-67-R-WALKER",
+          "AL-1994-house-69-R-BROOKS",
+          "AL-1994-house-72-R-WILLIAMS",
+          "AL-1994-house-8-R-NEW",
+          "AL-1994-house-86-R-SHUEMAKE",
+          "AL-1994-house-97-R-BAUMHAUER",
+          "AL-1994-senate-18-R-HORN",
+          "AL-1994-senate-23-R-CURL",
+          "AL-1994-senate-25-D-ANDERSON"
+        ],
+        "data/manual/ideology/candidate_issue_research_attempts.csv": [
+          "AL-1994-house-103-R-GARDNER",
+          "AL-1994-house-12-R-BOWLING",
+          "AL-1994-house-19-R-ANDERSON",
+          "AL-1994-house-29-R-ESTES",
+          "AL-1994-house-53-R-BLAKE",
+          "AL-1994-house-58-R-LELAND",
+          "AL-1994-house-67-R-WALKER",
+          "AL-1994-house-69-R-BROOKS",
+          "AL-1994-house-72-R-WILLIAMS",
+          "AL-1994-house-86-R-SHUEMAKE",
+          "AL-1994-house-97-R-BAUMHAUER",
+          "AL-1994-senate-18-R-HORN",
+          "AL-1994-senate-23-R-CURL",
+          "AL-1994-senate-25-D-ANDERSON"
+        ],
+        "data/manual/ideology/candidate_issue_research_findings.csv": [
+          "AL-1994-senate-18-R-HORN"
+        ],
+        "data/manual/ideology/candidate_research_aliases.csv": [
+          "AL-1994-senate-18-R-HORN",
+          "AL-1994-senate-25-D-ANDERSON"
+        ],
+        "data/manual/ideology/candidate_research_exclusions.csv": [
+          "AL-1994-house-103-R-GARDNER",
+          "AL-1994-house-12-R-BOWLING",
+          "AL-1994-house-19-R-ANDERSON",
+          "AL-1994-house-32-R-MONTGOMERY",
+          "AL-1994-house-58-R-LELAND",
+          "AL-1994-house-8-R-NEW",
+          "AL-1994-house-97-R-BAUMHAUER"
+        ],
+        "data/manual/ideology/candidate_research_quality_flags.csv": [
+          "AL-1994-senate-25-D-ANDERSON"
+        ]
+      }
+    }
+  }
+}

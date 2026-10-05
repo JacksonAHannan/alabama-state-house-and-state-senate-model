@@ -26,8 +26,11 @@ The 2026 model must be frozen using information available by a declared cutoff. 
   onto those districts and exactly preserves the statewide two-party totals.
 - Prospective demographic features reuse the 2022 ACS estimates because the
   supplied plan is the reinstated original 2021 plan. A block-assignment audit
-  found only eight House and one Senate centroid disagreements against the 2022
-  block equivalency files, attributable to split/boundary blocks.
+  found only eight House and one Senate representative-point disagreements
+  (corrected 2026-10-05 from "centroid", which gives 398 and 226) against the 2022
+  block equivalency files, attributable to split/boundary blocks. The reproducible
+  audit `scripts/audit_2022_2026_plan_equivalence.py` finds identical block sets for
+  all 140 districts.
 - A provisional incumbency table combines 2022 winners with saved-page
   annotations. Lower-confidence or source-disagreeing matches are separately
   queued for review.

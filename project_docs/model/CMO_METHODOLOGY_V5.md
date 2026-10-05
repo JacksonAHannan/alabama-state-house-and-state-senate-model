@@ -4,7 +4,7 @@
 
 **Direct CMO** is the candidate-oriented legislative margin minus the selected same-cycle ticket margin. It is observed overperformance and is never residualized for incumbency, fundraising, demographics, or candidate history.
 
-**Wins Above Replacement (WAR)** is the public name for the partial-pooled candidate effect from the direct gap after cycle/chamber/source replacement levels and the selected predetermined structural specification (`cycle_centered`). The candidate ridge penalty is 1. The internal `candidate_quality_index` field is retained as a stable compatibility column; it does not denote a second public measure.
+**Wins Above Replacement (WAR)** is the public name for the partial-pooled candidate effect from the direct gap after cycle/chamber/source replacement levels and the selected predetermined structural specification (`structural_residual_predetermined_lag_alpha_30`). The candidate ridge penalty is 1. The internal `candidate_quality_index` field is retained as a stable compatibility column; it does not denote a second public measure.
 
 ## Downballot lag
 
@@ -22,8 +22,8 @@ Literal `Last, First` source names are reordered before model-local longitudinal
 
 | cycle | chamber | district | candidate_direct_cmo | candidate_quality_index | candidate_quality_low | candidate_quality_high | quality_status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2010.000 | house | 2.000 | 19.518 | 3.667 | -12.533 | 19.867 | uncertain |
-| 2014.000 | senate | 1.000 | 10.781 | 3.667 | -12.533 | 19.867 | uncertain |
+| 2010.000 | house | 2.000 | 19.518 | 3.680 | -12.074 | 19.434 | uncertain |
+| 2014.000 | senate | 1.000 | 10.781 | 3.680 | -12.074 | 19.434 | uncertain |
 
 ## Interpretation
 

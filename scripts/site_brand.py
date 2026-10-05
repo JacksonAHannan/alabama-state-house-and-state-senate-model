@@ -26,6 +26,50 @@ EXTERNAL_NAV = (
 )
 
 
+def display_name(name: object) -> str:
+    """Title-case a name printed entirely in capitals; leave mixed-case names untouched.
+
+    A display transform only: source and canonical names are never rewritten.
+    Surname-only records stay surname-only.
+    """
+    text = str(name)
+    if any(ch.islower() for ch in text):
+        return text
+    text = re.sub(r"(^|[\s\-'’.])([a-z])", lambda m: m.group(1) + m.group(2).upper(), text.lower())
+    text = re.sub(r"\bMc([a-z])", lambda m: "Mc" + m.group(1).upper(), text)
+    return re.sub(r"\b(Ii|Iii|Iv)\b", lambda m: m.group(1).upper(), text)
+
+
+def war_identity_figure() -> str:
+    """A static diagram of the WAR identity for the methodology pages."""
+    box = ('<rect x="{x}" y="{y}" width="{w}" height="54" fill="{fill}" stroke="#9db4c1"/>'
+           '<text x="{cx}" y="{ty}" text-anchor="middle" font-size="14" font-weight="700" fill="{ink}">{a}</text>'
+           '<text x="{cx}" y="{ty2}" text-anchor="middle" font-size="12" fill="{sub}">{b}</text>')
+
+    def cell(x, y, w, a, b, strong=False):
+        return box.format(x=x, y=y, w=w, cx=x + w / 2, ty=y + 23, ty2=y + 40, a=a, b=b,
+                          fill="#211b1b" if strong else "#f8fbfc", ink="#fff" if strong else "#211b1b",
+                          sub="#dfe5e9" if strong else "#586772")
+
+    def op(x, y, sign):
+        return f'<text x="{x}" y="{y + 34}" text-anchor="middle" font-size="22" font-weight="700" fill="#211b1b">{sign}</text>'
+
+    rows = (
+        cell(0, 10, 190, "Legislative margin", "actual D minus R") + op(208, 10, "\u2212")
+        + cell(226, 10, 190, "Ticket baseline", "same-district top of ticket") + op(434, 10, "=")
+        + cell(452, 10, 190, "Raw gap", "legislative minus ticket")
+        + cell(0, 96, 190, "Raw gap", "from the first line") + op(208, 96, "\u2212")
+        + cell(226, 96, 190, "Structural expectation", "fitted: incumbency, lag, era") + op(434, 96, "=")
+        + cell(452, 96, 190, "WAR", "the race residual", strong=True)
+    )
+    return ('<figure class="method-figure" style="margin:18px 0;overflow-x:auto"><svg viewBox="0 0 642 160" role="img" '
+            'aria-label="Raw gap equals legislative margin minus ticket baseline; WAR equals raw gap minus the fitted '
+            'structural expectation; the Democrat receives WAR and the Republican its negative" '
+            'style="display:block;width:100%;min-width:642px;max-width:700px;height:auto;font-family:Arial,Helvetica,sans-serif">'
+            + rows + '</svg><figcaption style="font-size:13px;color:#394b58">The Democratic candidate receives +WAR '
+            'and the Republican the exact negative, so scores are zero-sum within each race.</figcaption></figure>')
+
+
 def portrait_uri() -> str:
     encoded = base64.b64encode(PORTRAIT.read_bytes()).decode("ascii")
     return f"data:image/jpeg;base64,{encoded}"
@@ -82,6 +126,8 @@ def shared_header(active_page: str | None) -> str:
 def normalize_header(html: str) -> str:
     """Replace the first page header while retaining the source page identity."""
     active_page = active_public_page(html)
+    # A page themed twice (builder, then publisher) must still carry one skip link.
+    html = re.sub(r'<a class="skip-link"[^>]*>.*?</a>', "", html, flags=re.I | re.S)
     return re.sub(
         r"<header(?:\s[^>]*)?>.*?</header>",
         lambda _: shared_header(active_page),

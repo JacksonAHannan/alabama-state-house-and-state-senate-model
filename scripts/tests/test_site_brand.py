@@ -66,14 +66,15 @@ def test_legacy_atlas_route_marks_ideology_current() -> None:
     assert "legislators.html" not in result
 
 
-def test_white_interface_text_has_oxblood_backing() -> None:
+def test_white_interface_text_has_dark_backing() -> None:
     css = theme_css()
     assert "body>header,.site-head{background:var(--brand-accent)!important;color:#fff!important" in css
     assert "align-items:center;color:#fff!important" in css
     assert "header a{color:#f5e9e8!important" in css
     assert "button[aria-selected=true] *{color:inherit!important}" in css
-    assert ".controls button.active,.map-modes button.active,.baseline-tabs button.active{background:var(--brand-accent)!important" in css
-    assert ".racebox-head,.baseline-wikibox-head{background:var(--brand-accent)!important;color:#fff!important" in css
+    # Active controls carry white text on ink, never on a party or brand red.
+    assert ".controls button.active,.map-modes button.active,.baseline-tabs button.active{background:var(--brand-ink)!important" in css
+    assert ".racebox-head,.baseline-wikibox-head{background:var(--brand-ink)!important;color:#fff!important" in css
     assert ".racebox-sub{background:#f5e9e8!important;color:var(--brand-ink)!important}" in css
     assert ".badge.supported{color:#285642!important}" in css
     assert ".cell .n{color:var(--brand-ink)!important;background:var(--brand-panel-strong)!important" in css
@@ -91,3 +92,22 @@ def test_methods_landing_uses_public_war_name() -> None:
     assert "<h2>CMO methodology</h2>" not in html
     assert "Candidate Quality Index" not in html
     assert "CQI" not in html
+
+
+def test_display_name_title_cases_only_all_capital_names() -> None:
+    from scripts.site_brand import display_name
+
+    assert display_name("RICHARD LAIRD") == "Richard Laird"
+    assert display_name("O'NEAL") == "O'Neal"
+    assert display_name("MCCLAMMY") == "McClammy"
+    assert display_name("JAMES DOE III") == "James Doe III"
+    assert display_name("Dexter Grimsley") == "Dexter Grimsley"
+    assert display_name("Carothers") == "Carothers"
+
+
+def test_war_identity_figure_states_the_zero_sum_orientation() -> None:
+    from scripts.site_brand import war_identity_figure
+
+    figure = war_identity_figure()
+    assert 'role="img"' in figure and "Structural expectation" in figure
+    assert "Republican the exact negative" in figure

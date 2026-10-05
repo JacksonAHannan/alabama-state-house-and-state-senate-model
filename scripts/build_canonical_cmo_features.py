@@ -215,7 +215,13 @@ def main():
                             suffixes=("","_historical"),validate="one_to_one")
         for column in ("nonwhite_share","white_college_share"):
             result[column]=result[column].fillna(result.pop(f"{column}_historical"))
-        historical_mask=result.cycle.eq(1994)&result.demographics_method.notna()
+        # The merge suffixes the 1994 context's method, so test that column. Testing the
+        # unsuffixed one (empty for 1994) silently dropped all 1994 incumbency until 2026-10-05.
+        method_source="demographics_method_historical" if "demographics_method_historical" in result else "demographics_method"
+        historical_mask=result.cycle.eq(1994)&result[method_source].notna()
+        if method_source!="demographics_method":
+            result.loc[historical_mask,"demographics_method"]=result.loc[historical_mask,method_source]
+            result=result.drop(columns=method_source)
         result.loc[historical_mask,"dem_incumbent"]=nullable_bool(result.loc[historical_mask,"dem_incumbent_historical"]).fillna(False)
         result.loc[historical_mask,"rep_incumbent"]=nullable_bool(result.loc[historical_mask,"rep_incumbent_historical"]).fillna(False)
         result=result.drop(columns=["dem_incumbent_historical","rep_incumbent_historical"])

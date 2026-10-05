@@ -31,24 +31,10 @@ def test_identity_folding_is_recorded_and_never_guessed(manifest):
     methods = manifest["diagnostics"]["identity_methods"]
     assert set(methods) <= {"canonical_person_id", "stub_folded_by_exact_unique_name",
                             "unresolved_source_stub"}
-    # The 2022 stub gap is real; it must stay visible rather than be silently merged.
-    assert methods.get("unresolved_source_stub", 0) > 0
+    # Adjudicated names let a stub join an earlier career; a 2022-only person
+    # still stands alone rather than being merged on a guess.
+    assert methods.get("stub_folded_by_exact_unique_name", 0) > 0
     assert manifest["historical_war_run_id"].startswith("AL-HIST-WAR-V1-")
-
-
-def test_stub_folding_requires_an_unambiguous_name():
-    frame = pd.DataFrame({
-        "person_id": ["ALPERSON-JANE-DOE", "ALPERSON-GSL019DHAL", "ALPERSON-GSL052DROG"],
-        "canonical_name": ["Jane Doe", "Jane Doe", "Someone Unmatched"],
-        "cycle": [2018, 2022, 2022],
-    })
-    resolved = career.resolve_identity(frame)
-    assert resolved.career_person_id.tolist() == [
-        "ALPERSON-JANE-DOE", "ALPERSON-JANE-DOE", "ALPERSON-GSL052DROG"
-    ]
-    assert resolved.career_identity_method.tolist() == [
-        "canonical_person_id", "stub_folded_by_exact_unique_name", "unresolved_source_stub"
-    ]
 
 
 def test_page_uses_fixed_reference_language_and_publishes_careers():

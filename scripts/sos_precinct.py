@@ -29,6 +29,16 @@ YEAR_SOURCES = {
     2022: "2022 General Precinct Level Results",
     2024: "2024-General Precinct Level Results",
 }
+# 1994 statewide export codes that name their party column: suffix 1 is the
+# Democratic column, suffix 2 the Republican column, and GOVERNOR the first
+# (Democratic) column. Governor, lieutenant governor, attorney general and
+# treasurer agree with the official 1994 statewide returns in
+# data/raw/historical_statewide_elections/; the chief-justice pair follows the
+# same convention (owner adjudication ADJ-1994-AL-CHIEFJUSTICE-HOOPER-R).
+STATEWIDE_1994_PARTY_CODES = {
+    "GOVERNOR": "D", "GOV2": "R", "LT.GOV1": "D", "LTGOV2": "R", "AG1": "D", "AG2": "R",
+    "STTREAS1": "D", "STTREAS2": "R", "SUPJUST1": "D", "SUPJUST2": "R",
+}
 LEGISLATIVE_DISTRICT_OVERRIDES = {
     (2002, "State Senate", "PREUITT JIM"): 11.0,
     (2006, "State Senate", "BARRON"): 8.0,
@@ -95,7 +105,10 @@ def _office(title: object) -> tuple[str, float | None]:
                 district = float(ordinal.group(1))
         return "U.S. House", district
     if district is None:
-        embedded = re.search(r"STATE HOUSE\s*,?\s*(\d+)$", text)
+        # The 1994 Covington export prints its district cell as "House 92",
+        # which the 1994 reader appends as "State Representative, House 92".
+        embedded = (re.search(r"STATE HOUSE\s*,?\s*(\d+)$", text) or
+                    re.search(r"STATE REP\w*\s*,\s*HOUSE\s+(\d+)$", text))
         if embedded: district = float(embedded.group(1))
     if re.search(r"STATE (?:(?:HOUSE OF )?REP(?:RESENTATIVE)?|HOUSE(?:\s*,?\s*(?:DISTRICT\s*)?\d+)?)", text):
         return "State House", district
@@ -173,13 +186,37 @@ def _county_matrix_sheets(sheets: dict[str, list[list[object]]], county: str) ->
     return pd.DataFrame(records)
 
 
+def _party_1994(code: str, rank: int, named_candidates: int) -> str:
+    """Infer a 1994 party from an export code, or return "" when it is unknown.
+
+    Explicit statewide codes name their party column. Any other code is a
+    ballot position: in a contest with at least two named candidates the first
+    (A) position is the Democratic column and the second (B) the Republican
+    column. A lone candidate's position, a third (C) position and a district
+    number ending in 1 or 2 reveal no party. The second position can still
+    hold an independent (1994 House 8); reviewed adjudications in the
+    warehouse correct such rows, not this reader.
+    """
+    if code in STATEWIDE_1994_PARTY_CODES:
+        return STATEWIDE_1994_PARTY_CODES[code]
+    if named_candidates < 2:
+        return ""
+    if code.startswith("A") or (not code and rank == 0):
+        return "D"
+    if code.startswith("B") or (not code and rank == 1):
+        return "R"
+    return ""
+
+
 def _legacy_1994(rows: list[list[object]], county: str) -> pd.DataFrame:
     """Read the four-header-row 1994 county matrices.
 
-    Alabama's export encodes the Democratic/Republican ballot columns as A/B
-    or first/second variants rather than printing a party field.  The general
-    election ballot order was Democratic then Republican; the code is retained
-    as supporting evidence and the inferred party is explicitly flagged later.
+    Alabama's export encodes ballot positions as A/B/C-prefixed codes, plus a
+    few explicit statewide codes, rather than printing a party field. The
+    general-election ballot order was Democratic then Republican; the code is
+    retained as supporting evidence and the inferred party is explicitly
+    flagged (``party_method``). Rows whose party the code cannot establish
+    keep an empty party.
     """
     if len(rows) < 5: return pd.DataFrame()
     width=max(map(len,rows)); padded=[r+[""]*(width-len(r)) for r in rows]
@@ -200,12 +237,7 @@ def _legacy_1994(rows: list[list[object]], county: str) -> pd.DataFrame:
     for title,cols in groups.items():
         named=[c for c in cols if str(candidates[c]).strip() and not is_pseudocandidate(candidates[c])]
         for rank,col in enumerate(named):
-            code=str(codes[col]).strip().upper()
-            if code in {"AG1", "AG2"}:
-                party_at[col] = {"AG1": "D", "AG2": "R"}[code]
-            elif code.startswith("A") or code.endswith("1") or rank==0: party_at[col]="D"
-            elif code.startswith("B") or code.endswith("2") or rank==1: party_at[col]="R"
-            else: party_at[col]=""
+            party_at[col]=_party_1994(str(codes[col]).strip().upper(), rank, len(named))
     records=[]
     for row_number, row in enumerate(padded[4:], start=5):
         precinct=str(row[1]).strip() or str(row[2]).strip()
@@ -224,7 +256,8 @@ def _legacy_1994(rows: list[list[object]], county: str) -> pd.DataFrame:
                             "precinct_code":code, "precinct_key":(code or precinct).upper(),
                             "source_row":row_number, "source_column":col+1,
                             "ballot_code":str(codes[col]).strip(),
-                            "party_method":"ballot_order_with_export_code"})
+                            "party_method":("ballot_order_with_export_code" if party_at.get(col)
+                                            else "unresolved_ballot_position")})
     return pd.DataFrame(records)
 
 

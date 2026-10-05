@@ -1,6 +1,6 @@
 cycle,chamber,district,office,dem_votes,rep_votes,two_party_votes,office_dem_margin,baseline_allocation_method
-1994,house,1.0,Attorney General,8408.104633820245,11914.562229944417,20322.66686376466,-17.253924495392827,legislative_activity_split_provisional
-1994,house,1.0,Governor,10117.368117988026,11138.161113145254,21255.52923113328,-4.8024821403273155,legislative_activity_split_provisional
+1994,house,1.0,Attorney General,5306.104633820244,6089.562229944417,11395.666863764662,-6.875048257293038,legislative_activity_split_provisional
+1994,house,1.0,Governor,6224.368117988025,5273.161113145255,11497.52923113328,8.273142739807694,legislative_activity_split_provisional
 1994,house,2.0,Attorney General,5262.895366179756,5171.437770055583,10434.333136235338,0.876506384548597,legislative_activity_split_provisional
 1994,house,2.0,Governor,5909.631882011975,4629.838886854745,10539.47076886672,12.142858244245998,legislative_activity_split_provisional
 1994,house,3.0,Attorney General,6132.089135313531,5447.3661782178215,11579.455313531353,5.91325704496278,legislative_activity_split_provisional
@@ -181,6 +181,8 @@ cycle,chamber,district,office,dem_votes,rep_votes,two_party_votes,office_dem_mar
 1994,house,90.0,Governor,5400.391608391608,6830.580419580419,12230.972027972028,-11.693173755266493,legislative_activity_split_provisional
 1994,house,91.0,Attorney General,4603.0,6894.0,11497.0,-19.926937461946594,official_ballot_single_district
 1994,house,91.0,Governor,5380.0,6600.0,11980.0,-10.18363939899833,official_ballot_single_district
+1994,house,92.0,Attorney General,3290.0,6061.0,9351.0,-29.6331943107689,official_ballot_single_district
+1994,house,92.0,Governor,4124.0,6097.0,10221.0,-19.303394971137852,official_ballot_single_district
 1994,house,93.0,Attorney General,3234.327338736099,6615.03961275109,9849.366951487189,-34.32415799580425,legislative_activity_split_provisional
 1994,house,93.0,Governor,3507.6186950778647,6442.761259243858,9950.379954321723,-29.497793829382168,legislative_activity_split_provisional
 1994,house,94.0,Attorney General,3931.404661377679,11754.354898185018,15685.759559562697,-49.87294499256901,legislative_activity_split_provisional

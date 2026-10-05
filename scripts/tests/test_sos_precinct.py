@@ -46,6 +46,63 @@ def test_1994_retains_distinct_source_codes_and_ag_export_encoding():
     assert data.source_column.tolist() == [4, 5, 4, 5, 4, 5]
 
 
+def _party_by_candidate(data):
+    pairs = data[["candidate", "party", "party_method"]].drop_duplicates()
+    return {row.candidate: (row.party, row.party_method) for row in pairs.itertuples()}
+
+
+def test_1994_lone_candidate_and_third_position_have_no_inferred_party():
+    # Madison's sole HD10 candidate is coded A, the Republican Haney; a third
+    # position is an independent or a nominee, never inferable from position.
+    rows = [["", "", "", "State Representative", "", "", "", ""],
+            ["", "", "Precinct", "District 10", "District 32", "", "", ""],
+            ["Line", "Precinct Name", "Number", "Haney", "Boyd", "Bradford", "Montgomery", ""],
+            ["", "", "PRECINCT", "AHS10", "AHS32", "BHS32", "CHS32", ""],
+            [1, "Place", 1, 10, 20, 30, 40, ""]]
+    parties = _party_by_candidate(_legacy_1994(rows, "Example"))
+    assert parties["Haney"] == ("", "unresolved_ballot_position")
+    assert parties["Boyd"] == ("D", "ballot_order_with_export_code")
+    assert parties["Bradford"] == ("R", "ballot_order_with_export_code")
+    assert parties["Montgomery"] == ("", "unresolved_ballot_position")
+
+
+def test_1994_district_ending_in_one_does_not_make_the_second_position_democratic():
+    rows = [["", "", "", "State Senator", "", "State Representative", ""],
+            ["", "", "Precinct", "District 31", "", "District 91", ""],
+            ["Line", "Precinct Name", "Number", "Ellis", "Adams", "Spicer", "Moore"],
+            ["", "", "PRECINCT", "ASENAT31", "BSENAT31", "AHS91", "BHS91"],
+            [1, "Place", 1, 10, 11, 20, 21]]
+    data = _legacy_1994(rows, "Coffee")
+    parties = _party_by_candidate(data)
+    assert {name: party for name, (party, _) in parties.items()} == {
+        "Ellis": "D", "Adams": "R", "Spicer": "D", "Moore": "R"}
+    assert set(zip(data.office, data.district)) == {("State Senate", 31.0), ("State House", 91.0)}
+
+
+def test_1994_explicit_statewide_codes_name_the_party_column():
+    # The chief-justice export lists the Republican (SUPJUST2) first.
+    rows = [["", "", "", "Governor", "", "Chief Justice", "", "State Treasurer", ""],
+            ["", "", "Precinct", "", "", "of the Supreme Court", "", "", ""],
+            ["Line", "Precinct Name", "Number", "Folsom", "James", "Hooper", "Hornsby", "Baxley", "Martin"],
+            ["", "", "PRECINCT", "GOVERNOR", "GOV2", "SUPJUST2", "SUPJUST1", "STTREAS1", "STTREAS2"],
+            [1, "Place", 1, 1, 2, 3, 4, 5, 6]]
+    parties = _party_by_candidate(_legacy_1994(rows, "Example"))
+    assert {name: party for name, (party, _) in parties.items()} == {
+        "Folsom": "D", "James": "R", "Hooper": "R", "Hornsby": "D", "Baxley": "D", "Martin": "R"}
+
+
+def test_1994_covington_house_92_header_resolves_its_district():
+    assert _office("State Representative, House 92") == ("State House", 92.0)
+    rows = [["", "", "", "State Representative", "", ""],
+            ["", "", "Precinct", "House 92", "", ""],
+            ["Line", "Precinct Name", "Number", "Hammett", "Martin", "Phillips"],
+            ["", "", "PRECINCT", "AHS92", "BHS92", "CHS92"],
+            [1, "Place", 101, 9, 8, 7]]
+    data = _legacy_1994(rows, "Covington")
+    assert set(zip(data.office, data.district)) == {("State House", 92.0)}
+    assert data.party.tolist() == ["D", "R", ""]
+
+
 def test_legacy_abbreviated_legislative_labels_resolve_districts():
     assert _office("State Rep. Dist. 88") == ("State House", 88.0)
     assert _office("State Sen. Dist. 30") == ("State Senate", 30.0)

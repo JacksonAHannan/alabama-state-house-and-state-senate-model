@@ -35,6 +35,7 @@ from sklearn.impute import KNNImputer, SimpleImputer
 from sklearn.metrics import adjusted_rand_score, silhouette_score
 from sklearn.preprocessing import StandardScaler
 
+import alabama_candidate_identity as identity
 import ideology_ontology_v3 as ontology
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -93,7 +94,15 @@ def git_commit() -> str:
         return "unknown"
 
 
-def load_universe() -> pd.DataFrame:
+def load_universe() -> tuple[pd.DataFrame, dict[str, str]]:
+    """Democratic candidate-cycles, with split 2022 identities folded together.
+
+    A 2022 canonical row carries a source stub for both its name and its
+    `person_id`, so 25 sitting Democrats appeared as two people - one career up
+    to 2018 and a separate 2022 person - which split their issue evidence
+    across two partial profiles. Names come from verified adjudications and a
+    fold happens only on an exact unique name.
+    """
     candidates = pd.read_csv(CANDIDATES, low_memory=False)
     democrats = candidates[candidates.canonical_party.eq("D") & candidates.year.isin(CYCLES)].copy()
     democrats = democrats.rename(columns={"year": "cycle"})
@@ -101,7 +110,13 @@ def load_universe() -> pd.DataFrame:
         raise ValueError("Democratic candidate-cycle identifiers are not unique")
     if democrats.person_id.isna().any() or democrats.person_id.astype(str).str.strip().eq("").any():
         raise ValueError("Every Democratic candidate-cycle needs a person_id")
-    return democrats
+    democrats = identity.career_identity(identity.resolve_names(democrats))
+    folds = {row.person_id: row.career_person_id for row in democrats.itertuples()
+             if row.person_id != row.career_person_id}
+    democrats["source_person_id"] = democrats.person_id
+    democrats["person_id"] = democrats.career_person_id
+    democrats["canonical_name"] = democrats.resolved_name.fillna(democrats.canonical_name)
+    return democrats, folds
 
 
 def signed_evidence(evidence: pd.DataFrame) -> pd.DataFrame:
@@ -278,7 +293,7 @@ def fit_spec(wide: pd.DataFrame, features: list[str]) -> dict:
 
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
-    universe = load_universe()
+    universe, identity_folds = load_universe()
     people = universe.groupby("person_id").agg(
         display_name=("canonical_name", "last"), cycles=("cycle", lambda s: "/".join(map(str, sorted(set(s))))),
         chambers=("chamber", lambda s: "/".join(sorted(set(s)))), first_cycle=("cycle", "min"),
@@ -286,6 +301,8 @@ def main() -> None:
         ever_incumbent=("incumbent", "max")).reset_index()
 
     evidence = pd.read_csv(EVIDENCE, low_memory=False)
+    # Evidence is keyed by the source person, so it follows the same fold.
+    evidence["person_id"] = evidence.person_id.replace(identity_folds)
     evidence = evidence[evidence.person_id.isin(people.person_id)].copy()
     signed = signed_evidence(evidence)
     wide, table = person_features(signed)
@@ -299,6 +316,7 @@ def main() -> None:
     profile, k, diagnostics = primary["profile"], primary["k"], primary["diagnostics"]
     minimum, observed = primary["minimum"], primary["observed"]
     labels = load_labels(k)
+    labels_approved = not any(str(meta["label"]).endswith("(provisional)") for meta in labels.values())
     profile["cluster_label"] = profile.cluster_rank.map(lambda rank: labels[rank]["label"])
 
     unclustered = people[~people.person_id.isin(profile.index)].copy()
@@ -408,7 +426,7 @@ def main() -> None:
             "person_rule": {"min_observed_share": MIN_OBSERVED_SHARE, "min_features_observed": minimum},
             "k_range": [2, MAX_K], "selected_k": k, "bootstraps": BOOTSTRAPS, "seed": SEED,
             "min_cluster_n": MIN_CLUSTER_N, "min_cluster_share": MIN_CLUSTER_SHARE,
-            "cycles": list(CYCLES), "party": "D", "labels_source": str(LABELS.relative_to(ROOT)) if LABELS.exists() else "provisional",
+            "cycles": list(CYCLES), "party": "D", "labels_source": str(LABELS.relative_to(ROOT)) if labels_approved else "provisional",
         },
         "inputs": [{"path": str(p.relative_to(ROOT)).replace("\\", "/"), "sha256": sha256(p)}
                    for p in (CANDIDATES, EVIDENCE, HISTORICAL_WAR, HISTORICAL_MANIFEST) + ((LABELS,) if LABELS.exists() else ())],
@@ -420,6 +438,7 @@ def main() -> None:
             "democratic_people": int(len(people)), "democratic_candidate_cycles": int(len(universe)),
             "people_with_evidence": int(wide.shape[0]), "people_clustered": int(len(profile)),
             "people_unclustered": int(len(unclustered)),
+            "split_identities_folded": len(identity_folds),
             "evidence_rows_used": int(len(signed)), "evidence_rows_legislative": int(signed.legislative.sum()),
             "evidence_rows_family_mapped": int((~signed.feature.str.startswith("axis:")).sum()),
             "evidence_rows_axis_only": int(signed.feature.str.startswith("axis:").sum()),
@@ -428,7 +447,9 @@ def main() -> None:
             "selected_k": k, **{k_: float(v) for k_, v in diagnostics[diagnostics.selected].iloc[0].drop(["clusters", "selected"]).items()},
             **sensitivity.iloc[0].drop(["clusters"]).to_dict(),
         },
-        "status": "descriptive_groupings_labels_pending_owner_review" if not LABELS.exists() else "descriptive_groupings",
+        # Approved labels are pinned to a solution size; if the selected k moves,
+        # they no longer describe these groups and the run is not publishable.
+        "status": "descriptive_groupings" if labels_approved else "descriptive_groupings_labels_pending_owner_review",
     }
     (OUT / "manifest.json").write_text(json.dumps(manifest, indent=2, default=str) + "\n", encoding="utf-8")
     print(f"{manifest['caucus_run_id']}: people={len(people)} clustered={len(profile)} k={k} features={len(features)} "

@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-15T02:36:43.857631+00:00",
-  "git_commit": "5c9014c4591f3f0a5be3622c0b1c77fd6ddf260c",
+  "generated_at_utc": "2026-10-05T22:01:56.253726+00:00",
+  "git_commit": "178d6f4841855dbc4d5d85656421290343daaf8b",
   "estimand": "persistence of a candidate's own residual WAR into their next race",
   "specification": "candidate_cycle_war ~ prior_candidate_cycle_war (+ interaction with years elapsed)",
   "standard_errors": "clustered by candidate identity",
@@ -64,7 +64,7 @@
     },
     {
       "path": "data/processed/war/alabama_historical_war_v1/candidate_cycle_war.csv",
-      "sha256": "24819478615f6cdd4dd4a86b1c97546c9075b1287ace904d16cbdfb991d9f672"
+      "sha256": "b04e11a03afdc75bdd81079f3e8fca1067cd7ec6b8158fa39e289c92dd1f9acb"
     },
     {
       "path": "data/processed/war/2026_final_candidate_roster.csv",

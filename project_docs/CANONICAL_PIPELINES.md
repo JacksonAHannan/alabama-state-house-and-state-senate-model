@@ -13,7 +13,7 @@ Paths and commands below are relative to the repository root.
 | 2026 Alabama forecast | `data/processed/forecast_calibration/alabama_war_forecast_v1_manifest.json` and its scenario/diagnostic exports | `python scripts/build_2026_forecast_dashboard.py --artifact-only` | Local candidate HTML in `artifacts/site/`; omitting `--artifact-only` also writes `docs/index.html`, methodology and downloads |
 | Historical Alabama WAR | `data/processed/war/alabama_historical_war_v1/manifest.json` and its race/candidate exports | `python scripts/build_war_story_page.py` | Writes local artifacts, `docs/cmo.html`, methodology and downloads; not preview-only |
 | Ideology and caucuses | `data/processed/ideology/democratic_caucuses_v1/manifest.json` (person-level groupings built from ontology-v3 issue evidence) joined to historical Alabama candidate-cycle WAR | `python scripts/build_democratic_caucuses_v1.py` then `python scripts/build_democratic_caucus_page.py` | Writes `artifacts/site/ideology-performance.html`; the site publisher copies it to `docs/ideology-performance.html` and writes `docs/caucuses.html` as a redirect |
-| Southern WAR, 2016–2024 | `data/processed/war/southern_historical_war_v1/manifest.json` and its race/candidate exports | `python scripts/build_southern_war_map.py` | Writes `docs/southern-war.html`, methodology, payload, downloads, join audit and a local artifact; applies shared theme |
+| Southern WAR, 2016–2024 | `data/processed/war/southern_historical_war_v1/manifest.json` and its race/candidate exports | `python scripts/build_southern_war_map.py --artifact-only` | Local candidate page, methodology and payload under `artifacts/site/` (payload in the ignored `artifacts/site/data/`); omitting the flag also writes `docs/southern-war.html`, methodology, payload, downloads and join audit; applies shared theme |
 
 Both the historical builder and the map builder require
 `project_docs/audits/SOUTHERN_V3_RELEASE_DECISION.json` to match the exact modern
@@ -141,7 +141,8 @@ v3 bundle → `retrain_post2016_southern_war_v3.py` →
 `pytest scripts/tests/test_post2016_southern_war_v3.py scripts/tests/test_southern_war_preparation_warehouse.py` →
 `audit_southern_v3_context_sensitivity.py` → independent review record → new
 `audits/SOUTHERN_V3_RELEASE_DECISION.json` → `build_southern_historical_war_v1.py`
-→ `build_southern_war_map.py` (publishes `docs/southern-war.html`).
+→ `build_southern_war_map.py --artifact-only` (candidate) or without the flag
+(publishes `docs/southern-war.html`).
 
 **Historical Alabama WAR** (after the Southern decision above):
 `build_alabama_war_v1.py` → `build_alabama_historical_war_v1.py` →
@@ -149,11 +150,18 @@ v3 bundle → `retrain_post2016_southern_war_v3.py` →
 → release card under `audits/` → `build_war_story_page.py --artifact-only`
 (candidate) or without the flag (publishes `docs/cmo.html`).
 
-**2026 forecast** (after `alabama_war_v1`): polling snapshot per the refresh
-policy → `run_alabama_war_generic_forecast.py` →
-`pytest scripts/tests/test_alabama_war_generic_forecast.py` →
+**2026 forecast** (after `alabama_war_v1`):
+`build_silver_bulletin_generic_ballot_environment.py --fetch` (national
+environment = Silver Bulletin generic-ballot average, owner decision 2026-10-05;
+registers a dated raw snapshot) → `build_2026_poll_adjusted_baseline.py` →
+`run_alabama_war_generic_forecast.py` →
+`build_forecast_polling_replay.py` (sensitivity replay of today's run under
+the tracker's average each week; refused by the page if it names another build) →
+`pytest scripts/tests/test_alabama_war_generic_forecast.py scripts/tests/test_forecast_polling_replay.py` →
 `build_2026_forecast_dashboard.py --artifact-only` (candidate) or without the
-flag (publishes `docs/index.html`, methodology and downloads).
+flag (publishes `docs/index.html`, methodology and downloads). The forecast
+run also writes the environment-versus-seats joint and an append-only run
+ledger (`project_docs/model/ALABAMA_WAR_FORECAST_GRAPHICS_EXPORTS.md`).
 
 **Ideology and caucuses** (after the historical Alabama export):
 `run_frontier_ideology_pipeline.py` (evidence ledger through valence) →
@@ -166,13 +174,38 @@ before rerunning them.
 
 **Whole site:** `python scripts/project.py build site --publish` runs the six
 renderers and applies the theme; it is publication, not validation.
+`python scripts/build_blue_oxblood_site.py --preview` instead runs every renderer
+in artifact-only mode and writes a themed, linked copy of all pages to the ignored
+`artifacts/blue_oxblood_site/` for local review; it never writes `docs/`, and it
+reports any renderer whose gate refused (that page stays the previous candidate).
+
+**Map context layer** (display only, not an analytical input):
+`python scripts/site_geography.py` dissolves the registered 2010 Census voting
+districts to county lines and takes city labels from the registered 2024 Census
+places, writing `data/processed/site_geography/` with a manifest. Rerun it only
+when those sources change; the page renderers read it.
+
+**2022-to-2026 district match** (gates the forecast page's "2022 result" map):
+`python scripts/audit_2022_2026_plan_equivalence.py` compares the Census 2022
+block equivalency file with the warehouse 2024-election block assignment and the
+page's TIGER 2025 polygons with the 2021 enacted shapefile, writing
+`data/processed/elections/alabama_2022_2026_plan_equivalence_v1/`. The forecast
+renderer refuses if the audit does not hash-match the geometry it draws. Rerun
+it whenever the 2026 district geometry changes.
+
+**Seats won by party, 1994–2022** (forecast context chart):
+`python scripts/build_alabama_seats_by_cycle.py` reads the warehouse final-stage
+results read-only and writes `data/processed/elections/alabama_seats_by_cycle_v1/`
+with reconciliation and a review queue
+(`audits/ALABAMA_SEATS_BY_CYCLE_V1.md`). It is seats won at each regular general
+election, not chamber composition; unknown seats stay explicit.
 
 ## Release matrix and stopping rule
 
 | Product | Required coverage | Permitted exclusions | Independent acceptance | Evidence of acceptance |
 |---|---|---|---|---|
 | Southern WAR 2016–2024 | every scheduled state/cycle/chamber slice (116) accounted for; every strict D-vs-R final contest scored | reason-coded research-only outcomes (baseline not strict; experimental incumbency) published per state; explicit empty slices | `validation_release` review of the exact run + decision file bound by hash | `SOUTHERN_V3_RELEASE_DECISION.json`, review record, sensitivity audit, state coverage file |
-| Historical Alabama WAR | 509 contested D-vs-R general races 1994–2022; 1,018 orientations | unopposed races (546); backcast label on pre-2016 rows; explicit missing-lag-context encoding | reviewed Southern source + builder identities + race-universe reconciliation reproduced independently | manifest, release card, `ALABAMA_HISTORICAL_RACE_UNIVERSE_*`, dependency-rebuild audit |
+| Historical Alabama WAR | 504 contested D-vs-R general races 1994–2022 (after the 2026-10-04 1994 party-label repair), 1,008 orientations; 503 scored | unopposed races; backcast label on pre-2016 rows; explicit missing-lag-context encoding; owner-adjudicated exclusions (`data/manual/elections/alabama_historical_war_exclusions.csv`, currently 1994 House 1) kept as observed, unscored rows | reviewed Southern source + builder identities + race-universe reconciliation reproduced independently | manifest, release card, `ALABAMA_HISTORICAL_RACE_UNIVERSE_*`, dependency-rebuild audit |
 | 2026 forecast | all 140 seats accounted for (modeled, single-major-party, independent-only, unresolved) | seats not modeled must be visible as such, never assigned silently | `validation_release` review of manifest, holdout and public-contract reconciliation | forecast manifest, validation audit, public-contract reconciliation, polling snapshot policy |
 | Ideology and caucuses | the Democratic 1998–2022 candidate-cycles with sufficient evidence and a valid historical-WAR join | candidate-cycles below the evidence threshold (shown as missing, not imputed) | evidence-layer validation (`ideology-04..07`) and cluster sensitivity reviewed independently | funnel audit, evidence-layer validation, cluster validation |
 
@@ -359,7 +392,11 @@ execution and do not generate models, artifacts or publication files.
 warehouse views, versioned marts, or reviewed research/compatibility products.
 Existing commands do not all enforce every required publication gate: inspect
 their effects and validation evidence rather than assuming automatic approval.
-Shared presentation lives in `dashboard/war_explorer.css`,
+Shared presentation lives in `dashboard/site_components.css` (design tokens: type
+scale, party, rating and WAR palettes, map and legend styles), `dashboard/site_map.js`
+(the SVG district map with Map and Tiles views used by the forecast and both WAR
+pages), `scripts/site_geography.py` (EPSG:5070 projection, path encoding, tile
+layouts, context layer), `dashboard/war_explorer.css`,
 `dashboard/blue_oxblood_theme.css`, and `scripts/site_brand.py`.
 
 The [internal completion checklist](PROJECT_COMPLETION_CHECKLIST.html) belongs

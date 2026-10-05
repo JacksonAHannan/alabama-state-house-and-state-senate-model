@@ -1,0 +1,105 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Ideological groupings of Alabama Democratic candidates, 1994-2022, and their overperformance against the fixed WAR reference model"><link rel="icon" href="data:"><title>Ideology and caucuses · Jackson Hannan</title><style>
+__COMPONENTS_CSS__
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:var(--fs-base)/1.55 var(--font-ui)}
+button,select,input{font:inherit}a{color:var(--ink)}
+button:focus-visible,input:focus-visible,select:focus-visible,[tabindex]:focus-visible,a:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+header{background:var(--accent)}header nav{display:flex;gap:16px;padding:14px 28px}header a{color:#fff}
+.shell{width:min(1224px,calc(100% - 56px));margin:auto;padding:36px 0 80px}
+.hero{max-width:900px}.kicker{color:var(--accent);font:700 var(--fs-2xs)/1.3 var(--font-mono);letter-spacing:.6px;text-transform:uppercase}
+h1{margin:8px 0 14px;font:700 var(--fs-display)/1.03 var(--font-ui);letter-spacing:-1.5px}
+.dek{margin:0;font:var(--fs-md)/1.6 var(--font-read);color:var(--ink-2)}
+.finding{margin:20px 0 26px;padding:14px 18px;border:1px solid var(--rule);border-left:5px solid var(--ink);background:var(--surface-2);font:var(--fs-base)/1.6 var(--font-read)}
+.contents{display:flex;gap:6px;flex-wrap:wrap;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:10px 0;margin:0 0 40px}
+.contents a{background:var(--surface-2);border:1px solid var(--rule);color:var(--ink);padding:7px 10px;text-decoration:none;font:700 var(--fs-xs)/1 var(--font-ui)}
+.contents a:hover{border-color:var(--ink)}
+section{margin:56px 0;scroll-margin-top:76px}
+.section-head{max-width:880px;margin-bottom:16px}
+.section-head h2{margin:6px 0 8px;font:700 var(--fs-2xl)/1.1 var(--font-ui);letter-spacing:-.8px}
+.section-head p{margin:0;color:var(--ink-2)}
+.panel{border:1px solid var(--rule);background:var(--surface-2)}
+.panel-pad{padding:14px 18px}
+.controls{display:flex;gap:12px;align-items:end;flex-wrap:wrap;padding:12px 16px;border-bottom:1px solid var(--rule);background:var(--surface)}
+.controls label{display:grid;gap:4px;font:700 var(--fs-2xs)/1.2 var(--font-mono);text-transform:uppercase;letter-spacing:.5px;color:var(--muted)}
+select,input{border:1px solid var(--rule);background:var(--surface-2);color:var(--ink);padding:8px 10px;max-width:100%;font:var(--fs-sm) var(--font-ui);text-transform:none;letter-spacing:0}
+.group-legend{display:flex;gap:6px 16px;flex-wrap:wrap;padding:12px 16px;margin:0;list-style:none;font:var(--fs-xs)/1.3 var(--font-ui);color:var(--ink-2);border-bottom:1px solid var(--rule-soft)}
+.group-legend li{display:inline-flex;align-items:center;gap:6px}
+.mark{width:14px;height:14px;display:inline-block;flex:0 0 auto}
+.group-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px}
+.group-card{background:var(--surface-2);border:1px solid var(--rule);border-top:5px solid var(--ink);padding:16px}
+.group-card h3{display:flex;align-items:center;gap:8px;margin:0 0 4px;font:700 var(--fs-md)/1.2 var(--font-ui)}
+.group-card .count{color:var(--muted);font-size:var(--fs-xs)}
+.group-card p{font-size:var(--fs-sm);color:var(--ink-2)}
+.metric-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:6px;margin-top:12px}
+.metric-grid div{background:var(--surface);padding:8px}
+.metric-grid b{display:block;font:700 var(--fs-lg)/1.1 var(--font-ui)}
+.metric-grid span{display:block;font-size:var(--fs-2xs);color:var(--muted)}
+.profile-row{display:grid;grid-template-columns:190px minmax(0,1fr) 84px;gap:14px;align-items:center;padding:10px 16px;border-top:1px solid var(--rule-soft)}
+.profile-row:first-child{border-top:0}
+.profile-row>span{font-weight:700;font-size:var(--fs-sm)}
+.profile-scale{position:relative}
+.profile-ends{display:flex;justify-content:space-between;gap:8px;font:var(--fs-2xs)/1.2 var(--font-ui);color:var(--muted);margin-bottom:3px}
+.profile-track{position:relative;height:26px;background:var(--panel)}
+.profile-track::after{content:"";position:absolute;left:50%;top:-3px;bottom:-3px;border-left:1px solid var(--muted)}
+.profile-track svg{position:absolute;top:4px;width:18px;height:18px;transform:translateX(-50%);overflow:visible}
+.profile-row output{text-align:right;font-size:var(--fs-xs);color:var(--muted)}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.chart text{font-family:var(--font-ui)}
+.scatter-wrap{position:relative;touch-action:none}
+.scatter-wrap .brush{fill:rgba(33,27,27,.07);stroke:var(--ink);stroke-dasharray:4 3}
+.scatter-wrap svg{max-width:760px;margin:0 auto}
+.scatter-wrap .pts g:focus-visible>*{stroke:var(--ink);stroke-width:2.5}
+.toggles button{appearance:none;display:inline-flex;align-items:center;gap:6px;border:1px solid var(--rule);background:var(--surface-2);color:var(--ink);padding:5px 9px;font:var(--fs-xs)/1.2 var(--font-ui);cursor:pointer}
+.toggles button[aria-pressed=true]{border-color:var(--ink);box-shadow:inset 0 -3px 0 var(--ink);font-weight:700}
+.selection-bar{display:flex;gap:10px;align-items:center;padding:8px 16px;border-top:1px solid var(--rule-soft);font-size:var(--fs-sm)}
+.selection-bar button,.small-button{appearance:none;border:1px solid var(--ink);background:var(--surface-2);color:var(--ink);padding:5px 9px;font:700 var(--fs-2xs)/1 var(--font-ui);cursor:pointer}
+.stack-row{display:grid;grid-template-columns:56px minmax(0,1fr) 62px;gap:10px;align-items:center;padding:7px 16px;border-top:1px solid var(--rule-soft)}
+.stack-row:first-child{border-top:0}
+.stack{height:26px;display:flex;border:1px solid var(--rule)}
+.stack span{height:100%;min-width:1px;display:flex;align-items:center;justify-content:center;font:700 var(--fs-2xs)/1 var(--font-ui);overflow:hidden}
+.stack-row small{text-align:right;color:var(--muted)}
+.explorer{display:grid;grid-template-columns:minmax(0,1fr) 300px}
+.table-wrap{max-height:460px;overflow:auto}
+table{width:100%;border-collapse:collapse;font-size:var(--fs-sm)}
+th{position:sticky;top:0;background:var(--ink);color:#fff;text-align:left;padding:8px 10px;font:700 var(--fs-2xs)/1.2 var(--font-ui);text-transform:uppercase;letter-spacing:.3px}
+td{padding:7px 10px;border-top:1px solid var(--rule-soft)}
+tbody tr{cursor:pointer}tbody tr:hover,tbody tr.is-on{background:var(--panel)}
+.num{text-align:right;font-variant-numeric:tabular-nums}
+.detail{padding:16px;border-left:1px solid var(--rule)}
+.detail h3{margin:0;font:700 var(--fs-lg)/1.2 var(--font-ui)}
+.detail .score{font:700 32px/1.1 var(--font-ui);margin:12px 0}
+.detail .score span{display:block;font:var(--fs-2xs) var(--font-ui);color:var(--muted);text-transform:uppercase}
+.detail-row{display:grid;grid-template-columns:120px minmax(0,1fr) 44px;gap:8px;align-items:center;padding:4px 0;font-size:var(--fs-xs)}
+.detail-row i{position:relative;display:block;height:8px;background:var(--panel)}
+.detail-row i b{position:absolute;top:-3px;width:3px;height:14px;background:var(--ink);transform:translateX(-50%)}
+.funnel-row,.sens-row{display:grid;grid-template-columns:260px minmax(0,1fr) 64px;gap:12px;align-items:center;padding:9px 16px;border-top:1px solid var(--rule-soft);font-size:var(--fs-sm)}
+.funnel-row:first-child,.sens-row:first-child{border-top:0}
+.funnel-bar{height:20px;background:var(--ink-2)}
+.sens-track{height:18px;background:var(--panel);position:relative}.sens-fill{position:absolute;left:0;top:0;bottom:0;background:var(--ink-2)}
+.sens-row output{text-align:right;font-weight:700}.sens-row p{margin:2px 0 0;font-size:var(--fs-2xs);color:var(--muted)}
+.coverage{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-top:12px}
+.coverage div{background:var(--surface-2);border:1px solid var(--rule);padding:12px}
+.coverage b{display:block;font:700 var(--fs-xl)/1.1 var(--font-ui)}
+.coverage span{font-size:var(--fs-xs);color:var(--muted)}
+.method{border-left:5px solid var(--ink);background:var(--surface-2);padding:14px 18px;margin:10px 0}
+.method h3{margin:0 0 6px;font:700 var(--fs-md)/1.2 var(--font-ui)}
+.method p{margin:0;font:var(--fs-sm)/1.65 var(--font-read);color:var(--ink-2)}
+.tip{position:fixed;display:none;z-index:20;pointer-events:none;max-width:290px;background:var(--ink);color:#fff;padding:8px 10px;font-size:var(--fs-xs);box-shadow:0 8px 22px #0004}
+.note{color:var(--muted);font-size:var(--fs-xs);margin:6px 16px 12px}
+@media(max-width:820px){.explorer{grid-template-columns:1fr}.detail{border-left:0;border-top:1px solid var(--rule)}.profile-row,.sens-row,.funnel-row{grid-template-columns:140px minmax(0,1fr) 56px}}
+@media(max-width:560px){.shell{width:calc(100% - 32px);padding-top:26px}.profile-row,.sens-row,.funnel-row{grid-template-columns:1fr 56px}.profile-scale,.sens-track,.funnel-bar{grid-column:1/-1}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style></head><body><header><nav aria-label="Site navigation"><a href="index.html">Forecast</a><a href="cmo.html">Alabama WAR</a><a href="ideology-performance.html" aria-current="page">Ideology &amp; caucuses</a><a href="cmo-methodology.html">Methodology</a></nav></header><main class="shell"><div class="hero"><div class="kicker">Alabama Democratic ideology and performance</div><h1>Five Democratic groupings, 1994&ndash;2022</h1><p class="dek">Every Democratic general-election candidate of the last eight cycles, grouped by the issue positions their roll calls, sponsorships, questionnaires and endorsements actually record &mdash; then measured against the fixed WAR reference model.</p></div>
+<p class="finding" id="headlineFinding"></p>
+<nav class="contents" aria-label="On this page"><a href="#groups">Groups</a><a href="#positions">Positions</a><a href="#performance">Performance</a><a href="#composition">Composition</a><a href="#members">Members</a><a href="#coverage">Coverage</a><a href="#limits">Limits</a><a href="#methods">Method</a></nav>
+<section id="groups"><div class="section-head"><div class="kicker">The groupings</div><h2>Five position profiles, formed without looking at any election result</h2><p>Clustering uses the eight ontology issue families only. Residual WAR, wins and incumbency are attached afterwards, so no electoral outcome can place a member in a group. Unscored candidate-cycles are seats with no contested general election; they are not zeros.</p></div><div id="groupGrid" class="group-grid"></div></section>
+<section id="positions"><div class="section-head"><div class="kicker">Issue profiles</div><h2>Where the groups actually differ</h2><p>Each mark is a group's mean on one issue family. Every row puts the pole this project codes as liberal on the left and the other pole on the right, so left always means the same thing. The count beside each row is how many people have evidence on that family; thin rows should be read as thin.</p></div><div class="panel"><ul id="profileLegend" class="group-legend"></ul><div id="profileChart"></div></div>
+<div class="panel" style="margin-top:14px"><div class="panel-pad"><b>People on two issue families</b><p class="note" style="margin:4px 0 0">Each mark is one person with evidence on both families, shaped and colored by group. Choose a group to outline it, or drag a box over marks to list those people in the members table.</p></div><ul class="group-legend toggles" id="scatterGroups" aria-label="Outline one group"></ul><div class="chart scatter-wrap" id="scatter"></div><div class="selection-bar" id="selectionBar" hidden></div></div></section>
+<section id="performance"><div class="section-head"><div class="kicker">Headline result</div><h2>Overperformance against the reference model</h2><p>WAR is the candidate-oriented race residual in two-party margin points: the actual legislative-minus-ticket gap minus the fitted structural expectation of the fixed 2018&ndash;24 reference model. Pre-2016 cycles are scored against modern partisan expectations, so early-era Democrats show large positive WAR partly by construction.</p></div><div class="panel"><div class="controls"><label>Measure<select id="measure"><option value="cycle">Cycle WAR (each contested race)</option><option value="career">Career cumulative WAR (per person)</option></select></label></div><div class="chart panel-pad" id="distribution"></div></div></section>
+<section id="composition"><div class="section-head"><div class="kicker">Composition</div><h2>Which groups the Democratic field contained, by cycle</h2><p>Counts are candidate-cycles whose person was grouped. A cycle&rsquo;s bar excludes candidates without enough issue evidence, so bars are not chamber totals.</p></div><div class="panel"><ul id="compositionLegend" class="group-legend"></ul><div id="compositionChart"></div></div></section>
+<section id="members"><div class="section-head"><div class="kicker">Members</div><h2>Every grouped person, with the evidence behind them</h2><p>Select a row for that person&rsquo;s issue profile. &ldquo;Families observed&rdquo; is how many of the eight issue families their record covers; three is the minimum to be grouped.</p></div><div class="panel"><div class="controls"><label>Search<input id="search" type="search" placeholder="Name or chamber"></label><label>Group<select id="groupFilter"></select></label></div><div class="explorer"><div class="table-wrap"><table><thead><tr><th>Person</th><th>Cycles</th><th>Group</th><th class="num">Families</th><th class="num">Career WAR</th><th class="num">Scored</th></tr></thead><tbody id="memberRows"></tbody></table></div><aside class="detail" id="detail" aria-live="polite"><p class="note" style="margin:0">Select a person to see their issue profile.</p></aside></div></div></section>
+<section id="coverage"><div class="section-head"><div class="kicker">Coverage</div><h2>Who is in the analysis, and who is not</h2><p>Nobody is dropped silently. People without enough issue evidence are counted and reported with the reason.</p></div><div class="panel"><div id="funnel"></div></div><div id="coverageGrid" class="coverage"></div></section>
+<section id="limits"><div class="section-head"><div class="kicker">How much to trust this</div><h2>Cluster sensitivity, stated plainly</h2><p>Each bar is an adjusted Rand index between the published grouping and the grouping produced by an alternative reasonable choice: 1.0 is identical, 0 is no better than chance. These are descriptive tendencies, not formal caucus membership.</p></div><div class="panel"><div id="sensitivity"></div></div><div class="method"><h3>What these groups are not</h3><p>They are not the Alabama Legislative Black Caucus or any other organised caucus, which have real membership rolls this analysis does not use. They are not a pre-election snapshot: a member&rsquo;s later roll calls help define the group used to read their earlier race. They are not causal &mdash; a group&rsquo;s mean WAR describes the races its members happened to run, including opponent quality and local conditions this measure cannot separate.</p></div></section>
+<section id="methods"><div class="section-head"><div class="kicker">Method and provenance</div><h2>How this page was produced</h2></div><div class="method"><h3>Grouping</h3><p id="methodCluster"></p></div><div class="method"><h3>WAR definition</h3><p>The residual framing follows <a href="https://split-ticket.org/2025/08/15/deconstructing-war/">Split Ticket&rsquo;s WAR methodology</a>; this Alabama implementation and its estimates are independent. Race WAR = actual legislative-minus-ticket gap minus the fitted structural expected gap. Democratic WAR is the race residual and Republican WAR is its exact negative. One fixed reference model, fitted on 2018&ndash;24 Southern races, scores every cycle; no era-specific refit is applied. Career cumulative WAR is the sum of a person&rsquo;s scored cycle WAR. No pooled individual effect, fundraising term, or ideology term enters WAR.</p></div><div class="method"><h3>Evidence</h3><p id="methodEvidence"></p></div><div class="method"><h3>Source credit</h3><p>Roll-call and bill records from <a href="https://legiscan.com/" target="_blank" rel="noopener">LegiScan</a> (CC BY 4.0) and the Alabama Legislature; candidate questionnaires and interest-group ratings summarised from <a href="https://justfacts.votesmart.org/" target="_blank" rel="noopener">Vote Smart</a>; election identities and totals from the Alabama Secretary of State. Only derived summaries are published here.</p></div><div class="method"><h3>Run</h3><p id="methodRun"></p></div></section>
+</main><div class="tip" id="tip" role="tooltip"></div>
+<script>const DATA=__DATA__;
+</script><script>__JS__</script></body></html>

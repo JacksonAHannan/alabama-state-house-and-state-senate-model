@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "purpose": "Display-only context layer for the public district maps; not an analytical input.",
+  "generated_at_utc": "2026-10-04T01:41:21.903896+00:00",
+  "git_commit": "178d6f4841855dbc4d5d85656421290343daaf8b",
+  "projection": "EPSG:5070",
+  "method": {
+    "counties": "2010 Census voting districts dissolved by county FIPS (Alabama county lines are unchanged since), simplified at 250 m",
+    "cities": "Representative points of the named 2024 Census incorporated places (LSAD 25)",
+    "metro_presets": "Envelope of the named city's 2024 place geometry buffered by 14,000 m; a zoom shortcut, not a metro definition"
+  },
+  "sources": [
+    {
+      "path": "data/raw/alabama_elections_and_geography/tl_2012_01_vtd10.zip",
+      "sha256": "28caeb79a139a5e0fb8454bdc3e554ee05593736ae21003d08f8067a1b9d191f",
+      "registry": "project_docs/audits/SOURCE_TERMS_AND_HYGIENE_2026_09_11.md (derived map output only)"
+    },
+    {
+      "path": "data/raw/census/tl_2024_01_place.zip",
+      "sha256": "5a6787d4caf39dc103a254879ad07e0fce047a93c0ea2f68c25432cb78ec3f4b",
+      "registry": "SOURCE-REGIONS-001"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "data/processed/site_geography/alabama_counties.geojson",
+      "sha256": "5fb5146ff84a3231fbdfa4abd61b99a11fb1469a580fcde180229440fc381fac"
+    },
+    {
+      "path": "data/processed/site_geography/alabama_cities.csv",
+      "sha256": "92f11a622c812c20c028789c43d9fae4c8ac9306ce41cffee65278140711f609"
+    }
+  ]
+}

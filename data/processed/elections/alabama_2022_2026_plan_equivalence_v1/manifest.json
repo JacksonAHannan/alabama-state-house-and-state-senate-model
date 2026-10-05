@@ -1,0 +1,60 @@
+{
+  "audit": "alabama_2022_2026_plan_equivalence_v1",
+  "generated_at_utc": "2026-10-04T06:23:25.851317+00:00",
+  "git_commit": "178d6f4841855dbc4d5d85656421290343daaf8b",
+  "code_sha256": "f88dd5630ccfde23e8e0c8f3530b334a2ff5ed0632c78ff30aca3d55c31fe5fa",
+  "rule": {
+    "primary": "identical block sets: Census 2022 SLD BEF vs warehouse RDH-NATIONAL-2024-SLD-BAF",
+    "display": "TIGER 2025 page polygon IoU >= 0.995 against the 2021 enacted shapefile, EPSG:5070"
+  },
+  "conditional_districts": [
+    "senate-25",
+    "senate-26"
+  ],
+  "condition": "Conditional: a 2025 court-ordered remedial Senate plan redrew SD25 and SD26; the 2021 plan was reinstated on 2026-05-29. Equivalence holds while the 2021 plan governs the 2026 general election.",
+  "inputs": [
+    {
+      "path": "data/raw/census/sldl_2022.zip",
+      "sha256": "531f7843f9d34d744f989ead86d7589f96ea8fa672f416a895f5a7283f5de36f"
+    },
+    {
+      "path": "data/raw/census/sldu_2022.zip",
+      "sha256": "3e1138aed2428f4766017c84bfa264295a520a2d0d4c6c94a768dd0b73f2c125"
+    },
+    {
+      "path": "data/raw/alabama_elections_and_geography/tl_2025_01_sldl/tl_2025_01_sldl.shp",
+      "sha256": "f2840e15bca51803af064448c05fd719cc6565e36475729dfc1c92da73238333"
+    },
+    {
+      "path": "data/raw/alabama_elections_and_geography/tl_2025_01_sldu/tl_2025_01_sldu.shp",
+      "sha256": "fbc4422076d5a119d51d5e1846d56d4e5b95d91d451cf5b54299a6a6093012b8"
+    },
+    {
+      "path": "data/raw/alabama_elections_and_geography/al_sldl_2021_to_2023.zip",
+      "sha256": "edbd7475b97be1b2b38e76104629804179860d98affd415eb3908dc3bbf8c1d9"
+    },
+    {
+      "path": "data/raw/alabama_elections_and_geography/al_sldu_2021_to_2023.zip",
+      "sha256": "6adf644ec4fc8a941494952d2fbe80051bf9e129597ec4992d3f021d5f759a02"
+    },
+    {
+      "table": "bridge_southern_block_district_assignment",
+      "source_file_id": "RDH-NATIONAL-2024-SLD-BAF"
+    }
+  ],
+  "counts": {
+    "house": {
+      "districts": 105,
+      "equivalent": 105
+    },
+    "senate": {
+      "districts": 35,
+      "equivalent": 35
+    }
+  },
+  "output": {
+    "path": "data/processed/elections/alabama_2022_2026_plan_equivalence_v1/district_equivalence.csv",
+    "rows": 140,
+    "sha256": "d454f521adafb2933e25cf2d15a7d2fd0e6d9c668d487feee1332f5dbc9f34a2"
+  }
+}

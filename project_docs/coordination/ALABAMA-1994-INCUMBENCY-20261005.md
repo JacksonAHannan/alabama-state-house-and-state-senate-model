@@ -1,0 +1,52 @@
+# Task contract: ALABAMA-1994-INCUMBENCY-20261005 1994 incumbency into historical WAR
+
+- Accountable role: `elections_geography` (evidence) and `cmo_model` (rebuild)
+- Owner: `/root` (primary). Wikipedia research is delegated to one read-only research agent.
+- Status: `review`
+- Objective: Make 1994 incumbency reach the historical WAR backcast, using an evidence-backed 1994 incumbent list.
+- Product/layer and checklist IDs: historical Alabama WAR (1994 backcast inputs); follow-up to `ALABAMA-1994-PARTY-LABELS-20261004` (`roadmap-08`).
+- Owner instruction (2026-10-05): "Fix the older problems." Research the 1994 incumbents on Wikipedia through the MCP server.
+- Findings that motivate this task:
+  - **Merge bug.** `build_canonical_cmo_features.py` never applies the 1994 context incumbency. Its 1994 mask tests `demographics_method`, but the merged value lands in `demographics_method_historical`. As a result, every 1994 race has `incumbency_balance = 0`.
+  - **Matcher errors.** The 1994 surname matcher has known errors: the HD75 Holley false positive, and about 18 incumbents missed against Klarner.
+- Non-goals:
+  - No change outside 1994 rows.
+  - No change to the incumbency method for other cycles.
+  - No warehouse writes beyond the existing 1994-scoped builders.
+  - No publication.
+- Upstream snapshot: warehouse run `RUN-9BDA412C4AD042C9A1F048C781525670` (1994 repair applied); historical WAR `AL-HIST-WAR-V1-F9D2E0FDE6D38F490402`.
+- Read scope:
+  - the warehouse (read-only)
+  - `data/processed/elections/1994_candidate_incumbency.csv`
+  - Klarner tables
+  - Wikipedia, through the MCP server
+- Write scope:
+  - `data/raw/wikipedia/alabama_1994_incumbency/` — new raw article snapshots and their manifest
+  - `data/manual/elections/alabama_1994_incumbency_adjudications.csv`
+  - `scripts/build_1994_context_features.py` and `scripts/tests/test_1994_context_features.py`
+  - `scripts/build_canonical_cmo_features.py`
+  - the rebuild outputs already claimed by `ALABAMA-1994-PARTY-LABELS-20261004`
+  - `project_docs/audits/ALABAMA_1994_INCUMBENCY_2026_10_05.md`
+- Warehouse mode: 1994-scoped builder writes only.
+- Acceptance checks:
+  - Every 1994 D-vs-R candidate has an incumbency value backed by Wikipedia evidence, or an explicit `unknown`.
+  - Every disagreement among the matcher, Klarner and Wikipedia is adjudicated with evidence.
+  - Non-1994 rows are unchanged.
+  - 1994 `incumbency_balance` is no longer identically zero.
+  - Focused tests pass.
+- Review requirement: independent review before publication.
+- Publication authority: none.
+- Known risks:
+  - Wikipedia district articles list officeholders by district number; the 1993 redistricting renumbered and redrew districts.
+  - Wikipedia is a tertiary source (CC BY-SA 4.0). Where it conflicts with Klarner or the official records, the conflict is recorded rather than silently resolved.
+
+## Handoff state (2026-10-05)
+
+- **Implemented.** The two defects are fixed, as described in section 1 of the audit (`audits/ALABAMA_1994_INCUMBENCY_2026_10_05.md`):
+  - the 1994 merge mask;
+  - the pre-2010 candidate incumbency labels.
+- **Adjudications.** The Wikipedia research produced 25 records, now applied. HD10 Haney is in the review queue.
+- **Rebuilt.** The 1994 context, canonical features, CMO v5, historical WAR (`AL-HIST-WAR-V1-F9DF2D2E6C12C696A705`), career WAR, caucuses, the caucus and WAR pages, and the preview stage.
+- **Unaffected.** The forecast: its candidate-history inputs are byte-identical.
+- **Tests.** All pass except the expected publication-consistency failure.
+- **Next safe action.** Independent review of the adjudications and the rebuilt 1994 WAR, then optional cross-checks against official records and the pre-election roster. Publication needs separate authorization.

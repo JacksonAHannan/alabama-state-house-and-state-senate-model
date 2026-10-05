@@ -1,9 +1,4 @@
 county_key,precinct_key,office,party_norm,votes,chamber
-COVINGTN,72,Attorney General,D,12.0,house
-COVINGTN,92,Attorney General,D,43.0,house
-COVINGTN,94,Attorney General,D,56.0,house
-COVINGTN,221,Attorney General,D,27.0,house
-COVINGTN,242,Attorney General,D,50.0,house
 JACKSON,889,Attorney General,D,1.0,house
 JEFFERSN,39,Attorney General,D,0.0,house
 JEFFERSN,95,Attorney General,D,0.0,house
@@ -34,11 +29,6 @@ MARSHALL,2032,Attorney General,D,0.0,house
 MORGAN,1001,Attorney General,D,113.0,house
 MORGAN,11001,Attorney General,D,85.0,house
 SHELBY,3,Attorney General,D,0.0,house
-COVINGTN,72,Governor,D,22.0,house
-COVINGTN,92,Governor,D,57.0,house
-COVINGTN,94,Governor,D,65.0,house
-COVINGTN,221,Governor,D,34.0,house
-COVINGTN,242,Governor,D,53.0,house
 JACKSON,889,Governor,D,1.0,house
 JEFFERSN,39,Governor,D,0.0,house
 JEFFERSN,95,Governor,D,0.0,house
@@ -69,11 +59,6 @@ MARSHALL,2032,Governor,D,0.0,house
 MORGAN,1001,Governor,D,120.0,house
 MORGAN,11001,Governor,D,94.0,house
 SHELBY,3,Governor,D,0.0,house
-COVINGTN,72,Governor,R,34.0,house
-COVINGTN,92,Governor,R,68.0,house
-COVINGTN,94,Governor,R,55.0,house
-COVINGTN,221,Governor,R,40.0,house
-COVINGTN,242,Governor,R,35.0,house
 JACKSON,889,Governor,R,3.0,house
 JEFFERSN,39,Governor,R,0.0,house
 JEFFERSN,95,Governor,R,0.0,house
@@ -104,11 +89,6 @@ MARSHALL,2032,Governor,R,0.0,house
 MORGAN,1001,Governor,R,82.0,house
 MORGAN,11001,Governor,R,113.0,house
 SHELBY,3,Governor,R,0.0,house
-COVINGTN,72,Attorney General,R,44.0,house
-COVINGTN,92,Attorney General,R,73.0,house
-COVINGTN,94,Attorney General,R,50.0,house
-COVINGTN,221,Attorney General,R,38.0,house
-COVINGTN,242,Attorney General,R,31.0,house
 JACKSON,889,Attorney General,R,3.0,house
 JEFFERSN,39,Attorney General,R,0.0,house
 JEFFERSN,95,Attorney General,R,0.0,house

@@ -10,6 +10,7 @@ __pycache__/
 /.claude/worktrees/
 /local_archive/
 /artifacts/site/*.html
+/artifacts/site/data/
 /artifacts/blue_oxblood_site/
 /artifacts/*.png
 /artifacts/*.js
@@ -45,3 +46,6 @@ __pycache__/
 /AGENTS.local-before-rebase.md
 /artifacts/war/canonical_identity_rebuild_20260911/scratch_warehouse.sqlite
 /data/processed/precinct_history/approximate_*_precincts.gpkg
+
+# Silver Bulletin daily-average series: a direct transform of an unreviewed-terms chart snapshot (data/raw is ignored too)
+/data/processed/polling/silver_bulletin_generic_ballot_series.csv

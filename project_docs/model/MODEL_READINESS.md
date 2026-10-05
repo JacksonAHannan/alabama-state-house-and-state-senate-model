@@ -264,8 +264,11 @@ Boothe). Candidate-level evidence is recorded in
    for 2018 onward. The smaller contemporary sample performs much better in
    absolute error but remains too limited for strong cross-cycle claims.
 5. Refit after 2026 results become available. A fourth cycle is the most useful
-   addition for measuring generalization, particularly because the 2026 Senate
-   geography uses the remedial plan.
+   addition for measuring generalization. (Corrected 2026-10-05: the 2026 Senate
+   geography is the reinstated 2021 plan, not the remedial plan. A 2025
+   court-ordered remedial map redrew SD25/SD26 and was lifted on 2026-05-29; see
+   `data/processed/elections/alabama_2022_2026_plan_equivalence_v1/`, where all
+   140 districts match their 2022 blocks.)
 
 ## Rebuild and validate
 

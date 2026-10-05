@@ -1,0 +1,21 @@
+{
+  "source": "Silver Bulletin generic congressional ballot average (public daily-average chart)",
+  "snapshot": {
+    "file": "silver_bulletin_generic_ballot_average_retrieved_2026-10-05.csv",
+    "source_page": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+    "chart_url": "https://datawrapper.dwcdn.net/rfiFi/4347/",
+    "dataset_url": "https://datawrapper.dwcdn.net/rfiFi/4347/dataset.csv",
+    "retrieved_at_utc": "2026-10-05T21:17:54Z",
+    "sha256": "5a4f708be1b56fb81b29a1f4077a214c80bb526de512098d7955a370bd876b60",
+    "rows": "627",
+    "first_date": "2025-01-17",
+    "last_date": "2026-10-05",
+    "terms": "Silver Bulletin public chart data; terms not reviewed; data/raw is git-ignored and not redistributed",
+    "note": "Daily topline average shown on the tracker page; subscriber poll-level data not used"
+  },
+  "outputs": {
+    "silver_bulletin_generic_ballot_series.csv": "5a3b9522cd845c664a08bc17b19a9a9413ad225b8209d9aa5d112934e9c575cc",
+    "silver_bulletin_generic_ballot_environment.csv": "8ce000c40c413d688d30e41618406e48325ffb99d72d54459be11afccb462c69"
+  },
+  "two_party_margin_rule": "100 * (dem - rep) / (dem + rep)"
+}
