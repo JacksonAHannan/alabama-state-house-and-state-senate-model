@@ -1,33 +1,33 @@
 {
   "career_war_version": "alabama_career_war_v1",
-  "generated_at_utc": "2026-09-15T02:41:36.581333+00:00",
-  "git_commit": "9103594b550bb515fb4f662ef4b49c4e51cb69e1",
-  "historical_war_run_id": "AL-HIST-WAR-V1-0E018273EBEDEEEFAD75",
+  "generated_at_utc": "2026-10-05T22:05:18.295605+00:00",
+  "git_commit": "178d6f4841855dbc4d5d85656421290343daaf8b",
+  "historical_war_run_id": "AL-HIST-WAR-V1-F9DF2D2E6C12C696A705",
   "definition": "career_war = sum of a person's scored candidate-cycle WAR, in two-party margin points",
   "identity_rule": "canonical person_id; 2022 source stubs are folded into an earlier person only when the normalized name matches exactly one of them, otherwise left unresolved",
   "inputs": [
     {
       "path": "data/processed/war/alabama_historical_war_v1/candidate_cycle_war.csv",
-      "sha256": "24819478615f6cdd4dd4a86b1c97546c9075b1287ace904d16cbdfb991d9f672"
+      "sha256": "96dc9e7fcba10756e2e21cc4097b796dd03bda37608fc310d26d5ae2e624301d"
     }
   ],
   "outputs": [
     {
       "path": "data/processed/war/alabama_career_war_v1/career_war.csv",
-      "rows": 849,
-      "sha256": "50c0292be7663f0f8bcaffa8885b5214e0276ad9396969fc05766835e0d05c5b"
+      "rows": 839,
+      "sha256": "cb95ce81532f445bffae8db8e382064e2550152c6c05de15274ac28af3ce7577"
     }
   ],
   "diagnostics": {
-    "people": 849,
-    "scored_candidate_cycles": 1020,
-    "multi_cycle_people": 138,
+    "people": 839,
+    "scored_candidate_cycles": 1006,
+    "multi_cycle_people": 134,
     "identity_methods": {
-      "canonical_person_id": 970,
-      "unresolved_source_stub": 43,
-      "stub_folded_by_exact_unique_name": 7
+      "canonical_person_id": 940,
+      "unresolved_source_stub": 55,
+      "stub_folded_by_exact_unique_name": 11
     },
-    "max_career_war": 124.19636819903936,
-    "min_career_war": -116.81792007087239
+    "max_career_war": 116.48018138983952,
+    "min_career_war": -98.398419907401
   }
 }

@@ -81,7 +81,8 @@ def test_public_pages_describe_current_runs() -> None:
     cmo_method = (DOCS / "cmo-methodology.html").read_text(encoding="utf-8")
     headline_mae = selected_headline_mae()
 
-    assert "Forecast and polling-error scenarios" in forecast
+    # 2026-10 redesign: the scenario selector is the "Forecast view" tablist.
+    assert 'aria-label="Forecast view"' in forecast and "Forecast view" in forecast
     assert "Dem scenario" in forecast and "Rep scenario" in forecast
     assert "Student-t" in forecast_method
     assert "eligible Southern races after 2016 and before 2022" in forecast_method
@@ -163,10 +164,9 @@ def test_public_ideology_and_caucus_routes_are_merged() -> None:
     assert 'url=ideology-performance.html#groups' in caucus
     payload = json.loads(re.search(r"const DATA=(\{.*?\});\n", ideology, re.S).group(1))
     assert payload["schemaVersion"] == 4
-    assert {group["label"] for group in payload["groups"]} == {
-        "Progressive Democrats", "Mainstream statehouse Democrats", "Institutional traditionalists",
-        "Rural labor Democrats", "Old-guard conservative Democrats",
-    }
+    # Owner-approved 2026-10-04 for the two-group solution (five-group labels kept in
+    # data/manual/ideology/backups/).
+    assert {group["label"] for group in payload["groups"]} == {"Progressive Democrats", "Traditional Democrats"}
     assert "not formal caucus membership" in ideology
     members = payload["members"]
     assert members and all(row["cluster_rank"] in {1, 2, 3, 4, 5} for row in members)

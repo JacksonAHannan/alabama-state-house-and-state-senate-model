@@ -25,8 +25,11 @@ def test_historical_map_restores_every_cycle_and_chamber() -> None:
         1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022,
     }
     assert {section["chamber"] for section in payload.values()} == {"house", "senate"}
-    assert sum(section["summary"]["races"] for section in payload.values()) == 510
-    assert sum(len(section["candidates"]) for section in payload.values()) == 1_020
+    # 504 races after the 1994 party-label repair; 1994 House 1 is withheld by adjudication
+    # and appears only through the no-score panel, so 503 scored races are drawn.
+    assert sum(section["summary"]["races"] for section in payload.values()) == 503
+    assert sum(len(section["candidates"]) for section in payload.values()) == 1_006
+    assert payload["1994-house"]["districtStatus"]["1"].startswith("Contested D–R race; WAR withheld")
     assert 'id="map"' in html
     assert "function renderMap" in html
 
